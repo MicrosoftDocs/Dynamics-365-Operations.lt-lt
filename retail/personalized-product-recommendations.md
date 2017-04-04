@@ -41,14 +41,14 @@ Produktų rekomendacijos yra įgalintas šių POS scenarijų. Jie debesis POS ir
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Dėl to **operacija** puslapis:
+2.  Dėl to **operacija** puslapis:
 
 -   Rekomendacija variklis rodo elementus, atsižvelgiant į visą sąrašą prekių į krepšelį.
 -   Jei parduotuvėje susieti prideda klientą į operaciją, rekomendacija variklis suteikia asmeninių rekomendacijų, naudojant kliento operacijų istorija ir elementų sąrašas į krepšelį.
 
 **Pastaba** Rodyti rekomendacijas dėl **operacija** puslapyje, agentas turi atnaujinti ekrano išdėstymas Dynamics 365 operacijoms. Į **rekomendacijų** kontrolė turi būti atsisakyta į į **operacija** puslapis. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Dėl to **Kontaktinis asmuo** puslapis:
+3.  Dėl to **Kontaktinis asmuo** puslapis:
     -   Rekomendacija variklis siūlo prekes pagal vartotojo ID bei kliento pageidavimų sąrašo elementus.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
