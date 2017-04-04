@@ -1,0 +1,64 @@
+---
+title: "Pateikti gamybos užsakymus"
+description: "Išleistas gamybos užsakymas yra užsakymas, kurį leista gaminti. Terminas Išleistas naudojamas apibūdinti gamybos užsakymo ciklo būsenai, kai gamybos užsakymą galima vykdyti gamybos ceche ir atliekant sandėlio procesus."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: ProdParmRelease
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2414
+ms.assetid: 50c2257b-2924-44f5-b7c1-11f498092053
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: johanho
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="release-production-orders"></a>Pateikti gamybos užsakymus
+
+Išleistas gamybos užsakymas yra užsakymas, kurį leista gaminti. Terminas Išleistas naudojamas apibūdinti gamybos užsakymo ciklo būsenai, kai gamybos užsakymą galima vykdyti gamybos ceche ir atliekant sandėlio procesus. 
+
+<a name="characteristics-of-the-released-state"></a>Būsenos Patvirtinta charakteristikos
+-------------------------------------
+
+Būsena **Patvirtinta** yra viena gamybos užsakymo ciklo būsenų. Gamybos užsakymus, kurie yra būsenos **Patvirtinta**, galima vykdyti gamybos ceche ir atliekant sandėlio procesus. Būsenos **Patvirtinta** charakteristikos yra tokios:
+
+-   Gamybos užsakymo būseną galima pakeisti į **Patvirtinta** gamybos užsakyme arba vykdant paketinį vykdymą. Gamybos užsakymą taip pat galima atnaujinti automatiškai suplanuotuose gamybos užsakymuose, patvirtintuose puslapio **Bendrasis planas** lauke **Tvirtinimo laiko ribos**.
+-   Būsena **patvirtintų** yra cecho operatoriams (operatoriams) skirtas signalas pradėti vykdyti gamybos užduotis ceche.
+-   Gamybos dokumentai, pvz., maršruto kortelės, maršruto užduotys ir užduočių kortelės, suteikia informacijos apie gamybos užduotis ir gali būti išduodami.
+-   Esant faktiškai rezervuotų medžiagų, generuojamas sandėlio darbas, kad būtų galima pasirinkti gamybos užsakymo medžiagas.
+
+## <a name="releasing-jobs-to-the-shop-floor"></a>Užduočių perdavimas į cechą
+Išleidus gamybos užsakymą, su užsakymu susijusios gamybos užduotys yra matomos ir paruoštos registruoti. Ūkio subjektai gali padaryti užduočių registracijas, pvz., pradėti, sustabdyti ir baigti, bet dėl **darbo kortelės terminalo** puslapis arba **darbo kortelės įrenginį** puslapis. Registruotas laikas ir kiekis yra automatiškai perkeliami iš registracijos puslapių į gamybos žurnaluose stebėti, suvartotų laiko ir kiekio.
+
+## <a name="route-cards"></a>Technologinės kortelės
+Technologinė kortelė pateikia informacijos, gaunamos iš maršruto ir operacijų nustatymų bei iš operacijų ir užduočių planavimo metodų, apžvalgą.
+
+## <a name="route-jobs"></a>Maršruto užduotys
+Maršruto užduotyje pateikiama kiekviena smulki operacijos užduotis ir įtraukiamas nustatymo, proceso, laukimo eilėje ir transportavimo laikas. Pavyzdžiui, tokiai operacijai, kaip dažymas, gali prireikti atskirų užduočių, tokių kaip nustatymo laikas, dažymo proceso laikas ir laukimo eilėje laikas džiūvimui.
+
+## <a name="job-cards"></a>Užduočių kortelės
+Užduoties kortelė pateikia atskirų užduočių numerius tam tikrai operacijai. Kiekviename puslapyje pateikiama viena užduotis. Užduoties kortelėje įtraukiamos užduotys ir jų numatomi laikai gaunami iš maršruto ir operacijos nustatymo informacijos. Užduoties kortelėje galite atidaryti puslapį **Gamybos žurnalo eilutės**, **užduoties kortelė**. Žmonės, prižiūrintys operacijų išteklius, gali pateikti atsiliepimus apie gamybos procesą. Yra laukų kur galite įvesti suvartojimo statistiką ir informaciją, tokią kaip klaidų kiekis.
+
+## <a name="warehouse-work-for-raw-material-picking"></a>Sandėlio darbas žaliavoms paimti
+Žaliavų paėmimo darbas generuojamas paleidimo metu. Darbas yra sukurtas tik už tą kiekį medžiagų, kuris buvo faktiškai rezervuotas gamybos užsakymo prieš užsakymą buvo išleistas. Šie nustatymai yra reikalingi generuoti sandėlio darbą žaliavų paėmimo:
+
+-   Žaliavų paėmimo vietos nurodymas nustato, iš kurios sandėlio vietos paimti medžiagas
+-   Žaliavų bangos šablonas, kuriame sukonfigūruotos sandėlio darbo vykdymo strategijos
+-   Gamybos įvesties vieta, nurodanti, kur dedamos medžiagos
+
+
+

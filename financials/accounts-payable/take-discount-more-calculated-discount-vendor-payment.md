@@ -1,0 +1,49 @@
+---
+title: "Imtis, yra didesnis už apskaičiuotą nuolaidą tiekėjo mokėjimo nuolaida"
+description: "Šiame straipsnyje apžvelgiamas scenarijus, kai paimama didesnės sumos mokėjimo nuolaida už iš pradžių sąskaitoje faktūroje nurodytą nuolaidą. Toks scenarijus galimas, jei organizacija susitaria su tiekėju mokėti mažesnę SF sumą."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14281
+ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 22ba73681faa509a5144517163cc173a1267a534
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Imtis, yra didesnis už apskaičiuotą nuolaidą tiekėjo mokėjimo nuolaida
+
+Šiame straipsnyje apžvelgiamas scenarijus, kai paimama didesnės sumos mokėjimo nuolaida už iš pradžių sąskaitoje faktūroje nurodytą nuolaidą. Toks scenarijus galimas, jei organizacija susitaria su tiekėju mokėti mažesnę SF sumą. 
+
+Tiekėjas 3051 suteikia „Fabrikam“ 4 procentų mokėjimo nuolaidą, jei sąskaita faktūra apmokama per septynias dienas. Birželio 29 d. April įveda sąskaitą faktūrą 1000,00 sumai. Tiekėjas leidžia April pritaikyti 60,00 nuolaidą vietoj numatytosios 40,00 nuolaidos, kuri galima sąskaitai faktūrai. April įrašo vienkartinį mokėjimą naudodama Mokėtinų sąskaitų mokėjimo žurnalą. Ji patenka į tiekėjo mokėjimo ir tada atidaroįrenginiai ir **atsiskaitymams** puslapis. Ji žymi sąskaitą-faktūrą ir pakeičia reikšmę į **mokėjimo nuolaidos suma** lauko į **60,00**.
+| Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
+|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
+| Pasirinkta | Įprastas            | SF-10040 | 3051    | 2015-06-29 | 7/29/2015 | 10040   | 1000,00                       | USD      | 940,00           |
+
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas **apačioje.
+|                              |           |
+|------------------------------|-----------|
+| Mokėjimo nuolaidos data           | 2015-07-12 |
+| Mokėjimo nuolaidos suma         | 60,00     |
+| Naudokite mokėjimo nuolaidą            | Įprastas    |
+| Pritaikyta mokėjimo nuolaida          | 0,00      |
+| Taikytinos mokėjimo nuolaidos suma | 60,00     |
+
+April užregistruoja mokėjimų žurnalą. Sąskaita faktūra yra visiškai sudengta naudojant 940.00 mokėjimą ir 60,00 nuolaida.
+
+

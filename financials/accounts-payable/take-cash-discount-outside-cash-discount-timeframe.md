@@ -1,0 +1,91 @@
+---
+title: "Priimti mokėjimo nuolaida ne mokėjimo nuolaida laikotarpio"
+description: "Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14301
+ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
+ms.openlocfilehash: bea9565f488c01e5e6aede8cabe73ac13b75dacb
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Priimti mokėjimo nuolaida ne mokėjimo nuolaida laikotarpio
+
+Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu.
+
+Birželio 28 d., balandžio sukuria 2,000.00 3052 tiekėjo SF. Sąskaitos faktūros turi 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų.
+
+## <a name="use-cash-discount-option--always"></a>Naudokite mokėjimo nuolaidos pasirinktį = Visada
+April sukuria mokėjimą liepos 1 d., o tai yra po nuolaidos datos. April atidaro puslapį **Sudengti operacijas**, norėdama peržiūrėti operacijas, kurias galima sudengti. 
+
+April pažymi sąskaitą faktūrą apmokėti. Netaikoma jokia mokėjimo nuolaida, nes mokėjimas atliktas praėjus nuolaidos laikotarpiui. Tačiau pardavėjas suteikė balandžio patvirtinimo priimti mokėjimo nuolaida bet kokiu atveju. Todėl balandžio pakeičia reikšmę ir **naudoti mokėjimo grynaisiais nuolaidą** lauko į **visada**.
+
+| Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Mokėjimo nuolaidos data | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
+|----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Pasirinkta | Visada            | SF-10030 | 3052    | 2015-06-28          | 2015-07-12 | 10030   | -2000,00.                      | USD      | -1980,00.        |
+
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas **apačioje.
+
+|                              |           |
+|------------------------------|-----------|
+| Mokėjimo nuolaidos data           | 2015-07-12 |
+| Mokėjimo nuolaidos suma         | –20,00    |
+| Naudokite mokėjimo nuolaidą            | Visada    |
+| Pritaikyta mokėjimo nuolaida          | 0,00      |
+| Taikytinos mokėjimo nuolaidos suma | –20,00    |
+
+## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Data, naudojama skaičiuojant nuolaidas = Pasirinkta data
+Jei užregistruota ir sąskaita faktūra, ir mokėjimas, mokėjimo nuolaidą vis dar galima taikyti ir sudengus operacijas puslapyje **Sudengti operacijas**. April pakeičia vertę lauke **Data, naudojama skaičiuojant nuolaidas** į **Pasirinkta data**. Tada ji įveda birželio 28 d. datą, kuri patenka į tos sąskaitos faktūros mokėjimo nuolaidos laikotarpį. Ta data naudojama apskaičiuoti operacijos mokėjimo nuolaidą. Puslapyje **Sudengti atviras operacijas** April mato, kad pagal numatytuosius nustatymus rodoma visa 20,00 nuolaida. Sąskaitos faktūros eilutėje rodoma, kad sudengtina suma yra 1980,00.
+
+| Žymėti                     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Mokėjimo nuolaidos data | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
+|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Pasirinkta ir paryškinta | Įprastas            | SF-10030 | 3052    | 2015-06-28          | 2015-07-12 | 10030   | -2000,00.                      | USD      | -1980,00.        |
+| Pasirinkta                 | Įprastas            | PROG-10030 | 3052    | 7/15/2015          | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje. Pritaikomos nuolaidos suma yra 20,00, nes sudengtina sąskaitos faktūros suma yra numatytoji 1980,00 suma.
+
+|                              |           |
+|------------------------------|-----------|
+| Mokėjimo nuolaidos data           | 2015-07-12 |
+| Mokėjimo nuolaidos suma         | –20,00    |
+| Naudokite mokėjimo nuolaidą            | Įprastas    |
+| Pritaikyta mokėjimo nuolaida          | 0,00      |
+| Taikytinos mokėjimo nuolaidos suma | –20,00    |
+
+April pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vertė lauke **Taikytinos mokėjimo nuolaidos suma** yra apskaičiuota **5,05**.
+
+| Žymėti                     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
+|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
+| Pasirinkta ir paryškinta | Įprastas            | SF-10030 | 3052    | 2015-06-28 | 2015-07-12 | 10030   | 2,000.00                       | USD      | –500,00          |
+| Pasirinkta                 | Įprastas            | PROG-10030 | 3052    | 7/15/2015 | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje. Vertė lauke **Taikytinos mokėjimo nuolaidos suma** yra **5,05**, nes sudengtina sąskaitos faktūros suma buvo pakeista į 500,00 mokėjimo sumą.
+
+|                              |           |
+|------------------------------|-----------|
+| Mokėjimo nuolaidos data           | 2015-07-12 |
+| Mokėjimo nuolaidos suma         | –20,00    |
+| Naudokite mokėjimo nuolaidą            | Įprastas    |
+| Pritaikyta mokėjimo nuolaida          | 0,00      |
+| Taikytinos mokėjimo nuolaidos suma | –5,05     |
+
+
+
+

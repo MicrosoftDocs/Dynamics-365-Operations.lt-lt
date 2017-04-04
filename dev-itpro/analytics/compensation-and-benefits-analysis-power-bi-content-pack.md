@@ -1,0 +1,85 @@
+---
+title: "Kompensacijos ir išmokos Power BI turinys"
+description: "Šioje temoje aprašoma Dynamics 365 operacijų - kompensacijos ir išmokos Power BI turinio. Jis paaiškina, kaip pasiekti ataskaitas, kurios įtraukiamos į turinio paketą, ir pateikia informaciją apie duomenų modelio ir subjektai, kurie buvo naudojami sukurti turinio paketas."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User, IT Pro
+ms.search.scope: Operations
+ms.custom: 263914
+ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
+ms.openlocfilehash: 557f9218032e2b1160b6ea0631ada951353d2afd
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="compensation-and-benefits-power-bi-content"></a>Kompensacijos ir išmokos Power BI turinys
+
+Šioje temoje aprašoma Dynamics 365 operacijų - kompensacijos ir išmokos Power BI turinio. Jis paaiškina, kaip pasiekti ataskaitas, kurios įtraukiamos į turinio paketą, ir pateikia informaciją apie duomenų modelio ir subjektai, kurie buvo naudojami sukurti turinio paketas.
+
+<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketas
+--------------------------
+
+Kompensacijų ir priedų turinio paketą galite rasti bendro naudojimo turto bibliotekoje Microsoft Dynamics gyvavimo ciklo paslaugų (LKD). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie savo "Microsoft Dynamics 365" operacijų duomenų, rasite [LCS iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md).
+
+## <a name="reports-that-are-included-in-the-content-pack"></a>Pranešimų, kurie yra įtraukti į turinio paketas
+Prijungę turinio pack Dynamics "365" operacijų duomenų ataskaitose nurodoma organizacijos duomenis. Jei niekada nenaudojote "Microsoft" Power BI prieš, galite sužinoti daugiau apie tai ant to [vadovaujasi mokymosi puslapis, Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Pranešimų, kurie yra įtraukti į turinio paketas yra diagramos ir lentelės, kuriose papildomos informacijos. Tolesnėje lentelėje aprašomos ataskaitos.
+
+| Ataskaita                     | Turinys                                                                                                                              |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| COMP ir naudos analizė | Valandinis ir pastovų atlyginimą gaunančių darbuotojų bendrovė, vidutinis valandinis darbo užmokestis, vidutinis samdomo darbo užmokesčio, darbuotojai pagal darbo tipą ir planuoti registracijos |
+| Išmokos darbuotojams          | Darbuotojo registracijos iš pasirinkto nauda                                                                                               |
+
+Galite filtruoti diagramas bei plyteles ant šios ataskaitos ir grafikai ir plytelės prie prietaisù skydelio. Daugiau informacijos apie filtro ir PIN kodą, Power BI, rasite [kurti ir konfigūruoti ataskaitų srities A](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+
+## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
+Dinamika 365 operacijų duomenys yra naudojamas užpildyti ataskaitos kompensacijų ir priedų turinio paketas. Šioje lentelėje subjektų buvo pagrįsta turinio paketas.
+
+| Objektas                            | Turinys                                                                                                   | Santykių su kitais subjektais                                                                                                                                                                                                                                                                                                |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Darbo jėgos\_CalendarOffset         | Kalendorinių kompensuoja gabaliuką ataskaitas                                                                          | Darbo jėgos\_PastPositionAssignment darbo\_PositionTrend Workorce\_WorkerTrend darbo jėgos\_TerminatedWorker                                                                                                                                                                                                                     |
+| Darbo jėgos\_įmonė                | Bendrovės filtruoti ataskaitas                                                                             | Darbo jėgos\_CurrentCompensation darbo\_CurrentWorker darbo jėgos\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
+| Darbo jėgos\_kompensacijos           | Užmokesčio tarifas ir dažnis bėgant                                                                           | Darbo jėgos\_CurrentCompensation darbo\_CurrentWorker darbo jėgos\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
+| Darbo jėgos\_CurrentCompensation    | Mokėjimo koeficientą ir dažnių esamą                                                              | Darbo jėgos\_įmonės darbuotojų\_kompensacijos darbuotojams\_darbo jėgos demografija\_darbo jėgos\_pozicija                                                                                                                                                                                                                            |
+| Darbo jėgos\_CurrentPosition        | Pozicijas nuo dabartinės datos, dirbančius (FTE), atvirų pozicijų ir atidaryti užpildyti vietas | Darbo jėgos\_darbo jėgos\_pozicija                                                                                                                                                                                                                                                                                               |
+| Darbo jėgos\_CurrentWorker          | Darbuotojų dabartinės datos, amžiaus ir skaičiaus apskaičiavimas                                                         | Darbo jėgos\_įmonės darbuotojų\_kompensacijos darbuotojams\_GeographicLocation darbo jėgos\_darbo jėgos našumo\_WorkerName darbo jėgos\_ReportsToWorkerName darbo jėgos\_WorkerTitle darbo jėgos\_darbo jėgos demografija\_darbo jėgos\_darbo jėgos\_pozicija darbo jėgos\_WorkerBenefit                                            |
+| Darbo jėgos\_dienos                   | Dienas, savaites, mėnesius ir metus                                                                             | Darbo jėgos\_PastPositionAssignment darbo\_PositionTrend darbo jėgos\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                     |
+| Darbo jėgos\_demografija           | Data gimimo, lyties, etninės kilmės ir šeimyninė padėtis                                                   | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_darbo             | Pradžios data, pabaigos data ir perėjimo data                                                                  | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_GeographicLocation     | Miesto, apskrities, pašto kodas, ir valstiją arba provinciją                                                           | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_darbo                    | Funkciją, tipas ir pavadinimas                                                                                  | Darbo jėgos\_CurrentPosition darbo\_CurrentWorker                                                                                                                                                                                                                                                                              |
+| Darbo jėgos\_PastPositionAssignment | Priskyrimo priežastis, pradžios datą, pabaigos datą ir darbo                                                           | Darbo jėgos\_CalendarOffset darbo jėgos\_šiol darbo jėgos\_darbo jėgos\_pozicija                                                                                                                                                                                                                                                     |
+| Darbo jėgos\_veiklos            | Reitingas, apibūdinimo ir vertinimo modelis                                                                      | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_pozicija               | Departamentas, visos darbo dienos ekvivalentas, pozicija, pozicijos tipas ir pavadinimas                                                        | Darbo jėgos\_CurrentPosition darbo\_CurrentWorker                                                                                                                                                                                                                                                                              |
+| Darbo jėgos\_PositionTrend          | Bėgant laikui, visos darbo dienos ekvivalentas ir darbo vietų                                                                          | Darbo jėgos\_CalendarOffset darbo jėgos\_šiol darbo jėgos\_darbo jėgos\_pozicija                                                                                                                                                                                                                                                     |
+| Darbo jėgos\_ReportsToWorkerName    | Vardas, pavardė ir vardas, pavardė                                                                       | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_įgūdžių                  | Įgūdžių, įgūdžio tipą ir Vertinimas                                                                              |                                                                                                                                                                                                                                                                                                                                  |
+| Darbo jėgos\_TerminatedWorker       | Nutraukta darbuotojų, galiojimo pabaigos data, pavadinimas, pozicijos ir darbo                                             | Darbo jėgos\_įmonės darbuotojų\_kompensacijos darbuotojams\_GeographicLocation darbo jėgos\_darbo jėgos našumo\_WorkerName darbo jėgos\_ReportsToWorkerName darbo jėgos\_CalendarOffset darbo jėgos\_dienos darbo jėgos\_WorkerTitle darbo jėgos\_darbo jėgos demografija\_darbo jėgos\_darbo jėgos\_pozicija darbo jėgos\_WorkerBenefit |
+| Darbo jėgos\_WorkerBenefit          | Įsigaliojimo data, išmokų parinktis, išmokų planą ir naudos tipas                                             | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_WorkerName             | Vardas, pavardė ir vardas, pavardė                                                                       | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Darbo jėgos\_WorkerTitle            | Pavadinimas ir stažo data                                                                                   | Darbo jėgos\_CurrentWorker darbo\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
+| Workorce\_WorkerTrend             | Darbuotojų laiko, darbuotojų skaičius, įmonės ir pozicijos                                                        | Darbo jėgos\_įmonės darbuotojų\_kompensacijos darbuotojams\_GeographicLocation darbo jėgos\_darbo jėgos našumo\_WorkerName darbo jėgos\_ReportsToWorkerName darbo jėgos\_CalendarOffset darbo jėgos\_dienos darbo jėgos\_WorkerTitle darbo jėgos\_darbo jėgos demografija\_darbo jėgos\_darbo jėgos\_WorkerBenefit                     |
+
+Šių subjektų buvo naudojama siekiant sukurti apskaičiuojamieji matai duomenų modelio. Tai apskaičiuojama priemonės naudojami apskaičiuoti pagrindinius veiklos rodiklius (KPI) ir ataskaitų, kurias naudoja turinio paketas. Jei norite įtraukti papildomų skaičiavimų ataskaitos ir prietaisų skydelio, galite atsisiųsti ir pakeisti CompensationandBenefits.pbix failą iš LKD. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas sukurti turinio paketas. Po to, kai jūs atlikote pakeitimus, galite sukurti organizacijos turinio paketas ir valdymo skydelį, kuriame yra informacija, kurią įtraukėte.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
+
+-   [Duomenų objektai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
+-   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
+-   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
+-   [„Power BI“ plytelių įtraukimas į darbo sritis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
+

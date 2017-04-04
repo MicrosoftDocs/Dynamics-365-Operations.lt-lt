@@ -1,0 +1,33 @@
+---
+title: "Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange"
+description: "Šiame straipsnyje paaiškinama, kaip „Microsoft Dynamics 365 for Operations“ puslapius rodyti vieną šalia kito."
+author: aneesmsft
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.search.region: Global
+ms.author: aneesa
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 940d086f9c99af54bfcc7911ee7272f9eccba464
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange
+
+Šiame straipsnyje paaiškinama, kaip „Microsoft Dynamics 365 for Operations“ puslapius rodyti vieną šalia kito.
+
+„Microsoft Dynamics 365 for Operations‟ padeda efektyviai atlikti užduotis. Kai kuriais atvejais, norėdami greitai atlikti užduotis, galbūt noriste kelis puslapius peržiūrėti vieną šalia kito. Pavyzdžiui, galbūt norėsite patikrinti eilutes arba jų įvesti daugiau nei viename žurnale. Paprastai, norint tai atlikti, turėtumėte eiti pirmyn ir atgal tarp puslapio, kuriame rodomas žurnalų sąrašas ir puslapio, kuriame rodomos nurodyto žurnalo eilutės. Tačiau funkcija **Atidaryti naujame lange** leidžia šiuos puslapius rodyti vieną šalia kito, kad galėtumėte greitai atlikti savo užduotis. Tęsiant pirmiau minėtą pavyzdį, peržiūrėdami eilutes, galite spustelėti piktogramą **Atidaryti naujame lange**. [![atidaryti-į-nauja-lango-piktograma](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png) paspaudę dėl **atidaryti naujame lange** piktograma atidaro linijos puslapį naršyklėje naują, pop-up ir tada pereina originalus naršyklės istoriją į puslapį, kuriame rodomas žurnalų sąrašas. Tada galite puslapius rodyti vieną šalia kito. Kai baigiate peržiūrėti žurnalą, žurnalų sąrašo puslapyje galite pakeisti pasirinktą žurnalą, ir iššokusio lango eilučių puslapyje automatiškai bus rodomos naujai pasirinkto žurnalo eilutės. [![puslapiai-Rodyti-pusė-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png) dinamiškas susiejimas ir atnaujinimas vyksta dėl santykių, siejančių duomenis, kurie remia šiuos puslapius. Jei sistema nežino apie ryšį tarp duomenų, lange atlikus pakeitimą, iš jo iššokęs langas automatiškai neatsinaujins. Kai kuriuose puslapiuose yra keli rodiniai, pvz., Tinklelio rodinys, Antraštės rodinys ir Išsamios informacijos rodinys. Spustelėjus piktogramą **Atidaryti naujame lange**, naujame naršyklės lange atidaromas visas puslapis. Todėl, naudojant funkciją **Atidaryti naujame lange**, negalima dviejų to paties puslapio rodinių laikyti vieną šalia kito. Tačiau beveik visuose tokiuose puslapiuose yra naršymo sąrašas, kurį naudodami galite perjungti įrašus ir pasiekti panašią patirtį. Prieš naudodami funkciją **Atidaryti naujame lange**, turėtumėte sukonfigūruoti naršyklės iššokančiųjų langų blokavimo funkciją, kad ji leistų iššokančiuosius langus iš „Dynamics 365 for Operations‟ svetainės URL. Pavyzdžiui, gali sudaryti laikinuosius langus iš "\*. dynamics.com". Funkciją **Atidaryti naujame lange** galima naudoti tik kai lange atidarytas daugiau nei vienas puslapis. Be to, kai nebėra atidarytų puslapių (t. y., kai uždaromas to lango paskutinis puslapis), iššokantysis langas automatiškai užsidaro. „Dynamics 365 for Operations‟ taip pat uždaro atidarytus puslapius, kai pereinate į kitą programos sritį. Todėl, jei yra atidarytų iššokančiųjų langų, ir jūs pereinate į kitą programos sritį, iššokantieji langai automatiškai uždaromi, nes sistema uždarė tų langų puslapius. Iššokančiųjų langų viršutinėje juostoje rodoma informacija apie įmonę, kurioje puslapis buvo atidarytas, ir juostą galima tik skaityti. Iššokantieji langai taip pat priklauso nuo pagrindinio „Dynamics 365 for Operations‟ naršyklės lango. Jei pagrindinis langas uždaromas ar atnaujinamas, visus atidarytus iššokančiuosius langus bus galima tik skaityti. Tai reiškia, kad vis dar galite peržiūrėti tų langų informaciją, bet negalėsite su ja sąveikauti.
+
+

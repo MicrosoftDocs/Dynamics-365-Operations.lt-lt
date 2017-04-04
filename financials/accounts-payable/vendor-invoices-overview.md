@@ -1,0 +1,79 @@
+---
+title: "Tiekėjo SF apžvalga"
+description: "Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 13971
+ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
+ms.search.region: Global
+ms.author: mfalkner
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: ecd32549b6067ed4c1211996e846e210f77f5013
+ms.openlocfilehash: bc6fb66e9038612cc133dc89e60eb3cb75cc7943
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="vendor-invoices-overview"></a>Tiekėjo SF apžvalga
+
+Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais. 
+
+<a name="vendor-invoices"></a>Tiekėjo SF
+---------------
+
+Tiekėjo SF iš pirkimo užsakymo yra SF, sukuriama, kai pagal pirkimo užsakymą, pateiktą tiekėjui, gaunami produktai ar paslaugos. Tiekėjo SF pateikiama lape, ir vieną ar daugiau eilučių, už prekes ar paslaugas. Tiekėjo SF baigia ciklą nuo pirkimo užsakymo iki prekės gavimo į tiekėjo SF. 
+
+Nors kai kurios tiekėjo SF yra susijusios su pirkimo užsakymu, jose taip pat gali būti eilučių, kurios neatitinka pirkimo užsakymo eilučių. Taip pat galite kurti tiekėjo SF, kurios nėra susijusios su jokiu pirkimo užsakymu. Šios tiekėjo SF gali būti naudojamos nuolatinėms paslaugoms, pvz., sąskaitai už komunalines paslaugas, ir, jas pridedant, nereikia nurodyti į pirkimo užsakymą. 
+
+Įvesti tiekėjo SF galima keliais toliau nurodytais būdais.
+
+-   Tiekėjo SF registrą leidžia greitai įvesti nereikia nurodyti pirkimo užsakymas, SF, kad sukaupsite sąskaita. Naudojant tiekėjo SF patvirtinimo žurnalo, galite pasirinkti šias sąskaitas faktūras ir paskelbti jas pakeisti kaupimo tiekėjo balansas.
+-   Tiekėjo SF žurnalas leidžia greitai vienu veiksmu įvesti SF, kurios nenurodo į pirkimo užsakymą.
+-   Kartu su tiekėjo SF telkiniu tiekėjo SF registras leidžia greitai įvesti SF, kad būtų galima kaupti išlaidas. Susietus pirkimo užsakymus galite atidaryti vėliau ir SF registruoti pagal išlaidų sąskaitą.
+-   **Atidarytų tiekėjo SF** ir **Laukiančių tiekėjo SF** puslapiuose tiekėjo SF galima kurti iš patvirtintų pirkimo užsakymų.
+
+Toliau pateikiamame aptarime pateikiama daugiau informacijos apie tai, kaip naudoti **Atidarytų tiekėjo SF** arba **Laukiančių tiekėjo SF** puslapį norint tiekėjo SF kurti iš pirkimo užsakymo.
+
+## <a name="understanding-invoice-line-quantities"></a>SF eilučių kiekių supratimas
+Kai tiekėjo SF atidarote iš susijusio pirkimo užsakymo, SF eilutės kuriamos iš pirkimo užsakymo. Pagal numatytąsias nuostatas kiekiai paimami iš produkto gavimo kvito kiekio. Tačiau galite naudoti bet kurią iš toliau nurodytų numatytųjų veiksenų.
+
+-   **Dabartinio gavimo kiekis** – šią parinktį naudokite dalinėms siuntoms. Numatytoji reikšmė **Kiekio** lauke paimama iš pirkimo užsakymo kiekio lauko **Dabartinis**.
+-   **Užsakytas kiekis** – šią parinktį naudokite baigtoms siuntoms. Numatytoji reikšmė **Kiekio** lauke paimama iš pirkimo užsakymo kiekio lauko **Užsakytas**.
+-   **Užregistruotas kiekis** – šią parinktį naudokite, jei prekę reikia registruoti, kaip nurodyta **Prekių modelių grupių** puslapyje. Numatytoji reikšmė lauke **Kiekis** yra fizinis užregistruotas naujinimo kiekis.
+-   **Produkto gavimo kvito kiekis** – šią parinktį naudokite, jei jau gautas užsakymo produkto gavimo kvitas. Numatytoji reikšmė lauke **Kiekis** paimama iš viso galimų produktų gavimo kvitų kiekio.
+-   **Užregistruotas kiekis ir paslaugos** – šią parinktį naudokite, jei gavimo žurnaluose užregistruoti atsargose laikomų arba nelaikomų prekių kiekiai. Ši parinktis taip pat apima paslaugas, nepaisant, ar jos užregistruotos.
+
+Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatus galite peržiūrėti **Produkto gavimo kvito kiekio gretinimo** stulpelyje. Norėdami peržiūrėti kiekio gretinimo rezultatus, taip pat galite naudoti meniu komandą **Gretinimo informacija**, esančią **Peržiūros** skirtuke.
+
+## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Eilutės, kurios nebuvo pirkimo užsakyme, pridėjimas
+Galite pridėti naują eilutę, kad nebuvo pirkimo užsakymo į tiekėjo SF. Turite pasirinkti prekių skaičius arba pirkimų kategorijai. Tada į eilutę galite pridėti kiekius, kainas ir sumas. Eilutė bus įtraukta tik į bendrųjų SF sumų gretinimo strategijas.
+
+## <a name="submitting-a-vendor-invoice-for-review"></a>Tiekėjo SF pateikimas peržiūrai
+Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos spustelint valdiklį. Vietoj mygtuko **Registruoti** matysite mygtuką **Pateikti**, kurį galite naudoti siųsti tiekėjo SF pro peržiūros procesą.
+
+## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
+Galite įvesti ir įrašyti informaciją apie tiekėjo SF, taip pat galite gretinti sąskaitų faktūrų eilutes su produkto gavimo kvitų eilutėmis. Taip pat galite gretinti dalinius eilutės kiekius. 
+
+Galite sukurti tiekėjo SF, kuri paremta produkto gavimo kvito eilutės prekėmis, kurios gautos iki šios dienos, net jei gautos dar ne visos konkretaus pirkimo užsakymo prekės. Pavyzdžiui, šią parinktį galite naudoti, jei tiekėjas siunčia vieną SF per mėnesį, apimančią visus per mėnesį siuntėjo išsiųstus pristatymus. Kiekvienas produkto gavimo kvitas parodo dalinį arba visą prekių pristatymą pagal pirkimo užsakymą. 
+
+Kai registruojate SF, kiekvienos prekės **SF likučio** kiekis atnaujinamas visu gautu kiekiu iš pasirinktų produkto gavimo kvitų. Jei visų prekių **SF likučio** kiekis ir **Pristatymo likučio** kiekis pirkimo užsakyme yra 0 (nulis), pirkimo užsakymo būsena pakeičiama į **SF išrašyta**. Jeigu **SF likučio** kiekis nėra 0, pirkimo užsakymo būsena lieka nepakitusi ir galima įvesti papildomas SF.
+
+Pasirenkant šią parinktį tariama, kad pirkimo užsakymui užregistruotas bent vienas produkto gavimo kvitas. Tiekimo SF remiasi šiais produktų gavimo kvitais ir atspindi kiekius iš jų. SF finansinė informacija yra paremta informacija, įvesta jums registruojant SF.
+
+## <a name="working-with-multiple-invoices"></a>Darbas su keliomis SF
+
+Vienu metu galite dirbti su keliomis sąskaitomis faktūromis ir registruoti jas visas vienu metu. Jei turite sukurti kelias SF, naudokite **Laukiančių tiekėjo SF** puslapį. Jei turite registruoti ir spausdinti kelias tiekėjo SF, naudokite SF patvirtinimo žurnalo puslapį. Jei naudojate SF patvirtinimo žurnalą, turi būti registruotas bent vienas pirkimo užsakymo produkto gavimo kvitas, o pirkimo SF turi būti registruota SF registre. SF finansinė informacija gaunama iš SF, kuri buvo užregistruota registre.
+
+
+
