@@ -33,9 +33,8 @@ Valdyti savo organizacijos atsargoms galite naudoti tolesnius dokumentų tipus.
 
 ## <a name="purchase-orders"></a>Pirkimo užsakymai
 Pirkimo užsakymai kuriami pagrindiniame biure. Jeigu mažmeninės prekybos sandėlis yra įtrauktas į pirkimo užsakymo antraštė, užsakymą galima gauti parduotuvėje naudojant šiuolaikinės POS (MPOS) arba debesies POS Microsoft Dynamics 365 operacijų - mažmeninės prekybos. Įvedę kiekius, gautus į parduotuvę, jie gali būti išsaugotas vietos papildomų pakeitimų. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo gauti parduotuvėje rodomos Dynamics 365 operacijoms, kad **gauti dabar** lauko pirkimo užsakymą.
-Perkėlimo užsakymai
----------------
 
+## <a name="transfer-orders"></a>Perkėlimo užsakymai
 Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, iš kurios gali būti siunčiamos prekės. Tokiu atveju perkėlimo užsakymo atrodo parduotuvėje kaip MPOS arba debesies POS išrinkimo užklausa. Po to, kai kiekiai, kuriuos prašoma skinami, jie padarė ir išsiųstas į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo surinkti parduotuvėje rodomos Dynamics 365 operacijoms, kad **siųsti dabar** lauko perkėlimo užsakyme. Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, į kurią gali būti siunčiamos prekės. Tokiu atveju perkėlimo užsakymo atrodo parduotuvėje kaip MPOS arba debesies POS gauna prašymą. Įvedę kiekius, gautus į parduotuvę, jie gali būti išsaugotas vietos papildomų pakeitimų. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo gauti parduotuvėje rodomos Dynamics 365 operacijoms, kad **gauti dabar** lauko perkėlimo užsakymo.
 
 ## <a name="stock-counts"></a>Inventorizacijos
