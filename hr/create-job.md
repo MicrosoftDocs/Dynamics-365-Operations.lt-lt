@@ -48,10 +48,10 @@ Galite naudoti užduočių tipai panašūs darbai sugrupuoti į kategorijas. Už
 ## <a name="job-functions"></a>Užduoties funkcijos
 Darbas sankryžas apibūdinti aukšto lygio funkcinės kategorijas ir susiję aukšto lygio pareigas. Nebūtini darbo funkcijoms. Darbo funkcijas, kartu su darbo tipus, galite filtruoti kompensavimo planus iki konkrečių darbo vietų. Galite susieti darbo funkcijų ir užduočių tipai su kompensavimo planus nustatant tinkamumo taisyklės į **tinkamumo taisyklės** puslapis. Tada, galite pridėti kompensavimo planą, taikomos konkrečios užduoties tipas ir darbo funkcijos, jūsų nustatytų per tinkamumo taisyklė derinys lygių rinkinį. (Šios funkcijos taikomos pastoviųjų atlyginimo dalių planai bei planų kintamosios atlyginimo dalies.) Tačiau, jei jūs planuojate naudoti darbo funkcijas, jei norite nustatyti tinkamumo finansuoti kompensavimo valdymo, turėtumėte nustatyti darbo funkcijas prieš nustatydami darbo vietų. Lentelėje pateikta keletas pavyzdžių darbo funkcijas.
 
-| Užduotis           | Užduoties funkcija      |
-|---------------|-------------------|
-| Pardavimo vadybininkas | Vidutinio lygio vadovas |
-| Buhalteris    | Specialistams     |
+| Užduotis           | Užduoties funkcija         |
+|---------------|----------------------|
+| Pardavimo vadybininkas | Vidutinio lygio vadovas    |
+| Buhalteris    | Specialistams        |
 
 Galite išlaikyti užduočių funkcijų naudojant į **užduočių funkcijų** puslapis. Dėl to **užduočių funkcijų** puslapyje, įveskite identifikavimo kodas ir trumpas darbo funkcijos.
 

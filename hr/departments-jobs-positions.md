@@ -56,10 +56,6 @@ Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkiny
 Galite sukurti darbo užduotis, apibūdinančias pagrindines užduotis, kurias atitinkamoms pareigoms priskirtas darbuotojas turi atlikti. Tą pačią darbo užduotį galima įtraukti į kelias užduotis ir su šiomis užduotimis susijusios pareigos bus papildytos šiomis darbo užduotimis. Šioje lentelėje pateikta keletas darbo užduočių pavyzdžių.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Užduotis</th>
