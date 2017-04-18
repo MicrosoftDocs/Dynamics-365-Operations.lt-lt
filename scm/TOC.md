@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Bendrasis planavimas
+## Sukurti paklausos prognozė
+### [Paklausos prognozė apžvalga](master-planning/introduction-demand-forecasting.md)
+### [Nustatyti paklausos prognozė](master-planning/demand-forecasting-setup.md)
+### [Generuoti statistinę pradinis prognozė](master-planning/generate-statistical-baseline-forecast.md)
+### [Rankiniu būdu koreguoti bazinio lygio prognozė](master-planning/manual-adjustments-baseline-forecast.md)
+### [Leisti koreguota prognozė](master-planning/authorize-adjusted-forecast.md)
+### [Stebėjimo prognozės tikslumas](master-planning/monitor-forecast-accuracy.md)
+### [Pašalinti nuokrypiu nuo istorinių operacijų duomenys](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Bendrasis planas
+### [Veiksmo pranešimai](master-planning/action-messages.md)
+### [Padengimo parametrai](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Bendruosius planus ir kelių teritorijų funkcijos](master-planning/master-plan-multisite-functionality.md)
+#### [Svetainės aprėptis, privalomas sandėlys planas](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Planuoti svetainės staliuko, sandėlio neprivalomi.](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Vietai ir sandėliui aprėptį, sandėlio privalomas planas](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Plano vietai ir sandėliui aprėptį, sandėlio neprivalomi.](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Nustatyti KS versiją](master-planning/master-plan-bom-version-determined.md)
+### [KS versiją sprogimas](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Atsekti sprogimas](master-planning/trace-explosion.md)
+# Paraiškos
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [Viešojo pirkimo ir apsirūpinimo darbo eigos](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Prašymą dėl kainų (RFQs)](procurement/request-quotations.md)
+## Pirkimo užsakymai
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Patvirtinti ir patvirtinti pirkimo užsakymai](procurement/purchase-order-approval-confirmation.md)
+## Tiekėjo valdymas ir bendradarbiavimas
+### [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](procurement/set-up-maintain-vendor-collaboration.md)
+### [Tiekėjo bendradarbiavimo vartotojų valdymas](procurement/manage-vendor-collaboration-users.md)
+### [Nustatyti tiekėjo sąskaitas](procurement/set-up-vendor-accounts.md)
+### [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](procurement/vendor-collaboration-work-external-vendors.md)
+### [Tiekėjo bendradarbiavimas su klientais](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Bendradarbiauti su pardavėjais, naudojant tiekėjo portalas](procurement/collaborate-vendors-vendor-portal.md)
+### [Tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį](procurement/vendor-collaboration-mobile-workspace.md)
+### [Tiekėjo portalo vartotojo saugą](procurement/configure-security-vendor-portal-users.md)
+## Kainos ir nuolaidos
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Važtaraščių ir sąskaitų faktūrų išrašymas
+### [Produkto gavimas pagal pirkimo užsakymą](procurement/product-receipt-against-purchase-orders.md)
+### [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Produkto informacijos valdymas
+## Produkto informacija
+### [KS ir formulė](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Nomenklatūrą numerių](pim/product-variant-identification-nomenclature.md)
+### [Gaminio vertimo klausimai](pim/translations-product-related-information.md)
+### [Registruokitės serijos numeris, pardavimo procese](sales-marketing/register-serial-numbers-sales-process.md)
+### [Ieškoti prekės užsakymo metu](pim/search-products-product-variants.md)
+## Sukurti produkto konfigūracijos
+### [Sukurti produkto konfigūracijos modelį](pim/build-product-configuration-model.md)
+### [Apskaičiuojant produkto konfigūracijos modelis DUK](pim/calculate-product-configuration-models.md)
+### [Konfigūracijos taisyklės](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [Išraiška apribojimas ir lentelės apribojimų](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Pakartotinis produkto konfigūracijos](pim/reuse-product-configurations.md)
+### [Sukurti konfigūracijos modelis](pim/set-up-maintain-product-configuration-model.md)
+### [Sistemos ir vartotojo apibrėžiamų lentelės apribojimų](pim/system-defined-user-defined-table-constraints.md)
+# Gamybos kontrolė
+## Gamybos procesas    
+### [Veikla pagal subrangos](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Valdyti subrangos darbų gamyboje](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [Gamybos procesas](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Maršrutai ir operacijų](production-control/routes-operations.md)
+## Gamybos užsakymai
+### [Create production orders](production-control/create-production-orders.md)
+### [Užsakymo numatytąsias dimensijas ir prekių dimensijų kombinacijoje](production-control/default-order-settings.md)
+### [Pateikti gamybos užsakymus](production-control/release-production-orders.md)
+### [Pakeisti gamybos užsakymo būsena](production-control/reverse-production-order-status.md)
+### [Ataskaita KS baigtomis](production-control/report-boms-as-finished.md)
+### [Ataskaita gamybos užsakymus paskelbti baigtais](production-control/report-production-orders-as-finished.md)
+## Lanksčiosios gamybos 
+### [Kanban perkėlimo lenta palaikymo brūkšninių kodų skaitytuvai](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Kanban užduočių planavimą tausojančios gamybos](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Tausojančios gamybos apžvalga](production-control/lean-manufacturing-overview.md)
+### [Modelis liesos organizacijos](production-control/lean-manufacturing-modeling-lean-organization.md)
+## Planuoti veiklą ir darbo vietas
+### [Skirti laiko darbams sugrupuotų užduočių](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Ištekliai
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Gamybos vykdymas
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Apskaičiuoti medžiagų suvartojimas](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Gamybos užsakymo nutylėjimą laiko kontrolės](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Pardavimas ir rinkodara
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Pardavimo užsakymai
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Serijos numeriai pardavimo procesas](sales-marketing/register-serial-numbers-sales-process.md)
+### [Užsakymą iš tos pačios partijos](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Pardavimo pasiūlymai
+### [Price simulation](sales-marketing/price-simulation.md)
+## Grąžinimai
+### [Sales returns](warehousing/sales-returns.md)
+# Transportavimo valdymas
+## [Naujas transportavimo variklis](transportation/create-new-transportation-management-engine.md)
+## [Kurti važtaraštį](transportation/create-bill-of-lading.md)
+## [Planuoti krovinių transportavimo maršrutus](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Krovinių planavimas naudojant tranzito punktų konsolidaciją](transportation/plan-loads-hub-consolidation.md)
+## [Suderinti krovininio](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Transporto sistema](transportation/transportation-management-engines.md)
+# Sandėlio valdymas
+## Sąranka 
+### [Kontrolės darbų naudodami darbo šablonai ir vieta direktyvos](warehousing/control-warehouse-location-directives.md)
+### [Sandėlio darbuotojų valdymas](warehousing/manage-warehouse-workers.md)
+### [Nustatyti išdėstymo](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Matavimo vienetų ir sandėliavimo strategijos](warehousing/unit-measure-stocking-policies.md)
+## Paėmimas ir pakavimas
+### [Pakavimo medžiagos ir mokesčiai](warehousing/pack-materials-packing-material-fees.md)
+## Atsargų inventorizacija
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Atsargų žymių inventorizacija](inventory/inventory-tag-counting.md)
+## Krovimas į konteinerius 
+## Papildymas
+### [Papildymas](warehousing/replenishment.md)
+## Mobilieji įrenginiai
+### [Konfigūruoti laukų pavadinimus į sandėliavimo programa](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Nustatyti mobiliųjų įrenginių darbui sandėlyje](warehousing/configure-mobile-devices-warehouse.md)
+### [Sandėlio mobiliųjų įrenginių portalas (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Sandėlio mobiliojo įrenginio rodymo parametrai](warehousing/change-warehouse-mobile-device-displays.md)
