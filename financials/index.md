@@ -41,3 +41,5 @@ Pasirinkite funkcijos sritį, norėdami apie ją sužinoti daugiau.
 - [Public sector](public-sector\public-sector-functionality.md) 
 - [Budgeting](budgeting\budgeting-overview.md) 
 
+
+

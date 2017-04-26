@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Pagrindinis grynųjų pinigų ir banko valdymo puslapis
 
+[!include[banner](../includes/banner.md)]
+
+
 Naudodami grynųjų pinigų ir banko valdymo modulį galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su šiomis banko sąskaitomis. 
 
 Šie instrumentai apima mokėjimo kvitus, čekius, įsakomuosius vekselius ir paprastuosius vekselius. Taip pat galima suderinti banko išrašus ir spausdinti banko duomenis standartinėse ataskaitose.
@@ -69,4 +72,6 @@ Naudodami grynųjų pinigų ir banko valdymo modulį galite tvarkyti juridinio s
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Scenarijus: Naudoti vieno kliento mokėjimo kelias SF, kurie apima kelis nuolaida laikotarpiai](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

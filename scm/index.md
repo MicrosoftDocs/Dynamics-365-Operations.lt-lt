@@ -55,3 +55,5 @@ Pavyzdžiui, galite skaityti į naujausių pranešimų apie:
 ## <a name="elearning-courses"></a>e-mokymosi kursai
 Informacijos apie Microsoft Dynamics 365 operacijų mokymo, pamatyti <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (reikia CustomerSource sąskaitą) 
 
+
+

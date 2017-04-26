@@ -75,3 +75,4 @@
 # Kiti ištekliai
 ## [Dinamika 365 operacijų žodynėlis](get-started/glossary.md)
 ## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+
