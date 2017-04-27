@@ -1,6 +1,6 @@
 ---
 title: "Pagal sistemas arba vartotojus nustatyti lentelės apribojimai"
-description: "Šiame straipsnyje paaiškinama, dviejų tipų lentelės apribojimuose produkto konfigūracijos modelis - naudotojo ir sistemos komponentų. Lentelės apribojimai – tai leistinų atributų derinių matricos, kurių kiekvienoje eilutėje apibrėžiamas vienas galimų atributų reikšmių rinkinys."
+description: "Šiame straipsnyje aprašomi du lentelės apribojimų, skirtų komponentams produktų konfigūravimo modelyje, tipai – apibrėžti vartotojo ir apibrėžti sistemos. Lentelės apribojimai – tai leistinų atributų derinių matricos, kurių kiekvienoje eilutėje apibrėžiamas vienas galimų atributų reikšmių rinkinys."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Pagal sistemas arba vartotojus nustatyti lentelės apribojimai
 
-Šiame straipsnyje paaiškinama, dviejų tipų lentelės apribojimuose produkto konfigūracijos modelis - naudotojo ir sistemos komponentų. Lentelės apribojimai – tai leistinų atributų derinių matricos, kurių kiekvienoje eilutėje apibrėžiamas vienas galimų atributų reikšmių rinkinys.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašomi du lentelės apribojimų, skirtų komponentams produktų konfigūravimo modelyje, tipai – apibrėžti vartotojo ir apibrėžti sistemos. Lentelės apribojimai – tai leistinų atributų derinių matricos, kurių kiekvienoje eilutėje apibrėžiamas vienas galimų atributų reikšmių rinkinys.
 
 Lentelės apribojimai nurodo produkto konfigūracijos modelyje leidžiamų komponentų atributų derinių matricas. Kiekviena eilutė lentelėje nurodo vieną galimų atributų reikšmių rinkinį. Produkto konfigūracijos modelyje galite nurodyti dviejų toliau nurodytų tipų apribojimus.
 
@@ -57,11 +60,13 @@ Sistemos nustatytas lentelės apribojimas sukuria dinaminį susiejimą tarp atri
 
 Kurdami sistemos nustatytą lentelės apribojimą, turite pasirinkti lentelę, pasirinktinai nustatyti naudotiną užklausą, o tada atributų tipus susieti su pasirinktos lentelės laukais. Laukų tipai turi atitikti atributų tipus .  
 
-Prieš lentelės apribojimų gali būti vykdomas produkto konfigūracijos modelis, lentelės apribojimų, turi būti įtrauktas į apribojus vieną iš modelio komponentus. Procedūra yra sukurti yra naujas suvaržymas, pasirinkite lentelės apribojimo tipas ir pasirinkite lentelės apribojimų apibrėžimo naudoti. Galiausiai visus lentelės apribojimo laukus turite susieti su atributais produkto konfigūracijos modelyje.
+Prieš lentelių apribojimus įsigaliojant produkto konfigūracijos modelio komponentui, lentelių apribojimą reikia įtraukti į vieną iš modelio komponentų. Ši procedūra skirta sukurti naują apribojimą, pasirinkite lentelės apribojimo tipą, tada pasirinkite lentelės apribojimo apibėžimą, kurį naudosite. Galiausiai visus lentelės apribojimo laukus turite susieti su atributais produkto konfigūracijos modelyje.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
 [Pagrindinės produkto konfigūracijos modelių koncepcijos](product-configuration-models.md)
+
+
 
 

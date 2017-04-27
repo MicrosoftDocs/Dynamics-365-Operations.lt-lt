@@ -54,9 +54,9 @@ Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nur
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos rasite [finansų kalendoriai, finansiniams metams ir laikotarpius.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos žr. [Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
-Pvz., finansinių metų liepos 1 d. iki birželio 30 d., nusidėvėjimo skaičiavimo prasideda liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Kiekvieno laikotarpio nusidėvėjimas koreguojamas automatiškai, o kitų ataskaitinių metų trukmė nustatoma pagal puslapyje **Ataskaitiniai kalendoriai** nustatytus laikotarpius. 
+Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Kiekvieno laikotarpio nusidėvėjimas koreguojamas automatiškai, o kitų ataskaitinių metų trukmė nustatoma pagal puslapyje **Ataskaitiniai kalendoriai** nustatytus laikotarpius. 
 
 Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
@@ -81,6 +81,6 @@ Naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, 175 procentai pad
 | 3 metai | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
 
 > [!NOTE] 
-> Paprastai, kai suma, kuri apskaičiuojama naudojant 175 % mažėjančios vertės nusidėvėjimo metodas tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant metodą, yra konvertavimo į tiesią eilutę metodo už likusį.
+> Paprastai, kai suma, kuri apskaičiuojama naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant tiesiogiai proporcingą metodą, visam likusiam laikotarpiui pereinama prie tiesiogiai proporcingo metodo.
 
 

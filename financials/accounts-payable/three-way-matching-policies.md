@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiami trišalio atitikimo pavyzdžiai.
 
 <a name="example-three-way-matching-for-items"></a>Pavyzdys: trišalis prekių atitikimas
@@ -62,7 +65,7 @@ ms.lasthandoff: 03/31/2017
 1.  Sammy, „Fabrikam“ gavimo padalinio darbuotojas, gavo visą kiekį įrenginių, išsiųstų iš „Contoso“. Produkto gavimo dokumente jis įveda kiekį 5. Kadangi gautas visas pirkimo užsakymas, pirkimo užsakymo būsena pasikeičia į Gauta.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
-    -   Prekės, kurias reikia dviejų krypčių arba trijų padėčių atitikimo, SF eilutės kainos yra tos rūšies leistinus nuokrypius, nurodytus Microsoft Dynamics 365 Operations.This apima šių rūšių kainų atitikimas:
+    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, ar sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti programoje „Microsoft Dynamics 365 for Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
         -   Grynosios vieneto kainos gretinimas – grynoji vieneto kaina sąskaitos faktūros eilutėje atitinka grynąją vieneto kainą pirkimo užsakymo eilutėje leistino nuokrypio procento ribose. Šiame pavyzdyje grynosios vieneto kainos leistinas nuokrypis yra + 8 %.
         -   Kainų grynųjų sumų gretinimas – grynoji suma sąskaitos faktūros eilutėje atitinka grynąją sumą pirkimo užsakymo eilutėje leistino nuokrypio procento, sumos arba procento ir sumos ribose. Šiame pavyzdyje kainų grynųjų sumų leistinas nuokrypis yra + 15 %.
 
@@ -75,7 +78,7 @@ Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 | Mokesčiai                         |          |            | 0,00       |
 | Bendroji suma                       |          |            | 44 500,00  |
 
-Microsoft Dynamics 365 operacijoms, SF eilutė apima šią informaciją.
+Programoje „Microsoft Dynamics 365 for Operations“ į sąskaitos faktūros eilutę įtraukiama toliau nurodyta informacija.
 
 | Prekės Nr.                 | Kiekis | Vnt. kaina | Grynoji eilutės suma | Atitikimo strategija    | Gavimo dokumentų kiekio sugretinimas | Kainos gretinimas | Kainos sumos gretinimas |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 1.  Prekės pristatomos. Sammy, „Fabrikam“ gavimo skyriaus Malaizijoje darbuotojas, sutrukdomas, todėl produkto gavimo kvitą užregistruoja ne iš karto.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
-    -   Prekės, kurias reikia dviejų krypčių arba trijų padėčių atitikimo, SF eilutės kainos yra leistinus nuokrypius, nurodytus Microsoft Dynamics 365 operacijoms. Tai apima šių rūšių kainų atitikimas:
+    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, ar sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti programoje „Microsoft Dynamics 365 for Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
         -   Grynosios vieneto kainos gretinimas – grynoji vieneto kaina sąskaitos faktūros eilutėje atitinka grynąją vieneto kainą pirkimo užsakymo eilutėje leistino nuokrypio procento ribose. Šiame pavyzdyje grynosios vieneto kainos leistinas nuokrypis yra + 2 %.
         -   Kainų grynųjų sumų gretinimas – grynoji suma sąskaitos faktūros eilutėje atitinka grynąją sumą pirkimo užsakymo eilutėje leistino nuokrypio procento, sumos arba procento ir sumos ribose. Šiame pavyzdyje kainų grynųjų sumų leistinas nuokrypis yra + 10 %.
 
@@ -124,7 +127,7 @@ Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 | USB atmintukas             | 200      | 10,05      | 2 010,00   |
 | Visa SF         |          |            | 7 092,00   |
 
-Microsoft Dynamics 365 operacijoms, SF eilutė apima šią informaciją.
+Programoje „Microsoft Dynamics 365 for Operations“ į sąskaitos faktūros eilutę įtraukiama toliau nurodyta informacija.
 
 | Prekės Nr.           | Kiekis | Vnt. kaina | Grynoji eilutės suma | Atitikimo strategija    | Gavimo dokumentų kiekio sugretinimas | Kainos gretinimas | Kainos sumos gretinimas |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Atkreipkite dėmesį į toliau nurodytas prekes:
 Jei reikalingas registruojamų sąskaitų faktūrų su jų gretinimo nesutapimais patvirtinimas, reikia pasirinkti perjungimą Tvirtinti registravimą su gretinimo nesutapimais puslapyje Sąskaitos faktūros gretinimo informacija, prieš registruojant sąskaitos faktūros su kainos gretinimo ir kiekio gretinimo klaidomis. Jei patvirtinimo nereikia, sąskaitos faktūros apdorojimą galima tęsti, jei nėra jokių kitų registravimo klaidų.
 
 
-Daugiau informacijos rasite [sudaro mokėtinų sumų SF gretinimo](accounts-payable-invoice-matching.md).
+Jei reikia daugiau informacijos, žr. temą [Mokėtinų sumų SF gretinimas](accounts-payable-invoice-matching.md).
+
+
 
 

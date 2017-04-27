@@ -46,7 +46,7 @@ Puslapyje **Masinės samdos projektai** pasirinkite „SummerInterns“ projekt�
 
 Pasirinkę stažuotės pareigoms samdomus studentus, įveskite kiekvieno studento informaciją į **Pareigų informacija** toms pareigoms, kurioms juos samdote. Kai įvesite visų pareigų informaciją, pasirinkite pareigas puslapyje Masinės samdos projektai, tada spustelėkite **Samda**. Kiekvienoms pareigoms bus sukurtas pareigų įrašas, o darbuotojo įrašas bus sukurtas ir priskirtas tinkamoms kiekvieno asmens, kurį įdarbinate, pareigoms.
 
-## <a name="masshire-project-statuses"></a>Masshire projekto būsenos
+## <a name="masshire-project-statuses"></a>Masinės samdos projekto būsenos
 Masinės samdos projekto būsena gali būti viena iš toliau nurodytų.
 -   Sukurta
 -   Atidarytas

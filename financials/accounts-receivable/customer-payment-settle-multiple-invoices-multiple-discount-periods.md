@@ -1,5 +1,5 @@
 ---
-title: "Naudoti kliento mokėjimą keletą sąskaitų, kurie apima kelis nuolaida laikotarpiai"
+title: "Naudoti kliento mokėjimą norint sudengti keletą SF, apimančių kelis nuolaidų laikotarpius"
 description: "Šiame straipsnyje parodoma, kaip sumokamos kelios SF, kai kiekvienai SF gali būti pritaikyta mokėjimo nuolaida. Šio straipsnio scenarijais pabrėžiama, kaip taikomos mokėjimo nuolaidos skiriasi pagal tai, kada atliekamas mokėjimas."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Naudoti kliento mokėjimą keletą sąskaitų, kurie apima kelis nuolaida laikotarpiai
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Naudoti kliento mokėjimą norint sudengti keletą SF, apimančių kelis nuolaidų laikotarpius
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje parodoma, kaip sumokamos kelios SF, kai kiekvienai SF gali būti pritaikyta mokėjimo nuolaida. Šio straipsnio scenarijais pabrėžiama, kaip taikomos mokėjimo nuolaidos skiriasi pagal tai, kada atliekamas mokėjimas.
 
-Fabrikam parduoda prekes klientui 4032. Fabrikam siūlo 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Settement parametrai yra ant to **sudaro gautinų sumų parametrai** puslapis.
+Fabrikam parduoda prekes 4032 klientui. Fabrikam siūlo 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrai yra puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="invoices"></a>SF
 4032 klientas turi tris sąskaitas faktūras, kurių bendra suma 3000,00:
 
--   SF FTI-10040 1000,00, buvo įrašytas gegužės 15. Šioje sąskaitoje-faktūroje turi teisę gauti 1 proc. nuolaida, jei ji mokama per 14 dienų.
--   SF FTI-10041 1000,00, buvo įvestas birželio 25. Šioje sąskaitoje-faktūroje turi teisę gauti 1 proc. nuolaida, jei ji mokama per 14 dienų.
--   SF FTI-10042 1000,00, buvo įvestas birželio 25. Šioje sąskaitoje-faktūroje turi teisę gauti 2 procentų nuolaida, jei ji mokama penkias dienas ir 1 proc nuolaida, jei ji mokama per 14 dienų.
+-   Sąskaita faktūra LFSF-10040, kurios suma 1000,00, buvo įvesta gegužės 15 d. Šiai sąskaitai faktūrai galima pritaikyti 1 procento mokėjimo nuolaidą, jei ji sumokama per 14 dienų.
+-   Sąskaita faktūra LFSF-10041, kurios suma 1000,00, buvo įvesta birželio 25 d. Šiai sąskaitai faktūrai galima pritaikyti 1 procento mokėjimo nuolaidą, jei ji sumokama per 14 dienų.
+-   Sąskaita faktūra LFSF-10042, kurios suma 1000,00, buvo įvesta birželio 25 d. Šiai sąskaitai faktūrai galima pritaikyti 2 procentų mokėjimo nuolaidą, jei ji apmokama per penkias dienas ir 1 procento nuolaidą, jei ji apmokama per 14 dienų.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Sudengti visas sąskaitas faktūras birželio 29 d.
 Jei Arnas sukuria mokėjimų žurnalą, kad visiškai sudengtų šias sąskaitas faktūras birželio 29 d., mokėjimas yra 2970,00. Visa nuolaidos suma 30,00. Arnas sukuria 4032 kliento mokėjimą, tada atsidaro puslapį **Sudengti operacijas**. Puslapyje **Sudengti operacijas** Arnas pažymi visas tris sudengtinas sąskaitos faktūros eilutes:
@@ -76,7 +79,7 @@ Jei Arnas sukuria mokėjimų žurnalą, kad visiškai sudengtų šias sąskaitas
 | Pasirinkta                 | Įprastas            | LFSF-10041 | 4032    | 2015-06-25 | 2015-07-25 | 10041   | 1000,00                             |                                       | USD      | 495,00           |
 | Pasirinkta ir paryškinta | Įprastas            | LFSF-10042 | 4032    | 2015-06-25 | 2015-07-25 | 10042   | 1000,00                             |                                       | USD      | 490,00           |
 
-Jūratė galite patys įvesti mokėjimo suma 1,485.00, kol jis atidaro su **atsiskaitymams** puslapis. Jei Arnie rankiniu būdu patenka mokėjimo sumą ir tada pažymi visas tris operacijas, bet jis nėra nustatyti vertę, **sudengtina suma** lauko kiekvienam sandoriui, jis gauna tokį pranešimą, kai jis baigia puslapio:
+Arnas taip pat gali rankiniu būdu įvesti mokėjimo sumą 1 485,00 prieš atidarydamas puslapį **Sudengti operacijas**. Jei Arnas rankiniu būdu įveda mokėjimo sumą ir tada pažymi visas tris operacijas, bet nepakoreguoja kiekvienos operacijos lauko **Sudengtina suma** vertės, uždarius puslapį pateikiamas tolesnis pranešimas.
 
 > Pažymėtų operacijų bendra suma skiriasi nuo  žurnalo sumos. Ar pakeisti žurnalo sumą?
 
@@ -95,6 +98,8 @@ Arnas peržiūri šią operaciją puslapyje **Kliento operacijos**.
 | LFSF-10042  | PVM sąskaita faktūra          | 2015-06-25 | 10042   | 1000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Mokėjimas          | 2015-06-29 |         |                                      | 1485,00                              | 0,00     | USD      |
 | NUOL-10040 | Mokėjimo nuolaida    | 2015-06-29 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

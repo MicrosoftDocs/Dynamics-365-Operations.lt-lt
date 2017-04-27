@@ -45,7 +45,7 @@ Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo 
 Eilutės apraše gali būti iki 20 000 finansinės dimensijos eilučių ir jame gali būti pateikiama tolesnė informacija.
 
 -   Aprašomasis tekstas, suteikiantis ataskaitai reikšmę, kai sukuriamos skyriaus antraštės, eilutės ir tarpai, pavyzdžiui, **Grynieji pinigai** arba **Visos įplaukos**.
--   Nuorodos į finansinius duomenis, kurie gali būti dimensijų vertės Microsoft Dynamics 365 operacijoms **Pastaba:** galite nustatyti eilutės apibrėžimo traukti duomenis iš finansinės dimensijos sistemos kiekvieną kartą, kai ataskaita yra suformuojama.
+-   Saitai į finansinius duomenis, kurie gali apimti dimensijų vertes programoje „Microsoft Dynamics 365 for Operations“ **Pastaba:** galite nustatyti, kad eilutės aprašas duomenis gautų iš finansinių dimensijų sistemos kaskart, kai generuojama ataskaita.
 -   Eilučių bendrosios sumos ir formulės, kurios pagrįstos susietais finansiniais duomenimis
 
 Paprastai kiekvienoje eilutės apibrėžimo eilutėje yra vieno iš šių tipų informaciją:
@@ -64,7 +64,7 @@ Dimensija yra duomenų ir reikšmių sankirta. Ataskaitų dizaino įrankyje gali
 
 | Parinktis                | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensija             | Modelį, kuris identifikuoja į eilutės apibrėžimą norimą įtraukti dimensiją. Šis modelis yra vienas ampersendo (&) arba ženklą (\#) už kiekviena pozicija matmenys. Paprastai dimensijai Pagrindinė sąskaita naudojami visi konjunktūros ženklai, o kitoms dimensijoms naudojami visi skaičių ženklai. |
+| Dimensija             | Modelį, kuris identifikuoja į eilutės apibrėžimą norimą įtraukti dimensiją. Šiame modelyje kiekvienai dimensijų padėčiai yra po vieną ampersandą (&) arba skaičiaus ženklą (\#). Paprastai dimensijai Pagrindinė sąskaita naudojami visi konjunktūros ženklai, o kitoms dimensijoms naudojami visi skaičių ženklai. |
 | Dimensijos intervalo pradžia | Į eilutės apibrėžimą norima įtraukti pirmoji šios dimensijos reikšmė.                                                                                                                                                                                                                 |
 | Dimensijos intervalo pabaiga   | Į eilutės apibrėžimą norima įtraukti paskutinė šios dimensijos reikšmė.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Norėdami į eilutės aprašą įtraukti dimensijų, atlikite toliau nurodytus v
 1.  Ataskaitų dizaino įrankyje spustelėkite **Eilučių aprašai**, tada atidarykite norimą keisti eilutės aprašą.
 2.  Meniu **Redaguoti** spustelėkite **Įterpti eilutes iš dimensijų**.
 3.  Eilutės **Dimensijos** dialogo lange **Įterpti eilutes iš dimensijų **pasirinkite į eilutės aprašą norimą perkelti dimensijos langelį, tada spustelėkite **Visi &&&**.
-4.  Norėdami apriboti eilutės aprašą iki kelių dimensijos reikšmių, langelyje ** Dimensijos intervalo pradžia **įveskite pradžios dimensijos reikšmę, tada langelyje **Dimensijos intervalo pabaiga **įveskite pabaigos dimensijos reikšmę. Norėdami įtraukti visas pasirinktos dimensijos reikšmes, palikite šiuos langelius tuščius. **Pastaba:** pakaitos simbolius (\* arba?) dimensiją svyruoja gali negrąžinti visus rezultatus, jūs norite, priklausomai nuo, kaip ERP duomenų bazės projektą duomenis.
+4.  Norėdami apriboti eilutės aprašą iki kelių dimensijos reikšmių, langelyje ** Dimensijos intervalo pradžia **įveskite pradžios dimensijos reikšmę, tada langelyje **Dimensijos intervalo pabaiga **įveskite pabaigos dimensijos reikšmę. Norėdami įtraukti visas pasirinktos dimensijos reikšmes, palikite šiuos langelius tuščius. **Pastaba:** naudojant pakaitos simbolius (\* arba ?) dimensijos intervaluose gali būti gaunami ne visi norimi rezultatai, priklausomai nuo to, kaip ERP duomenų bazė sujungia duomenis.
 5.  Lauke **Pradžios eilutės kodas** nurodykite pirmos dimensijos reikšmės eilutės kodą, kuris turėtų būti įtraukiamas į eilutės aprašą.
-6.  Lauke **Didinti kiekvieną eilutę** nurodykite tarpą tarp vienas paskui kitą einančių eilutės kodų.. Pavyzdžiui, jei pirmoje eilutėje kodas yra 100, o prieaugio reikšmė yra 30, pirmasis naujos eilutės turi kodus, 100, 130, 160, 190, o 220. Naudoti prieaugio vertę, kuri suteikia pakankamai vietos, kad įterpti naują formatą ir formulės eilutės.
+6.  Lauke **Didinti kiekvieną eilutę** nurodykite tarpą tarp vienas paskui kitą einančių eilutės kodų.. Pvz., jei pirmos eilutės kodas yra 100, o padidinimo vertė yra 30, pirmų naujų eilučių kodai yra 100, 130, 160, 190 ir 220. Naudokite padidinimo vertę, kuria sukuriamas tarpas naujiems formatams ir formulių eilutėms įterpti.
 7.  Spustelėkite **GERAI**. Eilutės apraše kiekvienai pasirinktai dimensijos reikšmei įtraukiama viena eilutė.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a>Koreguoti eilutės apibrėžimo apvalinimą
@@ -146,7 +146,7 @@ Eilutės apraše nurodytas formatavimas perrašo stulpelio apraše ir ataskaitos
 
 1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
 2.  Pažymėkite norimus formatuoti langelius. Norėdami pažymėti kelis langelius, laikykite nuspaudę klavišą Ctrl ir pasirinkite langelį.
-3.  Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., įtraukti eilutę, pasirinkite eilutę ir spustelėkite **padidinti įtrauką**![padidinti įtrauką](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "padidinti įtrauką") įrankių juostoje.
+3.  Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę, tada įrankių juostoje spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Padidinti įtrauką").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Koreguoti stulpelius, kol kuriamos ataskaitos
 
@@ -173,6 +173,6 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Finansinė atskaitomybė už Microsoft Dynamics 365 operacijoms](financial-reporting-intro.md)
+[„Microsoft Dynamics 365 for Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>Elektroninio parašo apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiami elektroniniai parašai ir aprašoma, kaip juos naudoti programoje „Microsoft Dynamics 365 for Operations“.
 
 <a name="what-is-an-electronic-signature"></a>Kas yra elektroninis parašas?
@@ -35,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 Elektroninis parašas patvirtina asmens, kuris ketina pradėti ar patvirtinti skaičiavimo procesą, tapatybę. Kai kuriose pramonės šakose elektroninis parašas turi tokią pat teisinę galią kaip parašas ranka. Elektroniniai parašai yra reglamentus atitinkantis reikalavimas kai kurioms reguliuojamoms pramonės šakoms, pvz., vaistų, maisto ir gėrimų, aviacijos ir gynybos. Jie taip pat būtini siekiant vykdyti JAV Maisto ir vaistų administracijos (FDA) 21 CFR 11 dalies nuostatas. **Pastaba.** Elektroninis parašas nėra tas pat, kas skaitmeninis parašas. Elektroninis parašas yra tiesiog pasirašymo ranka pakaitas, o skaitmeninis parašas suteikia papildomų saugos priemonių. Skaitmeninis parašas gali padėti nustatyti, ar kitas vartotojas arba procesas mėgino piktavališkai pakeisti duomenis. Skaitmeninį parašą taip pat galima patikrinti, o šio tikrinimo negali paneigti sertifikato, kuris buvo naudojamas pasirašyti duomenis, savininkas. Kaip aprašyta toliau, elektroniniuose „Microsoft Dynamics 365 for Operations“ parašuose yra įdiegtos skaitmeninio parašo funkcijos.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Elektroniniai parašai programoje „Dynamics 365 for Operations“
-Programoje „Dynamics 365 for Operations“ galite naudoti elektroninius parašus svarbiems verslo procesams. Kai kuriuose procesuose yra įdiegtos elektroninio parašo galimybės. Taip pat galite sukurti pasirinktinius parašo reikalavimus bet kuriai duomenų bazės lentelei ir laukui. Elektroniniuose parašuose yra įdiegtos skaitmeninio parašo funkcijos. Kiekvienas dokumentus pasirašantis vartotojas turi įsigyti galiojantį kriptografijos sertifikatą. Pasirašant dokumentą patikrinamas su tuo sertifikatu susietas privatusis raktas. „Dynamics 365 for Operations“ įrašo elektroninio parašo informaciją į žurnalą, kad būtų galima sekti įrašą. Norėdami nustatyti elektroninių parašų, rasite [nustatyti elektroninių parašų (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+Programoje „Dynamics 365 for Operations“ galite naudoti elektroninius parašus svarbiems verslo procesams. Kai kuriuose procesuose yra įdiegtos elektroninio parašo galimybės. Taip pat galite sukurti pasirinktinius parašo reikalavimus bet kuriai duomenų bazės lentelei ir laukui. Elektroniniuose parašuose yra įdiegtos skaitmeninio parašo funkcijos. Kiekvienas dokumentus pasirašantis vartotojas turi įsigyti galiojantį kriptografijos sertifikatą. Pasirašant dokumentą patikrinamas su tuo sertifikatu susietas privatusis raktas. „Dynamics 365 for Operations“ įrašo elektroninio parašo informaciją į žurnalą, kad būtų galima sekti įrašą. Norėdami nustatyti elektroninius parašus, žr. dalį [Elektroninių parašų nustatymas (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Vartotojai, kuriems reikia prieigos prie elektroninių parašų
 Trijų tipų vartotojams paprastai reikia saugumo prieigos prie elektroninių parašų: elektroninio parašo administratoriams, pasirašantiems ir elektroninio parašo auditoriams.
@@ -78,6 +81,8 @@ Kartais galite norėti, kad vartotojas pasirašytų už kito vartotojo keitimus.
 1.  Puslapio **Parinktys** skirtuke **Sąskaitos** spustelėkite **Paskirti tvirtintoją**.
 2.  Lauke **Tvirtintojo vartotojo ID** pasirinkite vartotojo, kuris turi pasirašyti kito vartotojo keitimus, ID.
 3.  Lauke **Vartotojo, už kurį pasirašoma, ID** pasirinkite vartotojo, kurio keitimai turi būti pasirašyti, ID.
+
+
 
 
 

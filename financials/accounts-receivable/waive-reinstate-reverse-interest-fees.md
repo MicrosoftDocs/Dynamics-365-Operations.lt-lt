@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Palūkanų ir mokesčių atsisakymas, grąžinimas arba atšaukimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip atsisakyti, grąžinti ir atšaukti mokesčius už palūkanas ir įmokas.
 
 Galite naudoti sąrašo puslapio **Visi klientai** skirtuke **Surinkimas** esančius mygtukus, norėdami atsisakyti mokesčių, juos atšaukti ar grąžinti.
@@ -43,7 +46,7 @@ Atlikus visus šiuos veiksmus delspinigių pažyma pakeičiama. Delspinigių pa�
 | Visiškai atšaukiamos delspinigių pažymos. –arba– Atšaukiamos pasirinktos į delspinigių pažymas įtrauktos palūkanų operacijos. **Pastaba.** Negalite atšaukti mokesčio. Tačiau galite visiškai atšaukti delspinigių pažymą, į kurią įtrauktas mokestis. | Mokesčiai klientui daugiau nebegalioja. Tačiau mokesčiai įsigalios vėl, jei perskaičiuosite palūkanas. | Šis procesas sutampa su delspinigių pažymų arba pasirinktų palūkanų operacijų atsisakymo procesu. Kredito pažyma, arba koregavimo SF, sukuriama klientui. Ši kredito pažyma naudojama delspinigių pažymai automatiškai sudengti. Jūs galite naudoti atskirą procesą, kad perskaičiuotumėte palūkanas ir sukurtumėte naują delspinigių pažymą.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Taip pat galite naudoti atskirą procesą nurašys beviltiškas skolas. Vykdant šį procesą pažymimos visos kliento sudengimo operacijos, o nėra atsisakoma tik į delspinigių pažymas įtrauktų mokesčių.
+> Galite naudoti ir atskirą procesą netinkamoms skoloms nurašyti. Vykdant šį procesą pažymimos visos kliento sudengimo operacijos, o nėra atsisakoma tik į delspinigių pažymas įtrauktų mokesčių.
 
 ## <a name="adjust-interest-for-invoices"></a>Koreguoti sąskaitų faktūrų palūkanas
 Galite ne tik koreguoti delspinigių pažymas, bet ir naudodami kurį nors toliau nurodytą procesą pašalinti palūkanų mokesčius sąskaitose faktūrose. Vykdant šiuos procesus koreguojamos ir susijusios delspinigių pažymos.
@@ -89,5 +92,7 @@ Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Operacijos pa
 Peržiūrėkite išsamią retrospektyvą koregavimų, kurie buvo atlikti delspinigių pažymoms, pvz., vartotoją, kuris įvedė koregavimą, koregavimo tipą, sumą ir kada koregavimas buvo įvestas. Pavyzdžiui, galbūt norėsite peržiūrėti ankstesnius koregavimus, kurie buvo įvesti delspinigių pažymoje, prieš kurdami naują delspinigių pažymą. 
 
 Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Retrospektyva **galite atšaukti palūkanų operacijas.
+
+
 
 

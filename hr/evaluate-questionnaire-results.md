@@ -1,6 +1,6 @@
 ---
 title: "Peržiūrėti ir įvertinti klausimyno rezultatus"
-description: "Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildyti klausimynus, rezultatus."
+description: "Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Peržiūrėti ir įvertinti klausimyno rezultatus
 
-Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildyti klausimynus, rezultatus. 
+Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus. 
 
 Respondentams užpildžius klausimyną, jo rezultatus peržiūrėti ir įvertinti galite tolesniais būdais.
 

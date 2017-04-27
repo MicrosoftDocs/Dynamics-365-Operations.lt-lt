@@ -1,5 +1,5 @@
 ---
-title: "Žemėlapyje skirtingų sąnaudų elementas dimensijos nariais į bendrą rinkinį dimensijos nariais"
+title: "Skirtingų savikainos elemento dimensijos narių susiejimas su bendruoju dimensijos narių rinkiniu"
 description: "Susiedami skirtingus savikainos elemento dimensijos narius su bendruoju savikainos elemento dimensijos narių rinkiniu jūs suliejate duomenis į bendrąjį analizės tikslais naudojamą formatą."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Žemėlapyje skirtingų sąnaudų elementas dimensijos nariais į bendrą rinkinį dimensijos nariais
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Skirtingų savikainos elemento dimensijos narių susiejimas su bendruoju dimensijos narių rinkiniu
 
 Susiedami skirtingus savikainos elemento dimensijos narius su bendruoju savikainos elemento dimensijos narių rinkiniu jūs suliejate duomenis į bendrąjį analizės tikslais naudojamą formatą.
 
@@ -38,10 +38,10 @@ Toliau pateikiamame pavyzdyje nurodoma, kaip jūs, kadangi esate savikainos vald
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Savikainos elemento dimensijos nariai importuoti iš JAV sąskaitų plano | Savikainos elemento dimensijos nariai importuoti iš Prancūzijos sąskaitų plano | JAV ir Prancūzijos savikainos elemento dimensijos narių susiejimas su bendruoju rinkiniu |
 | 5001: Pardavimai                                                           | 5001: Pardavimai ir reklama                                               | 5000: Pardavimai ir reklama                                             |
-| 5030: Reklama                                                     | 6390: akcijų pirkimo\*                                                    | 7000: Valymo išlaidos                                                 |
+| 5030: Reklama                                                     | 6390: atsargų pirkimas\*                                                    | 7000: Valymo išlaidos                                                 |
 | 7001: Valymo išlaidos                                               | 7001: Kelionės išlaidos                                                      | 7001: Kelionės išlaidos                                                   |
 
-\*Vertybinių popierių pirkimo prancūzų sąnaudų elementas dimensijos valstybės nėra perkoduojama.
+\*Atsargų pirkimo Prancūzijos savikainos elemento dimensijos narys nesusietas.
 
 ## <a name="currency-conversion"></a>Valiutos konvertavimas
 Įvairūs jūsų naudojami sąskaitų planai gali būti nustatyti naudoti skirtingas valiutas. Šiuo atveju būtinai nurodykite valiutos keitimo kursą, kad savikainos duomenys būtų apdorojami naudojant teisingą valiutą, nurodytą savikainos apskaitos didžiojoje knygoje, kurioje naudojami savikainos elemento dimensijos nariai. Kaip nurodoma pirmiau pateiktame pavyzdyje, jeigu savikainos apskaitos didžiojoje knygoje naudojami JAV doleriai (USD), norėdami apdoroti susietų savikainos elemento dimensijos narių operacijas turite sukurti valiutos konvertavimą iš USD į eurus (EUR).

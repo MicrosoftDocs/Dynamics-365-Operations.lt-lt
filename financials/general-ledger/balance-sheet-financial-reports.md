@@ -1,6 +1,6 @@
 ---
 title: "Balanso finansinės ataskaitos"
-description: "Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitas apie balansus. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šias ataskaitas."
+description: "Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Balanso finansinės ataskaitos
 
-Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitas apie balansus. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šias ataskaitas. 
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai. 
 
 <a name="default-balance-sheet-reports"></a>Numatytosios balanso finansinės ataskaitos
 -----------------------------
@@ -72,10 +75,12 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finansinės ataskaitos](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Peržiūrėti finansines ataskaitas](view-financial-reports.md)
 
-[Dinamika finansinės atskaitomybės Dienoraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[„Dynamics‟ Finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

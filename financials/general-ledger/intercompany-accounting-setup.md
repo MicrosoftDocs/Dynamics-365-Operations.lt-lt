@@ -1,6 +1,6 @@
 ---
-title: "Vidinės įmonės ataskaitų nustatymas"
-description: "Šioje temoje aiškinama, kaip nustatyti tvarkant vidinių įmonių apskaitą taip, kad galite naudoti žurnalų vidinės įmonės DK paskirstymuose ir finansinių žurnalų, pvz., kasdieninių žurnalų, tiekėjo SF žurnalas ir mokėjimų žurnalas."
+title: "Vidinės įmonės apskaitos nustatymas"
+description: "Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Vidinės įmonės ataskaitų nustatymas
+# <a name="intercompany-accounting-setup"></a>Vidinės įmonės apskaitos nustatymas
 
-Šioje temoje aiškinama, kaip nustatyti tvarkant vidinių įmonių apskaitą taip, kad galite naudoti žurnalų vidinės įmonės DK paskirstymuose ir finansinių žurnalų, pvz., kasdieninių žurnalų, tiekėjo SF žurnalas ir mokėjimų žurnalas.
+[!include[banner](../includes/banner.md)]
 
-Vidinės įmonės žurnalai gali būti sukurta įvairiose situacijose, pavyzdžiui, kasdieninių žurnalų, tiekėjo SF žurnalais, DK paskirstymuose ir centralizuoti mokėjimai. Norėdami įgalinti šiuos scenarijus, turite nustatyti vidinės įmonės apskaitą.
 
-## <a name="define-main-accounts"></a>Apibrėžti pagrindiniai apskaitos
-Pirmiausia, turite sukurti vidinės įmonės pagrindines sąskaitas, kurios bus naudojamos apskaitos įrašams „Gavėjas“ ir „Mokėtojas“. Tikslinga kiekvienam įmonei naudoti unikalias pagrindines sąskaitas, kad būtų galima paprasčiau derinti ir šalinti vidinės įmonės apskaitos įrašus. Jei naudojate prekybos partneris ar kolega dimensijos nustatyti vidinės įmonės partijos, galite nustatyti šį aspektą kaip fiksuota dimensija pagrindinė sąskaita, kuri yra nurodyta tvarkant vidinių įmonių apskaitą. Nustatydami pagrindinės sąskaitos, jūs turėtumėte nustatyti į **pagrindinės sąskaitos tipas** lauko į **balanso** ant to **pagrindinės sąskaitos** puslapis.
+Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose.
 
-## <a name="define-journal-names"></a>Apibrėžti pavadinimus
-Tada turite nustatyti žurnalo pavadinimą. Nustatyti, **žurnalo tipą** lauko į **kasdien** ant, **žurnalų pavadinimai** puslapis. Tikslinga naudoti konkretų žurnalo pavadinimą vidinės įmonės apskaitai.
+Vidinės įmonės žurnalus galima kurti pagal įvairius scenarijus, pvz., kasdieninių žurnalų, tiekėjo SF žurnalų, DK paskirstymų ir centralizuotų mokėjimų. Norėdami įgalinti šiuos scenarijus, turite nustatyti vidinės įmonės apskaitą.
 
-## <a name="define-intercompany-accounting-setup"></a>Nustatyti vidinės įmonės ataskaitų nustatymas
-Į **tvarkant vidinių įmonių apskaitą** puslapyje yra naudojami sukurti poras juridinių asmenų, kurie gali sudaryti sandorius su kitu. Vidinės įmonės apskaitos nustatymas yra bendra, todėl konfigūracija yra matomas iš per visi juridiniai asmenys. Kurdami naują juridinį asmenį pora, užtikrinti tiksliai žinosite, koks juridinis subjektas yra apibrėžiamas kaip kilmės bendrovė ir paskirties įmonės. Į vidinės įmonės operacijas, sandoris nustato, koks juridinis subjektas yra pradedant ar kilmės operacija. Pvz., tvarkant vidinių įmonių apskaitą yra nustatyti USMF (kilmės) ir USSI (paskirties). Jeigu vartotojas yra aktyvus USSI ir įveda vidinės įmonės operacija su USMF, sandorio neregistruos nes tvarkant vidinių įmonių apskaitą apibrėžiama tik USMF yra iniciatorius. Jei bet kuri bendrovė gali būti sandoris, jums reikės kurti antrą juridinio asmens poros tarpusavio sąrankos. 
+## <a name="define-main-accounts"></a>Pagrindinių sąskaitų nustatymas
+Pirmiausia, turite sukurti vidinės įmonės pagrindines sąskaitas, kurios bus naudojamos apskaitos įrašams „Gavėjas“ ir „Mokėtojas“. Tikslinga kiekvienam įmonei naudoti unikalias pagrindines sąskaitas, kad būtų galima paprasčiau derinti ir šalinti vidinės įmonės apskaitos įrašus. Jei naudojate verslo partnerio ar kolegos dimensiją, kad nustatytumėte vidinės įmonės šalį, šią dimensiją galite nurodyti kaip fiksuotą pagrindinėje sąskaitoje, kuri nurodyta vidinės įmonės apskaitoje. Kai nustatote pagrindines sąskaitas, puslapyje **Pagrindinės sąskaitos** nustatykite lauko **Pagrindinės sąskaitos tipas** reikšmę **Balansas**.
 
-Pasirinkite į **debetuoja sąskaitą (sumokėti)** ir **kredito sąskaitos (turi)** tiek kilmės ir paskirties juridinio subjekto. Nustatyti, **žurnalo pavadinimas** bus naudojamas, kai sandoris yra sukurta įmonėje. Žurnalas už kilmės įmonės jau žinoma, nes jis yra pažymėtas vartotojas, kai sukuriamas vidinės įmonės operacijos. 
+## <a name="define-journal-names"></a>Žurnalų pavadinimų nustatymas
+Tada turite nustatyti žurnalo pavadinimą. Puslapyje **Žurnalų pavadinimai** nustatykite lauko **Žurnalo tipas** reikšmę **Kasdienis**. Tikslinga naudoti konkretų žurnalo pavadinimą vidinės įmonės apskaitai.
 
-Galiausiai pasirinkite, koks juridinis subjektas gaus apskaitos paramos sumos, pvz., mokėjimo nuolaidos arba Realizuoto pelno/nuostolio centralizuoti mokėjimai. 
+## <a name="define-intercompany-accounting-setup"></a>Vidinės įmonės apskaitos sąrankos nustatymas
+Puslapis **Įmonės vidinės apskaita** dabar naudojamas norint kurti visas sandorį galinčias sudaryti juridinių subjektų poras. Vidinės įmonės apskaitos sąranka yra bendrinama, todėl sąranka matoma visuose juridiniuose subjektuose. Kurdami naują juridinių subjektų porą įsitikinkite, kad žinote, kuris juridinis subjektas turi būti nustatytas kaip pradinė įmonė, o kuris – kaip paskirties įmonė. Įvedant vidinės įmonės operacijas, operacija nustato, kuris juridinis subjektas operaciją inicijuoja. Pvz., nustatoma įmonių USMF (pradinė) ir USSI (paskirties) vidinės įmonės apskaita. Jei vartotojas yra aktyvus įmonėje USSI ir jis įveda vidinės įmonės operaciją, susijusią su USMF, operacija nebus registruojama, nes vidinės įmonės apskaita nustatyta tik USMF nurodžius kaip pradinę įmonę. Jei abi įmonės gali inicijuoti operacijas, turėsite sukurti antrą juridinių subjektų porą ir nustatyti abipusę sąranką. 
 
-Tarpusavio santykius galima lengvai nustatyti dėl į **tvarkant vidinių įmonių apskaitą** puslapis naudojant į **sukurti tarpusavio santykių** mygtuką po pirmojo juridinio asmens pora yra sukurta. Sukūrus abipusę poros, informacijos paskirties įmonės kopijuojamas į kilmės įmonę ir atvirkščiai. Apibrėžtos paskirties įmonės žurnale lieka. Dauguma organizacijų naudokite vardų suteikimo konvencijos žurnalo pavadinimai, kad žurnalo pavadinimas yra toks pat. Jei žurnalo pavadinimai skiriasi, įspėjimas pasirodys pranešti jums, kad žurnalą neegzistuoja ir galima pasirinkti skirtingus žurnalo lauke.
+Pradiniame ir paskirties juridiniuose subjektuose nustatykite parinktis **Debeto sąskaita (mokėtojas)** ir **Kredito sąskaita (gavėjas)**. Nurodykite, kuris **Žurnalo pavadinimas** bus naudojamas, kai operacija kuriama paskirties įmonėje. Pradinės įmonės žurnalas jau žinomas, nes kuriant vidinės įmonės operaciją jį pasirenka vartotojas. 
+
+Galiausiai pasirinkite, kuriam juridiniam subjektui bus teikiama galimų sumų apskaita, pvz., centralizuotų mokėjimų nuolaidos arba gauto pelno / patirto nuostolio apskaita. 
+
+Abipusį ryšį galima lengvai nustatyti puslapyje **Vidinės įmonės apskaita** naudojant mygtuką **Kurti abipusį ryšį**, kai pirmoji juridinių subjektų pora jau sukurta. Kai abipusio ryšio pora sukurta, paskirties įmonės informacija nukopijuojama į pradinę įmonę (ir atvirkščiai). Nustatytas paskirties įmonės žurnalas liks toks pat. Dauguma organizacijų naudoja tokią pačią savo žurnalų pavadinimų kūrimo strategiją, kad jų žurnalo pavadinimas būtų toks pat. Jei žurnalo pavadinimas kitoks, lauke bus rodomas pranešimas, įspėjantis, kad žurnalo nėra ir galima pasirinkti kitą žurnalą.
+
+
 
 

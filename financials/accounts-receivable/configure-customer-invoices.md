@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Kurti kliento SF
 
+[!include[banner](../includes/banner.md)]
 
 
-**Kliento SF pardavimo užsakymui** yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui. Šis kliento SF tipas kuriamas remiantis pardavimo užsakymu, į kurį įeina užsakymo eilutės ir prekių numeriai. Prekių numeriai yra nurodyti ir užregistruoti didžiojoje knygoje. Subledger žurnalo įrašai nėra pardavimo SF pardavimo užsakymo. 
+
+
+**Kliento SF pardavimo užsakymui** yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui. Šis kliento SF tipas kuriamas remiantis pardavimo užsakymu, į kurį įeina užsakymo eilutės ir prekių numeriai. Prekių numeriai yra nurodyti ir užregistruoti didžiojoje knygoje. Kliento SF pardavimo užsakymui skirtų papildomos knygos žurnalo įrašų nėra. 
 
 **Laisvos formos SF** nėra susijusi su pardavimo užsakymu. Joje pateikiamos užsakymo eilutės, kuriose yra DK sąskaitos, laisvo pobūdžio aprašai ir pardavimo suma, kuriuos įvedate. Į šios rūšies SF prekės numerio įvesti negalite. Turite įvesti atitinkamą PVM informaciją. Pagrindinė pardavimo sąskaita nurodoma kiekvienoje SF eilutėje, kurią paskirstyti į kelias DK sąskaitas galite **Laisvos formos SF** puslapyje spustelėdami **Paskirstyti sumas**. Be to, kliento balansas suminėje sąskaitoje regisruojamas iš naudojamo laisvos formos SF registravimo profilio.
 
@@ -55,7 +58,7 @@ Pardavimo užsakymų būseną peržiūrėkite sąrašo puslapyje **Visi pardavim
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Konsoliduoti pardavimo užsakymus arba važtaraščius, norint juos registruoti
 Šį procesą naudokite, kai vienam ar keliems pardavimo užsakymams galima išrašyti SF, ir norite juos konsoliduoti į vieną SF. 
 
-**Pardavimo užsakymo** sąrašo puslapyje galite pasirinkti kelias SF ir tada joms konsoliduoti naudoti **Generuoti SF**. Dėl į **registruojant SF** puslapyje, jūs galite pakeisti į **sutrumpintas skolos** nustatymas norint apibendrinti užsakymo numeris (kai yra kelių važtaraščių viename pardavimo užsakyme) arba pagal SF kodą (jei yra keli pardavimo užsakymų vieną SF sąskaita). Naudoti su **organizuoti** mygtuką, Norėdami sustiprinti pardavimo užsakymų į bendrosios sąskaitos-faktūros, remiantis į **sutrumpintas skolos** parametrai.
+**Pardavimo užsakymo** sąrašo puslapyje galite pasirinkti kelias SF ir tada joms konsoliduoti naudoti **Generuoti SF**. Puslapyje **SF registravimas** galite pakeisti **Suminio užsakymo** nustatymą, kad būtų sumuojama pagal užsakymo numerį (kai yra keli vieno pardavimo užsakymo važtaraščiai) arba pagal SF sąskaitą (kai yra keli vienos SF sąskaitos pardavimo užsakymai). Naudokite mygtuką **Išdėstyti**, kad pardavimo užsakymus pagal **Suminio užsakymo** parametrus konsoliduotumėte į vieną SF.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildomos nuostatos, keičiančios registravimo veikseną
 Toliau nurodyti laukai keičia registravimo proceso veikseną.
@@ -150,6 +153,8 @@ Toliau nurodyti laukai keičia registravimo proceso veikseną.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizuotų mokėjimų sudengimo apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti keliuose juridiniuose subjektuose ir yra sutaupoma laiko supaprastinant mokėjimo pasiūlymo procesą, atsiskaitymo procesą, atvirų operacijų redagavimą ir centralizuotų mokėjimų uždarytų operacijų redagavimą. 
 
 Kai kliento arba tiekėjo mokėjimas įvedamas viename juridiniame subjekte ir sudengiamas su SF, kuri buvo įvesta kitame juridiniame subjekte, kiekvienam juridiniam subjektui automatiškai sukuriamas tinkamas sudengimas, „mokėti iki“ ir „mokėti nuo“ operacijos. Sudengimo įrašas sukuriamas kiekvienam SF ir mokėjimo deriniui. Kiekvienam sudengimo įrašui priskiriamas naujas kvito numeris, pagrįstas mokėjimo kvito numeracijos serija, nurodyta klientų puslapyje **Gautinų sumų parametrai** ir tiekėjų puslapyje **Mokėtinų sumų parametrai**. 
@@ -108,6 +111,8 @@ Tiekėjo mokėjimams „mokėti iki“ ir „mokėti nuo“ operacijos mokėjimo
 
 ## <a name="withholding-tax"></a>Išskaitomas mokestis
 Tiekėjo kodas, susietas su SF, naudojamas norint nustatyti, ar išskaitomas mokestis turėtų būti skaičiuojamas. Jei išskaitomas mokestis pritaikomas, jis apskaičiuojamas juridiniame subjekte, kuris susietas su SF. Jei juridiniame subjekte naudojamos skirtingos valiutos, naudojamas su SF susieto juridinio subjekto valiutos kursas.
+
+
 
 
 

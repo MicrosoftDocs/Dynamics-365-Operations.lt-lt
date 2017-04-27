@@ -1,6 +1,6 @@
 ---
 title: "Pašalinimo taisyklės"
-description: "Šioje temoje pateikta informacija apie šias taisykles ir įvairių variantų dėl apie panaikinimą."
+description: "Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Pašalinimo taisyklės
 
-Šioje temoje pateikta informacija apie šias taisykles ir įvairių variantų dėl apie panaikinimą.
+[!include[banner](../includes/banner.md)]
 
-Šalinimo operacijų reikalaujama, kai pirminis juridinis subjektas bendradarbiauja su vienu ar daugiau filialo juridinių subjektų ir naudoja konsoliduotas finansines ataskaitas. Konsoliduotose finansinėse ataskaitose turi būti nurodytos tik tos operacijos, kurios vyksta tarp konsoliduotos organizacijos ir kitų ne tos organizacijos objektų. Todėl sandorius tarp juridinių asmenų, kurie yra dalis tos pačios organizacijos turi būti pašalintas, arba pašalintas, DK, todėl jos nerodomos dėl finansinių ataskaitų. Skelbti apie pašalinimus galima keliais būdais.
+
+Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
+
+Šalinimo operacijų reikalaujama, kai pirminis juridinis subjektas bendradarbiauja su vienu ar daugiau filialo juridinių subjektų ir naudoja konsoliduotas finansines ataskaitas. Konsoliduotose finansinėse ataskaitose turi būti nurodytos tik tos operacijos, kurios vyksta tarp konsoliduotos organizacijos ir kitų ne tos organizacijos objektų. Todėl tos pačios organizacijos juridinių subjektų operacijos turi būti pašalintos iš DK, kad nebūtų rodomos finansinėse ataskaitose. Skelbti apie pašalinimus galima keliais būdais.
 
 -   Konsolidavimo ar pašalinimo įmonėje galima sukurti ir apdoroti pašalinimo taisyklę.
 -   Galima naudoti finansines ataskaitas ir konkrečioje eilutėje arba stulpelyje rodyti pašalinimų sąskaitas ir dimensijas.
@@ -129,27 +132,29 @@ Jūsų juridinis subjektas (juridinis subjektas A) parduoda daiktus kitam jūsų
 Visos šios operacijos sukuria vidinės įmonės operacijas, kurios užregistruojamos sąskaitose iki ir nuo. Be to, šios operacijos gali apimti antkainio ir kainos sumažinimo sumas, kai vidinės įmonės pardavimo suma nėra lygi parduotų prekių išlaidoms.
 
 ## <a name="set-up-elimination-rules"></a>Nustatyti pašalinimo taisykles
-Kuriant šias taisykles Dynamics 365 operacijoms, rekomenduojame kad jums sukurti finansinių aspektų specialiai pašalinimo tikslais. Dauguma klientų gali prireikti prekybos partneris ar kažkas panašaus. Jei nusprendžiate nenaudoti finansinių aspektų, tada būtinai turi pagrindinės sąskaitos, būdingas tik vid. 
+Nustatant pašalinimo taisykles programoje „Dynamics 365 for Operations“, rekomenduojame sukurti finansinę dimensija, skirtą tik šalinimo veiksmams atlikti. Dauguma klientų pavadina ją Prekybos partneris arba panašiai Jei nuspręsite nenaudoti finansinės dimensijos, būtinai turėkite dvi pagrindines sąskaitas, skirtas tik vidinės įmonės operacijoms. 
 
-Pašalinimų nustatymą randamas nustatymo srityje konsolidavimo modulis. Po to, kai jūs įveskite taisyklės aprašymą, jūs turite pasirinkti įmonę, kuri sukurtame pašalinimo žurnale registruos. Tai turėtų būti bendrovės, kuri turi **naudoti finansų pašalinimo proceso** pasirinktas juridinio asmens nustatymo. 
+Pašalinimo sąranką galima rasti modulio Konsolidavimas srityje Sąranka. Įvedę taisyklės aprašą, turite pasirinkti įmonę, kurioje pašalinimo žurnalas bus registruojamas. Tai turi būti įmonė, kurios juridinio subjekto sąrankoje pažymėta parinktis **Naudoti finansinio pašalinimo procese**. 
 
-Jei reikia, gali nustatyti datą, pašalinimo taisyklė įsigalioja ir kai ji yra pasibaigęs. Turite nustatyti **veiklioji** į **taip** jei norite, kad jį būtų galima pašalinti pasiūlymo procesą. Pasirinkite žurnalo pavadinimas, kuris yra tam tikros rūšies **pašalinti**.
+Jei reikia, galite nustatyti pašalinimo taisyklės galiojimo pradžios ir pabaigos datas. Turite nustatyti parinkties **Aktyvus** reikšmę **Taip**, jei norite, kad ją būtų galima naudoti pašalinimo pasiūlymo proceso metu. Pasirinkite žurnalo, kurio žurnalo tipas **Pašalinimas**, pavadinimą.
 
-Kai apibrėžėte pagrindai, galite nustatyti faktiško perdirbimo taisykles spustelėdami **linijos**. Yra du variantai, panaikinimą, panaikinti grynojo pokyčio dydį arba nustatyti tam tikros sumos. 
+Nurodę pagrindinę informaciją, galite nustatyti pačias apdorojimo taisykles, spustelėdami **Eilutės**. Galimos dvi šalinimo parinktys: grynojo pokyčio sumos pašalinimas arba fiksuotos sumos nustatymas. 
 
-Pasirinkite savo pirminę sąskaitą. Galite naudoti žvaigždutę (\*) kaip pakaitos simbolį. Pvz., 1\* pasirinkite visų sąskaitų, kurios paleidžiamos su 1 kaip šaltinio duomenų paskirstymo. 
+Pasirinkite šaltinio sąskaitą. Žvaigždutę (\*) galite naudoti kaip universalųjį simbolį. Pvz., nurodžius 1\*, kaip paskirstymo duomenų šaltinis būtų pasirinktos visos sąskaitos, kurios prasideda 1. 
 
-Po to, kai jūs pasirinkote savo šaltinio sąskaitos, ir **sąskaitos specifikacija** nustato sąskaitą iš paskirties vietos bendrovės, kuri yra naudojama. Pasirinkite **šaltinio** jei norite naudoti patį nurodyta sąskaita į **šaltinio** sąskaitos. Jei pasirinksite **nustatyta vartotojo**, tada jūs turite nurodyti paskirties abonemento. 
+Pasirinkus šaltinio sąskaitas, **Sąskaitos specifikacija** nustato naudojamą paskirties įmonės sąskaitą. Pasirinkite **Šaltinis**, jei norite naudoti tą pačią pagrindinę sąskaitą, nurodytą sąskaitoje **Šaltinis**. Jei pasirinksite **Nurodyta vartotojo**, turite nurodyti paskirties sąskaitą. 
 
-Dimensijos specifikacijos veikia tokiu pačiu būdu. Jei pasirinksite **šaltinio**, jis bus naudojamas tų pačių dydžių įmonėje kaip pirminę įmonę. Jei pasirinksite **nustatyta vartotojo**, jums reikės nurodyti dimensijas įmonėje spustelėdami į **paskirties dimensijos** meniu punktą. 
+Dimensijos specifikacijos funkcija tokia pati. Jei pasirinkite **Šaltinis**, ji naudos tas pačias paskirties įmonės dimensijas, kurios naudojamos šaltinio įmonėje. Jei pasirinksite **Nurodyta vartotojo**, turėsite nurodyti paskirties įmonės dimensijas, spustelėdami meniu elementą **Paskirties dimensijos**. 
 
-Pasirinkite šaltinio matmenis ir finansinės dimensijos ir reikšmes, kurios naudojamos kaip šaltinio, panaikinimą.
+Pasirinkite šaltinio dimensijas ir finansines dimensijas bei vertes, kurios naudojamos kaip pašalinimo šaltinis.
 
 ## <a name="process-elimination-transactions"></a>Apdoroti pašalinimo operacijas
-Yra du būdai, kaip proceso pašalinimo operacijos, konsoliduoti internete proceso metu arba sukurtame pašalinimo žurnale sukurdami ir paleisdami pašalinimo pasiūlymo procesą. Šiame skyriuje pagrindinis dėmesys skiriamas žurnalo kūrimo ir veikia pašalinimo procesas. 
+Pašalinimo operacijas galima apdoroti dviem būdais: vykdant konsolidavimo tinkle procesą arba sukuriant pašalinimo žurnalą ir paleidžiant pašalinimo pasiūlymo procesą. Šio skyriaus tikslas yra sukurti žurnalą ir paleisti pašalinimo procesą. 
 
-Įmonė apibrėžiama kaip įmonė panaikinimo, pasirinkite **sukurtame pašalinimo žurnale** konsolidavimo modulyje. Kai pasirinksite žurnalo pavadinimo, spustelėkite **linijos**. Galite paleisti pasiūlymo pasirinkdami į **pasiūlymų** meniu ir pasirinkę **pašalinti pasiūlymą**.
+Įmonėje, kuri nurodyta kaip pašalinimo įmonė, modulyje Konsolidavimas pasirinkite **Pašalinimo žurnalas**. Pasirinkę žurnalo pavadinimą spustelėkite **Eilutės**. Pasiūlymą galite paleisti pasirinkę meniu **Pasiūlymai** ir tada pasirinkę **Pašalinimo pasiūlymas**.
 
-Pasirinkite įmonę, kuri yra konsoliduotų duomenų šaltinį, o tada pasirinkite taisyklę, kad norite apdoroti. Įveskite pradėti pašalinimo sumos ieškoti pradžios datą ir pabaigos datą, pabaigos paieškos data panaikinimo sumas. Į **GL registravimo data** lauke yra data, naudojama registruojant DK žurnalą. Po to, kai spustelite **gerai**, galite peržiūrėti sumas ir registruoti į žurnalą.
+Pasirinktie įmonę, kuri yra konsoliduotų duomenų šaltinis, o tada pasirinktie taisyklę, kurią norite apdoroti. Įveskite pradžios datą, kad pradėtumėte ieškoti pašalinimo sumų, ir įveskite pabaigos datą, kad pabaigtumėte pašalinimo sumų iešką. Lauke **DK registravimo data** nurodyta data naudojama registruojant žurnalą DK. Spustelėję **Gerai** galite peržiūrėti sumas ir registruoti žurnalą.
+
+
 
 

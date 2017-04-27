@@ -1,5 +1,5 @@
 ---
-title: "Žurnalistė - dizaineris ir interneto kliento valdymo"
+title: "„Management Reporter“ – dizaino įrankis ir žiniatinklio klientas"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Žurnalistė - dizaineris ir interneto kliento valdymo
+# <a name="management-reporter----the-designer-and-web-client"></a>„Management Reporter“ – dizaino įrankis ir žiniatinklio klientas
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

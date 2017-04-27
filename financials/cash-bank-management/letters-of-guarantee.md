@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Garantiniai raštai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie garantinius raštus. Garantiniame rašte bankas sutinka mokėti tam tikrą pinigų sumą asmeniui, jei vienas iš banko klientų laiku nesumokės arba neįvykdys įsipareigojimo tam asmeniui. 
 
 Garantinis raštas yra banko (laiduotojo) sutikimas sumokėti nustatytą sumą pinigų konkrečiam asmeniui (gavėjui), jei banko klientas (vykdytojas) laiku nesumokės arba neįvykdys įsipareigojimo gavėjui. Garantiniai raštai nėra perduodami. Jie galioja tik gavėjui, kuris įvardijamas sutartyje. Vykdytojas gali prašyti padidinti arba sumažinti garantinio rašto vertę, priklausomai nuo sutarties sąlygų. 
@@ -55,6 +58,8 @@ Toliau pateikiamoje lentelėje aprašomi veiksmai, kuriuos galite atlikti su gar
 | Išplėsti              | Kai pateikiate garantinį raštą gavėjui, pratęsti galiojimo laiką, jei to reikia. |
 | Atšaukti              | Jei priežasties, dėl kurios buvo prašyta garantinio rašto, nebėra – atšaukti sutartį.                  |
 | Likviduoti           | Kai gavėjas pateikia garantinį raštą bankui, iškeisti garantinį raštą į grynuosius pinigus.                      |
+
+
 
 
 

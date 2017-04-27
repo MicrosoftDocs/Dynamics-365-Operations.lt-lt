@@ -1,6 +1,6 @@
 ---
-title: Veikla pagal subrangos
-description: "Šioje temoje aprašoma, išsamiai, kaip naudotis subrangos sutartis vykdoma veikla, gamybos srautas tausojančios gamybos."
+title: "Veikla pagrįsta subranga"
+description: "Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,80 +26,85 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="activity-based-subcontracting"></a>Veikla pagal subrangos
+# <a name="activity-based-subcontracting"></a>Veikla pagrįsta subranga
 
-Šioje temoje aprašoma, išsamiai, kaip naudotis subrangos sutartis vykdoma veikla, gamybos srautas tausojančios gamybos.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 operacijoms, yra du požiūriai dėl subrangos: gamybos užsakymų ir tausojančios gamybos. Tausojančios gamybos metode, subrangos darbų yra modeliuojama kaip paslauga, susijusi su gamybos srauto veikla. Specialios rūšies išlaidų grupės tipas, kuris pavadintas **tiesioginės užsakomosios paslaugos** buvo įvesta, ir subrangos paslaugas nebėra dalis komplektavimo specifikacijos (KS). Kaštų apskaitos subrangovo darbas yra visiškai integruotos į įkainojimo tausojančios gamybos sprendimas.
 
-## <a name="production-flows-that-involve-subcontractors"></a>Gamybos srautai, susiję su subrangovais
-Principo, pagal gamybos srauto nesikeičia, kai veikla yra subrangovai. Medžiagos vis dar teka tarp vietų, proceso veiklas konvertuoti medžiagos su produktais ir perdavimo veikla perkelti medžiagos arba gaminių iš vienos vietos į kitą. Galite modeliuoti vietas ir dirbti ląstelių kaip tiekėjo valdomos priskirdami tiekėjo sąskaitą, į sandėlį arba į išteklių išteklių grupės.  
+Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje.
 
-Remiantis šių pajėgumų, tausojančios gamybos nereikalauja jokių specifinių funkcijų siekiant remti keitimąsi medžiagos ir produktai. Visus galimus scenarijus, kuriuose dalyvauja pardavėjai, kaip gamybos ar transporto paslaugų teikėjai gali būti modeliuojama pagal gamybos ir veiklos struktūrą.  
+„Microsoft Dynamics 365 for Operations“ naudojami du subrangos metodai: gamybos užsakymai ir „lean manufacturing“. „Lean manufacturing“ metodas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su gamybos eigos veikla. Pristatytas specialus išlaidų grupės tipas, kuris vadinasi **Tiesioginė subranga**, ir subrangos paslaugos nebėra KS dalis. Subrangos darbo išlaidų apskaita yra visiškai integruota į „lean manufacturing“ įkainojimo sprendimą.
 
-Pvz., rangovo darbų iš prekybos centrų, kurie yra subrangovo. Kai vėdinimo įrenginys yra ištuštinami subrangovas, kanban kortelės grąžinami surinkimo ląstelių bei kitas važtar. Prekybos centre kartą subrangovas yra tada papildyti. Pervežimus į ir iš subrangovo gali būti modeliuojama kaip aiškų perdavimo veiklai, kuria remiamas skinti ir ruošti siuntą. Jei aiškiai registracijos nėra būtina palaikyti fizinę transporto, perdavimo veikla gali būti praleidžiami.  
+## <a name="production-flows-that-involve-subcontractors"></a>Gamybos eigos, apimančios subrangą
+Pagrindinis gamybos eigos principas nesikeičia, kai veiklą vykdo subrangovai. Medžiagų srautas tarp vietų vis dar vykdomas, proceso veiklos konvertuoja medžiagas į produktus, o perkėlimo veiklos perkelia medžiagas arba produktus iš vienos vietos į kitą. Vietas ir darbo elementus galite modeliuoti kaip tiekėjo valdomus elementus, priskirdami tiekėjo sąskaitą sandėliui arba išteklių grupės ištekliui.  
 
-Rangovo galima pakrauti balanse bendrą gamybiniu pajėgumus. Pvz., gamybos srautas yra modeliuojama naudojant reguliaraus kanban taisykles. Planner naudoja kanban planavimo Taryba planuoti ir apkrovos lygį tiek darbo ląstelių pagal poreikį. Planner taip pat stebi konsoliduotą tiekimo grafiką prekybos centruose ant to **tiekimo planas** puslapis. Kelis subrangovai gali būti modeliuojama į vieną ar kelis gamybos srautai, o gali būti kelios kanban taisyklės, kad būtų galima tiekti tam pačiam produktui, į tą pačią vietą per įvairią veiklą. Planner konvertuoti kanbans į alternatyvių kanban taisyklę norėdami perplanuoti kanban, kuris buvo sukurtas vidaus gamybos alternatyvių procesų. Iš tiesų, rangovų darbas ląstelė pobūdis neturi poveikio gamybos srautas. Tas pats darbo principas galioja du lygiagrečiai vidaus darbo langelius arba du rangovų ląstelių.   
+Atsižvelgiant į šiuos pajėgumus, „lean manufacturing“ nereikia jokių specialių funkcijų, kad būtų palaikomas medžiagų ir produktų srautas. Visus galimus scenarijus, kurie apima tiekėjus kaip gamybos arba transporto paslaugų tiekėjus, galima modeliuoti pagal gamybos eigos ir veiklų architektūrą.  
 
-Kaip ir bet kuri kita veikla gamybos srautas, subrangos sutartis vykdoma veikla gali suvartoti ir padavimo inventorizuotos, neinventorizuotos (darbo procese \[ng\]), ir medžiagos, ir produktai. Visais atvejais planuojant ir vykdant subrangos sutartis vykdoma veikla procesai yra tas pats. Be to, jie tvarko tuos pačius kaip vidaus darbo procesus.
+Pvz., subrangovas dirba subrangovo vietoje esančiame prekybos centre. Kai subrangovo vietoje ištuštinami sandėliavimo vienetai, „kanban“ kortelės yra grąžinamos į rinkinio langelį kartu su kita siunta. Tada subrangovo prekybos centras yra papildomas. Perkėlimus subrangovui ir iš jo galima modeliuoti kaip tiesiogines perkėlimo veiklas, norint palaikyti paėmimo ir siuntimo procesą. Jei tiesioginė registracija nėra reikalinga, kad būtų palaikytas faktinis transportas, perkėlimo veiklų galima neįtraukti.  
 
-## <a name="purchase-process-for-subcontracted-activities-services"></a>Pirkimo procesas už užsakytos veiklos (paslaugos)
-Pirkimo procesą, subrangos sutartis vykdoma veikla yra pagrįstas fizinės medžiagų kiekio kitimą, užregistruoto kanban darbo eigos, pvz., pradėti arba užbaigti. Finansinius srautus, pavyzdžiui, išlaidų subrangovo darbas, yra antrinės srauto, kad taip fizinių srautų. Be to, pirkimo procesą yra nepriklausomi procesas, kuris leidžia rankiniu būdu koreguoti pirkimo dokumentų kiekviename žingsnyje. Čia yra pirkimo procesas subrangos sutartis vykdoma veikla:
+Subrangovą galima naudoti norint subalansuoti bendrą gamybos eigos pajėgumą. Pvz., gamybos eiga modeliuojama naudojant suplanuotas „kanban“ taisykles. Planavimo priemonė naudoja „kanban“ planavimo lentą, kad suplanuotų ir paskirstytų poreikio apkrovą abiejuose darbo elementuose. Planavimo priemonė taip pat stebi prekybos centro konsoliduotą tiekimo grafiką puslapyje **Tiekimo grafikas**. Vienoje arba keliose gamybos eigose galima modeliuoti kelis subrangovus ir galima nustatyti kelias „kanban“ taisykles, kurios būtų naudojamos tam pačiam produktui į tą pačią vietą tiekti per skirtingas veiklas. Planavimo priemonė gali konvertuoti „kanban“ į alternatyvią „kanban“ taisyklę, kad perplanuotų pradžioje sukurtą vidinės gamybos „kanban“ alternatyviame procese. Tiesa sakant, darbo elemento subrangos savybės gamybos eigai įtakos neturi. Tas pats darbo principas taikomas dviem paraleliems vidiniams darbo elementams arba dviem subrangos elementams.   
 
-1.  Kurti pirkimo sutartį. Pirkimo sutartį yra sukurta paslauga ir prijungtas prie gamybos srautas, veikla.
-2.  Kurti pirkimo užsakymą. Išleidimo pirkimo užsakymą galite sukurti tarnybą, pagrįstą reguliaraus kanban darbo vietų. Darbo vietų, už tą pačią paslaugą galima suskirstyti į pirkimo užsakymo eilutės pagal dieną, savaitę arba mėnesį. Pirkimo užsakymo eilutes gali būti sukurtos bet kuriuo metu po to, kai kanban darbo vietų. Pirkimo užsakymo eilutes galima sukurti net po fakto. Ši parinktis paprastai būna pažymėtas, jei rangovo teikia paslaugas be papildomo pranešimo, pagal kanbans arba kanban kortelės, kad subrangovas gauna. Tokiu atveju gali būti sumažintas nukrypimus nuo pirkimo užsakymo SF.
-3.  Generuoti kanban kortelės, medžiagos ir išrinkimo perduoti subrangovui paruošti perdirbti. Remiantis Išsamios modeliavimo gamybos srautas, rengiant daroma kanban valdybos organizuojant procesus naudojant išrinkimo ir paruošimo funkcijos. Kita vertus, rengiant daroma kanban valdyba perkėlimo užduotis naudojant išrinkimo ir pradžios arba pabaigos. Inventorizuotos medžiaga, abu procesai gali būti remiamos WMS skinti ir ruošti siuntą. Važtaraštį galima sukurti pagal poreikį.
-4.  Generuoti kanban vėdinimo įrenginiai ir kanban kortelės. Po apdorojimo, kortelės yra grįžo iš subrangovo. Paprastai, kortelės yra, nurodantis medžiagos fizinės atgabentas važtaraštyje. Nuoroda į teikiamas paslaugas, nėra būtina. Medžiagą ar gaminį klientui yra registruota kanban valdyba, atsižvelgiant į tai, kanban kortelės. (Kanban valdybos veiklos procesas arba perdavimo užduočių kanban valdyba yra naudojamas, modeliuojamos veiklą.).
-5.  Sukurkite kvitą konsultavimo. Konsultavimo gavimas gali būti panaudotas pakeisti pakavimo važtaraščio dokumento už gautas paslaugas. Gavimo patarimus galetu pagal subrangos veikla baigė kanban vietų pasirinkto laikotarpio. Kiekvienos užduoties gavimo, patarimai yra sukurti susietą pirkimo užsakymo eilutės. Gavusi patariamojo galima atspausdinti ir išsiųsti subrangovas gavimo patvirtinimas.
-6.  Sukurti sąskaitą-faktūrą.
+Kaip ir kiekvieną kitą gamybos eigos veiklą, subrangos veiklas galima vartoti ir tiekti kaip inventorizuotas, neinventorizuotas (nebaigtos gamybos \[NG\] ir pusiau baigtas medžiagas bei produktus. Visais atvejais subrangos veiklų planavimas ir vykdymas atliekami taip pat. Be to, šie procesai atitinka vidinio darbo procesus.
 
-Procesas baigiasi, kai subrangovas išrašoma laikotarpiui. SF rungtynes yra padaryta prieš gavimo patarimus, kurie sukuriami. Nes gavimo patarimus nurodo tikslią faktinio gavimo medžiagos, trijų padėčių atitikimo supaprastintas.
+## <a name="purchase-process-for-subcontracted-activities-services"></a>Subrangos veiklų pirkimo procesas (paslaugos)
+Subrangos veiklų pirkimo procesas paremtas faktinių medžiagų srautu, kuris užregistruotas „kanban“ taisyklės eigoje, pvz., Pradėti arba Baigti. Pvz., finansų srauto išlaidos už subrangos darbą yra antrinis srautas, kuris seka faktinį srautą. Tuo pat metu pirkimo procesas yra atskiras procesas, suteikiantis galimybę atliekant kiekvieną veiksmą neautomatiškai koreguoti pirkimo dokumentus. Toliau nurodomas subrangos veiklų pirkimo procesas.
 
-## <a name="configuring-activities-for-subcontracting"></a>Konfigūruojant veiklos pasiūlymus subrangos darbams pagal
-Šiuose skyriuose aprašoma, kaip konfigūruoti veiklos subrangos sutarčių sudarymą.
+1.  Pirkimo sutarties kūrimas. Sukuriama paslaugos pirkimo sutartis ir prijungiama prie gamybos srauto veiklos.
+2.  Kurti pirkimo užsakymą. Galima kurti paslaugos išleistą pirkimo užsakymą pagal suplanuotas „kanban“ užduotis. Tos pačios paslaugos užduotis galima sugrupuoti pirkimo užsakyme pagal dieną, savaitę arba mėnesį. Pirkimo užsakymo eilutes galima kurti bet kada po to, kai sukuriamos „kanban“ užduotys. Pirkimo užsakymo eilutes galima kurti net atgaline data. Ši parinktis paprastai pasirenkama, jei subrangovas paslaugas suteikia be papildomo įspėjimo pagal „kanban“ arba „kanban“ korteles, kurias subrangovas gauna. Šiuo atveju nuokrypius tarp pirkimo užsakymo ir SF galima sumažinti.
+3.  Generuokite „kanban“ korteles, medžiagas ir išrinkimo dokumentą, kad nusiųstumėte subrangovui ir jis galėtų pasiruošti gamybai. Atsižvelgiant į išsamų gamybos eigos modeliavimą, pasiruošimas atliekamas proceso veiklų „kanban“ srityje naudojant išrinkimo dokumentą ir pasiruošimo funkciją. Arba pasiruošimas atliekamas perkėlimo užduočių „kanban“ srityje naudojant išrinkimo dokumentą ir paleidimo arba baigimo funkciją. Naudojant inventorizuojamas medžiagas, abu procesus gali palaikyti WMS paėmimo ir siuntimo procesai. Važtaraštį galima kurti pagal poreikį.
+4.  Generuokite „kanban“ sandėliavimo vienetus ir „kanban“ korteles. Apdorojus kortelės iš subrangovo perkeliamos atgal. Paprastai į korteles įtraukiama pristatymo pažyma, kuri nurodo išsiųstas faktines medžiagas. Suteiktų paslaugų nuoroda nėra būtina. Medžiagos arba produkto pristatymas klientui yra užregistruojamas „kanban“ srityje atsižvelgiant į „kanban“ korteles. (Naudojama proceso veiklų „kanban“ sritis arba perkėlimo užduočių „kanban“ sritis, atsižvelgiant į modeliuojamas veiklas.)
+5.  Sukurkite gavimo patariamąjį dokumentą. Patariamąjį dokumentą galima naudoti norint pakeisti gautos paslaugos važtaraščio dokumentą. Gavimo patariamuosius dokumentus galima generuoti pagal pasirinkto laikotarpio subrangos veiklos baigtas „kanban“ taisykles. Kuriami kiekvieno užduoties gavimo pirkimo užsakymo eilutės patariamieji dokumentai. Gavimo patariamąjį dokumentą galima atspausdinti ir išsiųsti subrangovui kaip gavimo patvirtinimą.
+6.  Generuokite SF.
 
-### <a name="subcontracted-services"></a>Užsakytos paslaugos
+Procesas baigiamas, kai subrangovui išrašoma SF už laikotarpį. SF gretinimas atliekamas pagal sukurtus gavimo patariamuosius dokumentus. Kadangi gavimo patariamieji dokumentai nurodo tikslų faktinį medžiagos gavimą, trišalis atitikimas yra supaprastintas.
 
-Mokėjimo elementą, kuris yra naudojamas pagal subrangos turi būti produktas, kuris turi šias ypatybes:
+## <a name="configuring-activities-for-subcontracting"></a>Subrangos veiklų konfigūravimas
+Toliau pateikiamuose skyriuose aprašoma, kaip konfigūruoti subrangos veiklas.
 
--   **Prekė:** paslaugos
--   **Atsargų modelio grupės:** ne įžuvinti
+### <a name="subcontracted-services"></a>Subrangos paslaugos
 
-Šis reikalavimas mokymuisi naudoti pirmasis į, pirmasis iš (FIFO) atsargų modelis. **Pastaba:** produktų savikainos skaičiavimo reikalauja, kad būtų apibrėžta standartinė paslaugos kaina. Pirkimo sutartį su tiekėju yra būtinas. Priešingu atveju, paslaugos negalima naudoti veiklos pagrindu subrangos sutarčių sudarymą.
+Veikla pagrįstoje subrangoje naudojama mokėjimo prekė turi būti produktas, turintis toliau nurodytas savybes.
 
-### <a name="subcontracted-process-activities"></a>Rangovų proceso veiklas
+-   **Produkto tipas:** paslauga
+-   **Atsargų modelių grupė:** nelaikomas
 
-Norėdami sukonfigūruoti proceso veiklos subrangos sutartis vykdoma veikla, atlikite toliau nurodytus veiksmus.
+Dėl šio reikalavimo reikia naudoti „pirmasis į, pirmasis iš“ FIFO) atsargų modelį. **Pastaba.** Produktų išlaidų skaičiavimui atlikti reikia nurodyt standartinę paslaugos savikainą. Reikia sudaryti pirkimo sutartį su tiekėju. Kitaip paslaugos negalima naudoti veikla pagrįstoje subrangoje.
 
-1.  Konfigūruoti rangovų darbas ląstelė. Norėdami sukonfigūruoti darbas ląstelė kaip subrangovui, turite sukurti ištekliaus ir **tiekėjo** tipo ir susieti ją su darbo elemento (išteklių grupės). Vykdymo proceso išlaidų kategorija, su **tiesioginės užsakomosios paslaugos** išlaidų grupės tipas turėtų būti priskirta darbas ląstelė. Išlaidų kategorijų nustatymas ir kiekio nebūtini.
-2.  Po proceso veiklos yra sukurtas ir susijusius su subrangovo darbas langelį, turite sukonfigūruoti tarnybos veiklos prieš gamybos srauto versija gali būti aktyvuota. Galite užbaigti šį veiksmą, **veiklos****detalės** puslapis. Veiklai, kurios yra susijusios su rangovų darbas ląstelė, į **paslaugų sąlygas** FastTab yra rodomas. Šis FastTab, įtraukti numatytąjį paslauga, kuri galioja visos produkcijos prekės. Jei konkretaus išvesties prekės reikalauja skirtingų paslaugų ar skirtingų paslaugų skaičiavimo parametrus (pvz., skirtingų paslaugų santykis), galite įtraukti kitų paslaugų veikla.
+### <a name="subcontracted-process-activities"></a>Subrangos proceso veiklos
 
-## <a name="subcontracted-transfer-activities"></a>Rangovų perdavimo veikla
-Perdavimo veikla yra sukonfigūruotas kaip subrangos sutartis vykdoma veikla, priklausomai nuo to, kad **transportuoja** veiklos perdavimo nustatymas. Galimos toliau nurodytos pasirinktys:
+Norėdami proceso veiklą sukonfigūruoti kaip subrangos veiklą, atlikite toliau nurodytus veiksmus.
 
--   **Siuntėjas** – veiklos samdo subrangovus jei perkėlimas iš sandėlio valdo tiekėjui (kaip apibrėžta pagal sandėlio ypatybę). Visų pasirinktų pirkimo sutartys už paslaugas turi būti paties tiekėjo ID kaip sandėlį.
--   **Gavėjas** – veiklos samdo subrangovus jei perdavimas į sandėlį valdo tiekėjui (kaip apibrėžta pagal sandėlio ypatybę). Visų pasirinktų pirkimo sutartys už paslaugas turi būti paties tiekėjo ID kaip sandėlį.
--   **Vežėjas** – veiklos samdo subrangovus bet tiekėjui, kuris teikia paslaugas. Padarymo vežėjas reikia sukurti sandėlio valdymas ir turi būti priskirtas tiekėjo sąskaitą.
+1.  Sukonfigūruokite subrangos darbo elementą. Norėdami darbo elementą sukonfigūruoti kaip subrangos darbo elementą, turite sukurti tipo **Tiekėjas** išteklių ir jį susieti su darbo elementu (išteklių grupe). Darbo elementu reikia priskirti išlaidų grupės tipo **Tiesioginė subranga** apdorojimo laiko išlaidų kategoriją. Sąrankos ir kiekio išlaidų kategorijos nėra būtinos.
+2.  Sukūrus proceso veiklą ir susiejus ją su subrangos darbo elementu, prieš aktyvinant gamybos eigos versiją reikia sukonfigūruoti veiklos paslaugą. Šis veiksmas atliekamas puslapyje **Veiklos** **informacija**. Jei veiklos yra susietos su subrangos darbo elementu, rodomas „FastTab“ **Paslaugos sąlygos**. Šiame „FastTab“įtraukite numatytąją paslaugą, kuri galioja visoms išeigos prekėms. Jei konkrečioms išeigos prekėms reikalingos kitos paslaugos arba kiti paslaugos skaičiavimo parametrai (pvz., kitas paslaugos koeficientas), į veiklą galite įtraukti kitų paslaugų.
 
-Kalbant apie proceso veiklą, turite sukonfigūruoti numatyt±jç rangovų perdavimo veiklai, **paslaugų sąlygos** FastTab, į **veiklos****detalių** puslapis.
+## <a name="subcontracted-transfer-activities"></a>Subrangos perkėlimo veiklos
+Perkėlimo veikla konfigūruojama kaip subrangos veikla, atsižvelgiant į perkėlimo veiklos nustatymą **Transportuoja**. Galimos toliau nurodytos pasirinktys:
+
+-   **Siuntėjas** – veikla yra subrangos veikla, jei perkėlimą iš sandėlio valdo tiekėjas (kaip nurodyta sandėlio nuosavybėje). Visoms pasirinktoms paslaugų pirkimo sutartims kaip sandėlis turi būti priskirtas tas pats tiekėjo ID.
+-   **Gavėjas** – veikla yra subrangos veikla, jei perkėlimą į sandėlį valdo tiekėjas (kaip nurodyta sandėlio nuosavybėje). Visoms pasirinktoms paslaugų pirkimo sutartims kaip sandėlis turi būti priskirtas tas pats tiekėjo ID.
+-   **Vežėjas** veikla yra bet kurio tiekėjo, teikiančio paslaugą, subrangos veikla. Tam, kad ši parinktis galiotų, reikia sukurti sandėlio valdymo vežėją ir priskirti tiekėjo sąskaitą.
+
+O proceso veiklų subrangos perkėlimo veiklų numatytąją paslaugą reikia sukonfigūruoti puslapio **Veiklos** **informacija** „FastTab“ **Paslaugos sąlygos**.
 
 ## <a name="service-quantity-calculation"></a>Paslaugų kiekio skaičiavimas
-Visą pirkimo procesą remiantis prekės nuoroda paslaugą. Šios prekės nuoroda yra matuojamas matavimo vieneto kodą paslaugos. Paslaugų paprastai matuojamos paslaugos (vienetų) skaičius arba laiko. Skaičiuojant paslaugų kiekį, remiantis registruotų baigti kanban darbo vietas, galite naudoti šiuos metodus:
+Visas pirkimo procesas yra pagrįstas paslaugos prekės nuoroda. Ši prekės nuoroda apskaičiuojama naudojant paslaugos matavimo vienetą. Paslaugos paprastai skaičiuojamos pagal paslaugų (vienetų) skaičių arba laiką. Norėdami pagal užregistruotą „kanban“ taisyklių gavimą apskaičiuoti paslaugos kiekį, galite naudoti tolesnius būdus.
 
--   **Apskaičiavimą, kuris remiasi darbo vietų skaičius** – vieną kanban darbą yra lygus *n* paslaugas, nepriklausomai nuo to produkto kiekio, pateikto vienetų. Tausojančios gamybos, vienas darbas atitinka vieną krovinio vienetą. Šis skaičiavimo metodas taikomas visoms paslaugoms, kurios turi fiksuotą kainą už vėdinimo įrenginį. Todėl šis metodas dažniausiai taikomas perkėlimo veikla. Vis dėlto gali taip pat būti taikomas proceso veiklas, apdoroti visą vėdinimo įrenginiai.
--   **Apskaičiavimą, kuris remiasi produkto kiekis** – paslaugų kiekis yra susijęs su produkto kiekio, kuris planuojama pateikti. Kai skaičiuojamas tiekiamų produktų kiekis, klaidų kiekis gali būti arba įtrauktinų arba išskirtinų. Šis skaičiavimo metodas taikomas visais atvejais, kai paslaugų kaina vienam perdirbto produkto vienetui yra susitarta.
--   **Apskaičiavimą, kuris remiasi veiklos laikas** – teorinės veiklos laikai yra apskaičiuotos, remiantis perdirbimo metu veiklos, bendras perdirbtų kiekį ir našumo santykis perdirbtam produktui. Šis skaičiavimo metodas taikomas paslaugoms, apmokėtas valandą ir turėti atliekančioms laiku už perdirbtą produktą.
+-   **Skaičiavimas, pagrįstas užduočių skaičiumi** – viena „kanban“ taisyklė lygi *n* paslaugos vienetų, neatsižvelgiant į tiekiamą produkto kiekį. “Lean manufacturing“ viena užduotis atitinka vieną sandėliavimo vienetą. Šis skaičiavimo metodas taikomas visoms paslaugoms su nustatyta fiksuota sandėliavimo vieneto kaina. Todėl šis metodas paprastai taikomas perkėlimo veikloms. Tačiau jis gali būti taikomas proceso veikloms, kurios apdoroja visus sandėliavimo vienetus.
+-   **Skaičiavimas, pagrįstas produkto kiekiu** – paslaugos kiekis priklauso nuo produkto kiekio, kuris yra suplanuotas / tiekiamas. Kai skaičiuojamas tiekiamo produkto kiekis, klaidingus kiekius galima įtraukti arba neįtraukti. Šis skaičiavimo metodas taikomas visais atvejais, kai susitariama dėl paslaugos kainos už apdoroto produkto vienetą.
+-   **Skaičiavimas, pagrįstas veiklos laiku** – apskaičiuojami teoriniai veiklos laikai, atsižvelgiant į veiklos apdorojimo laiką, bendrą apdorotą kiekį ir apdoroto produkto našumo koeficientą. Šis skaičiavimo metodas taikomas visoms paslaugoms, kurios apmokamos valandiniu įkainiu ir kurių produkto apdorojimo laikas gali skirtis.
 
-## <a name="cost-accounting-of-subcontracted-services"></a>Kaštų apskaitos užsakytos paslaugos
-Užregistravus patariamasis gavimo ar tiekėjas pagal važtaraštį pirkimo užsakyme, kuris buvo sukurtas gamybos srauto (kitaip tariant, pirkimo užsakymas, sukurtas pagal kanban darbas skirtas subrangos sutartis vykdoma veikla), gavimo dienos vertė sudarė gamybiniu nebaigtos gamybos sąskaitose. Nuokrypių sąskaitos faktūros taip pat sudarė į gamybos srauto. Pradėta taikyti išlaidų kategorijos už subrangovų darbą. Ši išlaidų kategorija įgalinti skaidri sekti rangovų darbą, kuris yra priskirtas vykdomo projekto ir laikotarpio suvartoto vertę.  
+## <a name="cost-accounting-of-subcontracted-services"></a>Subrangos paslaugų išlaidų apskaita
+Kai užregistruojamas gavimo patariamasis dokumentas arba tiekėjo važtaraštis sukurtame gamybos eigos pirkimo užsakyme (kitaip tariant, pirkimo užsakyme, kuris buvo sugeneruotas pagal subrangos veiklų „kanban“ taisykles), gavimo vertė nurodoma gamybos eigos NG kodais. SF nuokrypiai taip pat priskiriami gamybos eigai. Pristatyta subrangos darbo išlaidų kategorija. Išlaidų kategorija suteikia galimybę skaidriai sekti NG paskirstyto ir per laikotarpį sunaudojamo subrangos darbo vertę.  
 
-Įkainojimą tausojančios gamybos sąnaudų laikotarpio pabaigoje padėčių apskaičiuoja tikrasis dispersijos iš produktų, kurie gaminami iš gamybos srautas laikotarpiu įkainojimo.
+Įkainojimo laikotarpio pabaigoje “lean manufacturing“ įkainojimas atvirkštine tvarka apskaičiuoja gamybos eigoje gaminamų produktų faktinius nuokrypius per įkainojimo laikotarpį.
 
-## <a name="modeling-transfers-as-subcontracted-activities"></a>Modeliavimo perdavimą, subrangos sutartis vykdoma veikla
-Žmonės dažnai mano transporto neproduktyvių ir manau, kad jis nesukuria pridėtinės vertės. Tačiau lyginant su vidaus gamybos išlaidos, subrangos išlaidos laikytina papildoma transporto veiklos išlaidas. Gamybos srautas, kuri apima kelias vietas ir transporto paslaugų turėtų modelio transporto išlaidas kaip sąnaudas tiekiant produktus klientui. 
+## <a name="modeling-transfers-as-subcontracted-activities"></a>Perkėlimų kaip subrangos veiklų modeliavimas
+Dažnai žmonės galvoja, kad transportas nėra produktyvus ir nekuria jokios vertės. Tačiau, lyginant subrangos išlaidas ir vidaus gamybos išlaidas, reikėtų apsvarstyti papildomų transporto veiklų išlaidas. Gamybos eigoje, kuri vykdoma keliose vietose ir kuriai atlikti reikalingos transporto pareigos, transporto kaina turėtų būti modeliuojama kaip produktų tiekimo klientui išlaidų dalis. 
 
-Veikla pagal subrangos tausojančios gamybos leidžia integruoti vežėjams ir transporto pardavėjai, medžiagų ar produktų perjunginėti vietas ir gamybos srautą. Pagal modeliavimo perkelti veiklos, galite priskirti vežėjas arba tiekėjo. Perdavimo veiklos/darbo pagrindas paslaugas bei pirkimo sutartis, ir jūs galite sukurti pirkimo ir gavimo patarimus, atsižvelgiant į faktines perdavimo užduočių. Ši funkcija yra tas pats kaip subrangovo proceso veiklos funkcijas.  
+“Lean manufacturing“ veikla pagrįsta subranga suteikia galimybę integruoti vežėjus ir transporto tiekėjus, kurie gabena medžiagas ir produktus iš vienos gamybos eigos vietos į kitą. Modeliuodami perkėlimo veiklą galite priskirti vežėją arba tiekėją. Perkėlimo veiklos / užduotis yra pagrįsta aptarnavimo bei pirkimo sutartimi ir jūs pirkimo užsakymus bei gavimo patariamuosius dokumentus galite kurti pagal faktines perkėlimo užduotis. Ši funkcija yra tokia pati kaip subrangos proceso veiklų funkcija.  
 
-Todėl Dynamics 365 dabar palaiko KS skaičiavimas, kuris apima transporto paslaugas, sukurti susijusių pirkimo užsakymų, integruotas gavimo registracijos ir integruoti transporto operacijoms paslaugų išlaidas į gamybos srauto kainuoja.
+Todėl „Dynamics 365 for Operations“ dabar palaiko KS skaičiavimą, kuris apima transporto paslaugas, susijusių pirkimo užsakymų kūrimą, integruotą gavimo registravimą ir transporto paslaugų išlaidų integravimą į gamybos eigos išlaidas.
+
+
 
 

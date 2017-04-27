@@ -1,5 +1,5 @@
 ---
-title: "Perskaičiuoti apdraustojo vertes ir ilgalaikio turto grupėms"
+title: "Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas"
 description: "Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Perskaičiuoti apdraustojo vertes ir ilgalaikio turto grupėms
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas.
 
@@ -38,18 +41,18 @@ Norėdami perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudi
 
 Kai turto atkuriamajai vertei ir draudimo sumai perskaičiuoti naudojama forma Atnaujinti atkuriamąsias vertes ir draudimo sumas, naudojamos toliau nurodytos formulės.
 
--   \[(Turto grupės pakeitimo išlaidų veiksnys / 100) + 1\]\* turto dabartinių pakeitimo išlaidų
--   \[(Turto grupės apdraustas vertės dalių / 100) + 1\]\* turto esamų apdraustas vertė
+-   \[((Turto grupės atkuriamosios vertės koeficientas / 100) + 1\] \* Esama turto atkuriamoji vertė
+-   \[(Turto grupės draudimo sumos koeficientas / 100) + 1\] \* Esama turto draudimo suma
 
 > [!NOTE] 
 > Kai naudojate formą Atnaujinti atkuriamąsias vertes ir draudimo sumas, atkuriamoji vertė ir draudimo suma atnaujinamos pasirinktam turtui; negalima nurodyti, kad būtų atnaujinama tik viena vertė. Norėdami, kad viena vertė išliktų nepakitusi naujinant kitą vertę, kaip koeficientą formoje Ilgalaikio turto grupės įveskite 0 (nulį). Jei koeficientas lygus nuliui paliekamas tuščias, skaičiavimas atnaujinimo metu praleidžiamas. Ilgalaikio turto balansinė vertė ir grynoji balansinė vertė periodinio naujinimo metu nėra paveikiamos. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a> Kaip naudoti datą, norint pasirinkti, kurias prekes naujinti
-Pagal numatytąjį nustatymą naujinimo proceso metu atnaujinamas pasirinktas turtas, kuris nebuvo atnaujintas šią dieną, bet galėjo būti atnaujintas ankstesnėmis dienomis. Pvz., &lt;dabartinė data – "iki šiandien." Naujinimo pakeitimo išlaidos ir draudimo vertės forma datą galite keisti spustelėję mygtuką pasirinkti. Jūsų nurodomi datos kriterijai yra palyginami su paskutinio turto periodinio naujinimo data (formos Ilgalaikis turtas laukas Paskutinis periodinis sumos/vertės atnaujinimas). Kiekvieną kartą sėkmingai atnaujinus ilgalaikio turto atkuriamąją vertę arba draudimo sumą, laukas Paskutinis periodinis sumos/vertės atnaujinimas yra automatiškai atnaujinamas dabartine data. 
+Pagal numatytąjį nustatymą naujinimo proceso metu atnaujinamas pasirinktas turtas, kuris nebuvo atnaujintas šią dieną, bet galėjo būti atnaujintas ankstesnėmis dienomis. Pavyzdžiui, &lt; dabartinė data reiškia „iki šiandien“. Formoje Atnaujinti atkuriamąsias vertes ir draudimo sumas spustelėję mygtuką Pasirinkti galite pakeisti datą. Jūsų nurodomi datos kriterijai yra palyginami su paskutinio turto periodinio naujinimo data (formos Ilgalaikis turtas laukas Paskutinis periodinis sumos/vertės atnaujinimas). Kiekvieną kartą sėkmingai atnaujinus ilgalaikio turto atkuriamąją vertę arba draudimo sumą, laukas Paskutinis periodinis sumos/vertės atnaujinimas yra automatiškai atnaujinamas dabartine data. 
 
 Pavyzdys 
 
-Atnaujinote pakeitimo išlaidas transporto priemonių, biuro baldų ir pastatų grupėse iki 5 procentų vakar, o dabar manote, kad šis turtas turi būti tiksliai atnaujinama. Neįtraukti šio turto šiandien atnaujinus visas kitas ilgalaikis turtas, įvesite datą, Paskutinis periodinis sumos/vertės atnaujinimas lauko tai iki vakar (&lt; vakar dienos), nes paskutinio atnaujinimo transporto priemonių, biuro baldų ir pastatų grupėms įvyko už įvestus datos kriterijus.
+Vakar 5 procentais atnaujinote transporto priemonių, biuro baldų ir pastatų grupių atkuriamąją vertę ir laikote, kad šis turtas yra tiksliai atnaujintas. Norėdami šį turtą pašalinti, kai šiandien naujinate visą kitą ilgalaikį turtą, lauke Paskutinis periodinis sumos/vertės atnaujinimas įveskite užvakar dienos datą (&lt; vakar diena), nes paskutinis grupių Transporto priemonės, Biuro baldai ir Pastatai naujinimas vyko už jūsų nurodytų datos kriterijų ribų.
 
 ## <a name="cumulative-effect-of-each-update"></a> Kiekvieno naujinimo kaupiamasis poveikis
 Kiekvienas naujinimas turi kaupiamąjį poveikį. Todėl savo naujinimus reikėtų planuoti atidžiai. Pavyzdžiui, jei antradienį visą turtą padidinsite 3 procentais, tada penktadienį padidinsite biuro baldus 4 procentais, biuro baldų vertė iš viso padidės 7,12 procento.
@@ -72,6 +75,8 @@ Kitą dieną vadybininkas jus informuoja, kad kompiuterių vertė sumažėjo 8 p
 
 > [!NOTE]  
 > Koeficiento –10 negalima atšaukti įvedant teigiamą koeficientą 10 (arba koeficientą 2: –10 ir –8 skirtumas), nes sumos nebus apskaičiuotos taip, kaip tikitės. 
+
+
 
 
 

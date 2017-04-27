@@ -1,6 +1,6 @@
 ---
-title: "Nusidėvėjimo knygų versijos naujinimo apžvalga"
-description: "Ankstesnėse laidose, ten buvo du vertinimo sąvokas turtų - vertinimo modelių ir nusidėvėjimo knygas. „Microsoft Dynamics 365 for Operations“ 1611 versijoje vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą."
+title: "Nusidėvėjimo knygos atnaujinimo apžvalga"
+description: "Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ 1611 versijoje vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="depreciation-book-upgrade-overview"></a>Nusidėvėjimo knygų versijos naujinimo apžvalga
+# <a name="depreciation-book-upgrade-overview"></a>Nusidėvėjimo knygos atnaujinimo apžvalga
 
-Ankstesnėse laidose, ten buvo du vertinimo sąvokas turtų - vertinimo modelių ir nusidėvėjimo knygas. „Microsoft Dynamics 365 for Operations“ 1611 versijoje vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą. 
+[!include[banner](../includes/banner.md)]
 
-Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų operacijas į naują knygos struktūrą. Vertės modeliai liks tokie patys, kokie yra šiuo metu, kaip knyga, kuri registruoja į didžiąją knygą. Nusidėvėjimo knygos bus perkeltos į knygą, kurioje nustatyta parinkties **Registruoti į DK** nuostata **Ne**. Nusidėvėjimo knygos žurnalo pavadinimai bus perkeltas į DK žurnalo pavadinimo nustatyti registravimo sluoksnis **niekas**. Nusidėvėjimo knygos operacijos bus perkelta į ilgalaikio turto operacijas. 
+
+Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ 1611 versijoje vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą. 
+
+Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų operacijas į naują knygos struktūrą. Vertės modeliai liks tokie patys, kokie yra šiuo metu, kaip knyga, kuri registruoja į didžiąją knygą. Nusidėvėjimo knygos bus perkeltos į knygą, kurioje nustatyta parinkties **Registruoti į DK** nuostata **Ne**. Nusidėvėjimo knygos žurnalų pavadinimai bus perkelti į DK žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata **Nėra**. Nusidėvėjimo knygos operacijos bus perkeltos į ilgalaikio turto operacijas. 
 
 Prieš vykdydami duomenų naujinimą, turite susipažinti su dviem būdais, kaip nusidėvėjimo knygos žurnalo eilutes naujinti į operacijos kvitus, ir kvitų serijos numeraciją, kuri bus naudojama. 
 
-1 būdas: **Sistemos nustatyta numeracija** – tai yra numatytoji parinktis naujinimo našumui optimizuoti. Naujinant nebus naudojama numeracijų sistema, bet kvitai bus paskirstomi naudojant rinkiniu pagrįstą metodą. Po atnaujinimo, bus sukurta nauja numeracija su į **kitą, numeriu, nurodytu** atitinkamai pagal atnaujintą operacijas. Pagal numatytuosius nustatymus bus skaičių seką, FADBUpgr\#\#\#\#\#\#\#\#\# formatu. Yra keli parametrai jums pataisyti formą naudojant šį metodą:
+1 būdas: **Sistemos nustatyta numeracija** – tai yra numatytoji parinktis naujinimo našumui optimizuoti. Naujinant nebus naudojama numeracijų sistema, bet kvitai bus paskirstomi naudojant rinkiniu pagrįstą metodą. Atnaujinus bus sukurta nauja numeracija su atitinkamu **kitu numeriu**, nustatytu pagal atnaujintas operacijas. Pagal numatytuosius parametrus numeracijoje bus naudojamas formatas FADBUpgr\#\#\#\#\#\#\#\#\#. Galite naudoti kelis parametrus, norėdami modifikuoti formatą, kai taikote šį metodą.
 
--   **Skaičių Numeracijos kodas** – nustatyti numeracijos kodą. Šios Numeracijos kodas negali egzistuoti, nes ji bus sukurta programinės įrangos naujinimas.
+-   **Numeracijos kodas** – kodas, skirtas nustatyti numeraciją. Šio numeracijos kodo būti negali, nes jis sukuriamas naujinimo metu.
     -   Pastovus pavadinimas: **NumberSequenceDefaultCode**
     -   Numatytoji reikšmė: FADBUpgr
 -   **Prefiksas** – pastovi eilutės reikšmė, kuri bus naudojama kaip kvitų numerių priešvardis.
     -   Pastovus pavadinimas: **NumberSequenceDefaultParameterPrefix**
     -   Numatytoji reikšmė: FADBUpgr
 -   **Raidinių-skaitinių simbolių ilgis** – numeracijos raidinių-skaitinių simbolių segmento ilgis.
-    -   Pastovus vardas: ** NumberSequenceDefaultParameterAlpanumericLength **
+    -   Pastovus pavadinimas: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Numatytoji reikšmė: 9
 -   **Pradinis numeris** – pirmasis numeris, naudojamas numeracijoje.
-    -   Pastovus vardas: ** NumberSequenceDefaultParameterStartNumber **
+    -   Pastovus pavadinimas: **NumberSequenceDefaultParameterStartNumber**
     -   Numatytoji reikšmė: 1
 
-2 variantas: **esamas vartotojo apibrėžiamų numeracijos** -Ši galimybė leis jums nustatyti numeraciją galima atnaujinti. Apsvarstyti, naudojant šią parinktį, jei turite Išplėstinė skaičių seka konfigūracija. Norėdami naudoti numeraciją, turite modifikuoti atnaujinti klasės ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans su šia informacija:
+2 būdas: **Esama vartotojo nustatyta numeracija** – naudojant šią parinktį galima nustatyti numeraciją, kuri bus naudojama naujinant. Naudokite šią parinktį, jei jums reikia išplėstinės numeracijos konfigūracijos. Norėdami naudoti numeraciją, turite modifikuoti naujinimo klasę \_ReleaseUpdateDB70_FixedAssetJournalDepBookRemovalDepBookJournalTrans, nurodydami tolesnę informaciją.
 
 -   **Numeracijos kodas** – numeracijos kodas.
-    -   Pastovus vardas: ** NumberSequenceExistingCode **
+    -   Pastovus pavadinimas: **NumberSequenceExistingCode**
     -   Numatytoji reikšmė: nėra. Reikia atnaujinti į numeracijos kodą.
--   **Bendrai naudojama numeracija** – Būlio logikos reikšmė, skirta nustatyti numeracijos aprėptį. Naudokite „true“, kai numeracijos turi būti bendrai naudojamos visose įmonėse, arba „false“, kai jei numeracija skirta konkrečiai įmonei. Naudojant "klaidinga", kiekviena įmonė, kuri yra nusidėvėjimo knygos operacijos turi būti numeracija su nurodytu pavadinimu. Bendrai naudojamą numeraciją egzistuoja kiekvieną skaidinį, kuriame yra nusidėvėjimo knygos operacijas.
-    -   Pastovus vardas: ** NumberSequenceExistingIsShared **
+-   **Bendrai naudojama numeracija** – Būlio logikos reikšmė, skirta nustatyti numeracijos aprėptį. Naudokite „true“, kai numeracijos turi būti bendrai naudojamos visose įmonėse, arba „false“, kai jei numeracija skirta konkrečiai įmonei. Naudojant „false“, numeracija nurodytu pavadinimu turi būti kiekvienoje įmonėje, kurioje yra nusidėvėjimo knygos operacijų. Bendrai naudojamos sekos pateikiamos kiekviename skaidinyje, kuriame yra nusidėvėjimo knygos operacijų.
+    -   Pastovus pavadinimas: **NumberSequenceExistingIsShared**
     -   Numatytoji reikšmė: „true“
 
-Parametrai yra pradžioje, ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans klasė. 
+Parametrai yra pateikti klasės ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans pradžioje. 
 
-*Nurodykite geriau požiūris kvitų paskirstymas*<ph id="t1">
-</ph>*/ / tiesa, jei norite naudoti, esamos numeracijos kodas*<ph id="t2">
-</ph>*/ / false, jei jūs ketinate naudoti sistemos skaičių seką (numatytoji)* konstanta Bulio logikos NumberSequenceUseExistingCode = false;  
+*// Pageidaujamo kvitų paskirstymo metodo nurodymas* 
+*// „true“, jei norite naudoti esamos numeracijos kodą* 
+*// „false“, jei ketinate naudoti sistemos nustatytą numeraciją (numatytoji reikšmė)* const boolean NumberSequenceUseExistingCode = false;  
 
-*Jei naudojate sistemos skaičių sekos metodas, nurodykite parametrų numeracija. *<ph id="t3">
-</ph>*/ / Nauja numeracija bus sukurtas su šiais parametrais.* Konstanta str NumberSequenceDefaultCode = 'FADBUpgr'; konstanta str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; konstanta int NumberSequenceDefaultParameterAlpanumericLength = 9; konstanta int NumberSequenceDefaultParameterStartNumber = 1;   
+*// Jei naudojate sistemos nustatytos numeracijos metodą, nurodykite numeracijos parametrus.*
+*// Nauja numeracija bus sukurta naudojant šiuos parametrus.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
-*Jei naudojant esamą skaičių seka požiūris, nurodykite esamą Numeracijos kodas. *<ph id="t4">
-</ph>*/ / Kvitų paskirstymas bus pereiti vieną eilutę po kitos esamos numeracijų.* Konstanta str NumberSequenceExistingCode = ''; */ / Nurodykite taikomos esamos numeracijos kodas*<ph id="t5">
-</ph>*/ / tiesa, jei nustatyta numeracija yra bendra*<ph id="t6">
-</ph>*/ / false, jei nurodytos numeracijos kiekvienai bendrovei*<ph id="t7">
-</ph>*/ / numatytąjį sistemos numeracija bus naudojamas, jei nerandama numeracijos kodą su nurodyta apimtimi.* const boolean NumberSequenceExistingIsShared = true; 
+*// Jei naudojate esamos numeracijos metodą, nurodykite esamos numeracijos kodą.* 
+*// Esamų numeracijų kvitų paskirstymas bus vykdomas kiekvienoje eilutėje paeiliui.* const str NumberSequenceExistingCode = ''; *// Nurodykite esamos numeracijos kodo aprėptį* 
+*// „true“, jei nurodyta numeracija naudojama bendrai* 
+*// „false“, jei nurodyta numeracija skirta konkrečiai įmonei* 
+*// Bus naudojama numatytoji sistemos nustatyta numeracija, jei nurodytos aprėpties numeracijos kodas nebus rastas.* const boolean NumberSequenceExistingIsShared = true; 
 
 Perkurkite projektą, jei modifikavus konstantas jame yra klasė. 
 
-Naudoti sistemos sugeneruota skaitmenų seka požiūris (1 variantas), atnaujinti panaudos pagrindu sukurti perdirbimo priskirti kvitų numerius, kaip nurodyta atnaujinimo scenarijų parametrus. Ji taip pat bus sukurti naują numeracijos su nurodytais parametrais po paskirstymo. 
+Kai naudojate sistemos sugeneruotos numeracijos metodą (1 būdą), naujinant bus naudojamas rinkiniu pagrįstas apdorojimas, kad kvitų numeriai būtų paskirstyti pagal naujinimo scenarijaus parametrus. Be to, po paskirstymo bus sukurta nauja numeracija naudojant nurodytus parametrus. 
 
-Kai naudojate vartotojo nustatytos numeracijos metodą (2 būdą), naujinant duomenis patikrinama, ar duomenų bazėje yra nurodytos aprėpties numeracija, skirta kiekvienam skaidiniui ir įmonės su nusidėvėjimo knygos operacijomis. Jei jis egzistuoja, atnaujinimo naudos vieną eilutę po kitos perdirbimo priskirti kvitų numerius, kaip nurodyta naudojant skaičių seka pagal numeraciją. Jei numeracija nėra nurodytos apimties, atnaujinimo taikys numatytąjį sistemos skaičių seka metodą priskirti kvitų numerius ir sukurs naują numeracijos su nurodyta numatytoji parametrai po paskirstymo.
+Kai naudojate vartotojo nustatytos numeracijos metodą (2 būdą), naujinant duomenis patikrinama, ar duomenų bazėje yra nurodytos aprėpties numeracija, skirta kiekvienam skaidiniui ir įmonės su nusidėvėjimo knygos operacijomis. Jei jos nėra, naujinant bus naudojamas kiekvienos eilutės apdorojimo paeiliui funkcija, kad naudojant numeracijos sistemą kvitų numeriai būtų paskirstyti, kaip nurodyta numeracijoje. Jei nurodytos aprėpties numeracijos nėra, naujinant bus naudojamas numatytasis sistemos nustatytos numeracijos metodas kvitų numeriams paskirstyti ir po paskirstymo bus sukurta nauja numeracija naudojant nurodytus numatytuosius parametrus.
 
 Kurį metodą benaudotumėte, duomenų naujinimo scenarijus taip pat taikys naujai sukurtų DK žurnalų pavadinimų lauko **Kvitų serija** numeraciją anksčiau naudotiems nusidėvėjimo knygos žurnalų pavadinimams.
+
+
 
 

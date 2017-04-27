@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Įkainojimo versijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie įkainojimo versijas, kaip jas prižiūrėti, ir duomenų, kuriuos į jas galima įtraukti, tipus. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules.
 
 Įkainojimo versija gali turėti vieną ar daugiau paskirčių, jos priklauso nuo duomenų, esančių įkainojimo versijoje. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules. Įkainojimo versiją gali sudaryti standartinių išlaidų įrašų rinkinys arba suplanuotų išlaidų įrašų rinkinys paremtas įkainojimo tipu, kuris priskirtas įkainojimo versijai.
@@ -63,5 +66,7 @@ Pagrindinė pirkimo kainos duomenų įgalinimo priežastis yra apibrėžti suded
 Norėdami įgalinti pirkimo kainos turinį, pirmiausia apibrėžiate KS skaičiavimo grupę, kurioje yra prekės pirkimo kainos savikainos modelis, ir KS skaičiavimo grupę priskiriate nupirktoms prekėms. Tada, atlikdami KS skaičiavimus, kurie naudoja suplanuotas išlaidas, kad apskaičiuotumėte pagamintų prekių pardavimo kainą, naudojate KS skaičiavimo grupės savikainos modelį. 
 
 Prekių pirkimo kainos įrašai taip pat naudojami kaip nuorodos informacija. Prekės pirkimo kainos įrašo būseną pakeitę iš **Laukiantis** į **Aktyvus**, galite atnaujinti prekės bazinę pirkimo kainą. Tačiau bazinė pirkimo kaina nepriklauso nuo teritorijos, ir ją galima rankiniu būdu perrašyti. Prekės bazinė pirkimo kaina naudojama kaip numatytoji pirkimo užsakymų pirkimo kaina.
+
+
 
 

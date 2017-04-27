@@ -1,5 +1,5 @@
 ---
-title: Naudokite sekimo sprogimo
+title: "Sekimo naudojimas išskleidimo analizės tikslais"
 description: "Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Naudokite sekimo sprogimo
+# <a name="use-tracing-for-explosion"></a>Sekimo naudojimas išskleidimo analizės tikslais
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.
 
@@ -43,6 +46,8 @@ Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosi
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master plans](master-plans.md)
+[Bendrieji planai](master-plans.md)
+
+
 
 

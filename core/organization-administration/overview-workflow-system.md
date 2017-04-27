@@ -1,6 +1,6 @@
 ---
 title: "Darbo eigos sistemos apžvalga"
-description: "Šiame straipsnyje aprašoma darbo eigos sistemą Microsoft Dynamics 365 operacijoms."
+description: "Šiame straipsnyje aprašyta „Microsoft Dynamics 365 for Operations“ darbo eigos sistema."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-system-overview"></a>Darbo eigos sistemos apžvalga
 
-Šiame straipsnyje aprašoma darbo eigos sistemą Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašyta „Microsoft Dynamics 365 for Operations“ darbo eigos sistema.
 
 <a name="what-is-workflow"></a>Kas yra darbo eiga?
 -----------------
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 Terminą *darbo eiga* galima apibrėžti dviem būdais: kaip sistemą ir kaip veiklos procesą.
 ### <a name="workflow-is-a-system"></a>Darbo eiga yra sistema
 
-Darbo eigos yra sistema, kuri yra įdiegiama kartu su Dynamics 365 operacijoms ir dėl programos objektų serverio (AOS), kuris veikia. Darbo eigos sistema turi funkcijų, kurias galite naudoti atskiroms darbo eigoms arba verslo procesams kurti.
+Darbo eiga yra sistema, diegiama kartu su „Dynamics 365 for Operations“ ir veikianti programos objektų serveryje (AOS). Darbo eigos sistema turi funkcijų, kurias galite naudoti atskiroms darbo eigoms arba verslo procesams kurti.
 
 ### <a name="workflow-is-a-business-process"></a>Darbo eiga yra verslo procesas
 
@@ -46,6 +49,7 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 -   **Procesų nuoseklumas** – galite nustatyti, kaip apdorojami konkretūs dokumentai, pvz., pirkimo paraiškos ir išlaidų ataskaitos. Naudodamiesi darbo eigos sistema užtikrinate, kad dokumentai bus apdoroti ir patvirtinti nuosekliai ir veiksmingai.
 -   **Proceso matomumas** – galite sekti darbo eigos egzempliorių efektyvumo metriką. Tai padeda nustatyti, ar reikia atlikti darbo eigos pokyčius, siekiant gerinti efektyvumą.
 -   **Centralizuotas darbų sąrašas** – vartotojai gali peržiūrėti centralizuotų darbų sąrašą, kuriame rodomos jiems priskirtos darbo eigos užduotys ir patvirtinimai.
+
 
 
 

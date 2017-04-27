@@ -1,6 +1,6 @@
 ---
 title: "Pardavimo grąžinimai"
-description: "Šioje temoje pateikta informacija apie grąžinimo užsakymų procesą. Tai apima informaciją apie pirkėjo deklaracijas bei jų poveikį įkainojimo ir turimų atsargų kiekius."
+description: "Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,286 +26,291 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
-Šioje temoje pateikta informacija apie grąžinimo užsakymų procesą. Tai apima informaciją apie pirkėjo deklaracijas bei jų poveikį įkainojimo ir turimų atsargų kiekius.
+[!include[banner](../includes/banner.md)]
 
-Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekės gali būti su defektais, arba ji neatitinka kliento lūkesčių. Grąžinimo procesas prasideda, kai klientui išduoda prašymo dėl prekių grąžinimo. Po kliento prašymo gavimo, grąžinimo užsakymas sukurtas Microsoft Dynamics 365 operacijoms.
+
+Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
+
+Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, „Microsoft Dynamics 365 for Operations“ sukuriamas grąžinimo užsakymas.
 
 ## <a name="return-order-process"></a>Grąžinimo užsakymo procesas
-Šioje iliustracijoje apžvelgiami grąžinimo užsakymo procesas.  
+Toliau esančiame paveikslėlyje pateikiama grąžinimo užsakymo proceso apžvalga.  
 
 [![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
-Yra dviejų tipų grąžinimo užsakymo procesą: fizinės grįžti ir kredito tik.
+Yra dviejų tipų grąžinimo užsakymo procesai: fizinis grąžinimas ir tik kreditas.
 
--   **Fizinis grąžinimas** – įsakymo grąžinti vaiką leidžia fizinis produktų grąžinimas.
--   **Kredito tik** – įsakymo grąžinti vaiką leidžia klientui kreditą, bet nereikalauja, kad vartotojas fiziškai Gr±¾inkite gaminius.
+-   **Fizinis grąžinimas** – grąžinimo užsakymas įgalioja fizinį produktų grąžinimą.
+-   **Tik kreditas** – grąžinimo užsakymas įgalioja kliento kreditą, bet nėra būtina klientui fiziškai grąžinti produktus.
 
-### <a name="physical-return-order-process"></a>Fizinės grąžinimo užsakymo procesas
+### <a name="physical-return-order-process"></a>Fizinio grąžinimo užsakymo procesas
 
-1.  **Grąžinimo užsakymo kūrimas.** Oficialiai dokumento leidimas klientui grąžinti jokių defektų ar nepageidaujamas produktų. Įsakymo grąžinti vaiką nereikalauja, kad įmonė priimti atgal grąžinta prekę ar suteikti kreditą klientui. Jei grąžinimas yra priimtinas, jūs galite leisti keičiamai prekei siunčiami prieš defektų turinčios prekės buvo grąžintos.
-2.  **Atvykti į sandėlį patikrinimui.** Užbaigti pradinio patikrinimo ir patvirtinimo prieš dokumento grąžinimo užsakymas. Įsakymo grąžinti vaiką taip pat palaiko grąžinamas prekes, karantinas dėl papildomos inspekcijos ir kokybės kontrolės.
-3.  **Nustato disponavimo.** Baigti per patikrinimą, ir nuspręsti, kas turėtų būti daroma su grąžinta prekė. Vykdant šį veiksmą, nuspręsti, ar jums bus kredito klientas, atmesti prekių grąžinimas, ar priimti prekių grąžinimas, laužas produktas, o tada siųsti pakaitinį produktą klientui.
-4.  **Kurti važtaraštį.** Kurti važtaraštį, ir įsipareigoti likvidavimo sprendimą, kad pasirinkote atlikdami 3 veiksmą. Užbaikite logistikos procesus.
-5.  **Sukurti sąskaitą-faktūrą.** Uždarykite įsakymo grąžinti vaiką.
+1.  **Kurti grąžinimo užsakymą.** Formaliai dokumentuokite kliento įgaliojimą grąžinti turinčius defektų arba nepageidaujamus produktus. Pagal grąžinimo užsakymą nėra reikalaujama, kad įmonė priimtų grąžintus produktus arba klientui suteiktų kreditą. Jei grąžinimas priimtas, galite įgalioti išsiųsti prekės pakaitalą dar nesugrąžinus prekės su defektu.
+2.  **Atvykti į sandėlį apžiūrėti.** Užpildykite pradinio tikrinimo ir patvirtinimo pagal grąžinimo užsakymą dokumentą. Grąžinimo užsakymas palaiko grąžintų prekių sulaikymą papildomai apžiūrai ir kokybės kontrolei.
+3.  **Nustatykite perdavimą.** Užbaikite patikrinimo procesą ir nuspręskite, ką reikia daryti su grąžinamais produktais. Kaip šio veiksmo dalį, nuspręskite, ar kredituosite klientą, atmesite produkto grąžinimą, ar priimsite produkto grąžinimą, nurašysite produktą ir tada klientui nusiųsite pakeitimo produktą.
+4.  **Generuoti važtaraštį.** Generuokite važtaraštį ir vykdykite perdavimo sprendimą, kurį priėmėte 3 veiksme. Užbaikite logistikos procesus.
+5.  **Generuokite sąskaitą faktūrą.** Uždarykite grąžinimo užsakymą.
 
-### <a name="credit-only-process"></a>Kredito tik proceso
+### <a name="credit-only-process"></a>Tik kredito procesas
 
-1.  **Grąžinimo užsakymo kūrimas.** Oficialiai dokumento leidimo naudoti klientui gauti kreditą be Grą indami gaminius su trūkumais arba nepageidautina. Ir **kredito tik** perdavimo kodo įgalioja sprendimą turi kredito klientas be fizinės grąža.
-2.  **Sukurti sąskaitą-faktūrą.** Kurti kredito pažymą, ir tada uždarykite įsakymo grąžinti vaiką.
+1.  **Kurti grąžinimo užsakymą.** Formaliai dokumentuokite kliento įgaliojimą gauti kreditą negrąžinanant produktų su defektais arba nepageidaujamų produktų. **Tik kreditas** perdavimo kodas įgalioja sprendimą kredituoti klientą be fizinio grąžinimo.
+2.  **Generuokite sąskaitą faktūrą.** Sugeneruokite kredito pažymą, tada uždarykite grąžinimo užsakymą.
 
-## <a name="return-material-authorization"></a>Medžiagų leidimo grįžti
-Grąžinimo medžiagų autorizavimo (RMA) perdirbimo remiasi pardavimo užsakymo funkcija. RMA yra registruotas kaip grąžinimo tvarka, kuri yra sukurta kaip pardavimo užsakymą, ir gali turėti kitas pardavimo užsakymo, susijusią su ja, vadinama keitimo užsakymą. Abu pardavimo užsakymų susieti su kilmės RMA numerį.
+## <a name="return-material-authorization"></a>Grąžinamų medžiagų autorizavimas
+Grąžinamų medžiagų autorizavimo (RMA) apribojimas pagrįstas pardavimo užsakymo funkcija. RMA registruojamas kaip grąžinimo užsakymas, kuris sukurtas kaip pardavimo užsakymas, su juo gali būti susietas kitas pardavimo užsakymas, vadinamas pakeitimo užsakymu. Abu pardavimo užsakymai susieti su pradinio RMA numeriu.
 
--   **Grąžinimo užsakymui** – užsiregistruoti dėl RMA, galite sukurti grąžinimo užsakymas, kuris yra pardavimo užsakymą, kuriame turi priskirtą tipą, **grąžinti užsakymą.** Visi pakeitimai, kuriuos atliekate RMA informacija automatiškai atnaujinama pardavimo užsakymo. Kol grąžinimo užsakymas, kurio būsena yra reikalingas **atviras**, jis nebus rodomas pardavimo užsakymų, sąrašas. Naudojate RMA elgtis atvykimo ir grąžintų prekių gavimą, taip pat leisti kredito tik likvidavimo veiksmų (žr. skyrių **disponavimo kodus ir disponavimo veiksmai**). Visus kitus tolesnius procesus turi būti tvarkomos pagal pardavimo užsakymą.
--   **Pakeitimo užsakymo** -kai pakeitimo tvarka turi būti vežamos į klientas, RMA numerį galima įtraukti antrojo susijusios pardavimo užsakymo. Galite rankiniu būdu sukurti pakeitimo įsakymo RMA nedelsiant siuntą. Kita vertus, dėl pakeitimo užsakymo gali būti automatiškai kuriamos po atvykimo, tikrinimo ir priėmimo būtų užpildyti RMA eilutės elemento, kuris turi disponavimo kodą, nurodantį pakeitimo. Keitimo užsakymą turi tas pačias funkcijas, kuris yra susietas su pardavimo užsakymą. Pavyzdžiui, galite naudoti jį sukonfigūruoti pasirinktinius produktą kaip keičiamai prekei, kurti gamybos užsakymą remonto grąžintų prekių, sukurti tiesioginio pristatymo pirkimo užsakymą siųsti pakeitimo iš tiekėjo ar remti kitais tikslais.
+-   **Grąžinimo užsakymas** – norėdami užregistruoti RMA, sukurkite pardavimo užsakymą, kuris yra pardavimo užsakymas su priskirtu tipu **Grąžintas užsakymas.** Visi atliekami RMA informacijos pakeitimai automatiškai atnaujinami pardavimo užsakyme. Kol grąžinimo užsakymo būsena yra **Atidaryta**, jis nebus rodomas pardavimo užsakymų sąraše. RMA naudojamas tvarkyti grąžintų prekių pristatymą ir gavimą, be to, įgalioti tik kredito perdavimo veiksmą (žr. skyrių **Perdavimo kodas ir perdavimo veiksmai**). Visus kitus tolesnius procesus reikia tvarkyti pardavimo užsakyme.
+-   **Pakeitimo tvarka** – kai pakeitimo užsakymą reikia išsiųsti klientui, RMA gali apimti ir antrą susietą pardavimo užsakymą. Galite rankiniu būdu sukurti RMA pakeitimo užsakymą skubiai siuntai palaikyti. Kitu atveju, pakeitimo užsakymą galima sukurti automatiškai, baigus pristatymą, patikrinimą ir gavimą RMA eilutės prekės, turinčios perdavimo kodą, kuris nurodo pakeitimą. Pakeitimo užsakymas turi tą pačią funkciją, kuri susieta su pardavimo užsakymu. Pvz., galite jį naudoti pasirinktam produktui konfigūruoti kaip pakeitimo prekę, sukurti gamybos užsakymą grąžintai prekei pataisyti, sukurti tiesioginio pristatymo pirkimo užsakymą, norėdami pakeitimą išsiųsti iš tiekėjo, arba kitiems tikslams palaikyti.
 
 ## <a name="create-a-return-order"></a>Grąžinimo užsakymo kūrimas
-Grąžinimo užsakymo procesas prasideda, kai klientas susisiekia su jūsų organizacijos grįžti su defektais ar nepageidaujamo produkto ir (arba) pervesti. Po to, kai jūsų organizacija sutinka grąžinti, grąžinti parduotame grąžinimo užsakymas. Šis grąžinimo užsakymas tampa grąžintos prekės vidaus gamybos centru. Toliau pateiktame paveikslėlyje pavaizduotas sukurti per nustatytą tvarką.  
+Grąžinimo užsakymo procesas prasideda, kai klientas susisiekia su jūsų organizacija norėdamas grąžinti produktą su defektu arba nenorimą produktą ir / arba gauti kreditą. Po to, kai jūsų organizacija priims grąžinimą, jis dokumentuojamas grąžinimo užsakymu. Šis grąžinimo užsakymas tampa grąžinto produkto vidinio apdorojimo centrine ašimi. Toliau pateikiamoje iliustracijoje pavaizduota grąžinimo užsakymo kūrimo procedūra.  
 
-[![Tvarkos, kuriant grąžinimo užsakymas](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![Grąžinimo užsakymo kūrimo procedūra](./media/salesreturn02.png)](./media/salesreturn02.png)
 
-### <a name="create-a-return-order-header"></a>Kurti antraštę įsakymo grąžinti vaiką
+### <a name="create-a-return-order-header"></a>Grąžinimo užsakymo antraštės kūrimas
 
-Kai grąžinimo užsakymas, toliau lentelėje pateikiama informacija turi būti pateikiama.
+Kuriant grąžinimo užsakymą, jame turi būti toliau pateikiamoje lentelėje nurodyta informacija.
 
 | Laukas              | aprašymas                                              | Komentarai                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kliento kodas   | Nuoroda į lentelę Klientai                       | Turite pateikti esamą kliento paskyrą.                                                                                                                                                                                                                                                                                                  |
-| Pristatymo adresas   | Adresas, kad prekės būtų grąžintas                 | Pagal numatytuosius parametrus, organizacijos adresas yra naudojamas. Pasirinkus konkretų sandėlį antraštę, pristatymo adresas pakeičiamas į pristatymo adresą sandėlyje. Galite pakeisti šį adresą į **grąžinimo užsakymo duomenys** puslapis.                                                                                                  |
-| Vieta/sandėlis     | Svetainės ar sandėlį, gauna grąžintas produktas | Grąžinimo užsakymo pristatymo adresas yra nustatomas pagal pristatymo adresą svetainės ar sandėlio.                                                                                                                                                                                                                                 |
-| RMA numeris         | ID, priskirtas grąžinimo užsakymas              | RMA numeris yra naudojamas kaip alternatyvus raktas per visą grąžinimo užsakymo procesą. RMA numerį, kuris yra paskirtas remiantis RMA numeraciją, kuri nustatyta ant to **sudaro gautinų sumų parametrai** puslapis.                                                                                                                              |
-| Galutinis terminas           | Elementas gali būti grąžintas datą               | Numatytoji reikšmė apskaičiuojama kaip dabartinę datą ir galiojimo laikotarpį. Pavyzdžiui, jei grįžti galioja tik 90 dienų nuo dienos, kai grąžinimo užsakymas yra sukurta, ir grąžinimo užsakymu buvo sukurtas gegužės 1 d., vertė lauke yra **30-liepos**. Galiojimo laikotarpis yra nustatytas į **sudaro gautinų sumų parametrai** puslapis. |
-| Grąžinimo priežasties kodas | Kliento priežastis, dėl gaminio grąžinimu          | Priežasties kodas pasirenkamas vartotojo apibrėžiamų priežasties kodų sąrašas. Šiame lauke galite atnaujinti bet kuriuo metu.                                                                                                                                                                                                                                    |
+| Kliento kodas   | Nuoroda į kliento lentelę                       | Turite pateikti esamą kliento sąskaitą.                                                                                                                                                                                                                                                                                                  |
+| Pristatymo adresas   | Adresas, kuriuo prekė grąžinta.                 | Pagal numatytuosius nustatymus naudojamas organizacijos adresas. Jei antraštėje pasirenkamas konkretus sandėlis, pristatymo adresas pakeičiamas į sandėlio pristatymo adresą. Šį adresą galite pakeisti puslapyje **Grąžinimo užsakymų informacija**.                                                                                                  |
+| Svetainė / sandėlis     | Svetainė arba sandėlis, gaunantis grąžinamą produktą | Grąžinimo užsakymo pristatymo adresas nustatomas pagal svetainės arba sandėlio pristatymo adresą.                                                                                                                                                                                                                                 |
+| RMA numeris         | Grąžinimo užsakymui priskirtas ID              | RMA numeris naudojamas kaip alternatyvusis raktas grąžinimo užsakymo proceso metu. Priskirtas RMA numeris yra pagrįstas RMA numeracija, kuri nustatyta puslapyje **Gautinų sumų parametrai**.                                                                                                                              |
+| Galutinis terminas           | Paskutinė data, kai prekė gali būti grąžinta               | Numatytoji vertė apskaičiuojama kaip dabartinė data plius galiojimo laikotarpis. Pvz., jei grąžinimas galioja tik 90 dienų nuo datos, kada sukurtas grąžinimo užsakymas, o jis buvo sukurtas gegužės 1 d., vertė šiame lauke yra **Liepos 30 d.**. Galiojimo laikas nustatomas puslapyje **Gautinų sumų parametrai**. |
+| Grąžinimo priežasties kodas | Kliento priežastis, dėl kurios grąžina produktą          | Priežasties kodas pasirenkamas iš vartotojo nustatytų priežasties kodų sąrašo. Lauką galima bet kada atnaujinti.                                                                                                                                                                                                                                    |
 
-### <a name="create-return-order-lines"></a>Grąžinimo užsakymų eilučių kūrimas
+### <a name="create-return-order-lines"></a>Grąžinimo užsakymo eilučių kūrimas
 
-Baigus grąžinimo antraštę, galite sukurti grąžinamąjį vamzdyną iš naujo naudodami vieną iš šių metodų:
+Užbaigę grąžinimo antraštę, galite kurti grąžinimo eilutes pagal vieną iš šių metodų:
 
--   Rankiniu būdu įvesti prekės detales, kiekiu ir kita informacija už kiekvieną grįžimo linijos.
--   Sukurti grąžinimo eilutę naudodami, **rasti pardavimo užsakymo** funkcija. Mes rekomenduojame šią funkciją kuriant grąžinimo užsakymas. Į **rasti pardavimo užsakymo** funkcija nustato nuo grįžimo linijos nuoroda į išrašyta SF pardavimo užsakymo eilutės, ir perrašo eilutės informacija pvz., prekės numeris, kiekis, kaina, nuolaida ir savikainas iš pardavimų eilutės. Nuoroda padeda užtikrinti, kad, kai produktas yra grąžinamas bendrovei, ji paklusdavo paties vieneto kaina kad ji buvo parduota. Nuoroda taip pat patvirtina kad grąžinimo užsakymai nekuriami kiekis, kuris viršija kiekį, kuris buvo parduotas sąskaitoje-faktūroje.
+-   Rankiniu būdu įveskite prekės informaciją, kiekį ir kitą informaciją kiekvienoje grąžinimo eilutėje.
+-   Grąžinimo eilutę kurkite naudodami funkciją **Rasti pardavimo užsakymą**. Rekomenduojame naudoti šią funkciją, kai kursite grąžinimo užsakymą. Funkcija **Rasti pardavimo užsakymą** sukuria nuorodą iš grąžinimo eilutės į pardavimo užsakymo eilutę, kuriai išrašyta SF, ir iš pardavimo eilutės nuskaito eilutės informaciją, pvz., prekės numeris, kiekis, kaina, nuolaida ir savikainos vertes. Nuoroda padeda užtikrinti, kad kai produktas grąžinamas įmonei, jis įvertintas tokia pat savikaina, kokia ir buvo parduotas. Nuoroda taip pat patvirtinama, kad grąžinimo užsakymų nesukuriama tiek, kad kiekis viršytų sąskaitoje faktūroje nurodytą kiekį.
 
-**Pastaba:** grąžinamąjį vamzdyną, kurie turi nuorodą į pardavimo užsakymą elgtis kaip pataisymus arba atstatymas ir pardavimas. Norėdami gauti daugiau informacijos, peržiūrėkite skyrelį "DK įrašas", šioje temoje.
+**Pastaba:** grąžinimo eilutės, turinčios nuorodą į pardavimo užsakymą, tvarkomos kaip pardavimo pataisos arba atšaukimai. Išsamesnės informacijos žr. skyriuje „Registravimas į didžiąją knygą“ toliau šioje temoje.
 
 ### <a name="charges"></a>Išlaidos
 
-Mokesčius ir rinkliavas, galima paminėti į grąžinimo užsakymą per vieną ar daugiau iš toliau nurodytų būdų:
+Mokėjimus ir mokesčius galima įtraukti į grąžinimo užsakymą vienu ar daugiau iš toliau nurodytų metodų:
 
--   Galite rankiniu būdu pridėti mokesčių grąžinimo užsakymo antraštėje, grąžinimo užsakymo eilutę arba abu.
--   Mokesčius galima automatiškai įtraukti į grąžinimo užsakymo antraštėje, priklausomai nuo grąžinimo priežasties kodas.
--   Mokesčiai automatiškai įtraukiami į grąžinimo užsakymų linija, remiantis perdavimo kodo eilutės.
+-   Mokesčius galite rankiniu būdu įtraukti į grąžinimo užsakymo antraštę, grąžinimo užsakymo eilutę arba į abi.
+-   Išlaidas galima automatiškai įtraukti į grąžinimo užsakymo antraštę kaip grąžinimo priežasties kodo funkciją.
+-   Mokesčius galima automatiškai įtraukti į grąžinimo užsakymo eilutę pagal eilutės perdavimo kodą.
 
-Mokesčiai automatiškai įtraukiami po grąžinimo priežasties kodą arba perdavimo kodo priskiriamas prie linijos. Jei priežasties kodas pakeistas vėliau, esamą įkrovos įrašą, nebus pašalinti, o naujas mokestis įrašas gali būti pridėtas, remiantis nauja priežasties kodas. Jei norite pridėti mokesčių grąžinimo užsakymų eilučių, mokesčių, kurie apskaičiuojami procentais eilutę ar užsakymo vertės tampa neigiamas, kai linija arba linijos užsakymas yra neigiamas, nebent procentinis dydis taip pat yra neigiamas skaičius. Mokestis, kuris turi neigiamą vertę sudaro kredito klientui.
+Išlaidos įtraukiamos automatiškai po to, kai grąžinimo priežasties kodas ar perdavimo kodas priskiriamas eilutei. Jei priežasties kodas keičiamas vėliau, esamas išlaidų įrašas nebus pašalintas, bet naują išlaidų įrašą galima įtraukti pagal naują priežasties kodą. Įtraukiant mokesčius į grąžinimo užsakymo eilutes, eilutės išlaidos, apskaičiuotos procentine išraiška, arba jei užsakymo vertė tampa neigiama, kai eilutė ar eilutės užsakymas yra neigiamas skaičius, nebent procentinė išraiška taip pat yra neigiamas skaičius. Neigiamos vertės mokestis reiškia klientui suteiktą kreditą.
 
 ### <a name="return-reason-codes"></a>Grąžinimo priežasčių kodai
 
-Taikant grąžinimo priežasties kodus, galite padėti lengviau analizuoti grąžinimo modelius. Priežasčių kodus suteikti informacijos apie Kodėl pirkėjas nori grąžinti prekes. Kai kurios organizacijos turi daug priežasčių kodus. Šios organizacijos gali grupės priežasčių kodus į priežasties kodas grupes, geriau peržvelgti ir sukauptą ataskaitų.
+Grąžinimams taikant priežasties kodus, galima padėti supaprastinti grąžinimo modelių analizę. Priežasties kodai pateikia informacijos apie tai, kodėl klientas nori grąžinti prekes. Kai kurios organizacijos turi daug priežasčių kodų. Tokios organizacijos gali grupuoti priežasties kodus į priežasties kodų grupes, siekiant gauti geresnę apžvalgą ir sukaupti ataskaitas.
 
-### <a name="disposition-codes-and-disposition-actions"></a>Disponavimo kodus ir disponavimo veiksmai
+### <a name="disposition-codes-and-disposition-actions"></a>Perdavimo kodai ir perdavimo veiksmai
 
-Svarbus žingsnis grąžinimo užsakymo procesas yra perdavimo kodo grąžinimo užsakymo eilutę priskyrimo atvykimo registravimo dalis. Disponavimo kodas nurodo šią informaciją:
+Svarbus grąžinimo užsakymo proceso veiksmas yra perkėlimo kodo priskyrimas į grąžinimo užsakymo eilutę kaip pristatymo registravimo dalį. Perdavimo kodas nustato šią informaciją:
 
--   **Finansinis poveikis** -turėtų būti įskaitytos į klientų už grąžintas prekes, ir bet kokius mokesčius galima pridurti prie grąžinimo užsakymo eilutės?
--   **Grąžinama prekė iš** -prekės gali būti pridedami prie atsargų, turėtų būti sunaikintas, ar jis turėtų būti grąžintas į kliento?
--   **Grąžintų prekių logistika** – keičiamai prekei išduodamos klientui?
+-   **Finansinės įžvalgos** – ar klientas turi būti kredituojamas už grąžintas prekes, ir ar turėtų į grąžinimo užsakymo eilutę būti įtraukti kokie nors mokesčiai?
+-   **Grąžintos prekės perdavimas** – ar gali prekė vėl būti įtraukta į atsargas, ar ji turi būti nurašyta, ar ji turėtų būti grąžinta klientui?
+-   **Grąžintos prekės logistika** – ar pakaitalas turi būti išduotas klientui?
 
-Ne tik nustatyti, kaip grąžintos prekės yra realizuojami, disponavimo kodai gali sukelti mokesčiai taikytinas grįžimo linijos. Taip pat jais galima grupuoti grąžina statistinei analizei. Disponavimo kodai apibrėžiami kaip grąžinimo užsakymus sąrankos dalis. Tačiau kiekvieno perdavimo kodo turi nurodyti vieną iš įtaisytųjų likvidavimo veiksmų. Žemiau pateiktoje lentelėje integruotas disponavimo kodus ir jų veiksmus. **Svarbu:** jei prekę grąžinti nereikia, bet vis dar turėtų būti įskaitytos į klientų, priskirti prie **kredito tik** perdavimo kodo į grįžimo linijos.
+Be to, kad reikia nustatyti, kaip grąžintos prekės turi būti likviduotos, grąžinimo eilutei gali būti taikomi mokesčiai pagal perdavimo kodus. Jie gali būti naudojami ir grąžinimams sugrupuoti statistinės analizės tikslais. Perdavimo kodai nustatomi kaip grąžinimo užsakymų nustatymo dalis. Tačiau kiekvienas perdavimo kodas turi nurodyti vieną iš įtaisytųjų perdavimo veiksmų. Šioje lentelėje pateikti įtaisytieji perdavimo kodai ir jų veiksmai. **Svarbu:** jei prekė neturi būti grąžinta, bet klientas vis tiek turi būti kredituojamas, grąžinimo eilutei priskirkite perdavimo kodą **Tik kreditas**.
 
 <table>
 <thead>
 <tr class="header">
 <th>Perdavimo kodas</th>
-<th>Įgyvendinimo poveikis finansams</th>
-<th>Logistikos poveikis</th>
+<th>Finansinės įžvalgos</th>
+<th>Įžvalgos dėl logistikos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tik kreditas</td>
 <td><ul>
-<li>Klientas yra kredituojamas pardavimo kaina atėmus visus mokesčių ar privalomųjų mokėjimų.</li>
-<li>Nuostolis iš pašalinti iš apyvartos prekės registruojamos DK.</li>
+<li>Klientui suteikiamas kreditas siekia pardavimo kainą, atėmus mokesčius ar išlaidas.</li>
+<li>Prekės nurašymo nuostolis užregistruojamas didžiojoje knygoje.</li>
 </ul></td>
-<td>Prekę grąžinti nereikia. Šis polinkis veiksmų vartojamas šiais atvejais:
+<td>Prekė neturi būti grąžinta. Perdavimo veiksmas naudojamas šiais atvejais:
 <ul>
-<li>Nėra pakankamai pasitikėjimo tarp šalių.</li>
-<li>Defektų turinčios prekės grąžinimo išlaidos yra pernelyg didelės.</li>
-<li>Elementus negalima leisti atgal į inventorių. Dėl kitų sąlygų, fizinės grąža nėra būtina.</li>
+<li>Tarp šalių yra pakankamas pasitikėjimas.</li>
+<li>Prekės su defektu grąžinimo savikaina yra draudžiamoji.</li>
+<li>Prekių negalima grąžinti atgal į atsargas. Dėl kitų sąlygų, fizinio grąžinimo nereikalaujama.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kreditas</td>
 <td><ul>
-<li>Klientas yra kredituojamas pardavimo kaina atėmus visus mokesčių ar privalomųjų mokėjimų.</li>
-<li>Atsargų vertė didinama už grąžintas prekes.</li>
+<li>Klientui suteikiamas kreditas siekia pardavimo kainą, atėmus mokesčius ar išlaidas.</li>
+<li>Atsargų vertė padidinama pagal grąžintos prekės savikainą.</li>
 </ul></td>
-<td>Prekė grąžinama ir dedama atgal į inventorių.</td>
+<td>Prekė grąžinama ir įtraukiama atgal į atsargas.</td>
 </tr>
 <tr class="odd">
 <td>Keitimas ir kreditas</td>
 <td><ul>
-<li>Klientas yra kredituojamas pardavimo kaina atėmus visus mokesčių ar privalomųjų mokėjimų.</li>
-<li>Atsargų vertė didinama už grąžintas prekes.</li>
-<li>Atskira pardavimo užsakymą už keitimą yra sukurtas ir tvarkomas atskirai.</li>
+<li>Klientui suteikiamas kreditas siekia pardavimo kainą, atėmus mokesčius ar išlaidas.</li>
+<li>Atsargų vertė padidinama pagal grąžintos prekės savikainą.</li>
+<li>Pakeitimui sukuriamas atskiras pardavimo užsakymas, kuris tvarkomas atskirai.</li>
 </ul></td>
-<td>Prekė grąžinama ir dedama atgal į inventorių.</td>
+<td>Prekė grąžinama ir įtraukiama atgal į atsargas.</td>
 </tr>
 <tr class="even">
 <td>Keitimas ir nurašymas</td>
 <td><ul>
-<li>Kredituojama pirkėjo pardavimo kainai, atėmus bet kokį mokesčių ar rinkliavų.</li>
-<li>Nuostolis iš pašalinti iš apyvartos prekės registruojamos DK.</li>
-<li>Atskira pardavimo užsakymą už keitimą yra sukurtas ir tvarkomas atskirai.</li>
+<li>Klientui suteikiamas kreditas siekia pardavimo kainą, atėmus mokesčius ar išlaidas.</li>
+<li>Prekės nurašymo nuostolis užregistruojamas didžiojoje knygoje.</li>
+<li>Pakeitimui sukuriamas atskiras pardavimo užsakymas, kuris tvarkomas atskirai.</li>
 </ul></td>
-<td>Prekės yra grąžinama ir nurašytas į atliekas.</td>
+<td>Prekė grąžinama ir nurašoma.</td>
 </tr>
 <tr class="odd">
 <td>Grąžinti klientui</td>
-<td>Niekas, išskyrus bet kokį mokesčių ar rinkliavų.</td>
-<td>Prekė grąžinama bet siunčiamas atgal į kliento po patikrinimo. Šis polinkis veiksmų gali būti naudojami, jei prekė buvo sąmoningai sugadinta arba jei buvo anuliuotas garantija.</td>
+<td>Nėra, išskyrus mokesčius ar išlaidas.</td>
+<td>Prekė grąžinta, bet po patikrinimo išsiųsta atgal klientui. Perdavimo veiksmas gali būti naudojamas, jei prėkė buvo sąmoningai sugadinta, arba jei buvo anuliuota garantija.</td>
 </tr>
 <tr class="even">
 <td>Nurašyta</td>
 <td><ul>
-<li>Klientas yra kredituojamas pardavimo kaina atėmus visus mokesčių ar privalomųjų mokėjimų.</li>
-<li>Nuostolis iš pašalinti iš apyvartos prekės registruojamos DK.</li>
+<li>Klientui suteikiamas kreditas siekia pardavimo kainą, atėmus mokesčius ar išlaidas.</li>
+<li>Prekės nurašymo nuostolis užregistruojamas didžiojoje knygoje.</li>
 </ul></td>
-<td>Prekės grąžintos arba į metalo laužą.</td>
+<td>Prekė grąžinama arba nurašoma.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="arrival-at-the-warehouse-for-inspection"></a>Atvežimo į sandėlį patikrinimui
-Kad galėtumėte fiziškai gauti grąžintas prekes į atsargas registruojant važtaraštį, elementus turi pereiti per atvykimo registracijos bei bagažo skyriaus patikrinimas neprivalomas. Šioje iliustracijoje apžvelgiami atvykimo procesą. Kad ir aprašyti kiekvieną žingsnį, kuris yra pavaizduota paveiksle.  
+## <a name="arrival-at-the-warehouse-for-inspection"></a>Gavimas sandėlyje patikrinimui atlikti
+Prieš fiziškai gaunant grąžinamas prekes į sandėlį užregistravus važtaraštį, prekės turi būti užregistruotos pristačius ir, pasirinktinai, patikrintos. Toliau esančiame paveikslėlyje pateikiama pristatymo proceso apžvalga. Tolesniuose skyriuose aprašytas kiekvienas veiksmas, parodytas iliustracijoje.  
 
-[![Atvykimo procesą](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Gavimo procesas](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Šį procesą sudaro keletas kitų sąlygų keitimų, kurie nėra įtraukti į šią temą. Štai keletas iš šių variantų:
+Šis procesas turi kelis variantus, kurie šioje temoje neaptariami. Toliau pateikiamos kai kurie iš šių variantų.
 
--   Nenaudokite su **gavimų apžvalga** sΰraπas sukurti atvykimo leidinyje. Vietoj to, rankiniu būdu sukurti atvykimo žurnalą. Grąžinti užsakymų turės **pardavimų užsakymų** į priekį.
--   Jei naudojate sandėlio valdymą, generuoja padėklų transportą. Grąžinimo linija turės būsena **Arrived** padėklų transportavimo metu.
--   Registruotis atvykstant grąžintas prekes tiesiai iš grąžinimo užsakymų eilutės, naudojant į **registracijos** funkcija.
+-   Nenaudokite sąrašo **Gavimo apžvalga** Gavimo žurnalui sukurti. Gavimo žurnalą sukurkite rankiniu būdu. Grąžinimo užsakymuose kaip nuoroda bus **Pardavimo užsakymas**.
+-   Jei naudojate Sandėlio valdymą, sugeneruokite padėklų transportavimą. Padėklų transportavimo metu grąžinimo eilutės būsena bus **Gauta**.
+-   Grąžintos prekės gavimą registruokite tiesiogiai iš grąžinimo užsakymo eilutės naudodami funkciją **Registravimas**.
 
-Atvykimo metu, grąža yra integruoti į bendrojo proceso sandėlio atvykusiems. Atvykimo procesą taip pat palaiko sulaikymo užsakymus už grąžinamas prekes, kad turi būti atliktas atskiras kontrolės sukūrimas.
+Gavimo proceso metu grąžinimai integruojami su bendruoju sandėlio gavimo procesu. Gavimo procesastaip pat palaiko sulaikymo užsakymų kūrimą grąžinamoms prekėms, kurias reikia atskirai patikrinti.
 
-### <a name="identify-products-in-the-arrival-overview-list"></a>Nustatyti produktų sąraše atvykimo apžvalga
+### <a name="identify-products-in-the-arrival-overview-list"></a>Produktų identifikavimas Gavimo apžvalgos sąraše
 
-Į **gavimų apžvalga** puslapis išvardyti visų planuojamų gaunamus atvykusiųjų. **Pastaba:** prekyboje nuo grąžinimo užsakymai turi būti tvarkomi atskirai nuo kitų rūšių atvykimo operacijas. Po to, kai jau nustatėte gaunamo paketo į **gavimų apžvalga** puslapyje (pvz., naudojant RMA lydraštis), į veiksmų sritį, spustelėkite **pradėti atvykimo** sukurti ir inicijuoti gavimo žurnalą, kuris atitinka atvykimo.
+Puslapyje **Gavimo apžvalga** pateikiamas visų suplanuotų įeinančių gavimų sąrašas. **Pastaba:** gavimus iš grąžinimo užsakymų reikia apdoroti atskirai nuo kitų tipų gavimo operacijų. Po to, kai identifikuosite gaunamą paketą puslapyje **Gavimo apžvalga** (pvz., naudojant lydintį RMA dokumentą), veiksmų srityje spustelėję **Pradėti gavimą** kurkite ir inicijuokite gavimo žurnalą, kuris sutampa su gavimu.
 
-### <a name="edit-the-arrival-journal"></a>Redaguoti atvykimo žurnalą
+### <a name="edit-the-arrival-journal"></a>Gavimo žurnalo redagavimas
 
-Nustatydami, **karantino valdymo** į **taip**, galite sukurti sulaikymo užsakymas, grąžinimo linijos. Jei linija buvo išsiųstas į karantino inspekcijos, jūs negalite nurodyti perdavimo kodo. **Pastaba:** jei nustatysite į **karantino valdymo** į **taip** – prekės atsargų modelių grupę, į **karantino valdymo** parinktį į **žurnalo eilutes** puslapis bus pažymėtas kaip žurnalo eilutėje ir negali būti pakeistas. Jei eilutė yra siunčiama karantino, nurodykite tinkamą sulaikymo sandėlį. Jei atvykimo linija nėra siunčiami patikrinimui, sandėlio atvykimo sekretorius turi nurodyti perdavimo kodo tiesiai ant žurnalo eilutėje, po to atvykimo žurnalą. Jei tą patį disponavimo kodą būti paskirtas visam kiekiui, grįžimo linijos, arba visas kiekis linijos negavo, jūs suskaidote linija. Kai išskaidote atvykimo žurnalo eilutę, jūs taip pat padalinti grįžimo linijos (**SalesLine**) ir sukurti naują partijos ID. Galite perskirti linija iš žurnalo eilutėje kiekio sumažinimo. Kai žurnalas užregistruojamas, naują grąžinimo linijos atsiras, kurio būsena **numatoma**, likęs kiekis. Taip pat galite padalinti į eilutę spustelėdami **funkcijos**&gt;**Split**.
+Nustatydami parinktį **Sulaikymo valdymas** į **Taip**, grąžinimo eilutei galite kurti sulaikymo užsakymą. Jei eilutė išsiųsta sulaikyti dėl patikrinimo, galite nurodyti perdavimo kodą. **Pastaba:** jei parinktį **Sulaikymo valdymas** prekės atsargų modelio grupėje nustatysite į **Taip**, parinktis **Sulaikymo valdymas** puslapyje **Žurnalo eilutės** bus pažymėta gavimo žurnalo eilutei ir jos nebebus galima keisti. Jei eilutė siunčiama sulaikyti, turite nurodyti atitinkamą sulaikymo sandėlį. Jei gavimo eilutė nesiunčiama patikrinti, sandėlio gavimo klerkas turi nurdyti perdavimo kodą tiesiogiai į gavimo žurnalo eilutę, tada užregistruoti gavimo žurnalą. Jei tas pats perdavimo kodas neturėtų būti priskirtas visam grąžinimo eilutės kiekiui, arba visas eilutės kiekis nebuvo gautas, turite skaidyti eilutę. Suskaidę gavimo žurnalo eilutę, kartu suskaidote ir grąžinimo eilutę (**SalesLine**) ir sukuriate naują partijos ID. Eilutę suskaidyti galite sumažinę gavimo žurnalo eilutės kiekį. Kai žurnalas užregistruotas, sukuriama nauja grąžinimo eilutė, kurios likusio kiekio būsena yra **Numatoma**. Be to, eilutę suskaidyti galite spustelėję **Funkcijos** &gt; **Skaidyti**.
 
-### <a name="process-the-quarantine-order"></a>Sulaikyto užsakymo procesas
+### <a name="process-the-quarantine-order"></a>Sulaikymo užsakymo apdorojimas
 
-Jei grąžinta prekė yra siunčiama patikrinimui sulaikymo sandėlyje, bet koks papildomas tvarkymas bus baigtas sulaikymo užsakymas. Vienas sukurtas kiekvienai atvykimo eilutei, kuri yra siunčiama karantino. Disponavimo kodas nurodo patikrinimo proceso rezultatas. Galite perskirti sulaikymo užsakymas, lygiai taip pat jūs galite padalinti atvykimo žurnalą. Jeigu jūs suskaidote sulaikymo užsakymą, jūs sukelti atitinkamas split grįžimo linijos. Įvedę perdavimo kodo, baigti sulaikymo užsakymą naudodami, **galo** funkcija arba **paskelbtos baigtomis** funkcija. Jei pasirinksite **paskelbti baigtu**, naujokė yra sukurta paskirtoji sandėlyje. Tada galite apdoroti šio atvykimo naudojant į **gavimų apžvalga** puslapis. Jei atvykimo yra kilęs iš sulaikymo užsakymas, disponavimo kodą, kuris yra priskirtas patikrinimo metu keisti negalima. Jei žaidžiate sulaikymo užsakymą naudodami, **pabaigos** funkcija, kad daug bus automatiškai įregistruotas. Kartais prekė gali būti siunčiama atgal iš karantino siuntimo ir gavimo skyrius. Pvz., sulaikymo inspektoriui galite nežinoti kur saugoti prekę atsargose. Tokiu atveju atitinkamas važtaraštis turi būti atnaujinta teisingai užsiregistruoti ir dėl disponavimo kodą, kuris nurodomas dėl karantino. Gavimo patvirtinimą galima siųsti klientui užregistruojant grąžinimo linijos. Į **grąžinimo patvirtinimo** ataskaita panaši į nustatytą dokumentą. Į **grąžinimo patvirtinimo** ataskaita nėra įtrauktas į žurnalą ar kitaip užregistruoti sistemoje, ir tai nėra būtinas žingsnis grąžinimo užsakymo procese.
+Jei grąžinti produktai siunčiami į sulaikymo sandėlį patikrinti, visas kitas papildomas apdorojimas užbaigiamas sulaikymo tvarka. Kiekvienai gavimo eilutei sukuriamas vienas sulaikymo užsakymas. Perkėlimo kodas nurodo patikrinimo proceso rezultatą. Galite suskaidyti sulaikomą užsakymą, kaip ir galite suskaidyti gavimo žurnalą Jei suskaidysite sulaikymo užsakymą, sukelsite atitinkamą grąžinimo eilutės suskaidymą. Įvedę perkėlimo kodą, užbaikite sulaikymo užsakymą naudodami funkciją **Baigti** arba funkciją **Skelbti baigtu**. Jei pasirinksite **Skelbti baigtu**, paskirtame sandėlyje bus sukurtas naujas gavimas. Šį gavimą tada galite apdoroti naudodami puslapį **Gavimo apžvalga**. Jei gavimas sukurtas pagal sulaikymo užsakymą, negalėsite pakeisti perdavimo kodo, kuris priskirtas patikrinimo metu. Jei sulaikymo užsakymą užbaigsite naudodami funkciją **Baigti**, partija užregistruojama automatiškai. Kartais prekė gali būti atsiunčiama atgal iš sulaikymo į Siuntimo ir gavimo skyrių. Pvz., sulaikymo inspektorius gali nežinoti, kur atsargose laikyti prekę. Tokiu atveju atitinkamą važtaraštį reikia atnaujinti, kad būtų tinkamai registruotas ir veiktų pagal perdavimo kodą, kuris nurodytas dėl sulaikymo. Kkrąžinimo eilutė užregistruota, klientui galima nusiųsti gavimo patvirtinimą. Ataskaita **Grąžinimo patvirtinimas** atspindi grąžinimo užsakymo dokumentą. Ataskaita **Grąžinimo patvirtinimas** nėra įtraukiama į žurnalą ar kitaip registruojama sistemoje, tai nėra būtinas grąžinimo užsakymo proceso veiksmas.
 
-## <a name="replace-a-product"></a>Pakeisti produkto
-Valdymo produktų pakeitimas dviem būdais:
+## <a name="replace-a-product"></a>Produkto keitimas
+Yra du produkto keitimo valdymo mėtodai:
 
--   **Išankstinis pakeitimas** – pakeisti produktą prieš grąžintas produktas yra gautas iš pirkėjo.
--   **Perdavimo kodo gali pakeisti** -automatiškai sukurti naują pakeitimo užsakymo eilutę.
+-   **Išankstinis pakeitimas** – produktas keičiamas dar prieš gaunant grąžinamą produktą iš kliento.
+-   **Pakeitimas pagal perdavimo kodą** – automatiškai kurkite naują pakeitimo užsakymo eilutę.
 
 ### <a name="up-front-replacement"></a>Išankstinis pakeitimas
 
-– Išankstinis pakeitimas, keičiamai prekei gali būti pristatomi klientui, kol elementas bus grąžintas. Šis metodas yra naudingas, jei, pvz., elementas yra mašinos dalis, kuri negali būti pašalinta, nebent atsarginėmis dalimis užimti savo vietą, arba jei jūs tiesiog norite klientui galimybę turėti pakaitos produktas kuo greičiau. Išankstinis pakeitimas tvarka yra nepriklausomi pardavimo tvarka. Antraštės informacija yra inicijuota iš kliento, ir eilutės informacija yra rengiami nuo įsakymo grąžinti vaiką. Galite redaguoti, tvarkyti ir naikinti pakeitimo tvarka, neatsižvelgiant į įsakymo grąžinti vaiką. Panaikinus keitimo užsakymą, galite gauti pranešimą, kad tokia tvarka buvo sukurta kaip keitimo užsakymą. Toliau pateiktame paveikslėlyje pavaizduotas procesas išankstinis pakeitimas.  
+Išankstinio pakeitimo atveju, pakaitalas gali būti pristatytas klientui dar prieš grąžinant prekę. Šis metodas naudingas, jei, pvz., prekė yra automobilio detalė, kurios negalima nuimti, kol atsarginė detalė bus pasiekiama šiai pakeisti, arba, jei tiesiog norite, kad klientas pakaitalą gautų kaip įmanoma greičiau. Išankstinis pakeitimo užsakymas yra atskiras pardavimo užsakymas. Antraštės informacija inicijuojama iš kliento, o eilutės informacija inicijuojama iš grąžinimo užsakymo. Pakeitimo užsakymą galite redaguoti, apdoroti ir panaikinti atskirai nuo grąžinimo užsakymo. Panaikinę pakeitimo užsakymą, gausite pranešimą, kad užsakymas sukurtas kaip pakeitimo užsakymas. Šioje iliustracijoje parodytas išankstinio pakeitimo užsakymo procesas.  
 
-[![Išankstinis pakeitimas procesas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+[![Išankstinio pakeitimo procesas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
 
-Grąžinimo užsakymas yra nuoroda į keitimo užsakymą. Jei užsakymą išankstinis pakeitimas yra sukurta per nustatytą prieš defektų turinčios prekės yra grąžinama, negalite pasirinkti disponavimo kodų pakeitimas po to, kai buvo grąžintas defektų turinčios prekės.
+Grąžinimo užsakymas apima nuorodą į pakeitimo užsakymą. Jei išankstinio pakeitimo užsakymas sukurtas grąžinimo užsakymui prieš grąžinant prekę su defektu, negalėsite pasirinkti pakeitimo perdavimo kodų po to, kai prekė su defektu bus grąžinta.
 
-### <a name="replacement-by-disposition-code"></a>Perdavimo kodo pakeitimas
+### <a name="replacement-by-disposition-code"></a>Pakeitimas pagal perdavimo kodą
 
-Jei pristatote keičiamai prekei klientui, ir naudoti su **pakeisti ir laužo** ar **pakeisti ir kredito** likvidavimo veiksmų dėl įsakymo grąžinti vaiką, naudokite procesą, parodyta šioje iliustracijoje.  
+Jei klientui išsiųsite pakaitalą ir perdavimo veiksmą **Pakeisti ir nurašyti** arba **Pakeisti ir kredituoti** naudojate grąžinimo užsakyme, naudokite procesą, kuris parodytas toliau pateikiamoje iliustracijoje.  
 
-[![Kai naudojamas perdavimo kodo keitimo procedūra](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+[![Pakeitimo procesas, kai naudojamas perdavimo kodas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
 
-Keičiamai prekei bus pristatyti naudojant nepriklausomi pardavimo užsakymo, keitimo pardavimų užsakymo. Šiam pardavimo užsakymui yra sukurtas, kai sukuriamas grąžinimo užsakymo važtaraštį. Užsakymo antraštėje naudoja informaciją iš kliento, kuris nurodomas grąžinimo užsakymo antraštėje. Eilutės informacija renkama informacija, įvedama į **pakaitalas** puslapis. Į **pakaitalas** puslapis turi būti nurodytas linijas, disponavimo veiksmai, kurie prasidės žodžiu "pakeisti." Vis dėlto nei kiekio, nei keičiamai prekei tapatybė yra patvirtinti arba apribojamas. Šią problemą leidžia tais atvejais, kai klientas nori tą pačią prekę, bet ir kitą konfigūraciją ar dydis, o taip pat atvejus kai klientai nori visiškai kitą elementą. Pagal numatytuosius nustatymus tapačios prekės būtų įrašytas į **pakaitalas** puslapis. Tačiau, galite pasirinkti kitą elementą, sąlyga, kad būtų nustatyta funkcija. **Pastaba:** galite redaguoti ir panaikinti keitimo pardavimų užsakymo, kai yra sukuriama.
+Pakaitalas bus pristatytas naudojant atskirą pardavimo užsakymą – pakeitimo pardavimo užsakymą. Šis pardavimo užsakymas sukuriamas, kai sugeneruojamas grąžinimo užsakymo važtaraštis. Užsakymo antraštėje naudojama informacija iš kliento, kuris nurodytas grąžinimo užsakymo antraštėje. Eilutės informacija surenkama iš puslapyje **Prekės pakaitalas** įvestos informacijos. Turi būti užpildytos puslapio **Prekės pakaitalas** eilutės, susijusios su perdavimo veiksmais, kurios prasideda žodžiu „pakeisti“. Tačiau, nei prekės pakaitalo kiekis, nei tapatybė nėra patikrinta ar apribota. Šis veikimo būdas leidžia atvejus, kai klientas nori tos pačios prekės tik kitokia konfigūracija ar dydžiu, ir tuos atvejus, kai klientas nori visai kitokios prekės. Pagal numatytuosius nustatymus, identiška prekė įvedama puslapyje **Prekės pakaitalas**. Tačiau galite pasirinkti kitokią prekę, jei tokia funkcija yra nustatyta. **Pastaba:** pakeitimo pardavimo užsakymą sukūrus, galima jį redaguoti ir panaikinti.
 
-## <a name="generate-a-packing-slip"></a>Kurti važtaraštį
-Prieš grąžinamas prekes gausite į inventorių, turite atnaujinti tvarką, pagal kurią prekės priklauso važtaraštį. Kaip SF atnaujinimo procesas yra atnaujinti finansinės operacijos, pakavimo važtaraščio atnaujinimo procesas yra fizinių atsargų įrašo atnaujinimo. Kitaip tariant, šį procesą padaro pakeitimus į atsargas. Tais atvejais, kai grąžinimas, disponavimo veiksmus priskirtus veiksmus būtų įgyvendintos per pakavimo savikainomis. Kai kuriate važtaraštį, atsiranda šie įvykiai:
+## <a name="generate-a-packing-slip"></a>Važtaraščio generavimas
+Prieš tai, kai grąžintos prekės bus gautos į atsargas, turite atnaujinti užsakymo, kuriam tos prekės priklauso, važtaraštį. Kaip sąskaitos faktūros atnaujinimo procesas yra finansinės operacijos atnaujinimas, važtaraščio atnaujinimas yra fizinis atsargų įrašo atnaujinimas. Kitaip tariant, jo metu atliekami atsargų pakeitimai. Grąžinimo atvejais važtaraščio atnaujinimo metu atliekami tie žingsniai, kurie priskirti perdavimo veiksmui. Generuojant važtaraštį atliekami toliau nurodyti įvykiai:
 
--   Sandėlyje, standartinė procesas yra naudojamas atlikti faktinio gavimo. DK registravimus sugeneruojami, jei atsargų modelio grupės (**registruoti faktines atsargas**) ir esantį Accounts receivable parameters (**pagal važtaraštį DK. Post**) yra nustatyti tinkamai.
--   Prekės pažymėtos su likvidavimo veiksmų, kuriame yra žodis "scrap" nurašomos, o atsargų nuostolis registruojamas į DK.
--   Elementus, kurie buvo pažymėti su į **grąžinimas klientui** likvidavimo veiksmų gaunamos ir pristatomos klientui. Šie elementai turi įtakos atsargų.
--   Keitimo pardavimų užsakymo yra sukurta. Šiam pardavimo užsakymui remiasi informacija apie su **pakaitalas** puslapis.
+-   Sandėlyje naudojant standartinį procesą atliekamas faktinis gavimas. Didžiosios knygos registravimai sugeneruojami, jei atitinkamai nustatyti atsargų modelio grupės (**Registruoti faktines atsargas**) ir gautinų sumų parametrai (**Registruoti važtaraštį DK**).
+-   Prekės su pažymėtu perdavimo veiksmu, kuriame nurodytas žodis „nurašymas“, yra nurašomos, o atsargų nuostolis užregistruojamas į didžiąją knygą.
+-   Prekės su pažymėtu perdavimo veiksmu **Grąžinti klientui** gaunamos ir pristatomos klientui. Šios prekės atsargoms neturi grynojo poveikio.
+-   Sukuriamas pakeitimo pardavimo užsakymas. Šis pardavimo užsakymas pagrįstas informacija iš puslapio **Prekės pakaitalas**.
 
-Jūs galite kurti važtaraštį tik eilutes, kurių grąžinimo būsena **registruotu**, ir tik visą kiekį grąžinimo linijoje. Jei keli grąžinimo užsakymo eilutes su **registruotu** būsenos, galite generuoti važtaraščio eilutes poaibį panaikindami eilutes iš į **paštu pagal važtaraštį** puslapis. Dalinio grąžinimo yra apibrλώtos grąžinimo užsakymo eilutes, ne pagal grąžinimo užsakymo siuntimus. Todėl, jei gaunate visas kiekis, nurodytos grąžinimo užsakymo eilutėje, bet gaunate nieko iš kitos eilutės grąžinimo užsakymas, pristatymas ne dalinį pristatymą. Tačiau, jei grąžinimo užsakymų linija reikalauja grąžinti 10 prekės vienetų, bet gaunate tik keturi vienetai, pristatymas yra dalinis pristatymas. Jei ne visi numatomą grąžintų prekių atgabenimo, galite anuliuoti siuntą ir laukti, kol grąžintas kiekis atvykti poilsio. Taip pat galite registruotis ir registruoti dalinį kiekį. Važtaraščių registravimo proceso dalis, pakuotės lapelis nuorodos numeris iš kliento siuntimo dokumentuose galite susieti su užsakymo eilutes. Ši asociacija yra neprivaloma ir tik nuorodai. Jis neturi sukurti sandorio naujinimų. Apskritai, galite praleisti pakavimo slydimo procesą ir pereiti tiesiai į SF. Šiuo atveju, žingsnių, kad jums būtų atlikti per pakavimo slydimo kartos atliekamos per SF išrašymas.
+Galite sugeneruoti tik tų eilučių važtaraštį, kurių grąžinimo būsena yra **Registruota**, ir tik viso eilutėje nurodyto kiekio. Jei kelių grąžinimo užsakymo eilučių būsena yra **Registruota**, galite sugeneruoti tų eilučių poaibio važtaraštį, puslapyje **Registruoti važtaraštį** panaikinę kitas eilutes. Daliniai grąžinimai apibrėžiami pagal grąžinimo užsakymo eilutes, o ne grąžinimo užsakymo siuntas. Tai yra, jei jūs gaunate visą kiekį, nurodytą vienoje grąžinimo užsakymo eilutėje, bet negaunate nieko iš kiekio, nurodyto kitose grąžinimo užsakymo eilutėse, šis pristatymas nėra dalinis. Tačiau, jei grąžinimo užsakymo eilutėje reikia 10 vienetų, kad prekė būtų grąžinta, bet gavote tik keturis vienetus, tuomet pristatymas yra dalinis pristatymas. Jei gautos ne visos numatomos grąžinamos prekės, galite atidėti siuntą ir palaukti, kol bus gautas likęs grąžinamas kiekis. Kitu atveju, galite jas registruoti ir užregistruoti dalinį kiekį. Važtaraščio registravimo proceso metu galite važtaraščio nuorodos numerį, esantį kliento siuntimo dokumentuose, susieti su užsakymo eilutėmis. Šis susiejimas pasirinktis ir naudojamas tik kaip nuoroda. Joks operacijos atnaujinimas nesukuriamas. Apskritai, važtaraščio procesą galite praleisti ir eiti tiesiogiai į SF išrašymą. Tokiu atveju, tuos veiksmus, kuriuos būtumėte atlikę generuodami važtaraštį, galėsite atlikti išrašydami SF.
 
 ## <a name="generate-an-invoice"></a>Kurti SF
-Nors į **grąžinimo užsakymui** puslapyje yra informacija ir veiksmai, kurių reikia norint tvarkyti ypatingus logistikos aspektus, grąžinimo užsakymas, turite naudoti su **pardavimų užsakymų** puslapyje, kad baigti SF išrašymo procesą. Jūsų organizacija gali tada SF grąžinimo ir pardavimo užsakymuose vienu metu, ir tas pats asmuo gali atlikti sąskaitų faktūrų išrašymo procesą, kaip to reikalauja. Norėdami peržiūrėti grąžinimo užsakymą iš to **pardavimų užsakymų** spustelėkite nuorodą, Norėdami atidaryti susijusią pardavimo užsakymo pardavimo užsakymo numerį. Jūs taip pat galite rasti įsakymo grąžinti vaiką į **visus pardavimo užsakymus** puslapis. Grąžinimo užsakymai pardavimo užsakymų, kurių užsakymo tipą, **grąžintas užsakymas**.
+Puslapyje **Grąžinimo užsakymas** pateikiama informacija ir veiksmai, kurie reikalingi specialiems grąžinimo užsakymo logistikos aspektams tvarkyti, turite naudoti puslapį **Pardavimo užsakymas** SF išrašymo procesui užbaigti. Tada jūsų organizacija gali išrašyti grąžinimo užsakymų ir pardavimo užsakymų sąskaitas faktūras tuo pačiu metu, tas pats asmuo gali užbaigti šį procesą reikiamu būdu. Norėdami grąžinimo užsakymą peržiūrėti puslapyje **Pardavimo užsakymas** spustelėję pardavimo užsakymo numerio saitą atidarykite susietą pardavimo užsakymą. Grąžinimo užsakymą rasite ir puslapyje **Visi pardavimo užsakymai**. Grąžinimo užsakymai yra pardavimo užsakymai, kurių užsakymo tipas yra **Grąžintas užsakymas**.
 
 ### <a name="credit-correction"></a>Kredito koregavimas
 
-Sąskaitų faktūrų išrašymo proceso dalis, patikrinkite, ar teisingi jokių papildomų išlaidų. Sukelti DK registravimų tapti pataisos (Storno), apsvarstykite galimybę naudoti į **kredito koregavimas** parinktį į **kiti** skirtuke, **registruojant SF** puslapio, kai registruojate SF/kredito pažymos. **Pastaba:** pagal numatytuosius nustatymus į **kredito koregavimas** parinktis įjungta, jei į **kredito pažymą kaip korekcija** parinktį su **sudaro gautinų sumų parametrai** puslapis buvo įgalintas. Tačiau mes rekomenduojame, kad jūs ne rašyti grįžta su Storno.
+SF išrašymo proceso metu patvirtinkite, kad papildomos išlaidos yra teisingos. Norint, kad didžiosios knygos registravimai taptų taisymais („Storno“), galbūt registruodami SF / kredito pažymą norėsite naudoti parinktį **Kredito koregavimas**, esančią skirtuke **Kita**, puslapyje **SF registravimas**. **Pastaba:** pagal numatytuosius nustatymus, parinktis **Kredito koregavimas** suaktyvinama, jei įgalinta parinktis **Kredito pažyma kaip pataisymas** puslapyje **Gautinų sumų parametrai**. Tačiau rekomenduojame neregistruoti grąžinimų su „Storno“.
 
-## <a name="create-intercompany-return-orders"></a>Kurti vidinės įmonės užsakymus, grąžinimo
-Grąžinimo užsakymai gali būti baigtas dviejų bendrovių jūsų organizacijoje. Palaikomi šie scenarijai:
+## <a name="create-intercompany-return-orders"></a>Vidinės įmonės grąžinimo užsakymų kūrimas
+Grąžinimo užsakymus galima užbaigti tarp dviejų vidinių jūsų organizacijos įmonių. Palaikomi toliau nurodyti scenarijai:
 
--   Paprastos vidinės įmonės grąžina tarp dviejų įmonių, kurios dalyvauja tarpusavio ryšys
--   Vidinės įmonės grandinėje, kuri yra nustatyta, kada parduodanti įmonė sukurta per pirkėjo nustatytą
--   Vidinės įmonės grandinėje, kuri yra nustatyta, kada tiekėjo grąžinimo užsakymas sukurtas įmonei
--   Tiesiogiai pristatyti siuntą grąžina tarp užsienio klientus ir dviejų bendrovių, kurios dalyvauja tarpusavio ryšys
+-   Paprasti vidinės įmonės grąžinimai tarp dviejų įmonių, dalyvaujančių vidinės įmonės ryšyje
+-   Vidinės įmonės grandinė, kuri sukuriama, kai kliento grąžinimo užsakymas sukuriamas parduodančioje įmonėje
+-   Vidinės įmonės grandinė, kuri sukuriama, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje
+-   Tiesioginio pristatymo siuntų grąžinimas tarp išorinio kliento ir dviejų įmonių, kurios dalyvauja vidinės įmonės ryšyje
 
 ### <a name="setup"></a>Sąranka
 
-Šioje iliustracijoje minimalų nustatymą, reikalingas dviem bendrovėms dalyvauti tarpusavio ryšį ir pasinaudoti, naudojamas vidinės įmonės prekyboje.  
+Toliau pateikiamoje iliustracijoje: minimalus nustatymas, kurio reikia dviems įmonėms norint dalyvauti vidinės įmonės ryšyje pasinaudoti vidinės įmonės prekyba.  
 
-[![Minimum setup](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+[![Minimalus nustatymas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
 
-Tokią situaciją, CompBuy yra perkančioji bendrovė, ir CompSell yra pardavimo įmonė. Paprastai, parduodanti įmonė pristatoma prekes įmonei arba, tiesiogiai pristatyti siuntą scenarijuose, galų gale užsakovui. – CompBuy, tiekėjo IC\_CompSell yra apibrėžiamas kaip vidinės įmonės galinio punkto, kuris yra susietas su kompanija CompSell. Be to, į CompSell, klientas IC\_CompBuy yra apibrėžiamas kaip vidinės įmonės galinio punkto, kuris yra susietas su kompanija CompBuy. Abi bendrovės turi būti apibrėžta atitinkamų veiksmų strategijos detales ir verčių atvaizdžiai. Tiesiogiai pristatyti siuntą scenarijų, vidinės įmonės grąžinimo užsakymas, kuris taip pat yra vidinės įmonės pardavimo užsakymą, sukuriamas pardavimo įmonė. Vidinės įmonės grąžinimo užsakymo RMA numeris gali būti įlaipinami RMA numeracijos, CompSell, arba kad gali būti nukopijuota nuo RMA numeris, priskirtas grąžinimo užsakyme, CompBuy. RMA numeris parametrus, **PurchaseRequisition** politikos veiksmų CompBuy nustatyti šių veiksmų. Jei sinchronizuojama RMA numerį, turite suplanuoti mažinti riziką skaičių susidūrimai, jei dvi įmonės naudoja ta pati numeracija.
+Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell“ yra parduodanti įmonė. Paprastai parduodanti įmonė siunčia prekes arba perkančiai įmonei, arba, tiesioginio pristatymo siuntų scenarijuose, tiesiogiai galutiniam klientui. Įmonėje „CompBuy“ tiekėjas IC\_„CompSell“ nustatytas kaip vidinės įmonės galinis punktas, kuris susietas su įmone „CompSell“. Tuo pat metu, įmonėje „CompSell“ klientas IC\_„CompBuy“ nustatytas kaip vidinės įmonės galinis punktas, kuris susietas su įmone „CompBuy“. Atitinkamos veiksmų strategijos informacija ir vertės susiejimai turi būti nustatyti abiejose įmonėse. Tiesioginio pristatymo siuntų scenarijuje vidinės įmonės grąžinimo užsakymas, kuris yra ir vidinės įmonės pardavimo užsakymas, sukuriamas parduodančioje įmonėje. Vidinės įmonės grąžinimo užsakymo RMA numerį galima paimti iš RMA skaičių sekos „CompSell“, arba jį galima nukopijuoti iš RMA numerio, kuris priskirtas originaliam grąžinimo užsakymui „CompBuy“. Šiuos veiksmus nustato RMA skaičių sekos nustatymai „CompBuy“ veiksmų strategijoje **„PurchaseRequisition“**. Jei RMA numeris sinchronizuotas, turėtumėte planuoti sumažinti skaičių prieštaravimo riziką, jei šios dvi įmonės naudos tą pačią skaičių seką.
 
-### <a name="simple-intercompany-returns"></a>Paprastos vidinės grąžos
+### <a name="simple-intercompany-returns"></a>Paprasti vidinės įmonės grąžinimai
 
-Šis scenarijus apima dvi bendrovės tos pačios organizacijos, kaip parodyta šioje iliustracijoje.  
+Šis scenarijus apima dvi tos pačios organizacijos įmones kaip parodytatoliau pateikiamoje iliustracijoje.  
 
-[![Paprastos vidinės grąžos](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+[![Paprasti vidinės įmonės grąžinimai](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Užsakymo grandinė gali būti nustatytas, kai tiekėjo grąžinimo užsakymas, įmonei arba per pirkėjo nustatytą sukuriamas pardavimo įmonė. Dinamika 365 operacijoms sukuria atitinkamo užsakymo kitoje įmonėje ir užtikrina, kad antraštės ir eilučių informacija apie tiekėjo grąžinimo tvarka atspindi kliento parametrus grąžinimo užsakymui. Grąžinimo tvarką, pagal kurią nustatoma gali įtrauktumėte arba neįtrauktumėte nuoroda (**rasti pardavimo užsakymo**) – esamų kliento SF. Važtaraščių ir sąskaitų-faktūrų du užsakymai gali būti tvarkomi atskirai. Pavyzdžiui, jūs neturite sukurti tiekėjo grąžinimo užsakymo važtaraštį, prieš jums sukurti kliento grąžinimo užsakymo važtaraštį.
+Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. „Dynamics 365 for Operations“ sukuria atitinkamą užsakymą kitoje įmonėje ir įsitikina, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindi kliento grąžinimo užsakymo nustatymus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
 
-### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiesiogiai pristatyti siuntą grąžina tarp trijų šalių
+### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių
 
-Šį scenarijų galima nustatyti jei ankstesnį pardavimo ir **tiesioginio pristatymo** tipo yra baigtas, ir jei SF prieš klientas yra įmonė, kuri sąveikauja su klientu. Šioje iliustracijoje, bendrovė CompBuy anksčiau pardavė ir SF produktus klientui Extern. Gaminiai buvo išsiųsti tiesiogiai iš kompanijos CompSell klientui per vidinės įmonės užsakymo grandinę.  
+Šį scenarijų galima sukurti, jei ankstesnis **Tiesioginis pristatymas** tipo pardavimas užbaigtas, ir jei SF pagal klientą egzistuoja įmonėje, kuri sąveikauja su klientu. Toliau pateikiamoje iliustracijoje įmonė „CompBuy“ anksčiau yra klientui „Extern“ pardavusi ir išrašiusi SF produktams. Jei produktai buvo išsiųsti tiesiogiai iš įmonės „CompSell“ klientui vidinės įmonės užsakymo grandinę.  
 
-[![Tiesiogiai pristatyti siuntą grąžina tarp trijų šalių](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+[![Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
 
-Jei klientas Extern nori grįžti produktus, grąžinimo užsakymas (RMA02) yra sukurta kliento įmonėje CompBuy. Norėdami nustatyti vidinės įmonės grandinėje, grąžinimo užsakyme turi būti pažymėta tiesioginis pristatymas. Naudojant to **rasti pardavimo užsakymo** funkcija pasirinkti kliento SF sugrįžti, sukuriamas vidinės įmonės užsakymo grandinę, kurią sudaro šie dokumentai:
+Jei klientas „Extern“ nori grąžinti produktus, klientui sukuriamas grąžinimo užsakymas (RMA02) įmonėje „CompBuy“. norint sukurti vidinės įmonės grandinę, grąžinimo užsakymas turi būti pažymėtas tiesioginiam pristatymui. Kai naudojate **Rasti pardavimo užsakymą** funkciją norėdami paimti kliento SF grąžinti, sukuriama vidinės įmonės užsakymo grandinė, sudaryta iš šio dokumento:
 
--   **Originalus įsakymo grąžinti vaiką:** RMA02 (įmonė CompBuy)
--   **Pirkimo užsakymas:** PO02 (įmonė CompBuy)
--   **Vidinės įmonės grąžinimo užsakymas:** RMA\_00032 (įmonė CompSell)
+-   **Originalus grąžinimo užsakymas:** RMA02 (įmonė „CompBuy)“
+-   **Pirkimo užsakymas:** PO02 (įmonė „CompBuy“)
+-   **Originalus grąžinimo užsakymas:** RMA\_00032 (įmonė „CompSell“)
 
-Po to, kai sukuriamas vidinės įmonės tiesioginio pristatymo grandinės, fizinio tvarkymo ir perdirbimo grąžos turi atsirasti vidinės įmonės grąžinimo užsakymas, RMA kontekste\_00032 įmonės CompSell. Produktai nepristatomi įmonės CompBuy. Kai perdavimo kodo priskiriamas vidinės įmonės įsakymo grąžinti vaiką, jis sinchronizuojamas su originalus grąžinimo užsakymą, kad būtų galima tinkamai sąskaitas faktūras už pradinį užsakymą.
+Po to, kai sukurta tiesioginio pristatymo vidinės įmonės grandinė, visas faktinis grąžinimų tvarkymas ir apdorojimas turi vykti vidinės įmonės grąžinimo užsakymo kontekste, RMA\_00032 įmonėje „CompSell“. Produktų negali gauti įmonė „CompBuy“. Kai perdavimo kodas priskiriamas vidinės įmonės grąžinimo užsakymui, jis sinchronizuojamas su originaliu grąžinimo užsakymu, kad būtų leidžiama tinkamai išrašyti originalaus užsakymo SF.
 
-## <a name="post-to-the-ledger"></a>Registruojant DK.
-Knygos registravimai, kurie yra generuojami, kai grąžinimo užsakymui išrašius SF yra veikiami kelis svarbius parametrus ir parametrus:
+## <a name="post-to-the-ledger"></a>Registruoti didžiojoje knygoje
+Didžiosios knygos registravimams, kurie sugeneruojami, kai išrašoma grąžinimo užsakymo SF, įtakos turi keli svarbūs nustatymai ir parametrai:
 
--   **Grąžinimo savikaina** – už atsargų modelių, išskyrus **Normatyvinė savikaina**, kad **grąžinimo savikaina** parametro priklauso prekės savikainą, kai jis turi priimti atgal į atsargų arba nurašytas į atliekas. Apskaičiuoti tinkamą vertinimo aprašą, svarbu, kad jūs nustatote į **grąžinimo savikaina** parametras teisingai. Jei naudojate, **rasti pardavimo užsakymo** funkcija sukurti nuorodą į pardavimo SF, grąžinimo užsakymas liniją su **grąžinimo savikaina** reikšmė yra lygi savikainai, prekės, kuri yra parduodama. Priešingu atveju savikainos vertę ateina iš prekių nustatymą arba galite įvesti rankiniu būdu.
--   **Kredito koregavimas/Storno** – **kredito korekcija** parametras su **registruojant SF** puslapis nustato, ar darbai turėtų būti įrašytas kaip teigiamas (DR/CR) įrašus arba ištaisyti, neigiamas įrašus.
+-   **Grąžinimo savikaina** – atsargų modeliams ne parametras **Standartinė savikaina**, o **Grąžinimo savikaina** nustato prekės savikainą, kai ji priimama atgal į atsargas arba nurašoma. Norint tinkamai apskaičiuoti atsargų vertinimą, svarbu tinkamai nustatyti parametrą **Grąžinimo savikaina**. Jei naudojate funkciją **Rasti pardavimo užsakymą** grąžinimo užsakymo eilutei, turinčiai nuorodą į kliento sąskaitą faktūrą, sukurti, vertė **Grąžinimo savikaina** yra lygi parduotos prekės savikainai. Kitu atveju, savikainos vertė gaunama iš prekės nustatymo arba gali būti įvesta rankiniu būdu.
+-   **Kredito koregavimas / „Storno“** – parametras **Kredito koregavimas** puslapyje **SF registravimas** nustato, ar registravimai turi būti įrašyti kaip teigiami (DR / CR) įrašai ar kaip koregavimo, neigiami įrašai.
 
-Pateikiamuose pavyzdžiuose grąžinimo savikaina yra atstovaujama kaip **Inv. savikaina**.
+Tolesniuose pavyzdžiuose grąžinimo savikaina pateikiama kaip **Atsargų savikaina**.
 
-### <a name="example-1-the-return-order-doesnt-reference-a-customer-invoice"></a>1 pavyzdys: Įsakymo grąžinti vaiką nėra nurodyti pardavimo SF
+### <a name="example-1-the-return-order-doesnt-reference-a-customer-invoice"></a>1 pavyzdys: grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą
 
-Įsakymo grąžinti vaiką nėra informacijos iš kliento sąskaitos-faktūros. Grąžinama Prekė yra kredituojama. Ir **kredito korekcija** parametras nėra pasirinkta, kai sugeneruojamas grąžinimo užsakymo SF arba kredito pažymos,.  
+Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prekė kredituojama. Generuojant grąžinimo užsakymo sąskaitą faktūrą arba kredito pažymą, nepasirinktas parametras **Kredito koregavimas**.  
 
-[![Patvirtinto įsakymo grąžinti vaiką nėra informacijos klientų invoic](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+[![Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
 
-**Pastaba:** kapitonas prekės kaina yra naudojama kaip numatytoji reikšmė, **grąžinimo savikaina** parametras. Numatytoji kaina skiriasi nuo savikainos atsargų išdavimo metu. Todėl prielaida, kad buvo patirtos nuostolių 3. Be to, grąžinimo užsakyme nėra nuolaida, kuri buvo pateikta pirkėjui pardavimo užsakymo. Todėl atsiranda pernelyg didelio kredito.
+**Pastaba:** pagrindinė prekės kaina naudojama kaip numatytoji parametro **Grąžinimo savikaina** vertė. Numatytoji kaina skiriasi nuo savikainos atsargų išdavimo metu. Todėl implikuojama, kad patirtas nuostolis yra 3. Be to, grąžinimo užsakymas neapima nuolaidos, kuri buvo suteikta klientui pardavimo užsakyme. Todėl susidaro kredito perviršis.
 
-### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>2 pavyzdys: Kreditų pataisymai pasirinkta grąžinimo užsakymas
+### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>2 pavyzdys: grąžinimo užsakymui pasirinktas kredito koregavimas
 
-2 pavyzdys yra tas pats, kaip pvz 1, bet ir **kredito korekcija** pasirinktas parametras sukuria grąžinimo užsakymo SF.  
+2 pavyzdys yra tas pat 1 pavyzdys, bet parametras **Kredito koregavimas** pasirenkamas, kai sugeneruota grąžinimo užsakymo sąskaita faktūra.  
 
-[![Įsakymo grąžinti vaiką, jei pasirinktas kredito koregavimas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+[![Grąžinimo užsakymas, kai pasirinktas kredito koregavimas ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
 
-**Pastaba:** DK registravimų įrašomos kaip neigiami koregavimai.
+**Pastaba:** didžiosios knygos registravimai įvesti kaip neigiami pataisymai.
 
-### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>3 pavyzdys: Grąžinimo užsakymų linija yra sukurta naudojant funkciją rasti pardavimo užsakymas
+### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>3 pavyzdys: grąžinimo užsakymo eilutė sukurta naudojant funkciją Rasti pardavimo užsakymą
 
-Šiame pavyzdyje grąžinimo užsakymų linija yra sukurta naudojant į **rasti pardavimo užsakymo** funkcija. Ir **kredito korekcija** parametras nėra pasirinkta kuriant SF.  
+Šiame pavyzdyje grąžinimo užsakymo eilutė sukurta naudojant funkciją **Rasti pardavimo užsakymą**. Kuriant sąskaitą faktūrą, nepasirinktas parametras **Kredito koregavimas**.  
 
-[![Grąžinimo užsakymo eilutės, kurios yra sukurtos naudojant rasti pardavimo užsakymo](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+[![Grąžinimo užsakymo eilutė, kuri sukurta naudojant funkciją Rasti pardavimo užsakymą](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
 
-**Pastaba:****nuolaida** ir **grąžinimo savikaina** yra teisingi. Todėl tiksli pardavimo SF panaikinimas įvyksta.
+**Pastaba:** **Nuolaida** ir **Grąžinimo savikaina** nustatytos tinkamai. Todėl įvyksta kliento sąskaitos faktūros tikslus atšaukimas.
+
+
 
 

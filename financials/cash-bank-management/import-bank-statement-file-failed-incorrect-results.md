@@ -1,6 +1,6 @@
 ---
-title: "Banko pareiškimas failo importavimo trikčių šalinimas"
-description: "Svarbu, kad banko ataskaitos failą iš banko atitinka tą, kuris palaiko Microsoft Dynamics 365 operacijoms. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas."
+title: "Banko išrašo failo importavimo trikčių šalinimas"
+description: "Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Operations“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>Banko pareiškimas failo importavimo trikčių šalinimas
+# <a name="bank-statement-file-import-troubleshooting"></a>Banko išrašo failo importavimo trikčių šalinimas
 
-Svarbu, kad banko ataskaitos failą iš banko atitinka tą, kuris palaiko Microsoft Dynamics 365 operacijoms. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.
+[!include[banner](../includes/banner.md)]
+
+
+Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Operations“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.
 
 <a name="what-is-the-error"></a>Kokia klaida?
 ------------------
@@ -34,16 +37,16 @@ Svarbu, kad banko ataskaitos failą iš banko atitinka tą, kuris palaiko Micros
 Pabandę importuoti banko išrašo failą, atidarykite užduoties Duomenų valdymas retrospektyvą ir jos vykdymo informaciją, kad rastumėte klaidą. Klaida gali suteikti pagalbos, nurodydama išrašą, balansą arba išrašo eilutę. Tačiau nėra tikėtina, kad ji suteiks pakankamai informacijos, padėsiančios jums nustatyti lauką arba elementą, dėl kurio kyla problema.
 
 ## <a name="what-are-the-differences"></a>Kokie skirtumai?
-Palyginti banko failą maketo apibrėžime Microsoft Dynamics 365 operacijoms importo apibrėžimo, ir pažymėti laukai ir elementai skirtumų. Palyginkite bankų ataskaitos failą susijusių imtį Dynamics 365 operacijų failo. ISO20022 failus, visi skirtumai turėtų būti lengva pamatyti.
+Palyginkite banko failo maketo aprašą su „Microsoft Dynamics 365 for Operations“ importo aprašu ir pasižymėkite bet kokius laukų ir elementų skirtumus. Palyginkite banko išrašo failą su susijusiu „Dynamics 365 for Operations“ failo pavyzdžiu. ISO20022 failuose skirtumus pastebėti turėtų būti lengva.
 
 ## <a name="transformations"></a>Transformacijos
 Paprastai keitimą reikia atlikti vienoje iš trijų transformacijų. Kiekviena transformacija parašyta konkrečiam standartui.
 
 | Išteklių pavadinimas                                         | Failo vardas                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_į\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_į\_susitaikymo\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_į\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Transformacijų derinimas
 ### <a name="adjust-the-bai2-and-mt940-files"></a>BAI2 ir MT940 failų koregavimas
@@ -68,7 +71,7 @@ Daugiau informacijos žr. <https://msdn.microsoft.com/en-us/library/ms255605.asp
 5.  Nustatykite įvestį į banko išrašo failo vietą.
 6.  Nurodykite išvesties vietą ir failo vardą.
 7.  Nustatykite reikiamus ribinius taškus.
-8.  Meniu, spustelėkite **XML**&gt;**pradėti XSLT derinimo**.
+8.  Meniu spustelėkite **XML** &gt; **Pradėti derinti XSLT**.
 
 ### <a name="format-the-xslt-output"></a>XSTL išvesties formatavimas
 
@@ -76,7 +79,7 @@ Kai transformacija paleidžiama, ji sukuria išvesties failą, kurį galima per�
 
 ### <a name="adjust-the-transformation"></a>Transformacijos koregavimas
 
-Koreguokite transformaciją, norėdami banko išrašo faile gauti atitinkamą lauką arba elementą. Tada susieti laukas arba elementas reikia Dynamics 365 operacijos elementas.
+Koreguokite transformaciją, norėdami banko išrašo faile gauti atitinkamą lauką arba elementą. Tada susiekite tą lauką arba elementą su atitinkamu „Dynamics 365 for Operations“ elementu.
 
 ### <a name="debitcredit-indicator"></a>Debeto / kredito indikatorius
 
@@ -87,7 +90,7 @@ Kartais debetai gali būti importuoti kaip kreditai, o kreditai gali importuoti 
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator šablonas
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banko išrašų formatų ir techninių maketų pavyzdžiai
-Tolesnėje lentelėje pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai. Pavyzdyje pateikiami failai ir techniniai maketų čia galite atsisiųsti: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Tolesnėje lentelėje pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai. Failų ir techninių maketų pavyzdžius galite atsisiųsti čia: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Techninio maketo aprašas                             | Banko išrašo failo pavyzdys          |
@@ -95,6 +98,8 @@ Tolesnėje lentelėje pateikiami išplėstinio banko derinimo importavimo failo 
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

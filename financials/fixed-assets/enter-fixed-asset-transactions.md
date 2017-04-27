@@ -1,5 +1,5 @@
 ---
-title: "Ilgalaikio turto operacijų pasirinktys"
+title: "Ilgalaikio turto operacijų parinktys"
 description: "Šiame straipsnyje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų pasirinktys
+# <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
 
@@ -36,7 +39,7 @@ Galite nustatyti, kad ilgalaikis turtas būtų integruotas su mokėtinomis sumom
 Ilgalaikio turto operacijas Galite įvesti puslapyje Žurnalo kvitas. Šį puslapį galima atidaryti iš puslapio SF žurnalas. Žurnalo kvito puslapį taip pat galite atidaryti iš SF patvirtinimo žurnalo puslapio. Korespondentinės sąskaitos tipo lauke pasirinkite Ilgalaikis turtas. Tada lauke Korespondentinė sąskaita pasirinkite ilgalaikio turto numerį. Skirtuke Ilgalaikis turtas įveskite reikšmes laukuose Operacijos tipas ir Knygos.
 
 ## <a name="accounts-receivable"></a>Gautinos sumos
-Ilgalaikio turto operacijas galite įvesti laisvos formos teksto SF puslapyje.  Puslapio laisvos formos sąskaitos SF eilučių tinklelį, pasirinkite Eilutinis elementas. Spustelėkite „FastTab‟ Eilutės informacija. Įveskite ilgalaikio turto numerį ir likvidavimo operacijos knygą. Laisvos formos sąskaitų faktūrų ilgalaikio turto operacijos tipas visuomet yra Likvidavimas – pardavimas.
+Ilgalaikio turto operacijas galite įvesti puslapyje Laisvos formos SF.  Puslapyje Laisvos formos SF, SF eilučių tinklelyje pasirinkite eilutės prekę. Spustelėkite „FastTab‟ Eilutės informacija. Įveskite ilgalaikio turto numerį ir likvidavimo operacijos knygą. Laisvos formos sąskaitų faktūrų ilgalaikio turto operacijos tipas visuomet yra Likvidavimas – pardavimas.
 
 ## <a name="procurement-and-sourcing"></a>Paraiškos
 Ilgalaikio turto operacijas Galite įvesti puslapyje Pirkimo užsakymas. Norėdami sukurti pirkimo užsakymą, įveskite reikalingą informaciją ir spustelėkite Gerai. Pirkimo užsakymo puslapyje spustelėkite „FastTab‟ Eilutės informacija. Tada skirtuke Ilgalaikis turtas įveskite informaciją apie ilgalaikį turtą. 
@@ -65,6 +68,8 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 
 
 
-Daugiau informacijos rasite [nustatytas turto integracijos](fixed-asset-integration.md).
+Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
+
+
 
 

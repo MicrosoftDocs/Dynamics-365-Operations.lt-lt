@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Sulaikymo užsakymai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma, kaip, naudojant sulaikymo užsakymus, galima blokuoti atsargas. 
 
-Naudojant sulaikymo užsakymus galima blokuoti atsargas. Pavyzdžiui, galbūt norėsite sulaikytų prekių kokybės kontrolės sumetimais. Atsargų, kad sulaikytas perkeliamas į sulaikymo sandėlį. **Pastaba.** Jei naudojate patobulinto sandėlio valdymo procesus (modulyje Sandėlio valdymas), sulaikymo užsakymų apdorojimo funkcija naudojama tik su grąžinimo pardavimo užsakymais.
+Naudojant sulaikymo užsakymus galima blokuoti atsargas. Pavyzdžiui, galbūt sulaikyti prekes norėsite kokybės kontrolės tikslais. Sulaikytos atsargos perkeliamos į sulaikymo sandėlį. **Pastaba.** Jei naudojate patobulinto sandėlio valdymo procesus (modulyje Sandėlio valdymas), sulaikymo užsakymų apdorojimo funkcija naudojama tik su grąžinimo pardavimo užsakymais.
 
-## <a name="quarantine-onhand-inventory-items"></a>Karantino turimų atsargų inventorių
+## <a name="quarantine-onhand-inventory-items"></a>Turimų atsargų prekių sulaikymas
 Kai sulaikote prekes, galite sulaikymo užsakymus kurti patys arba nustatyti sistemą, kad ji automatiškai kurtų sulaikymo užsakymus vykdant gavimo apdorojimą. Norėdami sulaikymo užsakymus kurti automatiškai, puslapio **Prekių modelių grupės** skirtuke **Atsargų strategijos** pasirinkite parinktį **Sulaikymo valdymas**. Taip pat gavimo sandėlių lauke **Sulaikymo sandėlis** reikia nurodyti numatytąjį sulaikymo sandėlį. Kai faktiškai turimos atsargos įrašomos pirkimo užsakyme arba gamybos užsakyme, programoje „Microsoft Dynamics 365 for Operations‟ sulaikytos prekės automatiškai perkeliamos į sulaikymo sandėlį. Perkeliama, nes sulaikymo užsakymo būsena pakeičiama į **Pradėtas**. Kai patys kuriate sulaikymo užsakymus, nėra būtina nustatyti dabartinės prekės sulaikymo valdymo susietoje prekių modelių grupėje. Norėdami vykdyti šį procesą, turite nurodyti sulaikytinas turimas atsargas ir naudotiną sulaikymo sandėlį. Planuoti šį procesą jums padės sulaikymo užsakymų būsenos.
 
 ## <a name="quarantine-order-statuses"></a>Sulaikymo užsakymų būsenos
@@ -64,6 +67,8 @@ Sulaikymo užsakymo proceso metu galite nurašyti atsargas. Apdorojant nurašym�
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Atsargų blokavimas](inventory-blocking.md)
+
+
 
 

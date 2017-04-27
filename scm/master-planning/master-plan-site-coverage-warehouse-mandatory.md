@@ -1,5 +1,5 @@
 ---
-title: "Bendrojo planavimo svetainė aprėptį, privalomas sandėlys"
+title: "Bendrasis planavimas – teritorijos padengimo poreikis, privalomas sandėlis"
 description: "Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija yra padengimo dimensija. Sandėlis yra privaloma dimensija."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Bendrojo planavimo svetainė aprėptį, privalomas sandėlys
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Bendrasis planavimas – teritorijos padengimo poreikis, privalomas sandėlis
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija yra padengimo dimensija. Sandėlis yra privaloma dimensija.
 
@@ -39,9 +42,9 @@ ms.lasthandoff: 03/31/2017
 -   Sandėlio dimensija nėra nustatyta padengimo planavimui. Todėl tiekimas ir poreikis sujungiami pagal teritoriją ir galbūt kitas suplanuotas padengimo dimensijas.
 
 Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavimas. Parametrai, rodomi grafikos duomenyse, ir jų vietos yra tokios:
--   Prekės padengimas yra apibrėžiamas prekei. Spustelėkite **produkto informacijos valdymo &gt;gaminiai&gt; išleisti produktai**. Pasirinkite elementą, o tada spustelėkite **planas &gt;prekės padengimas**.
--   Papildymo ryšiai apibrėžiami sandėliui. Spustelėkite **atsargų valdymo &gt;nustatymo &gt;atsargų paskirstymas &gt;sandėlių**. **Bendrojo planavimo** skirtuke žr. laukų grupę **Pagrindinis sandėlis**.
--   Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“. Spustelėkite **produkto informacijos valdymo &gt;gaminiai&gt; išleisti produktai**. Pasirinkite elementą, o tada spustelėkite **planas &gt;numatytieji parametrai tvarka**. Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.
+-   Prekės padengimas yra apibrėžiamas prekei. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite prekę ir tada spustelėkite **Planuoti &gt; Prekių padengimas**.
+-   Papildymo ryšiai apibrėžiami sandėliui. Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**. **Bendrojo planavimo** skirtuke žr. laukų grupę **Pagrindinis sandėlis**.
+-   Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite prekę ir tada spustelėkite **Planuoti &gt; Numatytosios užsakymo nuostatos**. Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.
 
 ![Teritorijos padengimo poreikis, sandėlis privalomas](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
@@ -50,14 +53,16 @@ Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavim
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
 
 [Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Kapitonas planavimo - svetainės aprėptis. sandėlio privalomas](master-plan-site-coverage-warehouse-mandatory.md)
+[Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis privalomas](master-plan-site-coverage-warehouse-mandatory.md)
 
 [Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Bendrasis planavimas – kaip nustatoma KS versija](master-plan-bom-version-determined.md)
+
+
 
 

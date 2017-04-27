@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Apskaitos arba ataskaitų valiutos konvertavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Norėdama pakeisti apskaitos arba ataskaitų valiutą, įmonė turi du pasirinkimus. Pirmuoju būdu galima kurti naują įmonę ir pradėti naują veiklą. Antruoju būdu galima vykdyti apskaitos ir ataskaitų valiutos konvertavimo procesą. Tai labai ilgai trunkantis procesas, kurio metu pakeičiamos visos sistemos operacijos. Prieš vykdant procesą taip pat reikia atlikti kelis sąrankos veiksmus.
@@ -72,6 +75,8 @@ Po valiutos konvertavimo turi būti iš naujo sugeneruotos visos suderinimo atas
 -   Jei konvertavus DK apskaitos valiutą atsirado apvalinimo skirtumų, jie nėra registruojami naudojant kvitą, kuriame atsirado apvalinimo skirtumas. Skirtumai užregistruojami naudojant nurodytą konvertavimo registravimo kvitą. Po konvertavimo visose ataskaitose, kurios tikrinamos pagal kvitą ir datą, bus įtraukti šie apvalinimo skirtumai. Tai yra teisinga ir to galima nepaisyti.
 -   Jei kliento ir tiekėjo suderinimo ataskaitose skirtumo suma rodoma kaip bendra eilučių suma, o prieš konvertavimą skirtumo sumos nebuvo, šią skirtumo sumą reikia registruoti. Sąskaita yra klientų ir tiekėjų suminė sąskaita. Korespondentinė sąskaita yra konvertavimo nuostolio arba konvertavimo pelno DK sąskaita.
 
-Kai visi DK operacijų žurnalai panaikinti, DK operacijas galima įtraukti į žurnalą. Spustelėkite **bendrosios knygos**&gt;**periodinės**&gt;**žurnalus**&gt;**žurnalą**. Užsienio valiutos sumas galima perkainoti atlikus valiutos konvertavimą, jei perkainojimas būtinas. Užsienio valiutos sumas galima perkainoti, perkainojimo lauke **Metodas** pasirinkus **Standartinis**.
+Kai visi DK operacijų žurnalai panaikinti, DK operacijas galima įtraukti į žurnalą. Spustelėkite **DK** &gt; **Laikotarpio** &gt; **Žurnalai** &gt; **Įtraukimas į žurnalą**. Užsienio valiutos sumas galima perkainoti atlikus valiutos konvertavimą, jei perkainojimas būtinas. Užsienio valiutos sumas galima perkainoti, perkainojimo lauke **Metodas** pasirinkus **Standartinis**.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Sąnaudų apskaitos analizės Power BI turinys"
-description: "Šioje temoje aprašoma, kas įeina į Power BI turinį sąnaudų apskaitos analizės. Jis paaiškina, kaip jas pasiekti Power BI ir pateikia informaciją apie duomenų modelio ir subjektai, kurie buvo naudojami sukurti turinį."
+title: "Kaštų apskaitos analizės „Power BI“ turinys"
+description: "Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -24,90 +24,90 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>Sąnaudų apskaitos analizės Power BI turinys
+# <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
 
-Šioje temoje aprašoma, kas įeina į Power BI turinį sąnaudų apskaitos analizės. Jis paaiškina, kaip jas pasiekti Power BI ir pateikia informaciją apie duomenų modelio ir subjektai, kurie buvo naudojami sukurti turinį.
+Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Pagal **išlaidų apskaitos analizė** Microsoft Power BI turinys skirtas išlaidas duomenų valdytojas ar bet kam, kas yra atsakingas už išlaidų kontrolės organizacijos. Ji apima pagrindinius rodiklius, pvz., išlaidas, masto ir išlaidų tarifas pagal faktines išlaidas, biudžeto išlaidų ir kintamo biudžeto išlaidų. Jis naudoja sandorio duomenis iš sąnaudų apskaitos Microsoft Dynamics 365 operacijų ir bendras vaizdas į išlaidas numatyta visai organizacijai vieną ataskaitų valiuta. Valdytojai duomenis galite filtruoti pagal išlaidų objektų atlikti išlaidų kontrolę, jų organizacinius vienetus, net jei organizacija gali turėti keletą juridinių asmenų. Nes į **sąnaudų apskaitos analizės** Power BI turinio pabrėžia skirtumus tarp faktinės išlaidos ir biudžete numatytoms išlaidoms, vadovai gali būti pranešta apie teigiamas ir neigiamas tendencijas, jų veiklos vienetų. Vadovai gali naudoti detalizavimą sąnaudų elementų hierarchijos ar atskirų išlaidų elementų išsamios perprasti kaip sąnaudų skirtumus įvyko, o tada imtis efektyvių veiksmų. Pagal **išlaidų apskaitos analizė** Power BI turinio kaina buhalterių Panagrinėkime kaip išlaidų teka visos organizacijos išlaidų objektus. Norėdami sužinoti daugiau apie kaštų apskaitos, pamatyti [sąnaudų apskaitos pagrindiniame puslapyje](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Prieigos lygį saugumo kaštų apskaitos ir derinant ją su eilutės lygio saugumo, Power BI, galite suteikti visų išlaidų objekto savininkų prieigą prie to **sąnaudų apskaitos analizės** Power BI turinį. Visi duomenys, esantys vizualizacijos bus tada filtruojamas pagal prieigos lygį, kuris valdo kaštų apskaitos. Norėdami sužinoti daugiau apie prieigos lygio sauga ir eilutės lygio saugumo, pamatyti [saugumo kaštų apskaitos kiekio nustatymas Power BI](setup-security-cost-accounting-content-pack.md).
+**Kaštų apskaitos analizės** „Microsoft Power BI“ turinys skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš „Microsoft Dynamics 365 for Operations“ išlaidų apskaitos ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus. Kadangi **išlaidų apskaitos analizės** „Power BI“turinys išskiria nuokrypius tarp faktinių išlaidų ir biudžeto išlaidų, vadovus galima įspėti apie teigiamas ir neigiamas jų valdomų vienetų tendencijas. Vadovai gali detalizuoti išlaidų elementų hierarchijas arba atskirus išlaidų elementus, kad gautų išsamių įžvalgų apie tai, kaip įvyko išlaidų nuokrypiai, ir tada imtis reikiamų veiksmų. **Kaštų apskaitos analizė** „Power BI“ turinys buhalteriams suteikia galimybę analizuoti išlaidų srautus per visos organizacijos išlaidų objektus. Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Naudotis prieigos prie turinio Power BI
-Galite rasti ir **sąnaudų apskaitos analizės** Power BI turinio bendro naudojimo turto bibliotekoje Microsoft Dynamics gyvavimo ciklo paslaugų (LKD). Daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie savo dinamika 365 operacijų duomenis, matyti, [LKD iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md). **Pastaba:** KB4011327 ** ** yra būtina sąlyga tam, kad **sąnaudų apskaitos analizės** Power BI turinį.  Po to, kai prisijungiate prie paslaugų gyvavimo ciklą, galite pasiekti KB čia: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie „Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). **Pastaba.** KB4011327 yra **išlaidų apskaitos analizės** „Power BI“ turinio būtinoji sąlyga.  Prisijungę prie „Lifecycle Services“ galite pasiekti KB čia: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Rodikliai, kurie yra įtraukti į Power BI turinys
-Turinys apima ataskaitų puslapių rinkinį. Kiekviename puslapyje sudaro metriką, kuri yra ryškinamos diagramas, plytelės ir lentelių rinkinys. Šioje lentelėje apžvelgiami vizualizacijas, kad **sąnaudų apskaitos analizės** Power BI turinį.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
+Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų apskaitos analizės** „Power BI“ turinio vizualizacijų apžvalga.
 
-| Ataskaitų puslapio                      | Diagrama                                                                                                                         | Išklotinė                                          |
+| Ataskaitų puslapis                      | Diagrama                                                                                                                         | Išklotinė                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Ry¹iù kainos tikrinimas pagal ataskaitinio laikotarpio    | Faktinių ir biudžeto išlaidas pagal išlaidų elementų hierarchijos lygį                                                                   | Faktinė kaina vs biudžeto išlaidų                    |
-|                                  | Biudžeto dispersija iš sąnaudų elementų hierarchijos lygį                                                                               | Faktinių išlaidų tarifas prieš biudžeto išlaidų normos          |
-|                                  | 10 geriausių nebrangių dispersija, procentinė dalis sąnaudų elementas                                                                          | Faktinį dydį prieš biudžeto dydį          |
-| Ry¹iù kainos tikrinimas iš metai iki datos     | Faktinių ir biudžeto išlaidų pagal kalendorinių metų laikotarpį                                                                           | Faktinė kaina vs biudžeto išlaidų                    |
-|                                  | Biudžeto dispersiją pagal kalendorinių metų laikotarpį                                                                                       | Faktinių išlaidų tarifas prieš biudžeto išlaidų normos          |
-|                                  | 10 geriausių nebrangių dispersija, procentinė dalis sąnaudų elementas                                                                          | Faktinį dydį prieš biudžeto dydį          |
-| Išlaidų tarifas pagal finansinius metus         | Faktinių išlaidų tarifas iš išlaidų elgesys                                                                                             | Faktinių išlaidų tarifas prieš biudžeto išlaidų normos          |
-|                                  | Faktinių išlaidų tarifas, biudžeto išlaidų dydžio dispersija, biudžeto išlaidų procento ir biudžeto išlaidų tarifas iš sąnaudų elementų hierarchijos lygį | Faktinį dydį prieš biudžeto dydį          |
-|                                  | Biudžeto dispersija iš sąnaudų elementų hierarchijos lygį                                                                               |                                               |
-|                                  | 10 geriausių nebrangių dispersija, procentinė dalis sąnaudų elementas                                                                          |                                               |
-| Lankstus biudžetas pagal ataskaitinio laikotarpio | Faktinių išlaidų, biudžeto išlaidų ir kintamo biudžeto išlaidų iš sąnaudų elementų hierarchijos lygį                                             | Faktinį dydį prieš biudžeto dydį          |
-|                                  | Biudžeto dispersija ir kintamo biudžeto dispersija iš sąnaudų elementų hierarchijos lygį                                                  | Faktines išlaidas palyginti kintamo biudžeto išlaidų           |
-|                                  | Faktinių išlaidų, biudžeto išlaidų ir lankstus išlaidų kainavo elgesį ir sąnaudų elementų hierarchijos lygį                                  | Faktinių išlaidų tarifas palyginti kintamo biudžeto išlaidų tarifas |
-| Ataskaitinio laikotarpio sąnaudomis pareiškimas  | Faktinių išlaidų elementų hierarchijos lygį ir išlaidų objekto matmuo nario vardą                                             |                                               |
-|                                  | Faktinių išlaidų objekto matmuo nario vardą ir sąnaudų elementas dimensijos valstybės pavadinimas                                       |                                               |
+| Išlaidų kontrolė pagal finansinį laikotarpį    | Faktinės išlaidos ir biudžeto išlaidos pagal išlaidų elemento hierarchijos lygį                                                                   | Faktinės išlaidos ir biudžeto išlaidos                    |
+|                                  | Biudžeto nuokrypis pagal išlaidų elemento hierarchijos lygį                                                                               | Faktinių išlaidų koeficientas ir biudžeto išlaidų koeficientas          |
+|                                  | 10 geriausių biudžeto nuokrypių procentais pagal išlaidų elementą                                                                          | Faktinė reikšmė ir biudžeto reikšmė          |
+| Išlaidų kontrolė pagal metus iki šios dienos     | Faktinės išlaidos ir biudžeto išlaidos pagal kalendorinių metų laikotarpį                                                                           | Faktinės išlaidos ir biudžeto išlaidos                    |
+|                                  | Biudžeto nuokrypis pagal kalendorinių metų laikotarpį                                                                                       | Faktinių išlaidų koeficientas ir biudžeto išlaidų koeficientas          |
+|                                  | 10 geriausių biudžeto nuokrypių procentais pagal išlaidų elementą                                                                          | Faktinė reikšmė ir biudžeto reikšmė          |
+| Išlaidų koeficientas pagal finansinius metus         | Faktinių išlaidų koeficientas pagal išlaidų veikimo būdą                                                                                             | Faktinių išlaidų koeficientas ir biudžeto išlaidų koeficientas          |
+|                                  | Faktinių išlaidų koeficientas, biudžeto išlaidų koeficiento nuokrypis, biudžeto išlaidų koeficiento procentas ir biudžeto išlaidų koeficientas pagal išlaidų elemento hierarchijos lygį | Faktinė reikšmė ir biudžeto reikšmė          |
+|                                  | Biudžeto nuokrypis pagal išlaidų elemento hierarchijos lygį                                                                               |                                               |
+|                                  | 10 geriausių biudžeto nuokrypių procentais pagal išlaidų elementą                                                                          |                                               |
+| Kintantis biudžetas pagal finansinį laikotarpį | Faktinės išlaidos, biudžeto išlaidos ir kintamo biudžeto išlaidos pagal išlaidų elemento hierarchijos lygį                                             | Faktinė reikšmė ir biudžeto reikšmė          |
+|                                  | Biudžeto nuokrypis ir kintamo biudžeto nuokrypis pagal išlaidų elemento hierarchijos lygį                                                  | Faktinės išlaidos ir kintamo biudžeto išlaidos           |
+|                                  | Faktinės išlaidos, biudžeto išlaidos ir kintamos išlaidos pagal išlaidų veikimo būdą ir išlaidų elemento hierarchijos lygį                                  | Faktinių išlaidų koeficientas ir kintamo biudžeto išlaidų koeficientas |
+| Išlaidų išrašas pagal finansinį laikotarpį  | Faktinės išlaidos pagal išlaidų elemento hierarchijos lygį ir išlaidų objekto dimensijos nario pavadinimą                                             |                                               |
+|                                  | Faktinės išlaidos pagal išlaidų objekto dimensijos nario pavadinimą ir išlaidų elemento dimensijos nario pavadinimą                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Dinamika 365 operacijų duomenys yra naudojamas užpildyti ataskaitos puslapius ir **sąnaudų apskaitos analizės** Power BI turinį. Šie duomenys yra vaizduojamas kaip bendra matavimų, kurie yra pastatytas įmonės parduotuvėje, kuri yra "Microsoft" SQL duomenų bazę, kuri yra optimizuota Google analytics. Daugiau informacijos rasite [apžvalga, Power BI integracija su įmonės parduotuvė](power-bi-integration-entity-store.md). Šie pagrindiniai bendra matavimai naudojami turinio pagrindu.
+„Dynamics 365 for Operations“ duomenys naudojami **išlaidų apskaitos analizės** „Power BI“ turinio ataskaitų puslapiams užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 
-| Objektas                  | Pagrindinis bendras matavimo | Duomenų šaltinis Dynamics 365 operacijoms | Laukas     | aprašymas                                   |
+| Objektas                  | Pagrindiniai sujungti matavimo vienetai | „Dynamics 365 for Operations“ duomenų šaltinis | Laukas     | aprašymas                                   |
 |-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Kaštų apskaitos įrašai | SUM(amount)               | CAMDATAAggregatedCostEntry                  | Suma    | Kaštų apskaitos knygos valiutos suma |
-| Statistiniai įrašai     | SUM(magnitude)            | CAMDATAAggregatedStatisctialEntry           | Reikšmė |                                               |
+| Išlaidų apskaitos įrašai | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Suma    | Suma išlaidų apskaitos DK valiuta |
+| Statistiniai įrašai     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Reikšmė |                                               |
 
-Ši lentelė parodo, kaip pagrindinis bendras matavimai naudojami sukurti keletą apskaičiuotus matavimus ir turinio duomenų rinkinyje.
+Šioje lentelėje parodyta, kaip pagrindiniai sujungti matavimo vienetai naudojami kuriant kelis skaičiuojamus matus turinio duomenų rinkinyje.
 
-| Mato vnt.                                       | Kaip apskaičiuojamas priemonė                                                                                          |
+| Mato vnt.                                       | Kaip matas apskaičiuojamas                                                                                          |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Faktinės išlaidos                                   | SKAIČIUOTI ("sąnaudų apskaitos įrašai"\[priemonės\], "Operacija versijos"\[ISSOURCEVERSIONBUDGET\_vertė\] = 0)            |
-| Biudžeto išlaidos                                   | SKAIČIUOTI ("sąnaudų apskaitos įrašai"\[priemonės\], "Operacija versijos"\[ISSOURCEVERSIONBUDGET\_vertė\] = 1)            |
-| Biudžeto išlaidų nukrypimas                          | \[Biudžeto išlaidos\] - \[faktinės išlaidos\]                                                                                      |
-| Biudžeto nukrypimo procentas                    | Jei (\[biudžeto išlaidų\] = 0, blank(), \[biudžeto dispersijos\] / \[biudžeto išlaidų\])                                                |
-| Tikrasis dydis                              | SKAIČIUOTI ('Statistikos įrašai'\[FullMagnitude\], "Sandorio versijos"\[ISSOURCEVERSIONBUDGET\_vertė\] = 0)          |
-| Biudžeto dydį                              | SKAIČIUOTI (\[FullMagnitude\], "Operacija versijos"\[ISSOURCEVERSIONBUDGET\_vertė\] = 1)                               |
-| Statistikos biudžeto dispersija                   | \[Biudžeto dydis\] - \[tikrasis dydis\]                                                                            |
-| Statistikos biudžeto nukrypimo procentas        | Jei (\[biudžeto dydį\] = 0, blank(), \[statistikos biudžeto dispersijos\] / \[biudžeto dydį\])                          |
-| Faktinių išlaidų tarifas                              | Jei (\[tikrasis dydis\] = 0, BLANK(), \[faktinės sąnaudos\] / \[tikrasis dydis\])                                          |
-| Biudžeto išlaidų tarifas                              | Jei (\[biudžeto dydį\] = 0, BLANK(), \[biudžeto išlaidos\] / \[biudžeto dydį\])                                          |
-| Biudžeto išlaidų normos dispersija                     | \[Biudžeto išlaidų normos\] - \[tikrasis išlaidų tarifas\]                                                                            |
-| Biudžeto išlaidų normos nukrypimo procentas          | Jei (\[biudžeto išlaidų\] = 0, blank(), \[biudžeto išlaidų dydžio dispersijos\] / \[biudžeto išlaidų tarifas\])                                 |
-| Ilgalaikio biudžeto išlaidų                             | SKAIČIUOTI (\[biudžeto išlaidų\], 'Sąnaudų apskaitos įrašai'\[COSTBEHAVIOR\] = 1)                                              |
-| Kintamo biudžeto išlaidų                          | SKAIČIUOTI (\[biudžeto išlaidų\], 'Sąnaudų apskaitos įrašai'\[COSTBEHAVIOR\] = 2)                                              |
-| Fiksuotas kintamo biudžeto išlaidų                    | \[Ilgalaikio biudžeto išlaidų\]                                                                                                  |
-| Kintamojo kintamo biudžeto išlaidų                 | Jei (\[biudžeto dydį\] = 0, BLANK(), (\[kintamo biudžeto išlaidos\] / \[biudžeto dydį\]) \*\[tikrasis dydis\])       |
-| Kintamo biudžeto išlaidų                          | \[Nustatytas kintamo biudžeto išlaidos\] + \[kintamojo kintamo biudžeto išlaidų\]                                                     |
-| Lankstus biudžetas dispersija                      | \[Kintamo biudžeto išlaidos\] - \[faktinės išlaidos\]                                                                             |
-| Lankstus biudžetas nukrypimo procentas           | Jei (\[kintamo biudžeto išlaidų\] = 0, BLANK(), \[kintamame biudžete dispersijos\] / \[kintamo biudžeto išlaidų\])                     |
-| Kintamo biudžeto išlaidų normos                     | Jei (\[tikrasis dydis\] = 0, BLANK(), \[kintamo biudžeto išlaidos\] / \[tikrasis dydis\])                                 |
-| Kintamo biudžeto išlaidų dydžio dispersija            | \[Kintamo biudžeto išlaidų tarifas\] - \[tikrasis išlaidų tarifas\]                                                                   |
-| Kintamo biudžeto išlaidų norma nukrypimo procentas | Jei (\[kintamo biudžeto išlaidų tarifas\] = 0, BLANK(), \[kintamo biudžeto išlaidų dydžio dispersijos\] / \[kintamo biudžeto išlaidų tarifas\]) |
+| Faktinės išlaidos                                   | CALCULATE('Išlaidų apskaitos įrašai'\[Matas\], 'Operacijos versijos'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)            |
+| Biudžeto išlaidos                                   | CALCULATE('Išlaidų apskaitos įrašai'\[Matas\], 'Operacijos versijos'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)            |
+| Biudžeto išlaidų nuokrypis                          | \[Biudžeto išlaidos\] - \[Faktinės išlaidos\]                                                                                      |
+| Biudžeto nuokrypio procentas                    | IF(\[Biudžeto išlaidos\] = 0, tuščia(), \[Biudžeto nuokrypis\] / \[Biudžeto išlaidos\])                                                |
+| Faktinė reikšmė                              | CALCULATE('Statistiniai įrašai'\[FullMagnitude\], 'Operacijos versijos'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)          |
+| Biudžeto reikšmė                              | CALCULATE(\[FullMagnitude\], 'Operacijos versijos'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)                               |
+| Statistinis biudžeto nuokrypis                   | \[Biudžeto reikšmė\] - \[Faktinė reikšmė\]                                                                            |
+| Statistinio biudžeto nuokrypio procentas        | IF(\[Biudžeto reikšmė\] = 0, tuščia(), \[Statistinis biudžeto nuokrypis\] / \[Biudžeto reikšmė\])                          |
+| Faktinių išlaidų tarifas                              | IF(\[Faktinė reikšmė\] = 0, NENURODYTA(), \[Faktinės išlaidos\] / \[Faktinė reikšmė\])                                          |
+| Biudžeto išlaidų tarifas                              | IF(\[Biudžeto reikšmė\] = 0, NENURODYTA(), \[Biudžeto išlaidos\] / \[Biudžeto reikšmė\])                                          |
+| Biudžeto išlaidų koeficiento nuokrypis                     | \[Biudžeto išlaidų koeficientas\] - \[Faktinių išlaidų koeficientas\]                                                                            |
+| Biudžeto išlaidų koeficiento nuokrypio procentas          | IF(\[Biudžeto išlaidos\] = 0, tuščia(), \[Biudžeto išlaidų koeficiento nuokrypis\] / \[Biudžeto išlaidų koeficientas\])                                 |
+| Fiksuotos biudžeto išlaidos                             | CALCULATE(\[Biudžeto išlaidos\], 'Išlaidų apskaitos įrašai'\[COSTBEHAVIOR\] = 1)                                              |
+| Nuokrypio biudžeto išlaidos                          | CALCULATE(\[Biudžeto išlaidos\], 'Išlaidų apskaitos įrašai'\[COSTBEHAVIOR\] = 2)                                              |
+| Fiksuotos kintamos biudžeto išlaidos                    | \[Fiksuotos biudžeto išlaidos\]                                                                                                  |
+| Nuokrypio kintamos biudžeto išlaidos                 | IF\[Biudžeto reikšmė\] = 0, NENURODYTA(), \[Nuokrypio biudžeto išlaidos\] / \[Biudžeto reikšmė\] \* \[Faktinė reikšmė\])       |
+| Kintamos biudžeto išlaidos                          | \[Fiksuotos kintamos biudžeto išlaidos\] + \[Nuokrypio kintamos biudžeto išlaidos\]                                                     |
+| Fiksuotas biudžeto nuokrypis                      | \[Faktinės biudžeto išlaidos\] - \[Faktinės išlaidos\]                                                                             |
+| Kintamo biudžeto nuokrypio procentas           | IF(\[Kintamos biudžeto išlaidos\] = 0, TUŠČIA(), \[Kintamas biudžeto nuokrypis\] / \[Kintamos biudžeto išlaidos\])                     |
+| Kintamų biudžeto išlaidų koeficientas                     | IF(\[Faktinė reikšmė\] = 0, NENURODYTA(), \[Kintamos biudžeto išlaidos\] / \[Faktinė reikšmė\])                                 |
+| Kintamų biudžeto išlaidų koeficiento nuokrypis            | \[Kintamų biudžeto išlaidų koeficientas\] - \[Faktinių išlaidų koeficientas\]                                                                   |
+| Kintamų biudžeto išlaidų koeficiento nuokrypio procentas | IF(\[Kintamų biudžeto išlaidų koeficientas\] = 0, TUŠČIA(), \[Kintamų biudžeto išlaidų nuokrypis\] / \[Kintamų biudžeto išlaidų koeficientas\]) |
 
-Pagrindiniai matmenys yra naudojamas kaip filtrų Supjaustykite bendra matavimų pasiekti didesnio detalumo ir suteikia gilesnių analitinių įžvalgų.
+Šios pagrindinės dimensijos naudojamos kaip filtrai sujungtiems matavimo vienetams skaidyti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
 
 | Objektas                             | Atributų pavyzdžiai                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Savikainos apskaitos didžiosios knygos            | Savikainos apskaitos didžioji knyga                                                                                               |
 | Savikainos kontrolės įtaisai                 | Savikainos kontrolės įtaiso pavadinimas                                                                                               |
-| Savikainos elemento dimensijos            | Išlaidų elementai dimensijos pavadinimas, išlaidų elementas dimensijos valstybės pavadinimas, išlaidų elementas dimensijos valstybės Aprašymas          |
-| Savikainos objekto dimensijos             | Išlaidų objektas dimensijos pavadinimas, išlaidų objekto matmuo valstybės pavadinimas, išlaidų objekto dimensijos valstybės Aprašymas              |
-| Statistinės dimensijos             | Statistikos dimensijos pavadinimas, statistinis aspektas nario vardą, statistinis aspektas valstybės Aprašymas              |
-| Išlaidų objektas dimensijų hierarchijas  | Kaina objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis    |
-| Sąnaudų elementas dimensijų hierarchijas | Sąnaudų elementas dimensijų hierarchijos pavadinimas, išlaidų elementas dimensijų hierarchijos lygis, sąnaudų elementas dimensijų hierarchijos medis |
-| Statistikos dimensijų hierarchijas  | Statistikos dimensijų hierarchijos pavadinimas, statistikos dimensijų hierarchijos lygis, statistikos dimensijų hierarchijos medis    |
+| Savikainos elemento dimensijos            | Išlaidų elementų dimensijos pavadinimas, išlaidų elemento dimensijos nario pavadinimas, išlaidų elemento dimensijos nario aprašas          |
+| Savikainos objekto dimensijos             | Išlaidų objekto dimensijos pavadinimas, išlaidų objekto dimensijos nario pavadinimas, išlaidų objekto dimensijos nario aprašas              |
+| Statistinės dimensijos             | Statistinis dimensijos pavadinimas, statistinis dimensijos nario pavadinimas, statistinis dimensijos nario aprašas              |
+| Išlaidų objekto dimensijų hierarchijos  | Išlaidų objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis    |
+| Išlaidų elemento dimensijų hierarchijos | Išlaidų elemento dimensijų hierarchijos pavadinimas, išlaidų elemento dimensijų hierarchijos lygis, išlaidų elemento dimensijų hierarchijos medis |
+| Statistinių dimensijų hierarchijos  | Statistinių dimensijų hierarchijos pavadinimas, statistinių objekto dimensijų hierarchijos lygis, statistinių dimensijų hierarchijos medis    |
 | Operacijų versijos               | Versijos pavadinimas                                                                                                         |
-| Finansiniai kalendoriai                   | Kalendorius, kalendorius Aprašymas                                                                                       |
-| Finansinių metų                       | Kalendoriniai metai                                                                                                        |
-| Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpį                                                                                                 |
+| Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
+| Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
+| Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
@@ -116,6 +116,6 @@ Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ tur
 -   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
--   [Power BI saugumo kaštų apskaitos kiekio nustatymas](setup-security-cost-accounting-content-pack.md)
+-   [„Power BI“ kaštų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md)
 
 

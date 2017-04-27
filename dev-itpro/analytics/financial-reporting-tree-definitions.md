@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio aprašai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją.
 
 Ataskaitų dizaino įrankis palaiko lanksčias ataskaitas, todėl lengva jas keisti keičiantis verslo struktūrai. Ataskaitos yra kuriamos iš įvairių komponentų, arba kūrimo blokų. Vienas iš šių kūrimo blokų yra ataskaitų medžio aprašas. Ataskaitų kūrimo aprašas padeda nustatyti organizacijos struktūrą ir hierarchiją. Kelių dimensijų hierarchijų struktūra pagrįsta finansinių duomenų dimensijų ryšiais. Jis suteikia informacijos ataskaitinių vienetų lygiu ir suvestinės lygiu visiems medžio vienetams. Ataskaitų medžio aprašus galima derinti su stulpelių aprašais ir ataskaitos aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės. Ataskaitinis vienetas naudojamas kiekviename langelyje organizacijos diagramoje. Ataskaitinis vienetas gali būti atskiras skyrius iš finansinių duomenų arba aukštesnio lygio suvestinės vienetas, kurį sudaro informacija iš kitų ataskaitinių vienetų. Ataskaitos apraše, kuriame yra ataskaitų medis, sukuriama kiekvieno ataskaitinio vieneto ir suvestinės lygio ataskaita. Visose šiose ataskaitose naudojami eilučių ir stulpelių aprašai, nustatyti ataskaitos apraše, nebent ataskaitos apraše nurodyta naudoti ataskaitos medį iš eilutės aprašo. Eilučių ir stulpelių aprašai yra svarbūs finansinių ataskaitų dizaino ir funkcijų komponentai. Ataskaitų medžiai padidina komponentų galimybes ir palaiko lanksčias ataskaitas keičiantis verslo struktūrai. Finansinės ataskaitos, kurios nėra pagrįstos ataskaitų medžiu, naudoja tik kai kurias finansinių ataskaitų galimybes. Norėdami peržiūrėti savo organizacijos duomenis įvairiais būdais, galite kartu naudoti kelis ataskaitų medžio aprašus, kurių eilutės ir stulpelio aprašai sutampa.
@@ -49,7 +52,7 @@ Ataskaitų medžio apraše yra šioje lentelėje aprašytų stulpelių.
 
 | Ataskaitų medžio stulpelis | aprašymas|
 |---|---|
-| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. Į **@ANY**reikšmę, kuri paprastai priskiriama tik tiek, kiek suvestinės, leidžia naudoti visos įmonės atskaitomybės medžio. Visi antriniai filialai turi jiems priskirtas įmonės.|
+| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. Reikšmė **@ANY**, kuri paprastai priskiriama tik suvestinės lygiui, leidžia ataskaitų medį naudoti visoms įmonėms. Visi antriniai filialai turi jiems priskirtas įmonės.|
 | Vieneto pavadinimas             | Kodas, nurodantis šį ataskaitinį vienetą grafiniame ataskaitų medyje. Būtinai sukurkite unikalią kodavimo sistemą, kuri būtų nuosekli ir lengvai suprantama vartotojams. |
 | Vieneto aprašas      | Ataskaitos aprašo skirtuke **Antraštės ir poraštės** įvedus kodą **UnitDesc**, ataskaitos antraštėje arba poraštėje bus rodomas ataskaitinio vieneto pavadinimas. Įvedus **UnitDesc** eilutės apibrėžimo langelyje **Aprašas**, pavadinimas bus rodomas ataskaitos eilutės apraše.|
 | Dimensijos            | Ataskaitinis vienetas, kurio informacija imama tiesiai iš finansinių duomenų. Jis nustato sąskaitos ir susijusių segmentų loginį išdėstymą ir ilgį. Šiame stulpelyje kiekviena ataskaitinio vieneto eilutė turi turėti dimensiją. Taip pat galite padėti dimensiją ataskaitinio vieneto eilutėje (pavyzdžiui, išlaidų, tiesiogiai susijusių su tuo vienetu). Įvedus dimensiją suvestinio vieneto eilutėje, sąskaitų, naudojamų pirminiuose vienetuose, negalima naudoti antriniuose vienetuose. Priešingu atveju sumos gali dubliuotis.|
@@ -58,15 +61,15 @@ Ataskaitų medžio apraše yra šioje lentelėje aprašytų stulpelių.
 | Išorinis saitas         | Eilutės saitas, skirtas naudoti šiam ataskaitiniam vienetui. Apibrėžiami eilutės aprašo eilutės saitai, nurodantys ataskaitą, su kuria reikia susieti.|
 | Išorinis failas         | Finansinių ataskaitų darbalapio failo kelias, iš kurio reikia nuskaityti duomenis.|
 | Puslapio parinktys          | Šis stulpelis valdo tai, ar ataskaitinio vieneto išsamią informaciją bus draudžiama peržiūrint arba spausdinant ataskaitą.|
-| Apibendrinamoji reikšmė, %              | Ataskaitinio vieneto procentinė dalis, kuri bus paskirstyta pirminiams vienetams. Procentinė dalis, kurią įvedate šiame stulpelyje, taikoma kiekvienai eilutės aprašo eilutei prieš pridedant eilutėje esančią reikšmę prie pirminės ataskaitos. Pavyzdžiui, jei antrinį vienetą reikia padalyti po lygiai dviem skyriams, kiekvienoje eilutėje esančios sumos būtų dauginamos iš 50 procentų prieš reikšmę įtraukiant į skyriaus ataskaitą. Vienas ataskaitinis vienetas negali turėti dviejų pirminių vienetų. Norėdami paskirstyti sumas iš ataskaitinio vieneto dviem pirminiams vienetams, sukurkite kitą ataskaitinį vienetą su ta pačia dimensija, kad būtų įtraukti papildomi 50 procentų. Įveskite visas procentines dalis be dešimtainio skyriklio. Pvz., **25** nurodo, kad 25 procentai paskiriami pirminiam vienetui. Jei įtrauksite dešimtainį skyriklį (**,25**), 0,25 proc. bus paskiriami pirminiam vienetui. Naudokite procentas, kuris yra mažiau nei 1 proc, naudokite su **leisti specifinių naujinimų paketas &lt;1 %** parinktį pranešimo apibrėžime. Ši parinktis yra dialogo lango **Ataskaitos parametrai** skirtuke **Papildomos parinktys**. Šis dialogo langas pasiekiamas naudojant ataskaitos aprašo skirtuko **Parametrai** mygtuką **Kita**. |
+| Apibendrinamoji reikšmė, %              | Ataskaitinio vieneto procentinė dalis, kuri bus paskirstyta pirminiams vienetams. Procentinė dalis, kurią įvedate šiame stulpelyje, taikoma kiekvienai eilutės aprašo eilutei prieš pridedant eilutėje esančią reikšmę prie pirminės ataskaitos. Pavyzdžiui, jei antrinį vienetą reikia padalyti po lygiai dviem skyriams, kiekvienoje eilutėje esančios sumos būtų dauginamos iš 50 procentų prieš reikšmę įtraukiant į skyriaus ataskaitą. Vienas ataskaitinis vienetas negali turėti dviejų pirminių vienetų. Norėdami paskirstyti sumas iš ataskaitinio vieneto dviem pirminiams vienetams, sukurkite kitą ataskaitinį vienetą su ta pačia dimensija, kad būtų įtraukti papildomi 50 procentų. Įveskite visas procentines dalis be dešimtainio skyriklio. Pvz., **25** nurodo, kad 25 procentai paskiriami pirminiam vienetui. Jei įtrauksite dešimtainį skyriklį (**,25**), 0,25 proc. bus paskiriami pirminiam vienetui. Norėdami naudoti procentinę dalį, mažesnę nei 1 procentas, ataskaitos apraše naudokite parinktį **Leisti apibendrinamąją reikšmę &lt; 1 %**. Ši parinktis yra dialogo lango **Ataskaitos parametrai** skirtuke **Papildomos parinktys**. Šis dialogo langas pasiekiamas naudojant ataskaitos aprašo skirtuko **Parametrai** mygtuką **Kita**. |
 | Vieneto sauga         | Apribojimai vartotojams ir grupėms pasiekti ataskaitinio vieneto informaciją.|
 | Papildomas tekstas       | Tekstas, įtraukiamas į ataskaitą.|
 
 Norėdami sukurti ataskaitų medžio aprašą, atlikite tokius veiksmus.
 
 1.  Atidarykite ataskaitos dizaino įrankį.
-2.  Spustelėkite **failo**&gt;**naujas**&gt;**ataskaitos medžių apibrėžimas**.
-3.  Spustelėkite **redaguoti**&gt;**įterpti apklaustiems vienetams iš matmenų**.
+2.  Spustelėkite **Failas** &gt; **Naujas** &gt; **Ataskaitų medžio aprašas**.
+3.  Spustelėkite **Redaguoti** &gt; **Įterpti ataskaitinių vienetų iš dimensijų**.
 4.  Dialogo lange **Įterpti ataskaitinių vienetų iš dimensijų** pažymėkite kiekvienos dimensijos, kurią norite įtraukti į ataskaitų medį, žymės langelį. Dialogo lange **Įterpti ataskaitinių vienetų iš dimensijų** yra toliau nurodyti skyriai.
 
     | Skyrius                          | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Norėdami sukurti ataskaitų medžio aprašą, atlikite tokius veiksmus.
 
 9.  Pakartokite 7 ir 8 veiksmus su kiekviena dimensija srityje **Segmento hierarchija ir diapazonai**.
 10. Baigę apibrėžti, kaip ataskaitiniai vienetai bus įtraukiami į naują ataskaitų medį, spustelėkite **Gerai**.
-11. Spustelėkite **failo**&gt;**įrašyti** Išsaugoti pranešimų medžio. Įveskite unikalų ataskaitų medžio pavadinimą ir aprašą ir tada spustelėkite **Gerai**.
+11. Spustelėkite **Failas** &gt; **Įrašyti**, kad įrašytumėte ataskaitų medį. Įveskite unikalų ataskaitų medžio pavadinimą ir aprašą ir tada spustelėkite **Gerai**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Atidarykite esamą ataskaitų medžio aprašą
 
@@ -121,7 +124,7 @@ Ataskaitų medžio aprašo organizacinę struktūrą galite pertvarkyti perkelda
 1.  Ataskaitų konstruktoriuje atidarykite ataskaitų medžio aprašą, kurį norite modifikuoti.
 2.  Grafiniame ataskaitų medžio aprašo rodinyje pasirinkite ataskaitinį vienetą.
 3.  Nuvilkite vienetą į naują vietą. Arba spustelėkite vienetą dešiniuoju pelės klavišu ir tada pasirinkite **Perkelti ataskaitinį vienetą į aukštesnį lygį** arba **Perkelti ataskaitinį vienetą žemesnį lygį**.
-4.  Spustelėkite **failo**&gt;**įrašyti** įrašyti savo keitimus.
+4.  Norėdami įrašyti pakeitimus, spustelėkite **Failas** &gt; **Įrašyti**.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Pridėti tekstą apie ataskaitinį vienetą
 
@@ -189,7 +192,7 @@ Toliau pateikiama ataskaitinių vienetų struktūra šiame ataskaitų medyje.
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialogo lango Įterpti ataskaitinių vienetų iš dimensijų pavyzdys
 
-Tolesnėje iliustracijoje pateikiamas dialogo lango **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdys. Šiame pavyzdyje rezultatai pateiks verslo struktūros vienetų, išlaidų centrų ir padalinių derinį. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) dėl atskaitomybės medžių apibrėžimas yra surūšiuoti iš verslo vieneto, tada iš išlaidų centras, ir tada departamentas. Penktąją ataskaitą pateikiančio vieneto dimensiją yra **verslo vieneto = \[001\], išlaidų centras =\[\], departamentas = \[022\]**, Tomi apyskaitinis vienetas už sąskaitas, kurios yra susijusios su verslo vieneto 001 ir departamento 022. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+Tolesnėje iliustracijoje pateikiamas dialogo lango **Įterpti ataskaitinių vienetų iš dimensijų** pavyzdys. Šiame pavyzdyje rezultatai pateiks verslo struktūros vienetų, išlaidų centrų ir padalinių derinį. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada – pagal išlaidų centrą, o tada – pagal padalinį. Penktojo ataskaitinio vieneto dimensija yra **Verslo struktūros vienetas = \[001\], Išlaidų centras =\[\], Padalinys = \[022\]** ir ji nurodo nustatytų 001 verslo struktūros vieneto ir 022 padalinio sąskaitų ataskaitinį vienetą. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Duomenų sumavimo pavyzdžiai
 
@@ -205,6 +208,8 @@ Tolesnėje iliustracijoje pateikiamas dialogo lango **Įterpti ataskaitinių vie
 
 # <a name="see-also"></a>Taip pat žiūrėkite
 
-[Financial reporting](financial-reporting-intro.md)
+[Finansinės ataskaitos](financial-reporting-intro.md)
+
+
 
 

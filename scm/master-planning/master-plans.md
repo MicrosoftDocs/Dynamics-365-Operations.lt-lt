@@ -1,6 +1,6 @@
 ---
 title: Bendrieji planai
-description: "Naudoti įvairius bendruosius planus įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti ir įgyvendinti įmonės politiką, pvz., politikos apie vidaus veiklos arba klientų pasitenkinimą."
+description: "Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Bendrieji planai
 
-Naudoti įvairius bendruosius planus įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti ir įgyvendinti įmonės politiką, pvz., politikos apie vidaus veiklos arba klientų pasitenkinimą. 
+[!include[banner](../includes/banner.md)]
+
+
+Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti. 
 
 Bendruosius planus galite konfigūruoti puslapyje **Bendrieji planai**.
 
@@ -50,8 +53,10 @@ Taip pat galite nustatyti, kad pradinis dinaminis planas būtų atnaujintas nauj
 
 [Padengimo parametrai](coverage-settings.md)
 
-[Atskirti, taktinio ir operacinio planavimo Bendrasis planavimas](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Taktinio ir operacinio bendrojo planavimo atskyrimas](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Bendrojo planavimo: Naudoti statinį ir dinaminį pagrindinio plano arba naudoti vieno plano?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Bendrasis planavimas: naudoti statinį ir dinaminį bendrąjį planą ar naudoti vieną planą?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

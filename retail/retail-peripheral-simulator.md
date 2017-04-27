@@ -1,6 +1,6 @@
 ---
-title: "Mažmeninės prekybos periferinių simuliatorius"
-description: "Šioje temoje aprašoma, periferinių simulator įrankis, kuris pateikiamas Microsoft Dynamics &quot;365&quot; operacijų - mažmeninės prekybos."
+title: "Mažmeninės prekybos periferinis simuliatorius"
+description: "Šioje temoje aprašomas kartu su „Microsoft Dynamics 365 for Operations“ – versija „Retail“ pateikiamas periferinio simuliatoriaus įrankis."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 266544
 ms.assetid: 16f31e70-15fc-441e-9727-e6a31c3a48f5
 ms.search.region: global
@@ -25,178 +25,183 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="retail-peripheral-simulator"></a>Mažmeninės prekybos periferinių simuliatorius
+# <a name="retail-peripheral-simulator"></a>Mažmeninės prekybos periferinis simuliatorius
 
-Šioje temoje aprašoma, periferinių simulator įrankis, kuris pateikiamas Microsoft Dynamics "365" operacijų - mažmeninės prekybos.
+[!include[banner](includes/banner.md)]
+
+
+Šioje temoje aprašomas kartu su „Microsoft Dynamics 365 for Operations“ – versija „Retail“ pateikiamas periferinio simuliatoriaus įrankis.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Microsoft Dynamics 365 operacijų - mažmeninės prekybos periferinių simuliatorius yra įrankis, kuris padeda jums sukurti, išbandyti ir šalinti periferinius įrenginius, kurie yra naudojami mažmeninės prekybos aplinkoje. Periferinė simuliatorius galite racionalizuoti mažmeninės prekybos periferinių įrenginių bandymų ir nustatyti problemas, kurias sukelia sugedęs tvarkyklės arba neteisingas nustatymas. Periferinė simuliatorius yra darbalaukio programa, kuri siūlo virtualių versijų prietaisai kad Dynamics 365 operacijoms - mažmeninės prekybos palaiko. Skirsnis, skirtas kiekvienai virtualaus įrenginio rodo sąveiką tarp įrenginio ir mažmeninė point of sale (POS). Taip pat galite naudoti jį įvesčiai, kuris galioja atliekant įvairius POS scenarijus. Periferinė simuliatorius palaiko POS ir šių virtualių įrenginių sąveika:
+„Microsoft Dynamics 365 for Operations“ – versijos „Retail“ periferinis simuliatorius yra įrankis, kuris padeda nustatyti, tikrinti mažmeninės prekybos aplinkose naudojamus periferinius įrenginius ir šalinti jų triktis. Periferinį simuliatorių galite naudoti norėdami supaprastinti mažmeninės prekybos periferinių įrenginių tikrinimą ir atskirti dėl netinkamos sąrankos arba netinkamai veikiančių įrenginių tvarkyklių atsiradusias problemas. Į periferinio simuliatoriaus sudėtį įeina darbalaukio programa, kurioje pateikiamos virtualios „Dynamics 365 for Operations“ – versijos „Retail“ palaikomų įrenginių versijos. Kiekvieno virtualaus įrenginio skyriuje rodoma įrenginio ir mažmeninės prekybos elektroninio kasos aparato (EKA) sąveika. Jį taip pat galite naudoti norėdami pateikti keliems EKA scenarijams tinkančią įvestį. Periferinis simuliatorius palaiko EKA ir toliau nurodytų virtualių įrenginių sąveiką.
 
--   **Spausdintuvas** – periferinė simuliatorius gali parodyti kvitai, kasos čekių spausdintuvas sukonfigūruotos.
--   **Linijos ekrane** – galite konfigūruoti virtualaus eilutės ekranas rodo veiklos fizinės linijos ekrane.
--   **Magnetinės juostelės skaitytuvas (MSR)** – imituoti magnetine juostele įvykių Go galite siųsti iš periferinių simuliatorius.
--   **Stalčių** – jūs galite imituoti fizinio grynųjų pinigų stalčius.
--   **2 stalčių** – nustatę antrą kasos stalčiaus periferinių simuliatorius, jūs galite imituoti scenarijų, kad įtraukti bendrą POS registrą, kuriame yra dvi aktyvios pamainomis.
--   **Skeneris** – Virtuali brūkšninių kodų skaitytuvo, kuris palaiko periferinę simuliatorius gali išduoti brūkšninio kodo nuskaitymo įvykius.
--   **Mastelio** – Virtuali skalė leidžia imituoti pasvertą elementų sąveika su EKA.
--   **Asmeninio identifikavimo numerio (PIN) pad** – jūs galite imituoti PIN pad operacijas. **Pastaba:** turi įgyvendinti paramos fizinės PIN pad per mokėjimo jungtį.
--   **Parašas surinkimo** – periferinė simuliatorius yra virtualus parašo įvedimo įrenginį, galite nustatyti greitai parašų, kurie yra reikalingi kai kurie pasiūlymai, pvz., kliento sąskaitos mokėjimai.
+-   **Spausdintuvas** – periferinis simuliatorius gali rodyti EKA spausdintuvui sukonfigūruotus gavimo kvitus.
+-   **Eilutės rodinys** – galite sukonfigūruoti, kad virtualiame eilutės rodinyje būtų rodoma faktinio eilutės rodinio veikla.
+-   **Magnetinės juostelės skaitytuvas (MSR)** – iš periferinio simuliatoriaus į EKA galite siųsti imituojamus magnetinės juostelės įvykius.
+-   **Stalčius** – galite imituoti faktinį grynųjų pinigų stalčių.
+-   **2 stalčius** – nustatydami antrą periferinio simuliatoriaus grynųjų pinigų stalčių galite imituoti scenarijus, kuriuose nurodomas vienas, bet dviejomis aktyviomis pamainomis veikiantis EKA registras.
+-   **Skaitytuvas** – periferinio simuliatoriaus palaikomas virtualus brūkšninių kodų skaitytuvas gali pateikti brūkšninio kodo nuskaitymo įvykius.
+-   **Svarstyklės** – naudodami virtualias svarstykles su elektroniniu kasos aparatu (EKA) galite imituoti pasvertų elementų sąveiką.
+-   **Asmeninio identifikavimo numerio (PIN) rinkiklis** – galite simuliuoti PIN rinkiklio operacijas. **Pastaba.** Per mokėjimo jungtį turite įdiegti faktinio PIN rinkiklio palaikymą.
+-   **Parašo fiksavimas** – periferinis simuliatorius turi virtualų parašo fiksavimo įrenginį ir galite nustatyti, kad jis paragintų pateikti kai kurioms priemonėms, pavyzdžiui, kliento sąskaitos mokėjimams reikiamus parašus.
 
-Taip pat galite naudoti periferinių simuliatorius imituoti klaviatūros pleišto įvykius, kurie yra kilę iš brūkšninių kodų skaitytuvo ir MSR. Virtualus periferinių simuliatorius specialiai palaiko objektų susiejimo ir įdėjimo Retail POS (OEKA) įrenginiai.
+Periferinį simuliatorių taip pat galite naudoti norėdami imituoti iš brūkšninių kodų skaitytuvo ir MSR kilusius klavišinius kredito kortelių skaitytuvo įvykius. Virtualus periferinis simuliatorius palaiko būtent EKA skirto objektų susiejimo ir įdėjimo (OEKA) įrenginius.
 
-## <a name="key-scenarios"></a>Pagrindinis scenarijus
+## <a name="key-scenarios"></a>Pagrindiniai scenarijai
 ### <a name="troubleshooting"></a>Trikčių šalinimas
 
-Periferinių simuliatorius galite naudoti norėdami pašalinti įrenginio nustatymas. Jei jūs neturite periferinių simuliatorius ar antrojo įrenginio tos pačios klasės, gali būti sunku nustatyti, kur yra kilę klausimai. Tačiau kai periferinių simuliatorius, galite sukurti virtualių įrenginių, ir paleisti pačią kodo maršrutų ir verslo logika, kurie yra naudojami fizinių įrenginių. Žvelgiant iš periferinių simuliatorius, pagrindinis skirtumas tarp virtualios ir fizinės įrenginiai yra aptarnavimo objekto, ar įrenginio tvarkyklė. Įrenginio gamintojo pateiktais fizinių įrenginių aptarnavimo objekto. Priešingai, periferinių Simulator, paslaugų objektai yra pateikiami kaip dalis periferinių simuliatorius. Kai periferinių treniruoklis veikia tinkamai, jei prietaisas neveikia tinkamai, pasikeitus įrenginio pavadinimą aparatūros profilyje yra nekilnojamojo įrenginio pavadinimą, galite manyti, kad yra problemų su aptarnavimo objekto, kad gamintojas.
+Periferinį simuliatorių galite naudoti norėdami šalinti įrenginio sąrankos triktis. Jei neturite periferinio simuliatoriaus arba antro tos pačios klasės įrenginio, gali būti sunku nustatyti, kas sukėlė problemą. Tačiau, jei turite periferinį simuliatorių, galite nustatyti virtualius įrenginius ir naudoti tuos pačius kodų maršrutus ir verslo logiką, kurie naudojami faktiniams įrenginiams. Periferinio simuliatoriaus atžvilgiu pagrindinis skirtumas tarp virtualių įrenginių ir faktinių įrenginių yra aptarnavimo objektas arba įrenginio tvarkyklė. Faktinių įrenginių aptarnavimo objektą pateikia įrenginio gamintojas. O periferinių simuliatorių aptarnavimo objektai pateikiami kaip periferinio simuliatoriaus dalis. Kai periferinis simuliatorius veikia tinkamai, jeigu įrenginys neveikia tinkamai po to, kai aparatūros šablone nurodytas įrenginio pavadinimas pakeičiamas į faktinį įrenginio pavadinimą, galite manyti, kad įvyko klaida, susijusi su gamintojo pateiktu aptarnavimo objektu.
 
 ### <a name="training"></a>Mokymasis
 
-Periferinė simuliatorius galite pridėti realus sluoksnis kasininko darbo mokymą, kai nėra fizinių aparatinės įrangos įrengimas. Kai periferinių simuliatorius yra įtrauktas į mokymo planus, kasininkas gali efektyviau bendrauti su EKA numatant įvesties pavyzdžiui produkto bar kodas nuskaito ir dovanų kortelės brūkšt, o stebėdami, kuriuos gavimus spausdinamos konkrečiam sandoriui.
+Galite naudoti periferinį simuliatorių norėdami įtraukti realistinį kasininkų mokymo sluoksnį, kai galima naudoti fizinės aparatūros sąranką. Kai periferinis simuliatorius įtraukiamas į mokymo scenarijus, kasininkas gali efektyviau sąveikauti su EKA pateikdamas įvestį, pavyzdžiui, produkto brūkšninio kodo nuskaitymus ir dovanų kortelės braukimus ir stebėdamas, kurie kvitai spausdinami atliekant tam tikrą operaciją.
 
 ### <a name="testing"></a>Bandymai
 
-Periferinė simuliatorius galite išbandyti produkto brūkšninius kodus, gavimo formatai ir taip toliau, jums nereikės diegti fizinį aparatūros virtualioje aplinkoje. Nes fizinės aparatūros nėra būtina, ir jums nereikės diegti POS kliento aparatūros stoties ar fiziniame kompiuteryje, galite greičiau bandymas pakeitimai atgal biure.
+Naudodami periferinį simuliatorių galite patikrinti produktų brūkšninius kodus, kvitų formatus ir pan. ir virtualioje aplinkoje jums nereikės diegti fizinės aparatūros. Kadangi nereikia fizinės aparatūros ir aparatūros stotyje arba fiziniame kompiuteryje nebūtina įdiegti EKA kliento, galite greičiau patikrinti tarnybiniame biure atliekamus pakeitimus.
 
-## <a name="set-up-the-peripheral-simulator"></a>Nustatykite periferinę simuliatorius
-### <a name="set-up-a-hardware-profile"></a>Nustačius techninės įrangos profilį
+## <a name="set-up-the-peripheral-simulator"></a>Periferinio simuliatoriaus sąranka
+### <a name="set-up-a-hardware-profile"></a>Aparatūros šablono nustatymas
 
-1.  Norėdami nustatyti periferinių simuliatorius, eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**aparatūros profiliai**.
-2.  Norėdami sukurti naują profilį, spustelėkite **naujas**.
-3.  Įveskite reikšmes į **profilis numeris** ir **Aprašymas** laukus.
-4.  Naudokite šioje lentelėje nustatyti virtualių įrenginių, kurie turi būti išbandytos. Čia yra paaiškinimas iš lentelės stulpeliai:
-    -   **Prietaisas** – šiame stulpelyje suteikia FastTab, kad jums išplėsti prietaiso pavadinimą.
-    -   **Įrenginio tipas** – šiame stulpelyje suteikia vertę, kurią pasirinksite lauką, kuris pažymėtas įrenginio pavadinimą.
-    -   **Įrenginio pavadinimas** – šiame stulpelyje suteikia tikslią reikšmę, įveskite įrenginio pavadinimą. **Svarbu:** įrenginių pavadinimai, kurie čia duodami reikalingi, nes aparatūros stoties naudoja šiuos specifinius pavadinimus spręsti įrenginius. Jei nenorite naudoti šių konkrečių pavadinimų, prietaiso nebus galima naudoti.
+1.  Norėdami nustatyti periferinį simuliatorių, eikite į **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+2.  Norėdami sukurti naują šabloną, spustelėkite **Naujas**.
+3.  Įveskite laukų **Šablono numeris** ir **Aprašas** vertes.
+4.  Naudodami toliau pateiktą lentelę nustatykite virtualiuosius įrenginius, kuriuos būtina patikrinti. Toliau pateikiamas lentelės stulpelių paaiškinimas.
+    -   **Įrenginys** – šiame stulpelyje pateikiamas skirtuko „FastTab“, kurį išplečiate norėdami nustatyti įrenginį, pavadinimas.
+    -   **Įrenginio tipas** – šiame stulpelyje pateikiama vertė, kurią pasirenkate įrenginio pavadinimu pažymėtame lauke.
+    -   **Įrenginio pavadinimas** – šiame stulpelyje pateikiama tiksli jūsų įvesta įrenginio pavadinimo vertė. **Svarbu:** čia pateikti įrenginio pavadinimai yra būtini, nes aparatūros stotis naudoja šiuos konkrečius pavadinimus kreipdamasi į įrenginius. Jei nenaudosite šių konkrečių pavadinimų, įrenginio nebus galima naudoti.
 
     | Įrenginys            | Įrenginio tipas | Įrenginio pavadinimas              |
     |-------------------|-------------|--------------------------|
-    | Spausdintuvas           | OEKA        | MockOPOSPrinter          |
-    | Eilutės rodymas      | OEKA        | MockOPOSLineDisplay      |
-    | MSR               | OEKA        | MockOPOSMSR              |
-    | Išdavėjas            | OEKA        | MockOPOSDrawer1          |
-    | Drawer2           | OEKA        | MockOPOSDrawers          |
-    | Skaitytuvas           | OEKA        | MockOPOSScanner          |
-    | Mastelis             | OEKA        | MockOPOSScale            |
-    | PIN rinkiklis           | OEKA        | MockOPOSPinPad           |
-    | Parašo fiksavimas | OEKA        | MockOPOSSignatureCapture |
+    | Spausdintuvas           | OEKA        | „MockOPOSPrinter“          |
+    | Eilutės rodymas      | OEKA        | „MockOPOSLineDisplay“      |
+    | MSR               | OEKA        | „MockOPOSMSR“              |
+    | Išdavėjas            | OEKA        | „MockOPOSDrawer1“          |
+    | 2 stalčius           | OEKA        | „MockOPOSDrawers“          |
+    | Skaitytuvas           | OEKA        | „MockOPOSScanner“          |
+    | Mastelis             | OEKA        | „MockOPOSScale“            |
+    | PIN rinkiklis           | OEKA        | „MockOPOSPinPad“           |
+    | Parašo fiksavimas | OEKA        | „MockOPOSSignatureCapture“ |
 
-**Pastaba:** jokios specialios sąrankos aparatūros profilyje turi imituoti klaviatūros pleišto įvykius iš brūkšninio kodo skaitytuvo ir MSR.
+**Pastaba.** Norint imituoti iš brūkšninių kodų skaitytuvo ir MSR kilusius klavišinius kredito kortelių skaitytuvo įvykius speciali aparatūros šablono sąranka nereikalinga.
 
-### <a name="assign-the-hardware-profile-to-a-register"></a>Aparatūros šabloną priskirti registrą
+### <a name="assign-the-hardware-profile-to-a-register"></a>Aparatūros šablono priskyrimas registrui
 
-1.  Sukūrus techninės įrangos profilį, eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**registrų**.
-2.  – Į **POS registrų** sąrašą, spustelėkite nuorodą į **registro Nr.** lauko registrui, kad turėtų naudoti periferinių simuliatorius.
+1.  Sukūrę aparatūros šabloną eikite į **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
+2.  Sąraše **EKA registrai** spustelėkite registro, kuris turėtų naudoti periferinį simuliatorių, lauke **Registro numeris** esančią nuorodą.
 3.  Spustelėkite **Redaguoti**.
-4.  – Į **profiliai** skyrių, į **techninės įrangos profilį** pasirinkite techninės įrangos profilį, kurį sukūrėte virtualus periferiniams įrenginiams.
-5.  Click **Save**.
+4.  Skyriaus **Šablonai** lauke **Aparatūros šablonas** pasirinkite virtualiems periferiniams įrenginiams sukurtą aparatūros šabloną.
+5.  Spustelėkite **Įrašyti**.
 
-### <a name="synchronize-changes-to-the-channel-database"></a>Sinchronizuoti kanalo duomenų bazės keitimus
+### <a name="synchronize-changes-to-the-channel-database"></a>Pakeitimų sinchronizavimas su kanalų duomenų baze
 
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo grafikas**.
-2.  Pasirinkite į **1090** pasiskirstymo grafikas.
-3.  Spustelėkite **surengę** Norėdami sinchronizuoti keitimus su EKA.
+1.  Eikite į **Mažmeninė prekyba ir komercija** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+2.  Pasirinkite **1090** paskirstymo grafiką.
+3.  Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 
-Po to, kai duomenys yra sinchronizuojami, naujas aparatinės įrangos profilis ir pakeitimus registre yra kanalo duomenų bazėje.
+Susinchronizavus duomenis naujas aparatūros šablonas ir registre atlikti pakeitimai pateikiami kanalų duomenų bazėje.
 
-## <a name="install-the-peripheral-simulator"></a>Įdiegti periferinius simuliatorius
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**aparatūros profiliai**.
-2.  Spustelėkite **atsisiųsti**, ir tada spustelėkite **PeripheralSimulator**. **Pastaba:** jūs turite išjungti iššokančių langų blokavimo programos prieš atsisiųsdami periferinių simuliatorius.
-3.  Kai atsisiuntimas bus baigtas, atidaryti ir **Parsisiųsti** katalogą ir dukart spustelėkite **VirtualPeripherals.msi** Norėdami paleisti diegimo programą.
-4.  Įdiegti periferinių simuliatorius naudojant numatytuosius parametrus.
+## <a name="install-the-peripheral-simulator"></a>Periferinio simuliatoriaus diegimas
+1.  Eikite į **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+2.  Spustelėkite **Atsisiųsti**, o po to spustelėkite **PeripheralSimulator**. **Pastaba.** Tam, kad galėtumėte atsisiųsti periferinį simuliatorių, turite išjungti iššokančių langų blokavimo programas.
+3.  Kai siuntimas bus baigtas, atidarykite aplanką **Atsisiuntimai** ir dukart spustelėję **VirtualPeripherals.msi** paleiskite diegimo programą.
+4.  Įdiekite periferinį simuliatorių naudodami numatytuosius parametrus.
 
-Be periferinių simuliatorius, turite įdiegti bendrą kontrolės objektus iš Monroe konsultavimo paslaugas. Priešingu atveju, periferinių simuliatorius tinkamai neveiks. Norėdami atsisiųsti bendros kontrolės objektus, eikite į <http://monroecs.com/oposccos_current.htm>.
+Be periferinio simuliatoriaus iš „Monroe Consulting Services“ turite įdiegti bendruosius valdymo objektus. Priešingu atveju periferinis simuliatorius veiks netinkamai. Norėdami atsisiųsti bendruosius valdymo objektus, eikite į <http://monroecs.com/oposccos_current.htm>.
 
-## <a name="using-the-peripheral-simulator"></a>Naudojant periferinę simuliatorius
-Pradėti periferinių simuliatorius, spustelėkite **pradėti** jūsų kompiuteryje, tipo **mažmeninės prekybos periferinių simuliatorius**, ir tada pasirinkite programėlę, kai jis pasirodys paieškos rezultatuose. Pradėjus periferinių simuliatorius, spustelėkite įrenginio vardą, jei norite peržiūrėti palaikomus įrenginius. Šie įrenginiai bus nurodytas kaip skirtukų kairėje lango pusėje. Norėdami peržiūrėti konkretų įrenginį, spustelėkite skirtuką įrenginio.
+## <a name="using-the-peripheral-simulator"></a>Periferinio simuliatoriaus naudojimas
+Norėdami paleisti periferinį simuliatorių, savo kompiuteryje spustelėkite **Pradžia**, įveskite **Mažmeninės prekybos periferinis simuliatorius**, o po to pasirodžius rezultatų sąrašui pasirinkite programą. Paleidę periferinį simuliatorių spustelėkite įrenginio pavadinimą, kad pamatytumėte palaikomus įrenginius. Šie įrenginiai išvardijami kaip skirtukai ir jų sąrašas pateikiamas kairėje lango pusėje. Norėdami peržiūrėti tam tikrą įrenginį, spustelėkite to įrenginio skirtuką.
 
-### <a name="line-display-capabilities"></a>Eilutės rodymo galimybes
+### <a name="line-display-capabilities"></a>Eilutės rodinio galimybės
 
-Eilutės ekranas yra pirmasis įrenginys, kuris yra nurodytas periferinių simuliatorius. Kai sukonfigūruotas virtualus eilutės ekranas, tai rodo eilutės elementų, kaip jie nuskaityti POS sandoryje. Be linijos, ekrane rodomos viso, kad dėl EKA pasirinkus konkursą. Jis taip pat rodo, kad balansas jei pasiūlymas yra įrašytas, tačiau pusiausvyrą vis dar dėl sandorio. Kai POS, nėra naudojama, pranešimas gali būti rodomas rodo, kad kasos nedirba. Turite sukonfigūruoti pranešimas dėl **linija ekrano** FastTab aparatūros profilyje.
+Eilutės rodinys yra pirmasis įrenginys periferinio simuliatoriaus sąraše. Kai sukonfigūruotas virtualus eilutės rodinys, eilutės elementai jame rodomi taip, kaip buvo nuskaityti atliekant EKA operaciją. Be eilutės elementų rodinyje rodoma bendra suma, kuri turi susidaryti pasirinkus EKA mokėjimo priemonę. Jame taip pat rodoma balansinė suma, kuri turi susidaryti, jeigu įvedama mokėjimo priemonė, bet dar galioja operacijos balansinė suma. Kai EKA nenaudojamas, gali būti rodomas pranešimas, kuriame nurodoma, kad kasos stalčiaus skyrelis uždarytas. Turite sukonfigūruoti pranešimą aparatūros šablono dalies **Eilutės rodinys** skirtuke „FastTab“.
 
-### <a name="cash-drawer-capabilities"></a>Grynųjų pinigų stalčių galimybes
+### <a name="cash-drawer-capabilities"></a>Kasos stalčiaus galimybės
 
-Grynųjų pinigų stalčius yra antrasis įrenginys, kuris yra nurodytas periferinių simuliatorius. Kai aparatūros profilis yra sukonfigūruotas naudoti virtualių pinigų stalčiai, Go atsidaro kasos stalčiaus aktyvus SHIFT reaguojant į Stalčiaus operacijas pvz., mokėjimo priemonių deklaravimus, ir, kad kasininkas gali padaryti pakeisti arba piniginį per standartinį cash-and-carry sandorius. Virtualių pinigų stalčiai turi etiketes **Main Stalčiaus** ir **vidurinis stalčius**. Šios etiketės atstovauti stalčių ir stalčių 2 techninės įrangos profilį, atitinkamai. Kai stalčiuje uždaryti, uždaro kasos stalčiaus vaizdas yra rodomas, o mygtuką uždarytas grynųjų pinigų stalčius yra pažymėtas **Atidaryti stalčių**. Jei spustelėsite šį mygtuką, vaizdas pakeitė vaizdą atidarytos kasos stalčiaus, rodo, kad jau atidarytas stalčius. Pažymėti mygtuką atidaryti kasos stalčių **uždaryti stalčių**. Kelių operacijų EKA gali sukelti kasos stalčius atidaryti. Dauguma operacijų negali būti vykdomas, o kasos stalčius. Išimtys yra kai kurios dienos pabaigos procedūrų. Jei POS vartotojas gauna klaidos pranešimą, kuriame teigiama, kad operacijos negalima atlikti, o kasos stalčius, vartotojas turi uždaryti virtualios ir fizinės kasos stalčiaus elgtis. Jei kasos stalčius yra pažymėtas kaip **bendro naudojimo**, techninės įrangos profilį, sistema nėra patikrinti, kad stalčius yra uždarytas prieš operaciją. Veiklos pajamos kaip įprasta, net jei kasos stalčius yra atvira. Taip palaiko scenarijų kai pardavimo darbuotojai dalijasi pinigų stalčiai ir kai vienas bendradarbis naudoja kasos stalčius, o kitos asocijuotos įmonės atlieka nesusijusių užduotis savo POS įrenginys. Pakeitimus, kurie bus atlikti kasos stalčius yra ne akivaizdus iki dabartinio perėjimas yra uždarytas ir atidarytas naujas pamainą.
+Kasos stalčius yra antras įrenginys periferinio simuliatoriaus sąraše. Kai sukonfigūruota, kad aparatūros šablonas naudotų virtualius grynųjų pinigų stalčius, EKA atidaro aktyviosios pamainos grynųjų pinigų stalčių, kai atliekamos stalčiaus operacijos, pavyzdžiui, mokėjimo priemonių deklaravimai, ir tada kasininkas gali pakeisti arba įdėti grynųjų pinigų atlikdamas standartines atsiskaitymo grynaisiais pinigais operacijas. Virtualūs grynųjų pinigų stalčiai pažymėti etiketėmis **Pagrindinis stalčius** ir **Antrinis stalčius**. Šios etiketės atitinka atitinkamas aparatūros šablono reikšmes Stalčius ir 2 stalčius. Uždarius stalčių rodomas uždaryto grynųjų pinigų stalčiaus vaizdas, o uždaryto grynųjų pinigų stalčiaus mygtuko etiketė pažymima užrašu **Atidaryti stalčių**. Spustelėjus šį mygtuką vaizdas pakeičiamas atidaryto grynųjų pinigų stalčiaus vaizdu, nurodančiu, kad stalčius dabar atidarytas. Atidaryto grynųjų pinigų stalčiaus mygtuko etiketė pažymima **Uždaryti stalčių**. Atlikus kelias EKA operacijas grynųjų pinigų stalčius gali atsidaryti. Esant atidarytam grynųjų pinigų stalčiui daugumos operacijų atlikti negalima. Išimtys suteikiamos kai kurioms dienos pabaigos procedūroms. Jei EKA vartotojas gauna klaidos pranešimą, kuriame nurodoma, kad operacijos negalima atlikti kol atidarytas grynųjų pinigų stalčius, norėdamas tęsti vartotojas turi uždaryti virtualų arba faktinį grynųjų pinigų stalčių. Jeigu aparatūros šablone grynųjų pinigų stalčius pažymėtas užrašu **Bendrai naudojamas**, sistema netikrina, ar prieš atliekant operaciją stalčius uždarytas. Operacija atliekama kaip įprasta, net jei grynųjų pinigų stalčius atidarytas. Tokiu būdu palaikomi scenarijai, kai grynųjų pinigų stalčius bendrai naudoja pardavimų partneriai ir kai vienas partneris naudoja grynųjų pinigų stalčių, o kitas savo EKA įrenginyje atlieka nesusijusias užduotis. Atlikti kasos stalčiaus pakeitimai nėra matomi tol, kol neuždaroma dabartinė pamaina ir neatidaroma nauja pamaina.
 
-### <a name="msr-capabilities"></a>MSR galimybes
+### <a name="msr-capabilities"></a>MSR galimybės
 
-Periferinė simuliatorius suteikia tvirtą paramą virtualus MSR operacijoms dirbant arba OEKA arba klaviatūros pleišto režimu. OEKA režimas reikalauja, kad MSR būti sukonfigūruotas dirbti kaip OEKA įrenginio aparatūros profilyje. Klaviatūros pleišto režimu tiesiog siunčia klaviatūros pleišto duomenų įvykius į Microsoft Windows. Be skirtumų nustatymo, OEKA ir klaviatūra pleišto režimai skiriasi vienu iš šių būdų:
+Kadangi periferinis simuliatorius veikia ir naudojant OPOS režimą, ir klavišinį kredito kortelių skaitytuvo režimą, jis palaiko virtualias MSR operacijas. Jei naudojamas OPOS režimas, reikia, kad naudojant aparatūros šabloną MSR būtų sukonfigūruotas veikti kaip OPOS įrenginys. Naudojant klavišinį kredito kortelių skaitytuvo režimą klavišinio kredito kortelių skaitytuvo duomenų įvykiai tiesiog siunčiami į „Microsoft Windows“. OEKA ir klavišinis kredito kortelių skaitytuvo režimas skiriasi ne tik sąranka, bet ir šiais požymiais:
 
--   POS klientas leidžia OEKA MSR įrenginių konkrečių scenarijų, pvz., scenarijus, magnetinės juostelės duomenis Lojalumo ar dovanų kortelę įrašo.
--   Klaviatūros pleišto režimu, periferinių simuliatorius siunčia klaviatūros pleišto duomenis į lauką, kuris yra aktyvus, kai duomenys siunčiami. Toks elgesys panašus elgesį, kuris kyla, jei duomenys yra įvesti klaviatūra. Naudoti MSR kaip klaviatūros Klin, vartotojas turi pereiti į mažmeninės prekybos šiuolaikinės POS (MPOS) įsitikinkite, kad teisingai srityje yra gauti duomenys. Todėl, galite konfigūruoti pavėlavus, taip, kad vartotojas turi laiko įsitikinti, kad duomenys bus išsiųstas į tinkamą lauką.
+-   Naudojant EKA klientą OEKA MSR įrenginiuose galima naudoti specialius scenarijus, pavyzdžiui, scenarijus, kuriuos naudojant leidžiama įvesti magnetinės juostos duomenų lojalumo arba dovanų kortelės numerį.
+-   Naudojant klavišinį kredito kortelių skaitytuvo režimą periferinis simuliatorius siunčia klavišinio kredito kortelių skaitytuvo duomenis į lauką, kuris aktyvus siunčiant duomenis. Šis elgesys panašus į elgesį, kai duomenys įvedami naudojant klaviatūrą. Norėdamas naudoti MSR kaip klavišinį kredito kortelių skaitytuvą, vartotojas privalo įjungti „Retail Modern POS“ (MPOS), kad įsitikintų, jog duomenys gauti tinkamame lauke. Todėl galite sukonfigūruoti atidėjimą, kad vartotojas turėtų laiko įsitikinti, kad duomenys bus nusiųsti į tinkamą lauką.
 
-#### <a name="testing-gift-and-payment-card-swipes"></a>Bandymų dovanų ir mokėjimo kortelės Kiepskie alus
+#### <a name="testing-gift-and-payment-card-swipes"></a>Braukimas bandymo dovanos ir mokėjimo kortele
 
-Virtualus MSR, taip pat teikianti periferinių simuliatorius leidžia jums konfigūruoti konkrečių MSR duomenų išbandyti dovanų ir mokėjimo kortelės brūkšt scenarijai. Sukurti kortelę, spustelėkite pliuso ženklą (**+**) mygtuką ir pasirinkite kortelės tipą. Tada nurodykite kortelės numerį arba stebėti duomenis, kurie turi būti siunčiami POS, kartu su galiojimo pabaigos mėnesį ir metus už kortelę, kuri jums apibrėžti. Reikšmė, kurią galite pasirinkti, kad **kortelės tipas** laukas yra tik etiketę, kuri gali būti atvaizduota kortelę. Ši žymė lengviau identifikuoti korteles, kai jie yra swiped per periferinių simuliatorius. Jūs galite pasirinkti kortelės, kad sukonfigūruoti periferinių simuliatorius naudojant rodyklę kairėn (**&lt;**) ir rodyklė į dešinę (**&gt;**) mygtukai virš atvaizdo kortelės. Galite redaguoti ir naikinti korteles naudojant į **redaguoti** ir **panaikinti** mygtukus šalia esantį pliuso ženklą (**+**) mygtuką.
+Naudodami virtualųjį periferinio simuliatoriaus pateikiamą MSR taip pat galite sukonfigūruoti specialius MSR duomenis, kad patikrintumėte braukimo dovanų ir mokėjimo kortelėmis scenarijus. Norėdami sukurti kortelę, spustelėkite pliuso ženklu (**+**) pažymėtą mygtuką ir pasirinkite kortelės tipą. Po to nurodykite kortelės numerį arba sekimo duomenis, kurie turi būti siunčiami į EKA, taip pat nurodant reikiamos kortelės galiojimo pabaigos mėnesį ir metus. Lauke **Kortelės tipas** pasirinkta vertė yra tiesiog etiketė, kurią galima susieti su kortele. Naudojant šią etiketę lengviau identifikuoti korteles, kai jos braukiamos periferinius simuliatoriumi. Naudodami virš kortelės vaizdo esančius kairiosios rodyklės (**&lt;**) ir dešiniosios rodyklės (**&gt;**) mygtukus galite pasirinkti naudojant periferinį simuliatorių sukonfigūruotas korteles. Galite redaguoti ir panaikinti korteles naudodami šalia pliuso ženklu (**+**) pažymėto mygtuko esančius mygtukus **Redaguoti** ir **Naikinti**.
 
 ### <a name="pin-pad"></a>PIN rinkiklis
 
-Galite konfigūruoti PIN pad simuliatorius imituoti OEKA PIN pad. Su elektroninių pinigų pervedimas (EFT) operaciją yra atliekama EKA ir reikalauja PIN įrašas, aparatūros stotis ragina PIN įrenginiui paraginti įvesti PIN kodą. Dirbti, PIN pad periferinių simuliatorius reikia EFT mokėjimas jungties pagalba.
+Sukonfigūruodami PIN rinkiklio simuliatorių galite imituoti OEKA PIN rinkiklį. Kai elektrininio lėšų pervedimo (EFT) operacija atliekama naudojant EKA ir reikia įvesti PIN, aparatūros stotis pasiūlo PIN įrenginiui paraginti įvesti PIN. Norint, kad veiktų periferinio simuliatoriaus PIN rinkiklis, reikia, kad būtų palaikoma EFT mokėjimo jungtis.
 
 ### <a name="printer"></a>Spausdintuvas
 
-Virtualus periferinių spausdintuvas tik rodo gavimus spausdinamas nuo POS. Jei spausdinimo operaciją kelis kvitus, galite slinkti per įplaukos.
+Virtualus periferinis spausdintuvas tiesiog rodo EKA atspausdintus gavimo kvitus. Jeigu atliekant spausdinimo operaciją sukuriami keli gavimo kvitai, galite slinkti per gavimo kvitus.
 
-#### <a name="configure-receipt-printing"></a>Kvito spausdinimo konfigūravimas
+#### <a name="configure-receipt-printing"></a>Kvitų spausdinimo konfigūravimas
 
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**aparatūros profiliai**.
-2.  Pasirinkite techninės įrangos profilį, kurį sukūrėte virtualus periferiniams įrenginiams.
-3.  Dėl to **spausdintuvo** FastTab, spustelėkite **redaguoti**.
-4.  – Į **gavimo profilio ID** pasirinkite kvitų šabloną.
-5.  Click **Save**.
+1.  Eikite į **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+2.  Pasirinkite virtualiems periferiniams įrenginiams sukurtą aparatūros šabloną.
+3.  Dalies **Spausdintuvas** skirtuke „FastTab“ spustelėkite **Redaguoti**.
+4.  Lauke **Kvito šablono ID** pasirinkite kvito šabloną.
+5.  Spustelėkite **Įrašyti**.
 
 ### <a name="scale"></a>Mastelis
 
-Masto produktas yra įtraukta į POS operaciją, ir pagal skalę yra sukonfigūruotas, Go nuskaito svorio skalė. Už virtualios ir fizinės apimties, gaminio ar svoris turėtų būti nurodyta prieš produkto yra įtraukta į operaciją. Prieš pridėdami masto produkto operacijai, eikite į periferinių simuliatorius masto ir naudoti pliuso ženklą (**+**) ir minuso ženklą (**–**) mygtukai būtų suderintas su svoriu, tai skalė turėtų pranešti. Taip pat galite įvesti norimą svorį, tiesiai į **dabartinė vertė** srityje. Galite koreguoti masto svorio vienetais, naudojant pliuso ženklą (**+**), **redaguoti**, ir **panaikinti** mygtukus. Tokiu būdu galima nurodyti vienetai pagal produktų, kurie yra pasverti ar lokalė, kur naudojamas skalės.
+Kai į EKA operaciją įtraukiamas svarstyklių produktas ir sukonfigūruojamos svarstyklės, EKA gauna ant svarstyklių esantį svorį. Naudojant tiek virtualiąją, tiek faktinę skalę produktas arba svoris turi būti nurodomas prieš tai, kai produktas įtraukiamas į operaciją. Prieš įtraukdami svarstyklių produktą į operaciją, eikite į periferinio simuliatoriaus svarstykles ir naudodami pliuso ženklo (**+**) ir minuso ženklo (**–**) mygtukus pakoreguokite svorį, kurį turi pranešti svarstyklės. Taip pat galite įvesti norimą svorį tiesiai lauke **Dabartinė reikšmė**. Galite koreguoti svarstyklių svorio vienetus naudodami pliuso ženklą (**+**), mygtukus **Redaguoti** ir **Naikinti**. Tokiu būdu vienetus galima nurodyti pagal pasvertus produktus arba vietą, kurioje naudojamos svarstyklės.
 
-#### <a name="configure-a-scale-product"></a>Konfigūruoti masto produktas
+#### <a name="configure-a-scale-product"></a>Svarstyklių produkto konfigūravimas
 
-1.  Eikite į **mažmeninė ir****prekybos**&gt;**produktų ir kategorijų**&gt;**išleistas produktų kategorijos**.
+1.  Eikite į **Mažmeninė prekyba ir** **prekyba** &gt; **Produktai ir kategorijos** &gt; **Patvirtinti produktai pagal kategoriją**.
 2.  Atidarykite produkto įrašą.
-3.  Pasirinkite produktą pasverti.
-4.  Dėl į **mažmeninės prekybos** FastTab, nustatyti į **masto produkto** iš **Nr** į **taip**.
+3.  Pasirinkite svertiną produktą.
+4.  Dalies **Mažmeninė prekyba** skirtuke „FastTab“ pakeiskite dalies **Svarstyklių produktas** parinktį iš **Ne** į **Taip**.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Sinchronizuoti kanalo duomenų bazės keitimus
+#### <a name="synchronize-changes-to-the-channel-database"></a>Pakeitimų sinchronizavimas su kanalų duomenų baze
 
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo grafikas**.
-2.  Pasirinkite į **1040** pasiskirstymo grafikas.
-3.  Spustelėkite **surengę** Norėdami sinchronizuoti keitimus su EKA.
+1.  Eikite į **Mažmeninė prekyba ir komercija** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+2.  Pasirinkite **1040** paskirstymo grafiką.
+3.  Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 
-Po to, kai duomenys yra sinchronizuojami, kai masto produktas yra įtraukta į POS operaciją, Go patikrina svorį skale.
+Susinchronizavus duomenis, kai svarstyklių produktas įtrauktas į EKA operaciją, EKA patikrina ant svarstyklių esantį svorį.
 
 ### <a name="signature-capture"></a>Parašo fiksavimas
 
-Virtualus parašas surinkimo įrenginys paragina vartotoją pateikti parašo virtualus parašas surinkimo padas konkurso, kuris naudojamas reikalauja pasirašyti. Vartotojas sutinka parodyti EKA pasirašymas. Kasininkas gali priimti parašas. Parašas yra tada išsaugotas kartu su paraiška ir sinchronizuojamas su galinis biuras bei kitų sandorių duomenis.
+Kai naudojamai mokėjimo priemonei reikalingas parašas, virtualus parašo fiksavimo įrenginys paragina vartotoją pateikti parašą naudojant virtualųjį parašo fiksavimo rinkiklį. Vartotojas gali patvirtinti parašą, kad jis būtų rodomas EKA. Tada kasininkas gali priimti parašą. Tada parašas įrašomas kartu su mokėjimo priemone ir kartu su kitais operacijų duomenimis sinchronizuojamas su tarnybiniu biuru.
 
-#### <a name="set-up-a-tender-to-require-a-signature"></a>Konkursui vykdyti reikia pasirašyti
+#### <a name="set-up-a-tender-to-require-a-signature"></a>Mokėjimo priemonės parašo reikalavimo parinkties nustatymas
 
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalai**&gt;**mažmeninės prekybos parduotuvėse**&gt;**visi mažmeninės prekybos parduotuvėse**.
-2.  Pasirinkite mažmeninės prekybos parduotuvėje.
+1.  Eikite į **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**.
+2.  Pasirinkite mažmeninės prekybos parduotuvę.
 3.  Spustelėkite **Redaguoti**.
-4.  Spustelėkite **nustatyti**, ir tada, kad **nustatyti** spustelėkite **mokėjimo būdai**.
+4.  Spustelėkite **Nustatyti**, o po to skyriuje **Nustatyti** spustelėkite **Mokėjimo būdai**.
 5.  Spustelėkite **Redaguoti**.
-6.  Pasirinkite mokėjimo būdą, kuris reikalauja parašą.
-7.  – Į **bendrojo** skyriuje, kaip **parašo Capture**, nustatyti į **vartojimo pasirašymo įrašymo įrenginys** galimybę **taip**.
-8.  – Į **parašas surinkimo minimali suma** įveskite minimalią sumą, kurią turėtų sukelti parašas surinkimo.
+6.  Pasirinkti mokėjimo būdą, kuriuo naudojantis reikalingas parašas.
+7.  Skyriaus **Bendrosios nuostatos** dalyje **Parašo fiksavimas** nustatykite parametro **Naudoti parašo fiksavimo įrenginį** parinktį **Taip**.
+8.  Lauke **Minimali parašo fiksavimo suma** įveskite minimalią sumą, kuri turėtų sužadinti parašo fiksavimą.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Sinchronizuoti kanalo duomenų bazės keitimus
+#### <a name="synchronize-changes-to-the-channel-database"></a>Pakeitimų sinchronizavimas su kanalų duomenų baze
 
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo grafikas**.
-2.  Pasirinkite į **1070** pasiskirstymo grafikas.
-3.  Spustelėkite **surengę** Norėdami sinchronizuoti keitimus su EKA.
+1.  Eikite į **Mažmeninė prekyba ir komercija** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+2.  Pasirinkite **1070** paskirstymo grafiką.
+3.  Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 
-Po to, kai duomenys yra sinchronizuota, kai pasiūlymas yra naudojama, kad reikia parašo, o suma atitinka parašo ribą, Go ragina pasirašyti virtualų parašas surinkimo įrenginio.
+Susinchronizavus duomenis, kai naudojama mokėjimo priemonė, kuriai reikalingas parašas, o suma neviršija parašo slenkstinės vertės sumos, EKA paragina pateikti parašą naudojant virtualųjį parašo fiksavimo įrenginį.
 
-## <a name="additional-configuration"></a>Papildomos konfigūracijos
-Galite redaguoti periferinių simuliatorius konfigūracijos failą, siekiant tinkamai išspręsti scenarijų, kurie išbandote. Jūs galite rasti konfigūracijos failą į C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Konfigūracijos failas aprašo vienetai, kuriuos galima atlikti bandymus skalė, kortelės rūšis, kuriuos galima bandyti ir brūkšninių kodų tipai. Pvz., pakeisti teksto reikšmes į konfigūracijos failą, galite pridėti naują kortelės tipą arba matavimo vienetą, kuriame galima pasirinkti vykdymo metu. Naujos reikšmės bus rodomos po programą iš naujo.
+## <a name="additional-configuration"></a>Papildoma konfigūracija
+Galite redaguoti periferinio simuliatoriaus konfigūracijos failą, kad jis būtų tiksliau nukreiptas į jūsų tikrinamus scenarijus. Konfigūracijos failą galite rasti adresu C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Konfigūracijos faile nurodomi vienetai, kuriuos galima naudoti atliekant bandymus ant svarstyklių, kortelių tipai, kuriuos galima tikrinti ir brūkšninių kodų tipai. Pavyzdžiui, keisdami konfigūracijos failo teksto vertes galite įtraukti naują kortelės tipą arba matavimo vienetą, kuriuos galima pasirinkti vykdant operacijas. Paleidus programą iš naujo bus rodomos naujos vertės.
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
-Veiklos periferinių Simulator prisijungęs per periferinių simuliatorius. Žurnalą galite rasti C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Periferinė simuliatorius taip pat teikia klausimus "Windows" įvykių žurnale, kurį galite gauti **programos ir tarnybų žurnalai**&gt;**"Microsoft"**&gt;**DynamicsAX**. Jei keitimus, atliktus techninės įrangos profilį arba kitose srityse yra ne akivaizdus MPOS arba periferinių simuliatorius, patikrinti platinimo duomenų apsikeitimo valdymo užduotys, kurį naudojote sinchronizuoti duomenis kanalo duomenų bazei. Jei pakeitimai buvo sinchronizuotas, bet vis dar nėra aišku, EKA, paleisti iš naujo kliento POS. Keisti sukonfigūruotą pinigų stalčiai nėra veiksmingi, tol, kol sukuriamas naujas pamainą. Todėl jei pakeičiate pinigų stalčiai, įsitikinkite, kad visada uždaryti esamą perėjimas išbandyti naują pinigų Stalčiaus nustatymą. Kartais, jei gamintojo tvarkyklė po bendros kontrolės objektus nuo Monroe konsultavimo paslaugų, vairuotojas gali sukelti bendrą valdymo objektai gali nustoti tinkamai veikti. Šiuo atveju, reikėtų iš naujo bendro valdymo objektų.
+Periferinio simuliatoriaus veiklos registruojamos naudojant periferinį simuliatorių. Žurnalą galite rasti adresu C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Periferinis simuliatorius taip pat praneša apie problemas „Windows“ įvykių žurnale, kurį galite pasiekti adresu **Programų ir paslaugų žurnalai** &gt; **„Microsoft“** &gt; **„DynamicsAX“**. Jeigu naudojant MPOS ar periferinį simuliatorių pakeitimai, kuriuos atlikote aparatūros šablonui arba kitose srityse nematomi, paskirstymo planuoklio užduotis, kurias naudojote sinchronizuodami duomenis kanalo duomenų bazėje. Jei pakeitimai buvo susinchronizuoti, bet vis dar nematomi naudojant EKA, iš naujo paleiskite EKA klientą. Sukonfigūruotiems grynųjų pinigų stalčiams atlikti pakeitimai neįsigalios, kol nebus sukurta nauja pamaina. Todėl, jeigu atliekate grynųjų pinigų stalčių pakeitimus, būtinai uždarykite esamą pamainą, kad patikrintumėte naują grynųjų pinigų stalčiaus sąranką. Kartais, jeigu iš „Monroe Consulting Services“ gamintojo tvarkyklė įdiegta vėliau negu bendrieji valdymo objektai, dėl tvarkyklės bendrieji valdymo objektai gali veikti netinkamai. Tokiu atveju turite iš naujo įdiegti bendruosius valdymo objektus.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Retail peripherals overview](retail-peripherals-overview.md)
+[Periferinių mažmeninės prekybos įrenginių apžvalga](retail-peripherals-overview.md)
+
+
 
 

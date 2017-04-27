@@ -1,6 +1,6 @@
 ---
-title: "Atsargų turimų mobiliojo darbo Microsoft Dynamics &quot;365&quot; veiklos programa"
-description: "Atsargų turimų mobiliojo darbo srities padeda įgyti mobiliojo ryšio įžvalgų saugomos ir turimus atsargų, bet kada ir bet kur."
+title: "Turimų atsargų mobilioji darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“"
+description: "Turimų atsargų mobilioji darbo sritis mobiliojoje aplinkoje suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Atsargų turimų mobiliojo darbo Microsoft Dynamics "365" veiklos programa
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Turimų atsargų mobilioji darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“
 
-Atsargų turimų mobiliojo darbo srities padeda įgyti mobiliojo ryšio įžvalgų saugomos ir turimus atsargų, bet kada ir bet kur. 
+Turimų atsargų mobilioji darbo sritis mobiliojoje aplinkoje suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada. 
 
 <a name="prerequisites"></a>Būtinieji komponentai
 -------------
 
 | Būtinoji sąlyga                                                         | aprašymas                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Skaityti apie Microsoft Dynamics 365 operacijų mobiliųjų platformų | [Dinamika 365 operacijų mobiliųjų platformų](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dinamika 365 operacijoms                                          | Aplinkoje, kurioje yra Microsoft Dynamics 365 operacijų versija 1611 ir "Microsoft Dynamics" operacijų platformos naujinimas 3 (2016 m lapkričio mėn.) |
-| Karštosios pataisos KB 3215650                                                    | Įdiekite karštąją pataisą norite įgalinti darbo srities, kurie yra pateikti jūsų Microsoft Dynamics 365 operacijoms.                                       |
-| Mobiliojo įrenginio, turinčio Dynamics 365 dėl operacijų taikomąją programą | Atsisiųskite Dynamics 365 operacijų App iš mobiliųjų programėlių parduotuvėje.                                                                           |
+| Skaitykite apie „Microsoft Dynamics 365 for Operations“ mobiliąją platformą | [Mobilioji „Dynamics 365 for Operations“ platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.) |
+| Karštosios pataisos KB 3215650                                                    | Įdiegę karštąsias pataisas įjunksite „Microsoft Dynamics 365 for Operations“ pateikiamas darbo sritis.                                       |
+| Mobilusis įrenginys, kuriame įdiegta programa „Dynamics 365 for Operations“ | Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite programą „Dynamics 365 for Operations“.                                                                           |
 
 ## <a name="introduction"></a>Įžanga
-Paprastai, įmonės turi daugkartinius iškrovimus ir kelių kvitų inventorizacijos kiekvieną dieną. Šie judesiai nuolat keisti turimų atsargų būseną. Atsargų turimų mobiliojo ryšio darbo sritį galite matyti įmonės turimų atsargų būseną, taip, kad jūs galite gauti naujausią pažvelgti į atsargų duomenis apie mobiliojo ryšio prietaisas pagal savo pasirinkimą. Nepriklausomai nuo to, ar dirbate sandėlyje, pirkimo, pardavimo, gamybos, ar valdymo, arba turėti kitų vaidmenų, bet kada ir bet kur galite pasiekti turimų atsargų duomenys. Mobiliojo darbo siūlo momentinių atsižvelgiant, turimas statusas patogumai, ir leidžia jums peržiūrėti atsargų patogumai, dabartinės esminės rezervacijos ir be išlygų turimose atsargose. Galite įvesti prekių numerius į užklausą turimas atsargas ir filtruoti ieškos turimų produktų arba variantai. Konkrečiai, mobiliojo ryšio darbo sritį teikia šias funkcijas:
+Paprastai įmonės kas dieną apdoroja daug atsargų siuntų ir gavimų. Dėl šių perkėlimų nuolat kinta turimų atsargų būsena. Turimų atsargų mobilioji darbo sritis suteikia galimybę peržiūrėti turimų atsargų būseną visose įmonėse, todėl galite sužinoti naujausią informaciją apie atsargų duomenis savo pasirinktame mobiliajame įrenginyje. Nepriklausomai nuo to, ar dirbate sandėlyje, pirkimo, pardavimo, gamybos arba vadovybės skyriuje, ar turite kitų vaidmenų, turimų atsargų duomenis galite pasiekti bet kur ir bet kada. Mobilioji darbo sritis suteikia visų objektų turimų atsargų būsenos momentinį rodinį ir galimybę peržiūrėti visų objektų turimas atsargas, esamus medžiagų rezervavimus ir nerezervuotas turimas atsargas. Taip pat galite įvesti prekių numerius ir pateikti turimų atsargų užklausą bei atlikti filtruotą turimų produktų ar jų variantų iešką. Tiksliau sakant, mobilioji darbo sritis suteikia toliau nurodytas funkcijas.
 
--   Jūs galite ieškoti pagal produkto numerį arba pavadinimą rasti produktų turimų atsargų būseną.
--   Atrinktiems produktams, galite peržiūrėti tokią informaciją:
-    -   Turimų atsargų vietai
-    -   Turimos atsargos sandėlyje
-    -   Turimų atsargų vietai
-    -   Turimų atsargų partijoje (už partijos kontroliuojamų prekių)
-    -   Turimų atsargų už atsargų būseną
+-   Galite ieškoti pagal produkto numerį arba produkto pavadinimą, kad rastumėte produktus, kurių turimų atsargų būseną norite peržiūrėti.
+-   Galite peržiūrėti toliau nurodytą informaciją apie pasirinktus produktus.
+    -   Turimos atsargos pagal teritoriją
+    -   Turimos atsargos pagal sandėlį
+    -   Turimos atsargos pagal vietą
+    -   Turimos atsargos pagal paketą (skirta paketais valdomiems produktams)
+    -   Turimos atsargos pagal atsargų būseną
 
 <!-- -->
 
--   Prekės turimos atsargos yra rodomas vienu iš šių būdų:
-    -   Iš faktinių atsargų (šiuo požiūriu yra visa suma).
-    -   Iš fizinės rezervuoti (Šis rodinys yra rezervuotos sumos.)
-    -   Iš fizinės (Šis vaizdas sudaro sumos, priima be išlygų.)
+-   Produkto turimos atsargos rodomos toliau nurodytais būdais.
+    -   Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)
+    -   Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)
+    -   Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)
 
 ## <a name="get-started"></a>Darbo pradžia
-Pradžia mobiliajame įrenginyje:
+Norėdami pradėti naudoti šią darbo sritį mobiliajame įrenginyje, atlikite tolesnius veiksmus.
 
-1.  Iš mobiliųjų programėlių parduotuvėje, atsisiųskite ir įdiekite "Microsoft Dynamics 365" veiksmų programos.
-2.  Paleiskite programėlę į savo įrenginį.
-3.  Įveskite savo dinamika 365 URL.
-4.  Įveskite prisijungti prie kompanijos. Pavyzdžiui, įveskite **USMF**.
-5.  Pirmą kartą, kai prisijungsite, bus rodomas raginimas įvesti vartotojo vardą ir slaptažodį savo Microsoft Dynamics "365" veiklos sąskaita. Įvesti savo kredencialus. Po to, kai prisijungsite, matote laisvų darbo srities jūsų įmonė.
+1.  Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite ir įdiekite programą „Dynamics 365 for operations“.
+2.  Paleiskite programą savo mobiliajame įrenginyje.
+3.  Įveskite savo „Dynamics 365“ URL.
+4.  Įveskite įmonę, prie kurios norite prisijungti. Pavyzdžiui, įveskite **USMF**.
+5.  Pirmą kartą prisijungus būsite paraginti įvesti savo „Microsoft Dynamics 365 for Operations“ paskyros vartotojo vardą ir slaptažodį. Įveskite savo kredencialus. Prisijungę matysite galimas savo įmonės darbo sritis.
 
-Norėdami peržiūrėti savo mobiliesiems darbo sričių, pirmiausia turi publikuoti norimą darbo srities dinamika 365 operacijų programos.
+Norėdami darbo sritis peržiūrėti savo mobiliojoje programoje, pirmiausia turite pageidaujamas sritis publikuoti programoje „Dynamics 365 for Operations“.
 
-1.  Paleisti Dynamics 365 operacijoms.
-2.  Eikite į **sistemos administravimo**&gt;**nustatymo**&gt;**sistemos parametrai**.
-3.  Pasirinkite **tvarkyti mobiliųjų įrenginių programėlę**.
-4.  Pasirinkite darbo sritį skelbti apie mobiliųjų platformų.
-5.  Pasirinkite **skelbti darbo srities**.
-6.  Atnaujinkite įrenginio paskelbtų darbo sritis.
+1.  Paleiskite „Dynamics 365 for Operations“.
+2.  Pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **Sistemos parametrai**.
+3.  Pasirinkite **Tvarkyti mobiliąją programą**.
+4.  Pasirinkite darbo sritį, kad ją publikuotumėte mobiliojoje platformoje.
+5.  Pasirinkite **Publikuoti darbo sritį**.
+6.  Atnaujinkite įrenginio rodinį, kad matytumėte publikuojamas darbo sritis.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Rodyti turimų atsargų aprašą produkto
-1.  Mobiliajame įrenginyje, pasirinkite į **turimas atsargas** darbo srities.
-2.  Pasirinkite **patikrinti turimos prekės**. Pamatysite sąrašą produktų, kurie yra pakrauta į savo programą naudoti neprisijungus. Pagal numatytuosius nustatymus 50 prekės pakraunamos, tačiau jūs galite pakeisti šį numerį. Daugiau informacijos ieškokite iš anksto skaityti vadovą.
-3.  Jei jūsų prekės nėra sąraše, pasirinkite **ieškoti daugiau** daryti interneto paieškos Dynamics 365 operacijoms. Ieškoti pagal produkto numerį, arba pereiti į paieškos pagal prekės pavadinimą.
-4.  Pasirinkite produktą. Jei prekė turi vaizdą, vaizdas yra rodomas.
-5.  Pasirinkite vieną iš šių parinkčių norėdami peržiūrėti atsargų būseną:
-    -   Rodyti turimas vietai
-    -   Peržiūrėti turimos sandėlyje
-    -   Rodyti turimas vietai
-    -   Rodyti turimas partijoje (už partijos kontroliuojamų prekių)
-    -   Rodyti turimas už atsargų būseną
+## <a name="view-the-onhand-inventory-for-a-product"></a>Produkto turimų atsargų peržiūra
+1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Turimos atsargos**.
+2.  Pasirinkite **Patikrinti turimas prekės atsargas**. Matysite produktų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau šį skaičių galima keisti. Daugiau informacijos žr. anksčiau perskaitytame vadove.
+3.  Jei jūsų prekė nėra įtraukta į sąrašą, pasirinkite **Ieškoti daugiau**, kad galėtumėte atlikti paiešką tinkle programoje „Dynamics 365 for Operations“. Ieškokite pagal produkto numerį arba perjunkite iešką pagal produkto pavadinimą.
+4.  Pasirinkite produktą. Jei prekei priskirtas vaizdas, jis bus rodomas.
+5.  Pasirinkite vieną iš tolesnių parinkčių, kad peržiūrėtumėte turimų atsargų būseną.
+    -   Peržiūrėti turimas atsargas pagal teritoriją
+    -   Peržiūrėti turimas atsargas pagal sandėlį
+    -   Peržiūrėti turimas atsargas pagal vietą
+    -   Peržiūrėti turimas atsargas pagal paketą (skirta paketais valdomiems produktams)
+    -   Peržiūrėti turimas atsargas pagal atsargų būseną
 
-    Prekės turimos atsargos yra rodomas vienu iš šių būdų:
-    -   Iš faktinių atsargų (šiuo požiūriu yra visa suma).
-    -   Iš fizinės rezervuoti (Šis rodinys yra rezervuotos sumos.)
-    -   Iš fizinės (šiam požiūriui atstovauja turima suma, kuri priima be išlygų.)
+    Produkto turimos atsargos rodomos toliau nurodytais būdais.
+    -   Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)
+    -   Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)
+    -   Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)
 
 
 

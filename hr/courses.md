@@ -1,5 +1,5 @@
 ---
-title: Nustatyti mokymo kursai
+title: "Mokymų kursų nustatymas"
 description: "Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Nustatyti mokymo kursai
+# <a name="set-up-training-courses"></a>Mokymų kursų nustatymas
+
+[!include[banner](includes/banner.md)]
+
 
 Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.
 
@@ -85,7 +88,7 @@ Su visais kursais galite atlikti toliau nurodytas užduotis.
 -   Kurso dalyviams rekomenduoti viešbučius.
 -   Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.
 
-  >**Pastaba** kursą galite panaikinti tik tada, jei niekas užregistravo jį. 
+  >**Pastaba.** Kursą panaikinti galite tik jei niekas į jį neužsiregistravo. 
     
 ## <a name="course-statuses"></a>Kurso būsenos
 Šioje lentelėje pateikiamos galimos kurso būsenos ir veiksmai, kuriuos galite atlikti su konkrečios būsenos kursu.
@@ -132,7 +135,9 @@ Kurso dalyviai yra darbuotojai, pretendentai arba kontaktiniai asmenys, dalyvauj
 <a name="workflow"></a>Darbo eiga
 --------
 
-Darbuotojams, kurie užregistruoti kurso per į **darbuotojų savitarnos** puslapis gali turėti jų registracijos ištraukiamas per darbo eigos patvirtinimą.  Darbo eigą galima priskirti kursą apie su **bendrojo** FastTab ant, **kursus** puslapis.
+Darbuotojų, kurie į kursą registruojasi per puslapį **Darbuotojų savitarna**, registraciją galima nukreipti pro darbo eigą, kad būtų patvirtinta.  Darbo eigą priskirti kursui galima puslapio **Kursai** „FastTab‟ **Bendra**.
+
+
 
 
 

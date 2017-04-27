@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Transportavimo valdymo mechanizmai
 
+[!include[banner](../includes/banner.md)]
+
+
 Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas. 
 
 Transportavimo valdymo mechanizmas apskaičiuoja užduotis, pvz., vežėjo transportavimo tarifą. Mechanizmo sistema leidžia keisti skaičiavimo strategijas apdorojimo metu, atsižvelgiant į „Microsoft Dynamics 365 for Operations“ esančius duomenis. Transportavimo valdymo mechanizmas panašus į priedą, susijusį su tam tikra vežėjo sutartimi.
@@ -58,7 +61,7 @@ Norėdami naudoti transportavimo valdymo mechanizmą, turite nustatyti inicijavi
 Daugeliu atvejų inicijavimo duomenis galite konfigūruoti spustelėdami transportavimo valdymo mechanizmo nustatymo formose esantį mygtuką **Parametrai**. **Kilometražo mechanizmą nurodančio tarifų mechanizmo konfigūracijos pavyzdys** Toliau pateiktame pavyzdyje parodytas būtinas tarifų mechanizmo, pagrįsto .NET mechanizmo tipu Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine ir nurodančio kilometražo mechanizmą, nustatymas.
 | Parametras             | Aprašymas                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmė sintaksė susideda iš dviejų segmentų netrikdoma vertikalios juostos ()|). Pirmajame segmente yra surinkimo pavadinimas, apibrėžiantis priskyriklio tipą. Antrasis segmentas nurodo visiškai apibrėžtą priskyriklio tipo pavadinimą. Tai apima tipo vardų sritį. |
+| *RateBaseAssigner*    | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmės sintaksę sudaro du segmentai, atskirti vertikaliu brūkšniu (|). Pirmajame segmente yra surinkimo pavadinimas, apibrėžiantis priskyriklio tipą. Antrasis segmentas nurodo visiškai apibrėžtą priskyriklio tipo pavadinimą. Tai apima tipo vardų sritį. |
 | *MileageEngineCode*   | Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Operations“ duomenų bazėje.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Operations“ duomenų bazėje.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams ko
 | **Tranzito laiko mechanizmas** ir **Kilometražo mechanizmas** | Metaduomenys nuskaitomi tiesiogiai iš kilometražo mechanizmo konfigūracijos nustatymo formos.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Tarifų mechanizmo metaduomenų pavyzdys** Transportavimo valdymo mechanizmui reikia nurodyti pradinį adresą, paskirties apskritį ir šalį / regioną bei siuntos pradžios ir pabaigos taškus. Naudojant šiuos reikalavimus, metaduomenys atrodys taip, kaip duomenys toliau pateiktoje lentelėje. Lentelėje taip pat pateikiama informacija, kokio tipo įvesties duomenys yra būtini.
--   Nustatyti šią informaciją **transporto valdymo**&gt;**nustatymo** ant į **normos bazinė tipo** puslapis.
+-   Šią informaciją apibrėžkite puslapio **Tarifo pagrindo tipas** dalyje **Transportavimo valdymas** &gt; **Sąranka**.
 
 | Seka | Vardas                          | Lauko tipas | Duomenų tipas | Peržvalgos tipas    | Privaloma |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams ko
 | 3        | Pradinis paskirties vietos pašto indeksas | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 4        | Galutinis paskirties pašto indeksas   | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 5        | Paskirties šalis           | Priskyrimas | Eilutė    | Šalis/regionas |           |
+
+
 
 
 

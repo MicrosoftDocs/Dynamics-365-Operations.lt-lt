@@ -1,6 +1,6 @@
 ---
 title: Registracijos ID
-description: "Šioje temoje pateikta informacija apie kuriant ir naudojant registracijos ID."
+description: "Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>Registracijos ID
 
-Šioje temoje pateikta informacija apie kuriant ir naudojant registracijos ID.
+[!include[banner](../includes/banner.md)]
 
-Daugelyje šalių ir regionų turi skirtingų teisės aktų ir reikalavimų registracijos numerius ar ID registruoti. Šioje temoje pateikta reikiamus parametrus ir perdirbimo palaikomos registravimo tipų apžvalga šalims skirtingose Europos šalyse/regionuose. Visose šalyse/regionuose turite savo poreikį remti įvairias konkrečioms funkcijas, susijusias su registracijos numerius gautus iš įvairių valstybės tarnybų. Registracijos numerių pavyzdžiai, socialinio draudimo numerį (SSN), mokesčių identifikavimo numerį (TIN) ir Europos PVM mokėtojo kodas (ES PVM ID). Ši priemonė suteikia vieningą sistemą visoms šalims atsižvelgiant į konkrečios šalies reikalavimus, kai kuriose Europos šalyse visuose regionuose. Šiuose skyriuose aprašoma apie bendrą informaciją, kuri yra naudojama steigimo ir registravimo ID apdorojimo srautą.
+
+Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą.
+
+Daugelyje šalių ir regionų galioja skirtingi registracijos numerių arba ID įrašymo reikalavimai ir nuostatos. Šioje temoje pateikiama reikiamų parametrų ir palaikomų registracijos tipų apdorojimo apžvalga, skirta šalims įvairiose Europos šalyse / regionuose. Visose šalyse / regionuose galioja vietos reikalavimai, reguliuojantys įvairių konkrečiai šaliai skirtų funkcijų, susijusių registracijos numeriais, kuriuos teikia skirtingos valstybinės agentūros, palaikymą. Registracijos numerių pavyzdžiai: socialinis draudimo numeris (SSN), mokesčių identifikavimo numeris (TIN) ir Europos PVM identifikacija (ES PVM ID). Ši funkcija pateikia visiems regionams ir šalims skirtą suvienodintą sistemą, kurioje atsižvelgiama į kai kurioms konkrečioms Europos šalims taikomus reikalavimus. Toliau pateikiamuose skyriuose aprašomas bendras informacijos, kuri naudojama nustatant ir apdorojant registracijos ID, srautas.
 
 ## <a name="registration-type-creation"></a>Registracijos tipo kūrimas
-Prieš įvesdami registracijos ID, turite nustatyti registravimo tipus registracijos numerius, kad kiekviena šalis yra atsižvelgiant į skirtingų tipų. Eikite į **organizacijos administracijos**&gt;**adresų knyga**&gt;**registracijos tipai**&gt;**registracijos tipai** puslapis kurti ir tvarkyti registracijos tipai, tiekėjai, Klientai, darbuotojai ir juridinių asmenų skirtingose šalyse/regionuose.
+Norėdami įvesti registracijos ID, turite nustatyti įvairių rūšių registravimo numerių, kurie taikomi kiekvienai šaliai, registracijos tipus. Atidarykite puslapį **Organizacijos administravimas** &gt; **Visuotinė adresų knygelė** &gt; **Registracijos tipai** &gt; **Registracijos tipai**, kad sukurtumėte ir valdytumėte skirtingų šalių / regionų tiekėjų, klientų, darbuotojų ir juridinių subjektų registracijos tipus.
 
 |Laukas                 |aprašymas      |
 |------------------------------|----------------------------|                                                                           
 | Vardas                | Registracijos tipo pavadinimas. |                                                                           
-| aprašymas         | Registracijos tipo aprašymas. |
-| Šalis/regionas      | Unikalusis atstovo, šalis/regionas.|
-| Mokesčių inspekcija       | Mokesčių administratorius, kuris yra susietas su registravimo tipu.|
-| Apribota iki       | Natūra, apribojimas, taikomas mokesčių registracijos tipas: nėra, asmuo, organizacija.|
-| Formatuoti              | Registracijos tipo patvirtinimo formatą.|
-| Galima naujinti      | Nustatoma registracijos numeris registracijos tipo galima atnaujinti po to, kai jis yra įrašytas.|
-| Unikalus              | Nustatoma pagal registracijos numerį, registracijos tipas yra unikalus. |
-| Pagrindinis šalies | Jei šalis yra susijęs su viena ar daugiau adresų, ypač šalies ir registracijos ID galioja visi šie adresai, privalo paskirti vieną adresą kaip pirminis šalyje. Jūs galite registruotis tik vieną ID kaip pagrindinę. Nustatoma registracijos numeris gali būti įrašytas tik į šalies adreso. |
+| aprašymas         | Registracijos tipo aprašas. |
+| Šalis/regionas      | Unikalus šalies / regiono identifikatorius.|
+| Mokesčių inspekcija       | Mokesčių inspekcija, susieta su registracijos tipu.|
+| Apribota iki       | Mokesčių registracijos tipui taikomo apribojimo rūšis: Nėra, Asmuo, Organizacija.|
+| Formatuoti              | Registracijos tipo tikrinimo formatas.|
+| Galima naujinti      | Nurodo, ar įvestą registracijos tipo registracijos numerį galima naujinti.|
+| Unikalus              | Nurodo, ar registracijos tipo registracijos numeris yra unikalus. |
+| Pagrindinis šalies | Jei šalis yra susijusi su vienu ar daugiau adresų konkrečioje šalyje ir registracijos ID taikomas visiems šiems adresams, vieną adresą turite nustatyti kaip pagrindinį adresą toje šalyje. Tik vieną ID galite užregistruoti kaip pagrindinį. Nurodo, ar galima įvesti tik pagrindinio adreso šalyje registracijos numerį. |
 
-## <a name="assign-a-registration-type-to-a-registration-category"></a>Priskirti registravimo tipą registravimo kategorija
-Registravimo kategorija yra šalies/regiono registracijos identifikatorius aprobuotas naudojant šalį/regioną, mokesčių, muitinės ir kitiems tikslams. Ši kategorija apibrėžia tikrinimo taisykles, ypač registracijos ID (įskaitant tikrinimo skaitmenų ir kt.) ir integracijos registracijos ID įvairias ataskaitas. Naudokite puslapį **organizacijos administracijos**&gt;**adresų knyga**&gt;**registracijos tipai**&gt;**registracijos kategorijos** priskirti registracijos tipas tam tikros šalies palaikomos registravimo kategorija.
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Registracijos tipo priskyrimas registracijos kategorijai
+Registracijos kategorija yra šalies / regiono registracijos identifikatorius, kuris patvirtintas naudoti konkrečioje šalyje / regione mokesčių, muitų tvarkymo ir kitais tikslais. Kategorija nurodo konkretaus registracijos ID tikrinimo taisykles (įskaitant kontrolinius skaitmenis ir t. t.) ir registracijos ID įtraukimą į įvairias ataskaitas. Naudokite puslapį **Organizacijos administravimas** &gt; **Visuotinė adresų knygelė** &gt; **Registracijos tipai** &gt; **Registracijos tipai**, kad konkrečios šalies registracijos tipą priskirtumėte registracijos kategorijai.
 
 | Laukas            | aprašymas|
 |-----------------------|----------------|
-| Registracijos tipas     | Registracijos tipo ypač šalis/regionas.|
-| Apribota iki         | Apribojimas taikomas mokesčių registracijos tipas: nėra, asmuo, organizacija.|
-| Registracijos kategorija | Aprobuotas naudoti šalyje unikalų registracijos identifikatorius. Visas sąrašas, kuriam AX7.1 kategorijos yra žemiau. |
+| Registracijos tipas     | Registracijos tipas konkrečioje šalyje / regione.|
+| Apribota iki         | Mokesčių registracijos tipui taikomo apribojimo rūšis: Nėra, Asmuo, Organizacija.|
+| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau pateikiamas visas AX7.1 palaikomų kategorijų sąrašas. |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Įveskite registracijos ID adresų knygos įrašus
-Adresų knygelės (GAB) Microsoft Dynamics 365 operacijoms yra konsoliduota adreso informacija pirkėjams, tiekėjams, kontaktai, verslo ryšius ir juridiniai asmenys. Daugiau informacijos ieškokite [adresų knygų apžvalga](/dynamics365/operations/organization-administration/overview-global-address-book). Šalies įrašai, kurie saugomi Visuotiniame adresų knygoje gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Jums nustatyti registracijos ID adreso informacija pirkėjams, tiekėjams, darbuotojams, ir juridiniai asmenys. Rasti asmens (juridinio asmens, tiekėjų, klientų, darbuotojas) įrašo, kurį norite įvesti registro ID, ir tada spustelėkite **registracijos ID.** formų, susijusių su šalies, juridinis asmuo, tiekėjų, klientų, darbuotojas atidaryti su **tvarkyti adresų** puslapis. Dėl to **mokesčių registracijos** skirtuką, spustelėkite **pridėti**, ir įveskite šią informaciją apie registracijos ID.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Visuotinės adresų knygelės įrašų registracijos ID įvedimas
+Visuotinė adresų knygelė (GAB) programoje „Microsoft Dynamics 365 for Operations“ pateikia konsoliduotą klientų, tiekėjų, kontaktų, verslo ryšių ir juridinių subjektų adresų informaciją. Išsamesnės informacijos žr. [Visuotinės adresų knygelės apžvalga](/dynamics365/operations/organization-administration/overview-global-address-book). Šalies įrašuose, kurie yra saugomi visuotinėje adresų knygelėje, gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Galite nustatyti klientų, tiekėjų, darbuotojų ir juridinių subjektų adresų informacijos registracijos ID. Raskite šalies (juridinio subjekto, tiekėjo, kliento, darbuotojo) įrašą, kurio registracijos ID norite įvesti, o tada spustelėkite **Registracijos ID** formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu, darbuotoju, kad atidarytumėte puslapį **Tvarkyti adresus**. Skirtuke **Mokesčių registracija** spustelėkite **Įtraukti** ir įveskite tolesnė registracijos ID informaciją.
 
 |Laukas                |aprašymas                                                |
 |---------------------|-----------------------------------------------------------|
-| Registracijos tipas   | Registracijos tipo pasirinktos šalies/regiono.     |
-| Įmonės įreg. Nr. | Šalis registracijos ID.                                |
-| aprašymas         | Įmonės apibūdinimas.               |
-| Skyrius             | Papildomos informacijos apie registracijos numerį. |
-| Išduodanti agentūra      | Institucijai, kuri išdavė registracijos numerį.        |
-| Išdavimo data         | Išduotas data, registracijos numeris.              |
-| Galioja           | Įsigaliojimo data, registracijos numeris.           |
-| Galiojimo pabaiga          | Galiojimo pabaigos data, registracijos numeris.          |
+| Registracijos tipas   | Registracijos tipas pasirinktoje šalyje / regione.     |
+| Įmonės įreg. Nr. | Šalies registracijos ID.                                |
+| aprašymas         | Registracijos numerio aprašas.               |
+| Skyrius             | Papildoma registracijos numerio informacija. |
+| Išduodanti agentūra      | Institucija, kuri išdavė registracijos numerį.        |
+| Išdavimo data         | Registracijos numerio išdavimo data.              |
+| Galioja           | Registracijos numerio įsigaliojimo data.           |
+| Galiojimo pabaiga          | Registracijos numerio galiojimo data.          |
 
 > [!NOTE]
-> Mokesčių mokėtojo teisės subjektas, tiekėjų, klientų galima pasirinkti registracijos ID susiję su PVM mokėtojo kodas ir įrašytas šalies.
+> Juridinio subjekto, tiekėjo, kliento šalies mokesčių lengvatos numeris, kurį galima pasirinkti iš registracijos ID, susijusių su PVM ID, ir įvesti.
 
-## <a name="search-for-records-by-registration-id"></a>Ieškoti įrašų pagal registracijos ID
-Ieškoti pagal ID galima rasti susijusiose šaliai, juridinio asmens, tiekėjų, klientų ir darbuotojų registracijos šalies įrašų. Spustelėkite **registracijos ID paieškos** atidaryti, **registracijos ID paieškos kriterijus** puslapis. Nurodykite paieškos kriterijus ir spauskite **rasti**. Sistema parodys pažymėtus įrašus iš adresų knygos ir susijusios šalies įrašų tipų.
+## <a name="search-for-records-by-registration-id"></a>Įrašų ieška pagal registracijos ID
+Ieškokite šalies įrašų pagal registracijos ID, pateikiamą formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu arba darbuotoju. Spustelėkite **Registracijos ID ieška**, kad atidarytumėte puslapį **Registracijos ID ieškos kriterijai**. Nurodykite ieškos kriterijus ir spustelėkite **Rasti**. Sistema rodys pasirinktus įrašus iš visuotinės adresų knygelės ir susijusius šalies įrašo tipus.
 
 ## <a name="supported-registration-categories"></a>Palaikomos registracijos kategorijos
-Šioje lentelėje pateikiami palaikomi registracijos tipus dinamika 365 operacijoms. Jei esate susipažinę su Microsoft Dynamics AX 2012 laukuose registravimo ID, šioje lentelėje taip pat žemėlapiai tose srityse Dynamics 365 operacijų registracijos kategorijoms.
+Tolesnėje lentelėje išvardijami palaikomi registracijos tipai programoje „Dynamics 365 for Operations‟. Jei esate susipažinę su „Microsoft Dynamics AX 2012“ registracijos ID laukais: ši lentelė taip pat tuos laukus susieja su „Dynamics 365 for Operations“ registracijos kategorijomis.
 
-| Dinamika 365 operacijų registravimo kategorija         |Šalis/regionas  | Dinamika AX 2012/lauką|
+| „Dynamics 365 for Operations“ registracijos kategorija         |Šalis/regionas  | „Dynamics AX 2012“ terminas / laukas|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| PVM ID                                                        | Visose šalyse Europos Sąjungos (ES)|  PVM mokėtojo kodas (TAX ID, AX2012 R3 teisėkūros tipas)|
-| Įmonės ID (COID)                                          | Belgija Čekija Estija Vengrija Latvija Lietuva Lenkija Šveicarija | Įmonių skaičius (EnterpriseNumber) registracijos numeris (RegNum\_W) registracijos numeris (RegNum\_W) registracijos numeris (RegNum\_W) registracijos numeris (RegNum\_W) įmonės kodas (EnterpriseCode) registracijos numeris (RegNum\_W) UID (teisėkūros rūšis UID, AX2012 R3) |
-| Filialo ID                                                     | Belgija            | Filialo numeris (BranchNumber)|
-| Spisová značka (registracijos numeris, išdavusi agentūra, skyrius) | Čekijos Respublika     | Potinkinis numeris (CommercialRegisterInsetNumber) Kept prekybos užsiregistruoti komerciniame registre (CommercialRegisterSection) skyrių (CommercialRegister)|
-| Muitinės kliento ID                                           | Suomija | Muitinės klientų skaičių (CustomsCustomerNumber\_internetu)|
-| INN                                                           | Rusijos Federacija| INN (teisėkūros rūšis INN, AX2012 R3)|
-| RPK                                                           | Rusijos Federacija| Registravimo priežasties kodas (RPK, AX2012 R3 teisėkūros rūšis)|
-| EVPK                                                          | Rusijos Federacija| EVPK (teisėkūros rūšis EVPK AX2012 R3)|
-| OKPO                                                          | Rusijos Federacija| OKPO (teisėkūros rūšis OKPO AX2012 R3)|
-| RAPOK                                                         | Rusijos Federacija| RAPOK (RAPOK, AX2012 R3 teisėkūros rūšis)|
-| OGRN                                                          | Rusijos Federacija| OGRN (OGRN, AX2012 R3 teisėkūros rūšis) |
-| SNILS                                                         | Rusijos Federacija| SNILS (SNILS, AX2012 R3 teisėkūros rūšis)|
-| CIFTS                                                         | Rusijos Federacija| CIFTS (CIFTS, AX2012 R3 teisėkūros rūšis)|
+| PVM ID                                                        | Visos Europos Sąjungos (ES) šalys|  Mokesčių lengvatos numeris (įstatymuose nustatyto tipo mokesčio ID programoje AX2012 R3)|
+| Įmonės ID (COID)                                          | Belgija Čekijos Respublika Estija Vengrija Latvija Lietuva Lenkija Šveicarija | Įmonės numeris (EnterpriseNumber) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Įmonės kodas (EnterpriseCode) Registracijos numeris (RegNum\_W) UID (įstatymuose nustatyto tipo mokesčio ID programoje AX2012 R3) |
+| Filialo ID                                                     | Belgija            | Šakos numeris (BranchNumber)|
+| Spisová značka (Registracijos numeris, Išduodanti agentūra, Skyrius) | Čekijos Respublika     | Įklijos numeris (CommercialRegisterInsetNumber) Saugoma komercijos registre (CommercialRegister) Komercijos registro skyrius (CommercialRegisterSection)|
+| Muitinės kliento ID                                           | Suomija | Muitinės kliento numeris (CustomsCustomerNumber\_FI)|
+| INN                                                           | Rusijos Federacija| INN (įstatymuose nustatyto tipo INN programoje AX2012 R3)|
+| RPK                                                           | Rusijos Federacija| RRC (įstatymuose nustatyto tipo RRC programoje AX2012 R3)|
+| OKDP                                                          | Rusijos Federacija| OKDP (įstatymuose nustatyto tipo OKDP programoje AX2012 R3)|
+| OKPO                                                          | Rusijos Federacija| OKPO (įstatymuose nustatyto tipo OKPO programoje AX2012 R3)|
+| RCOAD                                                         | Rusijos Federacija| RCOAD (įstatymuose nustatyto tipo RCOAD programoje AX2012 R3)|
+| OGRN                                                          | Rusijos Federacija| OGRN (įstatymuose nustatyto tipo OGRN programoje AX2012 R3) |
+| SNILS                                                         | Rusijos Federacija| SNILS (įstatymuose nustatyto tipo SNILS programoje AX2012 R3)|
+| CIFTS                                                         | Rusijos Federacija| CIFTS (įstatymuose nustatyto tipo CIFTS programoje AX2012 R3)|
 
-Daugiau informacijos apie registravimo ID, apdorojimas, įskaitant būtinąsias sąlygas, šios užduoties įrašų ieškokite PVM ID gyvavimo ciklo paslaugų (LCS):
+Norėdami daugiau informacijos apie registracijos ID apdorojimą, įskaitant būtinąsias sąlygas, žr. toliau nurodytus PVM ID užduočių įrašus „Lifecycle Services“ (LCS).
 
 -   PVM ID nustatymas
--   Tiekėjo PVM mokėtojo kodas registracijos
+-   Tiekėjo PVM ID registracija
 -   : šalies ieška naudojant PVM ID
+
+
 
 
 

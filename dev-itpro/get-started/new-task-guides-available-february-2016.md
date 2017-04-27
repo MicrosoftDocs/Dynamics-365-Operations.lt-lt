@@ -1,6 +1,6 @@
 ---
-title: "Nauja užduoties informacija (2016 m. vasario)"
-description: "Šis wiki sąrašus užduotis vadovai, buvo išleistas &quot;Microsoft&quot; BPM bibliotekoms nuo 2016 m. vasario mėn.  Bibliotekose, kuris buvo paskelbtas apima (vasario 2016) APQC vieningas biblioteka, skirta Microsoft Dynamics 365 operacijoms ir (2016 m. vasario) darbo pradžia."
+title: "Nauji užduočių vedliai (2016 m. vasario mėn.)"
+description: "Šiame „wiki“ straipsnyje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nauja užduoties informacija (2016 m. vasario)
+# <a name="new-task-guides-february-2016"></a>Nauji užduočių vedliai (2016 m. vasario mėn.)
 
-Šis wiki sąrašus užduotis vadovai, buvo išleistas "Microsoft" BPM bibliotekoms nuo 2016 m. vasario mėn.  Bibliotekose, kuris buvo paskelbtas apima (vasario 2016) APQC vieningas biblioteka, skirta Microsoft Dynamics 365 operacijoms ir (2016 m. vasario) darbo pradžia.
+Šiame „wiki“ straipsnyje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Užduočių vadovai (vasario 2016) APQC vieningas biblioteka, skirta Microsoft Dynamics 365 operacijoms
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. vasario mėn.), skirti „Microsoft Dynamics 365 for Operations“
 ---------------------------------------------------------------------------------
 
-(Vasario 2016) APQC vieningas bibliotekoje yra užduočių vadovai, kurie skirti naudoti pagalbos Dynamics "365" dėl operacijų 7.0.0 paleisti. Jei jums reikia lokalizuotų versijų šių užduočių vadovai, jie prieinami (Gegužė 2016) APQC vieningas biblioteka, skirta Microsoft Dynamics 365 operacijoms. Daugiau informacijos apie tai, kaip prie užduočių vadovas biblioteka žinyno sistemoje, rasite [pradėti su pagalba](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su 7.0.0 „Dynamics 365 for Operations“ leidimu. Jei jums reikia lokalizuotų šių užduočių vedlių versijų, juos galite rasti APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.), skirtoje „Microsoft Dynamics 365 for Operations“. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Darbo su žinynu pradžia](help-overview.md).
 
 ### <a name="accounts-payable"></a>Mokėtinos sumos
 
@@ -531,7 +531,7 @@ ms.lasthandoff: 03/31/2017
 | Įtraukti skaičiavimą į produktų konfigūravimo modelį    | Visuotinai             |
 | Tvirtinti produkto konfigūracijos modelį                 | Visuotinai             |
 | Pagrindinis išleisto bendrojo produkto nustatymas | Bendra             |
-| Sukurti a... \financial-dimensions\dimension-based produkto meistras               | Bendra             |
+| Create a ..\financial-dimensions\dimension-based product master               | Bendra             |
 | Produktų klasifikacijų hierarchijos kūrimas          | Visuotinai             |
 | Kurti produkto konfigūracijos modelį                  | Visuotinai             |
 | Kurti bendrąjį produktą                               | Visuotinai             |
@@ -544,7 +544,7 @@ ms.lasthandoff: 03/31/2017
 | Tvarkyti produkto konfigūracijos modelio KS        | Visuotinai             |
 | Tvarkyti produkto modelio maršrutą                    | Bendra             |
 | Valdyti patvirtintus produktus                              | Bendra             |
-| Laida a... \financial-dimensions\dimension-based produkto meistras              | Bendra             |
+| Release a ..\financial-dimensions\dimension-based product master              | Bendra             |
 | Perkelti produktų modelių duomenis                      | Visuotinai             |
 
  
@@ -718,10 +718,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m. gegužės)](new-updated-task-guides-available-may-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m. rugpjūčio)](new-updated-task-guides-available-august-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m lapkričio mėn.)](new-task-guides-november-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
 
 

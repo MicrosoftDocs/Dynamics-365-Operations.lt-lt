@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Kurti padalinį ir jį priskirti padalinių hierarchijai
 
+[!include[banner](includes/banner.md)]
+
+
 Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą. Padalinius galite naudoti norėdami pranešti apie funkcines sritis. Padaliniai gali turėti pelno ir nuostolio atsakomybę.
 
-Padalinyje gali būti išlaidų centrų grupė. Padaliniams galima priskirti pareigas. Skyriaus, spustelėkite **žmogiškųjų išteklių**&gt;**skyrių**&gt;**skyriaus**. Šioje lentelėje aprašomi galimi laukai.
+Padalinyje gali būti išlaidų centrų grupė. Padaliniams galima priskirti pareigas. Norėdami kurti padalinį, spustelėkite **Personalas** &gt; **Padaliniai** &gt; **Padalinys**. Toliau pateikiamoje lentelėje aprašomi laukai, kuriuos galima naudoti.
 
 | Laukas               | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Padalinyje gali būti išlaidų centrų grupė. Padaliniams galima priskirti par
 
 Norėdami padalinį įtraukti į padalinių hierarchiją, atlikite toliau nurodytus veiksmus.
 
-1.  Spustelėkite **žmogiškųjų išteklių**&gt;**skyrių**&gt;**departamento hierarchijos**.
+1.  Spustelėkite **Personalas** &gt; **Padaliniai** &gt; **Padalinių hierarchija**.
 2.  Spustelėkite **Redaguoti**, tada pasirinkite organizaciją, kurioje padalinys turėtų būti.
 3.  Spustelėkite **Įterpti**, tada sąraše pasirinkite **Padalinys**.
 4.  Rodomame padalinių sąraše pasirinkite padalinį, kurį norite įtraukti į hierarchiją.
-5.  Įrašykite pakeitimus. Gaunate pranešimą, kad buvo sukurta hierarchijos variantą.
-6.  Kai būsite pasirengę, spustelėkite **skelbti** hierarchijos konstruktoriuje. Galite įvesti įsigaliojimo data, kuris nurodo, kada turėtų būti skelbiami pagal hierarchiją. Pvz., norėdami naują padalinį įtraukti kitų kalendorinių metų pradžioje, nustatykite įsigaliojimo datą kaip naujų kalendorinių metų sausio 1 d. Hierarchijos pakeitimai įsigalios tą dieną.
+5.  Įrašykite pakeitimus. Gausite pranešimą, kad sukurta hierarchijos juodraštinė versija.
+6.  Kai būsite pasiruošę, hierarchijos dizaino įrankyje spustelėkite **Publikuoti**. Galite įvesti įsigaliojimo datą, nurodančią, kada hierarchija turėtų būti publikuojama. Pvz., norėdami naują padalinį įtraukti kitų kalendorinių metų pradžioje, nustatykite įsigaliojimo datą kaip naujų kalendorinių metų sausio 1 d. Hierarchijos pakeitimai įsigalios tą dieną.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Planuoti savo sąskaitų planas"
+title: "Savo sąskaitų plano sudarymas"
 description: "Šiame straipsnyje pateikta informacija, kuri padės jums suplanuoti jūsų organizacijos sąskaitų planą."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Planuoti savo sąskaitų planas
+# <a name="plan-your-chart-of-accounts"></a>Savo sąskaitų plano sudarymas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikta informacija, kuri padės jums suplanuoti jūsų organizacijos sąskaitų planą.
 
@@ -34,7 +37,7 @@ Norėdami sekti ir prižiūrėti finansinę informaciją organizacijoje, galite 
 
 Sąskaitų planas yra susistemintas juridinio subjekto DK sąskaitų sąrašas. Sąrašas naudojamas norint parengti finansines ataskaitas institucijoms ir savininkams. Sąskaitos grupuojamos į sąskaitų tipus, o toliau sujungiamos į didesnes kategorijas. Žvelgiant bendrai, sąskaitos grupuojamos kaip įplaukos ir išlaidos (operacijų sąskaitos) bei turtas ir įsipareigojimai (balanso sąskaitos). 
 
-Sąskaitų planu galima dalintis ir juo naudotis gali bet kuris juridinis subjektas organizacijoje. Sąskaitų planas, naudojamas vienas subjektas apibrėžiamas pagal **knygos** puslapis. 
+Sąskaitų planu galima dalintis ir juo naudotis gali bet kuris juridinis subjektas organizacijoje. Sąskaitų planas, kurį naudoja juridinis subjektas, nurodomas puslapyje **Didžioji knyga**. 
 
 Toliau pateikiami kai kurie veiksniai, į kuriuos privalote atsižvelgti, kai planuojate savo organizacijos sąskaitų plano struktūrą:
 
@@ -48,10 +51,12 @@ Tikslinga susieti pagrindines sąskaitas su pagrindinių sąskaitų kategorijomi
 
 Naudokite puslapį **Konfigūruoti sąskaitų struktūras**, kad sukurtumėte sąskaitų struktūras. Sąskaitų struktūros apibrėžia galiojančias kombinacijas. Kombinacijos, kartu su pagrindinėmis sąskaitomis, formuoja sąskaitų planą. 
 
-**Legal entity overrides** 
+**Juridinio subjekto nepaisymai** 
 
-Ne visos pagrindinės sąskaitos galioja visi juridiniai asmenys, ir kai kurie gali būti aktuali tik už tam tikrą laikotarpį. Tokiu atveju skyrius „Juridinio subjekto nepaisymas“ gali būti naudojamas nustatyti, kurių įmonių pagrindinė sąskaita turi būti sustabdyta, kas jų savininkas ir kiek laiko dimensija yra aktyvi. Nepaisymai bendrame lygyje negali būti labiau ribojantys nei nepaisymai juridinio subjekto lygyje.
+Ne visos pagrindinės sąskaitos tinkamos visiems juridiniams subjektams, o kai kurios gali būti aktualios tik tam tikrą laikotarpį. Tokiu atveju skyrius „Juridinio subjekto nepaisymas“ gali būti naudojamas nustatyti, kurių įmonių pagrindinė sąskaita turi būti sustabdyta, kas jų savininkas ir kiek laiko dimensija yra aktyvi. Nepaisymai bendrame lygyje negali būti labiau ribojantys nei nepaisymai juridinio subjekto lygyje.
 
-Daugiau informacijos rasite [finansinės dimensijos](financial-dimensions.md).
+Daugiau informacijos ieškokite [Finansinės dimensijos](financial-dimensions.md).
+
+
 
 

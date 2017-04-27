@@ -1,6 +1,6 @@
 ---
-title: "Sudėtinių dalių darbo"
-description: "Šioje temoje aprašoma konceptualus elementų, kad darbas gali būti ir pateikiami pavyzdžiai, kaip jūs galite naudoti šiuos elementus jūsų organizacijoje."
+title: "Užduoties komponentų nustatymas"
+description: "Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Sudėtinių dalių darbo
+# <a name="setting-up-the-components-of-a-job"></a>Užduoties komponentų nustatymas
 
-Šioje temoje aprašoma konceptualus elementų, kad darbas gali būti ir pateikiami pavyzdžiai, kaip jūs galite naudoti šiuos elementus jūsų organizacijoje. 
+[!include[banner](includes/banner.md)]
 
-Prieš kurdami darbo vietas, turite nustatyti kai kurių nuorodos informacija. Galite sukurti darbo, kuris turi tik pavadinimą. Vis dėlto, įskaitant papildomos informacijos, pvz., darbo pavadinimas, pateikiate numatytąsias reikšmes į pozicijas, kurios yra priskirtos darbo. Be to, tam tikra informacija, kurią įvedate galima filtruoti kompensavimo planus iki konkrečių darbo vietų. Jei norite nustatyti tinkamumą, kad galite naudoti norėdami filtruoti kompensavimo planus į konkrečią darbo vietą, jūs turėtumėte nustatyti darbo funkcijų ir užduočių tipai prieš nustatydami darbo vietų. Turėdami šias numatytąsias vertes galima, Jūs sutaupysite laiko, jei norite pridėti pozicijas darbo. 
 
-Kai kurie darbo informaciją, pavyzdžiui, darbo pavadinimas, tipas ir funkcija, yra datos-veiksminga. Jei šiandien užduočiai kurti, bet nėra įtraukti šiuos duomenis vėliau, o tada pažvelgti į darbą nuo sukūrimo datą, šie duomenys nebus rodomi. Todėl, turite sukurti tam tikrą atskaitos informaciją prieš jums reikia. Tokiu būdu, jūs galite įtraukti informaciją į naujų darbo vietų juos kurdami.
+Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje. 
+
+Prieš kurdami užduotis turite nustatyti tam tikrą nuorodos informaciją. Galite kurti užduotį, kuri turi tik pavadinimą. Tačiau įtraukdami papildomą informaciją, pvz., pareigas, turite pateikti numatytąsias užduočiai priskirtų pareigų vertes. Be to, kai kurią informaciją, kurią įvedate, galima naudoti kompensavimo planams į konkrečias užduotis filtruoti. Jei norite nustatyti tinkamumą, kurį galite naudoti kompensavimo planams į konkrečią užduotį filtruoti, prieš nustatydami užduotis turite nustatyti užduočių funkcijas ir tipus. Nustatę šias numatytąsias reikšmes sutaupysite laiko, kai užduotį įtraukiate pareigas. 
+
+Kai kuri užduoties informacija, pvz., pareigos, tipas ir funkcija, turi galiojimo datą. Jei šiandien sukuriate užduotį, bet šios informacijos iš karto neįtraukiate, o tada peržiūrite užduotį jos sukūrimo dieną, ši informacija nebus rodoma. Todėl turėtumėte sukurti dalį šios nuorodos informacijos, nes jos gali prireikti vėliau. Tokiu būdu informaciją galite įtraukti į naujas užduotis tada, kai jas kuriate.
 
 ## <a name="job-titles"></a>Pareigos
 Tam, kad galėtumėte kurti darbo vietas, turite nustatyti tų darbo vietų pareigas. Pareigoms suteikiami darbo vietų, su kuriomis tos pareigos susietos, pareigų pavadinimai. 
 
-Išlaikyti darbo antraštines naudojant į **pavadinimai** puslapį, kuriame galite atidaryti naudodami paieškos funkciją. Dėl to ** pavadinimai ** puslapyje, įveskite pavadinimai, kad jūs planuojate naudoti savo darbams.
+Tvarkykite pareigas puslapyje **Pareigos**, kurį galite atidaryti naudodami ieškos funkciją. Puslapyje **Pareigos** įveskite pareigas, kurias planuojate priskirti užduotims.
 
 ## <a name="job-types"></a>Užduočių tipai
-Galite naudoti užduočių tipai panašūs darbai sugrupuoti į kategorijas. Užduočių tipai nebūtini. Tačiau jei užduočių tipus planuojate naudoti nustatydami kompensavimo valdymo tinkamumo taisykles, užduočių tipus turite nustatyti prieš nustatydami užduotis. Užduočių tipai pavyzdžiai darbą visą darbo dieną, ar mokėti atlyginimą ir kas valandą. Galite išlaikyti užduočių tipai naudojant į **darbo tipai** puslapis. Dėl į **darbo tipai** puslapyje, įveskite vardą ir trumpą aprašymą apie užduoties tipas. – Į **atleisti statuso** srityje, pasirinkite vieną iš šių parinkčių nurodyti teisingą darbo standartų įstatymas (FLSA) neapmokestinimo būsena tokia darbo užduočių:
+Užduočių tipai naudojami panašioms užduotims į kategorijas sugrupuoti. Užduočių tipai nėra būtini. Tačiau jei užduočių tipus planuojate naudoti nustatydami kompensavimo valdymo tinkamumo taisykles, užduočių tipus turite nustatyti prieš nustatydami užduotis. Kai kurie užduočių tipų pavyzdžiai: visa darbo diena ar ne visa darbo diena arba atlyginimas ir valandinis užmokestis. Užduočių tipus galite tvarkyti puslapyje **Užduočių tipai**. Puslapyje **Užduočių tipai** įveskite užduoties tipo pavadinimą ir trumpą aprašymą. Lauke **Neapmokestinimo būsena** pasirinkite vieną iš toliau nurodytų parinkčių, kad nurodytumėte šio tipo užduočių Sąžiningo darbo standartų akto (FLSA) neapmokestinimo būseną.
 
--   **Atleisti** – darbo vietų yra atleidžiami nuo viršvalandžius pagal į FLSA.
--   **Neatleistos** – darbas nėra atleistos nuo viršvalandžius pagal į FLSA.
--   **Netaikoma** -FLSA padengimo nėra taikoma.
+-   **Neapmokestinama** – pagal FLSA užduočių viršvalandžiai nėra apmokestinami.
+-   **Apmokestinama** – pagal FLSA užduočių viršvalandžiai yra apmokestinami.
+-   **Netaikoma** – FLSA netaikomas.
 
 ## <a name="job-functions"></a>Užduoties funkcijos
-Darbas sankryžas apibūdinti aukšto lygio funkcinės kategorijas ir susiję aukšto lygio pareigas. Nebūtini darbo funkcijoms. Darbo funkcijas, kartu su darbo tipus, galite filtruoti kompensavimo planus iki konkrečių darbo vietų. Galite susieti darbo funkcijų ir užduočių tipai su kompensavimo planus nustatant tinkamumo taisyklės į **tinkamumo taisyklės** puslapis. Tada, galite pridėti kompensavimo planą, taikomos konkrečios užduoties tipas ir darbo funkcijos, jūsų nustatytų per tinkamumo taisyklė derinys lygių rinkinį. (Šios funkcijos taikomos pastoviųjų atlyginimo dalių planai bei planų kintamosios atlyginimo dalies.) Tačiau, jei jūs planuojate naudoti darbo funkcijas, jei norite nustatyti tinkamumo finansuoti kompensavimo valdymo, turėtumėte nustatyti darbo funkcijas prieš nustatydami darbo vietų. Lentelėje pateikta keletas pavyzdžių darbo funkcijas.
+Užduočių funkcijos nurodo aukšto lygio funkcines kategorijas susieja aukšto lygio pareigas. Užduočių funkcijos nėra būtinos. Užduočių funkcijas ir užduočių tipus galite naudoti norėdami filtruoti kompensavimo planus, ieškodami konkrečių užduočių. Užduočių funkcijos ir užduočių tipai susiejami su kompensavimo planais nustatant tinkamumo taisykles puslapyje **Tinkamumo taisyklės**. Tada prie kompensavimo plano galite pridėti lygių, taikomų konkrečiam užduoties tipo ir užduoties funkcijos junginiui, kurį apibrėžėte naudodami tinkamumo taisyklę, rinkinį. (Šios funkcijos taikoms tiek pastoviosios atlyginimo dalies planams, tiek kintamosios atlyginimo dalies planams.) Tačiau, jei užduočių funkcijas planuojate naudoti nustatydami kompensavimo valdymo tinkamumo taisykles, užduočių funkcijas turite nustatyti prieš nustatydami užduotis. Tolesnėje lentelėje pateikta keletas užduočių funkcijų pavyzdžių.
 
 | Užduotis           | Užduoties funkcija         |
 |---------------|----------------------|
-| Pardavimo vadybininkas | Vidutinio lygio vadovas    |
-| Buhalteris    | Specialistams        |
+| Pardavimo vadybininkas | Vidurinio lygio vadovas    |
+| Buhalteris    | Specialistai        |
 
-Galite išlaikyti užduočių funkcijų naudojant į **užduočių funkcijų** puslapis. Dėl to **užduočių funkcijų** puslapyje, įveskite identifikavimo kodas ir trumpas darbo funkcijos.
+Užduočių funkcijas galite tvarkyti puslapyje **Užduočių funkcijos**. Puslapyje **Užduočių funkcijos** įveskite užduoties funkcijos identifikavimo kodą ir trumpą aprašymą.
 
 ## <a name="job-tasks"></a>Darbo užduotys
-Darbo uždaviniai apibūdina pagrindinio užduotis, kurias turi atlikti darbuotojas, kuris yra darbo padėtyje. Tą pačią užduotį užduotį galima įtraukti kelias užduotis ir pozicijoms dėl užduotis, kurios naudoja šias darbo užduotis. Lentelėje pateikta keletas darbo užduočių pavyzdžių.
+Darbo užduotys apibūdina pagrindines užduotis, kurias atitinkamoms pareigoms priskirtas darbuotojas turi atlikti. Tą pačią darbo užduotį galima įtraukti į kelias užduotis ir užduočių, kurios naudoja tas darbo užduotis, pareigas. Tolesnėje lentelėje pateikta keletas darbo užduočių pavyzdžių.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Darbo uždaviniai apibūdina pagrindinio užduotis, kurias turi atlikti darbuoto
 <tr class="odd">
 <td>Pardavimo vadybininkas</td>
 <td><ul>
-<li><strong>PERF-apžvalgos</strong> – peržiūrėti kiekvieno pardavėjo darbo našumą.</li>
-<li><strong>ABS-apžvalgos</strong> – patvirtinti arba atmesti kiekvieno pardavėjo prašymų leisti neatvykti arba registracijų.</li>
+<li><strong>Efektyvumo apžvalga</strong> – peržiūrėti kiekvieno pardavėjo darbo efektyvumą.</li>
+<li><strong>Neatvykimų apžvalga</strong> – patvirtinti arba atmesti kiekvieno pardavėjo prašymus leisti neatvykti arba registracijas.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Buhalteris</td>
-<td><strong>FIN-ataskaita</strong> – vyriausiasis finansų pareigūnas pateikia savaitinės finansinės ataskaitos.</td>
+<td><strong>Finansinės ataskaitos</strong> – pateikti savaitės finansines ataskaitas vyriausiajam finansininkui.</td>
 </tr>
 </tbody>
 </table>
 
-Galite išlaikyti darbo užduotis naudojant į **darbo užduotys** puslapis. Dėl to **darbo užduotis** puslapyje, įveskite pavadinimą ir aprašymą darbo užduotis. – Į **Pastaba** lauką, galite pasirinktinai įvesti papildomos informacijos. Pastabos gali būti atnaujintas specifiniam darbui nekeičiant pažymi, kad įvedėte čia.
+Darbo užduotis galite tvarkyti puslapyje **Darbo užduotys**. Puslapyje **Darbo užduotys** įveskite darbo užduoties pavadinimą ir aprašymą. Lauke **Pastaba** galite pasirinktinai įvesti papildomą informaciją. Galima naujinti konkrečios užduoties pastabas, nepakeičiant čia įvestų pastabų.
 
 ## <a name="areas-of-responsibility"></a>Atsakomybės ribos
-Nurodyti darbuotojų funkcijas, procesus ir produktus, kad darbuotojas, kuris yra darbo padėtyje yra atsakingas už naudojate atsakomybės sritis. Pavyzdžiui, už darbą, kad pavadintas "Buhalteris", viena iš atsakomybės sričių gali būti "Finansinės atskaitomybės produkto A." Galite išlaikyti atsakomybės sritis naudojant į **atsakomybės sritis** puslapį, kuriame galite rasti naudodami paieškos funkciją. Dėl į **atsakomybės sritis** puslapyje, įveskite pavadinimą ir aprašymą, atsakomybė. – Į **Pastaba** lauką, galite pasirinktinai įvesti papildomos informacijos. Pastabos gali būti atnaujintas specifiniam darbui nekeičiant pažymi, kad įvedėte čia.
+Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims, procesams ir produktams, už kuriuos jis yra atsakingas, apibrėžti. Pvz., jei užduotis pavadinta „Buhalteris“, viena atsakomybės sritis gali būti apibrėžta kaip „A produkto finansinės ataskaitos“. Atsakomybės sritis galite tvarkyti puslapyje **Atsakomybės sritys**, kurį galite rasti naudodami ieškos funkciją. Puslapyje **Atsakomybės sritys** įveskite atsakomybės pavadinimą ir aprašymą. Lauke **Pastaba** galite pasirinktinai įvesti papildomą informaciją. Galima naujinti konkrečios užduoties pastabas, nepakeičiant čia įvestų pastabų.
+
+
 
 

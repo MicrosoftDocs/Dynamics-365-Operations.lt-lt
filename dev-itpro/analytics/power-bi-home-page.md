@@ -1,6 +1,6 @@
 ---
-title: Galios BI Pagrindinis puslapis
-description: "Šioje temoje išvardytos išteklių, kurie padės jums su Dynamics 365 Power BI naudoti operacijoms."
+title: "„Power BI“ pagrindinis puslapis"
+description: "Šioje temoje nurodyti ištekliai, kurie padės naudotis „Power BI“ su „Dynamics 365 for Operations“."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,51 +24,56 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="power-bi-home-page"></a>Galios BI Pagrindinis puslapis
+# <a name="power-bi-home-page"></a>„Power BI“ pagrindinis puslapis
 
-Šioje temoje išvardytos išteklių, kurie padės jums su Dynamics 365 Power BI naudoti operacijoms.
+[!include[banner](../includes/banner.md)]
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Galia BI kiekio dinamika 365 operacijoms
+
+Šioje temoje nurodyti ištekliai, kurie padės naudotis „Power BI“ su „Dynamics 365 for Operations“.
+
+<a name="power-bi-content-for-dynamics-365-for-operations"></a>„Dynamics 365 for Operations‟ skirtas „Power BI“ turinys
 ------------------------------------------------
 
-| **Feature area**                  | **Galios BI turinys**                          | **Kur rasti Power BI turinio**                                                                                                                                                                                         | **sužinoti daugiau, sužinok daugiau**                                                                                                                                                               |
+| **Funkcijos sritis**                  | **„Power BI“ turinys**                          | **Kur rasti „Power BI“ turinį**                                                                                                                                                                                         | **Sužinokite daugiau**                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finansų valdymas              | Finansiniai rezultatai                         | Microsoft Dynamics gyvavimo ciklo paslaugų (LCS) (Ši turinio paketo versija palaiko Dynamics 365 operacijų versija 1611.) PowerBI.com (Ši turinio paketo versija palaiko Microsoft Dynamics 365 operacijų 7.0 ir 7.0.1.) | [Finansinio efektyvumo Power BI turinys](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Kredito ir kolekcijų tvarkymas             | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Žmogiškojo kapitalo valdymas          | Įdarbinant ataskaitos                            | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Recruiting Power BI content](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Darbuotojų kompetencijos ir plėtros ataskaitos | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Darbuotojų kompetencijos ir plėtros Power BI turinio](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Organizacijos sta uotės ataskaitos               | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Organizacijos mokymo Power BI turinys](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Darbo jėgos rodikliai                             | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Darbo jėgos rodikliai Power BI turinys](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Kompensacijų ir išmokų ataskaitos             | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Kompensacijos ir išmokos Power BI turinys](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Projektų valdymas ir apskaita | Praktikos vadovas                              | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Mažmeninė prekyba ir prekyba               | Mažmeninės prekybos kanalo veiklos                    | PowerBI.com                                                                                                                                                                                                                    | [Mažmeninės prekybos kanalas efektyvumo Power BI turinys](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Tiekimo grandinės valdymas           | Kaštų valdymas                               | PowerBI.com                                                                                                                                                                                                                    |  [Kaina Power BI turinio valdymas](cost-management-content-pack.md)                                                          |
-|                                   | Pardavimų ir pelningumo veiklos           | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)          |
-|                                   | Pirkimą praleisti analizė                       | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Purchase spend analysis Power BI content](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Kaštų apskaitos analizė                      | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            | [Sąnaudų apskaitos analizės Power BI turinys](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Sandėlio veiklos                         | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | Gamybos efektyvumas                        | LIETUVOS CENTRO SĄJUNGA                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Finansų valdymas              | Finansinė veikla                         | „Microsoft Dynamics Lifecycle Services“ (LCS) (ši turinio paketo versija palaiko „Dynamics 365 for Operations“ 1611 versiją.) PowerBI.com (ši turinio paketo versija palaiko „Microsoft Dynamics 365 for Operations 7.0“ ir 7.0.1.) | [Finansinės veiklos „Power BI“ turinys](financial-performance-power-bi-content-pack.md)                                               |
+|                                   | Kredito ir mokėjimų priežiūros valdymas             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Žmogiškojo kapitalo valdymas          | Įdarbinimo ataskaitos                            | LCS                                                                                                                                                                                                                            | [Įdarbinimo „Power BI“ turinys](recruiting-analysis-power-bi-content-pack.md)                                                       |
+|                                   | Darbuotojo kompetencijų ir tobulėjimo ataskaitos | LCS                                                                                                                                                                                                                            | [Darbuotojo kompetencijų ir tobulėjimo „Power BI“ turinys](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
+|                                   | Organizacinio mokymo ataskaitos               | LCS                                                                                                                                                                                                                            | [Organizacinio mokymo „Power BI“ turinys](organizational-training-analysis-power-bi-content-pack.md)                             |
+|                                   | Darbo jėgos metrika                             | LCS                                                                                                                                                                                                                            | [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)                                                 |
+|                                   | Kompensacijų ir išmokų ataskaitos             | LCS                                                                                                                                                                                                                            | [Kompensacijų ir išmokų „Power BI“ turinys](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
+| Projektų valdymas ir apskaita | Praktikos vadovas                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Mažmeninė prekyba ir prekyba               | Mažmeninės prekybos kanalo efektyvumas                    | PowerBI.com                                                                                                                                                                                                                    | [Mažmeninės prekybos kanalo efektyvumo „Power BI“ turinys](retail-channel-performance-dashboard-power-bi-data.md)                 |
+| Tiekimo grandinės valdymas           | Kaštų valdymas                               | PowerBI.com                                                                                                                                                                                                                    |  [Išlaidų valdymo „Power BI“ turinys](cost-management-content-pack.md)                                                          |
+|                                   | Pardavimo ir pelningumo našumas           | LCS                                                                                                                                                                                                                            | [Pardavimo ir pelningumo našumo „Power BI“ turinys](sales-profitability-performance-content-pack.md)          |
+|                                   | Pirkimo išlaidų analizė                       | LCS                                                                                                                                                                                                                            | [Pirkimo išlaidų analizės „Power BI“ turinys](purchase-content-pack-for-power-bi.md)                                                 |
+|                                   | Kaštų apskaitos analizė                      | LCS                                                                                                                                                                                                                            | [Kaštų apskaitos analizės „Power BI“ turinys](cost-accounting-analysis-content-pack.md)                                         |
+|                                   | Sandėlio našumas                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+|                                   | Gamybos našumas                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 
-## <a name="access-power-bi-content-from-lcs"></a>Pasiekti Power BI turinį iš LKD
-Informacijos apie tai, kaip Parsisiųsti Power BI turinį ir prijungti jį prie savo organizacijos duomenis rasite [LKD iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md).
+## <a name="access-power-bi-content-from-lcs"></a>Prieiga prie „Power BI“ turinio iš LCS
+Norėdami gauti informacijos apie tai, kaip atsisiųsti „Power BI“ turinio paketą ir prijungti jį prie organizacijos duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Pasiekti Power BI turinį iš PowerBI.com
-1.  Prisijungti prie [PowerBI.com](https://www.powerbi.com/).
-2.  Spustelėkite **gauti duomenys**.
-3.  – Į **paslaugų** spustelėkite **gauti**.
-4.  Pasirinkite turinio paketą, kuriame norite, ir tada spustelėkite **gauti**.
-5.  Įveskite URL, Dynamics 365 veiklos aplinkoje. URL turi būti formato **https://&lt;YourAOSTenant&gt;. cloudax.dynamics.com**. Click **Next**.
-6.  Pasirinkite **oAuth2** kaip autentifikavimo būdą, o tada spustelėkite **prisijungti**.
-7.  Kai būsite paraginti, įveskite "Microsoft Office 365" abonementą, kuris turi teisę pasiekti jūsų Dynamics 365 veiklos aplinkoje.
-8.  Po to, kai prisijungsite, importavimo procesas prasideda automatiškai. Kai importo baigtas, pranešimų, kurie yra įtraukti į turinio pack rodomi naršymo srityje. Pasirinkite ataskaitą, Norėdami peržiūrėti importuotus duomenis.
+## <a name="access-power-bi-content-from-powerbicom"></a>Prieiga prie „Power BI“ turinio iš PowerBI.com
+1.  Prisijunkite prie [PowerBI.com](https://www.powerbi.com/).
+2.  Spustelėkite **Gauti duomenis**.
+3.  Langelyje **Paslaugos** spustelėkite **Gauti**.
+4.  Pasirinkite norimą turinio paketą, o po to spustelėkite **Gauti**.
+5.  Įveskite savo „Dynamics 365 for Operations“ aplinkos URL. URL turi būti pateikiama tokiu formatu: **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Spustelėkite **Toliau**.
+6.  Pasirinkite autentifikavimo metodą **oAuth2**, po to spustelėkite **Prisijungti**.
+7.  Kai būsite paraginti, įveskite „Microsoft Office 365“ paskyrą, kuri neturi teisės pasiekti jūsų „Dynamics 365 for Operations“ aplinkos.
+8.  Jums prisijungus automatiškai pradedamas importavimo procesas. Kai importavimas baigiamas, naršymo srityje rodomos į turinio paketą įtrauktos ataskaitos. Pasirinkę ataskaitą peržiūrėkite importuotus duomenis.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Sužinokite daugiau apie Power BI integracijos
--   [Power BI integration](power-bi-integration.md)
--   [Apžvalga, Power BI integracija su įmonės parduotuvė](power-bi-integration-entity-store.md)
--   [Autorius ir platinti Power BI ataskaitų įmonės parduotuvė](author-distribute-power-bi-reports.md)
--   [PIN kodas Power BI ataskaitų į darbo sritis](pin-power-bi-reports.md)
--   [Galios BI turinio LKD iš "Microsoft" ir savo partnerių](power-bi-content-microsoft-partners.md)
+## <a name="learn-more-about-the-power-bi-integration"></a>Sužinokite daugiau apie „Power BI“ integravimą
+-   [„Power BI“ integravimas](power-bi-integration.md)
+-   [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md)
+-   [Kurti ir platinti „Power BI“ ataskaitas su objekto parduotuve](author-distribute-power-bi-reports.md)
+-   [Prisegti „Power BI“ ataskaitas prie darbo sričių](pin-power-bi-reports.md)
+-   [LCS esantis „Power BI“ turinys iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md)
 -   [Elektroninių ataskaitų konfigūracijos naudojimas norint „Power BI“ pateikti „Dynamics 365 for Operations“ duomenis](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
 
 
 

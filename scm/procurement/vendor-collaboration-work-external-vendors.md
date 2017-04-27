@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje paaiškinama, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas.
 
 Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Operations‟. Jis suteikia tiekėjams galimybę dirbti su pirkimo užsakymo, SF ir konsignacijos atsargų informacija. Šioje temoje aprašoma, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU ir konsignacijos atsargomis. Joje taip pat aprašoma, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU. Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Jei bendradarbiavimo sąsajoje norite bendrinti kainų informaciją, pvz., viene
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Darbas su PU naudojant tiekėjo bendradarbiavimą
 ### <a name="sending-a-po-to-the-vendor"></a>PU siuntimas tiekėjui
 
-Pirkimo užsakymai rengiami programoje „Dynamics 365 for Operations“. Kada PO būsena iš **patvirtinta**, galite jį nusiųsti tiekėjo, naudojant į ** siųsti patvirtinimo ** veiksmų į **pirkimo užsakymas** puslapis. PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjui, jis jį gali peržiūrėti tiekėjo bendradarbiavimo sąsajos puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti**, kuriame jie gali užsakymą priimti, atmesti ar siūlyti keitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
+Pirkimo užsakymai rengiami programoje „Dynamics 365 for Operations“. Kai PU būsena – **Patvirtintas**, jis tiekėjui siunčiamas naudojant puslapio **Pirkimo užsakymas** veiksmą **Siųsti patvirtinti**. PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjui, jis jį gali peržiūrėti tiekėjo bendradarbiavimo sąsajos puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti**, kuriame jie gali užsakymą priimti, atmesti ar siūlyti keitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Tiekėjo PU patvirtinimas ir priėmimas
 
-Kai tiekėjas priima pirkimo užsakymą, PU gali būti patvirtintas automatiškai arba neautomatiškai. Tai priklauso ar į ** tiekėjo aktyvinimo ** laukas yra nustatytas **Active (PO yra auto patvirtinti)** tiekėjo, arba iki **Active (PO nėra automatiškai patvirtinti)**.  
+Kai tiekėjas priima pirkimo užsakymą, PU gali būti patvirtintas automatiškai arba neautomatiškai. Patvirtinimo būdą lemia tiekėjo lauko **Tiekėjo aktyvinimas** reikšmė, kuri gali būti nustatyta **Aktyvus (PU yra automatiškai patvirtinamas)** arba **Aktyvus (PU automatiškai netvirtinamas)**.  
 
 Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsižvelgiant į tai, kaip tiekėjas atsako, kai siunčiate jam patvirtinti PU.
 
@@ -95,19 +98,19 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 <td>Tiekėjo atsakymas įrašomas kaip <strong>Atmesta</strong> ir PU būsena lieka <strong>Peržiūrima išorėje</strong>. Atmetimas gaunamas kartu su tiekėjų pastaba.</td>
 </tr>
 <tr class="odd">
-<td>Tiekėjas <strong>sutinka, kad su pakeitimus</strong>. Pokyčius yra siūloma eilutės lygyje. Galima priimti arba atmesti atskiras eilutes. Toliau pateikti kiti galimi keitimai.
+<td>Tiekėjas <strong>priima užsakymą su pakeitimais</strong>. Pakeitimai siūlomi eilutės lygiu. Galima priimti arba atmesti atskiras eilutes. Toliau pateikti kiti galimi keitimai.
 <ul>
 <li>Datų arba kiekių keitimas.</li>
 <li>Eilučių skaldymas naudojant skirtingas pristatymo datas arba kiekius.</li>
 <li>Prekės pakeitimas.</li>
 </ul>
 Tiekėjas negali keisti kainų informacijos ir išlaidų. Tokių keitimų pasiūlymus galima pateikti naudojant pastabas.</td>
-<td>Pardavėjo atsakymas žymimas <strong>priimti pokyčius</strong>, <strong></strong>ir PO statusas lieka <strong>į peticiją</strong>.</td>
+<td>Tiekėjo atliktas veiksmas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, <strong></strong> o PU būsena lieka <strong>Peržiūrimas išorėje</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Galite naudoti su **pirkimo užsakymas****paruošimas** stebėti kurioje POs tiekėjo reagavo į darbo sritį. Šioje darbo srityje yra du sąrašai, kuriuose yra pirkimo užsakymus su būsena **į peticiją**:
+Naudodami darbo sritį **Pirkimo užsakymų** **paruošimas** galite stebėti PU, kurių atžvilgiu tiekėjas atliko veiksmus. Šioje darbo srityje yra du toliau nurodyti sąrašai, kuriuose pateikiami būsenos **Peržiūrimas išorėje** pirkimo užsakymai.
 
 -   Būtina peržiūrėti išorinėje sistemoje.
 -   Išorinėje peržiūroje laukiama tiekėjo atsakymo.
@@ -125,7 +128,7 @@ Kai atšaukiate PU, jo būsena vėl pakeičiama į **Patvirtinta**. PU turite si
 Prie PU galite pridėti priedų, pvz., failų, vaizdų ir pastabų, naudodami dokumentų valdymo sistemą. Įtrauktus priedus, kuriems priskirtas tipo **Išorinis** apribojimas, tiekėjas matys tada, kai jiems išsiųsite PU.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Pirkimo užsakymo būsenos ir versijos
-Šiame skyriuje aprašomos skirtingos PU būsenos, naudojamos, kol užsakymas nėra patvirtintas, ir nurodoma, kada tiekėjui pateikiamos naujos PU versijos. Yra skirtumų, tai, atsižvelgiant į tai, ar naudojate pokyčių valdymo pirkimo užsakymų. 
+Šiame skyriuje aprašomos skirtingos PU būsenos, naudojamos, kol užsakymas nėra patvirtintas, ir nurodoma, kada tiekėjui pateikiamos naujos PU versijos. Tai gali skirtis priklausomai nuo to, ar naudojate pirkimo užsakymų pakeitimų valdymo funkciją. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versijos ir būsenos, jei nenaudojate pakeitimų valdymo funkcijos
 
@@ -168,6 +171,8 @@ Jei naudojate konsignacijos atsargas, tiekėjai gali naudoti tiekėjo bendradarb
 -   **Pirkimo užsakymų naudojamos konsignacijos atsargos** -konsignacijos atsargų pirkimo užsakymai generuojami, kai jūsų įmonė perima atsargų nuosavybės teises iš tiekėjo. Tuo pat metu registruojamas produkto gavimas. Šie konsignacijos pirkimo užsakymai rodomi tik puslapyje **Pirkimo užsakymų naudojamos konsignacijos atsargos**. Jie nėra įtraukti į modulio **Tiekėjo bendradarbiavimas** puslapį **Visi patvirtinti pirkimo užsakymai**.
 -   **Produktai, gauti iš konsignacijos atsargų** – šiame puslapyje pateikiamos visos operacijos, kuriose produktų nuosavybės teisės buvo iš tiekėjo perduotos jūsų įmonei. Tiekėjai gali naudoti šią informaciją kliento SF išrašyti.
 -   **Turimos konsignacijos atsargos** – šiame puslapyje rodomos turimos, tiekėjui priklausančios konsignacijos atsargos, pristatytos į jūsų sandėlį.
+
+
 
 
 

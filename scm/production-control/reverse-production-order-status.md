@@ -1,5 +1,5 @@
 ---
-title: "Pakeisti gamybos užsakymo būsena"
+title: "Atšaukti gamybos užsakymo būseną"
 description: "Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Pakeisti gamybos užsakymo būsena
+# <a name="reverse-the-production-order-status"></a>Atšaukti gamybos užsakymo būseną
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną. 
 
@@ -49,5 +52,7 @@ Grąžinus gamybos užsakymo būseną iš **Išleista** į **Suplanuota**, pasik
 
 ## <a name="from-started-to-released"></a>Iš Pradėta į Išleista
 Grąžinus gamybos užsakymo būseną iš **Pradėta** į **Išleista**, visos prekės, kurios buvo paskelbtos baigtomis, bus grąžintos. Jei medžiagos buvo surinktos arba jei gautos ir siunčiamos siuntos buvo gaminamos, šie parametrai atšaukiami. Gamybos užsakymo KS eilučių lauko **Likučio būsena** vertė pasikeičia iš **Baigta** į **Medžiagų suvartojimas**. Jei buvo užregistruotas laikas arba gamybos maršruto operacijai nustatytas kiekis buvo paskelbtas baigtu, šie parametrai bus atšaukti. Gamybos maršruto lauke **Likučio būsena** pasikeičia iš **Baigta** į **Maršruto suvartojimas**. Atšaukiami visų prekių, kurios užregistruotos kaip apdorojamos arba kurių gamyba nebaigta, parametrai. **Gamybos užsakymo informacijos** puslapio laukai, kuriuose nurodomas pradėtas gaminti arba paskelbtas baigtu kiekis, nustatomi iš naujo. Šių operacijų datos taip pat nustatomos iš naujo.
+
+
 
 

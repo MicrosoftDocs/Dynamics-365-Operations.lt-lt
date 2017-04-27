@@ -102,7 +102,7 @@ Planuoti pasikartojantį ciklo skaičiavimo darbo kūrimą galima dviem būdais:
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Ciklo skaičiavimo darbo kūrimas, atsižvelgiant į prekių ribinių reikšmių parametrus
 
-Ciklo skaičiavimo darbą galima kurti tada, kai prekių skaičius neviršija konkrečios vietos ribinės reikšmės. Pavyzdžiui, vietą, kurios ciklo perskaičiavimą ribos 40 yra 60 prekės. Pardavimo užsakymo operacijos, metu 25 prekės iš vietos ir įdėti į sustojimo vietą. Kadangi naujasis prekių skaičius (35) yra mažesnis už ribinį kiekį, todėl vietos ciklo skaičiavimo darbas sukuriamas automatiškai.
+Ciklo skaičiavimo darbą galima kurti tada, kai prekių skaičius neviršija konkrečios vietos ribinės reikšmės. Pavyzdžiui, vietoje, kurios ciklo skaičiavimo ribinis kiekis yra 40, yra 60 prekių. Pardavimo užsakymo operacijos metu iš vietos paimamos 25 prekės ir padedamos laikino sandėliavimo vietoje. Kadangi naujasis prekių skaičius (35) yra mažesnis už ribinį kiekį, todėl vietos ciklo skaičiavimo darbas sukuriamas automatiškai.
 
 ### <a name="schedule-cycle-counting-work"></a>Ciklo skaičiavimo darbo planavimas
 
@@ -129,7 +129,7 @@ Toliau pateiktu pavyzdžiu parodoma, kaip galima atlikti ciklo skaičiavimą vie
 ## <a name="resolve-cycle-counting-differences"></a>Ciklo skaičiavimo skirtumų pašalinimas
 Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nustatyta į **Ne**, ciklo skaičiavimo skirtumas atsiranda toliau nurodytais atvejais.
 
--   Apskaičiuota reikšmė nėra nuokrypio ribose, nurodytose lauke **Maksimali procentinė riba** arba **Maksimali kiekio riba** (puslapyje **Darbo vartotojai**). Pavyzdžiui, vietoje turimų atsargų kiekis yra 50, o darbo naudotojui nuokrypio riba yra 10. Jei darbo vartotojas įveda reikšmė yra ne nuo 40 iki 60, skirtumas atsiranda.
+-   Apskaičiuota reikšmė nėra nuokrypio ribose, nurodytose lauke **Maksimali procentinė riba** arba **Maksimali kiekio riba** (puslapyje **Darbo vartotojai**). Pavyzdžiui, vietoje turimų atsargų kiekis yra 50, o darbo vartotojo nuokrypio riba yra 10. Jei darbo vartotojas įveda reikšmę, kuri nėra nuo 40 iki 60, fiksuojamas skirtumas.
 -   Apskaičiuota reikšmė skiriasi nuo turimų atsargų kiekio, o nuokrypio ribų nenustatyta.
 
 Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reikšmę galite puslapyje **Laukiantis peržiūros ciklo skaičiavimas**. Modifikuotą prekės kiekio skaičių patikrinti galite puslapyje **Turimos atsargos pagal vietą**. Apskaičiuota reikšmė atmetama, jei skirtumo patvirtinti negalima.

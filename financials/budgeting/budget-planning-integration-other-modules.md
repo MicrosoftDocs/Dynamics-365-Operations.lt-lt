@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Biudžeto planavimo integravimas su kitais moduliais
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Biudžeto planų generavimo periodiniai procesai
@@ -49,13 +52,13 @@ Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų procesų 
 
 Galima naudoti tris bet kurio generavimo proceso veiksmus, nurodytus toliau.
 
--   **Sukurti naują biudžeto planą** sukuria naują planą, kurio atributus, pasirenkamas pagal ** tikslinės ** skyrių. Šie atributai nebūtinai turi būti unikalūs. Todėl du planai gali turėti tokį patį pavadinimą ir kitas reikšmes.
+-   **Kurti naują biudžeto planą** – sukuriamas naujas planas, kurio atributai pasirenkami sekcijoje **Paskirties** vieta. Šie atributai nebūtinai turi būti unikalūs. Todėl du planai gali turėti tokį patį pavadinimą ir kitas reikšmes.
 -   **Pakeisti esamą biudžeto plano scenarijų** – panaikinami visi pasirinkto biudžeto plano scenarijaus paskirties biudžeto plano duomenys ir sukuriamos naujos eilutės, kuriose naudojami pasirinkto šaltinio duomenys.
 -   **Atnaujinti esamą biudžeto plano scenarijų ir pridėti naujų duomenų** – atnaujinamos esamos paskirties plano eilutes, kurios atitinka šaltinio eilutes, ir sukuriamos naujos eilutės naujiems duomenims įtraukti. Gretinimas yra pagrįstas DK sąskaitos, datos, biudžeto klasės ir įvairių kitų laukų reikšmėmis. Pvz., kai biudžeto planus generuojate pagal prognozės pozicijas, pozicijos numeris yra svarbus laukas. Visos eilutės, kurių pozicijos numeris atitinka šaltinio pozicijos numerį, yra pakeičiamos naujomis eilutėmis iš šaltinio.
 
 ### <a name="source"></a>Šaltinis
 
-Visi procesai, į **šaltinio** skirtuke galite filtruoti duomenis, naudojant į **filtras** mygtuką. Pagal numatytuosius nustatymus konkrečiose srityse yra įtraukta į kiekvieną procesą filtrą. Pvz., jei vykdomas procesas **Generuoti biudžeto planą pagal didžiąją knygą**, galima naudoti kategorijas **DK sąskaita** ir **Pagrindinė sąskaita** ir jos yra rodomos generavimo puslapyje. Į puslapį įtraukiami visi į filtrą įtraukti laukai bei kiti jūsų nurodyti kriterijai.
+Skirta visiems procesams: skirtuke **Šaltinis** galima filtruoti duomenis naudojant mygtuką **Filtras**. Pagal numatytuosius parametrus kiekvieno proceso konkretūs laukai yra įtraukiami į filtrą. Pvz., jei vykdomas procesas **Generuoti biudžeto planą pagal didžiąją knygą**, galima naudoti kategorijas **DK sąskaita** ir **Pagrindinė sąskaita** ir jos yra rodomos generavimo puslapyje. Į puslapį įtraukiami visi į filtrą įtraukti laukai bei kiti jūsų nurodyti kriterijai.
 
 ### <a name="target"></a>Tikslas
 
@@ -63,7 +66,7 @@ Skirtuko **Paskirtis** parinktis **Retrospektyvinis** suteikia galimybę šaltin
 
 Puslapio viršuje esantis laukas Į **Sudėti sumas pagal** taip pat lemia, kuri data yra naudojama. Šiame lauke sudedamos sumos ir pasirinktinai įsigaliojimo data yra nustatoma kaip pirmoji finansinių metų arba ataskaitinio laikotarpio data. 
 
-Daugelį skirtuko **Paskirtis** laukų bus galima redaguoti arba tik skaityti, priklausomai nuo pasirinkto veiksmo. Jei vietoje to, kad kurtumėte naują biudžeto planą, nusprendžiate naujinti esamą, lauko **Biudžeto plano pavadinimas** nebus galima naudoti, bet bus suaktyvinti laukai, susiję su esamo plano pasirinkimu. Abiejų **tikslą** skirtuką ir ** šaltinis ** grupėje, **knygos** laukas negalimas visada, todėl jo vertė nustatoma iš pasirinkto biudžeto planavimo procesą. 
+Daugelį skirtuko **Paskirtis** laukų bus galima redaguoti arba tik skaityti, priklausomai nuo pasirinkto veiksmo. Jei vietoje to, kad kurtumėte naują biudžeto planą, nusprendžiate naujinti esamą, lauko **Biudžeto plano pavadinimas** nebus galima naudoti, bet bus suaktyvinti laukai, susiję su esamo plano pasirinkimu. Skirtukų **Paskirtis** ir **Šaltinis** lauko **Didžioji knyga** niekada negalima naudoti, nes jo reikšmė yra nustatoma pagal pasirinktą biudžeto planavimo procesą. 
 
 Lauke **Biudžeto klasė** biudžeto plano eilutes galima nustatyti kaip išlaidų operacijas arba įplaukų operacijas. Paprastai įplaukų operacijos yra DK sąskaitos kreditai ir todėl jos yra įrašomos kaip neigiamos sumos. Paprastai šios operacijos biudžeto plane taip pat yra rodomos kaip neigiamos sumos. Tačiau biudžeto klasę į plano maketą įtraukę kaip lauką, galite nustatyti, kad įplaukos būtų rodomos kaip teigiamos sumos.
 
@@ -73,7 +76,7 @@ Trijuose laukuose pateikiamos papildomų funkcijos: **Koeficientas**, **Minimalu
 
 Lauko **Koeficientas** reikšmė yra padauginama iš šaltinio sumos, siekiant nustatyti biudžeto plano sumą. Tada kurdami biudžeto plano eilutes galite atlikti koregavimus. Pavyzdžiui, galite įvesti **1,03**, norėdami nurodyti 3 procentų padidėjimą. Koeficientas turi būti teigiamas skaičius. 
 
-Lauke **Minimalus** galima nustatyti kuriamos biudžeto plano eilutės ribinę sumą. Jei šaltinio suma yra mažesnė nei šis skaičius, biudžeto plano eilutė nėra kuriama. Vertė yra **0.00** leidžia visas sumas, bet tokio apribojimo neturi teigiamos sumos eilutes. (Jokios vertės ribas, teigiamos sumos eilutes. Neigiamos sumos visada įtraukiami ir paprastai atstovauja kredito įrašus.)
+Lauke **Minimalus** galima nustatyti kuriamos biudžeto plano eilutės ribinę sumą. Jei šaltinio suma yra mažesnė nei šis skaičius, biudžeto plano eilutė nėra kuriama. Įvedus reikšmę **0,00**, leidžiamos visos sumos, bet eilučių sumos gali būti ne tik teigiamos. (Nėra reikšmės, kuri leistų tik eilučių teigiamas sumas. Neigiamos sumos yra visada įtraukiamos ir jos paprastai nurodo kredito įrašus.)
 
 Lauke **Apvalinimo taisyklė** galima nustatyti kuriamų biudžeto plano eilučių tikslumą. Sumas galima apvalinti iki artimiausio valiutos 1,00, 10,00, 100,00 ir t. t.
 
@@ -86,13 +89,13 @@ Paskirties vietoje lauko **Biudžeto klasė** reikšmė yra nustatoma kaip **Iš
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Generuoti biudžeto planą pagal ilgalaikį turtą
 
-Vykdant procesą **Generuoti biudžeto planą pagal ilgalaikį turtą**, agreguoti pagal laikotarpį arba dieną negalima. Nėra parinkties nustatymo planą kaip istorijos. Šis procesas periodiškai galite įtraukti numatomas operacijas ilgalaikio turto biudžeto planavimo.
+Vykdant procesą **Generuoti biudžeto planą pagal ilgalaikį turtą**, agreguoti pagal laikotarpį arba dieną negalima. Taip pat negalima planą nustatyti kaip retrospektyvinį. Šį periodinį procesą galite naudoti, norėdami numatomas ilgalaikio turto operacijas įtraukti į biudžeto planavimą.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Generuoti biudžeto planą pagal prognozuojamas pareigas
 
 Proceso **Generuoti biudžeto planą pagal prognozės pozicijas** metu biudžeto plano eilutei priskiriama šaltinio prognozės pozicija. Poziciją galite peržiūrėti į biudžeto plano maketą įtraukdami prognozės poziciją kaip eilutę arba naudodami užklausą **Biudžeto plano eilutės**. Jei nenorite prognozės pozicijos priskirti biudžeto plano eilutėms, nustatykite parinktį **Įtraukti poziciją į biudžeto plano eilutę** kaip **Ne**.
 
-Biudžeto plano linijos yra sudedami pagal DK sąskaitą ir poziciją. Tačiau, galite išskirti pozicijos numeris, taip, kad linijos yra sudedami pagal DK sąskaitas tik. Skirtuke **Paskirtis** parinktį **Įtraukti poziciją į biudžeto planą** nustatykite kaip **Ne**.
+Biudžeto plano eilutės sujungiamos pagal DK sąskaitą ir poziciją. Tačiau jūs galite pozicijos numerio neįtraukti, kad eilutės būtų sujungiamos tik pagal DK sąskaitą. Skirtuke **Paskirtis** parinktį **Įtraukti poziciją į biudžeto planą** nustatykite kaip **Ne**.
 
 Lauke **Biudžeto plano FTE scenarijus** galima pasirinkti į biudžeto plano scenarijų įtraukti viso etato ekvivalentų (FTE) skaičių. Šiame lauke galima naudoti tik kiekio tipo scenarijus, įtrauktus į tikslinio biudžeto plano maketą. Jei pasirinksite FTE scenarijų, taip pat turite pasirinkti FTE pagrindinę sąskaitą. Ši sąskaita naudojama kuriant kiekio biudžeto plano eilutes. 
 
@@ -140,5 +143,7 @@ Pasirinkite eilutę ir spustelėkite mygtuką **Biudžeto plano eilutės**, nor�
 Naudokite mygtukus **Tiekimo prognozė** ir **Poreikio prognozė** šioms užklausoms pateikti. Abiem atvejais užklausa ieško prognozės eilučių, kurios galėjo sukurti biudžeto plano eilutes. 
 
 Galima naudoti vieną iš papildomų ataskaitų – **Prognozės pozicijos pagal biudžeto planą**. Ši ataskaita yra ypač naudinga, kai norite nustatyti, ar pozicija buvo tinkamai priskirta biudžeto planams.
+
+
 
 

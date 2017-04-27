@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Gautinų sumų centralizuoti mokėjimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
 
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti į kelis juridinius subjektus. Be to, organizacija sutaupo laiko, nes supaprastinami mokėjimo pasiūlymų, sudengimų ir atidarytų bei uždarytų centralizuotų mokėjimų operacijų redagavimo procesai. 
 
-Centralizuotas mokėjimo organizacijoje, yra daug juridinių asmenų veiklą, ir kiekvienas veiklos juridinis asmuo, tvarko savo sąskaitas gautina informacija. Mokėjimus už visų darbo teisės subjektai gavo vieno juridinio subjekto, kuris yra žinomas kaip juridinis asmuo, mokėjimo. Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos. Galite nurodyti, kuris organizacijos juridinis subjektas gauna patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su centralizuotu mokėjimu susijusios mokėjimo nuolaidų operacijos. 
+Centralizuotų mokėjimų organizacijoje yra daug operacijų juridinių subjektų, ir kiekvienas veikiantis juridinis subjektas valdo savo gautinų SF informaciją. Visų veikiančių juridinių subjektų mokėjimus gauna vienas juridinis subjektas, kuris vadinamas mokėjimo juridiniu subjektu. Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos. Galite nurodyti, kuris organizacijos juridinis subjektas gauna patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su centralizuotu mokėjimu susijusios mokėjimo nuolaidų operacijos. 
 
 Toliau pateiktame pavyzdyje parodyta, kaip atliekamas registravimas įvairių scenarijų atvejais. Ši konfigūracija naudojama visų toliau nurodytų pavyzdžių atvejais.
 
@@ -66,14 +69,14 @@ Fabrikam gauna 600,00 dydžio mokėjimą iš Fabrikam kliento sąskaitos 4000, N
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                         | Debeto suma | Kredito suma |
 |---------------------------------|--------------|---------------|
 | Gautinos sumos (Fabrikam)  | 600,00       |               |
 | Mokėti Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                             | Debeto suma | Kredito suma |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam gauna 600,00 dydžio mokėjimą iš Fabrikam kliento sąskaitos 4000, N
 | Gautinos sumos (Fabrikam East) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>2 pavyzdys: Kliento SF mokėjimas iš kito juridinio subjekto su mokėjimo nuolaida
-Fabrikam gauna 580,00 dydžio mokėjimą iš Fabrikam kliento 4000, Northwind Traders. Fabrikam Rytų turi atidaryti sąskaitą klientui 4000. SF galima 20,00 dydžio mokėjimo nuolaida. Mokėjimas yra sudengiamas su atviromis Fabrikam East SF. Mokėjimo nuolaida yra užregistruojama SF juridiniame subjekte, Fabrikam East.
+Fabrikam gauna 580,00 dydžio mokėjimą iš Fabrikam kliento 4000, Northwind Traders. Fabrikam East turi atidarytą 4000 kliento SF. SF galima 20,00 dydžio mokėjimo nuolaida. Mokėjimas yra sudengiamas su atviromis Fabrikam East SF. Mokėjimo nuolaida yra užregistruojama SF juridiniame subjekte, Fabrikam East.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Sąskaita faktūra užregistruota Fabrikam East 4000 klientui įmonėje Fabrikam East
 
@@ -99,14 +102,14 @@ Fabrikam gauna 580,00 dydžio mokėjimą iš Fabrikam kliento 4000, Northwind Tr
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                         | Debeto suma | Kredito suma |
 |---------------------------------|--------------|---------------|
 | Gautinos sumos (Fabrikam)  | 580,00       |               |
 | Mokėti Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                             | Debeto suma | Kredito suma |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam gauna 600,00 eurų (EUR) mokėjimą iš Fabrikam 4000 kliento, „North
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                         | Debeto suma            | Kredito suma           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam gauna 600,00 eurų (EUR) mokėjimą iš Fabrikam 4000 kliento, „North
 | Mokėti Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Gautas pelnas (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                             | Debeto suma            | Kredito suma           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam užregistruoja Fabrikam kliento 4000, Northwind Traders, atviros SF mok
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                         | Debeto suma            | Kredito suma           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam užregistruoja Fabrikam kliento 4000, Northwind Traders, atviros SF mok
 | Mokėti Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Gautas pelnas (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                             | Debeto suma            | Kredito suma           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam užregistruoja Fabrikam kliento 4000, Northwind Traders, atviros SF mok
 | Gautinos sumos (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>5 pavyzdys: Kliento kredito pažyma taikant pirminį mokėjimą
-Fabrikam gauna 75,00 mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas yra sudengiamas su Fabrikam West kliento 10 000 atvira SF ir Fabrikam East kliento 4000 atvira kredito pažyma. Mokėjimas yra pažymėtas kaip pirminės mokėjimo į **atsiskaitymams** puslapis.
+Fabrikam gauna 75,00 mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas yra sudengiamas su Fabrikam West kliento 10 000 atvira SF ir Fabrikam East kliento 4000 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** yra pažymimas kaip pirminis mokėjimas.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Sąskaita faktūra užregistruota 10000 klientui įmonėje Fabrikam West
 
@@ -224,7 +227,7 @@ Fabrikam gauna 75,00 mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam gauna 75,00 mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas 
 | Gautinos sumos (Fabrikam)    | 100,00       |               |
 | Mokėti Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                             | Debeto suma | Kredito suma |
 |-------------------------------------|--------------|---------------|
 | Gautinos sumos (Fabrikam East) | 25,00        |               |
 | Mokėtojas – Fabrikam (Fabrikam East)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West registravimas**
 
 | Sąskaita                             | Debeto suma | Kredito suma |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam gauna 75,00 mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas 
 | Gautinos sumos (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>6 pavyzdys: Kliento kredito pažyma netaikant pirminio mokėjimo
-Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas yra sudengiamas su Fabrikam West kliento 10 000 atvira SF ir Fabrikam East kliento 4000 atvira kredito pažyma. Mokėjimo neparinkta kaip pirminės mokėjimo į **atsiskaitymams** puslapis.
+Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mokėjimas yra sudengiamas su Fabrikam West kliento 10 000 atvira SF ir Fabrikam East kliento 4000 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** nėra pažymimas kaip pirminis mokėjimas.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Sąskaita faktūra užregistruota 10000 klientui įmonėje Fabrikam West
 
@@ -273,21 +276,21 @@ Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mok
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                         | Debeto suma | Kredito suma |
 |---------------------------------|--------------|---------------|
 | Gautinos sumos (Fabrikam)  | 75,00        |               |
 | Mokėti Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                              | Debeto suma | Kredito suma |
 |--------------------------------------|--------------|---------------|
 | Gautinos sumos (Fabrikam East)  | 25,00        |               |
 | Mokėti įmonei Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West registravimas**
 
 | Sąskaita                                | Debeto suma | Kredito suma |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mok
 | Gautinos sumos (Fabrikam West)    |              | 75,00         |
 | Mokėtojas – Fabrikam East (Fabrikam West) | 25,00        |               |
 | Gautinos sumos (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

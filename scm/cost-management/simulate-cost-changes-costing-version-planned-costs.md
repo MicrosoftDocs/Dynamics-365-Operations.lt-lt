@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinta, kaip modeliuoti išlaidų pokyčio poveikį pagamintos prekės apskaičiuotoms išlaidoms naudojant atskirą suplanuotų išlaidų įkainojimo versiją.
 
 Išlaidų pokyčio poveikį apskaičiuotoms pagamintų prekių išlaidoms galite modeliuoti naudodami atskirą suplanuotų išlaidų įkainojimo versiją. Norėdami įvesti laukiamų išlaidų įrašus, atspindinčius didėjančius išlaidų pokyčius ir apskaičiuoti išlaidų poveikį pagamintoms prekėms, naudokite šią atskirą įkainojimo versiją. Kadangi skaičiuojant KS bus naudojamas atsarginis Aktyvių išlaidų principas, reikės įvesti tik didėjančius išlaidų pokyčius.
@@ -54,5 +57,7 @@ Toliau pateiktais scenarijais iliustruojama, kaip įkainojimo modeliavimo versij
 -   Netiesioginių išlaidų skaičiavimo formulėje sumodeliuokite išlaidų pokytį. Pvz., išlaidų pokytis gali atspindėti numatomą gamybos pridėtinių išlaidų padidėjimą ar sumažėjimą. Norėdami nurodyti netiesioginių išlaidų skaičiavimo formulės pokytį, naudodami puslapį **Įkainojimo lapo nustatymas** įkainojimo modeliavimo versijoje įveskite įrašą apie laukiančias išlaidas, patikrinkite ir įrašykite keitimą.
 
 Įvedę sumodeliuotus išlaidų pokyčius, apskaičiuokite pagamintų prekių, kurias paveikė išlaidų pokyčiai, išlaidas. Įkainojimo modeliavimo versijai naudodami puslapį **Skaičiavimas** nustatykite pasirinktas pagamintas prekes, kurioms turės įtakos išlaidų pokyčiai. KS skaičiavimai taikomi visoms pagamintoms prekėms, nebent jūs pasirenkate konkrečias prekes. Taip pat galite naudoti KS skaičiavimo pasirinktį, skirtą duomenų apie naudojimą atnaujinimams. Norėdami analizuoti, kaip modeliuojami išlaidų pokyčiai veikia pasirinktų pagamintų prekių išlaidas, peržiūrėkite prekės išlaidų įrašus įkainojimo modeliavimo versijoje. Norėdami peržiūrėti ir analizuoti išlaidas naudokite puslapius **Prekės kaina** ir **Skaičiuoti prekės savikainą**.
+
+
 
 

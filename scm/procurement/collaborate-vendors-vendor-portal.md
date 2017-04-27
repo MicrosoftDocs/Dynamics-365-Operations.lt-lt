@@ -1,6 +1,6 @@
 ---
-title: "Bendradarbiauti su pardavėjais, naudojant tiekėjo portalas"
-description: "Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik iki 2016 m. vasario &amp;Dynamics AX &quot;gegužės 2016&quot; versijos."
+title: "Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą"
+description: "Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiauti su pardavėjais, naudojant tiekėjo portalas
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
 
-Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik iki 2016 m. vasario &amp;Dynamics AX "gegužės 2016" versijos.
+[!include[banner](../includes/banner.md)]
 
-Šios temos informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms. Tiekėjo portalo funkcionalumą pakeitė ilgą tiekėjo intoms bendradarbiavimo funkcinėms galimybėms Dynamics 365 operacijų versija 1611. Daugiau informacijos apie naują tiekėją intoms bendradarbiavimo funkcinėms galimybėms, rasite [naudojant tiekėjo bendradarbiavimas su išorės tiekėjais dirbti](vendor-collaboration-work-external-vendors.md).  
+
+Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms.
+
+Šios temos informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms. Tiekėjo portalo funkcija buvo pakeistą išplėstine tiekėjo bendradarbiavimo funkcija 1611 „Dynamics 365 Operacijos“ versija. Daugiau informacijos apie naująją tiekėjo bendradarbiavimo funkciją ieškokite puslapyje [Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti](vendor-collaboration-work-external-vendors.md).  
 
 Tiekėjo portalas skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics AX‟, skirtos mainytis pirkimo užsakymų (PU) informacija. Portale pirkimo agentai gali tiekėjui siųsti PU ir tada tiesiai programoje „Dynamics AX‟ gauti atsakymą Patvirtinta arba Atmesta.  
 
@@ -66,9 +69,9 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 | Naująją PU versiją nusiunčiate į Tiekėjo portalą. | Tiekėjo portale užregistruojama nauja versija ir būsena pakeičiama į **Peržiūrima išorėje**. |
 | Tiekėjas patvirtina naująją PU versiją.           | Būsena pakeičiama į **Patvirtinta**.                                                                |
 
-Jei norite pamatyti PO versijų, kurios buvo pervestos į pardavėją ir pardavėjo atsakymus, spustelėkite **žurnalus**&gt;**patvirtinimo prašymus** nuo PO.  
+Norėdami pamatyti tiekėjui išsiųstų PU versijas ir tiekėjų atsakymus, pirkimo užsakyme spustelėkite **Žurnalai** &gt; **Patvirtinimo užklausos**.  
 
-Užsakymai, kurie buvo išsiųsti tiekėjui patvirtinti ir kurių būsena yra **Peržiūrima išorėje**, rodomi sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; laukiama atsako** arba sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; kad būtų pateiktas atsakas, reikia atlikti veiksmą**. Kai užsakymą, kuris buvo išsiųstas tiekėjui, pakeičiate taip, kad jo būsena grąžinama į **Patvirtinta**, užsakymas šiuose sąrašuose neberodomas. Norėdami pamatyti, ar anksčiau buvo atsakas į užsakymą iš tiekėjo, spustelėkite **žurnalus**&gt;**patvirtinimo prašymus**.  
+Užsakymai, kurie buvo išsiųsti tiekėjui patvirtinti ir kurių būsena yra **Peržiūrima išorėje**, rodomi sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; laukiama atsako** arba sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; kad būtų pateiktas atsakas, reikia atlikti veiksmą**. Kai užsakymą, kuris buvo išsiųstas tiekėjui, pakeičiate taip, kad jo būsena grąžinama į **Patvirtinta**, užsakymas šiuose sąrašuose neberodomas. Norėdami pamatyti, ar anksčiau būta tiekėjo pateiktų atsakymų dėl užsakymo, spustelėkite **Žurnalai** &gt; **Patvirtinimo užklausos**.  
 
 Tiekėjams Tiekėjo portale PU patvirtinti nereikia. Jie taip pat gali nusiųsti el. laišką arba apie PU patvirtinimą paskelbti kitais kanalais. Tada užsakymą rankiniu būdu galite patvirtinti programoje „Dynamics AX‟. Tokiu atveju gaunate įspėjimą, kad užsakymas patvirtinamas, nors nėra jokio atsakymo iš tiekėjo. PU tada rodomas Tiekėjo portalo patvirtinimo istorijoje, kaip atidarytas patvirtintas užsakymas, neturintis jokių atsakymų. Be to, tiekėjas nebegali PU patvirtinti arba atmesti.  
 
@@ -97,5 +100,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 [Tiekėjo bendradarbiavimo funkcijos vartotojų saugos konfigūracija](configure-security-vendor-portal-users.md)
 
 [Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

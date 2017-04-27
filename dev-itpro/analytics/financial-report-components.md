@@ -101,7 +101,7 @@ Galite įrašyti esamą kūrimo blokų grupę, naudodami naują pavadinimą. Tad
 
 ### <a name="export-a-building-block-group"></a>Kūrimo bloko grupės eksportavimas
 
-Galite eksportuoti statybinis blokas grupę arba specialią ataskaitą blokai kūrimo blokų grupės. Eksportuojamų kūrimo blokų grupės galite naudoti kaip atsarginę kopiją. Taip pat galite kopijuoti eksportuotus duomenis tarp statybinis blokas grupių ar Dynamics 365 operacijų įrenginiams. Apie dizainerio apima nurodytų šriftų stilių ir dimensijų rinkiniai kartu su kūrimo bloko grupe.
+Galite eksportuoti kūrimo blokų grupę arba konkrečius kūrimo blokų grupės ataskaitos kūrimo blokus. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Taip pat eksportuotus duomenis galite kopijuoti į kitas kūrimo blokų grupes arba „Dynamics 365 for Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
 2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite kūrimo bloko grupę, kurią norite eksportuoti, tada spustelėkite **Eksportuoti**.
 3.  Dialogo lange **Eksportuoti** pasirinkite norimus eksportuoti ataskaitos aprašus.

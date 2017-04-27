@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Peržiūrėti finansines ataskaitas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics AX“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
 <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
@@ -48,7 +51,7 @@ Galite pakeisti ataskaitos datą, taikyti atributų ir dimensijos filtrus arba p
 
 -   Norėdami pakeisti ataskaitos pradinį laikotarpį ir pradinius metus, pasirinkite pradinį laikotarpį ir pradinius metus, ir spustelėkite **Gerai**.
 -   Norėdami ataskaitai pritaikyti atributų filtrus, pasirinkite **Pridėti atributų filtrą**. Pasirinkite atributą, įveskite atributo reikšmę, tada spustelėkite **Gerai**. Pvz., jei pasirenkate atributą **Sąskaitų kategorija**, įveskite atributo reikšmę **PARDAVIMAI**. Norėdami pašalinti filtrą, spustelėkite **Išvalyti**.
--   Norėdami taikyti dimensijų filtrai ataskaitą, pasirinkite **pridėti dimensijos filtras**. Pasirinkite dimensiją, ir tada įvesti dimensijos ID arba iš sąrašo pasirinkite dimensiją. Norėdami pašalinti dimensijos filtrą, spustelėkite **Išvalyti**.
+-   Norėdami ataskaitoje pritaikyti dimensijos filtrus, pasirinkite **Įtraukti dimensijos filtrą**. Pasirinkite dimensiją, tada įveskite dimensijos ID arba sąraše pasirinkite dimensiją. Norėdami pašalinti dimensijos filtrą, spustelėkite **Išvalyti**.
 -   Pakeiskite scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** pasirinkdami naują scenarijų ir spustelėdami **Gerai**. Jei pasirinktas kitų metų scenarijus, nepamirškite atnaujinti pradinių metų. Pvz., jei dabartinis scenarijus skirtas FY2015, o jūs pasirinktate naują scenarijų, kuris skirtas FY2016, reikėtų pakeisti pradinius metus į **2016**.
 
 Spustelėjus **Gerai**, ataskaitai pritaikomos visos jūsų pasirinktos parinktys. Jei nuspręsite, kad nenorite taikyti pasirinktų parinkčių, spustelėkite **Atšaukti**.
@@ -66,7 +69,7 @@ Finansinę ataskaitą galima rodyti bet kuria valiuta, bet kuriuo metu. Norėdam
 Finansinėje ataskaitoje gali būti informacijos eilutės ir suvestinės eilutės. Informacijos eilutės yra eilutės, kuriose yra pagrindinės sąskaitos arba dimensijos. Suvestinės eilutės yra aprašymo, bendros sumos ir skaičiavimo eilutes. Norėdami matyti tik ataskaitos suvestinės eilutes, spustelėkite **Rodyti**, tada spustelėkite **Tik suvestinės eilutės**. Ataskaita sutraukiama ir rodo tik suvestinės eilutes. Norėdami peržiūrėti informacijos eilutes kartu su suvestinės eilutėmis, spustelėkite **Rodyti**, tada dar kartą spustelėkite **Tik suvestinės eilutės**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Ankstesnio mėnesio finansinės ataskaitos atidarymas
-Galite peržiūrėti esamo mėnesio arba ankstesnių mėnesių ataskaitas negeneruodami ataskaitos iš naujo. Norėdami atidaryti pranešimą už praėjusį mėnesį, spustelėkite **parodyti**, ir tada spustelėkite **ankstesnį ataskaitos**. Pasirodo, kad ataskaita buvo sukurta už ankstesnius mėnesius sąrašas. Išplėskite mėnesį, kurio ataskaitą norite peržiūrėti, pasirinkite datą, tada spustelėkite **Gerai**. Rodoma ankstesnio mėnesio ataskaita. Norėdami grįžti į dabartinio mėnesio ataskaitą, spustelėkite **Atšaukti**.
+Galite peržiūrėti esamo mėnesio arba ankstesnių mėnesių ataskaitas negeneruodami ataskaitos iš naujo. Norėdami atidaryti ankstesnio mėnesio ataskaitą, spustelėkite **Rodyti**, tada spustelėkite **Ankstesnės ataskaitos**. Pateikiamas ankstesnių mėnesių, kurių ataskaitos buvo generuotos, sąrašas. Išplėskite mėnesį, kurio ataskaitą norite peržiūrėti, pasirinkite datą, tada spustelėkite **Gerai**. Rodoma ankstesnio mėnesio ataskaita. Norėdami grįžti į dabartinio mėnesio ataskaitą, spustelėkite **Atšaukti**.
 
 ## <a name="print-a-financial-report"></a>Finansinės ataskaitos spausdinimas
 Norėdami spausdinti finansinę ataskaitą, veiksmų srityje spustelėkite **Spausdinti**, tada atlikite vieną arba kelis šiuos veiksmus, kad nustatytumėte spausdinimo parinktis:
@@ -85,5 +88,7 @@ Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Ek
 --------
 
 [„Microsoft Dynamics AX“ finansinės ataskaitos](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

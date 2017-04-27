@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Adresų knygelės
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Kaip patikrinti, ar nėra besidubliuojančių įrašų?
@@ -53,7 +56,7 @@ Atnaujinti šalies įrašo pavadinimą ir adresus, susietus su tuo įrašu, gali
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Ar galima du arba kelis šalių įrašus sulieti į vieną įrašą?
 Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įrašą. Taip gali nutikti, jei sąmoningai ar netyčia sukuriate vieną ar kelis besidubliuojančius šalių įrašus. Suliedami šalių įrašus, vieną įrašą pasirenkate išsaugoti. Į šį įrašą tada suliejama informacija iš kitų įrašų. Pavyzdžiui, pastebite, kad informacija apie „Fabrikam‟ saugoma trijuose šalių įrašuose: A, B ir C. Nusprendžiate palikti šalies įrašą A. Todėl informacija, saugoma šalių įrašuose B ir C, bus sulieta į šalies įrašą A. Toliau nurodytos kelios situacijos, kai sulieti šalių įrašų negalima.
 
--   Negalima sulieti šalių įrašų, tame pačiame juridiniame subjekte susietų su tuo pačiu šalies vaidmeniu, pvz., kliento ar tiekėjo. Pvz., šalis A yra susietas su kliento juridinio subjekto 123, ir šalis B yra susijęs su skirtingų klientų juridinio subjekto 123. Šios šalies įrašo negalima sulieti, nes jei jie buvo sujungti, Sulietų šalies įrašo galėtų būti susijęs su daug klientų – tas pats juridinis asmuo, ir tai nėra leidžiama. Tačiau įrašai gali būti sulieti, jei šalis B susieta su tiekėju 123 juridiniame subjekte arba su klientu kitame juridiniame subjekte.
+-   Negalima sulieti šalių įrašų, tame pačiame juridiniame subjekte susietų su tuo pačiu šalies vaidmeniu, pvz., kliento ar tiekėjo. Pavyzdžiui, šalis B susieta su tiekėju 123 juridiniame subjekte, o šalis B 123 juridiniame subjekte susieta su kitu klientu. Šių šalių įrašų negalima sulieti, nes juos suliejus sulietas šalies įrašas būtų susietas su keliais to paties juridinio subjekto klientais, o tai neleidžiama. Tačiau įrašai gali būti sulieti, jei šalis B susieta su tiekėju 123 juridiniame subjekte arba su klientu kitame juridiniame subjekte.
 -   Negalima sulieti vidinių šalies organizacijos įrašų tame pačiame juridiniame subjekte, komandoje ar valdymo vienete.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Ar šalies įrašą turėčiau sukurti visuotinėje adresų knygelėje, ar kitoje vietoje, pvz., Kliento ar Tiekėjo puslapyje?
@@ -64,5 +67,7 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Ar galima išversti šalių įrašų adreso informaciją?
 Galite nustatyti adreso informacijos vertimus, kad programoje „Microsoft Dynamics 365 for Operations‟ informacija būtų rodoma jūsų naudotojo kalba (sistemos kalba), bet dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
+
+
 
 

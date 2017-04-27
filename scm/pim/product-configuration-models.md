@@ -1,6 +1,6 @@
 ---
-title: "Gaminių konfigūravimo modelių apžvalga"
-description: "Šiame straipsnyje apibrėžiama terminų ir sąvokų, kurios yra susijusios su produkto konfigūracijos modelius. Produkto konfigūracijos modeliai leidžia kurti generinį vaistą struktūrą, kad būtų galima sukonfigūruoti daug prekių dimensijų kombinacijoje vieno produkto."
+title: "Produkto konfigūracijos modelių apžvalga"
+description: "Šiame straipsnyje nurodomos produkto konfigūracijos modeliams svarbios sąlygos ir sąvokos. Naudodami produkto konfigūracijos modelius galite kurti nepatentuotų produktų struktūrą, kurią naudojant galima sukonfigūruoti daug vieno produkto variantų."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Gaminių konfigūravimo modelių apžvalga
+# <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
 
-Šiame straipsnyje apibrėžiama terminų ir sąvokų, kurios yra susijusios su produkto konfigūracijos modelius. Produkto konfigūracijos modeliai leidžia kurti generinį vaistą struktūrą, kad būtų galima sukonfigūruoti daug prekių dimensijų kombinacijoje vieno produkto.
+Šiame straipsnyje nurodomos produkto konfigūracijos modeliams svarbios sąlygos ir sąvokos. Naudodami produkto konfigūracijos modelius galite kurti nepatentuotų produktų struktūrą, kurią naudojant galima sukonfigūruoti daug vieno produkto variantų.
 
 Produkto konfigūracijos modeliai yra skirti nepatentuotų produktų struktūrai atvaizduoti. Kai nustatote produkto konfigūracijos modelį, galite sukonfigūruoti atskirą produkto variantą su unikaliomis komplektavimo specifikacijomis ir maršrutu. Produktų konfigūravimo modeliai naudoja tiek deklaratyvius apribojimus, tiek būtinus skaičiavimus, kuriais tvarko ryšius ir apribojimus tarp skirtingų produktų variantų. Galite konfigūruoti pardavimo užsakymų elementus, pardavimo pasiūlymus, pirkimo ir gamybos užsakymus. Šioje lentelėje pateikiami apribojimais pagrįsti terminai ir koncepcijos.
 <table>
@@ -69,16 +69,16 @@ Taip pat galite nurodyti atributo sąlygas. Jei sąlygos įvykdytos, privalomam 
 <li><strong>Tekstas</strong> su fiksuotu sąrašu arba be jo</li>
 <li><strong>Bulio logika</strong></li>
 </ul>
-Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičius</strong> su intervalu arba <strong>Tekstas</strong> su fiksuotu sąrašu, nustatant produkto konfigūracijos modelį galima naudoti reikšmių rinkinį. <strong>Pastaba:</strong> produkto konfigūracijos problemas pripažįsta tik šių atributų tipų: <strong>Bulio logikos</strong>, <strong>tekstas</strong> su fiksuotame sąraše, ir <strong>sveikojo skaičiaus</strong> su įvairiais. Todėl tik šių atributų tipai gali būti naudojami išraiškos apribojimuose ir sąlygose.</td>
+Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičius</strong> su intervalu arba <strong>Tekstas</strong> su fiksuotu sąrašu, nustatant produkto konfigūracijos modelį galima naudoti reikšmių rinkinį. <strong>Pastaba.</strong> Produktų konfigūravimo sprendimų priemonė atpažįsta tik šiuos atributų tipus: <strong>Bulio logika</strong>, <strong>Tekstas</strong> su fiksuotu sąrašu ir <strong>Sveikasis skaičius</strong> su intervalu. Todėl tik šių atributų tipai gali būti naudojami išraiškos apribojimuose ir sąlygose.</td>
 </tr>
 <tr class="even">
 <td>Apribojimai</td>
 <td>Apribojimais vadinami produkto modelio konfigūracijos apribojimai. Apribojimai naudojami siekiant užtikrinti, kad būtų pasirinktos tik tinkamos reikšmės, kai konfigūruojamas produktas. Apribojimai gali būti išraiškos arba lentelės apribojimai.
 <ul>
 <li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami wiki nuorodą apie išraiškos apribojimus ir lentelių apribojimus.</li>
-<li>Kol jie gali būti taikomas produkto konfigūracijos modelio komponentas, reikia apibrėžti lentelės apribojimuose. Lentelės apribojimuose gali būti arba apibrėžta vartotojo, ar sistemos. Vartotojo apibrėžtos lentelės apribojimas yra matricos tipas, kuris gali būti naudojamas derinių rinkinio atributo reikšmėms apibūdinti, kurios yra apibrėžiamos atributo tipo. Pavyzdžiui, jei gaminami garsiakalbiai, naudotojo apibrėžto lentelės apribojimo matricoje gali būti stulpeliai, skirti garsiakalbio apdailai ir grotelėms.</li>
+<li>Lentelės apribojimai turi būti nurodomi prieš juos taikant produkto konfigūracijos modelio komponentui. Lentelės apribojimai gali būti nustatomi vartotojui arba sistemai. Vartotojo apibrėžtos lentelės apribojimas yra matricos tipas, kuris gali būti naudojamas derinių rinkinio atributo reikšmėms apibūdinti, kurios yra apibrėžiamos atributo tipo. Pavyzdžiui, jei gaminami garsiakalbiai, naudotojo apibrėžto lentelės apribojimo matricoje gali būti stulpeliai, skirti garsiakalbio apdailai ir grotelėms.</li>
 </ul>
-<strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, palisandro ir balta. Garsiakalbiai gali būti viena iš trijų priekinės grotelės: juodos, metalo arba balta. Juoda apdaila yra skirta visų groteles, bet kiti apdailos tik specialios grotelės. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
+<strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, palisandro ir balta. Garsiakalbiai gali turėti vienas iš trijų priekinių grotelių: juodas, metalo arba baltas. Juodos gali būti visos grotelės, tačiau kitos apdailos naudojamos tik tam tikroms grotelėms. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 </tr>
 </tbody>
 </table>
-Sistemos lentelės apribojimų atstovauja atributo tipo ir Dynamics "365" dėl operacijų lentelė laukas atvaizdis. Sistemos lentelės apribojimų dinamiškai nuorodos atributo tipo lauką. Nuoroda leidžia produkto konfigūracijos modelis atspindi duomenų lauko Dynamics "365" dėl operacijos stalo atributas.</td>
+Sistemos apibrėžtas lentelės apribojimas apibūdina susiejimą tarp atributo tipo ir lauko „Dynamics 365 for Operations table‟ lentelėje. Sistemos apibrėžtas lentelės apribojimas dinamiškai susieja atributo tipą su lauku. Saitas leidžia atributui produkto konfigūracijos modelyje atspindėti „Dynamics 365 for Operations‟ lentelės lauko duomenis.</td>
 </tr>
 <tr class="odd">
 <td>Skaičiavimai</td>
-<td>Skaičiavimai yra priedas prie apribojimus. Skaičiavimus galite atlikti aritmetinius veiksmus su atributus, <strong>dešimtainis</strong> ir <strong>sveikojo skaičiaus</strong> rūšys arba loginių operacijų, apimančių atributus, bet ir į <strong>teksto</strong> su fiksuotame sąraše ir <strong>Bulio logikos</strong> tipai. Skaičiavimas turi paskirties atributą, kuriame bus saugomas skaičiavimo išraiškos rezultatas. Skaičiavimo išraiška kuriama naudojant išraiškų rengyklę.</td>
+<td>Skaičiavimai papildo apribojimus. Skaičiavimą galite naudoti norėdami atlikti tipų <strong>Dešimtainis</strong> ir <strong>Sveikasis skaičius</strong> atributų aritmetines operacijas, susijusias su tipų <strong>Tekstas</strong> su fiksuotu sąrašu ir <strong>Bulio logika</strong> atributais. Skaičiavimas turi paskirties atributą, kuriame bus saugomas skaičiavimo išraiškos rezultatas. Skaičiavimo išraiška kuriama naudojant išraiškų rengyklę.</td>
 </tr>
 <tr class="even">
 <td>Subkomponentai</td>

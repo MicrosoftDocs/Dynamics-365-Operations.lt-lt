@@ -1,6 +1,6 @@
 ---
 title: "Kurkite dokumentus ar mokymus naudodami Užduočių įrašus"
-description: "Šioje temoje aiškinama, kokie užduočių rašytuvą ir užduočių vadovai yra, kaip sukurti užduočių įrašus, ir kaip tinkinti užduočių &quot;Microsoft&quot; vadovai ir įtraukti juos į jūsų pagalbos."
+description: "Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,19 +27,22 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Kurkite dokumentus ar mokymus naudodami Užduočių įrašus
-Šioje temoje aiškinama, kokie užduočių rašytuvą ir užduočių vadovai yra, kaip sukurti užduočių įrašus, ir kaip tinkinti užduočių "Microsoft" vadovai ir įtraukti juos į jūsų pagalbos.
+
+[!include[banner](../includes/banner.md)]
+
+Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
 
 <a name="learn-about-task-recorder"></a>Sužinokite daugiau apie Užduočių įrašytuvą
 -------------------------
 
-Užduočių rašytuvas yra Microsoft Dynamics 365 operacijų įrankis, kurį naudodami galite įrašyti veiksmus, kuriuos galite atlikti produkto vartotojo sąsajos (UI). Kai naudojate Užduočių įrašytuvą, fiksuojami visi įvykiai, kuriuos atliekate naudotojo sąsajoje su serveriu, įskaitant reikšmių pridėjimą, nuostatų keitimą, duomenų šalinimą. Veiksmai, kuriuos įrašote, bendrai vadinami *užduoties įrašu*. Užduočių įrašus galima naudoti įvairiais būdais.
+Užduočių įrašymo priemonė yra „Microsoft Dynamics 365 for Operations“ įrankis, kurį naudodami galite įrašyti produktų vartotojo sąsajoje (UI) atliekamus veiksmus. Kai naudojate Užduočių įrašytuvą, fiksuojami visi įvykiai, kuriuos atliekate naudotojo sąsajoje su serveriu, įskaitant reikšmių pridėjimą, nuostatų keitimą, duomenų šalinimą. Veiksmai, kuriuos įrašote, bendrai vadinami *užduoties įrašu*. Užduočių įrašus galima naudoti įvairiais būdais.
 
--   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vadovai yra neatskiriama dalis Dynamics 365 patirtį operacijų pagalba. Užduoties vadovas yra kontroliuojamas, ekskursijos, interaktyvios patirties verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. "Burbulo" taip pat pateikiama informacija apie tai, kaip bendrauti su elementų, tokių kaip "Spauskite čia" arba "Šiame lauke įveskite reikšmę." Užduoties vadovas veikia nuo vartotojo naudojamo duomenų rinkinio ir įvesto duomenys išsaugomi vartotojo aplinkoje.
--   **Užduoties įrašai gali būti rodomi kaip procesinių veiksmų pagalbos srityje.** Pagalbos srityje galite ieškoti ir Rodyti užduočių įrašus. Pagalbos srityje galite pasiekti spustelėdami į **?** Piktogramą, esančią viršutinėje naršymo juostoje arba jūs galite naudoti sarčiųjų klavišų derinį, **Ctrl + Shift +?**. Galite skaityti veiksmus užduoties įrašymas pagalbos srityje, arba galite pasirinkti žaisti kaip užduoties vadovas įrašymo, todėl jis padės jums per vartotojo Sąsają.
--   **Užduočių įrašus galima įrašyti į BPM.** Savo užduoties įrašą galite įrašyti į „Lifecycle Services‟ (LCS) verslo procesų modeliavimo įrankio (BPM) bibliotekos hierarchijos eilutę. Iš įrašo bus sugeneruotas veiksmų sąrašas ir verslo procesų srauto diagrama. Užduočių įrašus, įrašytą į BPM biblioteką galima įrodyti Dynamics "365" dėl veiklos, kaip žinynas.
+-   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vedliai integruojami į „Dynamics 365 for Operations‟ žinyną. Užduočių vedlys – tai kontroliuojama, valdoma, interaktyvi priemonė, kuri naudojama atliekant verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. Burbuliuke taip pat pateikiama informacija apie sąveikavimo su elementu būdą, pvz., „Spustelėkite čia“ ar „Šiame lauke įveskite reikšmę“. Užduočių vedlys veikia naudodamas dabartinių vartotojo duomenų rinkinį, o įvesti duomenys įrašomi vartotojo aplinkoje.
+-   **Užduočių įrašai gali būti pateikiami kaip procedūros veiksmai žinyno srityje.** Naudodami žinyno sritį galite ieškoti užduočių įrašų ir juos pateikti. Žinyno sritį galite pasiekti spustelėję piktogramą **?**, esančią viršutinėje naršymo juostoje, arba galite naudoti sparčiųjų klavišų derinį **Ctrl + Shift + ?**. Žinyno srityje galite perskaityti užduoties įrašo veiksmus arba galite pasirinkti, kad įrašas būtų paleistas kaip užduočių vedlys – tuomet jį naudodami atliksite veiksmus vartotojo sąsajoje.
+-   **Užduočių įrašus galima įrašyti į BPM.** Savo užduoties įrašą galite įrašyti į „Lifecycle Services‟ (LCS) verslo procesų modeliavimo įrankio (BPM) bibliotekos hierarchijos eilutę. Iš įrašo bus sugeneruotas veiksmų sąrašas ir verslo procesų srauto diagrama. Į BPM biblioteką įrašyti užduočių įrašai programoje „Dynamics 365 for Operations‟ gali būti pateikiami kaip žinyno elementai.
 -   **Užduočių įrašus galima įrašyti kaip „Word‟ dokumentus.** Taip galite lengvai kurti spausdinamus mokymo vadovus.
 
-Galite sukurti savo užduoties įrašų, tenka užduotis įrašų pateikia "Microsoft" arba modifikuoti "Microsoft" pateiktą užduotį įrašai atspindi jūsų konfigūracijos. Daugiau informacijos apie užduočių rašytuvas, rasite [užduočių rašytuvą Dynamics 365 operacijoms](task-recorder.md).
+Galite kurti savo užduočių įrašus, leisti „Microsoft‟ pateiktus užduočių įrašus arba modifikuoti „Microsoft‟ pateiktus užduočių įrašus, kad jie atitiktų jūsų konfigūraciją. Jei reikia daugiau informacijos apie užduočių įrašymo priemonę, žr. straipsnį [Užduočių įrašymo priemonė programoje „Dynamics 365 for Operations“](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Planuokite savo užduoties įrašą
 Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft‟ užduoties įrašą, turėkite omenyje toliau nurodytą informaciją.
@@ -55,11 +58,11 @@ Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft�
 **Savo aprašus ir komentarus rašykite iš anksto**
 
 -   Kiekvieno užduoties įrašo pradžioje yra aprašo laukas, kuriame galite įvesti įrašo įvadą. Naudinga aprašą parašyti ir įrašyti iš anksto atskirame dokumente, kad įrašydami galėtumėte jį nukopijuoti bei įklijuoti į įrašą. Tokiu būdu tikslinti tekstą galite ne įrašymo proceso metu. Tekstą iškerpant ir įklijuojant, įrašymo procesą galima vykdyti greičiau ir sklandžiau.
--   Prie kiekvieno užduoties įrašo veiksmo galite sukurti komentarų. Atkuriant užduoties vadovą, komentarai rodomi „burbuliuke‟ kaip pastabos virš ar žemiau veiksmo teksto. Žiūrint kaip pagalbos srityje, komentarai rodomi kaip inline teksto žingsnis. Kaip ir aprašą, komentarus naudinga parašyti ir įrašyti atskirame dokumente. Įrašydami užduoties įrašą, komentarus iškirpkite ir įklijuokite iš to dokumento.
+-   Prie kiekvieno užduoties įrašo veiksmo galite sukurti komentarų. Atkuriant užduoties vadovą, komentarai rodomi „burbuliuke‟ kaip pastabos virš ar žemiau veiksmo teksto. Komentarus peržiūrint kaip tekstą žinyno srityje, jie rodomi kaip įdėtasis veiksmo tekstas. Kaip ir aprašą, komentarus naudinga parašyti ir įrašyti atskirame dokumente. Įrašydami užduoties įrašą, komentarus iškirpkite ir įklijuokite iš to dokumento.
 
 **Supraskite skirtingus komentarų tipus** Visi komentarai nėra privalomi. Jų pridėkite tik kai jie naudotojui suteikia naudingos informacijos.
 
--   **Pavadinimas**: pavadinimas Anotacija pasirodys prieš žingsnis tekstą, užduotį įrašymo įrenginys automatiškai generuoja. Užduoties vadovas, pavadinimas komentaras rodomas virš automatiškai sugeneruotą teksto. Šį komentaro tipą naudokite norėdami paaiškinti, kodėl naudotojas atlieką veiksmą, arba norėdami suteikti papildomo konteksto.
+-   **Pavadinimas**: pavadinimo komentaras bus pateikiamas prieš veiksmo tekstą, kurį automatiškai sugeneruoja užduočių įrašymo priemonė. Užduočių vedlyje pavadinimo komentaras pateikiamas virš automatiškai sugeneruoto teksto. Šį komentaro tipą naudokite norėdami paaiškinti, kodėl naudotojas atlieką veiksmą, arba norėdami suteikti papildomo konteksto.
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite komentaro pavadinimą lauke **Pavadinimas**. 
 
@@ -67,19 +70,19 @@ Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą.
 
 Taip atrodo pavadinimo komentaras užduočių vedlio „burbuliuke‟. 
 
-[![2 Fiberglass](./media/screen2.png)](./media/screen2.png)
+[![screen2](./media/screen2.png)](./media/screen2.png)
 
 -   **Pastabos.** Pastabų komentaras bus rodomas po veiksmo teksto, kurį automatiškai sugeneruoja užduočių įrašytuvas. Jis užduoties vadove bus matomas tik jei naudotojas užduoties vadovo burbuliuke spustelės saitą **Rodyti daugiau**. Šį komentaro tipą naudokite norėdami apibūdinti dalykus, kuriuos, norėdamas atlikti veiksmą, turi žinoti naudotojas.
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite pastabų komentarą lauke **Pastabos**. 
 
-[![3](./media/screen3.png)](./media/screen3.png) 
+[![screen3](./media/screen3.png)](./media/screen3.png) 
 
-Tai, kas pažymi komentarą atrodo "burbulas" užduočių vedlyje.
+Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Info žingsnis**: šiuos komentarus kuriami dešiniuoju pelės klavišu valdiklį arba bet kur forma &lt;**užduočių rašytuvą**&lt; ** pridėti info žingsnis. ** Info veiksmus rodomi sunumeruoti žingsnis ne kokia vieta jį įterpti, nors jokių veiksmų buvo įrašytas vartotojo sąsaja. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai info žingsnis yra susijęs su valdymo pultu, užduoties vadovas "burbulas" nukreips į kontrolės grojant užduoties vadovas. Pagalbos srityje info žingsnis komentaras pasirodys kaip sunumeruoti žingsnis su tekstą, kurį įvedėte. Naudoti informacijos priemonių parengti vartotojo tolimesnius veiksmus, apibūdinti priemones, kurių reikia padaryti ne Dynamics 365 operacijoms, arba kreiptis į kitus įrašus (nors jūs negalite sukurti hyperinks komentarai.).
+-   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą. **Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį. Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje „Dynamics 365 for Operations“, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 
 **Nustatykite, kokia turėtų būti jūsų įrašo trukmė**
 
@@ -89,42 +92,44 @@ Tai, kas pažymi komentarą atrodo "burbulas" užduočių vedlyje.
 -   Jei procesas apima keletą užduočių, kurias asmuo greičiausiai atlieka visas vienu metu, jas galite išsaugoti viename įraše, pvz., „Nustatykite ir priskirkite funkcijų profilius‟.
 -   Jei kokia nors užduotis atliekama vieną kartą (pvz., konfigūracija), o iš karto po to atliekama kita užduotis, tačiau ši gali būti atliekama pakartotinai ir savarankiškai, jas išskaidykite į du užduočių įrašus.
 
-**Nuspręsti, kur, UI, Norėdami pradėti įrašą** puslapio, kuriame esate Jei pradedate įrašyti užduoties įrašymas turi įtakos kuris puslapis rodomas užduoties vadovas. Pavyzdžiui, jei norite, kad jūsų darbo įrašymas į pateiktas pagalbos srityje, kai vartotojas spusteli pagalbos DK parametrų puslapyje, turite paleisti savo registravimo DK parametrų puslapyje. **Įrašus įrašykite kaip .axtr failus** Kai baigiate kurti ar redaguoti užduoties įrašą, jums pateikiamos kelios parinktys, kaip įrašą atsisiųsti ar įrašyti. Atsisiųsti failą galite kaip užduoties įrašo paketą (.axtr), kaip neapdorotą įrašo failą (.xml), kaip „Word‟ dokumentą arba jį įrašyti į LCS biblioteką. Naudinga užduoties įrašą visada įrašyti kaip užduoties įrašo paketo failą (.axtr). Taip bus lengviau failą prižiūrėti, jei vėliau reikėtų keisti procedūras ar komentarus. Jei failą norite atsisiųsti kaip „Word‟ dokumentą, taip pat jį įrašykite kaip užduoties įrašo paketo failą.
+**Nuspręskite, kurioje UI vietoje pradėti įrašą** Puslapis, kuriame esate pradėdami įrašyti užduoties įrašą, nulems puslapį, kurį pateiks užduočių vedlys. Pavyzdžiui, jei norite, kad užduoties įrašas žinyno srityje būtų pateikiamas vartotojui DK parametrų puslapyje spustelėjus žinyną, įrašą pradėti turite DK parametrų puslapyje. **Įrašus įrašykite kaip .axtr failus** Kai baigiate kurti ar redaguoti užduoties įrašą, jums pateikiamos kelios parinktys, kaip įrašą atsisiųsti ar įrašyti. Atsisiųsti failą galite kaip užduoties įrašo paketą (.axtr), kaip neapdorotą įrašo failą (.xml), kaip „Word‟ dokumentą arba jį įrašyti į LCS biblioteką. Naudinga užduoties įrašą visada įrašyti kaip užduoties įrašo paketo failą (.axtr). Taip bus lengviau failą prižiūrėti, jei vėliau reikėtų keisti procedūras ar komentarus. Jei failą norite atsisiųsti kaip „Word‟ dokumentą, taip pat jį įrašykite kaip užduoties įrašo paketo failą.
 
 ## <a name="create-your-task-recording"></a>Kurkite užduoties įrašą
-Išsamiai pateiktus veiksmus, rasite [kaip sukurti užduočių įrašymo](task-recorder.md).
+Jei norite peržiūrėti išsamius instrukcijų veiksmus, žr. straipsnį [Kaip sukurti užduoties įrašą](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Kopijuokite ir tinkinkite „Microsoft‟ užduočių įrašus
-Galite atsisiųsti ir redaguoti "Microsoft' užduočių įrašus ir juos naudoti savo žinyno dokumentacija ar mokomąją medžiagą. Norėdami atsisiųsti „Microsoft‟ užduoties įrašą, atlikite tolesnius veiksmus.
+Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos naudoti žinyno dokumentacijoje ar mokymo medžiagoje. Norėdami atsisiųsti „Microsoft‟ užduoties įrašą, atlikite tolesnius veiksmus.
 
-1.  Dynamics 365 operacijoms, Atidarykite užduočių rašytuvą. Užduočių įrašytuvas yra **Nuostatų** meniu.
+1.  Programoje „Dynamics 365 for Operations‟ atidarykite užduočių įrašymo priemonę. Užduočių įrašytuvas yra **Nuostatų** meniu.
 2.  Užduočių įrašytuvo srityje spustelėkite **Prižiūrėti įrašą**.
 3.  Srityje **Kur yra įrašas**, spustelėkite **Jis yra LCS bibliotekoje**.
 4.  Spustelėkite **Pasirinkti LCS biblioteką**.
-5.  Pasirinkite "Microsoft" pasaulinės bibliotekos.
+5.  Pasirinkite „Microsoft“ visuotinę biblioteką.
 6.  Medyje pasirinkite verslo procesų bibliotekos mazgą, su kuriuo susietas užduoties įrašas.
 7.  Spustelėkite **GERAI**.
 8.  Spustelėkite **Pradėti**.
-9.  Šiuo metu, nesinaudojant įrašymas, keitimas laiptelius, kaip jūs einate į naujo įrašo ji. **Pastaba**: jei jums reikia tik pakeisti teksto įrašymo, galite atidaryti įrašyti į **redaguoti įrašymą 's komentarus** režimu, ir tada išsaugokite jį.
+9.  Šiame etape pereidami per įrašo veiksmus galite juos keisti – įrašas bus perrašytas. **Pastaba**. Jei reikia pakeisti tik įrašo tekstą, įrašą galite atidaryti esant režimui **Redaguoti įrašo komentarus** ir tada jį įrašyti.
 10. Įrašą atkūrę iki pabaigos, ekrano viršuje esančioje užduočių įrašytuvo juostoje spustelėkite **Sustabdyti**.
 11. Pasirinkite, kaip norite įrašyti užduoties įrašą.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Jūsų užduotis įrašams pagalbos srityje
-Parodyti savo pasirinktinės užduočių įrašų pagalbos srityje taip, kad galima atkurti kaip užduočių vadovai ar žiūrima kaip tekstą, galite įrašyti savo užduočių įrašus savo bibliotekoje, BPM, ir tada atnaujinti jūsų pagalbos sistemos parametrai rodo, kad bibliotekoje BPM. Daugiau informacijos rasite [prisijungti žinyno sistemoje.](../get-started/help-connect.md)
+## <a name="include-your-task-recordings-in-the-help-pane"></a>Užduočių įrašus įtraukite į žinyno sritį
+Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Jei reikia daugiau informacijos, žr. dalį [Žinyno sistemos prijungimas.](../get-started/help-connect.md)
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Dinamika 365 operacijoms padėti](..\get-started\help-overview.md)
+[„Dynamics 365 for Operations“ žinynas](..\get-started\help-overview.md)
 
-[Prijunkite žinynas](..\get-started\help-connect.md)
+[Žinyno prijungimas](..\get-started\help-connect.md)
 
-[Užduočių rašytuvas dinamikoje 365 operacijoms](task-recorder.md)
+[Užduočių įrašymo priemonė programoje „Dynamics 365 for Operations“](task-recorder.md)
 
-[Neseniai pridėti užduotį įrašymo funkcijos](\core\get-started\recently-added-editing-features-in-task-recorder)
+[Neseniai įtrauktos užduočių įrašymo priemonės funkcijos](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Sukurti naujas mokymo bibliotekas Dynamics AX per gyvavimo ciklo paslaugų naudodami užduočių rašytuvą (išorinė nuoroda)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Naujų „Dynamics AX“ mokymų bibliotekų kūrimas „Lifecycle Services“ naudojant užduočių įrašymo priemonę (išorinis saitas)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Kurti turtingas Žinyno temose naudodami užduočių rašytuvą (išorinė nuoroda)](https://mbspartner.microsoft.com/AX/Videos/970)
+[Naudingų žinyno temų kūrimas naudojant užduočių įrašymo priemonę (išorinis saitas)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Užsakymų įvedimo terminai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie užsakymų įvedimo terminus. Užsakymų įvedimo terminas yra nutraukimo laikas, kuriuo nustatoma, ar kliento užsakymas apdorojamas (ir įvykdomas) taip, lyg jis būtų buvęs gautas dabartinę dieną ar kitą dieną.
 
 Daugelyje įmonių tik tie pardavimo užsakymai, kurie yra gauti iki tam tikro dienos meto, laikomi gauti tą dieną. Laikoma, kad visi po nurodyto laiko gauti užsakymai yra gauti kitą darbo dieną. Ši užsakymų nutraukimo data vadinama užsakymo įvedimo terminu.  
 
-Užsakymo įvedimo terminai yra naudojami įvedant numatomas užsakymo datas. Jie padeda valdyti kliento lūkesčius dėl užsakymų pristatymo. Pvz., klientai gali matyti, kad, jei jie pateikia jums užsakymą prieš tam tikrą laiką, jūs įsipareigojate prekes išsiųsti tą pačią dieną. Tačiau, jei jie praleisti to termino, jie gali tikėtis siuntą tik kitą darbo dieną. Nustatykite užsakymo įrašą terminus pagal sandėlio pajėgumus ir laivybos vežėjo tvarkaraščius.  
+Užsakymo įvedimo terminai yra naudojami įvedant numatomas užsakymo datas. Jie padeda valdyti kliento lūkesčius dėl užsakymų pristatymo. Pvz., klientai gali matyti, kad, jei jie pateikia jums užsakymą prieš tam tikrą laiką, jūs įsipareigojate prekes išsiųsti tą pačią dieną. Tačiau jei jie nespėja užsakymo pateikti per tam tikrą laiką, siuntinys gali būti išsiunčiamas tik kitą darbo dieną. Užsakymo įvedimo terminai nustatomi pagal jūsų sandėlio galimybes ir siuntinio vežėjo grafiką.  
 
 Puslapyje **Užsakymo įvedimo terminai** nustatote visoms savaitės dienoms taikomus užsakymo įvedimo terminus. Visi užsakymai, gauti po nustatyto laiko, laikomi gautais kitą darbo dieną. Pagal numatytuosius nustatymus šis laikas yra 23.59 val. (t. y., atitinkamos dienos pabaiga, be vienos minutės vidurnaktis). Numatytuosius laikus galite pakeisti, kad jie sutaptų su faktiniu siuntimo ar gavimo laiku.  
 
@@ -43,7 +46,7 @@ Jei jūsų įmonė veikia keliose teritorijose, užsakymo įvedimo terminus gali
 Puslapyje **Aktyvinti užsakymo įvedimo terminų kombinacijas** galite nurodyti leistinas teritorijų ir užsakymo įvedimo terminų grupių kombinacijas.
 
 ## <a name="example-order-entry-deadline"></a>Pavyzdys. Užsakymo įvedimo terminas
-Nustatytas užsakymo įvedimo terminas antradieniais – 16.00 val. Konkretų antradienį, 17.00 val., bandote nustatyti esamą datą kaip siuntimo datą. (Atkreipkite dėmesį, kad nėra švino laiko šiame pavyzdyje). Jei su **pristatymo datos valdymo** žymės langelis yra pažymėtas, jums bus parodytas įspėjimas, kuriame nurodoma, kad negalioja dienos. Šis įspėjamasis pranešimas bus rodomas puslapyje **Galimos siuntimo ir gavimo datos**, kuriame galite pasirinkti kitas datas.
+Nustatytas užsakymo įvedimo terminas antradieniais – 16.00 val. Konkretų antradienį, 17.00 val., bandote nustatyti esamą datą kaip siuntimo datą. (Atkreipkite dėmesį, kad nenurodomas šio pavyzdžio vykdymo laikas.) Jei pažymėtas žymės langelis **Pristatymo datos valdymas**, gausite įspėjamąjį pranešimą, kuriame bus nurodyta, kad data yra netinkama. Šis įspėjamasis pranešimas bus rodomas puslapyje **Galimos siuntimo ir gavimo datos**, kuriame galite pasirinkti kitas datas.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Pavyzdys. Skirtingi užsakymo įvedimo terminai pagal teritoriją
 Jūsų įmonė veikia dviejose teritorijose. Teritorijos išsidėsčiusios skirtingose laiko juostose, kaip parodyta pateiktoje lentelėje.
@@ -55,7 +58,7 @@ Jūsų įmonė veikia dviejose teritorijose. Teritorijos išsidėsčiusios skirt
 
 A ir B teritorijoms nustatyti šie užsakymo įvedimo terminai.
 
-| Savaitės diena             | A: užsakymo įrašas terminai (PST) | B: užsakymo įrašas terminai (EST) |
+| Savaitės diena             | A: Užsakymų įvedimo terminai (PST) | B: Užsakymų įvedimo terminai (EST) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Pirmadienis                      | 13.00                          | 14.00                          |
 | Antradienis                     | 13.00                          | 14.00                          |
@@ -67,7 +70,7 @@ Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona 
 
 Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.
 
-| Svetainės A: PST         | Svetainės A: MST        | Svetainės B: EST           | Svetainės B: MST        |
+| A teritorija: (PST)         | A teritorija: (MST)        | B teritorija: (EST)           | B teritorija: (MST)        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 14.00                 | 12.00              |
 
@@ -95,7 +98,7 @@ Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona 
 
 Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.
 
-| Svetainės A: PST         | Svetainės A: MST        | Svetainės B: EST           | Svetainės B: MST        |
+| A teritorija: (PST)         | A teritorija: (MST)        | B teritorija: (EST)           | B teritorija: (MST)        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13.00               | 14.00              | 13.00                 | 11.00              |
 
@@ -104,6 +107,8 @@ Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo term
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Pristatymo grafikai](delivery-schedules.md)
+
+
 
 

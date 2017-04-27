@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Pirkimo užsakymo apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama bendra informacija apie pirkimo užsakymus (PU) ir saitai į papildomus straipsnius, susijusius su įvairiomis PU eigos būsenomis.
 
 Pirkimo užsakymas (PU) yra dokumentas, kuris nurodo sutartį su tiekėju, pagal kurią perkamos prekės arba paslaugos. Dokumentas taip pat suteikia galimybę sekti užsakymo produkto gavimo kvitus, sukurtus pagal užsakymą, ir vėliau sekti tiekėjo SF, kurias tiekėjas išrašo pagal užsakymą, apskaitą.  
 
-Puslapyje **Pirkimo užsakymai** pateikiama galimų užsakymų apžvalga ir jame tuos užsakymus keisti. Kai atidarote PU, galite pasirinkti rodinį **Antraštė**, kuriame yra tik vieną kartą nurodyta kiekvieno PU informacija, pvz., tiekėjo duomenis. Taip pat galite pasirinkti rodinį **Eilutės**, kuriame galite keisti užsakymo eilutes. Paprastai bus perjungti šiuos rodinius, kaip galite pakeisti POs. Mokesčiai nėra išvardyti tiesiai ant to **pirkimo užsakymų** puslapyje, bet pasiekiami per meniu užsakymo antraštėje ir eilutėse.  
+Puslapyje **Pirkimo užsakymai** pateikiama galimų užsakymų apžvalga ir jame tuos užsakymus keisti. Kai atidarote PU, galite pasirinkti rodinį **Antraštė**, kuriame yra tik vieną kartą nurodyta kiekvieno PU informacija, pvz., tiekėjo duomenis. Taip pat galite pasirinkti rodinį **Eilutės**, kuriame galite keisti užsakymo eilutes. Paprastai modifikuojant PU perjungiami abu rodiniai. Mokesčiai nėra pateikiami tiesiogiai puslapyje **Pirkimo užsakymai**, bet juos galima pasiekiami naudojant užsakymo antraščių ir eilučių meniu.  
 
 Pateikiama daug ataskaitų, kuriose galite peržiūrėti informaciją apie PU, produkto gavimo kvitus ir tiekėjo SF. Šias ataskaitas galima rasti moduliuose **Įsigijimas ir šaltinio pasirinkimas** ir **Mokėtinos sumos**.  
 
-Darbo srityse **Pirkimo užsakymo rengimas** ir **Pirkimo užsakymo gavimas ir apdorojimas** galima peržiūrėti PU ir įvairių jų esamų būsenų sąrašus. Jose taip pat pateikiama veiksmų, kuriuose reikia atlikti, suvestinė. Darbo sritis **Pirkimo užsakymo rengimas** yra orientuota į PU kūrimą ir peržiūrą, užsakymo apdorojimą, siekiant jį patvirtinti, ir patvirtinimą iš tiekėjo. Į **pirkimo užsakymo gavimo ir tolesnių veiksmų** darbo sritis yra orientuota į perdirbti prekes ar paslaugas nuo POs gavimo. Tai apima sąrašus, kurie suteiks įžvalgų kvitus uždelstus arba kuri netrukus bus tinkamai pristatyti iš tiekėjo. Šios darbo sritys nėra skirtos atlikti su gavimais susijusias veiklas, kurios atliekamos sandėlyje. Tos veiklos atliekamos naudojant modulių **Atsargų valdymas** ir **Sandėlio valdymas** puslapius. Tiekėjo SF turėtų būti apdorotos naudojant darbo sritį **Tiekėjo SF įrašas**, o mokėjimai turėtų būti apdoroti naudojant darbo sritį **Tiekėjo mokėjimai**.  
+Darbo srityse **Pirkimo užsakymo rengimas** ir **Pirkimo užsakymo gavimas ir apdorojimas** galima peržiūrėti PU ir įvairių jų esamų būsenų sąrašus. Jose taip pat pateikiama veiksmų, kuriuose reikia atlikti, suvestinė. Darbo sritis **Pirkimo užsakymo rengimas** yra orientuota į PU kūrimą ir peržiūrą, užsakymo apdorojimą, siekiant jį patvirtinti, ir patvirtinimą iš tiekėjo. Darbo sritis **Pirkimo užsakymų gavimas ir apdorojimas** yra orientuota į prekių ir paslaugų gavimo apdorojimą pagal PU. Joje pateikiami sąrašai, kuriuose pateikiama informacijos apie uždelstus gavimo kvitus arba kvitus, kurių prekes netrukus turi pristatyti tiekėjas. Šios darbo sritys nėra skirtos atlikti su gavimais susijusias veiklas, kurios atliekamos sandėlyje. Tos veiklos atliekamos naudojant modulių **Atsargų valdymas** ir **Sandėlio valdymas** puslapius. Tiekėjo SF turėtų būti apdorotos naudojant darbo sritį **Tiekėjo SF įrašas**, o mokėjimai turėtų būti apdoroti naudojant darbo sritį **Tiekėjo mokėjimai**.  
 
 Toliau nurodytuose straipsniuose pateikiama įvairių PU etapų apžvalga.
 
@@ -45,7 +48,7 @@ Toliau nurodytuose straipsniuose pateikiama įvairių PU etapų apžvalga.
 -   [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Pirkimo užsakymų tipai
-Yra trijų tipų POs. Kuriant Go, turite nurodyti tipą. Numatytąjį naujų užsakymų tipą galite nustatyti puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai**.
+Yra trys PU tipai: Kurdami PU turite nurodyti tipą. Numatytąjį naujų užsakymų tipą galite nustatyti puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai**.
 
 | PU tipas        | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ Laukas **Patvirtinimo būsena** naudojamas, kai naudojamas PU peržiūros proces
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkimo užsakymo kūrimas](purchase-order-creation.md)
 
 [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
 [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

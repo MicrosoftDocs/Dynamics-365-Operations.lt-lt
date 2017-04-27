@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="release-production-orders"></a>Pateikti gamybos užsakymus
 
+[!include[banner](../includes/banner.md)]
+
+
 Išleistas gamybos užsakymas yra užsakymas, kurį leista gaminti. Terminas Išleistas naudojamas apibūdinti gamybos užsakymo ciklo būsenai, kai gamybos užsakymą galima vykdyti gamybos ceche ir atliekant sandėlio procesus. 
 
 <a name="characteristics-of-the-released-state"></a>Būsenos Patvirtinta charakteristikos
@@ -42,7 +45,7 @@ Būsena **Patvirtinta** yra viena gamybos užsakymo ciklo būsenų. Gamybos užs
 -   Esant faktiškai rezervuotų medžiagų, generuojamas sandėlio darbas, kad būtų galima pasirinkti gamybos užsakymo medžiagas.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Užduočių perdavimas į cechą
-Išleidus gamybos užsakymą, su užsakymu susijusios gamybos užduotys yra matomos ir paruoštos registruoti. Ūkio subjektai gali padaryti užduočių registracijas, pvz., pradėti, sustabdyti ir baigti, bet dėl **darbo kortelės terminalo** puslapis arba **darbo kortelės įrenginį** puslapis. Registruotas laikas ir kiekis yra automatiškai perkeliami iš registracijos puslapių į gamybos žurnaluose stebėti, suvartotų laiko ir kiekio.
+Išleidus gamybos užsakymą, su užsakymu susijusios gamybos užduotys yra matomos ir paruoštos registruoti. Operatoriai gali atlikti užduočių registravimus, pvz., pradžios, pabaigos ir užbaigimo, arba puslapyje **Užduoties kortelės terminalas** arba **Užduoties kortelės įrenginys**. Registruotas laikas ir kiekis automatiškai perkeliami iš registracijos puslapių į gamybos žurnalus, kad būtų galima sekti sunaudotą laiką ir kiekį.
 
 ## <a name="route-cards"></a>Technologinės kortelės
 Technologinė kortelė pateikia informacijos, gaunamos iš maršruto ir operacijų nustatymų bei iš operacijų ir užduočių planavimo metodų, apžvalgą.
@@ -54,11 +57,13 @@ Maršruto užduotyje pateikiama kiekviena smulki operacijos užduotis ir įtrauk
 Užduoties kortelė pateikia atskirų užduočių numerius tam tikrai operacijai. Kiekviename puslapyje pateikiama viena užduotis. Užduoties kortelėje įtraukiamos užduotys ir jų numatomi laikai gaunami iš maršruto ir operacijos nustatymo informacijos. Užduoties kortelėje galite atidaryti puslapį **Gamybos žurnalo eilutės**, **užduoties kortelė**. Žmonės, prižiūrintys operacijų išteklius, gali pateikti atsiliepimus apie gamybos procesą. Yra laukų kur galite įvesti suvartojimo statistiką ir informaciją, tokią kaip klaidų kiekis.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Sandėlio darbas žaliavoms paimti
-Žaliavų paėmimo darbas generuojamas paleidimo metu. Darbas yra sukurtas tik už tą kiekį medžiagų, kuris buvo faktiškai rezervuotas gamybos užsakymo prieš užsakymą buvo išleistas. Šie nustatymai yra reikalingi generuoti sandėlio darbą žaliavų paėmimo:
+Žaliavų paėmimo darbas generuojamas paleidimo metu. Darbas generuojamas tik tam medžiagų kiekiui, kuris buvo faktiškai rezervuotas gamybos užsakymui prieš pateikiant užsakymą. Norint generuoti žaliavų paėmimo sandėlyje darbą reikalinga toliau nurodyta sąranka.
 
 -   Žaliavų paėmimo vietos nurodymas nustato, iš kurios sandėlio vietos paimti medžiagas
 -   Žaliavų bangos šablonas, kuriame sukonfigūruotos sandėlio darbo vykdymo strategijos
 -   Gamybos įvesties vieta, nurodanti, kur dedamos medžiagos
+
+
 
 
 

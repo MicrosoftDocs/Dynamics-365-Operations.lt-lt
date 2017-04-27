@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Skaičiuodami poreikio prognozę iš praeities operacijų duomenų pašalinkite pašalines reikšmes
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma, kaip iš praeities duomenų, kurie naudojami poreikio prognozei apskaičiuoti, pašalinti pašalines reikšmes. Pašalinę pašalines reikšmes, galite padidinti prognozės tikslumą.
 
-Galite išskirti Riktai prognozės tikslumui didinti. Ši užduotis nėra privaloma. Toliau pateikta proceso apžvalga.
+Pašalinę pašalines reikšmes galite padidinti prognozės tikslumą. Ši užduotis nėra privaloma. Toliau pateikta proceso apžvalga.
 
-1.  Spustelėkite **kapitonas planavimo**&gt;**nustatymo**&gt;**paklausos prognozavimo**&gt;**pašalinių šalinimo** atidaryti, **pašalinių šalinimo** puslapyje, kur jūs galite naudoti užklausą pasirinkite pašalinti operacijas.
+1.  Norėdami atidaryti puslapį **Pašalinių reikšmių šalinimas**, kuriame, naudodami užklausą, galėtumėte pasirinkti šalintinas operacijas, spustelėkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozė** &gt; **Pašalinių reikšmių šalinimas**.
 2.  Pasirinkite įmonę, kuriai užklausa taikoma, tada įveskite pavadinimą ir aprašą. **Užklausos datos** laukas automatiškai nustatomas į dabartinę datą.
 3.  Pažymėkite žymės langelį **Aktyv.**, kad iš praeities duomenų pašalintumėte operacijas, rastas naudojant užklausą. Šis parametras pradės veikti, kai kursite pagrindinę prognozę.
 4.  Puslapyje **Pašalinių reikšmių šalinimo užklausa** galite pridėti, šalinti ir pasirinkti kriterijus, apibrėžiančius, kurios operacijos bus pašalintos skaičiuojant pagrindinę prognozę. Pvz., pasirinkite konkrečią prekę arba užsakymo operaciją, kurią norite pašalinti.
@@ -43,8 +46,10 @@ Galite išskirti Riktai prognozės tikslumui didinti. Ši užduotis nėra prival
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Įvadas į poreikio prognozes](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
+
+
 
 

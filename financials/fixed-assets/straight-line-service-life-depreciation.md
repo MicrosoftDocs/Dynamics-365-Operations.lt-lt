@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Tiesiogiai proporcingas nusidėvėjimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo nusidėvėjimo metodas.
 
 Kai nustatote ilgalaikio turto nusidėvėjimo šabloną ir puslapio Nusidėvėjimo šablonai lauke Metodas pasirenkate Tiesiogiai proporcingas dėvėjimo laikas, turto, kuriam priskirtas šis nusidėvėjimo šablonas, nusidėvėjimo skaičiavimas bus paremtas bendra turto dėvėjimo laiko trukme. Paprastai tai būna ta pati nusidėvėjimo suma kiekvienu nusidėvėjimo laikotarpiu. 
@@ -57,7 +60,7 @@ Pavyzdžiui, jei pasirenkate Kasmet, metinis nusidėvėjimas registruojamas tik 
 
 Lauke Nusidėvėjimo metai pasirinkus Finansiniai metai, naudojamas tiesiogiai proporcingo dėvėjimo laiko nusidėvėjimo metodas. Tai apskaičiuojama pagal finansinius metus, apibrėžtus knygos finansiniame kalendoriuje arba puslapyje DK pasirinktame finansiniame kalendoriuje. Finansiniai kalendoriai nustatomi puslapyje Finansiniai kalendoriai.
 
-Pvz., finansinių metų liepos 1 d. iki birželio 30 d., nusidėvėjimo skaičiavimo prasideda liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Automatiškai koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai formoje Finansiniai kalendoriai kuriate naujus finansinius metus. 
+Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Automatiškai koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai formoje Finansiniai kalendoriai kuriate naujus finansinius metus. 
 
 Pasirinkus Finansiniai metai, lauke Laikotarpio dažnis galimos šios pasirinktys:
 -   Kasmet rodoma apskaičiuota bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
@@ -98,9 +101,11 @@ Tarkime, kad per 2 metus to paties ilgalaikio turto įsigijimo suma pakoreguojam
 | 3 metai | 14 000 / 5 = 2 800                        | 10 200 – 2 800 = 7 400                |
 | 4 metai | 14 000 / 5 = 2 800                        | 7 400 – 2 800 = 4 600                 |
 | 5 metai | 14 000 / 5 = 2 800                        | 4 600 - 2 800 = 1 800                 |
-| 6 metai | Likusių 800\*                           | 1 800 – 800 = 1 000                   |
+| 6 metai | Liko 800\*                           | 1 800 – 800 = 1 000                   |
 
-\*Likusi suma yra mažesnė nei nusidėvėjimo suma, priimamas tik likusios sumos atėmus likvidacinę vertę.
+\*Kadangi likusi suma yra mažesnė nei nusidėvėjimo suma, naudojama tik likusi suma, iš jos atėmus likvidacinę vertę.
+
+
 
 
 

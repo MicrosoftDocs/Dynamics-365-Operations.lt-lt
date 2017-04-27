@@ -1,5 +1,5 @@
 ---
-title: "Nustatyti produkto konfigūracijos modelis"
+title: "Produkto konfigūracijos modelio nustatymas"
 description: "Šiame straipsnyje aprašomi produkto konfigūracijos modelio nustatymo ir kūrimo veiksmai."
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Nustatyti produkto konfigūracijos modelis
+# <a name="set-up-a-product-configuration-model"></a>Produkto konfigūracijos modelio nustatymas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašomi produkto konfigūracijos modelio nustatymo ir kūrimo veiksmai.
 
 | Užduotis                                                        | aprašymas                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bendrojo produkto kūrimas.                                    | Kurti bendrąjį produktą iš sąrašo **Bendrasis produktas**. Išleisti visus atitinkamos įmonės produkto kapitonui. Produkto meistras, kuris naudojamas kaip versija produkto konfigūracijos modelis arba komponento dalį, **apribojimas, pagrįstas konfigūracijos** turi būti pasirinktas kaip konfigūracijos technologiją ir konfigūracijos dimensiją reikia pasirinkti tik už prekės dimensijų grupė. |
+| Bendrojo produkto kūrimas.                                    | Kurti bendrąjį produktą iš sąrašo **Bendrasis produktas**. Išleiskite bendrąjį produktą į visas susijusias įmones. Kaip bendrojo produkto, kuris naudojamas kaip produkto konfigūracijos modelio arba subkomponento versija, konfigūracijos technologiją būtina pasirinkti **Konfigūravimas pagal apribojimus**, o konfigūracijos dimensiją reikia pasirinkti tik produkto dimensijų grupei. |
 | Komponentų kūrimas.                                          | Komponentus kurkite puslapyje **Komponentai**. Komponentai yra produkto konfigūracijos modelio kūrimo blokai ir juos galima pakartotinai naudoti keliuose produktų konfigūravimo modeliuose.                                                                                                                                                                                                                      |
 | Atributų tipų kūrimas.                                     | Atributų tipus kurkite puslapyje **Atributų tipai**. Atributų tipai nustato visų atributų, kurie naudojami produkto konfigūracijos modeliuose, duomenų tipų rinkinius. **Bulio logikos**, **teksto** su fiksuotu sąrašu ir **sveikųjų skaičių** su diapazonu tipų atributuose išvardytos reikšmės, galimos konfigūruojant produkto variantą pagal produktų konfigūravimo modelį.       |
 | Produkto konfigūracijos modelio kūrimas.                       | Kurkite produkto konfigūracijos modelį puslapyje **Naujas produkto konfigūracijos modelis**.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ ms.lasthandoff: 03/31/2017
 | Produkto konfigūracijos modelio tikrinimas.                         | Tikrinkite produkto konfigūracijos modelį puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** arba **Produkto konfigūracijos modelių sąrašas**. Produkto konfigūracijos modelio tikrinimo procedūra imituoja produkto modelio konfigūracijos procesą, vykstantį tvarkant užsakymus.                                                                                                |
 | Produkto konfigūracijos modelio šablonų kūrimas.                | Kurkite produkto konfigūracijos modelio šabloną puslapyje **Konfigūravimo šablonai**. Konfigūravimo šablone yra produktų konfigūravimo modelio atributų vertės. Atributo vertes pasirinkite puslapyje **Konfigūruoti eilutę**. Galite pasirinkti įkelti produkto modelio konfigūravimo šabloną atlikdami produkto modelio konfigūravimą.                                                   |
 | Prekės konfigūravimas.                                          | Produkto konfigūracijos modeliai gali būti konfigūruojami naudojant pardavimo užsakymą, pardavimo pasiūlymą, pirkimo užsakymą arba gamybos užsakymą.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

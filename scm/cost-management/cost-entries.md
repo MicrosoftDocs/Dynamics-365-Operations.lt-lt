@@ -40,7 +40,7 @@ Registruojamas perkėlimo žurnalo įvykis. Įvykis vieną prekės A vienetą pe
 
 ### <a name="example-2-cost-entries-are-created"></a>2 pavyzdys: sukuriama išlaidų įrašų
 
-Registruojamas perkėlimo žurnalo įvykis. Renginio perduoda vientisi prekės A iš svetainės 1 į svetainę 2. Svetainės atsargų dimensija yra laikoma dalis išlaidų objektu. Todėl įvykis sukuria dvi atsargų operacijas ir du išlaidų įrašus.
+Registruojamas perkėlimo žurnalo įvykis. Įvykis vieną prekės A vienetą perkelia iš 1 teritorijos į 2 teritoriją. Teritorijos atsargų dimensija laikoma išlaidų objekto dalimi. Todėl įvykis sukuria dvi atsargų operacijas ir du išlaidų įrašus.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>3 pavyzdys: sukuriamas vienas išlaidų įrašas
 
@@ -59,11 +59,11 @@ Naujasis **Išlaidų įrašų** puslapis leidžia peržiūrėti ir valdyti kieki
 | 00002   | 2015-01-20 | Pirkimo užsakymas | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 2015-01-31 | Koregavimas     | 100001 | 0000101 |               |               |          | 15,00   |
 
-**Išlaidų įrašų** puslapyje galima filtruoti pagal dokumento ID ir dokumento datą. **Pastaba:** kainos įrašai yra tik galima [išlaidų objektus](cost-object.md) arba išleisti produktai.
+**Išlaidų įrašų** puslapyje galima filtruoti pagal dokumento ID ir dokumento datą. **Pastaba.** Galimi tik [išlaidų objektų](cost-object.md) arba išleistų produktų išlaidų įrašai.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Cost objects](cost-object.md)
+[Išlaidų objektai](cost-object.md)
 
 

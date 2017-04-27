@@ -1,6 +1,6 @@
 ---
-title: "Maršrutai ir operacijų"
-description: "Šioje temoje pateikta informacija apie maršrutus ir operacijas. Maršrutą nurodo gamybos produkto ar gaminio variantas procesas. Ji apibūdina kiekvieno veiksmo (veikimo) gamybos procesas ir kad reikia atlikti šiuos veiksmus. Kiekviename žingsnyje, maršrutas taip pat apibrėžiami operacijų priemones, reikalingas laiko ir darbo laiką, ir kaip reikėtų apskaičiuoti išlaidas."
+title: "Maršrutai ir operacijos"
+description: "Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,216 +26,221 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="routes-and-operations"></a>Maršrutai ir operacijų
+# <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
-Šioje temoje pateikta informacija apie maršrutus ir operacijas. Maršrutą nurodo gamybos produkto ar gaminio variantas procesas. Ji apibūdina kiekvieno veiksmo (veikimo) gamybos procesas ir kad reikia atlikti šiuos veiksmus. Kiekviename žingsnyje, maršrutas taip pat apibrėžiami operacijų priemones, reikalingas laiko ir darbo laiką, ir kaip reikėtų apskaičiuoti išlaidas.
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Maršruto aprašoma operacijos tvarka, ko reikia norint pagaminti gaminį ar gaminio variantas. Kiekvienai operacijai, maršrutas taip pat apibrėžia veiklos išteklius, kurių reikia, laiką, kurio reikia norint nustatyti ir atlikti operaciją, o kaip reikėtų apskaičiuoti išlaidas. Galite naudoti to paties maršruto kelių produktams gaminti, arba galite nurodyti kiekvieno produkto ar gaminio variantas unikalių maršrutą. Galite net turėti kelių maršrutų už tą patį produktą. Šiuo atveju, maršrutas, kurį naudoja skiriasi, priklausomai nuo veiksnių pvz., kiekis, kuris turi būti gaminamas. Maršruto Microsoft Dynamics 365 operacijų apibrėžimas susideda iš keturių atskirų elementų, kurie kartu, apibūdinti gamybos procesą:
+Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Microsoft Dynamics 365 for Operations“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą:
 
--   **Maršrutas** – maršrutą apibrėžia struktūrą ir gamybos proceso. Kitaip tariant, ji apibrėžia veiklos tvarką.
--   **Operacija** – operacija identifikuoja pavadintas žingsnis maršrutą, pvz., **Asamblėjos**. Tos pačios operacijos gali atsirasti kelių maršrutų ir gali turėti skirtingas operacijos numerius.
--   **Operacijos** – operacijos ryšio apibrėžia veiklos ypatybes operaciją, pvz., nustatymo laiko ir vykdymo laiko išlaidų kategorijas, ir vartojimo parametrai ir išteklių poreikius. Operacijos ryšys leidžia veiklos ypatybes gali skirtis, priklausomai nuo maršruto, kad operacija yra naudojama, arba produktų, kurie gaminami operacijos.
--   **Maršruto versiją** – maršruto versiją nustato maršrutą, kuris yra naudojamas gaminti gaminį ar gaminio variantas. Maršruto versijos sudaryti maršrutai turi būti pakartotinai naudojamos produktuose arba pasikeitė per tam tikrą laiką. Jie taip pat leidžia skirtingų maršrutų į gaminti tą patį produktą. Tokiu atveju maršrutą, kuris yra naudojamas priklauso nuo veiksnių, tokių kaip vieta arba kiekis, kuris turi būti gaminamas.
+-   **Maršrutas** – maršrutas apibrėžia gamybos proceso struktūrą. Kitaip tariant, jis apibūdina operacijų seką.
+-   **Operacija** – operacija identifikuoja įvardintą veiksmą, pvz., **Surinkimas**. Ta pati operacija gali atsirasti keliuose maršrutuose ir gali turėti skirtingus operacijos numerius,
+-   **Operacijos ryšys** – operacijos ryšis apibrėžia operacijos veiklos ypatybes, pvz., nustatymo laiką ir vykdymo laiką, savikainos kategorijas, suvartojimo parametrus ir išteklių reikalavimus. Operacijos ryšys įgalina operacijos veiklos ypatybių kitimą, atsižvelgiant į maršrutą, kuriame operacija naudojama, arba į gaminamus produktus.
+-   **Maršruto versija** – maršruto versija apibrėžia maršrutą, kuris naudojamas produktui arba produkto variantui pagaminti. Maršrutų versijos leidžia maršrutus tarp produktų naudoti pakartotinai arba laikui bėgant keisti. Jie taip pat įgalina skirtingų maršrutų naudojimą tam pačiam produktui pagaminti. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant tam tikrus veiksnius, pvz., vietą arba kiekį, kurį reikia pagaminti.
 
 ## <a name="routes"></a>Maršrutai
-Maršruto aprašoma operacijų tvarką, naudojamas gaminti gaminį ar gaminio variantas. Kiekvienai operacijai suteikiamas operacijos numerį ir įpėdinis operacija. Operacijų tvarka sudaro maršruto tinklo, kuris gali atstovauti nukreiptą diagramoje, kuriame yra vienas ar daugiau įdirbis ir vieną pabaigos tašką. Dynamics 365 operacijoms, keliai skirstomi pagal konstrukcijos tipą. Dviejų tipų maršrutai yra paprasta maršrutus ir maršruto tinklus. Gamybos kontrolės parametrų, galite nurodyti ar tik paprastas maršrutai gali būti naudojamas arba ar daugiau sudėtingų maršrutų tinklo gali būti naudojamas.
+Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Programoje „Dynamics 365 for Operations“ maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
 
-### <a name="simple-routes"></a>Paprasta maršrutus
+### <a name="simple-routes"></a>Paprasti maršrutai
 
-Paprastas būdas yra nuoseklus, ir tai tik vienas atskaitos taškas maršrute.  
+Paprastas maršrutas yra nuoseklus ir turi tik vieną maršruto pradžios datą.  
 
-[![Paprastas būdas](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Paprastas maršrutas](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Jei įjungsite tik paprasta maršrutus gamybos kontrolės parametrų, Dynamics 365 operacijoms automatiškai generuoja operacijos numerius (10, 20, 30 ir t.t.) nurodžius maršrutą.
+Jei gamybos kontrolės parametruose įgalinsite tik paprastus maršrutus, apibrėžiant maršrutą, programa „Dynamics 365 for Operations“ automatiškai generuoja operacijų numerius (10, 20, 30 ir t. t.).
 
-### <a name="route-networks"></a>Maršrutų tinklo
+### <a name="route-networks"></a>Maršrutų tinklai
 
-Jei įjungsite daugiau sudėtingų maršrutų tinklo gamybos kontrolės parametrų, galite nustatyti maršrutų, keli atspirties taškų ir operacijų, kurios gali būti vykdomos lygiagrečiai.  
+Jei gamybos kontrolės parametruose įgalinsite sudėtingesnius maršrutų tinklus, galėsite apibrėžti maršrutus, kurie turi kelias pradžios datas, ir operacijas, kurias galima vykdyti lygiagrečiai.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Maršruto tinklas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Pastabos**
 
--   Kiekvienos operacijos gali būti tik vienas įpėdinis operacija, o visą maršrutą turi baigtis per vieną operaciją.
--   Nėra jokių garantijų, kad iš tikrųjų daug operacijų, kurios neturi tos pačios įpėdinis operacijos (pvz., 30 – 40 ankstesnėje iliustracijoje operacijos) vyks tuo pačiu metu. Pakankamumu ir pajėgumu išteklių kokybiniais apribojimais, kaip kad planuojamos veiklos.
--   0 (nulis) negalima naudoti kaip operacijos numerį. Šis skaičius yra rezervuotas ir yra naudojamas nurodyti, kad paskutinės operacijos maršruto neturi jokių teisių perėmėjas operacija.
+-   Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
+-   Nėra garantijos, kad kelios operacijos, kurios turi tą pačią vėlesnę operaciją (pvz., 30 ir 40 operacijos ankstesnėje iliustracijoje), iš tikro bus vykdomos lygiagrečiai. Pasiekiamumas ir išteklių pajėgumai gali apriboti būdą, kaip operacijos planuojamos.
+-   Negalima naudoti 0 (nulio) kaip operacijos numerio. Šis numeris rezervuotas ir yra naudojamas nurodyti tai, kad paskutinė maršruto operacija neturi vėlesnės operacijos.
 
-### <a name="parallel-operations"></a>Lygiagrečias operacijas
+### <a name="parallel-operations"></a>Lygiagrečios operacijos
 
-Kartais, sujungiant keletą operacijų išteklius, kurie turi skirtingas savybes būtina atlikti operaciją. Pvz., surinkimo operacijos gali prireikti mašina, priemonė ir vienas darbuotojas per dvi mašinos prižiūrėti operacija. Šiame pavyzdyje galima modeliuoti naudojant lygiagrečias operacijas, kur viena operacija yra paskirta pirminė operacija ir kiti yra antraeiliai.  
+Kartais, norint atlikti operaciją, reikia kelių operacijų išteklių su skirtingomis charakteristikomis derinio. Pvz., operacijų rinkiniui gali reikėti įrenginio, įrankio ir vieno darbininko dviem įrenginiams – operacijai peržiūrėti. Šį pavyzdį galima sumodeliuoti naudojant lygiagrečias operacijas, kur viena operacija pažymėta kaip pirminė operacija, o kitos – kaip antrinės operacijos.  
 
-[![Maršrutas, kuriame yra pirminės ir antrinės operacijos](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Maršrutas, turintis pirminių ir antrinių operacijų](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-Paprastai, pirminės operacijos yra Ribotosios spartos ištekliai ir diktuoja laikas, antrinės operacijos. Tačiau planavimo metu, kuris apima Ribotosios spartos pajėgumas, išteklių, kurie yra numatyta ir pirminė operacija ir antrinės operacijos turi būti prieinama ir turi neišnaudotų pajėgumų, tuo pačiu metu.  
+Paprastai pirminė operacija nurodo ribotosios spartos išteklių ir nustato antrinių operacijų vykdymo laiką. Tačiau planavimo metu, kai apimamas ir ribotas pajėgumas, ir pirminei operacijai, ir antrinėms operacijoms planuojami ištekliai tuo pačiu metu turi būti pasiekiami ir turėti laisvų pajėgumų.  
 
-Pirminė operacija ir antrinės operacijos turi turėti tą patį operacijos numerį (30 ankstesnėje iliustracijoje).  
+Ir pirminė operacija, ir antrinės operacijos turi turėti tą patį operacijos numerį (ankstesnėje iliustracijoje – 30).  
 
-Ankstesniame pavyzdyje, pirminė operacija (30) išteklių reikalavimas yra mašina, kadangi išteklių poreikių antrinės operacijos (30' ir 30'') įrankį ir darbuotojo. Penkiasdešimt procentų apkrovos padeda užtikrinti, kad suplanuotas darbuotojas galėtų prižiūrėti dvi mašinos ir tuo pačiu metu.
+Anksčiau pateikiamame pavyzdyje išteklių reikalavimas pirminei operacijai (30) yra įrenginys, tačiau antrinėms operacijoms (30' ir 30'') išteklių reikalavimai yra įrankis ir darbininkas. Penkiasdešimties procentų apkrova leidžia užtikrinti, kad suplanuotas darbininkas galės peržiūrėti du įrenginius vienu metu.
 
 ### <a name="approval-of-routes"></a>Maršrutų patvirtinimas
 
-Maršrutas turi būti patvirtintas prieš ji gali būti naudojama planavimas arba gamybos procesas. Patvirtinimas rodo, kad maršruto dizainas bus baigta. Tas pats išleido produktą arba jau išleistą produktą variantas gali turėti kelių patvirtintų maršrutų. Paprastai patvirtinimas maršruto kyla patvirtinus pirmoji atitinkama maršruto versija. Tačiau kai kurių verslo scenarijai, patvirtinti maršrutą ir maršruto versiją yra atskiras veiklas, kad būtų įtraukti įvairių proceso savininkai.  
+Maršrutas turi būti patvirtintas prieš jį naudojant planavimo ir gamybos procese. Patvirtinimas nurodo, kad maršruto kūrimas baigtas. Tas pats išleistas produktas arba produkto variantas gali turėti kelis patvirtintus maršrutus. Paprastai maršrutas patvirtinamas, patvirtinus pirmąją aktualią maršruto versiją. Tačiau kai kuriais verslo scenarijais maršruto ir maršruto versijos patvirtinimas yra atskiri veiksmai, ir, juos atliekant, gali dalyvauti skirtingi procesų savininkai.  
 
-Kiekvienam maršrutui gali būti patvirtintas arba nepatvirtintas atskirai. Tačiau Atkreipkite dėmesį, kad, kai maršrutas yra nepatvirtintų, visas susijusias maršruto versijos taip pat yra nepatvirtintas. Gamybos kontrolės parametrų, galite nurodyti ar maršrutai gali būti nepatvirtinti, ir ar galima pakeisti patvirtintų maršrutų.  
+Galima atskirai patvirtinti arba nepatvirtinti kiekvieną maršrutą. Tačiau, atkreipkite dėmesį, kad, kai maršrutas nepatvirtintas, taip pat nepatvirtintos visos susijusios maršruto versijos. Gamybos kontrolės parametruose galite nurodyti, ar galima nepatvirtinti maršrutų, ar galima patvirtintus maršrutus keisti.  
 
-Jei jūs privalote prisijungti kad įrašų, kurie patvirtina kiekvieno maršruto, jums reikia elektroninio parašo maršruto patvirtinimo. Tada vartotojai turės patvirtinti savo tapatybę naudodami, [elektroninio parašo](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino kiekvieną maršrutą, galite reikalauti elektroninių parašų maršrutui patvirtinti. Vartotojai tada savo tapatybę turės patvirtinti naudodami [elektroninį parašą](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>„Operations“
-Operacija yra gamybos proceso žingsnis. Dynamics 365 operacijoms, kiekviena operacija turi ID ir paprastą aprašymą. Šios lentelės rodo tipiškų pavyzdžių operacijas iš mašinos parduotuvė.
+Operacija yra gamybos proceso veiksmas. Programoje „Dynamics 365 for Operations“ kiekviena operacija turi savo ID ir paprastą aprašą. Toliau pateikiamose lentelėse nurodyti tipiški operacijų pavyzdžiai iš įrenginių parduotuvės.
 
 | Operacija  | aprašymas        |
 |------------|--------------------|
-| PipeCut    | Vamzdžių pjovimas       |
+| PipeCut    | Vamzdžių pjaustymas       |
 | TIGweld    | TIG suvirinimas        |
-| JigAssy    | S montavimas       |
-| Patikrinimas | Kokybės kontrolės |
+| JigAssy    | Veržiamosios pakabos sąranka       |
+| Patikrinimas | Kokybės tikrinimas |
 
-Veiklos ypatybes operaciją, pvz., nustatymo laiko ir vykdymo laiko išteklių poreikius, ir savikainos informaciją ir sąnaudų skaičiavimui, yra nurodyta operacijos ryšiui. (Daugiau informacijos apie operaciją santykių, žr. kitą skyrių.)
+Operacijos veiklos ypatybės, pvz., operacijos nustatymo laikas ir vykdymo laikas, išteklių reikalavimas, įkainojimo informacija ir suvartojimo skaičiavimas nurodyti operacijos ryšyje. (Išsamesnės informacijos apie operacijos ryšius žr. kitą skyrių.)
 
 ## <a name="operation-relations"></a>Operacijų ryšiai
-Šios veiklos ypatybės operacijos tvarkomos operacijos ryšiui:
+Toliau nurodytos operacijos veiklos ypatybės prižiūrimos operacijos ryšyje:
 
 -   Išlaidų kategorijos
--   Vartojimo parametrai
--   Nagrinėjimo laiką
--   Apdoroti kiekiai
+-   Suvartojimo parametrai
+-   Apdorojimo laikas
+-   Apdorojimo kiekiai
 -   Išteklių reikalavimai
--   Pastabos ir nurodymai
+-   Pastabos ir instrukcijos
 
-Galite nurodyti kelis operacijos santykių už tą pačią operaciją. Tačiau, kiekvienos operacijos ryšys yra susijusios su viena operacija ir saugo ypatybes, būdingas maršrutą, išleistą produktą arba išleistų produktų, kurie yra susiję su prekių grupę. Todėl kelis maršrutus, kad skirtingas veiklos savybes galima tos pačios operacijos. Be to, jūs lengviau išlaikyti savo pagrindinius duomenis, jei jūs naudojate standartinį operacijų, kurios neturi tos pačios veiklos ypatybės, nepriklausomai nuo maršruto, kuris naudojamas ir produkto, kuris yra gaminamas. Į operacijos ryšio apimtis yra apibrėžiama per į **prekės kodas**, **prekės atžvilgiu**, **maršruto kodas** ir **nukreipti ryšio** savybės, kaip parodyta toliau pateiktoje lentelėje.
+Tai pačiai operacijai galite nustatyti kelis operacijų ryšius. Tačiau kiekvienas operacijos ryšys yra būdingas vienai operacijai ir parduotuvės ypatybėms, būdingoms maršrutui, išleistam produktui ar išleistų produktų, susijusių su prekės grupe, rinkiniui. Todėl tą pačią operaciją galima naudoti keliuose maršrutuose, turinčiuose skirtingas operacijos veiklos ypatybes. Be to, galite lengviau prižiūrėti savo bendruosius duomenis, jei naudojate standartines operacijas, turinčias tas pačias operacijos veiklos ypatybes, nepaisant to, koks maršrutas naudojamas ir koks produktas gaminamas. Operacijų ryšio aprėptis apibrėžiama ypatybėmis **Prekės kodas**, **Prekės ryšys**, **Maršruto kodas** ir **Maršruto ryšys**, kaip parodyta toliau pateikiamoje lentelėje.
 
-| Prekės kodas | Prekės ryšys         | Maršruto kodas | Maršruto ryšys   | Taikymo į operacijos ryšio                                                                                                                                                                                                                                                                              |
+| Prekės kodas | Prekės ryšys         | Maršruto kodas | Maršruto ryšys   | Operacijų ryšio aprėptis                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lentelė     | &lt;Prekės ID&gt;       | Maršrutas      | &lt;Maršruto ID&gt; | Veiklos ypatybes operaciją naudojant maršruto kur **maršruto numeris**=&lt;maršruto ID&gt; išleistas produktui gaminti kur **prekės numeris**=&lt;prekės ID&gt;.                                                                                                                        |
-| Lentelė     | &lt;Prekės ID&gt;       | Visos        |                  | Numatytasis veiklos ypatybes operaciją, kai jis naudojamas gaminti išleido produktą kur **prekės numeris**=&lt;prekės ID&gt;. Kitaip tariant, šios veiklos ypatybės taikomos, kai yra ne konkretų operacijos ryšio pateikto produkto.                                     |
-| Grupuoti     | &lt;Prekių grupės ID&gt; | Maršrutas      | &lt;Maršruto ID&gt; | Veiklos ypatybes operaciją naudojant maršruto kur **maršruto numeris**=&lt;maršruto ID&gt; gaminti išleistų produktus, kurie yra susiję su prekių grupės &lt;prekių grupės ID&gt;, nebent yra konkretų operacijos ryšio išleido produktą.                         |
-| Grupuoti     | &lt;Prekių grupės ID&gt; | Visos        |                  | Numatytasis veiklos ypatybes operaciją, kai jis naudojamas gaminti išleistų produktus, kurie yra susiję su prekių grupės &lt;prekių grupės ID&gt;, nebent konkretesnės veiklos ryšys.                                                                                                  |
-| Visos       |                       | Maršrutas      | &lt;Maršruto ID&gt; | Numatytasis veiklos ypatybes operaciją, kai jis yra naudojamas maršruto kur **maršruto numeris**=&lt;maršruto ID&gt;. Kitaip tariant, šios veiklos ypatybės taikomos, kai nėra jokios operacijos ryšio tokį problemos sprendimo būdą, būdingą arba išleistą produktą arba yra su jais susijusios prekės grupė. |
-| Visos       |                       | Visos        |                  | Numatytasis veiklos ypatybes operaciją. Šios veiklos ypatybės taikomos, kai daugiau konkrečios operacijos ryšio nėra.                                                                                                                                                                |
+| Lentelė     | &lt;Prekės ID&gt;       | Maršrutas      | &lt;Maršruto ID&gt; | Operacijos veiklos ypatybės, kai operacija naudojama maršrute, kur **Maršruto numeris**=&lt;maršruto ID&gt;, siekiant pagaminti išleistą produktą, kai **Prekės numeris**=&lt;prekės ID&gt;.                                                                                                                        |
+| Lentelė     | &lt;Prekės ID&gt;       | Visos        |                  | Numatytosios operacijos veiklos ypatybės, kada operacija naudojama siekiant pagaminti išleistą produktą, kai **Prekės numeris**=&lt;prekės ID&gt;. Kitaip tariant, šios operacijų veiklos ypatybės taikomos tada, kai nėra išleisto produkto maršrutui būdingo operacijų ryšio.                                     |
+| Grupuoti     | &lt;Prekių grupės ID&gt; | Maršrutas      | &lt;Maršruto ID&gt; | Operacijų veiklos ypatybės, kai operacija naudojama maršrute, kur **Maršruto numeris**=&lt;maršruto ID&gt;, siekiant pagaminti išleistus produktus, kurie susieti su prekių grupe &lt;prekių grupės ID&gt;, nebent yra išleisto produkto operacijų ryšys.                         |
+| Grupuoti     | &lt;Prekių grupės ID&gt; | Visos        |                  | Numatytosios operacijų veiklos ypatybės, kai operacija naudojama gaminant išleistus produktus, kurie susieti su prekių grupe &lt;prekių grupės ID&gt;, nebent egzistuoja konkretesnis operacijų ryšys.                                                                                                  |
+| Visos       |                       | Maršrutas      | &lt;Maršruto ID&gt; | Numatytosios operacijų veiklos ypatybės, kaip operacija naudojama maršrute, kur **Maršruto numeris**=&lt;maršruto ID&gt;. Kitaip tariant, šios operacijų veiklos ypatybės taikomos tada, kai nėra šio maršruto, kuris būdingas išleistam produktui arba susietai prekių grupei, operacijų ryšio. |
+| Visos       |                       | Visos        |                  | Operacijos numatytosios operacijų veiklos ypatybės. Šios operacijų veiklos ypatybės taikomos tada, kai konkretesnis operacijų ryšys neegzistuoja.                                                                                                                                                                |
 
-Jūs taip pat galite nurodyti, kad operacijos ryšys yra konkrečios vietos. Tokiu būdu operacijos veiklos ypatybes gali skirtis, priklausomai nuo vietos (t. y. svetainę), kur operacija atliekama. Konfigūruotų produktų, taip pat galite nurodyti skirtingas veiklos savybes kiekvienas gaminio konfigūracijai.  
+Be to, galite nurodyti, kad operacijų ryšys yra būdingas svetainei. Tokiu būdu operacijų veiklos ypatybės gali skirtis atsižvelgiant į vietą (t. y., svetainę), kur operacija atliekama. Be to, galite nurodyti sukonfigūruotų produktų kiekvieno produkto konfigūracijos skirtingas operacijų veiklos ypatybes.  
 
-Operacijos santykių jums lankstumo, kai nustatote savo maršrutus. Be to, galimybė nustatyti numatytųjų ypatybių padeda sumažinti pagrindinių duomenų, kad jūs turite palaikyti. Tačiau šis lankstumas taip pat reiškia, kad jums reikia žinoti kontekstą, kad jums pakeisti operacijos ryšio.  
+Operacijų ryšiai suteikia daug lankstumo, kai nustatote savo maršrutus. Be to, galimybė nustatyti numatytąsias ypatybes padeda sumažinti bendrųjų duomenų kiekį, kurį turite prižiūrėti. Tačiau, šis lankstumas reiškia ir tai, kad turite turėti omenyje kontekstą, kuriame modifikuojate operacijų ryšį.  
 
-**Pastaba:** nes veiklos Ypatybės saugomos už kiekvieno maršruto operacijos santykiuose, visų atvejų, kai tos pačios operacijos (pvz., surinkimo) turi patį nustatymo laikas, vykdymo laikas, išteklių poreikius, ir t.t.. Taigi, jeigu dviejų atvejų, kai operacija turi atsirasti tuo pačiu maršrutu, bet turi skirtingus veikimo laiką, turite sukurti dvi atskiras operacijas, pvz., Assembly1 ir Assembly2.
+**Pastaba:** dėl to, kad operacijų veiklos ypatybės saugomos kiekvienos operacijos kiekvieno maršruto operacijų ryšiuose, visi tos pačios operacijos pasikartojimai (pvz., Surinkimas) turi tą patį nustatymo laiką, vykdymo laiką, išteklių reikalavimus ir t. t. Todėl jei du operacijos pasikartojimai turi būti tame pačiame maršrute, bet jų vykdymo laikas skirtingas, turite sukurti dvi atskiras operacijas, pvz., 1 surinkimas ir 2 surinkimas.
 
-### <a name="modifying-product-specific-routes"></a>Modifikuoti specifines maršrutai
+### <a name="modifying-product-specific-routes"></a>Su konkrečiu produktu susijusių maršrutų keitimas
 
-Kai atidarote į **maršruto** puslapis iš į **išleistas informacija apie** puslapyje, maršruto versijų, kurios yra susijusios su pasirinkto išleistas produktas yra rodomas. Tokiu atveju už kiekvieną operaciją, Dynamics 365 operacijoms rodo veiklos ypatybes iš operacijos ryšiui, geriausiai tenkinančias maršruto versiją. Jūs pastebėsite, kad veiksmų sąrašas apima ir **prekės kodas** ir **maršruto kodas** ypatybes iš operacijos ryšiui. Todėl galite nurodyti, kurios operacijos ryšys yra.  
+Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informacija **, rodomos tos maršrutų versijos, kurios susietos su pasirinktu išleistu produktu. Šiame kontekste kiekvienai operacijai „Dynamics 365 for Operations“ rodo operacijų veiklos ypatybes iš operacijų ryšio, kurios geriausiai atitinka maršruto versiją. Pastebėsite, kad operacijų sąrašas apima ypatybes **Prekės kodas** ir **Maršruto kodas** iš operacijų ryšių. Todėl galite nustatyti, kuris operacijos ryšys rodomas.  
 
-Dėl į **maršruto** puslapyje, galite keisti veiklos ypatybes operaciją, pvz., laikas ar išlaidų kategorijų. Jūsų pakeitimai išsaugomi operacijos ryšiui, skirtas maršrutas, išleistą produktą, kurie yra nuorodos į dabartinio maršruto versiją. Jei į operacijos ryšio, kuris yra rodomas maršrutas ir išleisti produktą, prieš jūsų keitimai yra saugomi, sistema sukuria kopiją į operacijos ryšio. Ši kopija *yra* maršrutas ir išleisti produktą. Todėl, jūsų keitimai neturės įtakos kitų maršrutų arba išleisti produktai. Patikrinti, kurios operacijos ryšys yra yra keistas, **maršruto** psl., pažvelgti į **prekės kodas** ir **maršruto kodas** laukus.  
+Puslapyje **Maršrutas** galite keisti operacijų veiklos ypatybes, pvz., vykdymo laiką ar išlaidų kategorijas. Jūsų pakeitimai saugomi operacijų ryšyje, kuris būdingas maršrutui ir išleistam produktui, kurie nurodyti dabartinėje maršruto versijoje. Jei rodomas operacijų ryšys nėra būdingas maršrutui ir išleistam produktui, prieš išsaugant pakeitimus, sistema sukuria operacijų ryšio kopiją. Ši kopija *yra* būdinga maršrutui ir išleistam produktui. Todėl jūsų pakeitimai neturės poveikio kitiems maršrutams ar išleistiems produktams. Norėdami patikrinti, kuris operacijų ryšys yra keičiamas puslapyje **Maršrutas** pažiūrėkite į laukus **Prekės kodas** ir **Maršruto kodas**.  
 
-Galite rankiniu būdu sukurti operacijoje, kurios yra susijusios su maršrutu ir jau išleistą produktą naudojant į **kopijuoti ir redaguoti ryšį** funkcija.  
+Beto, galite rankiniu būdu sukurti operaciją, kuri būdinga maršrutui ir išleistam produktui, naudodami funkciją **Kopijuoti ir redaguoti ryšį**.  
 
-**Pastaba:** jei galite pridėti naują operaciją į maršrutą į **maršruto** puslapyje, operacijos ryšys sukuriamas tik už dabartinę išleido produktą. Todėl, jei maršrutas taip pat naudojamas kitų išleistų produktams gaminti, nėra taikomos operacijos ryšio būsiančių išleistų produktų ir maršruto nebegali būti naudojamas tų išleistų produktų.
+**Pastaba:** jei įtrauksite naują operaciją į maršrutą puslapyje **Maršrutas**, operacijų ryšys sukuriamas tik dabartiniam išleistam produktui. Taigi, jei maršrutas naudojamas ir kitiems išleistiems produktams gaminti, nebus jokio taikomo operacijų ryšio šiems išleistiems produktams, o maršruto nebebus galima naudoti tiems išleistiems produktams.
 
-### <a name="maintaining-operation-relations-per-route"></a>Operacijos ryšių maršruto dalyje.
+### <a name="maintaining-operation-relations-per-route"></a>Maršruto operacijų ryšių priežiūra
 
-Kai atidarote į **maršruto duomenys** puslapis iš į **maršrutų** sąrašo puslapį, rodomas sąrašas visų operation relations, taikomas pasirinkto maršruto. Todėl galite lengvai patikrinti, kurioje veiklos apgyvendinimo įstaigos yra naudojami produktai. Galite keisti numatytąjį ypatybių reikšmes ir konkretaus produkto ypatybių reikšmes.  
+Atidarius puslapį **Maršruto informacija** iš sąrašo puslapio **Maršrutai**, rodomas visų operacijų ryšių, kurie taikomi pasirinktam maršrutui, sąrašas. Todėl galite lengvai patikrinti, kurios operacijų veiklos ypatybės naudojamos kuriems produktams. Galite keisti ir numatytąsias ypatybių vertes, ir produktui būdingų ypatybių vertes.  
 
-Jei galite pridėti naują operacijos ryšio su **maršruto duomenys** puslapis, į **maršruto kodas** laukas automatiškai nustatomas kaip **maršruto**, ir **nukreipti ryšio** laukas yra nustatytas dabartinio maršruto numeris.
+Jei įtrauksite naują operacijų ryšį puslapyje **Maršruto informacija**, laukas **Maršruto kodas** automatiškai nustatomas į **Maršrutas**, o laukas **Maršruto ryšys** nustatomas į dabartinio maršruto numerį.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Operacijos ryšių operacijos sąnaudos
+### <a name="maintaining-operation-relations-per-operation"></a>Operacijos operacijų ryšių priežiūra
 
-Iš į **veiklos** puslapį, galite atidaryti su **operacijos santykių** puslapis. Šiame puslapyje galite keisti visos operacijos santykių dėl konkrečios operacijos. Galite net keisti operacijos santykių, kuriuose yra numatytųjų reikšmių.  
+Iš puslapio **Operacijos** galite atidaryti puslapį **Operacijų ryšiai**. Šiame puslapyje galite keisti visus konkrečios operacijos operacijų ryšius. Galite keisti ir tuos operacijų ryšius, kuriuose yra numatytosios vertės.  
 
-Jei jūsų įmonė naudoja standartinį operacijų ir veiksmų parametrai yra tokie patys visose produktų ir procesų, į **operacijos santykių** puslapis suteikia galimybę patogiai išlaikyti numatytasis veiklos ypatybes tų operacijų.
+Jei jūsų verslas naudoja standartines operacijas ir jei operacijų veiklos ypatybės yra tos pačios visuose produktuose ir procesuose, puslapyje **Operacijų ryšiai** pateikiamas patogus būdas prižiūrėti šių operacijų numatytąsias operacijų veiklos ypatybes.
 
-### <a name="applying-operation-relations"></a>Taikant operacijos santykių
+### <a name="applying-operation-relations"></a>Operacijų ryšių taikymas
 
-Kai kuriais atvejais, Dynamics 365 operacijoms turi rasti veiklos ypatybes operacijai. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos veiklos ypatybės turi būti kopijuojami iš operation relations gamybos maršrute. Tokiais atvejais Dynamics 365 operacijoms daugiau atitinkamų operation relations konkrečiausia derinimu su mažiau kaip tikras derinys.  
+Kai kuriais atvejais programa „Dynamics 365 for Operations“ turi rasti operacijos operacijų veiklos ypatybes. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos operacijų veiklos ypatybės turi būti nukopijuotos iš operacijų ryšių į gamybos maršrutą. Tokiose situacijose „Dynamics 365 for Operations“ ieško susijusių operacijų ryšių nuo pačių būdingiausių kombinacijų iki mažiausiai būdingų kombinacijų.  
 
-Dynamics 365 operacijų ieško tinkamiausios operacijos ryšio išleistas produktas, operacijos ryšio, kuris atitinka elemento ID pateikto produkto, kai yra geriau negu operacijos ryšio kad rungtynes prekių grupės ID. Savo ruožtu, operacijos ryšio, kuris atitinka prekių grupės ID yra teikiama pirmenybė per numatytąjį operacijos ryšiui. Paieška atliekama tokia tvarka:
+Kai „Dynamics 365 for Operations“ ieško išleisto produkto labiausiai susijusių operacijų ryšių, operacijų ryšiui, kuris atitinka išleisto produkto prekės ID, teikiama pirmenybė lyginant su operacijų ryšiu, kuris atitinka prekės grupės ID. Savo ruožtu operacijos ryšys, kuris atitinka prekės grupės ID turi pirmenybę lyginant su numatytuoju operacijų ryšiu. Ieška atliekama toliau nurodyta tvarka:
 
-1.  **Prekės kodas**=**lentelė** ir **prekės atžvilgiu**=&lt;prekės ID&gt;
-2.  **Prekės kodas**=**grupės** ir **prekės atžvilgiu**=&lt;prekių grupės ID&gt;
-3.  **Prekės kodas**=**visi**
-4.  **Maršruto kodas**=**maršruto** ir **nukreipti ryšio**=&lt;maršruto ID&gt;
-5.  **Maršruto kodas**=**visi**
+1.  **Prekės kodas**=**Lentelė** ir **Prekės ryšys**=&lt;prekės ID&gt;
+2.  **Prekės kodas**=**Grupė** ir **Prekės ryšys**=&lt;prekių grupės ID&gt;
+3.  **Prekės kodas**=**Visi**
+4.  **Maršruto kodas**=**Maršrutas** ir **Maršruto ryšys**=&lt;maršruto ID&gt;
+5.  **Maršruto kodas**=**Visi**
 6.  **Konfigūracija**=&lt;konfigūracijos ID&gt;
-7.  **Configuration**=
-8.  **Svetainės**=&lt;svetainės ID&gt;
-9.  **Site**=
+7.  **Konfigūracija**=
+8.  **Svetainė**=&lt;svetainės ID&gt;
+9.  **Svetainė**=
 
-Todėl, operacijos turėtų būti naudojamas tik vieną kartą kiekvienam maršrutui. Jei operacija vyksta kelis kartus tuo pačiu maršrutu, visų atvejų, kai ši operacija vykdoma turės pačios operacijos ryšio, ir jūs negalėsite turėti skirtingas savybes (pavyzdžiui, paleisti kartus) aptikusi.
+Todėl operacija turėtų būti naudojama tik vieną kartą kiekviename maršrute. Jei tame pačiame maršrute operacija atsiras kelis kartus, visi tos pačios operacijos pasikartojimai turės tą patį operacijos ryšį ir nebus galimos skirtingos kiekvieno pasikartojimo ypatybės (pvz., apdorojimo laikai).
 
 ## <a name="route-versions"></a>Maršruto versijos
-Maršruto versijos naudojamos variacijas produktų gamybai arba labiau kontroliuoti gamybos procesą. Jie nustatyti, kurioje maršrutas turi būti naudojamas, kai konkreti išleido produktą arba jau išleistą produktą variantas yra gaminamas. Nustatyti, kurioje yra vartojamas išleido produktą, galite naudoti šiuos suvaržymus:
+Maršruto versijos naudojamos, jei norima taikyti variacijas produktų gamybai arba suteikti galimybę labiau kontroliuoti gamybos procesą. Jos apibrėžia, kuris maršrutas turi būti naudojamas, kai gaminamas tam tikras produktas arba išleisto produkto variantas. Galite naudoti šiuos apribojimus norėdami nustatyti, kuris maršrutas naudojamas išleistam produktui:
 
--   Gaminio matmenys (dydį, spalvą, stilių ar konfigūracijos)
+-   Produkto dimensijos (dydis, spalva, stilius arba konfigūracija)
 -   Gamybos kiekis
--   Gamybos vietos
--   Pagaminimo data
+-   Gamybos svetainė
+-   Gamybos data
 
-Kada jums gaminti produkto konkrečioje vietoje, tam tikrame kiekyje, arba tam tikrą laikotarpį, galite nustatyti konkrečių maršruto versiją kaip numatytojo maršruto versiją. Tačiau Atkreipkite dėmesį, kad tik vienas aktyvus maršrutas leidžiama tam tikras išleistas produktas ir reikiamam apribojimus.  
+Kai produktą gaminate tam tikroje svetainėje, tam tikrą jo kiekį arba tam tikru laikotarpiu, galite priskirti tam tikrą maršruto versiją kaip numatytąją maršruto versiją. Tačiau, atkreipkite dėmesį, kad nurodytam išleistam produktui leidžiamas tik vienas maršrutas ir nurodytas apribojimų rinkinys.  
 
-Gamybos kontrolės parametrų, galite reikalauti, kad galiojimo laiką maršruto versiją visada galima nurodyti.
+Galite reikalauti, kad gamybos kontrolės parametruose visada būtų nurodytas maršruto versijos galiojimo laikotarpis.
 
-### <a name="approval-of-route-versions"></a>Maršruto versijos patvirtinimo
+### <a name="approval-of-route-versions"></a>Maršruto versijų patvirtinimas
 
-Prieš maršruto versiją galima planavimas arba gamybos procesas, jis turi būti patvirtintas. Kai patvirtinsite maršruto versiją, taip pat gali patvirtinti būdo. Tačiau Atkreipkite dėmesį, kad maršruto versiją galima patvirtinti tik tada, jei būdo, taip pat patvirtinama.
+Maršrutas turi būti patvirtintas prieš jį naudojant planavimo ir gamybos procese. Patvirtindami maršruto versiją, taip pat galite patvirtinti ir susijusį maršrutą. Tačiau atkreipkite dėmesį, kad maršruto versiją galima patvirtinti tik jei susijęs maršrutas irgi patvirtintas.
 
-### <a name="activating-the-default-route-version"></a>Aktyvinti numatytojo maršruto versiją
+### <a name="activating-the-default-route-version"></a>Numatytosios maršruto versijos suaktyvinimas
 
-Kai aktyvinate maršruto versiją, galite paskirti jį kaip numatytojo maršruto versiją, kurios kapitonas planavimo bus naudojamas arba kad bus naudojamos gamybos užsakymuose. Jūs galite turėti tik vieną aktyvią nukreipimo versiją reikiamam apribojimus (pvz., laiką, svetainę ar kiekis). Jei versiją, kad jūs bandote aktyvinti konfliktų su versija tai jau aktyvus, galite gauti klaidos pranešimą. Norėdami išvengti dviprasmiškų aktyvinimo, turite tada nesuderinamą versiją išaktyvinti arba keisti maršruto versiją suvaržymai (paprastai laikotarpis).
+Suaktyvindami maršruto versiją, ją nurodote kaip numatytąją maršruto versiją, kuri bus naudojama bendrojo planavimo metu, arba bus naudojama kuriant gamybos užsakymus. Tam tikram apribojimų rinkiniui (pvz., laikotarpis, svetainė arba kiekis) galima tik viena aktyvi maršruto versija. Jei versija, kurią mėginsite suaktyvinti, bus nesuderinama su jau aktyvia versija, gausite klaidos pranešimą. Siekiant išvengti nevienareikšmiško suaktyvinimo, reikia arba išaktyvinti nesuderinamą versiją, arba modifikuoti maršruto versijos apribojimus (paprastai laikotarpį).
 
 ### <a name="electronic-signatures"></a>Elektroniniai parašai
 
-Jei jūs privalote prisijungti kad įrašų, kurie pritaria ir aktyvina kiekvieno maršruto versiją, jums reikia elektroninių parašų už šias užduotis. Vartotojai, kurie patvirtinti ir įjunkite maršruto versijos turės patvirtinti savo tapatybę naudodami, [elektroninio parašo](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino ir suaktyvino kiekvieną maršruto versiją, galite šioms užduotims atlikti reikalauti elektroninių parašų. Vartotojai, patvirtinantys ir suaktyvinantys maršruto versiją, savo tapatybę patvirtinti turės naudodami [elektroninį parašą](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Prekės keitimą, kuris naudoja bylų valdymo
+### <a name="product-change-that-uses-case-management"></a>Produkto keitimas naudojant atvejų valdymą
 
-Produkto keisti patvirtinimo ir aktyvuoti naują ar pakitusią maršrutai ir maršrutų versijos leidžia lengvai peržiūrėti maršruto versiją apribojimai. Taip pat galite patvirtinti ir suaktyvinti visų maršrutų, kurie yra susiję su konkrečių keisti vienos operacijos ir dokumento rezultatus produkto pokyčių atveju.
+Produkto keitimo atvejis, skirtas tvirtinti ir aktyvinti naujiems ar pakeistiems maršrutams ir maršrutų versijoms, suteikia lengvą būdą apžvelgti maršruto versijos apribojimus. Be to, galite patvirtinti ir suaktyvinti visus maršrutus, susijusius su konkrečiu vienos operacijos pakeitimu, ir dokumentuoti rezultatus produkto keitimo atvejyje.
 
-## <a name="maintaining-routes"></a>Išsaugoti maršrutai
-Priklausomai nuo jūsų verslo poreikius, galėsite sumažinti pastangų, kurio reikia siekiant išlaikyti savo proceso apibrėžimai.
+## <a name="maintaining-routes"></a>Maršrutų priežiūra
+Atsižvelgiant į jūsų verslo reikalavimus, galbūt galėsite sumažinti pastangų, kurios reikalingos norint prižiūrėti proceso apibrėžimus.
 
-### <a name="making-routes-independent-of-resources"></a>Todėl maršrutų nepriklausomai nuo išteklių
+### <a name="making-routes-independent-of-resources"></a>Maršrutų ir išteklių priklausomumo atsiejimas
 
-Daugelis sistemų, veiklos išteklių arba išteklių grupę, kuri turėtų atlikti operaciją turi būti nurodytas maršrutas. Vis dėlto Dynamics 365 operacijoms, galite nustatyti tam tikrų reikalavimų, veiklos išteklių turi atitikti taikytiną operacija. Todėl tam tikroms operacijoms išteklių arba išteklių grupę, kuri turėtų būti naudojama neturi būti nustatyta tik operacija iš tikrųjų planuojama. Ši funkcija yra ypač naudinga, kai turite daug darbuotojai arba mašinos, kurios gali atlikti tą pačią operaciją.  
+Daugelyje sistemų operacijų išteklius arba išteklių grupė, kuri turėtų atlikti operaciją, turi būti nurodyta maršrute. Tačiau programoje „Dynamics 365 for Operations“ galite nustatyti reikalavimų rinkinį, kuriuos ištekliai turi atitikti tam, kad galėtų būti taikomi operacijai. Todėl konkretūs operacijos ištekliai ar išteklių grupė, kurie turi būti naudojami, neturi būti nustatyti tol, kol operacija nesuplanuojama faktiškai. Ši funkcija ypač naudinga, turint daug darbininkų arba įrenginių, kurie gali atlikti tą pačią operaciją.  
 
-Pvz., galite nurodyti, kad operacija reikalauja operacijos išteklių, kad **mašina** tipą, kuris yra per **štampavimo** 20 tonų pajėgumų. Planavimo modulis bus tada išspręsti šiuos reikalavimus į konkrečias operacijas išteklių arba išteklių grupę, kai planuojama operacija. Nes jūs tiesiog nurodyti šie reikalavimai vietoj privalomos operaciją su konkrečia mašina, jūs turite daug daugiau lankstumo. Be to, išlaikymą bus lengviau, jeigu ištekliai perkeliami arba naujų išteklių pridėta.  
+Pvz., nurodėte, kad operacijai atlikti reikia operacijos ištekliaus, kurio tipas **Įrenginys**, turinčio 20 t pajėgumo **Spaudavimas**. Planavimo mechanizmas tada nustatys šiuos reikalavimus konkrečiam operacijos ištekliui arba išteklių grupei, kada operacija suplanuota. Dėl to, kad galite tik nurodyti šiuos reikalavimus, o ne susieti operaciją su konkrečiu įrenginiu, turėsite daug daugiau lankstumo. Be to, kai resursai perkeliami arba įtraukiamas naujas išteklius – lengvesnė priežiūra.  
 
-Daugiau informacijos apie įvairių rūšių išteklių poreikius ir kaip juos naudoti, peržiūrėkite operacijos išteklių poreikius ir [išteklių pajėgumus](resource-capabilities.md).
+Išsamesnės informacijos apie įvairius išteklių reikalavimų tipus ir kaip juos naudoti žr. skyrių Operacijų išteklių reikalavimai [Išteklių pajėgumai](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Dalintis maršrutai svetainėse
+### <a name="sharing-routes-across-sites"></a>Maršrutų bendrinimas svetainėse
 
-Jei galite gaminti tą patį produktą daugiau nei viename gamybos vietoje, o gamybos produktas yra tas pats visose teritorijose, dažnai galite sukurti bendro naudojimo maršruto, kuris naudojamas visose gamybos svetainėse. Sukurti bendro naudojimo kelias, nėra nurodyti svetainėje maršrutą. Tačiau vis tiek turi sukurti maršruto versiją, kuri sieja bendras maršruto su produkto kiekvienoje vietoje.  
+Jei tą patį produktą gaminate daugiau nei vienoje gamybos vietoje ir jei produkto gamybos veiksmai yra tie patys visose vietose, dažnai galima sukurti bendrinamą maršrutą, naudojamą visose gamybos vietose. Norėdami sukurti bendrinamą maršrutą, vietos nenurodykite pačiame maršrute. Tačiau vis tiek turite sukurti maršruto versiją, kuri susieja bendrinamą maršrutą su gaminiu kiekvienoje vietoje.  
 
-Taip pat įsitikinkite, kad išteklių poreikių kiekvieno maršruto operacija nereikalauja konkrečias operacijas išteklius arba išteklių grupes, bet vietoj to išreiškiami būtini ištekliai charakteristikos. Tada planavimo modulis galės priskirti atitinkamų operacijų išteklius iš svetainės, kurioje planuojama gamybos. Pavyzdžiui, jei yra mažų skirtumų, skaičiuoti laiką, arba sąrankos metu tam tikros operacijos yra konkrečios vietos, šią informaciją galite nurodyti pridedant papildomą operacijos ryšio toje svetainėje.  
+Taip pat turite įsitikinti, kad kiekvienos maršruto operacijos išteklių reikalavimai neprašo konkrečių operacijų išteklių ar išteklių grupių, bet yra išreiškiami pagal reikiamų išteklių charakteristikas. Planavimo mechanizmas tada galės priskirti atitinkamus operacijų išteklius iš tos vietos, kurioje gamyba yra suplanuota. Pvz., jei yra nedidelių vykdymo laiko skirtumų arba, jei tam tikros operacijos nustatymo laikas yra priklausomas nuo vietos, šią informaciją galite nurodyti tai vietai įtraukę papildomą operacijos ryšį.  
 
-Išnaudoti visas bendras maršrutų naudą, taip pat turėtų naudoti išteklių vartojimas atitinkamą komplektavimo specifikacijos (KS). Kai nustatote vėliavos darbo centro suvartojimui KS eilutėje, sandėlio ir vietą, kurioje žaliavų, kurios turi būti vartojamos nuo numanyti operacijų išteklių, kuri veikla planuojama. Todėl sandėlio ir vietoje neturi nustatyti tol, kol iš tikrųjų planuojama gaminti. Tokiu būdu, jūs galite KS ir maršruto nepriklausomai nuo fizinę vietovę, kur auginamas produktas.
+Norėdami pasinaudoti visais bendrinamų maršrutų pranašumais, turėtumėte naudoti ir išteklių suvartojimą atitinkamoje komplektavimo specifikacijoje (KS). Kai KS eilutėje nustatote išteklių suvartojimo vėliavėlę, sandėlis ir vieta, iš kurios turėtų būti vartojamos žaliavos, išgaunamos iš operacijos ištekliaus, su kuriuo operacija suplanuota. Todėl sandėlio ir vietos nereikia nustatyti tol, kol gamyba nėra faktiškai suplanuota. Tokiu būdu galite palikti ir KS, ir maršrutą nepriklausomus nuo fizinės vietos, kurioje produktas gaminamas.
 
-### <a name="standard-operation-relations"></a>Standartinei veiklai santykių
+### <a name="standard-operation-relations"></a>Standartiniai operacijų ryšiai
 
-Jei jūsų įmonė naudoja standartizuotą veiklą visoje gamybos ir jei yra mažai arba jokio pokyčio nustatymo laikas, vykdymo laikas, sąnaudų skaičiavimui, išlaidų skaičiavimas, ir taip toliau, jums gali būti naudinga sukurti numatytąjį operacijos santykių už visas operacijas. Tokiu atveju nekurti operacijos santykiai, kurie yra būdingi bet kokį maršrutą arba išleido produktą.  
+Jei jūsų verslo gamyboje naudojamos standartizuotos operacijos, ir jei mažai kinta ar visai nekinta nustatymo laikas, vykdymo laikas, suvartojimo apskaičiavimas, savikainos apskaičiavimas ir t.t., gali būti naudinga visoms operacijoms sukurti numatytuosius operacijų ryšius. Tokiu atveju stenkitės nekurti operacijų ryšių, kurie būdingi kuriam nors maršrutui ar išleistam produktui.  
 
-Jei taip pat išreikšti išteklių poreikius, gebėjimus ir pajėgumus, ir padaryti savo maršrutus svetainėje nepriklausomas, gali padėti išlaikyti savo verslo procesus, vykdomos priežiūros iki minimumo.  
+Be to, jei išreikšite išteklių reikalavimus dėl įgūdžių ir pajėgumų ir padarysite maršrutus nepriklausomus nuo vietos, padėsite iki minimumo sumažinti nuolatinę verslo procesų priežiūrą.  
 
-Naudojant šį metodą, į **operacijos santykių** puslapis tampa savo pirminės paskirties, išlaikyti veikimo laiką ir kitas ypatybes.
+Naudojant šį būdą, puslapis **Operacijų ryšiai** tampa pirmine vykdymo laiko ir kitų ypatybių priežiūros paskirties vieta.
 
-### <a name="resource-specific-process-times"></a>Išteklių konkrečių apdorojimo trukmė
+### <a name="resource-specific-process-times"></a>Ištekliui būdingi apdorojimo laikai
 
-Jei nenurodysite dalis išteklių poreikių operacijos operacijų ištekliu ar išteklių grupe, taikomas išteklių gali veikti skirtingais greičiais. Todėl laikas, kurio reikia, kad galėtume apdoroti operaciją gali skirtis. Norėdami išspręsti šią problemą, galite naudoti su **formulės** lauko operacijos ryšiui nustatyti kaip proceso laikas skaičiuojamas. Galimos toliau nurodytos pasirinktys:
+Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos išteklių reikalavimų dalies, taikomi ištekliai gali veikti skirtingu greičiu. Todėl laikas, reikalingas operacijai apdoroti, gali skirtis. Norėdami išspręsti šią problemą, naudokite operacijos ryšio lauką **Formulė** nurodyti, kaip apskaičiuojamas apdorojimo laikas. Galimos toliau nurodytos pasirinktys:
 
--   **Standartinis** – (Numatytoji parinktis) apskaičiuoti naudoja tik laukai, į operacijos ryšio ir daugina iš užsakymo kiekis nurodytas laikas.
--   **Talpa** – į skaičiavimus įtrauktos į **talpos** lauko iš operacijų išteklių. Todėl laikas yra išteklių požiūriu priklausomomis. Nenurodytas operacijas išteklių reikšmė pajėgumo per valandą. Ši reikšmė yra padauginama iš užsakymo kiekį ir **veiksnys** į operacijos ryšio vertę.
--   **Partijos** – partijos talpa apskaičiuojama naudojant informaciją iš operacijos ryšiui. Partijų ir vykdymo laikas gali tada būti apskaičiuojamos pagal užsakymo kiekį.
--   **Išteklių partijos** – Ši parinktis yra iš esmės tas pats kaip su **partijos** variantą. Tačiau į skaičiavimus įtrauktos į **partijos talpa** lauko iš operacijų išteklių. Todėl laikas yra išteklių požiūriu priklausomomis.
+-   **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
+-   **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. Ši vertė padauginama iš užsakymo kiekio ir vertės **Koeficientas** iš operacijos ryšio.
+-   **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
+-   **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[KS ir formulės](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Išlaidų kategorijos, naudojamos gamybos maršrutuose](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Išteklių galimybės](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Elektroninio parašo apžvalga](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

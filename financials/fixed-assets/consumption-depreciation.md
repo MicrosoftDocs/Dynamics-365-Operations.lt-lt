@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Produkcijos metodas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgtas nusidėvėjimo Naudojimo metodas.
 
 Jei nustatote ilgalaikio turto nusidėvėjimo profilį ir **Nusidėvėjimo profilių** puslapio lauke **Metodas** pasirenkate **Naudojimas**, ilgalaikis turtas nusidėvėjimo profiliui priskiriamas pagal jo naudojimą. **Nusidėvėjimo profilių** puslapyje procentų ir intervalų nustatyti nereikia. Kai sukuriate nusidėvėjimo profilį, kuris naudoja Naudojimo metodą, metodą nustatyti galite įvairiais būdais.
@@ -64,5 +67,7 @@ Sausio 31 d. nusidėvėjimo pasiūlymas yra toks: Kiekis x Vieneto nusidėvėjim
 -   Įvertintas ilgalaikio turto kiekis yra 2 000.
 
 Sausio 31 d. nusidėvėjimo pasiūlymas yra toks: Įvertintas kiekis x Procentas x Vieneto nusidėvėjimas 2 000 x 0,10 x 1,5 = 300
+
+
 
 

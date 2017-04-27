@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Neautomatinis nusidėvėjimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgtas rankinis nusidėvėjimo metodas.
 
 Kai nustatote ilgalaikio turto nusidėvėjimo šabloną ir puslapio **Nusidėvėjimo profiliai** lauke **Metodas** pasirenkate **Rankinis**, ilgalaikio turto, priskirto nusidėvėjimo šablonui, nusidėvėjimas nustatomas pagal kiekviename kalendorinių metų intervale įvestą procentinį dydį. Intervalai, kurių procentinius dydžius nustatote, registruojami atsižvelgiant į reikšmę, kurią pasirenkate **Laikotarpio dažnio** lauke, esančiame „FastTab‟ **Bendra**, **Nusidėvėjimo profilių** puslapyje. Čia nurodytos reikšmės, kurias galite pasirinkti.
@@ -63,13 +66,15 @@ Jeigu lauke **Laikotarpio dažnis** pasirenkate **Kas mėnesį**, nustatote 12 r
 | sausio  | (11 000 – 1 000) × 10 % = 1 000 |
 | Vasaris | (11 000 – 1 000) × 50 % = 5 000 |
 
-Jei pasirinksite **kas pusę metų**, su *** laikotarpio dažnis ** lauko **, galite nustatyti du rankinio grafiko intervalų. Toliau pateikiamoje lentelėje rodomos tų dviejų intervalų nusidėvėjimo sumos.
+Jeigu lauke ****Laikotarpio dažnis**** pasirenkate **Kas pusmetį**, nustatote du rankinių grafikų intervalus. Toliau pateikiamoje lentelėje rodomos tų dviejų intervalų nusidėvėjimo sumos.
 
 | Intervalas    | Nusidėvėjimo suma            |
 |-------------|--------------------------------|
 | Birželio 30 d.     | (11 000 – 1 000) × 10 % = 1 000 |
 | Gruodžio 31 d. | (11 000 – 1 000) × 50 % = 5 000 |
 
-Procentai visų kas bendra nebūtinai turi būti 100. Tačiau, galite gauti pranešimą, jei vertė ir **kaupiamoji** lauko ir **ilgalaikio turto nusidėvėjimas profilis grafikai** puslapis yra ne **100**.
+Bendra procentinių dydžių suma neturi būti 100. Tačiau, jei reikšmė lauke **Sukaupti procentai**, esančiame puslapyje **Ilgalaikio turto nusidėvėjimo profilių grafikų**, nėra **100**, gaunate pranešimą.
+
+
 
 

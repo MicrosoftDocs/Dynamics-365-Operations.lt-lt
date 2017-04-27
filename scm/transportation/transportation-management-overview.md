@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Transportavimo valdymo peržiūra
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Operations“ transportavimo valdymo funkcijos.
 
 Modulis Transportavimo valdymas suteikia galimybę tvarkyti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai „Microsoft Dynamics 365 for Operations‟ modulio Transportavimo valdymas naudojimo scenarijai.
@@ -67,19 +70,21 @@ Modulis Transportavimo valdymas suteikia galimybę tvarkyti jūsų įmonės tran
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Transportavimo planavimas programoje „Dynamics 365 for Operations“
 Naudojant Transportavimo valdymą, planuoti transportavimą galima pagal užsakymus arba pagal siuntas, kurios sukuriamos pagal tuos užsakymus. Siuntos tam tikru metu egzistuoja visada, tačiau, planuojant transportavimą, jos nebūtinos. Perkėlimo užsakymai yra siuntimo scenarijaus dalis ir juos planuoti galima kartu su pardavimo užsakymais. 
 
-![Įkelti brėžinys](./media/Load-drawing1-1024x477.jpg)
+![Krovinio iliustracija](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Gavimų transportavimas
-Kai užsisakote prekes iš tiekėjo, o į prekės turi būti pristatomos į sandėlį, galite organizuoti prekes gabenti patys. Dynamics 365 operacijoms galite planuoti transporto ir gavimas atvykstamąjį apkrovos. Toliau pateiktoje iliustracijoje pavaizduota gaunamo krovinio transportavimo planavimo verslo proceso eiga. 
+Kai užsakote prekes iš tiekėjo, o prekės turi būti pristatytos į jūsų sandėlį, galite patys suorganizuoti prekių transportavimą. Naudodami „Dynamics 365 for Operations‟ galite planuoti gaunamo krovinio transportavimą ir gavimą. Toliau pateiktoje iliustracijoje pavaizduota gaunamo krovinio transportavimo planavimo verslo proceso eiga. 
 
 ![Gaunamų krovinių transportavimo verslo procesų srautas](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Siuntimų transportavimas
 Galite planuoti ir apdoroti siunčiamą krovinį, norėdami siųsti klientui konkrečias prekes iš įmonės sandėlio. Naudodami „Dynamics 365 for Operations‟ galite planuoti siunčiamo krovinio transportavimą ir pristatymą. Toliau pateiktoje iliustracijoje pavaizduota siunčiamų krovinių apdorojimo siųsti verslo proceso eiga. 
 
-![Planavimo ir tvarkymo siuntimo krovinys](./media/Planningandprocessingoutboundloads.jpg)
+![Siunčiamų krovinių planavimas ir apdorojimas](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Krovinio kūrimas
 Programoje „Dynamics 365 for Operations‟ galima naudoti krovinio kūrimo strategiją, kuri vadinasi Tūriu pagrįsta krovinio kūrimo strategija. Naudojant šią strategiją galima naudoti maksimalias aukščio ir svorio reikšmes, nurodytas krovinio šablone, arba galima nepaisyti parametrų įvedant naujas reikšmes. Norėdami naudoti šią strategiją, pasirinkite ją lauke **Krovinio kūrimo strategija**, esančiame puslapio **Krovinio kūrimo darbo sritis** „FastTab“ skirtuke **Nustatymas**. Be to, galite įtraukti savo krovinio kūrimo strategijas sukurdami naują klasę programos objektų medyje (AOT).
+
+
 
 

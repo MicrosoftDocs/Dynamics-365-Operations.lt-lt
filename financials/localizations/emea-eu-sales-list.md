@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 
 <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
@@ -64,11 +67,11 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <tbody>
 <tr class="odd">
 <td><strong>Sąranka:</strong> juridinis subjektas</td>
-<td>Pagrindinis juridinio subjekto adresas turi būti ES valstybėje narėje. Dėl į <strong>juridinių asmenų</strong> puslapis (spustelėkite <strong>organizacijos administracijos</strong>&gt;<strong>organizacijos</strong>&gt;<strong>juridinių asmenų</strong>), pasirinkite jūsų juridinis asmuo. FastTab <strong>Adresai</strong> sukurkite adresą, pasirinkite valstybę / regioną ir kitus adreso komponentus pažymėkite, kad adresas <strong>Pagrindinis</strong>. FastTab <strong>Mokesčių registracija</strong> lauke <strong>Mokesčių mokėtojo kodas</strong> nurodykite savo įmonės mokesčių mokėtojo kodą.</td>
+<td>Pagrindinis juridinio subjekto adresas turi būti ES valstybėje narėje. Puslapyje <strong>Juridiniai subjektai</strong> (spustelėkite <strong>Organizacijos administravimas</strong> &gt; <strong>Organizacijos</strong> &gt; <strong>Juridiniai subjektai</strong>) pasirinkite savo juridinį subjektą. FastTab <strong>Adresai</strong> sukurkite adresą, pasirinkite valstybę / regioną ir kitus adreso komponentus pažymėkite, kad adresas <strong>Pagrindinis</strong>. FastTab <strong>Mokesčių registracija</strong> lauke <strong>Mokesčių mokėtojo kodas</strong> nurodykite savo įmonės mokesčių mokėtojo kodą.</td>
 </tr>
 <tr class="even">
 <td><strong>Sąranka:</strong> neapmokestinimo identifikavimo parametrai</td>
-<td>Dėl mokesčio atleidžiami identifikavimo parametrų nustatymas ir <strong>šalies/regiono parametrus</strong> puslapis (spustelėkite <strong>mokesčių</strong>&gt;<strong>nustatymo</strong>&gt;<strong>PVM</strong>&gt;<strong>šalies/regiono parametrus</strong>). Puslapyje sukurkite kiekvienos valstybės / regiono, kuriame sandorio šalių, įrašą ir nurodykite tokią informaciją.
+<td>Nustatykite neapmokestinimo identifikavimo parametrus puslapyje <strong>Valstybės / regiono parametrai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>PVM</strong> &gt; <strong>Valstybės / regiono parametrai</strong>). Puslapyje sukurkite kiekvienos valstybės / regiono, kuriame sandorio šalių, įrašą ir nurodykite tokią informaciją.
 <ul>
 <li><strong>Valstybė / regionas</strong> – pasirinkite valstybę / regioną, kurią norite susieti su neapmokestinimo identifikavimu.</li>
 <li><strong>PVM</strong> – įveskite pasirinktos valstybės / regiono neapmokestinimo identifikavimo numerį (t. y. neapmokestinimo numerio prefiksą).</li>
@@ -77,7 +80,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </tr>
 <tr class="odd">
 <td><strong>Sąranka: </strong>Neapmokestinimo numeriai</td>
-<td>Sukurti neapmokestinimo kodus savo sandorio šalims, <strong>mokesčio neapmokestinimo kodus</strong> puslapis (spustelėkite <strong>mokesčių</strong>&gt;<strong>nustatymo</strong>&gt;<strong>PVM</strong>&gt;<strong>mokesčio neapmokestinimo kodus</strong>). Puslapyje sukurkite kiekvieno neapmokestinimo numerio įrašą ir nurodykite tokią informaciją.
+<td>Sukurkite savo kitų sandorio šalių neapmokestinimo numerius puslapyje <strong>Neapmokestinimo numeriai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>PVM</strong> &gt; <strong>Neapmokestinimo numeriai</strong>). Puslapyje sukurkite kiekvieno neapmokestinimo numerio įrašą ir nurodykite tokią informaciją.
 <ul>
 <li><strong>Valstybė / regionas </strong>– pasirinkite valstybę / regioną, kuriame kita sandorio šalis registruota kaip mokesčių mokėtoja.</li>
 <li><strong>Neapmokestinimo numeris</strong> – įveskite kitos sandorio šalies neapmokestinimo numerį.</li>
@@ -86,11 +89,11 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </tr>
 <tr class="even">
 <td><strong>Sąranka: </strong>kitų sandorio šalių mokesčių registracija</td>
-<td>Nustatyti mokesčių registracijos informaciją savo sandorio šalims arba į <strong>visiems klientams</strong> puslapis (spustelėkite <strong>pardavimo ir rinkodaros</strong>&gt;<strong>Klientai</strong>&gt;<strong>visiems klientams</strong>, pasirinkite kliento įrašą, o tada spustelėkite <strong>funkcijos</strong>&gt;<strong>pakeisti vaizdą</strong>&gt;<strong>išsamios informacijos rodinį</strong>) arba <strong>pardavėjai</strong> puslapis (spustelėkite <strong>pirkimo ir apsirūpinimo</strong>&gt;<strong>pardavėjai</strong>&gt;<strong>pardavėjai</strong>, pasirinkite tiekėjo įrašą, o tada spustelėkite <strong>funkcijos</strong>&gt;<strong>pakeisti vaizdą</strong>&gt;<strong>išsamios informacijos rodinį</strong>). FastTab <strong>Sąskaita faktūra ir pristatymas</strong> lauke <strong>Neapmokestinimo numeris</strong> pasirinkite mokesčių mokėtojo kodą.</td>
+<td>Nustatykite kitų sandorio šalių mokesčių registracijos informaciją puslapyje <strong>Visi klientai</strong> (spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>, pasirinkite kliento įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>) arba puslapyje <strong>Tiekėjai</strong> (spustelėkite <strong>Įsigijimas ir šaltinio pasirinkimas</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Tiekėjai</strong>, pasirinkite tiekėjo įrašą ir tada spustelėkite <strong>Parinktys</strong> &gt; <strong>Keisti rodinį</strong> &gt; <strong>Išsamios informacijos rodinys</strong>. FastTab <strong>Sąskaita faktūra ir pristatymas</strong> lauke <strong>Neapmokestinimo numeris</strong> pasirinkite mokesčių mokėtojo kodą.</td>
 </tr>
 <tr class="odd">
 <td><strong>Sąranka: </strong>PVM</td>
-<td>Nustatyti mokesčių kodus įtraukti į <strong>ES pardavimų sąrašą</strong> ataskaita apie su <strong>PVM kodus</strong> puslapis (spustelėkite <strong>mokesčių</strong>&gt;<strong>netiesioginiai mokesčiai</strong>&gt;<strong>PVM</strong>&gt;<strong>PVM kodus</strong>). FastTab <strong>Ataskaitos sąranka</strong> išvalykite kiekvieno PVM kodo, kuris turi būti įtrauktas į ataskaitą, žymės langelį <strong>Neįtraukta</strong>. Dėl PVM parametrų elementų nustatymas, <strong>prekės PVM grupes</strong> puslapis (spustelėkite <strong>mokesčių</strong>&gt;<strong>netiesioginiai mokesčiai</strong>&gt;<strong>PVM</strong>&gt;<strong>prekės PVM grupes</strong>). Lauke <strong>Ataskaitų tipas</strong> pasirinkite kiekvienos prekės PVM grupės reikšmę. Pasirinktos reikšmės nustato, į kurį ESL sumos stulpelį bus įtraukta eilutės suma.
+<td>Nustatykite mokesčių kodus, kuriuos norite įtraukti į ataskaitą <strong>ES pardavimų sąrašas</strong> puslapyje <strong>PVM kodai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Netiesioginiai mokesčiai</strong> &gt; <strong>PVM</strong> &gt; <strong>PVM kodai</strong>). FastTab <strong>Ataskaitos sąranka</strong> išvalykite kiekvieno PVM kodo, kuris turi būti įtrauktas į ataskaitą, žymės langelį <strong>Neįtraukta</strong>. Nustatykite prekių PVM parametrus puslapyje <strong>Prekės PVM grupės</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Netiesioginiai mokesčiai</strong> &gt; <strong>PVM</strong> &gt; <strong>Prekės PVM grupės</strong>). Lauke <strong>Ataskaitų tipas</strong> pasirinkite kiekvienos prekės PVM grupės reikšmę. Pasirinktos reikšmės nustato, į kurį ESL sumos stulpelį bus įtraukta eilutės suma.
 <ul>
 <li><strong>Tuščia</strong> – eilutės suma įtraukiama į stulpelį <strong>Nepriskirta vertė</strong>.</li>
 <li><strong>Prekė</strong> – eilutės suma įtraukiama į stulpelį <strong>Prekių vertė</strong>.</li>
@@ -104,7 +107,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </tr>
 <tr class="odd">
 <td><strong>Sąranka: </strong>bendrieji parametrai</td>
-<td>Nustatyti APŠS ataskaitų parametrus į <strong>užsienio prekybos parametrai</strong> puslapis (spustelėkite <strong>mokesčių</strong>&gt;<strong>nustatymo</strong>&gt;<strong>užsienio prekybos</strong>&gt;<strong>užsienio prekybos parametrais;</strong>). Nurodykite šiuos parametrus.
+<td>Nustatykite ataskaitų parametrus ESL puslapyje <strong>Užsienio prekybos parametrai</strong> (spustelėkite <strong>Mokestis</strong> &gt; <strong>Sąranka</strong> &gt; <strong>Užsienio prekyba</strong> &gt; <strong>Užsienio prekybos parametrai</strong>). Nurodykite šiuos parametrus.
 <ul>
 <li>Skirtukas <strong>ES pardavimų sąrašas</strong>:
 <ul>
@@ -147,7 +150,7 @@ ES vidaus prekybos operacijomis laikytinos šių tipų operacijos.
 -   Projekto SF
 -   Tiekėjo SF
 
-Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adresas yra ES valstybėje narėje. Tokių valstybių / regionų įrašas turi būti puslapio **Užsienio prekybos parametrai** skirtuke **Valstybės / regiono parametrai**, ir turi būti nustatyta parinkties **Valstybės / regiono tipas** reikšmė **ES**. ES vidaus prekybos operacijos pažymėtos lauke **Sąrašo kodas**. Naudodami šį lauką taip pat galite atskirti bendrąsias ES vidaus prekybos operacijas nuo trišalių prekybos operacijų. Gali rinkti informaciją apie Bendrijos vidaus prekybos sandorių, **ES pardavimų sąrašą** puslapis (spustelėkite **mokesčių**&gt;**deklaracijas**&gt;**užsienio prekybos**&gt;**ES pardavimų sąrašą**) naudojant į **perkelti** funkcija. Ši funkcija leidžia įtraukti operacijas, kurių sumos yra įvairių ataskaitų tipų (pavyzdžiui, prekių ar paslaugų), atsižvelgiant į prekių PVM grupes, kurios nurodytos operacijų eilutes. Taip pat galite taikyti kitus filtrus norėdami apibrėžti operacijas, kurios turėtų būti įtrauktos. Funkcija **Perkelti** sukuria kiekvienos įtrauktos ES vidaus prekybos operacijos įrašą puslapyje **ES pardavimų sąrašas** ir nurodo kitos sandorio šalies sąskaitos numerį, valstybę / regioną, neapmokestinimo kodą, sąskaitos faktūros numerį ir datą ir bendrąsias kiekvieno ataskaitų tipo eilučių sumas. Taip pat nukopijuoja iš operacijos reikšmę **Sąrašo kodas**. Galite rankiniu būdu pakeisti operacijos sąrašo kodą puslapyje **ES pardavimų sąrašas**. Funkcija **Perkelti** sukuria įrašus, jei nustatyta parinkties **Ataskaitos būsena** reikšmė **Įtraukta**. Tikrinti informaciją, surinktą puslapyje **ES pardavimų sąrašas**, galite naudodami funkciją **Tikrinti**.
+Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adresas yra ES valstybėje narėje. Tokių valstybių / regionų įrašas turi būti puslapio **Užsienio prekybos parametrai** skirtuke **Valstybės / regiono parametrai**, ir turi būti nustatyta parinkties **Valstybės / regiono tipas** reikšmė **ES**. ES vidaus prekybos operacijos pažymėtos lauke **Sąrašo kodas**. Naudodami šį lauką taip pat galite atskirti bendrąsias ES vidaus prekybos operacijas nuo trišalių prekybos operacijų. Galite rinkti informaciją apie ES vidaus prekybos operacijas puslapyje **ES pardavimų sąrašas** (spustelėkite **Mokestis** &gt; **Deklaracijos** &gt; **Užsienio prekyba** &gt; **ES pardavimų sąrašas**) naudodami funkciją **Perkelti**. Ši funkcija leidžia įtraukti operacijas, kurių sumos yra įvairių ataskaitų tipų (pavyzdžiui, prekių ar paslaugų), atsižvelgiant į prekių PVM grupes, kurios nurodytos operacijų eilutes. Taip pat galite taikyti kitus filtrus norėdami apibrėžti operacijas, kurios turėtų būti įtrauktos. Funkcija **Perkelti** sukuria kiekvienos įtrauktos ES vidaus prekybos operacijos įrašą puslapyje **ES pardavimų sąrašas** ir nurodo kitos sandorio šalies sąskaitos numerį, valstybę / regioną, neapmokestinimo kodą, sąskaitos faktūros numerį ir datą ir bendrąsias kiekvieno ataskaitų tipo eilučių sumas. Taip pat nukopijuoja iš operacijos reikšmę **Sąrašo kodas**. Galite rankiniu būdu pakeisti operacijos sąrašo kodą puslapyje **ES pardavimų sąrašas**. Funkcija **Perkelti** sukuria įrašus, jei nustatyta parinkties **Ataskaitos būsena** reikšmė **Įtraukta**. Tikrinti informaciją, surinktą puslapyje **ES pardavimų sąrašas**, galite naudodami funkciją **Tikrinti**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pardavimų sąrašo ataskaitos generavimas
 
@@ -156,5 +159,7 @@ Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pardavimų sąrašo ataskaitinio laikotarpio uždarymas
 
 Baigę tam tikro laikotarpio ataskaitinį procesą (pavyzdžiui, kai mokesčių inspekcija priims ataskaitą **ES pardavimų sąrašas**), galite pažymėti ESL įrašus, kurie yra įtraukti į to laikotarpio ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Uždaryta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip uždarytą**, esančią puslapyje **ES pardavimų sąrašas**. Jei grąžinate uždarytą laikotarpį, galite pažymėti ESL įrašus nustatydami parinkties **Ataskaitos būsena** reikšmę **Įtraukta**. Tada šiuos įrašus galima vėl įtraukti į ataskaitą **ES pardavimų sąrašas**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip** **įtrauktus**, esančią puslapyje **ES pardavimų sąrašas**.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Nusidėvėjimo poveikis su atšaukimais
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aptartos galimos ilgalaikio turto operacijos atšaukimo pasekmės. 
 
 Galite atšaukti ilgalaikio turto operacijas ir su ilgalaikiu turtu susietas operacijas. Atšauktą operaciją taip pat galite anuliuoti. 
@@ -90,6 +93,8 @@ Nusidėvėjimas nuvertintas 16,95 (983,62–966,67).
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Ilgalaikio turto nusidėvėjimas](fixed-asset-depreciation.md)
+
+
 
 

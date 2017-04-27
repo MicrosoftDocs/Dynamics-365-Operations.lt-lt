@@ -32,19 +32,19 @@ Galite naudoti vieno spustelėjimo dizaino įrankį, norėdami kurti skirtingus 
 
 MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus skyrelio maketas. Maketas valdo įvairių objektų išdėstymą. Pavyzdžiai: visas maketas, prekių tinklelio maketas, kliento maketas, mokėjimo maketas ir įvairių meniu mygtukų maketas. Maketai taip pat valdo bendrą darbuotojams pateikiamos pardavimo sąsajos išvaizdą.
 
-## <a name="install-the-oneclick-designer"></a>Įdiegti oneclick dizaineris
-1.  Microsoft Dynamics 365 operacijoms, naudokite meniu viršuje kairėje Norėdami pereiti į **mažmeninės prekybos****prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS**&gt;**ekrano išdėstymas**.
+## <a name="install-the-oneclick-designer"></a>Vieno spustelėjimo dizaino įrankio diegimas
+1.  „Microsoft Dynamics 365 for Operations“ naudokite meniu, esantį viršutiniame kairiajame kampe, norėdami pasirinkti **Mažmeninė prekyba** **ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
 2.  Pasirinkite maketą, kurio programos tipas yra **Modern POS for Windows** arba **Cloud POS**, o tada spustelėkite **Maketo dizaino įrankis**.
 3.  „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad įdiegtumėte vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.)
 4.  Pasirodančiame pranešimo lauke **Programos paleidimas – saugos įspėjimas** spustelėkite **Paleisti **, kad įdiegtumėte „Retail“ dizaino įrankį. Vykdymo indikatorius rodo diegimo proceso eigą.
 5.  Baigus diegti, puslapyje **Prisijungimas** įveskite savo „Microsoft Dynamics 365 for Operations“ vartotojo vardą ir slaptažodį, o tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.
-6.  Kai kredencialai patvirtinti ir dizaino įrankis paleistas, galima kurti savo maketą arba modifikuoti esamą maketą. [![Maketo kūrimo priemonėje vienu paspaudimu](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+6.  Kai kredencialai patvirtinti ir dizaino įrankis paleistas, galima kurti savo maketą arba modifikuoti esamą maketą. [![Maketas vieno spustelėjimo dizaino įrankyje](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Maketo dizaino įrankio diegimo trikčių šalinimas
 -   Spustelėjus **Dizaino įrankis** nepasirodo raginimas atsisiųsti (arba paleisti) diegimo programą arba dabartiniai saugos parametrai neleidžia failo atsisiųsti. **Sprendimai.**
-    -   Įsitikinkite, kad „Internet Explorer“ iššokančiųjų langų blokavimo programa šioje svetainėje yra išjungta. Spustelėkite **parametrai**&gt;**funkcijos**&gt;**privatumo**&gt;**rasti iššokančių langų blokavimo**, ir pakeiskite, jei reikia pakeisti.
-    -   „Internet Explorer“ įtraukite „Dynamics 365 for Operations“ URL į savo patikimų svetainių sąrašą. Spustelėkite **parametrai**&gt;**funkcijos**&gt;**saugumo**&gt;**patikimų svetainių**&gt;**svetainių**&gt;**pridėti**.
--   Nepavyksta paleisti programos ir nurodoma susisiekti su tiekėju. **Sprendimas.** „Internet Explorer“ įtraukite „Dynamics 365 for Operations“ URL į savo patikimų svetainių sąrašą. Spustelėkite **parametras**&gt;**funkcijos**&gt;**saugumo**&gt;**patikimų svetainių**&gt;**svetainių**&gt;**pridėti**.
+    -   Įsitikinkite, kad „Internet Explorer“ iššokančiųjų langų blokavimo programa šioje svetainėje yra išjungta. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Privatumas** &gt; **Rasti iššokančiųjų langų blokavimo programą** ir pakeiskite parametrą, jei reikia.
+    -   „Internet Explorer“ įtraukite „Dynamics 365 for Operations“ URL į savo patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
+-   Nepavyksta paleisti programos ir nurodoma susisiekti su tiekėju. **Sprendimas.** „Internet Explorer“ įtraukite „Dynamics 365 for Operations“ URL į savo patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
 
 **Žinoma problema:** šiuo metu dizaino įrankis naršyklėse „Google Chrome“ ir „Mozilla Firefox“ tinkamai neveikia. Mes sprendžiame šią problemą.
 

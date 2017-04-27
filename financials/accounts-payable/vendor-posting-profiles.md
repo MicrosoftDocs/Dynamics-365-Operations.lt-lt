@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 
+[!include[banner](../includes/banner.md)]
+
+
 Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas į DK.
 
 <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
@@ -146,6 +149,8 @@ Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reik
 | **Sudengimas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu, naudodami puslapį Sudengti atidarytas operacijas. |
 | **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                                                                                                               |
 | **Uždaryti**      | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                       |
+
+
 
 
 

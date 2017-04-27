@@ -28,44 +28,47 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="financial-period-close-workspace"></a>Finansinio laikotarpio uždarymo darbo sritis
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta Finansinio laikotarpio uždarymo darbo sritis ir susijusi konfigūracija.
 
 Finansinio laikotarpio uždarymo darbo sritis
 
-Į **finansiniam laikotarpiui uždaryti** darbo sritis leidžia stebėti jūsų finansų uždarymo procesus kompanijų, srityse, ir žmonės. Priklauso nuo jūsų nuomone, kad **finansiniam laikotarpiui uždaryti** darbo srities, matysite arba užduočių ir uždarymo grafiką arba tik užduotys, kurie yra jums priskirti būsenos. 
+Naudodamiesi darbo sritimi **Finansinio laikotarpio uždarymas** galite sekti įmonių, sričių ir žmonių finansinius uždarymo procesus. Priklausomai nuo darbo srities **Finansinio laikotarpio uždarymas** rodinio, matote arba visas uždarymo grafiko užduotis ir būsenas, arba tik jums priskirtas užduotis. 
 
-Pirmiausia turite pasirinkti uždarymo grafiką darbo srities viršuje. Tada visi duomenys, kurie yra rodomas darbo srities nufiltruota pagal pasirinktą uždarymo grafiką.
+Pirmiausia darbo srities viršuje turite pasirinkti uždarymo grafiką. Tada visi darbo srityje rodomi duomenys filtruojami pagal pasirinktą uždarymo grafiką.
 
 ### <a name="summary-tiles"></a>Suvestinės išklotinės
 
-Išklotinėse **Suvestinė** pateikiama proceso apžvalga, o indikatoriai padeda sekti uždarymo procesą. Galite peržiūrėti užduotis, kurios yra praeities apmokamos, likusius užduotis šiandien, užduočių, kurios turi būti užsakytas, bet yra užblokuotas, nes priklausomybes ir visus likusius užduotis procesui. Ši informacija skirta visoms bendrovėms, kurios yra įtrauktos į pasirinktą uždarymo grafiką.
+Išklotinėse **Suvestinė** pateikiama proceso apžvalga, o indikatoriai padeda sekti uždarymo procesą. Galite matyti užduotis, kurių terminas praėjęs, likusias šiandienos užduotis, užduotis, kurios turi būti įvykdytos šiandien, bet yra blokuojamos dėl priklausomybių, ir visas kitas proceso užduotis. Ši informacija skirta visoms įmonėms, kurios įtrauktos į pasirinktą uždarymo grafiką.
 
 ### <a name="tasks-and-status-section"></a>Užduotys ir būsenos dalis
 
-– Į **užduotis ir statuso** skyriuje, bendras statusas uždarymo planas yra suskirstytas įvairiais būdais: statusą iš įmonės, statuso pagal vietą ir būseną iš atsakingo asmens. Būseną galite peržiūrėti už visas užduotis uždaryti planuoti, tiesiog užduočių, kurias reikia šiandien, ar užduotis yra pradelstas keisdami filtro kortelės sąrašo viršuje. Taip pat galite pasirinkti įmonės filtrą norėdami Rodyti programos būseną konkrečią įmonę. Kiekviename skirtuke statusas suteikia suskirstymą pagal procentas, kuris bus baigta ir užduočių, kurios lieka skaičius. Spustelėkite kortelę, arba **peržiūrėti informaciją apie** veiksmų ir išsamios užduočių sąrašo pasirinktą kortele. 
+Skyriuje **Užduotys ir būsena** bendro uždarymo grafiko būsena yra suskaidoma įvairiais būdais: būsena pagal įmonę, būsena pagal sritį ir būseną pagal atsakingą asmenį. Galite peržiūrėti visų uždarymo grafiko užduočių būsenas, tik tų užduočių, kurias reikia atlikti šiandien, arba užduočių, kurios jau turėjo būti atliktos. Taip pat galite pasirinkti įmonės filtrą norėdami peržiūrėti konkrečios įmonės būseną. Kiekviename būsenos skirtuke pateikiamas suskaidymas pagal baigimo procentinę dalį ir likusių užduočių skaičių. Spustelėkite kortelę arba veiksmą **Peržiūrėti išsamią informaciją**, norėdami filtruoti išsamų užduočių sąrašą pagal pasirinktą kortelę. 
 
-Paskutinis skirtukas yra išsamios užduočių sąrašą. Šis sąrašas rodo visą užduočių sąrašą ir gali būti filtruojamas, taip, kad tik užduotis, kurios jus domina. Galite filtruoti užduočių sąraše keliais būdais. Pvz., galite filtruoti pagal užduoties terminas, asocijuotos bendrovės, ir susijusias sritis. Taip pat galite pasirinkti Rodyti arba slėpti užduočių sąraše atliktas užduotis. 
+Paskutinis skirtukas skirtas išsamiam užduočių sąrašui. Šiame sąraše rodomas visas užduočių sąrašas ir jį galima filtruoti, kad jame būtų rodomos tik jus dominančios užduotys. Užduočių sąrašą galite filtruoti keliais būdais. Pavyzdžiui, galite filtruoti pagal užduoties atlikimo terminą, susijusią įmonę ir susijusią sritį. Taip pat galite pasirinkti, ar atliktos užduotys užduočių sąraše bus rodomos, ar slepiamos. 
 
 Naudojami du užduočių indikatoriai:
 
--   Šauktuko piktograma nurodo, kad užduotis yra pradelstas. Užduotis, kurios yra pradelstos, terminas taip pat yra paryškinta raudona spalva.
--   Spynos piktograma rodo, kad užduotis priklauso nuo kitų užduočių, kurios dar nėra baigtas. Užduotis, kurios yra blokuojami iš priklausomybių negalima pažymėti kaip atliktą. Priklausomybių užduotį galite nustatyti naudodami prie **nustatyti priklausomybės** veiksmų.
+-   Šauktuko piktograma nurodo, kad užduotis jau turėjo būti įvykdyta. Užduočių, kurios jau turėjo būti įvykdytos, terminas taip pat paryškintas raudonai.
+-   Spynos piktograma nurodo, kad užduotis priklauso nuo kitų užduočių, kurios dar neatliktos. Priklausomybių blokuojamos užduoties negalima pažymėti kaip atliktos. Užduoties priklausomybes galite nustatyti naudodami veiksmą **Nustatyti priklausomybę**.
 
-Užduoties pavadinimas yra nuorodą į "Microsoft Dynamics 365" operacijų puslapį arba kitą tinklalapį tais atvejais, kai vartotojas turi eiti į užbaigti darbus. Šią nuorodą galite nustatyti naudodami, **užduotis nuoroda** lauko redaguoti ar sukurti užduotį. 
+Užduoties pavadinimas yra nuorodą į „Microsoft Dynamics 365 for Operations“ puslapį arba kitą tinklalapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šią nuorodą galite nustatyti užduoties redagavimui arba kūrimui naudodami lauką **Užduoties saitas**. 
 
-Failai, pastabos, vaizdus ir URL galite pridėti užduotį naudojant į **priedai** veiksmų. Pvz., galite nurodyti žurnalo numerius, kurie yra naudojami kaip dalis užduoties, pridėti komentarus apie tam tikrą užduotį arba pridėti ataskaitų failas, kuris buvo atspausdintas užduotis. Pasirodo piktograma su **priedą** stulpelio užduotis, jei priedas yra. 
+Naudodami veiksmą **Priedai** prie užduoties galite pridėti failus, pastabas, vaizdus ir URL. Pvz., galite nurodyti kaip užduoties dalis naudojamų žurnalų numerius, įtraukti komentarų apie konkrečią užduotį arba pridėti atspausdintą užduoties ataskaitos failą. Jei esama priedo, užduoties stulpelyje **Priedas** atsiranda piktograma. 
 
-Į **užduočiai užbaigti** variantas turi būti rankiniu būdu pasirinktas po užduoties atlikimo. Kai užduotis yra pažymėti kaip atliktą, kad **baigė data** laukas atnaujinamas automatiškai dabartinę datą ir laiką. Atitinkamai atnaujinami priklausomumo rodiklius.
+Atlikus užduotį būtina rankiniu būdu pasirinkti pasirinktį **Užduotis baigta**. Kai užduotis pažymėta kaip baigta, laukas **Baigimo data** atnaujinamas automatiškai, nurodant dabartinę datą ir laiką. Atitinkamai atnaujinami ir priklausomybės indikatoriai.
 
 ## <a name="all-financial-period-close-tasks-list-page"></a>Visų finansinio laikotarpio uždarymo užduočių sąrašo puslapis
-Jūs galite peržiūrėti visus dabartinius ir ankstesnius laikotarpio glaudžiai užduotis iš į **visus finansiniam laikotarpiui uždaryti užduočių** sąrašo puslapį. Šis sąrašas puslapis yra geriausia naudoti istorinė analizė jūsų uždarymo proceso, nes jame yra informacija apie reguliaraus terminas, faktinės įvykdymo datos, ir asmuo, kuris baigė užduotį. Lengvai informaciją šiame sąraše puslapyje galite eksportuoti į programą Microsoft Excel ataskaitų ir audito tikslais.
+Sąrašo puslapyje **Visos finansinio laikotarpio uždarymo užduotys** galite peržiūrėti visas dabartinio ir ankstesnio laikotarpio uždarymo užduotis. Šį puslapį geriausia naudoti jūsų uždarymo proceso istorinei analizei, nes jame pateikiama informacija apie numatytą atlikimo terminą, faktinę baigimo datą ir užduotį atlikusį asmenį. Teikdami ataskaitas ir atlikdami patikrinimus šiame sąrašo puslapyje pateikiamą informaciją galite lengvai eksportuoti į „Microsoft Excel“.
 
 ## <a name="financial-period-close-configuration-page"></a>Finansinio laikotarpio uždarymo konfigūracijos puslapis
-Prieš naudodami, **finansiniam laikotarpiui uždaryti** darbo sritį, turite sukonfigūruoti šį procesą Microsoft Dynamics 365 operacijoms naudojant į **finansinio laikotarpio uždaryti konfigūracijos** puslapis. (Spustelėkite **bendrosios knygos**&gt;**laikotarpiui uždaryti**&gt;**finansinio laikotarpio uždaryti konfigūracijos**.)
+Prieš naudodami darbo sritį **Finansinio laikotarpio uždarymas**, turite sukonfigūruoti „Microsoft Dynamics 365 for Operations“ procesą, naudodami puslapį **Finansinio laikotarpio uždarymo konfigūracija**. (Spustelėkite **Didžioji knyga** &gt; **Laikotarpio uždarymas** &gt; **Finansinio laikotarpio uždarymo konfigūracija.**)
 
 ### <a name="resources"></a>Ištekliai
 
-Dėl to **išteklių** pažymėtame lape galite nustatyti žmonės, kurie yra įtraukti į uždarymo procesus. Bet kuris darbuotojas, kuris bus atsakingas už uždarymo užduotis pirmiausia turi būti priskirtas čia. Taip pat turite nurodyti darbuotojo darbo srities vaizdas. Galimos toliau nurodytos pasirinktys:
+Skirtuke **Ištekliai** nurodote asmenis, kurie dalyvauja uždarymo procese. Bet koks už uždarymo užduotį atsakingas darbuotojas pirmiausia turi būti priskirtas čia. Taip pat turite nurodyti darbuotojo darbo srities rodinį. Galimos toliau nurodytos pasirinktys:
 
 -   **Tik priskirtos užduotys** – vartotojas matys tik jam arba jai priskirtas užduotis.
 -   **Visos užduotys ir būsena** – vartotojas matys visas uždarymo užduotis ir viso proceso būseną.
@@ -78,30 +81,32 @@ Naudokite užduočių sritis, norėdami grupuoti savo organizacijos uždarymo u�
 
 ### <a name="calendars"></a>Kalendoriai
 
-Kurkite ir redaguokite finansų uždarymo kalendorių naudodami skirtuką kalendorius.  Tai kur jums bus apibrėžti darbo dienų uždarymo procesus, ir bus naudojamas paskutinės užduočių planavimo.  Sukurti naują kalendorių ir rodo dienas naudoti užduočių planavimo.  Tai geriausia sukurti kalendorių ilgą laiką, pvz., metus ar keletą metų, nes ji gali būti redaguojama po sukūrimo.  Sukūrus kalendorių, spustelėkite mygtuką Redaguoti, atnaujinti kalendoriaus konkrečias dienas, pvz., šventes.  Tomis dienomis, kai kontrolinė vertė yra nustatyta atviros uždarymo užduotys bus planuojamos.  Jei uždarymo užduotis neturėtų būti tvarkaraštį konkrečią dieną, tą dieną turėtų turėti kontrolės reikšmė nustatyta kaip uždaryta.
+Kurkite ir redaguokite finansinius uždarymo kalendorius naudodami skirtuką Kalendoriai.  Juose nurodysite uždarymo procesų darbo dienas ir jie bus naudojami planuojant uždarymo užduotis.  Sukurkite naują kalendorių ir nurodykite darbo dienas, kurios bus naudojamos planuojant užduotis.  Geriausia sukurti kalendorių ilgam laikotarpiui, pvz., metams ar keliems metams, nes sukūrus jį galima redaguoti.  Sukūrę kalendorių, spustelėkite mygtuką Redaguoti, kad galėtumėte jį atnaujinti, pažymėdami konkrečias dienas, pvz., šventes.  Uždarymo užduotis bus planuojama atlikti tomis dienomis, kai nustatyta dalies Valdymas reikšmė Atvira.  Jei uždarymo užduotys neturėtų būti planuojamos tam tikrai dienai, turėtų būti nustatyta tos dienos dalies Valdymas reikšmė Uždaryta.
 
 ### <a name="templates"></a>Šablonai
 
-Galite naudoti finansų glaudžiai šabloną apibrėžti visas užduotis, kurios yra uždarymo proceso dalis. Uždarymo užduotis yra pasikartojančių darbo pastangų, kuris priskiriamas individualus užbaigti kiekvieną uždarymo proceso dalis. Šablone, santykinis išsamaus patikrinimo data turi būti nustatyta užduoties uždarymo. Tą santykinę termino data yra dienų prieš skaičių ar po apibrėžta laikotarpio pabaigos datos, užduotis nebus skaičiuojami kiekvienam laikotarpiui. Laiku taip pat priskiriama kiekvienai užduočiai. Laiku yra nustatyti atsižvelgiant į laiko juostą ir bus konvertuoti į laiko juostą kiekvienam vartotojui. 
+Norėdami apibrėžti visas užduotis, kurios yra uždarymo proceso dalis, naudojate finansinio uždarymo šabloną. Uždarymo užduotis yra pasikartojanti darbo pastanga, kuri priskiriama asmeniui ir atliekama kaip kiekvieno uždarymo proceso dalis. Šablone turi būti nurodytas kiekvienos uždarymo užduoties santykinis terminas. Uždarymo užduotis yra pasikartojanti darbo pastanga, kuri priskiriama asmeniui ir atliekama kaip kiekvieno uždarymo proceso dalis. Termino laikas priskiriamas ir kiekvienai užduočiai. Termino laikas nustatomas naudojant jūsų laiko juostos kontekstą ir jis bus konvertuotas į kiekvieno vartotojo laiko juostos laiką. 
 
-Užduotį šablone galite priskirti vieną ar daugiau bendrovių, kai taikoma šiai užduočiai atlikti. Jei tas pats asmuo priskiriamas užbaigti šio darbo pastangų kiekvienoje įmonėje, jūs galbūt bus naudinga sukurti kelias užduotis dėl paties darbo pastangų. Sukurkite po vieną užduotį kiekvienai įmonei. 
+Galite priskirti šablono užduotį vienai arba kelioms įmonėms, kuriose ta užduotis taikoma. Jei kiekvienos įmonės tai darbo pastangai atlikti priskiriamas kitas asmuo, gali būti naudinga sukurti kelias tos pačios darbo pastangos užduotis. Sukurkite po vieną užduotį kiekvienai įmonei. 
 
-Į **užduotis nuoroda** meniu elementas yra susietas su užduočių darbo pastangų ir galima eiti tiesiai į susijęs puslapis iš užduočių link darbo srityje. Pvz., uždarymo užduotis būtų vykdoma valiutos perkainojimo procesas mokėtinos sąskaitos gali būti susietos su atitinkamais **valiutos kurso** puslapio dalyje Microsoft Dynamics 365 operacijoms. Taip pat galite susieti su išoriniu URL. 
+Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Operations“ puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
 
-> [! Patarimas] Jei norite susieti konkrečią valdymo reporteris ataskaitą finansinio laikotarpio uždaryti užduotį, galite naudoti ataskaitą URL. Norėdami atidaryti ataskaitos URL, atidarykite ataskaitą į ataskaitų konstruktorius, o tada spustelėkite **failo**&gt;**peržiūrėti ataskaitą** atidaryti pranešimą naudodami žiniatinklio naršyklę. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 
+> [Patarimas] Jei norite susieti konkrečią „Management Reporter“ ataskaitą su finansinio laikotarpio uždarymo užduotimi, galite naudoti ataskaitos URL. Norėdami pasiekti ataskaitų URL, atidarykite ataskaitą naudodami ataskaitų dizaino įrankį, tada spustelėkite **Failas** &gt; **Peržiūrėti ataskaitą** ir atidarykite ataskaitą žiniatinklio naršyklėje. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 
 
-Galite apibrėžti užduočių priklausomybes šabloną. Jei užduotis buvo nustatyta priklauso nuo vieno ar daugiau užduočių, tą užduotį negali būti pažymėtas kaip tol, kol nebus įvykdyti visas priklausomybes. 
+Šablone galite nurodyti užduoties priklausomybes. Jei nustatyta, kad užduotis priklausoma nuo vienos ar kelių užduočių, tos užduoties negalima pažymėti kaip baigtos, kol neįvykdytos visos priklausomybės. 
 
-Galite sukurti kelis finansinių glaudžiai šablonai. Tada galite naudoti įvairius šablonus, sekti uždarymo procesus laikotarpio įvairių, pvz., mėnesio pabaigoje arba metų pabaigoje, arba sekti įmonės, kurios naudojasi skirtingais uždarymo procesus. Sukūrus vieną šabloną, galite kopijuoti į naują šabloną ir atlikite reikiamus keitimus. Galite priskirti vieną šabloną kiekvienam uždarymo grafiką.
+Galite sukurti kelis finansinio uždarymo šablonus. Tada, naudodami įvairius šablonus, galite sekti skirtingų laikotarpių tipų, pvz., mėnesio pabaigos arba metų pabaigos, uždarymo procesus arba galite sekti įmones, kurios naudoja skirtingus uždarymo procesus. Sukūrę vieną šabloną galite jį kopijuoti ir sukurti naują šabloną ir atlikti reikiamus pakeitimus. Kiekvienam uždarymo grafikui galite priskirti tik po vieną šabloną.
 
 ### <a name="closing-schedules"></a>Uždarymo grafikai
 
-Galite naudoti uždarymo grafiką finansų glaudžiai šabloną priskirti konkretų finansinį laikotarpį, turi būti uždarytas. Užduotis iš šablono, tada automatiškai sugeneruotas per nustatyt ą, o naujas uždarymo tvarkaraštis pridedamas prie darbų srities. Kai kuriate naują uždarymo grafiką, su **laikotarpio pabaigos data** laukas naudojamas nustatyti faktinį tinkamai uždarymo užduotis, remiantis santykine termino datos dieną, kurią priskiriamas finansinės glaudžiai šablone. 
+Norėdami priskirti finansinio uždarymo šabloną konkrečiam ataskaitiniam laikotarpiui, kuris turėtų būti uždaromas, naudokite uždarymo grafiką. Tada automatiškai sugeneruojamos konkretaus laikotarpio šablono užduotys, o naujas uždarymo grafikas įtraukiamas į darbo sritį. Kai sukuriate naują uždarymo grafiką, laukas **Laikotarpio pabaigos data** naudojamas norint nustatyti faktinius uždarymo užduočių terminus pagal finansinio uždarymo šablone priskirtą santykinį terminą. 
 
-Priskirti tinka uždarymo grafiką, nurodyti darbo dienas naudoti užduočių planavimo kalendorius. Jei negalima nustatyti konkrečių kalendorinių, užduotis dėl datos bus naudoti visų savaitės dienų. 
+Nustatykite, kad pagal uždarymo grafiką tinkamame kalendoriuje būtų nurodomos dienos, kurios bus naudojamos planuojant užduotis. Jeigu nenurodysite konkretaus kalendoriaus, užduočių terminai naudos visas savaitės dienas. 
 
-Taip pat turite nustatyti bendrovėms, kurios bus susietas su uždarymo grafiką. Jei šablono užduotys priskiriamos kelios įmonės, atskiras užduotis bus sukurti kiekvienos įmonės, kuri yra uždarymo grafiką ir šablono užduoties. 
+Taip pat turite nurodyti įmones, kurios bus susietos su uždarymo grafiku. Jei šablono užduotys priskiriamos kelioms įmonėms, kiekvienai uždarymo grafike nurodytai įmonei bus sukurtos atskiros užduotys ir priskirtos šablono užduočiai. 
 
-Po uždarymo planas bus baigtas, pasirinkite, **uždaryta** variantą už jį. Užduočių retrospektyva bus pasiekiamas iš į **visus finansiniam laikotarpiui uždaryti užduočių** sąrašo puslapį, tačiau uždarymo planas bus pašalintas iš darbo srities. Po uždarymo grafiką buvo pažymėtas kaip **uždaryta**, jūs negalėsite pridėti užduotis jai, redaguoti užduotis arba užduotis pašalinti iš jo.
+Įvykdę uždarymo grafiką pažymėkite parinktį **Uždaryta**. Užduoties retrospektyvą bus galima rasti sąrašo puslapyje **Visos ataskaitinio laikotarpio uždarymo užduotys**, bet uždarymo grafikas bus pašalintas iš darbo srities. Kai pažymima uždarymo grafiko parinktis **Uždaryta**, į jį negalima įtraukti užduočių, negalima redaguoti užduočių ir negalima užduočių iš jo pašalinti.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Papildomi banko sąskaitų derinimo MT940 importas – sudėtinių duomenų subjekto atnaujinti"
+title: "Pažangaus banko suderinimo MT940 importavimas – Sudėtinis duomenų objekto atnaujinimas"
 description: "Į banko išrašo importavimo objektą reikia įtraukti eilės numerį, kad būtų palaikomas MT940 formatas."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Papildomi banko sąskaitų derinimo MT940 importas – sudėtinių duomenų subjekto atnaujinti
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Pažangaus banko suderinimo MT940 importavimas – Sudėtinis duomenų objekto atnaujinimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Į banko išrašo importavimo objektą reikia įtraukti eilės numerį, kad būtų palaikomas MT940 formatas. 
 
 Norėdami įtraukti banko išrašo importavimo objektą, kad būtų palaikomas MT940 formatas, atlikite toliau nurodytus veiksmus.
 
 1.  Kompiliuokite ir sinchronizuokite šiuos objektus:
-    -   Sudėtinio objekto\\BankStatementImportEntity
-    -   Įmonės\\BankStatementBalanceEntity
-    -   Įmonės\\BankStatementDocumentEntity
-    -   Įmonės\\BankStatementEntity
-    -   Įmonės\\BankStatementLineEntity
-    -   Lentelių\\BankStatementStaging
+    -   Sudėtinis objektas\\BankStatementImportEntity
+    -   Objektas\\BankStatementBalanceEntity
+    -   Objektas\\BankStatementDocumentEntity
+    -   Objektas\\BankStatementEntity
+    -   Objektas\\BankStatementLineEntity
+    -   Lentelės\\BankStatementStaging
 
-2.  Duomenų valdymo\\duomenų projektai.
+2.  Duomenų valdymas\\duomenų projektai.
     1.  Įkelkite MT940 importavimo projektą(-us)
         1.  Pakeiskite XSLT.
             -   Spustelėkite **Peržiūrėti schemą**.
@@ -58,6 +61,8 @@ Norėdami įtraukti banko išrašo importavimo objektą, kad būtų palaikomas M
                 -   Patikrinkite, ar objektas **SequenceNumber** susietas nuo šaltinio iki išdėstymo.
 
 3.  Importuokite naują išrašą.
+
+
 
 
 

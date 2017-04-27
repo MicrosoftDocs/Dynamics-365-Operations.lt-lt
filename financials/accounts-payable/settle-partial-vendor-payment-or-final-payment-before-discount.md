@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis tiekėjo mokėjimų ir galutinio mokėjimo visiškai iki nuolaidos data"
+title: "Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą"
 description: "Šiame straipsnyje apžvelgiamas scenarijus, kai pagal tiekėjo SF atliekami daliniai mokėjimai ir pritaikoma mokėjimo nuolaida."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Atsiskaityti dalinis tiekėjo mokėjimų ir galutinio mokėjimo visiškai iki nuolaidos data
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje apžvelgiamas scenarijus, kai pagal tiekėjo SF atliekami daliniai mokėjimai ir pritaikoma mokėjimo nuolaida.
 
-Fabrikam perka prekes iš tiekėjo 3064. Pardavėjas suteikia Fabrikam 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrus yra ant to **sudaro mokėtinų sumų parametrai** puslapis. Birželio 25 d. Eglė 3064 tiekėjui sukuria SF 1000,00 sumai.
+„Fabrikam“ perka prekes iš 3064 tiekėjo. Tiekėjas suteikia „Fabrikam“ 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrai yra puslapyje **Mokėtinų sumų parametrai**. Birželio 25 d. Eglė 3064 tiekėjui sukuria SF 1000,00 sumai.
 
 ## <a name="vendor-invoice-on-june-25"></a>Tiekėjo SF birželio 25 d.
-Birželio 25 d., balandžio patenka ir postų 1000,00 3064 tiekėjo SF. Eglė šią operaciją gali peržiūrėti puslapyje **Tiekėjo operacijos**.
+Birželio 25 d. Eglė 3064 tiekėjui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Eglė šią operaciją gali peržiūrėti puslapyje **Tiekėjo operacijos**.
 
 | Kvitas   | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis   | Valiuta |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ Eglė spusteli skirtuką **Mokėjimo nuolaida**, norėdama peržiūrėti nuolaid
 | 2015-07-25          | 0,00                 | 1000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Dalinis mokėjimas liepos 1 d. naudojant puslapį Sudengti operacijas
-Eglė gali kurti šio mokėjimo mokėjimų žurnalą, dalyje Mokėtinos sumos atidarydama puslapį **Mokėjimų žurnalas**. Ji sukurti naują žurnalą ir įveda linijos tiekėjo 3064. Ji atidaro su **atsiskaitymams** puslapyje, taip, kad ji gali pažymėti SF sudengti. Eglė pažymi SF ir pakeičia lauko **Sudengtina suma** reikšmę į **–500,00**. Ji mato, kad visos SF lauko **Mokėjimo nuolaidos suma** reikšmė yra **–10,00**, o lauko **Taikytinos mokėjimo nuolaidos suma** reikšmė yra **–5,05**. Todėl SF suma, kurią Eglė sudengia, yra –505,05.
+Eglė gali kurti šio mokėjimo mokėjimų žurnalą, dalyje Mokėtinos sumos atidarydama puslapį **Mokėjimų žurnalas**. Ji sukuria naują žurnalą ir įveda eilutę 3064 tiekėjui. Tada ji atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sąskaitą faktūrą sudengti. Eglė pažymi SF ir pakeičia lauko **Sudengtina suma** reikšmę į **–500,00**. Ji mato, kad visos SF lauko **Mokėjimo nuolaidos suma** reikšmė yra **–10,00**, o lauko **Taikytinos mokėjimo nuolaidos suma** reikšmė yra **–5,05**. Todėl SF suma, kurią Eglė sudengia, yra –505,05.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačio
 | Pritaikyta mokėjimo nuolaida          | 0,00      |
 | Taikytinos mokėjimo nuolaidos suma | –5,00     |
 
-Eglė uždaro puslapį **Sudengti operacijas**. Žurnale sukuriama mokėjimo eilutė 495,00 sumai ir tada Eglė užregistruoja žurnalą. Balandis galite peržiūrėti tiekėjo operacijų dėl to **tiekėjo operacijų** puslapis. Ji mato, kad sąskaitos faktūros turi-500.00 pusiausvyrą. Ji taip pat mato 495,00 mokėjimą ir 5,00 mokėjimo nuolaidą.
+Eglė uždaro puslapį **Sudengti operacijas**. Žurnale sukuriama mokėjimo eilutė 495,00 sumai ir tada Eglė užregistruoja žurnalą. Eglė tiekėjo operacijas gali peržiūrėti puslapyje **Tiekėjo operacijos**. Šiame puslapyje ji mato, kad sąskaitos faktūros balansas yra -500,00. Ji taip pat mato 495,00 mokėjimą ir 5,00 mokėjimo nuolaidą.
 
 | Kvitas    | Operacijos tipas | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis | Valiuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ Eglė užregistruoja mokėjimo žurnalą ir peržiūri tiekėjo operacijas pusla
 | NUOL-10010 | Mokėjimo nuolaida    | 2015-07-01  |         | 5,00                                 |                                       | 0,00    | USD      |
 | PROG-10011  | Mokėjimas          | 2015-07-08  |         | 495,00                               |                                       | 0,00    | USD      |
 | NUOL-10011 | Mokėjimo nuolaida    | 2015-07-08  |         | 5,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

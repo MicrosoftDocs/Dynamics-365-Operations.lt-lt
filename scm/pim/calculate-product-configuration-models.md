@@ -1,6 +1,6 @@
 ---
-title: "Skaičiavimus už produkto konfigūracijos modelius DUK"
-description: "Šiame straipsnyje aprašoma skaičiavimai produkto konfigūracijos modelius ir aiškinama, kaip naudoti skaičiavimus bei suvaržymus."
+title: "Produktų konfigūracijos modelių skaičiavimų DUK"
+description: "Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Skaičiavimus už produkto konfigūracijos modelius DUK
+# <a name="calculations-for-product-configuration-models-faq"></a>Produktų konfigūracijos modelių skaičiavimų DUK
 
-Šiame straipsnyje aprašoma skaičiavimai produkto konfigūracijos modelius ir aiškinama, kaip naudoti skaičiavimus bei suvaržymus.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
 
 Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose. Jie papildo produkto konfigūravimo modelių išraiškos apribojimus. Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** galima nustatyti skaičiavimus ir tada išraiškų rengyklėje kurti skaičiavimų išraiškas. Daugiau informacijos žr. dalyje Kurti skaičiavimus.
 
@@ -45,9 +48,9 @@ Tikslinis atributas – atributas, gaunantis skaičiavimo išraiškos rezultatą
 
 Toliau nurodytoje išraiškoje tikslinis atributas yra staltiesės matavimas:  
 
-**Išraiška:** jei\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
+**Išraiška:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-**DecimalAttribute1** – stalo ilgis, ir **decimalAttribute2** staltiesė ilgis. Išraiška pateikia tikslinio atributo reikšmę **True**, jei **decimalAttribute2** yra didesnis nei arba lygus **decimalAttribute1**. Kitu atveju išraiška pateikia reikšmę **False**. Taigi staltiesės matavimas yra priimtinas, jei staltiesės ilgis yra lygus stalo ilgiui arba didesnis.
+**DecimalAttribute1** yra stalo ilgis, o **decimalAttribute2** – staltiesės ilgis. Išraiška pateikia tikslinio atributo reikšmę **True**, jei **decimalAttribute2** yra didesnis nei arba lygus **decimalAttribute1**. Kitu atveju išraiška pateikia reikšmę **False**. Taigi staltiesės matavimas yra priimtinas, jei staltiesės ilgis yra lygus stalo ilgiui arba didesnis.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Kokius tikslinių atributų tipus galima nustatyti?
 Galima nustatyti visus tikslinių atributų tipus, palaikomus produkto konfigūratoriuje, išskyrus tekstą be fiksuoto sąrašo.
@@ -57,11 +60,11 @@ Ne, tikslinio atributo reikšmė negali riboti įvesties atributų reikšmių, n
 
 ### <a name="example"></a>Pavyzdys
 
-Šią išraišką, skaičiavimo tikslas maitinimo laido ilgis ir įvesties reikšmė yra spalvą:  
+Toliau nurodytoje išraiškoje skaičiavimo tikslas yra maitinimo laido ilgis, o įvesties reikšmė yra spalva.  
 
-**Išraiška:**\[jei spalva == "Žalia", 1.5, 1,0\]  
+**Išraiška**: \[Jei Spalva == Žalia, 1,5, 1,0\]  
 
-Konfigūruojant prekę, yra lygi maitinimo laido ilgis **1.5** jei nurodysite **žalia** kaip spalvos atributo. Jei nurodote bet kokią kitą spalvą, nustatomas ilgis yra **1,0**. Bet kadangi skaičiavimai yra vienakrypčiai, skaičiavimas nenustato spalvos atributo reikšmės kaip **Žalia**, jei nurodote ilgį **1,5**.
+Konfigūruojant prekę, nustatomas **1,5** laido ilgis, jei nurodote **Žalia** kaip spalvos atributą. Jei nurodote bet kokią kitą spalvą, nustatomas ilgis yra **1,0**. Bet kadangi skaičiavimai yra vienakrypčiai, skaičiavimas nenustato spalvos atributo reikšmės kaip **Žalia**, jei nurodote ilgį **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Kas nutinka, jei skaičiavime tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas generuoja dešimtainį skaičių?
 Jei tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas sugeneruoja dešimtainį skaičių, grąžinama tik sveikoji apskaičiuoto rezultato skaičiaus dalis. Dešimtainė dalis pašalinama, o rezultatas neapvalinamas. Pavyzdžiui, rezultatas 12,70 rodomas kaip 12.
@@ -72,16 +75,16 @@ Skaičiavimai atliekami, kai nurodoma visų įvesties atributų reikšmė.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Ar galiu perrašyti apskaičiuotą tikslinio atributo reikšmę?
 Galite perrašyti apskaičiuotą tikslinio atributo reikšmę, nebent tikslinis atributas nustatytas kaip paslėptas arba tik skaitomas.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kaip nustatyti kaip paslėptas atributas target arba tik skaitomas?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kaip nustatyti tikslinį atributą kaip paslėptą arba tik skaitomą?
 Norėdami nustatyti atributą kaip paslėptą arba tik skaitomą, atlikite šiuos veiksmus.
 
-1.  Spustelėkite **produkto informacijos valdymo**&gt;**bendras**&gt;**produkto konfigūracijos modelius**.
+1.  Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.
 2.  Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srityje spustelėkite **Redaguoti**.
 3.  Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** pasirinkite, kurį atributą norite naudoti kaip tikslinį atributą.
 4.  „FastTab“ **Atributai** pasirinkite **Paslėpta** arba **Tik skaitoma**.
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Ar skaičiavimas gali perrašyti mano nustatytas reikšmes?
-Nr. Reikšmės, kurį nustatėte konfigūruodami produktas yra naudojamos reikšmės. Skaičiavimas, atliekamas pakeitus įvesties reikšmes skaičiavime, negali perrašyti jūsų nurodytų konkretaus atributo reikšmių.
+Nr. Naudojamos reikšmės, kurias nustatote konfigūruodami produktą. Skaičiavimas, atliekamas pakeitus įvesties reikšmes skaičiavime, negali perrašyti jūsų nurodytų konkretaus atributo reikšmių.
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Kas nutinka skaičiavime pašalinus įvesties reikšmę?
 Jei pašalinate įvesties reikšmę skaičiavime, pašalinama ir tikslinio atributo reikšmė.
@@ -93,13 +96,15 @@ Jei pašalinate įvesties reikšmę skaičiavime, pašalinama ir tikslinio atrib
 -   Yra konfliktas tarp dviejų toliau pateiktų elementų.
     -   Reikšmės, kurios prieinamos atributui ir kurios yra ribojamos apribojimo.
     -   Reikšmė, sugeneruota skaičiuojant.
--   Skaičiavimo pateiktos reikšmės nepatenka į atributo sritį. Pavyzdys yra sveikasis skaičius nuo \[1..10\], yra apskaičiuota, kad 0.
+-   Skaičiavimo pateiktos reikšmės nepatenka į atributo sritį. Pavyzdys yra sveikasis skaičius \[1..10\], kuris apskaičiuojamas kaip 0.
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Kodėl gaunu klaidos pranešimą, net jei sėkmingai patikrinau savo produkto modelį?
 Skaičiavimai neįtraukiami į tikrinimą. Norėdami rasti skaičiavimų klaidas, turite išbandyti produkto konfigūracijos modelį. Tolesniuose veiksmuose paaiškinta, kaip išbandyti produkto konfigūracijos modelį.
 
-1.  Spustelėkite **produkto informacijos valdymo**&gt;**bendras**&gt;**produkto konfigūracijos modelius**.
+1.  Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.
 2.  Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srities grupėje **Vykdyti** spustelėkite **Tikrinti**.
+
+
 
 
 

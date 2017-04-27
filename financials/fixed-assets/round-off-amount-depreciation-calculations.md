@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Nusidėvėjimo skaičiavimų apvalinimo suma
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aptariamas laukas Suapvalinti nusidėvėjimą, kurį galima rasti puslapyje Knygos nustatymas.
 
-Nusidėvėjimo apvalinimas sumos nustatomos kiekvienai knygai. Nusidėvėjimo apvalinimas kiekiai naudojami ilgalaikio turto nusidėvėjimo profilį, kuris rodo ilgalaikio turto vertė ir būsimo nusidėvėjimo, taip pat nusidėvėjimo pasiūlymams. Įveskite žemiausią leidžiamą knygos nusidėvėjimo sumą. 
+Nusidėvėjimo sumų apvalinimas nustatomas kiekvienai knygai. Nusidėvėjimo sumų apvalinimas naudojamas ilgalaikio turto nusidėvėjimo profilyje, kuris rodo būsimą ilgalaikio turto nusidėvėjimą ir vertę, ir yra rodomas nusidėvėjimo pasiūlymuose. Įveskite žemiausią leidžiamą knygos nusidėvėjimo sumą. 
 
 Neatsižvelgiant į nustatytą apvalinimą, paskutinio nusidėvėjimo laikotarpio nusidėvėjimo suma nėra suapvalinama. Paskutinio nusidėvėjimo laikotarpio pabaigoje, ilgalaikio turto vertė turi būti 0 (nulis) arba likvidacinė vertė, jei likvidacinė vertė naudojama.
 
@@ -43,6 +46,8 @@ Apskaičiuotas nusidėvėjimas be apvalinimo yra 2444,44. Kaip parodyta toliau p
 | Apvalinimas 1,00   | 2,444.00            |
 | Apvalinimas 10,00  | 2,440.00            |
 | Apvalinimas 100,00 | 2,400.00            |
+
+
 
 
 

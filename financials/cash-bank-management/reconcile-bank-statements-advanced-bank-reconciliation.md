@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko banko derinimą
 
+[!include[banner](../includes/banner.md)]
+
+
 Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Operations“. Šioje temoje paaiškinamas derinimo procesas.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
@@ -74,7 +77,7 @@ Gretinti arba derinti banko išrašo operacijas galima trimis būdais.
 -   Derinti operacijas su atšaukimo banko išrašo operacija.
 -   Pažymėti operacijas kaip **Nauja**, kad jas vėliau būtų galima registruoti kaip banko operacijas programoje „Dynamics 365 for Operations“.
 
-Rankiniu būdu suderinti sandorius, pasirinkite operacijas, į **banko išrašo operacijas** tinklelį, pasirinkite atitinkamas operacijas, į **operacijas banko operacijas** tinklelį, o tada spustelėkite **atitinka**. Pasirinktos operacijos perkeliamos iš viršutinių nesugretintų operacijų tinklelių į apatinius sugretintų operacijų tinklelius. Be to, atnaujinamos bendrosios sugretintos ir nesugretintos sumos. Galite derinti vieną su viena operacija, kelias su viena operacija arba kelias su keliomis operacijomis. Gretinant privaloma laikytis leidžiamų datų nuokrypių ir operacijos tipo susiejimo taisyklių. Šios taisyklės nustatomos puslapyje **Grynųjų pinigų ir banko valdymo parametrai**.
+Norėdami patys gretinti operacijas, pasirinkite operacijas tinklelyje **Banko išrašo operacijos**, pasirinkite atitinkamas operacijas tinklelyje **„Operations“ banko operacijos**, o tada spustelėkite **Gretinti**. Pasirinktos operacijos perkeliamos iš viršutinių nesugretintų operacijų tinklelių į apatinius sugretintų operacijų tinklelius. Be to, atnaujinamos bendrosios sugretintos ir nesugretintos sumos. Galite derinti vieną su viena operacija, kelias su viena operacija arba kelias su keliomis operacijomis. Gretinant privaloma laikytis leidžiamų datų nuokrypių ir operacijos tipo susiejimo taisyklių. Šios taisyklės nustatomos puslapyje **Grynųjų pinigų ir banko valdymo parametrai**.
 
 Derinant gali atsirasti skirtumų centais. Galite gretinti vieną banko išrašo operaciją ir vieną „Operations“ banko operaciją, kurių sumos skiriasi centais, jei skirtumai centais neviršija banko sąskaitos lauke **Leistinas skirtumas centais** nustatytos leistino nuokrypio sumos. Suma rodoma „Operations“ banko operacijos lauke **Koregavimo suma**. Kai banko suderinimas pažymėtas kaip suderintas, naudojant susieto tipo banko operacijoje nurodytą pagrindinę sąskaitą automatiškai įkeliami pataisymai. Pataisymai nepalaikomi naudojant dokumentų tipus **Čekis** ir **Depozitas**. 
 
@@ -90,5 +93,7 @@ Apdorojus visas išrašo eilutes, banko derinimo darbalapį reikia pažymėti ka
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Naujų operacijų, susietų su derinimu, registravimas
 Banko išrašo operacijos, kurių būseną derinimo darbalapyje pažymėjote kaip **Nauja**, yra užregistruojamos puslapyje **Banko išrašas**. Puslapyje **Banko išrašas** pasirinkite išrašo ID, kad peržiūrėtumėte išrašo informaciją. Meniu **Apskaita** galite naudoti parinktis **Peržiūrėti paskirstymus** ir **Peržiūrėti apskaitą**, kad peržiūrėtumėte naujų operacijų ir susietų DK įrašų informaciją. Pasirinkite parinktį **Registruoti**, kad DK užregistruotumėte banko išrašo eilutes, kurių būsena pažymėta kaip **Nauja**. Atkreipkite dėmesį, kad banko išrašą galima užregistruoti tik vieną kartą.
+
+
 
 

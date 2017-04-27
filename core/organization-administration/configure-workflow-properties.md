@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Darbo eigos ypatybių konfigūravimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 
 Norėdami konfigūruoti darbo eigos ypatybes, atidarykite darbo eigą darbo eigos rengyklėje. Spustelėkite lauką darbo eigos rengyklėje ir spustelėkite **Ypatybės**, kad atidarytumėte puslapį **Ypatybės**. Tada galite naudoti šias procedūras norėdami konfigūruoti įvairias darbo eigos ypatybes.
@@ -147,10 +150,10 @@ Kai dokumentas pateikiamas apdoroti, sukuriamas darbo eigos egzempliorius. Prane
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Skirtuke <strong>Gavėjas</strong> spustelėkite <strong>Vartotojas</strong>.</li>
-    <li>Dėl į <strong>vartotojo</strong> grupėje, <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems bus siunčiami pranešimai, ir tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtuko <strong>Vartotojas</strong> sąrašas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Norėdami įvesti komentarų apie atliktus darbo eigos keitimus, atlikite nurody
 2.  Lauke **Įvesti komentarus apie darbo eigą** įveskite savo komentarus.
 3.  Peržiūrėkite savo komentarus. Įtraukę komentarus jų modifikuoti negalite.
 4.  Spustelėkite **Įtraukti**, norėdami komentarų įtraukti į sritį **Komentarų retrospektyva**.
+
+
 
 
 

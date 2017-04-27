@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Teigiamų mokėjimų failų nustatymas ir generavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą mokėjimą ir generuoti teigiamo mokėjimo failus. 
 
 Nustatykite teigiamą mokėjimą, jei norite generuoti bankui teikiamą elektroninį čekių sąrašą. Tada, kai čekis pateikiamas bankui, bankas jį lygina su čekių sąrašu. Jei čekis atitinka sąraše esantįjį, bankas jį patvirtina. Jei čekis sąraše esančio čekio neatitinka, bankas jį pasilieka peržiūrėti.
 
 ## <a name="security-for-positive-pay-files"></a>Teigiamų mokėjimų failų sauga
-Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamas darbo užmokesčio failuose gali būti slaptos informacijos, svarbu, kad tik įgaliotieji vartotojai turėtų galimybę kurti ir peržiūrėti šią informaciją Microsoft Dynamics 365 operacijoms. Tolesnė lentelė jums padės nustatyti reikiamas teises.
+Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamų mokėjimų failuose gali būti slaptos informacijos, svarbu, kad programoje „Microsoft Dynamics 365 for Operations‟ šios informacijos generavimo ir peržiūros prieigą turėtų tik įgaliotieji vartotojai. Tolesnė lentelė jums padės nustatyti reikiamas teises.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Po to, kai teigiamo mokėjimo faile nurodyti čekiai apmokami, iš bango gausite
 
 ## <a name="recall-a-positive-pay-file"></a>Teigiamo mokėjimo failo atšaukimas
 Jei turite teigiamo mokėjimo failą pakeisti, galite jį atšaukti. Puslapyje **Teigiamo mokėjimo failų suvestinė** pasirinkite teigiamo mokėjimo failą, kurio būsena – **Sukurtas**, tada pasirinkite veiksmą **Atšaukti**. Iš naujo nustatomas kiekvieno teigiamo mokėjimo failo čekio laukas, kuriame nurodoma, ar tas čekis įtrauktas į teigiamo mokėjimo failą. Tada galite sukurti naują teigiamo mokėjimo failą, kuriame yra atšauktas čekis.
+
+
 
 

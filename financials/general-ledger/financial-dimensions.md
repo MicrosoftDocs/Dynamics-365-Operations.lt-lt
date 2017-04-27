@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="financial-dimensions"></a>Finansinės dimensijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinami skirtingi finansinių dimensijų tipai ir tai, kaip jie nustatomi.
 
 Naudokite puslapį Finansinės dimensijos kurdami finansines dimensijas, kurias galite naudoti kaip sąskaitų planų sąskaitos segmentus. Yra dviejų tipų finansinės dimensijos: pasirinktinės dimensijos ir objekto remiamos dimensijos. Pasirinktinės dimensijos yra bendrai naudojamos juridinių subjektų, o vertes įveda ir tvarko vartotojas. Objekto remiamos dimensijos yra dimensijos, kurių vertės nurodomos kitur sistemoje, pvz., dalyse Klientai ar Parduotuvės. Kai kurios objekto remiamos dimensijos yra bendrai naudojamos keliuose juridiniuose subjektuose, o kai kurios būdingos konkrečiai įmonei. 
 
 Sukūrę finansines dimensijas, naudokite puslapį Finansinių dimensijų reikšmės, kad kiekvienai finansinei dimensijai priskirtumėte papildomų ypatybių. 
 
-Atstovauti juridiniai asmenys nesukuriant teisės subjektai Microsoft Dynamics 365 operacijoms gali naudoti finansinės dimensijos, finansinės dimensijos nepritaikytos spręsti veiklos ar verslo poreikius juridinių asmenų. Interunit apskaitos funkcionalumą Microsoft Dynamics 365 operacijoms yra skirtos spręsti tik apskaitos įrašai, kurios kuriamos pagal kiekvieną sandorį. 
+Nors galite naudoti finansines dimensijas, atstovaujančias juridinius subjektus, nesukurdami juridinių subjektų programoje „Microsoft Dynamics 365 for Operations“, finansinės dimensijos nėra skirtos juridinių subjektų veiklos ar verslo poreikiams. Susijusių vienetų apskaitos funkcija programoje „Microsoft Dynamics 365 for Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija. 
 
 Prieš nustatydami finansines dimensijas kaip juridinius subjektus, įvertinkite savo verslo procesus toliau nurodytose srityse ir nustatykite, ar šis nustatymas veiks jūsų organizacijoje:
 
@@ -48,29 +51,31 @@ Kai kuriuose apribojimų pavyzdžiuose yra:
 -   PVM funkciją galite naudoti tik su juridiniais subjektais, o ne su finansinėmis dimensijomis.
 -   Kai kuriose ataskaitose neįtrauktos finansinės dimensijos, tad ne visada galima teikti ataskaitas pagal finansines dimensijas, nebent šios ataskaitos būtų modifikuotos.
 
-**Custom dimensions** 
+**Pasirinktinės dimensijos** 
 
-Norėdami sukurti vartotojo apibrėžiamų finansinių aspektų, naudoti reikšmes iš lauko, pasirinkite &lt;Custom aspektas&gt;. Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galite įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį. Taip pat galite įvesti skaičių ženklais (\#) ir jungimo (&) kaip vietos rezervavimo ženklus, raides ir skaičius, kad bus pakeisti kiekvieną kartą, kai sukuriamas dimensijos vertė. Naudoti numerio ženklas (\#) kaip vietos rezervavimo ženklas, skaičių ir ampersendą (&) kaip vietos žymeną, skirtą laišką. 
+Norėdami kurti vartotojo nustatomą finansinę dimensiją, lauke Naudoti vertes iš pasirinkite &lt; Pasirinktinė dimensija &gt;. Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galite įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį. Taip pat galite įvesti skaičiaus ženklus (\##) ir konjunkcijos ženklus (&) kaip vietos rezervavimo ženklus vietoj raidžių ir skaitmenų, kurie bus skirtingi kaskart sukūrus dimensijos reikšmę. Naudokite skaičiaus ženklą (\#) kaip skaitmens vietos rezervavimo ženklą, o konjunkcijos ženklą (&) – kaip raidės vietos rezervavimo ženklą. 
 
 **Pavyzdys:** 
 
-Norėdami apriboti dimensijos vertės CC raidės ir tris skaičius, įvedate CC -\#\#\# kaip formos šablonas. Šį lauką galima naudoti tik pasirinkus &lt;Custom dimensijos &gt;naudoti reikšmes iš lauko. 
+Norėdami apriboti dimensijos reikšmę iki raidžių CC ir trijų skaitmenų, įveskite CC-\#\#\# kaip formato šabloną. Šį lauką galima naudoti tik pasirinkus parinktį &lt; Pasirinktinė dimensija &gt; lauke Naudoti vertes iš. 
 
-**Įmonė remia matmenys** 
+**Objekto remiamos dimensijos** 
 
-Norėdami sukurti objekto remiamas finansinių aspektų, naudoti reikšmes iš lauko, pasirinkite sistemos subjektą pagrįsti finansinių aspektų. Finansinės dimensijos reikšmės sukuriamos pagal šį pasirinkimą. Pavyzdžiui, norėdami sukurti projektų dimensijų reikšmes, pasirinkite Projektai. Bus sukurtos kiekvieno projekto pavadinimo dimensijos reikšmės. Dimensijų verčių puslapyje rodomos objekto vertės ir, jei jos susijusios su konkrečia įmone, įmonė, kurios vertė nurodyta. 
+Norėdami sukurti objekto remiamą finansinę dimensiją, lauke Naudoti vertes iš pasirinkite sistemos nurodytą objektą, kuriuo bus pagrįsta finansinė dimensija. Finansinės dimensijos reikšmės sukuriamos pagal šį pasirinkimą. Pavyzdžiui, norėdami sukurti projektų dimensijų reikšmes, pasirinkite Projektai. Bus sukurtos kiekvieno projekto pavadinimo dimensijos reikšmės. Dimensijų verčių puslapyje rodomos objekto vertės ir, jei jos susijusios su konkrečia įmone, įmonė, kurios vertė nurodyta. 
 
-**Aktyvinti dimensijų** 
+**Dimensijų aktyvinimas** 
 
 Suaktyvinus finansinę dimensiją lentelė atnaujinama ir joje pateikiamas finansinės dimensijos pavadinimas, o panaikintos dimensijos pašalinamos. Dimensijų reikšmes galima įvesti prieš suaktyvinant finansinę dimensiją, bet finansinės dimensijos negalima niekur naudoti, kol ji yra suaktyvinama. Pavyzdžiui, finansinės dimensijos į sąskaitos struktūrą įtraukti negalima, kol finansinė dimensija suaktyvinama. Aktyvinus spustelėjant bus atnaujintos visos dimensijos, kurių būsena pasikeitė. 
 
-**Translations** 
+**Vertimai** 
 
-Teksto vertimo puslapis leidžia įvesti tekstą ir jį rodo skirtingų kalbų pasirinktų finansinių aspektų. Puslapyje Pagrindinės sąskaitos vertimas galite įvesti pagrindinės sąskaitos tekstą, kuris bus rodomas skirtingomis kalbomis. 
+Vertimo puslapiuose galima įvesti pasirinktos finansinės dimensijos tekstą, kuris bus rodomas skirtingomis kalbomis. Puslapyje Pagrindinės sąskaitos vertimas galite įvesti pagrindinės sąskaitos tekstą, kuris bus rodomas skirtingomis kalbomis. 
 
-**Legal entity overrides** 
+**Juridinio subjekto nepaisymai** 
 
-Ne visi matmenys galioja visi juridiniai asmenys, ir kai gali būti aktuali tik už tam tikrą laikotarpį. Tokiu atveju skyrius Juridinio subjekto nepaisymas gali būti naudojamas nustatyti, kuriose įmonėse dimensijos turi būti sustabdytos, kas jų savininkas ir kurį laikotarpį dimensija yra aktyvi.
+Ne visos dimensijos tinkamos visiems juridiniams asmenims, o kai kurios gali būti aktualios tik tam tikrą laikotarpį. Tokiu atveju skyrius Juridinio subjekto nepaisymas gali būti naudojamas nustatyti, kuriose įmonėse dimensijos turi būti sustabdytos, kas jų savininkas ir kurį laikotarpį dimensija yra aktyvi.
+
+
 
 
 

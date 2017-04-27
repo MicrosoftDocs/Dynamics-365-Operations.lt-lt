@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Atidėjimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie atidėtas bendrojo planavimo datas. Atidėta data yra realus terminas, kurį gauna operacija, jei bendrojo planavimo metu apskaičiuota anksčiausia įvykdymo data yra vėlesnė nei pareikalauta data.
 
 Bendrasis planavimas pagal vykdymo laiką, turimas medžiagas, turimus pajėgumus ir įvairius planavimo parametrus gali apskaičiuoti anksčiausią operacijos įvykdymo datą. 
@@ -41,11 +44,13 @@ Galite konfigūruoti, kaip skaičiuojami padengimo grupės atidėjimai. Vėliau 
 
 Puslapyje **Bendrojo planavimo parametrai** galite nustatyti atidėjimų skaičiavimo pradžios laiką. Jei užsakymas įvykdomas po šio laiko, prie užsakymo atidėjimo datos pridedamas vienos dienos atidėjimas. 
 
-**Pastaba:** ankstesnėse versijose, apskaičiuotas vėlavimą vadinosi *ateities pranešimai*, uždelstos dienos buvo žinomas kaip į *ateities data*, ir uždelstas sandoris buvo nurodyta kaip *operacija, kuri buvo ateityje rinkinys*.
+**Pastaba:** ankstesnėse versijose apskaičiuoti atidėjimai buvo žinomi kaip *ateities pranešimai*, atidėjimo data buvo žinoma kaip *ateities data*, o atidėta operacija buvo vadinama *į ateitį nustatyta operacija*.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
 [Padengimo parametrai](coverage-settings.md)
+
+
 
 

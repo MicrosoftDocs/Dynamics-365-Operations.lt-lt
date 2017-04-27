@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama projekto SF išrašymo Laiko ir medžiagų bei Fiksuotos kainos projektams apžvalga. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas.
 
 Projekto tipas nurodo, kokia SF išrašymo procedūra turi būti taikoma. SF gali būti išrašomos tik dviejų tipų išoriniams projektams – Laiko ir medžiagų bei Fiksuotos kainos. Laiko ir medžiagų bei Fiksuotos kainos projektai visada pridedami prie projekto sutarties.
@@ -103,7 +106,7 @@ Pavyzdžiui, galite nustatyti toliau pateiktą atsiskaitymo grafiką.
 Kai galima išrašyti etapų mokėjimų SF, naudojate laisvos formos sąskaitų sumų SF išrašymo procedūrą.
 
 ## <a name="vendor-invoicing"></a>Tiekėjo sąskaitų faktūrų išrašymas
-Kai iš tiekėjo užsakote prekę ir ją priskiriate projektui, jūsų pasirinkta tos prekės pirkimo užsakymo eilutės ypatybė nustato, ar už nupirktą prekę klientui išrašoma SF. Jei norite nustatyti numatytąją linijos ypatybes, jie rodomi prekės pirkimo užsakymo eilutės (eilutės duomenys &gt;projekto &gt;eilutės ypatybė). Modifikuoti eilutės ypatybę galima toliau nurodytais dviem būdais.
+Kai iš tiekėjo užsakote prekę ir ją priskiriate projektui, jūsų pasirinkta tos prekės pirkimo užsakymo eilutės ypatybė nustato, ar už nupirktą prekę klientui išrašoma SF. Jei nustatote numatytąsias eilučių ypatybes, prekės jos rodomos pirkimo užsakymo eilutėje (Eilučių informacija  &gt; Projektas &gt;  Eilutės ypatybė). Modifikuoti eilutės ypatybę galima toliau nurodytais dviem būdais.
 
 -   Už prekę SF išrašyti klientui: prekės eilutės ypatybę nustatykite į pirkimo užsakymo apmokestinamą reikšmę ir, naudodami tinkamą projekto SF išrašymo būdą, klientui išrašykite SF.
 -   Už prekę SF išrašyti ne projekto klientui: nesirinkite prekės **Apmokestinamos** eilutės ypatybės, esančios pirkimo užsakyme. Tada už pirkimo užsakymą galite išrašyti SF, ir nereikia atlikti jokių kitų veiksmų.
@@ -118,5 +121,7 @@ Tame pačiame dokumente gali būti operacijos, pasirinktos kredituoti, atlikti k
 Norėdami kredituoti sumą, kuriai išrašyta SF, pirmiausia pasirenkate sumą, kuriai išrašyta SF ir kurią norite kredituoti bei sukuriate kredito pažymą. Kredito pažyma kuriama vadovaujantis tokia pačia procedūra, kokią naudotumėte kliento SF generuoti. 
 
 Galite sukurti SF su neigiama suma; tokia sąskaita faktūra klasifikuojama kaip kredito pažyma. Norėdami sukurti ir išspausdinti kredito pažymą, turite pasirinkti operacijas, anksčiau užregistruotas kliento SF ir jas modifikuoti. SF pavadinimas bus „Koreguojamoji SF‟, nebent pagrindinis juridinio subjekto adresas yra Vokietijoje.
+
+
 
 

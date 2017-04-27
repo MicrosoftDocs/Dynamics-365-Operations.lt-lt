@@ -1,6 +1,6 @@
 ---
-title: "Nustatyti KS versiją"
-description: "Paklausos sprogimo, metu pažymėjus elemento numatytasis užsakymo tipą, gamybos, planavimo mechanizmas nustato galioja KS versiją remiantis svetainėje."
+title: KS versijos nustatymas
+description: "Jei nustatytas numatytasis prekės užsakymo tipas Gamyba, poreikio išskleidimo metu planavimo variklis pagal teritoriją suranda tinkamą KS versiją."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Nustatyti KS versiją
+# <a name="determine-the-bom-version"></a>KS versijos nustatymas
 
-Paklausos sprogimo, metu pažymėjus elemento numatytasis užsakymo tipą, gamybos, planavimo mechanizmas nustato galioja KS versiją remiantis svetainėje. 
+[!include[banner](../includes/banner.md)]
+
+
+Jei nustatytas numatytasis prekės užsakymo tipas Gamyba, poreikio išskleidimo metu planavimo variklis pagal teritoriją suranda tinkamą KS versiją. 
 
 Teritorijos dimensija visada žinoma ir yra nurodyta poreikio operacijoje. Tolesnis procesas naudojamas nustatyti, kokią KS versiją naudoti.
 
@@ -38,6 +41,8 @@ Teritorijos dimensija visada žinoma ir yra nurodyta poreikio operacijoje. Toles
 -   Jei nėra galimos naudoti bendrojo KS versijos, poreikio išskleidimas sustoja.
 
 Tinkama KS versija, konkrečios teritorijos ar bendroji, turi atitikti nurodytus datos ir kiekio kriterijus.
+
+
 
 
 

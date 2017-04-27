@@ -1,6 +1,6 @@
 ---
-title: "Vieną kuponą ir valiutos perkainojimo atnaujinti &quot;Microsoft Dynamics 365&quot; operacijų versija 1611"
-description: "Kai kurios organizacijos įveskite žurnalai, kuriuose vieno kvito, kuriame yra daugiau nei vienas kliento arba tiekėjo, ir jie taip pat organizuoja gautinų sąskaitų arba sąskaitų mokėtinos užsienio valiutos perkainojimo procesas. Šioje temoje aprašoma į veiksmus, šios organizacijos turėtų laikytis, kai jie atnaujinti Microsoft Dynamics 365 operacijų versija 1611."
+title: "„Microsoft Dynamics 365 for Operations“ 1611 versijoje vieno kvito ir valiutos kurso pasikeitimo atnaujinimas."
+description: "Kai kurios organizacijos įveda žurnalus, kuriuose yra vienas kvitas, turintis daugiau nei vieną klientą ar tiekėją, be to, vykdo Gautinų sumų ar Mokėtinų sumų užsienio valiutos kurso pasikeitimo procesą. Šioje temoje aprašyti veiksmai, kuriuos tos organizacijos turi atlikti, atnaujinant „Microsoft Dynamics 365 for Operations“ į 1611 versiją."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Vieną kuponą ir valiutos perkainojimo atnaujinti "Microsoft Dynamics 365" operacijų versija 1611
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>„Microsoft Dynamics 365 for Operations“ 1611 versijoje vieno kvito ir valiutos kurso pasikeitimo atnaujinimas.
 
-Kai kurios organizacijos įveskite žurnalai, kuriuose vieno kvito, kuriame yra daugiau nei vienas kliento arba tiekėjo, ir jie taip pat organizuoja gautinų sąskaitų arba sąskaitų mokėtinos užsienio valiutos perkainojimo procesas. Šioje temoje aprašoma į veiksmus, šios organizacijos turėtų laikytis, kai jie atnaujinti Microsoft Dynamics 365 operacijų versija 1611.
+Kai kurios organizacijos įveda žurnalus, kuriuose yra vienas kvitas, turintis daugiau nei vieną klientą ar tiekėją, be to, vykdo Gautinų sumų ar Mokėtinų sumų užsienio valiutos kurso pasikeitimo procesą. Šioje temoje aprašyti veiksmai, kuriuos tos organizacijos turi atlikti, atnaujinant „Microsoft Dynamics 365 for Operations“ į 1611 versiją.
 
-Kai atnaujinate į Microsoft Dynamics 365 operacijų versija 1611, atlikite toliau nurodytus veiksmus.
+Atlikite šiuos veiksmus atnaujindami „Microsoft Dynamics 365 for Operations“ į 1611 versiją.
 
-1.  Prieš naujindami į "Dynamics 365" operacijoms, vykdyti užsienio valiuta perkainojimo procesus, gautinos ir mokėtinos sąskaitos. Nustatyti, **metodas** lauko į **SF data**. Kad perkainojimo operacija bus sukurtas, panaikina paskutinio valiutos perkainojimo. Todėl atviras operacijas yra įvertinami jų originalus numatytąja valiuta.
-2.  Atnaujinti Dynamics 365 operacijų versija 1611.
-3.  Dar kartą paleiskite gautinas sąskaitas ir sąskaitų mokėtinos užsienio valiutos perkainojimo procesus. Šį kartą, nustatyti į **metodas** lauko į **standartinis**. Sukuriama nauja perkainojimo operacija, pagal dabartinį keitimo kursą. Šios operacijos įrašai nerealizuotas pelnas/nuostolis ir teisingą suminėje DK sąskaitoje.
+1.  Prieš atnaujindami į „Dynamics 365 for Operations“, įvykdykite Gautinų sumų ir Mokėtinų sumų užsienio valiutos kurso pasikeitimo procesą. Nustatykite lauką **Metodas** į **Sąskaitos faktūros data**. Sukuriama pasikeitimo operacija, kuri anuliuoja paskutinį užsienio valiutos pasikeitimą. Todėl atidarytos operacijos vertinamos pradine operacijos apskaitos valiuta.
+2.  Atnaujinkite „Dynamics 365 for Operations“ į 1611 versiją.
+3.  Įvykdykite Gautinų sumų ir mokėtinų sumų užsienio valiutos pasikeitimo procesą dar kartą. Šį kartą lauką **Metodas** nustatykite į **Standartinis**. Sukuriama nauja pasikeitimo operacija, kuri pagrįsta dabartiniu užsienio valiutos kursu. Ši operacija įrašo nerealizuotą pelną / nuostolį ir koreguoja suvestinę DK sąskaitą.
 
 
 

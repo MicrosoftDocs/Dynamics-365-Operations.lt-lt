@@ -1,5 +1,5 @@
 ---
-title: "Bendrojo planavimo vietai ir sandėliui aprėptį, sandėlio privalomas"
+title: "Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas"
 description: "Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija privaloma."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Bendrojo planavimo vietai ir sandėliui aprėptį, sandėlio privalomas
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija privaloma.
 
@@ -38,10 +41,10 @@ ms.lasthandoff: 03/31/2017
 -   Teritorijos ir sandėlio dimensijos nustatytos padengimui planuoti. Kitos dimensijos taip pat gali būti nustatytos padengimui planuoti. Tačiau jų neveikia kelių teritorijų funkcionalumas.
 
 Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavimas. Parametrai, rodomi grafikos duomenyse, ir jų vietos yra tokios:
--   Sandėlis nustatytas į **Rankinis**. Spustelėkite **atsargų valdymo &gt;nustatymo &gt;atsargų paskirstymas &gt;sandėlių**. **Bendrojo planavimo** „FastTab‟ žr. lauką **Rankinis**.
--   Prekės padengimas yra apibrėžiamas prekei. Spustelėkite **produkto informacijos valdymo &gt;gaminiai&gt; išleisti produktai**. Pasirinkite elementą, ir tada, ir veiksmų srityje, apie į **planas** skirtuką, spustelėkite **prekės padengimas**.
--   Papildymo ryšiai apibrėžiami sandėliui. Spustelėkite **atsargų valdymo &gt;nustatymo &gt;atsargų paskirstymas &gt;sandėlių**. **Bendrojo planavimo** „FastTab‟ žr. laukų grupę **Pagrindinis sandėlis**.
--   Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“. Spustelėkite **produkto informacijos valdymo &gt;gaminiai&gt; išleisti produktai**. Pasirinkite elementą, ir tada, ir veiksmų srityje, apie į **planas** skirtuką, spustelėkite **numatytieji parametrai tvarka**. Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.
+-   Sandėlis nustatytas į **Rankinis**. Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**. **Bendrojo planavimo** „FastTab‟ žr. lauką **Rankinis**.
+-   Prekės padengimas yra apibrėžiamas prekei. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Prekės padengimas**.
+-   Papildymo ryšiai apibrėžiami sandėliui. Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**. **Bendrojo planavimo** „FastTab‟ žr. laukų grupę **Pagrindinis sandėlis**.
+-   Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Numatytosios užsakymo nuostatos**. Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.
 
 ![Poreikio teritorija ir sandėlio padengimas, sandėlis privalomas](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
 
@@ -50,7 +53,7 @@ Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavim
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
 
 [Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis privalomas](master-plan-site-coverage-warehouse-mandatory.md)
 
@@ -59,5 +62,7 @@ Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavim
 [Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Bendrasis planavimas – kaip nustatoma KS versija](master-plan-bom-version-determined.md)
+
+
 
 

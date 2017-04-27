@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Mokėtinų sumų centralizuoti mokėjimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
 
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Be to, organizacija sutaupo laiko, nes mokėjimo procesas yra supaprastinamas.
@@ -66,14 +69,14 @@ Fabrikam East turi atvirą tiekėjo 100, Fourth Coffee, SF. Fabrikam įveda ir u
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
 | Mokėtojas – Fabrikam East (Fabrikam) | 600,00       |               |
 | Mokėtinos sumos (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                          | Debeto suma | Kredito suma |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima 20,00 dyd�
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
 | Mokėtojas – Fabrikam East (Fabrikam) | 580,00       |               |
 | Mokėtinos sumos (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                          | Debeto suma | Kredito suma |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. Fabrikam įveda ir u
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma            | Kredito suma           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. Fabrikam įveda ir u
 | Patirtas nuostolis (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Mokėtojas – Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                          | Debeto suma            | Kredito suma           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima mokėjimo 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma            | Kredito suma           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima mokėjimo 
 | Patirtas nuostolis (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Mokėtojas – Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                          | Debeto suma            | Kredito suma           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima mokėjimo 
 | Mokėjimo nuolaida (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>5 pavyzdys: Tiekėjo kredito pažyma taikant pirminį mokėjimą
-Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimas yra pažymėtas kaip pirminės mokėjimo į **atsiskaitymams** puslapis.
+Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** yra pažymimas kaip pirminis mokėjimas.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West
 
@@ -224,7 +227,7 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 | Mokėtojas – Fabrikam West (Fabrikam) | 100,00       |               |
 | Mokėtinos sumos (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
 | Mokėtojas – Fabrikam (Fabrikam East) | 25,00        |               |
 | Mokėtinos sumos (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West registravimas**
 
 | Sąskaita                          | Debeto suma | Kredito suma |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 | Mokėti Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>6 pavyzdys: Tiekėjo kredito pažyma netaikant pirminio mokėjimo
-Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimo neparinkta kaip pirminės mokėjimo į **atsiskaitymams** puslapis.
+Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** nėra pažymimas kaip pirminis mokėjimas.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West
 
@@ -273,21 +276,21 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
 
-**Fabrikam posting**
+**Fabrikam registravimas**
 
 | Sąskaita                           | Debeto suma | Kredito suma |
 |-----------------------------------|--------------|---------------|
 | Mokėtojas – Fabrikam West (Fabrikam) | 75,00        |               |
 | Mokėtinos sumos (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East registravimas**
 
 | Sąskaita                                | Debeto suma | Kredito suma |
 |----------------------------------------|--------------|---------------|
 | Moka įmonė Fabrikam West (Fabrikam East) | 25,00        |               |
 | Mokėtinos sumos (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West registravimas**
 
 | Sąskaita                              | Debeto suma | Kredito suma |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mok
 | Mokėti Fabrikam (Fabrikam West)      |              | 75,00         |
 | Mokėtinos sumos (Fabrikam West)     | 25,00        |               |
 | Mokėti įmonei Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Nusidėvėjimo metodai ir konvencijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamos nusidėvėjimo konvencijos ir nusidėvėjimo metodai, kuriuos palaiko „Microsoft Dynamics AX‟.
 
 Galite pasirinkti įvairius nusidėvėjimo metodus bei konvencijas. Metodų paskirtis yra paskirstyti ilgalaikio turto nusidėvėjimo vertę finansiniams laikotarpiams. Ilgalaikio turto nusidėvėjimo vertė yra įsigijimo vertė, sumažėjusi dėl likvidacinės vertės (jei tokia buvo). 
@@ -66,26 +69,27 @@ Galite pasirinkti šiuos nusidėvėjimo metodus:
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Ilgalaikio turto nusidėvėjimas](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Tiesiogiai proporcingas nusidėvėjimas](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Mažėjančios vertės nusidėvėjimas](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Neautomatinis nusidėvėjimas](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Nusidėvėjimo faktorius](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Produkcijos metodas](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Tiesiogiai proporcingas likutinės vertės nusidėvėjimas](straight-line-life-remaining-depreciation.md)
 
-[125 % mažėjančios vertės nusidėvėjimą](125-percent-reducing-balance-depreciation.md)
+[125 procentų mažėjančios vertės metodas](125-percent-reducing-balance-depreciation.md)
 
-[150 % mažėjančios vertės nusidėvėjimą](150-percent-reducing-balance-depreciation.md)
+[150 procentų mažėjančios vertės metodas](150-percent-reducing-balance-depreciation.md)
 
-[175 % mažėjančios vertės nusidėvėjimą](175-percent-reducing-balance-depreciation.md)
+[175 procentų mažėjančios vertės metodas](175-percent-reducing-balance-depreciation.md)
 
-[200 % mažėjančios vertės nusidėvėjimą](200-percent-reducing-balance-depreciation.md)
+[200 procentų mažėjančios vertės metodas](200-percent-reducing-balance-depreciation.md)
+
 
 

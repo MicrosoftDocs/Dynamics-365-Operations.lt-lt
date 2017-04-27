@@ -1,5 +1,5 @@
 ---
-title: "Priimti mokėjimo nuolaida ne mokėjimo nuolaida laikotarpio"
+title: "Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu"
 description: "Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Priimti mokėjimo nuolaida ne mokėjimo nuolaida laikotarpio
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu.
 
-Birželio 28 d., balandžio sukuria 2,000.00 3052 tiekėjo SF. Sąskaitos faktūros turi 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų.
+Birželio 28 d. Eglė 3052 tiekėjui sukuria sąskaitą faktūrą 2 000,00 sumai. SF galima 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų.
 
 ## <a name="use-cash-discount-option--always"></a>Naudokite mokėjimo nuolaidos pasirinktį = Visada
 April sukuria mokėjimą liepos 1 d., o tai yra po nuolaidos datos. April atidaro puslapį **Sudengti operacijas**, norėdama peržiūrėti operacijas, kurias galima sudengti. 
 
-April pažymi sąskaitą faktūrą apmokėti. Netaikoma jokia mokėjimo nuolaida, nes mokėjimas atliktas praėjus nuolaidos laikotarpiui. Tačiau pardavėjas suteikė balandžio patvirtinimo priimti mokėjimo nuolaida bet kokiu atveju. Todėl balandžio pakeičia reikšmę ir **naudoti mokėjimo grynaisiais nuolaidą** lauko į **visada**.
+April pažymi sąskaitą faktūrą apmokėti. Netaikoma jokia mokėjimo nuolaida, nes mokėjimas atliktas praėjus nuolaidos laikotarpiui. Tačiau tiekėjas Eglei pateikė patvirtinimą, nuolaidą pritaikyti bet kokiu atveju. Todėl Eglė pakeičia vertę lauke **Naudokite mokėjimo nuolaidą** į **Visada**.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Mokėjimo nuolaidos data | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačio
 | Naudokite mokėjimo nuolaidą            | Įprastas    |
 | Pritaikyta mokėjimo nuolaida          | 0,00      |
 | Taikytinos mokėjimo nuolaidos suma | –5,05     |
+
+
 
 
 

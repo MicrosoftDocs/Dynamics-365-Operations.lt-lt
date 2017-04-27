@@ -1,5 +1,5 @@
 ---
-title: "KS skaičiavimus su normatyvinę savikainą"
+title: "KS skaičiavimas su standartinėmis išlaidomis"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>KS skaičiavimus su normatyvinę savikainą
+# <a name="bom-calculations-with-standard-costs"></a>KS skaičiavimas su standartinėmis išlaidomis
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ Gamybos papildomų duomenų informaciją, kuri naudojama skaičiuojant standarti
 -   Įkainojimo versijos turinyje turi būti išlaidos − turinyje turi būti išlaidos. Čia pasirinktinai įtraukiamos pardavimo kainos, kad būtų apskaičiuotos pagamintoms prekėms siūlomos pardavimo kainos.
 
 Pradedant KS skaičiavimą gali būti nurodomi keli informacijos šaltiniai. Tarp jų gali būti teritorija, skaičiavimo data ir įkainojimo versija.
+
+
 
 
 

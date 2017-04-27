@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti automatizuotą užduotį darbo eigos"
+title: "Automatizuotos darbo eigos užduoties konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti automatizuotos užduoties ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Konfigūruoti automatizuotą užduotį darbo eigos
+# <a name="configure-an-automated-task-in-a-workflow"></a>Automatizuotos darbo eigos užduoties konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip konfigūruoti automatizuotos užduoties ypatybes.
 
@@ -92,16 +95,18 @@ Galite siųsti pranešimus žmonėms, kai automatizuota užduotis buvo vykdoma a
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Specifinių Microsoft Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Pakartokite veiksmus 3–7 kiekvienam įvykiui, kurį pasirinkote 2 veiksme.
+
+
 
 
 

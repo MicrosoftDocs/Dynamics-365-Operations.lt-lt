@@ -1,5 +1,5 @@
 ---
-title: "Nustatyti debesies POS ir MPOS ilgą prisijungimo funkcionalumas"
+title: "„Cloud POS“ ir MPOS išplėstinės registracijos funkcijos nustatymas"
 description: "Šiame „wiki“ aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Nustatyti debesies POS ir MPOS ilgą prisijungimo funkcionalumas
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>„Cloud POS“ ir MPOS išplėstinės registracijos funkcijos nustatymas
 
 Šiame „wiki“ aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
 
 <a name="setting-up-extended-logon"></a>Išplėstinės registracijos nustatymas
 =========================
 
-Brūkšninių kodų skaičių sekos ne galite rasti nustatymas **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**funkcijų šablonų**. „FastTab“ **Funkcijos** pateikiamos toliau nurodytos parinktys, susijusios su išplėstine registracija.
+Brūkšninių kodų skaičių sekų sąranką galite rasti pasirinkdami **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Funkcijų šablonai**. „FastTab“ **Funkcijos** pateikiamos toliau nurodytos parinktys, susijusios su išplėstine registracija.
 
 ### <a name="staff-bar-code-logon"></a>Darbuotojo brūkšninio kodo registravimas
 
@@ -53,7 +53,7 @@ Kai parinktis **Darbuotojui registruojantis naudojant kortelę reikia slaptažod
 <a name="assigning-an-extended-logon"></a>Išplėstinės registracijos priskyrimas
 ===========================
 
-Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti ilgą prisijungimo, eikite į **Išplėstinė prisijungti** pos. Tada ieškoti darbuotojo įvesdami savo operatoriaus ID į paieškos lauką. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai ** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
+Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti išplėstinės registracijos funkciją, EKA pasirinkite **Išplėstinė registracija**. Tada ieškokite darbuotojo, ieškos lauke įvesdami jo operatoriaus ID. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai ** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
 
 <a name="deleting-an-extended-logon"></a>Išplėstinės registracijos naikinimas
 ==========================

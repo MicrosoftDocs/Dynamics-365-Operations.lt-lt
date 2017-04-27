@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti darbo eigos tuo pat metu"
+title: "Lygiagrečios darbo eigos veiklos konfigūravimas"
 description: "Norėdami konfigūruoti lygiagrečią veiklą, darbo eigos rengyklėje atlikite toliau nurodytas procedūras."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Konfigūruoti darbo eigos tuo pat metu
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Lygiagrečios darbo eigos veiklos konfigūravimas
 
 Norėdami konfigūruoti lygiagrečią veiklą, darbo eigos rengyklėje atlikite toliau nurodytas procedūras.
 
@@ -32,7 +32,7 @@ Lygiagrečią veiklą sudaro vienu metu veikiančios darbo eigos šakos.
 
 ## <a name="name-a-parallel-activity"></a>Lygiagrečios veiklos pavadinimas
 Norėdami įvesti lygiagrečios veiklos pavadinimą, atlikite šiuos veiksmus.
-1.  Dešiniuoju pelės mygtuku spustelėkite lygiagrečios veiklos, ir tada spustelėkite **apgyvendinimo įstaigos** atidaryti, **ypatybės** forma.
+1.  Dešiniuoju pelės mygtuku spustelėkite lygiagrečią veiklą, o tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
 2.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
 3.  Lauke **Pavadinimas** įveskite unikalų lygiagrečios veiklos pavadinimą.
 4.  Spustelėkite **Uždaryti**.

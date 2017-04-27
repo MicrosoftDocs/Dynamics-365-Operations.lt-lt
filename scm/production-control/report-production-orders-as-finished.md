@@ -1,6 +1,6 @@
 ---
-title: "Ataskaita gamybos užsakymus paskelbti baigtais"
-description: "Skelbti baigtais yra gamybos etapas. Šiame etape gatavo produkto pranešė ir perkeliami iš gamybos užsakymo į inventorių."
+title: "Pranešti, kad gamybos užsakymai įvykdyti"
+description: "Pranešti, kad baigta yra gamybos etapas. Šiame etape pranešama apie pabaigtą produktą ir jis perkeliamas iš gamybos užsakymo į atsargas."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-production-orders-as-finished"></a>Ataskaita gamybos užsakymus paskelbti baigtais
+# <a name="report-production-orders-as-finished"></a>Pranešti, kad gamybos užsakymai įvykdyti
 
-Skelbti baigtais yra gamybos etapas. Šiame etape gatavo produkto pranešė ir perkeliami iš gamybos užsakymo į inventorių.
+[!include[banner](../includes/banner.md)]
+
+
+Pranešti, kad baigta yra gamybos etapas. Šiame etape pranešama apie pabaigtą produktą ir jis perkeliamas iš gamybos užsakymo į atsargas.
 
 Kai gamybos užsakymas paskelbiamas baigtu, pagamintų prekių kiekis atsargose yra atnaujinamas kaip turimas. Dalinius suplanuoto užsakymo kiekio kiekius galima paskelbti baigtais. Skelbiant kiekius baigtais taip pat galima apie klaidingus kiekius teikti ataskaitas su susieta klaidos priežastimi. Kai gamybos užsakymas tampa Paskelbtas baigtu, tai reiškia, kad daugiau apie gamybos užsakymo kiekį ataskaitos nebebus teikiamos.
 Toliau pateiktos charakteristikos taip pat yra susietos su procesu **Skelbti baigtu**.
@@ -44,5 +47,7 @@ Kiekis skelbiamas išeigos vietoje. Tada sugeneruojamas sandėlio darbas kiekiui
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Gamybos užsakymo nustatymas kaip paskelbto baigtu
 Gamybos užsakymas gali būti nustatytas kaip **Skelbti baigtu** naudojant standartinę gamybos užsakymo atnaujinimo funkciją, technologinės ir užduoties kortelių žurnalus arba gamybos žurnalą **Skelbti baigtu**. Taip pat galina atnaujinti etapą į **Skelbti baigtu** naudojant užduoties kortelės terminalo ir užduoties kortelės įrenginio puslapius, kai paskelbiate paskutinę gamybos užsakymo užduotį. Galiausiai galite aktyvinti parinktį **Skelbti baigtu** kaip sandėlio kišeninio įrenginio sprendimo procesą.  
+
+
 
 

@@ -49,18 +49,18 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 ### <a name="create-a-report-group"></a>Ataskaitų grupės kūrimas
 
 1.  Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
-2.  Dėl į **failo** meniu, spustelėkite **naujas**&gt;**ataskaitoje grupės apibrėžimą** atidaryti naują ataskaitą grupę peržiūros langą. Arba spustelėkite į **ataskaitos grupės** mygtuką ![ataskaitos grupės](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "ataskaitos grupės") įrankių juostoje.
+2.  Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Arba įrankių juostoje spustelėkite mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Ataskaitų grupė").
 3.  Spustelėkite skirtuką **Ataskaitų grupė**. Norėdami perrašyti atskirų ataskaitų aprašų informaciją, kad galėtumėte generuoti šią ataskaitą, pažymėkite žymės langelį **Perrašyti atskirų ataskaitų aprašų įmonės, išsamios informacijos ir datos parametrus**. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
 4.  Pažymėkite žymės langelį **Įtraukti visas ataskaitų valiutas**, jei norite sugeneruoti kelias ataskaitas, kuriose rodomos tos ataskaitų valiutos. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
 5.  Lauke **Grupės ataskaitos** spustelėkite **Įtraukti** ir pasirinkite ataskaitas, kurias norite įtraukti į ataskaitų grupę. Norėdami dialogo lange **Įtraukti** pasirinkti kelias ataskaitas, pažymėkite ataskaitas laikydami nuspaudę klavišą CTRL. Pasirinkę ataskaitas, spustelėkite **Gerai**.
-6.  Spustelėkite **failo**&gt;**įrašyti** įrašyti naują ataskaitą grupę.
+6.  Spustelėkite **Failas** &gt; **Įrašyti**, kad įrašytumėte naują ataskaitų grupę.
 
 ### <a name="modify-a-report-group"></a>Ataskaitų grupės modifikavimas
 
 1.  Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2.  Dukart spustelėkite ataskaitų grupę, kurią norite modifikuoti.
 3.  Skirtuke **Ataskaitų grupė** atlikite norimus keitimus.
-4.  Dėl į **failo** meniu, spustelėkite **įrašyti** įrašyti modifikuotą ataskaitos grupės, arba spustelėkite į **įrašyti** mygtuką ![įrašyti](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "įrašyti") įrankių juostoje.
+4.  Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Arba įrankių juostoje spustelėkite mygtuką **Įrašyti** ![Įrašyti](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Įrašyti").
 
 **Pastaba.** Jei suplanavote ataskaitas generuoti tam tikrais intervalais, galite nepaisyti šių parametrų ir generuoti ataskaitą iš karto.
 
@@ -68,7 +68,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 
 1.  Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2.  Atidarykite ataskaitų grupę, kurią norite generuoti.
-3.  Spustelėkite į **generuoti ataskaitą** mygtuką ![generuoti ataskaitą](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "generuoti ataskaitą") generuoti ataskaitas.
+3.  Norėdami generuoti ataskaitas, spustelėkite mygtuką **Generuoti ataskaitą** ![Generuoti ataskaitą](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Generuoti ataskaitą").
 
 ### <a name="delete-a-report-group"></a>Ataskaitų grupės panaikinimas
 
@@ -104,8 +104,8 @@ Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikli
 <td>Nurodykite ataskaitų informacijos išsamumo lygį.
 <ul>
 <li><strong>Finansinė</strong>− aukšto lygio bendroji suvestinė ataskaita. Negalima detalizuoti iki sąskaitų ir dimensijų, išskyrus tas sąskaitas ir dimensijas, kurios įtrauktos naudojant ataskaitų medį.</li>
-<li><strong>Finansinės &amp;į</strong> − A ataskaita, kurioje yra aukšto lygio santrauką ir sąskaitos duomenis.</li>
-<li><strong>Finansų, sąskaitos, &amp;operacija</strong> − A ataskaita, kurioje yra aukšto lygio suvestinė ir išsami operacijos informacija.</li>
+<li><strong>Finansinė &amp; sąskaitos</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami sąskaitos informacija.</li>
+<li><strong>Finansinė, sąskaitos &amp; operacijų</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami operacijų informacija.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Su ataskaitos aprašu įrašomi tik numatytieji pagrindinio laikotarpio parametr
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Finansinė atskaitomybė už Microsoft Dynamics 365 operacijoms](financial-reporting-intro.md)
+[„Microsoft Dynamics 365 for Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
 
 

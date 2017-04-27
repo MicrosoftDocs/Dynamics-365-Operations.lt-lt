@@ -1,6 +1,6 @@
 ---
 title: "Pamainos ir kasos stalčių valdymas"
-description: "Šiame straipsnyje aiškinama, kaip nustatyti ir naudoti dviejų tipų mažmeninė point of pardavimo (PV) pamainomis - bendra ir atskira. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas."
+description: "Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
@@ -27,26 +27,29 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="shift-and-cash-drawer-management"></a>Pamainos ir kasos stalčių valdymas
 
-Šiame straipsnyje aiškinama, kaip nustatyti ir naudoti dviejų tipų mažmeninė point of pardavimo (PV) pamainomis - bendra ir atskira. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas.
+[!include[banner](includes/banner.md)]
+
+
+Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas.
 
 Galimi du mažmeninės prekybos elektroninio kasos aparato (EKA) pamainų tipai: atskira ir bendrai naudojama. Atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas. Bendrai naudojimas pamainas gali naudoti keli vartotojai keliose vietose. Todėl parduotuvėje galima veiksmingai sukurti keliems vartotojams skirtą vieną pamainą.
 
-## <a name="standalone-shifts"></a>Atskira pokyčių
+## <a name="standalone-shifts"></a>Atskiros pamainos
 Atskiros pamainos naudojamos tradiciniu, pastoviu POS scenarijumi, kada kiekvieno EKA registro grynieji pinigai yra suderinamos atskirai. Pvz., parduotuvės aplinkoje paprastai yra keli fiksuoti EKA registrai, o kasininkas priskirtas kiekvienam registrui. Šiuo atveju kiekvienas registras greičiausiai naudoja atskirą pamainą, o kasininkas yra atsakingas už to registro kasos stalčiaus skyrelį arba fizinės formos grynuosius pinigus. Atskira pamaina apima visą veiklą tame registre per kasininko darbo pamainą. Veiklos gali apimti į kasos stalčiaus skyrelį padėtos sumos atidarymą, visas grynųjų pinigų išėmimo ir įdėjimo operacijas, pvz., inkasavimus ir srauto įrašą, ir mokėjimo priemonių deklaravimą pamainai pasibaigus.
 
 ### <a name="set-up-a-stand-alone-shift"></a>Atskiros pamainos nustatymas
 
 Atskira pamaina priskiriama kasos stalčiaus lygyje. Šioje procedūroje paaiškinama, kaip nustatyt atskirą pamainą EKA registre.
 
-1.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**aparatūros profiliai**.
+1.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
 2.  Pasirinkite naudotiną atskirtos pamainos aparatūros šabloną.
 3.  „FastTab“ **Stalčius** patikrinkite, ar parinktis **Bendrai naudojamos pamainos stalčius** yra nustatyta į **Ne**.
-4.  Click **Save**.
-5.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**registrų**.
+4.  Spustelėkite **Įrašyti**.
+5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **Registrai**.
 6.  Pasirinkite registrą, kuriam reikalinga atskira pamaina, ir tada spustelėkite **Redaguoti**.
 7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
-8.  Click **Save**.
-9.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo grafikas**.
+8.  Spustelėkite **Įrašyti**.
+9.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
 
 ### <a name="use-a-stand-alone-shift"></a>Atskiros pamainos naudojimas
@@ -62,19 +65,19 @@ Atskira pamaina priskiriama kasos stalčiaus lygyje. Šioje procedūroje paaišk
 **Pastaba.** Pamainos metu galima atlikti kitas operacijas, priklausomai nuo vykdomų verslo procesų. Galima atlikti operacijas **Pinigų įnešimas į kasą**, **Inkasavimas** ir **Mokėjimo priemonės šalinimas**, norint dienos metu arba prieš uždarant pamainą iš kasos stalčiaus skyrelio išimti pinigus. Jei kasos stalčiaus skyrelyje yra per mažai pinigų, galima naudoti operaciją **Srauto įrašas**, norint į kasos stalčiaus skyrelį įdėti grynųjų pinigų.
 
 ## <a name="shared-shifts"></a>Bendrai naudojamos pamainos
-Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai bendrai naudoja kasos stalčių arba kasos stalčių rinkinį. Paprastai bendrai naudojama pamaina yra naudojama mobiliojoje EKA aplinkoje. Mobiliojoje aplinkoje nė vienas kasininkas nėra priskirtas arba atsakingas už vieną kasos stalčių. Visi kasininkai turi turėti galimybę užregistruoti pardavimą ir įdėti pinigų į artimiausią kasos aparatą. Tokiu atveju kasos stalčiai, kuriuos kasininkai bendrai naudoja, įtraukiami į bendrai naudojamą pamainą. Visi bendrai naudojamos pamainos kasos stalčiai įtraukiami į vieną pamainą, kad būtų galima vykdyti su grynųjų pinigų valdymu susijusias tos pamainos veiklas. Todėl pradinė pamainos suma turėtų apimti visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esančią grynųjų pinigų sumą. Taip pat mokėjimo priemonės deklaravimas bus visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esanti grynųjų pinigų suma. **Pastaba:** tik vieną bendrą pamainą galima atidaryti vienu metu kiekvienoje saugykloje. Toje pačioje parduotuvėje galima naudoti bendrai naudojamas pamainas ir atskiras pamainas.
+Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai bendrai naudoja kasos stalčių arba kasos stalčių rinkinį. Paprastai bendrai naudojama pamaina yra naudojama mobiliojoje EKA aplinkoje. Mobiliojoje aplinkoje nė vienas kasininkas nėra priskirtas arba atsakingas už vieną kasos stalčių. Visi kasininkai turi turėti galimybę užregistruoti pardavimą ir įdėti pinigų į artimiausią kasos aparatą. Tokiu atveju kasos stalčiai, kuriuos kasininkai bendrai naudoja, įtraukiami į bendrai naudojamą pamainą. Visi bendrai naudojamos pamainos kasos stalčiai įtraukiami į vieną pamainą, kad būtų galima vykdyti su grynųjų pinigų valdymu susijusias tos pamainos veiklas. Todėl pradinė pamainos suma turėtų apimti visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esančią grynųjų pinigų sumą. Taip pat mokėjimo priemonės deklaravimas bus visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esanti grynųjų pinigų suma. **Pastaba:** kiekvienoje parduotuvėje vienu metu galima atidaryti tik vieną bendrai naudojamą pamainą. Toje pačioje parduotuvėje galima naudoti bendrai naudojamas pamainas ir atskiras pamainas.
 
 ### <a name="set-up-a-shared-shift"></a>Bendrai naudojamos pamainos nustatymas
 
-1.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profiliai**&gt;**aparatūros profiliai**.
+1.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
 2.  Pasirinkite naudotiną bendrai naudojamos pamainos aparatūros šabloną.
 3.  „FastTab“ **Stalčius** parinktį **Bendrai naudojamos pamainos stalčius** nustatykite į **Taip**.
-4.  Click **Save**.
-5.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**registrų**.
+4.  Spustelėkite **Įrašyti**.
+5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **Registrai**.
 6.  Pasirinkite registrą, kuriam reikalinga bendrai naudojama pamaina, ir tada spustelėkite **Redaguoti**.
 7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
-8.  Click **Save**.
-9.  Spustelėkite **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo grafikas**.
+8.  Spustelėkite **Įrašyti**.
+9.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
 
 ### <a name="use-a-shared-shift"></a>Bendrai naudojamos pamainos naudojimas
@@ -93,6 +96,8 @@ Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai
 8.  Išėmę grynuosius pinigus iš paskutinio kasos stalčiaus, suskaičiuokite visų kasos stalčių grynuosius pinigus.
 9.  Naudokite operaciją **Deklaruoti mokėjimo priemonę**, kad deklaruotumėte bendrą grynųjų pinigų sumą visuose bendrai naudojamos pamainos kasos stalčiuose.
 10. Naudokite operaciją **Uždaryti pamainą**, kad uždarytumėte bendrai naudojamą pamainą.
+
+
 
 
 

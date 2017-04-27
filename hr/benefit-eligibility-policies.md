@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Išmokos tinkamumo strategijos
 
-Šioje temoje pateikta informacija apie naudą tinkamumas politikos, kuri padės jums nustatyti, turintis teisę gauti konkrečios naudos.
+[!include[banner](includes/banner.md)]
+
+
+Šioje temoje pateikta informacija apie išmokos tinkamumo strategijas, kuri padės jums nustatyti, kas turi teisę gauti konkrečias išmokas.
 
 Kai kuriate išmokas, nusprendžiate, kurias išmokas gaus kurie darbuotojai. Toliau pateikiamoje lentelėje parodyt išmokų pavyzdžiai, kurias galite mokėti tam tikriems darbuotojams.
 
@@ -38,7 +41,7 @@ Kai kuriate išmokas, nusprendžiate, kurias išmokas gaus kurie darbuotojai. To
 | Mobilusis telefonas     | Pardavėjai, vadovai         |
 | Automobilių stovėjimo leidimai   | Administracija                      |
 
-Šie komponentai yra naudojami sukurti tinkamumo politiką:
+Toliau pateikti komponentai naudojami tinkamumo strategijoms kurti.
 
 -   Strategijos taisyklių tipai
 -   Išmokos tinkamumo strategijos
@@ -51,5 +54,7 @@ Galite apibrėžti strategijos taisyklės apimtį. Pavyzdžiui, jei sukuriate i�
 --------
 
 [Išmokų programos apibrėžimas ir valdymas](manage-benefit-program.md)
+
+
 
 

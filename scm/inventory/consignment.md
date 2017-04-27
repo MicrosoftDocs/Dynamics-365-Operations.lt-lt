@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Konsignacija
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje paaiškinama, kaip naudoti gaunamų konsignacijos atsargų procesus.
 
-Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vietoje. Kai esate pasiruošę vartoti ar naudoti atsargas, atsargos tampa jūsų nuosavybe. Šioje temoje pateikiama informacija apie tai, kaip gauti fiziškai turimas atsargas tiekėjui priklausančių nesukuriant DK operacijas, kaip paleisti gamybos procese, kai tiekėjui priklausančio inventoriaus gali faktiškai rezervuotas. Ir kaip pasikeicia žaliava tam, kad būtų galima apdoroti vartoti kaip dalis gamybos užsakymų apdorojimas. Taip pat yra šiek tiek informacijos apie tai, kaip tiekėjai gali stebėti savo atsargų vartojimą naudodami tiekėjo bendradarbiavimo sąsają. Norėdami gauti informacijos apie tai, kaip įgalinti ir konfigūruoti gaunamus konsignacijos procesus, žr. [Konsignacijos nustatymas](set-up-consignment.md).
+Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vietoje. Kai esate pasiruošę vartoti ar naudoti atsargas, atsargos tampa jūsų nuosavybe. Šioje temoje pateikiama informacija apie tai, kaip faktiškai gauti šiuo metu tiekėjo turimų atsargų nesukuriant didžiosios knygos operacijų, kaip pradėti gamybos procesą, kai tiekėjo turimas atsargas galima rezervuoti faktiškai, ir kaip pakeisti žaliavų savininką, kad būtų galima apdoroti suvartojimą kaip gamybos užsakymo apdorojimo dalį. Taip pat yra šiek tiek informacijos apie tai, kaip tiekėjai gali stebėti savo atsargų vartojimą naudodami tiekėjo bendradarbiavimo sąsają. Norėdami gauti informacijos apie tai, kaip įgalinti ir konfigūruoti gaunamus konsignacijos procesus, žr. [Konsignacijos nustatymas](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Konsignacijos proceso apžvalga
 Šio scenarijaus pavyzdyje įmonė USMF su tiekėju US-104 yra sudariusi konsignacijos sutartį dėl žaliavos M9211CI.
@@ -57,9 +60,9 @@ USMF atlieka papildomus periodinius procesus:
 Tiekėjas US-104 gali stebėti naujinimus naudodamas puslapį **Turimos konsignacijos atsargos**.
 
 ## <a name="consignment-replenishment-orders"></a>Konsignacijos papildymo užsakymai
-Konsignacijos papildymo užsakymas yra dokumentas, naudojamas norint pateikti užklausą ir stebėti produktų, kuriuos tiekėjas numato pristatyti per tam tikrą laiko intervalą, atsargų kiekius sukuriant užsakytų atsargų operacijas. Paprastai tai bus pagrįsta prognoze ir faktiniu konkrečių produktų poreikiu. Atsargos, kurios bus gautos pateikus konsignacijos papildymo užsakymą, lieka tiekėjo nuosavybė. Įrašomi tik su faktinio gavimo atnaujinimu susiję turimi produktai, todėl nėra jokių didžiosios knygos operacijos atnaujinimų. Dimensija **Savininkas** naudojama norint atskirti informaciją apie tai, kurios atsargos priklauso tiekėjui, o kurios priklauso gaunančiam juridiniam subjektui. Siuntos papildymo užsakymo eilučių yra **atidaryti užsakymo** būsenos tol, kol visas eilutes kiekis nebuvo gautas arba atšauktas. Jeigu visas kiekis buvo gautas arba atšauktas, būsena pakeičiama į **atlikta**. Faktines su konsignacijos papildymo užsakymu susijusias turimas atsargas galima įrašyti naudojant registravimo procesą ir gavimo dokumento atnaujinimo procesą. Registraciją galima atlikti kaip prekių gavimo proceso dalį arba rankiniu būdu atnaujinant užsakymo eilutes. Kai naudojamas gavimo dokumento atnaujinimo procesas, produkto gavimo žurnale pateikiamas įrašas, kurį galima naudoti norint patvirtinti prekių gavimą tiekėjams. 
+Konsignacijos papildymo užsakymas yra dokumentas, naudojamas norint pateikti užklausą ir stebėti produktų, kuriuos tiekėjas numato pristatyti per tam tikrą laiko intervalą, atsargų kiekius sukuriant užsakytų atsargų operacijas. Paprastai tai bus pagrįsta prognoze ir faktiniu konkrečių produktų poreikiu. Atsargos, kurios bus gautos pateikus konsignacijos papildymo užsakymą, lieka tiekėjo nuosavybė. Įrašomi tik su faktinio gavimo atnaujinimu susiję turimi produktai, todėl nėra jokių didžiosios knygos operacijos atnaujinimų. Dimensija **Savininkas** naudojama norint atskirti informaciją apie tai, kurios atsargos priklauso tiekėjui, o kurios priklauso gaunančiam juridiniam subjektui. Konsignacijos papildymo užsakymo eilučių būsena yra **Atviras užsakymas** tol, kol negaunamas arba neatšaukiamas visas eilučių kiekis. Kai visas kiekis gaunamas arba atšaukiamas, būsena pakeičiama į **Baigta**. Faktines su konsignacijos papildymo užsakymu susijusias turimas atsargas galima įrašyti naudojant registravimo procesą ir gavimo dokumento atnaujinimo procesą. Registraciją galima atlikti kaip prekių gavimo proceso dalį arba rankiniu būdu atnaujinant užsakymo eilutes. Kai naudojamas gavimo dokumento atnaujinimo procesas, produkto gavimo žurnale pateikiamas įrašas, kurį galima naudoti norint patvirtinti prekių gavimą tiekėjams. 
 
-[![siuntos papildymo užsakymo](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalas
 Atsargų savininko keitimo iš tiekėjo į gaunantį juridinį subjektą procesas atliekamas naudojant atsargų nuosavybės pakeitimo žurnalą. Žurnale numatomų atsargų operacijos nekuriamos. Kuriamos tik tos atsargų operacijos, kurios susijusios su užregistruotu žurnalu. Kada žurnalas buvo užregistruotas:
@@ -69,14 +72,16 @@ Atsargų savininko keitimo iš tiekėjo į gaunantį juridinį subjektą procesa
 
 Sukūrus užsakymą konsignacijos pirkimo užsakymo eilučių skaičiaus atnaujinti neįmanoma. 
 
-[![atsargų nuosavybės pokyčių žurnalo](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Tiekėjų bendradarbiavimas konsignacijos procesuose
 Tiekėjo bendradarbiavimo sąsajoje yra trys su gaunamu konsignacijos procesu susiję puslapiai:
 
--   **Pirkimo užsakymų****vartojimo siuntos atsargų** -rodo išsamią pirkimo užsakymo informacijos, susijusios su nuosavybės pokytis nuo išsiuntimo proceso.
+-   **Pirkimo užsakymai**, **naudojantys konsignacijos atsargas** – rodoma išsami pirkimo užsakymo informacija, susijusi su nuosavybės pakeitimu iš konsignacijos proceso.
 -   **Produktai, gauti iš konsignacijos atsargų** – rodoma informacija apie prekes ir kiekius, kurių gavimo dokumentai atnaujinti nuosavybės pakeitimo proceso metu.
 -   **Turimos konsignacijos atsargos** – rodoma informacija apie konsignacijos prekes, kurias numatoma pristatyti, ir prekes, kurias jau faktiškai galima įsigyti kliento vietoje.
+
+
 
 
 

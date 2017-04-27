@@ -1,6 +1,6 @@
 ---
-title: "Geriausios praktikos importavimas naudojant bendrąjį žurnalą subjektas kvitus"
-description: "Šioje temoje pateikta patarimų duomenų importavimo į bendrąjį žurnalą naudojant bendrojo žurnalo subjektas."
+title: "Geriausios kvitų importavimo naudojant objektą Bendrasis žurnalas praktikos"
+description: "Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Geriausios praktikos importavimas naudojant bendrąjį žurnalą subjektas kvitus
+# <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Geriausios kvitų importavimo naudojant objektą Bendrasis žurnalas praktikos
 
-Šioje temoje pateikta patarimų duomenų importavimo į bendrąjį žurnalą naudojant bendrojo žurnalo subjektas.  
+[!include[banner](../includes/banner.md)]
 
-Galite naudoti bendrąjį žurnalą subjektas importuoti kvitus, kurie turi sąskaitą arba kompensuoti abonemento tipą, **knygos, pirkėjas, tiekėjas ar banko**. Kvitas gali būti pateikiami vienoje eilutėje, naudojant tiek **į** lauko ir **korespondentinė sąskaita** lauko, arba kaip kelių eilučių kvito, tik jeigu į **į** laukas naudojamas (ir **korespondentinė sąskaita** yra tuščias kiekvienoje eilutėje). Bendrojo žurnalo subjektas nepalaiko kiekvieno sąskaitos tipo. Jeigu reikalingi skirtingi sąskaitų tipų deriniai, geriau naudoti kitus objektus. Pavyzdžiui, Norėdami importuoti projekto operacijos, naudoti projekto išlaidų žurnalo subjektas. Kiekvienas subjektas yra sukurta palaikyti konkrečių scenarijų, kuris reiškia papildomus laukus galima subjektai scenarijuose, o ne subjektai skirtingų scenarijų.
+
+Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.  
+
+Naudodami objektą Bendrasis žurnalas galite importuoti kvitus, kurių sąskaitos ar korespondentinės sąskaitos tipas yra **Didžioji knyga, Klientas, Tiekėjas arba Bankas**. Kvito duomenis galima įvesti vienoje eilutėje naudojant laukus **Sąskaita** ir **Korespondentinė sąskaita** arba keliose eilutėse, kuriose naudojamas tik laukas **Sąskaita**, o kiekvienoje eilutėje laukas **Korespondentinė sąskaita** paliekamas tuščias. Objekte Bendrasis žurnalas nepalaikomi visi sąskaitos tipai. Jeigu reikalingi skirtingi sąskaitų tipų deriniai, geriau naudoti kitus objektus. Pavyzdžiui, naudokite objektą Projekto išlaidų žurnalas projekto operacijai importuoti. Kiekvienas objektas sukurtas konkretiems scenarijams palaikyti, todėl papildomi laukai gali būti pasiekiami konkrečiuose objektuose naudojant tam tikrus scenarijus, tačiau papildomų laukų nebus konkrečiuose objektuose naudojant kitus scenarijus.
 
 ## <a name="setup"></a>Sąranka
-Prieš importuodami iš bendrojo žurnalo asmuo, patvirtinti tokį nustatymą:
+Kol dar neimportavote naudodami objektą Bendrasis žurnalas, patikrinkite toliau nurodytą sąranką.
 
--   **Numeracijos nustatymo už žurnalo paketo numeris** - pagal numatytuosius nustatymus, kai importuojate naudojant bendrąjį žurnalą subjektui, žurnalo paketo numeris naudoja numeraciją, kuri yra nurodyta DK parametrai. Jei nustatysite žurnalo paketo numerio numeracijos parinktį **Neautomatinis**, numatytasis numeris nebus taikomas. Šis nustatymas nepalaikomas.
--   **Finansinės dimensijos konfigūracija** -kiekviena organizacija turi apibrėžti finansinės dimensijos kai organizacijos importuoti operacijas. Tokia tvarka yra nustatyta į **knygos matmenys integracijos** formatas, ne **DK**&gt;**sąskaitų**&gt;**matmenys**&gt;**finansinės dimensijos konfigūracija, apimanti taikomąsias programas**&gt;**pasirinkite duomenų subjektų**. Importuojamos DK sąskaitos segmentų tvarka turi būti ta tokia pati. Kitaip importavimo metu įvyks klaida.
+-   **Žurnalo paketo numerio numeracijos sąranka** – pagal numatytuosius parametrus importuojant ir naudojant objektą Bendrasis žurnalas, žurnalo paketo numeryje naudojama numeracija, nurodyta DK parametruose. Jei nustatysite žurnalo paketo numerio numeracijos parinktį **Neautomatinis**, numatytasis numeris nebus taikomas. Šis nustatymas nepalaikomas.
+-   **Finansinių dimensijų konfigūracija** – kiekviena organizacija turi nurodyti finansinių dimensijų tvarką, skirtą operacijoms importuoti naudojant objektus. Formato **DK dimensijų integracija** tvarka nustatoma dalyje **DK** &gt; **Sąskaitų planas** &gt; **Dimensijos** &gt; **Finansinių dimensijų konfigūravimas, kad būtų galima integruoti programas** &gt; **Pasirinkti duomenų objektus**. Importuojamos DK sąskaitos segmentų tvarka turi būti ta tokia pati. Kitaip importavimo metu įvyks klaida.
 
 ## <a name="general-journal-entity-setup"></a>Objekto Bendrasis žurnalas nustatymas
-Dviejų parametrų srityje duomenų valdymo poveikio, kaip taikoma Numatytoji žurnalo paketo numeris ir kvito numeris:
+Du toliau pateikti duomenų valdymo parametrai nulemia numatytojo žurnalo paketo numerio arba kvito numerio pritaikymo pobūdį.
 
--   **Tvarkymo pagrindu sukurti** (ant duomenų subjektas)
--   **Automatiškai sugeneruotas** (ant lauko atvaizdavimas)
+-   **Apdorojimas pagal rinkinį** (duomenų objekte)
+-   **Automatiškai sugeneruotas** (laukų susiejime)
 
 Tolesniuose skyriuose apibūdinama, kaip šie parametrai veikia, ir paaiškinama, kaip generuojami žurnalo paketo numeriai ir kvitų numeriai.
 
@@ -49,20 +52,22 @@ Tolesniuose skyriuose apibūdinama, kaip šie parametrai veikia, ir paaiškinama
 -   Objekto Bendrasis žurnalas nustatymas **Rinkiniu pagrįstas apdorojimas** generuojant žurnalo paketo numerius įtakos neturi.
 -   Jei laukas **Žurnalo paketo numeris** nustatytas į parinktį **Automatiškai sugeneruotas**, sukuriamas naujas kiekvienos importuojamos eilutės žurnalo paketo numeris. Taip daryti nerekomenduojama. Nustatymą **Automatiškai sugeneruotas** galima rasti importavimo projekto dalie **Peržiūrėti schemą** skirtuke **Susiejimo informacija**.
 -   Jei laukas **Žurnalo paketo numeris** nėra nustatytas į parinktį **Automatiškai sugeneruotas**, žurnalo paketo numeris, kaip nurodyta toliau.
-    -   Jei žurnalo paketo numeris, kuris yra nurodytas lentelėse importuotame faile atitinka esamą, neužregistruotas kasdieninio žurnalo Microsoft Dynamics 365 operacijoms, visos linijos, kurios turi atitikimo žurnalo paketo numeris yra importuojami į esamą žurnalą. Eilutės niekada neimportuojamos į užregistruotą žurnalo paketo numerį. Vietoj to sukuriamas naujas numeris.
-    -   Jei žurnalo paketo numeris, kuris yra nurodytas lentelėse importuotame faile neatitinka esamų, neužregistruotas kasdieninio žurnalo Dynamics 365 operacijoms, visoms eilutėms, kurios pažymėtos paties žurnalo paketo numeris yra sugrupuoti pagal naują žurnalą. Pvz., visos eilutės, kurių žurnalo paketo numeris yra 1, importuojamos į naują žurnalą, o visos eilutės, kurių žurnalo paketo numeris yra 2, importuojamos į antrą naują žurnalą. Žurnalo paketo numeris sukuriamas naudojant numeraciją, kuri nurodyta DK parametruose.
+    -   Jei importuotame faile nustatytas žurnalo paketo numeris atitinka esamą „Microsoft Dynamics 365 for Operations“ neregistruoto kasdieninio žurnalo numerį, į esamą žurnalą importuojamos visos eilutės, kurių žurnalo paketo numeris atitinka. Eilutės niekada neimportuojamos į užregistruotą žurnalo paketo numerį. Vietoj to sukuriamas naujas numeris.
+    -   Jei importuotame faile nustatytas žurnalo paketo numeris neatitinka esamo „Dynamics 365 for Operations“ neregistruoto kasdieninio žurnalo numerio, visos eilutės, kurių žurnalo paketo numeris toks pat, sugrupuojamos naujame žurnale. Pvz., visos eilutės, kurių žurnalo paketo numeris yra 1, importuojamos į naują žurnalą, o visos eilutės, kurių žurnalo paketo numeris yra 2, importuojamos į antrą naują žurnalą. Žurnalo paketo numeris sukuriamas naudojant numeraciją, kuri nurodyta DK parametruose.
 
 ### <a name="voucher-number"></a>Kvito numeris
 
--   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti pagrindu sukurti perdirbimo, bet jūs taip pat norite naudoti numeraciją, kuri nustatyta kvitų numerius Dynamics 365 operacijoms, karštosios pataisos pateikė 2016 m. vasario išleidimo. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Norėdami įgalinti šią funkciją, žurnalo pavadinimas, kuris naudojamas importo dinamika 365 operacijoms, nustatykite **numeris paskirstymas registruojant** į **taip**.
-    -   Kvito numeris vis tiek turi būti nurodytas importuojamame faile. Tačiau šis skaičius yra laikinas ir perrašoma Dynamics 365 operacijų kvito numerio, kai žurnalas užregistruojamas. Įsitikinkite, kad visos žurnalo eilutės yra tinkamai sugrupuotos pagal laikiną kvito numerį. Pvz., registruojant, trimis linijomis randama, kad turi laikiną kvito numeris 1. Laikinas kvito numeris visų trijų linijų perrašoma kitą numerį numerių seką. Jei šios trys eilutės nėra subalansuotas įrašas, kvitas nėra registruojamas. Tada, jei rasta eilučių, kurių laikino kvito numeris yra 2, šis numeris yra perrašomas naudojant paskesnį numeracijos kvito numerį, ir t. t.
+-   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti apdorojimo pagal rinkinį parametrą bei programoje „Dynamics 365 for Operations“ nustatytą kvitų numerių numeraciją, 2016 m. vasario mėn. leidime pateikiamos karštosios pataisos. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Norėdami įgalinti šią funkciją, nustatykite žurnalo pavadinimo, „Dynamics 365 for Operations“ naudojamo atliekant importavimo operacijas, parinkties **Numerių paskirstymas registruojant** reikšmę **Taip**.
+    -   Kvito numeris vis tiek turi būti nurodytas importuojamame faile. Tačiau šis numeris yra laikinas ir registruojant žurnalą jis bus perrašytas naudojant „Dynamics 365 for Operations“ kvito numerį. Įsitikinkite, kad visos žurnalo eilutės yra tinkamai sugrupuotos pagal laikiną kvito numerį. Pavyzdžiui, registruojant surandamos trys eilutės, kurių laikinas kvito numeris – 1. Laikinas visų trijų eilučių kvito numeris perrašomas naudojant paskesnį numeracijos numerį. Jei šios trys eilutės nėra subalansuotas įrašas, kvitas nėra registruojamas. Tada, jei rasta eilučių, kurių laikino kvito numeris yra 2, šis numeris yra perrašomas naudojant paskesnį numeracijos kvito numerį, ir t. t.
 
 <!-- -->
 
--   Kai nenaudojate, **pagrindu sukurti perdirbimo** aplinkoje, jums nereikia nurodyti kvito numerį importuotame faile. Kvitų numeriai sukuriami importavimo metu pagal žurnalo pavadinimo nustatymą (**Tik vienas kvitas**, **Pagal balansą**, ir t. t.). Pavyzdžiui, jei žurnalo pavadinimo nustatymas yra **Pagal balansą**, pirmai eilutei priskiriamas naujas numatytasis kvito numeris. Tada sistema vertina eilutę, siekdama nustatyti, ar debeto sumos lygios kredito sumoms. Jei eilutėje nurodyta korespondentinė sąskaita, kitai importuojamai eilutei priskiriamas naujas kvito numeris. Jei korespondentinė sąskaita nenurodyta, sistema įvertina, ar debeto sumos lygios kredito sumoms, kai importuojama kiekviena nauja eilutė.
+-   Kai parametro **Apdorojimas pagal rinkinį** nenaudojate, importuojamame faile neturite pateikti kvito numerio. Kvitų numeriai sukuriami importavimo metu pagal žurnalo pavadinimo nustatymą (**Tik vienas kvitas**, **Pagal balansą**, ir t. t.). Pavyzdžiui, jei žurnalo pavadinimo nustatymas yra **Pagal balansą**, pirmai eilutei priskiriamas naujas numatytasis kvito numeris. Tada sistema vertina eilutę, siekdama nustatyti, ar debeto sumos lygios kredito sumoms. Jei eilutėje nurodyta korespondentinė sąskaita, kitai importuojamai eilutei priskiriamas naujas kvito numeris. Jei korespondentinė sąskaita nenurodyta, sistema įvertina, ar debeto sumos lygios kredito sumoms, kai importuojama kiekviena nauja eilutė.
 -   Jei laukas **Kvito numeris** nustatytas į parinktį **Automatiškai sugeneruotas**, importuoti nepavyks. Lauko **Kvito numeris** nustatymas **Automatiškai sugeneruotas** nepalaikomas.
 
 Pagal numatytuosius parametrus objektas Bendrasis žurnalas naudoja rinkiniu pagrįstą apdorojimą. Įvertinę savo organizacijos verslo poreikius, nustatymą **Rinkiniu pagrįstas apdorojimas** galite pakeisti, darbo srityje **Duomenų valdymas** spustelėdami **Duomenų objektai**. Rinkiniu pagrįstas apdorojimas yra naudojamas importavimo procesui pagreitinti. Jeigu naudojate rinkiniu pagrįsto apdorojimo, importavimo procesas naudojant objektą Bendrasis žurnalas bus lėtesnis.
+
+
 
 

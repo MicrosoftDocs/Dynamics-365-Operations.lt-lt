@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Konsoliduotieji paketiniai užsakymai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyta konsoliduotųjų paketinių užsakymų sąvoka.
 
 Gaminama sudedamoji prekės dalis yra pirminė prekė, o supakuota prekė laikoma antrine preke. Sudedamosios prekės dalies ir supakuotos prekės ryšys išreiškiamas konvertuojant sudedamąją prekės dalį. Šį sudedamosios prekės dalies konvertavimą apibrėžia pati sudedamosios prekės dalis.  
@@ -41,6 +44,8 @@ Konsoliduotieji paketiniai užsakymai gali apimti bet kokį toliau nurodytų už
 -   Keli dideli užsakymai ir keli supakuotų prekių užsakymai
 -   Keli dideli užsakymai ir vienas supakuotų prekių užsakymas
 -   Tik supakuotų prekių užsakymai
+
+
 
 
 

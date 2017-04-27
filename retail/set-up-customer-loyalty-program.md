@@ -1,6 +1,6 @@
 ---
-title: "Nustatyti klientų lojalumo programa"
-description: "Šiame straipsnyje aprašyta, kaip nustatyti lojalumo programą. Lojalumo programos gali padėti padidinti klientų lojalumą atsidėkojant klientams už produktų pirkimą mažmeninės prekybos parduotuvėse. Microsoft Dynamics 365 operacijoms, galite nustatyti paprastas ar sudėtingas lojalumo programos, kurios taikomos visoje savo juridiniams asmenims bet mažmeninės prekybos kanalą."
+title: Kliento lojalumo programos nustatymas
+description: "Šiame straipsnyje aprašyta, kaip nustatyti lojalumo programą. Lojalumo programos gali padėti padidinti klientų lojalumą atsidėkojant klientams už produktų pirkimą mažmeninės prekybos parduotuvėse. Naudodami „Microsoft Dynamics 365 for Operations“, galite nustatyti paprastas arba sudėtingas lojalumo programas, taikomas visiems jūsų juridiniams subjektams visuose mažmeninės prekybos kanaluose."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Nustatyti klientų lojalumo programa
+# <a name="set-up-a-customer-loyalty-program"></a>Kliento lojalumo programos nustatymas
 
-Šiame straipsnyje aprašyta, kaip nustatyti lojalumo programą. Lojalumo programos gali padėti padidinti klientų lojalumą atsidėkojant klientams už produktų pirkimą mažmeninės prekybos parduotuvėse. Microsoft Dynamics 365 operacijoms, galite nustatyti paprastas ar sudėtingas lojalumo programos, kurios taikomos visoje savo juridiniams asmenims bet mažmeninės prekybos kanalą.
+[!include[banner](includes/banner.md)]
+
+
+Šiame straipsnyje aprašyta, kaip nustatyti lojalumo programą. Lojalumo programos gali padėti padidinti klientų lojalumą atsidėkojant klientams už produktų pirkimą mažmeninės prekybos parduotuvėse. Naudodami „Microsoft Dynamics 365 for Operations“, galite nustatyti paprastas arba sudėtingas lojalumo programas, taikomas visiems jūsų juridiniams subjektams visuose mažmeninės prekybos kanaluose.
 
 <a name="loyalty-features"></a>Lojalumo funkcijos
 ----------------
@@ -37,11 +40,11 @@ Galite nustatyti savo lojalumo programą, į jas būtų įtrauktos toliau nurody
 -   Nustatykite kelis lojalumo programose siūlomų atlygių tipus ir sekite dalyvavimą jūsų lojalumo programose.
 -   Nustatykite lojalumo programas skirtingiems siūlomiems skatinamiesiems atlygiams nurodyti. Galite įtraukti lojalumo programos pakopas, norėdami pasiūlyti didesnes paskatas klientams, kurie jūsų parduotuvėse dažniau perka ar daugiau išleidžia.
 -   Nustatykite uždarbio taisykles, norėdami identifikuoti veiklas, kurias klientai turi įvykdyti, kad užsidirbtų atlygį. Taip pat galite nurodyti apmokėjimo taisykles, norėdami nustatyti, kada ir kaip klientas gali išnaudoti atlygius.
--   Išduoti lojalumo kortelės iš bet kokios mažmeninės prekybos kanalas, kuris dalyvauja lojalumo programas, ir susieti vieną ar daugiau lojalumo programų, kad klientas gali dalyvauti lojalumo korteles. Taip pat galite susieti kliento įrašą lojalumo kortelę, taip, kad klientas gali suvienyti lojalumo taškus iš kelias korteles ir panaudoti.
+-   Išduokite lojalumo korteles iš bet kurio mažmeninės prekybos kanalo, dalyvaujančio jūsų lojalumo programose, ir susiekite lojalumo korteles su viena ar daugiau lojalumo programų, kuriose klientas gali dalyvauti. Be to, kliento įrašą galite susieti su lojalumo kortele, kad klientas galėtų kaupti lojalumo taškus iš kelių kortelių ir juos panaudoti.
 -   Neautomatiniu būdu koreguokite lojalumo korteles arba perkelkite lojalumo atlygio balansą iš vienos kortelės į kitą, norėdami patenkinti kliento prašymą ar klientą apdovanoti.
 
-## <a name="setting-up-loyalty-programs"></a>Lojalumo programos nustatymas
-Dynamics 365 operacijų - mažmeninės prekybos lojalumo funkcija, turite nustatyti kelių komponentų. Toliau pateiktoje diagramoje parodyti lojalumo komponentai ir kaip jie susiję tarpusavyje. ![Lojalumo nustatymo proceso srautas](./media/loyaltyprocess.gif)
+## <a name="setting-up-loyalty-programs"></a>Lojalumo programų nustatymas
+Turite nustatyti kelis komponentus, kad „Dynamics 365 for Operations“ – versijoje „Retail“ įgalintumėte lojalumo funkciją. Toliau pateiktoje diagramoje parodyti lojalumo komponentai ir kaip jie susiję tarpusavyje. ![Lojalumo nustatymo proceso srautas](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Lojalumo komponentai
 Toliau pateikiamoje lentelėje aprašomas kiekvienas komponentas ir kur jis naudojamas lojalumo nustatyme.
@@ -64,10 +67,12 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
 
 | Proceso pavadinimas                         | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                    | Puslapio pavadinimas                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (lojalumo informacija)           | Paleisti šio proceso lojalumo duomenys siunčiami iš Dynamics 365 operacijoms į mažmeninės prekybos parduotuvėse. Naudinga šį procesą planuoti vykdyti dažnai, kad lojalumo duomenys būtų perduodami į visas parduotuves.                                                                                                                                                                                               | Paskirstymo grafikas                |
+| 1050 (lojalumo informacija)           | Vykdykite šį procesą, norėdami siųsti lojalumo duomenis iš „Microsoft Dynamics 365 for Operations“ į mažmeninės prekybos parduotuves. Naudinga šį procesą planuoti vykdyti dažnai, kad lojalumo duomenys būtų perduodami į visas parduotuves.                                                                                                                                                                                               | Paskirstymo grafikas                |
 | Apdoroti lojalumo planus              | Paleiskite šį procesą, norėdami susieti lojalumo planus su mažmeninės prekybos kanalais, kuriems priskirtas lojalumo planas. Šis procesas gali būti planuojamas paketiniam vykdymui. Jei pakeisite lojalumo konfigūracijos duomenis, pvz., lojalumo planus, lojalumo programas arba lojalumo atlygio taškus, turite vykdyti šį procesą.                                                                                               | Apdoroti lojalumo planus              |
-| Apdoroti autonomines lojalumo programos operacijas | Vykdykite šį procesą, norėdami atnaujinti lojalumo korteles, kad į jas būtų įtrauktos operacijos, apdorotos neprisijungus. Šis procesas taikomas tik tada, jei į **uždirbti neprisijungus** yra pažymėtas žymės langelis į ** mažmeninės prekybos bendri parametrai ** puslapį, kad premijos gali būti uždirbo neprisijungus.                                                                                                                                               | Apdoroti autonomines lojalumo programos operacijas |
+| Apdoroti autonomines lojalumo programos operacijas | Vykdykite šį procesą, norėdami atnaujinti lojalumo korteles, kad į jas būtų įtrauktos operacijos, apdorotos neprisijungus. Šis procesas taikomas tik jei pažymėtas puslapio **Bendrai naudojami mažmeninės prekybos parametrai** žymės langelis **Uždirbkite neprisijungę**, kad atlygius būtų galima gauti neprisijungus.                                                                                                                                               | Apdoroti autonomines lojalumo programos operacijas |
 | Naujinti lojalumo kortelių pakopas            | Vykdykite šį procesą, norėdami palyginti kliento uždarbio veiklą su kategorijos taisyklėmis, taikomomis lojalumo programai, ir norėdami atnaujinti kliento būseną. Šis procesas reikalingas tik tada, jei pakeitėte lojalumo programų pakopų taisyklės ir norite, kad atnaujintas taisykles būtų pritaikytos atgaline data jau išduotoms lojalumo kortelėms. Šis procesas gali būti vykdomas arba paketiniu būdu, arba atskiroms kortelėms. | Naujinti lojalumo kortelių pakopas            |
+
+
 
 
 

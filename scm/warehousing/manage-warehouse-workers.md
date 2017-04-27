@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Sandėlio darbuotojų valdymas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics AX“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 
 Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijos yra vadinamos *darbu*. Darbas, pvz., paėmimas, perkėlimas ir turimų atsargų skaičiavimas, yra registruojamas naudojant mobiliuosius įrenginius. Prieš atlikdamas darbą sandėlio darbuotojas turi būti susietas su personalo darbuotoju. Su kiekviena sąskaita **Darbuotojas** gali būti susieti keli sandėlio darbo vartotojai. Tie darbo vartotojai gali dirbti skirtinguose sandėliuose ir gali turėti skirtingų lygių prieigą prie įvairių mobilių įrenginių meniu. Sandėlio darbo vartotojai gali būti laikomi keliais pasirinkto darbuotojo užsiregistravimais. Kiekvienas darbo vartotojas turi numatytąjį sandėlį ir jam taikomos konkrečios darbo eigos, atsižvelgiant į tam darbo vartotojui pasiekiamus meniu elementus. 
@@ -51,6 +54,8 @@ Laiko, reikalingo darbo elementams apdoroti, analizė gali padėti gerinti sand�
 
 -   **Darbas pagal vartotoją** – šioje ataskaitoje rodomas darbuotojų efektyvumas, atsižvelgiant į faktinį ir numatomą laiką.
 -   **Darbas pagal darbo operacijos tipą** – šią ataskaitą galima naudoti norint ištirti konkrečių sandėlio procesų neefektyvumą. Pvz., pastebite, kad perkėlimo užsakymų paėmimai šią savaitę trunka ilgiau nei ankstesnes savaites. Tada šią informaciją galite naudoti tolimesniame tyrime.
+
+
 
 
 

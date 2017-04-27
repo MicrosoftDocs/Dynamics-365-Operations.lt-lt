@@ -1,5 +1,5 @@
 ---
-title: "Automatinis sudengimas ir prioritetų nustatymo srityse"
+title: "Automatinis sudengimas ir prioritetų nustatymas"
 description: "Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Automatinis sudengimas ir prioritetų nustatymo srityse
+# <a name="automatic-settlement-and-prioritization"></a>Automatinis sudengimas ir prioritetų nustatymas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 
-Sudengti mokėjimus su sąskaitomis faktūromis ir kitomis operacijomis galima dviem būdais. Galite rankiniu būdu pasirinkti operacijų atsiskaityti arba Microsoft Dynamics 365 operacijoms automatiškai pasirinkti operacijas naudodami automatinio atsiskaitymo funkciją. Be to, galite tinkinti automatinių sudengimų taikymo būdą naudodami parinktį **Nustatyti sudengimo prioritetą**. Visi šie variantai yra dalis sprendimo parametrų, kurie nustatomi pagal **sudaro gautinų sumų parametrai** puslapis. Būdas, kuriuo operacijos yra automatiškai sudengiamos gali skirtis, nes jis priklauso nuo metodo, kurį naudojate automatiniam sudengimui atlikti. Galimi šie metodai:
+Sudengti mokėjimus su sąskaitomis faktūromis ir kitomis operacijomis galima dviem būdais. Galite rankiniu būdu pasirinkti norimas sudengti operacijas arba „Microsoft Dynamics 365 for Operations“ gali automatiškai parinkti operacijas naudodama automatinio sudengimo funkciją. Be to, galite tinkinti automatinių sudengimų taikymo būdą naudodami parinktį **Nustatyti sudengimo prioritetą**. Visos šios parinktys įeina į sudengimo parametrus, kurie nustatomi puslapyje **Gautinų sumų parametrai**. Būdas, kuriuo operacijos yra automatiškai sudengiamos gali skirtis, nes jis priklauso nuo metodo, kurį naudojate automatiniam sudengimui atlikti. Galimi šie metodai:
 
 -   Vartotojo nustatytas sudengimo prioritetas
 -   Numatytasis automatinis sudengimas
@@ -45,9 +48,9 @@ Toliau šiame straipsnyje pateikti sudengimų pavyzdžiai yra paremti toliau pat
 | 1 sąskaita faktūra     | Rugpjūčio 15 d.   | 100,00 | 2 % 14, grynoji 30        | Rugpjūčio 29 d.          |                                                                                                                                                                                               |
 | 2 sąskaita faktūra     | Rugsėjo 1 d. | 250,00 | 2 % 14, grynoji 30        | Rugsėjo 15 d.       |                                                                                                                                                                                               |
 | 3 sąskaita faktūra     | Spalio 15 d.  | 500,00 | 2 % 14 / grynoji 30        | Spalio 29 d.         |                                                                                                                                                                                               |
-| Delspinigių pažyma | Spalio 15 d.  | 7,00   |                     |                    | Ši palūkanų pažyma yra SF 1 ir 2 sąskaitos faktūros. Suma apskaičiuojama kaip 2 procentai palūkanų sumas, kurios yra 30 ar daugiau dienų pradelstos. Pavyzdys: 0,02 × (100,00 + 250,00) = 7,00. |
+| Delspinigių pažyma | Spalio 15 d.  | 7,00   |                     |                    | Ši delspinigių pažyma yra 1 sąskaitai faktūrai ir 2 sąskaitai faktūrai. Suma yra apskaičiuojama kaip 2 procentai palūkanų nuo sumų, nuo kurių termino praėjo 30 ar daugiau dienų. Pavyzdys: 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Vartotojo sukurto sprendimo prioriteto
+## <a name="userdefined-settlement-priority"></a>Vartotojo nustatytas sudengimo prioritetas
 Jei parametrą **Naudoti prioritetą automatiniams sudengimams atlikti** nustatysite į **Taip** puslapyje **Gautinų sumų parametrai**, sudengimo prioritetas, kurį nustatėte puslapyje **Sudengimo prioritetas**, bus naudojamas, kai bus pasirinktos operacijos automatiniams sudengimams atlikti. Pavyzdžiui, nustatomas toks sudengimo prioritetas:
 
 1.  Operacijos tipas
@@ -77,6 +80,8 @@ Jei nėra jokio vartotojo nustatyto sudengimo prioriteto, automatiškai pasirenk
 | 2 sąskaita faktūra     | 2015-09-01   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | 3 sąskaita faktūra     | 2015-10-15 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Delspinigių pažyma | 2015-10-15 |         | 7,00                           | 0,00             | 0,00    | USD      |
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
+[!include[banner](../includes/banner.md)]
+
+
 Darbo eigos proceso metu, pirkimo paraiškos pereina redagavimo procesą, nuo pirminės būsenos Juodraštis iki galutinės būsenos Patvirtinta. Kai pirkimo paraiška pateikiamai peržiūrai, pradedamas darbo eigos procesas. Pirkimo paraišką patvirtinus, pirkimo paraiškos eilutėms galima sugeneruoti pirkimo užsakymą ir pateikti tiekėjui, kad jį įvykdytų.
 
 Prieš tai, kai pirkimo parašką galima pateikti peržiūrai, reikia sukonfigūruoti darbo eigą. Į darbo eigos procesą bet kokia tvarka gali įeiti vienas ar daugiau peržiūros veiksmų. Darbo eigos procesą taip pat galima sukonfigūruoti taip, kad peržiūros veiksmai būtų praleidžiami ir pirkimo paraiška būtų automatiškai patvirtinta. Galite konfigūruoti darbo eigą, norėdami pirkimo paraišką nukreipti kaip vieną dokumentą, arba atskiras pirkimo paraiškos eilutes galite nukreipti atitinkamiems peržiūrėtojams. Galite sukurti ir tokį scenarijų, kuriuo pirkimo paraiška vieniems peržiūrėtojams nukreipiama kaip vienas dokumentas, o pažymėtos pirkimo paraiškos eilutės nukreipiamos kitiems peržiūrėtojams.  
@@ -106,12 +109,14 @@ Norėdami naudoti vieną iš darbo eigoje nustatytų išlaidų peržiūrėtojų,
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sukurti rekvizuoti maistui (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Kurti vartojimo paraišką (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Paraiškų darbo eigos](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Pirkimo paraiškos peržiūra](purchase-requisitions-overview.md)
+
+
 
 

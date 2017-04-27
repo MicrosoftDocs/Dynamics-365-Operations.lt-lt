@@ -86,5 +86,5 @@ Pasirinktis **Finansinės ataskaitos** yra sprendimas. Apie organizacijas, turin
 Naudodami pasirinktį **Įmonės balansų eksportavimas**, skirtą eksportuoti iš vieno egzemplioriaus, o po to kitame egzemplioriuje naudodami pasirinktį **Konsoliduoti su importu** galite konsoliduoti duomenis.
 
 
-Daugiau informacijos rasite [revalution valiutos konsoliduotos įmonės](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Norėdami daugiau informacijos žr. [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](\finanicials\general-ledger\currency-revaluation-consolidation-company)
 

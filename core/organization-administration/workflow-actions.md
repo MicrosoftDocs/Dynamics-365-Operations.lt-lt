@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Darbo eigos veiksmai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyti veiksmai, kurių kiekvienas darbo eigos patvirtinimo proceso dalyvis gali imtis.
 
-Darbo eiga gali apimti keletą žmonių grupių: iniciatorių, užduočių priėmėjus, sprendimus priimančius asmenis ir tvirtintojus. Pavyzdžiui, šioje išlaidų ataskaitos darbo eigoje Samas yra iniciatorius, eilės nariai yra užduočių priėmėjai, Johnas yra sprendimų priėmėjas, o Frankas, Sue ir Ann yra tvirtintojai.   [![Darbo eigos\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) šiuose skyriuose paaiškinama darbo eigos veiksmai, kurie gali atlikti kiekvienos grupės.
+Darbo eiga gali apimti keletą žmonių grupių: iniciatorių, užduočių priėmėjus, sprendimus priimančius asmenis ir tvirtintojus. Pavyzdžiui, šioje išlaidų ataskaitos darbo eigoje Samas yra iniciatorius, eilės nariai yra užduočių priėmėjai, Johnas yra sprendimų priėmėjas, o Frankas, Sue ir Ann yra tvirtintojai.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Tolesnėse dalyse paaiškinama, kokius darbo eigos veiksmus gali atlikti kiekviena grupė.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Veiksmai, kuriuos gali atlikti iniciatorius
 Iniciatorius paleidžia darbo eigos egzempliorių pateikdamas dokumentą apdoroti. Pvz., Samas turi spustelėti mygtuką **Pateikti**, esantį **Išlaidų ataskaitos** puslapyje, kad pateiktų savo išlaidų ataskaitą.
@@ -63,7 +66,7 @@ Kartais darbo elementų eilės narys gali užduotį priimti, bet tada nuspręsti
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Veiksmai, kuriuos gali atlikti sprendimų priėmėjas
 Paprastai dokumentas priskiriamas sprendimų priėmėjui todėl, kad yra klausimas, į kurį turi atsakyti sprendimų priėmėjas. Atsakymas į klausimą paprastai yra **Taip** arba **Ne**, arba **Teisinga** arba **Klaidinga**. Jei sprendimų priėmėjas vieno iš tų pasirinkimų nepasirenka, jis arba ji sprendimą gali perduoti.
 
-### <a name="choice-1-or-choice-2"></a>\[Pasirinkimas 1\] ar \[pasirinkimas 2\]
+### <a name="choice-1-or-choice-2"></a>\[1 pasirinkimas\] arba \[2 pasirinkimas\]
 
 Sprendimų priėmėjas turi atsakyti į klausimą, susijusį su dokumentu. Atsakymas į klausimą paprastai yra **Taip** arba **Ne**, arba **Teisinga** arba **Klaidinga**. Atsakymu, kurį pasirenka sprendimų priėmėjas, nustatoma darbo eigos šaka, naudojama apdoroti dokumentui. Pvz., Samo išlaidų ataskaita priskiriama Johnui. Johnas turi nuspręsti, ar dėl dokumento informacijos reikia skambinti Samo vadovui. Jei Johnas nusprendžia, kad skambinti reikia, išlaidų ataskaita priskiriama Arethai, kuri tada turi paskambinti Samo vadovui. Jei Johnas nusprendžia, kad skambinti nereikia, išlaidų ataskaita priskiriama Frankui, kad ją patvirtintų.
 
@@ -89,5 +92,7 @@ Kai tvirtintojas perduoda dokumentą, dokumentas priskiriamas tvirtinti kitam va
 ### <a name="request-change"></a>Reikalauti keitimo
 
 Kai tvirtintojas reikalauja dokumento keitimo, dokumentas grąžinamas iniciatoriui. Pavyzdžiui, Samas pateikė išlaidų ataskaitą už 12 000 USD ir šis dokumentas priskiriamas Sue. Jei Sue reikalauja pakeitimo, išlaidų ataskaita grąžinama Samui. Samas gali išlaidų ataskaitą pateikti iš naujo. Pirmiausia jis gali atlikti pageidautus keitimus, arba gali iš naujo pateikti pradinę išlaidų ataskaitos versiją. Jeigu Samas pakartotinai pateikia išlaidų ataskaitą, ji siunčiama tvirtinti Frankui, nes Frankas yra pirmasis tvirtintojas patvirtinimo procese.
+
+
 
 

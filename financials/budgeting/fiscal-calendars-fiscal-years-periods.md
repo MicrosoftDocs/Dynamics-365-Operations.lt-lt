@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aptarti finansiniai kalendoriai, finansiniai metai ir laikotarpiai ir kaip juos naudoti juridiniams subjektams, ilgalaikiam turtui ir biudžeto sudarymui.
 
 Finansiniai kalendoriai suteikia rėmus organizacijos finansinei veiklai. Kiekviename finansiniame kalendoriuje yra vieneri ar keleri finansiniai metai, o kiekvienuose finansiniuose metuose yra keli laikotarpiai. Finansiniai kalendoriai gali būti grindžiami kalendoriniais metais nuo sausio 1 d. iki gruodžio 31 d. arba bet kokiomis kitomis pasirinktomis datomis. Pavyzdžiui, kai kurios organizacijos pasirenka finansinį kalendorių, kuris prasideda vienų metų liepos 1 d. ir baigiasi kitų metų birželio 30 d. 
@@ -39,7 +42,7 @@ Kurti ir naikinti ataskaitinius kalendorius, ataskaitinius metus ir laikotarpius
 
 Uždarymo laikotarpis naudojamas siekiant atskirti didžiosios knygos operacijas, generuojamas uždarant finansinius metus. Jei uždarymo operacijos priklauso vienam ataskaitiniam laikotarpiui, lengviau kurti finansines ataskaitas, kurios apima įvairių tipų uždarymo įrašus arba neapima jų. Jei finansiniai metai dalijami į 12 ataskaitinių laikotarpių, uždarymo laikotarpis paprastai yra 13 laikotarpis. Bet uždarymo laikotarpį galima sukurti iš bet kokio laikotarpio, kurio būsena yra Atidarytas. 
 
-Kurdami uždarymo laikotarpį, pasirinkite laikotarpį, kurio būsena yra Atidarytas ir kuriame yra norimos naudoti datos. Naujasis uždarymo laikotarpis nukopijuos esamo laikotarpio pradžios ir pabaigos datas. Pradinis laikotarpis ir toliau egzistuos. Pavyzdžiui, galite pasirinkti 12, kuri yra paskutinio laikotarpio finansiniais metais, ir kad turi datos rugpjūčio 1 d. iki rugpjūčio 31 d. laikotarpiu. Įvedate pavadinimą uždarymo laikotarpiu, pvz., uždaryti. Sukūrę naują uždarymo laikotarpį, turite pradinį laikotarpį ir uždarymo laikotarpį. Abu turi datas, kurios prasideda rugpjūčio 1 d. ir baigiasi rugpjūčio 31 d.
+Kurdami uždarymo laikotarpį, pasirinkite laikotarpį, kurio būsena yra Atidarytas ir kuriame yra norimos naudoti datos. Naujasis uždarymo laikotarpis nukopijuos esamo laikotarpio pradžios ir pabaigos datas. Pradinis laikotarpis ir toliau egzistuos. Pavyzdžiui, pasirenkate 12 laikotarpį, kuris yra paskutinis finansinių metų laikotarpis ir kuriame yra datos nuo rugpjūčio 1 d. iki rugpjūčio 31 d. Įvedate uždarymo laikotarpio pavadinimą, pvz., Uždarymas. Sukūrę naują uždarymo laikotarpį, turite pradinį laikotarpį ir uždarymo laikotarpį. Abu turi datas, kurios prasideda rugpjūčio 1 d. ir baigiasi rugpjūčio 31 d.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Finansinių kalendorių pasirinkimas didžiosioms knygoms, ilgalaikiam turtui ir biudžeto ciklams
 Finansiniai kalendoriai naudojami su ilgalaikio turto nusidėvėjimu, finansinėmis operacijomis ir biudžeto ciklais. Sukūrę finansinį kalendorių, galite naudoti jį keliems tikslams. Galite pasirinkti vertinimo modelio arba nusidėvėjimo knygos finansinį kalendorių ir paversti jį ilgalaikio turto kalendoriumi. Galite pasirinkti finansinį kalendorių didžiajai knygai ir paversti jį didžiosios knygos kalendoriumi. Taip pat galite pasirinkti finansinį kalendorių biudžeto ciklui ir paversti jį biudžeto kalendoriumi. Visiems jiems galite naudoti tą patį finansinį kalendorių.
@@ -58,6 +61,8 @@ Biudžeto ciklas – tai laikotarpis, kurį naudojamas biudžetas. Biudžeto cik
 
 ## <a name="maintain-periods-for-your-organization"></a>Jūsų organizacijos laikotarpių priežiūra
 Puslapyje DK kalendorius galite peržiūrėti informaciją apie jūsų organizacijos naudojamą ataskaitinį kalendorių, ataskaitinius metus ir laikotarpius. Taip pat galite keisti laikotarpių būseną ir pasirinkti, kurie vartotojai gali registruoti apskaitos operacijas laikotarpiuose. Pvz., galite nurodyti, kad naujo laikotarpio pradžioje tam tikra vartotojų grupė turi baigti registruoti finansines operacijas į ankstesnį laikotarpį, o kitos grupės naudotu tik naują laikotarpį.
+
+
 
 
 

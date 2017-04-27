@@ -1,5 +1,5 @@
 ---
-title: "Padaryti rankiniu būdu į pradinį lygį, prognozė"
+title: "Neautomatiniai pagrindinės prognozės koregavimai"
 description: "Šiame straipsnyje paaiškinama, kaip galima neautomatiškai koreguoti pagrindinę prognozę ir peržiūrėti prognozės informaciją."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Padaryti rankiniu būdu į pradinį lygį, prognozė
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Neautomatiniai pagrindinės prognozės koregavimai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinama, kaip galima neautomatiškai koreguoti pagrindinę prognozę ir peržiūrėti prognozės informaciją. 
 
@@ -35,11 +38,11 @@ Svarbu, kad prieš atlikdami neautomatinius koregavimus suprastumėte kelias įv
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Tinklelis puslapyje Pakoreguota poreikio prognozė
 Puslapyje **Pakoreguota poreikio prognozė** yra tinklelis, kurio struktūra nurodyta toliau.
 
--   Pirmajame stulpelyje rodoma, kam prognozė generuojama: prekių paskirstymo raktams, prekėms, įmonėms ir t.t.. Puslapio paantraštėje pateikiamas dabartinių prognozės dimensijų, rodomų tinklelyje, aprašymas. Pavyzdžiui, jei puslapio dalies yra **įmonės / svetainės / prekės paskirstymo raktą**, ir viena iš eilutės antraščių tinklelio yra **USMF / 1 / D\_Alloc**, toje eilutėje rodo oras USMF įmonę, svetainės 1, ir **D\_Alloc** prekių paskirstymo raktą.
+-   Pirmajame stulpelyje rodoma, kam prognozė generuojama: prekių paskirstymo raktams, prekėms, įmonėms ir t.t.. Puslapio paantraštėje pateikiamas dabartinių prognozės dimensijų, rodomų tinklelyje, aprašymas. Pavyzdžiui, jei puslapio paantraštė yra **Įmonė / Teritorija / Prekių paskirstymo raktas**, o viena iš tinklelio eilučių antraščių yra **USMF / 1 / D\_Alloc**, toje eilutėje rodoma prognozė, skirta USMF įmonei, 1 teritorijai ir prekių paskirstymo raktui **D\_Alloc**.
 -   Kiti stulpeliai atspindi prognozės rinkinius, kuriems prognozė generuojama. Kiekviena stulpelio antraštė yra pirmoji stulpelyje rodomo prognozės rinkinio data.
 -   Langelių reikšmės nurodo to konkretaus prognozės rinkinio prognozę vienai prekei, prekių paskirstymo raktui ir t.t.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Prognozė sumavimo ir deaggregation
+## <a name="forecast-aggregation-and-deaggregation"></a>Prognozės telkimas ir telkimo panaikinimas
 Puslapio paantraštė nurodo prognozės telkimo lygį. 
 
 Pavyzdžiui, jei puslapio paantraštė yra **Įmonė / Teritorija / Paskirstymo raktas / Prekės numeris / Spalva / Dydis / Konfigūracija / Stilius**, prognozės telkimo nėra ir prognozė rodoma prekės bei jos dimensijų lygyje. Norėdami keisti telkimą naudokite puslapį **Keisti prognozės dimensijas**, kurį galite atidaryti iš programų meniu. 
@@ -50,7 +53,7 @@ Pakeitus telkimą, kad puslapyje būtų rodoma daugiau apibendrintų duomenų, g
 
 Pvz., sugeneravote prognozę prekės lygiu, bet jūs žinote, kad dėl reklamos kampanijos arba kito panašaus įvykio šios prekės poreikis padidės visose teritorijose. Tokiu atveju puslapyje **Keisti prognozės dimensijas** galite telkimą nustatyti kaip **Įmonė / Prekių paskirstymo raktas / Prekė**. Tinklelyje **Pakoreguota poreikio prognozė** galite koreguoti visuotinę prekės prognozę visose teritorijose. Norėdami pamatyti keitimų visose teritorijose poveikį, atidarykite puslapį **Poreikio prognozės eilutės**. Šiame puslapyje matysite vieną prekės eilutę, skirtą kiekvienai teritorijai, pakoreguotam prognozės kiekiui ir pradiniam prognozės kiekiui. 
 
-Kai numatomas kiekis koreguojamos apibendrintu lygiu, sistema naudoja svorinis paskirstymas paskirstyti tarp kurti sumavimo eilutes keisti. 
+Atliekant prognozės kiekio koregavimą sudėtiniu lygiu, sistema naudoja svertinį paskirstymą koregavimams eilutėse, kurios kuria telkimą, proporcingai paskirstyti. 
 
 Neautomatinius koregavimus taip pat galima atlikti puslapyje **Poreikio prognozės eilutės**, pakeičiant lauko **Bendras kiekis** reikšmę arba telkimo panaikinimo tinklelio dalies **Kiekis** langelius.
 
@@ -69,15 +72,17 @@ Puslapyje **Poreikio prognozės informacija** toliau nurodyta informacija pateik
 **Pastabos**
 
 -   Patikimumo intervalas, kuris rodomas puslapio dalyje **Prognozė**, nurodo skirtumą tarp viršutinės ir apatinės patikimumo intervalo ribų. Norėdami peržiūrėti apatinės ir viršutinės ribų reikšmes, nuveskite žymeklį virš diagramos dalyje **Praeities poreikis ir prognozė grafiškai**.
--   Jei naudojate Dynamics 365 operacijų paklausos prognozavimo Microsoft Azure mašinos mokymosi tarnyba, galite nurodyti pasitikėjimo lygio procentas, kad oras, kuris sukuriamas turėtų turėti. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
+-   Jei naudojate „Dynamics 365 for Operations“ poreikio prognozės „Microsoft Azure“ mašininio mokymo tarnybą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
 
 Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreikio prognozės informacija**, pakeisdami reikšmes eilutėje **Prognozė**, kuri yra dalyje **Prognozė**.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
+
+
 
 

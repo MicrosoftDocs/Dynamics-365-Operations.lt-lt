@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti rankiniu būdu sprendimas darbo eigos"
+title: "Neautomatinio darbo eigos sprendimo konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuoto sprendimo ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Konfigūruoti rankiniu būdu sprendimas darbo eigos
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Neautomatinio darbo eigos sprendimo konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuoto sprendimo ypatybes.
 
@@ -95,8 +98,8 @@ Pranešimus žmonėms galima siųsti, kai sprendimas atliekamas, perduodamas arb
 
 1.  Kairiojoje srityje spustelėkite **Pranešimai**.
 2.  Pažymėkite žymės langelį, esantį šalia įvykių, kuriems įvykus norite siųsti pranešimus.
-    -   **\[Pasirinkimas 1\]** – priskirtasis vartotojas pasirinko **\[pasirinkimas 1\]**.
-    -   **\[Pasirinkimas 2\]** – priskirtasis vartotojas pasirinko **\[pasirinkimas 2\]**.
+    -   **\[1 pasirinkimas\]** – priskirtas vartotojas pasirinko **\[1 pasirinkimas\]**.
+    -   **\[2 pasirinkimas\]** – priskirtas vartotojas pasirinko **\[2 pasirinkimas\]**.
     -   **Perduoti** – priskirtas vartotojas priskyrė sprendimą kitam vartotojui.
     -   **Perskirti** – priskirtas vartotojas sprendimo nepriėmė per skirtąjį laiką.
 
@@ -148,10 +151,10 @@ Pranešimus žmonėms galima siųsti, kai sprendimas atliekamas, perduodamas arb
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Specifinių Microsoft Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     </tr>
     <tr class="even">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite priskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Sąlyginės darbo elemento eilės</strong>.</li>
     <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite <strong>Sąlyginė eilė</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Pastaba:</strong> Ši parinktis yra naudojama tik darbo kelių eigų, pvz., bylų valdymo.</td>
+    </ol>
+    <strong>Pastaba.</strong> Ši parinktis naudojama tik kelioms darbo eigoms, pvz., atvejų valdymui.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Jei per skirtąjį laiką vartotojas sprendimo nepriims, sprendimas bus laikomas
     |----------|----------------------------|
     | 1        | Priskirti: Donna           |
     | 2        | Priskirti: Erin            |
-    | 3        | Paskutinis veiksmas: \[pasirinkimas 1\] |
+    | 3        | Galutinis veiksmas: \[1 pasirinkimas\] |
 
-    Tokiu atveju, sistema priskirs vėluojantį sprendimą Donna. Jei Donna nepriims sprendimo per skirtąjį laiką, sistema priskirs sprendimą Erin. Jei Erin nereiškia, kad sprendimas į paskirtą laiką, sistema pasirinks nuo **\[pasirinkimas 1\]** sprendimą.
+    Tokiu atveju, sistema priskirs vėluojantį sprendimą Donna. Jei Donna nepriims sprendimo per skirtąjį laiką, sistema priskirs sprendimą Erin. Jei Erin nepriims sprendimo per skirtąjį laiką, sistema kaip sprendimą pasirinks **\[1 pasirinkimas\]**.
 3.  Norėdami vartotoją įtraukti į perskyrimo maršrutą, spustelėkite **Įtraukti perskyrimą**. Pasirinkite vieną iš tolesnės lentelės parinkčių ir tada, prieš vykdydami 4 veiksmą, atlikite papildomus tos parinkties veiksmus.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Jei per skirtąjį laiką vartotojas sprendimo nepriims, sprendimas bus laikomas
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Jei sprendimas turi būti priimtas per tam tikrą laiką, atlikite šiuos veiksm
     -   **Metai** – pasirinkite dieną, savaitę ir mėnesį, iki kurių sprendimas turi būti priimtas. Pavyzdžiui, galbūt norite, kad sprendimas būtų priimtas iki trečios gruodžio mėn. savaitės penktadienio.
 
 4.  Jei viršijamas laiko limitas, sistema priims sprendimą. Sąraše **Veiksmas** pasirinkite parinktį, kurią sistema turi pasirinkti.
+
+
 
 
 

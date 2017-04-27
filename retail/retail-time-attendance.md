@@ -1,6 +1,6 @@
 ---
 title: "„Retail“ laikas ir buvimas darbe"
-description: "Šioje temoje aprašoma scenarijai, kuriuos palaiko Microsoft Dynamics 365 operacijų - mažmeninės prekybos laiką ir lankomumą valdymo."
+description: "Šioje temoje aprašomi scenarijai, palaikomi laiko ir lankomumo valdymui „Microsoft Dynamics 365 for Operations“ – versija „Retail“."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>„Retail“ laikas ir buvimas darbe
 
-Šioje temoje aprašoma scenarijai, kuriuos palaiko Microsoft Dynamics 365 operacijų - mažmeninės prekybos laiką ir lankomumą valdymo. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Valdyti darbuotojo nustatymas ir planavimas
+
+Šioje temoje aprašomi scenarijai, palaikomi laiko ir lankomumo valdymui „Microsoft Dynamics 365 for Operations“ – versija „Retail“. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Valdyti darbininko nustatymą ir planavimą
 ----------------------------------
 
 ### <a name="initial-configuration"></a> pradinė konfigūracija
@@ -45,8 +48,8 @@ Informacijos apie konfigūravimo veiksmus žr. <https://technet.microsoft.com/en
 
 ### <a name="retail-specific-configuration"></a>Konkretus mažmeninės prekybos konfigūravimas
 
--   Įjunkite laikrodžio funkcijų šabloną darbuotojams, kuriems norite leisti laiko registravimus. Spustelėkite **POS funkcijų šablonų**&gt;**funkcijos**&gt;**POS laiko registracijos**&gt;**leisti laiką registracijos**.
--   Sukonfigūruokite elektroninio kasos aparato (EKA) teisių grupes, kad leistumėte teisę Peržiūrėti laikrodžio įrašus. Naudodamas šią teisę vartotojas gali peržiūrėti kitų parduotuvės (ir bet kurios kitos parduotuvės, su kuria vartotojas susietas per adresų knygelę) darbuotojų laikrodžio registravimus. Galite įjungti šią teisę vadovo vaidmeniui, bet ne kasininko vaidmeniui. Spustelėkite **POS teisių grupėms**&gt;**tikr± laiko laikrodis**.
+-   Įjunkite laikrodžio funkcijų šabloną darbuotojams, kuriems norite leisti laiko registravimus. Spustelėkite **EKA funkcijų šablonai** &gt; **Funkcijos** &gt; **EKA laiko registravimai** &gt; **Įjungti laiko registravimus**.
+-   Sukonfigūruokite elektroninio kasos aparato (EKA) teisių grupes, kad leistumėte teisę Peržiūrėti laikrodžio įrašus. Naudodamas šią teisę vartotojas gali peržiūrėti kitų parduotuvės (ir bet kurios kitos parduotuvės, su kuria vartotojas susietas per adresų knygelę) darbuotojų laikrodžio registravimus. Galite įjungti šią teisę vadovo vaidmeniui, bet ne kasininko vaidmeniui. Spustelėkite **EKA teisių grupės** &gt; **Peržiūrėti laikrodžio įrašus**.
 
 ## <a name="register-time"></a>Registracijos laikas
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Kasininko ir ne kasininko laiko registravimai
@@ -106,9 +109,9 @@ Informacijos apie konfigūravimo veiksmus žr. <https://technet.microsoft.com/en
 <!-- -->
 
 -   Skirtingos laiko juostos
-    -   Jei peržiūrite kitos vietos laiką (naudodami kasininko registracijos žurnalą arba vadovo vaidmens scenarijaus parinktį **Peržiūrėti laiko įrašus**) ir ta vieta yra kitoje laiko juostoje, rodomi laiko įrašai yra konvertuojami į jūsų vietos laiko juostą. Pavyzdžiui, jūs esate už dvi parduotuvės vadybininkas, Arizona ir Nevada. Kasininkas registrai yra laikrodis-9:00 am Arizona. Tuo metu Nevadoje yra 8:00. Todėl, jei esate Nevados parduotuvėje ir pažiūrite laiko registravimo įrašus, laiko registravimas pažymėtas 8:00.
+    -   Jei peržiūrite kitos vietos laiką (naudodami kasininko registracijos žurnalą arba vadovo vaidmens scenarijaus parinktį **Peržiūrėti laiko įrašus**) ir ta vieta yra kitoje laiko juostoje, rodomi laiko įrašai yra konvertuojami į jūsų vietos laiko juostą. Pvz., jūs esate dviejų parduotuvių (Arizonoje ir Nevadoje) vadovas. Kasininkas registruoja atėjimą į darbą 9:00 Arizonos laiku. Tuo metu Nevadoje yra 8:00. Todėl, jei esate Nevados parduotuvėje ir pažiūrite laiko registravimo įrašus, laiko registravimas pažymėtas 8:00.
 
-## <a name="view-worker-time-registrations"></a>Peržiūrėti darbuotojo laiko registracija
+## <a name="view-worker-time-registrations"></a>Peržiūrėti darbuotojų laiko registravimą
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Darbuotojų laiko registravimų peržiūra ir filtravimas pagal parduotuvę arba veiklos tipą
 
 EKA
@@ -117,8 +120,8 @@ EKA
 -   Galite matyti visų darbuotojų, kurie priskirti toms pačioms parduotuvėms, kaip ir jūs, laikrodžio registravimus.
 -   Galite naudoti veiklos tipo ir parduotuvės filtrus laiko registravimams filtruoti.
 
-## <a name="process-and-manage-time-registrations"></a>Tvarkyti ir valdyti registracijos metu
-Dynamics 365 operacijų - mažmeninės vartotojas toliau skaičiuoti, tvirtinti ir perkelti laiko registracijas į darbo užmokesčio darbo eigą.
+## <a name="process-and-manage-time-registrations"></a>Apdoroti ir valdyti darbuotojų laiko registravimą
+„Dynamics 365 for Operations“ – versijos „Retail“ vartotojas turi laikytis darbo eigos, kai skaičiuoja, tvirtina ir perkelia laiko registravimus į algalapį.
 
 ### <a name="primary-operations"></a>Pirminės operacijos
 
@@ -132,5 +135,7 @@ Dynamics 365 operacijų - mažmeninės vartotojas toliau skaičiuoti, tvirtinti 
 -   Registruoti neatvykimą
 
 Daugiau informacijos apie tai, kaip apdoroti laiko ir lankomumo registravimus, žr. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

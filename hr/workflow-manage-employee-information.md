@@ -1,6 +1,6 @@
 ---
-title: Naudokite darbo eigas tvarkoma darbuoto informacija
-description: "Šioje temoje paaiškinama, kaip galite naudoti eigos pajėgumas žmogiškųjų išteklių darbuotojo informacijai tvarkyti. Pavyzdžiui, galite susieti darbo eigos padėtį ir konfigūruoti patvirtinimo darbo eigą, kuri yra prasidėjo, kai darbuotojams pakeisti jų įrašą."
+title: Darbo eigos naudojimas darbuotojo informacijai tvarkyti
+description: "Šioje temoje paaiškinama, kaip panaudoti darbo eigos tinkamumą personalui, tvarkant darbuotojo informaciją. Pavyzdžiui, darbo eigą galite susieti su pareigomis ir sukonfigūruoti patvirtinimo darbo eigą, kuri pradedama, kai darbuotojai pakeičią savo įrašus."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Naudokite darbo eigas tvarkoma darbuoto informacija
+# <a name="use-workflows-to-manage-employee-information"></a>Darbo eigos naudojimas darbuotojo informacijai tvarkyti
 
-Šioje temoje paaiškinama, kaip galite naudoti eigos pajėgumas žmogiškųjų išteklių darbuotojo informacijai tvarkyti. Pavyzdžiui, galite susieti darbo eigos padėtį ir konfigūruoti patvirtinimo darbo eigą, kuri yra prasidėjo, kai darbuotojams pakeisti jų įrašą.
+[!include[banner](includes/banner.md)]
 
-Eigos pajėgumas žmogiškųjų išteklių suteikia daug darbo eigų valdyti žmogiškuosius išteklius veiklai. Be to, daugybę variantų yra prieinami, kad jūs keisti konkrečius darbo eigos ir susieti juos su ataskaitų hierarchijoje. Darbo eigos, gali padėti valdyti keletą standartinių tipų darbuotojo informacijos pakeitimus. Darbo eigą, galite susieti su poziciją. Tada, jei darbuotojams pakeisti savo darbuotojo įrašo, yra darbo eiga bus pradėta, turi patvirtinti prieš įrašoma nauja informacija. Darbo eigos yra iš anksto už šių tipų informaciją norėdama padėti jums efektyviai valdyti pokyčius ir išlaikyti savo darbuotojų duomenis tiksliai:
+
+Šioje temoje paaiškinama, kaip panaudoti darbo eigos tinkamumą personalui, tvarkant darbuotojo informaciją. Pavyzdžiui, darbo eigą galite susieti su pareigomis ir sukonfigūruoti patvirtinimo darbo eigą, kuri pradedama, kai darbuotojai pakeičią savo įrašus.
+
+Darbo eigos tinkamumas personalui suteikia galimybę pritaikyti daugybę darbo eigų personalo veiklai tvarkyti. Be to, yra daugybė parinkčių, kuriomis pasinaudoję galite modifikuoti konkrečias darbo eigas ir susieti jas su ataskaitų hierarchija. Naudojant darbo eigas jos padeda tvarkyti keleto standartinių darbuotojo informacijos tipų pokyčius. Darbo eigą galite susieti su pareigomis. Tada, jei darbuotojai pakeičia savo įrašus, pradedama darbo eiga, kurią reikia patvirtinti prieš išsaugant naują informaciją. Toliau nurodytų informacijos tipų darbo eigos yra nustatytos iš karto, kad padėtų efektyviai tvarkyti pokyčius, o darbuotojų duomenys išliktų tikslūs.
 
 -   Identifikavimo numeriai
 -   Kursai
@@ -39,33 +42,35 @@ Eigos pajėgumas žmogiškųjų išteklių suteikia daug darbo eigų valdyti žm
 -   Darbo projektuose patirtis
 -   Įgūdžiai
 -   Atsakingos pareigos
--   Žmogiškųjų išteklių veiksmų
--   Modulio registracija
+-   Personalo veiksmai
+-   Kursų registracija
 
-Kai darbuotojai samdomi, perduodant arba nutraukta, darbo eigos gali būti peržiūros procesą. Tokiu būdu galima peržiūrėti dokumentą arba ieškinį terminai gali būti apibrėžiamas kaip dalis, darbo eiga. Atlikus peržiūrą, dokumentą ar veiksmas bus baigtas, ir darbo eiga pereina prie galutinio patvirtinimo žingsnis.
+Pasamdžius, perkėlus ar atleidus darbuotojus į darbo eigą gali būti įtrauktas peržiūros procesas. Tokiu būdu galima peržiūrėti dokumentą arba veiksmo sąlygas apibrėžti kaip darbo eigos dalį. Atlikus peržiūros procesą, parengiamas dokumentas arba užbaigiamas veiksmas, o darbo eiga perkeliama į paskutinį patvirtinimo veiksmą.
 
-## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Susieti darbo eigos padėtį hierarchijoje
-Darbo eigą, galite susieti su bet hierarchijos, kuriuos galite konfigūruoti. Pavyzdžiui, jei pozicija yra susijusi su matricos ataskaitų hierarchijoje, galite konfigūruoti darbo eigą, kuri nukreipia konkretaus projekto išlaidas, projekto švino vietoj valdytojo darbuotojas, kuris yra susijęs su šios pozicijos. Norėdami sukurti naują darbo eigą arba keisti esamas darbo eigą, į **žmogiškųjų išteklių darbo eigos** spustelėkite **naujas**. Pasirinkite darbo eigos paleisti darbo eigos dizaino įrankis sąraše. Galite naudoti dizainerio sukurti naują darbo eigą arba keisti esamas darbo eigos veiksmus. Kai keičiate esamą darbo eigos, jūsų keitimai įrašomi kaip naują versiją. Todėl, jūs galite visada grįžti prie ankstesnės versijos jei turite.
+## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Darbo eigos susiejimas su pareigų hierarchija
+Darbo eigą galite susieti su bet kuria jūsų sukonfigūruota hierarchija. Pavyzdžiui, jei pareigos susiejamos su ataskaitų hierarchijos matrica, galite sukonfigūruoti darbo eigą, nukreipiančią konkretaus projekto išlaidas projekto vadovui, o ne darbuotojo, susieto su tomis pareigomis, vadovui. Norėdami sukurti naują darbo eigą arba modifikuoti esamą, puslapyje **Personalo darbo eiga** spustelėkite **Naujas**. Sąraše pasirinkite darbo eigą, kad paleistumėte darbo eigos dizaino įrankį. Dizaino įrankį galite naudoti kurdami naują darbo eigą arba keisdami jau esančios darbo eigos veiksmus. Pakeitus esamą darbo eigą pakeitimai išsaugomi kaip nauja versija. Todėl, jei reikia, galite bet kada sugrįžti prie ankstesnės versijos.
 
-## <a name="configure-a-human-resources-workflow"></a>Konfigūruoti darbo eigos žmogiškųjų išteklių
-Konfigūruoti pagrindinius darbo eigą, kuri yra prasidėjo, kai darbuotojai reikalauti keisti jų asmens tapatybės, atlikite šiuos veiksmus.
+## <a name="configure-a-human-resources-workflow"></a>Personalo darbo eigos konfigūravimas
+Norėdami sukonfigūruoti pagrindinę darbo eigą, pradedamą darbuotojui pareikalavus pakeisti asmens identifikavimą, atlikite toliau nurodytus veiksmus.
 
-1.  Dėl į **žmogiškųjų išteklių darbo eigų** spustelėkite **naujas**.
-2.  Pasirinkite iš sąrašo galimos darbo eigos, **identifikacijos numerius**.
-3.  Spustelėkite **paleisti** paleisti darbo eigos dizaino įrankis, ir tada įveskite savo vartotojo vardą ir slaptažodį, kai būsite paraginti.
-4.  Vilkite į **patvirtinti identifikavimo numerį** elemento darbo eigos elementų sąraše dizaineris drobė.
-5.  Prijunkite patvirtinimo elemento **pradėti** ir **apdailos**.
-6.  Dukart spustelėkite **tvirtinti elementas**, ir tada dešiniuoju pelės mygtuku spustelėkite ir pasirinkite **ypatybės**.
-7.  Atlikite šiuos veiksmus ir pridėkite darbo elementą instrukcijas:
-    1.  Pasirinkite **priskyrimas**, ir tada pasirinkite **hierarchijos** pagal užduoties tipas.
-    2.  Pagal į **hierarchijos** pasirinkimas, pasirinkite **konfigūruojama hierarchijos**.
-    3.  Pridėkite stabdymo sąlyga ir uždaryti puslapį.
+1.  Puslapyje **Personalo darbo eigos** spustelėkite **Naujas**.
+2.  Galimų darbo eigų sąraše pasirinkite **Identifikavimo numeriai**.
+3.  Spustelėkite **Vykdyti**, kad paleistumėte darbo eigos dizaino įrankį, tada, kai būsite paraginti, įveskite vartotojo vardą ir slaptažodį.
+4.  Elementą **Patvirtinti identifikavimo numerį** iš darbo eigos elementų sąrašo nuvilkite į dizaino įrankio lauką.
+5.  Patvirtinimo elementą sujunkite su **Pradėti** ir **Baigti**.
+6.  Dukart spustelėkite **Patvirtinti elementą**, tada spustelėkite dešinįjį pelės klavišą ir pasirinkite **Ypatybės**.
+7.  Norėdami įtraukti darbo elemento instrukcijų, atlikite nurodytus veiksmus.
+    1.  Pasirinkite **Priskyrimas**, tada iš priskyrimo tipo pasirinkite **Hierarchija**.
+    2.  Pasirinkimo srityje **Hierarchija** pasirinkite **Konfigūruojama hierarchija**.
+    3.  Įtraukite sustabdymo sąlygą ir uždarykite puslapį.
 
-8.  Užbaigti papildomomis instrukcijomis (jokių papildomų įspėjimų turėtų būti).
-9.  Spustelėkite **Įrašyti ir uždaryti**. Aktyvinti naują darbo eigą, kai dialogo lange atsidarys, ir pasirinkite **aktyvus**.
-10. Eikite į **žmogiškųjų išteklių**&gt;**pozicijos**&gt;**pozicija hierarchijoje tipų**.
-11. Pasirinkite **matricos**.
-12. Pridėti į **darbuotojo identifikavimo numerį** darbo eigą į sąrašą.
+8.  Atlikite papildomas instrukcijas (neturi būti jokių papildomų įspėjimų).
+9.  Spustelėkite **Įrašyti ir uždaryti**. Atsidarius dialogo langui aktyvinkite naują darbo eigą ir pasirinkite **Padaryti aktyvų**.
+10. Pasirinkite **Personalas** &gt; **Pareigos** &gt; **Pareigų hierarchijos tipai**.
+11. Pasirinkite **Matrica**.
+12. Įtraukite darbo eigą **Darbininko identifikavimo numeris** į sąrašą.
+
+
 
 
 

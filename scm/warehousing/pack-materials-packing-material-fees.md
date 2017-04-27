@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="packing-materials-and-fees"></a>Pakavimo medžiagos ir mokesčiai
 
+[!include[banner](../includes/banner.md)]
+
+
 Pakavimo medžiagų mokesčiai atliekų perdirbimo įmonei mokami tam tikrais intervalais. Už kiekvieną pakuotės sudedamosios dalies svorio vienetą mokama tam tikra suma. Pakavimo medžiagų mokesčiai skaičiuojami ir pateikiami ataskaitose, tačiau DK operacijos neregistruojamos, nes šie mokesčiai nelaikomi valstybei mokamais mokesčiais.
 
 Skaičiuojami pardavimo užsakymo eilučių ir pirkimo užsakymų eilučių pakavimo medžiagų svoriai ir mokesčiai.
@@ -52,7 +55,7 @@ Kai kuriate pardavimo užsakymo eilutę, sistema tikrina, ar nurodyti prekės pa
 ## <a name="packing-units-on-purchase-order-lines"></a>Pakavimo vienetai pirkimo užsakymo eilutėse
 Pirkimo užsakymo eilutės pakavimo medžiagų operacijų sistema nesukuria. Pirkimo užsakymo, kuriam išrašyta SF, eilučių operacijos kuriamos rankiniu būdu, **Pakavimo medžiagų operacijų** puslapyje.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Nustatyti kliento packagingmaterialfee licencijos numerius
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Klientų packagingmaterialfee (pakavimo medžiagų mokesčio) licencijos numerio nustatymas
 Jei pakavimo medžiagų mokesčius moka klientai, puslapyje **Klientai** nurodykite klientų pakavimo medžiagų mokesčio licencijų numerius. Kai klientui priskiriamas licencijos numeris, išrašius pardavimo užsakymų SF pakavimo medžiagų mokesčiai skaičiuojami automatiškai. Išrašius SF, atžymimas puslapio **Pakavimo medžiagų operacijos** žymės langelis **Skaičiuoti mokestį**, nes jums nereikia skaičiuoti ir spausdinti ataskaitos. Galite ant SF spausdinti pakavimo medžiagų svorius, ir informuoti klientus, kad mokesčius mokės jie. 
 
 Jei pakavimo medžiagų mokesčius moka jūsų įmonė, kliento licencijos numerio nurodyti nereikia. Išrašius SF, **Pakavimo medžiagų operacijų** puslapyje pažymimas žymės langelis **Skaičiuoti mokestį**. Tai nurodo, kad mokesčiai skaičiuojami kuriant ataskaitą. Galite ant SF spausdinti svorius ir nurodyti, kad mokesčius moka įmonė.
@@ -60,6 +63,8 @@ Jei pakavimo medžiagų mokesčius moka jūsų įmonė, kliento licencijos numer
 ## <a name="print-packaging-material-weights-on-invoices"></a>Pakavimo medžiagų svorio spausdinimas ant SF
 Galite ant SF spausdinti pakavimo medžiagų svorius ir nurodyti, kas mokės pakavimo medžiagų mokesčius. Svoriai sumuojami pagal pakavimo kodą.
  
+
+
 
 
 

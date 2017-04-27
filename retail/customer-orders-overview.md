@@ -1,6 +1,6 @@
 ---
-title: "Klientų užsakymų apžvalga"
-description: "Šioje temoje pateikta informacija apie klientų užsakymus iš mažmeninės prekybos šiuolaikinės POS (MPOS). Klientų užsakymus yra taip pat žinomas kaip specialūs užsakymai. Tema yra susiję parametrai ir sandorių srautų."
+title: "Kliento užsakymų apžvalga"
+description: "Šioje temoje pateikiama informacija apie kliento užsakymus „Retail Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -25,75 +25,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="customer-orders-overview"></a>Klientų užsakymų apžvalga
+# <a name="customer-orders-overview"></a>Kliento užsakymų apžvalga
 
-Šioje temoje pateikta informacija apie klientų užsakymus iš mažmeninės prekybos šiuolaikinės POS (MPOS). Klientų užsakymus yra taip pat žinomas kaip specialūs užsakymai. Tema yra susiję parametrai ir sandorių srautų.
+[!include[banner](includes/banner.md)]
 
-Omni-kanalo mažmeninės prekybos pasaulyje, daugelis mažmenininkų suteikti klientui galimybę užsakymus arba specialius užsakymus, įvairių produktų ir vykdymo reikalavimus. Štai keletas tipiškų scenarijai:
 
--   Klientas nori produktai pristatomi konkretų adresą tam tikrą dieną.
--   Klientas nori pasiimti produktų iš parduotuvės arba vietą, kuris skiriasi nuo parduotuvėje arba vieta, kur klientas įsigyti šiuos produktus.
--   Klientas nori kažkas pasiimti produktus, klientas įsigijo.
+Šioje temoje pateikiama informacija apie kliento užsakymus „Retail Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 
-Mažmenininkams taip pat naudoti klientų užsakymus iki minimumo sumažinti prarastus pardavimus, kad atsargų tiekimo pertrūkių gali kitaip sukelti, nes prekes gali pristatyti arba skirtingu laiku arba vietos pakėlė.
+Integruotų kanalų mažmeninėje prekyboje dauguma pardavėjų suteikia galimybę kurti klientų užsakymus (arba specialius užsakymus) įvairiems produktų ir vykdymo reikalavimams įvykdyti. Toliau nurodomi įprasti scenarijai.
 
-## <a name="set-up-customer-orders"></a>Nustatyti klientų užsakymus
-Štai keletas parametrų, kurie gali būti nustatyti į **mažmeninė parametrai** puslapį ir nustatyti, kaip laikomasi klientų užsakymus:
+-   Klientas nori, kad produktai būtų pristatyti konkrečią dieną konkrečiu adresu.
+-   Klientas nori atsiimti produktus parduotuvėje arba vietoje, kuri nėra parduotuvė arba vieta, kurioje klientas tuos produktus nusipirko.
+-   Klientas nori, kad kas nors kitas paimtų jo nupirktus produktus.
 
--   **Numatytasis indėlių procentais** – nurodykite suma, kurią klientas privalo sumokėti kaip užstatą kol galima patvirtinti užsakymą. Numatytasis indėlio suma apskaičiuojama kaip procentinė dalis nuo užsakymo sumos. Priklausomai nuo to, privilegijos, parduotuvėje bendradarbis galėtų nepaisyti suma naudojant **deponuoti nepaisyti**.
--   **Atšaukimo mokestis procentais** – jei mokestis bus taikomas, kai kliento užsakymas atšaukiamas, nurodyti, kad mokesčio dydis.
--   **Atšaukimo mokestis kodą** -jei mokestis bus taikomas kai kliento užsakymas atšaukiamas, kad nemokamai atspindės pagal mokesčio kodas pardavimo užsakymo, Microsoft Dynamics AX. Naudokite šį parametrą norėdami nurodyti atšaukimo mokesčio kodas.
--   **Laivybos PAP** – mažmenininkai gali imti papildomą mokestį už laivybos prekes pirkėjui. Kad siuntimo mokesčio suma atsispindės delspinigių kodu Dynamics AX pardavimo užsakyme. Naudokite šį parametrą norėdami siuntimo mokesčio kodas su pristatymo išlaidos pagal kliento užsakymą.
--   **Grąžina siuntimo mokesčiai** – nurodyti, ar gabenimo mokesčius, susijusius su kliento užsakymas grąžinamas.
--   **Didžiausia suma be patvirtinimo** – jei siuntimo mokesčiai yra grąžintini, nurodyti didžiausią sumą pristatymas nemokamai grąžinamosios išmokos visoje grąžinimo užsakymus. Jeigu ši suma viršijama, vadovas nepaisyti reikalingas siekiant toliau grąžinamąją išmoką. Prisitaikyti prie šių scenarijų, grąžinamosios išmokos, pristatymo išlaidos gali viršyti sumos, kurią iš pradžių mokėjo:
-    -   Taikomi mokesčiai pardavimo užsakymo antraštėje, ir kai nors kiekis produkto linija grąžinama, maksimalus grąžinimo pristatymo išlaidos leistiną produktų ir kiekio negalima nustatyti tokiu būdu, kuris dirba už visus mažmeninius klientus.
-    -   Prie kiekvieno krovinio patiriamos gabenimo mokesčius. Jei pirkėjas grąžina produktų kelis kartus, ir pardavėjo strategija nurodo, kad agentas bus padengia grįžimo siuntimo mokesčiai, grąžinimo siuntimo mokesčiai bus daugiau nei faktinis gabenimo mokesčius.
+Pardavėjai taip pat naudoja kliento užsakymus, norėdami sumažinti prarasto pardavimo kiekius, kuriuos gali lemti atsargų stygius, kadangi prekes galima pristatyti arba atsiimti kitu laiku arba kitoje vietoje.
 
-## <a name="transaction-flow-for-customer-orders"></a>Sandorio srautas, klientų užsakymų
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Sukurti klientų aptarnavimo užsakymo mažmeninės prekybos Šiuolaikinės pos
+## <a name="set-up-customer-orders"></a>Kliento užsakymų nustatymas
+Toliau pateikiama keletas parametrų, kuriuos galima nustatyti puslapyje **Mažmeninės prekybos parametrai** ir kurie nurodo, kaip kliento užsakymai yra vykdomi.
+
+-   **Numatytasis depozito procentas** – nurodykite sumą, kurią klientas turi sumokėti kaip depozitą prieš patvirtinant užsakymą. Numatytoji depozito suma apskaičiuojama kaip užsakymo vertės procentas. Atsižvelgiant į teises, parduotuvės atstovas gali perrašyti sumą naudodamas parinktį **Depozito perrašymas**.
+-   **Atšaukimo mokesčio procentais** – jei atšaukiant kliento užsakymą taikomas mokestis, nurodykite to mokesčio sumą.
+-   **Atšaukimo mokesčio kodas** – jei atšaukiant kliento užsakymą taikomas mokestis, tas mokestis bus nurodytas pardavimo užsakymo išlaidų kode programoje „Microsoft Dynamics AX“. Naudokite šį parametrą, kad nurodytumėte atšaukimo mokesčio kodą.
+-   **Siuntimo mokesčio kodas** – pardavėjai gali taikyti papildomą mokestį už prekių siuntimą klientui. To siuntimo mokesčio suma bus nurodyta pardavimo užsakymo išlaidų kode programoje „Dynamics AX“. Naudokite šį parametrą, kad siuntimo mokesčio kodą susietumėte su siuntimo išlaidomis kliento užsakyme.
+-   **Grąžinti siuntimo išlaidas** – nurodykite, ar siuntimo išlaidos, susietos su kliento užsakymų, yra grąžinamos.
+-   **Maksimali suma, kuriai nereikia gauti patvirtinimo** – jei siuntimo išlaidos yra grąžinamos, nurodykite didžiausią visų grąžinimo užsakymų siuntimo išlaidų grąžinimo sumą. Jei ši suma viršijama, vadovas turi ją perrašyti, kad būtų galima tęsti grąžinimo operaciją. Toliau nurodytais scenarijais siuntimo išlaidų grąžinimo suma gali viršyti anksčiau sumokėtą sumą.
+    -   Išlaidos taikomos pardavimo užsakymo antraštės lygyje ir, kai tam tikras produkto eilutės kiekis yra grąžinamas, didžiausios leidžiamos produktų ir kiekio siuntimo išlaidų grąžinimo sumos negalima nustatyti tokiu būdu, kuris tiktų visiems mažmeninės prekybos klientams.
+    -   Siuntimo išlaidos patiriamos kiekvieną kartą siunčiant prekes. Jei klientas kelis kartus grąžina produktus, o pardavėjo strategijoje nurodyta, kad pardavėjas padengs grąžinimo siuntimo išlaidų sumą, grąžinimo siuntimo išlaidų suma bus didesnė nei faktinės siuntimo išlaidos.
+
+## <a name="transaction-flow-for-customer-orders"></a>Kliento užsakymų operacijų srautas
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Kliento užsakymo kūrimas „Retail Modern POS“
 
 1.  Įtraukite į operaciją klientą.
-2.  Pridėti prekių į krepšelį.
-3.  Spustelėkite **sukurti kliento užsakymas**, ir tada pasirinkite užsakymo tipas. Užsakymo tipą galima bet **klientų užsakymų** ar **citata**.
-4.  Spustelėkite **laivas pasirinktas** ar **visi laivo** išsiųsti produktus į adresą į kliento sąskaitą, nurodykite kreipiamasi pristatymo datą ir nurodyti gabenimo mokesčius.
-5.  Spustelėkite **pasiimti pasirinktas** ar **rinktuvo visus** rinktis produktus, kurie bus būti įlaipinami iš dabartinės parduotuvės ar kitoje parduotuvėje konkrečią datą.
-6.  Rinkti indėlio suma, jei užstatą.
+2.  Įtraukite produktų į krepšelį.
+3.  Spustelėkite **Kurti kliento užsakymą** ir tada pasirinkite užsakymo tipą. Užsakymo tipas gali būti **Kliento užsakymas** arba **Pasiūlymas**.
+4.  Spustelėkite **Siųsti pasirinktus** arba **Siųsti viską**, norėdami siųsti produktus kliento sąskaitoje nurodytu adresu, nurodykite pageidaujamą siuntimą datą ir siuntimo išlaidas.
+5.  Spustelėkite **Paimti pasirinktus** arba **Paimti viską**, norėdami pasirinkti produktus, kurie nurodytą dieną bus paimti iš dabartinės parduotuvės arba kitos parduotuvės.
+6.  Surinkite depozito sumą, jei depozitas reikalingas.
 
-### <a name="edit-an-existing-customer-order"></a>Redaguoti esamą kliento užsakymas
+### <a name="edit-an-existing-customer-order"></a>Esamo kliento užsakymo redagavimas
 
-1.  Pagrindiniame puslapyje, spustelėkite **rasti užsakymą**.
-2.  Raskite ir pasirinkite Redaguoti. Puslapio apačioje spustelėkite į **redaguoti**.
+1.  Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
+2.  Raskite ir pasirinkite užsakymą, kurį norite redaguoti. Puslapio apačioje spustelėkite **Redaguoti**.
 
-### <a name="pick-up-an-order"></a>Pasiimti vykdomąjį raštą
+### <a name="pick-up-an-order"></a>Užsakymo paėmimas
 
-1.  Pagrindiniame puslapyje, spustelėkite **rasti užsakymą**.
-2.  Pasirinkite užsakymą pasiimti. Puslapio apačioje spustelėkite **surinkimo bei pakavimo operacija**.
-3.  Spustelėkite **pasiimti**.
+1.  Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
+2.  Pasirinkite paimtiną užsakymą. Puslapio apačioje spustelėkite **Paėmimas ir pakavimas**.
+3.  Spustelėkite **Paimti**.
 
-### <a name="cancel-an-order"></a>Atšaukti užsakymą
+### <a name="cancel-an-order"></a>Užsakymo atšaukimas
 
-1.  Pagrindiniame puslapyje, spustelėkite **rasti užsakymą**.
-2.  Pasirinkite atšaukti užsakymą. Puslapio apačioje spustelėkite **atšaukti**.
+1.  Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
+2.  Pasirinkite atšauktiną užsakymą. Puslapio apačioje spustelėkite **Atšaukti**.
 
 #### <a name="create-a-return-order"></a>Grąžinimo užsakymo kūrimas
 
-1.  Pagrindiniame puslapyje, spustelėkite **rasti užsakymą**.
-2.  Pasirinkite užsakymą grįžti, pasirinkite užsakymo SF, ir tada pasirinkite produktų liniją, skirtą grąžinti prekes.
-3.  Puslapio apačioje spustelėkite į **grąžinimo užsakymui**.
+1.  Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
+2.  Pasirinkite grąžintiną užsakymą, pasirinkite užsakymo SF ir tada pasirinkite grąžintinų prekių produkto eilutę.
+3.  Puslapio apačioje spustelėkite **Grąžinimo užsakymas**.
 
-## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Asinchroninis sandorio srautas, klientų užsakymų
-Klientų užsakymus galima sukurti pardavimo (PV) kliento požiūriu arba Sinchroninis arba asinchroninis režimu.
+## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Kliento užsakymų asinchroninių operacijų srautas
+Klientų užsakymus galima kurti iš elektroninio kasos aparato (EKA) kliento sinchroniniu arba asinchroniniu režimu.
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Įgalinti klientų užsakymus, turi būti sukurta asinchroniniu režimu
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Kliento užsakymų kūrimo asinchroniniu režimu funkcijos įjungimas
 
-1.  Dynamics AX, spustelėkite **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS profilis**&gt;**funkcijų šablonų**.
-2.  Dėl į **bendrojo** FastTab, nustatyti su **sukurti kliento užsakymo async režimu** galimybę **taip**.
+1.  Programoje „Dynamics AX“ spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **POS sąranka** &gt; **POS šablonas** &gt; **Funkcijų šablonai**.
+2.  „FastTab“ **Bendra** nustatykite parinktį **Kurti kliento užsakymą asinchroniniu režimu** į **Taip**.
 
-Kai į **sukurti kliento užsakymo async režimu** parinktis nustatyta **taip**, klientų užsakymus visada sukuriamos asinchroniniu režimu, net jei mažmeninės prekybos operacijų paslaugos (RTS). Jei nustatote šią pasirinktį kaip **Nr**, klientų užsakymus visada sukurtų Sinchroninis režimu naudojant RTS. Sukūrus klientų užsakymus asinchroniniu režimu, jie ištrauktas ir įtrauktas į Dynamics AX iš traukti (P) užduotys. Atitinkamus pardavimo užsakymų yra sukurta Dynamics AX kai **sinchronizuoti užsakymų** yra valdoma rankiniu būdu ar partija apdoroti.
+Kai parinktis **Kurti kliento užsakymą asinchroniniu režimu** nustatyta į **Taip**, kliento užsakymai visada kuriami asinchroniniu režimu, net jei galima naudoti „Retail Transaction Service“ (RTS). Jei šią parinktį nustatysite į **Ne**, kliento užsakymai bus visada kuriami sinchroniniu režimu naudojant RTS. Kai kliento užsakymai kuriami asinchroniniu režimu, jie perkeliami ir įterpiami į „Dynamics AX“ naudojant perkėlimo (P) užduotis. Atitinkami pardavimo užsakymai sukuriami „Dynamics AX“, kai parinktis **Sinchronizuoti užsakymus** paleidžiama neautomatiškai arba paketinio vykdymo metu.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Hibridinis klientų užsakymus](hybrid-customer-orders.md)
+[Hibridiniai kliento užsakymai](hybrid-customer-orders.md)
+
+
 
 

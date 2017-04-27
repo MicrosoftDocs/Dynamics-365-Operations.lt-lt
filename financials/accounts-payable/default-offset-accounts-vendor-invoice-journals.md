@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Numatytosios korespondentinės sąskaitos pardavėjo sąskaitų faktūrų žurnalams ir sąskaitų faktūrų patvirtinimo žurnalams
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Numatytosios korespondentinės naudojamos su šiais pardavėjo sąskaitų faktūrų žurnalų puslapiais:
@@ -92,6 +95,8 @@ Naudokite šią lentelę, kai reikia nuspręsti, kur priskirti numatytąsias są
 </tr>
 </tbody>
 </table>
+
+
 
 
 

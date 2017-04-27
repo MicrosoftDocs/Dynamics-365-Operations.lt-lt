@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Padengimo parametrai
 
+[!include[banner](../includes/banner.md)]
+
+
 Bendrasis planavimas naudoja padengimo parametrus prekės poreikiui apskaičiuoti. 
 
 Galite nurodyti padengimo parametrus keliais būdais:
 
--   Nurodykite padengimo grupės padengimo parametrus. Galite sukurti padengimo grupę, kurioje būtų visų su padengimo grupe susijusių produktų parametrai. Spustelėkite **kapitonas planavimo &gt;nustatymo &gt;dangos &gt;padengimo grupės** sukurti padengimo grupės. Padengimo grupę galite susieti su produktu. Jei saitas yra konkrečios teritorijos, sandėlio ar produkto dimensijos, naudokite puslapio **Prekės padengimas** lauką **Padengimo grupė**. Jei saitas yra bendrasis, neatsižvelgdami į produkto dimensijas, naudokite puslapio **Produkto informacija** „FastTab“ skirtuke **Planas** esančią parinktį **Padengimo grupė**. Jei padengimo grupės nesusiejate su produktu, bendrojo planavimo funkcija kaip numatytąją naudoja puslapyje **Bendrojo planavimo parametrai** nurodytą parinktį **Bendroji padengimo grupė**.
+-   Nurodykite padengimo grupės padengimo parametrus. Galite sukurti padengimo grupę, kurioje būtų visų su padengimo grupe susijusių produktų parametrai. Norėdami sukurti padengimo grupę spustelėkite **Bendrasis planavimas &gt; Sąranka &gt; Padengimas &gt; Padengimo grupės**. Padengimo grupę galite susieti su produktu. Jei saitas yra konkrečios teritorijos, sandėlio ar produkto dimensijos, naudokite puslapio **Prekės padengimas** lauką **Padengimo grupė**. Jei saitas yra bendrasis, neatsižvelgdami į produkto dimensijas, naudokite puslapio **Produkto informacija** „FastTab“ skirtuke **Planas** esančią parinktį **Padengimo grupė**. Jei padengimo grupės nesusiejate su produktu, bendrojo planavimo funkcija kaip numatytąją naudoja puslapyje **Bendrojo planavimo parametrai** nurodytą parinktį **Bendroji padengimo grupė**.
 
--   Nurodykite produkto padengimo parametrus. Galite sukurti konkretaus produkto padengimo parametrus. Spustelėkite **produkto informacijos valdymo &gt;gaminiai &gt;išleisti produktai**. Pasirinkite produktą, į **veiksmų sritį**, į **planas** skirtuke, be į **padengimo grupės**, spustelėkite **prekės padengimas** atidaryti, **prekės padengimas** puslapis. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje** Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
+-   Nurodykite produkto padengimo parametrus. Galite sukurti konkretaus produkto padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite produktą, dalyje **Veiksmų sritis** esančio skirtuko **Planas** lauke **Padengimo grupė** spustelėkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje** Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ Galite nurodyti padengimo parametrus keliais būdais:
 
 <!-- -->
 
--   Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite **produkto informacijos valdymo &gt;bendrojo &gt;išleisti produktai**. Ant į ** išleistas siuntimo mokestis ** puslapį, ant į **bendrojo** skirtuke, be į **administravimo** grupės, spustelėkite į **sandėliavimo dimensijų grupė** nuorodą. Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Turi būti visi matmenys, pvz., konfigūracija, spalva, dydis, stilius, su **padengimo planas dimensijomis** pasirinkto lauko.
+-   Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai**. Puslapio **Patvirtinto produkto informacija** skirtuke **Bendra** esančioje grupėje **Administravimas** spustelėkite saitą **Saugojimo dimensijų grupė**. Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.
 
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master plans](master-plans.md)
+[Bendrieji planai](master-plans.md)
+
+
 
 

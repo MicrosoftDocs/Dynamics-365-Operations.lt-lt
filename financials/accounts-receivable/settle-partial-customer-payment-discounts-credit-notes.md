@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis kliento mokėjimą, kuris turi nuolaidas kredito pažymose"
+title: "Sudenkite dalinį kliento mokėjimą, kuriam taikomos kredito pažymų nuolaidos"
 description: "Šiame straipsnyje apžvelgiamas scenarijus, kai mokėjimo nuolaida taikoma kredito pažymai, kai mokėjimo nuolaida taip pat buvo taikoma pradinei SF."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Atsiskaityti dalinis kliento mokėjimą, kuris turi nuolaidas kredito pažymose
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Sudenkite dalinį kliento mokėjimą, kuriam taikomos kredito pažymų nuolaidos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje apžvelgiamas scenarijus, kai mokėjimo nuolaida taikoma kredito pažymai, kai mokėjimo nuolaida taip pat buvo taikoma pradinei SF. 
 
-„Fabrikam“ klientams leidžia mokėjimo nuolaidas taikyti daliniams mokėjimams ir kredito pažymoms (kredito pažymoms). Mokėjimo nuolaidą galima taikyti kredito pažymai, kai kredito pažyma išduodama SF, kuriai klientas pritaikė mokėjimo nuolaidą. Galite ne teikti visos sumos kreditą, o kliento balansą kredituoti sumai, į kurią kliento pritaikytas mokėjimo nuolaidos procentas neįtrauktas. Sudengimo parametrus yra ant to **sudaro gautinų sumų parametrai** puslapis.
+„Fabrikam“ klientams leidžia mokėjimo nuolaidas taikyti daliniams mokėjimams ir kredito pažymoms (kredito pažymoms). Mokėjimo nuolaidą galima taikyti kredito pažymai, kai kredito pažyma išduodama SF, kuriai klientas pritaikė mokėjimo nuolaidą. Galite ne teikti visos sumos kreditą, o kliento balansą kredituoti sumai, į kurią kliento pritaikytas mokėjimo nuolaidos procentas neįtrauktas. Sudengimo parametrus rasite puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="invoice-and-credit-note"></a>SF ir kredito pažyma
 4035 klientas turi 1 000,00 SF ir 100,00 kredito pažymą. Kiekvienam dokumentui taikoma 1 procento nuolaida, jei jis sudengiamas per 14 dienų. Arnas gali šią informaciją peržiūrėti puslapyje **Kliento operacijos**.
@@ -59,5 +62,7 @@ Nuolaidos informacija rodoma puslapio **Sudengti operacijas **apačioje.
 | Taikytinos mokėjimo nuolaidos suma | –1,00     |
 
 Bus sudengiama 100,00 suma, įskaitant 99,00 mokėjimą ir 1,00 nuolaidą.
+
+
 
 

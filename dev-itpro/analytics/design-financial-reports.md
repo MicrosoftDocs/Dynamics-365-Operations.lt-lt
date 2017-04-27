@@ -1,6 +1,6 @@
 ---
-title: "Rodinio ir dizaino finansinių ataskaitų"
-description: "Šiame straipsnyje pateikiama pratimų, kurie paaiškina jums peržiūrėti arba kurti finansines ataskaitas Microsoft Dynamics &quot;365&quot; operacijoms. Finansinę atskaitomybę sudaro žiūrėjimo patirtį per Dynamics 365 operacijoms ir spustelėkite-vieną kartą ataskaitos dizainerio, kuris leidžia jums kurti ir redaguoti finansines ataskaitas."
+title: "Finansinių ataskaitų peržiūra ir kūrimas"
+description: "Šiame straipsnyje pateikiami pratimai, kurie padeda peržiūrėti ir kurti finansines ataskaitas, skirtas „Microsoft Dynamics 365 for Operations“. Finansines ataskaitas sudaro peržiūros patirtis programoje „Dynamics 365 for Operations“ ir vieno paspaudimo ataskaitų dizaino įrankis, kuris suteikia galimybę kurti ir redaguoti finansines ataskaitas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Rodinio ir dizaino finansinių ataskaitų
+# <a name="view-and-design-financial-reports"></a>Finansinių ataskaitų peržiūra ir kūrimas
 
-Šiame straipsnyje pateikiama pratimų, kurie paaiškina jums peržiūrėti arba kurti finansines ataskaitas Microsoft Dynamics "365" operacijoms. Finansinę atskaitomybę sudaro žiūrėjimo patirtį per Dynamics 365 operacijoms ir spustelėkite-vieną kartą ataskaitos dizainerio, kuris leidžia jums kurti ir redaguoti finansines ataskaitas.  
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje pateikiami pratimai, kurie padeda peržiūrėti ir kurti finansines ataskaitas, skirtas „Microsoft Dynamics 365 for Operations“. Finansines ataskaitas sudaro peržiūros patirtis programoje „Dynamics 365 for Operations“ ir vieno paspaudimo ataskaitų dizaino įrankis, kuris suteikia galimybę kurti ir redaguoti finansines ataskaitas.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1 užduotis: sugeneruokite ir išnagrinėkite numatytąją finansinę ataskaitą
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Atlikdami šią užduotį, jūs generuosite ir nagrinėsite esamą numatytąją 
 3.  Įrašykite dimensijos konfigūraciją. Paskui generuosime ataskaitą ir nagrinėsime ataskaitos duomenis.
 4.  Eikite į **Finansinės ataskaitos** didžiosios knygos srityje **Užklausos ir ataskaitos**.
 5.  Pasirinkite eilutę ataskaitoje, kuri vadinasi **DK informacija – numatytoji.**
-6.  Pasirinkite **Redaguoti**. Pastaba: Jūs būsite paraginti atsisiųsti click-vieną kartą ataskaitos dizainerio ir prisijungti. Naudoti kredencialus, Norėdami prisijungti.
+6.  Pasirinkite **Redaguoti**. Pastaba: būsite paraginti atsisiųsti vieno paspaudimo ataskaitų dizaino įrankį ir prisijungti. Prisijunkite naudodami kredencialus.
 7.  Pakeiskite pagrindinius metus į 2012 ir pasirinkite **Generuoti**. Kai ataskaitų dizaino įrankis sugeneruos ataskaitą, ji bus atidaryta naujame naršyklės skirtuke. Galite panagrinėti ataskaitą naujame naršyklės skirtuke arba eiti į savo pradinį naršyklės skirtuką ir atidaryti ataskaitą iš ten, ją pasirinkdami iš sąrašo **Finansinės ataskaitos**.
 8.  Atidarytoje ataskaitoje pasirinkite vieną iš sumų, kad detalizuotumėte tos ataskaitos sąskaitų informaciją.
 9.  Atidarę sąskaitos informaciją, pasirinkite sąskaitą su duomenimis ir **detalizuokite iki ataskaitos operacijų lygio**. Ataskaitos operacijų lygyje galite peržiūrėti ypatybes (atributus), kurie įtraukti į šios ataskaitos dizainą. Priklausomai nuo operacijos ir sąskaitos, gali būti rodomi kai kurie arba visi atributai.
@@ -55,7 +58,7 @@ Atlikdami šią užduotį, jūs generuosite ir nagrinėsite esamą numatytąją 
 13. Pasirinkite **Ataskaitos parinktys**.
 14. Pasirinkite **Įtraukti dimensijos filtrą** ir pasirinkite **Verslo struktūros vienetas**.
 15. Įveskite 001 į lauką ir pasirinkite **Gerai**. Dabar ataskaitoje pateikiami tik 001 verslo struktūros vieneto duomenys. Tai suasmenintas ataskaitos rodinys, kurio negali matyti kiti.
-16. Uždarykite filtruot! ataskaitą. Finansinių ataskaitų gali būti rodomi bet kuria valiuta, kuri buvo įtraukta Dynamics 365 operacijoms.
+16. Uždarykite filtruot! ataskaitą. Finansines ataskaitas galima rodyti bet kuria valiuta, kuri įtraukta į „Dynamics 365 for Operations“.
 17. Pasirinkite **Valiutos**, tada pasirinkite **EUR.** Dabar ataskaitoje pateikiamos sumos eurais. Bet kokie valiutos kodai ar simboliai, įtraukti į ataskaitos dizainą, dabar rodo taikomą valiutą. Jei valiutai nėra priskirtas simbolis, valiutos simbolis nerodomas.
 18. Uždarykite ataskaitą **DK informacija**.
 19. Uždarykite **Ataskaitų dizaino įrankis**.
@@ -66,7 +69,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. At
 1.  Eikite į **Finansinės ataskaitos** didžiosios knygos srityje „Užklausos ir ataskaitos“.
 2.  Pasirinkite ataskaitos eilutę, kuri vadinasi **Bandomojo balanso suvestinė – numatytoji.**
 3.  Pasirinkite **Redaguoti**. **Bandomojo balanso suvestinė – numatytasis** bus atidaryta ataskaitų dizaino įrankyje.
-4.  Pasirinkite **Failas**, tada **Įrašyti kaip** ir pavadinkite ataskaitą Išsamus bandomasis balansas su atributais. Pastaba: Bet kada naujas pranešimas sukuriamas ataskaitos dizainerio, finansinių ataskaitų sąrašas atnaujinamas Dynamics 365 operacijoms.
+4.  Pasirinkite **Failas**, tada **Įrašyti kaip** ir pavadinkite ataskaitą Išsamus bandomasis balansas su atributais. Pastaba: kiekvieną kartą, kai ataskaitų dizaino įrankyje sukuriama nauja ataskaita, atnaujinamas finansinių ataskaitų sąrašas „Dynamics 365 for Operations“.
 5.  Iš ataskaitos aprašo pasirinkite eilutės apibrėžimo piktogramą, kad atidarytumėte **Bandomasis balansas – numatytasis eilutės apibrėžimas**.
 6.  Įrašykite eilutės apibrėžimą kaip **Išsamus bandomasis balansas su atributais**
 7.  Nuvilkę žymeklį ant 50 eilutės, pasirinkite **Redaguoti**, tada **Įterpti eilutes iš dimensijų**. „Įterpti eilutes iš dimensijų“ leidžia pasirinkti, kokias dimensijas norite turėti savo eilutės apibrėžime. Atlikdami šią užduotį, kursime eilutės apibrėžimą naudodami pagrindinę sąskaitą.
@@ -96,7 +99,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. At
 25. Uždarykite ataskaitą **Išsamus bandomasis balansas su atributais **.
 26. Uždarykite **Ataskaitų dizaino įrankis**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3 pratimas: Sukurti daugiamatės ataskaitą naudodami ataskaitų teikimo medis
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3 užduotis: sukurkite kelių dimensijų ataskaitą naudodami ataskaitų medį
 Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Kursite ataskaitų medį ir įtrauksite į ataskaitos aprašą, sukurdami išlaidų centrą / padalinių įplaukų ataskaitą. Kai atnaujinimai bus baigti, galėsite generuoti išlaidų centrą / padalinių pajamų ataskaitą ir panagrinėti ataskaitą naudodami ataskaitų medį. Pradėsime nuo finansinių ataskaitų sąrašo.
 
 1.  Eikite į **Finansinės ataskaitos** didžiosios knygos srityje „Užklausos ir ataskaitos“.
@@ -138,7 +141,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 1.  Eikite į **Finansinės ataskaitos** didžiosios knygos srityje „Užklausos ir ataskaitos“.
 2.  Pasirinkite eilutę ataskaitos, kuri vadinasi **Balanso ir sugretinamų įplaukų ataskaita – numatytoji**
 3.  Pasirinkite **Redaguoti**. **Balanso ir sugretinamų įplaukų ataskaita – numatytoji** atsidarys ataskaitos dizaino įrankyje.
-4.  Pasirinkite **failo**&gt;**įrašyti kaip** ir pavadinkite ataskaitą **konsoliduotas balansas ir pelno nuostolio ataskaitoje greta**.
+4.  Pasirinkite **Failas** &gt; **Įrašyti kaip** ir pavadinkite ataskaitą **Konsoliduota balanso ir sugretinamų įplaukų ataskaita**.
 5.  Pakeiskite pagrindinius metus į 2012.
 6.  Spustelėkite medžio tipo išplečiamąją rodyklę ir pasirinkite **Organizacijos hierarchijos**.
 7.  Spustelėkite medžio išplečiamąją rodyklę ir pasirinkite **Contoso Holdings.**
@@ -151,7 +154,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 14. Uždarykite **Konsoliduotą balanso ir įplaukų ataskaitą vieną šalia kitos – numatytoji**.
 15. Uždarykite **Ataskaitų dizaino įrankis**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5 Pratimai: Sidebyside departamento ataskaitos kūrimas
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5 užduotis: sukurkite sugretinamą padalinių ataskaitą
 Šioje užduotyje kursite naują ataskaitą. Ataskaita yra sugretinamų padalinių įplaukų ataskaita. Naudosite esamą eilutės apibrėžimą, tačiau sukursite naują ataskaitos aprašą ir naują stulpelio apibrėžimą, kuris naudoja dimensijų filtrus. Pradėsime nuo finansinių ataskaitų sąrašo.
 
 1.  Eikite į **Finansinės ataskaitos** didžiosios knygos srityje „Užklausos ir ataskaitos“.
@@ -179,8 +182,10 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 18. **Įrašykite** savo atliktus pakeitimus ir **generuokite**. Kai ataskaita baigs generuotis ir atsidarys, galėsite ją panagrinėti.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-[Finansinės atskaitomybės](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[Rodyti finansines ataskaitas](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics finansinių ataskaitų Dienoraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Finansinės ataskaitos](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Peržiūrėti finansines ataskaitas](\financials\general-ledger\view-financial-reports.md) 
+[„Dynamics‟ finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

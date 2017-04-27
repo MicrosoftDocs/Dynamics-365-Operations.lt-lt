@@ -1,6 +1,6 @@
 ---
-title: "Mišrus režimas planavimas - sujungti atskirų, procesų ir liesos"
-description: "Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. Microsoft Dynamics 365 operacijų būdu užtikrinama, kad medžiagų srautą taip savo modelius, nepriklausomai nuo to, tiekimo politiką, kuri būtų pasirinktas (kanbans, gamybos užsakymus, pirkimo užsakymus, partijos užsakymuose arba perd.)."
+title: "Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas"
+description: "Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai)."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Mišrus režimas planavimas - sujungti atskirų, procesų ir liesos
+# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas
 
-Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. Microsoft Dynamics 365 operacijų būdu užtikrinama, kad medžiagų srautą taip savo modelius, nepriklausomai nuo to, tiekimo politiką, kuri būtų pasirinktas (kanbans, gamybos užsakymus, pirkimo užsakymus, partijos užsakymuose arba perd.). 
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
 
 Neatsižvelgdami į produkto struktūrą galite pasirinkti bendrąją produkto tiekimo strategiją.  
 
@@ -37,7 +40,7 @@ Pavyzdžiui, galite valdyti „kanban“ surinkimo srityje, į kurią medžiagos
 Bendrajame planavime naudojamų tiekimo strategijų išsamumą lemia saugojimo dimensijos, kurios įjungiamos kaip padengimo dimensijos. Jei norėsite įjungti bendrąjį planavimą, kad valdytumėte papildymo ir tiekimo į įvairių tipų vietas procesus (pavyzdžiui, suskirstydami gamybos vietą įvairiems gamybos vienetams arba suskirstydami įvairių tipų medžiagų ir pagamintų prekių sandėlius), kaip padengimo dimensijas rekomenduojame įjungti dimensijas Vieta ir Sandėlis. Be to, kaip padengimo dimensijos galima neįtraukti dimensijos Sandėlis. Tokiu atveju naudojant patobulinto sandėlio valdymo funkcijas, visi sandėlyje atliekami perkėlimai valdomi vykdant sandėlio darbo procesą, o visus tarp sandėlių atliekamus perkėlimus galima valdyti naudojant išėmimo „kanban“.
 
 ## <a name="supply-policies"></a>Tiekimo strategijos
-Dinamika 365 operacijų mišraus režimo planavimo kontroliuoja, kaip produktas yra pateikiami ir, remiantis tiekimo, kaip išvestiniai poreikiai (vartojimo prekių iš bill medžiagų \[KS\]) yra išleidžiamos. Pagal užsakymo tipą sistemoje automatiškai surandamos poreikius atitinkančios medžiagos.  
+Taikant „Dynamics 365 for Operations“ įvairių režimų planavimo funkciją valdomas produkto tiekimo procesas, kuriuo remiantis valdoma, kaip išleidžiami iškelti poreikiai (komplektavimo specifikacijos \[KS\] prekių suvartojimas). Pagal užsakymo tipą sistemoje automatiškai surandamos poreikius atitinkančios medžiagos.  
 
 Tiekimo strategijas galima apibrėžti produkto lygiu arba poreikius atitinkančiu išsamumo lygiu. Tiekimo strategijų išsamumas nustatomas puslapyje **Numatytieji užsakymo parametrai**.  
 
@@ -45,9 +48,9 @@ Tiekimo strategijas galima valdyti pagal produktą, prekės dimensijas (konfigū
 
 Taikant numatytąjį užsakymo tipą valdoma, koks bus sukuriamas užsakymo bendrasis planavimas.  
 
-Nepriklausomai nuo to, kaip tiekimo grandinėje yra modeliuojama, Dynamics 365 operacijoms palaiko savo tiekimo politikos derinys. Galite taikyti gamybos užsakymus, kurie gaunami naudojant „kanban“. Be to, galite naudoti paketinį užsakymą, kuriame turi būti įtrauktas perkeliant arba naudojant „kanban“ tiekiamas produktas.  
+Programoje „Dynamics 365 for Operations“ palaikomos kelios vienu metu taikomos tiekimo strategijos neatsižvelgiant į tiekimo grandinės modelį. Galite taikyti gamybos užsakymus, kurie gaunami naudojant „kanban“. Be to, galite naudoti paketinį užsakymą, kuriame turi būti įtrauktas perkeliant arba naudojant „kanban“ tiekiamas produktas.  
 
-Dinamika 365 operacijoms užtikrina, kad medžiagų srautą taip modelis.  
+Programoje „Dynamics 365 for Operations “ užtikrinama, kad medžiagų srautas atitiks modelį.  
 
 Kai jau apibrėžta tiekimo strategija, medžiagos paėmimo sandėlis apdorojimo laiku priskiriamas dinamiškai.  
 
@@ -55,14 +58,16 @@ Kai jau apibrėžta tiekimo strategija, medžiagos paėmimo sandėlis apdorojimo
 
 Tie patys loginiai veiksmai atliekami taikant visų kitų tipų tiekimo strategijas. Taigi ilgalaikio medžiagų planavimo procesas vykdomas atliekant tuos pačius loginius veiksmus, kuriuos po gamybos ir tiekimo procesų patvirtinimo tikitės atlikti apdorodami faktinius užsakymus.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Medžiagų paskirstymas crosssupply politika – išteklių sunaudojimas KS
-Išteklių vartojimas yra svarbi funkcija. Naudojant išteklių suvartojimo funkciją medžiagų paėmimo sandėlis bus pasirenkamas dinamiškai remiantis tiekimo strategija (užsakymo tipu), be to, bus paprasčiau tvarkomi pagrindiniai duomenys.  
+## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Medžiagų paskirstymo tiekiant į įvairias vietas strategija – KS išteklių suvartojimas
+Išteklių suvartojimas yra svarbi funkcija. Naudojant išteklių suvartojimo funkciją medžiagų paėmimo sandėlis bus pasirenkamas dinamiškai remiantis tiekimo strategija (užsakymo tipu), be to, bus paprasčiau tvarkomi pagrindiniai duomenys.  
 
 Naudojant išteklių suvartojimo funkciją sandėlis, iš kurio paimamos medžiagos, turi būti priskirtas pagal produkto tiekimo būdą. Kitaip tariant, apdorojimo laiku sistemoje surandami ištekliai, kurie turėtų būti naudojami gamybos procese. Tada pagal šiuos išteklius sistemoje surandamas paėmimo sandėlis.  
 
-Jei užduotis nepriklausoma nuo tiekimo strategijos, o tiekimo procesas bus pakeistas, nereikia pakeisti KS informacijos. Ad hoc pakeitimų, Dynamics 365 operacijoms todėl įsitikinkite, kad medžiagų yra gaunami iš dešinės sandėlio.
+Jei užduotis nepriklausoma nuo tiekimo strategijos, o tiekimo procesas bus pakeistas, nereikia pakeisti KS informacijos. Atlikus ad hoc pakeitimus programoje „Dynamics 365 for Operations“ užtikrinama, kad medžiagos būtų gaunamos iš tinkamo sandėlio.
 
 ## <a name="process-manufacturing--the-production-type"></a>Apdirbamoji gamyba – gamybos tipas
-Suteikia visišką lankstumą mišrių režimu, mes rekomenduojame naudoti gamybos KS tipo visiems produktams. Tada galite naudoti gamybos užsakymų, kanbans, perd. arba pirkimo užsakymų tiekti produktą. Vykdydami apdirbamosios gamybos procesą turite naudoti gamybos tipą **Formulė**, **Sudėtinis produktas**, **Šalutinis produktas** arba **Planavimo prekė**. Su šiais gamybos tipais negalima naudoti „kanban“ ir gamybos užsakymų.
+Kad būtų lanksčiai išnaudojamos visos įvairių režimų planavimo galimybės, su visais produktais rekomenduojama naudoti gamybos tipą KS. Tada galima naudoti gamybos užsakymus, „kanban“, perkėlimo užsakymus arba pirkimo užsakymus produktui tiekti. Vykdydami apdirbamosios gamybos procesą turite naudoti gamybos tipą **Formulė**, **Sudėtinis produktas**, **Šalutinis produktas** arba **Planavimo prekė**. Su šiais gamybos tipais negalima naudoti „kanban“ ir gamybos užsakymų.
+
+
 
 

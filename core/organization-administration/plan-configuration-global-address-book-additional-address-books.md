@@ -1,6 +1,6 @@
 ---
-title: "Konfigūruoti adresų knygas"
-description: "Šiame straipsnyje aprašoma svarstymai ir sprendimai, kuriuos reikia priimti planavimo proceso metu, prieš jums nustatyti ir sukonfigūruoti adresų knygelėje ir bet kokios papildomos adresų knygos Microsoft Dynamics 365 operacijoms. Dėl kai kurių sprendimų reikės patvirtinti sprendimus, kurie buvo atlikti kitose produkto srityse, pvz., organizacijos hierarchijoje."
+title: "Visuotinių adresų knygelių konfigūravimas"
+description: "Šiame straipsnyje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš nustatydami ir konfigūruodami visuotinę adresų knygelę ir bet kokias papildomas adresų knygeles programoje „Microsoft Dynamics 365 for Operations“. Dėl kai kurių sprendimų reikės patvirtinti sprendimus, kurie buvo atlikti kitose produkto srityse, pvz., organizacijos hierarchijoje."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Konfigūruoti adresų knygas
+# <a name="configure-global-address-books"></a>Visuotinių adresų knygelių konfigūravimas
 
-Šiame straipsnyje aprašoma svarstymai ir sprendimai, kuriuos reikia priimti planavimo proceso metu, prieš jums nustatyti ir sukonfigūruoti adresų knygelėje ir bet kokios papildomos adresų knygos Microsoft Dynamics 365 operacijoms. Dėl kai kurių sprendimų reikės patvirtinti sprendimus, kurie buvo atlikti kitose produkto srityse, pvz., organizacijos hierarchijoje.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš nustatydami ir konfigūruodami visuotinę adresų knygelę ir bet kokias papildomas adresų knygeles programoje „Microsoft Dynamics 365 for Operations“. Dėl kai kurių sprendimų reikės patvirtinti sprendimus, kurie buvo atlikti kitose produkto srityse, pvz., organizacijos hierarchijoje.
 
 <a name="global-address-book"></a>Visuotinė adresų knygelė
 -------------------
@@ -61,6 +64,8 @@ Sukūrę visuotinę adresų knygelę, pagal poreikį galite kurti papildomų adr
 Kurti adresų knygeles galite bet kuriuo metu ir taip pat bet kuriuo metu galite nustatyti adresų knygelių saugos parametrus. Nebūtina nustatyti adresų knygelės saugos teisių, tačiau, jei to nepadarysite, visi jūsų organizacijos darbuotojai galės peržiūrėti visus tos adresų knygelės šalių įrašus. Saugos teises į šalių įrašus galite nustatyti adresų knygelėse. Saugos teisės paremtos komandomis. Šiuo būdu garantuojama, kad adresų knygelės šalių įrašus galėtų peržiūrėti tik tie darbuotojai, kurie priskirti komandai, turinčiai prieigą prie tos adresų knygelės. Turite pasirinkti komandas, turinčias prieigą prie kiekvienos adresų knygelės. Galite nustatyti kiekvienos adresų knygelės saugos teises, leidžiančias arba draudžiančias konkrečių komandų prieigą. Jei komandai suteikiate adresų knygelės teises, visi tos komandos nariai gali peržiūrėti adresų knygelės įrašus. Jei komandai prieigos prie adresų knygelės nesuteikiate, tos komandos nariai peržiūrėti adresų knygelės ar jos turinio negali. **Sprendimas:**
 
 -   Kurios komandos turėtų turėti prieigą prie kiekvienos naujos jūsų sukurtos adresų knygelės?
+
+
 
 
 

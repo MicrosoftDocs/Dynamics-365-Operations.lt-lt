@@ -1,5 +1,5 @@
 ---
-title: "Užregistruoti serijiniai numeriai pardavimo proceso"
+title: "Serijinių numerių registravimas pardavimo procese"
 description: "Šiame straipsnyje paaiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Užregistruoti serijiniai numeriai pardavimo proceso
+# <a name="register-serial-numbers-in-the-sales-process"></a>Serijinių numerių registravimas pardavimo procese
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo.
 
@@ -65,7 +68,7 @@ Taip, galite atlikti užklausą važtaraščio žurnalo eilutėje arba sąskaito
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Ar galiu peržiūrėti savo turimas prekes su serijos numeriais?
 Ne, negalite peržiūrėti serijos prekių, kurias turite po ranka, nes serijiniai numeriai neregistruojami tol, kol prekės neparduodamos.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ar galiu užregistruoti catchweight prekių serijos numerius?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ar galiu registruoti esamo svorio prekių serijos numerius?
 Ne, negalite registruotis serijos numerių sveriamoms prekėms pardavimo proceso metu. Be to, jei prekė nustatyta kaip sveriama, negalite priskirti prekės sekimo dimensijos grupei, kuri skirta naudoti serijos numerius tik pardavimo proceso metu.
 Ar galiu registruoti serijos numerius mažmeninės prekybos EKA?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Taip, mažmeninės prekybos taškas (EKA) paskatins vartotoją įvesti serijos n
 Ši funkcija yra prieinama visiems vaidmenims, kurie gali tvarkyti pardavimų važtaraščius ir pardavimo sąskaitas faktūras. Šie vaidmenys leidžia darbuotojams redaguoti serijos numerius ir registruoti tuščius serijos numerių įrašus, kurių negalima įskaityti ar nuskenuoti:
 -   Tvarkyti serijos numerių koregavimą
 -   Tvarkyti neįskaitomų serijos numerių registravimą
+
+
 
 
 

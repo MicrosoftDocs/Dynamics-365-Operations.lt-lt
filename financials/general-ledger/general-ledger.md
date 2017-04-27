@@ -26,12 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger"></a>DK 
 
+[!include[banner](../includes/banner.md)]
+
+
 Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniams įrašams. Didžioji knyga – tai debeto ir kredito įrašų registras. Šie įrašai yra klasifikuojami naudojant sąskaitų plane pateiktas sąskaitas. 
 
 Pagal paskirstymo taisykles galite paskirstyti pinigines sumas į bent vieną sąskaitą arba sąskaitos ir dimensijos derinį. Yra du paskirstymo tipai: fiksuotas ir kintamas. Taip pat galite sudengti DK sąskaitų operacijas bei perkainoti valiutos sumas. Finansinių metų pabaigoje turite generuoti uždarymo operacijas ir paruošti savo sąskaitas kitiems finansiniams metams. Naudodami konsolidavimo funkciją galite sujungti keleto filialo juridinių subjektų finansinius rezultatus į vienos konsoliduotos organizacijos rezultatus. Filialai gali būti toje pačioje „Microsoft Dynamics 365 for Operations‟ duomenų bazėje arba atskirose duomenų bazėse.
 
 # <a name="sales-tax"></a>PVM
 Kiekviena įmonė renka ir moka mokesčius mokesčių inspekcijai. Taisyklės ir tarifai priklauso nuo šalies / regiono, apskrities, rajono ir miesto. Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pakeičia savo reikalavimus. PVM kode laikoma pagrindinė informacija apie tai, kiek surenkate ir kiek mokate mokesčių institucijoms. Kai nustatote PVM kodus, nurodote sumas arba procentines reikšmes, nurodančias, kiek turi būti surinkta. Taip pat galite nustatyti įvairius metodus, kuriuos naudojant tos sumos arba procentinės reikšmės taikomos operacijų sumoms. Šio skyriaus temose pateikiama informacijos apie tai, kaip nustatyti metodų ir tarifų, kurių reikalauja jūsų mokesčių inspekcija, PVM kodus.
+
+
 
 
 

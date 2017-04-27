@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Užduočių planavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie užduočių planavimą, kuris yra išsamesnė planavimo forma nei operacijų planavimas. Galite naudoti užduočių planavimo procesą atskiroms užduotims arba darbo užsakymams suplanuoti bei gamybos aplinkai valdyti.
 
 Galite naudoti užduočių planavimo procesą atskiroms užduotims arba darbo užsakymams suplanuoti bei gamybos aplinkai valdyti. Vykdant užduočių planavimo procesą kiekviena operacija padalinama į atskiras užduotis. Tada šios užduotys priskiriamos operacijų ištekliams, kuriuos naudojant šios užduotys bus atliekamos. Be to, vykdydami užduočių planavimo procesą galėsite sinchronizuoti visas pasirinktoje užduotyje nurodytas užduotis. Galite nurodyti užduoties pradžios arba pabaigos datą ir laiką, tada atlikti planavimo procesą. Nurodytas laikas gali būti pradžios arba pabaigos laikas – tai priklauso nuo planavimo krypties. Ši funkcija naudinga, kai, pavyzdžiui, užduotį vienu metu galima atlikti tik viename įrenginyje arba kai norima optimizuoti užduotį, kuri atliekama naudojant visus išteklius.
@@ -39,7 +42,7 @@ Vykdant užduočių planavimo procesą atliekamos toliau nurodytos užduotys.
 -   Operacijos išskaidomos į užduotis.
 -   Užduotys suplanuojamos pagal išteklių datas ir laiką, nurodytą susijusioje operacijoje.
 -   Apskaičiuojamas kiekvienos užduoties pradžios ir pabaigos laikas. Naudodami riboto pajėgumo parinktį galite užtikrinti, kad nebūtų sutampančių laikotarpių.
--   Nustatyti, kurie ištekliai, išteklių grupės paleisti į darbą. Ši užduotis reikalauja, kad operacijoje būtų nurodyta išteklių grupę. Vykdant užduočių planavimo procesą ištekliai arba išteklių grupės pasirenkamos pagal trumpiausią gamybos laiką bei taip pat yra atsižvelgiama į visus ankstesnius išteklių rezervavimus.
+-   Nustatykite, kuriems išteklių grupės ištekliams taikyti užduotį. Šiai užduočiai atlikti reikia nurodyti operacijos išteklių grupę. Vykdant užduočių planavimo procesą ištekliai arba išteklių grupės pasirenkamos pagal trumpiausią gamybos laiką bei taip pat yra atsižvelgiama į visus ankstesnius išteklių rezervavimus.
 -   Operacijos išskaidomos į užduotis. Užduotys pagal datą ir laiką suplanuojamos remiantis gamybos maršrute nurodytu užsakymu. Nustatant operaciją nurodomos užduotys, į kurias bus išskaidyta vykdant planavimo procesą. Naudojant operacijai priskirtą maršrutų grupę valdoma, ar bus generuojamos užduotys. Užduotis generuojama tik tuomet, jei turi konkrečią trukmę. Pavyzdžiui, transportavimo laiko užduotis generuojama, jei pasirinktoje operacijoje buvo nurodytas transportavimo laikas.
 
 ## <a name="scheduling-direction"></a>Planavimo kryptis
@@ -73,5 +76,7 @@ Vykdant užduočių planavimo procesą ištekliai priskiriami užduotims. Galite
 
 ## <a name="resource-efficiency"></a>Išteklių efektyvumas
 Atliekant užduočių planavimo procesą atsižvelgiama į nurodytas išteklių efektyvumo procentines reikšmes. Taikant efektyvumo procentines reikšmes sumažinamas arba padidinamas rezervuotas išteklių laikas. Be to, padidinamas arba sumažinamas ir gamybos laikas. Skaičiuojant naudojama toliau nurodyta formulė: Planavimo laikas = laikas x 100 ÷ efektyvumo procentinė reikšmė Į šios formulės reikšmę *Laikas* įtraukiami apdorojimo ir nustatymo laikai.
+
+
 
 

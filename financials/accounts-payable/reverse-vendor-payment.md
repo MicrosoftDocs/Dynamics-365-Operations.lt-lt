@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Kaip atšaukti tiekėjo mokėjimą
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašomi mokėjimo atšaukimo, panaikinimo, anuliavimo ir atmetimo skirtumai. Be to, jame paaiškinami du tiekėjo tikrinimo atšaukimo metodai. 
 
-Kartais užregistravus tiekėjo mokėjimą jis turi būti atšauktas. Atšaukimas skiriasi nuo mokėjimo panaikinimo, anuliavimo ar atmetimo. Naikinti mokėjimą galite tik tada, kai jo būsena yra **Sukurta**. Ši būsena rodo, kad mokėjimas buvo sukurta, bet dar nebuvo buvo sukurtas. Taikomas šis apribojimas visada, nepriklausomai nuo mokėjimo būdo. Neužregistruotos čekius galite atšaukti po to, kai jos sukaupiamos, bet prieš jas užregistruojant. Jei sugeneruoti mokėjimo daroma kaip banko pervedimas (EFT), galite atmesti mokėjimo prieš užregistruojant. Norėdami atmesti mokėjimo, pakeisti į **mokėjimo būsena** vertę. Galima registruoti mokėjimą, kuris buvo anuliuotas arba atmestas po to **mokėjimo būsena** reikšmė bus pakeista į **nė vienas**. 
+Kartais užregistravus tiekėjo mokėjimą jis turi būti atšauktas. Atšaukimas skiriasi nuo mokėjimo panaikinimo, anuliavimo ar atmetimo. Naikinti mokėjimą galite tik tada, kai jo būsena yra **Sukurta**. Ši būsena nurodo, kad mokėjimas buvo sukurtas, bet dar nėra sugeneruotas. Šis apribojimas taikomas visada, nepaisant mokėjimo metodo. Neužregistruotus čekius anuliuoti galite po to, kai jie sugeneruojami, bet prieš juos užregistruojant. Jei sugeneruotas mokėjimas atliktas kaip elektroninis lėšų pervedimas (EFT), mokėjimą galite atšaukti, kol jis neužregistruotas. Norėdami atšaukti mokėjimą pakeiskite vertę **Mokėjimo būsena**. Mokėjimą, kuris buvo anuliuotas arba atmestas, galima iš naujo sugeneruoti po to, kai vertė **Mokėjimo būsena** vėl pakeista į **Nėra**. 
 
-Užregistravus mokėjimo, naudojami posūkius kita linkme. Mokėjimai, kurie yra pagaminti elektroniniu būdu negali būti atšaukta, po to, kai jie buvo užregistruoti. Vietoj to, naują operaciją reikia sukurti sumos mokėjimo gauti atsakomybės atgal į tiekėjo sąskaitą. Yra du būdai atbulinės eigos paskelbtas patikrinimus. Taikant vieną būdą atšaukimai užregistruojami iškart spustelėjus **Mokėjimo atšaukimas** puslapyje **Čekis**. Kitas būdas: spustelėjus **Mokėjimo atšaukimas** puslapyje **Čekis** atšaukimas pirmiausia nusiunčiamas į grynųjų pinigų ir banko valdymo dalyje esantį čekių atšaukimo žurnalą, kuriame peržiūrintysis gali užregistruoti arba atmesti atšaukimą. 
+Po to, kai mokėjimas užregistruotas, naudojami grąžinimai. Mokėjimai, kurie atlikti elektroniniu būdu, nebegali būti grąžinami po to, kai užregistruojami. Tokiu atveju reikia sukurti naują operaciją, skirtą mokėjimo sumai, kad būtų galima grąžinti mokėjimo įsipareigojimą į tiekėjo sąskaitą. Galimi du būdai atšaukti užregistruotus čekius. Taikant vieną būdą atšaukimai užregistruojami iškart spustelėjus **Mokėjimo atšaukimas** puslapyje **Čekis**. Kitas būdas: spustelėjus **Mokėjimo atšaukimas** puslapyje **Čekis** atšaukimas pirmiausia nusiunčiamas į grynųjų pinigų ir banko valdymo dalyje esantį čekių atšaukimo žurnalą, kuriame peržiūrintysis gali užregistruoti arba atmesti atšaukimą. 
 
 Norėdami sužinoti, kurį būdą naudoja jūsų organizacija, žr. puslapį **Grynųjų pinigų ir banko valdymo parametrai**. Jei parinktis **Naudoti mokėjimų atšaukimų peržiūros procesą** nustatyta į **Taip**, atšaukimai nusiunčiami į peržiūrėti skirtą čekių atšaukimo žurnalą. Šioje lentelėje apžvelgiami čekių atšaukimo metodų skirtumai.
 
@@ -57,7 +60,7 @@ Jei esate vartotojas, kuris turi peržiūrėti atšaukimus, galite patvirtinti i
 -   Norint atmesti atšaukimą reikia panaikinti čekių atšaukimo žurnalą.
 
 > [!NOTE]
-> Jei panaikinsite žurnalą, atstatymas yra pašalinamas iš sistemos, bet originalus žymės lieka su **patikrinti** puslapis. Čekio būsena nebebus **Laukia atšaukimo**.
+> Panaikinus žurnalą, iš sistemos pašalinamas atšaukimas, tačiau pradinis čekis lieka puslapyje **Čekis**. Čekio būsena nebebus **Laukia atšaukimo**.
 
 ## <a name="results-of-posting-a-reversal"></a>Atšaukimo užregistravimo rezultatai
 Užregistravus čekio atšaukimą, įvyksta tai:
@@ -78,6 +81,8 @@ Jeigu atšauktas čekis buvo išduotas klientui grąžinamų pinigų mokėjimui,
 
 -   Operacija užregistruojama pagal kliento mokėjimo atšaukimo sąskaitą, sudengimas tarp pradinio mokėjimo ir dokumento, pagal kurį mokėjimas iš pradžių buvo sudengtas, atšaukiamas (sukuriamas neigiamas mokėjimas).
 -   Mokėjimo atšaukimas taikomas pradiniam mokėjimui. Laukas **Paskutinio sudengimo kvitas** puslapyje **Kliento operacijos**, skirtas pradiniam kliento mokėjimui, atnaujinamas, kad būtų atspindimas atšauktos operacijos tiekėjo numeris.
+
+
 
 
 

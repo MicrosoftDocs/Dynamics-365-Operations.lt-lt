@@ -1,5 +1,5 @@
 ---
-title: "Sandėlio kontrolę naudojant darbo šablonai ir vieta direktyvos"
+title: "Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus"
 description: "Šiame straipsnyje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje darbas yra atliekamas."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio kontrolę naudojant darbo šablonai ir vieta direktyvos
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje darbas yra atliekamas.
 
@@ -40,7 +43,7 @@ Darbo antraštės aprašo parametrus galima naudoti norint nustatyti, kada turi 
 
 Darbo eilutės nurodo faktines užduotis, kurių reikia norint vykdyti darbą. Pvz., viena siuntimo sandėlio proceso darbo eilutė gali būti skirta prekes paimti sandėlyje, o kita eilutė – tas prekes padėti į išdėstymo sritį. Taip pat gali būti papildoma eilutė prekėms iš išdėstymo srities paimti ir dar viena eilutė prekėms į sunkvežimį pakrauti (tai yra krovimo proceso dalis). *Krypties kodas * gali būti nustatytas darbo šablono eilutėse. Krypties kodas yra susietas su vietos nurodymu ir todėl padeda užtikrinti, kad sandėlio darbas yra vykdomas tinkamoje sandėlio vietoje. 
 
-Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nustatyti apribojimą, kad konkretus šablonas būtų naudojamas tik atliekant darbą konkrečiame sandėlyje. Taip pat galite nustatyti kelis šablonus, kurie būtų naudojami siuntimo pardavimo užsakymo apdorojimo darbui kurti, atsižvelgiant į pardavimo šaltinį. Sistema naudoja ir **eilės numeris** lauką, kurį norite nustatyti tvarką, pagal kurią yra vertinamas turimas darbo šablonai. Todėl, jei turite labai specifinis klausimas dėl konkretaus darbo šabloną, jums turėtų tai mažai eilės numerį. Tada ta užklausa bus vertinama anksčiau nei kitos, bendresnės užklausos. 
+Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nustatyti apribojimą, kad konkretus šablonas būtų naudojamas tik atliekant darbą konkrečiame sandėlyje. Taip pat galite nustatyti kelis šablonus, kurie būtų naudojami siuntimo pardavimo užsakymo apdorojimo darbui kurti, atsižvelgiant į pardavimo šaltinį. Sistema naudoja lauką **Sekos numeris**, kad nustatytų galimų darbo šablonų vertinimo tvarką. Todėl, jei turite labai konkrečią užklausą dėl konkretaus darbo šablono, turėtumėte jai priskirti žemą sekos numerį. Tada ta užklausa bus vertinama anksčiau nei kitos, bendresnės užklausos. 
 
 Norėdami darbo procesą sustabdyti arba pristabdyti, galite naudoti darbo eilutės parametrą **Stabdyti darbą**. Tokiu atveju darbą atliekančio darbuotojo nebus prašoma atlikti kitą darbo eilutės veiksmą. Norėdamas pereiti prie kito veiksmo, tas arba kitas darbuotojas turi pasirinkti darbą dar kartą. Taip pat galite atskirti darbo užduotis, darbo šablono eilutėse naudodami kitą *darbo klasės ID*.
 
@@ -53,12 +56,14 @@ Kalbant apie darbo šablonus, nustatydami užklausą galite nurodyti, kada naudo
 
 Vietos nurodymo eilutės nustato papildomus vietos ieškos taisyklių taikymo apribojimus. Galite nurodyti mažiausią ir didžiausią kiekius, kuriems nurodymas būtų taikomas, taip pat galite nurodyti, kad nurodymas yra skirtas konkrečiam atsargų vienetui. Pavyzdžiui, jei matavimo vienetas yra padėklai, padėklų prekes galima padėti konkrečioje vietoje. Taip pat galite nurodyti, ar kiekis gali būti suskaidytas keliose vietose. Kaip ir vietos nurodymo antraštė, kiekviena vietos nurodymo eilutė turi sekos numerį, pagal kurį nustatoma eilučių vertinimo tvarka. 
 
-Vietos nurodymams priskiriamas vienas papildomas informacijos lygis: *vietos nurodymo veiksmai*. Galite nurodyti kelis kiekvienos eilutės vietos nurodymo veiksmus. Dar kartą, eilės numeris yra naudojamas nustatyti tvarką, pagal kurią būtų vertinami veiksmai. Šiame lygmenyje, jūs galite nustatyti užklausos apibrėžti kaip rasti geriausią vietą sandėlyje. Taip pat galite naudoti iš anksto nustatytus **strategijos** parametrus optimaliausiai vietai rasti.
+Vietos nurodymams priskiriamas vienas papildomas informacijos lygis: *vietos nurodymo veiksmai*. Galite nurodyti kelis kiekvienos eilutės vietos nurodymo veiksmus. Primename, kad sekos numeris yra naudojamas veiksmų vertinimo tvarkai nustatyti. Šiame lygyje galite nustatyti užklausą, norėdami nurodyti, kaip rasti geriausią vietą sandėlyje. Taip pat galite naudoti iš anksto nustatytus **strategijos** parametrus optimaliausiai vietai rasti.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Vietos nurodymų naudojimo pavyzdys
 
 Šiame pavyzdyje apsvarstysime pirkimo užsakymo procesą, kai vietos nurodymas turi sandėlyje rasti laisvos vietos atsargų prekėms, kurios buvo ką tik užregistruotos gavimo rampoje. Pirmiausia pabandysime sandėlyje rasti laisvos vietos, konsoliduodami esamas atsargas. Jei konsoliduoti negalima, tada turime rasti tuščią vietą. 
 
 Šiame scenarijuje turime nustatyti du vietos nurodymo veiksmus. Pirmasis sekos veiksmas turi naudoti strategiją **Konsoliduoti**, o antrasis – strategiją **Tuščia vieta, kurioje negaunama darbo**. Jei nenustatysite trečio veiksmo, skirto perpildos scenarijui tvarkyti, kai sandėlyje nėra vietos, galimi du rezultatai: darbą galima kurti net jei nėra nurodytų vietų arba darbo kūrimo procesas gali nepavykti. Rezultatas nustatomas pagal sąranką puslapyje **Vietos nurodymo klaidos**, kuriame galite nuspręsti, ar norite kiekvienam darbo užsakymų tipui nustatyti parinktį **Stabdyti darbą esant vietos nurodymo klaidai**.
+
+
 
 

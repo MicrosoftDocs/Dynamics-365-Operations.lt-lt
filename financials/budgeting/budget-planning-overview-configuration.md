@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Biudžeto planavimo peržiūra
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 
 <a name="overview-of-budget-planning"></a>Biudžeto planavimo apžvalga
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 
 Biudžeto planavimas atliekamas tada, kai sudarinėjate jūsų organizacijoje ketinamus taikyti biudžetus. Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. 
 
-Kai jūs suprantate sąvokas ir terminologiją, kurią Microsoft Dynamics 365 naudojami atliekant operacijas, bus lengviau jums vykdyti biudžeto planavimas organizacijoje.
+Kai žinote „Microsoft Dynamics 365 for Operations“ naudojamas koncepcijas ir terminus, bus lengviau įgyvendinti biudžeto planavimą savo organizacijoje.
 
 ### <a name="key-terms"></a>Pagrindiniai terminai
 
@@ -44,7 +47,7 @@ Kai jūs suprantate sąvokas ir terminologiją, kurią Microsoft Dynamics 365 na
 -   **Biudžeto planavimo etapai** – biudžeto planavimo etapuose nustatomi veiksmai, kuriuos biudžetas atlieka nuo pat pradžių iki galutinio patvirtinimo. Biudžeto planavimo etapai yra nurodyti biudžeto planavimo darbo eigose.
 -   **Biudžeto planavimo darbo eigos** – biudžeto planavimo darbo eigas sudaro ir jose nustatomi biudžeto planavimo etapai. Biudžeto planavimo darbo eigos yra susijusios su biudžeto sudarymo darbo eigomis. Biudžeto sudarymo darbo eigos yra automatizuoti ir neautomatizuoti procesai, perkeliantys biudžeto planus per biudžeto planavimo etapus.
 
-[![Biudžeto planavimo terminai](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Biudžeto planavimo terminologija](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Bendros užduotys
 
@@ -55,7 +58,7 @@ Biudžeto planavimą galima naudoti toliau pateiktoms užduotims atlikti:
 -   Automatiškai nukreipti biudžeto planus kartu su darbalapiais, pagrindimo dokumentais ir kitais priedais peržiūrai ir patvirtinimui.
 -   Konsoliduoti kelis žemesnio organizacijos lygio biudžeto planus į vieną pirminį aukštesnio organizacijos lygio biudžeto planą. Be to, galima sukurti vieną biudžeto planą aukštesniame organizacijos lygyje ir paskirstyti biudžetą žemesniems organizacijos lygiams.
 
-Biudžeto planavimas būtų susietas su kitų Microsoft Dynamics 365 operacijų modulius. Todėl galite perkelti ankstesnių biudžetų, faktinių išlaidų, ilgalaikio turto ir personalo informaciją. Kadangi biudžeto planavimas taip pat integruotas programose „Microsoft Excel“ ir „Microsoft Word“, galite naudoti jas dirbdami su biudžeto planavimo duomenimis. Pavyzdžiui, biudžeto vadybininkas gali eksportuoti padalinio biudžeto užklausą iš biudžeto plano scenarijaus į „Excel“ darbalapį. Duomenis galima analizuoti, atnaujinti ir pateikti darbalapyje, o tada publikuoti biudžeto plano eilutėse.
+Biudžeto planavimas yra integruotas kituose „Microsoft Dynamics 365 for Operations“ moduliuose. Todėl galite perkelti ankstesnių biudžetų, faktinių išlaidų, ilgalaikio turto ir personalo informaciją. Kadangi biudžeto planavimas taip pat integruotas programose „Microsoft Excel“ ir „Microsoft Word“, galite naudoti jas dirbdami su biudžeto planavimo duomenimis. Pavyzdžiui, biudžeto vadybininkas gali eksportuoti padalinio biudžeto užklausą iš biudžeto plano scenarijaus į „Excel“ darbalapį. Duomenis galima analizuoti, atnaujinti ir pateikti darbalapyje, o tada publikuoti biudžeto plano eilutėse.
 
 ## <a name="configuring-budget-planning"></a>Biudžeto planavimo konfigūravimas
 Puslapyje **Biudžeto planavimo konfigūracija** pateikiama dauguma parametrų, kurių jums gali prireikti norint nustatyti biudžeto planavimą. Toliau pateikiamuose skyriuose aprašomi kai kurie pagrindiniai veiksniai, į kuriuos turėtumėte atsižvelgti konfigūruodami biudžeto planavimą. Užbaigę konfigūraciją galite nustatyti biudžeto planavimo procesus.
@@ -64,9 +67,9 @@ Puslapyje **Biudžeto planavimo konfigūracija** pateikiama dauguma parametrų, 
 
 Neprivalomas, tačiau rekomenduojamas pirmas veiksmas yra sukurti schemą, kurioje parodoma jūsų organizacijos biudžeto rengimo procedūra. Kurdami šią schemą galite naudoti bet kurį metodą. Toliau pateikiamoje iliustracijoje rodomas bendrasis pavyzdys, kuriame skirtingiems organizacijos lygiams sukuriamos atskiros biudžeto planavimo darbo eigos. Etapai nurodomi kiekvienai darbo eigai ir kiekvienam etapui, kuriame laikomi biudžeto duomenys, priskiriami konkretūs scenarijai. Atliekami veiksmai, skirti perkelti duomenis iš vieno etapo į kitą. Pavyzdžiui, sumas galima paskirstyti arba sujungti į skirtingas sąskaitas, patvirtinimus arba kitas peržiūras. Šiame pavyzdyje pasvirasis tekstas nurodo neredaguotiną etapo scenarijų arba praeities ar ankstesniame etape patvirtintus duomenis, kurie neturėtų būti keičiami. 
 
-[![Biudžeto planavimo generinių vaistų schemos](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Biudžeto planavimo bendroji schema](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Šiame pavyzdyje, įmonių būstinės įverčių pradinio biudžeto pradinės sumos ir skirsto juos į pardavimo skyrių. Tada pardavimų skyriai įvertina ir pateikia savo prognozę atgal į būstinę, o biudžeto vadybininkas sujungia ir pakoreguoja prognozę. Galiausiai biudžeto vadybininkas siunčia pakoreguotas biudžeto sumas CFO peržiūrai, galutiniams koregavimams ir patvirtinimui. 
+Šiame pavyzdyje įmonių būstinės įvertina pradinio biudžeto pagrindines sumas ir paskirsto jas pardavimų skyriams. Tada pardavimų skyriai įvertina ir pateikia savo prognozę atgal į būstinę, o biudžeto vadybininkas sujungia ir pakoreguoja prognozę. Galiausiai biudžeto vadybininkas siunčia pakoreguotas biudžeto sumas CFO peržiūrai, galutiniams koregavimams ir patvirtinimui. 
 
 [![Biudžeto planavimo schemos pavyzdys](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
@@ -84,17 +87,17 @@ Apibrėždamas vartotojų teises biudžeto planavimas gali naudoti vieną iš dv
 
 Biudžeto planavimo darbo eigos naudojamos kartu su biudžeto sudarymo darbo eigomis, kad būtų galima valdyti biudžeto planų kūrimą ir raidą.
 
-Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susijusi su biudžeto sudarymo darbo eiga. Biudžeto tvarkymo darbo eigos yra viena iš darbo eigos tipai, kurie naudojami visoje Microsoft Dynamics 365 operacijas. Biudžeto sudarymo darbo eiga siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui. 
+Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susijusi su biudžeto sudarymo darbo eiga. Biudžeto sudarymo darbo eigos yra vienas iš „Microsoft Dynamics 365 for Operations“ naudojamų darbo eigos tipų. Biudžeto sudarymo darbo eiga siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui. 
 
 Puslapio **Biudžeto planavimo konfigūracija** dalyje **Darbo eigos etapai** sukuriate biudžeto planavimo darbo eigą. Ten galite pasirinkti etapus ir biudžeto sudarymo darbo eigą, kuri bus naudojama, taip pat sukonfigūruoti papildomus parametrus. 
 
 Naudinga sukurti kiekvieno biudžeto sudarymo hierarchijos lygio biudžeto planavimo darbo eigą. Tada priskiriate biudžeto sudarymo darbo eigą, kurioje yra elementų, atitinkančių biudžeto planavimo darbo eigos etapus. Pirmiau šiame straipsnyje pateiktame schemos pavyzdyje viena biudžeto planavimo darbo eiga būtų sukurta pardavimų skyriams, o kita – būstinei. Biudžeto sudarymo darbo eiga perkelia biudžeto planus per etapus. 
 
-Puslapyje **Biudžeto sudarymo darbo eigos** sukuriate biudžeto planavimo biudžeto sudarymo darbo eigą. Procesas panašus į procesą, sukurti kitos darbo eigos Microsoft Dynamics 365 operacijoms. Toliau pateikiamoje iliustracijoje rodomas būstinės darbo eigos pavyzdys. 
+Puslapyje **Biudžeto sudarymo darbo eigos** sukuriate biudžeto planavimo biudžeto sudarymo darbo eigą. Procesas panašus į kitų „Microsoft Dynamics 365 for Operations“ darbo eigų kūrimą. Toliau pateikiamoje iliustracijoje rodomas būstinės darbo eigos pavyzdys. 
 
-[![Biudžeto tvarkymo darbo eigos, biudžeto planavimas](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Biudžeto planavimo biudžeto sudarymo darbo eiga](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-Darbo eigą sudaro elementai skirti pardavimų padaliniams ir kaupti jų pareiškimai, peržiūra biudžeto valdytojas, CFO patvirtinti, ir etapo perėjimus tarp kiekvieno etapo. 
+Darbo eiga apima paskirstymo pardavimų skyriams elementus ir jų pateikimų sujungimą, biudžeto vadybininko peržiūrą, CFO patvirtinimą ir etapų perėjimus tarp kiekvieno etapo. 
 
 Puslapio **Biudžeto planavimo konfigūracija** dalyje **Darbo eigos etapai** priskiriate biudžeto sudarymo darbo eigą kiekvienai biudžeto planavimo darbo eigai.
 
@@ -112,8 +115,8 @@ Planuodami biudžetą galite paskirstyti biudžeto plano eilučių sumas arba ki
 
 Paskirstymo grafikai automatiškai paskirsto biudžeto plano eilutes, kai apdorojama darbo eiga. Galite atlikti paskirstymus naudodamiesi bet kuriuo iš šių sąrašo **Paskirstymo metodas** metodų:
 
--   **Paskirstyti laikotarpiams** – naudokite laikotarpio paskirstymo raktą, jei norite biudžeto plano eilutes iš šaltinio biudžeto plano scenarijaus paskirstyti po paskirties scenarijaus laikotarpius. **Pastaba:** prieš galite paskirstyti per laiką, turite nustatyti laikotarpių paskirstymo raktai ant to *** laikotarpių paskirstymo kategorijoms *** puslapis.
--   **Paskirstyti dimensijoms** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus finansinėms dimensijoms paskirties scenarijuje. **Pastaba:** prieš galite paskirstyti į dimensijas, turite nustatyti biudžeto paskirstymo požiūriu dėl to *** biudžeto paskirstymo sąlygos *** puslapis.
+-   **Paskirstyti laikotarpiams** – naudokite laikotarpio paskirstymo raktą, jei norite biudžeto plano eilutes iš šaltinio biudžeto plano scenarijaus paskirstyti po paskirties scenarijaus laikotarpius. **Pastaba:** prieš paskirstydami laikotarpiams, puslapyje ****Laikotarpio paskirstymo kategorijos**** turite nustatyti laikotarpių paskirstymo raktus.
+-   **Paskirstyti dimensijoms** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus finansinėms dimensijoms paskirties scenarijuje. **Pastaba:** prieš paskirstydami dimensijoms, puslapyje ****Biudžeto paskirstymo sąlygos**** turite nustatyti biudžeto paskirstymo sąlygas.
 -   **Sujungti** – biudžeto plano eilutės sujungiamos iš susietųjų biudžeto planų šaltinio biudžeto plano scenarijaus į pirminio biudžeto plano paskirties scenarijų.
 -   **Paskirstyti** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus pirminiame biudžeto plane į paskirties scenarijų susijusiuose biudžeto planuose.
 -   **Naudoti DK paskirstymo taisykles** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus į paskirties scenarijų pagal pasirinktą DK paskirstymo taisyklę.
@@ -123,15 +126,15 @@ Paskirstymo grafikai automatiškai paskirsto biudžeto plano eilutes, kai apdoro
 
 Etapo paskirstymai naudojami norint automatiškai paskirstyti biudžeto plano eilutes apdorojant darbo eigą. Naudojant etapo paskirstymus, biudžeto plano eilutės paskirties scenarijuje gali būti sukuriamos ir modifikuojamos nedalyvaujant biudžeto plano rengėjui arba redaktoriui.
 
-Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo eiga turi būti susietas su biudžetinės sandaros darbo eiga, kuri naudoja su *** biudžeto planavimo etapas paskirstymo *** automatizuota darbo eigos užduotį. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes. 
+Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo darbo eiga turi būti susieta su biudžeto sudarymo darbo eiga, kuri naudoja automatizuotą darbo eigos užduotį ****Biudžeto planavimo etapo paskirstymas****. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes. 
 
 Pirmiau šiame straipsnyje pateiktame schemos pavyzdyje paskirstymas atliekamas tam, kad būtų galima perkelti sumas iš biudžeto plano ir scenarijų būstinės pagrindiniame etape į kitą biudžeto planą ir scenarijus pardavimų skyriaus įvertinimo etape. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
 
-[![Paskirstymo etapas](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Etapo paskirstymas](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Be to, pavyzdys schemoje, susumuoti daroma iš biudžeto planus ir scenarijai pardavimų departamentas pateikė etape tėvų planą HQ Rollup etape. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
+Be to, schemos pavyzdyje telkimas atliekamas iš etapo Pardavimo skyriaus pateiktas biudžeto planų ir scenarijų į HQ sumavimo etapo pirminį planą. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Telkimas](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioritetai
 
@@ -149,9 +152,9 @@ Kartu su biudžeto sumų stulpeliais galite nurodyti stulpelius, skirtus biudže
 
 Schemos pavyzdyje galbūt norėsite sukurti scenarijų PY pardavimai, Sutartys ir Prognozė stulpelius (toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos skyrius). Tada galite išskaidyti visus šiuo scenarijus ar vieną iš jų į atskirus stulpelius, skirtus kiekvienam finansinių metų ketvirčiui, kad pardavimų skyriaus vadybininkas galėtų tiksliai įvesti kiekvieno laikotarpio prognozės sumas.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Stulpeliai](./media/columns.png)](./media/columns.png) 
 
-Jūs taip pat nustatyti, ar kiekvieno maketo elementą (skiltis) galima redaguoti ir ar ji yra prieinama bet kurį darbalapio šabloną, sukurtą maketą. Schemos pavyzdyje, etapui Vertinimas naudojamame makete, stulpelius Prognozė galima redaguoti, o stulpelius PY pardavimai ir Sutartys galima tik skaityti.
+Taip pat nurodote, ar galima redaguoti kiekvieną maketo elementą (stulpelį) ir ar tai galima padaryti bet kuriame tam maketui sukurto darbalapio šablone. Schemos pavyzdyje, etapui Vertinimas naudojamame makete, stulpelius Prognozė galima redaguoti, o stulpelius PY pardavimai ir Sutartys galima tik skaityti.
 
 ### <a name="templates"></a>Šablonai
 
@@ -160,7 +163,7 @@ Puslapio **Biudžeto planavimo konfigūracija** dalyje **Maketai** taip pat gali
 Galite generuoti, peržiūrėti arba įkelti kiekvieno maketo šabloną. Sugeneravus šabloną, maketas užrakinamas ir negali būti redaguojamas. Šis užraktas padeda užtikrinti, kad šablono formatas atitinka biudžeto plano maketą ir kad jame yra tokie patys duomenys. Sugeneravus šabloną, jį galima peržiūrėti ir redaguoti. Pavyzdžiui, į šabloną galite įtraukti diagramų arba toliau tinkinti jo išvaizdą.
 
 > [!NOTE] 
-> Šablonas turėtų būti įrašytas į vietą, kurios vartotojas gali naudotis taip, kad ji gali būti įkeltas į maketą, baigus redagavimą. Tokiu būdu šablonas bus naudojamas su maketą naudojančiais biudžeto planais.
+> Šablonas turėtų būti įrašytas į tokią vietą, prie kurios vartotojas turi prieigą, kad baigus redaguoti jį būtų galima įkelti į maketą. Tokiu būdu šablonas bus naudojamas su maketą naudojančiais biudžeto planais.
 
 ### <a name="descriptions"></a>Aprašai
 
@@ -184,6 +187,8 @@ Meniu **Veiksmai** taip pat galite nukopijuoti esamą procesą ir sukurti naują
 
 Kita naudinga meniu **Veiksmai** komanda yra **Peržiūrėti biudžeto proceso būseną**. Ši komanda grafiškai pavaizduoja biudžeto planus vykstant procesui kartu su atitinkamais duomenimis, pvz., planų darbo eigos būsena, suvestinės pagal sumą ir vienetą ir nukėlimas į pačius biudžeto planus vienu paspaudimu.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Biudžeto planavimo proceso būsena](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

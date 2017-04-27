@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Audito strategijos pažeidimai ir atvejai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinta, kaip sugeneruoti audito atvejus iš audito strategijos taisyklių pažeidimų. Jame taip pat pateikta informacija apie įvairius būdus, kokiais audito strategijoms naudojamas dokumentų pasirinkimo datų diapazonas.
 
 <a name="how-audit-cases-are-generated"></a>Kaip generuojami audito atvejai
@@ -39,10 +42,10 @@ Audito strategijos vykdomos paketiniu režimu. Vykdant audito strategiją, visos
 
 Kiekviena strategijos taisyklė įvertina dokumentų rinkinį. Strategijos taisyklė pasirenka dokumentus, kurie patenka į dokumentų pasirinkimo datų diapazoną ir kurie atitinka nurodytus kriterijus. Pavyzdžiui, viena strategijos taisyklė gali pasirinkti išlaidų ataskaitas, kuriose yra valgiai, kainuojantys daugiau nei 50,00. Kita strategijos taisyklė gali pasirinkti tiekėjo SF, kurios mokamos konkrečiam tiekėjui. Sugeneruojami kiekvieno rinkinyje pasirinkto dokumento pažeidimai. Toks pažeidimas yra įrašas, kad konkretus dokumentas, pvz., SF 12345, neatitinka strategijos taisyklės. 
 
-Keli audito pažeidimų įrašai sugrupuojami ir susiejami su audito atvejais. Pagal numatytuosius nustatymus kiekvienos audito strategijos atvejus grupuoja audito strategijos taisyklė. Jei norite, galite pasirinkti kitus grupavimo kriterijus naudodami puslapį **Atvejų grupavimo kriterijai**. Pavyzdžiui, galite grupuoti išlaidų antraštes iš projekto ID ir tiekėjo SF iš tiekėjo sąskaitą. Šiuo atveju visos išlaidų antraštės pažeidimus, kurie turi tą patį projekto ID bus galima sugrupuoti toje pačioje byloje ir visus tiekėjo SF, kurios yra paties tiekėjo sąskaitą bus galima sugrupuoti toje pačioje byloje. 
+Keli audito pažeidimų įrašai sugrupuojami ir susiejami su audito atvejais. Pagal numatytuosius nustatymus kiekvienos audito strategijos atvejus grupuoja audito strategijos taisyklė. Jei norite, galite pasirinkti kitus grupavimo kriterijus naudodami puslapį **Atvejų grupavimo kriterijai**. Pavyzdžiui, galite grupuoti išlaidų antraštes pagal projekto ID, o tiekėjo SF pagal tiekėjo sąskaitą. Tokiu atveju, visi išlaidų antraščių pažeidimai, kurie turi tą patį projekto ID, bus sugrupuoti pagal tą patį atvejį, o visos tiekėjų SF, kurios turi tą pačią tiekėjo sąskaitą, taip pat bus sugrupuotos pagal tą patį atvejį. 
 
 > [!NOTE]
-> Audito politikos taisykles, kurios remiasi į **dubliuoti** užklausos tipas, pažeidimų nėra sugrupuoti politikos taisyklės ar kriterijai, kurie nurodomi šie į **atveju grupavimo kriterijus** puslapis. Vietoj to, jie bus grupuojami pagal kriterijus, kurie yra integruoti į audito strategijos taisyklę. Pavyzdžiui, jei strategijos taisyklė įvertina išlaidų ataskaitas dėl besidubliuojančių tos pačios sumos išlaidų, prekybininko ID ir datos, visos išlaidos, kurios šiuose laukose turės vienodas reikšmes, bus vienas atvejis. Išlaidos, kurios turi skirtingas reikšmes, bus atskiri atvejai.
+> Audito strategijos taisyklių, kurios paremtos užklausos tipu **Dublikatas**, pažeidimai nėra grupuojami pagal strategijos taisyklę arba pagal kriterijus, nurodytus puslapyje **Atvejų grupavimo kriterijai**. Vietoj to, jie bus grupuojami pagal kriterijus, kurie yra integruoti į audito strategijos taisyklę. Pavyzdžiui, jei strategijos taisyklė įvertina išlaidų ataskaitas dėl besidubliuojančių tos pačios sumos išlaidų, prekybininko ID ir datos, visos išlaidos, kurios šiuose laukose turės vienodas reikšmes, bus vienas atvejis. Išlaidos, kurios turi skirtingas reikšmes, bus atskiri atvejai.
 
 Sugeneravus audito atvejus, jie tvarkomi įprastais atvejų valdymo procesais.
 
@@ -56,6 +59,8 @@ Vykdant audito strategiją, kiekviena strategijos taisyklė pasirenka nurodyto t
 -   Strategijos taisyklių, kurios paremtos užklausos tipu **Sąrašo paieška**, atveju strategija vertina dokumentuose esančius stebimus objektus, kurie tokiais būna paskutinę dokumentų pasirinkimo datų diapazono dieną.
 
 
-Daugiau informacijos rasite [audito tvarkos taisykles](audit-policy-rules.md)
+Daugiau informacijos žr. dalyje [Audito strategijos taisyklės](audit-policy-rules.md)
+
+
 
 

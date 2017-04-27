@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Įsigijimo katalogai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aukštu lygiu aprašoma, kaip pirkimo specialistai gali nustatyti ir tvarkyti įsigijimo katalogus. Įsigijimo katalogais apibrėžiamos prekės ir paslaugos, kurias įmonės darbuotojai gali užsakyti naudoti viduje.
 
 Pirkimo specialistai gali kurti ir tvarkyti prekių ir paslaugų, kurias galima nusipirkti ir naudoti organizacijos viduje, katalogus. Nustačius katalogus, įmonės darbuotojai gali kurti pirkimo paraiškas ir jas naudodami užsakyti. Katalogus galima naudoti pirkimo strategijoms taikyti, kad darbuotojai galėtų užsakyti tik tas prekes ir paslaugas, kurias galima atsižvelgiant į jų pirkimo juridinį subjektą. Kai kuriate įsigijimo katalogą, galite atlikti toliau nurodytas užduotis.
 
 -   Prieš kurdami katalogą sukonfigūruokite savo įsigijimo kategorijų hierarchiją.
--   Nustatykite, kuriuos produktus jūsų darbuotojai gali užsakyti. Jūs galite Rodyti arba slėpti konkrečių produktų katalogas mazgo, arba galite Rodyti arba Slėpti visus produktus į mazgą.
+-   Nustatykite, kuriuos produktus jūsų darbuotojai gali užsakyti. Konkrečius produktus galite rodyti arba slėpti katalogo mazge arba galite rodyti arba slėpti visus produktus mazge.
 -   Nustatykite, kiek įsigijimo katalogų jums reikia. Prieiga prie įsigijimo katalogo priklauso nuo katalogo strategijos taisyklės, kurią sukonfigūruojate juridiniam subjektui ir valdymo vienetui, kuriam priskiriamas darbuotojas.
 
 Keli faktoriai nustato, kuriuos produktus darbuotojai gali užsakyti ir kurias įsigijimo kategorijas jie gali naudoti kurdami pirkimo paraiškas.
@@ -52,7 +55,7 @@ Pateiktoje lentelėje aprašomos užduotys, kurios turi būti užbaigtos, kad pi
 ## <a name="setting-up-a-catalog"></a>Katalogo nustatymas
 Kai įvykdytos būtinosios sąlygos, galite nustatyti katalogus. Galite kurti vieną katalogą, kurį naudos visa jūsų organizacija, arba kelis katalogus, kuriuos naudos įvairūs jūsų organizacijos padaliniai. Jei sukuriate vieną visos organizacijos katalogą, prieiga prie katalogo priklauso nuo jūsų pirkimo strategijos taisyklių.  
 
-Katalogas apibrėžia, kuriuos produktus galima užsakyti kuriant pirkimo paraiškas, bet jūs galite naudoti kategorijos prieigos strategijos taisykles papildomiems apribojimams taikyti. Kadangi katalogo mazgai yra įsigijimo kategorijos, juos galima sulaikyti naudojant kategorijos prieigos strategijos taisyklę. Šiuo atveju, šioje kategorijoje produktų nėra darbuotojams naudoti paraiškas. Galite nustatyti kategorijos prieigos politikos taisykles ir **perka politikos** puslapis. Pateiktoje lentelėje aprašomos užduotys, kurios turi būti atliktos norint nustatyti katalogą.
+Katalogas apibrėžia, kuriuos produktus galima užsakyti kuriant pirkimo paraiškas, bet jūs galite naudoti kategorijos prieigos strategijos taisykles papildomiems apribojimams taikyti. Kadangi katalogo mazgai yra įsigijimo kategorijos, juos galima sulaikyti naudojant kategorijos prieigos strategijos taisyklę. Šiuo atveju šios kategorijos produktų darbuotojai negali naudoti paraiškose. Kategorijos prieigos strategijos taisykles galite nustatyti puslapyje **Pirkimo strategijos**. Pateiktoje lentelėje aprašomos užduotys, kurios turi būti atliktos norint nustatyti katalogą.
 
 | Užduotis                                                   | Vaidmuo             | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Naujinimai publikuojami automatiškai arba neautomatiškai, atsižvelgiant į ka
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Nustatyti viešųjų pirkimų Kategorijos hierarchija (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Įsigijimo kategorijų hierarchijos nustatymas (Užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

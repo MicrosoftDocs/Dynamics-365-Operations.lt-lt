@@ -1,5 +1,5 @@
 ---
-title: "Kanban užduočių planavimą tausojančios gamybos"
+title: "„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas"
 description: "Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis."
 author: YuyuScheller
 manager: AnnBe
@@ -26,14 +26,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban užduočių planavimą tausojančios gamybos
+# <a name="kanban-job-scheduling-for-lean-manufacturing"></a>„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas
 
 Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis.  
 
 Puslapyje **„kanban“ užduočių planavimas** galima valdyti „lean manufacturing“ darbo elementų grafikus. Jame apžvelgiamos visos „kanban“ užduotys bei pateikiamos kelios filtravimo parinktys. Šiame puslapyje galite pereiti į visu kitus su „kanban“ konfigūracija ir vykdymu susijusius puslapius.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Automatinis „kanban“ užduočių planavimas
-Planavimas gali būti paleista automatiškai jei nustatysite į **Automatinis planavimas kiekis** parametras kanban teisinės valstybės principu. Jei nustatysite **Automatinis planavimas kiekis** į **1**, kiekviena kanban darbas planuojamas nedelsiant, kai jis yra sukurtas. Bus gaunamas pirmiausia apdorojamo operacijų kiekio rezultatas. Jei nustatysite didesnę už 1 parametro **Automatinio planavimo kiekis** vertę, „kanban“ užduotys prieš suplanuojant bus sugrupuojamos. Dėl šios koncepcijos „kanban“ dydžiai gali būti mažesni už faktinius ekonominio paketo dydžius. Pvz., konkrečios prekės (ar prekių grupei) ekonominės siuntos dydis yra 30. Užuot kūrę kanbans, naudojamo produkto kiekį, 30, galite konfigūruoti kanban taisyklė, kad jo 10 produkto kiekis ir ** automatinis planavimas kiekis ** vertė **3**. Nors taikant automatinio planavimo funkciją darbo elemento „kanban“ užduotys suplanuojamos tik tada, kai yra trys nesuplanuotos užduotys, tačiau planuotojui ir darbo laiko prižiūrėtojui bus visiškai aišku, kad reikia atlikti dvi nesuplanuotas užduotis. Tuomet planuotojas arba darbo laiko vadybininkas, rankiniu būdu suplanavęs šias dvi užduotis arba sukūręs papildomus „kanban“, gali įtraukti jas į gamybos procesą.
+Planavimo procesas gali būti automatiškai paleidžiamas, jei nustatysite „kanban“ taisyklės parametrą **Automatinio planavimo kiekis**. Jei nustatysite parametro **Automatinio planavimo kiekis** vertę **1**, vos tik sukūrus bet kurią „kanban“ užduotį, ji bus suplanuojama. Bus gaunamas pirmiausia apdorojamo operacijų kiekio rezultatas. Jei nustatysite didesnę už 1 parametro **Automatinio planavimo kiekis** vertę, „kanban“ užduotys prieš suplanuojant bus sugrupuojamos. Dėl šios koncepcijos „kanban“ dydžiai gali būti mažesni už faktinius ekonominio paketo dydžius. Pavyzdžiui, konkrečios prekės (ar prekių grupės) ekonominio paketo dydis yra 30. Galite nekurti „kanban“, kuriuose naudojamas produktų kiekis yra 30, o konfigūruoti „kanban" taisyklę, kurioje apibrėžtas produktų kiekis būtų 10, o parametro **Automatinio planavimo kiekis** vertė – **3**. Nors taikant automatinio planavimo funkciją darbo elemento „kanban“ užduotys suplanuojamos tik tada, kai yra trys nesuplanuotos užduotys, tačiau planuotojui ir darbo laiko prižiūrėtojui bus visiškai aišku, kad reikia atlikti dvi nesuplanuotas užduotis. Tuomet planuotojas arba darbo laiko vadybininkas, rankiniu būdu suplanavęs šias dvi užduotis arba sukūręs papildomus „kanban“, gali įtraukti jas į gamybos procesą.
 
 ## <a name="manual-scheduling"></a>Rankinis planavimas
 Programoje „Microsoft Dynamics AX 2012“ pradėta naudoti rankiniam planavimui skirta „kanban“ planavimo lenta. Rankinio planavimo funkciją galima kartu naudoti su automatiniu planavimu. Naudodami „kanban“ planavimo lentą galite suplanuoti užduotis ir panaikinti jų planavimą, jas perkelti sekoje arba iš vieno laikotarpio į kitą. Galima rankiniu būdu panaikinti pagal „kanban“ taisyklę, kurioje nustatyta parametro **Automatinis planavimas** vertė didesnė už **0**, sukurtų užduočių planavimą. Tačiau šios užduotys bus perplanuotos įvykus kitam automatinio planavimo įvykiui (t. y. sukūrus naują „kanban“). Galima naudoti toliau nurodytas rankinio planavimo parinktis.
@@ -44,10 +44,10 @@ Programoje „Microsoft Dynamics AX 2012“ pradėta naudoti rankiniam planavimu
 -   Naudojant parinktį **Pirmyn** pasirinktos suplanuotos užduotys sekoje perkeliamos pirmyn, o jų data išlieka laikotarpio diapazone.
 -   Naudojant parinktį **Ankstesnis laikotarpis** pasirinktos suplanuotos užduotys perkeliamos į ankstesnio laikotarpio pradžią arba pabaigą.
 -   Naudojant parinktį **Kitas laikotarpis** pasirinktos suplanuotos užduotys perkeliamos į kito laikotarpio pradžią arba pabaigą.
--   **Planą,**&gt;**grąžinti užduoties būsena** leidžia unschedule planinė užduotis.
+-   Naudojant parinktį **Planas** &gt; **Grąžinti užduoties būseną** galite panaikinti suplanuotos užduoties planavimą.
 
 ## <a name="lean-scheduling-groups"></a>„lean“ planavimo grupės
-Kiekviena spalva nurodo „lean“ planavimo grupę. „lean“ planavimo grupes galima savo nuožiūra nustatyti bendrosiomis grupėmis arba vienam darbo elementui priklausančiomis grupėmis. Prekes ir dimensijas galima savo nuožiūra priskirti planavimo grupėms. Pavyzdžiui, su elementu Dažymas susieta planavimo grupė gali nurodyti produkto spalvą. Darbo, kurį atliekant taikomi reikalavimai konkretiems įrankiams, elemente prekės gali būti sugrupuojamos pagal įrankio reikalavimą, o pakavimo darbo elemente prekės gali būti sugrupuojamos pagal pakuotės šabloną. „lean“ planavimo grupėse nebūtina naudoti spalvų, tačiau rekomenduojama jas naudoti. Tai pagerina matomumą į plano būsena. Pvz., labai lengva pamatyti, kokios spalvos yra gaminami kurią dieną, ir jūs galite pasakyti iš pirmo žvilgsnio, kaip šis darbas gali būti optimizuotas.
+Kiekviena spalva nurodo „lean“ planavimo grupę. „lean“ planavimo grupes galima savo nuožiūra nustatyti bendrosiomis grupėmis arba vienam darbo elementui priklausančiomis grupėmis. Prekes ir dimensijas galima savo nuožiūra priskirti planavimo grupėms. Pavyzdžiui, su elementu Dažymas susieta planavimo grupė gali nurodyti produkto spalvą. Darbo, kurį atliekant taikomi reikalavimai konkretiems įrankiams, elemente prekės gali būti sugrupuojamos pagal įrankio reikalavimą, o pakavimo darbo elemente prekės gali būti sugrupuojamos pagal pakuotės šabloną. „lean“ planavimo grupėse nebūtina naudoti spalvų, tačiau rekomenduojama jas naudoti. Tuomet pagerėja plano būsenos matomumas. Pavyzdžiui, labai lengva pamatyti, kada pagaminti konkrečių spalvų produktai, bei galima greitai nustatyti šio darbo optimizavimo veiksmus.
 
 ## <a name="work-cell-capacity-and-period-capacity"></a>Darbo elemento pajėgumas ir laikotarpio pajėgumas
 „lean“ darbo elemento pajėgumas – tai visada vienu metu vykstančių užduočių pajėgumas. Kitaip tariant, tuo pačiu metu gali būti aktyvios kelios darbo elemento užduotys. Pajėgumą galima sekti naudojant du režimus: našumo ir valandų.

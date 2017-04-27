@@ -1,6 +1,6 @@
 ---
-title: "Neseniai pridėti redagavimo funkcijų, užduočių rašytuvas"
-description: "Jei naudodami užduočių rašytuvą kurti užduotis vadovus, galite redaguoti failus daugiau efektyviai naudojant funkciją, aprašytą šiame wiki."
+title: "Neseniai įtrauktos užduočių įrašymo priemonės redagavimo funkcijos"
+description: "Jei kurdami užduočių vedlius naudosite užduočių įrašymo priemonę, galėsite efektyviau redaguoti savo failus, nes galėsite naudotis šiame „wiki“ aprašytomis funkcijomis."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,66 +25,66 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Neseniai pridėti redagavimo funkcijų, užduočių rašytuvas
+# <a name="recently-added-editing-features-in-task-recorder"></a>Neseniai įtrauktos užduočių įrašymo priemonės redagavimo funkcijos
 
-Jei naudodami užduočių rašytuvą kurti užduotis vadovus, galite redaguoti failus daugiau efektyviai naudojant funkciją, aprašytą šiame wiki.
+Jei kurdami užduočių vedlius naudosite užduočių įrašymo priemonę, galėsite efektyviau redaguoti savo failus, nes galėsite naudotis šiame „wiki“ aprašytomis funkcijomis.
 
-Šias funkcijas galima rasti, **parametrai &gt;užduočių rašytuvą &gt;redaguoti įrašą** meniu.
+Šios funkcijos pasiekiamos naudojant meniu **Parametrai &gt; Užduočių įrašymo priemonė &gt; Redaguoti įrašą**.
 
--   Įterpti veiksmus be perrašymą visą failą.
--   Perkelti veiksmus pagal subrangos užduotis be perrašymą visą failą.
--   Sutraukti įrašymo laukuose pavadinimas ir aprašas.
+-   Įterpkite veiksmus iš naujo neįrašydami viso failo.
+-   Perkelkite antrinės užduoties veiksmus iš naujo neįrašydami viso failo.
+-   Sutraukite laukus Įrašo pavadinimas ir aprašas.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Įterpti veiksmus be rerecording visą failą
-Dabar galite pridėti žingsnis visur užduoties vadovas be Groti arba perrašymo visą failą.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Įterpkite veiksmus iš naujo neįrašydami viso failo.
+Dabar galite įterpti veiksmą bet kurioje užduočių vedlio vietoje iš naujo nepaleisdami arba iš naujo neįrašydami viso failo.
 
-1.  Pasirinkite veiksmą, po kurios norite įterpti naują žingsnį. Įsitikinkite, kad žingsnis yra paryškinta.
+1.  Pasirinkite veiksmą, po kurio norite įterpti naują veiksmą. Įsitikinkite, kad veiksmas paryškintas.
 
-Kad įterpti žingsnis užduočių rašytuvą, turite atidaryti teisingame puslapyje. Teisingas puslapis yra puslapis, kuriame kyla naujas žingsnis. Užduočių rašytuvas yra mechanizmas, kuris nustato, kas puslapių yra, o bus išjungti funkciją, jei teisingas puslapis nėra atidarytas. 
+Norėdami, kad užduočių įrašymo priemonė įterptų veiksmą, turite atidaryti tinkamą puslapį. Tinkamas puslapis – tai toks puslapis, kuriame atliekamas naujas veiksmas. Užduočių įrašymo priemonė turi mechanizmą, kuris nustato, kuris puslapis aktyvusis, ir išjungia funkciją, jeigu tinkamas puslapis neatvertas. 
 
-[![1tg](./media/tg1.png)](./media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Kai esate teisingame puslapyje, **įterpti žingsnis** tampa prieinama.
+Kai esate tinkamame puslapyje, galite naudoti veiksmą **Įterpti veiksmą**.
 
-[![2TG](./media/tg2-231x300.png)](./media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Spustelėkite **įterpti žingsnis**.
+2. Spustelėkite **Įterpti veiksmą**.
 
-Kai spustelite **įterpti žingsnis**, užduočių rašytuvą persijungia į įrašymo režimu. Kokių veiksmų buvo imtasi vartotojo sąsaja dabar fiksuojamos ir papildomas vietoje veiksmus.
+Spustelėjus **Įterpti veiksmą** įjungiamas užduočių įrašymo priemonės įrašymo režimas. Atlikus bet kokį vartotojo sąsajos veiksmą dabar jis bus įrašomas ir įtraukiamas vietoje kaip veiksmas.
 
-3. Spustelėkite **sustabdyti**.
+3. Spustelėkite **Sustabdyti**.
 
-Galite pakartoti šį procesą, įtraukti kuo daugiau priemonių arba perkelti kuo daugiau subrangos užduotis pagal poreikį (žr. toliau į pietus užduotis).
+Galite pakartoti procesą, įtraukdami tiek veiksmų arba perkeldami tiek antrinių užduočių, kiek reikia (antrinės užduotys išvardijamos toliau).
 
-4. Baigę redaguoti užduoties vadovas, spustelėkite **atlikti redagavimo**, ir tada pasirinkite parinktį įrašyti arba paskelbti užduoties vadovas.
+4. Baigę redaguoti užduočių vedlį, spustelėkite **Baigta redaguoti**, o po to pasirinkite vieną iš parinkčių, skirtų įrašyti arba publikuoti užduočių vedlį.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Perkelti antrinės veiksmus, be rerecording visą failą
-Galite perkelti veiksmus pagal subrangos užduotis be Groti arba perrašymo visą failą. Taip pat galite perkelti subrangos užduotis žingsnis arba pabaigos subrangos užduotis žingsnis, jei norite grupuoti esamas blokas, veiksmus.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Perkelkite antrinės užduoties veiksmus iš naujo neįrašydami viso failo.
+Galite perkelti antrinės užduoties veiksmus iš naujo nepaleisdami arba iš naujo neįrašydami viso failo. Norėdami grupuoti esamą veiksmų bloką taip pat galite perkelti antrinės užduoties veiksmą arba paskutinės antrinės užduoties veiksmą.
 
-1.  Pasirinkite veiksmą arba subrangos užduotis veiksmą, kurį norite perkelti. Įsitikinkite, kad žingsnis yra paryškinta.
-2.  Spustelėkite elipsę, tada spustelėkite **pereiti žingsnis po**.
+1.  Pasirinkite norimą perkelti veiksmą arba antrinės užduoties veiksmą. Įsitikinkite, kad veiksmas paryškintas.
+2.  Spustelėkite daugtaškį, o po to spustelėkite **Perkelti veiksmą po to**.
 
-[![TG3](./media/tg3.png)](./media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Pasirinkite veiksmą arba subrangos užduotis veiksmą, kurį norite perkelti veiksmą arba subrangos užduotis žingsnis po. Užduočių rašytuvas pereis prie veiksmo.
+3. Pasirinkite veiksmą arba antrinės užduoties veiksmą, po kurio norite perkelti veiksmą arba antrinės užduoties veiksmą. Užduočių įrašymo priemonė perkelia veiksmą.
 
-4. Perkelti pabaigos subrangos užduotis veiksmas, pažymėkite jį, spustelėkite elipsę, spustelėkite **pereiti žingsnis po**, ir tada pasirinkite žingsnis, po kurio norite pabaigos subrangos užduotis žingsnis, kad būtų.
+4. Norėdami perkelti paskutinį antrinės užduoties veiksmą, pažymėkite jį, spustelėkite daugtaškį, spustelėkite **Perkelti veiksmą po to**, o po to pasirinkite veiksmą, po kurio norite perkelti paskutinį antrinės užduoties veiksmą.
 
-Jei norite, kad užduočių vadovą pagal subrangos užduotis, pirmiausia, sukurti subrangos užduotis žingsnis būtų antrasis etapas ir perkelkite pirmasis žingsnis į jį. Galite įtraukti arba perkelti kuo daugiau priemonių arba subrangos užduotis, kiek reikia.
+Jeigu norite, kad pirmas užduočių vedlio veiksmas būtų antrinės užduoties veiksmas, sukurkite antinės užduoties veiksmą kaip antrą veiksmą, o po to į jį perkelkite pirmą veiksmą. Galite įtraukti ar perkelti tiek veiksmų ar antrinių užduočių, kiek reikia.
 
-5. Baigę redaguoti užduoties vadovas, spustelėkite **atlikti redagavimo**, ir tada pasirinkite parinktį įrašyti arba paskelbti užduoties vadovas.
+5. Baigę redaguoti užduočių vedlį, spustelėkite **Baigta redaguoti**, o po to pasirinkite vieną iš parinkčių, skirtų įrašyti arba publikuoti užduočių vedlį.
 
 ## <a name="collapse-recording-name-and-description"></a>Sutraukti įrašo pavadinimą ir aprašą
-Jūs galite išplėsti arba sutraukti į **įrašo pavadinimas** ir **įrašymo Aprašymas** laukus. Jei šiose srityse yra sutraukti, daugiau veiksmų bus rodomas užduočių rašytuvą redagavimo srityje. 
+Laukus **Įrašo pavadinimas** ir **Įrašo aprašas** galite išplėsti arba sutraukti. Sutraukus šiuos laukus užduočių įrašymo priemonės redagavimo srityje matoma daugiau veiksmų. 
 
-[![TG4](./media/tg4-300x252.png)](./media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
 [Kurkite dokumentus ar mokymus naudodami Užduočių įrašus](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Užduočių rašytuvas greitos nuorodos](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Greita užduočių įrašymo priemonės nuoroda](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

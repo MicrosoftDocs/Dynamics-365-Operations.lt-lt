@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti darbo eigos patvirtinimo etapas"
+title: "Darbo eigos patvirtinimo veiksmo konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Konfigūruoti darbo eigos patvirtinimo etapas
+# <a name="configure-an-approval-step-in-a-workflow"></a>Darbo eigos patvirtinimo veiksmo konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 
@@ -124,10 +127,10 @@ Atlikite šiuos veiksmus, kad nurodytumėte, kam patvirtinimo veiksmas turėtų 
     </tr>
     <tr class="even">
     <td>Vartotojas</td>
-    <td>Specifinių Microsoft Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite priskirti veiksmą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti veiksmą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite perskirti dokumentą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti dokumentą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
 
 5.  Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
 6.  Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nesureaguoja, sistema atliks veiksmą su dokumentu automatiškai. Norėdami nurodyti veiksmą, kurį sistema atliks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite veiksmą.
+
+
 
 
 

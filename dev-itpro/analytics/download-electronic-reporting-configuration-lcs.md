@@ -1,6 +1,6 @@
 ---
 title: "Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“"
-description: "Šioje temoje paaiškinama, kaip parsisiųsti Elektroninė duomenų perdavimo (ER) konfigūracijos iš Microsoft Dynamics gyvavimo ciklo paslaugų (LCS)."
+description: "Šioje temoje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS)."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“
 
-Šioje temoje paaiškinama, kaip parsisiųsti Elektroninė duomenų perdavimo (ER) konfigūracijos iš Microsoft Dynamics gyvavimo ciklo paslaugų (LCS).
+Šioje temoje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 Ši mokymo programa padės jums atsisiųsti naujausias elektroninio ataskaitų (ER) konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS).
 
@@ -36,9 +36,9 @@ ms.lasthandoff: 03/31/2017
     -   Elektroninės ataskaitos funkcijų konsultantas
     -   Sistemos administratorius
 
-2.  Eikite į **organizacijos administracijos**&gt;**elektroniniai pranešimai**.
+2.  Pasirinkite **Organizacijos administravimas** &gt; **Elektroninės ataskaitos**.
 3.  Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **Microsoft**.
-4.  Plytelėje **Microsoft** spustelėkite **Saugyklos**. [![Update-er-from-LCS-for-MS-Open-MS-Repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+4.  Plytelėje **Microsoft** spustelėkite **Saugyklos**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 5.  Puslapio **Konfigūracijų saugyklos** tinklelyje pasirinkite esamą tipo **LCS** saugyklą. Jei ši saugykla tinklelyje nerodoma, atlikite tolesnius veiksmus.
     1.  Spustelėdami **Įtraukti** įtraukite naują saugyklą.
     2.  Pasirinkite **LCS** kaip saugyklos tipą.
@@ -47,12 +47,12 @@ ms.lasthandoff: 03/31/2017
     5.  Spustelėkite **Gerai**, kad patvirtintumėte naują saugyklos įrašą.
     6.  Tinklelyje pasirinkite naują tipo **LCS** saugyklą.
 
-6.  Spustelėkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą. [![Update-er-from-LCS-for-MS-Make-LCS-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+6.  Spustelėkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Kairiojoje srityje esančiame konfigūracijų medyje pasirinkite reikiamą ER konfigūraciją.
 8.  „FastTab“ **Versijos** pasirinkite reikiamą pasirinktos ER konfigūracijos versiją.
-9.  Spustelėkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš LCS į dabartinį „Dynamics 365 for Operations“ egzempliorių. **Pastaba.** Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Dynamics 365 for Operations“ egzemplioriuje. [![Update-er-from-LCS-for-MS-Download-Configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Spustelėkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš LCS į dabartinį „Dynamics 365 for Operations“ egzempliorių. **Pastaba.** Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Dynamics 365 for Operations“ egzemplioriuje. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
-**Pastaba.** Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti šias problemas. Daugiau informacijos ieškokite šioje temoje susijusių straipsnių sąrašas.
+**Pastaba.** Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti šias problemas. Daugiau informacijos ieškokite šios temos susijusių straipsnių sąraše.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

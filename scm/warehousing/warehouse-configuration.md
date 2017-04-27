@@ -52,13 +52,13 @@ Sandėlio išdėstymo įgalinimo proceso dalis yra apibrėžti sandėlio zonų g
 -   **Vietų tipai** – loginis arba fizinis sandėlio vietų grupavimas. Pavyzdžiui, galite sukurti vietos tipą visoms išdėstymo vietoms. Privalomosios nuostatos **Sandėlio valdymo parametrų** puslapyje yra laikino sandėliavimo vietų tipų ir galutinės siuntimo vietos tipo apibrėžimo pagrindas.
 -   **Vietos** – žemiausias vietos informacijos lygis. Vietos naudojamos sekti, kur sandėlyje saugomos ir paimamos turimos atsargos.
 
-Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kur jūs galite naudoti tik tam tikro tipo šakiniai krautuvai. Arba, jei jūsų įmonė turi gamybos ir gatavų prekių per toje pačioje patalpoje, galbūt norėsite sukurti vieno sandėlio Dynamics 365 operacijoms bet tada atskirti šių dviejų operacijų dvi zonos grupių kūrimas. Duoti savo subjektai aprašomuosius pavadinimus, kad nesunku atpažinti juos, kai jas naudojate šabloną užklausose.
+Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kuriose galite naudoti tik tam tikro tipo krautuvą. Arba jei tos pačios jūsų įmonės patalpos naudojamos ir gamybai, ir pagamintoms prekėms, galbūt norėsite programoje „Dynamics 365 for Operations‟ sukurti vieną sandėlį, tačiau tada sukurti dvi zonų grupes ir tokiu būdu šias dvi operacijas atskirti. Objektams suteikite aprašomuosius pavadinimus – tuomet šablonų užklausose naudojant objektus bus lengva juos identifikuoti.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Vietų sandėliavimo apribojimai, vietų profiliai ir fiksuotos paėmimo vietos
 
 Turite atsižvelgti į fizinį sandėlo išdėstymą: tiek nustatyti saugojimo pajėgumams (vietų sandėliavimo apribojimams ir vietų profiliams), tiek vėlgi mėginant pasiekti optimalių sandėlio procesų. 
 
-Vietos gyvulių ribų padės užtikrinti, kad darbo nėra sukurta prašyti, kad atsargų perjungtos į vietą, kurios neturi fizinės vietos aprašą. Pavyzdžiui, jei kai kuriose vietose per sandėlį gali turėti tik vieną padėklą vietai, vieta Kojinė ribos gali būti įjungta. Į ** kiekis ** vertę galima nustatyti, kad **1**, ir ** vieneto ** vertę galima nustatyti **PL** profilis grupėje konkrečioje vietoje. 
+Taikant vietų sandėliavimo apribojimus užtikrinama, kad sukūrus darbą atsargas bus prašoma padėti ne į tokią vietą, kuri būtų fiziškai nepajėgi jų sutalpinti. Pavyzdžiui, jei tam tikrose sandėlio vietose galima sandėliuoti tik po vieną padėklą, tuomet galima įjungti vietų sandėliavimo apribojimus. Konkrečioje vietos profilių grupėje galima nustatyti lauko **Kiekis** reikšmę **1**, o lauko **Vienetas** reikšmę galima nustatyti **PL**. 
 
 Jei, norint kontroliuoti vietų pajėgumų apribojimus, reikia atlikti labiau išplėstinių skaičiavimų, galima naudoti vietų profilių nuostatas. Tokiu atveju, atliekant pajėgumų skaičiavimus, atsižvelgiama į svorį ir tūrį. 
 
@@ -66,7 +66,7 @@ Norint pasiekti optimalių išsiuntimo procesų, reikėtų įvertinti, ar reikia
 
 ### <a name="location-setup-wizard"></a>Vietos nustatymo vedlys
 
-Norėdami greitai sukurti kaip sandėlio vietas, galite naudoti su ** vietos nustatymo ** vedlys. Vykdydami šį procesą, galite lengvai išlaikyti vietų pavadinimų formatą.
+Norėdami greitai sandėlyje sukurti vietų, galite naudoti **vietos nustatymo** vedlį. Vykdydami šį procesą, galite lengvai išlaikyti vietų pavadinimų formatą.
 
 ## <a name="warehouse-processes"></a>Sandėlio procesai
 Svarbu, kad, atlikdami sandėlio konfigūraciją, sandėlio procesus įgalintumėte pagal verslo reikalavimus. Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.
@@ -75,7 +75,7 @@ Svarbu, kad, atlikdami sandėlio konfigūraciją, sandėlio procesus įgalintum�
 
 Bangos šablonai padeda įgalinti siuntimo procesą „Išleisti į sandėlį‟. Vos tik išleidžiamos užsakymo eilutės (tiesiogiai iš šaltinio dokumentų, naudojant paketinių užduočių procesus arba naudojant jau sukurtus krovinius), naudojamos bangos šablono funkcijos. 
 
-Galite sukurti trijų rūšių banga šablonai: **pristatymas**, **gamybos užsakymo**, ir **Kanban**. Parametrai yra naudojami nustatyti, kiek sistema turi automatiškai pereiti išvykstamasis darbas perdirbimo. Bangos šablonas pasirenkamas pagal bangos šablonų seką ir kriterijus, nurodytus šablone. Jei šablonas pateikiamas sekos viršuje, pirmiausia tikrinami to šablono kriterijai. Jei kriterijus galima patenkinti, bangos šablonas apdorojamas. Kitu atveju tikrinami kito šablono kriterijai ir t. t. Todėl naudinga bangos šablonų sekos sąrašo viršuje padėti šabloną su konkrečiausiais kriterijais, kad jis būtų apdorojamas pirmiausia. Pvz., šiandien norite apdoroti visą konkretaus vežėjo darbą, o kitų vežėjų darbo apdorojimą laikinai atidėti. Šiuo atveju aukščiau už kitus šablonus sekoje turėtų būti pateiktas bangos šablonas, kuriuo pasirenkamas to vežėjo darbas. Kitu atveju kitų vežėjų darbas gali būti apdorotas dar nebaigus to vežėjo darbo. 
+Galite sukurti trijų tipų bangos šablonų: **Siuntimas**, **Gamybos užsakymas** ir **Kanban**. Parametrai naudojami nustatant sistemos automatinio veikimo lygį, kuris bus taikomas apdorojant siuntimo darbą. Bangos šablonas pasirenkamas pagal bangos šablonų seką ir kriterijus, nurodytus šablone. Jei šablonas pateikiamas sekos viršuje, pirmiausia tikrinami to šablono kriterijai. Jei kriterijus galima patenkinti, bangos šablonas apdorojamas. Kitu atveju tikrinami kito šablono kriterijai ir t. t. Todėl naudinga bangos šablonų sekos sąrašo viršuje padėti šabloną su konkrečiausiais kriterijais, kad jis būtų apdorojamas pirmiausia. Pvz., šiandien norite apdoroti visą konkretaus vežėjo darbą, o kitų vežėjų darbo apdorojimą laikinai atidėti. Šiuo atveju aukščiau už kitus šablonus sekoje turėtų būti pateiktas bangos šablonas, kuriuo pasirenkamas to vežėjo darbas. Kitu atveju kitų vežėjų darbas gali būti apdorotas dar nebaigus to vežėjo darbo. 
 
 Kiekviename bangos šablone turite nurodyti bangos apdorojimo metodus. Galimi metodai skiriasi – tai priklauso nuo bangos šablono tipo.
 
@@ -107,6 +107,6 @@ Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vie
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Konfigūruoti vietose WMS palaikantis sandėlyje (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Sandėlio, kuriame veikia WMS, vietų konfigūravimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
 
 

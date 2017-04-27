@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Ilgalaikio turto nusidėvėjimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamas ilgalaikio turto nusidėvėjimas.
 
 Nusidėvėjimas yra periodinė operacija, kuri paprastai balanso sąskaitoje sumažina ilgalaikio turto vertę. Ji pelno ir nuostolio sąskaitose užrašoma kaip išlaidos. Todėl pagrindinė sąskaita paprastai yra naudojama periodiniam nusidėvėjimui balanse kredituoti. Korespondentinė sąskaita yra sąskaitų plano pelno ir nuostolio dalies sąskaita.
@@ -51,6 +54,8 @@ Kiekviena knyga turi kalendorių, kuris naudojamas nustatant ilgalaikio turto nu
 
 Bendrai naudojamus kalendorius galite kurti DK puslapyje **Finansiniai kalendoriai**.
 
-Daugiau informacijos rasite [nusidėvėjimo metodai ir konvencijos](depreciation-methods-conventions.md).
+Norėdami daugiau informacijos žr. [Nusidėvėjimo metodai ir konvencijos](depreciation-methods-conventions.md).
+
+
 
 

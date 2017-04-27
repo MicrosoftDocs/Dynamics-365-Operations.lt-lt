@@ -1,5 +1,5 @@
 ---
-title: "Planuoti krovinių gabenimo maršrutų su keliais sustojimais"
+title: "Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis"
 description: "Šiame straipsnyje aprašomi įvairūs elementai, naudojami transportavimo maršrutams programoje „Microsoft Dynamics AX“ planuoti."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planuoti krovinių gabenimo maršrutų su keliais sustojimais
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašomi įvairūs elementai, naudojami transportavimo maršrutams programoje „Microsoft Dynamics AX“ planuoti.
 
@@ -48,5 +51,7 @@ Suplanuotas maršrutas yra iš anksto nustatytas maršruto planas, kuriame nurod
 
 ## <a name="load-building-workbench"></a>Krovinio kūrimo darbo sritis
 Kroviniams nurodyti puslapyje Krovinio kūrimo darbo sritis naudojami klientų adresai ir pristatymo datos iš pardavimo užsakymų bei galimi suplanuoti maršrutai. Pagal numatytuosius parametrus darbo srityje įvedamos maršrute nurodytos reikšmės. Tačiau galite pasirinkti pradžios datą, kuri yra ankstesnė nei maršrute nurodyta pradžios data. Kai krovinys nurodomas, tikrinami visų atvirų pardavimo užsakymų pristatymo adresai ir pristatymo datos. Jei pristatymo adreso pašto kodas atitinka nurodytą tranzito punkto pašto kodą, o pristatymo data yra patenka į kriterijuose nurodytą diapazoną, kroviniui kurti pasiūlomas pardavimo užsakymas. Taip pat atsižvelgiama į krovinių šablone nurodytą apimtį. Vienu metu siūlomas tik vienas krovinys. Jei yra neįtrauktų pardavimo užsakymų, gali prireikti naudoti kitą krovinio šabloną (pvz., krovinio šabloną, skirtą didesniam sunkvežimiui ar konteineriui) arba suplanuoti papildomą pristatymą.
+
+
 
 

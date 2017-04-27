@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Šiame straipsnyje pateikiama informacija apie ataskaitų aprašus. Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas. Ataskaitos aprašas taip pat teikia pasirinkčių ir parametrų, kuriuos galite naudoti norėdami tinkinti ataskaitą. 
 
-Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas. Ataskaita apibrėžimo pateikiama parinktis ir parametrus, galite tinkinti ataskaitą. Apibrėžę eilučių aprašus ir stulpelių aprašus, turite juos sujungti į ataskaitos aprašą. Šiuo metu taip pat nustatomi kiti aprašų aspektai, pavyzdžiui, išsamumo lygis ir ataskaitos data. Tada galite įrašyti ir generuoti ataskaitą. Finansinės ataskaitos siūlo tokius išsamumo lygius.
+Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas. Ataskaitos apraše taip pat pateikiamos parinktys ir parametrai, kuriuos galite naudoti ataskaitai tinkinti. Apibrėžę eilučių aprašus ir stulpelių aprašus, turite juos sujungti į ataskaitos aprašą. Šiuo metu taip pat nustatomi kiti aprašų aspektai, pavyzdžiui, išsamumo lygis ir ataskaitos data. Tada galite įrašyti ir generuoti ataskaitą. Finansinės ataskaitos siūlo tokius išsamumo lygius.
 
 -   Finansinis
 -   Finansinis ir Sąskaitos
@@ -89,6 +89,6 @@ Toliau pateikiamoje lentelėje aprašomi ataskaitos aprašo skirtukai ir kaip na
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Finansinė atskaitomybė už Microsoft Dynamics 365 operacijoms](financial-reporting-intro.md)
+[„Microsoft Dynamics 365 for Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
 
 

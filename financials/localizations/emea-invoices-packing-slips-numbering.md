@@ -1,6 +1,6 @@
 ---
-title: "Sąskaita faktūra ir važtaraštis numeravimo Latvijai ir Lietuvai"
-description: "Šioje temoje aiškinama, kaip nustatyti sąskaitų faktūrų ir važtaraščių numeracijas, ir kaip nustatyti savarankiškai numeravimo dokumentų intervalus."
+title: "SF ir važtaraščių numeravimas (Latvija ir Lietuva)"
+description: "Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Sąskaita faktūra ir važtaraštis numeravimo Latvijai ir Lietuvai
+# <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>SF ir važtaraščių numeravimas (Latvija ir Lietuva)
 
-Šioje temoje aiškinama, kaip nustatyti sąskaitų faktūrų ir važtaraščių numeracijas, ir kaip nustatyti savarankiškai numeravimo dokumentų intervalus.
+Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus.
 
-Juridiniams asmenims, kurie turi pirminį adresą į Latviją ar Lietuvą, galite nustatyti sąlyginio numeravimo SF ir važtaraščių, kuris yra pagrįstas priskirti vartotoją arba jų grupę.
+Jei juridinio subjekto pagrindinis adresas yra Latvijoje arba Lietuvoje, galite nustatyti sąlyginę SF ir važtaraščių numeravimo funkciją, pagrįstą priskirtu vartotoju arba vartotojų grupe.
 
-## <a name="set-up-number-sequences-for-invoices-and-packing-slips"></a>Sąskaitų faktūrų ir važtaraščių numeracijų nustatymas
-Jūs galite nustatyti unikalių dokumentų numeracijas pagrindinių duomenų ir operacijų užrašai. Jei savo šalies ar regiono institucijų darbuotojams organizacijoje konkrečiam dokumentui numeraciją arba formatu, numeraciją galima susieti su dokumento tipą. Kiekvieno dokumento numeraciją galite priskirti vartotoją arba jų grupę. Tokiu būdu, tik paskirtą vartotojo arba vartotojų grupės priskirti serijos numeriai į dokumentą. Galite nustatyti numeraciją SF ir važtaraščių ant to **SF numeravimo nustatymas** puslapis. (Spustelėkite **organizacijos administracijos**&gt;**skaičių sekas**&gt;**SF numeravimo nustatymas**.) Naudoti informaciją toliau pateiktoje lentelėje užpildykite laukus dėl to **SF numeravimo nustatymas** puslapis.
+## <a name="set-up-number-sequences-for-invoices-and-packing-slips"></a>SF ir važtaraščių numeracijos nustatymas
+Galite nustatyti unikalias dokumentų numeracijas, skirtas bendrųjų duomenų įrašams ir operacijų įrašams. Jei jūsų šalies ar regiono mokesčių rinkėjai jūsų organizacijai priskiria specifinę dokumentų numeraciją arba formatą, galite numeraciją susieti su dokumento tipu. Kiekvieną dokumentų numeraciją galite priskirti vartotojui arba vartotojų grupei. Tokiu būtu tik pasirinktas vartotojas arba vartotojų grupė gali priskirti sekos numerius dokumentui. SF ir važtaraščių numeracijas galite nustatyti puslapyje **SF numeravimo nustatymas**. (Spustelėkite **Organizacijos administravimas** &gt; **Numeracijos** &gt; **SF numeravimo nustatymas**.) Naudokite tolesnėje lentelėje pateiktą informaciją, kad užpildytumėte puslapio **SF numeravimo nustatymas** laukus.
 
 <table>
 <colgroup>
@@ -48,81 +48,81 @@ Jūs galite nustatyti unikalių dokumentų numeracijas pagrindinių duomenų ir 
 <tbody>
 <tr class="odd">
 <td>Numeravimas</td>
-<td>Įveskite prefiksą dokumentų numeracija.</td>
+<td>Įveskite dokumentų numeracijos priešvardį.</td>
 </tr>
 <tr class="even">
 <td>Modulis</td>
-<td>Pasirinkite modulį, kuris bus naudojamas serijos. Pasirinkto modulio nustato pasirinktis, kurias galima naudoti su <strong>tipo</strong> srityje. Klientų sąskaitų-faktūrų ir kliento važtaraščiai, <strong>prekybos</strong> šioje srityje.</td>
+<td>Pasirinkite modulį, kuris naudos numerių seką. Pasirinktas modulis nustato, kokias parinktis galima pasirinkti lauke <strong>Tipas</strong>. Jei tvarkote kliento SF ir kliento važtaraščius, šiame lauke pasirinkite <strong>Pardavimas</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Numeracijos kodas</td>
-<td>Pasirinkite į duomenų sritį, kai prašoma serijos numeracijos kodą.</td>
+<td>Pasirinkite duomenų srities, kuriai numerių seka taikoma, numeracijos kodą.</td>
 </tr>
 <tr class="even">
 <td>Tipas</td>
-<td>Pasirinkite, ar numeracija taikoma sąskaitų-faktūrų arba važtaraščių.</td>
+<td>Pasirinkite, ar numeracija taikoma SF, ar važtaraščiams.</td>
 </tr>
 <tr class="odd">
 <td>Sąskaitos kodas</td>
-<td>Pasirinkite, kaip taikoma SF numerių serijos. Galimos toliau nurodytos pasirinktys:
+<td>Pasirinkite, kaip numerių seka taikoma SF. Galimos toliau nurodytos pasirinktys:
 <ul>
-<li><strong>Stalo</strong> – serijos galima tik vartotojas, kuris pažymėtas su <strong>kodas</strong> srityje.</li>
-<li><strong>Grupė</strong> – serijos yra vartotojų grupę, kuri yra pasirinkta ir <strong>kodas</strong> srityje.</li>
-<li><strong>Visi</strong> -serijos yra prieinama visiems naudotojams.</li>
+<li><strong>Lentelė</strong> – numerių seką gali naudoti tik lauke <strong>Kodas</strong> pasirinktas vartotojas.</li>
+<li><strong>Grupė</strong> – numerių seką gali naudoti lauke <strong>Kodas</strong> pasirinkta vartotojų grupė.</li>
+<li><strong>Visi</strong> – numerių seką gali naudoti visi vartotojai.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Kodas</td>
-<td>Pasirinkite vartotoją arba jų grupę, priskirtą numerių serijos SF numeracijos ID.</td>
+<td>Pasirinkite vartotojo arba vartotojų grupės, kuriai numerių seka priskirta SF sunumeruoti, ID.</td>
 </tr>
 <tr class="odd">
 <td>Paskutinė data</td>
-<td>Numerių serijos atnaujinimo data.</td>
+<td>Diena, kurią numerių seka buvo paskutinį kartą atnaujinta.</td>
 </tr>
 <tr class="even">
 <td>Tęsti</td>
-<td>Pasirinkite šią parinktį Norėdami ieškoti numerių serijos, kuri prie pasirinkto vartotojo arba vartotojų grupės.</td>
+<td>Pasirinktie šią parinktį, kad ieškotumėte numerių sekos, kuri priskirta pasirinktam vartotojui arba vartotojų grupei.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="set-up-document-selfnumbering-ranges"></a>Nustatyti dokumento selfnumbering diapazonai
-Galite priskirti konkrečių numerių sekas SF ir važtaraščių, kurie yra generuojami dėl **gautinos sąskaitos**, **mokėtinos sumos**, **atsargų valdymo**, ir **projektų valdymo ir apskaitos** modulių. Taip pat galite nurodyti atskirus skirtingiems vartotojams ir vartotojų grupes, klientų grupes ir tiekėjų grupių ar sandėlių numeracijas. Norėdami nustatyti kliento SF ir tiekėjo SF numeraciją, naudokite su **skaitikliai valdymo** puslapis. (Spustelėkite **organizacijos administracijos**&gt;**skaičių sekas**&gt;**skaitikliai valdymo**.) Rodoma numeracija vartotoją arba jų grupę arba specifinėmis pirkėjų grupėmis ir tiekėjų grupes. Naudoti informaciją toliau pateiktoje lentelėje užpildykite laukus dėl to **skaitikliai valdymo** puslapis.
+## <a name="set-up-document-selfnumbering-ranges"></a>Automatinio dokumento numeravimo diapazonų nustatymas
+Galite priskirti konkrečias numerių sekas SF ir važtaraščiams, kurie yra generuojami moduliuose **Gautinos sumos**, **Mokėtinos sumos**, **Atsargų valdymas** ir **Projektų valdymas ir apskaita**. Taip pat galite nurodyti atskiras numeracijas ir priskirti skirtingiems vartotojams ir vartotojų grupėms, klientų ir tiekėjų grupėms arba sandėliams. Norėdami nustatyti kliento SF ir tiekėjo SF numeracijas, naudokite puslapį **Skaitiklių valdymas**. (Spustelėkite **Organizacijos administravimas** &gt; **Numeracijos** &gt; **Skaitiklių valdymas**.) Numeraciją galite nustatyti pagal vartotoją ar vartotojų grupę arba pagal konkrečias klientų grupes ir tiekėjų grupes. Naudokite tolesnėje lentelėje pateiktą informaciją, kad užpildytumėte laukus puslapyje **Skaitiklių valdymas**.
 
 | Laukas          | aprašymas                                                                                                                                     |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Modulis         | Pasirinkite modulio, skirto pasirinktoje numeracijoje.                                                                                 |
-| Sąskaitos kodas   | Pasirinkite, ar Numeracijos kodas taikomas visiems įrašams pasirinkto modulio arba modulio konkrečiai grupei.                     |
-| Kodas           | Pasirinkite pasirinkto modulio kodas. **Pastaba:** į **kodas** lauką galima tik tada, kai **grupės** pažymėtas ir **sąskaitos kodas** srityje. |
-| Tipas           | Pasirinkite numerį ir dokumento tipą: **SF** ar **važtaraščio**.                                                                         |
-| Automatinis numeravimas | Pasirinkite šią parinktį, kad automatiškai suteikia numerį dokumentą. Rankiniu būdu galite pažymėti arba išvalyti šį variantą už atskirus dokumentus.       |
+| Modulis         | Pasirinkite modulį, kuriam taikoma pasirinkta numeracija.                                                                                 |
+| Sąskaitos kodas   | Pasirinkite, ar numeracijos kodas taikomas visiems pasirinkto modulio įrašams, ar konkrečiai modulio grupei.                     |
+| Kodas           | Pasirinkite pasirinkto modulio kodą. **Pastaba.** Lauką **Kodas** galima naudoti tik jei lauke **Sąskaitos kodas** pasirinkta parinktis **Grupė**. |
+| Tipas           | Pasirinkite dokumento tipą, kurį reikia numeruoti: **SF** arba **Važtaraštis**.                                                                         |
+| Automatinis numeravimas | Pažymėkite šią parinktį, jei norite dokumentui numerį priskirti automatiškai. Galite neautomatiškai pažymėti arba atžymėti šią parinktį atskiriems dokumentams.       |
 
-Norėdami gauti informacijos apie tai, kaip rankiniu būdu skaičius SF ir važtaraščių, pamatyti [(EEU) redaguoti pardavimo užsakymų SF ID,](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=1162853&preview=true).
+Daugiau informacijos apie tai, kaip neautomatiškai numeruoti SF ir važtaraščius, žr. [(EEU) Pardavimo užsakymų SF ID redagavimas](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=1162853&preview=true).
 
-## <a name="affected-processes"></a>Įtakos procesai
-Šių dokumentų antraštėse atnaujinamos SF ir pakuotės lapelis numeraciją:
+## <a name="affected-processes"></a>Paveikti procesai
+Toliau pateiktų dokumentų antraštės atnaujinamos naudojant SF ir važtaraščių numeraciją.
 
 -   Pardavimo užsakymai
 -   Pirkimo užsakymai
 -   Laisvos formos sąskaitos faktūros
 -   Projekto SF pasiūlymai
 
-Registruojant šiuos dokumentus, galite pasirinkti tam tikra skaičių seka, kad **numeravimas** srityje:
+Kai registruojate toliau nurodytus dokumentus, galite pasirinkti konkrečia numeraciją lauke **Numeravimas**.
 
--   Pardavimo važtaraščio
--   Pardavimams registruoti SF
--   Pirkimo registravimo važtaraštis
--   Perkant tiekėjo SF
+-   Pardavimo važtaraštis
+-   Pardavimo registravimo SF
+-   Pirkimo registravimo produkto gavimo dokumentas
+-   Pirkimo tiekėjo SF
 -   Registruoti projekto SF pasiūlymus
 -   Registruoti laisvos formos SF
 
-Be to, žemiau yra blankais, **dokumentai atnaujinti** srityje:
+Be to, toliau nurodytos formos pateikiamos lauke **Dokumentai atnaujinti**.
 
--   Pirkimo tiekėjo SF, forma,
--   Pardavimo važtaraščio registravimo forma,
--   Pardavimo SF formos komandiravimo,
--   Pirkimo registravimo produkto gavimo formą.
+-   Pirkimo tiekėjo SF forma
+-   Pardavimo važtaraščio registravimo forma
+-   Pardavimo registravimo SF forma
+-   Pirkimo registravimo produkto gavimo dokumento forma
 
-Į "**dokumentai atnaujinti**" lauko įtaka į "**dokumento statusas**"laukas"**pakavimo važtaraščio žurnalą**"ir"**SF žurnalas**". Ant **važtaraščio** kūrybą, su "**dokumento statusas**"lauko vertė yra lygi"**nė vienas**". Jei yra **važtaraščio** buvo pasirinkta lauke "**dokumentai atnaujinti**"tada savo"**dokumento būsena**"būtų"**Broken**"ir kad"**dokumento būsena**", **važtaraščio** kur viskas bus "**atšaukta**".
+Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnalas** ir **SF žurnalas** lauko **Dokumento būsena** rodiniui. Kai kuriamas **Važtaraštis** lauko **Dokumento būsena** vertė yra **Nėra**. Jei lauke **Dokumentai naujinti** buvo pasirinktas bet koks **Važtaraštis**, tada jo **Dokumento būsena** bus **Sugadintas**, o **važtaraščio** **Dokumento būsena** toje vietoje, kurioje jis buvo sukurtas, bus **Atšaukta**.
 
 

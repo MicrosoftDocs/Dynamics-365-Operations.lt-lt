@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVM mokėjimo ir apvalinimo taisyklės
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip srityje PVM rinkėjai veikia apvalinimo taisyklės nustatymas ir paaiškinamas PVM balansas vykdant užduotį Sudengti ir užregistruoti PVM.
 
-Periodiškai reikia pranešti apie PVM ir sumokėti jį mokesčių institucijoms. Tai galima padaryti paleisdami į atsiskaityti ir rašyti PVM procesas PVM puslapyje. PVM laikotarpį bus sudengta PVM apskaitą ir PVM balansas bus registruojama į PVM atsiskaitymo sąskaitą. PVM balansą, registruojamą PVM sudengimo sąskaitoje, galima apvalinti pagal mokesčių institucijos reikalavimus, nustačius apvalinimo taisyklę puslapyje PVM. 
+Periodiškai reikia pranešti apie PVM ir sumokėti jį mokesčių institucijoms. Tai galite padaryti atlikdami sudengimą ir registruodami PVM procesą puslapyje PVM. Laikotarpio PVM bus sudengtas pagal PVM sąskaitas ir PVM balansas bus registruojamas PVM sudengimo sąskaitoje. PVM balansą, registruojamą PVM sudengimo sąskaitoje, galima apvalinti pagal mokesčių institucijos reikalavimus, nustačius apvalinimo taisyklę puslapyje PVM. 
 
 Apvalinimo skirtumas užregistruojamas PVM apvalinimo sąskaitoje, pasirinktoje dalies Didžioji knyga lauke Automatinių operacijų sąskaitos.
 
@@ -42,10 +45,10 @@ Rodoma, kad bendrojo laikotarpio PVM kredito balansas yra –98 765,43. Juridini
 
 Juridinis subjektas nori naudoti apvalinimo metodą, kuris apvalina likutį iki artimiausio 1,00. Naudotojas, atsakingas už PVM apskaitą, atlieka toliau nurodytus veiksmus.
 
-1.  Spustelėkite mokesčių &gt;netiesioginiai mokesčiai &gt;PVM &gt;PVM rinkėjus
+1.  Spustelėkite Mokestis &gt; Netiesioginiai mokesčiai &gt; PVM &gt; PVM rinkėjai
 2.  „FastTab“ skirtuke Bendra esančiame lauke Apvalinimo forma pasirinkite parinktį Įprastas.
 3.  Lauke Apvalinimas įveskite 1,00.
-4.  Kai ateina laikas mokėti PVM mokesčių inspekcijai, atidarykite puslapį Sudengti ir užregistruoti PVM. (Spustelėkite mokesčių &gt;deklaracijas &gt;PVM &gt;įsikurti ir registruoti PVM.)
+4.  Kai ateina laikas mokėti PVM mokesčių inspekcijai, atidarykite puslapį Sudengti ir užregistruoti PVM. (Spustelėkite Mokestis &gt; Deklaracijos &gt; PVM &gt; Sudengti ir užregistruoti PVM.)
 5.  PVM sudengimo sąskaitoje mokesčių skolos suma 98 765,43 suapvalinama iki 98 765.
 
 Toliau pateikiamoje lentelėje parodoma, kaip 98 765,43 suma suapvalinama taikant kiekvieną apvalinimo metodą, galimą puslapio PVM rinkėjai lauke Apvalinimo forma.
@@ -61,6 +64,8 @@ Toliau pateikiamoje lentelėje parodoma, kaip 98 765,43 suma suapvalinama taikan
 > [!NOTE]                                                                                  
 > Jei pasirinksite Pranašumas, visada bus apvalinama juridinio subjekto naudai. 
 
-Daugiau informacijos rasite [PVM apžvalga](indirect-taxes-overview.md). 
+Išsamesnės informacijos žr. [PVM apžvalga](indirect-taxes-overview.md). 
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Operacijų planavimo parinktys
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje aprašomos operacijų planavimo parinktys. Galite naudoti operacijų planavimą, norėdami bendrai įvertinti gamybos procesą per tam tikrą laikotarpį.
 
 Operacijų planavimo metu apskaičiuojama toliau nurodyta gamybos užsakymo informacija.
@@ -128,6 +131,8 @@ Galite išsaugoti dabartines reikšmes kaip numatytąsias reikšmes. Galima naud
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Operacijų planavimas](operations-scheduling.md)
+
+
 
 

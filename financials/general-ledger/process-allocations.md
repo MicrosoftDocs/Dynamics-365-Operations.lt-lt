@@ -1,6 +1,6 @@
 ---
 title: Apdoroti paskirstymus
-description: "Šiame straipsnyje pateikiama informacija apie asignavimus, perdirbti juos Microsoft Dynamics 365 operacijoms, ir kaip jie gali būti naudojami biudžeto planavimo funkcijos. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui."
+description: "Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo pasirinktis „Microsoft Dynamics 365 for Operations“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Apdoroti paskirstymus
 
-Šiame straipsnyje pateikiama informacija apie asignavimus, perdirbti juos Microsoft Dynamics 365 operacijoms, ir kaip jie gali būti naudojami biudžeto planavimo funkcijos. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui.
+Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo pasirinktis „Microsoft Dynamics 365 for Operations“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui.
 
-Microsoft Dynamics 365 operacijoms suteikia šias galimybes remti šį procesą:
+„Microsoft Dynamics 365 for Operations“ pateikia tokias galimybes palaikyti šį procesą:
 
--   Rankiniu būdu paskirstyti balansų perskyrimo veiksmas naudojant apskaitos paskirstymo arba taikant finansinės dimensijos numatytųjų šablonų į dokumentą. Daugiau informacijos rasite [apskaitos paskirstymo.](\accounts-payable\accounting-distributions.md)
+-   Rankiniu būdu paskirstykite operacijų sumas apskaitos paskirstymuose naudodami skaidymo veiksmą arba dokumentui pritaikydami finansinės dimensijos numatytuosius šablonus. Daugiau informacijos rasite [Apskaitos paskirstymai.](\accounts-payable\accounting-distributions.md)
 -   Automatiškai paskirstykite operacijų sumas pagal paskirstymo sąlygas, nurodytas atskiroje pagrindinėje sąskaitoje. Paskirstymo sąskaitos įrašai kiekvienam žurnalui bus generuojami pagal procentinę dalį ir paskirties DK sąskaitą, kai apskaitos įrašas atitiks kriterijus, apibrėžtus kaip pirminė DK sąskaita.
 -   Automatiškai paskirstykite DK balansus arba fiksuotas sumas pagal DK paskirstymo taisykles. DK paskirstymo taisyklės apdorojamos periodiškai, naudojant paskirstymo žurnalus. 
 

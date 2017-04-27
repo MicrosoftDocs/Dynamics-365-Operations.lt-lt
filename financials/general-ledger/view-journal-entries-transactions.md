@@ -46,12 +46,12 @@ Be finansinių ataskaitų, galite naudoti šias DK ataskaitas, kad peržiūrėtu
 
 -   **Dimensijų ataskaita** – šioje ataskaitoje rodomos operacijos pagal dieną ir sąskaitą, taip pat galima rodyti operacijas pagal dimensiją ir laikotarpį.
 -   **DK operacijų sąrašas** – šioje ataskaitoje rodomos operacijos sąskaitos operacijų, apskaitos ir ataskaitų valiutomis.
--   **Spausdinimo leidinyje** – Ši ataskaita rodo užregistruotą žurnalą rezultatas. Galite vykdyti ataskaitą iš žurnalo paketo numeris arba žurnalo tipas, arba pridėti papildomų laukų.
+-   **Spausdinti žurnalą** – šioje ataskaitoje pateikiamas užregistruoto žurnalo rezultatas. Galite vykdyti ataskaitą pagal žurnalo paketo numerį ar žurnalo tipą arba galite įtraukti papildomų laukų.
 -   **Užregistruotos operacijos pagal žurnalą** – šioje ataskaitoje rodomos operacijas, užregistruotos į žurnalą, sugrupuotos pagal kvitą.
 -   **Operacijų sąrašas pagal datą** – šioje ataskaitoje rodomos visas operacijas pagal datą, kartu su žurnalo numeriu, kvitu ir DK sąskaita. Joje taip pat rodomos operacijos operacijų, apskaitos ir ataskaitų valiutomis.
 -   **Operacijų kilmė** – šioje operacijų ataskaitoje rodoma sąskaita pagal žurnalą ir pagal operacijų, apskaitos ir ataskaitų valiutą. Tai taip pat rodoma kiekviena žurnalo eilutė, kur buvo naudojama kaip poslinkis.
 
 
-Daugiau informacijos rasite [DK sąskaitų likučių](general-ledger-account-balances.md), [apskaitos šaltinis "Internet Explorer"](\financials\accounts-payable\accounting-source-explorer) ir [finansinė atskaitomybė](financial-reporting-getting-started.md)
+Jei reikia daugiau informacijos, žr. straipsnius [DK sąskaitos balansai](general-ledger-account-balances.md), [Apskaitos šaltinių naršyklė](\financials\accounts-payable\accounting-source-explorer) ir [Finansinės ataskaitos](financial-reporting-getting-started.md)
 
 

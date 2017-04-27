@@ -1,6 +1,6 @@
 ---
 title: Klausimynai
-description: "Šioje temoje pateikiama bendra informacija apie klausimynus, o nuorodos į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus."
+description: "Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Klausimynai
 
-Šioje temoje pateikiama bendra informacija apie klausimynus, o nuorodos į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
+[!include[banner](includes/banner.md)]
 
-Galite tinkinti savo konkrečius reikalavimus atitinkančias naudojant įvairias funkcijas, kurios yra Microsoft Dynamics 365 operacijų klausimyną. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.
+
+Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
+
+Naudodami įvairias funkcijas, kurias galima naudoti programoje „Microsoft Dynamics 365 for Operations‟, klausimyną galite tinkinti pagal konkrečius reikalavimus. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.
 
 -   Tikrinant darbuotojų ir pretendentų profesinius įgūdžius.
 -   Įvertinant, ar kurso dalyviai išmoko kurso medžiagą.
@@ -42,9 +45,9 @@ Tolesnėje lentelėje pateikiami saitai į informaciją apie pagrindines klausim
 
 | Tema| aprašymas|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip kurti klausimyną. Vykstant kūrimo procesui, nustatomos būtinosios sąlygos, atsakymai ir klausimai, tada jie jungiami į klausimyną. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus.                                                                                        |
+| [Klausimyno sudarymas](design-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip kurti klausimyną. Vykstant kūrimo procesui, nustatomos būtinosios sąlygos, atsakymai ir klausimai, tada jie jungiami į klausimyną. |
+| [Platinti ir pildyti klausimyną](distribute-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti.                                                                       |
+| [Peržiūrėti ir įvertinti klausimyno rezultatus](evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Tolesnėje lentelėje pateikiami saitai į informaciją apie pagrindines klausim
 
 [Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
 
-[Peržiūri ir klausimynų rezultatų](evaluate-questionnaire-results.md)
+[Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
+
+
 
 

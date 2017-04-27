@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Produktų konfigūravimas pagal dimensijas
 
+[!include[banner](../includes/banner.md)]
+
+
 Produktų konfigūravimas pagal dimensijas nurodo paprastą sprendimą norint kurti daug produkto variantų iš vieno bendrojo produkto ir jo KS.
 
-Dimensijos pagal produkto konfigūracijos yra viena iš trijų built-in produkto konfigūracijos technologijų. Kitos dvi technologijos yra iš anksto apibrėžti variantai ir konfigūravimas pagal apribojimus. Visos trys technologijos kaip pradžios tašką naudoja bendrąjį produktą ir naudotojui leidžia kurti daug vieno bendrojo produkto variantų.
+Produktų konfigūravimas pagal dimensijas yra viena iš trijų integruotų produktų konfigūravimo technologijų. Kitos dvi technologijos yra iš anksto apibrėžti variantai ir konfigūravimas pagal apribojimus. Visos trys technologijos kaip pradžios tašką naudoja bendrąjį produktą ir naudotojui leidžia kurti daug vieno bendrojo produkto variantų.
 
 ## <a name="key-concepts"></a>Pagrindinės koncepcijos
 Produktų konfigūravimas pagal dimensijas paremtas tolesnėmis pagrindinėmis koncepcijomis.
@@ -68,10 +71,12 @@ Konfigūracijos maršrutas nustato konfigūracijos grupių seką: kaip jos bus r
 Konfigūracijos taisyklės – tai mechanizmas, skirtas užtikrinti, kad produktas, įtrauktas į vieną KS konfigūracijos grupę, lemtų produkto kitoje tos pačios KS konfigūracijos grupėje išėmimą arba įtraukimą.
 
 ## <a name="product-modeling-process"></a>Produkto modeliavimo procesas
-Natūrali dimensijomis paremto produkto modelio kūrimo seka pradedama apibrėžiant aktualias konfigūracijos grupes. Svarbu užtikrinti, kad visi produktai, kurie bus naudojami KS, išleisti į įmonę, kuriai sukurtas produkto modelis. Su šiuos kūrimo blokus į vietą, vartotojas gali kurti KS ir priskirti konfigūracijos grupių visoms susijusioms KS eilutėms. Baigus KS konfigūracijos maršrutą galima apibrėžti užsisakyti konfigūracijos grupių tinkama tvarka. \[antraštės id = "priedas\_282671" suderinti = "alignnone" Plotis = "1187"\][![modeliavimo proceso aspektą pagrindo produktas](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) modeliavimo proceso aspektą pagrindo produktas\[/antraštė\] jei yra tam tikrų produktų iš skirtingų konfigūracijos grupės, kurios turi arba neturi būti naudojami kartu, galite sukurti konfigūracijos taisyklės, kuri vykdys šių produktų santykius. Kai, naudojant KS versiją, KS susieta su dimensijomis paremtu bendruoju produktu, ir jie abu patvirtinti bei suaktyvinti, galite kurti produktų konfigūracijų ir įvesti kiekvienos konfigūracijos pavadinimą. Konfigūracijas galima apibrėžti prieš sugeneruojant bet kokias operacijas, arba tai galima atlikti atsiradus tam tikros konfigūracijos poreikiui.
+Natūrali dimensijomis paremto produkto modelio kūrimo seka pradedama apibrėžiant aktualias konfigūracijos grupes. Svarbu užtikrinti, kad visi produktai, kurie bus naudojami KS, išleisti į įmonę, kuriai sukurtas produkto modelis. Pasirūpinęs šiais kūrimo blokais, naudotojas gali kurti KS ir visoms aktualioms KS eilutėms priskirti konfigūracijos grupes. Kai KS baigta, galima apibrėžti konfigūracijos maršrutą, kad konfigūracijos grupės būtų surikiuotos tinkama tvarka. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Dimensijomis paremtų produktų modeliavimo procesas](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Dimensijomis paremtų produktų modeliavimo procesas\[/caption\] Jei skirtingose konfigūracijos grupėse yra tam tikrų produktų, kuriuos arba reikia naudoti kartu, arba nereikia, galite sukurti konfigūracijos taisykles, kurios užtikrins šiuos produktų ryšius. Kai, naudojant KS versiją, KS susieta su dimensijomis paremtu bendruoju produktu, ir jie abu patvirtinti bei suaktyvinti, galite kurti produktų konfigūracijų ir įvesti kiekvienos konfigūracijos pavadinimą. Konfigūracijas galima apibrėžti prieš sugeneruojant bet kokias operacijas, arba tai galima atlikti atsiradus tam tikros konfigūracijos poreikiui.
 
 ### <a name="suggested-use"></a>Rekomenduojama paskirtis
 
 Konfigūravimo pagal dimensijas technologiją geriausia naudoti su ribotos įvairovės produktais su standartinių produkto dimensijų dydžio, spalvos, stiliaus deriniu ir kai konfigūracija netinka identifikuoti konkrečiam produkto variantui. Pavyzdys galėtų būti dviratis, kurio nurodytas rėmo aukštis, ratų dydis, stabdžių tipai ir skirtingos pavaros.
+
+
 
 

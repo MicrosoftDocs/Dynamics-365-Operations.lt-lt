@@ -1,5 +1,5 @@
 ---
-title: "Subalansuota interunit apskaitos žurnalai"
+title: "Susijusių vienetų apskaitos subalansuoti žurnalai"
 description: "Šiame straipsnyje parodoma, kaip automatiškai subalansuojamas žurnalas, kai puslapyje Didžioji knyga pasirinkema balansavimo finansinė dimensija."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Subalansuota interunit apskaitos žurnalai
+# <a name="balanced-journals-for-interunit-accounting"></a>Susijusių vienetų apskaitos subalansuoti žurnalai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje parodoma, kaip automatiškai subalansuojamas žurnalas, kai puslapyje Didžioji knyga pasirinkema balansavimo finansinė dimensija. 
 
@@ -34,9 +37,9 @@ Jei apskaitos įrašai nesubalansuoti finansinės dimensijos reikšmių lygiu, p
 
 |                      |           |
 |----------------------|-----------|
-| 6100-JEP-OU\_256 | 100,00 DR |
-| 6100-NY-OU\_249  | 100,00 DR |
-| 2100 – MSP-OU\_256 | 200,00 CR |
+| 6100 – MSP – OU\_256 | 100,00 DR |
+| 6100 – NY – OU\_249  | 100,00 DR |
+| 2100 – MSP – OU\_256 | 200,00 CR |
 
 Šiuo atveju nustatomi šie balansai:
 
@@ -47,8 +50,10 @@ Taigi toliau nurodyti apskaitos įrašai sukuriami automatiškai, siekiant subal
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Interunit debeto) – MSP-OU\_256 | 100,00 DR |
-| (Interunit kreditas)-NY-OU\_249 | 100,00 CR |
+| (Susiję vienetai – debetas) – MSP – OU\_256 | 100,00 DR |
+| (Susiję vienetai – kreditas) – NY – OU\_249 | 100,00 CR |
+
+
 
 
 

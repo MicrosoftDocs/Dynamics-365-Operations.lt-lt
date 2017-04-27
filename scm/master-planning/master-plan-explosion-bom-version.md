@@ -1,6 +1,6 @@
 ---
-title: "KS versiją sprogimas"
-description: "Šiame straipsnyje paaiškinama, bendrojo planavimo scenarijų, kuris apima sprogimo komplektavimo specifikacijos (KS) versija."
+title: "KS versijos išskleidimas"
+description: "Šiame straipsnyje paaiškinamas bendrojo planavimo scenarijus, apimantis KS versijos išskleidimą."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>KS versiją sprogimas
+# <a name="explosion-of-a-bom-version"></a>KS versijos išskleidimas
 
-Šiame straipsnyje paaiškinama, bendrojo planavimo scenarijų, kuris apima sprogimo komplektavimo specifikacijos (KS) versija.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje paaiškinamas bendrojo planavimo scenarijus, apimantis KS versijos išskleidimą.
 
 Komplektavimo specifikacijos (KS) versijos poreikio išskleidimas sukuria kiekvienos KS eilutės poreikį tam tikroje teritorijoje ir, galbūt, tam tikrame sandėlyje. Teritorijai būdingoje KS galima nustatyti konkretų kiekvienos KS eilutės sandėlį. Taip pat kiekvienos KS eilutės prekės dimensijos parametrai nurodo, ar sandėlis būtinas. Gautas kiekvienos KS eilutės prekės poreikis savo ruožtu tampa papildomo poreikio išskleidimo pradžios tašku. Į šį bendrojo planavimo scenarijų įeina toliau nurodytos sąlygos.
 
@@ -41,8 +44,10 @@ Tolesniame paveikslėlyje parodyta, kaip vyksta bendrojo planavimo poreikio išs
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Bendrojo planavimo - kaip nustatoma KS versijos](master-plan-bom-version-determined.md)
+[Bendrasis planavimas – kaip nustatoma KS versija](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
+
+
 
 

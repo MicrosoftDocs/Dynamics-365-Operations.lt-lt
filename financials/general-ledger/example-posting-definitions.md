@@ -1,6 +1,6 @@
 ---
 title: "Registravimo aprašai"
-description: "Šiame straipsnyje pateikiama pavyzdžių, kurie rodo, kaip parašėte apibrėžimai naudojami pirkimo užsakymo šių teisių suvaržymo ir biudžeto asignavimų."
+description: "Šiame straipsnyje pateikiami pavyzdžiai, kuriais parodoma, kaip registravimo aprašai naudojami atliekant pirkimo užsakymo biudžeto rezervavimus ir biudžeto asignavimus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Komandiruotės apibrėžimas pavyzdžiai
+# <a name="posting-definition-examples"></a>Registravimo aprašų pavyzdžiai
 
-Šiame straipsnyje pateikiama pavyzdžių, kurie rodo, kaip parašėte apibrėžimai naudojami pirkimo užsakymo šių teisių suvaržymo ir biudžeto asignavimų.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje pateikiami pavyzdžiai, kuriais parodoma, kaip registravimo aprašai naudojami atliekant pirkimo užsakymo biudžeto rezervavimus ir biudžeto asignavimus.
 
 Prieš pradėdami skaityti šią temą, turite būti susipažinę su registravimo aprašais ir operacijos registravimo aprašais. Daugiau informacijos žr. [Registravimo aprašai](posting-definitions.md). Toliau pateikti pavyzdžiai gali būti nustatyti puslapyje **Registravimo aprašai**. Kiekviename pavyzdyje yra šie skyriai:
 
@@ -39,7 +42,7 @@ Prieš pradėdami skaityti šią temą, turite būti susipažinę su registravim
 
 Kai registravimo aprašo ir sąskaitos bei operacijos dimensijų verčių srityje **Gretinimo kriterijai** sugretinamos sąskaitos ir dimensijų vertės, pagal registravimo aprašo sritį **Sugeneruoti įrašai** sugeneruojami didžiosios knygos įrašai. 
 > [!NOTE]
-> Susieti komandiruotės apibrėžimas su konkrečios operacijos tipą, naudoti su **operacijos registravimo sąvokos** puslapis. Po to, kai susiejate komandiruotės apibrėžimas operacijos tipas ir pasirinkite **naudoti registravimo sąvokos** ant, **DK parametrų** puslapyje, visos operacijos pasirinktos operacijos tipo reikia naudoti registravimo apibrėžimai.
+> Norėdami susieti registravimo aprašą su konkrečios operacijos tipu, naudokite puslapį **Operacijos registravimo aprašai**. Susiejus registravimo aprašą su operacijos tipu ir puslapyje **DK parametrai** pasirinkus **Naudoti registravimo aprašus**, su visomis pasirinkto tipo operacijomis reikės naudoti registravimo aprašus.
 
 ## <a name="example-purchase-order-encumbrances"></a>Pavyzdys: pirkimo užsakymo biudžeto rezervavimas
 Kai puslapyje **DK parametrai** pasirinkus **Įgalinti biudžeto rezervavimo procesą** įjungiamas biudžeto rezervavimo apdorojimas, norint įrašyti sąskaitų, kurias reikia rezervuoti, biudžeto rezervavimus į didžiąją knygą reikia naudoti registravimo aprašus. Daugeliu atvejų balanse rezervuojamos visų išlaidų sąskaitos. 
@@ -69,7 +72,7 @@ Sąskaitų ir dimensijų vertės gaunamos iš apskaitos paskirstymų, kuriuos į
 
 | Sąskaita + dimensijos           | Debetas  | Kreditas | Komentuoti |
 |--------------------------------|--------|--------|---------|
-| 606400-OU\_1-OU\_3566-mokymo | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Pagal registravimo aprašą sugeneruoti DK įrašai
 
@@ -77,10 +80,10 @@ Sugeneruoti knygos įrašai kuriami siekiant įrašyti į biudžeto rezervavimus
 
 | Sąskaita + dimensijos           | Debetas  | Kreditas | Komentuoti |
 |--------------------------------|--------|--------|---------|
-| 300143-OU\_1-OU\_3566-mokymo | 250,00 |        |         |
-| 300144-OU\_1-OU\_3566-mokymo |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Šiame pavyzdyje, bet kuri sąskaita, kuri yra srities Sąskaitos struktūra – pelnas ir nuostolis dalis, atitinka registravimo aprašo kriterijus. Todėl, kai 606500-OU\_1-OU\_3566-mokymas yra įvertinamas, generuojami įrašai yra sukurti abonementus, kurie yra apibrėžti ir **sukurtas įrašai** komandiruotės apibrėžimo sritį.
+Šiame pavyzdyje, bet kuri sąskaita, kuri yra srities Sąskaitos struktūra – pelnas ir nuostolis dalis, atitinka registravimo aprašo kriterijus. Todėl, kai įvertinama 606500-OU\_1-OU\_3566-Training, sąskaitose, nurodytose registravimo aprašo srityje **Sugeneruoti įrašai**, sukuriami sugeneruoti įrašai.
 
 ## <a name="example-budget-appropriations"></a>Pavyzdys: biudžeto asignavimai
 Įjungus biudžeto asignavimą puslapyje **DK parametrai** pasirenkant **Įgalinti biudžeto asignavimą**, biudžeto registro įrašams įrašyti DK reikia naudoti registravimo aprašus. Kai aktyvi ir įjungta biudžeto kontrolės konfigūracija, registravimo aprašus ir operacijos registravimo aprašus galima naudoti, kad būtų palaikomas asignavimų, tikslinimų, perkėlimų, projektų, ilgalaikio turto bei pasiūlos ir paklausos prognozių įrašų įrašymas į didžiąją knygą. 
@@ -110,7 +113,7 @@ Galite įvesti biudžeto sąskaitos įrašo sąskaitas, dimensijų vertes ir sum
 
 | Sąskaita + dimensijos           | Debetas | Kreditas | Komentuoti |
 |--------------------------------|-------|--------|---------|
-| 606400-OU\_1-OU\_3566-mokymo |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-Training |       | 250,00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Pagal registravimo aprašą sugeneruoti DK įrašai
 
@@ -118,10 +121,12 @@ Sugeneruoti didžiosios knygos įrašai sukuriami siekiant įrašyti kiekvienos 
 
 | Sąskaita + dimensijos           | Debetas  | Kreditas | Komentuoti |
 |--------------------------------|--------|--------|---------|
-| 300145-OU\_1-OU\_3566-mokymo |        | 250,00 |         |
-| 300146-OU\_1-OU\_3566-mokymo | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
+| 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-Šiame pavyzdyje, bet kuri sąskaita, kuri yra srities Sąskaitos struktūra – pelnas ir nuostolis dalis, atitinka registravimo aprašo kriterijus. Todėl, kai 606400-OU\_1-OU\_3566-mokymas yra įvertinamas, sukurtas knygos įrašai yra sukurti.
+Šiame pavyzdyje, bet kuri sąskaita, kuri yra srities Sąskaitos struktūra – pelnas ir nuostolis dalis, atitinka registravimo aprašo kriterijus. Todėl, kai įvertinama 606400-OU\_1-OU\_3566-Training, sukuriami sugeneruoti DK įrašai.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Skelbia žurnalo eilutes ir dokumentus iš &quot;Excel&quot;"
-description: "Šioje temoje aiškinama, kaip įvesti ir skelbti eilutes, skirtas bendrųjų žurnalų iš Microsoft Excel. Tai apima informaciją apie įvairius šablonus, kuriuos galite naudoti, priklausomai nuo operacijų, kurias norite įvesti."
+title: "Žurnalo eilučių ir dokumentų publikavimas iš „Excel“"
+description: "Šioje temoje aiškinama, kaip įvesti ir publikuoti bendrųjų žurnalų eilutes iš „Microsoft Excel“. Pateikiama informacija apie įvairius šablonus, kuriuos galite naudoti, priklausomai nuo įvedamų operacijų tipo."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,28 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="publish-journal-lines-and-documents-from-excel"></a>Skelbia žurnalo eilutes ir dokumentus iš "Excel"
+# <a name="publish-journal-lines-and-documents-from-excel"></a>Žurnalo eilučių ir dokumentų publikavimas iš „Excel“
 
-Šioje temoje aiškinama, kaip įvesti ir skelbti eilutes, skirtas bendrųjų žurnalų iš Microsoft Excel. Tai apima informaciją apie įvairius šablonus, kuriuos galite naudoti, priklausomai nuo operacijų, kurias norite įvesti.
+Šioje temoje aiškinama, kaip įvesti ir publikuoti bendrųjų žurnalų eilutes iš „Microsoft Excel“. Pateikiama informacija apie įvairius šablonus, kuriuos galite naudoti, priklausomai nuo įvedamų operacijų tipo.
 
-Vartotojai gali įvesti ir skelbti eilutes finansinių žurnalų iš Microsoft Excel. Po to, kai vartotojas sukuria žurnalą, kad **atidaryti programoje "Excel" eilučių** mygtukas rodo šablonus, kurie yra prieinami. Šablonai yra skirtos paremti konkrečių scenarijų, tačiau ne kiekvienas derinys sąskaitos tipas palaikomas leidinyje. Šioje lentelėje yra šablonai, kuriuos galima ir sąskaitų tipai, kuriuos ji remia.
+Vartotojai gali įvesti ir publikuoti finansinių žurnalų eilutes iš „Microsoft Excel“. Vartotojui sukūrus žurnalą naudojant mygtuką **Atidaryti eilutes programoje „Excel“** rodomi galimi naudoti šablonai. Šablonai sukurti taip, kad palaikytų tam tikrus scenarijus, tačiau žurnale palaikomi ne visi sąskaitos tipo deriniai. Šioje lentelėje rodomi galimi naudoti šablonai ir jų palaikomi sąskaitų tipai.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | **Palaikomas sąskaitų tipų**                                                                                             | **Kaip prieiti prie šablono**                                                          |
-| Didžiosios knygos žurnalo eilutės     | Sąskaita: Knygos, klientas, tiekėjas, banko korespondentinė sąskaita: DK, pirkėjų, tiekėjų, banko vidinės įmonės palaikomas.       | Pagrindinis žurnalas                                                                         |
-| SF registras         | Sąskaita: Tiekėjo korespondentinė sąskaita: vidinės įmonės DK įrašai nepalaikomi.                                                    | AP SF registrą                                                                     |
-| SF žurnalas          | Sąskaitos: Tiekėjo korespondentinė sąskaita: vidinės įmonės DK palaikomas.                                                      | AP SF žurnalas                                                                      |
+| **Šablonas**             | **Palaikomi sąskaitų tipai**                                                                                             | **Kaip prieiti prie šablono**                                                          |
+| Didžiosios knygos žurnalo eilutės     | Sąskaita: didžioji knyga, klientas, tiekėjas, banko korespondentinė sąskaita: didžioji knyga, klientas, tiekėjas, banko vidinė įmonė palaikoma.       | Pagrindinis žurnalas                                                                         |
+| SF registras         | Sąskaita: tiekėjo korespondentinė sąskaita: didžiosios knygos vidinė įmonė nepalaikoma.                                                    | Mokėtinų sumų sąskaitos faktūros registras                                                                     |
+| SF žurnalas          | Sąskaitos: tiekėjo korespondentinė sąskaita: didžiosios knygos vidinė įmonė palaikomos.                                                      | AP SF žurnalas                                                                      |
 | Tiekėjo SF           |                                                                                                                         | Tiekėjo SF                                                                          |
-| Kliento SF žurnalas | Sąskaita: Kliento korespondentinė sąskaita: vidinės įmonės DK palaikomas.                                                     | Pagrindinis žurnalas                                                                         |
-| Laisvos formos SF        |                                                                                                                         | Dėl to **laisvos formos SF** spustelėkite **atidaryti programoje "Excel"** (piktogramą Microsoft Office). |
-| Ilgalaikio turto žurnalas     | Turto knygos, bankas, klientui arba tiekėjui. Vidinės įmonės nepalaikomas.                                               | Ilgalaikio turto žurnalas                                                                     |
-| Tiekėjo mokėjimų žurnalas   | Sąskaita: Tiekėjo korespondentinė sąskaita: knygos, banko vidinė įmonė palaiko.                                                 | Tiekėjo mokėjimų žurnalas                                                                  |
-| Kliento mokėjimų žurnalas | Sąskaita: Kliento korespondentinė sąskaita: knygos, banko vidinė įmonė palaiko.                                               | Kliento mokėjimų žurnalas                                                                |
-| Projekto išlaidų žurnalas  | Sąskaita: Projektas, knygos, pirkėjo, tiekėjo korespondentinė sąskaita: palaiko projektą, DK, pirkėjo, tiekėjo vidinės įmonės. | Bendrojo žurnalo išlaidų (pagal projekto valdymo ir apskaitos)                       |
+| Kliento SF žurnalas | Sąskaita: kliento korespondentinė sąskaita: didžiosios knygos vidinė įmonė palaikoma.                                                     | Pagrindinis žurnalas                                                                         |
+| Laisvos formos SF        |                                                                                                                         | Puslapyje **Laisvos formos SF** spustelėkite **Atidaryti naudojant „Excel“** („Microsoft Office“ piktograma). |
+| Ilgalaikio turto žurnalas     | Priskirti turtą didžiajai knygai, bankui, klientui arba tiekėjui. Vidinė įmonė nepalaikoma.                                               | Ilgalaikio turto žurnalas                                                                     |
+| Tiekėjo mokėjimų žurnalas   | Sąskaita: tiekėjo korespondentinė sąskaita: didžioji knyga, banko vidinė įmonė palaikoma.                                                 | Tiekėjo mokėjimų žurnalas                                                                  |
+| Kliento mokėjimų žurnalas | Sąskaita: kliento korespondentinė sąskaita: didžioji knyga, banko vidinė įmonė palaikoma.                                               | Kliento mokėjimų žurnalas                                                                |
+| Projekto išlaidų žurnalas  | Sąskaita: projektas, didžioji knyga, klientas, tiekėjo korespondentinė sąskaita: projektas, didžioji knyga, klientas, tiekėjo vidinė įmonė palaikoma. | Bendrojo žurnalo išlaidos (dalyje Projekto valdymas ir apskaita)                       |
 
-Paskelbus linijas, jie yra patvirtinti įsitikinkite, kad jie atitinka taisykles, kurios išdėstytos finansinės žurnalai. Paskelbus linijas, vartotojams redaguoti arba registruoti kvitų iš Microsoft Dynamics 365 operacijoms. 
+Kai eilutės publikuojamos, jos įvertinamos, kad būtų įsitikinama, ar jos atitinka finansiniuose žurnaluose nustatytas taisykles. Kai eilutės paskelbtos, vartotojai gali redaguoti arba registruoti kvitus iš „Microsoft Dynamics 365 for Operations“. 
 
-Siekiant finansinių aspektų pridėjimas prie šablono, reikalingi papildomi pakeitimai. Papildomos informacijos ieškokite [aspektų pridėjimas prie Microsoft Excel šablonas](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Pridėjus matmenys subjektui, jie yra "Excel" dizaineris ir galima pridėti į šabloną.
+Norint į šabloną įtraukti finansinių dimensijų, reikalingi papildomi pokyčiai. Daugiau informacijos ieškokite [Dimensijų įtraukimas į „Microsoft Excel“ šabloną](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Kai dimensijos įtraukiamos į objektą, jas galima matyti naudojant „Excel“ kūrimo įrankį ir jas galima įtraukti į šabloną.
 
 
 

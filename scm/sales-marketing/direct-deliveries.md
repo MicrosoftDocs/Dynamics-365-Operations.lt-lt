@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Tiesioginiai pristatymai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie tiesioginius pristatymus. Tiesioginiai pristatymai yra pristatymai, kurie siunčiami tiesiogiai jūsų klientui iš tiekėjo.
 
 Tiesioginiai pristatymai taupo pristatymo laiką ir mažina su atsargų laikymu susijusias išlaidas, nes jums nereikia laikyti produktų savo sandėlyje prieš juos išsiunčiant klientui.  
@@ -49,5 +52,7 @@ Jeigu bandysite panaikinti pardavimo užsakymo eilutę, kurios pristatymo tipas 
 
 ## <a name="warehouse"></a>Sandėlis
 Kai kuriate tiesioginį pristatymą, prekės, kurias parduodate, niekada fiziškai neatvežamos į jūsų sandėlį. Tačiau vis tiek turite nurodyti sandėlį pardavimo užsakymo eilutėje. Panašiai paėmimo reikalavimai gali būti nurodyti prekės modelių grupėje. Tačiau kadangi prekės niekada fiziškai neatvežamos į sandėlį, šių reikalavimų nepaisoma, kai pardavimo užsakymas yra tiesioginis pristatymas.
+
+
 
 

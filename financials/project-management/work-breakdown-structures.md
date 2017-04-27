@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Darbo paskirstymo struktūros
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Darbo paskirstymo struktūros Darbo paskirstymo struktūra (WBS) yra projekto darbo, kuris bus atliekamas, aprašas. Tai – užduočių hierarchija, perteikianti projekto komandos supratimą apie darbo sudėtį ir kiekvieno komponento ar užduoties dydį, kainą ir trukmę. WBS turi tris pagrindinius tikslus.
@@ -39,17 +42,17 @@ WBS išsamumo laipsnis priklauso nuo vertinant reikalingo tikslumo lygio ir reik
 
 Priešingai, projektai tokiose pramonės šakose kaip žiniasklaida ir reklama, programinė įranga ir IT infrastruktūra, paprastai nesikartoja, ir produktyvumas yra susijęs su asmens, atliekančio užduotį, patirtimi ir kompetencija. Todėl šiose pramonės šakose WBS naudojama norint įvertinti projekto dydį, o ne išsamiai sekti to projekto eigą. 
 
-WBS kūrimas yra intensyvus procesas, paprastai atliekamas per ilgą laikotarpį ir kurį atliekant reikia itin įvairių žmonių bendradarbiavimo ir informacijos. Šioje temoje aprašoma, kaip galite naudoti WBS patobulinimai Microsoft Dynamics 365 operacijoms pagal jūsų poreikius sąmatas ir stebėjimo.
+WBS kūrimas yra intensyvus procesas, paprastai atliekamas per ilgą laikotarpį ir kurį atliekant reikia itin įvairių žmonių bendradarbiavimo ir informacijos. Šioje temoje aprašoma, kaip, programoje „Microsoft Dynamics 365 for Operations“ naudojant WBS patobulinimus, galima patenkinti įvertinimų ir sekimo reikalavimus.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS kūrimo būtinosios sąlygos
 Norėdami sukurti WBS, turite gebėti sukurti darbo grafiką ir įvertinti darbo kainą.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Darbo grafiko kūrimo būtinosios sąlygos
 
-Naudoti visą planavimo galimybes WBS funkcijas, atlikite tokį nustatymą:
+Norėdami naudoti visas WBS funkcijų planavimo galimybes, atlikite tolesnę sąranką.
 
 1.  Nustatykite numatytąjį kalendorių ir projekto kalendorių.
-    1.  Spustelėkite **projektų valdymo ir apskaitos**&gt;**parametrai**&gt;**Scheduling**. **Numatytojo darbo kalendoriaus** lauke nurodykite numatytąjį kalendorių. Tai bus bet kokio naujai sukurto projekto numatytasis darbo kalendorius.
+    1.  Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Planavimas**. **Numatytojo darbo kalendoriaus** lauke nurodykite numatytąjį kalendorių. Tai bus bet kokio naujai sukurto projekto numatytasis darbo kalendorius.
     2.  Numatytąjį kalendorių galite keisti konkrečiam projektui. Spustelėkite projekto informacijos puslapį ir „FastTab‟ **Projekto komanda ir planavimas** atnaujinkite **Planavimo kalendoriaus** lauką pasirinkdami kitą kalendorių.
 
 2.  Nustatykite standartines darbo dienas ir darbo valandas. Kalendorius, kurį nustatote kaip savo projekto darbo kalendorių, WBS struktūroje bus naudojamas nustatyti tolesnei informacijai.
@@ -57,13 +60,13 @@ Naudoti visą planavimo galimybes WBS funkcijas, atlikite tokį nustatymą:
 -   Darbo dienoms ir šventinėms dienoms.
 -   Darbo valandų per dieną skaičiui.
 
-Nustatyti darbo dienomis ir darbo valandomis kalendorių arba sukurti naują kalendorių, spustelėkite **organizacijos administracijos**&gt;**bendras**&gt;**kalendorius**.
+Norėdami nustatyti kalendoriaus darbo dienas ir darbo valandas arba sukurti naują kalendorių, spustelėkite **Organizacijos administravimas** &gt; **Bendra ** &gt; **Kalendoriai**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Darbo kainos įvertinimo būtinosios sąlygos
 
 Norėdami naudoti visas WBS kainos įvertinimo galimybes, turėtumėte nustatyti darbuotojų, darbo kategorijų, išlaidų, mokesčių ir prekių išlaidas bei pardavimo kainas.
 
--   Norėdami nustatyti išlaidų ir pardavimo kainą, darbo, išlaidų ir mokesčių kategorijai, spustelėkite **projektų valdymo ir apskaitos**&gt;**nustatymo**&gt;**kainas**.
+-   Norėdami nustatyti darbo, išlaidų ir mokesčių kategorijų išlaidas bei pardavimo kainą, spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainos**.
 -   Norėdami nustatyti prekių išlaidas ir pardavimo kainą, kiekvienai prekei naudokite **Prekybos sutarčių** puslapį, esantį Produktų informacijos valdymo modulio sąrašo puslapyje **Išleisti produktai**.
 
 ## <a name="creating-a-wbs"></a>WBS kūrimas
@@ -73,11 +76,11 @@ Kuriant WBS, atliekamos trys veiklos.
 2.  **Darbo grafikas** – įvertinkite laiką, kurio reikia atlikti užduočiai, nustatykite užduočių tarpusavio priklausomybes ir pasirinkite užduočių pradžios bei pabaigos datas.
 3.  **Išlaidų įvertinimas** – įvertinkite kiekvienos užduoties išlaidas.
 
-Šiuose skyriuose aptarti, kaip WBS pajėgumus padėti su kiekviena iš šios veiklos.
+Tolesniuose skyriuose aptariama, kaip WBS galimybės gali padėti vykdyti kiekvieną iš šių veiklų.
 
 ### <a name="work-decomposition"></a>Darbo skaidymas
 
-Darbo paskirstymas arba skaidymas paprastai yra pirmasis WBS kūrimo proceso veiksmas. WBS funkcija palaiko šių pagrindinių konstrukcijų darbo gedimo ar irimo. 
+Darbo paskirstymas arba skaidymas paprastai yra pirmasis WBS kūrimo proceso veiksmas. WBS funkcijos palaiko tolesnes pagrindines darbo paskirstymo arba skaidymo konstrukcijas. 
 
 **Projekto šakninė užduotis** projekto šakninė užduotis yra projekto aukščiausio lygio suvestinės užduotis. Po ja kuriamos visos kitos projekto užduotys. Šakninės užduoties pavadinimas visada nustatomas kaip projekto pavadinimas. Šakninio mazgo pastangomis, datomis ir trukme apibendrinamos po šaknine užduotimi esančių užduočių reikšmės. Šakninio mazgo ypatybių modifikuoti ir jo panaikinti negalima.
 
@@ -94,7 +97,7 @@ Atlikę tolesnes hierarchijos operacijas, galite įgalinti darbo hierarchijos k�
 **Perkėlimo į žemesnį lygį užduotis** Kai užduotį perkeliate į žemesnį lygį, ji tampa antrine prieš ją esančios užduoties užduotimi. Naujosios antrinės užduoties WBS numeris automatiškai perskaičiuojamas pagal jos naujos pirminės užduoties WBS skaičių. Pirminė užduotis dabar yra suvestinės arba konteinerio užduotis, todėl tampa savo sudedamųjų užduočių suma. 
 
 > [!NOTE] 
-> Kai įtraukiate užduotis pagal užduotį, kuri buvo lapų mazgas iki įtrauka operacijos, naujai sukurtą suvestinės užduotyje praranda savo datas, pastangų ir išteklių. Dabar ji naudoja savo naujųjų sudedamųjų užduočių reikšmių suvestinę. 
+> Kai užduotis perkeliate į žemesnį lygį nei užduotis, kuri prieš šią operaciją buvo lapo mazgas, naujai sukurta suvestinės užduotis praranda savo datas, pastangas ir išteklių skaičių. Dabar ji naudoja savo naujųjų sudedamųjų užduočių reikšmių suvestinę. 
 
 **Perkėlimo į aukštesnį lygį užduotis** Kai užduotį perkeliate į aukštesnį lygį, ji nebėra jos pirminės užduoties sudedamoji užduotis. Šios užduoties WBS numeris automatiškai perskaičiuojamas, kad atspindėtų užduoties naująjį lygį hierarchijoje. AnkstesnĖs pirminės užduoties pastangos, kaina ir datos perskaičiuojamos, ir ta užduotis neįtraukiama. 
 
@@ -102,10 +105,10 @@ Atlikę tolesnes hierarchijos operacijas, galite įgalinti darbo hierarchijos k�
 
 ### <a name="schedule-estimation"></a>Grafiko įvertinimas
 
-Grafiko įvertinimas paprastai yra antrasis veiksmas kuriant WBS. Geriausia grafiko įvertinimą atlikti sukūrus užduotis. Dėl **darbo skirstymo struktūrą** puslapio Microsoft Dynamics 365 operacija turi du skyrius. Viršutinioji sritis skirta įvertinti grafikui, o apatinėje srityje yra **Įvertintų išlaidų ir įplaukų** skirtukas, kurį galite naudoti įvertinti išlaidoms. 
+Grafiko įvertinimas paprastai yra antrasis veiksmas kuriant WBS. Geriausia grafiko įvertinimą atlikti sukūrus užduotis. „Microsoft Dynamics 365 for Operation‟ **Darbo paskirstymo struktūros** puslapį sudaro dvi dalys. Viršutinioji sritis skirta įvertinti grafikui, o apatinėje srityje yra **Įvertintų išlaidų ir įplaukų** skirtukas, kurį galite naudoti įvertinti išlaidoms. 
 **Užduočių priklausomybės** WBS struktūroje tarp užduočių galite sukurti ankstesnį ryšį. Kai užduočiai priskiriate ankstesnių užduočių, tą užduotį galite pradėti tik tada, kai atliktos visos jos ankstesnės užduotys. Planuojama užduoties pradžios data automatiškai nustatoma į vėliausią visų jos ankstesnių užduočių datą. 
 
-**Užduoties planavimas Microsoft Dynamics 365 operacijoms** nuo šių faktorių lapų mazgas užduočių planavimą:
+**Užduočių planavimas programoje „Microsoft Dynamics 365 for Operations‟** Lapo mazgų užduočių planavimas nustatomas tolesniais veiksniais.
 
 -   Ankstesnė veikla
 -   Pastanga
@@ -114,27 +117,27 @@ Grafiko įvertinimas paprastai yra antrasis veiksmas kuriant WBS. Geriausia graf
 
 Lapo mazgo užduoties, neturinčios ankstesnių užduočių, pradžios data automatiškai nustatoma į projekto planavimo pradžios datą. Lapo mazgo užduoties trukmė visada apskaičiuojama kaip darbo dienų tarp jos pradžios iki pabaigos datų skaičius. 
 
-Planavimo taisykles *** Įjungus automatinio planavimo pagalbą, į užduočių planavimas lapų mazgas užduotys, taikomos šios taisyklės:
+****Planavimo taisyklės**** Kai įjungta automatinio planavimo pagalba, lapo mazgų užduočių planavimui taikomos tolesnės taisyklės.
 
 -   Užduoties pradžios ir pabaigos datos turi būti darbo dienos, atsižvelgiant į projekto planavimo kalendorių.
 -   Užduoties, turinčios ankstesnių užduočių, pradžios data automatiškai nustatoma į vėliausią visų jos ankstesnių užduočių pabaigos datą.
 -   Užduoties pastangos automatiškai apskaičiuojamos kaip nurodyta toliau.
 
-Skaičius žmonių × × trukmė skaičius per standartinę darbo dieną projekto kalendorių. 
+Žmonių skaičius x trukmė x valandų per standartinę projekto kalendoriaus darbo dieną skaičius. 
 
-Kai kuriais atvejais galbūt norėsite nuo šių taisyklių nukrypti. Galite išjungti automatinio planavimo metu išvengti Microsoft Dynamics 365 operacijoms automatiškai nustatyti ar ištaisyti lapų mazgas užduotis savybės. Kai įvedate užduoties informaciją, pažeidžiančią bet kokias planavimo taisykles, rodoma užduoties planavimo klaidos piktograma. Jei nenorite, kad būtų rodomos planavimo klaidos, spustelėkite **Planavimo klaidos rodomos** – funkciją išjungsite. 
+Kai kuriais atvejais galbūt norėsite nuo šių taisyklių nukrypti. Automatinį planavimą galite išjungti, kad „Microsoft Dynamics 365 for Operations‟ automatiškai nenustatinėtų ir netaisytų jokių lapo mazgų užduočių ypatybių. Kai įvedate užduoties informaciją, pažeidžiančią bet kokias planavimo taisykles, rodoma užduoties planavimo klaidos piktograma. Jei nenorite, kad būtų rodomos planavimo klaidos, spustelėkite **Planavimo klaidos rodomos** – funkciją išjungsite. 
 
 > [!NOTE] 
-> Verčių santrauka arba konteinerio užduotį toliau galės būti skaičiuojama sudedant reikšmes sudarančių užduočių, neatsižvelgiant į tai, ar Automatinis planavimo pagalba yra įjungtas, ar išjungtas. 
+> Suvestinės ar konteinerio užduoties reikšmės toliau apskaičiuojamos kaip sudedamųjų užduočių reikšmių suma, neatsižvelgiant į tai, ar automatinio planavimo pagalba įjungta, ar išjungta. 
 
 **Planavimo klaidų taisymas** Kai įjungta automatinio planavimo pagalba, planavimo klaidos nėra tikėtinos. Tačiau, jei išjungiate automatinio planavimo pagalbą ir vėliau ją vėl įjungiate, WBS struktūroje gali atsirasti planavimo klaidų piktogramų. 
 
 **Planavimo klaidų taisymas pagal užduotį** Kai dukart spustelite konkrečios užduoties grafiko klaidos piktogramą, dialogo lange rodomos visos tos užduoties planavimo klaidos. Galite nuspręsti, kurias užduoties planavimo klaidas taisyti. 
 
-**Tvirtinimo visus planavimo klaidos** jei norite, kad Microsoft Dynamics 365 operacijoms nustatyti visi planavimo klaidos – WBS, į veiksmų sritį, spustelėkite **išspręsti visus planavimo neatitikimų**. 
+**Visų planavimo klaidų taisymas** Jei norite, kad „Microsoft Dynamics 365 for Operations‟ ištaisytų visas WBS planavimo klaidas, veiksmų srityje spustelėkite **Taisyti visus planavimo nesutapimus**. 
 
 > [!NOTE] 
-> Ši funkcija gali sukelti WBS modifikavimu. Klaidos taisomos tolesne tvarka.
+> Naudojant šią funkciją, WBS gali būti žymiai modifikuota. Klaidos taisomos tolesne tvarka.
 
 1.  Modifikuojamos visų užduočių įvertintos pastangos, kad jos būtų lygios pajėgumui, kuris apibrėžtas projekto kalendoriuje.
 2.  Modifikuojama kiekvienos užduoties pradžios data, kad užduotis prasidėtų atlikus visas jos ankstesnes užduotis.
@@ -145,7 +148,7 @@ Kai kuriais atvejais galbūt norėsite nuo šių taisyklių nukrypti. Galite iš
 Kaip buvo minėta pirmiau šiame dokumente, kiekvienos lapo mazgo užduoties išlaidų įvertinimas įvedamas naudojant **Įvertintų išlaidų ir įplaukų** skirtuką, esantį apatinėje **Darbo paskirstymo struktūros** puslapio srityje. 
 
 > [!NOTE] 
-> Numatomos išlaidos, santrauką arba konteinerio užduotį keisti negalima. Suvestinės užduoties išlaidų įvertinimas lygus jo lapo mazgų užduočių išlaidų įvertinimo sumai. Įvertintos bendrosios kiekvienos užduoties išlaidos apskaičiuojamos kaip tolesnių operacijų tipų įvertintų išlaidų suma.
+> Suvestinės ir konteinerio užduoties išlaidų įvertinimo modifikuoti negalima. Suvestinės užduoties išlaidų įvertinimas lygus jo lapo mazgų užduočių išlaidų įvertinimo sumai. Įvertintos bendrosios kiekvienos užduoties išlaidos apskaičiuojamos kaip tolesnių operacijų tipų įvertintų išlaidų suma.
 
 -   Darbas
 -   Prekė ar medžiaga
@@ -161,12 +164,12 @@ Kai vertinante kiekvienos užduoties darbo, medžiagų ir išlaidų sumas, įver
 
 **Išlaidų ir medžiagų sumų įvertinimas** **Įvertintų išlaidų ir įplaukų** skirtuke taip pat galima įvertinti (jei reikia) užduoties išlaidų ir medžiagų sumas. 
 
-Savikaina ir pardavimo kaina kiekvienai darbo ar išlaidų įvertinti linijos pagrindas nustatymas, kuris nustatomas kiekvienos kategorijos kainodaros stalų **projektų valdymo ir apskaitos**&gt;**nustatymo**&gt;**kainos**. Prekių išlaidos ir pardavimo kaina pagal numatytąsias nuostatas pridedamos iš prekių ar prekybos sutarčių, nurodytų Produktų informacijos valdymo modulio sąrašo puslapyje **Išleisti produktai**.
+Kiekvienos įvertinto darbo ar išlaidų eilutės išlaidos ir pardavimo kaina paremtos kiekvienos kategorijos sąranka, apibrėžta kainodaros lentelėse: **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainodara**. Prekių išlaidos ir pardavimo kaina pagal numatytąsias nuostatas pridedamos iš prekių ar prekybos sutarčių, nurodytų Produktų informacijos valdymo modulio sąrašo puslapyje **Išleisti produktai**.
 
 ## <a name="tracking-progress-on-the-wbs"></a>WBS eigos sekimas
 Kai kuriose pramonės šakose projekto eiga pagal WBS sekama labai detaliu lygiu, o kitose eiga sekama aukštesniu WBS lygiu. Šiame skyriuje aprašoma, kaip pagal savo projekto reikalavimus galite naudoti WBS sekimą. 
 
-Microsoft Dynamics 365 operacijoms turi tris projekto WBS: planavimo nuomone, pastangų stebėjimo vaizdas ir kaina sekimo Rodyti.
+„Microsoft Dynamics 365 for Operations‟ programoje yra trys projekto WBS rodiniai: Planavimo rodinys, Pastangų sekimo rodinys ir Išlaidų sekimo rodinys.
 
 ### <a name="planning-view"></a>Planavimo rodinys
 
@@ -177,7 +180,7 @@ Planavimo rodinyje rodomas planuojamas arba bazinis grafiko ir išlaidų informa
 Pastangų sekimo rodinyje rodomas WBS užduočių eigos sekimas. Jame sukauptos faktinės užduoties pastangų valandos lyginamos su suplanuotų pastangų valandomis. Pastangų sekimo rodinyje reikšmės gaunamos pagal tolesnes formules.
 
 -   Eigos procentas = faktinės pastangos iki šiol ÷ suplanuotos užduoties pastangos
--   Likusias pastangas (taip pat žinomas kaip sąmata-į-užbaigti \[t\]) = planuojamos pastangos – pastangos faktinė data
+-   Likusios pastangos (taip pat vadinamos Įvertinta prieš baigiant \[ETC\]) = suplanuotos pastangos – faktinės pastangos iki šiol
 -   Įvertinta baigus (EAC) = likusios pastangos + faktinės pastangos iki šiol
 -   Numatytas pastangų nuokrypis = suplanuotos pastangos – EAC
 
@@ -188,7 +191,7 @@ Pastangų sekimo rodinyje rodoma užduoties pastangų nuokrypio projekcija, atsi
 
 **Projekto vadovo pakartotinė pastangų projekcija** Kartais projekto vadovas arba kitas asmuo, sekantis projekto eigą, turės peržiūrėti pradinius užduoties įvertinimus. Dėl įvairių priežasčių užduotis gali būti atliekama greičiau arba lėčiau nei tikėtasi iš pradžių. Pvz., sumažinta aprėptis arba darbuotojai turi mažiau patirties negu planuota iš pradžių. Projekcijos yra tai, kaip projekto vadovas, atsižvelgdamas į dabartinę projekto būseną, suvokia įvertinimus. Apskritai nereikėtų keisti bazinių skaičių, nes projekto bazė perteikia plačiai paskelbtą dokumentą, kuriame įvertinamas projekto grafikas ir išlaidos, ir dėl kurio susitarė visos suinteresuotos projekto šalys. 
 
-Projektų vadovai gali pakeisti pastangų užduotis dviem būdais:
+Užduočių pastangas projektų vadovai gali modifikuoti dviem būdais.
 
 -   Modifikuoti likusias pastangas, kuriomis nustatyta automatiškai atnaujinti faktines likusias užduoties pastangas.
 -   Modifikuoti eigos procentą, kuriuo nustatyta automatiškai atnaujinti tikrąją užduoties eigą.
@@ -222,7 +225,7 @@ Išlaidų sekimo rodinyje rodoma užduoties išlaidų nuokrypio projekcija, atsi
 **Projekto vadovo pakartotinė išlaidų projekcija** Projektų vadovai turi naudoti CTC ir peržiūrėti pradinį užduoties išlaidų įvertinimą. Projekto vadovas gali modifikuoti CTC reikšmę ir ją nustatyti į išlaidų, kurių reikia atlikti šiai užduočiai, reikšmę. Jei modifikuojate CTC reikšmę, perskaičiuojamos užduoties CTC, EAC ir sunaudotų išlaidų procentinė dalis bei numatomas užduoties išlaidų nuokrypis. Suvestinės užduočių EAC, ETC ir sunaudotų išlaidų procentas taip pat perskaičiuojami, o jų numatomas išlaidų nuokrypis atnaujinamas. 
 
 > [!NOTE] 
-> Jei peržiūrėsite pastangų WBS užduoties pastangų stebėjimo nuomone, užduoties CTC, švietimo ir kultūros, procentinė išlaidų vartojamas ir numatomos savikainos nukrypimas visi perskaičiuoti sekimo Peržiūrėti sąnaudų. Tačiau išlaidų peržiūra neturi įtakos Pastangų sekimo rodinio reikšmėms, nes išlaidos neperžiūrimos pagal operacijos tipą (darbo, medžiagų ar išlaidų) ar projekto kategoriją. 
+> Kai Pastangų sekimo rodinyje peržiūrite WBS užduoties pastangas, užduoties CTC, EAC, sunaudotų išlaidų procentinė dalis ir numatomas išlaidų nuokrypis perskaičiuojami Išlaidų sekimo rodinyje. Tačiau išlaidų peržiūra neturi įtakos Pastangų sekimo rodinio reikšmėms, nes išlaidos neperžiūrimos pagal operacijos tipą (darbo, medžiagų ar išlaidų) ar projekto kategoriją. 
 
 **Suvestinės užduočių išlaidų projekcijų tikslinimas** Galite peržiūrėti suvestinės užduočių išlaidas, ir skaičiavimai automatiškai atliekami tolesne tvarka.
 
@@ -236,24 +239,24 @@ Išlaidų sekimo rodinyje spustelėję **Išplėsti iki lygio**, nustatysite lyg
 
 ### <a name="earned-value-management"></a>Gautos vertės valdymas
 
-Sekti projekto eigą, galite naudoti uždirbtus vertės metodu (EVM). Gautos vertės metriką galite peržiūrėti projekto vadovo vaidmenų centre. Gautos vertės diagramos komponentas rodo laipsniškai laike išdėstytas suplanuotos vertės ir faktinių išlaidų reikšmes. Iki šios datos gauta vertė rodoma kaip taškas. Laipsniškai laike išdėstyti gautos vertės duomenys šiuo metu negalimi. 
+Projekto eigai sekti galite naudoti gautos vertės metodą (EVM). Gautos vertės metriką galite peržiūrėti projekto vadovo vaidmenų centre. Gautos vertės diagramos komponentas rodo laipsniškai laike išdėstytas suplanuotos vertės ir faktinių išlaidų reikšmes. Iki šios datos gauta vertė rodoma kaip taškas. Laipsniškai laike išdėstyti gautos vertės duomenys šiuo metu negalimi. 
 
 Gautos vertės diagramoje laiko etapas rodomas pagal savaitę ar pagal mėnesį. Šiame skyriuje aprašomi trys pagrindiniai EVM komponentai: suplanuota vertė, gauta vertė ir faktinės išlaidos. 
 
 **Suplanuota vertė** EVM teorija teigia, kad planuojamos vertės brėžinys yra sparta, kuria projekto komanda planavo gauti projekto vertę. 
 
-Microsoft Dynamics 365 operacijų naudoja uždirba taisyklė, kai registravimų suplanuota vertė 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
+Brėždama suplanuotą vertę, „Microsoft Dynamics 365 for Operations‟ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
 
 Projektų valdymo ir apskaitos modulyje įvedama lapo mazgų pabaigos data ir suplanuotos jos išlaidos. Kai suplanuotos vertės grafikas rodomas pagal savaitę, visų lapo mazgų užduočių suplanuota vertė visą projekto trukmę apibendrinama pagal savaitę. 
 
 **Gauta vertė** EVM teorija teigia, kad gautos vertės brėžinys yra sparta, kuria projekto komanda faktiškai gauna projekto vertę. 
 
-Microsoft Dynamics 365 operacijų naudoja 0:100 uždirba taisyklė, kai reikšmė, gauta įvykdžius savo sklypų. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
+Brėždama gautą vertę, „Microsoft Dynamics 365 for Operations‟ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
 
 Kai skaičiuojama gauta vertė, atsižvelgiama į kiekvienos užduoties eigos procentą. Pagal gavimo taisyklę 0:100, skaičiuojant iki tam tikro laikotarpio pabaigos gautą vertę, atsižvelgiama į tik tuo laikotarpiu atliktas užduotis. Skaičiuojama visų projekto užduočių, atliktų kuriant grafiką, gauta vertė. 
 
 > [!NOTE] 
-> Šiuo metu WBS sekimo sistema neturi duomenų struktūros saugoti istorinės pažangos procentai kiekvienai užduočiai. Todėl gauta vertė gali būti deklaruojama tik iki kubo apdorojimo laiko. Kubą apdorokite reguliariai, kad atnaujintumėte gautos vertės duomenis, rodomus vaidmenų centre. 
+> Šiuo metu WBS sekimo sistema neturi duomenų struktūrų istoriniams kiekvienos užduoties eigos procentams saugoti. Todėl gauta vertė gali būti deklaruojama tik iki kubo apdorojimo laiko. Kubą apdorokite reguliariai, kad atnaujintumėte gautos vertės duomenis, rodomus vaidmenų centre. 
 
 **Faktinės išlaidos** EVM teorija teigia, kad faktinių išlaidų brėžinys yra sparta, kuria projektui išleidžiami pinigai. 
 
@@ -274,7 +277,7 @@ Jei faktinės išlaidos, patirtos per tam tikrą laikotarpį, yra didesnės už 
 Jei faktinės išlaidos, patirtos per tam tikrą laikotarpį, yra mažesnės už gautą vertę, pinigų buvo daugiau gauta nei išleista. Todėl projektas nesiekia biudžeto.
 
 ## <a name="wbs-templates"></a>WBS šablonai
-WBS šablonų funkcionalumą galite sukurti šabloną projektams. Jei, vykdant projektus, kuriuos siūlo jūsų įmonė, yra daug pasikartojančio darbo, pagalvokite, ar nereikėtų sukurti WBS šablono. 
+Naudodami WBS šablonų funkcijas, galite kurti standartinius projektų šablonus. Jei, vykdant projektus, kuriuos siūlo jūsų įmonė, yra daug pasikartojančio darbo, pagalvokite, ar nereikėtų sukurti WBS šablono. 
 
 WBS šabloną galite kurti iš esamo projekto WBS, kad, planuojant tą projektą surinktas žinias ir geriausią praktiką būtų galima dar kartą panaudoti būsimiems panašiems projektams. Tačiau kartais gali nebūti prasmės kaip šabloną naudoti visą WBS. Todėl šablonus galite kurti iš projekto WBS dalių.
 
@@ -313,5 +316,7 @@ Pastangos = išteklių skaičius × trukmė × standartinės darbo dienos valand
 Vienu metu visas planavimo klaidas galite ištaisyti spustelėdami **Taisyti visas planavimo klaidas**. 
 
 Taip pat planavimo klaidas galite taisyti atskirai – spustelėkite kiekvienos užduoties įspėjimo piktogramą.
+
+
 
 

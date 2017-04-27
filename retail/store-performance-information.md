@@ -1,6 +1,6 @@
 ---
 title: "Parduotuvės efektyvumo analizė"
-description: "Šiame straipsnyje paaiškinama, kaip galite naudoti atminties ir realaus laiko &quot;Analytics&quot; prieigos, tyrinėti ir suprasti apie parduotuvės veiklą, remiantis jūsų &quot;Microsoft Dynamics 365&quot; operacijų duomenų."
+description: "Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realaus laiko analitiką, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Operations‟ duomenis."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Parduotuvės efektyvumo analizė
 
-Šiame straipsnyje paaiškinama, kaip galite naudoti atminties ir realaus laiko "Analytics" prieigos, tyrinėti ir suprasti apie parduotuvės veiklą, remiantis jūsų "Microsoft Dynamics 365" operacijų duomenų. 
+[!include[banner](includes/banner.md)]
 
-Kaip Dynamics 365 operacijoms, vartotojai gali mokytis parduotuvėje rezultatų realiu laiku įvairių lygmenų organizacijos hierarchijos per pasirinktą laikotarpį, atidarykite paleidimo iš **kanalo santrauka** ataskaita iš bet kurios iš šių vietų:
 
--   **Mažmeninės prekybos parduotuvės valdymo** darbo srities dinamika 365 operacijoms &gt;**mažmeninės prekybos ir komercijos**&gt;**kanalai**&gt;**mažmeninės prekybos parduotuvės valdymo**&gt;**ataskaitos**&gt;**kanalo suvestinė ataskaita**
--   **Mažmeninės prekybos parduotuvės finansai** darbo srities dinamika 365 operacijoms &gt;**mažmeninės prekybos ir komercijos**&gt;**kanalai**&gt;**mažmeninės prekybos parduotuvės finansai**&gt;**ataskaitos**&gt;**kanalo suvestinė ataskaita**
--   **Užklausų ir ataskaitų** skyriuje Dynamics 365 operacijoms &gt;**mažmeninės prekybos ir komercijos**&gt;**užklausų ir ataskaitų**&gt;**pardavimų ataskaitas**&gt;**kanalo suvestinė ataskaita**
+Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realaus laiko analitiką, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Operations‟ duomenis. 
+
+Naudodami „Microsoft Dynamics 365 for Operations“ vartotojai gali tirti parduotuvės efektyvumą realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose per pasirinktą laikotarpį, atidarydami parengtą naudoti ataskaitą **Kanalo suvestinė** bet kurioje iš toliau nurodytų vietų.
+
+-   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Kanalo suvestinės ataskaita**
+-   Darbo sritis **Mažmeninės prekybos parduotuvės finansai** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Kanalo suvestinės ataskaita**
+-   Dalis **Užklausos ir ataskaitos** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Kanalo suvestinės ataskaita**
 
 Šioje ataskaitoje toliau nurodytų suvestinių momentinė kopija pateikiama kaip parduotuvės efektyvumo tikrinimo dalis.
 
@@ -42,4 +45,6 @@ Kaip Dynamics 365 operacijoms, vartotojai gali mokytis parduotuvėje rezultatų 
 -   Mokesčių suvestinė
 -   Kainų nepaisymo suvestinė
 -   Nuolaidų suvestinė
+
+
 

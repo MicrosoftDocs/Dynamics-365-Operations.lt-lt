@@ -1,6 +1,6 @@
 ---
 title: "Kreditas ir mokėjimai Gautinų sumų modulyje"
-description: "Sąskaitos gautinas kolekcijos informacijos yra valdoma viena peržiūrėti naudojant Microsoft Dynamics 365 operacijų kolekcijų puslapį. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
+description: "Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Kreditas ir mokėjimai Gautinų sumų modulyje
 
-Sąskaitos gautinas kolekcijos informacijos yra valdoma viena peržiūrėti naudojant Microsoft Dynamics 365 operacijų kolekcijų puslapį. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
+[!include[banner](../includes/banner.md)]
+
+
+Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 
 Prieš pradėdami kurti ar dirbti su mokėjimų priežiūra, turite susipažinti su šiomis sąvokomis:
 -   Klientų skirstymo pagal terminus momentinėje kopijoje yra skirstymo pagal terminus likučio informacija tam tikru metu
@@ -55,9 +58,9 @@ Kiekvienam skirstymo pagal terminus laikotarpiui skirstymo pagal terminus laikot
 Klientų telkiniai yra užklausos, nustatančios klientų įrašų grupę, kurią galima rodyti ir valdyti mokėjimų priežiūros ar skirstymo pagal terminus procesams. Naudokite klientų telkinius, norėdami filtruoti informaciją sąrašo puslapiuose Pagal terminus suskirstyti balansai, Mokėjimų priežiūros veiklos rūšys ir Rinkinių atvejai. Taip pat klientų telkinius galima naudoti filtruoti klientų sąskaitas, kurios įtraukiamos kuriant skirstymo pagal terminus momentines kopijas.
 
 ## <a name="collections-agents"></a>Mokėjimų priežiūros agentai
-Pagal numatytąją reikšmę Microsoft Dynamics 365 operacijas vartotojams peržiūrėti visa kliento informacija kolekcijų sąrašą puslapių. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
+Pagal nutylėjimą „Microsoft Dynamics 365 for Operations“ vartotojai gali peržiūrėti visą informaciją apie klientą mokėjimų priežiūros sąrašų puslapiuose. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
 
-Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas užtikrinti, kad mokėjimai yra surenkami laiku. Microsoft Dynamics 365 operacijoms, kolekcijos agentai yra darbuotojų, kurie priskirti naudotojams vartotojo nustatymų puslapyje.
+Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas užtikrinti, kad mokėjimai yra surenkami laiku. „Microsoft Dynamics 365 for Operations“ mokėjimų priežiūros agentai yra darbuotojai, paskirti vartotojams vartotojo nustatymų puslapyje.
 
 ## <a name="collections-list-pages"></a> Mokėjimų priežiūros puslapiai 
 Šie sąrašų puslapiai padės organizuoti mokėjimų priežiūros informaciją.
@@ -67,7 +70,7 @@ Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas u�
 
 > [!NOTE]
 > Skirstymo pagal terminus momentinę kopiją reikia sukurti prieš peržiūrint šiuos sąrašo puslapius. Informacija rodoma tik klientams, kuriems buvo sukurta skirstymo pagal terminus momentinė kopija. Sąrašo puslapyje rodomus įrašus galima papildomai filtruoti taip:
-<li>Pagal numatytuosius nustatymus Microsoft Dynamics 365 operacijų vartotojas turi prieigą prie visiems klientams, kurie yra Senstantis fotografiją.</li>
+<li>Pagal numatytuosius parametrus „Microsoft Dynamics 365 for Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
 <li>Jeigu yra klientų telkinys, vartotoją reikia nustatyti kaip mokėjimų priežiūros agentą, kad būtų galima naudoti telkinius filtruoti informacijai apie mokėjimų priežiūros sąrašų puslapius. Informacija apsiriboja klientais, kurie yra įrašyti į pasirinktą klientų telkinį.</li>
 <li>Jeigu vartotojas yra nustatytas tik kaip mokėjimų priežiūros agentas, sąrašų puslapyje bus tik telkiniai, kurie yra atrinkti tam mokėjimų priežiūros agentui. Mokėjimų priežiūros agentų puslapyje mokėjimų priežiūros agentui pasirinkus klientų telkinių perjungimą, tam agentui yra prieinami visi telkiniai.</li>
 
@@ -75,7 +78,7 @@ Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas u�
 ## <a name="collections-page"></a> Mokėjimų priežiūros puslapis 
 Naudokite mokėjimų priežiūros puslapį peržiūrėti, valdyti ir imtis veiksmų dėl mokėjimų priežiūros informacijos, veiklos ir klientų atvejų. 
 
-Viršutinėje srityje pasirinkto kliento rodo atvejų. Viduriniame skyde rodomas kliento operacijos. Apatinė sritis rodo veiklą klientui. Galite kurti mokėjimų priežiūros atvejus ir sekti mokėjimų priežiūros informaciją vienai ar daugiau operacijų ir veiklų. Informacija viršutiniame ir apatiniame lauke gali būti filtruojama pagal atvejį. 
+Viršutinėje srityje rodomi pasirinkto kliento atvejai. Vidurinėje srityje rodomos kliento operacijos. Apatinė sritis rodo veiklą klientui. Galite kurti mokėjimų priežiūros atvejus ir sekti mokėjimų priežiūros informaciją vienai ar daugiau operacijų ir veiklų. Informacija viršutiniame ir apatiniame lauke gali būti filtruojama pagal atvejį. 
 
 „FactBoxes“ rodo pagal terminus suskirstytus likučius ir kredito limito informaciją pasirinktam klientui. Ši informacija saugoma skirstymo pagal terminus momentinėje kopijoje. Jei reikia, galite atnaujinti skirstymo pagal terminus momentinę kopiją su dabartine informacija. 
 
@@ -86,7 +89,7 @@ Galite atsisakyti, atkurti arba pakeisti baigtas procentų notas, mokesčius ir 
 
 Šie patikslinimai įtakoja tik pažymėtas palūkanų notas, palūkanas ir į jas įtrauktus mokesčius. Naudokite veiksmus iš „Sukurti nurašymo operacijas vienu veiksmu“ skyriaus, norėdami nurašyti visus mokesčius, kuriuos klientas turi sumokėti.
 
-## <a name="create-writeoff-transactions"></a>Kurti writeoff operacijas
+## <a name="create-writeoff-transactions"></a>Nurašymo operacijų kūrimas
 Beviltiškas skolas galite nurašyti, paspaudę „Nurašyti“ „Mokėjimų priežiūros“ formoje, „Pagal terminus suskirstyti likučiai“, „Klientai“ ir „Atidaryti klientų sąskaitų sąrašą“ puslapiuose. 
 
 Kai nurašote operacijas klientui, visos operacijos klientui yra automatiškai pažymimos atsiskaitymui. Nurašoma suma priklauso nuo pažymėtų operacijų grynosios sumos. Nurašymo operacija kuriama bendrajame žurnale, ją gali sudaryti iki trijų žurnalo eilučių tipų.
@@ -100,6 +103,8 @@ Apdoroti lėšų trūkumo (NSF) mokėjimus
 --------------------------------------------
 
 NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros puslapyje. Kai paspausite šį mygtuką, mokėjimas bus atšauktas. Jei klientui taikomas NSF mokestis, sukuriama mokesčio operacija mokėjimo žurnale. Mokesčio suma grindžiama automatinių mokesčių parametrais. NSF mokėjimams automatiškai taikomi mokesčiai, kurie nurodomi pagal mokesčių grupę, pasirenkamą banko sąskaitų puslapyje atitinkamai banko sąskaitai.
+
+
 
 
 

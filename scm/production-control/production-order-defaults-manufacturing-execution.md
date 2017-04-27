@@ -1,5 +1,5 @@
 ---
-title: "Gamybos užsakymo nutylėjimą laiko kontrolės"
+title: "Gamybos užsakymo numatytoji informacija dalyje Gamybos vykdymas"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Gamybos užsakymo nutylėjimą laiko kontrolės
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Gamybos užsakymo numatytoji informacija dalyje Gamybos vykdymas
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Jums reikia atidžiai apsvarstyti visus parametrus ant to **gamybos užsakymą pagal nutylėjimą** puslapyje prieš darbuotojams pradedant padaryti registracijos gamybos užduočių. Jei jūsų įmonė naudoja kelių teritorijų funkcijos, galite nustatyti skirtingas numatytąsias reikšmes gamybos užsakymai kiekvienai svetainei. Integravimo su Gamybos kontrole užsakymo numatytieji nustatymai nustatomi šiuose skirtukuose puslapyje **Gamybos užsakymo numatytoji informacija**:
+
+Prieš darbuotojams pradedant registruoti gamybos užduotis turite gerai apgalvoti visas puslapio **Gamybos užsakymo numatytoji informacija** nuostatas. Jei jūsų įmonė naudoja kelių teritorijų funkciją, galite nustatyti kitą kiekvienos svetainės gamybos užsakymų numatytąją informaciją. Integravimo su Gamybos kontrole užsakymo numatytieji nustatymai nustatomi šiuose skirtukuose puslapyje **Gamybos užsakymo numatytoji informacija**:
 
 -   **Bendra** – bendra gamybos užduočių užsakymo numatytoji informacija dalyje Gamybos vykdymas.
 -   **Pradėti** – numatytoji užsakymo informacija, kuri naudojama pradėjus gamybos užduotis arba operacijas.
@@ -68,6 +71,8 @@ Medžiagų sunaudojimas gamybos užsakymo proceso Skelbti baigtu metu yra valdom
 -   **Sunaudojimo principas** – kai gamybos užsakymas paskelbtas baigtu, medžiagų kiekis bus sunaudotas pagal sunaudojimo principą, kuris nustatytas KS eilutėse. Bus naudojamos tik tos medžiagų eilutės, kuriose sunaudojimo principas nustatytas kaip **Baigti**.
 -   **Visada** – visada bus naudojami tie medžiagų kiekiai, kurie yra proporcingi paskelbimo baigtu kiekiams.
 -   **Niekada** – medžiagų kiekiai niekada nebus naudojami.
+
+
 
 
 

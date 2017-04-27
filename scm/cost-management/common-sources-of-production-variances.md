@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Bendrieji gamybos nuokrypių šaltiniai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šis straipsnis paaiškina įvairius įprastus kiekvieno gamybos nuokrypio tipo šaltinius. 
 
 Štai keletas įprastų **partijos dydžio** nuokrypio šaltinių:
@@ -57,6 +60,8 @@ ms.lasthandoff: 03/31/2017
 -   Operacijos įtraukimas į gamybos maršrutą rankiniu būdu ir šios operacijos paskelbimas sunaudota.
 -   Sukūrę gamybos užsakymą, pasirenkate KS versiją, kuri skiriasi nuo standartiniame skaičiavime naudojamos KS versijos.
 -   Sukūrę gamybos užsakymą, pasirenkate maršruto versiją, kuri skiriasi nuo standartiniame išlaidų skaičiavime naudojamos KS versijos.
+
+
 
 
 

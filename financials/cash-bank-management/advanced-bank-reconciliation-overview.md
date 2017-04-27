@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Išplėstinio banko suderinimo apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašytas pažangus banko suderinimo proceso srautas. Pažangaus banko suderinimo funkcija leidžia importuoti banko išrašus, kuriuos galima automatiškai suderinti iš banko operacijas.
 
 Naudodamiesi išplėstinio banko suderinimo funkcija galite importuoti banko išrašus. Importuotą banko išrašą galima automatiškai suderinti banko operacijose. Toliau pateikiami išplėstinio banko suderinimo eigos veiksmai.
@@ -38,13 +41,15 @@ Naudodamiesi išplėstinio banko suderinimo funkcija galite importuoti banko iš
     -   Funkcijas galima išplėsti į bet kokį formatą.
 
 2.  Nustatykite numeraciją, kuri bus naudojama išplėstiniam banko suderinimui ir nurodykite banko suderinimo gretinimo taisykles.
-    -   Susitaikymo atitikimo taisyklė yra kriterijus, kurie yra naudojami filtruoti banko ataskaitos eilutes ir Microsoft Dynamics 365 operacijas banko operacijos eilutes susitaikymo proceso metu. Priklausomai nuo jūsų verslo praktika, galite nustatyti daugiau nei vieną atitikimo taisyklės automatizuoti ir optimizuoti jūsų derinimo procesas.
+    -   Derinimo gretinimo taisyklė – tai kriterijų rinkinys, naudojamas vykdant derinimo procesą, norint filtruoti banko išrašo eilutes ir „Microsoft Dynamics 365 for Operations“ banko operacijos eilutes. Priklausomai nuo jūsų verslo praktikos, norėdami automatizuoti ir optimizuoti derinimo procesą, galite nustatyti daugiau nei vieną gretinimo taisyklę.
 
-3.  Suderinti banko išrašus Dynamics "365" dėl operacijų banko operacijas.
+3.  Suderinkite banko išrašus su „Dynamics 365 for Operations“ banko operacijomis.
     -   Atlikite automatinį gretinimą ir sukurkite derinimo žurnalus.
-    -   Peržiūrėti banko išrašus ir Dynamics 365 operacijas banko operacijų greta.
-    -   Automatiškai po Dynamics 365 operacijas banko operacijų, jei jie ant banko išrašo, bet nebus rodomi Dynamics 365 operacijoms.
+    -   Peržiūrėkite banko išrašus ir „Dynamics 365 for Operations“ banko operacijas vieną šalia kito.
+    -   Automatiškai registruokite „Dynamics 365 for Operations“ banko operacijas, jei jos rodomos banko išraše, bet nebus rodomos „Dynamics 365 for Operations“.
     -   Sugeneruokite derinimo išrašą.
+
+
 
 
 

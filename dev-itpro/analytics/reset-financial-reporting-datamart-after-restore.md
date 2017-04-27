@@ -1,6 +1,6 @@
 ---
-title: "Iš naujo nustatyti finansinės atskaitomybės duomenų mart po duomenų bazės atkūrimas"
-description: "Šioje temoje aprašoma, kaip iš naujo nustatyti finansinės atskaitomybės duomenų mart atkūrus Microsoft Dynamics 365 operacijos duomenų bazės."
+title: "Finansinių ataskaitų duomenų srities atstatymas atkūrus duomenų bazę"
+description: "Šioje temoje paaiškinama, kaip galima atstatyti finansinių ataskaitų duomenų sritį atkūrus „Microsoft Dynamics 365 for Operations“ duomenų bazę."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-08 16 - 20 - 13
@@ -24,86 +24,86 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Iš naujo nustatyti finansinės atskaitomybės duomenų mart po duomenų bazės atkūrimas
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Finansinių ataskaitų duomenų srities atstatymas atkūrus duomenų bazę
 
-Šioje temoje aprašoma, kaip iš naujo nustatyti finansinės atskaitomybės duomenų mart atkūrus Microsoft Dynamics 365 operacijos duomenų bazės. 
+Šioje temoje paaiškinama, kaip galima atstatyti finansinių ataskaitų duomenų sritį atkūrus „Microsoft Dynamics 365 for Operations“ duomenų bazę. 
 
-Yra keli scenarijai, kur jums gali tekti savo dinamika 365 operacijos duomenų bazės atkurti iš atsarginės kopijos arba duomenų bazei kopijuoti iš kitos aplinkos. Kai taip atsitinka, jums taip pat reikia laikytis reikiamų priemonių siekdama užtikrinti, kad finansinės atskaitomybės duomenų saugyklą teisingai naudoja atnaujintame Dynamics 365 operacijos duomenų bazės. Jei turite klausimų apie naujo finansinės atskaitomybės duomenų mart priežasties ne atkurti Dynamics 365 operacijos duomenų bazės, perduoti į [iš naujo nustatyti valdymo reporteris duomenų mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) daugiau informacijos. Atkreipkite dėmesį, kad šio proceso etapus palaikomi Dynamics 365 darbui Gegužė 2016 išleidimo (App statyti 7.0.1265.23014 ir finansinės atskaitomybės statyti 7.0.10000.4) ir naujesnių versijų. Jei turite su ankstesne jos versija, Dynamics 365 operacijoms, susisiekite su mūsų klientų aptarnavimo komanda paramos.
+Yra keletas scenarijų, kuriais vadovaujantis reikėtų atkurti „Dynamics 365 for Operations“ duomenų bazę iš atsarginės kopijos arba nukopijuoti duomenų bazę iš kitos aplinkos. Jei taip įvyktų, taip pat turite atlikti atitinkamus veiksmus, kad užtikrintumėte, jog finansinių ataskaitų duomenų sritis tinkamai naudoja atkurtą „Dynamics 365 for Operations“ duomenų bazę. Jeigu turite klausimų apie tai, kaip iš naujo nustatyti finansinių ataskaitu duomenų sritį dėl kitokios priežasties negu „Dynamics 365 for Operations“ duomenų bazės atkūrimas, daugiau informacijos rasite [„Management Reporter“ duomenų srities nustatymas iš naujo](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Atkreipkite dėmesį, kad šio proceso veiksmai palaikomi naudojant „Dynamics 365 for Operation“ 2016 m. gegužės mėn. leidimą (programos versija 7.0.1265.23014 ir finansinės ataskaitos versija 7.0.10000.4) ir naujesnius leidimus. Jeigu naudojate ankstesnį „Dynamics 365 for Operations“ leidimą, susisiekite su mūsų palaikymo komanda.
 
-## <a name="export-report-definitions"></a>Eksporto ataskaitos apibrėžimai
-Pirma eksportuokite ataskaitą dizaino įsikūrusi ataskaitų konstruktorius, atlikite šiuos veiksmus:
+## <a name="export-report-definitions"></a>Ataskaitų aprašų eksportavimas
+Pirmiausia atlikite toliau nurodytus veiksmus ir eksportuokite ataskaitų dizaino įrankyje esančius ataskaitos dizainus.
 
-1.  Ataskaitų konstruktorius, eikite į **įmonė**&gt;**statybinis blokas grupių**.
-2.  Pasirinkite eksportuoti, ir spustelėkite kūrimo bloko grupę **eksportuoti**. **Pastaba:** Dynamics 365 operacijoms, palaikomas tik vieno pastato bloko grupė, **pagal nutylėjimą**.
-3.  Pasirinkite eksportuoti ataskaitos apibrėžimai:
+1.  Įjungę atskaitos dizaino įrankį eikite į **Įmonė** &gt; **Kūrimo bloko grupės**.
+2.  Norėdami eksportuoti, pasirinkite kūrimo blokų grupę ir spustelėkite **Eksportuoti**. **Pastaba:** Naudojant „Dynamics 365 for Operations“ palaikoma tik viena kūrimo blokų grupė **Numatytoji**.
+3.  Pasirinkite norimus eksportuoti ataskaitos aprašus:
     -   Norėdami eksportuoti visus ataskaitos aprašus ir susietus kūrimo blokus, spustelėkite **Žymėti viską**.
-    -   Norėdami eksportuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, spustelėkite atitinkamą skirtuką ir tada pasirinkite norimus eksportuoti elementus. Norėdami skirtuke pasirinkti keletą elementų, paspauskite ir laikykite nuspaudę CTRL klavišą. Kai pasirenkate eksportuoti ataskaitas, atrenkami susietas eilutes, stulpelius, medžiai ir židinius.
+    -   Norėdami eksportuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, spustelėkite atitinkamą skirtuką ir tada pasirinkite norimus eksportuoti elementus. Norėdami skirtuke pasirinkti keletą elementų, paspauskite ir laikykite nuspaudę CTRL klavišą. Pažymėjus norimas eksportuoti ataskaitas pažymimos susietos eilutės, stulpeliai, medžiai ir dimensijų rinkiniai.
 
-4.  Spustelėkite **eksportuoti**.
-5.  Įveskite failo vardą ir pasirinkite saugioje vietoje, kur norite įrašyti eksportuojamas ataskaitos apibrėžimai.
-6.  Click **Save**.
+4.  Spustelėkite **Eksportuoti**.
+5.  Įveskite failo pavadinimą ir pasirinkite saugią vietą, kurioje norite įrašyti eksportuotus ataskaitos aprašus.
+6.  Spustelėkite **Įrašyti**.
 
-Failas gali būti nukopijuotas arba įkeltos į saugią vietą, ji galėtų būti importuojami į kitoje aplinkoje, kitą kartą. Galima rasti informacijos, kaip naudoti Microsoft Azure saugojimo sąskaitos [perduoti duomenis naudojant AzCopy komandų eilutės priemonę](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Pastaba:** "Microsoft" neteikia saugyklos abonementą kaip dalį savo dinamika 365 operacijų susitarimui. Turite įsigyti saugyklos abonementą arba naudoti saugojimo sąskaitos iš atskiros Azure prenumeratos. **Svarbu:** reikia žinoti apie elgesį D diske apie Azure virtualiųjų mašinų. Negalima laikyti eksportuojamos statybinis blokas grupių čia visam laikui. Daugiau informacijos apie laikinųjų diskus, rasite [suprasti laikinai automobiliu ant Windows Azure virtualiosios mašinos](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Failą galima nukopijuoti arba įkelti į saugią vietą, kad būtų galima jį importuoti į kitą aplinką kitu laiku. Informaciją apie tai, kaip naudoti „Microsoft Azure“ saugyklos abonementą, galima rasti [Perkelti duomenis naudojant „AzCopy“ komandų eilučių programą](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Pastaba.** Pasirašius „Dynamics 365 for Operations“ sutartį „Microsoft“ nepateikia saugyklos abonemento. Turite įsigyti saugyklos abonementą arba naudoti saugyklos abonementą iš atskiros „Azure“ prenumeratos. **Svarbu.** Atkreipkite dėmesį į D disko elgesį „Azure“ virtualiuosiuose įrenginiuose. Nelaikykite čia savo eksportuotų kūrimo blokų grupių visam laikui. Norėdami gauti daugiau informacijos apie laikinus diskus, žr. [„Windows Azure“ virtualiųjų įrenginių laikinųjų diskų supratimas](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
-## <a name="stop-services"></a>Sustabdyti paslaugas
-Naudokite nuotolinį darbalaukį Norėdami jungtis prie visų kompiuterių aplinkoje ir sustabdyti šiuos "Windows" paslaugų naudodami services.msc:
+## <a name="stop-services"></a>Tarnybų stabdymas
+Norėdami prisijungti prie visų aplinkos kompiuterių naudokite nuotolinį darbalaukį, o norėdami sustabdyti toliau nurodytas „Windows“ tarnybas – services.msc.
 
--   Žiniatinklio leidybos paslaugos (visuose kompiuteriuose AOS)
--   Microsoft Dynamics 365 operacijų partijos valdymo paslaugos (valstybiniuose AOS kompiuteriai tik)
--   Valdymo reporteris 2012 procesas paslauga (kompiuteriuose, BI tik)
+-   Žiniatinklio tarnybos publikavimo paslauga (visuose AOS kompiuteriuose)
+-   „Microsoft Dynamics 365 for Operations“ paketų valdymo tarnyba (tik neasmeniniuose AOS kompiuteriuose)
+-   „Management Reporter 2012“ proceso tarnyba (tik BI kompiuteriuose)
 
-Šios paslaugos turi atvirą ryšį su Dynamics 365 operacijos duomenų bazės.
+Šios tarnybos turi atvirus ryšius su „Dynamics 365 for Operations“ duomenų baze.
 
 ## <a name="reset"></a>Nustatyti iš naujo
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Raskite naujausią DataUpgrade.zip paketą
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Suraskite naujausią DataUpgrade.zip pakuotę
 
-Raskite naujausią DataUpgrade.zip paketą naudodami rasti kryptimis [DataUpgrade.zip scenarijaus atsisiuntimas](..\migration-upgrade\upgrade-data-to-latest-update.md). Kryptimis paaiškinti, kaip rasti versija duomenų atnaujinimo paketą jūsų aplinkai.
+Naudodami [Atsisiųsti DataUpgrade.zip scenarijų](..\migration-upgrade\upgrade-data-to-latest-update.md) rastus nurodymus suraskite naujausią DataUpgrade.zip pakuotę. Nurodymuose paaiškinama, kaip surasti jūsų aplinkai tinkamą duomenų atnaujinimo pakuotės versiją.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Vykdyti scenarijus prieš Dynamics 365 operacijos duomenų bazės
+#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Scenarijų vykdymas „Dynamics 365 for Operations“ duomenų bazėje
 
-Šiuos scenarijus paleisti Dynamics 365 operacijos duomenų bazės (ne prieš finansinės atskaitomybės duomenų bazę).
+Toliau nurodytus scenarijus vykdykite „Dynamics 365 for Operations“ duomenų bazėje (ne finansinių ataskaitų duomenų bazėje).
 
--   DataUpgrade.zip\\AosService\\scenarijai\\ConfigureAxReportingIntegration.sql
--   DataUpgrade.zip\\AosService\\scenarijai\\GrantAzViewChangeTracking.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
-Šie scenarijai užtikrinti, kad vartotojai, vaidmenis ir keitimų sekimo parametrai yra teisingi.
+Naudojant šiuos scenarijus užtikrinama, kad naudojami tinkami vartotojų, vaidmenų ir keitimų sekimo paametrai.
 
-#### <a name="execute-powershell-command-to-reset-database"></a>"PowerShell" komandą nustatyti iš naujo duomenų bazės
+#### <a name="execute-powershell-command-to-reset-database"></a>„PowerShell“ komandos vykdymas norint iš naujo nustatyti duomenų bazę
 
-Vykdyti šią komandą, tiesiai ant AOS kompiuterio, Norėdami iš naujo nustatyti integracijos dinamika 365 operacijoms ir finansinė atskaitomybė:
+Toliau nurodytą komandą vykdykite tiesiogiai savo AOS kompiuteryje, kad iš naujo nustatytumėte „Dynamics 365 for Operations“ ir finansinių ataskaitų integravimą:
 
-1.  Atidarykite "Windows PowerShell" kaip administratorius.
-2.  Vykdyti: f
-3.  Vykdyti: f cd\\MRApplicationService\\MRInstallDirectory
-4.  Vykdyti: Importo modulis. \\Server\\MRDeploy\\MRDeploy.psd1
-5.  Vykdyti: Reset-DatamartIntegration-priežastis kita - ReasonDetail "&lt;mano priežastis iš naujo&gt;"
-    -   Jūsų bus paprašyta įvesti "Y", kad patvirtintumėte.
+1.  Atidarykite „Windows PowerShell“ kaip administratorius.
+2.  Vykdyti: F:
+3.  Vykdyti: cd F:\\MRApplicationService\\MRInstallDirectory
+4.  Vykdyti: Import-Module .\\Server\\MRDeploy\\MRDeploy.psd1
+5.  Vykdyti: Nustatyti iš naujo-DatamartIntegration -Priežastis KITA -ReasonDetail „&lt;mano nustatymo iš naujo priežastis&gt;“
+    -   Jūsų bus paprašyta įvesti „Y“, kad patvirtintumėte.
 
 Parametrų paaiškinimas:
 
--   Leistinos reikšmės-priežastis yra: aptarnavimo, BADDATA, kitų.
--   -ReasonDetail parametras yra laisvos formos.
--   Priežastis ir reasonDetail bus registruojami telemetrija ir (arba) aplinkai stebėti.
+-   Tinkamos dalies -Priežastis reikšmės yra šios: SERVICING, BADDATA, OTHER.
+-   Parametras -ReasonDetail yra laisvos formos.
+-   Priežastis ir „reasonDetail“ bus įrašyti atliekant telemetriją / aplinkos stebėjimą.
 
-## <a name="start-services"></a>Pradžia paslaugos
-Naudokite services.msc iš naujo paleisti paslaugas, kurios nustojote anksčiau:
+## <a name="start-services"></a>Tarnybų paleidimas
+Naudokite services.msc norėdami iš naujo paleisti pirmiau sustabdytas tarnybas:
 
--   Žiniatinklio leidybos paslaugos (visuose kompiuteriuose AOS)
--   Microsoft Dynamics 365 operacijų partijos valdymo paslaugos (valstybiniuose AOS kompiuteriai tik)
--   Valdymo reporteris 2012 procesas paslauga (kompiuteriuose, BI tik)
+-   Žiniatinklio tarnybos publikavimo paslauga (visuose AOS kompiuteriuose)
+-   „Microsoft Dynamics 365 for Operations“ paketų valdymo tarnyba (tik neasmeniniuose AOS kompiuteriuose)
+-   „Management Reporter 2012“ proceso tarnyba (tik BI kompiuteriuose)
 
-## <a name="import-report-definitions"></a>Importo ataskaitos apibrėžimai
-Importuoti savo ataskaitos dizainą iš ataskaitų konstruktorius, naudojant sukurtas eksportavimo failas:
+## <a name="import-report-definitions"></a>Ataskaitų aprašų importavimas
+Importuokite savo ataskaitos dizainus iš ataskaitų dizaino įrankio naudodami eksportuojant sukurtą failą.
 
-1.  Ataskaitų konstruktorius, eikite į **įmonė**&gt;**statybinis blokas grupių**.
-2.  Pasirinkite eksportuoti, ir spustelėkite kūrimo bloko grupę **eksportuoti**. **Pastaba:** Dynamics 365 operacijoms, palaikomas tik vieno pastato bloko grupė, **pagal nutylėjimą**.
-3.  Pasirinkite, **pagal nutylėjimą** pastato blokas ir spustelėkite **importo**.
-4.  Pasirinkite failą, kuriame yra eksportuojami ataskaitos apibrėžimai ir spustelėkite **atviras**.
+1.  Įjungę atskaitos dizaino įrankį eikite į **Įmonė** &gt; **Kūrimo bloko grupės**.
+2.  Norėdami eksportuoti, pasirinkite kūrimo blokų grupę ir spustelėkite **Eksportuoti**. **Pastaba:** Naudojant „Dynamics 365 for Operations“ palaikoma tik viena kūrimo blokų grupė **Numatytoji**.
+3.  Pasirinkite kūrimo bloką **Numatytasis** ir spustelėkite **Importuoti**.
+4.  Pasirinkite failą, kuriame yra eksportuoti ataskaitos aprašai, ir spustelėkite **Atidaryti**.
 5.  Dialogo lange Importuoti pasirinkite norimus importuoti ataskaitos aprašus.
     -   Norėdami importuoti visus ataskaitos aprašus ir palaikomus kūrimo blokus, spustelėkite **Žymėti viską**.
     -   Norėdami importuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, pasirinkite norimas importuoti ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius.
 
-6.  Click **Import**.
+6.  Spustelėkite **Importuoti**.
 
 
 

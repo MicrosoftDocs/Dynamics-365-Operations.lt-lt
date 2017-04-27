@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti darbo eigos lygiagrečiai filialas"
+title: "Lygiagrečios darbo eigos šakos konfigūravimas"
 description: "Norėdami konfigūruoti lygiagrečią šaką, darbo eigos rengyklėje atlikite toliau nurodytas procedūras."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Konfigūruoti darbo eigos lygiagrečiai filialas
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Lygiagrečios darbo eigos šakos konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Norėdami konfigūruoti lygiagrečią šaką, darbo eigos rengyklėje atlikite toliau nurodytas procedūras.
 
@@ -32,7 +35,7 @@ Lygiagreti šaka iš esmės yra darbo eiga, kuri veikia pirminės darbo eigos ko
 
 ## <a name="name-a-branch"></a>Šakos pavadinimas
 Norėdami įvesti lygiagrečios šakos pavadinimą, atlikite šiuos veiksmus.
-1.  Dešiniuoju pelės mygtuku spustelėkite skiltį lygiagrečiai, o tada spustelėkite **ypatybės**. Į **ypatybės** rodoma forma.
+1.  Dešiniuoju pelės mygtuku spustelėkite lygiagrečią šaką, tada spustelėkite **Ypatybės**. Parodoma forma **Ypatybės**.
 2.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
 3.  Lauke **Pavadinimas** įveskite unikalų lygiagrečios šakos pavadinimą.
 4.  Spustelėkite **Uždaryti**.
@@ -40,7 +43,7 @@ Norėdami įvesti lygiagrečios šakos pavadinimą, atlikite šiuos veiksmus.
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Šakos elementų kūrimas ir konfigūravimas
 Atlikite šiuos veiksmus, norėdami kurti ir konfigūruoti lygiagrečios šakos elementus.
 1.  Dukart spustelėkite lygiagrečią šaką.
-2.  Nuvilkite darbo eigos elementus į drobę, o tada sukonfigūruokite elementus (taip, kaip kuriate bet kurią kitą darbo eigą). Daugiau informacijos rasite sukurti darbo eigą.
+2.  Nuvilkite darbo eigos elementus į drobę, o tada sukonfigūruokite elementus (taip, kaip kuriate bet kurią kitą darbo eigą). Daugiau informacijos žr. dalyje Darbo eigos kūrimas.
 
 
 
@@ -48,5 +51,7 @@ Atlikite šiuos veiksmus, norėdami kurti ir konfigūruoti lygiagrečios šakos 
 --------
 
 [Darbo eigos kūrimas](create-workflow.md)
+
+
 
 

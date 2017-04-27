@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Standartinių gamybos aplinkos išlaidų atnaujinimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje patariama, kaip atnaujinti standartines išlaidas gamybos aplinkoje. 
 
 Atnaujinimai gali atspindėti naujas prekes, išlaidų kategorijas ar netiesioginių išlaidų skaičiavimo formules. Jie taip pat gali atspindėti taisymus ir išlaidų pokyčius. Atnaujinimo tipas lemia veiksmus, kuriuos turite atlikti norėdami atnaujinti standartines išlaidas, kaip parodyta šiuose pavyzdžiuose:
@@ -43,5 +46,7 @@ Atnaujinimai gali atspindėti naujas prekes, išlaidų kategorijas ar netiesiogi
 -   Apskaičiuokite naujai pagamintos prekės išlaidas, atsižvelgdami į nurodytą, patvirtintą ir aktyvią KS ir maršruto informaciją.
 
 Kiekvienu atveju reikia kruopščiai įvertinti, kaip atnaujinti standartines išlaidas.
+
+
 
 

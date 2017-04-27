@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis tiekėjo mokėjimą, kuris turi nuolaidas tiekėjo kredito pažymose"
+title: "Sudenkite dalinį tiekėjo mokėjimą, kuriam taikomos tiekėjo kredito pažymų nuolaidos"
 description: "Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame su sąskaita faktūra sudengiama kredito pažyma."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Atsiskaityti dalinis tiekėjo mokėjimą, kuris turi nuolaidas tiekėjo kredito pažymose
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Sudenkite dalinį tiekėjo mokėjimą, kuriam taikomos tiekėjo kredito pažymų nuolaidos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame su sąskaita faktūra sudengiama kredito pažyma.
 
 „Fabrikam‟ tiekėjai kredito pažymoms suteikia mokėjimo nuolaidų. 3050 tiekėjas leidžia „Fabrikam“ gauti 1 procento mokėjimo nuolaidą, jei SF apmokama per 14 dienų.
 
 ## <a name="invoice-and-credit-memo"></a>SF ir kredito pažyma
-Birželio 29 dieną, balandžio sukuria 1000,00 3050 tiekėjo SF. Liepos 2 d., ji sukuria 200,00 kredito atmintine. Iš **Tiekėjų** puslapio April atidaro puslapį **Sudengti operacijas**. Naudodama puslapį **Sudengti operacijas** ji gali pažymėti kredito pažymą ir SF sudengti. Kredito pažymoje apskaičiuojama nuolaida – 2,00. Todėl bendra kredito pažymos vertė sumažinama iki 198,00.
+Birželio 29 d. Eglė 3050 tiekėjui sukuria sąskaitą faktūrą 1 000,00 sumai. Liepos 2 d. ji sukuria kredito pažymą 200,00 sumai. Iš **Tiekėjų** puslapio April atidaro puslapį **Sudengti operacijas**. Naudodama puslapį **Sudengti operacijas** ji gali pažymėti kredito pažymą ir SF sudengti. Kredito pažymoje apskaičiuojama nuolaida – 2,00. Todėl bendra kredito pažymos vertė sumažinama iki 198,00.
 
 | Žymėti                     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ April spusteli **Registruoti**. Tada ji peržiūri baigtą sudengimą. April mat
 | SF-10071  |                  | 2015-07-02  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | NUOL-10071 |  Mokėjimo nuolaida   | 2015-07-02  |         | 2,00                                 |                                       | 0,00    | USD      |
 | NUOL-10071 |  Mokėjimo nuolaida   | 2015-07-02  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

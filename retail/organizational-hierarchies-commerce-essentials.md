@@ -1,6 +1,6 @@
 ---
-title: "Organizacijos ir organizacinės hierarchijos (komercijos pagrindai)"
-description: "Prekybos pagrindai yra trijų tipų vidaus organizacijų, kurias galima apibrėžti padės organizacijai vykdyti verslo procesą ir pasiekti tikslą."
+title: "Organizacijos ir organizacijų hierarchijos („Commerce Essentials“)"
+description: "Naudojant „Commerce Essentials“ pateikiamos trijų tipų vidinės organizacijos, kurias galima nurodyti norint, kad organizacijai būtų lengviau atlikti verslo procesą arba pasiekti tikslą."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizacijos ir organizacinės hierarchijos (komercijos pagrindai)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizacijos ir organizacijų hierarchijos („Commerce Essentials“)
 
-Prekybos pagrindai yra trijų tipų vidaus organizacijų, kurias galima apibrėžti padės organizacijai vykdyti verslo procesą ir pasiekti tikslą. 
+[!include[banner](includes/banner.md)]
+
+
+Naudojant „Commerce Essentials“ pateikiamos trijų tipų vidinės organizacijos, kurias galima nurodyti norint, kad organizacijai būtų lengviau atlikti verslo procesą arba pasiekti tikslą. 
 
 Organizacija yra grupė žmonių, kurie dirba kartu vykdydami verslo procesą arba siekdami tikslo. Organizacijos hierarchija nurodo ryšius tarp verslo struktūros vienetų, kurie sudaro jūsų organizaciją.
 
@@ -47,7 +50,7 @@ Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams v
 | Mažmeninės prekybos kanalas          | Valdymo vienetas, nurodantis plytų ir skiedinio parduotuvę.                             | Naudokite norėdami tvarkyti ir valdyti vieną arba daugiau parduotuvių viename ar keliuose juridiniuose subjektuose.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Organizacijų hierarchijos
-Naudojant „Commerce Essentials“ kiekvienai hierarchijai priskiriama paskirtis. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama. Pvz., mažmeninės prekybos hierarchiją galima pirkti ir parduoti produktus per mažmeninės prekybos parduotuvėje. Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms.
+Naudojant „Commerce Essentials“ kiekvienai hierarchijai priskiriama paskirtis. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama. Pavyzdžiui, mažmeninės prekybos hierarchiją galima naudoti norint mažmeninės prekybos parduotuvėje pirkti ir parduoti produktus. Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>Geriausia organizacijos nustatymo hierarchijoje praktika
 
 Įgyvendindami organizacijos hierarchiją, atsižvelkite į šiuos geriausios praktikos pavyzdžius:
@@ -68,6 +71,8 @@ Toliau pateiktoje lentelėje aprašomi „Commerce Essentials“ scenarijai, kur
 | Mažmeninės prekybos papildymo tvarkymas                                                    | Grupuokite parduotuves norėdami papildyti atsargas pagal papildymo taisykles.                                                                                                                                                                                                                                          | Mažmeninės prekybos papildymas |
 | Parduotuvių duomenų pranešimas                                                         | Grupuokite parduotuves norėdami paruošti ataskaitas.                                                                                                                                                                                                                                                                                | Mažmeninės prekybos ataskaitos     |
 | Parduotuvių grupės atsargų registravimas, išrašų skaičiavimas arba jų registravimas | Sukurkite parduotuvių grupę, kurią galima priskirti paketinei užduočiai. Kai apibrėžiate paketinę užduotį norėdami užregistruoti atsargas, apskaičiuoti arba registruoti išrašus, galite nustatyti, kuriai hierarchijai užduotis yra taikoma. Kai parduotuvės įtraukiamos į hierarchiją arba pašalinamos, paketinės užduoties modifikuoti nereikia. | Retail POS registravimas   |
+
+
 
 
 

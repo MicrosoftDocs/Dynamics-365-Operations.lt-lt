@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Pasikartojančių SF nustatymas ir apdorojimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinta, kaip nustatyti ir apdoroti pasikartojančias SF. Pasikartojančias SF galite naudoti, jei klientams reguliariai turite išrašyti SF už tą pačią sumą.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Periodinio laisvos formos SF šablono sukūrimas
@@ -61,5 +64,7 @@ Pasikartojančių laisvos formos SF spausdinimas
 ----------------------------------
 
 Užregistravę pasikartojančias SF, galite spausdinti SF laisvos formos SF sąrašo puslapyje. Galite spausdinti SF, kurios yra pasirinktos, arba galite pasirinkti spausdinti SF diapazoną.
+
+
 
 

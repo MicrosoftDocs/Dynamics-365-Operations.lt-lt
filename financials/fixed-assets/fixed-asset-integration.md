@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Ilgalaikio turto integravimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Ilgalaikį turtą galima integruoti į didžiąją knygą, atsargų valdymą, gautinas sumas ir mokėtinos sumas. Taip pat galite nustatyti, kad ilgalaikis turtas būtų integruojamas į pirkimo užsakymus.
 
 <a name="general-ledger"></a>DK
@@ -82,7 +85,7 @@ Kiekvienos užsakymo eilutės integravimas suaktyvinamas puslapio **Pirkimo užs
 ## <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 Galite projektą susieti su turtu, kuriam įtakos turėjo šis projektas. Be to, kiekvieną etapą, užduotį arba subprojektą galite susieti su skirtingu turtu. Vieną turtą galima susieti su kiekvienu projekto įrašu. Viename įraše leidžiamas vienas turtas, sąsają sukuriate ilgalaikio turto numerį įvedę lauke **Ilgalaikio turto numeris**, esančiame puslapyje **Projektai**. Projekto tipas turi būti **Vidinis** arba **Išlaidų projektas**. 
 
-Taip pat galite naudoti puslapį **Projektai**, kad peržiūrėtumėte informaciją apie turtą, susietą su projektais. Norėdami peržiūrėti ilgalaikio turto įrašą „FastTab“ **Sąranka** spustelėkite turto saitą, kad atidarytumėte puslapį **Ilgalaikis turtas**. Spustelėkite **projektų**&gt;**visi projektai** peržiūrėti projektus, kurie yra susiję su ilgalaikiu turtu. 
+Taip pat galite naudoti puslapį **Projektai**, kad peržiūrėtumėte informaciją apie turtą, susietą su projektais. Norėdami peržiūrėti ilgalaikio turto įrašą „FastTab“ **Sąranka** spustelėkite turto saitą, kad atidarytumėte puslapį **Ilgalaikis turtas**. Tada spustelėkite **Projektai** &gt; **Visi projektai**, kad peržiūrėtumėte su ilgalaikiu turtu susietus projektus. 
 
 Paprastai ilgalaikį turtą susiejate su projektais, kai projektai susiję su turto darbu, priežiūra ar patobulinimais. Baigus projektą turto vertės didinimas automatiškai nesukuriamas. Todėl, jei reikia, vertės didinimą turite sukurti patys. 
 
@@ -90,6 +93,8 @@ Norėdami panaikinti projekto ir turto susiejimą išvalykite puslapio **Projekt
 
 Be to, kuriamą arba gaminamą ilgalaikį turtą galite apibrėžti kaip vertinamo projekto dalį. Vertinamo projekto pabaigoje galite automatiškai užregistruoti turto įsigijimo operaciją.
 
-Daugiau informacijos rasite [įsigyti turtas vykdant viešuosius pirkimus](acquire-assets-procurement.md)
+Norėdami gauti daugiau informacijos, žr. [Turto pirkimas įsigyjant](acquire-assets-procurement.md)
+
+
 
 

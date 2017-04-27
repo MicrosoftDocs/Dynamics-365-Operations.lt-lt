@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Informacijos kodai
 
+[!include[banner](includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiami informacijos kodai, informacijos kodų grupės ir tai, kaip juos naudoti.
 
 Informacijos kodai suteikia būdą fiksuoti duomenis elektroninio kasos aparato (EKA) registre. Naudodami informacijos kodus galite paraginti kasininką įvesti informaciją atliekant įvairius veiksmus EKA, pvz., parduodant prekes, grąžinant prekes arba renkantis klientus. Kasininkai gali pasirinkti įvestį sąraše arba įvesti ją kaip kodą, numerį, datą arba tekstą. Galite priskirti informacijos kodus iš anksto nustatytiems parduotuvėms veiksmams, mažmeninėms prekėms, mokėjimo būdams, klientams ar tam tikrai elektroninio kasos aparato veiklai. Informacijos kodus galite naudoti norėdami atlikti šiuos veiksmus:
@@ -38,7 +41,7 @@ Informacijos kodai suteikia būdą fiksuoti duomenis elektroninio kasos aparato 
 -   Paraginkite kasininką įvesti reikšmę arba rinktis iš antrinių kodų sąrašo, jei kasos aparato stalčius atidaromas neatliekant pardavimo operacijos.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Mažmeninės prekybos ir prekybos informacijos kodų grupės
-Dynamics "operacijų - 365" mažmeninės prekybos, galite sukurti grupę, informacijos kodai. Informacijos kodų grupės suteikia lankstumo, nes galite nustatyti mažiau informacijos kodų, bet naudoti juos lanksčiau. Informacijos kodų grupes galite naudoti šiais būdais:
+„Dynamics 365 for Operations“ – versija „Retail“, galite kurti informacijos kodų grupes. Informacijos kodų grupės suteikia lankstumo, nes galite nustatyti mažiau informacijos kodų, bet naudoti juos lanksčiau. Informacijos kodų grupes galite naudoti šiais būdais:
 -   Apibrėžkite mažiau informacijos kodų ir lengvai naudokite juos pakartotinai. Informacijos kodai, įtraukti į informacijos kodų grupes, neturi nustatytos priklausomybės nuo kitų informacijos kodų. Galite įtraukti tą patį informacijos kodą į kelias informacijos kodų grupes ir tada naudodami prioritetų nustatymo funkciją išdėstyti informacijos kodus tvarka, tinkama konkrečiai situacijai.
 -   Susiekite informacijos kodus su kitais informacijos kodais arba jų grupėmis, kad surinktumėte informaciją apie produktą arba operaciją, neapibrėždami atskiro informacijos kodo arba nesusiedami informacijos kodo kiekvienam scenarijui.
 
@@ -47,6 +50,8 @@ Dynamics "operacijų - 365" mažmeninės prekybos, galite sukurti grupę, inform
 
  
 -
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Pardavimo sutartys
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas.
 
 Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produkto kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas bei kitas specialias sąlygas, pvz., mokėjimo ir pristatymo. Pardavimo sutarties kainos ir nuolaidos turi pirmenybę prieš kainas ir nuolaidas, kurios nurodytos bet kuriose esamose prekybos sutartyse.  
@@ -36,7 +39,7 @@ Pardavimo sutarties galiojimo laikotarpis apibrėžiamas sutarties laukuose **Į
 
 Galite sukurti pardavimo užsakymą tiesiogiai iš pardavimo sutarties naudodami veiksmą **Išleisti užsakymą**. Arba galite pasirinkti galiojančią pardavimo sutartį atlikdami užsakymus (žr. šio straipsnio skyrių „Pardavimo sutarčių taikymas užsakymo procese“).  
 
-**Pastaba:** ankstesnėse versijose pardavimo sutartis buvo nurodytos kaip bendrųjų pardavimo užsakymų.
+**Pastaba:** ankstesnėse versijose pardavimo sutartys buvo vadinamos bendrais pardavimo užsakymais.
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pardavimo sutarties eilutė įpareigoja ką nors parduoti. Iš esmės yra dvi įsipareigojimų kategorijos:
@@ -93,21 +96,23 @@ Jei sukūrėte (paleidote) pardavimo užsakymą pagal pardavimo sutartį, kai ku
 | Laukas                                                             | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pageidaujama siuntimo data                                               | Jei pakeisite pageidaujamą siuntimo datą į datą, kuri yra ankstesnė už pardavimo sutarties eilutėje nurodytą vertę **Įsigaliojimo data**, turite pašalinti saitą į pardavimo sutarties eilutę prieš įrašydami pakeistą siuntimo datą. Jei pakeisite pageidaujamą siuntimo datą į datą, kuri yra vėlesnė už pardavimo sutarties eilutėje nurodytą vertę **Galiojimo pabaigos data**, turite pašalinti saitą į pardavimo sutarties eilutę prieš įrašydami pakeistą siuntimo datą. |
-| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet suma | Jei pakeisite bet kurio iš šių laukų vertę, kai susijusios pardavimo sutarties eilutėje pažymėtas žymės langelis **Fiksuotos kainos ir nuolaidos**, pranešimo langas paragins jus įrašyti pakeitimą. Spustelėkite **taip** pašalinti nuorodą į pardavimo sutarties eilutės ir Perskaičiuoti kainą. Spustelėkite **Nr** pašalinti nuorodą į pardavimo sutarties eilutės be perskaičiavimas dėl kainų.                                                                   |
-| Grynoji suma                                                        | Jei nurodote sumą, kuri viršija sumą, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą sumą. Spustelėkite **taip** pašalinti nuorodą į pardavimo sutarties eilutės ir Perskaičiuoti kainą. Spustelėkite **Nr** pašalinti nuorodą į pardavimo sutarties eilutės be perskaičiavimas dėl kainų.                                                                 |
-| Kiekis                                                          | Jei nurodote kiekį, kuris viršija kiekį, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą kiekį. Spustelėkite **taip** pašalinti nuorodą į pardavimo sutarties eilutės ir Perskaičiuoti kainą. Spustelėkite **Nr** pašalinti nuorodą į pardavimo sutarties eilutės be perskaičiavimas dėl kainų.                                                            |
+| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet suma | Jei pakeisite bet kurio iš šių laukų vertę, kai susijusios pardavimo sutarties eilutėje pažymėtas žymės langelis **Fiksuotos kainos ir nuolaidos**, pranešimo langas paragins jus įrašyti pakeitimą. Spustelėkite **Taip**, kad pašalintumėte saitą į pardavimo sutarties eilutę ir perskaičiuotumėte kainą. Spustelėkite **Ne**, kad pašalintumėte saitą į pardavimo sutarties eilutę neperskaičiavę kainos.                                                                   |
+| Grynoji suma                                                        | Jei nurodote sumą, kuri viršija sumą, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą sumą. Spustelėkite **Taip**, kad pašalintumėte saitą į pardavimo sutarties eilutę ir perskaičiuotumėte kainą. Spustelėkite **Ne**, kad pašalintumėte saitą į pardavimo sutarties eilutę neperskaičiavę kainos.                                                                 |
+| Kiekis                                                          | Jei nurodote kiekį, kuris viršija kiekį, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą kiekį. Spustelėkite **Taip**, kad pašalintumėte saitą į pardavimo sutarties eilutę ir perskaičiuotumėte kainą. Spustelėkite **Ne**, kad pašalintumėte saitą į pardavimo sutarties eilutę neperskaičiavę kainos.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Prekės, užakytos iš pardavimo sutarties, grąžinimas
-Kai klientas grąžina produktą, kuris buvo užsakyta iš pardavimo sutarties, Microsoft Dynamics 365 operacijoms gali rasti ir automatiškai atnaujina susijusią pardavimo sutartį įsipareigojimą atspindėti pokyčius kiekis arba suma. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
+Kai klientas grąžina produktą, kuris buvo užsakytas pagal pardavimo sutartį, programa „Microsoft Dynamics 365 for Operations“ gali rasti ir automatiškai atnaujinti susijusį pardavimo sutarties įsipareigojimą, kad jis atspindėtų kiekio arba sumos pokytį. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
 
 Jei nenorite atimti grąžintos prekės kiekio iš pardavimo sutarties įsipareigojimo, galite naudoti valdiklį **Pašalinti saitą** puslapyje **Grąžinimo užsakymas** ir pašalinti saitą tarp grąžinimo užsakymo ir pardavimo sutarties įsipareigojimo. Jei vėliau prireiktų atkurti saitą, spustelėkite **Kurti saitą**.  
 
 **Pastaba.** Grąžinimo užsakymas gali būti susietas tik su viena pardavimo sutartimi. jei klientas grąžina keletą produktų, kurie buvo užsakyti pagal keletą pardavimo sutarčių, turite sukurti naują kiekvieno produkto grąžinimo užsakymą ir sukurti saitą su atitinkama pardavimo sutartimi.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Automatinė pardavimo sutarčių paieška
-Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimų užsakymų, galite kontroliuoti, ar Microsoft Dynamics 365 operacijoms automatiškai ieško galiojančius prekybos susitarimus.
+Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimo užsakymus, galite kontroliuoti, ar „Microsoft Dynamics 365 for Operations“ automatiškai ieškos taikytinų pardavimo sutarčių.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pardavimo sutarčių pardavimo dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pardavimo sutarties eilutes. Sutarties antraštėje arba sutarties eilutėje dimensijas galite keisti bet kuriuo metu. Dimensijos tada automatiškai kopijuojamos į paleidimo užsakymų leidimo antraštę arba leidimo eilutę.
+
+
 
 

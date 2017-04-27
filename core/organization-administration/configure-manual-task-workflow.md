@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti rankiniu būdu užduoties darbo eigoje"
+title: "Neautomatizuotos darbo eigos užduoties konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Konfigūruoti rankiniu būdu užduoties darbo eigoje
+# <a name="configure-a-manual-task-in-a-workflow"></a>Neautomatizuotos darbo eigos užduoties konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes.
 
@@ -124,10 +127,10 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuota užduotis tur�
     </tr>
     <tr class="even">
     <td>Vartotojas</td>
-    <td>Specifinių Microsoft Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite priskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuota užduotis tur�
     <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Sąlyginės darbo elemento eilės</strong>.</li>
     <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite <strong>Sąlyginė eilė</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Pastaba:</strong> Ši parinktis yra naudojama tik darbo kelių eigų, pvz., bylų valdymo.</td>
+    </ol>
+    <strong>Pastaba.</strong> Ši parinktis naudojama tik kelioms darbo eigoms, pvz., atvejų valdymui.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Jei per skirtąjį laiką vartotojas neautomatizuotos užduoties nebaigs, užduo
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems vartotojams norite perskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Jei per skirtąjį laiką vartotojas neautomatizuotos užduoties nebaigs, užduo
 6.  Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nebaigia užduoties, sistema atliks veiksmą su užduotimi. Norėdami nurodyti veiksmą, kurį sistema atliks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite veiksmą.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Nurodymas, kada sistema automatiškai atlieka veiksmą su užduotimi
-Galite konfigūruoti sistemą, kad ji atliktų veiksmą su neautomatizuota užduotimi konkrečiomis sąlygomis. Pvz., užduočiai atlikti reikia, kad išlaidų ataskaitų padalinio narys peržiūrėtų gavimus, pateikiamus kartu su išlaidų ataskaita. Pagal įmonės nuostatus, turi būti atlikti šią užduotį, jei suma išlaidų ataskaitoje yra daugiau nei USD 100. Tokiu atveju galite sukonfigūruoti sistemą galite automatiškai pažymėti užduotį kaip **pilnas** Kada bendra suma yra mažesnė nei 100. Atlikite šiuos veiksmus, norėdami nurodyti, kada sistema turi atlikti veiksmą su neautomatizuota užduotimi.
+Galite konfigūruoti sistemą, kad ji atliktų veiksmą su neautomatizuota užduotimi konkrečiomis sąlygomis. Pvz., užduočiai atlikti reikia, kad išlaidų ataskaitų padalinio narys peržiūrėtų gavimus, pateikiamus kartu su išlaidų ataskaita. Atsižvelgiant į įmonės strategiją, ši užduotis turi būti atlikta, jei bendroji išlaidų ataskaitos suma yra didesnė nei 100 JAV dolerių. Tokiu atveju galite konfigūruoti sistemą, kad ji automatiškai pažymėtų užduotį kaip **Atlikta**, kai bendroji suma yra mažesnė nei 100. Atlikite šiuos veiksmus, norėdami nurodyti, kada sistema turi atlikti veiksmą su neautomatizuota užduotimi.
 
 1.  Kairiojoje srityje spustelėkite **Automatiniai veiksmai**.
 2.  Pažymėkite žymės langelį **Įjungti automatinius veiksmus**.
@@ -308,10 +311,10 @@ Pranešimus žmonėms galima siųsti, kai neautomatizuota užduotis yra perduota
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkrečių Dynamics 365 operacijas vartotojams</td>
+    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong> sąrašas apima visus Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Jei neautomatizuota užduotis turi būti baigta per tam tikrą laiką, atlikite 
 1.  Kairiojoje srityje spustelėkite **Išplėstiniai parametrai**.
 2.  Pasirinkite žymės langelį **Nustatyti darbo eigos elemento laiko limitą**.
 3.  Lauke **Trukmė** nurodykite, kada užduotis turi būti baigta. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
-    -   **Valandų** – įveskite skaičių, valandų, kurie turi būti įvykdyti užduotį. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
-    -   **Dienų** – įveskite skaičių dienų, kurie turi būti įvykdyti užduotį. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
+    -   **Valandos** – įveskite valandų, per kurias ši užduotis turi būti baigta, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
+    -   **Dienos** – įveskite dienų, per kurias užduotis turi būti baigta, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
     -   **Savaitės** – įveskite savaičių, per kurias užduotis turi būti baigta, skaičių.
     -   **Mėnesiai** – pasirinkite dieną ir savaitę, iki kurių užduotis turi būti baigta. Pavyzdžiui, galbūt norite, kad užduotis būtų baigta iki trečios mėnesio savaitės penktadienio.
     -   **Metai** – pasirinkite dieną, savaitę ir mėnesį, iki kurių užduotis turi būti baigta. Pavyzdžiui, galbūt norite, kad užduotis būtų baigta iki trečios gruodžio mėn. savaitės penktadienio.
@@ -343,6 +346,8 @@ Vartotojas turi atlikti veiksmą su užduotimi, kai neautomatizuota užduotis yr
 5.  Jei norite, kad vartotojas galėtų perduoti užduotį kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 6.  Jei norite, kad vartotojas galėtų perskirti užduotį kitam darbo elementų eilės vartotojui, pažymėkite žymės langelį **Perskirti**.
 7.  Jei norite, kad vartotojas galėtų išleisti užduotį darbo elementų eilei, pažymėkite žymės langelį **Išleisti**. Tada kitas vartotojas galės baigti užduotį.
+
+
 
 
 

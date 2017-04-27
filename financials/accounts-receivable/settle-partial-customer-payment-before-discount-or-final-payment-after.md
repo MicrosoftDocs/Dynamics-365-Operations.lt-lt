@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis kliento mokėjimą nuolaida anksčiau nei su galutinio mokėjimo nuolaidos data po"
+title: "Dalinis kliento mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos"
 description: "Šiame straipsnyje aptariamas mokėjimų sudengimo pagal klientų sąskaitas faktūras poveikis. Scenarijumi dėmesys telkiamas ties poveikiu papildomai knygai, o ne didžiajai knygai."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Atsiskaityti dalinis kliento mokėjimą nuolaida anksčiau nei su galutinio mokėjimo nuolaidos data po
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Dalinis kliento mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aptariamas mokėjimų sudengimo pagal klientų sąskaitas faktūras poveikis. Scenarijumi dėmesys telkiamas ties poveikiu papildomai knygai, o ne didžiajai knygai.
 
-Fabrikam parduoda prekes klientui 4027. Fabrikam siūlo 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų. SF turi būti apmokėtos per 30 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus yra ant to **sudaro gautinų sumų parametrai** puslapis.
+Fabrikam parduoda prekes 4027 klientui. Fabrikam siūlo 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus rasite puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="invoice"></a>PVM sąskaita faktūra
-Birželio 25 d. Arnie patenka ir postų 1000,00 4027 kliento SF. Arnie galite peržiūrėti šioje sąskaitoje-faktūroje naudojant į **operacijos** mygtuką, **Klientai** puslapis.
+Birželio 25 d. Eglė 4027 klientui sukuria ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Eglė gali peržiūrėti šią sąskaitą faktūrą naudodama mygtuką **Operacijos**, esantį puslapyje **Klientai**.
 
 | Kvitas   | Operacijos tipas | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis  | Valiuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Liepos 2 d. 4027 klientas atlieka dalinį 297,00 SF mokėjimą. Mokėjimui yra g
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10020 | 4027    | 2015-06-25 | 2015-07-25 | 10020   | 1000,00                             | USD      | 297,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Vis dėlto 3,00 laikoma mokėjimo nuolaida užregistravus mokėjimo, nes automatiškai koreguoja atsiskaitymo su ** sudengtina suma ** vertės jums.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į 297,00, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 3,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma **vertę.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnas pakeičia lauko **Naudoti mokėjimo nuolaidą** reikšmę atgal į **Įpra
 | ARP-10020  |                  | 2015-07-01  |         |                                      | 297,00                                | 0,00    | USD      |
 | NUOL-10020 |                  | 2015-07-01  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 7/11/2015 |         |                                      | 700,00                                | 0,00    | USD      |
+
+
 
 
 

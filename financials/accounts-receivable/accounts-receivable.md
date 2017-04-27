@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Gautinų sumų pagrindinis puslapis
 
-Naudokite gautinas sumas, norėdami sekti kliento SF ir gaunamus mokėjimus.
+[!include[banner](../includes/banner.md)]
+
+
+Naudokite gautinas sumas, norėdami sekti kliento SF ir gaunamus mokėjimus. 
 
 Galite kurti kliento SF, grindžiamas pardavimo užsakymais arba važtaraščiais. Taip pat galite įvesti laisvos formos SF, kurios nėra susijusios su pardavimo užsakymais. Galite gauti mokėjimus naudodami kelis skirtingus mokėjimo tipus. Jie apima įsakomuosius vekselius, grynuosius, čekius, kredito korteles ir elektroninius mokėjimus. Jei jūsų organizaciją sudaro keli juridiniai subjektai, naudodami centralizuotus mokėjimus galite registruoti mokėjimus viename juridiniame subjekte kitų juridinių subjektų vardu.
+
+
 
 
 

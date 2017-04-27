@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Įsigijimo ir šaltinio pasirinkimo apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamos modulyje Įsigijimas ir šaltinio pasirinkimas prieinamos funkcijos.
 
 Įsigijimo ir šaltinio parinkimo procesas apima visus veiksmus nuo produktų ir paslaugų poreikio nustatymo iki produktų įsigijimo, gavimo, SF išrašymo ir mokėjimo apdorojimo su tiekėjais. Įsigijimo procesus galima konfigūruoti pagal konkrečius verslo poreikius, apibrėžiant pirkimo strategijas ir darbo eigas.
@@ -37,14 +40,14 @@ Produktų ar paslaugų poreikį gali lemti *paraiškos*, pvz., kai darbuotojui r
   
 Įsigijimo padalinys identifikuoja reikiamų produktų ir paslaugų tiekėjus, o tai gali apimti *pasiūlymo patvirtinimo *siuntimą keliems potencialiems tiekėjams. Galima bendrai naudoti prašomo produkto specifikacijas ir tiekėjai gali jas matyti bei įvertinti, ar jie gali pristatyti produktą, atsižvelgdami į tas specifikacijas. Tiekėjai pateikia savo pasiūlymus, kuriuos įsigijimo padalinys tada peržiūri, o tada pasirenkamas tiekėjas, iš kurio norima įsigyti.  
 
-Pirkimo užsakymuose yra galimybė *pirkimo užklausą *tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jeigu tiekėjai yra nustatyti naudoti su **tiekėjo** portalas, * * pirkimo tyrimo funkcijos išjungiamos. Užsakymas yra bendrai naudojamas portale** Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
+Pirkimo užsakymuose yra galimybė *pirkimo užklausą *tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**,* * pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale** Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
 
 *Tiekėjų katalogai *gali būti naudojami informacijai apie produktų asortimentą, kurį tiekėjai gali teikti, surinkti. Tiekėjai gali publikuoti savo katalogą, todėl katalogą naujinti lengviau. Prie produkto galima pridėti *patvirtintų tiekėjų sąrašą*, kuris atidarant naujus pirkimo užsakymus padėtų pasirinkti tiekėjus ir neleistų naudoti nepageidaujamų tiekėjų.
 
 ## <a name="procurement"></a>Įsigijimas
 *Pirkimo užsakymus *galima kurti keliais skirtingais būdais:
 
--   Kaip rezultatas bendrojo planavimo, kuris nustatė reikalavimą, reikia pirkti. Šis procesas generuoja suplanuotus pirkimo užsakymus, ir kai jie išleidžiami, pirkimo užsakymai yra generuojami.
+-   Kaip bendrojo planavimo, kurį naudojant nurodytas poreikis pirkimui, rezultatas. Naudojant šį procesą sukuriami suplanuoti pirkimo užsakymai, o kai jie išleidžiami, sukuriami pirkimo užsakymai.
 -   apdorojant pirkimo paraiškas, kurios lemia įsigijimą;
 -   apdorojant pirkimo sutartis, kai pirkimo užsakymai kuriami kaip iš sutarčių išleisti užsakymai. Tai būdinga tada, kai bendrieji užsakymai sudaromi naudojant pirkimo sutartis;
 -   neautomatiniu būdu, kai sukurtas pirkimo užsakymas nėra pagrįstas kitu dokumentu.
@@ -53,7 +56,7 @@ Pirkimo užsakymai, sukonfigūruoti naudojant *pirkimo patvirtinimo darbo eigas*
 
 Pirkimo užsakymai yra *patvirtinti* siekiant nustatyti, kad su tiekėju buvo sudaryta sutartis. Tada pirkimo užsakymas bus padorojamas palaipsniui keliais etapais, kol galiausiai bus išrašyta jo SF arba jis bus atšauktas.  
 
-Kai kuriate pirkimo užsakymą, daugelis laukų atliks su reikšmėmis, kad numatytasis iš saugoma informacija apie tiekėją, kad **pardavėjai** puslapis. Todėl pardavimo užsakyme jums reikia užpildyti ribotą skaičių laukų, nors numatytųjų reikšmių galite ir nepaisyti.
+Kai kuriate pirkimo užsakymą, daug laukų yra užpildomi tiekėjo numatytosiomis reikšmėmis, kurios įrašytos puslapyje **Tiekėjai**. Todėl pardavimo užsakyme jums reikia užpildyti ribotą skaičių laukų, nors numatytųjų reikšmių galite ir nepaisyti.
 
 ### <a name="prices-and-discounts"></a>Kainos ir nuolaidos
 
@@ -86,5 +89,7 @@ Pirkimo užsakymai, kurių SF išrašytos, mokėtinų sumų įsipareigojimą įr
 
 ## <a name="vendor-performance"></a>Tiekėjo darbo našumas
 Pirkimo veikla ir peržiūra yra palaikoma naudojant *įsigijimo ir mokėtinų sumų ataskaitas,* kurios apima išlaidų analizę ir tiekėjo efektyvumo analizę.
+
+
 
 

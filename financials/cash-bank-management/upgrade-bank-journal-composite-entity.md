@@ -1,5 +1,5 @@
 ---
-title: "Atnaujinti banko leidinyje sudėtinė esybė"
+title: "Banko žurnalo sudėtinio objekto naujinimas"
 description: "Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJournalEntity formatas, atlikite toliau nurodytus veiksmus."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Atnaujinti banko leidinyje sudėtinė esybė
+# <a name="update-the-bank-journal-composite-entity"></a>Banko žurnalo sudėtinio objekto naujinimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJournalEntity formatas, atlikite toliau nurodytus veiksmus.
 
 Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJournalEntity formatas, atlikite toliau nurodytus veiksmus.
 
 1.  Kompiliuokite ir sinchronizuokite toliau nurodytus banko žurnalo sudėtinius objektus, objektus ir išdėstymo lenteles.
-    -   Sudėtinio objekto\\BankJournalEntity
-    -   Įmonės\\BankJournalHeaderEntity
-    -   Įmonės\\BankJournalLineEntity
-    -   Stalas\\BankJournalHeaderStaging
-    -   Stalas\\BankJournalLineStaging
+    -   Sudėtinis objektas\\BankJournalEntity
+    -   Objektas\\BankJournalHeaderEntity
+    -   Objektas\\BankJournalLineEntity
+    -   Lentelė\\BankJournalHeaderStaging
+    -   Lentelė\\BankJournalLineStaging
 
-2.  Duomenų valdymo\\duomenų projektai
+2.  Duomenų valdymas\\duomenų projektai
     -   Makete **Šaltinio duomenys** rodykite tipą **Banko operacija**.
         -   Šaltinio duomenų formatas = XML-Element
         -   Objekto pavadinimas = banko žurnalas
@@ -49,6 +52,8 @@ Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJour
             -   Patikrinkite, ar banko operacijos tipas yra susietas nuo šaltinio iki išdėstymo.
 
 3.  Importuokite naują išrašą.
+
+
 
 
 

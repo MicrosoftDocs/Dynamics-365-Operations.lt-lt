@@ -1,9 +1,9 @@
 ---
-title: "Sumažinti vertės nusidėvėjimas"
+title: "Mažėjančio balanso nusidėvėjimas"
 description: "Šiame straipsnyje apžvelgtas nusidėvėjimo Mažėjančios vertės metodas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Sumažinti vertės nusidėvėjimas
+# <a name="reduce-balance-depreciation"></a>Mažėjančio balanso nusidėvėjimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje apžvelgtas nusidėvėjimo Mažėjančios vertės metodas.
 
@@ -57,7 +60,7 @@ Pavyzdžiui, jei pasirenkate Kasmet, metinis nusidėvėjimas registruojamas tik 
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke Nusidėvėjimo metai pasirinkus Finansiniai metai, naudojamas tiesios eilutės nusidėvėjimo metodas. Jis apskaičiuojamas remiantis finansiniais metais, kurie nustatomi puslapyje Didžioji knyga pasirinkto finansinio kalendoriaus puslapyje Finansinių metų kalendoriai. Pvz., finansinių metų liepos 1 d. iki birželio 30 d., nusidėvėjimo skaičiavimo prasideda liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai puslapyje Finansiniai kalendoriai kuriate naujus finansinius metus.
+Lauke Nusidėvėjimo metai pasirinkus Finansiniai metai, naudojamas tiesios eilutės nusidėvėjimo metodas. Jis apskaičiuojamas remiantis finansiniais metais, kurie nustatomi puslapyje Didžioji knyga pasirinkto finansinio kalendoriaus puslapyje Finansinių metų kalendoriai. Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų ilgis priklauso nuo ataskaitinių laikotarpių, kuriuos nustatote, kai puslapyje Finansiniai kalendoriai kuriate naujus finansinius metus.
 
 
 Pasirinkus Finansiniai metai, lauke Laikotarpio dažnis galimos šios pasirinktys:
@@ -73,12 +76,14 @@ Naudojant metodą Mažėjanti vertė, 30 procentų nusidėvėjimo pagrindo (iš 
 
 | Laikotarpis | Metinio nusidėvėjimo sumos skaičiavimas | Balansinės vertė metų pabaigoje |
 |--------|-------------------------------------------|---------------------------------------|
-| 1 metai | (11,000 - 1,000) \* 30% = 3,000           | (11 000 - 1000) - 3000 = 7000      |
-| 2 metai | (7,000 - 1,000) \* 30% = 1,800            | (7000 -1800) = 5200                |
-| 3 metai | (5,200 - 1,000) \* 30% = 1,260            | (5200 - 1260) = 3940               |
+| 1 metai | (11 000 - 1 000) \* 30% = 3000           | (11 000 - 1000) - 3000 = 7000      |
+| 2 metai | (7000 - 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
+| 3 metai | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
  
 -
+
+
 
 
 

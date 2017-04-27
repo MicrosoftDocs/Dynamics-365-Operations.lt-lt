@@ -1,6 +1,6 @@
 ---
 title: "Avanso turėtojai"
-description: "Sužinokite apie išankstinio turėtojo funkcijas Microsoft Dynamics 365 operacijoms."
+description: "Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Operations“."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,84 +26,89 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advance-holders"></a>Avanso turėtojai
 
-Sužinokite apie išankstinio turėtojo funkcijas Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
 
-Yra *iš anksto laikiklis* yra darbuotojas, kuris yra atsakingas už išlaidų suma, kurią organizacija teikia. Tik įmonės darbuotojas gali būti išankstinis savininkas. Pirkimo atveju išankstinis savininkas ataskaitas bendrovei apie išlaidas, kurie buvo pagaminti. Įmonė kompensuojamos darbuotojo dėl išlaidų suma. Įmonė kontroliuoja pusiausvyrą už kiekvieną išankstinės turėtojas. Vartotojai – Estijos, Latvijos, Lietuvos, Lenkijos, Čekijos Respublikos, Vengrijos ir Rusijos ūkio subjektai gali atspindėti konkrečias operacijas kartu su įmonės darbuotojų, kurie yra atsakingi už išlaidų suma, kurią organizacija teikia.
 
-## <a name="set-up-an-advance-holder"></a>Nustatyti iš anksto laikiklis
-Norėdami nustatyti išankstinio turėtojo, šias užduotis turėtų būti baigtas tvarka.
-1.  Kurti išankstinio turėtojo grupes.
-2.  Nustatyti darbuotojo registravimo šablonas.
-3.  Mokėtinos sąskaitos parametrų nustatymas.
-4.  Sukurti konkretų mokėjimo išankstinio leidimo sąlygos.
-5.  Sukurti iš anksto laikiklis.
+Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Operations“.
+
+*Avanso turėtojas* yra įmonės darbuotojas, kuris yra atsakingas už organizacijos pateiktą išlaidų sumą. Tik įmonės darbuotojas gali būti avanso turėtojas. Vykdant įsigijimą, avanso turėtojas įmonei praneša apie patirtas išlaidas. Įmonė darbuotojui kompensuoja išlaidų sumą. Įmonė valdo kiekvieno avanso turėtojo balansą. Juridinių subjektų Estijoje, Latvijoje, Lietuvoje, Lenkijoje, Čekijos Respublikoje, Vengrijoje ir Rusijoje vartotojai gali nurodyti konkrečias operacijas ir operacijas su įmonės darbuotojais, kurie yra atsakingi už organizacijos pateiktą išlaidų sumą.
+
+## <a name="set-up-an-advance-holder"></a>Avanso turėtojo nustatymas
+Norint nustatyti avanso turėtoją, reikia nurodyta tvarka atlikti toliau pateiktas užduotis.
+1.  Sukurkite avanso turėtojų grupes.
+2.  Nustatykite darbuotojų registravimo šabloną.
+3.  Nustatykite mokėtinų sumų parametrus.
+4.  Sukurkite konkrečias kiekvieno avanso turėtojo mokėjimo sąlygas.
+5.  Sukurkite avanso turėtoją.
 
 ### <a name="advance-holder-groups"></a>Avanso turėtojų grupės
 
-Naudoti ir **iš anksto turėtojas dalyvauja** puslapis sukurti išankstinio turėtojo grupę. Nurodykite pavadinimą, aprašą ir korespondentinę sąskaitą iš anksto turėtojas grupės.
+Naudokite puslapį **Avanso turėtojų grupės**, kad sukurtumėte avanso turėtojų grupę. Galite nurodyti avanso turėtojų grupės pavadinimą, aprašą ir korespondentinę sąskaitą.
 ### <a name="employee-posting-profile"></a>Darbuotojų registravimo šablonas
 
-Naudojimą, **darbuotojo registravimo šablonų** puslapį ir sukurkite profilį išankstinio turėtojo sandorių. Galite nurodyti šią informaciją apie darbuotojo registravimo šablonas.
+Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avanso turėtojų operacijų šabloną. Galite nurodyti toliau pateiktą darbuotojų registravimo šablono informaciją.
 |Laukas |aprašymas|
 |------|-----------|
-|Registravimo šablonas|Įveskite registravimo profilis identifikavimo kodas išankstinės turėtojas.|
-|aprašymas|Įveskite trumpą aprašymą, registravimo šablonas.|
-|Galioja|Pasirinkite vieną iš šių parinkčių grupės nustatymo registravimo šablonas lygio: 
-**Stalas** – Ši parinktis naudojama nustatyti vieną iš anksto savininko registravimo šablono. Turite nurodyti iš anksto turėtojas kodo numerį laukelyje.
-**Grupė** – šis variantas naudojamas registravimo šablonas nustatymas išankstinių savininkų grupė. Turite nurodyti grupės kodo numerį laukelyje.
-**Visi** – šis variantas naudojamas registravimo šablonas nustatymas visus išankstinius savininkus. | | Nuoroda | Pasirinkite iš anksto turėtojo kodą, jei lentelė yra pasirinkta lauke galioja, arba pasirinkite iš anksto savininkas grupę, jei grupės yra pasirinkta lauke galioja. | | Suminė sąskaita | Pasirinkite suminė sąskaita, skirta registruoti operacijas. |
+|Registravimo šablonas|Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.|
+|aprašymas|Įveskite trumpą registravimo šablono aprašą.|
+|Galioja|Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių. 
+**Lentelė** – ši parinktis naudojama nustatant vieno avanso turėtojo registravimo šabloną. Turite nurodyti avanso turėtojo kodą lauke Nuoroda.
+**Grupė** – ši parinktis naudojama nustatant avanso turėtojų grupės registravimo šabloną. Turite nurodyti grupės kodą lauke Nuoroda.
+**Visi** – ši parinktis naudojama nustatant visų avanso turėtojų registravimo šabloną.| |Nuoroda|Pasirinkite avanso turėtojo kodą, jei lauke Galioja pasirinkta parinktis Lentelė, arba pasirinkite avanso turėtojo grupę, jei lauke Galioja pasirinkta parinktis Grupė.| |Suminė sąskaita|Pasirinkite operacijų registravimo suminę sąskaitą.|
 
 
 
-### <a name="account-payable-parameters"></a>Sąskaita mokėtinų sumų parametrai
+### <a name="account-payable-parameters"></a>Mokėtinų sumų parametrai
 
-Atspindi išankstinio turėtojo operacijas turite nustatyti šiuos į **sąskaita mokėtinų sumų parametrai** puslapyje, **iš anksto turėtojams** skyriuje.
+Norėdami nurodyti avanso turėtojo operacijas, puslapio **Mokėtinų sumų parametrai** dalyje **Avanso turėtojai** turite nustatyti toliau pateiktą informaciją.
 |                                                |                   |
 |------------------------------------------------|-------------------|
-|  **Field**                                     | **Description**                                                                                                                                                                  |
-| **Posting profile**                            | Pasirinkite Numatytasis profilis atlikti sandoriai, išankstiniai savininkai.                                                                                                         |
-| **Advance holder sorting**                     | Jei pasirinkta, išankstiniai savininkai bus rodomas sąrašo pradžioje, **iš anksto turėtojams** puslapis.                                                                     |
-| **Issue when balance is open**                 | Nepažymėjus, klausimas galėtų iš anksto turėtojas, kuris yra teigiamas likutis bus leidžiama.                                                                      |
-| **Uždarymo elektroniniu pinigų laukų grupės balansas: pavadinimas** | Pasirinkite grynųjų pinigų kvito žurnalo kodą. Šis leidinys kodas naudojamas generuoti pinigų išmokėjimo kvitus ir kompensacijos kvitai uždarant išankstinio turėtojo likučiai per pinigus. |
-| **Cash**                                       | Pasirinkite grynųjų pinigų sąskaitą, skirtą nustatyti, čekiai, kurie yra naudojami uždaryti likučiai išankstinio leidimo turėtojas.                                                                 |
-| **Likutis uždarant per banko grupe: pavadinimas** | Pasirinkite žurnalo kodas sandoriams uždaryti likučiai per banką.                                                                                                   |
-| **Account type**                               | Pasirinkite banką uždaryti likučiai iš anksto turėtojas per banką.                                                                                                        |
-| **Main account**                               | Pasirinkite banko sąskaitos kodas uždaryti likučiai iš anksto turėtojas per banką.                                                                                           |
+|  **Laukas**                                     | **Aprašas**                                                                                                                                                                  |
+| **Registravimo šablonas**                            | Pasirinkite numatytąjį avanso turėtojų operacijų baigimo šabloną.                                                                                                         |
+| **Avanso turėtojų rūšiavimas**                     | Jei pažymėta, avanso turėtojai bus rodomi puslapio **Avanso turėtojai** sąrašo pradžioje.                                                                     |
+| **Išduoti, kai balansas atidarytas**                 | Jei pažymėta, bus leidžiamas avanso grynaisiais pinigais išdavimas avanso turėtojui, kurio atidarytas balansas teigiamas.                                                                      |
+| **Laukų grupė Balanso uždarymas per grynuosius: pavadinimas** | Pasirinkite grynųjų pinigų kvitų žurnalo kodą. Žurnalo kodas naudojamas grynųjų pinigų išmokėjimo kvitams ir kompensavimo kvitams generuoti, kai avanso turėtojo balansas uždaromas per grynuosius pinigus. |
+| **Grynieji pinigai**                                       | Pasirinkite grynųjų pinigų sąskaitą, kad nurodytumėte kvitus, naudojamus uždarant avanso turėtojo balansus.                                                                 |
+| **Laukų grupė Balanso uždarymas per banką: pavadinimas** | Pasirinkite operacijų žurnalo kodą, kad uždarytumėte balansus per banką.                                                                                                   |
+| **Sąskaitos tipas**                               | Pasirinkite banką, kad uždarytumėte avanso turėtojo balansus per banką.                                                                                                        |
+| **Pagrindinė sąskaita**                               | Pasirinkite banko sąskaitos kodą, kad uždarytumėte avanso turėtojo balansus per banką.                                                                                           |
 
-### <a name="terms-of-payment-for-advance-holder"></a>Mokėjimo išankstinio leidimo sąlygos
+### <a name="terms-of-payment-for-advance-holder"></a>Avanso turėtojo mokėjimo sąlygos
 
-Teisingai užsiregistruoti ir užregistruoti pirkimo užsakymą per iš anksto savininkas, turite naudoti mokėjimo, kuris pirmiau buvo nustatytas su sąlygos į **iš anksto turėtojo** parinktis nustatyta **True**.
-### <a name="create-an-advance-holder-creation"></a>Kurti išankstinio turėtojo kūrimas
+Norėdami tinkamai užregistruoti pirkimo užsakymą per avanso turėtoją, turite naudoti mokėjimo sąlygas, kurių parinktis **Iš avanso turėtojo** nustatyta į **Taip**.
+### <a name="create-an-advance-holder-creation"></a>Avanso turėtojo kūrimas
 
-Prieš kurdami išankstinio turėtojo, turite turėti jau nustatyti darbuotojų. Daugiau informacijos rasite [įvesti darbuotojo informaciją (darbo vadovas).](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Naudoti ir **iš anksto turėtojams** puslapis nustatyti darbuotoją kaip iš anksto turėtojui. Pasirinkite darbuotojas gali naudoti kaip išankstinio turėtojui, spustelėkite **redaguoti**, ir tada nustatykite į **išankstinis savininkas** į **tiesa**. Jums reikia užpildyti šiuos laukus.
+Prieš kurdami avanso turėtoją, turite būti jau nustatę darbuotojus. Daugiau informacijos žr. [Darbuotojo informacijos įvedimas (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/enter-worker-information/) Naudokite puslapį **Avanso turėtojai**, kad darbuotoją nustatytumėte kaip avanso turėtoją. Pasirinkite darbuotoją, kurį nustatysite kaip avanso turėtoją, spustelėkite **Redaguoti** ir tada nustatykite parinktį **Avanso turėtojas** į **True**. Taip pat turite užpildyti tolesnius laukus.
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
-| **Field**      | **Description**                                                                             |
-| **Group**      | Pasirinkite iš anksto savininkas grupę.                                                             |
-| **Series**     | Įveskite serijos, dokumento, kuris naudojamas patikrinti iš anksto turėtojo tapatybę. |
-| **Number**     | Įveskite dokumento, kuris naudojamas išankstinio turėtojo tapatybės numerį. |
-| **Issue date** | Pasirinkite arba įveskite dokumento išdavimo data.                                                    |
-| **Issued by**  | Įveskite informaciją apie instituciją ar dokumentą išdavęs asmuo.                       |
+| **Laukas**      | **Aprašas**                                                                             |
+| **Grupė**      | Pasirinkite avanso turėtojų grupę.                                                             |
+| **Serija**     | Įveskite dokumento, kuris naudojamas avanso turėtojo tapatybei patvirtinti, seriją. |
+| **Numeris**     | Įveskite dokumento, kuris naudojamas avanso turėtojo tapatybei patvirtinti, numerį. |
+| **Išdavimo data** | Pasirinkite arba įveskite dokumento išdavimo datą.                                                    |
+| **Išdavė**  | Įveskite institucijos arba asmens, kuris išdavė dokumentą, informaciją.                       |
 
-## <a name="advance-holder-inquiries-and-reports"></a>Išankstinis savininkas užklausų ir ataskaitų
-### <a name="advance-holder-transactions-inquiry"></a>Išankstinis savininkas operacijų tyrimo
+## <a name="advance-holder-inquiries-and-reports"></a>Avanso turėtojo užklausos ir ataskaitos
+### <a name="advance-holder-transactions-inquiry"></a>Avanso turėtojo operacijų užklausa
 
-Sandorių išankstinio leidimo, sąrašą, spustelėkite į **operacijos** mygtuką ir **iš anksto laikikliai** puslapis. Pamatyti sandorių visoms iš anksto turėtojai arba sukurti konkrečią užklausą pagal išankstinius savininkus operacijas, spustelėkite **mokėtinos sumos**&gt;**užklausų ir ataskaitų**&gt;**iš anksto laikikliai užklausų ir ataskaitų**&gt; operacijas. Spustelėkite **kvito** atidaryti, **kvitų operacijos** puslapis.
-### <a name="advance-holder-balance-inquiry"></a>Išankstinis savininkas pusiausvyros tyrimo
+Norėdami peržiūrėti avanso turėtojo operacijų sąrašą, puslapyje **Avanso turėtojai** spustelėkite mygtuką **Operacijos**. Norėdami peržiūrėti visų avanso turėtojų operacijas arba kurti konkrečią užklausą pagal avanso turėtojų operacijas, spustelėkite **Mokėtinos sumos** &gt; **Užklausos ir ataskaitos** &gt; **Avanso turėtojų užklausos ir ataskaitos** &gt; Operacijos. Spustelėkite **Kvitas**, kad atidarytumėte puslapį **Kvitų operacijos**.
+### <a name="advance-holder-balance-inquiry"></a>Avanso turėtojo balanso užklausa
 
-Matyti balanse išankstinio leidimo naudoti su **iš anksto turėtojams** puslapis. Norėdami pamatyti likutį už visus iš anksto turėtojai arba sukurti konkrečią užklausą pagal išankstinių savininkų sąskaitas, spustelėkite **mokėtinos sumos**&gt;**užklausų ir ataskaitų**&gt;**iš anksto laikikliai užklausų ir ataskaitų**&gt;**pusiausvyrą.**
-### <a name="advance-holder-balance-report"></a>Išankstinė savininko balanso ataskaita
+Norėdami peržiūrėti avanso turėtojo balansą, naudokite puslapį **Avanso turėtojai**. Norėdami peržiūrėti visų avanso turėtojų balansą arba kurti konkrečią užklausą pagal avanso turėtojų sąskaitas, spustelėkite **Mokėtinos sumos** &gt; **Užklausos ir ataskaitos** &gt; **Avanso turėtojų užklausos ir ataskaitos** &gt; **Balansas**.
+### <a name="advance-holder-balance-report"></a>Avanso turėtojo balanso ataskaita
 
-Peržiūrėti ir spausdinti ataskaitą, grindžiamą informacijos apie išankstinius savininkus balansą, spustelėkite **mokėtinos sumos**&gt;**užklausų ir ataskaitų**&gt;**iš anksto laikikliai užklausų ir ataskaitų**&gt;**iš anksto turėtojas balanso ataskaita**.
-### <a name="advance-holder-transactions-report"></a>Išankstinė savininko operacijų ataskaita
+Norėdami peržiūrėti ir spausdinti ataskaitą, pagrįstą avanso turėtojų balanso informacija, spustelėkite **Mokėtinos sumos** &gt; **Užklausos ir ataskaitos** &gt; **Avanso turėtojų užklausos ir ataskaitos** &gt; **Avanso turėtojo balanso ataskaita**.
+### <a name="advance-holder-transactions-report"></a>Avanso turėtojo operacijų ataskaita
 
-Peržiūrėti ir spausdinti ataskaitą pagal išankstinius savininkus operacijas, spustelėkite **mokėtinos sumos**&gt;**užklausų ir ataskaitų**&gt;**iš anksto laikikliai užklausų ir ataskaitų**&gt;**iš anksto turėtojo sandorių ataskaita**.
+Norėdami peržiūrėti ir spausdinti ataskaitą, pagrįstą avanso turėtojų operacijomis, spustelėkite **Mokėtinos sumos** &gt; **Užklausos ir ataskaitos** &gt; **Avanso turėtojų užklausos ir ataskaitos** &gt; **Avanso turėtojo operacijų ataskaita**.
 
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Advance holder transactions](emea-advance-holders-transactions.md)
+[Avanso turėtojo operacijos](emea-advance-holders-transactions.md)
+
+
 
 

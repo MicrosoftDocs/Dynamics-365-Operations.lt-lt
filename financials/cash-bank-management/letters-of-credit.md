@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Akredityvai
 
+[!include[banner](../includes/banner.md)]
+
+
 Akredityvai yra banko dokumentai, kurie paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais. 
 
 Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai. Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos. Atkreipkite dėmesį, kad akredityvas taip pat vadinamas dokumentuotu kreditu (DC). 
 
-Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas. Juridinis subjektas yra eksporto akredityvo pardavėjas arba naudos gavėjas. Šios šalys yra susiję su a akredityvai: 
+Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas. Juridinis subjektas yra eksporto akredityvo pardavėjas arba naudos gavėjas. Toliau nurodytos su akredityvu susijusios šalys. 
 
  - Pretendentas (pirkėjas), kuris ketina mokėti už prekes 
  - Gavėjas (pardavėjas), kuris gaus mokėjimą
@@ -41,5 +44,7 @@ Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas. Juridini
 Akredityve aprašomos prekės, bet kokie reikalingi dokumentai, siuntimo data ir galiojimo pabaigos data, po kurios mokėjimas nebus atliktas. Išduodantis bankas už akredityvą ima maržą. 
 
 Akredityvas gali būti atšaukiamas arba neatšaukiamas. Akredityvo pobūdis gali būti perkeltinas, neperkeltinas arba generuojamas. Paprastai akredityvas yra neatšaukiama ir patvirtinta sutartis, kad, pateikus visus tikslius siuntimo dokumentus, konkrečiam naudos gavėjui bus atliktas mokėjimas.
+
+
 
 

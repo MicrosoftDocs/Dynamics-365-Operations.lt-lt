@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Išvestinės knygos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamos išvestinių knygų funkcijos.
 
-Gautų knygų tikslas leidžia paprasčiau registruoti reguliariais intervalais planuojamas ilgalaikio turto knyga operacijoms.  Galite pasirinkti vieną knygą kaip pagrindinis knygos. Paprastai tai yra knyga, naudojama apskaitos nusidėvėjimui. Tada prie jos pridedamos kitos knygos, kurios nustatytos operacijas registruoti tokiais pačiais intervalais kaip ir pagrindinė knyga. Mokestinio nusidėvėjimo knygos dažnai nustatomos kaip išvestinės knygos. 
+Išvestinės knygos suteikia galimybę paprasčiau registruoti reguliariais intervalais planuojamas ilgalaikio turto knygų operacijas.  Knygą reikia pasirinkti kaip pagrindinę knygą. Paprastai tai yra knyga, naudojama apskaitos nusidėvėjimui. Tada prie jos pridedamos kitos knygos, kurios nustatytos operacijas registruoti tokiais pačiais intervalais kaip ir pagrindinė knyga. Mokestinio nusidėvėjimo knygos dažnai nustatomos kaip išvestinės knygos. 
 
 Dažniausios operacijos, kurios nustatomos registruoti išvestinėse knygose, yra įsigijimai, įsigijimo koregavimai ir likvidavimai. 
 
@@ -42,6 +45,8 @@ Užregistravus operaciją, generuojama ir registruojama knygos B turto 123 ir kn
 > [!NOTE]                                                                                                                               
 > Knygos, nustatytos registruoti operacijas kitokiais intervalais negu pagrindinė knyga, turi būti susietos su ilgalaikiu turtu kaip atskiros knygos, o ne kaip išvestinės knygos.  
 
-Daugiau informacijos rasite [registravimas naudojant išvestinio knygos](post-derived-value-models.md).
+Daugiau informacijos žr. [Registravimas naudojant išvestines knygas](post-derived-value-models.md).
+
+
 
 

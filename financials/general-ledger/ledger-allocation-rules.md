@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>DK paskirstymo taisyklės
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie didžiosios knygos paskirstymo taisykles. Jame aprašomi įvairūs šių paskirstymo taisyklių komponentai ir galimi naudoti jų paskirstymo metodai.
 
 DK paskirstymo taisyklės naudojamos norint automatiškai apskaičiuoti ir generuoti paskirstymo žurnalus ir sąskaitos įrašus, kad būtų paskirstyti DK balansai arba fiksuotos sumos. Paskirstymo metodai gali būti kintantys arba fiksuoti. DK paskirstymo taisyklėms galima naudoti toliau nurodytus paskirstymo metodus.
@@ -42,10 +45,12 @@ Jei Pagrindas naudojamas kaip paskirstymo taisyklės paskirstymo metodas, taip p
 Kiekviena paskirstymo taisyklė turi keturis komponentus: bendrą, šaltinio, paskirties ir korespondentinį. Papildomas komponentas, DK paskirstymo pagrindo taisyklės, yra reikalingos, jei Pagrindas naudojamas kaip paskirstymo metodas. Kiekvienas komponentas suteikia svarbią informacijos dalį, reikalingą paskirstymams apdoroti.
 
 -   **Bendra** – šiame komponente vartotojas nurodo parinktis, pvz., paskirstymo metodą, vidinės įmonės taisyklių parametrus ir tai, ar taisyklė yra aktyvi.
--   **Šaltinis** – šiame komponente vartotojas nurodo paskirstymo šaltinio duomenis. Gali būti remiantis DK likučiai (**duomenų šaltinio** = **knygos**) ar nustatytos sumos (**duomenų šaltinio** = **nustatytą vertę**). Kai **Duomenų šaltinis** nustatytas kaip **DK**, turi būti nurodyti DK paskirstymo taisyklės šaltinio filtro kriterijai (pvz., reklamos išlaidos).
+-   **Šaltinis** – šiame komponente vartotojas nurodo paskirstymo šaltinio duomenis. Paskirstymas gali būti pagrįstas DK balansais (**Duomenų šaltinis** = **DK**) arba fiksuotomis sumomis (**Duomenų šaltinis** = **Fiksuota reikšmė**). Kai **Duomenų šaltinis** nustatytas kaip **DK**, turi būti nurodyti DK paskirstymo taisyklės šaltinio filtro kriterijai (pvz., reklamos išlaidos).
 -   **Paskirties vieta** – šis komponentas apibrėžia, kaip paskirstymo skaičiavimų rezultatas turi būti paskirstytas ir kaip už jį turi būti atsiskaityta. Pvz., galima sukurti vieną kiekvieno padalinio paskirties eilutę.
 -   **Korespondentinis** – šis komponentas apibrėžia, kaip pagrindinės sąskaitos ir dimensijos turėtų būti nustatytos korespondentinėms įvestims, kurios subalansuoja paskirties įrašus. Paprastai naudojamos vartotojo nurodytos parinktys, o ne šaltinyje nurodytos sąskaitos ir dimensijos. Kai **Duomenų šaltinis** nustatytas kaip **Fiksuota reikmė**, **Šaltinis** negali būti naudojamas kaip parinktis.
 -   **DK paskirstymo pagrindo taisyklės** – šios taisyklės naudoja savo šaltinio filtro kriterijus, kad nustatytų, kurie DK balansai turi būti naudojami paskirstant (pvz., įplaukos pagal padalinį). Kiekviena paskirstymo pagrindo taisyklė gali būti taikoma su daugeliu paskirstymo taisyklių.
+
+
 
 
 

@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Išlaidų valdymas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Planavimo išlaidų valdymas](plan-expense-management.md) Daugiau informacijos bus pateikta vėliau; ne už ilgo patikrinkite dar kartą.
+
+
 
 

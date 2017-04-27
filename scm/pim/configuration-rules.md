@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configuration-rules"></a>Konfigūracijos taisyklės
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama bendra informacija apie konfigūravimo taisykles. Konfigūravimo taisyklėmis apibrėžiami ryšiai tarp komplektavimo specifikacijos (KS) produktų, kurie naudoja konfigūravimo pagal dimensijas technologiją.
 
 Konfigūracijos taisyklės galimos nurodžius konfigūravimą pagal dimensijas. Konfigūracijos taisyklės naudojamos komplektavimo specifikacijoje (KS) įgalinti arba uždrausti konkrečias prekių kombinacijas. Sukūrus KS ir atitinkamas prekes priskyrus jų atitinkamoms konfigūracijos grupėms, galima nustatyti vieną ar daugiau konfigūracijos taisyklių. Jei dvi prekės susijusios viena su kita, siekiant užtikrinti įtraukimą naudojamas operatorius **Pasirinkti**. Jei dvi prekės yra nesuderinamos, siekiant užtikrinti neįtraukimą naudojamas operatorius **Atsisakyti pasirinkimo**.  
@@ -42,5 +45,7 @@ Vėliau pakeistos konfigūracijos taisyklės neturi įtakos esamoms konfigūraci
 --------
 
 [Produktų konfigūravimas pagal dimensijas](dimension-based-product-configuration.md)
+
+
 
 

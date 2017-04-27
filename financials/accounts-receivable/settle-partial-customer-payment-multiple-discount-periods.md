@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis kliento mokėjimą, kuris turi kelis nuolaida laikotarpius"
+title: "Dalinio kliento mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas"
 description: "Šiame straipsnyje parodoma, kaip sudengiami daliniai kliento mokėjimai, kai yra keli nuolaidos laikotarpiai."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Atsiskaityti dalinis kliento mokėjimą, kuris turi kelis nuolaida laikotarpius
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Dalinio kliento mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje parodoma, kaip sudengiami daliniai kliento mokėjimai, kai yra keli nuolaidos laikotarpiai.
 
-„Fabrikam“ 4031 klientui siūlo du mokėjimo nuolaidos laikotarpius. Klientas gauna 2 procentų mokėjimo nuolaidą, jei SF yra apmokama per penkias dienas, arba 1 procento mokėjimo nuolaidą, jei SF apmokama per 14 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus yra ant to **sudaro gautinų sumų parametrai** puslapis.
+„Fabrikam“ 4031 klientui siūlo du mokėjimo nuolaidos laikotarpius. Klientas gauna 2 procentų mokėjimo nuolaidą, jei SF yra apmokama per penkias dienas, arba 1 procento mokėjimo nuolaidą, jei SF apmokama per 14 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus rasite puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="invoice"></a>PVM sąskaita faktūra
-Birželio 25 d. Arnie patenka ir postų 1000,00 4031 kliento SF. Kai jis apžvalgos mokėjimo nuolaidas už šioje sąskaitoje-faktūroje, Jūratė mato, kad klientas 4031 gauna 20.00 nuolaida, jei sąskaita yra apmokėta iš birželio 30. Jeigu sąskaita apmokėta iš liepos 9, klientas gauna 10.00 nuolaida.
+Birželio 25 d. Eglė 4031 klientui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Peržiūrėdama šios sąskaitos faktūros mokėjimo nuolaidą, Eglė mato, kad 4031 klientas gaus 20,00 nuolaidą, jei sąskaita faktūra bus apmokėta iki birželio 30 d. Jei sąskaita faktūra bus apmokėta iki liepos 9 d., klientas gaus 10,00 nuolaidą.
 
 | Mokėjimo nuolaidos data | Mokėjimo nuolaidos suma | Suma operacijos valiuta |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Dabar SF balansas yra 0,00. Arnas peržiūri šią operaciją puslapyje **Klient
 | NUOL-10030 |  Mokėjimo nuolaida   | 2015-06-28 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Mokėjimas         | 2015-07-08  |         |                                      | 693,00                                | 0,00    | USD      |
 | NUOL-1031  |  Mokėjimo nuolaida   | 2015-07-08  |         |                                      | 7,00                                  | 0,00    | USD      |
+
+
 
 
 

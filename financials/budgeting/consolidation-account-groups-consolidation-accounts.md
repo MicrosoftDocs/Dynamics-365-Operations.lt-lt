@@ -1,6 +1,6 @@
 ---
-title: "Konsolidavimo abonentų grupių ir papildomų konsolidavimo sąskaitas"
-description: "Šioje temoje pateikiama informacija apie konsolidacijos abonentų grupių ir papildomų konsolidavimo sąskaitas, ir paaiškina, kaip jie yra naudojami Microsoft Dynamics 365 operacijoms."
+title: "Konsolidavimo sąskaitų grupės ir papildomos konsolidavimo sąskaitos"
+description: "Šioje temoje pateikiama informacija apie konsolidavimo sąskaitų grupes ir papildomas konsolidavimo sąskaitas bei paaiškinama, kaip jos naudojamos programoje „Microsoft Dynamics 365 for Operations“."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidavimo abonentų grupių ir papildomų konsolidavimo sąskaitas
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidavimo sąskaitų grupės ir papildomos konsolidavimo sąskaitos
 
-Šioje temoje pateikiama informacija apie konsolidacijos abonentų grupių ir papildomų konsolidavimo sąskaitas, ir paaiškina, kaip jie yra naudojami Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje pateikiama informacija apie konsolidavimo sąskaitų grupes ir papildomas konsolidavimo sąskaitas bei paaiškinama, kaip jos naudojamos programoje „Microsoft Dynamics 365 for Operations“.
 
 <a name="consolidation-account-groups"></a>Konsolidacijos sąskaitų grupės
 ----------------------------
 
-Konsolidavimo abonentų grupių leidžia kurti grupes sąskaitų, kuriuos norite naudoti norėdami sutraukti duomenis. Dažniausiai, konsolidavimas į grupę sudaro vyriausybės įgalioti sąskaitų planas ar žemėlapiai sąskaitų grupę, kurioje nustatomas pagal įmonės būstinę. Rasite konsolidavimo į grupes į **nustatymo** plotas, **konsolidavimo** modulis. Jei norite pridėti naują grupę, įveskite unikalų identifikatorių į grupė ir pavadinimą.
+Konsolidavimo sąskaitų grupės suteikia galimybę kurti sąskaitų, kurias norite naudoti duomenims konsoliduoti, grupes. Dažniausiai konsolidavimo sąskaitų grupė nurodo vyriausybės įgaliotą sąskaitų planą arba susieja sąskaitas su grupe, kurią nurodo įmonės būstinė. Konsolidavimo sąskaitų grupes galite rasti modulio **Konsolidavimas** srityje **Sąranka**. Įtraukdami naują grupę turite įvesti sąskaitų grupės unikalų identifikatorių ir pavadinimą.
 
 ## <a name="additional-consolidation-accounts"></a>Papildomos konsolidacijos sąskaitos
-Papildomos pajamos sąskaitos leis jums priskirti sąskaitą esamą diagramą sąskaitų konsolidavimo į grupę. Tada galite nurodyti konsolidavimo sąskaitos vertė ir pavadinimas. 
+Papildomos konsolidavimo sąskaitos suteikia galimybę sąskaitą iš esamo sąskaitų plano priskirti konsolidavimo sąskaitų grupei. Tada galima nurodyti konsolidavimo sąskaitos vertę ir pavadinimą. 
 
-Galite rasti papildomų konsolidavimo sąskaitas, **nustatymo** plotas, **konsolidavimo** modulis. Kai kuriate naują konsolidavimo sąskaitą, nurodykite šią informaciją:
+Papildomas konsolidavimo sąskaitas galite rasti modulio **Konsolidavimas** srityje **Sąranka**. Kurdami naują konsolidavimo sąskaitą turite nurodyti tolesnę informaciją.
 
--   **Pagrindinės sąskaitos** – šioje srityje yra peržvalgos, kuris rodo visų pagrindinių sąskaitų, grindžiamų sąskaitų jūsų pasirinkto puslapio. Pasirinkus sąskaitos pavadinimas automatiškai įvedamas į į **pagrindinės paskyros pavadinimas** srityje.
--   **Konsolidavimo sąskaitos grupės** – Naudokite šį lauką norėdami nurodyti grupei priskirti prie paskyros. Jeigu sujungiami dviem skirtingais būdais, galite pridėti tą patį abonementą į visus keturis konsolidavimo abonentų grupių.
--   **Konsolidavimo** – įveskite konsolidavimo sąskaitos vertė. Ši reikšmė neturi būti sąskaitos iš sąskaitų planas. Tai gali būti bet kokią vertę, kad jums reikia.
--   **Konsolidavimo abonemento pavadinimas** -Įveskite abonemento pavadinimą, kaip norite, kad ji būtų rodoma užklausų ir ataskaitų.
--   **SAT lygio** – Šis laukas naudojamas pranešti sąskaitų išrašai Meksikos mokesčių institucijoms. 
+-   **Pagrindinė sąskaita** – šis laukas yra peržvalga, kurioje rodomos visos pagrindinės sąskaitos, pagrįstos puslapyje pasirinktu sąskaitų planu. Pasirinkus sąskaitą pavadinimas automatiškai įvedamas lauke **Pagrindinės sąskaitos pavadinimas**.
+-   **Konsolidavimo sąskaitų grupė** – naudokite šį lauką norėdami nurodyti grupę, kuriai priskirti sąskaitą. Jei konsoliduojate dviem skirtingais būdais, tą pačią sąskaitą turite įtraukti į visas keturias konsolidavimo sąskaitų grupes.
+-   **Konsolidavimo sąskaita** – įveskite konsoliduotos sąskaitos vertę. Ši vertė neprivalo būti sąskaita iš sąskaitų plano. Tai gali būti bet kokia jums reikalinga vertė.
+-   **Konsolidavimo sąskaitos pavadinimas** – įveskite sąskaitos, kurią norite rodyti užklausose ir ataskaitose, pavadinimą.
+-   **SAT lygis** – šis laukas naudojamas norint teikti sąskaitų išrašų ataskaitas Meksikos mokesčių inspekcijai. 
 
-Baigę kurti jūsų konsolidavimą abonentų grupių ir papildomų konsolidavimo sąskaitas galite pasirinkti grupės konsoliduoti internete proceso.
+Baigę kurti konsolidavimo sąskaitų grupes ir papildomas konsolidavimo sąskaitas, grupę galite pasirinkti vykdydami procesą Konsoliduoti tinkle.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Valdyti parduotuvės atsargas"
-description: "Šiame straipsnyje aprašoma rūšių dokumentų, kuriuos naudodami galite valdyti atsargas."
+description: "Šiame straipsnyje aprašyti dokumentų, kuriuos galite naudoti atsargoms valdyti, tipai."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21391
 ms.assetid: bfef3717-d0e0-491d-8466-d8a9c995177d
 ms.search.region: global
@@ -27,18 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-store-inventory"></a>Valdyti parduotuvės atsargas
 
-Šiame straipsnyje aprašoma rūšių dokumentų, kuriuos naudodami galite valdyti atsargas.
+[!include[banner](includes/banner.md)]
+
+
+Šiame straipsnyje aprašyti dokumentų, kuriuos galite naudoti atsargoms valdyti, tipai.
 
 Valdyti savo organizacijos atsargoms galite naudoti tolesnius dokumentų tipus.
 
 ## <a name="purchase-orders"></a>Pirkimo užsakymai
-Pirkimo užsakymai kuriami pagrindiniame biure. Jeigu mažmeninės prekybos sandėlis yra įtrauktas į pirkimo užsakymo antraštė, užsakymą galima gauti parduotuvėje naudojant šiuolaikinės POS (MPOS) arba debesies POS Microsoft Dynamics 365 operacijų - mažmeninės prekybos. Įvedę kiekius, gautus į parduotuvę, jie gali būti išsaugotas vietos papildomų pakeitimų. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo gauti parduotuvėje rodomos Dynamics 365 operacijoms, kad **gauti dabar** lauko pirkimo užsakymą.
+Pirkimo užsakymai kuriami pagrindiniame biure. Jei mažmeninės prekybos sandėlis įtrauktas į pirkimo užsakymo antraštę, užsakymą parduotuvėje galima gauti naudojant modernų EKA (MPOS) arba debesies EKA, esančius programos „Microsoft Dynamics 365 for Operations“ – versijoje „Retail“. Kai parduotuvės pageidauti kiekiai įvedami, juos galima įrašyti vietoje ir papildomai modifikuoti. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure parduotuvėje gauti kiekiai rodomi programoje „Dynamics 365 for Operations“, pirkimo užsakymo lauke **Dabartinis gavimas** .
 
 ## <a name="transfer-orders"></a>Perkėlimo užsakymai
-Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, iš kurios gali būti siunčiamos prekės. Tokiu atveju perkėlimo užsakymo atrodo parduotuvėje kaip MPOS arba debesies POS išrinkimo užklausa. Po to, kai kiekiai, kuriuos prašoma skinami, jie padarė ir išsiųstas į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo surinkti parduotuvėje rodomos Dynamics 365 operacijoms, kad **siųsti dabar** lauko perkėlimo užsakyme. Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, į kurią gali būti siunčiamos prekės. Tokiu atveju perkėlimo užsakymo atrodo parduotuvėje kaip MPOS arba debesies POS gauna prašymą. Įvedę kiekius, gautus į parduotuvę, jie gali būti išsaugotas vietos papildomų pakeitimų. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure, kiekiai, kurie buvo gauti parduotuvėje rodomos Dynamics 365 operacijoms, kad **gauti dabar** lauko perkėlimo užsakymo.
+Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, iš kurios gali būti siunčiamos prekės. Šiuo atveju perkėlimo užsakymas parduotuvėje rodomas kaip MPOS arba debesies EKA paėmimo užklausa. Kai pageidauti kiekiai paimami, jie fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure parduotuvėje paimti kiekiai rodomi programoje „Dynamics 365 for Operations‟, perkėlimo užsakymo lauke **Dabartinis siuntimas**. Perkėlimo užsakyme galima nurodyti, kad tam tikra parduotuvė yra vieta, į kurią gali būti siunčiamos prekės. Šiuo atveju perkėlimo užsakymas parduotuvėje rodomas kaip MPOS arba debesies EKA gavimo užklausa. Kai parduotuvės pageidauti kiekiai įvedami, juos galima įrašyti vietoje ir papildomai modifikuoti. Taip pat kiekiai gali būti fiksuojami ir siunčiami į pagrindinį biurą. Pagrindiniame biure parduotuvėje gauti kiekiai rodomi programoje „Dynamics 365 for Operations“, perkėlimo užsakymo lauke **Dabartinis gavimas** .
 
 ## <a name="stock-counts"></a>Inventorizacijos
-Inventorizacijos gali būti planinės arba neplaninės. Planinės inventorizacijos inicijuojamos pagrindiniame biure, kuris nurodo, kurias prekes reikia skaičiuoti. Pagrindinis biuras sukuria apskaitos dokumentą, kurią gali gauti į parduotuvę, kur faktiškai turimų išteklių kiekį įrašyti į MPOS arba debesies POS. Neplaninės inventorizacijos inicijuojamos parduotuvėje ir faktinės turimų atsargų kiekiai yra atnaujinami MPOS arba debesies POS. Skirtingai nuo planinės inventorizacijos neplanines inventorizacijas neturi numatytojo sąrašo elementų. Alikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Pagrindiniame biure inventorizacija patikrinama ir registruojama.
+Inventorizacijos gali būti planinės arba neplaninės. Planinės inventorizacijos inicijuojamos pagrindiniame biure, kuris nurodo, kurias prekes reikia skaičiuoti. Pagrindinis biuras sukuria inventorizavimo dokumentą, kurį galima gauti parduotuvėje, kurioje faktinių turimų atsargų kiekiai įvedami į MPOS arba debesies EKA. Neplaninės inventorizacijos inicijuojamos parduotuvėje, o faktinių turimų atsargų kiekiai atnaujinami MPOS arba debesies EKA. Skirtingai nei planinės inventorizacijos, neplaninės inventorizacijos neturi iš anksto apibrėžto prekių sąrašo. Alikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Pagrindiniame biure inventorizacija patikrinama ir registruojama.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-reporting-overview"></a>Elektroninių ataskaitų apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 
 Elektroninės ataskaitos (ER) – tai įrankis, kurį naudodami galite konfigūruoti elektroninių dokumentų formatus pagal įvairių šalių ir regionų teisinius reikalavimus. ER suteikia galimybę valdyti šiuos formatus per jų naudojimo ciklą. Pavyzdžiui, galite pritaikyti naujus teisinius reikalavimus ir generuoti verslo dokumentus reikiamu formatu, skirtu keistis informacija su valdžios institucijomis, bankais ir kitomis šalimis elektroniniu būdu. ER mechanizmas skirtas verslo vartotojui, o ne kūrėjui. Kadangi galite konfigūruoti formatus, o ne kodus, elektroninių dokumentų formatų kūrimo ir pritaikymo procesas greitesnis ir lengvesnis. ER šiuo metu palaiko TEXT, XML ir OPENXML darbalapio formatus. Tačiau naudojant plėtinio sąsają palaikoma daugiau formatų.
@@ -35,8 +38,8 @@ Elektroninės ataskaitos (ER) – tai įrankis, kurį naudodami galite konfigūr
 ## <a name="capabilities"></a>Galimybės
 ER mechanizmas turi toliau nurodytas galimybes.
 
--   Ji atstovauja viena bendra priemonė elektroninių ataskaitų skirtinguose domenuose, ir pakeičia daugiau nei 20 skirtingų variklių, ar kokios nors rūšies elektroninių ataskaitų Microsoft Dynamics "365" operacijoms.
--   Tai leidžia izoliuoti nuo dabartinių Dynamics 365 operacijų įgyvendinimo ataskaitų formato. (Kitaip tariant, formatas yra taikomas skirtingas versijas Dynamics 365 operacijų.)
+-   Jis yra vienas bendras įrankis, skirtas elektroninėms ataskaitoms kurti skirtinguose domenuose, ir pakeičia daugiau nei 20 skirtingų mechanizmų, kuriančių tam tikras „Microsoft Dynamics 365 for Operations“ elektronines ataskaitas.
+-   Jis izoliuoja ataskaitos formatą nuo dabartinės įdiegtos „Dynamics 365 for Operations“ versijos. (Kitaip tariant, , formatą galima taikyti skirtingoms „Dynamics 365 for Operations“ versijoms.)
 -   Jis palaiko pasirinktinio formato kūrimą pagal jo pradinę versiją. Jis apima galimybes automatiškai naujinti tinkintą formatą, kai pradinis formatas pasikeičia dėl įvestų lokalizavimo / tinkinimo reikalavimų.
 -   Jis tampa pagrindiniu standartiniu „Microsoft“ ir „Microsoft“ partnerių elektroninių ataskaitų lokalizavimo reikalavimus palaikančiu įrankiu.
 -   Jis palaiko galimybę paskirstyti formatus partneriams ir klientams naudojant „Microsoft Dynamics Lifecycle Services“ (LCS).
@@ -51,20 +54,20 @@ ER palaiko dviejų tipų komponentus: **Duomenų modelis** ir **Formatas**.
 Duomenų modelio komponentas abstrakčiai vaizduoja duomenų struktūrą ir yra naudojamas tam tikrai verslo domeno sričiai aprašyti pakankamai išsamiai, kad būtų tenkinami tos srities ataskaitų reikalavimai. Duomenų modelio komponentą sudaro toliau nurodytos dalys.
 
 -   Duomenų modelis kaip domenui būdingų verslo objektų rinkinys ir hierarchiškai susistemintas jų ryšių aprašas
--   Modelio atvaizdavimo, kad nuorodos pasirinkta Dynamics 365 operacijų duomenų šaltiniu, prie atskirų elementų duomenų modelis, nurodantis, vykdymo metu, duomenų srauto ir taisyklių verslo duomenis gyventojų į duomenų modelio komponentas.
+-   Modelio susiejimas, kuris susieja pasirinktus „Microsoft Dynamics 365 for Operations“ duomenų šaltinius su atskirais duomenų modelio elementais, vykdymo metu nurodančiais duomenų srautą ir taisykles, pagal kurias verslo duomenys automatiškai įvedami į duomenų modelio komponentą.
 
 Duomenų modelio verslo objektas pateikiamas kaip konteineris (įrašas). Verslo subjekto ypatybės pateikiamos kaip duomenų elementai (laukai). Kiekvienas duomenų elementas turi unikalų pavadinimą, žymę, aprašą ir reikšmę. Kiekvieno duomenų elemento reikšmė gali būti sukurta taip, kad būtų atpažinta kaip eilutė, sveikasis skaičius, realusis skaičius, data, išvardijimo tipas, bulio logika ir t. t. Be to, tai gali būti kitas įrašas arba įrašų sąrašas. Viename duomenų modelio komponente gali būti kelios domenui būdingų verslo objektų hierarchijos, taip pat modelio susiejimai, kad vykdymo metu būtų palaikomas konkretus ataskaitai būdingas duomenų srautas. Hierarchijos yra atskiriamos pagal vieną įrašą, kuris buvo pasirinktas kaip šakninis modelio susiejimo įrašas. Pavyzdžiui, mokėjimo domeno srities duomenų modelis gali palaikyti tolesnius susiejimus.
 
--   Įmonės -&gt; tiekėjas -&gt; mokėjimo operacijų AP domeno
--   Klientas -&gt; bendrovė -&gt; mokėjimo operacijas AR domeno
+-   Įmonė -&gt; Tiekėjas -&gt; AP domeno mokėjimo operacijos
+-   Klientas -&gt; Įmonė -&gt; AR domeno mokėjimo operacijos
 
 Atkreipkite dėmesį, kad verslo subjektai (pvz., Įmonė ir Mokėjimo operacijos) yra sukurtos vieną kartą. Tada kiti susiejimai pakartotinai juos naudoja. Toliau pateikiamos modelio susiejimo galimybės.
 
--   Jį galite naudoti įvairių Dynamics 365 operacijų duomenų tipų duomenų šaltinių duomenų modelis. Pavyzdžiui, jis gali naudoti lenteles, duomenų objektus, metodus ar išvardijimus.
+-   Jis gali naudoti skirtingus „Dynamics 365 for Operations“ duomenų tipus kaip duomenų modelio duomenų šaltinius. Pavyzdžiui, jis gali naudoti lenteles, duomenų objektus, metodus ar išvardijimus.
 -   Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
--   Jis palaiko Dynamics 365 transformacijos operacijos duomenų į reikalinga organizacijoms, filtravimas, rūšiavimas ir sumuojant duomenis, ir taip pat pridėtos su logiškai apskaičiuoti laukai, kurie skirti per Microsoft Excel, kaip formulės (daugiau informacijos rasite [formulių kūrimo priemonę, elektroniniai pranešimai](general-electronic-reporting-formula-designer.md)).
+-   Jis palaiko „Dynamics 365 for Operations“ duomenų transformavimą į reikiamas grupes, duomenų filtravimą, rūšiavimą ir sumavimą, taip pat duomenų pridėjimą naudojant loginius apskaičiuotus laukus, sukurtus su formulėmis, panašiomis į „Microsoft Excel“ formules (daugiau informacijos rasite dalyje [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)).
 
-[!["Excel" pavidalo formulių redaktorius](./media/pic-formula-1024x615.png)](./media/pic-formula.png) duomenų modelio komponentas yra skirtas kiekvienam verslo domeno, kuris turėtų būti naudojamas kaip vieninga duomenų šaltinis apie, kuris izoliuoja reportažus iš fizinio įgyvendinimo Dynamics 365 operacijų duomenų šaltinių, ir yra konkreti verslo koncepcija ir tokia forma, kuri leidžia duomenų pateikimo formatas eskizo ir tolesnei priežiūrai, efektyviau funkcijų.
+[![Formulių, panašių į „Excel“ formules, rengyklė](./media/pic-formula-1024x615.png)](./media/pic-formula.png) Duomenų modelio komponentas skirtas kiekvienam verslo domenui, kuris turi būti naudojamas kaip bendrasis ataskaitų duomenų šaltinis, atskiriantis ataskaitas nuo fizinių įdiegtų „Dynamics 365 for Operations“ duomenų šaltinių; jis pateikia domenui būdingas verslo koncepcijas ir funkcijas tokia forma, kuri padaro ataskaitų formato pradinį kūrimą ir tolesnę priežiūrą efektyvesnius.
 
 #### <a name="format-components"></a>Formato komponentai
 
@@ -91,75 +94,75 @@ Palaikomas ER komponento versijos kūrimas. Toliau pateikta ER komponentų pakei
 
 -   Pradinė sukurta versija pažymima kaip **JUODRAŠTIS**. Šią versiją galima redaguoti ir ją galima tikrinti.
 -   Versiją **JUODRAŠTIS** galima konvertuoti į versiją **BAIGTA**. Šią versija galima naudoti vietiniuose ataskaitų teikimo procesuose.
--   Į **atlikta** versija gali būti konvertuojamos į a **bendro naudojimo** versija. Ši versija skelbiama ant LCS ir gali būti naudojamas pasauliniu atskaitomybės procesuose.
+-   Versiją **BAIGTA** galima konvertuoti į versiją **BENDRAI NAUDOJAMA**. Ši versija publikuojama LCS ir ją galima naudoti visuotiniuose ataskaitų teikimo procesuose.
 -   Versiją **BENDRAI NAUDOJAMA** galima konvertuoti į versiją **NEBENAUDOJAMA**. Tada šią versiją bus galima naikinti.
 
-Versijų, kurios turi turėti ** atlikta ** ar **bendro naudojimo** statusas nėra kitų duomenų mainams. Jei komponento būsena yra viena iš šių, galima atlikti toliau nurodytus veiksmus.
+Kai versijos būsena yra **BAIGTA** arba **BENDRAI NAUDOJAMA**, galima keistis duomenimis dar kitu būdu. Jei komponento būsena yra viena iš šių, galima atlikti toliau nurodytus veiksmus.
 
--   Jie gali būti serializowany į XML formato ir eksportuoti iš Dynamics 365 operacijoms kaip failą XML formatu.
--   Jie gali būti reserialized iš XML failo ir importuojamas į Dynamics 365 operacijoms kaip sudedamoji ER nauja versija.
+-   Juos galima išdėstyti eilutėmis XML formatu ir eksportuoti iš „Dynamics 365 for Operations“ kaip failą XML formatu.
+-   Juos galima sugrąžinti iš XML failo ir importuoti į „Dynamics 365 for Operations“ kaip naują ER komponento versiją.
 
 #### <a name="component-date-effectivity"></a>Komponento galiojimo data
 
-ER komponento versijos turi galiojimo datą. Galima apibrėžti ER komponento datą** Galioja nuo**, norint nurodyti datą, nuo kurios šis komponentas galioja, ir jį galima naudoti ataskaitų teikimo procesuose. Dynamics 365 operacijų seanso datą yra naudojamas nustatyti, ar komponentas galioja vykdymo. Jei konkrečią dieną galioja daugiau nei viena versija, ataskaitų teikimo procesuose naudojama naujausia versija.
+ER komponento versijos turi galiojimo datą. Galima apibrėžti ER komponento datą** Galioja nuo**, norint nurodyti datą, nuo kurios šis komponentas galioja, ir jį galima naudoti ataskaitų teikimo procesuose. „Dynamics 365 for Operations“ seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja daugiau nei viena versija, ataskaitų teikimo procesuose naudojama naujausia versija.
 
 #### <a name="component-access"></a>Prieiga prie komponento
 
-Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo parametro. Kai šis parametras yra tuščias, jei pasirinkta versija formatas konfigūracijos, formatas komponentas galima pasiekti bet Dynamics 365 operacijų bendrovės vykdymo metu. Kai šis parametras yra ISO šalies/regiono kodus, formatas komponentas yra prieinamas tik iš Dynamics 365 veiklą įmonėms, kurios yra pagrindinis adresas, kuris yra apibrėžta naudoti formatą komponento ISO šalies/regiono kodus. Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
+Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo parametro. Kai šis pasirinktos formato konfigūracijos versijos parametras nenurodytas, formato komponentą galima pasiekti iš bet kurios „Dynamics 365 for Operations“ įmonės vykdymo metu. Kai šiame parametre yra ISO valstybės / regiono kodai, formatas komponentą galima pasiekti tik iš tų „Dynamics 365 for Operations“ įmonių, kurių pagrindinis adresas nurodytas kaip vienas iš formato komponento ISO valstybės / regiono kodų. Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
 
 #### <a name="configuration"></a>Konfigūravimas
 
-ER konfigūracija yra tam tikro ER komponento (**Duomenų modelis** arba **Formatas**) aplankas. Konfigūracija gali apimti skirtingas tam tikro ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Į **projektu** konfigūracijos komponento versija gali būti redaguojami, kai konfigūracijos savininkas buvo pasirinktas kaip active teikėjas ER parametruose Dynamics 365 operacijoms. Kiekvienoje modelio konfigūracijoje yra komponentas **Duomenų modelis**. Naują formato konfigūraciją galima išvesti (gauti) iš konkrečios duomenų modelio konfigūracijos. Sukurta formato konfigūracija konfigūracijos medyje bus pateikta kaip antrinė pradinės duomenų modelio konfigūracijos konfigūracija. Sukurtoje formato konfigūracijoje yra komponentas **Formatas **. Pirminės modelio konfigūracijos komponentas **Duomenų modelis** yra automatiškai įterpiamas į antrinės formato konfigūracijos komponentą **Formatas **kaip numatytasis duomenų šaltinis. ER konfigūracija yra bendrinamas Dynamics "365" veiklos įmonėms.
+ER konfigūracija yra tam tikro ER komponento (**Duomenų modelis** arba **Formatas**) aplankas. Konfigūracija gali apimti skirtingas tam tikro ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **JUODRAŠTIS** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas „Dynamics 365 for Operations“ ER parametruose. Kiekvienoje modelio konfigūracijoje yra komponentas **Duomenų modelis**. Naują formato konfigūraciją galima išvesti (gauti) iš konkrečios duomenų modelio konfigūracijos. Sukurta formato konfigūracija konfigūracijos medyje bus pateikta kaip antrinė pradinės duomenų modelio konfigūracijos konfigūracija. Sukurtoje formato konfigūracijoje yra komponentas **Formatas **. Pirminės modelio konfigūracijos komponentas **Duomenų modelis** yra automatiškai įterpiamas į antrinės formato konfigūracijos komponentą **Formatas **kaip numatytasis duomenų šaltinis. „Dynamics 365 for Operations“ įmonės bendrai naudoja ER konfigūraciją.
 
 #### <a name="provider"></a>Teikėjas
 
-ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formatuoti konfigūracijų, kuris yra išleistas į elektroninių dokumentų kaip Dynamics 365 operacijų tirpalo dalis pažymėtos kaip priklauso, **"Microsoft"** teikėjo konfigūracijos.
+ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formatų konfigūracijos, skirtos elektroniniams dokumentams kaip „Dynamics 365 for Operations“ sprendimo dalis, yra pažymėtos kaip priklausančios konfigūracijos teikėjui **Microsoft**.
 
 #### <a name="repository"></a>Saugykla
 
-ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomi šių tipų ER saugyklas: **operacijų išteklius** ir **LKD projektas**. Yra ** operacijos išteklių ** saugyklos suteikia prieigą prie sudėčių, išleisti ER konfigūracijos teikėjas Microsoft Dynamics 365 operacijų tirpalo dalis sąrašą. Šias konfigūracijas gali būti importuojami į dabartinę Dynamics 365 operacijų atveju ir naudojami elektroniniai pranešimai. Taip pat jas galima naudoti tolesniam lokalizavimui / tinkinimui atlikti. **LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos etape, konfigūracijų sąrašo. ER leidžia jums įkelti bendrai naudojamą konfigūracijos iš dabartinės Dynamics 365 operacijų atveju konkrečiam **LKD projektas** saugykloje. Taip pat galite importuoti konfigūracijos iš konkretaus **LKD projektas** saugyklos į dabartinę Dynamics 365 operacijų atveju. Reikalingas **LKD projektas** saugyklas galima registruoti atskirai kiekvienos konfigūracijos teikėjas dabartinė dinamika 365 operacijų atveju. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
+ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER saugyklos: **Operacijų ištekliai** ir **LCS projektas**. **Operacijų išteklių** saugykla suteikia prieigą prie konfigūracijų sąrašo, kuris pristatomas kaip „Dynamics 365 for Operations‟ sprendimo, teikiamo „Microsoft‟ kaip ER konfigūracijų teikėjo, dalis. Šias konfigūracijas galima importuoti į esamą „Dynamics 365 for Operations‟ egzempliorių ir naudoti elektroninių ataskaitų kūrimo tikslais. Taip pat jas galima naudoti tolesniam lokalizavimui / tinkinimui atlikti. **LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos etape, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio „Dynamics 365 for Operations“ egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš konkrečios **LCS projekto** saugyklos į dabartinį „Dynamics 365 for Operations“ egzempliorių. Galima registruoti atskirai kiekvieno dabartinio „Dynamics 365 for Operations“ egzemplioriaus konfigūracijos teikėjo būtinas **LCS projekto** saugyklas. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 ### <a name="building-a-data-model"></a>Duomenų modelio kūrimas
 
-ER teikia modelių kūrimo įrankį, kurį galite naudoti konkrečiam verslo domenui skirtam duomenų modeliui kurti. Visus domenui būdingus verslo objektus ir jų ryšius galima pateikti duomenų modelyje kaip hierarchinę struktūrą. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio pavyzdys (mokėjimo domeno duomenų modelis). [![Duomenų modelio pavyzdys](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) turi būti susipažinę su informacija apie šį scenarijų, žaisti su **ER dizainas domeno konkrečių duomenų modelis** užduoties vadovas (dalis su **7.5.4.3 Acquire/plėtoti IT paslaugų/sprendimų komponentai (10677)** verslo procesų).
+ER teikia modelių kūrimo įrankį, kurį galite naudoti konkrečiam verslo domenui skirtam duomenų modeliui kurti. Visus domenui būdingus verslo objektus ir jų ryšius galima pateikti duomenų modelyje kaip hierarchinę struktūrą. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio pavyzdys (mokėjimo domeno duomenų modelis). [![Duomenų modelio pavyzdys](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) Paleiskite užduočių vedlį **ER konkretaus domeno duomenų modelio kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="translating-data-model-content"></a>Duomenų modelio turinio vertimas
 
-Duomenų modelio turiniu (etiketes ir aprašymai) gali išversta į kitas kalbas, palaikančią Dynamics 365 operacijoms. Duomenų modelio turinį galite norėti išversti dėl toliau nurodytų priežasčių.
+Duomenų modelio turinį (etiketes ir aprašus) galima išversti į kitas „Dynamics 365 for Operations“ palaikomas kalbas. Duomenų modelio turinį galite norėti išversti dėl toliau nurodytų priežasčių.
 
 -   Norint, kad kita kalba kalbantys formato kūrėjai, kurie naudos duomenų modelį formato komponentų duomenims susieti, kurdami lengviau suprastų turinį
--   Ne darbo laiko, kad turinys vartotojui draugiškas pateikiant raginimus ir padėti vykdymo laiko parametrų, ir taip pat sukonfigūruotas patikrinimo pranešimų (klaidos ir įspėjimai), kalba šiuo metu įėjęs Dynamics 365 operacijų vartotojas pageidauja
+-   Norint turinį padaryti patogesnį naudoti vykdymo metu, teikiant vykdymo parametrų raginimus ir pagalbą bei sukonfigūruotus tikrinimo pranešimus (klaidų, įspėjimų) tuo metu prisijungusio „Dynamics 365 for Operations“ vartotojo pageidaujama kalba
 
-Tolesnėje iliustracijoje pateikiamas pavyzdys, kaip duomenų modelio turinį galima išversti iš anglų k. į japonų k.. [![Duomenų modelio turinys anglų kalba](./media/pic-translate-en-1024x495.png)](./media/pic-translate-en.png)[![duomenų modelio turinio išversta į japonų](./media/pic-translate-ja-1024x495.png)](./media/pic-translate-ja.png)
+Tolesnėje iliustracijoje pateikiamas pavyzdys, kaip duomenų modelio turinį galima išversti iš anglų k. į japonų k.. [![Duomenų modelio turinys anglų k.](./media/pic-translate-en-1024x495.png)](./media/pic-translate-en.png) [![Duomenų modelio turinys, išverstas į japonų k.](./media/pic-translate-ja-1024x495.png)](./media/pic-translate-ja.png)
 
 ### <a name="configuring-data-model-mappings"></a>Duomenų modelio susiejimų konfigūravimas
 
-ER numato modelio atvaizdavimo dizaineris, kuris leidžia vartotojams priskirti konkrečių Dynamics 365 operacijų duomenų šaltinių duomenų modelius, kad jie sukūrė. Tolesnėje iliustracijoje pateikiamas tokio tipo duomenų modelio susiejimo pavyzdys (mokėjimo domeno duomenų modelio **SEPA kredito pervedimo** modelio susiejimas). [![Duomenų modelio atvaizdavimo pavyzdys ](./media/pic-model-mapping-1024x551.png)](./media/pic-model-mapping.png)susipažinti su informacija apie šį scenarijų, žaisti su **ER apibrėžti modelio atvaizdavimo ir pasirinkite duomenų šaltinius** ir **ER žemėlapyje duomenų modelio prie pasirinktų duomenų šaltinių** užduočių vadovai (dalis su **7.5.4.3 Acquire/plėtoti IT paslaugų/sprendimų komponentai (10677)** verslo procesų).
+ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai susieti duomenų modelius, kuriuos jie sukūrė konkretiems „Dynamics 365 for Operations“ duomenų šaltiniams. Tolesnėje iliustracijoje pateikiamas tokio tipo duomenų modelio susiejimo pavyzdys (mokėjimo domeno duomenų modelio **SEPA kredito pervedimo** modelio susiejimas). [![Duomenų modelio susiejimo pavyzdys](./media/pic-model-mapping-1024x551.png)](./media/pic-model-mapping.png) Paleiskite užduočių vedlius **ER modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas** ir **ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Sukurto modelio komponento saugojimas kaip modelio konfigūracijos
 
-ER gali saugoti sukurta duomenų modelis kartu su susijusių duomenų susiejimų kaip dabartinis Dynamics 365 operacijų atveju, modelio konfigūracija. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio konfigūracijos pavyzdys (mokėjimo duomenų modelio konfigūracija). [![Duomenų modelio konfigūracijos pavyzdys ](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png)susipažinti su informacija apie šį scenarijų, žaisti su **ER žemėlapyje duomenų modelio prie pasirinktų duomenų šaltinių** užduoties vadovas (dalis su **7.5.4.3 Acquire/plėtoti IT paslaugų/sprendimų komponentai (10677)** verslo procesų).
+ER gali saugoti sukurtą duomenų modelį su susietais duomenų susiejimais kaip dabartinio „Dynamics 365 for Operations“ egzemplioriaus modelio konfigūraciją. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio konfigūracijos pavyzdys (mokėjimo duomenų modelio konfigūracija). [![Duomenų modelio konfigūracijos pavyzdys](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) Paleiskite užduočių vedlį **ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Formato kūrimas pasirenkant duomenų modelį kaip pagrindą
 
-ER palaiko formato kūrimo įrankį, kurį galima naudoti norint kurti pasirinkto verslo domeno konkretaus elektroninio dokumento formatą pasirenkant modelio komponentą kaip pagrindą. Tas pats ER formato kūrimo įrankis teikia galimybę sukurtą formatą susieti su pasirinkto domeno duomenų modelio susiejimu kaip duomenų šaltiniu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys (formato konfigūracija, kad būtų palaikomas Jungtinės Karalystės **BACS** mokėjimo formatas). [![Pavyzdys, tokia forma, kad duomenų bazės modelis](./media/pic-format-1024x690.png)](./media/pic-format.png) turi būti susipažinę su informacija apie šį scenarijų, žaisti su **ER dizainas domeno konkretaus formato** užduoties vadovas (dalis su **7.5.4.3 Acquire/plėtoti IT paslaugų/sprendimų komponentai (10677)** verslo procesų).
+ER palaiko formato kūrimo įrankį, kurį galima naudoti norint kurti pasirinkto verslo domeno konkretaus elektroninio dokumento formatą pasirenkant modelio komponentą kaip pagrindą. Tas pats ER formato kūrimo įrankis teikia galimybę sukurtą formatą susieti su pasirinkto domeno duomenų modelio susiejimu kaip duomenų šaltiniu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys (formato konfigūracija, kad būtų palaikomas Jungtinės Karalystės **BACS** mokėjimo formatas). [![Formato, kuriame duomenų modelis naudojamas kaip pagrindas, pavyzdys](./media/pic-format-1024x690.png)](./media/pic-format.png) Paleiskite užduočių vedlį **ER konkretaus formato modelio kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Konfigūracijos, skirtos elektroninius dokumentus generuoti OPENXML darbalapio formatu, kūrimas
 
-ER formato kūrimo įrankį galima naudoti, norint kurti konkretų elektroninį dokumentą OPENXML darbalapio formatu. Iliustracijoje parodyta šio tipo formatas (format konfigūracijos generuoti OPENXML darbalapį su išsamia informacija apie pasirinktas mokėjimo žurnalą) pavyzdys:[![Pic-ER-formatą-Excel](./media/pic-er-format-excel.jpg)](./media/pic-er-format-excel.jpg) susipažinti su informacija apie šį scenarijų, žaisti su **ER kurti ataskaitas OPENXML formatu konfigūraciją** užduoties vadovas (dalis su **7.5.4.3 Acquire/plėtoti IT paslaugų/sprendimų komponentai (10677)** verslo procesų). Naudoti nenurodyta toliau Excel failą kaip šabloną projektavimas ER formato užbaigti formos šablono importo šio darbo vadovo žingsnis: [mokėjimo ataskaitos šabloną (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+ER formato kūrimo įrankį galima naudoti, norint kurti konkretų elektroninį dokumentą OPENXML darbalapio formatu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys (formato konfigūracija, skirta generuoti OPENXML darbalapį su pasirinkto mokėjimo žurnalo informacija):[![Pic-ER-format-Excel](./media/pic-er-format-excel.jpg)](./media/pic-er-format-excel.jpg) Paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi. Naudokite toliau nurodytą „Excel“ failą kaip ER formato kūrimo šabloną, kad atliktumėte šio užduočių vedlio formato šablono importavimo veiksmą: [Mokėjimo ataskaitos šablonas (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Sukurto formato komponento saugojimas formato konfigūracijoje
 
-ER gali saugoti suprojektuoti formatą kartu su sukonfigūruotas duomenų rodymo formatas sąrankos Dabartinis Dynamics "365" operacijų atveju. Ankstesnėje iliustracijoje pateiktas šio tipo formato konfigūracijos pavyzdys (**BACS (Jungtinė Karalystė)** – antrinis **mokėjimo modelio** konfigūracijos elementas). Paleiskite užduočių vedlį **ER konkretaus domeno formato kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
+ER gali saugoti sukurtą formatą su sukonfigūruotais duomenų susiejimais kaip dabartinio „Dynamics 365 for Operations“ egzemplioriaus modelio konfigūraciją. Ankstesnėje iliustracijoje pateiktas šio tipo formato konfigūracijos pavyzdys (**BACS (Jungtinė Karalystė)** – antrinis **mokėjimo modelio** konfigūracijos elementas). Paleiskite užduočių vedlį **ER konkretaus domeno formato kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
-### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Konfigūravimas Dynamics 365 veiklai pradėti naudoti susikurtą formatą viduje
+### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>„Dynamics 365 for Operations“ konfigūravimas, norint pradėti naudoti sukurtą formatą viduje
 
-Dinamika 365 operacijoms gali būti sukonfigūruota pradėti naudoti susikurtą formatą elektroninėms ataskaitoms generuoti. Nuoroda į sukurto formato konfigūraciją turi būti apibrėžta naudojant konkretaus domeno parametrus. Pvz., pradėti naudoti ER formatas konfigūracijos elektroninių tiekėjo mokėjimams atlikti BACS formatu, formatu konfigūraciją turėtų būti nuorodos į konkrečius mokėjimo būdus be mokėjimo, kaip parodyta paveikslėliuose: 
+„Dynamics 365 for Operations“ galima konfigūruoti, kad ji sukurtą formatą pradėtų naudoti elektroninėms ataskaitoms generuoti. Nuoroda į sukurto formato konfigūraciją turi būti apibrėžta naudojant konkretaus domeno parametrus. Pvz., norint pradėti naudoti ER formato konfigūraciją elektroniniams tiekėjo mokėjimams BACS formatu apdoroti, formato konfigūraciją reikia nurodyti konkrečiuose mokėjimo būduose, kaip parodyta tolesnėse iliustracijose. 
 
-[![BACS (Didžioji Britanija) format konfigūracijos](media/ger-bacs-uk-format-configuration.png) 
+[![BACS (JK) formato konfigūracija](media/ger-bacs-uk-format-configuration.png) 
 
-[![Nuorodų BACS (Jungtinė Karalystė) formatą, mokėjimo būdą](media/ger-bacs-uk-format-method.png) 
+[![BACS (JK) formato nurodymas mokėjimo būde](media/ger-bacs-uk-format-method.png) 
 
 Paleiskite užduočių vedlį **ER formato naudojimas elektroniniams mokėjimų dokumentams generuoti** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
@@ -170,7 +173,7 @@ Sukurto komponento (modelio arba formato) savininkas gali naudoti ER baigtai kom
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>ER komponento importavimas iš LCS naudoti viduje
 
-ER leidžia importuoti ER komponentai iš LKD dabartinė dinamika 365 operacijų atveju. Būtina **LCS projekto **tipo saugykla. Kai ER komponentas yra importuoti iš LKD dabartinė dinamika 365 operacijų atveju, egzemplioriaus savininkas tampa paslauga, kuri teikia savininkas (autorius) importuotų komponento vartotojas. Pavyzdžiui, jei formatas komponentas yra siekiama sukurti konkretų elektroninį dokumentą iš Dynamics 365 operacijoms šaliai/regionui būdingų formatu (lokalizacijos scenarijus), daroma prielaida, kad paslaugos vartotojui bus suteikta galimybė gauti visus atnaujinimus, atliktus ta forma, kad ji atitiktų teisės aktų reikalavimus. Paleiskite užduočių vedlį **ER konfigūracijos importavimas iš „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
+ER suteikia galimybę importuoti ER komponentus iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių. Būtina **LCS projekto **tipo saugykla. Importavus ER komponentą iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių, egzemplioriaus savininkas tampa paslaugos, kurią teikia importuoto komponento savininkas (autorius), vartotoju. Pavyzdžiui, jei šis formato komponentas skirtas konkrečiam elektroniniam dokumentui generuoti iš „Dynamics 365 for Operations“ tam tikros valstybės / regiono būdingu formatu (lokalizavimo scenarijus), manoma, kad paslaugos vartotojas galės gauti visus šio formato naujinimus, kad formatas visada atitiktų įstatymų reikalavimus. Paleiskite užduočių vedlį **ER konfigūracijos importavimas iš „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Formato kūrimas pasirinkus kitą formatą kaip pagrindą (tinkinimas)
 
@@ -180,7 +183,7 @@ ER palaiko galimybę kurti (išvesti) naują komponentą iš dabartinės kompone
 
 ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento versijos pakeitimus dabartinėje išvestinio komponento juodraščio versijoje. Šis procesas vadinamas *pritaikymu kitoje vietoje*. Pavyzdžiui, naują reguliavimo pakeitimą, įtrauktą į naujausią komponento, importuoto iš LCS, versiją, galima automatiškai sulieti su pritaikyta šio elektroninio dokumento formato versija. Bet kokie pakeitimai, kurių negalima sulieti automatiškai, yra laikomi konfliktais. Šiuos konfliktus galima išspręsti neautomatiniu būdu naudojant atitinkamo komponento kūrimo įrankį. Paleiskite užduočių vedlį **ER formato versijos naujinimas priimant naują jo pagrindinę versiją** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-dynamics-365-for-operations-solution"></a>ER sudėčių, pristatyti Dynamics 365 operacijų tirpalo sąrašą
+## <a name="list-of-er-configurations-that-are-delivered-in-the-dynamics-365-for-operations-solution"></a>ER konfigūracijų, kurios pateikiamos „Dynamics 365 for Operations“ sprendime, sąrašas
 | Konkretaus domeno duomenų modelio konfigūracijos: pavadinimas | Domenas                | Nuo duomenų modelio priklausančio formato konfigūracijos: pavadinimas | Prekės/Paslaugos pavadinimas                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Audito failo modelis                                 | Finansinis auditas       |                                                   |                                                                    |
@@ -269,5 +272,7 @@ ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento ve
 [Lokalizacijos reikalavimai – elektroninių ataskaitų konfigūracijos kūrimas](electronic-reporting-configuration.md)
 
 [Valdykite Elektroninių ataskaitų konfigūracijos ciklą](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
 
 

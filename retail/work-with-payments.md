@@ -1,5 +1,5 @@
 ---
-title: "Mokėjimo būdai call Center"
+title: "Mokėjimo būdai skambučių centre"
 description: "Šioje temoje paaiškinami įvairūs mokėjimo būdai, kuriuos galite mažmeninės prekybos ir prekybos skambučių centre."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Mokėjimo būdai call Center
+# <a name="payment-methods-in-a-call-center"></a>Mokėjimo būdai skambučių centre
+
+[!include[banner](includes/banner.md)]
+
 
 Šioje temoje paaiškinami įvairūs mokėjimo būdai, kuriuos galite mažmeninės prekybos ir prekybos skambučių centre.
 
@@ -43,6 +46,8 @@ Jei pateikiate kredito kortelės mokėjimą iš puslapio **Pardavimo užsakymas*
 
 -   Čekių sulaikymas finansų darbuotojams suteikia galimybę apdoroti užsakymus, kurie buvo sulaikyti, nes čekis buvo naudojamas kaip mokėjimo būdas ir čekio sulaikymo ribinės reikšmės suma buvo viršyta. Sulaikymą galima panaikinti neautomatiniu būdu arba jis automatiškai baigs galioti sukonfigūruoto laikotarpio pabaigoje.
 -   Galite nustatyti ribines reikšmes, kurias viršijus grąžintinas sumokėtas sumas, išduodamas čekiu arba kredito kortele, reikia patvirtinti rankiniu būdu. Grąžintina suma, viršijanti ribinę sumą, įtraukiama į patvirtinimo eilę. Patvirtinus grąžinimą galima išrašyti grąžinamo pardavimo užsakymo SF.
+
+
 
 
 

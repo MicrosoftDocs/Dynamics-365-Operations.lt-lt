@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Turto pirkimas įsigyjant
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyta, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
 
  Galimi toliau nurodyti Ilgalaikio turto ir Mokėtinų sumų integravimo būdai; tokį patį būdą reikia naudoti visam ilgalaikiam turtui:
@@ -103,6 +106,8 @@ Toliau pateikiamos šio scenarijaus variacijos:
 -   Jei gaunamas tik dalinis kiekis, nesukuriamas joks pirmosios tiekėjo sąskaitos faktūros turto įsigijimas dėl vartotojų grupės apribojimų. Galima užregistruoti antrosios tiekėjo sąskaitos faktūros, kuri užpildo užsakytą kiekį, įsigijimą tik jei pirmosios tiekėjo sąskaitos faktūros įsigijimo operacija buvo jau įvesta ir jūs esate vartotojų grupės, kuriai leidžiama registruoti įsigijimus, narys.
 
 
-Daugiau informacijos rasite [nustatytas turto integracijos](fixed-asset-integration.md).
+Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
+
+
 
 

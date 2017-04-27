@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Audito strategijos taisyklės
 
+[!include[banner](../includes/banner.md)]
+
+
 Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė. 
 
 <a name="queries-and-query-types"></a>Užklausos ir užklausų tipai
@@ -97,5 +100,7 @@ Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius pake
 --------
 
 [Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)
+
+
 
 

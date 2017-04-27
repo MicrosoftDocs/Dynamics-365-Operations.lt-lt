@@ -1,6 +1,6 @@
 ---
-title: Organizacijos mokymo Power BI turinys
-description: "Šioje temoje aprašoma Dynamics 365 operacijų - organizacijos mokymo Power BI turinį. Tai paaiškinama kaip prieiti prie turinio pack, ir aprašomi duomenų modelis ir subjektai, kurie buvo naudojami sukurti turinio paketas."
+title: "Organizacinio mokymo „Power BI“ turinys"
+description: "Šioje temoje aprašytas „Dynamics 365 for Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Organizacijos mokymo Power BI turinys
+# <a name="organizational-training-power-bi-content"></a>Organizacinio mokymo „Power BI“ turinys
 
-Šioje temoje aprašoma Dynamics 365 operacijų - organizacijos mokymo Power BI turinį. Tai paaiškinama kaip prieiti prie turinio pack, ir aprašomi duomenų modelis ir subjektai, kurie buvo naudojami sukurti turinio paketas.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketas
+
+Šioje temoje aprašytas „Dynamics 365 for Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti.
+
+<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
 --------------------------
 
-Organizacijos mokymo turinio paketą galite rasti bendro naudojimo turto bibliotekoje Microsoft Dynamics gyvavimo ciklo paslaugų (LKD). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie savo "Microsoft Dynamics 365" operacijų duomenų, rasite [LCS iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md).
+Organizacinio mokymo turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Pranešimų, kurie yra įtraukti į turinio paketas
-Prijungę turinio pack Dynamics "365" operacijų duomenų ataskaitose nurodoma organizacijos duomenis. Jei niekada nenaudojote "Microsoft" Power BI prieš, galite sužinoti daugiau apie tai ant to [vadovaujasi mokymosi puslapis, Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Pranešimų, kurie yra įtraukti į turinio paketas yra diagramos ir lentelės, kuriose papildomos informacijos. Tolesnėje lentelėje aprašomos ataskaitos.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
+Prijungus turinio paketą prie „Dynamics 365 for Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
 
 | Ataskaita          | Turinys                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Priežasčių analizę | Registracijos vietovę, kursų dalyvių statusas bei registracijos sąrašas |
-| Kursų tipus    | Kursų tipai pagal įgūdžius                                                       |
+| Kurso analizė | Registravimas pagal vietą, kurso dalyvius pagal jų būseną ir registracijos sąrašą |
+| Kursų tipai    | Kursų tipai pagal įgūdžius                                                       |
 
-Galite filtruoti diagramas bei plyteles ant šios ataskaitos ir grafikai ir plytelės prie prietaisù skydelio. Daugiau informacijos apie filtro ir PIN kodą, Power BI, rasite [kurti ir konfigūruoti ataskaitų srities A](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Dinamika 365 operacijų duomenys yra naudojamas užpildyti ataskaitos organizacijos mokymo turinio paketas. Šioje lentelėje subjektų buvo pagrįsta turinio paketas.
+„Dynamics 365 for Operations“ duomenys naudojami ataskaitoms organizacinio mokymo turinio pakete užpildyti. Toliau pateiktoje lentelėje nurodomi objektai, kuriais turinio paketas pagrįstas.
 
-| Objektas                    | Turinys                                                         | Santykių su kitais subjektais                                                                                                                                                                  |
+| Objektas                    | Turinys                                                         | Ryšiai su kitais objektais                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mokymo\_CalendarOffset  | Kalendorinių kompensuoja gabaliuką ataskaitas                                | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_įmonė         | Bendrovės filtruoti ataskaitas                                   | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_kursai          | Žinoma, aprašymas, instruktoriaus vardas, vietą, numeris ir statusas | Mokymo\_CourseAgenda mokymo\_CourseAttendees mokymo\_CourseSkill                                                                                                                             |
-| Mokymo\_CourseAgenda    | Darbotvarkės, žinoma ir pradžios ir pabaigos laiką                          | Mokymo\_apmokymo įmonėje\_CalendarOffset mokymo\_šiol mokymo\_kursai                                                                                                                         |
-| Mokymo\_CourseAttendees | Pavadinimas, statusas, darbo ir registracijos data                         | Mokymo\_apmokymo įmonėje\_CalendarOffset mokymo\_šiol mokymo\_gyventojai mokymo\_darbo mokymą\_kursai mokymo\_WorkerName mokymo\_WorkerTitle mokymo\_profesinį mokymą\_pozicija |
-| Mokymo\_CourseSkill     | Įgūdžių, įgūdžio tipą ir lygį                                     | Mokymo\_kursai                                                                                                                                                                                   |
-| Mokymo\_dienos            | Dienas, savaites, mėnesius ir metus                                   | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_demografija    | Data gimimo, lyties, etninės kilmės ir šeimyninė padėtis         | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_darbo      | Pradžios data, pabaigos data ir perėjimo data                        | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_darbo             | Funkciją, tipas ir pavadinimas                                        | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_pozicija        | Pozicija, pavadinimas ir dirbančius (FTE)                  | Mokymo\_CourseAgenda mokymo\_CourseAttendees                                                                                                                                                   |
-| Mokymo\_WorkerName      | Vardas, pavardė ir vardas, pavardė                             | Mokymo\_CourseAttendees                                                                                                                                                                          |
-| Mokymo\_WorkerTitle     | Pavadinimas ir stažo data                                         | Mokymo\_CourseAttendees                                                                                                                                                                          |
+| Training\_CalendarOffset  | Kalendoriaus poslinkiai ataskaitoms skaidyti                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Company         | Įmonės, pagal kurias filtruojamos ataskaitos                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Course          | Kursai, aprašas, dėstytojo vardas, vieta, kabinetas ir būsena | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
+| Training\_CourseAgenda    | Darbotvarkė, kursas, pradžios ir pabaigos laikas                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
+| Training\_CourseAttendees | Vardas, būsena, užduotis ir registracijos data                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
+| Training\_CourseSkill     | Įgūdis, įgūdžio tipas ir lygis                                     | Training\_Course                                                                                                                                                                                   |
+| Training\_Date            | Dienos, savaitės, mėnesiai ir metai                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Demographics    | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Employment      | Pradžios data, pabaigos data ir perėjimo data                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Job             | Funkcija, tipas ir pareigos                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_Position        | Pareigos ir etato ekvivalentas (FTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
+| Training\_WorkerName      | Vardas, pavardė ir vardas bei pavardė                             | Training\_CourseAttendees                                                                                                                                                                          |
+| Training\_WorkerTitle     | Pareigos ir paaukštinimo data                                         | Training\_CourseAttendees                                                                                                                                                                          |
 
-Šių subjektų buvo naudojama siekiant sukurti apskaičiuojamieji matai duomenų modelio. Tai apskaičiuojama priemonės naudojami apskaičiuoti pagrindinius veiklos rodiklius (KPI) ir ataskaitų, kurias naudoja turinio paketas. Jei norite įtraukti papildomų skaičiavimų ataskaitos ir prietaisų skydelio, galite atsisiųsti ir pakeisti Training.pbix failą iš LKD. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas sukurti turinio paketas. Po to, kai jūs atlikote pakeitimus, galite sukurti organizacijos turinio paketas ir valdymo skydelį, kuriame yra informacija, kurią įtraukėte.
+Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinio pakete. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą Training.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turinio paketui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
@@ -71,6 +74,8 @@ Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ tur
 -   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [„Power BI“ plytelių įtraukimas į darbo sritis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

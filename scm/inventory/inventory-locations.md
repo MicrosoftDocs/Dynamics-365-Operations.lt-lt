@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Atsargų vietos
 
+[!include[banner](../includes/banner.md)]
+
+
 Atsargų vietos naudojamos su pagrindinio sandėliavimo (WMS I) funkcijomis ir jomis nustatoma, kur prekės saugomos ir iš kur prekės paimamos WMS I sandėlyje.
 
 Ši tema taikoma priemonėms modulyje Atsargų valdymas. Ji nėra taikoma priemonėms modulyje Sandėlio valdymas.
@@ -64,6 +67,8 @@ Galima kopijuoti vietas iš vieno sandėlio į kitą ir kurti vietas naudojant v
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sukurti naują sandėlio išplanavimą (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Kurti naują sandėlio maketą (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

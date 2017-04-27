@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Darbo eigos kūrimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje paaiškinama, kaip sukurti darbo eigą.
 
 <a name="open-the-workflow-editor"></a>Darbo eigos rengyklės atidarymas
 ------------------------
 
-Microsoft Dynamics 365 operacijų modulis, kurioje dirbate, nustato tipus, galite sukurti darbo eigos. Atlikite šiuos veiksmus, kad pasirinktumėte darbo eigos, kurią norite kurti, tipą ir atidarytumėte darbo eigos rengyklę.
+„Microsoft Dynamics 365 for Operations“ modulis, kuriame dirbate, nustato galimus kurti darbo eigos tipus. Atlikite šiuos veiksmus, kad pasirinktumėte darbo eigos, kurią norite kurti, tipą ir atidarytumėte darbo eigos rengyklę.
 
 1.  Atidarykite modulį, kuriame norite sukurti naują darbo eigą. Pavyzdžiui, jei norite sukurti pirkimo paraiškų darbo eigą, eikite į modulį, spustelėkite **Paraiškos**.
-2.  Spustelėkite **parametrai**&gt;**\[modulio pavadinimas\] darbo eigų**.
+2.  Spustelėkite **Sąranka** &gt; **\[Modulio pavadinimas\] darbo eigos**.
 3.  Sąrašo puslapio, kuris pasirodo, veiksmų srityje spustelėkite skirtuką **Nauja**.
 4.  Puslapyje **Darbo eigos kūrimas** pasirinkite norimos kurti darbo eigos tipą ir tada spustelėkite **Kurti darbo eigą**. Atidaroma darbo eigos rengyklė. Dabar galite naudoti toliau nurodytas procedūras, kad sumodeliuotumėte darbo eigą.
 
@@ -75,6 +78,8 @@ Kai būsite pasirengę įrašyti ir suaktyvinti darbo eigą, atlikite toliau nur
 3.  Jei visos klaidos ir perspėjimai išspręsti, bus rodomas puslapis **Darbo eigos aktyvinimas**. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   Norėdami aktyvinti šią darbo eigos versiją, spustelėkite **Aktyvinti naują versiją**. Kai darbo eiga aktyvi, vartotojai galės pateikti dokumentus apdoroti.
     -   Jei šios versijos aktyvinti nenorite, spustelėkite **Neaktyvinti naujos versijos**. Darbo eigą galite suaktyvinti vėliau.
+
+
 
 
 

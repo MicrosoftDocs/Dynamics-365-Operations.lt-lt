@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Kaupimų apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyti kaupimai ir pateikta informacija apie tai, kaip juos nustatyti ir sukurti operacijas.
 
 Kaupimai naudojami taikant kaupimo apskaitos principą, kuriuo sekamos įplaukos, priskiriamos tam pačiam laikotarpiui, kada jos uždirbtos, o ne kada gautas apmokėjimas, ir sekamos išlaidos (sąnaudos), priskiriamos tuomet, kai jos įvyksta, o ne kada atliekamas apmokėjimas.
@@ -41,6 +44,8 @@ Kaupimo schemos naudojamos nustatant atidėtas įplaukas ir išlaidas – ta pat
 Nusprendę, kurias sąskaitas naudoti, galite nurodyti, kaip kuriamas kvito numeris, kai kuriamos kaupimo operacijos. Taip pat galite nurodyti, kaip dažnai vyksta operacijos, kiek kartų operacijos sukuriamos ir kada operacijos registurojamos. Sukūrę kaupimo schemą, galite ją naudoti kai kuriuose žurnaluose, pasitelkdami DK kaupimų funkciją.
 
 ## <a name="ledger-accruals"></a>DK kaupimai
-Įvedę žurnalą, galite spustelėti **DK kaupimai** meniu **Funkcijos**. Tada, kai pasirenkate kaupimo schemą, matysite pagrindinę žurnalo sumą, kuri bus paskirstyta per laikotarpį pagal kaupimo schemą. Pavyzdžiui, jei mokate darbuotojo draudimo metus sausio mėnesį, ir suma yra 12 000, jus pripažinti, kad sąskaita kiekvieną mėnesį. Galite pasirinkti pradžios datą. Taip pat galite nurodyti, ar suma sukaupta pagal sąskaita arba korespondentinę sąskaitą. Atlikę savo pasirinkimais, spustelėkite **operacijos** Norėdami peržiūrėti visas operacijas, kurios buvo sukurtos remiantis kaupimo schemą. Pavyzdžiui, jei per metus paskirstytais 12.000 draudimo išlaidas, pamatysite 1000 kiekvieną mėnesį. Po to, kai užregistruosite žurnalą, galite peržiūrėti operacijos naudojant į **kvitų operacijos** puslapio užklausą. Jei kaupimo schemą negali būti taikomi (pvz., kai pardavimo užsakymo SF arba pirkimo užsakymo SF yra susijęs), galite iš anksto apmokėta suma kredituoja ir išlaidų suma. Tada, taikydami kaupimo schemą, galite pasirinkti **Korespondentinė sąskaita**.
+Įvedę žurnalą, galite spustelėti **DK kaupimai** meniu **Funkcijos**. Tada, kai pasirenkate kaupimo schemą, matysite pagrindinę žurnalo sumą, kuri bus paskirstyta per laikotarpį pagal kaupimo schemą. Pavyzdžiui, jei sausį mokate darbuotojo draudimą už visus metus, ir ši suma yra 12 000, šias išlaidas turite priskirti kiekvieną mėnesį. Galite pasirinkti pradžios datą. Taip pat galite nurodyti, ar suma sukaupta pagal sąskaita arba korespondentinę sąskaitą. Atlikę savo pasirinkimus, spustelėkite **Operacijos**, kad peržiūrėtumėte visas operacijas, sukurtas pagal kaupimo schemą. Pavyzdžiui, jei 12 000 draudimo išlaidų paskirstysite per metus, kiekvieną mėnesį matysite 1 000. Užregistravę žurnalą, galite peržiūrėti operacijas naudodami užklausų puslapį **Kvito operacijos**. Jei kaupimo schemos pritaikyti negalima (pvz., kai yra pardavimo užsakymo SF arba pirkimo užsakymo SF), galite kredituoti iš anksto sumokėtą sumą ir debetuoti išlaidų sumą. Tada, taikydami kaupimo schemą, galite pasirinkti **Korespondentinė sąskaita**.
+
+
 
 

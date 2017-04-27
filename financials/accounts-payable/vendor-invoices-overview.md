@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-invoices-overview"></a>Tiekėjo SF apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais. 
 
 <a name="vendor-invoices"></a>Tiekėjo SF
 ---------------
 
-Tiekėjo SF iš pirkimo užsakymo yra SF, sukuriama, kai pagal pirkimo užsakymą, pateiktą tiekėjui, gaunami produktai ar paslaugos. Tiekėjo SF pateikiama lape, ir vieną ar daugiau eilučių, už prekes ar paslaugas. Tiekėjo SF baigia ciklą nuo pirkimo užsakymo iki prekės gavimo į tiekėjo SF. 
+Tiekėjo SF iš pirkimo užsakymo yra SF, sukuriama, kai pagal pirkimo užsakymą, pateiktą tiekėjui, gaunami produktai ar paslaugos. Tiekėjo SF yra antraštė ir viena arba kelios prekių arba paslaugų eilutės. Tiekėjo SF užbaigia ciklą, prasidedantį pirkimo užsakymu ir pasibaigiantį produktų gavimu bei tiekėjo SF išrašymu. 
 
 Nors kai kurios tiekėjo SF yra susijusios su pirkimo užsakymu, jose taip pat gali būti eilučių, kurios neatitinka pirkimo užsakymo eilučių. Taip pat galite kurti tiekėjo SF, kurios nėra susijusios su jokiu pirkimo užsakymu. Šios tiekėjo SF gali būti naudojamos nuolatinėms paslaugoms, pvz., sąskaitai už komunalines paslaugas, ir, jas pridedant, nereikia nurodyti į pirkimo užsakymą. 
 
 Įvesti tiekėjo SF galima keliais toliau nurodytais būdais.
 
--   Tiekėjo SF registrą leidžia greitai įvesti nereikia nurodyti pirkimo užsakymas, SF, kad sukaupsite sąskaita. Naudojant tiekėjo SF patvirtinimo žurnalo, galite pasirinkti šias sąskaitas faktūras ir paskelbti jas pakeisti kaupimo tiekėjo balansas.
+-   Naudojant tiekėjo SF registrą galima greitai įvesti pirkimo užsakymo nenurodančias SF – tuomet bus galima kaupti išlaidas. Naudojant tiekėjo SF patvirtinimo žurnalą galima pasirinkti tokias SF ir jas užregistruoti tiekėjo balanse, kad būtų anuliuotos sukauptos sumos.
 -   Tiekėjo SF žurnalas leidžia greitai vienu veiksmu įvesti SF, kurios nenurodo į pirkimo užsakymą.
 -   Kartu su tiekėjo SF telkiniu tiekėjo SF registras leidžia greitai įvesti SF, kad būtų galima kaupti išlaidas. Susietus pirkimo užsakymus galite atidaryti vėliau ir SF registruoti pagal išlaidų sąskaitą.
 -   **Atidarytų tiekėjo SF** ir **Laukiančių tiekėjo SF** puslapiuose tiekėjo SF galima kurti iš patvirtintų pirkimo užsakymų.
@@ -57,7 +60,7 @@ Kai tiekėjo SF atidarote iš susijusio pirkimo užsakymo, SF eilutės kuriamos 
 Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatus galite peržiūrėti **Produkto gavimo kvito kiekio gretinimo** stulpelyje. Norėdami peržiūrėti kiekio gretinimo rezultatus, taip pat galite naudoti meniu komandą **Gretinimo informacija**, esančią **Peržiūros** skirtuke.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Eilutės, kurios nebuvo pirkimo užsakyme, pridėjimas
-Galite pridėti naują eilutę, kad nebuvo pirkimo užsakymo į tiekėjo SF. Turite pasirinkti prekių skaičius arba pirkimų kategorijai. Tada į eilutę galite pridėti kiekius, kainas ir sumas. Eilutė bus įtraukta tik į bendrųjų SF sumų gretinimo strategijas.
+Į tiekėjo SF galite įtraukti naują eilutę, kurios nebuvo pirkimo užsakyme. Turite pasirinkti prekės numerį arba įsigijimo kategoriją. Tada į eilutę galite pridėti kiekius, kainas ir sumas. Eilutė bus įtraukta tik į bendrųjų SF sumų gretinimo strategijas.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Tiekėjo SF pateikimas peržiūrai
 Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos spustelint valdiklį. Vietoj mygtuko **Registruoti** matysite mygtuką **Pateikti**, kurį galite naudoti siųsti tiekėjo SF pro peržiūros procesą.
@@ -74,6 +77,8 @@ Pasirenkant šią parinktį tariama, kad pirkimo užsakymui užregistruotas bent
 ## <a name="working-with-multiple-invoices"></a>Darbas su keliomis SF
 
 Vienu metu galite dirbti su keliomis sąskaitomis faktūromis ir registruoti jas visas vienu metu. Jei turite sukurti kelias SF, naudokite **Laukiančių tiekėjo SF** puslapį. Jei turite registruoti ir spausdinti kelias tiekėjo SF, naudokite SF patvirtinimo žurnalo puslapį. Jei naudojate SF patvirtinimo žurnalą, turi būti registruotas bent vienas pirkimo užsakymo produkto gavimo kvitas, o pirkimo SF turi būti registruota SF registre. SF finansinė informacija gaunama iš SF, kuri buvo užregistruota registre.
+
+
 
 
 

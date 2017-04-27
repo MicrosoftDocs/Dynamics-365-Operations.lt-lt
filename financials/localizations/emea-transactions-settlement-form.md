@@ -1,6 +1,6 @@
 ---
-title: "Peržiūrėti operacijas, sureguliavimo Rytų Europai"
-description: "Šioje temoje pateikiama informacija apie operacijas atsiskaitymo puslapyje pirkėjams ir tiekėjams."
+title: "Sudengimo operacijų peržiūra (Rytų Europa)"
+description: "Šioje temoje pateikiama informacija apie klientų ir tiekėjų puslapį Sudengimo operacijos."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,24 +25,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Peržiūrėti operacijas, sureguliavimo Rytų Europai
+# <a name="view-transactions-on-settlement-for-eastern-europe"></a>Sudengimo operacijų peržiūra (Rytų Europa)
 
-Šioje temoje pateikiama informacija apie operacijas atsiskaitymo puslapyje pirkėjams ir tiekėjams.
+[!include[banner](../includes/banner.md)]
 
-Naudoti su **sandorių įvykdymo** puslapyje, informaciją apie sudėtingą sudengimo operacijų klientas ar tiekėjas. Ši funkcija galima tik juridiniai asmenys, kurie turi savo pagrindinį adresą iš Lietuvos, Latvijos, Estijos, Čekijos Respublikai, Vengrijai arba Lenkijai. Galite rasti ir **sandorių įvykdymo** puslapis šiose vietose:
 
--   **Mokėtinos sumos**&gt;**pardavėjai**&gt;**visiems tiekėjams**. Veiksmų srityje, dėl į **tiekėjo** skirtuką, spustelėkite **sandoriai**&gt;**sandorių**. Dėl to **tiekėjo operacijų** puslapyje, pasirinkite operaciją ir spustelėkite **sandorių įvykdymo**.
--   **Gautinos sąskaitos**&gt;**klientų**&gt;**visiems klientams**. Veiksmų srityje dėl į **klientų** skirtuką, spustelėkite **operacijos**. Dėl to **kliento operacijas** puslapyje, pasirinkite operaciją ir spustelėkite **sandorių įvykdymo**.
+Šioje temoje pateikiama informacija apie klientų ir tiekėjų puslapį Sudengimo operacijos.
 
-Atsiskaitymo susijusi informacija yra užfiksuotas ir gali būti rodomas su **sandorių įvykdymo** puslapis sandorių, kurie buvo sukurti šiais atvejais:
+Naudokite puslapį **Sudengimo operacijos**, norėdami peržiūrėti informaciją apie sudėtingas kliento arba tiekėjo sudengimo operacijas. Šią funkciją gali naudoti juridiniai subjektai, kurių pagrindinis adresas yra Lietuvoje, Latvijoje, Estijoje, Čekijos Respublikoje, Vengrijoje Lenkijoje. Puslapį **Sudengimo operacijos** galite rasti toliau nurodytose vietose.
 
--   **Valiutos kurso** – atsiskaitymų sąskaitą faktūrą ir mokėjimo generuoja realizuoto arba nerealizuoto valiutos kurso skirtumą.
--   **Registravimo profilis pakeisti** -du įrašus, pvz., SF ir grąžinimo pažyma, kad turi kitą registravimo šablonų yra atsiskaitoma.
--   Išankstinis apmokėjimas yra konvertuojamas į mokėjimo arba mokėjimo konvertuojamas į išankstinį apmokėjimą.
--   **Mokėjimo nuolaidos** – SF sudengiama su mokėjimo nuolaidos sumą išskaičiuoti iš.
--   **Centų skirtumas** – SF sudengiama su mokėjimu, kuris yra šiek tiek kitokia suma, nei sąskaitos-faktūros.
--   **Sąlyginis PVM** – SF sudengiama su mokėjimą, kuris buvo taikytas sąlyginis mokestis.
--   **Visos įmonės atsiskaitymo** – vidinės įmonės naudojamos sudengtinos SF mokėjimo iš organizacijos.
+-   **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai**. Veiksmų srities skirtuke **Tiekėjas** spustelėkite **Operacijos** &gt; **Operacijos**. Puslapyje **Tiekėjo operacijos** pasirinkite operaciją, o tada spustelėkite **Sudengimo operacijos**.
+-   **Gautinos sumos** &gt; **Klientai** &gt; **Visi klientai**. Veiksmų srities skirtuke **Klientas** spustelėkite **Operacijos**. Puslapyje **Kliento operacijos** pasirinkite operaciją, o tada spustelėkite **Sudengimo operacijos**.
+
+Su sudengimu susijusi informacija yra išsaugoma ir ją galima peržiūrėti puslapyje **Sudengimo operacijos**, jei operacijos buvo sukurtos pagal vieną iš toliau pateiktų scenarijų.
+
+-   **Derinimas dėl valiutos kurso** – SF sudengimas ir mokėjimas generuoja realizuotą arba nerealizuotą valiutos kurso skirtumą.
+-   **Registravimo profilis pakeitimas** – sudengiami du įrašai, pvz., SF ir kredito pažyma, kurių registravimo profiliai yra skirtingi.
+-   Išankstinis apmokėjimas konvertuojamas į mokėjimą arba mokėjimas konvertuojamas į išankstinį apmokėjimą.
+-   **Mokėjimo nuolaida** – sudengiama SF su mokėjimu, iš kurio atskaityta nuolaidos suma.
+-   **Skirtumas centais** – sudengiama SF su mokėjimu, kurio suma šiek tiek skiriasi nuo SF sumos.
+-   **Sąlyginis mokesčių registravimas** sudengiama SF su mokėjimu, kuriam pritaikytas sąlyginis mokestis.
+-   **Visų įmonių sudengimas** – vidinės įmonės funkcija naudojama norint sudengti SF su mokėjimu iš organizacijos.
+
+
 
 
 

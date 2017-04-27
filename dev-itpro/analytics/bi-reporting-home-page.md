@@ -1,6 +1,6 @@
 ---
-title: "BI &amp;pranešimų pagrindiniame puslapyje"
-description: "Šioje temoje išvardytos BI &amp;ataskaitų išteklių, kurie Microsoft Dynamics 365 operacijoms."
+title: "BI ir ataskaitų kūrimo pagrindinis puslapis"
+description: "Šioje temoje išvardyti „Microsoft Dynamics 365 for Operations“ galimi BI ir ataskaitų kūrimo ištekliai."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;pranešimų pagrindiniame puslapyje
+# <a name="bi-amp-reporting-home-page"></a>BI ir ataskaitų kūrimo pagrindinis puslapis
 
-Šioje temoje išvardytos BI &amp;ataskaitų išteklių, kurie Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje išvardyti „Microsoft Dynamics 365 for Operations“ galimi BI ir ataskaitų kūrimo ištekliai. 
 
 <a name="working-with-aggregate-data"></a>Darbas su sujungtais duomenimis
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analizė](analytics.md)
 -   [Telkimo atmintyje realiu laiku modeliai pakeičia SSAS kubus](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modeliavimas ir bendras duomenų naudojimas](model-aggregate-data.md)
--   [Perkelti modernizuotos Dynamics AX 2012 R3 pardavimo kubo įmonės parduotuvė](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Sujungtų duomenų modeliavimas ir naudojamas](model-aggregate-data.md)
+-   [Atnaujinto „Dynamics AX 2012 R3“ pardavimo kubo perkėlimas į objektų saugyklą](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Savitarnos ataskaitų
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Savitarnos ataskaitos
+-   [„Power BI“ integravimas](power-bi-integration.md)
 -   [„Power BI‟ integravimo konfigūravimas darbo sritims](configure-power-bi-integration.md)
 -   [„Power BI“ ataskaitos kūrimas naudojant „Microsoft Dynamics 365 for Operations“ duomenis](create-powerbi-report-data.md)
--   [Sukurti Power BI ataskaitą ir skydelyje](create-powerbi-report-dashboard.md)
--   [Mažmeninės prekybos kanalas efektyvumo Power BI turinys](retail-channel-performance-dashboard-power-bi-data.md)
--   [Finansinio efektyvumo Power BI turinys](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Sukurkite „Power BI“ ataskaitą ir ataskaitų sritį](create-powerbi-report-dashboard.md)
+-   [Mažmeninės prekybos kanalo efektyvumo „Power BI“ turinys](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Finansinės veiklos „Power BI“ turinys](financial-performance-power-bi-content-pack.md)
+-   [Pardavimo ir pelningumo našumo „Power BI“ turinys](sales-profitability-performance-content-pack.md)
 -   [Elektroninių ataskaitų konfigūracijos naudojimas norint „Power BI“ pateikti „Dynamics 365 for Operations“ duomenis](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Analitinės patirties kūrimas naudojant „Dynamics 365 for Operations“ klientą
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis: formato modifikavimas ir paleidimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (užduočių vedlys)
 -   [ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (užduočių vedlys)
 -   [ER: formato atnaujinimas pritaikant naują, pagrindinę to formato versiją](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (užduočių vedlys)
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui. 
 
 Prie pavyzdžių, kai vienas kvitas naudojamas keliems klientams arba tiekėjams, galima priskirti balanso perkėlimus tarp klientų ir padengimo balansus tarp klientų ir tiekėjų toje pačioje organizacijoje. 
@@ -91,10 +94,10 @@ Jei vartotojas nepatenkintas, kad mokėjimo nuolaida paskirstoma visuose pradin�
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kvitas** | **Kodo tipas** | **Sąskaita**  | **Aprašymas** | **Debetas** | **Kreditas** | **Offset type** | **Offset account** |
-| GNJL001     | Tiekėjas           | 1001         | INV1            |           | 100,00     | DK          | &lt;tuščias&gt;      |
-| GNJL001     | DK           | 606300-001-- | INV1            |   50,00   |            | DK          | &lt;tuščias&gt;      |
-| GNJL001     | DK           | 606300-002-- | INV1            |   50,00   |            | DK          | &lt;tuščias&gt;      |
+| **Kvitas** | **Kodo tipas** | **Sąskaita**  | **Aprašymas** | **Debetas** | **Kreditas** | **Užskaitos tipas** | **Korespondentinė sąskaita** |
+| GNJL001     | Tiekėjas           | 1001         | INV1            |           | 100,00     | DK          | &lt;tuščia&gt;      |
+| GNJL001     | DK           | 606300-001-- | INV1            |   50,00   |            | DK          | &lt;tuščia&gt;      |
+| GNJL001     | DK           | 606300-002-- | INV1            |   50,00   |            | DK          | &lt;tuščia&gt;      |
 | GNJL002     | Tiekėjas           | 1001         | INV2            |           | 200,00     | DK          | 606300-003--       |
 | GNJL003     | Tiekėjas           | 1001         | INV3            |           | 300,00     | DK          | 606300-004--       |
 
@@ -248,5 +251,7 @@ Norint išvengti nepageidaujamų problemų su būsimais šios operacijos sudengi
 | 002         | Tiekėjas           | 1001        |                 |  75,00    |            | DK          | 999999---          |
 
  
+
+
 
 

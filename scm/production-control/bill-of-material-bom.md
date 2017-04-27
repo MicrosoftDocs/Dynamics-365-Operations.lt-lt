@@ -1,6 +1,6 @@
 ---
 title: "KS ir formulės"
-description: "Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijos (KS) ir formulės, kurios yra esminis apibrėžiant produktų ir prekių dimensijų kombinacijoje. KS ir formules nurodytos konkretaus produkto ingredientai ir reikalingas medžiagas. Formulėse nurodyti bendros gamybos ir šalutinių produktų, gautus atsižvelgiant į konkretaus gamybos."
+description: "Šiame straipsnyje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>KS ir formulės
 
-Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijos (KS) ir formulės, kurios yra esminis apibrėžiant produktų ir prekių dimensijų kombinacijoje. KS ir formules nurodytos konkretaus produkto ingredientai ir reikalingas medžiagas. Formulėse nurodyti bendros gamybos ir šalutinių produktų, gautus atsižvelgiant į konkretaus gamybos. 
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
 
 <a name="bills-of-materials"></a>Komplektavimo specifikacijos
 ------------------
@@ -38,7 +41,7 @@ Komplektavimo specifikacija (KS) apibrėžia komponentus, kurių reikia norint p
 
 Kai KS sujungta su maršrutu ar gamybos eiga, kuriais aprašomos operacijos ir ištekliai, reikalingi norint sukurti produktą, KS sudaro įvertintų produkto išlaidų skaičiavimo pagrindą.  
 
-KS yra atskiras subjektas, kuris apibrėžia šią informaciją:
+KS yra atskiras objektas, kurį apibūdina tolesnė informacija.
 
 -   BOM ID.
 -   KS pavadinimas
@@ -49,7 +52,7 @@ Viena KS apibūdina vieną lygį, kuris identifikuojamas pagal unikalų ID. Komp
 
 ### <a name="formulas-co-products-and-by-products"></a>Formulės, sudėtiniai produktai ir šalutiniai produktai
 
-Formulė yra KS potipis, paprastai naudojama proceso gamyboje. Be komponentų ir ingredientų, formulė apibūdina sudėtinius produktus ir šalutinius produktus. Faktinę versiją, bendrų produktų ir šalutinių produktų formulės apibrėžimas reikalauja formulės versija. Formulė paprastai yra apibrėžiamas vienas konkretaus galutinio produkto (a formulė ar planavimo elementas), nustatomas naudojant formulės versija.
+Formulė yra KS potipis, paprastai naudojama proceso gamyboje. Be komponentų ir ingredientų, formulė apibūdina sudėtinius produktus ir šalutinius produktus. Faktinėje versijoje norint apibrėžti formulės sudėtinius produktus ir šalutinius produktus, reikia formulės versijos. Paprastai apibrėžiama vieno konkretaus galutinio produkto (formulės ar planavimo prekės), apibrėžto formulės versijoje, formulė.
 
 ### <a name="boms-in-the-product-lifecycle"></a>KS specifikacijos produkto cikle
 
@@ -61,7 +64,7 @@ Produkto cikle dėl įvairių priežasčių galima kurti įvairių tipų KS.
 -   **Gamybos KS** – tai KS, naudojama konkrečioje gamyboje. Gamybos KS specifikacijoje reikia atsižvelgti į faktinius išteklius, kurie naudojami gaminant produktą. Sukūrus gamybos užsakymą, paketinį užsakymą ar „kanban‟, keli KS specifikacijų lygiai, kuriuos vaizduoja fiktyvios eilutės, sutraukiami į vieną lygį ir paskirstomi užsakymo operacijoms.
 -   **Įkainojimo KS** – ši KS naudojama apskaičiuoti įvertintai produkto savikainai. Pvz., įkainojimo KS galite naudoti, kai naudojama standartinė savikaina arba skaičiuojama nurodyto produkto įvertinta suplanuota savikaina. Įkainojimo KS specifikacijos gali nurodyti į planuojamą naudoti konkretų medžiagų ir išteklių mišinį. Todėl įkainojimo KS galite naudoti kurdami reprezentatyvią įvertintą laikotarpio savikainą ir siekdami išvengti per laiką atsirandančių nuokrypių.
 
-KS rūšis, kurios faktiškai yra naudojamos įgyvendinti nuo įgyvendinimo, taip pat verslo scenarijams ir reikalavimus. Paprastuose diegimuose planavimo KS, gamybos KS ir įkainojimo KS galima modeliuoti kaip vieną KS. Aplinkose, kuriose dažni inžineriniai pakeitimai ir keli alternatyvūs maršrutai, tikriausiai reikės įvairesnių KS tipų.
+Sistemoje faktiškai naudojami KS tipai priklauso nuo diegimo bei verslo scenarijų ir reikalavimų. Paprastuose diegimuose planavimo KS, gamybos KS ir įkainojimo KS galima modeliuoti kaip vieną KS. Aplinkose, kuriose dažni inžineriniai pakeitimai ir keli alternatyvūs maršrutai, tikriausiai reikės įvairesnių KS tipų.
 
 ### <a name="approval-of-boms-and-formulas"></a>KS specifikacijų ir formulių patvirtinimas
 
@@ -78,7 +81,7 @@ Prieš KS versiją naudojant planavimo ar gamybos procese, ją reikia patvirtint
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Numatytosios KS ar formulės versijos aktyvinimas
 
-Norėdami konkrečią KS ar formulę nustatyti kaip numatytąją KS versiją ar formulės versiją, kurią naudos bendrasis planavimas arba kuri bus naudojama kuriant gamybos užsakymus, šią versiją turite suaktyvinti. Kai yra suaktyvinta, patikrintų unikalumą, tikrą apribojimus (pvz., laiką, svetainę ar kiekis) versija. Galite gauti klaidos pranešimą, jei bandote aktyvinti konfliktų su versija versija tai jau aktyvus. Tada, siekiant išvengti nevienareikšmiško suaktyvinimo, reikia arba išaktyvinti nesuderinamą versiją, arba modifikuoti versijos apribojimus (paprastai laikotarpį).
+Norėdami konkrečią KS ar formulę nustatyti kaip numatytąją KS versiją ar formulės versiją, kurią naudos bendrasis planavimas arba kuri bus naudojama kuriant gamybos užsakymus, šią versiją turite suaktyvinti. Kai versija suaktyvinama, pagal nurodytus apribojimus (pvz., laikotarpį, teritoriją ar kiekį) patikrinamas versijos unikalumas. Jei versija, kurią mėginate suaktyvinti, nesuderinama su jau aktyvia versija, gaunate klaidos pranešimą. Tada, siekiant išvengti nevienareikšmiško suaktyvinimo, reikia arba išaktyvinti nesuderinamą versiją, arba modifikuoti versijos apribojimus (paprastai laikotarpį).
 
 ### <a name="product-change-with-case-management"></a>Produkto keitimas naudojant atvejų valdymą
 
@@ -114,5 +117,7 @@ Atkreipkite dėmesį, kad fiktyvios eilutės paprastai naudojamos palengvinti in
 Pasirinkite **Tiekėjo** eilučių tipą, jei gamybos procese dalyvauja subrangovas ir norite automatiškai subrangovui sukurti tarpinę gamybą arba pirkimo užsakymą.  
 
 **Pastaba apie KS subrangos operacijas.** Paslaugą ar darbą, kurį atlieka subrangovas, reikia sukurti kaip aptarnavimo prekę, sekamą atsargose. Aptarnavimo prekę kaip KS eilutę turite pridėti prie pirminės prekės. Maršrute turi būti operacija, priskirta subrangovo operacijų ištekliui.
+
+
 
 

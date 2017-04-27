@@ -1,6 +1,6 @@
 ---
-title: "Pardavimo užsakymų mobiliojo darbo srities Microsoft Dynamics &quot;365&quot; veiksmų programos"
-description: "Su pardavimo užsakymų mobiliojo ryšio darbo sritį, galite pasilikti naujausią savo pardavimo užsakymus bet kur ir bet kada."
+title: "Mobilioji pardavimo užsakymų darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“"
+description: "Su pardavimo užsakymų mobiliąją darbo sritimi galite gauti naujausią pardavimo užsakymų informaciją bet kur ir bet kuriuo metu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Pardavimo užsakymų mobiliojo darbo srities Microsoft Dynamics "365" veiksmų programos
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilioji pardavimo užsakymų darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“
 
-Su pardavimo užsakymų mobiliojo ryšio darbo sritį, galite pasilikti naujausią savo pardavimo užsakymus bet kur ir bet kada. 
+Su pardavimo užsakymų mobiliąją darbo sritimi galite gauti naujausią pardavimo užsakymų informaciją bet kur ir bet kuriuo metu. 
 
 <a name="prerequisites"></a>Būtinieji komponentai
 -------------
 
 | Būtinoji sąlyga                                                         | aprašymas                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Skaityti apie Microsoft Dynamics 365 operacijų mobiliųjų platformų | [Dinamika 365 operacijų mobiliųjų platformų](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dinamika 365 operacijoms                                          | Įsitikinkite, kad naudojate aplinkoje, kuri yra Microsoft Dynamics 365 operacijų versija 1611 ir "Microsoft Dynamics" operacijų platformos naujinimas 3 (2016 m lapkričio mėn.). |
-| Karštosios pataisos KB 3215650                                                    | Įdiekite karštąją pataisą norite įgalinti darbo sritys, kurios yra teikiamos Microsoft Dynamics 365 operacijoms.                                                                       |
-| Mobiliojo įrenginio, turinčio Dynamics 365 dėl operacijų taikomąją programą | Atsisiųskite Dynamics 365 operacijų App iš mobiliųjų programėlių parduotuvėje.                                                                                                      |
+| Skaitykite apie „Microsoft Dynamics 365 for Operations“ mobiliąją platformą | [Mobilioji „Dynamics 365 for Operations“ platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Įsitikinkite, kad naudojate aplinką, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.). |
+| Karštosios pataisos KB 3215650                                                    | Įdiegę karštąsias pataisas įjunksite „Microsoft Dynamics 365 for Operations“ pateikiamas darbo sritis.                                                                       |
+| Mobilusis įrenginys, kuriame įdiegta programa „Dynamics 365 for Operations“ | Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite programą „Dynamics 365 for Operations“.                                                                                                      |
 
 ## <a name="overview"></a>Apžvalga
-Ši mobili darbo pasiekia Dynamics 365 operacijų taikymo ir leidžia peržiūrėti išsamią informaciją apie kiekvieno pardavimo užsakymo, pvz., užsakymo būsena, klientų kontaktų informaciją ir užsakymo gavėjo kontaktinė informacija. Mobiliojo ryšio darbo sritį siūlo momentinių atsižvelgiant į pardavimo užsakymus. Galite peržiūrėti pardavimų užsakymus iš klientų, ar Rodyti visus pardavimo užsakymus arba peržiūrėti informaciją apie konkretaus pardavimo užsakymo. Mobili darbo suteikia du vaizdai padės analizuoti pardavimo užsakymų gylio.
+Mobilioji darbo sritis pasiekia programą „Dynamics 365 for Operations“ ir leidžia peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą, pvz., užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis pateikia momentinį pardavimo užsakymų rodinį. Pardavimo užsakymus galite peržiūrėti pagal klientą arba peržiūrėti visus užsakymus, arba peržiūrėti informaciją apie konkretų pardavimo užsakymą. Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuoti pardavimo užsakymus.
 
-### <a name="view-all-sales-orders"></a>Rodyti visus pardavimo užsakymus
+### <a name="view-all-sales-orders"></a>Peržiūrėti visus pardavimo užsakymus
 
-Šis rodinys pateikia visus pardavimo užsakymus.
+Šiame rodinyje pateikiami visi pardavimo užsakymai.
 
--   Naudokite vieną iš šių filtrų pasirinkite pardavimo užsakymų, kuriuos norite Rodyti.
-    -   Paieška pagal pardavimo užsakymą
-    -   Paieška pagal kliento sąskaita
-    -   Paieška pagal kliento vardas ir pavardė
+-   Naudodami vieną iš šių filtrų, pasirinkite norimus peržiūrėti pardavimo užsakymus.
+    -   Ieškoti pagal pardavimo užsakymą
+    -   Ieškoti pagal kliento sąskaitą
+    -   Ieškoti pagal kliento pavadinimą
     -   Ieškoti pagal būseną
-    -   Paieška pagal leidimo statusas
-    -   Ieškoti iš sukurtos datos ir laiko
+    -   Ieškoti pagal išleidimo būseną
+    -   Ieškoti pagal sukūrimo datą ir laiką
 
 <!-- -->
 
--   Pasirinkus pardavimo užsakymus, galite peržiūrėti išsamią informaciją apie konkrečius užsakymus. Tiksliau, galite peržiūrėti:
-    -   Kliento pavadinimas ir adresas informacija
-    -   Skirtingų pardavimo užsakymo datas, kaip antai paprašė siuntimo data ir patvirtinta siuntimo data
-    -   Užsakymo gavėjas kontaktinė informacija
-    -   Pirkėjo kontaktinė informacija
+-   Pasirinkę pardavimo užsakymus, galite peržiūrėti išsamią konkrečių užsakymų informaciją. Tiksliau, galite peržiūrėti:
+    -   kliento pavadinimą ir adreso informaciją;
+    -   įvairias pardavimo užsakymo datas, pvz., pageidaujama siuntimo data ir patvirtinta siuntimo data;
+    -   užsakymo priėmėjo kontaktinę informaciją;
+    -   kliento kontaktinę informaciją;
     -   Užsakymo eilutės
-    -   Siuntoms, kurios rodo, kaip ir kada buvo išsiųsti pardavimo užsakymą
+    -   siuntas, parodančias kaip ir kada pardavimo užsakymas buvo pristatytas.
 
-### <a name="view-orders-for-a-customer-"></a>Rodyti užsakymus klientų ** **
+### <a name="view-orders-for-a-customer-"></a>Kliento** ** užsakymų rodinys
 
-Šiame rodinyje rodomos pardavimo užsakymų vienam klientui.
+Šiame rodinyje pateikiami kliento pardavimo užsakymai.
 
--   Naudokite vieną iš šių filtrų peržiūrėti kliento užsakymus.
-    -   Paieška pagal pavadinimą
-    -   Paieška pagal kodą
+-   Naudodami šiuos filtrus peržiūrėkite kliento užsakymus.
+    -   Ieškoti pagal pavadinimą
+    -   Ieškoti pagal sąskaitą
 
 <!-- -->
 
--   Pasirinkę klientas, galite peržiūrėti:
-    -   Kliento vardas ir grupės
-    -   Pirkėjo kontaktinė informacija
-    -   Klientų pardavimo užsakymai ir išsami informacija apie pardavimo užsakymų:
-        -   Kliento pavadinimas ir adresas informacija
-        -   Skirtingų pardavimo užsakymo datas
-        -   Užsakymo gavėjas kontaktinė informacija
-        -   Pirkėjo kontaktinė informacija
+-   Pasirinkę klientą, galite peržiūrėti:
+    -   kliento pavadinimą ir grupę;
+    -   kliento kontaktinę informaciją;
+    -   kliento pardavimo užsakymus ir išsamią pardavimo užsakymų informaciją;
+        -   kliento pavadinimą ir adreso informaciją;
+        -   įvairias pardavimo užsakymo datas;
+        -   užsakymo priėmėjo kontaktinę informaciją;
+        -   Kliento kontaktinę informaciją;
         -   Užsakymo eilutės
-        -   Siuntoms, kurios rodo, kaip ir kada buvo išsiųsti pardavimo užsakymai
+        -   siuntas, parodančias kaip ir kada pardavimo užsakymai buvo pristatyti;
 
 ## <a name="get-started"></a>Darbo pradžia
-Atlikite šiuos veiksmus Norėdami pradėti naudotis pardavimo užsakymų mobiliojo darbo mobiliajame įrenginyje.
+Norėdami pradėti naudoti mobiliąją pardavimo užsakymų darbo sritį savo mobiliajame įrenginyje, atlikite šiuos veiksmus.
 
-1.  Jūsų mobiliųjų įrenginių programėlę parduotuvėje, atsisiųskite ir įdiekite Microsoft Dynamics 365 veiklos programą.
-2.  Paleiskite programėlę į savo įrenginį.
-3.  Įveskite savo dinamika 365 URL.
-4.  Įveskite prisijungti prie kompanijos. Pavyzdžiui, įveskite **USMF**.
-5.  Pirmą kartą, kai prisijungsite, bus rodomas raginimas įvesti vartotojo vardą ir slaptažodį savo Microsoft Dynamics "365" veiklos sąskaita. Įvesti savo kredencialus. Po to, kai prisijungsite, matote laisvų darbo srities jūsų įmonė.
+1.  Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite ir įdiekite programą „Microsoft Dynamics 365 for Operations“.
+2.  Paleiskite programą savo mobiliajame įrenginyje.
+3.  Įveskite savo „Dynamics 365“ URL.
+4.  Įveskite įmonę, prie kurios norite prisijungti. Pavyzdžiui, įveskite **USMF**.
+5.  Pirmą kartą prisijungus būsite paraginti įvesti savo „Microsoft Dynamics 365 for Operations“ paskyros vartotojo vardą ir slaptažodį. Įveskite savo kredencialus. Prisijungę matysite galimas savo įmonės darbo sritis.
 
-Norėdami peržiūrėti savo mobiliesiems darbo sričių, pirmiausia turi publikuoti norimą darbo srities dinamika 365 operacijų programos.
+Norėdami darbo sritis peržiūrėti savo mobiliojoje programoje, pirmiausia turite pageidaujamas sritis publikuoti programoje „Dynamics 365 for Operations“.
 
-1.  Paleisti Dynamics 365 operacijoms.
-2.  Eikite į **sistemos administravimo**&gt;**nustatymo**&gt;**sistemos parametrai**.
-3.  Pasirinkite **tvarkyti mobiliųjų įrenginių programėlę**.
-4.  Pasirinkite darbo sritį skelbti apie mobiliųjų platformų.
-5.  Pasirinkite **skelbti darbo srities**.
-6.  Atnaujinkite įrenginio paskelbtų darbo sritis.
+1.  Paleiskite „Dynamics 365 for Operations“.
+2.  Pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **Sistemos parametrai**.
+3.  Pasirinkite **Tvarkyti mobiliąją programą**.
+4.  Pasirinkite darbo sritį, kad ją publikuotumėte mobiliojoje platformoje.
+5.  Pasirinkite **Publikuoti darbo sritį**.
+6.  Atnaujinkite įrenginio rodinį, kad matytumėte publikuojamas darbo sritis.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Peržiūrėti informaciją apie pardavimo užsakymų klientui
-1.  Mobiliajame įrenginyje, pasirinkite į **pardavimo užsakymų** darbo srities.
-2.  Pasirinkite **peržiūrėti užsakymus kliento**.
-3.  Naudoti ** į ** arba ** pirkėjo pavadinimas ** informacijos rasti norimą klientų.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Peržiūrėkite informaciją apie kliento pardavimo užsakymus.
+1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Pardavimo užsakymai**.
+2.  Pasirinkite **Peržiūrėti kliento užsakymus**.
+3.  Norimam klientui surasti naudokite informaciją **Sąskaita** arba **Kliento pavadinimas**.
 4.  Pasirinkite klientą.
-5.  Pasirinkite **kontaktinė informacija** ar **pardavimo užsakymų**.
-6.  Jei **pardavimo užsakymų** yra pasirinktas, bus rodomas sąrašas pardavimo užsakymų klientui.
-7.  Pasirinkite **pardavimų užsakymų**.
-8.  Čia jūs galite peržiūrėti informaciją apie pardavimo užsakymo eilutes, siuntas, klientų kontaktų informaciją ir užsakymo gavėjo kontaktinė informacija.
+5.  Pasirinkite **Kontaktinė informacija** arba **Pardavimo užsakymai**.
+6.  Pasirinkus **Pardavimo užsakymai**, rodomas kliento pardavimo užsakymų sąrašas.
+7.  Pasirinkite **Pardavimo užsakymas**.
+8.  Čia galite peržiūrėti informaciją apie pardavimo užsakymo eilutes, siuntas, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją.
 
 
 

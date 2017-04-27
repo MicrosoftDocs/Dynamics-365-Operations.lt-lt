@@ -1,6 +1,6 @@
 ---
-title: "PVM ataskaitų Europos"
-description: "Šioje temoje pateikiama bendra informacija apie nustatymas ir generavimas pridėtinės vertės mokestis (PVM) ataskaita dėl kai kuriose Europos šalyse."
+title: PVM ataskaitos Europoje
+description: "Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,11 +25,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>PVM ataskaitų Europos
+# <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
-Šioje temoje pateikiama bendra informacija apie nustatymas ir generavimas pridėtinės vertės mokestis (PVM) ataskaita dėl kai kuriose Europos šalyse.
+Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
 
-Šioje temoje pateikta bendras požiūris į nustatymas ir generavimas PVM ataskaitą. Šis požiūris yra taikomi vartotojams – juridiniams asmenims šiose šalyse/regionuose:
+Šioje temoje pateikiamas bendras PVM išrašo nustatymo ir generavimo metodas. Šį metodą gali bendrai naudoti vartotojai, kurių juridiniai subjektai yra toliau nurodytose šalyse / regionuose.
 
 -   Austrija
 -   Belgija
@@ -42,28 +42,28 @@ ms.lasthandoff: 03/31/2017
 -   Olandija
 -   Švedija
 
-## <a name="vat-statement-overview"></a>PVM ataskaitos apžvalga
-PVM ataskaitos remiasi mokesčių operacijų sumos. PVM ataskaitos kūrimo procesas yra dalis PVM mokėjimo procesas, kuri įgyvendinama per funkciją nusistovėti ir po PVM. Ši funkcija apskaičiuoja pardavimo mokestis, mokamas už tam tikrą laikotarpį. Sudengimo skaičiavimas yra užregistruotas PVM pasirinkta sudengimo laikotarpio mokesčių operacijų. Apskaičiuoti PVM ataskaitą duomenys: procesas remiasi PVM kodus ir PVM ataskaitų kodus, kur PVM ataskaitų kodai atitinka PVM ataskaitos laukus (arba XML žymes) santykį. Kiekvienas PVM kodas, PVM ataskaitų kodai turėtų būti nustatyti kiekvienos rūšies operacijas, pvz., apmokestinamų prekybos sandorių, apmokestinamų pirkimų, už importą. Aprašytas šios rūšies sandorius su [PVM kodai, PVM ataskaitų](#Sales tax codes for VAT reporting) skyriuje šioje temoje.
+## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
+PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje [PVM ataskaitų PVM kodai](#Sales tax codes for VAT reporting).
 
-Kiekvienas PVM ataskaitos kodą, turėtų būti nustatyta nestandartinį ataskaitos formatą. Be to, PVM kodus yra susiję su konkrečių PVM rinkėjo PVM sudengimo laikotarpius per. Kiekvienas PVM rinkėjui, turėtų būti nustatyta ataskaitos maketas. Taigi, tik PVM ataskaitų kodai patį ataskaitos maketą, nustatomas už PVM rinkėjo PVM sudengimo laikotarpius PVM kodas galima pasirinkti ataskaitos nustatymo, PVM kodas. PVM operacijos sugeneruota komandiruotės įsakymą arba žurnalą yra PVM kodą, PVM šaltinis, PVM kryptis ir balansų (PVM ir mokesčio suma numatytąja valiuta, PVM valiuta ir operacijos valiuta). Remiantis mokesčių operacijų atributų derinys, balansų kurti bendrą sumą PVM ataskaitų kodai nurodyti PVM kodų. Šioje iliustracijoje pateikta duomenų ryšį.
+Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 
 ![diagrama](./media/diagram4.jpg)
 
-## <a name="vat-statement-setup"></a>PVM ataskaitos nustatymas
-Kurti PVM ataskaitą turite nustatyti taip.
+## <a name="vat-statement-setup"></a>PVM išrašo sąranka
+Norėdami generuoti PVM išrašą, turite atlikti tolesnius veiksmus.
 
-### <a name="sales-tax-authorities-for-vat-reporting"></a>PVM rinkėjui skirtas PVM ataskaitą
+### <a name="sales-tax-authorities-for-vat-reporting"></a>PVM rinkėjų nustatymas PVM ataskaitoms teikti
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
-Prieš nustatydami PVM ataskaitų kodus, pasirinkite tinkamą ataskaitos maketą PVM rinkėjui. Dėl į **PVM rinkėjus** p., be į **bendrojo** skyrių, pasirinkite a **ataskaitos maketas**. Šis maketas bus naudojamas nustatant PVM ataskaitų kodai.
+Prieš nustatydami PVM ataskaitų kodus, turite pasirinkti tinkamą PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** dalyje **Bendra** pasirinkite **Ataskaitos maketas**. Šis maketas bus naudojamas nustatant PVM ataskaitų kodus.
 
 ### <a name="sales-tax-reporting-codes"></a>PVM ataskaitų kodai
 
-PVM ataskaitų kodai yra kodus PVM pareiškimą arba žyma pavadinimuose XML formatu. Šie kodai yra naudojami kaupti ir parengti sumų ataskaita. Kai konfigūruojate elektroninio atsiskaitymo formos PVM ataskaitos, rezultatas sumos pavadinimai bus naudojami. Jūs galite kurti ir tvarkyti PVM ataskaitų kodai ant to **PVM ataskaitų kodai** puslapis. Turite priskirti kiekvieną kodą ataskaitos maketas. Kai sukuriate PVM ataskaitų kodus, galite pasirinkti kodų, kad **ataskaitos nustatymas** skirsnis, **PVM kodus** puslapis. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
+PVM ataskaitų kodai yra langelių kodai PVM išraše arba žymių pavadinimai XML formatu. Šie kodai naudojami ataskaitos sumoms sujungti ir paruošti. Kai konfigūruojate PVM išrašo elektroninių ataskaitų formatą, bus naudojami galutinių sumų pavadinimai. PVM ataskaitų kodus galite kurti ir tvarkyti puslapyje **PVM ataskaitų kodai**. Kiekvienam kodui turite priskirti ataskaitos maketą. Sukūrę PVM ataskaitų kodus, galite kodus pasirinkti puslapio **PVM kodai** dalyje **Ataskaitų sąranka**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
 
-### <a name="sales-tax-codes-for-vat-reporting"></a>PVM kodai, PVM ataskaitos
+### <a name="sales-tax-codes-for-vat-reporting"></a>PVM kodai, skirti PVM ataskaitos teikti
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->Bazinės sumos ir mokesčių sumos sandoriai gali būti subendrinami PVM ataskaitų kodus PVM ataskaitos (XML žymes arba deklaracija dėžės). Jūs galite tai nustatyti susiejant PVM ataskaitų kodai, PVM kodų skirtingus operacijų tipus, **PVM kodus** puslapis. Šioje lentelėje pateikiami ataskaitos nustatymas PVM kodų operacijų tipus. Į skaičiavimus įtrauktos operacijos visų tipų šaltinių, – tik PVM.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> PVM operacijų bazines sumas ir mokesčių sumas galima sujungti PVM išrašo ataskaitų koduose (XML žymės arba deklaracijos langeliai). Tai galima nustatyti puslapyje **PVM kodai** susiejant PVM kodų skirtingų operacijų tipų PVM ataskaitų kodus. Toliau pateikiamoje lentelėje aprašomi PVM kodų ataskaitų sąrankos operacijų tipai. Skaičiuojant įtraukiamos visų šaltinių tipų, išskyrus PVM, operacijos.
 
 <table>
 <colgroup>
@@ -72,202 +72,202 @@ PVM ataskaitų kodai yra kodus PVM pareiškimą arba žyma pavadinimuose XML for
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Transaction type</strong></td>
-<td><strong>Sandorių ir sumos priskaičiuojamos operacijos tipas Aprašymas</strong></td>
+<td><strong>Operacijos tipas</strong></td>
+<td><strong>Operacijų ir sumų, kurios bus apskaičiuotos, aprašas operacijos tipe</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Apmokestinami pardavimai</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinamas pardavimas</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra pasirinktame laikotarpyje /</li>
-<li>Pardavimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>mokėtinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį/</li>
+<li>Pardavimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Mokėtinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Neapmokestinami pardavimai</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Neapmokestinamas pardavimas</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pardavimas yra eksporto (<strong>mokesčių kryptimi</strong> yra <strong>neapmokestinami pardavimai</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pardavimas yra eksportas (<strong>Mokesčio kryptis</strong> yra <strong>Neapmokestinamas pardavimas</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax payable</strong></td>
-<td>Suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Mokėtinas PVM</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pardavimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>mokėtinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pardavimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Mokėtinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable sales credit note</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinamo pardavimo kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pardavimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>mokėtinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pardavimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Mokėtinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Fakso atleisti pard.</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Neapmokestinamo pardavimo kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pardavimas yra eksporto (<strong>mokesčių kryptimi</strong> yra <strong>neapmokestinami pardavimai</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pardavimas yra eksportas (<strong>Mokesčio kryptis</strong> yra <strong>Neapmokestinamas pardavimas</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on sales credit note</strong></td>
-<td>Suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>PVM pardavimo kredito pažymoje</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pardavimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>mokėtinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pardavimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Mokėtinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable purchases</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinami pirkimai</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>Gautinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Gautinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Tax-free purchase</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Neapmokestinami pirkimai</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra importo (<strong>mokesčių kryptimi</strong> yra <strong>Neapmokestinami pirkimai</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra importas (<strong>Mokesčio kryptis</strong> yra <strong>Neapmokestinamas pirkimas</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Sales tax receivable</strong></td>
-<td>Suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Gautinas PVM</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>Gautinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Gautinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Taxable purchase credit note</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinama pirkimo kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>Gautinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Gautinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Tax exempt purchase credit note</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>PVM pirkimo kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra importo (<strong>mokesčių kryptimi</strong> yra <strong>Neapmokestinami pirkimai</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra importas (<strong>Mokesčio kryptis</strong> yra <strong>Neapmokestinamas pirkimas</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Sales tax on purchase credit note</strong></td>
-<td>Suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>PVM pirkimo kredito pažymoje</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Pirkimas yra vidaus (<strong>mokesčių kryptimi</strong> yra <strong>Gautinas PVM</strong>).</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Pirkimas yra vietinis (<strong>Mokesčio kryptis</strong> yra <strong>Gautinas PVM</strong>).</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinamas importas</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li><strong>Mokesčių kryptimi</strong> yra <strong>naudoti mokesčių</strong></li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li><strong>Mokesčio kryptis</strong> yra <strong>Naudojimo mokestis</strong></li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import</strong></td>
-<td>Atšaukta suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Korespondentinis apmokėjimas už importą</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> atšaukta suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li><strong>Mokesčių kryptimi</strong> yra <strong>naudoti mokesčių</strong>.</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li><strong>Mokesčio kryptis</strong> yra <strong>Naudojimo mokestis</strong>.</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Taxable import credit note</strong></td>
-<td>Suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Apmokestinama importo kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-e<li><strong>Mokesčių kryptimi</strong> yra <strong>naudoti mokesčių</strong>.</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+e<li><strong>Mokesčio kryptis</strong> yra <strong>Naudojimo mokestis</strong>.</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset taxable import credit note</strong></td>
-<td>Atšaukta suma <strong>mokesčių bazės sumas</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Korespondentinio apmokėjimo už importą kredito pažyma</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>bazinių mokesčių sumų</strong> atšaukta suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li>Kryptis yra <strong>naudoti mokesčių</strong>.</li>
-d<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&lt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li>Mokesčio kryptis yra <strong>Naudojimo mokestis</strong>.</li>
+d<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &lt; 0.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Use tax</strong></td>
-<td>Suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Naudojimo mokestis</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li><strong>Mokesčių kryptimi</strong> yra <strong>naudoti mokesčių</strong>.</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li><strong>Mokesčio kryptis</strong> yra <strong>Naudojimo mokestis</strong>.</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Offset use tax</strong></td>
-<td>Atšaukta suma <strong>mokesčių sumos</strong> mokesčių operacijų, kurios atitinka šias sąlygas:
+<td><strong>Koresp. naudojimo mokestis</strong></td>
+<td>Mokesčių operacijų, kurios tekina toliau nurodytas sąlygas, <strong>mokesčių sumų</strong> atšaukta suma.
 <ul>
-<li>Operacijos data yra per pasirinktą laikotarpį.</li>
-<li><strong>Mokesčių kryptimi</strong> yra <strong>naudoti mokesčių</strong>.</li>
-<li>Operacija <strong>PVM</strong> ar <strong>mokesčio suma</strong>&gt; 0.</li>
+<li>Operacijos data patenka į pasirinktą laikotarpį.</li>
+<li><strong>Mokesčio kryptis</strong> yra <strong>Naudojimo mokestis</strong>.</li>
+<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio suma</strong> &gt; 0.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Už pirmiau pateiktoje lentelėje, daroma prielaida, kad laikomasi šių kriterijų: 
-> -   PVM yra operacijos suma nuo to **kilmės apskaitos valiuta** srityje.
-> -   Mokesčio suma yra perėjimas nuo to **tikrasis PVM suma numatytąja valiuta** srityje.
+> Ankstesnėje lentelėje laikoma, kad toliau pateikti kriterijai yra patenkinami. 
+> -   Mokesčių bazinė suma yra operacijos suma iš lauko **Pradinė suma apskaitos valiuta**.
+> -   Mokesčių suma yra perėjimo suma iš lauko **Faktinė PVM suma apskaitos valiuta**.
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>Konfigūruoti ER modelio ir ataskaitų formos
+### <a name="configure-the-er-model-and-format-for-the-report"></a>ER modelio ir ataskaitos formato konfigūravimas
 
-Elektroninių ataskaitų (ER) galite konfigūruoti ataskaitas ir ataskaitą ir eksportuoti duomenis elektroninių formatų nekeičiant X ++ kodą. Papildoma informacija:
+Galite naudoti elektronines ataskaitas (ER), kad sukonfigūruotumėte išrašus ir ataskaitas bei eksportuotumėte duomenis skirtingais elektroniniais formatais nekeisdami X++ kodo. Papildoma informacija:
 
 -   [Elektroninių ataskaitų apžvalga](/dynamics365/operations/dev-itpro/dev-itpro/analytics/general-electronic-reporting)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalizacijos reikalavimus – sukurti GER konfigūraciją](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>Countryspecific išteklių dėl PVM ataskaitas
-Kiekvienos šalies PVM ataskaitos turi atitikti šalies teisės aktų reikalavimus. Yra iš anksto nustatytas bendras modelių ir dėl šioje lentelėje išvardintų šalių PVM ataskaitų formos.
+## <a name="countryspecific-resources-for-vat-statements"></a>PVM išrašų konkrečiai šaliai būdingi ištekliai
+Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Toliau pateiktoje lentelėje nurodytoms šalims priskiriami PVM išrašų iš anksto nustatyti bendrieji modeliai ir formatai.
 
 
 | Šalis        | Papildoma informacija                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austrija        |  [PVM ataskaitos duomenys Austrijos](emea-aut-vat-statement-details.md)         |
+| Austrija        |  [PVM išrašo informacija, skirta Austrijai](emea-aut-vat-statement-details.md)         |
 | Belgija        |                                                                                 |
-| Čekijos Respublika |  [PVM ataskaita detalių, Čekija](emea-cze-vat-statement-details.md)   |
-| Estija        |  [PVM ataskaitos duomenys Estijai](emea-est-vat-statement-details.md) |
+| Čekijos Respublika |  [PVM išrašo informacija, skirta Čekijos Respublikai](emea-cze-vat-statement-details.md)   |
+| Estija        |  [PVM išrašo informacija, skirta Estijai](emea-est-vat-statement-details.md) |
 | Suomija        |                                                                                 |
 | Vokietija        |                                                                                 |
-| Italija          | [PVM ataskaitos duomenys Italijoje](emea-ita-vat-statements-details.md)            |
-| Latvija         | [PVM ataskaitos duomenys Latvijai](emea-lva-vat-statement-details.md)           |
-| Lietuva      | [PVM ataskaitos duomenys Lietuvai](emea-ltu-vat-statement-details.md)         |
+| Italija          | [PVM išrašo informacija, skirta Italijai](emea-ita-vat-statements-details.md)            |
+| Latvija         | [PVM išrašo informacija, skirta Latvijai](emea-lva-vat-statement-details.md)           |
+| Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
 | Olandija    |                                                                                 |
 | Švedija         |                                                                                 |
 

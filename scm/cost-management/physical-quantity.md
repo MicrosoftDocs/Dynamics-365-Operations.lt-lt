@@ -31,10 +31,10 @@ ms.lasthandoff: 03/29/2017
 
 Šiame straipsnyje pateikiama informacija apie tai, kaip apskaičiuojamos atsargų objektą vertės. 
 
-Nauja funkcija, kuri pavadinta ** fizikinį ** galite matyti konkrečius atsargų objekto vertės. Išlaidų objektas atitinka objekto lygį, kuriame atliekama atsargų apskaita. Daugiau informacijos apie išlaidų objektus rasite [Išlaidų objektai](cost-object.md). Norėdami matyti reikšmes, konkrečius atsargų objektą, spustelėkite **fizikinį** ant to **išlaidų objektu** puslapis. Štai kaip aprašo objekto vertė apskaičiuojama: atsargų objektas. Vertė = išlaidų objektu. Vidutinė vieneto savikaina x atsargų objektas. Kiekis pavyzdys rodo, kaip skaičiuojamos atsargos objekto ir išlaidų objekto vertės. Registruoti du prekės A produkto gavimo įvykiai.
+Naudodami naują funkciją pavadinimu **faktinis kiekis **galite matyti konkretaus atsargų objekto vertes. Išlaidų objektas atitinka objekto lygį, kuriame atliekama atsargų apskaita. Daugiau informacijos apie išlaidų objektus rasite [Išlaidų objektai](cost-object.md). Norėdami pamatyti konkretaus atsargų objekto vertes, puslapyje **Savikainos objektas** spustelėkite **Faktinis kiekis**. Atsargų objekto vertė apskaičiuojama taip: Atsargų objekto vertė = Išlaidų objekto vidutinė vieneto kaina × Atsargų objekto kiekis Tolesniame pavyzdyje rodoma, kaip skaičiuojamos atsargų objekto ir išlaidų objekto vertės. Registruoti du prekės A produkto gavimo įvykiai.
 
--   Važtaraštis 1: kiekis = 100 vnt., suma = $1,000.00, svetainės = 1, sandėlio = 11, serijos Nr. = B1
--   Važtaraštis 2: kiekis = 50 vnt., suma = $800.00, svetainės = 1, sandėlio = 11, serijos Nr. = B2
+-   1 produkto gavimo kvitas: Kiekis = 100 vnt., Suma = 1 000,00 dol., Teritorija = 1, Sandėlis =11, Paketo Nr. = B1
+-   2 produkto gavimo kvitas: Kiekis = 50 vnt., Suma = 800,00 dol., Teritorija = 1, Sandėlis =11, Paketo Nr. = B2
 
 Toliau pateikiamoje lentelėje rodomas išlaidų objekto skaičiavimo rezultatas. Rezultatą galite peržiūrėti **Išlaidų objekto** puslapyje.
 
@@ -130,10 +130,10 @@ Toliau pateikiamoje lentelėje rodomas atsargų objekto skaičiavimo rezultatas.
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Cost objects](cost-object.md)
+[Išlaidų objektai](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Išlaidų įrašai](cost-entries.md)
 
-[Kas yra naujas ir pasikeitusias Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Kas naujo ir pakeista programoje „Microsoft Dynamics AX“](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intrastat"></a>Intrastat
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
 
 Intrastat yra informacijos rinkimo ir statistikos generavimo apie prekybą prekėmis Europos Sąjungos (ES) šalyse / regionuose sistema. Intrastat ataskaitų reikia, kai produktas kerta kitos ES šalies / regiono sieną. Keliose šalyse / regionuose Intrastat ataskaitos taip pat taikomos paslaugoms. Intrastat ataskaitose gali būti renkami privalomi ir neprivalomi elementai. Privalomi yra šie elementai: šalies, kuri yra atsakinga už informacijos teikimą, pridėtinės vertės mokesčio (PVM) numeris, ataskaitinis laikotarpis, srautas (gavimo ar išsiuntimo), aštuonių skaitmenų prekės kodas, partnerė šalis narė (konsignacijos šalis narė gaunant ir paskirties šalis narė išsiunčiant), prekių vertė, prekių kiekis (neto svoris ir papildomas vienetas) ir operacijos pobūdis. Šalys / regionai taip pat gali įvairiomis sąlygomis rinkti neprivalomų elementų. Kai kurie neprivalomi elementai yra kilmės šalis / regionas, pristatymo sąlygos, transportavimo būdas, išsamesnis už CN8 prekės kodas, kilmės regionas išsiunčiant ir paskirties regionas gaunant, statistinė procedūra, statistinė vertė, prekių aprašas ir pakrovimo / iškrovimo uostas / oro uostas.
@@ -34,24 +37,24 @@ Intrastat yra informacijos rinkimo ir statistikos generavimo apie prekybą prek�
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Intrastat ataskaitų teikimo proceso apžvalga
 Toliau pateikiamuose skyriuose aprašomas bendras informacijos, kuri naudojama teikti Intrastat ataskaitoms, srautas.
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. įveskite operaciją, kurią kerta sieną iš kitos ES šalies ar regiono
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Įvesti operaciją, kuri kerta kitos ES šalies / regiono sieną
 
-Kliento SF, laisvos formos SF, pirkimo SF, projekto SF, kliento važtaraštis, tiekėjo produkto kvitas ar perkėlimo užsakymas į Intrastat žurnalą perkeliami tik jei paskirties (išsiunčiant) arba konsignacijos (gaunant) šalies / regiono tipas yra **ES**. Ši funkcija buvo pratęsta Microsoft Dynamics 365 operacijų versija 1611 ir leidžia jums nurodyti akredityvus adresus Bendrijos vidaus sandoris. Jei akredityvus adresas skiriasi su tiekėjo įmonės adresas (arba verslo kliento grąžinimo užsakymo) Intrastato veiks su šia informacija. Kai kuriate pardavimo užsakymą, laisvos formos SF, pirkimo užsakymą, tiekėjo SF, projekto SF ar perkėlimo užsakymą, dokumento antraštėje arba eilutėje kai kurių laukų, kurie yra susiję su užsienio prekyba, reikšmės yra numatytosios. Numatytasis operacijos kodas yra paimamas iš atitinkamo lauko **Užsienio prekybos parametrų** puslapyje. Numatytasis prekės kodas, kilmės šalis / regionas ir kilmės apskritis / rajonas paimami iš prekės. Galite keisti numatytąsias reikšmes ir taip pat galite užpildyti kitą su užsienio prekyba susijusią informaciją: statistikos procedūrą, transportavimo būdą ir uostą.
+Kliento SF, laisvos formos SF, pirkimo SF, projekto SF, kliento važtaraštis, tiekėjo produkto kvitas ar perkėlimo užsakymas į Intrastat žurnalą perkeliami tik jei paskirties (išsiunčiant) arba konsignacijos (gaunant) šalies / regiono tipas yra **ES**. Šią funkciją taip pat palaiko 1611 „Microsoft Dynamics 365 for Operations“ versija. Funkcija suteikia galimybę nurodyti ES vidaus operacijos pakrovimo adresą. Jei pakrovimo adresas skiriasi nuo tiekėjo darbo adreso (arba grąžinimo užsakymo kliento darbo adreso), Intrastat ataskaitose bus naudojama ši informacija. Kai kuriate pardavimo užsakymą, laisvos formos SF, pirkimo užsakymą, tiekėjo SF, projekto SF ar perkėlimo užsakymą, dokumento antraštėje arba eilutėje kai kurių laukų, kurie yra susiję su užsienio prekyba, reikšmės yra numatytosios. Numatytasis operacijos kodas yra paimamas iš atitinkamo lauko **Užsienio prekybos parametrų** puslapyje. Numatytasis prekės kodas, kilmės šalis / regionas ir kilmės apskritis / rajonas paimami iš prekės. Galite keisti numatytąsias reikšmes ir taip pat galite užpildyti kitą su užsienio prekyba susijusią informaciją: statistikos procedūrą, transportavimo būdą ir uostą.
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Naudokite Intrastat žurnalo surinkti informaciją apie prekybą tarp ES šalių ir regionų
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Naudoti Intrastat žurnalą, norint generuoti informaciją apie prekybą tarp ES šalių / regionų
 
 Statistikos tikslais informacija apie prekybą tarp ES šalių / regionų generuojama kas mėnesį. Operacijas iš laisvos formos SF, kliento SF, kliento važtaraščio, tiekėjo SF, tiekėjo važtaraščio, projekto SF ar perkėlimo užsakymo galite perkelti pagal perkėlimo kriterijus, kurie nustatomi **Užsienio prekybos parametrų** puslapyje. Operacijas galite įvesti ir rankiniu būdu. Jei reikia ką naujinti, galite rankiniu būdu atnaujinti perkeltas operacijas Intrastat žurnale. Konkrečiomis aplinkybėmis, nustatomomis **Intrastat glaudinimo** puslapyje, Intrastat žurnale galite glaudinti operacijas. Kai kuriose šalyse / regionuose leidžiama taikyti operacijos ribinę reikšmę. Tada operacijas, esančias žemiau tos ribinės reikšmės, galite pateikti nurodytu prekės kodu. Prekės kodą galite atnaujinti atitinkamose Intrastat žurnalo eilutėse, atsižvelgdami į **Minimalios ribos** nuostatą **Užsienio prekybos parametrų** puslapyje. Pagal **Intrastat glaudinimo** nuostatą taip pat galite tas operacijas glaudinti. Intrastat žurnale tikrinti operacijų užbaigtumą galite pagal nuostatą **Tikrinti sąranką**, esančią **Užsienio prekybos parametrų** puslapyje. Galima tikrinti atitinkamų laukų duomenų užbaigtumą: šalies / regiono, apskrities ar rajono, svorio, prekės kodo, operacijos kodo, papildomo vieneto, uosto, kilmės, pristatymo sąlygų, transportavimo būdo ir mokesčių lengvatos numerio. Operacijos, kurios nėra užbaigtos, bus pažymėtos kaip negaliojančios.
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Naudokite Intrastat žurnalo pranešti informaciją apie prekybą tarp ES šalių ir regionų
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Naudoti Intrastat žurnalą, norint pranešti informaciją apie prekybą tarp ES šalių / regionų
 
-Statistikos tikslais informacija apie prekybą tarp ES šalių / regionų skelbiama kas mėnesį. Intrastat ataskaitą galite spausdinti pagal **Ataskaitų formatų susiejimo** nuostatas **Užsienio prekybos parametrų** puslapyje. Taip pat pagal **Failų formatų susiejimo** nuostatas **Užsienio prekybos parametrų** puslapyje galite generuoti elektroninį failą. Daugiau informacijos apie Intrastat ataskaitų, įskaitant būtinąsias sąlygas, ieškokite Intrastato ataskaitų užduočių įrašus:
+Statistikos tikslais informacija apie prekybą tarp ES šalių / regionų skelbiama kas mėnesį. Intrastat ataskaitą galite spausdinti pagal **Ataskaitų formatų susiejimo** nuostatas **Užsienio prekybos parametrų** puslapyje. Taip pat pagal **Failų formatų susiejimo** nuostatas **Užsienio prekybos parametrų** puslapyje galite generuoti elektroninį failą. Norėdami daugiau informacijos apie Intrastat ataskaitas, įskaitant būtinąsias sąlygas, žr. toliau nurodytus Intrastat ataskaitų užduočių įrašus.
 
--   Sukurti ES Intrastat deklaraciją,
--   Pagal Intrastat perduoti operacijas
--   Nurodant akredityvus adresas Bendrijos vidaus sandoris.
+-   ES Intrastat deklaracijos generavimas,
+-   Operacijų perkėlimas į Intrastat,
+-   ES vidaus operacijos pakrovimo adreso nurodymas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Šioje lentelėje išvardijami būtinos Intrastat ataskaitas.
+Toliau pateikiamoje lentelėje nurodytos Intrastat ataskaitų būtinosios sąlygos.
 
 <table>
 <colgroup>
@@ -235,5 +238,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </table>
 
  
+
+
 
 

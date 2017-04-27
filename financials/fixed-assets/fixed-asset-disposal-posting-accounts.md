@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Ilgalaikio turto likvidavimo registravimo sąskaitos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip nustatyti turto likvidavimo DK registravimo sąskaitas.
 
 Puslapio Ilgalaikio turto registravimo šablonai „FastTab“ skirtuke DK sąskaitos pasirinkite Likvidavimas – pardavimas ir Likvidavimas – nurašymas, kad nustatytumėte registravimą į didžiąją knygą.
@@ -37,6 +40,8 @@ Abiejų tipų operacijose ilgalaikio turto likvidavimo vertė kredituojama didž
 Spustelėkite Likvidavimas, tada spustelėkite Pardavimas arba Nurašymas ir nustatykite išsamias sąskaitas ilgalaikio turto balansinei vertei atšaukti. Taip pat galite įvesti informaciją puslapio Likvidavimo parametrai laukuose Registruoti vertę ir Pardavimo vertės tipas. 
 
 Turto likvidavimo operacija mažos vertės telkinyje sumažina mažos vertės telkinio balansinę vertę tik likviduojama suma. Bet jei turto pardavimas viršija balansinę mažos vertės telkinio vertę, balansinė vertė sumažinama iki nulio.
+
+
 
 
 

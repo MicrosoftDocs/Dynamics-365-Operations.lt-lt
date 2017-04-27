@@ -1,6 +1,6 @@
 ---
-title: "Konfigūruoti programą laukų pavadinimai sandėliavimas App"
-description: "Šioje temoje aprašoma, kaip nustatyti ir konfigūruoti sandėlio programos laukų pavadinimai ir prioritetų Dynamics 365 operacijoms."
+title: "Programos „Warehousing“ laukų pavadinimų konfigūravimas"
+description: "Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 for Operations“."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Konfigūruoti programą laukų pavadinimai sandėliavimas App
+# <a name="configure-app-field-names-in-warehousing-app"></a>Programos „Warehousing“ laukų pavadinimų konfigūravimas
 
-Šioje temoje aprašoma, kaip nustatyti ir konfigūruoti sandėlio programos laukų pavadinimai ir prioritetų Dynamics 365 operacijoms. 
+[!include[banner](../includes/banner.md)]
 
-**Pastaba:** Ši tema skirta sandėlio valdymo funkcijos. Tai netaikoma atsargų valdymo funkcijos. Dinamika 365 operacijų - sandėliavimo yra programa, kuri galite naudoti sandėlio užduotims atlikti. Jūs galite nustatyti ir konfigūruoti laukų pavadinimai, kuriuos naudoja programėlės, taip pat konfigūruoti laukų pavadinimai turėtų būti priskirtos prioritetinės. Šioje temoje aiškinama, kaip nustatyti ir konfigūruoti šių sandėlio programos laukų pavadinimai ir prioritetus, ir kaip jie yra naudojami Dynamics 365 operacijų - sandėliavimo. Išsamią informaciją apie tai, kaip sukonfigūruoti ryšį su Dynamics 365 operacijų - sandėliavimo, ieškokite pamoka [įdiegti ir konfigūruoti Dynamics 365 operacijų - sandėliavimo](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Konfigūruoti sandėlio programos laukų pavadinimus
+Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 for Operations“. 
+
+**Pastaba.** Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Dynamics 365 for Operations“ – versija „Warehousing“ yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Dynamics 365 for Operations“ – versijoje „Warehousing“. Išsamios informacijos apie tai, kaip konfigūruoti ryšį su „Microsoft Dynamics 365 for Operations“ – versija „Warehousing“ žr. mokymo programoje [„Dynamics 365 for Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 ===================================
 
-Kai naudojate Dynamics 365 operacijų - sandėliavimo mobiliajame įrenginyje, galite konfigūruoti kaip metaduomenys turi būti rodomas ant jūsų prietaiso, **sandėlio programos laukų pavadinimai** puslapis. Nauja įmonė Dynamics 365 operacijoms, pasirinkite **sukurti numatytąjį nustatymą** generuoti visų laukų pavadinimus, kad bus naudojamos sandėlio mobiliųjų įrenginių darbo eigas, ir tada priskirti norimą įvesties režimą ir įvesties tipo jiems. Po to, kai buvo sukurtas visų laukų pavadinimai, galite pasirinkti šias įvesties parinktis.
+Naudodami „Dynamics 365 for Operations“ – versiją „Warehousing“ savo mobiliajame įrenginyje galite konfigūruoti, kaip metaduomenys turėtų būti rodomi puslapyje **Sandėlio programos laukų pavadinimai**. Naujoje „Dynamics 365 for Operations“ įmonėje pasirinkite **Kurti numatytąją sąranką**, kad sugeneruotumėte visų laukų pavadinimus, kurie bus naudojami sandėlio mobiliųjų įrenginių darbo eigose, ir tada jiems priskirkite pageidaujamą įvesties režimą ir įvesties tipą. Sugeneravę visų laukų pavadinimus, galite pasirinkti toliau nurodytas įvesties parinktis.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Kai naudojate Dynamics 365 operacijų - sandėliavimo mobiliajame įrenginyje, g
 <tbody>
 <tr class="odd">
 <td>Pageidaujamas įvesties režimas</td>
-<td>Ši opcija nusako ar skenavimo laukas ar Rankinės įvesties įvesties lauke turi būti rodoma pasirinkto lauko pavadinimą. Tai naudinga atskirti laukai priklauso jei brūkšniniai kodai naudojami lauko. <strong>Pastaba:</strong> laukų pavadinimai su pageidaujamą įvesties režimas nustatytas <strong>nuskaitymo</strong>, galite įvesti informaciją rankiniu būdu jei brūkšniniame kode yra neįskaitomas arba sugadintas.</td>
+<td>Ši parinktis nurodo, ar pasirinktam lauko pavadinimui turi būti priskirtas ir rodomas nuskaitymo laukas, ar neautomatinės įvesties laukas. Tai naudinga norint laukus atskirti pagal tai, ar juose naudojami brūkšniniai kodai. <strong>Pastaba.</strong> Kai pageidaujamas laukų pavadinimų įvesties režimas nustatytas į parinktį <strong>Nuskaitymas</strong>, galite įvesti informaciją neautomatiškai, jei brūkšninis kodas yra neįskaitomas arba pažeistas.</td>
 </tr>
 <tr class="even">
 <td>Įvedimo tipas</td>
-<td>Ši opcija nusako, kokia įvesties tipas turėtų būti naudojami pasirinkto lauko pavadinimą. Galimos keturios pasirinktys:
+<td>Ši parinktis nurodo, koks įvesties tipas turėtų būti priskirtas pasirinktam lauko pavadinimui. Galima pasirinkti iš keturių toliau pateiktų parinkčių.
 <ul>
-<li><strong>Atrankos</strong> - parinkčių sąrašas. Laukų pavadinimai su šia galimybe yra neredaguojami.</li>
-<li><strong>Data</strong> - laukų pavadinimai, nurodyti data bus rodomi datos formatą su etikete. Tai padeda matyti įvesti datos formato sandėlio darbuotojams. Laukų pavadinimai su šia galimybe yra neredaguojami.</li>
-<li><strong>Alfa</strong> - pasirinkus prietaiso klaviatūra bus naudojamas rankiniu būdu įvesti informaciją programėlėje. Klaviatūros patirtimi gali kisti, priklausomai nuo to, kuris įrenginys naudojamas.</li>
-<li><strong>Skaitmeniniai</strong> -, laukų pavadinimų, naudoti skaitinius duomenis tik, galite pasirinkti šią parinktį Rodyti pasirinktinį skaičių klaviatūroje vietoj įrenginį klaviatūros įvesties lauke.</li>
+<li><strong>Pasirinkimas</strong> - pateiktas parinkčių, kurias galima pasirinkti, sąrašas. Nustačius šią parinktį laukų pavadinimų redaguoti negalima.</li>
+<li><strong>Data</strong> - laukų pavadinimuose, kurie nurodyti kaip data, bus rodomas datos formatas su žyma. Tokiu būdu sandėlio darbuotojai gali matyti, kokiu formatu įvesti datą. Nustačius šią parinktį laukų pavadinimų redaguoti negalima.</li>
+<li><strong>Raidinis</strong> - jei pasirinkta ši parinktis, programoje įvedant informaciją neautomatiškai bus naudojama įrenginio klaviatūra. Klaviatūros patirtį galima keisti, atsižvelgiant į naudojamą įrenginį.</li>
+<li><strong>Skaitinis</strong> - jei laukų pavadinimuose nustatyta tik skaitinių duomenų įvestis, galite pasirinkti šią parinktį, kad būtų rodoma pasirinktinė skaitinė klaviatūra su įvesties lauku, o ne įrenginio klaviatūra.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Konfigūruoti sandėlio programa lauke prioritetas
+<a name="configure-warehouse-app-field-priority"></a>Sandėlio programos laukų prioriteto konfigūravimas
 ======================================
 
-Dėl to **sandėlio programa lauke prioritetas** puslapyje, galite įdėti laukų pavadinimus į skirtingų prioritetinių grupių. Tai leidžia spręsti, kokia informacija turėtų būti rodomas puslapyje pagrindinis uždavinys, kai sandėlio darbuotojai atlieka užduotis naudodami programėlę. Jei spustelėsite **sukurti numatytąjį nustatymą**, bus sukurtas numatytasis rinkinys prioritetinių grupių. Yra galimybė sukurti prioritetinių grupių, tiek, kiek reikia, bet tik trys prioritetinės grupės bus rodomas užduočių puslapyje. Dynamics 365 operacijoms siunčiant metaduomenų į programėlę, ji bus priskirti kiekvieną lauką Santykinis prioriteto priklausomai nuo savo prioritetų grupės, ir programėlė rodys pirmą trijų prioritetinių grupių, esančių užduočių puslapio metaduomenys. Likusi didžios metaduomenų pasirodys antrinės informacijos puslapyje. Šioje lentelėje yra penkių prioritetinių grupių pavyzdys.
+Puslapyje **Sandėlio programos laukų prioritetas** laukų pavadinimus galite suskirstyti į skirtingas prioritetų grupes. Tokiu būdu galima pasirinkti, kokia informacija turėtų būti rodomas pagrindiniame užduočių puslapyje, kai sandėlio darbuotojai atlieka užduotis naudodami programą. Jei spustelėsite **Kurti numatytąją sąranką**, bus sugeneruotas numatytasis prioritetų grupių sąrašas. Galima kurti tiek prioritetų grupių, kiek norima, bet užduočių puslapyje bus rodomos tik trys prioritetų grupės. Kai „Dynamics 365 for Operations“ siunčia metaduomenis į programą, kiekvienam laukui ji priskirs santykinį prioritetą, atsižvelgiant į lauko prioriteto grupę, o programos užduočių puslapyje bus rodomos pirmosios trys prioritetų grupės, esančios metaduomenyse. Kiti perviršio metaduomenys bus rodomi antriniame informacijos puslapyje. Tolesnėje lentelėje pateikiamas penkių prioritetų grupių pavyzdys.
 
 <table>
 <colgroup>
@@ -78,13 +81,13 @@ Dėl to **sandėlio programa lauke prioritetas** puslapyje, galite įdėti lauk�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Prioritetinė grupė</th>
+<th>Prioritetų grupė</th>
 <th>Priskirti laukai</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td> Svarba – 10</td>
+<td> 10 prioritetas</td>
 <td><ul>
 <li>Produktas</li>
 <li>Kiekis</li>
@@ -92,20 +95,20 @@ Dėl to **sandėlio programa lauke prioritetas** puslapyje, galite įdėti lauk�
 </ul></td>
 </tr>
 <tr class="even">
-<td> Prioritetas 20</td>
+<td> 20 prioritetas</td>
 <td><ul>
 <li>Klasterio pareigos</li>
 <li>Klasteris</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> 30 prioritetinių</td>
+<td> 30 prioritetas</td>
 <td><ul>
 <li>Prekės aprašas</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> Prioritetas 40</td>
+<td> 40 prioritetas</td>
 <td><ul>
 <li>Konfigūravimas</li>
 <li>Spalva</li>
@@ -114,7 +117,7 @@ Dėl to **sandėlio programa lauke prioritetas** puslapyje, galite įdėti lauk�
 </ul></td>
 </tr>
 <tr class="odd">
-<td> Prioritetas 50</td>
+<td> 50 prioritetas</td>
 <td><ul>
 <li>Buvimo vieta</li>
 <li>Numerio lentelė</li>
@@ -123,7 +126,7 @@ Dėl to **sandėlio programa lauke prioritetas** puslapyje, galite įdėti lauk�
 </tbody>
 </table>
 
-Pavyzdžiui, kai sandėlio darbuotojas atlieka užduotį mobiliajame įrenginyje, jei metaduomenimis, kurie bus rodomi programėlėje susideda iš šių laukų:
+Pvz., kai sandėlio darbuotojas atlieka užduotį mobiliajame įrenginyje, jei metaduomenys, kurie bus rodomi programoje, apima toliau nurodytus laukus.
 
 -   Produktas
 -   Kiekis
@@ -131,17 +134,19 @@ Pavyzdžiui, kai sandėlio darbuotojas atlieka užduotį mobiliajame įrenginyje
 -   Prekės aprašas
 -   Dydis ir vieta
 
-Remiantis aukščiau lentelėje sandėlio app lauko prioritetas, šios 3 eilutės informacija bus rodomas užduočių puslapyje:
+Atsižvelgiant į sandėlio programos laukų prioriteto nustatymą ankstesnėje lentelėje, užduočių puslapyje bus rodomos 3 toliau pateiktos informacijos eilutės.
 
--   1 eilutėje: Prekė, kiekis, matavimo vienetas
--   2 eilėje: Prekės aprašymas
--   Eilutės 3: dydis
+-   1 eilutė: prekė, kiekis, matavimo vienetas
+-   2 eilutė: prekės aprašas
+-   3 eilutė: dydis
 
-Likusių metaduomenis, pvz., vieta, nebus rodomas puslapyje užduotis, tačiau bus rodomi išsamios informacijos puslapį. Sužinoti daugiau ir pamatyti, kaip vartotojo sąsaja, kreiptis į blog post [apie Dynamics 365 operacijų - sandėliavimo](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rodomi informacijos puslapyje. Norėdami sužinoti daugiau ir pamatyti vartotojo sąsajos pavyzdžių žr. tinklaraščio įrašą [Pranešimas apie „Dynamics 365 for Operations“ – versiją „Warehousing“](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Įdiegti ir konfigūruoti Microsoft Dynamics 365 operacijoms – sandėliavimo](install-configure-warehousing-app.md)
+[„Dynamics 365 for Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](install-configure-warehousing-app.md)
+
+
 
 

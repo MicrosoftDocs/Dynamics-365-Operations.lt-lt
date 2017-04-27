@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Nusidėvėjimo faktorius
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamas nusidėvėjimo pagal koeficientą metodas.
 
 Koeficientai yra turto nusidėvėjimo procentai. Kai nustatote ilgalaikio turto nusidėvėjimo profilį ir puslapio **Nusidėvėjimo šablonai** lauke **Metodas** pasirenkate vertę  **Koeficientas**, galite nustatyti progresyvinį, regresyvinį arba tiesiogiai proporcingą nusidėvėjimą:
@@ -39,14 +42,14 @@ Koeficientai yra turto nusidėvėjimo procentai. Kai nustatote ilgalaikio turto 
 Toliau pateiktos taisyklės ir pavyzdžiai nurodo, kaip nustatyti kiekvieno nusidėvėjimo tipo koeficientus. 
 
 > [!NOTE] 
-> Kai **veiksnys**, į **metodas** srityje, į **veiksnys** lauke ir **intervalas** srityje rodomi.
+> Kai lauke **Metodas** pasirinksite **Koeficientas**, bus rodomi laukai **Koeficientas** ir **Intervalas**.
 
 ## <a name="progressive-depreciation"></a>Progresyvinis nusidėvėjimas
 Lauko **Koeficientas** vertė – daugiau negu **50**.
 
 ### <a name="example"></a>Pavyzdys
 
-Įsigijimo kaina yra 100 000, koeficientas yra 70, tarnavimo laikotarpis yra 10 metų ir Nusidėvėjimas prasideda sausio 1 dieną. Nusidėvėjimo sumos ir likutinė vertė sumos yra rodomos tik pirmųjų šešerių metų tarnavimo laiką.
+Įsigijimo kaina yra 100 000, koeficientas yra 70, dėvėjimo laikas yra 10 metų, o nusidėvėjimas pradėtas sausio 1 d. Rodomos tik pirmųjų šešių dėvėjimo metų nusidėvėjimo ir balansinės vertės sumos.
 
 | Metai | Laikotarpis      | Nusidėvėjimo suma | Balansinės vertės suma |
 |------|-------------|---------------------|-----------------------|
@@ -62,7 +65,7 @@ Lauko **Koeficientas** vertė – mažiau negu **50**.
 
 ### <a name="example"></a>Pavyzdys
 
-Įsigijimo kaina yra 100 000, koeficientas yra 20, tarnavimo laikotarpis yra 10 metų ir Nusidėvėjimas prasideda sausio 1 dieną. Nusidėvėjimo sumos ir likutinė vertė sumos yra rodomos tik pirmųjų šešerių metų tarnavimo laiką.
+Įsigijimo kaina yra 100 000, koeficientas yra 20, dėvėjimo laikas yra 10 metų, o nusidėvėjimas pradėtas sausio 1 d. Rodomos tik pirmųjų šešių dėvėjimo metų nusidėvėjimo ir balansinės vertės sumos.
 
 | Metai | Laikotarpis      | Nusidėvėjimo suma | Balansinės vertės suma |
 |------|-------------|---------------------|-----------------------|
@@ -75,5 +78,7 @@ Lauko **Koeficientas** vertė – mažiau negu **50**.
 
 ## <a name="straight-line-depreciation"></a>Tiesiogiai proporcingas nusidėvėjimas
 Lauko **Koeficientas** vertė lygi **50**. Šiuo atveju kiekvieno laikotarpio nusidėvėjimas vienodas, reikia atsižvelgti į kituose laukuose nurodytas, kaip aprašyta straipsnyje [Tiesiogiai proporcingas nusidėvėjimas](straight-line-service-life-depreciation.md).
+
+
 
 

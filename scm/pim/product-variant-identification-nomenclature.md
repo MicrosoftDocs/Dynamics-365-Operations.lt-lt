@@ -1,6 +1,6 @@
 ---
-title: "Nomenklatūrą numerių"
-description: "Šioje temoje aprašoma, kaip galite nustatyti nomenklatūrą numerių pakeisti nustatyta forma, [produkto meistras - konfigūracija - dydis - spalva - numerio], su tikslinės formatą, kuris apima pagrindinio produkto numerį, aktyvus produkto matmenys ir teksto skyrikliai savo pasirinkimą. Taip pat galite kurti nomenklatūrą, norėdami nustatyti konfigūracijas, kurias sukūrė apribojimais pagrįstas produkto konfigūratorius. Į šias nomenklatūras galima įtraukti pasirinktus atributus."
+title: "Produkto numerio nomenklatūra"
+description: "Šioje temoje aprašoma, kaip galima nustatyti produkto numerio nomenklatūrą, kad fiksuotas formatas [Bendrojo produkto numeris – Konfigūracija – Dydis – Spalva – Stilius] būtų pakeistas tiksliniu formatu, kuris apima bendrojo produkto numerį, aktyvias produkto dimensijas ir pasirinktus teksto skyriklius. Taip pat galite kurti nomenklatūrą, norėdami nustatyti konfigūracijas, kurias sukūrė apribojimais pagrįstas produkto konfigūratorius. Į šias nomenklatūras galima įtraukti pasirinktus atributus."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nomenklatūrą numerių
+# <a name="product-number-nomenclature"></a>Produkto numerio nomenklatūra
 
-Šioje temoje aprašoma, kaip galite nustatyti nomenklatūrą numerių pakeisti nustatyta forma, [produkto meistras - konfigūracija - dydis - spalva - numerio], su tikslinės formatą, kuris apima pagrindinio produkto numerį, aktyvus produkto matmenys ir teksto skyrikliai savo pasirinkimą. Taip pat galite kurti nomenklatūrą, norėdami nustatyti konfigūracijas, kurias sukūrė apribojimais pagrįstas produkto konfigūratorius. Į šias nomenklatūras galima įtraukti pasirinktus atributus.
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje aprašoma, kaip galima nustatyti produkto numerio nomenklatūrą, kad fiksuotas formatas [Bendrojo produkto numeris – Konfigūracija – Dydis – Spalva – Stilius] būtų pakeistas tiksliniu formatu, kuris apima bendrojo produkto numerį, aktyvias produkto dimensijas ir pasirinktus teksto skyriklius. Taip pat galite kurti nomenklatūrą, norėdami nustatyti konfigūracijas, kurias sukūrė apribojimais pagrįstas produkto konfigūratorius. Į šias nomenklatūras galima įtraukti pasirinktus atributus.
 
 Naujoji produkto variantų numerių nomenklatūra suteikia galimybę į produkto variantų identifikatorius įtraukti segmentų. Šie segmentai gali būti bendrojo produkto numeris, produkto dimensijos, numeracijos, teksto konstantos ir atributai. Naudodami šią funkciją galite greitai rasti konkretų produkto variantą, kai kuriate pardavimo užsakymą arba pirkimo užsakymą.
 
@@ -66,8 +69,8 @@ Marškinėliai (TS1234) gaminami 3 skirtingų dydžių (S, M, L), 4 skirtingų s
 
 Raudonų S dydžio Polo marškinėlių produkto varianto numeris bus: TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenklatūros constraintbased konfigūracijų
-Apribojimas, pagrįstas konfigūracijoms, skirta nomenklatūrą gali būti pastatyta konfigūracijos prekės dimensija. Puslapyje **Produktų nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Konfigūravimo pagal apribojimus nomenklatūra
+Atliekant konfigūravimą pagal apribojimus galima kurti specialią konfigūracijos produkto dimensijos nomenklatūrą. Puslapyje **Produktų nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
 
 -   Numeracijos reikšmė
 -   Teksto konstanta
@@ -90,8 +93,8 @@ Konfigūracijos nomenklatūra nurodoma naudojant toliau pateiktus segmentus.
 
 Medžiagos iš medžio, kurios ilgis 78, konfigūracijos ID bus: WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenklatūros dimensionbased konfigūracijų
-Dimensijos pagal konfigūracijoms, skirta nomenklatūrą gali būti pastatyta konfigūracijos prekės dimensija. Puslapyje **Produktų nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Konfigūravimo pagal dimensijas nomenklatūra
+Atliekant konfigūravimą pagal dimensijas galima kurti specialią konfigūracijos produkto dimensijos nomenklatūrą. Puslapyje **Produktų nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
 
 -   Numeracijos reikšmė
 -   Teksto konstanta
@@ -132,7 +135,7 @@ Kai naudojate konfigūravimo pagal apribojimus arba konfigūravimo pagal dimensi
 Šiame pavyzdyje galite naudoti produkto variantų numerių nomenklatūrą, kurią sudaro toliau nurodyti segmentai.
 
 1.  Bendrojo produkto numeris
-2.  Tekstine konstanta "\_"
+2.  Teksto konstanta '\_'
 3.  Konfigūravimas
 
 Konfigūracijos nomenklatūrą gali sudaryti toliau pateikti segmentai.
@@ -147,7 +150,7 @@ Galite įvesti toliau nurodytas segmentų reikšmes.
 -   Medžiagos = plastmasė
 -   Ilgis = 12
 
-Taps produkto rūšies numerį: M0099\_PlasticAAA12.
+Produkto varianto numeris bus: M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Konfigūravimo pagal dimensijas pavyzdys
 
@@ -180,7 +183,7 @@ Jei automatiškai arba neautomatiškai bandysite generuoti produkto variantus, k
 
 ### <a name="constraint-based-configurations"></a>Konfigūravimas pagal apribojimus
 
-Priklausomai nuo nomenklatūros, sistema gali bandyti konfigūracijai priskirti ne unikalų produkto varianto numerį. Tokiu atveju sistema naudos numeracija konfigūracijos dimensiją kaip produkto rūšies numerį vietoj. Jei taip nutinka, gausite įspėjimą. Norėdami to išvengti, turėtumėte į nomenklatūrą įtraukti pakankamai atributų, kad užtikrintumėte unikalumą, ir įsitikinti, kad įjungta komponento parinktis **Pakartotinai naudoti**.
+Priklausomai nuo nomenklatūros, sistema gali bandyti konfigūracijai priskirti ne unikalų produkto varianto numerį. Tokiu atveju, sistema naudos konfigūracijos dimensijos numeraciją kaip produkto varianto numerį. Jei taip nutiks, bus rodomas įspėjimas. Norėdami to išvengti, turėtumėte į nomenklatūrą įtraukti pakankamai atributų, kad užtikrintumėte unikalumą, ir įsitikinti, kad įjungta komponento parinktis **Pakartotinai naudoti**.
 
 ### <a name="dimension-based-configurations"></a>Konfigūravimas pagal dimensijas
 
@@ -191,8 +194,10 @@ Priklausomai nuo nomenklatūros, sistema gali bandyti konfigūracijai priskirti 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sukurti produkto numeris nomenklatūros iš anksto nustatytų prekių dimensijų kombinacijoje (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas (Užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Sukurti produkto numeris nomenklatūros konfigūruotų gaminių variantams (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas (Užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

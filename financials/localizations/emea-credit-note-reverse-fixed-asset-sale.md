@@ -1,6 +1,6 @@
 ---
-title: Ilgalaikio turto perleidimo, Estijoje ir Lietuvoje
-description: "Šioje temoje pateikta informacija apie kredito pažymas dėl ilgalaikio turto perleidimo Įdėjo laisvos formos SF vartotojams juridiniams asmenims Estijoje ir Lietuvoje."
+title: Ilgalaikio turto likvidavimas (Estija ir Lietuva)
+description: "Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 2017-01-11 14 - 59 - 00
@@ -25,18 +25,18 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto perleidimo, Estijoje ir Lietuvoje
+# <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 
-Šioje temoje pateikta informacija apie kredito pažymas dėl ilgalaikio turto perleidimo Įdėjo laisvos formos SF vartotojams juridiniams asmenims Estijoje ir Lietuvoje.
+Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje.
 
-Ilgalaikis turtas gali būti parduotas naudojant šalinimo funkcija per laisvos formos sąskaitą faktūrą, ilgalaikio turto žurnalas, arba bendrojo žurnalo į didžiąją knygą. Daugiau informacijos rasite [Nurašyto ilgalaikio turto registravimo sąskaitų](fixed-assets/fixed-asset-disposal-posting-accounts.md). Ilgalaikio turto perleidimas kredito pažymos funkcija leidžia vartotojams juridiniams asmenims Estijoje ir Latvijoje sukurti laisvos formos SF kredito pažymą su ilgalaikio turto pardavimo ir tada po to. Kurti kredito pažymą pakeisti laisvos formos SF, kuri buvo sugeneruota ilgalaikio turto pardavimo, atlikite šiuos veiksmus:
+Ilgalaikį turtą galima parduoti naudojant likvidavimo funkciją, pateiktą laisvos formos SF, ilgalaikio turto žurnale bendrajame žurnale DK. Daugiau informacijos žr. puslapyje [Ilgalaikio turto likvidavimo registravimo sąskaitos](fixed-assets/fixed-asset-disposal-posting-accounts.md). Ilgalaikio turto likvidavimo kredito pažymų funkcija suteikia galimybę vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje, kurti laisvos formos SF kredito pažymą su ilgalaikio turto pardavimu ir tada ją užregistruoti. Norėdami kurti kredito pažymą ir atšaukti laisvos formos SF, kuri buvo sugeneruota ilgalaikiam turtui parduoti, atlikite tolesnius veiksmus.
 
-1.  Spustelėkite **gautinos sąskaitos**&gt;**sąskaitas faktūras**&gt;**visi laisvos formos SF**.
-2.  Pasirinkti laisvos formos SF, kurią kuriate kredito atmintine.
-3.  Veiksmų srityje – į **atšaukti** grupė, **SF** skirtuką, spustelėkite **kurti kredito pažymą**. **Pastaba:** kai kuriate kredito pažymą, turite įtraukti kiekvienos operacijos eilutės iš laisvos formos teksto SF.
-4.  Pasirinkite į **Kurti koreguojamąsias eilutes** žymės langelį įtraukti atvirkštinė eilutė ir koreguojamoji eilutė į kiekvienos operacijos eilutės originalus laisvos formos SF kredito pažyma.
-5.  Užregistruoti kredito pažymą.
+1.  Spustelėkite **Gautinos sumos** &gt; **SF** &gt; **Visos laisvos formos SF**.
+2.  Pasirinkite laisvos formos SF, kurios kredito pažymą kuriate.
+3.  Veiksmų srities skirtuko **SF** grupėje **Atšaukti** spustelėkite **Kurti kredito pažymą**. **Pastaba.** Kurdami kredito pažymą turite įtraukti kiekvieną operacijos eilutę iš laisvos formos SF.
+4.  Pažymėkite žymės langelį **Kurti koreguojamąsias eilutes**, norėdami įtraukti kiekvienos pradinės laisvos formos SF operacijos eilutės atšaukimo eilutę ir koreguojamąją eilutę.
+5.  Registruokite kredito pažymą.
 
-Ilgalaikio turto perleidimo operacijų, sukurtas, kai registravote kredito pažymos, anuliuojami. Ilgalaikis turtas lieka statusą **parduotas**. Jūs vis dar keisti būseną ilgalaikio turto rankiniu būdu, jei reikia.
+Atšaukiamos ilgalaikio turto likvidavimo operacijos, sukurtos užregistravus kredito pažymą. Ilgalaikio turto būsena lieka **Parduota**. Tačiau, jei reikia, ilgalaikio turto būseną galite pakeisti patys.
 
 

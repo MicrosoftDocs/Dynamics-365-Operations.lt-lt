@@ -1,6 +1,6 @@
 ---
 title: "Bandomojo balanso finansinės ataskaitos"
-description: "Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitas apie teismą likučiai. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šias ataskaitas ir kaip galite modifikuoti pranešimus, kad atitiktų jūsų verslo poreikius."
+description: "Šiame straipsnyje aprašytos numatytosios bandomųjų balansų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai ir ataskaitų modifikavimo pagal verslo poreikius būdai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Bandomojo balanso finansinės ataskaitos
 
-Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitas apie teismą likučiai. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šias ataskaitas ir kaip galite modifikuoti pranešimus, kad atitiktų jūsų verslo poreikius. 
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašytos numatytosios bandomųjų balansų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai ir ataskaitų modifikavimo pagal verslo poreikius būdai. 
 
 <a name="default-trial-balance-reports"></a>Numatytosios bandomojo balanso finansinės ataskaitos
 -----------------------------
@@ -51,7 +54,7 @@ Bandomojo balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blo
 
 ### <a name="row-definition"></a>Eilutės apibrėžimas
 
-Eilutės apibrėžimą, bandomąjį balansą – numatytuosius parametrus yra vienoje eilutėje, kuri traukia visus pagrindinės sąskaitos. Todėl bet kas gali generuoti ataskaitą, nes nereikia atlikti jokių pakeitimų. Kai peržiūrite ataskaitą, detalizuojate vieną eilutę, kad pamatytumėte išsamią informaciją apie kiekvieną sąskaitą. Galite keisti eilutės apibrėžimą, kad į ją būtų įtraukta daugiau informacijos. Norėdami keisti eilutės Bandomasis balansas – Numatytasis apibrėžimą, kad į ją būtų įtrauktos visų sąskaitų eilutės, atlikite šiuos veiksmus.
+Eilutės apibrėžime Bandomasis balansas – numatytasis yra viena eilutė, į kurią įtrauktos visos pagrindinės sąskaitos. Todėl bet kas gali generuoti ataskaitą, nes nereikia atlikti jokių pakeitimų. Kai peržiūrite ataskaitą, detalizuojate vieną eilutę, kad pamatytumėte išsamią informaciją apie kiekvieną sąskaitą. Galite keisti eilutės apibrėžimą, kad į ją būtų įtraukta daugiau informacijos. Norėdami keisti eilutės Bandomasis balansas – Numatytasis apibrėžimą, kad į ją būtų įtrauktos visų sąskaitų eilutės, atlikite šiuos veiksmus.
 
 1.  Spustelėkite **Redaguoti**, tada spustelėkite **Įterpti eilutes iš dimensijų**. Komanda **Įterpti eilutes iš dimensijų** leidžia pasirinkti, kokias dimensijas norite turėti savo eilutės apibrėžime. Šiam eilutės apibrėžimui naudosite **Pagrindinė sąskaita**.
 2.  Įsitikinkite, kad dalyje **Pagrindinė sąskaita** yra visi konjunkcijos ženklai (&), tada spustelėkite **Gerai**.
@@ -100,10 +103,12 @@ Kiekvienoje bandomojo balanso ataskaitoje naudojamas kitas stulpelio aprašas. N
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finansinės ataskaitos](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Finansinių ataskaitų peržiūra](view-financial-reports.md)
 
-[Dinamika finansinės atskaitomybės Dienoraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[„Dynamics‟ Finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Mokėtinų sumų pagrindinis puslapis"
-description: "Ši tema apžvelgiama mokėtinos sąskaitos."
+description: "Šioje temoje pateikiama mokėtinų sumų apžvalga."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
-Ši tema apžvelgiama mokėtinos sąskaitos.
+[!include[banner](../includes/banner.md)]
 
-Galite įvesti tiekėjų sąskaitas faktūras rankiniu būdu arba gauti elektroninį jų variantą per duomenų objektą. Po to, kai SF yra įrašyti arba gauta, galite peržiūrėti ir patvirtinti sąskaitas faktūras naudodami SF patvirtinimo žurnale arba **tiekėjo SF** puslapis. Galite naudoti SF gretinimą, tiekėjo SF strategijas ir darbo eigą norėdami automatizuoti peržiūros procesą, kad tam tikrus kriterijus atitinkančios SF būtų automatiškai patvirtintos, o likusios SF pažymimos, kad jas peržiūrėtų įgaliotas vartotojas.
+
+Šioje temoje pateikiama mokėtinų sumų apžvalga. 
+
+Galite įvesti tiekėjų sąskaitas faktūras rankiniu būdu arba gauti elektroninį jų variantą per duomenų objektą. Po to, kai SF įvedamos arba gaunamos, galite jas peržiūrėti ir patvirtinti naudodami SF patvirtinimo žurnalą arba **Tiekėjo SF** puslapį. Galite naudoti SF gretinimą, tiekėjo SF strategijas ir darbo eigą norėdami automatizuoti peržiūros procesą, kad tam tikrus kriterijus atitinkančios SF būtų automatiškai patvirtintos, o likusios SF pažymimos, kad jas peržiūrėtų įgaliotas vartotojas.
+
+
 
 

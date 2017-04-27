@@ -32,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 
 Bendrosios savikainos paskirstymas (TCA) yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas. Šis metodas yra dinamiškas. Juo savikaina apskaičiuojama kaip svertinis baigtais paskelbtų sudėtinės prekės ir sudėtinių produktų kiekių vidurkis. Kai naudojamas TCA, nebūtina peržiūrėti kiekvieno paketinio užsakymo savikainos paskirstymų. Jei TCA nenaudojamas, skaičiuojant formulę naudojamos esamos funkcijos.
 
-## <a name="using-tca-for-coproducts"></a>Naudojant TCA coproducts
+## <a name="using-tca-for-coproducts"></a>TCA naudojimas su sudėtiniais produktais
 Toliau pateikta keletas nurodymų, kaip TCA naudoti su sudėtiniais produktais.
 
 -   Jei formulės versijos šliaužiklį **Bendrosios savikainos paskirstymas** nustatote į **Taip**, sudėtinių produktų savikaina turi būti didesnė nei 0 (nulis). Reikšmę galima gauti iš tos pačios arba pirmosios nuo vietos nepriklausančios formulės vietos aktyvios savikainos versijos. Ši sąlyga tikrinama tvirtinant formulę.
@@ -46,7 +46,7 @@ Toliau pateikta keletas nurodymų, kaip TCA naudoti su sudėtiniais produktais.
 -   Kai paketinis užsakymas sukuriamas rankiniu būdu arba patvirtinamas suplanuotas paketinis užsakymas, formulės versijos šliaužiklio **Bendrosios savikainos paskirstymas** reikšmė nukopijuojama į paketinį užsakymą. Tačiau šį parametrą galite pakeisti paketiniame užsakyme. Jei formulės versijos šliaužiklis **Bendrosios savikainos paskirstymas** nustatytas į **Ne**, o tada tas pats paketinio užsakymo šliaužiklis pakeičiamas į **Taip**, kiekvienos eilutės savikainos paskirstymo metodas, nustatytas į **Rankinis**, pakeičiamas į **TCA**. Savikainos paskirstymo metodas **Nėra** nekeičiamas. Jei formulės versijos šliaužiklis **Bendrosios savikainos paskirstymas** nustatytas į **Taip**, o tada tas pats paketinio užsakymo šliaužiklis pakeičiamas į **Ne**, kiekvieno tipo **Gamyba** sudėtinio produkto savikainos paskirstymo metodas pakeičiamas į **Rankinis**. Nekeičiamas joks įvertintas savikainos paskirstymo procentas.
 -   Puslapyje **Sudėtinių produktų savikainos paskirstymas** rodomas apskaičiuotas savikainos paskirstymo procentas. Šį puslapį galite atidaryti iš puslapio **Paketinis užsakymas**. Ši informacija yra naudinga, kai paskelbti produktai ir kiekiai skiriasi nuo paketiniame užsakyme esančių suplanuotų arba pradėtų kiekių. Kai savikaina baigta, šie naujieji procentų paskirstymai iš TCA rodomi puslapyje **Sudėtinių produktų savikainos paskirstymas**.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Apskaičiuoti už šalutinius produktus
+## <a name="calculating-the-burden-for-byproducts"></a>Šalutinių produktų neefektyvių valandų skaičiavimas
 Laukas **Šalutinių produktų savikainos paskirstymas**, esantis puslapyje **Sudėtiniai produktai**, yra surašytuvo laukas, naudojamas tik su šalutiniais produktais. Šio sudėtinių produktų lauko reikšmė visada yra **Nėra**. Šiame šalutinių produktų eilučių lauke nustatoma, kaip šalutinio produkto eilutės savikainos suma įtraukiama į bendrąją gamybos savikainą. Galimos toliau nurodytos pasirinktys:
 
 -   **Nėra** ─ į bendrąją gamybos savikainą neįtraukiama jokia šalutinio produkto eilutės suma.

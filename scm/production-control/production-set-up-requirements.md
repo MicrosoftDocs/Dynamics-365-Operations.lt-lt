@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Gamybos nustatymo reikalavimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie nustatymo reikalavimus prieš dirbant su Gamybos kontrole. 
 
-Gamybos kontrolė yra integruota su kitų modulių funkcijos. Šis tarpusavio ryšys leidžia pakeisti gamybos užsakymus ir užtikrinti, kad jie būtų automatiškai atnaujinami visuose kituose susijusiuose sistemos procesuose ir skaičiavimuose. Toliau nurodyti sąrankos procesai išvardyti tokia tvarka, kokia juos turėtumėte atlikti.
+Gamybos kontrolė yra integruota su kitų modulių funkcijomis. Šis tarpusavio ryšys leidžia pakeisti gamybos užsakymus ir užtikrinti, kad jie būtų automatiškai atnaujinami visuose kituose susijusiuose sistemos procesuose ir skaičiavimuose. Toliau nurodyti sąrankos procesai išvardyti tokia tvarka, kokia juos turėtumėte atlikti.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Kituose modeliuose būtinas pradinis nustatymas
 Prieš dirbant su Gamybos kontrole, turi būti nustatyta informacija kituose moduliuose. Ši sąranka apima toliau nurodytas užduotis.
@@ -52,7 +55,7 @@ Prieš naudodami Gamybos kontrolę, atidarykite modulį Organizacijos administra
 4.  **Ištekliai** – nustatyti operacijų išteklius, siekiant apibrėžti skirtingus išteklius, naudojamus gamybos procesui užbaigti ir pajėgumams planuoti.
 
 ## <a name="required-production-parameters-setup"></a>Būtinas gamybos parametrų nustatymas
-**Gamybos kontrolės parametrus** – nustatyti pagrindinius gamybos parametrus apibrėžti kaip sistemą tvarko ir apdoroja gamybos užsakymų. Apibrėžti, kaip gamybos užsakymai kuriami, vertinami, planuojami ir naudojami. Taip pat galima pasirinkti norimą grįžtamojo ryšio rūšį ir kaip turėtų būti atliekama išlaidų apskaita.
+**Gamybos kontrolės parametrai** – nustatyti pagrindinius gamybos parametrus, siekiant apibrėžti, kaip sistema tvarko ir apdoroja gamybos užsakymus. Apibrėžti, kaip gamybos užsakymai kuriami, vertinami, planuojami ir naudojami. Taip pat galima pasirinkti norimą grįžtamojo ryšio rūšį ir kaip turėtų būti atliekama išlaidų apskaita.
 
 ## <a name="required-journal-name-identification"></a>Būtinas žurnalo pavadinimo identifikavimas
 **Gamybos žurnalų pavadinimai** – nurodyti gamybos žurnalų pavadinimus, kurie naudojami įrašyti ir registruoti operacijoms.
@@ -76,6 +79,8 @@ Jei naudojate maršrutus, operacijos turi būti apibrėžtos kiekvienam nustatyt
 1.  **Gamybos grupės** – nustatyti gamybos grupes, siekiant nustatyti gamybos užsakymo ir DK sąskaitų ryšius. DK sąskaitos naudojamos registruoti arba grupuoti ataskaitų užsakymams.
 2.  **Gamybos telkiniai** – sukurti gamybos telkinius, siekiant sugrupuoti gamybos užsakymus, kad būtų galima apdoroti skubius gamybos užsakymus arba panaikinti ir registruoti užsakymų grupes.
 3.  **Ypatybės** – apibrėžti ypatybes, siekiant sukurti specialius atributus, kuriuos būtų galima priskirti savo ištekliams ir taip kontroliuoti gamybos tvarką. Šie atributai yra sujungti su darbo laiko šablonu.
+
+
 
 
 

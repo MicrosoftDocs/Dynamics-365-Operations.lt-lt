@@ -1,6 +1,6 @@
 ---
 title: "DK uždarymas laikotarpio pabaigoje"
-description: "Šioje temoje aprašoma užduočių, kurios paprastai atliekamos vykdant DK uždarymo laikotarpį."
+description: "Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>DK uždarymas laikotarpio pabaigoje
 
-Šioje temoje aprašoma užduočių, kurios paprastai atliekamos vykdant DK uždarymo laikotarpį. 
+[!include[banner](../includes/banner.md)]
 
-Didžiojoje knygoje galite atlikti laikotarpio ar metų uždarymo procedūras. Uždarymo procesai parengia sistemą naujam laikotarpui. Pasirengti Naujųjų metų sistema, turite paleisti metų pabaigos uždaryti procesą. Kiekviena organizacija turi skirtingų procesų ir priemonių, kurios jis atlieka tam tikro laikotarpio pabaigos. Čia yra keletas papildomų nurodymų, laikotarpis baigiasi:
+
+Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį. 
+
+Didžiojoje knygoje galite atlikti laikotarpio ar metų uždarymo procedūras. Uždarymo procesai parengia sistemą naujam laikotarpui. Norėdami parengti sistemą naujiems metams, turite paleisti uždarymo metų pabaigoje procesą. Kiekviena organizacija turi skirtingus procesus ir veiksmus, kuriuos atlieka laikotarpio pabaigoje. Štai keletas pasirinktinų veiksmų laikotarpio pabaigoje.
 
 -   Užbaikite visas užduotis visuose kituose moduliuose, pvz., Gautinos sumos, Mokėtinos sumos ir Atsargos.
 -   Patikrinkite, ar visi žurnalai užregistruoti.
@@ -39,9 +42,11 @@ Didžiojoje knygoje galite atlikti laikotarpio ar metų uždarymo procedūras. U
 -   Įtraukite operacijas į žurnalą ir peržiūrėkite ataskaitą **DK žurnalas**.
 -   Atlikite konsolidavimą naudodami konsoliduojančią įmonę arba finansines ataskaitas.
 -   Sugeneruokite laikotarpio pabaigos finansines ataskaitas srityje „Finansinės ataskaitos“.
--   Nustatykite DK laikotarpių reikšmę **Sulaikyta**, kad nebūtų atliekamas joks kitas registravimas. Taip pat galite riboti laikotarpį konkrečiai vartotojų grupei, kol vykdomi laikotarpio pabaigos veiksmai, siekiant geresnės kontrolės. Tai nėra gera idėja, nustatyti laikotarpiai, kurie turi **visam laikui uždaryti**, nes jūs negalite vėl laikotarpis, kuris buvo uždaryta.
+-   Nustatykite DK laikotarpių reikšmę **Sulaikyta**, kad nebūtų atliekamas joks kitas registravimas. Taip pat galite riboti laikotarpį konkrečiai vartotojų grupei, kol vykdomi laikotarpio pabaigos veiksmai, siekiant geresnės kontrolės. Nėra tikslinga nustatyti laikotarpių reikšmę **Uždaryta visam laikui**, nes uždaryto laikotarpio vėl atidaryti nebegalėsite.
 
-Finansinio laikotarpio arti darbo srities galima tvarkyti ir sekti užduotis, būtinas įvairių laikotarpio pabaigoje procesus. Kreiptis į [finansinio laikotarpio uždaryti darbo sritį](financial-period-close-workspace.md) ir [metų pabaigos uždaryti](Year-end-close.md) daugiau informacijos. 
+Darbo sritį Finansinio laikotarpio uždarymas galima naudoti norint organizuoti ir sekti užduotis, reikalingas įvairiems periodams ir procesams. Daugiau informacijos žr. temose [Darbo sritis Finansinio laikotarpio uždarymas](financial-period-close-workspace.md) ir [Uždarymas metų pabaigoje](Year-end-close.md). 
+
+
 
 
 

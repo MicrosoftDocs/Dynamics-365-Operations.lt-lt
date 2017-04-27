@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Papildomas nusidėvėjimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta papildomo nusidėvėjimo funkcijos apžvalga.
 
 Naudodami papildomą nusidėvėjimą, pirmaisiais metais, kai turtas pradedamas eksploatuoti ir ima nusidėvėti, galite pridėti papildomų nusidėvėjimo sumų. Papildomas nusidėvėjimas turi būti visada apskaičiuojamas pirmiau nei visi kiti nusidėvėjimo skaičiavimai. Todėl geriausia kartu naudoti papildomą nusidėvėjimą ir knygas, kuriose išjungta funkcija Registruoti DK. Galite naudoti parinktį **Panaikinti operacijas, kurios neužregistruotos DK**, norėdami naikinti knygų praeities operacijas, kurios DK neregistruotos. Papildomą nusidėvėjimą galite vėliau nustatyti turto cikle, panaikindami anksčiau užregistruotas nusidėvėjimo operacijas. 
@@ -61,5 +64,7 @@ Kai papildomas nusidėvėjimas skaičiuojamas naudojant pasiūlymo procesą, suk
 Galite kurti neribotą papildomo nusidėvėjimo įrašų skaičių. Kai priskirsite tuos įrašus turto grupės knygai, jie bus taikomi turto knygoje. 
 
 Papildomas nusidėvėjimas įvedamas arba procentais, arba fiksuota suma. Kai užregistruosite nusidėvėjimo pasiūlymus, knygoje papildomo nusidėvėjimo operacijos bus registruojamos atskirai nuo nusidėvėjimo operacijų.
+
+
 
 

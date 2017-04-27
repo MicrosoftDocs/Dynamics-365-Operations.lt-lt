@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVM skaičiavimo metodas lauke Kilmė
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį.
 
 Turite pasirinkti kiekvieno puslapyje PVM kodai sukurto PVM kodo skaičiavimo metodą, taikomą mokesčio bazinei sumai lauke Kilmė.
@@ -124,5 +127,7 @@ Dokumento / žurnalo parametras Sumos, įskaitant PVM = Ne Operacijos eilutės s
 [PVM tarifų nustatymas pagal Bazinės ribos ir Skaičiavimo metodo laukus](marginal-base-field.md)
 
 [Visa suma ir PVM kodų intervalo skaičiavimo parinktys](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

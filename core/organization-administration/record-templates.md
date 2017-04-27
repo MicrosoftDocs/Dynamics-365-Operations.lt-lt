@@ -1,5 +1,5 @@
 ---
-title: "Įrašų šablonams kurti"
+title: "Sukurti įrašo šablonus"
 description: "Šiame straipsnyje pristatyta įrašų šablonų sąvoka ir paaiškinta, kaip juos galima naudoti, norint sukurti informaciją bendrai naudojančius įrašus."
 author: pvillads
 manager: AnnBe
@@ -24,10 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="create-record-templates"></a>Įrašų šablonams kurti
+# <a name="create-record-templates"></a>Sukurti įrašo šablonus
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pristatyta įrašų šablonų sąvoka ir paaiškinta, kaip juos galima naudoti, norint sukurti informaciją bendrai naudojančius įrašus.
 
-Įrašų šablonai gali padėti jums sukurti įrašai daugiau greitai Microsoft Dynamics 365 operacijoms. Įrašų šablonai galite kurti tik kai kurių įrašų tipų Microsoft Dynamics 365 operacijoms. Pvz., *** įsivaizduoti, įvedate informaciją nuoma automobilių nuomos verslą, kuris yra įsikūręs San Franciske. Kadangi dauguma klientų gali būti iš San Francisko teritorijos, būtų gerai, jei galėtumėte automatiškai užpildyti laukų **Valstija**, **Šalis** ir **Miestas** nuomos formos. **Pastaba:** galite taikyti šablonus tik už plotus, Dynamics "365" dėl veiklos, kad jūs turite prieigą prie. Tačiau visi šablonų pavaidinimai matomi jums, kai kuriate naują įrašą, ir kitiems vartotojams, jei kuriate šablonus, kurie bus pasiekiami visiems vartotojams. Turėkite tai omenyje, kai šablonams suteiksite pavadinimus. Pvz., nenaudokite pavadinimų, kuriuose yra žodžiai, pvz., „komisiniai“, jei tai, kad kai kurie darbuotojai įmonėje gauna atlyginimus taikant komisinius, yra slapta informacija. Kai pasiekiamas vienas ar daugiau konkrečios formos šablonų, prie kurių turite prieigą, ir bandote sukurti naują įrašą formoje, rodomas puslapis **Pasirinkti šabloną, skirtą**. Iš sąrašo pasirinkus šabloną sukuriamas naujas įrašas, kuriame yra pagal pasirinktą šabloną numatyta informacija. Jei nenorite naudoti šablonus kurdami naujus įrašus, pasirinkite į **neklausti** žymės langelį į **pasirinkite šabloną** puslapis. Jei norite vėl matyti šablono pasirinkimo dialogo langą, dešiniuoju pelės mygtuku spustelėkite bet kokį įrašą, spustelėkite **įrašyti info**, ir tada spustelėkite **Rodyti šablono pasirinkimas**.
+Įrašų šablonai gali padėti greičiau sukurti įrašus naudojant „Microsoft Dynamics 365 for Operations“. Naudodami „Microsoft Dynamics 365 for Operations“ galite kurti tik kai kurių įrašų tipų įrašų šablonus. Pavyzdžiui, **** įsivaizduokite, kad įvedate automobilio nuomos verslo, esančio San Franciske, nuomos informaciją. Kadangi dauguma klientų gali būti iš San Francisko teritorijos, būtų gerai, jei galėtumėte automatiškai užpildyti laukų **Valstija**, **Šalis** ir **Miestas** nuomos formos. **Pastaba** Galite taikyti šablonus tik toms „Dynamics 365 for Operations“ sritims, prie kurių turite prieigą. Tačiau visi šablonų pavaidinimai matomi jums, kai kuriate naują įrašą, ir kitiems vartotojams, jei kuriate šablonus, kurie bus pasiekiami visiems vartotojams. Turėkite tai omenyje, kai šablonams suteiksite pavadinimus. Pvz., nenaudokite pavadinimų, kuriuose yra žodžiai, pvz., „komisiniai“, jei tai, kad kai kurie darbuotojai įmonėje gauna atlyginimus taikant komisinius, yra slapta informacija. Kai pasiekiamas vienas ar daugiau konkrečios formos šablonų, prie kurių turite prieigą, ir bandote sukurti naują įrašą formoje, rodomas puslapis **Pasirinkti šabloną, skirtą**. Iš sąrašo pasirinkus šabloną sukuriamas naujas įrašas, kuriame yra pagal pasirinktą šabloną numatyta informacija. Jei nenorite naudoti šablonų kurdami naujus įrašus, puslapyje **Pasirinkti šabloną** pažymėkite žymės langelį **Daugiau neklausti**. Norėdami vėl rodyti šablono pasirinkimo dialogo langą, dešiniuoju pelės klavišu spustelėkite bet kurį įrašą, spustelėkite **Įrašo informacija**, o po to spustelėkite **Rodyti šablonų parinktis**.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Sistemos reikalavimai
-description: "Šia tema pateikiami dabartinėje Microsoft Dynamics 365 operacijų sistemos reikalavimai."
+description: "Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai."
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>Sistemos reikalavimai
 
-Šia tema pateikiami dabartinėje Microsoft Dynamics 365 operacijų sistemos reikalavimai.
+Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai.
 
 <a name="supported-web-browsers"></a>Palaikomos žiniatinklio naršyklės
 ----------------------
 
-Microsoft Dynamics 365 operacijų žiniatinklio taikomosios programos gali veikti bet kurioje iš šių interneto naršyklių, kurios vykdomos nurodytų operacinių sistemų:
+„Microsoft Dynamics 365 for Operations‟ žiniatinklio programa gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
 
--   "Microsoft Edge" (paskutinis viešai prieinamos versija) "Windows 10"
+-   „Microsoft Edge‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟.
 -   „Internet Explorer 11‟ sistemose „Windows 10‟, „Windows 8.1‟ arba „Windows 7‟.
--   Google Chrome (naujausios viešai prieinamos versija) Windows 10, Windows 8.1, Windows 8, "Windows 7" arba "Google" Nexus 10 tabletė
--   Apple Safari (paskutinis viešai prieinamos versija) Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) arba 10.12 (Siera) ar Apple iPad
+-   „Google Chrome‟ (naujausia viešai pasiekiama versija) sistemose „Windows 10‟, „Windows 8.1‟, „Windows 8‟, „Windows 7‟ arba planšetėje „Google Nexus 10‟.
+-   „Apple Safari‟ (naujausia viešai pasiekiama versija) sistemoje „Mac OS X 10.10‟ („Yosemite‟), 10.11 („El Capitan‟) arba 10.12 („Sierra‟) arba planšetėje „Apple iPad‟.
 
 Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite į programinės įrangos gamintojo svetainę. **Pastabos**
 
--   Fiksuoti vaizdus, kurie yra generuojami iš užduočių rašytuvą ir įtraukti juos į "Microsoft Word" dokumentus, turite turėti įdiegtą "Chrome" plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   Eigų rengyklėje pradėjo kaip "ClickOnce" taikomosios programos. Tik "Microsoft Edge" ir "Internet Explorer" (dėl Microsoft Windows palaikoma versija) parama "ClickOnce" taikomosios programos. Darbo eigos rengyklę "ClickOnce" taikomosios programos, reikia 64 bitų suderinamą operacinę sistemą.
--   Ataskaitų konstruktorius finansinėms ataskaitoms yra pradėjo kaip "ClickOnce" taikomosios programos. Tam reikia 64 bitų suderinamą operacinę sistemą. Jei naudojate "Chrome", turite įdiegti "ClickOnce" taikomosios išplėtimas norint atsisiųsti ataskaitą dizainerio klientas. Jei naudojate "Chrome" inkognito režimu, įsitikinkite, kad "ClickOnce" taikomosios pratęsimo taip pat yra įjungtas inkognito režimu.
+-   Norėdami užfiksuoti vaizdus, sugeneruotus užduočių įrašymo priemonėje ir įtraukti juos į „Microsoft Word“ dokumentus, turite turėti įdiegtą „Chrome“ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
+-   Finansinėms ataskaitoms skirtas ataskaitų konstruktorius paleidžiama kaip „ClickOnce“ taikomoji programa. Jam reikia 64 bitų suderinamos operacinės sistemos. Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų konstruktorių. Jei naudojate „Chrome“ inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti ir inkognito režimu.
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Palaikomos „Retail Cloud POS‟ žiniatinklio naršyklės
 
-Retail debesis POS Dynamics "365" operacijoms vykdyti bet kurioje iš šių interneto naršyklių, kurios vykdomos nurodytų operacinių sistemų:
+„Dynamics 365 for Operations‟ programai skirtas „Retail Cloud POS‟ gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
 
--   "Microsoft Edge" (paskutinis viešai prieinamos versija) "Windows 10"
+-   „Microsoft Edge‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟.
 -   „Internet Explorer 11‟ sistemose „Windows 10‟, „Windows 8.1‟ arba „Windows 7‟.
--   "Chrome" (paskutinis viešai prieinamos versija) Windows 10, Windows 8.1 arba Windows 7
+-   „Chrome‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟, „Windows 8.1“ arba „Windows 7“.
 
 ## <a name="network-requirements"></a>Tinklo reikalavimai
--   Dinamika 365 veiklai skirtas tinklus su latentinis mažiau nei 150 milisekundžių (ms). Tai yra gaištis iš naršyklės kliento Microsoft Azure duomenų centre, kuriame yra Dynamics 365 operacijoms. Mes rekomenduojame, kad jūs išbandyti tinklo latency ne <http://www.azurespeed.com>.
--   Reikalavimai pralaidumo Dynamics 365 operacijoms priklauso nuo jūsų scenarijų. Labiausiai būdingas scenarijus reikalauja pralaidumo daugiau kaip 50 kilobaitų per sekundę (KBps). Tačiau scenarijus, kurie turi aukštos naudingosios apkrovos reikalavimus, pvz., darbo vietos ar scenarijus, kurie apima platų pritaikymą, rekomenduojama daugiau duomenų srauto.
+-   „Dynamics 365 for Operations“ sukurta tinklams, kurių laukimo laikas mažesnis nei 150 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Operations“. Rekomenduojame tinklo laukimo laiką patikrinti <http://www.azurespeed.com>.
+-   Pralaidumo reikalavimai „Dynamics 365 for Operations“ priklauso nuo jūsų scenarijaus. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo. Tačiau tiems scenarijams, kurių mokamosios krovos reikalavimai aukšti, pvz., darbo sritims arba scenarijams, kurie apima nemažai tinkinimo, rekomenduojamas didesnis pralaidumas.
 
-Apskritai, Dynamics 365 operacijoms yra optimizuota internete. Pirmyn ir atgal iš naršyklės kliento Azure duomenų centre yra labai maža, ir visa apkrova yra suspaustas. **Perspėjimas:** negalima apskaičiuoti pralaidumo reikalavimus kliento vietoje, vartotojų skaičius padauginus minimalų pralaidumo reikalavimus. Lygiagrečiojo naudojimo konkrečioje vietoje yra labai sunku apskaičiuoti. Klientams, kurie yra susirūpinę dėl pralaidumo reikalavimus, Dynamics 365 preview versijos naudoti operacijoms.
+Apskritai, „Dynamics 365 for Operations“ yra optimizuota internetui. Kreipimosi ciklų iš naršyklės kliento į „Azure“ duomenų centrą skaičius yra labai mažas, o visa mokamoji krova yra suglaudinta. **Įspėjimas:** neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu labai sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, naudokite „Dynamics 365 for Operations“ peržiūros versiją.
 
-## <a name="net-framework-requirements"></a>.NET framework reikalavimus
-Dinamika 365 operacijoms reikalingas .NET Framework versija 4.6.2 visus spustelėkite-vieną kartą programų, pavyzdžiui, dokumento Kelvados agentas. Diegimo nurodymus, ieškokite [įdiegus .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+## <a name="net-framework-requirements"></a>„.NET Framework“ reikalavimai
+„Dynamics 365 for Operations“ reikia „.NET Framework“ 4.6.2 versijos visoms vieno paspaudimo taikomosioms programoms, pvz., dokumento maršruto planavimo agentui. Diegimo instrukcijų žr. [„.NET Framework“ diegimas](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
-## <a name="supported-microsoft-office-applications"></a>Palaikomos Microsoft Office programas
--   Paleisti Microsoft Excel ir Word priedai, turite turėti Microsoft Office 2016 skirta "Windows" arba "Mac" įdiegta. Daugiau informacijos apie versijos reikalavimus, [trikčių šalinimas Office integracijos](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   Norėdami peržiūrėti dokumentus, kuriuos generuoja eksportuoti į "Excel" arba eksportuoti į Word funkcijos, turite turėti Microsoft Office 2007 arba naujesnė jos versija.
+## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
+-   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
-## <a name="retail-modern-pos-requirements"></a>Mažmeninės prekybos šiuolaikinės EKA reikalavimus
+## <a name="retail-modern-pos-requirements"></a>„Retail Modern POS“ reikalavimai
 ### <a name="supported-operating-systems"></a>Palaikomos operacinės sistemos
 
--   Mažmeninės prekybos šiuolaikinės EKA yra 32 bitų programa, bet ji veiks x86 ir x64 architektūra.
--   Mažmeninės prekybos šiuolaikinės EKA palaiko tik "Windows 10 Pro, Enterprise ir įmonės ilgas terminas aptarnavimo filialas (LTSB) leidimai.
+-   „Retail Modern POS“ yra 32 bitų taikomoji programa, bet ji vykdoma ir x86, ir x64 architektūrose.
+-   „Retail Modern POS“ palaikoma tik „Windows 10 Pro“, „Enterprise“ ir „Enterprise Long Term Servicing Branch“ (LTSB) leidimai.
 
 ### <a name="minimum-system-requirements"></a>Minimalūs sistemos reikalavimai
 
--   Minimali palaikoma rezoliucija yra 1280 × 1024 raiška.
--   Kompiuteryje, kuriame veikia modernus Retail POS turi atitikti šiuos reikalavimus:
-    -   Jis turi bent dviejų branduolių procesorius, kuris veikia ne mažiau kaip 2 gigahercų (GHz).
-    -   Ji turi būti, bent jau 3 gigabaitų (GB) RAM.
-    -   Ji turi turėti prieigą prie interneto.
+-   Mažiausia palaikoma skiriamoji geba yra 1280 × 1024.
+-   Kompiuteris, kuriame vykdoma „Retail Modern POS“, turi atitikti šiuos reikalavimus:
+    -   Jame turi būti mažiausiai dviejų branduolių procesorius, veikiantis ne mažiau kaip 2 gigahercų (GHz) dažniu.
+    -   Turi turėti mažiausiai 3 gigabaitų (GB) RAM.
+    -   Būtina interneto prieiga.
 
-## <a name="retail-hardware-station-requirements"></a>Mažmeninė stotis reikalavimai aparatūrai
+## <a name="retail-hardware-station-requirements"></a>„Retail“ aparatūros stoties reikalavimai
 ### <a name="supported-operating-systems"></a>Palaikomos operacinės sistemos
 
--   Aparatūros Postal yra 32 bitų programa, bet ji veiks x86 ir x64 architektūra.
--   Postal aparatūra palaiko šias operacines sistemas:
-    -   Windows 7 Professional, Enterprise ir Ultimate leidimus **Pastaba:** Windows 7 palaiko tik tuomet Internet Explorer 11 yra rankiniu būdu įdiegtas sistemoje.
-    -   Windows 8.1 naujinimas 1 Professional, Enterprise ir Embedded leidimuose
-    -   Windows 10 Pro, Enterprise ir Enterprise LTSB leidimai
+-   „Retail“ aparatūros stotis yra 32 bitų taikomoji programa, bet ji vykdoma ir x86, ir x64 architektūrose.
+-   „Retail“ aparatūros stotį palaiko šios operacinės sistemos:
+    -   „Windows 7 Professional“, „Enterprise“ ir „Ultimate“ leidimai **Pastaba:** „Windows 7“ palaikoma tik jei „Internet Explorer 11“ sistemoje įdiegta rankiniu būdu.
+    -   „Windows 8.1“ 1 naujinimas „Professional“, „Enterprise“ ir įdėtieji leidimai
+    -   „Windows 10 Pro“, „Enterprise“ ir „Enterprise LTSB“ leidimai
 
 ### <a name="minimum-system-requirements"></a>Minimalūs sistemos reikalavimai
 
-Kompiuteris turi atitikti visos sistemos reikalavimai diegti ir naudoti šių elementų:
+Kompiuteris turi atitikti visus sistemos reikalavimus, norint įdiegti ir naudoti šiuos elementus:
 
 -   Interneto informacijos tarnybos (IIS)
--   Trečiųjų šalių aparatūrą
+-   trečiųjų šalių aparatūrą;
 
-## <a name="retail-store-scale-unit-requirements"></a>Mažmeninės prekybos parduotuvės skalės vieneto reikalavimus
-### <a name="supported-operating-systems"></a>Palaikomos operacinės sistemos
+## <a name="retail-store-scale-unit-requirements"></a>„Retail Store Scale Unit“ reikalavimus;
+### <a name="supported-operating-systems"></a>palaikomas operacines sistemas.
 
--   Mažmeninės prekybos parduotuvėje skalės vieneto yra 32 bitų programa, bet ji veiks x86 ir x64 architektūra.
--   Mažmeninės prekybos parduotuvėje skalės vieneto palaiko šias operacines sistemas:
-    -   Windows 7 Professional, Enterprise ir Ultimate leidimus
-    -   Windows 8.1 naujinimas 1 Professional, Enterprise ir Embedded leidimuose
-    -   Windows 10 Pro, Enterprise ir Enterprise LTSB leidimai
+-   „Retail Store Scale Unit“ yra 32 bitų taikomoji programa, bet vykdoma ir x86, ir x64 architektūrose.
+-   „Retail Store Scale Unit“ palaikoma šiose operacinėse sistemose:
+    -   „Windows 7 Professional“, „Enterprise“ ir „Ultimate“ leidimuose
+    -   „Windows 8.1“ 1 naujinimas „Professional“, „Enterprise“ ir įdėtieji leidimai
+    -   „Windows 10 Pro“, „Enterprise“ ir „Enterprise LTSB“ leidimai
 
 ### <a name="minimum-system-requirements"></a>Minimalūs sistemos reikalavimai
 
 -   4 GB RAM
--   1.6 GHz didžiausios procesoriaus greičio branduolio (dviejų branduolių yra minimali).
--   Ne mažiau kaip 10 GB laisvos vietos (kanalo duomenų bazės gali pareikalauti daug vietos.)
+-   1,6 GHz didžiausia CPU sparta branduolyje (Mažiausiai dviejų branduolių.)
+-   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
 
 ### <a name="recommended-system-requirements"></a>Rekomenduojami sistemos reikalavimai
 
 -   6 GB RAM
--   2.4 GHz i7 (arba jo atitikmuo) piko CPU greitis už pagrindinių (keturių šerdžių rekomenduojama).
--   Ne mažiau kaip 10 GB laisvos vietos (kanalo duomenų bazės gali pareikalauti daug vietos.)
+-   2,4 GHz i7 (arba atitikmuo) didžiausia CPU sparta branduolyje (Rekomenduojama keturių branduolių.)
+-   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
 
-## <a name="requirements-for-development-on-local-vms"></a>Reikalavimai plėtrai dėl vietinių LSS
-Informacijos apie vystymosi reikalavimus vietinės virtualiosios mašinos (VM), [v. veikia vietiniame](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+## <a name="requirements-for-development-on-local-vms"></a>Reikalavimai norint kurti vietiniuose virtualiuosiuose įrenginiuose
+Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Gauti vertinimo kopija Dynamics 365 operacijoms](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Gaukite „Dynamics 365 for Operations“ įvertinimo kopiją](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

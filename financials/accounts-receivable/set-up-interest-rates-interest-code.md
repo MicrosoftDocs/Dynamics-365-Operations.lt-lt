@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Palūkanų tarifų nustatymas palūkanų kodui
 
+[!include[banner](../includes/banner.md)]
+
+
 Delspinigių koduose yra parametrų, kurie nustato, kokie delspinigiai taikomi laiku neapmokėtoms sąskaitoms ir kaip jie apskaičiuojami.
 
 Galite nustatyti vieną delspinigių kodą ir jį taikyti keliems klientų registravimo šablonams, atsiskaitymo kodams arba konkrečioms SF eilutėms. Pakeitus delspinigių kodo informaciją, visos kodą naudojančios funkcijos automatiškai pritaikys pakeitimus atliekant naujas operacijas. Galite nustatyti dviejų rūšių delspinigių kodo tarifus:
@@ -44,17 +47,17 @@ Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą procentą.
 
 -   Delspinigių suma taikoma visoms valiutoms.
 -   Galima įvesti pasirinktinius delspinigių sumos limitus.
--   **Procentas** pažymėtas ** **, kad **apskaičiuoti palūkanas pagal** lauko į **nustatyti palūkanų kodus** puslapis.
+-   Puslapio **Nustatyti palūkanų kodus** lauke **Skaičiuoti palūkanas** pagal** **pasirenkamą **Procentą**.
 
-Pvz., Norėdami nustatyti palūkanų kodą, kuris vertina 5 procentų palūkanų per du mėnesius, kad sąskaitos faktūros mokėjimo viršijančią bendrąją operacijos terminas, tai įveskite 2, **apskaičiuoti palūkanas kas** lauko ir pažymėti **mėnesį**.
+Pvz., norėdami nustatyti palūkanų kodą, kuris apskaičiuoja 5 proc. palūkanas už kiekvienus du mėnesius, kiek vėluojama apmokėti sąskaitą faktūrą, lauke **Skaičiuoti palūkanas kas** turėtumėte įvesti 2 ir pasirinkti **Mėn.**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Delspinigių tarifai pagal sumas
 Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą sumą pagal valiutą.
 -   Delspinigių kode nurodoma kiekvienos valiutos delspinigių suma.
 -   Galima įvesti pasirinktinius delspinigių sumos limitus.
--   ** Suma ** pasirenkamas pagal **apskaičiuoti palūkanas pagal** lauko į **nustatyti palūkanų kodus** puslapis.
+-   Puslapio **Nustatyti palūkanų kodus** lauke **Skaičiuoti palūkanas pagal** pasirenkamą **Sumą**.
 
-Pvz., Norėdami nustatyti palūkanų kodą, kuris vertina palūkanos 25.00 kas 20 dienų, kad sąskaitos faktūros mokėjimo viršijančią bendrąją operacijos terminas, turėtumėte įvesti 20 su **apskaičiuoti palūkanas kas** lauko ir pažymėti **diena**.
+Pvz., norėdami nustatyti palūkanų kodą, kuris apskaičiuoja 25,00 dydžio palūkanas už kiekvienas 20 dienų, kiek vėluojama apmokėti sąskaitą faktūrą, lauke **Skaičiuoti palūkanas kas** turėtumėte įvesti 20 ir pasirinkti **Dien.**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Delspinigių tarifai pagal diapazonus
 Galite nustatyti delspinigių tarifus, kurie skiriasi atsižvelgiant į pradelstą sumą, pradelstų dienų skaičių arba mėnesių skaičių.
@@ -73,7 +76,7 @@ Nustatykite delspinigių kodą, kuris paskaičiuoja delspinigius vieną kartą k
 
 Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 
-| **From value** | **Interest value** |
+| **Vertė Nuo** | **Palūkanų vertė** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Nustatykite delspinigių kodą, kuris paskaičiuoja delspinigius vieną kartą k
 
 Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 
-| **From value** | **Interest value** |
+| **Vertė Nuo** | **Palūkanų vertė** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | 15                 |
@@ -109,13 +112,13 @@ Nustatykite delspinigių kodą, kuris paskaičiuoja delspinigius vieną kartą k
 | **Lauko pavadinimas**                  | **Lauko vertė** |
 |---------------------------------|-----------------|
 | **Palūkanų kodas**               | 1M%ByMth        |
-| **Apskaičiuoti palūkanas kas**    | 1/mėn.         |
+| **Apskaičiuoti palūkanas kas**    | 1 / Mėn.         |
 | **Palūkanos pagal diapazoną**           | Mėnesiai          |
 | **Skaičiuoti palūkanas pagal** | Procentai      |
 
 Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 
-| **From value** | **Interest value** |
+| **Vertė Nuo** | **Palūkanų vertė** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 Delspinigių kodai turi galiojimo datą. Jei norite modifikuoti delspinigių tarifą, galite sukurti **naują versiją**, kuri galiotų nuo būsimos datos.
 
 Norėdami peržiūrėti skirtingas versijas, galite naudoti meniu pasirinktį **Taikymo pradžios data** ir pasirinkti galutinę datą. Taip pat galite pasirinkti **Rodyti visus įrašus**, kad puslapyje matytumėte visus delspinigių kodus.
+
+
 
 

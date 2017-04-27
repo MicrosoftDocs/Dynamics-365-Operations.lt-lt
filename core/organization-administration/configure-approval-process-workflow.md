@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti darbo eigos patvirtinimo procesas"
+title: "Darbo eigos patvirtinimo proceso konfigūravimas"
 description: "Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Konfigūruoti darbo eigos patvirtinimo procesas
+# <a name="configure-an-approval-process-in-a-workflow"></a>Darbo eigos patvirtinimo proceso konfigūravimas
 
 Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 
-Konfigūruoti patvirtinimo procesas, darbo eigos redaktorius, dešiniuoju pelės mygtuku spustelėkite elemento patvirtinimo, ir tada spustelėkite **ypatybės** atidaryti, **apgyvendinimo įstaigos** forma.
+Norėdami darbo eigos rengyklėje konfigūruoti patvirtinimo procesą, dešiniuoju pelės mygtuku spustelėkite patvirtinimo elementą ir tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
 Patvirtinimo proceso pavadinimas
 -------------------------
 
@@ -40,14 +40,14 @@ Atlikite šiuos veiksmus, jei norite įvesti patvirtinimo proceso pavadinimą.
 Galite konfigūruoti sistemą, kad ji galėtų automatiškai vykdyti tam tikras sąlygas atitinkantį dokumentą. Pvz., sistema gali patvirtinti išlaidų ataskaitas, kurių bendrosios sumos yra mažesnės nei 100 USD. Atlikite šiuos veiksmus, norėdami nurodyti, kada sistema turi atlikti veiksmą su dokumentu.
 1.  Kairiojoje srityje spustelėkite **Automatiniai veiksmai**.
 2.  Pažymėkite žymės langelį **Įjungti automatinius veiksmus**.
-3.  Click **Add condition**.
+3.  Spustelėkite **Įtraukti sąlygą**.
 4.  Įveskite sąlygą
 5.  Jei reikia, įveskite papildomas sąlygas.
 6.  Norėdami patikrinti, kad sąlygos, kurias įvedėte yra sukonfigūruotos teisingai, atlikite tolesnius veiksmus.
     1.  Spustelėkite **Tikrinti**, norėdami atidaryti formą **Tikrinti darbo eigos sąlygą**.
     2.  Formos srityje **Tikrinti sąlygą** pasirinkite įrašą.
     3.  Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą.
-    4.  Spustelėkite **gerai** ar **atšaukti** grįžti į į **ypatybės** forma.
+    4.  Spustelėkite **Gerai** arba **Atšaukti**, norėdami vėl atidaryti formą **Ypatybės**.
 
 7.  Sąraše **Automatinio užbaigimo veiksmas** pasirinkite veiksmą, kurį su dokumentu turi atlikti sistema.
 
@@ -55,11 +55,11 @@ Galite konfigūruoti sistemą, kad ji galėtų automatiškai vykdyti tam tikras 
 Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas, perduotas ar perskirtas arba kai reikalaujama keitimo. Norėdami nustatyti, kada ir kam turėtų būti siunčiami pranešimai, atlikite nurodytus veiksmus.
 1.  Kairiojoje srityje spustelėkite **Pranešimai**.
 2.  Pažymėkite žymės langelį, esantį šalia įvykių, kuriems įvykus norite siųsti pranešimus.
-    -   **Atstovo** -kai dokumentas buvo priskirta kitam vartotojui suteikti patvirtinimą.
-    -   **Peraugti** -kai priskirtasis vartotojas nepriima dokumentą į paskirtą laiką.
-    -   **Patvirtinti** – patvirtinus dokumentą.
-    -   **Atmesti** -kai dokumentą buvo atmestas.
-    -   **Prašyti pakeisti** -priskirtam vartotojui paprašius pakeisti dokumentą, kuris buvo pateiktas.
+    -   **Perduoti** – kai dokumentas priskiriamas tvirtinti kitam vartotojui.
+    -   **Perskirti** – kai priskirtas vartotojas per paskirtą laiką neatliko jokių veiksmų su dokumentu.
+    -   **Patvirtinti** – kai dokumentas buvo patvirtintas.
+    -   **Atmesti** – kai dokumentas buvo atmestas.
+    -   **Reikalauti keitimo** – kai priskirtas vartotojas reikalauja keisti pateiktą dokumentą.
 
 3.  Pasirinkite įvykio, kurį pasirinkote 2 veiksme, eilutę.
 4.  Spustelėkite skirtuką **Pranešimo tekstas**.
@@ -70,8 +70,8 @@ Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas,
     3.  Rodomame sąraše pasirinkite vietos rezervavimo ženklus, kuriuos norite įterpti.
     4.  Spustelėkite **Įterpti**.
 
-7.  Norėdami pridėti vertimai pranešimo, spustelėkite **vertimų**. Rodomoje formoje atlikite šiuos veiksmus.
-    1.  Click **Add**.
+7.  Norėdami įtraukti pranešimų vertimų, spustelėkite **Vertimai**. Rodomoje formoje atlikite šiuos veiksmus.
+    1.  Spustelėkite **Įtraukti**.
     2.  Rodomame sąraše pasirinkite kalbą, kuria įvedate tekstą.
     3.  Teksto lauke **Išverstas tekstas** įveskite tekstą.
     4.  Norėdami personalizuoti tekstą, įterpkite vietos rezervavimo ženklų.
@@ -112,11 +112,11 @@ Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas,
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Specifinių Microsoft Dynamics 365 operacijas vartotojams</td>
+    <td><strong>Vartotojas</strong></td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Į <strong>prieinama vartotojams</strong>: sąrašą įeina visos Microsoft Dynamics 365 operacijas vartotojams. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Microsoft Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -150,10 +150,10 @@ Jei patvirtinimo procesas turi būti baigtas per tam tikrą laiką, atlikite ši
 ## <a name="specify-which-actions-are-available-to-the-user"></a>Nurodymas, kuriuos veiksmus vartotojas gali atlikti
 Vartotojas turi vykdyti dokumentą, kai dokumentas yra priskirtas vartotojui patvirtinti. Atlikite šiuos veiksmus, norėdami nurodyti, kuriuos veiksmus vartotojas gali atlikti su pateiktu dokumentu.
 1.  Kairiojoje srityje spustelėkite **Išplėstiniai parametrai**.
-2.  Pasirinkite į **tvirtinti** žymės langelį, jei vartotojas gali patvirtinti dokumento.
-3.  Pasirinkite į **atmesti** žymės langelis vartotojas gali atmesti dokumentą.
-4.  Pasirinkite į **prašymą pakeisti** žymės langelis vartotojas gali reikalauti keisti dokumentą.
-5.  Pasirinkite į **atstovas** žymės langelį, jei vartotojas dokumentą galite priskirti kitam vartotojui suteikti patvirtinimą.
+2.  Jei norite, kad vartotojas galėtų tvirtinti dokumentą, pažymėkite žymės langelį **Patvirtinti**.
+3.  Jei norite, kad vartotojas galėtų atmesti dokumentą, pažymėkite žymės langelį **Atmesti**.
+4.  Jei norite, kad vartotojai galėtų reikalauti dokumento keitimų, pažymėkite žymės langelį **Reikalauti keitimo**.
+5.  Jei norite, kad vartotojas galėtų perduoti dokumentą kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 
 **Pastaba**: žymės langelio**Įjungti veiksmus iš darbų sąrašo įmonės portale** naudoti nebegalima.
 

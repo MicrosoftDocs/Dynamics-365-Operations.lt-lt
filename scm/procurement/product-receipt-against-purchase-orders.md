@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Produkto gavimas pagal pirkimo užsakymą
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma įvairios produktų registravimo kaip baigtų produktų parinktys.
 
 Produkto gavimas yra procesas, kurio metu užregistruojama, kurie užsakyti produktai buvo gauti, kad būtų galima apdoroti pirkimo užsakymo (PU) eilutes ir išrašyti SF. Kai kuriais atvejais vykdoma išankstinė produktų registracija, tais atvejais, kai papildoma iš tiekėjo gauta informacija užregistruojama prieš produktų gavimą. Kai produktai pristatomi, jie pirmiausia pažymimi kaip **Užregistruoti**. Tada gali būti vykdomi papildomi produktų apdorojimo procesai, pavyzdžiui, kokybės valdymas, kol galiausiai jie pažymimi kaip **Gauti**.
@@ -52,19 +55,21 @@ Galite pasirinkti kelis užsakymus ir kartu apdoroti visų užsakymų gavimą. �
 
 PU galima kurti iš pardavimo užsakymo, kuriame pažymėta parinktis **Tiesioginis pristatymas**. Naudojant tiesioginį pristatymą, produktai niekada nepristatomi į jūsų sandėlį, bet yra tiesiogiai siunčiami iš tiekėjo klientui. Tokiu atveju gavimas paprastai užregistruojamas tiesiai PU. Gavimą galima atlikti automatiškai, pvz., naudojant elektroninių duomenų apsikeitimo (EDI) integraciją su tiekėju. Jei PU yra vidinės įmonės PU, „Microsoft Dynamics 365 for Operations“ siuntimo metu automatizuoja vidinės įmonės pardavimo užsakymo gavimą. Naudojant tiesioginį pristatymą, produktai vis tiek apskaitomi kaip atsargos, nors jie fiziškai nėra pristatomi į sandėlį. Todėl, kai PU užregistruojamas produkto gavimas, pardavimo užsakymas yra automatiškai atnaujinamas pridedant važtaraštį, kad bendras atsargų pokytis būtų 0 (nulis). Naudojant tiesioginį pristatymą, išankstinė registracija nereikalinga. Jei naudojate sandėlius, kuriuose galima naudoti sandėlio valdymo funkciją, numerio lentelės registravimo reikalavimą galite apeiti nurodydami virtualų sandėlį. Šis sandėlis nurodomas produkto lauke **Tiesioginio pristatymo sandėlis**. 
 
-Po to, kai važtaraštis buvo apdorotas PO, PO būsena bus nustatyta kaip **priimti** rodo, kad sąskaitą faktūrą gali būti tvarkomi užsakymo. Galite peržiūrėti informaciją apie jau gautus produktus puslapyje **Produktų gavimo žurnalai**.  
+PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nurodyti, kad galima apdoroti užsakymo SF. Galite peržiūrėti informaciją apie jau gautus produktus puslapyje **Produktų gavimo žurnalai**.  
 
 Šį puslapį galite daryti iš puslapio **Pirkimo užsakymas** veiksmų grupės **Gavimas**. Žurnalų informacija apima informaciją apie kiekius, datas ir dimensijas.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pirkimo užsakymo apžvalga](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkimo užsakymo kūrimas](purchase-order-creation.md)
 
 [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
 
 [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

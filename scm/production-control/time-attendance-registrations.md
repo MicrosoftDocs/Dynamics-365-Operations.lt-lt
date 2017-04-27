@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Laiko ir buvimo darbe registracija
 
+[!include[banner](../includes/banner.md)]
+
+
 Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šiame straipsnyje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą. 
 
 <a name="registrations"></a>Registracijos
@@ -62,7 +65,7 @@ Atlikus sąranką darbuotojai gali įvesti skirtingų tipų registracijas.
 -   Netiesioginės veiklos, t. y. negamybinės veiklos, kurias darbuotojas gali vykdyti darbo dienos metu. Šių veiklų pavyzdžiai apima susitikimus arba savo darbo srities valymą.
 -   Viršvalandžiai, kurie gali būti registruojami kaip viršvalandžiai, nukrypimo laikas arba viršvalandžiai.
 
-## <a name="adding-clockout-registrations"></a>Pridedant clockout registracija
+## <a name="adding-clockout-registrations"></a>Išėjimo iš darbo registracijos įtraukimas
 Jei darbo dienos pabaigoje darbuotojas pamiršta užregistruoti išėjimą iš darbo, trūkstamą registraciją galima įtraukti paleidžiant paketinę užduotį. Sistema palygins atėjimo į darbą ir išėjimo iš darbo laikus pagal susietą darbuotojo šabloną ir automatiškai įterps trūkstamą išėjimo iš darbo registraciją, kad ji atitiktų šablono pabaigos laiką. Atėjimo į darbą ir išėjimo iš darbo registracijos yra labai svarbios toliau skaičiuojant ir tvirtinant laiko registracijas prieš juos perkeliant į algalapį.
 
 ## <a name="calculating-registrations"></a>Registracijų skaičiavimas
@@ -113,6 +116,8 @@ Darbuotojams, kurių atliekamų užduočių greitas grįžtamasis ryšys nėra b
 -   Laiko suvartojimas
 -   Projekto mokesčiai
 -   Projekto prekės
+
+
 
 
 

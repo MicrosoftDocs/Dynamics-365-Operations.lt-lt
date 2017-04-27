@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Sandėlio darbo strategijos
 
+[!include[banner](../includes/banner.md)]
+
+
 „Microsoft Dynamics AX 7.0.1“ (2016 m. gegužės mėn. naujinimas) pateikiama nauja sandėlio darbo strategija. Ši darbo strategija nustato, ar kuriamas gamybos sandėlio procesų sandėlio darbas.
 
-Ši darbo strategija nustato, ar kuriamas gamybos sandėlio procesų sandėlio darbas. Galite nustatyti darbo strategiją naudodami **darbo užsakymų tipų**, **atsargų vietos** ir **produkto** derinį. Pvz., produkto L0101 yra apskaitomos kaip baigtas išėjimo vieta 001. Gataviems gerą suvartojama vėliau kitoje gamybos užsakymo išėjimo vietoje 001. Tokiu atveju galite nustatyti darbo politikos jei nenorite, kad darbą užbaigtų prekių padėjimą kuriama pranešdami apie produkto L0101 kaip baigtas išėjimo vieta 001. Darbo strategija yra atskiras objektas, kurį galima apibrėžti naudojant tolesnę informaciją.
+Ši darbo strategija nustato, ar kuriamas gamybos sandėlio procesų sandėlio darbas. Galite nustatyti darbo strategiją naudodami **darbo užsakymų tipų**, **atsargų vietos** ir **produkto** derinį. Pavyzdžiui, produktas L0101 paskelbtas pagamintu išeigos vietoje 001. Vėliau pagaminta prekė panaudojama vykdant kitą gamybos užsakymą išeigos vietoje 001. Šiuo atveju galite nustatyti darbo strategiją, kurią taikant bei produktą L0101 paskelbus pagamintu išeigos vietoje 001 nebus sukuriamas pagamintų prekių sandėliavimo darbas. Darbo strategija yra atskiras objektas, kurį galima apibrėžti naudojant tolesnę informaciją.
 
 -   **Darbo strategijos pavadinimas **(unikalus darbo strategijos identifikatorius)
 -   **Darbo užsakymų tipai **ir** Darbo kūrimo metodas**
@@ -55,7 +58,7 @@ Galite pasirinkti produktą, kuriam darbo strategija taikoma. Darbo strategiją 
 ## <a name="example"></a>Pavyzdys
 Šiame pavyzdyje nurodyti du gamybos užsakymai, PRD-001 ir PRD-00*2*. Gamybos užsakymui PRD-001 priskirta operacija, pavadinimu **Surinkimas**, kurioje produktas SC1 yra paskelbiamas baigtu vietoje O1. Gamybos užsakymui PRD-002 priskirta operacija, pavadinimu **Dažymas**, ir ją vykdant naudojamas produktas SC1 iš vietos O1. Gamybos užsakymas PRD-002 taip pat naudoja žaliavas RM1 iš vietos O1. RM1 saugomos sandėlio vietoje BULK-001 ir bus paimtos bei perkeltos į vietą O1, naudojant žaliavų paėmimo sandėlio darbą. Paėmimo darbas yra generuojamas, kai bus paleidžiama gamyba PRD-002. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Sandėlio darbo strategijos](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Kai šiuo atveju planuojate konfigūruoti sandėlio darbo strategiją, turėtumėte atsižvelgti į tolesnę informaciją.
 
@@ -66,12 +69,12 @@ Kai šiuo atveju planuojate konfigūruoti sandėlio darbo strategiją, turėtum�
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Nr užslėpti 01'                    |-Gataviems gerą užslėpti<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**Darbo strategijos pavadinimas**<br>                 |**Darbo užsakymo tipai**<br>                               |
+| Sandėliavimo darbo nėra 01     `                    |– Pagamintų prekių sandėliavimas<br>                           |
+|                                         |**Vietos**<br>                                      |
+|                                         |– O1   |                                               |
+|                                         |**Produktai** <br>                                      |
+|                                         |– SC1                                                  |
 
 Tolesnėse procedūrose pateikiamos nuoseklios instrukcijos apie tai, kaip nustatyti šio scenarijaus sandėlio darbo strategijos. Taip pat aprašytas sąrankos pavyzdinis, kuriuo parodoma, kaip gamybos užsakymą skelbti baigtus vietoje, kuri nėra kontroliuojama pagal numerio lentelę.
 
@@ -244,5 +247,7 @@ VEIKSMAI (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

@@ -59,5 +59,5 @@ Kuriant saitus registravimo aprašuose taikomi šie apribojimai:
 -   Galite priskirti registravimo aprašą bet kokiam operacijos tipui, bet operacijos tipas turi būti tame pačiame modulyje kaip ir registravimo aprašas. Naudokite puslapį **Operacijų registravimo aprašai** norėdami pamatyti, kuriame modulyje yra operacijos tipas.
 
 
-Daugiau informacijos rasite [registravimo sąvokų pavyzdžiai](/general-ledger/example-posting-definitions.md). 
+Daugiau informacijos ieškokite [Registravimo aprašų pavyzdžiai](/general-ledger/example-posting-definitions.md). 
 

@@ -1,6 +1,6 @@
 ---
-title: "Atsargų žurnalo ataskaitas"
-description: "Naudodami konfigūruojama inventoriaus ataskaitos pagrindu elektroninės turite nustatyti ryšius tarp atskirą ataskaitą ir žurnalo tipą."
+title: "Atsargų žurnalo ataskaitos"
+description: "Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitas
+# <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 
-Naudodami konfigūruojama inventoriaus ataskaitos pagrindu elektroninės turite nustatyti ryšius tarp atskirą ataskaitą ir žurnalo tipą.
+[!include[banner](../includes/banner.md)]
 
-Įsteigti atskirą ataskaitą ir žurnalo tipą, santykiai su į **atsargų žurnalų pavadinimai** puslapis (**atsargų valdymo**&gt;**sąrankos**&gt;**žurnalų pavadinimai**&gt;**atsargos**), įveskite ataskaitos pavadinimą. **Pastaba:** nustatyti palaikomų konfigūracijų, Atsisiųskite reikiamą elektroninių ataskaitų konfigūracijos. Daugiau informacijos rasite [Parsisiųsti elektroninę ataskaitų konfigūracijos iš gyvavimo ciklo paslaugų](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Ataskaitų su palaikomos konfigūracijos Europos pavyzdžių yra išvardyti toliau pateiktoje lentelėje.
+
+Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
+
+Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
-| **Country**        | **Ataskaitos Aprašymas**              | **Journal type** | **Formato žemėlapių pavadinimas**                 |
-| Lietuva, Vengrija | Inventoriaus ataskaitoje          | Inventorizacija         | Inventorizacijos aprašas (HU, LT)            |
+| **Šalis**        | **Ataskaitos aprašymas**              | **Žurnalo tipas** | **Formato susiejimo pavadinimas**                 |
+| Lietuva, Vengrija | Atsargų išrašo ataskaita          | Inventorizacija         | Atsargų išrašas (HU, LT)            |
 | Latvija, Lenkija     | Atsargų perklasifikavimo dokumentas | Perkėlimas         | InventoryReclassificationDocument\_PLLV |
 | Estija            | Atsargų perklasifikavimo dokumentas | Perkėlimas         | InventoryReclassificationDocument\_EE   |
-| Lenkija             | Vidaus PW/RW                      | Judėjimas         | InventJournalLinesDocPL                 |
-| Latvija             |  Atsargų perkėlimo dokumentas         | Judėjimas         | Judėjimo\_LV                            |
-| Latvija             | Atsargų nurašymo dokumente       | Koregavimas       | InventJournalLines\_LV                  |
+| Lenkija             | Vidinis VG / VI                      | Judėjimas         | InventJournalLinesDocPL                 |
+| Latvija             |  Atsargų perkėlimo dokumentas         | Judėjimas         | Movement\_LV                            |
+| Latvija             | Atsargų nurašymo dokumentas       | Koregavimas       | InventJournalLines\_LV                  |
 | Latvija             | Perkėlimo pristatymo pastaba              | Perkėlimas         | InternalTransferDeliveryNote\_LV        |
-| Latvija             | Inventorizacijos dokumentų ataskaita            | Inventorizacija         | CountedDocument\_LV                     |
-| Latvija             | Skaičiuojant sąrašo ataskaitą                | Inventorizacija         | Skaičiavimo sąrašas                           |
+| Latvija             | Skaičiavimo dokumento ataskaita            | Inventorizacija         | CountedDocument\_LV                     |
+| Latvija             | Skaičiavimo sąrašo ataskaita                | Inventorizacija         | Skaičiavimo sąrašas                           |
+
+
 
 
 

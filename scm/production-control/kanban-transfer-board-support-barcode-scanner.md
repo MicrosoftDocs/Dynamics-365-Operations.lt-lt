@@ -1,5 +1,5 @@
 ---
-title: "Kanban perkėlimo lenta palaikymo brūkšninių kodų skaitytuvai"
+title: "„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas"
 description: "„Kanban‟ perkėlimo srityje palaikoma įvestis iš valdiklių brūkšninių kodų skaitytuvo – „kanban‟ užduotį galima Pasirinkti, Pradėti, Baigti ir Ištuštinti."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanban perkėlimo lenta palaikymo brūkšninių kodų skaitytuvai
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas
+
+[!include[banner](../includes/banner.md)]
+
 
 „Kanban‟ perkėlimo srityje palaikoma įvestis iš valdiklių brūkšninių kodų skaitytuvo – „kanban‟ užduotį galima Pasirinkti, Pradėti, Baigti ir Ištuštinti.
 
@@ -46,13 +49,13 @@ ms.lasthandoff: 03/31/2017
 <a name="registration-mode-select"></a>Registravimo režimas Pasirinkti
 ------------------------
 
-Naudojant brūkšninių kodų skaitytuvas pasirinkite užduotį, kanban valdybos pakeitimus rodymo režimą. Šiuo režimu, taikomos šios sąlygos:
+Kai naudojate brūkšninių kodų skaitytuvą, kad pasirinktumėte užduotį, pasikeičia „kanban“ srities rodymo režimas. Dirbant šiuo režimu taikomos toliau nurodytos sąlygos.
 
 -   Rodomos tik nuskaitytos „kanban“ užduotys.
 -   Pasirinktos užduoties informacija rodoma „FastTab“ skirtuke **Išsami informacija**.
 -   „FastTab“ skirtuke **Pranešimai** rodomi tik pasirinktos užduoties pranešimai.
 -   Galite keisti užduoties būseną naudodami funkcijas, esančias dalyje Veiksmų sritis. „Kanban“ perkėlimo sritis tuo metu toliau rodo tik vieną užduotį.
--   Jūs galite atnaujinti informacija sąraše darbo vietų rankiniu būdu spustelėdami **atnaujinti** (Shift + F5) Naujintiveiksmų srityje. Atnaujinus informaciją vėl rodomi visi užduoties filtro rezultatai.
+-   Galite patys atnaujinti užduočių sąrašo informaciją dalyje Veiksmų sritis spustelėdami **Atnaujinti** („Shift“ + F5). Atnaujinus informaciją vėl rodomi visi užduoties filtro rezultatai.
 
 ## <a name="job-status-and-possible-actions"></a>Užduoties būsena ir galimi veiksmai
 Pasirinktos užduoties būsena ir bet kurios iškviestos įvykio užduoties „kanban“ būsena nurodo, ar galima vykdyti užduotį toliau. Toliau pateiktoje lentelėje rodoma informacija apie šias būsenas ir užduotis:
@@ -185,6 +188,8 @@ Pasirinktos užduoties būsena ir bet kurios iškviestos įvykio užduoties „k
 </tr>
 </tbody>
 </table>
+
+
 
 
 

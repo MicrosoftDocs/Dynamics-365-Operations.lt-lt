@@ -1,6 +1,6 @@
 ---
-title: PVM ataskaitos duomenys Lietuvai
-description: "Šioje temoje aiškinama, kaip nustatyti PVM ataskaitą juridiniams asmenims Lietuvoje."
+title: "PVM išrašo informacija, skirta Lietuvai"
+description: "Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,49 +25,54 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-statement-details-for-lithuania"></a>PVM ataskaitos duomenys Lietuvai
+# <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
-Šioje temoje aiškinama, kaip nustatyti PVM ataskaitą juridiniams asmenims Lietuvoje.
+[!include[banner](../includes/banner.md)]
 
-Šia tema apima šaliai/regionui būdingų informacija apie nustatymą, pridėtinės vertės mokestis (PVM) pažymos juridiniams asmenims Lietuvoje tik. Daugiau informacijos apie nustatymą PVM ataskaitas, ieškokite [PVM ataskaitų](emea-vat-reporting.md).
+
+Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
+
+Ši tema apima šaliai / regionui būdingą informaciją apie pridėtinės vertės mokesčio (PVM) išrašo, skirto tik juridiniams subjektams Lietuvoje, nustatymą. Daugiau informacijos apie PVM išrašų nustatymą žr. [PVM ataskaitos](emea-vat-reporting.md).
 
 ## <a name="set-up-sales-tax-authorities"></a>PVM rinkėjų nustatymas
-Generuoti PVM deklaraciją reikiamą formatą už atitinkamą mokesčių administratorius, turite nustatyti PVM rinkėjus ataskaitos maketą. Dėl į **PVM rinkėjus** p., be į **ataskaitos maketo** lauke, pasirinkite **Default**. Pasirinkite patį PVM rinkėjo PVM sudengimo laikotarpio, kuris bus naudojamas PVM kodų.
+Norėdami generuoti PVM deklaraciją formatu, kurio reikalauja atitinkamas mokesčių rinkėjas, turite nustatyti PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** lauke **Ataskaitos maketas** pasirinkite **Numatytasis**. Pasirinkite tą patį PVM sudengimo laikotarpio PVM rinkėją, kuris bus naudojamas PVM koduose.
 
 ## <a name="set-up-sales-tax-reporting-codes"></a>Nustatyti PVM ataskaitų kodus
-Čia pateikiamas pavyzdys, kad parodyti, kaip jūs galite naudoti PVM ataskaitų kodai kurti PVM ataskaitą. Šie PVM ataskaitų kodai gali būti sukurtas ir naudojamas su **ataskaitos nustatymas** FastTab, į **PVM kodus** puslapis.
+Čia pateikiamas pavyzdys, kuris parodo, kaip PVM ataskaitų kodus galite naudoti PVM išrašui generuoti. Toliau pateiktus PVM ataskaitų kodus galima kurti ir naudoti puslapio **PVM kodai** „FastTab‟ **Ataskaitų sąranka**.
 
-| PVM ataskaitos kodas | aprašymas                                                           | Lauke pavadinimas, ataskaitos |
+| PVM ataskaitos kodas | aprašymas                                                           | Ataskaitos dėžės pavadinimas |
 |--------------------------|-----------------------------------------------------------------------|------------------------|
-| 11                       | Mokesčių bazės suma pardavimo apmokestinamiems pardavimo                                | E11                    |
-| 12                       | Mokesčių bazės suma pardavimo apmokestinamiems pardavimo už 96 paragrafą               | E12                    |
-| 13                       | Mokesčių bazės suma apmokestinamiems pardavimo                                  | E13                    |
-| 14                       | Suvartojimo įmonės reikmėms                                  | E14                    |
+| 11                       | Apmokestinamo pardavimo pagrindinio mokesčio suma                                | E11                    |
+| 12                       | Apmokestinamo pardavimo pagrindinio mokesčio suma pagal 96 straipsnį               | E12                    |
+| 13                       | Neapmokestinamo pardavimo pagrindinio mokesčio suma                                  | E13                    |
+| 14                       | Suvartojimas įmonės poreikiams                                  | E14                    |
 | 15                       | Ilgalaikio turto gamyba                                                | E15                    |
-| 16                       | Maržos sandorių, kurie turi specialias apmokestinimo schemos                   | E16                    |
-| 17                       | Eksporto prekės (0 proc.)                                           | E17                    |
-| 18                       | Pardavimo Europos Sąjungos (ES) PVM mokėtojams (0 proc.)                   | E18                    |
-| 19                       | Kiti pardavimai, kurie turi 0 procentų PVM                                   | E19                    |
-| 20                       | Ne apmokestinamiems pardavimo už Lietuvos ribų                          | E20                    |
-| 21                       | Sumos prekėms, kurios įsigyjamos iš ES                        | E21                    |
-| 22                       | Sumos prekėms, kurios įsigyjamos iš ES (trikampė prekyba)     | E22                    |
-| 23                       | Paslaugų, kurios įsigyjamos iš užsienio šalyse/regionuose sumos  | E23                    |
-| 24                       | Paslaugas, kurios yra įsigytos iš ES PVM mokėtojų suma.             | E24                    |
+| 16                       | Sandorių, kuriems taikoma spec. apmokestinimo schema, marža                   | E16                    |
+| 17                       | Prekių eksportas (0 proc.)                                           | E17                    |
+| 18                       | Pardavimas Europos Sąjungos (ES) PVM mokėtojams (0 proc.)                   | E18                    |
+| 19                       | Kitas pardavimas, kuriam taikomas 0 proc. PVM                                   | E19                    |
+| 20                       | Neapmokestinamas pardavimas už Lietuvos ribų                          | E20                    |
+| 21                       | ES šalyse nupirktų prekių suma                        | E21                    |
+| 22                       | ES šalyse nupirktų prekių suma (trišalė prekyba)     | E22                    |
+| 23                       | Užsienio šalyse / regionuose nupirktų paslaugų suma  | E23                    |
+| 24                       | Iš ES PVM mokėtojų nupirktų paslaugų suma             | E24                    |
 | 25                       | Nupirktų prekių ir paslaugų PVM suma                            | E25                    |
 | 26                       | Sumokėtas importo PVM                                                       | E26                    |
-| 27                       | Importo PVM, kuris bus išskaičiuoti mokesčių tarnyba kontroliuoja | E27                    |
-| 29                       | Mokesčio suma pardavimų, kurie turi standartinį mokesčio tarifą                     | E29                    |
-| 30                       | Mokesčių suma, kurių 9 procentų lengvatinis mokesčio tarifas         | E30                    |
-| 31                       | Mokesčio suma pardavimo, kurios turi sumažintą akcizo tarifą 5 proc.         | E31                    |
-| 32                       | Mokesčio suma už 95 punktą                                  | E32                    |
-| 33                       | Mokesčio suma už 96 paragrafą                                  | E33                    |
-| 34                       | Pardavimo PVM nuo prekių, kurios yra perkamos ES                       | E34                    |
-| 35                       | Atskaitomas pirkimo ir importo PVM suma                             | E35                    |
+| 27                       | Importo PVM, kurio atskaitymą kontroliuoja mokesčių tarnyba | E27                    |
+| 29                       | Pardavimo, kuriam taikomas standartinis mokesčio tarifas, mokesčių suma                     | E29                    |
+| 30                       | Pardavimo, kuriam taikomas sumažintas 9 proc. mokesčio tarifas, mokesčių suma         | E30                    |
+| 31                       | Pardavimo, kuriam taikomas sumažintas 5 proc. mokesčio tarifas, mokesčių suma         | E31                    |
+| 32                       | Pardavimo mokesčių suma pagal 95 straipsnį                                  | E32                    |
+| 33                       | Pardavimo mokesčių suma pagal 96 straipsnį                                  | E33                    |
+| 34                       | ES šalyse nupirktų prekių pardavimo PVM                       | E34                    |
+| 35                       | Atskaitomo pirkimo ir importo PVM suma                             | E35                    |
 
-## <a name="configure-the-electronic-reporting-model-and-format-for-the-report"></a>Konfigūruoti elektroninė duomenų perdavimo modelis ir ataskaitų formos
-Norėdami peržiūrėti arba pakeisti PVM ataskaitoje konfigūraciją, į **ataskaitų konfigūracijos** puslapyje, pasirinkite **PVM deklaracijos modelis**. Spustelėkite **dizaineris** peržiūrėti arba keisti modelį. Peržiūrėti arba keisti PVM ataskaitos formatą, kad **ataskaitų konfigūracijos** puslapyje, pasirinkite **PVM deklaracijos modelis**, ir tada spustelėkite **dizaineris**.
+## <a name="configure-the-electronic-reporting-model-and-format-for-the-report"></a>Elektroninių ataskaitų modelio ir ataskaitos formato konfigūravimas
+Norėdami peržiūrėti arba keisti PVM išrašo konfigūraciją, puslapyje **Ataskaitų konfigūracijos** pasirinkite **PVM deklaracijos modelis**. Tada spustelėkite **Dizaino įrankis**, kad peržiūrėtumėte arba pakeistumėte modelį. Norėdami peržiūrėti arba keisti PVM išrašo formatą, puslapyje **Ataskaitų konfigūracijos** pasirinkite **PVM deklaracijos modelis**, o tada spustelėkite **Dizaino įrankis**.
 
-## <a name="generate-a-vat-statement"></a>Kurti PVM ataskaitą
-Sukurti PVM XML failą, dėl to **PVM mokėjimus** puslapyje, pasirinkite vieną ar daugiau kvitus, o tada spustelėkite **eksporto PVM XML failą**.
+## <a name="generate-a-vat-statement"></a>PVM išrašo generavimas
+Norėdami generuoti PVM XML failą, puslapyje **PVM mokėjimai** pasirinkite vieną ar daugiau kvitų, o tada spustelėkite **Eksportuoti PVM XML failą**.
+
+
 
 

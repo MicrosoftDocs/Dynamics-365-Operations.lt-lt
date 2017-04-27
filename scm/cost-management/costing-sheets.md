@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Įkainojimo lapai
 
+[!include[banner](../includes/banner.md)]
+
+
 Įkainojimo lapo nustatymas apima du tikslus. Pirmasis tikslas yra apibrėžti informacijos rodymo formatą parduotų prekių savikainai, informacijai apie pagamintą prekę ar gamybos užsakymui. Suformatuotas rodinys vadinamas įkainojimo lapu. Antrasis tikslas yra apibrėžti netiesioginių išlaidų apskaičiavimo pagrindą. Įkainojimo lapo nustatymas pagrįstas išlaidų grupės funkcija informacijai rodyti ir netiesioginių išlaidų skaičiavimo formulėms. Šiame straipsnyje aprašomi du įkainojimo lapo nustatymo tikslai. 
 
 Įkainojimo lapas yra suformatuotas informacijos apie parduotų gaminamos prekės arba gamybos užsakymo prekių savikainą rodinys. Kai nustatote įkainojimo lapą, nurodote informacijos formatą ir apibrėžiate netiesioginių išlaidų skaičiavimo pagrindą. Įkainojimo lapo nustatymas pagrįstas išlaidų grupės funkcijomis informacijai rodyti ir netiesioginių išlaidų skaičiavimo formulėms. Toliau pateikiama daugiau informacijos apie du įkainojimo lapo nustatymo tikslus.
@@ -43,6 +46,8 @@ Dvi išlaidų versijos blokavimo strategijos nustato, ar laukiančios išlaidos 
 Apibrėžus išlaidų lapo formatą ir netiesioginių išlaidų skaičiavimus, reikia atlikti atskirą veiksmą informacijai patikrinti ir išsaugoti. Įkainojimo lapas pateikia visos įmonės formatą, skirtą nuolat rodyti parduotų prekių išlaidų informaciją. 
 
 Įkainojimo lapas rodomas kaip puslapio **Skaičiuoti prekės savikainą** dalis. Įkainojimo lapas gali būti rodomas gaminamos prekės apskaičiuotų išlaidų įrašui puslapyje **Prekės kaina** arba konkretaus užsakymo skaičiavimo įrašui puslapyje **KS skaičiavimo rezultatai**. Taip pat jis gali būti rodomas kaip gamybos užsakymo puslapio **Kainos skaičiavimas** dalis.
+
+
 
 
 

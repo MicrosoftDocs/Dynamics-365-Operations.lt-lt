@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Uždaryti Gautinas sumas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų uždarymo verslo procesą.
 
 > [!NOTE] 
-> Norėdami atidaryti kai kurių puslapių lentelėje, turite įvesti informaciją arba nurodyti parametrai.
+> Norėdami atidaryti kai kuriuos lentelės puslapius, turite įvesti informaciją arba nurodyti parametrų nuostatas.
 
-**Verslo proceso sudėtinės užduoties**                   
+**Verslo proceso komponento užduotis**                   
 
 DK laikotarpių uždarymas
 
@@ -43,21 +46,23 @@ DK laikotarpių uždarymas
 |Patvirtinti pardavimo užsakymą                   | Atnaujinti pardavimo užsakymus.                                                                       |
 |Užsienio valiutos kurso pasikeitimas          | Generuoti operacijas, kurios atnaujina atvirų kliento operacijų vertę užsienio valiutomis.                                                                                                                         |
 | Žurnalas                              | Registruoti SF, mokėjimus ir paprastuosius vekselius.                                             |
-| Žurnalo kvitas                      | -   **Payment journal** – Generate, process, and post payments.
+| Žurnalo kvitas                      | -   **Mokėjimų žurnalas** – generuoti, apdoroti ir registruoti mokėjimus.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Pakavimo važtaraščio registravimas | Atnaujinti važtaraščių pardavimo užsakymų.                                                     | | Paštu laisvos formos SF | Laisvos formos SF registravimas.                                                                   | | Registruojant SF | Pardavimo užsakymų SF registravimas.                                                            | | Registruoti išrinkimo | Atnaujinti išrinkimo pardavimo užsakymų.                                                      |
+| Važtaraščio registravimas                 | Atnaujinti pardavimo užsakymų važtaraščius.                                                     | | Registruoti laisvos formos SF               | Registruoti laisvos formos SF.                                                                   | | SF registravimas                      | Registruoti pardavimo užsakymų SF.                                                            | | Išrinkimo dokumento registravimas                 |Atnaujinti pardavimo užsakymų išrinkimo dokumentus.                                                      |
 
-**Verslo proceso sudėtinės užduoties**   
+**Verslo proceso komponento užduotis**   
 
 Kurti ir pateikti ES pardavimų sąrašą
 
 | Puslapio pavadinimas                            | Naudojimas                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |ES pardavimo sąrašas                         | Europos Sąjungos (ES) pardavimų ataskaita mokesčių institucijai pridėtinės vertės mokesčio (PVM) deklaravimo tikslais.                                                                                                                           |
+
+
 
 
 

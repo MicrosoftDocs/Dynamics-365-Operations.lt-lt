@@ -1,6 +1,6 @@
 ---
 title: "Pajamų išrašo finansinė ataskaita"
-description: "Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitą apie pajamas. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šioje ataskaitoje."
+description: "Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita. Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Pajamų išrašo finansinė ataskaita
 
-Šiame straipsnyje aprašoma, kaip numatytąjį ataskaitą apie pajamas. Jame taip pat aprašoma sudedamosios dalys, kurios yra susijusios su šioje ataskaitoje. 
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita. Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai. 
 
 <a name="default-income-statement-report"></a>Numatytoji pajamų išrašo ataskaita
 -------------------------------
@@ -61,10 +64,12 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Finansinės ataskaitos](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Peržiūrėti finansines ataskaitas](view-financial-reports.md)
 
-[Dinamika finansinės atskaitomybės Dienoraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[„Dynamics‟ finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

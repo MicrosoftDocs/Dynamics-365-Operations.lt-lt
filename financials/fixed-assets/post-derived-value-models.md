@@ -1,5 +1,5 @@
 ---
-title: "Paštu gautos knygos"
+title: "Registruoti naudojant išvestines knygas"
 description: "Šiame straipsnyje aprašyta, kaip naudoti išvestines knygas."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Paštu gautos knygos
+# <a name="post-with-derived-books"></a>Registruoti naudojant išvestines knygas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašyta, kaip naudoti išvestines knygas.
 
@@ -49,11 +52,13 @@ Toliau pateikiama informacija apie tai, kaip įsigijimo operacijas nustatyti nau
 
 Tada knygas galima pridėti prie konkretaus ilgalaikio turto. 
 
-Kai užregistruojamas ilgalaikio turto knygos VM 1, įsigijimas, jis registruojamas ne tik VM 1, bet taip pat išvestiniai knygoje VM 2. Tiek ilgalaikio turto knygos būsena naujinama į atidarytą.
+Kai ilgalaikio turto įsigijimas užregistruojamas naudojant knygą VM 1, įsigijimas užregistruojamas ne tik vertinimo modelyje VM 1, bet ir išvestinėje knygoje VM 2. Abiejų ilgalaikio turto knygų būsena atnaujinama į Atidaryta.
 
 > [!NOTE]                                                                                                         
 > Jei išvestinių knygų nenaudojate, ilgalaikio turto įsigijimą turite registruoti ir knygoje VM 1, ir knygoje VM 2.
 
-Daugiau informacijos rasite [gautų knygų](derived-books.md)
+Daugiau informacijos ieškokite [Išvestinės knygos](derived-books.md).
+
+
 
 

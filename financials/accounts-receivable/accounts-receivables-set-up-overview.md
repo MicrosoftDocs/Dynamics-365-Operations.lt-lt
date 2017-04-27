@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Konfigūruoti Gautinas sumas bei Kreditą ir surinkimą
 
+[!include[banner](../includes/banner.md)]
+
+
 Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąskaitas faktūras ir iš klientų gaunamus mokėjimus.
 
 Galite nustatyti klientų grupes, klientus, registravimo šablonus, įvairias mokėjimo pasirinktis, delspinigių pažymas, priminimo laiškus, komisinius, parametrus, susijusius su klientais, išlaidomis, pristatymais ir kryptimis, įsakomaisiais vekseliais ir kitų tipų Gautinų sumų bei Kredito ir surinkimo informaciją.
@@ -98,14 +101,16 @@ Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų 
 |                                                      | Klientų kontaktų ir el. pašto nuostatos | Nustatykite klientų kontaktus ir jų el. pašto adresus. Šie adresai bus rodomi Surinkimo puslapyje ir bus naudojami kuriant laiškus, adresuotus klientams. Taip pat nustatykite numatytąjį kiekvieno kliento Surinkimo kontaktą, kuris Surinkimo puslapyje bus rodomas pirmas. |
 |                                                      | Klientų telkiniai                       | Nustatykite klientų telkinius, t. y. užklausas, nustatančias klientų sąskaitų, kurios gali būti rodomos ir valdomos mokėjimų priežiūros arba skirstymo pagal terminus procesuose, grupę.                                                                                                                           |
 |                                                      | Klientų registravimo šablonas             | Nustatykite šablonus, pagal kuriuos valdomas klientų operacijų registravimas į DK.                                                                                                                                                                                      |
-|                                                      | Kliento priežasčių kodai                | Nustatyti klientų priežasčių kodus.                                                                                                                                                                                                                                                    |
-|                                                      | Kliento atsisakymas priežasties kodai      | Nustatyti klientų nurašymas priežasčių kodus, kuris bus naudojamas nurašymo operacijų.                                                                                                                                                                                             |
+|                                                      | Kliento priežasčių kodai                | Nustatykite kliento priežasčių kodus.                                                                                                                                                                                                                                                    |
+|                                                      | Kliento nurašymo priežasčių kodai      | Nustatykite kliento nurašymo priežasčių kodus, kurie bus naudojami nurašant operacijas.                                                                                                                                                                                             |
 |                                                      | Formos nustatymai                           | Nurodykite pasiūlymų, patvirtinimų, išrinkimo dokumentų, važtaraščių, kliento SF, laisvos formos sąskaitų faktūrų ir delspinigių pažymų formų pastabų parametrus.                                                                                                                               |
 |                                                      | Pomėgiai                             | Nustatykite ir valdykite palūkanų kodus.                                                                                                                                                                                                                                                 |
 |                                                      | NSF informacija.                     | Nustatykite banko sąskaitos NSF informaciją, kuri bus naudojama, kai mokėjimas Surinkimo puslapyje pažymėtas kaip NSF operacija.                                                                                                                                              |
 |                                                      | Informacija apie pardavėją              | Nustatykite pardavėjų el. pašto adresą. Šie adresai bus rodomi puslapyje Surinkimas, ir juos naudoti galite norėdami iš to puslapio pardavėjui siųsti el. laišką.                                                                                                                |
 
  
-Daugiau informacijos rasite [kredito ir gautinas rinkinius](collections-credit-accounts-receivable.md).
+Daugiau informacijos rasite [Kreditas ir mokėjimai modulyje Gautinos sumos](collections-credit-accounts-receivable.md).
+
+
 
 

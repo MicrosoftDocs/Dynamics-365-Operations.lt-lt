@@ -1,6 +1,6 @@
 ---
-title: "Pridėti rekomendacijas valdymo operacijų puslapio POS įrenginį"
-description: "Šioje temoje aprašoma, kaip pridėti rekomendacijas valdymo operacijos ekrano dėl pardavimo (PV) įrenginį naudodami ekrano maketo konstruktorių Microsoft Dynamics 365 operacijoms."
+title: "Rekomendacijų valdiklio įtraukimas į EKA įrenginio operacijų puslapį"
+description: "Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 for Operations“."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Pridėti rekomendacijas valdymo operacijų puslapio POS įrenginį
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Rekomendacijų valdiklio įtraukimas į EKA įrenginio operacijų puslapį
 
-Šioje temoje aprašoma, kaip pridėti rekomendacijas valdymo operacijos ekrano dėl pardavimo (PV) įrenginį naudodami ekrano maketo konstruktorių Microsoft Dynamics 365 operacijoms.
+[!include[banner](includes/banner.md)]
 
-Produktų rekomendacijos gali Rodyti POS įrenginyje, kai naudojate Microsoft Dynamics 365 operacijoms. *Rekomendacijos* daiktų, kad jūsų klientas gali būti domina pagal jų pirkimo istoriją, prekes į savo pageidavimų sąrašus ir daiktų, kad kitiems klientams įsigyti internetu ir plytų ir skiedinio parduotuvėse. Norėdami Rodyti produkto rekomendacijos, jums reikia pridėti valdymo operacijos ekrane, naudojant ekrano maketo konstruktorių.
 
-## <a name="open-layout-designer"></a>Atidaryti maketo dizaineris
-1.  Eikite į **mažmeninės prekybos ir prekybos**&gt;**kanalo nustatymas**&gt;**POS sąrankos**&gt;**POS**&gt;**ekrano išdėstymas**.
-2.  Naudoti sparčiojo filtro rasti ekrano, kurį norite įtraukti į valdiklį. Pvz., filtruoti ir **ekrano išdėstymas ID** lauko naudoti vertė yra "F2CP16:9M".
-3.  Sąraše raskite ir pasirinkite norimą įrašą. Pavyzdžiui, pasirinkite "pavadinimas: ekranas F2CP16:9M ID: F2CP16:9M".
-4.  Spustelėkite **maketo dizaineris**.
-5.  Vykdykite nurodymus, kad paleistumėte maketo konstruktorių. Kai būsite paraginti įvesti kredencialus, įvesti tuos pačius kredencialus, buvo naudojami kai maketo konstruktorių buvo pradėta nuo **ekrano išdėstymas** puslapis.
-6.  Kai prisijungsite, pasirodys puslapis panašus į vieną žemiau. Išdėstymo skirsis priklausomai nuo to, visus tinkinimus, atliktus jūsų parduotuvės.
+Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 for Operations“.
 
-[![screenlayout-IPS-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) pasirinkti rodymo parinktį
+Naudodami „Microsoft Dynamics 365 for Operations“ galite rodyti produktų rekomendacijas savo EKA įrenginyje. *Rekomendacijos* –tai prekės, kurios gali sudominti jūsų klientą atsižvelgiant į jo pirkimo istoriją, prekės, kurias klientas įtraukė į savo norų sąrašą, ir prekės, kurias kiti klientai įsigijo internetu ir įprastose parduotuvėse. Norėdami rodyti produktų rekomendacijas, turite valdiklį įtraukti į operacijų ekraną naudodami ekrano maketo dizaino įrankį.
+
+## <a name="open-layout-designer"></a>Atidarykite maketo dizaino įrankį
+1.  Pasirinkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
+2.  Naudokite spartųjį filtrą, kad rastumėte ekraną, į kurį norite įtraukti valdiklį. Pvz., filtruokite lauką **Ekrano maketo ID** naudodami reikšmę „F2CP16:9M“.
+3.  Sąraše raskite ir pasirinkite norimą įrašą. Pvz., pasirinkite „Pavadinimas: F2CP16:9M Ekrano maketo ID: F2CP16:9M“
+4.  Spustelėkite dalį **Maketo dizaino įrankis**.
+5.  Vykdykite paraginimo instrukcijas, kad paleistumėte maketo dizaino įrankį. Kai būsite paraginti įvesti kredencialus, įveskite tuos pačius kredencialus, kuriuos naudojote paleisdami maketo dizaino įrankį iš puslapio **Ekrano maketai**.
+6.  Prisijungus bus parodytas puslapis, panašus į toliau pateiktą puslapį. Maketas skirsis, atsižvelgiant į jūsų parduotuvėje atliktus tinkinimus.
+
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Pasirinkite rodymo parinktį
 -----------------------
 
-Yra du konfigūracijų variantų. Pasirinkite variantą, kuris geriausiai tinka jūsų parduotuvės ir likusius nurodymus, kad baigtumėte konfigūruoti kontrolę. Yra du variantai:
--   Rekomendacijos visada yra matomas.
--   A **rekomendacijų** skirtukas tinklelio dešinėje pusėje ekrano.
+Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausiai jūsų parduotuvei tinkančią parinktį ir vadovaukitės likusiomis instrukcijomis, kad baigtumėte valdiklio nustatymą. Toliau nurodytos dvi parinktys.
+-   Rekomendacijos rodomos visada.
+-   Skirtukas **Rekomendacijos** rodomos ekrano kairiojoje pusėje esančiame tinklelyje.
 
-#### <a name="to-make-recommendations-always-visible"></a>Pateikti rekomendacijas visada matomas
+#### <a name="to-make-recommendations-always-visible"></a>Norėdami rekomendacijas rodyti visada, atlikite tolesnius veiksmus.
 
-1.  Sumažinti operacijos eilutės informacijos srityje taip, kad jis yra tokio pat aukščio kaip klientas skydo kairėje. [](./media/pic-2.png)[![screenlayout-IPS-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  Iš meniu kairėje, vilkite ir upuść rekomendacijas valdiklį, kad tarp operacijos eilutės detales ir mygtukyno centras operacijos ekrano apačioje. Pakeiskite valdiklio dydį, kad jis telpa į tą erdvę. [](./media/pic-3.png)[![screenlayout-IPS-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Spustelėkite į **X** išsaugoti ir išeiti iš maketo konstruktorių.
-4.  Dynamics 365 operacijoms, eikite į **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo tvarkaraščių**.
-5.  Sąraše, pasirinkite **1090 registrų**.
-6.  Spustelėkite **surengę**.
+1.  Sumažinkite operacijų eilučių informacijos srities aukštį, kad ji būtų tokio paties aukščio kaip jos kairėje esanti kliento sritis.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  Iš kairiojo meniu rekomendacijų valdiklį nuvilkite tarp operacijų eilučių informacijos srities ir mygtukyno į operacijų ekrano apatinėje dalyje, centre. Keiskite valdiklio dydį, kad jis tilptų toje erdvėje.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
+4.  Programoje „Dynamics 365 for Operations“ atidarykite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikai**.
+5.  Išplečiamajame sąraše pasirinkite **1090 registrai**.
+6.  Spustelėkite **Paleisti dabar**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Norėdami pridėti rekomendacijas skirtuką mygtukyno dešinėje pusėje ekrano
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Norėdami skirtuką Rekomendacijos įtraukti į ekrano kairiojoje pusėje esantį mygtukyną, atlikite tolesnius veiksmus
 
-1.  Dešiniuoju pelės mygtuku spustelėkite tuščioje vietoje žemiau paskutinį skirtuką puslapio dešinėje pusėje mygtuką tinklelį.
-2.  Spustelėkite **pritaikyti**. [![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Spustelėkite **naujas skirtukas**.
-4.  Raskite ką tik įtrauktą naują skirtuką. Jums gali reikėti slinkti žemyn.
-5.  – Į **turinį** meniu, pasirinkite **rekomenduojama produktus**. [![IPS-6](./media/pic-6.png)](./media/pic-6.png)
-6.  – Į **ženklo** lauke, įveskite pavadinimą skirtuką rekomendacijas. Pavyzdžiui, įveskite "Rekomenduotini produktai".
-7.  – Į **vaizdo** pasirinkite vaizdas būtų rodomas skirtuke.
-8.  Click **OK**. Skirtuke atsiranda mygtukynas.
-9.  Spustelėkite į **X** išsaugoti ir išeiti iš maketo konstruktorių.
-10. Dynamics 365 operacijoms, eikite į **mažmeninės prekybos ir prekybos**&gt;**mažmeninės prekybos ji**&gt;**pasiskirstymo tvarkaraščių**.
-11. Sąraše, pasirinkite **1090 registrų**.
-12. Spustelėkite **surengę**.
+1.  Dešiniuoju pelės klavišu spustelėkite tuščią erdvę po paskutiniuoju skirtuku mygtukyne, kuris yra kairiojoje puslapio pusėje.
+2.  Spustelėkite **Tinkinti**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Spustelėkite **Naujas skirtukas**.
+4.  Raskite naują skirtuką, kurį ką tik įtraukėte. Gali reikėti slinkti žemyn.
+5.  Išplečiamajame sąraše **Turinys** pasirinkite **Rekomenduojami produktai**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Lauke **Žyma** įveskite rekomendacijų skirtuko pavadinimą. Pvz., įveskite „Rekomenduojami produktai“.
+7.  Lauke **Vaizdas** pasirinkite vaizdą, kuris bus rodomas skirtuke.
+8.  Spustelėkite **Gerai**. Naujasis skirtukas atsiranda mygtukyne.
+9.  Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
+10. Programoje „Dynamics 365 for Operations“ atidarykite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikai**.
+11. Išplečiamajame sąraše pasirinkite **1090 registrai**.
+12. Spustelėkite **Paleisti dabar**.
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Asmeninį produktų rekomendacijų apžvalga](personalized-product-recommendations.md)
+[Pritaikytų produkto rekomendacijų apžvalga](personalized-product-recommendations.md)
+
+
 
 

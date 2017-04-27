@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Pagrindinės sąskaitos tipai
 
+[!include[banner](../includes/banner.md)]
+
+
 Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.
 
 Kai sukuriate pagrindinę sąskaitą puslapyje Pagrindinės sąskaitos – sąskaitų planas, turite pasirinkti pagrindinę sąskaitą.
@@ -35,6 +38,8 @@ Kai sukuriate pagrindinę sąskaitą puslapyje Pagrindinės sąskaitos – sąsk
 -   Balansas, Turtas, Įsipareigojimai ir Kapitalas – šios pagrindinės sąskaitos naudojamos kaip operacijų sąskaitos sumoms, kurias juridinis subjektas valdo ar yra skolingas, įrašyti.
 -   Iš viso – šios pagrindinės sąskaitos naudojamos sąskaitų intervalams įtraukti. Konfigūruokite Bendrosios pagrindinės sąskaitos tipą naudodami puslapį Sąskaitų intervalas, kuriame rodoma bendra grupių balansų visų sąskaitų intervalų suma. Pasirinkę Bendrosios sąskaitos tipas, puslapį Sąskaitų intervalas pasiekite skirtuke Bendra spustelėję Bendrosios sumos.
 -   Ataskaitos – šios pagrindinės sąskaitos naudojamos tik Brazilijos finansinėms ataskaitoms pateikti.
+
+
 
 
 

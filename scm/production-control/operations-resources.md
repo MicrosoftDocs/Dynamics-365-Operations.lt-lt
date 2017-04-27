@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>„Operations“ ištekliai
 
+[!include[banner](../includes/banner.md)]
+
+
 Operacijų ištekliai atlieka projekto arba gamybos proceso veiklas. Jie gali būti skirtingų tipų ir jų galimybės gali skirtis. 
 
 <a name="operations-resources"></a>„Operations“ ištekliai
@@ -36,7 +39,7 @@ Operacijų ištekliai atlieka projekto arba gamybos proceso veiklas. Jie gali b�
 Operacijos ištekliai yra mašinos, įrankiai, darbuotojai, patalpos, fizinės vietos arba tiekėjai, vykdantys projekto ar gamybos proceso veiklą. Jie gali būti skirtingų tipų ir jų galimybės gali skirtis.
 
 -   **Tiekėjas** – išorinis išteklius, vykdantis projekto veiklą arba gamybos operacijas. Pavyzdys gali būti subrangovas. Tiekėjų išteklius susiedami su tiekėjo sąskaita, galite generuoti subrangovų pirkimus pagal komplektavimo specifikacijos (KS) eilutes arba gamybos eilutes.
--   **Personalas** – projekto arba gamybos darbuotojas, vykdantis veiklą atskirai arba kaip įrankio ar mašinos operatorius. Jei naudojate funkciją žmogiškųjų išteklių, žmogiškųjų išteklių galite susieti su darbuotojo. Planavimo mechanizmas tada išteklius paskirstyti pagal nurodytas atitinkamo darbuotojo kompetencijas.
+-   **Personalas** – projekto arba gamybos darbuotojas, vykdantis veiklą atskirai arba kaip įrankio ar mašinos operatorius. Jei naudojate personalo valdymo funkcijas, personalą galite susieti su darbuotoju. Planavimo mechanizmas tada išteklius paskirstyti pagal nurodytas atitinkamo darbuotojo kompetencijas.
 -   **Mašina** – mašina ar kita gamybos įranga, būtina gamybai vykdyti.
 -   **Įrankis** – prietaisas arba įrenginys, paprastai naudojamas kartu su kitu ištekliumi projekto arba gamybos veiklai vykdyti.
 -   **Vieta** – tam tikro dydžio fizinė vieta, būtina norint atlikti veiklą. Pavyzdys gali būti surinkimo sritis.
@@ -80,5 +83,7 @@ Kai išteklių grupė yra naudojama kaip „lean“ darbo elementas, darbo eleme
 
 ## <a name="costing-resources"></a>Įkainojimo ištekliai
 Kai nustatote veiklą, pvz., maršruto operaciją arba projekto valandų prognozę, galite nurodyti konkretaus operacijų ištekliaus arba išteklių grupės reikalavimą. Tačiau taip pat galite nurodyti konkretaus tipo, pajėgumo arba kompetencijos operacijų ištekliaus reikalavimą. Dėl šios priežasties faktinis išteklių priskyrimas nėra atliekamas tol, kol nesuplanuota veikla ir nerezervuotas pajėgumas. Todėl maršruto operacijoje galite nurodyti, kad įvertinimas ir KS skaičiavimas turi būti paremtas konkrečiu operacijų ištekliumi. Šis operacijų išteklius yra vadinamas įkainojimo ištekliumi. Taip pat išlaidų kategorijas ir operacijų laiką galite perkelti iš įkainojimo ištekliaus į veiklą. Suplanavus operaciją, įvertinimas ir KS skaičiavimas yra atliekami naudojant faktiškai suplanuotą operacijų išteklių.
+
+
 
 

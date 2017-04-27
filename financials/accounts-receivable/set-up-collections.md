@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Nustatyti Kreditą ir surinkimą
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas.
 
 <a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
@@ -46,7 +49,7 @@ Jei jūsų organizacijoje keli žmonės užsiima mokėjimų priežiūra, galite 
 ## <a name="set-up-a-collections-case-category"></a>Nustatyti mokėjimų priežiūros atvejo kategoriją
 Jei organizuosite surinkimo komandos darbą naudodami atvejus, nustatykite atvejo kategorijos tipą **Surinkimas**. Šios sąrankos reikia tik jei **Surinkimo** puslapyje norite naudoti atvejų funkcijas.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Žurnalo pavadinimai (atsiskaitymų, writeoff ir NSF) įsteigtas
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Nustatyti žurnalų pavadinimus (atsiskaitymas, nurašymas ir NSF)
 Nustatykite žurnalų pavadinimus, kurie naudojami, kai **Surinkimo** puslapyje apdorojamos operacijos. Šis apdorojimas apima operacijos sudengimą, operacijos nurašymą ir lėšų trūkumo (NSF) mokėjimo apdorojimą.
 
 | Prekės/Paslaugos pavadinimas | Žurnalo tipas     |
@@ -55,7 +58,7 @@ Nustatykite žurnalų pavadinimus, kurie naudojami, kai **Surinkimo** puslapyje 
 | Nurašymas   | Kasdienis            |
 | NSF         | Kliento mokėjimas |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Nustatyti priežasties kodą writeoff operacijoms
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Nustatyti nurašymo operacijų priežasties kodą
 Nustatykite numatytąjį priežasties kodą, naudojamą, kai **Surinkimo** puslapyje nurašomos operacijos. Kodą galite keisti nurašymo proceso metu.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Nustatyti el. pašto priedų aplanką ir kurti el. laiškų šablonus
@@ -67,7 +70,7 @@ Nustatykite gautinų sumų parametrus, rodomus **Surinkimo** skirtuke.
 ## <a name="optional-set-up-collections-agents"></a>Pasirinktinai: nustatyti mokėjimų priežiūros agentus
 Jei jūsų organizacijoje keli žmonės užsiima mokėjimų priežiūra, galite nustatyti mokėjimų priežiūros agentus. Surinkimo agentas yra darbuotojas, kuris yra nustatytas kaip naudotojas puslapyje**Naudotojų ryšiai**. Galite surinkimo agentams priskirti klientų telkinius, (klientų užklausas), kad jiems padėtumėte organizuoti savo darbą. Surinkimo agentai pridedami į komandą, kuri pasirenkama **Gautinų sumų parametrų** puslapyje. Jei tame puslapyje komanda nepasirenkama, automatiškai sukuriama nauja komanda pavadinimu **Surinkimas** ir į šią komandą pridedami surinkimo agentai.
 
-## <a name="set-up-a-writeoff-account"></a>Writeoff paskyros nustatymas
+## <a name="set-up-a-writeoff-account"></a>Nustatyti nurašymo sąskaitą
 Nustatykite nurašymo sąskaitą, kuri bus naudojama didžiosios knygos nurašymo įraše nurašius operaciją. Ši sąskaita yra saugoma kliento registravimo profilyje.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Nustatyti banko sąskaitų NSF informaciją
@@ -82,11 +85,13 @@ Nustatykite kliento kontaktų el. pašto adresus, jei norite siųsti el. laišku
 Kliento **Kredito ir surinkimo** „FastTab‟, **Surinkimo kontakto** lauke pasirinkite kliento organizacijos asmenį, kuris dirba su jūsų surinkimo agentu. Šis asmuo yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas** ir jam ar jai siunčiami el. laiškai. 
 
 > [!NOTE] 
-> Jei kolekcijos kontakto nėra nurodyta kliento, naudojamas pagrindinio kontakto su klientu. Jie pagrindinis kontaktas nenurodytas, el. laiškai siunčiami pirmu puslapyje **Kontaktai** nurodytu adresu.
+> Jei kliento surinkimo kontaktas nenurodytas, naudojamas pagrindinis kliento kontaktas. Jie pagrindinis kontaktas nenurodytas, el. laiškai siunčiami pirmu puslapyje **Kontaktai** nurodytu adresu.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Nustatyti el. pašto parametrus, taikomus pardavėjams
 Nustatykite pardavėjų el. pašto adresus, jei norite siųsti el. laiškus pardavėjams iš puslapio **Surinkimas**. Nustatykite kiekvieno pardavimo atstovo el. paštą adresą kiekvienoje pardavimo komisinių grupėje. Pardavimo atstovas, prie kurio pasirinkta parinktis **Kontaktas**, yra numatytasis pardavėjas, kuriam siunčiami el. laiškai. 
 
 Jei pardavimo atstovas nenurodytas, naudojamas pagrindinis kliento organizacijos pardavėjas. Jei pagrindinis pardavėjas nenurodytas, el. laiškai siunčiami pirmam puslapyje nurodytam pardavėjui.
+
+
 
 

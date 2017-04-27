@@ -1,6 +1,6 @@
 ---
 title: "DK sąskaitos balansai"
-description: "Šiame straipsnyje aprašomi du būdai, kaip Rodyti DK sąskaitos likutį - bandomasis balansas sąrašo puslapį ir finansinių ataskaitų. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus."
+description: "Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>DK sąskaitos balansai
 
-Šiame straipsnyje aprašomi du būdai, kaip Rodyti DK sąskaitos likutį - bandomasis balansas sąrašo puslapį ir finansinių ataskaitų. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus.
 
 Vartotojai gali peržiūrėti balansus didžiojoje knygoje įvairiais būdais. Kai kurie dažniausi iš jų yra:
 
@@ -46,6 +49,8 @@ Kai vartotojas pakeičia parametrus, balansai atnaujinami. Vartotojas taip pat g
 
 Vartotojai gali detalizuoti balansus, kad matytų balansą sudarančias operacijas.    
 
-Daugiau informacijos rasite [Rodyti finansines ataskaitas](view-financial-reports.md).
+Išsamesnės informacijos žr. [Peržiūrėti finansines ataskaitas](view-financial-reports.md).
+
+
 
 

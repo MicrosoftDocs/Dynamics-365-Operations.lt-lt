@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalinis tiekėjo mokėjimo nuolaida anksčiau nei su galutinio mokėjimo nuolaidos data po"
+title: "Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos"
 description: "Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Atsiskaityti dalinis tiekėjo mokėjimo nuolaida anksčiau nei su galutinio mokėjimo nuolaidos data po
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui.
 
-Fabrikam perka prekes iš tiekėjo 3057. Fabrikam gauna 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrus yra ant to **sudaro mokėtinų sumų parametrai** puslapis.
+„Fabrikam“ perka prekes iš 3057 tiekėjo. „Fabrikam“ gauna 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. Tiekėjas „Fabrikam‟ taip pat leidžia taikyti mokėjimo nuolaidas, kai mokama dalimis. Sudengimo parametrai yra puslapyje **Mokėtinų sumų parametrai**.
 
 ## <a name="invoice-on-june-25"></a>Birželio 25 d. SF
-Birželio 25 d., balandžio patenka ir postų 1000,00 3057 tiekėjo SF. Eglė šią operaciją gali peržiūrėti puslapyje **Tiekėjo operacijos**.
+Birželio 25 d. Eglė 3057 tiekėjui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Eglė šią operaciją gali peržiūrėti puslapyje **Tiekėjo operacijos**.
 
 | Kvitas   | Operacijos tipas | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis   | Valiuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | SF-10020 | PVM sąskaita faktūra          | 2015-06-25 | 10020   |                                      | 1000,00                              | –1 000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Dalinis mokėjimas liepos 2 d.
-Liepos 2 d. Eglė nori sudengti 300,00 šios SF. Mokėjimui gali būti taikoma nuolaida, nes „Fabrikam‟ taiko nuolaidas daliniams mokėjimams. Todėl Eglė sumoka 297,00 ir gauna 3,00 nuolaidą. Ji sukuria mokėjimo žurnalą ir įveda linijos tiekėjo 3057. Ji atidaro su **atsiskaitymams** puslapyje, taip, kad ji gali pažymėti SF sudengti.
+Liepos 2 d. Eglė nori sudengti 300,00 šios SF. Mokėjimui gali būti taikoma nuolaida, nes „Fabrikam‟ taiko nuolaidas daliniams mokėjimams. Todėl Eglė sumoka 297,00 ir gauna 3,00 nuolaidą. Ji sukuria mokėjimo žurnalą ir įveda eilutę 3057 tiekėjui. Tada ji atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sąskaitą faktūrą sudengti.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ Tada Eglė registruoja mokėjimą. Atidariusi **Tiekėjo operacijų** puslapį, 
 | PROG-10021  | Mokėjimas          | 7/15/2015 |         | 700,00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Liko mokėti liepos 15 d., Naudoti mokėjimo nuolaidą = visada
-Jei pardavėjas leidžia imtis nuolaidą, nors ji moka po nuolaidos data balandžio, ji gali keisti reikšmę, **naudoti mokėjimo grynaisiais nuolaidą** lauko į **visada**. Į **apskaičiuoti mokėjimo nuolaidas dėl dalinio mokėjimo** parametrą perrašyti, ir nuolaida bus imtasi. Mokėjimo suma yra 693,00, o nuolaida yra likę 7,00.
+Jei tiekėjas leidžia Eglei pritaikyti nuolaidą, nors ji sumoka po nuolaidos datos, ji gali pakeisti vertę lauke **Naudoti mokėjimo nuolaidą** į **Visada**. **Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas** bus nepaisoma parametro ir bus pritaikyta nuolaida. Mokėjimo suma yra 693,00, o nuolaida yra likę 7,00.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ Tada Eglė registruoja mokėjimą. Atidariusi **Tiekėjo operacijų** puslapį, 
 | NUOL-10020 | Mokėjimo nuolaida    | 2015-07-01  |         | 3,00                                 |                                       | 0,00    | USD      |
 | PROG-10021  | Mokėjimas          | 7/15/2015 |         | 693,00                               |                                       | 0,00    | USD      |
 | NUOL-10021 | Mokėjimo nuolaida    | 7/15/2015 |         | 7,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

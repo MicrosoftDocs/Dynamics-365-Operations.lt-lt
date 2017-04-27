@@ -1,5 +1,5 @@
 ---
-title: "Organizuoti savo darbuotojų, padalinių, darbo vietas ir pozicijas"
+title: "Kaip tvarkyti darbo jėgą nustatant padalinius, užduotis ir pareigas"
 description: "Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šioje temoje pateikiama abstrakti informacija apie šiuos elementus."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizuoti savo darbuotojų, padalinių, darbo vietas ir pozicijas
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Kaip tvarkyti darbo jėgą nustatant padalinius, užduotis ir pareigas
+
+[!include[banner](includes/banner.md)]
+
 
 Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šioje temoje pateikiama abstrakti informacija apie šiuos elementus. 
 
 Šis pavyzdys skirtas sąvokoms, aprašytoms šioje temoje, iliustruoti.
 
-|**Padalinys**|**Position**|**Job**|
+|**Padalinys**|**Pozicija**|**Užduotis**|
 |---|---|---|
 |**Pardavimas**|Pardavimo vadybininkas (rytų regionas)|Pardavimo vadybininkas|
 |**Pardavimas**|Pardavimo vadybininkas (vakarų regionas)|Pardavimo vadybininkas|
 |**Pardavimas**|Pardavimo vadybininkas (centrinis regionas)|Pardavimo vadybininkas|
-|**Accounting**|Apskaitos prižiūrėtojas|Apskaitos vadovas|
-|**Accounting**|A-apskaita|Buhalteris|
-|**Human resources**|Personalo vadovas (rytų regionas)|Personalo vadovas|
-|**Human resources**|Personalo vadovas (vakarų regionas)|Personalo vadovas|
-|**Human resources**|Personalo vadovas (centrinis regionas)|Personalo vadovas|
+|**Apskaita**|Apskaitos prižiūrėtojas|Apskaitos vadovas|
+|**Apskaita**|A-apskaita|Buhalteris|
+|**Personalas**|Personalo vadovas (rytų regionas)|Personalo vadovas|
+|**Personalas**|Personalo vadovas (vakarų regionas)|Personalo vadovas|
+|**Personalas**|Personalo vadovas (centrinis regionas)|Personalo vadovas|
 
  
  <a name="departments"></a>Padaliniai
@@ -79,7 +82,7 @@ Galite sukurti darbo užduotis, apibūdinančias pagrindines užduotis, kurias a
 
 ### <a name="job-functions"></a>Užduoties funkcijos
 
-Užduoties funkcijos panašios į darbo užduotis. Užduoties funkcija apibūdina vieną ar daugiau užduočių, pareigų ar įsipareigojimų, priskirtų užduočiai. Darbo funkcijas gali būti priskirta darbams ir naudojamas nustatyti ir įgyvendinti kompensavimo tinkamumo finansuoti taisyklės. Darbo funkcijų pavyzdžiai yra išvardyti toliau pateiktoje lentelėje.
+Užduoties funkcijos panašios į darbo užduotis. Užduoties funkcija apibūdina vieną ar daugiau užduočių, pareigų ar įsipareigojimų, priskirtų užduočiai. Užduočių funkcijos gali būti priskiriamos užduotims ir naudojamos atlyginimo planų tinkamumo taisyklėms nustatyti ir įgyvendinti. Šioje lentelėje pateikta keletas užduočių funkcijų pavyzdžių.
 
 | Užduotis           | Užduoties funkcija                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims
 <a name="positions"></a>Pareigybės
 ----------
 
-Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pozicija yra individualus užduoties egzempliorius. Pvz., į poziciją "(Rytai), pardavimų vadybininkas" yra tik viena iš pozicijos, kuris yra susietas su užduotimi "Pardavimų vadovas." Pozicijas egzistuoja departamentas ir yra paskirti darbuotojai.
+Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pozicija yra individualus užduoties egzempliorius. Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra tik vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“. Pareigos atitinka padalinį ir yra priskiriamos darbuotojams.
 ### <a name="position-creation-and-maintenance"></a>Pareigų kūrimas ir priežiūra
 
 -   Lengvai pasiekiamame sąrašo puslapyje galite peržiūrėti su pareigomis susijusių sistemos pakeitimų retrospektyvą.
@@ -161,6 +164,8 @@ Galite nurodyti būsimus kai kurių įrašų pakeitimus. Ši informacija priklau
 </table>
 
 Galite keisti lentelėje pateiktą informaciją, susijusią su pareigomis ar užduotimis, ir nurodyti datą, kada įsigalios šie pareigų arba užduočių pakeitimai. Pvz., pareigoms gali būti priskirtas tik vienas darbuotojas, tačiau Sanjay Patel, kuris yra priskirtas buhalterio-A pareigoms, po dviejų savaičių paliks šias pareigas. Joe Healy pakeis Sanjay Patel šiam išėjus. Sanjay toliau liekant priskirtam jo pareigoms, galite priskirti Joe Healy toms pačioms pareigoms, tačiau šis priskyrimas įsigalios tik po paskutinės Sanjay dienos einant šias pareigas.
+
+
 
 
 

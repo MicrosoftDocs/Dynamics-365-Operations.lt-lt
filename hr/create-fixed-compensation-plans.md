@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Pastoviosios atlyginimo dalies planų kūrimas
 
-Pastovioji atlyginimo dalis nurodo darbuotojo pastovų bruto atlyginimą ar darbo užmokestį. Šioje temoje aprašoma komponentus, kurie turi būti nustatyta prieš galite sukurti pastoviųjų atlyginimo dalių plano ir registruotis darbuotojų.
+[!include[banner](includes/banner.md)]
 
-Pastoviosios darbuotojų atlyginimo dalies sumas galima apskaičiuoti pagal tokius veiksnius kaip rezultatai, regionas ir biudžeto padidinimai. Microsoft Dynamics 365 operacijoms palaiko žingsnis, klasės ir grupės kompensacijos rūšis.
+
+Pastovioji atlyginimo dalis nurodo darbuotojo pastovų bruto atlyginimą ar darbo užmokestį. Šioje temoje aprašomi komponentai, kurie turi būti nustatyti prieš kuriant pastoviosios atlyginimo dalies planą ir įtraukiant darbuotojus.
+
+Pastoviosios darbuotojų atlyginimo dalies sumas galima apskaičiuoti pagal tokius veiksnius kaip rezultatai, regionas ir biudžeto padidinimai. „Microsoft Dynamics 365 for Operations“ palaiko veiksmų, kategorijos ir intervalo kompensacijos tipus.
 
 ## <a name="fixed-compensation-components"></a>Pastoviosios atlyginimo dalies komponentai
 ### <a name="compensation-levels"></a>kompensacijos lygiai
 
-Galite naudoti **kompensacijos už** nustatyti kompensacijos už įvairius darbus, kad būtų užtikrinta, kad darbuotojai, kurie turi šių darbo vietų yra atlyginama. Dėl į **kompensacijos už** puslapyje, galite nustatyti kompensacijos lygius, kurių reikia kiekvieno žingsnio, kokybės ir grupės planą. Naudokite mygtukus **aukštyn** ir **žemyn**, kad išdėstytumėte lygius teisinga tvarka, pagal jų tipą. Nustatydami užduoties kompensacijos lygius, padedate užtikrinti, kad visiems darbuotojams, kurių pareigoms priskirta vienoda užduotis, bus mokama vienodai.
+Galite naudoti **kompensacijos lygius**, kad nustatytumėte kompensaciją už įvairias užduotis, užtikrindami, kad šias užduotys atliekantiems darbuotojams būtų sąžiningai mokama. Puslapyje **Kompensacijos lygiai** galite nustatyti kompensacijos lygius, kurių reikia kiekvienam veiksmų, kategorijos ir intervalo planui. Naudokite mygtukus **aukštyn** ir **žemyn**, kad išdėstytumėte lygius teisinga tvarka, pagal jų tipą. Nustatydami užduoties kompensacijos lygius, padedate užtikrinti, kad visiems darbuotojams, kurių pareigoms priskirta vienoda užduotis, bus mokama vienodai.
 
 ### <a name="reference-points"></a>Atskaitos taškai
 
-**Atskaitos taškai** yra stulpeliai tinklelyje, apibrėžiantys kiekvieno lygio kompensacijos intervalus. kompensacijos lygis yra tinklelio eilutė. Tipiškas atspirties taškus vykdant planą klasės tipo yra minimalus, vidurinę ir ne daugiau. Galite sukurti atskaitos taškų, **atskaitos taško konfigūracijos** puslapis.
+**Atskaitos taškai** yra stulpeliai tinklelyje, apibrėžiantys kiekvieno lygio kompensacijos intervalus. kompensacijos lygis yra tinklelio eilutė. Įprasti kategorijos tipo plano atskaitos taškai yra mažiausias, vidurinis ir didžiausias. Atskaitos taškai kuriami puslapyje **Atskaitos taškų nustatymas**.
 
 ### <a name="compensation-grids"></a>Kompensavimo tinkleliai
 
@@ -56,11 +59,11 @@ Galite sukurti sujungti pastoviosios atlyginimo dalies planą, apimantį visus j
 
 Nustatymas **Nepatenka į leistiną nuokrypio diapazoną** leidžia nurodyti, kaip griežtai norite užtikrinti, kad kompensacijos sumos būtų tarp mažiausios ir didžiausios sumų. **Griežtas** nuokrypis reikalauja, kad kompensacija patektų į atitinkamo lygio diapazoną. **Nuosaikus** nuokrypis įspėja, kai kompensacijos suma nebepatenka į diapazoną, bet leidžia tęsti. Jei nustatysite nuokrypio reikšmę **Nėra**, galėsite įvesti darbuotojo kompensacijos sumą sumą ir negauti įspėjimo arba klaidos pranešim.. 
 
-Į **nuoma taisyklė** nustatymas leidžia jums nurodyti, ar visi darbuotojai turėtų gauti patį padidinti, neatsižvelgiant į datą, kad jie buvo išnuomotos (**nuoma taisyklė** = **nė vienas**), arba ar darbuotojai turėtų gauti procentais nuo sudarymo, atsižvelgiant į tai, kiek laiko jie dirbo per ciklą (**nuoma taisyklė** = **procentų**). 
+Parametras **Samdos taisyklė** leidžia nurodyti, ar visi darbuotojai turi gauti tokį patį padidėjimą, neatsižvelgiant į jų pasamdymo dieną(**Samdos taisyklė**  = **Nėra**), ar darbuotojai turi gauti procentą nuo premijos, atsižvelgiant į tai, kiek laiko jie dirbo per ciklą (**Samdos taisyklė**  = **Procentas**). 
 
 **Diapazono realizavimo matrica** naudinga, jei norite sutrumpinti laiką, kurio reikia darbuotojams, kad pasiektų savo diapazono vidurio tašką, arba pailginti laiką, kurio reikia darbuotojams, kad pasiektų savo diapazono didžiausią atskaitos tašką. Pavyzdžiui, norite darbuotojams, kurie yra apatinių 25 procentų diapazone, suteikti 110 procentų jų tikslinės premijos, bet darbuotojams, kurie yra viršutinių 25 procentų diapazone, norite suteikti tik 80 procentų jų tikslinės premijos, kad neleistumėte taip greitai pasiekti didžiausios reikšmės. 
 
-Apibrėžę pastoviosios atlyginimo dalies plano pagrindus, galite nustatyti plano kompensacijos struktūrą. Spustelėkite **nustatyti kompensacijos**. Dialogo lange slankiklį atidaro kuri suteikia trijų variantų:
+Apibrėžę pastoviosios atlyginimo dalies plano pagrindus, galite nustatyti plano kompensacijos struktūrą. Spustelėkite **Nustatyti kompensaciją**. Atidaromas dialogo slankiklis, kuris suteikia tris parinktis.
 
 -   Sukurti naują kompensacijų tinklelį pasirenkant atskaitos taško nustatymą ir suteikiant tinkleliui pavadinimą.
 -   Sukurti naują kompensacijų tinklelį nukopijuojant esamą tinklelį, kurį galite naudoti kaip pradžios tašką.
@@ -71,7 +74,7 @@ Kai pasirenkate parinktį, atidaromas puslapis **kompensacijos struktūra** ir g
 ## <a name="fixed-compensation-enrollment"></a>Pastoviosios atlyginimo dalies registracija
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Nustatykite, kas turi teisę gauti planą
 
-Pirmasis darbuotojų įtraukimo į pastoviosios atlyginimo dalies planą žingsnis yra nustatyti, kas turi teisę gauti gauti plane apibrėžtą kompensaciją. Kol nenustatysite tinkamumo, negalėsite priskirti plano nė vienam darbuotojui. Norėdami nustatyti tinkamumą, atidarykite su **tinkamumo taisyklės** puslapis. Čia sukuriate naują tinkamumo taisyklę dėl kompensavimo planą ir nustatyti kriterijus, kuriuos darbuotojas turi atitikti norint gauti planą. Galite riboti tinkamumą pagal padalinį, profesinę sąjungą, kompensacijų regioną (vietą), užduotį, užduoties tipą arba kompensacijos lygį. Darbuotojai gali būti įtraukti į kompensacijos planą tik tada, jei jie atitinka visus kriterijus, nustatytus tinkamumo taisyklėje. 
+Pirmasis darbuotojų įtraukimo į pastoviosios atlyginimo dalies planą žingsnis yra nustatyti, kas turi teisę gauti gauti plane apibrėžtą kompensaciją. Kol nenustatysite tinkamumo, negalėsite priskirti plano nė vienam darbuotojui. Norėdami nustatyti tinkamumą, atidarykite puslapį **Tinkamumo taisyklės**. Čia galite sukurti naują tinkamumo jūsų kompensacijos planui taisyklę ir apibrėžti kriterijus, kuriuos darbuotojas turi atitikti, kad būtų tinkamas šiam planui. Galite riboti tinkamumą pagal padalinį, profesinę sąjungą, kompensacijų regioną (vietą), užduotį, užduoties tipą arba kompensacijos lygį. Darbuotojai gali būti įtraukti į kompensacijos planą tik tada, jei jie atitinka visus kriterijus, nustatytus tinkamumo taisyklėje. 
 
 **Pastaba:** tinkamumo taisyklės naudojamos siekiant nustatyti teisę tiek į pastoviosios, tiek į kintamosios atlyginimo dalies planą. 
 
@@ -83,7 +86,7 @@ Tinkamumo taisyklė įvertina konkrečių užduoties, pareigų ir darbuotojo įr
     -   Skirtuke **Kompensacija** – į lauką **Lygis**
 -   Puslapyje **Pareigos** tinkamumo taisyklė įvertina laukus **Padalinys** ir **Kompensacijų regionas**.
 
-Tinkamumo taisyklė taip pat mano profsąjungas, kurios yra susijusios su darbuotojo (ant į **darbuotojų** puslapis, apie į **darbuotojo** skirtuką, spustelėkite **asmeninę informaciją**&gt;**profsąjungų**).
+Tinkamumo taisyklė taip pat įvertina su darbuotoju susijusias profesines sąjungas (puslapyje **Darbuotojai**, skirtuke **Darbuotojas**, spustelėkite **Asmeninė informacija** &gt; **Profesinės sąjungos**).
 
 ### <a name="define-fixed-compensation-actions"></a>Pastoviosios atlyginimo dalies veiksmų apibrėžimas
 
@@ -93,7 +96,7 @@ Pvz., nustačius pastoviąją atlyginimo dalį darbuotojui, galima naudoti tik t
 
 ### <a name="enroll-the-employee"></a>Darbuotojo įtraukimas
 
-Dabar galite pastoviosios atlyginimo dalies planui priskirti darbuotoją. Atidarykite puslapį **Darbuotojai** ir pasirinkite darbuotoją, kurį norite įtraukti į kompensacijos planą. Veiksmų srityje spustelėkite **kompensacijos**&gt;**ilgalaikio plano**. Dabar galite sukurti naują pastoviosios atlyginimo dalies veiksmas tas darbuotojas. 
+Dabar galite pastoviosios atlyginimo dalies planui priskirti darbuotoją. Atidarykite puslapį **Darbuotojai** ir pasirinkite darbuotoją, kurį norite įtraukti į kompensacijos planą. Veiksmų srityje spustelėkite **Kompensacija** &gt; **Pastoviosios dalies planas**. Dabar tam darbuotojui galite sukurti naują pastoviosios atlyginimo dalies veiksmą. 
 
 **Pastaba:** kompensacijos plano lauke rodomi tik tie planai, į kuriuos darbuotojas turi teisę pagal kiekvienam planui nustatytas tinkamumo taisykles. Jei planas neturi nustatytos tinkamumo taisyklės, į tokį planą negalės būti įtraukti jokie darbuotojai. 
 
@@ -103,5 +106,7 @@ Sistema patikrina, kad nurodyta kategorijos arba intervalo tipo kompensacijos pl
 --------
 
 [Kompensacijų planai](compensation-plans.md)
+
+
 
 

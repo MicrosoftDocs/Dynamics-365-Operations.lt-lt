@@ -1,6 +1,6 @@
 ---
-title: "PVM registruoti operacijas Rytų Europoje"
-description: "Šioje temoje pateikta informacija apie PVM registre operacijas Estijoje, Lietuvoje, Čekijoje, Vengrijoje, Latvijoje ir Lenkijoje."
+title: "PVM registro operacijos (Rytų Europa)"
+description: "Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,10 +25,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vat-register-transactions-for-eastern-europe"></a>PVM registruoti operacijas Rytų Europoje
+# <a name="vat-register-transactions-for-eastern-europe"></a>PVM registro operacijos (Rytų Europa)
 
-Šioje temoje pateikta informacija apie PVM registre operacijas Estijoje, Lietuvoje, Čekijoje, Vengrijoje, Latvijoje ir Lenkijoje. 
+[!include[banner](../includes/banner.md)]
 
-Juridiniams asmenims su pagrindinis adresas – Estijoje, Lietuvoje, Čekijoje, Vengrijoje, Latvijoje ir Lenkijoje, galite peržiūrėti mokesčių operacijas ir atnaujinti, **dienos, PVM mokėtojų registre** jiems. Norėdami peržiūrėti operacijas, PVM registre, atidaryti **mokesčių**&gt;**periodines užduotis**&gt;**PVM registruoti operacijas**. Šis puslapis rodo mokesčių operacijas, kurios buvo sukurtos pagal PVM kodus tipo **standartinis PVM**, kuriam į **data, PVM mokėtojų registre** yra tuščias. Galite užpildyti ir **data iš PVM mokėtojų registre** lauko mokesčių operacijas naudojant į **data iš PVM mokėtojų registre** mygtuką į **pagrindiniame meniu**. Pagrindinis adresas Čekijos Respublikoje juridinių subjektų, skirtas papildomame stulpelyje, **atidėti PVM**. Jei pažymėtas šis laukas nurodo, kad pridėtinės vertės mokestis nebuvo pastebėta operacijos. Paprastai tai taikoma pardavimo kredito pažymos, laukiančias patvirtinimo iš kliento. Galite pažymėti šį žymės langelį, pardavimo SF registravimo proceso metu. Dėl to **PVM kodus** puslapis (**mokesčių**&gt;**PVM**&gt;**PVM kodus**), galite peržiūrėti arba atnaujinti PVM kodo tipas. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai. 
+
+Jei pagrindinis juridinio subjekto adresas yra Estijoje, Lietuvoje, Čekijos Respublikoje, Vengrijoje, Latvijoje arba Lenkijoje, galite peržiūrėti mokesčių operacijas ir naujinti jų **PVM registro datą**. Norėdami peržiūrėti PVM registro operacijas, pasirinkite **Mokesčiai** &gt; **Periodinės užduotys** &gt; **PVM registro operacijos**. Šiame puslapyje rodomos mokesčių operacijos, sukurtos naudojant tipo **Standartinis PVM** PVM kodus, kurių **PVM registro data** yra nenurodyta. Galite užpildyti mokesčių operacijų lauką **PVM registro data** naudodami mygtuką **PVM registro data**, kuris pateiktas dalyje **Pagrindinis meniu**. Jei pirminis juridinio subjekto adresas yra Čekijos Respublikoje, pateikiamas papildomas stulpelis, **Atidėtas PVM**. Jei pasirinktas šis laukas, tai reiškia, kad operacijos pridėtinės vertės mokesčio ataskaita nepateikta. Paprastai tai taikoma pardavimo kredito pažymoms, laukiančioms kliento patvirtinimo. Šį žymės langelį galite pažymėti pardavimo SF registravimo proceso metu. Puslapyje **PVM kodai** (**Mokesčiai** &gt; **PVM** &gt; **PVM kodai**) galite peržiūrėti arba naujinti PVM kodo tipą. <!---For more information about sales tax codes, refer to [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).-->
+
+
 
 

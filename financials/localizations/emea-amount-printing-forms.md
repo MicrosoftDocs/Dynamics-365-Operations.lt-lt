@@ -1,6 +1,6 @@
 ---
-title: "Atnaujinti kaip sumos atvaizduojamos ataskaitų ir dokumentų"
-description: "Šioje temoje pateikta informacija apie tai, kaip atnaujinti kaip sumos atvaizduojamos ataskaitų ir kitų dokumentų dėl Estijos, Latvijos, Lietuvos, Lenkijos, Čekijos Respublikos, Vengrijos ir Rusijos."
+title: "Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas"
+description: "Šioje temoje pateikiama informacija apie tai, kaip naujinti sumų rodymą ataskaitose ir kituose dokumentuose, skirtuose Estijai, Latvijai, Lietuvai, Lenkijai, Čekijos Respublikai, Vengrijai, ir Rusijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,32 +24,37 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atnaujinti kaip sumos atvaizduojamos ataskaitų ir dokumentų
+# <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas
 
-Šioje temoje pateikta informacija apie tai, kaip atnaujinti kaip sumos atvaizduojamos ataskaitų ir kitų dokumentų dėl Estijos, Latvijos, Lietuvos, Lenkijos, Čekijos Respublikos, Vengrijos ir Rusijos.
+[!include[banner](../includes/banner.md)]
 
-Juridiniams asmenims – Estijos, Latvijos, Lietuvos, Lenkijos, Čekijos Respublikos, Vengrijos ir Rusijos, gali nustatyti vardus, pavardes ir trumpi vardai valiutos vienetų ir padaliniuose. Šiuos pavadinimus galima transformuoti, kaip sumos atvaizduojamos dokumentus ir ataskaitas. Pvz: suma **100,20 lt** gali būti rodomas kaip **100 litų 20 Centas**.
 
-## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Nustatyti valiutos vienetų ir padaliniuose ir trumpoji būdvardžio pavadinimus
-Norėdami nustatyti ir trumpoji būdvardžio valiutos vienetų pavadinimai ir padaliniuose už kalbą, atlikite šiuos veiksmus:
+Šioje temoje pateikiama informacija apie tai, kaip naujinti sumų rodymą ataskaitose ir kituose dokumentuose, skirtuose Estijai, Latvijai, Lietuvai, Lenkijai, Čekijos Respublikai, Vengrijai, ir Rusijai.
 
-1.  Atviros, **valiutų** puslapis.
+Jei pagrindinis juridinio subjekto adresas yra Estijoje,Latvijoje, Lietuvoje, Lenkijoje, Čekijos Respublikoje, Vengrijoje arba Rusijoje, galite nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus bei trumpus pavadinimus. Šiuos pavadinimus galima naudoti norint pakeisti sumų rodymo dokumentuose ir ataskaitose būdą. Pvz., **100,20 LT ** suma gali būti rodoma kaip **100 litų ir 20 centų**.
+
+## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Valiutos vienetų ir antrinių vienetų visų pavadinimų bei trumpų pavadinimų nustatymas
+Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus bei trumpus pavadinimus, atlikite tolesnius veiksmus.
+
+1.  Atidarykite puslapį **Valiutos**.
 2.  Pasirinkite valiutą.
-3.  Veiksmų srityje spustelėkite **linksniavimas**.
-4.  Norėdami įtraukti visas pavadinimas ir trumpas pavadinimas kalba, spustelėkite **naujas** ir užpildykite šiuos laukelius.
+3.  Veiksmų srityje spustelėkite **Linksniavimas**.
+4.  Norėdami įtraukti kalbos visą ir trumpą pavadinimus, spustelėkite **Naujas** ir užpildykite tolesnius laukus.
     |                                                           |                                                                                                                                                                                                                    |
     |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **Field**                                                 | **Description**                                                                                                                                                                                                    |
-    | **Language**                                              | Pasirinkti šio teksto kalbą.                                                                                                                                                                          |
-    | **Vienaskaitos vardininkas (vienetų lauke grupės pavadinimas)**       | Įvesti valiutos vienaskaitos forma. Pvz., vienaskaitos forma litų yra Litas.                                                                                                                         |
-    | **Daugiskaitos vardininkas (vienetų lauke grupės pavadinimas)**         | Įvesti valiutos daugiskaitos formą. Pavyzdžiui, įveskite Litai. **Pastaba**: Į **vienaskaitos kilmininkas** ir **Daugiskaitos kilmininkas** laukai galimi pagal pasirinktos kalbos, **kalbos** srityje. |
-    | **Vienaskaitos vardininkas srityje (dalis lauke grupės pavadinimas)** | Įvesti valiutos subvienetą vienaskaitos forma.                                                                                                                                                            |
-    | **Daugiskaitos vardininkas (dalis lauke grupės pavadinimas)**         | Įveskite daugiskaitos forma kiekviename valiutos.                                                                                                                                                              |
-    | **Nuorodos pavadinimas vienetų (trumpasis pavadinimas lauke grupė)**       | Įveskite nustatyti valiutos ISO kodą. Pavyzdžiui, įveskite LTL identifikuoti litui..                                                                                                                             |
-    | **Nuorodos pavadinimas dalims (trumpasis pavadinimas lauke grupė)**      | Įvesti valiutos subvienetą pavadinimų. Pavyzdžiui, įveskite Centas.                                                                                                                                         |
-    | **Conjunction 'and' between units and parts**             | Pasirinkite, jei norite spausdinti jungtukas "ir" tarp valiutos vienetų ir baldų dalys. Pvz., sąskaitų faktūrų ar ataskaitų, 100,20 lt, suma bus rodoma kaip 100 litų ir 20 Centas.                      |
+    | **Laukas**                                                 | **Aprašas**                                                                                                                                                                                                    |
+    | **Kalba**                                              | Pasirinkti šio teksto kalbą.                                                                                                                                                                          |
+    | **Vienaskaitos vardininkas (laukų grupė Vienetų pavadinimas)**       | Įveskite valiutos pavadinimą vienaskaitos forma. Pvz., valiutos litas vienaskaitos forma yra litas.                                                                                                                         |
+    | **Daugiskaitos vardininkas (laukų grupė Vienetų pavadinimas)**         | Įveskite valiutos pavadinimą daugiskaitos forma. Pavyzdžiui, įveskite litai. **Pastaba**: laukai **Vienaskaitos kilmininkas** ir **Daugiskaitos kilmininkas** rodomi atsižvelgiant į lauke **Kalba** pasirinktą kalbą. |
+    | **Laukas Vienaskaitos vardininkas (laukų grupė Dalių pavadinimas)** | Įveskite valiutos antrinio vieneto pavadinimą vienaskaitos forma.                                                                                                                                                            |
+    | **Daugiskaitos vardininkas (laukų grupė Dalių pavadinimas)**         | Įveskite valiutos antrinio vieneto pavadinimą daugiskaitos forma.                                                                                                                                                              |
+    | **Trumpas vienetų pavadinimas (laukų grupė Trumpas pavadinimas)**       | Įveskite ISO kodą, kad identifikuotumėte valiutą. Pavyzdžiui, įveskite LTL identifikuoti litui..                                                                                                                             |
+    | **Trumpas dalių pavadinimas (laukų grupė Trumpas pavadinimas)**      | Įveskite valiutos antrinio vieneto nominaliąją vertę. Pavyzdžiui, įveskite centas.                                                                                                                                         |
+    | **Jungtukas „ir“ tarp vienetų ir dalių**             | Pažymėkite, jei norite spausdinti jungtuką „ir“ tarp valiutos vienetų ir vieneto dalių. Pvz., SF ir ataskaitose 100,20 LTL suma rodoma kaip 100 litų ir 20 centų.                      |
 
-5.  Click **Save**.
+5.  Spustelėkite **Įrašyti**.
+
+
 
 
 

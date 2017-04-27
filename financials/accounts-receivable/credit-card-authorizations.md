@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredito kortelių nustatymas, autorizacija ir patvirtinimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiama kredito kortelės autorizacija programoje „Microsoft Dynamics AX‟. Jame pateikiama informacija apie tai, kaip nustatyti mokėjimo tarnybą, į pardavimo užsakymą įtraukti kredito kortelę ir anuliuoti autorizaciją.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Kredito kortelės mokėjimo paslaugos nustatymas
@@ -55,7 +58,7 @@ Galite reikalauti kortelės patvirtinimo vertės, kuri kartais vadinama kortelė
 
 ### <a name="address-verification"></a>Adreso tikrinimas
 
-Adreso patikrinimo informacija visada siunčiama mokėjimo paslaugų teikėjui. Galite nuspręsti, kiek informacijos yra reikalaujama, kad sandoris būtų priimtini. Būtinai pasikonsultuokite su tiekėju Norėdami nustatyti, ar ji priima šią informaciją. Adreso patvirtinimo variantai yra šie:
+Adreso patikrinimo informacija visada siunčiama mokėjimo paslaugų teikėjui. Galite nuspręsti, kiek informacijos reikia, kad operacija būtų priimta. Būtinai pasitikrinkite, ar jūsų teikėjas priima šią informaciją. Adreso patvirtinimo variantai yra šie:
 -   **Visada priimti sandorį** – priimti sandorį, neatsižvelgiant į adreso patikrinimo rezultatus.
 -   **Sąskaitos turėtojas** – palyginti kortelės savininko vardą iš sandorio su kredito kortelės įmonės informacija.
 -   **Atsiskaitymo adresas** – palyginti kortelės savininko vardą ir atsiskaitymo adresą iš sandorio su kredito kortelės įmonės informacija.
@@ -68,10 +71,12 @@ Kiekvienam palaikomam kredito kortelės tipui galite nurodyti duomenų palaikymo
 -   **3 lygis** – perduoti visą 2 lygio informaciją, siuntimo ir prekybininko adresus bei užsakymo eilutės informaciją.
 
 ## <a name="partial-payments"></a>Daliniai mokėjimai
-Jei pristatote dalį užsakymo, dalinis pavedimo suma yra užfiksuotas ir leidimas, kuris buvo visai užsakymo sumai, nedirba. Likusią sumą užsakymo, kuris nebuvo ve˛amos perduodama naujo leidimo.
+Jei gabenate dalį užsakymo, fiksuojama dalinio užsakymo suma, o autorizacija visai užsakymo sumai uždaroma. Tada pateikiama nauja autorizacija likusio neišsiųsto užsakymo sumai.
 
 ## <a name="voiding-an-authorization"></a>Autorizavimo anuliavimas 
 Norėdami anuliuoti kreditinių kortelių autorizavimą, galite pakeisti mokėjimo būdą į kitą metodą, kuris neturi kredito kortelės tipo.
+
+
 
 
 

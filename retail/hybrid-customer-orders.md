@@ -1,6 +1,6 @@
 ---
-title: "Hibridinis klientų užsakymus"
-description: "Hibridinis kliento užsakymas yra vienetinį užsakymą, kuriame yra produktų, kurie gali būti vežami iš saugyklos klientui, taip pat produktų, kurie bus įlaipinami arba išsiųsti vėliau."
+title: "Hibridiniai kliento užsakymai"
+description: "Hibridinis kliento užsakymas yra vienas užsakymas, apimantis produktus, kuriuos klientas gali išsinešti iš parduotuvės pats, ir produktus, kurie bus paimti arba išsiųsti vėliau."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,20 +25,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="hybrid-customer-orders"></a>Hibridinis klientų užsakymus
+# <a name="hybrid-customer-orders"></a>Hibridiniai kliento užsakymai
 
-Hibridinis kliento užsakymas yra vienetinį užsakymą, kuriame yra produktų, kurie gali būti vežami iš saugyklos klientui, taip pat produktų, kurie bus įlaipinami arba išsiųsti vėliau.
+[!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 operacijų - mažmeninės prekybos, galite pasirinkti arba atlikti visus produktus arba atlikti išsirinktas prekes pirkėjo užsakyme. Eilutėms, kurios pažymėtos kaip atlikti automatiškai išrašytos sukūrus užsakymo produkto, taip pat tai yra tas pats išduoti vykdomąjį raštą, kuris turi būti įlaipinami veiksmų sukūrus užsakymo. Mokėtina suma hibridinių užsakymų nustatomas pridedant ir depozito procentinė išraiška pasirinkti ir laivo produktų linijas su linijos atlikti visą sumą. Hibridinis užsakymų, sistema pereina tarp klientų užsakymų ir atsiskaitoma grynaisiais režimo taip:
 
--   Jei visi produktai krepšelyje yra nustatytas kaip **atlikti pristatymo**, tvarka, bus tvarkoma kaip atsiskaitoma grynaisiais operaciją.
--   Jei bet kurios arba visų eilučių krepšelyje yra nustatytas kaip **pasirinkti** ar **laivo pristatymo**, tvarka, bus tvarkoma kaip kliento užsakymo operaciją.
+Hibridinis kliento užsakymas yra vienas užsakymas, apimantis produktus, kuriuos klientas gali išsinešti iš parduotuvės pats, ir produktus, kurie bus paimti arba išsiųsti vėliau.
 
-Jei krepšelis linija pažymėtas ir **pasiimti pasirinktas**, **laivas pasirinktas**, arba **atlikti pasirinktas** yra pasirinkta, tik konkrečių krepšelis linija nustatoma šį pristatymo būdą. Tokiu atveju pasroviui atsirandančių srauto operacijos toliau kaip įprasta. Tačiau jei **pasiimti pasirinktas**, **laivas pasirinktas**, arba **atlikti pasirinktas** pažymėtas be krepšelio eilutės yra atrinkti, naujas puslapis atsidaro, kad išvardijamos visos krepšelio eilutės. Kad ekranas, galite pasirinkti kelias eilutes vienu metu nustatyti pristatymo būdą. Naudojant šį metodą pasirinkti eilutes, bet ankstesniais pristatymo būdą, kuris buvo priskirtas prie linijos bus nepaisoma.
+„Microsoft Dynamics 365 for Operations“ versijoje „Retail“ galite pasirinkti išsinešti visus arba pasirinktus kliento užsakymo produktus. Sukūrus užsakymą automatiškai išrašoma SF už produktų eilutes, pažymėtas išsinešti; tai taip pat taikoma užsakymui, kurio produktai bus paimti po užsakymo sukūrimo. Hibridinių užsakymų mokėtina suma nustatoma sudėjus paimtinų ir siųstinų produktų eilučių depozito procentą ir visą išsinešti pažymėtų produktų eilučių sumą. Kai naudojami hibridiniai užsakymai, sistema perjungia kliento užsakymo režimą ir atsiskaitymo grynaisiais režimą, kaip nurodyta toliau.
+
+-   Jei visi produktai krepšelyje yra nustatyti kaip **Išsineština**, užsakymas bus tvarkomas kaip atsiskaitymo grynaisiais operacija.
+-   Jei visos ar bent viena eilutė krepšelyje yra nustatyti kaip **Paimtina** arba **Išsiųstina**, užsakymas bus tvarkomas kaip kliento užsakymo operacija.
+
+Pasirinkus krepšelio eilutę ir parinktį **Išrinkti pasirinktus**, **Išsiųsti pasirinktus** arba **Išsinešti pasirinktus**, toks pristatymo būdas nustatomas tik konkrečiai krepšelio eilutei. Tokiu atveju operacijos proceso pabaigos srautas tęsiamas įprastai. Tačiau, jei pažymėta parinktis **Išrinkti pasirinktus**, **Išsiųsti pasirinktus** arba **Išsinešti pasirinktus**, bet nepasirinkta jokia krepšelio eilutė, atidaromas naujas puslapis, kuriame pateikiamos visos krepšelio eilutės. Tame ekrane galite vienu metu pasirinkti kelias eilutes ir nustatyti jų pristatymo būdą. Pritaikius tą būdą pasirinktoms eilutėms, perrašomas bet koks ankstesnis toms eilutėms priskirtas pristatymo būdas.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Klientų užsakymų apžvalga](customer-orders-overview.md)
+[Kliento užsakymų apžvalga](customer-orders-overview.md)
+
+
 
 

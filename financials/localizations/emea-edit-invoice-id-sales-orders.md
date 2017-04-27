@@ -1,6 +1,6 @@
 ---
-title: "Redaguoti SF identifikatoriai pardavimų užsakymuose Rytų Europai"
-description: "Šioje temoje pateikta informacija apie gautinų sumų parametrai, paveikti sąskaitų numerius ant važtaraščių ir sąskaitų-faktūrų, Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje ir Lenkijoje."
+title: "Pardavimo užsakymų SF ID redagavimas (Rytų Europa)"
+description: "Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Redaguoti SF identifikatoriai pardavimų užsakymuose Rytų Europai
+# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
 
-Šioje temoje pateikta informacija apie gautinų sumų parametrai, paveikti sąskaitų numerius ant važtaraščių ir sąskaitų-faktūrų, Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje ir Lenkijoje.
+[!include[banner](../includes/banner.md)]
 
-Juridiniams asmenims – Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje ir Lenkijoje, ir **redaguoti pardavimo užsakymų SF ID** parinktis leidžia jums rankiniu būdu įvesti važtaraščio ir SF numerių pirkėjo pakavimo važtaraščio ir SF. Šias parinktis galima rasti ir **sudaro gautinų sumų parametrai** p., apie į **SF** FastTab, į **naujinimų** tab.
+
+Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai.
+
+Jei juridiniai subjektai yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje arba Lenkijoje, parinktis **Redaguoti pardavimo užsakymų SF ID** suteikia galimybę neautomatiškai įvesti važtaraščio ir SF numerius kliento važtaraštyje ir SF. Puslapyje **Gautinų sumų parametrai**, skirtuko **Naujinimai** „FastTab“ **SF** galima naudoti tolesnes parinktis.
 <table>
 <colgroup>
 <col width="50%" />
@@ -37,24 +40,26 @@ Juridiniams asmenims – Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje,
 <tbody>
 <tr class="odd">
 <td><strong>Parametras</strong></td>
-<td> <strong>Description</strong></td>
+<td> <strong>Aprašas</strong></td>
 </tr>
 <tr class="even">
 <td>Redaguoti pardavimo užsakymo SF ID</td>
-<td>Pasirinkus šią parinktį, galėsite atlikti šiuos veiksmus:
+<td>Jei ši parinktis pasirinkta, galėsite atlikti tolesnius veiksmus.
 <ul>
-<li>Redaguoti pagal <strong>važtaraščio</strong> lauko ir <strong>pakavimo važtaraščio registravimas</strong> puslapis.</li>
-<li>Redaguoti pagal <strong>SF</strong> lauko ir <strong>SF</strong> puslapis.</li>
-<li>Pasirinkite į <strong>tikrinti sąskaitos-faktūros numeris naudojamas</strong> parametras.</li>
+<li>Redaguoti lauką <strong>Važtaraštis</strong> puslapyje <strong>Važtaraščio registravimas</strong>.</li>
+<li>Redaguoti lauką <strong>SF</strong> puslapyje <strong>SF registravimas</strong>.</li>
+<li>Pasirinkti parametrą <strong>Patikrinti naudojamą SF numerį</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Patikrinti naudojamą SF numerį</td>
-<td>Jei ši pasirinktis pasirinkta, SF registravimo proceso metu sistema patikrins, kad sąskaitos faktūros numerį jau nėra užregistruotas SF. Jei numeris, rodomas klaidos pranešimas.</td>
+<td>Jei ši parinktis pasirinkta, SF registravimo proceso metu sistema patikrins, ar SF numeris nesutampa su užregistruotų SF numeriais. Jei numeris jau yra, rodomas klaidos pranešimas.</td>
 </tr>
 </tbody>
 </table>
 
  
+
+
 
 

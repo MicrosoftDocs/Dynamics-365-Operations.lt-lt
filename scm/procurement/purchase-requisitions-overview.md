@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos.
 
 Atsižvelgdami į jūsų organizacijos nustatymą, galite sukurti pirkimo paraiškas produktams, kuriuos naudoja jūsų organizacija. Pirkimo paraiška yra vidinis dokumentas, įgaliojantis Pirkimo skyrių pirkti prekes arba paslaugas.  
@@ -48,7 +51,7 @@ Pirkimo paraiškos darbo eigos procesą galite konfigūruoti ir nukreipti pirkim
 
 Pateiktoje diagramoje rodomos pirkimo paraiškai ir pirkimo paraiškos eilutei priskirtos būsenos, kai šios perkeliamos darbo eigos proceso metu.  
 
-[![Pirkimo paraiškos antraštės ir eilučių būsenos](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Pirkimo paraiškos antraštės ir eilutės būsenos](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Pirkimo paraiškos antraštės ir eilutės būsenų ryšys
 
@@ -77,7 +80,7 @@ Bendrąją pirkimo paraiškos būseną nustato pirkimo paraiškos eilučių būs
 <td>Jei darbo eiga buvo sukonfigūruota nukreipti pirkimo paraiškos eilutes atskiriems redaktoriams, kiekvienos eilutės būsena gali būti <strong>Peržiūrima</strong> arba <strong>Atmesta</strong>. Kai visų pirkimo paraiškos eilučių peržiūros procesas baigtas ir nebeliko jokių pirkimo paraiškos peržiūros proceso veiksmų, atnaujinama pirkimo paraiškos būsena.
 <ul>
 <li><strong>Peržiūrima</strong> – pirkimo paraiškos eilutės pateiktos peržiūrėti. Kai pirkimo paraiškos eilutės darbo eigos procesas yra baigtas, tos eilutės būsena lieka <strong>Peržiūrima</strong> tol, kol bus peržiūrėtos visos likusios pirkimo paraiškos eilutės.</li>
-<li><strong>Atmesti</strong> -pirkimo paraiškos eilutė buvo atmestas. Pirkimo paraiškos eilutėse, kad yra atmestas, gali būti pakeistas ir pateikti iš naujo.</li>
+<li><strong>Atmesta</strong> – pirkimo paraiškos eilutė atmesta. Pirkimo paraiškos eilutes, kurios buvo atmestos, galima pakeisti ir pateikti iš naujo.</li>
 </ul>
 Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiūros procesas prasideda visoms pirkimo paraiškos eilutėms, kurios vis dar peržiūrimos. <strong>Pastaba:</strong> galima atšaukti jau pateiktą pirkimo paraišką. Atšaukus pirkimo paraišką, taip pat atšaukiamos visos kitos pirkimo paraiškos eilutės. Galima panaikinti pirkimo paraiškos eilutes, kurios buvo atšauktos.</td>
 </tr>
@@ -133,7 +136,7 @@ Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiū
 Galite paskirstyti produktų išlaidas, kurios pirkimo paraiškoje yra įtrauktos į keletą finansinių ataskaitų. Jei jūsų organizacija naudoja dimensijas, pavyzdžiui, išlaidų centrams ir padaliniams, galite paskirstyti produkto savikainą dimensijoms finansinėms ataskaitoms.
 
 ## <a name="requisition-purposes"></a>Paraiškos paskirtys
-Dėl paraiškos paskirčių paraiškos poreikio įvykdymo procesas yra lankstesnis. Kurdami paraišką galite priskirti jai vieną iš dviejų paskirčių: vartojimas arba papildymas. Priklausomai nuo paraiškos tikslas ir organizacijos struktūros, paraiškos paklausa gali būti įvykdyti pirkimo užsakymo, perdavimo užsakymo, gamybos užsakymo ar kanban.  
+Dėl paraiškos paskirčių paraiškos poreikio įvykdymo procesas yra lankstesnis. Kurdami paraišką galite priskirti jai vieną iš dviejų paskirčių: vartojimas arba papildymas. Priklausomai nuo paraiškos paskirties ir jūsų organizacijos nustatymo, paraiškos poreikį galima tenkinti pirkimo užsakymu, perkėlimo užsakymu, gamybos užsakymu arba „kanban“.  
 
 Įsigijimo strategijose galite valdyti paraiškos paskirtis, kurios galimos tuo metu, kai jūsų organizacijai sukuriama paraiška.
 
@@ -152,7 +155,7 @@ Norint naudoti pirkimo paraiškas, kurių paskirtis yra papildymas, turite nusta
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Pirkimo paraiškos ir pasiūlymo reikalavimai
 Kai kuriais atvejais, galite pradėti pasiūlymo patvirtinimo (RFQ) procesą, norėdami identifikuoti pirkimo paraiškoje nurodytų produktų tiekėją ir kainą. RFQ galima generuoti, kai pirkimo paraiška yra peržiūrima. Priėmus pasiūlymą, informacija apie tiekėją, kainą ir kt. perkeliama į paraišką.  
 
-Galite įdėti pirkimo paraiškos palaikykite pasirinkę su **palaikykite** žymės langelį į **pirkimo paraiškos duomenys** puslapis. Tvarkant pirkimo paraiškos toliau tik pašalinus palaikykite išvalydami žymės langelį.  
+Galite sulaikyti pirkimo paraišką puslapyje **Pirkimo paraiškos informacija** pažymėdami žymės langelį **Sulaikyta**. Pirkimo paraiškos apdorojimą galite tęsti tik pašalinę sulaikymą panaikindami žymės langelio žymėjimą.  
 
 **Pastaba:** programoje „eProcurement“ pirkimo paraiškos RFQ gali leisti tiekėjams įtraukti alternatyvių eilučių. Tokiu atveju, jūsų pirkimo paraiškoje bus nurodyti patvirtinti pakeitimai.
 
@@ -178,7 +181,7 @@ Norėdami sukurti pirkimo užsakymą pagal pirkimo paraiškos eilutes, kurios ne
 
 Poreikio konsolidavimo procesas prasideda darbo eigoje patvirtinus pirkimo paraišką ir įrašius biudžeto rezervavimus ir preliminarius biudžeto rezervavimus, jei jūsų organizacijoje sukonfigūruota biudžeto kontrolė. Šioje diagramoje pavaizduota poreikio konsolidavimo proceso eiga.  
 
-[![Paklausos konsolidacijos proceso srauto](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Poreikio konsolidavimo proceso eiga](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau nurodytus veiksmus.
 
@@ -192,8 +195,10 @@ Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sukurti rekvizuoti maistui (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Kurti vartojimo paraišką (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto pagrindinis puslapis
-description: "Ilgalaikis turtas yra daiktų vertę, pvz., pastatus, transporto priemones, žemės ir įrangos, kurios priklauso asmeniui arba organizacijai."
+description: "Ilgalaikis turtas yra vertingas turtas, pvz., pastatai, transporto priemonės, žemė ir įranga, priklausantis asmeniui arba organizacijai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Ilgalaikio turto pagrindinis puslapis
 
-Ilgalaikis turtas yra daiktų vertę, pvz., pastatus, transporto priemones, žemės ir įrangos, kurios priklauso asmeniui arba organizacijai.
+[!include[banner](../includes/banner.md)]
+
+
+Ilgalaikis turtas yra vertingas turtas, pvz., pastatai, transporto priemonės, žemė ir įranga, priklausantis asmeniui arba organizacijai. 
 
 Galite nustatyti ir įvesti ilgalaikio turto įsigijimo informaciją ir taip jį valdyti nustatydami nusidėvėjimą ir kapitalizacijos ribinę vertę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikio turto korekcijas bei jo atsikratyti. Kai su ilgalaikio turto moduliu naudojate didžiosios knygos modulį, galite peržiūrėti dabartinę viso ilgalaikio turto vertę. Ilgalaikio turto valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek kiekvienos šalies / regiono apskaitos įstatymus. Į reikalavimus gali būti įtrauktos ilgalaikio turto gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikio turto funkcijos apima daugelį šių standartų ir taisyklių.
+
+
 
 
 

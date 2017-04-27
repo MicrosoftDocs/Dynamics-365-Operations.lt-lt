@@ -1,5 +1,5 @@
 ---
-title: "Nustatyti mobiliųjų įrenginių darbui sandėlyje"
+title: "Mobiliųjų įrenginių nustatymas darbui sandėlyje"
 description: "Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Nustatyti mobiliųjų įrenginių darbui sandėlyje
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
 Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 -   Kurti darbą, kuris bus atliekamas kitame procese. Pavyzdžiui, pirkimo užsakymo prekės gavimas gali sukurti atidėjimo darbą kitam darbuotojui.
 -   Atlikti darbą, kuris buvo sukurtas kito proceso (esamą darbą), pvz., atidėjimo darbo, sukurto gavus prekę pagal pirkimo užsakymą.
 
-Sukurti meniu elemento veiklą ar atlikti tyrimą, nustatyti į **režimas** lauko į **netiesioginių**. Sąrašas **veiklos kodas** parinktys, tada tampa prieinama, kad jums pasirinkti tyrimo arba veikla, kuri yra meniu elementas. Sukurti meniu komandą, norėdami kurti sandėlio darbą, nustatyti į **režimas** lauko į **darbo**. Sąrašas **darbo vietų kūrimo procesas** parinktys, tada tampa prieinama. Norėdami sukurti meniu elementą siekiant apdoroti esamą sandėlio darbą, nustatykite lauko **Režimas** vertę į **Darbas**, tada nustatykite parinkties **Naudoti esamą darbą** vertę **Taip**. **Pastaba:** Papildomi laukai būtų galima gauti meniu punktų, priklausomai nuo režimo, kad pasirinksite meniu elementą, ir ar meniu elementas yra naudojamas atlikti esamo darbo. Informacijos apie papildomą lauką pasirinkimus, ieškokite šio straipsnio skyrių "papildomas meniu elementas parinktys".
+Norėdami kurti veiklos ar užklausos meniu elementą, nustatykite lauko **Režimas** vertę į **Netiesioginis**. Tada tampa galimas parinkčių **Veiklos kodas** sąrašas, kad galėtumėte pasirinkti užklausą arba veiklą, kuriai skirtas meniu elementas. Norėdami sukurti meniu elementą sandėlio darbui generuoti, nustatykite lauko **Režimas** vertę į **Darbas**. Taps galimas parinkčių **Darbo kūrimo procesas** sąrašas. Norėdami sukurti meniu elementą siekiant apdoroti esamą sandėlio darbą, nustatykite lauko **Režimas** vertę į **Darbas**, tada nustatykite parinkties **Naudoti esamą darbą** vertę **Taip**. **Pastaba.** Gali būti galimi papildomi meniu elementų laukai, atsižvelgiant į pasirinktą meniu elementą ir tai, ar meniu elementas naudojamas norint atlikti esamą darbą. Informacijos apie papildomų laukų pasirinktis žr. šio straipsnio skyriuje „Papildomos meniu elementų parinktys“.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Veiklų ir užklausų meniu elementų konfigūravimas
 Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite sukurti meniu elementą, kad būtų galima atlikti bendrą veiklą arba užklausą, kuri nekuria darbo. Tokios veiklos pavyzdžiai gali būti pakartotinis numerio lentelių žymių spausdinimas ir užklausa dėl vietoje esančių prekių. Toliau pateiktoje lentelėje nurodytos galimos parinktys.
@@ -190,7 +190,7 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Meniu elementų konfigūravimas esamam darbui apdoroti
-Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu elementus darbui, kuris jau sukurtas, apdoroti. Nustatykite lauko **Režimas** vertę į **Darbas** ir pasirinkite parinktį **Naudoti esamą darbą**. Keletą papildomų galimybių, tada pradedamos leisti kompaktiniais, **bendrojo** tab. Galite kontroliuoti prieigą prie meniu punktą priskirti vieną ar daugiau darbo grupių dėl to **dirbti klasės** FastTab. Darbo klasės apibrėžia darbą, kurį galima apdoroti naudojantis meniu elementu. Darbo klases taip pat galima naudoti siekiant suteikti prieigą prie konkretaus vartotojo vaidmenų arba atskirti skirtingų tipų operacijų vykdymą. Toliau pateiktoje lentelėje aprašomos galimos parinktys.
+Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu elementus darbui, kuris jau sukurtas, apdoroti. Nustatykite lauko **Režimas** vertę į **Darbas** ir pasirinkite parinktį **Naudoti esamą darbą**. Skirtuke **Bendra** tampa galimos papildomos galimybės. Galite valdyti prieigą prie meniu elemento priskirdami vieną ar daugiau darbo klasių „FastTab“ skirtuke **Darbo klasė**. Darbo klasės apibrėžia darbą, kurį galima apdoroti naudojantis meniu elementu. Darbo klases taip pat galima naudoti siekiant suteikti prieigą prie konkretaus vartotojo vaidmenų arba atskirti skirtingų tipų operacijų vykdymą. Toliau pateiktoje lentelėje aprašomos galimos parinktys.
 
 <table>
 
@@ -210,7 +210,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Sistemos nurodyta</td>
-<td>Microsoft Dynamics 365 operacijoms valdo tą darbą, kuris priskirtas darbuotojui ir tvarką, pagal kurią darbuotojas atlieka darbą. Pasirinkus šią parinktį, galite spustelėti <strong>sistemos valdomos darbo</strong> Naujintiveiksmų srityje atidaryti, <strong>sistemos valdomos rūšiavimo tvarkos</strong> puslapyje, kur galite nustatyti rūšiavimo kriterijai darbą. Rūšiavimo kriterijai kontrolės tvarką, pagal kurią darbuotojas atlieka darbą. Galite įtraukti kuo daugiau kriterijų, kaip jums reikia.</td>
+<td>„Microsoft Dynamics 365 for Operations“ valdo darbo, priskirto darbuotojui, tipą ir tvarką, kuria darbuotojas atlieka darbą. Kai pasirenkate šią pasirinktį, veiksmų srityje galite spustelėti <strong>Sistemos nurodytas darbas</strong>, kad atidarytumėte puslapį <strong>Sistemos nurodyta rikiavimo tvarka</strong>, kuriame galite nustatyti darbo rūšiavimo kriterijus. Rūšiavimo kriterijai kontroliuoja tvarką, kuria darbuotojas atlieka darbą. Galite pridėti tiek kriterijų, kiek reikia.</td>
 </tr>
 <tr class="odd">
 <td>Vartotojo nurodyta</td>
@@ -230,7 +230,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Patikrinta vartotojo nurodymu</td>
-<td>Darbuotojas pasirenka darbą, kurį reikia atlikti, kai darbas susietas su didesniu objektu, pvz., kroviniu arba siunta. Darbuotojas nustato tvarką, pagal kurią prekės yra nuskintos. Jei pasirenkate šią parinktį, būtini yra šie laukai:
+<td>Darbuotojas pasirenka darbą, kurį reikia atlikti, kai darbas susietas su didesniu objektu, pvz., kroviniu arba siunta. Darbuotojas nustato tvarką, kuria išrenkamos prekės. Jei pasirenkate šią parinktį, būtini yra šie laukai:
 <ul>
 <li><strong>Patikrintas vartotojo nurodymu laukas</strong> – pasirinkite lauką, kurį darbuotojas nuskaito norėdamas grupuoti darbus.</li>
 <li><strong>Patikrinta vartotojo nurodymu žymė</strong> – įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja sistema.</li>
@@ -271,7 +271,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="even">
 <td>Fiksavimas</td>
-<td>Pasirinkę šią parinktį leisite darbuotojams nurodyti vietą, kuri perrašo siūlomą išdėstymo arba pakrovimo vietą. Visi likę atidėjimo darbai nukreipiami į naująją vietą. Ši parinktis naudinga, jei, pavyzdžiui, darbuotojas, kuris turi padėti 1 užsakymo prekes į išdėstymo vietą prie 1 rampos, to atlikti negali, nes iš tos vietos dar nepašalintas pirmesnis krovinys. O ne laukti iškėlimas 1 sustojimo vieta taps prieinamos, darbuotojas gali nuspręsti naudoti sustojimo vietą iškėlimas 2. Tokiu atveju darbuotojas nepaiso siūloma sustojimo vieta. Tada visų likusių darbo užsakymo prekių padėjimo vieta pakeičiama į 2 rampos išdėstymo vietą. Jei pasirinksite šią pasirinktį, turite nustatyti lauką <strong>Užfiksavęs asmuo</strong>.</td>
+<td>Pasirinkę šią parinktį leisite darbuotojams nurodyti vietą, kuri perrašo siūlomą išdėstymo arba pakrovimo vietą. Visi likę atidėjimo darbai nukreipiami į naująją vietą. Ši parinktis naudinga, jei, pavyzdžiui, darbuotojas, kuris turi padėti 1 užsakymo prekes į išdėstymo vietą prie 1 rampos, to atlikti negali, nes iš tos vietos dar nepašalintas pirmesnis krovinys. Užuot laukęs, kol atsilaisvins išdėstymo vieta 1 rampoje, darbuotojas gali nuspręsti naudoti išdėstymo vietą 2 rampoje. Tokiu atveju darbuotojas perrašo siūlomą išdėstymo vietą. Tada visų likusių darbo užsakymo prekių padėjimo vieta pakeičiama į 2 rampos išdėstymo vietą. Jei pasirinksite šią pasirinktį, turite nustatyti lauką <strong>Užfiksavęs asmuo</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Užfiksavęs asmuo</td>
@@ -380,7 +380,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Darbo šablono kodas</td>
-<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pvz., jei gaunate prekę, pirkimo užsakymas, padėjimo darbas bus sugeneruotas pagal darbo šabloną. Jei nepasirinksite darbo šabloną, "Microsoft Dynamics 365" operacijų priskiria šabloną, pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus, žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
+<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite darbo šablono, „Microsoft Dynamics 365 for Operations“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus, žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 
 [Sandėlio mobiliojo įrenginio rodymo parametrai](change-warehouse-mobile-device-displays.md)
 
-[Nustatyti mobiliojo įrenginio meniu elemento užbaigti darbą tipo pirkimo užsakymo (užduoties vadovas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Nustatyti mobiliojo įrenginio meniu elementą pirkimo užsakymo tipo darbui atlikti (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Nustatyti mobiliojo įrenginio meniu punktą registruoti gautas prekes (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Nustatyti mobiliojo įrenginio meniu elementą gautoms prekėms registruoti (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

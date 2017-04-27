@@ -1,6 +1,6 @@
 ---
-title: "Pardavimų ir pelningumo efektyvumo Power BI turinys"
-description: "Šioje temoje aprašoma, kas yra įskaičiuota į Dynamics 365 operacijų - pardavimų ir pelningumo veiklos turinio paketas, skirtas Microsoft Power BI. Jis paaiškina, kaip jas pasiekti turinio pakuotėje ir pateikia informaciją apie duomenų modelio ir subjektai, kurie yra naudojami kurti turinio paketas."
+title: "Pardavimo ir pelningumo našumo „Power BI“ turinys"
+description: "Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Dynamics 365 for Operations“ pardavimo ir pelningumo našumo turinio paketą, skirtą „Microsoft Power BI“. Jame paaiškinta, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Pardavimų ir pelningumo efektyvumo Power BI turinys
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Pardavimo ir pelningumo našumo „Power BI“ turinys
 
-Šioje temoje aprašoma, kas yra įskaičiuota į Dynamics 365 operacijų - pardavimų ir pelningumo veiklos turinio paketas, skirtas Microsoft Power BI. Jis paaiškina, kaip jas pasiekti turinio pakuotėje ir pateikia informaciją apie duomenų modelio ir subjektai, kurie yra naudojami kurti turinio paketas.
+Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Dynamics 365 for Operations“ pardavimo ir pelningumo našumo turinio paketą, skirtą „Microsoft Power BI“. Jame paaiškinta, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Šis kiekis pakuotės buvo sukurta pardavimų vadybininkai stebėti pagrindinius pardavimo rodiklius pajamos, Bendrasis pelnas ir pelnas. Jis naudoja Dynamics 365 pardavimo operacijų duomenis operacijoms, o ir bendras vaizdas į visos įmonės pardavimų skaičių ir pardavimo efektyvumo analizę numato klientų bei produktų. Išryškinti pokyčius pajamų ir pelno augimą per tam tikrą laiką, ataskaitas galima įspėjimo vadovams apie teigiamas ir neigiamas tendencijas, individualių klientų ir produktų. Kategorijos ir regioniniai vadovai rasite tai naudinga turėti diagramas, palyginti pajamas ir pelningumą padidino skirtingų produktų kategorijų ir klientų grupių tarpusavyje išskirti atsilikusiems ir vadovai. Išsamią ataskaitą, kurioje vaizduojami atskiro pirkėjo pajamų ir pelno maržą siūlo sąskaitos valdytojų duomenys paremti Fondo pripratinti savo pardavimų ir rinkodaros pastangas į atitinkamus kiekvieno kliento profilį. Pardavimų ir pelningumo veiklos turinio paketas leidžia analizuoti pardavimo efektyvumo iš pardavimo vadybininkai:
+Šis turinio paketas sukurtas pardavimo vadovams, pagrindinėms pardavimo įplaukų, bruto pelno ir pelno maržos metrikoms stebėti. Jame naudojami pardavimo operacijų duomenys iš „Dynamics 365 for Operations“, pateikiamas ir sujungtas visos įmonės pardavimo skaičių rodinys, ir klientų, ir produktų pardavimo našumo paskirstymas. Pabrėžiant įplaukų ir pelno pakitimus per tam tikrą laikotarpį, ataskaitas galima naudoti, norint įspėti vadovus apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Kategorijų ir regionų vadovams bus naudinga turėti diagramas, tarpusavyje lyginančias įvairių produktų kategorijų ir klientų grupių įplaukas ir pelną, išryškinančias atsiliekančius ir pirmaujančius. Išsamioje ataskaitoje, atskiro kliento įplaukas lyginant su pelno marža, vadovams pateikia duomenimis pagrįstą pagrindą, norint suderinti jų pardavimo ir rinkodaros pastangas su atitinkamu kiekvieno kliento šablonu. Pardavimo ir pelningumo našumo turinio paketas pardavimo vadovams leidžia analizuoti pardavimo našumą pagal:
 
--   Pajamos, metai iki datos (pagal klientų grupei ir atskiriems klientams, pardavimo kategorijas, ir atskirų produktų ir geografijos)
--   Pajamų pokytis, metų per metus (pagal kliento regionų ir pardavimo kategorijas)
+-   Įplaukos, metinės iki datos (pagal klientų grupę ir atskirus klientus, pardavimo kategorijas, atskirus produktus ir regionus)
+-   Įplaukų pasikeitimas, metams bėgant (pagal klientų regionus ir pardavimo kategorijas)
 
-Pelningumas gali būti analizuojami:
+Pelningumą galima analizuoti pagal:
 
--   Bendrojo pelno ir pelno skirtumą (pagal klientų grupes ir produktų pardavimo kategorijos)
--   Bendrojo pelno pokytis, metų per metus
--   Klientų pelningumas (iš pajamų ir bendrojo pelno)
+-   bruto pelną ir pelno maržą (pagal klientų grupes ir produkto pardavimo kategorijas);
+-   bruto pelno pokytį, metams bėgant;
+-   kliento pelningumą (pagal įplaukas, lyginant su marža).
 
-## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketas
-Pardavimų ir pelningumo efektyvumo Power BI turinio paketas skelbiamas įgyvendinant turto gyvavimo ciklo paslaugų (LCS) ir gali būti pasiekiami iš Dynamics 365 operacijoms. Daugiau informacijos apie tai, kaip pasiekti ir paleisti Power BI ataskaitų, rasite [LKD iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
+Pardavimo ir pelningumo našumo turinio paketas „Power BI“ išleistas kaip „Lifecycle Services“ (LCS) diegimo išteklius ir yra pasiekiamas iš „Dynamics 365 for Operations“. Išsamesnės informacijos apie tai, kaip pasiekti ir paleisti „Power BI“ ataskaitas žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>Rodikliai kiekis pakuotėje
-Turinio paketą sudaro ataskaitą, kuri susideda iš metrikos ryškinamos diagramas, plytelės ir lentelių rinkinys. Šioje lentelėje apžvelgiami turinio Pack vizualizaciją.
+## <a name="metrics-included-in-the-content-pack"></a>Į turinio paketą įtrauktos metrikos
+Turinio pakete yra ataskaita, sudaryta iš metrikų, pavaizduotų diagramomis, išklotinėmis ir lentelėmis, rinkinio. Toliau pateiktoje lentelėje pateikiama turinio paketo vizualizacijų apžvalga.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Ataskaitų puslapio**        | **Charts**                                 | **Plytelės**                                               |
-| Įplaukos iš pirkėjų    | 10 populiariausių klientų iš pajamų                | Bendros įplaukos                                           |
-|                        | Iš viso pajamų iš klientų grupės            | YOY pajamų augimo                                      |
-|                        | Vidutinis kliento pajamas iš klientų grupės | Bruto marža                                            |
-|                        | Pajamų ir bendrojo pelno iš klientų grupės   |                                                         |
-| Pajamų pagal produktus     | Pajamų ir bendrojo pelno iš pardavimų kategorija   | Iš viso \#produktus                                    |
-|                        | 10 geriausių produktų iš pajamų                 | Iš viso aktyvių produktų ir procentais nuo visos reikšmės |
-|                        | Iš viso pajamų iš pardavimų kategorija            | Produktus, kurie sudaro apie 80 % pajamų skaičius           |
-| Pajamos iš laikotarpio\*    | Pajamų pagal mėnesį                           | YOY pajamų augimo                                      |
-|                        | Gale pajamų nuokrypis, YOY             | YOY pajamų augimo %                                    |
-|                        | Bendra pardavimo nukrypimo iš klientų regionas    |                                                         |
-| Pajamų pagal vietovę    | Pardavimo pajamos pagal miestą                      |                                                         |
-|                        | YOY pajamų augimo %                       |                                                         |
-|                        | Pardavimo pajamos pagal regionus                    |                                                         |
-| Klientų pelningumas | Bendrasis pelningumas, palyginti su pajamų, klientas   | Bendrasis pelnas, Bendrasis pelningumas, YOY pajamų augimo          |
-| Pelningumo analizė | Pajamų ir bendrojo pelno pagal mėnesį          |                                                         |
-|                        | 15 geriausių klientai iš bendrojo pelno           |                                                         |
-|                        | Bendrasis pelnas mėnesiu, YOY                 |                                                         |
+| **Ataskaitų puslapis**        | **Diagramos**                                 | **Išklotinės**                                               |
+| Įplaukos pagal klientą    | 10 svarbiausių klientų pagal įplaukas                | Bendros įplaukos                                           |
+|                        | Bendros įplaukos pagal kliento grupę            | Įplaukų augimas bėgant metams                                      |
+|                        | Vidutinės kliento įplaukos pagal kliento grupę | Bruto marža                                            |
+|                        | Įplaukos ir bruto pelnas pagal kliento grupę   |                                                         |
+| Įplaukos pagal produktą     | Įplaukos ir bruto pelnas pagal pardavimo kategoriją   | Iš viso \# produktų                                    |
+|                        | 10 svarbiausių produktų pagal įplaukas                 | Bendras skaičius aktyvių produktų ir procentais nuo bendros sumos |
+|                        | Bendros įplaukos pagal pardavimo kategoriją            | Produktų, sudarančių 80 % įplaukų, skaičius           |
+| Įplaukos pagal laikotarpį\*    | Įplaukos pagal mėnesį                           | Įplaukų augimas bėgant metams                                      |
+|                        | Paskutinių įplaukų nuokrypis, bėgant metams             | Įplaukų augimas bėgant metams %                                    |
+|                        | Bendras pardavimų nuokrypis pagal kliento regioną    |                                                         |
+| Įplaukos pagal vietą    | Pardavimo įplaukos pagal miestą                      |                                                         |
+|                        | Įplaukų augimas bėgant metams %                       |                                                         |
+|                        | Pardavimo įplaukos pagal regioną                    |                                                         |
+| Kliento pelningumas | Bruto marža, lyginant su įplaukomis, pagal klientą   | Bruto pelnas, bruto marža, įplaukų augimas bėgant metams          |
+| Pelningumo analizė | Įplaukos ir bruto pelnas pagal mėnesį          |                                                         |
+|                        | 15 svarbiausių klientų pagal bruto maržą           |                                                         |
+|                        | Bruto pelnas pagal mėnesį, bėgant metams                 |                                                         |
 
-\*Pajamos tai ir praėjusius metus, ir augimo pardavimo kategorijas.
+\* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Dinamika 365 operacijų duomenys yra naudojamas užpildyti ataskaitą pardavimų ir pelningumo veiklos turinio paketas. Tai is sudarė as bendra matavimų, kurie yra pastatytas įmonės parduotuvėje, kuri yra optimizuota Google analytics Microsoft SQL duomenų bazę. Skaityti daugiau apie tai blogas [Power BI integracija su įmonės parduotuvėje dinamikai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Bendra matavimų šio turinio Pack yra sutrumpinti bendrą matavimų, kuriais galėjote naudotis pardavimo kubui Dynamics AX 2012 ir AX 2012 R3. Į sceną kubo bendra matavimų subjektas parduotuvėje galite daryti išskleidimo. Norėdami gauti daugiau informacijos, žiūrėkite procedūrą, kaip į sceną į įmonės parduotuvę Dienoraštis bendra matavimų [Power BI integracija su įmonės parduotuvėje dinamikai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šie pagrindiniai bendra matavimai SF eilutes subjektas yra remiamasi turinio paketas.
+„Dynamics 365 for Operations“ duomenys naudojami ataskaitai užpildyti pardavimo ir pelningumo našumo turinio pakete. Tai pateikiama agreguotais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ analizei atlikti optimizuota duomenų bazė. Daugiau apie tai skaitykite tinklaraštyje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Agreguoti matavimo vienetai šiame turinio pakete yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Sales Cube in Dynamics AX 2012“ ir AX 2012 R3, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Išsamesnės informacijos žr. tinklaraštyje pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į objekto parduotuvę [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šie pagrindiniai agreguoti matavimo vienetai iš sąskaitos faktūros eilučių objekto naudojami kaip turinio paketo pagrindas.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | **Bendra atliekami pagrindiniai matavimai**               | **Duomenų šaltinis Dynamics 365 operacijoms** | **Field**                                    | **Description**                          |
+| **Objektas**    | **Pagrindiniai agreguoti matavimo vienetai**               | **„Dynamics 365 for Operations“ duomenų šaltinis** | **Laukas**                                    | **Aprašas**                          |
 | SF eilutės | Įplaukos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Suma, išreikšta apskaitos valiuta            |
-|               | Parduotų prekių savikaina                           | InventTrans                                     | SUMA (CostAmountPosted + CostAmountAdjustment) | Savikainos suma + koregavimas                 |
-|               | Komisija eilutės suma – numatytąja valiuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisinių suma numatytąja valiuta |
+|               | Parduotų prekių savikaina                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Išlaidų suma + koregavimas                 |
+|               | Komisinių eilutės suma – apskaitos valiuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisinių eilutės suma apskaitos valiuta |
 
-Šioje lentelėje yra pagrindinė bendra matavimų SF eilutes subjekto, kurie naudojami sukurti keletą apskaičiuojamieji matai turinio paketo duomenų rinkinyje.
+Šioje lentelėje parodyti pagrindiniai agreguotų matavimo vienetų iš sąskaitos faktūros eilučių objekto, kurie naudojami kuriant kelis apskaičiuojamus kriterijus turinio paketo duomenų rinkinyje.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | **Perskaičiavus į**                                                                                |
-| Bendrasis pelnas      | SUMA (pajamos – parduotų – Komisija – PVM (įtrauktos į kliento SF eilutės suma))          |
-| Bruto marža      | SUMA (Bendrasis pelnas / (pajamų - PVM (įtrauktos į kliento SF eilutės suma)))             |
-| Pajamų praėjusiais metais | Pajamos pernai = skaičiuoti (suma ("SF eilutės"\[pajamos\]), SAMEPERIODLASTYEAR (datos\[data\]) |
+| **Matas**       | **Apskaičiuota kaip**                                                                                |
+| Bendrasis pelnas      | SUM(įplaukos – PPK – komisiniai – PVM (įtrauktas į kliento SF eilutės sumą))          |
+| Bruto marža      | SUM(bruto pelnas / (įplaukos - PVM (įtrauktas į kliento SF eilutės sumą)))             |
+| Praėjusių metų įplaukos | Praėjusių metų įplaukos = CALCULATE(SUM('SF eilutės'\[įplaukos\]), SAMEPERIODLASTYEAR(datos\[data\]) |
 
-Šių pagrindinių matmenų – į **pardavimo kubui** yra naudojamas kaip filtrų Supjaustykite bendra matavimų siekti didesnio detalumo ir gilesnių analitinių įžvalgų.
+Šios pagrindinės dimensijos **Pardavimo kubas** naudojamos kaip filtrai agreguotiems matavimo vienetams susegmentuoti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | **Atributų pavyzdžiai**                           |
-| Klientai        | Klientų grupes, klientų regionuose, adresas, pramonės |
-| Produktai         | Gaminio numeris, produkto pavadinimas, prekės grupės pavadinimas       |
+| **Objektas**       | **Atributų pavyzdžiai**                           |
+| Klientai        | Klientų grupės, klientų regionai, adresai, rinka |
+| Produktai         | Produkto numeris, produkto pavadinimas, prekių grupių pavadinimas       |
 | Pardavimo kategorijos | Pardavimo kategorijų pavadinimai                                 |
-| Juridiniai subjektai   | Juridinio asmens vardai                                   |
+| Juridiniai subjektai   | Juridinių subjektų pavadinimai                                   |
 | Datos            | Datos                                                |
 
-Pagal numatytuosius nustatymus turinio paketas rodo duomenų einamaisiais kalendoriniais metais, bet galite atidaryti ataskaitą filtrai skyrių ir pakeisti datos filtras. Taip pat galite keisti įmonės filtras.
+Pagal numatytuosius nustatymus, turinio paketas rodo šių kalendorinių metų duomenis, tačiau galite atidaryti ataskaitos filtrų skyrių ir keisti datos filtrą. Taip pat galite pakeisti įmonės filtrą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Projekto sutartys
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašomos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikta sutarčių pavyzdžių ir paaiškinta, kaip galima „Microsoft Dynamics 365 for Operations“ valdyti sutartis ir klientams išrašyti SF.
 
 Jūsų sukurtas projekto sutarties tipas nustato metodą, kuris naudojamas išrašyti SF projekto klientams. Galite keisti projekto sutartį ir susijusį projektą, tačiau negalite keisti projekto tipo. 
@@ -80,7 +83,7 @@ Toliau pateiktoje lentelėje pateikiami finansavimo paskirstymo keliems finansav
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Scenarijus</strong></td>
 <td><strong>Lėšų skyrimo šaltinis </strong></td>
 <td><strong>Paskirstymo procentas </strong></td>
 <td><strong>Paskirstymo prioritetas </strong></td>
@@ -192,7 +195,7 @@ Toliau pateikiamoje lentelėje šis scenarijus nagrinėjamas išsamiau.
 <tbody>
 <tr class="odd">
 <td><strong>Dėmesio centras </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Informacija</strong></td>
 </tr>
 <tr class="even">
 <td>Lėšų skyrimo taisyklės</td>
@@ -220,17 +223,17 @@ Toliau pateikiamoje lentelėje šis scenarijus nagrinėjamas išsamiau.
 </tr>
 <tr class="odd">
 <td>2 operacija</td>
-<td><strong>Operacijos suma:</strong> 5,000.00<strong>finansavimas:</strong> operacija mokama pagal visas tris taisykles. <strong>Taisyklė 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Operacijos suma:</strong> 5 000,00<strong>Finansavimas:</strong> operacija apmokama pagal visas tris taisykles.<strong>1 taisyklė</strong>
+<ul>
 <li>2 lėšų skyrimo šaltinis: 450,00</li>
 <li>3 lėšų skyrimo šaltinis: 450,00</li>
-</ul><bpt id="t2">
-< stiprus ></bpt> 2 taisyklės</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>2 taisyklė</strong>
+<ul>
 <li>3 lėšų skyrimo šaltinis: 250,00 (= 750,00 – 50,00 – 450,00)</li>
-</ul><bpt id="t4">
-< stiprus ></bpt> Taisyklėje Nr. 3</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>3 taisyklė</strong>
+<ul>
 <li>1 lėšų skyrimo šaltinis: 3 850,00 (= 5 000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Kai sudarote projekto sutartį, sutinkate kas mėnesį išrašyti klientui sąsk
 -   Vykdydami projektą sukurkite kliento SF kiekvieno kalendorinio mėnesio pabaigoje.
 
 Pirmąjį mėnesį projekto konsultantai iš viso įrašė 800 valandų. Projekto biuro reikmenų išlaidos yra 2 000. Todėl mėnesio pabaigoje sukurkite SF su 122 000 suma: 800 valandų po 150 už valandą ir 2 000 už biuro reikmenis.
+
+
 
 

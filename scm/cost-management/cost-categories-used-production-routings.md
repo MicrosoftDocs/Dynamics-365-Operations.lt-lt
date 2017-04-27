@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Išlaidų kategorijos, naudojamos gamybos kelvadose
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie išlaidų kategorijas, taikoma gamybos aplinkoms, naudojančioms kelvadas.
 
 Išlaidų kategorijos taikomos gamybos aplinkai, kuri naudoja kelvadas. Jos priskiriamos operacijų ištekliams ir kelvadų operacijoms, kad būtų galima nustatyti valandines išlaidas ir segmentuoti išlaidų įnašus pagamintos prekės apskaičiuotose išlaidose. Išlaidų grupės, kurios priskirtos prie išlaidų kategorijų, klasifikuoja pagaminimo išlaidų įnašus pagal operacijų išteklius ir veiklos tipą, pvz., nustatymo laiką ir apdorojimo laiką. Išlaidų grupės priskyrimų specifiškumas leidžia remiantis kelvados informacija apskaičiuoti pagaminimo papildomus duomenis. 
@@ -51,5 +54,7 @@ Išlaidų kategorijos išlaidų įrašas gali būti konkrečios vietos ar visos 
 Kelvados operacija paprastai paveldėja išlaidų kategorijas, kurios priskirtos operacijų ištekliui arba pagrindinei operacijai. Kai sukuriamas gamybos užsakymas, kelvados operacijos gamybos maršruto ribose rodo pasirinktą maršruto versiją. Galite nepaisyti išlaidų kategorijų, priskirtų operacijoms, esančioms gamybos maršruto ribose. 
 
 Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiuo atveju gamybos ir projekto tikslais reikalinga išlaidų kategorija. Kai išlaidų kategorija pažymima naudoti projektuose, turite apibrėžti papildomą su projektais susijusią informaciją.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Stebėti pardavimo ir maržos efektyvumą"
-description: "Jūs galite stebėti pardavimų ir efektyvumo skirtumas realiuoju laiku, naudojant Microsoft Dynamics 365 operacijoms."
+description: "Nauodami „Microsoft Dynamics 365 for Operations‟ galite realiu laiku stebėti pardavimo ir maržos našumą."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Stebėti pardavimo ir maržos efektyvumą
 
-Jūs galite stebėti pardavimų ir efektyvumo skirtumas realiuoju laiku, naudojant Microsoft Dynamics 365 operacijoms.
+[!include[banner](includes/banner.md)]
 
-Kaip Dynamics 365 operacijoms, vartotojai gali stebėti pardavimus ir maržą spektaklio realiu laiku įvairių lygmenų organizacijos hierarchijos už šiuos matmenis:
+
+Nauodami „Microsoft Dynamics 365 for Operations‟ galite realiu laiku stebėti pardavimo ir maržos našumą.
+
+Viena iš „Dynamics 365 for Operations‟ siūlomų funkcijų – vartotojai realiu laiku gali stebėti toliau nurodytų dimensijų pardavimo ir maržos našumą skirtinguose organizacijos lygiuose.
 
 -   Produktai
 -   Kategorijos
@@ -42,8 +45,10 @@ Kaip Dynamics 365 operacijoms, vartotojai gali stebėti pardavimus ir maržą sp
 
 Be to, naudodami dvi unikalias ataskaitas, kuriose naudojamos hierarchinės tinklelių struktūros, vartotojai pardavimo ir maržos našumą gali stebėti iš viršutinio kategorijos mazgo detalizuodami atskirus kategorijos lapo mazgus numatytoje mažmeninės prekybos produktų kategorijų hierarchijoje. Vartotojai taip pat gali detalizuoti iš viršutinio valdymo vieneto į atskirą kanalą organizacijos hierarchijoje, kuri mažmeninės prekybos ataskaitų hierarchijos tikslais apibrėžta kaip numatytoji organizacijos hierarchija. Atidaryti ataskaitas galite iš bet kurios iš tolesnių vietų.
 
--   **Mažmeninės prekybos parduotuvės administracijos** darbo srities dinamika 365 operacijoms &gt;**mažmeninės prekybos ir komercijos**&gt;**kanalai**&gt;**mažmeninės prekybos parduotuvės valdymo**&gt;**ataskaitos**
--   **Kategorijos ir produkcijos valdymo** darbo srities dinamika 365 operacijoms &gt;**mažmeninės prekybos ir komercijos**&gt;**produktų ir kategorijų**&gt;**mažmeninės prekybos parduotuvės valdymo**&gt;**ataskaitos**
--   **Kainodara ir nuolaidų valdymas** darbo srities dinamika 365 operacijoms &gt;**mažmeninės prekybos ir prekybos**&gt;**kainos ir nuolaidos**&gt;**mažmeninės prekybos parduotuvės valdymo**&gt;**ataskaitos**
--   **Užklausų ir ataskaitų** skyriuje Dynamics 365 operacijoms &gt;**mažmeninės prekybos ir prekybos**&gt;**užklausų ir ataskaitų**&gt;**pardavimų ataskaitas**
+-   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+-   Darbo sritis **Kategorijų ir produktų tvarkymas** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Produktai ir kategorijos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+-   Darbo sritis **Kainodaros ir nuolaidų valdymas** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Kainodara ir nuolaidos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+-   Dalis **Užklausos ir ataskaitos** „Dynamics 365 for Operations“ &gt; **Mažmeninė prekyba ir prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos**
+
+
 

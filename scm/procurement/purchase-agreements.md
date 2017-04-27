@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas. 
 
 Pirkimo sutartis galima taikyti konkrečiam produktui, konkrečiai produkto piniginei vertei arba konkrečiai produkto piniginei vertei įsigijimo kategorijoje. Pardavimo sutarties kainos ir nuolaidos turi pirmenybę prieš kainas ir nuolaidas, nurodytas bet kuriose esamose prekybos sutartyse.  
@@ -70,7 +73,7 @@ Toliau nurodytos strategijos turi įtakos tam, kaip veikia ryšys tarp įsiparei
 Naudoti PU eilutes ir SF eilutes, kurios turi įtakos skaičiuojant įvykdymą, galite eilutėse arba pirkimo sutarties antraštėje pasirinkdami **Susijusios informacijos** veiksmą.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Pirkimo sutarčių tvirtinimas ir versijų retrospektyva
-Patvirtinus pirkimo sutartį esama pirkimo sutarties versija yra saugoma retrospektyvos lentelėje. Jei pakeisite pirkimo sutartį, galite ją patvirtinti dar kartą, norėdami saugoti kitą pirkimo sutarties versiją retrospektyvoje. Jeigu nepatvirtinsite pirkimo sutartį, vis tiek galite naudoti jį sukurti POs. Tačiau nesaugomi istorija informacija dėl pirkimo sutarties. Galite peržiūrėti arba spausdinti visas sutarties versijas. Pakeitimais galite pasidalinti su tiekėju, norėdami gauti patvirtinimą.
+Patvirtinus pirkimo sutartį esama pirkimo sutarties versija yra saugoma retrospektyvos lentelėje. Jei pakeisite pirkimo sutartį, galite ją patvirtinti dar kartą, norėdami saugoti kitą pirkimo sutarties versiją retrospektyvoje. Jei pirkimo sutarties nepatvirtinote, vis tiek galite ją naudoti, norėdami kurti PU. Tačiau pirkimo sutarties retrospektyvos informacija nesaugoma. Galite peržiūrėti arba spausdinti visas sutarties versijas. Pakeitimais galite pasidalinti su tiekėju, norėdami gauti patvirtinimą.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Pirkimo sutarčių taikymas užsakymo procese
 Kurdami PU, jam galite taikyti pirkimo sutartį. Tada į PU antraštę kopijuojama informacija iš sutarties sąlygų, pvz., mokėjimo sąlygos, pristatymo sąlygos ir pristatymo adresas. Jei PU yra viena ar kelios produktų ar kategorijų eilutės, kurioms taikoma sutartis, tose eilutėse naudojamos kainos ir nuolaidos iš pirkimo sutarties. Užsakymo eilutės suma arba kiekis prisideda prie pirkimo sutarties įsipareigojimo įvykdymo. Tame pačiame PU gali būti eilučių, kurios nesusijusios su pirkimo sutartimi ir eilučių, kurios susijusios su pirkimo sutarties įsipareigojimu.  
@@ -91,8 +94,10 @@ Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskira
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Kurti pirkimo sutartis (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Kurti pirkimo sutartį (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Sukurkite išleidimo užsakymą, pirkimo iš pirkimo sutartis (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Sukurti pirkimo leidimo užsakymą iš pirkimo sutarties (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

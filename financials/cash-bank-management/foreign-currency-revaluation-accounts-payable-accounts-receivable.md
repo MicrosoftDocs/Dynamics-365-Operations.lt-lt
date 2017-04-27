@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę. 
 
-Atvirų tiekėjo operacijų užsienio valiutomis teorinė, arba balansinė, vertė laikui bėgant kinta dėl valiutos kursų svyravimų. Norėdami atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę, vykdykite užsienio valiutos kurso pasikeitimo procesą. Užsienio valiutos kurso pasikeitimą galima vykdyti ir Mokėtinoms, ir Gautinoms sumoms. Šio proceso metu naudojamas naujas valiutos kursas atviroms arba nesudengtoms sumoms perkainoti nurodyta data. Skirtumai tarp pradinių užregistruotų sumų ir perkainotų sumų sukels nerealizuotas pelnas arba nuostolis kiekvienos atviros operacijos. Mokėtinų ir gautinų sumų sąskaitos subledgers tada atnaujintas, kad atspindėtų nerealizuotas pelnas arba nuostolis, o apskaitos įrašas registruojamas į DK.
+Atvirų tiekėjo operacijų užsienio valiutomis teorinė, arba balansinė, vertė laikui bėgant kinta dėl valiutos kursų svyravimų. Norėdami atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę, vykdykite užsienio valiutos kurso pasikeitimo procesą. Užsienio valiutos kurso pasikeitimą galima vykdyti ir Mokėtinoms, ir Gautinoms sumoms. Šio proceso metu naudojamas naujas valiutos kursas atviroms arba nesudengtoms sumoms perkainoti nurodyta data. Skirtumai tarp pradinių užregistruotų sumų ir perkainotų sumų sukels kiekvienos atviros operacijos negauto pelno arba nepatirto nuostolio. Mokėtinų sumų ir Gautinų sumų papildomos knygos tada atnaujinamos, kad atspindėtų negautą pelną arba nepatirtą nuostolį, ir į didžiąją knygą užregistruojamas apskaitos įrašas.
 
 ## <a name="simulate-a-foreign-currency-revaluation"></a>Užsienio valiutos kurso keitimo modeliavimas
 Prieš perkainodami atvirų operacijų užsienio valiutos sumas, galite vykdyti užsienio valiutos kurso pasikeitimo ta pačia data ir metodu modeliavimo ataskaitą. Norėdami vykdyti modeliavimo ataskaitą puslapyje **Užsienio valiutos kurso pasikeitimas** spustelėkite mygtuką **Modeliavimas**. Ataskaitoje pateikiama negauto pelno arba nepatirto nuostolio sumos peržiūra, atsižvelgiant į nustatytus modeliavimo parametrus.
 
 ## <a name="process-a-foreign-currency-revaluation"></a>Užsienio valiutos kurso pasikeitimo apdorojimas
-Naudoti į **valiutos kurso** puslapio pagal **periodines užduotis** perkainoti atviros operacijos. Galite paleisti procesą realiuoju laiku arba suplanuoti, kad jis būtų paleistas naudojant paketą. Kai nustatote perkainojimo proceso parametrus, būtinai patikrinkite, ar norite spausdinti ataskaitą apie rezultatus. Perkainojimo ataskaita negali būti perspausdintas, po to, kai procesas bus baigtas. Jei sugeneruosite užsienio valiutos kurso pasikeitimo ataskaitą, joje bus rodomi įvairių kliento / tiekėjo lygio ir valiutos lygio balansai:
+Atviroms operacijoms perkainoti naudokite puslapį **Užsienio valiutos kurso pasikeitimas**, esantį dalyje **Periodinės užduotys**. Galite paleisti procesą realiuoju laiku arba suplanuoti, kad jis būtų paleistas naudojant paketą. Nustatydami perkainojimo proceso parametrus, būtinai pasitikrinkite, ar norite spausdinti rezultatų ataskaitą. Pasikeitimo ataskaitos nebegalima spausdinti po to, kai procesas baigtas. Jei sugeneruosite užsienio valiutos kurso pasikeitimo ataskaitą, joje bus rodomi įvairių kliento / tiekėjo lygio ir valiutos lygio balansai:
 
 -   Klientų arba tiekėjų, turinčių operacijų užsienio valiuta, kurios kursas buvo pasikeitęs, balansai. Rodomi šie balansai:
     -   Bendrasis pradinis balansas užsienio valiuta.
@@ -45,7 +48,7 @@ Naudoti į **valiutos kurso** puslapio pagal **periodines užduotis** perkainoti
     -   Skirtumas tarp ankstesnio ir dabartinio perkainojimo. Šis skirtumas yra papildomas negautas pelnas arba nepatirtas nuostolis.
 -   Bendras negautas pelnas arba nepatirtas nuostolis kiekviena valiuta.
 
-Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasikeitimą. Iš įrašo puslapyje **Užsienio valiutos vertinimas** pasirinkę **Operacijos** peržiūrėkite išsamų dėl perkainojimo sukurtų operacijų sąrašą. Kiekvieno kvito operacijos yra atviros operacijos, kuri buvo įvertintas iš naujo. Jei atvira operacija buvo įvertintas iš naujo daugiau nei vieną kartą, pamatysite du įrašus, kurie naudoja pačiame kvite. Vienas įrašas bus atjungimo ir ankstesnių nerealizuotas pelnas arba nuostolis, o kitas įrašas bus naujas nerealizuotas pelnas arba nuostolis. Norėdami vykdyti perkainojimo procesą, spustelėkite mygtuką **Užsienio valiutos kurso pasikeitimas**. Nustatykite atitinkamus parametrus šiems parametrams:
+Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasikeitimą. Iš įrašo puslapyje **Užsienio valiutos vertinimas** pasirinkę **Operacijos** peržiūrėkite išsamų dėl perkainojimo sukurtų operacijų sąrašą. Kiekvieno kvito operacija nurodo atvirą operaciją, kuri buvo perkainota. Jei atvira operacija buvo perkainota daugiau nei vieną kartą, matysite du įrašus, naudojančius tą patį kvitą. Vienas įrašas bus skirtas atšaukti ankstesnį negautą pelną arba nepatirtą nuostolį, o kitas įrašas bus skirtas naujam negautam pelnui arba nepatirtam nuostoliui. Norėdami vykdyti perkainojimo procesą, spustelėkite mygtuką **Užsienio valiutos kurso pasikeitimas**. Nustatykite atitinkamus parametrus šiems parametrams:
 
 -   **Metodas** – pasirinktoje užsienio valiutos kurso pasikeitimo užduotyje naudojamas metodas:
     -   **Standartas** – užsienio valiutos kurso pasikeitimo užduotys registruojamos nepaisant to, ar rezultatas yra pelnas, ar nuostolis.
@@ -61,6 +64,8 @@ Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasi
     -   **Nėra** – neužregistruota jokių finansinių dimensijų. Jei jūsų sąskaitos struktūroje yra reikiama finansinė dimensija, perkainojimo procesas vis dar vykdomas ir sukuriami apskaitos įrašai, kurie neturi finansinių dimensijų. Pirma gausite perspėjimo pranešimą, kad galėtumėte atšaukti perkainojimą.
     -   **Lentelė** – kliento sąskaitos arba tiekėjo sąskaitos finansinės dimensijos užregistruotos užsienio valiutos kurso pasikeitimo operacijose.
     -   **Registravimas** – perkainojamos ir užsienio valiutos pasikeitimo operacijoje registruojamos operacijos finansinė dimensija. Pagal numatytuosius nustatymus, finansinės dimensijos iš pradinės operacijos AR / AP didžiosios knygos sąskaitos bus naudojama perkainavimo operacijos AR / AP pagrindinėje sąskaitoje, o finansinės dimensijos iš pradinės operacijos išlaidų / turto / įplaukų didžiosios knygos sąskaitos bus naudojamos perkainojimo operacijos negauto pelno / nepatirtų nuostolių pagrindinėje sąskaitoje.
+
+
 
 
 

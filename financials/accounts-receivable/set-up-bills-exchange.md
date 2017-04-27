@@ -1,6 +1,6 @@
 ---
 title: "Įsakomųjų vekselių nustatymas"
-description: "Šioje temoje aprašomi veiksmai nustatyti įsakomuosius vekselius."
+description: "Šioje temoje aprašomi įsakomųjų vekselių nustatymo proceso veiksmai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,55 +26,60 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bills-of-exchange"></a>Įsakomųjų vekselių nustatymas
 
-Šioje temoje aprašomi veiksmai nustatyti įsakomuosius vekselius.
+[!include[banner](../includes/banner.md)]
 
-Įsakomieji vekseliai yra raštu ar elektroniniu būdu tvarka iš kliento, nurodantis, kad kitai šaliai, paprastai bankui, nurodyta suma turėtų mokėti įmonė. Kai naudojate įsakomąjį vekselį kaip mokėjimą už pardavimo užsakymo SF arba laisvos formos SF, kredituojate kliento sąskaitą. Kreditas saugomas įsakomojo vekselio kol klientas apmoka įsakomąjį vekselį bankui. Paprastai bus sudenkite SF su įsakomojo vekselio termino. Kai iš banko gausite pranešimą, kad įsakomasis vekselis apmokėtas, galite jį uždaryti. Galite piešti įsakomąjį vekselį per jūsų banką arba iš šių momentų:
 
--   Atėjus terminui. Šis metodas yra žinomas kaip kompetencija, rinkimo.
--   Iki datos, paprastai dėl nuolaidos data, nurodyta formoje mokėjimo sąlygas, kurie yra nustatyti kliento. Registruojant operaciją, nuolaidos suma užregistruojama išlaidų sąskaitoje. Likusi suma yra įsipareigojimas jums, kol bankas gauna mokėjimą iš kliento. Šis metodas yra žinomas kaip kompetencijos nuolaida.
+Šioje temoje aprašomi įsakomųjų vekselių nustatymo proceso veiksmai.
+
+Parašomas įsakomasis vekselis arba elektroninis kliento užsakymas, kuris nurodo, kad trečioji šalis, paprastai bankas, sumokėtų įmonei nurodytą sumą. Kai naudojate įsakomąjį vekselį kaip mokėjimą už pardavimo užsakymo SF arba laisvos formos SF, kredituojate kliento sąskaitą. Kreditas saugomas įsakomojo vekselio kol klientas apmoka įsakomąjį vekselį bankui. Paprastai sudengsite sąskaitą faktūrą įsakomuoju vekseliu atėjus terminui. Kai iš banko gausite pranešimą, kad įsakomasis vekselis apmokėtas, galite jį uždaryti. Įsakomąjį vekselį galite išduoti per savo banką bet kuriuo metu iš pateiktų:
+
+-   Atėjus terminui. Šis būdas žinomas kaip perdavimas inkasacijai.
+-   Prieš terminą, paprastai esant nuolaidos datai, kuri nurodyta mokėjimo sąlygose, kurios nustatomos kliento. Registruojant operaciją, nuolaidos suma užregistruojama išlaidų sąskaitoje. Likusi suma yra įsipareigojimas jums, kol bankas gauna mokėjimą iš kliento. Šis būdas žinomas kaip pavertimas į nuolaidą.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Įsakomųjų vekselių šablonų registravimo nustatymas
-Naudoti su **klientų registravimo šablonų** puslapis nustatyti registravimo šablonų, kuriuos galite naudoti su vekselių, protesto vekselių, perlaidos rinkimo ir perlaidų nuolaida. – Į **suminėje sąskaitoje** pasirinkite suminėje sąskaitoje rašyti įsakomojo vekselio sumos. Ši sąskaita yra debetuojama arba perduodamos, priklausomai nuo įsakomojo vekselio operacija:
--   Įsakomųjų vekselių, ši sąskaita debetuojama kai užregistruojamas įsakomąjį vekselį, ir kredituojama pavedimą nuolaida arba pavedimo rinkimo registruojamas.
+Naudokite puslapį **Kliento registravimo šablonai** norėdami nustatyti registravimo šablonus, kuriuos galite naudoti su įsakomaisiais vekseliais, užprotestuoti įsakomąjį vekselį, perdavimams inkasacijai ir pavertimams į nuolaidą. Lauke **Suminė sąskaita** pasirinkite suminę sąskaitą, kuriai bus registruojamos įsakomojo vekselio sumos. Ši sąskaita debetuojama arba kredituojama atsižvelgiant į įsakomojo vekselio operacijos tipą.
+-   Įsakomiesiems vekseliams ši sąskaita debetuojama kai įsakomasis vekselis yra užregistruojamas ir kredituojamas tada, kai užregistruojamas nuolaidos pavedimas arba perdavimas inkasacijai.
 -   Užprotestuotiems įsakomiesiems vekseliams ši sąskaita debetuojama kai užregistruojamas užprotestuotas įsakomasis vekselis.
 -   Perdavimams inkasacijai ši sąskaita debetuojama kai užregistruojamas perdavimas inkasacijai.
 -   Nuolaidos pavedimams ši sąskaita debetuojama kai užregistruojamas nuolaidos pavedimas.
 
-– Į **sudengimo sąskaita** pasirinkite grynųjų pinigų sąskaitą po įsakomojo vekselio sumos. Ši sąskaita debetuojama kai sudengiamas įsakomasis vekselis. – Į **PVM išankstinai apmokėjimai** pasirinkite galutinę ataskaitą skelbti Kada vekseliai yra naudojami išankstinių apmokėjimų PVM. – Į **įsipareigojimų nuolaida sąskaitai** pasirinkite sąskaitą, skirtą registruoti perlaidos nuolaida su nuolaidos suma. Sąskaita kredituojama kai užregistruojamas pavedimas nuolaidai.
+Lauke **Sudengimo sąskaita** pasirinkite kasos kodą, kuriai bus registruojamos įsakomojo vekselio sumos. Ši sąskaita debetuojama kai sudengiamas įsakomasis vekselis. Lauke **PVM išankstinai apmokėjimai** pasirinkite suminę sąskaitą, kurioje norite registruoti PVM sumą, kai įsakomieji vekseliai naudojami išankstiniam apmokėjimui. Lauke **Nuolaidų sąskaitos skolos** pasirinkite sąskaitą, kurioje norite registruoti nuolaidos sumą, taikomą nuolaidos pavedimams. Sąskaita kredituojama kai užregistruojamas pavedimas nuolaidai.
 
-## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Gautinų sumų parametrai įsakomųjų vekselių nustatymas
-Dėl į **sudaro gautinų sumų parametrai** p., numatytasis registravimo profilių dėl vekselių, yra įrašytos į **DK ir PVM** tab. Numeracijų yra nustatytos į **skaičių sekas** tab.
+## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Nustatykite Gautinų sumų parametrus, skirtus įsakomiesiems vekseliams.
+Puslapyje **Gautinų sumų parametrai** numatytieji registravimo šablonai, skirti įsakomiesiems vekseliams, įvedami skirtuke **DK ir PVM**. Numeracijos nustatomos skirtuke **Numeracijos**.
 Nustatykite įsakomųjų vekselių žurnalų pavadinimus
 ------------------------------------------
 
-Dėl to **žurnalų pavadinimai** psl., ne mažiau kaip penki naudoti įsakomųjų vekselių žurnalų pavadinimų kūrimas. Pateikiame žurnalo tipus:
--   **Kliento išduoto įsakomojo vekselio** – žurnalo pavadinimo atkreipti įsakomųjų vekselių žurnalų kūrimas.
--   **Kliento užprotestuoto įsakomojo vekselio** – užprotestuoti įsakomųjų vekselių žurnalą žurnalo pavadinimo kūrimas.
--   **Klientų Išrašyto įsakomojo vekselio** – žurnalo pavadinimo perbraižyti įsakomųjų vekselių žurnalų kūrimas.
--   **Kliento banko pavedimo** – pavedimų žurnalas žurnalo pavadinimo kūrimas.
--   **Kliento sudengtų įsakomųjų vekselių** – žurnalo pavadinimo sudengtų įsakomųjų vekselių žurnalų kūrimas.
+Puslapyje **Žurnalų pavadinimai** sukurkite mažiausiai penkis žurnalų pavadinimus, kurie bus naudojami su įsakomaisiais vekseliais. Toliau nurodyti žurnalų tipai:
+-   **Kliento išduotas įsakomasis vekselis** – sukurkite Įsakomųjų vekselių išdavimo žurnalo pavadinimą.
+-   **Kliento užprotestuotas įsakomasis vekselis** – sukurkite Užprotestuotų vekselių išdavimo žurnalo pavadinimą.
+-   **Kliento perrašytas įsakomasis vekselis** – sukurkite Įsakomųjų vekselių pakartotinio išdavimo žurnalo pavadinimą.
+-   **Kliento banko pavedimas** – sukurkite Pavedimų žurnalo pavadinimą.
+-   **Kliento sudengtas įsakomasis vekselis** – sukurkite Įsakomųjų vekselių sudengimo žurnalo pavadinimą.
 
-Žurnalo kvito puslapyje kiekvieną įsakomųjų vekselių žurnalą, įvesti informaciją apie Įsakomasis vekselis, **vekselis** tab. Po to, kai vekselis žurnalo eilutės užregistruojamos, jūs galite peržiūrėti juos į **įsakomųjų vekselių žurnalą tyrimo** puslapis ir **įsakomųjų vekselių statistika** puslapis.
+Žurnalo kvito puslapyje kiekvienam įsakomojo vekselio žurnalui įveskite informaciją apie įsakomąjį vekselį skirtuke **Įsakomasis vekselis**. Užregistravę įsakomojo vekselio žurnalo eilutes, jas galite peržiūrėti puslapyje **Įsakomųjų vekselių žurnalo užklausa** ir puslapyje **Įsakomųjų vekselių statistika**.
 Nustatykite įsakomųjų vekselių mokėjimo metodą
 -----------------------------------------------
 
-Dėl į **mokėjimo būdai** puslapyje, įsteigti bent vieną mokėjimo metodą įsakomųjų vekselių. Jei bendradarbiaujate su daugiau nei vienas bankas, nustatyti mokėjimo kortelėmis, atitinkantį pavedimo formatą, kiekvienas bankas reikalauja įsakomuosius vekselius.
+Puslapyje **Mokėjimo būdai** nustatykite bent vieną mokėjimo už įsakomuosius vekselius būdą. Jei bendradarbiaujate daugiau nei su vienu banku, nustatykite mokėjimo metodą, kuris atitinka perdavimo formatą, kurio įsakomiesiems vekseliams reikalauja kiekvienas bankas.
 Nustatykite įsakomųjų vekselių mokėjimo mokesčius
 -----------------------------------------
 
-Mokėjimo mokestis – tai mokestis, susietas su mokėjimų iš klientų surinkimo procesu. Kelių mokėjimo mokesčio nustatymą linijos gali būti susiję kiekvieną mokėjimo mokestis. Nustatymo eilutes galite kontroliuoti, kaip numatytąjį sumos mokėjimo mokesčiai skaičiuojami. Pvz., galite sukurti nustatymo eilutes, taikomas mokėjimo būdams, mokėjimo specifikacijoms, valiutoms ir laikotarpiams. Taip pat galite sukurti nustatymo eilutes procentais arba suma, kuri yra pagrįsta dienų intervalais. Pavyzdžiui, galite nustatyti palūkanų procentas, pagrįstą laikotarpį, suma yra pradelsta. Jei bankas ima skirtingo dydžio mokesčius už skirtingų pavedimų tipai, pvz., **kolekcijos** ar **nuolaida**, įsteigti atskirą mokėjimo mokestis linijos kiekvieno pavedimo tipo.
+Mokėjimo mokestis – tai mokestis, susietas su mokėjimų iš klientų surinkimo procesu. Su kiekvienu mokėjimo mokesčiu galima susieti kelias mokėjimo mokesčių nustatymo eilutes. Galite naudoti nustatymo eilutes, kad galėtumėte valdyti numatytųjų sumų, skirtų mokėjimo mokesčiams, skaičiavimą. Pvz., galite sukurti nustatymo eilutes, taikomas mokėjimo būdams, mokėjimo specifikacijoms, valiutoms ir laikotarpiams. Taip pat galite sukurti nustatymo eilutes, taikomas procentiniam dydžiui arba sumai pagal dienos intervalus. Pvz., galite nustatyti palūkanų procentinį dydį pagal laiko trukmę praėjus mokėjimo terminui. Jei bankas ima skirtingus mokesčius už skirtingus pavedimo tipus, pvz., **Rinkimas** arba **Nuolaida**, nustatykite atskirą mokėjimo mokesčio eilutę kiekvienam pervedimo tipui.
 Banko pavedimų failų pavedimo mokesčių nustatymas
 ------------------------------------------------
 
-Dėl to **banko sąskaitų** puslapyje, galite nustatyti pavedimo mokesčių, banko mokesčiai už kiekvieno pavedimo failo, kuris sukuriamas. Pavedimo mokesčiai registruojami, kai pavedimas patvirtinamas ir žinomos realizuotų mokesčių sumos. Pavedimo mokesčiai skiriasi nuo mokėjimo mokesčius, kurie yra surinkti iš klientų ir pridėti prie žurnalo eilutes.
+Puslapyje **Banko sąskaitos** galite nustatyti kiekvieno sugeneruoto pervedimo failo pervedimo tipus, už kuriuos bankas ima mokestį. Pavedimo mokesčiai registruojami, kai pavedimas patvirtinamas ir žinomos realizuotų mokesčių sumos. Pervedimo mokesčiai skiriasi nuo mokėjimo mokesčių, kurie renkami iš klientų ir pridedami žurnalo eilutėse.
 Nustatykite įsakomųjų vekselių dokumentų maketus
 ---------------------------------------------
 
-Dėl to **banko sąskaitų** spustelėkite **nustatyti**, ir nurodykite dokumento maketą, ko reikia, nes kiekvienos banko sąskaitos, kad jums generuoti išspausdintų įsakomųjų vekselių dokumentus.
+Puslapyje **Banko sąskaitos** spustelėkite **Nustatyti** ir nurodykite dokumento maketą, kuris reikalingas kiekvienai banko sąskaitai, kuriai generuosite spausdintus įsakomųjų vekselių dokumentus.
 Nustatykite įsakomųjų vekselių klientus
 --------------------------------------
 
-Dėl į **Klientai** puslapių, kiekvienam klientui, kuris sutiko mokėti naudojant įsakomąjį vekselį, jūs galite nustatyti numatytąjį mokėjimo būdą, įsakomųjų vekselių, **neatliktus mokėjimus** tab.
+Puslapyje **Klientai** kiekvienam klientui, kuris sutiko mokėti naudojantis įsakomuoju vekseliu, galite nustatyti numatytąjį mokėjimo metodą, skirtą įsakomajam vekseliui skirtuke **Mokėjimo numatytieji nustatymai**.
+
+
 
 
 

@@ -36,9 +36,9 @@ Laukų aprašai yra ne visuose puslapiuose. Norime pateikti tik sudėtingesnių 
 Jei turite prieigą prie „Dynamics 365 for Operations“ programavimo aplinkos, galite įtraukti naujų laukų aprašų ir tinkinti esamus aprašus. Pavyzdžiui, į lauko aprašymą galite įtraukti įmonei būdingą informaciją. Daugiau informacijos žr. dalyje [Lauko žinyno tinkinimas](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Peržiūrėkite laukų aprašymus vartotojo sąsajoje.
-Laukų aprašus galite peržiūrėti užvesdami pelės žymeklį virš lauko. Jei aprašymo nėra, užvedę pelės žymeklį virš lauko matysite lauko pavadinimą. (Pastaba: versija 7.0.0, laukų aprašymus galima peržiūrėti tik su **lauko aprašymai** puslapis.) Šioje iliustracijoje parodyta srities aprašymas, kuris pasirodo, kai užveskite pelės žymeklį į **užrakinti prekes jas inventorizuojant** lauko. 
+Laukų aprašus galite peržiūrėti užvesdami pelės žymeklį virš lauko. Jei aprašymo nėra, užvedę pelės žymeklį virš lauko matysite lauko pavadinimą. (Pastaba. 7.0.0 versijoje laukų aprašus galima peržiūrėti tik puslapyje **Laukų aprašai**). Toliau pateiktoje iliustracijoje parodytas lauko aprašas, kuris pateikiamas pelės žymiklį laikant virš lauko **Blokuoti prekes jas inventorizuojant**. 
 
-[![Lauke Aprašymas pavyzdys](./media/field-description.png)](./media/field-description.png)
+[![Lauko aprašo pavyzdys](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Puslapio Laukų aprašymai naudojimas lauko žinynui peržiūrėti ir eksportuoti
 Puslapyje **Laukų aprašymai** galite peržiūrėti ir eksportuoti laukų aprašymus. Galite peržiūrėti aprašus, kurie vienu metu pateikiami viename puslapyje.
@@ -73,7 +73,7 @@ Lauke **Pasirinkti puslapį** puslapio galima ieškoti keliais būdais. Daugeliu
     -   Jei yra daugiau nei vienas tikslus atitikmuo, aprašymai nebus rodomi. Jums reikės atidaryti išplečiamąjį sąrašą ir pasirinkti tą puslapį, kurio reikia.
     -   Jei įrašytasis pavadinimas taip pat yra ir kito puslapio pavadinimo dalis, matysite savo puslapio laukų aprašymus. Tačiau jei atidarysite išplečiamąjį sąrašą, pamatysite papildomus puslapius, kurie apima šį pavadinimą.
 
-Pvz., aprašai rodomi kai įvedate **skaičiavimas**, kad *** pasirinkite lauką puslapis ***. Jei atidarysite išplečiamąjį sąrašą, pamatysite, kad yra du puslapiai pavadinimu **Skaičiavimas**, taip pat keli puslapiai, kurių pavadinimuose yra žodis „Skaičiavimas“. Jei pasirinksite puslapį, kurio AOT pavadinimas yra **InventJournalCount**, bus rodomi to puslapio laukų aprašymai. Tačiau jei dar kartą atidarysite išplečiamąjį sąrašą, pamatysite, kad sąraše pateikti visi puslapiai, kurių AOT puslapio pavadinimai apima „InventJournalCount“.
+Pavyzdžiui, aprašai nepateikiami lauke ****Pasirinkti puslapį**** įvedant **Skaičiavimas**. Jei atidarysite išplečiamąjį sąrašą, pamatysite, kad yra du puslapiai pavadinimu **Skaičiavimas**, taip pat keli puslapiai, kurių pavadinimuose yra žodis „Skaičiavimas“. Jei pasirinksite puslapį, kurio AOT pavadinimas yra **InventJournalCount**, bus rodomi to puslapio laukų aprašymai. Tačiau jei dar kartą atidarysite išplečiamąjį sąrašą, pamatysite, kad sąraše pateikti visi puslapiai, kurių AOT puslapio pavadinimai apima „InventJournalCount“.
 
 ## <a name="troubleshooting"></a>Trikčių diagnostika
 Šiame skyriuje pateikiama informacija, kuria siekiama padėti jums išspręsti problemas, galinčias kilti naudojant laukų aprašymus.

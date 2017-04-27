@@ -1,6 +1,6 @@
 ---
-title: "Naujų ar atnaujintų užduočių vadovai (2016 m. rugpjūčio)"
-description: "Šioje temoje išvardytos naujų ar atnaujintų užduočių vadovai, buvo išleistas &quot;Microsoft&quot; (rugpjūtis 2016 - visomis kalbomis) APQC vieningas bibliotekoje Microsoft Dynamics AX. Išleista jokia nauja darbo pradžios biblioteka."
+title: "Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)"
+description: "Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Naujų ar atnaujintų užduočių vadovai (2016 m. rugpjūčio)
+# <a name="new-or-updated-task-guides-august-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
 
-Šioje temoje išvardytos naujų ar atnaujintų užduočių vadovai, buvo išleistas "Microsoft" (rugpjūtis 2016 - visomis kalbomis) APQC vieningas bibliotekoje Microsoft Dynamics AX. Išleista jokia nauja darbo pradžios biblioteka.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Užduočių vadovai (rugpjūtis 2016 - visomis kalbomis) APQC bendrosios bibliotekos Microsoft Dynamics AX
+
+Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 ---------------------------------------------------------------------------------------------------
 
-(Rugpjūčio 2016 - visomis kalbomis) APQC vieningas bibliotekoje yra užduočių vadovai, kurie skirti naudoti su Microsoft Dynamics AX platformos naujinimas 2 (2016 m. rugpjūčio), Dynamics AX pagalbos gali atnaujinti 2016 m. paraiškų ir Microsoft Dynamics AX 2016 m. vasario išleidimo. Daugiau informacijos apie šias versijas, rasite [kas yra naujų ar pakeistų](whats-new-changed.md). Šioje bibliotekoje yra lokalizuota užduočių vadovai. Daugiau informacijos apie tai, kaip prie užduočių vadovas biblioteka žinyno sistemoje, rasite [pradėti su pagalba](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
 
 ### <a name="data-access"></a>Prieiga prie duomenų
 
@@ -97,10 +100,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Naujas užduočių vadovai (2016 m. vasario)](new-task-guides-available-february-2016.md)
+[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m. gegužės)](new-updated-task-guides-available-may-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m lapkričio mėn.)](new-task-guides-november-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
+
+
 
 

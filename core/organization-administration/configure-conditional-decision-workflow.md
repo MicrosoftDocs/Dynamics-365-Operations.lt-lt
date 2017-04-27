@@ -1,5 +1,5 @@
 ---
-title: "Konfigūruoti darbo eigos sąlyginį sprendimą"
+title: "Sąlyginio darbo eigos sprendimo konfigūravimas"
 description: "Naudokite šią procedūrą, norėdami konfigūruoti sąlyginio sprendimo ypatybes."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Konfigūruoti darbo eigos sąlyginį sprendimą
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Sąlyginio darbo eigos sprendimo konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Naudokite šią procedūrą, norėdami konfigūruoti sąlyginio sprendimo ypatybes.
 
@@ -38,14 +41,16 @@ Norėdami įvesti sąlyginio sprendimo pavadinimą, atlikite šiuos veiksmus.
 ## <a name="set-conditions"></a> Sąlygų nustatymas
 Patikrinusi pateiktą dokumentą sistema nustato, kurią šaką naudoti, ir nustato, ar ji atitinka konkrečias sąlygas.
 1.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
-2.  Click **Add condition**.
+2.  Spustelėkite **Įtraukti sąlygą**.
 3.  Įveskite sąlygą
 4.  Įveskite papildomas sąlygas, jei jos reikalingos.
 5.  Norėdami patikrinti, kad sąlygos, kurias įvedėte yra sukonfigūruotos teisingai, atlikite tolesnius veiksmus.
     1.  Spustelėkite **Tikrinti**, norėdami atidaryti formą **Tikrinti darbo eigos sąlygą**.
     2.  Formos srityje **Tikrinti sąlygą** pasirinkite įrašą.
     3.  Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą.
-    4.  Spustelėkite **gerai** ar **atšaukti** grįžti į į **ypatybės** forma.
+    4.  Spustelėkite **Gerai** arba **Atšaukti**, norėdami vėl atidaryti formą **Ypatybės**.
+
+
 
 
 

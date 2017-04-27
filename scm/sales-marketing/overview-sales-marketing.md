@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Pardavimas ir rinkodara
 
+[!include[banner](../includes/banner.md)]
+
+
 Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.
 
 <a name="marketing"></a>Rinkodara
 ---------
 
-Rinkodaros kampanijos ir veiklos naudojamos, norint atrasti ir užmegzti ryšius su potencialiais klientais, kad pirminiai santykiai galėtų išsivystyti į pardavimo ryšius. Tolesnis procesų srautas vaizduoja rinkodaros verslo procesą. [![Verslo procesų pardavimui](./media/marketing01.jpg)](./media/marketing01.jpg)
+Rinkodaros kampanijos ir veiklos naudojamos, norint atrasti ir užmegzti ryšius su potencialiais klientais, kad pirminiai santykiai galėtų išsivystyti į pardavimo ryšius. Tolesnis procesų srautas vaizduoja rinkodaros verslo procesą. [![Rinkodaros verslo procesas](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Ryšiai
 
@@ -39,10 +42,10 @@ Pardavimų ir rinkodaros srityje pirminius santykius su potencialiais klientais 
 
 ### <a name="campaigns"></a>Kampanijos
 
-Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. Microsoft Dynamics 365 operacijoms, galite sukurti kelių rūšių kampanijas, tokias kaip telerinkodaros, pašto ir elektroninio pašto kampanijas, siekiant maksimaliai padidinti savo potencialių klientų. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
+Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. Programoje „Microsoft Dynamics 365 for Operations“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
 
 ## <a name="sales"></a>Pardavimas
-Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Verslo pardavimo procesas](./media/sales01.jpg)](./media/sales01.jpg)
+Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Pardavimo verslo procesas](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Pardavimo pasiūlymai
 
@@ -50,7 +53,7 @@ Pardavimo pasiūlymai kuriami siekiant pateikti klientams jūsų tiekiamų preki
 
 ### <a name="up-sellcross-sell"></a>Papildomas / kryžminis pardavimas
 
-Papildomas ir kryžminis pardavimas yra produktų pardavimo metodai, kai įvedamas kliento užsakymas. Naudojant papildomo pardavimo metodą, vietoje dabartinio produkto siūlomas kitas produktas. Naudojant kryžminio pardavimo metodą, be dabartinio produkto, siūlomas kitas produktas. Nustatydami produktų sąrašų, galite sukurti specialias taisykles nurodyti, kada gaminys turėtų būti siūloma kaip kryžminio parduoti ar viršų parduoti produktą.
+Papildomas ir kryžminis pardavimas yra produktų pardavimo metodai, kai įvedamas kliento užsakymas. Naudojant papildomo pardavimo metodą, vietoje dabartinio produkto siūlomas kitas produktas. Naudojant kryžminio pardavimo metodą, be dabartinio produkto, siūlomas kitas produktas. Nustatydami produktų sąrašus galite sukurti specialias taisykles, kad nurodytumėte, kada produktas turėtų būti siūlomas naudojant kryžminio arba papildomo pardavimo metodą.
 
 ### <a name="sales-orders"></a>Pardavimo užsakymai
 
@@ -117,5 +120,7 @@ Laisvos formos SF – tai sąskaita faktūra, nesusieta su pardavimo užsakymu. 
 #### <a name="pro-forma-invoice"></a>Išankstinė SF
 
 Išankstinė SF yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas, prieš užregistruojant SF. Galite išspausdinti arba kliento SF išankstinę SF, arba laisvos formos SF išankstinę SF.
+
+
 
 

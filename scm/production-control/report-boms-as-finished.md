@@ -1,6 +1,6 @@
 ---
-title: Ataskaita KS baigtomis
-description: "Šiame straipsnyje pateikiama informacija apie skelbiant KS baigtomis."
+title: KS skelbimas baigtomis
+description: "Šiame straipsnyje pateikiama informacija apie KS skelbimą baigtomis."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Ataskaita KS baigtomis
+# <a name="report-boms-as-finished"></a>KS skelbimas baigtomis
 
-Šiame straipsnyje pateikiama informacija apie skelbiant KS baigtomis.
+[!include[banner](../includes/banner.md)]
 
-Puslapiai **Skelbti baigtu** ir **Maks. skelbti baigtu** naudojami skelbti komplektavimo specifikacijoms (KS) kaip baigtoms. Teoriškai KS skelbimo baigta procesas yra toks pats kaip gamybos užsakymo skelbimo baigtu procesas. Šis procesas gali būti naudojamas, pvz., paprastuose surinkimo ir komplektacijos procesuose, kuriuose išplėstinių gamybos užsakymų pajėgumų nereikia. Puslapyje **Skelbti baigta** kelias KS baigtomis galima skelbti paketu. Į **Max. ataskaita baigta** puslapis leidžia jums pranešti tik vieną KS baigtomis vienu metu. Į **paskelbti baigtu** puslapyje yra prieinama iš meniu elementą – atsargų valdymas, ir abu puslapiai yra, nes meniu elementai ant to **išleisti produktai** puslapis.
+
+Šiame straipsnyje pateikiama informacija apie KS skelbimą baigtomis.
+
+Puslapiai **Skelbti baigtu** ir **Maks. skelbti baigtu** naudojami skelbti komplektavimo specifikacijoms (KS) kaip baigtoms. Teoriškai KS skelbimo baigta procesas yra toks pats kaip gamybos užsakymo skelbimo baigtu procesas. Šis procesas gali būti naudojamas, pvz., paprastuose surinkimo ir komplektacijos procesuose, kuriuose išplėstinių gamybos užsakymų pajėgumų nereikia. Puslapyje **Skelbti baigta** kelias KS baigtomis galima skelbti paketu. Puslapyje **Maks. skelbti baigtu** vienu metu baigta galima skelbti tik vieną KS. Puslapį **Skelbti baigtu** galima rasti naudojant meniu elementą Atsargų valdymas ir abu puslapius galima rasti kaip meniu elementus puslapyje **Išleisti produktai**.
 
 ## <a name="report-as-finished-page"></a>Puslapis Skelbti baigtu
 Jei puslapį **Skelbti baigtu** atidarote iš išleisto produkto, puslapyje jums siūloma standartinių atsargų numatytąjį kiekį skelbti baigtu. Pagal numatytąsias nuostatas rodoma aktyvi KS versija, tačiau, jei yra kitų patvirtintų versijų, KS versiją galite keisti. Šiame puslapyje taip pat galima naikinti įrašus ir kurti naujus išleistų produktų, kuriuos reikėtų skelbti baigtais, įrašus. Norėdami naudojant užklausą pasirinkti produktus, spustelėkite meniu elementą **Pasirinkti**. Galite rankiniu būdu patvirtinti pasirinktų produktų skelbimą baigtais spustelėdami **Gerai**. Arba, galite nustatyti, kad procesas būtų vykdomas paketu. Kai skelbimo baigtu procesas patvirtintas, sistema sugeneruoja KS žurnalą, kuriame apdorojamas registravimas atsargose. Šį žurnalą sudaro viena galutinio produkto eilutės prekė ir kiekvienos KS eilutės prekė. Galite kontroliuoti, ar žurnalas automatiškai registruojamas, ar paliekamas atidarytas, kad būtų galima papildomai koreguoti.
 
-## <a name="max-report-as-finished-page"></a>Maks. Ataskaitos puslapio
+## <a name="max-report-as-finished-page"></a>Maks. puslapis Skelbti baigtu
 Puslapyje **Maks. skelbti baigtu** kiekviena KS eilutė nurodo produkto vienetų, kuriuos galima skelbti baigtais, skaičių. Šis skaičiavimas yra paremtas faktinėmis turimomis kiekvienos medžiagos eilutės atsargomis. Šiame pavyzdyje vienas prekės numerio FG vienetas sunaudoja du žaliavos RM10 vinetus ir vieną žaliavos RM20 vienetą. Kadangi turima tik 10 RM10 vienetų, maksimalus FG, kurį galima skelbti baigtu, kiekis yra penki vienetai. Ši reikšmė rodoma lauke **Maks. skelbti baigtu**.
 
 | Lygis | Prekės numeris | Kiekis | Turima | Maks. Skelbti baigtu |
@@ -68,7 +71,7 @@ Toliau pateiktose lentelėse rodoma, kaip **Išskleidimo** lauko nuostata veikia
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-Kadangi ankstesnė lentelė rodo, tik prekės numeris COMP laikoma atimama leidinyje. Prekės numeris RM, kuris yra dalis iš COMP, ne sprogo žurnalo eilutei, ir dviejų turimų vienetų iš COMP nelaikomi. **Išskleidimas: visada**
+Kaip rodoma pirmesnėje lentelėje, žurnale išskaitytu laikomas tik prekės numeris COMP. Prekės numeris RM, kuris yra COMP dalis, į žurnalo eilutę neišskleidžiamas ir du turimi COMP vienetai neliečiami. **Išskleidimas: visada**
 
 | Lygis | Prekės numeris | Kiekis |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Kadangi ankstesnė lentelė rodo, tik prekės numeris COMP laikoma atimama leidi
 | 1     | RM          | -1       |
 
 Šiuo atveju į šiuos du turimus prekės numerio COMP vienetus atsižvelgiama. Tačiau kadangi reikia trijų prekės numerio FG vienetų, norint pagaminti papildomą vieną COMP vienetą, taip pat reikia vieno prekės numerio RM vieneto.
+
+
 
 

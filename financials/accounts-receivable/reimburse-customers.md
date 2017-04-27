@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Kompensacija klientams
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą. 
 
 Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.
@@ -47,6 +50,8 @@ Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF. Ko
     Kredito sumos perkeliamos į klientų tiekėjų sąskaitas ir apdorojamos kaip įprasti mokėjimai. Jei klientas neturi tiekėjo sąskaitos, klientui automatiškai sukuriama vienkartinė tiekėjo sąskaita.
 3.  Norėdami peržiūrėti sukurtas kompensacijos operacijas, naudokite puslapį **Kompensacija**.
 4.  Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas.
+
+
 
 
 

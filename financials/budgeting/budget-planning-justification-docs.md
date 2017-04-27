@@ -1,6 +1,6 @@
 ---
 title: "Biudžeto planavimo pagrindimo dokumentai"
-description: "Pagrindimo dokumentuose pateikiama pasakojimas tiems, kurie prašo paaiškinti, kodėl būtina konkreti sąmata biudžeto."
+description: "Pagrindimo dokumentai prašantiems biudžeto asmenims suteikia informacijos, padedančios paaiškinti, kodėl konkretus biudžetas yra reikalingas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,45 +26,50 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-justification-documents"></a>Biudžeto planavimo pagrindimo dokumentai
 
-Pagrindimo dokumentuose pateikiama pasakojimas tiems, kurie prašo paaiškinti, kodėl būtina konkreti sąmata biudžeto. 
+[!include[banner](../includes/banner.md)]
 
-Biudžeto plano šablonas sukuriamas biudžeto valdytojo programoje "Microsoft Word" ir priskirti dabartinio biudžeto planavimo procesą. Biudžeto savininkai gali tada atidarykite šabloną ir turite duomenis programoje "Word" automatiškai apgyvendintos remiantis jų biudžeto prašymą. Jie tada gali įtraukti papildomą tekstą arba duomenis prieš įrašant ir pritvirtinti savo asmeninį Lygiavimo dokumentas savo biudžeto planą.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Nustatyti Microsoft Dynamics Office papildinys – Microsoft Word
+Pagrindimo dokumentai prašantiems biudžeto asmenims suteikia informacijos, padedančios paaiškinti, kodėl konkretus biudžetas yra reikalingas. 
 
-1.  Atidarykite naują Microsoft Word dokumentą.
-2.  Spustelėkite **įterpti** ant juostelės, ir spustelėkite **parduotuvė**.
-3.  Microsoft Dynamics Office papildinys ieškoti ir spustelėkite **pridėti**.
-4.  Žodžiu, dešiniojoje srityje spustelėkite **įtraukti serverio informacija**.
-5.  Įveskite arba įklijuokite serverio URL ir spustelėkite **gerai**.
+Biudžeto plano šabloną sukuria biudžeto vadovas programoje „Microsoft Word“ ir priskiria dabartiniam biudžeto planavimo procesui. Tada biudžeto savininkai gali atidaryti šabloną ir automatiškai įvesti duomenis į „Word“ dokumentą pagal savo biudžeto užklausą. Tada jie gali įtraukti papildomo teksto arba duomenų, prieš įrašydami ir pridėdami savo pritaikytą pagrindimo dokumentą prie savo biudžeto plano.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Apibrėžti pagrindimas šabloną programoje "Microsoft Word"
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>„Microsoft Dynamics Office“ papildinio, skirto „Microsoft Word“, nustatymas
 
-1.  Spustelėkite **dizaino** Microsoft Dynamics Office Add-in po to, kai prisijungsite.
-2.  Antraštės informaciją, naudokite su **įtraukti laukus** mygtuką.
-3.  Pasirinkite BudgetPlanJustification subjekto duomenų šaltinį, ir spustelėkite **kitas**. **Pastaba:** šiam subjektui nereikia jokių pagrindimo dokumentą. Kiti asmenys gali būti naudojamas bet įkelti atgal į Microsoft Dynamics 365 operacijų nepavyksta, jei šis subjektas nėra įtrauktas.
-4.  Pridėti BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ir DocumentNumber etiketės ir vertybes į Word dokumentą. **Pastaba:** galite naudoti pasirinktines etiketes, o ne standartines žymes, kurias, jei reikia.
-5.  Spustelėkite **padaryti** užbaigti antraštės sekcijos.
-6.  Eilutės lygio detalės biudžeto planą sumų, spustelėkite **pridėti lentelę**.
-7.  Dar kartą, pasirinkite BudgetPlanJustification subjekto duomenų šaltinį, ir spustelėkite **kitas**.
-8.  Pridėti laukus, EffectiveDate, ScenarioName, AccountDisplayValue ir AccountingCurrencyExpenseAmount. **Pastaba:** jei komentarai yra įtraukti per atskiras biudžeto eilutes, tas gali būti įtraukti į lentelę čia.
-9.  Pridėti jokių papildomų nurodymų pateikti galutiniam vartotojui, ir atlikti visus būtinus formatavimo ar stilius į dokumentą.
-10. Įrašyti dokumentą į vietinį kompiuterį, ir uždarykite failą, prieš tęsdami.
+1.  Atidarykite naują „Microsoft Word“ dokumentą.
+2.  Juostelėje spustelėkite **Įterpti** ir spustelėkite **Parduotuvė**.
+3.  Raskite „Microsoft Dynamics Office“ papildinį ir spustelėkite **Įtraukti**.
+4.  Programos „Word“ kairiojoje srityje spustelėkite **Įtraukti serverio informaciją**.
+5.  Įveskite arba įklijuokite serverio URL ir spustelėkite **Gerai**.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Nustatyti biudžeto planavimo procesą naudoti pagrindimas šablonas
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Pagrindimo šablono nurodymas programoje „Microsoft Word“
 
-1.  Microsoft Dynamics 365 operacijoms, eikite į **sudaromo biudžeto**&gt;**nustatymo**&gt;**biudžeto planavimas**&gt;**pagrindimo dokumentų šablonus**.
-2.  Spustelėkite **naujas** ir suraskite jūsų naujai sukurtą programos Microsoft Word dokumente.
-3.  Įveskite šabloną rodomas pavadinimas ir aprašymas. Click **OK**.
-4.  Eikite į **sudaromo biudžeto**&gt;**nustatymo**&gt;**biudžeto****planavimo**&gt;**biudžeto planavimo proceso**.
-5.  Pasirinkite procesas kur pagrindimas šabloną galima vartoti, ir spustelėkite **redaguoti**.
-6.  – Į **pagrindimo dokumento šabloną** srityje, pasirinkite tinkamą šabloną ir išsaugokite.
+1.  Kai prisijungsite, „Microsoft Dynamics Office“ papildinyje spustelėkite **Dizainas**.
+2.  Norėdami tvarkyti antraštės informaciją, naudokite mygtuką **Įtraukti laukų**.
+3.  Pasirinkite BudgetPlanJustification objekto duomenų šaltinį ir spustelėkite **Toliau**. **Pastaba:** šis objektas reikalingas visiems pagrindimo dokumentams. Galima naudoti kitus objektus, bet jei šis objektas nėra įtrauktas, nusiuntimas į „Microsoft Dynamics 365 for Operations“ nepavyks.
+4.  Į „Word“ dokumentą įtraukite BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ir DocumentNumber žymas ir reikšmes. **Pastaba:** jei reikia, galite naudoti savo pasirinktines žymas, o ne standartines žymas.
+5.  Norėdami baigti tvarkyti antraštės dalį, spustelėkite **Atlikta**.
+6.  Norėdami tvarkyti biudžeto plano eilutės lygio informaciją, spustelėkite **Įtraukti lentelę**.
+7.  Vėl pasirinkite BudgetPlanJustification objekto duomenų šaltinį ir spustelėkite **Toliau**.
+8.  Įtraukite laukus EffectiveDate, ScenarioName, AccountDisplayValue ir AccountingCurrencyExpenseAmount. **Pastaba:** jei komentarus galima įtraukti į atskiras biudžeto plano eilutes, juos galima įtraukti į lentelę čia.
+9.  Įtraukite bet kokias papildomas instrukcijas galutiniam vartotojui ir atlikite visus reikalingus dokumento formatavimo arba stiliaus keitimo veiksmus.
+10. Prieš tęsdami įrašykite dokumentą į vietinį kompiuterį ir uždarykite failą.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Redaguoti ir įrašyti asmeninį pagrindimo dokumentai
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Biudžeto planavimo proceso nustatymas naudoti pagrindimo šabloną
 
-1.  Dynamics 365 operacijoms, sukurti naują biudžeto planą arba atidarykite esamą biudžeto planą.
-2.  – Į **pagrindimas** išskleidžiamajame meniu pasirinkite **sukurti naują pagrindimas**.
-3.  Užpildę duomenis, pasirinkite nusiųsti asmeninį dokumentą iš į **pagrindo** išskleidžiamajame meniu.
+1.  Programoje „Microsoft Dynamics 365 for Operations‟ atidarykite **Biudžeto sudarymas** &gt; **Sąranka** &gt; **Biudžeto planavimas** &gt; **Pagrindimo dokumento šablonai**.
+2.  Spustelėkite **Naujas** ir naršydami atidarykite naujai sukurtą „Microsoft Word“ dokumentą.
+3.  Įveskite šablono rodomą pavadinimą ir aprašą. Spustelėkite **Gerai**.
+4.  Atidarykite **Biudžeto sudarymas** &gt; **Sąranka** &gt; **Biudžeto** **planavimas** &gt; **Biudžeto planavimo procesas**.
+5.  Pasirinkite procesą, kuriame bus naudojamas pagrindimo šablonas, ir spustelėkite **Redaguoti**.
+6.  Lauke **Pagrindimo dokumento šablonas** pasirinkite reikiamą šabloną ir įrašykite.
+
+##### <a name="edit-and-save-personalized-justification-documents"></a>Pritaikytų pagrindimo dokumentų redagavimas ir įrašymas
+
+1.  Programoje „Dynamics 365 for Operations“ sukurkite naują arba atidarykite esamą biudžeto planą.
+2.  Išplečiamajame meniu **Pagrindimas** pasirinkite **Kurti naują pagrindimą**.
+3.  Įvedę informaciją pasirinkite įkelti pritaikytą dokumentą iš išplečiamojo meniu **Pagrindimas**.
+
+
 
 
 

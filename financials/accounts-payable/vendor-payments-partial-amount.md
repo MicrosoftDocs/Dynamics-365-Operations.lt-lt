@@ -28,27 +28,32 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-payments-for-a-partial-amount"></a>Tiekėjo dalinės sumos mokėjimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Kartais tiekėjui galite atlikti mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašomos įvairios parinktys šiai situacijai spręsti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų. 
 
 <a name="cash-discount-amounts"></a>Mokėjimo nuolaidos sumos
 ---------------------
 
-Tiekėjas gali jums suteikti mokėjimo nuolaidą apmokant SF iki termino pabaigos. Pavyzdžiui, įvedate sąskaitą faktūrą 100,00 sumai, kurioje nurodyta 2 % mokėjimo nuolaida, jei SF apmokama per 10 dienų. Galutinis terminas yra 30 dienų. Jei mokėjimo pasiūlymą naudoja mokėjimo nuolaida kaip kriterijų pasirinkdami sąskaitos faktūros, ir pasiūlymas yra paleisti arba iki mokėjimo nuolaidos data, SF pasirinktas mokėjimo, o mokėjimo sukuriamas 98.00. Nuolaida gali būti išnuomoti už vienkartinį mokėjimą, kuris buvo sukurtas rankiniu būdu.
+Tiekėjas gali jums suteikti mokėjimo nuolaidą apmokant SF iki termino pabaigos. Pavyzdžiui, įvedate sąskaitą faktūrą 100,00 sumai, kurioje nurodyta 2 % mokėjimo nuolaida, jei SF apmokama per 10 dienų. Galutinis terminas yra 30 dienų. Jei mokėjimo pasiūlyme sąskaitos faktūros pasirinkimo kriterijumi laikoma mokėjimo nuolaida, o pasiūlymas bus įvykdytas mokėjimo nuolaidos dieną ar prieš ją, bus pasirinkta apmokėti pagal šią sąskaitą faktūrą ir bus sukurta 98,00 siekianti mokėjimo suma. Galima pritaikyti mokėjimo nuolaidą ir neautomatiškai sukurtam vienkartiniam mokėjimui.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Daliniai mokėjimai taikant mokėjimo nuolaidas
-Kai atliekate dalinį mokėjimą, galite planuoti atlikti papildomą dalinį mokėjimą, kad visiškai sudengtumėte SF. Imtis dėl dalinio mokėjimo nuolaida, turite nustatyti į ** apskaičiuoti mokėjimo nuolaidas dėl dalinio mokėjimo ** galimybę **taip** ant to **sąskaita mokėtinų sumų parametrai** puslapis. 
+Kai atliekate dalinį mokėjimą, galite planuoti atlikti papildomą dalinį mokėjimą, kad visiškai sudengtumėte SF. Norėdami daliniam mokėjimui taikyti mokėjimo nuolaidą, puslapyje **Mokėtinų sumų parametrai** turite nustatyti parinkties **Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas** reikšmę **Taip**. 
 
-Pavyzdžiui, galite gauti 2 % mokėjimo nuolaidą, jei SF apmokama per 10 dienų nuo jo išdavimo. Užregistruota 100,00 sumos sąskaita faktūra. Jei atliksite mokėjimą su Sage 49.00 per 10 dienų, įvedus debetas, su Sage 49.00 mokėjimo žurnalą. Kai nustatote dalinis apmokėjimas į **Settle atviros operacijos** puslapyje, **1,00** pasirodo, **mokėjimo nuolaidos suma imtis** srityje. 
+Pavyzdžiui, galite gauti 2 % mokėjimo nuolaidą, jei SF apmokama per 10 dienų nuo jo išdavimo. Užregistruota 100,00 sumos sąskaita faktūra. Jei per 10 dienų sumokėsite 49,00, mokėjimų žurnale įvedate 49,00 siekiantį debetą. Kai sudengsite dalinį mokėjimą puslapyje **Sudengti atidarytas operacijas**, lauke **Taikytina mokėjimo nuolaidos suma** bus rodoma **1,00**. 
 
 > [!NOTE] 
-> Jei įvedate dalinis apmokėjimas ir palikti visas SF suma, **sudengtina suma** srityje, į **mokėjimo nuolaidos suma imtis** laukas yra automatiškai perskaičiuojama registruojant operacijas.
+> Pastaba. Jei įvesite dalinį mokėjimą ir lauke **Sudengtina suma** paliksite visą sąskaitos faktūros sumą, laukas **Taikytina mokėjimo nuolaidos suma** bus perskaičiuotas automatiškai, kai registruosite operacijas.
 
 ## <a name="credit-notes-with-cash-discounts"></a>Kredito pažymos su mokėjimo nuolaidomis
-Galite grąžinti kai kurias prekes, įtrauktas į SF, ir gauti kredito pažymą. Jei mokėjimo nuolaida pritaikyta originaliai SF, galite atimti nuolaidos vertę ir gauti teisingos sumos grąžinimą. Jei į ** apskaičiuoti mokėjimo nuolaidas kredito pažymoms ** parinktis nustatyta **taip** ant, **sudaro mokėtinų sumų parametrai** puslapyje, nuolaida apskaičiuojama automatiškai kredito pažymos. 
+Galite grąžinti kai kurias prekes, įtrauktas į SF, ir gauti kredito pažymą. Jei mokėjimo nuolaida pritaikyta originaliai SF, galite atimti nuolaidos vertę ir gauti teisingos sumos grąžinimą. Jei puslapyje **Mokėtinų sumų parametrai** nustatyta parinkties **Skaičiuoti kredito pažymų mokėjimo nuolaidas** reikšmė **Taip**, automatiškai apskaičiuojama kredito pažymos nuolaida. 
 
-Pavyzdžiui, galite gauti 2 % mokėjimo nuolaidą, jei SF apmokama per 10 dienų nuo jo išdavimo. Užregistruota 100,00 sumos SF. Jei galite grąžinti prekes ir gauti kredito pažymą, kredito pažymą galite įvesti visą sumą iš sąskaitos faktūros originalas, 100,00, kartu su 2 procentų mokėjimo nuolaidos, kurios taip pat yra nustatytos grąžinimo pažyma.  Kai peržiūrite kredito pažymos apie į **atsiskaitymams** puslapyje, **98.00** pasirodo, **sudengtina suma** srityje, ir **-2.00** pasirodo, **mokėjimo nuolaidos suma** lauko. Nuolaidos suma registruojama mokėjimo nuolaidos sąskaitoje.
+Pavyzdžiui, galite gauti 2 % mokėjimo nuolaidą, jei SF apmokama per 10 dienų nuo jo išdavimo. Užregistruota 100,00 sumos SF. Jei grąžinsite prekes ir gausite kredito pažymą, pagal kredito pažymą galėsite įvesti visą pradinės SF 100,00 siekiančią sumą bei kredito pažymoje taip pat nustatytą 2 % mokėjimo nuolaidą.  Peržiūrint kredito pažymą puslapyje **Sudengti operacijas**, lauke **Sudengtina suma** bus rodoma **98,00**, o lauke **Mokėjimo nuolaidos suma** bus rodoma **–2,00**. Nuolaidos suma registruojama mokėjimo nuolaidos sąskaitoje.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Permokėjimo / neprimokėjimo sumos
 Galite atlikti dalinį mokėjimą, kai suma, kurią vis dar reikia sudengti, yra labai maža. Pvz., tiekėjo SF suma yra 1 000,00 ir jūs sumokate 999,90. Jei likusi suma yra mažesnė už sumą, kuri nurodyta prie permokėjimų arba neprimokėjimų puslapyje **Mokėtinų sumų parametrai**, skirtumas automatiškai užregistruojamas permokėjimų / neprimokėjimų DK sąskaitoje.
+
+
 
 

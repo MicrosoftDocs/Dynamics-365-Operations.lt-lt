@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Apskaitos šaltinių naršyklė
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie Apskaitos šaltinių naršyklę, kurią galite naudoti Didžiosios knygos apskaitos įrašų šaltinio informacijos išsamiai analizei atlikti.
 
-Apskaitos šaltinių naršyklė yra naujas puslapis, kuriame rodomas šaltinio informacija. Galite naudoti apskaitos šaltinio explorer arba kaip atskirą priemonę arba analizuoti už Didžiosios knygos apskaitos įrašus. Pavyzdžiui, galite naudoti apskaitos šaltinis "Internet Explorer" gauti labiausiai informacijos šaltinis takas balanso pusiausvyrą arba kvitų operacijos. Galite naudoti eksportavimo į „MS Excel“ funkciją, kad dar labiau segmentuotumėte informaciją „Microsoft Excel“ (pvz., „PivotTable“ arba „PivotTable“ ataskaitoje).
+Apskaitos šaltinių naršyklė yra naujas puslapis, kuriame rodomas šaltinio informacija. Galite naudoti apskaitos šaltinių naršyklę kaip atskirą įrankį arba su ja analizuoti DK apskaitos įrašus. Pavyzdžiui, galite naudoti apskaitos šaltinių naršyklę, kad gautumėte išsamiausia šaltinio informaciją apie bandomąjį balansą arba kvito operaciją. Galite naudoti eksportavimo į „MS Excel“ funkciją, kad dar labiau segmentuotumėte informaciją „Microsoft Excel“ (pvz., „PivotTable“ arba „PivotTable“ ataskaitoje).
 
 Apskaitos šaltinių naršyklė visada rodo tą pačią bendrą sumą pagal DK sąskaitą, kurią rodo ir didžioji knyga (pvz., bandomojo balanso). Kaip ir bandomajame balanse galima rodyti segmentus atskiruose stulpeliuose. Tereikia pasirinkti tinkamą finansinės dimensijos rinkinį. 
 
 Galite naudoti parametrus norėdami nustatyti analizės datų intervalą. Ši funkcija taip pat panaši į bandomojo balanso funkcijas.
 
-Visiems dokumentams, naudoti šaltinio dokumento pagrindų, apskaitos šaltinis "Internet Explorer" rodo papildomą informaciją, remiantis apskaitos paskirstymo ir, jei taikoma, projekto apskaitos paskirstymo. Ši informacija apima pinigų sumą tipo, projekto veikla, ir kategoriją ir eilutės ypatybė. Štai keletas analizės, kurią galite atlikti, pavyzdžių:
+Apskaitos šaltinių naršyklė rodo papildomą informaciją apie visus dokumentus, kurie naudoja šaltinio dokumentų sistemą, paremtą apskaitos paskirstymais ir, jei taikoma, projekto apskaitos paskirstymais. Ši informacija apima piniginės sumos tipą, projektą, veiklą, kategoriją ir eilutės ypatybę. Štai keletas analizės, kurią galite atlikti, pavyzdžių:
 
 -   Nuokrypiai tarp pirkimo užsakymų ir tiekėjo SF, nes kiekvieną nuokrypį reprezentuoja piniginės sumos tipas, pvz., išlaidų nuokrypis
 -   Apmokamos ir neapmokamos valandos ir išlaidos pagal projektą, verslo struktūros vienetą ir pagrindinę sąskaitą
@@ -46,5 +49,7 @@ Apie šaltinio dokumentus, kurie naudoja šaltinio dokumentų nuorodos tapatybė
 -   Nuolaidos pagal tiekėją, produktą, padalinį
 
 Apskaitos šaltinių naršyklėje nuo šių dokumentų taip pat galima pereiti prie faktinio šaltinio dokumento.
+
+
 
 

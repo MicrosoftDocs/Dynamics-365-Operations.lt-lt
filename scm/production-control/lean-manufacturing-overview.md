@@ -1,5 +1,5 @@
 ---
-title: "Tausojančios gamybos apžvalga"
+title: "„Lean manufacturing“ apžvalga"
 description: "Šiame skyriuje pateikiami „Microsoft Dynamics AX lean manufacturing“ funkcijų apžvalga ir aprašymas."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Tausojančios gamybos apžvalga
+# <a name="lean-manufacturing-overview"></a>„Lean manufacturing“ apžvalga
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame skyriuje pateikiami „Microsoft Dynamics AX lean manufacturing“ funkcijų apžvalga ir aprašymas.
 
@@ -49,7 +52,7 @@ Norėdami sukurti „lean manufacturing‟ platformą, gamybos ir logistikos pro
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> „Kanban‟ naudojamas siekiant signalizuoti paklausos reikalavimus
 Traukimo sistema prekes gamina tik kai jų reikia. Ši praktika sumažina pristatymo vykdymo laiką ir atsargų perviršį. Galite naudoti „kanban‟ planuoti, stebėti ir apdoroti reikalavimams, paremtiems gamybos eigomis. Norėdami sukurti „kanban“ sistemą, sukurkite „kanban“ taisykles, apibrėžiančias, kada „kanban“ kuriamos ir kaip vykdomi reikalavimai. Galite kurti dviejų tipų „kanban“ taisykles. Gamybos taisyklės kuria „kanban‟ apdorojimo užduotis, o išėmimo „kanban“ taisyklės kuria „kanban‟ perkėlimo užduotis. Galite nustatyti šias papildymo strategijas:
--   **Fiksuoto kiekio** „kanban“ taisyklės yra susijusios su fiksuotu sandėliavimo vienetų skaičiumi, o tai reiškia, kad aktyvių „kanban‟ skaičius yra pastovus. Kai visi produktai iš a Kanban sunaudojamos, vėdinimo įrenginių rankiniu būdu ištuštinamas, sukuriamas naujas kanban tos pačios rūšies. Kai kuriate fiksuotas kiekis kanban taisykles, galite apskaičiuoti optimalų kanban kiekiai ir produktų kiekius, kurie yra naudojami. Skaičiuojant atsižvelgiama į prognozę, faktinį poreikį iš atidarytų užsakymų, prekių papildymo vykdymo laiką ir praeities poreikius.
+-   **Fiksuoto kiekio** „kanban“ taisyklės yra susijusios su fiksuotu sandėliavimo vienetų skaičiumi, o tai reiškia, kad aktyvių „kanban‟ skaičius yra pastovus. Kai sunaudojami visi „kanban‟ produktai ir rankiniu būdu ištuštinami sandėliavimo vienetai, sukuriama nauja to paties tipo „kanban“. Kurdami fiksuoto kiekio „kanban‟ taisykles, galite apskaičiuoti optimalius naudojamus „kanban‟ kiekius ir produktų kiekius. Skaičiuojant atsižvelgiama į prognozę, faktinį poreikį iš atidarytų užsakymų, prekių papildymo vykdymo laiką ir praeities poreikius.
 -   **Suplanuotos** „kanban“ taisyklės papildo reikalavimus, apskaičiuotus atliekant bendrąjį planavimą. Bendrasis planavimas generuoja suplanuotas „kanban‟, kurios gali būti patvirtintos ir tapti „kanban‟.
 -   **Įvykio** „kanban“ taisyklės papildo reikalavimus, kurie kyla iš pardavimo užsakymų eilučių, gamybos KS eilučių, „kanban“ eilučių ar minimalių atsargų nuostatų. Kai sugeneruojamos įvykio „kanban‟, jos susiejamos su šaltinio reikalavimais.
 
@@ -76,6 +79,8 @@ Toliau pateiktame sąraše aprašomos specializuotos „kanban“ sritys.
 Be to, „lean manufacturing‟ palaiko paslaugų, į kurias nurodo subrangos veiklos, pirkimo ir SF išrašymo procesus.
 -   Subrangos veikloms galite priskirti pirkimo sutarčių eilutes ir paslaugas.
 -   Galite kurti periodinius pirkimo užsakymus ir gavimo pažymas, kad būtų palaikomas paslaugų pirkimas ir sąskaitų faktūrų išrašymas.
+
+
 
 
 

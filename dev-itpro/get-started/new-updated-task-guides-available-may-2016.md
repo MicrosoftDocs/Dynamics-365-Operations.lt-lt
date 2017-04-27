@@ -1,6 +1,6 @@
 ---
-title: "Naujų ar atnaujintų užduočių vadovai (2016 m. gegužės)"
-description: "Šiame straipsnyje išvardijami naujų ar atnaujintų užduočių vadovai, kuris buvo išleistas su &quot;Microsoft&quot; (Gegužė 2016 - visomis kalbomis) APQC bendrosios bibliotekos Microsoft Dynamics AX. Išleista jokia nauja darbo pradžios biblioteka."
+title: "Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)"
+description: "Šiame straipsnyje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Naujų ar atnaujintų užduočių vadovai (2016 m. gegužės)
+# <a name="new-or-updated-task-guides-may-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)
 
-Šiame straipsnyje išvardijami naujų ar atnaujintų užduočių vadovai, kuris buvo išleistas su "Microsoft" (Gegužė 2016 - visomis kalbomis) APQC bendrosios bibliotekos Microsoft Dynamics AX. Išleista jokia nauja darbo pradžios biblioteka. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Užduočių vadovai – (Gegužė 2016 - visomis kalbomis) APQC bendrosios bibliotekos Microsoft Dynamics AX
+
+Šiame straipsnyje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC bendrosios bibliotekos užduočių vedliai (2016 m. gegužės mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 ------------------------------------------------------------------------------------------------
 
-(Gegužė 2016) APQC vieningas bibliotekoje yra vadovai, kurie yra skirti naudoti su Microsoft Dynamics AX žinyno 2016 atnaujina užduotį ir Microsoft Dynamics AX 2016 m. vasario išleidimo. Lokalizuotas versijas užduotis vadovus, kurios buvo išleistos (vasario 2016) APQC vieningas biblioteka yra šios bibliotekos. Daugiau informacijos apie tai, kaip prie užduočių vadovas biblioteka žinyno sistemoje, rasite [pradėti su pagalba](help-overview.md). **Pastaba:** žvaigždutė (**\***) šalia pavadinimo verslo proceso modeler (BPM) linija rodo, kad darbo vadovas, kad verslo procesas buvo sukurtas Dynamics AX gali 2016 redakcija ir ankstesnės versijos Microsoft Dynamics AX nepalaiko.
+APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md). **Pastaba.** Žvaigždutė (**\***) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics AX“ 2016 m. gegužės mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
 
 ### <a name="countryregion-functionality"></a>Šaliai / regionui būdingos funkcijos
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 | ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas         | Visuotinai         |
 | ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją | Bendra         |
 | ER: konfigūracijos importavimas iš „Lifecycle Services‟                          | Bendra         |
-| **\***ER Select service provider                                           | Bendra         |
+| **\***ER paslaugų teikėjo pasirinkimas                                           | Bendra         |
 | ER: formato atnaujinimas pritaikant naują to formato pagrindinę versiją      | Visuotinai         |
 | ER: konfigūracijos nusiuntimas į „Lifecycle Services‟                          | Visuotinai         |
 
@@ -126,7 +129,7 @@ ms.lasthandoff: 03/31/2017
 | BPM eilutė                                                 | Šalis/regionas |
 |----------------------------------------------------------|----------------|
 | Kurti naują produktą                                     | Bendra         |
-| Sukurti... \financial-dimensions\dimension-based konfigūracijos                    | Bendra         |
+| Create ..\financial-dimensions\dimension-based configurations                    | Bendra         |
 | Iš anksto apibrėžtų produkto variantų kūrimas                       | Visuotinai         |
 | Pardavimo kainos pasirinkimo kriterijų kūrimas                    | Visuotinai         |
 | Įvesti konfigūruojamų produktų užsakymus                   | Visuotinai         |
@@ -176,22 +179,24 @@ ms.lasthandoff: 03/31/2017
 | BPM eilutė                                                            | Šalis/regionas |
 |---------------------------------------------------------------------|----------------|
 | Bangos apdorojimo konfigūravimas                                           | Bendra         |
-| **\***Skelbti baigtais licencijos plokštės kontroliuojamoje vietoje | Visuotinai         |
+| **\***Skelbimas baigtais į ne pagal numerio lentelę kontroliuojamą vietą | Visuotinai         |
 | Min.–maks. papildymo proceso nustatymas                              | Visuotinai         |
 | Krovimo į konteinerius nustatymas                                             | Visuotinai         |
 | Rankinio pakavimo nustatymas                                               | Bendra         |
 | Prekės transportavimo apribojimų nustatymas                       | Bendra         |
-| **\***Set up warehouse work policies                                | Bendra         |
+| **\***Sandėlio darbo strategijų nustatymas                                | Bendra         |
 
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Naujas užduočių vadovai (2016 m. vasario)](new-task-guides-available-february-2016.md)
+[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m. rugpjūčio)](new-updated-task-guides-available-august-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m lapkričio mėn.)](new-task-guides-november-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
+
+
 
 

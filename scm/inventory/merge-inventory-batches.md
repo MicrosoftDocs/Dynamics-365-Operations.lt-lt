@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Susieti atsargų paketus
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete. 
 
 Kai suliejate paketus, skaičiavimai gali padėti optimizuoti sulieto paketo charakteristikas ir atributus. Pasirinkę šaltinio paketus, prieš užregistruodami sulietąjį paketą, jį galite peržiūrėti ir pakeisti. Taip pat paketų suliejimą galite perkelti į atsargų žurnalą patvirtinti. Atsargas tada galima rezervuoti ar registruoti tiesiai iš to atsargų žurnalo. Kai užregistruojate susietą paketą, pakoreguojamos šaltinio paketų ir susieto paketo atsargos.
@@ -48,7 +51,7 @@ Taip, yra keletas dalykų, kuriuos reikia nustatyti prieš naudojant paketų sus
 <tbody>
 <tr class="odd">
 <td>Žurnalų pavadinimai, atsargos</td>
-<td>Kai paketų suliejimus registruojate atsargų žurnaluose, turite sukurti žurnalo pavadinimą, naudojamą pagal numatytuosius nustatymus. Nebūtina, bet rekomenduojama: galite nurodyti, kad būtų automatiškai rezervuojama, kai paketų suliejimas perkeliamas į atsargų žurnalą. Priešingu atveju yra pavojus, kad turimos atsargos gali būti pakeistos, kai nustatoma paketų suliejimo informacija ir užregistruojamas žurnalas. Įgalinti automatinius u˛sakymus, žurnalo pavadinimą, pasirinkite <strong>Automatinis</strong>, į <strong><strong>užsakymo</strong></strong> srityje.</td>
+<td>Kai paketų suliejimus registruojate atsargų žurnaluose, turite sukurti žurnalo pavadinimą, naudojamą pagal numatytuosius nustatymus. Nebūtina, bet rekomenduojama: galite nurodyti, kad būtų automatiškai rezervuojama, kai paketų suliejimas perkeliamas į atsargų žurnalą. Priešingu atveju yra pavojus, kad turimos atsargos gali būti pakeistos, kai nustatoma paketų suliejimo informacija ir užregistruojamas žurnalas. Norėdami įjungti automatinį žurnalo pavadinimo rezervavimą, lauke <strong><strong>Rezervavimas</strong></strong> pasirinkite <strong>Automatinis</strong>.</td>
 </tr>
 <tr class="even">
 <td>Atsargų ir sandėlio valdymo parametrai</td>
@@ -134,9 +137,11 @@ Registravimas veikia dviem būdais, atsižvelgiant į tai, ar naudojate žurnal�
 -   **Perkelti į žurnalą** – paketų suliejimo informaciją perkelti į naują atsargų žurnalą. Jei nustatėte automatinį rezervavimą, rezervuojami šaltinio paketų kiekiai. Paketų suliejimo informacijos pakeisti negalima. Norėdami modifikuoti paketų suliejimą, turite panaikinti žurnalą. Žurnalas gali būti naudojamas kaip užduotis, kurią vėliau turi atlikti kitas darbuotojas. Paketo kiekio rezervavimas žurnalo eilutėje yra saugomas. Toks paskirstymas kokybės planuotojui ar sandėlio vadovui leidžia kurti užduotis savo darbuotojams.
 -   **Registruoti paketų suliejimą** – paketų suliejimą registruoti tiesiogiai. Šį veiksmą galima atlikti įvykus fiziniam suliejimui.
 
-Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Visi paketų suliejimai**. Spustelėkite **leidinyje**&gt;**po**. Užregistravus žurnalą, negalima pakeisti sulieto paketo informacijos. Kai perkeliate paketų susiejimą į atsargų žurnalą, informaciją galite pakeisti, tik jei žurnalas panaikinamas.
+Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Visi paketų suliejimai**. Spustelėkite **Žurnalas** &gt; **Registruoti**. Užregistravus žurnalą, negalima pakeisti sulieto paketo informacijos. Kai perkeliate paketų susiejimą į atsargų žurnalą, informaciją galite pakeisti, tik jei žurnalas panaikinamas.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Po to, kai aš sujungta catchweight elementą, kodėl aš negaliu peržiūrėti catchweight informacijos atsargų žurnalo?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kai susieju esamo svorio prekę, kodėl esamo svorio informacijos negaliu matyti atsargų žurnale?
 Esamo svorio prekių paketus galite sulieti kaip ir visas kitas prekes. Tačiau esamo svorio informacija nerodoma atsargų žurnale. Prieš perkeliant paketų suliejimą į atsargų žurnalą rekomenduojame patikrinti esamo svorio informaciją.
+
+
 
 

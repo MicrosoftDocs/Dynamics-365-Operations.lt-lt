@@ -1,5 +1,5 @@
 ---
-title: "Tvarkymo mokėjimo nuolaidas permokas"
+title: "Mokėjimų nuolaidų esant permokoms apdorojimas"
 description: "Šiame straipsnyje pateikti scenarijai, rodantys, kaip tvarkyti mokėjimą, kai klientas gauna mokėjimo nuolaidą, bet ir permoka."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Tvarkymo mokėjimo nuolaidas permokas
+# <a name="handling-cash-discounts-for-overpayments"></a>Mokėjimų nuolaidų esant permokoms apdorojimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikti scenarijai, rodantys, kaip tvarkyti mokėjimą, kai klientas gauna mokėjimo nuolaidą, bet ir permoka. 
 
@@ -133,6 +136,8 @@ Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00. Mokėjimo ir SF la
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**) | 10,50        |               |
 | Gautinos sumos                                                                              |              | 10,50         |
+
+
 
 
 

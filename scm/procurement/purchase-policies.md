@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Pirkimo strategijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais.
 
 Pirkimo strategiją sudaro strategijos taisyklių rinkinys. Kai nustatote strategijos taisyklę, pirmiausia pasirenkate taisyklės tipą. Tada sukuriate pasirinkto taisyklės tipo taisyklę, nustatydami jos parametrus, pradžios datą ir pabaigos datą.  
@@ -41,13 +44,13 @@ Atsižvelgiant į tai, kaip konfigūruojate savo pirkimo strategijas, vartotojus
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>1 pavyzdys: paprastas pirkimo strategijos konfigūravimas
 
-Organizacijų, kurios yra mažos ir mažiau sudėtingas nustatyti perka politikos subjektas, ir galite naudoti tik įmonės organizacijos hierarchijos.  
+Mažos ir nesudėtingos organizacijos pirkimo strategijas gali nustatyti pagal juridinį subjektą ir naudoti tik organizacijos hierarchijos tipą Įmonės.  
 
 „Fabrikam“ (smulkiojo verslo) pirkimo reikalavimai visoje organizacijoje skiriasi mažai. Pirkimo taisyklės skiriasi tik tarp organizacijos juridinių subjektų. Pvz., „Fabrikam Canada“ ir „Fabrikam U.S.“ darbuotojai prekes ir paslaugas perka iš skirtingų katalogų ir tiekėjų. Todėl „Fabrikam“ pirkimo strategijos nustatomos juridinio subjekto lygyje.  
 
-„Fabrikam“ sukuria dvi pirkimo strategijas. Politika taikoma jo JAV teisės subjektas, 1111. B politika taikoma Kanados teisės subjektas, 2222. Darbuotojas juridinio subjekto 1111 sukuria pirkimo paraiškos, politikos taisyklės yra kilęs iš A. politikos Pvz., prekių katalogas, kad darbuotojas mato nurodytas katalogas politikos teisinės politikos A.  
+„Fabrikam“ sukuria dvi pirkimo strategijas. A strategija taikoma jos JAV juridiniam subjektui, 1111. B strategija taikoma jos Kanados juridiniam subjektui, 2222. Kai 1111 juridinio subjekto darbuotojas kuria pirkimo paraišką, strategijos taisyklės išvedamos iš A strategijos. Pvz., darbuotojo matomas produktų katalogas yra nurodytas A strategijos katalogo strategijos taisyklėje.  
 
-Darbuotojas juridinio subjekto 2222 sukuria pirkimo paraiškos, politikos taisyklės yra kilę iš politikos B.  
+Kai 2222 juridinio subjekto darbuotojas kuria pirkimo paraišką, strategijos taisyklės išvedamos iš B strategijos.  
 
 **Pastaba:** jei 1111 juridinio subjekto darbuotojas prekę perka 2222 juridinio subjekto darbuotojo vardu, taikomos 2222 juridinio subjekto nustatytos strategijos taisyklės (t. y. B strategijos taisyklės).
 
@@ -117,7 +120,7 @@ Papildymo valdymo taisyklė yra pasirinktinė taisyklė, nurodanti laukus, kuriu
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Pirkimo užsakymo kūrimas ir poreikio konsolidacijos taisyklė
 
-Pirkimo užsakymo kūrimas ir paklausos konsolidavimo taisyklė apibrėžia politikos taisykles naudojant pirkimo užsakymas nebus generuojamas iš patvirtinto pirkimo paraiškos. Kuriant šio tipo taisykles, parinktis galima nustatyti įvairiuose toliau nurodytuose skirtukuose.
+Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias strategijos taisykles reikia naudoti, kai pirkimo užsakymas yra generuojamas iš patvirtintos pirkimo paraiškos. Kuriant šio tipo taisykles, parinktis galima nustatyti įvairiuose toliau nurodytuose skirtukuose.
 
 -   Skirtuke **Pirkimo užsakymo skaidymas** galite nurodyti pirkimo paraiškos eilučių skaidymo į atskirus pirkimo užsakymus kriterijus.
 -   Skirtuke **Kainų / nuolaidų perkėlimas** galite nurodyti, kada reikia perskaičiuoti kainos sutartį, kai kuriamas pirkimo užsakymas.
@@ -126,7 +129,7 @@ Pirkimo užsakymo kūrimas ir paklausos konsolidavimo taisyklė apibrėžia poli
 
     Taip pat galite leisti prašytojui keisti atskirų pirkimo paraiškos eilučių kainų ir nuolaidų perkėlimo metodą, nepaisant kainų/nuolaidų perkėlimo taisyklės, kuri yra nurodyta. Pasirinkite parinktį **Leisti rankiniu būdu perrašyti pirkimo paraiškos eilutę**, jei norite įgalinti šią galimybę.
 -   Skirtuke **Prekės aprašo perkėlimas** galite prekės aprašą perkelti iš paraiškos, jei ji yra kilusi iš RFQ.
--   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[kiekis × (vieneto kaina – nuolaidos) ÷ kaina vieneto\] + įsigyti papildomų išlaidų) x (100-nuolaidos procentas) ÷ 100 pirkimo paraiškos eilutėse, viršija kainų nuokrypio, kurį nustatėte vyksta skirta apdoroti neautomatiniu būdu. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas**, nustato, kaip apdorojamos pirkimo paraiškos eilutės.
+-   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[Kiekis × (Vieneto kaina – Nuolaida) ÷ Kainos vienetas\] + Papildomos pirkimo išlaidos) × (100 – nuolaidos procentas) ÷ 100. Jūsų nustatytą kainos nuokrypį viršijančios pirkimo paraiškos eilutės apdorojamos neautomatiškai. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas**, nustato, kaip apdorojamos pirkimo paraiškos eilutės.
 -   Skirtuke **Klaidų apdorojimas** galite konfigūruoti apdorojimo taisyklę, taikomą pirkimo paraiškai, jei jos patvirtinimas pirkimo užsakymo kūrimo metu nepavyksta dėl tiekėjo klaidos arba kainos nuokrypio klaidos. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Veiksmų nėra** – pirkimo paraiškos eilutės lieka puslapyje **Išleisti patvirtintas pirkimo paraiškas**. Pirkimo paraiškos eilučių būsena lieka **Patvirtinta**. Tačiau klaidos turi būti išspręstos, kad pirkimo užsakymas galėtų būti generuojamas pirkimo paraiškos eilutėms.
     -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis ar ji vis dar nori prašyti eilutės elementų.
@@ -141,6 +144,8 @@ Pirkimo užsakymo kūrimas ir paklausos konsolidavimo taisyklė apibrėžia poli
     -   **Neleisti poreikio konsolidacijos** – negalima konsoliduoti jokių patvirtintų pirkimo paraiškos eilučių poreikio. Ši parinktis yra įjungta pagal numatytuosius parametrus ir taikoma tik pirkimo paraiškos eilutėms, kurioms reikalingas pirkimo užsakymo kūrimo neautomatinis apdorojimas.
     -   **Visada leisti poreikio konsolidaciją** – galima konsoliduoti visų patvirtintų pirkimo paraiškos eilučių poreikį. **Pastaba:** jei skirtuke **Poreikio konsolidavimas** pasirinksite parinktį **Visada leisti poreikio konsolidaciją**, o skirtuke **Neautomatinis pirkimo užsakymo kūrimas** pasirinksite parinktį **Automatiškai kurti pirkimo užsakymus**, visos pirkimo paraiškos bus apdorojamos neautomatiniu būdu.
     -   **Leisti poreikio konsolidaciją esant šioms sąlygoms** – nurodykite kriterijus, pagal kuriuos nustatoma, ar galima konsoliduoti patvirtintų pirkimo paraiškos eilučių poreikį. Kiekvienos rūšies pirkimo paraiškos eilutei galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją. Jei pasirenkate **Leisti poreikio konsolidaciją esant šioms sąlygoms**, galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją kiekvienos rūšies pirkimo paraiškos eilutei. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Jei pasirenkate parinktį **Visos** konkrečiam eilutės tipui, galima konsoliduoti visų to eilutės tipo pirkimo paraiškos eilučių poreikį.
+
+
 
 
 

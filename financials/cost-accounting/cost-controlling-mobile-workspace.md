@@ -1,6 +1,6 @@
 ---
-title: "Kaina kontroliuoti mobiliojo darbo srities Microsoft Dynamics &quot;365&quot; veiksmų programos"
-description: "Su išlaidomis kontroliuoti mobiliojo ryšio darbo sritį, išlaidų centrų vadovų galite pamatyti išlaidų centras bet kada ir bet kur."
+title: "Mobilioji išlaidų valdymo darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“"
+description: "Naudodami mobiliąją išlaidų valdymo darbo sritį, išlaidų centrų vadovai gali bet kada ir bet kur peržiūrėti išlaidų centro efektyvumą."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Kaina kontroliuoti mobiliojo darbo srities Microsoft Dynamics "365" veiksmų programos
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilioji išlaidų valdymo darbo sritis, skirta programai „Microsoft Dynamics 365 for Operations“
 
-Su išlaidomis kontroliuoti mobiliojo ryšio darbo sritį, išlaidų centrų vadovų galite pamatyti išlaidų centras bet kada ir bet kur. 
+Naudodami mobiliąją išlaidų valdymo darbo sritį, išlaidų centrų vadovai gali bet kada ir bet kur peržiūrėti išlaidų centro efektyvumą. 
 
 <a name="prerequisites"></a>Būtinieji komponentai
 -------------
 
 | Būtinoji sąlyga                                                         | aprašymas                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Skaityti apie Microsoft Dynamics 365 operacijų mobiliųjų platformų | [Dinamika 365 operacijų mobiliųjų platformų](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dinamika 365 operacijoms                                          | Įsitikinkite, kad naudojate aplinkoje, kuri yra Microsoft Dynamics 365 operacijų versija 1611 ir "Microsoft Dynamics" operacijų platformos naujinimas 3 (2016 m lapkričio mėn.). |
-| Karštosios pataisos KB 3215650                                                    | Įdiekite karštąją pataisą norite įgalinti darbo sritys, kurios yra teikiamos Microsoft Dynamics 365 operacijoms.                                                                       |
-| Mobiliojo įrenginio, turinčio Dynamics 365 dėl operacijų taikomąją programą | Atsisiųskite Dynamics 365 operacijų App iš mobiliųjų programėlių parduotuvėje.                                                                                                      |
+| Skaitykite apie „Microsoft Dynamics 365 for Operations“ mobiliąją platformą | [Mobilioji „Dynamics 365 for Operations“ platforma](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Įsitikinkite, kad naudojate aplinką, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.). |
+| Karštosios pataisos KB 3215650                                                    | Įdiegę karštąsias pataisas įjunksite „Microsoft Dynamics 365 for Operations“ pateikiamas darbo sritis.                                                                       |
+| Mobilusis įrenginys, kuriame įdiegta programa „Dynamics 365 for Operations“ | Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite programą „Dynamics 365 for Operations“.                                                                                                      |
 
 ## <a name="introduction"></a>Įžanga
-Kontroliuoti mobiliojo darbo srities išlaidas siūlo momentinių atsižvelgiant, dabartinę veiklą ir išlaidų centrai lyginant faktines išlaidas nuo biudžete numatytoms išlaidoms. Jūs galite išgręžti iki atskirų išlaidų elementų būsenas.
+Mobilioji išlaidų valdymo darbo sritis suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būsenas.
 
 ### <a name="example"></a>Pavyzdys
 
-Darbuotojas gauna kvietimą į tarptautinę konferenciją. Organizacijos turės padengti visas kelionės išlaidas. Darbuotojas prašo jo ėdžiose, jei jis gali dalyvauti konferencijoje. Vadybininkas greitai atidaro išlaidas kontroliuoti mobiliojo darbo srities į savo mobilųjį telefoną pamatyti, ar jis nebuvo biudžeto darbuotojo dalyvauti konferencijoje.
+Darbuotojas gauna pakvietimą į tarptautinę konferenciją. Organizacija turės padengti visas kelionės išlaidas. Darbuotojas klausia savo vadovo, ar jis gali dalyvauti konferencijoje. Vadovas greitai atidaro mobiliąją išlaidų valdymo darbo sritį savo mobiliajame telefone, kad peržiūrėtų biudžetą ir nuspręstų, ar darbuotojas gali dalyvauti konferencijoje.
 
 ### <a name="data-security"></a>Duomenų sauga
 
-Išlaidas kontroliuoti darbo srities duomenys yra užpatentuotas vartotojo kredencialus. Išlaidų centro vadovui leidžiama tik pamatyti duomenis savo išlaidų centrą. Prieigos lygio saugumo funkcijas sąnaudų apskaitos modulis. Kaina buhalterių apibrėžti kontroliuoti mobiliojo darbo srities konfigūravimas kaštų apskaitos modulio kaina. Paskelbus darbo srities Microsoft Dynamics 365 veiklos programą, tai galima Dynamics "365" mobiliesiems operacijas. Tai užtikrina, kad visi išlaidų centro vadovai organizacijoje pažvelgti į duomenis tuo pačiu formatu.
+Duomenys išlaidų valdymo darbo srityje apsaugoti naudojant vartotojo kredencialus. Išlaidų centro vadovas gali peržiūrėti tik savo išlaidų centro duomenis. Prieigos lygio apsauga valdoma išlaidų apskaitos modulyje. Išlaidų buhalteriai nurodo mobiliosios išlaidų valdymo darbo srities konfigūraciją išlaidų apskaitos modulyje. Kai darbo sritis publikuojama programoje „Microsoft Dynamics 365 for Operations“, ją galima pasiekti „Dynamics 365 for Operations“ mobiliojoje programoje. Taip užtikrinama, kad visi išlaidų centrų vadovai organizacijoje duomenis peržiūri tuo pačiu formatu.
 
-### <a name="actions-views-and-links"></a>Veiksmus, vaizdai ir nuorodos
+### <a name="actions-views-and-links"></a>Veiksmai, rodiniai ir saitai
 
-Išlaidas kontroliuoti mobiliojo darbo srities Dynamics "365" veiksmų programos numato tokius veiksmus, vaizdai ir nuorodos:
+Mobiliojoje išlaidų valdymo darbo srityje, skirtoje programai „Dynamics 365 for Operations“, pateikiami toliau nurodyti veiksmai, rodiniai ir saitai.
 
 -   Veiksmai 
-    -   Pasirinkite **konfigūracijos** paimti maketą.
-    -   Pasirinkite **išlaidų objektus** pasirinkti išlaidų centrai, kurią norite filtruoti duomenis. **Pastaba:** sąrašas pateikiamas pagal kaštų apskaitos modulio suteikta teisė susipažinti.
+    -   Pasirinkite **Konfigūracijos**, kad pasirinktumėte maketą.
+    -   Pasirinkite **Išlaidų objektai**, kad pasirinktumėte išlaidų centrus, kurių duomenis norite filtruoti. **Pastaba.** Sąrašas rodomas atsižvelgiant į išlaidų apskaitos modulyje suteiktą prieigą.
 
 <!-- -->
 
--   Atsižvelgiant į tai, kas pasirinkta pagal **veiklos** ir kas yra sukonfigūruotas kaštų apskaitos modulio, galite peržiūrėti šią informaciją kortelės. Atkreipkite dėmesį, kad suma rodoma to paties formato: tikrasis, biudžetas, nuokrypis ir dispersija %. 
-    -   Realių ir įvertintųjų biudžeto (ataskaitinio laikotarpio)
-    -   Realių ir įvertintųjų pataisytas biudžetas (ataskaitinio laikotarpio)
-    -   Realių ir įvertintųjų biudžeto (praėjusį laikotarpį)
-    -   Realių ir įvertintųjų pataisytas biudžetas (praėjusį laikotarpį)
-    -   Realių ir įvertintųjų biudžeto (metai iki datos)
-    -   Realių ir įvertintųjų pataisytas biudžetas (metai iki datos)
+-   Priklausomai nuo pasirinkimo dalyje **Veiksmai** ir nuo to, kas sukonfigūruota išlaidų apskaitos modulyje, galite peržiūrėti toliau nurodytą kortelių informaciją. Atkreipkite dėmesį, kad suma rodoma tuo pačiu formatu: Faktinė, Biudžeto, Nuokrypio ir Nuokrypio %. 
+    -   Faktinė ir biudžeto sumos (dabartinis laikotarpis)
+    -   Faktinė ir patikslinta biudžeto sumos (dabartinis laikotarpis)
+    -   Faktinė ir biudžeto sumos (ankstesnis laikotarpis)
+    -   Faktinė ir patikslinta biudžeto sumos (ankstesnis laikotarpis)
+    -   Faktinė ir biudžeto sumos (nuo metų pradžios iki šios dienos)
+    -   Faktinė ir patikslinta biudžeto sumos (nuo metų pradžios iki šios dienos)
 
 <!-- -->
 
 -   Saitai
-    -   Ataskaitinio laikotarpio informacija.
-    -   Ankstesnio laikotarpio duomenys.
-    -   Detalių metų iki datos.
+    -   Dabartinio laikotarpio informacija.
+    -   Ankstesnio laikotarpio informacija.
+    -   Informacija nuo metų pradžios iki šiandien.
 
-Pasirinkus vieną iš pateiktų nuorodų, yra rodomas kortelės už sąnaudų dalis. Kortelės suma yra rodomas tokiu formatu: tikrasis, biudžetas, biudžetas dispersija, biudžeto nuokrypis %, pataisytas biudžetas, pataisytas biudžetas dispersija ir pataisytas biudžetas nuokrypis %.  [![išlaidų kontrolė](./media/cost-controlling.png)](./media/cost-controlling.png)
+Kai pasirenkate vieną iš saitų, rodoma kortelė pagal išlaidų elementą. Suma kortelėse rodoma šiuo formatu: Faktinė, Biudžeto, Biudžeto nuokrypio, Biudžeto nuokrypio %, Patikslinta biudžeto, Patikslinta biudžeto nuokrypio ir Patikslinta biudžeto nuokrypio %.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Darbo pradžia
-Atlikite šiuos veiksmus Norėdami pradėti naudotis išlaidų kontrolės Mobilioji programėlė mobiliajame įrenginyje.
+Norėdami pradėti naudoti mobiliąją išlaidų valdymo darbo sritį savo mobiliajame įrenginyje, atlikite šiuos veiksmus.
 
-1.  Jūsų mobiliųjų įrenginių programėlę parduotuvėje, atsisiųskite ir įdiekite Microsoft Dynamics 365 veiklos programą.
-2.  Paleiskite programėlę į savo įrenginį.
-3.  Įveskite savo dinamika 365 URL.
-4.  Įveskite prisijungti prie kompanijos. Pavyzdžiui, įveskite **USMF**.
-5.  Pirmą kartą, kai prisijungsite, bus rodomas raginimas įvesti vartotojo vardą ir slaptažodį savo Microsoft Dynamics "365" veiklos sąskaita. Įvesti savo kredencialus. Po to, kai prisijungsite, matote laisvų darbo srities jūsų įmonė.
+1.  Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite ir įdiekite programą „Microsoft Dynamics 365 for Operations“.
+2.  Paleiskite programą savo mobiliajame įrenginyje.
+3.  Įveskite savo „Dynamics 365“ URL.
+4.  Įveskite įmonę, prie kurios norite prisijungti. Pavyzdžiui, įveskite **USMF**.
+5.  Pirmą kartą prisijungus būsite paraginti įvesti savo „Microsoft Dynamics 365 for Operations“ paskyros vartotojo vardą ir slaptažodį. Įveskite savo kredencialus. Prisijungę matysite galimas savo įmonės darbo sritis.
 
-Norėdami peržiūrėti savo mobiliesiems darbo sričių, pirmiausia turi publikuoti norimą darbo srities dinamika 365 operacijų programos.
+Norėdami darbo sritis peržiūrėti savo mobiliojoje programoje, pirmiausia turite pageidaujamas sritis publikuoti programoje „Dynamics 365 for Operations“.
 
-1.  Paleisti Dynamics 365 operacijoms.
-2.  Eikite į **sistemos administravimo**&gt;**nustatymo**&gt;**sistemos parametrai**.
-3.  Pasirinkite **tvarkyti mobiliųjų įrenginių programėlę**.
-4.  Pasirinkite darbo sritį ** kaina kontroliuoti ** skelbti apie mobiliųjų platformų.
-5.  Pasirinkite **skelbti darbo srities**.
-6.  Atnaujinkite įrenginio paskelbtų darbo sritis.
+1.  Paleiskite „Dynamics 365 for Operations“.
+2.  Pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **Sistemos parametrai**.
+3.  Pasirinkite **Tvarkyti mobiliąją programą**.
+4.  Pasirinkite darbo sritį **Išlaidų valdymas**, kad ją publikuotumėte mobiliojoje platformoje.
+5.  Pasirinkite **Publikuoti darbo sritį**.
+6.  Atnaujinkite įrenginio rodinį, kad matytumėte publikuojamas darbo sritis.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Rodyti savo išlaidų centro veiklos
-1.  Mobiliajame įrenginyje, pasirinkite pagal **išlaidų kontrolės** darbo srities.
-2.  Pasirinkite **išlaidų objekto kontroliuoti**.
-3.  Spustelėkite **veiklos**.
-4.  Spustelėkite **pasirinkite konfigūracijos** pasirinkti išlaidų kontrolės išdėstymą.
-5.  Spustelėkite **atlikti**.
-6.  Spustelėkite **veiklos**.
-7.  Spustelėkite **sąnaudų objektą** pasirinkti išlaidų centrai, prie kurių jums suteikta prieigos.
-8.  Spustelėkite **atlikti**.
-9.  Rodyti bendrą našumą jūsų išlaidų centrą.
-10. Spustelėkite **detalių ataskaitinio laikotarpio**.
-11. Rodyti atskirų išlaidų elementų veikimui.
-12. Taip pat galite ieškoti konkrečių išlaidų elementai.
+## <a name="view-the-performance-of-your-cost-center"></a>Išlaidų centro efektyvumo peržiūra
+1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Išlaidų valdymas**.
+2.  Pasirinkite **Išlaidų objekto valdymas**.
+3.  Spustelėkite **Veiksmai**.
+4.  Spustelėkite **Pasirinkti konfigūraciją**, kad pasirinktumėte išlaidų valdymo maketą.
+5.  Spustelėkite **Atlikta**.
+6.  Spustelėkite **Veiksmai**.
+7.  Spustelėkite **Pasirinkti išlaidų objektą**, kad pasirinktumėte išlaidų centrus, prie kurių turite prieigą.
+8.  Spustelėkite **Atlikta**.
+9.  Peržiūrėkite bendrą išlaidų centro efektyvumą.
+10. Spustelėkite **Dabartinio laikotarpio informacija**.
+11. Peržiūrėkite atskirų išlaidų elementų efektyvumą.
+12. Taip pat galite ieškoti konkrečių išlaidų elementų.
 
 
 

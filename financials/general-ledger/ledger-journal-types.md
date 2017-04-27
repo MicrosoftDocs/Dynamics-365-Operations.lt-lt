@@ -1,6 +1,6 @@
 ---
 title: "DK žurnalo tipai"
-description: "Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudoti puslapio žurnalo pavadinimai sukurti žurnalų, kuriuos galite naudoti visoje Microsoft Dynamics 365 operacijoms."
+description: "Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį Žurnalo pavadinimai norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Operations“."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>DK žurnalo tipai
 
-Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudoti puslapio žurnalo pavadinimai sukurti žurnalų, kuriuos galite naudoti visoje Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį Žurnalo pavadinimai norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Operations“.
 
 | Žurnalo tipas                      | Paskirtis                                                                                                                                                                                                                                                                                                                                                     | Operacijų įvedimas šiame puslapyje                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ ms.lasthandoff: 03/31/2017
 | Tiekėjo banko pavedimas            | Kurkite paprastojo vekselio pavedimo failą, kurį bus galima siųsti į jūsų organizacijos banką.                                                                                                                                                                                                                                                                      | Pavedimų žurnalas                                             |
 | Išmoka tiekėjui               | Kurkite išmokų tiekėjui operacijas.                                                                                                                                                                                                                                                                                                                    | Mokėjimų žurnalas                                                |
 | Tiekėjo išduoti paprastieji vekseliai       | Sudarykite tiekėjo paprastuosius vekselius kaip mokėjimo metodą. Norėdami naudoti šį žurnalo tipą, puslapyje **Mokėjimo metodai – tiekėjai** išvalykite parinktį **Kurti ir registruoti išdavimų žurnalą automatiškai registruojant sąskaitas faktūras**.                                                                                                                                          | Išduoti paprastųjų vekselių žurnalą                                   |
-| Tiekėjo sąskaitos-faktūros baseinas be pardavimo užsakymų | Sukurkite tiekėjo SF operacijas, kurios dar neužregistruotos laikino gavimo sąskaitoje.                                                                                                                                                                                                                                                             | Tiekėjo SF telkinys be registravimo informacijos                  |
+| Tiekėjo SF telkinys be pardavimo užsakymų | Sukurkite tiekėjo SF operacijas, kurios dar neužregistruotos laikino gavimo sąskaitoje.                                                                                                                                                                                                                                                             | Tiekėjo SF telkinys be registravimo informacijos                  |
 | Tiekėjo SF telkinys               | Kurkite tiekėjų SF telkinių operacijas.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Tiekėjo SF registravimas          | Registruokite žurnale esančius tiekėjo SF.                                                                                                                                                                                                                                                                                                                 | SF žurnalas                                                |
 | Iš naujo tiekėjo išduotas paprastasis vekselis     | Pakartotinai išduokite paprastąjį vekselį, kurį prieš tai apmokėjo jūsų organizacijos bankas.                                                                                                                                                                                                                                                                      | Iš naujo išrašyti paprastųjų vekselių žurnalą                                 |
 | Tiekėjo sudengtas paprastasis vekselis     | Kurkite tiekėjo sudengtų paprastųjų vekselių operacijas.                                                                                                                                                                                                                                                                                                          | Sudengti paprastųjų vekselių žurnalą                                 |
+
+
 
 
 

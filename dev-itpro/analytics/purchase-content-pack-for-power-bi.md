@@ -1,6 +1,6 @@
 ---
-title: "Pirkimą praleisti Power BI turinio analizė"
-description: "Šioje temoje aprašoma, kas yra αtrauktas pirkimą praleisti analizės turinio paketą, skirtą &quot;Microsoft&quot; Power BI. Jis paaiškina, kaip pasiekti ataskaitas, kurios įtraukiamos į turinio paketą, ir pateikia informaciją apie duomenų modelio ir subjektai, kurie yra naudojami kurti turinio paketas."
+title: "Pirkimo išlaidų analizės „Power BI“ turinys"
+description: "Šioje temoje paaiškinta, kas įtraukiama į pirkimo išlaidų analizės turinio paketą, skirtą „Microsoft Power BI“. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Pirkimą praleisti Power BI turinio analizė
+# <a name="purchase-spend-analysis-power-bi-content"></a>Pirkimo išlaidų analizės „Power BI“ turinys
 
-Šioje temoje aprašoma, kas yra αtrauktas pirkimą praleisti analizės turinio paketą, skirtą "Microsoft" Power BI. Jis paaiškina, kaip pasiekti ataskaitas, kurios įtraukiamos į turinio paketą, ir pateikia informaciją apie duomenų modelio ir subjektai, kurie yra naudojami kurti turinio paketas.
+Šioje temoje paaiškinta, kas įtraukiama į pirkimo išlaidų analizės turinio paketą, skirtą „Microsoft Power BI“. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Pirkimą praleisti analizės turinio paketą, skirtą "Microsoft" Power BI buvo sukurta pirkimo vadovai ir vadybininkai, kurie yra atsakingi už biudžetų. Ji sukurta siekiant padėti joms užmesti akį į pirkimo išlaidų. Ji naudoja pirkimo sandorio duomenis iš Microsoft Dynamics 365 operacijoms ir skiria ir bendra Rodyti skaičių visos įmonės pirkimo ir pirkimo iš tiekėjo ir produkto išlaidų išklotinę. Ataskaitose pabrėžiama pasikeitimai pirkimo išlaidų per tam tikrą laiką. Todėl galima būtų jais įspėjimo vadovams apie teigiamus ir neigiamus išlaidų tendencijas atskirų tiekėjų. Diagramose pirkimo išlaidų skirtingų pirkimų kategorijas ir tiekėjų grupes. Kategorijos ir regiono vadybininkais gali būti naudinga naudoti šias diagramas, padėti nustatyti pokyčius išlaidų elgesys. Turinio paketas pirkimo vadovai ir vadybininkai, kurie yra atsakingi už biudžetų Panagrinėkime pirkimo išlaidų vienu iš šių būdų:
+„Microsoft Power BI“ skirtas pirkimo išlaidų analizės turinio paketas sukurtas pirkimo vadovams ir vadovams, kurie atsakingi už biudžetus. Jis sukurtas tam, kad padėtų jiems stebėti pirkimo išlaidas. Jame naudojami pirkimo operacijų duomenys iš „Microsoft Dynamics 365 for Operations“, pateikiamas ir sujungtas visos įmonės pirkimo skaičių rodinys, ir tiekėjo bei produkto pirkimo išlaidų paskirstymas. Ataskaitose vaizduojami laikui bėgant atsiradę pirkimo išlaidų pokyčiai. Todėl jas galima naudoti norint įspėti vadovus apie teigiamas ir neigiamas atskirų tiekėjų ir produktų išlaidų tendencijas. Diagramose rodomos skirtingų įsigijimo kategorijų ir tiekėjų grupių pirkimo išlaidos. Kategorijų ir regiono vadovams gali būti naudinga naudoti šias diagramas, kurios galėtų padėti nustatyti išlaidų elgesio pokyčius. Naudodami turinio paketą pirkimo vadovai ir vadovai, kurie atsakingi už biudžetus, gali išanalizuoti pirkimo išlaidas toliau nurodomais būdais.
 
--   Metų pradžios pirkimo (pagal tiekėjų grupę ir atskirus tiekėjus, pirkimų kategorijos ir atskirų produktų ir tiekėjo vietą)
--   Metais per metus pirkimo kaitos (iš tiekėjų grupės ir pirkimų kategorija)
+-   Metinis pirkimas iki datos (pagal tiekėjų grupę ir atskirus tiekėjus, įsigijimo kategoriją ir atskirus produktus ir tiekėjo vietą)
+-   Pirkimo kiekvienais metais pokytis (pagal tiekėjų grupę ir įsigijimo kategoriją)
 
-## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketas
-Pirkimą praleisti analizės turinio paketas skelbiamas įgyvendinant turtu Microsoft Dynamics gyvavimo ciklo paslaugų (LCS) ir gali būti prieinama iš Microsoft Dynamics 365 operacijoms. Daugiau informacijos apie tai, kaip pasiekti ir atidaryti Power BI ataskaitų, rasite [LKD iš "Microsoft" ir savo partnerių kiekis Power BI](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
+Pirkimo išlaidų analizės turinio paketas išleistas kaip „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo išteklius ir yra pasiekiamas iš „Microsoft Dynamics 365 for Operations“. Išsamesnės informacijos apie tai, kaip pasiekti ir atidaryti „Power BI“ ataskaitas žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Rodikliai, kurie yra įtraukti į turinio paketas
-Pirkimą praleisti turinio paketą sudaro ataskaitą, kuri susideda iš tam tikrų rodiklių analizė. Šių rodiklių yra ryškinamos diagramas, plytelės ir lenteles. Šioje lentelėje apžvelgiami vizualizacijos turinio paketas.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos metrikos
+Pirkimo išlaidų analizės turinio pakete yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio paketo vizualizacijų apžvalga.
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ Pirkimą praleisti turinio paketą sudaro ataskaitą, kuri susideda iš tam tikr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ataskaitų puslapio</th>
+<th>Ataskaitų puslapis</th>
 <th>Diagramos</th>
-<th>Plytelės</th>
+<th>Išklotinės</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pirkti iš tiekėjo</td>
+<td>Pirkimas pagal tiekėją</td>
 <td><ul>
-<li>10 geriausių pardavėjų iš pirkimo (sudėtinė Juostinė diagrama)</li>
-<li>Iš viso pirkimus pagal tiekėją grupuoti / šalis / pavadinimas (skritulinę diagramą)</li>
-<li>Pirkimus pagal tiekėją grupuoti / šalis / pavadinimas (stulpelinė diagrama)</li>
-<li>Vidutinis pirkimus pagal tiekėją grupuoti / šalis / pavadinimas (stulpelinė diagrama)</li>
+<li>10 svarbiausių tiekėjų pagal pirkimą (suspaustos juostos diagrama)</li>
+<li>Bendra pirkimo suma pagal tiekėjų grupę / šalį / pavadinimą (skritulinė diagrama)</li>
+<li>Pirkimo suma pagal tiekėjų grupę / šalį / pavadinimą (stulpelinė diagrama)</li>
+<li>Vidutinė pirkimo suma pagal tiekėjų grupę / šalį / pavadinimą (stulpelinė diagrama)</li>
 </ul></td>
 <td><ul>
 <li>Iš viso pirkimų</li>
-<li>YOY pirkimo augimo</li>
-<li>Iš viso # pardavėjai</li>
-<li>Iš viso aktyvių pardavėjų #</li>
+<li>YOY pirkimo augimas</li>
+<li>Bendras # tiekėjų skaičius</li>
+<li>Bendras # aktyvių tiekėjų skaičius</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Įsigyti produktą</td>
+<td>Pirkimas pagal produktą</td>
 <td><ul>
-<li>Pirkimų pagal pirkimų kategoriją / produkto pavadinimas (stulpelinė diagrama)</li>
-<li>Iš viso pirkimo pagal viešųjų pirkimų kategoriją / produkto pavadinimas (skritulinę diagramą)</li>
-<li>10 geriausių produktų pirkimo (sudėtinė Juostinė diagrama)</li>
+<li>Pirkti pagal įsigijimo kategoriją / produkto pavadinimą (stulpelinė diagrama)</li>
+<li>Bendra pirkimo suma pagal įsigijimo kategoriją / produkto pavadinimą (skritulinė diagrama)</li>
+<li>10 populiariausių produktų pagal pirkimą (suspaustos juostos diagrama)</li>
 </ul></td>
 <td><ul>
 <li>Iš viso # produktų</li>
-<li>Aktyvus iš viso procentas visų # produktų</li>
-<li>Produktus, kurie sudaro apie 80 % pirkimo numeris</li>
+<li>Bendra aktyvių produktų procentinė dalis, apimanti iš viso # produktų</li>
+<li>Produktų, sudarančių 80 % pirkimo, skaičius</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Pirkimo laikotarpis *</td>
+<td>Pirkimas pagal laikotarpį*</td>
 <td><ul>
-<li>Pirkti pagal mėnesį / dieną (stulpelinė diagrama)</li>
-<li>Kaupiamasis pirkimo YOY dispersija (krioklys diagramos)</li>
-<li>Bendra pirkimo YOY augimo (stulpelinė diagrama)</li>
-<li>Viešųjų pirkimų ataskaita (matrica)</li>
+<li>Pirkimas pagal mėnesį / dieną (stulpelinė diagrama)</li>
+<li>Sukauptas pirkimo YOY nuokrypis (krioklio diagrama)</li>
+<li>Bendras pirkimo YOY augimas (stulpelinė diagrama)</li>
+<li>Įsigijimo išrašas (matrica)</li>
 </ul></td>
 <td><ul>
-<li>YOY pirkimo augimo</li>
-<li>YOY pirkimo augimo %</li>
+<li>YOY pirkimo augimas</li>
+<li>YOY pirkimo augimas %</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Pirkti iš tiekėjo vietą</td>
+<td>Pirkimas pagal tiekėjo vietą</td>
 <td><ul>
-<li>Pirkti pagal miestą</li>
-<li>Pirkimo YOY augimo %</li>
-<li>Pirkti pagal šalis</li>
+<li>Pirkimas pagal miestą</li>
+<li>Pirkimo YOY augimas %</li>
+<li>Pirkimas pagal šalį</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Pirkimą praleisti analizės metu</td>
+<td>Pirkimo išlaidų analizė pagal laiką</td>
 <td><ul>
-<li>Pirkimo einamaisiais metais pagal mėnesį / dieną (linijinė diagrama)</li>
-<li>Pirkti einamųjų ir praėjusių metų (eilučių ir stulpelių diagrama)</li>
+<li>Pirkimas pagal esamų metų mėnesį / dieną (linijinė diagrama)</li>
+<li>Esamų ir pastarųjų metų pirkimas (linijinė ir stulpelinė diagrama)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Pirkimą praleisti analizė pagal tiekėją</td>
+<td>Pirkimo išlaidų analizė pagal tiekėją</td>
 <td><ul>
-<li>Top 10 tiekėjo pirkimo % pirkimo (piltuvas)</li>
-<li>Į viršų 10 tiekėjai, padidėjusios išlaidos YOY</li>
-<li>Į viršų 10 tiekėjai, sumažėjo išlaidų YOY</li>
+<li>10 geriausių tiekėjo pirkimo % kiekvienam pirkimui (piltuvėlis)</li>
+<li>10 pagrindinių tiekėjų, kurių išlaidų YOY padidėjęs</li>
+<li>10 pagrindinių tiekėjų, kurių išlaidų YOY sumažėjęs</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\*Pirkimo šiemet ir pernai, ir augimo viešojo pirkimo kategorija
+\* Pirkimas šiais ir praėjusiais metais ir augimas pagal įsigijimo kategoriją.
 
-## <a name="data-model-and-entities"></a>Duomenų modelis ir subjektai
-Dinamika 365 operacijoms pirkimo ataskaitoje naudojami duomenys praleisti analizės turinio paketas. Šie duomenys yra vaizduojamas kaip bendra matavimų, kurie yra pastatytas įmonės parduotuvėje, kuri yra "Microsoft" SQL duomenų bazę, kuri yra optimizuota Google analytics. Daugiau informacijos apie įmonės parduotuvėje, rasite, [Power BI integracija su įmonės parduotuvėje dinamikai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) dienoraštyje. Bendra matavimų šio turinio Pack yra sutrumpinti bendrą matavimų, kuriais galėjote naudotis pirkimo kubo Microsoft Dynamics AX 2012 ir Microsoft Dynamics 365 operacijų 2012 R3. Į sceną kubo bendra matavimų įmonės parduotuvėje, jūs turite padaryti juos išskleidimo. Norėdami gauti daugiau informacijos, žiūrėkite procedūrą, sustojimo bendra matavimų įmonės parduotuvėje, [Power BI integracija su įmonės parduotuvėje dinamikai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) dienoraštyje. Šiuos pagrindinius bendrus matavimus galima gauti tiesiogiai iš SF eilutes subjektas ir yra naudojami kaip pagrindas turinio pack.
+## <a name="data-model-and-entities"></a>Duomenų modelis ir objektai
+„Dynamics 365 for Operations“ duomenys naudojami pirkimo išlaidų analizės turinio pakete esančiai ataskaitai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos apie objekto parduotuvę ieškokite tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Agreguoti matavimo vienetai šiame turinio pakete yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Purchase Cube“ naudojant „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Operations 2012 R3“, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šiuos pagrindinius agreguotus matavimo vienetus galima gauti tiesiai iš sąskaitos faktūros eilučių objekto ir jie naudojami kaip turinio paketo pagrindas.
 
-| Objektas        | Bendra atliekami pagrindiniai matavimai | Duomenų šaltinis Dynamics 365 operacijoms | Laukas              | aprašymas                           |
+| Objektas        | Pagrindiniai agreguoti matavimo vienetai | „Dynamics 365 for Operations“ duomenų šaltinis | Laukas              | aprašymas                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
 | SF eilutės | Pirkimas                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Suma, išreikšta apskaitos valiuta |
 
-Ši lentelė rodo pagrindinių matmenų, apskaičiuojami turinio paketas iš SF eilutes subjektas.
+Toliau pateiktoje lentelėje nurodomi pagrindiniai matavimo vienetai, kurie apskaičiuojami turinio pakete iš sąskaitos faktūros eilučių.
 
 | Mato vnt.               | Skaičiavimas                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Pirkimo einamųjų metų | Pirkimo einamųjų metų = SUM ('SF eilutės'\[pirkti\])                                            |
-| Pirkti pernai    | Pirkti pernai = apskaičiuoti (suma ("SF eilutės"\[pirkimo\]), SAMEPERIODLASTYEAR (datos\[data\])) |
-| YOY pirkimo augimo   | YOY pirkti augimo = \[pirkti einamųjų metų\] - \[pirkti pernai\]                            |
+| Pirkimas esamais metais | Pirkimas esamais metais = SUM('SF eilutės'\[Pirkimas\])                                            |
+| Pirkimas pastaraisiais metais    | Pirkimas pastaraisiais metais = CALCULATE(SUM('SF eilutės'\[Pirkimas\]), SAMEPERIODLASTYEAR(Datos\[Data\])) |
+| YOY pirkimo augimas   | YOY pirkimo augimas = \[Pirkimas esamais metais\] – \[Pirkimas pastaraisiais metais\]                            |
 
-Pagrindiniai matmenys turinio paketas yra naudojamas kaip filtrų tenka bendra matavimų, taip, kad jūs galite pasiekti daugiau detalumo ir gilesnių analitinių įžvalgų.
+Šios pagrindinės turinio paketo dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams susegmentuoti, kad būtų galima pasiekti daugiau detalumo ir gilesnių analitinių įžvalgų.
 
 | Objektas                 | Atributų pavyzdžiai                                |
 |------------------------|-------------------------------------------------------|
-| Tiekėjai                | Tiekėjų grupių, tiekėjo šalis ar regionus, tiekėjo pavadinimas |
-| Produktai               | Gaminio numeris, produkto pavadinimas, prekės grupės pavadinimas        |
-| Įsigijimo kategorijos | Pirkimų kategorija, pirkimų kategorijų pavadinimai      |
+| Tiekėjai                | Tiekėjų grupės, tiekėjo šalis arba regionai, tiekėjo vardas |
+| Produktai               | Produkto numeris, produkto pavadinimas, prekių grupių pavadinimas        |
+| Įsigijimo kategorijos | Įsigijimo kategorija, įsigijimo kategorijų pavadinimai      |
 | Juridiniai subjektai         | Juridinio subjekto pavadinimas                                     |
 | Datos                  | Datos, metų poslinkis                                    |
 
-Pagal numatytuosius nustatymus turinio paketas rodo duomenų einamaisiais kalendoriniais metais. Tačiau galite pakeisti datos filtras filtrai skyriuje ataskaita. Taip pat galite keisti įmonės filtras.
+Pagal numatytuosius parametrus turinio pakete rodomi esamų kalendorinių metų duomenys. Tačiau ataskaitos filtrų skyriuje datos filtrą galima pakeisti. Taip pat galite pakeisti įmonės filtrą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.

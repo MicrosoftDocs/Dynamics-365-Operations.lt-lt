@@ -55,16 +55,16 @@ Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacij�
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 -   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekvieną vertikalią rodyklę, atsargų operacijos vertė nurodyta formaQuantity@Unitprice.
+-   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
 -   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 -   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 -   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+-   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="fifo-with-the-include-physical-value-option"></a>FIFO su įtraukiamos faktinės vertės pasirinktimi
-Jei su **įtraukti faktinę vertę** žymės langelį yra pasirinktas prekės su **atsargų modelio grupė** puslapyje, sistema naudoja tiek fizinius ir finansinius gavimo operacijos apskaičiuoti veikia vidutinė savikaina. Sistema taip pat kur reikia atlieka finansiškai atnaujintos išdavimo operacijos koregavimus. Išvalius žymės langelį **Įtraukti faktinę vertę**, atsargų uždarymas taikant FIFO atsargų modelį atliks tik finansiškai atnaujintų operacijų sudengimus. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
+Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymės langelis **Įtraukti faktinę vertę**, sistema naudoja tiek faktines, tiek finansines gavimo operacijas einamajai vidutinei savikainai apskaičiuoti. Sistema taip pat kur reikia atlieka finansiškai atnaujintos išdavimo operacijos koregavimus. Išvalius žymės langelį **Įtraukti faktinę vertę**, atsargų uždarymas taikant FIFO atsargų modelį atliks tik finansiškai atnaujintų operacijų sudengimus. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 -   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
 -   1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
@@ -83,16 +83,16 @@ Jei su **įtraukti faktinę vertę** žymės langelį yra pasirinktas prekės su
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 -   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekvieną vertikalią rodyklę, atsargų operacijos vertė nurodyta formaQuantity@Unitprice.
+-   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
 -   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 -   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 -   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+-   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="fifo-with-marking"></a>FIFO su žymėjimu
-Ženklas yra procesas, kuris leidžia jums susieti arba ženklas, išdavimo operaciją, gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami būti tikri dėl tikslios atsargų savikainos užregistravus operaciją arba uždarius atsargas. Pavyzdžiui, klientų aptarnavimo skyrius priėmė skubų užsakymą iš svarbaus kliento. Kadangi tai skubus užsakymas, norėdami patenkinti kliento pageidavimus, už šią prekę turite mokėti daugiau. Turite įsitikinti, kad šios pardavimo užsakymo sąskaitos faktūros atsargų prekės savikaina atsispindi maržoje arba parduotų prekių savikainoje (PPK). Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Jeigu šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį arba sąskaitą faktūrą, PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą. Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu. Kai gavimo operacija atitinka išdavimo operacija, įvertinimo metodas, kuris yra nurodytas atsargų modelio grupė yra ignoruojama ir sistemos sprendžia šiuos sandorius tarpusavyje. Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. Tai galima atlikti iš pardavimo užsakymo eilutės puslapyje **Išsami pardavimo užsakymo informacija**. Galite peržiūrėti atidarytas gavimo operacijas puslapyje **Žymėjimas**. Taip pat galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
+Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami būti tikri dėl tikslios atsargų savikainos užregistravus operaciją arba uždarius atsargas. Pavyzdžiui, klientų aptarnavimo skyrius priėmė skubų užsakymą iš svarbaus kliento. Kadangi tai skubus užsakymas, norėdami patenkinti kliento pageidavimus, už šią prekę turite mokėti daugiau. Turite įsitikinti, kad šios pardavimo užsakymo sąskaitos faktūros atsargų prekės savikaina atsispindi maržoje arba parduotų prekių savikainoje (PPK). Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Jeigu šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį arba sąskaitą faktūrą, PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą. Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu. Kai gavimo operacija sutampa su išdavimo operacija, nepaisoma prekės modelių grupėje nustatyto vertinimo būdo ir sistema sudengia šias operacijas. Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. Tai galima atlikti iš pardavimo užsakymo eilutės puslapyje **Išsami pardavimo užsakymo informacija**. Galite peržiūrėti atidarytas gavimo operacijas puslapyje **Žymėjimas**. Taip pat galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 -   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
 -   1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
@@ -111,11 +111,11 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 -   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekvieną vertikalią rodyklę, atsargų operacijos vertė nurodyta formaQuantity@Unitprice.
+-   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
 -   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 -   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 -   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+-   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 

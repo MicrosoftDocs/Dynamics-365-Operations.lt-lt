@@ -1,5 +1,5 @@
 ---
-title: "Skirti laiko darbams sugrupuotų užduočių"
+title: "Laiko paskirstymas sugrupuotų užduočių užduotims"
 description: "Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Skirti laiko darbams sugrupuotų užduočių
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Laiko paskirstymas sugrupuotų užduočių užduotims
+
+[!include[banner](../includes/banner.md)]
+
 
 Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis.
 
@@ -107,5 +110,7 @@ Tarkime, tris užduotis atlieka darbuotojas, kurio valandinis uždarbis yra 12,0
 | 3 užduotis | (3,33 ÷ 5) × 12.00 USD                 | 8,00 USD                | 5 valandos        | 40,00 USD         |
 
 Koreguotos išlaidos už valandą ir užduoties laikas registruojamas gamybos žurnale. **Pastaba:** jei pasirinksite pasirinktį **Išlaidų kategorija** skirtuke **Bendra**, esančiame puslapyje **Gamybos užsakymo numatytoji informacija**, faktinis kiekvienos užduoties laikas perkeliamas į gamybos žurnalą, kur savikaina taikoma konkrečios užduoties savikainos kategorijai.
+
+
 
 

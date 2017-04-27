@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Eilutės elemento darbo eigos konfigūravimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą.
 
 Norėdami darbo eigos rengyklėje konfigūruoti eilutės elemento darbo eigą, dešiniuoju pelės mygtuku spustelėkite elementą ir tada spustelėkite **Ypatybės**, kad atidarytumėte puslapį **Ypatybės**. Tada naudokite šias procedūras norėdami konfigūruoti eilutės elemento darbo eigos elementą.
 
-## <a name="name-the-lineitem-workflow-element"></a>Pavadinimas lineitem darbo eigos elementui
+## <a name="name-the-lineitem-workflow-element"></a>Darbo eigos elemento lineitem pavadinimas
 Norėdami įvesti eilutės elemento darbo eigos elemento pavadinimą, atlikite šiuos veiksmus.
 
 1.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
@@ -50,6 +53,8 @@ Atlikite šiuos veiksmus, norėdami nurodyti, ar tą pačią darbo eigą reikia 
     6.  Norėdami patikrinti, ar įvestas sąlygų rinkinys yra sukonfigūruotas teisingai, spustelėkite **Tikrinti**. Puslapio **Tikrinti darbo eigos sąlygą** srityje **Tikrinti sąlygą** pasirinkite įrašą, o tada spustelėkite **Tikrinti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą. Spustelėkite **Gerai** arba **Atšaukti**, kad grįžtumėte į puslapį **Ypatybės**.
 
     Skirtuke **Darbo eiga** pasirinkite darbo eigą, kurią naudojant bus apdorojami eilutės elementai, atitinkantys jūsų nurodytą sąlygų rinkinį.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti. 
 
 Atsargų žurnalai programoje „Microsoft Dynamics 365 for Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
@@ -72,7 +75,7 @@ Gamybos įeigos žurnalai veikia kaip prekių gavimo žurnalai, tik jie naudojam
 
 ### <a name="counting"></a>Skaičiavimas
 
-Skaičiavimo žurnalai leidžia taisyti dabartines turimas registruotas prekių ar prekių grupių atsargas, ir tada faktinį fizinį kiekį registruoti, kad galėtumėte atlikti reikiamus koregavimus ir taip suderinti skirtumus. Skaičiavimo strategijas galima susieti su skaičiavimo grupėmis, kad būtų lengviau grupuoti prekes su įvairiomis charakteristikomis ir tas prekes būtų galima įtraukti į skaičiavimo žurnalą. Pvz., galite nustatyti, kad skaičiavimo grupės skaičiuotų prekes, kurios turi konkretų dažnį, arba prekes skaičiuoti, kai atsargos sumažėja iki tam tikro lygio. Informacijos, kaip nustatyti skaičiavimo grupes, ieškokite [nustatyti atsargų inventorizacijos procesų (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Skaičiavimo žurnalai leidžia taisyti dabartines turimas registruotas prekių ar prekių grupių atsargas, ir tada faktinį fizinį kiekį registruoti, kad galėtumėte atlikti reikiamus koregavimus ir taip suderinti skirtumus. Skaičiavimo strategijas galima susieti su skaičiavimo grupėmis, kad būtų lengviau grupuoti prekes su įvairiomis charakteristikomis ir tas prekes būtų galima įtraukti į skaičiavimo žurnalą. Pvz., galite nustatyti, kad skaičiavimo grupės skaičiuotų prekes, kurios turi konkretų dažnį, arba prekes skaičiuoti, kai atsargos sumažėja iki tam tikro lygio. Informacijos apie tai, kaip apibrėžti skaičiavimo grupes, ieškokite [Apibrėžti atsargų skaičiavimo procesus (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Skaičiav. pagal žymę
 
@@ -89,5 +92,7 @@ Vienu metu žurnalą gali pasiekti tik vienas vartotojas. Jei vienu metu pasiekt
 
 ## <a name="posting-journal-lines"></a>Žurnalo eilučių registravimas
 Sukurtas žurnalo eilutes galite registruoti bet kuriuo metu tol, kol su preke neleisite atlikti papildomų operacijų. Į žurnalą įvesti duomenys lieka tame žurnale, net jei uždarote žurnalą neužregistravę eilučių.
+
+
 
 

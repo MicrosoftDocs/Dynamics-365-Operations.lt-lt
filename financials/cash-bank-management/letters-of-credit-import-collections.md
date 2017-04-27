@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Akredityvai ir importo dokumentų inkasavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.
 
 <a name="letters-of-credit"></a>Akredityvai
 -----------------
 
-Akredityvai yra naudojami tarptautinių sandorių ir padėti užtikrinti, kad išmokos bus išmokėtos. A akredityvas – tai susitarimas, kad priimtas bank, kuriame bankas sutinka garantuojantį vardu pirkėjas, jei tenkinamos sutarties tarp pirkėjo ir pardavėjo sąlygas. A akredityvai yra taip pat vadinama akredityvą (DC).
+Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai. Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos. Akredityvas taip pat vadinamas dokumentuotu kreditu (DC).
 
 Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas. Juridinis subjektas yra eksporto akredityvo pardavėjas arba naudos gavėjas. Su akredityvu susijusios šios šalys:
 
@@ -50,5 +53,7 @@ Akredityvas gali būti **atšaukiamas** arba **neatšaukiamas**. Akredityvo pob�
 Importo dokumentų inkasavimas yra sutartis tarp banko ir eksportuotojo (pardavėjo), kai bankas sutinka pristatyti siuntimo dokumentus tarptautiniam importuotojui (pirkėjui). Iš banko tikimasi, kad jis pristatys siuntimo dokumentus, kai tik gaus užmokestį grynaisiais pinigais už išsiųstas prekes arba kai gaus pasirašytą dokumentą, kuris įrodo, kad mokėjimas įvykdytas. 
 
 Importo dokumentų inkasavimas padeda užtikrinti, kad pardavėjui bus sumokėta, kai pirkėjas gaus importuotų prekių pristatymo dokumentus.
+
+
 
 

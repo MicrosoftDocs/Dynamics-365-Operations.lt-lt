@@ -1,5 +1,5 @@
 ---
-title: "Patvirtinti ir patvirtinti pirkimo užsakymai"
+title: "Pirkimo užsakymų patvirtinimas"
 description: "Šiame straipsnyje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Patvirtinti ir patvirtinti pirkimo užsakymai
+# <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą.
 
@@ -73,12 +76,14 @@ Patvirtinus užsakymą jo panaikinti nebegalima. Tačiau užsakyme galite atšau
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pirkimo užsakymo apžvalga](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Pirkimo užsakymo kūrimas](purchase-order-creation.md)
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
 [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

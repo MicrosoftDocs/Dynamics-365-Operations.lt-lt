@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Prižiūrėti suplanuotus užsakymus
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo.
 
 Suplanuotus užsakymus galite valdyti naudodami darbo sritį **Bendrasis planavimas**, sąrašą **Suplanuoti užsakymai** arba sąrašus **Suplanuoti gamybos užsakymai**, **Suplanuoti pirkimo užsakymai** ir **Suplanuotas perkėlimas**. Galite naudoti lauką **Būsena** progresui sekti. Naudojamos toliau nurodytos reikšmės.
@@ -48,6 +51,8 @@ Kai suplanuotas užsakymas patvirtinamas, jis perkeliamas į atitinkamo modulio 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master plans](master-plans.md)
+[Bendrieji planai](master-plans.md)
+
+
 
 

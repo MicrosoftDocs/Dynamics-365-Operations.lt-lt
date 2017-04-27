@@ -1,6 +1,6 @@
 ---
 title: "Bendrųjų žurnalų apdorojimas"
-description: "Šiame straipsnyje aprašoma Microsoft Dynamics 365 veiklą, tai gali padėti padaryti bendrojo žurnalo pavojams, ir kad taip pat gali padėti užtikrinti, kad teisingus duomenis yra užfiksuotas ir nebus pažeisti vidaus kontrolės pajėgumus."
+description: "Šiame straipsnyje aprašytos programos „Microsoft Dynamics 365 for Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašytos programos „Microsoft Dynamics AX“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
 
 Žurnalų pavadinimai
 
-Viena iš svarbiausių sričių, nustatyti yra žurnalų pavadinimus. Tai gera idėja, kad nustatyti konkrečius pavadinimus kiekvienam tikslui, tokios kaip vidinės įmonės, kaupimo reguliavimo ir taisyti jos klaidas. Jūs galite pritaikyti kiekvieno žurnalo pavadinime, kad duomenų įvedimo šiems tikslams, lengva ir saugu. 
+Viena iš svarbiausių sričių, kurias reikia nustatyti, yra žurnalų pavadinimai. Naudinga apibrėžti konkrečius žurnalų pavadinimus kiekvienam tikslui, pavyzdžiui, vidinės įmonės, kaupimo koregavimo ir klaidų taisymo. Galite pritaikyti kiekvieno žurnalo pavadinimą, kad įvesti duomenis kiekvienu tikslu būtų lengva ir saugu. 
 
 Puslapyje **Žurnalų pavadinimai** galite nustatyti šiuos elementus.
 
--   **Darbo eigos patvirtinimas** – norėdami padidinti vidinę kontrolę, apibrėžkite žurnalo darbo eigas, nustatančias peržiūros ir patvirtinimo veiksmų svarbos ribas pagal tokius kriterijus kaip bendroji debeto suma. Galite nustatyti iki darbo eigas bendrųjų žurnalų, ** DK darbo eigos ** puslapis.
+-   **Darbo eigos patvirtinimas** – norėdami padidinti vidinę kontrolę, apibrėžkite žurnalo darbo eigas, nustatančias peržiūros ir patvirtinimo veiksmų svarbos ribas pagal tokius kriterijus kaip bendroji debeto suma. Galite nustatyti bendrųjų žurnalų darbo eigas puslapyje **Didžiosios knygos darbo eigos**.
 -   **Numatytosios reikšmės** – pasirinkite numatytąsias korespondentinių sąskaitų, valiutos ir finansinių dimensijų reikšmes.
 -   **Žurnalo valdymas** – galite nustatyti įmonės ir sąskaitos tipo apribojimus, taip pat segmentų reikšmes. 
 
 **Pavyzdžiai**
 
-Žurnalo pavadinimą galima naudoti tik koreguoti. Tokiu atveju galite nurodyti, kad visoms įmonėms tinkamas tik sąskaitos tipas **Didžioji knyga**. [![Leidinyje kontrolės sąskaitų tipai](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Žurnalo pavadinimą galima naudoti tik koreguoti. Tokiu atveju galite nurodyti, kad visoms įmonėms tinkamas tik sąskaitos tipas **Didžioji knyga**. [![Žurnalų kontrolės sąskaitos tipai](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Žurnalo pavadinimą galima naudoti tik konkrečiam segmentui arba pagrindinių sąskaitų diapazonui. [![Leidinyje valdymo segmentas](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+Žurnalo pavadinimą galima naudoti tik konkrečiam segmentui arba pagrindinių sąskaitų diapazonui. [![Žurnalų kontrolės segmentas](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Parinktis **Automatinis atšaukimas** yra bendruosiuose žurnaluose. Pavyzdžiui, turite kaupimo koregavimą, kurio faktinis dokumentas dar neapdorotas, kaip pavaizduota šioje iliustracijoje.
-[![Bendrasis žurnalas, atbulinės eigos](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Pagrindinio žurnalo atšaukimas](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel papildinys, skirtas žurnalo įrašas suteikia papildomą automatizavimo lygį ir palengvina duomenų įvedimo. Veiksmas **Atidaryti eilutes programoje „Excel“ **galimas puslapiuose **Pagrindinis žurnalas** ir **Žurnalo kvitas**. 
+„Microsoft Excel“ papildinys, skirtas žurnalo įrašams, teikia papildomą automatizavimo lygį ir palengvina duomenų įvedimą. Veiksmas **Atidaryti eilutes programoje „Excel“ **galimas puslapiuose **Pagrindinis žurnalas** ir **Žurnalo kvitas**. 
 
 Puslapyje **Periodiniai žurnalai** galite nustatyti pasikartojančius žurnalus, kad žurnalų apdorojimas būtų automatizuotas. 
 
-Kvitų šablonai galite bet kuriuo metu. Dėl į **bendrųjų žurnalų** puslapyje, į **įrašyti** ir **pasirinkite kvitų šabloną** veiksmai yra rasti į **žurnalo kvitas** puslapis, kaip **funkcijos** kvito eilutėms.
+Bet kada galite naudoti kvitų šablonus. Puslapio **Pagrindiniai žurnalai** puslapyje **Žurnalo kvitas**, dalyje **Funkcijos**, rasite veiksmus **Įrašyti** ir **Pasirinkti kvito šabloną**.
 
 ## <a name="related-setup"></a>Susijusi sąranka
 Ši sąranka nėra susijusi su pagrindiniais žurnalais, bet padės užtikrinti, kad bus įrašomi teisingi duomenys ir įrašyti bus lengva.
@@ -78,6 +81,7 @@ Pagrindinės sąskaitos sąranka teikia daug pagrindinio žurnalo apdorojimo gal
 
 Apskaitos struktūros ir išplėstinių taisyklių struktūros yra labai svarbios siekiant užtikrinti, kad duomenys, būtini finansinėms ataskaitoms ir efektyvumui sekti, būtų įrašomi apdorojant bendrąjį žurnalą ir dokumentuojant. Apskaitos struktūros ir išplėstinių taisyklių struktūros leidžia pritaikyti duomenų įvedimo patirtį. Galite leisti tik kiekvienu atveju svarbių finansinių dimensijų duomenų įrašus, taip pat galite taikyti reikalavimą, kad privalomi ir teisingi duomenys visada būtį įrašomi.
 
-Daugiau informacijos rasite [planavimas: sąskaitų](plan-chart-of-accounts.md). 
+Daugiau informacijos žr. dalyje [Planavimas: sąskaitų planas](plan-chart-of-accounts.md). 
+
 
 

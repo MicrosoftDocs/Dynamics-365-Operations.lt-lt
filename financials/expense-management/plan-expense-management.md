@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Konfigūruoti išlaidų valdymą
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš konfigūruodami Išlaidų valdymą programoje „Microsoft Dynamics AX“. Išlaidų valdymo srityje galite saugoti informaciją apie mokėjimo būdus, kelionės paraiškas, išlaidų ataskaitas ir, be visa kita, strategijas. 
 
 Kadangi daugelis sprendimų, kuriuos priimate planuodami savo Išlaidų valdymo konfigūraciją, paremti jūsų organizacijos hierarchija ir finansine struktūra, turite žr. tų sričių planavimo dokumentus.
@@ -133,6 +136,8 @@ Galite sukurti išlaidų ataskaitų strategijas, kad jūsų organizacija galėt�
 -   Kai strategija baigia galioti?
 -   Kas yra strategijos taisyklė?
 -   Koks yra strategijos taisyklės rezultatas?
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Skambučių centro funkcijos"
-description: "Šiame straipsnyje apžvelgiama skambučių centro pardavimo funkcionalumą Microsoft Dynamics 365 operacijoms."
+description: "Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Operations“ apžvalga."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="call-center-functionality"></a>Skambučių centro funkcijos
 
-Šiame straipsnyje apžvelgiama skambučių centro pardavimo funkcionalumą Microsoft Dynamics 365 operacijoms.
+[!include[banner](includes/banner.md)]
 
-„Microsoft Dynamics AX“ funkcija Mažmeninė prekyba ir prekyba palaiko skambučių centrus kaip mažmeninės prekybos kanalo tipą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Skambučių centro funkcija apima savybes, kurios padeda lengviau priimti užsakymus telefonu ir vykdyti klientų aptarnavimą visu užsakymo vykdymo proceso metu. Pvz., skambučių centro darbuotojų galite įvesti mokėjimo informaciją tiesiai į pardavimų užsakymą, ir prieš jos teigia, kad tvarką galite peržiūrėti mokesčių ir mokėjimų, išsami santrauka. Darbuotojai taip pat turi galimybę kontroliuoti kainodarą ir gali pasiekti įvairius duomenis apie klientus, produktus ir kainas iš puslapio **Pardavimo užsakymas**. Be to, skambučių centruose yra išplėstinė funkcija, suteikianti galimybę stebėti klientų retrospektyvą ir užsakymo būseną. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. Papildomai galite naudoti puslapį **Skambučių centras** norėdami įjungti arba išjungti šias unikalių skambučių centrų funkcijų grupes.
+
+Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Operations“ apžvalga.
+
+„Microsoft Dynamics AX“ funkcija Mažmeninė prekyba ir prekyba palaiko skambučių centrus kaip mažmeninės prekybos kanalo tipą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Skambučių centro funkcija apima savybes, kurios padeda lengviau priimti užsakymus telefonu ir vykdyti klientų aptarnavimą visu užsakymo vykdymo proceso metu. Pavyzdžiui, skambučių centro darbuotojai gali įvesti mokėjimo informaciją tiesiai į pardavimo užsakymą ir peržiūrėti išsamią mokesčių ir mokėjimų suvestinę prieš pateikdami užsakymą. Darbuotojai taip pat turi galimybę kontroliuoti kainodarą ir gali pasiekti įvairius duomenis apie klientus, produktus ir kainas iš puslapio **Pardavimo užsakymas**. Be to, skambučių centruose yra išplėstinė funkcija, suteikianti galimybę stebėti klientų retrospektyvą ir užsakymo būseną. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. Papildomai galite naudoti puslapį **Skambučių centras** norėdami įjungti arba išjungti šias unikalių skambučių centrų funkcijų grupes.
 
 -   **Užsakymo baigimas** – ši grupė apima funkcijas, susijusias su mokėjimais ir užsakymo baigimu puslapyje **Pardavimo užsakymas**.
 -   **Tiesioginis pardavimas** – ši grupė apima funkcijas, susijusias su šaltinio kodais, scenarijais ir katalogų užklausomis.
@@ -44,6 +47,8 @@ ms.lasthandoff: 03/31/2017
 -   Pardavimo klerkai gali prie užsakymo pridėti mažmenininko kuponų.
 -   Pardavimo klerkai gali parduoti tęstinumo programas.
 -   Užsakymus galima sulaikyti rankiniu būdu arba automatiškai norint nurodyti, kad užsakymą bus galima apdoroti tik atlikus papildomą tyrimą.
+
+
 
 
 

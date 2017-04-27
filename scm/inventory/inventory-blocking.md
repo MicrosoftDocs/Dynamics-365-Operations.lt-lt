@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics AX‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 
 Atsargų prekes blokuoti galite toliau nurodytais būdais.
@@ -53,17 +56,19 @@ Jei kokybės procese nurodyta, kad prekę reikia patikrinti, prekių kiekis blok
 | Kokybės susiejimas nurodo, kad reikia sugeneruoti kokybės užsakymą, kai registruojamas pirkimo užsakymo važtaraštis. Kokybės užsakymo prekių pavyzdžių ėmimo nustatymas nurodo, kad turi būti tikrinama 10 procentų pirkimo užsakymo eilutės kiekio. Be to, kadangi pavyzdžių ėmimo nustatyme pasirinkta parinktis **Visiškas blokavimas**, per patikrinimą turi būti užblokuotas visas pirkimo užsakymo eilutės kiekis, neatsižvelgiant į tikrinimui siunčiamą kiekį. | Važtaraštis užregistruotas. | Sugeneruotas kokybės užsakymas. Dešimt procentų pirkimo užsakymo prekės kiekio siunčiama tikrinti. Visas pirkimo užsakymo eilutės kiekis yra užblokuotas. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Prekių blokavimas naudojant atsargų būsenos blokavimo funkciją
-Galite nurodyti, kurioje atsargų būsenas blokuoja būsenos naudodami, **atsargų blokuoja** parametras su **atsargų būsenas** puslapis.  Negalite naudoti atsargų būsenų kaip gamybos užsakymų, pardavimo užsakymų, perkėlimo užsakymų, siuntimo operacijų arba projekto integravimų blokavimo būsenų. Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei prekių būsena yra **Sugadinta** ir su tomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
+Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami parametrą **Atsargų blokavimas**, esantį puslapyje **Atsargų būsenos**.  Negalite naudoti atsargų būsenų kaip gamybos užsakymų, pardavimo užsakymų, perkėlimo užsakymų, siuntimo operacijų arba projekto integravimų blokavimo būsenų. Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei prekių būsena yra **Sugadinta** ir su tomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
 
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Kurti ir tvarkyti inventorių blokavimas (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Atsargų blokavimo kūrimas ir tvarkymas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Kokybės valdymo procesai](quality-management-processes.md)
 
-[Tikrinti kokybės prekių (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Prekių kokybės tikrinimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

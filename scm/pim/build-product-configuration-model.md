@@ -1,5 +1,5 @@
 ---
-title: "Sukurti produkto konfigūracijos modelį"
+title: "Produkto konfigūracijos modelio kūrimas"
 description: "Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Sukurti produkto konfigūracijos modelį
+# <a name="build-a-product-configuration-model"></a>Produkto konfigūracijos modelio kūrimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai.
 
@@ -34,7 +37,7 @@ Gamintojas, kuris palaiko konfigūracijos pagal užsakymą scenarijus, gali geri
 
 Norint sėkmingai pereiti nuo pagamintų ir sandėliuojamų prekių sąrankos prie konfigūracijos pagal užsakymą sąrankos, būtina išsamiai išanalizuoti produktų struktūras, nustatyti produktų grupes ir komponentus. Norint sumažinti dalių skaičių bei minimaliai sumažinti gaminamų prekių skaičių, labai svarbu išsiaiškinti produktų tarpusavio ryšius bei sukurti įvairiuose produktuose naudojamas dalis.  
 
-Taikomi keli produkto konfigūracijos modelių kūrimo principai, pvz., modeliavimas pagal taisykles, dimensijas ir apribojimus. Atlikus tyrimus nustatyta, kad taikant kūrimo pagal apribojimus metodiką galima sumažinti kodo eilučių modeliuose skaičių maždaug 50 procentų, palyginti su kitais modeliavimo principais. Taigi taikant šią metodiką galima sumažinti bendrąją nuosavybės kainą (TCO). Pereinant nuo taisyklėmis grindžiamą modelį, kuris remiasi X ++ kodą, kad apribojimas, pagrįstas modelis, jums daugiau nereikia programų kūrėjo licencijos siekiant išlaikyti produkto modelius.
+Taikomi keli produkto konfigūracijos modelių kūrimo principai, pvz., modeliavimas pagal taisykles, dimensijas ir apribojimus. Atlikus tyrimus nustatyta, kad taikant kūrimo pagal apribojimus metodiką galima sumažinti kodo eilučių modeliuose skaičių maždaug 50 procentų, palyginti su kitais modeliavimo principais. Taigi taikant šią metodiką galima sumažinti bendrąją nuosavybės kainą (TCO). Pakeitus pagal taisykles sukurtą modelį, kuris kuriamas X++ kodo pagrindu, į pagal apribojimus sukurtą modelį nebereikės turėti programuotojo licencijos, kad būtų galima tvarkyti produktų modelius.
 
 ## <a name="product-configuration"></a>Produkto konfigūracija
 Industrializacijos laikotarpiu pasiekta, kad aukštos kokybės ir daug funkcijų turintys produktai būtų gaminami prieinamomis kainomis. Dėl masto ekonomijos daugeliui išsivysčiusiose šalyse gyvenusių žmonių tapo įmanoma įsigyti automobilius, televizorius, buitinius prietaisus ir kitas prekes, kurias daugelis žmonių laiko būtina kasdienio gyvenimo dalimi.  
@@ -64,11 +67,11 @@ Kai vartotojas naudoja pagal apribojimus sukurtą produkto konfigūracijos model
 
 ### <a name="table-constraints"></a>Lentelės apribojimai
 
-Lentelės apribojimuose gali būti apibrėžta vartotojo, ar sistemos.  
+Lentelės apribojimai gali būti nustatomi vartotojo arba apibrėžtos sistemos.  
 
 Vartotojas pats sukuria vartotojo apibrėžiamą lentelės apribojimą. Vartotojas, pasirinkęs įvairių tipų atributus, sudaro lentelės stulpelius, tada, įvedęs pasirinktų tipų atributų domenų reikšmes, sudaro lentelės apribojimo eilutes.  
 
-Sistemos lentelės apribojimų apibrėžiamas kurioje Microsoft Dynamics 365 operacijos lentelėje naudoti kaip nuorodą ir tada pasirenkant laukus iš šios lentelės stulpeliuose, apribojimą. Lentelės apribojimų eilutės yra Dynamics 365 operacijų lentelės eilutes, kurios yra konfigūravimo metu.  
+Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina „Microsoft Dynamics 365 for Operations“ lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūravimo metu pateikiamos „Dynamics 365 for Operations“ lentelės eilutės.  
 
 Lentelės apribojimas įtraukiamas į produkto konfigūracijos modelį nurodžius lentelės apribojimo aprašą ir susiejus atitinkamus modelio atributus su lentelės apribojimo stulpeliais.
 
@@ -103,7 +106,7 @@ Galiausiai galima patikrinti visą produkto konfigūracijos modelį bei visos si
 
 ### <a name="testing"></a>Tikrinimas
 
-Išbandytas yra panašus į faktinę konfigūraciją sesija veikia. Vartotojas gali vaikščioti per konfigūracijos puslapius ir patikrinkite, ar pavyzdinę struktūrą palaiko konfigūravimo procesą. Vartotojas gali patikrinti, ar atributų reikšmės teisingos, ir ar vartotojas, vadovaudamasis atributų aprašais, pasirinks teisingas reikšmes. Galiausiai užbaigus tikrinimo seansą sistemoje bandoma sukurti pasirinktas atributų reikšmes atitinkančią KS ir maršrutą, o įvykus klaidai pateikiamas klaidos pranešimas.
+Modelio tikrinimo procesas primena faktinio konfigūravimo seanso vykdymą. Vartotojas gali peržiūrėti konfigūracijos puslapius ir patikrinti, ar taikant modelio struktūrą konfigūravimo procesas yra galimas. Vartotojas gali patikrinti, ar atributų reikšmės teisingos, ir ar vartotojas, vadovaudamasis atributų aprašais, pasirinks teisingas reikšmes. Galiausiai užbaigus tikrinimo seansą sistemoje bandoma sukurti pasirinktas atributų reikšmes atitinkančią KS ir maršrutą, o įvykus klaidai pateikiamas klaidos pranešimas.
 
 ### <a name="the-configuration-page"></a>Konfigūracijos puslapis
 
@@ -129,17 +132,17 @@ Jei produktas bus parduodamas įvairiose šalyse / regionuose, galima išversti 
 Paskutinis ir svarbiausias užbaigimo proceso veiksmas – produkto konfigūracijos modelio versijos sukūrimas. Versija nurodo bendrojo produkto, kurį užsakymo arba pasiūlymo eilutėje galima pasirinkti su konfigūracijos modeliu, ir produkto konfigūracijos modelio ryšį. Versija turi būti patvirtinta ir suaktyvinta, kad ją būtų galima naudoti per konfigūravimo seansą.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Produkto konfigūracijos modelio išplėtimas naudojant API
-Kad partneriai ir kiti programuotojo licenciją turintys asmenys galėtų išplėsti produkto konfigūracijos modelio galimybes, buvo įdiegta skirtoji programų programavimo sąsaja (API). Pagrindinis tikslas buvo sukurti mechanizmą, kad tegul partneriams ir klientams, kurie naudoja esamą produkto generatorių perkelti kodą, kuris buvo įdėtas į produkto generatorių modeliai API. Tokiu būdu jie gali perkelti modelius iš produktų generatoriaus į produkto konfigūracijos modelį. Tačiau nauji partneriai ir klientai taip pat gali naudodami API išplėsti naujus produkto konfigūracijos modelius.
+Kad partneriai ir kiti programuotojo licenciją turintys asmenys galėtų išplėsti produkto konfigūracijos modelio galimybes, buvo įdiegta skirtoji programų programavimo sąsaja (API). Buvo iškeltas pagrindinis tikslas sukurti mechanizmą, kurį taikydami partneriai ir esamą produktų generatorių naudojantys klientai galėtų įdėtąjį produktų generatoriaus modelių kodą perkelti į API. Tokiu būdu jie gali perkelti modelius iš produktų generatoriaus į produkto konfigūracijos modelį. Tačiau nauji partneriai ir klientai taip pat gali naudodami API išplėsti naujus produkto konfigūracijos modelius.
 
 ### <a name="pcadaptor-class"></a>„PCAdaptor“ klasė
 
-API įdiegiama naudojant produkto konfigūracijos modelių duomenų struktūrą nurodančių **PCAdaptor** klasių rinkinį. Pavyzdžiui, **PCAdaptor** klasė turi būti sukurta kiekvieno modelio, kuris bus pratęstas. Baigus konfigūracijos seansą, sistema tikrina, ar šios klasės egzemplioriaus ir paleidžia jį nustačius.  
+API įdiegiama naudojant produkto konfigūracijos modelių duomenų struktūrą nurodančių **PCAdaptor** klasių rinkinį. **PCAdaptor** klasės egzempliorius turi būti sukurtas su visais išplečiamais modeliais. Užbaigus konfigūravimo seansą, sistemoje tikrinama, ar yra šios klasės egzempliorius, kuris bus paleidžiamas, jei bus surastas.  
 
 Toliau pateiktoje struktūrinėje schemoje apibūdintas procesas.  
 
-[![Srauto diagrama](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Struktūrinė schema](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Produkto konfigūracija API schema
+Produkto konfigūracijos API struktūrinė schema
 
 ## <a name="product-configuration"></a>Produkto konfigūracija
 Produkto konfigūravimo procesą galima atlikti toliau pateiktose vietose.
@@ -155,5 +158,7 @@ Vykdant konfigūravimo procesą siekiama sukurti išskirtąjį produkto variant�
 ### <a name="multiple-sites-and-intercompany"></a>Kelios vietos ir vidinė įmonė
 
 Jei konfigūravimo procesas bus vykdomas ne gamybos vietoje ar įmonėje, KS ir maršrutas bus sukurti ir naudojami tiekėjo įmonės vietoje. Produkto variantas bus išleistas visose tiekimo grandinės įmonėse.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>SF gretinimas ir įmonės vidaus pirkimo užsakymai
 
+[!include[banner](../includes/banner.md)]
+
+
 Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 
 Šios temos pavyzdžiuose naudojama toliau pateikta vidinės įmonės prekybos sąranka.
@@ -35,8 +38,8 @@ Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vid
 -   Fabrikam Sales yra parduodantysis juridinis subjektas.
 -   Klientas 4020 yra įmonėje Fabrikam Sales.
 -   Tiekėjas 3024 yra įmonėje Fabrikam Purchase.
--   Fabrikam pirkimo, vidinės įmonės informacija yra nurodyta tiekėjo 3024. Fabrikam pardavimo yra nurodytas kaip kliento įmonės ir klientų 4020 nurodomas kaip Fabrikam pirkimo juridinis asmuo atitinka kliento sąskaita.
--   Fabrikam pardavimų, klientų 4020 nenurodytas vidinės įmonės informaciją. Fabrikam pirkimo nurodomas kaip tiekėjo įmonės ir tiekėjo 3024 nurodomas kaip tiekėjo sąskaitą, atitinkantį Fabrikam pardavimo įmonė.
+-   Subjekte Fabrikam Purchase nurodoma 3024 tiekėjo įmonės vidaus informacija. Fabrikam Sales yra nurodytas kaip kliento įmonė, o 4020 klientas yra nurodytas kaip kliento sąskaita, atitinkanti Fabrikam Purchase juridinį subjektą.
+-   Subjekte Fabrikam Sales nurodoma 4020 kliento įmonės vidaus informacija. Fabrikam Purchase yra nurodytas kaip tiekėjo įmonė, o 3024 tiekėjas yra nurodytas kaip tiekėjo sąskaita, atitinkanti Fabrikam Sales juridinį subjektą.
 
 Pavyzdžiuose naudojama toliau pateikta mokėtinų sumų SF gretinimo sąranka įmonei Fabrikam Purchase.
 -   Puslapyje Mokėtinų sumų parametrai pasirinkta parinktis Įgalinti SF gretinimo tikrinimą.
@@ -45,7 +48,7 @@ Pavyzdžiuose naudojama toliau pateikta mokėtinų sumų SF gretinimo sąranka �
 
 ## <a name="example-price-matching-and-intercompany-trade"></a> Pavyzdys: kainos gretinimas ir įmonės vidaus prekyba
 Vidinės įmonės tiekėjo SF ir vidinės įmonės kliento SF grynosios sumos turi būti lygios. Šiuo reikalavimu nepaisomi bet kokie taikomi SF gretinimo patvirtinimai ar leistino kainos nuokrypio procentai. Pavyzdžiui, atliekate toliau nurodytus veiksmus.
-1.  Fabrikam pirkimo, sukurti pardavimo užsakymą SO888 pirkėjo 4020. Vidinės įmonės pirkimo užsakymą, ICPO222 yra automatiškai sukuriama tiekėjo 3024 Fabrikam pirkimo ir pardavimo užsakymo ICSO888 sukuriamas automatiškai lauke Fabrikam pardavimo.
+1.  Subjekte Fabrikam Purchase 4020 klientui sukurti pardavimo užsakymą SO888. Vidinės įmonės pirkimo užsakymas ICPO222 automatiškai kuriamas tiekėjui 3024 Fabrikam Purchase įmonėje ir pardavimo užsakymas ICSO888 automatiškai kuriamas Fabrikam Sales įmonėje.
 2.  Subjekte Fabrikam Sales uržregistruoti, kad prekės gautos, ir registruoti važtaraštį. ICSO888 būsena pakito į – pristatyta. ICPO222 būsena pakito – gauta.
 3.  Subjekte Fabrikam Sales atnaujinti SF ICSO888. Vieneto kaina yra 0,45, ir atnaujinta 100 prekių.
 4.  Subjekte Fabrikam Purchase sukurti SF ICPO222. Netyčia grynąją kainą pakeičiate iš 45,00 į 54,00. Rodoma piktograma, kuri nurodo, kad kaina leistiną kainos nuokrypį viršija 2 procentais.
@@ -60,10 +63,12 @@ Vidinės įmonės pirkimo ir pardavimo užsakymo kiekiai turi būti lygūs. Šiu
 -   Turimas B-R14 prekės kiekis 0 (nulis).
 
 Pavyzdžiui, atliekate toliau nurodytus veiksmus.
-1.  Fabrikam pirkimo, sukurti pardavimo užsakymą SO999 pirkėjo 4020. Tokia tvarka yra vienas eilutės elementas: 100 baterijos (B-R14 prekių) vieneto kaina 1.00 kiekvienai. Vidinės įmonės pirkimo užsakymas ICPO333 automatiškai kuriamas tiekėjui 3024 Fabrikam Purchase įmonėje ir pardavimo užsakymas ICSO999 automatiškai kuriamas Fabrikam Sales įmonėje.
+1.  Subjekte Fabrikam Purchase 4020 klientui sukurti pardavimo užsakymą SO999. Užsakyme yra viena eilutės prekė: 100 baterijų (prekė B-R14), kurių vieneto kaina yra 1,00. Vidinės įmonės pirkimo užsakymas ICPO333 automatiškai kuriamas tiekėjui 3024 Fabrikam Purchase įmonėje ir pardavimo užsakymas ICSO999 automatiškai kuriamas Fabrikam Sales įmonėje.
 2.  Subjekte Fabrikam Sales atnaujinti SF ICSO999. Registravimas yra nesėkmingas, nes prekės nėra atsargose ir ji dar negauta. Todėl finansinės informacijos atnaujinti negalima.
 3.  Subjekte Fabrikam Sales užregistruoti, kad prekės gautos, ir registruoti važtaraštį ICSO999. ICPO333 produkto gavimo kvitas automatiškai registruojamas subjekte Fabrikam Purchase. Subjekte Fabrikam Purchase gautas prekės B-R14 kiekis pasikeičia į 100.
 4.  Subjekte Fabrikam Sales atnaujinti SF ICSO999. Registravimas sėkmingas abiejuose juridiniuose subjektuose. Subjekte Fabrikam Purchase nupirktas prekės B-R14 kiekis pasikeičia į 100. 
+
+
 
 
 

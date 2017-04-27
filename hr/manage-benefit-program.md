@@ -1,5 +1,5 @@
 ---
-title: "Nustatyti ir tvarkyti išmokų programa"
+title: "Išmokų programos nustatymas ir valdymas"
 description: "Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos savo darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbuotojų kompensacijų planus. Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti ir tvarkyti išmokas."
 author: rschloma
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="define-and-manage-a-benefits-program"></a>Nustatyti ir tvarkyti išmokų programa
+# <a name="define-and-manage-a-benefits-program"></a>Išmokų programos nustatymas ir valdymas
 
-Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos savo darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbuotojų kompensacijų planus. Šioje temoje pateikta informacija apie tai, kaip nustatyti tvarkyti naudą.
+[!include[banner](includes/banner.md)]
 
-<a name="benefit-setup"></a>Naudos nustatymo
+
+Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos savo darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbuotojų kompensacijų planus. Šioje temoje pateikiama informacija apie tai, kaip nustatyti ir tvarkyti išmokas.
+
+<a name="benefit-setup"></a>Išmokų nustatymas
 -------------
 
 Norėdami, kad darbuotojams būtų paskirtos išmokos, turite sukurti kiekvienos išmokos elementus. Šie elementai sujungia panašius išmokų planus ir nustatyto numatytuosius parametrus, pvz., atskaitymo kursus ir apskaitos informaciją. Daugelį šių parametrų galima koreguoti vėliau, kai darbuotojams paskiriamos išmokos. Kiekvienam išmokų planui organizacija gali pasiūlyti kelias registracijos pasirinktis arba darbuotojas gali atsisakyti registracijos plane. 
 
-[![Naudingas procesas srauto](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Išmokos proceso srautas](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Išmokos elementai
 Prieš pradėdami kurti išmokas ir registruoti jose darbuotojus, turite nurodyti elementus, kurie sudaro išmoką: tipas, planas ir pasirinktys.
@@ -46,27 +49,29 @@ Prieš pradėdami kurti išmokas ir registruoti jose darbuotojus, turite nurodyt
 
 Kiekvienam išmokos tipui, pvz., regėjimo ar dantų gydymo, organizacija savo darbuotojams gali pasiūlyti vieną ar kelis planus. Kiekvienam planui organizacija gali pasiūlyti skirtingas pasirinktis. Pvz., darbuotojai, gali įsigyti papildomo laikotarpio gyvybės draudimą, kurio vertė atitinka vieną, du ar tris jų metinius atlyginimus. Kiekvienas plano ir pasirinkčių derinys tampa išmoka, kurią gali gauti darbuotojai. 
 
-[![naudos IPS](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![išmokų paveikslėlis](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Tinkamumas
-Darbuotojo tinkamumas įvairiems darbdavio siūlomiems išmokų tipams priklauso nuo daugelio faktorių. Kai kuriate naudos Microsoft Dynamics "365" operacijoms, galite nustatyti tinkamumo, minimus tos naudos rūšį. 
+Darbuotojo tinkamumas įvairiems darbdavio siūlomiems išmokų tipams priklauso nuo daugelio faktorių. Kai sukuriate „Microsoft Dynamics 365 for Operations“ išmoką, galite nustatyti tai išmokai taikomą tinkamumo tipą. 
 
-Jums gali suteikti naudos visiems darbuotojams. Pavyzdžiui, kai kurios kompanijos siūlo automobilių stovėjimo aikštelę eina visi darbuotojai kaip papildomų išmokų. Sukūrę šią išmoką nustatote tinkamumo pasirinktį **Taikoma visiems darbuotojams**. 
+Galite nustatyti, kad išmoka būtų prieinama visiems darbuotojams. Pavyzdžiui, kai kuriose įmonėse kaip papildoma išmoka siūlomi automobilių stovėjimo leidimai. Sukūrę šią išmoką nustatote tinkamumo pasirinktį **Taikoma visiems darbuotojams**. 
 
-Kiti privalumai, pvz garnishments ir mokesčių mokėjimų, negalioja tinkamumo. Išrūgas galite sukurti šių tipų privalumai, galite nustatyti tinkamumo **apeiti reikalavimų atitikimo proceso**. 
+Kitoms išmokoms, pvz., pinigų arešto ir mokesčių, tinkamumas negalioja. Kai kuriate šiuos išmokų tipus, galite nustatyti tinkamumo pasirinktį **Apeiti tinkamumo procesą**. 
 
-Galiausiai, naudai gali būti taisyklėmis pagrįsta. Pvz., įmonė siūlo dviejų rūšių gyvybės draudimo išmokų darbuotojams. Darbuotojai turi teisę gauti vienos gyvybės draudimo planą, kadangi kitų visą darbo dieną dirbantiems asmenims kito gyvybės draudimo plano priklauso. Dynamics 365 operacijoms, galite sukurti naudos tinkamumo taisyklę rasti visų vykdomosios darbuotojų ir kita taisyklė rasti visi visą darbo dieną dirbantys darbuotojai, ir tada taikyti tas taisykles reikia pasinaudoti.
+Galiausiai tinkamumas išmokai gali būti pagrįstas taisykle. Pavyzdžiui, įmonė darbuotojams siūlo dviejų tipų gyvybės draudimo išmokas. Vadovaujantys darbuotojai gali gauti vieną gyvybės draudimo planą, o visi kiti visu etatu dirbantys darbuotojai – kitą gyvybės draudimo planą. Jei naudojate „Microsoft Dynamics 365 for Operations“, norėdami rasti visus vadovaujančius darbuotojus, galite sukurti tinkamumo išmokai taisyklę, o norėdami rasti visus kitus visu etatu dirbančius darbuotojus – kitą taisyklę ir taikyti šias taisyklės atitinkamai išmokai.
 
 ## <a name="enrollment"></a>Registracija
 Sukūrę jūsų organizacijos siūlomas išmokas ir nustatę tinkamumą, galite registruoti darbuotojus išmokoms gauti. Išmokoms gauti galite užregistruoti vieną darbuotoją, arba vienai arba kelioms išmokoms gauti galite užregistruoti daug darbuotojų vienu metu. 
 
-Kartais organizacija liaujasi siūliusi tam tikras išmokas. Šiuo atveju turite atnaujinti naudinga ir darbuotojams, kurie mokosi. Masinių naudos galiojimo leidžia pakeisti galiojimo data yra naudingas ir darbuotojas turės tokią naudą, tuo pačiu metu. Taip pat galite pasirinkti kelis darbuotojus, kurie užregistruojami gauti išmoką, ir pakeisti taikymo pabaigos datą. 
+Kartais organizacija liaujasi siūliusi tam tikras išmokas. Tokiu atveju turite atnaujinti išmoką ir darbuotojus, kurie užregistruoti jai gauti. Visuotinės išmokos galiojimo pabaigos parinktis vienu metu leidžia keisti išmokos ir darbuotojų registracijos tai išmokai gauti galiojimo datą. Taip pat galite pasirinkti kelis darbuotojus, kurie užregistruojami gauti išmoką, ir pakeisti taikymo pabaigos datą. 
 
 Be to, jei nusprendėte, kad išmoką norėsite pasiūlyti ilgesniam laikotarpiui negu buvo planuota, visuotinės išmokos plėtinys leidžia pratęsti išmokos ir darbuotojų registracijos tai išmokai gauti galiojimo datą.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Benefit eligibility policies](benefit-eligibility-policies.md)
+[Išmokų tinkamumo strategijos](benefit-eligibility-policies.md)
+
+
 
 

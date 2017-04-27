@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Mažinimo raktai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiami pavyzdžiai, kuriais rodoma, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>1 pavyzdys: procentas – mažinimo rakto prognozės mažinimo principas
@@ -58,7 +61,7 @@ Jei prognozės planavimą paleisite sausio 1 d., poreikio prognozės poreikiai b
 | Balandžio                | 750                       |
 | Gegužė–gruodis | 1000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2 pavyzdys: Operacijos mažinimo raktą prognozė mažinimo principas
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2 pavyzdys: operacijų mažinimo rakto prognozės mažinimo principas
 Šiame pavyzdyje parodoma, kaip faktiniai užsakymai, vykdomi per laikotarpius, kuriuos nurodo mažinimo raktas, sumažina poreikio prognozės poreikius.
 
 -   Puslapio **Bendrieji planai** lauke **Mažinimo principas** pasirinkite **Operacijos – mažinimo raktas**.
@@ -82,7 +85,7 @@ Jei naudojate tą pačią 1 000 vienetų per mėnesį poreikio prognozę, į ben
 | Balandžio                | 881                       |
 | Gegužė–gruodis | 1000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3 pavyzdys: Operacijos dinamiškas laikotarpis prognozė mažinimo principas
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3 pavyzdys: operacijų dinaminio laikotarpio prognozės mažinimo principas
 Dažniausiai sistemos yra nustatomos taip, kad operacijos sumažintų poreikio prognozę per tam tikrus prognozės laikotarpius: savaites, mėnesius ir t. t. Šie laikotarpiai yra nustatomi mažinimo rakte. Tačiau laiko tarpas tarp dviejų poreikio prognozės eilučių taip pat gali *nurodyti* laikotarpį.
 
 1.  Kurkite toliau nurodytų datų ir kiekių poreikio prognozę.
@@ -129,6 +132,8 @@ Toliau pateikiama sumažinimo **Operacijos – dinaminis laikotarpis** suvestin�
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Master plans](master-plans.md)
+[Bendrieji planai](master-plans.md)
+
+
 
 

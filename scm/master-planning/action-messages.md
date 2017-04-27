@@ -1,5 +1,5 @@
 ---
-title: "Neužsiregistravusiems"
+title: nedokumentuota
 description: "Veiksmo pranešimas yra sistemos sugeneruotas pasiūlymas keisti esamą suplanuotą arba patvirtintą tvarką."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>Neužsiregistravusiems
+# <a name="undocumented"></a>nedokumentuota
 
 Veiksmo pranešimas yra sistemos sugeneruotas pasiūlymas keisti esamą suplanuotą arba patvirtintą tvarką.
 

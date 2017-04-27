@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Našumo valdymo apžvalga
 
+[!include[banner](includes/banner.md)]
+
+
 Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.  
 
 Kaip pateiktoje diagramoje parodyta, yra trys puslapiai, kurie padeda valdyti procesą:
@@ -34,7 +37,7 @@ Kaip pateiktoje diagramoje parodyta, yra trys puslapiai, kurie padeda valdyti pr
 -   Tikslai
 -   Veiklos rezultatų apžvalga
 
-Pateiktoje diagramoje parodyta, kaip pirminiai našumo valdymo komponentai susiję vienas su kitu. [![Vykdymo proceso apžvalga](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Pateiktoje diagramoje parodyta, kaip pirminiai našumo valdymo komponentai susiję vienas su kitu. [![Našumo proceso apžvalga](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Efektyvumo žurnalas
 Kaip darbuotojas prieš užbaigdamas savo apžvalgą dažnai renkate informaciją apie savo sėkmei apžvalgos laikotarpiu įtakos turėjusią veiklą ar įvykius. Našumo žurnale galite dokumentuoti tą veiklą ir įvykius. Be to, galite sukurti būsimą veiklą, kuri turi būti baigta, kad padėtų jums pasiekti tikslą, įvykdyti tobulėjimo plano reikalavimus arba našumo įsipareigojimus. Našumo žurnalai nebūtini norint sukurti tikslų arba našumo apžvalgas. 
@@ -132,7 +135,7 @@ Norėdami kontroliuoti apžvalgos patvirtinimą galite naudoti darbininko apžva
 Darbininko apžvalgos darbo eigoje yra du elementai:
 
 1.  Patvirtinkite apžvalgą. Įtraukite šį elementą norėdami kontroliuoti būsenos pakeitimą iš **Vykdoma** į **Parengta peržiūrėti**. Pakeiskite priskyrimą norėdami naudoti valdymo hierarchiją, kur Employee.line vadovo lygis = 1.
-2.  Galutinė apžvalga. Pridėti šį elementą kontroliuoti būsenos keitimas nuo **parengta Peržiūrėti** į **galutinė peržiūra**. Pakeisti priskyrimo naudoti valdymo hierarchijos kur Employee.line manager lygis = 1, jei norite patvirtinti galutinį apžvalga vadovas. Pakeiskite priskyrimą į darbo eigos vartotoją, jei norite, kad darbuotojas jį patvirtintų. Jei norite, kad patvirtintų vadovas ir darbuotojas, įtraukite į darbo eigą du veiksmus ir atlikite atitinkamą kiekvieno veiksmo priskyrimą pageidaujama patvirtinimų tvarka.
+2.  Galutinė apžvalga. Įtraukite šį elementą norėdami kontroliuoti būsenos pakeitimą iš **Parengta peržiūrėti** į **Galutinė peržiūra**. Jeigu norite, kad vadovas patvirtintų galutinę peržiūrą, pakeiskite priskyrimą naudoti valdymo hierarchiją, kai Employee.line vadovo lygis = 1. Pakeiskite priskyrimą į darbo eigos vartotoją, jei norite, kad darbuotojas jį patvirtintų. Jei norite, kad patvirtintų vadovas ir darbuotojas, įtraukite į darbo eigą du veiksmus ir atlikite atitinkamą kiekvieno veiksmo priskyrimą pageidaujama patvirtinimų tvarka.
 
 ## <a name="setup"></a>Sąranka
 Yra trys puslapiai, kurie padeda nustatyti informaciją, būtiną norint baigti našumo procesą: puslapis **Matavimai**, **Našumo žurnalo šaltinių tipai** ir **Apžvalgos tipai**.
@@ -148,5 +151,7 @@ Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Gali
 ### <a name="review-types"></a>Apžvalgos tipai
 
 Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
+
+
 
 

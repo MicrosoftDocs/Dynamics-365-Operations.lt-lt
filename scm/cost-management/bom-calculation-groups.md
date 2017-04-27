@@ -1,5 +1,5 @@
 ---
-title: "KS skaičiavimus grupes"
+title: "KS skaičiavimo grupės"
 description: "Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>KS skaičiavimus grupes
+# <a name="bom-calculations-groups"></a>KS skaičiavimo grupės
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas. 
 
-Puslapyje **Atsargų ir sandėlio valdymo parametrai** reikia nurodyti numatytąją skaičiavimo grupę arba puslapyje **Išleisto produkto informacija** reikia nurodyti konkretaus produkto skaičiavimo grupę. Sistema pirmiausia ieško skaičiavimo grupės nustatymas, to **išleistas informacija apie** puslapis. Jei skaičiavimo grupės ten neranda, tai atrodo kad **atsargų ir sandėlio valdymo parametrai** puslapis. Jei sistema negali rasti skaičiavimo grupę, vartotojas gauna klaidos pranešimą skaičiavimo metu. Skaičiavimo grupėje nurodytos savikainos modelio, pardavimo kainos modelio ir įspėjimų sąrašo strategijos. Skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje **KS skaičiavimas**.
+Puslapyje **Atsargų ir sandėlio valdymo parametrai** reikia nurodyti numatytąją skaičiavimo grupę arba puslapyje **Išleisto produkto informacija** reikia nurodyti konkretaus produkto skaičiavimo grupę. Sistema pirmiausia ieško skaičiavimo grupės nustatymo puslapyje **Išleisto produkto informacija**. Jei skaičiavimo grupės ten neranda, ji ieško puslapyje **Atsargų ir sandėlio valdymo parametrai**. Jei sistema negali rasti skaičiavimo grupės, skaičiavimo metu vartotojui rodomas klaidos pranešimas. Skaičiavimo grupėje nurodytos savikainos modelio, pardavimo kainos modelio ir įspėjimų sąrašo strategijos. Skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje **KS skaičiavimas**.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>KS skaičiavimo grupių paskirtis
 KS skaičiavimo grupę prekėms priskirti galima dėl kelių priežasčių.
@@ -72,7 +75,7 @@ Lauko **Pardavimo kainos** reikšmę galima apskaičiuoti dviem būdais.
 Numatytasis modulio Atsargų ir sandėlio valdymas parametrų nustatymas
 --------------------------------------------------------------
 
-Kadangi skaičiavimams vykdyti reikalingos skaičiavimo grupės, atsargų valdymo parametruose turite nustatyti numatytąją skaičiavimo grupę. Šis nustatymas suteikia galimybę įmonėms naudoti standartinį visų prekių išlaidų grupės ir pelno nustatymą. Tada, jei konkrečiai prekei nustatyti specialūs skaičiavimo reikalavimai, tai prekei vartotojas gali priskirti kitą skaičiavimo grupę. Paprastai nustatomos KS sudėtinių prekių, o KS prekių skaičiavimo grupės. Tačiau, jei rodomi įspėjimo pranešimai, galima taikyti skaičiavimo grupes. Prekėms priskirta skaičiavimo grupė pakeičia numatytąją reikšmę, kuri nustatyta atsargų valdymo parametruose. Galite nustatyti numatytąjį parametrą ne **valdymo išlaidos**&gt;**atsargų apskaitos politikos nustatymas**&gt;**parametrai**&gt;**atsargų apskaitos**&gt;**skaičiavimo grupę**. Nustatydami numatytąją konfigūracijos grupę, taip pat galite konfigūruoti įspėjimo sąlygas, kad KS skaičiavimo proceso metu vartotojai būtų įspėti, jei dėl pasirinktų komponentų gali kilti skaičiavimo klaidų.
+Kadangi skaičiavimams vykdyti reikalingos skaičiavimo grupės, atsargų valdymo parametruose turite nustatyti numatytąją skaičiavimo grupę. Šis nustatymas suteikia galimybę įmonėms naudoti standartinį visų prekių išlaidų grupės ir pelno nustatymą. Tada, jei konkrečiai prekei nustatyti specialūs skaičiavimo reikalavimai, tai prekei vartotojas gali priskirti kitą skaičiavimo grupę. Paprastai nustatomos KS sudėtinių prekių, o KS prekių skaičiavimo grupės. Tačiau, jei rodomi įspėjimo pranešimai, galima taikyti skaičiavimo grupes. Prekėms priskirta skaičiavimo grupė pakeičia numatytąją reikšmę, kuri nustatyta atsargų valdymo parametruose. Numatytąjį parametrą galite nustatyti pasirinkdami **Išlaidų valdymas** &gt; **Atsargų apskaitos strategijų nustatymas** &gt; **Parametrai** &gt; **Atsargų apskaita** &gt; **Skaičiavimo grupė**. Nustatydami numatytąją konfigūracijos grupę, taip pat galite konfigūruoti įspėjimo sąlygas, kad KS skaičiavimo proceso metu vartotojai būtų įspėti, jei dėl pasirinktų komponentų gali kilti skaičiavimo klaidų.
 Įspėjimus pranešimų peržiūra puslapyje Baigta
 ------------------------------------------
 
@@ -85,5 +88,7 @@ KS skaičiavimas generuoja įspėjimo pranešimus. Galite peržiūrėti pasirink
 -   Nustatyti, kai prekės KS eilutėje pelningumo procentai yra mažesni nei jūs pageidaujate.
 
 Galite nustatyti kelias KS skaičiavimo grupės, priklausomai nuo to, kiek skirtingų įspėjimo pranešimų norite. Pavyzdžiui, gali pakakti vienos KS skaičiavimo grupės, taikant perspėjimo sąlygas dėl aktyvios KS, kai tiek komponento kiekis, tiek komponento išlaidos lygūs 0 (nuliui). Perspėjimo sąlygos, susietos su KS skaičiavimo grupe, gali būti perrašomos inicijuojant KS skaičiavimą. Taip pat galima įspėjimo sąlygų pridėti arba pašalinti. Pavyzdžiui, galite pašalinti aktyvaus maršruto perspėjimo sąlygą, kai į esamą situaciją nėra įtraukti maršruto duomenys. **Pastaba.** Modulyje Laikas ir buvimas darbe teikiamas puslapis **Skaičiavimo grupės**, bet tas nesusijęs su KS skaičiavimo grupėmis. Taikant modulį Laikas ir buvimas darbe, darbuotojus galima priskirti skaičiavimo grupėms, kurios atspindi su tuo pačiu prižiūrėtoju arba vadovu susijusių darbuotojų grupavimą. Darbuotojų registracijų skaičiavimą galima atlikti automatiškai arba neautomatiniu būdu jį gali atlikti prižiūrėtojas ar vadovas.
+
+
 
 

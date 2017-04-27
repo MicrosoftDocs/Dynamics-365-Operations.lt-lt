@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Kompensacijų planai
 
+[!include[banner](includes/banner.md)]
+
+
 Kompensacijų ir išmokų vadovai gali naudoti Kompensavimo valdymą, skirtą prižiūrėti ir apdoroti organizacijos darbuotojų pastoviųjų ir kintamųjų atlyginimo dalių planus.
 
 ### <a name="introduction"></a>Įžanga
 
-Kompensacijų valdymas yra naudojami siekiant kontroliuoti pagrindinio užmokesčio ir apdovanojimai. Darbuotojui nustatytas pagrindinio užmokesčio ir nuopelnus padidėjimas yra kontroliuojama per pastoviųjų atlyginimo dalių planai. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios kompensacijos dalies planus. 
+Kompensacijų valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premijų pristatymui. Darbuotojo fiksuotas pagrindinis užmokestis ir nuopelnų padidėjimai kontroliuojami naudojant pastoviosios kompensacijos dalies planus. Skatinamųjų išmokų, pvz., priedų, apdovanojimų už našumą, akcijų pasirinkimo sandorių, subsidijų bei vienkartinių premijų mokėjimas valdomas naudojant kintamosios kompensacijos dalies planus. 
 
 Darbuotojai gali būti registruojami vienam arba keliems abiejų tipų planams. Kad turėtų teisę registruotis kompensavimo planui, darbuotojas turi atitikti toliau nurodytus reikalavimus.
 -   Darbuotojui turi būti priskirtos aktyvios pareigos.
@@ -54,7 +57,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 <td>Pastoviosios kompensavimo dalies veiksmais pasiekiama toliau nurodytų dviejų tikslų.
 <ul>
 <li>Veiksmai gali nurodyti, kokią informaciją reikia įrašyti, kai pasikeičia darbuotojo kompensavimas. Pavyzdžiui, galite reikalauti, kad būtų įrašoma pokyčio priežastis, pvz., paaukštinimas arba pažeminimas pareigose.</li>
-<li>Veiksmai gali užtikrinti, kad apskaičiuoti taikomas apdorojus pastoviųjų atlyginimo dalių planai.  Pvz., veiksmų tipo nuosavo kapitalo palyginti tarnautojų darbo užmokesčio minimali taško ant darbuotojo lygio ir užtikrinti darbuotojui yra darbo mokama bent minimali.</li>
+<li>Veiksmai gali užtikrinti, kad, apdorojant pastoviosios kompensacijos dalies planus, būtų taikomas skaičiavimas.  Pvz., tipo Kapitalas veiksmai darbuotojų užmokestį palygins su darbuotojo lygio minimaliu atskaitos tašku ir užtikrins, kad darbuotojui būtų mokamas bent minimumas.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 </tr>
 <tr class="even">
 <td>Išmokų dažnumas</td>
-<td>Mokėjimo dažnis yra naudojami laikotarpio, kuriam nurodyta kompensacija.  Pvz., darbo užmokesčio dažnio padeda suprasti, jei kompensacijos suma yra nurodyta kaip metinis atlyginimas lyginant su valandiniu užmokesčio tarifas. Darbo dažniai yra taip pat naudojamas nustatyti perskaičiavimo koeficientai konvertuoti kompensacijų iš kas mėnesį, kas savaitę, kas dvi savaites ir kas valandą mokėti metinio darbo užmokesčio dažnio dažnių.</td>
+<td>Darbo užmokesčio dažniai yra naudojami apibrėžti laikotarpiui, kuriam nurodytas kompensavimas.  Pvz., darbo užmokesčio dažnis padeda suprasti, ar kompensacijos suma nurodyta kaip metinis atlyginimas ar kaip valandinis darbo užmokesčio tarifas. Darbo užmokesčio dažniai taip pat naudojami nustatyti konvertavimo koeficientams, kuriais kompensavimo sumos iš mėnesinio, savaitinio, dvisavaitinio ir valandinio užmokesčio dažnių konvertuojamos į metinį užmokesčio dažnį.</td>
 </tr>
 <tr class="odd">
 <td>Kompensacijos sritys</td>
@@ -107,7 +110,7 @@ Toliau pateiktoje lentelėje išvardijami kompensavimo proceso komponentai, kuri
 </tr>
 <tr class="even">
 <td>Kompensavimo tinkleliai</td>
-<td>Kompensacijos tinkleliai yra kompensavimo struktūroje.  Kompensacijos tinkleliai gali būti naudojamas vienas arba daugiau kompensacijų planai.</td>
+<td>Kompensavimo tinkleliuose yra kompensavimo struktūra.  Kompensavimo tinklelius gali naudoti vienas ar keli kompensavimo planai.</td>
 </tr>
 <tr class="odd">
 <td>Veiklos efektyvumo planai</td>
@@ -126,9 +129,11 @@ Apdorojimo įvykis skaičiuoja tam tikro laikotarpio kompensavimo informaciją v
 <a name="compensation-events"></a>Kompensavimo įvykiai
 -------------------
 
-Kiekvieną kartą, kai vykdoma proceso atveju, kompensacijos atveju sukuriamas.  Kompensacijos įvykiai yra žalos atlyginimo proceso rezultatus kiekvienam darbuotojui, įtraukti į šį procesą įvykio.  Kai skaičiavimai yra teisingi, jūs galite įkelti kompensacijos renginio atnaujinti atlyginimo dalių įrašai bei darbuotojų, kurie turi įtakos apdorojimo įvykis.
+Kiekvieną kartą vykdant apdorojimo įvykį, sukuriamas kompensavimo įvykis.  Kompensavimo įvykiuose yra kiekvieno darbuotojo, įtraukto į tą apdorojimo įvykį, kompensavimo proceso rezultatai.  Kai skaičiavimai yra teisingi, galite įkelti kompensavimo įvykį, kad atnaujintumėte darbuotojų, kuriuos paveikė apdorojimo įvykis, kompensacijų įrašus.
 
 ## <a name="recommendations"></a> Rekomendacijos
 Paleidę apdorojimo įvykį, pagal apskaičiuotas apdorojimo įvykio gaires galite rekomenduoti koreguoti darbuotojo nuopelnų padidėjimą ar premijos sumą. Norėdami teikti rekomendacijas dėl darbuotojų, nustatydami kompensavimo planus arba apdorojimo įvykį turite įgalinti rekomendacijas.
+
+
 
 

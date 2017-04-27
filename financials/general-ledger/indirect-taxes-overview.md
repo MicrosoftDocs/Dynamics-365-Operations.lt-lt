@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu.
 
 <a name="overview"></a>Apžvalga
 --------
 
-PVM sistema palaiko įvairių rūšių netiesioginius mokesčius, pvz., PVM, pridėtinės vertės mokestis (PVM), prekių ir paslaugų mokestis (GST), vieneto mokestis ir Išskaitomas mokestis. Šie mokesčiai apskaičiuojami ir dokumentuojami per pirkimo ir pardavimo sandorius. Periodiškai, jie turi būti pranešta ir mokėti mokesčių institucijoms. 
+PVM sistema palaiko įvairių tipų netiesioginius mokesčius, pvz., pridėtinės vertės mokestį (PVM), prekių ir paslaugų mokestį (GST), vienetinius mokesčius ir išskaitomą mokestį. Šie mokesčiai apskaičiuojami ir dokumentuojami vykdant pirkimo ir pardavimo operacijas. Periodiškai jie turi būti deklaruojami ir sumokami mokesčių institucijoms. 
 
 Pateiktoje diagramoje parodyti mokesčių sąrankos objektai ir tai, kaip jie susiję.
 
 [![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Už kiekvieną apyvartos mokestį, kuris sudaro bendrovės, turi būti apibrėžta PVM kodą. PVM kode saugomi PVM tarifai ir skaičiavimo taisyklės. 
+Reikia nurodyti kiekvieno PVM, kurį įmonė turi deklaruoti, kodą. PVM kode saugomi PVM tarifai ir skaičiavimo taisyklės. 
 
 Kiekvieną PVM kodą reikia susieti su PVM sudengimo laikotarpiu. PVM sudengimo laikotarpiais apibrėžiami intervalai, kuriais PVM reikia deklaruoti ir sumokėti PVM institucijai. Kiekvieną PVM sudengimo laikotarpį reikia priskirti PVM institucijai. PVM institucija – tai subjektas, kuriam deklaruojamas ir mokamas PVM. Ji taip pat apibrėžia PVM ataskaitos maketą. PVM institucijos gali būti susijusios su tiekėjų sąskaitomis. 
 
@@ -69,26 +72,28 @@ Norėdami skaičiuoti PVM, kiekvienoje operacijoje (pardavimo / pirkimo dokument
 Vykdydami kiekvieną operaciją, apskaičiuotąjį PVM galite pasižiūrėti atidare puslapį **PVM operacija**. PVM galite pasižiūrėti dokumento eilutės arba viso dokumento. Tam tikruose dokumentuose (pvz., tiekėjo SF ir bendruosiuose žurnaluose), jei pradiniame dokumente rodomos sumos su nuokrypiais, apskaičiuotąjį PVM galite koreguoti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>PVM sudengimas ir deklaravimas
-PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). Microsoft Dynamics 365 operacijoms pateikia funkcijas, kurios leidžia atsiskaityti mokesčių sąskaitų intervalas ir kompensuoti likučius į mokesčių atsiskaitymo sąskaitą, kaip nurodyta DK registravimo grupės. Šią funkciją galite pasiekti ir **įsikurti ir registruoti PVM** puslapis. Nurodykite PVM sudengimo laikotarpio PVM turėtų atsiskaityti už. 
+PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). „Microsoft Dynamics 365 for Operations‟ suteikia funkcijų, kurios leidžia sudengti intervalo mokesčių sąskaitas ir balansus subalansuoti PVM sudengimo sąskaitoje, kaip nurodyta DK registravimo grupėse. Šias funkcijas galite pasiekti puslapyje **Sudengti ir registruoti PVM**. Turite nurodyti PVM sudengimo laikotarpį, už kurį reikia sudengti PVM. 
 
 Sumokėjus PVM, PVM sudengimo sąskaitos balansas turėtų būti subalansuotas pagal banko sąskaitą. Jei PVM institucija, nurodyta PVM sudengimo laikotarpyje, yra susijusi su tiekėjo sąskaita, PVM balansas registruojamas kaip atidaryta tiekėjo SF ir gali būti įtrauktas į reguliarų mokėjimo pasiūlymą.
 
 ## <a name="conditional-sales-tax"></a>Sąlyginis PVM
-Sąlyginis PVM yra PVM, kad mokama proporcingai faktinė suma mokama sąskaitoje-faktūroje. Priešingai, standartinis PVM yra skaičiuojamas ne sąskaitų faktūrų išrašymo metu. Sąlyginis PVM turi sumokėti PVM kai mokėjimas yra registruojamas, ne tada, kai SF. Užregistravus SF, sandoris turi būti nurodytas PVM knygos ataskaitą. Tačiau sandoris neturi būti įtrauktos į PVM mokėjimo ataskaitą. 
+Sąlyginis PVM yra PVM, mokamas proporcingai faktinei sumai, sumokėtai SF. Standartinis PVM, priešingai, yra apskaičiuojamas SF išrašymo metu. Sąlyginis PVM turi būti sumokėtas PVM rinkėjui mokėjimo registravimo metu, bet ne SF registravimo metu. SF išrašymo metu apie operaciją turi būti pranešta PVM knygos ataskaitoje. Tačiau operacija negali būti įtraukta į PVM mokėjimo ataskaitą. 
 
-Pažymėjus žymės langelį Sąlyginis PVM formoje DK parametrai, pardavimo mokestis gali būti išskaitomas tol, kol jūs turite sumokėti sąskaitą-faktūrą. Tai teisinis reikalavimas kai kuriose šalyse/regionuose.
+Jei formoje DK parametrai pasirenkate žymės langelį Sąlyginis PVM, PVM negalima atskaityti, kol neapmokėsite SF. Kai kuriose šalyse / regionuose tai yra teisiškai būtina.
 
 > [!NOTE]
-> Kai pažymite žymės langelį Sąlyginis PVM, turite nustatyti PVM kodus ir PVM grupes, ir taip pat kurti DK registravimo grupes, funkcionalumui palaikyti. |
+> Pasirinkus žymės langelį Sąlyginis PVM, reikia nustatyti PVM kodus ir PVM grupes bei taip pat sukurti DK registravimo grupes, kad funkcija būtų palaikoma. |
 
 ###  <a name="example"></a>Pavyzdys
 
-PVM sudengiate kiekvieną mėnesį. Birželio 15 d., galite sukurti kliento SF 10 000, plius PVM.
--   Pardavimo mokestis yra 25 proc., arba 2500.
--   Sąskaita apmokėjimas yra dėl liepos 30.
+Sudengiate PVM kas mėnesį. Birželio 15 d. sukuriate kliento SF, kurios vertė 10 000 eurų (PVM pridedamas).
+-   PVM yra 25 procentai arba 2 500 eurų.
+-   SF reikia apmokėti iki liepos 30 d.
 
-Jums paprastai reikės atsiskaityti ir mokėti 2500 mokesčių administratoriui, kai SF yra paskelbtas birželį, net jei jūs negavote apmokėjimo iš kliento. 
+Paprastai turėtumėte sudengti ir sumokėti 2 500 mokesčių rinkėjui, kai SF užregistruojama birželį, nors mokėjimo iš kliento dar negavote. 
 
-Vis dėlto naudojant sąlyginį PVM, galite atsiskaityti su mokesčių administratorius gavę mokėjimą iš kliento liepos 30 d.
+Tačiau, jei naudojate sąlyginį PVM, mokesčių rinkėjui sumą sudengiate, kai gaunate mokėjimą iš kliento liepos 30 d.
+
+
 
 

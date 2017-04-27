@@ -41,23 +41,23 @@ Norėdami naujinti į naujausią versiją, žr. [Naujinimo į naujausią „Dyna
 <thead>
 <tr class="header">
 <th><strong>Paleisti</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
+<th><strong><strong>Versija</strong></strong></th>
+<th><strong><strong>Komponavimo versijos numeris</strong></strong></th>
+<th><strong><strong>Prieinamumas</strong></strong></th>
 <th><strong><strong>Norėdami sužinoti daugiau</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Operations“ platforma</td>
-<td>Platformos naujinimas 4</td>
+<td>4 platformos naujinimas</td>
 <td>7.0.4425.16160</td>
-<td>2017 m. vasario</td>
+<td>Vasario 2017</td>
 <td><ol>
-<li>Eikite į į <a href="https://roadmap.dynamics.com/">Dynamics 365 planas</a>.</li>
-<li>Pasirinkite į <strong>Naujienos</strong> tab.</li>
-<li>– Į <strong>programų</strong> skyriuje, pasirinkite <strong>Dynamics 365 operacijoms</strong>.</li>
-<li>Į, <strong>sritys</strong> skyriuje, pasirinkite <strong>Debesis platformos</strong>.</li>
+<li>Apsilankykite svetainėje <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>.</li>
+<li>Pasirinkite skirtuką <strong>Kas nauja</strong>.</li>
+<li>Dalyje <strong>Programos</strong> pasirinkite <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Dalyje <strong>Sritys</strong> pasirinkite <strong>Debesies platforma</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

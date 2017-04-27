@@ -1,6 +1,6 @@
 ---
 title: "Išplėstinio banko suderinimo apžvalga"
-description: "Išplėstinė banko sąskaitų derinimo leidžia jums importuoti elektroninio banko ataskaitas ir automatiškai suderinti su banko operacijų Microsoft Dynamics 365 operacijoms.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai."
+description: "Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Operations“.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,34 +26,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Išplėstinio banko suderinimo apžvalga
 
-Išplėstinė banko sąskaitų derinimo leidžia jums importuoti elektroninio banko ataskaitas ir automatiškai suderinti su banko operacijų Microsoft Dynamics 365 operacijoms.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai.  
+[!include[banner](../includes/banner.md)]
 
-Yra keletas vienetų, kuris turi būti nustatytas prieš naudodami funkciją Išplėstinė banko susitaikymo. Daugiau informacijos apie nustatymą banko pareiškimą importo, rasite [nustatyti banko pareiškimą importo procesas](set-up-advanced-bank-reconciliation-import-process.md).  Nustatyti susitaikymo proceso reikalavimai yra išsamiau išdėstyti toliau.
+
+Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Operations“.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai.  
+
+Prieš naudojant išplėstinio banko derinimo funkciją, reikia nustatyti keletą elementų. Daugiau informacijos apie banko išrašo importavimo nustatymą žr. dalyje [Banko išrašo importavimo proceso nustatymas](set-up-advanced-bank-reconciliation-import-process.md).  Derinimo proceso nustatymo reikalavimai išdėstyti toliau.
 
 ## <a name="transaction-codes"></a>Operacijų kodai
-Operacijų kodai gali būti naudojamas kaip dalis banko derinimo atitikimo taisyklės.  Operacijų kodai padės suderinti tik tų pačių tipų sandorius tarp Dynamics 365 operacijas ir banko išrašą.  Kad tai tokio tipo atitiktį, jums pirmiausia nustatyti tipai, naudojami banko operacijų Dynamics 365 operacijoms, tada žemėlapis tiems tipams, į ataskaitą operacijų kodus, kuriuos naudoja jūsų banko.  Operacijų tipus dinamika 365 operacijas banko operacijų yra nustatytos į **banko operacijos tipas** puslapis.  Tai taip pat, kur nurodyti pagrindinę sąskaitą naudoti darbai, susiję su šios operacijos tipą. 
+Operacijų kodus galima naudoti kaip dalį banko išrašo derinimo gretinimo taisyklių.  Naudojant operacijų kodus galima sugretinti tik to pačio tipo operacijas tarp „Dynamics 365 for Operations“ ir banko išrašo.  Norėdami atlikti šio tipo gretinimą, pirmiausia turite nurodyti operacijų tipus, naudojamus „Dynamics 365 for Operations“ banko operacijoms vykdyti, tada turite tuos tipus sugretinti su jūsų banko naudojamais sudengimo operacijų kodais.  „Dynamics 365 for Operations“ banko operacijų tipai nurodyti puslapyje **Banko operacijų tipai**.  Šiame puslapyje taip pat galima nurodyti pagrindinę sąskaitą, kuri bus naudojama su operacijos tipu susijusiems elementams registruoti. 
 
-Nustačius jūsų Dynamics 365 operacijas bankas operacijų kodus, jūs tada žemėlapį į operaciją kodai, naudoti elektroninius banko išrašus.  Šis planavimo procesas yra atliekamas naudojant į **operacijos kodas kartografavimo** puslapis.  Operacijos kodas prieskyra baigta atskirai kiekvienos banko sąskaitos.
+Kai „Dynamics 365 for Operations“ banko operacijų tipai nurodyti, susiekite juos su operacijų kodais, naudojamais elektroniniuose banko išrašuose.  Susiejimo procesas vykdomas naudojant puslapį **Operacijos kodo susiejimas**.  Operacijos kodo susiejimas kiekvienoje banko sąskaitoje vykdomas atskirai.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Gretinimo taisyklės ir gretinimo taisyklių rinkiniai
-Atitikimo taisyklės leidžia jums nustatyti kriterijus, automatinė derinimo Dynamics 365 operacijas banko operacijas ir banko išrašo operacijas.  Nustatyti atitikimo taisyklių būtų daroma **susitaikymo atitikimo taisyklės** puslapis.  Daugiau informacijos rasite [nustatyti banko terminų atitikimo taisyklės](set-up-bank-reconciliation-matching-rules.md). 
+Naudojant gretinimo taisykles galima nustatyti automatinio „Dynamics 365 for Operations“ banko operacijų ir banko išrašo operacijų derinimo kriterijus.  Gretinimo taisyklės nustatomos puslapyje **Derinimo gretinimo taisyklės**.  Daugiau informacijos žr. dalyje [Banko derinimo gretinimo taisyklių nustatymas](set-up-bank-reconciliation-matching-rules.md). 
 
-Apibrėžti grupės atitikimo taisyklių, kurios vykdomos iš eilės banko susitaikymo proceso metu naudojamos atitikimo taisyklių rinkinių.  Konfigūruojami atitikimo taisyklių rinkinių, **atitikimo taisyklių rinkinių derinimo** puslapis.
+Gretinimo taisyklių rinkiniai naudojami siekiant nurodyti gretinimo taisyklių, kurios iš eilės vykdomos derinimo proceso metu, grupę.  Gretinimo taisyklių rinkiniai konfigūruojami puslapyje **Derinimo gretinimo taisyklių rinkiniai**.
 
 ## <a name="cash-and-bank-management-parameters"></a>Grynųjų pinigų ir banko valdymo parametrai
-Yra daug parametrų, būdingų pažangių banko susitaikymo procesą į **pinigų ir banko valdymo parametrai** puslapis.  Į **Rodyti ataskaitos eilutės suma, debeto/kredito** pasikeičia sumos atsižvelgiant į **banko pareiškimą** puslapis.  Jei ši parinktis pažymėta, banko pareiškimas sandorio sumos bus rodomas atskiras debeto ir kredito stulpeliuose.  Jei nepažymėsite, banko pareiškimas sandorio sumos bus rodomos vieną sumą stulpelyje su atitinkamu ženklu. 
+Puslapyje **Grynųjų pinigų ir banko valdymo parametrai** pateikiama daug parametrų, būdingų išplėstinio banko derinimo procesui.  Naudojant parinktį **Rodyti išrašo eilutės debeto / kredito sumą** galima pakeisti sumų rodinį puslapyje **Banko išrašas**.  Jei ši parinktis pažymėta, banko išrašo operacijos sumos bus rodomos atskiruose debeto ir kredito stulpeliuose.  Jei jos nepažymėsite, banko išrašo operacijos sumos bus rodomos viename sumų stulpelyje, naudojant atitinkamą ženklą. 
 
-Parametrų puslapyje pateiktų tikrinimo galimybių nepaisyti pasirinkimus dėl atitikimo taisyklės.  Pavyzdžiui, negalite rankiniu būdu arba automatiškai suderinti dokumentai už dieną skirtumui nustatyti parametrų puslapyje.  Taip pat, jei galimybė **patvirtinti sandorio tipo žemėlapių** yra pažymėtas, operacijų tipai turi susieti Dynamics 365 operacijas banko operacijos ir banko išrašo operacijos tam, kad sandoriai turi būti rankiniu būdu arba automatiškai. 
+Parametrų puslapyje nustatytos tikrinimo parinktys perrašo gretinimo taisyklėse nustatytas parinktis.  Pavyzdžiui, negalite neautomatiniu arba automatiniu būdu derinti dokumentų, jei jų datų skirtumas didesnis, nei nurodyta parametrų puslapyje.  Be to, jei parinktis **Tvirtinti operacijos tipo susiejimą** yra pažymėta, „Dynamics 365 for Operations“ banko operacijų ir banko išrašo operacijų tipai turi būti susieti, kad operacijas būtų galima gretinti neautomatiniu arba automatiniu būdu. 
 
-Taip pat turite sukonfigūruoti reikia numeracijas, **pinigų ir banko valdymo parametrai** puslapis.  Dėl to **skaičių sekas** skirtuke, nustatyti numeracijos kodus atsisiuntimo **ID, išrašo ID, derinti ID ir banko susitaikymo** nuorodos.
+Taip pat turite sukonfigūruoti reikiamas numeracijas puslapyje **Grynųjų pinigų ir banko valdymo parametrai**.  Skirtuke **Numeracijos** nustatykite nuorodų **Atsiuntimo ID, Išrašo ID, Derinimo ID ir Banko derinimas** numeracijų kodus.
 
 ## <a name="bank-account-reconciliation-options"></a>Banko sąskaitos derinimo parinktys
-Pirma turite įgalinti pažangiosios banko sąskaitų derinimo banko sąskaitos.  Nemažai papildomos parinktys galimos su **banko sąskaitos** psl. Kai pažangiosios banko susitaikymo funkcija yra įjungta. 
+Pirma turite įjungti banko sąskaitos išplėstinį banko derinimą.  Įjungus išplėstinio banko derinimo funkciją, puslapyje **Banko sąskaita** galima naudoti daug papildomų parinkčių. 
 
-**Naudoti banko ataskaitas kaip patvirtinti elektroninio mokėjimo** funkcija sujungia funkciją banko susitaikymo su elektroninio mokėjimo būsenos.  Kai tai yra įjungtas, banko dokumentas bus automatiškai sukurta dėl elektroninio mokėjimo būsena bus nustatyta kaip **išsiųsta**.  Be to, elektroninių mokėjimo statusas bus atnaujintas nuo **išsiųsta** į **priimti** po to, kai mokėjimas yra suderinta, susitaikė, o paskelbtas. 
+Parinktis **Naudoti bankų išrašus kaip elektroninių mokėjimų patvirtinimus** banko derinimo funkciją suderina su elektroninio mokėjimo būsenomis.  Kai ji įjungta, bus automatiškai sukurtas elektroninio mokėjimo, kurio būsena nustatyta kaip **Išsiųsta**, banko dokumentas.  Be to, elektroninio mokėjimo būsena bus atnaujinta iš **Išsiųsta** į **Gauta**, kai mokėjimas bus sugretintas, suderintas ir užregistruotas. 
 
-Į **banko sąskaitos pavadinimas atskaitomybėje** lauke yra vardas, naudojamas banko sąskaitos savo elektroninius banko išrašus.  Šis pavadinimas yra naudojamas nustatant, kokių sandorių importuoti banko sąskaitos ataskaitos, kuri gali būti pateikiama informacija apie kelių banko sąskaitų. 
+Lauke **Banko sąskaitos pavadinimas išrašuose** nurodytas banko sąskaitos pavadinimas, naudojamas elektroniniuose banko išrašuose.  Šis pavadinimas naudojamas nustatant, kokias banko sąskaitos operacijas importuoti iš išrašo, kuriame gali būti pateikiama informacija apie kelias banko sąskaitas. 
 
-Galimybė **derinti po importo** bus automatiškai patvirtinti banko išrašą, sukurti naują banko sąskaitų derinimo ir darbalapio ir paleiskite numatytuosius atitinkamus taisyklių rinkinį.  Šią funkciją automatizuoja procesą iki pat operacijos, kurios turi būti vykdoma rankiniu būdu.  Banko sąskaitos parametras bus numatytoji importuojant.
+Pasirinkus parinktį **Derinti importavus**, bus automatiškai patvirtintas banko išrašas, sukurtas naujas banko derinimas ir darbalapis bei įvykdytas numatytasis gretinimo taisyklių rinkinys.  Ši funkcija automatizuoja procesą iki pat to momento, kai operacijas reikia gretinti neautomatiniu būdu.  Importuojant banko sąskaitos parametras taps numatytuoju nustatymu.
+
+
 
 

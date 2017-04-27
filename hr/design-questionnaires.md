@@ -1,6 +1,6 @@
 ---
 title: Klausimyno sudarymas
-description: "Šioje temoje aprašomas sukurti anketą. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti."
+description: "Šioje temoje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Klausimyno sudarymas
 
-Šioje temoje aprašomas sukurti anketą. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
+Šioje temoje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
 
 Kruopščiai sudarytas klausimynas gali padėti padidinti surenkamų duomenų kokybę. Kruopščiai sudarydami klausimyną, galite geriau tinkamu laiku parinkti tinkamas klausimyno parinktis. Tolesni punktai gali padėti suplanuoti efektyvų klausimyną.
 
@@ -87,12 +87,12 @@ Klausimynų parametrų nėra privalomi. Galite jų ir naudoti – tai priklauso 
 
 Klausimynų parametrai apibrėžia klausimyno anonimiškumą, numeracijos kodus ir nuorodos tipus. Kai organizacija platina klausimyną, gali tekti atsižvelgti į parinktį respondentams leisti likti anonimiškiems. 
 
-Numeracijos kodai naudojami tvarkyti klausimams ir atsakymams. Remiantis šios numeracijos kodus, vertes automatiškai priskiriami elementus. 
+Numeracijos kodai naudojami tvarkyti klausimams ir atsakymams. Pagal šiuos numeracijos kodus elementams automatiškai priskiriamos reikšmės. 
 
 Prieš pradėdami kurti savo duomenis, turėtumėte apibrėžti visus parametrus. Klausimyno parametrų nuostatas modifikuoti galite bet kuriuo metu.
 
 ## <a name="questionnaire-components"></a>Klausimynų komponentai
-Klausimynus sudaro trys pagrindiniai elementai: atsakyti į grupes, kuriose yra atsakymai, daug pasirinkimo klausimai, klausimai ir pats apklausos. Pasirinktinai galite sugrupuoti klausimyne klausimus į rezultatų grupės. Rezultatų grupės leidžia kategorizuoti klausimus ir pateikti išsamesnę klausimyno analizę. 
+Klausimynus sudaro trys pagrindiniai elementai: atsakymų grupės, kuriose pateikiami atsakymai į klausimus su keliais pasirinkimas, klausimai ir pats klausimynas. Neprivaloma: klausimyno klausimus galite grupuoti į rezultatų grupes. Rezultatų grupės leidžia kategorizuoti klausimus ir pateikti išsamesnę klausimyno analizę. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ Arba klausimyną galite nustatyti taip, kad, jei 1 klausime respondentas pasiren
 
 [Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
 
-[Peržiūri ir klausimynų rezultatų](evaluate-questionnaire-results.md)
+[Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
 
 

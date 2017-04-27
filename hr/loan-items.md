@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Valdyti darbuotojams paskolintas prekes
 
+[!include[banner](includes/banner.md)]
+
+
 Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams. 
 
 Toliau pateiktuose punktuose nurodomi elementų, kuriuos įmonė gali paskolinti darbuotojams, pavyzdžiai.
@@ -39,7 +42,7 @@ Kiekviena fizinė prekė turi turėti atitinkamą panaudos objektą. Kiekviename
 
 Skolindami objektą, įveskite skolinimo datą ir planuojamą grąžinimo datą. Kai objektas grąžinamas, įveskite faktinę grąžinimo datą.
 
-Darbuotojams peržiūrėti įrašus ir elementus, kurie buvo paskolintas jiems naudojant darbuotojų savitarnos darbo sritį. Jie taip pat galite redaguoti esamus įrašus arba įveskite naują panaudos objektų, jei jie jau gavo papildomų fizinių elementų.  Darbo eigos gali nustatyti maršruto pakeitimus į naują arba esamą panaudos objektų per patvirtinimo procesą. 
+Darbuotojai peržiūrėti objektų, kurie jiems buvo paskolinti, įrašus gali naudodami darbo sritį Darbuotojų savitarna. Jei darbuotojai gavo papildomų faktinių objektų, jie taip pat gali redaguoti esamus įrašus arba įvesti naujų panaudos objektų.  Galima nustatyti darbo eigą, kad, naudojant patvirtinimo procesą, pakeitimus būtų galima nukreipti į naujus arba esamus panaudos objektus. 
 
 Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems taip pat gali būti suteikta teisė darbuotojų vardu pridėti naujų panaudos objektų.
 
@@ -52,6 +55,8 @@ Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įr
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Human resources](index.md)
+[Personalas](index.md)
+
+
 
 

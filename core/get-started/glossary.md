@@ -1,5 +1,5 @@
 ---
-title: "Dinamika 365 operacijų žodynėlis"
+title: "„Dynamics 365 for Operations“ žodynas"
 description: "„Microsoft Dynamics 365 for Operations“ žodyne aprašyti „Dynamics 365 for Operations“ produkto pagrindiniai terminai ir sąvokos."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dinamika 365 operacijų žodynėlis
+# <a name="dynamics-365-for-operations-glossary"></a>„Dynamics 365 for Operations“ žodynas
+
+[!include[banner](../includes/banner.md)]
+
 
 „Microsoft Dynamics 365 for Operations“ žodyne aprašyti „Dynamics 365 for Operations“ produkto pagrindiniai terminai ir sąvokos. 
 
@@ -249,7 +252,7 @@ Diegimo vartotojo priėmimo bandymų (UAT) ir gamybos aplinkose priemonė.
 
 „Visual Studio“ įrankis, naudojamas modelio elementams kurti, naujinti ir tikrinti.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-based konfigūracija**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\dimension-based configuration**
 
 Konfigūracijos technologija, naudojama kuriant prekės variantus, pasirenkant produkto dimensijų vertes.
 
@@ -499,7 +502,7 @@ Produkto dalis.
 
 ###### <a name="product-dimension"></a>**produkto dimensija**
 
-Dydį, spalvą ar konfigūracijos produkto atributus, kurie naudojami... \financial-dimensions\dimension-based konfigūracijos.
+Dydžio, spalvos ar konfigūracijos produkto atributai, naudojami ..\financial-dimensions\dimension-based configuration.
 
 ###### <a name="product-family"></a>**produktų šeima**
 
@@ -722,5 +725,7 @@ Asmuo, kuris prisiima darbuotojo arba rangovo vaidmenį ir kuriam yra sumokėta 
 ###### <a name="workspace"></a>**darbo sritis**
 
 Puslapis, kuriame pateikiama vienos iš vartotojo atliekamų veiklų apžvalga. Puslapyje išklotinės, diagramos ir sąrašai yra naudojami laukiančio darbo ir susijusiems duomenis iš kelių šaltinių rodyti, o puslapyje išryškinamos dažnos užduotys, susijusios su šiais duomenimis. Darbo srities suvestinės dalyje rodomos išvestinės taip pat pateikiamos susijusioje ataskaitų srities dalyje.
+
+
 
 

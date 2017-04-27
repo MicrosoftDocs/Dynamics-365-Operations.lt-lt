@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Projekto pirkimo užsakymai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašomi įvairūs metodai, kuriuos naudodami galite kurti projekto pirkimo užsakymų. Jūsų naudojamas metodas priklauso nuo pirkimo užsakymo paskirties ir nuo to, kada įsigytos prekės suvartojamos bei priskiriamos projektui.
 
-Microsoft Dynamics 365 operacijoms, galite naudoti kelis metodus projekto pirkimo užsakymų kūrimas. Jūsų naudojamas metodas priklauso nuo pirkimo užsakymo paskirties, nuo to, kada įsigytos prekės suvartojamos ir kada įsigytos prekės priskiriamos projektui.
+Programoje „Microsoft Dynamics 365 for Operations‟ kurti projekto pirkimo užsakymus galite keliais metodais. Jūsų naudojamas metodas priklauso nuo pirkimo užsakymo paskirties, nuo to, kada įsigytos prekės suvartojamos ir kada įsigytos prekės priskiriamos projektui.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Pirkimo užsakymo kūrimo metodai
 
@@ -71,6 +74,8 @@ Galite naudoti vieną iš tolesnių metodų, norėdami sukurti pirkimo užsakym�
 </table>
 
 > [!NOTE] 
-> Atnaujinus pirkimo užsakymo SF arba važtaraštį, jus paragins atnaujinti dėl prekės poreikio važtaraštis.
+> Kai atnaujinsite tiekėjo SF arba važtaraštį, jus paragins atnaujinti ir prekės poreikio važtaraštį.
+
+
 
 

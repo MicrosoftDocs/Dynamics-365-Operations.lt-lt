@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Papildymas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojama sandėlio valdymo funkcija.
 
 Šiame straipsnyje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojama sandėlio valdymo funkcija. Ši informacija netaikoma sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas. Galima naudoti tris papildymo strategijas.
@@ -67,6 +70,8 @@ Naudojant krovinio poreikio papildymą, susumuojamas kelių krovinių poreikis i
 | Vietos šablonai       | Vietos šablonai yra būtini, siekiant kurti vietas.                                                                                                                                                                                       |
 | Vietos nurodymai     | Vietų nurodymai yra būtini, siekiant nukreipti darbą į vietas, kurias reikia papildyti, ir į vietas, iš kurių paimamos atsargos.                                                                                     |
 | Darbo šablonai          | Tipo **Papildymas** darbo šablonas yra būtini, siekiant sukurti papildymo darbą, kad atsargas būtų galima perkelti į norimas vietas.                                                                                           |
+
+
 
 
 

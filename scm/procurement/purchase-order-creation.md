@@ -33,7 +33,7 @@ Kai sukuriate pirkimo užsakymą (PU), bendroji informacija apie visą užsakym�
 
 Taip pat PU galite kurti kopijuodami eilutes iš kito PU dokumento arba pardavimo užsakymo. Šiuo atveju galite pakeisti ženklą atsargose taip, kaip pakeičiate ženklą SF siekdami nurodyti kreditą.  
 
-Nors PU galite kurti neautomatiniu būdu, paprastai jie generuojami vykdant kitus procesus. Užsakymus galima automatiškai kurti pagal kitus dokumentus, pvz., paraiškas. Kita vertus, jie gali būti sukurta kaip dalis bendrojo planavimo procesą planuojama POs. Jei naudojate pirkimo susitarimai, EKA gali būti sukurtos su **užsakymą** veiksmų. Taip pat PU galima automatiškai kurti pažangesniais būdais. Pvz., užsakymus galite kurti, kai naudojate tiesioginio pristatymo arba vidinės įmonės užsakymų grandines.
+Nors PU galite kurti neautomatiniu būdu, paprastai jie generuojami vykdant kitus procesus. Užsakymus galima automatiškai kurti pagal kitus dokumentus, pvz., paraiškas. Arba galima juos sukurti kaip pagrindinio planavimo proceso dalį naudojant suplanuotus PU. Jei naudojate pirkimo sutartis, PU galima sukurti atliekant veiksmą **Išleidimo užsakymas**. Taip pat PU galima automatiškai kurti pažangesniais būdais. Pvz., užsakymus galite kurti, kai naudojate tiesioginio pristatymo arba vidinės įmonės užsakymų grandines.
 
 ## <a name="creating-a-purchase-order-header"></a>Pirkimo užsakymo antraštės kūrimas
 Kai sukuriate naują PU, rodomas dialogo langas, kuriame galite įvesti bendriausią PU antraštės informaciją. Kai spustelite **Gerai** norėdami uždaryti dialogo langą, sukuriamas užsakymas ir tada galite nurodyti papildomą antraštės informaciją.  
@@ -84,7 +84,7 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Pirkimo užsakymo apžvalga](purchase-order-overview.md)
 
 [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
 

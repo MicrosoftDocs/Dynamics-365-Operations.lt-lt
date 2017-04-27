@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>Organizacijos ir organizacijų hierarchijos
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizacija yra grupė žmonių, kurie dirba kartu vykdydami verslo procesą arba siekdami tikslo. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą.
 
 <a name="organizations"></a>Organizacijos
 -------------
 
-Microsoft Dynamics 365 operacijoms, galite nurodyti šių tipų vidaus organizacijos: juridiniai asmenys, veiklos vienetų ir komandos.
+Naudojant „Microsoft Dynamics 365 for Operations“ galima nurodyti šių tipų vidines organizacijas: juridinius subjektus, valdymo vienetus ir komandas.
 
 Visos vidinės organizacijos yra objekto **Šalis** tipai. Todėl šios organizacijos naudoja adresų knygelę, kurioje saugomi adresai ir kontaktinė informacija. Šalis, kuri gali būti asmuo arba organizacija, gali priklausyti vienai ar daugiau adresų knygelių.
 ### <a name="legal-entities"></a>Juridiniai subjektai
 
-Juridinis subjektas yra organizacija, turinti registruotą ar įteisintą teisinę struktūrą. Juridiniai subjektai gali sudaryti teisines sutartis ir privalo paruošti išrašus apie savo veiklą. Įmonė yra juridinio subjekto tipas. Šiame leidime Microsoft Dynamics 365 operacijoms, bendrovės yra tik rūšies juridinis asmuo, kurį galite sukurti ir kiekvienas juridinis asmuo yra susijęs su įmonės ID. Šis susiejimas taikomas todėl, kad kai kuriose duomenų modelių funkcinėse programos srityse naudojamas įmonės ID arba DataAreaId. Dėl duomenų saugumo, šiose funkcinėse srityse naudojimas ribojamas įmonės viduje. Vartotojai gali gauti prieigą tik prie tos įmonės duomenų, prie kurios yra prisiregistravę.
+Juridinis subjektas yra organizacija, turinti registruotą ar įteisintą teisinę struktūrą. Juridiniai subjektai gali sudaryti teisines sutartis ir privalo paruošti išrašus apie savo veiklą. Įmonė yra juridinio subjekto tipas. Šiame „Microsoft Dynamics 365 for Operations“ leidime įmonės yra vienintelė juridinių subjektų rūšis, kurią galima kurti, o kiekvienas juridinis subjektas susiejamas su įmonės ID. Šis susiejimas taikomas todėl, kad kai kuriose duomenų modelių funkcinėse programos srityse naudojamas įmonės ID arba DataAreaId. Dėl duomenų saugumo, šiose funkcinėse srityse naudojimas ribojamas įmonės viduje. Vartotojai gali gauti prieigą tik prie tos įmonės duomenų, prie kurios yra prisiregistravę.
 
 ### <a name="operating-units"></a>Valdymo vienetai
 
-Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti. Valdymo vienete žmonės turi maksimaliai išnaudoti negausius išteklius, pagerinti procesus ir atsiskaityti už savo našumą. Microsoft Dynamics 365 operacijoms, veikiančių padalinių tipai: išlaidų centrais, verslo vienetų, vertė upeliai, departamentų ir mažmeninės prekybos kanalais. Tolesnėje lentelėje pateikta daugiau informacijos apie kiekvieną valdymo vieneto tipą.
+Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti. Valdymo vienete žmonės turi maksimaliai išnaudoti negausius išteklius, pagerinti procesus ir atsiskaityti už savo našumą. „Microsoft Dynamics 365 for Operations“ valdymo vienetų tipai apima išlaidų centrus, verslo struktūros vienetus, verčių srautus, padalinius ir mažmeninės prekybos kanalus. Tolesnėje lentelėje pateikta daugiau informacijos apie kiekvieną valdymo vieneto tipą.
 | Valdymo vienetų tipai | Aprašymas                                                                                                                                    | Paskirtis                                                                                                                                 |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Išlaidų centras         | Valdymo vienetas, kurio vadovai yra atsakingi už į biudžetą įtrauktas ir faktines išlaidas.                                                      | Naudojama verslo procesų, apimančių juridinius subjektus, valdymo ir veikimo kontrolei.                                         |
@@ -55,7 +58,9 @@ Komanda yra organizacija, kurios nariai bendrai prisiima atsakomybę, dalijasi p
 Organizacijų hierarchijos
 --------------------------
 
-Norėdami peržiūrėti įvairius verslo aspektus, nustatykite organizacijos hierarchijas. Pavyzdžiui, galima nustatyti juridinių subjektų hierarchiją, skirtą mokesčių, juridinėms ar privalomosioms ataskaitoms kurti. Nustatykite hierarchiją, pagrįstą valdymo vienetais, kad būtų kuriamos finansinės informacijos, kurios nebūtina pateikti, bet kuri naudojama vidaus kontrolei, ataskaitos. Pavyzdžiui, galima kurti pirkimo hierarchiją, skirtą valdyti pirkimo strategijas, taisykles ir verslo procesus. Kiekvienos hierarchijos priskiriamas tam tikslui Microsoft Dynamics 365 operacijoms. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama. Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms. Organizacijos ir hierarchijos kuriamos tik kruopščiai planuojant. Daugiau informacijos apie hierarchijos konstruktorių žr. [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md).
+Norėdami peržiūrėti įvairius verslo aspektus, nustatykite organizacijos hierarchijas. Pavyzdžiui, galima nustatyti juridinių subjektų hierarchiją, skirtą mokesčių, juridinėms ar privalomosioms ataskaitoms kurti. Nustatykite hierarchiją, pagrįstą valdymo vienetais, kad būtų kuriamos finansinės informacijos, kurios nebūtina pateikti, bet kuri naudojama vidaus kontrolei, ataskaitos. Pavyzdžiui, galima kurti pirkimo hierarchiją, skirtą valdyti pirkimo strategijas, taisykles ir verslo procesus. „Microsoft Dynamics 365 for Operations“ kiekvienai hierarchijai priskiriama paskirtis. Hierarchijos paskirtis apibrėžia organizacijų, kurias galima įtraukti į hierarchiją, tipus. Paskirtis taip pat apibrėžia taikymo scenarijus, kuriuose hierarchija gali būti naudojama. Organizacijos hierarchijoje galite bendrai naudoti parametrus, strategijas ir operacijas. Organizacija gali perimti arba nepaisyti jos pirminės organizacijos parametrų. Tačiau bendrai naudojami bendrieji duomenys, pvz., produktai ir adresų knygelės, taikomi visai organizacijai ir jų negalima nepaisyti atskiroms organizacijoms. Organizacijos ir hierarchijos kuriamos tik kruopščiai planuojant. Daugiau informacijos apie hierarchijos konstruktorių žr. [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md).
+
+
 
 
 

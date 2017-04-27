@@ -34,14 +34,14 @@ Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje 
 <a name="channel-specific-discounts"></a>Konkretaus kanalo nuolaidos
 --------------------------
 
-Pardavėjai dažnai siūlo įvairių nuolaidų skirtingais kanalais. Tai gali padaryti vietos rinkos sąlygas arba susidoroti su konkuruojančių pardavėjų.
+Pardavėjai dažnai skirtinguose kanaluose siūlo skirtingas nuolaidas. Taip gali būti daroma reaguojant į vietos rinkos sąlygas arba konkuruojant su kitais pardavėjais.
 
-Mažmeninės prekybos ir komercijos Microsoft Dynamics 365 operacijų naudoja kainų grupes apibrėžti kanalo būdingų nuolaidas. Kainų grupės gali būti priskirtos vienam ar keliems toliau nurodytiems objektams: kanalams, katalogams, priskyrimams ir lojalumo programoms. Šiame straipsnyje aptariami kanalai, tačiau tos pačios koncepcijos taikomos katalogų nuolaidoms, priskyrimų nuolaidoms ir lojalumo nuolaidoms.
+Apibrėžti konkrečių kanalų nuolaidoms „Microsoft Dynamics 365 for Operations‟ mažmeninėje prekyboje ir prekyboje naudojamos kainų grupės. Kainų grupės gali būti priskirtos vienam ar keliems toliau nurodytiems objektams: kanalams, katalogams, priskyrimams ir lojalumo programoms. Šiame straipsnyje aptariami kanalai, tačiau tos pačios koncepcijos taikomos katalogų nuolaidoms, priskyrimų nuolaidoms ir lojalumo nuolaidoms.
 
 ## <a name="price-groups"></a>Kainų grupės
-\[antraštės id = "priedas\_256084" suderinti = "alignnone" Plotis = "640"\][![kaina grupėms](./media/price-groups-1024x608.png)](./media/price-groups.png) kaina grupės nuorodos mažmeninės prekybos\[/antraštė\]
+\[caption id="attachment\_256084" align="alignnone" width="640"\][![Kainų grupės](./media/price-groups-1024x608.png)](./media/price-groups.png) Mažmeninės prekybos kainų grupių saitai\[/caption\]
 
-Aukščiau diagrama parodo santykį tarp subjektų, kurie gali būti operacijos (kanalo, katalogas, priklausomybė, klientų, lojalumo kortelė) ir įvairios nuolaidos, kuris gali būti konfigūruojamas. Visų operacijų atsirasti kanalą, kad kanalas yra garantuojamas dalyvauti operacijos. Likę objektai yra neprivalomi. Kiekviename bendrųjų duomenų puslapyje yra saitas į susijusių kainų grupių puslapį, kuriame galite peržiūrėti kainų grupes ir pagal poreikį jų pridėti. Kaina grupė naudojama sieti keturių skirtingų subjektų nuolaidos, kainų koregavimų ir prekybos sutartis. Mes rekomenduojame, kad galite planuoti strategiją, kaip jums vardas savo kainų grupės išlaikyti juos organizuoja. Viena galimybė būtų atskirti skirtingų tipų naudoti raidę ar skaičių priešdėlis ar priesaga. Pvz., 1-xxxxx kanalo kaina grupėms ir 2-xxxxx katalogo kaina grupėms. Yra keturi užklausų puslapiai, kuriuose dėmesys skiriamas kiekvienam mažmeninės prekybos objektui, su kuriuo gali būti susietos nuolaidos.
+Aukščiau pateiktoje diagramoje iliustruojamas ryšys tarp galimų operacijos (kanalo, katalogo, priskyrimo, kliento, lojalumo kortelės) objektų ir įvairių nuolaidų tipų, kuriuos galima sukonfigūruoti. Visos operacijos vyksta kanale, todėl kanalas operacijoje tikrai bus. Likę objektai yra neprivalomi. Kiekviename bendrųjų duomenų puslapyje yra saitas į susijusių kainų grupių puslapį, kuriame galite peržiūrėti kainų grupes ir pagal poreikį jų pridėti. Kainų grupė naudojama keturių skirtingų tipų objektams susieti su nuolaidomis, kainų koregavimais ir prekybos sutartimis. Rekomenduojame susiplanuoti strategiją, kaip savo kainų grupes įvardysite, kad jos išliktų susistemintos. Viena galimybė galėtų būti naudoti raidinį arba skaitinį prievardį ar povardį, kad būtų galima atskirti skirtingus tipus. Pavyzdžiui, 1-xxxxx naudoti kanalų kainų grupėms, o 2-xxxxx – katalogų kainų grupėms. Yra keturi užklausų puslapiai, kuriuose dėmesys skiriamas kiekvienam mažmeninės prekybos objektui, su kuriuo gali būti susietos nuolaidos.
 
 -   **Mažmeninės prekybos kanalo kainų grupės** – šiame puslapyje rodomas kiekvienos kainų grupės kartu susietų kanalų ir nuolaidų sąrašas.
 -   **Katalogo kainų grupės** – šiame puslapyje rodomas kiekvienos kainų grupės kartu susietų katalogų ir nuolaidų sąrašas.
@@ -62,6 +62,6 @@ Toliau pateiktame pavyzdyje iliustruojamos užduotys, atliekamos nustatant kanal
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
 
 

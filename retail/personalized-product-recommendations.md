@@ -1,6 +1,6 @@
 ---
-title: "Asmeninį produktų rekomendacijų apžvalga"
-description: "Dynamics 365 operacijoms, produkto rekomendacijos gali būti rodomi atsiranda pardavimo (PV) įrenginį. Rekomendacijos yra elementų, kad klientas gali būti domina pagal jų pirkimo istoriją, prekes į savo pageidavimų sąrašus ir daiktų, kad kitiems klientams įsigyti internetu ir plytų ir skiedinio parduotuvėse. Mažmeninės prekybos su didelės katalogai, rekomendacijas padėti klientui produkto aptikimo. Pademonstruotų produktų, orientuojasi į kliento interesus ir pirkimo įpročius, produkto rekomendacijos gali padėti mažmenininkams viršų pardavimas ir kryžminio parduoti, ir gali padidinti klientų išlaikymas. Dynamics 365 operacijoms, produkto rekomendacijos yra powered pažinimo tarnybų ir Microsoft Azure mašinos mokymosi."
+title: "Personalizuotų produkto rekomendacijų apžvalga"
+description: "Jei naudojate „Dynamics 365 for Operations“, produkto rekomendacijos gali būti rodomos elektroninio kasos aparato (EKA) įrenginyje. Rekomendacijos –tai prekės, kurios gali sudominti klientą atsižvelgiant į jo pirkimo istoriją, prekės, kurias klientas įtraukė į savo norų sąrašą, ir prekės, kurias kiti klientai įsigijo internetu ir įprastose parduotuvėse. Mažmenininkų, turinčių didelius prekių katalogus, klientams rekomendacijos padeda surasti produktus. Kadangi pateikiant produkto rekomendacijas demonstruojami į kliento pomėgius ir pirkimo įpročius orientuoti produktai, mažmenininkams tai gali padėti atlikti papildomą ir kryžminį pardavimą ir išsaugoti klientus. Naudojant „Dynamics 365 for Operations“ produkto rekomendacijos pateikiamos pagal pažintines paslaugas ir „Microsoft Azure“ mašininį mokymą."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,59 +25,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Asmeninį produktų rekomendacijų apžvalga
+# <a name="personalized-product-recommendations-overview"></a>Personalizuotų produkto rekomendacijų apžvalga
 
-Dynamics 365 operacijoms, produkto rekomendacijos gali būti rodomi atsiranda pardavimo (PV) įrenginį. Rekomendacijos yra elementų, kad klientas gali būti domina pagal jų pirkimo istoriją, prekes į savo pageidavimų sąrašus ir daiktų, kad kitiems klientams įsigyti internetu ir plytų ir skiedinio parduotuvėse. Mažmeninės prekybos su didelės katalogai, rekomendacijas padėti klientui produkto aptikimo. Pademonstruotų produktų, orientuojasi į kliento interesus ir pirkimo įpročius, produkto rekomendacijos gali padėti mažmenininkams viršų pardavimas ir kryžminio parduoti, ir gali padidinti klientų išlaikymas. Dynamics 365 operacijoms, produkto rekomendacijos yra powered pažinimo tarnybų ir Microsoft Azure mašinos mokymosi.
+[!include[banner](includes/banner.md)]
+
+
+Jei naudojate „Dynamics 365 for Operations“, produkto rekomendacijos gali būti rodomos elektroninio kasos aparato (EKA) įrenginyje. Rekomendacijos –tai prekės, kurios gali sudominti klientą atsižvelgiant į jo pirkimo istoriją, prekės, kurias klientas įtraukė į savo norų sąrašą, ir prekės, kurias kiti klientai įsigijo internetu ir įprastose parduotuvėse. Mažmenininkų, turinčių didelius prekių katalogus, klientams rekomendacijos padeda surasti produktus. Kadangi pateikiant produkto rekomendacijas demonstruojami į kliento pomėgius ir pirkimo įpročius orientuoti produktai, mažmenininkams tai gali padėti atlikti papildomą ir kryžminį pardavimą ir išsaugoti klientus. Naudojant „Dynamics 365 for Operations“ produkto rekomendacijos pateikiamos pagal pažintines paslaugas ir „Microsoft Azure“ mašininį mokymą.
 
 <a name="scenarios"></a>Scenarijai
 ---------
 
-Produktų rekomendacijos yra įgalintas šių POS scenarijų. Jie debesis POS ir modernus EKA (MPOS).
+Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus. Juos rasite naudodami „Cloud POS“ arba „Modern POS“ (MPOS).
 
-1.  Dėl to **informacija apie** puslapis:
+1.  Puslapyje **Produkto informacija**:
 
--   Jei parduotuvėje susieti apsilankymus su **informacija apie** puslapį, kai žiūri į ankstesnes operacijas per skirtingus kanalus, rekomendacija variklis siūlo papildomas elementai, kurie yra linkę būti perkami kartu.
--   Jei parduotuvėje susieti prideda klientą į operaciją ir tada apsilanko per **informacija apie** puslapyje, rekomendacija variklis suteikia pritaikytas rekomendacijas, naudojant kliento operacijų istorija.
+-   Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų variklis siūlo kitų prekių, kurios gali būti perkamos papildomai.
+-   Jei parduotuvės atstovas į operaciją įtraukia klientą, o po to apsilanko puslapyje **Produkto informacija**, naudodamas kliento operacijų istoriją ir krepšelyje esančių prekių sąrašą rekomendacijų variklis pateikia personalizuotas rekomendacijas.
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-2.  Dėl to **operacija** puslapis:
+2.  Puslapyje **Operacija**:
 
--   Rekomendacija variklis rodo elementus, atsižvelgiant į visą sąrašą prekių į krepšelį.
--   Jei parduotuvėje susieti prideda klientą į operaciją, rekomendacija variklis suteikia asmeninių rekomendacijų, naudojant kliento operacijų istorija ir elementų sąrašas į krepšelį.
+-   Rekomendacijų variklis siūlo prekes atsižvelgdamas į visą krepšelyje esančių prekių sąrašą.
+-   Jei parduotuvės atstovas į operaciją įtraukia klientą, naudodamas kliento operacijų istoriją ir krepšelyje esančių prekių sąrašą rekomendacijų variklis pateikia asmenines rekomendacijas.
 
-**Pastaba** Rodyti rekomendacijas dėl **operacija** puslapyje, agentas turi atnaujinti ekrano išdėstymas Dynamics 365 operacijoms. Į **rekomendacijų** kontrolė turi būti atsisakyta į į **operacija** puslapis. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Pastaba**  Norėdamas, kad rekomendacijos būtų rodomos puslapyje **Operacija**, mažmenininkas turi atnaujinti „Dynamics 365 for Operations“ ekrano išdėstymą. Valdiklis **Rekomendacijos** turi būti perkeliamas į puslapį **Operacija**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3.  Dėl to **Kontaktinis asmuo** puslapis:
-    -   Rekomendacija variklis siūlo prekes pagal vartotojo ID bei kliento pageidavimų sąrašo elementus.
+3.  Puslapyje **Kliento informacija**:
+    -   Rekomendacijų variklis siūlo prekes atsižvelgdamas į vartotojo ID ir kliento norų sąraše esančias prekes.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Konfigūruoti Dynamics 365 operacijoms, kad POS rekomendacijos
-Norėdami nustatyti produkto rekomendacijos, jums reikia atlikti šiuos veiksmus.
+## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Sukonfigūruokite „Dynamics 365 for Operations“, kad būtų leidžiamos EKA rekomendacijos
+Norėdami nustatyti produktų rekomendacijas turite atlikti toliau nurodytus veiksmus.
 
-1.  Įsitikinkite, kad pasirinkote teisingą **juridinis asmuo**.
-2.  Eikite į **įmonės parduotuvė**, pasirinkite **mažmeninė prekyba**, ir tada spustelėkite **atnaujinti**. ** ** tai naudoja parodomojoje versijoje (ar savo duomenis) iš savo veiklos duomenų bazės ir perkelti jį į įmonės parduotuvėje.
-3.  Pasirenkama: Rodyti rekomendacijas operacijų ekrane, eikite į ** ekrano išdėstymas, **pasirinkti ekrano išdėstymas, pradėti, **ekrano išdėstymas dizaineris**,** ** ir tada lašas į ** rekomendacijas valdymo ** ten, kur reikia.
-4.  Eikite į **mažmeninė prekyba parametrai**, pasirinkite **sistemos mokymosi**, pasirinkite ** taip ** pagal **įgalinti POS rekomendacijas**.
-5.  Norėdami pamatyti rekomendacijas EKA, globalinis konfigūracijos užduotį vykdyti **1110**. Siekiant atspindėti pakeitimus POS ekranas maketo konstruktorių, kanalo konfigūracijos užduotį vykdyti **1070**.
+1.  Įsitikinkite, kad pasirinkote tinkamą **Juridinį subjektą**.
+2.  Eikite į **Objekto parduotuvė**, pasirinkite **Mažmeninės prekybos pardavimai**, o po to spustelėkite **Atnaujinti**.** **Taip demonstraciniai duomenys (arba jūsų duomenys) bus naudojami iš jūsų operacinės duomenų bazės ir perkeliami į objekto parduotuvę.
+3.  Nebūtina: norėdami, kad rekomendacijos būtų rodomos operacijos ekrane, eikite į dalį **Ekrano išdėstymas, **pasirinkite savo ekrano išdėstymą, paleiskite **Ekrano išdėstymo kūrimo priemonę**,** **o po to kur reikia perkelkite **rekomendacijų valdiklį**.
+4.  Eikite į **Mažmeninės prekybos parametrai**, pasirinkite **Mašininis mokymas**, dalyje **Įjungti EKA rekomendacijas** pasirinkite **Taip**.
+5.  Norėdami pamatyti rekomendacijas naudodami EKA, paleiskite visuotinės konfigūracijos užduotį **1110**. Norėdami, kad būtų rodomi EKA ekrano išdėstymo kūrimo priemonei atlikti pakeitimai, paleiskite kanalo konfigūracijos užduotį **1070**.
 
 ## <a name="how-does-it-work"></a>[]()Kaip tai veikia?
-Kai atnaujinate į **įmonės parduotuvė** subjektas, šių veiksmų vyksta.
+Atnaujinus objektą **Objekto parduotuvė** atliekami toliau nurodyti veiksmai.
 
--   Duomenų formatu, pažinimo tarnybos ekstrahuojamas Dynamics 365 operacijų veiklos duomenų bazės ir išsiųstas į įmonės parduotuvę.
--   Duomenys naudojami iš Azure duomenų fabrikas (ADF) išvalyti duomenis naudodami avilio scenarijus ADF veiklą. Nuvalytos duomenys yra laikomi blob saugyklų.
--   Pažinimo paslaugų API naudoja duomenis iš blob saugyklų mokyti rekomendacija pavyzdys.
+-   Pažintinėms paslaugoms reikiamu formatu pateikti duomenys ištraukiami iš „Dynamics 365 for Operations“ operacinės duomenų bazės ir siunčiami į objekto parduotuvę.
+-   Duomenis naudoja programa „Azure Data Factory“ (ADF), kuri išvalo juos kaip ADF veiklų dalį naudodama „Hive“ scenarijus. Išvalyti duomenys saugomi didelių dvejetainių objektų saugykloje.
+-   Iš didelių dvejetainių objektų saugyklos gautus duomenis naudoja pažintinių paslaugų API, kad paruoštų rekomendacijos modelį.
 
-Kai įjungiate **sudaryti rekomendacijas** ir paleiskite konfigūravimo darbus, šių veiksmų vyksta.
+Kai įjungiate **Įjungti rekomendacijas** ir paleidžiate konfigūracijos užduotis, atliekami toliau nurodyti veiksmai.
 
--   Modelis kredencialus ir ID yra įlaipinami iš API ir saugomi Dynamics "365" operacijų veiklos duomenų bazę, AOS Web.config, ir taip pat mažmeninės prekybos Server.
--   Modelis kredencialus ir ID yra prieinama CRT, kad ragina produkto rekomendacijos iš debesies POS ir MPOS prijungties režimu gali būti gerbiamas.
+-   Iš API gaunami modelio kredencialai ir ID, kurie saugomi „Dynamics 365 for Operations“ operacinėje duomenų bazėje, AOS skirtame web.config ir mažmeninės prekybos serveryje.
+-   Modelio kredencialais ir ID gali naudotis CRT, kad būtų galima apmokėti naudojant internetinį režimą iš „Cloud POS“ ir MPOS atliktus skambučius dėl produkto rekomendacijų.
 
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Pridėti rekomendacijas valdymo operacijų puslapio POS įrenginį](add-recommendations-control-pos-screen.md)
+[Rekomendacijų valdiklio įtraukimas į EKA įrenginio operacijų puslapį](add-recommendations-control-pos-screen.md)
+
+
 
 

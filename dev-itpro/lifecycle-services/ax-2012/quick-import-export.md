@@ -1,5 +1,5 @@
 ---
-title: Naudokite greitai importuoti/eksportuoti
+title: "Sparčiojo importavimo / eksportavimo funkcijos naudojimas"
 description: "Sparčiojo importavimo / eksportavimo funkcijos paskirtis yra suteikti galimybę importuoti ir eksportuoti atliekant mažiau veiksmų."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Paleisti Dynamics AX (AX 2012) bandymų duomenų perkėlimo įrankis (beta versija)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Paleiskite duomenų tikrinimo perkėlimo įrankį (beta versija), skirtą „Dynamics AX“ (AX 2012)
+
+[!include[banner](../../includes/banner.md)]
+
 
 Sparčiojo importavimo / eksportavimo funkcijos paskirtis yra suteikti galimybę importuoti ir eksportuoti atliekant mažiau veiksmų.
 
@@ -36,5 +39,7 @@ Mes įtraukėme sparčiojo importavimo eksportavimo funkciją, kad vartotojai ga
 -   Jums nereikia kurti apdorojimo grupės, kad galėtumėte naudoti sparčiojo importavimo / eksportavimo funkciją, sistema ją sukurs automatiškai, kai bus vykdoma importavimo arba eksportavimo užduotis. Taip pat galite pasirinkti saugoti duomenų, importuotų naudojant sparčiojo importavimo / eksportavimo funkciją, retrospektyvą.
 
   Atkreipkite dėmesį, kad sparčiojo importavimo / eksportavimo funkcija daro prielaidą, kad jūs esate susipažinę su DIXF sąvokomis.
+
+
 
 

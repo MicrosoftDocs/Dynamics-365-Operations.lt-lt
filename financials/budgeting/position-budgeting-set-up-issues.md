@@ -1,5 +1,5 @@
 ---
-title: "Poziciją, biudžetas trikčių šalinimas"
+title: "Pareigų biudžeto trikčių šalinimas"
 description: "Šiame straipsnyje pateikiami atsakymai į klausimus, kurie gali kilti, kai konfigūruojate pareigų biudžetą. Ji skirta dažnai užduodami klausimai apie tai, kaip sukurti biudžeto išlaidų elementus, kompensacijų grupes ir kompensavimo tinklelius."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Poziciją, biudžetas trikčių šalinimas
+# <a name="position-budgeting-troubleshooting"></a>Pareigų biudžeto trikčių šalinimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiami atsakymai į klausimus, kurie gali kilti, kai konfigūruojate pareigų biudžetą. Ji skirta dažnai užduodami klausimai apie tai, kaip sukurti biudžeto išlaidų elementus, kompensacijų grupes ir kompensavimo tinklelius. 
 
@@ -58,6 +61,8 @@ Datos prognozuojamų pareigų išlaidų elemento eilutėje turi tilpti į tolesn
 -   Pareigų aktyvinimo ir galiojimo pabaigos datos.
 -   Biudžeto išlaidų elemento aktyvinimo ir galiojimo pabaigos datos.
 -   Biudžeto ciklo, susieto su biudžeto planavimo procesu prognozuojamoms pareigoms, pradžios ir pabaigos datos.
+
+
 
 
 

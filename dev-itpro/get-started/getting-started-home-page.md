@@ -1,6 +1,6 @@
 ---
 title: "Kur pradėti"
-description: "Pradėkite čia ir borto greitai ir mokytis Microsoft Dynamics 365 operacijų UI."
+description: "Pradėkite čia ir greitai išmokite naudotis „Dynamics 365 for Operations“ vartotojo sąsaja."
 eauthor: sericks007
 manager: AnnBe
 ms.date: 2015-12-11 15 - 19 - 40
@@ -28,42 +28,42 @@ ms.lasthandoff: 03/30/2017
 
 # <a name="where-to-start"></a>Kur pradėti
 
-Pradėkite čia ir borto greitai ir mokytis Microsoft Dynamics 365 operacijų UI.
+Pradėkite čia ir greitai išmokite naudotis „Dynamics 365 for Operations“ vartotojo sąsaja.
 
-## <a name="onboarding"></a>Parengimo
-Toliau pateikiamuose ištekliuose rasite kaip dirbti su savo partneriu gauti onboarded Dynamics 365 operacijoms ir kaip naudotis Dynamics 365 veiklos gyvavimo ciklo paslaugų apžvalga. 
+## <a name="onboarding"></a>Supažindinimas
+Toliau nurodyti ištekliai pateikia informacijos, kaip dirbti su savo partneriu norint susipažinti su „Dynamics 365 for Operations“ ir išmokti naudotis „Dynamics 365 for Operations“ „Lifecycle Services“. 
 
-- ["Microsoft" FastTrack Dynamics 365 apžvalga](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
-- [Sign up for a subscription](../dev-tools/sign-up-preview-subscription.md) 
-- [Trukmės (LCS) Microsoft Dynamics "365" operacijų klientams](../lifecycle-services/lcs-works-lcs.md) 
-- [Kaip klientams, kurie pirko Microsoft Dynamics 365 operacijoms per nuotolinių išteklių paslaugų teikėjo gauti Dynamics "365" vietinės versijos operacijų 2012](../deployment/csp-download-customersource.md)
+- [„Microsoft FastTrack for Dynamics 365“ apžvalga](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
+- [Registravimasis prenumeratai gauti](../dev-tools/sign-up-preview-subscription.md) 
+- [„Microsoft Dynamics 365 for Operations‟ klientams skirta „Lifecycle Services“ (LCS)](../lifecycle-services/lcs-works-lcs.md) 
+- [Kaip klientai, kurie „Microsoft Dynamics 365 for Operations“ įsigijo per debesies paslaugos teikėją, gali gauti vietinę „Dynamics 365 for Operations 2012“ versiją](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Vartotojo sąsaja
-Toliau pateikiamuose ištekliuose rasite informacijos apie Dynamics 365 operacijų vartotojo patirtį. 
--   [Kas yra naujo laidoje Dynamics 365 operacijų vartotojo patirtį (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
+Toliau nurodytuose ištekliuose pateikta informacija apie „Dynamics 365 for Operations“ vartotojo patirtį. 
+-   [Kas naujo „Dynamics 365 for Operations“ vartotojo patirtį („Office Mix“)](https://mix.office.com/watch/1ohsrrpsd02e1)
 -   [Vartotojo patirties personalizavimas](/dynamics365/operations/get-started/personalize-user-experience)
 -   [Darbo sričių konfigūravimas ir filtravimas](/dynamics365/operations/get-started/configure-filter-workspaces)
--   [Navigation search](/dynamics365/operations/get-started/navigation-search)
+-   [Naršymo ieška](/dynamics365/operations/get-started/navigation-search)
 -   [Veiksmo ieška](/dynamics365/operations/get-started/action-search)
--   [Keyboard shortcuts](/dynamics365/operations/get-started/shortcut-keys)
--   [Display pages side-by-side using the Open in New Window icon](/dynamics365/operations/get-started/display-pages-side-by-side)
--   [Advanced filtering and query options](/dynamics365/operations/get-started/advanced-filtering-query-options)
--   [Dinamika 365 kliento operacijos DUK](/dynamics365/operations/get-started/client-faq)
--   [Change the banner or logo (Task guide)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
+-   [Spartieji klavišai](/dynamics365/operations/get-started/shortcut-keys)
+-   [Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange](/dynamics365/operations/get-started/display-pages-side-by-side)
+-   [Išplėstinio filtravimo ir užklausų pasirinktys](/dynamics365/operations/get-started/advanced-filtering-query-options)
+-   [„Dynamics 365 for Operations“ kliento DUK](/dynamics365/operations/get-started/client-faq)
+-   [Keisti reklaminę juostą arba logotipą (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
 
 ## <a name="help-system"></a>Žinyno sistema
 Toliau nurodytuose šaltiniuose pateikta Žinyno sistemos apžvalga ir paaiškinta, kaip peržiūrėti laukų aprašus.
 
--   [Getting started with Help](help-overview.md)
--   [Connect the Help system](help-connect.md)
--   [Kaip peržiūrėti ir eksportuoti laukų aprašus](/dynamics365/operations/get-started/view-export-field-descriptions)
--   [Dynamics 365 operacijoms žinyno sistema (informacinis)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-### <a name="task-recordings-and-task-guides"></a>Užduoties įrašų ir užduočių vadovai
-
-Užduočių rašytuvas yra Dynamics 365 operacijų įrankis, kurį naudodami galite įrašyti veiksmus, kuriuos galite atlikti vartotojo sąsajos (UI). Kai kuriate *užduočių įrašą*, visi įvykiai, kurie atliekami serveryje, juos atliekant įrašomi vartotojo sąsajoje. Šie įvykiai apima verčių įtraukimą, parametrų keitimą ir duomenų šalinimą. *Užduoties vadovas* kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties įrašymo veiksmus. Užduoties vadovą atidaryti (arba *paleisti*) galite iš Žinyno sistemos.
+-   [Darbo su žinynu pradžia](help-overview.md)
 -   [Žinyno sistemos prijungimas](help-connect.md)
--   [Užduočių rašytuvas dinamikoje 365 operacijoms](../user-interface/task-recorder.md)
+-   [Kaip peržiūrėti ir eksportuoti laukų aprašus](/dynamics365/operations/get-started/view-export-field-descriptions)
+-   [„Dynamics 365 for Operations“ žinyno sistema (informacinis lapas)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+
+### <a name="task-recordings-and-task-guides"></a>Užduočių įrašai ir užduočių vadovai
+
+Užduočių įrašymo priemonė yra „Dynamics 365 for Operations“ įrankis, kurį naudodami galite įrašyti vartotojo sąsajoje (UI) atliekamus veiksmus. Kai kuriate *užduočių įrašą*, visi įvykiai, kurie atliekami serveryje, juos atliekant įrašomi vartotojo sąsajoje. Šie įvykiai apima verčių įtraukimą, parametrų keitimą ir duomenų šalinimą. *Užduoties vadovas* kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties įrašymo veiksmus. Užduoties vadovą atidaryti (arba *paleisti*) galite iš Žinyno sistemos.
+-   [Žinyno sistemos prijungimas](help-connect.md)
+-   [Užduočių įrašymo priemonė programoje „Dynamics 365 for Operations“](../user-interface/task-recorder.md)
 -   [Kurkite dokumentus ar mokymus naudodami Užduočių įrašus](../user-interface/task-recorder.md)
 -   [Galima naudoti naujus užduočių vadovus (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
@@ -71,12 +71,12 @@ Užduočių rašytuvas yra Dynamics 365 operacijų įrankis, kurį naudodami gal
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sukurti naujas mokymo bibliotekas Dynamics 365 operacijoms per gyvavimo ciklo paslaugų naudodami užduočių rašytuvą (išorinė nuoroda)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Naujų „Dynamics 365 for Operations“ mokymų bibliotekų kūrimas „Lifecycle Services“ naudojant užduočių įrašymo priemonę (išorinis saitas)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Naujas užduočių vadovai (2016 m. vasario)](new-task-guides-available-february-2016.md)
+[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m. gegužės)](new-updated-task-guides-available-may-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
-[Naujų ar atnaujintų užduočių vadovai (2016 m lapkričio mėn.)](new-task-guides-november-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
 
 

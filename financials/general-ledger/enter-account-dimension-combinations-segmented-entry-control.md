@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Įveskite sąskaitų ir dimensijų kombinacijas (segmentuoto įrašo valdiklis)
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje aprašyta, kaip įvesti sąskaitos ir dimensijų kombinacijas arba DK sąskaitas. Įvedimo patirtis dažnai vadinama segmentuotu įrašų valdikliu.
 
-Įvedate abonementą ir dimensijų kombinacijas įvairiuose puslapiuose, pvz., bendrųjų žurnalų puslapius, biudžeto nustatymas ir registravimas apibrėžimai. Galiojančios sąskaitų ir dimensijų kombinacijos priklauso nuo sąskaitų struktūrų, kurios priskirtus DK, ir išplėstinių taisyklių, kurios priskirtos sąskaitų struktūroms. Kai naudotojai įveda derinys, jie gali arba rankiniu būdu įveskite reikšmes arba pasinaudoti turtingą, peržvalgos patirtį. Kai įvedate į lauką, galite pradėti įvesti ir ji ieškos reikšmę ir aprašymas. Pvz., jei įvedate 180 ji ieškos reikšmę, kuri prasideda tą skaičių derinys. Ar gali įvesti pinigų ir ji ieškos reikšmę, kuri turi aprašymą, kuris prasideda su pinigais. Jūs taip pat galite naudoti pakaitos simbolį, pvz., \*pinigų ar \*180 jei vertės arba to paties aprašo yra ieškos kriterijai. 
+Vartotojai įveda sąskaitų ir dimensijų kombinacijas įvairiuose puslapiuose, pvz., bendrųjų žurnalų, biudžeto sudarymo ir registravimo aprašų puslapiuose. Galiojančios sąskaitų ir dimensijų kombinacijos priklauso nuo sąskaitų struktūrų, kurios priskirtus DK, ir išplėstinių taisyklių, kurios priskirtos sąskaitų struktūroms. Kai vartotojai įveda kombinaciją, jie gali įvesti reikšmes rankiniu būdu arba pasinaudoti išsamia peržvalgos patirtimi. Kai lauke nustatyta įvesties vieta, galite pradėti įvesti tekstą ir bus ieškoma reikšmės bei aprašo. Pvz., jei įvesite 180, bus ieškoma bet kokios reikšmės, prasidedančios šia skaitmenų kombinacija. Arba, jei įvesite Grynieji pinigai, bus ieškoma bet kokios reikšmės, kurios aprašas prasideda fraze Grynieji pinigai. Taip pat ieškodami galite naudoti pakaitos simbolį, pvz., \*Grynieji pinigai arba \*180, jei reikšmėje arba apraše yra ieškos kriterijų. 
 
 Toliau pateikiamoje lentelėje aprašomi spartieji klavišai, kuriuos galima naudoti, kai peržvalga uždaryta.
 
@@ -108,5 +111,7 @@ Toliau pateikiamoje lentelėje aprašomi spartieji klavišai, kuriuos galima nau
 </table>
 
  
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Atributų kūrimas ir valdymas"
-description: "Šiame straipsnyje aprašoma atributus Microsoft Dynamics 365 operacijoms. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus."
+description: "Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Operations“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-and-manage-attributes"></a>Atributų kūrimas ir valdymas
 
-Šiame straipsnyje aprašoma atributus Microsoft Dynamics 365 operacijoms. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
+Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Operations“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
 
 Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus. Pavyzdžiui, galite nurodyti produkto atminties dydį ir kietojo disko talpą ir nurodyti, ar produktas atitinka „Energy Star“ reikalavimus. Atributus galima susieti su įvairiais mažmeninės prekybos objektais, pavyzdžiui, produkto kategorijomis ir mažmeninės prekybos kanalais, ir galima nustatyti jį numatytąsias reikšmes. Produktai perima atributus ir tų atributų numatytąsias reikšmes, jei jie yra susieti su produktų kategorijomis arba mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
 
@@ -130,49 +130,49 @@ Projekcijos vamzdelio garantija
 
 **12**
 
-\#Projekcijos vamzdžių
+\#: projekcijos vamzdelių skaičius
 
 **1**–**5**
 
 **3**
 
 ## <a name="attribute-type"></a>Atributo tipas
-  [![atributų nustatytas kopija](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) atributai yra pagrįstos atributų tipų. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu Microsoft Dynamics 365 operacijoms palaiko šių atributų tipų:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Operations“ palaiko šiuos atributų tipus.
 
 -   **Valiuta** – šis atributo tipas palaiko valiutos reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Data ir laikas** – šis atributo tipas palaiko datos ir laiko reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas verčių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Dešimtainis skaičius** – šis atributo tipas palaiko skaitines reikšmes, kuriose yra dešimtainio skyriklio vietų. Jis taip pat palaiko matavimo vienetus. Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Sveikasis skaičius** – šis atributo tipas palaiko skaitines reikšmes. Jis taip pat palaiko matavimo vienetus. Jis gali būti apribotas (t. y., gali būti palaikomas verčių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Tekstas** – šis atributo tipas palaiko teksto reikšmes. Jis taip pat palaiko iš anksto apibrėžtąjį galimų reikšmių rinkinį (išvardijimą).
--   **Bulio logikos** – Šis atributas tipas palaiko dviejų komponentų vertes (**tiesa**/**klaidinga**).
+-   **Bulio logika** – šis atributo tipas palaiko dvejetaines reikšmes (**teisinga** / **klaidinga**).
 -   **Nuoroda**.
 
 ## <a name="attribute"></a>Atributas
-  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) be pavadinimo, įsimenamas pavadinimas, aprašymas, ir žinyno tekstas, viena ar daugiau iš šių tipų informaciją gali būti užfiksuoti atributą:
+  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) Be pavadinimo, patogaus pavadinimo, aprašo ir žinyno teksto, galima įrašyti vieną ar daugiau iš šių atributo informacijos tipų.
 
 -   Numatytoji reikšmė
 -   Atributo metaduomenys, pavyzdžiui, metaduomenys, kurie nurodo, ar atributo galima ieškoti, ar galima jį patikslinti arba surūšiuoti
 
 ## <a name="attribute-group"></a>Atributų grupė
-  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) apibrėžus atributus, jie galima suskirstyti į atributas grupes. Atributų grupėse pateikiami sugrupuoti atskiri atributai, ir jas galima priskirti mažmeninės prekybos kategorijoms arba mažmeninės prekybos kanalams.
+  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) Apibrėžus atributus, juos galima sugrupuoti į atributų grupes. Atributų grupėse pateikiami sugrupuoti atskiri atributai, ir jas galima priskirti mažmeninės prekybos kategorijoms arba mažmeninės prekybos kanalams.
 
 ## <a name="assigning-attribute-groups-to-retail-categories"></a>Atributų grupių priskyrimas mažmeninės prekybos kategorijoms
-  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) vienai ar kelioms atributas grupėms gali būti susijęs su kategorija mazgų mažmeninės prekybos produkto kategorijos hierarchija. Suskirsčius produktus, jie perima atributus, įtrauktus į atributų grupes.
+  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) Vieną ar kelias atributų grupes galima susieti su mažmeninės prekybos produktų kategorijų hierarchijos kategorijų mazgais. Suskirsčius produktus, jie perima atributus, įtrauktus į atributų grupes.
 
 ## <a name="assigning-attribute-groups-to-retail-stores"></a>Atributų grupių priskyrimas mažmeninės prekybos parduotuvėms
-  [![createandmanageattribute-13-1024 x 576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) vienai ar kelioms atributas grupėms gali būti susijęs su viena ar daugiau mažmeninės prekybos parduotuvėse hierarchijoje mažmeninės prekybos parduotuvėse. Produktais konkrečias mažmeninės prekybos parduotuves, jie perima atributus, įtrauktus į atributų grupes.
+  [![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) Vieną ar kelias atributų grupes galima susieti su viena ar keliomis mažmeninės prekybos parduotuvių hierarchijos mažmeninės prekybos parduotuvėmis. Produktais konkrečias mažmeninės prekybos parduotuves, jie perima atributus, įtrauktus į atributų grupes.
 
 ## <a name="overriding-attribute-values"></a>Atributo reikšmių nepaisymas
 ### <a name="at-the-product-level"></a>Produkto lygiu
 
-  [![createandmanageattribute-14-1024 x 576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) pagal nutylėjimą atributai gali būti svarbesni produkto lygmeniu (t. y. atskirų produktų).
+  [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) Atributų numatytųjų reikšmių galima nepaisyti produkto lygiu (t. y. atskirų produktų).
 
 ### <a name="in-a-retail-catalog"></a>Mažmeninės prekybos kataloge
 
-  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) pagal nutylėjimą atributai gali būti viršesni už atskirų produktų konkrečius katalogus, kuri yra skirta tikriems mažmeninės prekybos kanalų.
+  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) Galima nepaisyti konkrečių katalogų, skirtų konkretiems mažmeninės prekybos kanalams, atskirų produktų atributų numatytųjų reikšmių.
 
 ### <a name="at-the-retail-channel-level"></a>Mažmeninės prekybos kanalo lygiu
 
-  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) pagal nutylėjimą atributai gali būti viršesni už atskirų produktų konkrečius katalogus, kuri yra skirta tikriems mažmeninės prekybos kanalų.
+  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Galima nepaisyti konkrečių katalogų, skirtų konkretiems mažmeninės prekybos kanalams, atskirų produktų atributų numatytųjų reikšmių.
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Operacijų planavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šioje temoje pateikiama informacija apie operacijų planavimą. Galite naudoti operacijų planavimą, norėdami bendrai įvertinti gamybos procesą per tam tikrą laikotarpį.
 
 Gamybą galite planuoti operacijos lygiu ir darbo lygiu. Lyginant su užduočių planavimu, operacijų planavimo metu maršruto gamybos operacijos neišskaidomos į užduotis. Jei norite įtraukti daugiau planavimo informacijos, pavyzdžiui, apie dabartinį pajėgumą, galite paleisti užduočių planavimą po to, kai įvykdėte operacijų planavimą. Taip pat galite paleisti tik užduočių planavimą. Užduočių planavimas paprastai naudojamas norint planuoti atskiras darbo laiko užduotis, kurios bus atliekamos iškart arba greitai.
@@ -76,5 +79,7 @@ Jei dirbate su ribotomis medžiagomis, planavimas taip pat priklauso nuo medžia
 --------
 
 [Operacijų planavimo parinktys](operation-scheduling-options.md)
+
+
 
 

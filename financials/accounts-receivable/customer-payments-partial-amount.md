@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-payments-for-a-partial-amount"></a>Kliento dalinės sumos mokėjimai
 
+[!include[banner](../includes/banner.md)]
+
+
 Kartais klientai atlieka mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašytos įvairios pasirinktys šiai situacijai tvarkyti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų.
 
 <a name="partial-payment-with-no-discount"></a>Dalinis mokėjimas be nuolaidos
@@ -38,12 +41,12 @@ Klientai gali sumokėti dalį sumos, nes tiesiog neturi pakankamai grynųjų pin
 Galima suteikti klientams mokėjimo nuolaidą apmokant sąskaitą faktūrą iki termino pabaigos. Pavyzdžiui, įvedate sąskaitą faktūrą 100,00 sumai, kurioje nurodyta 2 % mokėjimo nuolaida, jei sąskaita faktūra apmokama per 10 dienų. Galutinis terminas yra 30 dienų. Jei gaunate 98,00 mokėjimą per 10 dienų, įvedate 98,00 sumos mokėjimą. Tada, kai sąskaita faktūra bus pažymėta sudengti, mokėjimo nuolaida bus pritaikoma automatiškai.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Daliniai mokėjimai taikant mokėjimo nuolaidas
-Kai klientai atlieka dalinį mokėjimą, jie gali planuoti atlikti papildomą dalinį mokėjimą, kad visiškai sudengtų sąskaitą faktūrą. Imtis dėl dalinio mokėjimo nuolaida, turite nustatyti į ** apskaičiuoti mokėjimo nuolaidas dėl dalinio mokėjimo ** galimybę **taip** ant to **sudaro gautinų sumų parametrai** puslapis. 
+Kai klientai atlieka dalinį mokėjimą, jie gali planuoti atlikti papildomą dalinį mokėjimą, kad visiškai sudengtų sąskaitą faktūrą. Norėdami taikyti daliniam mokėjimui mokėjimo nuolaidą, puslapyje **Gautinų sumų parametrai** turite nustatyti parinkties **Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas** reikšmę **Taip**. 
 
 Pavyzdžiui, galite pasiūlyti 2 % mokėjimo nuolaida, jei sąskaita faktūra apmokama per 10 dienų nuo jo išdavimo. Užregistruota 100,00 sumos sąskaita faktūra. Jei gaunate 49,00 mokėjimą per 10 dienų, mokėjimų žurnale įvedate 49,00 sumos kreditą. Kai sudengsite dalinį mokėjimą puslapyje **Sudengti operacijas**, lauke **Taikytina mokėjimo nuolaidos suma** bus rodoma **1,00**. Nuolaidos suma registruojama mokėjimo nuolaidos sąskaitoje. 
 
 > [!NOTE] 
-> Jei įvedate dalinis apmokėjimas ir palikti visas SF suma, **sudengtina suma** srityje, į **mokėjimo nuolaidos suma imtis** laukas yra automatiškai perskaičiuojama registruojant operacijas.
+> Pastaba. Jei įvesite dalinį mokėjimą ir lauke **Sudengtina suma** paliksite visą sąskaitos faktūros sumą, laukas **Taikytina mokėjimo nuolaidos suma** bus perskaičiuotas automatiškai, kai registruosite operacijas.
 
 ## <a name="credit-notes-with-discounts"></a>Kredito pažymos su nuolaidomis
 Jei klientai grąžins kai kurias prekes, įtrauktas į sąskaitą faktūrą, galite išduoti kredito pažymą. Jei pradinei sąskaitai faktūrai buvo pritaikyta mokėjimo nuolaida, klientui taikoma kredito pažyma turėtų būti grynoji mokėjimo nuolaidos, pritaikytos klientui, suma. Jei puslapyje **Gautinų sumų parametrai** nustatyta parinkties **Skaičiuoti kredito pažymų mokėjimo nuolaidas** reikšmė **Taip**, kredito pažymos nuolaida apskaičiuojama automatiškai. 
@@ -54,6 +57,8 @@ Pavyzdžiui, pasiūlėte mokėjimo sąlygas, pagal kurias numatoma 2 % nuolaida,
 Klientams atliekant mokėjimą, gali būti labai maža suma, kurią vis tiek reikia sudengti. Pavyzdžiui, pateikėte klientui sąskaitą faktūrą 1 000,00 sumai, o klientas sumokėjo 999,90. Jei likusi suma yra mažesnė už sumą, kuri nurodyta prie permokėjimų arba neprimokėjimų puslapyje** Gautinų sumų parametrai**, skirtumas automatiškai užregistruojamas permokėjimų / neprimokėjimų DK sąskaitoje.
 
 ## <a name="full-settlement"></a>Visiškas sudengimas
-Klientai gali atlikti dalinį apmokėjimą kur likusi suma nebus išmokėtos bet yra didesnis nei neprimokėjimo sumą, nurodytą to **sąskaita mokėtinų sumų parametrai** puslapis. Jei norite žymėti sąskaitą faktūrą kaip visiškai atsiskaityta, galite naudoti su **visas atsiskaitymo** parinktį pagal **įvykdyti operaciją** puslapis. (Galite įgalinti visiško sudengimo funkciją naudodami konfigūracijos raktą.) Pavyzdžiui, užregistruota sąskaita faktūra 1 000,00 sumai, o klientas sumoka 990,00. Sutikote, kad klientas neturi mokėti likusių 10.00. Po to, kai pažymite sprendimo SF, galite pažymėti pasirinkite **visas atsiskaitymo**. Tada sąskaita faktūra bus laikoma visiškai sudengta. 10,00 skirtumas registruojamas mokėjimo nuolaidos sąskaitoje kaip papildoma mokėjimo nuolaidos suma.
+Klientai gali atlikti dalinį mokėjimą, jei likusi suma nebus mokama, tačiau yra didesnė nei neprimokėjimo suma, nurodyta puslapyje **Mokėtinų sumų parametrai**. Jei norite pažymėti sąskaitą faktūrą kaip visiškai sudengtą, galite naudoti parinktį **Visiškas sudengimas**, esančią puslapyje **Sudengti operaciją**. (Galite įgalinti visiško sudengimo funkciją naudodami konfigūracijos raktą.) Pavyzdžiui, užregistruota sąskaita faktūra 1 000,00 sumai, o klientas sumoka 990,00. Jūs sutarėte, kad klientui nereikia mokėti likusios 10,00 sumos. Pažymėję sąskaitą faktūrą sudengti, galite taip pat pažymėti parinktį **Visiškas sudengimas**. Tada sąskaita faktūra bus laikoma visiškai sudengta. 10,00 skirtumas registruojamas mokėjimo nuolaidos sąskaitoje kaip papildoma mokėjimo nuolaidos suma.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Išankstinio savininko operacijos"
-description: "Sužinokite, kaip dirbti su išankstinio turėtojo sandorių Microsoft Dynamics 365 operacijoms."
+description: "Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Operations“"
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,36 +27,41 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advance-holder-transactions"></a>Išankstinio savininko operacijos
 
-Sužinokite, kaip dirbti su išankstinio turėtojo sandorių Microsoft Dynamics 365 operacijoms.
+[!include[banner](../includes/banner.md)]
 
-Šiems darbuotojams, kurie yra iš anksto turėtojai gali būti registruojamos naudojant išankstinio turėtojo sąskaitų operacijas. Darbuotojo ID, kuris nurodytas kiekvienos išankstinio leidimo galima stebėti visus išankstinio turėtojo operacijas. Šis numeris perrašomas kaip sąskaitos numeris, skirtas iš anksto turėtojo sandorių, **bendrųjų žurnalų** ir **iš anksto savininko sandoriai** puslapius.
 
-## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Kurti ir registruoti pirkimo užsakymas, informacija apie iš anksto
-Daugiau bendros informacijos apie pirkimo užsakymus, rasite [pirkimo užsakymų apžvalga](/manufacturing/procurement/purchase-order-overview). Jei tiekėjo SF yra sukurtas ir paskelbtas su informacija apie iš anksto, išankstinis savininkas likučiai registruojama į darbuotojo balans vietoj tiekėjo balansas. Norėdami pridėti iš anksto informacija apie pirkimo užsakymą, atlikite šiuos veiksmus:
+Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Operations“
 
--   – Į **mokėjimo sąlygos** lauke, **kaina ir nuolaida**, skyriuje mokėjimo terminas. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).-->Pasirinkite mokėjimo terminas, kuris yra į **iš anksto turėtojo** pasirinktas variantas su **mokėjimo sąlygos** puslapis. Daugiau informacijos apie mokėjimo išankstinių savininkų sąlygos nustatymą, peržiūrėkite [iš anksto turėtojams](emea-advance-holders.md).
--   – Į **išankstinis savininkas** lauko, **kaina ir nuolaida** FastTab, pasirinkite išankstinio turėtojo pirkimo užsakyme.
+Šių darbuotojų, kurie yra avanso turėtojai, operacijas galima registruoti naudojant avanso turėtojo sąskaitas. Darbuotojo ID, kuris priskirtas kiekvienam išankstiniams savininkui, galima naudoti norint sekti visas avanso turėtojo operacijas. Šis numeris nuskaitomas kaip avanso turėtojo operacijų sąskaitos numeris puslapiuose **Bendrieji žurnalai** ir **Avanso turėtojo operacijos**.
 
-Pirkimo užsakymo registravimo procesas sukuria du tiekėjo operacijų su priešinga sumas ir viena iš anksto turėtojas operacija. Be išankstinio savininko duomenis, tik vieno tiekėjo operacijos sukuriamos.
+## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Pirkimo užsakymo su avanso turėtojo informacija kūrimas ir registravimas
+Daugiau bendros informacijos apie pirkimo užsakymus žr. temoje [Pirkimo užsakymo apžvalga](/manufacturing/procurement/purchase-order-overview). Jei tiekėjo SF sukuriama ir užregistruojama su avanso turėtojo informacija, avanso turėtojo balansas bus užregistruotas darbuotojo balanso sąskaitoje, o ne tiekėjo balanso sąskaitoje. Norėdami avanso turėtojo informaciją įtraukti į pirkimo užsakymą, atlikite tolesnius veiksmus.
 
-## <a name="settle-advance-holder-balances-via-a-bank"></a>Išankstinis savininkas balansus, per banką
-Kai jūs balansus iš anksto turėtojas per banką, išankstinio turėtojo likučių uždarymo žurnalo įrašus sukuriami bendrajame žurnale. Jūs galite nustatyti žurnalo ir banko kodas į **iš anksto laikikliai** skirsnis, **sudaro mokėtinų sumų parametrai** puslapis. Daugiau informacijos rasite [iš anksto turėtojams](emea-advance-holders.md). Norėdami uždaryti išankstinio turėtojo balansas per banką, atidaryti **mokėtinos sumos**&gt;**iš anksto turėtojams**&gt;**iš anksto laikikliai**. Spustelėkite į **balansas** Naujintiveiksmų srityje, o tada – **arti per banko**. Įveskite šią informaciją į **arti per banką** puslapis.
+-   Dalies **Kaina ir nuolaida** lauke **Mokėjimo sąlygos** pasirinkite mokėjimo sąlygą. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).--> Pasirinkite mokėjimo sąlygą, kurios parinktis **Iš avanso turėtojo**, esanti puslapyje **Mokėjimo sąlygos**, pažymėta. Daugiau informacijos apie avanso turėtojų mokėjimo sąlygų nustatymą žr. temoje [Avanso turėtojai](emea-advance-holders.md).
+-   „FastTab“ **Kaina ir nuolaida** lauke **Avanso turėtojas** pasirinkite pirkimo užsakymo avanso turėtoją.
+
+Pirkimo užsakymo registravimo proceso metu sukuriamos dvi tiekėjo operacijos su priešingomis sumomis ir viena avanso turėtojo operacija. Sukuriama tik viena tiekėjo operacija be avanso turėtojo informacijos.
+
+## <a name="settle-advance-holder-balances-via-a-bank"></a>Avanso turėtojo balanso sudengimas per banką
+Kai avanso turėtojų balansus sudengiate per banką, žurnalo įrašai apie avanso turėtojo balansų uždarymą sukuriami pagrindiniame žurnale. Žurnalo ir banko kodus galite nustatyti puslapio **Mokėtinų sumų parametrai** dalyje **Avanso turėtojai**. Daugiau informacijos žr. temoje [Avanso turėtojai](emea-advance-holders.md). Norėdami uždaryti avanso turėtojo balansą per banką, atidarykite **Mokėtinos sumos** &gt; **Avanso turėtojai** &gt; **Avanso turėtojai**. Veiksmų srityje spustelėkite mygtuką **Balansas** ir tada spustelėkite **Uždaryti per banką**. Puslapyje **Uždaryti per banką** įveskite toliau nurodytą informaciją.
 
 | Laukas                    | aprašymas |
 |------------------------------|-------------------|
-| **Date of payment**          | Įveskite datą, kuri turėtų būti registruojamos mokėjimo.|
-| **Pervedamą sumą** | Įveskite likučio suma, o pabaigos. Suma, kuri yra nurodyta ir **suma** lauko į **balansas** forma rodoma pagal numatytuosius nustatymus. |
-| **Automatic**                | Pasirinkite į **Automatinis** žymės langelį kurti ir registruoti žurnalą, yra iš anksto nustatytu ir **sąskaitos mokėtinų sumų parametrai** puslapis.|
+| **Mokėjimo data**          | Įvesti mokėjimo registravimo datą.|
+| **Suma, skirta perkelti** | Įveskite balanso sumą uždarymo metu. Suma, kuri yra nurodyta formos **Balansas** lauke **Suma**, rodoma pagal numatytuosius parametrus. |
+| **Automatiškai**                | Norėdami kurti ir registruoti žurnalą, kuris yra iš anksto nustatytas puslapyje **Gautinų sumų parametrai**, pažymėkite žymės laukelį **Automatiškai**.|
 
-## <a name="settle-advance-holder-balances-via-cash"></a>Per grynųjų pinigų avanso turėtojas balansus
-Kai jūs balansus iš anksto turėtojas per grynųjų pinigų, išankstinio turėtojo likučių uždarymo žurnalo įrašus sukuriami slydimo žurnale. Galite nustatyti kodą ir grynus pinigus į **iš anksto turėtojams** spustelėkite į **sudaro mokėtinų sumų parametrai** puslapis. Daugiau informacijos rasite [iš anksto turėtojams](emea-advance-holders.md). Norėdami uždaryti išankstinio turėtojo per grynųjų pinigų balansas, atidarykite **mokėtinos sumos**&gt;**iš anksto laikikliai**&gt;**iš anksto laikikliai**. Spustelėkite į **balansas** Naujintiveiksmų srityje, o tada – **arti per grynųjų pinigų**. Įveskite šią informaciją į **arti per grynųjų pinigų** puslapis.
+## <a name="settle-advance-holder-balances-via-cash"></a>Avanso turėtojo balanso sudengimas per kasą
+Kai avanso turėtojų balansus sudengiate per kasą, žurnalo įrašai apie avanso turėtojo balansų uždarymą sukuriami važtaraščių žurnale. Žurnalo ir kasos kodus galite nustatyti puslapio **Mokėtinų sumų parametrai** skirtuke **Avanso turėtojai**. Daugiau informacijos žr. temoje [Avanso turėtojai](emea-advance-holders.md). Norėdami uždaryti avanso turėtojo balansą per kasą, atidarykite **Mokėtinos sumos** &gt; **Avanso turėtojai** &gt; **Avanso turėtojai**. Veiksmų srityje spustelėkite mygtuką **Balansas** ir tada spustelėkite **Uždaryti per kasą**. Puslapyje **Uždaryti per kasą** įveskite toliau nurodytą informaciją.
 
 | Laukas                    | aprašymas
 |------------------------------|-----------------|
-| **Date of payment**          | Įveskite datą, kuri turėtų būti registruojamos mokėjimo.|
-| **Pervedamą sumą** | Įveskite likučio suma, o pabaigos. Suma, kuri yra nurodyta ir **suma** lauko į **balansas** forma rodoma pagal numatytuosius nustatymus. |
-| **Automatic**                | Pasirinkite į **Automatinis** žymės langelį, jei norite sukurti ir automatiškai registruoti žurnalą, yra iš anksto nustatytu ir **sąskaitos mokėtinų sumų parametrai** puslapis.     |
+| **Mokėjimo data**          | Įvesti mokėjimo registravimo datą.|
+| **Suma, skirta perkelti** | Įveskite balanso sumą uždarymo metu. Suma, kuri yra nurodyta formos **Balansas** lauke **Suma**, rodoma pagal numatytuosius parametrus. |
+| **Automatiškai**                | Norėdami automatiškai kurti ir registruoti žurnalą, kuris yra iš anksto nustatytas puslapyje **Gautinų sumų parametrai**, pažymėkite žymės laukelį **Automatiškai**.     |
 
-Po slydimo leidinyje bus apdorotas, jei suma, **pervedamą sumą** srityje buvo neigiamas, išmokėjimo kvito susidaro išankstinio leidimo, kai likučiai uždaromi. Jei suma, **pervedamą sumą** srityje buvo teigiamas, susidaro kompensacijų kvitų.
+Apdorojus važtaraščių žurnalą, jei suma, esanti lauke **Suma, skirta perkelti** yra neigiama, uždarius balansą generuojamas avanso turėtojo išmokėjimo kvitas. Jei suma lauke **Suma, skirta perkelti** yra teigiama, generuojamas kompensacijos kvitas.
+
+
 
 

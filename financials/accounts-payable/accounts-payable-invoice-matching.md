@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Mokėtinų sumų SF gretinimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas.
 
 Gretinant dokumentus, skirtumai tarp šių dokumentų vadinami gretinimo neatitikimais. Gretinimo nesutapimai lyginami su nurodytais leistinais nuokrypiais. Jei gretinimo neatitikimas viršija leistino nuokrypio procentą ar sumą, puslapyje Tiekėjo SF ir puslapyje SF istorija ir gretinimo informacija rodomos gretinimo nuokrypio piktogramos. 
@@ -48,9 +51,9 @@ Galite naudoti toliau nurodytų tipų Mokėtinų sumų SF gretinimą.
 
 Dvišalio gretinimo ir trišalio gretinimo metu kainos informacija visada gretinama pagal vieneto kainą. Taip pat galite šias gretinimo strategijas sukonfigūruoti taip, kad kainos informacija būtų gretinama pagal bendrą kainą.
 -   Grynosios vieneto kainos gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją prekės kainą su atitinkama pirkimo užsakymo grynąja prekės kaina. Grynoji vieneto kaina nustatoma pagal šią formulę: Grynoji eilutės suma / Eilutės kiekis
--   Kainų sumų gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją sumą (kainų sumą) su atitinkama pirkimo užsakymo grynąja suma. Grynasis kiekis nustatomas pagal formulę: (vieneto kaina \*linija kiekis) + eil.-eilutės nuolaidos
+-   Kainų sumų gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją sumą (kainų sumą) su atitinkama pirkimo užsakymo grynąja suma. Grynoji suma nustatoma pagal šią formulę: (Vieneto kaina \* Eilutės kiekis) + Eilutės išlaidos – Eilutės nuolaidos
 
-Paprastai SF gretinimo skaičiavimai automatiškai atliekami jums Tiekėjo SF puslapyje redaguojant tiekėjo SF. Taip pat SF gretinimas gali būti atliekamas pagal poreikį. SF atitikimo pagal poreikį yra kontroliuojama iš juridinio subjekto, automatiškai atnaujinti SF antraštės būseną į sąskaitų mokėtinų sumų parametrai puslapio skirtuke SF patvirtinimo. SF gretinimo taip pat gali būti atliekamas kaip sąskaitos-faktūros peržiūros proceso dalis. SF gretinimo rezultatus galite peržiūrėti tiekėjo SF puslapyje ir susijusiuose SF gretinimo puslapiuose.
+Paprastai SF gretinimo skaičiavimai automatiškai atliekami jums Tiekėjo SF puslapyje redaguojant tiekėjo SF. Taip pat SF gretinimas gali būti atliekamas pagal poreikį. Juridinio subjekto SF gretinimą pagal poreikį kontroliuoja parinktis Automatiškai atnaujinti SF antraštės būseną į, esanti Mokėtinų sumų parametrų puslapio SF tikrinimo skirtuke. SF gretinimas taip pat gali būti atliekamas kaip SF peržiūros proceso dalis. SF gretinimo rezultatus galite peržiūrėti tiekėjo SF puslapyje ir susijusiuose SF gretinimo puslapiuose.
 
 ## <a name="invoice-totals-matching"></a> Sąskaitos faktūros sumų gretinimas
 Galite naudoti SF bendrųjų sumų gretinimą, kad užtikrintumėte, jog bendrosios SF sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu. SF bendrųjų sumų gretinimo informacijos puslapyje lyginamos šešios sumos, kaip parodyta toliau pateiktoje lentelėje. Jei leistinas SF bendrųjų sumų gretinimo nuokrypis yra 20 proc., 100 proc. bendrosios nuolaidos sumos nuokrypio procentas laikomas gretinimo neatitikimu.
@@ -165,7 +168,7 @@ SF gretinimo informacijos puslapyje lyginamos tos pačios eilučių sumos, kaip 
 Juridinio subjekto trišalis gretinimas kontroliuojamas puslapio Mokėtinų sumų parametrai lauke Eilučių atitikimo strategija. Atsižvelgdami į pasirinktį lauke Leisti nepaisyti atitikimo strategijos, konkretaus tiekėjo, prekės, arba prekės ir tiekėjo trišalį gretinimą galite pasirinkti puslapyje Gretinimo strategija, o konkretaus pirkimo užsakymo – Pirkimo užsakymo puslapyje.
 
 ## <a name="charges-matching"></a> Išlaidų gretinimas
-Galite naudoti išlaidų gretinimą, kad užtikrintumėte, jog išlaidų sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu. Bendrosios sumos kiekvieną mokesčių kodą, sąskaitą-faktūrą ir pirkimo užsakymo minimus lyginami palyginti PAP - SF: puslapis, kaip parodyta toliau pateiktoje lentelėje. Jei leistinas išlaidų kodo nuokrypis yra 25 proc., 99 999 999 999,99 proc. Licencijos išlaidų kodo nuokrypio procentas laikomas gretinimo neatitikimu.
+Galite naudoti išlaidų gretinimą, kad užtikrintumėte, jog išlaidų sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu. Kiekvieno išlaidų kodo, taikomo SF ir pirkimo užsakymui, bendrosios sumos lyginamos puslapyje Išlaidų verčių palyginimas – sąskaita faktūra: kaip parodyta toliau pateiktoje lentelėje. Jei leistinas išlaidų kodo nuokrypis yra 25 proc., 99 999 999 999,99 proc. Licencijos išlaidų kodo nuokrypio procentas laikomas gretinimo neatitikimu.
 
 > [!NOTE] 
 > 99 999 999 999,99 nuokrypio procentas reiškia, kad pagal pirkimo užsakymą numatoma suma lygi nuliui, o SF faktinė suma yra teigiama. 
@@ -188,7 +191,9 @@ Tiekėjo SF dažnai yra pagrįstos produktų gavimo kvitais, kuriuose nurodomos 
 -   Įvesti SF sumas, kurios nebuvo įtrauktos į originalų pirkimo užsakymą, kad SF informacija sutaptų su SF, kuri gauta iš tiekėjo, informacija. Galima palyginti pirkimo užsakymų išlaidas su SF išlaidomis. Jei būtina, išlaidas galima įtraukti į SF ir paskirstyti SF eilutėms.
 -   Peržiūrėti ir patvirtinti SF grynosios prekės kainos ir pirkimo užsakymo grynosios prekės kainos gretinimo nesutapimus. Galite nustatyti juridinio subjekto, tiekėjų ir prekių leistino kainų nuokrypio procentus. Jeigu tiekėjo SF eilutės kaina viršija priimtiną kainos nuokrypį, galima išsaugoti SF, kol ji bus patvirtinta registruoti arba kol iš tiekėjo bus gautas pataisymas.
 
-Daugiau informacijos rasite [trijų padėčių atitikimo politikos](three-way-matching-policies.md).
+Jei reikia daugiau informacijos, žr. temą [Trišalės atitikimo strategijos](three-way-matching-policies.md).
+
+
 
 
 

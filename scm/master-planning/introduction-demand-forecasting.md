@@ -1,6 +1,6 @@
 ---
-title: "Paklausos prognozavimas apžvalga"
-description: "Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintas paklausos prognozė mažinimo taisyklėse yra idealus sprendimas masės pritaikymas."
+title: "Poreikio prognozės apžvalga"
+description: "Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintos poreikio prognozės mažinimo taisyklės suteikia idealų masinio pritaikymo sprendimą."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="demand-forecasting-overview"></a>Paklausos prognozavimas apžvalga
+# <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
-Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintas paklausos prognozė mažinimo taisyklėse yra idealus sprendimas masės pritaikymas.
+[!include[banner](../includes/banner.md)]
 
-Generuojant pagrindinę prognozę, praeities operacijų suvestinė perduodama „Microsoft Azure“ mašininio mokymo tarnybai, kuri yra laikoma „Azure“. Kadangi šios tarnybos vartotojai bendrai nenaudoja, ją galima lengvai pritaikyti, kad ji atitiktų specialius pramonės poreikius. Dynamics 365 operacijoms galite vizualizuoti prognozę, koreguoti prognozes ir Rodyti pagrindinius veiklos rodiklius (KPI) apie prognozės tikslumas.
+
+Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintos poreikio prognozės mažinimo taisyklės suteikia idealų masinio pritaikymo sprendimą.
+
+Generuojant pagrindinę prognozę, praeities operacijų suvestinė perduodama „Microsoft Azure“ mašininio mokymo tarnybai, kuri yra laikoma „Azure“. Kadangi šios tarnybos vartotojai bendrai nenaudoja, ją galima lengvai pritaikyti, kad ji atitiktų specialius pramonės poreikius. Galite naudoti „Dynamics 365 for Operations“, norėdami vizualizuoti prognozę, koreguoti prognozę ir peržiūrėti prognozės tikslumo pagrindinius efektyvumo indikatorius (KPI).
 
 ## <a name="key-features-of-demand-forecasting"></a>Pagrindinės poreikio prognozės funkcijos
 Toliau pateikiamos keletas pagrindinių poreikio prognozės funkcijų.
@@ -45,43 +48,45 @@ Toliau pateikiamos keletas pagrindinių poreikio prognozės funkcijų.
 ## <a name="major-themes-in-demand-forecasting"></a>Pagrindinės poreikio prognozės temos
 Poreikio prognozėje taikomos trys pagrindinės temos, nurodytos toliau.
 
--   **Moduliarumas** – poreikio prognozė yra modulinė ir ją lengva konfigūruoti. Galite įjungti funkciją įjungti ir išjungti pakeisdami konfigūracijos raktas ne **prekybos**&gt;**atsargų prognozė**&gt;**paklausos prognozavimo**.
--   **Pakartotinai naudoti "Microsoft" kamino** – "Microsoft" pradėjo mašinos mokymosi platforma atliko 2015 m. vasarį. Sistemos mokymasis, kuris dabar yra "Microsoft" Cortana "Analytics" numeris, leidžia greitai ir lengvai sukurti prognozinę analizę eksperimentai, pavyzdžiui, poreikio įvertinimo eksperimentus, naudojant algoritmų R ar Python programavimo kalbos ir paprasta vilkimo ir numetimo sąsaja.
-    -   Galite atsisiųsti Dynamics 365 operacijų paklausos prognozavimo eksperimentus, pakeisti juos patenkinti jūsų verslo poreikius, kaip Azure žiniatinklio tarnybos ir naudoti jas generuoti paklausos prognozes. Eksperimentai yra prieinami atsisiųsti, jei nusipirkote Dynamics 365 operacijų pasirašymo dėl gamybos planavimo kaip įmonės lygio vartotojų.
-    -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi Dynamics 365 operacijų paklausos prognozavimo eksperimentų automatiškai integruotas su Dynamics 365 operacijoms, Klientai ir partneriai turi dirbti eksperimentų, kad jie atsisiųsti iš integracijos į ["Cortana" "Analytics" Gallery](https://gallery.cortanaanalytics.com/). Todėl eksperimentus iš į ["Cortana" "Analytics" Gallery](https://gallery.cortanaanalytics.com/) nėra taip paprasta naudoti kaip Dynamics 365 operacijų paklausos prognozavimo eksperimentus. Modifikuokite kodą eksperimentų, kad jie naudoja Dynamics 365 operacijų taikomojo programavimo sąsaja (API).
+-   **Moduliarumas** – poreikio prognozė yra modulinė ir ją lengva konfigūruoti. Funkciją galite įjungti ir išjungti, pakeitę konfigūracijos raktą pasirinkdami **Prekyba** &gt; **Atsargų prognozė** &gt; **Poreikio prognozė**.
+-   **Pakartotinis „Microsoft“ dėklo naudojimas** – „Microsoft“ pristatė mašininio mokymo platformą 2015 m. vasario mėn. Mašininis mokymas, kuris šiuo metu yra „Microsoft Cortana“ analizės rinkinio dalis, suteikia galimybę greitai ir lengvai kurti prognozavimo analizės bandymus, pvz., poreikio įvertinimo bandymus, naudojant R algoritmus arba „Python“ programavimo kalbas ir paprastą nuvilkimo sąsają.
+    -   Galite atsisiųsti „Dynamics 365 for Operations“ poreikio prognozės bandymus, keisti juos, kad jie atitiktų jūsų verslo poreikius, publikuoti kaip „Azure“ tinklo tarnybą ir naudoti poreikio prognozėms generuoti. Bandymus galite atsisiųsti, jei kaip įmonės lygio vartotojas įsigijote gamybos planuotojo „Dynamics 365 for Operations“ prenumeratą.
+    -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi „Dynamics 365 for Operations“ poreikio prognozės bandymai yra automatiškai integruojami su „Dynamics 365 for Operations“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl bandymus, atsisiųstus iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/), naudoti nėra taip paprasta, kaip „Dynamics 365 for Operations“ poreikio prognozės bandymus. Turite modifikuoti bandymų kodą, kad būtų naudojama „Dynamics 365 for Operations“ taikomojo programavimo sąsaja (API).
     -   Galite sukurti savo bandymus naudodami „Microsoft Azure“ mašininio mokymo studiją, publikuoti juos kaip „Azure“ tarnybas ir naudoti poreikio prognozėms generuoti.
     -   Jei jums nereikia didelio našumo arba jei jums nereikia apdoroti didelio duomenų kiekio, galite naudoti nemokamą mašininio mokymo pakopą. Rekomenduojame visada pradėti nuo šios pakopos, ypač diegimo ir tikrinimo etapų metu. Jei jums reikia didesnio našumo ir papildomos saugyklos, galite naudoti standartinę mašininio mokymo pakopą. Norint naudoti šią pakopą reikalinga „Azure“ prenumerata ir taikomos papildomos išlaidos. Išsamesnės informacijos apie mašininio mokymo kainodarą žr. <http://aka.ms/machine-learning-price-info>.
--   **Prognozė mažinimo atsiejimo taške** – paklausos prognozavimo dinamikoje 365 operacijų stato į šį funkcionalumą, kuris leidžia numatyti priklausomų ir nepriklausomų paklausą atsiejimo taške.
+-   **Prognozės sumažinimas bet kada atsiejimo metu** – „Dynamics 365 for Operations“ poreikio prognozės pagrįstos šia funkcija, kuri suteikia galimybę prognozuoti priklausomą ir nepriklausomą poreikį bet kada atsiejimo metu.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Pagrindinė poreikio prognozės eiga
 Šioje diagramoje pavaizduota pagrindinė poreikio prognozės eiga. 
 
-[![paklausos prognozavimo Įvadas schema](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![įvado į poreikio prognozę diagrama](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Paklausos prognozė kartos pradeda Dynamics 365 operacijoms. Sandorio istorinius Dynamics "365" dėl sandorio operacijos duomenų bazės yra surinkta ir užpildo sustojimo lentelės. Šio sustojimo lentelės yra vėliau įtrauktos į mašinos mokymosi paslaugas. Atliekant minimaliai tinkinimas, galite įjungti įvairius duomenų šaltinius ir į sustojimo lentelės. Duomenų šaltiniais gali būti Microsoft Excel failus, kableliais atskirtų reikšmių (CSV) failų ir duomenų iš Microsoft Dynamics AX 2009 ir Microsoft Dynamics AX 2012. Todėl, jūs galite kurti paklausos prognozes, kad mano ankstesnių laikotarpių duomenimis, plinta tarp kelias sistemas. Tačiau bendrieji duomenys, pvz., prekių pavadinimai ir matavimo vienetai, turi būti tokie patys visuose duomenų šaltiniuose.
+Poreikio prognozės generavimas prasideda „Dynamics 365 for Operations“. Retrospektyviniai operacijų duomenys surenkami iš „Dynamics 365 for Operations“ operacijų duomenų bazės ir užpildoma išdėstymo lentelė. Vėliau ši išdėstymo lentelė įtraukiama į mašininio mokymo tarnybą. Atlikdami minimalų tinkinimą, prie išdėstymo lentelės galite prijungti įvairius duomenų šaltinius. Duomenų šaltiniai gali būti „Microsoft Excel“ failai, kableliais atskirtų reikšmių (CSV) failai ir duomenys iš „Microsoft Dynamics AX 2009“ ir „Microsoft Dynamics AX 2012“. Todėl galite generuoti poreikio prognozes, kurios apdoroja praeities duomenis iš kelių sistemų. Tačiau bendrieji duomenys, pvz., prekių pavadinimai ir matavimo vienetai, turi būti tokie patys visuose duomenų šaltiniuose.
 
-Jei naudojate Dynamics 365 operacijų paklausos prognozavimo sistemos mokymasis eksperimentus, jie atrodo geriausiai tinka tarp penkių laiko eilučių prognozavimo metodus apskaičiuoti bazinę prognozė. Šių prognozavimo metodų parametrai valdomi Dynamics 365 operacijoms. 
+Jei naudojate „Dynamics 365 for Operations“ poreikio prognozės mašininio mokymo bandymus, jie nustato geriausią iš penkių laiko serijų prognozavimo metodų pagrindinei prognozei apskaičiuoti. Šių prognozavimo metodų parametrus valdomi „Dynamics 365 for Operations“. 
 
-Prognozės, istorinius duomenis ir bet kokius pakeitimus, atliktus ankstesniais iteracijų paklausos prognozes yra tada Dynamics 365 operacijoms. 
+Tada „Dynamics 365 for Operations“ galima naudoti prognozes, retrospektyvinius duomenis ir bet kokius poreikio prognozių keitimus, atliktus ankstesnių pakartojimų metu. 
 
-Dynamics 365 operacijoms galite vizualizuoti ir keisti pradinio prognozes. Neautomatinius koregavimus reikia įgalioti prieš prognozių planavimą.
+„Dynamics 365 for Operations“ galite naudoti pagrindinėms prognozėms vizualizuoti ir modifikuoti. Neautomatinius koregavimus reikia įgalioti prieš prognozių planavimą.
 
 ## <a name="limitations"></a>Apribojimai
-Paklausos prognozavimo Dynamics 365 operacijoms yra įrankis, kuris padeda klientams gamybos pramonės sukurti prognozės procesus. Jame veikia pagrindinė funkcija paklausos prognozavimo sprendimas, yra suprojektuoti taip, kad jį lengvai galima pratęsti. Paklausos prognozavimas gali būti geriausias netinkama klientams pramonės šakose, pvz., mažmeninė, didmeninė prekyba, sandėliavimo, transportavimo ar kitų profesionalių paslaugų.
+Poreikio prognozė yra „Dynamics 365 for Operations“ įrankis, kuris klientams gamybos pramonėje padeda kurti prognozavimo procesus. Jis teikia poreikio prognozės sprendimo pagrindinę funkciją ir yra sukurtas taip, kad jį būtų galima lengvai išplėsti. Poreikio prognozė gali būti ne pats tinkamas pasirinkimas klientams tam tikrose pramonės šakose, pvz., mažmeninėje prekyboje, didmeninėje prekyboje, sandėliavime, transportavime arba kitose profesionalių paslaugų srityse.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Demand forecasting setup](demand-forecasting-setup.md)
+[Poreikio prognozių nustatymas](demand-forecasting-setup.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Pakoreguotos poreikio prognozės įgaliojimas](authorize-adjusted-forecast.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Prognozės tikslumo stebėjimas](monitor-forecast-accuracy.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Skaičiuodami poreikio prognozę iš praeities operacijų duomenų pašalinkite pašalines reikšmes](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

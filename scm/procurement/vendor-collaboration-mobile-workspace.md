@@ -1,6 +1,6 @@
 ---
-title: "Tiekėjo bendradarbiavimas mobiliojo darbo Microsoft Dynamics &quot;365&quot; veiklos programa"
-description: "Su tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį, jūsų pardavėjai gali naujienas apie pirkimo užsakymai, kurie buvo išsiųsti jas patvirtinti ir peržiūrėti informaciją apie naujų ir atnaujintų pirkimo užsakymų ir kontaktai."
+title: "Mobilioji tiekėjų bendradarbiavimo sritis, skirta programai „Microsoft Dynamics 365 for Operations“"
+description: "Tiekėjai, naudodami mobiliąją tiekėjų bendradarbiavimo sritį, gali gauti naujausią jiems patvirtinti išsiųstų pirkimo užsakymų informaciją bei peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 36 - 37
@@ -24,9 +24,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Tiekėjo bendradarbiavimas mobiliojo darbo Microsoft Dynamics "365" veiklos programa
+# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Mobilioji tiekėjų bendradarbiavimo sritis, skirta programai „Microsoft Dynamics 365 for Operations“
 
-Su tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį, jūsų pardavėjai gali naujienas apie pirkimo užsakymai, kurie buvo išsiųsti jas patvirtinti ir peržiūrėti informaciją apie naujų ir atnaujintų pirkimo užsakymų ir kontaktai.
+Tiekėjai, naudodami mobiliąją tiekėjų bendradarbiavimo sritį, gali gauti naujausią jiems patvirtinti išsiųstų pirkimo užsakymų informaciją bei peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 
 <a name="prerequisites"></a>Būtinieji komponentai
 -------------
@@ -44,115 +44,115 @@ Su tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį, jūsų pardavėjai 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Skaityti apie Microsoft Dynamics 365 operacijų mobiliųjų platformų</td>
-<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dinamika 365 operacijų mobiliųjų platformų</a></td>
+<td>Skaitykite apie „Microsoft Dynamics 365 for Operations“ mobiliąją platformą</td>
+<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Mobilioji „Dynamics 365 for Operations“ platforma</a></td>
 </tr>
 <tr class="even">
-<td>Dinamika 365 operacijoms</td>
-<td>Įsitikinkite, kad naudojate aplinkoje, kuri yra Microsoft Dynamics 365 operacijų versija 1611 ir "Microsoft Dynamics" operacijų platformos naujinimas 3 (2016 m lapkričio mėn.).</td>
+<td>Dynamics 365 for Operations</td>
+<td>Įsitikinkite, kad naudojate aplinką, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.).</td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000;">Mobiliojo įrenginio, turinčio Dynamics 365 dėl operacijų taikomąją programą</span></td>
-<td><span style="color: #000000;">Atsisiųskite Dynamics 365 operacijų App iš mobiliųjų programėlių parduotuvėje.</span></td>
+<td><span style="color: #000000;">Mobilusis įrenginys, kuriame įdiegta programa „Dynamics 365 for Operations“</span></td>
+<td><span style="color: #000000;">Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite programą „Dynamics 365 for Operations“.</span></td>
 </tr>
 <tr class="even">
 <td>Karštosios pataisos KB 3215650</td>
-<td>Įdiekite karštąją pataisą norite įgalinti darbo sritys, kurios yra Microsoft Dynamics 365 operacijoms.</td>
+<td>Įdiegę karštąsias pataisas įjunksite „Dynamics 365 for Operations“ pateikiamas darbo sritis.</td>
 </tr>
 <tr class="odd">
 <td><span style="color: #ff0000;"><span style="color: #000000;">Karštosios pataisos KB 3216943</span> </span></td>
-<td>Įdiekite karštąsias pataisas, kad tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį.</td>
+<td>Įdiegę karštąsias pataisas įjunksite mobiliąją tiekėjų bendradarbiavimo sritį.</td>
 </tr>
 <tr class="even">
-<td>Tiekėju vartotojas turi turėti prieigą prie tiekėjo bendradarbiavimo web sąsają Dynamics 365 operacijoms ir nustatyti tiekėjo bendradarbiavimo vartotojas.</td>
-<td>Atlikite veiksmus, pateikiamus skyriuje šios temos kurti ir dirbti su tiekėjo bendradarbiavimo web sąsają.
+<td>Su tiekėju susijęs vartotojas turi pasiekti tiekėjų bendradarbiavimo žiniatinklio sąsają programoje „Dynamics 365 for Operations“ ir nustatyti su tiekėju susijusį bendradarbiaujantį vartotoją.</td>
+<td>Atlikę toliau pateiktose temose aprašytus veiksmus nustatykite tiekėjų bendradarbiavimo žiniatinklio sąsają ir ją naudodami vykdykite veiklą.
 <ul>
-<li><a href="vendor-collaboration-work-external-vendors.md">Naudoti tiekėjo bendradarbiavimas dirbant su užsienio tiekėjais</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Naudoti tiekėjo bendradarbiavimas dirbant su Klientai Dynamics 365 operacijoms</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su klientais vykdyti programoje „Dynamics 365 for Operations“</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="overview"></a>Apžvalga
-Tiekėjo bendradarbiavimas mobiliojo darbo srities išlaiko tiekėjai informuojami apie naujus pirkimo užsakymus, kad jie galėtų matyti ir reaguoti į pirkimo užsakymus dinamika 365 operacijų web klientas.  
+Tiekėjai, naudodami mobiliąją tiekėjų bendradarbiavimo sritį, gauna naujausią informaciją apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir imtis su jais susijusių veiksmų naudodami žiniatinklio klientą „Dynamics 365 for Operations“.  
 
-**Pastaba:** mobiliojo darbo srityje turėtų būti naudojamas kaip priedas prie tiekėjo bendradarbiavimo web sąsaja, tačiau negali pakeisti.  
+**Pastaba.** Vien tik mobilioji darbo sritis neturėtų būti naudojama – naudokite ją ir tiekėjų bendradarbiavimo žiniatinklio sąsają.  
 
-Tiekėjo bendradarbiavimas mobiliojo ryšio darbo sritį, jūsų tiekėjų matyti naujuose pirkimo užsakymuose, kurie siunčiami patvirtinti. Tai rodo pirkimo užsakymo informaciją, pvz., produktai, kiekiui ir Pageidaujamos gavimo datos. Kainos yra prieinamos, atsižvelgiant į kiekvieno tiekėjo konfigūraciją.  
+Tiekėjai, naudodami mobiliąją tiekėjų bendradarbiavimo sritį, gali peržiūrėti naujus patvirtinti išsiųstus pirkimo užsakymus. Joje pateikiama pirkimo užsakymų informacija, pvz., produktai, kiekis ar pageidaujamos pristatymo datos. Kainų informacija pasiekiama atsižvelgiant į kiekvieno tiekėjo konfigūraciją.  
 
-Kai vartotojas įeina, kaip tiekėjų, jie matys pirkimo pavedimai atsiliepė į, arba pirkimo pavedimai, kurie vis dar laukia pirkėjo veiksmų. Pardavėjas gali pasiūlė kitą pristatymo dieną, dar nesuderinta su klientu, pirkimo užsakymą, kad šiuo metu laukiama pirkėjo veiksmų. Pardavėjas taip pat pateikiamas pirkimo užsakymų, kuriuose yra patvirtintos, bet dar nepristatytos.  
+Vartotojui prisijungus kaip tiekėjui bus pateikiami pirkimo užsakymai, kurių atžvilgiu atlikta veiksmų, arba pirkimo užsakymai, kurių atžvilgiu klientas dar neatliko veiksmų. Tiekėjas galėjo pasiūlyti kitą pristatymo datą, kuri dar nesuderinta su klientu, tad klientas dar turi atlikti su pirkimo užsakymu susijusį veiksmą. Tiekėjui taip pat bus pateikiamas patvirtintų pirkimo užsakymų, kurių produktai dar nepristatyti, sąrašas.  
 
-Reaguoti į pirkimo užsakymą, tiekėjas turi naudoti tiekėjo bendradarbiavimo web sąsaja, kuri yra prieinama Dynamics 365 operacijų žiniatinklio kliento. Tai taip pat, jeigu pardavėjas gaus daugiau informacijos apie užsakymą, pvz., dokumento priedus, pristatymo adresą per liniją, ir mokesčiai, kurie yra susiję su tiekėjo.  
+Norėdamas atlikti su pirkimo užsakymu susijusį veiksmą, tiekėjas turi naudoti tiekėjų bendradarbiavimo žiniatinklio sąsają, kuri pasiekiama naudojant žiniatinklio klientą „Dynamics 365 for Operations“. Šioje sąsajoje tiekėjas gaus ir daugiau užsakymo informacijos, pvz., apie dokumentų priedus, pristatymo adresą kiekvienoje eilutėje ar su tiekėju susijusius mokesčius.  
 
-Specialūs saugos vaidmenį, pardavėjas matyti kuris kontaktas, asmenys yra įsiregistravę tiekėjo sąskaitą. Su tą patį saugos vaidmenį, bet kokį vartotojo prašymą, pateikimo būseną galite peržiūrėti pardavėjo.  
+Jei tiekėjui bus suteiktas tam tikras saugos vaidmuo, jis galės peržiūrėti tiekėjo sąskaitoje užregistruotus kontaktinius asmenis. Esant tam pačiam saugos vaidmeniui tiekėjas galės peržiūrėti bet kurios pateiktos vartotojo užklausos būseną.  
 
-Kurti naujus ryšius ir naujas vartotojo prašymui pateikti, turi būti daroma tiekėjo bendradarbiavimo sąsają, kuri yra prieinama Dynamics 365 operacijų žiniatinklio kliento.  
+Nauji kontaktai turi būti kuriami bei naujos vartotojo užklausos turi būti pateikiamos tiekėjų bendradarbiavimo sąsajoje, kuri pasiekiama naudojant žiniatinklio klientą „Dynamics 365 for Operations“.  
 
-Su mobiliojo ryšio darbo sritį, jūsų tiekėjas gali:
+Tiekėjas, naudodamas mobiliąją darbo sritį, gali atlikti toliau nurodytus veiksmus.
 
--   Rodyti naujuose pirkimo užsakymuose, siunčiamas į pardavėją.
--   Peržiūrėti pirkimo užsakymų kad pardavėjas reagavo į ir laukia pirkėjo veiksmų.
--   Peržiūrėti pirkimo užsakymus, kurie yra patvirtinti valstybės ir visiškai nepasiekė.
--   Rodyti kontaktinio asmens informaciją, kuri yra registruota tiekėjo sąskaitos (reikalingas papildomas saugos vaidmenį).
--   Peržiūrėti informaciją ir vykdykite vartotojo prašymą suporuoti su tiekėju (reikalingas papildomas saugos vaidmenį) statusą.
+-   Peržiūrėti naujus tiekėjui nusiųstus pirkimo užsakymus.
+-   Peržiūrėti pirkimo užsakymus, kurių atžvilgiu tiekėjas atliko veiksmus, tačiau klientas jų atžvilgiu dar neatliko veiksmų.
+-   Peržiūrėti pirkimo užsakymus, kurių būsena – Patvirtintas, tačiau gauti ne visi jų produktai.
+-   Peržiūrėti tiekėjo sąskaitoje užregistruotų kontaktinių asmenų informaciją (būtinai turi būti suteiktas papildomas saugos vaidmuo).
+-   Peržiūrėti informaciją ir stebėti tiekėjo pateiktos vartotojo užklausos būseną (būtinai turi būti suteiktas papildomas saugos vaidmuo).
 
 ## <a name="get-started"></a>Darbo pradžia
-Pradžia mobiliajame įrenginyje:
+Norėdami pradėti naudoti šią darbo sritį mobiliajame įrenginyje, atlikite tolesnius veiksmus.
 
-1.  Jūsų mobiliųjų įrenginių programėlę parduotuvėje, atsisiųskite ir įdiekite Microsoft Dynamics 365 veiklos programą.
-2.  Paleiskite programėlę į savo įrenginį.
-3.  Įveskite savo dinamika 365 URL.
-4.  Įveskite prisijungti prie kompanijos. Pavyzdžiui, įveskite **USMF**.
-5.  Pirmą kartą, kai prisijungsite, bus rodomas raginimas įvesti vartotojo vardą ir slaptažodį savo Microsoft Dynamics "365" veiklos sąskaita. 
+1.  Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite ir įdiekite programą „Microsoft Dynamics 365 for Operations“.
+2.  Paleiskite programą savo mobiliajame įrenginyje.
+3.  Įveskite savo „Dynamics 365“ URL.
+4.  Įveskite įmonę, prie kurios norite prisijungti. Pavyzdžiui, įveskite **USMF**.
+5.  Pirmą kartą prisijungus būsite paraginti įvesti savo „Microsoft Dynamics 365 for Operations“ paskyros vartotojo vardą ir slaptažodį. 
 
-Po to, kai įeinate į programą, nėra darbo sričių yra matomi. Norėdami peržiūrėti savo mobiliesiems darbo sričių, pirmiausia turi publikuoti norimą darbo srities dinamika 365 operacijų programos. Jums reikia sistemos administracijos leidimo skelbti darbo sritį.
+Prijungus programą nepateikiama jokia darbo sritis. Norėdami darbo sritis peržiūrėti savo mobiliojoje programoje, pirmiausia turite pageidaujamas sritis publikuoti programoje „Dynamics 365 for Operations“. Norint publikuoti darbo sritį, reikės sistemos administravimo teisių.
 
-1.  Paleisti Dynamics 365 operacijoms.
-2.  Eikite į **sistemos administravimo**&gt;**nustatymo**&gt;**sistemos parametrai**.
-3.  Pasirinkite **tvarkyti mobiliųjų įrenginių programėlę**.
-4.  Pasirinkite darbo sritį **tiekėjo bendradarbiavimas** skelbti apie mobiliųjų platformų.
-5.  Pasirinkite **skelbti darbo srities**.
-6.  Atnaujinkite įrenginio paskelbtų darbo sritis.
-7.  Pasirinkite į **tiekėjo bendradarbiavimas** darbo srities. Jūs šį puslapį.
+1.  Paleiskite „Dynamics 365 for Operations“.
+2.  Pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **Sistemos parametrai**.
+3.  Pasirinkite **Tvarkyti mobiliąją programą**.
+4.  Pasirinkite darbo sritį **Tiekėjų bendradarbiavimas**, kad ją publikuotumėte mobiliojoje platformoje.
+5.  Pasirinkite **Publikuoti darbo sritį**.
+6.  Atnaujinkite įrenginio rodinį, kad matytumėte publikuojamas darbo sritis.
+7.  Pasirinkite darbo sritį **Tiekėjų bendradarbiavimas**. Bus pateiktas toliau nurodytas puslapis.
 
-[![tiekėjas-bendradarbiavimas-programėlė](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
+[![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
 
 ## <a name="contacts"></a>Kontaktai
-Ir **kontaktais** puslapis leidžia matyti visus ryšius, kurie buvo nustatyti tiekėjo sąskaitos. Tai rodo kontaktinio asmens vardą, elektroninio pašto ir naudotojų pseudonimas, jei įmanoma. Jis taip pat rodo, ar kontaktinis asmuo vartotojo sąskaita yra aktyvi. Kai pasirenkate adresato, kontaktinius duomenis, pvz., kurioje juridinių asmenų asmuo yra kontaktą, ir kontaktinė informacija telefono numerį arba el. pašto adresą.
+Puslapyje **Kontaktai** galite peržiūrėti visus tiekėjo sąskaitoje nustatytus kontaktus. Jame pateikiami kontaktinių asmenų vardai ir pavardės, pagrindiniai el. paštai bei vartotojų pseudonimai (jei naudojami). Jame taip pat nurodoma, ar kontaktinių asmenų vartotojo paskyros yra aktyvios. Pasirinkus kontaktą pateikiama kontakto informacija, pvz., kontakto atstovaujami juridiniai subjektai, telefono numeris ar kitas el. pašto adresas.
 
 ## <a name="user-requests"></a>Vartotojų užklausos
-Su **vartotojo užklausas** puslapis leidžia matyti visus vartotojas prašo, kad pateikė per tiekėjo bendradarbiavimo web sąsają ir sekti būseną. Pasirinkus vartotojo prašymą, galite pamatyti, kas buvo prašyta, pridėti ar nukenksmina vartotojas, keisti saugumo, ir pamatyti, kurie saugos vaidmenų buvo prašoma pateikti vartotojo.
+Puslapyje **Vartotojų užklausos** galite peržiūrėti visas naudojant tiekėjų bendradarbiavimo žiniatinklio sąsają pateiktas vartotojo užklausas ir stebėti būseną. Pasirinkus vartotojo užklausą galima peržiūrėti užklausoje pateiktą informaciją, įtraukti ar išjungti vartotoją, keisti saugą bei peržiūrėti prašytus vartotojo saugos vaidmenis.
 
-## <a name="purchase-orders-ready-for-review"></a>Parengta Peržiūrėti pirkimo užsakymus
-Į **pirkimo užsakymus paruošta apžvalga** puslapis leidžia jums pamatyti, visi pirkimo užsakymai, buvo išsiųsti klientui ir nebuvo atsakyta. Galite peržiūrėti pasirinktą informaciją apie užsakymą, pavyzdžiui, produktams, kurių buvo paprašyta ir kada pristatyti. Informaciją apie kainas galima tik, jei tai sukonfig┼½ruota tiekėjui.  
+## <a name="purchase-orders-ready-for-review"></a>Parengti peržiūrėti pirkimo užsakymai
+Puslapyje **Parengti peržiūrėti pirkimo užsakymai** galite peržiūrėti visus kliento išsiųstus pirkimo užsakymus, į kuriuos nėra atsakyta. Galite peržiūrėti pasirinktą užsakymo informaciją, pvz., apie pageidautus produktus ir pristatymo datą. Kainų informacija pasiekiama tik ją sukonfigūravus naudoti su tiekėjo informacija.  
 
-Jūs galite pamatyti, ar pirkimo užsakymą turi pastabų arba priedus. Neatidarinėkite, jums reikia naudoti tiekėjo bendradarbiavimas žiniatinklio kliente. Pasirinkite **pirkimo užsakymo eilutę** Norėdami pamatyti visas eilutes su detalėmis. Atkreipkite dėmesį, kad kiekvienai eilutei, indikatorius parodys, ar yra pastabos ar priedus arba jei yra pristatymo adresą, kuris yra kitoks, nei kas turi būti rodoma antraštės.  
+Galite peržiūrėti, ar į pirkimo užsakymą įtraukta pastabų ar priedų. Norėdami atidaryti priedus, turėsite naudoti tiekėjų bendradarbiavimo sąsają, esančią žiniatinklio kliente. Pasirinkę **Pirkimo užsakymo eilutė** peržiūrėsite visas eilutes ir jų išsamią informaciją. Atkreipkite dėmesį, kad kiekvienoje eilutėje indikatorius nurodys, ar yra įtraukta pastabų ar priedų bei ar yra įtrauktas pristatymo adresas, besiskiriantis nuo antraštėje pateikiamo adreso.  
 
-Reaguoti į pirkimo užsakymą, turite naudoti tiekėjo bendradarbiavimas žiniatinklio klientą.
+Norėdami atlikti su pirkimo užsakymu susijusį veiksmą, turėsite naudoti tiekėjų bendradarbiavimo žiniatinklio klientą.
 
 ## <a name="awaiting-customer-action"></a>Laukiama kliento veiksmo
-Į **laukia klientų veiksmų** puslapis leidžia jums ieškoti pirkimo užsakymų, kad jūs arba kas nors iš jūsų įmonės, kurie taip pat turi prieigą prie tiekėjo bendradarbiavimas, atsakė į. Pirkimo užsakymai yra matomos šiame sąraše tik jei klientas turi atlikti vieną iš šių veiksmų pirkimo užsakyme.
+Puslapyje **Laukiama kliento veiksmo** galite rasti pirkimo užsakymus, kurių atžvilgiu jūs arba kuris nors jūsų įmonės asmuo, taip pat turintis teisę pasiekti tiekėjų bendradarbiavimo sąsają, atliko veiksmus. Šiame sąraše pirkimo užsakymai pateikiami tik tada, kai klientui reikia atlikti kurį nors toliau nurodytą pirkimo užsakymo veiksmą.
 
--   Atmetus pirkimo užsakymas, klientui būtų arba būtina atnaujinti išsiųsti užsakymą ir siųsti dar kartą arba atšaukti užsakymą ir persiųsti. Kai pirkimo užsakymas išsiųstas dar kartą, jis dings iš to **laukia klientų veiksmų** puslapis.
--   Jei pirkimo užsakymą buvo priimtas su pakeitimais, klientas turi atnaujinti pradinį užsakymą ir siųsti peržiūrai, arba atnaujinti pagal pakeitimus ir patvirtinti jį iš karto. Abiem atvejais pirkimo užsakymą dings iš to **laukia klientų veiksmų** puslapis.
--   Jei pirkimo užsakymą buvo priimtas, ir pasirodo kad **laukia klientų veiksmų** puslapyje, tai yra, nes pirkimo užsakymas nebus automatiškai patvirtinta kai priėmimo buvo padaryta. Jis laukia pirkimo agentui pakeisti užsakymą į patvirtinta. Paprastai pirkimo užsakymą, kad būtų laikoma kaip tarp kliento ir tiekėjo susitarimą kaip tik pardavėjas priima užsakymą. Juda pirkimo užsakymas patvirtintas valstybei būtų sutvarkyti.
+-   Jei pirkimo užsakymas buvo atmestas, klientas turės atnaujinti išsiųstą užsakymą ir iš naujo jį išsiųsti arba atšaukti užsakymą ir iš naujo jį išsiųsti. Pirkimo užsakymą išsiuntus iš naujo, jis bus neberodomas puslapyje **Laukiama kliento veiksmo**.
+-   Jei pirkimo užsakymas buvo priimtas su pakeitimais, klientas turės atnaujinti pradinį užsakymą ir iš naujo jį išsiųsti peržiūrėti arba jį atnaujinti atsižvelgdamas į pakeitimus ir iš karto patvirtinti. Abiem atvejais pirkimo užsakymas bus neberodomas puslapyje **Laukiama kliento veiksmo**.
+-   Jei pirkimo užsakymas buvo priimtas ir yra pateikiamas puslapyje **Laukiama kliento veiksmo**, tuomet pirkimo užsakymas nebuvo automatiškai patvirtintas jį priėmus. Laukiama, kol pirkimo agentas pakeis užsakymo būseną į Patvirtintas. Paprastai pirkimo užsakymas laikomas sutartimi tarp kliento ir tiekėjo, sudaryta iš karto tiekėjui priėmus užsakymą. Tėra formalumas pakeisti pirkimo užsakymo būseną į Patvirtintas.
 
-Pasirinkus pirkimo užsakymas, papildoma informacija atrodo apie atsakymą. Jūs galite pamatyti eilutės informaciją ir atsako už kiekvieną eilutę. Eilutės būsena parodo, kuri šių atsakymų buvo suteikta.
+Pasirinkus pirkimo užsakymą pateikiama papildoma informacija apie atliktą veiksmą. Galite peržiūrėti išsamią kiekvienos eilutės informaciją ir atliktą veiksmą. Eilutės būsena nurodo, kuris iš toliau nurodytų veiksmų buvo atliktas.
 
 -   Priimta
 -   Atmestas
 -   Priimta su pakeitimais
--   Pakeisti/pakeisti
--   Padalinti į grafiką/tvarkaraščio eilutės
+-   Pakeistas / pakaitas
+-   Išskaidytas grafike / grafiko eilutė
 
-Atkreipkite dėmesį, kad indikatorius parodo **pristatymas**= taip/ne, kuris yra naudojamas nurodyti, kad eilutės nebus pristatytas. Gali būti, kad linija buvo atmestas, arba rūšies tais atvejais, kai nėra tikėtina, kad pristatyti esančių originaliose eilutėse, ar linija, kuri buvo padalyta į kelis tvarkaraščio eilutės ir pradinėje eilutėje nėra tikėtina, kad pristatyti prašymą gavimo tvarka.  
+Atminkite, kad indikatorius **Pristatymas** = taip / ne yra naudojamas nurodyti, kad eilučių produktai nebus pristatyti. Produktai gali būti nepristatomi dėl šių priežasčių: eilutė buvo atmesta; eilutė buvo pakeista ir nesitikima pristatyti pradinių eilučių produktų; eilutė buvo išskaidyta keliose grafiko eilutėse ir nesitikima pristatyti pradinės eilutės produktų, pageidautų gautame užsakyme.  
 
-Užsakymo eilutės atsakymo bet kokie pakeitimai rodomi, išskyrus įkelta pastabas ir priedus, kuriuos matote naudojant tiekėjo bendradarbiavimo web sąsają.
+Pateikiami visi užsakymo eilutės veiksmo pakeitimai, išskyrus nusiųstas pastabas ir priedus, kuriuos galima peržiūrėti naudojant tiekėjų bendradarbiavimo žiniatinklio sąsają.
 
-## <a name="open-confirmed-orders"></a>Atviri patvirtinti užsakymai
-Pirkimo užsakymas patvirtinamas pirkėjo, t. y. pirkimo užsakymą pasikeičia į patvirtintas valstybės, jis pasirodys atidaryti patvirtinta tvarka. Jis liks sąraše tol, kol jis yra įregistruotas kaip gautos.
+## <a name="open-confirmed-orders"></a>Atidaryti patvirtinti užsakymai
+Kai klientas patvirtins pirkimo užsakymą, t. y. jo būsena bus pakeista į Patvirtintas, pirkimo užsakymas bus pateikiamas atidarytų patvirtintų užsakymų sąraše. Šiame sąraše jis bus rodomas tol, kol bus užregistruotas kliento gautu užsakymu.
 
 

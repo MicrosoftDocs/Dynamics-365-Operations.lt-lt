@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF
 
+[!include[banner](../includes/banner.md)]
+
+
 Apskaitos paskirstymai naudojami apibrėžti, kaip suma bus apskaitoma, pvz., kaip bus apskaitomos įplaukos, mokesčiai ar rinkliavos laisvos formos SF. Kiekviena suma, kurią reikia apskaityti, kai laisvos formos SF įtraukiama į žurnalą, turės vieną ar kelis apskaitos paskirstymus.
 
 <a name="accounting-distributions"></a>Apskaitos paskirstymai
@@ -35,7 +38,7 @@ Apskaitos paskirstymai naudojami apibrėžti, kaip suma bus apskaitoma, pvz., ka
 
 Laisvos formos SF puslapyje naudodami toliau nurodytus mygtukus galite peržiūrėti ir, galbūt, keisti kiekvienos laisvos formos SF nurodytos sumos apskaitos paskirstymus.
 
--   **Paskirstyti sumas**— peržiūrėti ir keisti apskaitos paskirstymo atskirą eilutę ir jokių vaikų linijos, pvz., mokesčių ar rinkliavų. Antrinės eilutės apskaitos paskirstymus taip pat galite peržiūrėti ir keisti tiesiogiai iš PVM operacijų puslapio arba Išlaidų operacijų puslapio.
+-   **Paskirstyti sumas** –peržiūrėkite ir keiskite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Antrinės eilutės apskaitos paskirstymus taip pat galite peržiūrėti ir keisti tiesiogiai iš PVM operacijų puslapio arba Išlaidų operacijų puslapio.
     -   Keiskite laisvos formos SF antraštės sumas, pvz., rinkliavas arba valiutos sumos apvalinimą.
     -   Keiskite laisvos formos SF eilutės sumas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumentų eilučių apskaitos paskirstymus. Negalite keisti apskaitos paskirstymų iš šio rodinio.
@@ -132,5 +135,7 @@ Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Nor
 
 ## <a name="subledger-journals-for-free-text-invoices"></a> Laisvos formos SF papildomos knygos žurnalai
 Prieš registruodami laisvos formos SF galite peržiūrėti visą sąskaitos faktūros apskaitos įrašą, kuris apima debetus ir kreditus, kad patikrintumėte, ar sąskaita faktūra registruojama tinkamose sąskaitose. Šis viso apskaitos įrašo rodinys vadinamas papildomos knygos žurnalu. Jei papildomos knygos žurnalo įrašas neteisingas, kai peržiūrite jį prieš įtraukdami laisvos formos SF į žurnalą, negalite keisti papildomos knygos žurnalo įrašo. Bet galite keisti apskaitos paskirstymus arba registravimo šabloną. Apskaitos paskirstymai naudojami norint nustatyti vieną apskaitos įrašo pusę, debetą arba kreditą. Balansavimo papildomos knygos žurnalo sąskaitos įrašas sukuriamas iš registravimo profilių, pvz., iš kliento sąskaitos arba mokesčio.
+
+
 
 

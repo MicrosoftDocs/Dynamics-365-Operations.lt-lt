@@ -40,7 +40,7 @@ Lentelės apribojimais nurodomi konfigūruojant produktą leidžiami atributų r
 
 ### <a name="example-of-a-table-constraint"></a>Lentelės apribojimo pavyzdys
 
-Šiame pavyzdyje parodoma, kaip galite riboti garsiakalbio konfigūracijas konkrečiomis spintelės apdailomis ir priekinėmis grotelėmis. Pirmoje lentelėje nurodytos spintelių apdailos ir priekinės grotelės, kurias galima konfigūruoti įprastu metu. Reikšmės nustatomos su ** spintelė apdaila ** ir **priekinių grotelių** priskirti tipai.
+Šiame pavyzdyje parodoma, kaip galite riboti garsiakalbio konfigūracijas konkrečiomis spintelės apdailomis ir priekinėmis grotelėmis. Pirmoje lentelėje nurodytos spintelių apdailos ir priekinės grotelės, kurias galima konfigūruoti įprastu metu. Reikšmės nustatomos atributų tipuose **Spintelių apdaila** ir **Priekinės grotelės**.
 
 | Atributo tipas | Vertės                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ Kitoje lentelėje nurodyti deriniai, kurie nustatyti pagal lentelės apribojimą
 
 Galite sukurti pagal sistemas arba vartotojus nustatytus lentelės apribojimus. Daugiau informacijos žr. [Pagal sistemas arba vartotojus nustatyti lentelės apribojimai](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Kas sintaksė turi būti naudojamas rašyti apribojimų?
-Rašydami apribojimus turite naudoti optimizuoto modeliavimo kalbos (OML) sintaksę. Sistema naudoja Microsoft Solver Foundation apribojimo problemas spręsti suvaržymų.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Kokia sintaksė turi būti naudojama apribojimams rašyti?
+Rašydami apribojimus turite naudoti optimizuoto modeliavimo kalbos (OML) sintaksę. Sistema naudoja „Microsoft Solver Foundation“ apribojimų sprendimo priemonę apribojimams išspręsti.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Turėčiau naudoti lentelės apribojimus ar išraiškos apribojimus?
 Galite naudoti išraiškos apribojimus arba lentelės apribojimus atsižvelgdami į tai, kaip norite konfigūruoti apribojimus. Lentelės apribojimą sudarote matricos pagrindu, o išraiškos apribojimas yra atskiras sakinys. Konfigūruojant produktą nėra svarbu, kokio tipo apribojimas bus naudojamas. Kitame pavyzdyje nurodomi abiejų metodų skirtumai.  
@@ -110,32 +110,32 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 <td>Gaunama teisinga, jei pirmoji sąlyga yra klaidinga, jei antroji sąlyga yra teisinga, arba jei pirmoji sąlyga yra klaidinga, o antroji sąlyga yra teisinga.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operatorius:</strong> reiškia [x! = 0, y &gt;= 0]</li>
-<li><strong>Įstatykite žymėjimas:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>Operatorius:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Intarpo ženklas:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ir</td>
 <td>Gaunama teisinga, jei visos sąlygos yra teisingos. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Teisinga</strong>.</td>
-<td>Ir [args], įstatykite: a &amp;b &amp; ... &amp;z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> ir [x == 2, y &lt;= 2]</li>
-<li><strong>Įstatykite žymėjimas:</strong> x == 2 &amp;y &lt;= 2</li>
+<li><strong>Operatorius:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Intarpo ženklas:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Arba</td>
 <td>Gaunama teisinga, jei bet kuri sąlyga yra teisinga. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>Klaidinga</strong>.</td>
-<td>Arba [args], įstatykite: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operatorius:</strong> arba [x == 2, y &lt;= 2]</li>
-<li><strong>Įstatykite žymėjimas:</strong> x == 2 | y &lt;= 2</li>
+<li><strong>Operatorius:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Intarpo ženklas::</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Plius</td>
 <td>Naudojant šį operatorių, sąlygos sudedamos. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>0</strong>.</td>
-<td>Plius [args], įstatykite: a + b +... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operatorius:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Intarpo ženklas:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 <tr class="odd">
 <td>Laikas</td>
 <td>Naudojant šį operatorių, gaunamas sąlygų produktas. Jei sąlygų kiekis yra 0 (nulis), gaunama <strong>1</strong>.</td>
-<td>Kartus [args], įstatykite: a * b *... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operatorius:</strong> Times[x, y, 2] == z</li>
 <li><strong>Intarpo ženklas:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 </tr>
 <tr class="even">
 <td>Laipsnis</td>
-<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, tai teisę Association.) Todėl <strong>galia [a, b, c]</strong> yra lygus <strong>galia [a, b, c]]</strong>. <strong>Power</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
-<td>Galia [args], įstatykite: a ^ b ^... ^ z</td>
+<td>Naudojant šį operatorių, gaunama eksponentė. Keliama laipsniu iš dešinės į kairę. (Kitaip tariant, šis operatorius susietas su dešine puse.) Todėl <strong>Power[a, b, c]</strong> yra lygu <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> gali būti naudojamas tik jei laipsnio rodiklis yra teigiama konstanta.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operatorius:</strong> Power[x, 2] == y</li>
 <li><strong>Intarpo ženklas:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 <td>Naudojant šį operatorių, gaunama sąlygos loginė priešingybė. Turi būti nurodyta tik viena sąlyga.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operatorius:</strong> ne [x] &amp;ne [y == 3]</li>
+<li><strong>Operatorius:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Intarpo ženklas:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Kitos lentelės pavyzdžiuose nurodyta, kaip rašyti intarpo ženklą.
 | Intarpo ženklas    | aprašymas                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Priedas                                                                                      |
-| X \*y \*z       | Daugyba                                                                                |
+| x \* y \* z       | Daugyba                                                                                |
 | x – y             | Dvejetainio nario atimtis atliekama lygiai taip pat, kaip dvejetainio nario sudėtis su neigiamu antru nariu. |
 | x ^ y ^ z         | Kėlimas laipsniu, kai susieta su dešine puse                                                   |
 | !x                | Bulio logika ne                                                                                   |
@@ -212,14 +212,14 @@ Kitos lentelės pavyzdžiuose nurodyta, kaip rašyti intarpo ženklą.
 | x & y & z         | Būlio logika ir                                                                                   |
 | x == y == z       | Lygybė                                                                                      |
 | x != y != z       | Ypatingas                                                                                      |
-| X &lt;y &lt;z   | Mažesnis nei                                                                                     |
-| X &gt;y &gt;z   | Didesnis nei                                                                                  |
-| X &lt;= y &lt;= z | Mažiau arba lygu                                                                         |
-| X &gt;= y &gt;= z | Daugiau arba lygu                                                                      |
+| x &lt; y &lt; z   | Mažesnis nei                                                                                     |
+| x &gt; y &gt; z   | Didesnis nei                                                                                  |
+| x &lt;= y &lt;= z | Mažiau arba lygu                                                                         |
+| x &gt;= y &gt;= z | Daugiau arba lygu                                                                      |
 | (x)               | Skliausteliuose perrašomas numatytasis pirmumas.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kodėl išraiškos apribojimai teisingai nepatvirtinami?
-Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių kaip atributų, komponentų ar pakomponenčių sprendimo priemonės pavadinimų. Čia yra saugomos raktažodžius, kad jūs negalite naudoti sąrašą:
+Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių kaip atributų, komponentų ar pakomponenčių sprendimo priemonės pavadinimų. Toliau pateikiamas rezervuotų raktažodžių, kuriuos galite naudoti, sąrašas.
 
 -   Lubos
 -   Elementas
@@ -245,8 +245,8 @@ Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių ka
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Kurti išraišką apribojimas (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Kaip sukurti išraiškos apribojimą (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Pridėti apskaičiuoti produkto konfigūracijos modelis (darbo vadovas)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Įtraukti skaičiavimą į produktų konfigūravimo modelį (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

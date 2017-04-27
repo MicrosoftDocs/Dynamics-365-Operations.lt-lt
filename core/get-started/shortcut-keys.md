@@ -1,6 +1,6 @@
 ---
 title: "Spartieji klavišai"
-description: "Microsoft Dynamics &quot;365&quot; operacijoms taikyti šiuos sparčiuosius klavišus."
+description: "Tolesni spartieji klavišai galioja visoje „Microsoft Dynamics 365 for Operations‟."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
-Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus. 
+[!include[banner](../includes/banner.md)]
+
+
+Tolesni spartieji klavišai galioja visoje „Microsoft Dynamics 365 for Operations‟. 
 
 **Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
 
@@ -40,7 +43,7 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | Perkelti į kitą / ankstesnę meniu parinktį            | Rodyklė žemyn / rodyklė aukštyn            |
 | Uždaryti skirtuką veiksmų srityje arba meniu          | Esc                              |
 | Imituoti spustelėjimą dešiniuoju pelės mygtuku                            | Shift + F10                        |
-| Atidarykite Dynamics 365 dėl operacijų kontekstinis meniu | Ctrl + F10                         |
+| Atidarykite „Dynamics 365 for Operations“ kontekstinį meniu. | Ctrl + F10                         |
 | Vykdyti numatytąjį mygtuką formoje / dialogo lange       | Alt + Enter                        |
 | Spustelėkite mygtuką arba plytelę.                            | „Enter“ klavišas arba tarpo klavišas                   |
 | Peržiūrėti skaičiavimo plytelės atnaujintą informaciją         | Alt + rodyklė į viršų                     |
@@ -64,7 +67,7 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | Ctrl + F2                                   |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn |
-| Perkelti į &lt;n&gt;th FactBox (ypatingą dėmesį FactBox srityje)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Perkelti į  &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)                             | Tarpo klavišas arba „Enter“ klavišas                            |
 | Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
 
@@ -111,8 +114,8 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | Alt + Shift + rodyklė dešinėn / Alt + Shift + rodyklė kairėn |
 | Perkelti į kitą / ankstesnį „FastTab“                   | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn    |
-| Perkelti į &lt;n&gt;th FastTab                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Perkelti į &lt;n&gt;th skirtukas                         | Alt + Shift +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Perkelti į &lt;n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
 | Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai) | Tarpo klavišas arba „Enter“ klavišas                               |
 | Sutraukti esamą „FastTab“                        | Alt + 0                                        |
 | Perjungti tinklelio rodinį                                 | Ctrl + Shift + G                                 |
@@ -152,7 +155,7 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | Atidaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą           | Alt + rodyklė žemyn                |
 | Uždaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą          | Esc                           |
 | Suaktyvinti peržvalgą (kai peržvalga jau atidaryta) | Alt + rodyklė žemyn                |
-| Atidarykite valdiklio Glaudesnis peržiūros                        | Alt + rodyklė į viršų                  |
+| Atidarykite valdiklio patobulintą peržiūrą                        | Alt + rodyklė į viršų                  |
 | Pasirinkti tekstą dabartiniame lauke                           | Ctrl + A                        |
 | Įvesti / palikti teksto sritį HTML rengyklės valdiklyje        | Alt + rodyklė žemyn / Alt + rodyklė aukštyn |
 
@@ -173,19 +176,19 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | **Norint tai padaryti**                                                            | **Paspausti**       |
 | Eiti į ataskaitų sritį                                                       | Alt + Shift + Home  |
 | Eiti į naršymo juostą                                                  | Alt + Shift + F1    |
-| Eiti į naršymo sritį                                                 | Alt + F1          |
-| Mėgstamiausia/JT-favorite forma (ypatingą dėmesį skiriant naršymo forma) | SHIFT + f.         |
+| Eiti į naršymo sritį                                                 | „Alt“ + F1          |
+| Parankinių / ne parankinių forma (naršymo sričiai esant suaktyvintai) | Shift + F         |
 | Eiti į įmonės parinkiklį                                                  | Ctrl + Shift + O    |
 | Eiti į naršymo iešką                                                   | Ctrl + / arba Alt + G |
-| Atidarykite Žinyno sritis                                                        | CTRL +?          |
-| Atidaryti sekimo analizatorius                                                     | Alt + Shift + T     |
+| Atidarykite žinyno sritį.                                                        | Ctrl + ?          |
+| Atidarykite sekimo analizatorių.                                                     | Alt + Shift + T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentuoto įrašo spartieji klavišai
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Norint tai padaryti**                                                                                                          | **Paspauskite**                        |
 | Atidaryti išplečiamąjį sąrašą (kai išplečiamasis sąrašas uždarytas)                                                             | Alt + rodyklė žemyn                   |
 | Suaktyvinti dabartinio segmento įvesties lauką išplečiamajame sąraše (kai išplečiamasis sąrašas jau atidarytas) | Alt + rodyklė žemyn                   |
 | Uždaryti išplečiamąjį sąrašą                                                                                                | Alt + rodyklė į viršų                     |
@@ -199,5 +202,7 @@ Microsoft Dynamics "365" operacijoms taikyti šiuos sparčiuosius klavišus.
 | Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
 
  
+
+
 
 

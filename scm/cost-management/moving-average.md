@@ -68,14 +68,14 @@ Pasirinkus slankiojo vidurkio metodą, produkto savikaina priklauso nuo pirkimo 
 3.  Sukurkite pardavimo užsakymą, kurio kiekis 1, o vieneto kaina 10,00.
 4.  Sukurkite pirkimo sąskaitą faktūrą, kurios kiekis 2, o vieneto kaina 12,00.
 
-Vieneto kainos skirtumas, 2,00, registruojamas sąskaitoje Slankiojo vidurkio kainų skirtumas, kai užregistruojama pirkimo SF. Priežastis ta, kad buvo įsigyti du produktai už 20,00. Vienas iš produktų buvo parduotas už 10,00. Pirkimo SF buvo paskelbtas vieneto kaina 12,00 su 2 kiekis. Produkto vieneto kaina negali būti paskelbtas 14.00.
+Vieneto kainos skirtumas, 2,00, registruojamas sąskaitoje Slankiojo vidurkio kainų skirtumas, kai užregistruojama pirkimo SF. Priežastis ta, kad buvo įsigyti du produktai už 20,00. Vienas iš produktų buvo parduotas už 10,00. Pateikta pirkimo sąskaita faktūra, kurioje nurodomas kiekis 2, o vieneto kaina – 12,00. Produkto vieneto kaina negali būti 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Produkto ir atsargų slankiojo vidurkio koregavimas
 Jei reikia koreguoti produkto slankiojo vidurkio kainą, atsargų koregavimus leidžiama atlikti pagal šiandienos datą. Negalima atgaline data koreguoti atsargų siekiant ištaisyti produkto slankiojo vidurkio savikainą. Negali būti išlaidų srauto per vėlesnes operacijas. Šiame pavyzdyje slankiojo vidurkio savikaina pakoreguota pagal produktą.
 1.  Pasirinkite produktą, kurio slankiojo vidurkio savikainą norite koreguoti.
-    | **Note**                                                                                    |
+    | **Pastaba**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | Kad ** perkainojimas slenkamasis vidurkis ** puslapis analizuoja galimas produkto atsargas. |
+    | Puslapyje **Slankiojo vidurkio pakartotinis įvertinimas **tikrinamos turimos produkto atsargos. |
 
     Pasirinkto produkto užregistruotas kiekis yra 1, užregistruota vertė 12,00, užregistruota vieneto savikaina 12,00 ir vieneto kaina 12,00.
 2.  Atnaujinkite lauko **Vieneto savikaina** vertę į 16,00. Sistema apskaičiuoja likusius formos laukus.
@@ -88,7 +88,7 @@ Jei reikia koreguoti produkto slankiojo vidurkio kainą, atsargų koregavimus le
 Puslapyje **Sudengimai pagal kvitą** matyti, kad sąskaitoje Slankiojo vidurkio išlaidų pakartotinis įvertinimas užregistruotas koregavimas 4,00.
 
 ## <a name="moving-average-with-production"></a>Slankusis vidurkis ir produkcija
-Slankiojo vidurkio funkcija palaiko pagamintas prekes. Jei jūs planuojate naudoti slenkamasis vidurkis gamybos aplinkoje, su **naudoti įvertinta savikaina** slankiklį į į ** gamybos kontrolės parametrų ** puslapis turėtų būti pasirinktį. Tai reiškia, kad naudojama savikaina, apskaičiuojama vertinimo metu, vietoje faktinės KS apskaičiuotos savikainos.
+Slankiojo vidurkio funkcija palaiko pagamintas prekes. Jei planuojate naudoti slankiojo vidurkio funkciją gamybos aplinkoje, puslapyje **Gamybos kontrolės parametrai **reikia pasirinkti šliaužiklį **Naudoti įvertintą savikainą**. Tai reiškia, kad naudojama savikaina, apskaičiuojama vertinimo metu, vietoje faktinės KS apskaičiuotos savikainos.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Slankusis vidurkis ir operacija atgaline data
 Operacijos atgaline data priskiriamos dabartinei slankiojo vidurkio savikainai ir atnaujinamas faktinis produkto kiekis, bet produkto slankiojo vidurkio savikaina nepaveikiama. Šiame slankiojo vidurkio pavyzdyje registruojamas produkto slankusis vidurkis atliekant operaciją atgaline data.

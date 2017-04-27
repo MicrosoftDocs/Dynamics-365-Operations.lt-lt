@@ -1,5 +1,5 @@
 ---
-title: "Kokybės valdymo apžvalga"
+title: "Kokybės valdymo peržiūra"
 description: "Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Kokybės valdymo apžvalga
+# <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
@@ -344,7 +347,7 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 </tr>
 <tr class="even">
 <td>Bandymo kintamųjų rezultatai</td>
-<td>Naudokite šį puslapį galimiems bandymų kintamojo, susieto su kokybiniu bandymu, bandymų rezultatams nustatyti, redaguoti ir peržiūrėti. Kiekvienam rezultatui priskiriate <strong>teigiamą</strong> arba <strong>neigiamą</strong> būseną. Turite apibrėžti kiekvieno kokybinio bandymo, kuris apibrėžtas puslapyje <strong>Bandymai</strong>, kintamąjį ir jo rezultatus. (Kokybiškai atliekami bandymai, bandymo tipas yra nustatytas kaip <strong>variantas</strong> apie su <strong>tyrimai</strong> puslapis.) Naudoti su <strong>tiriamose grupėse</strong> puslapį ir bandymo kintamuoju ir numatytąjį rezultato priskyrimas individualus kokybinis tyrimas.</td>
+<td>Naudokite šį puslapį galimiems bandymų kintamojo, susieto su kokybiniu bandymu, bandymų rezultatams nustatyti, redaguoti ir peržiūrėti. Kiekvienam rezultatui priskiriate <strong>teigiamą</strong> arba <strong>neigiamą</strong> būseną. Turite apibrėžti kiekvieno kokybinio bandymo, kuris apibrėžtas puslapyje <strong>Bandymai</strong>, kintamąjį ir jo rezultatus. (Kokybinių bandymų tipas puslapyje <strong>Bandymai</strong> nustatytas į <strong>Parinktis</strong>. Naudokite puslapį <strong>Bandymų grupės</strong>, kad atskiram kokybiniam bandymui priskirtumėte bandymų kintamąjį ir numatytąjį rezultatą.</td>
 <td>Gamybos įmonė, kepanti sausainius, naudoja galutinio produkto bandymą. Šis bandymas turi keletą kintamųjų. Vienas kintamasis yra skonis, ir galimi šio kintamojo rezultatai yra „geras“ ir „blogas“. Antras kintamasis yra spalva, ir galimi rezultatai yra „per tamsūs“, „per šviesūs“ ir „tinkami“. Kiekvienam rezultatui priskiriama <strong>teigiama</strong> arba <strong>neigiama</strong> būsena. Kiekvieno kintamojo tikrinimo metu tikrintojas pateikia tikrinimo rezultatų ataskaitą, joje nurodydamas vieną iš rezultatų.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Kokybės valdymo procesai](quality-management-processes.md)
 
 [Neatitikimo valdymo įgalinimas](enable-nonconformance-management.md)
+
+
 
 

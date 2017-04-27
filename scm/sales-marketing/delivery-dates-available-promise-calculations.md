@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Užsakymų vykdymo perspektyva
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
 
 Užsakymų žadėjimas apskaičiuoja anksčiausias siuntimo ir gavimo datas ir yra paremtas pristatymo datos kontrolės būdu ir transportavimo dienomis. Galite pasirinkti iš toliau nurodytų keturių pristatymo datos kontrolės būdų.
 
--   **Pardavimo vykdymo laikas** -pardavimo laikas yra laikas nuo sukurti pardavimo užsakymą prekių siuntimą. Pristatymo datos skaičiavimus yra pagal nutylėjimą keletą dienų, ir mano turima prekių, žinomų paklausos arba planuojamos pasiūlos.
--   **ATP (galima pristatyti)** – ATP – elementą, kuris yra prieinamas ir gali pažadėjo pirkėjui tam tikrą dieną kiekis. Skaičiuojant ATP, apimamos nefiksuotos atsargos, vykdymo laikai, suplanuoti gavimai ir išdavimai.
+-   **Pardavimo vykdymo laikas** – pardavimo vykdymo laikas yra laikas tarp pardavimo užsakymo sukūrimo ir prekių siuntimo. Pristatymo data skaičiuojama pagal numatytąjį dienų skaičių, neatsižvelgiant į atsargų prieinamumą, žinomą poreikį ar suplanuotą tiekimą.
+-   **ATP (prieinamos atsargos)** – ATP yra prieinamas kiekis, kurį galima klientui pažadėti pristatyti konkrečią dieną. Skaičiuojant ATP, apimamos nefiksuotos atsargos, vykdymo laikai, suplanuoti gavimai ir išdavimai.
 -   **ATP ir išdavimo laiko rezervas** – siuntimo data yra tokia pati, kaip ir ATP data ir prekės išdavimo laiko rezervas. Išdavimo laiko rezervas yra laikas, reikalingas prekes paruošti siuntimui.
 -   **CTP (galimos pažadėti atsargos)** – prieinamumas skaičiuojamas naudojant išskleidimą.
 
 ## <a name="atp-calculations"></a>ATP skaičiavimai
-"Kaupiamasis ATP su išankstinė" metodu skaičiuojamas ATP kiekis. Šis ATP skaičiavimo metodo pagrindinis privalumas yra, kad jis gali dirbti kai aktualijas pajamų suma yra daugiau nei naujausias gavimo (pavyzdžiui, kai kiekis nuo ankstesnio prašymo gavimo dienos turi būti naudojamas patenkinti reikalavimą). "Kaupiamasis ATP su išankstinė" skaičiavimo metodas apima visus klausimus, kol gauti Kaupiamasis kiekis viršija bendrą kiekį, išduoti. Todėl šis ATP skaičiavimo būdas įvertina, ar kokį nors ankstesnio laikotarpio kiekį galima naudoti vėlesniu laikotarpiu.  
+ATP kiekis apskaičiuojamas naudojant „kaupiamojo ATP žvelgiant į ateitį“ būdą. Pagrindinis šio ATP skaičiavimo būdo privalumas yra tai, kad juo galima tvarkyti atvejus, kai gavimų išdavimų suma yra didesnė už vėliausią gavimą (pavyzdžiui, kai, norint patenkinti poreikį, naudojamas ankstesnio gavimo kiekis). „Kaupiamojo ATP žvelgiant į ateitį‟ skaičiavimo būdas apima visus išdavimus, kol kaupiamasis gautinas kiekis viršija kaupiamąjį išduotiną kiekį. Todėl šis ATP skaičiavimo būdas įvertina, ar kokį nors ankstesnio laikotarpio kiekį galima naudoti vėlesniu laikotarpiu.  
 
 ATP kiekis yra nefiksuotų atsargų balansas pirmuoju laikotarpiu. Paprastai jis apskaičiuojamas kiekvienam laikotarpiui, kuriame suplanuotas gavimas. Programa apskaičiuoja ATP laikotarpį dienomis ir dabartinę datą ATP kiekiui apskaičiuoja kaip pirmą datą. Pirmą laikotarpį ATP apima turimas atsargas ir atėmus klientų užsakymus, kurie yra mokėtini ir laiku nesumokėti.  
 
 APT apskaičiuojamos pagal tolesnę formulę.  
 
-ATP = ATP ankstesnio laikotarpio + gavimus dabartiniu laikotarpiu – klausimus einamuoju laikotarpiu – grynieji klausimu kiekį kiekvienam ateities laikotarpiui iki laikotarpio, kai kvitus visiems būsimiesiems laikotarpiams, iki ir įskaitant būsimuoju laikotarpiu, suma viršija problemos suma iki ir įskaitant ateities laikotarpio.  
+ATP = ankstesnio laikotarpio ATP + dabartinio laikotarpio gavimai – dabartinio laikotarpio išdavimai – kiekvieno būsimo laikotarpio grynasis išdavimo kiekis iki laikotarpio, kai visų būsimų laikotarpių gavimų suma (iki būsimo laikotarpio įskaitytinai) yra didesnė nei išdavimų suma iki būsimo laikotarpio įskaitytinai.  
 
 Kai daugiau nėra svarstytinų išdavimų arba gavimų, ATP kiekis šioms datoms yra toks pat kaip vėliausias apskaičiuotas ATP kiekis.  
 
@@ -66,8 +69,10 @@ Paskambina klientas ir nori užsakyti 150 to paties produkto vienetų. Kai patik
 
 Sukuriate produkto pardavimo užsakymo eilutę ir kaip kiekį įvedate **150**.  
 
-Kadangi pristatymo datos kontrolės būdas yra ATP, skaičiuojami ATP duomenys, siekiant rasti anksčiausią galimą siuntimo datą. Pagal parametrus, yra laikomi atidėtas pirkimo užsakyme, ir pardavimo užsakyme, ir nustatytas ATP kiekis šios dienos yra 0. Rytoj, kai atidėtas pirkimo užsakymą tikimasi gauti, ATP kiekis yra apskaičiuojamas kaip daugiau nei 0 (šiuo atveju ji apskaičiuojama kaip 125). Tačiau 10 dienų nuo dabar, kai papildomų pirkimo užsakymą už 100 vienetų tikimasi priimti ATP kiekis tampa daugiau nei 150.  
+Kadangi pristatymo datos kontrolės būdas yra ATP, skaičiuojami ATP duomenys, siekiant rasti anksčiausią galimą siuntimo datą. Pagal nuostatas atsižvelgiama į atidėtą pirkimo užsakymą ir pardavimo užsakymą, ir dabartinei datai gautas ATP kiekis yra 0. Rytoj, kai atidėtą pirkimo užsakymą tikimasi gauti, ATP kiekis apskaičiuojamas kaip didesnis nei 0 (šiuo atveju apskaičiuojama 125). Tačiau, po 10 dienų, kai tikimasi gauti papildomą 100 vienetų pirkimo užsakymą, ATP kiekis tampa didesnis nei 150.  
 
-Todėl siuntimo data yra nustatytas 10 dienų nuo dabar, pagal ATP skaičiavimo. Todėl klientui pasakote, kad pageidaujamą kiekį galima pristatyti po 10 dienų.
+Todėl pagal ATP skaičiavimą siuntimo data nustatoma po 10 dienų. Todėl klientui pasakote, kad pageidaujamą kiekį galima pristatyti po 10 dienų.
+
+
 
 

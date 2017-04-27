@@ -1,6 +1,6 @@
 ---
 title: EKA programos ir vartotojo kalbos parametrai
-description: "Šioje temoje aprašoma, kaip pakeisti kalbos parametrai mažmeninės prekybos šiuolaikinės POS (MPOS) ir debesies POS."
+description: "Šioje temoje aprašoma, kaip keisti kalbos parametrus naudojant „Retail Modern POS“ (MPOS) ir „Cloud POS“."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="pos-application-and-user-language-settings"></a>EKA programos ir vartotojo kalbos parametrai
 
-Šioje temoje aprašoma, kaip pakeisti kalbos parametrai mažmeninės prekybos šiuolaikinės POS (MPOS) ir debesies POS.
+[!include[banner](includes/banner.md)]
+
+
+Šioje temoje aprašoma, kaip keisti kalbos parametrus naudojant „Retail Modern POS“ (MPOS) ir „Cloud POS“.
 
 <a name="overview"></a>Apžvalga
 ========
 
-Mažmeninės prekybos šiuolaikinės POS (MPOS) ir debesies POS palaiko aplinkoje, kur kalbos parametrus ir vertimai gali skirtis tarp parduotuvės ir vartotojo parametrus. Pvz., parduotuvės galėtų būti įsikūrusi regione, kur anglų kalba yra labiausiai paplitusi savo klientams, bet kai kurie darbuotojai labiau linkę naudoti programą su prancūzų vertimai.
+„Retail Modern POS“ (MPOS) ir „Cloud POS“ palaiko aplinkas, kuriose parduotuvės ir vartotojų nustatyti kalbos parametrai ir vertimai gali skirtis. Pavyzdžiui, parduotuvė gali būti regione, kuriame klientai dažniausiai vartoja anglų kalbą, bet kai kurie darbuotojai labiau norėtų naudoti programą, kuri išversta į prancūzų kalbą.
 
 ## <a name="data-language"></a>Duomenų kalba
-Neatsižvelgiant į vartotojo parametrus, MPOS ir debesies POS visada naudos parduotuvės kalbos parametrai nustatyti naudojami duomenų vertimus. Tai užtikrins, kad visi vartotojai ir klientai turės suderinti patirtį.  Duomenų pavyzdžiai:
+Nepriklausomai nuo to, kokie yra vartotojo parametrai, nusprendžiant, kokius naudoti duomenų vertimus, MPOS ir „Cloud POS“ visada naudojami parduotuvės kalbos parametrai. Taip užtikrinama, kad visų vartotojų ir klientų patirtis būtų nuosekli.  Duomenų pavyzdžiai:
 
 -   Produktai
 -   Atributai ir reikšmės
@@ -45,25 +48,27 @@ Neatsižvelgiant į vartotojo parametrus, MPOS ir debesies POS visada naudos par
 -   Mokėjimo būdo pavadinimai
 -   Eilutės rodymo pranešimai
 
-Parduotuvės kalba bus taip pat naudojamas pagrindinis POS prisijungimo ekrane, nes vartotojas nėra žinoma prieš prisijungdami. Jei vertimas nėra parduotuvės kalbos, Go grįš į bendrovės kalba.
+Parduotuvės kalba taip pat naudojama pagrindiniame EKA prisijungimo ekrane, nes kol neprisijungiama vartotojas nežinomas. Jei parduotuvės kalba vertimo nėra, EKA iš naujo nustatys įmonės kalbą.
 
 ### <a name="configuring-the-stores-language-setting"></a>Parduotuvės kalbos parametro konfigūravimas
 
-Parduotuvės kalbos parametras nustatytas nuo **visi mažmeninės prekybos parduotuvėse** ant, **mažmeninės prekybos parduotuvėje** puslapio pagal ** bendrosios &gt;regiono parametrai &gt;kalba. ** Naudoti kritimo žemyn norėdami pasirinkti kalbą kiekvienos parduotuvės.
+Parduotuvės kalbos parametras yra nustatomas dalyje **Visos mažmeninės prekybos parduotuvės**, kurią galima rasti puslapyje **Mažmeninės prekybos parduotuvė** pasirinkus **Bendrieji parametrai &gt; Regiono parametrai &gt; Kalba. **Naudodami išskleidžiamąjį sąrašą pasirinkite kiekvienos parduotuvės kalbą.
 
 ## <a name="user-interface-language"></a>Vartotojo sąsajos kalba
-POS naudotojo kalbos parametras nustato vertimų naudojama programos vartotojo sąsajos. Tai apima visas etiketes, meniu ir sąrašai, kurie nėra laikomi duomenys. Viena išimtis yra tekstas, kuris rodomas POS mygtukynų. Mygtukyno nepalaiko vertimus, todėl jie bus visada Rodyti tekstą kaip apibrėžta mygtuką. Siekiant remti išverstų mygtukus, jūs turite kopijuoti ir išlaikyti atskirus mygtukynų ir jas priskirti vartotojams atitinkamai.
+Pagal EKA vartotojo kalbos parametrus nustatomi programos vartotojo sąsajoje naudojami vertimai. Vertimai naudojami visose etiketėse, meniu ir sąrašuose, kurie nelaikomi duomenimis. Viena išimtis yra EKA mygtukynuose rodomas tekstas. Mygtukynuose vertimai nepalaikomi, todėl tekstas juose visada rodomas taip, kaip nurodyta ant mygtuko. Norint, kad būtų palaikomi išversti mygtukai, reikia nukopijuoti ir išlaikyti atskirus mygtukynus ir priskirti juos atitinkamiems vartotojams.
 
 ### <a name="configuring-the-users-language-setting"></a>Vartotojo kalbos parametro konfigūravimas
 
-POS naudotojo kalbos parametras nustatytas nuo **visiems darbuotojams** ant, **darbuotojo** puslapio pagal **mažmeninės prekybos &gt;kalba**.  Jis nustatytas pagrindinis profilis skirtuką.  Šis parametras naudojamas ne iš EKA. Jei nenustatyta vartotojo kalba arba nustatyta kalba, kurios vertimų nėra, EKA iš naujo nustatys parduotuvės kalbą.  
+EKA vartotojo kalbos parametras yra nustatomas dalyje **Visi darbuotoji**, kurią galima rasti puslapyje **Darbuotojas** pasirinkus **Mažmeninė prekyba &gt; Kalba**.  Pagrindiniame šablono skirtuke jis nenustatomas.  EKA šio parametro nenaudoja. Jei nenustatyta vartotojo kalba arba nustatyta kalba, kurios vertimų nėra, EKA iš naujo nustatys parduotuvės kalbą.  
 
 |             |                            |                                                                   |
 |-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **Vartotojo sąsajos kalbos** ** **      | **Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.)** |
+| ** **       | **Vartotojo sąsajos kalba** ** **      | **Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.)** |
 | **Įmonė** | Numatytoji                    | Numatytoji                                                           |
 | **Parduotuvė**   | Perrašoma įmonė          | Perrašoma įmonė                                                 |
-| **User**    | Perrašoma parduotuvė arba įmonė | Niekada                                                             |
+| **Vartotojas**    | Perrašoma parduotuvė arba įmonė | Niekada                                                             |
+
+
 
 
 

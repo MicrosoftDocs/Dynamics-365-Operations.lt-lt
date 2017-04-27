@@ -1,6 +1,6 @@
 ---
 title: "Ilgalaikio turto vertės modelis ir nusidėvėjimo knygos suliejimas"
-description: "Ankstesnėse laidose, ten buvo du vertinimo sąvokas turtų - vertinimo modelių ir nusidėvėjimo knygas. Microsoft Dynamics 365 operacijų 1611 išleidimui, vertinimo modelio funkciją ir nusidėvėjimo knygos funkcijos buvo sujungtos į vieną sąvoką, kuri yra žinoma kaip knygą."
+description: "Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ 1611 leidime vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Ilgalaikio turto vertės modelis ir nusidėvėjimo knygos suliejimas
 
-Ankstesnėse laidose, ten buvo du vertinimo sąvokas turtų - vertinimo modelių ir nusidėvėjimo knygas. Microsoft Dynamics 365 operacijų 1611 išleidimui, vertinimo modelio funkciją ir nusidėvėjimo knygos funkcijos buvo sujungtos į vieną sąvoką, kuri yra žinoma kaip knygą.
+[!include[banner](../includes/banner.md)]
 
-Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą. [![Knygos vertė modelio ir nusidėvėjimo knygos funkcijomis sujungti](./media/fixed-assets.png)](./media/fixed-assets.png) dėl šio suliejimo, dabar galite naudoti vieningi puslapių, užklausų ir ataskaitų visi ilgalaikio turto procesai. Šios temos lentelėse aprašomas ankstesnis nusidėvėjimo knygų funkcionalumas ir vertės modeliai, taip pat naujas knygų funkcionalumas.
+
+Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ 1611 leidime vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga.
+
+Naujos knygos funkcionalumas pagrįstas ankstesnio vertės modelio funkcionalumu, bet taip pat apima visą anksčiau tik nusidėvėjimo knygose pateikiamą funkcionalumą. [![Knyga kaip vertės modelio ir nusidėvėjimo knygos funkcionalumo suliejimas](./media/fixed-assets.png)](./media/fixed-assets.png) Dėl šio suliejimo dabar galite naudoti vieną puslapių rinkinį, užklausas ir visų savo ilgalaikio turto procesų ataskaitas. Šios temos lentelėse aprašomas ankstesnis nusidėvėjimo knygų funkcionalumas ir vertės modeliai, taip pat naujas knygų funkcionalumas.
 
 ## <a name="setup"></a>Sąranka
 Pagal numatytuosius parametrus knygos registruojamos ir didžiojoje knygoje (DK), ir ilgalaikio turto papildomoje knygoje. Knygose pateikiama nauja parnktis **Registruoti didžiojoje knygoje**, kuria naudodamiesi galite išjungti registravimą DK ir registruoti tik ilgalaikio turto papildomoje knygoje. Ši funkcija primena ankstesnę nusidėvėjimo knygų registravimo veikseną. Žurnalų pavadinimų sąranka turi naują registravimo sluoksnį, kurio pavadinimas Nėra. Šis registravimo sluoksnis pridėtas specialiai ilgalaikio turto operacijoms. Norėdami registruoti į DK neregistruojančių knygų operacijas, privalote naudoti žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata **Nėra**.
@@ -66,5 +69,7 @@ Užklausos ir ataskaitos palaiko visas knygas. Į toliau pateikiamą lentelę ne
 
 ## <a name="upgrade"></a>Atnaujinti
 Atnaujinimo procesas perkels esamą jūsų sąranką ir visas esamas jūsų operacijas į naują knygos struktūrą. Vertės modeliai liks tokie patys, kokie yra šiuo metu, kaip knyga, kuri registruoja į didžiąją knygą. Tačiau nusidėvėjimo knygos bus perkeltos į knygą, kurioje nustatyta parinkties **Registruoti į DK** nuostata **Ne**. Nusidėvėjimo knygos žurnalų pavadinimai bus perkelti į DK žurnalo pavadinimą, kuriame nustatyta registravimo sluoksnio nuostata **Nėra**.
+
+
 
 

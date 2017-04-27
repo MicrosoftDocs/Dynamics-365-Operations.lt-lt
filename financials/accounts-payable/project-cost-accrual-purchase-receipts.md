@@ -1,6 +1,6 @@
 ---
-title: "Projekto sąnaudų kaupimo apie pirkimo kvitai"
-description: "Šioje temoje aprašoma, kaip sukauptų projekto išlaidų pirkimo kvitus gali būti stebimi Microsoft Dynamics 365 operacijoms."
+title: "Projekto išlaidų kaupimas pirkimo kvituose"
+description: "Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Operations“."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Projekto sąnaudų kaupimo apie pirkimo kvitai
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Projekto išlaidų kaupimas pirkimo kvituose
 
-Šioje temoje aprašoma, kaip sukauptų projekto išlaidų pirkimo kvitus gali būti stebimi Microsoft Dynamics 365 operacijoms. 
+[!include[banner](../includes/banner.md)]
 
-SF projektui dažnai atvyksta vėliau nei prekės ir paslaugos yra teikiamos, kurios gali daryti didelę įtaką projekto pagrindinius veiklos rodiklius (KPI). Tai svarbu, kad būtų galima stebėti šias operacijas tiek finansų ir projektų ataskaitas.
 
-Šį pavyzdį scenarijų iliustruoja tai. 
+Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Operations“. 
 
-Contoso konsultavimo pradėjo naują nuotolinių išteklių diegimo projektą. Pirkimo užsakymas sukurtas pirkti kompiuterį už projektą. Kompiuteris kainuos $1500 ir montavimo paslaugos kainuos $150. Pardavėjas turi pristatyti ir įdiegta į kompiuterį, bet SF dar nepasiekė Contoso konsultacijos. Projektų vadovas norėtų matyti projekto sąnaudų kaupimo $1650 prieš pristatant SF. Šias išlaidas taip pat turėtų atsispindėti bendrovės mėnesio pabaigos finansinės ataskaitos. 
+Projekto SF dažnai gaunamos vėliau negu gaunamos prekės ir paslaugos, o tai gali turėti didelės įtakos pagrindiniams projekto efektyvumo indikatoriams (KPI). Svarbu turėti galimybę sekti šias finansinių ir projekto ataskaitų operacijas.
 
-Sukauptos išlaidos turi būti traukiama į finansų lygį bei projekto lygio atskaitomybę. Dynamics 365 operacijoms, finansų važtaraščio atnaujinimas gali būti stebimi elementą ir pirkimų kategorijų. 
+Tai pavaizduota toliau pateiktame scenarijaus pavyzdyje. 
 
-Daiktų, dėl į **sudaro mokėtinų sumų parametrai** puslapyje, pasirinkite į **užregistruoti važtaraščiai DK** variantas.
+„Contoso Consulting“ pradėjo naują debesies diegimo projektą. Sukuriamas pirkimo užsakymas pirkti kompiuterį projektui. Kompiuteris kainuos 1500 dol., o diegimo paslaugos kainuos 150 dol. Tiekėjas pristatė ir įdiegė kompiuterį, bet „Contoso Consulting“ sąskaitos faktūros dar negavo. Prieš pateikiant sąskaitą faktūrą projekto vadovas norėtų matyti sukauptas 1650 dol. vertės projekto išlaidas. Ši kaina taip pat turi būti nurodoma įmonės mėnesio pabaigos finansinėse ataskaitose. 
+
+Pateikiant ataskaitas sukauptos išlaidos turi būti įrašomos finansiniu lygmeniu ir projekto lygmeniu. Naudojant „Dynamics 365 for Operations“ gali būti sekamas prekės ir įsigijimo kategorijų produkto kvito finansinis naujinimas. 
+
+Jeigu sekate prekių naujinimą, puslapyje **Mokėtinos sumos parametrai** pasirinkite parinktį **Registruoti produkto kvitus didžiojoje knygoje**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Pirkimų kategorijoms, dėl į **kategorija politika paprastai** puslapyje, pasirinkite **perkamosios** strategijas, o tada pasirinkite **kaupti pirkimo sąskaita gavus** ruožams viešųjų pirkimų.
+Jeigu sekate įsigijimo kategorijų naujinimą, puslapyje **Kategorijos strategijos taisyklė** pasirinkite strategijas **Pirkimas**, o po to pasirinkite kiekvienos įsigijimo kategorijos parinktį **Kaupti pirkimo gavimo išlaidas**.
 [![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-Į **pirkimo išlaidų JT išrašytoje SF** ir **pirkimo kaupimo** sudaro **registravimo nustatymo** bus naudojamas registruojant kvitus, kurie yra susiję su produkto gavimo.
+Sąskaitos **Pirkimo išlaidos, kurioms neišrašyta SF** ir **Pirkimo kaupimas**, esančios dalyje **Registravimo nustatymas**, bus naudojamos registruojant su produkto kvitu susietus kvitus.
 [![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
 
-Naudojant šį patį scenarijų, pažiūrėkime, kaip parašėte važtaraštyje turės įtakos DK ir informaciją apie projektą. 
+Naudodami tą patį scenarijų pažiūrėkime, kokią įtaką produkto kvito užregistravimas turės didžiajai knygai ir projekto informacijai. 
 
-**1 veiksmas:** sukurti ir patvirtinti naują pirkimo užsakymą įrašyti kompiuterio $150 $1500 ir diegimo paslaugų pirkimo projektas.
+**1 veiksmas:** Sukurti ir patvirtinti naują projekto pirkimo užsakymą, kad jame būtų nurodyta 1500 dol. vertės kompiuterio pirkimo suma ir 150 dol. vertės diegimo paslaugos.
 [![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
-Kai pirkimo užsakymas bus patvirtintas, projekto sukuriamos operacijos padarytas išlaidas. 
+Patvirtinus pirkimo užsakymą sukuriamos projekto fiksuotos savikainos operacijos. 
 [![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> Fiksuota savikaina operacijos turės į **operacijos kilmę** laukas nustatytas kaip **pirkimo užsakymo**. Sukurti ir patvirtinti pirkimo užsakymą nesukuria sandorių projektui. 
+> Fiksuotos savikainos operacijų lauke nustatomas lauko **Operacijos kilmė** parametras **Pirkimo užsakymas**. Sukūrus ir patvirtinus pirkimo užsakymą projekto operacijos nesukuriamos. 
 
-**2 veiksmas:** gauti pristatytas prekes ir paslaugas ir važtaraštyje yra registruotas. 
+**2 veiksmas:** Tiekiamos prekės, teikiamos paslaugos ir užregistruojamas produkto kvitas. 
 
-Parašėte važtaraštyje generuoti ir registruoti į DK kvitas. Kvito debetuoti pirkimo išlaidos, JT SF išrašyta sąskaita, ar pirkimo kaupimo sąskaitą. 
+Registruojant produkto kvitą sukuriamas ir užregistruojamas didžiosios knygos kvitas. Kvite nurodomas pirkimo išlaidų, sąskaitos, kuriai neišrašyta SF, ir kredito pirkimo kaupimo sąskaitos debetas. 
 [![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
-> Registravimo važtaraštyje naudos registravimo nustatymas pirkimų kategorijas ir produktų ir ne į registravimo nustatymus projektų kategorijoms. Kad būtų teisingai atspindėtas finansinio poveikio pirkimo sukauptų, šis nustatymas turi būti suderintas. 
+> Registruojant produkto kvitą bus naudojamas įsigijimo kategorijoms ir produktams skirtas registravimo nustatymas, o ne projekto kategorijoms skirtas registravimo nustatymas. Norint, kad būtų rodomas teisingas pirkimo kaupimų finansinis poveikis, šį nustatymą reikia sulygiuoti. 
 
-Yra galimybė žemėlapį pirkimų kategorijos projektų grupių, **pirkimų kategorijos** puslapis.
+Puslapyje **Įsigijimo kategorija** įsigijimo kategorijas galima susieti su projekto kategorijomis.
 [![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-**3 veiksmas:** kūrimas projekto pirkimo užsakymo SF. 
+**3 veiksmas:** Kurti tiekėjo SF juodraštį. 
 
-Dynamics 365 operacijų, registravimo važtaraštyje neturi įtakos projekto informacija. Laikinas problemos sprendimas, gali generuoti projekto tiekėjo SF tiesiogiai užregistravus pirkimo kvitas. Eikite į į **pirkimo užsakymo** puslapis &gt;**SF skirtuke**&gt;**sukurti**&gt;**SF**. Tai sukuria laukianti SF dokumentą, kuris atnaujina informaciją apie projektą. 
+Jei naudojama programa „Dynamics 365 for Operations“, registruojant produkto kvitą projekto informacijai tai įtakos neturi. Kaip problemos apėjimo būdą tiekėjo sąskaitos faktūros juodraštį galite sukurti iš karto užregistravę pirkimo kvitą. Eikite į puslapį **Pirkimo užsakymas** &gt; **SF skirtukas** &gt; **Kurti** &gt; **Sąskaita faktūra**. Taip sukuriamas laukiančios SF dokumentas, kurį naudojant atnaujinama projekto informacija. 
 
-Kūrimas projekto pirkimo užsakymo SF sukurs laukiama projekto operacijas. 
+Sukūrus tiekėjo SF juodraštį sukuriamos laukiančios projekto operacijos. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
-– Į **padarytas išlaidas** puslapyje, įrašus, sukurtus atliekant 1 veiksmą bus uždarytas ir naujų įrašų bus sukurtas atspindėti išlaidų įsipareigojimą iš laukianti SF. Į **operacijos kilmę** lauko, nes bus nustatyta fiksuota savikaina **tiekėjo SF**.
+Puslapyje **Fiksuota savikaina** atliekant 1 veiksmą sukurti įrašai bus uždaryti ir bus sukurti nauji įrašai, kuriuose nurodomi iš laukiančios tiekėjo sąskaitos faktūros gauti išlaidų įsipareigojimai. Bus nustatyta fiksuotos savikainos lauko **Operacijos kilmė** parinktis **Tiekėjo SF**.
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
-Tiekėjo SF yra laukimo būsenoje tol, kol faktinės tiekėjo SF atvyksta.
+Kol nebus gauta faktinė tiekėjo SF, tiekėjo SF ir toliau bus laukiančios būsenos.
+
+
 
 

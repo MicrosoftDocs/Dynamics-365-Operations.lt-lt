@@ -118,7 +118,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Mokėjimo formatas nebenaudojamas.                                                     |
-| Pakeitė kita funkcija? | Nr. Formatas bus pakeistas ISO 20022 pareiškimą importo formatus iš būsimų leidimų. |
+| Pakeitė kita funkcija? | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
 | Paveikti moduliai             | Gautinos sumos                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Išorinės atsargos, skirtos Lenkijai
@@ -138,7 +138,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Ribotas naudojimas                                                                            |
-| Pakeitė kita funkcija? | Nr. Įrankis bus pakeistas elektroninė duomenų perdavimo sudėčių ateityje spaudai. |
+| Pakeitė kita funkcija? | Nr. Būsimuose leidimuose įrankį pakeis elektroninių ataskaitų konfigūracijos. |
 | Paveikti moduliai             | DK                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Kliento mokėjimo operacijų importavimas, skirtas Suomijai
@@ -148,7 +148,7 @@ Galite pasirinkti Suomijos mokėjimų importavimo formatą, kurį naudojant klie
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Mokėjimo formatas nebenaudojamas.                                                     |
-| Pakeitė kita funkcija? | Nr. Formatas bus pakeistas ISO 20022 pareiškimą importo formatus iš būsimų leidimų. |
+| Pakeitė kita funkcija? | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
 | Paveikti moduliai             | Gautinos sumos                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Mokėjimo operacijų importavimas į DK žurnalą, skirtas Suomijai
@@ -158,7 +158,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Mokėjimo formatas nebenaudojamas.                                                     |
-| Pakeitė kita funkcija? | Nr. Formatas bus pakeistas ISO 20022 pareiškimą importo formatus iš būsimų leidimų. |
+| Pakeitė kita funkcija? | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
 | Paveikti moduliai             | Gautinos sumos                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Sinchronizuotas integravimas su „Isabel“ (CIS), skirtas Belgijai
@@ -168,7 +168,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Integravimas su „Isabel“ klientu nebepalaikomas.                                                                |
-| Pakeitė kita funkcija? | Nr. Mokėjimų formatus, kurie jau nebenaudojami pakeičiami ISO20022 kredito pervedimo mokėjimo formato Belgijai. |
+| Pakeitė kita funkcija? | Nr. Mokėjimo formatai nebenaudojami, juos pakeitė ISO20022 kredito pervedimo mokėjimo formatas, skirtas Belgijai. |
 | Paveikti moduliai             | Mokėtinos sumos                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Sąskaitų plano ir apskaitos taisyklių modifikavimai, skirti Ispanijai
@@ -218,7 +218,7 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Mokėjimo formatai nebenaudojami.                                                    |
-| Pakeitė kita funkcija? | Nr. Formatai bus pakeistas ISO 20022 pareiškimą importo formatus iš būsimų leidimų. |
+| Pakeitė kita funkcija? | Nr. Būsimuose leidimuose formatus bus pakeis ISO 20022 išrašo importavimo formatas. |
 | Paveikti moduliai             | Gautinos sumos                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Efektyvumo valdymo tikslų darbo eiga
@@ -228,7 +228,7 @@ Efektyvumo valdymas apima tikslų valdymą ir integravimą su efektyvumo apžval
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Efektyvumo valdymas buvo atnaujintas ir tikslo puslapių skaičius buvo sumažintas siekiant supaprastinti procesą.                 |
-| Pakeitė kita funkcija? | Nr. Tikslus matomi vadovai Manager savitarnos portalas, ir galima keisti ir peržiūrėti valdytojas. |
+| Pakeitė kita funkcija? | Nr. Tikslus gali vadovai mato naudodami portalą Vadovų savitarna ir vadovas gali juos keisti bei peržiūrėti. |
 | Paveikti moduliai             | Žmogiškojo kapitalo valdymas                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>„Postgirot“ ir „Postgirot Utland“ mokėjimo formatai, skirti Švedijai
@@ -243,17 +243,17 @@ Efektyvumo valdymas apima tikslų valdymą ir integravimą su efektyvumo apžval
 
 ### <a name="radio-frequency-identifier"></a>Radijo dažnio identifikatorius
 
-Radijo dažnio identifikavimo (RFID) yra duomenų surinkimo technologija, naudojanti elektronines žymes identifikavimo duomenims ir Nr linija-matomumo reikalavimas skaitytojas užfiksuoti identifikavimo duomenis.
+Radijo dažnio identifikavimas (RFID) yra duomenų surinkimo technologija, naudojanti elektronines žymes identifikavimo duomenims saugoti ir tiesioginio matymo skaitytuvą jiems gauti.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Nebenaudojimo priežastis       | Mažai klientų naudojimu ir ribotas funkcijų rinkinys. |
+| Nebenaudojimo priežastis       | Naudojo mažai klientų ir ribotas funkcijų rinkinys. |
 | Pakeitė kita funkcija? | Nr.                                            |
 | Paveikti moduliai             | Atsargų valdymas                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Valstybinių SF numeravimo ataskaita, skirta Latvijai
 
-Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės. Funkcionalumas leidžia konkrečius numeruojant pardavimų SF, remiantis vartotoją arba jų grupę. Tada galite generuoti ataskaitą arba XML failą. Taip pat galite spausdinti naudojamų SF numerių ataskaitą.
+Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės. Ši funkcija suteikia galimybę pardavimo SF priskirti konkrečius numerius pagal vartotoją arba vartotojų grupę. Tada galima generuoti ataskaitą arba XML failą. Taip pat galite spausdinti naudojamų SF numerių ataskaitą.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX‟ apima paslaugas, paremtas dokumentais ir „.NET Business Connector‟ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX‟ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugų, kurios grindžiamos dokumentuose naudoti su **Axd &lt;*dokumente*&gt;** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX‟ apima paslaugas, paremtas dokumentais ir „.NET Business Connector‟ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX‟ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd &lt;*dokumentų*&gt;** klases.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Šis išrašas kai kuriose Brazilijos apskrityse nebetaikomas.                                                     |
-| Pakeitė kita funkcija? | Nr. Vartotojai gali naudoti Generic elektroninių ataskaitų įrankis sukonfigūruoti ataskaita, jei privaloma pagal konkrečias situacijas. |
+| Pakeitė kita funkcija? | Nr. Vartotojai gali naudoti įrankį Bendrosios elektroninės ataskaitos, norėdami konfigūruoti išrašą, jei to reikalaujama konkrečiose situacijose. |
 | Paveikti moduliai             | Finansų knygos                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Brazilijos SCAN atsakomųjų priemonių režimas, skirtas NF-e
@@ -631,7 +631,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Šią funkciją pakeitė pagrindiniai puslapiai Algalapis ir Žmogiškieji ištekliai.                                                                                                                                                                                                                                              |
-| Pakeitė kita funkcija? | **Išmokų**, **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija yra prieinama naudojant į **žmogiškieji ištekliai 1**&gt;**darbo užmokesčio fondo** konfigūracijos raktas. |
+| Pakeitė kita funkcija? | **Išmokų**, **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija pasiekiama naudojant konfigūracijos raktą **1 žmogiškieji ištekliai** &gt; **Algalapis**. |
 | Paveikti moduliai             | Žmogiškieji ištekliai, Algalapis                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Privatus atsargų ir sandėlio valdymo žurnalų blokavimas
@@ -698,12 +698,12 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 | Pakeitė kita funkcija? | Ne                                                                                                                                       |
 | Paveikti moduliai             | Personalo įdarbinimas, Atvejų valdymas, Pasiūlymų užklausa, Tiekėjo registracija                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>APIE paklausos prognozavimo strategija
+### <a name="ssas-demand-forecasting-strategy"></a>SSAS poreikio prognozės strategija
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Nebenaudojimo priežastis       | Dizainas funkcija negalima remti naujas debesies architektūra. |
-| Pakeitė kita funkcija? | Žydros mašinos mokymosi paklausos prognozavimo strategija                           |
+| Nebenaudojimo priežastis       | Naujoje debesies architektūroje funkcijos dizainas nepalaikomas. |
+| Pakeitė kita funkcija? | „Azure“ mašininio mokymo poreikio prognozės strategija                           |
 | Paveikti moduliai             | Planavimas                                                                     |
 
 ### <a name="travel-requisitions"></a>Kelionės paraiškos

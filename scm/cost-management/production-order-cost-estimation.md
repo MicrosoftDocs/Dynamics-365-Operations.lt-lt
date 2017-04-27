@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Gamybos užsakymo savikainos įvertinimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikta informacija apie gamybos savikainos įvertinimą. Gamybos savikainos įvertinime pateiktos numatomo prekės gamybos medžiagų ir pajėgumo suvartojimo išlaidos pagal suplanuotą gamybos užsakymo kiekį. 
 
 Sukūrę gamybos užsakymą, turite įvertinti gamybos išlaidas. Tikslas yra įvertinti prekės ir maršruto suvartojimą gamybos proceso metu, nes šie įvertinimai naudojami kaip tolesnio planavimo ir gamybos procesų pagrindas.
@@ -59,6 +62,8 @@ Savikainos įvertinime taip pat pateikta ši informacija:
 -   ankstesnių gamybos procesų savikainos informacijos palyginimas;
 -   biudžeto ir prognozės informaciją;
 -   gamybos apimties, kuri reikalinga tam tikrai savikainai išlaikyti, įvertinimas.
+
+
 
 
 

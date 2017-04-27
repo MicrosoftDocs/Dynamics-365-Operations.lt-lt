@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>Įvežimo į ES sertifikatai
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacijos apie įvežimo į Europos Sąjungą (ES) sertifikatus.
 
 Galite atlikti toliau nurodytas užduotis, susijusias su Europos Sąjungos (ES) įrašo sertifikatu.
@@ -76,7 +79,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>ES įrašo sertifikato kūrimas, registravimas ir įkėlimas
-Galite sukurti ES įrašo sertifikatą automatiškai arba rankiniu būdu. ES įrašas sertifikatą sukuriamas ir spausdinami automatiškai, kai registruojate važtaraštį ar SF klientui naudodami, **pakuotės lapelis parašėte** puslapis arba **registravimo SF** puslapis. Norėdami neautomatiniu būdu sukurti arba atspausdinti ES įrašas sertifikato pardavimo SF, naudokite su **SF žurnalas** puslapis. Be to, galite naudoti **Įrašų sertifikatų žurnalo** puslapį, kad įvestumėte informaciją apie trečiosios šalies išduotą ES įrašo sertifikatą.
+Galite sukurti ES įrašo sertifikatą automatiškai arba rankiniu būdu. ES įrašo sertifikatas sukuriamas ir užregistruojamas automatiškai, kai užregistruojate važtaraštį arba SF, skirtą klientui, naudodami puslapį **Važtaraščio registravimas** arba **SF registravimas**. Norėdami kliento SF ES įrašo sertifikatą kurti arba perspausdinti neautomatiškai, naudokite puslapį **SF žurnalas**. Be to, galite naudoti **Įrašų sertifikatų žurnalo** puslapį, kad įvestumėte informaciją apie trečiosios šalies išduotą ES įrašo sertifikatą.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>ES įrašo sertifikato kūrimas automatiškai arba rankiniu būdu
 
@@ -121,6 +124,8 @@ Jei neturite prieigos prie puslapių, kurie naudojami užduočiai atlikti, kreip
 </tr>
 </tbody>
 </table>
+
+
 
 
 

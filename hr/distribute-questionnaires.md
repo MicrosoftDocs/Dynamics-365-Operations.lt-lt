@@ -1,6 +1,6 @@
 ---
 title: "Platinti ir pildyti klausimyną"
-description: "Šioje temoje aiškinama, kaip paskirstyti klausimynus, kurie kuriate, taip, kad jie yra asmuo arba grupė žmonių, kurie jas užbaigti."
+description: "Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Platinti ir pildyti klausimyną
 
-Šioje temoje aiškinama, kaip paskirstyti klausimynus, kurie kuriate, taip, kad jie yra asmuo arba grupė žmonių, kurie jas užbaigti. 
+Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
 
 Platinti klausimyną galima keliais būdais.
 
@@ -38,7 +38,7 @@ Platinti klausimyną galima keliais būdais.
 -   Sukurkite grafiką. Tada klausimynas gali būti prieinamas keliems žmonėms.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Klausimyno pažymėjimas kaip aktyvaus
-Nustačius, **Active** lauko į **taip** ant į **klausimynus** puslapyje, jūs padaryti klausimynas skirtas visiems darbuotojams atlikti. Respondentai gali užpildyti klausimyną kelis kartus. Ši funkcija yra naudinga, jei norite rinkti nuolatinio grįžtamojo ryšio ištisus metus. Pavyzdžiui, galite sukurti klausimyną, kurį darbuotojai naudotų teikti atsiliepimams apie valgyklos pietų paslaugą.
+Puslapio **Klausimynai** lauką **Aktyvus** nustačius į **Taip**, klausimyną gali pildyti visi darbuotojai. Respondentai klausimyną gali pildyti kelis kartus. Ši funkcija yra naudinga, jei norite atsiliepimus rinkti visus metus. Pavyzdžiui, galite sukurti klausimyną, kurį darbuotojai naudotų teikti atsiliepimams apie valgyklos pietų paslaugą.
 
 ## <a name="questionnaire-groups"></a>Klausimynų grupės
 Galite nustatyti klausimyno grupes ir tada įtraukti respondentus, kuriems klausimynas turėtų būti išplatintas. 
@@ -48,7 +48,7 @@ Kurti klausimyno grupes galite tolesniuose puslapiuose.
 -   **Klausimyno grupės** – pasirinktą klausimyną gali pildyti tik klausimyno grupės asmenys. Pavyzdžiui, jūsų tikslinė auditorija yra rangovai, todėl klausimyno grupę sukuriate konkrečiai tiems respondentams.
 -   **Klausimyno grupės nariai** – į šias klausimyno grupes galite pridėti žmonių.
 
-Priskirti klausimyną grupę į klausimyno klausimus, dėl to **klausimynus** spustelėkite **vartotojo teises**. Po klausimyno įrašomas kaip aktyvų, klausimyno grupės nariai gali užpildyti klausimyną. Ši funkcija yra naudinga, jei norite išbandyti klausimyną dėl pasirinktos grupės žmonių, prieš ją iškočiokite didesnei grupei, arba jei norite nukreipti klausimyno labai konkrečiai auditorijai.
+Norėdami klausimynui priskirti klausimyno grupę, puslapyje **Klausimynai** spustelėkite **Naudotojų teisės**. Klausimyną įrašius kaip aktyvų, jį gali pildyti klausimyno grupės nariai. Ši funkcija naudinga, norint klausimyną išbandyti su pasirinkta žmonių grupe ir tada jį naudoti su didesne grupe, arba norint klausimyną taikyti labai konkrečiai auditorijai.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Klausimyno suplanuoti atsakymų seansai
 Suplanuoti atsakymų seansai yra klausimynai, kuriuos sukūrėte ir kuriems pasirinkote respondentus. 
@@ -82,24 +82,24 @@ Nurodyti klausimyno grafiko planavimo tipus galite **Klausimyno grafikų** pusla
 
 Nuorodų tipus galite naudoti norėdami įvesti kriterijus respondentams, kuriuos galbūt pasirinksite planuodami klausimyną. 
 
-Norėdami nustatyti klausimyno nuorodų tipus, naudokite **Nuorodų tipų** puslapį. Kiekvienos nuorodos tipas atitinka lentelę programoje Microsoft Dynamics 365 operacijoms. Kurdami klausimyno grafikus, galite nurodyti atskirus lentelės įrašus arba įrašų, su kuriais klausimynas bus susietas, intervalą. 
+Norėdami nustatyti klausimyno nuorodų tipus, naudokite **Nuorodų tipų** puslapį. Kiekvienas nuorodos tipas atitinka lentelę programoje „Microsoft Dynamics 365 for Operations‟. Kurdami klausimyno grafikus, galite nurodyti atskirus lentelės įrašus arba įrašų, su kuriais klausimynas bus susietas, intervalą. 
 
 Pvz., jei pasirenkate Kursų lentelę, galite nuspręsti, kuriam konkrečiam kursui klausimynas bus skirtas. Kai nustatote Kursų lentelės nuorodą, **Kursų** puslapyje tampa prieinami kai kurie laukai ir mygtukai.
 
 ### <a name="questionnaire-schedules"></a>Klausimynų grafikai
 
-Klausimyno tvarkaraščius galite sukurti kelis suplanuotų atsakymų seansus grupės vartotojams, pagal nuorodos tipą. Kurti tvarkaraštį su **klausimyną tvarkaraščių** puslapis. Pasirinkite planavimo tipas kategorizuoti tvarkaraštį ir taip pat nuorodos tipą, kuris turėtų būti naudojamas pateikti užklausą sistemą konkretiems vartotojams. Pavyzdžiui, jei nustatysite nuorodos tipą kursų lentelę, galite pasirinkti tam tikro kurso, su **nuoroda** srityje. 
+Klausimyno grafikus galite naudoti norėdami pagal nuorodos tipą naudotojų grupei generuoti kelis suplanuotus atsakymų seansus. Puslapyje **Klausimyno grafikai** sukurkite grafiką. Pasirinkite planavimo tipą grafikui kategorizuoti ir taip pat pasirinkite nuorodos tipą, kurį reikėtų naudoti sistemai teikiant užklausas apie konkrečius naudotojus. Pvz., jei nuorodos tipą nustatote į lentelė Kursai, **Nuorodos** lauke galite pasirinkti konkretų kursą. 
 
-Norėdami pasirinkti klausimyną ir kitus kriterijus, spustelėkite **Sąrankos informacija**. Pvz., nurodyti dėstytojo vardą ir pavardę kaip kriterijų, jei klausimynas yra instruktorius įvertinimas. Baigę įvesti sąrankos duomenis, sistema sugeneruoja suplanuotus atsakymų seansus vartotojams, kurie yra įtraukti į užklausą. 
+Norėdami pasirinkti klausimyną ir kitus kriterijus, spustelėkite **Sąrankos informacija**. Pavyzdžiui, jei klausimynas yra dėstytojo vertinimas, kaip kriterijų nurodykite dėstytojo vardą ir pavardę. Jums baigus įvesti sąrankos informaciją, sistema sugeneruoja suplanuotus atsakymų seansus, skirtus naudotojams, įtrauktiems į užklausą. 
 
 Norėdami peržiūrėti grafiko atsakymų seansus, spustelėkite **Suplanuoti atsakymų seansai**. Tada galite rankiniu būdu kurti papildomų suplanuotų atsakymų seansų arba naikinti neatsakytus suplanuotus atsakymų seansus. 
 
-Spustelėkite **funkcijos**&gt;**pradėti** pateikti klausimyno vartotojai, susijusių suplanuotų atsakymų seansus. Norėdami peržiūrėti užpildytus klausimyno atsakymus, spustelėkite **Atsakymai**. Neprivaloma: klausimyno grafikų nuostatas, suplanuotus atsakymų seansus ir atsakymus galite kopijuoti į naują klausimyno grafiką.
+Norėdami, kad klausimynas būtų pasiekiamas susijusių suplanuotų atsakymų seansų naudotojams, spustelėkite **Funkcijos** &gt; **Pradėti**. Norėdami peržiūrėti užpildytus klausimyno atsakymus, spustelėkite **Atsakymai**. Neprivaloma: klausimyno grafikų nuostatas, suplanuotus atsakymų seansus ir atsakymus galite kopijuoti į naują klausimyno grafiką.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Respondentų informavimas apie jiems prieinamus klausimynus
 Kai platinate klausimyną, turite informuoti respondentus, kad jiems prieinami klausimynai. 
 
-**Pastaba:** respondentų turi būti vartotojams Microsoft Dynamics 365 operacijoms užpildyti anketą.
+**Pastaba.** Kad galėtų pildyti klausimyną, respondentai turi būti „Microsoft Dynamics 365 for Operations‟ naudotojai.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Respondentų informavimas apie suplanuotą atsakymų seansą
 
@@ -107,7 +107,7 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentų informavimas apie planavimą
 
-Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite **Darbuotojų savitarnos dalies el. pašto** skirtuke. Pradėjus tvarkaraštyje, spustelėkite **funkcijos**&gt;**siųsti el. paštu** kurti ir siųsti laišką į respondentų. Respondentų galite prisijungti prie svetainės ir užpildyti klausimyną. 
+Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite **Darbuotojų savitarnos dalies el. pašto** skirtuke. Kai grafikas pradėtas, spustelėkite **Funkcijos** &gt; **Siųsti el. laišką**, kad generuotumėte ir visiems respondentams nusiųstumėte el. laišką. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
 **Pastaba.** Kad galėtumėte naudoti el. pašto funkcijas, **El. pašto parametrų** puslapyje jūsų IT administratorius turi įvesti el. pašto nuostatas.
 
@@ -119,7 +119,7 @@ Galite pabaigti suplanuotą klausimyną, kai visi respondentai užbaigė jiems p
 ## <a name="completing-questionnaires"></a>Klausimynų pildymas
 Jums sukūrus ir išplatinus klausimyną, jį gali pildyti pasirinkti respondentai. Galite užpildyti klausimynus, kuriuos galite pasiekti iš dviejų vietų:
 
--   Naršymo srityje spustelėkite **klausimynus**&gt;**paskirstyti**&gt;**užpildyti anketą,**.
+-   Naršymo srityje spustelėkite **Klausimynai** &gt; **Platinti** &gt; **Pildyti klausimyną**.
 -   Darbuotojų savitarnoje spustelėkite **Pildytini klausimynai**.
 
 Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų grupėms arba visiems tinklo naudotojams.
@@ -131,6 +131,6 @@ Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų gru
 
 [Klausimynų naudojimas](questionnaires.md)
 
-[Peržiūri ir klausimynų rezultatų](evaluate-questionnaire-results.md)
+[Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
 
 

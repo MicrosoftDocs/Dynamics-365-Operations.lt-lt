@@ -1,5 +1,5 @@
 ---
-title: "Atsiskaityti dalies klientų mokėjimų ir galutinio mokėjimo visiškai iki nuolaidos data"
+title: "Sudengiamas dalinis kliento mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą"
 description: "Šiame straipsnyje pateikiami scenarijai, kuriais parodoma, kaip įrašyti dalinius kliento mokėjimus ir mokėjimo nuolaidos laikotarpiu taikyti mokėjimo nuolaidą."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Atsiskaityti dalies klientų mokėjimų ir galutinio mokėjimo visiškai iki nuolaidos data
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis kliento mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiami scenarijai, kuriais parodoma, kaip įrašyti dalinius kliento mokėjimus ir mokėjimo nuolaidos laikotarpiu taikyti mokėjimo nuolaidą.
 
-Fabrikam parduoda prekes klientui 4028. Fabrikam siūlo 1 proc nuolaida, jei sąskaita yra apmokėta per 14 dienų. SF turi būti apmokėtos per 30 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus yra ant to **sudaro gautinų sumų parametrai** puslapis.
+Fabrikam parduoda prekes 4028 klientui. Fabrikam siūlo 1 procento mokėjimo nuolaidą, jei sąskaita faktūra apmokama per 14 dienų. SF turi būti apmokėtos per 30 dienų. „Fabrikam“ taip pat siūlo dalinių mokėjimų mokėjimo nuolaidas. Sudengimo parametrus rasite puslapyje **Gautinų sumų parametrai**.
 
 ## <a name="customer-invoice"></a>Kliento SF
-Birželio 25 d. Arnie patenka ir postų 1000,00 4028 kliento SF. Arnas gali šią operaciją peržiūrėti puslapyje **Kliento operacijos**.
+Birželio 25 d. Eglė 4028 klientui įveda ir užregistruoja sąskaitą faktūrą 1 000,00 sumai. Arnas gali šią operaciją peržiūrėti puslapyje **Kliento operacijos**.
 
 | Kvitas   | Operacijos tipas | Data      | PVM sąskaita faktūra | Operacijos valiutos debeto suma | Operacijos valiutos kredito suma | Likutis  | Valiuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie spusteli skirtuką **Mokėjimo nuolaida** ir peržiūri nuolaidos sumą.
 | 2015-07-25          | 0,00                 | 1000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Dalinis mokėjimas naudojant puslapį Įvesti kliento mokėjimus
-4028 klientas siunčia mokėjimą už 500,00 liepos 1 dieną. Norėdami įvesti šį mokėjimo, nespusteli Arnie **linijos**. Vietoj to, jis įrašo mokėjimą sukūręs naują mokėjimų žurnalą ir tada atidaro puslapį **Įvesti kliento mokėjimus**. Jis įveda mokėjimo informaciją ir pažymi sąskaitą faktūrą, kurią įvedė. Kai Arnie įveda **500,00** kaip sumą, jis taip pat įveda **500,00** tinklelio lauke **Mokėtina suma**. Kadangi „Fabrikam“ leidžia mokėjimo nuolaidą ir daliniams mokėjimams, jis mato, kad 5,05 dalinio mokėjimo nuolaida taip pat bus taikoma. Ši nuolaida apskaičiuojama taip: 500,00 ÷ 0,99 x 0,01 = 5,05. (Šiame skaičiavime 500,00 padalinti iš 0,99, nes taikoma 1 % nuolaida. Todėl klientas apmoka 99 procentus sąskaitos faktūros. Tada rezultatas padauginamas iš nuolaidos procento, tai yra, iš 1 procento arba 0,01. Jei klientas visą 10.00 nuolaida, suma, kuri turi būti atsiskaityta bus 990.00.) Nuolaida informacija atsiranda tinklelio apačioje su **įvesti kliento mokėjimai** puslapis.
+4028 klientas siunčia 500,00 mokėjimą liepos 1 d. Norėdama įvesti šį mokėjimą, Eglė nespusteli **Eilutės**. Vietoj to, jis įrašo mokėjimą sukūręs naują mokėjimų žurnalą ir tada atidaro puslapį **Įvesti kliento mokėjimus**. Jis įveda mokėjimo informaciją ir pažymi sąskaitą faktūrą, kurią įvedė. Kai Arnie įveda **500,00** kaip sumą, jis taip pat įveda **500,00** tinklelio lauke **Mokėtina suma**. Kadangi „Fabrikam“ leidžia mokėjimo nuolaidą ir daliniams mokėjimams, jis mato, kad 5,05 dalinio mokėjimo nuolaida taip pat bus taikoma. Ši nuolaida apskaičiuojama taip: 500,00 ÷ 0,99 x 0,01 = 5,05. (Šiame skaičiavime 500,00 padalinti iš 0,99, nes taikoma 1 % nuolaida. Todėl klientas apmoka 99 procentus sąskaitos faktūros. Tada rezultatas padauginamas iš nuolaidos procento, tai yra, iš 1 procento arba 0,01. Jei klientas gauna visą 10,00 nuolaidą, suma, kuri turi būti sudengta, bus 990,00.) Nuolaidos informacija rodoma tinklelyje, puslapio **Įvesti kliento mokėjimus** apačioje.
 
 | Taikytinos mokėjimo nuolaidos suma | Pritaikyta mokėjimo nuolaida | Mokėtina suma |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Dalinis mokėjimas naudojant žurnalo eilutes
-Vietoj to, kad atidarytų puslapį **Įvesti kliento mokėjimus** mokėjimo žurnale, Arnie gali spustelėti **Eilutės** ir įvesti mokėjimą. Mokėjimo žurnalas rodomas, kur Arnie galite įvesti eilutės klientų 4028. Tada Arnas atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sudengtiną SF. Arnie pažymi sąskaitą faktūrą ir pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vėlgi, jis mato, kad lauko **Mokėjimo nuolaidos suma** vertė yra **10,00** visai sąskaitai faktūrai, o lauko **Taikytinos mokėjimo nuolaidos suma** vertė yra **5,05**. Todėl šios sąskaitos faktūros suma, kurią Arnie sudengia, yra 505,05.
+Vietoj to, kad atidarytų puslapį **Įvesti kliento mokėjimus** mokėjimo žurnale, Arnie gali spustelėti **Eilutės** ir įvesti mokėjimą. Rodomas mokėjimo žurnalas, kur Eglė gali įvesti eilutę 4028 klientui. Tada Arnas atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sudengtiną SF. Arnie pažymi sąskaitą faktūrą ir pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vėlgi, jis mato, kad lauko **Mokėjimo nuolaidos suma** vertė yra **10,00** visai sąskaitai faktūrai, o lauko **Taikytinos mokėjimo nuolaidos suma** vertė yra **5,05**. Todėl šios sąskaitos faktūros suma, kurią Arnie sudengia, yra 505,05.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie užregistruoja šį mokėjimo žurnalą ir peržiūri kliento operacijas p
 | NUOL-10010 | Mokėjimo nuolaida    | 2015-07-01  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Mokėjimas          | 2015-07-08  |         |                                      | 495,00                                | 0,00    | USD      |
 | NUOL-10011 | Mokėjimo nuolaida    | 2015-07-08  |         |                                      | 5,00                                  | 0,00    | USD      |
+
+
 
 
 

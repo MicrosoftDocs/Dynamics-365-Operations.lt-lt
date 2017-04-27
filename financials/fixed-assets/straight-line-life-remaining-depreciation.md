@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo likutinės vertės nusidėvėjimo metodas.
 
 Kai nustatote ilgalaikio turto nusidėvėjimo profilį ir puslapio **Nusidėvėjimo profiliai** lauke **Metodas** pasirenkate **Likęs tiesiogiai proporcingas laikas**, ilgalaikio turto nusidėvėjimas, priskirtas nusidėvėjimo profiliui, bus paremtas likusio tiesiogiai proporcingo turto nusidėvėjimo laiko metodu. Paprastai tai būna ta pati nusidėvėjimo suma kiekvienu nusidėvėjimo laikotarpiu. Norėdami nustatyti likusio tiesiogiai proporcingo laiko nusidėvėjimo metodą, taip pat turite pasirinkti puslapio **Nusidėvėjimo šablonai** laukų **Nusidėvėjimo metai** ir **Laikotarpio dažnis** parinktis. Parinktys, prieinamos lauke **Laikotarpio dažnis** skiriasi atsižvelgiant į reikšmę, pasirinktą lauke **Nusidėvėjimo metai**.
@@ -36,7 +39,7 @@ Puslapio **Nusidėvėjimo profiliai** lauke **Nusidėvėjimo metai** galite pasi
 
 ### <a name="calendar"></a>Kalendorius
 
-Jei pasirinksite **kalendoriaus**, į ***nusidėvėjimo metų*** srityje, vienerius metus nuo sausio 1 d. iki gruodžio 31 manoma, net jei jūsų nustatytų finansinio kalendoriaus skirtingai. Parinktimi **Kalendoriniai** nusidėvėjimo pagrindas atnaujinamas kiekvienų metų sausio 1 d. Paprastai nusidėvėjimo pagrindas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktame pavyzdyje nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
+Lauke ***Nusidėvėjimo metai*** pasirinkus **Kalendorius**, metais laikomas laikotarpis nuo sausio 1 d. iki gruodžio 31 d., net jei finansinį kalendorių esate nustatę kitaip. Parinktimi **Kalendoriniai** nusidėvėjimo pagrindas atnaujinamas kiekvienų metų sausio 1 d. Paprastai nusidėvėjimo pagrindas apskaičiuojamas iš balansinės vertės atėmus likvidacinę vertę. Toliau šioje temoje pateiktame pavyzdyje nusidėvėjimo pagrindas yra skaičiavimų stulpelyje nurodytas pirmos išraiškos skaitiklis. Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
 -   Pasirinkus **Kasmet**, suma registruojama gruodžio 31 d.
 -   Pasirinkus **Kas mėnesį**, mėnesio suma registruojama kiekvieno kalendorinio mėnesio pabaigoje.
@@ -48,7 +51,7 @@ Pavyzdžiui, jei pasirenkate **Kasmet**, metinis nusidėvėjimas registruojamas 
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke **Nusidėvėjimo metai** pasirinkus **Finansiniai metai**, likusio tiesiogiai proporcingo laiko nusidėvėjimo metodas. Nusidėvėjimas skaičiuojamas pagal likusius finansinius metus. Pvz., finansinių metų liepos 1, 2015, iki 2016 m. birželio 30 nusidėvėjimo skaičiavimo prasideda liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų trukmė nustatoma pagal ataskaitinius laikotarpius, kurie nustatomi puslapyje **Finansiniai kalendoriai**. Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
+Lauke **Nusidėvėjimo metai** pasirinkus **Finansiniai metai**, likusio tiesiogiai proporcingo laiko nusidėvėjimo metodas. Nusidėvėjimas skaičiuojamas pagal likusius finansinius metus. Pvz., jei finansiniai metai prasideda 2015 m. liepos 1 d. ir baigiasi 2016 m. birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Koreguojamas kiekvieno ataskaitinio laikotarpio nusidėvėjimas. Kitų finansinių metų trukmė nustatoma pagal ataskaitinius laikotarpius, kurie nustatomi puslapyje **Finansiniai kalendoriai**. Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nurodytos lauko **Laikotarpio dažnis** parinktys.
 
 -   **Kasmet** apskaičiuota bendroji finansinių metų nusidėvėjimo suma registruojama kaip viena suma paskutinę finansinių metų dieną.
 -   **Ataskaitinis laikotarpis ** apskaičiuoja bendrąją finansinių metų nusidėvėjimo sumą. Tada ši suma yra sukaupiama per ataskaitinius laikotarpius, kurie nurodomi nustatyto knygos finansinio kalendoriaus puslapyje **Finansiniai kalendoriai**.
@@ -73,6 +76,8 @@ Nusidėvėjimo suma yra ta pati kiekvienais metais: (įsigijimo išlaidos – li
 | 3 metai | (7 000 – 1 000) ÷ 3 = 2 000                   | 5 000                                 |
 | 4 metai | (5 000 – 1 000) ÷ 2 = 2 000                   | 3.000                                 |
 | 5 metai | (3 000 – 1 000) ÷ 1 = 2 000                   | 1000                                 |
+
+
 
 
 

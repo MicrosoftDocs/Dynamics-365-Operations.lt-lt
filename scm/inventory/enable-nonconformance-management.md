@@ -1,5 +1,5 @@
 ---
-title: Veiksmai neatitikties reikalavimams atveju valdymo
+title: "Neatitikimų valdymas"
 description: "Šiame straipsnyje aprašytas pagrindinis nustatymas, kuris reikalingas norint naudoti neatitikimus. Jei norite naudoti kokybės užsakymus, reikalingi papildomi nustatymai."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Veiksmai neatitikties reikalavimams atveju valdymo
+# <a name="nonconformance-management"></a>Neatitikimų valdymas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašytas pagrindinis nustatymas, kuris reikalingas norint naudoti neatitikimus. Jei norite naudoti kokybės užsakymus, reikalingi papildomi nustatymai. 
 
@@ -34,7 +37,7 @@ Norėdami įgalinti neatitikimo valdymą, atlikite toliau nurodytus veiksmus:
 1.  Apibrėžkite su neatitiktimis susijusius atsargų ir sandėlio valdymo parametrus:
     -   Nustatykite parinkčiai **Naudoti kokybės valdymą** reikšmę **Taip**.
     -   Lauke **Valandinis tarifas** įveskite valandinį darbo tarifą vietine valiuta. Valandinis tarifas naudojamas apskaičiuojant su neatitikimu susijusias operacijų išlaidas. Valandinis tarifas ir apskaičiuotos išlaidos suteikia nuorodinės informacijos apie neatitiktį. Jie nesąveikauja su kitomis funkcijomis.
-    -   Naudoti su **kokybės vadyba** spustelėkite į **ataskaitos nustatymas** puslapis nustatyti dokumento spausdinimo tipas. Galite spausdinti ataskaitą veiksmai neatitikties reikalavimams atveju, veiksmai neatitikties reikalavimams atveju žymę ar pataisymų ataskaita. Galite nurodyti daugiau nei vieną įrašo tipą, norėdami spausdinti skirtingus dokumentų tipus ant ataskaitos, arba spausdinti vidines ir išorines pastabas. Gali būti paranku naudoti puslapį **Dokumento tipas** apibrėžiant unikalų neatitikties dokumento tipą ir unikalų taisymų dokumento tipą. Pavyzdžiui, norite įvesti pastabas apie neatitiktį naudodami unikalų neatitikties dokumento tipą. Tokiu atveju nustatykite unikalų dokumento tipą ataskaitos parinktyse.
+    -   Naudokite skirtuką **Kokybės valdymas**> puslapyje **Ataskaitos sąranka** , kad apibrėžtumėte spausdinamo dokumento tipą. Galite atspausdinti neatitikties ataskaitą, neatitikties žymę arba taisymo ataskaitą. Galite nurodyti daugiau nei vieną įrašo tipą, norėdami spausdinti skirtingus dokumentų tipus ant ataskaitos, arba spausdinti vidines ir išorines pastabas. Gali būti paranku naudoti puslapį **Dokumento tipas** apibrėžiant unikalų neatitikties dokumento tipą ir unikalų taisymų dokumento tipą. Pavyzdžiui, norite įvesti pastabas apie neatitiktį naudodami unikalų neatitikties dokumento tipą. Tokiu atveju nustatykite unikalų dokumento tipą ataskaitos parinktyse.
     -   Įgalinkite neatitikties ir taisymo nuorodų skaičių sekas.
 
 2.  Įgalinkite vartotojo neatitikčių patvirtinimą. Norėdami kiekvienam vartotojui, kuris turi patvirtinti neatitikimą, priskirti darbuotoją naudokite lauką **Vardas** puslapyje **Vartotojai**. Sistema naudoja darbuotojus, kurie keičia neatitikties būseną, sekdama neatitikties istoriją. Vartotojai negali patvirtinti neatitikties, nebent jiems buvo priskirtas darbuotojo identifikatorius.
@@ -47,10 +50,12 @@ Norėdami įgalinti neatitikimo valdymą, atlikite toliau nurodytus veiksmus:
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Kurti ir apdoroti neatitiktis (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Neatitikčių kūrimas ir apdorojimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Kokybės valdymo procesai](quality-management-processes.md)
 
-[Nustatykite būtinųjų sąlygų neatitikimų valdymo (darbo vadovas)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Neatitikimo valdymo būtinųjų sąlygų nustatymas(užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

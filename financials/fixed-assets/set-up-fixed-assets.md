@@ -1,9 +1,9 @@
 ---
-title: "Nustatyti ilgalaikį turtą"
+title: Ilgalaikio turto nustatymas
 description: "Šioje temoje pateikta Ilgalaikio turto modulio nustatymo peržiūra."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Nustatyti ilgalaikį turtą
+# <a name="set-up-fixed-assets"></a>Ilgalaikio turto nustatymas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje pateikta Ilgalaikio turto modulio nustatymo peržiūra.
 
@@ -43,9 +46,9 @@ Ilgalaikis turtas priskiriamas grupei, kai jis sukuriamas. Tada pagal numatytuos
 Pirmiausia reikėtų nustatyti nusidėvėjimo šablonus. Nusidėvėjimo šablone galite konfigūruoti, kaip turto vertė nusidėvi per tam tikrą laiką. Jums reikės nurodyti nusidėvėjimo būdą, nusidėvėjimo metus (kalendoriniai metai arba finansiniai metai) ir nusidėvėjimo dažnį.
 
 ## <a name="books"></a>Knygos
-Nustatę nusidėvėjimo šablonus, turite sukurti reikiamas turto knygas. Kiekvienoje knygoje sekamas atskiras turto finansinis ciklas. Knygas galima konfigūruoti, kad susietos operacijos būtų registruojamos DK. Ši konfigūracija yra pagal nutylėjimą, nes ji yra paprastai naudojamas įmonės finansinė atskaitomybė. Knygas, kurios nereikia registruoti į DK skelbti tik ilgalaikio turto subledger ir paprastai naudojami mokesčių ataskaitas.
+Nustatę nusidėvėjimo šablonus, turite sukurti reikiamas turto knygas. Kiekvienoje knygoje sekamas atskiras turto finansinis ciklas. Knygas galima konfigūruoti, kad susietos operacijos būtų registruojamos DK. Ši konfigūracija yra numatytasis parametras, nes ji paprastai naudojama įmonės finansinėse ataskaitose. Knygos, kurios neregistruojamos DK, gali būti registruojamos tik papildomoje ilgalaikio turto knygoje ir jos paprastai naudojamos mokesčių ataskaitų tikslais.
 
-Kiekvienai knygai priskiriamas pirminis nusidėvėjimo šablonas. Jei galima, knygoms taip pat gali būti priskiriamas alternatyvus arba perjungimo nusidėvėjimo šablonas. Norėdami automatiškai įtraukti ilgalaikio turto knygą į nusidėvėjimą, turite įjungti parinktį Skaičiuoti nusidėvėjimą. Jei ši pasirinktis nepasirinkta turto, nusidėvėjimo pasiūlymą praleidžia turto.
+Kiekvienai knygai priskiriamas pirminis nusidėvėjimo šablonas. Jei galima, knygoms taip pat gali būti priskiriamas alternatyvus arba perjungimo nusidėvėjimo šablonas. Norėdami automatiškai įtraukti ilgalaikio turto knygą į nusidėvėjimą, turite įjungti parinktį Skaičiuoti nusidėvėjimą. Jei ši turto parinktis nepasirinkta, nusidėvėjimo pasiūlyme turtas praleidžiamas.
 
 Taip pat galite nustatyti išvestinės knygas. Nurodytos išvestinės operacijos bus užregistruotos kaip pirminės operacijos pagal išvestines knygas. Todėl paprastai nustatomos ne nusidėvėjimo operacijų, o įsigijimų ir perleidimų išvestinės operacijos.
 
@@ -62,14 +65,16 @@ Taip pat galite nurodyti konkretaus ilgalaikio turto grupės ir knygos derinio s
 ## <a name="fixed-asset-parameters"></a>Ilgalaikio turto parametrai
 Paskutinis veiksmas yra atnaujinti ilgalaikio turto parametrus.
 
-Laukas Kapitalizacijos ribinė vertė nurodo, koks turtas nusidėvėjo. Jei pirkimo eilutėje yra pažymėtas kaip ilgalaikį turtą, bet jis neatitinka nurodyto kapitalizacijos ribinė vertė, ilgalaikis turtas vis dar kuriama arba atnaujinama, bet skaičiuoti nusidėvėjimo pasirinktis bus nustatyta į Nr. Todėl turtas nebus automatiškai nusidėvėti kaip nusidėvėjimo pasiūlymams.
+Laukas Kapitalizacijos ribinė vertė nurodo, koks turtas nusidėvėjo. Jei pirkimo eilutė pasirenkama kaip ilgalaikis turtas, bet ji neatitinka nurodytos kapitalizacijos ribinės vertės, ilgalaikis turtas vis tiek sukuriamas arba atnaujinamas, bet parinktis Skaičiuoti nusidėvėjimą nustatoma į Ne. Todėl turtas nebus nusidėvėjęs automatiškai kaip nusidėvėjimo pasiūlymų dalis.
 
 Svarbi parinktis yra Automatiškai kurti nusidėvėjimo koregavimo sumas su likvidavimu. Kai nustatote šią parinktį į Taip, turto nusidėvėjimas automatiškai koreguojamas pagal turto likvidavimo metu galiojančius nusidėvėjimo nustatymus. Taip pat yra galimybė įsigyjant ilgalaikį turtą naudojant tiekėjo SF iš jūsų įsigijimo sumos atskaityti mokėjimo nuolaidas.
 
-„FastTab“ Pirkimo užsakymai galite konfigūruoti, kaip norite, kad būtų sukurtas jūsų turtas kaip pirkimo proceso dalis. Pirmoji parinktis yra Leisti turto įsigijimą iš pirkimo. Jei šią parinktį nustatote į Taip, turto įsigijimas vykdomas, kai užregistruojama SF. Jei nustatote šią pasirinktį kaip ne, jūs vis dar galite įdėti ilgalaikio turto pirkimo užsakymo (PU) ir SF, bet nebus registruojamas įsigijimo. Registravimą reikės atlikti kaip atskirą ilgalaikio turto žurnalo veiksmą. Kurti turto važtaraštis arba SF registravimo parinktis leidžia sukurti naują turtą "ant skristi" registruojant, taip, kad ji nebūtinai turi būti nustatyta kaip ilgalaikio turto, iki sandorio. Paskutinė pasirinktis Tikrinti, ar įvedant eilutę kuriamas ilgalaikis turtas taikoma tik pirkimo paraiškoms.
+„FastTab“ Pirkimo užsakymai galite konfigūruoti, kaip norite, kad būtų sukurtas jūsų turtas kaip pirkimo proceso dalis. Pirmoji parinktis yra Leisti turto įsigijimą iš pirkimo. Jei šią parinktį nustatote į Taip, turto įsigijimas vykdomas, kai užregistruojama SF. Jei šią parinktį nustatote į Ne, vis tiek galite ilgalaikį turtą taikyti pirkimo užsakyme (PU) ir SF, bet įsigijimas nebus registruojamas. Registravimą reikės atlikti kaip atskirą ilgalaikio turto žurnalo veiksmą. Parinktis Kurti turtą registruojant produkto gavimo kvitą ar sąskaitą faktūrą suteikia galimybę iš karto kurti naują turtą, todėl prieš operaciją jo kaip ilgalaikio turto nustatyti nereikės. Paskutinė pasirinktis Tikrinti, ar įvedant eilutę kuriamas ilgalaikis turtas taikoma tik pirkimo paraiškoms.
 
 Priežasčių kodus galima konfigūruoti taip, kad jų reikėtų keičiant ilgalaikį turtą arba atliekant konkrečias ilgalaikio turto operacijas.
 
 Galiausiai skirtuke Numeracijos galite nurodyti ilgalaikio turto numeracijas. Ilgalaikio turto numeraciją galima perrašyti, jeigu nurodyta ilgalaikio turto grupės numeracija.
+
+
 
 

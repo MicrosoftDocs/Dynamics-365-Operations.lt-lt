@@ -85,6 +85,6 @@ Daugiau informacijos ieškokite dalies <a href="https://technet.microsoft.com/en
 
 #<a name="see-also"></a>Taip pat žiūrėkite
 
-[Kurti finansinę ataskaitą] ((dynamics365\operations\financials\general-ledger\generate-finansinė-ataskaita)
+[Generuoti finansinę ataskaitą]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

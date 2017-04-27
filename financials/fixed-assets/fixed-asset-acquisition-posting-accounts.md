@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Ilgalaikio turto įsigijimo registravimo sąskaitos
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje paaiškinama, kaip nustatyti turto įgijimo DK registravimo sąskaitas.
 
 Sąskaitos, naudojamos registruoti ilgalaikio turto įsigijimams, gali skirtis – tai priklauso nuo turtui įsigyti naudoto metodo. Ilgalaikio turto registravimo profilių puslapyje, skirtuke DK sąskaitos pasirinkite Įsigijimas ir Įsigijimo koregavimas, kad nustatytumėte ilgalaikio turto sąskaitas, registruotinas DK. 
@@ -40,6 +43,8 @@ Kai SF žurnalas arba Pirkimo užsakymai, esantys Mokėtinose sumose, naudojami 
 
 Įgijimams, registruotiems naudojant žurnalą Atsargos į ilgalaikį turtą, esančiu DK, ilgalaikis turtas perkamas ne iš išorinių šaltinių, o perkeliamas iš įmonės atsargų. Todėl korespondentinė sąskaita yra atsargų valdymo atsargų prekės išdavimo sąskaita.
 
-Daugiau informacijos rasite [įsigyti turtas per viešųjų pirkimų](acquire-assets-procurement.md).
+Norėdami gauti daugiau informacijos, žr. [Turto pirkimas įsigyjant](acquire-assets-procurement.md).
+
+
 
 

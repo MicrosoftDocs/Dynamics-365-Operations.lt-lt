@@ -1,6 +1,6 @@
 ---
 title: Organizacijos administravimo pagrindinis puslapis
-description: "Ši tema rodo, išteklių, kurie padės jums naudoti Microsoft Dynamics 365 veiklą organizacijoje."
+description: "Šioje temoje nurodyti ištekliai, kurie padės organizacijoje naudotis „Microsoft Dynamics 365 for Operations“."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Organizacijos administravimo pagrindinis puslapis
 
-Ši tema rodo, išteklių, kurie padės jums naudoti Microsoft Dynamics 365 veiklą organizacijoje.
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje nurodyti ištekliai, kurie padės organizacijoje naudotis „Microsoft Dynamics 365 for Operations“.
 
 <a name="number-sequences"></a>Numeravimai
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Nustatyti numeraciją naudodami vedlį](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (darbo vadovas)
--   [Nustatyti numeraciją individualiai](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (darbo vadovas)
+-   [Numeracijos apžvalga](number-sequence-overview.md)
+-   [Nustatyti numeracijas naudojant vedlį](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Užduočių vedlys)
+-   [Atskirų numeracijų nustatymas](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Užduočių vedlys)
 
 ## <a name="address-books"></a>Adresų knygelės
--   [Address books](qa-address-books.md)
--   [Apžvalga: Adresų knyga](overview-global-address-book.md)
--   [Planavimo adresų knygelės ir papildomos adresų knygelės](plan-configuration-global-address-book-additional-address-books.md)
+-   [Adresų knygelės](qa-address-books.md)
+-   [Apžvalga: visuotinė adresų knygelė](overview-global-address-book.md)
+-   [Visuotinės adresų knygelės ir papildomos adresų knygelės konfigūracijos planavimas](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Darbo eiga
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Darbo eigos sistemos struktūra](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [Darbo eigos sistemos apžvalga](overview-workflow-system.md)
+-   [Darbo eigos sistemos architektūra](workflow-system-architecture.md)
+-   [Darbo eigos elementai](workflow-elements.md)
+-   [Darbo eigos veiksmai](workflow-actions.md)
 -   [Darbo eigos kūrimas](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Darbo eigos ypatybių konfigūravimas](configure-workflow-properties.md)
 -   [Neautomatizuotos užduoties konfigūravimas](configure-manual-task-workflow.md)
 -   [Automatizuotos užduoties konfigūravimas](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Patvirtinimo proceso konfigūravimas](configure-approval-process-workflow.md)
 -   [Patvirtinimo veiksmo konfigūravimas](configure-approval-step-workflow.md)
 -   [Neautomatizuoto sprendimo konfigūravimas](configure-manual-decision-workflow.md)
 -   [Sąlyginio sprendimo konfigūravimas](configure-conditional-decision-workflow.md)
 -   [Lygiagrečios veiklos konfigūravimas](configure-parallel-activity-workflow.md)
 -   [Lygiagrečios šakos konfigūravimas](configure-parallel-branch-workflow.md)
--   [Konfigūruoti eilutės elemento darbo eigos elementui](configure-line-item-workflow.md)
+-   [Eilutės elemento darbo eigos elemento konfigūravimas](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Atvejų valdymas
--   [Planavimas: Atvejo nustatymo](plan-case-management.md)
--   [Bylų tvarkymo pavyzdžiai](cases.md)
+-   [Planavimas: atvejo nustatymas](plan-case-management.md)
+-   [Atvejų valdymo pavyzdžiai](cases.md)
 
 ## <a name="electronic-signatures"></a>Elektroniniai parašai
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Nustatyti elektroninio parašo](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (darbo vadovas)
+-   [Elektroninio parašo apžvalga](electronic-signature-overview.md)
+-   [Elektroninių parašų nustatymas](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Užduočių vedlys)
 
 ## <a name="organizations"></a>Organizacijos
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Sukurti valdymo bloką](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (darbo vadovas)
--   [Sukurti organizacijos hierarchijos](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (darbo vadovas)
--   [Sukurti juridinio asmens](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (darbo vadovas)
+-   [Organizacijos ir organizacijų hierarchijos](organizations-organizational-hierarchies.md)
+-   [Organizacijos hierarchijos planavimas](plan-organizational-hierarchy.md)
+-   [Valdymo vieneto kūrimas](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Užduočių vedlys)
+-   [Organizacijos hierarchijos kūrimas](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Užduočių vedlys)
+-   [Juridinio subjekto kūrimas](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Užduočių vedlys)
 
-## <a name="general-administration"></a>Bendras administracijos
--   [Keisti Baneris ar logotipas](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (darbo vadovas)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+## <a name="general-administration"></a>Bendrasis administravimas
+-   [Keisti reklaminę juostą arba logotipą](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Užduočių vedlys)
+-   [Apie datos / laiko duomenis ir laiko juostas](date-time-zones.md)
+-   [Įrašų šablonai](record-templates.md)
+
+
 
 
 
