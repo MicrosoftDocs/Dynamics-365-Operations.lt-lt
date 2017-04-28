@@ -1,58 +1,58 @@
 # [Įvadas](index.md)
 
-# [Borto dinamika 365 operacijoms](get-started/onboarding-home.md)
-## Pažintis su Dynamics 365 operacijoms
-### [Pradėkite naudotis "Microsoft" FastTrack "Dynamics 365"](get-started/fasttrack-dynamics-365-overview.md)
-### [Sign up for a subscription](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Kaip patekti į vietinę versiją Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Diegti demonstracinę versiją aplinkoje](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+# [Supažindinimas su „Dynamics 365 for Operations‟](get-started/onboarding-home.md)
+## „Dynamics 365 for Operations‟ pristatymas
+### [„Microsoft FastTrack for Dynamics 365‟ darbo pradžia](get-started/fasttrack-dynamics-365-overview.md)
+### [Registravimasis prenumeratai gauti](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
+### [Kaip gauti vietinę „Dynamics AX 2012‟ versiją](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
+## [Demonstracinės aplinkos diegimas](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
 
-## Naršyti vartotojo sąsaja
+## Vartotojo sąsajos naršymas
 ### [Veiksmo ieška](get-started/action-search.md)
-### [Pažangi filtravimo ir užklausos sintaksė](get-started/advanced-filtering-query-options.md)
-### [Dinamika 365 kliento operacijos DUK](get-started/client-faq.md)
-### [Configure and filter workspaces](get-started/configure-filter-workspaces.md)
-### [Display pages side-by-side using the Open in New Window icon](get-started/display-pages-side-by-side.md)
-### [Navigation search](get-started/navigation-search.md)
-### [Personalize the user experience](get-started/personalize-user-experience.md)
-### [Keyboard shortcuts](get-started/shortcut-keys.md)
-### [Valdyti, kaip rodomi puslapiai](get-started/window-management.md)
-### [Suprasti gyvavimo ciklo paslaugų](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Išplėstinio filtravimo ir užklausų sintaksė](get-started/advanced-filtering-query-options.md)
+### [„Dynamics 365 for Operations‟ klientų DUK](get-started/client-faq.md)
+### [Darbo sričių konfigūravimas ir filtravimas](get-started/configure-filter-workspaces.md)
+### [Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange](get-started/display-pages-side-by-side.md)
+### [Naršymo ieška](get-started/navigation-search.md)
+### [Vartotojo patirties personalizavimas](get-started/personalize-user-experience.md)
+### [Spartieji klavišai](get-started/shortcut-keys.md)
+### [Puslapių rodymo valdymas](get-started/window-management.md)
+### [Susipažinkite su „Lifecycle Services“](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
 
-## Gauti žinyno ir palaikymo
-### [Padėti apžvalga](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Prijunkite žinynas](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
-### [View and export field descriptions](get-started/view-export-field-descriptions.md)
+## Gaukite pagalbos
+### [Pagalbos apžvalga](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
+### [Pagalbos prijungimas](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Laukų aprašų peržiūra ir eksportas](get-started/view-export-field-descriptions.md)
 
-### Vadovų užduotis ir užduočių rašytuvas
-#### [Užduočių rašytuvas](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Sukurkite dokumentus arba mokymo](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+### Užduočių vadovai ir užduočių įrašymo priemonė
+#### [Užduočių įrašymo priemonė](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Dokumentų ar mokymo kūrimas](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
 
-## [Šaliai/regionui būdingų žinyno turinys](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Konkrečių šalių / regionų žinyno turinys](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
 
-# [Konfigūruokite savo organizacijos](organization-administration/organization-administration-home-page.md)
-## [Organizations and organizational hierarchies](organization-administration/organizations-organizational-hierarchies.md)
-## [Konfigūruoti organizacijos hierarchiją](organization-administration/plan-organizational-hierarchy.md)
-## [Address books](organization-administration/qa-address-books.md)
-### [Global address book](organization-administration/overview-global-address-book.md)
-### [Konfigūruoti adresų knygas](organization-administration/plan-configuration-global-address-book-additional-address-books.md)
-## [Number sequence overview](organization-administration/number-sequence-overview.md)
-## [Electronic signature overview](organization-administration/electronic-signature-overview.md)
-## [Bylų valdymo apžvalga](organization-administration/cases.md)
-### [Konfigūruoti atvejo saugumo, procesus ir kategorijas](organization-administration/plan-case-management.md)
-## [Įrašų šablonams kurti](organization-administration/record-templates.md)
-## [Konfigūruoti ir siųsti el. laišką](organization-administration/configure-email.md)
-## [Datos/laiko duomenų ir laiko juostas](organization-administration/date-time-zones.md)
+# [Savo organizacijos konfigūravimas](organization-administration/organization-administration-home-page.md)
+## [Organizacijos ir organizacijų hierarchijos](organization-administration/organizations-organizational-hierarchies.md)
+## [Organizacijos hierarchijos konfigūravimas](organization-administration/plan-organizational-hierarchy.md)
+## [Adresų knygelės](organization-administration/qa-address-books.md)
+### [Visuotinė adresų knygelė](organization-administration/overview-global-address-book.md)
+### [Visuotinių adresų knygelių konfigūravimas](organization-administration/plan-configuration-global-address-book-additional-address-books.md)
+## [Numeracijos apžvalga](organization-administration/number-sequence-overview.md)
+## [Elektroninio parašo apžvalga](organization-administration/electronic-signature-overview.md)
+## [Atvejų valdymo apžvalga](organization-administration/cases.md)
+### [Atvejų saugos, procesų ir kategorijų konfigūravimas](organization-administration/plan-case-management.md)
+## [Įrašo šablonų kūrimas](organization-administration/record-templates.md)
+## [El. pašto konfigūravimas ir siuntimas](organization-administration/configure-email.md)
+## [Datos / laiko duomenys ir laiko juostos](organization-administration/date-time-zones.md)
 
-# Projekto darbo sekas
+# Darbo eigų kūrimas
 ## [Darbo eigos sistemos apžvalga](organization-administration/overview-workflow-system.md)
-## [Architecture](organization-administration/workflow-system-architecture.md)
-## [Actions](organization-administration/workflow-actions.md)
-## [Elements](organization-administration/workflow-elements.md)
-## [Workflow types report](organization-administration/workflow-types-report.md)
+## [Architektūra](organization-administration/workflow-system-architecture.md)
+## [Veiksmai](organization-administration/workflow-actions.md)
+## [Elementai](organization-administration/workflow-elements.md)
+## [Darbo eigos tipų ataskaita](organization-administration/workflow-types-report.md)
 ## [Darbo eigos kūrimas](organization-administration/create-workflow.md)
-## [Configure an approval process](organization-administration/configure-approval-process-workflow.md)
-## [Configure an approval step](organization-administration/configure-approval-step-workflow.md)
+## [Patvirtinimo proceso konfigūravimas](organization-administration/configure-approval-process-workflow.md)
+## [Patvirtinimo veiksmo konfigūravimas](organization-administration/configure-approval-step-workflow.md)
 ## [Automatizuotos užduoties konfigūravimas](organization-administration/configure-automated-task-workflow.md)
 ## [Sąlyginio sprendimo konfigūravimas](organization-administration/configure-conditional-decision-workflow.md)
 ## [Eilutės elemento darbo eigos konfigūravimas](organization-administration/configure-line-item-workflow.md)
@@ -60,19 +60,19 @@
 ## [Neautomatizuotos užduoties konfigūravimas](organization-administration/configure-manual-task-workflow.md)
 ## [Lygiagrečios veiklos konfigūravimas](organization-administration/configure-parallel-activity-workflow.md)
 ## [Lygiagrečios šakos konfigūravimas](organization-administration/configure-parallel-branch-workflow.md)
-## [Konfigūruoti darbo eigos ypatybės](organization-administration/configure-workflow-properties.md)
+## [Darbo eigos ypatybių konfigūravimas](organization-administration/configure-workflow-properties.md)
 
-# [Financials](/dynamics365/operations/financials/index)
+# [Finansai](/dynamics365/operations/financials/index)
 
-# [Human resources](/dynamics365/operations/human-resources/index)
+# [Personalas](/dynamics365/operations/human-resources/index)
 
-# [Retail](/dynamics365/operations/retail/index)
+# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
 
-# [Supply chain management](/dynamics365/operations/supply-chain/index)
+# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
 
-# [Kūrėjas ir administratorius](/dynamics365/operations/dev-itpro/index)
+# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
 
 # Kiti ištekliai
-## [Dinamika 365 operacijų žodynėlis](get-started/glossary.md)
+## [„Dynamics 365 for Operations‟ sąvokų žodynas](get-started/glossary.md)
 ## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
 

@@ -1,6 +1,6 @@
 ---
-title: "Tiekimo grandinės valdymo pagrindinis puslapis"
-description: "Šis puslapis atkreipia dėmesį į išteklių, kurie padės jums naudoti &quot;Microsoft Dynamics&quot; 365 &quot;operacijų - tiekimo grandinės valdymas efektyviau."
+title: "Pagrindinis modulio Tiekimo grandinės valdymas puslapis"
+description: "Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Operations“ modulį Tiekimo grandinės valdymas."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,35 +25,35 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="supply-chain-management-home-page"></a>Tiekimo grandinės valdymo pagrindinis puslapis
+# <a name="supply-chain-management-home-page"></a>Pagrindinis modulio Tiekimo grandinės valdymas puslapis
 
 [!include[banner](includes/banner.md)]
 
-Šis puslapis atkreipia dėmesį į išteklių, kurie padės jums naudoti "Microsoft Dynamics" 365 "operacijų - tiekimo grandinės valdymas efektyviau. 
+Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Operations“ modulį Tiekimo grandinės valdymas. 
 
-## <a name="whats-new-and-in-development"></a>Kas yra naujas ir plėtros
-Eikite į į <a href="https://roadmap.dynamics.com/">Dynamics 365 planas</a> pamatyti, kokių naujų funkcijų yra išleistas ir kokie kuriant naujas funkcijas. 
+## <a name="whats-new-and-in-development"></a>Kas naujo ir kuriama
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365 Roadmap‟</a> svetainę. 
 
-## <a name="core-concepts-and-tasks"></a>Pagrindines sąvokas ir užduočių
-*  Kairiojoje srityje, pasirinkite funkciją sritį Norėdami sužinoti daugiau apie tai. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Apdoroti gaunamas ASN sandėlio valdymo</a> (vaizdo siužetas) 
+## <a name="core-concepts-and-tasks"></a>Pagrindinės koncepcijos ir užduotys
+*  Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Gaunamų ASN valdymas modulyje Sandėlio valdymas</a> (vaizdo įrašas) 
 
 
-## <a name="blogs"></a>Dienoraščiai
-Yra daug temų apie gamybos ir tiekimo grandinės valdymą ir <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX gamybos R & D komandos interneto dienoraštis</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">tiekimo grandinės valdymo Dynamics AX R & D komandos interneto dienoraštis</a>. Dauguma jų buvo skirti ankstesnei „Dynamics 365 for Operations‟ versijai, tačiau galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje yra panašios. 
+## <a name="blogs"></a>Tinklaraščiai
+Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei „Dynamics 365 for Operations‟ versijai, tačiau galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje yra panašios. 
 
-Pavyzdžiui, galite skaityti į naujausių pranešimų apie: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Skelbdamas Dynamics 365 operacijoms – sandėliavimo</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Patobulintas pakavimas funkcionalumą (Dynamics 365 dėl operacijų 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Skirstymas iš gamybos užsakymų perdavimo užsakymus</a>
+Pavyzdžiui, galite skaityti naujausius įrašus apie tolesnes sritis. 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">„Dynamics 365 for Operations‟ modulio Sandėliavimas pristatymas</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Patobulintos pakavimo funkcijos („Dynamics 365 for Operations‟ 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Prekių skirstymas iš gamybos užsakymų į perkėlimo užsakymus</a>
 
-## <a name="white-papers"></a>Baltosios knygos
-* Į <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 operacijų - pradėjo dirbti su sąnaudų apskaitos</a> Baltoji knyga numato pagrindinius veiksmus, kaip konfigūruoti Microsoft Dynamics 365 operacijoms – sąnaudų apskaitos siekiant, kad faktinių išlaidų analizė. Ji taip pat suteikia nemažai procedūrų, kad jūs galite užpildyti nutartyje, kuria jie rodomi.
-* Į <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 operacijų - Lean Manufacturing: sugeba pažadą ir Kanban užduočių planavimą</a> Baltojoje knygoje aprašoma apie kanban užduočių planavimą ir pardavimo užsakymo priėmimo, kuris naudoja sugeba pažadas (CTP) metodas, pristatymo datos valdymo sąvoką. Jame taip pat paaiškinama, kaip CTP galima naudoti kartu su renginį kanbans modeliuoti surinkti pagal užsakymą ar užsakymą sukurti scenarijų.
-* Į <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 operacijų - KS skaičiavimas naudojant Įkainojimo lapas</a> techninėje dokumentacijoje aprašoma, kaip nustatyti Įkainojimo lapas, kuriame yra medžiagos ir gamybos, ir kaip nustatymas turi įtakos KS skaičiavimo rezultatai. Galite atlikti pratimus priedėlio mokymosi tikslais ir panaudoti žinias, kad jūs uždirbote skaitant šį dokumentą daryti KS skaičiavimo analizės.
+## <a name="white-papers"></a>Techninė dokumentacija
+* Techninėje dokumentacijoje <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">„Microsoft Dynamics 365 for Operations‟ – darbo su moduliu Kaštų apskaita pradžia</a> nurodyti pagrindiniai „Microsoft Dynamics 365 for Operations‟ – Kaštų apskaita konfigūravimo veiksmai, norint analizuoti faktines išlaidas. Joje taip pat nurodomos procedūros, kurias galite atlikti jų rodymo tvarka.
+* Techninėje dokumentacijoje <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">„Dynamics 365 for Operations – Lean Manufacturing‟: galimų pateikti atsargų ir „kanban‟ užduočių planavimas</a> aprašomas „kanban‟ užduočių planavimas ir pristatoma pardavimo užsakymų priėmimo koncepcija, naudojanti galimų pateikti atsargų (CTP) metodą pristatymo datai kontroliuoti. Joje taip pat paaiškinama, kaip, kartu naudojant CTP ir įvykio „kanban‟, galima modeliuoti surinkimo pagal užsakymą ar kūrimo pagal užsakymą scenarijus.
+* Techninėje dokumentacijoje <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">„Microsoft Dynamics 365 for Operations‟ – KS skaičiavimas naudojant įkainojimo lapą</a> aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Mokymosi tikslais galite atlikti priede pateiktus pratimus ir, naudodami žinias, kurias įgavote perskaitę šį dokumentą, analizuoti KS skaičiavimą.
 
-## <a name="elearning-courses"></a>e-mokymosi kursai
-Informacijos apie Microsoft Dynamics 365 operacijų mokymo, pamatyti <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (reikia CustomerSource sąskaitą) 
+## <a name="elearning-courses"></a>El. mokymosi kursai
+Informacijos apie „Microsoft Dynamics 365 for Operations‟ mokymą rasite <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">„Microsoft Dynamics‟ mokymosi portale</a>. (reikia CustomerSource paskyros) 
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Pažintis su Dynamics 365 operacijoms"
-description: "Microsoft Dynamics 365 operacijoms yra &quot;Microsoft&quot; verslo programa įmonėms. Šis puslapis padės jums mokytis ir pradėti naudoti produktą."
+title: "„Dynamics 365 for Operations‟ pristatymas"
+description: "„Microsoft Dynamics 365 for Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa. Šiame puslapyje pateikta informacija padės išmokti ir pradėti naudoti produktą."
 author: margoc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -23,13 +23,13 @@ ms.lasthandoff: 04/12/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>Pažintis su Dynamics 365 operacijoms
+# <a name="introduction-to-dynamics-365-for-operations"></a>„Dynamics 365 for Operations‟ pristatymas
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 operacijoms yra "Microsoft' verslo programa įmonėms. Tai leidžia žmonėms greitai priimti sumanesnius sprendimus per pažangių vartotojo sąsaja, kuri suteikia prieigą prie realaus laiko paieškos tendencijas ir duomenų. Ji suteikia įmonėms galimybę transformuoti ir innnovate pristatant įrodyta verslo logika, kuri leidžia jiems greičiau pertvarkyti savo verslo procesus. Ji suteikia įmonėms galimybę augti savo tempu ir užsiimti verslu beveik bet kur, bet kada, leidžiant jiems masto savo veiklą visame pasaulyje, kurie atitinka verslo poreikius. 
+„Microsoft Dynamics 365 for Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa. Ją naudodami žmonės gali greitai priimti sumanesnius sprendimus – išmani vartotojo sąsaja suteikia prieigą prie realiuoju laiku teikiamų įžvalgų ir duomenų. Programą naudodamos įmonės gali transformuotis ir atsinaujinti – siūloma patvirtinta verslo logika joms leidžia greičiau perkurti savo verslo procesus. Įmonėms programa suteikia lankstumo augti savo tempu ir užsiimti verslu praktiškai bet kur ir bet kada bei taip visame pasaulyje išplėsti savo veiklą, kuri atitiktų verslo poreikius. 
 
-Šiame vartotojo vadove gali padėti jums sužinoti, kaip padaryti Dynamics 365 operacijoms dirbti jūsų verslui.    
+Šis vartotojo vadovas gali padėti sužinoti, kaip „Dynamics 365 for Operations‟ pasitelkti savo versle.    
 
 <table>
 <colgroup>
@@ -38,52 +38,52 @@ Microsoft Dynamics 365 operacijoms yra "Microsoft' verslo programa įmonėms. Ta
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">Parengimo organizacijoje</a></p>
+<td><p><a href="get-started/onboarding-home.md">Organizacijos supažindinimas</a></p>
 <p>Finansai</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">Accounts payable</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">Accounts receivable</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">Budgeting</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">Cash and bank management</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">Cost accounting</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">Fixed assets</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">General ledger</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">Project management</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">Public sector</a></li></ul>
+<ul><li><a href="financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></li>
+<li><a href="financials/accounts-receivable/accounts-receivable.md">Gautinos sumos</a></li>
+<li><a href="financials/budgeting/budgeting-overview.md">Biudžeto sudarymas</a></li>
+<li><a href="financials/cash-bank-management/cash-bank-management.md">Grynųjų pinigų ir banko valdymas</a></li>
+<li><a href="financials/cost-accounting/cost-accounting-home-page.md">Kaštų apskaita</a></li>
+<li><a href="financials/fixed-assets/fixed-assets.md">Ilgalaikis turtas</a></li>
+<li><a href="financials/general-ledger/general-ledger.md">Didžioji knyga</a></li>
+<li><a href="financials/project-management/overview-project-management-accounting.md">Projektų valdymas</a></li>
+<li><a href="financials/public-sector/public-sector-functionality.md">Viešasis sektorius</a></li></ul>
 <p><a href="dev-itpro/lcs-solutions/country-region.md">Regioninės priemonės</a></p>
 <p>Personalas</p>
    <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">Žmogiškųjų išteklių strategija</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">Įdarbinti, nuoma ir motyvuoti</a></li>
+  <li><a href="human-resources/departments-jobs-positions.md">Personalo strategija</a></li>
+  <li><a href="human-resources/manage-recruiting-process.md">Įdarbinimas, samdymas ir motyvavimas</a></li>
   <li><a href="human-resources/performance-management-overview.md">Darbuotojų mokymas</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">Benefits</a></li>
-  <li><a href="human-resources/questionnaires.md">Questionnaire</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">JAV funkcijos</a></li>
+  <li><a href="human-resources/manage-benefit-program.md">Išmokos</a></li>
+  <li><a href="human-resources/questionnaires.md">Klausimynas</a></li>
+  <li><a href="human-resources/localizations/noam-usa-payroll.md">JAV priemonės</a></li>
 </ul></td>
   <td>
   <p>Mažmeninė prekyba</p>
   <ul>
-<li><a href="retail/call-center-functionality.md">Call center</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">Channel setup and management</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS ir debesų POS</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">Mažmeninės prekybos kūrėjas ir administracija</a></li></ul>
+<li><a href="retail/call-center-functionality.md">Skambučių centras</a></li>
+  <li><a href="retail/define-maintain-retail-channels.md">Kanalo nustatymas ir valdymas</a></li>
+  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS ir „Cloud POS‟</a></li>
+  <li><a href="retail/dev-itpro/dev-retail-home-page.md">Mažmeninės prekybos programavimas ir administravimas </a></li></ul>
   <p>Tiekimo grandinės valdymas</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">Cost management</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">Inventory management</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">Master planning</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">Procurement and sourcing</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">Product information management</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">Production control</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">Sales and marketing</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">Transportation management</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">Warehouse management</a></li></ul>
-  <p>Kūrėjas & administratoriaus funkcijos</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">Analytics</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">Data entities</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">Mobiliųjų įrenginių programėlės</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">Office integration</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">Administration</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">Developer tools</a></li></ul></td>
+<li><a href="supply-chain/cost-management/costing-sheets.md">Kaštų valdymas</a></li>
+  <li><a href="supply-chain/inventory/inventory-locations.md">Atsargų valdymas</a></li>
+  <li><a href="supply-chain/master-planning/master-plans.md">Bendrasis planavimas</a></li>
+  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">Paraiškos</a></li>
+  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">Produkto informacijos valdymas</a></li>
+  <li><a href="supply-chain/production-control/create-production-orders">Gamybos kontrolė</a></li>
+  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">Pardavimas ir rinkodara</a></li>
+  <li><a href="supply-chain/transportation/transportation-management-overview.md">Transportavimo valdymas</a></li>
+  <li><a href="supply-chain/warehousing/warehouse-configuration.md">Sandėlio valdymas</a></li></ul>
+  <p>Programavimo ir administravimo funkcijos</p>
+  <ul><li><a href="dev-itpro/analytics/analytics.md">Analizė</a></li>
+  <li><a href="dev-itpro/data-entities/data-entities.md">Duomenų objektai</a></li>
+  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">Mobiliosios programos</a></li>
+  <li><a href="dev-itpro/office-integration/office-integration.md">„Office“ integravimas</a></li>
+  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">Administravimas</a></li>
+  <li><a href="dev-itpro/dev-tools/developer-home-page.md">Programavimo įrankiai</a></li></ul></td>
 </tr>
 </tbody>
 </table>

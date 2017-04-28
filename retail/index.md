@@ -1,6 +1,6 @@
 ---
-title: "Mažmeninės prekybos Pagrindinis puslapis"
-description: "Pagrindinis puslapis Dynamics 365 operacijoms-mažmeninės prekybos"
+title: "Pagrindinis mažmeninės prekybos puslapis"
+description: "„Dynamics 365 for Operations – Retail“ pagrindinis puslapis"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,71 +25,71 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="retail-home-page"></a>Mažmeninės prekybos Pagrindinis puslapis
+# <a name="retail-home-page"></a>Pagrindinis mažmeninės prekybos puslapis
 
 [!include[banner](includes/banner.md)]
 
-Operacijos – 365 Dynamics mažmeninės prekybos pristato visą apsipirkimo patirčiai, su vientisą ir diferencijuojant omni-kanalo sprendimas, kuris yra modernus, mobilesnė ir globalesnė. Iki galo galimybes, nuo šiuolaikinių pardavimo (PV) programinės įrangos sprendimus, sandėlio operacijų, merchandisingowe, e-komercija, skambučių centras, rinkodaros ir klientų aptarnavimo, tiekimo grandinės, finansai ir kt., gali būti naudojamas taip, kaip tai daro dauguma prasme jūsų verslui.
+„Dynamics 365 for Operations – Retail“ siūlo visaverčių apsipirkimo funkcijų ir sklandų bei išskirtinį integruoto kanalo sprendimą, kuris yra modernus, mobilus ir visuotinis. Viso proceso galimybes – nuo modernių elektroninio kasos aparato terminalų (EKA) programinės įrangos sprendimų, parduotuvės operacijų, prekybos, el. prekybos, skambučių centro, rinkodaros ir klientų aptarnavimo iki tiekimo grandinės, finansų ir kt. – galima kurti taip, kad verslui jos būtų kuo prasmingesnės.
 
-Šis puslapis atkreipia dėmesį į išteklių, kurie padės jums naudoti Microsoft Dynamics 365 operacijų - mažmeninė efektyviau. Kairėje srityje, pasirinkite funkciją sritį Norėdami sužinoti daugiau apie tai. 
+Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Operations – Retail“. Kairiausioje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau. 
 
 ## <a name="set-up-retail-channels"></a>Mažmeninės prekybos kanalų nustatymas
-Kaip norite nustatyti savo mažmeninės prekybos patirtį, jums nuspręsti, kaip nustatyti ir konfigūruoti savo plytų ir skiedinio parduotuvės (vadinamas *parduotuvėje* Dynamics 365 operacijoms) ir internetinė parduotuvė operacijas. 
+Nustatydami mažmeninės prekybos nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo tradicinės parduotuvės (sprendime „Dynamics 365 for Operations‟ vadinamą *mažmeninės prekybos parduotuve*) ir internetinės parduotuvės operacijas. 
 
-Kiekvienoje parduotuvėje gali turėti savo mokėjimo būdus, kainų grupės, POS sprendimai, pajamų sąskaitas, sąnaudų sąskaitas ir darbuotojai. Sukūrę savo mažmeninės prekybos parduotuvėje, galite priskirti produktus, kad norite atlikti parduotuvėje. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai, įtraukite naują parduotuvę į organizacijos hierarchiją.
+Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo būdus, kainų grupes, EKA sprendimus, pajamų sąskaitas, išlaidų sąskaitas ir darbuotojus. Kai sukuriate savo mažmeninės prekybos parduotuvę, galite priskirti produktus, kuriuos norite, kad parduotuvė platintų. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai nauja parduotuvė įtraukiama į organizacijos hierarchiją.
 
-Kai sukuriate savo internetinėje parduotuvėje, turite nustatyti komponentų asortimentus, atributus, mokėjimo būdai ir laivybos metodai. Taip pat galite nustatyti kainos, akcijos, nuolaidos ir laivybos terminų, kurie yra būdingi internetinėje parduotuvėje.
+Kurdami savo internetinę parduotuvę turite nustatyti tokius komponentus kaip asortimentai, atributai, mokėjimo būdai ir siuntimo metodai. Taip pat galite nustatyti konkrečios internetinės parduotuvės kainas, akcijas, nuolaidas ir pristatymo sąlygas.
 
--   [Apibrėžti mažmeninės prekybos kanalų](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Mažmeninės prekybos kanalų nustatymas](define-maintain-retail-channels.md)
+-   [Internetinės parduotuvės apžvalga](online-stores.md)
 
 ## <a name="set-up-a-call-center"></a>Skambučių centro nustatymas
-Jūs galite nustatyti skambučių centro kaip mažmeninės prekybos kanalas tipo. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Padėti savo darbuotojams, priimti užsakymus ir valdyti klientų aptarnavimo užsakymo vykdymo proceso metu, galite nustatyti pardavimo užsakymą bus pateikta, kaip kainodara bus kontroliuojama, ir kokius duomenis apie klientus, produktus ir kainas galima pasiekti. Kiekvieno skambučių centro, taip pat galite nustatyti vartotojus, mokėjimo būdai, kainų grupės, finansinės dimensijos ir pristatymo būdai.
+Kaip mažmeninės prekybos kanalo tipą galite nustatyti skambučių centrą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Norėdami savo darbuotojams padėti užsakymų vykdymo metu priimti užsakymus ir aptarnauti klientus, galite nustatyti pardavimo užsakymo turinį, kainų kontrolę ir tai, kokius duomenis apie klientus, produktus ir kainas galima naudoti. Taip pat galite nustatyti kiekvieno skambučių centro vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus.
 
--   [Call center functionality](call-center-functionality.md)
--   [Create call center catalogs](create-call-center-catalogs.md)
+-   [Skambučių centro funkcijos](call-center-functionality.md)
+-   [Skambučių centro katalogų kūrimas](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Nustatyti savo GO ir MPOS sprendimus
-Mažmeninės prekybos šiuolaikinės POS (MPOS) yra elektroninio kasos aparato programa, skirta kompiuteriuose, planšetiniuose kompiuteriuose ir telefonuose. Pardavimo darbuotojai tvarkyti pardavimo sandorius, klientų užsakymus, ir atlikti kasdienę veiklą ir atsargų valdymo su mobiliuosius įrenginius bet kur į parduotuvę, taip pat kompiuterio registruose. POS debesiui naršyklės pagrindu POS. 
+## <a name="define-your-pos-and-mpos-solutions"></a>EKA ir MEKA sprendimų nustatymas
+„Retail Modern POS‟ (MPOS) – tai elektroninio kasos aparato programa, skirta kompiuteriams, planšetiniams kompiuteriams ir telefonams. Bet kurioje parduotuvės vietoje naudodami mobiliuosius įrenginius bei kompiuterinius kasos aparatus pardavėjai gali apdoroti pardavimo operacijas, klientų užsakymus ir atlikti kasdienes operacijas bei valdyti atsargas. „Cloud POS‟ – tai naršyklėje veikiantis EKA. 
 
-Yra keletas komponentų, galite nustatyti, nustatyti ryšius tarp parduotuvę, POS registrų ar kanalų parduotuvėje, ir mažmeninės prekybos periferinius įrenginius, kad tuos registrus ar kanalai naudoti tvarkyti sandorius. Taip pat bus nustatyti konkrečiu atveju gamintojų organizacijų, įskaitant techninės įrangos profilį arba sąrankos mažmeninės prekybos periferiniai įrenginiai, kuris bus naudojamas registrą, kuris registre yra susietas su parduotuvės ir regėjimo patirtį vartotojo, kuris įeina į, užregistruoti charakteristikos.
+Siekiant nustatyti ryšius tarp parduotuvės, EKA ar parduotuvės kanalų ir mažmeninės prekybos išorinių įrenginių, kuriuos tie kasos aparatai ar kanalai naudoja operacijoms apdoroti, nustatomi keli komponentai. Taip pat bus nustatomos konkretaus EKA egzemplioriaus charakteristikos, įskaitant aparatūros profilį ar mažmeninės prekybos išorinių įrenginių, kurie bus naudojami kaip kasos aparatas, sąranką, parduotuvę, su kuria kasos aparatas yra susietas ir vaizdą, kurį mato prie to kasos aparato prisijungęs vartotojas.
 
--   [Nustatyti ir išlaikyti kanalo klientams, registrus ir aparatūros stotys](define-maintain-channel-clients-registers-hw-stations.md)
--   [Konfigūruoti ir įdiegti MPOS](retail-modern-pos-device-activation.md)
--   [POS darbo neprisijungus funkcijomis](pos-offline-functionality.md)
+-   [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
+-   [MPOS konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
+-   [Autonominės EKA funkcijos](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Nustatyti klientų lojalumo programa
-Nustatydami savo lojalumo programos, kad klientai uždirbti taškus pagal tam tikrus kriterijus, ir taškų galima apskaičiuoti įvairiais būdais. Lojalumo programa gali būti paprastas arba sudėtingas ir taikomos jūsų juridiniams asmenims bet mažmeninės prekybos kanalą.
--   [Nustatyti klientų lojalumo programa](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Klientų lojalumo programos nustatymas
+Galite nustatyti lojalumo programą, kad klientai pagal konkrečius kriterijus gautų taškų, o taškus būtų galima apskaičiuoti įvairiais būdais. Jūsų lojalumo programa gali būti paprasta arba sudėtinga ir būti taikoma bet kokiam jūsų juridinių subjektų mažmeninės prekybos kanalui.
+-   [Klientų lojalumo programos nustatymas](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Nuolaidas ir kainos nustatymas
-Jūs galite padaryti kainų koregavimų produktams, ir taip pat galite nustatyti nuolaidų, kurios taikomos eilutės prekės ar sandorio EKA, skambučių centro pardavimo užsakymą arba pateikia internetinį užsakymą. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
--   [Nustatyti dėl optimalios kombinacijos tarp persidengiančių nuolaidos](optimal-combination-overlapping-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>Nuolaidų ir kainos koregavimo nustatymas
+Galite koreguoti produktų kainas bei nustatyti nuolaidas, taikomas eilutės prekei ar operacijai EKA aparate, skambučių centro pardavimo užsakyme ar internetiniame užsakyme. 
+-   [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
+-   [Konkretaus kanalo nuolaidų nustatymas](define-channel-specific-discounts.md)
+-   [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Mažmeninių produktų nustatymas
-Prieš jūs galite pasiūlyti produktų pardavimas mažmeninės prekybos operacijas, turėsite sukurti ir konfigūruoti produktų dinamika 365 operacijoms. Galite kurti produktus, nurodyti produkto ypatybes ir atributus ir priskirti produktus mažmeninės prekybos kategorijų hierarchijoms. Pateikti produktų mažmeninės prekybos kanalais ir įtraukti jas į aktyvų asortimentas, tada bus išleisti produktus, kurių jie yra juridiniai asmenys.
--   [Set up retail products](set-up-retail-products.md)
+Prieš savo mažmeninės prekybos kanaluose pradėdami parduoti produktus, juos turėsite sukurti ir sukonfigūruoti sprendime „Dynamics 365 for Operations‟. Galite kurti produktus, nurodyti produkto ypatybes ir atributus bei priskirti produktus mažmeninės prekybos kategorijų hierarchijoms. Norėdami produktus parduoti savo mažmeninės prekybos kanaluose ir juos įtraukti į aktyvų asortimentą, turėsite produktus išleisti juridiniams subjektams, kuriuose jie parduodami.
+-   [Mažmeninių produktų nustatymas](set-up-retail-products.md)
 
-## <a name="monitor-and-analyze-performance"></a>Stebėti ir analizuoti efektyvumą
-Naudojant Dynamics 365 operacijų duomenų, jūs galite analizuoti parduotuvėje rezultatų, klientų ir produktų pelningumas, pardavimų tendencijas ir kt.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+## <a name="monitor-and-analyze-performance"></a>Našumo stebėjimas ir analizavimas
+Naudodami „Dynamics 365 for Operations‟ duomenis galite analizuoti parduotuvės našumą, klientų ir produktų pelningumą, pardavimo tendencijas ir kt.
+-   [Klientų ir produktų pelningumo vertinimas](assess-customer-product-profitability.md)
+-   [Parduotuvės našumo analizavimas](store-performance-information.md)
 
-## <a name="customize-and-administer-retail-environments"></a>Konfigūruoti ir administruoti mažmeninės prekybos aplinkoje
-Jei jums buvo paprašyta pritaikyti savo aplinkoje, arba jei jums pavesta dislokuoti ir išlaikyti jūsų sistemą, check out kūrėjas ir sistemos administratoriaus turinį su mažmeninės prekybos, taip pat turinys Microsoft Dynamics 365 operacijoms. 
--   [Dinamika 365 operacijų - mažmeninės prekybos IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
--   ["Microsoft Dynamics" 365 operacijų kūrėjams ir IT specialistams](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+## <a name="customize-and-administer-retail-environments"></a>Mažmeninės prekybos aplinkų tinkinimas ir administravimas
+Jei jūsų prašoma tinkinti savo aplinką arba jei jums paskirtos sistemos visuotinio diegimo ir priežiūros užduotys, peržiūrėkite konkrečiai mažmeninei prekybai skirtą kūrimo ir sistemos administravimo turinį bei bendresnį „Microsoft Dynamics 365 for Operations‟ turinį. 
+-   [„Dynamics 365 for Operations – Retail‟, skirtas IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
+-   [„Microsoft Dynamics 365 for Operations‟, skirtas kūrėjams ir IT profesionalams](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-### <a name="whats-new-and-in-development"></a>Kas yra naujas ir plėtros
-Eikite į į <a href="https://roadmap.dynamics.com/">Dynamics 365 planas</a> pamatyti, kokių naujų funkcijų yra išleistas ir kokie kuriant naujas funkcijas. 
+### <a name="whats-new-and-in-development"></a>Kas naujo ir kuriama
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365 Roadmap‟</a> svetainę. 
 
-### <a name="blogs"></a>Dienoraščiai
-Rasite nuomones, Naujienos ir kita informacija apie "Microsoft Dynamics 365" operacijų - mažmeninės prekybos ir kitų sprendimų, <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 dienoraštį</a>.
+### <a name="blogs"></a>Tinklaraščiai
+<a href="https://community.dynamics.com/b/msftdynamicsblog">„Microsoft Dynamics 365‟ tinklaraštyje</a> galite rasti nuomonių, naujienų ir kitos informacijos apie „Microsoft Dynamics 365 for Operations – Retail‟ ir kitus sprendimus.
 
-Yra daug temų apie mažmeninės prekybos ir <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX produkto komandos interneto dienoraštis</a>. Kai kurie iš šių pareigų buvo parašytos ankstesnės versijos Dynamics 365 operacijoms, bet vis dar taiko tą pačią koncepciją ir procedūros yra panašios į dabartinę versiją.
+Daug temų apie mažmeninę prekybą galima rasti <a href="https://blogs.msdn.microsoft.com/dax/">„Microsoft Dynamics AX‟ produktų komandos tinklaraštyje</a>. Kai kurie iš šių įrašų buvo skirti ankstesnei „Dynamics 365 for Operations‟ versijai, tačiau galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje yra panašios.
 
-Į <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics veiklos partneris bendruomenės interneto dienoraštyje</a> teikia Microsoft Dynamics bendradarbiaujanti su vienas šaltinis sužinoti apie tai, kas yra nauja ir tendencijos MBS operacijose.
+<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis</a> – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas naujo ir kokios yra „MBS Operations‟ tendencijos.
 

@@ -31,15 +31,15 @@ ms.lasthandoff: 04/12/2017
 Šioje temoje pateikiamas „Microsoft Dynamics 365 for Operations“ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
 
 Pasirinkite funkcijos sritį, norėdami apie ją sužinoti daugiau.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+- [Mokėtinos sumos](accounts-payable\accounts-payable.md) 
+- [Gautinos sumos](accounts-receivable\accounts-receivable.md) 
+- [Grynųjų pinigų ir banko valdymas](cash-bank-management\cash-bank-management.md)
+- [Kaštų apskaita](cost-accounting\cost-accounting-home-page.md)
+- [Ilgalaikis turtas](fixed-assets\fixed-assets.md)
+- [Didžioji knyga](general-ledger\general-ledger.md) 
+- [Projektų valdymas](project-management\overview-project-management-accounting.md)
+- [Viešasis sektorius](public-sector\public-sector-functionality.md) 
+- [Biudžeto sudarymas](budgeting\budgeting-overview.md) 
 
 
 
