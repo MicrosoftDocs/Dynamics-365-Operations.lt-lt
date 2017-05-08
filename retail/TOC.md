@@ -68,3 +68,16 @@
 ## [Prekybos pagrindų apžvalga](commerce-essentials.md)
 ## [Organizacijos ir organizacijų hierarchijos (prekybos pagrindai)](organizational-hierarchies-commerce-essentials.md)
 # [IT profesionalų ir kūrėjų turinys](dev-itpro/TOC.md)
+
+# [Finansai](/dynamics365/operations/financials/index)
+
+# [Personalas](/dynamics365/operations/human-resources/index)
+
+# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
+
+# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+
+# Kiti ištekliai
+## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

@@ -42,6 +42,7 @@
 ## [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](emea-edit-invoice-id-sales-orders.md)
 ## [Įvežimo į ES sertifikatai](emea-entry-certificates.md)
 ## [ES pardavimo sąrašo ataskaitos](emea-eu-sales-list.md)
+## [Valiutų kursų koregavimai](emea-exchange-rate-adjustments.md)
 ## [Mokėjimo metodų failų formatai](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA kredito pervedimų apžvalga](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA tiesioginio debeto apžvalga](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Spausdinimo formų pasirašančiųjų nustatymas](emea-set-up-signers-for-printing-forms.md)
-## [Išskaidyti laikotarpiai periodiniuose žurnaluose](emea-create-post-periodic-journals.md)
-## [Sumų rodymo ataskaitose ir dokumentuose naujinimas](emea-amount-printing-forms.md)
-## [PVM ataskaitos](emea-vat-reporting.md)
+## [PVM valiutų kursai](emea-vat-exchange-rate.md)
 ## [Sudengimo operacijų peržiūra](emea-transactions-settlement-form.md)
 ## Austrija
+### [Pusės metų nusidėvėjimas](emea-aut-half-year-depreciation.md)
 ### [Pakavimo medžiagų mokesčiai](emea-aut-packing-material-fee-calculation.md)
 ### [PVM išrašas](emea-aut-vat-statement-details.md)
 ## Belgija
 ### [CODA banko išrašas](emea-bel-coda-bank-statement-import.md)
+### [INTERVAT mokesčių deklaracija](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM ataskaitų nustatymas](emea-bel-prodcom-report.md)
 
 ## Čekija
+### [Kredito pažymos mokėjimo nuolaida](emea-cze-credit-note-cash-discount.md)
 ### [Nusidėvėjimo apvalinimas](emea-cze-depreciation-rounding.md)
 ### [Nusidėvėjimo sustabdymas](emea-cze-depreciation-suspension-holidays.md)
 ### [Ilgalaikio turto nusidėvėjimas](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Žurnalų sąrašo ataskaita](emea-deu-journal-list-report.md)
 ### [Atskiros pardavimo kredito pažymų žymos spausdinimas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Vengrija
+### [Ilgalaikio turto nusidėvėjimo metodai](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Mažai kainuojantis ilgalaikis turtas](emea-hun-low-cost-fixed-assets.md)
+### [Ilgalaikio turto perkėlimas į atsargas](emea-hun-fixed-asset-to-inventory.md)
 ## Italija
 ### [PVM išrašų informacija](emea-ita-vat-statements-details.md)
 ### [Juodojo sąrašo ataskaita](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Važtaraščių datos tikrinimas sąskaitose faktūrose](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [PVM knygos](emea-ita-fiscal-books.md)
 ### [Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Išskaitomas mokestis](emea-ita-withholding tax.md)
 ## Latvija
 ### [Ilgalaikio turto apskaita](emea-lva-fixed-assets-accounting.md)
 ### [Ilgalaikio turto vietos keitimo sekimas](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Pardavimo sąskaitų faktūrų dublikatų numeravimas](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Ilgalaikio turto nusidėvėjimas](emea-pol-fixed-assets-depreciation.md)
 ### [Ilgalaikio turto likvidavimo funkcijų išplėtimas](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Grąžinama pakuotė](emea-pol-returnable-packages.md)
+### [PVM ataskaitos](emea-pol-sales-tax-reports.md)
+### [Standartinis audito failas (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Apyvartos balansų išrašas](emea-pol-turnover-balances-statement.md)
 ## Ispanija
-### [Įsakomųjų vekselių parinktys](emea-esp-bill-of-exchange-options.md)
 ### [Mokėjimo nuolaidų taikymas sąskaitoje faktūroje](emea-esp-cash-discount-applied-invoice.md)
+### [Įsakomųjų vekselių parinktys](emea-esp-bill-of-exchange-options.md)
+### [Sąlyginis PVM](emea-esp-conditional-sales-tax.md)
 ### [Finansiniai duomenys (mokėtojo kodas)](emea-esp-fiscal-data-invoice-account.md)
 ### [Ilgalaikio turto grupės perkainojimas](emea-esp-fixed-asset-group-revaluation.md)
+### [ES vidaus PVM](emea-esp-intra-community-vat.md)
 ### [Vienkartiniai klientai](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Paprastųjų vekselių parinktys](emea-esp-promissory-note-options.md)
 ### [Pardavimo ir pirkimo ciklai](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Šiaurės Amerika
 ## [Metų pabaigos 1099 ataskaitos Jungtinėse Valstijose](noam-usa-year-end-1099-reporting.md)
+

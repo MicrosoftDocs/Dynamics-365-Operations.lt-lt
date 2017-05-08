@@ -56,6 +56,7 @@
 ### [KS ir formulė](production-control/bill-of-material-bom.md)
 ### [KS kūrimo įrankio funkcija](production-control/bom-designer-functionality.md)
 ### [Produkto dimensija](pim/product-dimensions.md)
+### [Numatytieji dimensijų ir produkto variantų užsakymų parametrai](production-control/default-order-settings.md)
 ### [Produkto numerių nomenklatūra](pim/product-variant-identification-nomenclature.md)
 ### [DUK apie su produktu susijusį vertimą](pim/translations-product-related-information.md)
 ### [Serijos numerio registravimas pardavimo proceso metu](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,49 +71,77 @@
 ### [Konfigūracijos modelio nustatymas](pim/set-up-maintain-product-configuration-model.md)
 ### [Sistemos nustatytas ir vartotojo nustatytas lentelės apribojimas](pim/system-defined-user-defined-table-constraints.md)
 # Gamybos kontrolė
-## Gamybos procesas    
-### [Subranga pagal veiklą](production-control/activity-based-subcontracting.md)
-### [Paketo atributai](production-control/batch-attributes.md)
-### [KS ir formulės](production-control/bill-of-material-bom.md)
-### [KS kūrimo įrankio funkcija](production-control/bom-designer-functionality.md)
-### [Konsoliduotieji paketiniai užsakymai](production-control/consolidated-batch-orders.md)
-### [Subrangos darbo valdymas gamybos metu](production-control/manage-subcontract-work-production.md)
-### [Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas](production-control/mixed-mode-plan.md)
-### [Gamybos procesas](production-control/production-process-overview.md)
-### [Gamybos nustatymo reikalavimai](production-control/production-set-up-requirements.md)
-### [Maršrutai ir operacijos](production-control/routes-operations.md)
-## Gamybos užsakymai
-### [Gamybos užsakymų kūrimas](production-control/create-production-orders.md)
-### [Numatytieji dimensijų ir produkto variantų užsakymų parametrai](production-control/default-order-settings.md)
-### [Gamybos užsakymų pateikimas](production-control/release-production-orders.md)
-### [Gamybos užsakymo būsenos atšaukimas](production-control/reverse-production-order-status.md)
-### [KS skelbimas baigtomis](production-control/report-boms-as-finished.md)
-### [Gamybos užsakymų skelbimas baigtais](production-control/report-production-orders-as-finished.md)
-## „Lean“ gamyba 
-### [„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [„lean manufacturing“ „kanban“ užduočių planavimas](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [Gamybos procesų apžvalga](production-control/production-process-overview.md)
+## [Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas](production-control/mixed-mode-plan.md)
+## [Subrangos darbo valdymas gamybos metu](production-control/manage-subcontract-work-production.md)
+## Diskretinė (surenkamoji) gamyba
+### Bendrųjų gamybos duomenų tvarkymas
+#### [Gamybos sąrankos reikalavimai](production-control/production-set-up-requirements.md)
+#### [Komplektavimo specifikacijos ir formulės](production-control/bill-of-material-bom.md)
+#### [KS kūrimo įrankio funkcija](production-control/bom-designer-functionality.md)
+#### [KS skaičiavimai](cost-management/bom-calculations.md)
+#### [Operacijų ištekliai](production-control/operations-resources.md)
+#### [Išteklių galimybės](production-control/resource-capabilities.md)
+#### [Maršrutai ir operacijos](production-control/routes-operations.md)
+#### [Gamybos užsakymo numatytoji informacija vykdant gamybą](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Sandėlio darbo strategijos](warehousing/warehouse-work-policies.md)
+### Gamybos operacijų planavimas
+#### [Operacijų planavimas](production-control/operations-scheduling.md)
+#### [Užduočių planavimas](production-control/job-scheduling.md)
+#### [Operacijų planavimo parinktys](production-control/operation-scheduling-options.md)
+### Gamybos užduočių valdymas
+#### [Gamybos užsakymų kūrimas](production-control/create-production-orders.md)
+#### [Gamybos užsakymų pateikimas](production-control/release-production-orders.md)
+#### [Gamybos užsakymo būsenos atšaukimas](production-control/reverse-production-order-status.md)
+#### [Gamybos užsakymų skelbimas baigtais](production-control/report-production-orders-as-finished.md)
+#### [KS skelbimas baigtomis](production-control/report-boms-as-finished.md)
+#### [Medžiagų keitimas gamyboje](production-control/substitute-items-bom-lines.md)
+#### [Gamybos vykdymo registracija](production-control/registration-manufacturing-execution.md)
+#### [Gamybos grįžtamasis ryšys](production-control/production-feedback.md)
+#### [Laiko ir buvimo darbe registravimas](production-control/time-attendance-registrations.md)
+### Finansų valdymas (gamyba)
+#### [Laiko paskirstymas sugrupuotų užduočių užduotims](production-control/allocate-time-jobs-job-bundle.md)
+#### [Medžiagų suvartojimo skaičiavimas](production-control/consumption.md)
+#### [Gamybos registravimas](cost-management/production-posting.md)
+## „Lean manufacturing“ 
 ### [„Lean manufacturing“ apžvalga](production-control/lean-manufacturing-overview.md)
-### [„Lean‟ organizacijos modeliavimas](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Operacijų ir užduočių planavimas
-### [Laiko paskirstymas sugrupuotų užduočių užduotims](production-control/allocate-time-jobs-job-bundle.md)
-### [Užduočių planavimas](production-control/job-scheduling.md)
-### [Operacijų planavimo parinktys](production-control/operation-scheduling-options.md)
-### [Operacijų planavimas](production-control/operations-scheduling.md)
-## Ištekliai
-### [Operacijų ištekliai](production-control/operations-resources.md)
-### [Išteklių galimybės](production-control/resource-capabilities.md)
-### [Laiko ir buvimo darbe registracija](production-control/time-attendance-registrations.md)
-## Gamybos vykdymas
-### [Medžiagų keitimas gamyboje](production-control/substitute-items-bom-lines.md)
-### [Medžiagų suvartojimo skaičiavimas](production-control/consumption.md)
-### [Gamybos grįžtamasis ryšys](production-control/production-feedback.md)
-### [Gamybos užsakymo numatytoji informacija vykdant gamybą](production-control/production-order-defaults-manufacturing-execution.md)
-### [Gamybos registravimas](cost-management/production-posting.md)
-### [Gamybos vykdymo registracija](production-control/registration-manufacturing-execution.md)
+### [Subranga pagal veiklą](production-control/activity-based-subcontracting.md)
+### Bendrųjų gamybos duomenų tvarkymas
+#### [„Lean‟ organizacijos modeliavimas](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Operacijų ištekliai](production-control/operations-resources.md)
+### „Kanban“ užduočių planavimas
+#### [„Lean manufacturing“ „kanban“ užduočių planavimas](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Užduočių planavimas](production-control/job-scheduling.md)
+### „Kanban“ užduočių valdymas
+#### [„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Gamybos grįžtamasis ryšys](production-control/production-feedback.md)
+## Apdoroti gamybą
+### Bendrųjų gamybos duomenų tvarkymas
+#### [Komplektavimo specifikacijos ir formulės](production-control/bill-of-material-bom.md)
+#### [Operacijų ištekliai](production-control/operations-resources.md)
+#### [Išteklių galimybės](production-control/resource-capabilities.md)
+#### [Paketo atributai](production-control/batch-attributes.md)
+#### [Gamybos užsakymo numatytoji informacija vykdant gamybą](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Gamybos sąrankos reikalavimai](production-control/production-set-up-requirements.md)
+### Gamybos operacijų planavimas
+#### [Operacijų planavimas](production-control/operations-scheduling.md)
+#### [Operacijų planavimo parinktys](production-control/operation-scheduling-options.md)
+#### [Užduočių planavimas](production-control/job-scheduling.md)
+### Gamybos užduočių valdymas
+#### [Konsoliduotieji paketiniai užsakymai](production-control/consolidated-batch-orders.md)
+#### [Medžiagų keitimas gamyboje](production-control/substitute-items-bom-lines.md)
+#### [Gamybos vykdymo registracija](production-control/registration-manufacturing-execution.md)
+#### [Gamybos grįžtamasis ryšys](production-control/production-feedback.md)
+#### [Laiko ir buvimo darbe registravimas](production-control/time-attendance-registrations.md) 
+### Finansų valdymas (gamyba)
+#### [Laiko paskirstymas sugrupuotų užduočių užduotims](production-control/allocate-time-jobs-job-bundle.md)
+#### [Medžiagų suvartojimo skaičiavimas](production-control/consumption.md)
+#### [Gamybos registravimas](cost-management/production-posting.md)
 # Pardavimas ir rinkodara
 ## [Rinkodara](sales-marketing/overview-sales-marketing.md)
 ## Pardavimo užsakymai
 ### [Užsakymų vykdymo perspektyva](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Pristatymo alternatyvos](sales-marketing/delivery-alternatives.md)
 ### [Užsakymų įvedimo terminai](sales-marketing/order-entry-deadlines.md)
 ### [Tiesioginiai pristatymai](sales-marketing/direct-deliveries.md)
 ### [Pristatymo grafikai](sales-marketing/delivery-schedules.md)
@@ -138,9 +167,10 @@
 ### [Maketo nustatymas](warehousing/warehouse-configuration.md)
 ### [Sandėlio darbo strategijos](warehousing/warehouse-work-policies.md)
 ### [Matavimo vienetų ir sandėliavimo strategijos](warehousing/unit-measure-stocking-policies.md)
+### [Sandėlio „Power BI“ turinys](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Paėmimas ir pakavimas
 ### [Pakavimo medžiagos ir mokesčiai](warehousing/pack-materials-packing-material-fees.md)
-## Atsargų inventorizacija
+## Atsargų skaičiavimas
 ### [Atsargų blokavimas](inventory/inventory-blocking.md)
 ### [Ciklo skaičiavimas](warehousing/cycle-counting.md)
 ### [Atsargų žurnalas](inventory/inventory-journals.md)
@@ -151,7 +181,21 @@
 ## Papildymas
 ### [Papildymas](warehousing/replenishment.md)
 ## Mobilieji įrenginiai
+### [Sandėliavimo programos diegimas ir konfigūravimas](warehousing/install-configure-warehousing-app.md)
 ### [Laukų pavadinimų konfigūravimas sandėliavimo programoje](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Mobiliųjų įrenginių nustatymas darbui sandėlyje](warehousing/configure-mobile-devices-warehouse.md)
 ### [Sandėlio mobiliųjų įrenginių portalas (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Sandėlio mobiliųjų įrenginių rodymo parametrai](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Finansai](/dynamics365/operations/financials/index)
+
+# [Personalas](/dynamics365/operations/human-resources/index)
+
+# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
+
+# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+
+# Kiti ištekliai
+## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

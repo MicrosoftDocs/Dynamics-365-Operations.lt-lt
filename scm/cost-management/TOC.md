@@ -22,10 +22,14 @@
 ## [Svertinio vidurkio data](weighted-average-date.md)
 ## [Svertinis vidurkis su faktine verte ir žymėjimu](weighted-average-physical-value-marking.md)
 # Gamybos įkainojimas
+## [Pastovių pagamintos prekės išlaidų amortizavimas](amortize-constant-costs-manufactured-item.md)
+## [Įkainojimas atvirkštine tvarka](backflush-costing.md)
+## [KS skaičiavimai](bom-calculations.md)
 ## [KS skaičiavimo grupė](bom-calculation-groups.md)
 ## [Bendrieji gamybos nuokrypio šaltiniai](common-sources-of-production-variances.md)
 ## [Išlaidų kategorija, naudojama gamybos kelvadoje](cost-categories-used-production-routings.md)
 ## [Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojama išlaidų kategorija](cost-categories-used-production-control-project-management-accounting.md)
+## [Pagamintos prekės išlaidų rodymas](charges-manufactured-item.md)
 ## [Gamybos užsakymų kaštų analizė](production-order-cost-analysis.md)
 ## [Gamybos užsakymų savikainos įvertinimas](production-order-cost-estimation.md)
 ## [Gamybos registravimas](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Gamybos aplinkos standartinės savikainos naujinimas](update-standard-costs-manufacturing-environment.md)
 ## [Naujos pagamintos prekės standartinės savikainos naujinimas](update-standard-costs-new-manufactured-item.md)
 ## [Ne gamybos aplinkos standartinės savikainos naujinimas](update-standard-costs-non-manufacturing-environment.md)
+
 
 

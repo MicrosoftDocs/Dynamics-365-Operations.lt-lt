@@ -170,6 +170,7 @@
 ## [Savikainos elemento dimensijos](cost-accounting/cost-elements.md)
 ## [Savikainos objekto dimensijos](cost-accounting/cost-objects.md)
 ## [Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį](cost-accounting/map-cost-elements-dimension-members.md)
+## [Pridėtinių išlaidų skaičiavimas](cost-accounting/overhead-calculation.md)
 ## [Savikainos kontrolės mobilioji darbo sritis](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Kaštų apskaitos analizės „Power BI‟ turinys](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Projekto pasiūlymai](project-management/project-quotations.md)
 ## [Projekto ištekliai](project-management/project-resourcing.md)
 ## [Darbo paskirstymo struktūros](project-management/work-breakdown-structures.md)
+## [Projekto laiko įrašų mobilioji darbo sritis](project-management/project-time-entry-mobile-workspace.md)
 # [Lokalizacijos](localizations/TOC.md)
+
+# [Personalas](/dynamics365/operations/human-resources/index)
+
+# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
+
+# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
+
+# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+
+# Kiti ištekliai
+## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

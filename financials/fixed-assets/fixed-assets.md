@@ -1,6 +1,6 @@
 ---
 title: Ilgalaikio turto pagrindinis puslapis
-description: "Ilgalaikis turtas yra vertingas turtas, pvz., pastatai, transporto priemonės, žemė ir įranga, priklausantis asmeniui arba organizacijai."
+description: "Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: cdcf247f33a35ebae4af4ff22c10083642e9f97a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 9d2c591b4a3f30ac9a3a842161ee7aa0e6c1db35
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ilgalaikis turtas yra vertingas turtas, pvz., pastatai, transporto priemonės, žemė ir įranga, priklausantis asmeniui arba organizacijai. 
+Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai. 
 
-Galite nustatyti ir įvesti ilgalaikio turto įsigijimo informaciją ir taip jį valdyti nustatydami nusidėvėjimą ir kapitalizacijos ribinę vertę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikio turto korekcijas bei jo atsikratyti. Kai su ilgalaikio turto moduliu naudojate didžiosios knygos modulį, galite peržiūrėti dabartinę viso ilgalaikio turto vertę. Ilgalaikio turto valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek kiekvienos šalies / regiono apskaitos įstatymus. Į reikalavimus gali būti įtrauktos ilgalaikio turto gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikio turto funkcijos apima daugelį šių standartų ir taisyklių.
+Galite nustatyti ir įvesti ilgalaikio turto informaciją ir turtą valdyti jį nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikio turto koregavimus bei jo atsikratyti. Kai su ilgalaikiu turtu naudojate didžiąją knygą, galite peržiūrėti dabartinę viso ilgalaikio turto vertę. Ilgalaikio turto valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikio turto gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikio turto funkcijose yra dauguma šių standartų ir taisyklių.
 
 
 

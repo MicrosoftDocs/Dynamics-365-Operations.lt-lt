@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ ms.lasthandoff: 04/12/2017
 Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Operations – Retail“. Kairiausioje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau. 
 
 ## <a name="set-up-retail-channels"></a>Mažmeninės prekybos kanalų nustatymas
-Nustatydami mažmeninės prekybos nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo tradicinės parduotuvės (sprendime „Dynamics 365 for Operations‟ vadinamą *mažmeninės prekybos parduotuve*) ir internetinės parduotuvės operacijas. 
+Nustatydami mažmeninės prekybos nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves – tradicinę parduotuvę, internetinę parduotuvę ir skambučių centrą. 
 
-Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo būdus, kainų grupes, EKA sprendimus, pajamų sąskaitas, išlaidų sąskaitas ir darbuotojus. Kai sukuriate savo mažmeninės prekybos parduotuvę, galite priskirti produktus, kuriuos norite, kad parduotuvė platintų. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai nauja parduotuvė įtraukiama į organizacijos hierarchiją.
-
-Kurdami savo internetinę parduotuvę turite nustatyti tokius komponentus kaip asortimentai, atributai, mokėjimo būdai ir siuntimo metodai. Taip pat galite nustatyti konkrečios internetinės parduotuvės kainas, akcijas, nuolaidas ir pristatymo sąlygas.
+Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo metodus, pristatymo metodus, kainų grupes, pajamų / išlaidų sąskaitas, registrus ir darbuotojus. Sukūrus savo mažmeninės prekybos parduotuvę, sukuriamas produktų, kuriuos norima, kad parduotuvė platintų, asortimentas. Taip pat galite nustatyti konkrečių parduotuvių kainas ir nuolaidas, taikomas parduotuvėje parduodamiems produktams.
 
 -   [Mažmeninės prekybos kanalų nustatymas](define-maintain-retail-channels.md)
 -   [Internetinės parduotuvės apžvalga](online-stores.md)
@@ -49,10 +48,10 @@ Kaip mažmeninės prekybos kanalo tipą galite nustatyti skambučių centrą. Sk
 -   [Skambučių centro funkcijos](call-center-functionality.md)
 -   [Skambučių centro katalogų kūrimas](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>EKA ir MEKA sprendimų nustatymas
-„Retail Modern POS‟ (MPOS) – tai elektroninio kasos aparato programa, skirta kompiuteriams, planšetiniams kompiuteriams ir telefonams. Bet kurioje parduotuvės vietoje naudodami mobiliuosius įrenginius bei kompiuterinius kasos aparatus pardavėjai gali apdoroti pardavimo operacijas, klientų užsakymus ir atlikti kasdienes operacijas bei valdyti atsargas. „Cloud POS‟ – tai naršyklėje veikiantis EKA. 
+## <a name="define-your-pos-solutions"></a>EKA sprendimų nustatymas
+„Retail Modern POS‟ (MPOS) – tai elektroninio kasos aparato programa, skirta kompiuteriams, planšetiniams kompiuteriams ir telefonams. Bet kurioje parduotuvės vietoje naudodami mobiliuosius įrenginius bei kompiuterinius kasos aparatus pardavėjai gali apdoroti pardavimo operacijas ir klientų užsakymus, komunikuoti su klientais bei atlikti kasdienes operacijas ir valdyti atsargas. „Cloud POS“ yra naršyklėje veikiantis EKA, kurį galima paleisti bet kurioje standartinėje naršyklėje. 
 
-Siekiant nustatyti ryšius tarp parduotuvės, EKA ar parduotuvės kanalų ir mažmeninės prekybos išorinių įrenginių, kuriuos tie kasos aparatai ar kanalai naudoja operacijoms apdoroti, nustatomi keli komponentai. Taip pat bus nustatomos konkretaus EKA egzemplioriaus charakteristikos, įskaitant aparatūros profilį ar mažmeninės prekybos išorinių įrenginių, kurie bus naudojami kaip kasos aparatas, sąranką, parduotuvę, su kuria kasos aparatas yra susietas ir vaizdą, kurį mato prie to kasos aparato prisijungęs vartotojas.
+Siekiant nustatyti ryšius tarp parduotuvės, parduotuvės EKA ir mažmeninės prekybos išorinių įrenginių, kuriuos tie kasos aparatai naudoja operacijoms apdoroti, nustatomi keli komponentai. Taip pat bus nustatomos konkretaus EKA egzemplioriaus charakteristikos, įskaitant aparatūros profilį ar mažmeninės prekybos išorinių įrenginių, kurie bus naudojami su kasos aparatu, sąranką, parduotuvę, su kuria kasos aparatas yra susietas, vaizdą, kurį mato prie to kasos aparato prisijungęs vartotojas, ir kasos aparate įgalintas funkcijas. Taip pat bus nustatoma, ar kasos aparatas gali veikti neprijungtas ar autonominės būsenos.
 
 -   [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 -   [MPOS konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 Daug temų apie mažmeninę prekybą galima rasti <a href="https://blogs.msdn.microsoft.com/dax/">„Microsoft Dynamics AX‟ produktų komandos tinklaraštyje</a>. Kai kurie iš šių įrašų buvo skirti ankstesnei „Dynamics 365 for Operations‟ versijai, tačiau galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje yra panašios.
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis</a> – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas naujo ir kokios yra „MBS Operations‟ tendencijos.
+
+
 

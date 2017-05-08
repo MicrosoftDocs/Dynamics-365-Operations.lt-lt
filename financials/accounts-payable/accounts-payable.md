@@ -1,6 +1,6 @@
 ---
 title: "Mokėtinų sumų pagrindinis puslapis"
-description: "Šioje temoje pateikiama mokėtinų sumų apžvalga."
+description: "Šioje temoje apžvelgiamas modulis Mokėtinos sumos."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: c0febeaf790fd9d2281f0e98089eb557ca1f7cec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 8bdfc9b29da86460e8f47760cf8afc051ea923fb
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje pateikiama mokėtinų sumų apžvalga. 
+Šioje temoje apžvelgiamas modulis Mokėtinos sumos. 
 
-Galite įvesti tiekėjų sąskaitas faktūras rankiniu būdu arba gauti elektroninį jų variantą per duomenų objektą. Po to, kai SF įvedamos arba gaunamos, galite jas peržiūrėti ir patvirtinti naudodami SF patvirtinimo žurnalą arba **Tiekėjo SF** puslapį. Galite naudoti SF gretinimą, tiekėjo SF strategijas ir darbo eigą norėdami automatizuoti peržiūros procesą, kad tam tikrus kriterijus atitinkančios SF būtų automatiškai patvirtintos, o likusios SF pažymimos, kad jas peržiūrėtų įgaliotas vartotojas.
+Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elektroniniu būdu, naudodami duomenų objektą. Kai sąskaitos faktūros įvestos arba gautos, jas peržiūrėti ir patvirtinti galite naudodami sąskaitų faktūrų patvirtinimo žurnalą arba puslapyje **Tiekėjo sąskaita faktūra**. Naudodami SF gretinimo funkciją, tiekėjo SF strategijas ir darbo eigą galite automatizuoti peržiūros procesą, kad tam tikrus kriterijus atitinkančios SF būtų automatiškai patvirtintos, o likusios SF būtų pažymimos, kad jas peržiūrėtų įgaliotas vartotojas.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Lokalizavimo ir reguliavimo priemonės"
-description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečių šalių / regionų funkcijas."
+description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
 
-„Microsoft Dynamics 365 for Operations‟ turi kai kurių konkrečioms šalims / regionams taikomų taisyklių ir procesų funkcijų. Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečių šalių / regionų funkcijas. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Informacija kūrėjams ir ISV
-Tolesniuose ištekliuose pateikiama informacija, kuri gali padėti kūrėjams ir ISV, kuriantiems konkrečių šalių / regionų tinkinimus.
+
+„Microsoft Dynamics 365 for Operations‟ turi funkcijų šalims / regionams, nurodytiems [produktų prieinamumo vadove](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+
+Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas. 
+
+## <a name="developing-localized-solutions"></a>Lokalizuotų sprendimų kūrimas
+Tolesniuose ištekliuose pateikiami nurodymai ir informacija, kurie gali padėti kūrėjams ir ISV, kuriantiems konkrečiose šalyse / regionuose veikiančius tinkinimus arba sprendimą, skirtą šaliai, kurios „Microsoft‟ nepalaiko.
 -   [Atskiri lokalizavimo modeliai](separate-localization-models.md)
 -   [Šalies / regiono konteksto taikymas](apply-country-context.md)
 -   [Reguliaciniai sertifikatai](regulatory-certifications.md)
 -   [Lokalizavimo priemonių klasifikavimas](classify-localization-features.md)
 -   [Šalių kodai – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Lokalizavimo naujinimai
+## <a name="localization-updates-and-communication"></a>Lokalizavimo naujinimai ir ryšys
 Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas lokalizavimo priemones. 
--   [Lokalizavimo portalas](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Lokalizavimo naujinimai
+-   [Lokalizavimo portalas](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (naujinama kas savaitę)
+-   [LCS problemų ieška](../lifecycle-services/issue-search-lcs.md) (naujinama kasdien)
+
+### <a name="communication-and-alerts"></a>Ryšys ir įspėjimai
 -   [Reglamentuota priežiūra ir reglamentuotas atnaujinimo ryšys](regulatory-watch-communication.md)
 -   [Įspėkite „Microsoft‟ apie šalių / regionų taisykles ir sekite reguliavimo priemonių būseną](submit-localization-alerts.md)
 
@@ -51,9 +62,17 @@ Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių�
 -   [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroninių ataskaitų paskirties vietos](../analytics/electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektroninių ataskaitų nustatymas naudojant „Power BI‟](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI‟](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="countryregion-specific-help-topics"></a>Konkrečių šalių / regionų žinyno temos
+## <a name="task-guides"></a>Užduočių vedliai
+Užduočių vedlius galima pasiekti produkto žinyno srityje – jie supažindina su svarbiausiais verslo procesais. Užduočių vedlį galite atidaryti ir perskaityti verslo proceso veiksmus, arba jį galite paleisti ir susipažinti su verslo procesu bei įvesti duomenis.
+
+Norėdami rasti užduočių vedlių, pereikite į kokį nors „Microsoft Dynamics 365 for Operations“ puslapį ir spustelėkite Žinynas. Žinyno srityje išvardyti užduočių vedliai, naudojantys šį puslapį. Žinyno srityje užduočių vedlių taip pat galite ieškoti pagal pavadinimą.
+
+Norėdami sužinoti daugiau, žr. [Užduočių vedliai](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
+
+## <a name="countryregion-specific-help-topics"></a>Konkrečios šalies / regiono žinyno temos
 Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 
 ### <a name="australia"></a>Australija
@@ -62,17 +81,17 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Verslo veiklos išrašas ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Mažų verčių telkinio nusidėvėjimas](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Austrija
 
+-   [Pusės metų nusidėvėjimas](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [Pakavimo medžiagų mokesčiai](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [PVM išrašas](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belgija
 
 -   [CODA banko išrašas](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [INTERVAT mokesčių deklaracija](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM ataskaitų nustatymas](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brazilija
 
@@ -93,7 +112,6 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Mokesčių mokėjimai](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Mokesčiai](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>Kinija
 -   [KS palyginimas](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Kiniški kvitai](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Atsargų pagrindinių sąskaitų registravimas pagal vietą](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [DK sąskaitų debeto ir kredito sumų rodymas](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>Čekija
+
+-   [Kredito pažymos mokėjimo nuolaida](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Nusidėvėjimo apvalinimas](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas Čekijoje](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Nusidėvėjimo sustabdymo laikotarpis](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Ilgalaikio turto nusidėvėjimo metodai Čekijoje](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas Čekijoje](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Nusidėvėjimo sustabdymo laikotarpis](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Ilgalaikio turto nusidėvėjimo metodai Čekijoje](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [Ilgalaikio turto išankstinio įsigijimo registravimas](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [PVM išrašas Čekijoje](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Išskaidyti laikotarpiai periodiniuose žurnaluose](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [Įvežimo į ES sertifikatai](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [ES pardavimo sąrašo ataskaitos](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [Valiutų kursų koregavimai](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [Mokėjimo metodų failų formatai](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Spausdinimo formų pasirašančiųjų nustatymas](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Išskaidyti laikotarpiai periodiniuose žurnaluose](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Sumų rodymo ataskaitose ir dokumentuose naujinimas](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [PVM valiutų kursai](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [PVM ataskaitos Europoje](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [Sudengimo operacijų peržiūra](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>Prancūzija
 -   [Chronologiniai sąskaitų faktūrų ir kvitų numeriai](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
    -   [„Titres de recette‟](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Tiekėjo SF mokėjimų sulaikymas](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Vokietija
 -   [Papildomų įsigijimų nusidėvėjimas](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Vokietijos audito failas (GDPdU / GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Vokietijos žurnalų sąrašo ataskaita](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Atskiros pardavimo kredito pažymų žymos spausdinimas (užduočių vedlys)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Atskiros pardavimo kredito pažymų žymos spausdinimas](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Vengrija
 
+-   [Ilgalaikio turto nusidėvėjimo metodai](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Ilgalaikio turto perkėlimas į atsargas](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Mažai kainuojantis ilgalaikis turtas](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>Italija
@@ -184,6 +204,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Važtaraščių datos tikrinimas sąskaitose faktūrose (Italija)](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Italijos PVM knygos](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Išskaitomas mokestis](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Japonija
 
@@ -240,6 +261,9 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Pardavimo sąskaitų faktūrų dublikatų numeravimas](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Ilgalaikio turto nusidėvėjimas](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Ilgalaikio turto likvidavimas](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [Grąžinama pakuotė](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [PVM ataskaitos](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Standartinis audito failas (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Apyvartos ir balansų išrašas](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Saudo Arabija
@@ -252,15 +276,16 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 
 ### <a name="spain"></a>Ispanija
 
-
--   [Ispanijos įsakomųjų vekselių parinktys](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [Ispanijos įsakomųjų vekselių parinktys](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [Parametras Mokėjimo nuolaida pritaikoma sąskaitoje faktūroje](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Finansinių duomenų, esančių sąskaitos faktūros sąskaitoje, naudojimas](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Sąlyginis PVM](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Ilgalaikio turto perkainojimo grupės](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [ES vidaus PVM](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Vienkartiniai klientai](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [Ispanijos paprastųjų vekselių parinktys](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Pardavimo ir pirkimo ciklai](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Specialūs įrašai ir atidarymo žiniaraščiai](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Finansinių duomenų, esančių sąskaitos faktūros sąskaitoje, naudojimas](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Švedija
 
@@ -286,4 +311,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Metų pabaigos 1099 ataskaita](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Algalapis](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Viešasis sektorius](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

@@ -60,3 +60,15 @@
 #### [Atlyginimo duomenų naujinimo DUK](localizations/noam-usa-payroll-data-updates.md)
 #### [Algalapio ataskaitų generavimas](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Finansai](/dynamics365/operations/financials/index)
+
+# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
+
+# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
+
+# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+
+# Kiti ištekliai
+## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

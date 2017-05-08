@@ -1,5 +1,6 @@
 # Sandėlio maketo kūrimas
 # Gavimo procesas
+## [Gavimų apžvalga](arrival-overview.md)
 # Siuntimo procesas
 # Atsargų sekimo nustatymas
 ## [Atsargų žurnalai](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Konsignacija](consignment.md)
 ## [Konsignacijos nustatymas](set-up-consignment.md)
 # Kokybės valdymas
+## [Turimų atsargų mobilioji darbo sritis](inventory-on-hand-mobile-workspace.md)
 ## [Kokybės valdymo įgalinimas](enable-quality-management.md)
 ## [Atsargų blokavimas](inventory-blocking.md)
 ## [Neatitikimo valdymas](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Prekės ir paketo sekimas
 ## [Atsargų paketo susiejimas](merge-inventory-batches.md)
 ## [Prekės ir žaliavos sekimas](trace-items-raw-materials-inventory-production-sales.md)
+
