@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje nurodomos produkto konfigūracijos modeliams svarbios sąlygos ir sąvokos. Naudodami produkto konfigūracijos modelius galite kurti nepatentuotų produktų struktūrą, kurią naudojant galima sukonfigūruoti daug vieno produkto variantų.
 
@@ -75,7 +79,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 <td>Apribojimai</td>
 <td>Apribojimais vadinami produkto modelio konfigūracijos apribojimai. Apribojimai naudojami siekiant užtikrinti, kad būtų pasirinktos tik tinkamos reikšmės, kai konfigūruojamas produktas. Apribojimai gali būti išraiškos arba lentelės apribojimai.
 <ul>
-<li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami wiki nuorodą apie išraiškos apribojimus ir lentelių apribojimus.</li>
+<li>Išraiškos apribojimai gali būti naudojami tik su susijusiais komponentais. Komponento išraiškos apribojimai gali nurodyti komponento pakomponenčio atributus. Produktų konfigūravimo sprendimų priemonė naudojama siekiant išspręsti apribojimus, ir rašydami apribojimus turite naudoti sprendimų priemonės sintaksę. Daugiau informacijos rasite naudodami temos saitą apie išraiškos apribojimus ir lentelių apribojimus.</li>
 <li>Lentelės apribojimai turi būti nurodomi prieš juos taikant produkto konfigūracijos modelio komponentui. Lentelės apribojimai gali būti nustatomi vartotojui arba sistemai. Vartotojo apibrėžtos lentelės apribojimas yra matricos tipas, kuris gali būti naudojamas derinių rinkinio atributo reikšmėms apibūdinti, kurios yra apibrėžiamos atributo tipo. Pavyzdžiui, jei gaminami garsiakalbiai, naudotojo apibrėžto lentelės apribojimo matricoje gali būti stulpeliai, skirti garsiakalbio apdailai ir grotelėms.</li>
 </ul>
 <strong>Pavyzdys</strong> Garsiakalbių apdailos yra keturios: juoda, ąžuolo, palisandro ir balta. Garsiakalbiai gali turėti vienas iš trijų priekinių grotelių: juodas, metalo arba baltas. Juodos gali būti visos grotelės, tačiau kitos apdailos naudojamos tik tam tikroms grotelėms. Toliau pateiktoje lentelėje rodomas informacijos, rodomos skirtuke <strong>Leistini deriniai</strong>, puslapyje <strong>Redaguoti lentelės apribojimą</strong> pavyzdys.
@@ -147,6 +151,8 @@ Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas ar
 </tr>
 </tbody>
 </table>
+
+
 
 
 

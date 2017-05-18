@@ -1,9 +1,9 @@
 ---
 title: "„Dynamics 365 for Operations‟ finansinės ataskaitos"
 description: "„Dynamics 365 for Operations“ finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>„Dynamics 365 for Operations‟ finansinės ataskaitos
+
+[!include[banner](../includes/banner.md)]
+
 
 „Dynamics 365 for Operations“ finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas.
 
@@ -36,15 +40,14 @@ Finansinės ataskaitos palaiko dimensijas. Todėl sąskaitos segmentus arba dime
 | Komponentas        | Funkcijos                                                                                                                                                                                                                                                                           | Papildoma informacija                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Ataskaitos dizaino įrankis  | Ataskaitų kūrimo blokų, kurie sujungiami, kad būtų galima apibrėžti ir generuoti ataskaitą, kūrimas. Ataskaitos vedlys padės mažiau patyrusiems vartotojams atliekant projektavimo procesą. Patyrę vartotojai gali kurti naujus ataskaitų kūrimo blokus arba modifikuoti esamus kūrimo blokus, kad jie atitiktų jų poreikius. |                                                                                                 |
-| Peržiūra žiniatinklyje       | Finansinių ataskaitų peržiūra žiniatinklio naršyklėje. Naudojant žiniatinklio peržiūros programą nereikia diegti finansinių ataskaitų serverio komponentų.                                                                                                                                                        | [Peržiūra žiniatinklyje](financial-reporter-designer-web-client.md)            |
-| Ataskaitų grafikai | Suplanuoti vieną ataskaitą arba ataskaitų grupė, kad jos būtų generuojamos reguliariai.                                                                                                                                                                                          | [Ataskaitos generavimas](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Ataskaitų grafikai | Suplanuoti vieną ataskaitą arba ataskaitų grupė, kad jos būtų generuojamos reguliariai.                                                                                                                                                                                          | [Finansinės ataskaitos generavimas](generate-financial-report.md) |
 
 ## <a name="features"></a>Funkcijos
 <table>
 <thead>
 <tr class="header">
 <th>Funkcija</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>aprašymas</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ Finansinės ataskaitos palaiko dimensijas. Todėl sąskaitos segmentus arba dime
 <li>Įtraukti dimensijų filtrus, siekiant ataskaitos turinį apriboti iki konkrečios dimensijos arba dimensijų derinio.</li>
 <li>Įtraukti atributų filtrus, siekiant ataskaitos turinį apriboti iki konkretaus atributo arba atributų derinio.</li>
 </ul>
-Daugiau informacijos ieškokite dalies <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Darbalaukio peržiūros programos sąsaja</a> skyriuje „Interaktyvūs komponentai ir naršymo funkcijos“.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Taip pat žiūrėkite
+[Finansinės ataskaitos generavimas](generate-financial-report.md)
 
-[Generuoti finansinę ataskaitą]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

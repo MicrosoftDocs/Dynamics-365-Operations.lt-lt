@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
@@ -19,15 +19,19 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: b2f59db59ea49925c3bb5e1d75beee95191220d0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 6e52ba4bdb8e879959ff886010092914332e6e12
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="define-channel-specific-discounts"></a>Apibrėžti konkretaus kanalo nuolaidas
+
+[!include[banner](includes/banner.md)]
+
 
 Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje temoje apžvelgtos sąvokas, kurias turite žinoti, norėdami sukurti konkretaus kanalo nuolaidą. 
 
@@ -39,7 +43,8 @@ Pardavėjai dažnai skirtinguose kanaluose siūlo skirtingas nuolaidas. Taip gal
 Apibrėžti konkrečių kanalų nuolaidoms „Microsoft Dynamics 365 for Operations‟ mažmeninėje prekyboje ir prekyboje naudojamos kainų grupės. Kainų grupės gali būti priskirtos vienam ar keliems toliau nurodytiems objektams: kanalams, katalogams, priskyrimams ir lojalumo programoms. Šiame straipsnyje aptariami kanalai, tačiau tos pačios koncepcijos taikomos katalogų nuolaidoms, priskyrimų nuolaidoms ir lojalumo nuolaidoms.
 
 ## <a name="price-groups"></a>Kainų grupės
-\[caption id="attachment\_256084" align="alignnone" width="640"\][![Kainų grupės](./media/price-groups-1024x608.png)](./media/price-groups.png) Mažmeninės prekybos kainų grupių saitai\[/caption\]
+
+[![Kainų grupės](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Aukščiau pateiktoje diagramoje iliustruojamas ryšys tarp galimų operacijos (kanalo, katalogo, priskyrimo, kliento, lojalumo kortelės) objektų ir įvairių nuolaidų tipų, kuriuos galima sukonfigūruoti. Visos operacijos vyksta kanale, todėl kanalas operacijoje tikrai bus. Likę objektai yra neprivalomi. Kiekviename bendrųjų duomenų puslapyje yra saitas į susijusių kainų grupių puslapį, kuriame galite peržiūrėti kainų grupes ir pagal poreikį jų pridėti. Kainų grupė naudojama keturių skirtingų tipų objektams susieti su nuolaidomis, kainų koregavimais ir prekybos sutartimis. Rekomenduojame susiplanuoti strategiją, kaip savo kainų grupes įvardysite, kad jos išliktų susistemintos. Viena galimybė galėtų būti naudoti raidinį arba skaitinį prievardį ar povardį, kad būtų galima atskirti skirtingus tipus. Pavyzdžiui, 1-xxxxx naudoti kanalų kainų grupėms, o 2-xxxxx – katalogų kainų grupėms. Yra keturi užklausų puslapiai, kuriuose dėmesys skiriamas kiekvienam mažmeninės prekybos objektui, su kuriuo gali būti susietos nuolaidos.
 
@@ -63,5 +68,7 @@ Toliau pateiktame pavyzdyje iliustruojamos užduotys, atliekamos nustatant kanal
 --------
 
 [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
+
+
 
 

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Pardavimo ir pelningumo našumo „Power BI“ turinys
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Dynamics 365 for Operations“ pardavimo ir pelningumo našumo turinio paketą, skirtą „Microsoft Power BI“. Jame paaiškinta, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
@@ -44,6 +48,7 @@ Pelningumą galima analizuoti pagal:
 
 ## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
 Pardavimo ir pelningumo našumo turinio paketas „Power BI“ išleistas kaip „Lifecycle Services“ (LCS) diegimo išteklius ir yra pasiekiamas iš „Dynamics 365 for Operations“. Išsamesnės informacijos apie tai, kaip pasiekti ir paleisti „Power BI“ ataskaitas žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+**Pastaba:** KB 4011327 yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie „Lifecycle Services“ galite pasiekti KB čia: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Į turinio paketą įtrauktos metrikos
 Turinio pakete yra ataskaita, sudaryta iš metrikų, pavaizduotų diagramomis, išklotinėmis ir lentelėmis, rinkinio. Toliau pateiktoje lentelėje pateikiama turinio paketo vizualizacijų apžvalga.
@@ -110,6 +115,8 @@ Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ tur
 -   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Nauji užduočių vedliai (2016 m. vasario mėn.)"
-description: "Šiame „wiki“ straipsnyje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.)."
+description: "Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.)."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nauji užduočių vedliai (2016 m. vasario mėn.)
 
-Šiame „wiki“ straipsnyje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
+[!include[banner](../includes/banner.md)]
+
+
+Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics 365 for Operations“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. vasario mėn.), skirti „Microsoft Dynamics 365 for Operations“
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedlių, ku
 [Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
+
+
 
 

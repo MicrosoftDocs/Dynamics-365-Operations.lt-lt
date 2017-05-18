@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Duomenis, kuriuos naudojate skaičiuodami tarifus „Microsoft Dynamics 365 for 
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Ar visoms mechanizmų konfigūracijoms būtini metaduomenys?
 Ne. Transportavimo valdymo mechanizmams, naudojamiems nuskaityti duomenis, kurių reikia tarifų skaičiavimui iš išorinių sistemų atlikti, metaduomenys nereikalingi. Šių mechanizmų tarifų duomenis galima nuskaityti iš išorinių transportavimo vežėjo sistemų, paprastai naudojantis žiniatinklio tarnyba. Pavyzdžiui, galite naudoti kilometražo mechanizmą, kuris nuskaito duomenis tiesiogiai iš „Bing“ žemėlapių, kad šiam mechanizmui nereikėtų naudoti metaduomenų.
-| **Pastaba. **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Pastaba.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transportavimo valdymo mechanizmai, gauti naudojant „Microsoft Dynamics 365 for Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Operations Visual Studio“ įrankius. |
 

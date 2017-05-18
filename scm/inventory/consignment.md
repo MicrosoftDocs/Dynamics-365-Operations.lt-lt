@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,24 +56,24 @@ Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vie
 USMF atlieka papildomus periodinius procesus:
 
 -   Faktinis tiekėjui priklausančių atsargų judėjimas tarp skirtingų sandėlių apdorojamas naudojant perkėlimo žurnalą.
--   Faktinės turimos atsargos atnaujinamos naudojant žurnalą** Prekių skaičiavimas **. Tiekėjas taip pat gali naudoti skaičiavimą norėdamas atnaujinti turimas atsargas, jeigu turi leidimą tai daryti.
+-   Faktinės turimos atsargos atnaujinamos naudojant žurnalą**Prekių skaičiavimas**. Tiekėjas taip pat gali naudoti skaičiavimą norėdamas atnaujinti turimas atsargas, jeigu turi leidimą tai daryti.
 
 Tiekėjas US-104 gali stebėti naujinimus naudodamas puslapį **Turimos konsignacijos atsargos**.
 
 ## <a name="consignment-replenishment-orders"></a>Konsignacijos papildymo užsakymai
 Konsignacijos papildymo užsakymas yra dokumentas, naudojamas norint pateikti užklausą ir stebėti produktų, kuriuos tiekėjas numato pristatyti per tam tikrą laiko intervalą, atsargų kiekius sukuriant užsakytų atsargų operacijas. Paprastai tai bus pagrįsta prognoze ir faktiniu konkrečių produktų poreikiu. Atsargos, kurios bus gautos pateikus konsignacijos papildymo užsakymą, lieka tiekėjo nuosavybė. Įrašomi tik su faktinio gavimo atnaujinimu susiję turimi produktai, todėl nėra jokių didžiosios knygos operacijos atnaujinimų. Dimensija **Savininkas** naudojama norint atskirti informaciją apie tai, kurios atsargos priklauso tiekėjui, o kurios priklauso gaunančiam juridiniam subjektui. Konsignacijos papildymo užsakymo eilučių būsena yra **Atviras užsakymas** tol, kol negaunamas arba neatšaukiamas visas eilučių kiekis. Kai visas kiekis gaunamas arba atšaukiamas, būsena pakeičiama į **Baigta**. Faktines su konsignacijos papildymo užsakymu susijusias turimas atsargas galima įrašyti naudojant registravimo procesą ir gavimo dokumento atnaujinimo procesą. Registraciją galima atlikti kaip prekių gavimo proceso dalį arba rankiniu būdu atnaujinant užsakymo eilutes. Kai naudojamas gavimo dokumento atnaujinimo procesas, produkto gavimo žurnale pateikiamas įrašas, kurį galima naudoti norint patvirtinti prekių gavimą tiekėjams. 
 
-[![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Konsignacijos papildymo užsakymas](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalas
 Atsargų savininko keitimo iš tiekėjo į gaunantį juridinį subjektą procesas atliekamas naudojant atsargų nuosavybės pakeitimo žurnalą. Žurnale numatomų atsargų operacijos nekuriamos. Kuriamos tik tos atsargų operacijos, kurios susijusios su užregistruotu žurnalu. Kada žurnalas buvo užregistruotas:
 
--   Tiekėjui priklausančios atsargos išduodamos naudojant nuorodą **Nuosavybės keitimas**, kurios būsena **Parduota **.
+-   Tiekėjui priklausančios atsargos išduodamos naudojant nuorodą **Nuosavybės keitimas**, kurios būsena **Parduota**.
 -   Turimas atsargas jas naudojantis juridinis subjektas gauna pirkimo užsakyme naudodamas gavimo dokumento atnaujintą atsargų operaciją. Taip nustatoma užsakymo būsena **Gauta**. Nustatoma konsignacijoms naudojamų pirkimo užsakymų lauko **Kilmė** nuostata **Konsignacija**.
 
 Sukūrus užsakymą konsignacijos pirkimo užsakymo eilučių skaičiaus atnaujinti neįmanoma. 
 
-[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Atsargų nuosavybės pakeitimo žurnalas](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Tiekėjų bendradarbiavimas konsignacijos procesuose
 Tiekėjo bendradarbiavimo sąsajoje yra trys su gaunamu konsignacijos procesu susiję puslapiai:

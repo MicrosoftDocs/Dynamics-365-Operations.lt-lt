@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 3c608f13c93446329702f07ef7e8bb08a29d87b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8cb9428ff6be93f9a395ec3085ef1fda05847a8a
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/31/2017
 -   Stebėti ir tvarkyti „kanban“ užduotis.
 
 „Lean manufacturing‟ architektūrą programoje „Microsoft Dynamics AX 7‟ sudaro gamybos eigos, veiklos ir „kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Microsoft Dynamics AX 7‟ procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
-| **Svarbu **                                                                                                                                                                                                                                                                |
+| **Svarbu**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | „Microsoft Dynamics AX 7‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ įgyvendinimas su „kanban‟. Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
 

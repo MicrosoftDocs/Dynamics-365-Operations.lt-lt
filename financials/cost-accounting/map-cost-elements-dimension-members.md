@@ -1,9 +1,9 @@
 ---
-title: "Skirtingų savikainos elemento dimensijos narių susiejimas su bendruoju dimensijos narių rinkiniu"
+title: "Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį"
 description: "Susiedami skirtingus savikainos elemento dimensijos narius su bendruoju savikainos elemento dimensijos narių rinkiniu jūs suliejate duomenis į bendrąjį analizės tikslais naudojamą formatą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 45 - 07
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a1e9817b6ee596ad516531d7597a2a39e115749c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 24794f371e1914f8466cd9a7407fd263e94b00aa
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Skirtingų savikainos elemento dimensijos narių susiejimas su bendruoju dimensijos narių rinkiniu
+# <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį
+
+[!include[banner](../includes/banner.md)]
+
 
 Susiedami skirtingus savikainos elemento dimensijos narius su bendruoju savikainos elemento dimensijos narių rinkiniu jūs suliejate duomenis į bendrąjį analizės tikslais naudojamą formatą.
 
@@ -48,5 +52,7 @@ Toliau pateikiamame pavyzdyje nurodoma, kaip jūs, kadangi esate savikainos vald
 
 ## <a name="update-mappings-at-any-time"></a>Naujinti susiejimus bet kuriuo metu
 Savikainos elemento dimensijos susiejimo apibrėžimus galite atnaujinti bet kuriuo metu. Kadangi susiejimai įsigalioja ne nuo tam tikros datos, pakeitimai taikomi kitą kartą apdorojant savikainos operacijas arba atliekant savikainos skaičiavimus.
+
+
 
 

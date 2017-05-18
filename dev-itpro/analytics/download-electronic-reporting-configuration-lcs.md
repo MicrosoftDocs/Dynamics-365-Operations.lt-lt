@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip atsisiųsti elektroninių ataskaitų (ER) konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS).
 
@@ -43,9 +47,10 @@ ms.lasthandoff: 03/31/2017
     1.  Spustelėdami **Įtraukti** įtraukite naują saugyklą.
     2.  Pasirinkite **LCS** kaip saugyklos tipą.
     3.  Spustelėkite **Kurti saugyklą**.
-    4.  Įveskite saugyklos pavadinimą ir aprašymą.
-    5.  Spustelėkite **Gerai**, kad patvirtintumėte naują saugyklos įrašą.
-    6.  Tinklelyje pasirinkite naują tipo **LCS** saugyklą.
+    4. Paraginti vykdykite autorizavimo instrukcijas.
+    5.  Įveskite saugyklos pavadinimą ir aprašymą.
+    6.  Spustelėkite **Gerai**, kad patvirtintumėte naują saugyklos įrašą.
+    7.  Tinklelyje pasirinkite naują tipo **LCS** saugyklą.
 
 6.  Spustelėkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Kairiojoje srityje esančiame konfigūracijų medyje pasirinkite reikiamą ER konfigūraciją.
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+
+
 
 

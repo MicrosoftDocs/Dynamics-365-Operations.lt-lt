@@ -3,7 +3,7 @@ title: "Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai"
 description: "Šioje temoje apžvelgiamas išraiškos ir lentelės apribojimų naudojimas. Apribojimais valdomos atributo reikšmės, kurias galite pasirinkti konfigūruodami pardavimo užsakymo, pardavimo pasiūlymo, pirkimo užsakymo arba gamybos užsakymo produktus. Galite naudoti išraiškos apribojimus arba lentelės apribojimus atsižvelgdami į tai, kaip norite sukurti apribojimus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje apžvelgiamas išraiškos ir lentelės apribojimų naudojimas. Apribojimais valdomos atributo reikšmės, kurias galite pasirinkti konfigūruodami pardavimo užsakymo, pardavimo pasiūlymo, pirkimo užsakymo arba gamybos užsakymo produktus. Galite naudoti išraiškos apribojimus arba lentelės apribojimus atsižvelgdami į tai, kaip norite sukurti apribojimus. 
 
@@ -42,7 +46,7 @@ Lentelės apribojimais nurodomi konfigūruojant produktą leidžiami atributų r
 
 Šiame pavyzdyje parodoma, kaip galite riboti garsiakalbio konfigūracijas konkrečiomis spintelės apdailomis ir priekinėmis grotelėmis. Pirmoje lentelėje nurodytos spintelių apdailos ir priekinės grotelės, kurias galima konfigūruoti įprastu metu. Reikšmės nustatomos atributų tipuose **Spintelių apdaila** ir **Priekinės grotelės**.
 
-| Atributo tipas | Vertės                      |
+| Atributo tipas | Reikšmės                      |
 |----------------|-----------------------------|
 | Spintelės apdaila | Juoda, ąžuolo, raudonmedžio, balta |
 | Priekinės grotelės    | Juoda, metalo, balta         |
@@ -248,5 +252,7 @@ Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių ka
 [Kaip sukurti išraiškos apribojimą (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Įtraukti skaičiavimą į produktų konfigūravimo modelį (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

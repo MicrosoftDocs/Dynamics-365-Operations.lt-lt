@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Tikrinti, ar nėra besidubliuojančių įrašų, galite tiesiai iš **Visuotinė
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Ar galima adresų knygelėje įrašus pridėti ar naikinti masiškai?
 Taip, į adresų knygelę galite pridėti kelis šalių įrašus ir taip pat pašalinti kelis įrašus.
 
--   Norėdami į adresų knygelę pridėti kelis šalių įrašus, **Visuotinės adresų knygelės **sąrašo puslapyje sąraše pasirinkite šalis. Tada veiksmų srityje, skirtuke **Šalis**, grupėje **Prižiūrėti** spustelėkite **Priskirti šalis**. Pasirinkite adresų knygeles, į kurias turi būti pridėti šalių įrašai, ir spustelėkite **Gerai**. Visi pasirinkti šalių įrašai pridedami į jūsų pasirinktas adresų knygeles.
--   Norėdami iš adresų knygelę pašalinti kelis šalių įrašus, **Visuotinės adresų knygelės **sąrašo puslapyje sąraše pasirinkite šalis. Tada veiksmų srityje, skirtuke **Šalis**, grupėje **Prižiūrėti** spustelėkite **Šalinti šalis**. Pasirinkite adresų knygeles, iš kurių reikia pašalinti šalis, ir spustelėkite **Gerai**. Visi pasirinkti šalių įrašai pašalinami iš jūsų pasirinktų adresų knygelių.
+-   Norėdami į adresų knygelę pridėti kelis šalių įrašus, **Visuotinės adresų knygelės**sąrašo puslapyje sąraše pasirinkite šalis. Tada veiksmų srityje, skirtuke **Šalis**, grupėje **Prižiūrėti** spustelėkite **Priskirti šalis**. Pasirinkite adresų knygeles, į kurias turi būti pridėti šalių įrašai, ir spustelėkite **Gerai**. Visi pasirinkti šalių įrašai pridedami į jūsų pasirinktas adresų knygeles.
+-   Norėdami iš adresų knygelę pašalinti kelis šalių įrašus, **Visuotinės adresų knygelės**sąrašo puslapyje sąraše pasirinkite šalis. Tada veiksmų srityje, skirtuke **Šalis**, grupėje **Prižiūrėti** spustelėkite **Šalinti šalis**. Pasirinkite adresų knygeles, iš kurių reikia pašalinti šalis, ir spustelėkite **Gerai**. Visi pasirinkti šalių įrašai pašalinami iš jūsų pasirinktų adresų knygelių.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Ar galiu keisti įrašo šalies tipą, ar reikia panaikinti senąjį įrašą ir sukurti naują?
 Kartais gali tekti pakeisti įrašo šalies tipą iš asmens į organizacijos arba iš organizacijos į asmens. Pavyzdžiui, Nancy yra „Fabrikam U.K.‟ pardavimo komandos narė. Prekybos parodoje Londone ji sutinka šešis naujus potencialius klientus. Nancy kiekvienam potencialiam klientui sukuria potencialaus kliento šalies įrašą. Nancy įrašant įrašus, kiekvienas įrašas taip pat sukuriamas visuotinėje adresų knygelėje. „Fabrikam‟ numatytąjį šalies tipą nustatė į organizacijos, tačiau dviejų naujų potencialių klientų įrašo tipas turėtų būti asmens. Todėl, kai Nancy grįžta iš prekybos parodos, ji turi pakeisti šių dviejų potencialių klientų šalies tipą. Norėdami šalies įrašą pakeisti iš vieno šalies tipo į kitą, pirmiausia visuotinėje adresų knygelėje turite sukurti naują tinkamo tipo šalies įrašą. Tada senąjį šalies įrašą susiejate su šiuo nauju įrašu. Susieję naująją šalį, panaikinkite pradinį šalies įrašą, kurio įrašo tipas netinkamas.

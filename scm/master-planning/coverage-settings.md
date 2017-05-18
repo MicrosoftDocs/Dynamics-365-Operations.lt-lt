@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c1c5654afa6b592e178af052e3e4a7e246a94c9f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 208fa88153adeca029f347f240c112ee156d1a7d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Galite nurodyti padengimo parametrus keliais būdais:
 
 -   Nurodykite padengimo grupės padengimo parametrus. Galite sukurti padengimo grupę, kurioje būtų visų su padengimo grupe susijusių produktų parametrai. Norėdami sukurti padengimo grupę spustelėkite **Bendrasis planavimas &gt; Sąranka &gt; Padengimas &gt; Padengimo grupės**. Padengimo grupę galite susieti su produktu. Jei saitas yra konkrečios teritorijos, sandėlio ar produkto dimensijos, naudokite puslapio **Prekės padengimas** lauką **Padengimo grupė**. Jei saitas yra bendrasis, neatsižvelgdami į produkto dimensijas, naudokite puslapio **Produkto informacija** „FastTab“ skirtuke **Planas** esančią parinktį **Padengimo grupė**. Jei padengimo grupės nesusiejate su produktu, bendrojo planavimo funkcija kaip numatytąją naudoja puslapyje **Bendrojo planavimo parametrai** nurodytą parinktį **Bendroji padengimo grupė**.
 
--   Nurodykite produkto padengimo parametrus. Galite sukurti konkretaus produkto padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite produktą, dalyje **Veiksmų sritis** esančio skirtuko **Planas** lauke **Padengimo grupė** spustelėkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje** Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
+-   Nurodykite produkto padengimo parametrus. Galite sukurti konkretaus produkto padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite produktą, dalyje **Veiksmų sritis** esančio skirtuko **Planas** lauke **Padengimo grupė** spustelėkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje**Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
 
 <!-- -->
 

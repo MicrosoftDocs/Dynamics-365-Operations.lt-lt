@@ -3,7 +3,7 @@ title: "Mobiliųjų įrenginių nustatymas darbui sandėlyje"
 description: "Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 
@@ -315,7 +319,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="even">
 <td>Rodyti atsargų būseną</td>
-<td>Pažymėkite šią parinktį, kad būtų rodoma atsargose esančių prekių būsena. Daugiau informacijos rasite straipsnyje <a href="/inventory/inventory-statuses.md">Atsargų būsenų naudojimo privalumai</a>. Ši parinktis galima visuose meniu elementuose, naudojančiuose esamą darbą, išskyrus ciklo skaičiavimą.</td>
+<td>Pažymėkite šią parinktį, kad būtų rodoma atsargose esančių prekių būsena. Ši parinktis galima visuose meniu elementuose, naudojančiuose esamą darbą, išskyrus ciklo skaičiavimą.</td>
 </tr>
 <tr class="odd">
 <td>Rodyti paėmimo ekrano suvestinę</td>
@@ -411,6 +415,8 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 
 [Nustatyti mobiliojo įrenginio meniu elementą pirkimo užsakymo tipo darbui atlikti (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Nustatyti mobiliojo įrenginio meniu elementą gautoms prekėms registruoti (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Mobiliojo įrenginio meniu elemento nustatymas registruoti gautas prekes (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Atsargų būsenų naudojimo privalumai](../inventory/inventory-statuses.md)
+
 
 

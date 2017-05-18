@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas
 -   Darbuotojai, kurie turi registruoti laiką ir lankomumą reguliariais intervalais, pavyzdžiui, kasdien, kas savaitę arba kas dvi savaites.
 -   Prižiūrėtojai, vadovai ir darbo užmokestį skaičiuojantys buhalteriai, kurie skaičiuoja, tvirtina ir perkelia darbuotojo registracijas toliau apdoroti.
 
-| **Pastaba **                                                                                                                                                                                                                                                    |
+| **Pastaba**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jei vykdote laiko ir lankomumo registracijas vykdydami gamybą, visos projektų, projekto veiklų, netiesioginių veiklų, neatvykimo kodų ir viršvalandžių bei nukrypimo laiko registracijos bus įrašytos ir naudojamos atlyginimams abiejuose moduliuose apskaičiuoti. |
 
@@ -53,7 +54,7 @@ Atlikus sąranką darbuotojai gali įvesti skirtingų tipų registracijas.
 -   Laiko ir prekių suvartojimas gamybos užduotyse.
 -   Laikas, kurį sunaudoja cecho mašina, jei ji nurodyta kaip išteklius.
 
-| **Pastaba **                                                                                                                                                                                                                      |
+| **Pastaba**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Darbuotojui gali būti automatiškai priskiriamos laiko registracijos, atliktos naudojant konkrečią cecho mašiną, jei darbuotojas nusprendžia dirbti kaip mašinos asistentas, kai jis pradeda gamybos užduotį. |
 
@@ -82,7 +83,7 @@ Kaip laiko registracijos darbuotojui priskiriate skaičiavimo grupę, taip turit
 -   Įtraukti neautomatiškai nustatomas premijas.
 -   Įvesti papildomą informaciją apie neatvykimo registracijas.
 
-| **Pastaba **                                                                                                                                                                             |
+| **Pastaba**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jei tam tikriems darbuotojams buvo skaičiuojami viršvalandžiai, viršvalandžiai gali būti paskirstyti specialiems darbams dienos metu. Tai tinka, jei darbo išlaidos skaičiuojamos pagal darbuotojo mokėjimą. |
 
@@ -102,7 +103,7 @@ Patvirtinus registracijas jas galima perkelti į periodinę atlyginimo užduotį
 ## <a name="reversing-transferred-registrations"></a>Perkeltų registracijų atšaukimas
 Operacijų atšaukimo užduotį galima vykdyti (pakartoti), kol neįvykdytas periodinio atlyginimo mokėjimo pervedimas. Tai reiškia, algalapio duomenys buvo perkelti į išorinį failą. Kai atšaukiama, visos registracijos panaikinamos, o registruotos gamybos užsakymų arba projektų operacijos yra korespondentinės neutralios.
 
-| **Pastaba **                                                 |
+| **Pastaba**                                                 |
 |----------------------------------------------------------|
 | Išorinį failą galima importuoti į algalapio sistemą. |
 

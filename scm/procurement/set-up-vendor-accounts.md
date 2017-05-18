@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 0719a49bee069dc49be084a3fbc4ba5eb4883d03
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2f0ddf0e4cff0d799a7baf6bdc9d5c2da0622f4d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Kai sulaikote tiekėją, taip pat galite nurodyti priežastį ir datą, kada sul
 Jei daugiau nei vienas tiekėjas turi tokį patį sąskaitos adresą arba jei tiekėjui SF išrašoma per trečiąją šalį, tiekėjo įraše galite nurodyti SF kodą. SF kodas yra kodas, kuriame kredituojama SF suma, kai iš pirkimo užsakymo kuriate tiekėjo SF. Tiekėjo įraše neįvedus SF kodo, jo vietoje naudojamas tiekėjo kodas.
 
 ## <a name="vendor-bank-accounts"></a>Tiekėjų banko sąskaitos
-Jei mokėjimus turite atlikti į tiekėjo banko sąskaitą, galite įvesti informaciją apie tiekėjo banką ir banko sąskaitas puslapyje **Tiekėjo banko sąskaitos **. Taip pat galite įvesti banko sąskaitos tikrinimo ir mokėjimų informaciją. Pavyzdžiui, į tiekėjo banko sąskaitas galite įtraukti išankstinių pranešimų. Šiuos išankstinius pranešimus galima naudoti norint patvirtinti sąskaitos duomenų, tokių kaip nukreipimo numeriai ir sąskaitos numeriai, tikslumą. Turite nurodyti numatytąją mokėjimų tiekėjui sąskaitą. Tačiau atlikdami mokėjimą galite šią sąskaitą pakeisti į vieną iš kitų tiekėjo sąskaitų.
+Jei mokėjimus turite atlikti į tiekėjo banko sąskaitą, galite įvesti informaciją apie tiekėjo banką ir banko sąskaitas puslapyje **Tiekėjo banko sąskaitos**. Taip pat galite įvesti banko sąskaitos tikrinimo ir mokėjimų informaciją. Pavyzdžiui, į tiekėjo banko sąskaitas galite įtraukti išankstinių pranešimų. Šiuos išankstinius pranešimus galima naudoti norint patvirtinti sąskaitos duomenų, tokių kaip nukreipimo numeriai ir sąskaitos numeriai, tikslumą. Turite nurodyti numatytąją mokėjimų tiekėjui sąskaitą. Tačiau atlikdami mokėjimą galite šią sąskaitą pakeisti į vieną iš kitų tiekėjo sąskaitų.
 
 ## <a name="ledger-accounts"></a>DK sąskaitos
 Galite nurodyti numatytąsias sąskaitas, kurios bus automatiškai rodomos nurodyto tiekėjo SF žurnaluose. Ši funkcija gali būti naudinga, jei paprastai mokate už tos pačios rūšies prekes arba paslaugas iš tų pačių tiekėjų. Kai nurodote numatytąją sąskaitą, SF žurnale galite greitai ir efektyviai įvesti žurnalo įrašus. Jūsų nurodytos numatytosios sąskaitos nėra naudojamos pirkimo užsakymuose arba tiekėjo SF, kurias įvedate puslapyje **Tiekėjo SF**.  

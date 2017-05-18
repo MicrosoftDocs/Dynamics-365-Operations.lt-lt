@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ Numatytieji užsakymo parametrai turi rangus. Kuo aukštesnis rangas, tuo svarbe
 
 ### <a name="default-order-settings-for-released-products"></a>Išleistiems produktams taikomi numatytieji užsakymo parametrai
 
-Atskiriems išleistiems produktams galite nurodyti bendruosius užsakymo parametrus arba konkrečiai vietai taikomus užsakymo parametrus. Bendrųjų užsakymo parametrų rangas visada nulis. Jeigu vienu metu nustatote naujus pardavimo, pirkimo ir atsargų užsakymo parametrus, puslapyje **Numatytieji užsakymo parametrai ** rekomenduojame naudoti nuostatą **Informacijos rodinys**. Norėdami perjungti informacijos rodinį, pasirinkite **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Keisti rodinį** &gt; **Informacijos rodinys**.
+Atskiriems išleistiems produktams galite nurodyti bendruosius užsakymo parametrus arba konkrečiai vietai taikomus užsakymo parametrus. Bendrųjų užsakymo parametrų rangas visada nulis. Jeigu vienu metu nustatote naujus pardavimo, pirkimo ir atsargų užsakymo parametrus, puslapyje **Numatytieji užsakymo parametrai** rekomenduojame naudoti nuostatą **Informacijos rodinys**. Norėdami perjungti informacijos rodinį, pasirinkite **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Keisti rodinį** &gt; **Informacijos rodinys**.
 
 ### <a name="site-specific-order-settings"></a>Nuo vietos priklausomi užsakymo parametrai
 
@@ -149,9 +150,9 @@ Paprastai specialiųjų taisyklių ir svarbesnių negu kitos dimensijos dimensij
 
 Taisyklė, kurios reitingas nulis, naudojama kaip apsauginė sąlyga. Jei nėra kitų taisyklių, tada naudojami nulinės taisyklės numatytieji užsakymo parametrai. 
 
-Kadangi labai svarbus reitingo skaičius, veiksmų srityje **Numatytieji užsakymo parametrai **pateikiamos funkcijos, kuriomis naudojantis galima perkelti taisyklę aukštyn arba žemyn ir iš naujo numeruoti taisykles, taip, kad jos būtų visada išdėstomos intervalais po 10. 
+Kadangi labai svarbus reitingo skaičius, veiksmų srityje **Numatytieji užsakymo parametrai**pateikiamos funkcijos, kuriomis naudojantis galima perkelti taisyklę aukštyn arba žemyn ir iš naujo numeruoti taisykles, taip, kad jos būtų visada išdėstomos intervalais po 10. 
 
-Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Norint geriau suprasti, ko nepaisoma vadovaujantis kiekviena taisykle ir kodėl kiekviena taisyklė reikalinga, rekomenduojame naudoti puslapyje** Numatytieji užsakymo parametrai** esantį **Tinklo rodinį**. Tinklelį galite įgalinti pasirinkdami **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Pakeisti rodinį** &gt; **Tinklo rodinys**. Tinklelyje rodomų stulpelių skaičius gali būti gana svarbus, ypač pardavimo ir atsargų skirtukuose. Norint apriboti tinklelyje rodomų stulpelių skaičių, stulpelių grupes galima paslėpti arba rodyti naudojant meniu **Numatytieji užsakymo parametrai** &gt; **Stulpelio rodinys** mygtukus.
+Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Norint geriau suprasti, ko nepaisoma vadovaujantis kiekviena taisykle ir kodėl kiekviena taisyklė reikalinga, rekomenduojame naudoti puslapyje**Numatytieji užsakymo parametrai** esantį **Tinklo rodinį**. Tinklelį galite įgalinti pasirinkdami **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Pakeisti rodinį** &gt; **Tinklo rodinys**. Tinklelyje rodomų stulpelių skaičius gali būti gana svarbus, ypač pardavimo ir atsargų skirtukuose. Norint apriboti tinklelyje rodomų stulpelių skaičių, stulpelių grupes galima paslėpti arba rodyti naudojant meniu **Numatytieji užsakymo parametrai** &gt; **Stulpelio rodinys** mygtukus.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Išleisto produkto variantui pritaikyti užsakymo parametrai
 

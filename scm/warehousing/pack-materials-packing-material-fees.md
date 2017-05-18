@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c0bc5b5d86956336012096c11d0d7621abab1f9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d8296dd0347a325a9ff3bd06f558d161ab4030dc
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Skaičiuojami pardavimo užsakymo eilučių ir pirkimo užsakymų eilučių paka
 
 Prekei, prekių pakavimo grupei ar visoms prekėms galite apibrėžti vieną ar kelis pakavimo vienetus. Pakavimo vienetą sudaro pakavimo medžiagos, jų svoriai ir prekių, įeinančių į pakavimo vienetą, skaičius. Pakavimo medžiagos kodas priskiriamas kiekvienam apibrėžtam pakavimo medžiagos tipui. Pagal pakavimo medžiagos kodą galite nurodyti nurodyto laikotarpio kainą. Pagal šią informaciją skaičiuojamas pakavimo medžiagos mokestis.
 
-| **Pastaba. **                                                                                                                                             |
+| **Pastaba.**                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Net jei jūsų įmonė nemoka pakavimo medžiagų mokesčių, galite šią funkciją naudoti pakavimo medžiagų svorių statistikai skaičiuoti. |
 

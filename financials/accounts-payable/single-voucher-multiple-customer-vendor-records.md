@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 415eca2219cdba3da96c1cb54bea8af81fd50119
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 10b96749fd8bfaa1ae98f7f5a0fa3f7dac2d16bb
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Registruojant kvitą, kuriame yra keletas kliento arba tiekėjo įrašų, sukuri
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-cash-discount-accounting"></a>Vienas kvitas su keliais tiekėjais ir poveikis mokėjimo nuolaidos apskaitai
 
-Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas **kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose.
+Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas**kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose.
 
 |             |                  |              |                 |           |            |
 |-------------|------------------|--------------|-----------------|-----------|------------|
@@ -119,7 +120,7 @@ Dabar, kai apmokama INV2, pateikiamas toliau nurodytas įrašas. Atkreipkite dė
 | GNJL001     | Tiekėjas           | 1001        | INV1            |           | 100,00     | DK           | 606300-001-- |
 | GNJL001     | Tiekėjas           | 1001        | INV2            |           | 200,00     | DK           | 606300-002-- |
 
-Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas **kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose. Užregistravus sukuriamas vienas kvitas.
+Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas**kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose. Užregistravus sukuriamas vienas kvitas.
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|

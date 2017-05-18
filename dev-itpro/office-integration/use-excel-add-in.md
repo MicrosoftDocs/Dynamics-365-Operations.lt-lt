@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 8af663b47117759ed3b2e2ed8eee85ae4df100d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f80d5d49cae3107390a605e9605d8af65bf2342d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="use-the-excel-add-in"></a>„Excel“ papildinio naudojimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Galite atidaryti objektų duomenis naudodami „Excel“ arba „Microsoft Dynamics 365 for Operations“.
 
@@ -44,13 +48,14 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 2.  „Office“ parduotuvėje ieškokite raktažodžio „Dynamics“ ir spustelėkite **Įtraukti** prie **„Microsoft Dynamics Office“ papildinys** („Excel“ papildinys).
 3.  Jei „Excel“ papildinį paleisite pirmą kartą, spustelėję **Pasitikėti šiuo papildiniu** jį įjunkite. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4.  Spustelėję **Įtraukti serverio informaciją** atidarykite sritį **Parinktys**.
-5.  „Dynamics 365 for Operations“ paskirties egzemplioriuje nukopijuokite naršyklės URL, jį įklijuokite į lauką **Serverio URL**, tada panaikinkite visą po pagrindinio kompiuterio vardo esantį tekstą (pavyzdžiui, panaikinkite **/?cmp=usmf&mi=CustTableListPage**). Gautame URL turi likti tik pagrindinio kompiuterio vardas (pavyzdžiui, **https://xxx.dynamics.com**).
+5.  „Dynamics 365 for Operations“ paskirties egzemplioriuje nukopijuokite naršyklės URL, jį įklijuokite į lauką **Serverio URL**, tada panaikinkite visą po pagrindinio kompiuterio vardo esantį tekstą. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
+Pavyzdžiui, jei URL yra https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, panaikinkite viską, išskyrus **https://xxx.dynamics.com**.
 6.  Spustelėkite **Gerai**, tada spustelėję **Taip** patvirtinkite pakeitimą. „Excel“ papildinys paleidžiamas iš naujo ir įkeliami metaduomenys. Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus „Trikčių diagnostika“ dalį „Rodomas mygtukas Įkelti programėles“.
 7.  Spustelėkite **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.
 8.  Spustelėkite **Įtraukti lentelę**. Pateikiamas objektų sąrašas. Jame objektai nurodomi „Pavadinimas – žyma“ formatu.
 9.  Sąraše pasirinkite objektą, pvz., **Klientas – klientai**, tada spustelėkite **Pirmyn**.
 10. Norėdami į sąrašą **Pasirinkti laukai** įtraukti sąrašo **Galimi laukai** lauką, spustelėkite lauką, tada spustelėkite **Įtraukti**. Galite ir dukart spustelėti lauką.
-11. Įtraukę norimus laukus į sąrašą **Pasirinkti laukai** įsitikinkite, kad žymiklis yra tinkamoje darbalapio vietoje (pavyzdžiui, A1 langelyje), tada spustelėkite **Atlikta**. Tada spustelėję **Atlikta** išeikite iš dizaino įrankio.
+11. Įtraukę laukus į sąrašą **Pasirinkti laukai** įsitikinkite, kad žymiklis yra tinkamoje darbalapio vietoje (pavyzdžiui, A1 langelyje), tada spustelėkite **Atlikta**. Tada spustelėję **Atlikta** išeikite iš dizaino įrankio.
 12. Spustelėkite **Atnaujinti**, kad būtų nuskaitytas duomenų rinkinys.
 
 ## <a name="view-and-update-entity-data-in-excel"></a>Kaip peržiūrėti ir atnaujinti objektų duomenis programoje „Excel“
@@ -59,14 +64,17 @@ Kai naudojant „Excel“ papildinį bus nuskaityti ir darbaknygėje pateikti ob
 ## <a name="edit-entity-data-in-excel"></a>Kaip redaguoti objektų duomenis programoje „Excel“
 Pagal poreikius galite keisti objektų duomenis, tada juos publikuoti „Excel“ papildinyje spustelėdami **Publikuoti**. Norėdami redaguoti įrašą, darbalapyje pasirinkite langelį, tada pakeiskite langelio reikšmę. Norėdami įtraukti naują įrašą, atlikite vieną iš toliau nurodytų veiksmų.
 
--   Spustelėkite bet kurioje darbalapio vietoje, tada „Excel“ papildinyje spustelėkite **Naujas**.
--   Spustelėkite paskutinę darbalapio eilutę, tada spauskite klavišą „Tab“, kol žymiklio nebebus paskutiniame šios eilutės stulpelyje ir bus sukurta nauja eilutė.
--   Spustelėkite po pat darbalapiu esančią eilutę ir langelyje pradėkite įvesti duomenis. Kai šiame langelyje nustosite įvesti tekstą ir žymiklį perkelsite į kitą įvesties vietą, darbalapis bus išplėstas ir bus įtraukta nauja eilutė.
+-   Spustelėkite bet kurioje duomenų šaltinio lentelės vietoje, tada „Excel“ papildinyje spustelėkite **Naujas**.
+-   Spustelėkite paskutinę duomenų šaltinio lentelės eilutę, tada spauskite klavišą „Tab“, kol žymiklio nebebus paskutiniame šios eilutės stulpelyje ir bus sukurta nauja eilutė.
+-   Spustelėkite po pat duomenų šaltinio lentele esančią eilutę ir langelyje pradėkite įvesti duomenis. Kai šiame langelyje nustosite įvesti tekstą ir žymiklį perkelsite į kitą įvesties vietą, lentelė bus išplėsta ir bus įtraukta nauja eilutė.
+-   Susiedami antraštės įrašų laukus, spustelėkite vieną iš laukų, o tada „Excel“ papildinyje spustelėkite **Naujas**.
 
+Atkreipkite dėmesį, kad naują įrašą galima kurti tik jei visi pagrindiniai ir privalomi laukai yra susieti darbalapyje arba jei numatytosios vertės buvo įvestos naudojant filtro sąlygą.
 Norėdami panaikinti įrašą, atlikite vieną iš toliau nurodytų veiksmų.
 
 -   Dešiniuoju pelės mygtuku spustelėkite eilutės numerį, esantį prie naikintinos darbalapio eilutės, tada spustelėkite **Naikinti**.
 -   Dešiniuoju pelės mygtuku spustelėkite naikintiną darbalapio eilutę, tada spustelėkite **Naikinti** &gt; **Lentelės eilutės**.
+Jei duomenų šaltiniai buvo įtraukti kaip susiję šaltiniai, antraštė publikuojama prieš eilutes. Jei yra nustatyta priklausomybė tarp kitų duomenų šaltinių, gali tekti pakeisti numatytąją publikavimo tvarką. Norėdami keisti publikavimo tvarką, „Excel“ papildinyje spustelėkite mygtuką **Parinktys** (krumpliaračio simbolis). Tada „FastTab“ **Duomenų jungtis** spustelėkite **Konfigūruoti publikavimo tvarką**.
 
 ## <a name="add-or-remove-columns"></a>Įtraukti arba pašalinti stulpelius
 Naudodami dizaino įrankį galite koreguoti automatiškai į darbalapį įtraukiamus stulpelius.
@@ -77,9 +85,10 @@ Naudodami dizaino įrankį galite koreguoti automatiškai į darbalapį įtrauki
 4.  Pagal poreikius pakoreguokite sąrašą **Pasirinkti laukai**.
     -   Norėdami į sąrašą **Pasirinkti laukai** įtraukti sąrašo **Galimi laukai** lauką, spustelėkite lauką, tada spustelėkite **Įtraukti**. Galite ir dukart spustelėti lauką.
     -   Norėdami sąraše **Pasirinkti laukai** pašalinti lauką, spustelėkite šį lauką, tada spustelėkite **Šalinti**. Galite ir dukart spustelėti lauką.
-    -   Norėdami keisti laukų tvarką, sąraše **Pasirinkti laukai** spustelėkite lauką, tada spustelėkite **Aukštyn** arba **Žemyn**.
+    -   Norėdami keisti laukų tvarką, sąraše **Pasirinkti laukai** spustelėkite lauką, spustelėkite lauką, tada spustelėkite **Aukštyn** arba **Žemyn**.
 
-5.  Pritaikykite duomenų šaltinio pakeitimus spustelėję **Naujinti**. Tada spustelėję **Atlikta** išeikite iš dizaino įrankio. Jei įtraukėte lauką (stulpelį), spustelėkite **Atnaujinti**, kad būtų nuskaitytas atnaujintas duomenų rinkinys.
+5. Norėdami pritaikyti duomenų šaltinio keitimus, spustelėkite **Naujinti**. Tada spustelėję **Atlikta** išeikite iš dizaino įrankio. 
+6. Jei įtraukėte lauką (stulpelį), spustelėkite **Atnaujinti**, kad būtų nuskaitytas atnaujintas duomenų rinkinys.
 
 ## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Trikčių diagnostika
 Kelias triktis galima pašalinti atlikus paprastus veiksmus.
@@ -87,6 +96,8 @@ Kelias triktis galima pašalinti atlikus paprastus veiksmus.
 -   **Rodomas mygtukas Įkelti programėles.** Jei prisijungus „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį spustelėkite, atsijunkite, tada prisijunkite iš naujo.
 -   **Gaunate pranešimą „Uždrausta“.** Jei „Excel“ papildiniui įkeliant metaduomenis gausite pranešimą „Uždrausta“, paskyrai, kurios duomenis naudojant yra prisijungta prie „Excel“ papildinio, nesuteiktos teisės naudoti paskirties paslaugą, egzempliorių ar duomenų bazę. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį spustelėkite, atsijunkite, tada prisijunkite iš naujo.
 -   **Programoje „Excel“ pateikiamas tuščias tinklalapis.** Jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](https://technet.microsoft.com/library/jj219422.aspx) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](https://technet.microsoft.com/library/mt455210.aspx).
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "LIFO data su faktine verte ir žymėjimu"
 description: "Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-23 23 - 07 - 14
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,30 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 7a2430de79cd56441c8101336992d4a10889a126
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 08b1e3947064fdd7d4c30f7c718bedc692521887
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
 
+[!include[banner](../includes/banner.md)]
+
+
 Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka. 
 
-Naudodami atsargų modelį Paskutinė įvesta, pirma nurašyta data (LIFO data) atsargų modelį, jei nėra gavimo prieš išdavimą, išdavimas sudengiamas pagal bet kurį gavimą, įvykusį po išdavimo datos. Tą pačią darą galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka. Naudojant LIFO datą nereikia naudoti LIFO datos taisyklės. Užuot ją naudoję, galite pažymėti atsargų operacijas tam, kad tam tikros prekės gavimas būtų sudengiamas su tam tikru išdavimu. Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsargų uždarymą. Šiuose pavyzdžiuose parodytas LIFO datos su trimis skirtingomis konfigūracijomis naudojimo poveikis:
+Naudodami atsargų modelį Paskutinė įvesta, pirma nurašyta data (LIFO data) atsargų modelį, jei nėra gavimo prieš išdavimą, išdavimas sudengiamas pagal bet kurį gavimą, įvykusį po išdavimo datos. Tą pačią darą galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka. Naudojant LIFO datą nereikia naudoti LIFO datos taisyklės. Užuot ją naudoję, galite pažymėti atsargų operacijas tam, kad tam tikros prekės gavimas būtų sudengiamas su tam tikru išdavimu. 
+
+Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsargų uždarymą. 
+
+Šiuose pavyzdžiuose parodytas LIFO datos su trimis skirtingomis konfigūracijomis naudojimo poveikis:
 
 -   LIFO duomenys be **faktinės vertės įtraukimo** pasirinkties
--   LIFO duomenys su** faktinės vertės įtraukimo** pasirinktimi
+-   LIFO duomenys su**faktinės vertės įtraukimo** pasirinktimi
 -   LIFO duomenys su žymėjimu
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>LIFO duomenys be faktinės vertės įtraukimo pasirinkties
@@ -50,7 +58,11 @@ Naudodami atsargų modelį Paskutinė įvesta, pirma nurašyta data (LIFO data) 
 -   5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   6. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu paskutinis finansiškai atnaujintas išdavimas bus pagal datą sudengtas su paskutiniu finansiškai atnaujintu gavimu. Išdavimo operacijoje bus atliktas 5,00 USD dydžio koregavimas. Šios operacijos bus sudengtos viena pagal kitą.
 
-Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO data su parinktimi Įtraukti faktinę vertę](./media/lifodatewithoutincludephysicalvalue.gif) **Diagramos paaiškinimas**
+Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. 
+
+Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithoutincludephysicalvalue.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -64,7 +76,11 @@ Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO duomenys su faktinės vertės įtraukimo pasirinktimi
-Puslapyje **Prekių modelių grupės** galite pažymėti žymės langelį **Įtraukti faktinę vertę**. Šiuo atveju sistema naudoja tiek faktines, tiek finansines gavimo operacijas, siekdama suskaičiuoti slankiojo vidurkio savikainą. Sistema taip pat kur reikia atlieka finansiškai atnaujintos išdavimo operacijos koregavimus. Išvalius žymės langelį **Įtraukti faktinę vertę**, atsargų uždarymas taikant LIFO datos atsargų modelį atliks tik finansiškai atnaujintų operacijų sudengimus. Šiame pavyzdyje prekių modelio grupė pažymėta, kad būtų įtraukta faktinė vertė. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
+Puslapyje **Prekių modelių grupės** galite pažymėti žymės langelį **Įtraukti faktinę vertę**. Šiuo atveju sistema naudoja tiek faktines, tiek finansines gavimo operacijas, siekdama suskaičiuoti slankiojo vidurkio savikainą. Sistema taip pat kur reikia atlieka finansiškai atnaujintos išdavimo operacijos koregavimus. Išvalius žymės langelį **Įtraukti faktinę vertę**, atsargų uždarymas taikant LIFO datos atsargų modelį atliks tik finansiškai atnaujintų operacijų sudengimus. 
+
+Šiame pavyzdyje prekių modelio grupė pažymėta, kad būtų įtraukta faktinė vertė. 
+
+Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 -   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
 -   1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
@@ -77,7 +93,11 @@ Puslapyje **Prekių modelių grupės** galite pažymėti žymės langelį **Įtr
 -   5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   6. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu paskutinis atnaujintas išdavimas bus pagal datą pakoreguotas arba sudengtas pagal paskutinį atnaujintą gavimą. Šios operacijos nebus sudengiamos viena su kita, nes finansinio gavimo operacija pakoreguojama pagal faktiškai atnaujintą operaciją. Todėl šioje išdavimo operacijoje bus vykdomas tik 6,67 USD dydžio koregavimas.
 
-Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 20,00 USD. Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO data su parinktimi Įtraukti faktinę vertę](./media/lifodatewithincludephysicalvalue.gif) **Diagramos paaiškinimas**
+Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 20,00 USD. 
+
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO duomenys su faktinės vertės įtraukimu](./media/lifodatewithincludephysicalvalue.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -91,7 +111,21 @@ Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="lifo-date-with-marking"></a>LIFO duomenys su žymėjimu
-Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami būti tikri dėl tikslios atsargų savikainos užregistravus operaciją arba uždarius atsargas. Pavyzdžiui, klientų aptarnavimo skyrius priėmė skubų užsakymą iš svarbaus kliento. Kadangi šis užsakymas yra skubus, norėdami patenkinti kliento pageidavimus, už šią prekę turėsite mokėti daugiau. Turite įsitikinti, kad šios pardavimo užsakymo sąskaitos faktūros atsargų prekės savikaina atsispindi maržoje arba parduotų prekių savikainoje (PPK). Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Jeigu šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį arba sąskaitą faktūrą, PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą. Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu. Pavyzdžiui, gavimo operacija pažymima prie išdavimo operacijos. Šiuo atveju nepaisoma prekės modelių grupėje nustatyto vertinimo būdo ir sistema sudengia šias operacijas vieną su kita. Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. Tai galima atlikti iš pardavimo užsakymo eilutės puslapyje **Išsami pardavimo užsakymo informacija**. Galite peržiūrėti atidarytas gavimo operacijas puslapyje **Žymėjimas**. Taip pat galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. Toliau pateiktoje iliustracijoje parodytos šios operacijos.
+Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami būti tikri dėl tikslios atsargų savikainos užregistravus operaciją arba uždarius atsargas. 
+
+Pavyzdžiui, klientų aptarnavimo skyrius priėmė skubų užsakymą iš svarbaus kliento. Kadangi šis užsakymas yra skubus, norėdami patenkinti kliento pageidavimus, už šią prekę turėsite mokėti daugiau. Turite įsitikinti, kad šios pardavimo užsakymo sąskaitos faktūros atsargų prekės savikaina atsispindi maržoje arba parduotų prekių savikainoje (PPK). 
+
+Kai pirkimo užsakymas užregistruojamas, gaunama atsargų už 120,00 USD. Jeigu šis pardavimo užsakymo dokumentas pažymėtas prie pirkimo užsakymo prieš užregistruojant važtaraštį arba sąskaitą faktūrą, PPK bus 120,00 USD – prekei nebus taikoma dabartinio slankiojo vidurkio kaina. Jeigu pardavimo užsakymo važtaraštis arba SF užregistruojami prieš žymėjimą, COGS bus užregistruota taikant slankiojo vidurkio savikainą. 
+
+Prieš atsargų uždarymą šias dvi operacijas dar galima žymėti kartu. 
+
+Pavyzdžiui, gavimo operacija pažymima prie išdavimo operacijos. Šiuo atveju nepaisoma prekės modelių grupėje nustatyto vertinimo būdo ir sistema sudengia šias operacijas vieną su kita. 
+
+Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. Tai galima atlikti iš pardavimo užsakymo eilutės puslapyje **Išsami pardavimo užsakymo informacija**. Galite peržiūrėti atidarytas gavimo operacijas puslapyje **Žymėjimas**. 
+
+Taip pat galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. 
+
+Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 -   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.
 -   1b. 1 vieneto, kurio kaina 10,00 USD, finansinis gavimas į atsargas.
@@ -105,7 +139,11 @@ Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų
 -   6a. 1 vieneto, kurio savikaina 21,25 USD, fizinis išdavimas iš atsargų.
 -   7. Atsargų uždarymas atliktas. Kadangi finansiškai atnaujinta Pirma gaunama, pirma išduodama (FIFO) operacija yra pažymima esamame gavime, šios operacijos yra sudengiamos viena su kita ir jokios korekcijos neatliekamos.
 
-Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO data su žymėjimu](./media/lifodatewithmarking.gif) **Diagramos paaiškinimas**
+Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį – 27,50 USD. 
+
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudojant žymėjimą tarp gavimų ir išdavimų. ![LIFO duomenys su žymėjimu](./media/lifodatewithmarking.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -117,6 +155,8 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 -   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "Kokybės valdymo procesai"
 description: "Šiame straipsnyje pateikta informacija apie neatitinkančių produktų kokybės valdymo procesą. Aprašyta, kaip galite naudoti kokybės kontrolės funkciją, kaip nustatyti ir prižiūrėti neatitikimus ir kaip tvarkyti taisymus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 53 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 2deec6d262e87daf4704ce21ce64546f9c9d638b
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3523a89768bc3aee2aab250ee134128fcc3eeeef
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="quality-management-processes"></a>Kokybės valdymo procesai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikta informacija apie neatitinkančių produktų kokybės valdymo procesą. Aprašyta, kaip galite naudoti kokybės kontrolės funkciją, kaip nustatyti ir prižiūrėti neatitikimus ir kaip tvarkyti taisymus.
 
@@ -52,7 +56,9 @@ Produktų bandymai paprastai vadinami kokybės kontrole ir naudoja kokybės užs
 -   Įrašyti bandymų rezultatus kokybės užsakyme, tikrinti bandymų rezultatus AQL atžvilgiu ir išspausdinti analizės sertifikatą, rodantį bandymų rezultatus.
 
 ## <a name="nonconformance"></a>Neatitikimas
-Neatitikimu aprašoma prekė, kuri turi kokybės problemą.** **Neatitikimo procesas leidžia sukurti neatitikimo užsakymą, kuriame aprašomas neatitinkančios medžiagos kiekis, problemos šaltinis, problemos tipas ir aiškinamosios pastabos. Galima apibrėžti problemų tipų klasifikaciją, siekiant palengvinti neatitinkančios medžiagos analizę. Norėdami kreipti neatitinkančios medžiagos perdavimą, taip pat galite spausdinti neatitikimo žymę ir neatitikimo ataskaitą. Pavyzdžiui, žymė ir ataskaita gali nurodyti **Netinkamo naudoti** arba **Apriboto naudojimo** būklę. Toliau pateiktoje lentelėje išvardyti šeši numatytieji neatitikimo tipai ir aprašoma kiekvieno tipo informacija, kurią reikia įrašyti.
+Neatitikimas apibūdina prekę, kuri turi kokybės problemą. Neatitiki procesas suteikia galimybę kurti neatitikimo užsakymą, aprašantį neatitikimo medžiagos kiekį, problemos šaltinį, problemos tipą ir aiškinamąsias pastabas. Galima apibrėžti problemų tipų klasifikaciją, siekiant palengvinti neatitinkančios medžiagos analizę. Norėdami kreipti neatitinkančios medžiagos perdavimą, taip pat galite spausdinti neatitikimo žymę ir neatitikimo ataskaitą. Pavyzdžiui, žymė ir ataskaita gali nurodyti **Netinkamo naudoti** arba **Apriboto naudojimo** būklę. 
+
+Toliau pateiktoje lentelėje išvardyti šeši numatytieji neatitikimo tipai ir aprašoma kiekvieno tipo informacija, kurią reikia įrašyti.
 
 | Neatitikties tipas   | Šaltinio informacija                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,10 +78,16 @@ Kuriant naują neatitikimą, pasirenkamas neatitikimo tipas ir problemos tipas. 
 Neatitikimo ataskaitoje rodomas neatitikimo numeris, prekė ir problemos tipas. Atsižvelgiant į jūsų ataskaitos sąrankos strategiją, ataskaitoje taip pat gali būti rodomos susijusios pastabos apie neatitikimą. Neatitikimo žymėje rodoma panaši informacija, ir ji taip pat apima sulaikymo zoną bei tipą (pvz., **Apriboto naudojimo** ar **Netinkamo naudoti**), kurį priskyrėte neatitikimui norėdami palengvinti brokuotų medžiagų perdavimą.
 
 ## <a name="approved-nonconformance"></a>Patvirtintas neatitikimas
-Patvirtintai neatitikčiai galite pasirinktinai nurodyti vieną ar daugiau susijusių operacijų. Susijusioje operacijoje apibūdinamas darbas, kuris turi būti atliktas, ir pateikiamas jūsų nustatytas kokybės operacijų sąrašas ir darbo priežasties aprašomasis tekstas. Neprivaloma: apibrėžę operaciją galite apibrėžti papildomas išlaidas, prekes ir tabelio darbo valandas, kurių reikia norint atlikti darbą. Rodomos apskaičiuotos susijusios operacijos išlaidos ir bendroji neatitikties išlaidų suma. Apskaičiuotos išlaidos ir pridėta išsami informacija (apie prekes, darbo valandas ir papildomas išlaidas) pateikiama kaip nuorodos informacija, ir jos naudojamos tik su kokybės valdymo funkcija. Neprivaloma: galite sukurti kokybės užsakymą pagal neatitikimą – pirmiausia atlikite kokybės užsakymų užklausą ir tada sukurkite naują kokybės užsakymą. Pvz., kokybės užsakyme gali būti identifikuotas poreikis bandyti (arba iš naujo bandyti) brokuotą medžiagą. Naujai sukurtame kokybės užsakyme rodomas saitas su pradiniu neatitikimu. Neprivaloma: galite susieti vieną neatitikimą su kitu ir sukurti naują neatitikimą iš esamo. Pvz., saitas gali atspindėti kokybės problemų tarpusavio ryšį.
+Patvirtintai neatitikčiai galite pasirinktinai nurodyti vieną ar daugiau susijusių operacijų. Susijusioje operacijoje apibūdinamas darbas, kuris turi būti atliktas, ir pateikiamas jūsų nustatytas kokybės operacijų sąrašas ir darbo priežasties aprašomasis tekstas. Neprivaloma: apibrėžę operaciją galite apibrėžti papildomas išlaidas, prekes ir tabelio darbo valandas, kurių reikia norint atlikti darbą. Rodomos apskaičiuotos susijusios operacijos išlaidos ir bendroji neatitikties išlaidų suma. Apskaičiuotos išlaidos ir pridėta išsami informacija (apie prekes, darbo valandas ir papildomas išlaidas) pateikiama kaip nuorodos informacija, ir jos naudojamos tik su kokybės valdymo funkcija. 
+
+Neprivaloma: galite sukurti kokybės užsakymą pagal neatitikimą – pirmiausia atlikite kokybės užsakymų užklausą ir tada sukurkite naują kokybės užsakymą. Pvz., kokybės užsakyme gali būti identifikuotas poreikis bandyti (arba iš naujo bandyti) brokuotą medžiagą. Naujai sukurtame kokybės užsakyme rodomas saitas su pradiniu neatitikimu. 
+
+Neprivaloma: galite susieti vieną neatitikimą su kitu ir sukurti naują neatitikimą iš esamo. Pvz., saitas gali atspindėti kokybės problemų tarpusavio ryšį.
 
 ## <a name="correction-handling"></a>Taisymų apdorojimas
-**Taisymų** puslapyje galima sukurti neatitikimų, kuriuos reikia ištaisyti, sąrašą. Kiekvienas taisymo elementas yra susietas su diagnostikos tipu, dėl kurio aptikta problema. Puslapyje **Taisymai** taip pat pateikiama informacija apie tai, kas ir kada turi atlikti taisymo veiksmą. Prie taisymo pridėdami dokumentą galite pateikti išsamią informaciją apie problemą ir reikiamą taisymo veiksmą. Neatitikimą apsvarsčius ar ištaisius, taisymo elementas „uždaromas‟ pasirenkant parinktį **Baigta**. Taip pat galite nurodyti, kad sprendimas buvo trumpalaikis. Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų taisymų dokumento tipą. Tada galite naudoti puslapį **Ataskaitos sąranka** ir apibrėžti, ar taisymo ataskaitoje spausdinami šio dokumento tipo komentarai. Išspausdintoje taisymo ataskaitoje rodoma informacija apie neatitikimą ir susijusios neatitikimo pastabos. Ataskaitoje taip pat pateikiama taisymo informacija, pvz., diagnostikos tipas ir susijusios taisymo pastabos.
+**Taisymų** puslapyje galima sukurti neatitikimų, kuriuos reikia ištaisyti, sąrašą. Kiekvienas taisymo elementas yra susietas su diagnostikos tipu, dėl kurio aptikta problema. Puslapyje **Taisymai** taip pat pateikiama informacija apie tai, kas ir kada turi atlikti taisymo veiksmą. Prie taisymo pridėdami dokumentą galite pateikti išsamią informaciją apie problemą ir reikiamą taisymo veiksmą. Neatitikimą apsvarsčius ar ištaisius, taisymo elementas „uždaromas‟ pasirenkant parinktį **Baigta**. Taip pat galite nurodyti, kad sprendimas buvo trumpalaikis. 
+
+Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų taisymų dokumento tipą. Tada galite naudoti puslapį **Ataskaitos sąranka** ir apibrėžti, ar taisymo ataskaitoje spausdinami šio dokumento tipo komentarai. Išspausdintoje taisymo ataskaitoje rodoma informacija apie neatitikimą ir susijusios neatitikimo pastabos. Ataskaitoje taip pat pateikiama taisymo informacija, pvz., diagnostikos tipas ir susijusios taisymo pastabos.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
@@ -91,5 +103,7 @@ Patvirtintai neatitikčiai galite pasirinktinai nurodyti vieną ar daugiau susij
 [Kokybės užsakymų nustatymas (užduočių vedlys)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
 
 [Prekių kokybės tikrinimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

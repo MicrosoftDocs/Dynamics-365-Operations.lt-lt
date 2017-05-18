@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ Išlaidų grupių segmentavimas taip pat gali būti taikomas standartinių išla
 Išlaidų grupei gali būti priskirtas išlaidų grupės tipas ir papildomo segmentavimo veikimo būdas.
 
 -   **Išlaidų grupės tipas** − kiekvienai išlaidų grupei turi būti priskirtas išlaidų grupės tipas, kuris nurodo, kad išlaidų grupė susijusi su tiesiogine medžiaga, tiesiogine gamyba ar tiesioginėmis užsakomosiomis paslaugomis arba nurodo ją kaip netiesioginę ar neapibrėžtą. Išlaidų grupė, nurodyta kaip tiesioginė medžiaga, gali būti priskirta prekėms. Tiesioginės gamybos išlaidų grupė gali būti priskirta išlaidų kategorijoms. Tiesioginių užsakomųjų paslaugų išlaidų grupę galima priskirti paslaugos produkto tipui, kuris leidžia klasifikuoti išlaidas, susijusias su paslaugų pirkimo subrangos veikla. Netiesioginių išlaidų grupė gali būti priskirta netiesioginėms išlaidoms, apmokant papildomus mokesčius ar tarifus. Išlaidų grupė, nurodyta kaip neapibrėžta, gali būti priskirta prekėms, išlaidų kategorijoms ar netiesioginėms išlaidoms. Išlaidų grupės tipo priskyrimas turi kelias paskirtis. Pirma, teikiama galimybė priskirti išlaidų grupę ir peržiūrėti taikomų išlaidų grupių sąrašą. Antra, suteikiamas papildomas segmentavimas ataskaitų kūrimui. Trečia, jis gali būti naudojamas priskirti DK sąskaitas nuokrypiams.
--   **Veikimo būdas** − kiekvienai išlaidų grupei gali būti pasirinktinai priskirtas veikimo būdas, kuris nurodo, kad išlaidų grupė susijusi su fiksuotomis išlaidomis ar kintamomis išlaidomis. Išlaidų grupė, kurios veikimo būdas pateiktas kaip nulinis, yra laikoma kintamomis išlaidomis. Veikimo būdo priskyrimas atlieka tik ataskaitų kūrimo funkciją. Pavyzdžiui, išlaidos gali būti rodomos su fiksuotų ir kintamų išlaidų segmentavimu įkainojimo lape bei puslapyje** Išlaidų sumavimas pagal išlaidų grupę**. Priskyrus pelno parametrų procentines vertes kiekvienai išlaidų grupei, skaičiuojant komplektavimo specifikacijas (KS), nurodomos siūlomos pardavimo kainos, pagrįstos požiūriu „išlaidos plius antkainis“.
+-   **Veikimo būdas** − kiekvienai išlaidų grupei gali būti pasirinktinai priskirtas veikimo būdas, kuris nurodo, kad išlaidų grupė susijusi su fiksuotomis išlaidomis ar kintamomis išlaidomis. Išlaidų grupė, kurios veikimo būdas pateiktas kaip nulinis, yra laikoma kintamomis išlaidomis. Veikimo būdo priskyrimas atlieka tik ataskaitų kūrimo funkciją. Pavyzdžiui, išlaidos gali būti rodomos su fiksuotų ir kintamų išlaidų segmentavimu įkainojimo lape bei puslapyje**Išlaidų sumavimas pagal išlaidų grupę**. Priskyrus pelno parametrų procentines vertes kiekvienai išlaidų grupei, skaičiuojant komplektavimo specifikacijas (KS), nurodomos siūlomos pardavimo kainos, pagrįstos požiūriu „išlaidos plius antkainis“.
 
 
 

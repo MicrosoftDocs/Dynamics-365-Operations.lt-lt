@@ -17,10 +17,11 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 1270c04262f66a38863a1938fa32195bfe0d2bbd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9308158482b2eda0bd27cee07697b4184fc62253
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -154,7 +155,7 @@ Operacija laikoma su ES vidaus prekybos operacija, jei operacijos pristatymo adr
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pardavimų sąrašo ataskaitos generavimas
 
-Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **Ataskaitos**, esančią puslapyje **ES pardavimų sąrašas**. Funkcija leidžia pasirinkti ataskaitinį laikotarpį ir taikyti filtrus ESL įrašams, kuriuos norite įtraukti, apibrėžti. Be to, galite nurodyti kitus parametrus, kurie yra būdingi kiekvienai valstybei / regionui. Taip pat galite pasirinkti generuoti peržiūros ataskaitą, elektroninį failą arba abu. Funkcija **Ataskaitos **naudoja ataskaitos ir failo formato parametrus, nurodytus puslapyje **Užsienio prekybos parametrai**. Apskritai ataskaitą **ES pardavimų sąrašas** sudaro atskiros eilutės, kuriose pateiktos bendrosios sumos pagal kitos sandorio šalies valstybę / regioną, neapmokestinimo kodą ir ataskaitų tipą (trišalės prekybos operacijos įtraukiamos). Sukūrę konkretaus laikotarpio ataskaitą **ES pardavimų sąrašas**, galite pažymėti ESL įrašus, kurie yra įtraukti į ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Baigta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip baigtą**, esančią puslapyje **ES pardavimų sąrašas**.
+Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **Ataskaitos**, esančią puslapyje **ES pardavimų sąrašas**. Funkcija leidžia pasirinkti ataskaitinį laikotarpį ir taikyti filtrus ESL įrašams, kuriuos norite įtraukti, apibrėžti. Be to, galite nurodyti kitus parametrus, kurie yra būdingi kiekvienai valstybei / regionui. Taip pat galite pasirinkti generuoti peržiūros ataskaitą, elektroninį failą arba abu. Funkcija **Ataskaitos**naudoja ataskaitos ir failo formato parametrus, nurodytus puslapyje **Užsienio prekybos parametrai**. Apskritai ataskaitą **ES pardavimų sąrašas** sudaro atskiros eilutės, kuriose pateiktos bendrosios sumos pagal kitos sandorio šalies valstybę / regioną, neapmokestinimo kodą ir ataskaitų tipą (trišalės prekybos operacijos įtraukiamos). Sukūrę konkretaus laikotarpio ataskaitą **ES pardavimų sąrašas**, galite pažymėti ESL įrašus, kurie yra įtraukti į ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Baigta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip baigtą**, esančią puslapyje **ES pardavimų sąrašas**.
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pardavimų sąrašo ataskaitinio laikotarpio uždarymas
 

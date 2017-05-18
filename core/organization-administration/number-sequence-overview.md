@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Numeracijos pavyzdžiai
 Toliau pateiktuose pavyzdžiuose parodyta, kaip naudoti segmentus kuriant numeracijų formatus. Konkrečiai pavyzdžiai parodo aprėpties segmentų poveikį.
 ### <a name="expense-report-numbers"></a>Išlaidų ataskaitos numeriai
 
-Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektui, kuris pavadintas **CS**. **Sritis: **Kelionės ir išlaidos** Nuoroda: **Išlaidų ataskaitos numeris** Aprėptis: **Juridinis subjektas** Juridinis subjektas:** CS
+Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektui, kuris pavadintas **CS**. **Sritis:**Kelionės ir išlaidos**Nuoroda:**Išlaidų ataskaitos numeris**Aprėptis:**Juridinis subjektas**Juridinis subjektas:** CS
 | Segmentai  | Segmento tipas | Vertė     |
 |-----------|--------------|-----------|
 | 1 segmentas | Juridinis subjektas | CS        |
@@ -49,7 +50,7 @@ Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektu
 
 ### <a name="sales-order-numbers"></a>Pardavimo užsakymo numeriai
 
-Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**. **Sritis: **Pardavimas** Nuoroda: **Pardavimo užsakymas** Aprėptis: **Įmonė** Įmonė: **CEU
+Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**. **Sritis:**Pardavimas**Nuoroda:**Pardavimo užsakymas**Aprėptis:**Įmonė**Įmonė:**CEU
 | Segmentai  | Segmento tipas | Vertė    |
 |-----------|--------------|----------|
 | 1 segmentas | Pastovus     | SO-      |
@@ -59,7 +60,7 @@ Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**.
 
 ### <a name="purchase-requisition-numbers"></a>Pirkimo paraiškos numeriai
 
-Tolesniame pavyzdyje pirkimo paraiškos numeriai taikomi visoje organizacijoje. **Sritis: **Pirkimas** Nuoroda: **Pirkimo paraiška** Aprėptis: **Bendrai naudojama
+Tolesniame pavyzdyje pirkimo paraiškos numeriai taikomi visoje organizacijoje. **Sritis:**Pirkimas**Nuoroda:**Pirkimo paraiška**Aprėptis:**Bendrai naudojama
 | Segmentai  | Segmento tipas | Vertė    |
 |-----------|--------------|----------|
 | 1 segmentas | Pastovus     | Reik.      |

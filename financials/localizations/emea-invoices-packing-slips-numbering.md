@@ -3,7 +3,7 @@ title: "SF ir važtaraščių numeravimas (Latvija ir Lietuva)"
 description: "Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: c36db28260fc081f5667149bb52f9d3df0369490
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 198839f1e1f2eada32c23d1d3d030c0d326d478b
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>SF ir važtaraščių numeravimas (Latvija ir Lietuva)
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus.
 
@@ -97,7 +101,7 @@ Galite priskirti konkrečias numerių sekas SF ir važtaraščiams, kurie yra ge
 | Tipas           | Pasirinkite dokumento tipą, kurį reikia numeruoti: **SF** arba **Važtaraštis**.                                                                         |
 | Automatinis numeravimas | Pažymėkite šią parinktį, jei norite dokumentui numerį priskirti automatiškai. Galite neautomatiškai pažymėti arba atžymėti šią parinktį atskiriems dokumentams.       |
 
-Daugiau informacijos apie tai, kaip neautomatiškai numeruoti SF ir važtaraščius, žr. [(EEU) Pardavimo užsakymų SF ID redagavimas](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=1162853&preview=true).
+Daugiau informacijos apie tai, kaip neautomatiškai numeruoti SF ir važtaraščius, žr. [Pardavimo užsakymų SF ID redagavimas](emea-edit-invoice-id-sales-orders.md).
 
 ## <a name="affected-processes"></a>Paveikti procesai
 Toliau pateiktų dokumentų antraštės atnaujinamos naudojant SF ir važtaraščių numeraciją.
@@ -124,5 +128,7 @@ Be to, toliau nurodytos formos pateikiamos lauke **Dokumentai atnaujinti**.
 -   Pirkimo registravimo produkto gavimo dokumento forma
 
 Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnalas** ir **SF žurnalas** lauko **Dokumento būsena** rodiniui. Kai kuriamas **Važtaraštis** lauko **Dokumento būsena** vertė yra **Nėra**. Jei lauke **Dokumentai naujinti** buvo pasirinktas bet koks **Važtaraštis**, tada jo **Dokumento būsena** bus **Sugadintas**, o **važtaraščio** **Dokumento būsena** toje vietoje, kurioje jis buvo sukurtas, bus **Atšaukta**.
+
+
 
 

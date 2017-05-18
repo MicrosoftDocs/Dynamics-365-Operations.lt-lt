@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Išlaidų valdymas yra glaudžiai integruotas su jūsų organizacijos finansų v
 
 ### <a name="per-diems"></a>Dienpinigiai
 
-Turite apibrėžti darbuotojų dienpinigius, kuriuos suteikia jūsų organizacija. Kadangi dienpinigiai paprastai naudojami padengti tokioms išlaidoms kaip maistas, apgyvendinimas ir kitos papildomos išlaidos, galite kurti dienpinigių, kuriuos suteikia jūsų organizacija, taisykles. Dienpinigių tarifus galima nustatyti pagal metų laiką, kelionės vietą, arba abu. Apibrėždami dienpinigių taisyklę, galite nurodyti, kad, jeigu darbuotojas nemokamai gauna maitinimą ar paslaugas, iš dienpinigių bus išskaitytas tam tikras procentas. Taip pat galite apibrėžti dienpinigių tarifų pakopas, taip nustatant mažiausią ir didžiausią valandų skaičių, kada dienpinigių tarifas gali būti taikomas darbuotojo kelionei. **Sprendimai: **
+Turite apibrėžti darbuotojų dienpinigius, kuriuos suteikia jūsų organizacija. Kadangi dienpinigiai paprastai naudojami padengti tokioms išlaidoms kaip maistas, apgyvendinimas ir kitos papildomos išlaidos, galite kurti dienpinigių, kuriuos suteikia jūsų organizacija, taisykles. Dienpinigių tarifus galima nustatyti pagal metų laiką, kelionės vietą, arba abu. Apibrėždami dienpinigių taisyklę, galite nurodyti, kad, jeigu darbuotojas nemokamai gauna maitinimą ar paslaugas, iš dienpinigių bus išskaitytas tam tikras procentas. Taip pat galite apibrėžti dienpinigių tarifų pakopas, taip nustatant mažiausią ir didžiausią valandų skaičių, kada dienpinigių tarifas gali būti taikomas darbuotojo kelionei. **Sprendimai:**
 
 -   Toliau pateiktos numatytosios pirmosios ir paskutiniosios dienų dienpinigių taisykles.
     -   Koks yra minimalus valandų skaičius, kurio darbuotojas gali reikalauti ir vis tiek gauti dienpinigius?
@@ -127,7 +128,7 @@ Turite nustatyti, kurie su išlaidomis susiję mokesčiai įtraukti ar įgalinti
 Atkreipkite dėmesį, kad, jei planuodami DK nusprendėte taikyti JAV PVM ir naudoti mokesčių taisykles, o tai atliekama lauką **Taikyti PVM apmokestinimo taisykles** perjungiant į Taip, išlaidų mokesčių susigrąžinimo įgalinti negalima.
 
 ## <a name="policies"></a>Strategijos
-Galite sukurti išlaidų ataskaitų strategijas, kad jūsų organizacija galėtų sutaupyti laiko ir pinigų, kai darbuotojai jos vardu numato išlaidas. Strategijomis užtikrinama, kad darbuotojai neviršytų biudžeto, pateiktų visą reikiamą informaciją ir pinigus leistų tik kai tai būtina. Dėl kiekvienos išlaidų ataskaitų strategijos ir kiekvienos išlaidų ataskaitų patvirtinimo strategijos, kurią sukuriate, turite priimti toliau nurodytus sprendimus. **Sprendimai: **
+Galite sukurti išlaidų ataskaitų strategijas, kad jūsų organizacija galėtų sutaupyti laiko ir pinigų, kai darbuotojai jos vardu numato išlaidas. Strategijomis užtikrinama, kad darbuotojai neviršytų biudžeto, pateiktų visą reikiamą informaciją ir pinigus leistų tik kai tai būtina. Dėl kiekvienos išlaidų ataskaitų strategijos ir kiekvienos išlaidų ataskaitų patvirtinimo strategijos, kurią sukuriate, turite priimti toliau nurodytus sprendimus. **Sprendimai:**
 
 -   Koks yra strategijos pavadinimas?
 -   Kam išlaidų strategija skirta?

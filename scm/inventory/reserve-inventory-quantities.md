@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7361b2e04376284238c8c9b1f91d03d18b121d24
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e414d5a5f946ff67befdf824cbf994a99dfe3eb6
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Toliau pateikiama keletas galimų atsargų rezervavimo priežasčių.
 Atsargas galima rezervuoti automatiniu būdu, kai sukuriama nauja užsakymo eilutė, arba neautomatiniu būdu individualiems užsakymams. Taip pat galima rezervuoti atsargų skirtinguose gamybos proceso etapuose. Galima rezervuoti tik laikomus produktus. Aptarnavimo rezervuoti negalima, nes nėra jų turimų atsargų. Galima rezervuoti ir faktines turimas atsargas, ir užsakytas, bet dar negautas atsargas. Jei rezervuojamas didesnis kiekis nei turimos atsargos, rodomas pranešimas, kuriame sakoma, kad tokio didelio kiekio rezervuoti negalima. Tada galite vis tiek rezervuoti nurodytą kiekį arba pakeisti užsakomą kiekį. Kiekį galima rezervuoti arba pakeisti. Jei rezervuojama daugiau prekių, nei galima, trūkumas padengiamas kitą kartą, kai atsiranda galimų pristatyti prekių.
 
 ## <a name="inventory-reservation-policies"></a>Atsargų rezervavimo strategijos
-Atsargų rezervavimo strategijos nustatomos puslapiuose **Prekių modelių grupės **, **Atsargų ir sandėlio valdymo parametrai** ir **Gamybos parametrai**.
+Atsargų rezervavimo strategijos nustatomos puslapiuose **Prekių modelių grupės**, **Atsargų ir sandėlio valdymo parametrai** ir **Gamybos parametrai**.
 ### <a name="policies-on-the-item-model-groups-page"></a>Puslapyje Prekės modelių grupės nustatomos strategijos
 
 Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strategijos.

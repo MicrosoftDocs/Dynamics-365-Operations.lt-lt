@@ -3,7 +3,7 @@ title: PVM ataskaitos Europoje
 description: "Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 84a639b25c64821e00ca4397f42f69298953e599
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 190977af579a025b6f46646dfab153b1879d3e76
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą.
 
@@ -43,7 +47,7 @@ ms.lasthandoff: 03/31/2017
 -   Švedija
 
 ## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
-PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje [PVM ataskaitų PVM kodai](#Sales tax codes for VAT reporting).
+PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje PVM ataskaitų PVM kodai.
 
 Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 
@@ -249,7 +253,7 @@ d<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio s
 
 Galite naudoti elektronines ataskaitas (ER), kad sukonfigūruotumėte išrašus ir ataskaitas bei eksportuotumėte duomenis skirtingais elektroniniais formatais nekeisdami X++ kodo. Papildoma informacija:
 
--   [Elektroninių ataskaitų apžvalga](/dynamics365/operations/dev-itpro/dev-itpro/analytics/general-electronic-reporting)
+-   [Elektroninių ataskaitų apžvalga](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
 
@@ -270,6 +274,8 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 | Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
 | Olandija    |                                                                                 |
 | Švedija         |                                                                                 |
+
+
 
 
 

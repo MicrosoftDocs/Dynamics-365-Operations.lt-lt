@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,7 +49,7 @@ Jei reikia keisti RFQ išsiuntus dokumentą, galite pakartotinai siųsti RFQ tie
 
 Gavę pasiūlymų, turite įvesti juos į puslapį **Pasiūlymų patvirtinimų atsakymai**. Jei pasirinksite parinktį **Kopijuoti duomenis į atsakymą**, duomenys, pvz., kiekis ir datos, iš RFQ atvejo nukopijuojami į atsakymą. Galite keisti šiuos duomenis, kad jie atspindėtų tiekėjo pasiūlymą.  
 
-Jei reikalingas tam tikro tiekėjo antras atsakymo pakartojimas, puslapyje** Pasiūlymo patvirtinimo atsakymas** spustelėkite **Grąžinti**. Grąžinimo veiksmas sugeneruoja naują žurnalą ir ataskaitą, kuri bus išspausdinta, archyvuota ir išsiųsta pagal jūsų spausdinimo valdymo parametrus.  
+Jei reikalingas tam tikro tiekėjo antras atsakymo pakartojimas, puslapyje**Pasiūlymo patvirtinimo atsakymas** spustelėkite **Grąžinti**. Grąžinimo veiksmas sugeneruoja naują žurnalą ir ataskaitą, kuri bus išspausdinta, archyvuota ir išsiųsta pagal jūsų spausdinimo valdymo parametrus.  
 
 Jei į RFQ atvejį įtraukiate vertinimo kriterijų, RFQ atsakymas turės vertinimo sritį, kurioje galima įvesti rezultatus. Bendras rezultatas bus rodomas, kai palyginsite atsakymus puslapyje **Palyginti atsakymus**, kur taip pat galima palyginti kitus atsakymų duomenis, pvz., eilutės kainą, pristatymo datą ir bendrąją kainą.  
 
@@ -107,7 +108,7 @@ Jei RFQ tipas yra **Pirkimo sutartis**:
 -   RFQ naudojamas kaip sutartis tam tikram produkto kiekiui arba vertei pirkti per tam tikrą laikotarpį. Turite pasirinkti datų intervalą, kuris bus taikomas pirkimo sutarčiai, ir asmens, kuris valdo pirkimo sutartį, vardą.
 -   Priėmus kainos pasiūlymą generuojama pirkimo sutartis.
 
-RFQ iš pirkimo paraiškos galite sukurti tik jei pirkimo paraiškos būsena yra **Peržiūrima **ir jūs esate priskirti atlikti kitą darbo eigos užduotį. Pirkimo paraiškos eilutės naujinamos automatiškai, kai priimate eilutes iš RFQ atsakymų (kainos pasiūlymų), kuriuos gavote iš tiekėjų. Negalite užbaigti, atmesti ir patvirtinti pirkimo paraiškos arba atlikti su ja kitų veiksmų, kai vykdomas RFQ.  
+RFQ iš pirkimo paraiškos galite sukurti tik jei pirkimo paraiškos būsena yra **Peržiūrima**ir jūs esate priskirti atlikti kitą darbo eigos užduotį. Pirkimo paraiškos eilutės naujinamos automatiškai, kai priimate eilutes iš RFQ atsakymų (kainos pasiūlymų), kuriuos gavote iš tiekėjų. Negalite užbaigti, atmesti ir patvirtinti pirkimo paraiškos arba atlikti su ja kitų veiksmų, kai vykdomas RFQ.  
 
 Kai kuriate RFQ, galite pasirinkti konkretų siūlymo tipą. Pagal siūlymo tipą nustatomas vertinimo kriterijų rinkinys, naudojamas RFQ atsakymams vertinti.  
 
@@ -127,7 +128,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip keičiasi RFQ būsena, kai sukuria
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Veiksmas**                         | **Žemiausia RFQ antraštės būsena ** | **Aukščiausia RFQ antraštės būsena **                   | **Žemiausia RFQ eilutės būsena ** | **Aukščiausia RFQ eilutės būsena ** |
+| **Veiksmas**                         | **Žemiausia RFQ antraštės būsena** | **Aukščiausia RFQ antraštės būsena**                   | **Žemiausia RFQ eilutės būsena** | **Aukščiausia RFQ eilutės būsena** |
 | Sukurkite RFQ antraštę ir eilutę.    | Sukurta                      | Sukurta                                         | Sukurta                    | Sukurta                     |
 | Siųskite RFQ konkrečiam tiekėjui. | Išsiųsta                         | Išsiųsta                                            | Išsiųsta                       | Išsiųsta                        |
 | Pridėti kitą tiekėją.                | Sukurta                      | Išsiųsta (RFQ išsiųstas tik vienam tiekėjui.) | Sukurta                    | Išsiųsta                        |
@@ -157,7 +158,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip keičiasi RFQ būsena gaunant kain
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Veiksmas**                                     | **Žemiausia kainos pasiūlymo būsena ** | **Aukščiausia kainos pasiūlymo būsena ** | **Žemiausia RFQ antraštės būsena ** | **Aukščiausia RFQ antraštės būsena ** | **Žemiausia RFQ eilutės būsena ** | **Aukščiausia RFQ eilutės būsena ** |
+| **Veiksmas**                                     | **Žemiausia kainos pasiūlymo būsena** | **Aukščiausia kainos pasiūlymo būsena** | **Žemiausia RFQ antraštės būsena** | **Aukščiausia RFQ antraštės būsena** | **Žemiausia RFQ eilutės būsena** | **Aukščiausia RFQ eilutės būsena** |
 | Užregistruoti vieno tiekėjo kainos pasiūlymą ir jį išsaugoti.        | Išsiųsta                  | Gauta               | Išsiųsta                         | Gauta                      | Išsiųsta                       | Gauta                    |
 | Užregistruoti antro tiekėjo kainos pasiūlymą ir jį išsaugoti. | Gauta              | Gauta               | Gauta                     | Gauta                      | Gauta                   | Gauta                    |
 
@@ -186,7 +187,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip keičiasi RFQ būsena, kai priimat
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Veiksmas**              | **Žemiausia kainos pasiūlymo būsena ** | **Aukščiausia kainos pasiūlymo būsena ** | **Žemiausia RFQ antraštės būsena ** | **Aukščiausia RFQ antraštės būsena ** | **Žemiausia RFQ eilutės būsena ** | **Aukščiausia RFQ eilutės būsena ** |
+| **Veiksmas**              | **Žemiausia kainos pasiūlymo būsena** | **Aukščiausia kainos pasiūlymo būsena** | **Žemiausia RFQ antraštės būsena** | **Aukščiausia RFQ antraštės būsena** | **Žemiausia RFQ eilutės būsena** | **Aukščiausia RFQ eilutės būsena** |
 | Priimti vieną pasiūlymų. | Gauta              | Priimta               | Gauta                     | Priimta                      | Gauta                   | Priimta                    |
 | Atmesti kitus kainos pasiūlymus.  | Atmesta              | Priimta               | Atmesta                     | Priimta                      | Atmesta                   | Priimta                    |
 

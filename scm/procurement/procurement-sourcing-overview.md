@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Produktų ar paslaugų poreikį gali lemti *paraiškos*, pvz., kai darbuotojui r
   
 Įsigijimo padalinys identifikuoja reikiamų produktų ir paslaugų tiekėjus, o tai gali apimti *pasiūlymo patvirtinimo *siuntimą keliems potencialiems tiekėjams. Galima bendrai naudoti prašomo produkto specifikacijas ir tiekėjai gali jas matyti bei įvertinti, ar jie gali pristatyti produktą, atsižvelgdami į tas specifikacijas. Tiekėjai pateikia savo pasiūlymus, kuriuos įsigijimo padalinys tada peržiūri, o tada pasirenkamas tiekėjas, iš kurio norima įsigyti.  
 
-Pirkimo užsakymuose yra galimybė *pirkimo užklausą *tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**,* * pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale** Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
+Pirkimo užsakymuose yra galimybė *pirkimo užklausą *tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**, pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale**Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
 
 *Tiekėjų katalogai *gali būti naudojami informacijai apie produktų asortimentą, kurį tiekėjai gali teikti, surinkti. Tiekėjai gali publikuoti savo katalogą, todėl katalogą naujinti lengviau. Prie produkto galima pridėti *patvirtintų tiekėjų sąrašą*, kuris atidarant naujus pirkimo užsakymus padėtų pasirinkti tiekėjus ir neleistų naudoti nepageidaujamų tiekėjų.
 

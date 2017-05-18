@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 09c7fce1fa83d6a8d6391db667b7260d2a199390
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: bca8431e88ea73060c75774ae55611f95016e9a1
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -88,7 +89,7 @@ Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai
 4.  Pasirinkite **Kurti naują pamainą**.
 5.  Pasirinkite **Deklaruoti pradinę sumą**.
 6.  Įveskite visų parduotuvės kasos stalčių, įtrauktų į bendrai naudojamą pamainą, pradinę sumą, o tada spustelėkite **Įrašyti**.
-    -   Norėdami pradinės sumos dalį įtraukti į kiekvieną paskesnį kasos stalčių, naudokite operaciją **Pasirinkti aparatūros stotį **, kad suaktyvintumėte aparatūros stotį.
+    -   Norėdami pradinės sumos dalį įtraukti į kiekvieną paskesnį kasos stalčių, naudokite operaciją **Pasirinkti aparatūros stotį**, kad suaktyvintumėte aparatūros stotį.
     -   Norėdami į konkretų kasos stalčių įtraukti kasos stalčiaus skyrelį, naudokite operaciją **Atidaryti stalčių**.
     -   Tęskite, kol visose bendrai naudojamos pamainos kasos stalčiuose bus reikiama pradinės sumos dalis.
 

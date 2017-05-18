@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -70,7 +71,7 @@ Pirmiausia turite nustatyti ISO20022 banko išrašų formato apdorojimo grupę, 
 7.  Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.
 8.  Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų. Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.
 9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
-10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą** ISO20022XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą**ISO20022XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Spustelėkite **Naujas**.
 12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
 13. Spustelėkite **Taikyti pakeitimus**.
@@ -88,7 +89,7 @@ Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas i
 
 1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
 2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas **į **Taip**.
+3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas**į **Taip**.
 4.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 banko išrašų importavimo nustatymas
@@ -105,7 +106,7 @@ Pirmiausia turite nustatyti MT940 banko išrašų formato apdorojimo grupę, nau
 9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
 10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **MT940TXT-to-MT940XML.xslt**, kurį įrašėte anksčiau.
 11. Spustelėkite **Naujas**.
-12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą** MT940XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą**MT940XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Spustelėkite **Naujas**.
 14. 3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
 15. Spustelėkite **Taikyti pakeitimus**.
@@ -123,7 +124,7 @@ Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas i
 
 1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
 2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas **į **Taip**.
+3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas**į **Taip**.
 4.  Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.
 5.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **MT940**.
 
@@ -141,7 +142,7 @@ Pirmiausia turite nustatyti BAI2 banko išrašų formato apdorojimo grupę, naud
 9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
 10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BAI2CSV-to-BAI2XML.xslt**, kurį įrašėte anksčiau.
 11. Spustelėkite **Naujas**.
-12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą** BAI2XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą**BAI2XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Dynamics 365 for Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Spustelėkite **Naujas**.
 14. 3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
 15. Spustelėkite **Taikyti pakeitimus**.
@@ -159,7 +160,7 @@ Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas i
 
 1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
 2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas **į **Taip**.
+3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas**į **Taip**.
 4.  Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.
 5.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **BAI2**.
 

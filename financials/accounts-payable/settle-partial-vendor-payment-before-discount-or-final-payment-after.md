@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 33851ff7c9ee2c50544589ade0191798a13706e7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c7ab943d368c82e7d6c586ec5105210a928e2d31
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Liepos 2 d. Eglė nori sudengti 300,00 šios SF. Mokėjimui gali būti taikoma n
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | –1 000,00                      | USD      | –297,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -74,7 +75,7 @@ Eglė apmoka likusią SF sumą liepos 15 d., kuri yra po mokėjimo nuolaidos lai
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | –700,00                        | USD      | –700,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas **apačioje. Eglė mato, kad jai jau pritaikyta 3,00 nuolaida.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje. Eglė mato, kad jai jau pritaikyta 3,00 nuolaida.
 
 |                              |           |
 |------------------------------|-----------|
@@ -100,7 +101,7 @@ Jei tiekėjas leidžia Eglei pritaikyti nuolaidą, nors ji sumoka po nuolaidos d
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Pasirinkta | Visada            | SF-10020 | 3057    | 2015-06-25 | 2015-07-25 | 10020   | 700,00                               |                                       | USD      | –693,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|

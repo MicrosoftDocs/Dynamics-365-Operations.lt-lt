@@ -3,7 +3,7 @@ title: "Sandėlio konfigūracija"
 description: "Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Sandėlio konfigūracija
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 
@@ -66,7 +70,7 @@ Norint pasiekti optimalių išsiuntimo procesų, reikėtų įvertinti, ar reikia
 
 ### <a name="location-setup-wizard"></a>Vietos nustatymo vedlys
 
-Norėdami greitai sandėlyje sukurti vietų, galite naudoti **vietos nustatymo** vedlį. Vykdydami šį procesą, galite lengvai išlaikyti vietų pavadinimų formatą.
+Norėdami greitai sandėlyje sukurti vietų, galite naudoti **Vietos sąrankos** vedlį. Vykdydami šį procesą, galite lengvai išlaikyti vietų pavadinimų formatą.
 
 ## <a name="warehouse-processes"></a>Sandėlio procesai
 Svarbu, kad, atlikdami sandėlio konfigūraciją, sandėlio procesus įgalintumėte pagal verslo reikalavimus. Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.
@@ -75,7 +79,12 @@ Svarbu, kad, atlikdami sandėlio konfigūraciją, sandėlio procesus įgalintum�
 
 Bangos šablonai padeda įgalinti siuntimo procesą „Išleisti į sandėlį‟. Vos tik išleidžiamos užsakymo eilutės (tiesiogiai iš šaltinio dokumentų, naudojant paketinių užduočių procesus arba naudojant jau sukurtus krovinius), naudojamos bangos šablono funkcijos. 
 
-Galite sukurti trijų tipų bangos šablonų: **Siuntimas**, **Gamybos užsakymas** ir **Kanban**. Parametrai naudojami nustatant sistemos automatinio veikimo lygį, kuris bus taikomas apdorojant siuntimo darbą. Bangos šablonas pasirenkamas pagal bangos šablonų seką ir kriterijus, nurodytus šablone. Jei šablonas pateikiamas sekos viršuje, pirmiausia tikrinami to šablono kriterijai. Jei kriterijus galima patenkinti, bangos šablonas apdorojamas. Kitu atveju tikrinami kito šablono kriterijai ir t. t. Todėl naudinga bangos šablonų sekos sąrašo viršuje padėti šabloną su konkrečiausiais kriterijais, kad jis būtų apdorojamas pirmiausia. Pvz., šiandien norite apdoroti visą konkretaus vežėjo darbą, o kitų vežėjų darbo apdorojimą laikinai atidėti. Šiuo atveju aukščiau už kitus šablonus sekoje turėtų būti pateiktas bangos šablonas, kuriuo pasirenkamas to vežėjo darbas. Kitu atveju kitų vežėjų darbas gali būti apdorotas dar nebaigus to vežėjo darbo. 
+Galite kurti trijų toliau nurodytų tipų bangos šablonus. 
+-   **Siuntimas**
+-   **Gamybos užsakymas**
+-   **Kanban** 
+
+Parametrai naudojami nustatant sistemos automatinio veikimo lygį, kuris bus taikomas apdorojant siuntimo darbą. Bangos šablonas pasirenkamas pagal bangos šablonų seką ir kriterijus, nurodytus šablone. Jei šablonas pateikiamas sekos viršuje, pirmiausia tikrinami to šablono kriterijai. Jei kriterijus galima patenkinti, bangos šablonas apdorojamas. Kitu atveju tikrinami kito šablono kriterijai ir t. t. Todėl naudinga bangos šablonų sekos sąrašo viršuje padėti šabloną su konkrečiausiais kriterijais, kad jis būtų apdorojamas pirmiausia. Pvz., šiandien norite apdoroti visą konkretaus vežėjo darbą, o kitų vežėjų darbo apdorojimą laikinai atidėti. Šiuo atveju aukščiau už kitus šablonus sekoje turėtų būti pateiktas bangos šablonas, kuriuo pasirenkamas to vežėjo darbas. Kitu atveju kitų vežėjų darbas gali būti apdorotas dar nebaigus to vežėjo darbo. 
 
 Kiekviename bangos šablone turite nurodyti bangos apdorojimo metodus. Galimi metodai skiriasi – tai priklauso nuo bangos šablono tipo.
 
@@ -107,6 +116,8 @@ Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vie
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Sandėlio, kuriame veikia WMS, vietų konfigūravimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Sandėlio, kuriame veikia WMS, vietų konfigūravimas (užduočių vedlys)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

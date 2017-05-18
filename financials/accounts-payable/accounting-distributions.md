@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a98ce08dc115bc96cec07c2d6ced10d774785fe9
-ms.openlocfilehash: b1057caae6f47e5a17e194834fbbcb9d7d731605
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 527ca0aa977c928204a1db165a77e20483931bda
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,14 +46,14 @@ Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstym
     -   Paskirstymo sumos priklauso nuo dokumento valiutos termino. Paprastai ši valiuta yra operacijos valiuta. Apskaitos ir ataskaitų valiutos sumos generuojamos kaip papildomos knygos apskaitos dalis.
     -   Paskirstymai rodo apskaitos datą ir apskaitos įvykį. Paprastai apskaitos įvykiui būna nustatyta reikšmė **Nėra**, kol dokumentas dar neužregistruotas / neįtrauktas į žurnalą. Tuo metu apskaitos įvykis tampa **Pradinis**. Užregistravę paskirstymus, jų modifikuoti negalėsite.
     -   Pirminiams paskirstymams gali būti įgalintas mygtukas **Skaidyti**. **Skaidyti** sugeneruoja naujus apskaitos paskirstymus, o skaidymas gali būti atliekamas pagal procentinę išraišką, sumą arba kiekį.
-    -   Mygtuką** Paskirstyti tolygiai** galima naudoti kartu su **Skaidyti**, kad suma būtų automatiškai tolygiai paskirstyta tarp visų paskirstymų.
+    -   Mygtuką**Paskirstyti tolygiai** galima naudoti kartu su **Skaidyti**, kad suma būtų automatiškai tolygiai paskirstyta tarp visų paskirstymų.
     -   Gali būti įgalintas pirminių paskirstymų mygtukas **Nustayti iš naujo**, kai yra daugiau nei vienas paskirstymas. **Nustatyti iš naujo** atšaukia rankiniu būdu padarytas paskirstymo modifikacijas panaikindamas visus esamus paskirstymus ir iš naujo sugeneruodamas numatytuosius paskirstymus.
     -   Bet koks antrinis paskirstymas, pvz., nuolaida, mokestis ir PVM, visada atliekamas po pirminio paskirstymo. Pirminį ir antrinį ryšį galite peržiūrėti pasirinkę **Nuoroda** &gt; **Pirminė informacija**.
     -   Gali būti redaguojama ir antrinių paskirstymų pagrindinė sąskaita ir finansinė dimensija.
     -   Apskaitos paskirstymų finansinės dimensijos atitinka numatytąjį modelį, kad dokumentą galima išplėsti. Jei norite sužinoti daugiau, žr. susijusius straipsnius.
     -   Nuokrypių paskirstymai gali būti generuojami gretinimo scenarijuose, pvz., tiekėjo SF gretinimas su pirkimo užsakymu. Gretinimo ryšius tarp apskaitos paskirstymo galite peržiūrėti pasirinkę **Nuoroda** &gt; **Dokumento informacija**.
     -   Pasirodo mygtukas **Taisyti** ir jis yra įgalintas dokumentams, palaikantiems taisymus. **Taisyti** sukuria naujus paskirstymus. Pirma, sukuriami paskirstymai, kurie atšaukia pradinius paskirstymus. Šių paskirstymų modifikuoti negalima. Tada sukuriami nauji teisingo apskaitos paskirstymai. Šiuos paskirstymus galima modifikuoti, jei modifikuoti galima pradinius paskirstymus.
-    -   Mygtukas** Projekto informacija** įgalinamas kaip plėtinys, kai eilutė yra susijusi su projektu. Projekto apskaitos paskirstymai leidžia modifikuoti tokią informaciją, kaip lėšų skyrimo šaltinis ir eilutės ypatybė.
+    -   Mygtukas**Projekto informacija** įgalinamas kaip plėtinys, kai eilutė yra susijusi su projektu. Projekto apskaitos paskirstymai leidžia modifikuoti tokią informaciją, kaip lėšų skyrimo šaltinis ir eilutės ypatybė.
     -   Galite peržiūrėti dabartinio dokumento apskaitos būseną – **Nuoroda**. Būsena yra viso dokumento ir nurodo, ar dokumentas yra nebaigtas ar baigtas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumento eilučių ir piniginių sumų apskaitos paskirstymus. Negalite modifikuoti apskaitos paskirstymų iš šio rodinio.
 

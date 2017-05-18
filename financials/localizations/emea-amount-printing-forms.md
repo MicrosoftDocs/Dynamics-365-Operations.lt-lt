@@ -16,10 +16,11 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 870341b81e49c9fc677052e9ef87a580892f486f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b92a2bd912421c28b39717ea42ebbbb67c261977
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 
 Šioje temoje pateikiama informacija apie tai, kaip naujinti sumų rodymą ataskaitose ir kituose dokumentuose, skirtuose Estijai, Latvijai, Lietuvai, Lenkijai, Čekijos Respublikai, Vengrijai, ir Rusijai.
 
-Jei pagrindinis juridinio subjekto adresas yra Estijoje,Latvijoje, Lietuvoje, Lenkijoje, Čekijos Respublikoje, Vengrijoje arba Rusijoje, galite nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus bei trumpus pavadinimus. Šiuos pavadinimus galima naudoti norint pakeisti sumų rodymo dokumentuose ir ataskaitose būdą. Pvz., **100,20 LT ** suma gali būti rodoma kaip **100 litų ir 20 centų**.
+Jei pagrindinis juridinio subjekto adresas yra Estijoje,Latvijoje, Lietuvoje, Lenkijoje, Čekijos Respublikoje, Vengrijoje arba Rusijoje, galite nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus bei trumpus pavadinimus. Šiuos pavadinimus galima naudoti norint pakeisti sumų rodymo dokumentuose ir ataskaitose būdą. Pvz., **100,20 LT** suma gali būti rodoma kaip **100 litų ir 20 centų**.
 
 ## <a name="set-up-full-and-short-names-for-currency-units-and-subunits"></a>Valiutos vienetų ir antrinių vienetų visų pavadinimų bei trumpų pavadinimų nustatymas
 Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus bei trumpus pavadinimus, atlikite tolesnius veiksmus.

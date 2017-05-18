@@ -1,16 +1,16 @@
 ---
 title: "Finansinių ataskaitų stulpelių aprašai"
 description: "Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose.
 
@@ -150,7 +154,7 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
 2.  Pažymėkite antraštės eilutės langelį.
-3.  Meniu **Redaguoti** spustelėkite **Įterpti eilutę**. Nauja eilutė įterpiama virš eilutės, kurią pasirinkote 2 veiksme. **Pastaba. **Jei ataskaitoje yra keturios arba daugiau ataskaitos antraščių eilučių, antraštės persidengs ataskaitą eksportuojant į „Excel“ darbalapį. Norėdami peržiūrėti visas ataskaitos antraštes, padidinkite viršutinę ataskaitos aprašo paraštę.
+3.  Meniu **Redaguoti** spustelėkite **Įterpti eilutę**. Nauja eilutė įterpiama virš eilutės, kurią pasirinkote 2 veiksme. **Pastaba.**Jei ataskaitoje yra keturios arba daugiau ataskaitos antraščių eilučių, antraštės persidengs ataskaitą eksportuojant į „Excel“ darbalapį. Norėdami peržiūrėti visas ataskaitos antraštes, padidinkite viršutinę ataskaitos aprašo paraštę.
 
 ### <a name="delete-a-column-header-row"></a>Stulpelio antraštės eilutės naikinimas
 
@@ -318,11 +322,11 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 2.  Dukart spustelėkite langelį **Spausdinimo valdiklis**.
 3.  Dialogo lango **Spausdinimo valdiklis** sąraše **Pasirinkite spausdinimo valdiklio pasirinktis** pasirinkite kodą. Norėdami pasirinkti daugiau negu vieną kodą, laikykite nuspaudę klavišą Ctrl ir pasirinkite kodus.
 4.  Lauke **Sąlyginio spausdinimo pasirinktys** pasirinkite parinktį. Pagal numatytuosius parametrus pažymėta **(nėra)**. Vienu metu galite pasirinkti tik vieną sąlyginio spausdinimo kodą.
-5.  Spustelėkite **GERAI**.
+5.  Spustelėkite **Gerai**.
 
-**Patarimas:** taip pat galite įvesti spausdinimo kodus tiesiai langelyje **Spausdinimo valdiklis**. Atskirkite kelis spausdinimo kontrolinius kodus kableliais.
+> [!TIP]
+> Taip pat galite įvesti spausdinimo kodus tiesiogiai langelyje **Spausdinimo valdiklis**. Atskirkite kelis spausdinimo kontrolinius kodus kableliais.
 
-### 
 
 ## <a name="column-types"></a>Stulpelio tipai
 Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio aprašo eilutėje **Stulpelio tipas** pateiktą reikšmę. Kiekvieno stulpelio apraše turi būti bent vienas aprašymo (**DESC**) stulpelis ir vienas sumos (**FD**, **WKS** arba **CALC**) stulpelis. **Pastaba:** stulpelio tipo kodai netaikomi visoms apskaitos sistemoms. Jei pasirinksite jūsų apskaitos sistemai netinkantį tipą, to tipo stulpelis ataskaitoje bus tuščias.
@@ -507,7 +511,8 @@ Kelių valiutų ataskaitoje sumos gali būti rodomos natūraliąja (vietine) val
 -   **Valiutos rodinys** – nurodyti, kokia valiuta (natūraliąja, funkcine, ar ataskaitų) rodomos operacijos. Ši funkcija kartais vadinama valiutos konvertavimu. Valiutos konvertavimas yra galimybė pateikti didžiosios knygos sumas tokia valiuta, kuri gali būti ne funkcinė įmonės valiuta arba ne ta valiuta, kuria buvo įvesta operacija.
 -   **Valiutos filtras** – nurodyti valiutos filtrą. Ataskaitoje rodomos tik pasirinkta valiuta įvestos operacijos.
 
-**Pastaba:** norėdami sukurti ataskaitas, kuriose naudojamos kelios valiutos, ataskaitos aprašo skirtuke **Ataskaita** turite pažymėti žymės langelį **Įtraukti visas ataskaitų valiutas**. Norėdami nustatyti įmonės funkcinę valiutą, atlikite toliau nurodytus veiksmus.
+> [!NOTE]
+> Norėdami kurti ataskaitas, kuriose naudojamos kelios valiutos, ataskaitos aprašo skirtuke **Ataskaita** turite pažymėti žymės langelį **Įtraukti visas ataskaitų valiutas**. Norėdami nustatyti įmonės funkcinę valiutą, atlikite toliau nurodytus veiksmus.
 
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Įmonės**.
 2.  Dialogo lange **Įmonės** pasirinkite įmonę, tada spustelėkite **Peržiūrėti**.
@@ -519,7 +524,8 @@ Kelių valiutų ataskaitoje sumos gali būti rodomos natūraliąja (vietine) val
 2.  Dukart spustelėkite atitinkamo stulpelio**FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo pasirinktį: **Natūralioji / pradinė valiuta**, **Funkcinė valiuta iš įmonės informacijos** arba ataskaitų valiuta.
 3.  Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras**, tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
 
-**Pastaba:** čia aprašomos pasirinktys gali skirtis priklausomai nuo ERP sistemos. Norėdami gauti daugiau informacijos, žr. savo [„Microsoft ERP“ sistemos dokumentaciją](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Čia aprašomos pasirinktys gali skirtis priklausomai nuo ERP sistemos. Norėdami gauti daugiau informacijos, žr. savo [„Microsoft ERP“ sistemos dokumentaciją](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valiutos rodinio ir valiutos filtro langelių pavyzdys
 
@@ -584,5 +590,7 @@ Galite padalyti stulpelio sumą į nurodytą laikotarpių skačių. Pavyzdžiui,
 [Finansinių ataskaitų eilučių aprašai](row-definitions-financial-reporting.md)
 
 [Išplėstinės finansinių ataskaitų formatavimo parinktys](advanced-formatting-options-financial-reporting.md)
+
+
 
 

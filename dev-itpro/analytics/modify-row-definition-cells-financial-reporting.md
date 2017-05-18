@@ -1,16 +1,16 @@
 ---
 title: "Eilutės apibrėžimo langelių keitimas"
 description: "Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Eilutės apibrėžimo langelių keitimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti. 
 
@@ -38,7 +42,9 @@ Eilučių apibrėžimų langelyje **Eilutės kodas** pateikiami skaičiai arba e
 
 Eilutės kodas būtinas visoms eilutėms. Eilutės aprašyme galite maišyti skaitinius, raidinius-skaitinius ir išjungtus (tuščius) eilutės kodus. Eilutės kodas gali būti bet koks teigiamas sveikasis skaičius (mažesnis negu 100 000 000) arba tą eilutę identifikuojanti aprašomoji etiketė. Aprašomoji etiketė turi būti sudaryta laikantis šių taisyklių:
 
--   Etiketė turi prasidėti abėcėlės raide (nuo a iki ž arba nuo A iki Ž) ir tai gali būti bet kokia iki 16 simbolių ilgio skaičių ir raidžių kombinacija. **Pastaba** etiketėje gali būti pabraukimo simbolis (\_), tačiau specialiųjų simbolių naudoti neleidžiama.
+-   Etiketė turi prasidėti abėcėlės raide (nuo a iki ž arba nuo A iki Ž) ir tai gali būti bet kokia iki 16 simbolių ilgio skaičių ir raidžių kombinacija. 
+    > [!NOTE]
+    > Etiketėje gali būti pabraukimo simbolis (\_), bet specialiųjų simbolių naudoti neleidžiama.
 -   Etiketėje negalima naudoti nė vieno iš šių rezervuotų žodžių: AND, OR, IF, THEN, ELSE, PERIODS, TO, BASEROW, UNIT, NULL, CPO arba RPO.
 
 Šie pavyzdžiai yra tinkami eilutės kodai:
@@ -56,10 +62,14 @@ Eilutės kodas būtinas visoms eilutėms. Eilutės aprašyme galite maišyti ska
 
 1.  Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
 2.  Meniu **Redaguoti** spustelėkite **Pernumeruoti eilutes**.
-3.  Dialogo lange **Pernumeruoti eilutes** nurodykite naujas pradžios eilutės kodo ir eilutės kodo pokyčio reikšmes. Galite iš naujo nustatyti skaitinių eilutės kodų reikšmes, kad jos būtų vienodo ilgio. Tačiau ataskaitų dizaino įrankis pernumeruoja tik tuos eilutės kodus, kurie prasideda skaičiais (pavyzdžiui, 130 arba 246). Raidėmis prasidedantys eilutės kodai (pavyzdžiui, INCOME\_93 arba TP0693) nepernumeruojami. **Pastaba:** kai pernumeruojate eilutės kodus, ataskaitų dizaino įrankis automatiškai atnaujina nuorodas **TOT** ir **CAL**. Pavyzdžiui, jei eilutėje **TOT** nurodomas intervalas, kuris prasideda eilutės kodu 100, o jūs pernumeruojate eilutes, pradėdami nuo 90, pradžios nuoroda **TOT** pasikeičia iš 100 į 90.
+3.  Dialogo lange **Pernumeruoti eilutes** nurodykite naujas pradžios eilutės kodo ir eilutės kodo pokyčio reikšmes. Galite iš naujo nustatyti skaitinių eilutės kodų reikšmes, kad jos būtų vienodo ilgio. Tačiau ataskaitų dizaino įrankis pernumeruoja tik tuos eilutės kodus, kurie prasideda skaičiais (pavyzdžiui, 130 arba 246). Raidėmis prasidedantys eilutės kodai (pavyzdžiui, INCOME\_93 arba TP0693) nepernumeruojami. 
+> [!NOTE]
+> Kai pernumeruojate eilutės kodus, ataskaitų dizaino įrankis automatiškai atnaujina nuorodas **TOT** ir **CAL**. Pavyzdžiui, jei eilutėje **TOT** nurodomas intervalas, kuris prasideda eilutės kodu 100, o jūs pernumeruojate eilutes, pradėdami nuo 90, pradžios nuoroda **TOT** pasikeičia iš 100 į 90.
 
 ## <a name="add-a-description"></a>Aprašo įtraukimas
-Aprašymo langelyje pateikiamas ataskaitos eilutėje, pvz., „Įplaukos“ arba „Grynosios pajamos“, nurodytų finansinių duomenų aprašymas. Langelio **Aprašymas** tekstas rodomas ataskaitoje tiksliai toks, kokį jį įvedate eilutės apibrėžime. **Pastaba:** ataskaitos aprašymo stulpelio plotis nustatomas stulpelio apibrėžime. Jei eilutės apibrėžimo stulpelio **Aprašymas** tekstas yra ilgas, patikrinkite stulpelio **DESC** plotį. Naudojant dialogo langą **Įterpti eilutes iš** stulpelio **Aprašymas** reikšmės yra finansinių duomenų segmentų reikšmės arba dimensijų reikšmės. Galite įterpti eilutes, jeigu norite įtraukti aprašymą, pvz., skyriaus antraštę arba skyriaus bendrąją sumą, ir pridėti formatavimą, pvz., eilutę prieš bendrosios sumos eilutę. Jei ataskaitoje pateikiamas ataskaitų medis, galite įtraukti papildomą tekstą, kuris apibrėžtas ataskaitų medžio ataskaitiniams vienetams. Taip pat galite apriboti papildomą tekstą tam tikru ataskaitiniu vienetu.
+Aprašymo langelyje pateikiamas ataskaitos eilutėje, pvz., „Įplaukos“ arba „Grynosios pajamos“, nurodytų finansinių duomenų aprašymas. Langelio **Aprašymas** tekstas rodomas ataskaitoje tiksliai toks, kokį jį įvedate eilutės apibrėžime. 
+> [!NOTE]
+> Ataskaitos aprašymo stulpelio plotis nustatomas stulpelio apibrėžime. Jei eilutės apibrėžimo stulpelio **Aprašymas** tekstas yra ilgas, patikrinkite stulpelio **DESC** plotį. Naudojant dialogo langą **Įterpti eilutes iš** stulpelio **Aprašymas** reikšmės yra finansinių duomenų segmentų reikšmės arba dimensijų reikšmės. Galite įterpti eilutes, jeigu norite įtraukti aprašymą, pvz., skyriaus antraštę arba skyriaus bendrąją sumą, ir pridėti formatavimą, pvz., eilutę prieš bendrosios sumos eilutę. Jei ataskaitoje pateikiamas ataskaitų medis, galite įtraukti papildomą tekstą, kuris apibrėžtas ataskaitų medžio ataskaitiniams vienetams. Taip pat galite apriboti papildomą tekstą tam tikru ataskaitiniu vienetu.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Ataskaitos eilutės aprašo įtraukimas
 
@@ -81,7 +91,9 @@ Aprašymo langelyje pateikiamas ataskaitos eilutėje, pvz., „Įplaukos“ arba
 4.  Lauke **Apribojimo ataskaitinio vieneto pasirinkimas** išplėskite arba sutraukite ataskaitų medį, tada pasirinkite ataskaitinį vienetą.
 
 ## <a name="add-a-format-code"></a>Formato kodo įtraukimas
-Langelyje **Formato kodas** pateikiamos kelios iš anksto suformatuotos pasirinktys, skirtos tos eilutės turiniui. Jei langelis **Formato kodas** tuščias, eilutė interpretuojama kaip finansinių duomenų informacijos eilutė. **Pastaba:** Jei ataskaitoje yra ne sumą formatuojančių eilučių, susijusių su sumos eilutėmis, kurios buvo sulaikytos (pvz., dėl nulinio balanso), norėdami, kad nebūtų spausdinamos pavadinimo ir formato eilutės, galite naudoti stulpelį **Susijusios formulės / eilutės / vienetai**.
+Langelyje **Formato kodas** pateikiamos kelios iš anksto suformatuotos pasirinktys, skirtos tos eilutės turiniui. Jei langelis **Formato kodas** tuščias, eilutė interpretuojama kaip finansinių duomenų informacijos eilutė. 
+> [!NOTE]
+> Jei ataskaitoje yra ne sumą formatuojančių eilučių, susijusių su sumos eilutėmis, kurios buvo sulaikytos (pvz., dėl nulinio balanso), norėdami, kad nebūtų spausdinamos pavadinimo ir formato eilutės, galite naudoti stulpelį **Susijusios formulės / eilutės / vienetai**.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Formato kodo įtraukimas į ataskaitos eilutę
 
@@ -140,7 +152,9 @@ Kurdami eilutės bendrosios sumos formulę turite naudoti eilutės kodus, kad nu
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Formato eilutės susiejimas su sumos eilute
 
-Eilutės apibrėžimo stulpelyje **Formato kodas** formato kodai **DES**, **LFT**, **RGT**, **CEN**, **---** ir **===** formatuoja tik ne sumos eilutes. Norėdami, kad šis formatavimas nebūtų spausdinamas, kai sulaikomos susijusios eilutės (pavyzdžiui, todėl, kad sumos eilutėse yra nulinių reikšmių arba nėra laikotarpio aktyvumo), turite susieti formato eilutes su atitinkamomis sumų eilutėmis. Ši funkcija naudinga, kai norite neleisti spausdinti antraščių arba formatavimo, kuris yra susijęs su tarpinėmis sumomis, kai nėra jokios spausdintinos laikotarpio informacijos. **Pastaba:** išvalydami pasirinktį rodyti eilutes be sumų taip pat galite neleisti spausdinti išsamių sumos eilučių. Ši pasirinktis yra ataskaitos aprašo skirtuke **Parametrai**. Pagal numatytuosius nustatymus, išsamios sąskaitos, kurių balansas lygus nuliui arba kurios neturi jokios laikotarpio veiklos, ataskaitose sulaikomos. Norėdami rodyti šias operacijos informacijos sąskaitas, pažymėkite ataskaitos aprašo skirtuko **Parametrai** žymės langelį **Rodyti eilutes be sumų**.
+Eilutės apibrėžimo stulpelyje **Formato kodas** formato kodai **DES**, **LFT**, **RGT**, **CEN**, **---** ir **===** formatuoja tik ne sumos eilutes. Norėdami, kad šis formatavimas nebūtų spausdinamas, kai sulaikomos susijusios eilutės (pavyzdžiui, todėl, kad sumos eilutėse yra nulinių reikšmių arba nėra laikotarpio aktyvumo), turite susieti formato eilutes su atitinkamomis sumų eilutėmis. Ši funkcija naudinga, kai norite neleisti spausdinti antraščių arba formatavimo, kuris yra susijęs su tarpinėmis sumomis, kai nėra jokios spausdintinos laikotarpio informacijos. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Formato eilutės susiejimas su sumos eilute
 
@@ -164,7 +178,7 @@ Eilutės apibrėžime nurodoma viena arba kelios pagrindinės eilutės, tada stu
 -   **CBR** eilutės nespausdinamos baigtoje ataskaitoje.
 -   **CBR** formato kodas ir jo susijęs eilutės kodas rodomi virš eilutės arba skyriaus, kuriame rodomi susiję skaičiavimai.
 
-Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, kuris eilutėje **Formulė** nurodo formulę. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR **formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
+Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, kuris eilutėje **Formulė** nurodo formulę. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR**formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Stulpelio skaičiavimui skirtos eilutės apibrėžimo pagrindinės eilutės pasirinkimas
 
@@ -196,7 +210,9 @@ Rūšiavimo kodai rūšiuoja sąskaitas arba reikšmes, faktines arba biudžeto 
 1.  Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
 2.  Dukart spustelėkite langelį **Formato kodas**, tada pasirinkite rūšiavimo kodą.
 3.  Langelyje **Susijusios formulės / eilutės / vienetai** nurodykite rūšiuojamų eilučių kodų diapazoną. Norėdami nurodyti diapazoną, įveskite pirmą eilutės kodą, dvitaškį (:), tada paskutinį eilutės kodą. Pavyzdžiui, įveskite **160:490**, jeigu norite nurodyti, kad diapazonas yra nuo 160 eilutės iki 490 eilutės.
-4.  Langelyje **Stulpelio apribojimas** įveskite rūšiavimui naudojamą ataskaitos stulpelio raidę. **Pastaba:** rūšiavimo skaičiavimui naudokite tik sumos eilutes.
+4.  Langelyje **Stulpelio apribojimas** įveskite rūšiavimui naudojamą ataskaitos stulpelio raidę. 
+    > [!NOTE]
+    > Rūšiavimui skaičiuoti naudokite tik sumos eilutes.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Didėjančių ir mažėjančių stulpelių reikšmių pavyzdžiai
 
@@ -220,255 +236,24 @@ Toliau pateiktame pavyzdyje ataskaitos D stulpelio vertės rūšiuojamos didėja
 
 Čia pateikiamas sugeneruotos ataskaitos pavyzdys.
 
-**Nuokrypio analizė (surūšiuota pagal nuokrypį)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Nuokrypio analizė (surūšiuota pagal nuokrypį)**|||||||
 
-**Pekinas ir Atlantos regionai**
+|**Pekino ir Atlantos regionai**|||||||
 
-**Septyniems mėnesiams iki 2013 m. liepos 31 d.**
+|**Septyniems mėnesiams iki 2013 m. liepos 31 d.**|||||||
 
-**Liepa**
+||**Liepos mėn.**|**Nuo metų pradžios**|||||
 
-**YTD**
+||**Faktinė**|**Biudžeto**|**Nuokrypio**|**Faktinė**|**Biudžeto**|**Nuokrypio**|
 
-**Faktinis**
+|**Surūšiuota pagal mėnesio nuokrypį, didėjančia tvarka**|||||||
 
-**Biudžetas**
+|PPK|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
-**Nuokrypis**
-
-**Faktinis**
-
-**Biudžetas**
-
-**Nuokrypis**
-
-**Surūšiuota pagal mėnesio nuokrypį, didėjančia tvarka**
-
-PPK
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
-
-Atlyginimai
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-Pardavimo nuolaidos
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Pardavimo grąžinimai
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Nuomos išlaidos
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Biuro išlaidos
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Kelionės išlaidos
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Pardavimas
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-**Surūšiuota pagal absoliutųjį nuokrypį nuo metų pradžios, mažėjančia tvarka**
-
-Pardavimas
-
-1,240,119
-
-410,389
-
-829,730
-
-7,139,288
-
-2,764,549
-
-4,374,739
-
-Kelionės išlaidos
-
-7,656
-
-7,641
-
-(15)
-
-51,062
-
-51,469
-
-407
-
-Biuro išlaidos
-
-5,023
-
-3,291
-
-(1,732)
-
-33,420
-
-22,098
-
-(11,322)
-
-Pardavimo grąžinimai
-
-10,917
-
-7,246
-
-(3,671)
-
-62,809
-
-48,803
-
-(14,006)
-
-Nuomos išlaidos
-
-12,052
-
-9,019
-
-(3,033)
-
-80,444
-
-60,748
-
-(19,696)
-
-Pardavimo nuolaidos
-
-36,383
-
-24,152
-
-(12,231)
-
-241,562
-
-162,670
-
-(78,892)
-
-Atlyginimai
-
-97,624
-
-65,573
-
-(32,051)
-
-653,884
-
-441,664
-
-(212,220)
-
-PPK
-
-873,872
-
-236,144
-
-(637,728)
-
-4,864,274
-
-1,590,315
-
-(3,273,959)
+|Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Surūšiuota pagal absoliutųjį nuokrypį nuo metų pradžios, mažėjančia tvarka**|||||||
+|Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |PPK|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
 ## <a name="specify-a-format-override-cell"></a>Formato nepaisymo langelio nurodymas
 Langelyje **Formato nepaisymas** nurodomas formatavimas, kuris naudojamas eilutei, kai spausdinama ataskaita. Šis formatavimas pakeičia formatavimą, nurodytą stulpelio apraše ir ataskaitos apraše. Pagal numatytuosius nustatymus, tuose aprašuose nurodytas formatavimas yra valiuta. Jei vienoje ataskaitos eilutėje nurodomas turto vienetų skaičius, pavyzdžiui, pastatų skaičius, o kitoje eilutėje nurodoma to turto piniginė vertė, galite nepaisyti valiutos formatavimo ir įvesti skaitinį eilutės formatavimą, kuriame nurodomas pastatų skaičius. Šią informaciją nurodote dialogo lange **Formato nepaisymas**. Galimos pasirinktys priklauso nuo pasirinktos formato kategorijos. Dialogo lango srityje **Pavyzdys** rodomi formatų pavyzdžiai. Galimos šios formato kategorijos:
@@ -492,7 +277,9 @@ Valiutos formatavimas taikomas finansinei sumai ir apima valiutos simbolį. Gali
 -   **Valiutos simbolis** – ataskaitos valiutos simbolis. Ši reikšmė nepaiso įmonės informacijos nuostatos **Regiono pasirinktys**.
 -   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
 -   **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. **Pastaba:** jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+-   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+    > [!NOTE]
+    >  Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="numeric-formatting"></a>Skaitinis formatavimas
 
@@ -500,7 +287,9 @@ Skaitinis formatavimas taikomas bet kokiai sumai ir neapima valiutos simbolio. G
 
 -   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
 -   **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. **Pastaba:** jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+-   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+    > [!NOTE]
+    >  Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="percentage-formatting"></a>Procentinis formatavimas
 
@@ -508,14 +297,18 @@ Procentinis formatavimas apima procento ženklą (%). Galimos toliau nurodytos p
 
 -   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
 -   **Po kablelio** – po dešimtainio skyriklio rodomų skaitmenų skaičius.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. **Pastaba:** jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+-   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+    > [!NOTE]
+    >  Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="custom-formatting"></a>Pasirinktinis formatavimas
 
 Naudokite pasirinktinio formatavimo kategoriją, norėdami sukurti pasirinktinio formato nepaisymą. Galimos toliau nurodytos pasirinktys:
 
 -   **Tipas** – pasirinktinis formatas.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. **Pastaba:** jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+-   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+    > [!NOTE]
+    >  Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 Dalyje Tipas turėtų būti nurodyta teigiama reikšmė, o po to – neigiama reikšmė. Paprastai įvedate panašų teigiamas ir neigiamas reikšmes atskiriantį formatą. Pavyzdžiui, norėdami nurodyti, kad teigiamos ir neigiamos reikšmės turi du skaitmenis po kablelio, bet neigiamos reikšmės rodomos skliausteliuose, įveskite **0.00;(0.00)**. Toliau pateikiamoje lentelėje rodomi pasirinktiniai formatai, kuriuos galite naudoti norėdami valdyti savo reikšmių formatą. Visi pavyzdžiai pradedami reikšme 1234.56.
 
@@ -570,14 +363,18 @@ Kai pasirenkate konkrečią sąskaitą, ataskaitų dizaino įrankis paprastai su
 
 ### <a name="book-code-modifiers"></a>Knygos kodo modifikatoriai
 
-Galite apriboti eilutę esamu knygos kodu. Stulpelio apraše turi būti bent vienas stulpelis **FD**, kuriame yra knygos kodas. **Pastaba:** knygos kodo eilutės apribojimas panaikina tos eilutės stulpelio aprašo knygos kodo apribojimus.
+Galite apriboti eilutę esamu knygos kodu. Stulpelio apraše turi būti bent vienas stulpelis **FD**, kuriame yra knygos kodas. 
+> [!NOTE]
+> Knygos kodo eilutės apribojimas panaikina tos eilutės stulpelio aprašo knygos kodo apribojimus.
 
 ### <a name="account-and-transaction-attributes"></a>Sąskaitos ir operacijos atributai
 
 Kai kurios apskaitos sistemos palaiko finansinių duomenų sąskaitos atributus ir operacijos atributus. Šie atributai veikia kaip virtualieji sąskaitos segmentai ir juose gali būti papildoma informacija apie sąskaitą arba operaciją. Ši papildoma informacija gali būti sąskaitos ID, paketo ID, pašto indeksai ar kiti atributai. Jei jūsų apskaitos sistema palaiko atributus, eilutės apraše kaip eilutės modifikatorius galite naudoti sąskaitos atributus arba operacijos atributus. Informacijos apie tai, kaip nepaisyti eilutės informacijos rasite pirmiau pateiktame šio straipsnio skyriuje „Stulpelio aprašo nepaisymas“.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Langelio Saitas su finansinėmis dimensijomis nurodymas
-Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje pateikiamos dimensijų reikšmės, bet vietoj segmento reikšmių arba dimensijų reikšmių arba papildomai prie jų galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**. **Pastaba:** ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }. Norėdami nurodyti informaciją, kuri jau yra eilutės apibrėžime, įtraukite informaciją į langelį **Saitas su finansinėmis dimensijomis**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
+Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje pateikiamos dimensijų reikšmės, bet vietoj segmento reikšmių arba dimensijų reikšmių arba papildomai prie jų galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**. 
+> [!NOTE]
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Norėdami nurodyti informaciją, kuri jau yra eilutės apibrėžime, įtraukite informaciją į langelį **Saitas su finansinėmis dimensijomis**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
 
 | Pasirinktas saito tipas       | Saito stulpelio aprašas pasikeičia į šį |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ Pagal numatytuosius nustatymus ataskaitų dizaino įrankis nespausdina jokių ei
 3.  Meniu **Rinkmena** spustelėkite **Įrašyti**, kad įrašytumėte savo pakeitimus.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Pakaitos simbolių ir intervalų naudojimas eilutės apraše
-Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate **6???**, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate **6\***, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, **60** ir **600000**. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo **12?0** iki **12?4**, reikšmės **12?0** pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės **12?4** pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme. **Pastaba:** turėtumėte vengti naudoti pakaitos simbolius į intervalą patenkančiose pradžios ir pabaigos sąskaitose. Jei naudojate pakaitos simbolius pradžios arba pabaigos sąskaitoje, galite gauti nenumatytų rezultatų.
+Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate **6???**, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate **6\***, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, **60** ir **600000**. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo **12?0** iki **12?4**, reikšmės **12?0** pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės **12?4** pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme. 
+> [!NOTE]
+> Turėtumėte vengti naudoti pakaitos simbolius į intervalą patenkančiose pradžios ir pabaigos sąskaitose. Jei naudojate pakaitos simbolius pradžios arba pabaigos sąskaitoje, galite gauti nenumatytų rezultatų.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Vieno segmento arba vienos dimensijos intervalai
 
-Galite nurodyti segmentų reikšmių arba dimensijų reikšmių intervalą. Nurodyti intervalą naudinga todėl, kad jums nereikės atnaujinti eilutės aprašo kiekvieną kartą, kai į finansinius duomenis įtraukiama nauja segmento reikšmė arba dimensijos reikšmė. Pavyzdžiui, kai intervalas **+Sąskaita=\[6100:6900\]**, į eilutės sumą įtraukiamos reikšmės iš sąskaitų, kurių skaičiai nuo 6100 iki 6900. Kai intervale yra pakaitos simbolis (?), ataskaitų dizaino įrankis neįvertina intervalo pagal kiekvieną simbolį. Vietoj to nustatomos mažiausia ir didžiausia intervalo reikšmės, tada įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. **Pastaba:** ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+Galite nurodyti segmentų reikšmių arba dimensijų reikšmių intervalą. Nurodyti intervalą naudinga todėl, kad jums nereikės atnaujinti eilutės aprašo kiekvieną kartą, kai į finansinius duomenis įtraukiama nauja segmento reikšmė arba dimensijos reikšmė. Pavyzdžiui, kai intervalas **+Sąskaita=\[6100:6900\]**, į eilutės sumą įtraukiamos reikšmės iš sąskaitų, kurių skaičiai nuo 6100 iki 6900. Kai intervale yra pakaitos simbolis (?), ataskaitų dizaino įrankis neįvertina intervalo pagal kiekvieną simbolį. Vietoj to nustatomos mažiausia ir didžiausia intervalo reikšmės, tada įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. 
+> [!NOTE]
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Kelių segmentų arba kelių dimensijų intervalai
 
-Įvedus intervalą, kai naudojamos kelių dimensijų reikšmių kombinacijos, intervalo palyginimas atliekamas ..\financial-dimensions\dimension-by-dimension pagrindu. Intervalo palyginimo negalima atlikti pagal kiekvieną simbolį arba pagal segmento dalį. Pavyzdžiui, intervalas  **+Sąskaita=\[5000:6000\], Padalinys=\[1000:2000\], Išlaidų centras=\[00\]** apima tik tas sąskaitas, kurios atitinka kiekvieną segmentą. Pagal šį scenarijų pirmosios dimensijos intervalas turi būti nuo 5000 iki 6000, antros dimensijos intervalas – nuo 1000 iki 2000, o paskutinė dimensija turi būti 00. Pavyzdžiui, **+Sąskaita=\[5100\], Padalinys=\[1100\], Išlaidų centras=\[01\]** į ataskaitą neįtraukiama, nes paskutinis segmentas nepatenka į nurodytą intervalą. Jei segmento reikšmėje yra tarpų, tą reikšmę rašykite laužtiniuose skliaustuose (\[ \]). Keturių simbolių segmentui tinkamos šios reikšmės: **\[ 234\], \[123 \], \[1 34\]**. Dimensijos reikšmės turi būti rašomos laužtiniuose skliaustuose (\[ \]), o ataskaitų dizaino įrankis parašo šiuos skliaustus už jus. Kai į kelių segmentų arba kelių dimensijų intervalą įtraukti pakaitos simboliai (? arba \*), nustatomos mažiausia ir didžiausia viso kelių segmentų arba kelių dimensijų intervalo reikšmės, o po to įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. Jei intervalas ilgas, pvz., visos sąskaitos nuo 40000 iki 99999, jei įmanoma, turite nurodyti tinkamą pradžios sąskaitą ir pabaigos sąskaitą. **Pastaba:** ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+Įvedus intervalą, kai naudojamos kelių dimensijų reikšmių kombinacijos, intervalo palyginimas atliekamas ..\financial-dimensions\dimension-by-dimension pagrindu. Intervalo palyginimo negalima atlikti pagal kiekvieną simbolį arba pagal segmento dalį. Pavyzdžiui, intervalas  **+Sąskaita=\[5000:6000\], Padalinys=\[1000:2000\], Išlaidų centras=\[00\]** apima tik tas sąskaitas, kurios atitinka kiekvieną segmentą. Pagal šį scenarijų pirmosios dimensijos intervalas turi būti nuo 5000 iki 6000, antros dimensijos intervalas – nuo 1000 iki 2000, o paskutinė dimensija turi būti 00. Pavyzdžiui, **+Sąskaita=\[5100\], Padalinys=\[1100\], Išlaidų centras=\[01\]** į ataskaitą neįtraukiama, nes paskutinis segmentas nepatenka į nurodytą intervalą. Jei segmento reikšmėje yra tarpų, tą reikšmę rašykite laužtiniuose skliaustuose (\[ \]). Keturių simbolių segmentui tinkamos šios reikšmės: **\[ 234\], \[123 \], \[1 34\]**. Dimensijos reikšmės turi būti rašomos laužtiniuose skliaustuose (\[ \]), o ataskaitų dizaino įrankis parašo šiuos skliaustus už jus. Kai į kelių segmentų arba kelių dimensijų intervalą įtraukti pakaitos simboliai (? arba \*), nustatomos mažiausia ir didžiausia viso kelių segmentų arba kelių dimensijų intervalo reikšmės, o po to įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. Jei intervalas ilgas, pvz., visos sąskaitos nuo 40000 iki 99999, jei įmanoma, turite nurodyti tinkamą pradžios sąskaitą ir pabaigos sąskaitą. 
+> [!NOTE]
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Pridėti prie kitų eilutės aprašo sąskaitų arba iš jų atimti
 Norėdami sudėti vienos sąskaitos pinigines sumas ir kitos sąskaitos pinigines sumas arba jas vieną iš kitos atimti, galite naudoti langelio **Saitas su finansinėmis dimensijomis** pliuso ženklą (+) arba minuso ženklą (-). Toliau pateikiamoje lentelėje nurodomi priimtini formatai, naudojami sudedant arba atimant saitus su finansiniais duomenimis.
 
-| Operacija                                                                               | Naudokite šį formatą                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Operacija  | Naudokite šį formatą  |
+|------------|-----------------|
 | Pridėkite dvi visiškai paruoštas sąskaitas.                                                       | +Padalinys=\[000\], Sąskaita=\[1205\], Skyrius=\[00\]+Padalinys=\[100\], Sąskaita=\[1205\], Skyrius=\[00\] |
 | Pridėkite dvi segmentų reikšmes.                                                                 | +Sąskaita=\[1205\]+Sąskaita=\[1210\]                                                                           |
 | Pridėkite segmentų reikšmes, kuriose yra pakaitos simbolių.                                    | +Sąskaita=\[120?+Sąskaita=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Norėdami sudėti vienos sąskaitos pinigines sumas ir kitos sąskaitos pinigine
 | Atimkite segmentų reikšmių intervalą.                                                     | -Sąskaita=\[1200:1205\]                                                                                       |
 | Atimkite segmentų reikšmių, kuriose yra pakaitos simbolių, intervalą.                    | -Sąskaita=\[120?:130?\]                                                                                       |
 
-Nors galite keisti sąskaitas tiesiogiai, norėdami taikyti tinkamą formatavimą savo finansinių duomenų saitams, taip pat galite naudoti dialogo langą **Dimensijos**. Bet kurioje iš reikšmių gali būti pakaitos simbolių (? arba \*). Tačiau, taskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }. **Pastaba:** norėdami atimti reikšmes, turite tas reikšmes rašyti skliausteliuose. Pavyzdžiui, jei įvedate **450?-(4509)**, rodoma **+Sąskaita=\[4509\]-Sąskaita=\[450?\]** ir jūs nurodote, kad ataskaitų dizaino įrankis atimtų 4509 sąskaitos segmento sumą iš bet kurio skaičiais 450 prasidedančio sąskaitos segmento sumos.
+Nors galite keisti sąskaitas tiesiogiai, norėdami taikyti tinkamą formatavimą savo finansinių duomenų saitams, taip pat galite naudoti dialogo langą **Dimensijos**. Bet kurioje iš reikšmių gali būti pakaitos simbolių (? arba \*). Tačiau, taskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }. 
+> [!NOTE]
+> Norėdami atimti reikšmes, turite tas reikšmes rašyti skliausteliuose. Pavyzdžiui, jei įvedate **450?-(4509)**, rodoma **+Sąskaita=\[4509\]-Sąskaita=\[450?\]** ir jūs nurodote, kad ataskaitų dizaino įrankis atimtų 4509 sąskaitos segmento sumą iš bet kurio skaičiais 450 prasidedančio sąskaitos segmento sumos.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Sąskaitų pridėjimas prie kitų sąskaitų arba atėmimas iš kitų sąskaitų
 
@@ -648,7 +453,8 @@ Nors galite keisti sąskaitas tiesiogiai, norėdami taikyti tinkamą formatavim�
 
 4.  Norėdami pridėti daugiau operacijų, kartokite 2–3 veiksmus.
 
-**Pastaba:** operatorius taikomas visoms eilutės dimensijoms.
+> [!NOTE]
+> Operatorius taikomas visoms eilutės dimensijoms.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Dimensijų dialogo lango aprašymas
 Toliau pateikiamoje lentelėje aprašomi dialogo lango **Dimensijos** laukai.
@@ -680,7 +486,9 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 2.  Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
 3.  Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
 4.  Sąraše pasirinkite atnaujinamą dimensijos reikšmių rinkinį, tada spustelėkite **Modifikuoti**.
-5.  Dialogo lange **Modifikuoti** modifikuokite į rinkinį įtraukiamas formulės reikšmes. **Pastaba:** jei pridedate naujų sąskaitų arba dimensijų, būtinai pakeiskite esamus dimensijos reikšmių rinkinius, kad būtų įtraukti pakeitimai.
+5.  Dialogo lange **Modifikuoti** modifikuokite į rinkinį įtraukiamas formulės reikšmes. 
+    > [!NOTE]
+    >  Jei pridedate naujų sąskaitų arba dimensijų, būtinai pakeiskite esamus dimensijos reikšmių rinkinius, kad būtų įtraukti pakeitimai.
 6.  Dukart spustelėkite langelį ir pasirinkite atitinkamą operatorių, sąskaitą **Nuo** ir sąskaitą **Iki**.
 7.  Norėdami uždaryti dialogo langą **Modifikuoti** ir įrašyti pakeitimus, spustelėkite **Gerai**.
 
@@ -703,6 +511,8 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[„Microsoft Dynamics 365 for Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
+[Finansinės ataskaitos](financial-reporting-intro.md)
+
+
 
 
