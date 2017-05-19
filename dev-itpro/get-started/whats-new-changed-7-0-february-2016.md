@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics AX 7.0“ veikiančios funkcijos. Šioje versijoje pateikiamos platformos ir programos funkcijos, ir ji išleista 2016 m. vasario mėn.
 
@@ -331,8 +335,8 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>Pasiekite valdomąjį procedūrinį žinyną (užduočių vedlius) ir abstrakčias temas spustelėdami **Žinynas**.</td>
 <td>„AX 2012‟ Žinyno sistema nurodo į HTML temas, kurios saugomos vietos žiniatinklio serveryje. Klientai ir partneriai gali kurti savo Žinyną.</td>
-<td>Dabartinės „Dynamics AX‟ versijos Žinyno sistemoje rodomi užduočių vadovai, saugomi „Microsoft Dynamics Lifecycle Services‟ (LCS) BPM. Žinyno sistemoje taip pat rodomos temos iš „Microsoft wiki‟. Jei reikia daugiau informacijos, žr. straipsnius [„Dynamics AX“ žinynas – darbo pradžia](help-overview.md) ir [Nauji galimi naudoti užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md).</td>
-<td>Užduočių vadovai suteikia valdomą, interaktyvią patirtį, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Galite atsisiųsti ir tinkinti užduočių vedlius, kuriuos teikia „Microsoft“. „Wiki“ suteikia galimybę greičiau ir lanksčiau kurti, teikti bei naujinti produktų dokumentus. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.</td>
+<td>Dabartinės „Dynamics AX‟ versijos Žinyno sistemoje rodomi užduočių vadovai, saugomi „Microsoft Dynamics Lifecycle Services‟ (LCS) BPM. Žinyno sistemoje taip pat rodomos temos iš „Microsoft‟ dokumentų svetainės. Jei reikia daugiau informacijos, žr. straipsnius [„Dynamics AX“ žinynas – darbo pradžia](help-overview.md) ir [Nauji galimi naudoti užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md).</td>
+<td>Užduočių vadovai suteikia valdomą, interaktyvią patirtį, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Galite atsisiųsti ir tinkinti užduočių vedlius, kuriuos teikia „Microsoft“. Tema suteikia galimybę greičiau ir lanksčiau kurti, teikti bei naujinti produktų dokumentus. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Nepridėta jokių naujų funkcijų.
 [Kas nauja ar pasikeitė](whats-new-changed.md)
 
 [Galima naudoti naujus užduočių vadovus (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
+
+
 
 

@@ -3,7 +3,7 @@ title: "Savikainos įrašai"
 description: "Šiame straipsnyje pateikiama informacija apie savikainos įrašus ir kada jie kuriami. Savikainos įrašas yra toks įrašas, kuris registruoja tam tikro įvykio kiekį ir išlaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Savikainos įrašai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiama informacija apie savikainos įrašus ir kada jie kuriami. Savikainos įrašas yra toks įrašas, kuris registruoja tam tikro įvykio kiekį ir išlaidas.
 
@@ -53,17 +57,22 @@ Naujasis **Išlaidų įrašų** puslapis leidžia peržiūrėti ir valdyti kieki
 -   Praėjus kelioms dienoms po SF įvykio registravimo, kaina padidėja iki 11,00 USD. Todėl bendroji suma yra 1 100 USD. Sukuriamas antrasis kvitas, atitinkantis 100 USD skirtumą.
 -   Po kelių dienų pirkimo užsakyme registruojamos papildomos 15,00 USD išlaidos, skirtos padengti transportavimo išlaidoms.
 
-| Kvitas | Data       | Nuoroda      | Numeris | Partijos numeris  | Nuorodos partija | Grąžinamos partijos ID | Kiekis | Suma  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 2015-01-01 | Pirkimo užsakymas | 100001 | 0000101 |               |               | 100,00   | 1 000,00 |
-| 00002   | 2015-01-20 | Pirkimo užsakymas | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 2015-01-31 | Koregavimas     | 100001 | 0000101 |               |               |          | 15,00   |
+| Kvitas | Data       | Nuoroda      | Skaičius | Partijos numeris  | Kiekis | Suma  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 2015-01-01 | Pirkimo užsakymas | 100001 | 0000101 | 100,00   | 1 000,00 |
+| 00002   | 2015-01-20 | Pirkimo užsakymas | 100001 | 0000101 |          | 100,00  |
+| 00003   | 2015-01-31 | Koregavimas     | 100001 | 0000101 |          | 15,00   |
 
-**Išlaidų įrašų** puslapyje galima filtruoti pagal dokumento ID ir dokumento datą. **Pastaba.** Galimi tik [išlaidų objektų](cost-object.md) arba išleistų produktų išlaidų įrašai.
+**Išlaidų įrašų** puslapyje galima filtruoti pagal dokumento ID ir dokumento datą. 
+
+> [!NOTE]
+> Galimi tik [išlaidų objektų](cost-object.md) arba išleistų produktų išlaidų įrašai.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
 [Išlaidų objektai](cost-object.md)
+
+
 
 

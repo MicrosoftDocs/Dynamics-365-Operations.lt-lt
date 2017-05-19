@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Jei klientai grąžins kai kurias prekes, įtrauktas į sąskaitą faktūrą, ga
 Pavyzdžiui, pasiūlėte mokėjimo sąlygas, pagal kurias numatoma 2 % nuolaida, jei sąskaita faktūra apmokama per 10 dienų nuo jo išdavimo. Buvo užregistruota sąskaita faktūra 100,00 sumai, ir klientui buvo pritaikyta mokėjimo nuolaida. Jei klientas grąžins prekes ir jūs išduosite kredito pažymą, galėsite įvesti 100,00 sumos kredito pažymą. Peržiūrint kredito pažymą puslapyje **Sudengti atidarytas operacijas**, lauke **Sudengtina suma** bus rodoma **98,00**, o lauke **Mokėjimo nuolaidos suma** bus rodoma **–2,00**. Nuolaidos suma registruojama mokėjimo nuolaidos sąskaitoje.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Permokėjimo / neprimokėjimo sumos
-Klientams atliekant mokėjimą, gali būti labai maža suma, kurią vis tiek reikia sudengti. Pavyzdžiui, pateikėte klientui sąskaitą faktūrą 1 000,00 sumai, o klientas sumokėjo 999,90. Jei likusi suma yra mažesnė už sumą, kuri nurodyta prie permokėjimų arba neprimokėjimų puslapyje** Gautinų sumų parametrai**, skirtumas automatiškai užregistruojamas permokėjimų / neprimokėjimų DK sąskaitoje.
+Klientams atliekant mokėjimą, gali būti labai maža suma, kurią vis tiek reikia sudengti. Pavyzdžiui, pateikėte klientui sąskaitą faktūrą 1 000,00 sumai, o klientas sumokėjo 999,90. Jei likusi suma yra mažesnė už sumą, kuri nurodyta prie permokėjimų arba neprimokėjimų puslapyje**Gautinų sumų parametrai**, skirtumas automatiškai užregistruojamas permokėjimų / neprimokėjimų DK sąskaitoje.
 
 ## <a name="full-settlement"></a>Visiškas sudengimas
 Klientai gali atlikti dalinį mokėjimą, jei likusi suma nebus mokama, tačiau yra didesnė nei neprimokėjimo suma, nurodyta puslapyje **Mokėtinų sumų parametrai**. Jei norite pažymėti sąskaitą faktūrą kaip visiškai sudengtą, galite naudoti parinktį **Visiškas sudengimas**, esančią puslapyje **Sudengti operaciją**. (Galite įgalinti visiško sudengimo funkciją naudodami konfigūracijos raktą.) Pavyzdžiui, užregistruota sąskaita faktūra 1 000,00 sumai, o klientas sumoka 990,00. Jūs sutarėte, kad klientui nereikia mokėti likusios 10,00 sumos. Pažymėję sąskaitą faktūrą sudengti, galite taip pat pažymėti parinktį **Visiškas sudengimas**. Tada sąskaita faktūra bus laikoma visiškai sudengta. 10,00 skirtumas registruojamas mokėjimo nuolaidos sąskaitoje kaip papildoma mokėjimo nuolaidos suma.

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Verslo poreikių ir darbo jėgos įgūdžių suderinimas
+
+[!include[banner](includes/banner.md)]
+
 
 Galite sekti įgūdžius, kuriuos darbuotojai, pretendentai arba kontaktiniai asmenys turi arba turi turėti, kad efektyviai atliktų savo vaidmenis. Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.
 
@@ -52,24 +56,12 @@ Galite kurti įgūdžių išdėstymo iešką, norėdami rasti darbuotoją, prete
 
 Naudodami įgūdžių išdėstymo šablonus galite rasti esamus darbuotojus arba kandidatus, kurių kvalifikacija tiesiogiai atitinka verslo poreikius.  Pvz., galite sukurti atvirų jūsų organizacijos pareigų įgūdžių išdėstymo šabloną. Sukurdami tam tikros užduoties šabloną ir iš tos užduoties įgūdžius, išsilavinimą ir sertifikatus nukopijuodami į šabloną galite greitai ieškoti darbuotojų, pretendentų ir kontaktinių asmenų, kurie atitinka vieną arba daugiau šablone įvestų kriterijų, ir peržiūrėti kandidatų, kurių įgūdžiai labiausiai atitinka įgūdžių, reikalingų užduočiai atlikti, sąrašą.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Pastaba </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tik darbuotojai, pretendentai ir kontaktiniai asmenys, kurie pasirinkti būti įtraukti į įgūdžių išdėstymo ieškas, gali būti rodomi įgūdžių ieškos rezultatų sąraše arba įtraukti į įgūdžių šabloną. Norėdami į įgūdžių išdėstymo ieškas įtraukti darbuotoją, pretendentą arba kontaktinį asmenį, toliau nurodytuose puslapiuose nustatykite parinktį <strong>Įtraukti į įgūdžių išdėstymą</strong> į Taip.
-<ul>
-<li>Darbuotojas</li>
-<li>Darbuotojas</li>
-<li>Pretendentas</li>
-<li>Kontaktai</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Pastaba.** Tik darbuotojai, pretendentai ir kontaktiniai asmenys, kurie pasirinkti būti įtraukti į įgūdžių išdėstymo ieškas, gali būti rodomi įgūdžių ieškos rezultatų sąraše arba įtraukti į įgūdžių šabloną. Norėdami į įgūdžių išdėstymo ieškas įtraukti darbuotoją, pretendentą arba kontaktinį asmenį, toliau nurodytuose puslapiuose nustatykite parinktį **Įtraukti į įgūdžių išdėstymą** į Taip.
+
+> + Darbuotojas
+> + Darbuotojas
+> + Pretendentas
+> + Kontaktai
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Įgūdžių trūkumo analizė ir įgūdžių profilio analizė
 Galite sukurti įgūdžių šablono analizę ir peržiūrėti darbuotojo, pretendento arba kontaktinio asmens kompetencijų sąrašą pagal konkrečią datą. Galite sukurti įgūdžių trūkumo analizę ir palyginti asmens įgūdžius su įgūdžiais, kurių reikia konkrečiam darbui.  
@@ -80,5 +72,7 @@ Galite sukurti įgūdžių šablono analizę ir peržiūrėti darbuotojo, preten
 --------
 
 [Žmogiškieji ištekliai](index.md)
+
+
 
 

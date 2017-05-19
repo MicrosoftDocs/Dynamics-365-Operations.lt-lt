@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Bendrasis planavimas ir kelių teritorijų funkcija
+
+[!include[banner](../includes/banner.md)]
+
 
 Atliekant bendrąjį planavimą, atsižvelgiama į teritorijos ir sandėlio atsargų dimensijas. 
 
@@ -37,7 +41,7 @@ Kai dimensija yra privaloma, dimensijos vertė turi būti įvesta visoms atsarg�
 
 Kai sandėlis nenustatytas kaip privalomas, jis gali būti nežinomas pagal pradinį poreikį. Planavimo mechanizmas turi nustatyti, kurį sandėlį naudoti pagal prekei nustatytus parametrus, individualius sandėlius ir užsakymo eilutės informaciją.
 
-Toliau pateikiamuose „wiki‟ straipsniuose aprašoma, kaip veikia planavimo mechanizmas, kai pasirenkami skirtingi parametrai naudojamo sandėlio nustatymui.
+Toliau pateikiamose temose aprašoma, kaip veikia planavimo mechanizmas, kai pasirenkami skirtingi parametrai naudojamam sandėliui nustatyti.
 
 [Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ Toliau pateikiamuose „wiki‟ straipsniuose aprašoma, kaip veikia planavimo m
 [Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis neprivalomas](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Bendrasis planavimas – kaip nustatoma KS versija](master-plan-bom-version-determined.md)
+
+
 
 

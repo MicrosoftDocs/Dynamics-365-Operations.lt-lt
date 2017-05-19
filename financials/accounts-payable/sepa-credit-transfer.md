@@ -3,7 +3,7 @@ title: "SEPA kredito pervedimų apžvalga"
 description: "Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
 
@@ -55,7 +59,7 @@ SEPA kredito pervedimo mokėjimo formatas Europos šalyse diegiamas naudojant �
 Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics“ skirtą „Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
--   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Konfigūruodami Mokėtinų sumų mokėjimo būdus, pažymėkite žymės langelį **Bendrosios elektroninės ataskaitos** ir pasirinkite atitinkamą kredito pervedimo formatą (pvz.,, **ISO 20022 kredito pervedimas (AT)**) kaip eksporto formato konfigūraciją.
 -   Taip pat programoje „Microsoft Dynamics 365 for Operations‟ turite nustatyti juridinio subjekto ir banko sąskaitos informaciją.
 -   Banko sąskaitų numeriai, IBAN ir kartais SWIFT kodai (BIC) arba kiti ID reikalingi norint sukurti tinkamus kredito pervedimo mokėjimus. Todėl turite juos nustatyti tiek tiekėjo banko sąskaitoje, tiek organizacijos, pageidaujančios pervedimo, banko sąskaitoje.
@@ -121,5 +125,7 @@ Tarptautinis banko sąskaitos numeris (IBAN) ir banko identifikavimo kodas (BIC)
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kaip mokėjimo failą perduoti bankui?
 Kai generuojate mokėjimus, sugeneruojamas mokėjimo failas ir jūs raginami jį iš interneto naršyklės įrašyti į bet kurią galimą vietą. Kitas veiksmas yra XML failą nusiųsti bankui. Šis procesas įvairiuose bankuose skiriasi. Norėdami failus pateikti bankui apdoroti, vykdykite iš savo banko gautus nurodymus.
+
+
 
 

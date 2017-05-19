@@ -1,16 +1,16 @@
 ---
 title: "Finansinių ataskaitų dizaino įrankio vartotojo nuostatos"
 description: "Šiame straipsnyje paaiškinama, kaip nustatyti vartotojo nuostatas, siekiant tinkinti vartotojo sąveiką su finansinių ataskaitų dizaino įrankiu ir valdyti pirminio prisijungimo patirtį. Jūs taip pat galite valdyti, kaip rodomos atskiros ataskaitos, ataskaitų biblioteka ir numatytosios failų vietos."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-02-04 19 - 44 - 33
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 371c095e925ba833216263eed6595e749acc6ab7
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1e7f0665feb24d56fc931052a46f88e7b872aaf1
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio vartotojo nuostatos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinama, kaip nustatyti vartotojo nuostatas, siekiant tinkinti vartotojo sąveiką su finansinių ataskaitų dizaino įrankiu ir valdyti pirminio prisijungimo patirtį. Jūs taip pat galite valdyti, kaip rodomos atskiros ataskaitos, ataskaitų biblioteka ir numatytosios failų vietos. 
 
@@ -39,20 +43,16 @@ ms.lasthandoff: 03/29/2017
 
 ## <a name="options-dialog-box-options"></a>Pasirinkčių dialogo lango pasirinktys
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Vartotojo pasirinktis</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>aprašymas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Paleidžiant</td>
-<td>Pasirinkite, ką norite matyti, kai paleidžiama „Management Reporter“. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
+<td>Pasirinkite, ką norite matyti, kai paleidžiamas ataskaitų dizaino įrankis. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
 <ul>
 <li><strong>Krovinio paskutinio įkėlimo ataskaita</strong> – rodoma paskutinė peržiūrėta ataskaita.</li>
 <li><strong>Rodyti langą Atidaryti</strong> – rodomas langas <strong>Atidaryti</strong>. Lange <strong>Atidaryti</strong> pateikiamas paieškos langas, kad greitai rastumėte kūrimo blokus.</li>
@@ -60,7 +60,7 @@ ms.lasthandoff: 03/29/2017
 </ul></td>
 </tr>
 <tr class="even">
-<td>Prieš išeinant iš „Management Reporter“ rodyti patvirtinimą</td>
+<td>Prieš uždarant ataskaitų dizaino įrankį rodyti patvirtinimą</td>
 <td>Pasirinkite, ar norite gauti įspėjimo pranešimą, uždarydami programą. Šis pranešimas padeda užtikrinti, kad programos neuždarytumėte netyčia.</td>
 </tr>
 <tr class="odd">
@@ -79,6 +79,8 @@ ms.lasthandoff: 03/29/2017
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[„Microsoft Dynamics ERP“ finansinės ataskaitos](financial-reporting-intro.md)
+[Finansinės ataskaitos](financial-reporting-intro.md)
+
+
 
 

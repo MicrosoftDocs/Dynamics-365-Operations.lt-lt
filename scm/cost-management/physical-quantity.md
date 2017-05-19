@@ -3,7 +3,7 @@ title: "Atsargų objekto vertės"
 description: "Šiame straipsnyje pateikiama informacija apie tai, kaip apskaičiuojamos atsargų objektą vertės."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Atsargų objekto vertės
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie tai, kaip apskaičiuojamos atsargų objektą vertės. 
 
-Naudodami naują funkciją pavadinimu **faktinis kiekis **galite matyti konkretaus atsargų objekto vertes. Išlaidų objektas atitinka objekto lygį, kuriame atliekama atsargų apskaita. Daugiau informacijos apie išlaidų objektus rasite [Išlaidų objektai](cost-object.md). Norėdami pamatyti konkretaus atsargų objekto vertes, puslapyje **Savikainos objektas** spustelėkite **Faktinis kiekis**. Atsargų objekto vertė apskaičiuojama taip: Atsargų objekto vertė = Išlaidų objekto vidutinė vieneto kaina × Atsargų objekto kiekis Tolesniame pavyzdyje rodoma, kaip skaičiuojamos atsargų objekto ir išlaidų objekto vertės. Registruoti du prekės A produkto gavimo įvykiai.
+Nauja funkcija pavadinimu **faktinis kiekis** leidžia matyti konkretaus atsargų objekto vertes. 
+
+Išlaidų objektas atitinka objekto lygį, kuriame atliekama atsargų apskaita. Daugiau informacijos apie išlaidų objektus rasite [Išlaidų objektai](cost-object.md). 
+
+Norėdami pamatyti konkretaus atsargų objekto vertes, puslapyje **Savikainos objektas** spustelėkite **Faktinis kiekis**. Toliau nurodyta, kaip skaičiuojama atsargų objekto vertė. 
+
+Atsargų objektas.Vertė = Išlaidų objektas.Vidutinė vieneto savikaina × Atsargų objektas.Kiekis 
+
+Tolesniame pavyzdyje parodyta, kaip skaičiuojamos atsargų objekto ir išlaidų objekto vertės. Registruoti du prekės A produkto gavimo įvykiai.
 
 -   1 produkto gavimo kvitas: Kiekis = 100 vnt., Suma = 1 000,00 dol., Teritorija = 1, Sandėlis =11, Paketo Nr. = B1
 -   2 produkto gavimo kvitas: Kiekis = 50 vnt., Suma = 800,00 dol., Teritorija = 1, Sandėlis =11, Paketo Nr. = B2
@@ -135,5 +147,7 @@ Toliau pateikiamoje lentelėje rodomas atsargų objekto skaičiavimo rezultatas.
 [Išlaidų įrašai](cost-entries.md)
 
 [Kas naujo ir pakeista programoje „Microsoft Dynamics AX“](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

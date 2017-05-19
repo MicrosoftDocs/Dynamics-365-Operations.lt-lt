@@ -3,7 +3,7 @@ title: "Ciklo skaičiavimas"
 description: "Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas.
 
@@ -39,7 +43,6 @@ Toliau pateiktoje iliustracijoje parodytas ciklo skaičiavimo procesas. ![Ciklo 
 
 ## <a name="cycle-counting-prerequisites"></a>Būtinosios ciklo skaičiavimo sąlygos
 Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš naudojant ciklo skaičiavimą.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <li>Ciklo skaičiavimo grupavimas</li>
 <li>Atrinkti ciklo skaičiavimą</li>
 </ul>
-Daugiau informacijos žr. <a href="configure-mobile-devices-warehouse">Mobiliųjų įrenginių konfigūravimas darbui sandėlyje</a>.</li>
+</li>
 <li>Nustatykite mobiliojo įrenginio meniu.</li>
 <li>Sukurkite darbo vartotojo paskyrą ir priskirkite mobiliojo įrenginio meniu darbo vartotojo ID.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nus
 -   Apskaičiuota reikšmė skiriasi nuo turimų atsargų kiekio, o nuokrypio ribų nenustatyta.
 
 Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reikšmę galite puslapyje **Laukiantis peržiūros ciklo skaičiavimas**. Modifikuotą prekės kiekio skaičių patikrinti galite puslapyje **Turimos atsargos pagal vietą**. Apskaičiuota reikšmė atmetama, jei skirtumo patvirtinti negalima.
+
+# <a name="see-also"></a>Taip pat žiūrėkite
+[Mobiliųjų įrenginių konfigūravimas darbui sandėlyje](configure-mobile-devices-warehouse.md)
 
 
 

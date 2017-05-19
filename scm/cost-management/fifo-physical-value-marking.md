@@ -3,7 +3,7 @@ title: "FIFO su faktine verte ir žymėjimu"
 description: "Pirma gaunama, pirma išduodama (FIFO) yra atsargų modelis, kuriame anksčiau gauti gavimai yra išduodami pirmi. Finansiškai atnaujinti atsargų išdavimai yra sudengiami prieš pirma finansiškai atnaujintus atsargų gavimus, pagrįstus atsargų operacijų finansine data."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO su faktine verte ir žymėjimu
+
+[!include[banner](../includes/banner.md)]
+
 
 Pirma gaunama, pirma išduodama (FIFO) yra atsargų modelis, kuriame anksčiau gauti gavimai yra išduodami pirmi. Finansiškai atnaujinti atsargų išdavimai yra sudengiami prieš pirma finansiškai atnaujintus atsargų gavimus, pagrįstus atsargų operacijų finansine data. 
 
@@ -50,7 +54,9 @@ Naudojant FIFO nereikia naudoti FIFO taisyklės. Užuot ją naudoję, galite pa�
 -   5b. Atsargų finansinis išdavimas, kai kiekis – 1, kiekvieno savikaina – 20,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
 -   6. Atsargų uždarymas atliktas. Pagal FIFO metodą, pirmas finansiškai atnaujintas išdavimas sudengiamas pagal pirmą finansiškai atnaujintą gavimą. Išdavimo operacija bus pakoreguota –10,00 USD.
 
-Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacijų vidurkį. Toliau pateiktose iliustracijose parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![FIFO be parinkties Įtraukti faktinę vertę](./media/fifowithoutincludephysicalvalue.gif) **Diagramos paaiškinimai**
+Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacijų vidurkį. Toliau pateiktose iliustracijose parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO be faktinės vertės įtraukimo](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -78,7 +84,9 @@ Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymė
 -   6a. 1 vieneto, kurio savikaina 21,25 USD, fizinis išdavimas iš atsargų.
 -   7. Atsargų uždarymas atliktas. Pagal FIFO metodą, pirma finansinė išdavimo operacija bus koreguojama arba sudengiama pagal pirmą atnaujintą gavimą, kuris gali būti finansinis arba faktinis.
 
-5b operacija bus sudengiama pagal 1b gavimo operaciją. Ši išdavimo operacija bus pakoreguota –11,25 USD . Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. ![FIFO su parinktimi Įtraukti faktinę vertę](./media/fifowithincludephysicalvalue.gif) **Diagramos paaiškinimai**
+5b operacija bus sudengiama pagal 1b gavimo operaciją. Ši išdavimo operacija bus pakoreguota –11,25 USD . Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. ![FIFO su faktinės vertės įtraukimu](./media/fifowithincludephysicalvalue.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -106,7 +114,9 @@ Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymė
 -   6a. 1 vieneto, kurio savikaina 21,25 USD, fizinis išdavimas iš atsargų.
 -   7. Atsargų uždarymas atliktas. Kadangi finansiškai atnaujinta FIFO operacija yra pažymėta su esamu gavimu, šios operacijos sudengiamos viena pagal kitą, ir joks koregavimas neatliekamas.
 
-Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodomas FIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. ![FIFO su žymėjimu](./media/fifowithmarking.gif) **Diagramos paaiškinimai**
+Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. Toliau pateiktoje iliustracijoje parodomas FIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. ![FIFO su žymėjimu](./media/fifowithmarking.gif) 
+
+**Diagramos paaiškinimas**
 
 -   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 -   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
@@ -118,6 +128,8 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 -   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
+
+
 
 
 

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Peržiūrėti ir įvertinti klausimyno rezultatus
+
+[!include[banner](includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus. 
 
@@ -56,7 +60,8 @@ Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakym
 -   **Atsakymų ataskaita** – šioje ataskaitoje rodomi atsakymai, kuriuos respondentas pasirinko kiekviename klausimyno klausime.
 -   **Neteisingi atsakymai** – šioje ataskaitoje rodoma informacija, susijusi su respondento pasirinktais neteisingais atsakymais.
 
-**Pastaba.** **Rezultatų** ataskaita galima tik tada, jei naudojate klausimyno rezultatų grupes ir jei **Klausimynų** puslapyje pasirinkote **Rezultatų puslapis**. **Atsakymų** ataskaita ir **Neteisingų atsakymų** ataskaita galimos tik tada, jei **Klausimynų** puslapyje pasirinkote **Atsakymų ataskaita**.
+> **Pastaba**
+>   Ataskaita **Rezultatai**galima tik tada, jei naudojate klausimyno rezultatų grupes ir jei puslapyje **Klausimynai** pasirinkote **Rezultatų puslapis**. **Atsakymų** ataskaita ir **Neteisingų atsakymų** ataskaita galimos tik tada, jei **Klausimynų** puslapyje pasirinkote **Atsakymų ataskaita**.
 
 ## <a name="questionnaire-statistics"></a>Klausimyno statistika
 Naudodami klausimyno statistiką pagal apsibrėžtus skaičiavimus galite analizuoti užpildyto klausimyno rezultatus. Norėdami apibrėžti skaičiavimus, turi atlikti tolesnes užduotis.
@@ -79,5 +84,7 @@ Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai per
 [Klausimynų naudojimas](questionnaires.md)
 
 [Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
+
+
 
 

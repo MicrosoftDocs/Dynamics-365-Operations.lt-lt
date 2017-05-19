@@ -3,7 +3,7 @@ title: Sistemos reikalavimai
 description: "Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>Sistemos reikalavimai
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai.
 
@@ -43,6 +47,8 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 -   Norėdami užfiksuoti vaizdus, sugeneruotus užduočių įrašymo priemonėje ir įtraukti juos į „Microsoft Word“ dokumentus, turite turėti įdiegtą „Chrome“ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
 -   Finansinėms ataskaitoms skirtas ataskaitų konstruktorius paleidžiama kaip „ClickOnce“ taikomoji programa. Jam reikia 64 bitų suderinamos operacinės sistemos. Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų konstruktorių. Jei naudojate „Chrome“ inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti ir inkognito režimu.
+-   Norint peržiūrėti PDF failus, rekomenduojame naudoti modernias naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Palaikomos „Retail Cloud POS‟ žiniatinklio naršyklės
 
@@ -117,11 +123,13 @@ Kompiuteris turi atitikti visus sistemos reikalavimus, norint įdiegti ir naudot
 -   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Reikalavimai norint kurti vietiniuose virtualiuosiuose įrenginiuose
-Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
 [Gaukite „Dynamics 365 for Operations“ įvertinimo kopiją](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

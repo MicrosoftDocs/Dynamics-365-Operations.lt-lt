@@ -1,7 +1,7 @@
 ---
 title: "Finansinių ataskaitų peržiūra ir kūrimas"
-description: "Šiame straipsnyje pateikiami pratimai, kurie padeda peržiūrėti ir kurti finansines ataskaitas, skirtas „Microsoft Dynamics 365 for Operations“. Finansines ataskaitas sudaro peržiūros patirtis programoje „Dynamics 365 for Operations“ ir vieno paspaudimo ataskaitų dizaino įrankis, kuris suteikia galimybę kurti ir redaguoti finansines ataskaitas."
-author: twheeloc
+description: "Šiame straipsnyje pateikiami pratimai, kurie padeda peržiūrėti ir kurti finansines ataskaitas, skirtas „Microsoft Dynamics 365 for Operations“."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. At
 22. Iš ataskaitos aprašo **Išsamus bandomasis balansas su atributais** pasirinkite „Išsamus bandomasis balansas su atributais“ ir eilutės apibrėžimui, ir stulpelio apibrėžimui.
 23. Pakeiskite pagrindinius metus į **2012.**
 24. **Įrašykite** ataskaitos aprašą ir **generuokite**. Kai ataskaita baigs generuoti ir atsidarys, galėsite ją panagrinėti kaip ir pirmoje užduotyje. Detalizuokite skirtingas sąskaitas, kad pamatytumėte, kaip rodomi papildomi atributai.
-25. Uždarykite ataskaitą **Išsamus bandomasis balansas su atributais **.
+25. Uždarykite ataskaitą **Išsamus bandomasis balansas su atributais**.
 26. Uždarykite **Ataskaitų dizaino įrankis**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3 užduotis: sukurkite kelių dimensijų ataskaitą naudodami ataskaitų medį
@@ -165,7 +166,7 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 6.  Dukart spustelėkite lauke **Dimensijos filtras**.
 7.  Lange **Dimensija** dukart spustelėkite **padalinio** stulpelį.
 8.  Dialogo atskirame arba diapazono skyriuje spustelėkite **daugtaškį** lauke **Iš**, kad būtų rodomas padalinių sąrašas.
-9.  Pasirinkite padalinį **022**, **Pardavimai ir rinkodara**, ir tada spustelėkite** Gerai**.
+9.  Pasirinkite padalinį **022**, **Pardavimai ir rinkodara**, ir tada spustelėkite**Gerai**.
 10. Pakartokite 5 – 8 veiksmus, taikydami 23-25 padaliniams.
 11. Kiekvieno FD stulpelio eilutėje **2 antraštė** įveskite tokius padalinių aprašymus:
     -   B stulpelis – Pardavimai ir rinkodara
@@ -182,8 +183,8 @@ Atlikdami šią užduotį, jūs modifikuosite esamą numatytąją ataskaitą. Į
 18. **Įrašykite** savo atliktus pakeitimus ir **generuokite**. Kai ataskaita baigs generuotis ir atsidarys, galėsite ją panagrinėti.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-[Finansinės ataskaitos](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Peržiūrėti finansines ataskaitas](\financials\general-ledger\view-financial-reports.md) 
+[Finansinės ataskaitos](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Peržiūrėti finansines ataskaitas](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [„Dynamics‟ finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

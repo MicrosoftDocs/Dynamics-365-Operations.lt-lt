@@ -3,7 +3,7 @@ title: "„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas"
 description: "Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas
 
+[!include[banner](../includes/banner.md)]
+
+
 Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis.  
 
 Puslapyje **„kanban“ užduočių planavimas** galima valdyti „lean manufacturing“ darbo elementų grafikus. Jame apžvelgiamos visos „kanban“ užduotys bei pateikiamos kelios filtravimo parinktys. Šiame puslapyje galite pereiti į visu kitus su „kanban“ konfigūracija ir vykdymu susijusius puslapius.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Automatinis „kanban“ užduočių planavimas
-Planavimo procesas gali būti automatiškai paleidžiamas, jei nustatysite „kanban“ taisyklės parametrą **Automatinio planavimo kiekis**. Jei nustatysite parametro **Automatinio planavimo kiekis** vertę **1**, vos tik sukūrus bet kurią „kanban“ užduotį, ji bus suplanuojama. Bus gaunamas pirmiausia apdorojamo operacijų kiekio rezultatas. Jei nustatysite didesnę už 1 parametro **Automatinio planavimo kiekis** vertę, „kanban“ užduotys prieš suplanuojant bus sugrupuojamos. Dėl šios koncepcijos „kanban“ dydžiai gali būti mažesni už faktinius ekonominio paketo dydžius. Pavyzdžiui, konkrečios prekės (ar prekių grupės) ekonominio paketo dydis yra 30. Galite nekurti „kanban“, kuriuose naudojamas produktų kiekis yra 30, o konfigūruoti „kanban" taisyklę, kurioje apibrėžtas produktų kiekis būtų 10, o parametro **Automatinio planavimo kiekis** vertė – **3**. Nors taikant automatinio planavimo funkciją darbo elemento „kanban“ užduotys suplanuojamos tik tada, kai yra trys nesuplanuotos užduotys, tačiau planuotojui ir darbo laiko prižiūrėtojui bus visiškai aišku, kad reikia atlikti dvi nesuplanuotas užduotis. Tuomet planuotojas arba darbo laiko vadybininkas, rankiniu būdu suplanavęs šias dvi užduotis arba sukūręs papildomus „kanban“, gali įtraukti jas į gamybos procesą.
+Planavimo procesas gali būti automatiškai paleidžiamas, jei nustatysite „kanban“ taisyklės parametrą **Automatinio planavimo kiekis**. Jei nustatysite parametro **Automatinio planavimo kiekis** vertę **1**, vos tik sukūrus bet kurią „kanban“ užduotį, ji bus suplanuojama. Bus gaunamas pirmiausia apdorojamo operacijų kiekio rezultatas. Jei nustatysite didesnę už 1 parametro **Automatinio planavimo kiekis** vertę, „kanban“ užduotys prieš suplanuojant bus sugrupuojamos. 
+
+Dėl šios koncepcijos „kanban“ dydžiai gali būti mažesni už faktinius ekonominio paketo dydžius. Pavyzdžiui, konkrečios prekės (ar prekių grupės) ekonominio paketo dydis yra 30. Galite nekurti „kanban“, kuriuose naudojamas produktų kiekis yra 30, o konfigūruoti „kanban" taisyklę, kurioje apibrėžtas produktų kiekis būtų 10, o parametro **Automatinio planavimo kiekis** reikšmė – **3**. Nors taikant automatinio planavimo funkciją darbo elemento „kanban“ užduotys suplanuojamos tik tada, kai yra trys nesuplanuotos užduotys, tačiau planuotojui ir darbo laiko prižiūrėtojui bus visiškai aišku, kad reikia atlikti dvi nesuplanuotas užduotis. Tuomet planuotojas arba darbo laiko vadybininkas, rankiniu būdu suplanavęs šias dvi užduotis arba sukūręs papildomus „kanban“, gali įtraukti jas į gamybos procesą.
 
 ## <a name="manual-scheduling"></a>Rankinis planavimas
 Programoje „Microsoft Dynamics AX 2012“ pradėta naudoti rankiniam planavimui skirta „kanban“ planavimo lenta. Rankinio planavimo funkciją galima kartu naudoti su automatiniu planavimu. Naudodami „kanban“ planavimo lentą galite suplanuoti užduotis ir panaikinti jų planavimą, jas perkelti sekoje arba iš vieno laikotarpio į kitą. Galima rankiniu būdu panaikinti pagal „kanban“ taisyklę, kurioje nustatyta parametro **Automatinis planavimas** vertė didesnė už **0**, sukurtų užduočių planavimą. Tačiau šios užduotys bus perplanuotos įvykus kitam automatinio planavimo įvykiui (t. y. sukūrus naują „kanban“). Galima naudoti toliau nurodytas rankinio planavimo parinktis.
@@ -66,5 +72,7 @@ Sąrašo puslapyje **„kanban“ užduočių planavimas** yra „FactBox“, ku
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
+
+
 
 

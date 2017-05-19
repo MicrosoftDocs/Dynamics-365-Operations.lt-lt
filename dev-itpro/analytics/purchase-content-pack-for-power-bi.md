@@ -3,7 +3,7 @@ title: "Pirkimo išlaidų analizės „Power BI“ turinys"
 description: "Šioje temoje paaiškinta, kas įtraukiama į pirkimo išlaidų analizės turinio paketą, skirtą „Microsoft Power BI“. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Pirkimo išlaidų analizės „Power BI“ turinys
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinta, kas įtraukiama į pirkimo išlaidų analizės turinio paketą, skirtą „Microsoft Power BI“. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
@@ -38,6 +42,7 @@ ms.lasthandoff: 03/29/2017
 
 ## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
 Pirkimo išlaidų analizės turinio paketas išleistas kaip „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo išteklius ir yra pasiekiamas iš „Microsoft Dynamics 365 for Operations“. Išsamesnės informacijos apie tai, kaip pasiekti ir atidaryti „Power BI“ ataskaitas žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+Pastaba: KB 4011327 yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie „Lifecycle Services“ galite pasiekti KB čia: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos metrikos
 Pirkimo išlaidų analizės turinio pakete yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio paketo vizualizacijų apžvalga.
@@ -129,7 +134,7 @@ Pirkimo išlaidų analizės turinio pakete yra ataskaita, sudaryta iš metrikų 
 \* Pirkimas šiais ir praėjusiais metais ir augimas pagal įsigijimo kategoriją.
 
 ## <a name="data-model-and-entities"></a>Duomenų modelis ir objektai
-„Dynamics 365 for Operations“ duomenys naudojami pirkimo išlaidų analizės turinio pakete esančiai ataskaitai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos apie objekto parduotuvę ieškokite tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Agreguoti matavimo vienetai šiame turinio pakete yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Purchase Cube“ naudojant „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Operations 2012 R3“, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šiuos pagrindinius agreguotus matavimo vienetus galima gauti tiesiai iš sąskaitos faktūros eilučių objekto ir jie naudojami kaip turinio paketo pagrindas.
+„Dynamics 365 for Operations“ duomenys naudojami pirkimo išlaidų analizės turinio pakete esančiai ataskaitai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos apie objekto parduotuvę ieškokite tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Agreguoti matavimo vienetai šiame turinio pakete yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Purchase Cube“ naudojant „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šiuos pagrindinius agreguotus matavimo vienetus galima gauti tiesiai iš sąskaitos faktūros eilučių objekto ir jie naudojami kaip turinio paketo pagrindas.
 
 | Objektas        | Pagrindiniai agreguoti matavimo vienetai | „Dynamics 365 for Operations“ duomenų šaltinis | Laukas              | aprašymas                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ tur
 -   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
+
+
 
 
 

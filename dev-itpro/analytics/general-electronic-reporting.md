@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ Kai versijos būsena yra **BAIGTA** arba **BENDRAI NAUDOJAMA**, galima keistis d
 
 #### <a name="component-date-effectivity"></a>Komponento galiojimo data
 
-ER komponento versijos turi galiojimo datą. Galima apibrėžti ER komponento datą** Galioja nuo**, norint nurodyti datą, nuo kurios šis komponentas galioja, ir jį galima naudoti ataskaitų teikimo procesuose. „Dynamics 365 for Operations“ seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja daugiau nei viena versija, ataskaitų teikimo procesuose naudojama naujausia versija.
+ER komponento versijos turi galiojimo datą. Galima apibrėžti ER komponento datą**Galioja nuo**, norint nurodyti datą, nuo kurios šis komponentas galioja, ir jį galima naudoti ataskaitų teikimo procesuose. „Dynamics 365 for Operations“ seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja daugiau nei viena versija, ataskaitų teikimo procesuose naudojama naujausia versija.
 
 #### <a name="component-access"></a>Prieiga prie komponento
 
@@ -112,7 +113,7 @@ Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo 
 
 #### <a name="configuration"></a>Konfigūravimas
 
-ER konfigūracija yra tam tikro ER komponento (**Duomenų modelis** arba **Formatas**) aplankas. Konfigūracija gali apimti skirtingas tam tikro ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **JUODRAŠTIS** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas „Dynamics 365 for Operations“ ER parametruose. Kiekvienoje modelio konfigūracijoje yra komponentas **Duomenų modelis**. Naują formato konfigūraciją galima išvesti (gauti) iš konkrečios duomenų modelio konfigūracijos. Sukurta formato konfigūracija konfigūracijos medyje bus pateikta kaip antrinė pradinės duomenų modelio konfigūracijos konfigūracija. Sukurtoje formato konfigūracijoje yra komponentas **Formatas **. Pirminės modelio konfigūracijos komponentas **Duomenų modelis** yra automatiškai įterpiamas į antrinės formato konfigūracijos komponentą **Formatas **kaip numatytasis duomenų šaltinis. „Dynamics 365 for Operations“ įmonės bendrai naudoja ER konfigūraciją.
+ER konfigūracija yra tam tikro ER komponento (**Duomenų modelis** arba **Formatas**) aplankas. Konfigūracija gali apimti skirtingas tam tikro ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **JUODRAŠTIS** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas „Dynamics 365 for Operations“ ER parametruose. Kiekvienoje modelio konfigūracijoje yra komponentas **Duomenų modelis**. Naują formato konfigūraciją galima išvesti (gauti) iš konkrečios duomenų modelio konfigūracijos. Sukurta formato konfigūracija konfigūracijos medyje bus pateikta kaip antrinė pradinės duomenų modelio konfigūracijos konfigūracija. Sukurtoje formato konfigūracijoje yra komponentas **Formatas**. Pirminės modelio konfigūracijos komponentas **Duomenų modelis** yra automatiškai įterpiamas į antrinės formato konfigūracijos komponentą **Formatas**kaip numatytasis duomenų šaltinis. „Dynamics 365 for Operations“ įmonės bendrai naudoja ER konfigūraciją.
 
 #### <a name="provider"></a>Teikėjas
 
@@ -169,11 +170,11 @@ Paleiskite užduočių vedlį **ER formato naudojimas elektroniniams mokėjimų 
 ## <a name="handling-er-components"></a>ER komponentų tvarkymas
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>ER komponento publikavimas LCS, pateikiant jį naudoti išorėje (lokalizavimas)
 
-Sukurto komponento (modelio arba formato) savininkas gali naudoti ER baigtai komponento versijai publikuoti LCS. Tam būtina dabartinio ER konfigūracijos teikėjo **LCS projekto **tipo saugykla. Kai baigtos komponento versijos būsena pakeičiama iš **BAIGTA** į **BENDRAI NAUDOJAMA**, ta versija publikuojama LCS. Publikavus komponentą LCS, to komponento savininkas tampa paslaugos teikėju, palaikančiu šį komponentą. Pavyzdžiui, jei formato komponentas yra skirtas pagal įstatymus būtinam elektroniniam dokumentui generuoti (pavyzdžiui, pagal lokalizavimo scenarijų), manoma, kad formatas turi atitikti teisės aktų pakeitimus ir kad tiekėjas turi išduoti naujas komponento versijas, kai to reikia naujiems įstatymų reikalavimams taikyti. Paleiskite užduočių vedlį **ER konfigūracijos nusiuntimas į „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
+Sukurto komponento (modelio arba formato) savininkas gali naudoti ER baigtai komponento versijai publikuoti LCS. Tam būtina dabartinio ER konfigūracijos teikėjo **LCS projekto**tipo saugykla. Kai baigtos komponento versijos būsena pakeičiama iš **BAIGTA** į **BENDRAI NAUDOJAMA**, ta versija publikuojama LCS. Publikavus komponentą LCS, to komponento savininkas tampa paslaugos teikėju, palaikančiu šį komponentą. Pavyzdžiui, jei formato komponentas yra skirtas pagal įstatymus būtinam elektroniniam dokumentui generuoti (pavyzdžiui, pagal lokalizavimo scenarijų), manoma, kad formatas turi atitikti teisės aktų pakeitimus ir kad tiekėjas turi išduoti naujas komponento versijas, kai to reikia naujiems įstatymų reikalavimams taikyti. Paleiskite užduočių vedlį **ER konfigūracijos nusiuntimas į „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>ER komponento importavimas iš LCS naudoti viduje
 
-ER suteikia galimybę importuoti ER komponentus iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių. Būtina **LCS projekto **tipo saugykla. Importavus ER komponentą iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių, egzemplioriaus savininkas tampa paslaugos, kurią teikia importuoto komponento savininkas (autorius), vartotoju. Pavyzdžiui, jei šis formato komponentas skirtas konkrečiam elektroniniam dokumentui generuoti iš „Dynamics 365 for Operations“ tam tikros valstybės / regiono būdingu formatu (lokalizavimo scenarijus), manoma, kad paslaugos vartotojas galės gauti visus šio formato naujinimus, kad formatas visada atitiktų įstatymų reikalavimus. Paleiskite užduočių vedlį **ER konfigūracijos importavimas iš „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
+ER suteikia galimybę importuoti ER komponentus iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių. Būtina **LCS projekto**tipo saugykla. Importavus ER komponentą iš LCS į esamą „Dynamics 365 for Operations“ egzempliorių, egzemplioriaus savininkas tampa paslaugos, kurią teikia importuoto komponento savininkas (autorius), vartotoju. Pavyzdžiui, jei šis formato komponentas skirtas konkrečiam elektroniniam dokumentui generuoti iš „Dynamics 365 for Operations“ tam tikros valstybės / regiono būdingu formatu (lokalizavimo scenarijus), manoma, kad paslaugos vartotojas galės gauti visus šio formato naujinimus, kad formatas visada atitiktų įstatymų reikalavimus. Paleiskite užduočių vedlį **ER konfigūracijos importavimas iš „Lifecycle Services‟** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Formato kūrimas pasirinkus kitą formatą kaip pagrindą (tinkinimas)
 

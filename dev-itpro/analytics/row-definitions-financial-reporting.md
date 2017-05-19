@@ -1,16 +1,16 @@
 ---
 title: "Finansinių ataskaitų dizaino įrankio eilučių aprašai"
 description: "Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
+
+[!include[banner](../includes/banner.md)]
+
 
 Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės.
 
@@ -72,8 +76,8 @@ Norėdami į eilutės aprašą įtraukti dimensijų, atlikite toliau nurodytus v
 
 1.  Ataskaitų dizaino įrankyje spustelėkite **Eilučių aprašai**, tada atidarykite norimą keisti eilutės aprašą.
 2.  Meniu **Redaguoti** spustelėkite **Įterpti eilutes iš dimensijų**.
-3.  Eilutės **Dimensijos** dialogo lange **Įterpti eilutes iš dimensijų **pasirinkite į eilutės aprašą norimą perkelti dimensijos langelį, tada spustelėkite **Visi &&&**.
-4.  Norėdami apriboti eilutės aprašą iki kelių dimensijos reikšmių, langelyje ** Dimensijos intervalo pradžia **įveskite pradžios dimensijos reikšmę, tada langelyje **Dimensijos intervalo pabaiga **įveskite pabaigos dimensijos reikšmę. Norėdami įtraukti visas pasirinktos dimensijos reikšmes, palikite šiuos langelius tuščius. **Pastaba:** naudojant pakaitos simbolius (\* arba ?) dimensijos intervaluose gali būti gaunami ne visi norimi rezultatai, priklausomai nuo to, kaip ERP duomenų bazė sujungia duomenis.
+3.  Eilutės **Dimensijos** dialogo lange **Įterpti eilutes iš dimensijų**pasirinkite į eilutės aprašą norimą perkelti dimensijos langelį, tada spustelėkite **Visi &&&**.
+4.  Norėdami apriboti eilutės aprašą iki kelių dimensijos reikšmių, langelyje **Dimensijos intervalo pradžia**įveskite pradžios dimensijos reikšmę, tada langelyje **Dimensijos intervalo pabaiga**įveskite pabaigos dimensijos reikšmę. Norėdami įtraukti visas pasirinktos dimensijos reikšmes, palikite šiuos langelius tuščius. **Pastaba:** naudojant pakaitos simbolius (\* arba ?) dimensijos intervaluose gali būti gaunami ne visi norimi rezultatai, priklausomai nuo to, kaip ERP duomenų bazė sujungia duomenis.
 5.  Lauke **Pradžios eilutės kodas** nurodykite pirmos dimensijos reikšmės eilutės kodą, kuris turėtų būti įtraukiamas į eilutės aprašą.
 6.  Lauke **Didinti kiekvieną eilutę** nurodykite tarpą tarp vienas paskui kitą einančių eilutės kodų.. Pvz., jei pirmos eilutės kodas yra 100, o padidinimo vertė yra 30, pirmų naujų eilučių kodai yra 100, 130, 160, 190 ir 220. Naudokite padidinimo vertę, kuria sukuriamas tarpas naujiems formatams ir formulių eilutėms įterpti.
 7.  Spustelėkite **GERAI**. Eilutės apraše kiekvienai pasirinktai dimensijos reikšmei įtraukiama viena eilutė.
@@ -97,9 +101,9 @@ Norėdami koreguoti balanso apvalinimą, atlikite toliau nurodytus veiksmus.
     -   **Visų įsipareigojimų ir kapitalo eilutė** – balanso eilutės, kurioje nurodyti visi įsipareigojimai ir kapitalas, kodas.
     -   **Koregavimo sumos riba** – teigiamu sveikuoju skaičiumi išreikšta automatinių koregavimų riba. Ši suma lyginama su faktinio apvalinimo skirtumo absoliučiąja reikšme.
 
-    **Pastaba: **šie eilutės kodai turi būti susieti su finansiniais duomenimis. Kitaip tariant, eilutės dimensijos reikšmė turi būti nurodyta langelyje **Saitas su finansinėmis dimensijomis**. **Nepateikite** nuorodos į aprašymo (**DESC**), apskaičiuotą (**CALC**) arba susumuotą (**TOT**) eilutę.
+    **Pastaba:**šie eilutės kodai turi būti susieti su finansiniais duomenimis. Kitaip tariant, eilutės dimensijos reikšmė turi būti nurodyta langelyje **Saitas su finansinėmis dimensijomis**. **Nepateikite** nuorodos į aprašymo (**DESC**), apskaičiuotą (**CALC**) arba susumuotą (**TOT**) eilutę.
 
-Dabar jūsų balanso sumos įjungus apvalinimą bus tolygiai subalansuotos. **Pastaba: **koregavimo riba taikoma atsižvelgiant į nurodytą ataskaitos aprašo pasirinktį **Apvalinimo tikslumas**. Pavyzdžiui, jei pasirenkate apvalinti savo ataskaitą iki tūkstančių ir lauke **Koregavimo sumos apribojimas** įvedate **2**, lauke **Apvalinimo koregavimo eilutė** nurodytą reikšmę padidinus arba sumažinus daugiau negu 2 000 rodomas įspėjantis pranešimas.
+Dabar jūsų balanso sumos įjungus apvalinimą bus tolygiai subalansuotos. **Pastaba:**koregavimo riba taikoma atsižvelgiant į nurodytą ataskaitos aprašo pasirinktį **Apvalinimo tikslumas**. Pavyzdžiui, jei pasirenkate apvalinti savo ataskaitą iki tūkstančių ir lauke **Koregavimo sumos apribojimas** įvedate **2**, lauke **Apvalinimo koregavimo eilutė** nurodytą reikšmę padidinus arba sumažinus daugiau negu 2 000 rodomas įspėjantis pranešimas.
 
 ## <a name="format-row-and-column-text"></a>Eilutės ir stulpelio teksto formatavimas
 Galite keisti savo ataskaitų išvaizdą pakeisdami šriftus ir formatuodami tekstą. Toliau nurodomuose skyriuose paaiškinama, kaip formatuoti ataskaitos eilučių ir stulpelių išvaizdą.
@@ -173,6 +177,8 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[„Microsoft Dynamics 365 for Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
+[Finansinės ataskaitos](financial-reporting-intro.md)
+
+
 
 

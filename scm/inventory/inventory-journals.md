@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: c64ba9e081ab4224556af86ec855ebf508853454
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e50d12b62e03ae3c3c6a37b5f0be879ad8d802d7
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Kai KS skelbiate baigta, galite kurti KS žurnalą. Naudodami KS žurnalą galit
 
 ### <a name="item-arrival"></a>Prekių gavimas
 
-Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo **puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Dynamics 365 for Operations‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
+Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo**puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Dynamics 365 for Operations‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
 
 ### <a name="production-input"></a>Gamybos įvestis
 

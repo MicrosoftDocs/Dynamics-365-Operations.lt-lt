@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ Jei norite įtraukti pranešimų daugiau nei viena kalba, kurkite atskirus prane
 
 Prieš kuriant vartotojų paskyras išoriniam tiekėjui, reikia sukonfigūruoti tiekėjo kodą, kad jis galėtų naudoti tiekėjo bendradarbiavimą. Norėdami tai atlikti, puslapio **Tiekėjai** skirtuke **Bendra** nustatykite lauką **Bendradarbiavimo aktyvinimas** kaip aktyvų. Galima naudoti dvi parinktis.
 
--   **Aktyvus (PU yra automatiškai patvirtinamas) **– pirkimo užsakymai automatiškai patvirtinami, kai tiekėjas priima juos be keitimų.
--   **Aktyvus (PU automatiškai netvirtinamas) **– pirkimo užsakymus jūsų organizacija turi patvirtinti pati po to, kai tiekėjas juos priima.
+-   **Aktyvus (PU yra automatiškai patvirtinamas)**– pirkimo užsakymai automatiškai patvirtinami, kai tiekėjas priima juos be keitimų.
+-   **Aktyvus (PU automatiškai netvirtinamas)**– pirkimo užsakymus jūsų organizacija turi patvirtinti pati po to, kai tiekėjas juos priima.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Nuspręskite, ar norite, kad tiekėjas matytų kainų informaciją
 

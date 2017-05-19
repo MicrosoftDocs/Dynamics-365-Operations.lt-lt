@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Platinti ir pildyti klausimyną
+
+[!include[banner](includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip platinti savo sukurtus klausimynus, kad jie būtų prieinami asmeniui ar grupei žmonių, kurie juos pildys. 
 
@@ -53,7 +57,8 @@ Norėdami klausimynui priskirti klausimyno grupę, puslapyje **Klausimynai** spu
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Klausimyno suplanuoti atsakymų seansai
 Suplanuoti atsakymų seansai yra klausimynai, kuriuos sukūrėte ir kuriems pasirinkote respondentus. 
 
-**Pastaba.** Prieš nustatydami suplanuotus atsakymų seansus, turite sukurti klausimyną. 
+> **Pastaba**
+>   Prieš nustatydami suplanuotus atsakymų seansus, turite sukurti klausimyną. 
 
 Puslapyje **Suplanuotas atsakymų seansas** galite kurti suplanuotą atsakymų seansą kiekvienam darbuotojui. Puslapyje pateiktame sąraše rodomi visi suplanuoti klausimynai. 
 
@@ -99,7 +104,8 @@ Norėdami, kad klausimynas būtų pasiekiamas susijusių suplanuotų atsakymų s
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Respondentų informavimas apie jiems prieinamus klausimynus
 Kai platinate klausimyną, turite informuoti respondentus, kad jiems prieinami klausimynai. 
 
-**Pastaba.** Kad galėtų pildyti klausimyną, respondentai turi būti „Microsoft Dynamics 365 for Operations‟ naudotojai.
+> **Pastaba**
+>   Norėdami pildyti klausimyną, respondentai turi būti „Microsoft Dynamics 365 for Operations‟ vartotojai.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Respondentų informavimas apie suplanuotą atsakymų seansą
 
@@ -109,12 +115,14 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite **Darbuotojų savitarnos dalies el. pašto** skirtuke. Kai grafikas pradėtas, spustelėkite **Funkcijos** &gt; **Siųsti el. laišką**, kad generuotumėte ir visiems respondentams nusiųstumėte el. laišką. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
-**Pastaba.** Kad galėtumėte naudoti el. pašto funkcijas, **El. pašto parametrų** puslapyje jūsų IT administratorius turi įvesti el. pašto nuostatas.
+> **Pastaba**
+>   Jei norite naudoti el. pašto funkcijas, puslapyje **El. pašto parametrai** jūsų IT administratorius turi įvesti el. pašto parametrus.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Suplanuoto klausimyno baigimas
 Galite pabaigti suplanuotą klausimyną, kai visi respondentai užbaigė jiems priskirtus klausimų seansus. Kai suplanuotas klausimynas baigtas, jo nuostatų į naują grafiką kopijuoti negalima. 
 
-**Pastaba.** Jei vienas ar keli respondentai klausimyno neužpildė, bet jūs vis tiek norite užbaigti planavimą, pirmiausia **Suplanuoto atsakymų seanso** puslapyje turite iš sąrašo panaikinti tuos respondentus. Tada galite baigti grafiką.
+> **Pastaba**
+>   Jei vienas ar keli respondentai klausimyno neužpildė, bet jūs vis tiek norite užbaigti planavimą, pirmiausia puslapyje **Suplanuoto atsakymų seansas** turite iš sąrašo panaikinti tuos respondentus. Tada galite baigti grafiką.
 
 ## <a name="completing-questionnaires"></a>Klausimynų pildymas
 Jums sukūrus ir išplatinus klausimyną, jį gali pildyti pasirinkti respondentai. Galite užpildyti klausimynus, kuriuos galite pasiekti iš dviejų vietų:
@@ -132,5 +140,7 @@ Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų gru
 [Klausimynų naudojimas](questionnaires.md)
 
 [Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
+
+
 
 

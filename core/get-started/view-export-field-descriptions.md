@@ -3,7 +3,7 @@ title: "Laukų aprašų peržiūra ir eksportas"
 description: "Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
@@ -80,11 +84,11 @@ Pavyzdžiui, aprašai nepateikiami lauke ****Pasirinkti puslapį**** įvedant **
 
 ### <a name="i-cant-find-a-field-description"></a>Nepavyksta rasti lauko aprašo
 
-Mes rengiamės įtraukti sudėtingesnių laukų aprašų. Jei jums reikia pagalbos dėl konkretaus lauko, susisiekite su mumis parašydami komentarą prie šio „wiki“ straipsnio.
+Mes rengiamės įtraukti sudėtingesnių laukų aprašų. Jei jums reikia pagalbos dėl konkretaus lauko, susisiekite su mumis parašydami komentarą prie šios temos.
 
 ### <a name="the-field-description-isnt-helpful"></a>Lauko aprašas nenaudingas
 
-Susisiekite su mumis parašydami komentarą prie šio „wiki“ straipsnio. Jei galite, apibūdinkite papildomą informaciją, kuri jums reikalinga.
+Susisiekite su mumis parašydami komentarą prie šios temos. Jei galite, apibūdinkite papildomą informaciją, kuri jums reikalinga.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Puslapyje Laukų aprašymai negaliu rasti lauko
 
@@ -97,6 +101,9 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Lauko žinyno tinkinimas](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Lauko žinyno tinkinimas](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

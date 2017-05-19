@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Galima naudoti įvairius paskirties vietų tipus. Galite išjungti arba įjungti
 
 ### <a name="email-destination"></a>El. pašto paskirties vieta
 
-Nustatykite parinktį **Įgalinta **į **Taip**, norėdami siųsti išvesties failą el. paštu. Suaktyvinę šią parinktį, galite nurodyti el. laiško gavėjus ir redaguoti el. laiško temą bei tekstą. Galite nustatyti nuolatinį el. laiško temos ir teksto tekstą arba galite naudoti ER formules, norėdami el. laiškų tekstą kurti dinamiškai. ER el. pašto adresus galite konfigūruoti dviem būdais. Konfigūravimą galima atlikti taip pat, kaip jį atlieka spausdinimo valdymo funkcija programoje „Microsoft Dynamics 365 for Operations“. Arba galite nustatyti el. pašto adresą naudodami tiesioginę nuorodą į ER konfigūraciją per formulę.
+Nustatykite parinktį **Įgalinta**į **Taip**, norėdami siųsti išvesties failą el. paštu. Suaktyvinę šią parinktį, galite nurodyti el. laiško gavėjus ir redaguoti el. laiško temą bei tekstą. Galite nustatyti nuolatinį el. laiško temos ir teksto tekstą arba galite naudoti ER formules, norėdami el. laiškų tekstą kurti dinamiškai. ER el. pašto adresus galite konfigūruoti dviem būdais. Konfigūravimą galima atlikti taip pat, kaip jį atlieka spausdinimo valdymo funkcija programoje „Microsoft Dynamics 365 for Operations“. Arba galite nustatyti el. pašto adresą naudodami tiesioginę nuorodą į ER konfigūraciją per formulę.
 
 ### <a name="email-address-types"></a>El. pašto adresų tipai
 
@@ -110,7 +111,7 @@ Kai dokumento tipo vieta yra nustatyta kaip **Archyvo katalogas**, galite įraš
 
 ### <a name="file-destination"></a>Failo paskirties vieta
 
-Jei parinktį **Įjungta** nustatysite į **Taip **, kai konfigūracija baigta, rodomas atidarymo arba įrašymo dialogo langas.
+Jei parinktį **Įjungta** nustatysite į **Taip**, kai konfigūracija baigta, rodomas atidarymo arba įrašymo dialogo langas.
 
 ### <a name="screen-destination"></a>Ekrano paskirties vieta
 

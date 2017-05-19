@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Atributų kūrimas ir valdymas
+
+[!include[banner](includes/banner.md)]
+
 
 Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Operations“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
 
@@ -34,110 +38,28 @@ Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartot
 
 #### <a name="examples"></a>Pavyzdžiai
 
-Kategorija
+| Kategorija   | Atributas                | Leistinos reikšmės          | Numatytoji vertė |
+|------------|--------------------------|-----------------------------|---------------|
+| TV ir vaizdo įrašai | Rūšis                    | Bet kuri tinkama reikšmė Prekės ženklas       | Joks          |
+| TV         | Ekrano dydis              | 20–80 col.                     | Joks          |
+| TV         | Vertikali skiriamoji geba      | 480 i, 720 p, 1080 i arba 1080 p | 1080 p         |
+| TV         | Ekrano naujinimo dažnis      | 60 hz, 120 hz arba 240 hz       | 60 hz          |
+| TV         | HDMI įvestys              | 0–10                        | 3             |
+| TV         | DVI įvestys               | 0–10                        | 1             |
+| TV         | Sudėtinės įvestys         | 0–10                        | 2             |
+| TV         | Komponento įvestys         | 0–10                        | 1             |
+| LCD        | 3D parengta                 | Taip arba Ne                   | Taip           |
+| LCD        | 3D įgalinta               | Taip arba Ne                   | Nr.            |
+| Plazminis     | Veiklos šablonas nuo      | 32–110 laipsnių              | 32            |
+| Plazminis     | Veiklos šablonas iki        | 32–110 laipsnių              | 100           |
+| Projekcinis | Projekcijos vamzdelio garantija | 6, 12 arba 18 mėnesiai (-ių)         | 12            |
+| Projekcinis | # : projekcijos vamzdelių skaičius    | 1–5                         | 3             |
 
-Atributas
-
-Leistinos reikšmės
-
-Numatytoji reikšmė
-
-TV ir vaizdo įrašai
-
-Rūšis
-
-Bet kuri tinkama reikšmė **Prekės ženklas**
-
-Nėra
-
-TV
-
-Ekrano dydis
-
-**20"**–**80"**
-
-Nėra
-
-Vertikali skiriamoji geba
-
-**480 i**, **720 p**, **1080 i** arba **1080 p**
-
-**1080 p**
-
-Ekrano naujinimo dažnis
-
-**60 hz**, **120 hz** arba **240 hz**
-
-**60 hz**
-
-HDMI įvestys
-
-**0**–**10**
-
-**3**
-
-DVI įvestys
-
-**0**–**10**
-
-**1**
-
-Sudėtinės įvestys
-
-**0**–**10**
-
-**2**
-
-Komponento įvestys
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D parengta
-
-**Taip** arba **Ne**
-
-**Taip**
-
-3D įgalinta
-
-**Taip** arba **Ne**
-
-**Ne**
-
-Plazminis
-
-Veiklos šablonas nuo
-
-**32**–**110** laipsnių
-
-**32**
-
-Veiklos šablonas iki
-
-**32**–**110** laipsnių
-
-**100**
-
-Projekcinis
-
-Projekcijos vamzdelio garantija
-
-**6**, **12** arba **18** mėnesiai (-ių)
-
-**12**
-
-\#: projekcijos vamzdelių skaičius
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Atributo tipas
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Operations“ palaiko šiuos atributų tipus.
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Operations“ palaiko šiuos atributų tipus.
 
 -   **Valiuta** – šis atributo tipas palaiko valiutos reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Data ir laikas** – šis atributo tipas palaiko datos ir laiko reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas verčių diapazonas), arba jis gali būti neapibrėžtas.
@@ -174,5 +96,7 @@ Projekcijos vamzdelio garantija
 ### <a name="at-the-retail-channel-level"></a>Mažmeninės prekybos kanalo lygiu
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Galima nepaisyti konkrečių katalogų, skirtų konkretiems mažmeninės prekybos kanalams, atskirų produktų atributų numatytųjų reikšmių.
+
+
 
 

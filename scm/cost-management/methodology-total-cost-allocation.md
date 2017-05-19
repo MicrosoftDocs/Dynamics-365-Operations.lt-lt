@@ -3,7 +3,7 @@ title: Bendrosios savikainos paskirstymo metodas
 description: "Šiame straipsnyje pateikiama patarimų, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Bendrosios savikainos paskirstymo metodas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje pateikiama patarimų, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas.
 
@@ -36,6 +40,11 @@ Bendrosios savikainos paskirstymas (TCA) yra paketinio užsakymo pagrindinės su
 Toliau pateikta keletas nurodymų, kaip TCA naudoti su sudėtiniais produktais.
 
 -   Jei formulės versijos šliaužiklį **Bendrosios savikainos paskirstymas** nustatote į **Taip**, sudėtinių produktų savikaina turi būti didesnė nei 0 (nulis). Reikšmę galima gauti iš tos pačios arba pirmosios nuo vietos nepriklausančios formulės vietos aktyvios savikainos versijos. Ši sąlyga tikrinama tvirtinant formulę.
+
+    -   Jums nereikia neautomatiniu būdu įvesti sudėtinių produktų išlaidų paskirstymo procentų. Sistema automatiškai sukuria išlaidų paskirstymo procentą kaip aktyvių sudėtinių produktų išlaidų vidurkį. 
+    -   Jums nereikia įvesti nestandartinių išlaidų prekių, kurios yra sudėtiniai produktai, standartinių išlaidų. Sistemoje pateikiamos dviejų tipų įkainojimo versijos: standartinių išlaidų ir planuojamų išlaidų 
+    -   Jei prekė nėra vertinama pagal standartinių išlaidų vertinimo būdą, rekomenduojama naudoti suplanuotų išlaidų versijos aktyvią savikainą. Ši kaina naudojama išlaidoms įvertinti, pvz., KS apskaičiuoti, gamybos išlaidoms įvertinti ir atsargų vertinimo proceso atsarginei kainai nustatyti. 
+
 -   Jei formulės versijos šliaužiklį **Bendrosios savikainos paskirstymas** nustatote į **Taip** ir yra teisingos tolesnės sąlygos, savikainos paskirstymo metodas yra **TCA**, o savikainos paskirstymo procentas nepakinta.
     -   Įtraukėte sudėtinių produktų.
     -   Su sudėtiniais produktais naudojote kitą savikainos paskirstymo metodą.
@@ -53,6 +62,8 @@ Laukas **Šalutinių produktų savikainos paskirstymas**, esantis puslapyje **Su
 -   **Procentas** ─ savikainos suma apskaičiuojama kaip bendrosios gamyboje sunaudojamų žaliavų savikainos procentas. Lauke įvedamas skaičiuojant naudojamas procentas.
 -   **Gaminių kiekiui** ─ savikainos suma apskaičiuojama kaip vieno standartinio gamybos užsakymo paketo dydžio suma. Ši suma nepriklauso nuo paskelbto gamybos kiekio. Lauke įvedama skaičiuojant naudojama suma.
 -   **Pagal kiekį** ─ savikainos suma apskaičiuojama pagal paskelbtą gamybos sudėtinės prekės kiekį. Lauke įvedama skaičiuojant naudojama suma.
+
+
 
 
 

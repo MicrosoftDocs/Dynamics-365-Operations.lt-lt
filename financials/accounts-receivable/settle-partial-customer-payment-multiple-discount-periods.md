@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,7 +58,7 @@ Birželio 28 d. 4031 klientas atliko 294,00 dalinį mokėjimą. Kadangi birželi
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10030 | 4031    | 2015-06-25 | 2015-07-25 | 10030   | 1000,00                       | USD      | 294,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į **294,00**, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 6,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma** reikšmę.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje. Jei lauko **Sudengtina suma** reikšmės nepakeisite į **294,00**, rodomos lauko **Mokėjimo nuolaidos suma** reikšmės skirsis. Tačiau užregistravus mokėjimą bus taikoma 6,00 mokėjimo nuolaida, nes sudengimo funkcija automatiškai koreguoja lauko **Sudengtina suma** reikšmę.
 
 |                              |           |
 |------------------------------|-----------|
@@ -76,7 +77,7 @@ Liepos 8 d. klientas sumoka likusią SF sumą. Pritaikoma 7,00 nuolaida (1 proce
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10030 | 4031    | 2015-06-25 | 2015-07-25 | 10030   | 700,00                               |                                       | USD      | 693,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|

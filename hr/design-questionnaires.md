@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 25703ea2bde70c5c2d3de9f2dc9d3d1d889e4ac9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aae20fa2b899ab51bad5aeb54e21a7c9cbadb9be
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="design-a-questionnaire"></a>Klausimyno sudarymas
+
+[!include[banner](includes/banner.md)]
+
 
 Šioje temoje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
 
@@ -109,7 +113,7 @@ Atsakymų grupės ir atsakymai yra komponentai, kurie sudaro informacijos pagrin
 
 Atsakymų grupė gali būti naudojama daugiau nei vienam to paties klausimyno klausimui ir taip pat gali būt naudojama daugiau nei viename klausimyne. 
 
-**Pastaba.** Jei atsakymo tekstą modifikuojate atsakymų grupėse, kurios jau panaudotos užpildytuose klausimynuose, gali tapti sunku įvertinti duomenis, o klausimyno rezultatai gali nebegalioti. Jei reikia pakeisti atsakymų grupę, pagalvokite, ar ne geriau, užuot keičiant esamą atsakymų grupę, sukurti naują. Atsakymų grupių, pridėtų prie klausimo ar atsakymo, arba atsakytų atsakymų grupių naikinti negalima.
+>**Pastaba.** Jei atsakymo tekstą modifikuojate atsakymų grupėse, kurios jau panaudotos užpildytuose klausimynuose, gali tapti sunku įvertinti duomenis, o klausimyno rezultatai gali nebegalioti. Jei reikia pakeisti atsakymų grupę, pagalvokite, ar ne geriau, užuot keičiant esamą atsakymų grupę, sukurti naują. Atsakymų grupių, pridėtų prie klausimo ar atsakymo, arba atsakytų atsakymų grupių naikinti negalima.
 
 ### <a name="questions"></a>Klausimai
 
@@ -117,12 +121,13 @@ Klausimyne turi būti klausimų. Klausimai gali būti atviri arba uždari.
 
 -   Atsakymai į atvirus klausimus nėra kontroliuojami, ir respondentai gali surinkti savo atsakymus.
 -   Uždariems klausimams reikalingas iš anksto apibrėžtų atsakymų parinkčių sąrašas, ir klausimus galima sukurti taip, kad respondentas galėtų pasirinkti kelis atsakymus. Klausimai turėtų būti sudaryti taip, kad iš respondento išgautų konkrečią informaciją ir juos reikia susieti su atsakymų grupe, kurioje pateikiamos kiekvieno uždaro klausimo atsakymų parinktys. 
-     -  **Pastaba.** Prieš nustatydami uždarus klausimus, turite sukurti atsakymų grupes ir atsakymus.
+    >**Pastaba.** Prieš nustatydami uždarus klausimus, turite sukurti atsakymų grupes ir atsakymus.
 
 Klausimai gali būti išdėstyti sąlyginių klausimų hierarchija, kad antriniai klausimai priklausytų nuo atsakymo, kurį respondentas pasirenka į ankstesnį klausimą. Pirmiausia galite parašyti klausimus, o juos išdėstyti į hierarchiją vėliau.
 
 ## <a name="setting-up-questionnaires"></a>Klausimynų nustatymas
-**Pastaba.** Prieš nustatydami klausimyną, turite nustatyti atsakymus, klausimus ir būtinąsias sąlygas. 
+>**Pastaba**
+>  Prieš nustatydami klausimyną, turite nustatyti atsakymus, klausimus ir būtinąsias sąlygas. 
 
 Kiekvienam klausimynui galite nurodyti tolesnę informaciją.
 
@@ -158,7 +163,7 @@ Tolesnes užduotis galite atlikti **Klausimynų** puslapyje.
 -   Naikinti ir pridėti klausimų.
 -   Keisti rezultatų grupes ir sekos numerį. 
 
-**Perspėjimas.** Būkite atsargūs keisdami jau atsakytus klausimynus. Keitimai gali sumažinti statistikos tikslumą, o tai gali būti prasto įvertinimo pagrindas. Užuot keitę jau atsakytą klausimą, apsvarstykite galimybę sukurti naują.
+>**Perspėjimas** Būkite atsargūs keisdami jau atsakytus klausimynus. Keitimai gali sumažinti statistikos tikslumą, o tai gali būti prasto įvertinimo pagrindas. Užuot keitę jau atsakytą klausimą, apsvarstykite galimybę sukurti naują.
 
 Klausimyne negalite panaikinti tolesnių klausimų tipų.
 
@@ -176,7 +181,8 @@ Rezultatų grupė naudojama skaičiuoti klausimyno taškams ir kategorizuoti jo 
 -   Generuoti kiekvienos rezultatų grupės statistiką, kuri padeda analizuoti rezultatus.
 -   Spausdinti ataskaitą, kurioje rodomi kiekvienos rezultatų grupės rezultatai ir pasirinktiniai taškai / tekstai, paremti taškais, gaunamais kiekvienoje rezultatų grupėje.
 
-**Pastaba.** Prieš nustatydami rezultatų grupes, turite atlikti tolesnes užduotis.
+> **Pastaba**
+>   Prieš nustatydami rezultatų grupes, turite atlikti tolesnes užduotis.
 
 -   Nustatyti uždarus klausimus. Uždarų klausimų įvesties tipas **Klausimų** puslapyje turi būti **Žymės langelis**, **Alternatyvus mygtukas** arba **Pasirinktinio įvedimo laukas**.
 -   Apibrėžti kiekvienam klausimui priskirtų atsakymų grupių atsakymų taškus.
@@ -186,7 +192,8 @@ Norėdami į klausimyną pridėti klausimų naudojant rezultatų grupes, pirmiau
 
 Galite nustatyti kelias rezultatų grupes, kad įvertintumėte taškus, kuriuos respondentas gauna kiekvienoje kategorijoje. Kai klausimynas baigtas, galite peržiūrėti surinktus kiekvienos rezultatų grupės taškus. 
 
-**Patarimas.** Norėdami klausimyną įvertinti naudojant taškus, bet ne atskiras kategorijas, visus klausimus galite pridėti į vieną rezultatų grupę. 
+> **Patarimas**
+>    Jei norite klausimyną įvertinti naudodami taškus, bet ne atskiras kategorijas, visus klausimus galite įtarukti į vieną rezultatų grupę. 
 
 Kiekvienai rezultatų grupei taip pat galite nustatyti vieną ar kelis taškais paremtus pranešimus, kuriuos užpildę klausimyną gauna respondentai. Rodomas tekstas gali skirtis – tai priklauso nuo rezultatų grupės rezultato, kurį respondentas pasiekia. Norėdami naudoti taškais paremtus pranešimus, turite apibrėžti taškų intervalus ir kiekvieno intervalo aprašą. Kai respondentas pasiekia rezultatų konkrečiame intervale, to intervalo tekstas yra įtraukiamas rezultatų ataskaitoje. 
 
@@ -212,13 +219,15 @@ Toliau pateikiamoje lentelėje rodomi taškais paremti pranešimai, apibrėžiam
 
 Galite nustatyti kiekvienos klausimyno rezultatų grupės taškų intervalus ir tekstus. Rodomi kiekvienos rezultatų grupės tekstai, atitinkantys kiekvieno respondento rezultatą. 
 
-**Pastaba.** Intervalus ir tekstus galite keisti. Tačiau, jei klausimynas baigtas, pakeitimai gali sukelti skirtumų tarp ankstesnių ir naujų rezultatų ataskaitų.
+> **Pastaba**
+>   Intervalus ir tekstus galite keisti. Tačiau, jei klausimynas baigtas, pakeitimai gali sukelti skirtumų tarp ankstesnių ir naujų rezultatų ataskaitų.
 
 ### <a name="conditional-question-hierarchies"></a>Sąlyginių klausimų hierarchijos
 
 Nustatant klausimyną, sąlyginių klausimų hierarchijos nėra privalomos. 
 
-**Pastaba.** Prieš nustatydami sąlyginių klausimų hierarchiją, į klausimyną turite pridėti klausimų, kuriems priskirtos atsakymų grupės. 
+> **Pastaba**
+>   Prieš nustatydami sąlyginių klausimų hierarchiją, į klausimyną turite įtraukti klausimų, kuriems priskirtos atsakymų grupės. 
 
 Norėdami naudoti sąlyginius klausimus sukurti klausimyno klausimų hierarchijai, galite nustatyti, kad seka, kuria pateikiami klausimai, priklausytų nuo atsakymo, kurį respondentas pasirenka kiekviename klausime. Klausimų seką grįsdami respondento atsakymu, klausimyną galite modifikuoti respondentui jį pildant.
 
@@ -236,5 +245,7 @@ Arba klausimyną galite nustatyti taip, kad, jei 1 klausime respondentas pasiren
 [Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
 
 [Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
+
+
 
 

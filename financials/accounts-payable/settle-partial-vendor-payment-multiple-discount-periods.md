@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 4fd4fdf6150d4160d07d8a9b8027a40d1c22cf7d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5b67ab252046ea68f3acc3e670a6ed320185d93d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,7 +58,7 @@ Liepos 2 d. Eglė nori sumokėti 300,00 pagal šią sąskaitą faktūrą. Ji suk
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Įprastas            | SF-10060 | 3054    | 2015-06-28 | 2015-07-28 | 10060   | 1000,00                       | USD      | 300,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -73,7 +74,7 @@ Kadangi galima mokėjimo nuolaida, Eglė nori pakeisti mokėjimo sumą, kad visa
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Įprastas            | SF-10060 | 3054    | 2015-06-28 | 2015-07-28 | 10060   | 1000,00                       | USD      | 294,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|
@@ -106,7 +107,7 @@ Eglė nusprendžia mokėti 495,00 ir pritaikyti 5,00 mokėjimo nuolaidą. Todėl
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Įprastas            | SF-10060 | 3054    | 2015-06-28 | 2015-07-28 | 10060   | 1000,00                       | USD      | 495,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas **apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
 
 |                              |           |
 |------------------------------|-----------|

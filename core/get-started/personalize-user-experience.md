@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Bet kurio tipo personalizavimo parametrai, kuriuos „Dynamics 365 for Operation
 ## <a name="systemwide-options-for-the-current-user"></a>Dabartinio vartotojo visos sistemos parinktys
 Naršymo juostoje galite rasti krumpliaračio vaizdą, kuris vadinamas meniu mygtuku **Parametrai**. Atidarius meniu **Parametrai** rodomas pasirinkimų sąrašas. Pasirinkus **Parinktys** atidaromas vartotojo puslapis **Parinktys**. Ten rasite keturis parinkčių skirtukus: **Vaizdas**, **Nuostatos**, **Paskyra** ir **Darbo eiga**.
 
--   **Vaizdas: **galima pasirinkti puslapio elementų spalvų temą ir dydį.
+-   **Vaizdas:**galima pasirinkti puslapio elementų spalvų temą ir dydį.
 -   **Parinktys:** galima pasirinkti numatytuosius parametrus, taikytinus kiekvieną kartą atidarant „Dynamics 365 for Operations“, įskaitant įmonę, pradinį puslapį ir numatytąjį rodymo / redagavimo režimą (kuris nustato, ar kiekvieną kartą atidarius puslapį jis yra užrakintas ir jį galima tik peržiūrėti, ar jį galima redaguoti). Taip pat rasite kalbos, laiko juostos ir datos, laiko ir bei skaičių formato parinktis. Galiausiai šiame puslapyje yra papildomų nuostatų, kurios skiriasi priklausomai nuo versijos.
--   **Paskyra: **galima nurodyti vartotojo ID ir kitas su paskyra susijusias parinktis.
--   **Darbo eiga: **galima pasirinkti su darbo eiga susijusias parinktis.
+-   **Paskyra:**galima nurodyti vartotojo ID ir kitas su paskyra susijusias parinktis.
+-   **Darbo eiga:**galima pasirinkti su darbo eiga susijusias parinktis.
 
 ## <a name="implicit-personalizations"></a>Netiesioginis personalizavimas
 Netiesioginis yra personalizavimas, kurį atliekate tiesiog sąveikaudami su tam tikrais valdikliais, kurie įsimeną savo esamą matomą būseną. 

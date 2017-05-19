@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -65,7 +66,7 @@ Kiti konfigūracijos veiksmai atliekami įvairiuose puslapio **Biudžeto kontrol
 
 Atsižvelgdami į galimas biudžeto finansines dimensijas, biudžeto kontrolei galite naudoti visas finansines dimensijas arba jų pogrupį. 
 
-Be to, galite nurodyti numatytąjį laiko intervalą (pvz., **Finansiniai metai**, ** Finansiniai metai iki šios dienos**, **Ataskaitinis laikotarpis** arba **Kas ketvirtį**), kurio biudžeto kontrolė bus atlikta per susijusio biudžeto ciklo trukmę. Taip pat galite nurodyti numatytąjį biudžeto vadybininką ir ribinę vertę, kuri naudojama pranešti vartotojams, kai pasiekiama ribinė reikšmė. Vertės šiuose laukuose bus naudojamos kaip numatytosios vertės bet kurioje naujai sukurtoje biudžeto kontrolės taisyklėje arba biudžeto grupėje. Tačiau numatytąsias vertes galima keisti atskiroms grupėms arba taisyklėms. 
+Be to, galite nurodyti numatytąjį laiko intervalą (pvz., **Finansiniai metai**, **Finansiniai metai iki šios dienos**, **Ataskaitinis laikotarpis** arba **Kas ketvirtį**), kurio biudžeto kontrolė bus atlikta per susijusio biudžeto ciklo trukmę. Taip pat galite nurodyti numatytąjį biudžeto vadybininką ir ribinę vertę, kuri naudojama pranešti vartotojams, kai pasiekiama ribinė reikšmė. Vertės šiuose laukuose bus naudojamos kaip numatytosios vertės bet kurioje naujai sukurtoje biudžeto kontrolės taisyklėje arba biudžeto grupėje. Tačiau numatytąsias vertes galima keisti atskiroms grupėms arba taisyklėms. 
 
 Biudžetų kūrimo ir įrašymo į biudžeto registrą būdas padeda nustatyti trukmę, kuri pasirenkama įvertinus turimas biudžeto lėšas. Jei sukuriama ir naudojama dimensijos reikšmės kombinacijos metinė suma, tada gali būti tinkamesnis požiūris pagal finansinius metus arba finansinius metus iki šios dienos. Tačiau jei organizacija, sukurianti biudžetą pagal ataskaitinį laikotarpį arba paskirstanti į ataskaitinius laikotarpius nori išsamesnės kontrolės, galbūt jai reikėtų pabandyti finansinio laikotarpio iki šios dienos arba ketvirčio trukmę. 
 
@@ -99,7 +100,7 @@ Toliau skirtuke **Biudžeto modelių priskyrimas** priskirkite biudžeto modeliu
 Toliau skirtuke **Biudžeto kontrolės taisyklių nustatymas** pagal finansines dimensijas, kurios įgalintos biudžeto kontrolei, turite sukurti konkrečias taisykles. Pvz., jei dėmesys sutelkiamas į skyriaus išlaidas arba išlaidų intervalą, galite šias išlaidas apibrėžti ir įvertinti naudodami šio skirtuko parametrus. Kiekvienai biudžeto valdymo taisyklei galite apibrėžti skirtingas ribines reikšmes. 
 
 > [!Important]
-> Biudžeto kontrolė bus įgalinta bet kuriai tipo **Pelnas ir nuostolis**, **Išlaidos**, **Įplaukos, Balansas, Įsipareigojimai, Kapitalas** arba **Turtas** pagrindinei sąskaitai. Jei šiame skirtuke yra taisyklė, kurioje yra tuščias kriterijus, biudžeto kontrolė bus įgalinta **visoms **finansinių dimensijų kombinacijoms, kuriose įtrauktos šių tipų pagrindinės sąskaitos. Todėl įsitikinkite, kad jūsų sukurtos biudžeto kontrolės taisyklės apibrėžia tik tuos finansinių dimensijų kombinacijų, kuriose svarbu įjungti biudžeto kontrolę, intervalus.  
+> Biudžeto kontrolė bus įgalinta bet kuriai tipo **Pelnas ir nuostolis**, **Išlaidos**, **Įplaukos, Balansas, Įsipareigojimai, Kapitalas** arba **Turtas** pagrindinei sąskaitai. Jei šiame skirtuke yra taisyklė, kurioje yra tuščias kriterijus, biudžeto kontrolė bus įgalinta **visoms**finansinių dimensijų kombinacijoms, kuriose įtrauktos šių tipų pagrindinės sąskaitos. Todėl įsitikinkite, kad jūsų sukurtos biudžeto kontrolės taisyklės apibrėžia tik tuos finansinių dimensijų kombinacijų, kuriose svarbu įjungti biudžeto kontrolę, intervalus.  
 
 ### <a name="select-main-accounts"></a>Pasirinkti pagrindines sąskaitas
 
@@ -124,7 +125,7 @@ Be to, atkreipkite dėmesį, kad prieš įjungiant biudžeto kontrolę užregist
 ## <a name="using-budget-control"></a>Biudžeto kontrolės naudojimas
 Kai biudžeto kontrolė įjungta, dokumentuose, kuriuose sukonfigūruota biudžeto kontrolė, vartotojai gaus biudžeto kontrolės įspėjimo ir klaidos pranešimus. Atminkite, kad biudžeto kontrolę galite konfigūruoti taip, kad vartotojai būtų įspėti, kai jie viršija biudžeto lėšas, bet vis dar gali patvirtinti arba registruoti operaciją. Išsamią nepavykusių biudžeto patikrinimų informaciją vartotojai gali peržiūrėti puslapyje **Biudžeto patikrinimo klaidos ir įspėjimai**.   
 
-Iš šio puslapio vartotojai gali detalizuoti puslapį **Biudžeto kontrolės statistika pagal laikotarpį** norėdami peržiūrėti biudžeto tinkamumo informaciją ir pasirinktos biudžeto valdymo dimensijos kombinacijos rezervacijas. Vartotojai taip pat gali detalizuoti puslapį **Biudžeto kontrolės statistika ** norėdami peržiūrėti biudžeto tinkamumą visoms finansinių dimensijų kombinacijoms, kurios naudojamos biudžeto kontrolėje. 
+Iš šio puslapio vartotojai gali detalizuoti puslapį **Biudžeto kontrolės statistika pagal laikotarpį** norėdami peržiūrėti biudžeto tinkamumo informaciją ir pasirinktos biudžeto valdymo dimensijos kombinacijos rezervacijas. Vartotojai taip pat gali detalizuoti puslapį **Biudžeto kontrolės statistika** norėdami peržiūrėti biudžeto tinkamumą visoms finansinių dimensijų kombinacijoms, kurios naudojamos biudžeto kontrolėje. 
 
 Jei biudžeto kontrolė įjungta pirkimo užsakymams, biudžeto vadybininkas gali naudodamas darbo sritį **Didžiosios knygos biudžetai ir prognozės** norėdamas peržiūrėti visų nepatvirtintų pirkimo užsakymų, turinčių biudžeto patikros įspėjimų ir klaidų, eilę. Jei biudžeto vadybininkui sukonfigūruotos biudžeto viršijimo teisės, jis / ji gali patvirtinti pirkimo užsakymus tiesiogiai darbo srityje.    
 

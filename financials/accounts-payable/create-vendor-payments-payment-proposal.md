@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Mokėjimo pasiūlymo užklausoje yra įvairių skirtukų, kurių kiekvienas turi
 
 ## <a name="parameters"></a>Parametrai
 -   **Pasirinkti sąskaitas pagal** – SF, patenkančias į datų intervalą, nurodytą laukuose **Pradžios data** ir **Pabaigos data**, galima pasirinkti pagal terminą, mokėjimo nuolaidos datą arba pagal abi parinktis. Jei naudojate mokėjimo nuolaidos datą, sistema pirmiausia ieško SF, kurių mokėjimo nuolaidos data patenka į intervalą tarp pradžios ir pabaigos datų. Tada sistema nustato, ar sąskaita faktūra yra tinkama nuolaidai, naudodama sesijos datą patikrinti, ar nuolaidos data jau praėjo.
--   **Nuo** ir** Iki** – sąskaitos faktūros, kurių terminas arba nuolaidos data per šį laikotarpį yra pasirinktos apmokėjimui.
+-   **Nuo** ir**Iki** – sąskaitos faktūros, kurių terminas arba nuolaidos data per šį laikotarpį yra pasirinktos apmokėjimui.
 -   **Mokėjimo data** – jeigu nurodyta data, visi mokėjimai sukuriami šiai dienai. **Minimalios mokėjimo datos** laukas yra ignoruojamas.
 -   **Minimali mokėjimo data** – įveskite minimalaus mokėjimo datą. Pavyzdžiui, laukai **Pradžios data** ir **Pabaigos data** nurodo intervalą nuo rugsėjo 1 d. iki rugsėjo 10 d., o minimali mokėjimo data yra rugsėjo 5 d. Tokiu atveju visų SF, kurių terminas yra nuo rugsėjo 1 d. iki rugsėjo 5 d., mokėjimo data yra rugsėjo 5 d. Tačiau visų SF, kurių terminas yra nuo rugsėjo 5 d. iki rugsėjo 10 d., mokėjimo data yra lygi kiekvienos SF terminui.
 -   **Sumos riba** – įveskite maksimalią bendrą visų mokėjimų sumą.

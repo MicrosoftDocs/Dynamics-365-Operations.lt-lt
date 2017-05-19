@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 25c2f85298bb89cb2802c7f0f7ff632c08aeca8f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e25a7657c2b859ffd57313ed7eb8da6583e7130d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Galite koreguoti naudodami laisvos formos SF veiksmų srities mygtuką **Taisyti
 
 Jei sąskaita faktūra buvo netinkamai sukurta, joje galite atšaukti kliento operaciją. Jei atšauktoje kliento operacijoje nurodytos į delspinigių pažymą įtrauktos palūkanos, o delspinigių pažyma buvo užregistruota, operacijos palūkanos taip pat bus atšaukiamos delspinigių pažymoje. Jei delspinigių pažyma nebuvo užregistruota, ji bus atšaukta. 
 
-Naudodami puslapio **Kliento operacijos** mygtuką **Atšaukti **galite atšaukti kliento operacijas.
+Naudodami puslapio **Kliento operacijos** mygtuką **Atšaukti**galite atšaukti kliento operacijas.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Atsisakyti arba atkurti delspinigių pažymas
 Galite atsisakyti visų pasirinktų delspinigių pažymų mokesčių arba juos grąžinti. Kai atsisakote mokesčių, bendroji atsisakymo suma negali viršyti jokių nustatytų sumos ribų. Delspinigių pažymą galite atkurti tik tada, jei jos buvo anksčiau atsisakyta. 
@@ -81,7 +82,7 @@ Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Mokestis** ga
 ## <a name="reverse-interest-notes"></a>Atšaukti delspinigių pažymas
 Galite atšaukti visus pasirinktus delspinigių pažymų mokesčius. Atšaukti mokesčiai yra pašalinami iš kliento sąskaitos ir jų nebereikia sumokėti. Po to, kai delspinigių pažyma atšaukiama, gali perskaičiuoti palūkanas ir kurti naują delspinigių pažymą. 
 
-Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Delspinigių pažyma **galite atšaukti delspinigių pažymas.
+Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Delspinigių pažyma**galite atšaukti delspinigių pažymas.
 
 ## <a name="reverse-interest-transactions"></a>Atšaukti palūkanų operacijas
 Galite atšaukti visas pasirinktas palūkanų operacijas. Atšaukti mokesčiai yra pašalinami iš kliento sąskaitos ir jų nebereikia sumokėti. Po to, kai operacijos atšaukiamos, gali perskaičiuoti palūkanas ir kurti naują delspinigių pažymą.
@@ -91,7 +92,7 @@ Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Operacijos pa
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Peržiūrėti mokesčių, kurių buvo atsisakyta, kurie buvo atkurti arba atšaukti, koregavimų retrospektyvą
 Peržiūrėkite išsamią retrospektyvą koregavimų, kurie buvo atlikti delspinigių pažymoms, pvz., vartotoją, kuris įvedė koregavimą, koregavimo tipą, sumą ir kada koregavimas buvo įvestas. Pavyzdžiui, galbūt norėsite peržiūrėti ankstesnius koregavimus, kurie buvo įvesti delspinigių pažymoje, prieš kurdami naują delspinigių pažymą. 
 
-Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Retrospektyva **galite atšaukti palūkanų operacijas.
+Naudodami puslapio **Klientas** skirtuko **Surinkimas** mygtuką **Retrospektyva**galite atšaukti palūkanų operacijas.
 
 
 

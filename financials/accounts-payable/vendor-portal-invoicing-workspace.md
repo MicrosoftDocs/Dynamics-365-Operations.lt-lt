@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 
@@ -43,7 +47,7 @@ Išklotinėse **Suvestinė** pateikiama pasirinkto tiekėjo sąskaitų faktūrų
 Spustelėjus išklotinę atveriamas filtruotas puslapio **Sąskaitų faktūrų sąrašas** rodinys.
 ### <a name="tabular-lists"></a>Sąrašų lentelės
 
-Skyriuje **Sąrašų lentelės **sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
+Skyriuje **Sąrašų lentelės**sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
 Visų tiekėjo SF sąrašo puslapis
 -----------------------------
 
@@ -55,6 +59,8 @@ Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities *
 
 
 
-Jei reikia daugiau informacijos, žr. temą [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Jei reikia daugiau informacijos, žr. temą [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

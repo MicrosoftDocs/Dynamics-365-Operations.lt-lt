@@ -3,7 +3,7 @@ title: KS konstruktoriaus funkcija
 description: "Šiame straipsnyje aprašyta, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>KS konstruktoriaus funkcija
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje aprašyta, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse.
 
@@ -95,7 +99,7 @@ KS konstruktoriaus antraštėje rodomas filtras, taikomas KS ir maršrutui. Gali
 Naudojant KS konstruktorių KS, kurias sudaro vieno ar kelių lygių fiktyvios eilutės, peržiūrėti arba redaguoti, maršrutas, susietas su aukšto lygio preke, paprastai apima visą KS hierarchiją. Norėdami supaprastinti peržiūrą galite užblokuoti aukščiausio lygio maršrutą ekrane spustelėdami **Peržiūra** &gt; **Blokuoti maršrutą**. Norėdami atblokuoti maršrutą, spustelėkite **Peržiūra** &gt; **Atblokuoti maršrutą**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>KS ir KS eilučių pridėjimas ir redagavimas
-KS eilutėms arba KS modifikuoti naudokite funkciją **KS eilutės** arba **KS**. Pasirinkus medžio mazgą, mazgo tipas nustato galimas funkcijas.
+KS eilutėms arba KS modifikuoti naudokite funkciją **KS eilutės**arba **KS**. Pasirinkus medžio mazgą, mazgo tipas nustato galimas funkcijas.
 
 | Funkcija                            | aprašymas                                                                                               | Mazgo tipas ir sąlygas                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Norėdami tinkinti informaciją, rodomą KS konstruktoriaus medžio rodinyje, sp
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | KS         | Pasirinkite kriterijus, kuriuos norite rodyti medžio struktūroje, naudodami žymės langelius. KS konstruktorius rodo pasirinktus kriterijus abiejų skirtukų apačioje. |
 | Maršrutas       | Pasirinkite norimus rodyti maršrutų kriterijus naudodami žymės langelius.                                                                                    |
+
+
 
 
 

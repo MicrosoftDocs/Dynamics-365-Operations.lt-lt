@@ -3,7 +3,7 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos „Dynamics 365 for Operations“ funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti. Joje taip pat pateikiamos funkcijos, nebenaudojamos „Dynamics AX“ 7.0 leidimuose."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Pasenusios funkcijos
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje aprašomos „Dynamics 365 for Operations“ funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti. Joje taip pat pateikiamos funkcijos, nebenaudojamos „Dynamics AX“ 7.0 leidimuose.
 
@@ -472,7 +476,17 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Microsoft Dynamic
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | „Dynamics AX‟ kliento patirtis perkurta, siekiant pagerinti naudojimą keliose platformose ir įrenginiuose.                      |
 | Pakeitė kita funkcija? | Naujasis žiniatinklio klientas paremtas darbalaukio formos metaduomenimis ir programavimo modeliu, kurie modifikuoti siekiant suteikti turiningą žiniatinklio platformą. |
-| Paveikti moduliai             | Visi                                                                                                                                    |
+| Paveikti moduliai             | Visos                                                                                                                                    |
+
+### <a name="direct-database-connection"></a>Tiesioginis duomenų bazės ryšys
+
+Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai prisijungti prie kanalo duomenų bazės panašiai kaip įmonės EKA. Tai yra papildomas ryšio metodas, teikiamas kartu su standartiniu „Retail Modern POS“ ryšio per „Retail Server“ metodu.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Nebenaudojimo priežastis       | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Dynamics 365 for Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu išsprendžia. |
+| Pakeitė kita funkcija? | Nr. Dabar palaikomas tik standartinis „Retail Server“ ryšys.    |
+| Paveikti moduliai             | Kanalo duomenų bazė / „Retail Modern POS“                                    |
 
 ### <a name="dutch-swift-mt940"></a>Nyderlandų SWIFT MT940
 
@@ -661,8 +675,18 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Dabartinė „Dynamics AX‟ versija nepalaiko etikečių keitimo vykdymo metu. |
-| Pakeitė kita funkcija? | Ne                                                                            |
+| Pakeitė kita funkcija? | Nr.                                                                            |
 | Paveikti moduliai             | Produkto informacijos valdymas                                                |
+
+### <a name="retail-server-connectivity-using-http"></a>„Retail Server“ ryšys naudojant HTTP
+
+Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojant HTTP ryšį (nesaugų). Tai buvo papildomas metodas, teikiamas kartu su standartiniu ryšiu naudojant HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Nebenaudojimo priežastis       | Dėl naujų saugos reikalavimuų dabar palaikomas tik saugus ryšys naudojant TLS 1.2 (arba naujesnę versiją, jei yra). Savitarnos diegimo programa automatiškai sukonfigūruos kompiuterį šiam ryšiui užmegzti. |
+| Pakeitė kita funkcija? | Nr. Dabar palaikomas tik standartinis HTTPS ryšys.                                                                           |
+| Paveikti moduliai             | Parduotuvės serveris                                                |
 
 ### <a name="role-center-pages"></a>Vaidmenų centrų puslapiai
 
@@ -784,6 +808,8 @@ Virtualių įmonių funkcija programoje „Dynamics AX‟ nebepalaikoma. Virtual
 | Nebenaudojimo priežastis       | Šią funkciją pakeitė kita funkcija.                                    |
 | Pakeitė kita funkcija? | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta **Finansinės ataskaitos**) |
 | Paveikti moduliai             | DK                                                                              |
+
+
 
 
 

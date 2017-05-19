@@ -3,7 +3,7 @@ title: "„Dynamics 365 for Operations“ – versijos „Warehousing“ diegima
 description: "Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Operations“ – versiją „Warehousing“."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>„Dynamics 365 for Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Operations“ – versiją „Warehousing“.
 
@@ -67,7 +71,7 @@ Norėdami įjungti programos sąveiką su konkrečiu „Dynamics 365 for Operati
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Dynamics 365 for Operations“
 Norėdami leisti „Dynamics 365 for Operations“ naudoti jūsų „Azure AD“ programą, atlikite toliau nurodytus konfigūravimo veiksmus.
 
-1.  Sukurkite naują vartotojo paskyrą „Dynamics 365 for Operations“ nuomotojo „Azure Active Directory“. Šios vartotojo paskyros paskirtis yra pasiekti konkrečią pasirinktinę sandėliavimo programos tarnybą, kurią pateikia „Dynamics 365 for Operations“ serveris. Atlikę šį veiksmą, turėsite WMDP vartotojo kredencialus, kuriuos sudaro WMDP el. pašto adresas ir WMDP slaptažodis. Norėdami sužinoti apie pagrindinius vartotojų įtraukimo į „Azure AD“ ir „Dynamics 365 for Operations“ veiksmus, žr. šią mokymo programą: [„Microsoft Dynamics 365 for Operations“ prenumeratos registracija](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Sukurkite naują vartotojo paskyrą „Dynamics 365 for Operations“ nuomotojo „Azure Active Directory“. Šios vartotojo paskyros paskirtis yra pasiekti konkrečią pasirinktinę sandėliavimo programos tarnybą, kurią pateikia „Dynamics 365 for Operations“ serveris. Atlikę šį veiksmą, turėsite WMDP vartotojo kredencialus, kuriuos sudaro WMDP el. pašto adresas ir WMDP slaptažodis. Norėdami sužinoti apie pagrindinius vartotojų įtraukimo į „Azure AD“ ir „Dynamics 365 for Operations“ veiksmus, žr. šią mokymo programą: [„Microsoft Dynamics 365 for Operations“ prenumeratos registracija](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Sukurkite „Dynamics 365 for Operations“ vartotoją, kuris atitinka sandėliavimo programos vartotojo kredencialus.
     1.  Programoje „Dynamics 365 for Operations“ atidarykite **Sistemos administravimas** &gt; **Bendra** &gt; **Vartotojai**.
     2.  Sukurkite naują vartotoją.
@@ -98,6 +102,8 @@ Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrengin
 6.  Spustelėkite skirtuką **Konfigūruoti**, slinkite žemyn ir įsitikinkite, kad programos **Kliento ID** yra toks pat, koks nurodytas šio skyriaus 2 veiksme.
 7.  Komandų juostoje spustelėkite mygtuką **Naikinti**.
 8.  Patvirtinimo pranešime spustelėkite **Taip**.
+
+
 
 
 

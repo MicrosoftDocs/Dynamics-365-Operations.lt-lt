@@ -3,7 +3,7 @@ title: "175 procentų mažėjančios vertės metodas"
 description: "Šiame straipsnyje apžvelgtas 175 % nusidėvėjimo mažėjančios vertės metodas."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 procentų mažėjančios vertės metodas
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje apžvelgtas 175 % nusidėvėjimo mažėjančios vertės metodas.
 
@@ -54,7 +58,7 @@ Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nur
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos žr. [Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos žr. [Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Kiekvieno laikotarpio nusidėvėjimas koreguojamas automatiškai, o kitų ataskaitinių metų trukmė nustatoma pagal puslapyje **Ataskaitiniai kalendoriai** nustatytus laikotarpius. 
 
@@ -82,5 +86,7 @@ Naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, 175 procentai pad
 
 > [!NOTE] 
 > Paprastai, kai suma, kuri apskaičiuojama naudojant 175 % mažėjančios vertės nusidėvėjimo metodą, tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant tiesiogiai proporcingą metodą, visam likusiam laikotarpiui pereinama prie tiesiogiai proporcingo metodo.
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 721b293d1f8c76458ca510732f9bb94f003ac6e3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 796ed86b9a351d690edbee1adc0631d62b8011ac
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -87,7 +88,7 @@ Galite naudoti puslapį **Mobiliojo įrenginio teksto spalvos**, norėdami valdy
 Norėdami pasirinkti spalvą, puslapyje **Pasirinkti spalvą** spustelėkite paletę arba įveskite spalvos kodą šešioliktaine reikšme.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Nurodykite datos formatą, kuris bus naudojamas mobiliuosiuose įrenginiuose
-Galite išplėsti kiekvienos įdiegties priimtinų datos formatų sąrašą. Pavyzdžiui, ši galimybė gali būti naudinga, jei norite pateikti formatą, kuris leidžia darbuotojui paprasčiau įvesti datas mobiliajame įrenginyje. Numatytasis formatas priklauso nuo vartotojo numatytosios kalbos, kuri nurodyta puslapio **Vartotojo parinktys** lauke **Kalba**. (The same page is also used to associate an employee with a specific warehouse work user.) **Pastaba:** sandėlio mobiliųjų įrenginių portale nenaudojamas lauko **Datos, laiko ir numerių formatas **, esančio puslapyje **Kalbos ir regiono nuostatos **, parametras. Norėdami pakeisti datos formatą, turite būti susipažinę su „Microsoft .NET Framework“ paprastosiomis išraiškomis. Daugiau informacijos žr. [ „.NET Framework“ paprastosios išraiškos](http://go.microsoft.com/fwlink/?LinkId=391260). Norėdami nurodyti datos formatus, redaguokite failą Dates.ini, esantį sandėlio mobiliųjų įrenginių portale adresu Content\\Settings\\Dates.ini. Šis failas naudoja .NET paprastąsias išraiškas datos formatui nurodyti. Paprastojoje išraiškoje turi būti antrinių išraiškų, kurios kuria įvardytas dienos, mėnesio ir metų (DDMMYY) grupes, kaip parodyta toliau pateiktame pavyzdyje.
+Galite išplėsti kiekvienos įdiegties priimtinų datos formatų sąrašą. Pavyzdžiui, ši galimybė gali būti naudinga, jei norite pateikti formatą, kuris leidžia darbuotojui paprasčiau įvesti datas mobiliajame įrenginyje. Numatytasis formatas priklauso nuo vartotojo numatytosios kalbos, kuri nurodyta puslapio **Vartotojo parinktys** lauke **Kalba**. (The same page is also used to associate an employee with a specific warehouse work user.) **Pastaba:** sandėlio mobiliųjų įrenginių portale nenaudojamas lauko **Datos, laiko ir numerių formatas**, esančio puslapyje **Kalbos ir regiono nuostatos**, parametras. Norėdami pakeisti datos formatą, turite būti susipažinę su „Microsoft .NET Framework“ paprastosiomis išraiškomis. Daugiau informacijos žr. [ „.NET Framework“ paprastosios išraiškos](http://go.microsoft.com/fwlink/?LinkId=391260). Norėdami nurodyti datos formatus, redaguokite failą Dates.ini, esantį sandėlio mobiliųjų įrenginių portale adresu Content\\Settings\\Dates.ini. Šis failas naudoja .NET paprastąsias išraiškas datos formatui nurodyti. Paprastojoje išraiškoje turi būti antrinių išraiškų, kurios kuria įvardytas dienos, mėnesio ir metų (DDMMYY) grupes, kaip parodyta toliau pateiktame pavyzdyje.
 
 ^(?&lt;diena&gt;\\d{2})(?&lt;mėnuo&gt;\\d{2})(?&lt;metai&gt;\\d{2})$
 

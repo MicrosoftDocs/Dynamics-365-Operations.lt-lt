@@ -1,16 +1,16 @@
 ---
 title: "Ataskaitų dizaino įrankio sąsaja"
 description: "Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 50 - 10
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 58c56aca6f339a5ec13703605334dd45b208ab2c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3a82d877b2fb87eef6f2b16d528ed42debbb2874
+ms.contentlocale: lt-lt
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="report-designer-interface"></a>Ataskaitų dizaino įrankio sąsaja
+
+[!include[banner](../includes/banner.md)]
+
 
 Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius. 
 
@@ -159,7 +163,7 @@ Meniu **Pagalba** prieinamas visiems vartotojams ir apima toliau nurodytas koman
 
 | Komanda | aprašymas                                                  |
 |---------|--------------------------------------------------------------|
-| Žinynas    | Atidarykite „Dynamics 365 for Operations“ finansinių ataskaitų žinyno „wiki“ puslapį. |
+| Žinynas    | Atidarykite „Dynamics 365 for Operations“ finansinių ataskaitų žinyno temos puslapį. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Ataskaitų dizaino įrankio įrankių juostos mygtukai
@@ -225,8 +229,10 @@ Ataskaitų dizaino įrankio įrankių juosta suteikia greitą prieigą prie koma
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[„Microsoft Dynamics ERP“ finansinės ataskaitos](financial-reporting-intro.md)
+[Finansinės ataskaitos](financial-reporting-intro.md)
 
-[Generuoti finansinę ataskaitą](\financials\general-ledger\generate-financial-report.md)
+[Finansinės ataskaitos generavimas](generate-financial-report.md)
+
+
 
 
