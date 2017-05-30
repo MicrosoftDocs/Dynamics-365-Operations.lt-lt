@@ -1,15 +1,15 @@
 ---
 title: Informacijos kodai
 description: "Šiame straipsnyje apžvelgiami informacijos kodai, informacijos kodų grupės ir tai, kaip juos naudoti."
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -47,13 +47,12 @@ Informacijos kodai suteikia būdą fiksuoti duomenis elektroninio kasos aparato 
 -   Susiekite informacijos kodus su kitais informacijos kodais arba jų grupėmis, kad surinktumėte informaciją apie produktą arba operaciją, neapibrėždami atskiro informacijos kodo arba nesusiedami informacijos kodo kiekvienam scenarijui.
 
 ## <a name="info-code-examples"></a>Informacijos kodų pavyzdžiai
-**1 pavyzdys. Pakartotinis informacijos kodų naudojimas** Informacijos kodus galima susieti, kad paleidus vieną informacijos kodą, kitas kodas būtų paleistas iš karto po jo. Pavyzdžiui, parduodant tam tikrus produktus norite paraginti kasininką paklausti kliento, ar šis nenori įsigyti maitinimo elementų ir produkto garantijos. Parduodant kitus produktus, galite kasininką paraginti paklausti kliento, ar jis nenori įsigyti maitinimo elementų, ir paprašyti jo pašto kodo. Jei tokiems scenarijams sukūrėte susietus informacijos kodus, turite nustatyti kiekvieną informacijos kodo variantą, kad kasininkas būtų raginamas teirautis reikiamos informacijos. Jei naudojate informacijos kodų grupes, galite vieną kartą nustatyti bendrus informacijos kodus, pvz., klausimo apie maitinimo elementus, o tada naudoti juos keliose informacijos kodų grupėse. Taip pat galite nustatyti prioritetus informacijos kodų grupėse ir taip nurodyti tvarką, kuria rodomi paraginimai. **2 pavyzdys. Informacijos kodų susiejimas su informacijos kodų grupėmis** Parduodami tam tikrus produktus, pvz., mobiliuosius įrenginius, visada norite surinkti tam tikrą informacijos rinkinį, pvz., telefono numerį, mobiliosios įrangos identifikatorių (MEID) ir serijos numerį. Bet norite surinkti kitokią informaciją apie planšetę nei apie mobilųjį telefoną. Galite nustatyti informacijos kodų grupę, kuri apima raginimus, skirtus telefono numeriui, MEID ir serijos numeriui, o tada susieti šią informacijos kodų grupę su konkrečiu informacijos kodu. Kai paleidžiamas produktui skirtas informacijos kodas, galima paleisti informacijos kodų grupę, kad galėtumėte surinkti bendruosius duomenis nenustatydami kelių susietų informacijos kodų rinkinių kiekvienam įrenginiui.
+**1 pavyzdys. Pakartotinis informacijos kodų naudojimas** Informacijos kodus galima susieti, kad paleidus vieną informacijos kodą, kitas kodas būtų paleistas iš karto po jo. Pavyzdžiui, parduodant tam tikrus produktus norite paraginti kasininką paklausti kliento, ar šis nenori įsigyti maitinimo elementų ir produkto garantijos. Parduodant kitus produktus, galite kasininką paraginti paklausti kliento, ar jis nenori įsigyti maitinimo elementų, ir paprašyti jo pašto kodo. Jei tokiems scenarijams sukūrėte susietus informacijos kodus, turite nustatyti kiekvieną informacijos kodo variantą, kad kasininkas būtų raginamas teirautis reikiamos informacijos. Jei naudojate informacijos kodų grupes, galite vieną kartą nustatyti bendrus informacijos kodus, pvz., klausimo apie maitinimo elementus, o tada naudoti juos keliose informacijos kodų grupėse. Taip pat galite nustatyti prioritetus informacijos kodų grupėse ir taip nurodyti tvarką, kuria rodomi paraginimai.
+
+
+**2 pavyzdys. Informacijos kodų susiejimas su informacijos kodų grupėmis** Parduodami tam tikrus produktus, pvz., mobiliuosius įrenginius, visada norite surinkti tam tikrą informacijos rinkinį, pvz., telefono numerį, mobiliosios įrangos identifikatorių (MEID) ir serijos numerį. Bet norite surinkti kitokią informaciją apie planšetę nei apie mobilųjį telefoną. Galite nustatyti informacijos kodų grupę, kuri apima raginimus, skirtus telefono numeriui, MEID ir serijos numeriui, o tada susieti šią informacijos kodų grupę su konkrečiu informacijos kodu. Kai paleidžiamas produktui skirtas informacijos kodas, galima paleisti informacijos kodų grupę, kad galėtumėte surinkti bendruosius duomenis nenustatydami kelių susietų informacijos kodų rinkinių kiekvienam įrenginiui.
 
  
--
-
-
-
 
 
 
