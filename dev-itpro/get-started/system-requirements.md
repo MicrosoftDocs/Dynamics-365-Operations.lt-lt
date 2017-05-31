@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ ms.lasthandoff: 04/25/2017
 -   „Google Chrome‟ (naujausia viešai pasiekiama versija) sistemose „Windows 10‟, „Windows 8.1‟, „Windows 8‟, „Windows 7‟ arba planšetėje „Google Nexus 10‟.
 -   „Apple Safari‟ (naujausia viešai pasiekiama versija) sistemoje „Mac OS X 10.10‟ („Yosemite‟), 10.11 („El Capitan‟) arba 10.12 („Sierra‟) arba planšetėje „Apple iPad‟.
 
-Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite į programinės įrangos gamintojo svetainę. **Pastabos**
+Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite į programinės įrangos gamintojo svetainę. 
+
+**Pastabos**
 
 -   Norėdami užfiksuoti vaizdus, sugeneruotus užduočių įrašymo priemonėje ir įtraukti juos į „Microsoft Word“ dokumentus, turite turėti įdiegtą „Chrome“ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
@@ -59,10 +61,12 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 -   „Chrome‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟, „Windows 8.1“ arba „Windows 7“.
 
 ## <a name="network-requirements"></a>Tinklo reikalavimai
--   „Dynamics 365 for Operations“ sukurta tinklams, kurių laukimo laikas mažesnis nei 150 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Operations“. Rekomenduojame tinklo laukimo laiką patikrinti <http://www.azurespeed.com>.
+-   „Dynamics 365 for Operations“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Operations“. Rekomenduojame tinklo laukimo laiką patikrinti <http://www.azurespeed.com>.
 -   Pralaidumo reikalavimai „Dynamics 365 for Operations“ priklauso nuo jūsų scenarijaus. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo. Tačiau tiems scenarijams, kurių mokamosios krovos reikalavimai aukšti, pvz., darbo sritims arba scenarijams, kurie apima nemažai tinkinimo, rekomenduojamas didesnis pralaidumas.
 
-Apskritai, „Dynamics 365 for Operations“ yra optimizuota internetui. Kreipimosi ciklų iš naršyklės kliento į „Azure“ duomenų centrą skaičius yra labai mažas, o visa mokamoji krova yra suglaudinta. **Įspėjimas:** neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu labai sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, naudokite „Dynamics 365 for Operations“ peržiūros versiją.
+Apskritai, „Dynamics 365 for Operations“ yra optimizuota internetui. Kreipimosi ciklų iš naršyklės kliento į „Azure“ duomenų centrą skaičius yra labai mažas, o visa mokamoji krova yra suglaudinta. 
+
+**Įspėjimas:** neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu labai sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, naudokite „Dynamics 365 for Operations“ peržiūros versiją.
 
 ## <a name="net-framework-requirements"></a>„.NET Framework“ reikalavimai
 „Dynamics 365 for Operations“ reikia „.NET Framework“ 4.6.2 versijos visoms vieno paspaudimo taikomosioms programoms, pvz., dokumento maršruto planavimo agentui. Diegimo instrukcijų žr. [„.NET Framework“ diegimas](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).

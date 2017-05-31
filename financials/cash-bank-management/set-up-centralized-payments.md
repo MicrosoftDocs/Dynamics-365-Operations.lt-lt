@@ -3,10 +3,10 @@ title: "Centralizuotų mokėjimų nustatymas"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -41,7 +41,7 @@ Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juri
 -   Sukurkite vidinę įmonės apskaitą.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Centralizuotų mokėjimų organizacijos hierarchijos nustatymas
-Turite nustatyti centralizuotų mokėjimų organizacijos hierarchiją. Ta pati organizacijos hierarchija naudojama apdorojant centralizuotus tiekėjų mokėjimus ir centralizuotus klientų mokėjimus. **Pastaba:** Centralizuotų mokėjimų hierarchijos struktūra nėra svarbi. Bet koks hierarchijoje esantis juridinis subjektas galės apdoroti mokėjimus bet kokio kito hierarchijoje esančio juridinio subjekto vardu. Puslapyje **Organizacijos hierarchijos** galite sukurti naują organizacijos hierarchiją.
+Turite nustatyti centralizuotų mokėjimų organizacijos hierarchiją. Ta pati organizacijos hierarchija naudojama apdorojant centralizuotus tiekėjų mokėjimus ir centralizuotus klientų mokėjimus. **Pastaba:** Centralizuotų mokėjimų hierarchijos struktūra nėra svarbi. Bet koks hierarchijoje esantis juridinis subjektas galės apdoroti mokėjimus bet kokio kito hierarchijoje esančio juridinio subjekto vardu. Puslapyje **Organizacijos hierarchijos** galite sukurti naują organizacijos hierarchiją. Lauke **Tikslas** turite pasirinkti reikšmę **Centralizuoti mokėjimai**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Centralizuotiems mokėjimams skirtos vidinės įmonės sąskaitos kūrimas
 Kai dabartinio juridinio subjekto mokėjimo operacijos sudengiamos pagal kitų juridinių subjektų SF, kiekvienam juridiniam subjektui sukuriamos atitinkamos mokėjimo ir mokėjimo priėmimo operacijos. Reikia nurodyti juridinį subjektą, kuriame užregistruotos visos taikomos mokėjimo nuolaidos ir realizuoto pelno arba patirto nuostolio sumos. Prieš pradėdami nuspręskite, kurį juridinį subjektą naudosite tiekėjo ir kliento mokėjimams apdoroti. Jei vienas juridinis subjektas apdoroja tiekėjo mokėjimus, o kitas juridinis subjektas apdoroja kliento mokėjimus, turite pereiti į kiekvieną juridinį subjektą. Puslapyje **Vidinių įmonių apskaita** galite pasirinkti juridinio subjekto, kurio vardu apdorosite mokėjimus, vidinės įmonės ryšių įrašą. Skirtuke **Centralizuoti mokėjimai** galite pasirinkti, ar mokėjimo nuolaidų registravimą taikyti su mokėjimu (arba kita operacija, kuri sumažina tiekėjo sąskaitos likutį) susijusiam juridiniam subjektui, ar su SF (arba kita operacija, kuri padidina tiekėjo sąskaitos likutį) susijusiam juridiniam subjektui. Šis pasirinkimas veikia kartu su puslapių **Mokėtinų sumų parametrai** ir **Gautinų sumų parametrai** lauku **Mokėjimo nuolaidos administravimas**. Leistiniems permokėjimų ir centų skirtumo nuokrypiams naudojamas su mokėjimu susijusio juridinio subjekto parametras. Leistiniems neprimokėjimų ir centų skirtumo nuokrypiams naudojamas SF juridinio subjekto parametras.

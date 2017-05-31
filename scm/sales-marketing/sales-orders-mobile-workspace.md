@@ -3,10 +3,10 @@ title: "Mobilioji darbo sritis Pardavimo užsakymai"
 description: "Šioje temoje pateikiama informacija apie pardavimo užsakymų mobiliąją darbo sritį, kurią galima naudoti mobiliojoje programoje „Microsoft Dynamics 365 for Operations“. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Pardavimo užsakymų mobiliosios darbo srities apžvalga
 ---------------------------------------------
 
-Mobilioji darbo sritis **Pardavimo užsakymai** prisijungia prie „Microsoft Dynamics 365 for Operations“ ir suteikia jums galimybę peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą. Ši informacija apima užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis **Pardavimo užsakymai** pateikia momentinį pardavimo užsakymų rodinį. Galite peržiūrėti visus užsakymus, pardavimo užsakymus pagal klientą arba informaciją apie konkretų pardavimo užsakymą. Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuoti pardavimo užsakymus.
+Mobilioji darbo sritis **Pardavimo užsakymai** prisijungia prie „Microsoft Dynamics 365 for Operations“ ir suteikia jums galimybę peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą. Ši informacija apima užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis **Pardavimo užsakymai** pateikia momentinį pardavimo užsakymų rodinį. Galite peržiūrėti visus užsakymus, pardavimo užsakymus pagal klientą arba informaciją apie konkretų pardavimo užsakymą. 
+
+Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuoti pardavimo užsakymus.
 
 ### <a name="view-all-sales-orders"></a>Peržiūrėti visus pardavimo užsakymus
 
@@ -50,6 +52,7 @@ Mobilioji darbo sritis **Pardavimo užsakymai** prisijungia prie „Microsoft Dy
     -   Ieškoti pagal būseną
     -   Ieškoti pagal išleidimo būseną
     -   Ieškoti pagal sukūrimo datą ir laiką
+    
 -   Pasirinkę pardavimo užsakymus, galite peržiūrėti išsamią konkrečių užsakymų informaciją. Tiksliau sakant, galite peržiūrėti šią informaciją:
     -   kliento pavadinimą ir adreso informaciją;
     -   įvairias pardavimo užsakymo datas, pvz., pageidaujamą siuntimo datą ir patvirtintą siuntimo datą;
@@ -65,6 +68,7 @@ Mobilioji darbo sritis **Pardavimo užsakymai** prisijungia prie „Microsoft Dy
 -   Naudodami šiuos filtrus peržiūrėkite kliento užsakymus.
     -   Ieškoti pagal pavadinimą
     -   Ieškoti pagal sąskaitą
+
 -   Kai pasirenkate klientą, galite peržiūrėti šią informaciją:
     -   kliento pavadinimą ir grupę;
     -   kliento kontaktinę informaciją;
@@ -96,7 +100,7 @@ Prieš naudodami mobiliąją darbo sritį **Pardavimo užsakymai**, patikrinkite
 <tr class="odd">
 <td>Reikia įdiegti „Dynamics 365 for Operations“ 1611 versiją ir 3 arba naujesnį platformos naujinimą.</td>
 <td>Sistemos administratorius</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, sistemos administratorius turėtų peržiūrėti temą <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, sistemos administratorius turėtų peržiūrėti temą <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
 </tr>
 <tr class="even">
 <td>Reikia įdiegti KB 4013633.</td>
@@ -104,9 +108,9 @@ Prieš naudodami mobiliąją darbo sritį **Pardavimo užsakymai**, patikrinkite
 <td>KB 4013633 (X ++ naujinimas arba metaduomenų karštoji pataisa) yra keturios mobiliosios darbo sritys, skirtos tiekimo grandinei valdyti. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
 <li>Atsisiųskite KB 4013633 iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

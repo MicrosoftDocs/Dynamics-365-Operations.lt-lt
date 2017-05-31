@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Kai 2222 juridinio subjekto darbuotojas kuria pirkimo paraišką, strategijos ta
 
 Ankstesniame pavyzdyje visos pirkimo taisyklės buvo nurodytos vienoje organizacijos hierarchijoje – Įmonės. Tačiau sudėtinga organizacija gali nustatyti kelių organizacijos hierarchijų strategijas.  
 
+
 „Contoso“ yra didelė įmonė, kuriai reikalingos sudėtingos pirkimo taisyklės paraiškų procesui valdyti. „Contoso“ nustatė šių dviejų skirtingų organizacijos hierarchijų taisykles: Padalinys ir Visuotinis pirkimo valdymas.  
 
 123 strategija nustatyta pardavimo JK (pardavimo padalinio) organizacijos hierarchijai Padalinys. 123 strategijoje pirkimo paraiškos kontrolės taisyklė nurodo, kad minimaliems užsakymo kiekiams turi būti taikomi apribojimai. Šioje taisyklėje pasirenkama parinktis **Taikyti minimalaus užsakymo kiekio apribojimus**.  
@@ -93,6 +94,9 @@ Kategorijos strategijos taisyklė nurodo, kaip vartotojai gali pasirinkti kiekvi
 ### <a name="re-approval-rule-for-purchase-orders"></a>Pirkimo užsakymų pakartotinio patvirtinimo taisyklė
 
 Pakartotinio patvirtinimo taisyklė yra pasirinktinė taisyklė, nurodanti būtinus pakeisto pirkimo užsakymo pakartotinio patvirtinimo kriterijus. Pasirinkti laukai yra vertinami pirkimo užsakymo darbo eigoje, kai darbo eigoje yra nustatyta sąlyga „Reikia iš naujo patvirtinti pirkimo užsakymą“.
+
+> [!NOTE]
+> Apskaitos paskirstymas visada bus nustatomas iš naujo, kai pakeičiamas patvirtintas pirkimo užsakymas, kurio keitimų valdymo funkcija įjungta. Todėl, jei nenorite, kad pakeitus tam tikrus laukus pirkimo užsakymas būtų patvirtinamas iš naujo, laukas Apskaitos paskirstymas.pakeistas NETURĖTŲ būti įtrauktas kaip pasirinktas laukas iš naujo patvirtinti. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Pirkimo paraiškos RFQ taisyklė
 

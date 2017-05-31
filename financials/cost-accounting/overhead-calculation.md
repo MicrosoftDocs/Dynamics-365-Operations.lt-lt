@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Pridėtinių išlaidų skaičiavimas vykdo išlaidų apskaitos strategijas teisi
 -   Finansiniai metai
 -   Ataskaitinis laikotarpis
 
-Pridėtinių išlaidų skaičiavimas vykdomas nepriklausomai nuo versijos. Todėl biudžeto versiją galite skaičiuoti prieš skaičiuodami faktinę versiją. Pridėtinių išlaidų skaičiavimą sudaro keturi veiksmai, kaip pavaizduota tolesnėje iliustracijoje. Atliekant kiekvieną veiksmą sukuriama žurnalo antraštė su žurnalo įrašais. Šioje žurnalo antraštėje išsaugomi kiekvieno skaičiavimo veiksmo įvesties duomenys. Strategijos ir taisyklės pritaikomos kiekvienai žurnalo eilutei , o išlaidų įrašai sugeneruojami kaip išeiga. Todėl visada galite atsekti visą informaciją. [![Pridėtinių išlaidų skaičiavimas](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Pridėtinių išlaidų skaičiavimas vykdomas nepriklausomai nuo versijos. Todėl biudžeto versiją galite skaičiuoti prieš skaičiuodami faktinę versiją. Pridėtinių išlaidų skaičiavimą sudaro keturi veiksmai, kaip pavaizduota tolesnėje iliustracijoje. Atliekant kiekvieną veiksmą sukuriama žurnalo antraštė su žurnalo įrašais. Šioje žurnalo antraštėje išsaugomi kiekvieno skaičiavimo veiksmo įvesties duomenys. Strategijos ir taisyklės pritaikomos kiekvienai žurnalo eilutei , o išlaidų įrašai sugeneruojami kaip išeiga. Todėl visada galite atsekti visą informaciją. 
+[![Pridėtinių išlaidų skaičiavimas](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektros pridėtinių išlaidų skaičiavimas ir paskirstymas
 Finansinėje apskaitoje kai kurios išlaidos, pvz., už elektrą, yra registruojamos kaip fiksuota suma. Todėl nepateikiamos išsamios išlaidų apskaitos valdymo įžvalgos. Tam, kad išlaidų apskaitoje būtų galima pateikti teisingas visų organizacijos vienetų ir lygių valdymo įžvalgas, išlaidų srautas turi būti nukreiptas į visus organizacijos vienetus. Šis srautas turi būti pagrįstas tiksliu suvartojimo įrašu arba teisingu įvertinimu. DK elektros išlaidas galima registruoti, kaip parodyta toliau pateiktoje lentelėje.
@@ -622,7 +623,7 @@ Išsamesnės informacijos apie pridėtinių išlaidų tarifo strategiją žr. te
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4 veiksmas: išlaidų paskirstymo skaičiavimo apdorojimas
 
-Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Microsoft Dynamics 365 for Operations“ palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Microsoft Dynamics 365 for Operations“ palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso. [![Abipusis metodas](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Išlaidų paskirstymo nustatymas
 

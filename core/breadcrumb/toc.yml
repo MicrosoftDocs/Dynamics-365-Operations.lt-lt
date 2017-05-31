@@ -18,6 +18,7 @@
     - name: Mažmeninė prekyba
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: Tiekimo grandinė 
+    - name: Tiekimo grandinė
+ 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index
