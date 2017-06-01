@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 266944
-ms.assetid: 353ac18b-bc81-4cb4-b182-1e6e0759f961
 ms.search.region: Estonia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
