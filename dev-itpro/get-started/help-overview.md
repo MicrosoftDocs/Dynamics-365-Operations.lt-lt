@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Programoje „Dynamics 365 for Operations‟ yra Žinyno sistema, paremta dviem 
 -   Dokumentacijos svetainė
 -   užduočių vadovais.
 
-Tiek straipsnius, tiek užduočių vadovus galite pasiekti iš „Dynamics 365 for Operations‟ žinyno srities, kaip parodyta tolesnėje ekrano nuotraukoje. [![Žinyno sritis](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png)Šiame straipsnyje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
+Tiek straipsnius, tiek užduočių vadovus galite pasiekti iš „Dynamics 365 for Operations‟ žinyno srities, kaip parodyta tolesnėje ekrano nuotraukoje.
+
+![Sritis Žinynas](./media/help-pane-ops-task-guides-1024x741.png)
+
+Šiame straipsnyje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
-Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) yra pagrindinis „Dynamics 365 for Operations‟ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
+Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) yra pagrindinis „Dynamics 365 for Operations‟ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
 
 -   **Prieiga prie naujausio turinio** – svetainė suteikia greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.
 -   **Ekspertų parašytas turinys** – svetainėje pateikiamas turiningesnis produktų dokumentacijos rinkinys, kurį bendruomenės nariai gali gerinti tiek „Microsoft‟ viduje, tiek išorėje.
@@ -50,13 +54,48 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynam
 
 Perkėlėme visą turinį iš ankstesnio žinyno svetainę docs. Mes labai džiaugiamės savo naująja svetaine ir tikimės, kad jus ji taip nudžiugins.
 
-### <a name="when-can-we-use-it"></a>Kada jį galime naudoti?
+### <a name="searching-on-docsmicrosoftcom"></a>Ieška puslapyje docs.microsoft.com
+Sulaukiame daug klausimų apie tai, kaip ieškoti mūsų turinio. Jei mūsų svetainėje atliksite veiksmus pirmiausia atidarę puslapį, skirtą „Dynamics 365 for Operations“, mes apribosime jūsų ieškos rezultatus pateikdami tik „Dynamics 365 for Operations“ turinį. Šį apribojimą galite pašalinti, ieškos lauke šalia dalies „Operations“ spustelėdami X. 
+![Ieškoti](./media/search-scope.png)
 
-Skaityti svetainės turinį galite jau dabar – jis visiškai viešas ir jame ieškoti galima neprisijungus. Norėdami rasti turinio, galite naudoti bet kurią savo mėgstamiausią ieškyklę. Jei norite, galite prisijungti ir komentuoti svetainės straipsnius.
+Taip pat mūsų turinį galite rasti naudodami bet kokį ieškos mechanizmą. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., site:docs.microsoft.com "ieškomas terminas"  
+![Svetainės ieška](./media/site-search.png)
+
+![Svetainės ieškos rezultatai](./media/site-search-results.png)
 
 
-## <a name="task-guides"></a>užduočių vadovais.
-Užduočių vedlys yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduočių vedlį galite iš žinyno srities. Pirmą kartą spustelėjus užduočių vedlį, žinyno srityje bus rodomos nuoseklios užduoties instrukcijos. Dabar galima naudoti lokalizuotus užduočių vedlius. [![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje spustelėkite **Pradėti užduočių vedlį**. Rodomas juodas žymeklis, kuris nurodo, kokį veiksmą reikia atlikti. Vykdykite UI rodomus nurodymus ir pagal juos įveskite duomenis. [![Užduočių vedlio veiksmų instrukcija](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Svarbu:** duomenys, kuriuos įvedate leisdami užduočių vedlį, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
+### <a name="how-can-i-contribute"></a>Kaip galiu prisidėti? 
+
+Palikite komentarą! 
+
+1. Spustelėkite **Komentarai**, norėdami pateikti į komentarų dalį puslapio apačioje.
+
+![Komentarai](./media/comments.png)
+
+2. Įveskite savo komentarą, o tada spustelėkite **Skelbti komentarą**.
+
+![Skelbti komentarą](./media/before-signin.png)
+
+3. Pasirinkite paskyros, kurią naudodami norite prisijungti, tipą.  
+Spustelėkite vieną iš kairėje pusėje pateiktų piktogramų, kad susietumėte šią svetainę su esama paskyra, pvz., „Twitter“, „Facebook“ arba „Microsoft“ paskyra. 
+
+Arba 
+
+Dešinėje įveskite el. pašto adresą ir naują slaptažodį, norėdami svetainėje sukurti naują paskyrą. 
+
+![Prisijungimo parinktys](./media/signin-options.png)
+
+
+## <a name="task-guides"></a>Užduočių vedliai
+Užduočių vedlys yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduočių vedlį galite iš žinyno srities. Pirmą kartą spustelėjus užduočių vedlį, žinyno srityje bus rodomos nuoseklios užduoties instrukcijos. Dabar galima naudoti lokalizuotus užduočių vedlius. 
+
+![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)
+
+Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje spustelėkite **Pradėti užduoties vadovą**. Rodomas juodas žymeklis, kuris nurodo, kokį veiksmą reikia atlikti. Vykdykite UI rodomus nurodymus ir pagal juos įveskite duomenis. 
+![Užduočių vedlio veiksmų instrukcija](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> Duomenys, kuriuos įvedate leisdami užduoties vadovą, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Viskas prasideda nuo Užduočių įrašytuvo
 
@@ -72,7 +111,9 @@ Jei reikia daugiau informacijos apie užduočių įrašymo priemonę, žr. strai
 Galite kurti savus užduočių įrašus arba atsisiųsti ir tinkinti „Microsoft‟ teikiamus užduočių įrašus. Todėl galite sukurti tinkintą savo organizacijai skirtą Žinyną, kuriame atsispindėtų jūsų konkretus „Dynamics 365 for Operations‟ diegimas. Norėdami užduoties įrašą rodyti „Dynamics 365 for Operations‟ žinyno srityje ir jį paleisti kaip užduočių vedlį, įrašą turėsite įrašyti į BPM biblioteką LCS. Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Išsamias instrukcijas rasite dalyje [Užduočių įrašų naudojimas dokumentacijai ar mokymams kurti](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Vidinis Žinynas
-Norėdami pasiekti „Dynamics 365 for Operations‟ žinyno turinį, spustelėkite piktogramą **Žinynas** (**?**) ir pasirinkite Žinynas arba paspauskite Ctrl + Shift +?. Abiem atvejais atidaroma Žinyno sritis. Iš žinyno srities galite pasiekti straipsnius ar užduočių vedlius. [![Sritis Žinynas](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Norėdami pasiekti „Dynamics 365 for Operations‟ žinyno turinį, spustelėkite piktogramą **Žinynas** (**?**) ir pasirinkite Žinynas arba paspauskite Ctrl + Shift +?. Abiem atvejais atidaroma Žinyno sritis. Iš žinyno srities galite pasiekti straipsnius ar užduočių vedlius. 
+
+![Sritis Žinynas](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Straipsnių pasiekimas iš žinyno srities
 
@@ -80,19 +121,24 @@ Iš žinyno srities galite pasiekti straipsnius, taikomus „Dynamics 365 for Op
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Užduočių vedlių pasiekimas iš žinyno srities
 
-Tam, kad galėtumėte užduočių vedlius pasiekti iš žinyno srities, sistemos administratorius turi atidaryti į „Dynamics 365 for Operations‟ puslapį **Sistemos parametrai** ir sukonfigūruoti kai kurias nuostatas. **Pastabos**
+Tam, kad galėtumėte užduočių vedlius pasiekti iš žinyno srities, sistemos administratorius turi atidaryti į „Dynamics 365 for Operations‟ puslapį **Sistemos parametrai** ir sukonfigūruoti kai kurias nuostatas. 
 
--   Norėdami konfigūruoti žinyną, turite būti prisijungę naudodami paskyrą tame pačiame nuomotojuje, kuriame įdiegta „Dynamics 365 for Operations“.
--   Neįmanoma prisijungti prie LCS bibliotekos iš „Dynamics 365 for Operations“ egzemplioriaus, veikiančio vietos virtualiajame standžiajame diske (VHD).
+> [!NOTE]
+> -   Norėdami konfigūruoti žinyną, turite būti prisijungę naudodami paskyrą tame pačiame nuomotojuje, kuriame įdiegta „Dynamics 365 for Operations“.
+> -   Neįmanoma prisijungti prie LCS bibliotekos iš „Dynamics 365 for Operations“ egzemplioriaus, veikiančio vietos virtualiajame standžiajame diske (VHD).
 
-[![Sistemos parametrų forma su žinyno parametrais](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
+![Forma Sistemos parametrai su žinyno parametrais](./media/system-parameters_ops-1024x437.png)
 
-1.  **Svarbu:**pirmą kartą atidarę žinyno skirtuką, turite prisijungti prie „Lifecycle Services“. Būtinai spustelėkite formos viduryje pateiktą saitą, palaukite, kol prisijungsite, uždarykite dialogo langą ir tada spustelėkite Gerai, norėdami atidaryti parametrų formą.[![Prisijungimas prie LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
+
+1.  **Svarbu:**pirmą kartą atidarę žinyno skirtuką, turite prisijungti prie „Lifecycle Services“. Būtinai spustelėkite formos viduryje pateiktą saitą, palaukite, kol prisijungsite, uždarykite dialogo langą ir tada spustelėkite Gerai, norėdami atidaryti parametrų formą.
+![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  Pasirinkite, prie kurio „Lifecycle Services‟ projekto prisijungti.
 3.  Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
 4.  Nustatykite BPM bibliotekų rodymo tvarką. Taip nustatoma tvarka, kuria užduočių įrašai iš bibliotekų bus rodomi Žinyno srityje.
 
-Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti Žinyno sritį ir spustelėti skirtuką **Užduočių vedliai**. Dabar matysite užduočių vedlius, taikomus tam puslapiui, kuriame „Dynamics 365 for Operations“ dabar esate. Jei nerasite nė vieno užduočių vedlio, įvedę raktažodžius galite patikslinti iešką. Žinyno srityje spustelėjus užduočių vedlį, žinyno srityje rodomos nuoseklios instrukcijos ir galima paleisti užduočių vedlį. [![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti Žinyno sritį ir spustelėti skirtuką **Užduočių vedliai**. Dabar matysite užduočių vedlius, taikomus tam puslapiui, kuriame „Dynamics 365 for Operations“ dabar esate. Jei nerasite nė vieno užduočių vedlio, įvedę raktažodžius galite patikslinti iešką. Žinyno srityje spustelėjus užduočių vedlį, žinyno srityje rodomos nuoseklios instrukcijos ir galima paleisti užduočių vedlį. 
+![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kur yra išversti užduočių vedliai?
 

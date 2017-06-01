@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-„[!include[banner](../includes/banner.md)]“
 
 
 Šioje temoje nurodomos neseniai išleistos mobiliosios programos „Microsoft Dynamics 365 for Operations“ mobiliosios darbo sritys.
@@ -51,9 +50,9 @@ ms.lasthandoff: 04/25/2017
 | Mobilioji darbo sritis     | aprašymas                                                                                                                                                                         | Sužinokite daugiau                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Savikainos kontrolė     | Išlaidų centrų vadovai gali bet kada ir bet kur peržiūrėti išlaidų centro efektyvumą.                                                                                               | [Mobilioji darbo sritis Išlaidų valdymas](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Turimos atsargos    | Mobiliojoje aplinkoje gaukite įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.                                                                                                    | [Mobilioji darbo sritis Turimos atsargos](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Pardavimo užsakymai         | Bet kur ir bet kada peržiūrėkite naujausią pardavimo užsakymų informaciją.                                                                                                                          | [Mobilioji darbo sritis Pardavimo užsakymai](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Tiekėjo bendradarbiavimas | Jūsų tiekėjai gali gauti naujausią jiems patvirtinti išsiųstų pirkimo užsakymų informaciją bei peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus. | [Tiekėjo bendradarbiavimo mobilioji darbo sritis](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Turimos atsargos    | Mobiliojoje aplinkoje gaukite įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.                                                                                                    | [Turimų atsargų mobilioji darbo sritis](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Pardavimo užsakymai         | Bet kur ir bet kada peržiūrėkite naujausią pardavimo užsakymų informaciją.                                                                                                                          | [Mobilioji darbo sritis Pardavimo užsakymai](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Tiekėjo bendradarbiavimas | Jūsų tiekėjai gali gauti naujausią jiems patvirtinti išsiųstų pirkimo užsakymų informaciją bei peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus. | [Tiekėjo bendradarbiavimo mobilioji darbo sritis](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Mobiliosios darbo srities funkcija, išleista 2016 m. gruodžio mėn.
 | Mobilioji darbo sritis        | aprašymas                                                                    | Sužinokite daugiau                                                                                                            |

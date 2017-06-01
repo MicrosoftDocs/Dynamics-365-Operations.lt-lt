@@ -4,6 +4,7 @@
 ## Poreikio prognozės kūrimas
 ### [Poreikio prognozės apžvalga](master-planning/introduction-demand-forecasting.md)
 ### [Poreikio prognozės nustatymas](master-planning/demand-forecasting-setup.md)
+### [Poreikio prognozių praeities duomenų importavimas](master-planning/import-historical-data.md)
 ### [Pagrindinės statistinės prognozės generavimas](master-planning/generate-statistical-baseline-forecast.md)
 ### [Rankinis pagrindinės prognozės koregavimas](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Pakoreguotos prognozės įgaliojimas](master-planning/authorize-adjusted-forecast.md)

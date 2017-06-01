@@ -67,6 +67,7 @@
 ### [CODA banko išrašas](emea-bel-coda-bank-statement-import.md)
 ### [INTERVAT mokesčių deklaracija](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM ataskaitų nustatymas](emea-bel-prodcom-report.md)
+### [Suderinimo ataskaitos](emea-bel-reconciliation-reports.md)
 
 ## Čekija
 ### [Kredito pažymos mokėjimo nuolaida](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Nusidėvėjimo sustabdymas](emea-cze-depreciation-suspension-holidays.md)
 ### [Ilgalaikio turto nusidėvėjimas](emea-cze-fixed-assets-depreciation.md)
 ### [Pusės metų nusidėvėjimas](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [PVM atskaitomybė ](emea-cze-intra-community-vat-transactions.md)
 ### [PVM išrašas](emea-cze-vat-statement-details.md)
 ## Estija
 ### [PVM išrašas](emea-est-vat-statement-details.md)

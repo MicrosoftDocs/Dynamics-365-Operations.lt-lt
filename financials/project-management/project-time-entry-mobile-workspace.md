@@ -3,10 +3,10 @@ title: "Projekto laiko įrašo darbo sritis, skirta programai „Dynamics 365 fo
 description: "Šioje temoje pateikiama informacija apie projekto laiko įrašo mobiliąją darbo sritį. Šioje darbo srityje vartotojai gali įvesti ir įrašyti laiką pagal projektą, naudodami savo mobilųjį įrenginį."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,19 +19,18 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="project-time-entry-mobile-workspace"></a>Projekto laiko įrašo mobilioji darbo sritis
+# <a name="project-time-entry-mobile-workspace"></a>Projekto laiko įrašų mobilioji darbo sritis
 
 [!include[banner](../includes/banner.md)]
 
-„[!include[banner](../includes/banner.md)]“
 
 
 Šioje temoje pateikiama informacija apie projekto laiko įrašo mobiliąją darbo sritį, kurią galima naudoti mobiliojoje programoje „Dynamics 365 for Operations“. Šioje darbo srityje vartotojai gali įvesti ir įrašyti laiką pagal projektą, naudodami savo mobilųjį įrenginį.
@@ -71,7 +70,7 @@ Prieš diegdami mobiliąją darbo sritį **Projekto laiko įrašas**, patikrinki
 <tr class="odd">
 <td>Reikia įdiegti „Microsoft Dynamics 365 for Operations“ 1611 versiją ir 3 arba naujesnį platformos naujinimą.</td>
 <td>Sistemos administratorius</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, jūsų sistemos administratorius turėtų peržiūrėti temą <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, jūsų sistemos administratorius turėtų peržiūrėti temą <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
 </tr>
 <tr class="even">
 <td>Reikia įdiegti KB 4018050.</td>
@@ -79,9 +78,9 @@ Prieš diegdami mobiliąją darbo sritį **Projekto laiko įrašas**, patikrinki
 <td>KB 4018050 yra X++ atnaujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Projekto laiko įrašas</strong>. Norėdamas įdiegti KB 4018050, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
 <li>Atsisiųskite KB 4018050 iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modeliai <strong>ApplicationSuite</strong> ir <strong>ProjectMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modeliai <strong>ApplicationSuite</strong> ir <strong>ProjectMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

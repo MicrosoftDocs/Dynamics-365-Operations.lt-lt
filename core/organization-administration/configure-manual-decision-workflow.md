@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     <td>Konkrečios organizacijos hierarchijos vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite priskirti sprendimą.</li>
-    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima priskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką.
-    <ol>
+    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima priskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
     <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
     <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
     </ol></li>
-    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti priskirtas.
-    <ul>
+    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti priskirtas. <ul>
     <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – sprendimas priskiriamas visiems vartotojams diapazone.</li>
     <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – sprendimas priskiriamas tik paskutiniam vartotojui diapazone.</li>
     <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – sprendimas nepriskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>
@@ -228,13 +226,11 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     <td>Darbo elementų eilė</td>
     <td><ol>
     <li>Pasirinkę <strong>Eilė</strong> spustelėkite skirtuką <strong>Pagal eilę</strong>.</li>
-    <li>Norėdami priskirti sprendimą konkrečiai eilei, atlikite šiuos veiksmus.
-    <ol>
+    <li>Norėdami priskirti sprendimą konkrečiai eilei, atlikite šiuos veiksmus. <ol>
     <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Darbo elemento eilės</strong>.</li>
     <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite eilę.</li>
     </ol></li>
-    <li>Jei nuo tam tikros sąlygos turi priklausyti, kuriai eilei sprendimas turi būti priskirtas, atlikite šiuos veiksmus.
-    <ol>
+    <li>Jei nuo tam tikros sąlygos turi priklausyti, kuriai eilei sprendimas turi būti priskirtas, atlikite šiuos veiksmus. <ol>
     <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Sąlyginės darbo elemento eilės</strong>.</li>
     <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite <strong>Sąlyginė eilė</strong>.</li>
     </ol></li>
@@ -285,13 +281,11 @@ Jei per skirtąjį laiką vartotojas sprendimo nepriims, sprendimas bus laikomas
     <td>Konkrečios organizacijos hierarchijos vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite perskirti sprendimą.</li>
-    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką.
-    <ol>
+    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
     <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
     <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
     </ol></li>
-    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti perskirtas.
-    <ul>
+    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti perskirtas. <ul>
     <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – sprendimas perskiriamas visiems vartotojams diapazone.</li>
     <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – sprendimas perskiriamas tik paskutiniam vartotojui diapazone.</li>
     <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – sprendimas neperskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ DK laikotarpių uždarymas
 |Patvirtinti pardavimo užsakymą                   | Atnaujinti pardavimo užsakymus.                                                                       |
 |Užsienio valiutos kurso pasikeitimas          | Generuoti operacijas, kurios atnaujina atvirų kliento operacijų vertę užsienio valiutomis.                                                                                                                         |
 | Žurnalas                              | Registruoti SF, mokėjimus ir paprastuosius vekselius.                                             |
-| Žurnalo kvitas                      | -   **Mokėjimų žurnalas** – generuoti, apdoroti ir registruoti mokėjimus.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Važtaraščio registravimas                 | Atnaujinti pardavimo užsakymų važtaraščius.                                                     | | Registruoti laisvos formos SF               | Registruoti laisvos formos SF.                                                                   | | SF registravimas                      | Registruoti pardavimo užsakymų SF.                                                            | | Išrinkimo dokumento registravimas                 |Atnaujinti pardavimo užsakymų išrinkimo dokumentus.                                                      |
+| Žurnalo kvitas                      |<ul><li>**Mokėjimų žurnalas** – generuoti, apdoroti ir registruoti mokėjimus.</li><li>**Išduotų įsakomųjų vekselių žurnalas** – registruoti įsakomuosius vekselius.</li><li>**Užprotestuotų įsakomųjų vekselių žurnalas** – registruoti užprotestuotus įsakomuosius vekselius.</li><li>**Pakartotinai išduotų įsakomųjų vekselių žurnalas** – registruoti pakartotinai išduotus įsakomuosius vekselius.</li><li>**Pavedimų žurnalas** – registruoti pavedimus.</li><li>**Sudengtų įsakomųjų vekselių žurnalas** – registruoti sudengtus įsakomuosius vekselius</li></ul>                   |
+| Važtaraščio registravimas                 | Atnaujinti pardavimo užsakymų važtaraščius.                                                     |
+| Registruoti laisvos formos SF               | Registruoti laisvos formos SF.                                                                   |
+| SF registravimas                      | Registruoti SF pardavimo užsakymams.                                                            |
+| Išrinkimo dokumento registravimas                 |Atnaujinti išrinkimo dokumentus pardavimo užsakymams.                                                      |
 
 **Verslo proceso komponento užduotis**   
 

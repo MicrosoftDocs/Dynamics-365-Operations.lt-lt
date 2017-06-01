@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Tolesni spartieji klavišai galioja visoje „Microsoft Dynamics 365 for Operati
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | Ctrl + F2                                   |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn |
-| Perkelti į  &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Perkelti į &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)                             | Tarpo klavišas arba „Enter“ klavišas                            |
 | Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
 
@@ -115,8 +115,8 @@ Tolesni spartieji klavišai galioja visoje „Microsoft Dynamics 365 for Operati
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | Alt + Shift + rodyklė dešinėn / Alt + Shift + rodyklė kairėn |
 | Perkelti į kitą / ankstesnį „FastTab“                   | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn    |
-| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
-| Perkelti į &lt;n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
+| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Perkelti į &lt;n&gt;-ąjį skirtuką                         | „Alt“ + „Shift“ + &lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai) | Tarpo klavišas arba „Enter“ klavišas                               |
 | Sutraukti esamą „FastTab“                        | Alt + 0                                        |
 | Perjungti tinklelio rodinį                                 | Ctrl + Shift + G                                 |

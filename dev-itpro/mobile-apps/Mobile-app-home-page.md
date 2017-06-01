@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Mobiliosios programos „Dynamics 365 for Operations“ pagrindinis puslapis
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Mobiliosios programos naršymą sudaro keturios paprastos sąvokos: ataskaitų s
 ## <a name="implementation-process"></a>Diegimo procesas
 Tolesnėje iliustracijoje parodytas mobiliosios programos „Dynamics 365 for Operations“ diegimo savo organizacijoje procesas. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Mobiliųjų programų diegimo procesas](./media/mobile-implementation-process_4.png)
 
 Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobiliąją programą „Dynamics 365 for Operations“ įdiegti savo organizacijoje. Skaičiai pirmajame stulpelyje atitinka sunumeruotus veiksmus ankstesnėje iliustracijoje.
 
@@ -85,7 +83,7 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <td>1</td>
 <td>Sistemos administratorius</td>
 <td>Įdiekite „Dynamics 365 for Operations“ organizacijoje.</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, peržiūrėkite temą <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, peržiūrėkite temą <a href="../deployment/deploy-demo-environment.md">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <td>Atsisiųskite ir įdiekite KB, kurie reikalingi „Microsoft“ teikiamoms mobiliosioms darbo sritims įjungti.</td>
 <td>Peržiūrėkite temos apie mobiliąją darbo sritį, kurią jūrų organizacija nori naudoti, dalį &quot;Būtinosios sąlygos&quot;.
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Mobilioji darbo sritis Išlaidų valdymas</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Sistemos administratorius</td>
 <td>Publikuokite „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
-<td>Peržiūrėkite temos apie mobiliąją darbo sritį, kurią jūrų organizacija nori naudoti, dalį &quot;Būtinosios sąlygos&quot;.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Darbo srities publikavimas</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Kūrėjas arba nepriklausomas programinės įrangos tiekėjas (ISV)</td>
 <td>Naudokite „Dynamics 365 for Operations“ mobiliąją sistemos pasirinktinėms mobiliosioms darbo sritims kurti.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Mobilioji „Dynamics 365 for Operations“ sistema</a></li>
+<li><a href="mobile-platform.md">Mobilioji „Dynamics 365 for Operations“ sistema</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">„Dynamics 365 for Operations“ darbo srities X++ APIs</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <td>5</td>
 <td>ISV</td>
 <td>Sukurkite diegiamą paketą, kuriame yra pasirinktinės mobiliosios darbo sritys, ir įkelkite paketą į „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Diegiamo paketo generavimas</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Diegiamo paketo kūrimas</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Sistemos administratorius</td>
 <td>Taikykite diegiamą paketą, kuriame yra ISV teikiamos pasirinktinės darbo sritys.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Diegiamo paketo taikymas „Microsoft Dynamics 365 for Operations“ sistemai</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Diegiamo paketo taikymas „Microsoft Dynamics 365 for Operations“ sistemai</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Sistemos administratorius</td>
 <td>Publikuokite ISV teikiamas pasirinktines mobiliąsias darbo sritis.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Darbo srities publikavimas</a></td>
+<td><a href="publish-mobile-workspace.md">Darbo srities publikavimas</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <td>9</td>
 <td>Vartotojas</td>
 <td>Prisijunkite ir naudokite mobiliąją programą „Dynamics 365 for Operations“. Į programą įtrauktos publikuojamos mobiliosios darbo sritys.</td>
-<td>„Microsoft“ teikia toliau nurodytas mobiliąsias darbo sritis.
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
-</ul></td>
+<td>Norėdami peržiūrėti „Microsoft“ teikiamų mobiliųjų darbo sričių sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios programos „Dynamics 365 for Operations“ mobiliosios darbo sritys</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Taip pat žiūrėkite
---------
-
-[Neseniai išleistos mobiliosios programos „Dynamics 365 for Operations“ mobiliosios darbo sritys](mobile-workspaces-released.md)
 
 
 

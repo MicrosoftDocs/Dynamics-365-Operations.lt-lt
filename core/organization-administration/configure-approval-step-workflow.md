@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Atlikite šiuos veiksmus, kad nurodytumėte, kam patvirtinimo veiksmas turėtų 
     <td>Konkrečios organizacijos hierarchijos vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite priskirti veiksmą.</li>
-    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima priskirti veiksmą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką.
-    <ol>
+    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima priskirti veiksmą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
     <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
     <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
     </ol></li>
-    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams veiksmas turėtų būti priskirtas.
-    <ul>
+    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams veiksmas turėtų būti priskirtas. <ul>
     <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – veiksmas priskiriamas visiems vartotojams diapazone.</li>
     <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – veiksmas priskiriamas tik paskutiniam vartotojui diapazone.</li>
     <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – veiksmas nepriskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>
@@ -211,13 +209,11 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
     <td>Konkrečios organizacijos hierarchijos vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite perskirti dokumentą.</li>
-    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti dokumentą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką.
-    <ol>
+    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti dokumentą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
     <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
     <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
     </ol></li>
-    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams dokumentas turėtų būti perskirtas.
-    <ul>
+    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams dokumentas turėtų būti perskirtas. <ul>
     <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – dokumentas perskiriamas visiems vartotojams diapazone.</li>
     <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – dokumentas perskiriamas tik paskutiniam vartotojui diapazone.</li>
     <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – dokumentas neperskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>

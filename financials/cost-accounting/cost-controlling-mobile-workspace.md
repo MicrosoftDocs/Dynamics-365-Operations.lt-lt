@@ -3,10 +3,10 @@ title: "Mobilioji darbo sritis Išlaidų kontrolė"
 description: "Šioje temoje pateikiama informacija apie išlaidų kontrolės mobiliąją darbo sritį, kurią galima naudoti mobiliojoje programoje „Microsoft Dynamics 365 for Operations“. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Išlaidų kontrolės mobiliosios darbo srities apžvalga
 -------------------------------------------------
 
-Mobilioji darbo sritis **Išlaidų kontrolė** suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būsenas. Pavyzdžiui, darbuotojas gauna kvietimą į tarptautinę konferenciją, bet organizacija turi padengti visas kelionės išlaidas. Darbuotojas klausia savo vadovo, ar jis gali dalyvauti konferencijoje. Vadovas greitai atidaro mobiliąją darbo sritį **Išlaidų kontrolė** savo mobiliajame įrenginyje, kad peržiūrėtų biudžetą ir nuspręstų, ar darbuotojas gali dalyvauti konferencijoje.
+Mobilioji darbo sritis **Išlaidų kontrolė** suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būsenas. 
+
+Pavyzdžiui, darbuotojas gauna kvietimą į tarptautinę konferenciją, bet organizacija turi padengti visas kelionės išlaidas. Darbuotojas klausia savo vadovo, ar jis gali dalyvauti konferencijoje. Vadovas greitai atidaro mobiliąją darbo sritį **Išlaidų kontrolė** savo mobiliajame įrenginyje, kad peržiūrėtų biudžetą ir nuspręstų, ar darbuotojas gali dalyvauti konferencijoje.
 
 ### <a name="data-security"></a>Duomenų sauga
 
-Duomenys mobiliojoje darbo srityje **Išlaidų kontrolė** apsaugoti naudojant vartotojo kredencialus. Išlaidų centro vadovai gali peržiūrėti tik savo išlaidų centro duomenis. Prieigos lygio apsauga valdoma modulyje **Išlaidų apskaita**. Išlaidų buhalteriai nurodo mobiliosios darbo srities **Išlaidų kontrolė** konfigūraciją modulyje **Išlaidų apskaita**. Kai darbo sritis publikuojama mobiliojoje programoje „Microsoft Dynamics 365 for Operations“, programoje ją galima pasiekti. Todėl visi išlaidų centrų vadovai organizacijoje duomenis gali peržiūrėti tuo pačiu formatu.
+Duomenys mobiliojoje darbo srityje **Išlaidų kontrolė** apsaugoti naudojant vartotojo kredencialus. Išlaidų centro vadovai gali peržiūrėti tik savo išlaidų centro duomenis. Prieigos lygio apsauga valdoma modulyje **Išlaidų apskaita**. 
+
+Išlaidų buhalteriai nurodo mobiliosios darbo srities **Išlaidų kontrolė** konfigūraciją modulyje **Išlaidų apskaita**. Kai darbo sritis publikuojama mobiliojoje programoje „Microsoft Dynamics 365 for Operations“, programoje ją galima pasiekti. Todėl visi išlaidų centrų vadovai organizacijoje duomenis gali peržiūrėti tuo pačiu formatu.
 
 ### <a name="actions-views-and-links"></a>Veiksmai, rodiniai ir saitai
 
@@ -87,7 +91,7 @@ Prieš naudodami mobiliąją darbo sritį **Išlaidų kontrolė**, patikrinkite,
 <tr class="odd">
 <td>Reikia įdiegti „Dynamics 365 for Operations“ 1611 versiją ir 3 arba naujesnį platformos naujinimą.</td>
 <td>Sistemos administratorius</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, sistemos administratorius turėtų peržiūrėti temą <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, sistemos administratorius turėtų peržiūrėti temą <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
 </tr>
 <tr class="even">
 <td>Reikia įdiegti KB 4013633.</td>
@@ -95,9 +99,9 @@ Prieš naudodami mobiliąją darbo sritį **Išlaidų kontrolė**, patikrinkite,
 <td>KB 4013633 (X ++ naujinimas arba metaduomenų karštoji pataisa) yra keturios mobiliosios darbo sritys, skirtos tiekimo grandinei valdyti. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
 <li>Atsisiųskite KB 4013633 iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
 </ol></td>
 </tr>
 <tr class="odd">

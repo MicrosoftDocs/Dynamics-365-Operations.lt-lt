@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Rodyti finansinius duomenis arba duomenis iš „Excel“ darbalapio, kai naudojate eilutės aprašo stulpelį <strong>Saitas su finansinėmis dimensijomis</strong> arba stulpelį <strong>Saitas su darbalapiu</strong>. Kai pasirenkate stulpelio tipą <strong>FD</strong>, numatytieji parametrai automatiškai nurodomi šioms eilutėms:
-    <ul>
+    <td>Rodyti finansinius duomenis arba duomenis iš „Excel“ darbalapio, kai naudojate eilutės aprašo stulpelį <strong>Saitas su finansinėmis dimensijomis</strong> arba stulpelį <strong>Saitas su darbalapiu</strong>. Kai pasirenkate stulpelio tipą <strong>FD</strong>, numatytieji parametrai automatiškai nurodomi šioms eilutėms: <ul>
     <li><strong>Knygos kodas / atributo kategorija:</strong> FAKTINIS</li>
     <li><strong>Knygos kodas / atributo kategorija:</strong> FAKTINIS</li>
     <li><strong>Finansiniai metai:</strong> PAGRINDINIS</li>
@@ -359,7 +358,7 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     <li><strong>Įtraukti laikotarpiai:</strong> PERIODINIS</li>
     <li><strong>Stulpelio plotis:</strong> 14</li>
     </ul>
-    Šiuos numatytuosius parametrus galite keisti.</td>
+Šiuos numatytuosius parametrus galite keisti.</td>
     </tr>
     <tr class="even">
     <td>SKAIČ.</td>
@@ -379,7 +378,7 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     </tr>
     <tr class="even">
     <td>UŽPILDAS</td>
-    <td>Užpildyti langelį simboliu, parašytu viengubose kabutėse. Jei neįvesite simbolio, stulpelis bus tuščias. Pavyzdžiui, norėdami užpildyti stulpelį daugtaškiu (...), įveskite užpildydami stulpelį, įveskite <strong>UŽPILDYTI</strong> <strong>'.'</strong>.</td>
+    <td>Užpildyti langelį simboliu, parašytu viengubose kabutėse. Jei neįvesite simbolio, stulpelis bus tuščias. Pavyzdžiui, norėdami užpildyti stulpelį daugtaškiu (...), įveskite <strong>UŽPILDYTI</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PUSLAPIS</td>
@@ -387,12 +386,11 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     </tr>
     <tr class="even">
     <td>SAV</td>
-    <td>Rodyti duomenis iš „Excel“ darbalapio. Kai pasirenkate stulpelio tipą <strong>SAV</strong>, numatytieji parametrai automatiškai nurodomi šioms eilutėms:
-    <ul>
+    <td>Rodyti duomenis iš „Excel“ darbalapio. Kai pasirenkate stulpelio tipą <strong>SAV</strong>, numatytieji parametrai automatiškai nurodomi šioms eilutėms: <ul>
     <li><strong>Finansiniai metai:</strong> PERIODINIS</li>
     <li><strong>Laikotarpis:</strong> PAGRINDINIS</li>
     </ul>
-    Šiuos numatytuosius parametrus galite keisti.</td>
+Šiuos numatytuosius parametrus galite keisti.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
