@@ -1,4 +1,4 @@
-# [Lokalizavimo apžvalga](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Lokalizavimo apžvalga](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Azijos ir Ramiojo vandenyno regionas
 ## Australija
 ### [Banko failų formatai](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Ilgalaikio turto išankstinio įsigijimo registravimas](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Pašto indeksai](emea-import-create-postal-codes-manually.md)
 ## [Registracijos ID](emea-registration-ids.md)
+## [Atvirkštinio mokesčio PVM](emea-reverse-charge.md)
 ## [SEPA kredito pervedimų apžvalga](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA tiesioginio debeto apžvalga](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Spausdinimo formų pasirašančiųjų nustatymas](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Žurnalų sąrašo ataskaita](emea-deu-journal-list-report.md)
 ### [Atskiros pardavimo kredito pažymų žymos spausdinimas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Vengrija
-### [Ilgalaikio turto nusidėvėjimo metodai](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Ilgalaikio turto nusidėvėjimo metodai](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Mažai kainuojantis ilgalaikis turtas](emea-hun-low-cost-fixed-assets.md)
 ### [Ilgalaikio turto perkėlimas į atsargas](emea-hun-fixed-asset-to-inventory.md)
 ## Italija
@@ -138,6 +139,7 @@
 ### [Ilgalaikio turto grupės perkainojimas](emea-esp-fixed-asset-group-revaluation.md)
 ### [ES vidaus PVM](emea-esp-intra-community-vat.md)
 ### [Vienkartiniai klientai](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Čekių spausdinimas naudojant ispanišką maketą](emea-esp-print-checks-with-spanish-layout.md)
 ### [Paprastųjų vekselių parinktys](emea-esp-promissory-note-options.md)
 ### [Pardavimo ir pirkimo ciklai](emea-esp-sales-purchase-cycle.md)
 ### [Specialūs įrašai ir atidarymo žiniaraščiai](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Finansų knygos](latam-bra-fiscal-books.md)
 #### [ICMS mokesčių finansiniai dokumentai](latam-bra-icms-tax-fiscal-documents.md)
 #### [Finansinių dokumentų importavimas](latam-bra-import-fiscal-documents.md)
+#### [Juridinio subjekto operacijų eksportavimas ir importavimas iš jungtinės didžiosios knygos](latam-bra-general-ledger-consolidation-transactions.md)
 #### [NF-e XML dokumentų ir DANFE failų importavimas bei tikrinimas](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Proceso elektroninio mokėjimo pavedimai](latam-bra-process-electronic-payment-remittances.md)
 #### [Finansiniai dokumentai](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Finansinių dokumentų teksto vietos rezervavimo ženklai](latam-bra-fiscal-document-text-placeholders.md)
 #### [Papildomi finansiniai pirkimo dokumentai](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,11 +167,13 @@
 ### [Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e procesas](latam-bra-nf-e-process.md)
 ### [Juridinių subjektų parametrai](latam-bra-legal-entity-parameters.md)
+### [CIAP ilgalaikio turto įgijimas](latam-bra-ciap-fixed-asset.md)
+### [CIAP ilgalaikio turto likvidavimas ](latam-bra-ciap-fixed-asset.md)
 ### [Mokesčiai](latam-bra-calculate-taxes.md)
 #### [Mokesčių atributai](latam-bra-tax-attributes.md)
 #### [Mokesčių mokėjimai](latam-bra-tax-payments.md)
 ## Meksika
-### [Koregavimo infliacijos deklaracijos ataskaita](latam-mex-adjustment-inflation-declaration-report.md)
+### [Infliacijos koregavimo deklaracijos ataskaita](latam-mex-adjustment-inflation-declaration-report.md)
 ### [DIOT deklaracijos išrašas](latam-mex-diot-declaration-statement.md)
 ### [Elektroninės sąskaitos faktūros](latam-mex-CFDI-electronic-invoices.md)
 ### [Elektroniniai DK apskaitos išrašai](latam-mex-electronic-ledger-accounting-statements.md)

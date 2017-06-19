@@ -21,4 +21,5 @@
 # Prekės ir paketo sekimas
 ## [Atsargų paketo susiejimas](merge-inventory-batches.md)
 ## [Prekės ir žaliavos sekimas](trace-items-raw-materials-inventory-production-sales.md)
+## [Serijos numerio registravimas pardavimo proceso metu](../sales-marketing/register-serial-numbers-sales-process.md)
 

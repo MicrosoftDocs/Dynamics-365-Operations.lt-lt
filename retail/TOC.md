@@ -15,8 +15,9 @@
 ## [Mažmeninės prekybos aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
 ## [Mažmeninės prekybos laikas ir buvimas darbe](retail-time-attendance.md)
 # Modernusis elektroninis kasos aparatas (MEKA) ir „Cloud POS‟
-## Išoriniai aparatūros įrenginiai
+## Aparatūra ir išoriniai įrenginiai
 ### [Mažmeninės prekybos išorinių įrenginių apžvalga](retail-peripherals-overview.md)
+### [Mažmeninės prekybos periferinis simuliatorius](retail-peripheral-simulator.md)
 ### [„Microsoft“ išbandyti EKA aparatūros išoriniai įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
 ### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrano maketas
@@ -39,9 +40,10 @@
 ### [MPOS konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
 ### [„Cloud POS“ ir MEKA išplėstinės registracijos nustatymas](extended-logon.md)
 ### [Mažmeninės prekybos sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
-## Gavimai
-### [Gavimo šablonų nustatymas](receipt-templates-printing.md) 
+## Kvitai
+### [Kvitų šablonų nustatymas](receipt-templates-printing.md) 
 ### [Kvitų iš EKA siuntimas el. paštu](email-receipts.md)
+## [Užduočių įrašymo priemonė ir EKA žinynas](task-recorder-retail-pos.md)
 # Stebėjimas ir analizė
 ## [Pardavimo ir maržos efektyvumo stebėjimas](monitor-sales-margin-performance.md)
 ## [Pardavimo tendencijų ir modelių analizavimas](analyze-sales-trends-patterns.md)
@@ -52,7 +54,8 @@
 # Nuolaidos ir kainų koregavimas
 ## [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
 ## [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](optimal-combination-overlapping-discounts.md)
-## [Konkretaus kanalo nuolaidų nustatymas](define-channel-specific-discounts.md)
+## [Kanalui būdingų nuolaidų nustatymas](define-channel-specific-discounts.md)
+## [Mažmeninės prekybos kuponų kūrimas](retail-coupons.md)
 # Produktai ir prekyba
 ## [Mažmeninės prekybos hierarchijos](retail-hierarchies.md)
 ## [Atributų kūrimas ir valdymas](create-manage-attributes.md)
@@ -60,6 +63,7 @@
 ## [Brūkšninių kodų nustatymas](set-up-bar-codes.md)
 ## [Brūkšninių kodų skaičių sekų nustatymas](set-up-bar-code-masks.md)
 ## [Asortimentų nustatymas](set-up-assortments.md)
+## [Į asortimentą neįtrauktų produktų pardavimas ir grąžinimas](sell-return-outside-assortments.md)
 # Lojalumas
 ## [Klientų lojalumo programos nustatymas](set-up-customer-loyalty-program.md)
 # Atsargos
@@ -69,15 +73,15 @@
 ## [Organizacijos ir organizacijų hierarchijos (prekybos pagrindai)](organizational-hierarchies-commerce-essentials.md)
 # [IT profesionalų ir kūrėjų turinys](dev-itpro/TOC.md)
 
-# [Finansai](/dynamics365/operations/financials/index)
+# [Finansai](/dynamics365/unified-operations/financials/index)
 
-# [Personalas](/dynamics365/operations/human-resources/index)
+# [Personalas](/dynamics365/unified-operations/talent/index)
 
-# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
+# [Tiekimo grandinės valdymas](/dynamics365/unified-operations/supply-chain/index)
 
-# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+# [Kūrėjas ir administratorius](/dynamics365/unified-operations/dev-itpro/index)
 
 # Kiti ištekliai
-## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [„Dynamics 365 for Retail‟ sąvokų žodynas](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

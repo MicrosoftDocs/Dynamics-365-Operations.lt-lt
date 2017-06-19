@@ -1,5 +1,5 @@
 # „Power BI“ turinio paketas
-## [Kaštų valdymo turinio paketas](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Kaštų valdymo turinio paketas](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Iš anksto nustatyta savikaina
 ## [Įkainojimo lapas](costing-sheets.md)
 ## [Įkainojimo versija](costing-versions.md)

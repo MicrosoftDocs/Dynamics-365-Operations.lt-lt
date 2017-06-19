@@ -1,34 +1,34 @@
 # [Įvadas](index.md)
 
-# [Supažindinimas su „Dynamics 365 for Operations‟](get-started/onboarding-home.md)
-## „Dynamics 365 for Operations‟ pristatymas
+# [Supažindinimas su „Finance and Operations”](get-started/onboarding-home.md)
+## „Finance and Operations” įvadas
 ### [„Microsoft FastTrack for Dynamics 365‟ darbo pradžia](get-started/fasttrack-dynamics-365-overview.md)
-### [Registravimasis prenumeratai gauti](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Kaip gauti vietinę „Dynamics AX 2012‟ versiją](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Demonstracinės aplinkos diegimas](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+### [Registravimasis prenumeratai gauti](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Kaip gauti vietinę „Dynamics AX 2012‟ versiją](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Demonstracinės aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Vartotojo sąsajos naršymas
 ### [Veiksmo ieška](get-started/action-search.md)
 ### [Išplėstinio filtravimo ir užklausų sintaksė](get-started/advanced-filtering-query-options.md)
-### [„Dynamics 365 for Operations‟ klientų DUK](get-started/client-faq.md)
+### [„Finance and Operations” kliento DUK](get-started/client-faq.md)
 ### [Darbo sričių konfigūravimas ir filtravimas](get-started/configure-filter-workspaces.md)
 ### [Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange](get-started/display-pages-side-by-side.md)
 ### [Naršymo ieška](get-started/navigation-search.md)
 ### [Vartotojo patirties personalizavimas](get-started/personalize-user-experience.md)
 ### [Spartieji klavišai](get-started/shortcut-keys.md)
 ### [Puslapių rodymo valdymas](get-started/window-management.md)
-### [Susipažinkite su „Lifecycle Services“](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Susipažinkite su „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Gaukite pagalbos
-### [Pagalbos apžvalga](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Pagalbos prijungimas](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Pagalbos apžvalga](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Pagalbos prijungimas](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Laukų aprašų peržiūra ir eksportas](get-started/view-export-field-descriptions.md)
 
 ### Užduočių vadovai ir užduočių įrašymo priemonė
-#### [Užduočių įrašymo priemonė](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Dokumentų ar mokymo kūrimas](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Užduočių įrašymo priemonė](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Dokumentų ar mokymo kūrimas](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Konkrečių šalių / regionų žinyno turinys](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Konkrečių šalių / regionų žinyno turinys](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Savo organizacijos konfigūravimas](organization-administration/organization-administration-home-page.md)
 ## [Organizacijos ir organizacijų hierarchijos](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [Pranešimo apdorojimo paketinės užduoties konfigūravimas](organization-administration/workflow-batch-job-critical.md)
 ## [Darbo eigos tipų ataskaita](organization-administration/workflow-types-report.md)
 
-# [Finansai](/dynamics365/operations/financials/index)
+# [Finansai](/dynamics365/unified-operations/financials/index)
 
-# [Personalas](/dynamics365/operations/human-resources/index)
+# [Personalas](/dynamics365/unified-operations/talent/index)
 
-# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
+# [Mažmeninė prekyba](/dynamics365/unified-operations/retail/index)
 
-# [Tiekimo grandinės valdymas](/dynamics365/operations/supply-chain/index)
+# [Tiekimo grandinės valdymas](/dynamics365/unified-operations/supply-chain/index)
 
-# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+# [Kūrėjas ir administratorius](/dynamics365/unified-operations/dev-itpro/index)
 
 # Kiti ištekliai
-## [„Dynamics 365 for Operations‟ sąvokų žodynas](get-started/glossary.md)
-## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [„Finance and Operations” sąvokų žodynas](get-started/glossary.md)
+## [Kas nauja ar pasikeitė](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

@@ -43,6 +43,8 @@
 ### [Kliento kodų nustatymas](procurement/set-up-vendor-accounts.md)
 ### [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](procurement/vendor-collaboration-work-external-vendors.md)
 ### [Tiekėjo bendradarbiavimas su klientais](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](procurement/use-external-catalogs-for-punchout.md)
+### [Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti](procurement/set-up-external-catalog-for-punchout.md)
 ### [Bendradarbiavimas su tiekėjais naudojant Tiekėjo portalą](procurement/collaborate-vendors-vendor-portal.md)
 ### [Tiekėjo bendradarbiavimo mobilioji darbo sritis](procurement/vendor-collaboration-mobile-workspace.md)
 ### [Tiekėjo portalo vartotojų sauga](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [Pirkimo sutartys](procurement/purchase-agreements.md)
 ## Gavimo dokumentai ir SF išrašymas
 ### [Produkto gavimas pagal pirkimo užsakymą](procurement/product-receipt-against-purchase-orders.md)
-### [Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [Tiekėjų registravimo profiliai](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Tiekėjų registravimo profiliai](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Produkto informacijos valdymas
-## Produkto informacija
-### [KS ir formulė](production-control/bill-of-material-bom.md)
-### [KS kūrimo įrankio funkcija](production-control/bom-designer-functionality.md)
-### [Produkto dimensija](pim/product-dimensions.md)
-### [Numatytieji dimensijų ir produkto variantų užsakymų parametrai](production-control/default-order-settings.md)
-### [Produkto numerių nomenklatūra](pim/product-variant-identification-nomenclature.md)
-### [DUK apie su produktu susijusį vertimą](pim/translations-product-related-information.md)
-### [Serijos numerio registravimas pardavimo proceso metu](sales-marketing/register-serial-numbers-sales-process.md)
-### [Ieškoti produkto įvedant užsakymą](pim/search-products-product-variants.md)
-## Produkto konfigūracijos kūrimas
+## [Produktų informacijos peržiūra](pim/product-information.md)
+## Tvarkyti produktų kategorijas
+## Tvarkyti produktų informaciją
+### Tvarkyti produkto aprašą
+#### [Produktų numerių nomenklatūra](pim/product-variant-identification-nomenclature.md)
+#### Produktų šablonai
+#### [Produkto dimensija](pim/product-dimensions.md)
+#### Produkto atributai
+#### Produkto paveikslėliai ir priedai
+#### Produkto identifikatoriai
+#### [Produkto informacijos vertimas DUK](pim/translations-product-related-information.md)
+### Produktų išdavimas juridiniams subjektams
+### Produktų ieška
+#### [Ieškoti produkto įvedant užsakymą](pim/search-products-product-variants.md)
+### Produkto paruošimas planavimui
+#### [Numatytieji dimensijų ir produkto variantų užsakymų parametrai](production-control/default-order-settings.md)
+#### Prognozės modeliai ir prekių paskirstymo raktai
+### Produkto paruošimas gamybai
+#### KS ir formulė
+##### [Komplektavimo specifikacijos ir formulės](production-control/bill-of-material-bom.md)
+##### [KS konstruktoriaus naudojimas](production-control/bom-designer-functionality.md)
+##### [Formulės konstruktoriaus naudojimas](production-control/formula-designer.md)
+#### Maršrutai
+#### „Lean manufacturing“
+### Produktų paruošimas sandėliui ir logistikai
+### Produktų savikainos įvertinimas
+#### [KS skaičiavimai](cost-management/bom-calculations.md)
+## Tvarkyti produkto konfigūracijos modelius
 ### [Produkto konfigūracijos modelio kūrimas](pim/build-product-configuration-model.md)
 ### [DUK apie produkto konfigūracijos modelio skaičiavimą](pim/calculate-product-configuration-models.md)
 ### [Konfigūracijos taisyklė](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [Pakartotinis produkto konfigūracijos naudojimas](pim/reuse-product-configurations.md)
 ### [Konfigūracijos modelio nustatymas](pim/set-up-maintain-product-configuration-model.md)
 ### [Sistemos nustatytas ir vartotojo nustatytas lentelės apribojimas](pim/system-defined-user-defined-table-constraints.md)
+## Produkto informacijos duomenų importavimas
+## Produkto informacijos duomenų eksportavimas
 # Gamybos kontrolė
 ## [Gamybos procesų apžvalga](production-control/production-process-overview.md)
 ## [Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas](production-control/mixed-mode-plan.md)
@@ -96,6 +118,8 @@
 #### [Gamybos užsakymo būsenos atšaukimas](production-control/reverse-production-order-status.md)
 #### [Gamybos užsakymų skelbimas baigtais](production-control/report-production-orders-as-finished.md)
 #### [KS skelbimas baigtomis](production-control/report-boms-as-finished.md)
+#### [Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas](production-control/cross-docking-opportunities.md)
+#### [Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį](production-control/register-material-consumption-hand-held-device.md)
 #### [Medžiagų keitimas gamyboje](production-control/substitute-items-bom-lines.md)
 #### [Gamybos vykdymo registracija](production-control/registration-manufacturing-execution.md)
 #### [Gamybos grįžtamasis ryšys](production-control/production-feedback.md)
@@ -111,6 +135,7 @@
 #### [„Lean‟ organizacijos modeliavimas](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [Operacijų ištekliai](production-control/operations-resources.md)
 ### „Kanban“ užduočių planavimas
+#### [„Lean manufacturing“ vaizdinis planavimas](production-control/visual-scheduling-lean-manufacturing.md)
 #### [„Lean manufacturing“ „kanban“ užduočių planavimas](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [Užduočių planavimas](production-control/job-scheduling.md)
 ### „Kanban“ užduočių valdymas
@@ -128,6 +153,7 @@
 #### [Operacijų planavimas](production-control/operations-scheduling.md)
 #### [Operacijų planavimo parinktys](production-control/operation-scheduling-options.md)
 #### [Užduočių planavimas](production-control/job-scheduling.md)
+#### [Ganto diagramos naudojimas užduotims planuoti](production-control/visual-scheduling-production.md)
 ### Gamybos užduočių valdymas
 #### [Konsoliduotieji paketiniai užsakymai](production-control/consolidated-batch-orders.md)
 #### [Medžiagų keitimas gamyboje](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [Transportavimo valdymas](transportation/transportation-management-overview.md)
 ## [Transportavimo mechanizmas](transportation/transportation-management-engines.md)
 # Sandėlio valdymas
+## Išplėstinis sandėlio valdymas
+### [Perkėlimas iš AX 2012 į „Finance and Operations”](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## Sąranka 
 ### [Darbo kontrolė naudojant darbo šablonus ir vietos nurodymus](warehousing/control-warehouse-location-directives.md)
 ### [Sandėlio darbuotojų valdymas](warehousing/manage-warehouse-workers.md)
 ### [Maketo nustatymas](warehousing/warehouse-configuration.md)
 ### [Sandėlio darbo strategijos](warehousing/warehouse-work-policies.md)
 ### [Matavimo vienetų ir sandėliavimo strategijos](warehousing/unit-measure-stocking-policies.md)
-### [Sandėlio „Power BI“ turinys](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [Sandėlio „Power BI“ turinys](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [Paketo ir numerio lentelės patvirtinimas](warehousing/batch-and-license-plate-confirmation.md)
+### [Atsargų perkėlimas su susijusiu darbu](warehousing/move-inventory-associated-work.md)
+### [Sistemos grupavimas atidarytame darbų sąraše](warehousing/system-group-on-open-work-list.md)
+### [Produkto patvirtinimas klasterio paėmimui](warehousing/cluster-picking-item-confirmation.md)
 ## Paėmimas ir pakavimas
 ### [Pakavimo medžiagos ir mokesčiai](warehousing/pack-materials-packing-material-fees.md)
+### [Vienetų paėmimo patvirtinimas](warehousing/piece-picking-confirmation.md)
 ## Atsargų skaičiavimas
 ### [Atsargų blokavimas](inventory/inventory-blocking.md)
-### [Ciklo skaičiavimas](warehousing/cycle-counting.md)
+### [Ciklų skaičiavimas](warehousing/cycle-counting.md)
+### [Dalinis vietos ciklų skaičiavimas](warehousing/partial-location-cycle-counting.md)
 ### [Atsargų žurnalas](inventory/inventory-journals.md)
 ### [Atsargų vieta](inventory/inventory-locations.md)
 ### [Atsargų būsena](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## Krovimas į konteinerius 
 ## Papildymas
 ### [Papildymas](warehousing/replenishment.md)
+### [Papildymas išėmimų „kanban“](warehousing/material-replenishment-withdrawal-kanban.md)
 ## Mobilieji įrenginiai
 ### [Sandėliavimo programos diegimas ir konfigūravimas](warehousing/install-configure-warehousing-app.md)
 ### [Laukų pavadinimų konfigūravimas sandėliavimo programoje](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [Sandėlio mobiliųjų įrenginių portalas (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Sandėlio mobiliųjų įrenginių rodymo parametrai](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [Finansai](/dynamics365/operations/financials/index)
+# [Finansai](/dynamics365/unified-operations/financials/index)
 
-# [Personalas](/dynamics365/operations/human-resources/index)
+# [Personalas](/dynamics365/unified-operations/talent/index)
 
-# [Mažmeninė prekyba](/dynamics365/operations/retail/index)
+# [Mažmeninė prekyba](/dynamics365/unified-operations/retail/index)
 
-# [Kūrimas ir administravimas](/dynamics365/operations/dev-itpro/index)
+# [Kūrėjas ir administratorius](/dynamics365/unified-operations/dev-itpro/index)
 
 # Kiti ištekliai
-## [„Dynamics 365 for Operations‟ sąvokų žodynas](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [Kas nauja ar pasikeitė](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [„Finance and Operations” sąvokų žodynas](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [Kas nauja ar pasikeitė](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
