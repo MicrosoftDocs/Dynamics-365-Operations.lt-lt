@@ -3,7 +3,7 @@ title: "Išankstinio mokėjimo SF ir išankstiniai mokėjimai"
 description: "Šiame straipsnyje aprašomi ir priešpriešinami du išankstinių mokėjimų metodai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos i�
 description: "Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Įveskite sąskaitų ir dimensijų kombinacijas (segmentuoto įrašo val
 description: "Šiame straipsnyje aprašyta, kaip įvesti sąskaitos ir dimensijų kombinacijas arba DK sąskaitas. Įvedimo patirtis dažnai vadinama segmentuotu įrašų valdikliu."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

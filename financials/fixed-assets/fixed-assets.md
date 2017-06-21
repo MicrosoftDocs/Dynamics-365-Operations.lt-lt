@@ -3,7 +3,7 @@ title: Ilgalaikio turto pagrindinis puslapis
 description: "Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

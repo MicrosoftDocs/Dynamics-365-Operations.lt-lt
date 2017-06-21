@@ -3,7 +3,7 @@ title: "Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainoj
 description: "Šiame straipsnyje paaiškinta, kaip modeliuoti išlaidų pokyčio poveikį pagamintos prekės apskaičiuotoms išlaidoms naudojant atskirą suplanuotų išlaidų įkainojimo versiją."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Palūkanų ir mokesčių atsisakymas, grąžinimas arba atšaukimas"
 description: "Šiame straipsnyje paaiškinama, kaip atsisakyti, grąžinti ir atšaukti mokesčius už palūkanas ir įmokas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

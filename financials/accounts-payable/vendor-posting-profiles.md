@@ -3,7 +3,7 @@ title: "Tiekėjų registravimo šablonai"
 description: "Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas į DK."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

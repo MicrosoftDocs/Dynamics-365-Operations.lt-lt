@@ -3,7 +3,7 @@ title: "Ataskaitų dizaino įrankio ataskaitų medžio aprašai"
 description: "Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

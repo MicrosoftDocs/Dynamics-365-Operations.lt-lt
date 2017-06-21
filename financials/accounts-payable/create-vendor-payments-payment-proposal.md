@@ -3,7 +3,7 @@ title: "Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą"
 description: "Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia. Mokėjimo pasiūlymai dažnai naudojami norint sukurti tiekėjų mokėjimus, nes užklausą galima naudoti norint greitai pasirinkti tiekėjų sąskaitas apmokėjimui pagal tokius kriterijus kaip terminas ir nuolaida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

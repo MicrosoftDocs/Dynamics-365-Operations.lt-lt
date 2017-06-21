@@ -3,7 +3,7 @@ title: "Ilgalaikio turto remonto išrašas, skirtas Lietuvai"
 description: "Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

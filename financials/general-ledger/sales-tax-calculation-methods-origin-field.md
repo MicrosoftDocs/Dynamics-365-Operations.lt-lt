@@ -3,7 +3,7 @@ title: "PVM skaičiavimo metodas lauke Kilmė"
 description: "Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Įkainojimo versijos"
 description: "Šiame straipsnyje pateikta informacija apie įkainojimo versijas, kaip jas prižiūrėti, ir duomenų, kuriuos į jas galima įtraukti, tipus. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

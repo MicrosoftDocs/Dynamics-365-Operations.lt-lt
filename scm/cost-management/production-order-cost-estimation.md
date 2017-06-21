@@ -3,7 +3,7 @@ title: "Gamybos užsakymo savikainos įvertinimas"
 description: "Šiame straipsnyje pateikta informacija apie gamybos savikainos įvertinimą. Gamybos savikainos įvertinime pateiktos numatomo prekės gamybos medžiagų ir pajėgumo suvartojimo išlaidos pagal suplanuotą gamybos užsakymo kiekį."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

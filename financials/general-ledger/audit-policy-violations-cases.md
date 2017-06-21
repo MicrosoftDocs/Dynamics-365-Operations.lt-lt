@@ -3,7 +3,7 @@ title: "Audito strategijos pažeidimai ir atvejai"
 description: "Šiame straipsnyje paaiškinta, kaip sugeneruoti audito atvejus iš audito strategijos taisyklių pažeidimų. Jame taip pat pateikta informacija apie įvairius būdus, kokiais audito strategijoms naudojamas dokumentų pasirinkimo datų diapazonas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

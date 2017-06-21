@@ -3,7 +3,7 @@ title: "Išteklių galimybės"
 description: "Šiame straipsnyje pateikiama informacija apie išteklių pajėgumus. Pajėgumas yra operacijų ištekliaus gebėjimas atlikti tam tikrą veiklą. Šiame straipsnyje paaiškinama, kaip naudojami pajėgumai ir susijusios koncepcijos, pvz., įgudimo lygis ir prioritetas, siekiant pasirinkti tinkamus veiklos išteklius."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

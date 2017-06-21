@@ -3,7 +3,7 @@ title: "Spausdintų formų pasirašančiųjų nustatymas"
 description: "Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

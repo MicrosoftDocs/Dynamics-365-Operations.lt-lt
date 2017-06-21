@@ -3,7 +3,7 @@ title: "KS ir formulės"
 description: "Šiame straipsnyje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

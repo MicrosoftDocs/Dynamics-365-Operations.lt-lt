@@ -3,7 +3,7 @@ title: "Projekto SF išrašymas"
 description: "Šiame straipsnyje pateikiama projekto SF išrašymo Laiko ir medžiagų bei Fiksuotos kainos projektams apžvalga. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

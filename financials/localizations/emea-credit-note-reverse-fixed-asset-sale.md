@@ -3,7 +3,7 @@ title: Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 description: "Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

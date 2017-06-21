@@ -3,7 +3,7 @@ title: "Standartinių išlaidų konvertavimo peržiūra"
 description: "Šiame straipsnyje apžvelgiami procesai, padėsiantys nustatyti ir vykdyti standartinių išlaidų konvertavimą. Išvardytus veiksmus reikia atlikti įvykdžius būtinąsias standartinių išlaidų konvertavimo sąlygas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

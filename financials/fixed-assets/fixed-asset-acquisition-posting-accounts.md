@@ -3,7 +3,7 @@ title: "Ilgalaikio turto įsigijimo registravimo sąskaitos"
 description: "Šiame straipsnyje paaiškinama, kaip nustatyti turto įgijimo DK registravimo sąskaitas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

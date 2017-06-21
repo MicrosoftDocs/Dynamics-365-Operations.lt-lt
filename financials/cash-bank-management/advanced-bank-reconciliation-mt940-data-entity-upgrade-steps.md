@@ -3,7 +3,7 @@ title: "Pažangaus banko suderinimo MT940 importavimas – Sudėtinis duomenų o
 description: "Į banko išrašo importavimo objektą reikia įtraukti eilės numerį, kad būtų palaikomas MT940 formatas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

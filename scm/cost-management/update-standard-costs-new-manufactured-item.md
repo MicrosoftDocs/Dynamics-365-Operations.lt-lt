@@ -3,7 +3,7 @@ title: "Naujos pagamintos prekės standartinių savikainų atnaujinimas"
 description: "Šiame straipsnyje patariama, kaip atnaujinti naujos pagamintos prekės standartines išlaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

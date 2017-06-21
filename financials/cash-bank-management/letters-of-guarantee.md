@@ -3,7 +3,7 @@ title: "Garantiniai raštai"
 description: "Šiame straipsnyje pateikiama informacija apie garantinius raštus. Garantiniame rašte bankas sutinka mokėti tam tikrą pinigų sumą asmeniui, jei vienas iš banko klientų laiku nesumokės arba neįvykdys įsipareigojimo tam asmeniui."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Grynųjų pinigų ir banko valdymo pagrindinis puslapis"
 description: "Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su tomis banko sąskaitomis."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

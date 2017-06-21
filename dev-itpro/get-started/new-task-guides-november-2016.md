@@ -3,7 +3,7 @@ title: "Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)"
 description: "Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: "Darbo sričių konfigūravimas ir filtravimas"
 description: "Šiame straipsnyje pateikiama apžvalga apie tai, kaip konfigūruoti ir filtruoti darbo sritis."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

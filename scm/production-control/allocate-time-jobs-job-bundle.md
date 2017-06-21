@@ -3,7 +3,7 @@ title: "Laiko paskirstymas sugrupuotų užduočių užduotims"
 description: "Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

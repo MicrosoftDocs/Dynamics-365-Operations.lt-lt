@@ -3,7 +3,7 @@ title: "Gamybos užsakymų kaštų analizė"
 description: "Šiame straipsnyje pateikiama informacija apie galimą atlikti baigtų ir dabartinių gamybos užsakymų išlaidų analizę. Analizuoti įvertintas savikainas ir faktines išlaidas galite naudodami puslapį Kainos skaičiavimas arba ataskaitą Išlaidų įvertinimas ir įkainojimas. Galite peržiūrėti kiekvienos sudedamosios prekės, nukreipimo operacijos ir netiesioginių išlaidų informaciją apie numatytąsias ir faktines išlaidas (ir kiekį)."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

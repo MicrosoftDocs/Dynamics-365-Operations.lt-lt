@@ -3,7 +3,7 @@ title: "PVM išrašo informacija, skirta Lietuvai"
 description: "Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Laiko ir buvimo darbe registracija
 description: "Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šiame straipsnyje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

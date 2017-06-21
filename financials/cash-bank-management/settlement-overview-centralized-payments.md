@@ -3,7 +3,7 @@ title: "Centralizuotų mokėjimų sudengimo apžvalga"
 description: "Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti keliuose juridiniuose subjektuose ir yra sutaupoma laiko supaprastinant mokėjimo pasiūlymo procesą, atsiskaitymo procesą, atvirų operacijų redagavimą ir centralizuotų mokėjimų uždarytų operacijų redagavimą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

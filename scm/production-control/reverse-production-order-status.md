@@ -3,7 +3,7 @@ title: "Atšaukti gamybos užsakymo būseną"
 description: "Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

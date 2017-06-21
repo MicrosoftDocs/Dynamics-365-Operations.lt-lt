@@ -3,7 +3,7 @@ title: "„Mokėti sumokėjus“ principo tiekėjų sutartys"
 description: "Šiame straipsnyje paaiškintos tiekėjo sutarčių „mokėti sumokėjus“ (PWP) sąlygos. PWP sąlygos leidžia iš dalies arba visiškai išskaityti mokėjimą tiekėjui tol, kol projekto klientas jums sumokės. Šiame straipsnyje taip pat pateikiamas realus pavyzdys, parodantis, kaip projektui galima naudoti PWP sąlygas.."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

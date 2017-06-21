@@ -3,7 +3,7 @@ title: KS konstruktoriaus funkcija
 description: "Šiame straipsnyje aprašyta, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

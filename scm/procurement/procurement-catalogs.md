@@ -3,7 +3,7 @@ title: "Įsigijimo katalogai"
 description: "Šiame straipsnyje aukštu lygiu aprašoma, kaip pirkimo specialistai gali nustatyti ir tvarkyti įsigijimo katalogus. Įsigijimo katalogais apibrėžiamos prekės ir paslaugos, kurias įmonės darbuotojai gali užsakyti naudoti viduje."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

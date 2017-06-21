@@ -3,7 +3,7 @@ title: "Pareigų biudžeto trikčių šalinimas"
 description: "Šiame straipsnyje pateikiami atsakymai į klausimus, kurie gali kilti, kai konfigūruojate pareigų biudžetą. Ji skirta dažnai užduodami klausimai apie tai, kaip sukurti biudžeto išlaidų elementus, kompensacijų grupes ir kompensavimo tinklelius."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

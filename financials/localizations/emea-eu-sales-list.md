@@ -3,7 +3,7 @@ title: "ES pardavimo sąrašo ataskaitos"
 description: "Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

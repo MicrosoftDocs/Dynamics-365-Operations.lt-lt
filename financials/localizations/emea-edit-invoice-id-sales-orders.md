@@ -3,7 +3,7 @@ title: "Pardavimo užsakymų SF ID redagavimas (Rytų Europa)"
 description: "Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

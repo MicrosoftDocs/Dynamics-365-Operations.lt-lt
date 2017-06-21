@@ -3,7 +3,7 @@ title: "PVM registro operacijos (Rytų Europa)"
 description: "Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

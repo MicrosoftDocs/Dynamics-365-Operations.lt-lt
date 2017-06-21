@@ -3,7 +3,7 @@ title: "Žurnalo įrašų ir operacijų peržiūra"
 description: "Šiame straipsnyje paaiškinti įvairūs būdai, kaip galite peržiūrėti žurnalo įrašus ir operacijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

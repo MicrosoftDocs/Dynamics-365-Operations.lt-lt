@@ -3,7 +3,7 @@ title: "Finansinių ataskaitų dizaino įrankio vartotojo nuostatos"
 description: "Šiame straipsnyje paaiškinama, kaip nustatyti vartotojo nuostatas, siekiant tinkinti vartotojo sąveiką su finansinių ataskaitų dizaino įrankiu ir valdyti pirminio prisijungimo patirtį. Jūs taip pat galite valdyti, kaip rodomos atskiros ataskaitos, ataskaitų biblioteka ir numatytosios failų vietos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

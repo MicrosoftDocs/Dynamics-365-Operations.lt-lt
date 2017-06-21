@@ -3,7 +3,7 @@ title: "Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai pask
 description: "Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame atliekami keli daliniai mokėjimai, kai kurie mokėjimo nuolaidos laikotarpiu, o kiti ne mokėjimo nuolaidos laikotarpiui."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
