@@ -3,7 +3,7 @@ title: "Akredityvai ir importo dokumentų inkasavimas"
 description: "Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

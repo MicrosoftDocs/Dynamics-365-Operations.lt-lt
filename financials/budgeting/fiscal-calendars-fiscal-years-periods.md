@@ -3,7 +3,7 @@ title: Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai
 description: "Šiame straipsnyje aptarti finansiniai kalendoriai, finansiniai metai ir laikotarpiai ir kaip juos naudoti juridiniams subjektams, ilgalaikiam turtui ir biudžeto sudarymui."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

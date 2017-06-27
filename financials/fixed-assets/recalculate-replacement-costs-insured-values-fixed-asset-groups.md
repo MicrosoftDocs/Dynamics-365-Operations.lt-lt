@@ -3,7 +3,7 @@ title: "Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo
 description: "Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "DK užsienio valiutos kurso pasikeitimas"
 description: "Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Užduočių planavimas"
 description: "Šiame straipsnyje pateikiama informacija apie užduočių planavimą, kuris yra išsamesnė planavimo forma nei operacijų planavimas. Galite naudoti užduočių planavimo procesą atskiroms užduotims arba darbo užsakymams suplanuoti bei gamybos aplinkai valdyti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Turto pirkimas įsigyjant"
 description: "Šiame straipsnyje aprašyta, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

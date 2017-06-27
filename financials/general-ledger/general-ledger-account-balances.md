@@ -3,7 +3,7 @@ title: "DK sąskaitos balansai"
 description: "Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

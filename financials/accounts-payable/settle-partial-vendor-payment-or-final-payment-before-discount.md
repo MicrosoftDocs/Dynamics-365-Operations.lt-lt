@@ -3,7 +3,7 @@ title: "Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas p
 description: "Šiame straipsnyje apžvelgiamas scenarijus, kai pagal tiekėjo SF atliekami daliniai mokėjimai ir pritaikoma mokėjimo nuolaida."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

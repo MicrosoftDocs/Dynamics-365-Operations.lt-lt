@@ -3,7 +3,7 @@ title: "Konfigūruoti Gautinas sumas bei Kreditą ir surinkimą"
 description: "Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąskaitas faktūras ir iš klientų gaunamus mokėjimus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

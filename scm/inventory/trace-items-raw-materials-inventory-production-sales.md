@@ -3,7 +3,7 @@ title: "Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose"
 description: "Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

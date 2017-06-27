@@ -3,7 +3,7 @@ title: Bendrieji planai
 description: "Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

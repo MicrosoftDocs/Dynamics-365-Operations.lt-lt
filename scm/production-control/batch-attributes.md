@@ -3,7 +3,7 @@ title: Paketo atributai
 description: "Šiame straipsnyje pateikiama informacija apie paketo atributus. Paketo atributai yra žaliavų ir pagamintų produktų, kurie sudaro atsargų paketus, savybės. Šiame straipsnyje taip pat paaiškinama, kaip paketo atributus priskirti ir kaip galite jų ieškoti rezervuodami paketus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Gamybos vykdymo registracija
 description: "Šioje temoje paaiškinamos pagrindinės sąvokos ir terminai, kuriuos turite suprasti norėdami konfigūruoti ir naudoti gamybos vykdymą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

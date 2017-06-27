@@ -3,7 +3,7 @@ title: "Konsolidavimo ir šalinimo peržiūra"
 description: "Šiame straipsnyje pateikta bendra informacija apie konsolidavimą ir pašalinimo procesą. Jame pateikti atsakymai į dažnai užduodamus klausimus."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

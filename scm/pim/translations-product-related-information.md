@@ -3,7 +3,7 @@ title: DUK apie su produktais susijusius vertimus
 description: "Šioje temoje aprašoma, kaip valdyti produktų, prekės dimensijų verčių ir produktų atributų vertimus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

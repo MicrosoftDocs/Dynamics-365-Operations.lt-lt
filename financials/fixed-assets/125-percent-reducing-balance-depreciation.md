@@ -3,7 +3,7 @@ title: "125 procentų mažėjančios vertės metodas"
 description: "Šiame straipsnyje apžvelgtas 125 % nusidėvėjimo mažėjančios vertės metodas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

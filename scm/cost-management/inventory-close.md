@@ -3,7 +3,7 @@ title: "Atsargų uždarymas"
 description: "Kaip išdavimo operacijų su gavimo operacijomis proceso dalį, taip pat galite atnaujinti didžiąją knygą, kad joje atsispindėtų atlikti pakeitimai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

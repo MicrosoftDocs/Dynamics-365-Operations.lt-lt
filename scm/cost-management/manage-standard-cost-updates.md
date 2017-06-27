@@ -3,7 +3,7 @@ title: "Standartinių savikainos atnaujinimų valdymas"
 description: "Standartinių savikainos atnaujinimų duomenis galima valdyti dviem būdais: vienos versijos būdu ir dviejų versijų būdu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

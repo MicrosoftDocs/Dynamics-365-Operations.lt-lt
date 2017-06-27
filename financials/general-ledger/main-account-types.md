@@ -3,7 +3,7 @@ title: "Pagrindinės sąskaitos tipai"
 description: "Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Visiškas ilgalaikio turto atnaujinimas"
 description: "Jei naudojate knygas, galite keisti turto, įtraukto į tą pačią knygą, grupių nusidėvėjimo konvencijas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

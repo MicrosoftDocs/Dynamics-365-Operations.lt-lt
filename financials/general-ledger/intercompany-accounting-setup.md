@@ -3,7 +3,7 @@ title: "Vidinės įmonės apskaitos nustatymas"
 description: "Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

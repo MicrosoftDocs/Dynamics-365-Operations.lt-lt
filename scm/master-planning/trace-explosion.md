@@ -3,7 +3,7 @@ title: "Sekimo naudojimas išskleidimo analizės tikslais"
 description: "Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

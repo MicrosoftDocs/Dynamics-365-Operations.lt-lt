@@ -3,7 +3,7 @@ title: "Išlaidų grupės"
 description: "Išlaidų grupės suteikia pagamintų prekių apskaičiuotų išlaidų, pvz., medžiagų, darbo ir pridėtinių išlaidų įnašų, segmentavimo ir analizavimo pagrindą. Išlaidų grupių segmentavimas turi keletą sinonimų gamybos aplinkoje, pvz., išlaidų paskirstymas, išlaidų skaidymas ar išlaidų klasifikacija."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

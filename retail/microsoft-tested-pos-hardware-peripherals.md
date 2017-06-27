@@ -3,12 +3,13 @@ title: "EKA aparatūros išoriniai įrenginiai"
 description: "„Retail Modern Point Of Sale (POS)“ ir „Cloud POS“ galima naudoti platų pasirinkimo EKA aparatūros išorinius įrenginius su keliomis sąsajomis ir diegimo parinktimis, norint įgyvendinti įvairius mažmenininko verslo scenarijus."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36

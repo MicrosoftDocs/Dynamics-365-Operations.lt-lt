@@ -3,7 +3,7 @@ title: "Sudengiamas dalinis kliento mokėjimas ir visas paskutinis mokėjimas pr
 description: "Šiame straipsnyje pateikiami scenarijai, kuriais parodoma, kaip įrašyti dalinius kliento mokėjimus ir mokėjimo nuolaidos laikotarpiu taikyti mokėjimo nuolaidą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

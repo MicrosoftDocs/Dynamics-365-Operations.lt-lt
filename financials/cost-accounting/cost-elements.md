@@ -3,7 +3,7 @@ title: Savikainos elemento dimensijos
 description: "Kaip vienas iš pagrindinių ramsčių savikainos apskaitoje norint kategorizuoti ir sekti išlaidų srautą naudojamos savikainos elemento dimensijos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasari
 description: "Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics AX 7.0“ veikiančios funkcijos. Šioje versijoje pateikiamos platformos ir programos funkcijos, ir ji išleista 2016 m. vasario mėn."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

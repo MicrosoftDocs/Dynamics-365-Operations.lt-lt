@@ -3,7 +3,7 @@ title: "Mokėtinų sumų pagrindinis puslapis"
 description: "Šioje temoje apžvelgiamas modulis Mokėtinos sumos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

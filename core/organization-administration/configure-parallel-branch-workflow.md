@@ -3,7 +3,7 @@ title: "Lygiagrečios darbo eigos šakos konfigūravimas"
 description: "Norėdami konfigūruoti lygiagrečią šaką, darbo eigos rengyklėje atlikite toliau nurodytas procedūras."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
