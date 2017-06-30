@@ -1,3 +1,3 @@
 > [!IMPORTANT]
-> Sveiki! Čia – „Microsoft Dynamics 365 for Operations“ instrukcija, pasiekiama adresu docs.microsoft.com. Čia perkeliame turinį iš „Dynamics 365 for Operations‟ žinyno „Wiki‟. 
+> Sveiki, čia – „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija, pasiekiama adresu docs.microsoft.com. Čia perkeliame turinį iš „Finance and Operations‟ žinyno „Wiki‟. 
 

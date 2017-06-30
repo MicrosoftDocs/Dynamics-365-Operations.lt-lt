@@ -1,15 +1,15 @@
 ---
 title: "BI ir ataskaitų pagrindinis puslapis"
-description: "Šioje temoje išvardyti sprendime „Microsoft Dynamics 365 for Operations“ esantys BI ir ataskaitų ištekliai."
+description: "Šioje temoje išvardyti sprendime „Microsoft Dynamics 365 for Finance and Operations“ esantys BI ir ataskaitų ištekliai."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,20 +17,20 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI ir ataskaitų pagrindinis puslapis
+# <a name="bi-amp-reporting-home-page"></a>Pagrindinis BI ir ataskaitų puslapis
 
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje išvardyti sprendime „Microsoft Dynamics 365 for Operations“ esantys BI ir ataskaitų ištekliai. 
+Šioje temoje išvardyti sprendime „Microsoft Dynamics 365 for Finance and Operations“ esantys BI ir ataskaitų ištekliai. 
 
 <a name="working-with-aggregate-data"></a>Darbas su agreguotais duomenimis
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>Savitarnos ataskaitos
 -   [„Power BI“ integravimas](power-bi-integration.md)
 -   [„Power BI‟ integravimo konfigūravimas darbo sritims](configure-power-bi-integration.md)
--   [„Power BI“ ataskaitos kūrimas naudojant „Microsoft Dynamics 365 for Operations“ duomenis](create-powerbi-report-data.md)
+-   [„Power BI“ ataskaitos kūrimas naudojant „Microsoft Dynamics 365 for Finance and Operations“ duomenis](create-powerbi-report-data.md)
 -   [„Power BI“ ataskaitos ir ataskaitų srities kūrimas](create-powerbi-report-dashboard.md)
 -   [Mažmeninės prekybos kanalo našumo „Power BI“ turinys](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Finansinio našumo „Power BI“ turinys](financial-performance-power-bi-content-pack.md)
 -   [Pardavimo ir pelningumo našumo „Power BI“ turinys](sales-profitability-performance-content-pack.md)
--   [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Dynamics 365 for Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Įdėtųjų analitinių patirčių kūrimas „Dynamics 365 for Operations“ kliente
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Įdėtųjų analitinių patirčių kūrimas „Finance and Operations“ kliente
 -   [Įdėtosios verslo įžvalgos](analytics.md#embedded-business-intelligence)
 -   [KPI modeliavimas ir tinkinimas](analytics.md#kpi-modeling-and-customization)
 -   [BI įtraukimas į darbo sritis](add-bi-workspaces.md)
@@ -58,8 +58,8 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>Dokumentų ataskaitos ir spausdinimas
 -   [Dokumentų ataskaitų paslaugų apžvalga](document-reporting-services.md)
--   [Spausdinimas „Dynamics 365 for Operations“ programose](print-documents.md)
--   [Dokumento maršruto planavimo agento diegimas siekiant įgalinti tinklo spausdinimo įrenginius](install-document-routing-agent.md)
+-   [Spausdinimas „Finance and Operations“ programose](print-documents.md)
+-   [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimo įrenginius](install-document-routing-agent.md)
 -   [Dokumento maršruto planavimo agento paleidimas kaip „Windows“ paslaugos](run-document-routing-agent-as-windows-service.md)
 -   [Naujos kartos ataskaitų sprendimų kūrimas](create-nextgen-reporting-solutions.md)
 -   [Naujoviškų ataskaitų dizaino šablonų diegimas](install-modern-report-design-templates.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
 -   [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md)
--   [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Dynamics 365 for Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (užduočių vedlys)
 -   [ER: konkretaus domeno duomenų modelio kūrimas](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (užduočių vedlys)
 -   [ER: modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (užduočių vedlys)
