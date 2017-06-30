@@ -1,3 +1,2 @@
 > [!IMPORTANT]
-> Sveiki! Čia – „Microsoft Dynamics 365 for Operations“ instrukcija, pasiekiama adresu docs.microsoft.com. Čia perkeliame turinį iš „Dynamics 365 for Operations‟ žinyno „Wiki‟. 
-
+> Ši tema taikoma „Dynamics 365 for Talent‟ (negalutinei versijai), „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimui ir „Dynamics 365 for Operations‟. 
