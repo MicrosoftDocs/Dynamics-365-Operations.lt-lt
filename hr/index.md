@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,23 +32,24 @@ ms.lasthandoff: 06/21/2017
 
 „Microsoft Dynamics 365 for Talent‟ racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Šie procesai apima darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis.
 
-„Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations, Enterprise Edition‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
-
 „Talent‟ galite naudoti tolesnėms užduotims vykdyti.
 
-> + Organizacijos struktūrų administravimas.
-> + Išsamios darbuotojų informacijos nuo įdarbinimo iki atleidimo tvarkymas.
-> + Išmokų planų apibrėžimas ir administravimas, darbuotojų registravimas, priklausomųjų draudimo priskyrimas bei draudimo gavėjų nurodymas.
-> + Neatvykimo į darbą strategijų nustatymas ir stebėjimas.
-> + Laiko valdymo pagal profilius įgyvendinimas ir sekimas bei darbo užmokesčio informacijos, kuri bus eksportuojama į algalapio sistemą, kūrimas.
-> + Darbuotojų kompetencijų valdymas.
-> + Našumo ir darbuotojų tikslų įgyvendinimo apžvalga.
-> + Mokymo kursų, kurie apima darbotvarkes, sesijas ir specializacijas, nustatymas, atlikimas ir analizė.
++ Organizacijos struktūrų administravimas.
++ Išsamios darbuotojų informacijos nuo įdarbinimo iki atleidimo tvarkymas.
++ Išmokų planų apibrėžimas ir administravimas, darbuotojų registravimas, priklausomųjų draudimo priskyrimas bei draudimo gavėjų nurodymas.
++ Neatvykimo į darbą strategijų nustatymas ir stebėjimas.
++ Laiko valdymo pagal profilius įgyvendinimas ir sekimas bei darbo užmokesčio informacijos, kuri bus eksportuojama į algalapio sistemą, kūrimas.
++ Darbuotojų kompetencijų valdymas.
++ Našumo ir darbuotojų tikslų įgyvendinimo apžvalga.
++ Mokymo kursų, kurie apima darbotvarkes, sesijas ir specializacijas, nustatymas, atlikimas ir analizė.
+
+> [!NOTE] 
+> „Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations, Enterprise Edition‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Personalo valdymo strategijos kūrimas
 ---------------------------------------------------------
 
-Dirbdami modulyje „Talent‟ spręsite, kokia bus jūsų organizacijos struktūra – naudosite tokius elementus kaip padaliniai, darbo vietos ir pareigos. Tai yra vieni iš pagrindinių elementų, kuriuos konfigūruosite. Atskiri darbuotojai priskiriami pareigoms, kurios yra susietos su darbo vietomis.
+Dirbdami modulyje „Talent‟ nuspręsite, kaip naudojant elementus (pvz., padalinius, darbo vietas ir pareigas) nustatyti organizacijos struktūrą. Tai yra vieni iš pagrindinių elementų, kuriuos konfigūruosite. Atskiri darbuotojai priskiriami pareigoms, kurios yra susietos su darbo vietomis.
 
 -   [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](departments-jobs-positions.md)
 -   [Konkrečios įmonės personalo parametrų nustatymas](set-up-company-specific-hr-parameters.md)
