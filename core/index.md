@@ -40,7 +40,7 @@ ms.lasthandoff: 06/28/2017
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finansai</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Atitiktis</a></p>
 <p>Finansų valdymas</p>
 <ul style="list-style-type:none">
