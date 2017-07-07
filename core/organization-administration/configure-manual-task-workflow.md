@@ -3,13 +3,13 @@ title: "Neautomatizuotos darbo eigos užduoties konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuota užduotis tur�
     </tr>
     <tr class="even">
     <td>Vartotojas</td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -212,10 +212,10 @@ Jei per skirtąjį laiką vartotojas neautomatizuotos užduoties nebaigs, užduo
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Finance and Operations” vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti užduotį, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -306,10 +306,10 @@ Pranešimus žmonėms galima siųsti, kai neautomatizuota užduotis yra perduota
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Finance and Operations” vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

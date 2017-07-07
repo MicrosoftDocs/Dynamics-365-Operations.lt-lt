@@ -3,13 +3,13 @@ title: "Išlaidų valdymo „Power BI“ turinys"
 description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ ms.lasthandoff: 05/25/2017
 CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė CostStatementCache. Šią lentelę valdo duomenų rinkinio talpyklos sistema. Pagal numatytuosius parametrus lentelė atnaujinama kas 24 valandas, bet jūs galite įjungti duomenų talpyklos konfigūracijos neautomatinius naujinimus. Tada galite atlikti neautomatinį naujinimą darbo srityje **Išlaidų valdymas** arba **Išlaidų analizė**. Paleidus CostStatementCache naujinį, turite atnaujinti „OData“ ryšį Power BI.com, kad svetainėje matytumėte atnaujintus duomenis. Nuokrypio (pirkimo, gamybos) matai šiame „Power BI“turinyje yra susiję tik su prekėmis, kurios vertinamos pagal standartinių išlaidų atsargų metodą. Gamybos nuokrypis apskaičiuojamas kaip skirtumas tarp aktyvios kainos ir realizuotos kainos. Gamybos nuokrypis apskaičiuojamas, kai gamybos užsakymo būsena būna **Baigtas**. Daugiau informacijos apie gamybos nuokrypių tipus ir tai, kaip kiekvienas tipas skaičiuojamas, žr. temoje [Apie baigto gamybos užsakymo nuokrypių analizę](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų valdymo** „Power BI“ turinį galima atsisiųsti iš Power.BI.com. Daugiau informacijos apie tai, kaip prijungti ir nusiųsti „Microsoft Dynamics 365 for Operations“ duomenis, žr. [Prieiga prie 0„Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
+**Išlaidų valdymo** „Power BI“ turinį galima atsisiųsti iš Power.BI.com. Daugiau informacijos apie tai, kaip prijungti ir nusiųsti „Microsoft Dynamics 365 for Finance and Operations“ duomenis, žr. [Prieiga prie 0„Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.
@@ -84,9 +84,9 @@ CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė 
 | |Gamybos nuokrypiai pagal išteklių grupę ir 3 lygio kategorijos pavadinimą | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami **išlaidų valdymo** „Power BI“ turinio ataskaitų puslapiams užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
+„Finance and Operations“ duomenys naudojami **išlaidų valdymo** „Power BI“ turinio ataskaitų puslapiams užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 
-| Objektas            | Pagrindiniai sujungti matavimo vienetai | „Dynamics 365 for Operations“ duomenų šaltinis | Laukas             | aprašymas                       |
+| Objektas            | Pagrindiniai sujungti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas             | aprašymas                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Išrašo įrašai | Grynasis pokytis                | CostAggregatedCostStatementEntryEntity      | sum(\[Amount\])   | Suma apskaitos valiuta |
 | Išrašo įrašai | Grynojo pokyčio kiekis       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantity\]) |                                   |

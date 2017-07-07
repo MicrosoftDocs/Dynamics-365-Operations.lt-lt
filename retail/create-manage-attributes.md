@@ -1,28 +1,29 @@
 ---
 title: "Atributų kūrimas ir valdymas"
-description: "Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Operations“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus."
+description: "Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Retail“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Operations“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
+Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Retail“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
 
 Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus. Pavyzdžiui, galite nurodyti produkto atminties dydį ir kietojo disko talpą ir nurodyti, ar produktas atitinka „Energy Star“ reikalavimus. Atributus galima susieti su įvairiais mažmeninės prekybos objektais, pavyzdžiui, produkto kategorijomis ir mažmeninės prekybos kanalais, ir galima nustatyti jį numatytąsias reikšmes. Produktai perima atributus ir tų atributų numatytąsias reikšmes, jei jie yra susieti su produktų kategorijomis arba mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
 
@@ -59,7 +60,7 @@ Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartot
 ## <a name="attribute-type"></a>Atributo tipas
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Operations“ palaiko šiuos atributų tipus.
+Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Retail“ palaiko šiuos atributų tipus.
 
 -   **Valiuta** – šis atributo tipas palaiko valiutos reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.
 -   **Data ir laikas** – šis atributo tipas palaiko datos ir laiko reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas verčių diapazonas), arba jis gali būti neapibrėžtas.

@@ -3,14 +3,14 @@ title: "Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurod
 description: "Šiame straipsnyje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje darbas yra atliekamas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šiame straipsnyje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje darbas yra atliekamas.
 
-Instrukcijos, kurias sandėlio darbuotojai gauna mobiliajame įrenginyje, yra nustatomos pagal darbo šablonus, nustatytus „Microsoft Dynamics 365 for Operations“ siekiant apibrėžti įvairius sandėlio procesus ir užduotis. Darbo šablonai nurodo, kaip darbas atliekamas kiekvieno sandėlio proceso metu. Vietos nurodymą susiedami su darbo šablonais galite užtikrinti, kad darbas bus vykdomas konkrečiose faktinėse sandėlių vietose.
+Instrukcijos, kurias sandėlio darbuotojai gauna mobiliajame įrenginyje, yra nustatomos pagal darbo šablonus, nustatytus „Microsoft Dynamics 365 for Finance and Operations“ siekiant apibrėžti įvairius sandėlio procesus ir užduotis. Darbo šablonai nurodo, kaip darbas atliekamas kiekvieno sandėlio proceso metu. Vietos nurodymą susiedami su darbo šablonais galite užtikrinti, kad darbas bus vykdomas konkrečiose faktinėse sandėlių vietose.
 
 ## <a name="work-templates"></a>Darbo šablonai
 Puslapyje **Darbo šablonai** galima apibrėžti darbo operacijas, kurį reikia atlikti sandėlyje. Paprastai sandėlio darbo operacijas sudaro du veiksmai: sandėlio darbuotojas paima turimas atsargas vienoje vietoje ir tada padeda paimtas atsargas kitoje vietoje. 

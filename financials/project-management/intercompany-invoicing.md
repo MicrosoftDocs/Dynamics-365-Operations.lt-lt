@@ -1,26 +1,26 @@
 ---
 title: "Vidinės įmonės SF išrašymas"
-description: "Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Operations“ projektų vidinės įmonės SF išrašymą."
+description: "Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ projektų vidinės įmonės sąskaitų faktūrų išrašymą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Operations“ projektų vidinės įmonės SF išrašymą.
+Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ projektų vidinės įmonės sąskaitų faktūrų išrašymą.
 
 Jūsų organizacijoje gali būti keli padaliniai, filialai ir kiti juridiniai subjektai, kurie siunčia vieni kitiems su projektais susijusius produktus ir teikia paslaugas. Juridinis subjektas, teikiantis paslaugą arba tiekiantis produktą, vadinamas *skolinančiu juridiniu subjektu*, o juridinis subjektas, gaunantis paslaugą arba produktą – *besiskolinančiu juridiniu subjektu*. 
 
@@ -53,7 +53,7 @@ Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplauk�
     -   **Įnašo koeficientas** – skaičius, įvedamas lauke **Kainos**, yra įnašo koeficientas, kuris išreiškiamas kaip pardavimo kainos procentinė dalis.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>1 Pavyzdys: vidinės įmonės SF išrašymo parametrai
-Šiame pavyzdyje USSI yra skolinantis juridinio subjektas, o jo ištekliai teikia laiko ataskaitas pagal besiskolinantį juridinį subjektą, FRSI, kuris yra sudaręs sutartį su galutiniu klientu. Valandos ir išlaidos, apie kurias USSI darbuotojai teikia ataskaitas, gali būti įtraukiamos į FRSI generuojamą projekto SF. Be to, gali būti trečias operacijų šaltinis, susijęs su skolinančiu juridiniu subjektu (šiame pavyzdyje – USSI), kai jis filialams (pvz., FRSI) suteikia bendrų tiekėjų paslaugas ir tada užregistruoja tas išlaidas kaip tų filialų projektų išlaidas. Visus sutampančių SF dokumentus baigia ir mokesčius suskaičiuoja „Dynamics 365 for Operations“. 
+Šiame pavyzdyje USSI yra skolinantis juridinio subjektas, o jo ištekliai teikia laiko ataskaitas pagal besiskolinantį juridinį subjektą, FRSI, kuris yra sudaręs sutartį su galutiniu klientu. Valandos ir išlaidos, apie kurias USSI darbuotojai teikia ataskaitas, gali būti įtraukiamos į FRSI generuojamą projekto SF. Be to, gali būti trečias operacijų šaltinis, susijęs su skolinančiu juridiniu subjektu (šiame pavyzdyje – USSI), kai jis filialams (pvz., FRSI) suteikia bendrų tiekėjų paslaugas ir tada užregistruoja tas išlaidas kaip tų filialų projektų išlaidas. Visus sutampančius sąskaitų faktūrų dokumentus užbaigia ir mokesčius suskaičiuoja „Finance and Operations“. 
 
 Šiame pavyzdyje FRSI turi būti USSI juridinio subjekto klientas, o USSI turi būti FRSI juridinio subjekto tiekėjas. Tada galite nustatyti vidinės įmonės ryšį tarp dviejų juridinių subjektų. Tolesnėje procedūroje parodoma, kaip nustatyti parametrus, kad abu juridiniai subjektai galėtų dalyvauti išrašant vidinės įmonės SF.
 

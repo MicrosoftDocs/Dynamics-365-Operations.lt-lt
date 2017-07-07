@@ -1,15 +1,15 @@
 ---
 title: "Numeracijos apžvalga"
-description: "„Microsoft Dynamics 365 for Operations‟ numeracijos naudojamos generuojant reikalingų pagrindinių duomenų įrašų ir operacijų įrašų skaitomus unikalius identifikatorius. Pagrindinių duomenų įrašas arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas <em>nuoroda</em>."
+description: "„Microsoft Dynamics 365 for Finance and Operations‟ numeracijos naudojamos generuojant pagrindinių duomenų įrašų ir operacijų įrašų, kuriems reikia identifikatorių, skaitomus unikalius identifikatorius. Pagrindinių duomenų įrašas arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas <em>nuoroda</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-„Microsoft Dynamics 365 for Operations‟ numeracijos naudojamos generuojant reikalingų pagrindinių duomenų įrašų ir operacijų įrašų skaitomus unikalius identifikatorius. Pagrindinių duomenų įrašas arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas <em>nuoroda</em>.
+„Microsoft Dynamics 365 for Finance and Operations‟ numeracijos naudojamos generuojant pagrindinių duomenų įrašų ir operacijų įrašų, kuriems reikia identifikatorių, skaitomus unikalius identifikatorius. Pagrindinių duomenų įrašas arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas <em>nuoroda</em>.
 
-Kad galėtumėte kurti naujus įrašus kaip nuorodas naudodami „Microsoft Dynamics 365 for Operations‟, turite nustatyti numeraciją ir susieti ją su nuoroda. Rekomenduojame naudoti puslapius dalyje **Organizacijos administravimas**, kad nustatytumėte numeracijas. Jei reikalingi konkretaus modulio parametrai, galite naudoti parametrų puslapį modulyje, kad nurodytumėte numeracijas to modulio nuorodoms. Pvz., dalyje **Gautinos sumos** ir **Mokėtinos sumos** galite nustatyti numeracijos grupes, kad priskirtumėte konkrečias numeracijas konkretiems klientams arba tiekėjams. Kai nustatote numeraciją, turite nustatyti aprėptį, kur apibūdina, kokia organizacija naudoja numeraciją. Aprėptis gali būti **Bendrai naudojama**, **Įmonės**, **Juridinio subjekto** arba **Valdymo vieneto**. **Juridinio subjekto** ir **Įmonės** aprėptys gali būt sujungtos su **Ataskaitiniu kalendoriniu laikotarpiu**, kad būtų kuriamos dar konkretesnės numeracijos. Numeracijų formatus sudaro segmentai. Numeracijos, kurių aprėptis yra kita nei **Bendrai naudojama**, gali apimti segmentus, kurie atitinka aprėptį. Pvz., numeracijoje, kurios apimtis **Juridinio subjekto**, gali būti juridinio subjekto segmentas. Įtraukdami aprėpties segmentą į numeracijos formatą, galite nustatyti konkretaus įrašo aprėptį pagal jo numerį. Be segmentų, atitinkančių aprėptis, numeracijų formatai gali apimti **Pastoviuosius** ir **Raidinius-skaitinius segmentus**. **Pastovusis** segmentas apima raidžių, skaitmenų arba simbolių, kurie nesikeičia, rinkinį. **Raidinis-skaitinis** segmentas apima raidžių ir skaitmenų rinkinį, kuris didinamas kaskart panaudojus skaičių. Naudokite skaičiaus ženklą (\#) norėdami nurodyti didėjančius skaičius ir ampersandus (&) norėdami nurodyti didėjančias raides. Pvz., pagal formatą \#\#\#\#\#\_2017 sukuriamos sekos 00001\_2017, 00002\_2017 ir t.t.
+Kad galėtumėte kurti naujus įrašus kaip nuorodas naudodami „Microsoft Dynamics 365 for Finance and Operations‟, turite nustatyti numeraciją ir susieti ją su nuoroda. Rekomenduojame naudoti puslapius dalyje **Organizacijos administravimas**, kad nustatytumėte numeracijas. Jei reikalingi konkretaus modulio parametrai, galite naudoti parametrų puslapį modulyje, kad nurodytumėte numeracijas to modulio nuorodoms. Pvz., dalyje **Gautinos sumos** ir **Mokėtinos sumos** galite nustatyti numeracijos grupes, kad priskirtumėte konkrečias numeracijas konkretiems klientams arba tiekėjams. Kai nustatote numeraciją, turite nustatyti aprėptį, kur apibūdina, kokia organizacija naudoja numeraciją. Aprėptis gali būti **Bendrai naudojama**, **Įmonės**, **Juridinio subjekto** arba **Valdymo vieneto**. **Juridinio subjekto** ir **Įmonės** aprėptys gali būt sujungtos su **Ataskaitiniu kalendoriniu laikotarpiu**, kad būtų kuriamos dar konkretesnės numeracijos. Numeracijų formatus sudaro segmentai. Numeracijos, kurių aprėptis yra kita nei **Bendrai naudojama**, gali apimti segmentus, kurie atitinka aprėptį. Pvz., numeracijoje, kurios apimtis **Juridinio subjekto**, gali būti juridinio subjekto segmentas. Įtraukdami aprėpties segmentą į numeracijos formatą, galite nustatyti konkretaus įrašo aprėptį pagal jo numerį. Be segmentų, atitinkančių aprėptis, numeracijų formatai gali apimti **Pastoviuosius** ir **Raidinius-skaitinius segmentus**. **Pastovusis** segmentas apima raidžių, skaitmenų arba simbolių, kurie nesikeičia, rinkinį. **Raidinis-skaitinis** segmentas apima raidžių ir skaitmenų rinkinį, kuris didinamas kaskart panaudojus skaičių. Naudokite skaičiaus ženklą (\#) norėdami nurodyti didėjančius skaičius ir ampersandus (&) norėdami nurodyti didėjančias raides. Pvz., pagal formatą \#\#\#\#\#\_2017 sukuriamos sekos 00001\_2017, 00002\_2017 ir t.t.
 Numeracijos pavyzdžiai
 ------------------------
 
 Toliau pateiktuose pavyzdžiuose parodyta, kaip naudoti segmentus kuriant numeracijų formatus. Konkrečiai pavyzdžiai parodo aprėpties segmentų poveikį.
 ### <a name="expense-report-numbers"></a>Išlaidų ataskaitos numeriai
 
-Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektui, kuris pavadintas **CS**. **Sritis:**Kelionės ir išlaidos**Nuoroda:**Išlaidų ataskaitos numeris**Aprėptis:**Juridinis subjektas**Juridinis subjektas:** CS
+Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektui, kuris pavadintas **CS**. **Sritis:** Kelionės ir išlaidos **Nuoroda:** Išlaidų ataskaitos numeris **Aprėptis:** Juridinis subjektas **Juridinis subjektas:** CS
 | Segmentai  | Segmento tipas | Vertė     |
 |-----------|--------------|-----------|
 | 1 segmentas | Juridinis subjektas | CS        |
@@ -50,7 +50,7 @@ Tolesniame pavyzdyje išlaidų ataskaitos numeriai nustatyti juridiniam subjektu
 
 ### <a name="sales-order-numbers"></a>Pardavimo užsakymo numeriai
 
-Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**. **Sritis:**Pardavimas**Nuoroda:**Pardavimo užsakymas**Aprėptis:**Įmonė**Įmonė:**CEU
+Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**. **Sritis:** Pardavimas **Nuoroda:** Pardavimo užsakymas **Aprėptis:** Įmonė **Įmonė:** CEU
 | Segmentai  | Segmento tipas | Vertė    |
 |-----------|--------------|----------|
 | 1 segmentas | Pastovus     | SO-      |
@@ -60,7 +60,7 @@ Tolesniame pavyzdyje pardavimo užsakymo numeriai nustatyti įmonės ID **CEU**.
 
 ### <a name="purchase-requisition-numbers"></a>Pirkimo paraiškos numeriai
 
-Tolesniame pavyzdyje pirkimo paraiškos numeriai taikomi visoje organizacijoje. **Sritis:**Pirkimas**Nuoroda:**Pirkimo paraiška**Aprėptis:**Bendrai naudojama
+Tolesniame pavyzdyje pirkimo paraiškos numeriai taikomi visoje organizacijoje. **Sritis:** Pirkimas **Nuoroda:** Pirkimo paraiška **Aprėptis:** Bendrai naudojama
 | Segmentai  | Segmento tipas | Vertė    |
 |-----------|--------------|----------|
 | 1 segmentas | Pastovus     | Reik.      |

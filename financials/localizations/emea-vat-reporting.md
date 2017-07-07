@@ -3,7 +3,7 @@ title: PVM ataskaitos Europoje
 description: "Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 697af132142fadf907ffcab3fa20a6646d9ae632
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -253,9 +253,9 @@ d<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio s
 
 Galite naudoti elektronines ataskaitas (ER), kad sukonfigūruotumėte išrašus ir ataskaitas bei eksportuotumėte duomenis skirtingais elektroniniais formatais nekeisdami X++ kodo. Papildoma informacija:
 
--   [Elektroninių ataskaitų apžvalga](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Elektroninių ataskaitų apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
+-   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>PVM išrašų konkrečiai šaliai būdingi ištekliai
 Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Toliau pateiktoje lentelėje nurodytoms šalims priskiriami PVM išrašų iš anksto nustatyti bendrieji modeliai ir formatai.

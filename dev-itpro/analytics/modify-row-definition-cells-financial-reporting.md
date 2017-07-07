@@ -3,7 +3,7 @@ title: "Eilutės apibrėžimo langelių keitimas"
 description: "Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -178,7 +178,7 @@ Eilutės apibrėžime nurodoma viena arba kelios pagrindinės eilutės, tada stu
 -   **CBR** eilutės nespausdinamos baigtoje ataskaitoje.
 -   **CBR** formato kodas ir jo susijęs eilutės kodas rodomi virš eilutės arba skyriaus, kuriame rodomi susiję skaičiavimai.
 
-Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, kuris eilutėje **Formulė** nurodo formulę. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR**formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
+Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, kuris eilutėje **Formulė** nurodo formulę. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR** formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Stulpelio skaičiavimui skirtos eilutės apibrėžimo pagrindinės eilutės pasirinkimas
 
@@ -252,8 +252,7 @@ Toliau pateiktame pavyzdyje ataskaitos D stulpelio vertės rūšiuojamos didėja
 
 |PPK|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
-|Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Surūšiuota pagal absoliutųjį nuokrypį nuo metų pradžios, mažėjančia tvarka**|||||||
-|Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |PPK|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
+|Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |**Surūšiuota pagal absoliutųjį nuokrypį nuo metų pradžios, mažėjančia tvarka**||||||| |Pardavimas|1 240 119|410 389|829 730|7 139 288|2 764 549|4 374 739| |Kelionių išlaidos|7 656|7 641|(15)|51 062|51 469|407| |Biuro išlaidos|5 023|3 291|(1 732)|33 420|22 098|(11 322)| |Pardavimo įplaukos|10 917|7 246|(3 671)|62 809|48 803|(14 006)| |Nuomos išlaidos|12 052|9 019|(3 033)|80 444|60 748|(19 696)| |Pardavimo nuolaidos|36 383|24 152|(12 231)|241 562|162 670|(78 892)| |Atlyginimai|97 624|65 573|(32 051)|653 884|441 664|(212 220)| |PPK|873 872|236 144|(637 728)|4 864 274|1 590 315|(3 273 959)|
 
 ## <a name="specify-a-format-override-cell"></a>Formato nepaisymo langelio nurodymas
 Langelyje **Formato nepaisymas** nurodomas formatavimas, kuris naudojamas eilutei, kai spausdinama ataskaita. Šis formatavimas pakeičia formatavimą, nurodytą stulpelio apraše ir ataskaitos apraše. Pagal numatytuosius nustatymus, tuose aprašuose nurodytas formatavimas yra valiuta. Jei vienoje ataskaitos eilutėje nurodomas turto vienetų skaičius, pavyzdžiui, pastatų skaičius, o kitoje eilutėje nurodoma to turto piniginė vertė, galite nepaisyti valiutos formatavimo ir įvesti skaitinį eilutės formatavimą, kuriame nurodomas pastatų skaičius. Šią informaciją nurodote dialogo lange **Formato nepaisymas**. Galimos pasirinktys priklauso nuo pasirinktos formato kategorijos. Dialogo lango srityje **Pavyzdys** rodomi formatų pavyzdžiai. Galimos šios formato kategorijos:

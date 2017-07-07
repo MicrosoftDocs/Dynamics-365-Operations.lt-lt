@@ -1,9 +1,9 @@
 ---
 title: Pasenusios funkcijos
-description: "Šioje temoje aprašomos „Dynamics 365 for Operations“ funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti. Joje taip pat pateikiamos funkcijos, nebenaudojamos „Dynamics AX“ 7.0 leidimuose."
+description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 
-Šioje temoje aprašomos „Dynamics 365 for Operations“ funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti. Joje taip pat pateikiamos funkcijos, nebenaudojamos „Dynamics AX“ 7.0 leidimuose.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Funkcijos, kurios nebenaudojamos „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo 2017 m. liepos mėn. naujinime
+
+### <a name="warehouse-mobile-devices-portal"></a>Sandėlio mobiliųjų įrenginių portalas
+
+Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui. Naudojant „Microsoft Dynamics 365 for Finance and Operations‟ leidimą „Enterprise‟ šis komponentas nebepalaikomas. Vietinė vartotojo patirtį pagerinanti programa pakeitė WMDP funkcijas. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Nebenaudojimo priežastis**       | Besidubliuojančios funkcijos.                        |
+| **Pakeitė kita funkcija?** | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Paveikti moduliai**             | Sandėlio valdymas, transportavimo valdymas |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Pažangaus banko derinimo ir rankinio gretinimo taisyklė
+
+Gretinimo taisyklė buvo naudojama norint pasirinkti ir pažymėti banko dokumentą rankiniu būdu gretinant dokumentus suderinimo darbalapyje.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Nebenaudojimo priežastis**       | Ribotas naudojimas.                                                                         |
+| **Pakeitė kita funkcija?** | Nr. Stulpelio filtravimo galimybės turėtų būti naudojamos norint surasti suderinimui skirtus dokumentus. |
+| **Paveikti moduliai**             | Grynųjų pinigų ir banko valdymas                                                               |
+
+### <a name="windows-8-tablet-app"></a>„Windows 8“ planšetinių kompiuterių programėlė
+
+„Windows 8“ planšetinių kompiuterių programėlė turėdavo išlaidų pateikimo ir patvirtinimo funkciją.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Nebenaudojimo priežastis**       | „Finance and Operations” suderinama su planšetiniais kompiuteriais. Planšetinių kompiuterių programėlės nebereikia. |
+| **Pakeitė kita funkcija?** | Nr.                                                                                      |
+| **Paveikti moduliai**             | Išlaidų valdymas                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funkcijos, kurios nebenaudojamos „Dynamics 365 for Operations“ 1611 versijoje su 3 platformos naujinimu
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nebenaudojimo priežastis       | „Microsoft Dynamics 365 for Operations“ efektyvumo valdymas buvo visiškai perkurtas.                                                                                                                                                                                                                                        |
+| Nebenaudojimo priežastis       | „Microsoft Dynamics 365 Finance and Operations“ efektyvumo valdymas buvo visiškai perkurtas.                                                                                                                                                                                                                                        |
 | Pakeitė kita funkcija? | Perkurta efektyvumo valdymo funkcija suteikia galimybę geriau kontroliuoti tikslų turinį, matavimus, naudojamus eigai sekti, ir patvirtinamųjų dokumentų pridėjimą. Tikslai gali būti saugomi kaip šablonai ir naudojami pakartotinai. Naudodami šią funkciją galite greičiau nustatyti papildomus darbuotojų tikslus. |
 | Paveikti moduliai             | Žmogiškojo kapitalo valdymas                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Nebenaudojimo priežastis       | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Dynamics 365 for Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu išsprendžia. |
+| Nebenaudojimo priežastis       | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Dynamics 365 Finance and Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu išsprendžia. |
 | Pakeitė kita funkcija? | Nr. Dabar palaikomas tik standartinis „Retail Server“ ryšys.    |
 | Paveikti moduliai             | Kanalo duomenų bazė / „Retail Modern POS“                                    |
 
@@ -808,9 +840,5 @@ Virtualių įmonių funkcija programoje „Dynamics AX‟ nebepalaikoma. Virtual
 | Nebenaudojimo priežastis       | Šią funkciją pakeitė kita funkcija.                                    |
 | Pakeitė kita funkcija? | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta **Finansinės ataskaitos**) |
 | Paveikti moduliai             | DK                                                                              |
-
-
-
-
 
 

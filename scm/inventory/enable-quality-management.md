@@ -1,16 +1,16 @@
 ---
 title: "Kokybės valdymo peržiūra"
-description: "Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
+description: "Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
+Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
-Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
+Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Finance and Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
 
 Be funkcijų, skirtų valdyti neatitikimui, kokybės valdymas apima funkcijas, skirtas problemoms sekti pagal jų tipą (net vidaus problemoms) ir sprendimams identifikuoti kaip trumpalaikiams ar ilgalaikiams. Statistika apie pagrindinius našumo indikatorius (KPI) teikia įžvalgų apie ankstesnių neatitikimo problemų istoriją ir sprendimus, kurie buvo naudojami joms taisyti. Galite naudoti praeities duomenis ir peržiūrėti ankstesnių kokybės priemonių efektyvumą bei nustatyti tinkamas priemones, kurios bus naudojamos ateityje.
 
-Kai nustatote kokybės susiejimą, „Microsoft Dynamics 365 for Operations‟ gali generuoti įvairių verslo procesų, įvykių ir sąlygų kokybės užsakymus. Kokybės susiejimas gali apimti konkrečią prekę, konkrečią prekių grupę arba visas prekes.
+Kai nustatote kokybės susiejimą, „Finance and Operations‟ gali generuoti įvairių verslo procesų, įvykių ir sąlygų kokybės užsakymus. Kokybės susiejimas gali apimti konkrečią prekę, konkrečią prekių grupę arba visas prekes.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kokybės valdymo naudojimo pavyzdžiai
 Kokybės valdymas yra lankstus ir gali būti diegiamas įvairiais būdais, siekiant atitikti konkrečių tiekimo grandinės operacijų lygių reikalavimus. Toliau pateikti pavyzdžiai iliustruoja galimą šių funkcijų naudojimą.

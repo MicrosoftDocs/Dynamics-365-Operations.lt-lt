@@ -3,14 +3,14 @@ title: "Pirkimo užsakymų patvirtinimas"
 description: "Šiame straipsnyje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą.
 
@@ -38,7 +39,7 @@ Sukūrus pirkimo užsakymą (PU), jį gali reikėti patvirtinti. Kai tiekėjas u
 ## <a name="approval-of-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 PU, kuriuose nenaudojamas keitimų valdymas, būsena nustatoma kaip **Patvirtinta** iš karto juos sukūrus, o PU, kuriuose naudojamas keitimų valdymas,būsena nustatoma kaip **Juodraštis**, pirmą kartą juos sukūrus. PU, kuris buvo sukurtas patvirtinus suplanuotą užsakymą iš bendrojo planavimo, būsena visada nustatoma kaip **Patvirtinta**, nepriklausomai nuo keitimų valdymo parametrų. PU sukuria atsargų operacijas tik tada, kai jo būsena pasikeičia į **Patvirtinta**. Todėl nerodoma, kad tas atsargas galima rezervuoti arba žymėti, kol užsakymas nepatvirtintas.  
 
-PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. „Microsoft Dynamics 365 for Operations“ teikia eigos proceso rengyklę, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
+PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. „Microsoft Dynamics 365 for Finance and Operations“ teikia darbo eigos procesų rengyklę, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
 
 Įgalinus keitimų valdymą, naudojamos šešios PU patvirtinimo būsenos, nuo **Juodraštis** iki **Baigta**. Patvirtinus užsakymą, jį modifikuoti norintys vartotojai turi naudoti veiksmą **Reikalauti keitimo**.
 
@@ -54,7 +55,7 @@ PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo
 ## <a name="confirming-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 Gali reikėti atlikti papildomų veiksmų, norint patvirtinti PU, kurių patvirtinimo būseną yra **Patvirtinta**. Pavyzdžiui, jums gali tekti tiekėjui pateikti pirkimo užklausą apie kainas, nuolaidas arba pristatymo datas. Šiuo atveju galite nustatyti PU būseną kaip **Išorinė peržiūra**, naudodami veiksmą **Pirkimo užklausa**.  
 
-Tiekėjai, kuriems nustatyta galimybė naudoti tiekėjo portalą, portale gali užsakymus peržiūrėti ir patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjo portalą galima sukonfigūruoti taip, kad tiekėjo patvirtinimas automatiškai patvirtintų užsakymą programoje „Dynamics 365 for Operations“. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.  
+Tiekėjai, kuriems nustatyta galimybė naudoti tiekėjo portalą, portale gali užsakymus peržiūrėti ir patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjų portalą galima sukonfigūruoti taip, kad, užsakymą patvirtinus tiekėjui, jis būtų automatiškai patvirtintas sprendime „Finance and Operations“. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.  
 
 Taip pat galima generuoti išankstinį užsakymo patvirtinimą, prieš apdorojant faktinį patvirtinimą. Naudojant šią parinktį sukuriama ataskaita, kurią galite bendrinti su tiekėju. Jokia žurnalo informacija nesukuriama.  
 
@@ -83,7 +84,7 @@ Patvirtinus užsakymą jo panaikinti nebegalima. Tačiau užsakyme galite atšau
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
-[Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

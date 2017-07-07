@@ -3,14 +3,14 @@ title: "Elektroninių ataskaitų paskirties vietos"
 description: "Galite sukonfigūruoti kiekvienos elektroninių ataskaitų (ER) formato konfigūracijos ir jos sukurto komponento paskirties vietą (aplanką arba failą). Vartotojai, turintys reikiamas teises, paskirties vietos parametrus gali taip pat keisti apdorojimo metu. Šiame straipsnyje paaiškinami ER paskirties vietų valdymas, palaikomi paskirties vietų tipai ir saugumo klausimai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Galite sukonfigūruoti kiekvienos elektroninių ataskaitų (ER) formato konfigū
 Elektroninių ataskaitų (ER) formato konfigūracijos paprastai turi bent vieną išvesties komponentą: failą. Paprastai konfigūracijos kelių skirtingų tipų (pvz., XML, TXT arba XLSX) failų išvesties komponentų, sugrupuotų į vieną arba kelis aplankus. ER paskirties vietos valdymo funkcija suteikia galimybę iš anksto sukonfigūruoti, kas įvyksta vykdant kiekvieną komponentą. Pagal numatytuosius parametrus paleidus konfigūraciją pasirodo dialogo langas, kuriame vartotojas gali įrašyti arba atidaryti failą. Tas pats procesas taip pat vykdomas importuojant ER konfigūraciją ir nesukonfigūruojant jokių konkrečių jos paskirties vietų. Sukūrus pagrindinio išvesties komponento paskirties vietą, ta paskirties vieta perrašo numatytąją ir aplankas arba failas siunčiamas pagal paskirties vietos parametrus.
 
 ## <a name="availability-and-general-prerequisites"></a>Prieinamumas ir bendrieji reikalavimai
-ER paskirties vietų funkcijų negalima naudoti „Microsoft Dynamics 365 for Operations“ 7.0 (2016 m. vasario mėn.) leidime. Todėl turite įdiegti „Microsoft Dynamics 365 for Operations“ (2016 m. lapkričio mėn. leidimą), kad galėtumėte naudoti visas šioje temoje aprašytas funkcijas. Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačiau nepamirškite, šie alternatyvūs komponentai suteikia labiau ribotą ER paskirties vietos patirtį.
+ER paskirties vietų funkcijų negalima naudoti programoje „Microsoft Dynamics AX“ 7.0 (2016 m. vasario mėn. leidimas). Todėl turite įdiegti „Microsoft Dynamics 365 for Operations“ versiją 1611 (2016 m. lapkričio mėn. leidimą), kad galėtumėte naudoti visas šioje temoje aprašytas funkcijas. Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačiau nepamirškite, šie alternatyvūs komponentai suteikia labiau ribotą ER paskirties vietos patirtį.
 
--   „Microsoft Dynamics 365 for Operations“ 7.0.1 programos versija (2016 m. gegužės mėn.)
+-   „Microsoft Dynamics AX“ 7.0.1 programos versija (2016 m. gegužės mėn.)
 -   ER paskirties vietų valdymo [programos karštosios pataisos](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Paskirties vietas galite nustatyti tik importuotoms ER konfigūracijoms ir tik tokiems ER konfigūracijų formatams, kurie pateikti puslapyje **Elektroninių ataskaitų konfigūracijos**.
@@ -61,7 +61,7 @@ Galima naudoti įvairius paskirties vietų tipus. Galite išjungti arba įjungti
 
 ### <a name="email-destination"></a>El. pašto paskirties vieta
 
-Nustatykite parinktį **Įgalinta**į **Taip**, norėdami siųsti išvesties failą el. paštu. Suaktyvinę šią parinktį, galite nurodyti el. laiško gavėjus ir redaguoti el. laiško temą bei tekstą. Galite nustatyti nuolatinį el. laiško temos ir teksto tekstą arba galite naudoti ER formules, norėdami el. laiškų tekstą kurti dinamiškai. ER el. pašto adresus galite konfigūruoti dviem būdais. Konfigūravimą galima atlikti taip pat, kaip jį atlieka spausdinimo valdymo funkcija programoje „Microsoft Dynamics 365 for Operations“. Arba galite nustatyti el. pašto adresą naudodami tiesioginę nuorodą į ER konfigūraciją per formulę.
+Nustatykite parinktį **Įgalinta** į **Taip**, norėdami siųsti išvesties failą el. paštu. Suaktyvinę šią parinktį, galite nurodyti el. laiško gavėjus ir redaguoti el. laiško temą bei tekstą. Galite nustatyti nuolatinį el. laiško temos ir teksto tekstą arba galite naudoti ER formules, norėdami el. laiškų tekstą kurti dinamiškai. ER el. pašto adresus galite konfigūruoti dviem būdais. Konfigūravimą galima atlikti taip pat, kaip jį atlieka spausdinimo valdymo funkcija programoje „Finance and Operations“. Arba galite nustatyti el. pašto adresą naudodami tiesioginę nuorodą į ER konfigūraciją per formulę.
 
 ### <a name="email-address-types"></a>El. pašto adresų tipai
 
@@ -89,7 +89,7 @@ Naudokite šį el. pašto tipą, jei jūsų naudojamos konfigūracijos duomenų 
 
 [![El. pašto paskirties vietos el. pašto adreso duomenų šaltinio priskyrimas](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Pastaba.** Turi būti sukonfigūruotas ir pasiekiamas paprastųjų pašto siuntų protokolo (SMTP) serveris. SMTP serverį galite nurodyti programoje „Dynamics 365 for Operations“, pasirinkdami **Sistemos administravimas** &gt; **Sąranka** &gt; **El. paštas** &gt; **El. pašto parametrai**.
+**Pastaba.** Turi būti sukonfigūruotas ir pasiekiamas paprastųjų pašto siuntų protokolo (SMTP) serveris. SMTP serverį galite nurodyti programoje „Finance and Operations“, pasirinkdami **Sistemos administravimas** &gt; **Sąranka** &gt; **El. paštas** &gt; **El. pašto parametrai**.
 
 ### <a name="archive-destination"></a>Archyvo paskirties vieta
 
@@ -97,7 +97,7 @@ Naudokite šį el. pašto tipą, jei jūsų naudojamos konfigūracijos duomenų 
 
 [![Puslapis Dokumentų tipai](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Vieta nurodo, kur failas įrašomas. Kai paskirties vieta **Archyvas** suaktyvinta, konfigūracijos vykdymo rezultatus galima įrašyti užduoties archyve. Rezultatus galite peržiūrėti pasirinkdami **Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Suarchyvuotos elektroninių ataskaitų užduotys**. **Pastaba.** Norėdami pasirinkti užduočių archyvo dokumento tipą programoje „Dynamics 365 for Operations“ pasirinkite **Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis** &gt; **Elektroninių ataskaitų parametrai**.
+Vieta nurodo, kur failas įrašomas. Kai paskirties vieta **Archyvas** suaktyvinta, konfigūracijos vykdymo rezultatus galima įrašyti užduoties archyve. Rezultatus galite peržiūrėti pasirinkdami **Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Suarchyvuotos elektroninių ataskaitų užduotys**. **Pastaba.** Norėdami pasirinkti užduočių archyvo dokumento tipą programoje „Finance and Operations“ pasirinkite **Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis** &gt; **Elektroninių ataskaitų parametrai**.
 
 #### <a name="sharepoint"></a>„SharePoint“
 
@@ -119,7 +119,7 @@ Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūr
 
 ### <a name="power-bi-destination"></a>„Power BI“ paskirties vieta
 
-Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš „Dynamics 365 for Operations“ egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Daugiau informacijos žr. temoje [Elektroninių ataskaitų konfigūracijos naudojimas norint „Power BI“ pateikti „Dynamics 365 for Operations“ duomenis](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Patarimas.** Norėdami perrašyti numatytuosius parametrus (t. y. konfigūracijos dialogo lango rodymą), galite sukurti pagrindinio išvesties komponento paskirties vietos nuorodą ir failo paskirties vietą, o tada išaktyvinti visas paskirties vietas.
+Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Patarimas.** Norėdami perrašyti numatytuosius parametrus (t. y. konfigūracijos dialogo lango rodymą), galite sukurti pagrindinio išvesties komponento paskirties vietos nuorodą ir failo paskirties vietą, o tada išaktyvinti visas paskirties vietas.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 Naudojamos dviejų tipų ER paskirties vietoms skirtos teisės ir pareigos. Vienas tipas valdo galimybę išsaugoti sukonfigūruotas bendras juridinio subjekto paskirties vietas (t. y. valdo prieigą prie puslapio **Elektroninių ataskaitų paskirties vietos**). Kitas tipas valdo galimybę programos vartotojui vykdymo metu perrašyti paskirties vietos parametrus, kuriuos sukonfigūravo ER kūrėjas arba ER funkcijų konsultantas.

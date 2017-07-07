@@ -3,24 +3,24 @@ title: "Kaštų apskaitos analizės „Power BI“ turinys"
 description: "Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Power BI“ turinio paketą **Išlaidų apskaitos analizė**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+## <a name="overview"></a>Apžvalga
 
-<a name="overview"></a>Apžvalga
---------
+„Power BI“ turinys **Kaštų apskaitos analizė** skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš modulio **Išlaidų apskaita** ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus. 
 
-**Kaštų apskaitos analizės** „Microsoft Power BI“ turinys skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš „Microsoft Dynamics 365 for Operations“ išlaidų apskaitos ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus. Kadangi **išlaidų apskaitos analizės** „Power BI“turinys išskiria nuokrypius tarp faktinių išlaidų ir biudžeto išlaidų, vadovus galima įspėti apie teigiamas ir neigiamas jų valdomų vienetų tendencijas. Vadovai gali detalizuoti išlaidų elementų hierarchijas arba atskirus išlaidų elementus, kad gautų išsamių įžvalgų apie tai, kaip įvyko išlaidų nuokrypiai, ir tada imtis reikiamų veiksmų. **Kaštų apskaitos analizė** „Power BI“ turinys buhalteriams suteikia galimybę analizuoti išlaidų srautus per visos organizacijos išlaidų objektus. Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
+Kadangi turinys **išlaidų apskaitos analizės** išskiria nuokrypius tarp faktinių išlaidų ir biudžeto išlaidų, vadovus galima įspėti apie teigiamas ir neigiamas jų valdomų vienetų tendencijas. Vadybininkai gali detalizuoti iki išlaidų elementų hierarchijų arba atskirų išlaidų elementų. Tokiu būdu vadybininkai gali įgyti išsamų supratimą apie tai, kaip atsirado išlaidų nuokrypiai, o po to imtis veiksmų. 
+
+Turinys **Kaštų apskaitos analizė** išlaidų buhalteriams suteikia galimybę analizuoti visos organizacijos išlaidų objektų srautus. 
+
+Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie „Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). 
+**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
 
-> PASTABA – **KB4011327** yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie „Lifecycle Services“ galite pasiekti KB čia: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Įsitikinkite, kad atsisiunčiate tą turinį **Kaštų apskaitos analizė**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
+
+> [!NOTE]
+> KB 4011327 yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie LCS, KB galite pasiekti čia adresu <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų apskaitos analizės** „Power BI“ turinio vizualizacijų apžvalga.
@@ -64,12 +73,14 @@ ms.lasthandoff: 05/25/2017
 |                                  | Faktinės išlaidos pagal išlaidų objekto dimensijos nario pavadinimą ir išlaidų elemento dimensijos nario pavadinimą                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami **išlaidų apskaitos analizės** „Power BI“ turinio ataskaitų puslapiams užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
+Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). 
 
-| Objektas                  | Pagrindiniai sujungti matavimo vienetai | „Dynamics 365 for Operations“ duomenų šaltinis | Laukas     | aprašymas                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Išlaidų apskaitos įrašai | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Suma    | Suma išlaidų apskaitos DK valiuta |
-| Statistiniai įrašai     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Reikšmė |                                               |
+Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
+
+| Objektas                  | Pagrindiniai sujungti matavimo vienetai | „Dynamics 365“ duomenų šaltinis      | Laukas     | aprašymas                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Išlaidų apskaitos įrašai | SUM(Amount)               | CAMDATAAggregatedCostEntry        | Suma    | Suma išlaidų apskaitos DK valiuta. |
+| Statistiniai įrašai     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry | Reikšmė |                                                    |
 
 Šioje lentelėje parodyta, kaip pagrindiniai sujungti matavimo vienetai naudojami kuriant kelis skaičiuojamus matus turinio duomenų rinkinyje.
 
@@ -114,16 +125,4 @@ ms.lasthandoff: 05/25/2017
 | Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
 | Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
 | Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](..\data-entities\data-entities.md)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
--   [„Power BI“ kaštų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md)
-
-
-
 

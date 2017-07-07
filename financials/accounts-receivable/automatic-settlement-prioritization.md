@@ -3,7 +3,7 @@ title: "Automatinis sudengimas ir prioritetų nustatymas"
 description: "Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 890de45f8425bdc59ca2fd2ed8297ab3690cc98d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Šiame straipsnyje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 
-Sudengti mokėjimus su sąskaitomis faktūromis ir kitomis operacijomis galima dviem būdais. Galite rankiniu būdu pasirinkti norimas sudengti operacijas arba „Microsoft Dynamics 365 for Operations“ gali automatiškai parinkti operacijas naudodama automatinio sudengimo funkciją. Be to, galite tinkinti automatinių sudengimų taikymo būdą naudodami parinktį **Nustatyti sudengimo prioritetą**. Visos šios parinktys įeina į sudengimo parametrus, kurie nustatomi puslapyje **Gautinų sumų parametrai**. Būdas, kuriuo operacijos yra automatiškai sudengiamos gali skirtis, nes jis priklauso nuo metodo, kurį naudojate automatiniam sudengimui atlikti. Galimi šie metodai:
+Sudengti mokėjimus su sąskaitomis faktūromis ir kitomis operacijomis galima dviem būdais. Galite rankiniu būdu pasirinkti norimas sudengti operacijas arba „Microsoft Dynamics 365 for Finance and Operations“ gali automatiškai parinkti operacijas naudodama automatinio sudengimo funkciją. Be to, galite tinkinti automatinių sudengimų taikymo būdą naudodami parinktį **Nustatyti sudengimo prioritetą**. Visos šios parinktys įeina į sudengimo parametrus, kurie nustatomi puslapyje **Gautinų sumų parametrai**. Būdas, kuriuo operacijos yra automatiškai sudengiamos gali skirtis, nes jis priklauso nuo metodo, kurį naudojate automatiniam sudengimui atlikti. Galimi šie metodai:
 
 -   Vartotojo nustatytas sudengimo prioritetas
 -   Numatytasis automatinis sudengimas

@@ -1,36 +1,36 @@
 ---
-title: "„Dynamics 365 for Operations‟ finansinės ataskaitos"
-description: "„Dynamics 365 for Operations“ finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas."
+title: "„Finance and Operations“ skirtos finansinės ataskaitos"
+description: "„Finance and Operations“ skirtos finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>„Dynamics 365 for Operations‟ finansinės ataskaitos
+# <a name="financial-reporting-for-finance-and-operations"></a>„Finance and Operations“ skirtos finansinės ataskaitos
 
 [!include[banner](../includes/banner.md)]
 
 
-„Dynamics 365 for Operations“ finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas.
+„Finance and Operations“ skirtos finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas.
 
 Finansinės ataskaitos palaiko dimensijas. Todėl sąskaitos segmentus arba dimensijas galima naudoti iš karto. Nereikia jokių papildomų įrankių ar konfigūravimo veiksmų.
 

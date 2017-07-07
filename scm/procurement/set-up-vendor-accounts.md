@@ -3,7 +3,7 @@ title: "Tiekėjų sąskaitų nustatymas"
 description: "Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Galite saugoti tiekėjo kontaktus. Šiuos kontaktus galima naudoti dokumentuose,
 
 Norėdami įtraukti tiekėjo kontaktus, puslapio **Visi tiekėjai** skirtuko **Tiekėjas** grupėje **Nustatyti** spustelėkite **Kontaktai** &gt; **Įtraukti kontaktus**.  
 
-Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas „Microsoft Dynamics 365 for Operations“, ir pagal poreikį informaciją redaguoti.  
+Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas sprendime „Microsoft Dynamics 365 for Finance and Operations“, ir pagal poreikį informaciją redaguoti.  
 
 **Pastaba.** Tiekėjo kontakto įtraukimas ir tiekėjo kontaktinės informacijos įtraukimas nėra tas pats veiksmas. Nors galite įtraukti bendrą tiekėjo kontaktinę informaciją, gali būti, kad toje įmonėje kontaktai yra keli konkretūs žmonės ir jie visi turi savo kontaktinę informaciją.  
 
 Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumente. Tačiau kontaktą galima inaktyvinti.  
 
-Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft Office 365“. Tačiau pirmiausia turite nustatyti „Dynamics 365 for Operations“ ir „Office 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
+Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft Office 365“. Tačiau pirmiausia turite nustatyti „Finance and Operations“ ir „Office 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavimo vedlyje, tiek „Microsoft Outlook“ nustatymo vedlyje.
 
 ## <a name="vendors-in-different-legal-entities"></a>Skirtingų juridinių subjektų tiekėjai
 Jei tiekėjas jūsų organizacijoje registruotas tik vienam juridiniam subjektui ir kiti juridiniai subjektai turi registruoti tą patį tiekėją, galite naudoti puslapį **Įtraukti tiekėją į kitą juridinį subjektą**, norėdami sukonfigūruoti tiekėją vykdyti verslo veiklą su kitu juridiniu subjektu. Pasirinktame juridiniame subjekte turite pasirinkti tiekėjų grupę, valiutą ir tiekėjo sulaikymo būseną.  

@@ -1,15 +1,15 @@
 ---
 title: "Banko išrašo failo importavimo trikčių šalinimas"
-description: "Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Operations“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas."
+description: "Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Operations“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.
+Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.
 
 <a name="what-is-the-error"></a>Kokia klaida?
 ------------------
@@ -38,7 +38,7 @@ Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „
 Pabandę importuoti banko išrašo failą, atidarykite užduoties Duomenų valdymas retrospektyvą ir jos vykdymo informaciją, kad rastumėte klaidą. Klaida gali suteikti pagalbos, nurodydama išrašą, balansą arba išrašo eilutę. Tačiau nėra tikėtina, kad ji suteiks pakankamai informacijos, padėsiančios jums nustatyti lauką arba elementą, dėl kurio kyla problema.
 
 ## <a name="what-are-the-differences"></a>Kokie skirtumai?
-Palyginkite banko failo maketo aprašą su „Microsoft Dynamics 365 for Operations“ importo aprašu ir pasižymėkite bet kokius laukų ir elementų skirtumus. Palyginkite banko išrašo failą su susijusiu „Dynamics 365 for Operations“ failo pavyzdžiu. ISO20022 failuose skirtumus pastebėti turėtų būti lengva.
+Palyginkite banko failo maketo apibrėžimą su „Finance and Operations“ importo apibrėžimu ir pasižymėkite bet kokius laukų ir elementų skirtumus. Palyginkite banko išrašo failą su susijusiu „Finance and Operations“ failo pavyzdžiu. ISO20022 failuose skirtumus pastebėti turėtų būti lengva.
 
 ## <a name="transformations"></a>Transformacijos
 Paprastai keitimą reikia atlikti vienoje iš trijų transformacijų. Kiekviena transformacija parašyta konkrečiam standartui.
@@ -80,7 +80,7 @@ Kai transformacija paleidžiama, ji sukuria išvesties failą, kurį galima per�
 
 ### <a name="adjust-the-transformation"></a>Transformacijos koregavimas
 
-Koreguokite transformaciją, norėdami banko išrašo faile gauti atitinkamą lauką arba elementą. Tada susiekite tą lauką arba elementą su atitinkamu „Dynamics 365 for Operations“ elementu.
+Koreguokite transformaciją, norėdami banko išrašo faile gauti atitinkamą lauką arba elementą. Tada susiekite tą lauką arba elementą su atitinkamu „Finance and Operations“ elementu.
 
 ### <a name="debitcredit-indicator"></a>Debeto / kredito indikatorius
 

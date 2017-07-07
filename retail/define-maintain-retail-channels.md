@@ -1,28 +1,28 @@
 ---
 title: "Apibrėžti ir prižiūrėti mažmeninės prekybos kanalus"
-description: "Šiame straipsnyje pateikiama tradicinių parduotuvių, kurios „Microsoft Dynamics 365 for Operations“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo."
+description: "Šiame straipsnyje pateikiama tradicinių parduotuvių, kurios „Microsoft Dynamics 365 for Retail“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3de01350eafcccad8c49ac32eb2509a3d2975b6
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3f0b566963574569cb40b72550e2337c9ba8a2ce
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama tradicinių parduotuvių, kurios „Microsoft Dynamics 365 for Operations“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo.
+Šiame straipsnyje pateikiama tradicinių parduotuvių, kurios „Microsoft Dynamics 365 for Retail“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo.
 
-„Dynamics 365 for Operations“ mažmeninės prekybos ir prekybos modulis palaiko kelis mažmeninės prekybos kanalus, pvz., internetines parduotuves, skambučių centrus ir tradicines parduotuves. Naudojant Mažmeninės prekybos ir prekybos modulį, tradicinė parduotuvė vadinama mažmeninės prekybos parduotuve. Kiekvienoje mažmeninės prekybos parduotuvėje gali būti naudojami savi mokėjimo būdai, kainų grupės, pardavimo vietos (POS) kasos aparatai, pajamų ir išlaidų sąskaitos bei darbuotojai. Prieš kurdami mažmeninės prekybos parduotuvę, turite nustatyti visus šiuos jos elementus. Kai sukuriate mažmeninės prekybos parduotuvę, galite priskirti produktus, kuriuos norite, kad ji platintų. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai, įtraukite naują parduotuvę į organizacijos hierarchiją.
+„Dynamics 365 for Retail‟ palaiko kelis mažmeninės prekybos kanalus, pvz., internetines parduotuves, skambučių centrus ir tradicines parduotuves. Tradicinė parduotuvė vadinama mažmeninės prekybos parduotuve. Kiekvienoje mažmeninės prekybos parduotuvėje gali būti naudojami savi mokėjimo būdai, kainų grupės, pardavimo vietos (POS) kasos aparatai, pajamų ir išlaidų sąskaitos bei darbuotojai. Prieš kurdami mažmeninės prekybos parduotuvę, turite nustatyti visus šiuos jos elementus. Kai sukuriate mažmeninės prekybos parduotuvę, galite priskirti produktus, kuriuos norite, kad ji platintų. Be to, parduotuvei priskiriami darbuotojai, kasos aparatai ir klientai. Galiausiai, įtraukite naują parduotuvę į organizacijos hierarchiją.
 
 ## <a name="setting-up-retail-stores"></a>Mažmeninės prekybos parduotuvių nustatymas
-Prieš nustatydami mažmeninės prekybos parduotuvę programoje „Dynamics 365 for Operations‟, turite atlikti kai kurias būtinąsias užduotis. Tada galite sukurti mažmeninės prekybos parduotuvę ir pridėti informacijos.
+Prieš nustatydami mažmeninės prekybos parduotuvę programoje „Dynamics 365 for Retail‟, turite atlikti kai kurias būtinąsias užduotis. Tada galite sukurti mažmeninės prekybos parduotuvę ir pridėti informacijos.
 
 ### <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -53,7 +53,7 @@ Prieš nustatydami mažmeninės prekybos parduotuvę, turite atlikti tolesnes u�
 8.  Nustatykite mažmeninės prekybos produktus. Vykdant šią užduotį, taip pat nustatomos mažmeninės prekybos produktų hierarchijos, produktų variantai ir produktų asortimentai.
 9.  Nustatykite produktų kainų grupes.
 10. Nustatykite mažmeninės prekybos produktų kainodarą. Vykdant šią užduotį, taip pat nustatomi kainos koregavimai, nuolaidos ir nuolaidų laikotarpiai.
-11. Nustatykite darbuotojus. **Pastaba.** Taip pat darbuotojams turite priskirti reikiamas teises, kad jie galėtų prisijungti ir atlikti užduotis naudodami „Dynamics 365 for Operations“ sistemą, skirtą „Retail POS‟.
+11. Nustatykite darbuotojus. **Pastaba.** Taip pat darbuotojams turite priskirti reikiamas teises, kad jie galėtų prisijungti ir atlikti užduotis naudodami „Dynamics 365 for Retail“ sistemą, skirtą „Retail POS‟.
 12. Sukonfigūruokite „Retail POS‟ profilius, priskirtinus parduotuvei. Ši užduotis apima daug kitų užduočių, pvz., kasos aparatų nustatymą, autonominių profilių nustatymą ir kvitų formatų bei profilių nustatymą.
 
 Peržiūrėkite visas užduotis, įtrauktas į būtinąsias sąlygas, ir atlikite tik jums taikomas užduotis.
@@ -80,7 +80,7 @@ Atlikę būtinas užduotis, atlikite tolesnes užduotis, norėdami nustatyti inf
 6.  Vykdykite užduotis norėdami siųsti parduotuvės duomenis į „Retail POS‟.
 
 ## <a name="organization-hierarchies"></a>Organizacijų hierarchijos
-„Retail‟ naudoja „Microsoft Dynamics AX‟ organizacijų hierarchijas, kad sistemintų mažmeninės prekybos kanalus. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą. Kai nustatote parduotuves, galite įtraukti jas į organizacijos hierarchiją. Tada parduotuvės bendrina duomenis, kurie naudojami asortimentams, papildymui ir ataskaitoms.
+„Retail‟ naudoja organizacijos hierarchijas mažmeninės prekybos kanalams struktūrizuoti. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą. Kai nustatote parduotuves, galite įtraukti jas į organizacijos hierarchiją. Tada parduotuvės bendrina duomenis, kurie naudojami asortimentams, papildymui ir ataskaitoms.
 
 
 

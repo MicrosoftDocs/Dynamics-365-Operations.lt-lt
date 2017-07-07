@@ -1,16 +1,16 @@
 ---
 title: "Pareigų prognozavimas"
-description: 
+description: "Su darbuotojais susijusios išlaidas dažnai sudaro didelę įmonės išlaidų dalį. Pareigų prognozavimas suteikia galimybę tas išlaidas planuoti ir įtraukti į biudžetų planavimą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Pareigų prognozavimas
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ Kompensacijų grupėje pasirinktas pajamų išlaidų elementas yra naudojamas, k
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Esamų pareigų prognozuojamų pareigų kūrimas
 
-Norėdami biudžetą planuoti kuo tiksliau, prognozuojamas pareigas galite kurti naudodami informaciją iš esamų „Microsoft Dynamics 365 for Operations“ pareigų, nesvarbu, ar pareigos yra šiuo metu užpildytos, ar ne. 
+Norėdami biudžetą planuoti kuo tiksliau, prognozuojamas pareigas galite kurti naudodami informaciją iš esamų „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ pareigų, nesvarbu, ar pareigos yra šiuo metu užpildytos, ar ne. 
 
 Funkcijoje **Įtraukti esamas pareigas** rodomos visos organizacijos pareigos. Nustatydami **Nuo** datą, galite keisti pareigų sąrašą, kad jame būtų rodomos tam tikros praeities arba (labiau tikėtina)ateities datos buvusios pareigos. Pasirinkite biudžeto planavimo procesą ir biudžeto plano scenarijų, sąraše pasirinkite pareigas ir spustelėkite **Gerai**, kad sukurtumėte pasirinktų pareigų prognozuojamas pareigas. Atkreipkite dėmesį, kad kiekvienoms esamoms pareigoms biudžeto planavimo procese ir scenarijuje galite kurti tik vienas prognozuojamas pareigas. Tačiau galite kurti papildomas versijas, priskirdami kitus biudžeto plano scenarijus. 
 

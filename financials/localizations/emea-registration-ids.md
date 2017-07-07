@@ -3,7 +3,7 @@ title: Registracijos ID
 description: "Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ Registracijos kategorija yra šalies / regiono registracijos identifikatorius, k
 |-----------------------|----------------|
 | Registracijos tipas     | Registracijos tipas konkrečioje šalyje / regione.|
 | Apribota iki         | Mokesčių registracijos tipui taikomo apribojimo rūšis: Nėra, Asmuo, Organizacija.|
-| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau pateikiamas visas AX7.1 palaikomų kategorijų sąrašas. |
+| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau pateikiamas visas naudojant „Microsoft Dynamics 365 for Finance and Operations‟ leidimą „Enterprise‟ palaikomų kategorijų sąrašas. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Visuotinės adresų knygelės įrašų registracijos ID įvedimas
-Visuotinė adresų knygelė (GAB) programoje „Microsoft Dynamics 365 for Operations“ pateikia konsoliduotą klientų, tiekėjų, kontaktų, verslo ryšių ir juridinių subjektų adresų informaciją. Išsamesnės informacijos žr. [Visuotinės adresų knygelės apžvalga](/dynamics365/operations/organization-administration/overview-global-address-book). Šalies įrašuose, kurie yra saugomi visuotinėje adresų knygelėje, gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Galite nustatyti klientų, tiekėjų, darbuotojų ir juridinių subjektų adresų informacijos registracijos ID. Raskite šalies (juridinio subjekto, tiekėjo, kliento, darbuotojo) įrašą, kurio registracijos ID norite įvesti, o tada spustelėkite **Registracijos ID** formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu, darbuotoju, kad atidarytumėte puslapį **Tvarkyti adresus**. Skirtuke **Mokesčių registracija** spustelėkite **Įtraukti** ir įveskite tolesnė registracijos ID informaciją.
+
+Visuotinė adresų knygelė (GAB) programoje „Microsoft Finance and Operations“ pateikia konsoliduotą klientų, tiekėjų, kontaktų, verslo ryšių ir juridinių subjektų adresų informaciją. Išsamesnės informacijos žr. [Visuotinės adresų knygelės apžvalga](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Šalies įrašuose, kurie yra saugomi visuotinėje adresų knygelėje, gali būti vienas ar daugiau adresų įrašų. Šie adresai naudojami įvairiems tikslams, pvz., atsiskaitymo arba pristatymo. Galite nustatyti klientų, tiekėjų, darbuotojų ir juridinių subjektų adresų informacijos registracijos ID. Raskite šalies (juridinio subjekto, tiekėjo, kliento, darbuotojo) įrašą, kurio registracijos ID norite įvesti, o tada spustelėkite **Registracijos ID** formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu, darbuotoju, kad atidarytumėte puslapį **Tvarkyti adresus**. Skirtuke **Mokesčių registracija** spustelėkite **Įtraukti** ir įveskite tolesnė registracijos ID informaciją.
+
 
 |Laukas                |aprašymas                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ Visuotinė adresų knygelė (GAB) programoje „Microsoft Dynamics 365 for Opera
 Ieškokite šalies įrašų pagal registracijos ID, pateikiamą formose, susijusiose su šalimi, juridiniu subjektu, tiekėju, klientu arba darbuotoju. Spustelėkite **Registracijos ID ieška**, kad atidarytumėte puslapį **Registracijos ID ieškos kriterijai**. Nurodykite ieškos kriterijus ir spustelėkite **Rasti**. Sistema rodys pasirinktus įrašus iš visuotinės adresų knygelės ir susijusius šalies įrašo tipus.
 
 ## <a name="supported-registration-categories"></a>Palaikomos registracijos kategorijos
-Tolesnėje lentelėje išvardijami palaikomi registracijos tipai programoje „Dynamics 365 for Operations‟. Jei esate susipažinę su „Microsoft Dynamics AX 2012“ registracijos ID laukais: ši lentelė taip pat tuos laukus susieja su „Dynamics 365 for Operations“ registracijos kategorijomis.
+Tolesnėje lentelėje išvardijami programoje „Finance and Operations‟ palaikomi registracijos tipai. Jei esate susipažinę su „Microsoft Dynamics AX 2012“ registracijos ID laukais: ši lentelė taip pat tuos laukus susieja su „Finance and Operations“ registracijos kategorijomis.
 
-| „Dynamics 365 for Operations“ registracijos kategorija         |Šalis/regionas  | „Dynamics AX 2012“ terminas / laukas|
+| „Finance and Operations“ registracijos kategorija         |Šalis/regionas  | „Dynamics AX 2012“ terminas / laukas|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| PVM ID                                                        | Visos Europos Sąjungos (ES) šalys|  Mokesčių lengvatos numeris (įstatymuose nustatyto tipo mokesčio ID programoje AX2012 R3)|
-| Įmonės ID (COID)                                          | Belgija Čekijos Respublika Estija Vengrija Latvija Lietuva Lenkija Šveicarija | Įmonės numeris (EnterpriseNumber) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Įmonės kodas (EnterpriseCode) Registracijos numeris (RegNum\_W) UID (įstatymuose nustatyto tipo mokesčio ID programoje AX2012 R3) |
+| PVM ID                                                        | Visos Europos Sąjungos (ES) šalys|  Mokesčių lengvatos numeris (įstatymuose nustatyto tipo mokesčio ID programoje AX 2012 R3)|
+| Įmonės ID (COID)                                          | Belgija Čekijos Respublika Estija Vengrija Latvija Lietuva Lenkija Šveicarija | Įmonės numeris (EnterpriseNumber) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Registracijos numeris (RegNum\_W) Įmonės kodas (EnterpriseCode) Registracijos numeris (RegNum\_W) UID (įstatymuose nustatyto tipo mokesčio ID programoje AX 2012 R3) |
 | Filialo ID                                                     | Belgija            | Šakos numeris (BranchNumber)|
 | Spisová značka (Registracijos numeris, Išduodanti agentūra, Skyrius) | Čekijos Respublika     | Įklijos numeris (CommercialRegisterInsetNumber) Saugoma komercijos registre (CommercialRegister) Komercijos registro skyrius (CommercialRegisterSection)|
 | Muitinės kliento ID                                           | Suomija | Muitinės kliento numeris (CustomsCustomerNumber\_FI)|
-| INN                                                           | Rusijos Federacija| INN (įstatymuose nustatyto tipo INN programoje AX2012 R3)|
-| RPK                                                           | Rusijos Federacija| RRC (įstatymuose nustatyto tipo RRC programoje AX2012 R3)|
-| OKDP                                                          | Rusijos Federacija| OKDP (įstatymuose nustatyto tipo OKDP programoje AX2012 R3)|
-| OKPO                                                          | Rusijos Federacija| OKPO (įstatymuose nustatyto tipo OKPO programoje AX2012 R3)|
-| RCOAD                                                         | Rusijos Federacija| RCOAD (įstatymuose nustatyto tipo RCOAD programoje AX2012 R3)|
-| OGRN                                                          | Rusijos Federacija| OGRN (įstatymuose nustatyto tipo OGRN programoje AX2012 R3) |
-| SNILS                                                         | Rusijos Federacija| SNILS (įstatymuose nustatyto tipo SNILS programoje AX2012 R3)|
-| CIFTS                                                         | Rusijos Federacija| CIFTS (įstatymuose nustatyto tipo CIFTS programoje AX2012 R3)|
+| INN                                                           | Rusijos Federacija| INN (įstatymuose nustatyto tipo INN programoje AX 2012 R3)|
+| RPK                                                           | Rusijos Federacija| RRC (įstatymuose nustatyto tipo RRC programoje AX 2012 R3)|
+| OKDP                                                          | Rusijos Federacija| OKDP (įstatymuose nustatyto tipo OKDP programoje AX 2012 R3)|
+| OKPO                                                          | Rusijos Federacija| OKPO (įstatymuose nustatyto tipo OKPO programoje AX 2012 R3)|
+| RCOAD                                                         | Rusijos Federacija| RCOAD (įstatymuose nustatyto tipo RCOAD programoje AX 2012 R3)|
+| OGRN                                                          | Rusijos Federacija| OGRN (įstatymuose nustatyto tipo OGRN programoje AX 2012 R3) |
+| SNILS                                                         | Rusijos Federacija| SNILS (įstatymuose nustatyto tipo SNILS programoje AX 2012 R3)|
+| CIFTS                                                         | Rusijos Federacija| CIFTS (įstatymuose nustatyto tipo CIFTS programoje AX 2012 R3)|
 
 Norėdami daugiau informacijos apie registracijos ID apdorojimą, įskaitant būtinąsias sąlygas, žr. toliau nurodytus PVM ID užduočių įrašus „Lifecycle Services“ (LCS).
 

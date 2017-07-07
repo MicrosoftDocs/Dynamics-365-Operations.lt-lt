@@ -3,14 +3,14 @@ title: "Laukų aprašų peržiūra ir eksportas"
 description: "Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
-„Microsoft Dynamics 365 for Operations“ pateikiami kai kurių sudėtingesnių laukų aprašai. Šie aprašymai bus rodomi, kai užveskite pelės žymeklį virš lauko. Puslapyje **Laukų aprašymai** aprašymus taip pat galite peržiūrėti ir eksportuoti. 
+„Microsoft Dynamics 365 for Finance and Operations“ pateikiami kai kurių sudėtingesnių laukų aprašai. Šie aprašymai bus rodomi, kai užveskite pelės žymeklį virš lauko. Puslapyje **Laukų aprašymai** aprašymus taip pat galite peržiūrėti ir eksportuoti. 
 
 Laukų aprašai yra ne visuose puslapiuose. Norime pateikti tik sudėtingesnių laukų aprašymus, o ne tų, kurių naudojimas yra aiškus. Todėl kai kuriuose puslapiuose aprašymai nerodomi, kai kuriuose puslapiuose rodomi keli aprašymai, o kai kuriuose sudėtingesniuose puslapiuose, pvz., daugelyje parametrų puslapių, rodoma daug aprašymų. 
 
-Jei turite prieigą prie „Dynamics 365 for Operations“ programavimo aplinkos, galite įtraukti naujų laukų aprašų ir tinkinti esamus aprašus. Pavyzdžiui, į lauko aprašymą galite įtraukti įmonei būdingą informaciją. Daugiau informacijos žr. dalyje [Lauko žinyno tinkinimas](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Jei turite prieigą prie „Finance and Operations“ programavimo aplinkos, galite įtraukti naujų laukų aprašų ir tinkinti esamus aprašus. Pavyzdžiui, į lauko aprašymą galite įtraukti įmonei būdingą informaciją. Daugiau informacijos žr. dalyje [Lauko žinyno tinkinimas](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Peržiūrėkite laukų aprašymus vartotojo sąsajoje.
-Laukų aprašus galite peržiūrėti užvesdami pelės žymeklį virš lauko. Jei aprašymo nėra, užvedę pelės žymeklį virš lauko matysite lauko pavadinimą. (Pastaba. 7.0.0 versijoje laukų aprašus galima peržiūrėti tik puslapyje **Laukų aprašai**). Toliau pateiktoje iliustracijoje parodytas lauko aprašas, kuris pateikiamas pelės žymiklį laikant virš lauko **Blokuoti prekes jas inventorizuojant**. 
+Laukų aprašus galite peržiūrėti užvesdami pelės žymeklį virš lauko. Jei aprašymo nėra, užvedę pelės žymeklį virš lauko matysite lauko pavadinimą. (Pastaba: „Dynamics AX 7.0“ (2016 m. vasaris) laukų aprašus galima peržiūrėti tik puslapyje **Laukų aprašai**). Toliau pateiktame paveikslėlyje parodytas lauko aprašas, kuris pateikiamas pelės žymiklį laikant virš lauko **Blokuoti prekes jas inventorizuojant**. 
 
 [![Lauko aprašo pavyzdys](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Lauko žinyno tinkinimas](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Lauko žinyno tinkinimas](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

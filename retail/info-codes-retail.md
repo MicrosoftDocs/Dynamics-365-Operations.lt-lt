@@ -3,26 +3,27 @@ title: Informacijos kodai
 description: "Šiame straipsnyje apžvelgiami informacijos kodai, informacijos kodų grupės ir tai, kaip juos naudoti."
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ Informacijos kodai suteikia būdą fiksuoti duomenis elektroninio kasos aparato 
 -   Parduokite produktą įprastai, su nuolaida arba kaip nemokamą produktą.
 -   Paraginkite kasininką įvesti reikšmę arba rinktis iš antrinių kodų sąrašo, jei kasos aparato stalčius atidaromas neatliekant pardavimo operacijos.
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>Mažmeninės prekybos ir prekybos informacijos kodų grupės
-„Dynamics 365 for Operations“ – versija „Retail“, galite kurti informacijos kodų grupes. Informacijos kodų grupės suteikia lankstumo, nes galite nustatyti mažiau informacijos kodų, bet naudoti juos lanksčiau. Informacijos kodų grupes galite naudoti šiais būdais:
+## <a name="info-codes-group"></a>Informacijos kodų grupė
+Programoje „Dynamics 365 for Retail“ galite kurti informacijos kodų grupes. Informacijos kodų grupės suteikia lankstumo, nes galite nustatyti mažiau informacijos kodų, bet naudoti juos lanksčiau. Informacijos kodų grupes galite naudoti šiais būdais:
 -   Apibrėžkite mažiau informacijos kodų ir lengvai naudokite juos pakartotinai. Informacijos kodai, įtraukti į informacijos kodų grupes, neturi nustatytos priklausomybės nuo kitų informacijos kodų. Galite įtraukti tą patį informacijos kodą į kelias informacijos kodų grupes ir tada naudodami prioritetų nustatymo funkciją išdėstyti informacijos kodus tvarka, tinkama konkrečiai situacijai.
 -   Susiekite informacijos kodus su kitais informacijos kodais arba jų grupėmis, kad surinktumėte informaciją apie produktą arba operaciją, neapibrėždami atskiro informacijos kodo arba nesusiedami informacijos kodo kiekvienam scenarijui.
 

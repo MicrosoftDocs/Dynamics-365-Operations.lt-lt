@@ -1,15 +1,15 @@
 ---
 title: "Peržvalgų naudojimas informacijai surasti"
-description: "Programoje „Microsoft Dynamics 365 for Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje."
+description: "Programoje „Microsoft Dynamics 365 for Finance and Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Programoje „Microsoft Dynamics 365 for Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.  
+Programoje „Microsoft Dynamics 365 for Finance and Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.  
 
 <a name="responsive-lookups"></a>Reaguojančios peržvalgos
 ------------------
 
-Vartotojai, naudodami ankstesnes „Dynamics 365 for Operations“ versijas ir sąveikaudami su peržvalgos valdikliu, turi atlikti akivaizdų veiksmą, kad būtų atidarytas išplečiamasis meniu. Šiose versijose meniu gali būti atidaromas įvedus žvaigždutę (\*) valdiklyje, kad pagal dabartinę valdiklio reikšmę peržvalgoje būtų išfiltruotas turinys, spustelėjus išplečiamąjį mygtuką arba naudojant sparčiuosius klavišus **Alt**+**rodyklė žemyn**. Kad geriau atitiktų dabartines žiniatinklio tendencijas, peržvalgos valdikliai modifikuoti pritaikius toliau nurodytas veikimo ypatybes.
+Vartotojai, naudodami ankstesnes „Finance and Operations“ versijas ir sąveikaudami su peržvalgos valdikliu, turi atlikti akivaizdų veiksmą, kad būtų atidarytas išplečiamasis meniu. Šiose versijose meniu gali būti atidaromas įvedus žvaigždutę (\*) valdiklyje, kad pagal dabartinę valdiklio reikšmę peržvalgoje būtų išfiltruotas turinys, spustelėjus išplečiamąjį mygtuką arba naudojant sparčiuosius klavišus **Alt**+**rodyklė žemyn**. Kad geriau atitiktų dabartines žiniatinklio tendencijas, peržvalgos valdikliai modifikuoti pritaikius toliau nurodytas veikimo ypatybes.
 
 -   Nuo šiol peržvalgos išplečiamasis meniu bus automatiškai atidaromas po trumpos pauzės įvedant tekstą, o išplečiamojo meniu turinys bus išfiltruojamas pagal peržvalgos valdiklio reikšmę.
     -   Atminkite, kad nuo šiol įvedus žvaigždutę (\*) automatiškai nebeatidaromas išplečiamasis meniu.
@@ -58,7 +58,7 @@ Net jei įvesties vieta ir toliau bus peržvalgos valdiklyje, naudodami klavišu
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Ne vien tik ID įvedimas
-Vartotojai, įvesdami duomenis, paprastai bando identifikuoti objektą, pvz., klientą ar tiekėją, pagal pavadinimą, o ne objektą nurodantį identifikatorių. Nuo šiol dabartinėje „Dynamics 365 for Operations“ versijoje daugelyje peržvalgų (tačiau ne visose) galima įvesti kontekstinius duomenis. Vartotojas, naudodamas šią efektyvią duomenų įvedimo funkciją, peržvalgos valdiklyje gali įvesti ID arba atitinkamą pavadinimą. 
+Vartotojai, įvesdami duomenis, paprastai bando identifikuoti objektą, pvz., klientą ar tiekėją, pagal pavadinimą, o ne objektą nurodantį identifikatorių. Nuo šiol dabartinėje „Finance and Operations“ versijoje daugelyje peržvalgų (tačiau ne visose) galima įvesti kontekstinius duomenis. Vartotojas, naudodamas šią efektyvią duomenų įvedimo funkciją, peržvalgos valdiklyje gali įvesti ID arba atitinkamą pavadinimą. 
 
 Pavyzdžiui, panagrinėkime lauką **Kliento sąskaita**, kai kuriamas pardavimo užsakymas. Šiame lauke nurodomas kliento **sąskaitos ID**, tačiau vartotojas, kurdamas pardavimo užsakymą, šiame lauke paprastai įvestų **sąskaitos pavadinimą**, o ne **sąskaitos ID**, pvz., „Forest Wholesales“, o ne „US-003“.
 

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb8fa9f5f17b8d658e2d0fea3a9659ab09562611
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -64,11 +64,11 @@ Iš gamybos eigos tiekiamų produktų atveju KS skaičiavimas turi būti pagrįs
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Gamybos eiga pagrįstas skaičiavimas
 
-„Lean manufacturing”, skirtas „Microsoft Dynamics 365 for Operations”, su maršrutais nesusijęs. Iš gamybos eigos tiekiamų produktų išlaidų skaičiavimas gali būti pagrįstas pačia gamybos eiga. Kad galėtumėte apskaičiuoti, reikia sukurti iš gamybos eigos tiekiamo produkto „kanban” taisyklę. Jei produktą galima tiekti iš kelių gamybos eigų toje pačioje nuo skaičiavimo datos vietoje, pasirinkite KS skaičiavimo gamybos eigą. Puslapyje **Numatytoji gamybos eiga** galite konfigūruoti numatytąją kiekvienos prekės gamybos eigą. Jei nustatytos kelios to paties produkto, esančio toje pačioje nuo skaičiavimo datos veikiančioje gamybos eigoje, „kanban” taisyklės, skaičiuojant pasirenkama aktyvi pirmoji „kanban“ taisyklė.
+„Lean manufacturing”, skirtas „Microsoft Dynamics 365 for Finance and Operations”, su maršrutais nesusijęs. Iš gamybos eigos tiekiamų produktų išlaidų skaičiavimas gali būti pagrįstas pačia gamybos eiga. Kad galėtumėte apskaičiuoti, reikia sukurti iš gamybos eigos tiekiamo produkto „kanban” taisyklę. Jei produktą galima tiekti iš kelių gamybos eigų toje pačioje nuo skaičiavimo datos vietoje, pasirinkite KS skaičiavimo gamybos eigą. Puslapyje **Numatytoji gamybos eiga** galite konfigūruoti numatytąją kiekvienos prekės gamybos eigą. Jei nustatytos kelios to paties produkto, esančio toje pačioje nuo skaičiavimo datos veikiančioje gamybos eigoje, „kanban” taisyklės, skaičiuojant pasirenkama aktyvi pirmoji „kanban“ taisyklė.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Maršrutu pagrįstas skaičiavimas
 
-Maršrutu pagrįstas skaičiavimas yra kaip skaičiavimas, pagrįstas gamybos eiga. Tačiau maršrutu pagrįsto skaičiavimo atveju nenaudojama įkainojimui skirta „Lean manufacturing” funkcija. Maršrute reikia naudoti išteklių grupių išteklių reikalavimus. Siekiant išvengti sisteminių nuokrypių, jame taip pat reikia naudoti tuos pačius darbo elementus ar bent jau tas pačias išlaidų kategorijas. Taip pat turėtumėte vengti sąrankos ir kiekio išlaidų kategorijų. Jos nepadės detaliau apskaičiuoti išlaidų paskirstymo nei „Lean manufacturing” išlaidų nurašymas. Norėdami nustatyti, kurią parinktį (gamybos eigos ar maršruto) naudodami skaičiuosite išlaidas, atsižvelkite į išlaidų paskirstymo rezultatus. Dabar teikiamoje versijoje rodoma mažiau nuokrypių, todėl tai yra geresnė pasirinktis. „Lean manufacturing” aplinkoje, kurioje produktas tiekiamas naudojant vieną gamybos eigą ir vieną „kanban” taisyklę, gamybos eiga pagrįstas skaičiavimas greičiausiai yra tikslesnis. Naudojant produktą, kurį toje pačioje vietoje gali pateikti „Lean manufacturing” ir gamybos užsakymai arba kuriame gali būti kelios gamybos eigos ar kelios tos pačios eigos „kanban“ taisyklės, skaičiavimas gali būti tikslesnis, jeigu jis pagrįstas maršruto versija, specialiai skirta išlaidoms, o ne gamybos užsakymams skaičiuoti. Norint apskaičiuoti produktus, susijusius su subranga, reikia naudoti gamybos eigos skaičiavimą. „Microsoft Dynamics 365 for Operations” išlaidų modeliuose, skirtuose gamybos užsakymų subrangai ir „Lean manufacturing” subrangai, naudojami du skirtingi metodai. „Lean manufacturing” yra naujas išlaidų grupės tipas **Tiesioginės užsakomosios paslaugos**, skirtas subrangos paslaugų išlaidoms skaičiuoti.
+Maršrutu pagrįstas skaičiavimas yra kaip skaičiavimas, pagrįstas gamybos eiga. Tačiau maršrutu pagrįsto skaičiavimo atveju nenaudojama įkainojimui skirta „Lean manufacturing” funkcija. Maršrute reikia naudoti išteklių grupių išteklių reikalavimus. Siekiant išvengti sisteminių nuokrypių, jame taip pat reikia naudoti tuos pačius darbo elementus ar bent jau tas pačias išlaidų kategorijas. Taip pat turėtumėte vengti sąrankos ir kiekio išlaidų kategorijų. Jos nepadės detaliau apskaičiuoti išlaidų paskirstymo nei „Lean manufacturing” išlaidų nurašymas. Norėdami nustatyti, kurią parinktį (gamybos eigos ar maršruto) naudodami skaičiuosite išlaidas, atsižvelkite į išlaidų paskirstymo rezultatus. Dabar teikiamoje versijoje rodoma mažiau nuokrypių, todėl tai yra geresnė pasirinktis. „Lean manufacturing” aplinkoje, kurioje produktas tiekiamas naudojant vieną gamybos eigą ir vieną „kanban” taisyklę, gamybos eiga pagrįstas skaičiavimas greičiausiai yra tikslesnis. Naudojant produktą, kurį toje pačioje vietoje gali pateikti „Lean manufacturing” ir gamybos užsakymai arba kuriame gali būti kelios gamybos eigos ar kelios tos pačios eigos „kanban“ taisyklės, skaičiavimas gali būti tikslesnis, jeigu jis pagrįstas maršruto versija, specialiai skirta išlaidoms, o ne gamybos užsakymams skaičiuoti. Norint apskaičiuoti produktus, susijusius su subranga, reikia naudoti gamybos eigos skaičiavimą. „Microsoft Dynamics 365 for Finance and Operations” išlaidų modeliuose, skirtuose gamybos užsakymų subrangai ir „Lean manufacturing” subrangai, naudojami du skirtingi metodai. „Lean manufacturing” yra naujas išlaidų grupės tipas **Tiesioginės užsakomosios paslaugos**, skirtas subrangos paslaugų išlaidoms skaičiuoti.
 
 ## <a name="material-consumption"></a>Medžiagų suvartojimas
 NG suvartojus medžiagas iš atsargų, medžiagų išlaidos įtraukiamos į NG išlaidų grupės faktines standartines išlaidas. Ši operacija vyksta tokiomis sąlygomis:
@@ -85,7 +85,7 @@ Produktai gaunami iš gamybos eigos tokiomis sąlygomis:
 Iš gamybos eigos gauti produktai išskaičiuojami iš NG.
 
 ## <a name="products-in-wip"></a>NG produktai
-Norėdami valdyti medžiagas, neužbaigtus ir pagamintus produktus, kurie yra NG dalis, „Microsoft Dynamics 365 for Operations” „Lean manufacturing” NG modelyje galite naudoti „kanban” sandėliavimo vieneto būseną.
+Norėdami valdyti medžiagas, neužbaigtus ir pagamintus produktus, kurie yra NG dalis, „Microsoft Dynamics 365 for Finance and Operations” „Lean manufacturing” NG modelyje galite naudoti „kanban” sandėliavimo vieneto būseną.
 
 -   **Priskirta** – „kanban” galima suvartoti medžiagas, apskaitomas NG.
 -   **Gauta** – jei „kanban“ nurodoma paskutinė veikla, kur **Atnaujinti atsargas gaunant** nustatyta į **Ne**, tai pateikiamas visas produkto sandėliavimo vienetas arba neužbaigtas produktas, kuris neužregistruotas į atsargas.

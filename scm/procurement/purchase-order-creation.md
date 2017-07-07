@@ -3,14 +3,14 @@ title: "Pirkimo užsakymų sukūrimas"
 description: "Šiame straipsnyje aprašomas pirkimo užsakymo kūrimo neautomatiniu būdu procesas ir parinktys."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="create-purchase-orders"></a>Pirkimo užsakymų sukūrimas
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Šiame straipsnyje aprašomas pirkimo užsakymo kūrimo neautomatiniu būdu procesas ir parinktys.
@@ -65,12 +67,12 @@ Galite patikrinti laikomų produktų atsargų operacijos būsenos informaciją. 
 
 PU eilutėje, kuri naudojama siekiant produktą grąžinti tiekėjui, kiekis bus neigiamas. Galite pasirinkti grąžinti konkrečią partiją, naudodami veiksmą **Rezervavimas**.  
 
-Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys būtų pristatomos skirtingu laiku. Šiuos pristatymus galite nustatyti naudodami veiksmą **Pristatymo grafikas**, kurį galima rasti rodinio **Eilutės** meniu**pirkimo užsakymo eilutė**.  
+Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys būtų pristatomos skirtingu laiku. Šiuos pristatymus galite nustatyti naudodami veiksmą **Pristatymo grafikas**, kurį galima rasti rodinio **Eilutės** meniu **pirkimo užsakymo eilutė**.  
 
 Mokesčius galima automatiškai įtraukti į PU eilutes, jei buvo nustatyti tiekėjo arba tiekėjo mokesčių grupės ir prekės arba prekės mokesčių grupės automatinio mokesčiai. Tačiau labiau įprasta mokesčius įtraukti užsakymo eilutės lygiu neautomatiniu būdu. Norėdami įtraukti mokestį, atidarykite puslapį **Prižiūrėti išlaidas** naudodami rodinio **Eilutės** meniu **Finansai** veiksmą **Prižiūrėti išlaidas**. Mokesčių įtraukimo tiesiogiai užsakymo eilutės lygiu privalumas yra tai, kad mokestį galima paskirstyti kaip atsargų savikainą. Norėdami nustatyti sąskaitos produkto savikainos mokesčių kodus, naudokite debeto parinktį **Prekė**. Šių tipų mokesčiai turi būti paskirstyti iš PU antraštės į eilutes, kad būtų galima patvirtinti užsakymą. Pavyzdžiui, galite mokesčius paskirstyti pagal kiekį kiekvienoje eilutėje. Mokesčių kategorijai taip pat turi įtakos, kaip mokesčiai yra apskaitomi. Pvz., fiksuoti mokesčiai nurodo fiksuotą sumą, o mokesčių procentinė dalis apskaičiuojami kaip užsakymo eilutės grynosios sumos procentinė dalis. PU galima priskirti kroviniui, o krovinys gali apimti transportavimo išlaidų numatomų išlaidų įvertinimą. Šias išlaidas galite iš krovinio paskirstyti atgal į PU eilutes.
 
 ## <a name="purchase-order-actions"></a>Pirkimo užsakymo veiksmai
-Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](/dynamics365/operations/get-started/action-search), norint surasti atitinkamą meniu elementą.  
+Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](/dynamics365/unified-operations/fin-and-ops/get-started/action-search), norint surasti atitinkamą meniu elementą.  
 
 Galite konfigūruoti užsakymo produktus, kad jie turėtų papildomas prekes. Papildomos prekės yra produktai, kuriuos privaloma arba galima nupirkti kartu su kitais produktais. Papildomus produktus galima nemokamai pridėti kaip susijusius produktus arba galite turėti galimybę nuspręsti, ar juos įtraukti į užsakymą, ar ne. Papildomas prekes galite peržiūrėti įtraukę kiekvieną užsakymo eilutę. Tačiau tikriausiai patogiau bus peržiūrėti ir įtraukti visų užsakymo eilučių atitinkamas papildomas prekes, naudojant puslapį **Papildomos prekės**, kurį galima atidaryti iš veiksmų srities.  
 
@@ -94,7 +96,7 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
-[Tiekėjo SF apžvalga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

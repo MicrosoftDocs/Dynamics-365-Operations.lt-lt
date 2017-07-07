@@ -3,14 +3,14 @@ title: Transportavimo valdymo mechanizmai
 description: "Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5db69ed204b9503fb710426f449f38e76591641
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,15 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas. 
 
-Transportavimo valdymo mechanizmas apskaičiuoja užduotis, pvz., vežėjo transportavimo tarifą. Mechanizmo sistema leidžia keisti skaičiavimo strategijas apdorojimo metu, atsižvelgiant į „Microsoft Dynamics 365 for Operations“ esančius duomenis. Transportavimo valdymo mechanizmas panašus į priedą, susijusį su tam tikra vežėjo sutartimi.
+Transportavimo valdymo mechanizmas apskaičiuoja užduotis, pvz., vežėjo transportavimo tarifą. Mechanizmo sistema leidžia keisti skaičiavimo strategijas apdorojimo metu, atsižvelgiant į „Microsoft Dynamics 365 for Finance and Operations“ esančius duomenis. Transportavimo valdymo mechanizmas panašus į priedą, susijusį su tam tikra vežėjo sutartimi.
 
 ## <a name="what-engines-are-available"></a>Kokie yra galimi mechanizmai?
-Toliau pateiktoje lentelėje parodyti „Microsoft Dynamics 365 for Operations“ galimi transportavimo valdymo mechanizmai.
+Toliau pateiktoje lentelėje parodyti galimi „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo mechanizmai.
 
 | Transportavimo valdymo mechanizmas | aprašymas                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tarifo nustatymo mechanizmas**                  | Apskaičiuojami tarifai.                                                                                                                                                                                                                                                                                                           |
-| **Bendrasis mechanizmas**               | Paprasti pagalbiniai mechanizmai, naudojami kitų mechanizmų ir nereikalaujantys duomenų iš „Microsoft Dynamics 365 for Operations“, pavyzdžiui, paskirstymo mechanizmas. Paskirstymo mechanizmai naudojami siekiant sumažinti galutines transportavimo išlaidas iki konkrečių užsakymų ir eilučių, atsižvelgiant į dimensijas, pvz., tūrį ir svorį. |
+| **Bendrasis mechanizmas**               | Paprasti pagalbiniai mechanizmai, naudojami kitų mechanizmų ir nereikalaujantys duomenų iš „Microsoft Dynamics 365 for Finance and Operations“, pavyzdžiui, paskirstymo mechanizmas. Paskirstymo mechanizmai naudojami siekiant sumažinti galutines transportavimo išlaidas iki konkrečių užsakymų ir eilučių, atsižvelgiant į dimensijas, pvz., tūrį ir svorį. |
 | **Kilometražo mechanizmas**               | Apskaičiuojamas transportavimo atstumas.                                                                                                                                                                                                                                                                                     |
 | **Tranzito laiko mechanizmas**          | Apskaičiuojamas laikas, kurio reikia nukeliauti nuo pradinės iki galutinės paskirties vietos.                                                                                                                                                                                                                                       |
 | **Zonos mechanizmas**                  | Apskaičiuojama zona pagal dabartinį adresą ir skaičius zonų, kurias reikia kirsti norint nukeliauti nuo adreso A iki adreso B.                                                                                                                                                                    |
@@ -63,23 +63,23 @@ Daugeliu atvejų inicijavimo duomenis galite konfigūruoti spustelėdami transpo
 | Parametras             | Aprašymas                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *RateBaseAssigner*    | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmės sintaksę sudaro du segmentai, atskirti vertikaliu brūkšniu (|). Pirmajame segmente yra surinkimo pavadinimas, apibrėžiantis priskyriklio tipą. Antrasis segmentas nurodo visiškai apibrėžtą priskyriklio tipo pavadinimą. Tai apima tipo vardų sritį. |
-| *MileageEngineCode*   | Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Operations“ duomenų bazėje.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Operations“ duomenų bazėje.                                                                                                                                                                                                                                                              |
+| *MileageEngineCode*   | Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                                                                                                                                                                                                                                                             |
+| *ApportionmentEngine* | Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                                                                                                                                                                                                                                                              |
 
  
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kaip transportavimo valdymo mechanizmuose naudojami metaduomenys?
 ----------------------------------------------------------
 
-Transportavimo valdymo mechanizmai, priklausantys nuo „Dynamics 365 for Operations“ apibrėžtų duomenų, gali naudoti skirtingas duomenų schemas. Transportavimo valdymo sistema leidžia įvairiems transportavimo valdymo mechanizmams naudoti tas pačias bendrąsias fizinės duomenų bazės lenteles. Norėdami įsitikinti, kad mechanizmo duomenų apdorojimo laiko interpretavimas yra teisingas, galite apibrėžti duomenų bazės lentelių metaduomenis. Tai sumažina naujų transportavimo valdymo mechanizmų kūrimo išlaidas, nes papildomos lentelių ir formų struktūros programoje „Operations“ nėra privalomos.
+Transportavimo valdymo mechanizmai, priklausantys nuo „Dynamics 365 for Finance and Operations“ apibrėžtų duomenų, gali naudoti skirtingas duomenų schemas. Transportavimo valdymo sistema leidžia įvairiems transportavimo valdymo mechanizmams naudoti tas pačias bendrąsias fizinės duomenų bazės lenteles. Norėdami įsitikinti, kad mechanizmo duomenų apdorojimo laiko interpretavimas yra teisingas, galite apibrėžti duomenų bazės lentelių metaduomenis. Tai sumažina naujų transportavimo valdymo mechanizmų kūrimo išlaidas, nes papildomos lentelių ir formų struktūros programoje „Operations“ nėra privalomos.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Ką galima naudoti kaip ieškos duomenis tarifų skaičiavimuose?
-Duomenis, kuriuos naudojate skaičiuodami tarifus „Microsoft Dynamics 365 for Operations“, valdo metaduomenų konfigūracija. Pavyzdžiui, jei norite ieškoti tarifų pagal pašto indeksus, turite nustatyti metaduomenis, atsižvelgdami į peržvalgos tipą ir pašto indeksą.
+Duomenis, kuriuos naudojate skaičiuodami tarifus „Microsoft Dynamics 365 for Finance and Operations“, valdo metaduomenų konfigūracija. Pavyzdžiui, jei norite ieškoti tarifų pagal pašto indeksus, turite nustatyti metaduomenis, atsižvelgdami į peržvalgos tipą ir pašto indeksą.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Ar visoms mechanizmų konfigūracijoms būtini metaduomenys?
 Ne. Transportavimo valdymo mechanizmams, naudojamiems nuskaityti duomenis, kurių reikia tarifų skaičiavimui iš išorinių sistemų atlikti, metaduomenys nereikalingi. Šių mechanizmų tarifų duomenis galima nuskaityti iš išorinių transportavimo vežėjo sistemų, paprastai naudojantis žiniatinklio tarnyba. Pavyzdžiui, galite naudoti kilometražo mechanizmą, kuris nuskaito duomenis tiesiogiai iš „Bing“ žemėlapių, kad šiam mechanizmui nereikėtų naudoti metaduomenų.
 | **Pastaba.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Transportavimo valdymo mechanizmai, gauti naudojant „Microsoft Dynamics 365 for Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Operations Visual Studio“ įrankius. |
+| Transportavimo valdymo mechanizmai, gauti naudojant „Finance and Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Finance and Operations Visual Studio“ įrankius. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Kaip sukonfigūruoti transportavimo valdymo mechanizmo metaduomenis?
 Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams konfigūruojami skirtingai.

@@ -3,13 +3,13 @@ title: "Geriausios kvitų importavimo naudojant objektą Bendrasis žurnalas pra
 description: "Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ Tolesniuose skyriuose apibūdinama, kaip šie parametrai veikia, ir paaiškinama
 -   Objekto Bendrasis žurnalas nustatymas **Rinkiniu pagrįstas apdorojimas** generuojant žurnalo paketo numerius įtakos neturi.
 -   Jei laukas **Žurnalo paketo numeris** nustatytas į parinktį **Automatiškai sugeneruotas**, sukuriamas naujas kiekvienos importuojamos eilutės žurnalo paketo numeris. Taip daryti nerekomenduojama. Nustatymą **Automatiškai sugeneruotas** galima rasti importavimo projekto dalie **Peržiūrėti schemą** skirtuke **Susiejimo informacija**.
 -   Jei laukas **Žurnalo paketo numeris** nėra nustatytas į parinktį **Automatiškai sugeneruotas**, žurnalo paketo numeris, kaip nurodyta toliau.
-    -   Jei importuotame faile nustatytas žurnalo paketo numeris atitinka esamą „Microsoft Dynamics 365 for Operations“ neregistruoto kasdieninio žurnalo numerį, į esamą žurnalą importuojamos visos eilutės, kurių žurnalo paketo numeris atitinka. Eilutės niekada neimportuojamos į užregistruotą žurnalo paketo numerį. Vietoj to sukuriamas naujas numeris.
-    -   Jei importuotame faile nustatytas žurnalo paketo numeris neatitinka esamo „Dynamics 365 for Operations“ neregistruoto kasdieninio žurnalo numerio, visos eilutės, kurių žurnalo paketo numeris toks pat, sugrupuojamos naujame žurnale. Pvz., visos eilutės, kurių žurnalo paketo numeris yra 1, importuojamos į naują žurnalą, o visos eilutės, kurių žurnalo paketo numeris yra 2, importuojamos į antrą naują žurnalą. Žurnalo paketo numeris sukuriamas naudojant numeraciją, kuri nurodyta DK parametruose.
+    -   Jei importuoto failo žurnalo paketo numeris atitinka esamą neregistruoto kasdieninio žurnalo numerį, į esamą žurnalą importuojamos visos eilutės, kurių žurnalo paketo numeris atitinka. Eilutės niekada neimportuojamos į užregistruotą žurnalo paketo numerį. Vietoj to sukuriamas naujas numeris.
+    -   Jei importuoto failo žurnalo paketo numeris neatitinka esamo neregistruoto kasdieninio žurnalo numerio, visos eilutės, kurių žurnalo paketo numeris toks pat, įtraukiamos į naują žurnalą. Pvz., visos eilutės, kurių žurnalo paketo numeris yra 1, importuojamos į naują žurnalą, o visos eilutės, kurių žurnalo paketo numeris yra 2, importuojamos į antrą naują žurnalą. Žurnalo paketo numeris sukuriamas naudojant numeraciją, kuri nurodyta DK parametruose.
 
 ### <a name="voucher-number"></a>Kvito numeris
 
--   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti apdorojimo pagal rinkinį parametrą bei programoje „Dynamics 365 for Operations“ nustatytą kvitų numerių numeraciją, 2016 m. vasario mėn. leidime pateikiamos karštosios pataisos. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Norėdami įgalinti šią funkciją, nustatykite žurnalo pavadinimo, „Dynamics 365 for Operations“ naudojamo atliekant importavimo operacijas, parinkties **Numerių paskirstymas registruojant** reikšmę **Taip**.
-    -   Kvito numeris vis tiek turi būti nurodytas importuojamame faile. Tačiau šis numeris yra laikinas ir registruojant žurnalą jis bus perrašytas naudojant „Dynamics 365 for Operations“ kvito numerį. Įsitikinkite, kad visos žurnalo eilutės yra tinkamai sugrupuotos pagal laikiną kvito numerį. Pavyzdžiui, registruojant surandamos trys eilutės, kurių laikinas kvito numeris – 1. Laikinas visų trijų eilučių kvito numeris perrašomas naudojant paskesnį numeracijos numerį. Jei šios trys eilutės nėra subalansuotas įrašas, kvitas nėra registruojamas. Tada, jei rasta eilučių, kurių laikino kvito numeris yra 2, šis numeris yra perrašomas naudojant paskesnį numeracijos kvito numerį, ir t. t.
+-   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti apdorojimo pagal rinkinį parametrą bei nustatytą kvitų numerių numeraciją, 2016 m. vasario mėn. leidime pateikiamos karštosios pataisos. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Norėdami įgalinti šią funkciją, žurnalo pavadinime, kuris naudojamas importavimo operacijoms atlikti, nustatykite parinktį **Numerių paskirstymas registruojant** kaip **Taip**.
+    -   Kvito numeris vis tiek turi būti nurodytas importuojamame faile. Tačiau šis numeris yra laikinas ir registruojant žurnalą jis bus perrašytas naudojant kvito numerį. Įsitikinkite, kad visos žurnalo eilutės yra tinkamai sugrupuotos pagal laikiną kvito numerį. Pavyzdžiui, registruojant surandamos trys eilutės, kurių laikinas kvito numeris – 1. Laikinas visų trijų eilučių kvito numeris perrašomas naudojant paskesnį numeracijos numerį. Jei šios trys eilutės nėra subalansuotas įrašas, kvitas nėra registruojamas. Tada, jei rasta eilučių, kurių laikino kvito numeris yra 2, šis numeris yra perrašomas naudojant paskesnį numeracijos kvito numerį, ir t. t.
 
 <!-- -->
 

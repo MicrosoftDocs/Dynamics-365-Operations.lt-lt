@@ -3,13 +3,13 @@ title: "Kaštų apskaitos analizės „Power BI“ turinio saugos nustatymas"
 description: "Šioje temoje paaiškinta, kaip Kaštų apskaitoje galite išplatinti prieigos lygio saugą į eilutės lygio saugą in „Microsoft Power BI“. Ši funkcija padeda užtikrinti, kad vartotojai matys tik „Power BI“ duomenis, kuriems matyti prieiga yra suteikta."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd9e85a54335f321d78a480d1f8ab345b9c8a00b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ea4ee6cfdca6e65f289db32ca41305a39b186033
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -51,10 +51,10 @@ Norint paskirstyti prieigos lygio saugą „Power BI“, „Power BI“ turinio 
 
     [![Narių įtraukimas](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Į **Savikainos objekto valdiklis** vaidmenį įtraukti vartotojai, matys tik tuos duomenis, kuriuos jiems leidžiama matyti, pagal apibrėžimą Kaštų apskaitos prieigos lygio organizacijos hierarchijoje. **Pastaba:** eilutės lygio sauga taikoma išklotinėms ir ataskaitoms „Microsoft Dynamics 365 for Operations“, kurios įdėtos iš „Power BI“.
+Į **Savikainos objekto valdiklis** vaidmenį įtraukti vartotojai, matys tik tuos duomenis, kuriuos jiems leidžiama matyti, pagal apibrėžimą Kaštų apskaitos prieigos lygio organizacijos hierarchijoje. **Pastaba:** eilutės lygio sauga taikoma išklotinėms ir ataskaitoms sprendime „Microsoft Dynamics 365 for Finance and Operations“, kurios įdėtos iš „Power BI“.
 
 ## <a name="updating-security"></a>Saugos atnaujinimas
-Jei atliekama Kaštų apskaitos prieigos lygio saugos atnaujinimų, o jūs norite, kad „Power BI“ atspindėtų šiuos atnaujinimus, turime atnaujinti objekto parduotuvės **Kaštų apskaitos analizė** „Power BI“ turinį. Užbaigę objekto parduotuvės atnaujinimą iš „Dynamics 365 for Operations“, turite atnaujinti PowerBI.com artefaktus. Išsamesnės informacijos apie tai, kaip atnaujinti objekto parduotuvės saugą, žr. [Objekto parduotuvės atnaujinimas](power-bi-integration-entity-store.md#update-entity-store). **Kaštų apskaitos analizė** „Power BI“ turinio savininkas taip pat turi atnaujinti objekto parduotuvę, jei naujiems vartotojams suteikiama prieiga prie organizacijos hierarchijos. Be to, savininkas turi įtraukti naujus vartotojus į **Savikainos objekto valdiklis** vaidmenį PowerBI.com, kad jiems būtų taikoma eilutės lygio sauga.
+Jei atliekama Kaštų apskaitos prieigos lygio saugos atnaujinimų, o jūs norite, kad „Power BI“ atspindėtų šiuos atnaujinimus, turime atnaujinti objekto parduotuvės **Kaštų apskaitos analizė** „Power BI“ turinį. Baigę naujinti objektų saugyklą iš „Finance and Operations“, turite atnaujinti PowerBI.com artefaktus. Išsamesnės informacijos apie tai, kaip atnaujinti objekto parduotuvės saugą, žr. [Objekto parduotuvės atnaujinimas](power-bi-integration-entity-store.md#update-entity-store). **Kaštų apskaitos analizė** „Power BI“ turinio savininkas taip pat turi atnaujinti objekto parduotuvę, jei naujiems vartotojams suteikiama prieiga prie organizacijos hierarchijos. Be to, savininkas turi įtraukti naujus vartotojus į **Savikainos objekto valdiklis** vaidmenį PowerBI.com, kad jiems būtų taikoma eilutės lygio sauga.
 
 ## <a name="disabling-security"></a>Saugos išjungimas
 Laikome, kad jūsų organizacija nori apriboti duomenų prieigą. Jei dėl tam tikrų priežasčių vykdant Kaštų apskaitą saugos parametrai yra išjungti, savininkas turi įtraukti vartotojus į rolę **Išlaidų buhalteris** „Power BI“. Jei saugą pakeisite iš įgalintos būsenos į išjungtą būseną, pravartu pašalinti vartotojus iš vaidmens **Savikainos objekto valdiklis**. Ir atvirkščiai, jei saugą vėl įgalinsite. Vartotojai gali priklausyti abiems vaidmenims. Bendra prieiga yra abiejų vaidmenų jungtis. **Kaštų apskaitos analizės** „Power BI“ turinio atveju, bendrą prieigą turintys vartotojai turi neribotą duomenų prieigą. Jei norite taikyti apribotą prieigą, vartotojus priskirkite tik vaidmeniui **Savikainos objekto valdiklis**. Šie eilutės lygio saugos naujinimai įsigalioja nedelsiant. Paveikti vartotojai turi atnaujinti savo naršykles.

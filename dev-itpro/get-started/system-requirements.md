@@ -1,9 +1,9 @@
 ---
 title: Sistemos reikalavimai
-description: "Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai."
+description: "Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo versijai taikomi sistemos reikalavimai."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 724ee7ec29f8a9c4e8cc0b244193cd6c83c37f03
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Operations“ versijai taikomi sistemos reikalavimai.
+Šioje temoje išvardyti šiai „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo versijai taikomi sistemos reikalavimai.
 
 <a name="supported-web-browsers"></a>Palaikomos žiniatinklio naršyklės
 ----------------------
 
-„Microsoft Dynamics 365 for Operations‟ žiniatinklio programa gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
+Žiniatinklio programa gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
 
 -   „Microsoft Edge‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟.
 -   „Internet Explorer 11‟ sistemose „Windows 10‟, „Windows 8.1‟ arba „Windows 7‟.
@@ -46,33 +46,33 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 
 **Pastabos**
 
--   Norėdami užfiksuoti vaizdus, sugeneruotus užduočių įrašymo priemonėje ir įtraukti juos į „Microsoft Word“ dokumentus, turite turėti įdiegtą „Chrome“ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Kad užduočių įrašymo priemonė galėtų fiksuoti ekrano kopijų vaizdus ir kad juos būtų galima įtraukti į sugeneruotus „Microsoft Word‟ dokumentus, turi būti įdiegtas negalutinis „Chrome‟ plėtinys. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
 -   Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
--   Finansinėms ataskaitoms skirtas ataskaitų konstruktorius paleidžiama kaip „ClickOnce“ taikomoji programa. Jam reikia 64 bitų suderinamos operacinės sistemos. Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų konstruktorių. Jei naudojate „Chrome“ inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti ir inkognito režimu.
--   Norint peržiūrėti PDF failus, rekomenduojame naudoti modernias naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
+-   Finansinėms ataskaitoms skirtas ataskaitų konstruktorius paleidžiama kaip „ClickOnce“ taikomoji programa. Jam reikia 64 bitų suderinamos operacinės sistemos. Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų konstruktoriaus klientą. Jei naudojate „Chrome“ inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti ir inkognito režimu.
+-   Norint peržiūrėti PDF failus, rekomenduojame naudoti naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
 
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Palaikomos „Retail Cloud POS‟ žiniatinklio naršyklės
 
-„Dynamics 365 for Operations‟ programai skirtas „Retail Cloud POS‟ gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
+„Retail Cloud POS‟ gali veikti bet kurioje iš tolesnių žiniatinklio naršyklių, veikiančių nurodytose operacinėse sistemose.
 
 -   „Microsoft Edge‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟.
 -   „Internet Explorer 11‟ sistemose „Windows 10‟, „Windows 8.1‟ arba „Windows 7‟.
 -   „Chrome‟ (naujausia viešai pasiekiama versija) sistemoje „Windows 10‟, „Windows 8.1“ arba „Windows 7“.
 
 ## <a name="network-requirements"></a>Tinklo reikalavimai
--   „Dynamics 365 for Operations“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Operations“. Rekomenduojame tinklo laukimo laiką patikrinti <http://www.azurespeed.com>.
--   Pralaidumo reikalavimai „Dynamics 365 for Operations“ priklauso nuo jūsų scenarijaus. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo. Tačiau tiems scenarijams, kurių mokamosios krovos reikalavimai aukšti, pvz., darbo sritims arba scenarijams, kurie apima nemažai tinkinimo, rekomenduojamas didesnis pralaidumas.
+-   „Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimas sukurtas tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai – laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Finance and Operations“. Rekomenduojame tinklo laukimo laiką patikrinti <http://www.azurespeed.com>.
+-   Pralaidumo reikalavimai priklauso nuo jūsų situacijos. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo. Tačiau tiems scenarijams, kurių mokamosios krovos reikalavimai aukšti, pvz., darbo sritims arba scenarijams, kurie apima nemažai tinkinimo, rekomenduojamas didesnis pralaidumas.
 
-Apskritai, „Dynamics 365 for Operations“ yra optimizuota internetui. Kreipimosi ciklų iš naršyklės kliento į „Azure“ duomenų centrą skaičius yra labai mažas, o visa mokamoji krova yra suglaudinta. 
+Apskritai „Finance and Operations“ yra optimizuotas internetui. Kreipimosi ciklų iš naršyklės kliento į „Azure“ duomenų centrą skaičius yra mažas, o visa mokamoji krova yra suglaudinta. 
 
-**Įspėjimas:** neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu labai sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, naudokite „Dynamics 365 for Operations“ peržiūros versiją.
+**Įspėjimas:** neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, rekomenduojama naudoti „Finance and Operations“ peržiūros versiją.
 
 ## <a name="net-framework-requirements"></a>„.NET Framework“ reikalavimai
-„Dynamics 365 for Operations“ reikia „.NET Framework“ 4.6.2 versijos visoms vieno paspaudimo taikomosioms programoms, pvz., dokumento maršruto planavimo agentui. Diegimo instrukcijų žr. [„.NET Framework“ diegimas](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+„.NET Framework“ 4.6.2 versijos reikia visoms „ClickOnce‟ programoms, pvz., dokumento maršruto planavimo agentui. Diegimo instrukcijų žr. [„.NET Framework“ diegimas](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
--   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
 -   Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
 ## <a name="retail-modern-pos-requirements"></a>„Retail Modern POS“ reikalavimai
@@ -126,13 +126,31 @@ Kompiuteris turi atitikti visus sistemos reikalavimus, norint įdiegti ir naudot
 -   2,4 GHz i7 (arba atitikmuo) didžiausia CPU sparta branduolyje (Rekomenduojama keturių branduolių.)
 -   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
 
+## <a name="connector-requirements"></a>Jungčių reikalavimai
+### <a name="supported-operating-systems"></a>Palaikomos operacinės sistemos
+
+-   „Microsoft Dynamics AX‟ jungtis turi dvi atskiras diegimo programas – **„Async Server Connector service‟** ir **„Real-time service for Dynamics AX 2012 R3‟**.
+-   Abu komponentai yra 32 bitų programos, tačiau veikia ir x86, ir x64 architektūrose.
+-   Abu komponentai palaikomi tolesnėse operacinėse sistemose.
+    -   „Windows 7 Professional“, „Enterprise“ ir „Ultimate“ leidimuose
+    -   „Windows 8.1“ 1 naujinimas „Professional“, „Enterprise“ ir įdėtieji leidimai
+    -   „Windows 10 Pro“, „Enterprise“ ir „Enterprise LTSB“ leidimai
+    -   „Windows Server 2012 R2‟, „Windows Server 2016‟
+
+### <a name="minimum-system-requirements"></a>Minimalūs sistemos reikalavimai
+
+-   Rekomenduojama – 2 GB RAM, 4 GB RAM
+-   1,6 GHz didžiausia CPU sparta branduolyje (Mažiausiai dviejų branduolių.)
+-   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
+
 ## <a name="requirements-for-development-on-local-vms"></a>Reikalavimai norint kurti vietiniuose virtualiuosiuose įrenginiuose
 Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Gaukite „Dynamics 365 for Operations“ įvertinimo kopiją](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo įvertinimo kopijos gavimas](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+
 
 
 

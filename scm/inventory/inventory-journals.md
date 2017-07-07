@@ -3,14 +3,14 @@ title: "Atsargų žurnalai"
 description: "Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti. 
 
-Atsargų žurnalai programoje „Microsoft Dynamics 365 for Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
+Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
 
 ## <a name="types-of-inventory-journals"></a>Atsargų žurnalų tipai
 Galima rinktis iš toliau nurodytų atsargų žurnalų tipų.
@@ -68,7 +70,7 @@ Kai KS skelbiate baigta, galite kurti KS žurnalą. Naudodami KS žurnalą galit
 
 ### <a name="item-arrival"></a>Prekių gavimas
 
-Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo**puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Dynamics 365 for Operations‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
+Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo** puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Finance and Operations‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
 
 ### <a name="production-input"></a>Gamybos įvestis
 

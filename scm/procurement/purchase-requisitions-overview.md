@@ -3,14 +3,14 @@ title: "Pirkimo paraiškos apžvalga"
 description: "Šiame straipsnyje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Kai pirkimo paraiška patvirtinta, ją galima naudoti pirkimo užsakymui generuo
 ## <a name="creating-purchase-requisitions"></a>Pirkimo paraiškų kūrimas
 Galite sukurti pirkimo paraišką puslapyje **Mano pirkimo paraiškos** ir pasirinkti reikiamas prekes ir paslaugas. Galite pasirinkti prekes iš jūsų organizacijos sukurto įsigijimo katalogo arba prašyti prekių, kurių nepavyko rasti kataloge, pasirinkę įsigijimo kategoriją ir įvedę produkto informaciją.  
 
-Prieš pateikiant pirkimo paraišką peržiūrėti, reikia sukonfigūruoti darbo eigą „Microsoft Dynamics 365 for Operations“ kliente. Darbo eigą naudokite pirkimo paraiškai perkelti peržiūros proceso metu nuo pirminės būklės **Juodraštis** iki galutinės būklės **Patvirtinta**.
+Prieš pateikiant peržiūrėti pirkimo paraišką, sprendime „Microsoft Dynamics 365 for Finance and Operations“ reikia sukonfigūruoti darbo eigas. Darbo eigą naudokite pirkimo paraiškai perkelti peržiūros proceso metu nuo pirminės būklės **Juodraštis** iki galutinės būklės **Patvirtinta**.
 
 ### <a name="purchase-requisition-statuses"></a>Pirkimo paraiškų būsenos
 
@@ -143,7 +143,7 @@ Dėl paraiškos paskirčių paraiškos poreikio įvykdymo procesas yra lankstesn
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Paraiškos, kurių paskirtis yra vartojimas
 
-Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei „Microsoft Dynamics 365 for Operations“ yra nustatyta automatiškai generuoti pirkimo užsakymus, pirkimo užsakymai bus sukurti po to, kai pirkimo paraiška bus patvirtinta.
+Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei sprendime „Microsoft Dynamics 365 for Finance and Operations“ yra nustatyta pirkimo užsakymus generuoti automatiškai, jie kuriami patvirtinus pirkimo paraišką.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Paraiškos, kurių paskirtis yra papildymas
 

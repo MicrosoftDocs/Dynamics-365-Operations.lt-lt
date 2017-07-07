@@ -3,7 +3,7 @@ title: Pardavimo sutartys
 description: "Šiame straipsnyje pateikta informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d356017ac0413b92ff9734800231ba1979dac242
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4eaa4fef65fb310524f25d052aeefb58c5f20fe4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -102,14 +102,14 @@ Jei sukūrėte (paleidote) pardavimo užsakymą pagal pardavimo sutartį, kai ku
 | Kiekis                                                          | Jei nurodote kiekį, kuris viršija kiekį, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą kiekį. Spustelėkite **Taip**, kad pašalintumėte saitą į pardavimo sutarties eilutę ir perskaičiuotumėte kainą. Spustelėkite **Ne**, kad pašalintumėte saitą į pardavimo sutarties eilutę neperskaičiavę kainos.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Prekės, užakytos iš pardavimo sutarties, grąžinimas
-Kai klientas grąžina produktą, kuris buvo užsakytas pagal pardavimo sutartį, programa „Microsoft Dynamics 365 for Operations“ gali rasti ir automatiškai atnaujinti susijusį pardavimo sutarties įsipareigojimą, kad jis atspindėtų kiekio arba sumos pokytį. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
+Kai klientas grąžina produktą, kuris buvo užsakytas pagal pardavimo sutartį, „Microsoft Dynamics 365 for Finance and Operations“ gali rasti ir automatiškai atnaujinti susijusį pardavimo sutarties įsipareigojimą, kad jis atspindėtų kiekio arba sumos pokytį. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
 
 Jei nenorite atimti grąžintos prekės kiekio iš pardavimo sutarties įsipareigojimo, galite naudoti valdiklį **Pašalinti saitą** puslapyje **Grąžinimo užsakymas** ir pašalinti saitą tarp grąžinimo užsakymo ir pardavimo sutarties įsipareigojimo. Jei vėliau prireiktų atkurti saitą, spustelėkite **Kurti saitą**.  
 
 **Pastaba.** Grąžinimo užsakymas gali būti susietas tik su viena pardavimo sutartimi. jei klientas grąžina keletą produktų, kurie buvo užsakyti pagal keletą pardavimo sutarčių, turite sukurti naują kiekvieno produkto grąžinimo užsakymą ir sukurti saitą su atitinkama pardavimo sutartimi.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Automatinė pardavimo sutarčių paieška
-Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimo užsakymus, galite kontroliuoti, ar „Microsoft Dynamics 365 for Operations“ automatiškai ieškos taikytinų pardavimo sutarčių.
+Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimo užsakymus, galite kontroliuoti, ar „Microsoft Dynamics 365 for Finance and Operations“ automatiškai ieškos taikytinų pardavimo sutarčių.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pardavimo sutarčių pardavimo dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pardavimo sutarties eilutes. Sutarties antraštėje arba sutarties eilutėje dimensijas galite keisti bet kuriuo metu. Dimensijos tada automatiškai kopijuojamos į paleidimo užsakymų leidimo antraštę arba leidimo eilutę.

@@ -1,15 +1,15 @@
 ---
-title: "SF tvirtinimas mobiliuosiuose įrenginiuose"
-description: "„Microsoft Dynamics 365 for Operations“ mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF."
+title: "SF patvirtinimai mobiliąja programa"
+description: "Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas programoje „Dynamics 365 for Finance and Operations‟, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
@@ -17,32 +17,32 @@ ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c412562a5b224e682c4a555a56e713570a1e4ef
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>SF tvirtinimas mobiliuosiuose įrenginiuose
+# <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
 [!include[banner](../includes/banner.md)]
 
 
-„Microsoft Dynamics 365 for Operations“ mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
+„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
 
 <a name="prerequisites"></a>Būtinieji komponentai
 -------------
 
 | Būtinoji sąlyga                                                                                            | aprašymas                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
-| Dynamics 365 for Operations                                                                             | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
+| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| „Dynamics 365 for Finance and Operations“                                                                             | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
 | Įdiekite karštąsias pataisas KB 3204341.                                                                              | Užduočių įrašymo priemonė gali klaidingai įrašyti dvi išplečiamųjų dialogų komandas Uždaryti; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys) |
 | Įdiekite karštąsias pataisas KB 3207800.                                                                              | Įdiegus šias karštąsias pataisas priedus galima peržiūrėti mobiliajame kliente; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys).           |
 | Įdiekite karštąsias pataisas KB 3208224.                                                                              | Tiekėjo SF mobiliuosiuose įrenginiuose tvirtinimo programos kodas; tai įtraukta į „Microsoft Dynamics AX“ 7.0.1 programos versiją (2016 m. gegužės mėn.).                          |
-| „Android“, „iOS“ arba „Windows“ įrenginys, kuriame įdiegta „Dynamics 365 for Operations“ mobilioji programa | Ieškokite programos atitinkamoje programų parduotuvėje.                                                                                                                     |
+| „Android“, „iOS“ arba „Windows“ įrenginys, kuriame įdiegta „Finance and Operations“ mobilioji programa | Ieškokite programos atitinkamoje programų parduotuvėje.                                                                                                                     |
 
 ## <a name="introduction"></a>Įžanga
 Norint tiekėjo SF tvirtinti mobiliuosiuose įrenginiuose, reikia įdiegti tris karštąsias pataisas, paminėtas skyriuje „Būtinosios sąlygos“. Šios karštosios pataisos nepateikia SF tvirtinimo darbo srities. Norėdami sužinoti, kas yra darbo sritis mobiliųjų įrenginių kontekste, perskaitykite mobiliųjų įrenginių vadovą, paminėtą skyriuje „Būtinosios sąlygos“. SF tvirtinimo darbo sritį reikia sukurti. 
@@ -126,7 +126,7 @@ Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamir�
 
 ### <a name="create-the-workspace"></a>Darbo srities kūrimas
 
-1.  Naršyklėje atidarykite „Dynamics 365 for Operations“ ir prisijunkite.
+1.  Naršyklėje atidarykite „Finance and Operations“ ir prisijunkite.
 2.  Prisijungę pridėkite dalį **&mode=mobile** prie URL, kaip parodyta tolesniame pavyzdyje, ir atnaujinkite puslapį: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
 3.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**. Mobiliųjų programų dizaino įrankis pasirodo taip, kaip pasirodo užduočių įrašymo priemonė.
 4.  Spustelėkite **Įtraukti**, kad sukurtumėte naują darbo sritį. Šiuo atveju darbo sritį pavadinkite **Mano tvirtinimai**.
@@ -138,9 +138,9 @@ Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamir�
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Man priskirtos tiekėjo SF
 
-Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, kurios priskirtos vartotojui peržiūrėti, sąrašas. Norėdami kurti šį mobiliųjų įrenginių puslapį, naudokite „Dynamics 365 for Operations“ puslapį **VendMobileInvoiceAssignedToMeListPage**. Prieš baigdami šią procedūrą įsitikinkite, kad bent viena tiekėjo SF yra jums priskirta peržiūrėti ir kad SF eilutėje yra du paskirstymai. Ši sąranka atitinka šio scenarijaus reikalavimus.
+Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, kurios priskirtos vartotojui peržiūrėti, sąrašas. Norėdami kurti šį mobiliųjų įrenginių puslapį, naudokite „Finance and Operations“ puslapį **VendMobileInvoiceAssignedToMeListPage**. Prieš baigdami šią procedūrą įsitikinkite, kad bent viena tiekėjo SF yra jums priskirta peržiūrėti ir kad SF eilutėje yra du paskirstymai. Ši sąranka atitinka šio scenarijaus reikalavimus.
 
-1.  „Dynamics 365 for Operations“ URL pakeiskite meniu elemento pavadinimą į **VendMobileInvoiceAssignedToMeListPage**, kad atidarytumėte sąrašo puslapio **Man priskirtos laukiančios tiekėjo SF** mobiliąją versiją modulyje **Mokėtinos sąskaitos**. Atsižvelgiant į SF, kurios jūsų sistemoje jums priskirtos, skaičių, šiame puslapyje bus rodomos tos SF. Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia, kad jums būtų priskirta kokia nors SF, jog galėtumėte kurti mobiliųjų įrenginių puslapį. Nauji puslapiai, kuriuos galima naudoti, buvo specialiai sukurti tiekėjo SF mobiliųjų įrenginių scenarijams kurti. Todėl turite šiuos puslapius naudoti. URL turėtų būti toks, kaip toliau toliau, ir įvedus URL turi būti rodomas puslapis su iliustracija: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Puslapis Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  „Finance Operations“ URL pakeiskite meniu elemento pavadinimą į **VendMobileInvoiceAssignedToMeListPage**, kad atidarytumėte sąrašo puslapio **Man priskirtos laukiančios tiekėjo SF** mobiliąją versiją modulyje **Mokėtinos sumos**. Atsižvelgiant į SF, kurios jūsų sistemoje jums priskirtos, skaičių, šiame puslapyje bus rodomos tos SF. Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia, kad jums būtų priskirta kokia nors SF, jog galėtumėte kurti mobiliųjų įrenginių puslapį. Nauji puslapiai, kuriuos galima naudoti, buvo specialiai sukurti tiekėjo SF mobiliųjų įrenginių scenarijams kurti. Todėl turite šiuos puslapius naudoti. URL turėtų būti toks, kaip toliau toliau, ir įvedus URL turi būti rodomas puslapis su iliustracija: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Puslapis Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**
 3.  Pasirinkite savo darbo sritį ir spustelėkite **Redaguoti**.
 4.  Spustelėkite **Įtraukti puslapį**, kad sukurtumėte pirmą mobiliųjų įrenginių puslapį.
@@ -148,20 +148,21 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 6.  Spustelėkite **Atlikta**.
 7.  Mobiliųjų įrenginių dizaino įrankio skirtuke **Laukai** spustelėkite **Pasirinkti laukus**. Šio sąrašo puslapio stulpeliuose turi būti tolesnėje iliustracijoje nurodyta informacija. [![Stulpeliai puslapyje Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
 8.  Iš sąrašo puslapio įtraukite reikiamus stulpelius, kurie vartotojams turi būti rodomi mobiliųjų įrenginių puslapyje. Galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. Pagal šio scenarijaus reikalavimus reikalingi aštuoni toliau nurodyti laukai. Tačiau kai kuriems vartotojams aštuoni laukai gali pasirodyti per didelis informacijos kiekis mobiliajame įrenginyje. Todėl mobiliųjų įrenginių sąrašo rodinyje bus rodomi tik patys svarbiausi laukai. Likę laukai bus rodomi informacijos rodinyje, kurį sukursime vėliau. Dabar įtrauksime toliau nurodytus laukus. Spustelėkite šių stulpelių pliuso ženklą (**+**), kad įtrauktumėte į mobiliųjų įrenginių puslapį.
-    1.  Tiekėjo vardas
-    2.  Bendroji SF suma
-    3.  Mokėtojo kodas
-    4.  SF numeris
-    5.  Data
+    - Tiekėjo vardas
+    - Bendroji SF suma
+    - Mokėtojo kodas
+    - SF numeris
+    - Data
 
-    Įvedus laukus mobiliųjų įrenginių puslapyje turi būti rodoma tolesnėje iliustracijoje nurodyta informacija. [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    Įvedus laukus mobiliųjų įrenginių puslapyje turi būti rodoma tolesnėje iliustracijoje nurodyta informacija. 
+    [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 9.  Taip pat dabar turite įtraukti tolesnius stulpelius, kad vėliau galėtumėte įjungti darbo eigos veiksmus.
-    1.  Rodyti baigti užduotį
-    2.  Rodyti perduoti užduotį
-    3.  Rodyti atšaukti užduotį
-    4.  Rodyti atmesti užduotį
-    5.  Rodyti prašyti užpildymo užduoties
-    6.  Rodyti iš naujo pateikti užduotį
+    - Rodyti baigti užduotį
+    - Rodyti perduoti užduotį
+    - Rodyti atšaukti užduotį
+    - Rodyti atmesti užduotį
+    - Rodyti prašyti užpildymo užduoties
+    - Rodyti iš naujo pateikti užduotį
 
 10. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 11. Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
@@ -170,42 +171,44 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 
 ### <a name="vendor-invoice-details"></a>Tiekėjo SF informacija
 
-Norėdami kurti SF informacijos mobiliųjų įrenginių puslapį, naudokite „Dynamics 365 for Operations“ puslapį **VendMobileInvoiceHeaderDetails**. Atminkite, kad, atsižvelgiant į SF, kurios sistemoje jums priskirtos, skaičių, šiame puslapyje rodoma seniausia SF (SF, kuri buvo sukurta pirmoji). Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia kokių nors SF duomenų, kad galėtumėte kurti mobiliųjų įrenginių puslapį. [![Darbo eigos puslapis](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslapį, naudokite „Finance and Operations“ puslapį **VendMobileInvoiceHeaderDetails**. Atminkite, kad, atsižvelgiant į SF, kurios sistemoje jums priskirtos, skaičių, šiame puslapyje rodoma seniausia SF (SF, kuri buvo sukurta pirmoji). Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia kokių nors SF duomenų, kad galėtumėte kurti mobiliųjų įrenginių puslapį. [![Darbo eigos puslapis](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  „Dynamics 365 for Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą.
+1.  „Finance and Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
 2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 3.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
 4.  Pasirinkite puslapį ** Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
 5.  Skirtuke **Laukai** spustelėkite stulpelio antraštę **Tinklelis**.
 6.  Spustelėkite **Ypatybės** &gt; **Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
 7.  Įveskite puslapio pavadinimą, pvz., **SF informacija SF**, ir aprašą, pvz., **SF antraštės ir eilutės informacijos peržiūra**.
-8.  Spustelėkite **Pasirinkti laukus**. Atminkite, kad galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus.
+8.  Spustelėkite **Pasirinkti laukus**. Atminkite, kad galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. 
 9.  Iš antraštės įtraukite toliau nurodytus laukus, atsižvelgdami į šio scenarijaus reikalavimus.
-    1.  Tiekėjo vardas
-    2.  Bendroji SF suma
-    3.  Mokėtojo kodas
-    4.  SF numeris
-    5.  Data
-    6.  SF aprašas
-    7.  Terminas
-    8.  SF valiuta
+    - Tiekėjo vardas
+    - Bendroji SF suma
+    - Mokėtojo kodas
+    - SF numeris
+    - Data
+    - SF aprašas
+    - Terminas
+    - SF valiuta
 
 10. Iš puslapio eilučių tinklelio įtraukite toliau nurodytus laukus.
-    1.  Įsigijimo kategorija
-    2.  Kiekis
-    3.  Vnt. kaina
-    4.  Grynoji eilutės suma
-    5.  1099 suma
+    - Įsigijimo kategorija
+    - Kiekis
+    - Vnt. kaina
+    - Grynoji eilutės suma
+    - 1099 suma
 
-11. Kai visi ankstesniuose dviejuose veiksmuose nurodyti laukai įtraukti, spustelėkite **Atlikta**. Puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija. [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+11. Kai visi ankstesniuose dviejuose veiksmuose nurodyti laukai įtraukti, spustelėkite **Atlikta**. Puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
+[![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 13. Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
 14. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
 
 ### <a name="workflow-actions"></a>Darbo eigos veiksmai
 
-Norėdami įtraukti darbo eigos veiksmų, naudokite „Dynamics 365 for Operations“ puslapį **VendMobileInvoiceHeaderDetails**. Norėdami atidaryti šį puslapį, URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Tada atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**. Norėdami į informacijos puslapį įtraukti darbo eigos veiksmų, atlikite nurodytus veiksmus.
+Norėdami įtraukti darbo eigos veiksmų, naudokite „Finance and Operations“ puslapį **VendMobileInvoiceHeaderDetails**. Norėdami atidaryti šį puslapį, URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Tada atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**. Norėdami į informacijos puslapį įtraukti darbo eigos veiksmų, atlikite nurodytus veiksmus. Jums turi būti priskirta tam tikrą būseną turinčių sąskaitų faktūrų, jog kurdami galėtumėte naudoti darbo eigos veiksmus.
 
+#### <a name="record-workflow-actions"></a>Darbo eigos veiksmų įrašymas
 1.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
 2.  Pasirinkite puslapį **SF informacija**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
 3.  Skirtuke **Veiksmai** spustelėkite **Įtraukti veiksmą**.
@@ -217,14 +220,40 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite „Dynamics 365 for Operatio
 9.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 10. Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
 11. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
-12. Pakartodami 3–11 veiksmus įrašykite visus reikiamus darbo eigos veiksmus. Atminkite, kad jums turi būti priskirta tam tikrą būseną turinčių SF, jog kurdami galėtumėte naudoti darbo eigos veiksmus.
-13. Atidarykite „Notepad“ arba „Microsoft Visual Studio“ ir įklijuokite tolesnį kodą. Įrašykite failą kaip .js failą. Šio kodo paskirtys yra dvi.
-    1.  Jis paslepia papildomus su darbo eiga susijusius stulpelius, kuriuos į mobiliųjų įrenginių sąrašo puslapį mes įtraukėme anksčiau. Šiuos stulpelius mes įtraukėme, kad programai pateiktume informacijos kontekstą ir ji galėtų atlikti kitą veiksmą.
-    2.  Atsižvelgiant į aktyvų darbo eigos veiksmą, jis pritaiko logiką, kad būtų rodomi tik tie veiksmai.
+12. Pakartodami ankstesnius veiksmus įrašykite visus reikiamus darbo eigos veiksmus. 
 
-Atminkite, kad JS kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
+#### <a name="create-a-js-file"></a>.js failo kūrimas
+1. Atidarykite „Notepad“ arba „Microsoft Visual Studio“ ir įklijuokite tolesnį kodą. Įrašykite failą kaip .js failą. Šis kodas atlieka šiuos veiksmus:
+    - Jis paslepia papildomus su darbo eiga susijusius stulpelius, kuriuos į mobiliųjų įrenginių sąrašo puslapį mes įtraukėme anksčiau. Šiuos stulpelius mes įtraukėme, kad programai pateiktume informacijos kontekstą ir ji galėtų atlikti kitą veiksmą.
+    - Atsižvelgiant į aktyvų darbo eigos veiksmą, jis pritaiko logiką, kad būtų rodomi tik tie veiksmai.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+> [!NOTE]
+> Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
+
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -271,19 +300,20 @@ Atminkite, kad JS kode nurodyti puslapių ir kitų valdiklių pavadinimai turi s
 2.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
 3.  Pasirinkite puslapį **SF informacija**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
 4.  Nustatykite parinkties **Dokumentų valdymas** reikšmę **Taip**, kaip parodyta toliau. **Pastaba.** Jei mobiliajame įrenginyje priedų rodyti nereikia, galite palikti nustatytą šios parinkties reikšmę **Ne**, kuri yra numatytasis nustatymas.
-5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
+![Dokumentų tvarkymas](./media/docmanagement-216x300.png)
 6.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 7.  Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
 8.  Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
 
 ### <a name="vendor-invoice-line-distributions"></a>Tiekėjo SF eilutės paskirstymai
 
-Šio scenarijaus reikalavimai patvirtina, kad bus vykdomi tik eilutės lygio paskirstymai ir kad SF visada turės tik vieną eilutę. Kadangi šis scenarijus yra paprastas, vartotojo patirtis mobiliajame įrenginyje taip pat turi būti pakankamai paprasta, kad paskirstymus norinčiam peržiūrėti vartotojui nereikėtų duomenų detalizuoti keliais lygiais. „Dynamics 365 for Operations“ tiekėjo SF apima galimybę rodyti visus SF antraštės paskirstymus. Ši patirtis yra tai, ko mums reikia mobiliajame scenarijuje. Todėl norėdami kurti šią mobiliojo scenarijaus dalį naudosime puslapį **VendMobileInvoiceAllDistributionTree**. 
+Šio scenarijaus reikalavimai patvirtina, kad bus vykdomi tik eilutės lygio paskirstymai ir kad SF visada turės tik vieną eilutę. Kadangi šis scenarijus yra paprastas, vartotojo patirtis mobiliajame įrenginyje taip pat turi būti pakankamai paprasta, kad paskirstymus norinčiam peržiūrėti vartotojui nereikėtų duomenų detalizuoti keliais lygiais. „Finance and Operations“ tiekėjo SF apima galimybę rodyti visus sąskaitos faktūros antraštės paskirstymus. Ši patirtis yra tai, ko mums reikia mobiliajame scenarijuje. Todėl norėdami kurti šią mobiliojo scenarijaus dalį naudosime puslapį **VendMobileInvoiceAllDistributionTree**. 
 
 > [!NOTE] 
 > Žinant reikalavimus galima lengviau nuspręsti, kurį konkretų puslapį naudoti ir kaip kuriant šį scenarijų optimizuoti vartotojo mobiliąją patirtį. Antruoju scenarijumi paskirstymams rodyti naudosime kitą puslapį, nes to scenarijaus reikalavimai skiriasi.
 
-1.  URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Pasirodžiusiame puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija. [![Puslapis Visi paskirstymai](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+1.  URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Pasirodžiusiame puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
+[![Puslapis Visi paskirstymai](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 3.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą. **Pastaba.** Pastebėsite, kad automatiškai sukurti du nauji puslapiai. Sistema šiuos puslapius kuria, ankstesniame skyriuje įjungėte dokumentų valdymo funkciją. Šiuos naujus puslapius galite ignoruoti.
 4.  Spustelėkite **Įtraukti puslapį**.
@@ -294,22 +324,50 @@ Atminkite, kad JS kode nurodyti puslapių ir kitų valdiklių pavadinimai turi s
     2.  Valiuta
     3.  DK sąskaita
 
-> [!NOTE] 
-> Paskirstymų tinklelio stulpelio **Aprašas** nepasirinkome, nes šio scenarijaus reikalavimai patvirtino, kad išplėstinė kaina yra vienintelė suma, kuri bus paskirstyta. Todėl paskirstymo sumos tipą norinčiam nustatyti vartotojui kito lauko nereikės. Tačiau kitame scenarijuje mes **naudosime** šią informaciją, nes to scenarijaus reikalavimai nurodo, kad yra nustatytų kitų tipų sumų paskirstymų (pvz., PVM).
+    > [!NOTE] 
+    > Paskirstymų tinklelio stulpelio **Aprašas** nepasirinkome, nes šio scenarijaus reikalavimai patvirtino, kad išplėstinė kaina yra vienintelė suma, kuri bus paskirstyta. Todėl paskirstymo sumos tipą norinčiam nustatyti vartotojui kito lauko nereikės. Tačiau kitame scenarijuje mes **naudosime** šią informaciją, nes to scenarijaus reikalavimai nurodo, kad yra nustatytų kitų tipų sumų paskirstymų (pvz., PVM).
 8.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 9.  Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
 10. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
 
-**Pastaba.** Mobiliųjų įrenginių puslapis **Apskaitos peržiūra** nėra susietas su jokiais iki šiol sukurtais mobiliųjų įrenginių puslapiais. Kadangi vartotojas privalo gebėti mobiliajame įrenginyje naršydamas iš puslapio **SF informacija** atidaryti puslapį **Apskaitos peržiūra**, turime pateikti nurodyti naršymą iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra**. Šį naršymą nustatome naudodami papildomą logiką ir „JavaScript“.
+> [!NOTE] 
+> Mobiliųjų įrenginių puslapis **Apskaitos peržiūra** nėra susietas su jokiais iki šiol sukurtais mobiliųjų įrenginių puslapiais. Kadangi vartotojas privalo gebėti mobiliajame įrenginyje naršydamas iš puslapio **SF informacija** atidaryti puslapį **Apskaitos peržiūra**, turime pateikti nurodyti naršymą iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra**. Šį naršymą nustatome naudodami papildomą logiką ir „JavaScript“.
 
 1.  Atidarykite anksčiau sukurtą .js failą ir įtraukite toliau nurodytu kodu pažymėtas eilutes. Šio kodo paskirtys yra dvi.
     1.  Taip užtikrinama, kad naršydami puslapį **Apskaitos peržiūra** vartotojai negalės atidaryti darbo srities.
     2.  Sukuriamas naršymo iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra** valdiklis.
 
 > [!NOTE] 
-> JS kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
+> Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+                   // Hide pages not applicable for root navigation
+                   metadataService.hideNavigation('View-accounting');
+                   //Link to view accounting
+                   metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -352,7 +410,7 @@ Atminkite, kad JS kode nurodyti puslapių ir kitų valdiklių pavadinimai turi s
 
 ### <a name="validation"></a>Tikrinimas
 
-Iš mobiliojo įrenginio atidarykite programą ir prijunkite ją prie savo „Dynamics 365 for operations“ egzemplioriaus. Įsitikinkite, kad prisijungėte prie įmonės, kurioje tiekėjo SF yra jums priskirtos peržiūrėti. Turėtumėte galėti atlikti tolesnius veiksmus.
+Iš mobiliojo įrenginio atidarykite programą ir prijunkite ją prie savo „Finance and operations“ egzemplioriaus. Įsitikinkite, kad prisijungėte prie įmonės, kurioje tiekėjo SF yra jums priskirtos peržiūrėti. Turėtumėte galėti atlikti tolesnius veiksmus.
 
 -   Peržiūrėti darbo sritį **Mano tvirtinimai**.
 -   Detalizuoti darbo sritį **Mano tvirtinimai** ir peržiūrėti puslapį **Mano tiekėjo SF**.
@@ -421,9 +479,9 @@ Iš mobiliojo įrenginio atidarykite programą ir prijunkite ją prie savo „Dy
 </tbody>
 </table>
 
-### <a name="exercise"></a>Užduotis
+### <a name="next-steps"></a>Kiti veiksmai
 
-Galima vykdyti tolesnius 1 scenarijaus variantus, atsižvelgiant į 2 scenarijaus reikalavimus. Naudokite šį skyrių kaip užduotį, kurią galite atlikti mokymosi tikslais.
+Galima vykdyti tolesnius 1 scenarijaus variantus, atsižvelgiant į 2 scenarijaus reikalavimus. Šį skyrių galite naudoti norėdami patobulinti mobiliosios programos patirtį.
 
 1.  Kadangi 2 scenarijuje galima tikėtis daugiau SF eilučių, toliau nurodyti dizaino keitimai padės optimizuoti vartotojo patirtį mobiliajame įrenginyje.
     1.  Vartotojai gali pasirinkti peržiūrėti SF eilutes atskirame mobiliųjų įrenginių puslapyje, o ne informacijos puslapyje (1 scenarijaus atveju).
@@ -432,8 +490,6 @@ Galima vykdyti tolesnius 1 scenarijaus variantus, atsižvelgiant į 2 scenarijau
 
 2.  Kadangi 2 scenarijuje tikimasi daugiau nei vieno tipo sumos paskirstymų (PVM, išlaidos ir t. t.), būtų naudinga parodyti sumos tipo aprašą. (1 scenarijuje šia informaciją praleidome.)
 
-## <a name="conclusion"></a>Išvada
-Mobilioji platforma ir programos pajėgumai suteikia galimybę kurti mobiliųjų įrenginių scenarijus, optimizuotus organizacijos vartotojų pagrindui. Pagal šioje temoje pateiktus pavyzdžius galite bandyti kitus variantus ir kurti skirtingas patirtis, atitinkančias jūsų konkrečius poreikius.
 
 
 

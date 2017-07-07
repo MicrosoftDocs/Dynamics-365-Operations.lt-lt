@@ -3,7 +3,7 @@ title: "Ataskaitų dizaino įrankio sąsaja"
 description: "Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,7 +53,7 @@ Meniu **Failas** prieinamas visiems vartotojams ir apima toliau nurodytas komand
 | Įrašyti kaip                           | Įrašykite dabartinį eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą, nurodydami naują pavadinimą.                                                                            |
 | Ypatybės                        | Atidarykite dialogo langą **Ypatybės**, kuriame galite keisti ataskaitos pavadinimą ir aprašymą.                                                                                                   |
 | Generuoti                          | Generuoti dabartinę ataskaitą. Ši komanda galima ataskaitos apraše.                                                                                                                 |
-| Ataskaitos peržiūra                       | Atidarykite naujausią sugeneruotos ataskaitos versiją programoje „Dynamics 365 for Operations“. Ši komanda galima ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą.                                 |
+| Ataskaitos peržiūra                       | Atidarykite naujausią sugeneruotos ataskaitos versiją sprendime „Finance and Operations“. Ši komanda galima ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą.                                 |
 | Naujausi ataskaitų aprašai         | Rodyti neseniai sukurtų arba modifikuotų ataskaitų sąrašą. Tada sąraše galite pasirinkti ataskaitą.                                                                                    |
 | Naujausi eilučių apibrėžimai            | Rodyti neseniai sukurtų arba modifikuotų eilučių apibrėžimų sąrašą. Tada sąraše galite pasirinkti eilutės apibrėžimą.                                                                    |
 | Naujausi stulpelių apibrėžimai         | Rodyti neseniai sukurtų arba modifikuotų stulpelių apibrėžimų sąrašą. Tada sąraše galite pasirinkti stulpelio apibrėžimą.                                                              |
@@ -163,7 +163,7 @@ Meniu **Pagalba** prieinamas visiems vartotojams ir apima toliau nurodytas koman
 
 | Komanda | aprašymas                                                  |
 |---------|--------------------------------------------------------------|
-| Žinynas    | Atidarykite „Dynamics 365 for Operations“ finansinių ataskaitų žinyno temos puslapį. |
+| Žinynas    | Atidarykite „Finance and Operations“ finansinių ataskaitų žinyno temos puslapį. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Ataskaitų dizaino įrankio įrankių juostos mygtukai

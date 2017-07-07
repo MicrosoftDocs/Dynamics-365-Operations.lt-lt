@@ -1,15 +1,15 @@
 ---
 title: "Biudžeto kontrolės apžvalga"
-description: "Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Operations“, kad galėtumėte tvarkyti finansinius išteklius."
+description: "Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise“), kad galėtumėte tvarkyti finansinius išteklius."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Biudžeto kontrolės apžvalga
+# <a name="budget-control-overview"></a>Biudžeto kontrolės peržiūra
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Operations“, kad galėtumėte tvarkyti finansinius išteklius.
+Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise“), kad galėtumėte tvarkyti finansinius išteklius.
 
 <a name="overview"></a>Apžvalga
 --------
 
-„Microsoft Dynamics 365 for Operations“ biudžeto kontrolė palaiko organizacijos finansinių išteklių valdymą naudojant sąskaitų planą, darbo eigas, vartotojų grupes, šaltinio dokumentus ir žurnalus, konfigūruojamą turimų lėšų skaičiavimą, biudžeto ciklus ir ribines reikšmes. Kai naudojami valdikliai, organizacija gali planuoti, matuoti, valdyti ir prognozuoti savo finansinių metų finansinius išteklius. 
+„Microsoft Dynamics 365 for Finance and Operations“ biudžeto kontrolė palaiko organizacijos finansinių išteklių valdymą naudojant sąskaitų planą, darbo eigas, vartotojų grupes, šaltinio dokumentus ir žurnalus, konfigūruojamą turimų lėšų skaičiavimą, biudžeto ciklus ir ribines reikšmes. Kai naudojami valdikliai, organizacija gali planuoti, matuoti, valdyti ir prognozuoti savo finansinių metų finansinius išteklius. 
 
-Patvirtinus biudžetus „Dynamics 365 for Operations“, galite naudoti biudžeto planus biudžeto registro įrašams generuoti, norėdami įrašyti organizacijos biudžeto išlaidas. Kitu atveju, galite sukurti biudžeto registro įrašus ar importuoti juos iš trečiosios šalies programos nenaudodami biudžeto planavimo funkcijos. 
+Patvirtinus biudžetus „Finance and Operations“, galite naudoti biudžeto planus biudžeto registro įrašams generuoti, norėdami įrašyti organizacijos biudžeto išlaidas. Kitu atveju, galite sukurti biudžeto registro įrašus ar importuoti juos iš trečiosios šalies programos nenaudodami biudžeto planavimo funkcijos. 
 
 Išlaidas galima įrašyti naudojant pagrindines sąskaitas ir finansines dimensijas. Bendras išlaidas galima konfigūruoti taip, kad jos atitiktų organizacijos strategijas ir reikalavimus, finansinių dimensijų ir pagrindinių sąskaitų grupavimo kombinacijas. 
 
@@ -53,7 +53,7 @@ Galite konfigūruoti biudžeto kontrolę, atsižvelgdami į keletą veiksnių.
 -   **Turimų lėšų skaičiavimas** – ar skaičiuojant turimas lėšas turėtų būti atsižvelgiama į tokius dokumentus kaip pirkimo paraiškos (preliminarūs biudžeto rezervavimai) ir pirkimo užsakymai (biudžeto rezervavimai)? Ar skaičiuojant turėtų būti atsižvelgiama į juodraštinius dokumentus?
 -   **Nepaisymo teisės** – kas turi teisę viršyti leistiną biudžetą?
 
-Biudžeto kontrolė yra visiškai integruota su „Dynamics 365 for Operations“. Todėl galite įvertinti ir suplanuotų pirkimų, ir faktinių pirkimų galimą biudžetą. Prieinamos biudžeto užklausos ir ataskaitos. Todėl vartotojai gali įvertinti biudžetą pagal biudžeto ciklą ir biudžeto tikslinimų arba perkėlimų formoje atlikti reikiamus koregavimus. Biudžeto vadybininkas taip pat gali eksportuoti biudžetą ir faktines sumas į „Microsoft Excel“, kad pagal poreikį galėtų geriau analizuoti ir pateikti prognozę.
+Biudžeto kontrolė yra visiškai integruota su „Finance and Operations“. Todėl galite įvertinti ir suplanuotų pirkimų, ir faktinių pirkimų galimą biudžetą. Prieinamos biudžeto užklausos ir ataskaitos. Todėl vartotojai gali įvertinti biudžetą pagal biudžeto ciklą ir biudžeto tikslinimų arba perkėlimų formoje atlikti reikiamus koregavimus. Biudžeto vadybininkas taip pat gali eksportuoti biudžetą ir faktines sumas į „Microsoft Excel“, kad pagal poreikį galėtų geriau analizuoti ir pateikti prognozę.
 
 ## <a name="configuring-budget-control"></a>Biudžeto kontrolės konfigūravimas
 ### <a name="budget-cycle-time-span"></a>Biudžeto ciklo trukmė
@@ -100,7 +100,7 @@ Toliau skirtuke **Biudžeto modelių priskyrimas** priskirkite biudžeto modeliu
 Toliau skirtuke **Biudžeto kontrolės taisyklių nustatymas** pagal finansines dimensijas, kurios įgalintos biudžeto kontrolei, turite sukurti konkrečias taisykles. Pvz., jei dėmesys sutelkiamas į skyriaus išlaidas arba išlaidų intervalą, galite šias išlaidas apibrėžti ir įvertinti naudodami šio skirtuko parametrus. Kiekvienai biudžeto valdymo taisyklei galite apibrėžti skirtingas ribines reikšmes. 
 
 > [!Important]
-> Biudžeto kontrolė bus įgalinta bet kuriai tipo **Pelnas ir nuostolis**, **Išlaidos**, **Įplaukos, Balansas, Įsipareigojimai, Kapitalas** arba **Turtas** pagrindinei sąskaitai. Jei šiame skirtuke yra taisyklė, kurioje yra tuščias kriterijus, biudžeto kontrolė bus įgalinta **visoms**finansinių dimensijų kombinacijoms, kuriose įtrauktos šių tipų pagrindinės sąskaitos. Todėl įsitikinkite, kad jūsų sukurtos biudžeto kontrolės taisyklės apibrėžia tik tuos finansinių dimensijų kombinacijų, kuriose svarbu įjungti biudžeto kontrolę, intervalus.  
+> Biudžeto kontrolė bus įgalinta bet kuriai tipo **Pelnas ir nuostolis**, **Išlaidos**, **Įplaukos, Balansas, Įsipareigojimai, Kapitalas** arba **Turtas** pagrindinei sąskaitai. Jei šiame skirtuke yra taisyklė, kurioje yra tuščias kriterijus, biudžeto kontrolė bus įgalinta **visoms** finansinių dimensijų kombinacijoms, kuriose įtrauktos šių tipų pagrindinės sąskaitos. Todėl įsitikinkite, kad jūsų sukurtos biudžeto kontrolės taisyklės apibrėžia tik tuos finansinių dimensijų kombinacijų, kuriose svarbu įjungti biudžeto kontrolę, intervalus.  
 
 ### <a name="select-main-accounts"></a>Pasirinkti pagrindines sąskaitas
 
@@ -128,7 +128,3 @@ Kai biudžeto kontrolė įjungta, dokumentuose, kuriuose sukonfigūruota biudže
 Iš šio puslapio vartotojai gali detalizuoti puslapį **Biudžeto kontrolės statistika pagal laikotarpį** norėdami peržiūrėti biudžeto tinkamumo informaciją ir pasirinktos biudžeto valdymo dimensijos kombinacijos rezervacijas. Vartotojai taip pat gali detalizuoti puslapį **Biudžeto kontrolės statistika** norėdami peržiūrėti biudžeto tinkamumą visoms finansinių dimensijų kombinacijoms, kurios naudojamos biudžeto kontrolėje. 
 
 Jei biudžeto kontrolė įjungta pirkimo užsakymams, biudžeto vadybininkas gali naudodamas darbo sritį **Didžiosios knygos biudžetai ir prognozės** norėdamas peržiūrėti visų nepatvirtintų pirkimo užsakymų, turinčių biudžeto patikros įspėjimų ir klaidų, eilę. Jei biudžeto vadybininkui sukonfigūruotos biudžeto viršijimo teisės, jis / ji gali patvirtinti pirkimo užsakymus tiesiogiai darbo srityje.    
-
-
-
-

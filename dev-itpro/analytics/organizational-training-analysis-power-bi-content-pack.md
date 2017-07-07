@@ -1,15 +1,15 @@
 ---
 title: "Organizacinio mokymo „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Dynamics 365 for Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti."
+description: "Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1bfe405e2e4bf6445567d966ab20bd8645f8dbf
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 26499bf5423bc3711d110bd7e548eda238162b7a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje aprašytas „Dynamics 365 for Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti.
+Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti.
 
 <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
 --------------------------
 
-Organizacinio mokymo turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+Organizacinio mokymo turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Finance and Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
-Prijungus turinio paketą prie „Dynamics 365 for Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
+Prijungus turinio paketą prie „Finance and Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
 
 | Ataskaita          | Turinys                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Prijungus turinio paketą prie „Dynamics 365 for Operations“ duomenų, atask
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami ataskaitoms organizacinio mokymo turinio pakete užpildyti. Toliau pateiktoje lentelėje nurodomi objektai, kuriais turinio paketas pagrįstas.
+„Finance and Operations“ duomenys naudojami ataskaitoms organizacinio mokymo turinio pakete užpildyti. Toliau pateiktoje lentelėje nurodomi objektai, kuriais turinio paketas pagrįstas.
 
 | Objektas                    | Turinys                                                         | Ryšiai su kitais objektais                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

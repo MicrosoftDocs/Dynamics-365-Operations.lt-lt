@@ -3,14 +3,14 @@ title: "Biudžeto planavimo peržiūra"
 description: "Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 
 Biudžeto planavimas atliekamas tada, kai sudarinėjate jūsų organizacijoje ketinamus taikyti biudžetus. Organizacija gali konfigūruoti biudžeto planavimą, tada nustatyti biudžeto planavimo procesus, kurie atitiktų jos biudžeto sudarymo strategijas, procedūras ir reikalavimus. 
 
-Kai žinote „Microsoft Dynamics 365 for Operations“ naudojamas koncepcijas ir terminus, bus lengviau įgyvendinti biudžeto planavimą savo organizacijoje.
+Kai žinote „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidime naudojamas koncepcijas ir terminus, bus lengviau įgyvendinti biudžeto planavimą savo organizacijoje.
 
 ### <a name="key-terms"></a>Pagrindiniai terminai
 
@@ -59,7 +59,7 @@ Biudžeto planavimą galima naudoti toliau pateiktoms užduotims atlikti:
 -   Automatiškai nukreipti biudžeto planus kartu su darbalapiais, pagrindimo dokumentais ir kitais priedais peržiūrai ir patvirtinimui.
 -   Konsoliduoti kelis žemesnio organizacijos lygio biudžeto planus į vieną pirminį aukštesnio organizacijos lygio biudžeto planą. Be to, galima sukurti vieną biudžeto planą aukštesniame organizacijos lygyje ir paskirstyti biudžetą žemesniems organizacijos lygiams.
 
-Biudžeto planavimas yra integruotas kituose „Microsoft Dynamics 365 for Operations“ moduliuose. Todėl galite perkelti ankstesnių biudžetų, faktinių išlaidų, ilgalaikio turto ir personalo informaciją. Kadangi biudžeto planavimas taip pat integruotas programose „Microsoft Excel“ ir „Microsoft Word“, galite naudoti jas dirbdami su biudžeto planavimo duomenimis. Pavyzdžiui, biudžeto vadybininkas gali eksportuoti padalinio biudžeto užklausą iš biudžeto plano scenarijaus į „Excel“ darbalapį. Duomenis galima analizuoti, atnaujinti ir pateikti darbalapyje, o tada publikuoti biudžeto plano eilutėse.
+Biudžeto planavimas yra integruotas kituose „Microsoft Dynamics 365 for Finance and Operations“ moduliuose. Todėl galite perkelti ankstesnių biudžetų, faktinių išlaidų, ilgalaikio turto ir personalo informaciją. Kadangi biudžeto planavimas taip pat integruotas programose „Microsoft Excel“ ir „Microsoft Word“, galite naudoti jas dirbdami su biudžeto planavimo duomenimis. Pavyzdžiui, biudžeto vadybininkas gali eksportuoti padalinio biudžeto užklausą iš biudžeto plano scenarijaus į „Excel“ darbalapį. Duomenis galima analizuoti, atnaujinti ir pateikti darbalapyje, o tada publikuoti biudžeto plano eilutėse.
 
 ## <a name="configuring-budget-planning"></a>Biudžeto planavimo konfigūravimas
 Puslapyje **Biudžeto planavimo konfigūracija** pateikiama dauguma parametrų, kurių jums gali prireikti norint nustatyti biudžeto planavimą. Toliau pateikiamuose skyriuose aprašomi kai kurie pagrindiniai veiksniai, į kuriuos turėtumėte atsižvelgti konfigūruodami biudžeto planavimą. Užbaigę konfigūraciją galite nustatyti biudžeto planavimo procesus.
@@ -78,7 +78,7 @@ Neprivalomas, tačiau rekomenduojamas pirmas veiksmas yra sukurti schemą, kurio
 
 Puslapyje **Organizacijos hierarchija** galite nustatyti organizacijos hierarchiją, kuri bus naudojama kaip kiekvieno biudžeto planavimo proceso biudžeto planavimo hierarchija. Biudžeto planavimo hierarchija nebūtinai turi atitikti standartinę organizacijos hierarchiją, kuri naudojama kitiems tikslams. Kadangi ši hierarchija naudojama duomenų sujungimui ir platinimui, galbūt norėsite, kad ji būtų kitokios struktūros. Schemos pavyzdyje pardavimų skyriai priklauso būstinės lygiui, kuriam priklauso biudžeto ir finansų skyriai. Ši struktūra galbūt skiriasi nuo struktūros, kuri naudojama tvarkant pardavimų skyrių operacijas. Kiekvienam biudžeto planavimo procesui gali būti priskirta tik viena organizacijos hierarchija. 
 
-Norėdami gauti daugiau informacijos, žr. [Organizacijos ir organizacijų hierarchijos](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Norėdami gauti daugiau informacijos, žr. [Organizacijos ir organizacijų hierarchijos](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Vartotojo sauga
 
@@ -88,13 +88,13 @@ Apibrėždamas vartotojų teises biudžeto planavimas gali naudoti vieną iš dv
 
 Biudžeto planavimo darbo eigos naudojamos kartu su biudžeto sudarymo darbo eigomis, kad būtų galima valdyti biudžeto planų kūrimą ir raidą.
 
-Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susijusi su biudžeto sudarymo darbo eiga. Biudžeto sudarymo darbo eigos yra vienas iš „Microsoft Dynamics 365 for Operations“ naudojamų darbo eigos tipų. Biudžeto sudarymo darbo eiga siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui. 
+Biudžeto planavimo darbo eigą sudaro etapų rinkinys, kuriuos pereina biudžeto planas. Kiekviena biudžeto planavimo darbo eiga yra susijusi su biudžeto sudarymo darbo eiga. Biudžeto sudarymo darbo eigos yra vienas iš „Finance and Operations“ naudojamų darbo eigos tipų. Biudžeto sudarymo darbo eiga siunčia biudžeto planus kartu su darbalapiais, pagrindimais ir priedais per organizaciją peržiūrai ir patvirtinimui. 
 
 Puslapio **Biudžeto planavimo konfigūracija** dalyje **Darbo eigos etapai** sukuriate biudžeto planavimo darbo eigą. Ten galite pasirinkti etapus ir biudžeto sudarymo darbo eigą, kuri bus naudojama, taip pat sukonfigūruoti papildomus parametrus. 
 
 Naudinga sukurti kiekvieno biudžeto sudarymo hierarchijos lygio biudžeto planavimo darbo eigą. Tada priskiriate biudžeto sudarymo darbo eigą, kurioje yra elementų, atitinkančių biudžeto planavimo darbo eigos etapus. Pirmiau šiame straipsnyje pateiktame schemos pavyzdyje viena biudžeto planavimo darbo eiga būtų sukurta pardavimų skyriams, o kita – būstinei. Biudžeto sudarymo darbo eiga perkelia biudžeto planus per etapus. 
 
-Puslapyje **Biudžeto sudarymo darbo eigos** sukuriate biudžeto planavimo biudžeto sudarymo darbo eigą. Procesas panašus į kitų „Microsoft Dynamics 365 for Operations“ darbo eigų kūrimą. Toliau pateikiamoje iliustracijoje rodomas būstinės darbo eigos pavyzdys. 
+Puslapyje **Biudžeto sudarymo darbo eigos** sukuriate biudžeto planavimo biudžeto sudarymo darbo eigą. Procesas panašus į kitų „Finance and Operations“ darbo eigų kūrimą. Toliau pateikiamoje iliustracijoje rodomas būstinės darbo eigos pavyzdys. 
 
 [![Biudžeto planavimo biudžeto sudarymo darbo eiga](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

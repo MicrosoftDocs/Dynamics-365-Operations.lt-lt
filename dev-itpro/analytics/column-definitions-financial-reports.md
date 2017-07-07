@@ -3,7 +3,7 @@ title: "Finansinių ataskaitų stulpelių aprašai"
 description: "Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
 2.  Pažymėkite antraštės eilutės langelį.
-3.  Meniu **Redaguoti** spustelėkite **Įterpti eilutę**. Nauja eilutė įterpiama virš eilutės, kurią pasirinkote 2 veiksme. **Pastaba.**Jei ataskaitoje yra keturios arba daugiau ataskaitos antraščių eilučių, antraštės persidengs ataskaitą eksportuojant į „Excel“ darbalapį. Norėdami peržiūrėti visas ataskaitos antraštes, padidinkite viršutinę ataskaitos aprašo paraštę.
+3.  Meniu **Redaguoti** spustelėkite **Įterpti eilutę**. Nauja eilutė įterpiama virš eilutės, kurią pasirinkote 2 veiksme. **Pastaba.** Jei ataskaitoje yra keturios arba daugiau ataskaitos antraščių eilučių, antraštės persidengs ataskaitą eksportuojant į „Excel“ darbalapį. Norėdami peržiūrėti visas ataskaitos antraštes, padidinkite viršutinę ataskaitos aprašo paraštę.
 
 ### <a name="delete-a-column-header-row"></a>Stulpelio antraštės eilutės naikinimas
 
@@ -164,7 +164,7 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 ### <a name="create-an-automatically-generated-header"></a>Automatiškai sugeneruotos antraštės kūrimas
 
-Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC**, **FD** ir **WKS**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jeigu mėnesio pavadinimas turėtų būti rašomas didžiosiomis raidėmis (pvz., **LIEPA**), lauke **Stulpelio antraštės tekstas** įveskite didžiųjų raidžių simboliais parašytą automatinio teksto kodą. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**. **Pastaba:** kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų „Dynamics 365 for Operations“ serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia**, spustelėkite **Valdymo skydas**, tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
+Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC**, **FD** ir **WKS**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jeigu mėnesio pavadinimas turėtų būti rašomas didžiosiomis raidėmis (pvz., **LIEPA**), lauke **Stulpelio antraštės tekstas** įveskite didžiųjų raidžių simboliais parašytą automatinio teksto kodą. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**. **Pastaba:** kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų „Finance and Operations“ serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia**, spustelėkite **Valdymo skydas**, tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
 
 | Automatinio teksto pasirinktis ir kodas                | aprašymas                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ Toliau pateikiamame pavyzdyje rodoma stulpelio aprašo dalis, kurios eilutėje *
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Stulpelio apibrėžimo dimensijos filtras
 
-Dimensijos filtras naudojamas norint apriboti, kad stulpelyje **FD** būtų rodomos tik tam tikros dimensijos reikšmės. Filtras gali apimti vieną dimensiją, dimensijų intervalą arba dimensijų grupę. Filtras taip pat gali apimti dimensijos reikšmių rinkinius. Kadangi dimensijos reikšmės gali skirtis, ..\financial-dimensions\dimension-based sistema neturi būti konkretaus ilgio. Filtras taikomas nepaisant to, ar į ataskaitą įtraukiamas ataskaitų medis. Pakaitos simbolį (\* arba ?) galite naudoti bet kurioje vietoje. Kai nurodote kelias sąskaitas, tarp sąskaitų padėkite kablelius, kaip šiame pavyzdyje: +Sąskaita=\[1200\], +Sąskaita=\[1100\], Padalinys=\[01?\] Norėdami gauti visus konkrečios sąskaitos padalinius, galite neįtraukti dimensijos filtre nurodomos dimensijos Padalinys. Pavyzdžiui, abu toliau pateikiami dimensijos filtrai tvarkomi taip pat.
+Dimensijos filtras naudojamas norint apriboti, kad stulpelyje **FD** būtų rodomos tik tam tikros dimensijos reikšmės. Filtras gali apimti vieną dimensiją, dimensijų intervalą arba dimensijų grupę. Filtras taip pat gali apimti dimensijos reikšmių rinkinius. Kadangi dimensijos reikšmės gali skirtis, ..\financial-dimensions\dimension-based sistema neturi būti konkretaus ilgio. Filtras taikomas nepaisant to, ar į ataskaitą įtraukiamas ataskaitų medis. Pakaitos simbolį (\* arba ?) galite naudoti bet kurioje vietoje. Kai nurodote kelias sąskaitas, atskirkite jas kableliais, kaip parodyta šiame pavyzdyje: +Sąskaita=\[1200\], +Sąskaita=\[1100\], Skyrius=\[01?\] Norėdami gauti visus tam tikros sąskaitos skyrius, į dimensijos filtrą galite neįtraukti skyriaus dimensijos. Pavyzdžiui, abu toliau pateikiami dimensijos filtrai tvarkomi taip pat.
 
 -   +Sąskaita=\[1100\],Padalinys
 -   +Sąskaita=\[1100\]
@@ -519,7 +519,7 @@ Kelių valiutų ataskaitoje sumos gali būti rodomos natūraliąja (vietine) val
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valiutos nurodymas kelių valiutų ataskaitoje
 
 1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2.  Dukart spustelėkite atitinkamo stulpelio**FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo pasirinktį: **Natūralioji / pradinė valiuta**, **Funkcinė valiuta iš įmonės informacijos** arba ataskaitų valiuta.
+2.  Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo pasirinktį: **Natūralioji / pradinė valiuta**, **Funkcinė valiuta iš įmonės informacijos** arba ataskaitų valiuta.
 3.  Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras**, tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
 
 > [!NOTE]

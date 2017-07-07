@@ -1,16 +1,16 @@
 ---
 title: "Mobilioji darbo sritis Pardavimo užsakymai"
-description: "Šioje temoje pateikiama informacija apie pardavimo užsakymų mobiliąją darbo sritį, kurią galima naudoti mobiliojoje programoje „Microsoft Dynamics 365 for Operations“. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją."
-author: YuyuScheller
+description: "Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Pardavimo užsakymai. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją."
+author: Mirzaab
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: 1a05c6c12d4b6d98886e418aadcc0bdb2c2fc8ef
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,21 +31,20 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Pardavimo užsakymai**. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją. 
 
-Šioje temoje pateikiama informacija apie pardavimo užsakymų mobiliąją darbo sritį, kurią galima naudoti mobiliojoje programoje „Microsoft Dynamics 365 for Operations“. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją. 
+Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
 
-<a name="overview-of-the-sales-orders-mobile-workspace"></a>Pardavimo užsakymų mobiliosios darbo srities apžvalga
----------------------------------------------
-
-Mobilioji darbo sritis **Pardavimo užsakymai** prisijungia prie „Microsoft Dynamics 365 for Operations“ ir suteikia jums galimybę peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą. Ši informacija apima užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis **Pardavimo užsakymai** pateikia momentinį pardavimo užsakymų rodinį. Galite peržiūrėti visus užsakymus, pardavimo užsakymus pagal klientą arba informaciją apie konkretų pardavimo užsakymą. 
+## <a name="overview"></a>Apžvalga
+Mobiliojoje darbo srityje **Pardavimo užsakymai** galite peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą. Ši informacija apima užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis **Pardavimo užsakymai** pateikia momentinį pardavimo užsakymų rodinį. Galite peržiūrėti visus užsakymus, pardavimo užsakymus pagal klientą arba informaciją apie konkretų pardavimo užsakymą. 
 
 Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuoti pardavimo užsakymus.
 
 ### <a name="view-all-sales-orders"></a>Peržiūrėti visus pardavimo užsakymus
-
 Šiame rodinyje pateikiami visi pardavimo užsakymai.
 
 -   Naudodami vieną iš šių filtrų, pasirinkite norimus peržiūrėti pardavimo užsakymus.
+
     -   Ieškoti pagal pardavimo užsakymą
     -   Ieškoti pagal kliento sąskaitą
     -   Ieškoti pagal kliento pavadinimą
@@ -54,6 +53,7 @@ Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuo
     -   Ieškoti pagal sukūrimo datą ir laiką
     
 -   Pasirinkę pardavimo užsakymus, galite peržiūrėti išsamią konkrečių užsakymų informaciją. Tiksliau sakant, galite peržiūrėti šią informaciją:
+
     -   kliento pavadinimą ir adreso informaciją;
     -   įvairias pardavimo užsakymo datas, pvz., pageidaujamą siuntimo datą ir patvirtintą siuntimo datą;
     -   užsakymo priėmėjo kontaktinę informaciją;
@@ -62,17 +62,19 @@ Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuo
     -   siuntas, parodančias kaip ir kada pardavimo užsakymas buvo pristatytas.
 
 ### <a name="view-orders-for-a-customer"></a>Kliento užsakymų rodinys
-
 Šiame rodinyje pateikiami pardavimo užsakymai pagal klientą.
 
 -   Naudodami šiuos filtrus peržiūrėkite kliento užsakymus.
+
     -   Ieškoti pagal pavadinimą
     -   Ieškoti pagal sąskaitą
 
 -   Kai pasirenkate klientą, galite peržiūrėti šią informaciją:
+
     -   kliento pavadinimą ir grupę;
     -   kliento kontaktinę informaciją;
     -   kliento pardavimo užsakymus ir išsamią tų pardavimo užsakymų informaciją;
+    
         -   kliento pavadinimą ir adreso informaciją;
         -   įvairias pardavimo užsakymo datas;
         -   užsakymo priėmėjo kontaktinę informaciją;
@@ -81,14 +83,15 @@ Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuo
         -   siuntas, parodančias kaip ir kada pardavimo užsakymas buvo pristatytas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Prieš naudodami mobiliąją darbo sritį **Pardavimo užsakymai**, patikrinkite, ar sistemos administratorius nustatė toliau nurodytus būtinuosius komponentus.
+Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟, 2017 m. liepos mėn. naujinimą 
+Jei jūsų organizacijoje įdiegtas „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas su 2017 m. liepos mėn. naujinimu, sistemos administratorius mobiliąją darbo sritį **Pardavimo užsakymai** turi publikuoti. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
+Jei jūsų organizacijoje visuotinai įdiegta „Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Būtinoji sąlyga</th>
@@ -98,58 +101,47 @@ Prieš naudodami mobiliąją darbo sritį **Pardavimo užsakymai**, patikrinkite
 </thead>
 <tbody>
 <tr class="odd">
-<td>Reikia įdiegti „Dynamics 365 for Operations“ 1611 versiją ir 3 arba naujesnį platformos naujinimą.</td>
+<td>Įdiegti KB 4013633.</td>
 <td>Sistemos administratorius</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, sistemos administratorius turėtų peržiūrėti temą <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+
+<td>KB 4013633 yra X++ naujinimas arba karštoji metaduomenų pataisa su mobiliąja darbo sritimi <strong>Pardavimo užsakymai</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
+
+</ol></td>
 </tr>
 <tr class="even">
-<td>Reikia įdiegti KB 4013633.</td>
+<td>Publikuoti mobiliąją darbo sritį <strong>Pardavimo užsakymai</strong>.</td>
 <td>Sistemos administratorius</td>
-<td>KB 4013633 (X ++ naujinimas arba metaduomenų karštoji pataisa) yra keturios mobiliosios darbo sritys, skirtos tiekimo grandinei valdyti. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
-<ol>
-<li>Atsisiųskite KB 4013633 iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Taikykite diegiamą paketą</a> savo „Dynamics 365 for Operations“ sistemai.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Mobilioji darbo sritis <strong>Pardavimo užsakymai</strong> turi būti publikuojama mobiliojoje programoje „Dynamics 365 for Operations“.</td>
-<td>Sistemos administratorius</td>
-<td><ol>
-<li>Atidarykite „Dynamics 365 for Operations“ savo naršyklėje.</li>
-<li>Puslapyje <strong>Sistemos parametrai</strong> pasirinkite <strong>Valdyti mobiliąsias darbo sritis</strong>.</li>
-<li>Pasirinkite darbo sritį <strong>Pardavimo užsakymai</strong>.</li>
-<li>Spustelėkite <strong>Publikuoti mobiliąją darbo sritį</strong>.</li>
-</ol></td>
+<td>Žr. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Mobiliosios programos „Dynamics 365 for Operations“ atsisiuntimas ir diegimas
-Iš mobiliųjų įrenginių programėlių parduotuvės atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Operations“.
+## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
+Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
 
--   „Android“: [„Dynamics 365 for Operations“ „Google Play“ parduotuvėje](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   „iPhone“: [„Dynamics 365 for Operations“ „iTunes “ programų parduotuvėje](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Prisijungimas prie mobiliosios programos „Dynamics 365 for Operations“
+## <a name="sign-in-to-the-mobile-app"></a>Prisijunkite prie mobiliosios programos
+
 1.  Paleiskite programą savo mobiliajame įrenginyje.
-2.  Įveskite savo „Dynamics 365 for Operations‟ URL.
-3.  Įveskite įmonę, prie kurios norite prisijungti. Pavyzdžiui, įveskite **USMF**.
-4.  Pirmą kartą prisijungus būsite paraginti įvesti savo „Dynamics 365 for Operations“ paskyros vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
-5.  Prisijungę matysite galimas savo įmonės darbo sritis. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau, galite patraukti, norėdami atnaujinti mobiliųjų darbo sričių sąrašą. 
+2.  Įveskite savo „Dynamics 365“ URL.
+3.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
+4.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
 
-    [![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-mobile-workspace"></a>Informacijos apie kliento pardavimo užsakymus peržiūra naudojant mobiliąją darbo sritį
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>Informacijos apie kliento pardavimo užsakymus peržiūra naudojant mobiliąją darbo sritį Pardavimo užsakymai
+
 1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Pardavimo užsakymai**.
 2.  Pasirinkite **Peržiūrėti kliento užsakymus**.
 3.  Norėdami rasti klientą, naudokite sąskaitos arba kliento pavadinimo informaciją.
 4.  Pasirinkite klientą.
 5.  Pasirinkite **Kontaktinė informacija** arba **Pardavimo užsakymai**. Pasirinkus **Pardavimo užsakymai**, rodomas kliento pardavimo užsakymų sąrašas.
 6.  Pasirinkite **Pardavimo užsakymas**. Dabar galite peržiūrėti informaciją apie pardavimo užsakymo eilutes, siuntas, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją.
-
-
-
-
 

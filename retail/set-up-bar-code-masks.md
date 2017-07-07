@@ -3,25 +3,27 @@ title: "Brūkšninių kodų skaičių sekų nustatymas"
 description: "Šioje temoje aprašoma, kaip nustatyti brūkšninio kodo skaičių sekos simbolius ir kaip brūkšninio kodo skaičių seką susieti su brūkšniniu kodu."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 <a name="set-up-bar-code-mask-characters"></a>Brūkšninio kodo skaičių sekos simbolių nustatymas
 -------------------------------
 
-Brūkšninio kodo skaičių sekos naudojamos brūkšniniams kodams kurti ir greitai identifikuoti brūkšninius kodus, nuskaitytus elektroniniame kasos aparatą (EKA). Skaičių sekos sudaromos iš simbolių, kurie veikia kaip vietos rezervavimo ženklai, nurodantys brūkšninių kodų, kurie bus sukurti, formatą. Norėdami sukonfigūruoti brūkšninio kodo skaičių seką, turite nustatyti brūkšninių kodų skaičių sekų simbolius. Eikite į **Mažmeninė prekyba ir prekyba** &gt; **Atsargų valdymas** &gt; **Brūkšniniai kodai ir etiketės** &gt; **Skaičių sekos simboliai**. Spustelėkite **Naujas** ir sukurkite brūkšninio kodo skaičių sekos simbolius. Skaičių sekos simboliai gali būti sukurti nurodyti šiuos brūkšninių kodų duomenis.
+Brūkšninio kodo skaičių sekos naudojamos brūkšniniams kodams kurti ir greitai identifikuoti brūkšninius kodus, nuskaitytus elektroniniame kasos aparatą (EKA). Skaičių sekos sudaromos iš simbolių, kurie veikia kaip vietos rezervavimo ženklai, nurodantys brūkšninių kodų, kurie bus sukurti, formatą. Norėdami sukonfigūruoti brūkšninio kodo skaičių seką, turite nustatyti brūkšninių kodų skaičių sekų simbolius. Eikite į **Mažmeninė prekyba** &gt; **Atsargų valdymas** &gt; **Brūkšniniai kodai ir etiketės** &gt; **Skaičių sekos simboliai**. Spustelėkite **Naujas** ir sukurkite brūkšninio kodo skaičių sekos simbolius. Skaičių sekos simboliai gali būti sukurti nurodyti šiuos brūkšninių kodų duomenis.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Brūkšninio kodo skaičių sekos naudojamos brūkšniniams kodams kurti ir grei
 | **Darbuotojas**         | Nurodo brūkšninio kodo segmentą darbuotojo ID numeriui, naudojamam EKA prisijungimui brūkšniniu kodu.                                  |
 | **Klientas**         | Nurodo kliento ID segmentą.                                                                                  |
 | **Duomenų įrašas**       | *Dar neįdiegta.*                                                                                          |
-| **Nuolaidos kodas**    | Nurodo brūkšninio kodo, kuris naudojamas nuolaidai elektroniniame kasos aparate pridėti, nuolaidos kodą             |
+| **Nuolaidos kodas**    | *Nebenaudojama* nuo „Dynamics 365 for Retail‟ 2017 m. pavasario leidimo. Anksčiau: nurodo brūkšninio kodo, kuris naudojamas nuolaidai elektroniniame kasos aparate įtraukti, nuolaidos kodą.                                                                   |
+| **Kupono kodas**      | Nurodo brūkšninio kodo, naudojamo nuolaidai į mažmeninės prekybos užsakymą įtraukti, kupono kodą. Jis pakeitė nuolaidos kodą.     |
 | **Dovanų kortelė**        | Nurodo dovanų kortelės numerį, išduodant arba mokant dovanų kortele.                                               |
 | **Lojalumo kortelė**     | Įtraukia lojalų klientą į operaciją, gali būti naudojama mokant lojalumo kortele.                             |
 
 ## <a name="define-bar-code-masks"></a>Brūkšninio kodo skaičių sekų nustatymas
-Brūkšninio kodo skaičių sekos simboliai nurodyti reikalingoms brūkšninio kodo skaičių sekoms, eikite į **Mažmeninė prekyba ir prekyba** &gt; **Atsargų valdymas** &gt; **Brūkšniniai kodai ir etiketės** &gt; **Brūkšninio kodo skaičių sekos nustatymas**. Šiame puslapyje galite nustatyti brūkšninių kodų skaičių sekas, kuriose naudojami anksčiau nurodyti simboliai. Šios brūkšninio kodo skaičių sekos bus naudojamos generuojant brūkšninius kodus ir padės identifikuoti EKA nuskaitytus brūkšninius kodus.
+Kai nurodyti reikiamų brūkšninių kodų skaičių sekų simboliai, eikite į **Mažmeninė prekyba** &gt; **Atsargų valdymas** &gt; **Brūkšniniai kodai ir etiketės** &gt; **Brūkšninių kodų skaičių sekų sąranka**. Šiame puslapyje galite nustatyti brūkšninių kodų skaičių sekas, kuriose naudojami anksčiau nurodyti simboliai. Šios brūkšninio kodo skaičių sekos bus naudojamos generuojant brūkšninius kodus ir padės identifikuoti EKA nuskaitytus brūkšninius kodus.
 
 1.  Spustelėkite **Naujas** ir sukurkite naują brūkšninio kodo skaičių seką.
 2.  Įveskite vertes laukuose **Skaičių sekos ID** ir **Aprašas**, tada pasirinkite brūkšninio kodo skaičių sekos tipą lauke **Tipas**.

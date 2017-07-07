@@ -1,15 +1,15 @@
 ---
 title: "Įdarbinimo „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Dynamics 365 for Operations“ įdarbinimo „Power BI“ turinys. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
-author: twheeloc
+description: "Šioje temoje aprašomas „Power BI‟ turinys Įdarbinimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4b12a2c8983cf7bef770417f76df324293f06fb2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49cfd0f1ed645f1980b21b6d4f453cb7a8957a1a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,58 +29,42 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Įdarbinimas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-Šioje temoje aprašytas „Dynamics 365 for Operations“ įdarbinimo „Power BI“ turinys. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+Jei naudojate „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimą su 2017 m. naujinimu, „Power BI‟ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**. 
 
-<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
---------------------------
+## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Ataskaitos ir vaizdiniai elementai darbo srityje Įdarbinimo valdymas
+Darbo srityje **Įdarbinimo valdymas** yra skirtukas **Analizė**. Šiame skirtuke pateikiamas įdėtasis „Power BI‟ įdarbinimo turinys. Turinį sudaro apžvalgos skirtukas ir papildomi skirtukai su išsamia informacija. Tolesnėje lentelėje aprašomos kiekvieno skirtuko ataskaitos.
 
-Įdarbinimo turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
-
-## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
-Prijungus turinio paketą prie „Dynamics 365 for Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
-
-| Ataskaita                       | Turinys                                                                                               |
-|------------------------------|--------------------------------------------------------------------------------------------------------|
-| Pretendento analizė           | Pretendentai pagal darbą, pretendento šaltiniai, pretendentai pagal vietą ir bendras pretendentų skaičius           |
-| Pretendento būsena             | Pretendentai pagal tipą ir būseną ir pretendento būsena                                                    |
-| Pretendento demografiniai duomenys       | Pretendentai pagal amžių ir lytį ir pretendentai pagal išsilavinimo lygį ir būseną                             |
-| Įdarbinimo analizė          | Grynasis įdarbinimo santykis, vidutinės dienos įdarbinti, blogų įdarbinimų procentas ir įdarbinimo išlaidos                    |
-| Įdarbinimo projekto analizė | Įdarbinimo projektų skaičius, laisvos vietos pagal įdarbinimo projektą ir pretendentai pagal įdarbinimo projektą |
-
-Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+| Ataskaita               | Turinys |
+|----------------------|----------|
+| Įdarbinimo apžvalga | Kitų ataskaitų suvestinė |
+| Pretendento analizė   | Bendrasis pretendentų skaičius, pretendentai pagal darbo vietą, pretendentų šaltiniai, pretendentų vyrų ir moterų santykis bei pretendentai pagal vietą |
+| Pretendento būsena     | Pretendentai pagal tipą ir būseną ir pretendento būsena |
+| Įdarbinimo analizė  | Grynasis samdos koeficientas, vidutinis pasamdyti reikiamų dienų skaičius, netinkamos samdos procentas, įdarbinimo išlaidos, įdarbinimo projektų skaičius, pasamdytų ir pretendavusių asmenų santykis ir pretendentai, palyginti su laisvomis darbo vietomis pagal įdarbinimo projektą |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami ataskaitoms įdarbinimo turinio pakete užpildyti. Toliau pateiktoje lentelėje nurodomi objektai, kuriais turinio paketas pagrįstas.
+Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-| Objektas                          | Turinys                                                         | Ryšiai su kitais objektais                                                                                                                                                                                                                 |
-|---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Įdarbinimas\_Pretendentas           | Pretendentai, pasamdyti pretendentai, grynosios samdos koeficientas ir išlaidos          | Recruiting\_ApplicantName Recruiting\_Company Recruiting\_CalendarOffset Recuriting\_Date Recruiting\_GeographicLocation Recruiting\_Demographics Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject                                |
-| Recruiting\_ApplicantName       | Pretendento vardas, pavardė ir vardas bei pavardė                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_CalendarOffset      | Kalendoriaus poslinkiai ataskaitoms skaidyti                                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Company             | Įmonės, pagal kurias filtruojamos ataskaitos                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Date                | Dienos, savaitės, mėnesiai ir metai                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Demographics        | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis         | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_EmployedApplicant   | Pretendentas, veiklos efektyvumas, pradžios data ir pretendento tipas           | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_ApplicantName Recruiting\_Employment Recruiting\_Performance Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject          |
-| Recruiting\_Employment          | Pradžios data, pabaigos data ir perėjimo data                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_GeographicLocation  | Miestas, seniūnija, pašto kodas ir šalis arba regionas                 | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Job                 | Funkcija, tipas ir pareigos                                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Media               | Pretendentų šaltinis                                             | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_Performance         | Įvertinimas, aprašas ir įvertinimo modelis                            | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_RecruitmentProject  | Projekto aprašas, projekto būsena ir laisvos vietos                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Recruiting\_TerminatedApplicant | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_Performance Recruiting\_Demographics Recruiting\_Employment Recruiting\_Media Recruiting\_RecruitmentProject Recruiting\_ApplicantName |
+Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power BI‟ turinys **Įdarbinimas**.
 
-Šie objektai buvo naudojami skaičiuojamiems matams kurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinio pakete. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą Recruiting.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turinio paketui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+| Objektas               | Turinys                                                         | Ryšiai su kitais objektais |
+|----------------------|------------------------------------------------------------------|-----------------------------------|
+| Pretendentas            | Pretendentai, pasamdyti pretendentai, grynosios samdos koeficientas ir išlaidos          | Pretendento vardas, pavardė, įmonė, kalendoriaus poslinkis, data, geografinė vieta, demografiniai duomenys, darbo vieta, medija, įdarbinimo projektas |
+| Pretendento vardas, pavardė       | Pretendento vardas, pavardė ir vardas bei pavardė                   | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Kalendoriaus poslinkis      | Kalendoriaus poslinkiai ataskaitoms skaidyti                                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Įmonė              | Įmonės, pagal kurias filtruojamos ataskaitos                                   | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Data                 | Dienos, savaitės, mėnesiai ir metai                                   | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Demografiniai duomenys         | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis         | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Dirbantis pretendentas   | Pretendentas, veiklos efektyvumas, pradžios data ir pretendento tipas           | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, pretendento vardas, pavardė, įdarbinimas, našumas, darbo vieta, medija, įdarbinimo projektas |
+| Užimtumas           | Pradžios data, pabaigos data ir perėjimo data                        | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Geografinė vieta  | Miestas, seniūnija, pašto kodas ir šalis arba regionas                 | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Darbas                  | Funkcija, tipas ir pareigos                                        | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Publikavimo kanalai                | Pretendentų šaltinis                                             | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Našumas          | Įvertinimas, aprašas ir įvertinimo modelis                            | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Įdarbinimo projektas  | Projekto aprašas, projekto būsena ir laisvos vietos                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
+| Atleistas pretendentas | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė |
 
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
-
-
-
-
+Šie objektai buvo naudojami skaičiuojamiems matams kurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš „Microsoft Dynamics Lifecycles Services‟ (LCS) atsisiųsti ir modifikuoti failą Recruiting.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
 

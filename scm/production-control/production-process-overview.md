@@ -3,7 +3,7 @@ title: "Gamybos proceso apžvalga"
 description: "Šiame straipsnyje apžvelgti gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ Produktų gamyba, procesas, kartais dar vadinamas gamybos ciklu, vykdoma atlieka
 
 Modulis **Gamybos kontrolė** yra susijęs su kitais moduliais, pavyzdžiui, **Produkto informacijos valdymas**, **Atsargų valdymas**, **Didžioji knyga**, **Sandėlio valdymas**, **Projekto apskaita** ir **Organizacijos administravimas**. Ši integracija palaiko informacijos srautą, reikalingą galutinei prekei pagaminti.  
 
-Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. „Dynamics 365 for Operations“ palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis; laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
+Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. „Finance and Operations“ palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis ir laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
 
 Išlaidų matavimo metodo pasirinkimas taip pat apibrėžia ataskaitų apie medžiagų ir išteklių suvartojimą gamybos proceso metu reikalavimus. Paprastai faktinių išlaidų metodai reikalauja tiksliai kurti užduoties lygio ataskaitas, o periodiniai įkainojimo metodai užtikrina ne tokių smulkių medžiagų ir išteklių suvartojimo ataskaitų kūrimą.
 
 ## <a name="mixed-mode-manufacturing"></a>Gamyba mišriuoju režimu
-Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami „Dynamics 365 for Operations“, dirbdami mišriuoju režimu galite taikyti įvairius užsakymo tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
+Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami „Finance and Operations“ ir dirbdami mišriuoju režimu galite taikyti įvairius užsakymų tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
 
 -   **Gamybos užsakymas** – tai klasikinis užsakymo tipas, skirtas konkretaus produkto arba produkto varianto nurodytam kiekiui tam tikrą datą gaminti. Gamybos užsakymai pagrįsti komplektavimo specifikacijomis (KS) ir maršrutais.
 -   **Paketinis užsakymas** – šis užsakymo tipas naudojamas proceso pramonės šakoms ir atskiriems procesams, kur gamybos konvertavimas pagrįstas formule, kurioje sudėtiniai ir šalutiniai produktai gali būti baigti produktai arba kartu su pagrindiniu produktu, arba vietoje jo. Paketiniuose užsakymuose naudojami tipo **Formulė** KS ir maršrutai.

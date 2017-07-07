@@ -1,27 +1,27 @@
 ---
 title: "Išorinių mažmeninės prekybos įrenginių apžvalga"
 description: "Šioje temoje paaiškintos su išoriniais mažmeninės prekybos įrenginiais susijusios koncepcijos. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje paaiškintos su išoriniais mažmeninės prekybos įrenginiais susijusios koncepcijos. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA.
 
-<a name="concepts"></a>Koncepcijos
---------
+## <a name="concepts"></a>Koncepcijos
 
 ### <a name="pos-registers"></a>EKA registrai
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar nustatymą, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar nustatymą, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
 
 ### <a name="devices"></a>Įrenginiai
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginius galima susieti su šių tipų progrmomis: „Retail Modern POS“, „Retail Cloud POS“, „Retail Modern POS“ – „Windows Phone“, „Retail Modern POS“ – „Android“ ir „Retail Modern POS“ – „iOS“.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginius galima susieti su šių tipų progrmomis: „Retail Modern POS“, „Retail Cloud POS“, „Retail Modern POS“ – „Windows Phone“, „Retail Modern POS“ – „Android“ ir „Retail Modern POS“ – „iOS“.
 
 ### <a name="retail-modern-pos"></a>„Retail Modern POS“
 
@@ -66,11 +65,11 @@ Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA f
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta mažmeninės prekybos išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju, ją galima pasiekti per tinklą.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta mažmeninės prekybos išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju, ją galima pasiekti per tinklą.
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
-Naršymas: spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
 
 ## <a name="devices-classes"></a>Įrenginių klasės
 Išroriniai EKA įrenginiai paprastai skirstomi į klases. Šiame skyriuje aprašyti įrenginiai, kuriuos palaiko „Modern POS“, ir pateikiama jų apžvalga.
@@ -118,12 +117,12 @@ Mokėjimo įrenginio palaikymas įdiegiamas per mokėjimo jungtį. Mokėjimo įr
 ## <a name="supported-interfaces"></a>Palaikomos sąsajos
 ### <a name="opos"></a>OEKA
 
-Siekiant užtikrinti, kad su „Microsoft Dynamics 365 for Operations“ – versija „Retail“ būtų galima naudoti didžiausią diapazoną įrenginių, EKA skirtas OLE prekybos standartas yra pirminė mažmeninės prekybos išorinių įrenginių platforma, kuri palaikoma „Microsoft Dynamics 365 for Operations“ – versijoje „Retail“. EKA skirtą OLE standartą sukūrė Nacionalinė mažmeninės prekybos federacija (NRF, angl. „National Retail Federation“), nustatanti pramonės standartų ryšio protokolus, skirtus išoriniams mažmeninės prekybos įrenginiams. OEKA yra plačiai taikomas EKA standartui skirto OLE diegimas. Jis sukurtas XX a. dešimto dešimtmečio viduryje ir nuo tada buvo keletą kartų atnaujintas. OEKA pateikia įrenginių tvarkyklių architektūrą, kuri leidžia lengvai integruoti EKA aparatūrą į „Windows“ pagrįstas EKA sistemas. OEKA valdikliai tvarko ryšį tarp suderinamos aparatūros ir EKA programinės įrangos. OEKA valdiklį sudaro dvi dalys:
+Siekiant užtikrinti, kad su „Microsoft Dynamics 365 for Retail“ būtų galima naudoti kuo daugiau įrenginių, EKA skirtas OLE prekybos standartas yra pirminė mažmeninės prekybos išorinių įrenginių platforma, kuri yra palaikoma sprendime „Microsoft Dynamics 365 for Retail“. EKA skirtą OLE standartą sukūrė Nacionalinė mažmeninės prekybos federacija (NRF, angl. „National Retail Federation“), nustatanti pramonės standartų ryšio protokolus, skirtus išoriniams mažmeninės prekybos įrenginiams. OEKA yra plačiai taikomas EKA standartui skirto OLE diegimas. Jis sukurtas XX a. dešimto dešimtmečio viduryje ir nuo tada buvo keletą kartų atnaujintas. OEKA pateikia įrenginių tvarkyklių architektūrą, kuri leidžia lengvai integruoti EKA aparatūrą į „Windows“ pagrįstas EKA sistemas. OEKA valdikliai tvarko ryšį tarp suderinamos aparatūros ir EKA programinės įrangos. OEKA valdiklį sudaro dvi dalys:
 
--   **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCOs yra naudojami EKA komponentui iš „Microsoft Dynamics 365 for Operations“ – versijos „Retail“ patikrinti. Todėl patikrinimas padeda užtikrinti, kad jei „Microsoft Dynamics 365 for Operations“ – versija „Retail“ palaiko įrenginių klasę per OEKA, tai daugelio įrenginių tipai gali būti palaikomi, jei gamintojas pateikia paslaugos objektą, sukurtą OEKA. Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
+-   **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO yra naudojami „Microsoft Dynamics 365 for Retail“ EKA komponentui bandyti. Todėl bandymai padeda užtikrinti, kad jei „Microsoft Dynamics 365 for Retail“ palaiko įrenginių klasę per OEKA, tai daugelio įrenginių tipai gali būti palaikomi (jei gamintojas pateikia paslaugos objektą, sukurtą OEKA). Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
 -   **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti aptarnavimo objektą atsisiųsti iš gamintojo žiniatinklio svetainės. Pvz,, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
 
-[![Valdymo objektas ir aptarnavimo objektas](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. **Pastaba:** OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Microsoft Dynamics 365 for Operations“ – versija „Retail“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.
+[![Valdymo objektas ir aptarnavimo objektas](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia. **Pastaba:** OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Microsoft Dynamics 365 for Retail“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.
 
 ### <a name="windows"></a>„Windows“
 
@@ -133,7 +132,7 @@ EKA kvitų spausdinimas optimizuotas OEKA. OEKA yra daug greitesnis nei spausdin
 -   Įrenginiai, kurie yra prijungti per spausdintuvą (nuosekliąja grandine) gali netinkamai veikti, kai naudojamos „Windows“ tvarkyklės. Pvz., gali neatsidaryti kasos stalčius arba kvitų spausdintuvas gali veikti ne taip, kaip tikimasi.
 -   OEKA palaiko ir platesnį kintamųjų rinkinį, kurie būdingi mažmeninės prekybos kvitų spausdintuvams, pvz., popieriaus nuplėšimas arba kvito spausdinimas.
 
-Jei OEKA valdikliai galimi tam „Windows“ spausdintuvui, kurį naudojate, spausdintuvas vis tiek turėtų tinkamai veikti su „Microsoft Dynamics 365 for Operations“ – versija „Retail“.
+Jei OEKA valdikliai galimi tam „Windows“ spausdintuvui, kurį naudojate, spausdintuvas vis tiek turėtų tinkamai veikti su „Microsoft Dynamics 365 for Retail“.
 
 ### <a name="universal-windows-platform"></a>„Universal Windows Platform“
 
@@ -473,7 +472,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Palaikomų scenarijų konfigūracija
-Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apibrėžti ir prižiūrėti kanalų klientus, įskaitant registrus ir aparatūros stotis](define-maintain-channel-clients-registers-hw-stations.md). **Pastaba:** „Microsoft Dynamics 365 for Operations“ 1611 versijoje aparatūros stoties šablonas nebenaudojamas. Atributai, kuriuos anksčiau nustatėte aparatūros stoties šablone, dabar yra pačios aparatūros stoties dalis.
+Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apibrėžti ir prižiūrėti kanalų klientus, įskaitant registrus ir aparatūros stotis](define-maintain-channel-clients-registers-hw-stations.md). **Pastaba:** „Microsoft Dynamics 365 for Retail“ 1611 versijoje aparatūros stoties profilis nebenaudojamas. Atributai, kuriuos anksčiau nustatėte aparatūros stoties šablone, dabar yra pačios aparatūros stoties dalis.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>„Windows“ skirta „Modern POS“ su IPC (įtaisyta) aparatūros stotimi
 
@@ -482,7 +481,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 1.  Sukurkite aparatūros šabloną, kur konfigūruojami visi reikiami išoriniai įrenginiai.
 2.  Susiekite aparatūros šabloną su EKA registru.
 3.  Sukurkite aparatūros stotį, kurios tipas **Paskirta**, mažmeninės prekybos parduotuvei, kurioje bus naudojamas EKA registras. Aprašas nėra būtinas. **Pastaba:** aparatūros stotyje neprivalote nustatyti jokių kitų ypatybių. Visa kita reikiama informacija, pvz., aparatūros šablonas, bus gauta iš paties registro.
-4.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+4.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 7.  Įdiekite ir suaktyvinkite „Windows“ skirtą „Modern POS“.
@@ -501,7 +500,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     -   **EFT EKA numeris** – EFT terminalo ID, naudojamas, kai siunčiami EFT įgaliojimai. Šį ID pateikia kredito kortelių procesorius.
     -   **Paketo pavadinimas** – aparatūros stoties paketas, naudojamas įdiegiant aparatūros stotį.
 
-4.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+4.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 5.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 6.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 7.  Įdiekite aparatūros stotį. Išsamesnės informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
     -   **Pagrindinio kompiuterio vardas** – pagrindinio kompiuterio, kuriame bus vykdoma aparatūros stotis, pavadinimas.
     -   **Aprašas** – tekstas, kuris padės identifikuoti aparatūros stotį, pvz., **Grąžinimai** arba **Parduotuvės pagrindinė**.
     -   **Prievadas** – aparatūros stoties ir „Modern POS“ kliento ryšiui palaikyti naudojamas prievadas.
-    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrai naudojamą pamainą, spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
+    -   **Aparatūros šablonas** – kiekviena bendrai naudojama aparatūros stotis turi turėti aparatūros šabloną. Aparatūros šablonus gali bendrai naudoti aparatūros stotys, bet jie turi būti susieti su kiekviena aparatūros stotimi. Be to, rekomenduojame naudoti bendrai naudojamas pamainas, kai tą pačią aparatūros stotį naudoja keli įrenginiai. Norėdami nustatyti bendrai naudojamą pamainą, spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Kiekviename bendrai naudojamame aparatūros šablone pasirinkite kasos stalčių ir nustatykite parinktį **Bendrinamas pamainos stalčius** į **Taip**.
     -   **EFT EKA numeris** – EFT terminalo ID, naudojamas, kai siunčiami EFT įgaliojimai. Šį ID pateikia kredito kortelių procesorius.
     -   **Paketo pavadinimas** – aparatūros stoties paketas, naudojamas įdiegiant aparatūros stotį.
 
 4.  Pakartokite 2 ir 3 veiksmus kiekvienai papildomai aparatūros stočiai, kuri reikalinga parduotuvėje.
-5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+5.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 6.  Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 7.  Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 8.  Aparatūros stotį įdiekite kiekviename pagrindiniame kompiuteryje, kuriuos nustatėte atlikdami 2 ir 3 veiksmus. Išsamesnės informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 14. Pasirinkite naudojamą aparatūros stotį, tada spustelėkite **Susieti**.
 15. Pakartokite 14 veiksmą kiekvienai aparatūros stočiai, kurią naudos „Modern POS“.
 16. Kai visos reikalingos aparatūros stotys susietos, spustelėkite **Uždaryti**.
-17. Aparatūros stoties pasirinkimo puslapyje spustelėję ką tik pasirinktą aparatūros stotį, ją suaktyvinsite. **Pastaba:** jei įrenginiai dažnai naudoja skirtingas aparatūros stotis, rekomenduojame taip sukonfigūruoti „Modern POS“, kad paragintų kasininkus pradedant mokėjimo procesą, pasirinkti aparatūros stotį. Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **Registrai**. Pasirinkite registrą, tada nustatykite parinktį **Pasirinkti mokant** į **Taip**. Naudodami paskirstymo grafiką **1090** sinchronizuokite kanalo duomenų bazės pakeitimus.
+17. Aparatūros stoties pasirinkimo puslapyje spustelėję ką tik pasirinktą aparatūros stotį, ją suaktyvinsite. **Pastaba:** jei įrenginiai dažnai naudoja skirtingas aparatūros stotis, rekomenduojame taip sukonfigūruoti „Modern POS“, kad paragintų kasininkus pradedant mokėjimo procesą, pasirinkti aparatūros stotį. Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**. Pasirinkite registrą, tada nustatykite parinktį **Pasirinkti mokant** į **Taip**. Naudodami paskirstymo grafiką **1090** sinchronizuokite kanalo duomenų bazės pakeitimus.
 
 ## <a name="extensibility"></a>Išplečiamumas
 Išsamesnės informacijos apie aparatūros stoties išplėtimo scenarjus, žr. [Aparatūros stoties išplėtimas](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ Pagal dabartinius saugos standartus, gamybos aplinkoje turi būti naudojami šie
 **Pastaba:** labai svarbu peržiūrėti IIS ir mokėjimo kortelių pramonės (PCI) reikalavimų saugos gaires.
 
 ## <a name="peripheral-simulator"></a>Periferinis simuliatorius
-Išsamesnės informacijos žr. [Mažmeninės prekybos periferinis simuliatorius](retail-peripheral-simulator.md).
+Išsamesnės informacijos žr. [Mažmeninės prekybos periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>„Microsoft“ išbandyti išoriniai įrenginiai
 ### <a name="ipc-built-in-hardware-station"></a>IPC (įtaisytoji) aparatūros stotis
@@ -806,7 +805,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Mažmeninės prekybos periferinis simuliatorius](retail-peripheral-simulator.md)
+[Mažmeninės prekybos periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 
 
 

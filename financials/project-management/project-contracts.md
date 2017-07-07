@@ -1,27 +1,27 @@
 ---
 title: Projekto sutartys
-description: "Šiame straipsnyje aprašomos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikta sutarčių pavyzdžių ir paaiškinta, kaip galima „Microsoft Dynamics 365 for Operations“ valdyti sutartis ir klientams išrašyti SF."
+description: "Šiame straipsnyje aprašomos projektų sutartys, kurias galite kurti įvairių tipų projektams ir lėšų skyrimo šaltiniams, aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime galima valdyti sutartis ir projektų klientams išrašyti sąskaitas faktūras bei pateikiama viso to pavyzdžių."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašomos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikta sutarčių pavyzdžių ir paaiškinta, kaip galima „Microsoft Dynamics 365 for Operations“ valdyti sutartis ir klientams išrašyti SF.
+Šiame straipsnyje aprašomos projektų sutartys, kurias galite kurti įvairių tipų projektams ir lėšų skyrimo šaltiniams, aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime galima valdyti sutartis ir projektų klientams išrašyti sąskaitas faktūras bei pateikiama viso to pavyzdžių.
 
 Jūsų sukurtas projekto sutarties tipas nustato metodą, kuris naudojamas išrašyti SF projekto klientams. Galite keisti projekto sutartį ir susijusį projektą, tačiau negalite keisti projekto tipo. 
 
@@ -49,7 +49,7 @@ Kai kuriose projektų sutartyse nurodyta, kad projekto išlaidų finansavimo ats
 -   Kelių projektą kartu finansuoja dvi savivaldybės.
 -   Tilto projektą finansuoja vyriausybės subsidija ir privati korporacija.
 
-Programoje „Microsoft Dynamics 365 for Operations‟ sąskaitą už vieną operaciją ar visą projektą galite išskaidyti keliems klientams, subsidijoms ar organizacijoms. 
+Sprendime „Finance and Operations‟ sąskaitą už vieną operaciją ar visą projektą galite išskaidyti keliems klientams, subsidijoms ar organizacijoms. 
 
 Projektuose, kuriuose yra keli finansuotojai, visos šalys, kurios prisideda prie išplėstinio finansavimo projekto, vadinamos finansavimo šaltiniais. Klientą, organizaciją ar subsidiją apibrėžus kaip finansavimo šaltinį, jį galima priskirti vienai ar kelioms finansavimo taisyklėms. Finansavimo taisyklėse yra kriterijai, kurie nustato, kaip išlaidos paskirstomos įvairiems projekto finansavimo šaltiniams. 
 

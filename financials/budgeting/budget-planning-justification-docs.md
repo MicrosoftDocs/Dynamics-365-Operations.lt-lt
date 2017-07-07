@@ -3,13 +3,13 @@ title: "Biudžeto planavimo pagrindimo dokumentai"
 description: "Pagrindimo dokumentai prašantiems biudžeto asmenims suteikia informacijos, padedančios paaiškinti, kodėl konkretus biudžetas yra reikalingas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Biudžeto plano šabloną sukuria biudžeto vadovas programoje „Microsoft Word
 
 1.  Kai prisijungsite, „Microsoft Dynamics Office“ papildinyje spustelėkite **Dizainas**.
 2.  Norėdami tvarkyti antraštės informaciją, naudokite mygtuką **Įtraukti laukų**.
-3.  Pasirinkite BudgetPlanJustification objekto duomenų šaltinį ir spustelėkite **Toliau**. **Pastaba:** šis objektas reikalingas visiems pagrindimo dokumentams. Galima naudoti kitus objektus, bet jei šis objektas nėra įtrauktas, nusiuntimas į „Microsoft Dynamics 365 for Operations“ nepavyks.
+3.  Pasirinkite BudgetPlanJustification objekto duomenų šaltinį ir spustelėkite **Toliau**. **Pastaba:** šis objektas reikalingas visiems pagrindimo dokumentams. Galima naudoti kitus objektus, bet jei šis objektas nėra įtrauktas, nusiųsti į „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise“) nepavyks.
 4.  Į „Word“ dokumentą įtraukite BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ir DocumentNumber žymas ir reikšmes. **Pastaba:** jei reikia, galite naudoti savo pasirinktines žymas, o ne standartines žymas.
 5.  Norėdami baigti tvarkyti antraštės dalį, spustelėkite **Atlikta**.
 6.  Norėdami tvarkyti biudžeto plano eilutės lygio informaciją, spustelėkite **Įtraukti lentelę**.
@@ -57,7 +57,7 @@ Biudžeto plano šabloną sukuria biudžeto vadovas programoje „Microsoft Word
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Biudžeto planavimo proceso nustatymas naudoti pagrindimo šabloną
 
-1.  Programoje „Microsoft Dynamics 365 for Operations‟ atidarykite **Biudžeto sudarymas** &gt; **Sąranka** &gt; **Biudžeto planavimas** &gt; **Pagrindimo dokumento šablonai**.
+1.  Programoje „Finance and Operations‟ atidarykite **Biudžeto sudarymas** &gt; **Sąranka** &gt; **Biudžeto planavimas** &gt; **Pagrindimo dokumento šablonai**.
 2.  Spustelėkite **Naujas** ir naršydami atidarykite naujai sukurtą „Microsoft Word“ dokumentą.
 3.  Įveskite šablono rodomą pavadinimą ir aprašą. Spustelėkite **Gerai**.
 4.  Atidarykite **Biudžeto sudarymas** &gt; **Sąranka** &gt; **Biudžeto** **planavimas** &gt; **Biudžeto planavimo procesas**.
@@ -66,7 +66,7 @@ Biudžeto plano šabloną sukuria biudžeto vadovas programoje „Microsoft Word
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Pritaikytų pagrindimo dokumentų redagavimas ir įrašymas
 
-1.  Programoje „Dynamics 365 for Operations“ sukurkite naują arba atidarykite esamą biudžeto planą.
+1.  Programoje „Finance and Operations“ sukurkite naują arba atidarykite esamą biudžeto planą.
 2.  Išplečiamajame meniu **Pagrindimas** pasirinkite **Kurti naują pagrindimą**.
 3.  Įvedę informaciją pasirinkite įkelti pritaikytą dokumentą iš išplečiamojo meniu **Pagrindimas**.
 

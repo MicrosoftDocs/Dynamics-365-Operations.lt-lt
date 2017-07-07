@@ -1,15 +1,15 @@
 ---
 title: "Darbo jėgos metrikos „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Dynamics 365 for Operations“ darbo jėgos metrikos „Power BI“ turinys. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
-author: twheeloc
+description: "Šioje temoje aprašomas darbo jėgos metrikos „Power BI‟ turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2a3f611d29e041a5f05e3f93fd2330f4218b9dd1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1f732a53eee17317417058b92706a9228d783cb5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,73 +29,69 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje aprašomas **Darbo jėgos metrikos** „Microsoft Power BI‟ turinys. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-Šioje temoje aprašytas „Dynamics 365 for Operations“ darbo jėgos metrikos „Power BI“ turinys. Paaiškinama, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+**Darbo jėgos metrikos** „Power BI“ turinys pasirodo **Personalo valdymo** darbo srityje, jei naudojate vieną iš šių produktų:
 
-<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
---------------------------
+- „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas, 2017 m. liepos mėn. naujinimas
+- „Microsoft Dynamics 365 for Talent“
 
-Darbo jėgos metrikos turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
+Šioje lentelėje išvardijamos metrikos, kurios bus rodomos kiekvienoje ataskaitoje.
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
-Prijungus turinio paketą prie „Dynamics 365 for Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
-
-| Ataskaita                                           | Turinys                                                                                                                                                                                                            |
+| Ataskaita                                           | Metrika                                                                                                                                                                                                            |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Žmonių metrika                                   | Kitų ataskaitų suvestinė                                                                                                                           |
 | Įmonės, padalinio, vietos darbuotojų skaičiaus analizė | Darbuotojų skaičius pagal įmonę, padalinį, vietą ir bendras darbuotojų skaičius                                                                                                                           |
 | Užduotis atliekančių, veiksmą vykdančių, vadovams priskirtų darbuotojų skaičiaus analizė            | Darbuotojų skaičius pagal užduotį, veiksmą, vadovą ir bendras darbuotojų skaičius                                                                                                                                      |
 | Darbuotojų skaičiaus tendencijų analizė                         | Darbuotojų skaičius šiais metais palyginus su praėjusiais pagal įmonę ir darbuotojų skaičiaus pokytis per pastaruosius 12 mėnesių                                                                                                                        |
-| Darbo jėgos demografiniai rodikliai                           | Darbuotojų skaičius pagal amžių, lytį, etninę kilmę, seniai dirbančiųjų būseną, šeimyninę padėtį, visą dieną dirbančių studentų, vidutinis pareigų ėjimo laiko, vidutinio amžiaus skaičius ir darbuotojų moterų bei darbuotojų vyrų koeficientas |
+| FTE analizė                                     | Bendras viso etato atitikmuo (FTE), bendras priskirtas FTE, FTE pagal padalinį, FTE per pastaruosius 12 mėnesių ir FTE pagal užduotį |
+| Darbo jėgos demografiniai rodikliai                           | Darbuotojų skaičius pagal amžių, lytį, etninę kilmę, šeimyninę padėtį, seniai dirbančiųjų skaičius, visu etatu dirbančių studentų skaičius, vidutinis pareigų ėjimo laikas, vidutinis amžius, darbuotojų moterų bei vyrų santykis ir darbuotojų vartojamos kalbos |
 | Pareigų analizė                                | Atviros pareigos pagal padalinį, laisvos / užimtos pareigos, aktyvios / neaktyvios pareigos ir pareigos pagal padalinį                                                                                                   |
-| Praradimo analizė                               | Praradimas šiais metais palyginus su praėjusiais, praradimas, vidutinis išeinančių darbuotojų pareigų ėjimo laikas, vidutinis išeinančių darbuotojų amžius ir išeinantys darbuotojai pagal priežastį                                                                   |
+| Praradimo analizė                               | Skaičiaus sumažėjimas šiais metais, palyginti su praėjusiais metais, skaičiaus sumažėjimas, išeinantys darbuotojai pagal amžių ir lytį, vidutinis išeinančių darbuotojų tarnybos laikas, šį mėnesį išeinantys darbuotojai, darbuotojų išėjimo priežastis                                                                   |
 | Žmonės pagal padalinį                             | Darbuotojai pagal padalinio, pareigų darbuotojo numerį ir priskyrimo pradžios bei pabaigos datas                                                                                                                       |
-| Paaukštinimo analizė                               | Vidutinis tarnybos metų skaičius pagal įmonę ir stažo sąrašas                                                                                                                                                              |
-| Sukaktys ir tarnybos metai               | Darbuotojai pagal tarnybos metus ir sukaktys                                                                                                                                                                    |
+| Paaukštinimo analizė                               | Vidutinis tarnybos laikas, vidutiniai tarnybos metai pagal įmonę ir darbo stažo sąrašas                                                                                                                                                              |
+| Darbuotojų metinės                           | Metinės šį mėnesį, metinės kitą mėnesį, darbuotojai pagal tarnybos metus, tarnybos metai pagal padalinį                                                                                                                                                                    |
+| Darbuotojų gimtadieniai                               | Gimtadieniai šį mėnesį, gimtadieniai kitą mėnesį, darbuotojų gimtadieniai ir gimtadieniai pagal mėnesį ir padalinį                                                                                                                                                                    |
+| Masinės samdos projektai                               | Bendri masinės samdos projektai, masinės samdos projektai pagal būseną, masinės samdos projektai pagal padalinį ir savininką, masinės samdos projektai pagal užduotį ir masinės samdos projektai                                                                                                                                                                    |
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
+## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
+Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Finance and Operations“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
+
+**Darbo jėgos metrikos** „Power BI“ turinį galite rasti LCS Bendrai naudojamo turto bibliotekoje. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
+
+Įsitikinkite, kad atsisiunčiate **Darbo jėgos metrikos** „Power BI“ turinį, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
+
+>[!NOTE]
+>.pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami ataskaitoms darbo jėgos metrikos turinio pakete užpildyti. Toliau pateiktoje lentelėje nurodomi objektai, kuriais turinio paketas pagrįstas.
+Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 
-| Objektas                            | Turinys                                                                                                   | Ryšiai su kitais objektais                                                                                                                                                                                                                                                                                                |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Workforce\_CalendarOffset         | Kalendoriaus poslinkiai ataskaitoms skaidyti                                                                          | Workforce\_PastPositionAssignment Workforce\_PositionTrend Workorce\_WorkerTrend Workforce\_TerminatedWorker                                                                                                                                                                                                                     |
-| Workforce\_Company                | Įmonės, pagal kurias filtruojamos ataskaitos                                                                             | Workforce\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Workforce\_Compensation           | Užmokesčio tarifas ir dažnis per tam tikrą laikotarpį                                                                           | Workforce\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Workforce\_CurrentCompensation    | Užmokesčio tarifas ir dažnis dabartinę dieną                                                              | Workforce\_Company Workforce\_Compensation Workforce\_Demographics Workforce\_Job Workforce\_Position                                                                                                                                                                                                                            |
-| Workforce\_CurrentPosition        | Pareigos dabartinę datą, viso etato ekvivalentas (FTE), laisvos darbo vietos ir laisvos / užimtos darbo vietos | Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                                                               |
-| Workforce\_CurrentWorker          | Darbuotojai dabartinę dieną, amžius ir darbuotojų skaičius                                                         | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Job Workforce\_Employment Workforce\_Position Workforce\_WorkerBenefit                                            |
-| Workforce\_Date                   | Dienos, savaitės, mėnesiai ir metai                                                                             | Workforce\_PastPositionAssignment Workforce\_PositionTrend Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                     |
-| Workforce\_Demographics           | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis                                                   | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Employment             | Pradžios data, pabaigos data ir perėjimo data                                                                  | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_GeographicLocation     | Miestas, seniūnija, pašto kodas ir šalis arba regionas                                                           | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Job                    | Funkcija, tipas ir pareigos                                                                                  | Workforce\_CurrentPosition Workforce\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Workforce\_JobPerferredSkill      |                                                                                                            |                                                                                                                                                                                                                                                                                                                                  |
-| Workforce\_PastPositionAssignment | Priskyrimo priežastis, pradžios data, pabaigos data ir užduotis                                                           | Workforce\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                     |
-| Workforce\_Performance            | Įvertinimas, aprašas ir įvertinimo modelis                                                                      | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_PersonSkill            | Lygis ir įgūdis                                                                                            | Workforce\_Skill                                                                                                                                                                                                                                                                                                                 |
-| Workforce\_PersonSkillAnalysis    | Patvirtinta, lygis ir įgūdis                                                                                | Workforce\_Skill Workforce\_WorkerName                                                                                                                                                                                                                                                                                           |
-| Workforce\_Position               | Padalinys, FTE, pareigos, pareigų tipas ir pareigos                                                        | Workforce\_CurrentPosition Workforce\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Workforce\_PositionTrend          | Pareigos per tam tikrą laikotarpį, FTE ir užduotis                                                                          | Workforce\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Position                                                                                                                                                                                                                                                     |
-| Workforce\_ReportsToWorkerName    | Vardas, pavardė ir vardas bei pavardė                                                                       | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_Skill                  | Įgūdis, įgūdžio tipas ir įvertinimas                                                                              | Workforce\_PersonSkill Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                                                                            |
-| Workforce\_TerminatedWorker       | Atleisti darbuotojai, atleidimo data, pareigos ir užduotis                                             | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_Position Workforce\_WorkerBenefit |
-| Workforce\_WorkerBenefit          | Galiojimo data, išmokos parinktis, išmokos planas ir išmokos tipas                                             | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workforce\_WorkerName             | Vardas, pavardė ir vardas bei pavardė                                                                       | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                        |
-| Workforce\_WorkerTitle            | Pareigos ir paaukštinimo data                                                                                   | Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Workorce\_WorkerTrend             | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_WorkerBenefit                     |
+| Objektas                   | Turinys                                                                            | Ryšiai su kitais objektais |
+|--------------------------|-------------------------------------------------------------------------------------|-----------------------------------|
+| Kalendoriaus poslinkis          | Kalendoriaus poslinkiai ataskaitoms skaidyti                                                   | Buvusių pareigų priskyrimas, pareigų tendencija, darbuotojo tendencija, atleistas darbuotojas |
+| Įmonė                  | Įmonės, pagal kurias filtruojamos ataskaitos                                                      | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Dabartinės pareigos         | Pareigos dabartinę datą, FTE, laisvos darbo vietos ir laisvos / užimtos darbo vietos | Darbas, pareigos |
+| Dabartinis darbuotojas         | Darbuotojai dabartinę dieną, amžius ir darbuotojų skaičius                                  | Įmonė, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), darbuotojo pareigos, demografiniai duomenys, užduotis, darbas, pareigos |
+| Data                     | Dienos, savaitės, mėnesiai ir metai                                                      | Buvusių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas, darbuotojo tendencija |
+| Demografiniai duomenys             | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis                            | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Užimtumas               | Pradžios data, pabaigos data ir perėjimo data                                           | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Geografinė vieta      | Miestas, seniūnija, pašto kodas ir šalis arba regionas                                    | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Darbas                      | Funkcija, tipas ir pareigos                                                           | Dabartinės pareigos, dabartinis darbuotojas |
+| Ankstesnis pareigų priskyrimas | Priskyrimo priežastis, pradžios data, pabaigos data ir užduotis                                    | Kalendoriaus poslinkis, data, darbas, pareigos |
+| Pozicija                 | Padalinys, FTE, pareigos, pareigų tipas ir pareigos                                 | Dabartinės pareigos, dabartinis darbuotojas |
+| Pareigų tendencija           | Pareigos per tam tikrą laikotarpį, FTE ir užduotis                                                   | Kalendoriaus poslinkis, data, darbas, pareigos |
+| Ataskaitos               | Vardas, pavardė ir vardas bei pavardė                                                | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Atleistas darbuotojas      | Atleisti darbuotojai, atleidimo data, pareigos ir užduotis                      | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, pareigos |
+| Darbuotojo vardas ir pavardė            | Vardas, pavardė ir vardas bei pavardė                                                | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                            | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
+| Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
+| Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinio pakete. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą CompensationandBenefits.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turinio paketui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
-
-
-
-
+Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir „Power BI‟ turinyje naudojamas ataskaitas. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą .pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas „Power BI‟ turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
 

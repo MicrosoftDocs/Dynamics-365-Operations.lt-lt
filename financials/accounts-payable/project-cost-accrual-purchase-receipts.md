@@ -1,15 +1,15 @@
 ---
 title: "Projekto išlaidų kaupimas pirkimo kvituose"
-description: "Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Operations“."
+description: "Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Operations“. 
+Šioje temoje aprašoma, kaip sukauptas projekto išlaidas iš pirkimo kvitų galima sekti naudojant „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimą. 
 
 Projekto SF dažnai gaunamos vėliau negu gaunamos prekės ir paslaugos, o tai gali turėti didelės įtakos pagrindiniams projekto efektyvumo indikatoriams (KPI). Svarbu turėti galimybę sekti šias finansinių ir projekto ataskaitų operacijas.
 
@@ -38,7 +38,7 @@ Tai pavaizduota toliau pateiktame scenarijaus pavyzdyje.
 
 „Contoso Consulting“ pradėjo naują debesies diegimo projektą. Sukuriamas pirkimo užsakymas pirkti kompiuterį projektui. Kompiuteris kainuos 1500 dol., o diegimo paslaugos kainuos 150 dol. Tiekėjas pristatė ir įdiegė kompiuterį, bet „Contoso Consulting“ sąskaitos faktūros dar negavo. Prieš pateikiant sąskaitą faktūrą projekto vadovas norėtų matyti sukauptas 1650 dol. vertės projekto išlaidas. Ši kaina taip pat turi būti nurodoma įmonės mėnesio pabaigos finansinėse ataskaitose. 
 
-Pateikiant ataskaitas sukauptos išlaidos turi būti įrašomos finansiniu lygmeniu ir projekto lygmeniu. Naudojant „Dynamics 365 for Operations“ gali būti sekamas prekės ir įsigijimo kategorijų produkto kvito finansinis naujinimas. 
+Pateikiant ataskaitas sukauptos išlaidos turi būti įrašomos finansiniu lygmeniu ir projekto lygmeniu. Naudojant „Finance and Operations“ gali būti sekamas prekės ir įsigijimo kategorijų produkto kvito finansinis naujinimas. 
 
 Jeigu sekate prekių naujinimą, puslapyje **Mokėtinos sumos parametrai** pasirinkite parinktį **Registruoti produkto kvitus didžiojoje knygoje**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Puslapyje **Įsigijimo kategorija** įsigijimo kategorijas galima susieti su pro
 
 **3 veiksmas:** Kurti tiekėjo SF juodraštį. 
 
-Jei naudojama programa „Dynamics 365 for Operations“, registruojant produkto kvitą projekto informacijai tai įtakos neturi. Kaip problemos apėjimo būdą tiekėjo sąskaitos faktūros juodraštį galite sukurti iš karto užregistravę pirkimo kvitą. Eikite į puslapį **Pirkimo užsakymas** &gt; **SF skirtukas** &gt; **Kurti** &gt; **Sąskaita faktūra**. Taip sukuriamas laukiančios SF dokumentas, kurį naudojant atnaujinama projekto informacija. 
+Jei naudojamas sprendimas „Finance and Operations“, registruojant produkto kvitą projekto informacija nepakeičiama. Kaip problemos apėjimo būdą tiekėjo sąskaitos faktūros juodraštį galite sukurti iš karto užregistravę pirkimo kvitą. Eikite į puslapį **Pirkimo užsakymas** &gt; **SF skirtukas** &gt; **Kurti** &gt; **Sąskaita faktūra**. Taip sukuriamas laukiančios SF dokumentas, kurį naudojant atnaujinama projekto informacija. 
 
 Sukūrus tiekėjo SF juodraštį sukuriamos laukiančios projekto operacijos. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

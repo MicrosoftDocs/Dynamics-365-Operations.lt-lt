@@ -3,13 +3,13 @@ title: "Darbo eigos kūrimas"
 description: "Šioje temoje paaiškinama, kaip sukurti darbo eigą."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Core
+ms.search.scope: Core, UnifiedOperations
 ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bf8f87fffa655b0e8566147af31c8fff02e045ad
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 <a name="open-the-workflow-editor"></a>Darbo eigos rengyklės atidarymas
 ------------------------
 
-„Microsoft Dynamics 365 for Operations“ modulis, kuriame dirbate, nustato galimus kurti darbo eigos tipus. Atlikite šiuos veiksmus, kad pasirinktumėte darbo eigos, kurią norite kurti, tipą ir atidarytumėte darbo eigos rengyklę.
+„Microsoft Dynamics 365 for Finance and Operations“ modulis, kuriame dirbate, nustato galimus kurti darbo eigos tipus. Atlikite šiuos veiksmus, kad pasirinktumėte darbo eigos, kurią norite kurti, tipą ir atidarytumėte darbo eigos rengyklę.
 
 1.  Atidarykite modulį, kuriame norite sukurti naują darbo eigą. Pavyzdžiui, jei norite sukurti pirkimo paraiškų darbo eigą, eikite į modulį, spustelėkite **Paraiškos**.
 2.  Spustelėkite **Sąranka** &gt; **\[Modulio pavadinimas\] darbo eigos**.

@@ -3,7 +3,7 @@ title: "Finansinio laikotarpio uždarymo darbo sritis"
 description: "Šiame straipsnyje pateikta Finansinio laikotarpio uždarymo darbo sritis ir susijusi konfigūracija."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ Atlikus užduotį būtina rankiniu būdu pasirinkti pasirinktį **Užduotis baig
 Sąrašo puslapyje **Visos finansinio laikotarpio uždarymo užduotys** galite peržiūrėti visas dabartinio ir ankstesnio laikotarpio uždarymo užduotis. Šį puslapį geriausia naudoti jūsų uždarymo proceso istorinei analizei, nes jame pateikiama informacija apie numatytą atlikimo terminą, faktinę baigimo datą ir užduotį atlikusį asmenį. Teikdami ataskaitas ir atlikdami patikrinimus šiame sąrašo puslapyje pateikiamą informaciją galite lengvai eksportuoti į „Microsoft Excel“.
 
 ## <a name="financial-period-close-configuration-page"></a>Finansinio laikotarpio uždarymo konfigūracijos puslapis
-Prieš naudodami darbo sritį **Finansinio laikotarpio uždarymas**, turite sukonfigūruoti „Microsoft Dynamics 365 for Operations“ procesą, naudodami puslapį **Finansinio laikotarpio uždarymo konfigūracija**. (Spustelėkite **Didžioji knyga** &gt; **Laikotarpio uždarymas** &gt; **Finansinio laikotarpio uždarymo konfigūracija.**)
+Prieš naudodami darbo sritį **Finansinio laikotarpio uždarymas**, turite sukonfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ procesą, naudodami puslapį **Finansinio laikotarpio uždarymo konfigūracija**. (Spustelėkite **Didžioji knyga** &gt; **Laikotarpio uždarymas** &gt; **Finansinio laikotarpio uždarymo konfigūracija.**)
 
 ### <a name="resources"></a>Ištekliai
 
@@ -90,7 +90,7 @@ Norėdami apibrėžti visas užduotis, kurios yra uždarymo proceso dalis, naudo
 
 Galite priskirti šablono užduotį vienai arba kelioms įmonėms, kuriose ta užduotis taikoma. Jei kiekvienos įmonės tai darbo pastangai atlikti priskiriamas kitas asmuo, gali būti naudinga sukurti kelias tos pačios darbo pastangos užduotis. Sukurkite po vieną užduotį kiekvienai įmonei. 
 
-Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Operations“ puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
+Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
 
 > [Patarimas] Jei norite susieti konkrečią „Management Reporter“ ataskaitą su finansinio laikotarpio uždarymo užduotimi, galite naudoti ataskaitos URL. Norėdami pasiekti ataskaitų URL, atidarykite ataskaitą naudodami ataskaitų dizaino įrankį, tada spustelėkite **Failas** &gt; **Peržiūrėti ataskaitą** ir atidarykite ataskaitą žiniatinklio naršyklėje. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 
 

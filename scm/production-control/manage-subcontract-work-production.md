@@ -1,16 +1,16 @@
 ---
 title: "Gamybos subrangos darbų valdymas"
-description: "Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas."
+description: "Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
+Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 
 [Gamybos procesuose](production-process-overview.md) darbą gali atlikti ištekliai, kurie priklauso arba kuriuos administruoja tiekėjai. Paprastai tiekėjo ištekliai naudojami norint patenkinti periodiškai išaugusį poreikį, kuris viršija įmonės išteklių pajėgumą. Tiekėjas taip pat gali pasiūlyti specialių [išteklių resursų](resource-capabilities.md) arba išteklių už mažesnę kainą.  
 
@@ -42,7 +42,7 @@ Kai naudojamos subrangos operacijos arba veiklos, jos turi įtakos visiems opera
 
 Naudojant vidinius išteklius, paprastai laikotarpiui priskiriamas fiksuotas kainos tarifas. Tačiau subrangos išteklių kaina priklauso nuo susijusios paslaugos pirkimo kainos. Paslauga apibrėžiama kaip dar vienas produktas ir ji naudojama tam tikros subrangos operacijos įsigijimo ir pirkimo procesams valdyti.  
 
-Šiuo metu programoje „Microsoft Dynamics 365 for Operations“ pusiau baigti produktai nėra aiškiai apibrėžti. Jei gamybos užsakymui įvykdyti reikalinga daugiau nei viena operacija, kad žaliavos būtų paverstos baigta preke, baigta prekė vėl registruojama atsargose tik atliekant paskutinę operaciją. Ankstesnių operacijų metu pagaminti pusiau baigti produktai nurodomi nebaigtoje gamyboje (NG), bet jie atsargose nėra registruojami arba sekami. Nors maršrutus ir KS galite skaidyti į daug mažesnių vienetų, taikant tokį metodą padidėja produktų, KS ir maršrutų, kuriuos reikia valdyti, skaičius.  
+Šiuo metu programoje „Microsoft Dynamics 365 for Finance and Operations“ pusiau baigti produktai nėra aiškiai apibrėžti. Jei gamybos užsakymui įvykdyti reikalinga daugiau nei viena operacija, kad žaliavos būtų paverstos baigta preke, baigta prekė vėl registruojama atsargose tik atliekant paskutinę operaciją. Ankstesnių operacijų metu pagaminti pusiau baigti produktai nurodomi nebaigtoje gamyboje (NG), bet jie atsargose nėra registruojami arba sekami. Nors maršrutus ir KS galite skaidyti į daug mažesnių vienetų, taikant tokį metodą padidėja produktų, KS ir maršrutų, kuriuos reikia valdyti, skaičius.  
 
 Gamybos operacijų subrangos darbą galima modeliuoti dviem būdais. Šie būdai vienas nuo kito skiriasi tuo, kaip subrangos procesą galima modeliuoti: kaip procese galima nurodyti pusiau baigtus produktus ir kaip galima valdyti išlaidas.
 

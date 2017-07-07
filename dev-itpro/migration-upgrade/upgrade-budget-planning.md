@@ -1,6 +1,6 @@
 ---
 title: "Biudžeto planavimo naujinimas"
-description: "Biudžeto planavimas „Microsoft Dynamics AX 2012“ „Microsoft Dynamics 365 for Operations“ žymiai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus."
+description: "Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Finance and Operations“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Biudžeto planavimas „Microsoft Dynamics AX 2012“ „Microsoft Dynamics 365 for Operations“ žymiai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.  
+Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Finance and Operations“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.  
 
-„Microsoft Dynamics 365 for Operations“ biudžeto planavime yra daug patobulinimų, kurių nebuvo „Microsoft Dynamics AX 2012“. Šioje temoje paaiškinami keitimai, kuriuos atnaujinantys klientai turi atlikti. Joje taip pat nurodomos naujos funkcijos, į kurias reikėtų atsižvelgti atnaujinimo proceso metu. Dėl pakeitimų masto nebus galima atidaryti jokių esamų biudžeto planų, kol nebus atlikti toliau šioje temoje aprašyti keitimai. Tačiau ataskaitos turėtų veikti neatlikus papildomų keitimų.
+„Microsoft Dynamics 365 for Finance and Operations“ modulyje Biudžeto planavimas yra daug patobulinimų, kurių nebuvo „Microsoft Dynamics AX 2012“. Šioje temoje paaiškinami keitimai, kuriuos atnaujinantys klientai turi atlikti. Joje taip pat nurodomos naujos funkcijos, į kurias reikėtų atsižvelgti atnaujinimo proceso metu. Dėl pakeitimų masto nebus galima atidaryti jokių esamų biudžeto planų, kol nebus atlikti toliau šioje temoje aprašyti keitimai. Tačiau ataskaitos turėtų veikti neatlikus papildomų keitimų.
 
 ## <a name="overview-of-changes"></a>Keitimų apžvalga
-Atlikta daug svarbių „Dynamics 365 for Operations“ biudžeto sudarymo funkcijos keitimų. Atlikus šiuos keitimus, biudžeto planavimo funkciją turėtų būti lengviau konfigūruoti ir naudoti pakartotinai, todėl kasmetinė priežiūra ir sąranka turėtų atimti mažiau laiko. Toliau nurodytų „AX 2012“ sričių „Dynamics 365 for Operations“ nebėra.
+Atlikta daug svarbių „Finance and Operations“ biudžeto sudarymo funkcijos keitimų. Atlikus šiuos keitimus, biudžeto planavimo funkciją turėtų būti lengviau konfigūruoti ir naudoti pakartotinai, todėl kasmetinė priežiūra ir sąranka turėtų atimti mažiau laiko. Toliau nurodytų „AX 2012“ sričių sprendime „Finance and Operations“ nebėra.
 
 -   Biudžeto plano šablonai (biudžeto planavimo konfigūracija)
 -   Biudžeto plano aplankai (biudžeto planavimo konfigūracija)
@@ -53,15 +53,15 @@ Stulpeliai yra nauja samprata, pakeičianti „Excel“" šablono ir matricos la
 
 ### <a name="layouts"></a>Maketai
 
-Maketai yra nauja samprata, pakeičianti „Excel“ šabloną. Maketuose yra stulpeliai, nurodantys, kuri biudžeto arba faktinių sumų data ir kuris laikotarpis turi būti rodomi. Taip pat maketus bendrai naudoja klientas ir „Excel“ papildinys. Todėl duomenų įvedimo arba peržiūros vartotojo patirtis „Dynamics 365 for Operations“ kliente yra geresnė nei vartotojo patirtis „AX 2012“. Norėdami įvesti duomenis į „Dynamics 365 for Operations“ klientą, operacijos rodinyje jūs galite peržiūrėti ir įvesti ne tik vieną scenarijų. Palyginimo rodinyje galite lengvai peržiūrėti ir įvesti kelių laikotarpių ir sąskaitų sumas tuo pačiu metu. Maketus taip pat galima nustatyti, todėl galite įvesti ir peržiūrėti valiutą, komentarus ir kitus papildomus duomenis. Maketai taip pat suteikia galimybę nurodyti, kurios DK dimensijos ir kurie dimensijų aprašymai turi būti rodomi. Maketai taip pat apima scenarijų apribojimus, kad būtų galima nustatyti, kuriuos stulpelius šablone galima redaguoti, o kuriuos stulpelius galima atidaryti programoje „Excel“. Nustačius maketą, sugeneruojamas jo šablonas. Tada šis šablonas sukuria atitinkamą „Excel“ šabloną. Tada galite redaguoti „Excel“ šabloną ir įtraukti daugiau formulių bei formatavimo elementų, o tada – įkelti jį dar kartą. Tada maketai priskiriami kiekvienai etapo taisyklei puslapyje **Biudžeto planavimo procesas**. Todėl maketai pakeičia šablonus, kurie buvo priskiriami ir naudojami panašiu būdu.
+Maketai yra nauja samprata, pakeičianti „Excel“ šabloną. Maketuose yra stulpeliai, nurodantys, kuri biudžeto arba faktinių sumų data ir kuris laikotarpis turi būti rodomi. Taip pat maketus bendrai naudoja klientas ir „Excel“ papildinys. Todėl duomenų įvedimo arba peržiūros vartotojo patirtis „Finance and Operations“ kliente yra geresnė nei vartotojo patirtis „AX 2012“. Norėdami įvesti duomenis į „Finance and Operations“ klientą, operacijos rodinyje jūs galite peržiūrėti ir įvesti ne tik vieną scenarijų. Palyginimo rodinyje galite lengvai peržiūrėti ir įvesti kelių laikotarpių ir sąskaitų sumas tuo pačiu metu. Maketus taip pat galima nustatyti, todėl galite įvesti ir peržiūrėti valiutą, komentarus ir kitus papildomus duomenis. Maketai taip pat suteikia galimybę nurodyti, kurios DK dimensijos ir kurie dimensijų aprašymai turi būti rodomi. Maketai taip pat apima scenarijų apribojimus, kad būtų galima nustatyti, kuriuos stulpelius šablone galima redaguoti, o kuriuos stulpelius galima atidaryti programoje „Excel“. Nustačius maketą, sugeneruojamas jo šablonas. Tada šis šablonas sukuria atitinkamą „Excel“ šabloną. Tada galite redaguoti „Excel“ šabloną ir įtraukti daugiau formulių bei formatavimo elementų, o tada – įkelti jį dar kartą. Tada maketai priskiriami kiekvienai etapo taisyklei puslapyje **Biudžeto planavimo procesas**. Todėl maketai pakeičia šablonus, kurie buvo priskiriami ir naudojami panašiu būdu.
 
 ### <a name="budget-planning-processes"></a>Biudžeto planavimo procesai
 
-Biudžeto planavimo procesai yra daugiau ar mažiau tokie patys kaip „AX 2012“. Didžiausias skirtumas yra šablonų pakeitimas maketais. Jei yra procesų, kurie anksčiau buvo baigti „AX 2012“, procesų būsena atnaujinama kaip vykdoma, kad būtų galima atlikti keitimus. Turite priskirti maketus, kurių reikės kiekvienai etapo taisyklei, kad būtų galima nustatyti, kurie scenarijai ir laikotarpiai rodomi, kai kliente atidaromas planas. Maketai taip pat nustato, kuris „Excel“ šablonas atidaromas ne programoje „Dynamics 365 for Operations“, kad galėtumėte peržiūrėti biudžetą. **Numatytoji sąskaitos struktūra** yra naujas būtinas biudžeto planavimo proceso laukas. Kiekvienam biudžeto planavimo procesui priskirkite pagrindinę sąskaitos struktūrą, kuri turi būti naudojama sudarant biudžetą.
+Biudžeto planavimo procesai yra daugiau ar mažiau tokie patys kaip „AX 2012“. Didžiausias skirtumas yra šablonų pakeitimas maketais. Jei yra procesų, kurie anksčiau buvo baigti „AX 2012“, procesų būsena atnaujinama kaip vykdoma, kad būtų galima atlikti keitimus. Turite priskirti maketus, kurių reikės kiekvienai etapo taisyklei, kad būtų galima nustatyti, kurie scenarijai ir laikotarpiai rodomi, kai kliente atidaromas planas. Maketai taip pat nustato, kuris „Excel“ šablonas atidaromas ne sprendime „Dynamics 365 for Finance and Operations“, kad galėtumėte peržiūrėti biudžetą. **Numatytoji sąskaitos struktūra** yra naujas būtinas biudžeto planavimo proceso laukas. Kiekvienam biudžeto planavimo procesui priskirkite pagrindinę sąskaitos struktūrą, kuri turi būti naudojama sudarant biudžetą.
 
 ### <a name="attachments"></a>Priedai
 
-„AX 2012“ pagrindimo dokumentai buvo įrašomi priedų aplanke. Ankstesni pagrindimo dokumentai nėra naujinami. Dabar pagrindimo dokumentai saugomi duomenų bazėje. Jei ši informacija išsaugoma atnaujintoje versijoje, kiekvieno plano galutinio pagrindimo dokumentus galite įkelti naudodami veiksmų srities mygtuką **Pagrindimas**. „AX 2012“ kiekvieno biudžeto plano „Excel“ darbalapiai buvo kuriami pagal šabloną. „Dynamic 365 for Operations“ kuriant visus planus atidaroma maketo kopija. Tačiau neįrašomi jokie „Excel“ failo keitimai. Tam tikrame plane naudotas formules arba palaikymo informaciją reikia įtraukti per komentarus, pagrindimo dokumentą arba kitą papildomą procesą.
+„AX 2012“ pagrindimo dokumentai buvo įrašomi priedų aplanke. Ankstesni pagrindimo dokumentai nėra naujinami. Dabar pagrindimo dokumentai saugomi duomenų bazėje. Jei ši informacija išsaugoma atnaujintoje versijoje, kiekvieno plano galutinio pagrindimo dokumentus galite įkelti naudodami veiksmų srities mygtuką **Pagrindimas**. „AX 2012“ kiekvieno biudžeto plano „Excel“ darbalapiai buvo kuriami pagal šabloną. Sprendime „Finance and Operations“ kuriant visus planus atidaroma maketo kopija. Tačiau neįrašomi jokie „Excel“ failo keitimai. Tam tikrame plane naudotas formules arba palaikymo informaciją reikia įtraukti per komentarus, pagrindimo dokumentą arba kitą papildomą procesą.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Atnaujintos aplinkos konfigūravimas naudojant „AX 2012“
 Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesniame pavyzdyje naudojamas atnaujintas biudžeto procesas iš „AX 2012“ demonstracinių duomenų. Numatytieji stulpelių konfigūracijos duomenys sukurti tam, kad palengvintų atnaujinimo procesą. Galite atnaujinti arba naikinti šiuos numatytuosius duomenis, jei jie neatitinka jūsų konfigūracijos reikalavimų. **Pastaba:** yra naujų privalomų laukų, kurie sistemoje nustatyti nebus. Jei turite problemų puslapyje, pavyzdžiui, puslapyje **Biudžeto planavimo konfigūracija**, ir negalite puslapio uždaryti, galite uždaryti naršyklę ir tada naršyklėje atidaryti kitą puslapį, kad įvestumėte informaciją teisinga tvarka. Yra privalomų laukų, kurie dar nėra nustatyti. Dėl to gali kilti problemų, kol viskas nebus sukonfigūruota ir nebus nustatyti visi būtini laukai. Šioje temoje paaiškinama, kaip tinkamai nustatyti šiuos laukus. Toliau pateikiami keletas šių privalomų laukų.
@@ -75,7 +75,7 @@ Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesni
     -   Biudžeto plano scenarijai: Faktinės sumos, Bazinė suma, Biudžeto užklausa, Patvirtintas biudžetas
     -   Biudžeto plano eilutes visiems scenarijams 2017 m., o faktinės sumos – 2017 m. ir 2016 m.
 
-    „Dynamics 365 for Operations“ bus sukurti toliau nurodyti stulpeliai.
+    Sprendime „Finance and Operations“ bus sukurti toliau nurodyti stulpeliai.
     | Stulpelio pavadinimas    | Biudžeto plano scenarijus | Stulpelio laikotarpis | Metų poslinkis |
     |----------------|----------------------|--------------------|-------------|
     | Sausio mėn. 1 scenarijus | Faktinės reikšmės              | 1                  | 0           |
@@ -128,7 +128,7 @@ Toliau nurodytos parinktys įtrauktos kaip periodiniai procesai. Šios parinktys
 
 ### <a name="more-complete-tracking-of-amounts"></a>Išsamesnis sumų sekimas
 
-„AX 2012“ planuojant biudžetą buvo saugoma viena kiekvienos vertės biudžeto plano suma. „Dynamics 365 for Operations“ duomenų modelis buvo išplėstas. Dabar kiekviena vertė pateikiama apskaitos valiuta, operacijos valiuta ir ataskaitų valiuta. Atnaujinimo metu šie nauji stulpeliai užpildomi automatiškai pagal esamus duomenis.
+„AX 2012“ planuojant biudžetą buvo saugoma viena kiekvienos vertės biudžeto plano suma. Buvo išplėstas „Finance and Operations“ duomenų modelis. Dabar kiekviena vertė pateikiama apskaitos valiuta, operacijos valiuta ir ataskaitų valiuta. Atnaujinimo metu šie nauji stulpeliai užpildomi automatiškai pagal esamus duomenis.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Nekonvertuoti valiutos, kai naudojama telkimo funkcija
 

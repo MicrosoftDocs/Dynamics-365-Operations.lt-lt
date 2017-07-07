@@ -3,13 +3,13 @@ title: "Kaštų apskaitos pagrindinis puslapis"
 description: "Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti kaštų apskaitai, sąrašas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Naudojant modulį Kaštų apskaita galima atlikti tolesnius veiksmus.
 
 ## <a name="get-started"></a>Darbo pradžia
 
-Kaštų apskaitos praktiniai laboratoriniai darbai pateikia pagrindinius „Microsoft Dynamics 365 for Operations“ kaštų apskaitos konfigūravimo veiksmus, kad būtų galima atlikti faktinių išlaidų analizę. Jie taip pat pateikia procedūrų, kurias galima atlikti rodoma tvarka, sąrašą.
+Kaštų apskaitos praktiniai laboratoriniai darbai pateikia pagrindinius „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) kaštų apskaitos konfigūravimo veiksmus, kad būtų galima atlikti faktinių išlaidų analizę. Jie taip pat pateikia procedūrų, kurias galima atlikti rodoma tvarka, sąrašą.
 
 -   [Darbo su kaštų apskaita pradžia](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (šiai dokumentacijai peržiūrėti reikalinga „CustomerSource“ paskyra)
 
@@ -69,10 +69,10 @@ Naudodami savikainos kontrolės mobiliąją darbo sritį, išlaidų centrų vado
 -   [Savikainos kontrolės darbo sritis](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
-Kaštų apskaitos analizės „Microsoft Power BI“ turinys skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš „Microsoft Dynamics 365 for Operations“ išlaidų apskaitos ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus.
+Kaštų apskaitos analizės „Microsoft Power BI“ turinys skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš „Finance and Operations” turinio Išlaidų apskaita ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus.
 
--   [Kaštų apskaitos analizės „Power BI“ turinys](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Kaštų apskaitos analizės „Power BI“ turinio saugos nustatymas](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Kaštų apskaitos analizės „Power BI“ turinys](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Kaštų apskaitos analizės „Power BI“ turinio saugos nustatymas](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

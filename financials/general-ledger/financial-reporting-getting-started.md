@@ -1,16 +1,16 @@
 ---
 title: "Finansinės ataskaitos"
-description: "Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 for Operations“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą."
+description: "Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 for Operations“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
+Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 
 <a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
 -----------------------------
 
-Meniu **Finansinės ataskaitos** galite rasti tolesnėse „Dynamics 365 for Operations‟ vietose.
+Meniu **Finansinės ataskaitos** galite rasti tolesnėse „Finance and Operations‟ vietose.
 
 -   **Didžioji knyga** &gt; **Užklausos ir ataskaitos**
 -   **Biudžeto sudarymas** &gt; **Užklausos ir ataskaitos** &gt; **Pagrindinio biudžeto sudarymas**
@@ -83,7 +83,7 @@ Finansinių ataskaitų funkcijomis gali naudotis naudotojai, kuriems, naudojant 
 Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas turėtų galėti pasiekti po kelių minučių. **Pastaba.** Sistemos administratoriaus vaidmuo finansinėse ataskaitose įtrauktas į visus vaidmenis.
 
 ## <a name="default-reports"></a>Numatytosios ataskaitos
-Finansinių ataskaitų modulyje pateikiamos 22 numatytosios finansinės ataskaitos. Kiekvienoje ataskaitoje naudojamos numatytosios „Dynamics 365 for Operations‟ pagrindinių sąskaitų kategorijos. Šias ataskaitas galite naudoti tokias, kokios jo yra, arba kaip pradinį tašką savo finansinių ataskaitų poreikiams tenkinti. Be tradicinių finansinių ataskaitų, pvz., Pajamų išrašo ir Balanso, tarp šių numatytųjų ataskaitų yra ataskaitų, kuriose rodomi galimi kurti skirtingi finansinių ataskaitų tipai. Kiekviena tolesnėje lentelėje pateikta ataskaita nurodo „Office Mix“ pateiktį apie ataskaitą.
+Finansinių ataskaitų modulyje pateikiamos 22 numatytosios finansinės ataskaitos. Kiekvienoje ataskaitoje naudojamos numatytosios „Finance and Operations‟ pagrindinių sąskaitų kategorijos. Šias ataskaitas galite naudoti tokias, kokios jo yra, arba kaip pradinį tašką savo finansinių ataskaitų poreikiams tenkinti. Be tradicinių finansinių ataskaitų, pvz., Pajamų išrašo ir Balanso, tarp šių numatytųjų ataskaitų yra ataskaitų, kuriose rodomi galimi kurti skirtingi finansinių ataskaitų tipai. Kiekviena tolesnėje lentelėje pateikta ataskaita nurodo „Office Mix“ pateiktį apie ataskaitą.
 
 | Numatytoji ataskaita                                                                                         | aprašymas                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Finansinių ataskaitų modulyje pateikiamos 22 numatytosios finansinės ataskait
 Kai spustelite **Finansinių ataskaitų** meniu, rodomas įmonės numatytųjų finansinių ataskaitų sąrašas. Tada galite ataskaitą atidaryti arba modifikuoti. Norėdami atidaryti vieną iš numatytųjų ataskaitų, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarant ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2016 m. rugpjūtį, ataskaita generuojama 2016 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finansinių ataskaitų kūrimas ir modifikavimas
-Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei turite reikiamas teises, naują finansinę ataskaitą galite sukurti veiksmų srityje spustelėdami **Nauja**. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše pateikiamos tik tos įmonės, kurią naudojate programoje „Dynamics 365 for Operations‟, sukurtos ataskaitos. Daugiau informacijos apie finansinių ataskaitų kūrimo ir keitimo procesą programoje „Dynamics 365 for Operations“ žr. šiuose „Dynamics“ finansinių ataskaitų [tinklaraščio įrašuose](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Pastaba.** Kompiuteryje, į kurį atsisiunčiate ataskaitų dizaino įrankio klientą, turi būti įdiegta 4.6.2 „Microsoft .NET Framework“ versija. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius [čia](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų dizaino įrankį. Jei naršyklė veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Ataskaitą, kuri atsiranda finansinių ataskaitų sąraše, taip pat galite modifikuoti. Kai pasirinkta sritis aplink ataskaitos pavadinimą, veiksmų srityje spustelėkite **Redaguoti**. Paleidžiama ataskaitų dizaino įrankio programa.
+Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei turite reikiamas teises, naują finansinę ataskaitą galite sukurti veiksmų srityje spustelėdami **Nauja**. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše pateikiamos tik tos įmonės, kurią naudojate programoje „Finance and Operations‟, sukurtos ataskaitos. Daugiau informacijos apie finansinių ataskaitų kūrimo ir keitimo procesą programoje „Finance and Operations“ žr. šiuose „Dynamics“ finansinių ataskaitų [tinklaraščio įrašuose](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Pastaba.** Kompiuteryje, į kurį atsisiunčiate ataskaitų dizaino įrankio klientą, turi būti įdiegta 4.6.2 „Microsoft .NET Framework“ versija. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius [čia](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų dizaino įrankį. Jei naršyklė veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Ataskaitą, kuri atsiranda finansinių ataskaitų sąraše, taip pat galite modifikuoti. Kai pasirinkta sritis aplink ataskaitos pavadinimą, veiksmų srityje spustelėkite **Redaguoti**. Paleidžiama ataskaitų dizaino įrankio programa.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

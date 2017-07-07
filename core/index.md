@@ -114,7 +114,7 @@ ms.lasthandoff: 06/28/2017
 <p><a href="../retail/call-center-functionality">Skambučių centras</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanalų sąranka ir valdymas</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS ir „Cloud POS‟</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Mažmeninės prekybos programavimas ir administravimas</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">„Retail“ programavimas ir administravimas</p>
 
 </td>
 </tr>

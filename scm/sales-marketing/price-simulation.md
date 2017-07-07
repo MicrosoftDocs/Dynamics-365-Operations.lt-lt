@@ -3,7 +3,7 @@ title: Kainos modeliavimas
 description: "Šiame straipsnyje pateikta informacija apie pasiūlymų kainos modeliavimą. Kainų modeliavimas padeda įvertinti lengvatų poveikį būsimoms pardavimo kainoms pasiūlymo proceso metu prieš pritaikant tam tikrą kainą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Siekdami garantuoti, kad nuolaidos ir kainos būtų apskaičiuotos teisingai, vy
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Prekybos sutartyse esančių nuolaidų tipai
 
-„Microsoft Dynamics 365 for Operations‟ prekybos sutartyse gali būti keturių tipų kainų nuolaidos. Šios nuolaidos gali būti nustatytos skirtingoms prekėms, klientams ar prekių grupėms ir jos gali būti apribotos data. Siekiant išvengti skaičiavimo klaidų, vykdant kainų modeliavimą reikia atsižvelgti į prekybos sutartis. Toliau pateikti keturi prekybos sutartyse esančių nuolaidų tipai.
+„Microsoft Dynamics 365 for Finance and Operations‟ prekybos sutartyse gali būti keturių tipų kainų nuolaidos. Šios nuolaidos gali būti nustatytos skirtingoms prekėms, klientams ar prekių grupėms ir jos gali būti apribotos data. Siekiant išvengti skaičiavimo klaidų, vykdant kainų modeliavimą reikia atsižvelgti į prekybos sutartis. Toliau pateikti keturi prekybos sutartyse esančių nuolaidų tipai.
 
 -   **Pardavimo kaina**– gali būti nurodytos kelios prekių pardavimo kainos. Kai sukuriamos pasiūlymo eilutės, programa ieško teisingos prekės pardavimo kainos ir ją perkelia į pasiūlymo eilutes. Todėl prekybos sutartis, kurioje yra tokia nuolaida, neturi įtakos kainų modeliavimui. Pardavimo kaina, kuri naudojama pasiūlymo eilutėje, atspindi prekybos sutartį.
 -   **Eilutės nuolaida** – pagal užsakytą kiekį nurodomos specialios prekių nuolaidos. Prieš vykdant kainų modeliavimą, eilučių sumos paprastai sumažinamos pagal eilutės nuolaidą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.

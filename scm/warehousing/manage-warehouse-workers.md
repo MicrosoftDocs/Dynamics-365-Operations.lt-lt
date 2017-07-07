@@ -1,16 +1,16 @@
 ---
 title: "Sandėlio darbuotojų valdymas"
-description: "Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics AX“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai."
+description: "Šiame straipsnyje aprašoma, kaip „Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics AX“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
+Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 
 Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijos yra vadinamos *darbu*. Darbas, pvz., paėmimas, perkėlimas ir turimų atsargų skaičiavimas, yra registruojamas naudojant mobiliuosius įrenginius. Prieš atlikdamas darbą sandėlio darbuotojas turi būti susietas su personalo darbuotoju. Su kiekviena sąskaita **Darbuotojas** gali būti susieti keli sandėlio darbo vartotojai. Tie darbo vartotojai gali dirbti skirtinguose sandėliuose ir gali turėti skirtingų lygių prieigą prie įvairių mobilių įrenginių meniu. Sandėlio darbo vartotojai gali būti laikomi keliais pasirinkto darbuotojo užsiregistravimais. Kiekvienas darbo vartotojas turi numatytąjį sandėlį ir jam taikomos konkrečios darbo eigos, atsižvelgiant į tam darbo vartotojui pasiekiamus meniu elementus. 
 

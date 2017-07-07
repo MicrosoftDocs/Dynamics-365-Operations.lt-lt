@@ -3,15 +3,15 @@ title: "Serijinių numerių registravimas pardavimo procese"
 description: "Šiame straipsnyje paaiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje paaiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo.
 
-Daug įmonių tiesiog nori užfiksuoti serijinius numerius paslaugų ir garantijos tikslais, ir nenori turėti serijinių numerių atsargose nuo gavimo iki išdavimo. Šiuose scenarijuose „Microsoft Dynamics 365 for Operations“ leidžia užregistruoti serijinius numerius ant pakuotės lapelių ar sąskaitų faktūrų, kai produktai parduodami. Jei produktai yra vėliau grąžinami, galite atsekti kiekvieną produktą sąskaitoje faktūroje ir nustatyti, ar pardavėte produktą ar paslaugą ir ar galioja garantiniai įsipareigojimai.
+Daug įmonių tiesiog nori užfiksuoti serijinius numerius paslaugų ir garantijos tikslais, ir nenori turėti serijinių numerių atsargose nuo gavimo iki išdavimo. Šiose situacijose „Microsoft Dynamics 365 for Finance and Operations“ važtaraščių ar sąskaitų faktūrų serijos numerius leidžia registruoti produktus parduodant. Jei produktai yra vėliau grąžinami, galite atsekti kiekvieną produktą sąskaitoje faktūroje ir nustatyti, ar pardavėte produktą ar paslaugą ir ar galioja garantiniai įsipareigojimai.
 Ar yra kokių nors būtinųjų sąlygų?
 ----------------------------
 
-Pardavimo procesui turite įjungti serijinius numerius, pasirinkdami **Aktyvus pardavimų procese** parinktį iš **Sekimo dimensijos grupių** puslapio. Tada „Microsoft Dynamics 365 for Operations“ įvyksta šie įvykiai.
+Pardavimo procesui turite įjungti serijinius numerius, pasirinkdami **Aktyvus pardavimų procese** parinktį iš **Sekimo dimensijos grupių** puslapio. Tada sprendime „Microsoft Dynamics 365 for Finance and Operations“ įvyksta tolesni įvykiai.
 -   Iš **Serijos numerių** „FastTab“ pasirenkama **Serijos numerių kontrolė** parinktis. Pažymėję šią parinktį, turite užregistruoti vieną serijinį numerį kiekvienai prekei ant važtaraščio arba sąskaitos faktūros.
 -   Visi serijinių numerių pasirinkimai sekimo dimensijų grupėje anuliuojami, išskyrus **Galimas tuščias išdavimas** parinktį. Galite pasirinkti **Galimas tuščias išdavimas** parinktį, norėdami nepaisyti serijos numerių kontrolės, ir leisti supakuoti prekes ir išrašyti sąskaitą neužregistravę serijos numerių.
 
