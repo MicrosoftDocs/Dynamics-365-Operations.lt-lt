@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Svertinio vidurkio data
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Svertinio vidurkio diena yra atsargų modelis, kuris remiasi svertinio vidurkio principu. Svertinio vidurkio principo taikymui atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę. Kai vykdote atsargų uždarymą, naudodami svertinio vidurkio dieną, visi dienos gavimai sudengiami prieš virtualų išdavimą. Šis virtualus išdavimas turi bendrą gautą kiekį ir vertę tą dieną. Virtualus išdavimas turi atitinkamą virtualų gavimą, pagal kurį bus sudengti išdavimai. Todėl visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir virtualus gavimas gali būti suprantamas kaip virtualus perkėlimas, vadinamasis *svertinio vidurkio atsargų uždarymo perkėlimas*. 

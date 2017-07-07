@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -52,17 +51,22 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 
 ### <a name="communication-and-alerts"></a>Ryšys ir įspėjimai
 -   [Reglamentuota priežiūra ir reglamentuotas atnaujinimo ryšys](regulatory-watch-communication.md)
--   [Įspėkite „Microsoft‟ apie šalių / regionų taisykles ir sekite reguliavimo priemonių būseną](submit-localization-alerts.md)
+-   [Praneškite „Microsoft‟ apie šalies/ regiono taisyklių įspėjimus ir sekite reguliavimo priemonių būseną](submit-localization-alerts.md)
+
+### <a name="dynamics-365-roadmap"></a>„Dynamics 365“ planas
+[„Dynamics 365” plane](https://roadmap.dynamics.com/) pateikiama mūsų vykdomų darbų momentinė kopija. Naudokitės šiuo planu norėdami sužinoti, kas jau yra visuotinai pasiekiama ir kas dar tik kuriama. Visos sukūrimo datos ir kuriamos funkcijos yra preliminarios ir pagrįstos dabartiniais lūkesčiais, todėl gali būti pakeistos neperspėjus.
 
 ## <a name="electronic-reporting"></a>Elektroninės ataskaitos
-Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių / regionų reikalavimus konfigūruoti elektroninių dokumentų formatus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
+Elektroninių ataskaitų (ER) įrankiu galite konfigūruoti elektroninių dokumentų formatus pagal teisinius įvairių šalių / regionų reikalavimus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
 -   [Elektroninių ataskaitų apžvalga](../analytics/general-electronic-reporting.md)
 -   [Elektroninių ataskaitų konfigūracijų ciklo valdymas](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Elektroninių ataskaitų konfigūracijos kūrimas](../analytics/electronic-reporting-configuration.md)
 -   [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektroninių ataskaitų paskirties vietos](../analytics/electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI‟](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroninių dokumentų generavimas ir programų duomenų naujinimas naudojant elektroninių ataskaitų įrankį](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Užduočių vedliai
 Užduočių vedlius galima pasiekti produkto žinyno srityje – jie supažindina su svarbiausiais verslo procesais. Užduočių vedlį galite atidaryti ir perskaityti verslo proceso veiksmus, arba jį galite paleisti ir susipažinti su verslo procesu bei įvesti duomenis.
@@ -83,9 +87,10 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 
 ### <a name="austria"></a>Austrija
 
--   [Pusės metų nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Pakavimo medžiagų mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [PVM išrašas](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Pusės metų nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Pakavimo medžiagų mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Pirkimo muito mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [PVM išrašas](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belgija
 
@@ -130,7 +135,6 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas Čekijoje](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Nusidėvėjimo sustabdymo laikotarpis](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Ilgalaikio turto nusidėvėjimo metodai Čekijoje](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [Ilgalaikio turto išankstinio įsigijimo registravimas](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [PVM išrašas Čekijoje](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [PVM atskaitomybė ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Ilgalaikio turto likvidavimas](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Europa
--   [Avanso turėtojai](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [Įvežimo į ES sertifikatai](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [ES pardavimo sąrašo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Valiutų kursų koregavimai](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Mokėjimo metodų failų formatai](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Sąskaitų faktūrų ir važtaraščių numeravimas Latvijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Sąskaitų faktūrų išdavimo terminai](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL standartai](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Mokėjimo kvito ataskaita](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Smulkios išlaidos](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [Ilgalaikio turto išankstinio įsigijimo registravimas](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Pašto indeksai](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Registracijos ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [SEPA kredito pervedimų apžvalga](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [SEPA tiesioginio debeto apžvalga](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Spausdinimo formų pasirašančiųjų nustatymas](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Išskaidyti laikotarpiai periodiniuose žurnaluose](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Sumų rodymo ataskaitose ir dokumentuose naujinimas](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [PVM valiutų kursai](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [PVM ataskaitos Europoje](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Sudengimo operacijų peržiūra](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Avanso turėtojai](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Avanso turėtojo operacijos](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Išankstinių sąskaitų faktūrų išrašymas](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Banko derinimas](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Koreguojamosios sąskaitos faktūros](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Periodinių žurnalų kūrimas ir registravimas](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [Įvežimo į ES sertifikatai](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [ES pardavimo sąrašo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Valiutų kursų koregavimai](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Mokėjimo metodų failų formatai](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Atsargų žurnalo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Sąskaitų faktūrų ir važtaraščių numeravimas Latvijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Sąskaitų faktūrų išdavimo terminai](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL standartai](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Mokėjimo kvito ataskaita](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Smulkios išlaidos](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [Ilgalaikio turto išankstinio įsigijimo registravimas](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Pašto indeksai](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Registracijos ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Atvirkštiniai mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [SEPA kredito pervedimų apžvalga](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [SEPA tiesioginio debeto apžvalga](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Kliento ir tiekėjo kompensacijų nustatymas](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Spausdinimo formų pasirašančiųjų nustatymas](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Mokesčių direktyvos](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Sumų rodymo ataskaitose ir dokumentuose naujinimas](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [PVM valiutų kursai](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [PVM registro operacijos (Rytų Europa)](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [PVM ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Sudengimo operacijų peržiūra](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Prancūzija
 -   [Chronologiniai sąskaitų faktūrų ir kvitų numeriai](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 #### <a name="public-sector"></a>Viešasis sektorius
    -   [Įsipareigojimai viešajame sektoriuje](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [„Mandats de paiement“ viešajame sektoriuje](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [Paraiškos](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [Viešojo sektoriaus apskaita](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [„Titres de recette‟](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Tiekėjo SF mokėjimų sulaikymas](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Važtaraščių datos tikrinimas sąskaitose faktūrose (Italija)](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Italijos PVM knygos](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Išskaitomas mokestis](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Išskaitomas mokestis](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Japonija
 
--   [Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Konsoliduotosios SF](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Ilgalaikis turtas
-   -  [Ilgalaikio turto paskirstymo taisyklės](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Tolygiai padalyto nusidėvėjimo metodas](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Ilgalaikio turto nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Ilgalaikio turto pablogėjimo valdymas grynuosius pinigus generuojančiame vienete](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Ilgalaikio turto grąžinimo įsipareigojimo nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Ilgalaikio turto mažinimo įrašų nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Išskaitomo mokesčio skaičiavimas palaipsniui](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Konsoliduotosios SF](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Ilgalaikio turto paskirstymo taisyklės](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Tolygiai padalyto nusidėvėjimo metodas](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Ilgalaikio turto nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Ilgalaikio turto pablogėjimo valdymas grynuosius pinigus generuojančiame vienete](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Pašto indeksų importavimas](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Ilgalaikio turto grąžinimo įsipareigojimo nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Ilgalaikio turto mažinimo įrašų nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Išskaitomo mokesčio skaičiavimas palaipsniui](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Latvija
 
@@ -254,6 +267,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 ### <a name="norway"></a>Norvegija
 
 -   [„Nets‟ importavimo formatas](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [PVM išrašas](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Lenkija
 
@@ -291,6 +305,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 ### <a name="sweden"></a>Švedija
 
 -   [Švedijos mokėjimų importavimo formatai](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Kasos aparatai (Švedija)](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>Šveicarija
 

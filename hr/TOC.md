@@ -3,23 +3,38 @@
 ## [Darbo pradžia](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [„Microsoft FastTrack for Dynamics 365‟](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Registravimasis prenumeratai gauti](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Kaip gauti vietinę „Dynamics AX 2012‟ versiją](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Kaip gauti vietinę „Finance and Operations‟ versiją](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Informacija klientams, įsigijusiems „Finance and Operations“ per debesies paslaugų teikėją](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Visuotinis demonstracinės aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Kas nauja ar pasikeitė](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Nebenaudojamos funkcijos](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Dar neįdiegtos AX 2012 funkcijos](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Finance and Operations‟ „Enterprise‟ leidimo 2017 m. liepos mėn. naujinimas](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [8-asis platformos naujinimas (2017 m. birželis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [7-asis platformos naujinimas (2017 m. gegužė)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [6-asis platformos naujinimas (2017 m. balandis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [5-asis platformos naujinimas (2017 m. kovas)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [4-asis platformos naujinimas (2017 m. vasaris)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Operations‟ 1611 versija (2016 m. lapkritis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [3-asis platformos naujinimas (2016 m. lapkritis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [2-asis platformos naujinimas (2016 m. rugpjūtis)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### [„Dynamics AX“ 7.0.1 versija (2016 m. gegužė)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [1-asis platformos naujinimas (2016 m. gegužė)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Dynamics AX 7.0‟ (2016 m. vasaris)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Nebenaudojamos funkcijos](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Dar neįdiegtos AX 2012 funkcijos](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Naudojimo ciklo strategija](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Vartotojo sąsajos naršymas
+#### [Kliento UI DUK](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Veiksmų ieška](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Išplėstinio filtravimo ir užklausų sintaksė](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Klientų DUK apie „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimą](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Darbo sričių konfigūravimas ir filtravimas](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Vieno šalia kito puslapių rodymas naudojant piktogramą Atidaryti naujame lange](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Naršymo ieška](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Vartotojo patirties personalizavimas](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Spartieji klavišai](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Puslapių rodymo valdymas](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Naršymo ieška](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Vartotojo patirties personalizavimas](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Peržvalgų naudojimas informacijai surasti](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Susipažinkite su „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Gaukite pagalbos
@@ -28,62 +43,66 @@
 #### [Laukų aprašų peržiūra ir eksportas](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Užduočių vadovai ir užduočių įrašymo priemonė
 ##### [Užduočių įrašymo priemonė](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Dokumentų ar mokymo kūrimas](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Konkrečių šalių / regionų žinyno turinys](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Dokumentų ar mokymo kūrimas](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [2016 m. lapkričio mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [2016 m. rugpjūčio mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [2016 m. gegužės mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [2016 m. vasario mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Lokalizavimo ir reguliavimo priemonės](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Aiškinamasis terminų žodynas](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## Atitiktis
-### [Audito strategijų taisyklės](/dynamics365/unified-operations/financials/general-ledger/audit-policy-rules?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Audito strategijų pažeidimai ir atvejai](/dynamics365/unified-operations/financials/general-ledger/audit-policy-violations-cases?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Audito strategijos taisyklės](/dynamics365/unified-operations/financials/general-ledger/audit-policy-rules?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Audito strategijos pažeidimai ir atvejai](/dynamics365/unified-operations/financials/general-ledger/audit-policy-violations-cases?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## Kaštų valdymas
 ### „Power BI“ turinio paketas
-#### [Kaštų valdymo turinio paketas](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kaštų valdymo turinio paketas](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Iš anksto nustatyta savikaina
-#### [Įkainojimo lapas](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Įkainojimo versija](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Kainų pakeitimų modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Įkainojimo lapas](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Įkainojimo versija](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Kainų pakeitimų modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Atsargų įkainojimas
-#### [Turimų atsargų išlaidų vertės koregavimas](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Išlaidų objektas](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Savikainos įrašas](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Išlaidų grupė](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [FIFO su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Faktinės vertės įtraukimas](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Atsargų objekto vertė](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Atsargų uždarymas](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [LIFO data su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [LIFO su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Slankusis vidurkis](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Faktinis ir finansinis naujinimas](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Vidutinės savikainos paleidimas](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Veikiančios vidutinės prekės atsargų dimensijos sekimas](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Svertinio vidurkio data](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Svertinis vidurkis su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Turimų atsargų išlaidų vertės koregavimas](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Išlaidų objektas](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Savikainos įrašas](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Išlaidų grupė](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [FIFO su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Faktinės vertės įtraukimas](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Atsargų objekto vertė](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Atsargų uždarymas](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [LIFO data su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [LIFO su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Slankusis vidurkis](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Faktinis ir finansinis naujinimas](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Vidutinės savikainos paleidimas](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Veikiančios vidutinės prekės atsargų dimensijos sekimas](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Svertinio vidurkio data](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Svertinis vidurkis su faktine verte ir žymėjimu](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Gamybos įkainojimas
-#### [Pastovių pagamintos prekės išlaidų amortizavimas](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Įkainojimas atvirkštine tvarka](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [KS skaičiavimai](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [KS skaičiavimo grupė](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Bendrieji gamybos nuokrypio šaltiniai](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Išlaidų kategorija, naudojama gamybos kelvadoje](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojama išlaidų kategorija](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Pagamintos prekės išlaidų rodymas](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Gamybos užsakymų kaštų analizė](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Gamybos užsakymų savikainos įvertinimas](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Gamybos registravimas](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Produkto, kurį būtų galima pagaminti ar įsigyti, nustatymas](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Bendrosios savikainos paskirstymo metodas](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Pastovių pagamintos prekės išlaidų amortizavimas](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Įkainojimas atvirkštine tvarka](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [KS skaičiavimai](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [KS skaičiavimo grupė](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Bendrieji gamybos nuokrypio šaltiniai](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Išlaidų kategorija, naudojama gamybos kelvadoje](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojama išlaidų kategorija](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Pagamintos prekės išlaidų rodymas](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Gamybos užsakymų kaštų analizė](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Gamybos užsakymų savikainos įvertinimas](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Gamybos registravimas](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Produkto, kurį būtų galima pagaminti ar įsigyti, nustatymas](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Bendrosios savikainos paskirstymo metodas](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Standartinė savikaina
-#### [KS skaičiavimas su standartine savikaina](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Standartinės savikainos naujinimo valdymas](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Būtina standartinės savikainos konvertavimo sąlyga](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Standartinės savikainos konvertavimo peržiūra](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Gamybos aplinkos standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Naujos pagamintos prekės standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Ne gamybos aplinkos standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [KS skaičiavimas su standartine savikaina](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Standartinės savikainos naujinimo valdymas](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Būtina standartinės savikainos konvertavimo sąlyga](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Standartinės savikainos konvertavimo peržiūra](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Gamybos aplinkos standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Naujos pagamintos prekės standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Ne gamybos aplinkos standartinės savikainos naujinimas](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/talent/toc.json)
 
-## [Finansų valdymas](/dynamics365/unified-operations/financials/TOC)
+## Finansų valdymas
 
 ### [Didžioji knyga](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Sąskaitos
@@ -124,6 +143,10 @@
 ##### [PVM mokėjimo ir apvalinimo taisyklės](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [PVM skaičiavimo metodai lauke Kilmė](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Visos PVM kodų sumos ir intervalo skaičiavimo parinktys](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/talent/toc.json)
+#### Išlaidų valdymas
+##### [Išlaidų valdymo planavimas](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Išlaidų valdymo parametrai](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Išlaidų valdymo mobilioji darbo sritis](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Mokėtinos sumos](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Tiekėjo SF peržiūra](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -140,14 +163,14 @@
 #### [Mokėtinų sumų ir gautinų sumų užsienio valiutos kurso pasikeitimas](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [SF patvirtinimai mobiliąja programa](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Tiekėjo sąskaitų faktūrų automatizavimas](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### [Tiekėjo sąskaitų faktūrų automatizavimas](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### Mokėjimai ir sudengimai
 ##### [Centralizuoti mokėtinų sumų mokėjimai](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Sudengimo konfigūravimas](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Tiekėjo mokėjimų darbo sritis](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Tiekėjo mokėjimų darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tiekėjo mokėjimo atšaukimas](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Tiekėjo čekių elektroninės ataskaitos](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Tiekėjo čekių elektroninės ataskaitos](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Išankstinio mokėjimo sąskaitų faktūrų ir išankstinių mokėjimų apžvalga](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Dalinio tiekėjo mokėjimo sudengimas prieš nuolaidos datą](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Dalinio tiekėjo mokėjimo, kuriam taikomos tiekėjo kredito pažymų nuolaidos, sudengimas](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -166,6 +189,7 @@
 #### [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kliento registravimo šablonai](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [SEPA tiesioginio debeto apžvalga](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [SEPA tiesioginio debeto įgaliojimas](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kredito kortelių nustatymas, autorizacija ir patvirtinimas](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Laisvos formos SF taisymas](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Palūkanų tarifų nustatymas palūkanų kodui](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -177,7 +201,7 @@
 #### Mokėjimai ir sudengimai
 ##### [Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Centralizuoti gautinų sumų mokėjimai](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Dalinio kliento mokėjimo ar paskutinio mokėjimo sudengimas prieš nuolaidą](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json) 
+##### [Dalinio kliento mokėjimo ar paskutinio mokėjimo sudengimas prieš nuolaidą](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/talent/toc.json) 
 ##### [Dalinio kliento mokėjimo sudengimas prieš nuolaidos datą ir paskutinis mokėjimas po nuolaidos datos](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Dalinio kliento mokėjimo, kuriam taikomos kredito pažymų nuolaidos, sudengimas](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Dalinio kliento mokėjimo su keliais nuolaidos laikotarpiais sudengimas](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -186,8 +210,9 @@
 
 ### [Grynųjų pinigų ir banko valdymas](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Grynųjų pinigų srautų prognozavimas](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Banko valdymo darbo sritis](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Mokėjimo nuolaidos](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Banko valdymo darbo sritis](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Mokėjimo nuolaidos](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Permokėjimų mokėjimo nuolaidos](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sudengimų apžvalga](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Centralizuotų mokėjimų sudengimo apžvalga](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Akredityvai](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -210,7 +235,7 @@
 ##### [Banko žurnalo sudėtinio objekto naujinimas](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Ilgalaikis turtas](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Ilgalaikio turto darbo sritis](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Ilgalaikio turto darbo sritis](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Nusidėvėjimo knygų naujinimo apžvalga](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Išvestinės knygos](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Ilgalaikio turto vertės modelis ir nusidėvėjimo knygos suliejimas](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -256,15 +281,15 @@
 #### [Biudžeto planavimo integravimas su kitais moduliais](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Ataskaitos](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Balanso finansinės ataskaitos](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Finansinės ataskaitos generavimas](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Finansinės ataskaitos generavimas](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Pajamų išrašo finansinė ataskaita](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Bandomojo balanso finansinės ataskaitos](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Finansinių ataskaitų peržiūra](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Ataskaitų kūrimo įrankis](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Ataskaitų kūrimo įrankis](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Kaštų apskaita](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sąlygos](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Praktinės laboratorijos (/dynamics365/unified-operations/financials/White paper)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [Praktinės laboratorijos (techninė dokumentacija)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [Savikainos elemento dimensijos](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Savikainos objekto dimensijos](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -276,8 +301,8 @@
 #### [Savikainos objekto valdiklio prieigos teisės](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Savikainos kontrolės darbo sritis](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Savikainos kontrolės mobilioji darbo sritis](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Kaštų apskaitos analizės „Power BI‟ turinys](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Kaštų apskaitos analizės „Power BI‟ turinys](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Viešasis sektorius](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Viešojo sektoriaus funkcijų planas](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -316,7 +341,7 @@
 ### [Eilučių apibrėžčių langelių modifikavimas](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Pakartotinis finansinių ataskaitų duomenų nustatymas atkūrus duomenų bazę](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/talent/toc.json)
 
-### [Lokalizavimo apžvalga](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [Lokalizavimo ir reguliavimo priemonės](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Azijos ir Ramiojo vandenyno regionas
 #### Australija
 ##### [Banko failų formatai](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -327,25 +352,25 @@
 ##### [KS palyginimas](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Kiniški kvitai](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Mokesčių integravimo konfigūravimas](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [PVM kliento SF DUK](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [PVM kliento SF DUK](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Ilgalaikio turto nusidėvėjimo metodai ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Kinijos „Golden Tax‟ duomenų objekto importavimas](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Vidutinių mėnesio išlaidų modelis](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Atsargų pagrindinių sąskaitų registravimas pagal vietą](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Neigiamo debeto ir kredito nustatymas](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Neigiamo debeto ir kredito nustatymas ](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Japonija
+##### [Paskirstymo taisyklės](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Konsoliduotosios SF](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
-##### Ilgalaikis turtas
-###### [Paskirstymo taisyklės](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Nusidėvėjimo DUK](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Tolygiai padalyto nusidėvėjimo metodas](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Pablogėjimo apskaita](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [PGV pablogėjimo apskaita](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [ARO nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Mažinimo įrašų nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Nusidėvėjimo DUK](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Tolygiai padalyto nusidėvėjimo metodas](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pablogėjimo apskaita](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [PGV pablogėjimo apskaita](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pašto indeksų importavimas](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/talent/toc.json) 
 ##### [Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Išskaitomo mokesčio skaičiavimas palaipsniui](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [ARO nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Mažinimo įrašų nustatymas](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Malaizija
 ##### [Prekių ir paslaugų mokestis](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Singapūras
@@ -357,13 +382,20 @@
 
 ### Europa
 #### [Avanso turėtojai](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Avanso turėtojo operacijos](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Išankstinių sąskaitų faktūrų išrašymas](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Banko derinimas](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Koreguojamosios sąskaitos faktūros](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Periodinių žurnalų kūrimas ir registravimas](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Įvežimo į ES sertifikatai](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [ES pardavimo sąrašo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Valiutų kursų koregavimai](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Mokėjimo metodų failų formatai](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Importuoti ISO20022 failus](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Atsargų žurnalo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sąskaitų faktūrų ir važtaraščių numeravimas Latvijoje ir Lietuvoje](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sąskaitų faktūrų išdavimo terminai](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [OIOUBL standartai](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -372,14 +404,22 @@
 #### [Ilgalaikio turto išankstinio įsigijimo registravimas](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Pašto indeksai](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Registracijos ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Atvirkštiniai mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [SEPA kredito pervedimų apžvalga](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [SEPA tiesioginio debeto apžvalga](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Kliento ir tiekėjo kompensacijų nustatymas](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Spausdinimo formų pasirašančiųjų nustatymas](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Storno apskaita](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Mokesčių direktyvos](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Sumų rodymo ataskaitose ir dokumentuose naujinimas](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [PVM valiutų kursai](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [PVM registro operacijos (Rytų Europa)](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [PVM ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sudengimo operacijų peržiūra](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Austrija
 ##### [Pusės metų nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Pakavimo medžiagų mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pirkimo muito mokesčiai](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [PVM išrašas](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Belgija
 ##### [CODA banko išrašas](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -388,7 +428,7 @@
 ##### [Suderinimo ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### Čekija
-##### [Kredito pažymos mokėjimo nuolaida](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Mokėjimo nuolaidos kredito pažyma](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Nusidėvėjimo apvalinimas](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Nusidėvėjimo sustabdymas](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Ilgalaikio turto nusidėvėjimas](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -402,6 +442,7 @@
 ###### [Viešojo sektoriaus apskaita](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Įsipareigojimai](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Mandats de paiement](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Paraiškos](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [„Titres de recette‟](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Tiekėjo SF mokėjimų sulaikymas](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Chronologiniai sąskaitų faktūrų kvitai](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -427,7 +468,7 @@
 ##### [Važtaraščių datos tikrinimas sąskaitose faktūrose](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [PVM knygos](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Išskaitomas mokestis](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Išskaitomas mokestis](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Latvija
 ##### [Ilgalaikio turto apskaita](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Ilgalaikio turto vietos keitimo sekimas](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -438,6 +479,7 @@
 ##### [PVM išrašo informacija](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Norvegija
 ##### [„Nets‟ importavimo formatas](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [PVM išrašas](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### Lenkija
 ##### [Eilučių nuolaidų skaičiavimas pagal vieneto kainą](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Koregavimo pastabos](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -474,6 +516,7 @@
 ###### [Finansinių dokumentų importavimas](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Juridinio subjekto operacijų eksportavimas ir importavimas iš jungtinės didžiosios knygos](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [NF-e XML dokumentų ir DANFE failų importavimas bei tikrinimas](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [NF-e ir DANFE failų nustatymas](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/talent/toc.json) 
 ###### [Proceso elektroninio mokėjimo pavedimai](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Finansiniai dokumentai](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Finansinių dokumentų teksto vietos rezervavimo ženklai](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -481,7 +524,7 @@
 ###### [Nurodyti finansiniai dokumentai](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Papildomi finansiniai pardavimo dokumentai](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [Elektroninis finansinis aptarnavimo dokumentas](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [NF-e procesas](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Juridinių subjektų parametrai](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [CIAP ilgalaikio turto įgijimas](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -495,11 +538,13 @@
 ##### [Elektroninės sąskaitos faktūros](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Elektroniniai DK apskaitos išrašai](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [ISR deklaracijos ataskaita](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/talent/toc.json)
-
+### Viduriniai Rytai
+#### [Saudo Arabijos „Zakat“ ataskaitos](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Šiaurės Amerika
 #### [Metų pabaigos 1099 ataskaitos Jungtinėse Valstijose](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/talent/toc.json)
-## Personalas
+#### [Forma 1099 viešajam sektoriui](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/talent/toc.json)
 
+## Personalas
 ### Įdarbinimas
 #### [Įdarbinimo proceso valdymas](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Masinės samdos projektai](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -538,10 +583,11 @@
 ### [Prieiga prie „Power BI“ turinio](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Išleistas „Power BI“ turinys](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Faktinis lyginant su biudžeto](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Išmokos](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Grynųjų pinigų apžvalga](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [CFO apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Kompensavimas](/dynamics365/unified-operations/dev-itpro/analytics/compensation-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Kompensacija](/dynamics365/unified-operations/dev-itpro/analytics/compensation-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kompensavimas ir išmokos](/dynamics365/unified-operations/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kaštų apskaitos analizė](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Kaštų apskaitos analizės sauga](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -550,7 +596,7 @@
 #### [Darbuotojų kompetencijos ir tobulinimas](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Darbuotojų tobulinimas](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [Finansinės veiklos rezultatai](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Ilgalaikio turto valdymas](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [Ilgalaikio turto valdymas](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Mokymasis](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Organizacinis mokymas](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Praktikos vadovas](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -559,7 +605,7 @@
 #### [Įdarbinimas](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Mažmeninės prekybos kanalų efektyvumas ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Pardavimo ir pelningumo efektyvumas](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Tiekėjo mokėjimai](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [Tiekėjo mokėjimai](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Sandėlio našumas](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Darbo jėgos metrika](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -567,6 +613,7 @@
 #### [Dokumentų ataskaitų paslaugų apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Spausdinimas](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tinklo spausdinimo įrenginių įjungimas](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Dokumentų generavimo, publikavimo ir spausdinimo funkcijose vietinėse įdiegtyse](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Dokumento maršruto planavimo agento paleidimas kaip „Windows“ paslaugos](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [SQL serverio ataskaitų paslaugų ataskaitų sąrašas](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -593,6 +640,7 @@
 ### Analizės įrankiai ir vizualizacijos
 #### [Analizė, agreguoti matavimo vienetai ir KPI modeliavimas](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Modeliavimas ir agreguoti duomenys](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kontekstinių verslo įžvalgų įtraukimas į formas](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Agreguotų matavimo vienetų ataskaita](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Agreguotų duomenų objektų ataskaita](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -600,10 +648,13 @@
 #### [„Power BI“ integravimas](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Power BI Embedded“ integravimas](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Įdėtoji „Power BI“ darbo srityse](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Power BI‟ įtraukimas į darbo sritis](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Power BI‟ ataskaitų prisegimas prie darbo sričių](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Power BI“ integravimas su objektų saugykla](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Power BI‟ ataskaitų kūrimas ir platinimas naudojant objektų saugyklą](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Objektų eksportavimas į savo „Azure SQL“ duomenų bazę](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/talent/toc.json)
 
 
 ## Atsargų valdymas
@@ -657,6 +708,7 @@
 ##### [Sistemos grupavimas atidarytame darbų sąraše](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Paėmimas ir pakavimas
 ##### [Seniausio paketo paėmimas mobiliajame įrenginyje](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Vienetų paėmimo patvirtinimas](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Pakavimo medžiagos ir mokesčiai](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Atsargų skaičiavimas
@@ -677,6 +729,8 @@
 ##### [Mobiliųjų įrenginių nustatymas darbui sandėlyje](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Sandėlio mobiliųjų įrenginių portalas (WMDP)](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Sandėlio mobiliųjų įrenginių rodymo parametrai](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/talent/toc.json)
+#### Plėtojimas ir perėjimas
+##### [Perkėlimas iš AX 2012 į „Finance and Operations”](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/talent/toc.json)
 
 
 ## Bendrasis planavimas
@@ -719,12 +773,13 @@
 ##### [Pirkimo užsakymo apžvalga](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Pirkimo užsakymų kūrimas](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Pirkimo užsakymų tvirtinimas](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pirkimo užsakymų patvirtinimo mobilioji darbo sritis](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Kainos ir nuolaidos
 ##### [Pirkimo sutartys](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Gavimo dokumentai ir SF išrašymas
 ##### [Produkto gavimas pagal pirkimo užsakymą](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Tiekėjų registravimo profiliai](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Tiekėjų registravimo profiliai](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Tiekėjo valdymas ir bendradarbiavimas
 ##### [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tiekėjo bendradarbiavimo vartotojų valdymas](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -762,6 +817,7 @@
 ### [Elektroninio parašo apžvalga](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Atvejų valdymo apžvalga](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Atvejų saugos, procesų ir kategorijų konfigūravimas](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Dokumentų valdymo konfigūravimas](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Įrašo šablonų kūrimas](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [El. pašto konfigūravimas ir siuntimas](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Datos / laiko duomenys ir laiko juostos](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -822,6 +878,9 @@
 #### Žaliavų valdymas
 ##### [Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Žaliavų suvartojimo kontrolė taikant sunaudojimo principus](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/talent/toc.json) 
+#### Baigtų gaminių valdymas
+##### [Baigtų gaminių gamybos išvesties vietos nustatymas](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/talent/toc.json)
 ### „Lean manufacturing“ 
 #### [„Lean manufacturing“ apžvalga](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Subranga pagal veiklą](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -912,35 +971,17 @@
 
 ## [Kūrimas ir administravimas naudojant bendrųjų operacijų platformą](/dynamics365/unified-operations/dev-itpro/index)
 
-### [Kūrimo ir administravimo apžvalga](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Sistemos reikalavimai](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Demonstracinių duomenų apžvalga](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/talent/toc.json)
-#### Žinyno sistema
-##### [Žinyno sistemos apžvalga](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Žinyno sistemos prijungimas](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Kas nauja ar pasikeitė](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [7-asis operacijų platformos naujinimas (2017 m. gegužės mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [6-asis operacijų platformos naujinimas (2017 m. balandžio mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [5-asis operacijų platformos naujinimas (2017 m. kovo mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [4-asis operacijų platformos naujinimas (2017 m. vasario mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [1611 „Operations‟ versija (2016 m. lapkričio mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [3-asis operacijų platformos naujinimas (2016 m. lapkričio mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [2-asis „Dynamics AX‟ platformos naujinimas (2016 m. rugpjūčio mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/talent/toc.json) 
-##### [„Dynamics AX‟ programos versija 7.0.1 (2016 m. gegužės mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [1-asis „Dynamics AX‟ platformos naujinimas (2016 m. gegužės mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [„Dynamics AX 7.0‟ (2016 m. vasario mėn.)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-##### Atnaujinti užduočių vedliai
-###### [2016 m. lapkričio mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [2016 m. rugpjūčio mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [2016 m. gegužės mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [2016 m. vasario mėn. užduočių vedliai](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Sistemos reikalavimai](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Demonstraciniai duomenys](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Duomenų tikrinimas](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+
 
 
 ### [Kūrimas ir tinkinimas naudojant „Visual Studio‟](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Programų dėklo ir serverio architektūra](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Įvertinimo kopijos gavimas](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Registravimasis prenumeratai gauti](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Prieiga prie „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo egzempliorių](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Access“ egzemplioriai](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kūrimo sistemos reikalavimai](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Transporto parko valdymo programos pavyzdys
 ##### [Transporto parko valdymo programos pavyzdys](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -955,7 +996,6 @@
 ##### [Modelio ir duomenų modelio elementų kūrimas](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Naujo vartotojo kūrimas kūrimo įrenginyje](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Pritaikymo analizės ataskaita](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Kūrimo įrankiai](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Elementų kūrimo įrankiai](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Elemento naudojimas](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Modelio eksportavimas ir importavimas](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -970,10 +1010,10 @@
 ##### [X++ derinimas pagal gamybos duomenų bazės kopiją](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [X++ kodo derinimas](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [EventHandlerResult klasės užklausų ar atsakymų scenarijų metu](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Verslo logikos rašymas naudojant C#### ir X++ šaltinio kodą](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Verslo logikos rašymas naudojant C\# ir X++ šaltinio kodą](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Programavimo kalbos palaikymas](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [C# LINQ teikėjas](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Geriausios praktikos kūrimas](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [C LINQ teikėjas\#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Turinio kūrimo geriausios praktikos](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Programų naršyklės ypatybės](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### „X++“ kalbos nuoroda
 ###### [„X++“ kalbos nuoroda](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-language-reference?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -985,7 +1025,7 @@
 ###### [X++ duomenų pasirinkimas ir tvarkymas](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [X++ makrokomandos](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [X++ atributų klasės](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [X++ ir C#### palyginimas](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [X++ ir C\# palyginimas](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/talent/toc.json)
 ###### [X++ sintaksė](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Kompiliacijos laiko funkcijos
 ##### [X++ kompiliacijos laiko funkcijos](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [W klasės](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [X klasės](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Tinkinimas naudojant plėtinius ir perdengiant
-##### Išplečiamumas
+##### [Išplečiamumas](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Modelių elementų tinkinimas naudojant plėtinius](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tinkinimas naudojant plėtinius ir perdengiant](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Klasių plėtiniai](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1048,8 +1088,11 @@
 ##### Duomenų bazės sinchronizavimas
 #### Paketų perkėlimas iš vienos aplinkos į kitą
 ##### Visuotinai diegiamo paketo kūrimas ir taikymas
-##### [Nuolatinis pristatymas](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
-
+#### [Nuolatinio pristatymo pagrindinis puslapis](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Kūrimo ir nuolatinio pristatymo DUK](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Testinių paketų neįtraukimas į komponavimo versijos išvestį](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Versijų modeliai automatizuotoje komponavimo versijoje](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### Pagrindinis efektyvumo puslapis
 ##### [Sekimo paėmimas naudojant sekimo analizatorių](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [Filtrai](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„PowerApps‟ prieglobos valdymas](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Langų valdymas
-##### [Kontekstinio meniu kodo perkėlimas](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Pelės spustelėjimo du kartus kodo perkėlimas](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Kontekstinio meniu kodo perkėlimas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pelės spustelėjimo du kartus kodo perkėlimas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Kontekstinių duomenų įvedimas į peržvalgos laukus](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [HierarchyViewer valdiklis](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Peržvalgos valdikliai](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [„FactBox‟ formos šablonas](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Pošabloniai
 ##### [Pasirinktinės filtrų grupės pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Dimensijų įrašų valdiklio pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Dimensijų reiškinių daryklės pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Dimensijų įrašų valdiklio pošablonis](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Dimensijų reiškinių daryklės pošablonis](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Laukų ir laukų grupių pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Filtrų ir įrankių juostos pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Užpildos teksto pošablonis](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1158,9 +1201,9 @@
 #### Darbo sričių kūrimas
 ##### [Veikiančių darbo sričių kūrimas](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Darbo sričių plytelių ir sąrašų kaupimas talpykloje](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/talent/toc.json)
-#### Užduočių įrašymo priemonė
-##### [„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo užduočių įrašymo priemonė](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Užduočių įrašymo priemonė](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Greita užduočių įrašymo priemonės nuoroda](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Kurkite dokumentus ar mokymus naudodami užduočių įrašymo priemonę](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Sprendimų išleidimas naudojant „Lifecycle Services“
 #### [Kūrimas ir išleidimas](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [Reguliuojamojo įspėjimo pateikimas](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [Duomenų objektai](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/talent/toc.json)
+### [Duomenų objektai](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Numatytieji duomenų objektai
 ##### [Duomenų objektų ataskaita](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Duomenų objektai: mokėtinos sumos ir mokesčiai](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### Objektų perkėlimas
 ##### [Konfigūracijos duomenų projektai](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų šablonų konfigūravimas](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Konfigūracijos duomenų paketai](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Konfigūracijos duomenų šablonai](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/talent/toc.json)
+
 ###### [Konfigūracijos duomenų kopijavimas tarp įmonių](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### „Office“ integravimas
 #### [„Office“ integravimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Office“ integravimo mokomoji programa](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Excel‟ papildinio naudojimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Excel‟ papildinio naudojimas](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Atidarymo programoje „Excel‟ patirčių kūrimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Meniu Atidaryti naudojant „Microsoft Office“ tinkinimas](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1278,19 +1323,30 @@
 #### [Gantt kūrimo vadovas](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Naujo transportavimo valdymo mechanizmo kūrimas](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/talent/toc.json)
 
-### [Mažmeninės prekybos kūrimo biblioteka](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Visuotinis diegimas
-#### [Visuotinis „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo demonstracinės aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Azure‟ išteklių vadovo supažindinimas](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Visuotinis „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo demonstracinės aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Azure‟ išteklių vadovo supažindinimas](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/talent/toc.json)
+
+#### [„Microsoft Dynamics 365 for Finance and Operations“ diegimas vietinėje aplinkoje](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) apžvalga](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Sistemos reikalavimai](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Aparatūros dydžio nustatymas vietinėse aplinkose](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Interneto paslaugos ir vietinės programinės įrangos gyvavimo ciklo strategija](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) pirkimas](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Vietinio projekto kūrimas „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Vietinių aplinkų nustatymas ir diegimas](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [„SQL Server Reporting Services“ konfigūravimas vietiniam diegimui](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Pasirinktinių modelių kūrimas ir diegimas vietinėse aplinkose](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/talent/toc.json)
+
 
 #### Visuotinis pasirinktinio kodo diegimas
-##### [Visuotinai diegiamo paketo kūrimas](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Visuotinai diegiamo paketo taikymas](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Visuotinai diegiamo paketo diegimas](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Visuotinai diegiamo paketo kūrimas](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Visuotinai diegiamo paketo taikymas](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Visuotinai diegiamo paketo diegimas](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/talent/toc.json)
 
-#### [Debesies paslaugų teikėjo atsisiuntimai ir „Dynamics AX 2012‟](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Debesies paslaugų teikėjo atsisiuntimai ir „Dynamics AX 2012‟](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### [Plėtojimas ir perėjimas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Plėtojimas iš AX 2012 į „Dynamics 365 for Finance and Operations”](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1301,7 +1357,7 @@
 ##### [Plėtojimas – AX 2012 duomenų plėtojimo užduotys](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Plėtojimas – duomenų plėtojimas smėlio dėžės aplinkoje](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tikrinimas – visiškasis bandymas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Tikrinimas – programos tikrinimo procesas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Tikrinimas – išplėtojus atliktinos užduotys](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tikrinimas – funkcinis bandymas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Tikrinimas – rengimasis įgyvendinimui](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1321,7 +1377,7 @@
 
 #### Plėtojimas į naujausią naujinimą
 ##### [Pasirengimas įdiegti naujausią naujinimą](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Versijos ir naujinimo strategija](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Naudojimo ciklo strategija](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Plėtojimas į naujausią platformos naujinimą](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„Dynamics‟ platformos plėtojimas į 2016 m. rugpjūčio mėn. versiją](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [Smėlio dėžės aplinkos plėtojimas](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1341,116 +1397,118 @@
 
 
 ### Sistemos administravimas
-#### [DUK apie mėnesinius platformos naujinimus](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Licencijų kodų ir konfigūracijos raktų ataskaita](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Duomenų bendrinimas tarp įmonių](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Priežiūros režimas](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [DUK apie mėnesinius platformos naujinimus](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Licencijų kodų ir konfigūracijos raktų ataskaita](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Duomenų bendrinimas tarp įmonių](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Priežiūros režimas](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Sauga
-##### [Vaidmenimis grįsta sauga](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Saugos architektūra](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Vaidmenimis grįsta sauga](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Saugos architektūra](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Saugos ataskaitos](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Paketinis vykdymas
-##### [Paketinio vykdymo apžvalga](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Paketinio vykdymo serverio apžvalga](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Paketinio vykdymo apžvalga](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Paketinio vykdymo serverio apžvalga](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### „Lifecycle Services‟
-#### [„Lifecycle Services“ apžvalga](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [LCS klientams](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [LCS partneriams](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Kas nauja](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Žinomos problemos](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Dynamics Lifecycle Services“ vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Saugos konfigūravimas](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Problemų ieška](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Konfigūracijų tvarkyklė](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Konfigūracijų tvarkyklės nustatymas](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Kodo plėtojimo tarnybos konfigūravimas](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Metodikos kūrimas ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Verslo procesų modeliavimo įrankis](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Verslo procesų bibliotekos verslo procesų modeliavimo įrankyje](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Verslo procesų modeliavimo įrankio struktūrinės diagramos](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Pasirinktinių verslo procesų nusiuntimas](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Stebėjimas ir diagnostika ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Lifecycle Services“ apžvalga](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [LCS klientams](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [LCS partneriams](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Kas nauja](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Žinomos problemos](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Dynamics Lifecycle Services“ vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Saugos konfigūravimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Problemų ieška](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Konfigūracijų tvarkyklė](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Konfigūracijų tvarkyklės nustatymas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Kodo plėtojimo tarnybos konfigūravimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Metodikos kūrimas ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Verslo procesų modeliavimo įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Verslo procesų bibliotekos verslo procesų modeliavimo įrankyje](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Verslo procesų modeliavimo įrankio struktūrinės diagramos](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Pasirinktinių verslo procesų nusiuntimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Stebėjimas ir diagnostika ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Turto biblioteka](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/talent/toc.json)
 
 #### „Dynamics AX 2012 Lifecycle Services“ funkcijos
 ##### Visuotinis diegimas
-###### [Aplinkos diegimo debesyje įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Konfigūracijos kopijavimas](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinio „Dynamics AX 2012 R3“ diegimo platformoje „Azure‟ planavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis „Dynamics AX 2012 R3“ diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis demonstracinės „Dynamics AX 2012 R3‟ aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis kūrimo aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis plačiai pasiekiamos aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis bandomosios aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ valdymas](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Įmonės portalų serverių sujungimas į vieną serverių ūkį](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Įvesties taškų įrašymas „Dynamics AX‟ įmonės portale](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis „Retail E-commerce‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis „Retail Essentials‟ demonstracinės aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis „Retail Essentials‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinis „Retail Mobility‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ trikčių diagnostika](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [„Dynamics AX 2012 R3‟ naujinimai](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Duomenų importavimo / eksportavimo sistemos vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Diegimas](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Diegimas su AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [„Dynamics AX 2012 R2 CU7‟ versijos diegimas su „SQL Server 2014‟](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų perkėlimas](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [SSIS versijos konfigūravimas](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Objekto duomenų kopijavimas ir lyginimas tarp įmonių](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų kopijavimas tarp „Dynamics AX‟ įmonių](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų kopijavimas tarp „Dynamics AX‟ egzempliorių](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Pasirinktinio paskirties objekto kūrimas](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų importavimo / eksportavimo sistemos objektai](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų importavimas iš CSV duomenų šaltinio](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Duomenų importavimas iš ODBC duomenų šaltinio](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Demonstraciniai failai](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Spartusis importavimas-eksportavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Aplinkos diegimo debesyje įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Konfigūracijos kopijavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinio „Dynamics AX 2012 R3“ diegimo platformoje „Azure‟ planavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis „Dynamics AX 2012 R3“ diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis demonstracinės „Dynamics AX 2012 R3‟ aplinkos diegimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis kūrimo aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis plačiai pasiekiamos aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis bandomosios aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ valdymas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Įmonės portalų serverių sujungimas į vieną serverių ūkį](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Įvesties taškų įrašymas „Dynamics AX‟ įmonės portale](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis „Retail E-commerce‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis „Retail Essentials‟ demonstracinės aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis „Retail Essentials‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinis „Retail Mobility‟ kūr. / band. aplinkos diegimas platformoje „Azure‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ trikčių diagnostika](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [„Dynamics AX 2012 R3‟ naujinimai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Duomenų importavimo / eksportavimo sistemos vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Diegimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Diegimas su AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [„Dynamics AX 2012 R2 CU7‟ versijos diegimas su „SQL Server 2014‟](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų perkėlimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [SSIS versijos konfigūravimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Objekto duomenų kopijavimas ir lyginimas tarp įmonių](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų kopijavimas tarp „Dynamics AX‟ įmonių](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų kopijavimas tarp „Dynamics AX‟ egzempliorių](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Pasirinktinio paskirties objekto kūrimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų importavimo / eksportavimo sistemos objektai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų importavimas iš CSV duomenų šaltinio](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Duomenų importavimas iš ODBC duomenų šaltinio](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Demonstraciniai failai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Spartusis importavimas-eksportavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### Lentelės 
-###### [Lentelių kūrimas](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Lentelių ypatybės](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Lentelių kūrimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Lentelių ypatybės](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### „Dynamics AX 2012“ LCS įrankiai
-###### [Projektai](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Metodikos](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Tinkinimo analizė ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Infrastruktūros poreikio vertinimo įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Licencijų poreikio skaičiavimo įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Atsakymai į siūlymo užklausas (/dynamics365/unified-operations/dev-itpro/RFP)](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Sistemos diagnostika](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Sistemos diagnostikos diegimas ir vykdymas](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Plėtojimo analizė](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Naudojimo analizės įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Projektai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Metodikos](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Tinkinimo analizė ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Infrastruktūros poreikio vertinimo įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Licencijų poreikio skaičiavimo įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Atsakymai į siūlymo užklausas (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Sistemos diagnostika](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Sistemos diagnostikos diegimas ir vykdymas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Plėtojimo analizė](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Naudojimo analizės įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### „Dynamics AX 2012“ atsisiunčiami įrankiai
-###### [Kodo plėtojimo įrankio vartotojo vadovas (nebenaudojamas)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [„Lifecycle Services“ atsisiunčiami įrankiai](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Bandomųjų duomenų perkėlimo įrankis (beta)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Diegimas](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Vykdymas](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [AX 2012 R3 demonstracinių duomenų importavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Saugos kūrimo įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Diegimas](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Įvesties taškų teisių nustatymas ar redagavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [„Performance Benchmark“ programinės įrangos diegimo įrankių rinkinys](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [Saugos parametrų naujinimo patariamasis įrankis](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [„Intelligent Data Management Framework“ (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Apžvalga](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Diegimo vadovas](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Konfigūravimas](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Analizė](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Objektų šalinimas ir archyvavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Archyvo objektų kūrimas](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Šalinimo objektų kūrimas](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Šalinimo ir analizės užduočių planavimas](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Šalinimo ar archyvo užduočių peržiūra](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Tvarkymas](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
-####### [Trikčių diagnostika](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Kodo plėtojimo įrankio vartotojo vadovas (nebenaudojamas)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [„Lifecycle Services“ atsisiunčiami įrankiai](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Bandomųjų duomenų perkėlimo įrankis (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Diegimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Vykdymas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [AX 2012 R3 demonstracinių duomenų importavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Saugos kūrimo įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Diegimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Vartotojo vadovas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Įvesties taškų teisių nustatymas ar redagavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [„Performance Benchmark“ programinės įrangos diegimo įrankių rinkinys](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [Saugos parametrų naujinimo patariamasis įrankis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [„Intelligent Data Management Framework“ (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Apžvalga](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Diegimo vadovas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Konfigūravimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Analizė](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Objektų šalinimas ir archyvavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Archyvo objektų kūrimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Šalinimo objektų kūrimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Šalinimo ir analizės užduočių planavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Šalinimo ar archyvo užduočių peržiūra](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Tvarkymas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
+####### [Trikčių diagnostika](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Duomenų bazės valdymas
-#### [Duomenų bazės kopijavimas iš „Azure SQL Database‟ į „SQL Server‟ aplinką](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Duomenų bazės kopijavimas iš „SQL Server‟ į „Azure SQL Database‟ gamybos aplinką](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Duomenų bazės ar ne gamybos aplinkos atkūrimas](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [Duomenų bazės kopijos eksportavimas, kad ją būtų galima atkurti vėliau](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Duomenų bazės kopijavimas iš „Azure SQL Database‟ į „SQL Server‟ aplinką](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Duomenų bazės kopijavimas iš „SQL Server‟ į „Azure SQL Database‟ gamybos aplinką](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Duomenų bazės ar ne gamybos aplinkos atkūrimas](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Duomenų bazės kopijos eksportavimas, kad ją būtų galima atkurti vėliau](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### Palaikymas
 #### [„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo palaikymo gavimas](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1466,6 +1524,7 @@
 
 ## Mokėjimai
 ### [Mokėjimo būdai](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Mokėjimų DUK](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## Skambučių centras
 ### [Skambučių centro apžvalga](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1488,6 +1547,7 @@
 ### Išoriniai aparatūros įrenginiai
 #### [Mažmeninės prekybos išorinių įrenginių apžvalga](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Microsoft“ išbandyti EKA aparatūros išoriniai įrenginiai](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [Mažmeninės prekybos periferinis simuliatorius](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/talent/toc.json)
 ### Ekrano maketas
 #### [EKA ekrano maketų konfigūravimas](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1512,7 +1572,7 @@
 ### Kvitai
 #### [Kvitų šablonų nustatymas](/dynamics365/unified-operations/retail/receipt-templates-printing?toc=/dynamics365/unified-operations/talent/toc.json) 
 #### [Kvitų iš EKA siuntimas el. paštu](/dynamics365/unified-operations/retail/email-receipts?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Užduočių įrašymo priemonė ir EKA žinynas](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Užduočių įrašymo priemonė ir EKA žinynas](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/talent/toc.json)
 ## Stebėjimas ir analizė
 ### [Pardavimo ir maržos efektyvumo stebėjimas](/dynamics365/unified-operations/retail/monitor-sales-margin-performance?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Pardavimo tendencijų ir modelių analizavimas](/dynamics365/unified-operations/retail/analyze-sales-trends-patterns?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1525,7 +1585,7 @@
 ### [Kainų koregavimas ir nuolaidos](/dynamics365/unified-operations/retail/price-adjustments-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](/dynamics365/unified-operations/retail/optimal-combination-overlapping-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Kanalui būdingų nuolaidų nustatymas](/dynamics365/unified-operations/retail/define-channel-specific-discounts?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Mažmeninės prekybos kuponų kūrimas](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Mažmeninės prekybos kuponų kūrimas](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/talent/toc.json)
 ## Produktai ir prekyba
 ### [Mažmeninės prekybos hierarchijos](/dynamics365/unified-operations/retail/retail-hierarchies?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Atributų kūrimas ir valdymas](/dynamics365/unified-operations/retail/create-manage-attributes?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1533,15 +1593,12 @@
 ### [Brūkšninių kodų nustatymas](/dynamics365/unified-operations/retail/set-up-bar-codes?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Brūkšninių kodų skaičių sekų nustatymas](/dynamics365/unified-operations/retail/set-up-bar-code-masks?toc=/dynamics365/unified-operations/talent/toc.json)
 ### [Asortimentų nustatymas](/dynamics365/unified-operations/retail/set-up-assortments?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Į asortimentą neįtrauktų produktų pardavimas ir grąžinimas](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Į asortimentą neįtrauktų produktų pardavimas ir grąžinimas](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/talent/toc.json)
 ## Lojalumas
 ### [Klientų lojalumo programos nustatymas](/dynamics365/unified-operations/retail/set-up-customer-loyalty-program?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## Atsargos
 ### [Parduotuvės atsargų valdymas](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/talent/toc.json)
-## Prekybos pagrindai
-### [„Commerce Essentials‟ apžvalga](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/talent/toc.json)
-### [Organizacijos ir organizacijų hierarchijos modulyje „Commerce Essentials‟](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## [„Retail‟ programavimas ir administravimas](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [„Retail‟ kanalų komunikacija](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [MPOS architektūra](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail‟ internetinių parduotuvių publikavimo architektūra](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Retail‟ kanalo našumo „Power BI“ turinys](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [„Retail‟ kanalo našumo „Power BI“ turinys](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### Visuotinis diegimas ir karštosios pataisos
 #### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„Retail“ parduotuvių sistema (prieš pradedant)](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Retail Modern POS‟ konfigūravimas ir diegimas](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
-##### [Mažmeninės prekybos sąskaitų ir įrenginių valdymas iš būstinės](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Retail Modern POS‟ konfigūravimas ir diegimas](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [Mažmeninės prekybos sąskaitų ir įrenginių valdymas iš būstinės](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„Retail POS‟ įrenginio suaktyvinimas](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„Retail Cloud POS‟ apsauga](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/talent/toc.json)
-#### [„Retail Hardware Station‟ konfigūravimas ir diegimas](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Retail Hardware Station‟ konfigūravimas ir diegimas](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail‟ komponentų įvykiai triktims diagnozuoti ir šalinti](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Visuotinai diegiamo paketo taikymas](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### Išplečiamumas
 #### Elektroninis kasos aparatas
-##### [„Retail POS‟ ekrano maketai](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
-###### [EKA maketo dizaino įrankio diegimas](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/talent/toc.json)
+##### [„Retail POS‟ ekrano maketai](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/talent/toc.json)
+###### [EKA maketo dizaino įrankio diegimas](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [MPOS autonominio režimo konfigūravimas](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [MPOS ir „Cloud POS‟ paleidiklių išplečiamumas](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [Programos „Retail Experience‟ kūrimas](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [„e-Commerce“ platforma](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„e-Commerce“ platformos SDK](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/talent/toc.json)
 #### Mokėjimo jungtis
-##### [Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [Visuotinis mokėjimo jungties diegimas](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/talent/toc.json)
 ##### [„Windows Installer‟ sukūrimas mokėjimo jungčiai](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [„Retail SDK‟ apžvalga](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail SDK‟ integravimas su nuolatine kūrimo sistema](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail SDK‟ išplečiamumo pavyzdžiai](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/talent/toc.json)
+#### [„Retail POS“ integravimas su kontrolės įtaisais Švedijoje](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail SDK‟ pakuotė](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/talent/toc.json)
 #### [„Retail SDK‟ pavyzdžiai ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ### „Commerce Runtime‟
 #### [Lojalumo pratęsimas](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/talent/toc.json)
 
-# [„Dynamics 365 for Talent‟](/dynamics365/unified-operations/talent/index)
+# [„Dynamics 365 for Talent‟](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/talent/toc.json)
 
 ## Personalo strategijos kūrimas
 ### [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/talent/toc.json)

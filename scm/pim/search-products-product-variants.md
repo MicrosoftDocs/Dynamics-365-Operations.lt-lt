@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Norėdami ieškoti produktų ir produktų variantų, kai rankiniu būdu sukuriate pardavimo užsakymą arba pardavimo užsakymo eilutę, naudokite lauką <strong>Prekės numeris </strong>.  Taip galite greitai rasti produkto variantus, kai turite tik konfigūracijos eilutę arba vieną iš galimų produkto dimensijų.
 
