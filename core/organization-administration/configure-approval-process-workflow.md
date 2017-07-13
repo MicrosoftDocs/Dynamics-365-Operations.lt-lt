@@ -3,13 +3,13 @@ title: "Darbo eigos patvirtinimo proceso konfigūravimas"
 description: "Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -117,10 +117,10 @@ Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas,
     </tr>
     <tr class="odd">
     <td><strong>Vartotojas</strong></td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Microsoft Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Microsoft Dynamics 365 for Finance and Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -159,7 +159,7 @@ Vartotojas turi vykdyti dokumentą, kai dokumentas yra priskirtas vartotojui pat
 4.  Jei norite, kad vartotojai galėtų reikalauti dokumento keitimų, pažymėkite žymės langelį **Reikalauti keitimo**.
 5.  Jei norite, kad vartotojas galėtų perduoti dokumentą kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 
-**Pastaba**: žymės langelio**Įjungti veiksmus iš darbų sąrašo įmonės portale** naudoti nebegalima.
+**Pastaba**: žymės langelio **Įjungti veiksmus iš darbų sąrašo įmonės portale** naudoti nebegalima.
 
 ## <a name="configure-the-approval-steps"></a>Patvirtinimo veiksmų konfigūravimas
 Patvirtinimo procesą sudaro patvirtinimo veiksmai. Atlikite šią procedūrą, norėdami įtraukti veiksmų į patvirtinimo procesą ir veiksmus sukonfigūruoti.

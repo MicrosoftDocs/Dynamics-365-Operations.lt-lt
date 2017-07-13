@@ -1,9 +1,9 @@
 ---
 title: "„Excel“ papildinio naudojimas"
-description: "Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Galite atidaryti objektų duomenis naudodami „Excel“ arba „Microsoft Dynamics 365 for Operations“."
+description: "Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Galite atidaryti objektų duomenis naudodami „Excel“ arba „Microsoft Dynamics 365 for Operations“.
+Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis, galite paleisti iš „Excel“ arba „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo.
 
 Kai programoje „Microsoft Excel“ atidarysite objektų duomenis, naudodami „Excel“ skirtą „Microsoft Dynamics Office“ papildinį galėsite greitai ir paprastai peržiūrėti ir redaguoti šiuos duomenis. Norint įdiegti šį papildinį būtina naudoti „Microsoft Excel 2016“. **Pastaba.** Jei „Microsoft Azure Active Directory“ („Azure AD“) nuomotojas bus sukonfigūruotas naudoti „Active Directory“ susiejimo tarnybą (AD FS), būtinai turi būti įdiegtas 2016 m. gegužės mėn. naujinimas – tuomet naudojant „Excel“ papildinį bus galima tinkamai jus prijungti.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Kaip paleidus „Dynamics 365 for Operations“ atidaryti objektų duomenis programoje „Excel“
-1.  Programos „Microsoft Dynamics 365 for Operations“ puslapyje spustelėkite **Atidaryti naudojant „Microsoft Office“**. Jei puslapio šakninis duomenų šaltinis (lentelė) sutaps su bet kurių objektų šakniniu duomenų šaltiniu, puslapyje bus sukuriamos numatytosios parinktys **Atidaryti naudojant „Excel“**. Parinktis **Atidaryti naudojant „Excel“** galima rasti dažnai naudojamuose puslapiuose, pvz., **Visi tiekėjai** ir **Visi klientai**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Atidaryti objekto duomenis programoje „Excel“ paleidus iš „Dynamics 365 for Finance and Operations“
+1.  Programos „Microsoft Dynamics 365 for Finance and Operations“ puslapyje spustelėkite **Atidaryti naudojant „Microsoft Office“**. Jei puslapio šakninis duomenų šaltinis (lentelė) sutaps su bet kurių objektų šakniniu duomenų šaltiniu, puslapyje bus sukuriamos numatytosios parinktys **Atidaryti naudojant „Excel“**. Parinktis **Atidaryti naudojant „Excel“** galima rasti dažnai naudojamuose puslapiuose, pvz., **Visi tiekėjai** ir **Visi klientai**.
 2.  Spustelėkite parinktį **Atidaryti naudojant „Excel“** ir atidarykite sukurtą darbaknygę. Šioje darbaknygėje pateikiama su objektu susijusi informacija, aplinkos žymiklis ir „Excel“ papildinio žymiklis.
 3.  Programoje „Excel“ spustelėję **Įjungti redagavimą** įjunkite „Excel“ papildinį. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4.  Jei „Excel“ papildinį paleisite pirmą kartą, spustelėkite **Pasitikėti šiuo papildiniu**.
-5.  Jei būsite paraginti prisijungti, spustelėkite **Prisijungti**, tada prisijunkite naudodami tuos pačius kredencialus, kuriuos naudojote jungdamiesi prie „Dynamics 365 for Operations“. „Excel“ papildinys naudos kontekstinę ankstesnio prisijungimo informaciją, gautą iš „Internet Explorer“, ir esant galimybei automatiškai jus prijungs. Todėl viršutiniame dešiniajame „Excel“ papildinio kampe patikrinkite vartotojo vardą.
+5.  Jei būsite paraginti prisijungti, spustelėkite **Prisijungti**, tada prisijunkite naudodami tuos pačius kredencialus, kuriuos naudojote jungdamiesi prie „Dynamics 365 for Finance and Operations“. „Excel“ papildinys naudos kontekstinę ankstesnio prisijungimo informaciją, gautą iš „Internet Explorer“, ir esant galimybei automatiškai jus prijungs. Todėl viršutiniame dešiniajame „Excel“ papildinio kampe patikrinkite vartotojo vardą.
 
 Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duomenys. Atminkite, kad darbaknygėje duomenys bus pateikiami tik „Excel“ papildiniui juos nuskaičius.
 
@@ -48,7 +48,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 2.  „Office“ parduotuvėje ieškokite raktažodžio „Dynamics“ ir spustelėkite **Įtraukti** prie **„Microsoft Dynamics Office“ papildinys** („Excel“ papildinys).
 3.  Jei „Excel“ papildinį paleisite pirmą kartą, spustelėję **Pasitikėti šiuo papildiniu** jį įjunkite. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4.  Spustelėję **Įtraukti serverio informaciją** atidarykite sritį **Parinktys**.
-5.  „Dynamics 365 for Operations“ paskirties egzemplioriuje nukopijuokite naršyklės URL, jį įklijuokite į lauką **Serverio URL**, tada panaikinkite visą po pagrindinio kompiuterio vardo esantį tekstą. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
+5.  Iš „Dynamics 365 for Finance and Operations“ paskirties egzemplioriaus nukopijuokite naršyklės URL, jį įklijuokite į lauką **Serverio URL**, tada panaikinkite visą po pagrindinio kompiuterio pavadinimo esantį tekstą. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
 Pavyzdžiui, jei URL yra https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, panaikinkite viską, išskyrus **https://xxx.dynamics.com**.
 6.  Spustelėkite **Gerai**, tada spustelėję **Taip** patvirtinkite pakeitimą. „Excel“ papildinys paleidžiamas iš naujo ir įkeliami metaduomenys. Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus „Trikčių diagnostika“ dalį „Rodomas mygtukas Įkelti programėles“.
 7.  Spustelėkite **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.

@@ -3,14 +3,14 @@ title: "Pagrindinės statistinės prognozės generavimas"
 description: "Šiame straipsnyje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,13 +49,13 @@ Kai prognozės strategija nustatyta kaip **Kopijuoti praeities poreikį**, praei
 
 Siekiant išvengti painiavos gamybos planuose, tam tikrą prognozės rinkinių skaičių galima užblokuoti. Šis skaičius nustatomas lauke **Blokavimo laiko ribos**. Puslapyje **Pakoreguota poreikio prognozė** rodomi blokuojamų rinkinių langeliai vizualiai nurodo, kad tų reikšmių keisti negalima. 
 
-Pagrindinės poreikio prognozės pradžios data neturi būti dabartinė data arba ateities data. Norėdami nustatyti kitą pradžios datą, naudokite lauką **Pagrindinės prognozės pradžios data – pradžios data**. Pavyzdžiui, birželį vartotojai gali generuoti kitų metų prognozę. Kadangi nenurodyti praeities poreikio pabaigos ir pagrindinės prognozės pradžios prognozės rinkiniai, prognozės gali būti netikslios. Jei naudojate „Microsoft Dynamics 365 for Operations“ poreikio prognozės tarnybą, trūkstamą informaciją galite įvesti keturiais būdais. Norimą metodą galite pasirinkti puslapyje **Poreikio prognozės parametrai** nustatydami parametrą MISSING\_VALUE\_SUBSTITUTION. 
+Pagrindinės poreikio prognozės pradžios data neturi būti dabartinė data arba ateities data. Norėdami nustatyti kitą pradžios datą, naudokite lauką **Pagrindinės prognozės pradžios data – pradžios data**. Pavyzdžiui, birželį vartotojai gali generuoti kitų metų prognozę. Kadangi nenurodyti praeities poreikio pabaigos ir pagrindinės prognozės pradžios prognozės rinkiniai, prognozės gali būti netikslios. Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“ poreikio prognozės tarnybą, trūkstamą informaciją galite įvesti keturiais būdais. Norimą metodą galite pasirinkti puslapyje **Poreikio prognozės parametrai** nustatydami parametrą MISSING\_VALUE\_SUBSTITUTION. 
 
 Lauko **Pagrindinės prognozės pradžios data** -  **Pradžios data** reikšmė turi būti nustatyta prognozės rinkinio pradžioje, pvz., Jungtinėse Amerikos Valstijose tai būtų sekmadienis, jei prognozės rinkinys yra savaitė. Sistema automatiškai koreguoja lauko **Pagrindinės prognozės pradžios data**  -  **Pradžios data** reikšmę, kad ji atitiktų prognozės rinkinio pradžią. 
 
 Lauko **Pagrindinės prognozės pradžios data** -  **Pradžios data** reikšmę galima nustatyti kaip praeities datą. Kitaip tariant, galima generuoti praeities poreikio prognozę. Tai naudinga, nes vartotojai gali keisti prognozės tarnybos parametrus, kad anksčiau sugeneruota statistinė prognozė atitiktų faktinį praeities poreikį. Tada vartotojai gali toliau naudoti šį parametrų nustatymą, norėdami generuoti ateities pagrindinę statistinę prognozę. 
 
-Ankstesnių poreikio prognozavimo pakartojimų koregavimus, atliktus neautomatiniu būdu, galima automatiškai taikyti naujai pagrindinei prognozei, jei pažymėtas žymės langelis **Perkelti neautomatinius koregavimus į poreikio prognozę**. Jei žymės langelis išvalytas, neautomatiniai koregavimai neįtraukiami į pagrindinę prognozę, bet nėra panaikinami. Neautomatinius prognozės koregavimus galima panaikinti tik prognozės importavimo metu, išvalant žymės langelį **Įrašyti atliktus pagrindinės poreikio prognozės neautomatinius koregavimus**. Neautomatiniai koregavimai įrašomi autorizavimo metu. Todėl jei vartotojas neautomatiškai koreguoja prognozę, tačiau neįgalioja jos „Microsoft Dynamics 365 for Operations“, pakeitimai bus prarasti. Daugiau informacijos apie neautomatinius koregavimus ir jų paskirtį žr. puslapyje [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md). 
+Ankstesnių poreikio prognozavimo pakartojimų koregavimus, atliktus neautomatiniu būdu, galima automatiškai taikyti naujai pagrindinei prognozei, jei pažymėtas žymės langelis **Perkelti neautomatinius koregavimus į poreikio prognozę**. Jei žymės langelis išvalytas, neautomatiniai koregavimai neįtraukiami į pagrindinę prognozę, bet nėra panaikinami. Neautomatinius prognozės koregavimus galima panaikinti tik prognozės importavimo metu, išvalant žymės langelį **Įrašyti atliktus pagrindinės poreikio prognozės neautomatinius koregavimus**. Neautomatiniai koregavimai įrašomi autorizavimo metu. Todėl jei vartotojas neautomatiškai koreguoja prognozę, tačiau neįgalioja jos „Finance and Operations“, pakeitimai bus prarasti. Daugiau informacijos apie neautomatinius koregavimus ir jų paskirtį žr. puslapyje [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md). 
 
 Poreikio prognozės generavimo procesas gali turėti pavadinimą ir komentarų, kad vartotojai galėtų lengviau identifikuoti sugeneruotą prognozę. Šios reikšmės yra matomos prognozės generavimo retrospektyvoje puslapyje **Pagrindinės statistinės prognozės generavimo retrospektyva**. 
 

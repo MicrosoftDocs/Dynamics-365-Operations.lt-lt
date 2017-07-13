@@ -3,14 +3,14 @@ title: "Susieti atsargų paketus"
 description: "Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Ne, galite susieti tik tos pačios vietos ir sandėlio saugojimo dimensijų pake
 Ne, galima sulieti tik visą paketų kiekį. Paketų suliejimo funkcija skirta naudoti kaip atsargų funkcija, o ne kaip gamybos funkcija.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Ką daryti, jei skiriasi paketų atributų vertės?
-Kai pasirenkate šaltinio paketus, kuriuos norite sujungti su sulietu paketu, „Microsoft Dynamics 365 for Operations“ patikrina, ar visi paketai turi charakteristikas arba atributų reikšmes. Kai atributo reikšmė yra tokia pati, ji pasiūloma sulietam paketui. Tą reikšmę galite keisti. Nesutampančios atributų reikšmės susietame pakete paliekamos nenurodytos, jas galite įvesti neautomatiškai. Jei atributo reikšmės paketo atributo tipas yra sveikasis skaičius arba trupmena ir ne visų šaltinio paketų reikšmės vienodos, reikšmė bus apskaičiuota naudojant svertinį vidurkį. Apskaičiuota vertė suapvalinama iki mažesnės arba didesnės vertės. Jei šaltinio paketo reikšmė yra nenurodyta, paketas ir jo kiekis į skaičiavimą neįtraukiami. **Pavyzdys** Šiame pavyzdyje parodytas susieto paketo svertinio vidurkio skaičiavimas. Dviejų šaltinio paketų vertė nenurodyta – paketo atributo tipas yra sveikasis skaičius. Šaltinio paketams priskiriamas nurodytas atributas.
+Kai pasirenkate šaltinio paketus, kuriuos norite sujungti su sulietu paketu, „Finance and Operations“ patikrina, ar visi paketai turi charakteristikas arba atributų reikšmes. Kai atributo reikšmė yra tokia pati, ji pasiūloma sulietam paketui. Tą reikšmę galite keisti. Nesutampančios atributų reikšmės susietame pakete paliekamos nenurodytos, jas galite įvesti neautomatiškai. Jei atributo reikšmės paketo atributo tipas yra sveikasis skaičius arba trupmena ir ne visų šaltinio paketų reikšmės vienodos, reikšmė bus apskaičiuota naudojant svertinį vidurkį. Apskaičiuota vertė suapvalinama iki mažesnės arba didesnės vertės. Jei šaltinio paketo reikšmė yra nenurodyta, paketas ir jo kiekis į skaičiavimą neįtraukiami. **Pavyzdys** Šiame pavyzdyje parodytas susieto paketo svertinio vidurkio skaičiavimas. Dviejų šaltinio paketų vertė nenurodyta – paketo atributo tipas yra sveikasis skaičius. Šaltinio paketams priskiriamas nurodytas atributas.
 
 | Atributas | Minimumas | Padidinimas | Maksimumas |
 |-----------|---------|-----------|---------|

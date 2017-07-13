@@ -1,9 +1,9 @@
 ---
 title: "Biudžeto planavimas"
-description: "Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Operations&quot;“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“"
+description: "Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Operations'“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“ 
+Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“ 
 
 <a name="prerequisites"></a>Būtinieji komponentai 
 ------------------
 
-Šioje mokymo programoje jums reikės prieigos prie „Dynamics 365 for Operations“ aplinkos naudojant „Contoso“ demonstracinius duomenis ir turėti administratoriaus teises naudojant egzempliorių. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami „Dynamics 365 for Operations“ administratoriaus kredencialus. Prisijungdami prie „Dynamics 365 for Operations“ **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie „Dynamics 365 for Operations“ naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
+Šioje mokymo programoje jums reikės prieigos prie „Finance and Operations“ aplinkos naudojant „Contoso“ demonstracinius duomenis ir turėti administratoriaus teises naudojant egzempliorių. Šiame laboratoriniame darbe nenaudokite privataus naršyklės režimo – jei reikia, atsijunkite nuo bet kokių kitų sąskaitų naršyklėje, ir prisijunkite naudodami „Finance and Operations“ administratoriaus kredencialus. Prisijungdami prie „Finance and Operations“ **PRIVALOTE** pažymėti žymės langelį Likti prisijungus. Taip sukuriamas nuolatinis slapukas, kurio dabar reikia „Excel“ programai. Jei prisijungsite prie „Finance and Operations“ naudodami kitą naršyklę nei IE, tada jus paragins prisijungti per „Excel“ programą. Spustelėjus „Prisijungti“ „Excel“ programoje, atsidarys IE iššokantysis langas – prisijungdami **PRIVALOTE** patikrinti, ar pažymėtas žymės langelis „Likti prisijungus“. Jei „Excel“ programoje spustelėjus „Prisijungti“ nepanašu, kad kas nors būtų įvykę, reikėtų išvalyti IE slapukų talpyklą.
 
 ## <a name="scenario-overview"></a>**Scenarijaus apžvalga**
 Julija dirba finansų vadove „Contoso Entertainment Systems“ įmonėje Vokietijoje (DEMF). Artėjant FY2016, ji turi sudaryti kitų metų įmonės biudžetą. Biudžeto sudarymas atrodo taip:
@@ -148,7 +148,7 @@ Biudžeto plano stulpeliai būna piniginiai arba kiekiniai ir jie gali būti nau
 
 [![Automatinis pildymas](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Grįžkite į „Dynamics 365 for Operations“ ir atnaujinkite puslapį. Publikuotos vertės bus rodomos programoje „Dynamics 365 for Operations“. 
+4.7. Grįžkite į „Finance and Operations“ ir atnaujinkite puslapį. Publikuotos vertės bus rodomos programoje „Finance and Operations“. 
 
 [![Atnaujinti](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Ankstesnių metų faktinės sumos bus nukopijuotos į einamųjų metų biudžet�
 
 [![Publikuoti](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Grįžkite į biudžeto plano dokumentą programoje „Dynamics 365 for Operations“. Spustelėkite Darbo eiga &gt; Pateikti dokumentą automatiškai patvirtinti
+9.3. Grįžkite į biudžeto plano dokumentą programoje „Finance and Operations“. Spustelėkite Darbo eiga &gt; Pateikti dokumentą automatiškai patvirtinti
 
 [![Automatiškai patvirtinti](./media/screenshot37.png)](./media/screenshot37.png) 
 

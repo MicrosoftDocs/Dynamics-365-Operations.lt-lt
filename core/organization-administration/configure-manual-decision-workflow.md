@@ -3,13 +3,13 @@ title: "Neautomatinio darbo eigos sprendimo konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuoto sprendimo ypatybes."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,10 +152,10 @@ Pranešimus žmonėms galima siųsti, kai sprendimas atliekamas, perduodamas arb
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     </tr>
     <tr class="even">
     <td>Vartotojas</td>
-    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Finance and Operations” vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite priskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Jei per skirtąjį laiką vartotojas sprendimo nepriims, sprendimas bus laikomas
     </tr>
     <tr class="odd">
     <td>Vartotojas</td>
-    <td>Konkretūs „Dynamics 365 for Operations“ vartotojai</td>
+    <td>Konkretūs „Finance and Operations” vartotojai</td>
     <td><ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Dynamics 365 for Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

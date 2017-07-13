@@ -1,9 +1,9 @@
 ---
 title: "„Lean manufacturing“ apžvalga"
-description: "Šiame skyriuje pateikiami „Microsoft Dynamics AX lean manufacturing“ funkcijų apžvalga ir aprašymas."
+description: "Šiame straipsnyje pateikiami „Microsoft Dynamics 365 for Finance and Operations“ funkcijų apžvalga ir aprašymas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame skyriuje pateikiami „Microsoft Dynamics AX lean manufacturing“ funkcijų apžvalga ir aprašymas.
+Šiame straipsnyje pateikiami „lean manufacturing“ funkcijų programoje „Microsoft Dynamics 365 for Finance and Operations“ apžvalga ir aprašymas.
 
 „Lean manufacturing‟ siūlo įrankius, kuriuos galite naudoti „lean‟ operacijoms modeliuoti. Šie įrankiai palaiko ir skatina toliau nurodytas koncepcijas ir verslo veiklas.
 -   Gamybos ir logistikos procesus modeliuojant kaip gamybos eigas, kurti „lean manufacturing‟ platformą.
 -   Naudojant „kanban‟, diegti „lean‟ traukimo sistemą, siekiant signalizuoti paklausos reikalavimus.
 -   Stebėti ir tvarkyti „kanban“ užduotis.
 
-„Lean manufacturing‟ architektūrą programoje „Microsoft Dynamics AX 7‟ sudaro gamybos eigos, veiklos ir „kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Microsoft Dynamics AX 7‟ procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
+„Lean manufacturing‟ architektūrą programoje „Finance and Operations‟ sudaro gamybos eigos, veiklos ir „kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Finance and Operations” procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
 | **Svarbu**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| „Microsoft Dynamics AX 7‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ įgyvendinimas su „kanban‟. Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
+| „Finance and Operations‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ su „kanban‟ įgyvendinimas Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Gamybos ir logistikos procesų modeliavimas kaip gamybos eigų
 Norėdami sukurti „lean manufacturing‟ platformą, gamybos ir logistikos procesus modeliuokite kaip gamybos eigas. Šią veiklą sudaro toliau pateiktos užduotys.
@@ -71,8 +71,8 @@ Toliau pateiktame sąraše aprašomos specializuotos „kanban“ sritys.
 -   Perkėlimo užduočių „kanban“ sritis – šioje srityje apžvelgiamos dabartinės perkėlimo užduotys. Galite atnaujinti ir registruoti išrinkimo dokumentus, pradėti ir užbaigti perkėlimo užduotis ir atlikti kitas užduotis.
 -   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima nustatyti „kanban‟ prioritetus, jas parinkti ar gaminti. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „kanban‟ ataskaitas.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a> „Kanban“ užduotys ir integracija su „Microsoft Dynamics AX‟ procesais
-„Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Microsoft Dynamics AX‟ atsargų operacijų procesais.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>„Kanban“ užduotys ir integravimas su „Finance and Operations” procesais
+„Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Finance and Operations‟ atsargų operacijų procesais.
 -   Galite atlikti parinkimo veiklas, kad papildytumėte medžiagą, naudojamą vykdyti „kanban“ užduočių reikalavimams.
 -   Galite spausdinti „kanban“ korteles, cirkuliuojamąsias „kanban“ korteles ir išrinkimo dokumentus, kad būtų palaikomas „kanban“ naudojimas. Šie dokumentai naudojami atstoti, sekti ir registruoti „kanban“ užduotims sandėlyje ir gamybos ceche.
 -   Registruoti atsargų išrinkimo ir perkėlimo veiklas galite nuskaitydami brūkšninius kodus.

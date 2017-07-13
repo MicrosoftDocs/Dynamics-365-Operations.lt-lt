@@ -1,15 +1,15 @@
 ---
 title: "Vienas kvitas su keliais kliento arba tiekėjo įrašais"
-description: "Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui."
+description: "Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Būsimose „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo versijose ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimų apdorojimo procesui."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui. 
+Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Būsimose „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo versijose ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimų apdorojimo procesui. 
 
 Prie pavyzdžių, kai vienas kvitas naudojamas keliems klientams arba tiekėjams, galima priskirti balanso perkėlimus tarp klientų ir padengimo balansus tarp klientų ir tiekėjų toje pačioje organizacijoje. 
 
@@ -50,7 +50,7 @@ Registruojant kvitą, kuriame yra keletas kliento arba tiekėjo įrašų, sukuri
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-cash-discount-accounting"></a>Vienas kvitas su keliais tiekėjais ir poveikis mokėjimo nuolaidos apskaitai
 
-Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas**kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose.
+Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas** kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose.
 
 |             |                  |              |                 |           |            |
 |-------------|------------------|--------------|-----------------|-----------|------------|
@@ -120,7 +120,7 @@ Dabar, kai apmokama INV2, pateikiamas toliau nurodytas įrašas. Atkreipkite dė
 | GNJL001     | Tiekėjas           | 1001        | INV1            |           | 100,00     | DK           | 606300-001-- |
 | GNJL001     | Tiekėjas           | 1001        | INV2            |           | 200,00     | DK           | 606300-002-- |
 
-Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas**kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose. Užregistravus sukuriamas vienas kvitas.
+Toliau pateikiamame pavyzdyje kelių tiekėjų sąskaitos faktūros įrašomos į didžiąją knygą viename puslapio **Bendrasis žurnalas** kvite. Šios sąskaitos faktūros paskirstomos kelių sąskaitų dimensijose. Užregistravus sukuriamas vienas kvitas.
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
@@ -162,7 +162,7 @@ Dabar, kai apmokama INV2, pateikiamas toliau nurodytas įrašas. Atkreipkite dė
 | 14000056    | 200110-001- | Tiekėjo balansas     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Vienas kvitas balanso perkėlimams ir padengimo scenarijams
-Du dažniausiai naudojami scenarijai, kai naudojamas vienas kvitas, kuriame yra keli klientai arba tiekėjai, apima balanso perkėlimus iš vieno kliento / tiekėjo kitam klientui / tiekėjui ir kliento bei tiekėjo, kurie yra ta pati organizacija, padengimą. Toliau pateiktuose dviejuose pavyzdžiuose nurodomas pageidaujamas šių scenarijų įvedimo į „Dynamics 365 for Operations“ būdas, kaip alternatyva užuot įvedus juos į vieną kvitą. 
+Du dažniausiai naudojami scenarijai, kai naudojamas vienas kvitas, kuriame yra keli klientai arba tiekėjai, apima balanso perkėlimus iš vieno kliento / tiekėjo kitam klientui / tiekėjui ir kliento bei tiekėjo, kurie yra ta pati organizacija, padengimą. Toliau pateiktuose dviejuose pavyzdžiuose nurodomas pageidaujamas šių scenarijų įvedimo į „Finance and Operations“ būdas, kaip alternatyva jų įvedimui į vieną kvitą. 
 
 *Balanso perkėlimas* yra vienas kvitas su keliais klientais, kurie įvesti siekiant perkelti balansą iš vieno kliento kitam klientui (taip pat tiekėjui). Šis scenarijus gali įvykti, kai atsakomybė apmokėti sąskaitą faktūrą perkeliama kitai šaliai, pavyzdžiui, kai antrinė įmonė perkelia atsakomybę pirminei įmonei. 
 
@@ -176,7 +176,7 @@ Du dažniausiai naudojami scenarijai, kai naudojamas vienas kvitas, kuriame yra 
 | 401100-002-023-    | Įplaukos          |           | 100        |
 | 130100-002-        | Kliento balansas | 100       |            |
 
-Po to vartotojas perkelia mokėtiną balansą iš ACME draudimo įmonei viename kvite gautinų sumų mokėjimo žurnale. Naudojant „Dynamics 365 for Operations“ draudimo įmonė nustatoma kaip kliento draudimas.
+Po to vartotojas perkelia mokėtiną balansą iš ACME draudimo įmonei viename kvite gautinų sumų mokėjimo žurnale. Naudojant „Finance and Operations“ draudimo įmonė nustatoma kaip kliento draudimas.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

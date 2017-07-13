@@ -1,15 +1,15 @@
 ---
 title: "Banko išrašų derinimas naudojant išplėstinį banko banko derinimą"
-description: "Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Operations“. Šioje temoje paaiškinamas derinimo procesas."
+description: "Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šioje temoje paaiškinamas derinimo procesas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,20 +17,20 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko banko derinimą
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko derinimą
 
 [!include[banner](../includes/banner.md)]
 
 
-Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Operations“. Šioje temoje paaiškinamas derinimo procesas.  
+Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šioje temoje paaiškinamas derinimo procesas.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektroninio banko išrašo importavimas
 -----------------------------------
@@ -44,7 +44,7 @@ Galite nusiųsti banko išrašą, kuriame yra informacija apie vieną ar kelias 
 
 Jei kurių nors elektroninio failo įrašų negalima susieti su banko sąskaita naudojant identifikavimo laukus, jie nebus importuojami. Tačiau kiti failo įrašai gali būti importuojami. Tada vartotojas gauna pranešimą, kuriame teigiama, kad tam tikrų banko sąskaitų banko išrašų importuoti nepavyko. Atkreipkite dėmesį, kad norėdamas importuoti juridinio subjekto banko sąskaitas banko išrašo failą importuojantis vartotojas turi turėti prieigą prie to juridinio subjekto. 
 
-Norėdami nusiųsti kelis išrašo failus į „Microsoft Dynamics 365 for Operations“ vienu veiksmu, galite naudoti „zip“ failą. Norėdami importuoti kelis kelių sąskaitų banko išrašo failus, sujunkite visus banko išrašo failus į vieną „zip“ failą. Dialogo lange **Importuoti banko išrašus** nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte banko išrašo failų „zip“ failą, o tada spustelėkite **Nusiųsti**. Importavimo procesas atpažįsta „zip“ failą ir įkelia kiekvieną į jį įtrauktą išrašą, nepriklausomai nuo to, koks yra banko sąskaitos juridinis subjektas. 
+Norėdami vienu veiksmu į „Finance and Operations“ nusiųsti kelis išrašų failus, galite naudoti „zip“ failą. Norėdami importuoti kelis kelių sąskaitų banko išrašo failus, sujunkite visus banko išrašo failus į vieną „zip“ failą. Dialogo lange **Importuoti banko išrašus** nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte banko išrašo failų „zip“ failą, o tada spustelėkite **Nusiųsti**. Importavimo procesas atpažįsta „zip“ failą ir įkelia kiekvieną į jį įtrauktą išrašą, nepriklausomai nuo to, koks yra banko sąskaitos juridinis subjektas. 
 
 Galima naudoti parinktį **Suderinti importavus**. Kai nustatote šios parinkties nuostatą **Taip**, sistema automatiškai patvirtina banko išrašą, sukuria naują banko derinimą ir darbalapį bei vykdo numatytąją gretinimo taisyklę, nustatytą nusiunčiant banko išrašą. Ši funkcija automatizuoja procesą iki to momento, kai operacijas reikia gretinti neautomatiniu būdu.
 
@@ -76,7 +76,7 @@ Gretinti arba derinti banko išrašo operacijas galima trimis būdais.
 
 -   Derinti operacijas su „Operations“ banko operacijomis.
 -   Derinti operacijas su atšaukimo banko išrašo operacija.
--   Pažymėti operacijas kaip **Nauja**, kad jas vėliau būtų galima registruoti kaip banko operacijas programoje „Dynamics 365 for Operations“.
+-   Pažymėti operacijas kaip **Nauja**, kad jas vėliau būtų galima registruoti kaip banko operacijas sprendime „Finance and Operations“.
 
 Norėdami patys gretinti operacijas, pasirinkite operacijas tinklelyje **Banko išrašo operacijos**, pasirinkite atitinkamas operacijas tinklelyje **„Operations“ banko operacijos**, o tada spustelėkite **Gretinti**. Pasirinktos operacijos perkeliamos iš viršutinių nesugretintų operacijų tinklelių į apatinius sugretintų operacijų tinklelius. Be to, atnaujinamos bendrosios sugretintos ir nesugretintos sumos. Galite derinti vieną su viena operacija, kelias su viena operacija arba kelias su keliomis operacijomis. Gretinant privaloma laikytis leidžiamų datų nuokrypių ir operacijos tipo susiejimo taisyklių. Šios taisyklės nustatomos puslapyje **Grynųjų pinigų ir banko valdymo parametrai**.
 
@@ -86,7 +86,7 @@ Banko išrašo operacijų atšaukimai yra sugretinami naudojant derinimo darbala
 
 Atšauktas „Operations“ banko operacijas reikia suderinti naudojant puslapį **„Operations“ banko operacijos**. Galite suderinti dvi „Operations“ banko operacijas tarpusavyje, jei dokumentų banko sąskaita, dokumento tipas ir mokėjimo nuoroda sutampa ir jei dokumentų sumos yra priešingos. Taip pat galite suderinti vieną atšauktą čekį, kad tos operacijos nebūtų rodomos derinimo darbalapyje. 
 
-Jei yra naujų banko inicijuotų operacijų, pvz., palūkanų, mokesčių ir išlaidų, kurių dar nėra programoje „Dynamics 365 for Operations“, galite jas įtraukti į žurnalą, kuris yra susietas su pasirinktu banko išrašo derinimu. Pasirinkite banko išrašo operaciją nesugretintų operacijų tinklelyje **Banko išrašo operacijos**, o tada spustelėkite **Pažymėti kaip naują**. Operacijos būsena nustatoma kaip **Nauja** ir operacija yra perkeliama į sugretintų operacijų tinklelį **Banko išrašo operacijos**. Operacijos, kurių būsena pažymėta kaip **Nauja**, registruojamos vėliau puslapyje **Banko išrašas**. 
+Jei yra naujų banko inicijuotų operacijų, pvz., palūkanų, mokesčių ir išlaidų, kurių dar nėra sprendime „Finance and Operations“, galite jas įtraukti į žurnalą, kuris yra susietas su pasirinktu banko išrašo derinimu. Pasirinkite banko išrašo operaciją nesugretintų operacijų tinklelyje **Banko išrašo operacijos**, o tada spustelėkite **Pažymėti kaip naują**. Operacijos būsena nustatoma kaip **Nauja** ir operacija yra perkeliama į sugretintų operacijų tinklelį **Banko išrašo operacijos**. Operacijos, kurių būsena pažymėta kaip **Nauja**, registruojamos vėliau puslapyje **Banko išrašas**. 
 
 Netinkamai sugretintų operacijų gretinimą galima atšaukti. Pasirinkite suderintą banko išrašo operaciją ir tada spustelėkite **Atšaukti gretinimą**. Visos susijusios operacijos yra perkeliamos į viršutinį nesugretintų operacijų tinklelį ir atnaujinamos bendrosios sugretintos ir nesugretintos sumos. 
 

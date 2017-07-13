@@ -3,15 +3,15 @@ title: "Trišalės atitikimo strategijos"
 description: "Šiame straipsnyje pateikiami trišalio atitikimo pavyzdžiai."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ ms.lasthandoff: 05/25/2017
 1.  Sammy, „Fabrikam“ gavimo padalinio darbuotojas, gavo visą kiekį įrenginių, išsiųstų iš „Contoso“. Produkto gavimo dokumente jis įveda kiekį 5. Kadangi gautas visas pirkimo užsakymas, pirkimo užsakymo būsena pasikeičia į Gauta.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
-    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, ar sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti programoje „Microsoft Dynamics 365 for Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
+    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Tai apima toliau nurodytus kainų gretinimo tipus.
         -   Grynosios vieneto kainos gretinimas – grynoji vieneto kaina sąskaitos faktūros eilutėje atitinka grynąją vieneto kainą pirkimo užsakymo eilutėje leistino nuokrypio procento ribose. Šiame pavyzdyje grynosios vieneto kainos leistinas nuokrypis yra + 8 %.
         -   Kainų grynųjų sumų gretinimas – grynoji suma sąskaitos faktūros eilutėje atitinka grynąją sumą pirkimo užsakymo eilutėje leistino nuokrypio procento, sumos arba procento ir sumos ribose. Šiame pavyzdyje kainų grynųjų sumų leistinas nuokrypis yra + 15 %.
 
@@ -77,9 +77,9 @@ Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 | 1500 – „CNC Milicron“ įrenginys | 5        | 8 100,00   | 40 500,00  |
 | Siuntimas ir tvarkymas       |          |            | 4 000,00   |
 | Mokesčiai                         |          |            | 0,00       |
-| Bendroji suma                       |          |            | 44 500,00  |
+| Iš viso                       |          |            | 44 500,00  |
 
-Programoje „Microsoft Dynamics 365 for Operations“ į sąskaitos faktūros eilutę įtraukiama toliau nurodyta informacija.
+Sprendime „Finance and Operations“ sąskaitos faktūros eilutėje pateikiama tolesnė informacija.
 
 | Prekės Nr.                 | Kiekis | Vnt. kaina | Grynoji eilutės suma | Atitikimo strategija    | Gavimo dokumentų kiekio sugretinimas | Kainos gretinimas | Kainos sumos gretinimas |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Kiekis ir sumos yra mažos, kilo problemų su pristatymu iš kai kurių tiekėj�
 1.  Prekės pristatomos. Sammy, „Fabrikam“ gavimo skyriaus Malaizijoje darbuotojas, sutrukdomas, todėl produkto gavimo kvitą užregistruoja ne iš karto.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
-    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, ar sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti programoje „Microsoft Dynamics 365 for Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
+    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti sprendime „Finance and Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
         -   Grynosios vieneto kainos gretinimas – grynoji vieneto kaina sąskaitos faktūros eilutėje atitinka grynąją vieneto kainą pirkimo užsakymo eilutėje leistino nuokrypio procento ribose. Šiame pavyzdyje grynosios vieneto kainos leistinas nuokrypis yra + 2 %.
         -   Kainų grynųjų sumų gretinimas – grynoji suma sąskaitos faktūros eilutėje atitinka grynąją sumą pirkimo užsakymo eilutėje leistino nuokrypio procento, sumos arba procento ir sumos ribose. Šiame pavyzdyje kainų grynųjų sumų leistinas nuokrypis yra + 10 %.
 
@@ -128,7 +128,7 @@ Popierinėje „Contoso“ sąskaitoje faktūroje pateikta ši informacija.
 | USB atmintukas             | 200      | 10,05      | 2 010,00   |
 | Visa SF         |          |            | 7 092,00   |
 
-Programoje „Microsoft Dynamics 365 for Operations“ į sąskaitos faktūros eilutę įtraukiama toliau nurodyta informacija.
+Sprendime „Finance and Operations“ sąskaitos faktūros eilutėje pateikiama tolesnė informacija.
 
 | Prekės Nr.           | Kiekis | Vnt. kaina | Grynoji eilutės suma | Atitikimo strategija    | Gavimo dokumentų kiekio sugretinimas | Kainos gretinimas | Kainos sumos gretinimas |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

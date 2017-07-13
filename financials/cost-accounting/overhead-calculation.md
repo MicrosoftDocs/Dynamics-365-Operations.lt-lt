@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Išsamesnės informacijos apie pridėtinių išlaidų tarifo strategiją žr. te
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4 veiksmas: išlaidų paskirstymo skaičiavimo apdorojimas
 
-Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Microsoft Dynamics 365 for Operations“ palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso. [![Abipusis metodas](./media/reciprocal-method.png)]
+Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Finance and Operations” palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso. [![Abipusis metodas](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Išlaidų paskirstymo nustatymas
 
@@ -724,7 +724,7 @@ Išlaidų objekto CC004 pakavimo padalinys prisideda prie kelių išlaidų objek
 </tbody>
 </table>
 
-**Pastaba:** programoje „Dynamics 365 for Operations“ statistinės priemones, pvz., sugaištų produkto gamybos valandų skaičių, galima gauti iš duomenų šaltinio. Išsamesnės informacijos apie statistinių priemonių teikimo įrankius žr. temoje Statistinės priemonės teikimo įrankio šablonas. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.) Toliau pateikiamoje lentelėje rodoma, kas nutinka pritaikius personalo paslaugas kaip visų išlaidų (fiksuotos savikainos ir kintamos savikainos) paskirstymo pagrindą.
+**Pastaba:** programoje „Finance and Operations“ statistines priemones, pvz., produkto gamybai sugaištų valandų skaičių, galima gauti iš šaltinio duomenų. Išsamesnės informacijos apie statistinių priemonių teikimo įrankius žr. temoje Statistinės priemonės teikimo įrankio šablonas. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.) Toliau pateikiamoje lentelėje rodoma, kas nutinka pritaikius personalo paslaugas kaip visų išlaidų (fiksuotos savikainos ir kintamos savikainos) paskirstymo pagrindą.
 
 <table>
 <thead>

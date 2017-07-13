@@ -1,16 +1,16 @@
 ---
 title: "Vėlesni čekiai"
-description: "Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos."
+description: "Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3e59ae5126cd21e668459686133ba8bcf728df3
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
+Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 
-„Microsoft Dynamics 365 for Operations“ palaiko visą vėlesnių čekių valdymo ciklą ir gautinose sumose, ir mokėtinose sumose, kaip parodyta pateiktoje lentelėje.
+„Microsoft Dynamics 365 for Finance and Operations“ palaiko visą vėlesnių čekių valdymo ciklą ir Gautinose sumose, ir Mokėtinose sumose, kaip parodyta pateiktoje lentelėje.
 <table>
 <colgroup>
 <col width="50%" />

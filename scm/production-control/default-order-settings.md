@@ -1,16 +1,16 @@
 ---
 title: "Numatytieji dimensijų ir produkto variantų užsakymo parametrai"
-description: "Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai."
+description: "Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemOrderSetup
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,20 +19,22 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db2398e85d5f49cece4f406b2244cf072cce083d
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: b4e8ff363a98f8dfc90af0133807373566531568
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymo parametrai
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
+
+Numatytuose „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
 
 Numatytuosius užsakymo parametrus galite nustatyti puslapyje **Numatytieji užsakymo parametrai**. Norėdami atidaryti šį puslapį, pasirinkite **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Išleisti produktai** &gt; ir pasirinkite išleistą produktą &gt; dalies **Planas** arba ****Valdyti atsargas**** veiksmų srityje: &gt; **Užsakymo parametrai** &gt; **Numatytieji užsakymo parametrai**.
 
@@ -74,7 +76,7 @@ Numatytieji atsargų užsakymo parametrai taip pat taikomi kuriant:
 -   Suplanuoti gamybos užsakymai
 
 ## <a name="full-definition-of-a-released-product"></a>Visas išleisto produkto aprašas
-Kurdami operaciją eilutėje turite nurodyti visą išleisto produkto apibrėžimą prieš tai, kai „Dynamics 365 for Operations“ pabandys nustatyti numatytuosius užsakymo parametrus. Visas išleisto produkto apibrėžimas reiškia, kad prekės numeris ir visos aktyvios produkto dimensijos, pavyzdžiui, konfigūracija, dydis, stilius ir spalva yra nurodytos operacijoje. Pavyzdžiui, jei rankiniu būdu kuriate išleisto produkto varianto pirkimo užsakymo eilutę, turite nurodyti visas reikiamas produkto dimensijas prieš tai, kai pagal numatytuosius parametrus užsakymo eilutėje bus rodoma vieta, sandėlis, kiekiai ir vykdymo laikas. 
+Kurdami operaciją eilutėje turite nurodyti visą išleisto produkto apibrėžimą prieš tai, kai „Finance and Operations“ pabandys nustatyti numatytuosius užsakymo parametrus. Visas išleisto produkto apibrėžimas reiškia, kad prekės numeris ir visos aktyvios produkto dimensijos, pavyzdžiui, konfigūracija, dydis, stilius ir spalva yra nurodytos operacijoje. Pavyzdžiui, jei rankiniu būdu kuriate išleisto produkto varianto pirkimo užsakymo eilutę, turite nurodyti visas reikiamas produkto dimensijas prieš tai, kai pagal numatytuosius parametrus užsakymo eilutėje bus rodoma vieta, sandėlis, kiekiai ir vykdymo laikas. 
 
 Ne visi numatytieji užsakymo parametrai taikomi kuriant užsakymą arba žurnalo eilutes. Kiekiai ir vykdymo laikai bus rodomi tik pagal numatytuosius parametrus ir tik prireikus. Pavyzdžiui, skaičiuojant žurnalo eilutę, kai sukurta eilutė, pagal numatytuosius parametrus rodoma tik vieta ir sandėlis. Žinoma, kuriant eilutę arba registruojant žurnalą nenustatomos jokios numatytosios kiekio reikšmės ir neatliekami jokie kartotinių ir minimalių reikšmių patikrinimai. 
 
@@ -97,7 +99,7 @@ Atskiriems išleistiems produktams galite nurodyti bendruosius užsakymo paramet
 
 Norėdami sukurti konkrečiai vietai pritaikytus užsakymo parametrus, spustelėkite **Naujas**. Dalies **Informacijos rodinys** lauke **Parametrai taikomi** &gt; **Vieta** įveskite vietą. **Tinklelio rodinys** stulpelyje **Vieta** įveskite vietą. Naujai taisyklei bus automatiškai suteikta nauja reitingo reikšmė, didesnė už nulį. Galite sukurti tiek vietai pritaikytų taisyklių, kiek reikia, ir visoms vietai pritaikytoms taisyklėms galite priskirti tą patį reitingą, kad nurodytumėte, jog jos vienodai svarbios. 
 
-Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Perjunkite mygtuką **Rodyti / slėpti sąrašą**, kad pamatytumėte peržiūros informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Dynamics 365 for Operations“ ieško taisyklės, kurioje nenurodyta vieta. Tai gali padėti nustatyti numatytąją užsakymo eilutės vietą. Tada ši vieta naudojama ieškant vietai pritaikytos taisyklės, kurioje gali būti nustatytas numatytasis sandėlis. Šis sandėlis taikomas užsakymo eilutei.
+Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Perjunkite mygtuką **Rodyti / slėpti sąrašą**, kad pamatytumėte peržiūros informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Finance and Operations“ ieško taisyklės, kurioje nenurodyta vieta. Tai gali padėti nustatyti numatytąją užsakymo eilutės vietą. Tada ši vieta naudojama ieškant vietai pritaikytos taisyklės, kurioje gali būti nustatytas numatytasis sandėlis. Šis sandėlis taikomas užsakymo eilutei.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Produkto dimensijai pritaikyti užsakymo parametrai
 
@@ -134,7 +136,7 @@ Galite sukurti toliau nurodytus numatytuosius užsakymo parametrus.
 
 Dviejų senų peržiūrų stabdymui skirtų taisyklių reitingas toks pats, o tai reiškia, kad jos yra vienodai svarbios. Abiejų jų reitingas aukštesnis negu konfigūracijos C1 taisyklės reitingas, o tai reiškia, kad jos svarbesnės negu konfigūracijos C1 taisyklė. 
 
-Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei pirkimo užsakymas sukuriamas konfigūracijai C1 ir peržiūrai R2, kai nenurodytas reitingas, šios dvi R2 ir C1 nurodytos taisyklės būtų nevienareikšmiškos. Norėdama išspręsti dviprasmiškumo problemą „Dynamics 365 for Operations“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Dabartiniame pavyzdyje, kai pirkimo užsakymo eilutė sukuriama konfigūracijai C1 ir peržiūrai R2, vartotojas gaus įspėjantį pranešimą, kad prekė sulaikyta ir kad tai įvyko dėl peržiūros vertės. Jei konfigūracijos taisyklės reitingas aukštesnis negu peržiūros taisyklės reitingas, tada konfigūracijos C1 ir peržiūros R2 pirkimo užsakymo eilutė sukuriama sėkmingai ir vartotojas negaus pranešimo „prekė sulaikyta“. 
+Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei pirkimo užsakymas sukuriamas konfigūracijai C1 ir peržiūrai R2, kai nenurodytas reitingas, šios dvi R2 ir C1 nurodytos taisyklės būtų nevienareikšmiškos. Norėdama išspręsti dviprasmiškumo problemą „Finance and Operations“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Dabartiniame pavyzdyje, kai pirkimo užsakymo eilutė sukuriama konfigūracijai C1 ir peržiūrai R2, vartotojas gaus įspėjantį pranešimą, kad prekė sulaikyta ir kad tai įvyko dėl peržiūros vertės. Jei konfigūracijos taisyklės reitingas aukštesnis negu peržiūros taisyklės reitingas, tada konfigūracijos C1 ir peržiūros R2 pirkimo užsakymo eilutė sukuriama sėkmingai ir vartotojas negaus pranešimo „prekė sulaikyta“. 
 
 Atsižvelkite į toliau nurodytas numatytojo užsakymo parametro taisykles.
 
@@ -150,9 +152,9 @@ Paprastai specialiųjų taisyklių ir svarbesnių negu kitos dimensijos dimensij
 
 Taisyklė, kurios reitingas nulis, naudojama kaip apsauginė sąlyga. Jei nėra kitų taisyklių, tada naudojami nulinės taisyklės numatytieji užsakymo parametrai. 
 
-Kadangi labai svarbus reitingo skaičius, veiksmų srityje **Numatytieji užsakymo parametrai**pateikiamos funkcijos, kuriomis naudojantis galima perkelti taisyklę aukštyn arba žemyn ir iš naujo numeruoti taisykles, taip, kad jos būtų visada išdėstomos intervalais po 10. 
+Kadangi labai svarbus reitingo skaičius, veiksmų srityje **Numatytieji užsakymo parametrai** pateikiamos funkcijos, kuriomis naudojantis galima perkelti taisyklę aukštyn arba žemyn ir iš naujo numeruoti taisykles, taip, kad jos būtų visada išdėstomos intervalais po 10. 
 
-Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Norint geriau suprasti, ko nepaisoma vadovaujantis kiekviena taisykle ir kodėl kiekviena taisyklė reikalinga, rekomenduojame naudoti puslapyje**Numatytieji užsakymo parametrai** esantį **Tinklo rodinį**. Tinklelį galite įgalinti pasirinkdami **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Pakeisti rodinį** &gt; **Tinklo rodinys**. Tinklelyje rodomų stulpelių skaičius gali būti gana svarbus, ypač pardavimo ir atsargų skirtukuose. Norint apriboti tinklelyje rodomų stulpelių skaičių, stulpelių grupes galima paslėpti arba rodyti naudojant meniu **Numatytieji užsakymo parametrai** &gt; **Stulpelio rodinys** mygtukus.
+Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Norint geriau suprasti, ko nepaisoma vadovaujantis kiekviena taisykle ir kodėl kiekviena taisyklė reikalinga, rekomenduojame naudoti puslapyje **Numatytieji užsakymo parametrai** esantį **Tinklo rodinį**. Tinklelį galite įgalinti pasirinkdami **Parinktys** Veiksmų sritis &gt; **Puslapio parinktys** &gt; **Pakeisti rodinį** &gt; **Tinklo rodinys**. Tinklelyje rodomų stulpelių skaičius gali būti gana svarbus, ypač pardavimo ir atsargų skirtukuose. Norint apriboti tinklelyje rodomų stulpelių skaičių, stulpelių grupes galima paslėpti arba rodyti naudojant meniu **Numatytieji užsakymo parametrai** &gt; **Stulpelio rodinys** mygtukus.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Išleisto produkto variantui pritaikyti užsakymo parametrai
 

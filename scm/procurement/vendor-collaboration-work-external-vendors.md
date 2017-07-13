@@ -1,9 +1,9 @@
 ---
 title: "Tiekėjo bendradarbiavimas su išoriniais tiekėjais"
 description: "Šioje temoje paaiškinama, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas."
-author: YuyuScheller
+author: BibiSp
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b141ed78306504949eae641377b5c5a2b0599572
+ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
+ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/15/2017
 
 
 ---
@@ -32,25 +32,28 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje paaiškinama, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas.
 
-Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Operations‟. Jis suteikia tiekėjams galimybę dirbti su pirkimo užsakymo, SF ir konsignacijos atsargų informacija. Šioje temoje aprašoma, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU ir konsignacijos atsargomis. Joje taip pat aprašoma, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU. Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations‟. Jis suteikia tiekėjams galimybę dirbti su pirkimo užsakymo, SF ir konsignacijos atsargų informacija. Šioje temoje aprašoma, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU ir konsignacijos atsargomis. Joje taip pat aprašoma, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU. Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
+Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 
-## <a name="define-the-information-shown-to-vendors-when-they-respond-to-pos"></a>Į PU atsakantiems tiekėjams rodomos informacijos nustatymas
-Kai tiekėjai atsako į jiems siunčiamą PU, jie mato dialogo langą, kuriame jie turi patvirtinti, kad nori priimti, atmesti arba priimti PU su keitimais. Informacija, kuri tuo metu turi būti rodoma tiekėjui, gali būti konkrečiai susijusi su jūsų verslu, todėl galite nurodyti tekstą, kuris bus rodomas kiekviename iš trijų patvirtinimo pranešimų. Pvz., tekstas tiekėją gali informuoti apie kitus proceso etapus arba apie sąlygas.  
+Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+
+Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
+
+## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Nustatykite informaciją, kuri rodoma tiekėjams, atsakantiems į PU
+Kai tiekėjai atsako į jiems siunčiamą PU, jie mato pranešimo langą, kuriame turi patvirtinti, kad nori priimti, atmesti arba priimti PU su keitimais. Informacija, kuri tuo metu turi būti rodoma tiekėjui, gali būti konkrečiai susijusi su jūsų verslu, todėl galite nurodyti tekstą, kuris bus rodomas kiekviename iš trijų patvirtinimo pranešimų. Pvz., tekstas tiekėją gali informuoti apie kitus proceso veiksmus arba apie sąlygas.  
 
 Norėdami nurodyti tekstą, kuris rodomas PU atsakyme, atlikite tolesnius veiksmus.
 
 1.  Atidarykite puslapį **Informacija tiekėjams, atsakantiems į PU**.
 2.  Pasirinkite vieną iš atsakymų tipų.
-3.  Spustelėkite **Redaguoti.**
+3.  Spustelėkite **Redaguoti**.
 4.  Įveskite informaciją, kurią tiekėjai turėtų matyti lauke **informacinis pranešimas**.
 
-Jei norite įtraukti pranešimų daugiau nei viena kalba, kurkite atskirus pranešimus su atitinkamos kalbos kodais. Tiekėjas pranešimą matys ta kalba, kurią jis naudoja.
+Jei turite įtraukti pranešimų daugiau nei viena kalba, kurkite atskirus pranešimus ir nurodykite kiekvieno tinkamus kalbų kodus. Tiekėjui pranešimas bus rodomas tiekėjo vartojama kalba.
 
 ## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Tiekėjo bendradarbiavimo parinkčių nustatymas konkrečiam tiekėjui
-„Dynamics 365 for Operations“ tiekėjo bendradarbiavimo bendruosius parametrus konfigūruoja administratorius. Pvz., jie nustato, kuriuos saugos vaidmenis gali naudoti visi tiekėjai, su kuriais bendradarbiaujate. Taip pat yra tam tikrų parametrų, kurie gali būti taikomi tiekėjams atskirai. Jums reikėtų nustatyti toliau pateiktus parametrus.
-
+„Finance and Operations“ tiekėjo bendradarbiavimo bendruosius parametrus konfigūruoja administratorius. Pvz., administratorius nustatys, kuriuos saugos vaidmenis gali naudoti visi tiekėjai, su kuriais bendradarbiaujate. Taip pat yra parametrų, kurie kiekvieno tiekėjo paskyroje gali būti rodomi skirtingai; juos reikia nustatyti:
 -   Įjunkite tiekėjo bendradarbiavimą.
 -   Nuspręskite, ar norite, kad tiekėjas matytų kainų informaciją.
 
@@ -68,11 +71,11 @@ Jei bendradarbiavimo sąsajoje norite bendrinti kainų informaciją, pvz., viene
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Darbas su PU naudojant tiekėjo bendradarbiavimą
 ### <a name="sending-a-po-to-the-vendor"></a>PU siuntimas tiekėjui
 
-Pirkimo užsakymai rengiami programoje „Dynamics 365 for Operations“. Kai PU būsena – **Patvirtintas**, jis tiekėjui siunčiamas naudojant puslapio **Pirkimo užsakymas** veiksmą **Siųsti patvirtinti**. PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjui, jis jį gali peržiūrėti tiekėjo bendradarbiavimo sąsajos puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti**, kuriame jie gali užsakymą priimti, atmesti ar siūlyti keitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
+Pirkimo užsakymai ruošiami programoje „Finance and Operations“. Kai PU būsena yra **Patvirtintas**, jis tiekėjui siunčiamas naudojant puslapio **Pirkimo užsakymas** veiksmą **Siųsti patvirtinti**. PU būsena pasikeičia į **Peržiūrima išorėje**. Išsiuntus PU tiekėjas gali matyti jį puslapyje **Pirkimo užsakymai, kuriuos galima peržiūrėti** tiekėjo bendradarbiavimo sąsajoje. Tada tiekėjas gali priimti užsakymą, jį atmesti arba pasiūlyti pakeitimų. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Tiekėjo PU patvirtinimas ir priėmimas
 
-Kai tiekėjas priima pirkimo užsakymą, PU gali būti patvirtintas automatiškai arba neautomatiškai. Patvirtinimo būdą lemia tiekėjo lauko **Tiekėjo aktyvinimas** reikšmė, kuri gali būti nustatyta **Aktyvus (PU yra automatiškai patvirtinamas)** arba **Aktyvus (PU automatiškai netvirtinamas)**.  
+Kai tiekėjas priima pirkimo užsakymą, PU gali būti patvirtintas automatiškai arba neautomatiškai. Tai priklauso nuo to, ar tiekėjo laukas **Tiekėjo aktyvinimas** nustatytas į parinktį **Aktyvus (PU yra automatiškai patvirtinamas)**, ar į **Aktyvus (PU automatiškai netvirtinamas)**.  
 
 Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsižvelgiant į tai, kaip tiekėjas atsako, kai siunčiate jam patvirtinti PU.
 
@@ -87,16 +90,22 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 <td><strong>Rezultatas</strong></td>
 </tr>
 <tr class="even">
-<td>Tiekėjas <strong>priima</strong> užsakymą. „Dynamics 365 for Operations‟ sukonfigūruota automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
-<td>Užsakymo būsena atnaujinama į <strong>Patvirtinta</strong>. Jei dėl kokios nors priežasties užsakymo patvirtinti nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip <strong>Priimta</strong>, tačiau PU būsena lieka <strong>Peržiūrima išorėje</strong>.</td>
+<td>Tiekėjas <strong>priima</strong> užsakymą. „Finance and Operations‟ sukonfigūruota automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
+
+<td>Užsakymo būsena atnaujinama į <strong>Patvirtinta</strong>. Jei dėl kokios nors priežasties užsakymo patvirtinti nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip <strong>Priimta</strong>, tačiau PU būsena lieka <strong>Peržiūrima išorėje</strong>. 
+
+PU, kuris buvo išsiųstas tiekėjui ir kurio būsena **Peržiūrima išorėje**, atnaujinamas eilutėse patvirtintomis pristatymo datomis. Naujinimas inicijuoja naują versiją, kuri automatiškai atnaujinama į būseną **Patvirtinta**. Kai PU patvirtinamas, jis pasirodys tiekėjo bendradarbiavimo sąsajoje.</td>
 </tr>
 <tr class="odd">
-<td>Tiekėjas <strong>priima</strong> užsakymą. „Dynamics 365 for Operations‟ nėra sukonfigūruota automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
-<td>Tiekėjo atsakymas įrašomas kaip <strong>Priimta</strong>, bet PU būsena lieka <strong>Peržiūrima išorėje</strong>.</td>
+<td>Tiekėjas <strong>priima</strong> užsakymą. „Finance and Operations‟ nesukonfigūruota automatiškai patvirtinti PU, kai juos priima tiekėjas.</td>
+<td>Tiekėjo atsakymas įrašomas kaip <strong>Priimta</strong>, bet PU būsena lieka <strong>Peržiūrima išorėje</strong>.
+
+PU, kuris buvo išsiųstas tiekėjui ir kurio būsena **Peržiūrima išorėje**, atnaujinamas eilutėse patvirtintomis pristatymo datomis. Naujinimas inicijuoja naują versiją, kuri bus nustatyta į **Peržiūrima išorėje**. Tada galėsite rankiniu būdu patvirtinti PU.</td>
+
 </tr>
 <tr class="even">
 <td>Tiekėjas <strong>atmeta</strong> užsakymą.</td>
-<td>Tiekėjo atsakymas įrašomas kaip <strong>Atmesta</strong> ir PU būsena lieka <strong>Peržiūrima išorėje</strong>. Atmetimas gaunamas kartu su tiekėjų pastaba.</td>
+<td>Tiekėjo atsakymas įrašomas kaip <strong>Atmesta</strong> ir PU būsena lieka <strong>Peržiūrima išorėje</strong>. Atmetimas gaunamas kartu su tiekėjo pastaba.</td>
 </tr>
 <tr class="odd">
 <td>Tiekėjas <strong>priima užsakymą su pakeitimais</strong>. Pakeitimai siūlomi eilutės lygiu. Galima priimti arba atmesti atskiras eilutes. Toliau pateikti kiti galimi keitimai.
@@ -106,7 +115,7 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 <li>Prekės pakeitimas.</li>
 </ul>
 Tiekėjas negali keisti kainų informacijos ir išlaidų. Tokių keitimų pasiūlymus galima pateikti naudojant pastabas.</td>
-<td>Tiekėjo atliktas veiksmas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, <strong></strong> o PU būsena lieka <strong>Peržiūrimas išorėje</strong>.</td>
+<td>Tiekėjo atsakymas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, o PU būsena lieka <strong>Peržiūrima išorėje</strong>. Būsenos rodo, kokių tipų pakeitimus tiekėjas pasiūlė. Informacijos apie automatinį pakeitimų naudojimą rasite tolesniame skyriuje, kaip atnaujinti PU, kai tiekėjas pasiūlo pakeitimų. </td>
 </tr>
 </tbody>
 </table>
@@ -118,7 +127,7 @@ Naudodami darbo sritį **Pirkimo užsakymų** **paruošimas** galite stebėti PU
 
 ### <a name="changing-a-po"></a>PU keitimas
 
-Jei jums reikia pakeisti PU, į kurį jau atsakyta, siųskite tiekėjui naują PU versiją. Naujasis PU turės versijos priedėlį, kuris nurodys, kad PU yra modifikuota anksčiau paskelbto PU versija. Puslapyje **Pirkimo užsakymo tiekėjo patvirtinimo retrospektyva** jūs ir jūsų tiekėjai galite sekti kiekvieno užsakymo retrospektyvą. Anksčiau patvirtinta PU versija patvirtintų PU sąraše liks tol, kol bus patvirtintas naujasis PU.
+Norėdami pakeisti PU, į kurį jau atsakyta, turite nusiųsti tiekėjui naują PU versiją. Naujasis PU turės versijos priedėlį, kuris nurodys, kad PU yra modifikuota anksčiau paskelbto PU versija. Puslapyje **Pirkimo užsakymo tiekėjo patvirtinimo retrospektyva** jūs ir jūsų tiekėjai galite sekti kiekvieno užsakymo retrospektyvą. Anksčiau patvirtinta PU versija patvirtintų PU sąraše liks tol, kol bus patvirtintas naujasis PU.
 
 ### <a name="cancelling-a-po"></a>PU atšaukimas
 
@@ -126,10 +135,39 @@ Kai atšaukiate PU, jo būsena vėl pakeičiama į **Patvirtinta**. PU turite si
 
 ### <a name="adding-attachments-to-a-po"></a>Priedų pridėjimas prie PU
 
-Prie PU galite pridėti priedų, pvz., failų, vaizdų ir pastabų, naudodami dokumentų valdymo sistemą. Įtrauktus priedus, kuriems priskirtas tipo **Išorinis** apribojimas, tiekėjas matys tada, kai jiems išsiųsite PU.
+Prie PU galite pridėti priedų, pvz., failų, vaizdų ir pastabų, naudodami dokumentų tvarkymo sistemą. **Išorinio** tipo priedai bus matomi tiekėjui, kai siunčiate PU.
 
-## <a name="purchase-order-statuses-and-versions"></a>Pirkimo užsakymo būsenos ir versijos
-Šiame skyriuje aprašomos skirtingos PU būsenos, naudojamos, kol užsakymas nėra patvirtintas, ir nurodoma, kada tiekėjui pateikiamos naujos PU versijos. Tai gali skirtis priklausomai nuo to, ar naudojate pirkimo užsakymų pakeitimų valdymo funkciją. 
+## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Atnaujinti PU, kai tiekėjas pasiūlo pakeitimų
+Kai tiekėjas atsako į PU ir pasiūlo pakeitimų, tolesnis veiksmas yra apdoroti atsakymą.
+**Pirkimo užsakymo paruošimo darbo srityje** išorinė peržiūra reikalauja veiksmų sąrašo; galite nustatyti PU, į kurį tiekėjas atsakė priimdamas su pakeitimais. Išorinė peržiūra reikalauja veiksmų sąrašo, be to, galite pasiekti tiekėjo atsakymą. Atsakydamas tiekėjas gali pakeisti pateiktą antraštės informaciją.
+ 
+-   Tiekėjo dokumento nuoroda
+-   Pristatymo būdas
+-   Pristatymo sąlygos
+-   Patvirtinto pristatymo data
+
+Be to, tiekėjas gali įtraukti pastabą arba priedą
+
+Eilutėse tiekėjas gali pakeisti kiekį ir pristatymo datas, įtraukti pastabų ir priedų, atmesti eilutę, pakeisti eilutę kitu produktu, kuris įvestas kaip tekstas, bei išskaidyti eilutę į keletą pristatymų. Priklausomai nuo to, kokius pakeitimus tiekėjas siūlo, eilutės būsena gali būti skirtinga:
+    
+-   **Priimta su pakeitimais**
+-   **Atmesta**
+-   **Pakeista** šiuo atveju įtraukiama papildoma eilutė, kurios būsena **Pakaitas**.
+-   **Patvirtinta** Išskaidyti grafike. Šiuo atveju bus įtrauktos papildomos eilutės, kurių būsena **Grafiko eilutės**.
+
+Jei eilutėje nėra pakeitimų, jos būsena yra **Priimta**.
+
+Atsakyme galite pamatyti anksčiau paminėtas eilučių būsenas, kurios rodo tiekėjo atliktų pakeitimų tipus. Be to, visi pakeisti laukai rodomi paryškintai, kad galėtumėte matyti pakeitimus.
+
+PU galite atnaujinti vienu metu spustelėdami atsakymo veiksmą **Apdoroti PU naujinimą** arba vieną eilutę. Indikatorius **Ar PU naujinimas apdorotas?** antraštėje ir eilutėse leidžia matyti, ar sistema apdorojo antraštę arba eilutes, kad PU būtų atnaujintas galimais atsakymo pakeitimais. Procesą **Apdoroti PU naujinimą** galima paleisti tik kartą vienai antraštei arba eilutei.
+
+Ne visi siūlomi pakeitimai gali būti atnaujinti PU. PU automatiškai galima atnaujinti tik antraštę ir eilučių datas bei kiekius. Kiti PU pakeitimai atliekami neautomatiškai. Tokiu atveju indikatorius **Ar PU naujinimas apdorotas?** rodo **Rankinis naujinimas**. Pakeitimo, kuris turi būti tvarkomas neautomatiškai, pavyzdys: tiekėjas pasiūlo išskaidyti eilutę grafike.
+
+Eilutė, kurios būsena yra **Priimta**, turės patvirtintą pristatymo datą, kuri bus atnaujinta PU, kai vykdysite **Apdoroti PU naujinimą**. Pastabos ir priedai nebus automatiškai perkeliamas į dabartinį PU. Atkreipkite dėmesį, kad kai atnaujinate dabartinį PU naudodami veiksmą **Apdoroti PU naujinimą**, prekybos sutartys nebus iš naujo įvertintos PU eilutėse.
+
+
+## <a name="po-statuses-and-versions"></a>PU būsenos ir versijos
+Šiame skyriuje aprašomos įvairios būsenos, kurias PU gali turėti iki patvirtinimo. Be to, aprašoma, kada naujos PU versijos buvo pateiktos tiekėjui. Veikimas gali būti įvairus, jis priklauso nuo to, ar naudojate PU pakeitimų valdymą. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versijos ir būsenos, jei nenaudojate pakeitimų valdymo funkcijos
 
@@ -138,16 +176,19 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 |                                                                          |                                                                                                                                                              |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Veiksmas**                                                               | **Būsena ir versija**                                                                                                                                       |
-| Programoje „Dynamics 365 for Operations‟ sukuriama pradinė PU versija. | Jo būsena yra **Patvirtinta**.                                                                                                                                  |
+| Programoje „Finance and Operations‟ sukuriama pradinė PU versija. | Jo būsena yra **Patvirtinta**.                                                                                                                                  |
 | PU išsiųstas tiekėjui.                                            | Versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                          |
 | Tiekėjas išsiunčia atsakymą **Priimta su keitimais**.                  | Būsena vis dar yra **Peržiūrima išorėje**.                                                                                                                  |
 | Atliekate keitimus, kurių prašė tiekėjas.                  | Būsena grąžinama į **Patvirtinta**.                                                                                                                        |
 | Naująją PU versiją nusiunčiate tiekėjui.                        | Nauja versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                      |
 | Tiekėjas priima naująją PU versiją.                            | Būsena vis dar yra **Peržiūrima išorėje**, jei tiekėjo kodas nėra sukonfigūruotas automatiškai nustatyti būseną **Patvirtinta**, kai tiekėjas priima užsakymą. |
 
-Tiekėjams PU patvirtinti naudojant tiekėjo bendradarbiavimo sąsają nereikia. Jie taip pat gali nusiųsti el. laišką arba apie PU patvirtinimą paskelbti kitais kanalais. Tada užsakymą rankiniu būdu galite patvirtinti programoje „Dynamics 365 for Operations‟. Tokiu atveju gaunate įspėjimą, kad užsakymas patvirtinamas, nors nėra jokio atsakymo iš tiekėjo. Tada PU rodomas patvirtinimo istorijoje kaip atviras patvirtintas užsakymas, neturintis jokių atsakymų. Tiekėjas nebegali PU patvirtinti arba atmesti.  
 
-**Pastaba.** PO versija, kurią gali naudoti kiti „Dynamics 365 for Operations‟ procesai, visada yra naujausia, net jei ta versija tiekėjo bendradarbiavimo sąsajoje dar neužregistruota.
+Tiekėjams nereikia patvirtinti PU naudojant tiekėjų bendradarbiavimo sąsają. Jie taip pat gali nusiųsti el. laišką arba apie PU patvirtinimą paskelbti kitais kanalais. Galite patvirtinti užsakymą neautomatiškai programoje „Finance and Operations“. Tokiu atveju gausite įspėjimą, kad užsakymas patvirtinamas, nors nėra jokio atsakymo iš tiekėjo. Tada PU rodomas patvirtinimo istorijoje kaip atviras patvirtintas užsakymas, neturintis jokių atsakymų. Tiekėjas nebegali PU patvirtinti arba atmesti.  
+
+
+>[!NOTE]
+>PU versija, kurią gali naudoti kiti „Dynamics 365 for Finance and Operations“ procesai, visada yra naujausia, net jei ta versija tiekėjų bendradarbiavimo sąsajoje dar neužregistruota.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versijos ir būsenos, jei naudojate pakeitimų valdymo funkcijos
 
@@ -158,13 +199,9 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 |                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Veiksmas**                                                                                                    | **Būsena ir versija**                                                                                                                                                                                                                                                                                                                                                                      |
-| Programoje „Dynamics 365 for Operations‟ sukuriama pradinė PU versija.                                      | Jo būsena yra **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                                    |
-| PU teikiamas patvirtinti. (Tai yra vidinis procesas, kuriame tiekėjas nedalyvauja.) | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Patvirtintas PU užregistruojamas kaip versija.                                                                                                                                                                                                                     |
-| PU išsiųstas tiekėjui.                                                                                  | Versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                       |
-| Atliekate keitimus, kurių prašė tiekėjas.                                                       | Būsena grąžinama į **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                    |
-| PU vėl teikiamas patvirtinti.                                                            | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Taip pat galima sukonfigūruoti sistemą taip, kad atlikus konkrečius laukų keitimus nereikėtų patvirtinti iš naujo. Tokiu atveju būsena pirmiausia pakeičiama į **Juodraštis** ir tada automatiškai atnaujinama į **Patvirtinta**. Patvirtintas PU užregistruojamas kaip nauja versija. |
-| Naująją PU versiją nusiunčiate tiekėjui.                                                             | Nauja versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                   |
-| Tiekėjas patvirtina naująją PU versiją.                                                                | Būsena pakeičiama į **Patvirtinta** automatiškai arba kai gaunate tiekėjo atsakymą ir patvirtinate PU.                                                                                                                                                                                                                                                     |
+| Programoje „Finance and Operations‟ sukuriama pradinė PU versija.                                      | Jo būsena yra **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                                    |
+
+| PU pateiktas patvirtinimo procesui. (Patvirtinimo procesas yra vidinis procesas, į kurį tiekėjas nėra įtrauktas). | Būsena pakeičiama iš **Juodraštis** į **Peržiūrima** ir į **Patvirtinimas**, jei PU neatmetamas patvirtinimo proceso metu. Patvirtintas PU užregistruojamas kaip versija.                                                                                                                                                                                                                     | | PU yra išsiųstas tiekėjui | Versija užregistruojama tiekėjų bendradarbiavimo sąsajoje, o būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                       | | Kai kuriuos tiekėjo pageidaujamus pakeitimus atliekate rankiniu būdu arba naudodami atsakymo veiksmą, kad atnaujintumėte PU.                                                       | Būsena grąžinama į **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                    | | PU vėl pateikiamas patvirtinti.                                                            | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Taip pat galima sukonfigūruoti sistemą taip, kad atlikus konkrečius laukų keitimus nereikėtų patvirtinti iš naujo. Tokiu atveju būsena pirmiausia pakeičiama į **Juodraštis** ir tada automatiškai atnaujinama į **Patvirtinta**. Patvirtintas PU užregistruojamas kaip nauja versija. | | Naująją PU versiją nusiunčiate tiekėjui.                                                             | Nauja versija yra užregistruojama tiekėjų bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                   | | Tiekėjas patvirtina naująją PU versiją.                                                                | Būsena pakeičiama į **Patvirtinta** automatiškai arba kai gaunate tiekėjo atsakymą ir patvirtinate PU.                                                                                                                                                                                                                                                     |
 
 ## <a name="share-information-about-consignment-inventory"></a>Informacijos apie konsignacijos atsargas bendrinimas
 Jei naudojate konsignacijos atsargas, tiekėjai gali naudoti tiekėjo bendradarbiavimo sąsają, norėdami peržiūrėti informaciją tolesniuose puslapiuose.

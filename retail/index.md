@@ -43,7 +43,7 @@ Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose.
 Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau.
 
 ## <a name="channel-management"></a>Kanalų valdymas
-Nustatydami mažmeninės prekybos nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves. Tai gali būti fizinės, interneto parduotuvės arba skambučių centrai.
+Nustatydami „Retail“ nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves. Tai gali būti fizinės, interneto parduotuvės arba skambučių centrai.
 
 Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo metodus, pristatymo metodus, kainų grupes, pajamų ir išlaidų sąskaitas, registrus ir darbuotojus. Sukūrus savo mažmeninės prekybos parduotuvę, sukuriamas norimų platinti produktų asortimentas. Taip pat galite nustatyti konkrečių parduotuvių kainas ir nuolaidas, taikomas parduotuvėje parduodamiems produktams.
 

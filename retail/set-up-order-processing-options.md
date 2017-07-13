@@ -1,39 +1,41 @@
 ---
 title: "Užsakymo apdorojimo pasirinkčių nustatymas"
-description: "Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centro užsakymus naudojant „Microsoft Dynamics 365 for Operations“ – versiją „Retail“."
+description: "Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centro užsakymus naudojant „Microsoft Dynamics 365 for Retail“."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Užsakymo apdorojimo pasirinkčių nustatymas
+# <a name="set-up-order-processing-options"></a>Užsakymo apdorojimo parinkčių nustatymas
 
 [!include[banner](includes/banner.md)]
 
 
-Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centro užsakymus naudojant „Microsoft Dynamics 365 for Operations“ – versiją „Retail“. 
+Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centro užsakymus naudojant „Microsoft Dynamics 365 for Retail“. 
 
-„Dynamics 365 for Operations“ mažmeninės prekybos ir prekybos modulis palaiko kelis mažmeninės prekybos kanalus, pvz., internetines parduotuves, tradicines parduotuves ir skambučių centrus. Skambučių centruose darbuotojai priima klientų užsakymus telefonu ir kuria pardavimo užsakymus. Šioje temoje aprašoma, kaip sukurti skambučių centrą ir konfigūruoti skambučių centro parinktis. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. **Svarbu:** prieš naudojant skambučių centro darbo eigą, kai dabartinis „Dynamics AX“ vartotojas kuria pardavimo užsakymus, vartotojas privalo būti priskirtas skambučių centrui kaip skambučių centro vartotojas. Galite naudoti puslapį **Skambučių centras**, norėdami įjungti arba išjungti unikalių skambučių centrų funkcijų grupes. Galima įjungti toliau nurodytas funkcijų grupes.
+„Retail‟ palaiko kelis mažmeninės prekybos kanalus, pvz., internetines parduotuves, tradicines parduotuves ir skambučių centrus. Skambučių centruose darbuotojai priima klientų užsakymus telefonu ir kuria pardavimo užsakymus. Šioje temoje aprašoma, kaip sukurti skambučių centrą ir konfigūruoti skambučių centro parinktis. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. **Svarbu:** prieš naudojant skambučių centro darbo eigą, kai vartotojas kuria pardavimo užsakymus, vartotojas privalo būti priskirtas skambučių centrui kaip skambučių centro vartotojas. Galite naudoti puslapį **Skambučių centras**, norėdami įjungti arba išjungti unikalių skambučių centrų funkcijų grupes. Galima įjungti toliau nurodytas funkcijų grupes.
 
 -   **Užsakymo baigimas** – ši grupė apima funkcijas, susijusias su mokėjimais ir užsakymo baigimu puslapyje **Pardavimo užsakymas**.
 -   **Tiesioginis pardavimas** – ši grupė apima funkcijas, susijusias su šaltinio kodais, scenarijais ir katalogų užklausomis.

@@ -3,14 +3,14 @@ title: "Sandėlio konfigūracija"
 description: "Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 **Pastaba.** Šis straipsnis taikomas funkcijoms **Sandėlio valdymo** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
 
 ## <a name="warehouse-layout"></a>Sandėlio išdėstymas
-Sandėlio valdymo sistema programoje „Microsoft Dynamics 365 for Operations‟ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
+Sandėlio valdymo sistema programoje „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas, suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
@@ -44,7 +44,7 @@ Sandėlio valdymo sistema programoje „Microsoft Dynamics 365 for Operations‟
 -   Grupuoti vietas galite naudodami fizinių pajėgumų apribojimo nuostatas.
 -   Kontroliuoti, kaip prekės saugomos ir paimamos, galite pagal užklausomis apibrėžtas taisykles.
 
-Norėdami naudoti „Microsoft Dynamics 365 for Operations‟ sandėlio valdymo funkcijas, turite sukurti sandėlį ir leisti jam taikyti labiau patobulinto ar specializuoto sandėlio valdymo veiklas. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
+Norėdami naudoti „Finance and Operations‟ sandėlio valdymo funkcijas, turite sukurti sandėlį ir leisti jam taikyti labiau patobulinto ar specializuoto sandėlio valdymo veiklą. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonų grupės, zonos, vietų tipai ir vietos
 
@@ -56,7 +56,7 @@ Sandėlio išdėstymo įgalinimo proceso dalis yra apibrėžti sandėlio zonų g
 -   **Vietų tipai** – loginis arba fizinis sandėlio vietų grupavimas. Pavyzdžiui, galite sukurti vietos tipą visoms išdėstymo vietoms. Privalomosios nuostatos **Sandėlio valdymo parametrų** puslapyje yra laikino sandėliavimo vietų tipų ir galutinės siuntimo vietos tipo apibrėžimo pagrindas.
 -   **Vietos** – žemiausias vietos informacijos lygis. Vietos naudojamos sekti, kur sandėlyje saugomos ir paimamos turimos atsargos.
 
-Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kuriose galite naudoti tik tam tikro tipo krautuvą. Arba jei tos pačios jūsų įmonės patalpos naudojamos ir gamybai, ir pagamintoms prekėms, galbūt norėsite programoje „Dynamics 365 for Operations‟ sukurti vieną sandėlį, tačiau tada sukurti dvi zonų grupes ir tokiu būdu šias dvi operacijas atskirti. Objektams suteikite aprašomuosius pavadinimus – tuomet šablonų užklausose naudojant objektus bus lengva juos identifikuoti.
+Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kuriose galite naudoti tik tam tikro tipo krautuvą. Arba jei tos pačios jūsų įmonės patalpos naudojamos ir gamybai, ir pagamintoms prekėms, galbūt norėsite programoje „Finance and Operations‟ sukurti vieną sandėlį, tačiau tada sukurti dvi zonų grupes ir tokiu būdu šias dvi operacijas atskirti. Objektams suteikite aprašomuosius pavadinimus – tuomet šablonų užklausose naudojant objektus bus lengva juos identifikuoti.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Vietų sandėliavimo apribojimai, vietų profiliai ir fiksuotos paėmimo vietos
 

@@ -3,14 +3,14 @@ title: "Projektų ištekliai"
 description: "Šioje temoje pateikiama informacija apie projektų išteklius."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje pateikiama informacija apie projektų išteklius.
 
-Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. Programoje „Microsoft Dynamics 365 for Operations‟ projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
+Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidime projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
 
 -   Apibrėžti vaidmenį, turintį reikiamas kompetencijas, kad būtų lengva suderinti išteklius.
 -   Naudojant vaidmenis apibrėžti pradinį įtraukimo grafiką, paremtą rezervuotais ištekliais.
@@ -65,10 +65,10 @@ Kai nustatote darbuotoją kaip vidinį įmonės išteklių, turite užbaigti są
 
 **Skolinančioje įmonėje:**
 
-1.  Jei naudojate „Dynamics 365 for Operations“, patikrinkite, ar pasirinkta skolinanti įmonė, o po to atlikite pirmiau nurodytą procedūrą „Darbuotojo nustatymas projekto ištekliumi“.
+1.  Jei naudojate „Finance and Operations“, patikrinkite, ar pasirinkta skolinanti įmonė, o po to atlikite pirmiau nurodytą procedūrą „Darbuotojo nustatymas projekto ištekliumi“.
 2.  Eikite į **Didžioji knyga **&gt; **Registravimo nustatymas **&gt; **Vidinė įmonės apskaita**. Spustelėkite **Naujas**.
 3.  Lauke **Juridinio subjekto ID **pasirinkite skolinančią įmonę. Atitinkamai užpildykite likusius laukus ir spustelėkite **Įrašyti**.
-4.  Eikite į **Projektų valdymas ir apskaita **&gt; **Nustatymas **&gt; **Kainos ** &gt; **Perkėlimo kaina**.** **
+4.  Eikite į **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainos** &gt; **Perkėlimo kaina**.** **
 5.  Formoje **Perkėlimo kaina **spustelėkite **Nauja** ir lauke **Besiskolinantis juridinis subjektas **pasirinkite atitinkamą įmonę.
 6.  Jeigu besiskolinančiai įmonei norite paskolinti tik tą išteklių, kurį sukūrėte šio skyriaus pradžioje, lauke **Ištekliai** pasirinkite sukurto ištekliaus pavadinimą. Jeigu norite, kad besiskolinančiai įmonei būtų prieinami visi ištekliai, lauką **Ištekliai **palikite tuščią.
 7.  Eikite į **Projektų valdymas ir apskaita **&gt; **Sąranka **&gt; **Projektų valdymo ir apskaitos parametrai**, o skirtuke **Vidinė įmonė **nustatykite lauko **Įgalinti vidinės įmonės išteklių planavimą ir tabelius **parinktį **Taip**.
@@ -123,7 +123,7 @@ Norėdami nustatyti darbuotojo kompetencijas, galite naudoti arba srities Person
 6.  Srityje **Likę projektai** pasirinkite projektą ir, spustelėdami rodyklę, jį pridėkite į sritį **Pasirinkti projektai**.
 7.  Uždarykite puslapį.
 
-Jei reikia, ištekliui taip pat galima priskirti kategorijų. Kategorijos tipas gali būti Išlaidos arba Įplaukos. Jis priklauso nuo jūsų organizacijos. Jei ištekliui kategorijų nepriskirta, „Dynamics 365 for Operations‟ suras numatytąją išlaidų ir įplaukų valandos kainų kategoriją.
+Jei reikia, ištekliui taip pat galima priskirti kategorijų. Kategorijos tipas gali būti Išlaidos arba Įplaukos. Jis priklauso nuo jūsų organizacijos. Jei ištekliui kategorijų nepriskirta, „Finance and Operations‟ suras numatytąją išlaidų ir įplaukų valandos kainų kategoriją.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Projekto išteklių ir vaidmenų charakteristikų nustatymas
 
@@ -190,7 +190,7 @@ Galima nustatyti visas vaidmenų savikainas, pardavimo kainas ir perkėlimo kain
 5.  Stulpelyje **Kainodara** įveskite pasirinkto išteklių vaidmens kainą.
 
 ## <a name="form-a-project-team"></a>Projekto komandos sudarymas
-Norėdamas naudoti vaidmenis, kurie buvo anksčiau nustatyti projekte, projekto vadovas tuos vaidmenis turi susieti su projektu. Galima priskirti kelis projekto vaidmenis, ir rezervuojant šiuos vaidmenis bei siekiant išvengti painiavos jie programoje „Dynamics 365 for Operations“ automatiškai pažymimi. Pvz., jei projekto vadovui reikia trijų programinės įrangos inžinierių, automatiškai sugeneruojami trižys programinės įrangos inžinieriaus vaidmenys, kurių žymos – 1 programinės įrangos inžinierius, 2 programinės įrangos inžinierius ir 3 programinės įrangos inžinierius. Jei anksčiau buvo nustatytos vaidmenų charakteristikos, ieškant ištekliaus jos taikomos kaip filtras. Pagal poreikį galima pridėti papildomų charakteristikų ir taip dar patikslinti iešką. 
+Norėdamas naudoti vaidmenis, kurie buvo anksčiau nustatyti projekte, projekto vadovas tuos vaidmenis turi susieti su projektu. Galima priskirti kelis projekto vaidmenis, ir rezervuojant šiuos vaidmenis bei siekiant išvengti painiavos jie sprendime „Finance and Operations“ automatiškai pažymimi. Pvz., jei projekto vadovui reikia trijų programinės įrangos inžinierių, automatiškai sugeneruojami trižys programinės įrangos inžinieriaus vaidmenys, kurių žymos – 1 programinės įrangos inžinierius, 2 programinės įrangos inžinierius ir 3 programinės įrangos inžinierius. Jei anksčiau buvo nustatytos vaidmenų charakteristikos, ieškant ištekliaus jos taikomos kaip filtras. Pagal poreikį galima pridėti papildomų charakteristikų ir taip dar patikslinti iešką. 
 
 Taip pat galima tinkinti rodinio parametrus, kad būtų galima geriau matyti išteklių prieinamumą. Parinktimis galima nustatyti valandos, dienos, savaitės, mėnesio, ketvirčio ir metų prieinamumo rodymą. Taip pat galima parinktis rodyti turimą ir likusį išteklių pajėgumą. Ši parinktis naudinga valdant laiką, kai vertinamas turimas veikloms skirtas laikas ar išteklių prieinamumas. 
 
@@ -277,7 +277,7 @@ Siekiant geriau išnaudoti išteklių funkcijas, į WBS įtraukta papildomų par
 </tr>
 <tr class="even">
 <td>Automatiškai generuoti komandą</td>
-<td>Naudodami su užduotimi susietus vaidmenis automatiškai įtraukite suplanuotų išteklių. „Dynamics 365 for Operations‟ suplanuotų išteklių siūlo automatiškai, naudodama kelių kriterijų sprendimų analizę pagal vaidmenis. Kai nustatyti WBS užduočių vaidmenys bei pastangos (valandos) ir atlaisvinta struktūra, spustelėkite <strong>Automatiškai generuoti komandą</strong>. Reikiamas suplanuotų išteklių skaičius įtraukiamas į WBS ir skirtuką <strong>Projekto komanda ir planavimas</strong>.</td>
+<td>Naudodami su užduotimi susietus vaidmenis automatiškai įtraukite suplanuotų išteklių. „Finance and Operations‟ suplanuotų išteklių siūlo automatiškai, naudodama kelių kriterijų sprendimų analizę pagal vaidmenis. Kai nustatyti WBS užduočių vaidmenys bei pastangos (valandos) ir atlaisvinta struktūra, spustelėkite <strong>Automatiškai generuoti komandą</strong>. Reikiamas suplanuotų išteklių skaičius įtraukiamas į WBS ir skirtuką <strong>Projekto komanda ir planavimas</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Išteklius (išplečiamasis sąrašas)</td>

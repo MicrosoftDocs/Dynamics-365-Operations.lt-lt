@@ -1,28 +1,27 @@
 ---
 title: "Finansinės dimensijos"
-description: "Šiame straipsnyje paaiškinami skirtingi finansinių dimensijų tipai ir tai, kaip jie nustatomi."
-author: RobinARH
+description: "Šioje temoje aprašomi įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi."
+author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ems.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25871
-ms.assetid: af54621c-c8be-4b72-b6df-dcf886c40ce4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 01f189b8de3f0cc707dcc54f4cde75aed95b8e3f
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: e82d53b3f6b4c8d3e2363f26576331e1d03434d9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,53 +30,58 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje paaiškinami įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi.
 
-Šiame straipsnyje paaiškinami skirtingi finansinių dimensijų tipai ir tai, kaip jie nustatomi.
+Naudokite puslapį **Finansinės dimensijos** kurdami finansines dimensijas, kurias galite naudoti kaip sąskaitų planų sąskaitos segmentus. Yra dviejų tipų finansinės dimensijos: pasirinktinės dimensijos ir objekto remiamos dimensijos. Pasirinktinės dimensijos yra bendrai naudojamos juridinių subjektų, o vertes įveda ir tvarko vartotojai. Objekto remiamų dimensijų vertės nurodomos kitur sistemoje, pvz., dalyse Klientai ar Parduotuvių objektai. Kai kurios objekto remiamos dimensijos yra bendrai naudojamos keliuose juridiniuose subjektuose, o kitos būdingos konkrečiai įmonei. 
 
-Naudokite puslapį Finansinės dimensijos kurdami finansines dimensijas, kurias galite naudoti kaip sąskaitų planų sąskaitos segmentus. Yra dviejų tipų finansinės dimensijos: pasirinktinės dimensijos ir objekto remiamos dimensijos. Pasirinktinės dimensijos yra bendrai naudojamos juridinių subjektų, o vertes įveda ir tvarko vartotojas. Objekto remiamos dimensijos yra dimensijos, kurių vertės nurodomos kitur sistemoje, pvz., dalyse Klientai ar Parduotuvės. Kai kurios objekto remiamos dimensijos yra bendrai naudojamos keliuose juridiniuose subjektuose, o kai kurios būdingos konkrečiai įmonei. 
+Sukūrę finansines dimensijas, naudokite puslapį **Finansinių dimensijų reikšmės**, kad kiekvienai finansinei dimensijai priskirtumėte papildomų ypatybių. 
 
-Sukūrę finansines dimensijas, naudokite puslapį Finansinių dimensijų reikšmės, kad kiekvienai finansinei dimensijai priskirtumėte papildomų ypatybių. 
-
-Nors galite naudoti finansines dimensijas, atstovaujančias juridinius subjektus, nesukurdami juridinių subjektų programoje „Microsoft Dynamics 365 for Operations“, finansinės dimensijos nėra skirtos juridinių subjektų veiklos ar verslo poreikiams. Susijusių vienetų apskaitos funkcija programoje „Microsoft Dynamics 365 for Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija. 
+Kaip juridinių subjektų atitikmenis galite naudoti finansines dimensijas. Naudojant „Microsoft Dynamics 365 for Finance and Operations‟ leidimą „Enterprise‟ juridinių subjektų kurti nereikia. Tačiau finansinės dimensijos nėra skirtos patenkinti juridinių subjektų veiklos ar verslo poreikius. Susijusių vienetų apskaitos funkcija programoje „Finance and Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija. 
 
 Prieš nustatydami finansines dimensijas kaip juridinius subjektus, įvertinkite savo verslo procesus toliau nurodytose srityse ir nustatykite, ar šis nustatymas veiks jūsų organizacijoje:
 
--   Atsargos
--   Pardavimai ir pirkimai tarp finansinių dimensijų ir juridiniai subjektai
--   PVM skaičiavimas ir atskaitomybė
--   Veiklos ataskaitos
+- Inventorizacijos
+- Pardavimai ir pirkimai tarp finansinių dimensijų ir juridiniai subjektai
+- PVM skaičiavimas ir atskaitomybė
+- Veiklos ataskaitos
 
-Kai kuriuose apribojimų pavyzdžiuose yra:
+Štai keletas apribojimų:
 
--   PVM funkciją galite naudoti tik su juridiniais subjektais, o ne su finansinėmis dimensijomis.
--   Kai kuriose ataskaitose neįtrauktos finansinės dimensijos, tad ne visada galima teikti ataskaitas pagal finansines dimensijas, nebent šios ataskaitos būtų modifikuotos.
+- PVM funkciją galite naudoti tik su juridiniais subjektais, o ne su finansinėmis dimensijomis.
+- Į kai kurias ataskaitas finansinės dimensijos neįtraukiamos. Todėl, norint parengti ataskaitą pagal finansinę dimensiją, gali tekti modifikuoti ataskaitas.
 
-**Pasirinktinės dimensijos** 
+## <a name="custom-dimensions"></a>Pasirinktinės dimensijos
 
-Norėdami kurti vartotojo nustatomą finansinę dimensiją, lauke Naudoti vertes iš pasirinkite &lt; Pasirinktinė dimensija &gt;. Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galite įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį. Taip pat galite įvesti skaičiaus ženklus (\##) ir konjunkcijos ženklus (&) kaip vietos rezervavimo ženklus vietoj raidžių ir skaitmenų, kurie bus skirtingi kaskart sukūrus dimensijos reikšmę. Naudokite skaičiaus ženklą (\#) kaip skaitmens vietos rezervavimo ženklą, o konjunkcijos ženklą (&) – kaip raidės vietos rezervavimo ženklą. 
+Norėdami kurti vartotojo nustatomą finansinę dimensiją, lauke  **Naudoti vertes iš** pasirinkite  **&lt; Pasirinktinė dimensija &gt;**. Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galite įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį (-). Taip pat galite įvesti skaičiaus ženklus (\##) ir konjunkcijos ženklus (&) kaip vietos rezervavimo ženklus vietoj raidžių ir skaitmenų, kurie bus skirtingi kaskart sukūrus dimensijos reikšmę. Naudokite skaičiaus ženklą (\#) kaip skaitmens vietos rezervavimo ženklą, o konjunkcijos ženklą (&) – kaip raidės vietos rezervavimo ženklą. Formato šablono lauką galima naudoti tik lauke **Naudoti vertes iš** pasirinkus parinktį **&lt; Pasirinktinė dimensija &gt;**.
 
-**Pavyzdys:** 
+**Pavyzdys**
 
-Norėdami apriboti dimensijos reikšmę iki raidžių CC ir trijų skaitmenų, įveskite CC-\#\#\# kaip formato šabloną. Šį lauką galima naudoti tik pasirinkus parinktį &lt; Pasirinktinė dimensija &gt; lauke Naudoti vertes iš. 
+Norėdami apriboti dimensijos reikšmę iki raidžių „CC“ ir trijų skaitmenų, įveskite **CC-\#\#\#** kaip formato šabloną.
 
-**Objekto remiamos dimensijos** 
+## <a name="entity-backed-dimensions"></a>Objekto remiamos dimensijos
 
-Norėdami sukurti objekto remiamą finansinę dimensiją, lauke Naudoti vertes iš pasirinkite sistemos nurodytą objektą, kuriuo bus pagrįsta finansinė dimensija. Finansinės dimensijos reikšmės sukuriamos pagal šį pasirinkimą. Pavyzdžiui, norėdami sukurti projektų dimensijų reikšmes, pasirinkite Projektai. Bus sukurtos kiekvieno projekto pavadinimo dimensijos reikšmės. Dimensijų verčių puslapyje rodomos objekto vertės ir, jei jos susijusios su konkrečia įmone, įmonė, kurios vertė nurodyta. 
+Norėdami sukurti objekto remiamą finansinę dimensiją, lauke **Naudoti vertes iš** pasirinkite sistemos nurodytą objektą, kuriuo bus pagrįsta finansinė dimensija. Tada pagal tą objektą sukuriamos finansinės dimensijos reikšmės. Pavyzdžiui, norėdami sukurti projektų dimensijų reikšmes, pasirinkite **Projektai**. Po to sukuriamos kiekvieno projekto pavadinimo dimensijos reikšmės. Puslapyje **Finansinių dimensijų reikšmės** rodomos objekto vertės. Jei šios vertės yra konkrečios įmonės, puslapyje taip pat rodoma įmonė.
 
-**Dimensijų aktyvinimas** 
+## <a name="activating-dimensions"></a>Dimensijų aktyvinimas
 
-Suaktyvinus finansinę dimensiją lentelė atnaujinama ir joje pateikiamas finansinės dimensijos pavadinimas, o panaikintos dimensijos pašalinamos. Dimensijų reikšmes galima įvesti prieš suaktyvinant finansinę dimensiją, bet finansinės dimensijos negalima niekur naudoti, kol ji yra suaktyvinama. Pavyzdžiui, finansinės dimensijos į sąskaitos struktūrą įtraukti negalima, kol finansinė dimensija suaktyvinama. Aktyvinus spustelėjant bus atnaujintos visos dimensijos, kurių būsena pasikeitė. 
+Kai suaktyvinate finansinę dimensiją, lentelė atnaujinama, kad būtų įtrauktas finansinės dimensijos pavadinimas. Panaikintos dimensijos pašalinamos. Dimensijos vertes galite įvesti prieš aktyvindami finansinę dimensiją. Tačiau, kol finansinė dimensija nesuaktyvinama, jos naudoti negalima. Pavyzdžiui, kol finansinė dimensija suaktyvinta, finansinės dimensijos į sąskaitos struktūrą įtraukti negalima. Kai spustelite **Aktyvinti**, visos dimensijos atnaujinamos ir rodomi būsenos pakeitimai. 
 
-**Vertimai** 
+## <a name="translations"></a>Vertimai
 
-Vertimo puslapiuose galima įvesti pasirinktos finansinės dimensijos tekstą, kuris bus rodomas skirtingomis kalbomis. Puslapyje Pagrindinės sąskaitos vertimas galite įvesti pagrindinės sąskaitos tekstą, kuris bus rodomas skirtingomis kalbomis. 
+Puslapyje **Teksto vertimas** galite įvesti pasirinktos finansinės dimensijos tekstą įvairiomis kalbomis. Puslapyje **Pagrindinės sąskaitos vertimas** galite įvesti pagrindinės sąskaitos tekstą įvairiomis kalbomis. 
 
-**Juridinio subjekto nepaisymai** 
+## <a name="legal-entity-overrides"></a>Juridinio subjekto nepaisymai
 
-Ne visos dimensijos tinkamos visiems juridiniams asmenims, o kai kurios gali būti aktualios tik tam tikrą laikotarpį. Tokiu atveju skyrius Juridinio subjekto nepaisymas gali būti naudojamas nustatyti, kuriose įmonėse dimensijos turi būti sustabdytos, kas jų savininkas ir kurį laikotarpį dimensija yra aktyvi.
+Ne visos dimensijos galioja visiems juridiniams subjektams. Be to, kai kurios dimensijos gali būti tinkamos tik tam tikrą laikotarpį. Tokiais atvejais skyrių **Juridinio subjekto nepaisymas** galite naudoti norėdami nurodyti, kuriose įmonėse dimensijos turi būti sustabdytos, kas jų savininkas ir kurį laikotarpį dimensija yra aktyvi.
 
+## <a name="deleting-financial-dimensions"></a>Finansinių dimensijų naikinimas
 
+Siekiant išlaikyti duomenų integralumą, finansines dimensijas retai kada galima panaikinti. Bandant panaikinti finansinę dimensiją atsižvelgiama į šiuos kriterijus:
 
+- Ar finansinė dimensija buvo naudojama bet kokiose užregistruotose arba neužregistruotose operacijose ar bet kokio tipo dimensijų verčių derinyje?
+- Ar finansinė dimensija naudojama bet kokioje aktyvioje sąskaitos struktūroje, išplėstinės taisyklės struktūroje arba finansinių dimensijų rinkinyje?
+- Ar finansinė dimensija yra numatytojo finansinės dimensijos integracijos formato dalis?
+- Ar finansinė dimensija buvo nustatyta kaip numatytoji dimensija?
 
-
+Teigiamai atsakius į bent vieną iš pirmiau pateiktų klausimų dimensijos panaikinti negalima.
 

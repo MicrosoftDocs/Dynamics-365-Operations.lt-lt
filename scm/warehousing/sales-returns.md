@@ -3,13 +3,13 @@ title: "Pardavimo grąžinimai"
 description: "Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 
-Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, „Microsoft Dynamics 365 for Operations“ sukuriamas grąžinimo užsakymas.
+Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, sprendime „Microsoft Dynamics 365 for Finance and Operations“ sukuriamas grąžinimo užsakymas.
 
 ## <a name="return-order-process"></a>Grąžinimo užsakymo procesas
 Toliau esančiame paveikslėlyje pateikiama grąžinimo užsakymo proceso apžvalga.  
@@ -264,7 +264,7 @@ Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell�
 
 [![Paprasti vidinės įmonės grąžinimai](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. „Dynamics 365 for Operations“ sukuria atitinkamą užsakymą kitoje įmonėje ir įsitikina, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindi kliento grąžinimo užsakymo nustatymus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
+Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. „Finance and Operations“ sukuria atitinkamą užsakymą kitoje įmonėje ir užtikrina, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindėtų kliento grąžinimo užsakymo parametrus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių
 

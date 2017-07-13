@@ -1,9 +1,9 @@
 ---
 title: "Kreditas ir mokėjimai Gautinų sumų modulyje"
-description: "Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
+description: "Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Finance and Operations‟ (leidimas „Enterprise‟) puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
+Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Finance and Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 
 Prieš pradėdami kurti ar dirbti su mokėjimų priežiūra, turite susipažinti su šiomis sąvokomis:
 -   Klientų skirstymo pagal terminus momentinėje kopijoje yra skirstymo pagal terminus likučio informacija tam tikru metu
@@ -59,9 +59,9 @@ Kiekvienam skirstymo pagal terminus laikotarpiui skirstymo pagal terminus laikot
 Klientų telkiniai yra užklausos, nustatančios klientų įrašų grupę, kurią galima rodyti ir valdyti mokėjimų priežiūros ar skirstymo pagal terminus procesams. Naudokite klientų telkinius, norėdami filtruoti informaciją sąrašo puslapiuose Pagal terminus suskirstyti balansai, Mokėjimų priežiūros veiklos rūšys ir Rinkinių atvejai. Taip pat klientų telkinius galima naudoti filtruoti klientų sąskaitas, kurios įtraukiamos kuriant skirstymo pagal terminus momentines kopijas.
 
 ## <a name="collections-agents"></a>Mokėjimų priežiūros agentai
-Pagal nutylėjimą „Microsoft Dynamics 365 for Operations“ vartotojai gali peržiūrėti visą informaciją apie klientą mokėjimų priežiūros sąrašų puslapiuose. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
+Pagal numatytuosius nustatymus „Microsoft Dynamics 365 for Finance and Operations“ vartotojai gali peržiūrėti visą informaciją apie klientą mokėjimų priežiūros sąrašų puslapiuose. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
 
-Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas užtikrinti, kad mokėjimai yra surenkami laiku. „Microsoft Dynamics 365 for Operations“ mokėjimų priežiūros agentai yra darbuotojai, paskirti vartotojams vartotojo nustatymų puslapyje.
+Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas užtikrinti, kad mokėjimai yra surenkami laiku. „Finance and Operations“ mokėjimų priežiūros agentai yra darbuotojai, paskirti vartotojams vartotojo nustatymų puslapyje.
 
 ## <a name="collections-list-pages"></a> Mokėjimų priežiūros puslapiai 
 Šie sąrašų puslapiai padės organizuoti mokėjimų priežiūros informaciją.
@@ -71,7 +71,7 @@ Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas u�
 
 > [!NOTE]
 > Skirstymo pagal terminus momentinę kopiją reikia sukurti prieš peržiūrint šiuos sąrašo puslapius. Informacija rodoma tik klientams, kuriems buvo sukurta skirstymo pagal terminus momentinė kopija. Sąrašo puslapyje rodomus įrašus galima papildomai filtruoti taip:
-<li>Pagal numatytuosius parametrus „Microsoft Dynamics 365 for Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
+<li>Pagal numatytuosius nustatymus „Finance and Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
 <li>Jeigu yra klientų telkinys, vartotoją reikia nustatyti kaip mokėjimų priežiūros agentą, kad būtų galima naudoti telkinius filtruoti informacijai apie mokėjimų priežiūros sąrašų puslapius. Informacija apsiriboja klientais, kurie yra įrašyti į pasirinktą klientų telkinį.</li>
 <li>Jeigu vartotojas yra nustatytas tik kaip mokėjimų priežiūros agentas, sąrašų puslapyje bus tik telkiniai, kurie yra atrinkti tam mokėjimų priežiūros agentui. Mokėjimų priežiūros agentų puslapyje mokėjimų priežiūros agentui pasirinkus klientų telkinių perjungimą, tam agentui yra prieinami visi telkiniai.</li>
 

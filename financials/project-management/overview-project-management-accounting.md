@@ -3,24 +3,24 @@ title: "Projektų valdymas ir apskaita"
 description: "Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Projektas yra veiklų, skirtų teikti paslaugoms, gaminti produktams ar siekti r
 ## <a name="projects-across-industries"></a>Įvairių pramonės šakų projektai
 Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje. [![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks jų pavadinimas naudojamas, šie projektai apima išteklius, grafikus bei išlaidas, ir „Microsoft Dynamics 365 for Operations‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
+Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks jų pavadinimas naudojamas, šie projektai apima išteklius, grafikus bei išlaidas, ir „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
 
 ## <a name="project-phases"></a>Projekto etapai
 Nors tolesnis proceso srautas skirtas išoriniams projektams arba projektams, atliktiems vienam ar keliems klientams, funkcijos taip pat taikytinos vidiniams, tik išlaidų projektams. 
@@ -75,11 +75,11 @@ Daugiau informacijos rasite [Darbo paskirstymo struktūros](work-breakdown-struc
 
 ### <a name="create-project-forecasts-and-budgets"></a>Kurti projektų prognozes ir biudžetus
 
-Projektų prognozavimą galite naudoti, jei jūsų organizacija turi veiklos perspektyvą ir pagrindinį dėmesį skiria įplaukoms bei išlaidoms, gaunamoms iš konkrečių operacijų. Tačiau, jei jūsų organizacija daugiau dėmesio skiria finansinėms sumoms, naudokite biudžeto sudarymo funkciją. Kiekvienas metodas turi savų privalumų. Daugiau informacijos rasite [Projektų prognozės ir biudžetai](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Projektų prognozavimą galite naudoti, jei jūsų organizacija turi veiklos perspektyvą ir pagrindinį dėmesį skiria įplaukoms bei išlaidoms, gaunamoms iš konkrečių operacijų. Tačiau, jei jūsų organizacija daugiau dėmesio skiria finansinėms sumoms, naudokite biudžeto sudarymo funkciją. Kiekvienas metodas turi savų privalumų. Daugiau informacijos rasite [Projektų prognozės ir biudžetai](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Kurti projektus
 
-Naudodami „Microsoft Dynamics 365 for Operations“ galite sukurti šešių tipų projektus. Nustatoma, kad naudojant kiekvieną projekto tipą išlaidų ir įplaukų pripažinimas būtų skirtingas. Pasirenkamas projekto tipas priklauso nuo projekto paskirties. Toliau pateikiamoje lentelėje apžvelgiamas įprastas kiekvieno projekto tipo naudojimas.
+Naudodami „Microsoft Finance and Operations“ galite sukurti šešių tipų projektus. Nustatoma, kad naudojant kiekvieną projekto tipą išlaidų ir įplaukų pripažinimas būtų skirtingas. Pasirenkamas projekto tipas priklauso nuo projekto paskirties. Toliau pateikiamoje lentelėje apžvelgiamas įprastas kiekvieno projekto tipo naudojimas.
 
                                                                                                                                                                          |
 | Projekto tipas      | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Daugiau informacijos rasite [Darbo paskirstymo struktūros](work-breakdown-struc
 
 Yra du būdai valdyti ir kontroliuoti projektams: projektų prognozės ir projektų biudžetai. Projektų prognozavimą galite naudoti, jei jūsų organizacija turi veiklos perspektyvą ir pagrindinį dėmesį skiria įplaukoms bei išlaidoms, gaunamoms iš konkrečių operacijų. Tačiau, jei jūsų organizacija daugiau dėmesio skiria finansinėms sumoms, naudokite biudžeto sudarymo funkciją.
 
-Daugiau informacijos rasite [Projektų prognozės ir biudžetai](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Daugiau informacijos rasite [Projektų prognozės ir biudžetai](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Kurti gamybos užsakymus
 
@@ -228,7 +228,7 @@ Toliau pateikiamoje lentelėje aprašomi projekto baigimo savikainos apskaičiav
 <tbody>
 <tr class="odd">
 <td>Bendroji savikaina – faktinė</td>
-<td>Įvertintas savikainas reikia įvesti rankiniu būdu. Užpildžius <strong>Savikainos įvertinimo</strong> puslapio stulpelį <strong>Bendroji savikaina</strong> arba <strong>Bendrasis kiekis</strong>, faktinės išlaidos atimamos iš naudotojo įvestų bendrųjų sumų. Rezultatas yra projekto baigimo savikaina. Paprastai išlaidų eiga nėra sekama pagal, pvz., apsistojimų viešbutyje ir valgių skaičių, kuris įrašomas kiekviename laikotarpyje. Vietoj to. Paprastai sekama pagal lyginimą su bendrąja įvertintų valandų suma. Naudojant šį metodą, nereikia prognozės modelio, o bendrąją savikainą ar bendrąjį kiekį galima keisti rankiniu būdu. Kai stulpelyje <strong>Bendroji savikaina</strong> ar <strong>Bendrasis kiekis</strong> įvedama reikšmė, „Microsoft Dynamics 365 for Operations‟ ją lygina su faktinėmis operacijomis, kurios užregistruotos šiuo laikotarpiu ir tada sumažina reikšmę stulpelyje <strong>Baigimo kiekis</strong> ar <strong>Baigimo savikaina</strong>.</td>
+<td>Įvertintas savikainas reikia įvesti rankiniu būdu. Užpildžius <strong>Savikainos įvertinimo</strong> puslapio stulpelį <strong>Bendroji savikaina</strong> arba <strong>Bendrasis kiekis</strong>, faktinės išlaidos atimamos iš naudotojo įvestų bendrųjų sumų. Rezultatas yra projekto baigimo savikaina. Paprastai išlaidų eiga nėra sekama pagal, pvz., apsistojimų viešbutyje ir valgių skaičių, kuris įrašomas kiekviename laikotarpyje. Vietoj to. Paprastai sekama pagal lyginimą su bendrąja įvertintų valandų suma. Naudojant šį metodą, nereikia prognozės modelio, o bendrąją savikainą ar bendrąjį kiekį galima keisti rankiniu būdu. Kai stulpelyje <strong>Bendroji savikaina</strong> ar <strong>Bendrasis kiekis</strong> įvedama reikšmė, „Finance and Operations‟ ją lygina su faktinėmis operacijomis, kurios užregistruotos šiuo laikotarpiu, ir tada sumažina reikšmę stulpelyje <strong>Baigimo kiekis</strong> ar <strong>Baigimo savikaina</strong>.</td>
 </tr>
 <tr class="even">
 <td>Bendrasis biudžetas – faktin.</td>
@@ -238,7 +238,7 @@ Toliau pateikiamoje lentelėje aprašomi projekto baigimo savikainos apskaičiav
 <li>Prognozės operacijas palyginkite su faktinėmis operacijomis.</li>
 <li>Prižiūrėkite, mažinkite arba didinkite kito laikotarpio įvertinimus.</li>
 </ol>
-„Microsoft Dynamics 365 for Operations‟ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. 
+„Finance and Operations‟ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. 
 > [!NOTE] Pasirinkę šį metodą, naudokite bent du prognozės modelius. Viename modelyje turėtų būti pradinė prognozė. Į kitą modelį turėtumėte nukopijuoti prognozės operacijas iš kito modelio. Šis metodas galioja tik Fiksuotos kainos ir Investicijų projektams.</td>
 > </tr>
 <tr class="odd">

@@ -3,13 +3,13 @@ title: Pardavimas ir rinkodara
 description: "Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Pardavimų ir rinkodaros srityje pirminius santykius su potencialiais klientais 
 
 ### <a name="campaigns"></a>Kampanijos
 
-Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. Programoje „Microsoft Dynamics 365 for Operations“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
+Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. Programoje „Microsoft Dynamics 365 for Finance and Operations“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
 
 ## <a name="sales"></a>Pardavimas
 Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Pardavimo verslo procesas](./media/sales01.jpg)](./media/sales01.jpg)

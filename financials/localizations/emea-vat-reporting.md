@@ -3,7 +3,7 @@ title: PVM ataskaitos Europoje
 description: "Šioje temoje pateikiama bendra informacija apie pridėtinės vertės mokesčio (PVM) išrašo, skirto kai kurioms Europos šalims, nustatymą ir generavimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,22 +11,23 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 697af132142fadf907ffcab3fa20a6646d9ae632
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/09/2017
 
 ---
 
-# <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
+<a id="vat-reporting-for-europe" class="xliff"></a>
+
+# PVM ataskaitos Europoje
 
 [!include[banner](../includes/banner.md)]
 
@@ -46,26 +47,36 @@ ms.lasthandoff: 05/25/2017
 -   Olandija
 -   Švedija
 
-## <a name="vat-statement-overview"></a>PVM išrašo apžvalga
+<a id="vat-statement-overview" class="xliff"></a>
+
+## PVM išrašo apžvalga
 PVM išrašas pagrįstas PVM operacijų sumomis. PVM išrašo generavimo procesas yra PVM apmokėjimo proceso, kuris vykdomas naudojant funkciją Sudengti ir užregistruoti PVM, dalis. Ši funkcija apskaičiuoja nurodyto laikotarpio PVM. Sudengimo skaičiavimas apima mokesčio operacijos pasirinkto sudengimo laikotarpio užregistruotą PVM. PVM išrašo duomenų skaičiavimo procesas pagrįstas ryšiu tarp PVM kodų ir PVM ataskaitų kodų, kai PVM ataskaitų kodai atitinka PVM išrašų langelius (arba XML žymes). Reikia nustatyti kiekvieno PVM kodo kiekvieno operacijos tipo PVM ataskaitų kodus, pvz., kaip apmokestinamą pardavimą, apmokestinamus pirkimus, apmokestinamą importą. Šio tipo operacijos aprašytos tolesniame šios temos skyriuje PVM ataskaitų PVM kodai.
 
 Reikia nustatyti kiekvieno PVM ataskaitų kodo konkretų ataskaitos maketą. Tuo pat metu PVM kodai yra susiejami su konkrečiu PVM rinkėju per PVM sudengimo laikotarpius. Reikia nustatyti kiekvieno PVM rinkėjo ataskaitos maketą. Todėl PVM kodo ataskaitos sąrankoje galima pasirinkti tik PVM ataskaitų kodus su tuo pačiu ataskaitos maketu, kuris nustatytas ir priskirtas PVM rinkėjui PVM kodo PVM sudengimo laikotarpiuose. PVM operacija, sugeneruota užregistravus užsakymą arba žurnalą, apima PVM kodą, PVM šaltinį, PVM kryptį ir operacijos sumas (mokesčio bazinę sumą ir mokesčio sumą apskaitos valiuta, PVM valiuta ir operacijos valiuta). Atsižvelgiant į mokesčio operacijos atributų derinį, operacijos sumos sudaro bendras PVM kodų nurodytų PVM ataskaitų kodų sumas. Tolesnėje iliustracijoje pavaizduotas duomenų ryšys.
 
 ![diagrama](./media/diagram4.jpg)
 
-## <a name="vat-statement-setup"></a>PVM išrašo sąranka
+<a id="vat-statement-setup" class="xliff"></a>
+
+## PVM išrašo sąranka
 Norėdami generuoti PVM išrašą, turite atlikti tolesnius veiksmus.
 
-### <a name="sales-tax-authorities-for-vat-reporting"></a>PVM rinkėjų nustatymas PVM ataskaitoms teikti
+<a id="sales-tax-authorities-for-vat-reporting" class="xliff"></a>
+
+### PVM rinkėjų nustatymas PVM ataskaitoms teikti
 
 <!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
 Prieš nustatydami PVM ataskaitų kodus, turite pasirinkti tinkamą PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** dalyje **Bendra** pasirinkite **Ataskaitos maketas**. Šis maketas bus naudojamas nustatant PVM ataskaitų kodus.
 
-### <a name="sales-tax-reporting-codes"></a>PVM ataskaitų kodai
+<a id="sales-tax-reporting-codes" class="xliff"></a>
 
-PVM ataskaitų kodai yra langelių kodai PVM išraše arba žymių pavadinimai XML formatu. Šie kodai naudojami ataskaitos sumoms sujungti ir paruošti. Kai konfigūruojate PVM išrašo elektroninių ataskaitų formatą, bus naudojami galutinių sumų pavadinimai. PVM ataskaitų kodus galite kurti ir tvarkyti puslapyje **PVM ataskaitų kodai**. Kiekvienam kodui turite priskirti ataskaitos maketą. Sukūrę PVM ataskaitų kodus, galite kodus pasirinkti puslapio **PVM kodai** dalyje **Ataskaitų sąranka**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/) and [Sales tax reporting codes page (Field descriptions)](http://ax.help.dynamics.com/en/wiki/sales-tax-reporting-codes-page-field-descriptions/).-->
+### PVM ataskaitų kodai
 
-### <a name="sales-tax-codes-for-vat-reporting"></a>PVM kodai, skirti PVM ataskaitos teikti
+PVM ataskaitų kodai yra langelių kodai PVM išraše arba žymių pavadinimai XML formatu. Šie kodai naudojami ataskaitos sumoms sujungti ir paruošti. Kai konfigūruojate PVM išrašo elektroninių ataskaitų formatą, bus naudojami galutinių sumų pavadinimai. PVM ataskaitų kodus galite kurti ir tvarkyti puslapyje **PVM ataskaitų kodai**. Kiekvienam kodui turite priskirti ataskaitos maketą. Sukūrę PVM ataskaitų kodus, galite kodus pasirinkti puslapio **PVM kodai** dalyje **Ataskaitų sąranka**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/).-->
+
+<a id="sales-tax-codes-for-vat-reporting" class="xliff"></a>
+
+### PVM kodai, skirti PVM ataskaitos teikti
 
 <!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
@@ -249,15 +260,19 @@ d<li>Operacijos <strong>Mokesčio bazinė suma</strong> arba <strong>Mokesčio s
 > -   Mokesčių bazinė suma yra operacijos suma iš lauko **Pradinė suma apskaitos valiuta**.
 > -   Mokesčių suma yra perėjimo suma iš lauko **Faktinė PVM suma apskaitos valiuta**.
 
-### <a name="configure-the-er-model-and-format-for-the-report"></a>ER modelio ir ataskaitos formato konfigūravimas
+<a id="configure-the-er-model-and-format-for-the-report" class="xliff"></a>
+
+### ER modelio ir ataskaitos formato konfigūravimas
 
 Galite naudoti elektronines ataskaitas (ER), kad sukonfigūruotumėte išrašus ir ataskaitas bei eksportuotumėte duomenis skirtingais elektroniniais formatais nekeisdami X++ kodo. Papildoma informacija:
 
--   [Elektroninių ataskaitų apžvalga](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Elektroninių ataskaitų apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
+-   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   [Lokalizavimo reikalavimai – GER konfigūracijos kūrimas](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-## <a name="countryspecific-resources-for-vat-statements"></a>PVM išrašų konkrečiai šaliai būdingi ištekliai
+<a id="countryspecific-resources-for-vat-statements" class="xliff"></a>
+
+## PVM išrašų konkrečiai šaliai būdingi ištekliai
 Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Toliau pateiktoje lentelėje nurodytoms šalims priskiriami PVM išrašų iš anksto nustatyti bendrieji modeliai ir formatai.
 
 

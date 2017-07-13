@@ -1,15 +1,15 @@
 ---
 title: "Pardavimo ir pelningumo našumo „Power BI“ turinys"
-description: "Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Dynamics 365 for Operations“ pardavimo ir pelningumo našumo turinio paketą, skirtą „Microsoft Power BI“. Jame paaiškinta, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Pardavimo ir pelningumo našumas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,33 +29,33 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Pardavimo ir pelningumo našumas**. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
 
-Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Dynamics 365 for Operations“ pardavimo ir pelningumo našumo turinio paketą, skirtą „Microsoft Power BI“. Jame paaiškinta, kaip pasiekti į turinio paketą įtrauktas ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+## <a name="overview"></a>Apžvalga
 
-<a name="overview"></a>Apžvalga
---------
+„Power BI‟ turinys **Pardavimo ir pelningumo našumas** buvo sukurtas tam, kad pardavimo vadovai galėtų stebėti pagrindines pardavimo metrikas – įplaukas, bendrąjį pelną ir pelno maržas. Jame naudojami pardavimo operacijų duomenys ir pateikiamas tiek sujungtas visos įmonės pardavimo skaičių rodinys, tiek klientų ir produktų pardavimo našumo analizė.
 
-Šis turinio paketas sukurtas pardavimo vadovams, pagrindinėms pardavimo įplaukų, bruto pelno ir pelno maržos metrikoms stebėti. Jame naudojami pardavimo operacijų duomenys iš „Dynamics 365 for Operations“, pateikiamas ir sujungtas visos įmonės pardavimo skaičių rodinys, ir klientų, ir produktų pardavimo našumo paskirstymas. Pabrėžiant įplaukų ir pelno pakitimus per tam tikrą laikotarpį, ataskaitas galima naudoti, norint įspėti vadovus apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Kategorijų ir regionų vadovams bus naudinga turėti diagramas, tarpusavyje lyginančias įvairių produktų kategorijų ir klientų grupių įplaukas ir pelną, išryškinančias atsiliekančius ir pirmaujančius. Išsamioje ataskaitoje, atskiro kliento įplaukas lyginant su pelno marža, vadovams pateikia duomenimis pagrįstą pagrindą, norint suderinti jų pardavimo ir rinkodaros pastangas su atitinkamu kiekvieno kliento šablonu. Pardavimo ir pelningumo našumo turinio paketas pardavimo vadovams leidžia analizuoti pardavimo našumą pagal:
+Ataskaitose perteikiama, kaip laikui bėgant kinta įplaukų ir pelno augimas. Todėl ataskaitas galima naudoti norint vadovus įspėti apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Be to, diagramomis vienų su kitais lyginamos skirtingų produktų kategorijų ir klientų grupių įplaukos bei pelningumas. Todėl kategorijų ir regionų vadovai gali nustatyti atsiliekančiuosius ir pirmaujančiuosius. Galiausiai išsamioje ataskaitoje atskiro kliento įplaukos lyginamos su pelno marža. Todėl klientų vadovai turi duomenimis pagrįstas pagrindą, kurį naudodami gali savo pardavimo ir rinkodaros pastangas derinti pagal kiekvieno kliento profilį. 
+
+Naudodami turinį **Pardavimo ir pelningumo našumas** pardavimo vadovai pardavimo našumą gali analizuoti tolesniais būdais.
 
 -   Įplaukos, metinės iki datos (pagal klientų grupę ir atskirus klientus, pardavimo kategorijas, atskirus produktus ir regionus)
 -   Įplaukų pasikeitimas, metams bėgant (pagal klientų regionus ir pardavimo kategorijas)
 
-Pelningumą galima analizuoti pagal:
+Pelningumą galima analizuoti tolesniais būdais.
 
 -   bruto pelną ir pelno maržą (pagal klientų grupes ir produkto pardavimo kategorijas);
 -   bruto pelno pokytį, metams bėgant;
 -   kliento pelningumą (pagal įplaukas, lyginant su marža).
 
-## <a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
-Pardavimo ir pelningumo našumo turinio paketas „Power BI“ išleistas kaip „Lifecycle Services“ (LCS) diegimo išteklius ir yra pasiekiamas iš „Dynamics 365 for Operations“. Išsamesnės informacijos apie tai, kaip pasiekti ir paleisti „Power BI“ ataskaitas žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
-**Pastaba:** KB 4011327 yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie „Lifecycle Services“ galite pasiekti KB čia: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+Jei naudojate „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimą su 2017 m. liepos mėn. naujinimu, „Power BI‟ turinys **Pardavimo ir pelningumo našumas** rodomas puslapyje **Pardavimo ir pelningumo našumas** (**Pardavimas ir rinkodara** > **Užklausos ir ataskaitos** > **Pardavimo našumo analizė** > **Pardavimo ir pelningumo našumas**). 
 
-## <a name="metrics-included-in-the-content-pack"></a>Į turinio paketą įtrauktos metrikos
-Turinio pakete yra ataskaita, sudaryta iš metrikų, pavaizduotų diagramomis, išklotinėmis ir lentelėmis, rinkinio. Toliau pateiktoje lentelėje pateikiama turinio paketo vizualizacijų apžvalga.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
+„Power BI‟ turinio pakete **Pardavimo ir pelningumo našumas** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio vizualizacijų apžvalga.
 
-|                        |                                            |                                                         |
+| Ataskaitų puslapis            | Diagramos                                     | Išklotinės                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Ataskaitų puslapis**        | **Diagramos**                                 | **Išklotinės**                                               |
 | Įplaukos pagal klientą    | 10 svarbiausių klientų pagal įplaukas                | Bendros įplaukos                                           |
 |                        | Bendros įplaukos pagal kliento grupę            | Įplaukų augimas bėgant metams                                      |
 |                        | Vidutinės kliento įplaukos pagal kliento grupę | Bruto marža                                            |
@@ -76,47 +76,46 @@ Turinio pakete yra ataskaita, sudaryta iš metrikų, pavaizduotų diagramomis, i
 
 \* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.
 
+## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
+Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Microsoft Dynamics 365“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
+
+„Power BI“ turinį **Pardavimo ir pelningumo našumas** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
+
+Įsitikinkite, kad atsisiunčiate tą turinį **Pardavimo ir pelningumo našumas**, kuris taikomas jūsų naudojamai „Dynamics 365‟ versijai.
+
+> [!NOTE]
+> Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, norint naudoti šį „Power BI‟ turinį būtina įdiegti KB 4011327. Prisijungę prie LCS, KB galite pasiekti adresu https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Dynamics 365 for Operations“ duomenys naudojami ataskaitai užpildyti pardavimo ir pelningumo našumo turinio pakete. Tai pateikiama agreguotais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ analizei atlikti optimizuota duomenų bazė. Daugiau apie tai skaitykite tinklaraštyje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Agreguoti matavimo vienetai šiame turinio pakete yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Sales Cube in Dynamics AX 2012“ ir AX 2012 R3, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Išsamesnės informacijos žr. tinklaraštyje pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į objekto parduotuvę [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Šie pagrindiniai agreguoti matavimo vienetai iš sąskaitos faktūros eilučių objekto naudojami kaip turinio paketo pagrindas.
+Tolesniais duomenimis pildoma „Power BI‟ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). 
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Objektas**    | **Pagrindiniai agreguoti matavimo vienetai**               | **„Dynamics 365 for Operations“ duomenų šaltinis** | **Laukas**                                    | **Aprašas**                          |
-| SF eilutės | Įplaukos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Suma, išreikšta apskaitos valiuta            |
-|               | Parduotų prekių savikaina                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Išlaidų suma + koregavimas                 |
-|               | Komisinių eilutės suma – apskaitos valiuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisinių eilutės suma apskaitos valiuta |
+Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
 
-Šioje lentelėje parodyti pagrindiniai agreguotų matavimo vienetų iš sąskaitos faktūros eilučių objekto, kurie naudojami kuriant kelis apskaičiuojamus kriterijus turinio paketo duomenų rinkinyje.
+Kaip turinio pagrindas naudojami šie pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai.
 
-|                   |                                                                                                  |
+| Objektas        | Pagrindiniai agreguoti matavimo vienetai                   | „Dynamics 365“ duomenų šaltinis                    | Laukas                                        | aprašymas                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| SF eilutės | Įplaukos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Suma, išreikšta apskaitos valiuta.            |
+|               | Parduotų prekių savikaina                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Išlaidų sumos ir koregavimo suma.    |
+|               | Komisinių eilutės suma – apskaitos valiuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisinių suma, išreikšta apskaitos valiuta. |
+
+Tolesnėje lentelėje parodyti pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai, kurie naudojami kuriant kelis apskaičiuojamus matus turinio duomenų rinkinyje.
+
+| Mato vnt.           | Skaičiavimas                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Matas**       | **Apskaičiuota kaip**                                                                                |
 | Bendrasis pelnas      | SUM(įplaukos – PPK – komisiniai – PVM (įtrauktas į kliento SF eilutės sumą))          |
 | Bruto marža      | SUM(bruto pelnas / (įplaukos - PVM (įtrauktas į kliento SF eilutės sumą)))             |
 | Praėjusių metų įplaukos | Praėjusių metų įplaukos = CALCULATE(SUM('SF eilutės'\[įplaukos\]), SAMEPERIODLASTYEAR(datos\[data\]) |
 
-Šios pagrindinės dimensijos **Pardavimo kubas** naudojamos kaip filtrai agreguotiems matavimo vienetams susegmentuoti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
+Tolesnės pagrindinės pardavimo kubo dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnio detalumo ir gauti gilesnių analitinių įžvalgų.
 
-|                  |                                                      |
+| Objektas           | Atributų pavyzdžiai                               |
 |------------------|------------------------------------------------------|
-| **Objektas**       | **Atributų pavyzdžiai**                           |
 | Klientai        | Klientų grupės, klientų regionai, adresai, rinka |
 | Produktai         | Produkto numeris, produkto pavadinimas, prekių grupių pavadinimas       |
 | Pardavimo kategorijos | Pardavimo kategorijų pavadinimai                                 |
 | Juridiniai subjektai   | Juridinių subjektų pavadinimai                                   |
 | Datos            | Datos                                                |
 
-Pagal numatytuosius nustatymus, turinio paketas rodo šių kalendorinių metų duomenis, tačiau galite atidaryti ataskaitos filtrų skyrių ir keisti datos filtrą. Taip pat galite pakeisti įmonės filtrą.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](..\data-entities\data-entities.md)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
-
-
-
-
+Pagal numatytuosius parametrus turinyje rodomi esamų kalendorinių metų duomenys. Tačiau ataskaitos filtrų skyriuje datos filtrą galima pakeisti. Taip pat galite pakeisti įmonės filtrą.
 

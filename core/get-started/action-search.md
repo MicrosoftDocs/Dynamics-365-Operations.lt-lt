@@ -1,15 +1,16 @@
 ---
 title: "Veiksmo ieška"
-description: "Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus."
+description: "Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Finance and Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.
+Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Finance and Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.
 
 <a name="introduction"></a>Įžanga
 ------------
 
-„Microsoft Dynamics 365 for Operations“ puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę veiksmų sritį, rodomą puslapio viršuje, ir įvairiose puslapyje srityse rodomas įrankių juostas, komandas. Ankstesnėse versijose klavišų patarimų funkcija suteikė galimybę greitai pasiekti bet kurį veiksmų srities mygtuką paspaudžiant klavišą ALT ir raidžių seką. 
+„Microsoft Dynamics 365 for Finance and Operations“ puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę veiksmų sritį, rodomą puslapio viršuje, ir įvairiose puslapyje srityse rodomas įrankių juostas, komandas. Ankstesnėse versijose klavišų patarimų funkcija suteikė galimybę greitai pasiekti bet kurį veiksmų srities mygtuką paspaudžiant klavišą ALT ir raidžių seką. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Tačiau dabartinėje „Dynamics 365 for Operations“ versijoje klavišų patarimų funkciją pakeitė veiksmo ieškos funkcija. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Tačiau dabartinėje „Finance and Operations“ versijoje klavišų patarimų funkciją pakeitė veiksmo ieškos funkcija. Ši nauja funkcija suteikia galimybę greitai ieškoti ir suaktyvinti bet kurios matomos veiksmų srities mygtuką.
 
 ## <a name="using-action-search"></a>Veiksmo ieškos naudojimas
 Norėdami naudoti veiksmo ieškos funkciją, atlikite toliau nurodytus veiksmus.
@@ -53,7 +54,7 @@ Paleidus mygtuką suaktyvinama vėliausia aktyvi puslapio padėtis ir galima tę
 Taip pat galite pradėti veiksmo iešką paspausdami CTRL + / arba ALT + Q. Vėl paspauskite klaviatūros spartųjį klavišą, kad būtų suaktyvinta vėliausia aktyvi puslapio padėtis.
 
 ## <a name="understanding-the-results-list"></a>Rezultatų sąrašo supratimas
-Dažnai naudodami „Dynamics 365 for Operations“ turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygtuko funkciją. Todėl rezultatų sąraše rodoma papildoma kiekvieno elemento informacija padeda tiksliai suprasti, kurie mygtukai rodomi sąraše. Konkrečiai yra rodomas mygtuko „kelias“. Šis kelias gali apimti susijusias toliau nurodytų vartotojo sąsajos elementų žymes.
+Dažnai naudodami „Finance and Operations“ turite žinoti mygtuko vietą ir kontekstą, kad visiškai suprastumėte to mygtuko funkciją. Todėl rezultatų sąraše rodoma papildoma kiekvieno elemento informacija padeda tiksliai suprasti, kurie mygtukai rodomi sąraše. Konkrečiai yra rodomas mygtuko „kelias“. Šis kelias gali apimti susijusias toliau nurodytų vartotojo sąsajos elementų žymes.
 
 -   Veiksmų srities skirtukas
 -   Mygtukų grupė
@@ -70,7 +71,7 @@ Ankstesniame pavyzdyje buvo rodomi puslapio viršuje esančios veiksmų srities 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Veiksmo ieška ir naršymo ieška
-Veiksmo ieška skirta rasti ir vykdyti veiksmus puslapyje, bet yra atskiras ieškos mechanizmas, skirtas ieškoti ir naršyti puslapius „Dynamics 365 for Operations“. Daugiau informacijos apie šią funkciją ieškokite straipsnyje [Naršymo ieška](navigation-search.md).
+Veiksmo ieška skirta rasti ir vykdyti veiksmus puslapyje, bet yra atskiras ieškos mechanizmas, skirtas ieškoti ir naršyti puslapius „Finance and Operations“. Daugiau informacijos apie šią funkciją ieškokite straipsnyje [Naršymo ieška](navigation-search.md).
 
 
 

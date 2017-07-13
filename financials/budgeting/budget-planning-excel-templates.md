@@ -3,7 +3,7 @@ title: "Biudžeto planavimo „Excel“ šablonai"
 description: "Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. Atidary
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Siekiant išvengti galimų problemų, susijusių su biudžeto plano duomenų peržiūra ir redagavimu programoje „Excel“, tas pats vartotojas turėtų prisijungti prie „Dynamics 365 for Operations“ ir prie „Microsoft Dynamics Office“ papildinio duomenų jungties.
+> Siekiant išvengti galimų problemų, susijusių su biudžeto plano duomenų peržiūra ir redagavimu programoje „Excel“, tas pats vartotojas turėtų prisijungti prie „Dynamics 365 for Operations“ (leidimas „Enterprise“) ir prie „Microsoft Dynamics Office“ papildinio duomenų jungties.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Antraštės įtraukimas į biudžeto plano dokumento šabloną
 Norėdami įtraukti antraštės informaciją, pasirinkite viršutinę „Excel“ failo eilutę ir įterpkite tuščių eilučių. Dalyje **Duomenų jungtis** spustelėkite **Dizainas**, kad į „Excel“ failą įtrauktumėte antraštės laukų.
@@ -79,11 +79,11 @@ Pasirinktoje laukų grupėje rodomi stulpeliai, pateikiami šablone. Spustelėki
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. „Dynamics 365 for Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
+> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. „Finance and Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
 
 Pakartokite šiuos veiksmus ir įterpkite stulpelį **Koregavimas**. Šiam stulpeliui priskirkite formulę: AxTable1\[Bendra užklausų suma\]\*$I$1 Tokiu būdu langelio I1 vertė bus padauginta iš stulpelio **Bendra užklausų suma** verčių, kad būtų apskaičiuotos koregavimo sumos.
 
-Įrašykite ir uždarykite „Excel“ failą. Vėl atidarykite „Dynamics 365 for Operations“ ir dalyje **Maketai** spustelėkite **Šablonas &gt; Naujinti**, kad įkeltumėte įrašytą „Excel“ šabloną naudoti biudžeto plane. 
+Įrašykite ir uždarykite „Excel“ failą. Vėl atidarykite „Finance and Operations“ ir dalyje **Maketai** spustelėkite **Šablonas &gt; Naujinti**, kad įkeltumėte įrašytą „Excel“ šabloną naudoti biudžeto plane. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

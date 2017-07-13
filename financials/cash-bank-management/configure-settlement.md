@@ -3,7 +3,7 @@ title: "Sudengimo konfigūravimas"
 description: "Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti. 
 
-Šie parametrai lemia, kaip „Microsoft Dynamics 365 for Operations“ apdoroja sudengimus. Sudengimas yra procesas, kurio metu SF sudengiama su mokėjimu arba kredito pažyma. Šie parametrai yra srityje **Sudengimas** puslapiuose **Gautinų sumų parametrai** ir **Mokėtinų sumų parametrai**.
+Šie parametrai lemia, kaip „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise“) apdoroja sudengimus. Sudengimas yra procesas, kurio metu SF sudengiama su mokėjimu arba kredito pažyma. Šie parametrai yra srityje **Sudengimas** puslapiuose **Gautinų sumų parametrai** ir **Mokėtinų sumų parametrai**.
 
 -   **Automatinis sudengimas** – nustatykite šios parinkties reikšmę **Taip**, jei operacija turi būti sudengta automatiškai su kitomis atidarytomis operacijomis, kai ji registruojama. Jei šiai parinkčiai nustatyta reikšmė **Ne**, vartotojai gali rankiniu būdu sudengti operacijas, kai jie įveda mokėjimus arba vėliau, naudodami puslapį **Sudengti operacijas**.
 -   **Mokėjimo nuolaidos administravimas** – nurodykite, kaip [tvarkoma mokėjimo nuolaida, kai SF yra permokėta](cash-discount-handling-overpayments.md). Įvykus permokėjimui, mokėjimo nuolaida gali būti sumažinta, ji gali būti laikoma skirtumu arba ji gali likti tiekėjo ar kliento sąskaitoje.
@@ -47,7 +47,7 @@ Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai sv
 -   **Skaičiuoti dalinių mokėjimų nuolaidas** – nustatykite šiai parinkčiai reikšmę **Taip**, kad būtų automatiškai apskaičiuojamos dalinių mokėjimų nuolaidos.
     -   Toks šios parinkties poveikis priklauso nuo lauko **Naudoti mokėjimo nuolaidą** reikšmės puslapyje **Sudengti operacijas**. Jei šiai parinkčiai nustatyta reikšmė **Taip**, nuolaida paimama, kai laukui **Naudoti mokėjimo nuolaidą** nustatyta reikšmė **Įprasta**. Kai laukui **Naudoti mokėjimo nuolaidą** nustatyta reikšmė **Visada**, mokėjimo nuolaida paimama visada, nepriklausomai nuo šio lauko nustatymo. Kai laukui **Naudoti mokėjimo nuolaidą** nustatyta reikšmė **Niekada**, mokėjimo nuolaida niekada neimama, nepriklausomai nuo šio lauko nustatymo.
     -   Jei šiai parinkčiai nustatyta reikšmė **Taip** ir vartotojas pakeičia lauko **Sudengtina suma** reikšmę puslapyje **Sudengti operacijas**, nuolaida apskaičiuojama automatiškai ir rodoma kaip numatytasis lauko **Taikytinos mokėjimo nuolaidos suma** įrašas.
-    -   Jei šiai parinkčiai nustatyta reikšmė **Ne**ir vartotojas pakeičia lauko **Sudengtina suma** reikšmę puslapyje **Sudengti operacijas**, numatytasis lauko **Taikytinos mokėjimo nuolaidos suma** įrašas yra **0** (nulis).
+    -   Jei šiai parinkčiai nustatyta reikšmė **Ne** ir vartotojas pakeičia lauko **Sudengtina suma** reikšmę puslapyje **Sudengti operacijas**, numatytasis lauko **Taikytinos mokėjimo nuolaidos suma** įrašas yra **0** (nulis).
 -   **Skaičiuoti kredito pažymų mokėjimo nuolaidas** – nustatykite šiai parinkčiai reikšmę **Taip**, kad automatiškai apskaičiuotumėte kredito pažymų mokėjimo nuolaidą. Naudojant modulį „Gautinos sumos“, kredito pažymos operacija yra neigiama operacija, kurios reikšmė nurodyta lauke **SF** puslapyje **Laisvos formos SF** arba grąžinimą puslapyje **Pardavimo užsakymas**.
     -   Šios parinkties poveikis priklauso nuo lauko **Naudoti mokėjimo nuolaidą** reikšmės puslapyje **Sudengti operacijas**. Jei šiai parinkčiai nustatyta reikšmė **Taip**, nuolaida paimama, kai laukui ****Naudoti mokėjimo nuolaidą**** nustatyta reikšmė **Įprasta**. Kai laukui ****Naudoti mokėjimo nuolaidą**** nustatyta reikšmė **Visada**, mokėjimo nuolaida paimama visada, nepriklausomai nuo šio lauko nustatymo. Kai laukui ****Naudoti mokėjimo nuolaidą**** nustatyta reikšmė **Niekada**, mokėjimo nuolaida niekada neimama, nepriklausomai nuo šio lauko nustatymo.
     -   Jei šiai parinkčiai nustatyta reikšmė **Taip**, o puslapyje **Sudengti operacijas** pažymėta kredito pažyma, nuolaida apskaičiuojama automatiškai ir yra rodoma kaip numatytasis lauko **Taikytinos mokėjimo nuolaidos suma** įrašas.

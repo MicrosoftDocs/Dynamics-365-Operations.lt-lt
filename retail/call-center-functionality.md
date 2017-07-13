@@ -1,28 +1,29 @@
 ---
 title: "Skambučių centro funkcijos"
-description: "Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Operations“ apžvalga."
+description: "Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Retail“ apžvalga."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 40d7c1a95f33c189639c12279a8e3a286f0c6761
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: befbf43a0af8016895e570f5d8cf3a51983692f2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Operations“ apžvalga.
+Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Retail“ apžvalga.
 
-„Microsoft Dynamics AX“ funkcija Mažmeninė prekyba ir prekyba palaiko skambučių centrus kaip mažmeninės prekybos kanalo tipą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Skambučių centro funkcija apima savybes, kurios padeda lengviau priimti užsakymus telefonu ir vykdyti klientų aptarnavimą visu užsakymo vykdymo proceso metu. Pavyzdžiui, skambučių centro darbuotojai gali įvesti mokėjimo informaciją tiesiai į pardavimo užsakymą ir peržiūrėti išsamią mokesčių ir mokėjimų suvestinę prieš pateikdami užsakymą. Darbuotojai taip pat turi galimybę kontroliuoti kainodarą ir gali pasiekti įvairius duomenis apie klientus, produktus ir kainas iš puslapio **Pardavimo užsakymas**. Be to, skambučių centruose yra išplėstinė funkcija, suteikianti galimybę stebėti klientų retrospektyvą ir užsakymo būseną. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. Papildomai galite naudoti puslapį **Skambučių centras** norėdami įjungti arba išjungti šias unikalių skambučių centrų funkcijų grupes.
+„Dynamics 365 for Retail“ palaiko skambučių centrus kaip mažmeninės prekybos kanalo tipą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Skambučių centro funkcija apima savybes, kurios padeda lengviau priimti užsakymus telefonu ir vykdyti klientų aptarnavimą visu užsakymo vykdymo proceso metu. Pavyzdžiui, skambučių centro darbuotojai gali įvesti mokėjimo informaciją tiesiai į pardavimo užsakymą ir peržiūrėti išsamią mokesčių ir mokėjimų suvestinę prieš pateikdami užsakymą. Darbuotojai taip pat turi galimybę kontroliuoti kainodarą ir gali pasiekti įvairius duomenis apie klientus, produktus ir kainas iš puslapio **Pardavimo užsakymas**. Be to, skambučių centruose yra išplėstinė funkcija, suteikianti galimybę stebėti klientų retrospektyvą ir užsakymo būseną. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. Papildomai galite naudoti puslapį **Skambučių centras** norėdami įjungti arba išjungti šias unikalių skambučių centrų funkcijų grupes.
 
 -   **Užsakymo baigimas** – ši grupė apima funkcijas, susijusias su mokėjimais ir užsakymo baigimu puslapyje **Pardavimo užsakymas**.
 -   **Tiesioginis pardavimas** – ši grupė apima funkcijas, susijusias su šaltinio kodais, scenarijais ir katalogų užklausomis.

@@ -1,16 +1,16 @@
 ---
-title: "Mobiliosios programos „Dynamics 365 for Operations“ pagrindinis puslapis"
-description: "Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti savo organizacijoje."
+title: "Pagrindinis mobiliųjų programų puslapis"
+description: "Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Unified Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje."
 author: sericks007
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations, Platform
 ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
@@ -18,50 +18,53 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 663a03dc37cc1631bd285a76ef564993a34ed057
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Mobiliosios programos „Dynamics 365 for Operations“ pagrindinis puslapis
+# <a name="mobile-app-home-page"></a>Pagrindinis mobiliųjų programų puslapis
 
 [!include[banner](../includes/banner.md)]
 
+Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Unified Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
 
-Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti savo organizacijoje.
+> [!NOTE]
+> Anksčiau mobilioji programa vadinosi *„Microsoft Dynamics 365 for Finance and Operations‟*.
 
 <a name="overview"></a>Apžvalga
 --------
 
-Mobilioji programa „Microsoft Dynamics 365 for Operations“ jūsų organizacijai suteikia galimybę pateikti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa „Dynamics 365 for Operations“ apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
+Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
 
--   Vartotojai gali peržiūrėti, redaguoti ir naudoti verslo duomenis net jei jų tinklo ryšys yra kintamas arba jų mobilieji įrenginiai yra visiškai neprisijungę. Kai įrenginys iš naujo užmezga ryšį, atsijungus atliktos duomenų operacijos yra automatiškai sinchronizuojamos su „Dynamics 365 for Operations“.
--   IT administratoriai arba kūrėjai gali kurti ir publikuoti mobiliąsias darbo sritis, kurios pritaikytos jų organizacijai. Programa naudoja jūsų esamą kodo turtą. Todėl jums nereikia iš naujo diegti tikrinimo procedūrų, verslo logikos arba saugos konfigūracijos.
--   IT administratoriai arba kūrėjai gali lengvai kurti mobiliąsias darbo sritis naudodami nurodymo ir spustelėjimo tipo darbo sričių dizaino įrankį, įtrauktą į „Dynamics 365 for Operations“ žiniatinklio klientą.
--   IT administratoriai arba kūrėjai gali pasirinktinai optimizuoti darbo sričių naudojimo neprisijungus galimybes naudodami verslo logikos išplėtimo sistemą. Kadangi duomenys toliau apdoroti, kai įrenginys neprisijungęs, jūsų mobilieji scenarijai bus vaizdingi ir sklandūs net jei įrenginiai ne visada prijungti prie tinklo.
+- Vartotojai gali peržiūrėti, redaguoti ir naudoti verslo duomenis net jei jų tinklo ryšys yra kintamas arba jų mobilieji įrenginiai yra visiškai neprisijungę. Kai įrenginyje atkuriamas tinklo ryšys, neprisijungus atliktos duomenų operacijos automatiškai sinchronizuojamos su „Dynamics 365 for Finance and Operations, Enterprise edition‟ arba „Microsoft Dynamics 365 for Finance and Operations‟.
+- IT administratoriai arba kūrėjai gali kurti ir publikuoti mobiliąsias darbo sritis, kurios pritaikytos jų organizacijai. Programa naudoja jūsų esamą kodo turtą. Todėl jums nereikia iš naujo diegti tikrinimo procedūrų, verslo logikos arba saugos konfigūracijos.
+- IT administratoriai arba kūrėjai gali lengvai kurti mobiliąsias darbo sritis naudodami nurodymo ir spustelėjimo tipo darbo sričių dizaino įrankį, įtrauktą į žiniatinklio klientą.
+- IT administratoriai arba kūrėjai gali pasirinktinai optimizuoti darbo sričių naudojimo neprisijungus galimybes naudodami verslo logikos išplėtimo sistemą. Kadangi duomenys toliau apdoroti, kai įrenginys neprisijungęs, jūsų mobilieji scenarijai bus vaizdingi ir sklandūs net jei įrenginiai ne visada prijungti prie tinklo.
 
 ## <a name="elements-of-the-mobile-app"></a>Mobiliosios programos elementai
-Mobiliosios programos naršymą sudaro keturios paprastos sąvokos: ataskaitų sritis, darbo sritis, puslapiai ir veiksmai. 
+Mobiliosios programos naršymą sudaro keturios pagrindinės koncepcijos: ataskaitų sritis, darbo sritis, puslapiai ir veiksmai. 
 
 [![Mobiliosios programos naršymo sąvokos](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
--   Paleidus programą atidaroma **ataskaitų sritis**.
--   Ataskaitų srityje rodomas sąrašas, kuriame pateiktos jūsų „Dynamics 365 for Operations“ aplinkoje publikuojamos **darbo sritys**.
--   Kiekvienoje darbo srityje rodomas sąrašas, kuriame pateikti tos darbo srities **puslapiai**.
--   Puslapyje galite peržiūrėti duomenis, surinktus iš vieno arba daugiau „Dynamics 365 for Operations“ puslapių.
--   Iš puslapio galite atidaryti kitus susijusių duomenų, pvz., objekto informacijos arba eilučių, puslapius.
--   Puslapyje taip pat rodomas sąrašas, kuriame pateikiami to puslapio **veiksmai**.
--   Veiksmais galima kurti arba redaguoti esamus duomenis.
+1. Paleidus programą atidaroma **ataskaitų sritis**.
+2. Ataskaitų srityje galite peržiūrėti paskelbtų **darbo sričių** sąrašą.
+3. Kiekvienoje darbo srityje rodomas sąrašas, kuriame pateikti tos darbo srities **puslapiai**.
+4. Būdami puslapyje, galite atlikti kelis veiksmus. Štai keletas pavyzdžių:
+
+    - Peržiūrėti išsamius duomenis.
+    - Atidaryti kitus susijusių duomenų, pvz., objekto informacijos arba eilučių, puslapius.
+    - Peržiūrėti puslapyje pasiekiamų **veiksmų** sąrašą. Veiksmais galima kurti arba redaguoti esamus duomenis.
 
 ## <a name="implementation-process"></a>Diegimo procesas
-Tolesnėje iliustracijoje parodytas mobiliosios programos „Dynamics 365 for Operations“ diegimo savo organizacijoje procesas. 
+Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia „Microsoft“, ir pasirinktinių mobiliųjų darbo sričių diegimo procesas. 
 
-![Mobiliųjų programų diegimo procesas](./media/mobile-implementation-process_4.png)
+![Mobiliųjų programų diegimo procesas](./media/Mobile-implementation-process-5.png)
 
-Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobiliąją programą „Dynamics 365 for Operations“ įdiegti savo organizacijoje. Skaičiai pirmajame stulpelyje atitinka sunumeruotus veiksmus ankstesnėje iliustracijoje.
+Šioje lentelėje pateikiami saitai į išteklius, kurie gali padėti įdiegti mobiliąsias darbo sritis, kurias teikia „Microsoft“, ir pasirinktines mobiliąsias darbo sritis. Skaičiai pirmajame stulpelyje atitinka sunumeruotus veiksmus ankstesnėje iliustracijoje.
 
 <table>
 <colgroup>
@@ -82,21 +85,23 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <tr class="odd">
 <td>1</td>
 <td>Sistemos administratorius</td>
-<td>Įdiekite „Dynamics 365 for Operations“ organizacijoje.</td>
-<td>Jei jūsų organizacijoje dar neįdiegta „Dynamics 365 for Operations“, peržiūrėkite temą <a href="../deployment/deploy-demo-environment.md">„Microsoft Dynamics 365 for Operations“ demonstracinės aplinkos diegimas</a>.</td>
+<td>Įdiegti „Finance and Operations” arba „Finance and Operations” jūsų organizacijoje.</td>
+<td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365‟ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistemos administratorius</td>
-<td>Atsisiųskite ir įdiekite KB, kurie reikalingi „Microsoft“ teikiamoms mobiliosioms darbo sritims įjungti.</td>
-<td>Peržiūrėkite temos apie mobiliąją darbo sritį, kurią jūrų organizacija nori naudoti, dalį &quot;Būtinosios sąlygos&quot;.
+<td><strong>Jei naudojate „Microsoft Dynamics 365 for Finance and Operations‟ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft‟ teikiamas mobiliąsias darbo sritis.</td>
+<td>Daugiau informacijos ieškokite šiose temose:
 <ul>
-<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
-<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
-<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
-<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
-<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
-<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Mobilioji darbo sritis Išlaidų valdymas</a></li>
+
+<li><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Išlaidų valdymo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Turimų atsargų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Pardavimo užsakymų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Tiekėjo bendradarbiavimo mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Projekto laiko įrašų mobilioji darbo sritis</a></li>
+<li><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Mobilioji darbo sritis Išlaidų valdymas</a></li>
+
 </ul></td>
 </tr>
 <tr class="odd">
@@ -109,10 +114,10 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <tr class="even">
 <td>4</td>
 <td>Kūrėjas arba nepriklausomas programinės įrangos tiekėjas (ISV)</td>
-<td>Naudokite „Dynamics 365 for Operations“ mobiliąją sistemos pasirinktinėms mobiliosioms darbo sritims kurti.</td>
+<td>Naudokite mobiliąją sistemą pasirinktinėms mobiliosioms darbo sritims kurti.</td>
 <td><ul>
-<li><a href="mobile-platform.md">Mobilioji „Dynamics 365 for Operations“ sistema</a></li>
-<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">„Dynamics 365 for Operations“ darbo srities X++ APIs</a></li>
+<li><a href="mobile-platform.md">Mobiliojo sistema</a></li>
+<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Darbo srities X++ API</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -124,8 +129,8 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <tr class="even">
 <td>6</td>
 <td>Sistemos administratorius</td>
-<td>Taikykite diegiamą paketą, kuriame yra ISV teikiamos pasirinktinės darbo sritys.</td>
-<td><a href="../deployment/apply-deployable-package-system.md">Diegiamo paketo taikymas „Microsoft Dynamics 365 for Operations“ sistemai</a></td>
+<td>Taikykite diegiamą paketą, kuriame yra nepriklausomo programinės įrangos tiekėjo (ISV) teikiamos pasirinktinės darbo sritys.</td>
+<td><a href="../deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -136,24 +141,19 @@ Tolesnėje lentelėje pateikiami saitai į išteklius, kurie gali padėti mobili
 <tr class="even">
 <td>8</td>
 <td>Vartotojas</td>
-<td>Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Operations“.</td>
+<td>Atsisiųskite ir įdiekite mobiliąją programą.</td>
 <td><ul>
-<li>„Android“: <a href="https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile">„Dynamics 365 for Operations“ „Google Play“ parduotuvėje</a></li>
-<li>„iPhone“: <a href="https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8">„Dynamics 365 for Operations“ „iTunes “ programų parduotuvėje</a></li>
-</ul></td>
+<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">„Android“ telefonams</a></li>
+<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Telefonams „iPhone“</a></li></ul>
+</td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>Vartotojas</td>
-<td>Prisijunkite ir naudokite mobiliąją programą „Dynamics 365 for Operations“. Į programą įtrauktos publikuojamos mobiliosios darbo sritys.</td>
-<td>Norėdami peržiūrėti „Microsoft“ teikiamų mobiliųjų darbo sričių sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios programos „Dynamics 365 for Operations“ mobiliosios darbo sritys</a>
+<td>Prisijunkite ir naudokite mobiliąją programą. Į programą įtrauktos sistemos administratoriaus paskelbtos mobiliosios darbo sritys.</td>
+<td>Norėdami peržiūrėti „Microsoft“ teikiamų mobiliųjų sričių sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.
 </td>
 </tr>
 </tbody>
 </table>
-
-
-
-
-
 

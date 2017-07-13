@@ -3,7 +3,7 @@ title: Intrastat
 description: "Šiame straipsnyje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5dea47c92c3891ce86b470119ea3bad8252c08d1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Toliau pateikiamuose skyriuose aprašomas bendras informacijos, kuri naudojama t
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Įvesti operaciją, kuri kerta kitos ES šalies / regiono sieną
 
-Kliento SF, laisvos formos SF, pirkimo SF, projekto SF, kliento važtaraštis, tiekėjo produkto kvitas ar perkėlimo užsakymas į Intrastat žurnalą perkeliami tik jei paskirties (išsiunčiant) arba konsignacijos (gaunant) šalies / regiono tipas yra **ES**. Šią funkciją taip pat palaiko 1611 „Microsoft Dynamics 365 for Operations“ versija. Funkcija suteikia galimybę nurodyti ES vidaus operacijos pakrovimo adresą. Jei pakrovimo adresas skiriasi nuo tiekėjo darbo adreso (arba grąžinimo užsakymo kliento darbo adreso), Intrastat ataskaitose bus naudojama ši informacija. Kai kuriate pardavimo užsakymą, laisvos formos SF, pirkimo užsakymą, tiekėjo SF, projekto SF ar perkėlimo užsakymą, dokumento antraštėje arba eilutėje kai kurių laukų, kurie yra susiję su užsienio prekyba, reikšmės yra numatytosios. Numatytasis operacijos kodas yra paimamas iš atitinkamo lauko **Užsienio prekybos parametrų** puslapyje. Numatytasis prekės kodas, kilmės šalis / regionas ir kilmės apskritis / rajonas paimami iš prekės. Galite keisti numatytąsias reikšmes ir taip pat galite užpildyti kitą su užsienio prekyba susijusią informaciją: statistikos procedūrą, transportavimo būdą ir uostą.
+Kliento SF, laisvos formos SF, pirkimo SF, projekto SF, kliento važtaraštis, tiekėjo produkto kvitas ar perkėlimo užsakymas į Intrastat žurnalą perkeliami tik jei paskirties (išsiunčiant) arba konsignacijos (gaunant) šalies / regiono tipas yra **ES**. Šią funkciją taip pat palaiko „Microsoft Dynamics 365 for Operations“ (1611). Funkcija suteikia galimybę nurodyti ES vidaus operacijos pakrovimo adresą. Jei pakrovimo adresas skiriasi nuo tiekėjo darbo adreso (arba grąžinimo užsakymo kliento darbo adreso), Intrastat ataskaitose bus naudojama ši informacija. Kai kuriate pardavimo užsakymą, laisvos formos SF, pirkimo užsakymą, tiekėjo SF, projekto SF ar perkėlimo užsakymą, dokumento antraštėje arba eilutėje kai kurių laukų, kurie yra susiję su užsienio prekyba, reikšmės yra numatytosios. Numatytasis operacijos kodas yra paimamas iš atitinkamo lauko **Užsienio prekybos parametrų** puslapyje. Numatytasis prekės kodas, kilmės šalis / regionas ir kilmės apskritis / rajonas paimami iš prekės. Galite keisti numatytąsias reikšmes ir taip pat galite užpildyti kitą su užsienio prekyba susijusią informaciją: statistikos procedūrą, transportavimo būdą ir uostą.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Naudoti Intrastat žurnalą, norint generuoti informaciją apie prekybą tarp ES šalių / regionų
 

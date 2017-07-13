@@ -3,7 +3,7 @@ title: "Maršrutai ir operacijos"
 description: "Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 <a name="overview"></a>Apžvalga
 --------
 
-Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Microsoft Dynamics 365 for Operations“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą:
+Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžtį sprendime „Microsoft Dynamics 365 for Finance and Operations“ sudaro keturi atskiri elementai, kurie visi kartu apibūdina gamybos procesą:
 
 -   **Maršrutas** – maršrutas apibrėžia gamybos proceso struktūrą. Kitaip tariant, jis apibūdina operacijų seką.
 -   **Operacija** – operacija identifikuoja įvardintą veiksmą, pvz., **Surinkimas**. Ta pati operacija gali atsirasti keliuose maršrutuose ir gali turėti skirtingus operacijos numerius,
@@ -45,7 +45,7 @@ Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produkt�
 -   **Maršruto versija** – maršruto versija apibrėžia maršrutą, kuris naudojamas produktui arba produkto variantui pagaminti. Maršrutų versijos leidžia maršrutus tarp produktų naudoti pakartotinai arba laikui bėgant keisti. Jie taip pat įgalina skirtingų maršrutų naudojimą tam pačiam produktui pagaminti. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant tam tikrus veiksnius, pvz., vietą arba kiekį, kurį reikia pagaminti.
 
 ## <a name="routes"></a>Maršrutai
-Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Programoje „Dynamics 365 for Operations“ maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
+Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Sprendime „Dynamics 365 for Finance and Operations“ maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
 
 ### <a name="simple-routes"></a>Paprasti maršrutai
 
@@ -53,7 +53,7 @@ Paprastas maršrutas yra nuoseklus ir turi tik vieną maršruto pradžios datą.
 
 [![Paprastas maršrutas](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Jei gamybos kontrolės parametruose įgalinsite tik paprastus maršrutus, apibrėžiant maršrutą, programa „Dynamics 365 for Operations“ automatiškai generuoja operacijų numerius (10, 20, 30 ir t. t.).
+Jei gamybos kontrolės parametruose įjungiate tik paprastus maršrutus, jums apibrėžiant maršrutą, „Finance and Operations“ automatiškai generuoja operacijų numerius (10, 20, 30 ir t. t.).
 
 ### <a name="route-networks"></a>Maršrutų tinklai
 
@@ -85,10 +85,10 @@ Maršrutas turi būti patvirtintas prieš jį naudojant planavimo ir gamybos pro
 
 Galima atskirai patvirtinti arba nepatvirtinti kiekvieną maršrutą. Tačiau, atkreipkite dėmesį, kad, kai maršrutas nepatvirtintas, taip pat nepatvirtintos visos susijusios maršruto versijos. Gamybos kontrolės parametruose galite nurodyti, ar galima nepatvirtinti maršrutų, ar galima patvirtintus maršrutus keisti.  
 
-Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino kiekvieną maršrutą, galite reikalauti elektroninių parašų maršrutui patvirtinti. Vartotojai tada savo tapatybę turės patvirtinti naudodami [elektroninį parašą](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino kiekvieną maršrutą, galite reikalauti elektroninių parašų maršrutui patvirtinti. Vartotojai tada savo tapatybę turės patvirtinti naudodami [elektroninį parašą](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>„Operations“
-Operacija yra gamybos proceso veiksmas. Programoje „Dynamics 365 for Operations“ kiekviena operacija turi savo ID ir paprastą aprašą. Toliau pateikiamose lentelėse nurodyti tipiški operacijų pavyzdžiai iš įrenginių parduotuvės.
+Operacija yra gamybos proceso veiksmas. Sprendime „Dynamics 365 for Finance and Operations“ kiekviena operacija turi savo ID ir paprastą aprašą. Toliau pateikiamose lentelėse nurodyti tipiški operacijų pavyzdžiai iš įrenginių parduotuvės.
 
 | Operacija  | aprašymas        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Operacijų ryšiai suteikia daug lankstumo, kai nustatote savo maršrutus. Be to
 
 ### <a name="modifying-product-specific-routes"></a>Su konkrečiu produktu susijusių maršrutų keitimas
 
-Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informacija**, rodomos tos maršrutų versijos, kurios susietos su pasirinktu išleistu produktu. Šiame kontekste kiekvienai operacijai „Dynamics 365 for Operations“ rodo operacijų veiklos ypatybes iš operacijų ryšio, kurios geriausiai atitinka maršruto versiją. Pastebėsite, kad operacijų sąrašas apima ypatybes **Prekės kodas** ir **Maršruto kodas** iš operacijų ryšių. Todėl galite nustatyti, kuris operacijos ryšys rodomas.  
+Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informacija**, rodomos tos maršrutų versijos, kurios susietos su pasirinktu išleistu produktu. Šiame kontekste kiekvienai operacijai „Dynamics 365 for Finance and Operations“ rodo operacijų veiklos ypatybes iš operacijų ryšio, kurios geriausiai atitinka maršruto versiją. Pastebėsite, kad operacijų sąrašas apima ypatybes **Prekės kodas** ir **Maršruto kodas** iš operacijų ryšių. Todėl galite nustatyti, kuris operacijos ryšys rodomas.  
 
 Puslapyje **Maršrutas** galite keisti operacijų veiklos ypatybes, pvz., vykdymo laiką ar išlaidų kategorijas. Jūsų pakeitimai saugomi operacijų ryšyje, kuris būdingas maršrutui ir išleistam produktui, kurie nurodyti dabartinėje maršruto versijoje. Jei rodomas operacijų ryšys nėra būdingas maršrutui ir išleistam produktui, prieš išsaugant pakeitimus, sistema sukuria operacijų ryšio kopiją. Ši kopija *yra* būdinga maršrutui ir išleistam produktui. Todėl jūsų pakeitimai neturės poveikio kitiems maršrutams ar išleistiems produktams. Norėdami patikrinti, kuris operacijų ryšys yra keičiamas puslapyje **Maršrutas** pažiūrėkite į laukus **Prekės kodas** ir **Maršruto kodas**.  
 
@@ -150,9 +150,9 @@ Jei jūsų verslas naudoja standartines operacijas ir jei operacijų veiklos ypa
 
 ### <a name="applying-operation-relations"></a>Operacijų ryšių taikymas
 
-Kai kuriais atvejais programa „Dynamics 365 for Operations“ turi rasti operacijos operacijų veiklos ypatybes. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos operacijų veiklos ypatybės turi būti nukopijuotos iš operacijų ryšių į gamybos maršrutą. Tokiose situacijose „Dynamics 365 for Operations“ ieško susijusių operacijų ryšių nuo pačių būdingiausių kombinacijų iki mažiausiai būdingų kombinacijų.  
+Kai kuriais atvejais „Dynamics 365 for Finance and Operations“ turi rasti operacijos operacijų veiklos ypatybes. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos operacijų veiklos ypatybės turi būti nukopijuotos iš operacijų ryšių į gamybos maršrutą. Tokiose situacijose „Finance and Operations“ ieško susijusių operacijų ryšių nuo pačių būdingiausių kombinacijų iki mažiausiai būdingų kombinacijų.  
 
-Kai „Dynamics 365 for Operations“ ieško išleisto produkto labiausiai susijusių operacijų ryšių, operacijų ryšiui, kuris atitinka išleisto produkto prekės ID, teikiama pirmenybė lyginant su operacijų ryšiu, kuris atitinka prekės grupės ID. Savo ruožtu operacijos ryšys, kuris atitinka prekės grupės ID turi pirmenybę lyginant su numatytuoju operacijų ryšiu. Ieška atliekama toliau nurodyta tvarka:
+Kai „Dynamics 365 for Finance and Operations“ ieško išleisto produkto labiausiai susijusių operacijų ryšių, operacijų ryšiui, kuris atitinka išleisto produkto prekės ID, teikiama pirmenybė lyginant su operacijų ryšiu, kuris atitinka prekės grupės ID. Savo ruožtu operacijos ryšys, kuris atitinka prekės grupės ID turi pirmenybę lyginant su numatytuoju operacijų ryšiu. Ieška atliekama toliau nurodyta tvarka:
 
 1.  **Prekės kodas**=**Lentelė** ir **Prekės ryšys**=&lt;prekės ID&gt;
 2.  **Prekės kodas**=**Grupė** ir **Prekės ryšys**=&lt;prekių grupės ID&gt;
@@ -188,7 +188,7 @@ Suaktyvindami maršruto versiją, ją nurodote kaip numatytąją maršruto versi
 
 ### <a name="electronic-signatures"></a>Elektroniniai parašai
 
-Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino ir suaktyvino kiekvieną maršruto versiją, galite šioms užduotims atlikti reikalauti elektroninių parašų. Vartotojai, patvirtinantys ir suaktyvinantys maršruto versiją, savo tapatybę patvirtinti turės naudodami [elektroninį parašą](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino ir suaktyvino kiekvieną maršruto versiją, galite šioms užduotims atlikti reikalauti elektroninių parašų. Vartotojai, patvirtinantys ir suaktyvinantys maršruto versiją, savo tapatybę patvirtinti turės naudodami [elektroninį parašą](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Produkto keitimas naudojant atvejų valdymą
 
@@ -199,7 +199,7 @@ Atsižvelgiant į jūsų verslo reikalavimus, galbūt galėsite sumažinti pasta
 
 ### <a name="making-routes-independent-of-resources"></a>Maršrutų ir išteklių priklausomumo atsiejimas
 
-Daugelyje sistemų operacijų išteklius arba išteklių grupė, kuri turėtų atlikti operaciją, turi būti nurodyta maršrute. Tačiau programoje „Dynamics 365 for Operations“ galite nustatyti reikalavimų rinkinį, kuriuos ištekliai turi atitikti tam, kad galėtų būti taikomi operacijai. Todėl konkretūs operacijos ištekliai ar išteklių grupė, kurie turi būti naudojami, neturi būti nustatyti tol, kol operacija nesuplanuojama faktiškai. Ši funkcija ypač naudinga, turint daug darbininkų arba įrenginių, kurie gali atlikti tą pačią operaciją.  
+Daugelyje sistemų operacijų išteklius arba išteklių grupė, kuri turėtų atlikti operaciją, turi būti nurodyta maršrute. Tačiau sprendime „Dynamics 365 for Finance and Operations“ galite nustatyti reikalavimų rinkinį, kuriuos ištekliai turi atitikti tam, kad galėtų būti taikomi operacijai. Todėl konkretūs operacijos ištekliai ar išteklių grupė, kurie turi būti naudojami, neturi būti nustatyti tol, kol operacija nesuplanuojama faktiškai. Ši funkcija ypač naudinga, turint daug darbininkų arba įrenginių, kurie gali atlikti tą pačią operaciją.  
 
 Pvz., nurodėte, kad operacijai atlikti reikia operacijos ištekliaus, kurio tipas **Įrenginys**, turinčio 20 t pajėgumo **Spaudavimas**. Planavimo mechanizmas tada nustatys šiuos reikalavimus konkrečiam operacijos ištekliui arba išteklių grupei, kada operacija suplanuota. Dėl to, kad galite tik nurodyti šiuos reikalavimus, o ne susieti operaciją su konkrečiu įrenginiu, turėsite daug daugiau lankstumo. Be to, kai resursai perkeliami arba įtraukiamas naujas išteklius – lengvesnė priežiūra.  
 
@@ -240,7 +240,7 @@ Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos 
 
 [Išteklių galimybės](resource-capabilities.md)
 
-[Elektroninio parašo apžvalga](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Elektroninio parašo apžvalga](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

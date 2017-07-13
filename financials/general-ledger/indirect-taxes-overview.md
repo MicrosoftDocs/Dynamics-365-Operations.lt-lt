@@ -3,7 +3,7 @@ title: "PVM apžvalga"
 description: "Šiame straipsnyje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Šiame straipsnyje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu.
@@ -73,7 +75,7 @@ Norėdami skaičiuoti PVM, kiekvienoje operacijoje (pardavimo / pirkimo dokument
 Vykdydami kiekvieną operaciją, apskaičiuotąjį PVM galite pasižiūrėti atidare puslapį **PVM operacija**. PVM galite pasižiūrėti dokumento eilutės arba viso dokumento. Tam tikruose dokumentuose (pvz., tiekėjo SF ir bendruosiuose žurnaluose), jei pradiniame dokumente rodomos sumos su nuokrypiais, apskaičiuotąjį PVM galite koreguoti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>PVM sudengimas ir deklaravimas
-PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). „Microsoft Dynamics 365 for Operations‟ suteikia funkcijų, kurios leidžia sudengti intervalo mokesčių sąskaitas ir balansus subalansuoti PVM sudengimo sąskaitoje, kaip nurodyta DK registravimo grupėse. Šias funkcijas galite pasiekti puslapyje **Sudengti ir registruoti PVM**. Turite nurodyti PVM sudengimo laikotarpį, už kurį reikia sudengti PVM. 
+PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ suteikia funkcijų, kurios leidžia sudengti intervalo mokesčių sąskaitas ir kompensuoti likučius atsiskaitomojoje sąskaitoje, kaip nurodyta didžiosios knygos registravimo grupėse. Šias funkcijas galite pasiekti puslapyje **Sudengti ir registruoti PVM**. Turite nurodyti PVM sudengimo laikotarpį, už kurį reikia sudengti PVM. 
 
 Sumokėjus PVM, PVM sudengimo sąskaitos balansas turėtų būti subalansuotas pagal banko sąskaitą. Jei PVM institucija, nurodyta PVM sudengimo laikotarpyje, yra susijusi su tiekėjo sąskaita, PVM balansas registruojamas kaip atidaryta tiekėjo SF ir gali būti įtrauktas į reguliarų mokėjimo pasiūlymą.
 

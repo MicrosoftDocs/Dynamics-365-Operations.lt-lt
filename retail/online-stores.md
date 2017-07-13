@@ -1,39 +1,41 @@
 ---
 title: "Interneto parduotuvės apžvalga"
-description: "Šiame straipsnyje pateikiama informacija apie mažmeninės prekybos internetines parduotuves ir tai, kaip jas nustatyti programoje „Microsoft Dynamics 365 for Operations‟."
+description: "Šiame straipsnyje pateikiama informacija apie mažmeninės prekybos internetines parduotuves ir kaip jas nustatyti programoje „Microsoft Dynamics 365 for Retail‟."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 784444258a324eeefb5b96ae518ef4123ac219d4
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28ab301dc3aede6b23fb5d87fcb179916e0296e4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="online-store-overview"></a>Interneto parduotuvės apžvalga
+# <a name="online-store-overview"></a>Internetinės parduotuvės apžvalga
 
 [!include[banner](includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacija apie mažmeninės prekybos internetines parduotuves ir tai, kaip jas nustatyti programoje „Microsoft Dynamics 365 for Operations‟.
+Šiame straipsnyje pateikiama informacija apie mažmeninės prekybos internetines parduotuves ir kaip jas nustatyti programoje „Microsoft Dynamics 365 for Retail‟.
 
-„Dynamics 365 for Operations“ funkcija Mažmeninė prekyba ir prekyba palaiko keletą mažmeninės prekybos kanalų. Šie mažmeninės prekybos kanalai apima interneto parduotuves, skambučių centrus ir mažmeninės prekybos parduotuves (taip pat vadinamas fizinėmis parduotuvėmis). Internetinė parduotuvė suteikia pardavėjui galimybę parduoti produktus internete, todėl klientai gali juos pirkti ne tik iš fizinės parduotuvės, bet ir iš internetinės parduotuvės. Klientams, kurie perka produktus iš internetinės parduotuvės, produktai gali būti pristatyti arba jie gali atsiimti juos vietinėje mažmeninės prekybos parduotuvėje. Galite sukurti internetinę parduotuvę naudodami „Dynamics 365 for Operations“ klientą. Tokiu atveju ši internetinė parduotuvė bus paskelbta trečiosios šalies internetinėje parduotuvėje, kuri yra integruota su „Dynamics 365 for Operations“. Trečiosios šalies internetinės parduotuvės veikia kaip jūsų internetinės parduotuvės pirmasis lygmuo (UI), kuris suteikia galimybę pasirinkti kliento valdymo sistemos (CMS) ir UI pajėgumus. „Dynamics 365 for Operations“ galimi keli šio tipo integravimai. Internetinės parduotuvės ypatybės, kurias nurodote , valdo interneto parduotuvės veikimą. Pvz., nurodote naršymo kategorijų hierarchiją naudodami „Dynamics 365 for Operations“ ir priskiriate naršymo kategorijų hierarchiją internetinei parduotuvei. Kai paskelbiate savo internetinę parduotuvę trečiosios šalies internetinėje parduotuvėje, naršymo kategorijų hierarchija rodoma šioje internetinės parduotuvės versijoje. Pirkėjai naudoja naršymo kategorijų hierarchiją naršydami internetinę parduotuvę ir ieškodami produktų. Norėdami sukurti internetinę parduotuvę, turite nustatyti komponentus, kurie įgalina operacijų apdorojimą parduotuvėje. Pavyzdžiui, turite įtraukti asortimentus, taikyti atributus ir nustatyti mokėjimo bei pristatymo metodus. Taip pat galite nurodyti kainas, akcijas, reklamas, pardavimo sutartis ir pristatymo sąlygas, kurios skiriasi kiekvienoje konkrečioje parduotuvėje. Paskelbę savo internetinę parduotuvę trečiosios šalies internetinėje parduotuvėje, galite sukurti internetinės parduotuvės mažmeninės prekybos produktų katalogus. Produktai kataloge tampa produktų sąrašais internetinėje parduotuvėje. Kai pirkėjas perka produktus iš internetinės parduotuvės, prieinamos atsargos atnaujinamos ir sinchronizuojamos kliento programoje. Be to, sugeneruojami pirkimų pardavimo užsakymai ir nusiunčiami į kliento programą, kad užsakymas būtų įvykdytas ir apdorotas.
+„Dynamics 365 for Retail“ palaiko keletą mažmeninės prekybos kanalų. Šie mažmeninės prekybos kanalai apima interneto parduotuves, skambučių centrus ir mažmeninės prekybos parduotuves (taip pat vadinamas fizinėmis parduotuvėmis). Internetinė parduotuvė suteikia pardavėjui galimybę parduoti produktus internete, todėl klientai gali juos pirkti ne tik iš fizinės parduotuvės, bet ir iš internetinės parduotuvės. Klientams, kurie perka produktus iš internetinės parduotuvės, produktai gali būti pristatyti arba jie gali atsiimti juos vietinėje mažmeninės prekybos parduotuvėje. Galite sukurti internetinę parduotuvę naudodami „Dynamics 365 for Retail“ klientą. Tokiu atveju ši internetinė parduotuvė bus paskelbta trečiosios šalies internetinėje parduotuvėje, kuri yra integruota su „Dynamics 365 for Retail“. Trečiosios šalies internetinės parduotuvės veikia kaip jūsų internetinės parduotuvės pirmasis lygmuo (UI), kuris suteikia galimybę pasirinkti kliento valdymo sistemos (CMS) ir UI pajėgumus. „Dynamics 365 for Retail“ galimi keli šio tipo integravimai. Internetinės parduotuvės ypatybės, kurias nurodote , valdo interneto parduotuvės veikimą. Pvz., programoje „Dynamics 365 for Retail“ nurodote naršymo kategorijų hierarchiją ir priskiriate ją internetinei parduotuvei. Kai paskelbiate savo internetinę parduotuvę trečiosios šalies internetinėje parduotuvėje, naršymo kategorijų hierarchija rodoma šioje internetinės parduotuvės versijoje. Pirkėjai naudoja naršymo kategorijų hierarchiją naršydami internetinę parduotuvę ir ieškodami produktų. Norėdami sukurti internetinę parduotuvę, turite nustatyti komponentus, kurie įgalina operacijų apdorojimą parduotuvėje. Pavyzdžiui, turite įtraukti asortimentus, taikyti atributus ir nustatyti mokėjimo bei pristatymo metodus. Taip pat galite nurodyti kainas, akcijas, reklamas, pardavimo sutartis ir pristatymo sąlygas, kurios skiriasi kiekvienoje konkrečioje parduotuvėje. Paskelbę savo internetinę parduotuvę trečiosios šalies internetinėje parduotuvėje, galite sukurti internetinės parduotuvės mažmeninės prekybos produktų katalogus. Produktai kataloge tampa produktų sąrašais internetinėje parduotuvėje. Kai pirkėjas perka produktus iš internetinės parduotuvės, prieinamos atsargos atnaujinamos ir sinchronizuojamos kliento programoje. Be to, sugeneruojami pirkimų pardavimo užsakymai ir nusiunčiami į kliento programą, kad užsakymas būtų įvykdytas ir apdorotas.
 
 ## <a name="set-up-an-online-store"></a>Interneto parduotuvės nustatymas
 Norėdami nustatyti internetinę parduotuvę, turite atlikti toliau nurodytus veiksmus.

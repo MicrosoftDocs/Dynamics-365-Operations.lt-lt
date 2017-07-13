@@ -3,27 +3,26 @@ title: "Skambučių centro katalogo kūrimas"
 description: "Šiame straipsnyje apžvelgiamas skambučių centro katalogo kūrimo procesas."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šiame straipsnyje apžvelgiamas skambučių centro katalogo kūrimo procesas. 
 
-Skambučių centre naudodami produktų katalogus galite identifikuoti produktus, kuriuos norite siūlyti klientams. Skambučių centruose paprastai naudojami spausdinti katalogai. Spausdintas katalogas maketuojamas ir tvarkomas ne „Microsoft Dynamics 365 for Operations“. Tačiau galite kurti ir saugoti katalogą skaitmenine forma „Dynamics 365 for Operations“ dalyje Mažmeninė prekyba ir prekyba naudodami tas pačias formas, kurias naudojate interneto mažmeninės prekybos katalogams nustatyti. Prieš kuriant katalogą, reikia nustatyti produktų asortimentus ir priskirti juos skambučių centrui. Tada įtraukite produktų į katalogą rinkdamiesi juos iš asortimentų. Įtraukus produktų į katalogą ir baigus katalogą, reikia patikrinti duomenis tikrinant katalogą. Tada reikia pateikti katalogą peržiūrai ir patvirtinimui. Kai katalogas patvirtintas, jis gali būti publikuojamas. Sukūrę skambučių centro katalogą, galite padaryti momentinę katalogo duomenų nuotrauką, kai katalogas publikuojamas. Ši momentinės kopijos funkcija suteikia galimybę pasiekti konkrečią katalogo versiją, net jei vėliau katalogas pakeičiamas ir atnaujinamas. Be to, skambučių centro katalogus galima nustatyti taip, kad juose būtų toliau nurodytos pasirinktinės funkcijos.
+Skambučių centre naudodami produktų katalogus galite identifikuoti produktus, kuriuos norite siūlyti klientams. Skambučių centruose paprastai naudojami spausdinti katalogai. Spausdintas katalogas maketuojamas ir tvarkomas ne „Microsoft Dynamics 365 for Retail“. Tačiau galite kurti ir saugoti katalogą skaitmenine forma naudodami tas pačias formas, kuriuos naudojate interneto mažmeninės prekybos katalogams nustatyti. Prieš kuriant katalogą, reikia nustatyti produktų asortimentus ir priskirti juos skambučių centrui. Tada įtraukite produktų į katalogą rinkdamiesi juos iš asortimentų. Įtraukus produktų į katalogą ir baigus katalogą, reikia patikrinti duomenis tikrinant katalogą. Tada reikia pateikti katalogą peržiūrai ir patvirtinimui. Kai katalogas patvirtintas, jis gali būti publikuojamas. Sukūrę skambučių centro katalogą, galite padaryti momentinę katalogo duomenų nuotrauką, kai katalogas publikuojamas. Ši momentinės kopijos funkcija suteikia galimybę pasiekti konkrečią katalogo versiją, net jei vėliau katalogas pakeičiamas ir atnaujinamas. Be to, skambučių centro katalogus galima nustatyti taip, kad juose būtų toliau nurodytos pasirinktinės funkcijos.
 
 -   **Šaltinio kodai** – kodai, naudojami stebint klientų atsaką į konkrečius katalogų laiškus.
 -   **Nemokami produktai** – produktai, įtraukti į kliento užsakymą be jokio papildomo mokesčio. Šie produktai automatiškai įtraukiami į užsakymą, kai užsakyme įvedamas katalogo šaltinio kodas.

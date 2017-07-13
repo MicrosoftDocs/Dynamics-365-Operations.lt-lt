@@ -1,16 +1,16 @@
 ---
 title: "Tiekėjo bendradarbiavimas su klientais"
-description: "Šioje temoje aprašoma, kaip galite naudoti tiekėjo bendradarbiavimą programoje „Microsoft Dynamics 365 for Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas."
+description: "Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą programoje „Finance and Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjo bendradarbiavimą programoje „Microsoft Dynamics 365 for Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
+Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą programoje „Finance and Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjo bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Dynamics 365 for Operations“. Joje pateikiama informacijos apie tai, kaip stebėti pirkimo užsakymus, kaip atlikti su jais susijusius veiksmus bei kaip stebėti konsignacijos atsargas. Naudojant tiekėjų bendradarbiavimo sąsają galima ir apdoroti SF. Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Finance and Operations“. Joje pateikiama informacijos apie tai, kaip stebėti pirkimo užsakymus, kaip atlikti su jais susijusius veiksmus bei kaip stebėti konsignacijos atsargas. Naudojant tiekėjų bendradarbiavimo sąsają galima ir apdoroti SF. Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Darbas su pirkimo užsakymais
 Naudojant darbo sritį **Pirkimo užsakymo patvirtinimas** galima reaguoti į peržiūrai atsiųstus PU. Joje taip pat galima peržiūrėti informaciją apie PU, laukiančius kliento veiksmų, ir PU, kurie buvo patvirtinti, bet vis dar yra atviri. Darbo srityje **Pirkimo užsakymo patvirtinimas** pateikiami trys sąrašai.

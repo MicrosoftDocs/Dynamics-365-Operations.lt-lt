@@ -3,14 +3,14 @@ title: Pirkimo sutartys
 description: "Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Patvirtinus pirkimo sutartį esama pirkimo sutarties versija yra saugoma retrosp
 Kurdami PU, jam galite taikyti pirkimo sutartį. Tada į PU antraštę kopijuojama informacija iš sutarties sąlygų, pvz., mokėjimo sąlygos, pristatymo sąlygos ir pristatymo adresas. Jei PU yra viena ar kelios produktų ar kategorijų eilutės, kurioms taikoma sutartis, tose eilutėse naudojamos kainos ir nuolaidos iš pirkimo sutarties. Užsakymo eilutės suma arba kiekis prisideda prie pirkimo sutarties įsipareigojimo įvykdymo. Tame pačiame PU gali būti eilučių, kurios nesusijusios su pirkimo sutartimi ir eilučių, kurios susijusios su pirkimo sutarties įsipareigojimu.  
 
 Pasirinkti pirkimo sutartį galite tik tada, kai kuriate PU. Kai PU sukurtas, pirkimo sutarties pasirinkti negalite.  
-Kai kuriose situacijose, kuriose PU kuriami netiesiogiai, galite valdyti, ar „Microsoft Dynamics 365 for Operations“ turi ieškoti taikomų pirkimo sutarčių automatiškai. Pavyzdžiui, galite tai atlikti automatiškai patvirtindami suplanuotus PU arba kurdami PU pagal pirkimo užsakymus.
+Kai kuriose situacijose, kuriose PU kuriami netiesiogiai, galite valdyti, ar „Finance and Operations“ turi automatiškai ieškoti taikytinų pirkimo sutarčių. Pavyzdžiui, galite tai atlikti automatiškai patvirtindami suplanuotus PU arba kurdami PU pagal pirkimo užsakymus.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkimo sutartys ir vidinės įmonės prekyba
 Vidinės įmonės prekybiniai ryšiai gali būti sukurti tarp tiekėjo ir kliento sąskaitų, esančių skirtinguose juridiniuose subjektuose. Kai sukuriamas vienos iš šalių pardavimo užsakymas arba PU, sukuriama vidinės kompanijos užsakymų grandinė. Užsakymų grandinėje pardavimo užsakymas ir PU yra sukuriami atitinkamuose teisiniuose subjektuose.  

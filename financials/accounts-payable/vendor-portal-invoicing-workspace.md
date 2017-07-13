@@ -3,13 +3,14 @@ title: "Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra"
 description: "Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,22 +33,22 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 
-Darbo sritį **Tiekėjo bendradarbiavimo SF išrašymas** galima naudoti norint peržiūrėti tiekėjo sąskaitos faktūros informaciją ir pateikti sąskaitas faktūras programai „Microsoft Dynamics 365 for Operations“ naudojantis darbo srities galimybėmis.
-Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra
+**Tiekėjų bendradarbiavimo SF išrašymo** darbo sritį galima naudoti norint peržiūrėti tiekėjo SF informaciją ir pateikti SF programai „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas, naudojantis darbo eigos galimybėmis.
+Tiekėjo bendradarbiavimo SF išrašymo darbo sritis
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Suvestinės išklotinės
 
 Išklotinėse **Suvestinė** pateikiama pasirinkto tiekėjo sąskaitų faktūrų apžvalga. Sąskaitas faktūras galite peržiūrėti pagal jų būseną.
 -   Sąskaitų faktūrų juodraščiai darbo eigai nepateikti.
--   Pateiktos, bet nepatvirtintos sąskaitos faktūros yra tiekėjo pateiktos sąskaitos faktūros, kurios dar neužregistruotos „Dynamics 365 for Operations“.
--   Patvirtintos, bet neapmokėtos sąskaitos faktūros yra „Dynamics 365 for Operations“ užregistruotos sąskaitos faktūros, kurios dar ne visiškai apmokėtos.
--   Apmokėtos sąskaitos faktūros yra visiškai apmokėtos „Dynamics 365 for Operations“ sąskaitos faktūros.
+-   Pateiktos, bet nepatvirtintos SF yra tiekėjo pateiktos SF, kurios dar neužregistruotos „Finance and Operations“.
+-   Patvirtintos, bet neapmokėtos SF yra „Finance and Operations“ užregistruotos SF, kurios dar nėra visiškai apmokėtos.
+-   Apmokėtos SF yra visiškai apmokėtos „Finance and Operations“ SF.
 
 Spustelėjus išklotinę atveriamas filtruotas puslapio **Sąskaitų faktūrų sąrašas** rodinys.
 ### <a name="tabular-lists"></a>Sąrašų lentelės
 
-Skyriuje **Sąrašų lentelės**sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
+Skyriuje **Sąrašų lentelės** sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
 Visų tiekėjo SF sąrašo puslapis
 -----------------------------
 
@@ -59,7 +60,7 @@ Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities *
 
 
 
-Jei reikia daugiau informacijos, žr. temą [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Jei reikia daugiau informacijos, žr. temą [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

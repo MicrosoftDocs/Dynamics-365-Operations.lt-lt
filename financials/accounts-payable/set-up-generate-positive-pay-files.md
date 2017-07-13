@@ -3,13 +3,13 @@ title: "Teigiamų mokėjimų failų nustatymas ir generavimas"
 description: "Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą mokėjimą ir generuoti teigiamo mokėjimo failus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Nustatykite teigiamą mokėjimą, jei norite generuoti bankui teikiamą elektroninį čekių sąrašą. Tada, kai čekis pateikiamas bankui, bankas jį lygina su čekių sąrašu. Jei čekis atitinka sąraše esantįjį, bankas jį patvirtina. Jei čekis sąraše esančio čekio neatitinka, bankas jį pasilieka peržiūrėti.
 
 ## <a name="security-for-positive-pay-files"></a>Teigiamų mokėjimų failų sauga
-Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamų mokėjimų failuose gali būti slaptos informacijos, svarbu, kad programoje „Microsoft Dynamics 365 for Operations‟ šios informacijos generavimo ir peržiūros prieigą turėtų tik įgaliotieji vartotojai. Tolesnė lentelė jums padės nustatyti reikiamas teises.
+Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamų mokėjimų failuose gali būti slaptos informacijos, svarbu, kad „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidime šios informacijos generavimo ir peržiūros prieigą turėtų tik įgaliotieji vartotojai. Tolesnė lentelė jums padės nustatyti reikiamas teises.
 
 <table>
 <colgroup>

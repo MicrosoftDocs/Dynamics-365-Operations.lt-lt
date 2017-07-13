@@ -3,14 +3,14 @@ title: "Sulaikymo užsakymai"
 description: "Šiame straipsnyje aprašoma, kaip, naudojant sulaikymo užsakymus, galima blokuoti atsargas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 63d8c5827a95693a903428322367a4eec61f17d8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 Naudojant sulaikymo užsakymus galima blokuoti atsargas. Pavyzdžiui, galbūt sulaikyti prekes norėsite kokybės kontrolės tikslais. Sulaikytos atsargos perkeliamos į sulaikymo sandėlį. **Pastaba.** Jei naudojate patobulinto sandėlio valdymo procesus (modulyje Sandėlio valdymas), sulaikymo užsakymų apdorojimo funkcija naudojama tik su grąžinimo pardavimo užsakymais.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Turimų atsargų prekių sulaikymas
-Kai sulaikote prekes, galite sulaikymo užsakymus kurti patys arba nustatyti sistemą, kad ji automatiškai kurtų sulaikymo užsakymus vykdant gavimo apdorojimą. Norėdami sulaikymo užsakymus kurti automatiškai, puslapio **Prekių modelių grupės** skirtuke **Atsargų strategijos** pasirinkite parinktį **Sulaikymo valdymas**. Taip pat gavimo sandėlių lauke **Sulaikymo sandėlis** reikia nurodyti numatytąjį sulaikymo sandėlį. Kai faktiškai turimos atsargos įrašomos pirkimo užsakyme arba gamybos užsakyme, programoje „Microsoft Dynamics 365 for Operations‟ sulaikytos prekės automatiškai perkeliamos į sulaikymo sandėlį. Perkeliama, nes sulaikymo užsakymo būsena pakeičiama į **Pradėtas**. Kai patys kuriate sulaikymo užsakymus, nėra būtina nustatyti dabartinės prekės sulaikymo valdymo susietoje prekių modelių grupėje. Norėdami vykdyti šį procesą, turite nurodyti sulaikytinas turimas atsargas ir naudotiną sulaikymo sandėlį. Planuoti šį procesą jums padės sulaikymo užsakymų būsenos.
+Kai sulaikote prekes, galite sulaikymo užsakymus kurti patys arba nustatyti sistemą, kad ji automatiškai kurtų sulaikymo užsakymus vykdant gavimo apdorojimą. Norėdami sulaikymo užsakymus kurti automatiškai, puslapio **Prekių modelių grupės** skirtuke **Atsargų strategijos** pasirinkite parinktį **Sulaikymo valdymas**. Taip pat gavimo sandėlių lauke **Sulaikymo sandėlis** reikia nurodyti numatytąjį sulaikymo sandėlį. Kai faktiškai turimos atsargos įrašomos pirkimo užsakyme arba gamybos užsakyme, sprendime „Microsoft Dynamics 365 for Finance and Operations‟ sulaikytos prekės automatiškai perkeliamos į sulaikymo sandėlį. Perkeliama, nes sulaikymo užsakymo būsena pakeičiama į **Pradėtas**. Kai patys kuriate sulaikymo užsakymus, nėra būtina nustatyti dabartinės prekės sulaikymo valdymo susietoje prekių modelių grupėje. Norėdami vykdyti šį procesą, turite nurodyti sulaikytinas turimas atsargas ir naudotiną sulaikymo sandėlį. Planuoti šį procesą jums padės sulaikymo užsakymų būsenos.
 
 ## <a name="quarantine-order-statuses"></a>Sulaikymo užsakymų būsenos
 Sulaikymo užsakymų būsenos gali būti tokios:

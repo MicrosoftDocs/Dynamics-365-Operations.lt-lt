@@ -1,27 +1,27 @@
 ---
 title: "Peržiūrėti finansines ataskaitas"
-description: "Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics AX“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis."
-author: RobinARH
+description: "Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidime. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics AX“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidime. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
 <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 ----------------------------
@@ -64,7 +64,7 @@ Galite atnaujinti finansinę ataskaitą taip, kad ji rodytų to laikotarpio ir m
 Atnaujinę finansinę ataskaitą, galite ją publikuoti. Tada ją galės peržiūrėti kiti organizacijos žmonės. Norėdami publikuoti ataskaitą, veiksmų srityje spustelėkite **Publikuoti**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Finansinės ataskaitos rodymas kita valiuta
-Finansinę ataskaitą galima rodyti bet kuria valiuta, bet kuriuo metu. Norėdami ataskaitą rodyti kita valiuta, veiksmų srityje spustelėkite **Valiuta**, tada pasirinkite valiutą. Ataskaita konvertuojama į tą valiutą ir rodomi rezultatai. Valiutų kodai ar simboliai, kurie sudaro dalį ataskaitos projekto, atnaujinami, kad atitiktų naują valiutą. Sąraše pateikiamos valiutos yra ataskaitų valiutos, sukonfigūruotos „Microsoft Dynamics AX“ sistemoje.
+Finansinę ataskaitą galima rodyti bet kuria valiuta, bet kuriuo metu. Norėdami ataskaitą rodyti kita valiuta, veiksmų srityje spustelėkite **Valiuta**, tada pasirinkite valiutą. Ataskaita konvertuojama į tą valiutą ir rodomi rezultatai. Valiutų kodai ar simboliai, kurie sudaro dalį ataskaitos projekto, atnaujinami, kad atitiktų naują valiutą. Sąraše pateikiamos valiutos yra ataskaitų valiutos, sukonfigūruotos programoje „Finance and Operations“.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finansinės ataskaitos suvestinės rodymas
 Finansinėje ataskaitoje gali būti informacijos eilutės ir suvestinės eilutės. Informacijos eilutės yra eilutės, kuriose yra pagrindinės sąskaitos arba dimensijos. Suvestinės eilutės yra aprašymo, bendros sumos ir skaičiavimo eilutes. Norėdami matyti tik ataskaitos suvestinės eilutes, spustelėkite **Rodyti**, tada spustelėkite **Tik suvestinės eilutės**. Ataskaita sutraukiama ir rodo tik suvestinės eilutes. Norėdami peržiūrėti informacijos eilutes kartu su suvestinės eilutėmis, spustelėkite **Rodyti**, tada dar kartą spustelėkite **Tik suvestinės eilutės**.
@@ -88,7 +88,8 @@ Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Ek
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[„Microsoft Dynamics AX“ finansinės ataskaitos](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[„Microsoft Dynamics AX“ finansinės ataskaitos](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

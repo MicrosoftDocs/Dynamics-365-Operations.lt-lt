@@ -1,27 +1,28 @@
 ---
 title: "EKA ekrano maketų konfigūravimas"
-description: "Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Operations“ mažmeninės prekybos elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus."
+description: "Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Operations“ mažmeninės prekybos elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
+Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
 
-„Microsoft Dynamics 365 for Operations“ – mažmeninės prekybos elektroninio kasos aparato (EKA) vartotojo sąsają galima sukonfigūruoti naudojant parduotuvėms, registrams ir (arba) vartotojams priskirtų vaizdo šablonų ir ekrano išdėstymų kombinaciją.
+„Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) vartotojo sąsają galima sukonfigūruoti naudojant parduotuvėms, registrams ir (arba) vartotojams priskirtų vaizdo šablonų ir ekrano išdėstymų kombinaciją.
 
 ## <a name="visual-profile"></a>Vaizdo šablonas
 Vaizdo šablonai priskiriami registrams ir naudojami norint nurodyti pagal registrą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus. Visi prie registro prisijungę vartotojai turi tą pačią temą, spalvas ir vaizdus. 
@@ -46,7 +47,7 @@ Vaizdo šablonai priskiriami registrams ir naudojami norint nurodyti pagal regis
 
 **Akcento spalva** – tai spalva, kuri naudojama EKA norint atskirti arba paryškinti tam tikrus vaizdo elementus, pavyzdžiui, plyteles, komandų mygtukus arba hipersaitus. Paprastai veiksmingi šie elementai.
 
-**Antraštės spalva** – naudodamas antraštės spalvą vartotojas gali konfigūruoti puslapio antraštės spalvą, kad ji atitiktų mažmenininko keliamus reikalavimus prekės ženklui. Šią funkciją galima naudoti tik naudojant „Dynamics 365 for Operations“ 1611 versiją.
+**Antraštės spalva** – naudodamas antraštės spalvą vartotojas gali konfigūruoti puslapio antraštės spalvą, kad ji atitiktų mažmenininko keliamus reikalavimus prekės ženklui. Ši funkcija pasiekiama tik „Dynamics 365 for Retail‟ 1611 versijoje.
 
 **Prisijungimo fonai** – vartotojai gali nurodyti, koks fono paveikslėlis bus naudojamas prisijungimo ekrane. Fono vaizdų failo dydis turėtų būti kuo mažesnis, nes įrašant ir įkeliant didelius failus tai gali turėti įtakos programos veikimui ir našumui.
 
@@ -67,7 +68,7 @@ Ekranų išdėstymus galima priskirti pagal parduotuvę, registrą arba vartotoj
 
 ### <a name="layout-sizes"></a>Maketo dydžiai
 
-Šią funkciją galima naudoti tik naudojant „Dynamics 365 for Operations“ 1611 versiją. Kadangi daugeliu atvejų ekranų išdėstymus galima naudoti naudojant kelis ekrano dydžius ir skiriamąsias gebas, vartotojai kiekvienam iš jų gali sukonfigūruoti savo išdėstymą ir turinį. Kai paleidžiamas įrenginys, EKA programa automatiškai pasirenka artimiausią įrenginio išdėstymo dydį. Ekrano išdėstyme taip pat gali būti konfigūracijų, skirtų pilnoms ir kompaktinėms įrenginių versijoms. Naudojant šią konfigūraciją vartotojui gali būti priskirtas vienas ekrano išdėstymas, kuris veiks su įvairiais parduotuvėje esančiais dydžiais ir formos veiksniais. 
+Ši funkcija taikoma tik „Dynamics 365 for Retail“ 1611 versijai. Kadangi daugeliu atvejų ekranų išdėstymus galima naudoti naudojant kelis ekrano dydžius ir skiriamąsias gebas, vartotojai kiekvienam iš jų gali sukonfigūruoti savo išdėstymą ir turinį. Kai paleidžiamas įrenginys, EKA programa automatiškai pasirenka artimiausią įrenginio išdėstymo dydį. Ekrano išdėstyme taip pat gali būti konfigūracijų, skirtų pilnoms ir kompaktinėms įrenginių versijoms. Naudojant šią konfigūraciją vartotojui gali būti priskirtas vienas ekrano išdėstymas, kuris veiks su įvairiais parduotuvėje esančiais dydžiais ir formos veiksniais. 
 
 **Modernus EKA – pilnas** – pilnus išdėstymus paprastai geriausia naudoti didesniems ekranams, pavyzdžiui, kompiuterių monitoriams arba planšetiniams kompiuteriams. Vartotojai gali pasirinkti, kokius vartotojo sąsajos elementus įtraukti, nustatyti jų dydį ir išdėstymo tvarką ir sukonfigūruoti išsamias jų ypatybes. Pasirinkus pilnus išdėstymus palaikomos vertikalios ir horizontalios konfigūracijos. 
 
@@ -77,11 +78,11 @@ Ekranų išdėstymus galima priskirti pagal parduotuvę, registrą arba vartotoj
 
 Kiekvieno ekrano išdėstymo dydį būtina sukonfigūruoti naudojant ekrano išdėstymo kūrimo įrankį. Naudodami kūrimo įrankį vartotojai gali nurodyti ir konfigūruoti operacijos ekrano vartotojo sąsajos elementus. Ekrano išdėstymo kūrimo įrankis kiekvieną kartą vartotojui įjungus programą, jei norima atsisiųsti, įdiegti ir paleisti naujausią versiją, naudoja „ClickOnce“. Būtinai patikrinkite naršyklės reikalavimus naudojant „ClickOnce“ – naudojant kai kurias naršykles, pavyzdžiui, „Chrome“ reikalingi plėtiniai. 
 
-**Skaičių klaviatūra** – tai pagrindinė vartotojo įvestis EKA operacijos ekrane. Galima sukonfigūruoti, kad būtų rodoma viso ekrano klaviatūra, o tai idealiai tinka naudojant jutiklinius ekranus, arba tik įvesties laukas, kurį galima naudoti naudojant faktinę klaviatūrą. Skaičių klaviatūros parametrus galima naudoti tik naudojant pilną išdėstymą. Naudojant „Dynamics 365 for Operations“ 1611 versiją kompaktinių išdėstymų operacijos ekrane visada galima naudoti visą skaičių klaviatūrą.
+**Skaičių klaviatūra** – tai pagrindinė vartotojo įvestis EKA operacijos ekrane. Galima sukonfigūruoti, kad būtų rodoma viso ekrano klaviatūra, o tai idealiai tinka naudojant jutiklinius ekranus, arba tik įvesties laukas, kurį galima naudoti naudojant faktinę klaviatūrą. Skaičių klaviatūros parametrus galima naudoti tik naudojant pilną išdėstymą. Naudojant „Dynamics 365 for Retail“ 1611 versiją, kompaktinių išdėstymų operacijos ekrane visada galima naudoti visą skaičių klaviatūrą.
 
-**Bendrųjų sumų sritis** – galima sukonfigūruoti, kad bendrųjų sumų sritis būtų rodoma vienu arba dviem stulpeliais, kuriuose pateikiami tam tikri laukai, pavyzdžiui, eilučių skaičius, nuolaidos suma, išlaidos, tarpinė suma ir mokestis. Naudojant „Dynamics 365 for Operations“ 1611 versiją kompaktiniai išdėstymai palaiko tik vieną bendrųjų sumų stulpelį. 
+**Bendrųjų sumų sritis** – galima sukonfigūruoti, kad bendrųjų sumų sritis būtų rodoma vienu arba dviem stulpeliais, kuriuose pateikiami tam tikri laukai, pavyzdžiui, eilučių skaičius, nuolaidos suma, išlaidos, tarpinė suma ir mokestis. Naudojant „Dynamics 365 for Retail“ 1611 versiją kompaktiniai išdėstymai palaiko tik vieną bendrųjų sumų stulpelį. 
 
-**Gavimo kvitas** – gavimo kvito srityje pateikiamos pardavimų eilutės, mokėjimo eilutės ir naudojant EKA apdorotų produktų bei paslaugų pristatymo informacija. Vartotojai gali nurodyti stulpelius, pločius ir išdėstymo tvarką. „Dynamics 365 for Operations“ 1611 versijos kompaktiniuose išdėstymuose taip pat galite sukonfigūruoti papildomą informaciją, kuri bus rodoma po pagrindine eilute esančioje eilutėje. 
+**Gavimo kvitas** – gavimo kvito srityje pateikiamos pardavimų eilutės, mokėjimo eilutės ir naudojant EKA apdorotų produktų bei paslaugų pristatymo informacija. Vartotojai gali nurodyti stulpelius, pločius ir išdėstymo tvarką. „Dynamics 365 for Retail“ 1611 versijos kompaktiniuose išdėstymuose taip pat galite sukonfigūruoti papildomą informaciją, kuri bus rodoma po pagrindine eilute esančioje eilutėje. 
 
 **Kliento kortelė** – kliento kortelėje rodoma su šiuo metu su operacija susietu vartotoju susijusi informacija. Galima sukonfigūruoti, kad papildoma informacija kliento kortelėje būtų slepiama arba rodoma. 
 
@@ -89,7 +90,7 @@ Kiekvieno ekrano išdėstymo dydį būtina sukonfigūruoti naudojant ekrano išd
 
 **Vaizdas** – vaizdo valdiklį galima naudoti norint, kad operacijos ekrane būtų rodomas parduotuvės logotipas arba kitas prekės ženklo vaizdas. Vaizdo valdiklį galima naudoti tik naudojant pilnus išdėstymus. 
 
-**Rekomenduojami produktai** – jei sukonfigūruota aplinkai, rekomenduojamų produktų valdiklyje rodomi produktų pasiūlymai pagal mašininį mokymą. Rekomenduojamų produktų valdiklį galima naudoti tik naudojant „Dynamics 365 for Operations“ 1611 versijos pilnus išdėstymus. **Pasirinktinis valdiklis **– pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas, kad vartotojai galėtų rezervuoti vietą pasirinktam turiniui. Pasirinktinį valdiklį galima naudoti tik naudojant pilnus išdėstymus.
+**Rekomenduojami produktai** – jei sukonfigūruota aplinkai, rekomenduojamų produktų valdiklyje rodomi produktų pasiūlymai pagal mašininį mokymą. Rekomenduojamų produktų valdiklį galima naudoti tik naudojant „Dynamics 365 for Retail“ 1611 versijos pilnus išdėstymus. **Pasirinktinis valdiklis **– pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas, kad vartotojai galėtų rezervuoti vietą pasirinktam turiniui. Pasirinktinį valdiklį galima naudoti tik naudojant pilnus išdėstymus.
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

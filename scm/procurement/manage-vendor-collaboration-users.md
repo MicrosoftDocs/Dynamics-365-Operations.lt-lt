@@ -3,14 +3,14 @@ title: "Tiekėjo bendradarbiavimo vartotojų valdymas"
 description: "Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų. 
 
-„Microsoft Dynamics 365 for Operations“ tiekėjo bendradarbiavimo sąsajoje išoriniams tiekėjams pateikiama informacija apie pirkimo užsakymus, SF ir konsignacijos atsargas. Galite kurti naujus tiekėjo bendradarbiavimo kontaktus ir reikalauti, kad nauji vartotojai būtų konfigūruojami, jei dirbate kaip išorinis tiekėjas, naudojantis saugos vaidmenį **Tiekėjo administratorius (išorinis)** ar turintis panašių teisių. Taip pat galite šias užduotis atlikti, jei dirbate kaip įsigijimo specialistas. Šioje temoje šis vaidmuo nurodo įsigijimo specialistą, dirbantį įmonėje, kuriai priklauso „Dynamics 365 for Operations“ egzempliorius. Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate išorinis tiekėjas, žr. puslapyje [Tiekėjas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+„Microsoft Dynamics 365 for Finance and Operations“ tiekėjo bendradarbiavimo sąsajoje išoriniams tiekėjams pateikiama informacija apie pirkimo užsakymus, sąskaitas faktūras ir konsignacijos atsargas. Galite kurti naujus tiekėjo bendradarbiavimo kontaktus ir reikalauti, kad nauji vartotojai būtų konfigūruojami, jei dirbate kaip išorinis tiekėjas, naudojantis saugos vaidmenį **Tiekėjo administratorius (išorinis)** ar turintis panašių teisių. Taip pat galite šias užduotis atlikti, jei dirbate kaip įsigijimo specialistas. Šioje temoje šis vaidmuo nurodo įsigijimo specialistą, dirbantį įmonėje, kuriai priklauso „Finance and Operations“ egzempliorius. Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate išorinis tiekėjas, žr. puslapyje [Tiekėjas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate įsigijimo specialistas, žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
@@ -62,12 +62,12 @@ Pateikus užklausą, ji įtraukiamą į modulio **Tiekėjo bendradarbiavimas** s
 Prieš teikiant užklausą vartotojui konfigūruoti, tas asmuo turi būti nustatytas kaip vieno ar daugiau tiekėjų kodų kontaktas. Norėdami kurti naujo tiekėjo bendradarbiavimo vartotojo užklausą, atlikite tolesnius veiksmus.
 
 1.  Puslapyje **Visi kontaktai** spustelėkite **Pateikti su tiekėju susijusį vartotoją**.
-2.  Įveskite vartotojo el. pašto adresą. Vartotojas šį adresą naudos norėdamas prisijungti prie „Dynamics 365 for Operations“. Jei el. pašto adreso domenas užregistruotas kaip „Microsoft Azure“ nuomininkas, tada el. pašto adresas turi būti esama „Azure Active Directory“ (ADD) paskyra, kad konfigūravimo procesą būtų galima sėkmingai baigti. Jei el. pašto adreso domenas nėra užregistruotas kaip „Microsoft Azure“ nuomininkas, paskyra bus sukurta konfigūravimo proceso metu ir naujas vartotojas gaus laišką su kvietimu. Vartotojų el. pašto adresai su domenais, pvz., @hotmail.com, @gmail.com arba @comcast.net, negali būti naudojami norint registruoti „Dynamics 365 for Operations“ vartotoją.
+2.  Įveskite vartotojo el. pašto adresą. Vartotojas šį adresą naudos norėdamas prisijungti prie „Finance and Operations“. Jei el. pašto adreso domenas užregistruotas kaip „Microsoft Azure“ nuomininkas, tada el. pašto adresas turi būti esama „Azure Active Directory“ (ADD) paskyra, kad konfigūravimo procesą būtų galima sėkmingai baigti. Jei el. pašto adreso domenas nėra užregistruotas kaip „Microsoft Azure“ nuomininkas, paskyra bus sukurta konfigūravimo proceso metu ir naujas vartotojas gaus laišką su kvietimu. Vartotojų el. pašto adresai su domenais, pvz., @hotmail.com, @gmail.com arba @comcast.net, negali būti naudojami norint registruoti „Finance and Operations“ vartotoją.
 3.  Parinktį **Tiekėjo bendradarbiavimo prieiga leidžiama** nustatykite į **Taip** visiems juridiniams subjektams, prieigą prie kurių vartotojui reikia priskirti.
 4.  Skyriuje **Priskirti vartotojų vaidmenis** pažymėkite tų saugos vaidmenų, kuriuos reikia priskirti naujam vartotojui, žymės langelį **Priskirti**.
 5.  Spustelėkite **Pateikti**.
 
-Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu „Dynamics 365 for Operations“ sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Dynamics 365 for Operations“ vartotojo paskyra.
+Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu „Finance and Operations“ sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Finance and Operations“ vartotojo paskyra.
 
 ### <a name="inactivate-a-user"></a>Vartotojo išaktyvinimas
 

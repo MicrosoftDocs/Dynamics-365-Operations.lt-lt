@@ -3,14 +3,14 @@ title: "Produkto konfigūracijos modelio kūrimas"
 description: "Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ Lentelės apribojimai gali būti nustatomi vartotojo arba apibrėžtos sistemos.
 
 Vartotojas pats sukuria vartotojo apibrėžiamą lentelės apribojimą. Vartotojas, pasirinkęs įvairių tipų atributus, sudaro lentelės stulpelius, tada, įvedęs pasirinktų tipų atributų domenų reikšmes, sudaro lentelės apribojimo eilutes.  
 
-Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina „Microsoft Dynamics 365 for Operations“ lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūravimo metu pateikiamos „Dynamics 365 for Operations“ lentelės eilutės.  
+Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina „Microsoft Dynamics 365 for Finance and Operations“ lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūruojant esančios „Finance and Operations“ lentelės eilutės.  
 
 Lentelės apribojimas įtraukiamas į produkto konfigūracijos modelį nurodžius lentelės apribojimo aprašą ir susiejus atitinkamus modelio atributus su lentelės apribojimo stulpeliais.
 

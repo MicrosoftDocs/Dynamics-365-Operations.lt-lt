@@ -1,31 +1,33 @@
 ---
-title: "Užduočių įrašymo priemonė ir EKA skirtas žinynas"
+title: "Užduočių įrašymo priemonė ir EKA žinynas"
 description: "Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Užduočių įrašymo priemonė ir EKA skirtas žinynas
+# <a name="task-recorder-and-help-for-pos"></a>Užduočių įrašymo priemonė ir EKA žinynas
 
 Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
 
@@ -40,11 +42,11 @@ Užduočių įrašymo priemonė gali labai tiksliai įrašyti vartotojo veiksmus
 ## <a name="basic-configuration"></a>Pagrindinė konfigūracija
 Norėdami įjungti užduočių įrašymą EKA, atlikite toliau nurodytus veiksmus.
 
-1.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
+1.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
 2.  Spustelėkite registrą, kuriame norite įjungti užduočių įrašymą.
 3.  Skirtuko **Registras** „FastTab“ **Bendra** nustatykite parinktį **Įjungti užduočių įrašymą** į **Taip**.
 4.  Spustelėkite **Įrašyti**.
-5.  Eikite į **Mažmeninė prekyba ir komercija** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+5.  Eikite į **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 6.  Pasirinkite užduotį **Registrai (1090)** ir tada spustelėkite **Vykdyti dabar**.
 
 ## <a name="create-a-recording"></a>Įrašo kūrimas
@@ -54,7 +56,9 @@ Atlikite šiuos veiksmus, jei norite kurti naują įrašą naudodami užduočių
 2.  Puslapio **Parametrai** dalyje **Užduočių įrašymo priemonė** spustelėkite **Atidaryti užduočių įrašymo priemonę**. Pasirodo sritis **Užduočių įrašymo priemonė**. Galite spustelėti mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe, kad prieš pradėdami naują įrašymo veiksmą uždarytumėte sritį **Užduočių įrašymo priemonė**. Norėdami vėl atidaryti sritį, pakartokite 2 veiksmą.
 [![Sritis Užduočių įrašymo priemonė](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Įveskite įrašo pavadinimą bei aprašą ir spustelėkite **Pradėti**. Įrašymo sesija prasideda iškart, kai spustelėjate **Pradėti**. **Pastaba:** viršutiniame dešiniajame kampe spustelėjus mygtuką **Uždaryti** (**X**), kai vyksta įrašymas, sritis **Užduočių įrašymo priemonė** uždaroma, bet įrašymo seansas tęsiamas. Norėdami vėl atidaryti sritį Užduočių įrašymo priemonė, ekrano viršuje spustelėkite mygtuką Žinynas (klaustuko ženklas). 
+3.  Įveskite įrašo pavadinimą bei aprašą ir spustelėkite **Pradėti**. Įrašymo sesija prasideda iškart, kai spustelėjate **Pradėti**.
+
+**Pastaba:** viršutiniame dešiniajame kampe spustelėjus mygtuką **Uždaryti** (**X**), kai vyksta įrašymas, sritis **Užduočių įrašymo priemonė** uždaroma, bet įrašymo seansas tęsiamas. Norėdami vėl atidaryti sritį Užduočių įrašymo priemonė, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustuko ženklas). 
 
 [![Klaustuko ženklas](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Norėdami tęsti įrašymo seansą po to, kai jį pristabdėte, spustelėkite **
 
 ### <a name="capture-screenshots"></a>Užfiksuoti ekrano kopijas
 
-Užduočių įrašymo priemonė gali fiksuoti „Retail Modern POS“ vartotojo sąsajos ekrano kopijas įrašinėjant verslo procesus. Užduočių įrašymo priemonė naudoja ekrano kopijas, jei atsisiunčiate įrašą kaip „Word“ dokumentą. Norėdami įjungti ekrano kopijų fiksavimo funkciją, nustatykite parinktį **Fiksuoti ekrano kopijas** į **Taip**. Pastaba: ekrano kopijų fiksavimo funkcija nepalaikoma „Cloud POS“.
+Užduočių įrašymo priemonė gali fiksuoti „Retail Modern POS“ vartotojo sąsajos ekrano kopijas įrašinėjant verslo procesus. Užduočių įrašymo priemonė naudoja ekrano kopijas, jei atsisiunčiate įrašą kaip „Word“ dokumentą. Norėdami įjungti ekrano kopijų fiksavimo funkciją, nustatykite parinktį **Fiksuoti ekrano kopijas** į **Taip**. 
+
+#### <a name="note"></a>Banknotas
+> Ekrano kopijų fiksavimo funkcija nepalaikoma „Cloud POS“.
 
 ### <a name="start-task-and-end-task"></a>Užduoties pradėjimas ir baigimas
 
@@ -119,11 +126,13 @@ Lauke **Tekstas** įvestas tekstas rodomas *virš* veiksmo teksto užduočių ve
 
 Lauke **Pastabos** įvestas tekstas rodomas *po* veiksmo teksto užduočių vedlyje. Norėdamas perskaityti pastabų tekstą, vartotojas turi išplėsti veiksmo tekstą iššokančiajame lange. Ši vieta tinka norint pateikti pasirinktinę skaitomą medžiagą arba kitą informaciją, kuri gali būti naudinga vartotojui, bet nėra privaloma norint atlikti veiksmą.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>„Retail Modern POS“ ir „Cloud POS“ žinynas
-Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Daugiau informacijos rasite [Žinyno sistemos prijungimas.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Microsoft Dynamics AX“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** ir tada ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>„Retail Modern POS“ ir „Cloud POS“ žinynas
+Tam, kad tinkinti užduočių įrašai būtų pateikiami „Retail Modern POS“ ir „Cloud POS“ žinyno srityje ir juos būtų galima peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Norėdami gauti daugiau informacijos, žr. [Žinyno sistemos prijungimas](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). „Retail Modern POS“ ir „Cloud POS“ žinynas atlieka iešką LCS realiuoju laiku. Ieška vykdoma visose BPM bibliotekose, kurios pasirinktos „Microsoft Dynamics 365 for Retail“ žinyno sistemos parametruose, ir rodomi atitinkami rezultatai. Norėdami pasiekti meniu **Žinynas**, ekrano viršuje spustelėkite mygtuką **Žinynas** (klaustukas) ir ieškos lauke įveskite savo proceso pavadinimą bei spustelėkite ieškos mygtuką. 
 
 [![Mygtukas Pagalba](./media/help.jpg)](./media/help.jpg) 
 
-Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūrėti kaip žinyno temą arba eksportuoti į „Word“ dokumentą. Pastaba: „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių automatiškai pagal jūsų formą arba operacijas, jūs turite ieškos lauke įvesti proceso pavadinimą ir paspausti ieškos mygtuką, norėdami pamatyti rezultatus.
+Ieškos rezultatuose spustelėjus užduočių vedlį, veiksmus galima peržiūrėti kaip žinyno temą arba eksportuoti į „Word“ dokumentą. 
+#### <a name="note"></a>Banknotas
+> „Retail Modern POS“ ir „Cloud POS“ žinyno sistema neatidarys užduočių vedlių pagal jūsų atidarytą formą ar atliekamą operaciją. Proceso pavadinimą turite įvesti į ieškos lauką ir spustelėti **Ieškoti**.
 
 

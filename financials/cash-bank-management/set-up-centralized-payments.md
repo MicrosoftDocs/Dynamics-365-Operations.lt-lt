@@ -1,6 +1,6 @@
 ---
 title: "Centralizuotų mokėjimų nustatymas"
-description: 
+description: "Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="set-up-centralized-payments"></a>Centralizuotų mokėjimų nustatymas
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu. Prieš pradėdami turite įvykdyti šias nustatymo procedūras:
@@ -53,10 +51,10 @@ Jei mokate tiekėjui iš vieno juridinio subjekto ir norite pasirinkti to tiekė
 Kai sukuriate mokėjimą viename juridiniame subjekte, kuris sudengia SF kituose juridiniuose subjektuose, abiejų juridinių subjektų registravimo šablonų ID turi būti tokie patys. Siekdami užtikrinti, kad mokėjimai būtų sukurti tinkamai, kiekviename SF juridiniame subjekte nustatykite registravimo profilį, kuris atitinka mokėjimo juridiniame subjekte naudojamus registravimo profilius. Pereikite į pirmą sąskaitos faktūros juridinį subjektą, tada puslapyje **Tiekėjų registravimo šablonai** galite sukurti naują registravimo šabloną arba redaguoti esamą registravimo šabloną. Jūsų atliekami SF juridinio subjekto registravimo šablono pasirinkimai neturi atitikti to, kaip registravimo šablonas nustatomas su mokėjimu susijusiame juridiniame subjekte.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Nustatykite centralizuotų mokėjimų mokėjimo metodus
-Kai sukuriate mokėjimą viename juridiniame subjekte, kuris sudengia SF kituose juridiniuose subjektuose, abiejų juridinių subjektų mokėjimo būdų ID turi būti tokie patys. Siekdami užtikrinti, kad mokėjimai būtų sukurti tinkamai, nustatykite kiekvieno SF juridinio subjekto mokėjimo būdą, kuris atitiktų mokėjimo juridiniame subjekte naudojamus mokėjimo būdus. Pereikite į pirmą SF juridinį subjektą, tada puslapyje **Mokėjimo būdai**galite sukurti naują mokėjimo būdą arba redaguoti esamą mokėjimo būdą. Jūsų atliekami SF juridinio subjekto mokėjimo būdo pasirinkimai neturi atitikti mokėjimo juridinio subjekto mokėjimo būdo nustatymų.
+Kai sukuriate mokėjimą viename juridiniame subjekte, kuris sudengia SF kituose juridiniuose subjektuose, abiejų juridinių subjektų mokėjimo būdų ID turi būti tokie patys. Siekdami užtikrinti, kad mokėjimai būtų sukurti tinkamai, nustatykite kiekvieno SF juridinio subjekto mokėjimo būdą, kuris atitiktų mokėjimo juridiniame subjekte naudojamus mokėjimo būdus. Pereikite į pirmą SF juridinį subjektą, tada puslapyje **Mokėjimo būdai** galite sukurti naują mokėjimo būdą arba redaguoti esamą mokėjimo būdą. Jūsų atliekami SF juridinio subjekto mokėjimo būdo pasirinkimai neturi atitikti mokėjimo juridinio subjekto mokėjimo būdo nustatymų.
 
 ## <a name="set-up-default-descriptions"></a>Numatytųjų aprašų nustatymas
-Galite nustatyti numatytuosius vidinės įmonės sudengimo kvitų aprašus. Numatytasis aprašas įtraukiamas į operacijas, mokėtinas iki ir nuo tam tikros datos, visos įmonės sudengimo proceso metu. Puslapyje **Numatytieji aprašymai** pasirinkdami kalbą ir įvesdami tekstą galite sukurti naujus aprašymus, tinkamus, kai atliekamas **Vidinės įmonės klientų sudengimas**ir **Vidinės įmonės tiekėjų sudengimas**.
+Galite nustatyti numatytuosius vidinės įmonės sudengimo kvitų aprašus. Numatytasis aprašas įtraukiamas į operacijas, mokėtinas iki ir nuo tam tikros datos, visos įmonės sudengimo proceso metu. Puslapyje **Numatytieji aprašymai** pasirinkdami kalbą ir įvesdami tekstą galite sukurti naujus aprašymus, tinkamus, kai atliekamas **Vidinės įmonės klientų sudengimas** ir **Vidinės įmonės tiekėjų sudengimas**.
 
 
 

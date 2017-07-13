@@ -3,25 +3,27 @@ title: "Pamainos ir kasos stalčių valdymas"
 description: "Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Atskiros pamainos naudojamos tradiciniu, pastoviu POS scenarijumi, kada kiekvien
 
 Atskira pamaina priskiriama kasos stalčiaus lygyje. Šioje procedūroje paaiškinama, kaip nustatyt atskirą pamainą EKA registre.
 
-1.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+1.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**.
 2.  Pasirinkite naudotiną atskirtos pamainos aparatūros šabloną.
 3.  „FastTab“ **Stalčius** patikrinkite, ar parinktis **Bendrai naudojamos pamainos stalčius** yra nustatyta į **Ne**.
 4.  Spustelėkite **Įrašyti**.
-5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **Registrai**.
+5.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
 6.  Pasirinkite registrą, kuriam reikalinga atskira pamaina, ir tada spustelėkite **Redaguoti**.
 7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
 8.  Spustelėkite **Įrašyti**.
-9.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+9.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
 
 ### <a name="use-a-stand-alone-shift"></a>Atskiros pamainos naudojimas
@@ -70,15 +72,15 @@ Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai
 
 ### <a name="set-up-a-shared-shift"></a>Bendrai naudojamos pamainos nustatymas
 
-1.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+1.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**.
 2.  Pasirinkite naudotiną bendrai naudojamos pamainos aparatūros šabloną.
 3.  „FastTab“ **Stalčius** parinktį **Bendrai naudojamos pamainos stalčius** nustatykite į **Taip**.
 4.  Spustelėkite **Įrašyti**.
-5.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo nustatymas** &gt; **EKA nustatymas** &gt; **Registrai**.
+5.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
 6.  Pasirinkite registrą, kuriam reikalinga bendrai naudojama pamaina, ir tada spustelėkite **Redaguoti**.
 7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
 8.  Spustelėkite **Įrašyti**.
-9.  Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
+9.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
 
 ### <a name="use-a-shared-shift"></a>Bendrai naudojamos pamainos naudojimas

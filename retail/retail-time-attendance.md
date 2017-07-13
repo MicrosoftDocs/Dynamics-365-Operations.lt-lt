@@ -1,37 +1,39 @@
 ---
 title: "„Retail“ laikas ir buvimas darbe"
-description: "Šioje temoje aprašomi scenarijai, palaikomi laiko ir lankomumo valdymui „Microsoft Dynamics 365 for Operations“ – versija „Retail“."
+description: "Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 021f0ce8ee73ede482b2b74fce93f61a886288fc
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b458d1938f49a2f33f7dd3ce3062880f0d4d7bfc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="retail-time-and-attendance"></a>„Retail“ laikas ir buvimas darbe
+# <a name="retail-time-and-attendance"></a>Mažmeninės prekybos laikas ir buvimas darbe
 
 [!include[banner](includes/banner.md)]
 
 
-Šioje temoje aprašomi scenarijai, palaikomi laiko ir lankomumo valdymui „Microsoft Dynamics 365 for Operations“ – versija „Retail“. 
+Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai. 
 
 <a name="manage-worker-setup-and-scheduling"></a>Valdyti darbininko nustatymą ir planavimą
 ----------------------------------
@@ -122,7 +124,7 @@ EKA
 -   Galite naudoti veiklos tipo ir parduotuvės filtrus laiko registravimams filtruoti.
 
 ## <a name="process-and-manage-time-registrations"></a>Apdoroti ir valdyti darbuotojų laiko registravimą
-„Dynamics 365 for Operations“ – versijos „Retail“ vartotojas turi laikytis darbo eigos, kai skaičiuoja, tvirtina ir perkelia laiko registravimus į algalapį.
+„Dynamics 365 for Retail“ vartotojas laikydamasis darbo eigos laiko registracijas skaičiuoja, tvirtina ir perkelia į algalapį.
 
 ### <a name="primary-operations"></a>Pirminės operacijos
 
