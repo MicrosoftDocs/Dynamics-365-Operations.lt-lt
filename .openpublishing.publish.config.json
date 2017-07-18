@@ -7,7 +7,7 @@
       "build_source_folder": "core",
       "build_output_subfolder": "d365Ops-Core",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -22,7 +22,7 @@
       "build_source_folder": "dev-itpro",
       "build_output_subfolder": "d365Ops-DevITPro",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -37,7 +37,7 @@
       "build_source_folder": "hr",
       "build_output_subfolder": "d365Ops-Talent",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -52,7 +52,7 @@
       "build_source_folder": "retail",
       "build_output_subfolder": "d365Ops-Retail",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -67,7 +67,7 @@
       "build_source_folder": "scm",
       "build_output_subfolder": "d365Ops-SCM",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -82,7 +82,7 @@
       "build_source_folder": "financials",
       "build_output_subfolder": "d365Ops-Financials",
       "locale": "lt-lt",
-      "monikers": [],
+      "monikers": [ ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -93,8 +93,8 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
-  "branches_to_filter": [],
+  "notification_subscribers": [ ],
+  "branches_to_filter": [ ],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
@@ -102,7 +102,12 @@
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.lt-lt",
       "branch": "master",
-      "branch_mapping": {}
+      "branch_mapping": { }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master"
     },
     {
       "path_to_root": "_repo.en-us",
@@ -118,7 +123,16 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf" 
     ]
   },
-  "need_generate_pdf_url_template": true
+  "need_generate_pdf_url_template": true,
+ "Targets": {
+  "Pdf": {
+    "template_folder": "_themes.pdf"
+  }
+ }
 }
