@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Kaštų apskaitos pagrindinis puslapis
+# <a name="cost-accounting-home-page"></a>Kaštų apskaitos pagrindinis puslapis
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Naudojant modulį Kaštų apskaita galima atlikti tolesnius veiksmus.
 -   Sukurkite išrašus, kuriuos galima peržiūrėti darbo srityje.
 -   Sukurkite ataskaitas naudodami „Excel“.
 
-<a id="get-started" class="xliff"></a>
-
-## Darbo pradžia
+## <a name="get-started"></a>Darbo pradžia
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Norėdami suprasti, kaip galima naudoti kaštų apskaitą kasdieniame darbe, tur
 -   [Savikainos objekto dimensijos](cost-objects.md)
 -   [Savikainos objektų kūrimas](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (užduočių vedlys)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Savikainos kontrolės darbo sritis
+## <a name="cost-control-mobile-workspace"></a>Savikainos kontrolės darbo sritis
 Naudodami savikainos kontrolės mobiliąją darbo sritį, išlaidų centrų vadovai gali bet kada ir bet kur peržiūrėti išlaidų centro efektyvumą.
 
 -   [Savikainos kontrolės darbo sritis](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Kaštų apskaitos analizės „Power BI“ turinys
+## <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
 Kaštų apskaitos analizės „Microsoft Power BI“ turinys skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš „Finance and Operations” turinio Išlaidų apskaita ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus.
 
 -   [Kaštų apskaitos analizės „Power BI“ turinys](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)

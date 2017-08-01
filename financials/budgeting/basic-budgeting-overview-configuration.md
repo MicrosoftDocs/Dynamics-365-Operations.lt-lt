@@ -79,7 +79,7 @@ Biudžeto vadybininkas gali peržiūrėti dabartinę biudžeto būseną darbo sr
 
 Užklausų puslapis **Faktinė ir biudžeto sumos** suteikia galimybę detalizuoti biudžeto ir faktinės sumų informaciją. Užklausų puslapyje pasirinkite eilutę ir tada spustelėkite **Laikotarpio balansai**, norėdami peržiūrėti biudžeto ir faktinę sumas, paskirstytas ataskaitiniuose laikotarpiuose. Puslapyje **Biudžeto sąskaitos įrašai** pateikta detalizuota biudžeto registro įrašų biudžeto sumos informacija. Puslapyje **Bendrojo žurnalo įrašai** atidaromos DK operacijos, kurios yra įtrauktos į apskaičiuotą **faktinę** sumą. 
 
-Įmonė, kuri naudojama funkciją Biudžeto planavimas, gali kurti ir naudoti *biudžeto prognozes * darbo srityje **DK biudžetai ir prognozės**.
+Įmonė, kuri naudojama funkciją Biudžeto planavimas, gali kurti ir naudoti *biudžeto prognozes* darbo srityje **DK biudžetai ir prognozės**.
 
 
 
