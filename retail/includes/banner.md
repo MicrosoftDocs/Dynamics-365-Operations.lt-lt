@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Ši tema taikoma „Dynamics 365 for Retail‟ (negalutinei versijai), „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimui ir „Dynamics 365 for Operations‟.
+> Ši tema taikoma „Dynamics 365 for Retail‟, „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimui ir „Dynamics 365 for Operations‟.

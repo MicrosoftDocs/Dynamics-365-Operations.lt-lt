@@ -1,37 +1,35 @@
 ---
-title: "„Dynamics 365 for Operations‟ sąvokų žodynas"
-description: "„Microsoft Dynamics 365 for Operations“ žodyne aprašyti „Dynamics 365 for Operations“ produkto pagrindiniai terminai ir sąvokos."
+title: "„Finance and Operations” sąvokų žodynas"
+description: "Sąvokų žodyne apibrėžti „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo pagrindiniai terminai ir koncepcijos."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>„Dynamics 365 for Operations‟ sąvokų žodynas
+# <a name="finance-and-operations-glossary"></a>„Finance and Operations” sąvokų žodynas
 
 [!include[banner](../includes/banner.md)]
 
-
-„Microsoft Dynamics 365 for Operations“ žodyne aprašyti „Dynamics 365 for Operations“ produkto pagrindiniai terminai ir sąvokos. 
+Sąvokų žodyne apibrėžti „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo pagrindiniai terminai ir koncepcijos. 
 
 ### <a name="a"></a>**A**
 
@@ -51,17 +49,9 @@ Elektroninė lėšų pervedimo sistema, naudojama Jungtinėse Amerikos Valstijos
 
 Išmatuotas kiekis, kuris yra įvestis į veiklą arba išvestis iš jos.
 
-###### <a name="address-verification-service"></a>**adresų tikrinimo tarnyba**
+###### <a name="address-verification"></a>**adreso tikrinimas**
 
 Kredito kortelės procesoriaus teikiama paslauga, kuri patvirtina, kad kortelės turėtojo atsiskaitymo adresas atitinka informaciją, esančią išduodančio banko faile.
-
-###### <a name="adjusted-unit-price"></a>**pakoreguota vieneto kaina**
-
-Vieneto kaina, apskaičiuota pagal atributais grindžiamą kainodarą, ir faktinis gautas stiprumas.
-
-###### <a name="advanced-pricing"></a>**išankstinė kaina**
-
-Stiprumo prekės pirkimo kainos skaičiavimo logika.
 
 ###### <a name="aging"></a>**skirstymas pagal terminus**
 
@@ -101,14 +91,13 @@ Laikotarpis, per kurį galima gauti optimalią produkto kokybę ar geriausias jo
 
 Šaltinio dokumentas, kuris dokumentuoja besąlygišką prašymą trečiajai šaliai mokėti antrajai šaliai pagal pareikalavimą.
 
-###### <a name="bill-of-materials"></a>**komplektavimo specifikacija**
-
-Produktų sąrašas ir jų kiekiai, kurių reikia norint pagaminti vieną produktą.
-
 ###### <a name="blocking"></a>**blokavimas**
 
 Dokumento pateikimo arba produkto sulaikymo veiksmas.
 
+###### <a name="bom-bill-of-materials"></a>**KS (komplektavimo specifikacija)**
+
+Produktų sąrašas ir jų kiekiai, kurių reikia norint pagaminti vieną produktą.
 ###### <a name="budget-control"></a>**biudžeto kontrolė**
 
 Praktika, pagal kurią išlaidos leidžiamos, tik kai biudžeto lėšas galima rezervuoti būsimiems mokėjimo įsipareigojimams.
@@ -175,14 +164,6 @@ Pagrindinių sąskaitų sąrašas.
 
 Apskaitos kategorija, naudojama susumuoti produktų gamybos ir atsargų laikymo finansines pasekmes.
 
-###### <a name="commodity-pricing"></a>**prekių kainodara**
-
-Kainodaros strategija atnaujinti parduodamų prekių kainas: nuo prekių subjektų iki dažnų kainų keitimų.
-
-###### <a name="consolidated-order"></a>**konsoliduotasis užsakymas**
-
-Šaltinio dokumentas, kuriame dokumentuojamas daugiau nei vienas nurodytas užsakymas.
-
 ###### <a name="contractor"></a>**rangovas**
 
 Asmens, kuris dalyvauja rangovo ir darbdavio santykiuose su juridiniu subjektu, prisiimtas vaidmuo.
@@ -194,10 +175,6 @@ Prekė, pagaminta kartu su kita preke.
 ###### <a name="cost-center"></a>**išlaidų centras**
 
 Valdymo vienetas, kurio vadovai yra atsakingi už biudžeto ir faktines išlaidas.
-
-###### <a name="cost-of-goods-sold"></a>**parduotų prekių savikaina**
-
-Apskaitos kategorija, naudojama susumuoti produktų gamybos ir atsargų laikymo finansines pasekmes.
 
 ###### <a name="cost-variance"></a>**išlaidų nuokrypis**
 
@@ -223,7 +200,7 @@ Užtruktas laikas veiklai atlikti.
 
 ###### <a name="dashboard"></a>**ataskaitų sritis**
 
-Įprastas „Dynamics 365 for Operations“ pagrindinis puslapis. Ataskaitų srityje vartotojai mato visų darbo sričių, prie kurių jie turi prieigą, dalis. Kiekvienoje dalyje rodomos susijusios darbo srities suvestinės dalių išklotinės. Ataskaitų sritį sudaro pavadinimas ir dalys su išklotinėmis.
+Įprastas „Finance and Operations“ pagrindinis puslapis. Ataskaitų srityje vartotojai mato visų darbo sričių, prie kurių jie turi prieigą, dalis. Kiekvienoje dalyje rodomos susijusios darbo srities suvestinės dalių išklotinės. Ataskaitų sritį sudaro pavadinimas ir dalys su išklotinėmis.
 
 ###### <a name="data-entity"></a>**duomenų objektas**
 
@@ -260,10 +237,6 @@ Konfigūracijos technologija, naudojama kuriant prekės variantus, pasirenkant p
 ###### <a name="distinct-product"></a>**išskirtasis produktas**
 
 Unikaliai identifikuojamas produktas.
-
-###### <a name="document-blocking"></a>**dokumentų blokavimas**
-
-Operacijos proceso sulaikymo, kol užsakytos prekės yra kokybės užtikrinimo procese, metodas.
 
 ###### <a name="document-management-system"></a>**dokumentų valdymo sistema**
 
@@ -316,10 +289,6 @@ Valiuta, kurios kursas kitos valiutos atžvilgiu yra fiksuotas.
 ###### <a name="fixed-quantity-kanban"></a>**fiksuoto kiekio „kanban“**
 
 „kanban“ tipas, naudojamas, kai „kanban“, priskirtų „kanban“ taisyklei, skaičius yra pastovus.
-
-###### <a name="flexible-authentication"></a>**lankstusis autentifikavimas**
-
-Autentifikavimo procesas, kai vartotojai įvairiose tapatybės tvarkymo sistemose gali būti autentifikuoti.
 
 ###### <a name="formula"></a>**formulė**
 
@@ -379,10 +348,6 @@ Procesas arba perdavimo veikla gamybos eigoje, kurią paleidžia „kanban“.
 
 Produkto komponentų šalinimas iš atsargų, kad būtų užbaigtos „kanban“ gamybos užduotys.
 
-###### <a name="kanban-product-quantity"></a>**„kanban“ produktų kiekis**
-
-Prekių reikalavimų skaičius, kuriuos vykdo „kanban“, remiantis „kanban“ taisykle.
-
 ###### <a name="kanban-rule"></a>**„kanban“ taisyklė**
 
 Taisyklė „lean manufacturing“ sistemoje, pagal kurią kuriamas medžiagų planavimas ir papildymo strategijos, kontroliuojant, kaip procesai ir perdavimo veiklos koordinuojami gamybos eigose.
@@ -410,10 +375,6 @@ Raidinių ir skaitinių simbolių raktas, suteikiantis šaliai teisę naudoti pr
 Šalies galimybė naudotis dabartiniais turtais ir įvykdyti dabartinius įsipareigojimus.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**pridėtinės gamybos išlaidos pagal medžiagą**
-
-Pridėtinės gamybos išlaidos išreikštos kaip netiesioginių išlaidų papildomo mokesčio procento apskaičiavimo formulės. Išlaidų grupė, priskirta sudedamosioms medžiagoms, yra apskaičiavimo formulės pagrindas. Apskaičiavimo formules galima nustatyti atskiriems produktams ar prekių grupėms, priskirtoms produktams, norint suteikti daugiau lankstumo skaičiuojant pridėtines gamybos išlaidas pagal medžiagas.
 
 ###### <a name="master-scheduling"></a>**bendrasis planavimas**
 
@@ -459,10 +420,6 @@ Paketas yra vieno ar kelių modelių vienetas, kurį galima kompiliuoti ir diegt
 
 ###### <a name="party"></a>**šalis**
 
-Objektas, kuris prisiima teisiškai susaistantį vaidmenį, dalyvaudamas sutartiniuose ryšiuose.
-
-###### <a name="party"></a>**šalis**
-
 Asmuo arba organizacija, dalyvaujanti ekonominėje veikloje.
 
 ###### <a name="pegging"></a>**iškvietimas**
@@ -472,10 +429,6 @@ Reikiamos prekės kiekio sekimo iki šaltinio procesas.
 ###### <a name="pegging-event"></a>**iškvietimo įvykis**
 
 Išteklių srauto įvykis, pranešantis apie produkto paklausą.
-
-###### <a name="phantom-item"></a>**fiktyvi prekė**
-
-Prekė, pagaminta, bet ne laikoma.
 
 ###### <a name="planned-intercompany-demand"></a>**suplanuota paklausa vidinėse įmonėse**
 
@@ -489,17 +442,9 @@ Ekonominio įvykio piniginės vertės įrašymas į konkrečią sąskaitą arba 
 
 Asmuo, kuris sukuria šaltinio dokumentą, norėdamas inicijuoti ekonominių išteklių užklausą.
 
-###### <a name="privilege"></a>**teisė**
-
-Viena ar daugiau teisių, kurias vartotojas turi turėti, kad atliktų užduotį.
-
 ###### <a name="procurement-catalog"></a>**įsigijimo katalogas**
 
 Produktų pasiūlymų, sugrupuotų pagal įsigijimo kategoriją, sąrašas. Įsigijimo katalogas, naudojamas prašyti produktų organizacijos vidaus naudojimui.
-
-###### <a name="product-component"></a>**produkto komponentas**
-
-Produkto dalis.
 
 ###### <a name="product-dimension"></a>**produkto dimensija**
 
@@ -507,7 +452,7 @@ Produkto dydžio, spalvos ar konfigūracijos atributai, naudojami dimensijomis p
 
 ###### <a name="product-family"></a>**produktų šeima**
 
-Prekių, paslaugų arba teisių, kurios arba dalyvauja toje pačioje gamyboje arba pristatymo veiklose, arba yra siūlomos tiems patiems rinkos segmentams, unikalus grupavimas. Programoje „Dynamics 365 for Operations“ grupės kuriamos naudojant prognozės paskirstymo raktą.
+Prekių, paslaugų arba teisių, kurios arba dalyvauja toje pačioje gamyboje arba pristatymo veiklose, arba yra siūlomos tiems patiems rinkos segmentams, unikalus grupavimas. „Finance and Operations“ grupės kuriamos naudojant prognozės paskirstymo raktą.
 
 ###### <a name="product-master"></a>**bendrasis produktas**
 
@@ -581,10 +526,6 @@ Metodas, naudojamas padidinti arba sumažinti prognozės poreikius bendrojo plan
 
 Įrašas, naudojamas veiklos, teisinėms ir finansinėms išteklių srauto įvykių pasekmėms įrašyti į apskaitos sistemą.
 
-###### <a name="regulated-product"></a>**reguliuojamasis produktas**
-
-Produktas, kuris yra reglamentuojamas valdžios institucijos, kuri reikalauja atitikties ir audito ataskaitos.
-
 ###### <a name="rfq-request-for-quotation"></a>**RFQ (pasiūlymo patvirtinimas)**
 
 Šaltinio dokumentas, kuriame dokumentuojamas kvietimas siūlyti produktų tiekimo kiekį už nurodytą kainą iki nurodytos datos.
@@ -593,9 +534,6 @@ Produktas, kuris yra reglamentuojamas valdžios institucijos, kuri reikalauja at
 
 Asmuo, kuris prašo ekonominių išteklių.
 
-###### <a name="restricted-product"></a>**ribotasis produktas**
-
-Produktas, kurio paskirstymas yra ribotas arba varžomas valdžios institucijos.
 
 ### <a name="s"></a>**S**
 
@@ -647,13 +585,6 @@ Produkto kiekis, dokumentuojamas šaltinio dokumento eilutėje, kuris sukuria i�
 
 Būsimo poreikio įvertinimas, sukurtas taikant prognozavimo algoritmą praeities operacijų duomenims.
 
-###### <a name="supermarket"></a>**prekybos centras**
-
-Atsargų laikymo nustatytą laiką vieta, turinti ribotą pajėgumą ir naudojama medžiagoms saugoti netoli jų galutinio sunaudojimo vietos.
-
-###### <a name="system-defined-financial-dimension-type"></a>**sistemos nustatytas finansinės dimensijos tipas**
-
-Finansinė dimensija, susieta su lentele ar vaizdu duomenų bazėje, kuri reiškia objekto tipą ir kurios reikšmės yra to objekto tipo vieno atributo domene.
 
 ### <a name="t"></a>**T**
 
@@ -665,13 +596,13 @@ Laikas, kiek trunka produkto vieneto gamyba.
 
 Kontroliuojama, valdoma sistema, kurioje naudojami užduočių įrašymo veiksmai. Užduočių vedlys pateikia vartotojui visu įrašytus duomenis. Vykdant užduočių vedlį visi saugos, duomenų ir programų veiksmai yra tokie patys kaip ir nenaudojant užduočių vedlio. Užduočių vedlys naudoja tuos pačius įrankius kaip ir užduočių įrašymo priemonė, kad sužinotų, kada vartotojas baigia numatytą veiksmą, ir galėtų vartotoją paraginti atlikti kitą įrašymo veiksmą.
 
-###### <a name="task-recorder"></a>**užduočių įrašymo priemonė**
+###### <a name="task-recorder"></a>**Užduočių įrašymo priemonė**
 
-Įrankis, kuris „Dynamics 365 for Operations“ yra įdiegtas iš anksto. Įrašant, įrašomi visi įvykiai, kuriuos vartotojas įveda „Dynamics 365 for Operations“ vartotojo sąsajoje ir kurie yra vykdomi serveryje, įskaitant įtrauktas reikšmes, pakeistus parametrus, pašalintus duomenis ir t. t.
+Įrankis, kuris „Finance and Operations“ yra įdiegtas iš anksto. Įrašant, įrašomi visi įvykiai, kuriuos vartotojas įveda „Finance and Operations“ vartotojo sąsajoje ir kurie yra vykdomi serveryje, įskaitant įtrauktas reikšmes, pakeistus parametrus, pašalintus duomenis ir t. t.
 
 ###### <a name="task-recording"></a>**užduoties įrašas**
 
-Failas, kuriame yra veiksmai ir komentarai, užfiksuoti, kai užduočių įrašymo priemonė paleidžiama programoje „Microsoft Dynamics 365 for Operations“.
+Failas, kuriame yra veiksmai ir komentarai, užfiksuoti, kai užduočių įrašymo priemonė paleidžiama „Finance and Operations“.
 
 ###### <a name="three-way-matching-policy"></a>**trišalė atitikimo strategija**
 
@@ -684,12 +615,6 @@ Vienos ar daugiau pervedamų arba galimų pervesti prekių kiekis.
 ###### <a name="two-way-matching-policy"></a>**dvišalė atitikimo strategija**
 
 Atitikimo strategija, reikalaujanti, kad viena ar daugiau tiekėjo SF kainų sutaptų su viena ar daugiau pirkimo užsakymo kainų.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**vartotojo nustatytos finansinės dimensijos tipas**
-
-Finansinė dimensija, susieta su vartotojo nustatytų verčių sąrašu.
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Asmuo, kuris prisiima darbuotojo arba rangovo vaidmenį ir kuriam yra mokama už
 ###### <a name="workspace"></a>**darbo sritis**
 
 Puslapis, kuriame pateikiama vienos iš vartotojo atliekamų veiklų apžvalga. Puslapyje išklotinės, diagramos ir sąrašai yra naudojami laukiančio darbo ir susijusiems duomenims iš kelių šaltinių rodyti, o puslapyje išryškinamos dažnos užduotys, susijusios su šiais duomenimis. Darbo srities suvestinės dalyje rodomos išklotinės taip pat pateikiamos ir susijusioje ataskaitų srities dalyje.
-
-
-
 
