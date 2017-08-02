@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ ms.lasthandoff: 06/29/2017
 -   [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](download-electronic-reporting-configuration-lcs.md)
 -   [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (užduočių vedlys)
--   [ER: konkretaus domeno duomenų modelio kūrimas](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (užduočių vedlys)
--   [ER: modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (užduočių vedlys)
--   [ER: duomenų modelio susiejimas su pasirinktais duomenų šaltiniais](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (užduočių vedlys)
--   [ER: konkretaus domeno formato kūrimas](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (užduočių vedlys)
--   [ER: konfigūracijos nusiuntimas į „Lifecycle Services‟](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (užduočių vedlys)
--   [ER: konfigūracijos importavimas iš „Lifecycle Services‟](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (užduočių vedlys)
--   [ER: konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (užduočių vedlys)
--   [ER: paskirties vietų konfigūravimas](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (užduočių vedlys)
--   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (1 dalis: duomenų modelio kūrimas)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (užduočių vedlys)
--   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (2 dalis: modelio susiejimas)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (užduočių vedlys)
--   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (3 dalis: ataskaitos kūrimas)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (užduočių vedlys)
--   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (4 dalis: ataskaitos paleidimas)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (užduočių vedlys)
--   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (užduočių vedlys)
--   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (2 dalis: skaičiavimų konfigūravimas)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (užduočių vedlys)
--   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (3 dalis: skaičiavimų naudojimas išvesčiai kurti)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (užduočių vedlys)
--   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (4 dalis: formato paleidimas)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (užduočių vedlys)
--   [ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (1 dalis: formato kūrimas)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (užduočių vedlys)
--   [ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (2 dalis: formato paleidimas)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (užduočių vedlys)
--   [ER: dokumentų valdymo failų naudojimas formato išvestyse (1 dalis: duomenų modelio ruošimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (užduočių vedlys)
--   [ER: dokumentų valdymo failų naudojimas formato išvestyse (2 dalis: duomenų modelio išplėtimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (užduočių vedlys)
--   [ER: dokumentų valdymo failų naudojimas formato išvestyse (3 dalis: formato kūrimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (užduočių vedlys)
--   [ER: dokumentų valdymo failų naudojimas formato išvestyse (4 dalis: formato paleidimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (užduočių vedlys)
--   [ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis: formato modifikavimas ir paleidimas)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (užduočių vedlys)
--   [ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (užduočių vedlys)
--   [ER: formato naujinimas pritaikant naują pagrindinę to formato versiją](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (užduočių vedlys)
+-   [ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (užduočių vedlys)
+-   [ER: konkretaus domeno duomenų modelio kūrimas](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (užduočių vedlys)
+-   [ER: modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (užduočių vedlys)
+-   [ER: duomenų modelio susiejimas su pasirinktais duomenų šaltiniais](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (užduočių vedlys)
+-   [ER: konkretaus domeno formato kūrimas](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (užduočių vedlys)
+-   [ER: konfigūracijos nusiuntimas į „Lifecycle Services‟](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (užduočių vedlys)
+-   [ER: konfigūracijos importavimas iš „Lifecycle Services‟](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (užduočių vedlys)
+-   [ER: konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (užduočių vedlys)
+-   [ER: paskirties vietų konfigūravimas](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (užduočių vedlys)
+-   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (1 dalis: duomenų modelio kūrimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (užduočių vedlys)
+-   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (2 dalis: modelio susiejimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (užduočių vedlys)
+-   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (3 dalis: ataskaitos kūrimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (užduočių vedlys)
+-   [ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (4 dalis: ataskaitos paleidimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (užduočių vedlys)
+-   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (užduočių vedlys)
+-   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (2 dalis: skaičiavimų konfigūravimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (užduočių vedlys)
+-   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (3 dalis: skaičiavimų naudojimas išvesčiai kurti)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (užduočių vedlys)
+-   [ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (4 dalis: formato paleidimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (užduočių vedlys)
+-   [ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (1 dalis: formato kūrimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (užduočių vedlys)
+-   [ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (2 dalis: formato paleidimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (užduočių vedlys)
+-   [ER: dokumentų valdymo failų naudojimas formato išvestyse (1 dalis: duomenų modelio ruošimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (užduočių vedlys)
+-   [ER: dokumentų valdymo failų naudojimas formato išvestyse (2 dalis: duomenų modelio išplėtimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (užduočių vedlys)
+-   [ER: dokumentų valdymo failų naudojimas formato išvestyse (3 dalis: formato kūrimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (užduočių vedlys)
+-   [ER: dokumentų valdymo failų naudojimas formato išvestyse (4 dalis: formato paleidimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (užduočių vedlys)
+-   [ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis: formato modifikavimas ir paleidimas)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (užduočių vedlys)
+-   [ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (užduočių vedlys)
+-   [ER: formato naujinimas pritaikant naują pagrindinę to formato versiją](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (užduočių vedlys)
 
 
 

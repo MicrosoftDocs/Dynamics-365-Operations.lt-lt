@@ -12,7 +12,7 @@
       tocHref: /dynamics365/unified-operations/fin-and-ops/
       topicHref: /dynamics365/unified-operations/fin-and-ops/index
       items:
-        - name: Kūrėjas ir administratorius
+        - name: null
           tocHref: /dynamics365/unified-operations/dev-itpro/
           topicHref: /dynamics365/unified-operations/dev-itpro/index
         - name: Financials
@@ -24,6 +24,6 @@
     - name: „Talent‟
       tocHref: /dynamics365/unified-operations/talent/
       topicHref: /dynamics365/unified-operations/talent/index
-    - name: „Retail‟
+    - name: Retail
       tocHref: /dynamics365/unified-operations/retail/
       topicHref: /dynamics365/unified-operations/retail/index
