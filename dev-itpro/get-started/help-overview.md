@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Šiame straipsnyje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
 
-> [!IMPORTANT] 
-> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Temos, skirtos vienam produktui, gali būti taikomos tai pačiai susijusio produkto funkcijai
+> [!NOTE] 
+> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Temos, skirtos vienam produktui, gali būti taikomos tai pačiai susijusio produkto funkcijai.
+
+Žinyno sistema yra bendrai naudojama visuose „Unified Operations“ produktuose:
+- „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas
+- „Dynamics 365 for Retail‟
+- „Dynamics 365 for Talent‟
 
 Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagrindiniais komponentais:
 
 -   Dokumentacijos svetainė
 -   Užduočių vedliai
 
-Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Temos, skirtos vienam produktui, gali būti taikomos tai pačiai susijusio produkto funkcijai. 
-
-Žinyno sistema yra bendrai naudojama visuose „Unified Operations“ produktuose:
-- „Dynamics 365 for Finance and Operations, Enterprise Edition‟
-- „Dynamics 365 for Retail‟
-- „Dynamics 365 for Talent‟
-
 Žinyno temas ir užduočių vedlius galite pasiekti bet kurio jūsų naudojamo produkto srityje Žinynas. Toliau pateiktoje ekrano nuotraukoje rodoma „Microsoft Dynamics 365 for Finance and Operations‟
 
-![Sritis Žinynas](./media/help-pane-ops-task-guides-1024x741.png)
+![Sritis Žinynas](./media/help-pane-ops-task-guides.png)
 
 Šioje temoje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
 
 > [!IMPORTANT]
-> Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)).
+> Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index).
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
 
-Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) yra pagrindinis „Dynamics 365 for Finance and Operations‟ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
+Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) yra pagrindinis „Dynamics 365 for Finance and Operations‟ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
 
 -   **Prieiga prie naujausio turinio** – svetainė suteikia greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jis padeda užtikrinti, kad turėtumėte prieigą prie vėliausios techninės informacijos.
 -   **Ekspertų parašytas turinys** – svetainėje pateikiamas turiningesnis produktų dokumentacijos rinkinys, kurį bendruomenės nariai gali gerinti tiek „Microsoft‟ viduje, tiek išorėje.
@@ -68,12 +65,13 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynam
 ### <a name="searching-on-docsmicrosoftcom"></a>Ieška puslapyje docs.microsoft.com
 Sulaukiame daug klausimų apie tai, kaip ieškoti mūsų turinio. Jei mūsų svetainėje pirmiausia atsidarysite puslapį, skirtą „Finance and Operations“, mes apribosime jūsų ieškos rezultatus pateikdami tik „Finance and Operations“ turinį. Šį apribojimą galite pašalinti, ieškos lauke šalia dalies „Operations“ spustelėdami X. 
 
-![Ieškoti užsakymų](./media/search-scope.png)
+![Ieškoti užsakymų](./media/search-scope-2.png)
 
 Taip pat mūsų turinį galite rasti naudodami bet kokį ieškos mechanizmą. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., „ieškomas terminas‟ site:docs.microsoft.com dynamics 365.  
-![Svetainės ieška](./media/site-search.png)
 
-![Svetainės ieškos rezultatai](./media/site-search-results.png)
+![Svetainės ieška](./media/site-search-1.png)
+
+![Svetainės ieškos rezultatai](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>„Unified Operations“ turinio lentelė docs.microsoft.com
 Dokumentų svetainėje visiems produktams naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį temoms, kurių ieškote, rasti.
@@ -105,7 +103,7 @@ Užduočių vedlys yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums 
 
 Kiekvienam „Unified Operations“ produktui pateiksime skirtingus užduočių vedlių rinkinius. Skyriuje Prieiga prie užduočių vedlių iš žinyno srities aprašyta, kaip rasti jūsų produktui tinkamus užduočių vedlius. 
 
-![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)
+![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
 Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje spustelėkite **Pradėti užduoties vadovą**. Atidaromas juodas žymeklis, kuris nurodo, kokį veiksmą reikia atlikti. Vykdykite UI rodomus nurodymus ir pagal juos įveskite duomenis. 
 ![Užduočių vedlio veiksmų instrukcija](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Galite kurti savus užduočių įrašus arba atsisiųsti ir tinkinti „Microsof
 ## <a name="in-product-help"></a>Vidinis Žinynas
 Norėdami pasiekti „Finance and Operations‟ žinyno turinį, spustelėkite piktogramą **Žinynas** (**?**) ir pasirinkite Žinynas arba paspauskite Ctrl + Shift +?. Abiem atvejais atidaroma Žinyno sritis. Iš žinyno srities galite pasiekti straipsnius ar užduočių vedlius. 
 
-![Sritis Žinynas](./media/help-pane-wiki-1024x684.png)
+![Sritis Žinynas](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Žinyno temų pasiekimas iš žinyno srities
 
@@ -162,7 +160,7 @@ Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
 
 Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti Žinyno sritį ir spustelėti skirtuką **Užduočių vedliai**. Dabar matysite užduočių vedlius, taikomus tam „Finance and Operations“ puslapiui, kuriame dabar esate. Jei nerasite nė vieno užduočių vedlio, įvedę raktažodžius galite patikslinti iešką. Žinyno srityje spustelėjus užduočių vedlį, žinyno srityje rodomos nuoseklios instrukcijos ir galima paleisti užduočių vedlį. 
 
-![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops-1024x742.png)
+![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Kur yra išversti užduočių vedliai?
 

@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/20/2017
 Naujinant „Finance and Operations“ produktai blokuojami, jeigu jie susiję su saugojimo dimensijų grupe, turinčia parametrų, kurie neatitinka „Finance and Operations“ saugojimo dimensijų grupės parametrų reikalavimų. Tačiau atnaujinę galite naudoti perkėlimo parinkčių rinkinį procese **Keisti prekių saugojimo dimensijų grupę** norėdami atblokuoti produktus, kurie buvo užblokuoti naujinant. Tada galite apdoroti tų produktų operacijas. Kai kurios jūsų prekės jau gali būti susietos su saugojimo dimensijų grupėmis kur Teritorijos, Sandėlio ir Vietos atsargų dimensijos yra aktyvios ir faktiškai sekamos. Tokiu atveju galite naudoti procesą **Keisti prekių saugojimo dimensijų grupę**, kad tas prekes būtų galima naudoti sandėlio valdymo procesuose. Ši funkcija yra naudinga, jei sandėlio valdymo funkcijas norite naudoti esamoms prekėms.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Naujinimas į „Finance and Operations“, kai naudojama AX 2012 R3 WMSII
-„Finance and Operations“ nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti naują **Sandėlio valdymo** modulį. Daugiau informacijos rasite [Sandėlio valdymo pagrindiniame puslapyje](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Ankstesnėse versijose vietos ir padėklo ID atsargų dimensijas buvo galima pasirinkti finansinėms atsargoms. Tačiau atnaujinus padėklo ID atsargų dimensija nebegali būti įjungta finansinėms atsargoms. Visi produktai, susiję su saugojimo dimensijų grupe, kuri naudoja padėklo ID atsargų dimensiją, bus užblokuoti ir nebus apdorojami.
+„Finance and Operations“ nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti naują **Sandėlio valdymo** modulį. Ankstesnėse versijose vietos ir padėklo ID atsargų dimensijas buvo galima pasirinkti finansinėms atsargoms. Tačiau atnaujinus padėklo ID atsargų dimensija nebegali būti įjungta finansinėms atsargoms. Visi produktai, susiję su saugojimo dimensijų grupe, kuri naudoja padėklo ID atsargų dimensiją, bus užblokuoti ir nebus apdorojami.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Prekių įgalinimas naudojant „Finance and Operations“
 
@@ -70,7 +70,7 @@ Prieš naudojant išleistus produktus modulyje **Sandėlio valdymas** produktai 
 1.  Sukurkite bent vieną naują vietos šabloną.
 2.  Spustelėkite **Sandėlio valdymas** &gt; **Sąranka** &gt; **Įgalinti sandėlio valdymo procesus** &gt; **Įgalinti sandėlio nustatymus**.
 3.  Puslapyje **Įgalinti sandėlio nustatymus** įtraukite sandėlius, kurie turėtų būti įgalinti. Šį veiksmą galite atlikti tiesiog puslapyje arba naudodami „Microsoft Office“ integraciją.
-4.  Priskirkite vietos šabloną visoms vietoms. Šį veiksmą galite lengvai atlikti „Microsoft Office“ integraciją tiesiog naudodami puslapyje. Galite eksportuoti ir importuoti duomenis arba naudoti duomenų objekto apdorojimą dalyje [Duomenų valdymas](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Priskirkite vietos šabloną visoms vietoms. Šį veiksmą galite lengvai atlikti „Microsoft Office“ integraciją tiesiog naudodami puslapyje. Galite eksportuoti ir importuoti duomenis arba naudoti duomenų objekto apdorojimą dalyje [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Patikrinkite pakeitimus. Tikrinimo proceso metu bus atliekami įvairūs duomenų vientisumo tikrinimai. Vykdant didesnį naujinimo procesą, iškylančios problemos gali būti pakoreguotos diegiant šaltinį. Šiuo atveju reikės papildomo duomenų naujinimo.
 6.  Apdorokite pakeitimus.
 
@@ -81,7 +81,7 @@ Prieš naudojant išleistus produktus modulyje **Sandėlio valdymas** produktai 
 3.  Puslapyje **Rezervavimo hierarchija** nustatykite naują rezervavimo hierarchiją pagal prekės saugojimo ir sekimo dimensijų grupes.
 4.  Sukurkite vieną ar daugiau vienetų sekų grupių, kuriose yra tokių pačių vienetų, naudojamų prekių atsargų vienetams.
 5.  Spustelėkite **Sandėlio valdymas** &gt; **Nustatymas** &gt; **Įgalinti sandėlio valdymo procesus** &gt; **Pakeisti prekių saugojimo dimensijų grupę**.
-6.  Puslapyje **Pakeisti prekių saugojimo dimensijų grupę** įtraukite prekių numerius, saugojimo dimensijų grupes ir vienetų sekų grupes. Šį veiksmą galite atlikti tiesiog puslapyje, naudodami „Microsoft Office“ integraciją arba duomenų objekto procesą dalyje [Duomenų valdymas](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Puslapyje **Pakeisti prekių saugojimo dimensijų grupę** įtraukite prekių numerius, saugojimo dimensijų grupes ir vienetų sekų grupes. Šį veiksmą galite atlikti tiesiog puslapyje, naudodami „Microsoft Office“ integraciją arba duomenų objekto procesą dalyje [Duomenų valdymas](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Patikrinkite pakeitimus. Tikrinimo proceso metu bus atliekami įvairūs duomenų vientisumo tikrinimai. Vykdant didesnį naujinimo procesą, iškylančios problemos gali būti pakoreguotos diegiant šaltinį. Šiuo atveju reikės papildomo duomenų naujinimo.
 8.  Apdorokite pakeitimus. Visų atsargų dimensijų atnaujinimas gali šiek tiek užtrukti. Galite stebėti eigą naudodami paketines užduotis.
 

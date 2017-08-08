@@ -16,13 +16,12 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,10 +102,10 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Su tiekėju susijęs vartotojas turi pasiekti tiekėjų bendradarbiavimo žiniatinklio sąsają žiniatinklio kliente ir nustatyti tiekėjo bendradarbiavimo vartotoją.</td><td>Pirkimo specialistai ir sistemos administratorius</td>
 <td>Atlikę pateiktose temose aprašytus veiksmus nustatykite tiekėjų bendradarbiavimo žiniatinklio sąsają ir ją naudodami vykdykite veiklą.
 <ul>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais programoje „Finance and Operations“</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais programoje „Finance and Operations“</a></li>
 </ul></td>
 </tr>
 </tbody>

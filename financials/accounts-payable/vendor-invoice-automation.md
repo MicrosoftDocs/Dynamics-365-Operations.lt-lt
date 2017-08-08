@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Tiekėjo sąskaitų faktūrų automatizavimas
@@ -57,7 +57,7 @@ Duomenų paketas yra darbo vienetas, kuris turi būti išsiųstas į „Finance 
 
 Tiekėjo SF dokumento priedas yra naujas duomenų objektas, pristatomas kaip šios funkcijos dalis. Tiekėjo SF antraštės objektas buvo pakeistas, kad palaikytų priedus. Tiekėjo SF eilutės objektas nebuvo modifikuotas šioje funkcijoje.
 
-Šioje temoje nėra išsamaus duomenų paketo apibrėžimo. Joje taip pat nepaaiškinta, kaip sukurti duomenų paketus. Šią informaciją rasite [Duomenų objektų ir paketų sistema](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Šioje temoje nėra išsamaus duomenų paketo apibrėžimo. Joje taip pat nepaaiškinta, kaip sukurti duomenų paketus. Šią informaciją rasite [Duomenų objektų ir paketų sistema](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Norėdami greitai sugeneruoti bandymo duomenis, kurie apima SF ir priedus, atlikite šiuos veiksmus.
 

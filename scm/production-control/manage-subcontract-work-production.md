@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Kai naudojama ši konfigūracija, įvertinus gamybos užsakymą sukuriamas susij
 Gamybos užsakyme gali būti daug operacijų ir kiekviena operacija gali būti paskirstyta kitam tiekėjui. Todėl galutiniam gamybos užsakymui įvykdyti gali reikėti kelių pirkimo užsakymų.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subrangos arba gamybos eigos veiklos
-[lean manufacturing](lean-manufacturing-overview.md) sprendimas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su [gamybos eigos](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) veikla (užduočių vedlio tema). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
+[lean manufacturing](lean-manufacturing-overview.md) sprendimas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su [gamybos eigos](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) veikla (užduočių vedlio tema). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
 
 Kadangi „kanban“ taisyklės gali būti labai dinamiškos, gamybos eigoje galite modeliuoti skirtingas to pačio produkto tiekimo parinktis. Kai naudojate „lean“ subrangą, medžiagų srautas ir finansų srautas yra aiškiai atskirti. Visą medžiagų srautą nurodo „kanban“ veiklos. Paslaugos produktų gamybos užsakymus ir tų paslaugų gavimo registravimą galima automatizuoti, atsižvelgiant į gamybos eigos „kanban“ užduočių būseną. „Kanban“ užduotis galima pradėti ir baigti net prieš sukuriant pirkimo užsakymus. Subrangos dokumentus (paslaugos pirkimo užsakymą ir pirkimo gavimo dokumentą) galima sujungti pagal laikotarpį ir paslaugą. Todėl mažą pirkimo dokumentų ir eilučių skaičių galima išlaikyti net itin pasikartojančiose operacijose, kai tiekėjai subrangos paslaugas teikia vieningu srautu.
 

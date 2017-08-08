@@ -1,5 +1,5 @@
 ---
-title: "Atvirkštinio mokesčio PVM | „Microsoft Docs“"
+title: "Atvirkštinio mokesčio PVM"
 description: "Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse."
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: b3c94fa73410d9bdcaaec11dee04a7a239e4d45a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dba651b4e6f0e661d6743780495c7ee217eefd9d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -70,7 +70,7 @@ Pirkimo ir pardavimo operacijoms rekomenduojame naudoti atskiras PVM grupes.
 </tr>
 <tr>
 <td><strong>Prekės PVM grupės</strong></td>
-<td>Kurkite arba atnaujinkite prekės PVM grupę, kuriai priskirtas neigiamos reikšmės PVM kodas (<strong>Mokestis</strong> > <strong>Netiesioginiai mokesčiai</strong> > <strong>PVM</strong> > <strong>Prekės PVM grupės</strong>). Numatytąją prekės PVM grupę turite priskirti tiems produktams ir kategorijoms, kurioms taikomas atvirkštinis mokestis.</td>
+<td>Sukurkite arba atnaujinkite prekės PVM grupę, kuriai priskirtas neigiamos reikšmės PVM kodas (<strong>Mokestis</strong> > <strong>Netiesioginiai mokesčiai</strong> > <strong>PVM</strong> > <strong>Prekės PVM grupės</strong>). Numatytąją prekės PVM grupę turite priskirti tiems produktams ir kategorijoms, kurioms taikomas atvirkštinis mokestis.</td>
 </tr>
 </table>
 

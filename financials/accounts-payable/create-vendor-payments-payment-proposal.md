@@ -3,26 +3,26 @@ title: "Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą"
 description: "Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia. Mokėjimo pasiūlymai dažnai naudojami norint sukurti tiekėjų mokėjimus, nes užklausą galima naudoti norint greitai pasirinkti tiekėjų sąskaitas apmokėjimui pagal tokius kriterijus kaip terminas ir nuolaida."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ Mokėjimo pasiūlymo užklausoje yra įvairių skirtukų, kurių kiekvienas turi
 
 ## <a name="parameters"></a>Parametrai
 -   **Pasirinkti sąskaitas pagal** – SF, patenkančias į datų intervalą, nurodytą laukuose **Pradžios data** ir **Pabaigos data**, galima pasirinkti pagal terminą, mokėjimo nuolaidos datą arba pagal abi parinktis. Jei naudojate mokėjimo nuolaidos datą, sistema pirmiausia ieško SF, kurių mokėjimo nuolaidos data patenka į intervalą tarp pradžios ir pabaigos datų. Tada sistema nustato, ar sąskaita faktūra yra tinkama nuolaidai, naudodama sesijos datą patikrinti, ar nuolaidos data jau praėjo.
--   **Nuo** ir**Iki** – sąskaitos faktūros, kurių terminas arba nuolaidos data per šį laikotarpį yra pasirinktos apmokėjimui.
--   **Mokėjimo data** – jeigu nurodyta data, visi mokėjimai sukuriami šiai dienai. **Minimalios mokėjimo datos** laukas yra ignoruojamas.
+-   **Nuo** ir **Iki** – sąskaitos faktūros, kurių terminas arba nuolaidos data per šį laikotarpį yra pasirinktos apmokėjimui.
+-   **Mokėjimo data** – naudojama tik tada, kai mokėjimo būdo laukas **Laikotarpis** yra nustatytas į **Bendras**. Jeigu nurodyta data, visi mokėjimai sukuriami šiai dienai. **Minimalios mokėjimo datos** laukas yra ignoruojamas.
 -   **Minimali mokėjimo data** – įveskite minimalaus mokėjimo datą. Pavyzdžiui, laukai **Pradžios data** ir **Pabaigos data** nurodo intervalą nuo rugsėjo 1 d. iki rugsėjo 10 d., o minimali mokėjimo data yra rugsėjo 5 d. Tokiu atveju visų SF, kurių terminas yra nuo rugsėjo 1 d. iki rugsėjo 5 d., mokėjimo data yra rugsėjo 5 d. Tačiau visų SF, kurių terminas yra nuo rugsėjo 5 d. iki rugsėjo 10 d., mokėjimo data yra lygi kiekvienos SF terminui.
 -   **Sumos riba** – įveskite maksimalią bendrą visų mokėjimų sumą.
 -   **Sukurti mokėjimus be sąskaitos faktūros peržiūros** – jei nustatysite šią parinktį į **Taip**, mokėjimai bus sukurti iš karto puslapyje **Tiekėjo mokėjimai**. Puslapis **Mokėjimo pasiūlymas** bus praleistas. Todėl mokėjimai bus sukurti daug greičiau. Mokėjimus galima redaguoti **Tiekėjo mokėjimų** puslapyje. Arba galite grįžti į **Mokėjimo pasiūlymų** puslapį naudodami mygtuką **Redaguoti sąskaitas pasirinktam mokėjimui**.

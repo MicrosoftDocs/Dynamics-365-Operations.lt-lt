@@ -3,25 +3,25 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
+Šioje temoje aprašytos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš dabartinės „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo versijos.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Funkcijos, kurios nebenaudojamos „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo 2017 m. liepos mėn. naujinime
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Funkcijos, kurios nebenaudojamos visuose 2017 m. liepos mėn. atnaujinimo kartu su 8-uoju platformos atnaujinimu diegimo tipuose
+Šiame sąraše išvardintos nebenaudojamos debesies ir vietinių įdiegčių funkcijos.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Sandėlio mobiliųjų įrenginių portalas
 
@@ -40,7 +41,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Nebenaudojimo priežastis**       | Besidubliuojančios funkcijos.                        |
-| **Pakeitė kita funkcija?** | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Pakeitė kita funkcija?** | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Paveikti moduliai**             | Sandėlio valdymas, transportavimo valdymas |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Pažangaus banko derinimo ir rankinio gretinimo taisyklė
@@ -62,6 +63,28 @@ Gretinimo taisyklė buvo naudojama norint pasirinkti ir pažymėti banko dokumen
 | **Nebenaudojimo priežastis**       | „Finance and Operations” suderinama su planšetiniais kompiuteriais. Planšetinių kompiuterių programėlės nebereikia. |
 | **Pakeitė kita funkcija?** | Nr.                                                                                      |
 | **Paveikti moduliai**             | Išlaidų valdymas                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Funkcijos, kurios nebenaudojamos atliekant 2017 m. liepos mėn. atnaujinimo kartu su 8-uoju platformos atnaujinimu vietines įdiegtis
+
+### <a name="ssrs-report-viewer-control"></a>SSRS ataskaitų peržiūros programos valdiklis
+
+Ši funkcija buvo naudojama sąveikaujant su HTML būdu „Finance and Operations“ žiniatinklio kliente suformatuotomis ataskaitomis.
+
+|                                  |  |
+|----------------------------------|--|
+| **Nebenaudojimo priežastis**       | „SQL Reporting Services“ (SSRS) nepalaiko ataskaitų peržiūros programos valdiklio, suderinamo su vietiniu žiniatinklio klientu.      |
+| **Pakeitė kita funkcija?** | Ataskaitas kaip PDF dokumentus sugeneruoja vietinė tarnyba. Naudokite plėtinius, kad prašymų ataskaitose įgalintumėte įdėtuosius detalizavimo saitus. |
+| **Paveikti moduliai**             | Visos    |
+
+### <a name="document-routing-agent"></a>Dokumento maršruto planavimo agentas
+
+Dokumento maršruto planavimo agento klientas naudojamas kaip tarnybos šliuzas, skirtas sujungti debesį su domeno autentifikuotais tinklo spausdintuvais.
+
+|                                  |  |
+|----------------------------------|--|
+| **Nebenaudojimo priežastis**       | Vietinės įdiegtys laikomos domeno autentifikuotuose serveriuose. Tai suteikia saugią tiesioginę prieigą prie tinklo spausdinimo įrenginių. |
+| **Pakeitė kita funkcija?** | Šis komponentas nėra būtinas vietinėms įdiegtims.|
+| **Paveikti moduliai**             | Joks               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Funkcijos, kurios nebenaudojamos „Dynamics 365 for Operations“ 1611 versijoje su 3 platformos naujinimu
@@ -488,11 +511,20 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Microsoft Dynamics AX“ duomenų bazėje.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Nebenaudojimo priežastis       | Duomenų skaidiniai pristatyti „Microsoft Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas dukterinėms įmonėms, keliems nuomininkams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelias duomenų bazes arba kelis „Dynamics AX“ egzempliorius. |
-| Pakeitė kita funkcija? | Ateities leidimuose duomenų skaidinius pakeis galimybė naudoti kelias duomenų bazes arba „Dynamics AX“ egzempliorius.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Paveikti moduliai             | Visi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Pakeitė kita funkcija? | Ateities leidimuose duomenų skaidinius pakeis galimybė naudoti kelias duomenų bazes arba „Dynamics AX“ egzempliorius.    |
+| Paveikti moduliai             | Visos  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Duomenų bazės ir bendrai naudojamo failo saugykla, skirta priedams
+„Microsoft Dynamics AX 2012“ leidžiamas priedų saugyklos duomenų bazėje ir bendrai naudojamuose failuose kiekis. Abejos parinktys nebepalaikomos.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Nebenaudojimo priežastis       | Bendrai naudojamų failų saugykla nebepalaikoma, nes aplinkos diegimo debesyje įrankis nesusijungia su vietiniais bendrai naudojamais failais. Duomenų bazė nebenaudojama „Azure“ didelių dvejetainių objektų saugyklos naudai. „Azure“ didelių dvejetainių objektų saugykla yra tokia pati kaip ir duomenų bazės saugykla, nes dokumentus galima pasiekti tik per „Dynamics 365 for Finance and Operations“ kliento formas. Tai tarnauja kaip papildomas pranašumas teikiant saugyklą, neturinčią neigiamo poveikio duomenų bazės efektyvumui. Didelių dvejetainių objektų saugykla yra numatytoji dokumentų valdymo mechanizmo saugykla ir veikia nedelsiant. |
+| Pakeitė kita funkcija? | Duomenų bazė nebenaudojama „Azure“ didelių dvejetainių objektų saugyklos naudai.       |
+| Paveikti moduliai             | Visos                   |
 
 ### <a name="delimitation"></a>Apribojimas
 
@@ -525,8 +557,8 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Vietoj lokalizuotų funkcijų dabar naudojamos bendrosios funkcijos.                                                                                                                                                                 |
-| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. Be to, su kitu „Dynamics AX“ atnaujinimu Bendrajam žurnalui planuojama įgyvendinti camt.053 ISO20022 sąskaitos išrašo importavimą. |
-| Paveikti moduliai             | Visi                                                                                                                                                                                                                                   |
+| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. |
+| Paveikti moduliai             | Visos                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>„eBilanz‟ (Vokietijos XBRL)
 
@@ -577,8 +609,8 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Formatas Vokietijoje nebetaikomas, nes jį pakeitė bendros mokėjimų eurais erdvės (SEPA) funkcija.                                                                                                                                                                 |
-| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė SEPA mokėjimo eksportavimo ir išplėstinio banko suderinimo funkcija, skirta importuoti sąskaitų išrašams. Be to, su kitu „Dynamics AX“ atnaujinimu Bendrajam žurnalui planuojama įgyvendinti camt.053 ISO20022 sąskaitos išrašo importavimą. |
-| Paveikti moduliai             | Visi                                                                                                                                                                                                                                                                                            |
+| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė SEPA mokėjimo eksportavimo ir išplėstinio banko suderinimo funkcija, skirta importuoti sąskaitų išrašams. |
+| Paveikti moduliai             | Visos                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Vokietijos DTAZV mokėjimo formatas
 
@@ -593,8 +625,8 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nebenaudojimo priežastis       | Vietoj lokalizuotų funkcijų dabar naudojamos bendrosios funkcijos.                                                                                                                                                                 |
-| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. Be to, su kitu „Dynamics AX“ atnaujinimu Bendrajam žurnalui planuojama įgyvendinti camt.053 ISO20022 sąskaitos išrašo importavimą. |
-| Paveikti moduliai             | Visi                                                                                                                                                                                                                                   |
+| Pakeitė kita funkcija? | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. |
+| Paveikti moduliai             | Visos                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Vokietijos XML ES pardavimo sąrašas
 

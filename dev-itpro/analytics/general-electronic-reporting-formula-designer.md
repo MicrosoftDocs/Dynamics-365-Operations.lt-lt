@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -196,8 +196,8 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 | SESSIONNOW ()                              | Pateikia dabartinio „Dynamics 365 for Finance and Operations“ seanso datą ir laiką kaip datos ir laiko reikšmę.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (data, formatas)                  | Pateikiama nurodyto formato datos eilutė.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), „mmmm-MM-dd“)** pateikia dabartinio „Dynamics 365 for Finance and Operations“ seanso datą 2015-12-24 kaip „**24-12-2015**“ pagal nurodytą pasirinktinį formatą.                                                                                                                      |
 | DATEFORMAT (data, formatas, principas)         | Konvertuokite nurodytą datos reikšmę į nurodyto formato eilutę ir [principą](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (NOW(), „d“, „de“)** pateikia dabartinio „Finance and Operations“ seanso datą 2015-12-24 kaip **„24.12.2015“** pagal pasirinktą vokišką principą.                                                                                                                       |
-| DAYOFYEAR (data)              | Pateikia dienų nuo sausio 1 d. iki nurodytos datos skaičių tekstine išraiška.       | **DAYOFYEAR (DATEVALUE („2016-03-01“, „mmmm-MM-dd“))** pateikia **61**.
-**DAYOFYEAR (DATEVALUE („2016-01-01“, „mmmm-MM-dd“))** pateikia **1**.                                                                                                                       |
+| DAYOFYEAR (data)              | Pateikia dienų nuo sausio 1 d. iki nurodytos datos skaičių tekstine išraiška.       | **DAYOFYEAR (DATEVALUE („2016-03-01“, „mmmm-MM-dd“))** pateikia **61**. **DAYOFYEAR (DATEVALUE („2016-01-01“, „mmmm-MM-dd“))** pateikia **1**. 
+                                                                                                                      |
 
 **Duomenų konvertavimo funkcijos**
 
@@ -236,7 +236,14 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 <li>Paketai kaip įprasti sąrašai (<strong>Vertės </strong>komponentas)</li>
 <li>Dabartinio paketo numeris (<strong>BatchNumber</strong>komponentas)</li>
 </ul></td>
-<td>Šiame pavyzdyje duomenų šaltinis <strong>Eilutės</strong> sukurtas kaip trijų įrašų sąrašas, suskirstytas į paketus, iš kurių kiekviename yra iki dviejų įrašų. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Tai yra sukurtas formato maketas, kur sukuriami susiejimai su duomenų šaltiniu <strong>Eilutės</strong>, siekiant generuoti išeigą XML formatu, kuris pateikia atskirus kiekvieno paketo ir jame esančių įrašų mazgus. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Tai yra sukurto formato vykdymo rezultatas. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Šiame pavyzdyje duomenų šaltinis <strong>Eilutės</strong> sukurtas kaip trijų įrašų sąrašas, suskirstytas į paketus, iš kurių kiekviename yra iki dviejų įrašų. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Tai yra sukurtas formato maketas, kur sukuriami susiejimai su duomenų šaltiniu <strong>Eilutės</strong>, siekiant generuoti išeigą XML formatu, kuris pateikia atskirus kiekvieno paketo ir jame esančių įrašų mazgus. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Tai yra sukurto formato vykdymo rezultatas. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (1 įrašas [, 2 įrašas,...])</td>
@@ -300,7 +307,14 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 <li>nurodytus sąrašo įrašus kaip įprastus sąrašus (<strong>Vertės </strong>komponentas);</li>
 <li>dabartinio įrašo indeksą (<strong>Numerio </strong>komponentas).</li>
 </ul></td>
-<td>Šiame pavyzdyje <strong>Išvardytas</strong> duomenų šaltinis sukurtas kaip išvardytas tiekėjo įrašų sąrašas iš duomenų šaltinio <strong>Tiekėjai</strong>, kuris nurodo lentelę <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Tai yra formatas, kur kuriami duomenų susiejimai siekiant generuoti išeigą XML formatu, kuris pateikia atskirus tiekėjus kaip išvardytus mazgus. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Tai yra sukurto formato vykdymo rezultatas. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>Šiame pavyzdyje <strong>Išvardytas</strong> duomenų šaltinis sukurtas kaip išvardytas tiekėjo įrašų sąrašas iš duomenų šaltinio <strong>Tiekėjai</strong>, kuris nurodo lentelę <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Tai yra formatas, kur kuriami duomenų susiejimai siekiant generuoti išeigą XML formatu, kuris pateikia atskirus tiekėjus kaip išvardytus mazgus. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Tai yra sukurto formato vykdymo rezultatas. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (sąrašas)</td>
@@ -322,13 +336,24 @@ Sukurtą sąrašą sudarys įrašai su tolesniais laukais.
 <li>aprašymas</li>
 </ul>
 Laukuose Žyma ir Aprašas pateikiamos vykdymo metu gautos reikšmės pagal formato kalbos parametrus.</td>
-<td>Toliau pateiktame pavyzdyje parodytas duomenų modelyje įvestas išvardijimas. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Tolesniame pavyzdyje parodyta:
+<td>Toliau pateiktame pavyzdyje parodytas duomenų modelyje įvestas išvardijimas. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Tolesniame pavyzdyje parodyta:
 <ul>
 <li>modelio išvardijimas, įtrauktas į ataskaitą kaip duomenų šaltinis;</li>
 <li>ER išraiška, sukurta naudoti modelio išvardijimą kaip šios funkcijos parametrą;</li>
 <li>įrašų sąrašo tipo duomenų šaltinis, įtrauktas į ataskaitą naudojant sukurtą ER išraišką.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> Toliau pateiktame pavyzdyje parodyti ER formato elementai, susieti su įrašų sąrašo tipo duomenų šaltiniu, kuris buvo sukurtas naudojant LISTOFFIELDS funkciją..<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Tai yra sukurto formato vykdymo rezultatas.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Pastaba:</strong> išverstas žymių ir aprašų tekstas yra įvedamas į ER formato išvestį pagal sukonfigūruotus pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+Toliau pateiktame pavyzdyje parodyti ER formato elementai, susieti su įrašų sąrašo tipo duomenų šaltiniu, kuris buvo sukurtas naudojant LISTOFFIELDS funkciją.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Tai yra sukurto formato vykdymo rezultatas.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Pastaba:</strong> išverstas žymių ir aprašų tekstas yra įvedamas į ER formato išvestį pagal sukonfigūruotus pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (sąrašas, lauko pavadinimas, skyriklis)</td>
@@ -338,7 +363,18 @@ Laukuose Žyma ir Aprašas pateikiamos vykdymo metu gautos reikšmės pagal form
 <tr class="even">
 <td>SPLITLISTBYLIMIT (sąrašas, ribinė reikšmė, ribos šaltinis)</td>
 <td>Nurodytą sąrašą padalija į naują antrinių sąrašų sąrašą ir pateikia rezultatą įrašų sąrašo turinyje. Ribinės reikšmės parametras nurodo ribos reikšmę, taikomą dalijant pradinį sąrašą. Ribos šaltinio parametras nurodo veiksmą, kurį atliekant bendra suma didėja. Riba netaikoma vienam konkretaus sąrašo elementui, kai ribos šaltinis viršija nustatytą ribą.</td>
-<td>Toliau pateiktame pavyzdyje rodomas formato pavyzdys naudojant duomenų šaltinius. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Tai yra formato vykdymo rezultatas, pateikiantis standartinį prekių sąrašą.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Toliau pateiktame pavyzdyje rodomas tas pats formatas, pakoreguotas norint pateikti prekių sąrašą paketais, kai viename pakete turi būti prekės, kurių bendrasis svoris negali viršyti ribos 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Tai pakoreguoto formato vykdymo rezultatas. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Pastaba:</strong> riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>KUR</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinius sąrašus generuojant ataskaitą (jei reikia).</td>
+<td>Toliau pateiktame pavyzdyje rodomas formato pavyzdys naudojant duomenų šaltinius. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Tai yra formato vykdymo rezultatas, pateikiantis standartinį prekių sąrašą.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Toliau pateiktame pavyzdyje rodomas tas pats formatas, pakoreguotas norint pateikti prekių sąrašą paketais, kai viename pakete turi būti prekės, kurių bendrasis svoris negali viršyti ribos 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Tai pakoreguoto formato vykdymo rezultatas. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Pastaba:</strong> riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>KUR</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinius sąrašus generuojant ataskaitą (jei reikia).</td>
 </tr>
 <tr class="odd">
 <td>FILTER (sąrašas, sąlyga)</td>
@@ -511,7 +547,10 @@ Laukuose Žyma ir Aprašas pateikiamos vykdymo metu gautos reikšmės pagal form
 <tr class="even">
 <td>FORMAT (1 eilutė, 2 eilutė[, 3 eilutė, ...])</td>
 <td>Pateikti nurodytą eilutę, kuri formatuojama pakeičiant visus <strong>%N</strong> pasikartojimus <em>n</em>-uoju argumentu. Argumentai yra eilutės. Jei nėra pateiktas parametro argumentas, parametras eilutėje pateikiamas kaip <strong>&quot;%N&quot;</strong>. <strong>Realaus skaičiaus</strong> tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio.</td>
-<td>Šiame pavyzdyje duomenų šaltinis <strong>PaymentModel</strong> pateikia klientų įrašus komponente <strong>Klientas</strong> ir apdorojimo datos reikšmę lauke <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> ER formate, skirtame generuoti elektroninį failą pasirinktiems klientams, <strong>PaymentModel</strong> yra pasirinktas kaip duomenų šaltinis ir kontroliuoja proceso eigą. Galutiniams vartotojams pateikiama išimtis, kai pasirinktas klientas sustabdomas ataskaitos apdorojimo dieną. Formulė, sukurta šio tipo apdorojimo kontrolei, gali naudoti tokius išteklius:
+<td>Šiame pavyzdyje duomenų šaltinis <strong>PaymentModel</strong> pateikia klientų įrašus komponente <strong>Klientas</strong> ir apdorojimo datos reikšmę lauke <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+ER formate, skirtame generuoti elektroninį failą pasirinktiems klientams, <strong>PaymentModel</strong> yra pasirinktas kaip duomenų šaltinis ir kontroliuoja proceso eigą. Galutiniams vartotojams pateikiama išimtis, kai pasirinktas klientas sustabdomas ataskaitos apdorojimo dieną. Formulė, sukurta šio tipo apdorojimo kontrolei, gali naudoti tokius išteklius:
 <ul>
 <li>„Finance and Operations“ žymė SYS70894, kur nurodytas toks tekstas:
 <ul>
@@ -526,7 +565,7 @@ Laukuose Žyma ir Aprašas pateikiamos vykdymo metu gautos reikšmės pagal form
 </ul>
 Tai yra formulė, kurią galima sukurti: FORMAT (CONCATENATE @&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Jei ataskaita apdorojama klientui <strong>„Litware Retail“</strong> 2015 m. gruodžio 17 d., pagal <strong>EN-US</strong> principą ir <strong>EN-US</strong> kalbą ši formulė pateikia tokį tekstą, kuris galutiniam vartotojui gali būti pateiktas kaip išimties pranešimas: &quot;Nothing to print. Klientas „Litware Retail“ sustabdytas 2015-12-17.&quot; Jei ta pati ataskaita apdorojama<strong> klientui „Litware Retail“</strong> 2015 m. gruodžio 17 d. pagal <strong>DE</strong> principą ir <strong>DE</strong> kalbą, ši formulė pateikia tokį tekstą, kuris naudoja kitokį datos formatą: &quot;Nichts zu drucken. Debitor "Litware Retail" wird für 17.12.2015 gesperrt.&quot; <strong>Pastaba:</strong> ER formulėse žymėms taikoma tokia sintaksė:
 <ul>
-<li><strong>žymėms iš „Finance and Operations“ išteklių:</strong> <strong>@&quot;X&quot;</strong>, kur X yra žymės ID programos objektų medyje (AOT)</li>
+<li><strong>Žymėms iš „Finance and Operations“ išteklių:</strong> <strong>@&quot;X&quot;</strong>, kur X yra žymės ID programos objektų medyje (AOT)</li>
 <li><strong>ER konfigūracijose esančioms žymėms:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X yra žymės ID ER konfigūracijoje.</li>
 </ul></td>
 </tr>
@@ -549,7 +588,8 @@ Tai yra formulė, kurią galima sukurti: FORMAT (CONCATENATE @&quot;SYS70894&quo
 <td>TRIM (eilutė)</td>
 <td>Pateikiamas duotas tekstas, sutrumpintas pašalinus pradžioje ir gale esančius tarpus, ir pašalinami keli tarp žodžių esantys tarpai. </td>
 <td><strong>TRIM („     Pavyzdinis     tekstas     “)</strong> pateikia <strong>„Pavyzdinis tekstas“.</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (išvardijimo duomenų šaltinio kelias, išvardijimo reikšmės žymės tekstas)</td>
 <td>Pateikia nurodytų išvardijimo duomenų šaltinio reikšmę šios išvardijimo žymės nurodytu tekstu.</td>
 <td>Toliau pateiktame pavyzdyje parodytas duomenų modelyje įvestas išvardijimas ReportDirection. Atkreipkite dėmesį, kad išvardijimo reikšmėms nurodytos žymės.

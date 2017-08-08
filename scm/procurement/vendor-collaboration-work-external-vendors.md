@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektro
 
 Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 
-Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Jei esate įjungę PU keitimų valdymą, prieš pasiekdamas būseną **Patvirtin
 
 Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būsenos ir versijos keitimai, kai įjungtas keitimų valdymas. Versija registruojama PU patvirtinus, o ne PU nusiuntus tiekėjui ar patvirtinus.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Veiksmas**                                                                                                    | **Būsena ir versija**                                                                                                                                                                                                                                                                                                                                                                      |
-| Programoje „Finance and Operations‟ sukuriama pradinė PU versija.                                      | Jo būsena yra **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| PU pateiktas patvirtinimo procesui. (Patvirtinimo procesas yra vidinis procesas, į kurį tiekėjas nėra įtrauktas). | Būsena pakeičiama iš **Juodraštis** į **Peržiūrima** ir į **Patvirtinimas**, jei PU neatmetamas patvirtinimo proceso metu. Patvirtintas PU užregistruojamas kaip versija.                                                                                                                                                                                                                     | | PU yra išsiųstas tiekėjui | Versija užregistruojama tiekėjų bendradarbiavimo sąsajoje, o būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                       | | Kai kuriuos tiekėjo pageidaujamus pakeitimus atliekate rankiniu būdu arba naudodami atsakymo veiksmą, kad atnaujintumėte PU.                                                       | Būsena grąžinama į **Juodraštis**.                                                                                                                                                                                                                                                                                                                                                    | | PU vėl pateikiamas patvirtinti.                                                            | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Taip pat galima sukonfigūruoti sistemą taip, kad atlikus konkrečius laukų keitimus nereikėtų patvirtinti iš naujo. Tokiu atveju būsena pirmiausia pakeičiama į **Juodraštis** ir tada automatiškai atnaujinama į **Patvirtinta**. Patvirtintas PU užregistruojamas kaip nauja versija. | | Naująją PU versiją nusiunčiate tiekėjui.                                                             | Nauja versija yra užregistruojama tiekėjų bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                                                                                                                                                                                                                                                   | | Tiekėjas patvirtina naująją PU versiją.                                                                | Būsena pakeičiama į **Patvirtinta** automatiškai arba kai gaunate tiekėjo atsakymą ir patvirtinate PU.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Veiksmas**                                                               | **Būsena ir versija**                                                                                                                                       |
+| Programoje „Finance and Operations‟ sukuriama pradinė PU versija.      | Jo būsena yra **Juodraštis**.  |
+| PU teikiamas patvirtinti. (Patvirtinimo procesas yra vidinis procesas, kuriame tiekėjas nedalyvauja.)                                                           | Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Patvirtintas PU užregistruojamas kaip versija.           | 
+| PU išsiųstas tiekėjui.                                                            | Versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.      |
+| Kai kuriuos tiekėjo pageidaujamus pakeitimus atliekate neautomatiniu būdu arba naudodami atsakymo veiksmą, kad atnaujintumėte PU.                                                            | Būsena grąžinama į **Juodraštis**.     |
+|PU vėl teikiamas patvirtinti.                                                |  Jei, vykstant tvirtinimo procesui, PU neatmetamas, jo būsena iš **Juodraštis** pakeičiama į **Peržiūrima** ir tada į **Patvirtinimas**. Taip pat galima sukonfigūruoti sistemą taip, kad atlikus konkrečius laukų keitimus nereikėtų patvirtinti iš naujo. Tokiu atveju būsena pirmiausia pakeičiama į **Juodraštis** ir tada automatiškai atnaujinama į **Patvirtinta**. Patvirtintas PU užregistruojamas kaip nauja versija.                                         |
+|Naująją PU versiją nusiunčiate tiekėjui.                                                |  Nauja versija yra užregistruojama tiekėjo bendradarbiavimo sąsajoje ir būsena pakeičiama į **Peržiūrima išorėje**.                                         |
+|Tiekėjas patvirtina naująją PU versiją.                                                |  Būsena pakeičiama į **Patvirtinta** automatiškai arba kai gaunate tiekėjo atsakymą ir patvirtinate PU. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Informacijos apie konsignacijos atsargas bendrinimas
 Jei naudojate konsignacijos atsargas, tiekėjai gali naudoti tiekėjo bendradarbiavimo sąsają, norėdami peržiūrėti informaciją tolesniuose puslapiuose.
