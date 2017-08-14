@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 017985645e0f77e7f269fce2932c0ec0f6eaaa1c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produkt�
 -   **Maršruto versija** – maršruto versija apibrėžia maršrutą, kuris naudojamas produktui arba produkto variantui pagaminti. Maršrutų versijos leidžia maršrutus tarp produktų naudoti pakartotinai arba laikui bėgant keisti. Jie taip pat įgalina skirtingų maršrutų naudojimą tam pačiam produktui pagaminti. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant tam tikrus veiksnius, pvz., vietą arba kiekį, kurį reikia pagaminti.
 
 ## <a name="routes"></a>Maršrutai
-Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Sprendime „Dynamics 365 for Finance and Operations“ maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
+Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Programoje „Finance and Operations” maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
 
 ### <a name="simple-routes"></a>Paprasti maršrutai
 
@@ -87,8 +87,8 @@ Galima atskirai patvirtinti arba nepatvirtinti kiekvieną maršrutą. Tačiau, a
 
 Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino kiekvieną maršrutą, galite reikalauti elektroninių parašų maršrutui patvirtinti. Vartotojai tada savo tapatybę turės patvirtinti naudodami [elektroninį parašą](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-## <a name="operations"></a>„Operations“
-Operacija yra gamybos proceso veiksmas. Sprendime „Dynamics 365 for Finance and Operations“ kiekviena operacija turi savo ID ir paprastą aprašą. Toliau pateikiamose lentelėse nurodyti tipiški operacijų pavyzdžiai iš įrenginių parduotuvės.
+## <a name="operations"></a>„Operations‟
+Operacija yra gamybos proceso veiksmas. Sprendime „Finance and Operations“ kiekviena operacija turi savo ID ir paprastą aprašą. Toliau pateikiamose lentelėse nurodyti tipiški operacijų pavyzdžiai iš įrenginių parduotuvės.
 
 | Operacija  | aprašymas        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Operacijų ryšiai suteikia daug lankstumo, kai nustatote savo maršrutus. Be to
 
 ### <a name="modifying-product-specific-routes"></a>Su konkrečiu produktu susijusių maršrutų keitimas
 
-Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informacija**, rodomos tos maršrutų versijos, kurios susietos su pasirinktu išleistu produktu. Šiame kontekste kiekvienai operacijai „Dynamics 365 for Finance and Operations“ rodo operacijų veiklos ypatybes iš operacijų ryšio, kurios geriausiai atitinka maršruto versiją. Pastebėsite, kad operacijų sąrašas apima ypatybes **Prekės kodas** ir **Maršruto kodas** iš operacijų ryšių. Todėl galite nustatyti, kuris operacijos ryšys rodomas.  
+Kai atidarote puslapį **Maršrutas** iš puslapio **Išleisto produkto informacija**, rodomos tos maršrutų versijos, kurios susietos su pasirinktu išleistu produktu. Šiame kontekste „Finance and Operations“ rodo kiekvienos operacijos veiklos ypatybes iš operacijų ryšio, kurios geriausiai atitinka maršruto versiją. Pastebėsite, kad operacijų sąrašas apima ypatybes **Prekės kodas** ir **Maršruto kodas** iš operacijų ryšių. Todėl galite nustatyti, kuris operacijos ryšys rodomas.  
 
 Puslapyje **Maršrutas** galite keisti operacijų veiklos ypatybes, pvz., vykdymo laiką ar išlaidų kategorijas. Jūsų pakeitimai saugomi operacijų ryšyje, kuris būdingas maršrutui ir išleistam produktui, kurie nurodyti dabartinėje maršruto versijoje. Jei rodomas operacijų ryšys nėra būdingas maršrutui ir išleistam produktui, prieš išsaugant pakeitimus, sistema sukuria operacijų ryšio kopiją. Ši kopija *yra* būdinga maršrutui ir išleistam produktui. Todėl jūsų pakeitimai neturės poveikio kitiems maršrutams ar išleistiems produktams. Norėdami patikrinti, kuris operacijų ryšys yra keičiamas puslapyje **Maršrutas** pažiūrėkite į laukus **Prekės kodas** ir **Maršruto kodas**.  
 
@@ -150,9 +150,9 @@ Jei jūsų verslas naudoja standartines operacijas ir jei operacijų veiklos ypa
 
 ### <a name="applying-operation-relations"></a>Operacijų ryšių taikymas
 
-Kai kuriais atvejais „Dynamics 365 for Finance and Operations“ turi rasti operacijos operacijų veiklos ypatybes. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos operacijų veiklos ypatybės turi būti nukopijuotos iš operacijų ryšių į gamybos maršrutą. Tokiose situacijose „Finance and Operations“ ieško susijusių operacijų ryšių nuo pačių būdingiausių kombinacijų iki mažiausiai būdingų kombinacijų.  
+Kai kuriais atvejais „Finance and Operations“ turi rasti operacijos operacijų veiklos ypatybes. Pvz., kai sukuriamas pirkimo užsakymas, kiekvienos operacijos operacijų veiklos ypatybės turi būti nukopijuotos iš operacijų ryšių į gamybos maršrutą. Tokiose situacijose „Finance and Operations“ ieško susijusių operacijų ryšių nuo pačių būdingiausių kombinacijų iki mažiausiai būdingų kombinacijų.  
 
-Kai „Dynamics 365 for Finance and Operations“ ieško išleisto produkto labiausiai susijusių operacijų ryšių, operacijų ryšiui, kuris atitinka išleisto produkto prekės ID, teikiama pirmenybė lyginant su operacijų ryšiu, kuris atitinka prekės grupės ID. Savo ruožtu operacijos ryšys, kuris atitinka prekės grupės ID turi pirmenybę lyginant su numatytuoju operacijų ryšiu. Ieška atliekama toliau nurodyta tvarka:
+Kai „Finance and Operations“ ieško išleisto produkto labiausiai susijusių operacijų ryšių, operacijų ryšiui, kuris atitinka išleisto produkto prekės ID, teikiama pirmenybė lyginant su operacijų ryšiu, kuris atitinka prekės grupės ID. Savo ruožtu operacijos ryšys, kuris atitinka prekės grupės ID turi pirmenybę lyginant su numatytuoju operacijų ryšiu. Ieška atliekama toliau nurodyta tvarka:
 
 1.  **Prekės kodas**=**Lentelė** ir **Prekės ryšys**=&lt;prekės ID&gt;
 2.  **Prekės kodas**=**Grupė** ir **Prekės ryšys**=&lt;prekių grupės ID&gt;
@@ -199,7 +199,7 @@ Atsižvelgiant į jūsų verslo reikalavimus, galbūt galėsite sumažinti pasta
 
 ### <a name="making-routes-independent-of-resources"></a>Maršrutų ir išteklių priklausomumo atsiejimas
 
-Daugelyje sistemų operacijų išteklius arba išteklių grupė, kuri turėtų atlikti operaciją, turi būti nurodyta maršrute. Tačiau sprendime „Dynamics 365 for Finance and Operations“ galite nustatyti reikalavimų rinkinį, kuriuos ištekliai turi atitikti tam, kad galėtų būti taikomi operacijai. Todėl konkretūs operacijos ištekliai ar išteklių grupė, kurie turi būti naudojami, neturi būti nustatyti tol, kol operacija nesuplanuojama faktiškai. Ši funkcija ypač naudinga, turint daug darbininkų arba įrenginių, kurie gali atlikti tą pačią operaciją.  
+Daugelyje sistemų operacijų išteklius arba išteklių grupė, kuri turėtų atlikti operaciją, turi būti nurodyta maršrute. Tačiau sprendime „Finance and Operations“ galite nustatyti reikalavimų rinkinį, kuriuos ištekliai turi atitikti tam, kad galėtų būti taikomi operacijai. Todėl konkretūs operacijos ištekliai ar išteklių grupė, kurie turi būti naudojami, neturi būti nustatyti tol, kol operacija nesuplanuojama faktiškai. Ši funkcija ypač naudinga, turint daug darbininkų arba įrenginių, kurie gali atlikti tą pačią operaciją.  
 
 Pvz., nurodėte, kad operacijai atlikti reikia operacijos ištekliaus, kurio tipas **Įrenginys**, turinčio 20 t pajėgumo **Spaudavimas**. Planavimo mechanizmas tada nustatys šiuos reikalavimus konkrečiam operacijos ištekliui arba išteklių grupei, kada operacija suplanuota. Dėl to, kad galite tik nurodyti šiuos reikalavimus, o ne susieti operaciją su konkrečiu įrenginiu, turėsite daug daugiau lankstumo. Be to, kai resursai perkeliami arba įtraukiamas naujas išteklius – lengvesnė priežiūra.  
 

@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Šioje temoje pristatoma įkainojimo atvirkštine tvarka koncepcija, naudojama „Lean manufacturing”. 
 
-„Lean manufacturing” įkainojimas gamybos eigai leidžia naudoti išlaidų kaupimo metodą, vadinamą įkainojimu atvirkštine tvarka. Taikant įkainojimo atvirkštine tvarka metodą suvartojamos tiesioginės medžiagos yra kaupiamos gamybos eigos nebaigtos gamybos (NG) išlaidų sąskaitoje. Naudojama standartinių išlaidų atsargų modelių grupė. Iš gamybos eigos gauti produktai išskaičiuojami iš NG pagal jų standartines išlaidas. Pagrindinis skirtumas tarp įkainojimo atvirkštine tvarka ir standartinių išlaidų yra tas, kad taikant įkainojimą atvirkštine tvarka neapskaičiuojami „kanban” arba galutinio produkto nuokrypiai. Šiuo atveju nuokrypiai apskaičiuojami pagal gamybos eigą per tam tikrą laikotarpį. Remiantis šiuo metodu pristatoma tiksli „Lean“ sąvoka medžiagų suvartojimo ataskaitoms pateikti. Paimtiems medžiagų kiekiams skirta ataskaita „kanban” ar gamybos užsakyme nepateikiama. Šiuo atveju visi paketai arba sandėliavimo vienetai suskirstomi į gamybos eigos etapus. Po to, kai paketai arba sandėliavimo vienetai užregistruojami kaip tušti, jie deklaruojami kaip suvartoti. Galima naudoti papildomą suvartojimą atsižvelgiant į [gamybos eigos konfigūraciją](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Prieš naudojant papildomą suvartojimą organizacijos turi sudaryti sąlygas, kad gamybos eigos NG neliktų medžiagų. Naudojant periodinį įkainojimą atvirkštine tvarka, galiojanti NG vertė nustatoma į laikotarpio pabaigą. Šis nustatymas pagrįstas „kanban“ sandėliavimo vienetais ir „kanban“ užduoties būsena. Galiojančių ir faktinių NG verčių pagal išlaidų grupę ir prekę nuokrypiai apskaitomi bei rodomi kaip nuokrypiai.
+„Lean manufacturing” įkainojimas gamybos eigai leidžia naudoti išlaidų kaupimo metodą, vadinamą įkainojimu atvirkštine tvarka. Taikant įkainojimo atvirkštine tvarka metodą suvartojamos tiesioginės medžiagos yra kaupiamos gamybos eigos nebaigtos gamybos (NG) išlaidų sąskaitoje. Naudojama standartinių išlaidų atsargų modelių grupė. Iš gamybos eigos gauti produktai išskaičiuojami iš NG pagal jų standartines išlaidas. Pagrindinis skirtumas tarp įkainojimo atvirkštine tvarka ir standartinių išlaidų yra tas, kad taikant įkainojimą atvirkštine tvarka neapskaičiuojami „kanban” arba galutinio produkto nuokrypiai. Šiuo atveju nuokrypiai apskaičiuojami pagal gamybos eigą per tam tikrą laikotarpį. Remiantis šiuo metodu pristatoma tiksli „Lean“ sąvoka medžiagų suvartojimo ataskaitoms pateikti. Paimtiems medžiagų kiekiams skirta ataskaita „kanban” ar gamybos užsakyme nepateikiama. Šiuo atveju visi paketai arba sandėliavimo vienetai suskirstomi į gamybos eigos etapus. Po to, kai paketai arba sandėliavimo vienetai užregistruojami kaip tušti, jie deklaruojami kaip suvartoti. Galima naudoti papildomą suvartojimą atsižvelgiant į [gamybos eigos konfigūraciją](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Prieš naudojant papildomą suvartojimą organizacijos turi sudaryti sąlygas, kad gamybos eigos NG neliktų medžiagų. Naudojant periodinį įkainojimą atvirkštine tvarka, galiojanti NG vertė nustatoma į laikotarpio pabaigą. Šis nustatymas pagrįstas „kanban“ sandėliavimo vienetais ir „kanban“ užduoties būsena. Galiojančių ir faktinių NG verčių pagal išlaidų grupę ir prekę nuokrypiai apskaitomi bei rodomi kaip nuokrypiai.
 
 ## <a name="configuring-backflush-costing"></a>Įkainojimo atvirkštine tvarka konfigūravimas
 Norėdami įgalinti įkainojimą, turite atlikti toliau nurodytą sąranką:

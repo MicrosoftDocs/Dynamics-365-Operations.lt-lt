@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 Puslapio **Konfigūracijos** (**Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Konfigūracijos**) konfigūracijų medyje pasirinkite anksčiau sukurtą konfigūraciją **Importavimo / eksportavimo veiklos**. Keisti 1.1 versijos būseną iš **Juodraštis** į **Baigta**, kad šį formatą būtų galima naudoti. [![Puslapis Konfigūracijos](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Pasirinkite baigtą konfigūracijos **Importavimo / eksportavimo veiklos** versiją ir spustelėkite **Paleisti**. Atkreipkite dėmesį, kad sukonfigūruota paskirties vieta taikoma išeigos rezultatui, sugeneruotam „Excel“ formatu. Nustatykite parinktį **Paketinis vykdymas** į **Taip**, norėdami šią ataskaitą paleisti režimu be priežiūros. Spustelėkite **Pasikartojimas**, norėdami suplanuoti reikiamą šio paketinio vykdymo pasikartojimą. Pasikartojimas nurodo, kaip dažnai atnaujinti duomenys bus perduoti iš „Finance and Operations“ į „Power BI“. [![Dialogo langas Elektroninių ataskaitų parametrai](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Sukonfigūruotą ER ataskaitos vykdymo užduotį galite rasti puslapyje **Paketinės užduotys** (**Sistemos administravimas &gt; Užklausos &gt; Paketinės užduotys**). [![Puslapis Paketinės užduotys](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)Kai ši užduotis vykdoma pirmą kartą, pasirinktame „SharePoint“ aplanke paskirties vieta sukuria naują „Excel“ failą sukonfigūruotu pavadinimu. Kaskart vėliau paleidus užduotį, paskirties vieta sukuria naują šio „Excel“ failo versiją. [![Nauja „Excel“ failo versija](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>„Power BI“ duomenų rinkinio kūrimas naudojant ER formato išeigos rezultatą
-Prisijunkite prie „Power BI“ ir atidarykite esamą „Power BI“ grupę (darbo sritis) arba sukurkite naują grupę. Skyriaus **Duomenų importavimas arba prijungimas** dalyje **Failai** spustelėkite **Įtraukti** arba kairiosios srities dalyje **Duomenų rinkiniai** spustelėkite pliuso ženklą (**+**). [![Duomenų rinkinio kūrimas](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Pasirinkite parinktį **„SharePoint“ – komandos svetainės** ir tada įveskite naudojamo „SharePoint Server“ kelią (pateiktame pavyzdyje – **https://ax7partner.spoppe.com**). Tada naršykite ir atidarykite aplanką **/Shared Documents/GER data/PowerBI** bei pasirinkite „Excel“ failą, kurį sukūrėte kaip naujo „Power BI“ duomenų rinkinio duomenų šaltinį. [![„Excel“ failo pasirinkimas](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Spustelėkite **Prijungti**, tada – **Importuoti**. Sukuriamas naujas duomenų rinkinys, pagrįstas pasirinktu „Excel“ failu. Duomenų rinkinį taip pat galima automatiškai įtraukti į naujai sukurtą ataskaitų sritį. [![Duomenų rinkinys ataskaitų srityje](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigūruokite šio duomenų rinkinio naujinimo grafiką norėdami vykdyti periodinį naujinimą. Periodiniai naujinimai suteikia galimybę naudoti naujus „Finance and Operations“ verslo duomenis, periodiškai paleidžiant ER ataskaitą per naujas „Excel“ failo versijas, sukurtas „SharePoint Server“.
+Prisijunkite prie „Power BI“ ir atidarykite esamą „Power BI“ grupę (darbo sritis) arba sukurkite naują grupę. Skyriaus **Duomenų importavimas arba prijungimas** dalyje **Failai** spustelėkite **Įtraukti** arba kairiosios srities dalyje **Duomenų rinkiniai** spustelėkite pliuso ženklą (**+**). [![Duomenų rinkinio kūrimas](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Pasirinkite parinktį **„SharePoint“ – komandos svetainės** ir tada įveskite naudojamo „SharePoint Server“ kelią (pateiktame pavyzdyje – **https://ax7partner.litware.com**). Tada naršykite ir atidarykite aplanką **/Shared Documents/GER data/PowerBI** bei pasirinkite „Excel“ failą, kurį sukūrėte kaip naujo „Power BI“ duomenų rinkinio duomenų šaltinį. [![„Excel“ failo pasirinkimas](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Spustelėkite **Prijungti**, tada – **Importuoti**. Sukuriamas naujas duomenų rinkinys, pagrįstas pasirinktu „Excel“ failu. Duomenų rinkinį taip pat galima automatiškai įtraukti į naujai sukurtą ataskaitų sritį. [![Duomenų rinkinys ataskaitų srityje](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Konfigūruokite šio duomenų rinkinio naujinimo grafiką norėdami vykdyti periodinį naujinimą. Periodiniai naujinimai suteikia galimybę naudoti naujus „Finance and Operations“ verslo duomenis, periodiškai paleidžiant ER ataskaitą per naujas „Excel“ failo versijas, sukurtas „SharePoint Server“.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>„Power BI“ ataskaitos kūrimas naudojant naują duomenų rinkinį
 Norėdami kurti naują „Power BI“ ataskaitą, spustelėkite sukurtą „Power BI“ duomenų rinkinį **Importavimo ir eksportavimo informacija**. Tada konfigūruokite vizualizaciją. Pvz., pasirinkite vizualizaciją **Užpildyta schema** ir sukonfigūruokite ją, kaip nurodyta toliau.

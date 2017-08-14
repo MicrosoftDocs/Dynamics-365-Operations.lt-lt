@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,9 +123,13 @@ Pridėtinės išlaidos yra šiuo metu valdant verslą patiriamos išlaidos. Tai 
 
 **Išlaidų paskirstymas**
 
-Išlaidų paskirstymas yra procesas, kurio metu priskiriamos ir paskirstomos išlaidos pagal pagrindines bendrųjų išlaidų priežastis. Paskirstote išlaidų sumas ir kiekius iš vieno savikainos objekto vienam ar keliems kitiems savikainos objektams. Pavyzdžiui, visos paslaugų išlaidos priskiriamos įvairiems bendrąjį biuro pastatą naudojantiems padaliniams.
+Išlaidų paskirstymas naudojamas perskirstyti išlaidas iš vieno išlaidų objekto į vieną arba kelis kitus išlaidų objektus, taikant atitinkamą paskirstymo bazę. Išlaidų paskirstymas ir išlaidų priskyrimas skiriasi tuo, kad išlaidų paskirstymas vykdomas pirminių išlaidų pirminio išlaidų elemento lygiu.
 
-**Išlaidų paskirstymo strategija**
+**Išlaidų paskirstymas**
+
+Paskirstymas naudojamas norint išlaidų objekto balansą paskirstyti kitiems išlaidų objektams taikant paskirstymo pagrindą. „Finance and Operations” palaiko abipusio paskirstymo metodą. Taikant abipusio paskirstymo metodą įskaičiuojamos visos papildomų išlaidų objektų tarpusavio paslaugos. Sistema automatiškai nustato teisingą tvarką, kuria reikia atlikti paskirstymą. Išlaidų objekto balansas paskirstomas pagal vieną paskirstymo pagrindą. Palaikomas paskirstymas visoms išlaidų objektų dimensijoms ir jų atitinkamiems nariams. Paskirstymo tvarka priklauso nuo išlaidų kontrolės įtaiso.
+
+**Savikainos paskirstymo strategija**
 
 Išlaidų paskirstymo strategijoje nurodomos sumos ir kiekiai, kurie turi būti paskirstyti. Paskirstymo taisyklės apima paskirstymo šaltinio taisykles, nurodančias, paskirstytas išlaidas ir paskirstymo tikslų taisykles, nurodančias, kur paskirstomos išlaidos. Pavyzdžiui, visos paslaugų išlaidos yra paskirstymo šaltinis, kurį galima paskirstyti įvairiems organizacijos padaliniams (t. y. paskirstymo tikslams).
 

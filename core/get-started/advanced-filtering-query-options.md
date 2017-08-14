@@ -3,26 +3,26 @@ title: "Išplėstinio filtravimo ir užklausų sintaksė"
 description: "Šiame straipsnyje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant atitikmenų operatorių Išplėstinio filtro / rūšiavimo dialogo lange."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>„Nuo“ vertė</em>..<em>„Iki“ vertė</em> (dvigubas taškas)</td>
 <td>Vertė, esanti tarp dviejų įvestų verčių, atskirtų dvigubais taškais.</td>
 <td>Įveskite vertę Nuo, tada du taškus, tada vertę Iki.</td>
-<td>Įvedus <strong>1..10</strong> randamos visos vertės nuo 1 iki 10. Tačiau eilutės lauke įvedus <strong>A..C</strong> randamos visos vertės, prasidedančios &quot;A&quot; ir &quot;B&quot;,, ir vertės, tiksliai lygios &quot;6C&quot; (pvz., &quot;Ca&quot; nebus rasta). Norėdami surasti visas vertes įskaitytinai nuo &quot;A*&quot; iki &quot;C*&quot;, įrašykite <strong>A..D</strong>.</td>
+<td>Įvedus <strong>1..10</strong> randamos visos vertės nuo 1 iki 10. Tačiau eilutės lauke <strong>A..C</strong> atsiranda visos vertės, prasidedančios &quot;A&quot; ir &quot;B&quot;, ir vertės, tiksliai lygios &quot;C&quot;. Pvz., pagal šią užklausą nebus rasta &quot;Ca&quot;. Norėdami surasti visas vertes įskaitytinai nuo &quot;A*&quot; iki &quot;C*&quot;, įrašykite <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>vertė</em> (dvigubas taškas)</td>
@@ -122,7 +122,7 @@ ms.lasthandoff: 05/25/2017
 <td><em>vertė</em>,<em>vertė</em> (kablelis)</td>
 <td>Ieškoma verčių, atskirtų kableliais</td>
 <td>Įveskite visus kriterijus ir atskirkite juos kableliais.</td>
-<td>Įvedus <strong>A, D, F, G</strong> surandama būtent &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, ir &quot;G&quot;. Įvedus <strong>10, 20, 30, 100</strong> surandama būtent &quot;10, 20, 30, 100&quot;.</td>
+<td><strong>Įvedus A, D, F, G</strong> surandama būtent &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ir &quot;G&quot;. <strong>Įvedus 10, 20, 30, 100</strong> surandama būtent &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL sakinys</span>) (SQL sakinys tarp skliaustelių)</td>

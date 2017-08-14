@@ -1,6 +1,6 @@
 ---
 title: "Pasiūlymo patvirtinimai (RFQ)"
-description: "Šiame straipsnyje apžvelgiamos pasiūlymo užklausos (RFQ), kurias organizacijos išduoda, kai turi pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką. Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju."
+description: "Šioje temoje apžvelgiamos pasiūlymo užklausos (RFQ), kurias organizacijos išduoda, kai turi pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje apžvelgiamos pasiūlymo užklausos (RFQ), kurias organizacijos išduoda, kai turi pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką. Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju.
+Šioje temoje apžvelgiamos pasiūlymo užklausos (RFQ), kurias organizacijos išduoda, kai turi pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką. Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju.
 
 Pasiūlymo patvirtinimo (RFQ) procesas apima šias užduotis:
 
--   RFQ kūrimas ir siuntimas vienam ar keliems tiekėjams
--   RFQ atsakymų (kainų pasiūlymų) gavimas ir registravimas
--   Priimtų kainų pasiūlymų perkėlimas į pirkimo užsakymą, pirkimo sutartį ar pirkimo paraišką
+-   RFQ kūrimas ir siuntimas vienam ar keliems tiekėjams.
+-   RFQ atsakymų (kainų pasiūlymų) gavimas ir registravimas.
+-   Priimtų kainų pasiūlymų perkėlimas į pirkimo užsakymą, pirkimo sutartį ar pirkimo paraišką.
 
 Toliau esančiame paveikslėlyje pateikiama RFQ proceso apžvalga.  
 
@@ -49,7 +49,7 @@ Jei reikia keisti RFQ išsiuntus dokumentą, galite pakartotinai siųsti RFQ tie
 
 Gavę pasiūlymų, turite įvesti juos į puslapį **Pasiūlymų patvirtinimų atsakymai**. Jei pasirinksite parinktį **Kopijuoti duomenis į atsakymą**, duomenys, pvz., kiekis ir datos, iš RFQ atvejo nukopijuojami į atsakymą. Galite keisti šiuos duomenis, kad jie atspindėtų tiekėjo pasiūlymą.  
 
-Jei reikalingas tam tikro tiekėjo antras atsakymo pakartojimas, puslapyje**Pasiūlymo patvirtinimo atsakymas** spustelėkite **Grąžinti**. Grąžinimo veiksmas sugeneruoja naują žurnalą ir ataskaitą, kuri bus išspausdinta, archyvuota ir išsiųsta pagal jūsų spausdinimo valdymo parametrus.  
+Jei reikalingas tam tikro tiekėjo antras atsakymo pakartojimas, puslapyje **Pasiūlymo patvirtinimo atsakymas** spustelėkite **Grąžinti**. Grąžinimo veiksmas sugeneruoja naują žurnalą ir ataskaitą, kuri bus išspausdinta, archyvuota ir išsiųsta pagal jūsų spausdinimo valdymo parametrus.  
 
 Jei į RFQ atvejį įtraukiate vertinimo kriterijų, RFQ atsakymas turės vertinimo sritį, kurioje galima įvesti rezultatus. Bendras rezultatas bus rodomas, kai palyginsite atsakymus puslapyje **Palyginti atsakymus**, kur taip pat galima palyginti kitus atsakymų duomenis, pvz., eilutės kainą, pristatymo datą ir bendrąją kainą.  
 
@@ -66,17 +66,17 @@ RFQ apdorojimo būsenų seka:
 3.  **Gauta**
 4.  **Priimta**/**Atšaukta**/**Atmesta**
 
-Būsenos bus išsamiau aprašytos vėlesniuose šio straipsnio skyriuose.
+Būsenos bus išsamiau aprašytos vėlesniuose šios temos skyriuose.
 
 ## <a name="setting-up-rfq-functionality"></a>RFQ funkcijų nustatymas
 Prieš kurdami RFQ atvejį, turite nustatyti RFQ informaciją puslapyje **Paraiškų parametrai**. Kai kuriate yra RFQ atvejį, galite nurodyti numatytąsias vertes, kurios yra kopijuojamos į RFQ. Galite nurodyti šias numatytąsias vertes:
 
--   Naujų RFQ pirkimo tipas: **Pirkimo užsakymas** arba **Pirkimo sutartis**
--   Galiojimo pabaigos datos ir laiko parametrai
+-   Naujų RFQ pirkimo tipas: **Pirkimo užsakymas** arba **Pirkimo sutartis**.
+-   Galiojimo pabaigos datos ir laiko parametrai.
 -   Pristatymo informacija ir mokėjimo sąlygos.
--   Laukai, kuriuos reikia įtraukti į RFQ atsakymą
+-   Laukai, kuriuos reikia įtraukti į RFQ atsakymą.
 
-Galite nepaisyti šių verčių konkrečiame RFQ atvejyje. Taip pat turite sukonfigūruoti pakeitimo procesą. Kaip šios konfigūracijos dalį galite įjungti lauko blokavimo funkciją. Kai įjungta lauko blokavimo funkcija, įsigijimo specialistas, kuris nori pakeisti RFQ, pirma turi spustelėti mygtuką **Kurti**, esantį skirtuko **Pasiūlymas** dalyje **Pakeitimas**. Atnaujinus RFQ pakeitimu įsigijimo specialistas turi užbaigti procesą spustelėdamas **Baigti**.** **Atlikus baigimo veiksmą sugeneruojamas el. laiškas, kuriuo tiekėjams pranešama apie pakeistą RFQ. Pasirinkite tiekėjui siunčiamo el. pašto pranešimo šabloną puslapyje **Paraiškų parametrai**. Kai sukuriamas šablonas, jame gali būti tokių pakeitimo atpažinimo ženklų:
+Galite nepaisyti šių verčių konkrečiame RFQ atvejyje. Taip pat turite sukonfigūruoti pakeitimo procesą. Kaip šios konfigūracijos dalį galite įjungti lauko blokavimo funkciją. Kai įjungta lauko blokavimo funkcija, įsigijimo specialistas, kuris nori pakeisti RFQ, pirma turi spustelėti mygtuką **Kurti**, esantį skirtuko **Pasiūlymas** dalyje **Pakeitimas**. Atnaujinus RFQ pakeitimu įsigijimo specialistas turi užbaigti procesą spustelėdamas **Baigti**. Atlikus veiksmą **Baigti** sugeneruojamas el. laiškas, kuriuo tiekėjams pranešama apie pakeistą RFQ. Pasirinkite tiekėjui siunčiamo el. pašto pranešimo šabloną puslapyje **Paraiškų parametrai**. Kai sukuriamas šablonas, jame gali būti tokių pakeitimo atpažinimo ženklų:
 
 -   %Kainos pasiūlymo grąžinimo priežastis%
 -   %Pakeitimo priežastis%
@@ -87,7 +87,10 @@ Atpažinimo ženklus %Kainos pasiūlymo grąžinimo priežastis% ir %Pakeitimo p
 
 Jei RFQ atsakyme siekdami nurodyti, kodėl pasiūlymas buvo atmestas ar priimtas, norite naudoti priežasčių kodus, turite nustatyti priežasčių kodus puslapyje **Tiekėjų priežastys**.  
 
-Galite konfigūruoti išspausdintų arba saugomų RFQ dokumentų išvaizdą dalies Paraiškos puslapyje **Formos nustatymas**.  
+Galite konfigūruoti išspausdintų arba saugomų RFQ dokumentų išvaizdą dalies Paraiškos puslapyje **Formos nustatymas**. 
+
+**Pastaba:** jei naudojama viešojo sektoriaus konfigūracija, norint atlikti jau išsiųsto RFQ keitimus reikia naudoti pakeitimo procesą. Išsiuntus RFQ laukai užblokuojami, todėl norint keisti RFQ būtina spustelėti **Kurti**, kad būtų galima naudoti pakeitimo procesą, kaip aprašyta pirmiau.
+Tai valdo lauko blokavimo parametras **Užrakinti išsiųstus RFQ**, esantis dalyje **Paraiškų parametrai**. Šis parametras nustatytas į parinktį **Taip** ir naudojant viešojo sektoriaus konfigūraciją tai yra numatytoji reikšmė, kurios negalima keisti. Tai reiškia, kad, nors pakeitimo procesą galima tvarkyti neautomatiniu būdu viešojo sektoriaus konfigūracijoje, naudojant viešojo sektoriaus konfigūraciją RFQ pakeitimus būtina tvarkyti užrakinant laukus.
 
 Kai sukuriate pirkimo užsakymo RFQ ir prie RFQ pridedate atsargų prekę, sugeneruojama atsargų operacija, kurios gavimo būsena yra **Pasiūlymo gavimas**. Kai naudojate bendrąjį planą apskaičiuodami atsargas, atsižvelgiama tik į šios būsenos RFQ eilutes. Jei norite, kad į bendrąjį planą kaip numatomas gavimas būtų įtrauktos RFQ eilutės, turite sukonfigūruoti šią veikseną bendrojo planavimo nustatyme.  
 
@@ -108,7 +111,7 @@ Jei RFQ tipas yra **Pirkimo sutartis**:
 -   RFQ naudojamas kaip sutartis tam tikram produkto kiekiui arba vertei pirkti per tam tikrą laikotarpį. Turite pasirinkti datų intervalą, kuris bus taikomas pirkimo sutarčiai, ir asmens, kuris valdo pirkimo sutartį, vardą.
 -   Priėmus kainos pasiūlymą generuojama pirkimo sutartis.
 
-RFQ iš pirkimo paraiškos galite sukurti tik jei pirkimo paraiškos būsena yra **Peržiūrima**ir jūs esate priskirti atlikti kitą darbo eigos užduotį. Pirkimo paraiškos eilutės naujinamos automatiškai, kai priimate eilutes iš RFQ atsakymų (kainos pasiūlymų), kuriuos gavote iš tiekėjų. Negalite užbaigti, atmesti ir patvirtinti pirkimo paraiškos arba atlikti su ja kitų veiksmų, kai vykdomas RFQ.  
+RFQ iš pirkimo paraiškos galite sukurti tik jei pirkimo paraiškos būsena yra **Peržiūrima** ir jūs esate priskirti atlikti kitą darbo eigos užduotį. Pirkimo paraiškos eilutės naujinamos automatiškai, kai priimate eilutes iš RFQ atsakymų (kainos pasiūlymų), kuriuos gavote iš tiekėjų. Negalite užbaigti, atmesti ir patvirtinti pirkimo paraiškos arba atlikti su ja kitų veiksmų, kai vykdomas RFQ.  
 
 Kai kuriate RFQ, galite pasirinkti konkretų siūlymo tipą. Pagal siūlymo tipą nustatomas vertinimo kriterijų rinkinys, naudojamas RFQ atsakymams vertinti.  
 
@@ -137,7 +140,7 @@ Toliau pateikiamoje lentelėje parodoma, kaip keičiasi RFQ būsena, kai sukuria
 **Pastaba.** Galite į RFQ įtraukti daugiau tiekėjų bet kuriuo metu ir mažiausia bei didžiausia būsenos pasikeis, atspindėdamos naujus tiekėjus. Pavyzdžiui, jei gavote pasiūlymus iš visų tiekėjų ir priėmėte bent pasiūlymo vieną eilutę, žemiausia būsena RFQ antraštėse bus **Atmesta**, o aukščiausia būsena – **Priimta**. Jeigu įtraukiate naują tiekėją, žemiausia bet kurios eilutės būsena yra **Sukurta**. Todėl žemiausia būsena RFQ antraštėje pakeičiama į **Sukurta**, o aukščiausia būsena lieka **Priimta**.
 
 ## <a name="amending-an-rfq"></a>RFQ keitimas
-Kartais turite pakeisti RFQ jį išsiuntę. Tai gali įvykti, nes, pvz., pasikeitė pristatymo datos, norite papildomų produktų arba kitokio produktų kiekio. Galite konfigūruoti pakeitimo procesą, kad jis būtų labiau arba mažiau ribojamas.  
+Kartais turite pakeisti RFQ jį išsiuntę. Pavyzdžiui, tai gali įvykti, jei pasikeitė pristatymo datos, norite papildomų produktų arba kitokio produktų kiekio. Galite konfigūruoti pakeitimo procesą, kad jis būtų labiau arba mažiau ribojamas.  
 
 Jei pasirenkate labiau ribojamą pakeitimo procesą, RFQ atvejyje turite spustelėti **Kurti**, kad pradėtumėte pakeitimą prieš keisdami RFQ atvejo laukus. Atlikę pakeitimus turite spustelėti **Baigti**. Jums bus pateikiami nurodymai, kaip įtraukti informaciją į el. pašto pranešimą, siunčiamą norint perspėti tiekėjus apie pakeitimą. Atnaujinta RFQ ataskaita, kurioje yra pastaba apie pakeitimą, automatiškai pridedama prie pranešimo.  
 
@@ -181,7 +184,7 @@ Kai priimate RFQ atsakymą, kurio tipas yra **Pirkimo paraiška**, RFQ atsakymo 
 
 Atsakyme galite įtraukti priežasties kodą, norėdami paaiškinti, kodėl priimtas arba atmestas kainos pasiūlymas.  
 
-Galite priimti kai kurias kainos pasiūlymo eilutes ir atmesti kitas. Taip pat galite priimti eilutes iš įvairių tiekėjų. Tik turėkite omenyje, kad, jei priimate kai kurias eilutes, būsite paraginti atmesti visas kitas. Todėl, jei norite priimti kitų eilučių, gavę raginimą turite spustelėti **Atšaukti**.  
+Galite priimti kai kurias kainos pasiūlymo eilutes ir atmesti kitas. Taip pat galite priimti eilutes iš įvairių tiekėjų. Turėkite omenyje, kad, jei priimate kai kurias eilutes, būsite paraginti atmesti visas kitas. Todėl, jei norite priimti kitų eilučių, gavę raginimą turite spustelėti **Atšaukti**.  
 
 Toliau pateikiamoje lentelėje parodoma, kaip keičiasi RFQ būsena, kai priimate ir atmetate tiekėjų kainos pasiūlymus.
 

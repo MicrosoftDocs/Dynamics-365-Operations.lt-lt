@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ ms.lasthandoff: 06/13/2017
 Šioje temoje parodoma, kaip kurti biudžeto planuose naudojamus „Excel“ šablonus, naudojant standartinį demonstracinių duomenų rinkinį ir administratoriaus vartotojo prisijungimo informaciją. Daugiau informacijos apie biudžeto planavimą žr. [Biudžeto planavimo apžvalga.](budget-planning-overview-configuration.md) Taip galite vadovautis mokymo programa [Biudžeto planavimo 101](budget-plan.md), kad sužinotumėte pagrindinius modulio konfigūracijos ir naudojimo principus.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Darbalalapio generavimas naudojant biudžeto plano dokumento maketą
-Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną arba daugiau maketų. Kiekvienam maketui galima priskirti biudžeto plano dokumento šabloną, kad būtų galima peržiūrėti ir redaguoti biudžeto plano duomenis „Excel“ darbalapyje. Šioje temoje biudžeto plano dokumento šablonas bus sugeneruotas naudojant esamo maketo konfigūraciją. Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną arba daugiau maketų. Kiekvienam maketui galima priskirti biudžeto plano dokumento šabloną, kad būtų galima peržiūrėti ir redaguoti biudžeto plano duomenis „Excel“ darbalapyje. Šioje temoje biudžeto plano dokumento šablonas bus sugeneruotas naudojant esamo maketo konfigūraciją. 
+
+Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Naudokite eilutės parinktį **Įtraukti**, kad įtrauktumėte eilučių. Spustelėkite **Maketai**, kad peržiūrėtumėte biudžeto plano dokumento maketo konfigūraciją. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. Sugeneravę šabloną pasirinkite **Šablonas** &gt; **Peržiūrėti**, kad atidarytumėte ir peržiūrėtumėte biudžeto plano dokumento šabloną. „Excel“ failą galite įrašyti į vietinį diską. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. Sugeneravę šabloną pasirinkite **Šablonas** &gt; **Peržiūrėti**, kad atidarytumėte ir peržiūrėtumėte biudžeto plano dokumento šabloną. „Excel“ failą galite įrašyti į vietinį diską. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Biudžeto plano dokumento maketo redaguoti negalima, kai jis susietas su „Excel“ šablonu. Norėdami redaguoti maketą, panaikinkite susietą „Excel“ šablono failą ir sugeneruokite jį iš naujo. Tai būtina, kad maketo ir darbalapio laukai būtų sinchronizuoti. 

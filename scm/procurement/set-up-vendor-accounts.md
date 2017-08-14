@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Galite sulaikyti įvairių tipų tiekėjo operacijas. Galimos toliau nurodytos p
 -   **Niekada** – tiekėjas niekada nėra sulaikomas dėl neaktyvumo.
 
 Kai sulaikote tiekėją, taip pat galite nurodyti priežastį ir datą, kada sulaikymo būsena pasibaigs. Jei pabaigos datos neįvesite, tiekėjo sulaikymo būsena galios neribotą laiką.
+
+Galite masiškai naujinti tiekėjų sulaikymo būseną į **Visi** pagal puslapyje **Tiekėjo išaktyvinimas** pasirinktus kriterijus ir priskirti priežastį, nurodančią, kodėl tiekėjas yra sulaikytas.
+
+Toliau pateikti kriterijai naudojami norint įtraukti tiekėjus, kurie tam tikrą laikotarpį buvo neaktyvūs, įtraukti arba neįtraukti tiekėjų, kurie yra darbuotojai, ir neįtraukti tiekėjų, kuriems skirtas atidėjimo laikas prieš kitą sulaikymą.
+
+- Pagal į puslapio **Tiekėjo išaktyvinimas** lauke **Nedarbingumo laikotarpis** įvestą dienų skaičių programa apskaičiuoja vėliausią datą, kurią dar gali būti registruota tiekėjo veikla, bet tiekėjas būtų laikomas neaktyviu. T. y. dabartinė data, atėmus jūsų įvestą dienų skaičių. Jei yra viena ar daugiau tiekėjo SF, kurių data yra vėlesnė už apskaičiuotą vėliausią datą, tiekėjas nebus įtrauktas į išaktyvinimo sąrašą. Tai taip pat galioja, jei yra vėliau nei ta dieną registruotų tiekėjo mokėjimų, atidarytų pirkimo paraiškų, atidarytų pirkimo užsakymų, pasiūlymų patvirtinimų arba atsakymų.
+- Vėliausia atidėjimo data apskaičiuojama naudojant lauke **Atidėjimo laikas prieš kitą sulaikymą** nurodytą dienų skaičių. T. y. dabartinė data, atėmus jūsų įvestą dienų skaičių. Tai taikoma tik tiekėjams, kurie anksčiau buvo išaktyvinti. Jei tiekėjas buvo anksčiau išaktyvintas, programa patikrina kitų tiekėjo išaktyvinimo atvejų retrospektyvą ir nustato, ar vėliausias išaktyvinimas atliktas po vėliausios atidėjimo dienos. Jei taip, tiekėjas bus įtrauktas į išaktyvinimo procesą.
+- Parametras **Įtraukti darbuotojus** nurodo tiekėjus, kurie susieti su darbuotojais. Jei norite, galite nustatyti, kad tie darbuotojai būtų įtraukti.
+
+Į šį procesą niekada nebus įtraukti tiekėjai, jei jų lauko **Tiekėjo sulaikymas** reikšmė yra **Niekada**.
+
+Tikrinimą praėję tiekėjai sulaikomi, nustatomos lauko **Tiekėjo sulaikymas** reikšmė **Visi** ir pasirinkta lauko **Priežastis** reikšmė. Sulaikymo retrospektyvoje sukuriamas tiekėjo įrašas.
 
 ## <a name="vendor-invoice-account"></a>Tiekėjo mokėtojo kodas
 Jei daugiau nei vienas tiekėjas turi tokį patį sąskaitos adresą arba jei tiekėjui SF išrašoma per trečiąją šalį, tiekėjo įraše galite nurodyti SF kodą. SF kodas yra kodas, kuriame kredituojama SF suma, kai iš pirkimo užsakymo kuriate tiekėjo SF. Tiekėjo įraše neįvedus SF kodo, jo vietoje naudojamas tiekėjo kodas.

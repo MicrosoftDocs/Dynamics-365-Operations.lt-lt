@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ ms.lasthandoff: 06/20/2017
 Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ 2017 m. liepos mėn. naujinimą, pasiekiamas toliau nurodytas „Power BI‟ turinys.
 
 - [„Power BI“ turinys Išmokos](benefits-power-bi.md)
-- [„Power BI“ turinys Grynųjų pinigų apžvalga](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [„Power BI“ turinys Grynųjų pinigų apžvalga](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [„Power BI“ turinys CFO apžvalga](CFO-power-bi.md)
 - [„Power BI“ turinys Kompensacija](compensation-power-bi.md)
 - [„Power BI‟ turinys* Kaštų apskaitos analizė](cost-accounting-analysis-content-pack.md) 
-- [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [„Power BI“ turinys Darbuotojo tobulėjimas](employee-development-PBI.md) 
 - [„Power BI“ turinys* Finansinis našumas](financial-performance-power-bi-content-pack.md)
-- [„Power BI“ turinys Ilgalaikio turto valdymas](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [„Power BI“ turinys Ilgalaikio turto valdymas](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [„Power BI“ turinys Mokymasis](learning-power-bi.md)
 - [„Power BI“ turinys Praktikos vadovas](practice-manager-power-bi.md)
 - [„Power BI“ turinys Gamybos našumas](production-performance-power-bi.md)
 - [Pirkimo išlaidų analizės „Power BI“ turinys](purchase-content-pack-for-power-bi.md) 
 - [Įdarbinimo „Power BI“ turinys](recruiting-analysis-power-bi-content-pack.md) 
 - [Pardavimo ir pelningumo našumo „Power BI“ turinys](sales-profitability-performance-content-pack.md)
-- [„Power BI“ turinys Tiekėjo mokėjimai](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [„Power BI“ turinys Tiekėjo mokėjimai](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [Sandėlio efektyvumo „Power BI“ turinys](warehouse-power-bi-content.md)
 - [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>Prieiga prie turinio
 
 #### <a name="embedded-content"></a>Įdėtasis turinys
-Išskyrus turinį, kuris yra pažymėtas žvaigždute (\*), visas turinys ankstesniame sąraše yra įdėtas į programą. Norėdami daugiau sužinoti apie tai, kur galite peržiūrėti „Power BI“ turinį, spustelėkite saitus.
+Išskyrus turinį, kuris yra pažymėtas žvaigždute (\*), visas turinys ankstesniame sąraše yra įdėtas į programą. Norėdami daugiau sužinoti apie tai, kur galite peržiūrėti „Power BI“ turinį, spustelėkite pirmiau pateiktus saitus.
+
+Norėdami peržiūrėti „Power BI“ ataskaitų duomenis, būtinai atnaujinkite objektų saugyklą. Daugiau informacijos žr. vadovo [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md) skyriuje *Objekto parduotuvės atnaujinimas*.
 
 #### <a name="files-available-in-lifecycle-services"></a>„Lifecycle Services‟ pasiekiami failai
 Šis „Power BI“ turinys pasiekiamas „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie savo duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
@@ -66,7 +68,7 @@ Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, pasieki
 
 - [Kompensacijų ir išmokų „Power BI“ turinys](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [Kaštų apskaitos analizės „Power BI‟ turinys](cost-accounting-analysis-content-pack.md) 
-- [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Darbuotojo kompetencijų ir tobulėjimo „Power BI“ turinys](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [Finansinės veiklos „Power BI“ turinys](financial-performance-power-bi-content-pack.md)
 - [Organizacinio mokymo „Power BI“ turinys](organizational-training-analysis-power-bi-content-pack.md) 

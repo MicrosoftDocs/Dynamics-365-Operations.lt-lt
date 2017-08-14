@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Algalapio pradžios balansų įvedimas
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius. Ši informacija yra naudinga partneriams, kurie perkelia duomenis naujo algalapio diegimui iš kitos sistemos. Kad pasiruoštume pradžios algalapių balansų įvedimui, patikriname šią informaciją:
 
@@ -47,9 +46,6 @@ Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, at
 Planuodami įvesti pradžios balansus, apsvarstykite, kiek išsamūs duomenys turėtų būti. Dauguma įmonių įveda vieną, konsoliduotą sumą nuo metų pradžios iki dabartinės datos. Tačiau jei reikia išsamesnės informacijos, balansus galima įvesti nurodant ketvirčio pokyčius. Pagal reikalingą informacijos detalumo lygį nustatoma, kiek mokėjimo išrašų reikės rankiniu būdu sukurti kiekvienam darbininkui. Vienai sumai nuo metų pradžios iki dabartinės datos kiekvienam darbuotojui reikia rankiniu būdu sukurti tiktai vieną išrašą. Kad tai atliktumėte, naudokite sumas nuo metų pradžios iki dabartinės datos, pateikiamas ankstesnės sistemos galutinio mokėjimo išraše, kaip naujoje algalapio sistemoje įvestą sumą.
 
 Šiame pavyzdyje parodyta, kaip galite įvesti darbuotojo algalapio pradžios balansus, įskaitant pajamų kodus, išmokas / atskaitymus ir mokesčius. Realioje situacijoje turėtumėte kiekvieno uždarbio kodo, išmokos atskaitymo, išmokos įmokos, darbuotojo mokamo mokesčio ir darbdavio mokamo mokesčio eilutės elementą su įvesta suma nuo metų pradžios iki dabartinės datos. Naudodami šį kodų ir sumų sąrašą, atlikite veiksmus, skirtus rankiniu būdu sukurti pajamų ir mokėjimo išrašą su išjungta apskaita, kad algalapio tikslu galėtumėte perkelti pradžios balansus.  Apskaitą išjungti reikia todėl, kad šis pradžios balanso mokėjimo išrašas nebūtų užregistruotas didžiojoje knygoje. Tai buvo padaryta senesnės versijos sistemoje ir veiks naujojoje sistemoje, jums nustačius pradžios balansus didžiojoje knygoje.
-
-> [!NOTE] 
-> Jei norite atkurti tuos pačius toliau pateiktus veiksmus, galite naudoti demonstracinius duomenis. Demonstracinius duomenis galima atsisiųsti PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Kaip nustatyti pajamų kodus, kurie bus naudojami algalapių pradžios balansuose
 Įvedę algalapio pradžios balansus, įsitikinkite, kad pajamų kodai, kuriuos naudosite, sukonfigūruoti su įjungta parinktimi „Leisti redaguoti pajamų išrašo tarifus“. Tai leis jums rankiniu būdu įvesti sumą iš senesnės versijos sistemos. 
@@ -101,7 +97,7 @@ Planuodami įvesti pradžios balansus, apsvarstykite, kiek išsamūs duomenys tu
 | Neautomatinis          | (Pažymėta)   |
 
 > [!NOTE]
-> Norint įvesti kiekvieno darbininko algalapio pradžios balansus, labai svarbu kiekvienos pajamų išrašo eilutės skirtuke **Eilutės informacija** pažymėti žymės langelį Rankiniu būdu.
+> Norint įvesti kiekvieno darbininko algalapio pradžios balansus, labai svarbu kiekvienos pajamų išrašo eilutės skirtuko **Eilutės informacija** slankiklį **Neautomatiškai** nustatyti į parinktį **Taip**.
 
 3. Srityje **Veiksmas** spustelėkite **Išleisti pajamų išrašą** JAV – FED – ER – FICA.
 
@@ -111,15 +107,15 @@ Planuodami įvesti pradžios balansus, apsvarstykite, kiek išsamūs duomenys tu
 |--------------------|-----------|
 | Mokėjimo data       | 6/30/2017 |
 | Mokėjimo vykdymo tipas   | Neautomatinis    |
-| Išjungti apskaitą | (pažymėta)  |
+| Išjungti apskaitą |   Taip     |
 
 > [!NOTE] 
 > Tai galima padaryti, tik kai nustatytas vykdymo tipas yra Rankiniu būdu ir kai vartotojas nori išjungti mokėjimo vykdymo apskaitą.
 
 Spustelėkite **Gerai** ir uždarykite **sistemos pranešimą**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>Kodėl generuojant mokėjimo išrašus turi būti įjungtas žymės langelis Išjungti apskaitą?
-Tai padeda išvengi mokėjimo išrašo eilučių paskirstymo ir užregistravimo didžiojoje knygoje. Juk nenorite užregistruoti šio pradžios balanso mokėjimo išrašo, nes jo reikšmės jau yra didžiojoje knygoje iš senesnės versijos sistemos. Šis balanso įkėlimas naudojamas tiktai ataskaitų teikimo ir apribojimo tikslais.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Kodėl generuojant mokėjimo išrašus slankiklis turi būti nustatytas į parinktį Taip?
+Slankiklį nustačius į parinktį **Taip**, mokėjimo išrašo eilutės nėra paskirstomos didžiojoje knygoje. DK sumos atnaujintos anksčiau, kai buvo įvesti sąskaitos balansai iš senesnės versijos sistemos. Įvedus algalapio pradžios balansus galima generuoti ataskaitas, apimančias informaciją iš ankstesnių metų, taip pat ataskaitas išmokų ir mokesčių riboms nustatyti.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Darbuotojų mokėjimo išrašų kūrimas
 Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrinti, kad mokėjimo išrašuose tiksliai atsispindėtų algalapio duomenys. Taip pat turite rankiniu būdu atnaujinti išmokų ir mokesčių informaciją, kad sutaptų su ankstesnės algalapio sistemos reikšmėmis. Patikrinę, ar sumos iš ankstesnio algalapio sistemos sutampa su dabartinio mokėjimo išrašo sumomis, turite užbaigti mokėjimo išrašus.
@@ -140,17 +136,7 @@ Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrint
 | Išlaidos priklausomojo sveikatos priežiūrai | Dalyvauja | 2500.00          |
 | Regėjimas | SupSp                  | 500,00           |
 
-5. Skirtuke **Išmokų atskaitymai** įveskite toliau nurodytą informaciją. 
-
-| Laukas                           | Vertė            |
-|---------------------------------|------------------|
-| Išmoka                         | Atskaitoma suma |
-| 401 000 | Dalyvauja              | 3000.00          |
-| Dantų gydymas | SubSp                  | 495,00           |
-| Išlaidos priklausomojo sveikatos priežiūrai | Dalyvauja | 2500.00          |
-| Regėjimas | SupSp                  | 500,00           |
-
-6. Skirtuke **Išmokų įmokos** įveskite toliau nurodytą informaciją.
+5. Skirtuke **Išmokų įmokos** įveskite toliau nurodytą informaciją.
 
 | Laukas              | Vertė               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrint
 | Dantų gydymas | SubSp     | 495,00              |
 | Regėjimas | SubSp     | 500,00              |
 
-7. Skirtuke **Mokesčių atskaitymai** įveskite toliau nurodytą informaciją.
+6. Skirtuke **Mokesčių atskaitymai** įveskite toliau nurodytą informaciją.
 
 | Laukas           | Vertė            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrint
 | JAV – FED – ER – FICA | 1600.00          |
 | JAV – FED – ER – MEDI | 825.75           |
 
-8. Skirtuke **Mokesčių įmokos** įveskite toliau nurodytą informaciją.
+7. Skirtuke **Mokesčių įmokos** įveskite toliau nurodytą informaciją.
 
-9. Spustelėkite **Skaičiuoti**.
+8. Spustelėkite **Skaičiuoti**.
 > [!IMPORTANT] 
 > Patikrinkite bendrąsias mokėjimo išrašo sumas, kad jos atitiktų darbininko sumas nuo metų pradžios iki dabartinės datos iš senesnės versijos sistemos. Galbūt prieš pereidami prie kito veiksmo norėsite stabtelėti ir atlikti bendrą visų mokėjimo išrašų patikrinimą. Patikrinę, peržiūrėkite visus mokėjimo išrašus ir juos užbaikite.
 
@@ -182,5 +168,5 @@ Galima atšaukti ir iš naujo įvesti operacijas. Norėdami atšaukti operaciją
 
 2. Spustelėkite **Taip**, kai rodomas šis pranešimas: „Atšaukus šį mokėjimo išrašą, norint jį patikslinti, bus sukurtas atšaukimo mokėjimo išrašas Nei vieno iš šių mokėjimo išrašų redaguoti negalima. Ar norite atšaukti šį mokėjimo išrašą?“ rodomas. 
 
-Atšaukę mokėjimo išrašą, galite darbininkui sugeneruoti naują mokėjimo išrašą iš pajamų išrašo, kurį anksčiau sukūrėte vadovaudamiesi anksčiau šioje temoje pateikta procedūra „Pajamų išrašų ir mokėjimo išrašų, kurie turi pradžios balansus, generavimas“. Prieš generuodami naują mokėjimo išrašą, įsitikinkite, kad ištaisėte neteisingas pajamų išrašo eilutes, tada pakartokite šioje temoje aprašytą procedūrą „Mokėjimo išrašų, kurie turi išmokų ir mokesčių pradžios balansus, naujinimas“.
+Atšaukus mokėjimo išrašą galima generuoti naują darbuotojo mokėjimo išrašą iš anksčiau sukurto pajamų išrašo. Prieš generuojant naują mokėjimo išrašą būtinai ištaisyti neteisingas pajamų išrašo eilutes, o tada generuoti naują mokėjimo išrašą su teisingomis sumomis. 
 
