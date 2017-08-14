@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Dirbdami modulyje „Talent‟ nuspręsite, kaip naudojant elementus (pvz., pada
 -   [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](departments-jobs-positions.md)
 -   [Konkrečios įmonės personalo parametrų nustatymas](set-up-company-specific-hr-parameters.md)
 -   [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md) 
+-   [Personalo veiksmų DUK](personnel-actions-faq.md)
+-   [Atostogų ir neatvykimų apžvalga](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Darbuotojų išlaikymas ir motyvavimas
 
 Galite parengti planus, skirtus veiksmingai ir teisingai valdyti kompensaciją, taip pat valdyti prekes, pvz., kompiuterius arba telefonus, kuriuos jūsų organizacija skolina savo darbuotojams. Galite kurti fiksuotosios ir kintamosios atlyginimo dalies planus, taip pat nustatyti taisykles, kurios taikomos kompensavimo planui, kad būtų atitikti to plano kriterijai.
 
--   [Kompensavimo planai](compensation-plans.md)
+-   [Kompensacijų planai](compensation-plans.md)
+-   [Kompensavimo apdorojimas](process-compensation.md)
 -   [Pastoviosios atlyginimo dalies planų kūrimas](create-fixed-compensation-plans.md)
 -   [Kintamosios atlyginimo dalies planų kūrimas](create-variable-compensation-plans.md)
 

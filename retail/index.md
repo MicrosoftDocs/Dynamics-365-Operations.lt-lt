@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Sveiki, čia – „Dynamics 365 for Retail“
 
-[!include[banner](includes/banner.md)]
-
 „Microsoft Dynamics 365 for Retail‟ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais. Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų. „Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes. Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.
 
-Glaudžiai susiję tolesni trys produktai.
-
-- „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas
-- „Microsoft Dynamics 365 for Retail“
-- „Microsoft Dynamics 365 for Talent“
-
-Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail‟, bus naudojamas produkto pavadinimas „Microsoft Dynamics 365 for Retail‟. Temose, kurios pirmiausia susijusios su „Talent‟, bus naudojamas produkto pavadinimas „Microsoft Dynamics 365 for Talent‟. Galiausiai temose, susijusiose su pagrindiniu produktu („Finance and Operations‟), bus naudojamas produkto pavadinimas „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimas. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> [!NOTE] 
+> „Dynamics 365 for Retail‟ yra glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimu ir „Dynamics 365 for Talent‟. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su pagrindiniu produktu („Finance and Operations“), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimas; temose, kurios pirmiausia susijusios su personalu, produkto pavadinimas bus „Dynamics 365 for Talent“. 
 
 Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau.
 
