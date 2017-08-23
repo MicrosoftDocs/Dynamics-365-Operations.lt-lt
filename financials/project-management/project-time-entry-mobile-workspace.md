@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -90,7 +89,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
--   [Telefonams „iPhone“](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prisijunkite prie mobiliosios programos
 1.  Paleiskite programą savo mobiliajame įrenginyje.
@@ -105,11 +104,11 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 2.  Pasirinkite **Laiko įrašas**. Rodomos šios savaitės kalendoriaus datos.
 3.  Pasirinkite datą ir pasirinkite **Veiksmai** &gt; **Naujas įrašas**.
 4.  Įveskite valandų, kurias reikia įrašyti, skaičių.
-5.  Pasirinkite laiko įrašo projektą. Sąraše rodomi projektai, įkelti į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Pasirinkite laiko įrašo projektą. Sąraše rodomi projektai, įkelti į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Jei jūsų projekto sąraše nėra, pasirinkite **Ieškoti**. Ieškokite pagal pavadinimą arba perjunkite iešką pagal projekto pavadinimą arba klientą.
-7.  Pasirinkite kategoriją. Sąraše rodomos kategorijos, įkeltos į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Pasirinkite kategoriją. Sąraše rodomos kategorijos, įkeltos į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieškoti**. Ieškokite pagal kategoriją arba perjunkite iešką pagal kategorijos pavadinimą.
-9.  Pasirinkite veiklą. Sąraše rodomos veiklos, įkeltos į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Pasirinkite veiklą. Sąraše rodomos veiklos, įkeltos į jūsų programą naudoti neprisijungus. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, žr. [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Jei jūsų veiklos sąraše nėra, pasirinkite **Ieškoti**. Ieškokite pagal veiklos numerį arba perjunkite iešką pagal paskirtį.
 
 11. Pasirinkite eilutės ypatybę.

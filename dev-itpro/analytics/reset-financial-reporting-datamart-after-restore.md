@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kaip galima atstatyti finansinių ataskaitų duomenų sritį atkūrus „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazę. 
+Šioje temoje paaiškinama, kaip galima atstatyti finansinių ataskaitų duomenų sritį atkūrus „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazę.
 
-Yra keletas scenarijų, kada „Finance and Operations“ duomenų bazę gali reikėti atkurti iš atsarginės kopijos arba duomenų bazę nukopijuoti iš kitos aplinkos. Kai taip įvyksta, taip pat turite atlikti atitinkamus veiksmus, kad užtikrintumėte, jog finansinių ataskaitų duomenų sritis tinkamai naudoja atkurtą „Finance and Operations“ duomenų bazę. Jeigu turite klausimų apie tai, kaip iš naujo nustatyti finansinių ataskaitų duomenų sritį dėl kitokios priežasties negu „Finance and Operations“ duomenų bazės atkūrimas, ir norite gauti daugiau informacijos, žr. [Pakartotinis „Management Reporter“ duomenų srities nustatymas](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Atkreipkite dėmesį, kad šio proceso veiksmai palaikomi naudojant „Dynamics 365 for Operation“ 2016 m. gegužės mėn. leidimą (programos versija 7.0.1265.23014 ir finansinės ataskaitos versija 7.0.10000.4) ir naujesnius leidimus. Jeigu naudojate ankstesnį „Finance and Operations“ leidimą, pagalbos kreipkitės į mūsų palaikymo komandą.
+Jei atkuriate „Finance and Operations“ duomenų bazę iš atsarginės kopijos arba duomenų bazės iš kitos aplinkos, atlikite temoje nurodytus veiksmus, kad užtikrintumėte tinkamą finansinių ataskaitų nustatymo naudojimą atkurtoje „Finance and Operations“ duomenų bazėje. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> Šio proceso veiksmai palaikomi naudojant „Dynamics 365 for Operation“ 2016 m. gegužės mėn. leidimą (programos versija 7.0.1265.23014 ir finansinės ataskaitos versija 7.0.10000.4) ir naujesnius leidimus. Jeigu naudojate ankstesnį „Finance and Operations“ leidimą, pagalbos kreipkitės į mūsų palaikymo komandą.
 
 ## <a name="export-report-definitions"></a>Ataskaitų aprašų eksportavimas
 Pirmiausia atlikite toliau nurodytus veiksmus ir eksportuokite ataskaitų dizaino įrankyje esančius ataskaitos dizainus.
 
 1.  Įjungę atskaitos dizaino įrankį eikite į **Įmonė** &gt; **Kūrimo bloko grupės**.
-2.  Norėdami eksportuoti, pasirinkite kūrimo blokų grupę ir spustelėkite **Eksportuoti**. **Pastaba:** naudojant „Finance and Operations“ palaikoma tik viena kūrimo blokų grupė – **Numatytoji**.
+2.  Norėdami eksportuoti, pasirinkite kūrimo blokų grupę ir spustelėkite **Eksportuoti**. 
+    > [!Note] 
+    > Naudojant „Finance and Operations“ palaikoma tik viena kūrimo blokų grupė – **Numatytoji**.
 3.  Pasirinkite norimus eksportuoti ataskaitos aprašus:
     -   Norėdami eksportuoti visus ataskaitos aprašus ir susietus kūrimo blokus, spustelėkite **Žymėti viską**.
     -   Norėdami eksportuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, spustelėkite atitinkamą skirtuką ir tada pasirinkite norimus eksportuoti elementus. Norėdami skirtuke pasirinkti keletą elementų, paspauskite ir laikykite nuspaudę CTRL klavišą. Pažymėjus norimas eksportuoti ataskaitas pažymimos susietos eilutės, stulpeliai, medžiai ir dimensijų rinkiniai.
@@ -63,9 +68,9 @@ Norėdami prisijungti prie visų aplinkos kompiuterių naudokite nuotolinį darb
 Šios tarnybos turi atvirus ryšius su „Finance and Operations“ duomenų baze.
 
 ## <a name="reset"></a>Nustatyti iš naujo
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Suraskite naujausią DataUpgrade.zip pakuotę
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Raskite ir atsisiųskite naujausią MinorVersionDataUpgrade.zip paketą
 
-Naudodami [Atsisiųsti DataUpgrade.zip scenarijų](..\migration-upgrade\upgrade-data-to-latest-update.md) rastus nurodymus suraskite naujausią DataUpgrade.zip pakuotę. Nurodymuose paaiškinama, kaip surasti jūsų aplinkai tinkamą duomenų atnaujinimo pakuotės versiją.
+Raskite naujausią MinorVersionDataUpgrade.zip paketą atsižvelgdami į nurodymus, pateiktus [Naujausių duomenų naujinimo diegimo paketų atsisiuntimas](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). Nurodymuose paaiškinama, kaip rasti ir atsisiųsti tinkamą duomenų atnaujinimo pakuotės versiją. Naujinant nėra būtina atsisiųsti MinorVersionDataUpgrade.zip paketo. Būtina atlikti veiksmus nurodytus skyriuje „Naujausių duomenų naujinimo diegimo paketų atsisiuntimas“ neatliekant jokių kitų straipsnyje nurodytų veiksmų, kad gautumėte MinorVersionDataUpgrade.zip paketo kopiją.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Scenarijų vykdymas pagal „Finance and Operations“ duomenų bazę
 
@@ -105,8 +110,10 @@ Importuokite savo ataskaitos dizainus iš ataskaitų dizaino įrankio naudodami 
 
 1.  Įjungę atskaitos dizaino įrankį eikite į **Įmonė** &gt; **Kūrimo bloko grupės**.
 2.  Norėdami eksportuoti, pasirinkite kūrimo blokų grupę ir spustelėkite **Eksportuoti**. 
+
     > [!NOTE]
     > Naudojant „Finance and Operations“ palaikoma tik viena kūrimo blokų grupė – **Numatytoji**.
+    
 3.  Pasirinkite kūrimo bloką **Numatytasis** ir spustelėkite **Importuoti**.
 4.  Pasirinkite failą, kuriame yra eksportuoti ataskaitos aprašai, ir spustelėkite **Atidaryti**.
 5.  Dialogo lange Importuoti pasirinkite norimus importuoti ataskaitos aprašus.

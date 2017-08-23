@@ -1,9 +1,9 @@
 ---
 title: "SF patvirtinimai mobiliąja programa"
 description: "Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas programoje „Dynamics 365 for Finance and Operations‟, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/20/2017
 
 | Būtinoji sąlyga                                                                                            | aprašymas                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | „Dynamics 365 for Finance and Operations“                                                                             | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
 | Įdiekite karštąsias pataisas KB 3204341.                                                                              | Užduočių įrašymo priemonė gali klaidingai įrašyti dvi išplečiamųjų dialogų komandas Uždaryti; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys) |
 | Įdiekite karštąsias pataisas KB 3207800.                                                                              | Įdiegus šias karštąsias pataisas priedus galima peržiūrėti mobiliajame kliente; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys).           |
@@ -176,7 +176,7 @@ Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslap
 1.  „Finance and Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
 2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 3.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
-4.  Pasirinkite puslapį ** Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
+4.  Pasirinkite puslapį **Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
 5.  Skirtuke **Laukai** spustelėkite stulpelio antraštę **Tinklelis**.
 6.  Spustelėkite **Ypatybės** &gt; **Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
 7.  Įveskite puslapio pavadinimą, pvz., **SF informacija SF**, ir aprašą, pvz., **SF antraštės ir eilutės informacijos peržiūra**.

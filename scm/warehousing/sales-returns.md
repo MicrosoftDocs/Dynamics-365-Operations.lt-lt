@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali 
 ## <a name="return-order-process"></a>Grąžinimo užsakymo procesas
 Toliau esančiame paveikslėlyje pateikiama grąžinimo užsakymo proceso apžvalga.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Grąžinimo užsakymo procesas](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Yra dviejų tipų grąžinimo užsakymo procesai: fizinis grąžinimas ir tik kreditas.
 
@@ -213,7 +213,7 @@ Yra du produkto keitimo valdymo mėtodai:
 
 Išankstinio pakeitimo atveju, pakaitalas gali būti pristatytas klientui dar prieš grąžinant prekę. Šis metodas naudingas, jei, pvz., prekė yra automobilio detalė, kurios negalima nuimti, kol atsarginė detalė bus pasiekiama šiai pakeisti, arba, jei tiesiog norite, kad klientas pakaitalą gautų kaip įmanoma greičiau. Išankstinis pakeitimo užsakymas yra atskiras pardavimo užsakymas. Antraštės informacija inicijuojama iš kliento, o eilutės informacija inicijuojama iš grąžinimo užsakymo. Pakeitimo užsakymą galite redaguoti, apdoroti ir panaikinti atskirai nuo grąžinimo užsakymo. Panaikinę pakeitimo užsakymą, gausite pranešimą, kad užsakymas sukurtas kaip pakeitimo užsakymas. Šioje iliustracijoje parodytas išankstinio pakeitimo užsakymo procesas.  
 
-[![Išankstinio pakeitimo procesas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Išankstinio pakeitimo procesas](./media/SalesReturn04.png)
 
 Grąžinimo užsakymas apima nuorodą į pakeitimo užsakymą. Jei išankstinio pakeitimo užsakymas sukurtas grąžinimo užsakymui prieš grąžinant prekę su defektu, negalėsite pasirinkti pakeitimo perdavimo kodų po to, kai prekė su defektu bus grąžinta.
 
@@ -221,7 +221,7 @@ Grąžinimo užsakymas apima nuorodą į pakeitimo užsakymą. Jei išankstinio 
 
 Jei klientui išsiųsite pakaitalą ir perdavimo veiksmą **Pakeisti ir nurašyti** arba **Pakeisti ir kredituoti** naudojate grąžinimo užsakyme, naudokite procesą, kuris parodytas toliau pateikiamoje iliustracijoje.  
 
-[![Pakeitimo procesas, kai naudojamas perdavimo kodas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Pakeitimo procesas, kai naudojamas perdavimo kodas](./media/SalesReturn05.png)
 
 Pakaitalas bus pristatytas naudojant atskirą pardavimo užsakymą – pakeitimo pardavimo užsakymą. Šis pardavimo užsakymas sukuriamas, kai sugeneruojamas grąžinimo užsakymo važtaraštis. Užsakymo antraštėje naudojama informacija iš kliento, kuris nurodytas grąžinimo užsakymo antraštėje. Eilutės informacija surenkama iš puslapyje **Prekės pakaitalas** įvestos informacijos. Turi būti užpildytos puslapio **Prekės pakaitalas** eilutės, susijusios su perdavimo veiksmais, kurios prasideda žodžiu „pakeisti“. Tačiau, nei prekės pakaitalo kiekis, nei tapatybė nėra patikrinta ar apribota. Šis veikimo būdas leidžia atvejus, kai klientas nori tos pačios prekės tik kitokia konfigūracija ar dydžiu, ir tuos atvejus, kai klientas nori visai kitokios prekės. Pagal numatytuosius nustatymus, identiška prekė įvedama puslapyje **Prekės pakaitalas**. Tačiau galite pasirinkti kitokią prekę, jei tokia funkcija yra nustatyta. **Pastaba:** pakeitimo pardavimo užsakymą sukūrus, galima jį redaguoti ir panaikinti.
 
@@ -254,7 +254,7 @@ Grąžinimo užsakymus galima užbaigti tarp dviejų vidinių jūsų organizacij
 
 Toliau pateikiamoje iliustracijoje: minimalus nustatymas, kurio reikia dviems įmonėms norint dalyvauti vidinės įmonės ryšyje pasinaudoti vidinės įmonės prekyba.  
 
-[![Minimalus nustatymas](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Minimalus nustatymas](./media/SalesReturn06.png)
 
 Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell“ yra parduodanti įmonė. Paprastai parduodanti įmonė siunčia prekes arba perkančiai įmonei, arba, tiesioginio pristatymo siuntų scenarijuose, tiesiogiai galutiniam klientui. Įmonėje „CompBuy“ tiekėjas IC\_„CompSell“ nustatytas kaip vidinės įmonės galinis punktas, kuris susietas su įmone „CompSell“. Tuo pat metu, įmonėje „CompSell“ klientas IC\_„CompBuy“ nustatytas kaip vidinės įmonės galinis punktas, kuris susietas su įmone „CompBuy“. Atitinkamos veiksmų strategijos informacija ir vertės susiejimai turi būti nustatyti abiejose įmonėse. Tiesioginio pristatymo siuntų scenarijuje vidinės įmonės grąžinimo užsakymas, kuris yra ir vidinės įmonės pardavimo užsakymas, sukuriamas parduodančioje įmonėje. Vidinės įmonės grąžinimo užsakymo RMA numerį galima paimti iš RMA skaičių sekos „CompSell“, arba jį galima nukopijuoti iš RMA numerio, kuris priskirtas originaliam grąžinimo užsakymui „CompBuy“. Šiuos veiksmus nustato RMA skaičių sekos nustatymai „CompBuy“ veiksmų strategijoje **„PurchaseRequisition“**. Jei RMA numeris sinchronizuotas, turėtumėte planuoti sumažinti skaičių prieštaravimo riziką, jei šios dvi įmonės naudos tą pačią skaičių seką.
 
@@ -262,7 +262,7 @@ Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell�
 
 Šis scenarijus apima dvi tos pačios organizacijos įmones kaip parodytatoliau pateikiamoje iliustracijoje.  
 
-[![Paprasti vidinės įmonės grąžinimai](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Paprasti vidinės įmonės grąžinimai](./media/SalesReturn07.png)
 
 Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. „Finance and Operations“ sukuria atitinkamą užsakymą kitoje įmonėje ir užtikrina, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindėtų kliento grąžinimo užsakymo parametrus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
 
@@ -270,7 +270,7 @@ Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriam
 
 Šį scenarijų galima sukurti, jei ankstesnis **Tiesioginis pristatymas** tipo pardavimas užbaigtas, ir jei SF pagal klientą egzistuoja įmonėje, kuri sąveikauja su klientu. Toliau pateikiamoje iliustracijoje įmonė „CompBuy“ anksčiau yra klientui „Extern“ pardavusi ir išrašiusi SF produktams. Jei produktai buvo išsiųsti tiesiogiai iš įmonės „CompSell“ klientui vidinės įmonės užsakymo grandinę.  
 
-[![Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių](./media/SalesReturn08.png)
 
 Jei klientas „Extern“ nori grąžinti produktus, klientui sukuriamas grąžinimo užsakymas (RMA02) įmonėje „CompBuy“. norint sukurti vidinės įmonės grandinę, grąžinimo užsakymas turi būti pažymėtas tiesioginiam pristatymui. Kai naudojate **Rasti pardavimo užsakymą** funkciją norėdami paimti kliento SF grąžinti, sukuriama vidinės įmonės užsakymo grandinė, sudaryta iš šio dokumento:
 
@@ -292,7 +292,7 @@ Tolesniuose pavyzdžiuose grąžinimo savikaina pateikiama kaip **Atsargų savik
 
 Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prekė kredituojama. Generuojant grąžinimo užsakymo sąskaitą faktūrą arba kredito pažymą, nepasirinktas parametras **Kredito koregavimas**.  
 
-[![Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą](./media/SalesReturn09.png)  
 
 **Pastaba:** pagrindinė prekės kaina naudojama kaip numatytoji parametro **Grąžinimo savikaina** vertė. Numatytoji kaina skiriasi nuo savikainos atsargų išdavimo metu. Todėl implikuojama, kad patirtas nuostolis yra 3. Be to, grąžinimo užsakymas neapima nuolaidos, kuri buvo suteikta klientui pardavimo užsakyme. Todėl susidaro kredito perviršis.
 
@@ -300,7 +300,7 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 2 pavyzdys yra tas pat 1 pavyzdys, bet parametras **Kredito koregavimas** pasirenkamas, kai sugeneruota grąžinimo užsakymo sąskaita faktūra.  
 
-[![Grąžinimo užsakymas, kai pasirinktas kredito koregavimas ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Grąžinimo užsakymas, kai pasirinktas kredito koregavimas ](./media/SalesReturn10.png)  
 
 **Pastaba:** didžiosios knygos registravimai įvesti kaip neigiami pataisymai.
 
@@ -308,7 +308,7 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 
 Šiame pavyzdyje grąžinimo užsakymo eilutė sukurta naudojant funkciją **Rasti pardavimo užsakymą**. Kuriant sąskaitą faktūrą, nepasirinktas parametras **Kredito koregavimas**.  
 
-[![Grąžinimo užsakymo eilutė, kuri sukurta naudojant funkciją Rasti pardavimo užsakymą](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Grąžinimo užsakymo eilutė, kuri sukurta naudojant funkciją Rasti pardavimo užsakymą ](./media/SalesReturn11.png)  
 
 **Pastaba:** **Nuolaida** ir **Grąžinimo savikaina** nustatytos tinkamai. Todėl įvyksta kliento sąskaitos faktūros tikslus atšaukimas.
 

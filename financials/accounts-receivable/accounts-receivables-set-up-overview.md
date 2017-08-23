@@ -1,9 +1,9 @@
 ---
 title: "Konfigūruoti Gautinas sumas bei Kreditą ir surinkimą"
 description: "Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąskaitas faktūras ir iš klientų gaunamus mokėjimus."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų 
 |                                                      | Valiutos                           | Kurkite ir peržiūrėkite valiutas, kurias naudoja jūsų organizacija.                                                                                                                                                                                                                       |
 |                                                      | Valiutų kursai              | Kurkite ir tvarkykite atitinkamus valiutos kursus tarp apskaitos valiutos ir kitų valiutų.                                                                                                                                                                              |
 |                                                      | Vidinių įmonių apskaita              | Sukurkite sąskaitų, kuriose dabartinis juridinis subjektas gali registruoti, sąrašą. Turite nustatyti debeto ir kredito sąskaitas, taip pat žurnalą, kuris gauna kito juridinio subjekto operacijas.                                                                             |
-|                                                      | Mokėjimo metodai – klientas        | Kurkite ir prižiūrėkite informaciją apie mokėjimo klientams metodus.                                                                                                                                                                                                           |
+|                                                      | Mokėjimo metodai – klientas        | Kurkite ir prižiūrėkite informaciją apie mokėjimo klientams metodus. Daugiau informacijos žr. [Nustatyti mokėjimo klientams būdą](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Organizacijų hierarchijos             | Nustatykite centralizuotų mokėjimų organizacijos hierarchiją.                                                                                                                                                                                                                        |
 |                                                      | Organizacijos hierarchijos tikslai      | Nurodykite centralizuotų mokėjimų paskirtį.                                                                                                                                                                                                                                       |
 |                                                      | Mokėjimo dienos                         | Nustatykite mokėjimo dienas, naudojamas apskaičiuojant mokėjimų, kuriuos gausite iš klientų ar atliksite tiekėjams, termino datas.                                                                                                                                                |
-|                                                      | Mokėjimo mokestis                          | Kurkite ir prižiūrėkite mokėjimo mokesčius, kurie susiję su klientais, pvz., mokesčius už įsakomuosius vekselius.                                                                                                                                                                               |
-|                                                      | Mokėjimo mokesčių nustatymas                    | Nustatykite įvairių bankų, mokėjimo būdų, pavedimo tipų, mokėjimo specifikacijų ir datos intervalų mokėjimo mokesčius.                                                                                                                              |
+|                                                      | Mokėjimo mokestis                          | Kurkite ir prižiūrėkite mokėjimo mokesčius, kurie susiję su klientais, pvz., mokesčius už įsakomuosius vekselius.                                                                                                                                                                         |
+|                                                      | Mokėjimo mokesčių nustatymas                    | Nustatykite įvairių bankų, mokėjimo būdų, pavedimo tipų, mokėjimo specifikacijų ir datos intervalų mokėjimo mokesčius.  Daugiau informacijos žr. [Nustatyti mokėjimo klientams mokesčius](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Mokėjimo grafikai                    | Sukurkite mokėjimų tvarkaraščius, kuriuos galite naudoti daliniams klientų mokėjimams ir mokėjimams tiekėjams planuoti.                                                                                                                                                                       |
 |                                                      | Mokėjimo specifikacija                | Sukurkite ir peržiūrėkite mokėjimo metodo, kurį pasirinkote puslapyje Mokėjimo metodai, mokėjimo specifikacijos kodus. Nurodykite mokėjimo specifikacijos kodus pagal savo sutartį su banku, kurio pasirinktas mokėjimo būdas nurodytas.                    |
 |                                                      | Operacijos tekstas                     | Sukurkite automatinių registravimų į DK operacijos tekstą. Galite nustatyti įvairias operacijos tekstų kalbas.                                                                                                                                                           |
@@ -83,7 +82,7 @@ Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų 
 |                                                      | Mokėjimo metodai – klientas        | Kurkite ir prižiūrėkite informaciją apie mokėjimo klientams metodus.                                                                                                                                                                                                           |
 |                                                      | Parašas                            | Pridėkite, keiskite ar šalinkite parašo vaizdo failus, pvz., .bmp, .jpg, ar .gif. Parašo vaizdo failai spausdinami ant čekių kaip oficialūs juridinio subjekto parašai.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Gautinų sumų statistikos konfigūravimas           | Skirstymo pagal terminus laikotarpio apibrėžimai             | Nustatykite ir tvarkykite vartotojo nurodytus skirstymo pagal terminus laikotarpio aprašus, kurie naudojami analizuojant klientų arba tiekėjų sąskaitų mokėjimo terminus pagal jūsų įvestą datą.                                                                                                         |
+| Gautinų sumų statistikos konfigūravimas           | Skirstymo pagal terminus laikotarpio apibrėžimai             | Nustatykite ir tvarkykite vartotojo nurodytus skirstymo pagal terminus laikotarpio aprašus, kurie naudojami analizuojant klientų arba tiekėjų sąskaitų mokėjimo terminus pagal jūsų įvestą datą. Daugiau informacijos žr. [Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją](tasks/set-up-accounts-receivable-aging-information.md)                                                           |
 |                                                      | Verslo statistika                  | Nustatykite verslo statistikos užklausas, galinčias padėti analizuoti jūsų organizacijos efektyvumą.                                                                                                                                                                              |
 |                                                      | Verslo statistikos duomenys             | Peržiūrėti pasirinkto verslo statistikos duomenis tinklelio formatu.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

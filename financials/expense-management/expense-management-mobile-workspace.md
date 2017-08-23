@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Greitas išlaidų įvedimas naudojant mobiliąją darbo sritį Išlaidų valdymas
 1. Savo mobiliajame įrenginyje atidarykite darbo sritį **Išlaidų valdymas**.
 2. Pasirinkite **Greitas išlaidų įrašas**.
-3. Pasirinkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į jūsų programą ir kurias galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba perjunkite iešką pagal išlaidų tipą.
+3. Pasirinkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į jūsų programą ir kurias galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba perjunkite iešką pagal išlaidų tipą.
 4. Įveskite išlaidų operacijos datą.
 5. Pasirinktinai: įveskite išlaidų prekybininką.
 6. Įveskite išlaidų sumą.
-7. Pasirinkite išlaidų valiutą. Matysite išlaidų kodų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba perjunkite iešką pagal pavadinimą.
+7. Pasirinkite išlaidų valiutą. Matysite išlaidų kodų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba perjunkite iešką pagal pavadinimą.
 8. Pasirinkite **Fotografuoti** arba **Pasirinkti vaizdą**.
 9. Atlikite vieną iš toliau nurodytų veiksmų.
 
@@ -166,11 +166,11 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 7. Sąraše pasirinkite vieną arba kelias išlaidas.
 8. Pasirinkite **Atlikta**.
 9. Norėdami į išlaidų ataskaitą įtraukti naujas išlaidas, pasirinkite **Naujos išlaidos**.
-10. Pasirinkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į jūsų programą ir kurias galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba perjunkite iešką pagal išlaidų tipą.
+10. Pasirinkite išlaidų kategoriją. Matysite išlaidų kategorijų, kurios įkeltos į jūsų programą ir kurias galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal išlaidų kategoriją arba perjunkite iešką pagal išlaidų tipą.
 11. Pasirinktinai: įveskite išlaidų prekybininką.
 12. Įveskite išlaidų operacijos datą.
 13. Įveskite išlaidų sumą.
-14. Pasirinkite išlaidų valiutą. Matysite išlaidų kodų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba perjunkite iešką pagal pavadinimą.
+14. Pasirinkite išlaidų valiutą. Matysite išlaidų kodų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 400 valiutų, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų valiutos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal valiutą arba perjunkite iešką pagal pavadinimą.
 15. Pasirinkite **Atlikta**.
 16. Norėdami į išlaidas įtraukti daugiau informacijos, pasirinkite **Įtraukti daugiau informacijos**. Redaguojami laukai priklauso nuo jūsų įmonės išlaidų valdymo konfigūracijos.
 17. Jei įmonės strategija nurodo, kad reikalingas išlaidų kvitas, pasirinkite **Kvitai** ir tada atlikite tolesnius veiksmus.
@@ -216,12 +216,12 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
         - Jei pasirinkote **Ankstesni svečiai**, atlikite tolesnius veiksmus.
 
-            1. Sąraše pasirinkite vieną arba kelis ankstesnius svečius. Matysite ankstesnių svečių, įtrauktų į jūsų ankstesnes išlaidų ataskaitas, kurios įkeltos į programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal vardą ir pavardę arba perjunkite iešką pagal organizaciją, šalį ar pareigas.
+            1. Sąraše pasirinkite vieną arba kelis ankstesnius svečius. Matysite ankstesnių svečių, įtrauktų į jūsų ankstesnes išlaidų ataskaitas, kurios įkeltos į programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų ankstesnio svečio sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal vardą ir pavardę arba perjunkite iešką pagal organizaciją, šalį ar pareigas.
             2. Pasirinkite **Atlikta**.
 
         - Jei pasirinkote **Bendradarbiai**, atlikite tolesnius veiksmus.
 
-            1. Sąraše pasirinkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į jūsų programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal vardą ir pavardę arba perjunkite iešką pagal įmonę ar pareigas.
+            1. Sąraše pasirinkite vieną arba kelis bendradarbius. Matysite bendradarbių, kurie įkelti į jūsų programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų bendradarbio sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal vardą ir pavardę arba perjunkite iešką pagal įmonę ar pareigas.
             2. Pasirinkite **Atlikta**.
 
     3. Norėdami vėl atidaryti išlaidų informaciją, pasirinkite mygtuką **Atgal**.
@@ -230,7 +230,7 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 
     1. Pasirinkite pirmą išvardijimo datą.
     2. Pasirinkite **Įtraukti išvardijimą**.
-    3. Pasirinkite antrinę išlaidų išvardijimo kategoriją. Matysite antrinių išlaidų kategorijų, kurios įkeltos į jūsų programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Jei jūsų antrinės kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal antrinės išlaidų kategorijos pavadinimą.
+    3. Pasirinkite antrinę išlaidų išvardijimo kategoriją. Matysite antrinių išlaidų kategorijų, kurios įkeltos į jūsų programą naudoti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jei jūsų antrinės kategorijos sąraše nėra, pasirinkite **Ieškoti**, kad atliktumėte iešką internete. Ieškokite pagal antrinės išlaidų kategorijos pavadinimą.
     4. Įveskite išvardijimo operacijos sumą.
     5. Redaguokite operacijos datą, jei reikia.
     6. Pasirinkite **Atlikta**.

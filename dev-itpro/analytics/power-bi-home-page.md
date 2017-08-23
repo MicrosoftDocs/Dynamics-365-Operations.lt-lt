@@ -1,9 +1,9 @@
 ---
-title: "Pasiekiamas „Power BI“ turinys"
+title: "„Power BI“ turinys"
 description: "Šioje temoje nurodytas pasiekiamas „Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Pasiekiamas „Power BI“ turinys
+# <a name="power-bi-content"></a>„Power BI“ turinys
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ ms.lasthandoff: 07/25/2017
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>„Power BI‟ turinio, skirto „Dynamics 365 for Finance and Operations, Enterprise edition‟, 2017 m. liepos mėn. naujinimas
 Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ 2017 m. liepos mėn. naujinimą, pasiekiamas toliau nurodytas „Power BI‟ turinys.
 
+- [„Power BI‟ turinys Faktinis palyginti su biudžeto](ledger-budgets-power-bi.md)
 - [„Power BI“ turinys Išmokos](benefits-power-bi.md)
 - [„Power BI“ turinys Grynųjų pinigų apžvalga](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [„Power BI“ turinys CFO apžvalga](CFO-power-bi.md)

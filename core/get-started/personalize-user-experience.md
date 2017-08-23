@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: "Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations‟."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -38,21 +38,21 @@ Yra daug „Microsoft Dynamics 365 for Finance and Operations“ personalizavimo
 Bet kurio tipo personalizavimo parametrai, kuriuos „Finance and Operations“ nustato vartotojas, taikomi tik tam vartotojui, nepriklausomai nuo to, su kokia įmone jis sąveikauja. Vartotojo atlikti puslapio keitimai neturi įtakos kitiems sistemos vartotojams.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Dabartinio vartotojo visos sistemos parinktys
-Naršymo juostoje galite rasti krumpliaračio vaizdą, kuris vadinamas meniu mygtuku **Parametrai**. Atidarius meniu **Parametrai** rodomas pasirinkimų sąrašas. Pasirinkus **Parinktys** atidaromas vartotojo puslapis **Parinktys**. Ten rasite keturis parinkčių skirtukus: **Vaizdas**, **Nuostatos**, **Paskyra** ir **Darbo eiga**.
+Naršymo juostoje galite rasti krumpliaračio vaizdą, kuris vadinamas meniu mygtuku **Parametrai**. Atidarius meniu **Parametrai** rodomas pasirinkimų sąrašas. Pasirinkus **Parinktys** atidaromas vartotojo puslapis **Parinktys**. Ten rasite keturių parinkčių skirtuką: 
 
--   **Vaizdas:** galima pasirinkti puslapio elementų spalvų temą ir dydį.
--   **Nuostatos:** galima pasirinkti numatytuosius parametrus, taikytinus kiekvieną kartą atidarant „Finance and Operations“, įskaitant įmonę, pradinį puslapį ir numatytąjį rodymo / redagavimo režimą (kuris nustato, ar kiekvieną kartą atidarius puslapį jis yra užrakintas ir jį galima tik peržiūrėti, ar jį galima redaguoti). Taip pat rasite kalbos, laiko juostos ir datos, laiko ir bei skaičių formato parinktis. Galiausiai šiame puslapyje yra papildomų nuostatų, kurios skiriasi priklausomai nuo versijos.
--   **Paskyra:** galima nurodyti vartotojo ID ir kitas su paskyra susijusias parinktis.
--   **Darbo eiga:** galima pasirinkti su darbo eiga susijusias parinktis.
+-   **Vaizdas** – galima pasirinkti puslapio elementų spalvų temą ir dydį.
+-   **Nuostatos** – galima pasirinkti numatytuosius parametrus, taikytinus kiekvieną kartą atidarant „Finance and Operations“, įskaitant įmonę, pradinį puslapį ir numatytąjį rodymo / redagavimo režimą (kuris nustato, ar kiekvieną kartą atidarius puslapį jis yra užrakintas ir jį galima tik peržiūrėti, ar jį galima redaguoti). Taip pat rasite kalbos, laiko juostos ir datos, laiko ir bei skaičių formato parinktis. Galiausiai šiame puslapyje yra papildomų nuostatų, kurios skiriasi priklausomai nuo versijos.
+-   **Paskyra** – galima nurodyti vartotojo ID ir kitas su paskyra susijusias parinktis.
+-   **Darbo eiga** – galima pasirinkti su darbo eiga susijusias parinktis.
 
 ## <a name="implicit-personalizations"></a>Netiesioginis personalizavimas
 Netiesioginis yra personalizavimas, kurį atliekate tiesiog sąveikaudami su tam tikrais valdikliais, kurie įsimeną savo esamą matomą būseną. 
 
-**Tinklelio stulpeliai:** sąraše galite koreguoti stulpelio plotį, pasirinkdami dydžio keitimo juostą kairėje arba dešinėje stulpelio antraštės pusėje ir slinkdami ją į kairę arba į dešinėje. „Finance and Operations“ išsaugos jūsų norimą plotį ir kiekvieną kartą atidarius puslapį su tuo sąrašu rodomas stulpelis bus to pločio. 
+**Tinklelio stulpeliai** – sąraše galite koreguoti stulpelio plotį, pasirinkdami dydžio keitimo juostą kairėje arba dešinėje stulpelio antraštės pusėje ir slinkdami ją į kairę arba į dešinėje. „Finance and Operations“ išsaugos jūsų norimą plotį ir kiekvieną kartą atidarius puslapį su tuo sąrašu rodomas stulpelis bus to pločio. 
 
-**FastTabs:** kai kuriuose puslapiuose yra išplečiamos dalys, vadinamos „FastTab“. „Finance and Operations“ išsaugos išplėstų ir sutrauktų „FastTab“ rodinius. Kiekvieną kartą vėl atidarę puslapį matysite tuos pačius „FastTab“ išplėstus arba sutrauktus, atsižvelgiant į tai, kaip paskutinį kartą juos naudojote. Šiame straipsnyje paaiškinsime, kaip keisti „FastTab“dalių tvarką. Kai kuriais atvejais sutraukus „FastTab“ galima padidinti efektyvumą, nes „Finance and Operations“ nereikės nuskaityti to „FastTab“ informacijos, kol „FastTab“ neišskleistas. 
+**FastTabs** – kai kuriuose puslapiuose yra išplečiamos dalys, vadinamos „FastTab“. „Finance and Operations“ išsaugos išplėstų ir sutrauktų „FastTab“ rodinius. Kiekvieną kartą vėl atidarę puslapį matysite tuos pačius „FastTab“ išplėstus arba sutrauktus, atsižvelgiant į tai, kaip paskutinį kartą juos naudojote. Šiame straipsnyje paaiškinsime, kaip keisti „FastTab“dalių tvarką. Kai kuriais atvejais sutraukus „FastTab“ galima padidinti efektyvumą, nes „Finance and Operations“ nereikės nuskaityti to „FastTab“ informacijos, kol „FastTab“ neišskleistas. 
 
-**Fact Boxes:** kai kuriuose puslapiuose yra dalis, vadinama „Fact Box“ sritimi. Šioje srityje yra tik skaityti skirta informacija, susijusi su dabartine puslapio tema. Kiekviena „Fact Box“ srities dalis yra vadinama „Fact Box“. „Fact Box“ galite išplėsti arba sutraukti, o „Finance and Operations“ išsaugos jūsų nuostatą. Kai kuriais atvejais sutraukus „Fact Box“ galima padidinti efektyvumą, nes „Finance and Operations“ nereikės nuskaityti to „Fact Box“ informacijos, kol „Fact Box“ neišskleistas.
+**Fact Boxes** – kai kuriuose puslapiuose yra dalis, vadinama „Fact Box“ sritimi. Šioje srityje yra tik skaityti skirta informacija, susijusi su dabartine puslapio tema. Kiekviena „Fact Box“ srities dalis yra vadinama „Fact Box“. „Fact Box“ galite išplėsti arba sutraukti, o „Finance and Operations“ išsaugos jūsų nuostatą. Kai kuriais atvejais sutraukus „Fact Box“ galima padidinti efektyvumą, nes „Finance and Operations“ nereikės nuskaityti to „Fact Box“ informacijos, kol „Fact Box“ neišskleistas.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Tiesioginis personalizavimas naudojant personalizavimo įrankių juostą
 Kiekvienas asmuo ir įmonė turi skirtingą nuomonę apie tai, kurie duomenys yra jiems svarbiausi ir kurie nėra reikalingi jų verslui vykdyti. Galimybė pritaikyti asmeniniams poreikiams tai, kaip informacija yra užsakoma, kaip su ja sąveikaujama arba net kaip ji slepiama, yra pagrindinis būdas „Finance and Operations“ personalizuoti ir produktyviai naudoti. 
@@ -107,15 +107,20 @@ Kai kuriose srityse yra skaičių išklotinės (išklotinės su skaičiais), kur
 Ataskaitų sritis dažnai yra pirmas rodomas puslapis atidarius „Finance and Operations“. Galite personalizuoti ataskaitų sritį norėdami pervardyti darbo srities naršymo išklotines, rodyti tik išklotines, kurias norite matyti, pervardyti išklotines arba išdėstyti išklotines norima tvarka. Norėdami personalizuoti ataskaitų sritį, pasirinkite bet kurą išklotinę ir spustelėję dešinįjį pelės mygtuką atidarykite kontekstinį meniu. Kontekstiniame meniu pasirinkite **Pritaikyti**. Jei pasirinktą išklotiną norite paslėpti, pervardyti arba praleisti, galite šį keitimą atlikti tiesiai rodomame lange Ypatybės. Jei norite keisti išklotinių išdėstymą, lange Ypatybės pasirinkite **Pritaikyti šią formą asmeniniams poreikiams** ir atidarykite personalizavimo įrankių juostą. Tada galite naudoti įrankį Perkelti ir pakeisti išklotinių išdėstymą.
 
 ## <a name="administration-of-personalization"></a>Personalizavimo parametrų administravimas
-Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojo vartotojais. Tiesiog eksportuokite personalizuotą puslapį. Tada kitų vartotojų galite paprašyti atsidaryti personalizuotą puslapį ir importuoti personalizavimo failą, kurį sukūrėte.
+Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojo vartotojais eksportuodami personalizuotą puslapį. Tada kitų vartotojų galite paprašyti atsidaryti personalizuotą puslapį ir importuoti personalizavimo failą, kurį sukūrėte.
 
-Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų vartotojų personalizavimą puslapyje **Personalizavimas**. Šiame puslapyje yra keturi skirtukai: **Sistema**, **Vartotojai**, **Importuoti** ir **Išvalyti**.
+Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų vartotojų personalizavimą puslapyje **Personalizavimas**. Šiame puslapyje yra keturi skirtukai: 
 
 - **Sistema** – galite laikinai pasyvinti arba išjungti visus sistemos personalizavimus. Tokiu atveju jūs nepanaikinate personalizavimo. Užuot panaikinę, tiesiog iš naujo nustatote visus puslapius į jų numatytąją būseną. Jeigu vėliau iš naujo suaktyvinate personalizavimą, visi personalizavimai iš naujo pritaikomi kiekvienam vartotojo puslapiui. Taip pat galite visų vartotojų personalizavimo parametrus naikinti. Atkreipkite dėmesį, kad panaikinus sistemos personalizavimo parametrus, nėra būdo juos automatiškai vėl suaktyvinti. Todėl prieš atlikdami šį veiksmą įsitikinkite, kad eksportavote visu personalizavimus, kuriuos vėliau galite norėti importuoti.
 - **Vartotojai** – galite nurodyti, ar kiekvienas vartotojas gali atlikti netiesioginį personalizavimą arba tiesioginį personalizavimą. Taip pat galite nurodyti, kurie vartotojai gali tiesiogiai arba netiesiogiai personalizuoti konkretų puslapį. Galiausiai galite importuoti, eksportuoti arba panaikinti kiekvieno vartotojo personalizavimą.
 - **Importuoti** – galite importuoti personalizavimą vienam ar daugiau vartotojų. Šį skirtuką naudokite, kai sukūrėte puslapio ar darbo srities personalizavimą ir eksportavote šį personalizavimą kaip personalizavimo failą. Kad importuotumėte personalizavimo failą ir taikytumėte jį vienam ar daugiau vartotojų, vartotojų sąraše pasirinkite konkrečius vartotojus arba filtruokite pagal tam tikrą vaidmenį, tada pasirinkite vartotojus šiam vaidmeniui. Pasirinkus vartotojus, kurie naudos jūsų personalizavimą, spustelėkite **Importuoti** ir pasirinkite savo personalizavimo failą. Personalizavimas bus patikrintas ir taikomas visiems pasirinktiems vartotojams, kai jie kitą kartą atidarys pasirinktą puslapį.
 - **Išvalyti** – galite išvalyti vieno ar daugiau vartotojų puslapio ar darbo srities personalizavimą. Pirmiausia pasirinkite puslapį arba darbo sritį, kurios personalizavimą norite išvalyti. Tada visų vartotojų sąraše pasirinkite atskirus vartotojus arba filtruokite pagal tam tikrą jo vaidmenį ir pasirinkite vartotojus šiam vaidmeniui. Kai pasirinkote puslapį arba darbo sritį ir vartotojus, spustelėkite **Išvalyti**. Išvalomi visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei puslapyje ar darbo srityje yra įrašytas personalizavimas, toks personalizavimas gali būti iš naujo importuojamas.
 
+## <a name="personalization-of-inventory-dimensions"></a>Atsargų dimensijų personalizavimo duomenys
 
+Personalizuodami puslapyje atsargų dimensijų sąranką, atsižvelkite į parametrus, kurie buvo sukurti naudojant parinktį **Rodyti dimensiją**. Jei naudojate personalizavimą norėdami paslėpti paketo numerio atsargų dimensijos stulpelį, tačiau stulpelis rodomas kitą kartą atidarius puslapį, gali būti, kad dimensijų rodymo parametras valdo tai, kas rodoma atsargų dimensijų stulpeliuose|. 
 
+Dimensijos rodymo parametrai taikomi visuose puslapiuose ir šie parametrai perrašys visus personalizuotus atsargų dimensijų laukų nustatymus atskiruose puslapiuose. 
+
+Pavyzdyje su paketo numerio atsargų dimensija, šią dimensiją būtina išvalyti kaip **Rodyti dimensijas** parinkties dalį, kad lentelėje nebebūtų rodomas šis stulpelis. Galiausiai šis pakeitimas bus taikomas ne tik vienam konkrečiam puslapiui, tačiau visuose puslapiuose.
 

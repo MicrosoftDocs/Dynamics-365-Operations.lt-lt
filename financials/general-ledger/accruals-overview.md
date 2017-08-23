@@ -3,7 +3,7 @@ title: "Kaupimų apžvalga"
 description: "Šiame straipsnyje aprašyti kaupimai ir pateikta informacija apie tai, kaip juos nustatyti ir sukurti operacijas."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ Nusprendę, kurias sąskaitas naudoti, galite nurodyti, kaip kuriamas kvito nume
 Įvedę žurnalą, galite spustelėti **DK kaupimai** meniu **Funkcijos**. Tada, kai pasirenkate kaupimo schemą, matysite pagrindinę žurnalo sumą, kuri bus paskirstyta per laikotarpį pagal kaupimo schemą. Pavyzdžiui, jei sausį mokate darbuotojo draudimą už visus metus, ir ši suma yra 12 000, šias išlaidas turite priskirti kiekvieną mėnesį. Galite pasirinkti pradžios datą. Taip pat galite nurodyti, ar suma sukaupta pagal sąskaita arba korespondentinę sąskaitą. Atlikę savo pasirinkimus, spustelėkite **Operacijos**, kad peržiūrėtumėte visas operacijas, sukurtas pagal kaupimo schemą. Pavyzdžiui, jei 12 000 draudimo išlaidų paskirstysite per metus, kiekvieną mėnesį matysite 1 000. Užregistravę žurnalą, galite peržiūrėti operacijas naudodami užklausų puslapį **Kvito operacijos**. Jei kaupimo schemos pritaikyti negalima (pvz., kai yra pardavimo užsakymo SF arba pirkimo užsakymo SF), galite kredituoti iš anksto sumokėtą sumą ir debetuoti išlaidų sumą. Tada, taikydami kaupimo schemą, galite pasirinkti **Korespondentinė sąskaita**.
 
 
-
+Daugiau informacijos žr. [Kurti kaupimo schemas](tasks/create-accrual-schemes.md) ir [Kurti DK kaupimo operacijas](tasks/create-ledger-accrual-transactions.md).
 

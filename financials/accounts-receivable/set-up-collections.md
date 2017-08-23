@@ -1,9 +1,9 @@
 ---
 title: "Nustatyti Kreditą ir surinkimą"
 description: "Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ Jei iš **Surinkimo** puslapo siųsite el. laiškus su „Microsoft Excel‟ pri
 Nustatykite gautinų sumų parametrus, rodomus **Surinkimo** skirtuke.
 
 ## <a name="optional-set-up-collections-agents"></a>Pasirinktinai: nustatyti mokėjimų priežiūros agentus
-Jei jūsų organizacijoje keli žmonės užsiima mokėjimų priežiūra, galite nustatyti mokėjimų priežiūros agentus. Surinkimo agentas yra darbuotojas, kuris yra nustatytas kaip naudotojas puslapyje**Naudotojų ryšiai**. Galite surinkimo agentams priskirti klientų telkinius, (klientų užklausas), kad jiems padėtumėte organizuoti savo darbą. Surinkimo agentai pridedami į komandą, kuri pasirenkama **Gautinų sumų parametrų** puslapyje. Jei tame puslapyje komanda nepasirenkama, automatiškai sukuriama nauja komanda pavadinimu **Surinkimas** ir į šią komandą pridedami surinkimo agentai.
+Jei jūsų organizacijoje keli žmonės užsiima mokėjimų priežiūra, galite nustatyti mokėjimų priežiūros agentus. Surinkimo agentas yra darbuotojas, kuris yra nustatytas kaip naudotojas puslapyje **Naudotojų ryšiai**. Galite surinkimo agentams priskirti klientų telkinius, (klientų užklausas), kad jiems padėtumėte organizuoti savo darbą. Surinkimo agentai pridedami į komandą, kuri pasirenkama **Gautinų sumų parametrų** puslapyje. Jei tame puslapyje komanda nepasirenkama, automatiškai sukuriama nauja komanda pavadinimu **Surinkimas** ir į šią komandą pridedami surinkimo agentai.
 
 ## <a name="set-up-a-writeoff-account"></a>Nustatyti nurašymo sąskaitą
 Nustatykite nurašymo sąskaitą, kuri bus naudojama didžiosios knygos nurašymo įraše nurašius operaciją. Ši sąskaita yra saugoma kliento registravimo profilyje.
@@ -94,5 +94,12 @@ Nustatykite pardavėjų el. pašto adresus, jei norite siųsti el. laiškus pard
 Jei pardavimo atstovas nenurodytas, naudojamas pagrindinis kliento organizacijos pardavėjas. Jei pagrindinis pardavėjas nenurodytas, el. laiškai siunčiami pirmam puslapyje nurodytam pardavėjui.
 
 
+Daugiau informacijos ieškokite šiose temose:
+
+ - [Kurti priminimo laiškų seką](tasks/create-collection-letter-sequence.md)
+ 
+ - [Apdoroti priminimo laiškus](tasks/process-collection-letters.md)
+ 
+ - [Peržiūrėti mokėjimų priežiūros informaciją](tasks/review-collections-information.md)
 
 

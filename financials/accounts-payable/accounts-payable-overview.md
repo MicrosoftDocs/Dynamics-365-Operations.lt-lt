@@ -1,9 +1,9 @@
 ---
 title: "Konfigūruoti Mokėtinas sumas"
 description: "Šiame straipsnyje aprašomi puslapiai, kuriuos naudojate norėdami nustatyti pagrindines ir laisvai pasirenkamas funkcijas programos „Microsoft Dynamics 365 Finance and Operations“ leidimo „Enterprise“ modulyje Mokėtinos sumos. Jame taip pat aprašomi nustatymo veiksmai, kuriuos turite atlikti prieš pradėdami nustatyti Mokėtinas sumas."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Prieš nustatydami Mokėtinas sumas, turite atlikti toliau nurodytą sąranką.
 ## <a name="setup-pages-for-accounts-payable"></a>Mokėtinų sumų sąrankos puslapiai
 
 Norėdami nustatyti pagrindines kiekvieno juridinio subjekto Mokėtinų sumų funkcijas, naudokite toliau nurodytus puslapius. Puslapiai išvardyti rekomenduojama sąrankos tvarka. Norėdami palengvinti sąrankos procesą, galite kurti šablonus iš pirmųjų sukurtų įrašų. Šablone reikšmės paprastai įvedamos keliuose laukuose, kad būtų atspindimos savybės, kurias organizacija nori pritaikyti tam tikram klientų tipui.
-1.  Mokėjimo sąlygų puslapyje apibrėžkite mokėjimo sąlygas, kurias norite priskirti pardavimo užsakymams, pirkimo užsakymams, klientams ir tiekėjams, ir kurios apibrėžia SF terminus.
+1.  Mokėjimo sąlygų puslapyje apibrėžkite mokėjimo sąlygas, kurias norite priskirti pardavimo užsakymams, pirkimo užsakymams, klientams ir tiekėjams, ir kurios apibrėžia SF terminus. Daugiau informacijos žr. [Nustatyti tiekėjo mokėjimo mokesčius](tasks/define-vendor-payment-fees.md).
 2.  Puslapyje Mokėjimo metodai – tiekėjai kurkite ir prižiūrėkite informaciją apie tai, kaip organizacija moka savo tiekėjams.
 3.  Tiekėjų grupių puslapyje kurkite ir prižiūrėkite tiekėjų grupes su tokiais pat svarbiais registravimo, sudengimo ir mokėjimo, ataskaitų kūrimo bei prognozavimo parametrais.
 4.  Tiekėjų registravimo profilių puslapyje apibrėžkite, kaip tiekėjų operacijos registruojamos į DK.

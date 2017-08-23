@@ -3,7 +3,7 @@ title: "ISO20022 failų importavimas"
 description: "Šioje temoje paaiškinama, kaip importuoti ISO 20022 mokėjimo failų camt.054 ir pain.002 formatų failus į „Microsoft Dynamics 365 for Finance and Operations“ („Enterprise“ leidimą)."
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Jei importuojate camt.054 failą, turite nurodyti toliau pateiktus papildomus pa
 - **Sudengti operacijas** – nustatykite šią parinktį į **Taip**, jei importuotus tiekėjo mokėjimus reikia sudengti naudojant sistemoje randamas SF.
 
 Importuotą informaciją galite peržiūrėti puslapyje **Mokėjimo perkėlimai**. 
+
+## <a name="additional-details"></a>Papildoma informacija
+
+Importuodami formato konfigūraciją iš LCS, jūs importuojate visą konfigūracijos medį, o tai reiškia, kad įtraukiamos modelio ir modelio susiejimo konfigūracijos. Mokėjimo modelyje pradedant nuo 8 versijos susiejimai yra atskirose ER konfigūracijose sprendimų medyje (mokėjimo modelio susiejimas 1611, mokėjimo modelio susiejimas su paskirtimi ISO20022 ir t.t.). Yra daug skirtingų mokėjimo formatų viename modelyje (mokėjimo modelis), todėl atskiras susiejimo tvarkymas yra labai svarbus siekiant nesudėtingai tvarkyti sprendimus. Išnagrinėkime šį scenarijų: galite naudoti ISO20022 mokėjimus norėdami generuoti kredito perkėlimo failus, tada importuoti iš banko gautus pranešimus. Tokiu atveju reikėtų naudoti tokias konfigūracijas:
+
+ - **Mokėjimo modelis**
+ - **Mokėjimo modelio susiejimas 1611** – šis susiejimas bus naudojamas generuoti eksportavimo failą
+ - **Mokėjimo modelio susiejimas su paskirtimi ISO20022** – ši konfigūracija apima visus susiejimus, kurie bus naudojami importuoti duomenis („į paskirties vietą“ susiejimo kryptis)
+ - **ISO20022 kredito pervedimas** – ši konfigūracija apima formato komponentą, kuris atsakingas už eksportavimo failo generavimą (pain.001) pagal mokėjimo modelio susiejimą 1611, taip pat modelio susiejimo komponento formatą, kuris bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima registruoti eksportuotus mokėjimus sistemoje tolesniais importavimo tikslais (importavimas į „CustVendProcessedPayments“ techninę lentelę)
+ - **ISO20022 kredito pervedimas (CE)**, kur CE atitinka šalies plėtinį – išvestinis ISO20022 kredito pervedimos formatas su ta pačia struktūra ir tam tikrais kiekvienai šaliai būdingais skirtumais
+ - **Pain.002** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti pain.002 failą į tiekėjo mokėjimų perkėlimų žurnalą
+ - **Camt.054** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti camt.054 failą į tiekėjo mokėjimų perkėlimų žurnalą Ta pati formato konfigūracija bus naudojama kliento mokėjimų importavimo funkcijoms, tačiau skirtingų susiejimas bus naudojamas mokėjimo modelio susiejime su paskirties ISO20022 konfigūracija.
+
+Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+- [Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [Importuoti ISO20022 kredito pervedimo konfigūraciją](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [Importuoti ISO20022 tiesioginio debeto konfigūraciją](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Nustatyti ISO20022 kredito pervedimų įmonės banko sąskaitas](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Nustatyti ISO20022 tiesioginio debeto įmonės banko sąskaitas](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Nustatyti ISO20022 tiesioginio debeto klientus ir klientų banko sąskaitas](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Nustatyti ISO20022 kredito pervedimo mokėjimo būdą](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [ISO20022 tiesioginio debeto mokėjimo būdo nustatymas](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Nustatyti ISO20022 kredito pervedimų tiekėjus ir tiekėjų banko sąskaitas](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 
