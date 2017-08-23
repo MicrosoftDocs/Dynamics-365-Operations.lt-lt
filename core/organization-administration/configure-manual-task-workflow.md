@@ -3,7 +3,7 @@ title: "Neautomatizuotos darbo eigos užduoties konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Jei per skirtąjį laiką vartotojas neautomatizuotos užduoties nebaigs, užduo
 
 1.  Kairiojoje srityje spustelėkite **Perskyrimas**.
 2.  Pasirinkite žymės langelį **Naudoti perskyrimo maršrutą**, norėdami kurti perskyrimo maršrutą. Sistema automatiškai priskirs užduotį perskyrimo sąraše pateiktiems vartotojams. Pavyzdžiui, tolesnėje lentelėje pateikiamas perskyrimo maršrutas.
+
     | Seka | Perskyrimo maršrutas      |
     |----------|----------------------|
     | 1        | Priskirti: Donna     |
@@ -318,7 +319,9 @@ Pranešimus žmonėms galima siųsti, kai neautomatizuota užduotis yra perduota
 8.  Pakartokite veiksmus 3–7 kiekvienam įvykiui, kurį pasirinkote 2 veiksme.
 
 ## <a name="set-a-time-limit"></a>Laiko limito nustatymas
-Jei neautomatizuota užduotis turi būti baigta per tam tikrą laiką, atlikite šiuos veiksmus. **Pastaba.** Šioje procedūroje pasirinktos parinktys gali perrašyti parinktis, kurias pasirinkote puslapio srityse **Priskyrimas** ir **Perskyrimas**.
+Jei neautomatizuota užduotis turi būti baigta per tam tikrą laiką, atlikite šiuos veiksmus. 
+
+**Pastaba.** Šioje procedūroje pasirinktos parinktys gali perrašyti parinktis, kurias pasirinkote puslapio srityse **Priskyrimas** ir **Perskyrimas**.
 
 1.  Kairiojoje srityje spustelėkite **Išplėstiniai parametrai**.
 2.  Pasirinkite žymės langelį **Nustatyti darbo eigos elemento laiko limitą**.
