@@ -3,7 +3,7 @@ title: "Bendrųjų žurnalų apdorojimas"
 description: "Šiame straipsnyje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ Pagrindinės sąskaitos sąranka teikia daug pagrindinio žurnalo apdorojimo gal
 
 Apskaitos struktūros ir išplėstinių taisyklių struktūros yra labai svarbios siekiant užtikrinti, kad duomenys, būtini finansinėms ataskaitoms ir efektyvumui sekti, būtų įrašomi apdorojant bendrąjį žurnalą ir dokumentuojant. Apskaitos struktūros ir išplėstinių taisyklių struktūros leidžia pritaikyti duomenų įvedimo patirtį. Galite leisti tik kiekvienu atveju svarbių finansinių dimensijų duomenų įrašus, taip pat galite taikyti reikalavimą, kad privalomi ir teisingi duomenys visada būtį įrašomi.
 
-Daugiau informacijos žr. dalyje [Planavimas: sąskaitų planas](plan-chart-of-accounts.md). 
-
+Daugiau informacijos ieškokite šiose temose:
+- [Planavimas: sąskaitų planas](plan-chart-of-accounts.md). 
+- [Kurti papildomas žurnalų taisykles](tasks/create-advanced-rules-journals.md)
+- [Kurti žurnalo įrašą naudojant šabloną](tasks/create-journal-entry-template.md)
+- [Kurti ir patvirtinti žurnalus](tasks/create-validate-journals.md)
+- [Registruoti periodinius žurnalus](tasks/post-periodic-journals.md)
+- [Apdoroti didžiosios knygos paskirstymo žurnalą](tasks/process-ledger-allocation-journal.md)
 
 
 

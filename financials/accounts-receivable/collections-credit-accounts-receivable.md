@@ -1,9 +1,9 @@
 ---
 title: "Kreditas ir mokėjimai Gautinų sumų modulyje"
 description: "Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Finance and Operations‟ (leidimas „Enterprise‟) puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Galite atsisakyti, atkurti arba pakeisti baigtas procentų notas, mokesčius ir 
 
 Šie patikslinimai įtakoja tik pažymėtas palūkanų notas, palūkanas ir į jas įtrauktus mokesčius. Naudokite veiksmus iš „Sukurti nurašymo operacijas vienu veiksmu“ skyriaus, norėdami nurašyti visus mokesčius, kuriuos klientas turi sumokėti.
 
+Daugiau informacijos žr. [Kurti palūkanų kodą su intervalu](tasks/create-interest-code-range.md) ir [Apdoroti palūkanas](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Nurašymo operacijų kūrimas
 Beviltiškas skolas galite nurašyti, paspaudę „Nurašyti“ „Mokėjimų priežiūros“ formoje, „Pagal terminus suskirstyti likučiai“, „Klientai“ ir „Atidaryti klientų sąskaitų sąrašą“ puslapiuose. 
 
@@ -100,7 +101,10 @@ Kai nurašote operacijas klientui, visos operacijos klientui yra automatiškai p
 -   Trečiojo tipo žurnalo eilutėje yra didžiosios knygos nurašymo pardavimo mokesčių nurašymo informacija. Šis žurnalo eilutė sukuriama tik, jei gautinų sumų parametrų puslapyje yra pasirinktas atskiras pardavimo mokesčio keitimas. Jeigu pažymėtai operacijai yra keli mokėtinos sąskaitos pardavimo mokesčio deriniai, dimensija ir pardavimo mokesčio kodas, kiekvienam deriniui sukuriama atskira žurnalo eilutė.
 
 Nurašymo operacija sukuriama operacijos valiuta.
-Apdoroti lėšų trūkumo (NSF) mokėjimus  
+
+Daugiau informacijos žr. [Kurti kliento nurašymo žurnalą](tasks/create-write-off-journal-customer.md)
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Apdoroti lėšų trūkumo (NSF) mokėjimus  
 --------------------------------------------
 
 NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros puslapyje. Kai paspausite šį mygtuką, mokėjimas bus atšauktas. Jei klientui taikomas NSF mokestis, sukuriama mokesčio operacija mokėjimo žurnale. Mokesčio suma grindžiama automatinių mokesčių parametrais. NSF mokėjimams automatiškai taikomi mokesčiai, kurie nurodomi pagal mokesčių grupę, pasirenkamą banko sąskaitų puslapyje atitinkamai banko sąskaitai.

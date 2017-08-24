@@ -3,7 +3,7 @@ title: "„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas"
 description: "Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,7 +13,7 @@ ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations. Core
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f

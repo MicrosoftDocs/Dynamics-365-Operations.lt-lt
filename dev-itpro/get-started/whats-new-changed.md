@@ -1,9 +1,9 @@
 ---
 title: "Kas nauja ar pasikeitė"
 description: "Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose."
-author: sericks007
+author: josaw1
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 07/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
-ms.author: sericks
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.author: josaw
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
+ms.sourcegitcommit: 5d945fe857a117c335dab7d377e41e7574a645e5
+ms.openlocfilehash: e446d5cd4fd331184665b5fd6cb1cdf972a6e599
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -109,6 +109,12 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 </thead>
 <tbody>
 <tr class="odd">
+<td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
+<td>9 platformos naujinimas</td>
+<td>7.0.4612.35162</td>
+<td>Liepos 2017 d.</td>
+<td><a href="whats-new-platform-update-9.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo platformos 9 naujinime (2017 m. liepa)</a></td>
+</tr><tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>8 platformos naujinimas</td>
 <td>7.0.4565.16212</td>

@@ -1,9 +1,9 @@
 ---
 title: "Biudžeto planavimo „Excel“ šablonai"
 description: "Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: lt-lt
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ ms.lasthandoff: 07/27/2017
 
 Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną arba daugiau maketų. Kiekvienam maketui galima priskirti biudžeto plano dokumento šabloną, kad būtų galima peržiūrėti ir redaguoti biudžeto plano duomenis „Excel“ darbalapyje. Šioje temoje biudžeto plano dokumento šablonas bus sugeneruotas naudojant esamo maketo konfigūraciją. 
 
-Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 
+1. Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). 
+2. Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Biudžeto planų sąrašas](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Naudokite eilutės parinktį **Įtraukti**, kad įtrauktumėte eilučių. Spustelėkite **Maketai**, kad peržiūrėtumėte biudžeto plano dokumento maketo konfigūraciją. 
+3. Naudokite eilutės parinktį **Įtraukti**, kad įtrauktumėte eilučių. Spustelėkite **Maketai**, kad peržiūrėtumėte biudžeto plano dokumento maketo konfigūraciją. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Biudžeto planų įtraukimas](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. Sugeneravę šabloną pasirinkite **Šablonas** &gt; **Peržiūrėti**, kad atidarytumėte ir peržiūrėtumėte biudžeto plano dokumento šabloną. „Excel“ failą galite įrašyti į vietinį diską. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. 
+1. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. 
+2. Sugeneravę šabloną pasirinkite **Šablonas** &gt; **Peržiūrėti**, kad atidarytumėte ir peržiūrėtumėte biudžeto plano dokumento šabloną. „Excel“ failą galite įrašyti į vietinį diską. 
+
+[![Įrašyti kaip](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Biudžeto plano dokumento maketo redaguoti negalima, kai jis susietas su „Excel“ šablonu. Norėdami redaguoti maketą, panaikinkite susietą „Excel“ šablono failą ir sugeneruokite jį iš naujo. Tai būtina, kad maketo ir darbalapio laukai būtų sinchronizuoti. 
 
 „Excel“ šablone bus pateikti visi biudžeto plano dokumento maketo elementai, kurių stulpelis **Pasiekiama darbalapyje** nustatytas į True. Persidengiančių elementų „Excel“ šablone pateikti negalima. Pvz., jei makete yra stulpeliai Užklausa per 1 ketvirtį, Užklausa per 2 ketvirtį, Užklausa per 3 ketvirtį ir Užklausa per 4 ketvirtį bei visų užklausų stulpelis, kuris nurodo visų 4 ketvirčių stulpelių sumą, „Excel“ šablone galima naudoti tik ketvirčių stulpelius arba visų užklausų stulpelį. Naujinimo metu „Excel“ failas negali atnaujinti persidengiančių stulpelių, nes lentelės duomenys gali tapti pasenę ir netikslūs.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Pavyzdys:](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Siekiant išvengti galimų problemų, susijusių su biudžeto plano duomenų peržiūra ir redagavimu programoje „Excel“, tas pats vartotojas turėtų prisijungti prie „Dynamics 365 for Operations“ (leidimas „Enterprise“) ir prie „Microsoft Dynamics Office“ papildinio duomenų jungties.

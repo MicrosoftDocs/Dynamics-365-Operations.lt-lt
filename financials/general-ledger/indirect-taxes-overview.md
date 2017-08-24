@@ -3,7 +3,7 @@ title: "PVM apžvalga"
 description: "Šiame straipsnyje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Pateiktoje diagramoje parodyti mokesčių sąrankos objektai ir tai, kaip jie su
 
 Reikia nurodyti kiekvieno PVM, kurį įmonė turi deklaruoti, kodą. PVM kode saugomi PVM tarifai ir skaičiavimo taisyklės. 
 
-Kiekvieną PVM kodą reikia susieti su PVM sudengimo laikotarpiu. PVM sudengimo laikotarpiais apibrėžiami intervalai, kuriais PVM reikia deklaruoti ir sumokėti PVM institucijai. Kiekvieną PVM sudengimo laikotarpį reikia priskirti PVM institucijai. PVM institucija – tai subjektas, kuriam deklaruojamas ir mokamas PVM. Ji taip pat apibrėžia PVM ataskaitos maketą. PVM institucijos gali būti susijusios su tiekėjų sąskaitomis. 
+Kiekvieną PVM kodą reikia susieti su PVM sudengimo laikotarpiu. PVM sudengimo laikotarpiais apibrėžiami intervalai, kuriais PVM reikia deklaruoti ir sumokėti PVM institucijai. Kiekvieną PVM sudengimo laikotarpį reikia priskirti PVM institucijai. PVM institucija – tai subjektas, kuriam deklaruojamas ir mokamas PVM. Ji taip pat apibrėžia PVM ataskaitos maketą. PVM institucijos gali būti susijusios su tiekėjų sąskaitomis. Daugiau informacijos žr. [Nustatyti PVM sudengimo laikotarpius](tasks/set-up-sales-tax-settlement-periods.md).
 
 Kiekvieną PVM kodą taip pat reikia susieti su DK registravimo grupe. DK registravimo grupė nurodo pagrindines sąskaitas, į kurias bus registruojamos PVM kodų sumos. 
 
@@ -60,13 +59,13 @@ Toliau pateikiamoje lentelėje aprašomi mokesčių sąrankos objektai ir seka.
 | Nustatymo veikla                                                  | Būtina/pasirinktinai ir aprašymas                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kurti pagrindines sąskaitas.                                           | Reikia. Prieš nustatant PVM funkcijas, turi būti sukurtos pagrindinės sąskaitos, kurias įmonė naudoja mokesčiams mokėti ir įrašyti.                                                                                                                                                                             |
-| Nustatykite PVM skirtų DK registravimo grupių.                     | Reikia. DK registravimo grupės apibrėžia pagrindines sąskaitas, skirtas registruoti ir mokėti PVM.                                                                                                                                                                                                                            |
-| Nustatykite PVM institucijas.                                   | Reikia. PVM institucijos yra subjektai, kuriems turi būti deklaruojamas ir mokamas mokestis.                                                                                                                                                                                                                                   |
+| Nustatykite PVM skirtų DK registravimo grupių.                     | Reikia. DK registravimo grupės apibrėžia pagrindines sąskaitas, skirtas registruoti ir mokėti PVM.   Daugiau infrmacijos žr. [Nustatyti PVM skirtų DK registravimo grupes](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Nustatykite PVM institucijas.                                   | Reikia. PVM institucijos yra subjektai, kuriems turi būti deklaruojamas ir mokamas mokestis.    Daugiau informacijos žr. [Nustatyti PVM rinkėjus](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Nustatyti PVM sudengimo laikotarpius.                            | Reikia. PVM sudengimo laikotarpiuose yra informacija apie tai, kada ir kaip dažnai reikia deklaruoti ir mokėti PVM. Jie yra susiję su PVM institucija.                                                                                                                                                       |
-| Nustatyti PVM ataskaitų kodus.                               | Pasirinktinai. PVM ataskaitų kodus galima priskirti PVM kodams, norint kelių PVM kodų sumas deklaruoti pagal vieną PVM ataskaitų kodą.                                                                                                                                                                 |
-| Nustatyti PVM kodus.                                         | Reikia. PVM koduose yra kiekvieno PVM tarifai ir skaičiavimo taisyklės. PVM kodai yra susiję su PVM sudengimo laikotarpiu ir DK registravimo grupe.                                                                                                                                        |
+| Nustatyti PVM ataskaitų kodus.                               | Pasirinktinai. PVM ataskaitų kodus galima priskirti PVM kodams, norint kelių PVM kodų sumas deklaruoti pagal vieną PVM ataskaitų kodą. Daugiau informacijos žr. [Nustatyti PVM ataskaitų kodus](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Nustatyti PVM kodus.                                         | Reikia. PVM koduose yra kiekvieno PVM tarifai ir skaičiavimo taisyklės. PVM kodai yra susiję su PVM sudengimo laikotarpiu ir DK registravimo grupe. Daugiau informacijos žr. [Nustatyti PVM kodus](tasks/set-up-sales-tax-codes.md).                                |
 | Nustatykite PVM grupes.                                        | Reikia. PVM grupėse yra pardavimo kodų, kurie taikomi operacijos šaliai (kliento ar tiekėjo), sąrašas. Vykdant tam tikrą operaciją, PVM kodų sankirta PVM grupėje ir prekių PVM grupėje nustato PVM kodus, taikomus tai operacijai.                  |
-| Nustatyti prekių PVM grupes.                                   | Reikia. Prekių PVM grupėse yra pardavimo kodų, kurie taikomi operacijos ištekliui (produkto, paslaugos ir t. t.), sąrašas. Vykdant tam tikrą operaciją, PVM kodų sankirta PVM grupėje ir prekių PVM grupėje nustato PVM kodus, taikomus tai operacijai. |
+| Nustatyti prekių PVM grupes.                                   | Reikia. Prekių PVM grupėse yra pardavimo kodų, kurie taikomi operacijos ištekliui (produkto, paslaugos ir t. t.), sąrašas. Vykdant tam tikrą operaciją, PVM kodų sankirta PVM grupėje ir prekių PVM grupėje nustato PVM kodus, taikomus tai operacijai. Daugiau informacijos žr. [Nustatyti PVM grupes ir prekių PVM grupes](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Programos parametrų puslapiuose nustatyti PVM parametrus. | Reikia. Skirtingose srityse, pvz., DK, Gautinų sumų ir Mokėtinų sumų, reikia nustatyti parametrus, kad būtų galima teisingai apskaičiuoti netiesioginius mokesčius. Nors dauguma šių parametrų turi numatytąsias reikšmes, jie turi būti modifikuoti, kad atitiktų kiekvienos įmonės reikalavimus.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Operacijų PVM
@@ -98,5 +97,5 @@ Paprastai turėtumėte sudengti ir sumokėti 2 500 mokesčių rinkėjui, kai SF 
 Tačiau, jei naudojate sąlyginį PVM, mokesčių rinkėjui sumą sudengiate, kai gaunate mokėjimą iš kliento liepos 30 d.
 
 
-
+Daugiau informacijos žr. [Nustatyti išskaitomą mokestį](tasks/set-up-withholding-tax.md).
 

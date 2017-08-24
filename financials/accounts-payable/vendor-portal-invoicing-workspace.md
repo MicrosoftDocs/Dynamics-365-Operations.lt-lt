@@ -1,9 +1,9 @@
 ---
 title: "Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra"
 description: "Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -33,7 +33,9 @@ ms.lasthandoff: 06/14/2017
 Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 
 **Tiekėjų bendradarbiavimo SF išrašymo** darbo sritį galima naudoti norint peržiūrėti tiekėjo SF informaciją ir pateikti SF programai „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas, naudojantis darbo eigos galimybėmis.
-Tiekėjo bendradarbiavimo SF išrašymo darbo sritis
+
+
+<a name="vendor-collaboration-invoicing-workspace"></a>Tiekėjo bendradarbiavimo SF išrašymo darbo sritis
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Suvestinės išklotinės

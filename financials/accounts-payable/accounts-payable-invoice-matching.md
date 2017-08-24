@@ -3,7 +3,7 @@ title: "Mokėtinų sumų SF gretinimas"
 description: "Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Tiekėjo SF dažnai yra pagrįstos produktų gavimo kvitais, kuriuose nurodomos 
 -   Įvesti SF sumas, kurios nebuvo įtrauktos į originalų pirkimo užsakymą, kad SF informacija sutaptų su SF, kuri gauta iš tiekėjo, informacija. Galima palyginti pirkimo užsakymų išlaidas su SF išlaidomis. Jei būtina, išlaidas galima įtraukti į SF ir paskirstyti SF eilutėms.
 -   Peržiūrėti ir patvirtinti SF grynosios prekės kainos ir pirkimo užsakymo grynosios prekės kainos gretinimo nesutapimus. Galite nustatyti juridinio subjekto, tiekėjų ir prekių leistino kainų nuokrypio procentus. Jeigu tiekėjo SF eilutės kaina viršija priimtiną kainos nuokrypį, galima išsaugoti SF, kol ji bus patvirtinta registruoti arba kol iš tiekėjo bus gautas pataisymas.
 
-Jei reikia daugiau informacijos, žr. temą [Trišalės atitikimo strategijos](three-way-matching-policies.md).
+Daugiau informacijos žr. [Trišalės atitikimo strategijos](three-way-matching-policies.md) ir [Nustatyti mokėtinų sumų SF sugretinimo patvirtinimą](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

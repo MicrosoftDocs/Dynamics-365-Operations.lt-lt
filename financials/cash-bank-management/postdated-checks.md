@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 06/20/2017
 </tr>
 <tr class="even">
 <td>Vėlesnio tiekėjo čekio užregistravimas</td>
-<td>Registruokite vėlesnių čekių, išrašytų tiekėjui, išsamią informaciją. Užregistravus mokėjimą tiekėjo įsipareigojimai pripažįstami, bet banko sąskaita nėra dar kredito sąskaita. Vietoj to, šiuo tikslu naudojama atsiskaitymo sąskaita.</td>
+<td>Registruokite vėlesnių čekių, išrašytų tiekėjui, išsamią informaciją. Užregistravus mokėjimą tiekėjo įsipareigojimai pripažįstami, bet banko sąskaita nėra dar kredito sąskaita. Vietoj to, šiuo tikslu naudojama atsiskaitymo sąskaita. </td>
 </tr>
 <tr class="odd">
 <td>Registruoti kliento vėlesnį čekį</td>
@@ -87,6 +86,17 @@ Jei pamesite arba sugadinsite pradinį čekį tiekėjui arba gautą iš kliento,
 
 
 
+Daugiau informacijos ieškokite šiose temose:
+
+[Vėlesnių čekių nustatymas](tasks/set-up-postdated-checks.md)
+
+[Registruoti kliento vėlesnį čekį](tasks/register-post-postdated-check-customer.md)
+
+[Vėlesnio čekio iš kliento sudengimas](tasks/settle-postdated-check-customer.md)
+
+[Registruoti tiekėjo vėlesnį čekį](tasks/register-post-postdated-check-vendor.md) 
+
+[Vėlesnio tiekėjo čekio sudengimas](tasks/settle-postdated-check-vendor.md)
 
 
 
