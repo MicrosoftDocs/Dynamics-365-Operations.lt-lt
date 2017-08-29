@@ -1,7 +1,7 @@
 ---
 title: "Pagrindinės sąskaitos tipai"
 description: "Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

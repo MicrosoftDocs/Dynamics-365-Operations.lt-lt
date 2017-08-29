@@ -1,7 +1,7 @@
 ---
 title: "Sudengimo konfigūravimas"
 description: "Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: lt-lt
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

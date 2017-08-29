@@ -1,7 +1,7 @@
 ---
 title: "Kvitų šablonai ir spausdinimas"
 description: "Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. Sprendime „Microsoft Dynamics 365 for Retail“ pateikiamas formų maketų konstruktorius, kurį naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: lt-lt
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

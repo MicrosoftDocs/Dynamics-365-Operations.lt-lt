@@ -1,7 +1,7 @@
 ---
 title: "Savo sąskaitų plano sudarymas"
 description: "Šiame straipsnyje pateikta informacija, kuri padės jums suplanuoti jūsų organizacijos sąskaitų planą."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

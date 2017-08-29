@@ -1,7 +1,7 @@
 ---
 title: "Mokėjimo nuolaidos"
 description: "Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: lt-lt
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

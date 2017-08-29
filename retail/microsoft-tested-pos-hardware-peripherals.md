@@ -1,7 +1,7 @@
 ---
 title: "EKA aparatūros išoriniai įrenginiai"
 description: "„Retail Modern Point Of Sale (POS)“ ir „Cloud POS“ galima naudoti platų pasirinkimo EKA aparatūros išorinius įrenginius su keliomis sąsajomis ir diegimo parinktimis, norint įgyvendinti įvairius mažmenininko verslo scenarijus."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f5f090eb406488ecfcd502c2cc6e3a63ca16111a
 ms.contentlocale: lt-lt
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

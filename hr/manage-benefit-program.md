@@ -1,7 +1,7 @@
 ---
 title: "Išmokų programos nustatymas ir valdymas"
 description: "Personalas pateikia įrankius, kuriuos galima naudoti norint nustatyti ir tvarkyti organizacijos savo darbuotojams siūlomas arba apdorojamas išmokas, atskaitymus ir darbuotojų kompensacijų planus. Šiame straipsnyje pateikiama informacija apie tai, kaip nustatyti ir tvarkyti išmokas."
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: lt-lt
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

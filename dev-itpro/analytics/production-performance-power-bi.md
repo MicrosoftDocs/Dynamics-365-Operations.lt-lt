@@ -1,7 +1,7 @@
 ---
 title: "„Power BI“ turinys Gamybos našumas"
 description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

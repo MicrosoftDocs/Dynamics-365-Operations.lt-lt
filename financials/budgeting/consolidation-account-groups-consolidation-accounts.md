@@ -1,7 +1,7 @@
 ---
 title: "Konsolidavimo sąskaitų grupės ir papildomos konsolidavimo sąskaitos"
 description: "Šioje temoje pateikiama informacija apie konsolidavimo sąskaitų grupes ir papildomas konsolidavimo sąskaitas bei paaiškinama, kaip jos naudojamos programoje „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟)."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
