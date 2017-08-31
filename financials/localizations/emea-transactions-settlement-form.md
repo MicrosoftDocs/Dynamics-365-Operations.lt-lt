@@ -1,7 +1,7 @@
 ---
 title: "Sudengimo operacijų peržiūra (Rytų Europa)"
 description: "Šioje temoje pateikiama informacija apie klientų ir tiekėjų puslapį Sudengimo operacijos."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: e0d9da83c251185d990c0001373c30b9e393be45
 ms.contentlocale: lt-lt
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

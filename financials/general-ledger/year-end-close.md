@@ -1,7 +1,7 @@
 ---
 title: "Uždarymas metų pabaigoje"
 description: "Šioje temoje aprašomi nustatymai ir veiksmai, reikalingi DK uždarymo metų pabaigoje procesui vykdyti."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "DK uždarymas laikotarpio pabaigoje"
 description: "Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

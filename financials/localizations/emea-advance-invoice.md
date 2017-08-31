@@ -1,7 +1,7 @@
 ---
 title: "Išankstinės SF, skirtos Rytų Europai"
 description: "Išankstinė SF yra dokumentas, kurį galite kurti klientui arba tiekėjui. Ji nurodo pardavimo užsakymo sumą, kurią reikia apmokėti iš anksto. Šioje temoje pateikiama informacija apie išankstines SF, skirtas Rytų Europai."
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -21,7 +21,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 948124526f5718d783b1ecd80462701610734f82
 ms.contentlocale: lt-lt
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

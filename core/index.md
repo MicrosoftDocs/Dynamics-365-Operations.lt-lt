@@ -13,22 +13,22 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
 # <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>„Dynamics 365 for Finance and Operations‟ pristatymas
 [!include[banner](includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa. Ją naudodami žmonės gali greitai priimti sumanesnius sprendimus – išmani vartotojo sąsaja suteikia prieigą prie realiuoju laiku teikiamų įžvalgų ir duomenų. Programą naudodamos įmonės gali transformuotis ir atsinaujinti – siūloma patvirtinta verslo logika joms leidžia greičiau perkurti savo verslo procesus. Įmonėms programa suteikia lankstumo augti savo tempu ir užsiimti verslu praktiškai bet kur ir bet kada bei taip visame pasaulyje išplėsti savo veiklą, kuri atitiktų verslo poreikius. 
+„Microsoft Dynamics 365 for Finance and Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa. Ją naudodami žmonės gali greitai priimti sumanesnius sprendimus – išmani vartotojo sąsaja suteikia prieigą prie tikruoju laiku teikiamų įžvalgų ir duomenų. Naudodamos programą įmonės gali transformuotis ir atsinaujinti – siūloma patvirtinta verslo logika joms leidžia greičiau perkurti savo verslo procesus. Įmonėms programa suteikia lankstumo augti savo tempu ir užsiimti verslu praktiškai bet kur ir bet kada bei taip visame pasaulyje išplėsti savo veiklą, kuri atitiktų verslo poreikius. 
 
-Ši dokumentacija gali padėti sužinoti, kaip „Dynamics 365 for Finance and Operations‟ pasitelkti savo versle. Ji susijusi su susijusių bendrųjų operacijų programų paketo produktų, „Dynamics 365 for Retail‟ ir „Dynamics 365 for Talent‟ dokumentacija. 
+Ši dokumentacija gali padėti sužinoti, kaip „Dynamics 365 for Finance and Operations‟ pasitelkti savo versle. Ji susijusi su šių susijusių produktų dokumentacija: „Dynamics 365 for Retail‟ ir „Dynamics 365 for Talent‟. 
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ ms.lasthandoff: 07/27/2017
 <p>Logistika</p>
 <ul style="list-style-type:none">
 <p><a href="../supply-chain/transportation/transportation-management-overview">Transportavimo valdymas</a></p>
-<p><a href="../supply-chain/warehousing/warehouse-configuration">Sandėlių valdymas</a></p></ul>
+<p><a href="../supply-chain/warehousing/warehouse-configuration">Sandėlio valdymas</a></p></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Planavimas</a></p>
 <p><a href="../supply-chain/pim/product-information">Produktų informacijos valdymas</a></p>
 <p><a href="../supply-chain/production-control/create-production-orders">Gamybos kontrolė</a></p>
@@ -86,7 +86,7 @@ ms.lasthandoff: 07/27/2017
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">Finansinės ataskaitos</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Teisės aktų nustatytos ataskaitos</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobilioji platforma</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobilioji platforma</a></h3>
 
 <h3>Programavimo funkcijos</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Programuotojų pagrindinis puslapis</a></p>
