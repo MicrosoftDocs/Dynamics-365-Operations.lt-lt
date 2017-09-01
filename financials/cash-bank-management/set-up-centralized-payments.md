@@ -1,7 +1,7 @@
 ---
 title: "Centralizuotų mokėjimų nustatymas"
 description: "Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
