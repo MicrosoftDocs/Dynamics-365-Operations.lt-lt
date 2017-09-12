@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="4edcf-103">Kompensavimo proceso nustatymas ir rezultatų skaičiavimas</span><span class="sxs-lookup"><span data-stu-id="4edcf-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų sumas darbuotojams, užregistruotiems pastoviosios ir kintamosios atlyginimo dalies planuose. Kompensacijos procesą galima vykdyti kelis kartus, norint atlikti sąlyginę analizę siekiant patikrinti, ar visi pakeitimai ir parametrai yra teisingi. Šios procedūros metu bus sukurtas kompensacijos procesas, vykdomas procesas ir peržiūrėti rezultatai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+<span data-ttu-id="4edcf-104">Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų sumas darbuotojams, užregistruotiems pastoviosios ir kintamosios atlyginimo dalies planuose.</span><span class="sxs-lookup"><span data-stu-id="4edcf-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="4edcf-105">Kompensacijos procesą galima vykdyti kelis kartus, norint atlikti sąlyginę analizę siekiant patikrinti, ar visi pakeitimai ir parametrai yra teisingi.</span><span class="sxs-lookup"><span data-stu-id="4edcf-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="4edcf-106">Šios procedūros metu bus sukurtas kompensacijos procesas, vykdomas procesas ir peržiūrėti rezultatai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="4edcf-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="4edcf-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Kurti kompensacijos apdorojimą
-1. Eikite į Personalas > Kompensacija > Procesas > Kompensacijos procesai.
-2. Spustelėkite Naujas.
-3. Lauke Procesas įveskite vertę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Proceso tipas pasirinkite pasirinktį.
-    * Ciklas nurodo laikotarpį, įvertintą kompensacijai nustatyti. Įvertinant apsvarstoma, kurias pareigas darbuotojai užėmė, kuriuos našumo vertinimus įtraukti, laiko, kiek darbuotojas buvo įdarbintas ciklo metu, apskaičiavimas ir kt. Ciklo pradžios datos pavyzdys gali būti pirma praėjusių finansinių metų diena.  
-6. Lauke Ciklo pradžia įveskite datą.
-    * Ciklo pabaigos data svarbi dėl to, kad tai yra data, naudojama nustatyti, kurie darbuotojai buvo aktyviai įdarbinti ir įtraukti į vieną ar daugiau kompensacijų planų.  
-7. Lauke Ciklo pabaiga įveskite datą.
-    * Aktyvios operacijos data yra tokia data, kada turėtų įsigalioti nauji kompensacijų tarifai. Daugelis įmonių įtraukia kelis mėnesius tarp ciklo pabaigos ir naujo kompensacijų tarifų įsigaliojimo. Papildomas laikas naudojamas apdoroti ir peržiūrėti naują kompensaciją.  
-8. Lauke Aktyvios operacijos data įveskite datą.
-    * Tam tikra data naudojama kintamų kompensacijų planams, nustatantiems darbuotojo premijos sumą pagal kompensacijos tarifą šiuo momentu.  
-    * Fiksuotas užmokestis pagal samdos datą naudojamas su fiksuotų kompensacijų planais su Procentine samdos taisykle.  Darbuotojai, kurie yra pasamdyti tarp ciklo pradžios ir fiksuoto užmokesčio pagal samdos datą laikotarpio, gaus 100 % jų apskaičiuotos kompensacijos padidėjimo, o ne proporcingai paskirstytą procentą.  
-9. Lauke Fiksuotas užmokestis pagal samdos datą įveskite datą.
-    * Peržiūrėjimo terminas yra data, pagal kurią visi proceso rezultatai turėtų būti peržiūrėti, kad juos būtų galima įkelti į darbuotojo kompensacijos įrašą prieš aktyvios operacijos datą. Šis laukas skirtas tik informacijai.  
-10. Lauke Peržiūrėti terminą įveskite datą.
-11. Spustelėkite Įrašyti.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="4edcf-108">Kurti kompensacijos apdorojimą</span><span class="sxs-lookup"><span data-stu-id="4edcf-108">Create a compensation process</span></span>
+1. <span data-ttu-id="4edcf-109">Eikite į Personalas > Kompensacija > Procesas > Kompensacijos procesai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="4edcf-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="4edcf-110">Click New.</span></span>
+3. <span data-ttu-id="4edcf-111">Lauke Procesas įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="4edcf-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="4edcf-112">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4edcf-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="4edcf-113">Lauke Proceso tipas pasirinkite pasirinktį.</span><span class="sxs-lookup"><span data-stu-id="4edcf-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="4edcf-114">Ciklas nurodo laikotarpį, įvertintą kompensacijai nustatyti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="4edcf-115">Įvertinant apsvarstoma, kurias pareigas darbuotojai užėmė, kuriuos našumo vertinimus įtraukti, laiko, kiek darbuotojas buvo įdarbintas ciklo metu, apskaičiavimas ir kt.</span><span class="sxs-lookup"><span data-stu-id="4edcf-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="4edcf-116">Ciklo pradžios datos pavyzdys gali būti pirma praėjusių finansinių metų diena.</span><span class="sxs-lookup"><span data-stu-id="4edcf-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="4edcf-117">Lauke Ciklo pradžia įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="4edcf-118">Ciklo pabaigos data svarbi dėl to, kad tai yra data, naudojama nustatyti, kurie darbuotojai buvo aktyviai įdarbinti ir įtraukti į vieną ar daugiau kompensacijų planų.</span><span class="sxs-lookup"><span data-stu-id="4edcf-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="4edcf-119">Lauke Ciklo pabaiga įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="4edcf-120">Aktyvios operacijos data yra tokia data, kada turėtų įsigalioti nauji kompensacijų tarifai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="4edcf-121">Daugelis įmonių įtraukia kelis mėnesius tarp ciklo pabaigos ir naujo kompensacijų tarifų įsigaliojimo.</span><span class="sxs-lookup"><span data-stu-id="4edcf-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="4edcf-122">Papildomas laikas naudojamas apdoroti ir peržiūrėti naują kompensaciją.</span><span class="sxs-lookup"><span data-stu-id="4edcf-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="4edcf-123">Lauke Aktyvios operacijos data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="4edcf-124">Tam tikra data naudojama kintamų kompensacijų planams, nustatantiems darbuotojo premijos sumą pagal kompensacijos tarifą šiuo momentu.</span><span class="sxs-lookup"><span data-stu-id="4edcf-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="4edcf-125">Fiksuotas užmokestis pagal samdos datą naudojamas su fiksuotų kompensacijų planais su Procentine samdos taisykle.</span><span class="sxs-lookup"><span data-stu-id="4edcf-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="4edcf-126">Darbuotojai, kurie yra pasamdyti tarp ciklo pradžios ir fiksuoto užmokesčio pagal samdos datą laikotarpio, gaus 100 % jų apskaičiuotos kompensacijos padidėjimo, o ne proporcingai paskirstytą procentą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="4edcf-127">Lauke Fiksuotas užmokestis pagal samdos datą įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="4edcf-128">Peržiūrėjimo terminas yra data, pagal kurią visi proceso rezultatai turėtų būti peržiūrėti, kad juos būtų galima įkelti į darbuotojo kompensacijos įrašą prieš aktyvios operacijos datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="4edcf-129">Šis laukas skirtas tik informacijai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="4edcf-130">Lauke Peržiūrėti terminą įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="4edcf-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Nustatyti kompensacijos proceso kompensacijos planus ir veiksmus
-1. Spustelėkite Nustatymas.
-    * Nustatymo puslapis naudojamas pasirinkti, kuriuos planus apdoroti kaip šio kompensacijos proceso dalį, ir kuriuos veiksmus reikia atlikti pagal kiekvieną planą.  
-2. Lauke Planas įveskite arba pasirinkite vertę.
-3. Spustelėkite Įrašyti.
-4. Spustelėkite Pridėti.
-5. Lauke Veiksmas pasirinkite Kapitalo tipo veiksmą.
-6. Spustelėkite Pridėti.
-7. Lauke Veiksmas pasirinkite Nuopelno tipo veiksmą.
-    * Kompensacijos veiksmai gali būti sujungti į „grandinę“ naudojant lauką Naudoti ankstesnį rezultatą siekiant nurodyti, ar šio veiksmo skaičiavimo pradžios tašku pasirinktam veiksmui turėtų būti naudojamas darbuotojų pagrindinis užmokestis ar ankstesnio veiksmo rezultatas.  
-8. Lauke Naudoti ankstesnį rezultatą pasirinkite Taip.
-9. Spustelėkite Pridėti.
-10. Lauke Veiksmas pasirinkite Bendro tipo Veiksmą.
-    * Skirtingi kompensacijos veiksmų tipai įgalina skirtingus laukus. Bendram kompensacijos veiksmo tipui, galima nurodyti padidinimo procentą arba padidinimo sumą.  
-11. Pasirinkite pasirinktį Pasirinkti padidinimo sumą.
-12. Lauke Padidinti sumą įveskite skaičių.
-13. Spustelėkite Pridėti.
-14. Lauke Veiksmas pasirinkite Paaukštinimo tipo Veiksmą.
-    * Lygio pakeitimo veiksmo tipai Skatinimas ir Kita leidžia vartotojams rankiniu būdu koreguoti darbuotojų kompensacijas. Rekomendacijas galima įgalinti šių veiksmų tipams ir kitiems veiksmų tipams, kad galėtumėte įvesti naują rekomenduojamą kompensacijos vertę darbuotojui.  
-15. Spustelėkite Pridėti.
-16. Lauke „Tipas“ pasirinkite parinktį.
-    * Pastoviosios ir kintamosios atlyginimo dalies planus galima vykdyti tuo pačiu kompensacijos procesu.  
-17. Lauke Planas įveskite arba pasirinkite vertę.
-    * Naudokite žymės langelį Įgalinti užmokestį už veiklą norėdami nustatyti, ar pagal darbuotojo našumo vertinimą koreguoti reikia pastoviosios ir kintamosios atlyginimo dalies sumą.  
-    * Svertų galima nepaisyti kintamosios atlyginimo dalies planuose.  
-18. Spustelėkite Įrašyti.
-19. Spustelėkite Pridėti.
-20. Uždarykite puslapį.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="4edcf-132">Nustatyti kompensacijos proceso kompensacijos planus ir veiksmus</span><span class="sxs-lookup"><span data-stu-id="4edcf-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="4edcf-133">Spustelėkite Nustatymas.</span><span class="sxs-lookup"><span data-stu-id="4edcf-133">Click Setup.</span></span>
+    * <span data-ttu-id="4edcf-134">Nustatymo puslapis naudojamas pasirinkti, kuriuos planus apdoroti kaip šio kompensacijos proceso dalį, ir kuriuos veiksmus reikia atlikti pagal kiekvieną planą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="4edcf-135">Lauke Planas įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="4edcf-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="4edcf-136">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-136">Click Save.</span></span>
+4. <span data-ttu-id="4edcf-137">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-137">Click Add.</span></span>
+5. <span data-ttu-id="4edcf-138">Lauke Veiksmas pasirinkite Kapitalo tipo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="4edcf-139">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-139">Click Add.</span></span>
+7. <span data-ttu-id="4edcf-140">Lauke Veiksmas pasirinkite Nuopelno tipo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="4edcf-141">Kompensacijos veiksmai gali būti sujungti į „grandinę“ naudojant lauką Naudoti ankstesnį rezultatą siekiant nurodyti, ar šio veiksmo skaičiavimo pradžios tašku pasirinktam veiksmui turėtų būti naudojamas darbuotojų pagrindinis užmokestis ar ankstesnio veiksmo rezultatas.</span><span class="sxs-lookup"><span data-stu-id="4edcf-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="4edcf-142">Lauke Naudoti ankstesnį rezultatą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="4edcf-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="4edcf-143">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-143">Click Add.</span></span>
+10. <span data-ttu-id="4edcf-144">Lauke Veiksmas pasirinkite Bendro tipo Veiksmą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="4edcf-145">Skirtingi kompensacijos veiksmų tipai įgalina skirtingus laukus.</span><span class="sxs-lookup"><span data-stu-id="4edcf-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="4edcf-146">Bendram kompensacijos veiksmo tipui, galima nurodyti padidinimo procentą arba padidinimo sumą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="4edcf-147">Pasirinkite pasirinktį Pasirinkti padidinimo sumą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="4edcf-148">Lauke Padidinti sumą įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="4edcf-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="4edcf-149">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-149">Click Add.</span></span>
+14. <span data-ttu-id="4edcf-150">Lauke Veiksmas pasirinkite Paaukštinimo tipo Veiksmą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="4edcf-151">Lygio pakeitimo veiksmo tipai Skatinimas ir Kita leidžia vartotojams rankiniu būdu koreguoti darbuotojų kompensacijas.</span><span class="sxs-lookup"><span data-stu-id="4edcf-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="4edcf-152">Rekomendacijas galima įgalinti šių veiksmų tipams ir kitiems veiksmų tipams, kad galėtumėte įvesti naują rekomenduojamą kompensacijos vertę darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="4edcf-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="4edcf-153">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-153">Click Add.</span></span>
+16. <span data-ttu-id="4edcf-154">Lauke „Tipas“ pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="4edcf-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="4edcf-155">Pastoviosios ir kintamosios atlyginimo dalies planus galima vykdyti tuo pačiu kompensacijos procesu.</span><span class="sxs-lookup"><span data-stu-id="4edcf-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="4edcf-156">Lauke Planas įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="4edcf-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="4edcf-157">Naudokite žymės langelį Įgalinti užmokestį už veiklą norėdami nustatyti, ar pagal darbuotojo našumo vertinimą koreguoti reikia pastoviosios ir kintamosios atlyginimo dalies sumą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="4edcf-158">Svertų galima nepaisyti kintamosios atlyginimo dalies planuose.</span><span class="sxs-lookup"><span data-stu-id="4edcf-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="4edcf-159">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-159">Click Save.</span></span>
+19. <span data-ttu-id="4edcf-160">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-160">Click Add.</span></span>
+20. <span data-ttu-id="4edcf-161">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4edcf-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Vykdyti kompensacijos procesą
-1. Spustelėkite Vykdyti procesą.
-    * Valdiklis Rodyti apdorojimo kontrolės rezultatus leidžia peržiūrėti viso kompensacijos proceso apdorojimo pranešimus, kai apdorojimas baigtas.  
-2. Lauke Rodyti vykdymo rezultatus pasirinkite Taip.
-3. Spustelėkite GERAI.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="4edcf-162">Vykdyti kompensacijos procesą</span><span class="sxs-lookup"><span data-stu-id="4edcf-162">Run the compensation process</span></span>
+1. <span data-ttu-id="4edcf-163">Spustelėkite Vykdyti procesą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-163">Click Run process.</span></span>
+    * <span data-ttu-id="4edcf-164">Valdiklis Rodyti apdorojimo kontrolės rezultatus leidžia peržiūrėti viso kompensacijos proceso apdorojimo pranešimus, kai apdorojimas baigtas.</span><span class="sxs-lookup"><span data-stu-id="4edcf-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="4edcf-165">Lauke Rodyti vykdymo rezultatus pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="4edcf-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="4edcf-166">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="4edcf-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Peržiūrėti rezultatus
-1. Spustelėkite Proceso rezultatai.
-2. Spustelėkite Darbuotojo rezultatai.
-3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Išplėskite skyrių Pastovioji atlyginimo dalis.
-    * Išplėskite „FastTabs“ norėdami peržiūrėti proceso rezultatus. Jei kompensacijos veiksmui buvo pažymėta Įgalinti rekomendacijas, tam veiksmui bus įgalinti Rekomendacijų laukai.  
-5. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Vieno darbuotojo rezultatus galima peržiūrėti spustelėjus mygtuką Peržiūrėti rezultatus.  
-    * Apskaičiuotą kompensacijos sumą galite perrašyti koreguodami procentą arba padidinimo sumą laukuose Rekomendacija.  
-6. Lauke Rekomenduojamas procentas įveskite skaičių.
-7. Sąraše raskite ir pasirinkite norimą įrašą.
-8. Lauke Rekomenduojamas procentas įveskite skaičių.
-    * Norint nepaisyti esamam įrašui atliktų pakeitimų ir generuoti naują kompensavimo rezultatą pasirinktam darbuotojui, galima naudoti Perskaičiuoti.  
-    * Kai visi pakeitimai darbuotojui atlikti, pakeiskite būseną į Patvirtinta.  
-9. Spustelėkite keisti būseną.
-10. Spustelėkite Patvirtinti.
-    * Patvirtinus įrašą, jį galima įkelti į darbuotojo oficialų kompensacijos įrašą. Nauja kompensacija įsigalios nuo operacijos datos, nustatytos kompensacijos procese.  
+## <a name="view-the-results"></a><span data-ttu-id="4edcf-167">Peržiūrėti rezultatus</span><span class="sxs-lookup"><span data-stu-id="4edcf-167">View the results</span></span>
+1. <span data-ttu-id="4edcf-168">Spustelėkite Proceso rezultatai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-168">Click Process results.</span></span>
+2. <span data-ttu-id="4edcf-169">Spustelėkite Darbuotojo rezultatai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-169">Click Employee results.</span></span>
+3. <span data-ttu-id="4edcf-170">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="4edcf-171">Išplėskite skyrių Pastovioji atlyginimo dalis.</span><span class="sxs-lookup"><span data-stu-id="4edcf-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="4edcf-172">Išplėskite „FastTabs“ norėdami peržiūrėti proceso rezultatus.</span><span class="sxs-lookup"><span data-stu-id="4edcf-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="4edcf-173">Jei kompensacijos veiksmui buvo pažymėta Įgalinti rekomendacijas, tam veiksmui bus įgalinti Rekomendacijų laukai.</span><span class="sxs-lookup"><span data-stu-id="4edcf-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="4edcf-174">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4edcf-175">Vieno darbuotojo rezultatus galima peržiūrėti spustelėjus mygtuką Peržiūrėti rezultatus.</span><span class="sxs-lookup"><span data-stu-id="4edcf-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="4edcf-176">Apskaičiuotą kompensacijos sumą galite perrašyti koreguodami procentą arba padidinimo sumą laukuose Rekomendacija.</span><span class="sxs-lookup"><span data-stu-id="4edcf-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="4edcf-177">Lauke Rekomenduojamas procentas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="4edcf-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="4edcf-178">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="4edcf-179">Lauke Rekomenduojamas procentas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="4edcf-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="4edcf-180">Norint nepaisyti esamam įrašui atliktų pakeitimų ir generuoti naują kompensavimo rezultatą pasirinktam darbuotojui, galima naudoti Perskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="4edcf-181">Kai visi pakeitimai darbuotojui atlikti, pakeiskite būseną į Patvirtinta.</span><span class="sxs-lookup"><span data-stu-id="4edcf-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="4edcf-182">Spustelėkite keisti būseną.</span><span class="sxs-lookup"><span data-stu-id="4edcf-182">Click Change status.</span></span>
+10. <span data-ttu-id="4edcf-183">Spustelėkite Patvirtinti.</span><span class="sxs-lookup"><span data-stu-id="4edcf-183">Click Approved.</span></span>
+    * <span data-ttu-id="4edcf-184">Patvirtinus įrašą, jį galima įkelti į darbuotojo oficialų kompensacijos įrašą.</span><span class="sxs-lookup"><span data-stu-id="4edcf-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="4edcf-185">Nauja kompensacija įsigalios nuo operacijos datos, nustatytos kompensacijos procese.</span><span class="sxs-lookup"><span data-stu-id="4edcf-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

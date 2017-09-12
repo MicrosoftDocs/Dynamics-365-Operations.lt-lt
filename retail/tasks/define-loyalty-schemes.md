@@ -17,57 +17,57 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8903e782d875d4d1ca7c3383f6978afc5554378a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e66ece3c8d7eb0c52e832f49d25e0d9133870e9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-loyalty-schemes"></a> Nustatyti lojalumo planus
+# <a name="define-loyalty-schemes"></a><span data-ttu-id="97ee3-103"> Nustatyti lojalumo planus</span><span class="sxs-lookup"><span data-stu-id="97ee3-103">Define loyalty schemes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Ši procedūra nurodo, kaip nustatyti lojalumo planą. Lojalumo planai yra lojalumo programos atlygio uždarbio ir naudojimo taisyklės. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
+<span data-ttu-id="97ee3-104">Ši procedūra nurodo, kaip nustatyti lojalumo planą.</span><span class="sxs-lookup"><span data-stu-id="97ee3-104">This procedure walks through how to define a loyalty scheme.</span></span> <span data-ttu-id="97ee3-105">Lojalumo planai yra lojalumo programos atlygio uždarbio ir naudojimo taisyklės.</span><span class="sxs-lookup"><span data-stu-id="97ee3-105">Loyalty schemes are reward earning and redeeming rules for a loyalty program.</span></span> <span data-ttu-id="97ee3-106">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.</span><span class="sxs-lookup"><span data-stu-id="97ee3-106">This procedure uses the USRT demo data company.</span></span>
 
-1. Eikite į Mažmeninė prekyba ir prekyba > Klientai > Lojalumas > Lojalumo planai.
-2. Spustelėkite Naujas.
-3. Lauke Plano ID įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Galima sukurti kelias lojalumo programos lojalumo schemas. Lojalumo programos gali būti skirtos visiems kanalams arba tik kanalų poaibiui.  
-6. Sąraše raskite ir pasirinkite norimą įrašą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Spustelėkite Įrašyti.
-9. Spustelėkite Pridėti eilutę.
-10. Lauke Veiklos tipas pasirinkite parinktį.
-    * Pasirinkite Produktų pirkimas pagal sumą, jei norite, kad klientai atlygio taškus gautų už tai, kiek išleidžia. Pasirinkite Produktų pirkimas pagal kiekį, jei norite, kad klientai atlygio taškus gautų už tai, kiek produktų perka.  Pasirinkite Pardavimo operacijų skaičius, jei norite, kad klientai gautų atlygį už kiekvieną pardavimo operaciją, nepaisant, kas arba kiek perkama.  
-    * Pasirinkite kategoriją. Kategorija riboja produktų, kuriems šį atlygio taisyklė taikoma, skaičių.  
-    * Palikite šį lauką tuščią, jei norite, kad atlygio taisyklė būtų taikoma visiems produktams.  
-11. Lauke Veiklos suma / kiekis įveskite skaičių.
-    *  Jei veiklos tipas yra Pardavimo operacijų skaičius, visada turėtumėte naudoti reikšmę „1,0“. Veiklos tipas yra Pirkimas pagal sumą arba Pirkimas pagal kiekį, operacijos, kurių vertė yra mažesnė už įvestą vertę, atlygio taisyklės nesuaktyvins. Pavyzdžiui, jei veiklos tipas yra Pirkimas pagal sumą, o jūs įvedate „10,00“, tada ši atlygio taisyklė neskirs taškų pardavimo operacijai, kurios vertė „9,00“.  
-12. Lauke Veiklos valiuta įveskite reikšmę.
-13. Lauke Atlygio taškų ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-14. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-15. Lauke Atlygio taškai įveskite skaičių.
-    * Sumos tipo gautos atlygio taškų sumos bus įrašomos su dešimtainėmis dalimis. Pvz., jei uždarbio taisyklė nurodo skirti 1 atlygio tašką už 1 išleistą Kanados dolerį, o klientas išleido 1,25 Kanados dolerio, tada klientas gaus 1,25 atlygio taškų. Kiekio tipo gautos atlygio taškų sumos bus įrašomos tik sveikaisiais skaičiais. Pvz., jei uždarbio taisyklė nurodo skirti 1 atlygio tašką už 1 išleistą Kanados dolerį, o klientas išleido 1,25 Kanados dolerio, tada klientas gaus 1,0 atlygio taškų.  
-16. Spustelėkite Įrašyti.
-17. Spustelėkite Pridėti eilutę.
-    * Apmokėjimo taisyklės naudojamos, kai naudojamas lojalumo mokėjimo būdas.  
-18. Lauke Atlygio taškų ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Rodomi tik išnaudojami atlygio taškai.  
-19. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-20. Lauke Atlygio taškai įveskite skaičių.
-21. Lauke Naudojimo tipas pasirinkite parinktį.
-    * Pasirinkus Mokėjimas pagal sumą, lauko Suma arba kiekis reikšmė bus laikoma valiutos verte. Šiuo atveju mokėjimo valiutos vieneto naudojamų atlygio taškų suma yra fiksuotas dydis. Pasirinkus Mokėjimas pagal kiekį, lauko Suma arba kiekis reikšmė bus laikoma kiekio verte. Šiuo atveju prekės kiekio naudojamų atlygio taškų suma yra fiksuotas dydis, tačiau valiutos suma gali skirtis, jei skiriasi to pačio kiekio kaina, sumokėta už prekes naudojant atlygio už lojalumą taškus. Lojalumo taškų nuolaidos apmokėjimo tipą galima naudoti tik jei įjungtas šaliai / regionui būdingų funkcijų konfigūracijos raktas „Rusija“, o EKA funkcijų šablonų ISO kodas yra „RU“.  
-    * Pasirinkite kategoriją. Kategorija riboja produktų, kuriems šį naudojimo taisyklė taikoma, skaičių.  
-    * Palikite šį lauką tuščią, jei norite, kad naudojimo taisyklė būtų taikoma visiems produktams.  
-22. Lauke Suma arba kiekis įveskite skaičių.
-23. Lauke Valiuta surinkite reikšmę.
-24. Spustelėkite Įrašyti.
-25. Spustelėkite Pridėti eilutę.
-    * Turimų organizacijos mazgų sąraše pasirinkite vieną ar daugiau mazgų ir perkelkite juos į sąrašą Pasirinkti organizacijos mazgai, spustelėdami rodyklę tarp abiejų sąrašų.  
-26. Spustelėkite GERAI.
-27. Spustelėkite Įrašyti.
-    * Bet kada pakeitę lojalumo plano kanalus, turite paleisti užduotį Apdoroti lojalumo planus. Tokiu būdu bus atnaujinti kanalų lojalumo planai.  
+1. <span data-ttu-id="97ee3-107">Eikite į Mažmeninė prekyba ir prekyba > Klientai > Lojalumas > Lojalumo planai.</span><span class="sxs-lookup"><span data-stu-id="97ee3-107">Go to Retail and commerce > Customers > Loyalty > Loyalty schemes.</span></span>
+2. <span data-ttu-id="97ee3-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="97ee3-108">Click New.</span></span>
+3. <span data-ttu-id="97ee3-109">Lauke Plano ID įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-109">In the Scheme ID field, type a value.</span></span>
+4. <span data-ttu-id="97ee3-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="97ee3-111">Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="97ee3-111">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="97ee3-112">Galima sukurti kelias lojalumo programos lojalumo schemas.</span><span class="sxs-lookup"><span data-stu-id="97ee3-112">You can have multiple loyalty schemes for a loyalty program.</span></span> <span data-ttu-id="97ee3-113">Lojalumo programos gali būti skirtos visiems kanalams arba tik kanalų poaibiui.</span><span class="sxs-lookup"><span data-stu-id="97ee3-113">Loyalty schemes can be for all channels or only a sub-set of channels.</span></span>  
+6. <span data-ttu-id="97ee3-114">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="97ee3-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="97ee3-115">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="97ee3-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="97ee3-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="97ee3-116">Click Save.</span></span>
+9. <span data-ttu-id="97ee3-117">Spustelėkite Pridėti eilutę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-117">Click Add line.</span></span>
+10. <span data-ttu-id="97ee3-118">Lauke Veiklos tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="97ee3-118">In the Activity type field, select an option.</span></span>
+    * <span data-ttu-id="97ee3-119">Pasirinkite Produktų pirkimas pagal sumą, jei norite, kad klientai atlygio taškus gautų už tai, kiek išleidžia.</span><span class="sxs-lookup"><span data-stu-id="97ee3-119">Select Purchase products by amount if you want customers to earn rewards based on how much they spend.</span></span> <span data-ttu-id="97ee3-120">Pasirinkite Produktų pirkimas pagal kiekį, jei norite, kad klientai atlygio taškus gautų už tai, kiek produktų perka.</span><span class="sxs-lookup"><span data-stu-id="97ee3-120">Select Purchase products by quantity if you want customers to earn rewards based on how many products they buy.</span></span>  <span data-ttu-id="97ee3-121">Pasirinkite Pardavimo operacijų skaičius, jei norite, kad klientai gautų atlygį už kiekvieną pardavimo operaciją, nepaisant, kas arba kiek perkama.</span><span class="sxs-lookup"><span data-stu-id="97ee3-121">Select Sales transaction count if you want customers to earn rewards for each sales transaction, regardless of what or how much is purchased.</span></span>  
+    * <span data-ttu-id="97ee3-122">Pasirinkite kategoriją.</span><span class="sxs-lookup"><span data-stu-id="97ee3-122">Select a category.</span></span> <span data-ttu-id="97ee3-123">Kategorija riboja produktų, kuriems šį atlygio taisyklė taikoma, skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-123">The category will limit which products this earning rule applies to.</span></span>  
+    * <span data-ttu-id="97ee3-124">Palikite šį lauką tuščią, jei norite, kad atlygio taisyklė būtų taikoma visiems produktams.</span><span class="sxs-lookup"><span data-stu-id="97ee3-124">If you want the earning rule to apply to all products, leave this field blank.</span></span>  
+11. <span data-ttu-id="97ee3-125">Lauke Veiklos suma / kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-125">In the Activity amount/quantity field, enter a number.</span></span>
+    *  <span data-ttu-id="97ee3-126">Jei veiklos tipas yra Pardavimo operacijų skaičius, visada turėtumėte naudoti reikšmę „1,0“.</span><span class="sxs-lookup"><span data-stu-id="97ee3-126">For activity type Sales transaction count, you should always use a value of '1.0'.</span></span> <span data-ttu-id="97ee3-127">Veiklos tipas yra Pirkimas pagal sumą arba Pirkimas pagal kiekį, operacijos, kurių vertė yra mažesnė už įvestą vertę, atlygio taisyklės nesuaktyvins.</span><span class="sxs-lookup"><span data-stu-id="97ee3-127">For activity types of Purchase by amount or Purchase by quantity, any transaction that is less than the value entered will not trigger the earning rule.</span></span> <span data-ttu-id="97ee3-128">Pavyzdžiui, jei veiklos tipas yra Pirkimas pagal sumą, o jūs įvedate „10,00“, tada ši atlygio taisyklė neskirs taškų pardavimo operacijai, kurios vertė „9,00“.</span><span class="sxs-lookup"><span data-stu-id="97ee3-128">For example, if the activity type is Purchase by amount, and you enter '10.00', then a sales transaction for '9.00' will not earn rewards for this earning rule.</span></span>  
+12. <span data-ttu-id="97ee3-129">Lauke Veiklos valiuta įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-129">In the Activity currency field, type a value.</span></span>
+13. <span data-ttu-id="97ee3-130">Lauke Atlygio taškų ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="97ee3-130">In the Reward point ID field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="97ee3-131">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="97ee3-131">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="97ee3-132">Lauke Atlygio taškai įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-132">In the Reward points field, enter a number.</span></span>
+    * <span data-ttu-id="97ee3-133">Sumos tipo gautos atlygio taškų sumos bus įrašomos su dešimtainėmis dalimis.</span><span class="sxs-lookup"><span data-stu-id="97ee3-133">Amount type reward points will record earned amounts with decimals.</span></span> <span data-ttu-id="97ee3-134">Pvz., jei uždarbio taisyklė nurodo skirti 1 atlygio tašką už 1 išleistą Kanados dolerį, o klientas išleido 1,25 Kanados dolerio, tada klientas gaus 1,25 atlygio taškų.</span><span class="sxs-lookup"><span data-stu-id="97ee3-134">For example, if the earning rule states 1 reward point earned for every 1 Canadian Dollar spent, and the customer spends 1.25 Canadian Canadian Dollars, then the customer will earn 1.25 reward points.</span></span> <span data-ttu-id="97ee3-135">Kiekio tipo gautos atlygio taškų sumos bus įrašomos tik sveikaisiais skaičiais.</span><span class="sxs-lookup"><span data-stu-id="97ee3-135">Quantity type reward points will record earned amounts in integers.</span></span> <span data-ttu-id="97ee3-136">Pvz., jei uždarbio taisyklė nurodo skirti 1 atlygio tašką už 1 išleistą Kanados dolerį, o klientas išleido 1,25 Kanados dolerio, tada klientas gaus 1,0 atlygio taškų.</span><span class="sxs-lookup"><span data-stu-id="97ee3-136">Using the example where the earning rule states 1 reward point earned for every 1 Canadian Dollar spent, and the customer spends 1.25 Canadian Canadian Dollars, then the customer will earn 1.0 reward points.</span></span>  
+16. <span data-ttu-id="97ee3-137">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="97ee3-137">Click Save.</span></span>
+17. <span data-ttu-id="97ee3-138">Spustelėkite Pridėti eilutę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-138">Click Add line.</span></span>
+    * <span data-ttu-id="97ee3-139">Apmokėjimo taisyklės naudojamos, kai naudojamas lojalumo mokėjimo būdas.</span><span class="sxs-lookup"><span data-stu-id="97ee3-139">Redemption rules are used when the loyalty payment method is used.</span></span>  
+18. <span data-ttu-id="97ee3-140">Lauke Atlygio taškų ID spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="97ee3-140">In the Reward point ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="97ee3-141">Rodomi tik išnaudojami atlygio taškai.</span><span class="sxs-lookup"><span data-stu-id="97ee3-141">Only redeemable reward points are shown.</span></span>  
+19. <span data-ttu-id="97ee3-142">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="97ee3-142">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="97ee3-143">Lauke Atlygio taškai įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-143">In the Reward points field, enter a number.</span></span>
+21. <span data-ttu-id="97ee3-144">Lauke Naudojimo tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="97ee3-144">In the Redemption type field, select an option.</span></span>
+    * <span data-ttu-id="97ee3-145">Pasirinkus Mokėjimas pagal sumą, lauko Suma arba kiekis reikšmė bus laikoma valiutos verte.</span><span class="sxs-lookup"><span data-stu-id="97ee3-145">Selecting Payment by amount causes the Amount or quantity field to be treated as a currency value.</span></span> <span data-ttu-id="97ee3-146">Šiuo atveju mokėjimo valiutos vieneto naudojamų atlygio taškų suma yra fiksuotas dydis.</span><span class="sxs-lookup"><span data-stu-id="97ee3-146">In this case, the amount of reward points used per currency unit of payment is a fixed ratio.</span></span> <span data-ttu-id="97ee3-147">Pasirinkus Mokėjimas pagal kiekį, lauko Suma arba kiekis reikšmė bus laikoma kiekio verte.</span><span class="sxs-lookup"><span data-stu-id="97ee3-147">Selecting Payment by quantity causes the Amount or quantity field to be treated as a quantity value.</span></span> <span data-ttu-id="97ee3-148">Šiuo atveju prekės kiekio naudojamų atlygio taškų suma yra fiksuotas dydis, tačiau valiutos suma gali skirtis, jei skiriasi to pačio kiekio kaina, sumokėta už prekes naudojant atlygio už lojalumą taškus.</span><span class="sxs-lookup"><span data-stu-id="97ee3-148">In this case, the amount of reward points used per item quantity is a fixed ratio, however, the amount in currency can vary if the price of items paid for with loyalty reward points varies for the same quantity.</span></span> <span data-ttu-id="97ee3-149">Lojalumo taškų nuolaidos apmokėjimo tipą galima naudoti tik jei įjungtas šaliai / regionui būdingų funkcijų konfigūracijos raktas „Rusija“, o EKA funkcijų šablonų ISO kodas yra „RU“.</span><span class="sxs-lookup"><span data-stu-id="97ee3-149">Redemption type of Loyalty points discount is only valid when the 'Russia' Country/Regional specific features configuration key is enabled, and the POS functionality profiles has an ISO code of 'RU'.</span></span>  
+    * <span data-ttu-id="97ee3-150">Pasirinkite kategoriją.</span><span class="sxs-lookup"><span data-stu-id="97ee3-150">Select a category.</span></span> <span data-ttu-id="97ee3-151">Kategorija riboja produktų, kuriems šį naudojimo taisyklė taikoma, skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-151">The category will limit which products this redemption rule applies to.</span></span>  
+    * <span data-ttu-id="97ee3-152">Palikite šį lauką tuščią, jei norite, kad naudojimo taisyklė būtų taikoma visiems produktams.</span><span class="sxs-lookup"><span data-stu-id="97ee3-152">If you want the redemption rule to apply to all products, leave this field blank.</span></span>  
+22. <span data-ttu-id="97ee3-153">Lauke Suma arba kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="97ee3-153">In the Amount or quantity field, enter a number.</span></span>
+23. <span data-ttu-id="97ee3-154">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-154">In the Currency field, type a value.</span></span>
+24. <span data-ttu-id="97ee3-155">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="97ee3-155">Click Save.</span></span>
+25. <span data-ttu-id="97ee3-156">Spustelėkite Pridėti eilutę.</span><span class="sxs-lookup"><span data-stu-id="97ee3-156">Click Add line.</span></span>
+    * <span data-ttu-id="97ee3-157">Turimų organizacijos mazgų sąraše pasirinkite vieną ar daugiau mazgų ir perkelkite juos į sąrašą Pasirinkti organizacijos mazgai, spustelėdami rodyklę tarp abiejų sąrašų.</span><span class="sxs-lookup"><span data-stu-id="97ee3-157">Select one or more nodes from the Available organization nodes list and move them to the Selected organization nodes list by clicking the arrow between the two lists.</span></span>  
+26. <span data-ttu-id="97ee3-158">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="97ee3-158">Click OK.</span></span>
+27. <span data-ttu-id="97ee3-159">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="97ee3-159">Click Save.</span></span>
+    * <span data-ttu-id="97ee3-160">Bet kada pakeitę lojalumo plano kanalus, turite paleisti užduotį Apdoroti lojalumo planus.</span><span class="sxs-lookup"><span data-stu-id="97ee3-160">Anytime you change the channels for a loyalty scheme, you must run Process loyalty schemes.</span></span> <span data-ttu-id="97ee3-161">Tokiu būdu bus atnaujinti kanalų lojalumo planai.</span><span class="sxs-lookup"><span data-stu-id="97ee3-161">That way, the channels will get updated loyalty schemes.</span></span>  
 
 

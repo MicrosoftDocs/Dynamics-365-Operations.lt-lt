@@ -1,2 +1,2 @@
 > [!NOTE]
-> Šios temos redagavimai nebus priimti, nes ji buvo sukurta iš „Lifecycle Services“ verslo proceso.
+> <span data-ttu-id="1ca07-101">Šios temos redagavimai nebus priimti, nes ji buvo sukurta iš „Lifecycle Services“ verslo proceso.</span><span class="sxs-lookup"><span data-stu-id="1ca07-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>

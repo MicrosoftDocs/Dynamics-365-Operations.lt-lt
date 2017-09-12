@@ -15,7 +15,7 @@ ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,17 +25,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Savikainos apskaitos pagrindinis puslapis
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="6d9a0-103">Savikainos apskaitos pagrindinis puslapis</span><span class="sxs-lookup"><span data-stu-id="6d9a0-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a>Mokymo planas 
+## <a name="learning-map"></a><span data-ttu-id="6d9a0-104">Mokymo planas</span><span class="sxs-lookup"><span data-stu-id="6d9a0-104">Learning map</span></span> 
 
-Toliau pateiktame mokymo plane pateiktos pagrindinės sąvokas ir užduotys, apjungiančios susijusias užduotis, kuriose apibūdinamas kaštų apskaitos modulis.
+<span data-ttu-id="6d9a0-105">Toliau pateiktame mokymo plane pateiktos pagrindinės sąvokas ir užduotys, apjungiančios susijusias užduotis, kuriose apibūdinamas kaštų apskaitos modulis.</span><span class="sxs-lookup"><span data-stu-id="6d9a0-105">The following learning map shows the major concepts and tasks with connecting lines between related tasks that describe the nature of the cost accounting module.</span></span>
 
 ![Kaštų apskaitos mokymo planas](./media/cost-accounting-map.png)
 
-## <a name="get-started-videos"></a>Darbo pradžios vaizdo įrašai
+## <a name="get-started-videos"></a><span data-ttu-id="6d9a0-107">Darbo pradžios vaizdo įrašai</span><span class="sxs-lookup"><span data-stu-id="6d9a0-107">Get started videos</span></span>
 
 
 <table>

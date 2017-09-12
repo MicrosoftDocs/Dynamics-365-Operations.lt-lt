@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Mokėtinų sumų centralizuoti mokėjimai
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="06694-105">Mokėtinų sumų centralizuoti mokėjimai</span><span class="sxs-lookup"><span data-stu-id="06694-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
+<span data-ttu-id="06694-106">Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus.</span><span class="sxs-lookup"><span data-stu-id="06694-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="06694-107">Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus.</span><span class="sxs-lookup"><span data-stu-id="06694-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="06694-108">Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.</span><span class="sxs-lookup"><span data-stu-id="06694-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus. Be to, organizacija sutaupo laiko, nes mokėjimo procesas yra supaprastinamas.
+<span data-ttu-id="06694-109">Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus.</span><span class="sxs-lookup"><span data-stu-id="06694-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="06694-110">Todėl to pačio mokėjimo nereikia įvesti į kelis juridinius subjektus.</span><span class="sxs-lookup"><span data-stu-id="06694-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="06694-111">Be to, organizacija sutaupo laiko, nes mokėjimo procesas yra supaprastinamas.</span><span class="sxs-lookup"><span data-stu-id="06694-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Centralizuotų mokėjimų organizacijoje yra daug operacijų juridinių subjektų, o kiekvienas veikiantis juridinis subjektas valdo savo tiekėjo SF. Visų veikiančių juridinių subjektų mokėjimai yra generuojami iš vieno juridinio subjekto, kuris vadinamas mokėjimo juridiniu subjektu. Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos. Galite nurodyti, kuris organizacijos juridinis subjektas gaus patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su visos įmonės mokėjimu susijusios mokėjimo nuolaidų operacijos. 
+<span data-ttu-id="06694-112">Centralizuotų mokėjimų organizacijoje yra daug operacijų juridinių subjektų, o kiekvienas veikiantis juridinis subjektas valdo savo tiekėjo SF.</span><span class="sxs-lookup"><span data-stu-id="06694-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="06694-113">Visų veikiančių juridinių subjektų mokėjimai yra generuojami iš vieno juridinio subjekto, kuris vadinamas mokėjimo juridiniu subjektu.</span><span class="sxs-lookup"><span data-stu-id="06694-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="06694-114">Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos.</span><span class="sxs-lookup"><span data-stu-id="06694-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="06694-115">Galite nurodyti, kuris organizacijos juridinis subjektas gaus patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su visos įmonės mokėjimu susijusios mokėjimo nuolaidų operacijos.</span><span class="sxs-lookup"><span data-stu-id="06694-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Toliau pateiktame pavyzdyje parodyta, kaip atliekamas registravimas įvairių scenarijų atvejais. Ši konfigūracija naudojama visų toliau nurodytų pavyzdžių atvejais.
+<span data-ttu-id="06694-116">Toliau pateiktame pavyzdyje parodyta, kaip atliekamas registravimas įvairių scenarijų atvejais.</span><span class="sxs-lookup"><span data-stu-id="06694-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="06694-117">Ši konfigūracija naudojama visų toliau nurodytų pavyzdžių atvejais.</span><span class="sxs-lookup"><span data-stu-id="06694-117">The following configuration is assumed for all these examples:</span></span>
 
--   Juridiniai subjektai yra Fabrikam, Fabrikam East ir Fabrikam West. Mokėjimai atliekami iš „Fabrikam“.
--   Laukas **Registruoti mokėjimo nuolaidą**, esantis **Vidinės įmonės apskaitos** puslapyje, nustatytas į **SF juridinis subjektas**.
--   Laukas **Registruoti valiutos kurso pelną arba nuostolį**, esantis **Vidinės įmonės apskaitos** puslapyje, nustatytas į **Mokėjimo juridinis subjektas**.
--   Tiekėjas „Fourth Coffee ‟ kaip tiekėjas nustatytas kiekviename juridiniame subjekte. Tiekėjai iš įvairių juridinių subjektų identifikuojami kaip tas pats tiekėjas, nes jų visuotinės adresų knygelės ID yra toks pats.
+-   <span data-ttu-id="06694-118">Juridiniai subjektai yra Fabrikam, Fabrikam East ir Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="06694-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="06694-119">Mokėjimai atliekami iš „Fabrikam“.</span><span class="sxs-lookup"><span data-stu-id="06694-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="06694-120">Laukas **Registruoti mokėjimo nuolaidą**, esantis **Vidinės įmonės apskaitos** puslapyje, nustatytas į **SF juridinis subjektas**.</span><span class="sxs-lookup"><span data-stu-id="06694-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="06694-121">Laukas **Registruoti valiutos kurso pelną arba nuostolį**, esantis **Vidinės įmonės apskaitos** puslapyje, nustatytas į **Mokėjimo juridinis subjektas**.</span><span class="sxs-lookup"><span data-stu-id="06694-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="06694-122">Tiekėjas „Fourth Coffee ‟ kaip tiekėjas nustatytas kiekviename juridiniame subjekte.</span><span class="sxs-lookup"><span data-stu-id="06694-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="06694-123">Tiekėjai iš įvairių juridinių subjektų identifikuojami kaip tas pats tiekėjas, nes jų visuotinės adresų knygelės ID yra toks pats.</span><span class="sxs-lookup"><span data-stu-id="06694-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| Katalogo ID | Tiekėjo kodas | Vardas          | Juridinis subjektas  |
+| <span data-ttu-id="06694-124">Katalogo ID</span><span class="sxs-lookup"><span data-stu-id="06694-124">Directory ID</span></span> | <span data-ttu-id="06694-125">Tiekėjo kodas</span><span class="sxs-lookup"><span data-stu-id="06694-125">Vendor account</span></span> | <span data-ttu-id="06694-126">Vardas</span><span class="sxs-lookup"><span data-stu-id="06694-126">Name</span></span>          | <span data-ttu-id="06694-127">Juridinis subjektas</span><span class="sxs-lookup"><span data-stu-id="06694-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Fabrikam East |
-| 1050         | 3004           | Fourth Coffee | Fabrikam West |
+| <span data-ttu-id="06694-128">1050</span><span class="sxs-lookup"><span data-stu-id="06694-128">1050</span></span>         | <span data-ttu-id="06694-129">3004</span><span class="sxs-lookup"><span data-stu-id="06694-129">3004</span></span>           | <span data-ttu-id="06694-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="06694-130">Fourth Coffee</span></span> | <span data-ttu-id="06694-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-131">Fabrikam</span></span>      |
+| <span data-ttu-id="06694-132">1050</span><span class="sxs-lookup"><span data-stu-id="06694-132">1050</span></span>         | <span data-ttu-id="06694-133">100</span><span class="sxs-lookup"><span data-stu-id="06694-133">100</span></span>            | <span data-ttu-id="06694-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="06694-134">Fourth Coffee</span></span> | <span data-ttu-id="06694-135">Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-135">Fabrikam East</span></span> |
+| <span data-ttu-id="06694-136">1050</span><span class="sxs-lookup"><span data-stu-id="06694-136">1050</span></span>         | <span data-ttu-id="06694-137">3004</span><span class="sxs-lookup"><span data-stu-id="06694-137">3004</span></span>           | <span data-ttu-id="06694-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="06694-138">Fourth Coffee</span></span> | <span data-ttu-id="06694-139">Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="06694-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>1 pavyzdys: tiekėjo SF mokėjimas iš kito juridinio subjekto
-Fabrikam East turi atvirą tiekėjo 100, Fourth Coffee, SF. Fabrikam įveda ir užregistruoja mokėjimą į Fabrikam tiekėjo sąskaitą 3004, Fourth Coffee. Mokėjimas yra sudengiamas su atvira SF.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="06694-140">1 pavyzdys: tiekėjo SF mokėjimas iš kito juridinio subjekto</span><span class="sxs-lookup"><span data-stu-id="06694-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="06694-141">Fabrikam East turi atvirą tiekėjo 100, Fourth Coffee, SF.</span><span class="sxs-lookup"><span data-stu-id="06694-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="06694-142">Fabrikam įveda ir užregistruoja mokėjimą į Fabrikam tiekėjo sąskaitą 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="06694-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-143">Mokėjimas yra sudengiamas su atvira SF.</span><span class="sxs-lookup"><span data-stu-id="06694-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>Įmonėje Fabrikam East registruojama tiekėjo 100 SF
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="06694-144">Įmonėje Fabrikam East registruojama tiekėjo 100 SF</span><span class="sxs-lookup"><span data-stu-id="06694-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-145">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-145">Account</span></span>                          | <span data-ttu-id="06694-146">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-146">Debit amount</span></span> | <span data-ttu-id="06694-147">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Išlaidos (Fabrikam East)          | 600,00       |               |
-| Mokėtinos sumos (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="06694-148">Išlaidos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="06694-149">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-149">600.00</span></span>       |               |
+| <span data-ttu-id="06694-150">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="06694-151">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Mokėjimas sugeneruotas ir užregistruotas 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="06694-152">Mokėjimas sugeneruotas ir užregistruotas 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-153">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-153">Account</span></span>                     | <span data-ttu-id="06694-154">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-154">Debit amount</span></span> | <span data-ttu-id="06694-155">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam) | 600,00       |               |
-| Grynieji pinigai (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="06694-156">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-157">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-157">600.00</span></span>       |               |
+| <span data-ttu-id="06694-158">Grynieji pinigai (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="06694-159">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="06694-160">Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="06694-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-161">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-161">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-162">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-162">Account</span></span>                           | <span data-ttu-id="06694-163">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-163">Debit amount</span></span> | <span data-ttu-id="06694-164">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Mokėtojas – Fabrikam East (Fabrikam) | 600,00       |               |
-| Mokėtinos sumos (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="06694-165">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="06694-166">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-166">600.00</span></span>       |               |
+| <span data-ttu-id="06694-167">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="06694-168">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-168">600.00</span></span>        |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-169">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-169">**Fabrikam East posting**</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-170">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-170">Account</span></span>                          | <span data-ttu-id="06694-171">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-171">Debit amount</span></span> | <span data-ttu-id="06694-172">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam East) | 600,00       |               |
-| Mokėtojas – Fabrikam (Fabrikam East)  |              | 600,00        |
+| <span data-ttu-id="06694-173">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-174">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-174">600.00</span></span>       |               |
+| <span data-ttu-id="06694-175">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="06694-176">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>2 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto su mokėjimo nuolaida
-Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima 20,00 dydžio mokėjimo nuolaida. Fabrikam įveda ir užregistruoja 580,00 dydžio mokėjimą Fabrikam tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su atviromis Fabrikam East SF. Mokėjimo nuolaida yra užregistruojama SF juridiniame subjekte, Fabrikam East.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="06694-177">2 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto su mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="06694-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="06694-178">Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF.</span><span class="sxs-lookup"><span data-stu-id="06694-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="06694-179">SF galima 20,00 dydžio mokėjimo nuolaida.</span><span class="sxs-lookup"><span data-stu-id="06694-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="06694-180">Fabrikam įveda ir užregistruoja 580,00 dydžio mokėjimą Fabrikam tiekėjui 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="06694-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-181">Mokėjimas yra sudengiamas su atviromis Fabrikam East SF.</span><span class="sxs-lookup"><span data-stu-id="06694-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="06694-182">Mokėjimo nuolaida yra užregistruojama SF juridiniame subjekte, Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="06694-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Sąskaita faktūra užregistruota Fabrikam East 100 tiekėjui įmonėje Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="06694-183">Sąskaita faktūra užregistruota Fabrikam East 100 tiekėjui įmonėje Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-184">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-184">Account</span></span>                          | <span data-ttu-id="06694-185">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-185">Debit amount</span></span> | <span data-ttu-id="06694-186">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Išlaidos (Fabrikam East)          | 600,00       |               |
-| Mokėtinos sumos (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="06694-187">Išlaidos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="06694-188">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-188">600.00</span></span>       |               |
+| <span data-ttu-id="06694-189">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="06694-190">600,00</span><span class="sxs-lookup"><span data-stu-id="06694-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Mokėjimas sugeneruotas ir užregistruotas Fabrikam 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="06694-191">Mokėjimas sugeneruotas ir užregistruotas Fabrikam 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-192">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-192">Account</span></span>                     | <span data-ttu-id="06694-193">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-193">Debit amount</span></span> | <span data-ttu-id="06694-194">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam) | 580,00       |               |
-| Grynieji pinigai (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="06694-195">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-196">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-196">580.00</span></span>       |               |
+| <span data-ttu-id="06694-197">Grynieji pinigai (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="06694-198">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="06694-199">Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="06694-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-200">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-200">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-201">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-201">Account</span></span>                           | <span data-ttu-id="06694-202">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-202">Debit amount</span></span> | <span data-ttu-id="06694-203">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Mokėtojas – Fabrikam East (Fabrikam) | 580,00       |               |
-| Mokėtinos sumos (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="06694-204">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="06694-205">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-205">580.00</span></span>       |               |
+| <span data-ttu-id="06694-206">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="06694-207">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-207">580.00</span></span>        |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-208">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-208">**Fabrikam East posting**</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-209">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-209">Account</span></span>                          | <span data-ttu-id="06694-210">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-210">Debit amount</span></span> | <span data-ttu-id="06694-211">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam East) | 580,00       |               |
-| Mokėtojas – Fabrikam (Fabrikam East)  |              | 580,00        |
-| Mokėtinos sumos (Fabrikam East) | 20,00        |               |
-| Mokėjimo nuolaida (Fabrikam East)    |              | 20,00         |
+| <span data-ttu-id="06694-212">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-213">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-213">580.00</span></span>       |               |
+| <span data-ttu-id="06694-214">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="06694-215">580,00</span><span class="sxs-lookup"><span data-stu-id="06694-215">580.00</span></span>        |
+| <span data-ttu-id="06694-216">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-217">20,00</span><span class="sxs-lookup"><span data-stu-id="06694-217">20.00</span></span>        |               |
+| <span data-ttu-id="06694-218">Mokėjimo nuolaida (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="06694-219">20,00</span><span class="sxs-lookup"><span data-stu-id="06694-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>3 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto taikant patirtą valiutos kurso nuostolį
-Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. Fabrikam įveda ir užregistruoja mokėjimą Fabrikam tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su atvira Fabrikam East SF. Sudengimo proceso metu sugeneruojama valiutos keitimo nuostolio operacija.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="06694-220">3 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto taikant patirtą valiutos kurso nuostolį</span><span class="sxs-lookup"><span data-stu-id="06694-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="06694-221">Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF.</span><span class="sxs-lookup"><span data-stu-id="06694-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="06694-222">Fabrikam įveda ir užregistruoja mokėjimą Fabrikam tiekėjui 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="06694-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-223">Mokėjimas yra sudengiamas su atvira Fabrikam East SF.</span><span class="sxs-lookup"><span data-stu-id="06694-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="06694-224">Sudengimo proceso metu sugeneruojama valiutos keitimo nuostolio operacija.</span><span class="sxs-lookup"><span data-stu-id="06694-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Sąskaitos faktūros išrašymo dieną euro (EUR) ir JAV dolerio (USD) valiutos kurso santykis: 1,2062
--   Mokėjimo dieną EUR ir USD valiutos kurso santykis: 1,2277
+-   <span data-ttu-id="06694-225">Sąskaitos faktūros išrašymo dieną euro (EUR) ir JAV dolerio (USD) valiutos kurso santykis: 1,2062</span><span class="sxs-lookup"><span data-stu-id="06694-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="06694-226">Mokėjimo dieną EUR ir USD valiutos kurso santykis: 1,2277</span><span class="sxs-lookup"><span data-stu-id="06694-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Sąskaita faktūra užregistruota Fabrikam East 100 tiekėjui įmonėje Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="06694-227">Sąskaita faktūra užregistruota Fabrikam East 100 tiekėjui įmonėje Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-228">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-228">Account</span></span>                          | <span data-ttu-id="06694-229">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-229">Debit amount</span></span>            | <span data-ttu-id="06694-230">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Išlaidos (Fabrikam East)          | 600,00 EUR / 723,72 USD |                         |
-| Mokėtinos sumos (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="06694-231">Išlaidos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="06694-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="06694-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="06694-233">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="06694-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="06694-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Mokėjimas sugeneruotas ir užregistruotas Fabrikam 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="06694-235">Mokėjimas sugeneruotas ir užregistruotas Fabrikam 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-236">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-236">Account</span></span>                     | <span data-ttu-id="06694-237">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-237">Debit amount</span></span>            | <span data-ttu-id="06694-238">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Mokėtinos sumos (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Grynieji pinigai (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="06694-239">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="06694-241">Grynieji pinigai (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="06694-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="06694-243">Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="06694-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-244">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-244">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-245">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-245">Account</span></span>                           | <span data-ttu-id="06694-246">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-246">Debit amount</span></span>            | <span data-ttu-id="06694-247">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Mokėtojas – Fabrikam East (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Mokėtinos sumos (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Patirtas nuostolis (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Mokėtojas – Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="06694-248">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="06694-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="06694-250">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="06694-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="06694-252">Patirtas nuostolis (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="06694-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="06694-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="06694-254">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="06694-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="06694-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-256">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-256">**Fabrikam East posting**</span></span>
 
-| Sąskaita                          | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-257">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-257">Account</span></span>                          | <span data-ttu-id="06694-258">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-258">Debit amount</span></span>            | <span data-ttu-id="06694-259">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Mokėtinos sumos (Fabrikam East) | 600,00 EUR / 736,62 USD |                         |
-| Mokėtojas – Fabrikam (Fabrikam East)  |                         | 600,00 EUR / 736,62 USD |
-| Mokėtojas – Fabrikam (Fabrikam East)  | 0,00 EUR / 12,90 USD    |                         |
-| Mokėtinos sumos (Fabrikam East) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="06694-260">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="06694-262">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="06694-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="06694-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="06694-264">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="06694-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="06694-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="06694-266">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="06694-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="06694-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>4 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto, taikant mokėjimo nuolaidą ir patirtą valiutos kurso nuostolį
-Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF. SF galima mokėjimo nuolaida, ir sugeneruojama PVM operacija. „Fabrikam“ užregistruoja mokėjimą „Fabrikam“ tiekėjui 3004, „Fourth Coffee“. Mokėjimas sudengiamas su atvira Fabrikam East SF. Sudengimo proceso metu sugeneruojama valiutos keitimo nuostolio operacija. Mokėjimo nuolaida užregistruojama SF juridiniame subjekte („Fabrikam East“), o valiutos keitimo nuostolis užregistruojamas mokėjimo juridiniame subjekte („Fabrikam“).
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="06694-268">4 pavyzdys: Tiekėjo SF mokėjimas iš kito juridinio subjekto, taikant mokėjimo nuolaidą ir patirtą valiutos kurso nuostolį</span><span class="sxs-lookup"><span data-stu-id="06694-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="06694-269">Fabrikam East turi tiekėjo 100, Fourth Coffee, atvirą SF.</span><span class="sxs-lookup"><span data-stu-id="06694-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="06694-270">SF galima mokėjimo nuolaida, ir sugeneruojama PVM operacija.</span><span class="sxs-lookup"><span data-stu-id="06694-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="06694-271">„Fabrikam“ užregistruoja mokėjimą „Fabrikam“ tiekėjui 3004, „Fourth Coffee“.</span><span class="sxs-lookup"><span data-stu-id="06694-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-272">Mokėjimas sudengiamas su atvira Fabrikam East SF.</span><span class="sxs-lookup"><span data-stu-id="06694-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="06694-273">Sudengimo proceso metu sugeneruojama valiutos keitimo nuostolio operacija.</span><span class="sxs-lookup"><span data-stu-id="06694-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="06694-274">Mokėjimo nuolaida užregistruojama SF juridiniame subjekte („Fabrikam East“), o valiutos keitimo nuostolis užregistruojamas mokėjimo juridiniame subjekte („Fabrikam“).</span><span class="sxs-lookup"><span data-stu-id="06694-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Sąskaitos faktūros išrašymo dieną EUR ir USD valiutos kurso santykis: 1,2062
--   Mokėjimo dieną EUR ir USD valiutos kurso santykis: 1,2277
+-   <span data-ttu-id="06694-275">Sąskaitos faktūros išrašymo dieną EUR ir USD valiutos kurso santykis: 1,2062</span><span class="sxs-lookup"><span data-stu-id="06694-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="06694-276">Mokėjimo dieną EUR ir USD valiutos kurso santykis: 1,2277</span><span class="sxs-lookup"><span data-stu-id="06694-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>SF užregistruota ir mokesčių operacija sugeneruota tiekėjui 100 įmonėje Fabrikam East
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="06694-277">SF užregistruota ir mokesčių operacija sugeneruota tiekėjui 100 įmonėje Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-278">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-278">Account</span></span>                          | <span data-ttu-id="06694-279">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-279">Debit amount</span></span>            | <span data-ttu-id="06694-280">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Išlaidos (Fabrikam East)          | 564,07 EUR / 680,38 USD |                         |
-| PVM (Fabrikam East)        | 35,93 EUR / 43,34 USD   |                         |
-| Mokėtinos sumos (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="06694-281">Išlaidos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="06694-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="06694-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="06694-283">PVM (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="06694-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="06694-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="06694-285">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="06694-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="06694-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Mokėjimas sugeneruotas ir užregistruotas 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="06694-287">Mokėjimas sugeneruotas ir užregistruotas 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-288">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-288">Account</span></span>                     | <span data-ttu-id="06694-289">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-289">Debit amount</span></span>            | <span data-ttu-id="06694-290">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Mokėtinos sumos (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Grynieji pinigai (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="06694-291">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="06694-293">Grynieji pinigai (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="06694-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="06694-295">Fabrikam mokėjimas sudengtas su Fabrikam East sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="06694-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-296">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-296">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-297">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-297">Account</span></span>                           | <span data-ttu-id="06694-298">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-298">Debit amount</span></span>            | <span data-ttu-id="06694-299">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Mokėtojas – Fabrikam East (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Mokėtinos sumos (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Patirtas nuostolis (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Mokėtojas – Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="06694-300">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="06694-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="06694-302">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="06694-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="06694-304">Patirtas nuostolis (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="06694-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="06694-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="06694-306">Mokėtojas – Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="06694-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="06694-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-308">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-308">**Fabrikam East posting**</span></span>
 
-| Sąskaita                          | Debeto suma            | Kredito suma           |
+| <span data-ttu-id="06694-309">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-309">Account</span></span>                          | <span data-ttu-id="06694-310">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-310">Debit amount</span></span>            | <span data-ttu-id="06694-311">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Mokėtinos sumos (Fabrikam East) | 588,72 EUR / 722,77 USD |                         |
-| Mokėtojas – Fabrikam (Fabrikam East)  |                         | 588,72 EUR / 722,77 USD |
-| Mokėti įmonei Fabrikam (Fabrikam East)   | 0,00 EUR / 12,66 USD    |                         |
-| Mokėtinos sumos (Fabrikam East) |                         | 0,00 EUR / 12,66 USD    |
-| Mokėtinos sumos (Fabrikam East) | 11,28 EUR / 13,61 USD   |                         |
-| Mokėjimo nuolaida (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="06694-312">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="06694-314">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="06694-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="06694-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="06694-316">Mokėti įmonei Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="06694-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="06694-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="06694-318">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="06694-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="06694-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="06694-320">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="06694-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="06694-322">Mokėjimo nuolaida (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="06694-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="06694-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>5 pavyzdys: Tiekėjo kredito pažyma taikant pirminį mokėjimą
-Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** yra pažymimas kaip pirminis mokėjimas.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="06694-324">5 pavyzdys: Tiekėjo kredito pažyma taikant pirminį mokėjimą</span><span class="sxs-lookup"><span data-stu-id="06694-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="06694-325">Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="06694-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-326">Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma.</span><span class="sxs-lookup"><span data-stu-id="06694-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="06694-327">Mokėjimas puslapyje **Operacijų sudengimas** yra pažymimas kaip pirminis mokėjimas.</span><span class="sxs-lookup"><span data-stu-id="06694-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="06694-328">Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="06694-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Paskyra                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-329">Paskyra</span><span class="sxs-lookup"><span data-stu-id="06694-329">Account</span></span>                          | <span data-ttu-id="06694-330">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-330">Debit amount</span></span> | <span data-ttu-id="06694-331">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Išlaidos (Fabrikam West)          | 100,00       |               |
-| Mokėtinos sumos (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="06694-332">Išlaidos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="06694-333">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-333">100.00</span></span>       |               |
+| <span data-ttu-id="06694-334">Mokėtinos sumos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="06694-335">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kredito pažyma užregistruota 100 tiekėjui įmonėje Fabrikam East
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="06694-336">Kredito pažyma užregistruota 100 tiekėjui įmonėje Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-337">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-337">Account</span></span>                          | <span data-ttu-id="06694-338">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-338">Debit amount</span></span> | <span data-ttu-id="06694-339">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam East) | 25,00        |               |
-| Pirkimų grąžinimai (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="06694-340">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-341">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-341">25.00</span></span>        |               |
+| <span data-ttu-id="06694-342">Pirkimų grąžinimai (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="06694-343">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Mokėjimas užregistruotas 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="06694-344">Mokėjimas užregistruotas 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-345">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-345">Account</span></span>                     | <span data-ttu-id="06694-346">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-346">Debit amount</span></span> | <span data-ttu-id="06694-347">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam) | 75,00        |               |
-| Grynieji pinigai (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="06694-348">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-349">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-349">75.00</span></span>        |               |
+| <span data-ttu-id="06694-350">Grynieji pinigai (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="06694-351">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="06694-352">Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma</span><span class="sxs-lookup"><span data-stu-id="06694-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-353">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-353">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-354">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-354">Account</span></span>                           | <span data-ttu-id="06694-355">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-355">Debit amount</span></span> | <span data-ttu-id="06694-356">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam)       | 25,00        |               |
-| Mokėti Fabrikam East (Fabrikam)   |              | 25,00         |
-| Mokėtojas – Fabrikam West (Fabrikam) | 100,00       |               |
-| Mokėtinos sumos (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="06694-357">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="06694-358">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-358">25.00</span></span>        |               |
+| <span data-ttu-id="06694-359">Mokėti Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="06694-360">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-360">25.00</span></span>         |
+| <span data-ttu-id="06694-361">Mokėtojas – Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="06694-362">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-362">100.00</span></span>       |               |
+| <span data-ttu-id="06694-363">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="06694-364">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-364">100.00</span></span>        |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-365">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-365">**Fabrikam East posting**</span></span>
 
-| Sąskaita                           | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-366">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-366">Account</span></span>                           | <span data-ttu-id="06694-367">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-367">Debit amount</span></span> | <span data-ttu-id="06694-368">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Mokėtojas – Fabrikam (Fabrikam East) | 25,00        |               |
-| Mokėtinos sumos (Fabrikam East)  |              | 25,00         |
+| <span data-ttu-id="06694-369">Mokėtojas – Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="06694-370">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-370">25.00</span></span>        |               |
+| <span data-ttu-id="06694-371">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="06694-372">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-372">25.00</span></span>         |
 
-**Fabrikam West registravimas**
+<span data-ttu-id="06694-373">**Fabrikam West registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-373">**Fabrikam West posting**</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-374">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-374">Account</span></span>                          | <span data-ttu-id="06694-375">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-375">Debit amount</span></span> | <span data-ttu-id="06694-376">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam West) | 100,00       |               |
-| Mokėti Fabrikam (Fabrikam West)  |              | 100,00        |
+| <span data-ttu-id="06694-377">Mokėtinos sumos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="06694-378">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-378">100.00</span></span>       |               |
+| <span data-ttu-id="06694-379">Mokėti Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="06694-380">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>6 pavyzdys: Tiekėjo kredito pažyma netaikant pirminio mokėjimo
-Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee. Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma. Mokėjimas puslapyje **Operacijų sudengimas** nėra pažymimas kaip pirminis mokėjimas.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="06694-381">6 pavyzdys: Tiekėjo kredito pažyma netaikant pirminio mokėjimo</span><span class="sxs-lookup"><span data-stu-id="06694-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="06694-382">Fabrikam sugeneruoja 75,00 dydžio mokėjimą tiekėjui 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="06694-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="06694-383">Mokėjimas yra sudengiamas su Fabrikam West tiekėjo 3004 atvira SF ir Fabrikam East tiekėjo 100 atvira kredito pažyma.</span><span class="sxs-lookup"><span data-stu-id="06694-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="06694-384">Mokėjimas puslapyje **Operacijų sudengimas** nėra pažymimas kaip pirminis mokėjimas.</span><span class="sxs-lookup"><span data-stu-id="06694-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="06694-385">Sąskaita faktūra užregistruota 3004 tiekėjui įmonėje Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="06694-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Paskyra                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-386">Paskyra</span><span class="sxs-lookup"><span data-stu-id="06694-386">Account</span></span>                          | <span data-ttu-id="06694-387">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-387">Debit amount</span></span> | <span data-ttu-id="06694-388">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Išlaidos (Fabrikam West)          | 100,00       |               |
-| Mokėtinos sumos (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="06694-389">Išlaidos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="06694-390">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-390">100.00</span></span>       |               |
+| <span data-ttu-id="06694-391">Mokėtinos sumos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="06694-392">100,00</span><span class="sxs-lookup"><span data-stu-id="06694-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Kredito pažyma užregistruota 100 tiekėjui įmonėje Fabrikam East
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="06694-393">Kredito pažyma užregistruota 100 tiekėjui įmonėje Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="06694-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Sąskaita                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-394">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-394">Account</span></span>                          | <span data-ttu-id="06694-395">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-395">Debit amount</span></span> | <span data-ttu-id="06694-396">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam East) | 25,00        |               |
-| Pirkimų grąžinimai (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="06694-397">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="06694-398">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-398">25.00</span></span>        |               |
+| <span data-ttu-id="06694-399">Pirkimų grąžinimai (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="06694-400">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Mokėjimas užregistruotas 3004 tiekėjui įmonėje Fabrikam
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="06694-401">Mokėjimas užregistruotas 3004 tiekėjui įmonėje Fabrikam</span><span class="sxs-lookup"><span data-stu-id="06694-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Sąskaita                     | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-402">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-402">Account</span></span>                     | <span data-ttu-id="06694-403">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-403">Debit amount</span></span> | <span data-ttu-id="06694-404">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam) | 75,00        |               |
-| Grynieji pinigai (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="06694-405">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="06694-406">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-406">75.00</span></span>        |               |
+| <span data-ttu-id="06694-407">Grynieji pinigai (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="06694-408">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="06694-409">Fabrikam mokėjimas sudengtas su Fabrikam West SF ir Fabrikam East kredito pažyma</span><span class="sxs-lookup"><span data-stu-id="06694-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam registravimas**
+<span data-ttu-id="06694-410">**Fabrikam registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-410">**Fabrikam posting**</span></span>
 
-| Sąskaita                           | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-411">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-411">Account</span></span>                           | <span data-ttu-id="06694-412">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-412">Debit amount</span></span> | <span data-ttu-id="06694-413">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Mokėtojas – Fabrikam West (Fabrikam) | 75,00        |               |
-| Mokėtinos sumos (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="06694-414">Mokėtojas – Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="06694-415">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-415">75.00</span></span>        |               |
+| <span data-ttu-id="06694-416">Mokėtinos sumos (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="06694-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="06694-417">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-417">75.00</span></span>         |
 
-**Fabrikam East registravimas**
+<span data-ttu-id="06694-418">**Fabrikam East registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-418">**Fabrikam East posting**</span></span>
 
-| Sąskaita                                | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-419">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-419">Account</span></span>                                | <span data-ttu-id="06694-420">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-420">Debit amount</span></span> | <span data-ttu-id="06694-421">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Moka įmonė Fabrikam West (Fabrikam East) | 25,00        |               |
-| Mokėtinos sumos (Fabrikam East)       |              | 25,00         |
+| <span data-ttu-id="06694-422">Moka įmonė Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="06694-423">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-423">25.00</span></span>        |               |
+| <span data-ttu-id="06694-424">Mokėtinos sumos (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="06694-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="06694-425">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-425">25.00</span></span>         |
 
-**Fabrikam West registravimas**
+<span data-ttu-id="06694-426">**Fabrikam West registravimas**</span><span class="sxs-lookup"><span data-stu-id="06694-426">**Fabrikam West posting**</span></span>
 
-| Sąskaita                              | Debeto suma | Kredito suma |
+| <span data-ttu-id="06694-427">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="06694-427">Account</span></span>                              | <span data-ttu-id="06694-428">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="06694-428">Debit amount</span></span> | <span data-ttu-id="06694-429">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="06694-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Mokėtinos sumos (Fabrikam West)     | 75,00        |               |
-| Mokėti Fabrikam (Fabrikam West)      |              | 75,00         |
-| Mokėtinos sumos (Fabrikam West)     | 25,00        |               |
-| Mokėti įmonei Fabrikam East (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="06694-430">Mokėtinos sumos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="06694-431">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-431">75.00</span></span>        |               |
+| <span data-ttu-id="06694-432">Mokėti Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="06694-433">75,00</span><span class="sxs-lookup"><span data-stu-id="06694-433">75.00</span></span>         |
+| <span data-ttu-id="06694-434">Mokėtinos sumos (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="06694-435">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-435">25.00</span></span>        |               |
+| <span data-ttu-id="06694-436">Mokėti įmonei Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="06694-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="06694-437">25,00</span><span class="sxs-lookup"><span data-stu-id="06694-437">25.00</span></span>         |
 
 
 

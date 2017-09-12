@@ -16,38 +16,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 79cb18717c6b42ef0307f304d28902dd66f0f932
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d43274aed2edbb91fd4e399cb8d45e91646b055
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-cost-objects"></a>Išlaidų objektų kūrimas   
+# <a name="create-cost-objects"></a><span data-ttu-id="6b87b-103">Išlaidų objektų kūrimas  </span><span class="sxs-lookup"><span data-stu-id="6b87b-103">Create cost objects</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį. Kuriant šią procedūrą buvo naudojama demonstracinių duomenų įmonė USMF. Ši procedūra yra skirta kaštų apskaitos funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.
+<span data-ttu-id="6b87b-104">Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį.</span><span class="sxs-lookup"><span data-stu-id="6b87b-104">This procedure shows how to create cost objects by importing the Dynamics 365 for Finance and Operations, Enterprise edition cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="6b87b-105">Kuriant šią procedūrą buvo naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="6b87b-105">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="6b87b-106">Ši procedūra yra skirta kaštų apskaitos funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.</span><span class="sxs-lookup"><span data-stu-id="6b87b-106">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-new-cost-objects"></a>Naujų išlaidų objektų kūrimas
-1. Pasirinkite Kaštų apskaita > Dimensijos > Išlaidų objekto dimensijos.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Dimensijos narių duomenų jungtis įveskite arba pasirinkite reikšmę.
-5. Lauke Aprašas įveskite reikšmę.
-6. Spustelėkite Įrašyti.
+## <a name="create-new-cost-objects"></a><span data-ttu-id="6b87b-107">Naujų išlaidų objektų kūrimas</span><span class="sxs-lookup"><span data-stu-id="6b87b-107">Create new cost objects</span></span>
+1. <span data-ttu-id="6b87b-108">Pasirinkite Kaštų apskaita > Dimensijos > Išlaidų objekto dimensijos.</span><span class="sxs-lookup"><span data-stu-id="6b87b-108">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
+2. <span data-ttu-id="6b87b-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6b87b-109">Click New.</span></span>
+3. <span data-ttu-id="6b87b-110">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6b87b-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="6b87b-111">Lauke Dimensijos narių duomenų jungtis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6b87b-111">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="6b87b-112">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6b87b-112">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="6b87b-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6b87b-113">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a>Duomenų jungties konfigūravimas
-1. Spustelėkite Konfigūruoti dimensijos nario teikimo įrankį.
-    * Pasirinkite CostCenter, norėdami importuoti CostCenter dimensiją į kaštų apskaitą.  
-2. Lauke Dimensijos pavadinimas pasirinkite Išlaidų centras.
-3. Spustelėkite GERAI.
+## <a name="configure-the-data-connector"></a><span data-ttu-id="6b87b-114">Duomenų jungties konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="6b87b-114">Configure the data connector</span></span>
+1. <span data-ttu-id="6b87b-115">Spustelėkite Konfigūruoti dimensijos nario teikimo įrankį.</span><span class="sxs-lookup"><span data-stu-id="6b87b-115">Click Configure dimension member provider.</span></span>
+    * <span data-ttu-id="6b87b-116">Pasirinkite CostCenter, norėdami importuoti CostCenter dimensiją į kaštų apskaitą.</span><span class="sxs-lookup"><span data-stu-id="6b87b-116">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
+2. <span data-ttu-id="6b87b-117">Lauke Dimensijos pavadinimas pasirinkite Išlaidų centras.</span><span class="sxs-lookup"><span data-stu-id="6b87b-117">In the Dimension name field, select Cost center.</span></span>
+3. <span data-ttu-id="6b87b-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6b87b-118">Click OK.</span></span>
 
-## <a name="import-cost-centers"></a>Importuoti išlaidų centrus
-1. Spustelėkite Importuoti dimensijos narius.
-2. Spustelėkite GERAI.
+## <a name="import-cost-centers"></a><span data-ttu-id="6b87b-119">Importuoti išlaidų centrus</span><span class="sxs-lookup"><span data-stu-id="6b87b-119">Import cost centers</span></span>
+1. <span data-ttu-id="6b87b-120">Spustelėkite Importuoti dimensijos narius.</span><span class="sxs-lookup"><span data-stu-id="6b87b-120">Click Import dimension members.</span></span>
+2. <span data-ttu-id="6b87b-121">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6b87b-121">Click OK.</span></span>
 
-## <a name="view-the-imported-cost-centers"></a>Importuotų išlaidų centrų peržiūra
-1. Spustelėkite Peržiūrėti dimensijos narius.
+## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="6b87b-122">Importuotų išlaidų centrų peržiūra</span><span class="sxs-lookup"><span data-stu-id="6b87b-122">View the imported cost centers</span></span>
+1. <span data-ttu-id="6b87b-123">Spustelėkite Peržiūrėti dimensijos narius.</span><span class="sxs-lookup"><span data-stu-id="6b87b-123">Click View dimension members.</span></span>
 
 

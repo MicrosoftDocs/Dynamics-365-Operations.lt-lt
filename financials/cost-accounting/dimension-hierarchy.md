@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Dimensijų hierarchija
+# <a name="dimension-hierarchy"></a><span data-ttu-id="c3235-104">Dimensijų hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacijos apie dimensijų hierarchijas. Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus.  
+<span data-ttu-id="c3235-105">Šioje temoje pateikiama informacijos apie dimensijų hierarchijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="c3235-106">Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus.</span><span class="sxs-lookup"><span data-stu-id="c3235-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a><span data-ttu-id="c3235-107">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="c3235-107">Overview</span></span>
 
-Dimensijų hierarchijos naudojamos įvairiose kaštų apskaitos vietose. Naudodami dimensijų hierarchiją galite nurodyti šią informaciją:
+<span data-ttu-id="c3235-108">Dimensijų hierarchijos naudojamos įvairiose kaštų apskaitos vietose.</span><span class="sxs-lookup"><span data-stu-id="c3235-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="c3235-109">Naudodami dimensijų hierarchiją galite nurodyti šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="c3235-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Organizacijos reikalavimus atitinkančią ataskaitų struktūrą
--  Savikainos strategijos
--  Saugos nustatymai
+-  <span data-ttu-id="c3235-110">Organizacijos reikalavimus atitinkančią ataskaitų struktūrą</span><span class="sxs-lookup"><span data-stu-id="c3235-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="c3235-111">Savikainos strategijos</span><span class="sxs-lookup"><span data-stu-id="c3235-111">Cost policies</span></span>
+-  <span data-ttu-id="c3235-112">Saugos nustatymai</span><span class="sxs-lookup"><span data-stu-id="c3235-112">The security setup</span></span>
 
-Čia pateikiamas dimensijų hierarchijos pavyzdys.
+<span data-ttu-id="c3235-113">Čia pateikiamas dimensijų hierarchijos pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="c3235-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Dimensijų hierarchijos pavyzdys](./media/dimension-hierarchy.png)
 
-Dimensijų hierarchiją galima sukurti šių tipų dimensijoms:
+<span data-ttu-id="c3235-115">Dimensijų hierarchiją galima sukurti šių tipų dimensijoms:</span><span class="sxs-lookup"><span data-stu-id="c3235-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Savikainos elemento dimensijos
--  Savikainos objekto dimensijos
--  Statistinės dimensijos
+-  <span data-ttu-id="c3235-116">Savikainos elemento dimensijos</span><span class="sxs-lookup"><span data-stu-id="c3235-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="c3235-117">Savikainos objekto dimensijos</span><span class="sxs-lookup"><span data-stu-id="c3235-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="c3235-118">Statistinės dimensijos</span><span class="sxs-lookup"><span data-stu-id="c3235-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Jeigu reikalingos skirtingos perspektyvos, galite sukurti kelias tos pačios dimensijos dimensijų hierarchijas.
-> - Dimensijų hierarchija gali būti susieta tik su viena dimensija.
-> - Dimensijų hierarchijos struktūros lygiai gali būti neriboti. Visi lygiai nurodomi darbo srityje **Išlaidų kontrolė**. Kai „Microsoft Excel“ arba „Microsoft Power BI“ naudojate ataskaitų rengimo tikslais, eksportuojami tik pirmi 15 dimensijų hierarchijos lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema.
-> - Dimensijų hierarchija nėra įsigaliojanti nuo tam tikros datos. Todėl bet kokie dimensijų hierarchijai atlikti pakeitimai iš karto įrašomi į įrašą ir negalima palyginti datos prieš su data po.
+> - <span data-ttu-id="c3235-119">Jeigu reikalingos skirtingos perspektyvos, galite sukurti kelias tos pačios dimensijos dimensijų hierarchijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="c3235-120">Dimensijų hierarchija gali būti susieta tik su viena dimensija.</span><span class="sxs-lookup"><span data-stu-id="c3235-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="c3235-121">Dimensijų hierarchijos struktūros lygiai gali būti neriboti.</span><span class="sxs-lookup"><span data-stu-id="c3235-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="c3235-122">Visi lygiai nurodomi darbo srityje **Išlaidų kontrolė**.</span><span class="sxs-lookup"><span data-stu-id="c3235-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="c3235-123">Kai „Microsoft Excel“ arba „Microsoft Power BI“ naudojate ataskaitų rengimo tikslais, eksportuojami tik pirmi 15 dimensijų hierarchijos lygių.</span><span class="sxs-lookup"><span data-stu-id="c3235-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="c3235-124">Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema.</span><span class="sxs-lookup"><span data-stu-id="c3235-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="c3235-125">Dimensijų hierarchija nėra įsigaliojanti nuo tam tikros datos.</span><span class="sxs-lookup"><span data-stu-id="c3235-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="c3235-126">Todėl bet kokie dimensijų hierarchijai atlikti pakeitimai iš karto įrašomi į įrašą ir negalima palyginti datos prieš su data po.</span><span class="sxs-lookup"><span data-stu-id="c3235-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Dimensijų hierarchijos tipas
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="c3235-127">Dimensijų hierarchijos tipas</span><span class="sxs-lookup"><span data-stu-id="c3235-127">Dimension hierarchy type</span></span>
 
-Kai sukuriate naują dimenijų hierarchiją, turite pasirinkti hierarchijos tipą. Eikite į **Kaštų apskaita** > **Dimensijos** > **Dimensijų hierarchijos**. Spustelėkite **Naujas** ir pasirinkite dimensijų hierarchijos tipą. Galite pasirinkti **Dimensijų kategorizavimo hierarchija** arba **Dimensijų klasifikavimo hierarchija**.
+<span data-ttu-id="c3235-128">Kai sukuriate naują dimenijų hierarchiją, turite pasirinkti hierarchijos tipą.</span><span class="sxs-lookup"><span data-stu-id="c3235-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="c3235-129">Eikite į **Kaštų apskaita** > **Dimensijos** > **Dimensijų hierarchijos**.</span><span class="sxs-lookup"><span data-stu-id="c3235-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="c3235-130">Spustelėkite **Naujas** ir pasirinkite dimensijų hierarchijos tipą.</span><span class="sxs-lookup"><span data-stu-id="c3235-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="c3235-131">Galite pasirinkti **Dimensijų kategorizavimo hierarchija** arba **Dimensijų klasifikavimo hierarchija**.</span><span class="sxs-lookup"><span data-stu-id="c3235-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Dimensijų klasifikavimo hierarchija
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="c3235-132">Dimensijų klasifikavimo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-132">Dimension categorization hierarchy</span></span>
 
-Tipas **Dimensijų kategorizavimo hierarchija** naudojamas ataskaitų rengimo tikslais. Jis palaiko tik išlaidų elemento dimensijas. Pasirinkus šį tipą taikomos šios taisyklės:
+<span data-ttu-id="c3235-133">Tipas **Dimensijų kategorizavimo hierarchija** naudojamas ataskaitų rengimo tikslais.</span><span class="sxs-lookup"><span data-stu-id="c3235-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="c3235-134">Jis palaiko tik išlaidų elemento dimensijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="c3235-135">Pasirinkus šį tipą taikomos šios taisyklės:</span><span class="sxs-lookup"><span data-stu-id="c3235-135">When you select this type, the following rules apply:</span></span>
 
--  Dimensijos narys hierarchijos struktūroje gali būti susietas daugiau nei vieną kartą.
--  Lapo mazgui priskirdami išlaidų veikimo būdą išlaidų elemento dimensijos narį galite įdėti į įvairius mazgus.
+-  <span data-ttu-id="c3235-136">Dimensijos narys hierarchijos struktūroje gali būti susietas daugiau nei vieną kartą.</span><span class="sxs-lookup"><span data-stu-id="c3235-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="c3235-137">Lapo mazgui priskirdami išlaidų veikimo būdą išlaidų elemento dimensijos narį galite įdėti į įvairius mazgus.</span><span class="sxs-lookup"><span data-stu-id="c3235-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Dimensijų klasifikavimo hierarchija
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="c3235-138">Dimensijų klasifikavimo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-138">Dimension classification hierarchy</span></span>
 
-Tipas **Dimensijų klasifikacijos hierarchija** naudojamas norint apibrėžti taisykles ir ataskaitų rengimo tikslais. Jis palaiko visas dimensijas, pavyzdžiui, išlaidų objektus, išlaidų elementus ir statistines dimensijas. Pasirinkus šį tipą dimensijos narys hierarchijos struktūroje gali būti susietas tik vieną kartą.
+<span data-ttu-id="c3235-139">Tipas **Dimensijų klasifikacijos hierarchija** naudojamas norint apibrėžti taisykles ir ataskaitų rengimo tikslais.</span><span class="sxs-lookup"><span data-stu-id="c3235-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="c3235-140">Jis palaiko visas dimensijas, pavyzdžiui, išlaidų objektus, išlaidų elementus ir statistines dimensijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="c3235-141">Pasirinkus šį tipą dimensijos narys hierarchijos struktūroje gali būti susietas tik vieną kartą.</span><span class="sxs-lookup"><span data-stu-id="c3235-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Dimensijų hierarchijos kūrimas ir priežiūra
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="c3235-142">Dimensijų hierarchijos kūrimas ir priežiūra</span><span class="sxs-lookup"><span data-stu-id="c3235-142">Create and maintain a dimension hierarchy</span></span>
 
-Dimensijų hierarchija sukuriama kaip mazgą turinti ir lapo mazgo ryšiais pasižyminti medžio struktūra.
+<span data-ttu-id="c3235-143">Dimensijų hierarchija sukuriama kaip mazgą turinti ir lapo mazgo ryšiais pasižyminti medžio struktūra.</span><span class="sxs-lookup"><span data-stu-id="c3235-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Mazge gali būti 1:_n_ antriniai (-ių) mazgai (-ų).
--  Mazgui negali būti priskirta antrinių mazgų ir lapų mazgų.
--  Lapo mazgas gali būti priskirtas tik žemiausiame hierarchijos lygmenyje.
+-  <span data-ttu-id="c3235-144">Mazge gali būti 1:_n_ antriniai (-ių) mazgai (-ų).</span><span class="sxs-lookup"><span data-stu-id="c3235-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="c3235-145">Mazgui negali būti priskirta antrinių mazgų ir lapų mazgų.</span><span class="sxs-lookup"><span data-stu-id="c3235-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="c3235-146">Lapo mazgas gali būti priskirtas tik žemiausiame hierarchijos lygmenyje.</span><span class="sxs-lookup"><span data-stu-id="c3235-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Pavyzdys
+### <a name="example"></a><span data-ttu-id="c3235-147">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="c3235-147">Example</span></span>
 
-Mažai įmonei būdinga tokia organizacijos struktūra, kai finansų ir žmogiškųjų išteklių skyriai yra administraciniai, o surinkimo ir pakavimo skyriai yra gamybos skyriai.
+<span data-ttu-id="c3235-148">Mažai įmonei būdinga tokia organizacijos struktūra, kai finansų ir žmogiškųjų išteklių skyriai yra administraciniai, o surinkimo ir pakavimo skyriai yra gamybos skyriai.</span><span class="sxs-lookup"><span data-stu-id="c3235-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Organizacijos struktūros pavyzdys](./media/dimension-hierarchy-org.png)
 
-Savikainos objekto dimensija apima visus organizacijos išlaidų centrus.
+<span data-ttu-id="c3235-150">Savikainos objekto dimensija apima visus organizacijos išlaidų centrus.</span><span class="sxs-lookup"><span data-stu-id="c3235-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Savikainos objekto dimensija
-    - Išlaidų centrai
+- <span data-ttu-id="c3235-151">Savikainos objekto dimensija</span><span class="sxs-lookup"><span data-stu-id="c3235-151">Cost object dimension</span></span>
+    - <span data-ttu-id="c3235-152">Išlaidų centrai</span><span class="sxs-lookup"><span data-stu-id="c3235-152">Cost centers</span></span>
 
-Savikainos objekto dimensiją, kurią sudaro visi išlaidos centrai, galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-153">Savikainos objekto dimensiją, kurią sudaro visi išlaidos centrai, galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Išlaidų centrai | aprašymas |
+| <span data-ttu-id="c3235-154">Išlaidų centrai</span><span class="sxs-lookup"><span data-stu-id="c3235-154">Cost centers</span></span> | <span data-ttu-id="c3235-155">aprašymas</span><span class="sxs-lookup"><span data-stu-id="c3235-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | Personalas          |
-| CC002        | Finansai     |
-| CC003        | Mokesčiai         |
-| CC007        | AR/AP       |
-| CC005        | Surinkimas    |
-| CC006        | Pakuotės   |
+| <span data-ttu-id="c3235-156">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-156">CC001</span></span>        | <span data-ttu-id="c3235-157">Personalas</span><span class="sxs-lookup"><span data-stu-id="c3235-157">HR</span></span>          |
+| <span data-ttu-id="c3235-158">CC002</span><span class="sxs-lookup"><span data-stu-id="c3235-158">CC002</span></span>        | <span data-ttu-id="c3235-159">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-159">Finance</span></span>     |
+| <span data-ttu-id="c3235-160">CC003</span><span class="sxs-lookup"><span data-stu-id="c3235-160">CC003</span></span>        | <span data-ttu-id="c3235-161">Mokesčiai</span><span class="sxs-lookup"><span data-stu-id="c3235-161">Tax</span></span>         |
+| <span data-ttu-id="c3235-162">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-162">CC007</span></span>        | <span data-ttu-id="c3235-163">AR/AP</span><span class="sxs-lookup"><span data-stu-id="c3235-163">AR/AP</span></span>       |
+| <span data-ttu-id="c3235-164">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-164">CC005</span></span>        | <span data-ttu-id="c3235-165">Surinkimas</span><span class="sxs-lookup"><span data-stu-id="c3235-165">Assembly</span></span>    |
+| <span data-ttu-id="c3235-166">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-166">CC006</span></span>        | <span data-ttu-id="c3235-167">Pakuotės</span><span class="sxs-lookup"><span data-stu-id="c3235-167">Packaging</span></span>   |
 
-Savikainos elemento dimensija apima visus organizacijos savikainos elementus.
+<span data-ttu-id="c3235-168">Savikainos elemento dimensija apima visus organizacijos savikainos elementus.</span><span class="sxs-lookup"><span data-stu-id="c3235-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Savikainos elemento dimensija
-    - Savikainos elementai
+- <span data-ttu-id="c3235-169">Savikainos elemento dimensija</span><span class="sxs-lookup"><span data-stu-id="c3235-169">Cost element dimension</span></span>
+    - <span data-ttu-id="c3235-170">Savikainos elementai</span><span class="sxs-lookup"><span data-stu-id="c3235-170">Cost elements</span></span>
 
-Savikainos elemento dimensiją, kurią sudaro visi savikainos elementai, galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-171">Savikainos elemento dimensiją, kurią sudaro visi savikainos elementai, galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Savikainos elementai | aprašymas |
+| <span data-ttu-id="c3235-172">Savikainos elementai</span><span class="sxs-lookup"><span data-stu-id="c3235-172">Cost elements</span></span> | <span data-ttu-id="c3235-173">aprašymas</span><span class="sxs-lookup"><span data-stu-id="c3235-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Elektros energija |
-| 10010         | Valymas    |
-| 10011         | Šildymas     |
-| 40001         | PPK        |
+| <span data-ttu-id="c3235-174">10001</span><span class="sxs-lookup"><span data-stu-id="c3235-174">10001</span></span>         | <span data-ttu-id="c3235-175">Elektros energija</span><span class="sxs-lookup"><span data-stu-id="c3235-175">Electricity</span></span> |
+| <span data-ttu-id="c3235-176">10010</span><span class="sxs-lookup"><span data-stu-id="c3235-176">10010</span></span>         | <span data-ttu-id="c3235-177">Valymas</span><span class="sxs-lookup"><span data-stu-id="c3235-177">Cleaning</span></span>    |
+| <span data-ttu-id="c3235-178">10011</span><span class="sxs-lookup"><span data-stu-id="c3235-178">10011</span></span>         | <span data-ttu-id="c3235-179">Šildymas</span><span class="sxs-lookup"><span data-stu-id="c3235-179">Heating</span></span>     |
+| <span data-ttu-id="c3235-180">40001</span><span class="sxs-lookup"><span data-stu-id="c3235-180">40001</span></span>         | <span data-ttu-id="c3235-181">PPK</span><span class="sxs-lookup"><span data-stu-id="c3235-181">COGS</span></span>        |
 
-Organizacijos ataskaitoms keliamus reikalavimus atitinkančią dimensijos hierarchiją galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-182">Organizacijos ataskaitoms keliamus reikalavimus atitinkančią dimensijos hierarchiją galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Dimensijų hierarchijos informacija**
+<span data-ttu-id="c3235-183">**Dimensijų hierarchijos informacija**</span><span class="sxs-lookup"><span data-stu-id="c3235-183">**Dimension hierarchy details**</span></span>
 
-| Dimensijų hierarchijos pavadinimas | Dimensija    | Dimensijų hierarchijos tipo pavadinimas      | Prieigos sąrašo hierarchija |
+| <span data-ttu-id="c3235-184">Dimensijų hierarchijos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-184">Dimension hierarchy name</span></span> | <span data-ttu-id="c3235-185">Dimensija</span><span class="sxs-lookup"><span data-stu-id="c3235-185">Dimension</span></span>    | <span data-ttu-id="c3235-186">Dimensijų hierarchijos tipo pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="c3235-187">Prieigos sąrašo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizacija             | Išlaidų centrai | Dimensijų klasifikavimo hierarchija | Nr.                    |
+| <span data-ttu-id="c3235-188">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-188">Organization</span></span>             | <span data-ttu-id="c3235-189">Išlaidų centrai</span><span class="sxs-lookup"><span data-stu-id="c3235-189">Cost centers</span></span> | <span data-ttu-id="c3235-190">Dimensijų klasifikavimo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="c3235-191">Nr.</span><span class="sxs-lookup"><span data-stu-id="c3235-191">No</span></span>                    |
 
-Ataskaitų rengimui skirtą dimensijų hierarchiją galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-192">Ataskaitų rengimui skirtą dimensijų hierarchiją galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Dimensijos narių intervalai   |                         |
+|                   | <span data-ttu-id="c3235-193">Dimensijos narių intervalai</span><span class="sxs-lookup"><span data-stu-id="c3235-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Mazgai**         | **Iš dimensijos nario** | **Į dimensijos narį** |
-| Organizacija      |                           |                         |
-| &nbsp;&nbsp;Administratorius         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finansai   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Personalas        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Gamyba    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakuotės | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Surinkimas  | CC006                     | CC006                   |
+| <span data-ttu-id="c3235-194">**Mazgai**</span><span class="sxs-lookup"><span data-stu-id="c3235-194">**Nodes**</span></span>         | <span data-ttu-id="c3235-195">**Iš dimensijos nario**</span><span class="sxs-lookup"><span data-stu-id="c3235-195">**From dimension member**</span></span> | <span data-ttu-id="c3235-196">**Į dimensijos narį**</span><span class="sxs-lookup"><span data-stu-id="c3235-196">**To dimension member**</span></span> |
+| <span data-ttu-id="c3235-197">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="c3235-198">&nbsp;&nbsp;Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="c3235-199">&nbsp;&nbsp;&nbsp;&nbsp;Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="c3235-200">CC002</span><span class="sxs-lookup"><span data-stu-id="c3235-200">CC002</span></span>                     | <span data-ttu-id="c3235-201">CC003</span><span class="sxs-lookup"><span data-stu-id="c3235-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="c3235-202">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-202">CC007</span></span>                     | <span data-ttu-id="c3235-203">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-203">CC007</span></span>                   |
+| <span data-ttu-id="c3235-204">&nbsp;&nbsp;&nbsp;&nbsp;Personalas</span><span class="sxs-lookup"><span data-stu-id="c3235-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="c3235-205">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-205">CC001</span></span>                     | <span data-ttu-id="c3235-206">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-206">CC001</span></span>                   |
+| <span data-ttu-id="c3235-207">&nbsp;&nbsp;Gamyba</span><span class="sxs-lookup"><span data-stu-id="c3235-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="c3235-208">&nbsp;&nbsp;&nbsp;&nbsp;Pakuotės</span><span class="sxs-lookup"><span data-stu-id="c3235-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="c3235-209">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-209">CC005</span></span>                     | <span data-ttu-id="c3235-210">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-210">CC005</span></span>                   |
+| <span data-ttu-id="c3235-211">&nbsp;&nbsp;&nbsp;&nbsp;Surinkimas</span><span class="sxs-lookup"><span data-stu-id="c3235-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="c3235-212">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-212">CC006</span></span>                     | <span data-ttu-id="c3235-213">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-213">CC006</span></span>                   |
 
-Strategijai keliamus reikalavimus atitinkančią dimensijos hierarchiją galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-214">Strategijai keliamus reikalavimus atitinkančią dimensijos hierarchiją galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Dimensijų hierarchijos informacija**
+<span data-ttu-id="c3235-215">**Dimensijų hierarchijos informacija**</span><span class="sxs-lookup"><span data-stu-id="c3235-215">**Dimension hierarchy details**</span></span>
 
-| Dimensijų hierarchijos pavadinimas | Dimensija     | Dimensijų hierarchijos tipo pavadinimas      |
+| <span data-ttu-id="c3235-216">Dimensijų hierarchijos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-216">Dimension hierarchy name</span></span> | <span data-ttu-id="c3235-217">Dimensija</span><span class="sxs-lookup"><span data-stu-id="c3235-217">Dimension</span></span>     | <span data-ttu-id="c3235-218">Dimensijų hierarchijos tipo pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Savikainos veikimo būdas            | Savikainos elementai | Dimensijų klasifikavimo hierarchija |
+| <span data-ttu-id="c3235-219">Savikainos veikimo būdas</span><span class="sxs-lookup"><span data-stu-id="c3235-219">Cost behavior</span></span>            | <span data-ttu-id="c3235-220">Savikainos elementai</span><span class="sxs-lookup"><span data-stu-id="c3235-220">Cost elements</span></span> | <span data-ttu-id="c3235-221">Dimensijų klasifikavimo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-221">Dimension classification hierarchy</span></span> |
 
-Strategijos dimensijų hierarchiją galima nustatyti kaip parodyta čia.
+<span data-ttu-id="c3235-222">Strategijos dimensijų hierarchiją galima nustatyti kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Dimensijos narių intervalai   |                         |
+|                   | <span data-ttu-id="c3235-223">Dimensijos narių intervalai</span><span class="sxs-lookup"><span data-stu-id="c3235-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Mazgai**         | **Iš dimensijos nario** | **Į dimensijos narį** |
-| Savikainos veikimo būdas     |                           |                         |
-| &nbsp;&nbsp;Fiksuotos išlaidos    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Kintamos išlaidos | 40001                     | 40010                   |
+| <span data-ttu-id="c3235-224">**Mazgai**</span><span class="sxs-lookup"><span data-stu-id="c3235-224">**Nodes**</span></span>         | <span data-ttu-id="c3235-225">**Iš dimensijos nario**</span><span class="sxs-lookup"><span data-stu-id="c3235-225">**From dimension member**</span></span> | <span data-ttu-id="c3235-226">**Į dimensijos narį**</span><span class="sxs-lookup"><span data-stu-id="c3235-226">**To dimension member**</span></span> |
+| <span data-ttu-id="c3235-227">Savikainos veikimo būdas</span><span class="sxs-lookup"><span data-stu-id="c3235-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="c3235-228">&nbsp;&nbsp;Fiksuotos išlaidos</span><span class="sxs-lookup"><span data-stu-id="c3235-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="c3235-229">10001</span><span class="sxs-lookup"><span data-stu-id="c3235-229">10001</span></span>                     | <span data-ttu-id="c3235-230">10011</span><span class="sxs-lookup"><span data-stu-id="c3235-230">10011</span></span>                   |
+|<span data-ttu-id="c3235-231">&nbsp;&nbsp;Kintamos išlaidos</span><span class="sxs-lookup"><span data-stu-id="c3235-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="c3235-232">40001</span><span class="sxs-lookup"><span data-stu-id="c3235-232">40001</span></span>                     | <span data-ttu-id="c3235-233">40010</span><span class="sxs-lookup"><span data-stu-id="c3235-233">40010</span></span>                   |
 
 > [!NOTE]
-> Dalies **Dimensijos narių intervalai** mazge gali būti 1:_n_ dimensijos narių intervalai (-ų). Galite įvesti dimensijos nariais dar netapusių dimensijos narių ID. Taikant šį metodą hierarchija tampa atsparesnė ateities pokyčiams.  
+> <span data-ttu-id="c3235-234">Dalies **Dimensijos narių intervalai** mazge gali būti 1:_n_ dimensijos narių intervalai (-ų).</span><span class="sxs-lookup"><span data-stu-id="c3235-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="c3235-235">Galite įvesti dimensijos nariais dar netapusių dimensijos narių ID.</span><span class="sxs-lookup"><span data-stu-id="c3235-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="c3235-236">Taikant šį metodą hierarchija tampa atsparesnė ateities pokyčiams.</span><span class="sxs-lookup"><span data-stu-id="c3235-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Hierarchijos kopijavimas
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="c3235-237">Hierarchijos kopijavimas</span><span class="sxs-lookup"><span data-stu-id="c3235-237">Copy a hierarchy</span></span>
 
-Galite nukopijuoti dabartinę dimensijų hierarchiją kaip naujos dimensijų hierarchijos pradžios tašką. Šis metodas gali būti naudingas, jei norite palyginti ankstesnę dimensijų hierarchiją su naująja dimensijų hierarchija.
+<span data-ttu-id="c3235-238">Galite nukopijuoti dabartinę dimensijų hierarchiją kaip naujos dimensijų hierarchijos pradžios tašką.</span><span class="sxs-lookup"><span data-stu-id="c3235-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="c3235-239">Šis metodas gali būti naudingas, jei norite palyginti ankstesnę dimensijų hierarchiją su naująja dimensijų hierarchija.</span><span class="sxs-lookup"><span data-stu-id="c3235-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Pakeiskite mazgų išdėstymo tvarką hierarchijoje
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="c3235-240">Pakeiskite mazgų išdėstymo tvarką hierarchijoje</span><span class="sxs-lookup"><span data-stu-id="c3235-240">Rearrange nodes in a hierarchy</span></span>
 
-Kiekvieno struktūros lygmens mazgą galite patraukti į viršų ir į apačią. Tokiu būdu darbo srityje **Išlaidų kontrolė** galite pakeisti ataskaitų mazgų išdėstymo tvarką.
+<span data-ttu-id="c3235-241">Kiekvieno struktūros lygmens mazgą galite patraukti į viršų ir į apačią.</span><span class="sxs-lookup"><span data-stu-id="c3235-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="c3235-242">Tokiu būdu darbo srityje **Išlaidų kontrolė** galite pakeisti ataskaitų mazgų išdėstymo tvarką.</span><span class="sxs-lookup"><span data-stu-id="c3235-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Į naują vietą hierarchijoje mazgas perkeliamas pasirinkus tikslinį mazgą. Yra du mazgo perkėlimo būdai:
+<span data-ttu-id="c3235-243">Į naują vietą hierarchijoje mazgas perkeliamas pasirinkus tikslinį mazgą.</span><span class="sxs-lookup"><span data-stu-id="c3235-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="c3235-244">Yra du mazgo perkėlimo būdai:</span><span class="sxs-lookup"><span data-stu-id="c3235-244">There are two ways to move a node:</span></span>
 
-- **Perkelti žemiau** – perkelti pasirinktą mazgą iš dabartinės vietos hierarchijoje ir įterpti jį **po** pasirinktu tiksliniu mazgu.
-- **Perkelti po** – perkelti pasirinktą mazgą iš dabartinės vietos hierarchijoje ir įterpti jį **po** pasirinktu tiksliniu mazgu jo hierarchijos lygyje.
+- <span data-ttu-id="c3235-245">**Perkelti žemiau** – perkelti pasirinktą mazgą iš dabartinės vietos hierarchijoje ir įterpti jį **po** pasirinktu tiksliniu mazgu.</span><span class="sxs-lookup"><span data-stu-id="c3235-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="c3235-246">**Perkelti po** – perkelti pasirinktą mazgą iš dabartinės vietos hierarchijoje ir įterpti jį **po** pasirinktu tiksliniu mazgu jo hierarchijos lygyje.</span><span class="sxs-lookup"><span data-stu-id="c3235-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Eksportuojant duomenis į „Excel“ arba „Power BI“mazgų išdėstymo tvarka nėra išlaikoma, nes tie įrankiai naudoja išdėstymo pagal raidinius ir skaitinius simbolius tvarką. Turėtumėte pakeisti išdėstymo tvarką rankiniu būdu.
+> <span data-ttu-id="c3235-247">Eksportuojant duomenis į „Excel“ arba „Power BI“mazgų išdėstymo tvarka nėra išlaikoma, nes tie įrankiai naudoja išdėstymo pagal raidinius ir skaitinius simbolius tvarką.</span><span class="sxs-lookup"><span data-stu-id="c3235-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="c3235-248">Turėtumėte pakeisti išdėstymo tvarką rankiniu būdu.</span><span class="sxs-lookup"><span data-stu-id="c3235-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Ataskaitų dimensijų hierarchijų apibrėžimas
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="c3235-249">Ataskaitų dimensijų hierarchijų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="c3235-249">Define dimension hierarchies for reporting</span></span>
 
-Dimensijų hierarchijos svarbios ataskaitoms. Naudodami jas galite nurodyti konkrečią atskirai organizacijai tinkančią struktūrą. Pasinaudodamos dimensijos hierarchijos mazgo lygyje atliktais telkimais suinteresuotosios šalys gali bet kuriame organizacijos lygyje matyti bet kokio lygio duomenis.
+<span data-ttu-id="c3235-250">Dimensijų hierarchijos svarbios ataskaitoms.</span><span class="sxs-lookup"><span data-stu-id="c3235-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="c3235-251">Naudodami jas galite nurodyti konkrečią atskirai organizacijai tinkančią struktūrą.</span><span class="sxs-lookup"><span data-stu-id="c3235-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="c3235-252">Pasinaudodamos dimensijos hierarchijos mazgo lygyje atliktais telkimais suinteresuotosios šalys gali bet kuriame organizacijos lygyje matyti bet kokio lygio duomenis.</span><span class="sxs-lookup"><span data-stu-id="c3235-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Dimensijų hierarchijas galima rasti toliau nurodytuose ataskaitų įrankiuose. Šis metodas padeda užtikrinti ataskaitų struktūros vientisumą.
+<span data-ttu-id="c3235-253">Dimensijų hierarchijas galima rasti toliau nurodytuose ataskaitų įrankiuose.</span><span class="sxs-lookup"><span data-stu-id="c3235-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="c3235-254">Šis metodas padeda užtikrinti ataskaitų struktūros vientisumą.</span><span class="sxs-lookup"><span data-stu-id="c3235-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- **Savikainos kontrolės** darbo sritis (klientas):
+- <span data-ttu-id="c3235-255">**Savikainos kontrolės** darbo sritis (klientas):</span><span class="sxs-lookup"><span data-stu-id="c3235-255">**Cost control** workspace (Client):</span></span>
 
-    - Kontroliuojama atliekant konfigūravimą.
+    - <span data-ttu-id="c3235-256">Kontroliuojama atliekant konfigūravimą.</span><span class="sxs-lookup"><span data-stu-id="c3235-256">Controlled by configuration.</span></span>
 
-- **Savikainos kontrolės** darbo sritis (mobilioji programa):
+- <span data-ttu-id="c3235-257">**Savikainos kontrolės** darbo sritis (mobilioji programa):</span><span class="sxs-lookup"><span data-stu-id="c3235-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Kontroliuojama atliekant konfigūravimą.
+    - <span data-ttu-id="c3235-258">Kontroliuojama atliekant konfigūravimą.</span><span class="sxs-lookup"><span data-stu-id="c3235-258">Controlled by configuration.</span></span>
 
-- „Excel“
+- <span data-ttu-id="c3235-259">„Excel“</span><span class="sxs-lookup"><span data-stu-id="c3235-259">Excel</span></span>
 
-    - Suteikia galimybę pasirinkti konkrečias dimensijų hierarchijas pagal eksporto apibrėžimą:
+    - <span data-ttu-id="c3235-260">Suteikia galimybę pasirinkti konkrečias dimensijų hierarchijas pagal eksporto apibrėžimą:</span><span class="sxs-lookup"><span data-stu-id="c3235-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Viena savikainos elemento dimensijų hierarchija (privaloma)
-        - Viena savikainos objekto dimensijų hierarchija (pasirinktinai)
-        - Viena statistinė dimensijų hierarchija (pasirinktinai)
+        - <span data-ttu-id="c3235-261">Viena savikainos elemento dimensijų hierarchija (privaloma)</span><span class="sxs-lookup"><span data-stu-id="c3235-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="c3235-262">Viena savikainos objekto dimensijų hierarchija (pasirinktinai)</span><span class="sxs-lookup"><span data-stu-id="c3235-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="c3235-263">Viena statistinė dimensijų hierarchija (pasirinktinai)</span><span class="sxs-lookup"><span data-stu-id="c3235-263">One statistical dimension hierarchy (optional)</span></span>
 
-- „Power BI“:
+- <span data-ttu-id="c3235-264">„Power BI“:</span><span class="sxs-lookup"><span data-stu-id="c3235-264">Power BI:</span></span>
 
-    - Galimos visos dimensijų hierarchijos.
+    - <span data-ttu-id="c3235-265">Galimos visos dimensijų hierarchijos.</span><span class="sxs-lookup"><span data-stu-id="c3235-265">All dimension hierarchies are available.</span></span>
     
-Jei ataskaitas kuriate naudodami „Excel“ arba „Power BI‟, eksportuojami tik pirmi 15 dimensijų hierarchijų lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema. Jei hierarchija sudaryta iš daugiau nei 15 lygių, pertekliniai lygiai neeksportuojami. Normalizuotoje lentelėje pateikiamas kiekvieno hierarchijos dimensijos nario įrašas. Todėl įvyksta automatinis telkimas. Taikant šį metodą lengviau užtikrinti, kad visų galimų 15 hierarchijos lygių likučiai būtų teisingi.
+<span data-ttu-id="c3235-266">Jei ataskaitas kuriate naudodami „Excel“ arba „Power BI‟, eksportuojami tik pirmi 15 dimensijų hierarchijų lygių.</span><span class="sxs-lookup"><span data-stu-id="c3235-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="c3235-267">Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema.</span><span class="sxs-lookup"><span data-stu-id="c3235-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="c3235-268">Jei hierarchija sudaryta iš daugiau nei 15 lygių, pertekliniai lygiai neeksportuojami.</span><span class="sxs-lookup"><span data-stu-id="c3235-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="c3235-269">Normalizuotoje lentelėje pateikiamas kiekvieno hierarchijos dimensijos nario įrašas.</span><span class="sxs-lookup"><span data-stu-id="c3235-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="c3235-270">Todėl įvyksta automatinis telkimas.</span><span class="sxs-lookup"><span data-stu-id="c3235-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="c3235-271">Taikant šį metodą lengviau užtikrinti, kad visų galimų 15 hierarchijos lygių likučiai būtų teisingi.</span><span class="sxs-lookup"><span data-stu-id="c3235-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Toliau pateiktame pavyzdyje nurodoma, kaip dimensijų hierarchija gali atrodyti ataskaitų struktūroje.
+<span data-ttu-id="c3235-272">Toliau pateiktame pavyzdyje nurodoma, kaip dimensijų hierarchija gali atrodyti ataskaitų struktūroje.</span><span class="sxs-lookup"><span data-stu-id="c3235-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Savikainos objekto dimensijų hierarchija – 1 lygis | Savikainos objekto dimensijų hierarchija – 2 lygis | Savikainos objekto dimensijų hierarchija – 3 lygis | Savikainos objekto dimensijų hierarchija – 4 lygis | Savikainos objekto dimensijų hierarchija – 15 lygis |
+| <span data-ttu-id="c3235-273">Savikainos objekto dimensijų hierarchija – 1 lygis</span><span class="sxs-lookup"><span data-stu-id="c3235-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="c3235-274">Savikainos objekto dimensijų hierarchija – 2 lygis</span><span class="sxs-lookup"><span data-stu-id="c3235-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="c3235-275">Savikainos objekto dimensijų hierarchija – 3 lygis</span><span class="sxs-lookup"><span data-stu-id="c3235-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="c3235-276">Savikainos objekto dimensijų hierarchija – 4 lygis</span><span class="sxs-lookup"><span data-stu-id="c3235-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="c3235-277">Savikainos objekto dimensijų hierarchija – 15 lygis</span><span class="sxs-lookup"><span data-stu-id="c3235-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC002                                     |                                            |
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC003                                     |                                            |
-| Organizacija                              | Administratorius                                     | Finansai                                   | CC007                                     |                                            |
-| Organizacija                              | Administratorius                                     | Personalas                                        | CC001                                     |                                            |
-| Organizacija                              | Gamyba                                | Pakuotės                                 | CC005                                     |                                            |
-| Organizacija                              | Gamyba                                | Surinkimas                                  | CC006                                     |                                            |
+| <span data-ttu-id="c3235-278">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-278">Organization</span></span>                              | <span data-ttu-id="c3235-279">Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-279">Admin</span></span>                                     | <span data-ttu-id="c3235-280">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-280">Finance</span></span>                                   | <span data-ttu-id="c3235-281">CC002</span><span class="sxs-lookup"><span data-stu-id="c3235-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="c3235-282">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-282">Organization</span></span>                              | <span data-ttu-id="c3235-283">Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-283">Admin</span></span>                                     | <span data-ttu-id="c3235-284">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-284">Finance</span></span>                                   | <span data-ttu-id="c3235-285">CC003</span><span class="sxs-lookup"><span data-stu-id="c3235-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="c3235-286">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-286">Organization</span></span>                              | <span data-ttu-id="c3235-287">Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-287">Admin</span></span>                                     | <span data-ttu-id="c3235-288">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-288">Finance</span></span>                                   | <span data-ttu-id="c3235-289">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="c3235-290">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-290">Organization</span></span>                              | <span data-ttu-id="c3235-291">Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-291">Admin</span></span>                                     | <span data-ttu-id="c3235-292">Personalas</span><span class="sxs-lookup"><span data-stu-id="c3235-292">HR</span></span>                                        | <span data-ttu-id="c3235-293">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="c3235-294">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-294">Organization</span></span>                              | <span data-ttu-id="c3235-295">Gamyba</span><span class="sxs-lookup"><span data-stu-id="c3235-295">Production</span></span>                                | <span data-ttu-id="c3235-296">Pakuotės</span><span class="sxs-lookup"><span data-stu-id="c3235-296">Packaging</span></span>                                 | <span data-ttu-id="c3235-297">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="c3235-298">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-298">Organization</span></span>                              | <span data-ttu-id="c3235-299">Gamyba</span><span class="sxs-lookup"><span data-stu-id="c3235-299">Production</span></span>                                | <span data-ttu-id="c3235-300">Surinkimas</span><span class="sxs-lookup"><span data-stu-id="c3235-300">Assembly</span></span>                                  | <span data-ttu-id="c3235-301">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Ataskaitoms naudojamų dimensijų hierarchijų atnaujinimas 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="c3235-302">Ataskaitoms naudojamų dimensijų hierarchijų atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Laikui bėgant pirmiau minėtuose ataskaitų rengimo įrankiuose naudojamos dimensijų hierarchijos turi būti atnaujinamos. Atnaujinti dimensijų hierarchijas galite atnaujindami klientą.
+<span data-ttu-id="c3235-303">Laikui bėgant pirmiau minėtuose ataskaitų rengimo įrankiuose naudojamos dimensijų hierarchijos turi būti atnaujinamos.</span><span class="sxs-lookup"><span data-stu-id="c3235-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="c3235-304">Atnaujinti dimensijų hierarchijas galite atnaujindami klientą.</span><span class="sxs-lookup"><span data-stu-id="c3235-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- **Savikainos kontrolės** darbo sritis (klientas)
-- **Savikainos kontrolės** darbo sritis (mobilioji programa)
+- <span data-ttu-id="c3235-305">**Savikainos kontrolės** darbo sritis (klientas)</span><span class="sxs-lookup"><span data-stu-id="c3235-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="c3235-306">**Savikainos kontrolės** darbo sritis (mobilioji programa)</span><span class="sxs-lookup"><span data-stu-id="c3235-306">**Cost control** workspace (Mobile application)</span></span>
 
-Dimensijų hierarchijų atnaujinimai pasirenkami kas 24 valandas pagal iš anksto į talpyklą perkeltas užduotis. Atnaujinus eksportuotus duomenis atnaujintas dimensijų hierarchijas galima rasti šiuose įrankiuose:
+<span data-ttu-id="c3235-307">Dimensijų hierarchijų atnaujinimai pasirenkami kas 24 valandas pagal iš anksto į talpyklą perkeltas užduotis.</span><span class="sxs-lookup"><span data-stu-id="c3235-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="c3235-308">Atnaujinus eksportuotus duomenis atnaujintas dimensijų hierarchijas galima rasti šiuose įrankiuose:</span><span class="sxs-lookup"><span data-stu-id="c3235-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- „Excel“
-- „Power BI‟
+- <span data-ttu-id="c3235-309">„Excel“</span><span class="sxs-lookup"><span data-stu-id="c3235-309">Excel</span></span>
+- <span data-ttu-id="c3235-310">„Power BI‟</span><span class="sxs-lookup"><span data-stu-id="c3235-310">Power BI</span></span>
 
 > [!NOTE] 
-> Norėdami rankiniu būdu suaktyvinti dimensijų hierarchijos talpyklos naujinimą, galite sukurti naują dimensijų hierarchijos arba turimų atnaujinti hierarchijų eksportavimą į „Excel“.
+> <span data-ttu-id="c3235-311">Norėdami rankiniu būdu suaktyvinti dimensijų hierarchijos talpyklos naujinimą, galite sukurti naują dimensijų hierarchijos arba turimų atnaujinti hierarchijų eksportavimą į „Excel“.</span><span class="sxs-lookup"><span data-stu-id="c3235-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Savikainos strategijų dimensijų hierarchijų apibrėžimas
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="c3235-312">Savikainos strategijų dimensijų hierarchijų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="c3235-312">Define dimension hierarchies for cost policies</span></span>
 
-Kaštų apskaitą sudaro keletas strategijų, kuriose nurodomos išsamios taisyklės. Turite nustatyti vieną ar kelias toliau nurodytų strategijų dimensijų hierarchijas.
+<span data-ttu-id="c3235-313">Kaštų apskaitą sudaro keletas strategijų, kuriose nurodomos išsamios taisyklės.</span><span class="sxs-lookup"><span data-stu-id="c3235-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="c3235-314">Turite nustatyti vieną ar kelias toliau nurodytų strategijų dimensijų hierarchijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Savikainos veikimo būdas
-- Išlaidų paskirstymas
-- Išlaidų paskirstymas
-- Išlaidų sumavimas
+- <span data-ttu-id="c3235-315">Savikainos veikimo būdas</span><span class="sxs-lookup"><span data-stu-id="c3235-315">Cost behavior</span></span>
+- <span data-ttu-id="c3235-316">Išlaidų paskirstymas</span><span class="sxs-lookup"><span data-stu-id="c3235-316">Cost distribution</span></span>
+- <span data-ttu-id="c3235-317">Išlaidų paskirstymas</span><span class="sxs-lookup"><span data-stu-id="c3235-317">Cost allocation</span></span>
+- <span data-ttu-id="c3235-318">Išlaidų sumavimas</span><span class="sxs-lookup"><span data-stu-id="c3235-318">Cost rollup</span></span>
 
-Naudojant dimensijų hierarchijas lengva kurti taisykles. Norėdami, kad nereikėtų kurti taisyklių kiekvienam dimensijos nariui, galite pasinaudoti pagal dimensijų hierarchijos lygius pateiktų dimensijos narių telkimo funkcija. Jeigu yra sutampančių taisyklių, turite nurodyti specialias taisykles, kurių sistema laikysis atlikdama pridėtinių išlaidų skaičiavimą.
+<span data-ttu-id="c3235-319">Naudojant dimensijų hierarchijas lengva kurti taisykles.</span><span class="sxs-lookup"><span data-stu-id="c3235-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="c3235-320">Norėdami, kad nereikėtų kurti taisyklių kiekvienam dimensijos nariui, galite pasinaudoti pagal dimensijų hierarchijos lygius pateiktų dimensijos narių telkimo funkcija.</span><span class="sxs-lookup"><span data-stu-id="c3235-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="c3235-321">Jeigu yra sutampančių taisyklių, turite nurodyti specialias taisykles, kurių sistema laikysis atlikdama pridėtinių išlaidų skaičiavimą.</span><span class="sxs-lookup"><span data-stu-id="c3235-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Pavyzdys: savikainos veikimo būdo strategijos nustatymas
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="c3235-322">Pavyzdys: savikainos veikimo būdo strategijos nustatymas</span><span class="sxs-lookup"><span data-stu-id="c3235-322">Example: Define a cost behavior policy</span></span>
 
-Sukuriama nauja savikainos veikimo būdo strategija ir jai priskiriamos atitinkamos dimensijų hierarchijos, kaip parodyta čia.
+<span data-ttu-id="c3235-323">Sukuriama nauja savikainos veikimo būdo strategija ir jai priskiriamos atitinkamos dimensijų hierarchijos, kaip parodyta čia.</span><span class="sxs-lookup"><span data-stu-id="c3235-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Savikainos veikimo būdo strategija**
+<span data-ttu-id="c3235-324">**Savikainos veikimo būdo strategija**</span><span class="sxs-lookup"><span data-stu-id="c3235-324">**Cost behavior policy**</span></span>
 
-| Strategijos pavadinimas   | Savikainos elemento dimensijų hierarchija | Savikainos objekto dimensijų hierarchija | Apskaitos valiuta |
+| <span data-ttu-id="c3235-325">Strategijos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-325">Policy name</span></span>   | <span data-ttu-id="c3235-326">Savikainos elemento dimensijų hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="c3235-327">Savikainos objekto dimensijų hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="c3235-328">Apskaitos valiuta</span><span class="sxs-lookup"><span data-stu-id="c3235-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Savikainos veikimo būdas | Savikainos veikimo būdas                    | Organizacija                    | USD                 |
+| <span data-ttu-id="c3235-329">Savikainos veikimo būdas</span><span class="sxs-lookup"><span data-stu-id="c3235-329">Cost behavior</span></span> | <span data-ttu-id="c3235-330">Savikainos veikimo būdas</span><span class="sxs-lookup"><span data-stu-id="c3235-330">Cost behavior</span></span>                    | <span data-ttu-id="c3235-331">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-331">Organization</span></span>                    | <span data-ttu-id="c3235-332">USD</span><span class="sxs-lookup"><span data-stu-id="c3235-332">USD</span></span>                 |
 
-**Taisyklės**
+<span data-ttu-id="c3235-333">**Taisyklės**</span><span class="sxs-lookup"><span data-stu-id="c3235-333">**Rules**</span></span>
 
-| Savikainos elemento dimensijų hierarchijos mazgas | Savikainos objekto dimensijų hierarchijos mazgas | Fiksuotas procentas | Fiksuota suma | Galioja nuo | Galioja iki |
+| <span data-ttu-id="c3235-334">Savikainos elemento dimensijų hierarchijos mazgas</span><span class="sxs-lookup"><span data-stu-id="c3235-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="c3235-335">Savikainos objekto dimensijų hierarchijos mazgas</span><span class="sxs-lookup"><span data-stu-id="c3235-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="c3235-336">Fiksuotas procentas</span><span class="sxs-lookup"><span data-stu-id="c3235-336">Fixed percentage</span></span> | <span data-ttu-id="c3235-337">Fiksuota suma</span><span class="sxs-lookup"><span data-stu-id="c3235-337">Fixed amount</span></span> | <span data-ttu-id="c3235-338">Galioja nuo</span><span class="sxs-lookup"><span data-stu-id="c3235-338">Valid from</span></span> | <span data-ttu-id="c3235-339">Galioja iki</span><span class="sxs-lookup"><span data-stu-id="c3235-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Fiksuotos išlaidos                            | Organizacija                         | 100,00           | 0,00         | 1/1/2017   | Niekada    |
-| 10001                                 | Organizacija                         | 0,00             | 150,00       | 1/1/2017   | Niekada    |
-| 10001 (\*)                             | Finansai                              |                  | 50,00        | 1/1/2017   | Niekada    |
-| Savikainos veikimo būdas arba kintamos išlaidos (\*\*)   | Organizacija                         | 0,00             | 0,00         | 1/1/2017   | Niekada    |
+| <span data-ttu-id="c3235-340">Fiksuotos išlaidos</span><span class="sxs-lookup"><span data-stu-id="c3235-340">Fixed cost</span></span>                            | <span data-ttu-id="c3235-341">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-341">Organization</span></span>                         | <span data-ttu-id="c3235-342">100,00</span><span class="sxs-lookup"><span data-stu-id="c3235-342">100.00</span></span>           | <span data-ttu-id="c3235-343">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-343">0.00</span></span>         | <span data-ttu-id="c3235-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-344">1/1/2017</span></span>   | <span data-ttu-id="c3235-345">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-345">Never</span></span>    |
+| <span data-ttu-id="c3235-346">10001</span><span class="sxs-lookup"><span data-stu-id="c3235-346">10001</span></span>                                 | <span data-ttu-id="c3235-347">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-347">Organization</span></span>                         | <span data-ttu-id="c3235-348">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-348">0.00</span></span>             | <span data-ttu-id="c3235-349">150,00</span><span class="sxs-lookup"><span data-stu-id="c3235-349">150.00</span></span>       | <span data-ttu-id="c3235-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-350">1/1/2017</span></span>   | <span data-ttu-id="c3235-351">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-351">Never</span></span>    |
+| <span data-ttu-id="c3235-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="c3235-352">10001 (\*)</span></span>                             | <span data-ttu-id="c3235-353">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-353">Finance</span></span>                              |                  | <span data-ttu-id="c3235-354">50,00</span><span class="sxs-lookup"><span data-stu-id="c3235-354">50.00</span></span>        | <span data-ttu-id="c3235-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-355">1/1/2017</span></span>   | <span data-ttu-id="c3235-356">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-356">Never</span></span>    |
+| <span data-ttu-id="c3235-357">Savikainos veikimo būdas arba kintamos išlaidos (\*\*)</span><span class="sxs-lookup"><span data-stu-id="c3235-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="c3235-358">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-358">Organization</span></span>                         | <span data-ttu-id="c3235-359">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-359">0.00</span></span>             | <span data-ttu-id="c3235-360">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-360">0.00</span></span>         | <span data-ttu-id="c3235-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-361">1/1/2017</span></span>   | <span data-ttu-id="c3235-362">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-362">Never</span></span>    |
 
-\* Kintamų išlaidų mazgas nėra būtinas. Jei išlaidos nepriskiriamos prie fiksuotų išlaidų, turbūt jos kintamos išlaidos.
+<span data-ttu-id="c3235-363">\* Kintamų išlaidų mazgas nėra būtinas.</span><span class="sxs-lookup"><span data-stu-id="c3235-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="c3235-364">Jei išlaidos nepriskiriamos prie fiksuotų išlaidų, turbūt jos kintamos išlaidos.</span><span class="sxs-lookup"><span data-stu-id="c3235-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Sukuriama išsami taisyklė, kuri taikoma savikainos elemento nario 10001 ir visų finansų hierarchijos lygyje susietų savikainos objekto narių (CC002, CC003, CC007) deriniui.
+<span data-ttu-id="c3235-365">\*\* Sukuriama išsami taisyklė, kuri taikoma savikainos elemento nario 10001 ir visų finansų hierarchijos lygyje susietų savikainos objekto narių (CC002, CC003, CC007) deriniui.</span><span class="sxs-lookup"><span data-stu-id="c3235-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Pirmiau pateiktose taisyklėse nurodomas lankstumas, kurį suteikia dimensijų hierarchijos. Nurodydami aukšto lygio taisykles galite sumažinti priežiūros darbų apimtis. Po to galite nurodyti specialiems verslo tikslams pasiekti pritaikytas išsamias taisykles.
+<span data-ttu-id="c3235-366">Pirmiau pateiktose taisyklėse nurodomas lankstumas, kurį suteikia dimensijų hierarchijos.</span><span class="sxs-lookup"><span data-stu-id="c3235-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="c3235-367">Nurodydami aukšto lygio taisykles galite sumažinti priežiūros darbų apimtis.</span><span class="sxs-lookup"><span data-stu-id="c3235-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="c3235-368">Po to galite nurodyti specialiems verslo tikslams pasiekti pritaikytas išsamias taisykles.</span><span class="sxs-lookup"><span data-stu-id="c3235-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Jeigu taisyklėse naudojamos dimensijų hierarchijos atnaujinamos, sistema automatiškai pasiūlo pritaikyti atnaujinimus.
+<span data-ttu-id="c3235-369">Jeigu taisyklėse naudojamos dimensijų hierarchijos atnaujinamos, sistema automatiškai pasiūlo pritaikyti atnaujinimus.</span><span class="sxs-lookup"><span data-stu-id="c3235-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Jei taisyklėse detalumo lygis nebereikalingas, galima nutraukti taisyklės galiojimą.
+<span data-ttu-id="c3235-370">Jei taisyklėse detalumo lygis nebereikalingas, galima nutraukti taisyklės galiojimą.</span><span class="sxs-lookup"><span data-stu-id="c3235-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Pavyzdžiui, speciali savikainos objekto dimensijų hierarchijos mazgui Finansai taikoma savikainos veikimo būdo taisyklė nebereikalinga. Tokiu atveju spustelėjus **Taisyklės galiojimo pabaiga** baigiasi taisyklės galiojimas.
+<span data-ttu-id="c3235-371">Pavyzdžiui, speciali savikainos objekto dimensijų hierarchijos mazgui Finansai taikoma savikainos veikimo būdo taisyklė nebereikalinga.</span><span class="sxs-lookup"><span data-stu-id="c3235-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="c3235-372">Tokiu atveju spustelėjus **Taisyklės galiojimo pabaiga** baigiasi taisyklės galiojimas.</span><span class="sxs-lookup"><span data-stu-id="c3235-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Savikainos elemento dimensijų hierarchijos mazgas | Savikainos objekto dimensijų hierarchijos mazgas | Fiksuotas procentas | Fiksuota suma | Galioja nuo | Galioja iki  |
+| <span data-ttu-id="c3235-373">Savikainos elemento dimensijų hierarchijos mazgas</span><span class="sxs-lookup"><span data-stu-id="c3235-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="c3235-374">Savikainos objekto dimensijų hierarchijos mazgas</span><span class="sxs-lookup"><span data-stu-id="c3235-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="c3235-375">Fiksuotas procentas</span><span class="sxs-lookup"><span data-stu-id="c3235-375">Fixed percentage</span></span> | <span data-ttu-id="c3235-376">Fiksuota suma</span><span class="sxs-lookup"><span data-stu-id="c3235-376">Fixed amount</span></span> | <span data-ttu-id="c3235-377">Galioja nuo</span><span class="sxs-lookup"><span data-stu-id="c3235-377">Valid from</span></span> | <span data-ttu-id="c3235-378">Galioja iki</span><span class="sxs-lookup"><span data-stu-id="c3235-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Fiksuotos išlaidos                            | Organizacija                         | 100,00           | 0,00         | 1/1/2017   | Niekada     |
-| 10001                                 | Organizacija                         | 0,00             | 150,00       | 1/1/2017   | Niekada     |
-| 10001                                 | Finansai                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Savikainos veikimo būdas arba kintamos išlaidos        | Organizacija                         | 0,00             | 0,00         | 1/1/2017   | Niekada     |
+| <span data-ttu-id="c3235-379">Fiksuotos išlaidos</span><span class="sxs-lookup"><span data-stu-id="c3235-379">Fixed cost</span></span>                            | <span data-ttu-id="c3235-380">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-380">Organization</span></span>                         | <span data-ttu-id="c3235-381">100,00</span><span class="sxs-lookup"><span data-stu-id="c3235-381">100,00</span></span>           | <span data-ttu-id="c3235-382">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-382">0,00</span></span>         | <span data-ttu-id="c3235-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-383">1/1/2017</span></span>   | <span data-ttu-id="c3235-384">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-384">Never</span></span>     |
+| <span data-ttu-id="c3235-385">10001</span><span class="sxs-lookup"><span data-stu-id="c3235-385">10001</span></span>                                 | <span data-ttu-id="c3235-386">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-386">Organization</span></span>                         | <span data-ttu-id="c3235-387">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-387">0,00</span></span>             | <span data-ttu-id="c3235-388">150,00</span><span class="sxs-lookup"><span data-stu-id="c3235-388">150,00</span></span>       | <span data-ttu-id="c3235-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-389">1/1/2017</span></span>   | <span data-ttu-id="c3235-390">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-390">Never</span></span>     |
+| <span data-ttu-id="c3235-391">10001</span><span class="sxs-lookup"><span data-stu-id="c3235-391">10001</span></span>                                 | <span data-ttu-id="c3235-392">Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-392">Finance</span></span>                              |                  | <span data-ttu-id="c3235-393">50,00</span><span class="sxs-lookup"><span data-stu-id="c3235-393">50,00</span></span>        | <span data-ttu-id="c3235-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-394">1/1/2017</span></span>   | <span data-ttu-id="c3235-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-395">20/1/2017</span></span> |
+| <span data-ttu-id="c3235-396">Savikainos veikimo būdas arba kintamos išlaidos</span><span class="sxs-lookup"><span data-stu-id="c3235-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="c3235-397">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-397">Organization</span></span>                         | <span data-ttu-id="c3235-398">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-398">0,00</span></span>             | <span data-ttu-id="c3235-399">0,00</span><span class="sxs-lookup"><span data-stu-id="c3235-399">0,00</span></span>         | <span data-ttu-id="c3235-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="c3235-400">1/1/2017</span></span>   | <span data-ttu-id="c3235-401">Niekada</span><span class="sxs-lookup"><span data-stu-id="c3235-401">Never</span></span>     |
 
-Atliekant pridėtinių išlaidų skaičiavimą, jei jis atliekamas po 2017 m. sausio 20 d., į šią taisyklę neatsižvelgiama.
+<span data-ttu-id="c3235-402">Atliekant pridėtinių išlaidų skaičiavimą, jei jis atliekamas po 2017 m. sausio 20 d., į šią taisyklę neatsižvelgiama.</span><span class="sxs-lookup"><span data-stu-id="c3235-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Laukuose **Galioja nuo** ir **Galioja iki** nurodoma data ir laikas. Galite nutraukti taisyklės galiojimą ir tą pačią dieną atlikti naują pridėtinių išlaidų skaičiavimą.
+> <span data-ttu-id="c3235-403">Laukuose **Galioja nuo** ir **Galioja iki** nurodoma data ir laikas.</span><span class="sxs-lookup"><span data-stu-id="c3235-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="c3235-404">Galite nutraukti taisyklės galiojimą ir tą pačią dieną atlikti naują pridėtinių išlaidų skaičiavimą.</span><span class="sxs-lookup"><span data-stu-id="c3235-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Saugos nustatymo dimensijų hierarchijų apibrėžimas
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="c3235-405">Saugos nustatymo dimensijų hierarchijų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="c3235-405">Define dimension hierarchies for security setup</span></span>
 
-Kaštų apskaitos duomenys turėtų būti prieinami visiems už ataskaitinį vienetą atsakingiems vadovams. Kaštų apskaitos terminologijoje ataskaitinis vienetas vaizduojamas kaip savikainos objektas arba savikainos objektų rinkinys.
+<span data-ttu-id="c3235-406">Kaštų apskaitos duomenys turėtų būti prieinami visiems už ataskaitinį vienetą atsakingiems vadovams.</span><span class="sxs-lookup"><span data-stu-id="c3235-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="c3235-407">Kaštų apskaitos terminologijoje ataskaitinis vienetas vaizduojamas kaip savikainos objektas arba savikainos objektų rinkinys.</span><span class="sxs-lookup"><span data-stu-id="c3235-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Gali būti, kad visi vadovai galės pasiekti itin slaptus verslo duomenis, pvz., įplaukas ir maržas. Todėl svarbu nustatyti saugą, kad vadovai galėtų matyti tik su jais susijusius ir jiems reikiamus duomenis. Norėdami padėti kontroliuoti duomenų saugumą, nurodote dimensijų hierarchijas.
+<span data-ttu-id="c3235-408">Gali būti, kad visi vadovai galės pasiekti itin slaptus verslo duomenis, pvz., įplaukas ir maržas.</span><span class="sxs-lookup"><span data-stu-id="c3235-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="c3235-409">Todėl svarbu nustatyti saugą, kad vadovai galėtų matyti tik su jais susijusius ir jiems reikiamus duomenis.</span><span class="sxs-lookup"><span data-stu-id="c3235-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="c3235-410">Norėdami padėti kontroliuoti duomenų saugumą, nurodote dimensijų hierarchijas.</span><span class="sxs-lookup"><span data-stu-id="c3235-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Dimensijų hierarchijos naudojamos tik tada, kai dimensijų hierarchijos nuorodoje pasirinkta dimensijos reikšmė yra savikainos objekto dimensija.
-- Vienai prieigos sąrašo hierarchijos savikainos objekto dimensijai galima įjungti tik vieną dimensijų hierrchiją.
+- <span data-ttu-id="c3235-411">Dimensijų hierarchijos naudojamos tik tada, kai dimensijų hierarchijos nuorodoje pasirinkta dimensijos reikšmė yra savikainos objekto dimensija.</span><span class="sxs-lookup"><span data-stu-id="c3235-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="c3235-412">Vienai prieigos sąrašo hierarchijos savikainos objekto dimensijai galima įjungti tik vieną dimensijų hierrchiją.</span><span class="sxs-lookup"><span data-stu-id="c3235-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Dimensijų hierarchijos informacija**
+<span data-ttu-id="c3235-413">**Dimensijų hierarchijos informacija**</span><span class="sxs-lookup"><span data-stu-id="c3235-413">**Dimension hierarchy details**</span></span>
 
-| Dimensijų hierarchijos pavadinimas | Dimensija    | Dimensijų hierarchijos tipo pavadinimas      | Prieigos sąrašo hierarchija |
+| <span data-ttu-id="c3235-414">Dimensijų hierarchijos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-414">Dimension hierarchy name</span></span> | <span data-ttu-id="c3235-415">Dimensija</span><span class="sxs-lookup"><span data-stu-id="c3235-415">Dimension</span></span>    | <span data-ttu-id="c3235-416">Dimensijų hierarchijos tipo pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c3235-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="c3235-417">Prieigos sąrašo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizacija             | Išlaidų centrai | Dimensijų klasifikavimo hierarchija | **Taip**               |
+| <span data-ttu-id="c3235-418">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-418">Organization</span></span>             | <span data-ttu-id="c3235-419">Išlaidų centrai</span><span class="sxs-lookup"><span data-stu-id="c3235-419">Cost centers</span></span> | <span data-ttu-id="c3235-420">Dimensijų klasifikavimo hierarchija</span><span class="sxs-lookup"><span data-stu-id="c3235-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="c3235-421">**Taip**</span><span class="sxs-lookup"><span data-stu-id="c3235-421">**Yes**</span></span>               |
 
-Hierarchijos kūrimo įrankyje galima naudoti naują „FastTab“ skirtuką **Vartotojai**. Čia kiekviename hierarchijos mazge galite įterpti vieną ar kelis vartotojų ID.
+<span data-ttu-id="c3235-422">Hierarchijos kūrimo įrankyje galima naudoti naują „FastTab“ skirtuką **Vartotojai**.</span><span class="sxs-lookup"><span data-stu-id="c3235-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="c3235-423">Čia kiekviename hierarchijos mazge galite įterpti vieną ar kelis vartotojų ID.</span><span class="sxs-lookup"><span data-stu-id="c3235-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Vartotojai            | Dimensijos narių intervalai   |                         |
+|                 | <span data-ttu-id="c3235-424">Vartotojai</span><span class="sxs-lookup"><span data-stu-id="c3235-424">Users</span></span>            | <span data-ttu-id="c3235-425">Dimensijos narių intervalai</span><span class="sxs-lookup"><span data-stu-id="c3235-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Mazgai**       | **Vartotojo ID**      | **Iš dimensijos nario** | **Į dimensijos narį** |
-| Organizacija    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Administratorius         | Balandžio            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finansai   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Personalas        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Gamyba    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakuotės | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Surinkimas  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="c3235-426">**Mazgai**</span><span class="sxs-lookup"><span data-stu-id="c3235-426">**Nodes**</span></span>       | <span data-ttu-id="c3235-427">**Vartotojo ID**</span><span class="sxs-lookup"><span data-stu-id="c3235-427">**User ID**</span></span>      | <span data-ttu-id="c3235-428">**Iš dimensijos nario**</span><span class="sxs-lookup"><span data-stu-id="c3235-428">**From dimension member**</span></span> | <span data-ttu-id="c3235-429">**Į dimensijos narį**</span><span class="sxs-lookup"><span data-stu-id="c3235-429">**To dimension member**</span></span> |
+| <span data-ttu-id="c3235-430">Organizacija</span><span class="sxs-lookup"><span data-stu-id="c3235-430">Organization</span></span>    | <span data-ttu-id="c3235-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="c3235-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="c3235-432">&nbsp;&nbsp;Administratorius</span><span class="sxs-lookup"><span data-stu-id="c3235-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="c3235-433">Balandžio</span><span class="sxs-lookup"><span data-stu-id="c3235-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="c3235-434">&nbsp;&nbsp;&nbsp;&nbsp;Finansai</span><span class="sxs-lookup"><span data-stu-id="c3235-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="c3235-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="c3235-435">Alicia</span></span>           | <span data-ttu-id="c3235-436">CC002</span><span class="sxs-lookup"><span data-stu-id="c3235-436">CC002</span></span>                     | <span data-ttu-id="c3235-437">CC003</span><span class="sxs-lookup"><span data-stu-id="c3235-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="c3235-438">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-438">CC007</span></span>                     | <span data-ttu-id="c3235-439">CC007</span><span class="sxs-lookup"><span data-stu-id="c3235-439">CC007</span></span>                   |
+| <span data-ttu-id="c3235-440">&nbsp;&nbsp;&nbsp;&nbsp;Personalas</span><span class="sxs-lookup"><span data-stu-id="c3235-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="c3235-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="c3235-441">Arnie</span></span>            | <span data-ttu-id="c3235-442">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-442">CC001</span></span>                     | <span data-ttu-id="c3235-443">CC001</span><span class="sxs-lookup"><span data-stu-id="c3235-443">CC001</span></span>                   |
+| <span data-ttu-id="c3235-444">&nbsp;&nbsp;Gamyba</span><span class="sxs-lookup"><span data-stu-id="c3235-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="c3235-445">David</span><span class="sxs-lookup"><span data-stu-id="c3235-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="c3235-446">&nbsp;&nbsp;&nbsp;&nbsp;Pakuotės</span><span class="sxs-lookup"><span data-stu-id="c3235-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="c3235-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="c3235-447">Ellen</span></span>            | <span data-ttu-id="c3235-448">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-448">CC005</span></span>                     | <span data-ttu-id="c3235-449">CC005</span><span class="sxs-lookup"><span data-stu-id="c3235-449">CC005</span></span>                   |
+| <span data-ttu-id="c3235-450">&nbsp;&nbsp;&nbsp;&nbsp;Surinkimas</span><span class="sxs-lookup"><span data-stu-id="c3235-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="c3235-451">Chris</span><span class="sxs-lookup"><span data-stu-id="c3235-451">Chris</span></span>            | <span data-ttu-id="c3235-452">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-452">CC006</span></span>                     | <span data-ttu-id="c3235-453">CC006</span><span class="sxs-lookup"><span data-stu-id="c3235-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Išlaidų buhalteriai turi būti priskirti aukščiausiam hierarchijos lygiui, kad galėtų matyti visus kaštų apskaitos įrašus.
+> <span data-ttu-id="c3235-454">Išlaidų buhalteriai turi būti priskirti aukščiausiam hierarchijos lygiui, kad galėtų matyti visus kaštų apskaitos įrašus.</span><span class="sxs-lookup"><span data-stu-id="c3235-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Norėdami įgalinti prieigos sąrašo hierarchiją ir jos saugos parametrus, eikite į **Kaštų apskaita** > **Sąranka** > **Parametrai** > **Bendra**. Pasirinkite parametrą **Įgalinti savikainos objekto dimensijos narių peržiūros prieigą**.
+<span data-ttu-id="c3235-455">Norėdami įgalinti prieigos sąrašo hierarchiją ir jos saugos parametrus, eikite į **Kaštų apskaita** > **Sąranka** > **Parametrai** > **Bendra**.</span><span class="sxs-lookup"><span data-stu-id="c3235-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="c3235-456">Pasirinkite parametrą **Įgalinti savikainos objekto dimensijos narių peržiūros prieigą**.</span><span class="sxs-lookup"><span data-stu-id="c3235-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurodytose srityse rodomus duomenis.
+<span data-ttu-id="c3235-457">Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurodytose srityse rodomus duomenis.</span><span class="sxs-lookup"><span data-stu-id="c3235-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- **Savikainos kontrolės** darbo sritis (klientas):
+- <span data-ttu-id="c3235-458">**Savikainos kontrolės** darbo sritis (klientas):</span><span class="sxs-lookup"><span data-stu-id="c3235-458">**Cost control** workspace (Client):</span></span>
 
-    - Duomenys formose, kurios naudojamos detalizuojant scenarijus
+    - <span data-ttu-id="c3235-459">Duomenys formose, kurios naudojamos detalizuojant scenarijus</span><span class="sxs-lookup"><span data-stu-id="c3235-459">Data in forms that are used to drill through scenarios</span></span>
 
-- **Savikainos kontrolės** darbo sritis (mobilioji programa):
+- <span data-ttu-id="c3235-460">**Savikainos kontrolės** darbo sritis (mobilioji programa):</span><span class="sxs-lookup"><span data-stu-id="c3235-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Likučiai kortelėse
+    - <span data-ttu-id="c3235-461">Likučiai kortelėse</span><span class="sxs-lookup"><span data-stu-id="c3235-461">Balances in cards</span></span>
 
-- „Power BI“:
+- <span data-ttu-id="c3235-462">„Power BI“:</span><span class="sxs-lookup"><span data-stu-id="c3235-462">Power BI:</span></span>
 
-    - Atliekant „Power BI‟ vizualizavimą rodomi duomenys
-    - Į „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟ klientą įtrauktų duomenų „Power BI‟ vizualizavimai
+    - <span data-ttu-id="c3235-463">Atliekant „Power BI‟ vizualizavimą rodomi duomenys</span><span class="sxs-lookup"><span data-stu-id="c3235-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="c3235-464">Į „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟ klientą įtrauktų duomenų „Power BI‟ vizualizavimai</span><span class="sxs-lookup"><span data-stu-id="c3235-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI‟, turi būti susieta prieigos sąrašo hierarchija ir „Power BI‟ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Prieigos sąrašo hierarchija negali padėti užtikrinti, kad duomenys bus eksportuoti į „Excel“. Todėl tą ataskaitų įrankį turi naudoti tik išlaidų buhalteriai ir vadovai, kuriems suteikiama neribota prieiga peržiūrėti duomenis.
+> - <span data-ttu-id="c3235-465">Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI‟, turi būti susieta prieigos sąrašo hierarchija ir „Power BI‟ eilučių lygio sauga.</span><span class="sxs-lookup"><span data-stu-id="c3235-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="c3235-466">Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="c3235-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="c3235-467">Prieigos sąrašo hierarchija negali padėti užtikrinti, kad duomenys bus eksportuoti į „Excel“.</span><span class="sxs-lookup"><span data-stu-id="c3235-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="c3235-468">Todėl tą ataskaitų įrankį turi naudoti tik išlaidų buhalteriai ir vadovai, kuriems suteikiama neribota prieiga peržiūrėti duomenis.</span><span class="sxs-lookup"><span data-stu-id="c3235-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

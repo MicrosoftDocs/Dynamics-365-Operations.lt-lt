@@ -15,24 +15,24 @@ ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fe644d5e8f76da95d2738a5fa76eebfe47066fb7
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 066106db04ad34db1d0a07a41d57e167252d6459
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
-# <a name="accounts-receivable-home-page"></a>Gautinų sumų pagrindinis puslapis
+# <a name="accounts-receivable-home-page"></a><span data-ttu-id="08d5c-103">Gautinų sumų pagrindinis puslapis</span><span class="sxs-lookup"><span data-stu-id="08d5c-103">Accounts receivable home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Naudodami modulį Gautinos sumos galite sekti klientų sąskaitas faktūras ir gaunamus mokėjimus. 
+<span data-ttu-id="08d5c-104">Naudodami modulį Gautinos sumos galite sekti klientų sąskaitas faktūras ir gaunamus mokėjimus.</span><span class="sxs-lookup"><span data-stu-id="08d5c-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
 
-Galite kurti klientų SF, grindžiamas pardavimo užsakymais arba važtaraščiais. Taip pat galite įvesti laisvos formos SF, kurios nėra susijusios su pardavimo užsakymais. Galite gauti mokėjimus naudodami kelis skirtingus mokėjimo tipus. Tai – įsakomieji vekseliai, grynieji pinigai, čekiai, kredito kortelės ir elektroniniai mokėjimai. Jei jūsų organizacijoje yra keli juridiniai subjektai, naudodami centralizuotų mokėjimų funkciją mokėjimus galite įrašyti viename juridiniame subjekte kitų juridinių subjektų vardu.
+<span data-ttu-id="08d5c-105">Galite kurti klientų SF, grindžiamas pardavimo užsakymais arba važtaraščiais.</span><span class="sxs-lookup"><span data-stu-id="08d5c-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="08d5c-106">Taip pat galite įvesti laisvos formos SF, kurios nėra susijusios su pardavimo užsakymais.</span><span class="sxs-lookup"><span data-stu-id="08d5c-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="08d5c-107">Galite gauti mokėjimus naudodami kelis skirtingus mokėjimo tipus.</span><span class="sxs-lookup"><span data-stu-id="08d5c-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="08d5c-108">Tai – įsakomieji vekseliai, grynieji pinigai, čekiai, kredito kortelės ir elektroniniai mokėjimai.</span><span class="sxs-lookup"><span data-stu-id="08d5c-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="08d5c-109">Jei jūsų organizacijoje yra keli juridiniai subjektai, naudodami centralizuotų mokėjimų funkciją mokėjimus galite įrašyti viename juridiniame subjekte kitų juridinių subjektų vardu.</span><span class="sxs-lookup"><span data-stu-id="08d5c-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
 
 
 

@@ -22,132 +22,132 @@ ms.contentlocale: lt-lt
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Formato modifikavimas, kad elektroninėse ataskaitose (ER) dokumentai būtų generuojami su atnaujintais prašymų duomenimis
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="91a6f-103">Formato modifikavimas, kad elektroninėse ataskaitose (ER) dokumentai būtų generuojami su atnaujintais prašymų duomenimis</span><span class="sxs-lookup"><span data-stu-id="91a6f-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (3 dalis: modifikuoti modelį ir susiejimą)“.
+<span data-ttu-id="91a6f-104">Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (3 dalis: modifikuoti modelį ir susiejimą)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis. Taikydami šią procedūrą modifikuosite ER konfigūracijas, kad jas naudotumėte ne tik elektroniniams dokumentams generuoti, bet ir programos duomenims atnaujinti. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį.
+<span data-ttu-id="91a6f-105">Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis.</span><span class="sxs-lookup"><span data-stu-id="91a6f-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="91a6f-106">Taikydami šią procedūrą modifikuosite ER konfigūracijas, kad jas naudotumėte ne tik elektroniniams dokumentams generuoti, bet ir programos duomenims atnaujinti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="91a6f-107">Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="91a6f-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="91a6f-108">Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį.</span><span class="sxs-lookup"><span data-stu-id="91a6f-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Keiskite formatą, norėdami rinkti ataskaitų informaciją
-1. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
-2. Medyje išplėskite „Intrastat (model)“.
-3. Medyje pasirinkite „Intrastat (model)\Intrastat (format)“.
-4. Spustelėkite Konstruktorius.
-5. Medyje išplėskite „File“.
-6. Medyje išplėskite „File\Declaration“.
-7. Medyje pasirinkite „File\Declaration\Data“.
-8. Lauke Daugialypumas pasirinkite „Vienas daug“.
-    * Konfigūruokite šį formato elementą informacijai apie Intrastat ataskaitų kūrimo procesą archyvuoti. Šis elementas nurodo archyvo antraštės įrašą.  
-9. Medyje išplėskite „File\Declaration\Data“.
-10. Medyje pasirinkite „File\Declaration\Data\Item“.
-11. Lauke Daugialypumas pasirinkite „Nulis daug“.
-    * Konfigūruokite šį formato elementą informacijai apie Intrastat ataskaitų kūrimo procesą archyvuoti. Šis elementas nurodo suarchyvuotų eilučių sąrašą.  
-12. Medyje išplėskite „File\Declaration\Data\Item“.
-13. Medyje pasirinkite „File\Declaration\Data\Item\Dim1“.
-14. Lauke Neįtraukta pasirinkite Taip.
-    * Jūs nearchyvuosite šių duomenų, todėl galite pašalinti šį formato elementą iš Intrastat ataskaitų informacijos duomenų šaltinio.  
-15. Medyje išplėskite „File\Declaration\Data\Item\Dim1“.
-16. Medyje pasirinkite „File\Declaration\Data\Item\Dim1\property“.
-17. Lauke Neįtraukta pasirinkite Taip.
-18. Medyje pasirinkite „File\Declaration\Data\Item\Dim1\date“.
-19. Lauke Neįtraukta pasirinkite Taip.
-20. Medyje pasirinkite „File\Declaration\Data\Item\Dim2“.
-21. Lauke Neįtraukta pasirinkite Taip.
-22. Medyje išplėskite „File\Declaration\Data\Item\Dim2“.
-23. Medyje pasirinkite „File\Declaration\Data\Item\Dim2\property“.
-24. Lauke Neįtraukta pasirinkite Taip.
-25. Medyje pasirinkite „File\Declaration\Data\Item\Dim2\code“.
-26. Lauke Neįtraukta pasirinkite Taip.
-27. Medyje pasirinkite „File\Declaration\Data\Item\Dim3“.
-    * Keli formato elementai gali turėti tokį patį pavadinimą. Pavyzdžiui, Dim. Negalite aiškiai atpažinti jų, kai naudojate šį formatą kaip duomenų šaltinį Intrastat ataskaitų informacijai archyvuoti, todėl turite nurodyti alternatyvius šių formato elementų pavadinimus.   
-28. Lauke „Pavadinimas“ įveskite „Suma“.
-    * Suma  
-29. Lauke Daugialypumas pasirinkite „Tiksliai vienas“.
-30. Medyje pasirinkite „File\Declaration\Data\Item\Dim4“.
-31. Lauke „Pavadinimas“ įveskite „Prekė“.
-    * Produktas  
-32. Lauke Daugialypumas pasirinkite „Tiksliai vienas“.
-    * Be dizaino formato elementų, šie Intrastat ataskaitos duomenys turi būti archyvuoti: unikalus kiekvienos paskelbtos prekės įrašo identifikatorius ir sugeneruoto failo vardas. Kadangi šie duomenys nebus perkelta į Intrastat ataskaitą, turite pridėti formatą, kuris yra susijęs su šiais informacijos elementais, kaip duomenų šaltinio elementai.  
-33. Medyje pasirinkite „File\Declaration\Data“.
-34. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-35. Medyje pasirinkite „Data source\Item“.
-36. Lauke Pavadinimas įveskite Failo vardas.
-    * Failo vardas  
-37. Lauke Duomenų tipas pasirinkite „Eilutė“.
-38. Spustelėkite GERAI.
-39. Medyje pasirinkite „File\Declaration\Data\Item“.
-40. Spustelėkite Įtraukti prekę.
-41. Lauke Pavadinimas įrašykite „Prekės įr. ID“.
-    * Prekės įr. ID  
-42. Lauke Duomenų tipas pasirinkite „Int64“.
-43. Spustelėkite GERAI.
-44. Spustelėkite skirtuką „Susiejimas“.
-45. Medyje pasirinkite „File\Declaration\Data\File name“.
-46. Spustelėkite Susieti.
-47. Medyje išplėskite „modelis‟.
-48. Medyje išplėskite „model\Transactions“.
-49. Medyje pasirinkite „File\Declaration\Data\Item = model.Transactions\Commodity rec id“.
-50. Medyje pasirinkite „model\Transactions\Commodity rec id“.
-51. Spustelėkite Susieti.
-52. Spustelėkite Įrašyti.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="91a6f-109">Keiskite formatą, norėdami rinkti ataskaitų informaciją</span><span class="sxs-lookup"><span data-stu-id="91a6f-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="91a6f-110">Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="91a6f-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="91a6f-111">Medyje išplėskite „Intrastat (model)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="91a6f-112">Medyje pasirinkite „Intrastat (model)\Intrastat (format)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="91a6f-113">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="91a6f-113">Click Designer.</span></span>
+5. <span data-ttu-id="91a6f-114">Medyje išplėskite „File“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="91a6f-115">Medyje išplėskite „File\Declaration“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="91a6f-116">Medyje pasirinkite „File\Declaration\Data“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="91a6f-117">Lauke Daugialypumas pasirinkite „Vienas daug“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="91a6f-118">Konfigūruokite šį formato elementą informacijai apie Intrastat ataskaitų kūrimo procesą archyvuoti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="91a6f-119">Šis elementas nurodo archyvo antraštės įrašą.</span><span class="sxs-lookup"><span data-stu-id="91a6f-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="91a6f-120">Medyje išplėskite „File\Declaration\Data“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="91a6f-121">Medyje pasirinkite „File\Declaration\Data\Item“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="91a6f-122">Lauke Daugialypumas pasirinkite „Nulis daug“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="91a6f-123">Konfigūruokite šį formato elementą informacijai apie Intrastat ataskaitų kūrimo procesą archyvuoti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="91a6f-124">Šis elementas nurodo suarchyvuotų eilučių sąrašą.</span><span class="sxs-lookup"><span data-stu-id="91a6f-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="91a6f-125">Medyje išplėskite „File\Declaration\Data\Item“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="91a6f-126">Medyje pasirinkite „File\Declaration\Data\Item\Dim1“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="91a6f-127">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="91a6f-128">Jūs nearchyvuosite šių duomenų, todėl galite pašalinti šį formato elementą iš Intrastat ataskaitų informacijos duomenų šaltinio.</span><span class="sxs-lookup"><span data-stu-id="91a6f-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="91a6f-129">Medyje išplėskite „File\Declaration\Data\Item\Dim1“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="91a6f-130">Medyje pasirinkite „File\Declaration\Data\Item\Dim1\property“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="91a6f-131">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="91a6f-132">Medyje pasirinkite „File\Declaration\Data\Item\Dim1\date“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="91a6f-133">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="91a6f-134">Medyje pasirinkite „File\Declaration\Data\Item\Dim2“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="91a6f-135">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="91a6f-136">Medyje išplėskite „File\Declaration\Data\Item\Dim2“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="91a6f-137">Medyje pasirinkite „File\Declaration\Data\Item\Dim2\property“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="91a6f-138">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="91a6f-139">Medyje pasirinkite „File\Declaration\Data\Item\Dim2\code“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="91a6f-140">Lauke Neįtraukta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="91a6f-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="91a6f-141">Medyje pasirinkite „File\Declaration\Data\Item\Dim3“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="91a6f-142">Keli formato elementai gali turėti tokį patį pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="91a6f-142">Several format elements can have the same name.</span></span> <span data-ttu-id="91a6f-143">Pavyzdžiui, Dim.</span><span class="sxs-lookup"><span data-stu-id="91a6f-143">For example, Dim.</span></span> <span data-ttu-id="91a6f-144">Negalite aiškiai atpažinti jų, kai naudojate šį formatą kaip duomenų šaltinį Intrastat ataskaitų informacijai archyvuoti, todėl turite nurodyti alternatyvius šių formato elementų pavadinimus.</span><span class="sxs-lookup"><span data-stu-id="91a6f-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="91a6f-145">Lauke „Pavadinimas“ įveskite „Suma“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="91a6f-146">Suma</span><span class="sxs-lookup"><span data-stu-id="91a6f-146">Amount</span></span>  
+29. <span data-ttu-id="91a6f-147">Lauke Daugialypumas pasirinkite „Tiksliai vienas“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="91a6f-148">Medyje pasirinkite „File\Declaration\Data\Item\Dim4“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="91a6f-149">Lauke „Pavadinimas“ įveskite „Prekė“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="91a6f-150">Produktas</span><span class="sxs-lookup"><span data-stu-id="91a6f-150">Item</span></span>  
+32. <span data-ttu-id="91a6f-151">Lauke Daugialypumas pasirinkite „Tiksliai vienas“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="91a6f-152">Be dizaino formato elementų, šie Intrastat ataskaitos duomenys turi būti archyvuoti: unikalus kiekvienos paskelbtos prekės įrašo identifikatorius ir sugeneruoto failo vardas.</span><span class="sxs-lookup"><span data-stu-id="91a6f-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="91a6f-153">Kadangi šie duomenys nebus perkelta į Intrastat ataskaitą, turite pridėti formatą, kuris yra susijęs su šiais informacijos elementais, kaip duomenų šaltinio elementai.</span><span class="sxs-lookup"><span data-stu-id="91a6f-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="91a6f-154">Medyje pasirinkite „File\Declaration\Data“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="91a6f-155">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="91a6f-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="91a6f-156">Medyje pasirinkite „Data source\Item“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="91a6f-157">Lauke Pavadinimas įveskite Failo vardas.</span><span class="sxs-lookup"><span data-stu-id="91a6f-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="91a6f-158">Failo vardas</span><span class="sxs-lookup"><span data-stu-id="91a6f-158">File name</span></span>  
+37. <span data-ttu-id="91a6f-159">Lauke Duomenų tipas pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="91a6f-160">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="91a6f-160">Click OK.</span></span>
+39. <span data-ttu-id="91a6f-161">Medyje pasirinkite „File\Declaration\Data\Item“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="91a6f-162">Spustelėkite Įtraukti prekę.</span><span class="sxs-lookup"><span data-stu-id="91a6f-162">Click Add Item.</span></span>
+41. <span data-ttu-id="91a6f-163">Lauke Pavadinimas įrašykite „Prekės įr. ID“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="91a6f-164">Prekės įr. ID</span><span class="sxs-lookup"><span data-stu-id="91a6f-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="91a6f-165">Lauke Duomenų tipas pasirinkite „Int64“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="91a6f-166">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="91a6f-166">Click OK.</span></span>
+44. <span data-ttu-id="91a6f-167">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="91a6f-168">Medyje pasirinkite „File\Declaration\Data\File name“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="91a6f-169">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-169">Click Bind.</span></span>
+47. <span data-ttu-id="91a6f-170">Medyje išplėskite „modelis‟.</span><span class="sxs-lookup"><span data-stu-id="91a6f-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="91a6f-171">Medyje išplėskite „model\Transactions“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="91a6f-172">Medyje pasirinkite „File\Declaration\Data\Item = model.Transactions\Commodity rec id“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="91a6f-173">Medyje pasirinkite „model\Transactions\Commodity rec id“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="91a6f-174">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-174">Click Bind.</span></span>
+52. <span data-ttu-id="91a6f-175">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Keiskite formatą, norėdami įsiminti ataskaitų informaciją
-1. Spustelėkite Susieti formatą su modeliu.
-2. Spustelėkite Naujas.
-3. Lauke Apibrėžtis įveskite arba pasirinkite šakninį elementą „Programos duomenų atnaujinimui“.
-    * Programos duomenų atnaujinimui  
-4. Lauke Pavadinimas įrašykite „Susiejimas duomenų atnaujinimui“.
-    * Susiejimas duomenims atnaujinti  
-5. Spustelėkite Įrašyti.
-    * Šis susiejimas apibrėžia, kaip Intrastat ataskaitos duomenys surenkami duomenų modelyje, struktūrą, kuri nustatoma pagal pasirinktą šakninį elementą „Programos duomenų atnaujinimui“. Šie duomenys, modelio susiejimas su pačiu šakniniu elementu „Programos duomenų atnaujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų atnaujinimui. Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita. Atkreipkite dėmesį, kad programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).   
-6. Spustelėkite Konstruktorius.
-    * Žinokite, kad siunčiamos Intrastat ataskaitos formatas yra įtrauktas numatytai kaip šio modelio susiejimo duomenų šaltinis.  
-    * Susiekite sukurtos ataskaitos elementus (pateikiamus kaip duomenų šaltinis) su duomenų modelio, kuris filtruojamas pagal pasirinktą modelio šakninį elementą, elementais.  
-7. Medyje išplėskite „Archyvo antraštė“.
-8. Medyje išplėskite „Archive header\Archive lines“.
-9. Medyje išplėskite „format“.
-10. Medyje pasirinkite „format\Declaration: XML Element(Declaration)“.
-11. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.
-12. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.
-13. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)“.
-14. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)“.
-15. Medyje pasirinkite „Archive header\Number of lines“.
-16. Spustelėkite Redaguoti.
-17. Medyje pasirinkite „List\COUNT“.
-18. Spustelėkite „Įtraukti funkciją“.
-19. Medyje išplėskite „format“.
-20. Medyje pasirinkite „format\Declaration: XML Element(Declaration)“.
-21. Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.
-22. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.
-23. Spustelėkite „Įtraukti duomenų šaltinį“.
-24. Lauke Formulė įveskite „COUNT(format.Declaration.Data.Item)“.
-    * COUNT(format.Declaration.Data.Item)  
-25. Spustelėkite Įrašyti.
-26. Uždarykite puslapį.
-27. Medyje pasirinkite „Archive header\File name“.
-28. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)“.
-29. Spustelėkite Susieti.
-30. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)“.
-31. Medyje pasirinkite „Archive header\Archive lines\Item number“.
-32. Spustelėkite Susieti.
-33. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)“.
-34. Medyje pasirinkite „Archive header\Archive lines\Amount“.
-35. Spustelėkite Susieti.
-36. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)“.
-37. Medyje pasirinkite „Archive header\Archive lines\Commodity rec id“.
-38. Spustelėkite Susieti.
-39. Medyje pasirinkite „Archive header\Archive lines“.
-40. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.
-41. Spustelėkite Susieti.
-42. Medyje pasirinkite „Archyvo antraštė“.
-43. Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.
-44. Spustelėkite Susieti.
-45. Spustelėkite Įrašyti.
-46. Uždarykite puslapį.
-47. Uždarykite puslapį.
-48. Uždarykite puslapį.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="91a6f-176">Keiskite formatą, norėdami įsiminti ataskaitų informaciją</span><span class="sxs-lookup"><span data-stu-id="91a6f-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="91a6f-177">Spustelėkite Susieti formatą su modeliu.</span><span class="sxs-lookup"><span data-stu-id="91a6f-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="91a6f-178">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="91a6f-178">Click New.</span></span>
+3. <span data-ttu-id="91a6f-179">Lauke Apibrėžtis įveskite arba pasirinkite šakninį elementą „Programos duomenų atnaujinimui“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="91a6f-180">Programos duomenų atnaujinimui</span><span class="sxs-lookup"><span data-stu-id="91a6f-180">For application data update</span></span>  
+4. <span data-ttu-id="91a6f-181">Lauke Pavadinimas įrašykite „Susiejimas duomenų atnaujinimui“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="91a6f-182">Susiejimas duomenims atnaujinti</span><span class="sxs-lookup"><span data-stu-id="91a6f-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="91a6f-183">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-183">Click Save.</span></span>
+    * <span data-ttu-id="91a6f-184">Šis susiejimas apibrėžia, kaip Intrastat ataskaitos duomenys surenkami duomenų modelyje, struktūrą, kuri nustatoma pagal pasirinktą šakninį elementą „Programos duomenų atnaujinimui“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="91a6f-185">Šie duomenys, modelio susiejimas su pačiu šakniniu elementu „Programos duomenų atnaujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų atnaujinimui.</span><span class="sxs-lookup"><span data-stu-id="91a6f-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="91a6f-186">Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita.</span><span class="sxs-lookup"><span data-stu-id="91a6f-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="91a6f-187">Atkreipkite dėmesį, kad programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).</span><span class="sxs-lookup"><span data-stu-id="91a6f-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="91a6f-188">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="91a6f-188">Click Designer.</span></span>
+    * <span data-ttu-id="91a6f-189">Žinokite, kad siunčiamos Intrastat ataskaitos formatas yra įtrauktas numatytai kaip šio modelio susiejimo duomenų šaltinis.</span><span class="sxs-lookup"><span data-stu-id="91a6f-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="91a6f-190">Susiekite sukurtos ataskaitos elementus (pateikiamus kaip duomenų šaltinis) su duomenų modelio, kuris filtruojamas pagal pasirinktą modelio šakninį elementą, elementais.</span><span class="sxs-lookup"><span data-stu-id="91a6f-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="91a6f-191">Medyje išplėskite „Archyvo antraštė“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="91a6f-192">Medyje išplėskite „Archive header\Archive lines“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="91a6f-193">Medyje išplėskite „format“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="91a6f-194">Medyje pasirinkite „format\Declaration: XML Element(Declaration)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="91a6f-195">Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="91a6f-196">Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="91a6f-197">Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="91a6f-198">Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="91a6f-199">Medyje pasirinkite „Archive header\Number of lines“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="91a6f-200">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-200">Click Edit.</span></span>
+17. <span data-ttu-id="91a6f-201">Medyje pasirinkite „List\COUNT“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="91a6f-202">Spustelėkite „Įtraukti funkciją“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-202">Click Add function.</span></span>
+19. <span data-ttu-id="91a6f-203">Medyje išplėskite „format“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="91a6f-204">Medyje pasirinkite „format\Declaration: XML Element(Declaration)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="91a6f-205">Medyje išplėskite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="91a6f-206">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="91a6f-207">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-207">Click Add data source.</span></span>
+24. <span data-ttu-id="91a6f-208">Lauke Formulė įveskite „COUNT(format.Declaration.Data.Item)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="91a6f-209">COUNT(format.Declaration.Data.Item)</span><span class="sxs-lookup"><span data-stu-id="91a6f-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="91a6f-210">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-210">Click Save.</span></span>
+26. <span data-ttu-id="91a6f-211">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="91a6f-211">Close the page.</span></span>
+27. <span data-ttu-id="91a6f-212">Medyje pasirinkite „Archive header\File name“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="91a6f-213">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="91a6f-214">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-214">Click Bind.</span></span>
+30. <span data-ttu-id="91a6f-215">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="91a6f-216">Medyje pasirinkite „Archive header\Archive lines\Item number“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="91a6f-217">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-217">Click Bind.</span></span>
+33. <span data-ttu-id="91a6f-218">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="91a6f-219">Medyje pasirinkite „Archive header\Archive lines\Amount“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="91a6f-220">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-220">Click Bind.</span></span>
+36. <span data-ttu-id="91a6f-221">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="91a6f-222">Medyje pasirinkite „Archive header\Archive lines\Commodity rec id“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="91a6f-223">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-223">Click Bind.</span></span>
+39. <span data-ttu-id="91a6f-224">Medyje pasirinkite „Archive header\Archive lines“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="91a6f-225">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="91a6f-226">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-226">Click Bind.</span></span>
+42. <span data-ttu-id="91a6f-227">Medyje pasirinkite „Archyvo antraštė“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="91a6f-228">Medyje pasirinkite „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)“.</span><span class="sxs-lookup"><span data-stu-id="91a6f-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="91a6f-229">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-229">Click Bind.</span></span>
+45. <span data-ttu-id="91a6f-230">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="91a6f-230">Click Save.</span></span>
+46. <span data-ttu-id="91a6f-231">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="91a6f-231">Close the page.</span></span>
+47. <span data-ttu-id="91a6f-232">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="91a6f-232">Close the page.</span></span>
+48. <span data-ttu-id="91a6f-233">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="91a6f-233">Close the page.</span></span>
 
 

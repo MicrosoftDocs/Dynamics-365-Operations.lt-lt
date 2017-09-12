@@ -17,92 +17,92 @@ ms.assetid: 8993f9a1-d1c0-49f5-afd3-5e1077ded0fe
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f13d03e5d1a26a5c87d71732b692537be94bdfb8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9c587df80edf40e3cbbd3edde83586f167db2fbc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Produktų konfigūracijos modelių skaičiavimų DUK
+# <a name="calculations-for-product-configuration-models-faq"></a><span data-ttu-id="b5c23-103">Produktų konfigūracijos modelių skaičiavimų DUK</span><span class="sxs-lookup"><span data-stu-id="b5c23-103">Calculations for product configuration models FAQ</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
+<span data-ttu-id="b5c23-104">Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.</span><span class="sxs-lookup"><span data-stu-id="b5c23-104">This article describes calculations for product configuration models and explains how to use calculations together with constraints.</span></span>
 
-Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose. Jie papildo produkto konfigūravimo modelių išraiškos apribojimus. Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** galima nustatyti skaičiavimus ir tada išraiškų rengyklėje kurti skaičiavimų išraiškas. Daugiau informacijos žr. dalyje Kurti skaičiavimus.
+<span data-ttu-id="b5c23-105">Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose.</span><span class="sxs-lookup"><span data-stu-id="b5c23-105">Calculations can be used for arithmetic or logical operations.</span></span> <span data-ttu-id="b5c23-106">Jie papildo produkto konfigūravimo modelių išraiškos apribojimus.</span><span class="sxs-lookup"><span data-stu-id="b5c23-106">They complement expression constraints in product configuration models.</span></span> <span data-ttu-id="b5c23-107">Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** galima nustatyti skaičiavimus ir tada išraiškų rengyklėje kurti skaičiavimų išraiškas.</span><span class="sxs-lookup"><span data-stu-id="b5c23-107">You can define calculations on the **Constraint-based product configuration model details** page and then build expressions for the calculations in the expression editor.</span></span> <span data-ttu-id="b5c23-108">Daugiau informacijos žr. dalyje Kurti skaičiavimus.</span><span class="sxs-lookup"><span data-stu-id="b5c23-108">For more information, see Create calculations.</span></span>
 
-## <a name="what-is-a-calculation"></a>Kas yra skaičiavimas?
-Skaičiavimas – tai elementas, kurį galite naudoti produkto konfigūravimo modelyje. Skaičiavimai papildo apribojimus suteikdami galimybę apskaičiuoti reikšmes dešimtainiais skaičiais, kai konfigūruojate produktą. Be to, skaičiavimai turi didesnį operatorių rinkinį nei apribojimai.  
+## <a name="what-is-a-calculation"></a><span data-ttu-id="b5c23-109">Kas yra skaičiavimas?</span><span class="sxs-lookup"><span data-stu-id="b5c23-109">What is a calculation?</span></span>
+<span data-ttu-id="b5c23-110">Skaičiavimas – tai elementas, kurį galite naudoti produkto konfigūravimo modelyje.</span><span class="sxs-lookup"><span data-stu-id="b5c23-110">A calculation is an element that you can use in a product configuration model.</span></span> <span data-ttu-id="b5c23-111">Skaičiavimai papildo apribojimus suteikdami galimybę apskaičiuoti reikšmes dešimtainiais skaičiais, kai konfigūruojate produktą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-111">Calculations complement constraints by letting you use decimal numbers to calculate values when you configure a product.</span></span> <span data-ttu-id="b5c23-112">Be to, skaičiavimai turi didesnį operatorių rinkinį nei apribojimai.</span><span class="sxs-lookup"><span data-stu-id="b5c23-112">Additionally, calculations have a larger set of available operators than constraints have.</span></span>  
 
-Kaip ir apribojimas, skaičiavimas yra susietas su konkrečiu komponentu produkto konfigūracijos modelyje, jo negalima naudoti pakartotinai arba bendrai su kitu komponentu. Vienas svarbus skirtumas tarp skaičiavimų ir apribojimų – skaičiavimai yra būtini (vienos krypties), o apribojimai yra deklaratyvūs (dviejų krypčių). Daugiau informacijos apie apribojimus žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md).  
+<span data-ttu-id="b5c23-113">Kaip ir apribojimas, skaičiavimas yra susietas su konkrečiu komponentu produkto konfigūracijos modelyje, jo negalima naudoti pakartotinai arba bendrai su kitu komponentu.</span><span class="sxs-lookup"><span data-stu-id="b5c23-113">Like a constraint, a calculation is associated with a specific component in a product configuration model, and can’t be reused by or shared with another component.</span></span> <span data-ttu-id="b5c23-114">Vienas svarbus skirtumas tarp skaičiavimų ir apribojimų – skaičiavimai yra būtini (vienos krypties), o apribojimai yra deklaratyvūs (dviejų krypčių).</span><span class="sxs-lookup"><span data-stu-id="b5c23-114">One important difference between calculations and constraints is that calculations are imperative (unidirectional), whereas constraints are declarative (bi-directional).</span></span> <span data-ttu-id="b5c23-115">Daugiau informacijos apie apribojimus žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md).</span><span class="sxs-lookup"><span data-stu-id="b5c23-115">For more information about constraints, see [Expression constraints and table constraints](expression-constraints-table-constraints-product-configuration-models.md).</span></span>  
 
-Skaičiavimą sudaro tikslinis atributas ir skaičiavimo išraiška.
+<span data-ttu-id="b5c23-116">Skaičiavimą sudaro tikslinis atributas ir skaičiavimo išraiška.</span><span class="sxs-lookup"><span data-stu-id="b5c23-116">A calculation consists of a target attribute and a calculation expression.</span></span>
 
-## <a name="what-is-a-target-attribute"></a>Kas yra tikslinis atributas?
-Tikslinis atributas – atributas, gaunantis skaičiavimo išraiškos rezultatą.  
+## <a name="what-is-a-target-attribute"></a><span data-ttu-id="b5c23-117">Kas yra tikslinis atributas?</span><span class="sxs-lookup"><span data-stu-id="b5c23-117">What is a target attribute?</span></span>
+<span data-ttu-id="b5c23-118">Tikslinis atributas – atributas, gaunantis skaičiavimo išraiškos rezultatą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-118">A target attribute is an attribute that receives the result of the calculation expression.</span></span>  
 
-Toliau nurodytoje išraiškoje tikslinis atributas yra staltiesės matavimas:  
+<span data-ttu-id="b5c23-119">Toliau nurodytoje išraiškoje tikslinis atributas yra staltiesės matavimas:</span><span class="sxs-lookup"><span data-stu-id="b5c23-119">In the following expression, the target attribute is a tablecloth measurement:</span></span>  
 
-**Išraiška:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
+<span data-ttu-id="b5c23-120">**Išraiška:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]</span><span class="sxs-lookup"><span data-stu-id="b5c23-120">**Expression:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]</span></span>  
 
-**DecimalAttribute1** yra stalo ilgis, o **decimalAttribute2** – staltiesės ilgis. Išraiška pateikia tikslinio atributo reikšmę **True**, jei **decimalAttribute2** yra didesnis nei arba lygus **decimalAttribute1**. Kitu atveju išraiška pateikia reikšmę **False**. Taigi staltiesės matavimas yra priimtinas, jei staltiesės ilgis yra lygus stalo ilgiui arba didesnis.
+<span data-ttu-id="b5c23-121">**DecimalAttribute1** yra stalo ilgis, o **decimalAttribute2** – staltiesės ilgis.</span><span class="sxs-lookup"><span data-stu-id="b5c23-121">**DecimalAttribute1** is the table length, and **decimalAttribute2** is the tablecloth length.</span></span> <span data-ttu-id="b5c23-122">Išraiška pateikia tikslinio atributo reikšmę **True**, jei **decimalAttribute2** yra didesnis nei arba lygus **decimalAttribute1**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-122">The expression returns the value **True** to the target attribute if **decimalAttribute2** is greater than or equal to **decimalAttribute1**.</span></span> <span data-ttu-id="b5c23-123">Kitu atveju išraiška pateikia reikšmę **False**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-123">Otherwise, the expression returns **False**.</span></span> <span data-ttu-id="b5c23-124">Taigi staltiesės matavimas yra priimtinas, jei staltiesės ilgis yra lygus stalo ilgiui arba didesnis.</span><span class="sxs-lookup"><span data-stu-id="b5c23-124">Therefore, the tablecloth measurement is acceptable if the tablecloth length is the same as or exceeds the length of the table.</span></span>
 
-## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Kokius tikslinių atributų tipus galima nustatyti?
-Galima nustatyti visus tikslinių atributų tipus, palaikomus produkto konfigūratoriuje, išskyrus tekstą be fiksuoto sąrašo.
+## <a name="what-attribute-types-can-be-set-to-target-attributes"></a><span data-ttu-id="b5c23-125">Kokius tikslinių atributų tipus galima nustatyti?</span><span class="sxs-lookup"><span data-stu-id="b5c23-125">What attribute types can be set to target attributes?</span></span>
+<span data-ttu-id="b5c23-126">Galima nustatyti visus tikslinių atributų tipus, palaikomus produkto konfigūratoriuje, išskyrus tekstą be fiksuoto sąrašo.</span><span class="sxs-lookup"><span data-stu-id="b5c23-126">All attribute types that the product configurator supports can be set to target attributes, except text without a fixed list.</span></span>
 
-## <a name="can-the-value-of-a-target-attribute-restrict-the-values-of-the-input-attributes-in-a-calculation"></a>Ar gali tikslinio atributo reikšmė riboti įvesties atributų reikšmes skaičiavime?
-Ne, tikslinio atributo reikšmė negali riboti įvesties atributų reikšmių, nes skaičiavimai yra vienakrypčiai. Todėl tikslinio atributo reikšmė yra nustatoma pagal įvesties atributų reikšmių keitimus, tačiau tikslinio atributo reikšmės keitimai neturi įtakos įvesties atributų reikšmėms. Ši elgsena skiriasi nuo apribojimų elgsenos. Apribojimai taikomi abiem kryptimis.
+## <a name="can-the-value-of-a-target-attribute-restrict-the-values-of-the-input-attributes-in-a-calculation"></a><span data-ttu-id="b5c23-127">Ar gali tikslinio atributo reikšmė riboti įvesties atributų reikšmes skaičiavime?</span><span class="sxs-lookup"><span data-stu-id="b5c23-127">Can the value of a target attribute restrict the values of the input attributes in a calculation?</span></span>
+<span data-ttu-id="b5c23-128">Ne, tikslinio atributo reikšmė negali riboti įvesties atributų reikšmių, nes skaičiavimai yra vienakrypčiai.</span><span class="sxs-lookup"><span data-stu-id="b5c23-128">No, the value of a target attribute can’t restrict the values of the input attributes, because calculations are unidirectional.</span></span> <span data-ttu-id="b5c23-129">Todėl tikslinio atributo reikšmė yra nustatoma pagal įvesties atributų reikšmių keitimus, tačiau tikslinio atributo reikšmės keitimai neturi įtakos įvesties atributų reikšmėms.</span><span class="sxs-lookup"><span data-stu-id="b5c23-129">Therefore, the value of the target attribute is set based on changes in the value of the input attributes, but a change in the value of the target doesn’t affect the value of the input attributes.</span></span> <span data-ttu-id="b5c23-130">Ši elgsena skiriasi nuo apribojimų elgsenos.</span><span class="sxs-lookup"><span data-stu-id="b5c23-130">This behavior differs from the behavior for constraints.</span></span> <span data-ttu-id="b5c23-131">Apribojimai taikomi abiem kryptimis.</span><span class="sxs-lookup"><span data-stu-id="b5c23-131">Constraints occur in both directions.</span></span>
 
-### <a name="example"></a>Pavyzdys
+### <a name="example"></a><span data-ttu-id="b5c23-132">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="b5c23-132">Example</span></span>
 
-Toliau nurodytoje išraiškoje skaičiavimo tikslas yra maitinimo laido ilgis, o įvesties reikšmė yra spalva.  
+<span data-ttu-id="b5c23-133">Toliau nurodytoje išraiškoje skaičiavimo tikslas yra maitinimo laido ilgis, o įvesties reikšmė yra spalva.</span><span class="sxs-lookup"><span data-stu-id="b5c23-133">In the following expression, the target for the calculation is the length of a power cord, and the input value is a color:</span></span>  
 
-**Išraiška**: \[Jei Spalva == Žalia, 1,5, 1,0\]  
+<span data-ttu-id="b5c23-134">**Išraiška**: \[Jei Spalva == Žalia, 1,5, 1,0\]</span><span class="sxs-lookup"><span data-stu-id="b5c23-134">**Expression:** \[If Color == "Green", 1.5, 1.0\]</span></span>  
 
-Konfigūruojant prekę, nustatomas **1,5** laido ilgis, jei nurodote **Žalia** kaip spalvos atributą. Jei nurodote bet kokią kitą spalvą, nustatomas ilgis yra **1,0**. Bet kadangi skaičiavimai yra vienakrypčiai, skaičiavimas nenustato spalvos atributo reikšmės kaip **Žalia**, jei nurodote ilgį **1,5**.
+<span data-ttu-id="b5c23-135">Konfigūruojant prekę, nustatomas **1,5** laido ilgis, jei nurodote **Žalia** kaip spalvos atributą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-135">When you configure the item, the length of the power cord is set to **1.5** if you specify **Green** as the value of color attribute.</span></span> <span data-ttu-id="b5c23-136">Jei nurodote bet kokią kitą spalvą, nustatomas ilgis yra **1,0**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-136">If you specify any other color, the length is set to **1.0**.</span></span> <span data-ttu-id="b5c23-137">Bet kadangi skaičiavimai yra vienakrypčiai, skaičiavimas nenustato spalvos atributo reikšmės kaip **Žalia**, jei nurodote ilgį **1,5**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-137">However, because calculations are unidirectional, the calculation doesn't set the value of the color attribute to **Green** if you specify a length of **1.5**.</span></span>
 
-## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Kas nutinka, jei skaičiavime tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas generuoja dešimtainį skaičių?
-Jei tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas sugeneruoja dešimtainį skaičių, grąžinama tik sveikoji apskaičiuoto rezultato skaičiaus dalis. Dešimtainė dalis pašalinama, o rezultatas neapvalinamas. Pavyzdžiui, rezultatas 12,70 rodomas kaip 12.
+## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a><span data-ttu-id="b5c23-138">Kas nutinka, jei skaičiavime tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas generuoja dešimtainį skaičių?</span><span class="sxs-lookup"><span data-stu-id="b5c23-138">What happens if a calculation has a target attribute of the integer type but a calculation generates a decimal number?</span></span>
+<span data-ttu-id="b5c23-139">Jei tikslinis atributas yra sveikojo skaičiaus tipo, bet skaičiavimas sugeneruoja dešimtainį skaičių, grąžinama tik sveikoji apskaičiuoto rezultato skaičiaus dalis.</span><span class="sxs-lookup"><span data-stu-id="b5c23-139">If a target attribute is of the integer type, but a calculation generates a decimal number, only the integer part of the calculated result is returned.</span></span> <span data-ttu-id="b5c23-140">Dešimtainė dalis pašalinama, o rezultatas neapvalinamas.</span><span class="sxs-lookup"><span data-stu-id="b5c23-140">The decimal part is removed, and the result isn't rounded.</span></span> <span data-ttu-id="b5c23-141">Pavyzdžiui, rezultatas 12,70 rodomas kaip 12.</span><span class="sxs-lookup"><span data-stu-id="b5c23-141">For example, a result of 12.70 is shown as 12.</span></span>
 
-## <a name="when-do-calculations-occur"></a>Kada atliekami skaičiavimai?
-Skaičiavimai atliekami, kai nurodoma visų įvesties atributų reikšmė.
+## <a name="when-do-calculations-occur"></a><span data-ttu-id="b5c23-142">Kada atliekami skaičiavimai?</span><span class="sxs-lookup"><span data-stu-id="b5c23-142">When do calculations occur?</span></span>
+<span data-ttu-id="b5c23-143">Skaičiavimai atliekami, kai nurodoma visų įvesties atributų reikšmė.</span><span class="sxs-lookup"><span data-stu-id="b5c23-143">Calculations occur when a value has been provided for all input attributes.</span></span>
 
-## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Ar galiu perrašyti apskaičiuotą tikslinio atributo reikšmę?
-Galite perrašyti apskaičiuotą tikslinio atributo reikšmę, nebent tikslinis atributas nustatytas kaip paslėptas arba tik skaitomas.
+## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a><span data-ttu-id="b5c23-144">Ar galiu perrašyti apskaičiuotą tikslinio atributo reikšmę?</span><span class="sxs-lookup"><span data-stu-id="b5c23-144">Can I overwrite the value that is calculated for the target attribute?</span></span>
+<span data-ttu-id="b5c23-145">Galite perrašyti apskaičiuotą tikslinio atributo reikšmę, nebent tikslinis atributas nustatytas kaip paslėptas arba tik skaitomas.</span><span class="sxs-lookup"><span data-stu-id="b5c23-145">You can overwrite the value that is calculated for the target attribute, unless the target attribute is set as hidden or read-only.</span></span>
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kaip nustatyti tikslinį atributą kaip paslėptą arba tik skaitomą?
-Norėdami nustatyti atributą kaip paslėptą arba tik skaitomą, atlikite šiuos veiksmus.
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a><span data-ttu-id="b5c23-146">Kaip nustatyti tikslinį atributą kaip paslėptą arba tik skaitomą?</span><span class="sxs-lookup"><span data-stu-id="b5c23-146">How do I set a target attribute as hidden or readonly?</span></span>
+<span data-ttu-id="b5c23-147">Norėdami nustatyti atributą kaip paslėptą arba tik skaitomą, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="b5c23-147">To set an attribute as hidden or read-only, follow these steps.</span></span>
 
-1.  Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.
-2.  Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srityje spustelėkite **Redaguoti**.
-3.  Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** pasirinkite, kurį atributą norite naudoti kaip tikslinį atributą.
-4.  „FastTab“ **Atributai** pasirinkite **Paslėpta** arba **Tik skaitoma**.
+1.  <span data-ttu-id="b5c23-148">Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-148">Click **Product information management** &gt; **Common** &gt; **Product configuration models**.</span></span>
+2.  <span data-ttu-id="b5c23-149">Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srityje spustelėkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-149">Select a product configuration model, and then, on the Action Pane, click **Edit**.</span></span>
+3.  <span data-ttu-id="b5c23-150">Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** pasirinkite, kurį atributą norite naudoti kaip tikslinį atributą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-150">On the **Constraint-based product configuration model details** page, select the attribute to use as a target attribute.</span></span>
+4.  <span data-ttu-id="b5c23-151">„FastTab“ **Atributai** pasirinkite **Paslėpta** arba **Tik skaitoma**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-151">On the **Attributes** FastTab, select **Hidden** or **Read-only**.</span></span>
 
-## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Ar skaičiavimas gali perrašyti mano nustatytas reikšmes?
-Nr. Naudojamos reikšmės, kurias nustatote konfigūruodami produktą. Skaičiavimas, atliekamas pakeitus įvesties reikšmes skaičiavime, negali perrašyti jūsų nurodytų konkretaus atributo reikšmių.
+## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a><span data-ttu-id="b5c23-152">Ar skaičiavimas gali perrašyti mano nustatytas reikšmes?</span><span class="sxs-lookup"><span data-stu-id="b5c23-152">Can a calculation overwrite the values that I set?</span></span>
+<span data-ttu-id="b5c23-153">Nr.</span><span class="sxs-lookup"><span data-stu-id="b5c23-153">No.</span></span> <span data-ttu-id="b5c23-154">Naudojamos reikšmės, kurias nustatote konfigūruodami produktą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-154">The values that you set when you configure a product are the values that are used.</span></span> <span data-ttu-id="b5c23-155">Skaičiavimas, atliekamas pakeitus įvesties reikšmes skaičiavime, negali perrašyti jūsų nurodytų konkretaus atributo reikšmių.</span><span class="sxs-lookup"><span data-stu-id="b5c23-155">The calculation that occurs when the input values in a calculation are changed can’t overwrite the values that you provide for a specific attribute.</span></span>
 
-## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Kas nutinka skaičiavime pašalinus įvesties reikšmę?
-Jei pašalinate įvesties reikšmę skaičiavime, pašalinama ir tikslinio atributo reikšmė.
+## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a><span data-ttu-id="b5c23-156">Kas nutinka skaičiavime pašalinus įvesties reikšmę?</span><span class="sxs-lookup"><span data-stu-id="b5c23-156">What happens if I remove an input value in a calculation?</span></span>
+<span data-ttu-id="b5c23-157">Jei pašalinate įvesties reikšmę skaičiavime, pašalinama ir tikslinio atributo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="b5c23-157">If you remove an input value in a calculation, the value of the target attribute is also removed.</span></span>
 
-## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Kodėl gaunu pranešimą apie klaidą, kuriame teigiama, kad modelis neatitinka?
-Šis pranešimas rodomas, kai skaičiavime yra klaida arba viename ar keliuose apribojimuose yra prieštaravimas. Daugiau informacijos apie prieštaravimus apribojimuose žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md). Toliau pateikiami atvejai, kurias skaičiuojant gali įvykti klaidų.
+## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a><span data-ttu-id="b5c23-158">Kodėl gaunu pranešimą apie klaidą, kuriame teigiama, kad modelis neatitinka?</span><span class="sxs-lookup"><span data-stu-id="b5c23-158">Why do I receive an error message that says that my model is in contradiction?</span></span>
+<span data-ttu-id="b5c23-159">Šis pranešimas rodomas, kai skaičiavime yra klaida arba viename ar keliuose apribojimuose yra prieštaravimas.</span><span class="sxs-lookup"><span data-stu-id="b5c23-159">This message is shown when a calculation includes an error, or when a contradiction exists in one or more constraints.</span></span> <span data-ttu-id="b5c23-160">Daugiau informacijos apie prieštaravimus apribojimuose žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md).</span><span class="sxs-lookup"><span data-stu-id="b5c23-160">For more information about contradictions in constraints, see [Expression constraints and table constraints](expression-constraints-table-constraints-product-configuration-models.md).</span></span> <span data-ttu-id="b5c23-161">Toliau pateikiami atvejai, kurias skaičiuojant gali įvykti klaidų.</span><span class="sxs-lookup"><span data-stu-id="b5c23-161">Here are some situations where errors can occur in calculations:</span></span>
 
--   Reikšmė dalijama iš 0 (nulio).
--   Yra konfliktas tarp dviejų toliau pateiktų elementų.
-    -   Reikšmės, kurios prieinamos atributui ir kurios yra ribojamos apribojimo.
-    -   Reikšmė, sugeneruota skaičiuojant.
--   Skaičiavimo pateiktos reikšmės nepatenka į atributo sritį. Pavyzdys yra sveikasis skaičius \[1..10\], kuris apskaičiuojamas kaip 0.
+-   <span data-ttu-id="b5c23-162">Reikšmė dalijama iš 0 (nulio).</span><span class="sxs-lookup"><span data-stu-id="b5c23-162">A value is divided by 0 (zero).</span></span>
+-   <span data-ttu-id="b5c23-163">Yra konfliktas tarp dviejų toliau pateiktų elementų.</span><span class="sxs-lookup"><span data-stu-id="b5c23-163">A conflict exists between the following two elements:</span></span>
+    -   <span data-ttu-id="b5c23-164">Reikšmės, kurios prieinamos atributui ir kurios yra ribojamos apribojimo.</span><span class="sxs-lookup"><span data-stu-id="b5c23-164">The values that are available for an attribute and are limited by a constraint</span></span>
+    -   <span data-ttu-id="b5c23-165">Reikšmė, sugeneruota skaičiuojant.</span><span class="sxs-lookup"><span data-stu-id="b5c23-165">A value that is generated by a calculation</span></span>
+-   <span data-ttu-id="b5c23-166">Skaičiavimo pateiktos reikšmės nepatenka į atributo sritį.</span><span class="sxs-lookup"><span data-stu-id="b5c23-166">The values that are returned by the calculation are outside the domain of the attribute.</span></span> <span data-ttu-id="b5c23-167">Pavyzdys yra sveikasis skaičius \[1..10\], kuris apskaičiuojamas kaip 0.</span><span class="sxs-lookup"><span data-stu-id="b5c23-167">An example is an integer from \[1..10\] that is calculated to 0.</span></span>
 
-## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Kodėl gaunu klaidos pranešimą, net jei sėkmingai patikrinau savo produkto modelį?
-Skaičiavimai neįtraukiami į tikrinimą. Norėdami rasti skaičiavimų klaidas, turite išbandyti produkto konfigūracijos modelį. Tolesniuose veiksmuose paaiškinta, kaip išbandyti produkto konfigūracijos modelį.
+## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a><span data-ttu-id="b5c23-168">Kodėl gaunu klaidos pranešimą, net jei sėkmingai patikrinau savo produkto modelį?</span><span class="sxs-lookup"><span data-stu-id="b5c23-168">Why do I receive an error message even though I successfully validated my product model?</span></span>
+<span data-ttu-id="b5c23-169">Skaičiavimai neįtraukiami į tikrinimą.</span><span class="sxs-lookup"><span data-stu-id="b5c23-169">Calculations aren't included in the validation.</span></span> <span data-ttu-id="b5c23-170">Norėdami rasti skaičiavimų klaidas, turite išbandyti produkto konfigūracijos modelį.</span><span class="sxs-lookup"><span data-stu-id="b5c23-170">You must test the product configuration model to find errors in calculations.</span></span> <span data-ttu-id="b5c23-171">Tolesniuose veiksmuose paaiškinta, kaip išbandyti produkto konfigūracijos modelį.</span><span class="sxs-lookup"><span data-stu-id="b5c23-171">To test a product configuration model, follow these steps.</span></span>
 
-1.  Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.
-2.  Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srities grupėje **Vykdyti** spustelėkite **Tikrinti**.
+1.  <span data-ttu-id="b5c23-172">Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-172">Click **Product information management** &gt; **Common** &gt; **Product configuration models**.</span></span>
+2.  <span data-ttu-id="b5c23-173">Pasirinkite produkto konfigūravimo modelį ir tada veiksmų srities grupėje **Vykdyti** spustelėkite **Tikrinti**.</span><span class="sxs-lookup"><span data-stu-id="b5c23-173">Select a product configuration model, and then, on the Action Pane, in the **Run** group, click **Test**.</span></span>
 
 
 

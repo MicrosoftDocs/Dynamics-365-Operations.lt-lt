@@ -18,33 +18,33 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 8ccc1af0e1bd7909b7810d359a916849ecc1a709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3f7e1261838866688c97529b0edfa1354034247b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Nesutapimų šalinimas gretinant SF bendrąsias sumas
+# <a name="resolve-discrepancies-during-invoice-totals-matching"></a><span data-ttu-id="e75bd-102">Nesutapimų šalinimas gretinant SF bendrąsias sumas</span><span class="sxs-lookup"><span data-stu-id="e75bd-102">Resolve discrepancies during invoice totals matching</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-Vienas iš SF gretinimo tikrinimo tipų – SF bendrųjų sumų gretinimas. Norėdami nurodyti, kad sistemoje būtų gretinamos SF bendrosios sumos, puslapio **Mokėtinų sumų parametrai** skirtuke **SF tikrinimas** nustatykite parinkties **Gretinti SF bendrąsias sumas** reikšmę **Taip**. 
+<span data-ttu-id="e75bd-103">Vienas iš SF gretinimo tikrinimo tipų – SF bendrųjų sumų gretinimas.</span><span class="sxs-lookup"><span data-stu-id="e75bd-103">One type of invoice matching validation is invoice totals matching.</span></span> <span data-ttu-id="e75bd-104">Norėdami nurodyti, kad sistemoje būtų gretinamos SF bendrosios sumos, puslapio **Mokėtinų sumų parametrai** skirtuke **SF tikrinimas** nustatykite parinkties **Gretinti SF bendrąsias sumas** reikšmę **Taip**.</span><span class="sxs-lookup"><span data-stu-id="e75bd-104">To specify that the system should perform invoice totals matching, on the **Accounts payable parameters** page, on the **Invoice validation** tab, set the **Match invoice totals** option **Yes**.</span></span> 
 
-Galite naudoti SF bendrųjų sumų gretinimo parinktį, kad užtikrintumėte, jog SF bendrosios sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu. Puslapyje **SF bendrųjų sumų gretinimo informacija** palyginamos šešios bendrosios sumos. Jei bet kuri bendroji suma nukrypsta nuo numatomos atitinkamos pirkimo užsakymo bendrosios sumos, vėliavėle pažymimas gretinimo nesutapimas. 
+<span data-ttu-id="e75bd-105">Galite naudoti SF bendrųjų sumų gretinimo parinktį, kad užtikrintumėte, jog SF bendrosios sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu.</span><span class="sxs-lookup"><span data-stu-id="e75bd-105">You can use invoice totals matching to help guarantee that total invoice amounts don't deviate from expected amounts by more than an acceptable variance.</span></span> <span data-ttu-id="e75bd-106">Puslapyje **SF bendrųjų sumų gretinimo informacija** palyginamos šešios bendrosios sumos.</span><span class="sxs-lookup"><span data-stu-id="e75bd-106">Six totals are compared on the **Invoice totals matching details** page.</span></span> <span data-ttu-id="e75bd-107">Jei bet kuri bendroji suma nukrypsta nuo numatomos atitinkamos pirkimo užsakymo bendrosios sumos, vėliavėle pažymimas gretinimo nesutapimas.</span><span class="sxs-lookup"><span data-stu-id="e75bd-107">If any one of the totals deviates from the expected corresponding purchase order total, a matching discrepancy is flagged.</span></span> 
 
-Norėdami peržiūrėti SF, kurioje yra bendrųjų sumų gretinimo nesutapimų, darbo srityje **Tiekėjo SF įrašas** spustelėkite plytelę **Laukiančios SF**. Tada veiksmų srities skirtuke **Peržiūra** spustelėkite **Gretinimo informacija**. Aptikus gretinimo nesutapimus šalia SF sumos rodomos įspėjimo piktogramos. Jei reikia daugiau informacijos apie bendrąsias sumas, galite peržiūrėti SF bendrųjų sumų gretinimo informaciją. 
+<span data-ttu-id="e75bd-108">Norėdami peržiūrėti SF, kurioje yra bendrųjų sumų gretinimo nesutapimų, darbo srityje **Tiekėjo SF įrašas** spustelėkite plytelę **Laukiančios SF**.</span><span class="sxs-lookup"><span data-stu-id="e75bd-108">To review the invoice that has the totals matching discrepancies, in the **Vendor invoice entry** workspace, click the **Pending invoices** tile.</span></span> <span data-ttu-id="e75bd-109">Tada veiksmų srities skirtuke **Peržiūra** spustelėkite **Gretinimo informacija**.</span><span class="sxs-lookup"><span data-stu-id="e75bd-109">Then, on the Action Pane, on the **Review** tab, click **Matching details**.</span></span> <span data-ttu-id="e75bd-110">Aptikus gretinimo nesutapimus šalia SF sumos rodomos įspėjimo piktogramos.</span><span class="sxs-lookup"><span data-stu-id="e75bd-110">If matching discrepancies have been detected, warning icons appear next to the invoice amount.</span></span> <span data-ttu-id="e75bd-111">Jei reikia daugiau informacijos apie bendrąsias sumas, galite peržiūrėti SF bendrųjų sumų gretinimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="e75bd-111">You can view more detail about the totals by viewing the invoice totals matching details.</span></span> 
 
-Jei identifikavę nesutapimą manote, kad SF informacija yra neteisinga, kreipkitės į tiekėją. Atsižvelgdami į galutinę sutartį su tiekėju galite atlikti kurį nors toliau nurodytą veiksmą.
+<span data-ttu-id="e75bd-112">Jei identifikavę nesutapimą manote, kad SF informacija yra neteisinga, kreipkitės į tiekėją.</span><span class="sxs-lookup"><span data-stu-id="e75bd-112">After you identify a discrepancy, you might have to contact the vendor if you think that the information on the invoice is incorrect.</span></span> <span data-ttu-id="e75bd-113">Atsižvelgdami į galutinę sutartį su tiekėju galite atlikti kurį nors toliau nurodytą veiksmą.</span><span class="sxs-lookup"><span data-stu-id="e75bd-113">Depending on the resulting agreement with the vendor, you can then take one of these actions:</span></span>
 
--   Patvirtinkite kainų skirtumą ir užregistruokite SF, kurioje yra gretinimo nesutapimų. Sistemoje gali būti nustatytas patvirtinimo reikalavimas, kad būtų galima užregistruoti SF su gretinimo nesutapimais. Tokiu atveju turite patvirtinti gretinimo nesutapimą ir galite įvesti patvirtinimo komentarą. Tada galėsite pasirinkti SF registravimo veiksmą.
--   Peržiūrėkite SF sumą pagal numatomą sumą ir registruokite SF.
--   Iš tiekėjo reikalaukite viso kredito ir naujos pataisytos SF.
+-   <span data-ttu-id="e75bd-114">Patvirtinkite kainų skirtumą ir užregistruokite SF, kurioje yra gretinimo nesutapimų.</span><span class="sxs-lookup"><span data-stu-id="e75bd-114">Accept the price difference, and post the invoice that has matching discrepancies.</span></span> <span data-ttu-id="e75bd-115">Sistemoje gali būti nustatytas patvirtinimo reikalavimas, kad būtų galima užregistruoti SF su gretinimo nesutapimais.</span><span class="sxs-lookup"><span data-stu-id="e75bd-115">Your system might be set up to require approval before it can post if there are matching discrepancies.</span></span> <span data-ttu-id="e75bd-116">Tokiu atveju turite patvirtinti gretinimo nesutapimą ir galite įvesti patvirtinimo komentarą.</span><span class="sxs-lookup"><span data-stu-id="e75bd-116">In this case, you must approve the matching discrepancy and can optionally enter an approval comment.</span></span> <span data-ttu-id="e75bd-117">Tada galėsite pasirinkti SF registravimo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="e75bd-117">You can then select to post the invoice.</span></span>
+-   <span data-ttu-id="e75bd-118">Peržiūrėkite SF sumą pagal numatomą sumą ir registruokite SF.</span><span class="sxs-lookup"><span data-stu-id="e75bd-118">Revise the invoice amount to the expected amount, and post the invoice.</span></span>
+-   <span data-ttu-id="e75bd-119">Iš tiekėjo reikalaukite viso kredito ir naujos pataisytos SF.</span><span class="sxs-lookup"><span data-stu-id="e75bd-119">Request a full credit and a new, corrected invoice from the vendor.</span></span>
 
-Daugiau informacijos žr. [Išnagrinėti arba pašalinti išimtis](tasks/research-resolve-exceptions.md).
+<span data-ttu-id="e75bd-120">Daugiau informacijos žr. [Išnagrinėti arba pašalinti išimtis](tasks/research-resolve-exceptions.md).</span><span class="sxs-lookup"><span data-stu-id="e75bd-120">For more information, see [Research or resolve exceptions](tasks/research-resolve-exceptions.md).</span></span>
 
 
 

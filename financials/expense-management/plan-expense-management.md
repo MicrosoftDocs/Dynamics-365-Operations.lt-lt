@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Konfigūruoti išlaidų valdymą
+# <a name="configure-expense-management"></a><span data-ttu-id="5bd9d-104">Konfigūruoti išlaidų valdymą</span><span class="sxs-lookup"><span data-stu-id="5bd9d-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš konfigūruodami Išlaidų valdymą programoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Išlaidų valdymo srityje galite saugoti informaciją apie mokėjimo būdus, kelionės paraiškas, išlaidų ataskaitas ir, be visa kita, strategijas. 
+<span data-ttu-id="5bd9d-105">Šiame straipsnyje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš konfigūruodami Išlaidų valdymą programoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="5bd9d-106">Išlaidų valdymo srityje galite saugoti informaciją apie mokėjimo būdus, kelionės paraiškas, išlaidų ataskaitas ir, be visa kita, strategijas.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Kadangi daugelis sprendimų, kuriuos priimate planuodami savo Išlaidų valdymo konfigūraciją, paremti jūsų organizacijos hierarchija ir finansine struktūra, turite žr. tų sričių planavimo dokumentus.
+<span data-ttu-id="5bd9d-107">Kadangi daugelis sprendimų, kuriuos priimate planuodami savo Išlaidų valdymo konfigūraciją, paremti jūsų organizacijos hierarchija ir finansine struktūra, turite žr. tų sričių planavimo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Vidinės įmonės išlaidos
-Kai įgalinate vidinės įmonės išlaidas, juridiniams subjektams ir darbuotojams leidžiate numatyti išlaidas kito juridinio subjekto jūsų organizacijoje vardu ir iš jo rinkti mokėjimus. Pvz., darbuotojas juridiniame subjekte A atlieka projektą juridiniam subjektui B. Jei įgalintos vidinės įmonės išlaidos, darbuotojas gali juridiniam subjektui B pateikti tabelį ir iš subjekto gauti mokėjimą. Jei jūsų organizacijoje nėra kelių juridinių subjektų, įgalinti vidinės įmonės išlaidų jums nereikės. **Sprendimas:** ar norite įgalinti vidinės įmonės išlaidas?
+## <a name="intercompany-expenses"></a><span data-ttu-id="5bd9d-108">Vidinės įmonės išlaidos</span><span class="sxs-lookup"><span data-stu-id="5bd9d-108">Intercompany expenses</span></span>
+<span data-ttu-id="5bd9d-109">Kai įgalinate vidinės įmonės išlaidas, juridiniams subjektams ir darbuotojams leidžiate numatyti išlaidas kito juridinio subjekto jūsų organizacijoje vardu ir iš jo rinkti mokėjimus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="5bd9d-110">Pvz., darbuotojas juridiniame subjekte A atlieka projektą juridiniam subjektui B. Jei įgalintos vidinės įmonės išlaidos, darbuotojas gali juridiniam subjektui B pateikti tabelį ir iš subjekto gauti mokėjimą. Jei jūsų organizacijoje nėra kelių juridinių subjektų, įgalinti vidinės įmonės išlaidų jums nereikės.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="5bd9d-111">**Sprendimas:** ar norite įgalinti vidinės įmonės išlaidas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Finansų valdymas
-Išlaidų valdymas yra glaudžiai integruotas su jūsų organizacijos finansų valdymu. Didelė Išlaidų valdymo konfigūracijos dalis bus paremta sprendimais, kuriuos priėmėte dėl savo organizacijos finansų. Toliau pateikiamuose skyriuose aprašomos skirtingos sritys, kurioms reikia planavimo ir sprendimų, paremtų jūsų organizacijos finansiniais sprendimais ir vadovavimo komandos patarimais.
+## <a name="financial-management"></a><span data-ttu-id="5bd9d-112">Finansų valdymas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-112">Financial management</span></span>
+<span data-ttu-id="5bd9d-113">Išlaidų valdymas yra glaudžiai integruotas su jūsų organizacijos finansų valdymu.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="5bd9d-114">Didelė Išlaidų valdymo konfigūracijos dalis bus paremta sprendimais, kuriuos priėmėte dėl savo organizacijos finansų.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="5bd9d-115">Toliau pateikiamuose skyriuose aprašomos skirtingos sritys, kurioms reikia planavimo ir sprendimų, paremtų jūsų organizacijos finansiniais sprendimais ir vadovavimo komandos patarimais.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Dienpinigiai
+### <a name="per-diems"></a><span data-ttu-id="5bd9d-116">Dienpinigiai</span><span class="sxs-lookup"><span data-stu-id="5bd9d-116">Per diems</span></span>
 
-Turite apibrėžti darbuotojų dienpinigius, kuriuos suteikia jūsų organizacija. Kadangi dienpinigiai paprastai naudojami padengti tokioms išlaidoms kaip maistas, apgyvendinimas ir kitos papildomos išlaidos, galite kurti dienpinigių, kuriuos suteikia jūsų organizacija, taisykles. Dienpinigių tarifus galima nustatyti pagal metų laiką, kelionės vietą, arba abu. Apibrėždami dienpinigių taisyklę, galite nurodyti, kad, jeigu darbuotojas nemokamai gauna maitinimą ar paslaugas, iš dienpinigių bus išskaitytas tam tikras procentas. Taip pat galite apibrėžti dienpinigių tarifų pakopas, taip nustatant mažiausią ir didžiausią valandų skaičių, kada dienpinigių tarifas gali būti taikomas darbuotojo kelionei. **Sprendimai:**
+<span data-ttu-id="5bd9d-117">Turite apibrėžti darbuotojų dienpinigius, kuriuos suteikia jūsų organizacija.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="5bd9d-118">Kadangi dienpinigiai paprastai naudojami padengti tokioms išlaidoms kaip maistas, apgyvendinimas ir kitos papildomos išlaidos, galite kurti dienpinigių, kuriuos suteikia jūsų organizacija, taisykles.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="5bd9d-119">Dienpinigių tarifus galima nustatyti pagal metų laiką, kelionės vietą, arba abu.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="5bd9d-120">Apibrėždami dienpinigių taisyklę, galite nurodyti, kad, jeigu darbuotojas nemokamai gauna maitinimą ar paslaugas, iš dienpinigių bus išskaitytas tam tikras procentas.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="5bd9d-121">Taip pat galite apibrėžti dienpinigių tarifų pakopas, taip nustatant mažiausią ir didžiausią valandų skaičių, kada dienpinigių tarifas gali būti taikomas darbuotojo kelionei.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="5bd9d-122">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-122">**Decisions:**</span></span>
 
--   Toliau pateiktos numatytosios pirmosios ir paskutiniosios dienų dienpinigių taisykles.
-    -   Koks yra minimalus valandų skaičius, kurio darbuotojas gali reikalauti ir vis tiek gauti dienpinigius?
-    -   Ar pirmąją ir paskutiniąją dieną maistui siūloma mažesnė suma? Jei taip, koks sumažėjimo procentas?
-    -   Ar pirmąją ir paskutiniąją dieną viešbučiui siūloma mažesnė suma? Jei taip, koks sumažėjimo procentas?
-    -   Ar pirmąją ir paskutiniąją dieną patirtoms kitoms išlaidoms siūloma mažesnė suma? Jei taip, koks sumažėjimo procentas?
--   Toliau pateiktos numatytosios dienpinigių taisyklės.
-    -   Ar kiekvienam valgiui dienpinigių skiriama tam tikru procentu mažiau, jei, pavyzdžiui, maistas yra nemokamas? Jei taip, koks yra sumažėjimo procentas kiekvienam valgiui?
-    -   Ar maisto dienpinigių sumažinimas skaičiuojamas dienai, kelionei, ar pagal valgių per dieną skaičių?
-    -   Ar dienpinigių sumas reikia apvalinti įprastai, ar aukštyn?
-    -   Ar dienpinigiai skaičiuojami 24 valandų laikotarpiui, ar kalendorinei dienai?
--   Toliau nurodytos dienpinigių taisyklės pagal vietą.
-    -   Ar dienpinigių tarifai skiriasi atsižvelgiant į vietą, ir kokios vietos įtrauktos?
-    -   Jei dienpinigių tarifas pagal kiekvieną vietą skiriasi, koks sumos procentas suteikiamas:
-        -   maistui;
-        -   viešbučiui;
-        -   kitoms išlaidoms.
+-   <span data-ttu-id="5bd9d-123">Toliau pateiktos numatytosios pirmosios ir paskutiniosios dienų dienpinigių taisykles.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="5bd9d-124">Koks yra minimalus valandų skaičius, kurio darbuotojas gali reikalauti ir vis tiek gauti dienpinigius?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="5bd9d-125">Ar pirmąją ir paskutiniąją dieną maistui siūloma mažesnė suma?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="5bd9d-126">Jei taip, koks sumažėjimo procentas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="5bd9d-127">Ar pirmąją ir paskutiniąją dieną viešbučiui siūloma mažesnė suma?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="5bd9d-128">Jei taip, koks sumažėjimo procentas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="5bd9d-129">Ar pirmąją ir paskutiniąją dieną patirtoms kitoms išlaidoms siūloma mažesnė suma?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="5bd9d-130">Jei taip, koks sumažėjimo procentas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="5bd9d-131">Toliau pateiktos numatytosios dienpinigių taisyklės.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="5bd9d-132">Ar kiekvienam valgiui dienpinigių skiriama tam tikru procentu mažiau, jei, pavyzdžiui, maistas yra nemokamas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="5bd9d-133">Jei taip, koks yra sumažėjimo procentas kiekvienam valgiui?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="5bd9d-134">Ar maisto dienpinigių sumažinimas skaičiuojamas dienai, kelionei, ar pagal valgių per dieną skaičių?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="5bd9d-135">Ar dienpinigių sumas reikia apvalinti įprastai, ar aukštyn?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="5bd9d-136">Ar dienpinigiai skaičiuojami 24 valandų laikotarpiui, ar kalendorinei dienai?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="5bd9d-137">Toliau nurodytos dienpinigių taisyklės pagal vietą.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="5bd9d-138">Ar dienpinigių tarifai skiriasi atsižvelgiant į vietą, ir kokios vietos įtrauktos?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="5bd9d-139">Jei dienpinigių tarifas pagal kiekvieną vietą skiriasi, koks sumos procentas suteikiamas:</span><span class="sxs-lookup"><span data-stu-id="5bd9d-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="5bd9d-140">maistui;</span><span class="sxs-lookup"><span data-stu-id="5bd9d-140">meals</span></span>
+        -   <span data-ttu-id="5bd9d-141">viešbučiui;</span><span class="sxs-lookup"><span data-stu-id="5bd9d-141">hotel</span></span>
+        -   <span data-ttu-id="5bd9d-142">kitoms išlaidoms.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Išlaidų valdymo žurnalai ir sąskaitos
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="5bd9d-143">Išlaidų valdymo žurnalai ir sąskaitos</span><span class="sxs-lookup"><span data-stu-id="5bd9d-143">Expense management journals and accounts</span></span>
 
-Valdant išlaidas reikia naudoti kelis žurnalus ir sąskaitas. Turite nuspręsti, pvz., ar tą pačią sąskaitą naudoti avansams grynaisiais pinigais ir kredito kortelės konfliktams. **Sprendimai:**
+<span data-ttu-id="5bd9d-144">Valdant išlaidas reikia naudoti kelis žurnalus ir sąskaitas.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="5bd9d-145">Turite nuspręsti, pvz., ar tą pačią sąskaitą naudoti avansams grynaisiais pinigais ir kredito kortelės konfliktams.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="5bd9d-146">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-146">**Decisions:**</span></span>
 
--   Kuriame DK žurnale registruojamos patvirtintos išlaidų ataskaitos?
--   Kuri sąskaita naudojama avansams grynaisiais pinigais?
--   Ar avansai grynaisiais pinigais turėtų būti registruojami nedelsiant?
+-   <span data-ttu-id="5bd9d-147">Kuriame DK žurnale registruojamos patvirtintos išlaidų ataskaitos?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="5bd9d-148">Kuri sąskaita naudojama avansams grynaisiais pinigais?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="5bd9d-149">Ar avansai grynaisiais pinigais turėtų būti registruojami nedelsiant?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Mokėjimo būdai
+### <a name="payment-methods"></a><span data-ttu-id="5bd9d-150">Mokėjimo būdai</span><span class="sxs-lookup"><span data-stu-id="5bd9d-150">Payment methods</span></span>
 
-Kai darbuotojams leidžiate jūsų įmonės vardu numatyti išlaidas, turite apibrėžti mokėjimo metodus, kuriuos darbuotojams leidžiama naudoti. Pavyzdžiui, galite darbuotojams leisti naudoti grynųjų pinigų ar įmonės kredito kortelę. Taip pat darbuotojams galite leisti naudoti asmenines kredito korteles, ir tada jiems sumokėti kompensacijas. Dėl kiekvieno leidžiamo mokėjimo būdo turite atlikti toliau nurodytus sprendimus. **Sprendimai:**
+<span data-ttu-id="5bd9d-151">Kai darbuotojams leidžiate jūsų įmonės vardu numatyti išlaidas, turite apibrėžti mokėjimo metodus, kuriuos darbuotojams leidžiama naudoti.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="5bd9d-152">Pavyzdžiui, galite darbuotojams leisti naudoti grynųjų pinigų ar įmonės kredito kortelę.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="5bd9d-153">Taip pat darbuotojams galite leisti naudoti asmenines kredito korteles, ir tada jiems sumokėti kompensacijas.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="5bd9d-154">Dėl kiekvieno leidžiamo mokėjimo būdo turite atlikti toliau nurodytus sprendimus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="5bd9d-155">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-155">**Decisions:**</span></span>
 
--   Kokie mokėjimo būdai leidžiami?
--   Kam priklauso mokėjimo būdo išlaidos?
--   Ar yra koks korespondentinės sąskaitos tipas? Jei taip, koks?
--   Jei korespondentinė sąskaita yra, kuri ji?
--   Jei mokėjimo būdas yra kredito kortelė, ar mokėjimo būdas turėtų būti naudojamas tik su importuotomis operacijomis?
+-   <span data-ttu-id="5bd9d-156">Kokie mokėjimo būdai leidžiami?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="5bd9d-157">Kam priklauso mokėjimo būdo išlaidos?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="5bd9d-158">Ar yra koks korespondentinės sąskaitos tipas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-158">Is there an offset account type?</span></span> <span data-ttu-id="5bd9d-159">Jei taip, koks?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-159">If so, what is it?</span></span>
+-   <span data-ttu-id="5bd9d-160">Jei korespondentinė sąskaita yra, kuri ji?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="5bd9d-161">Jei mokėjimo būdas yra kredito kortelė, ar mokėjimo būdas turėtų būti naudojamas tik su importuotomis operacijomis?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Išlaidų kategorijos ir bendro naudojimo kategorijos
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="5bd9d-162">Išlaidų kategorijos ir bendro naudojimo kategorijos</span><span class="sxs-lookup"><span data-stu-id="5bd9d-162">Expense categories and shared categories</span></span>
 
-Darbuotojams kuriant išlaidų ataskaitą, visos jų įrašomos išlaidos turi būti susietos su išlaidų kategorija. Išlaidų kategorijos išvedamos iš Bendro naudojimo kategorijų, kurios gali būti bendrai naudojamos visuose jūsų organizacijos juridiniuose subjektuose. Šios kategorijos taip pat gali būti bendrai naudojamos Projektų valdymo ir apskaitos modulyje – tai priklauso nuo to, kaip apibrėžta jūsų organizacija. Pagal savo organizacijos apibrėžtį ir diegimo komandos patarimus nustatykite, ar valdant išlaidas naudojamos kategorijos turėtų būti naudojamos tik išlaidoms, ar jas turėtų bendrai naudoti Projektas ir Išlaidos. Atkreipkite dėmesį, kad šios kategorijos gali būti bendrai naudojamos Projektui ir Išlaidoms arba Projektui ir Gamybai, bet ne Išlaidoms ir Gamybai. Dėl kiekvienos išlaidų kategorijos turite priimti toliau nurodytus sprendimus. **Sprendimai:**
+<span data-ttu-id="5bd9d-163">Darbuotojams kuriant išlaidų ataskaitą, visos jų įrašomos išlaidos turi būti susietos su išlaidų kategorija.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="5bd9d-164">Išlaidų kategorijos išvedamos iš Bendro naudojimo kategorijų, kurios gali būti bendrai naudojamos visuose jūsų organizacijos juridiniuose subjektuose.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="5bd9d-165">Šios kategorijos taip pat gali būti bendrai naudojamos Projektų valdymo ir apskaitos modulyje – tai priklauso nuo to, kaip apibrėžta jūsų organizacija.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="5bd9d-166">Pagal savo organizacijos apibrėžtį ir diegimo komandos patarimus nustatykite, ar valdant išlaidas naudojamos kategorijos turėtų būti naudojamos tik išlaidoms, ar jas turėtų bendrai naudoti Projektas ir Išlaidos.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="5bd9d-167">Atkreipkite dėmesį, kad šios kategorijos gali būti bendrai naudojamos Projektui ir Išlaidoms arba Projektui ir Gamybai, bet ne Išlaidoms ir Gamybai.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="5bd9d-168">Dėl kiekvienos išlaidų kategorijos turite priimti toliau nurodytus sprendimus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="5bd9d-169">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-169">**Decisions:**</span></span>
 
--   Kas yra išlaidų kategorija? Pvz., skrydžių, viešbučių, ar kilometražo.
--   Ar šią išlaidų kategoriją taip galima naudoti Projektų valdymo ir apskaitos modulyje?
--   Kas yra išlaidų tipas?
--   Koks yra numatytasis išlaidų kategorijos mokėjimo būdas?
--   Ar šios kategorijos išlaidas reikia detaliai išvardyti?
--   Kuri yra pagrindinė numatytoji išlaidų kategorijos sąskaita?
--   Kokia yra numatytoji išlaidų kategorijos prekių PVM grupė?
--   Ar leidžiami papildomi išlaidų kategorijos mokėjimo būdai? Jei taip, kokie jie?
--   Ar išlaidų kategorijoje yra subkategorijų? Jei taip:
-    -   ar kuri nors subkategorija neįtraukta į mokesčių susigrąžinimo procesą?
-    -   Kokia yra subkategorijų prekių PVM grupė?
+-   <span data-ttu-id="5bd9d-170">Kas yra išlaidų kategorija?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-170">What is the expense category?</span></span> <span data-ttu-id="5bd9d-171">Pvz., skrydžių, viešbučių, ar kilometražo.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="5bd9d-172">Ar šią išlaidų kategoriją taip galima naudoti Projektų valdymo ir apskaitos modulyje?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="5bd9d-173">Kas yra išlaidų tipas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-173">What is the expense type?</span></span>
+-   <span data-ttu-id="5bd9d-174">Koks yra numatytasis išlaidų kategorijos mokėjimo būdas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="5bd9d-175">Ar šios kategorijos išlaidas reikia detaliai išvardyti?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="5bd9d-176">Kuri yra pagrindinė numatytoji išlaidų kategorijos sąskaita?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="5bd9d-177">Kokia yra numatytoji išlaidų kategorijos prekių PVM grupė?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="5bd9d-178">Ar leidžiami papildomi išlaidų kategorijos mokėjimo būdai?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="5bd9d-179">Jei taip, kokie jie?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-179">If so, what are they?</span></span>
+-   <span data-ttu-id="5bd9d-180">Ar išlaidų kategorijoje yra subkategorijų?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="5bd9d-181">Jei taip:</span><span class="sxs-lookup"><span data-stu-id="5bd9d-181">If so:</span></span>
+    -   <span data-ttu-id="5bd9d-182">ar kuri nors subkategorija neįtraukta į mokesčių susigrąžinimo procesą?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="5bd9d-183">Kokia yra subkategorijų prekių PVM grupė?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Jeigu ši išlaidų kategorija taip pat naudojama Projektų valdymo ir apskaitos modulyje, atsakykite į likusius klausimus. Kitu atveju šiame skyriuje atlikote viską.
--   Kokios išlaidų sąskaitos bus naudojamos toliau nurodytiems dalykams?
-    -   Išlaidos
-    -   Atlyginimo paskirstymas
-    -   NG – savikaina
-    -   Išlaidos – prekė
-    -   NG – savikaina vertė – prekė
-    -   Sukauptas nuostolis
-    -   NG – sukauptas nuostolis
--   Kokios pajamų sąskaitos bus naudojamos toliau nurodytiems dalykams?
-    -   Įplaukos, kurioms išrašyta SF
-    -   Sukauptos įplaukos – pardavimo vertė
-    -   NG – Pardavimo vertė
-    -   Sukauptos įplaukos – gamyba
-    -   NG – gamyba
-    -   Sukauptos įplaukos – pelnas
-    -   NG – pelnas
-    -   Sukauptos įplaukos – abonementas
-    -   NG – abonementas
+    <span data-ttu-id="5bd9d-184">Jeigu ši išlaidų kategorija taip pat naudojama Projektų valdymo ir apskaitos modulyje, atsakykite į likusius klausimus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="5bd9d-185">Kitu atveju šiame skyriuje atlikote viską.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="5bd9d-186">Kokios išlaidų sąskaitos bus naudojamos toliau nurodytiems dalykams?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="5bd9d-187">Išlaidos</span><span class="sxs-lookup"><span data-stu-id="5bd9d-187">Cost</span></span>
+    -   <span data-ttu-id="5bd9d-188">Atlyginimo paskirstymas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="5bd9d-189">NG – savikaina</span><span class="sxs-lookup"><span data-stu-id="5bd9d-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="5bd9d-190">Išlaidos – prekė</span><span class="sxs-lookup"><span data-stu-id="5bd9d-190">Cost-item</span></span>
+    -   <span data-ttu-id="5bd9d-191">NG – savikaina vertė – prekė</span><span class="sxs-lookup"><span data-stu-id="5bd9d-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="5bd9d-192">Sukauptas nuostolis</span><span class="sxs-lookup"><span data-stu-id="5bd9d-192">Accrued loss</span></span>
+    -   <span data-ttu-id="5bd9d-193">NG – sukauptas nuostolis</span><span class="sxs-lookup"><span data-stu-id="5bd9d-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="5bd9d-194">Kokios pajamų sąskaitos bus naudojamos toliau nurodytiems dalykams?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="5bd9d-195">Įplaukos, kurioms išrašyta SF</span><span class="sxs-lookup"><span data-stu-id="5bd9d-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="5bd9d-196">Sukauptos įplaukos – pardavimo vertė</span><span class="sxs-lookup"><span data-stu-id="5bd9d-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="5bd9d-197">NG – Pardavimo vertė</span><span class="sxs-lookup"><span data-stu-id="5bd9d-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="5bd9d-198">Sukauptos įplaukos – gamyba</span><span class="sxs-lookup"><span data-stu-id="5bd9d-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="5bd9d-199">NG – gamyba</span><span class="sxs-lookup"><span data-stu-id="5bd9d-199">WIP-production</span></span>
+    -   <span data-ttu-id="5bd9d-200">Sukauptos įplaukos – pelnas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="5bd9d-201">NG – pelnas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-201">WIP-profit</span></span>
+    -   <span data-ttu-id="5bd9d-202">Sukauptos įplaukos – abonementas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="5bd9d-203">NG – abonementas</span><span class="sxs-lookup"><span data-stu-id="5bd9d-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Mokesčiai
+### <a name="taxes"></a><span data-ttu-id="5bd9d-204">Mokesčiai</span><span class="sxs-lookup"><span data-stu-id="5bd9d-204">Taxes</span></span>
 
-Turite nustatyti, kurie su išlaidomis susiję mokesčiai įtraukti ar įgalinti išlaidų ataskaitose. **Sprendimai:**
+<span data-ttu-id="5bd9d-205">Turite nustatyti, kurie su išlaidomis susiję mokesčiai įtraukti ar įgalinti išlaidų ataskaitose.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="5bd9d-206">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-206">**Decisions:**</span></span>
 
--   Ar į išlaidų sumas įtrauktas PVM?
--   Ar turėtų būti įgalintas išlaidų mokesčių susigrąžinimas?
+-   <span data-ttu-id="5bd9d-207">Ar į išlaidų sumas įtrauktas PVM?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="5bd9d-208">Ar turėtų būti įgalintas išlaidų mokesčių susigrąžinimas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-208">Should tax recovery be enabled on expenses?</span></span>
 
-Atkreipkite dėmesį, kad, jei planuodami DK nusprendėte taikyti JAV PVM ir naudoti mokesčių taisykles, o tai atliekama lauką **Taikyti PVM apmokestinimo taisykles** perjungiant į Taip, išlaidų mokesčių susigrąžinimo įgalinti negalima.
+<span data-ttu-id="5bd9d-209">Atkreipkite dėmesį, kad, jei planuodami DK nusprendėte taikyti JAV PVM ir naudoti mokesčių taisykles, o tai atliekama lauką **Taikyti PVM apmokestinimo taisykles** perjungiant į Taip, išlaidų mokesčių susigrąžinimo įgalinti negalima.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Strategijos
-Galite sukurti išlaidų ataskaitų strategijas, kad jūsų organizacija galėtų sutaupyti laiko ir pinigų, kai darbuotojai jos vardu numato išlaidas. Strategijomis užtikrinama, kad darbuotojai neviršytų biudžeto, pateiktų visą reikiamą informaciją ir pinigus leistų tik kai tai būtina. Dėl kiekvienos išlaidų ataskaitų strategijos ir kiekvienos išlaidų ataskaitų patvirtinimo strategijos, kurią sukuriate, turite priimti toliau nurodytus sprendimus. **Sprendimai:**
+## <a name="policies"></a><span data-ttu-id="5bd9d-210">Strategijos</span><span class="sxs-lookup"><span data-stu-id="5bd9d-210">Policies</span></span>
+<span data-ttu-id="5bd9d-211">Galite sukurti išlaidų ataskaitų strategijas, kad jūsų organizacija galėtų sutaupyti laiko ir pinigų, kai darbuotojai jos vardu numato išlaidas.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="5bd9d-212">Strategijomis užtikrinama, kad darbuotojai neviršytų biudžeto, pateiktų visą reikiamą informaciją ir pinigus leistų tik kai tai būtina.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="5bd9d-213">Dėl kiekvienos išlaidų ataskaitų strategijos ir kiekvienos išlaidų ataskaitų patvirtinimo strategijos, kurią sukuriate, turite priimti toliau nurodytus sprendimus.</span><span class="sxs-lookup"><span data-stu-id="5bd9d-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="5bd9d-214">**Sprendimai:**</span><span class="sxs-lookup"><span data-stu-id="5bd9d-214">**Decisions:**</span></span>
 
--   Koks yra strategijos pavadinimas?
--   Kam išlaidų strategija skirta?
--   Jei anksčiau nusprendėte įgalinti vidinės įmonės išlaidas, kurioms jūsų organizacijos įmonėms ši strategija bus taikoma?
--   Kada strategija įsigalioja?
--   Kai strategija baigia galioti?
--   Kas yra strategijos taisyklė?
--   Koks yra strategijos taisyklės rezultatas?
+-   <span data-ttu-id="5bd9d-215">Koks yra strategijos pavadinimas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="5bd9d-216">Kam išlaidų strategija skirta?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="5bd9d-217">Jei anksčiau nusprendėte įgalinti vidinės įmonės išlaidas, kurioms jūsų organizacijos įmonėms ši strategija bus taikoma?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="5bd9d-218">Kada strategija įsigalioja?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="5bd9d-219">Kai strategija baigia galioti?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="5bd9d-220">Kas yra strategijos taisyklė?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="5bd9d-221">Koks yra strategijos taisyklės rezultatas?</span><span class="sxs-lookup"><span data-stu-id="5bd9d-221">What is the outcome of the policy rule?</span></span>
 
 
 

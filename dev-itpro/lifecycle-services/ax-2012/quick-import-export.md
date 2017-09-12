@@ -18,28 +18,28 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 11cf53af2db453471175cec5de63d38f8b680c9b
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 121d8f757e2d5453308d8846bd299f3db339db67
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Paleiskite duomenų tikrinimo perkėlimo įrankį (beta versija), skirtą „Dynamics AX“ (AX 2012)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a><span data-ttu-id="610df-103">Paleiskite duomenų tikrinimo perkėlimo įrankį (beta versija), skirtą „Dynamics AX“ (AX 2012)</span><span class="sxs-lookup"><span data-stu-id="610df-103">Run the Test Data Transfer Tool (beta) for Dynamics AX (AX 2012)</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
 
-Sparčiojo importavimo / eksportavimo funkcijos paskirtis yra suteikti galimybę importuoti ir eksportuoti atliekant mažiau veiksmų.
+<span data-ttu-id="610df-104">Sparčiojo importavimo / eksportavimo funkcijos paskirtis yra suteikti galimybę importuoti ir eksportuoti atliekant mažiau veiksmų.</span><span class="sxs-lookup"><span data-stu-id="610df-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
 
-Mes įtraukėme sparčiojo importavimo eksportavimo funkciją, kad vartotojai galėtų importuoti arba eksportuoti paprastas užduotis, kuriais jie nori vykdyti sparčiai. Idealiu atveju ši funkcija naudojama scenarijuose, kuriuose failas automatiškai susiejamas su sistema ir vartotojui nereikia vykdyti išplėstinio susiejimo proceso arba kurti pakartotines importavimo ar eksportavimo užduotis.
+<span data-ttu-id="610df-105">Mes įtraukėme sparčiojo importavimo eksportavimo funkciją, kad vartotojai galėtų importuoti arba eksportuoti paprastas užduotis, kuriais jie nori vykdyti sparčiai.</span><span class="sxs-lookup"><span data-stu-id="610df-105">We added the Quick Import Export feature to let users import or export simple jobs that they want to execute quickly.</span></span> <span data-ttu-id="610df-106">Idealiu atveju ši funkcija naudojama scenarijuose, kuriuose failas automatiškai susiejamas su sistema ir vartotojui nereikia vykdyti išplėstinio susiejimo proceso arba kurti pakartotines importavimo ar eksportavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="610df-106">Ideally this feature is used in scenarios in which a file automatically maps to the system and user does not need to go through advanced mapping or create repeated import or export jobs.</span></span>
 
--   Šią funkciją galima naudoti tiek su parengtais naudoti, tiek su pasirinktiniais objektais.
--   Galite importuoti failus ir, jei naudojate ODBC duomenų šaltinį, galite pasirinkti užklausą importui nurodyti.
--   Turite būti anksčiau nustatę AX arba failo šaltinio duomenų formatus ir žinoti, kur jie yra.
--   Jums nereikia kurti apdorojimo grupės, kad galėtumėte naudoti sparčiojo importavimo / eksportavimo funkciją, sistema ją sukurs automatiškai, kai bus vykdoma importavimo arba eksportavimo užduotis. Taip pat galite pasirinkti saugoti duomenų, importuotų naudojant sparčiojo importavimo / eksportavimo funkciją, retrospektyvą.
+-   <span data-ttu-id="610df-107">Šią funkciją galima naudoti tiek su parengtais naudoti, tiek su pasirinktiniais objektais.</span><span class="sxs-lookup"><span data-stu-id="610df-107">This feature supports working with both out-of-the-box and custom entities.</span></span>
+-   <span data-ttu-id="610df-108">Galite importuoti failus ir, jei naudojate ODBC duomenų šaltinį, galite pasirinkti užklausą importui nurodyti.</span><span class="sxs-lookup"><span data-stu-id="610df-108">You can import from files, and if you are using an ODBC data source, you can select a query to use to define your import.</span></span>
+-   <span data-ttu-id="610df-109">Turite būti anksčiau nustatę AX arba failo šaltinio duomenų formatus ir žinoti, kur jie yra.</span><span class="sxs-lookup"><span data-stu-id="610df-109">You must have previously defined source data formats for either AX or File, and know where they are located.</span></span>
+-   <span data-ttu-id="610df-110">Jums nereikia kurti apdorojimo grupės, kad galėtumėte naudoti sparčiojo importavimo / eksportavimo funkciją, sistema ją sukurs automatiškai, kai bus vykdoma importavimo arba eksportavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="610df-110">You do not need to create a processing group to use quick import/export, one will be automatically created by the system when executing the import or export job.</span></span> <span data-ttu-id="610df-111">Taip pat galite pasirinkti saugoti duomenų, importuotų naudojant sparčiojo importavimo / eksportavimo funkciją, retrospektyvą.</span><span class="sxs-lookup"><span data-stu-id="610df-111">You can also choose keep the history of the data imported by the quick import/export.</span></span>
 
-  Atkreipkite dėmesį, kad sparčiojo importavimo / eksportavimo funkcija daro prielaidą, kad jūs esate susipažinę su DIXF sąvokomis.
+  <span data-ttu-id="610df-112">Atkreipkite dėmesį, kad sparčiojo importavimo / eksportavimo funkcija daro prielaidą, kad jūs esate susipažinę su DIXF sąvokomis.</span><span class="sxs-lookup"><span data-stu-id="610df-112">Note that Quick import export assumes that you are familiar with the concepts of DIXF.</span></span>
 
 
 

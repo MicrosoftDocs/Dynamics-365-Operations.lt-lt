@@ -1,4 +1,4 @@
---- 
+---
 title: "Apibrėžti atsargų skaičiavimo procesus"
 description: "Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Apibrėžti atsargų skaičiavimo procesus
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="6a2cd-103">Apibrėžti atsargų skaičiavimo procesus</span><span class="sxs-lookup"><span data-stu-id="6a2cd-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją. Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu. Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas. Būtina turėti keletą esamų išleistų produktų ir sandėlių. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.
+<span data-ttu-id="6a2cd-104">Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="6a2cd-105">Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="6a2cd-106">Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="6a2cd-107">Būtina turėti keletą esamų išleistų produktų ir sandėlių.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="6a2cd-108">Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Kurti inventorizacijos grupę
-1. Pasirinkite Atsargų valdymas > Nustatymas > Atsargų paskirstymas > Inventorizacijos grupės.
-2. Spustelėkite Naujas.
-3. Lauke Inventorizacijos grupė surinkite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-5. Lauke Inventorizacijos kodas pasirinkite parinktį.
-    * Neautomatiškai – įtraukia eilutes kiekvieną kartą vykdant užduotį. Kitaip tariant, jūs nustatote inventorizacijos grupės inventorizacijos intervalą.  Laikotarpis – pasibaigus laikotarpio intervalui įtraukia laikotarpio eilutes į inventorizacijos žurnalą.   Nulis atsargų – jei turimos prekės atsargos pasiekia nulį (0), vykdant užduotį eilutės generuojamos inventorizacijos žurnale. Jei turimos atsargos pasiekia nulį po inventorizacijos, eilutės generuojamos kitą kartą pradėjus inventorizaciją.   Mažiausia – įtraukia eilutes į inventorizacijos žurnalą, jei turimos prekės atsargos lygios arba mažesnės už nurodytą mažiausią kiekį.  
-    * Neprivaloma: jei lauke Inventorizacijos kodas nurodėte Laikotarpis, lauke Inventorizacijos laikotarpis turite įvesti laikotarpio intervalą. Intervalų vienetas yra dienos.  
-    * Kai vykdote užduotį, kuria inventorizacijos žurnale kuriamos naujos eilutės, jos kuriamos šiame lauke nurodytu intervalu, neatsižvelgiant į tai, kaip dažnai vykdote tą pačią užduotį. Pvz., kai skaičiavimo laikotarpis yra nustatytas į 7 ir žurnalo eilutės paskutinį kartą buvo sugeneruotos ir suskaičiuotos sausio 1 d., jei sausio 5 d. pradedama kita užduotis, dar nebus praėjusios septynios dienos ir todėl žurnale už tą laikotarpio intervalą eilučių nesugeneruota. Jei užduotį iš naujo pradėsite sausio 8 d., laikotarpio eilutės generuojamos inventorizacijos žurnale, nes jau praėjo 7 dienos.  
-6. Spustelėkite Įrašyti.
+## <a name="create-a-counting-group"></a><span data-ttu-id="6a2cd-109">Kurti inventorizacijos grupę</span><span class="sxs-lookup"><span data-stu-id="6a2cd-109">Create a counting group</span></span>
+1. <span data-ttu-id="6a2cd-110">Pasirinkite Atsargų valdymas > Nustatymas > Atsargų paskirstymas > Inventorizacijos grupės.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="6a2cd-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-111">Click New.</span></span>
+3. <span data-ttu-id="6a2cd-112">Lauke Inventorizacijos grupė surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="6a2cd-113">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="6a2cd-114">Lauke Inventorizacijos kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="6a2cd-115">Neautomatiškai – įtraukia eilutes kiekvieną kartą vykdant užduotį.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="6a2cd-116">Kitaip tariant, jūs nustatote inventorizacijos grupės inventorizacijos intervalą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="6a2cd-117">Laikotarpis – pasibaigus laikotarpio intervalui įtraukia laikotarpio eilutes į inventorizacijos žurnalą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="6a2cd-118">Nulis atsargų – jei turimos prekės atsargos pasiekia nulį (0), vykdant užduotį eilutės generuojamos inventorizacijos žurnale.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="6a2cd-119">Jei turimos atsargos pasiekia nulį po inventorizacijos, eilutės generuojamos kitą kartą pradėjus inventorizaciją.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="6a2cd-120">Mažiausia – įtraukia eilutes į inventorizacijos žurnalą, jei turimos prekės atsargos lygios arba mažesnės už nurodytą mažiausią kiekį.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="6a2cd-121">Neprivaloma: jei lauke Inventorizacijos kodas nurodėte Laikotarpis, lauke Inventorizacijos laikotarpis turite įvesti laikotarpio intervalą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="6a2cd-122">Intervalų vienetas yra dienos.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="6a2cd-123">Kai vykdote užduotį, kuria inventorizacijos žurnale kuriamos naujos eilutės, jos kuriamos šiame lauke nurodytu intervalu, neatsižvelgiant į tai, kaip dažnai vykdote tą pačią užduotį.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="6a2cd-124">Pvz., kai skaičiavimo laikotarpis yra nustatytas į 7 ir žurnalo eilutės paskutinį kartą buvo sugeneruotos ir suskaičiuotos sausio 1 d., jei sausio 5 d. pradedama kita užduotis, dar nebus praėjusios septynios dienos ir todėl žurnale už tą laikotarpio intervalą eilučių nesugeneruota.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="6a2cd-125">Jei užduotį iš naujo pradėsite sausio 8 d., laikotarpio eilutės generuojamos inventorizacijos žurnale, nes jau praėjo 7 dienos.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="6a2cd-126">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Kurti inventorizacijos žurnalo pavadinimą
-1. Pasirinkite Atsargų valdymas > Sąranka > Žurnalų pavadinimai > Atsargos.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Žurnalo tipas pasirinkite „Inventorizacijos‟.
-    * Neprivaloma: jei norite, kad, kuriant inventorizacijos žurnalus, būtų generuojama konkreti kvito ID numeracija, galite pasirinkti kitą kvitų serijos ID. Kvitų serijos kuriamos puslapyje Numeracijos.  
-6. Lauke Informacijos lygis pasirinkite parinktį.
-    * Tai yra informacijos lygis, taikomas, kai užregistruojamas žurnalas.  
-    * Neprivaloma: reikšmę galite keisti lauke Rezervavimas. Tai yra būdas, naudojamas rezervuoti prekėms skaičiuojant.   
-    * Rankin. – prekės rezervuojamos rankiniu būdu formoje Rezervavimas.   Automat. – užsakymo kiekis rezervuojamas iš turimų galimos prekės atsargų.   Išskleidimas – rezervavimas yra operacijos bendrojo planavimo dalis.  
-7. Spustelėkite Įrašyti.
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="6a2cd-127">Kurti inventorizacijos žurnalo pavadinimą</span><span class="sxs-lookup"><span data-stu-id="6a2cd-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="6a2cd-128">Pasirinkite Atsargų valdymas > Sąranka > Žurnalų pavadinimai > Atsargos.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="6a2cd-129">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-129">Click New.</span></span>
+3. <span data-ttu-id="6a2cd-130">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="6a2cd-131">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6a2cd-132">Lauke Žurnalo tipas pasirinkite „Inventorizacijos‟.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="6a2cd-133">Neprivaloma: jei norite, kad, kuriant inventorizacijos žurnalus, būtų generuojama konkreti kvito ID numeracija, galite pasirinkti kitą kvitų serijos ID.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="6a2cd-134">Kvitų serijos kuriamos puslapyje Numeracijos.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="6a2cd-135">Lauke Informacijos lygis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="6a2cd-136">Tai yra informacijos lygis, taikomas, kai užregistruojamas žurnalas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="6a2cd-137">Neprivaloma: reikšmę galite keisti lauke Rezervavimas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="6a2cd-138">Tai yra būdas, naudojamas rezervuoti prekėms skaičiuojant.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="6a2cd-139">Rankin. – prekės rezervuojamos rankiniu būdu formoje Rezervavimas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="6a2cd-140">Automat. – užsakymo kiekis rezervuojamas iš turimų galimos prekės atsargų.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="6a2cd-141">Išskleidimas – rezervavimas yra operacijos bendrojo planavimo dalis.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="6a2cd-142">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Nustatyti standartinį inventorizacijos žurnalo pavadinimą
-1. Pasirinkite Atsargų valdymas > Nustatymas > Atsargų ir sandėlio valdymo parametrai.
-2. Spustelėkite skirtuką Žurnalai.
-3. Lauke Inventorizacija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Pasirinkite žurnalą, kurį sukūrėte anksčiau.
-    * Šis žurnalas tada bus numatytasis skaičiavimo tipo atsargų žurnalų pavadinimas.  
-5. Spustelėkite skirtuką Bendra.
-    * Neprivaloma: pasirinkite šią parinktį norėdami inventorizacijos metu prekes blokuoti norint uždrausti atnaujinti važtaraščius, išrinkimo dokumentus ar išrinkimo dokumentų registracijas.  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="6a2cd-143">Nustatyti standartinį inventorizacijos žurnalo pavadinimą</span><span class="sxs-lookup"><span data-stu-id="6a2cd-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="6a2cd-144">Pasirinkite Atsargų valdymas > Nustatymas > Atsargų ir sandėlio valdymo parametrai.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="6a2cd-145">Spustelėkite skirtuką Žurnalai.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="6a2cd-146">Lauke Inventorizacija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="6a2cd-147">Pasirinkite žurnalą, kurį sukūrėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="6a2cd-148">Šis žurnalas tada bus numatytasis skaičiavimo tipo atsargų žurnalų pavadinimas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="6a2cd-149">Spustelėkite skirtuką Bendra.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-149">Click the General tab.</span></span>
+    * <span data-ttu-id="6a2cd-150">Neprivaloma: pasirinkite šią parinktį norėdami inventorizacijos metu prekes blokuoti norint uždrausti atnaujinti važtaraščius, išrinkimo dokumentus ar išrinkimo dokumentų registracijas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Nustatyti prekės inventorizacijos strategiją
-1. Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.
-2. Sąraše spustelėkite ant produkto, kuriam norite nustatyti inventorizacijos strategijas, prekės numerio saito.
-    * Atkreipkite dėmesį, kad reikia pasirinkti prekę, kuri yra sekama atsargose. Atsargose nesančio produkto suskaičiuoti negalima. Jei naudojate USMF demonstracinius duomenis, galite pasirinkti prekę A0001.  
-3. Spustelėkite Redaguoti.
-4. Perjunkite dalies Valdyti atsargas išplėtimą.
-5. Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-6. Sąraše spustelėkite ant savo anksčiau sukurtos inventorizacijos grupės.
-    * Šis produktas dabar bus įtraukiamas, kai, naudojant šią skaičiavimo grupę, sukuriamos atsargų inventorizacijos žurnalo eilutės.  
-7. Spustelėkite Įrašyti.
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="6a2cd-151">Nustatyti prekės inventorizacijos strategiją</span><span class="sxs-lookup"><span data-stu-id="6a2cd-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="6a2cd-152">Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="6a2cd-153">Sąraše spustelėkite ant produkto, kuriam norite nustatyti inventorizacijos strategijas, prekės numerio saito.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="6a2cd-154">Atkreipkite dėmesį, kad reikia pasirinkti prekę, kuri yra sekama atsargose.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="6a2cd-155">Atsargose nesančio produkto suskaičiuoti negalima.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="6a2cd-156">Jei naudojate USMF demonstracinius duomenis, galite pasirinkti prekę A0001.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="6a2cd-157">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-157">Click Edit.</span></span>
+4. <span data-ttu-id="6a2cd-158">Perjunkite dalies Valdyti atsargas išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="6a2cd-159">Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="6a2cd-160">Sąraše spustelėkite ant savo anksčiau sukurtos inventorizacijos grupės.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="6a2cd-161">Šis produktas dabar bus įtraukiamas, kai, naudojant šią skaičiavimo grupę, sukuriamos atsargų inventorizacijos žurnalo eilutės.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="6a2cd-162">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Nustatyti prekės, esančios konkrečiame sandėlyje, inventorizacijos strategiją
-1. Veiksmų srityje spustelėkite Valdyti atsargas.
-2. Spustelėkite Sandėlio prekės.
-3. Spustelėkite Naujas.
-4. Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše pasirinkite sandėlį, kuriam norite nustatyti konkrečias inventorizacijos strategijas.
-6. Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše pasirinkite inventorizacijos grupę
-    * Čia galite pasirinkti konkrečią skaičiavimo grupę, kurią reikėtų taikyti prekei konkrečiame jūsų pasirinktame sandėlyje. Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.  
-8. Spustelėkite Įrašyti.
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="6a2cd-163">Nustatyti prekės, esančios konkrečiame sandėlyje, inventorizacijos strategiją</span><span class="sxs-lookup"><span data-stu-id="6a2cd-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="6a2cd-164">Veiksmų srityje spustelėkite Valdyti atsargas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="6a2cd-165">Spustelėkite Sandėlio prekės.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="6a2cd-166">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-166">Click New.</span></span>
+4. <span data-ttu-id="6a2cd-167">Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="6a2cd-168">Sąraše pasirinkite sandėlį, kuriam norite nustatyti konkrečias inventorizacijos strategijas.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="6a2cd-169">Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="6a2cd-170">Sąraše pasirinkite inventorizacijos grupę</span><span class="sxs-lookup"><span data-stu-id="6a2cd-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="6a2cd-171">Čia galite pasirinkti konkrečią skaičiavimo grupę, kurią reikėtų taikyti prekei konkrečiame jūsų pasirinktame sandėlyje.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="6a2cd-172">Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="6a2cd-173">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="6a2cd-173">Click Save.</span></span>
 

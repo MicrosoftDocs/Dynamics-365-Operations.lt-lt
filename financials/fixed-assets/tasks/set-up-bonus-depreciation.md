@@ -16,36 +16,36 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7af954eaae76a327313a80cb3014d837267ccf4d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7e6ebb13084626b477b6e0b24acdc09e2c0d3d6d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-bonus-depreciation"></a>Papildomo nusidėvėjimo nustatymas
+# <a name="set-up-bonus-depreciation"></a><span data-ttu-id="d4fee-103">Papildomo nusidėvėjimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="d4fee-103">Set up bonus depreciation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip sukurti specialiąją nusidėvėjimo nuolaidą ir ją susieti su ilgalaikio turto knyga. Joje naudojamas vaidmuo Buhalteris ir USMF juridinio subjekto demonstraciniai duomenys.
+<span data-ttu-id="d4fee-104">Šioje procedūroje parodoma, kaip sukurti specialiąją nusidėvėjimo nuolaidą ir ją susieti su ilgalaikio turto knyga.</span><span class="sxs-lookup"><span data-stu-id="d4fee-104">This procedure shows how to create a special depreciation allowance and associate it with a fixed asset book.</span></span> <span data-ttu-id="d4fee-105">Joje naudojamas vaidmuo Buhalteris ir USMF juridinio subjekto demonstraciniai duomenys.</span><span class="sxs-lookup"><span data-stu-id="d4fee-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-special-depreciation-allowance"></a>Kurti specialiąją nusidėvėjimo nuolaidą
-1. Pasirinkite Ilgalaikis turtas > Nustatymas > Specialioji nusidėvėjimo nuolaida.
-2. Spustelėkite Naujas.
-3. Lauke Specialioji nusidėvėjimo nuolaida surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Procentas įveskite skaičių.
-    * Jei nebuvo nurodytas procentas, nustatykite sumą.  
+## <a name="create-a-special-depreciation-allowance"></a><span data-ttu-id="d4fee-106">Kurti specialiąją nusidėvėjimo nuolaidą</span><span class="sxs-lookup"><span data-stu-id="d4fee-106">Create a special depreciation allowance</span></span>
+1. <span data-ttu-id="d4fee-107">Pasirinkite Ilgalaikis turtas > Nustatymas > Specialioji nusidėvėjimo nuolaida.</span><span class="sxs-lookup"><span data-stu-id="d4fee-107">Go to Fixed assets > Setup > Special depreciation allowance.</span></span>
+2. <span data-ttu-id="d4fee-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d4fee-108">Click New.</span></span>
+3. <span data-ttu-id="d4fee-109">Lauke Specialioji nusidėvėjimo nuolaida surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d4fee-109">In the Special depreciation allowance field, type a value.</span></span>
+4. <span data-ttu-id="d4fee-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d4fee-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d4fee-111">Lauke Procentas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="d4fee-111">In the Percentage field, enter a number.</span></span>
+    * <span data-ttu-id="d4fee-112">Jei nebuvo nurodytas procentas, nustatykite sumą.</span><span class="sxs-lookup"><span data-stu-id="d4fee-112">If a percentage was not indicated, set an amount.</span></span>  
 
-## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a>Specialiosios nusidėvėjimo nuolaidos susiejimas su ilgalaikio turto grupės knyga
-1. Pasirinkite Ilgalaikis turtas > Nustatymas > Ilgalaikio turto grupės.
-2. Sąraše pasirinkite su specialiąja nusidėvėjimo nuolaida susietą ilgalaikio turto grupę.
-3. Spustelėkite Knygos.
-4. Sąraše pasirinkite su specialiąja nusidėvėjimo nuolaida susietą knygą.
-5. Spustelėkite Specialioji nusidėvėjimo nuolaida.
-6. Spustelėkite Naujas.
-7. Lauke Specialioji nusidėvėjimo nuolaida įveskite arba pasirinkite reikšmę.
-    * Pagal numatytąsias nuostatas naudojamas specialiosios nusidėvėjimo nuolaidos sąrankoje nustatytas procentas ar suma.  
-8. Lauke Prioritetas įveskite skaičių.
+## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a><span data-ttu-id="d4fee-113">Specialiosios nusidėvėjimo nuolaidos susiejimas su ilgalaikio turto grupės knyga</span><span class="sxs-lookup"><span data-stu-id="d4fee-113">Associate a special depreciation allowance with a fixed asset group book</span></span>
+1. <span data-ttu-id="d4fee-114">Pasirinkite Ilgalaikis turtas > Nustatymas > Ilgalaikio turto grupės.</span><span class="sxs-lookup"><span data-stu-id="d4fee-114">Go to Fixed assets > Setup > Fixed asset groups.</span></span>
+2. <span data-ttu-id="d4fee-115">Sąraše pasirinkite su specialiąja nusidėvėjimo nuolaida susietą ilgalaikio turto grupę.</span><span class="sxs-lookup"><span data-stu-id="d4fee-115">In the list, select the fixed asset group associated with the special depreciation allowance.</span></span>
+3. <span data-ttu-id="d4fee-116">Spustelėkite Knygos.</span><span class="sxs-lookup"><span data-stu-id="d4fee-116">Click Books.</span></span>
+4. <span data-ttu-id="d4fee-117">Sąraše pasirinkite su specialiąja nusidėvėjimo nuolaida susietą knygą.</span><span class="sxs-lookup"><span data-stu-id="d4fee-117">In the list, select the book that is associated with the special depreciation allowance.</span></span>
+5. <span data-ttu-id="d4fee-118">Spustelėkite Specialioji nusidėvėjimo nuolaida.</span><span class="sxs-lookup"><span data-stu-id="d4fee-118">Click Special depreciation allowance.</span></span>
+6. <span data-ttu-id="d4fee-119">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d4fee-119">Click New.</span></span>
+7. <span data-ttu-id="d4fee-120">Lauke Specialioji nusidėvėjimo nuolaida įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d4fee-120">In the Special depreciation allowance field, enter or select a value.</span></span>
+    * <span data-ttu-id="d4fee-121">Pagal numatytąsias nuostatas naudojamas specialiosios nusidėvėjimo nuolaidos sąrankoje nustatytas procentas ar suma.</span><span class="sxs-lookup"><span data-stu-id="d4fee-121">The default for Percentage or Amount comes from the special depreciation allowance setup.</span></span>  
+8. <span data-ttu-id="d4fee-122">Lauke Prioritetas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="d4fee-122">In the Priority field, enter a number.</span></span>
 
 

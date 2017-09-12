@@ -16,19 +16,19 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
-ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: d38ad734d7e44c981304dd1c1c7cf61a60759285
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>„Dynamics 365 for Finance and Operations‟ pristatymas
+# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="7bf90-104">„Dynamics 365 for Finance and Operations‟ pristatymas</span><span class="sxs-lookup"><span data-stu-id="7bf90-104">Introduction to Dynamics 365 for Finance and Operations</span></span>
 [!include[banner](includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa. Ją naudodami žmonės gali greitai priimti sumanesnius sprendimus – išmani vartotojo sąsaja suteikia prieigą prie tikruoju laiku teikiamų įžvalgų ir duomenų. Naudodamos programą įmonės gali transformuotis ir atsinaujinti – siūloma patvirtinta verslo logika joms leidžia greičiau perkurti savo verslo procesus. Įmonėms programa suteikia lankstumo augti savo tempu ir užsiimti verslu praktiškai bet kur ir bet kada bei taip visame pasaulyje išplėsti savo veiklą, kuri atitiktų verslo poreikius. 
+<span data-ttu-id="7bf90-105">„Microsoft Dynamics 365 for Finance and Operations ‟ yra įmonėms skirta „Microsoft‟ verslo programa.</span><span class="sxs-lookup"><span data-stu-id="7bf90-105">Microsoft Dynamics 365 for Finance and Operations is Microsoft’s business application for enterprises.</span></span> <span data-ttu-id="7bf90-106">Ją naudodami žmonės gali greitai priimti sumanesnius sprendimus – išmani vartotojo sąsaja suteikia prieigą prie tikruoju laiku teikiamų įžvalgų ir duomenų.</span><span class="sxs-lookup"><span data-stu-id="7bf90-106">It enables people to quickly make smarter decisions through an intelligent user interface that provides access to real-time insights and data.</span></span> <span data-ttu-id="7bf90-107">Naudodamos programą įmonės gali transformuotis ir atsinaujinti – siūloma patvirtinta verslo logika joms leidžia greičiau perkurti savo verslo procesus.</span><span class="sxs-lookup"><span data-stu-id="7bf90-107">It enables businesses to transform and innovate by delivering proven business logic that allows them to redesign their business processes faster.</span></span> <span data-ttu-id="7bf90-108">Įmonėms programa suteikia lankstumo augti savo tempu ir užsiimti verslu praktiškai bet kur ir bet kada bei taip visame pasaulyje išplėsti savo veiklą, kuri atitiktų verslo poreikius.</span><span class="sxs-lookup"><span data-stu-id="7bf90-108">It gives businesses the flexibility to grow at their own pace and do business nearly anywhere, anytime, allowing them to scale their operations globally to meet business needs.</span></span> 
 
-Ši dokumentacija gali padėti sužinoti, kaip „Dynamics 365 for Finance and Operations‟ pasitelkti savo versle. Ji susijusi su šių susijusių produktų dokumentacija: „Dynamics 365 for Retail‟ ir „Dynamics 365 for Talent‟. 
+<span data-ttu-id="7bf90-109">Ši dokumentacija gali padėti sužinoti, kaip „Dynamics 365 for Finance and Operations‟ pasitelkti savo versle.</span><span class="sxs-lookup"><span data-stu-id="7bf90-109">This documentation can help you learn how to make Dynamics 365 for Finance and Operations work for your business.</span></span> <span data-ttu-id="7bf90-110">Ji susijusi su šių susijusių produktų dokumentacija: „Dynamics 365 for Retail‟ ir „Dynamics 365 for Talent‟.</span><span class="sxs-lookup"><span data-stu-id="7bf90-110">It is connected to documentation for the related products: Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> 
 
 <table>
 <colgroup>
@@ -39,85 +39,85 @@ ms.lasthandoff: 08/16/2017
 <tbody>
 <tr class="odd">
 <td>
-<h3><a href="../fin-and-ops/get-started/before-you-buy">Prieš perkant</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Registravimasis prenumeratos peržiūros versijai gauti</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type">Diegimo parinkčių pasirinkimas</a></p>
-<p>Pirkti „Finance and Operations”</p>
+<h3><span data-ttu-id="7bf90-111"><a href="../fin-and-ops/get-started/before-you-buy">Prieš perkant</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-111"><a href="../fin-and-ops/get-started/before-you-buy">Before you buy</a></span></span></h3>
+<p><span data-ttu-id="7bf90-112"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Registravimasis prenumeratos peržiūros versijai gauti</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-112"><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Sign up for a preview subscription</a></span></span></p>
+ <p><span data-ttu-id="7bf90-113"><a href="../dev-itpro/deployment/choose-deployment-type">Diegimo parinkčių pasirinkimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-113"><a href="../dev-itpro/deployment/choose-deployment-type">Choose a deployment option</a></span></span></p>
+<p><span data-ttu-id="7bf90-114">Pirkti „Finance and Operations”</span><span class="sxs-lookup"><span data-stu-id="7bf90-114">Buy Finance and Operations</span></span></p>
  <ul style="list-style-type:none">
-  <p><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">„FastTrack for Dynamics 365“</a></p>
-  <p><a href="../dev-itpro/get-started/purchase-on-premises">Gaukite vietinę „Finance and Operations‟ versiją</a></p></ul>
+  <p><span data-ttu-id="7bf90-115"><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">„FastTrack for Dynamics 365“</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-115"><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></span></span></p>
+  <p><span data-ttu-id="7bf90-116"><a href="../dev-itpro/get-started/purchase-on-premises">Gaukite vietinę „Finance and Operations‟ versiją</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-116"><a href="../dev-itpro/get-started/purchase-on-premises">Get the on-premises version of Finance and Operations</a></span></span></p></ul>
 
-<h3><a href="../financials/index">Financials</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable">Mokėtinos sumos</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable">Gautinos sumos</a></p>
-<p><a href="../financials/budgeting/budgeting-overview">Biudžeto sudarymas</a></p>
-<p><a href="../financials/cash-bank-management/cash-bank-management">Grynųjų pinigų ir banko valdymas</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules">Atitiktis</a></p>
-<p><a href="../financials/cost-accounting/cost-accounting-home-page">Kaštų apskaita</a></p>
-<p><a href="../financials/fixed-assets/fixed-assets">Ilgalaikis turtas</a></p>
-<p><a href="../financials/general-ledger/general-ledger">Didžioji knyga</a></p>
-<p><a href="../financials/project-management/overview-project-management-accounting">Projektų valdymas</a></p>
-<p><a href="../financials/public-sector/public-sector-functionality">Viešasis sektorius</a></p>
-<p><a href="../dev-itpro/lcs-solutions/country-region">Regioninės reguliavimo priemonės</a></p>
+<h3><span data-ttu-id="7bf90-117"><a href="../financials/index">Financials</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-117"><a href="../financials/index">Financials</a></span></span></h3>
+<p><span data-ttu-id="7bf90-118"><a href="../financials/accounts-payable/accounts-payable">Mokėtinos sumos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-118"><a href="../financials/accounts-payable/accounts-payable">Accounts payable</a></span></span></p>
+<p><span data-ttu-id="7bf90-119"><a href="../financials/accounts-receivable/accounts-receivable">Gautinos sumos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-119"><a href="../financials/accounts-receivable/accounts-receivable">Accounts receivable</a></span></span></p>
+<p><span data-ttu-id="7bf90-120"><a href="../financials/budgeting/budgeting-overview">Biudžeto sudarymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-120"><a href="../financials/budgeting/budgeting-overview">Budgeting</a></span></span></p>
+<p><span data-ttu-id="7bf90-121"><a href="../financials/cash-bank-management/cash-bank-management">Grynųjų pinigų ir banko valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-121"><a href="../financials/cash-bank-management/cash-bank-management">Cash and bank management</a></span></span></p>
+<p><span data-ttu-id="7bf90-122"><a href="../financials/general-ledger/audit-policy-rules">Atitiktis</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-122"><a href="../financials/general-ledger/audit-policy-rules">Compliance</a></span></span></p>
+<p><span data-ttu-id="7bf90-123"><a href="../financials/cost-accounting/cost-accounting-home-page">Kaštų apskaita</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-123"><a href="../financials/cost-accounting/cost-accounting-home-page">Cost accounting</a></span></span></p>
+<p><span data-ttu-id="7bf90-124"><a href="../financials/fixed-assets/fixed-assets">Ilgalaikis turtas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-124"><a href="../financials/fixed-assets/fixed-assets">Fixed assets</a></span></span></p>
+<p><span data-ttu-id="7bf90-125"><a href="../financials/general-ledger/general-ledger">Didžioji knyga</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-125"><a href="../financials/general-ledger/general-ledger">General ledger</a></span></span></p>
+<p><span data-ttu-id="7bf90-126"><a href="../financials/project-management/overview-project-management-accounting">Projektų valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-126"><a href="../financials/project-management/overview-project-management-accounting">Project management</a></span></span></p>
+<p><span data-ttu-id="7bf90-127"><a href="../financials/public-sector/public-sector-functionality">Viešasis sektorius</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-127"><a href="../financials/public-sector/public-sector-functionality">Public sector</a></span></span></p>
+<p><span data-ttu-id="7bf90-128"><a href="../dev-itpro/lcs-solutions/country-region">Regioninės reguliavimo priemonės</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-128"><a href="../dev-itpro/lcs-solutions/country-region">Regional regulatory features</a></span></span></p>
 
-<H3><a href="hr/hr-landing-page">Personalas</a></h3>
-<p><a href="hr/manage-recruiting-process">Įdarbinimas</a></p>
-<p><a href="hr/localizations/noam-usa-payroll">JAV algalapis</a></p>
+<H3><span data-ttu-id="7bf90-129"><a href="hr/hr-landing-page">Personalas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-129"><a href="hr/hr-landing-page">Human resources</a></span></span></h3>
+<p><span data-ttu-id="7bf90-130"><a href="hr/manage-recruiting-process">Įdarbinimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-130"><a href="hr/manage-recruiting-process">Recruiting</a></span></span></p>
+<p><span data-ttu-id="7bf90-131"><a href="hr/localizations/noam-usa-payroll">JAV algalapis</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-131"><a href="hr/localizations/noam-usa-payroll">US payroll</a></span></span></p>
 
-<h3><a href="../supply-chain/index">Tiekimo grandinės valdymas</a></h3>
-<p><a href="../supply-chain/cost-management/costing-sheets">Kaštų valdymas</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations">Atsargų valdymas</a></p>
-<p>Logistika</p>
+<h3><span data-ttu-id="7bf90-132"><a href="../supply-chain/index">Tiekimo grandinės valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-132"><a href="../supply-chain/index">Supply chain management</a></span></span></h3>
+<p><span data-ttu-id="7bf90-133"><a href="../supply-chain/cost-management/costing-sheets">Kaštų valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-133"><a href="../supply-chain/cost-management/costing-sheets">Cost management</a></span></span></p>
+<p><span data-ttu-id="7bf90-134"><a href="../supply-chain/inventory/inventory-locations">Atsargų valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-134"><a href="../supply-chain/inventory/inventory-locations">Inventory management</a></span></span></p>
+<p><span data-ttu-id="7bf90-135">Logistika</span><span class="sxs-lookup"><span data-stu-id="7bf90-135">Logistics</span></span></p>
 <ul style="list-style-type:none">
-<p><a href="../supply-chain/transportation/transportation-management-overview">Transportavimo valdymas</a></p>
-<p><a href="../supply-chain/warehousing/warehouse-configuration">Sandėlio valdymas</a></p></ul>
-<p><a href="../supply-chain/master-planning/master-plans">Planavimas</a></p>
-<p><a href="../supply-chain/pim/product-information">Produktų informacijos valdymas</a></p>
-<p><a href="../supply-chain/production-control/create-production-orders">Gamybos kontrolė</a></p>
-<p>Užsakymų valdymas</p>
+<p><span data-ttu-id="7bf90-136"><a href="../supply-chain/transportation/transportation-management-overview">Transportavimo valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-136"><a href="../supply-chain/transportation/transportation-management-overview">Transportation management</a></span></span></p>
+<p><span data-ttu-id="7bf90-137"><a href="../supply-chain/warehousing/warehouse-configuration">Sandėlio valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-137"><a href="../supply-chain/warehousing/warehouse-configuration">Warehouse management</a></span></span></p></ul>
+<p><span data-ttu-id="7bf90-138"><a href="../supply-chain/master-planning/master-plans">Planavimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-138"><a href="../supply-chain/master-planning/master-plans">Planning</a></span></span></p>
+<p><span data-ttu-id="7bf90-139"><a href="../supply-chain/pim/product-information">Produktų informacijos valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-139"><a href="../supply-chain/pim/product-information">Product information management</a></span></span></p>
+<p><span data-ttu-id="7bf90-140"><a href="../supply-chain/production-control/create-production-orders">Gamybos kontrolė</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-140"><a href="../supply-chain/production-control/create-production-orders">Production control</a></span></span></p>
+<p><span data-ttu-id="7bf90-141">Užsakymų valdymas</span><span class="sxs-lookup"><span data-stu-id="7bf90-141">Order management</span></span></p>
   <ul style="list-style-type:none">
-  <p><a href="../supply-chain/procurement/procurement-sourcing-overview">Paraiškos</a></p>
-  <p><a href="../supply-chain/sales-marketing/overview-sales-marketing">Pardavimas ir rinkodara</a></p></ul>
+  <p><span data-ttu-id="7bf90-142"><a href="../supply-chain/procurement/procurement-sourcing-overview">Paraiškos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-142"><a href="../supply-chain/procurement/procurement-sourcing-overview">Procurement and sourcing</a></span></span></p>
+  <p><span data-ttu-id="7bf90-143"><a href="../supply-chain/sales-marketing/overview-sales-marketing">Pardavimas ir rinkodara</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-143"><a href="../supply-chain/sales-marketing/overview-sales-marketing">Sales and marketing</a></span></span></p></ul>
 </td>
 <td>
-<h3><a href="../dev-itpro/analytics/information-access-reporting">Įžvalgos</a></h3>
-<p><a href="../dev-itpro/analytics/analytics">Analizė</a></p>
- <p><a href="../dev-itpro/analytics/document-reporting-services">Verslo dokumentai</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro">Finansinės ataskaitos</a></p>
-<p><a href="../dev-itpro/analytics/general-electronic-reporting">Teisės aktų nustatytos ataskaitos</a></p>
+<h3><span data-ttu-id="7bf90-144"><a href="../dev-itpro/analytics/information-access-reporting">Įžvalgos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-144"><a href="../dev-itpro/analytics/information-access-reporting">Intelligence</a></span></span></h3>
+<p><span data-ttu-id="7bf90-145"><a href="../dev-itpro/analytics/analytics">Analizė</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-145"><a href="../dev-itpro/analytics/analytics">Analytics</a></span></span></p>
+ <p><span data-ttu-id="7bf90-146"><a href="../dev-itpro/analytics/document-reporting-services">Verslo dokumentai</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-146"><a href="../dev-itpro/analytics/document-reporting-services">Business documents</a></span></span></p>
+<p><span data-ttu-id="7bf90-147"><a href="../dev-itpro/analytics/financial-reporting-intro">Finansinės ataskaitos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-147"><a href="../dev-itpro/analytics/financial-reporting-intro">Financial reporting</a></span></span></p>
+<p><span data-ttu-id="7bf90-148"><a href="../dev-itpro/analytics/general-electronic-reporting">Teisės aktų nustatytos ataskaitos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-148"><a href="../dev-itpro/analytics/general-electronic-reporting">Regulatory reporting</a></span></span></p>
 
-<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobilioji platforma</a></h3>
+<h3><span data-ttu-id="7bf90-149"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobilioji platforma</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-149"><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobile platform</a></span></span></h3>
 
-<h3>Programavimo funkcijos</h3>
-<p><a href="../dev-itpro/dev-tools/developer-home-page">Programuotojų pagrindinis puslapis</a></p>
-<p><a href="../dev-itpro/extensibility/extensibility-home-page">Išplečiamumas</a></p>
-<p>Integravimas</p>
-<ul style="list-style-type:none"><p><a href="../dev-itpro/data-entities/data-entities">Duomenų objektai</a></p>
-<p><a href="../dev-itpro/office-integration/office-integration">„Office“ integravimas</a></p></ul></p>
-<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Nuolatinis pristatymas</a></p>
-<p><a href="../dev-itpro/get-started/demo-data">Demonstraciniai duomenys</a></p>
+<h3><span data-ttu-id="7bf90-150">Programavimo funkcijos</span><span class="sxs-lookup"><span data-stu-id="7bf90-150">Developer functionality</span></span></h3>
+<p><span data-ttu-id="7bf90-151"><a href="../dev-itpro/dev-tools/developer-home-page">Programuotojų pagrindinis puslapis</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-151"><a href="../dev-itpro/dev-tools/developer-home-page">Developer home page</a></span></span></p>
+<p><span data-ttu-id="7bf90-152"><a href="../dev-itpro/extensibility/extensibility-home-page">Išplečiamumas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-152"><a href="../dev-itpro/extensibility/extensibility-home-page">Extensibility</a></span></span></p>
+<p><span data-ttu-id="7bf90-153">Integravimas</span><span class="sxs-lookup"><span data-stu-id="7bf90-153">Integration</span></span></p>
+<ul style="list-style-type:none"><p><span data-ttu-id="7bf90-154"><a href="../dev-itpro/data-entities/data-entities">Duomenų objektai</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-154"><a href="../dev-itpro/data-entities/data-entities">Data entities</a></span></span></p>
+<p><span data-ttu-id="7bf90-155"><a href="../dev-itpro/office-integration/office-integration">„Office“ integravimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-155"><a href="../dev-itpro/office-integration/office-integration">Office integration</a></span></span></p></ul></p>
+<p><span data-ttu-id="7bf90-156"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Nuolatinis pristatymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-156"><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Continuous delivery</a></span></span></p>
+<p><span data-ttu-id="7bf90-157"><a href="../dev-itpro/get-started/demo-data">Demonstraciniai duomenys</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-157"><a href="../dev-itpro/get-started/demo-data">Demo data</a></span></span></p>
 
-<h3>Administravimo funkcijos</h3>
-<p><a href="../fin-and-ops/get-started/onboarding-home">Organizacijos supažindinimas</a></p>
-<p><a href="../dev-itpro/deployment/deploy-demo-environment">Visuotinis diegimas ir aptarnavimas</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Plėtotė</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Duomenų valdymas</a></p>
-<p><a href="../dev-itpro/lifecycle-services/lcs">„Lifecycle Services‟</a></p>
-<p><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organizacijos administravimas</a></p>
-<p><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistemos administravimas</a></p>
+<h3><span data-ttu-id="7bf90-158">Administravimo funkcijos</span><span class="sxs-lookup"><span data-stu-id="7bf90-158">Administrator functionality</span></span></h3>
+<p><span data-ttu-id="7bf90-159"><a href="../fin-and-ops/get-started/onboarding-home">Organizacijos supažindinimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-159"><a href="../fin-and-ops/get-started/onboarding-home">Onboarding your organization</a></span></span></p>
+<p><span data-ttu-id="7bf90-160"><a href="../dev-itpro/deployment/deploy-demo-environment">Visuotinis diegimas ir aptarnavimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-160"><a href="../dev-itpro/deployment/deploy-demo-environment">Deployment and servicing</a></span></span></p>
+<p><span data-ttu-id="7bf90-161"><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Plėtotė</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-161"><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Upgrade</a></span></span></p>
+<p><span data-ttu-id="7bf90-162"><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Duomenų valdymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-162"><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Data management</a></span></span></p>
+<p><span data-ttu-id="7bf90-163"><a href="../dev-itpro/lifecycle-services/lcs">„Lifecycle Services‟</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-163"><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></span></span></p>
+<p><span data-ttu-id="7bf90-164"><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organizacijos administravimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-164"><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organization administration</a></span></span></p>
+<p><span data-ttu-id="7bf90-165"><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistemos administravimas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-165"><a href="../dev-itpro/sysadmin/system-administration-home-page">System administration</a></span></span></p>
 </td>
 <td>
-<h3>Susiję produktai</h3>
-<h4><a href="../talent/index">„Dynamics 365 for Talent‟</a></h4>
-<p><a href="../talent/manage-benefit-program">Išmokos</a></p>
-<p><a href="../talent/performance-management-overview">Darbuotojų tobulinimas ir mokymas</a></p>
-<p><a href="../talent/questionnaires">Klausimynas</a></p>
+<h3><span data-ttu-id="7bf90-166">Susiję produktai</span><span class="sxs-lookup"><span data-stu-id="7bf90-166">Related products</span></span></h3>
+<h4><span data-ttu-id="7bf90-167"><a href="../talent/index">„Dynamics 365 for Talent‟</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-167"><a href="../talent/index">Dynamics 365 for Talent</a></span></span></h4>
+<p><span data-ttu-id="7bf90-168"><a href="../talent/manage-benefit-program">Išmokos</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-168"><a href="../talent/manage-benefit-program">Benefits</a></span></span></p>
+<p><span data-ttu-id="7bf90-169"><a href="../talent/performance-management-overview">Darbuotojų tobulinimas ir mokymas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-169"><a href="../talent/performance-management-overview">Employee development and training</a></span></span></p>
+<p><span data-ttu-id="7bf90-170"><a href="../talent/questionnaires">Klausimynas</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-170"><a href="../talent/questionnaires">Questionnaire</a></span></span></p>
 
-<h4><a href="../retail/index">„Dynamics 365 for Retail‟</a></h4>
-<p><a href="../retail/call-center-functionality">Skambučių centras</p>
-<p><a href="../retail/define-maintain-retail-channels">Kanalų sąranka ir valdymas</p>
-<p><a href="../retail/retail-peripherals-overview">MPOS ir „Cloud POS‟</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">„Retail“ programavimas ir administravimas</p>
+<h4><span data-ttu-id="7bf90-171"><a href="../retail/index">„Dynamics 365 for Retail‟</a></span><span class="sxs-lookup"><span data-stu-id="7bf90-171"><a href="../retail/index">Dynamics 365 for Retail</a></span></span></h4>
+<p><span data-ttu-id="7bf90-172"><a href="../retail/call-center-functionality">Skambučių centras</span><span class="sxs-lookup"><span data-stu-id="7bf90-172"><a href="../retail/call-center-functionality">Call center</span></span></p>
+<p><span data-ttu-id="7bf90-173"><a href="../retail/define-maintain-retail-channels">Kanalų sąranka ir valdymas</span><span class="sxs-lookup"><span data-stu-id="7bf90-173"><a href="../retail/define-maintain-retail-channels">Channel setup and management</span></span></p>
+<p><span data-ttu-id="7bf90-174"><a href="../retail/retail-peripherals-overview">MPOS ir „Cloud POS‟</span><span class="sxs-lookup"><span data-stu-id="7bf90-174"><a href="../retail/retail-peripherals-overview">MPOS and Cloud POS</span></span></p>
+<p><span data-ttu-id="7bf90-175"><a href="../retail/dev-itpro/dev-retail-home-page">„Retail“ programavimas ir administravimas</span><span class="sxs-lookup"><span data-stu-id="7bf90-175"><a href="../retail/dev-itpro/dev-retail-home-page">Retail developer and administration</span></span></p>
 
 </td>
 </tr>

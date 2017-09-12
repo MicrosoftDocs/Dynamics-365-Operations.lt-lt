@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="b1454-104">Išplėstinio banko derinimo importavimo proceso nustatymas</span><span class="sxs-lookup"><span data-stu-id="b1454-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
+<span data-ttu-id="b1454-105">Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime.</span><span class="sxs-lookup"><span data-stu-id="b1454-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="b1454-106">Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.</span><span class="sxs-lookup"><span data-stu-id="b1454-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato. „Finance and Operations“ iš karto palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2.
+<span data-ttu-id="b1454-107">Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato.</span><span class="sxs-lookup"><span data-stu-id="b1454-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="b1454-108">„Finance and Operations“ iš karto palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2.</span><span class="sxs-lookup"><span data-stu-id="b1454-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Failų pavyzdžiai
-Naudodami bet kurį iš trijų formatų, privalote turėti failus, kurie elektroninio banko išrašą iš originalaus formato gali paversti į „Finance and Operations“ palaikomą formatą. Reikiamus šaltinio failus galite rasti „Microsoft Visual Studio“ programų naršyklės mazge **Ištekliai**. Suradę failus, nukopijuokite juos į vieną žinomą vietą, kad sąrankos proceso metu galėtumėte juos lengvai nusiųsti.
+## <a name="sample-files"></a><span data-ttu-id="b1454-109">Failų pavyzdžiai</span><span class="sxs-lookup"><span data-stu-id="b1454-109">Sample files</span></span>
+<span data-ttu-id="b1454-110">Naudodami bet kurį iš trijų formatų, privalote turėti failus, kurie elektroninio banko išrašą iš originalaus formato gali paversti į „Finance and Operations“ palaikomą formatą.</span><span class="sxs-lookup"><span data-stu-id="b1454-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="b1454-111">Reikiamus šaltinio failus galite rasti „Microsoft Visual Studio“ programų naršyklės mazge **Ištekliai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="b1454-112">Suradę failus, nukopijuokite juos į vieną žinomą vietą, kad sąrankos proceso metu galėtumėte juos lengvai nusiųsti.</span><span class="sxs-lookup"><span data-stu-id="b1454-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Išteklių pavadinimas                                           | Failo vardas                            |
+| <span data-ttu-id="b1454-113">Išteklių pavadinimas</span><span class="sxs-lookup"><span data-stu-id="b1454-113">Resource name</span></span>                                           | <span data-ttu-id="b1454-114">Failo vardas</span><span class="sxs-lookup"><span data-stu-id="b1454-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="b1454-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="b1454-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="b1454-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="b1454-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="b1454-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="b1454-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="b1454-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="b1454-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="b1454-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="b1454-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="b1454-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="b1454-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="b1454-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="b1454-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="b1454-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="b1454-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="b1454-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banko išrašų formatų ir techninių maketų pavyzdžiai
-Toliau pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="b1454-129">Banko išrašų formatų ir techninių maketų pavyzdžiai</span><span class="sxs-lookup"><span data-stu-id="b1454-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="b1454-130">Toliau pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="b1454-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Techninio maketo aprašas                             | Banko išrašo failo pavyzdys          |
+| <span data-ttu-id="b1454-131">Techninio maketo aprašas</span><span class="sxs-lookup"><span data-stu-id="b1454-131">Technical layout definition</span></span>                             | <span data-ttu-id="b1454-132">Banko išrašo failo pavyzdys</span><span class="sxs-lookup"><span data-stu-id="b1454-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="b1454-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="b1454-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="b1454-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="b1454-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="b1454-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="b1454-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="b1454-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="b1454-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="b1454-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="b1454-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="b1454-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="b1454-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>ISO20022 banko išrašų importavimo nustatymas
-Pirmiausia turite nustatyti ISO20022 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="b1454-139">ISO20022 banko išrašų importavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="b1454-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="b1454-140">Pirmiausia turite nustatyti ISO20022 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.</span><span class="sxs-lookup"><span data-stu-id="b1454-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.
-2.  Spustelėkite **Import**.
-3.  Įveskite formato pavadinimą, pvz., **ISO20022**.
-4.  Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.
-5.  Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.
-6.  Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.
-7.  Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.
-8.  Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų. Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.
-9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
-10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **ISO20022XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Spustelėkite **Naujas**.
-12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
-13. Spustelėkite **Taikyti pakeitimus**.
+1.  <span data-ttu-id="b1454-141">Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="b1454-142">Spustelėkite **Import**.</span><span class="sxs-lookup"><span data-stu-id="b1454-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="b1454-143">Įveskite formato pavadinimą, pvz., **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="b1454-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="b1454-144">Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="b1454-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="b1454-145">Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="b1454-146">Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="b1454-147">Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="b1454-148">Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų.</span><span class="sxs-lookup"><span data-stu-id="b1454-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="b1454-149">Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="b1454-150">Skirtuke **Pakeitimai** spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="b1454-151">1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **ISO20022XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="b1454-152">**Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu.</span><span class="sxs-lookup"><span data-stu-id="b1454-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="b1454-153">Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą.</span><span class="sxs-lookup"><span data-stu-id="b1454-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="b1454-154">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-154">Click **New**.</span></span>
+12. <span data-ttu-id="b1454-155">2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="b1454-156">Spustelėkite **Taikyti pakeitimus**.</span><span class="sxs-lookup"><span data-stu-id="b1454-156">Click **Apply transforms**.</span></span>
 
-Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti ISO20022 banko išrašų formato taisykles.
+<span data-ttu-id="b1454-157">Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti ISO20022 banko išrašų formato taisykles.</span><span class="sxs-lookup"><span data-stu-id="b1454-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.
-2.  Spustelėkite **Naujas**.
-3.  Nurodykite išrašo formatą, pvz., **ISO20022**.
-4.  Įveskite formato pavadinimą.
-5.  Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **ISO20022**.
-6.  Pažymėkite žymės langelį **XML failas**.
+1.  <span data-ttu-id="b1454-158">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="b1454-159">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-159">Click **New**.</span></span>
+3.  <span data-ttu-id="b1454-160">Nurodykite išrašo formatą, pvz., **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="b1454-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="b1454-161">Įveskite formato pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="b1454-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="b1454-162">Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="b1454-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="b1454-163">Pažymėkite žymės langelį **XML failas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-163">Select the **XML file** check box.</span></span>
 
-Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.
+<span data-ttu-id="b1454-164">Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.</span><span class="sxs-lookup"><span data-stu-id="b1454-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
-2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.
-4.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **ISO20022**.
+1.  <span data-ttu-id="b1454-165">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.</span><span class="sxs-lookup"><span data-stu-id="b1454-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="b1454-166">Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.</span><span class="sxs-lookup"><span data-stu-id="b1454-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="b1454-167">Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="b1454-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="b1454-168">Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="b1454-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 banko išrašų importavimo nustatymas
-Pirmiausia turite nustatyti MT940 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="b1454-169">MT940 banko išrašų importavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="b1454-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="b1454-170">Pirmiausia turite nustatyti MT940 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.</span><span class="sxs-lookup"><span data-stu-id="b1454-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.
-2.  Spustelėkite **Importuoti**.
-3.  Įveskite formato pavadinimą, pvz., **MT940**.
-4.  Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.
-5.  Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.
-6.  Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.
-7.  Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.
-8.  Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų. Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.
-9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
-10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **MT940TXT-to-MT940XML.xslt**, kurį įrašėte anksčiau.
-11. Spustelėkite **Naujas**.
-12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **MT940XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Spustelėkite **Naujas**.
-14. 3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
-15. Spustelėkite **Taikyti pakeitimus**.
+1.  <span data-ttu-id="b1454-171">Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="b1454-172">Spustelėkite **Importuoti**.</span><span class="sxs-lookup"><span data-stu-id="b1454-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="b1454-173">Įveskite formato pavadinimą, pvz., **MT940**.</span><span class="sxs-lookup"><span data-stu-id="b1454-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="b1454-174">Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="b1454-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="b1454-175">Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="b1454-176">Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="b1454-177">Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="b1454-178">Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų.</span><span class="sxs-lookup"><span data-stu-id="b1454-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="b1454-179">Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="b1454-180">Skirtuke **Pakeitimai** spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="b1454-181">1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **MT940TXT-to-MT940XML.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="b1454-182">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-182">Click **New**.</span></span>
+12. <span data-ttu-id="b1454-183">2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **MT940XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="b1454-184">**Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu.</span><span class="sxs-lookup"><span data-stu-id="b1454-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="b1454-185">Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą.</span><span class="sxs-lookup"><span data-stu-id="b1454-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="b1454-186">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-186">Click **New**.</span></span>
+14. <span data-ttu-id="b1454-187">3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="b1454-188">Spustelėkite **Taikyti pakeitimus**.</span><span class="sxs-lookup"><span data-stu-id="b1454-188">Click **Apply transforms**.</span></span>
 
-Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti MT940 banko išrašų formato taisykles.
+<span data-ttu-id="b1454-189">Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti MT940 banko išrašų formato taisykles.</span><span class="sxs-lookup"><span data-stu-id="b1454-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.
-2.  Spustelėkite **Naujas**.
-3.  Nurodykite išrašo formatą, pvz., **MT940**.
-4.  Įveskite formato pavadinimą.
-5.  Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **MT940**.
-6.  Nustatykite lauko **Failo tipas** reikšmę **txt**.
+1.  <span data-ttu-id="b1454-190">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="b1454-191">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-191">Click **New**.</span></span>
+3.  <span data-ttu-id="b1454-192">Nurodykite išrašo formatą, pvz., **MT940**.</span><span class="sxs-lookup"><span data-stu-id="b1454-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="b1454-193">Įveskite formato pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="b1454-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="b1454-194">Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **MT940**.</span><span class="sxs-lookup"><span data-stu-id="b1454-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="b1454-195">Nustatykite lauko **Failo tipas** reikšmę **txt**.</span><span class="sxs-lookup"><span data-stu-id="b1454-195">Set the **File type** field to **txt**.</span></span>
 
-Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.
+<span data-ttu-id="b1454-196">Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.</span><span class="sxs-lookup"><span data-stu-id="b1454-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
-2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.
-4.  Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.
-5.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **MT940**.
+1.  <span data-ttu-id="b1454-197">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.</span><span class="sxs-lookup"><span data-stu-id="b1454-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="b1454-198">Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.</span><span class="sxs-lookup"><span data-stu-id="b1454-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="b1454-199">Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="b1454-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="b1454-200">Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="b1454-201">Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **MT940**.</span><span class="sxs-lookup"><span data-stu-id="b1454-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>BAI2 banko išrašų importavimo nustatymas
-Pirmiausia turite nustatyti BAI2 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="b1454-202">BAI2 banko išrašų importavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="b1454-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="b1454-203">Pirmiausia turite nustatyti BAI2 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.</span><span class="sxs-lookup"><span data-stu-id="b1454-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.
-2.  Spustelėkite **Importuoti**.
-3.  Įveskite formato pavadinimą, pvz., **BAI2**.
-4.  Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.
-5.  Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.
-6.  Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.
-7.  Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.
-8.  Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų. Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.
-9.  Skirtuke **Pakeitimai** spustelėkite **Naujas**.
-10. 1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BAI2CSV-to-BAI2XML.xslt**, kurį įrašėte anksčiau.
-11. Spustelėkite **Naujas**.
-12. 2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BAI2XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau. **Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu. Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Spustelėkite **Naujas**.
-14. 3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.
-15. Spustelėkite **Taikyti pakeitimus**.
+1.  <span data-ttu-id="b1454-204">Eikite į **Darbo sritys** &gt; **Duomenų valdymas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="b1454-205">Spustelėkite **Importuoti**.</span><span class="sxs-lookup"><span data-stu-id="b1454-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="b1454-206">Įveskite formato pavadinimą, pvz., **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="b1454-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="b1454-207">Nustatykite lauką **Šaltinio duomenų formatas** į parinktį **XML-Element**.</span><span class="sxs-lookup"><span data-stu-id="b1454-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="b1454-208">Nustatykite lauką **Objekto pavadinimas** į parinktį **Banko išrašai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="b1454-209">Norėdami nusiųsti importuotus failus, spustelėkite **Nusiųsti**, o tada naršykite ir pasirinkite failą **SampleBankCompositeEntity.xml**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="b1454-210">Kai banko išrašų objektas yra nusiųstas ir susiejimas baigtas, spustelėkite objekto veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="b1454-211">Banko išrašų objektas yra sudėtinis objektas, kuris susideda iš keturių atskirų objektų.</span><span class="sxs-lookup"><span data-stu-id="b1454-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="b1454-212">Sąraše pasirinkite **BankStatementDocumentEntity**, o tada spustelėkite veiksmą **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="b1454-213">Skirtuke **Pakeitimai** spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="b1454-214">1 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BAI2CSV-to-BAI2XML.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="b1454-215">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-215">Click **New**.</span></span>
+12. <span data-ttu-id="b1454-216">2 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BAI2XML-to-Reconciliation.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="b1454-217">**Pastaba:** „Finance and Operations“ pakeitimo failai skirti naudoti standartiniu formatu.</span><span class="sxs-lookup"><span data-stu-id="b1454-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="b1454-218">Kadangi bankai dažnai naudoja kitus formatus, gali būti, kad turėsite transformacijos failą atnaujinti, kad galėtumėte susieti savo banko išrašo formatą.</span><span class="sxs-lookup"><span data-stu-id="b1454-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="b1454-219">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-219">Click **New**.</span></span>
+14. <span data-ttu-id="b1454-220">3 eilės numeryje spustelėkite **Nusiųsti failą** ir pasirinkite failą **BankReconciliation-to-Composite.xslt**, kurį įrašėte anksčiau.</span><span class="sxs-lookup"><span data-stu-id="b1454-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="b1454-221">Spustelėkite **Taikyti pakeitimus**.</span><span class="sxs-lookup"><span data-stu-id="b1454-221">Click **Apply transforms**.</span></span>
 
-Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti BAI2 banko išrašų formato taisykles.
+<span data-ttu-id="b1454-222">Nustačius formato apdorojimo grupę, kitu veiksmu reikia nustatyti BAI2 banko išrašų formato taisykles.</span><span class="sxs-lookup"><span data-stu-id="b1454-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.
-2.  Spustelėkite **Naujas**.
-3.  Nurodykite išrašo formatą, pvz., **BAI2**.
-4.  Įveskite formato pavadinimą.
-5.  Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **BAI2**.
-6.  Nustatykite lauko **Failo tipas** reikšmę **txt**.
+1.  <span data-ttu-id="b1454-223">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Sąranka** &gt; **Išplėstinio banko derinimo nustatymas** &gt; **Banko išrašo formatas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="b1454-224">Spustelėkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="b1454-224">Click **New**.</span></span>
+3.  <span data-ttu-id="b1454-225">Nurodykite išrašo formatą, pvz., **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="b1454-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="b1454-226">Įveskite formato pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="b1454-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="b1454-227">Lauke **Apdorojimo grupė** nurodykite grupę, kurią nustatėte anksčiau, pvz., **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="b1454-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="b1454-228">Nustatykite lauko **Failo tipas** reikšmę **txt**.</span><span class="sxs-lookup"><span data-stu-id="b1454-228">Set the **File type** field to **txt**.</span></span>
 
-Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.
+<span data-ttu-id="b1454-229">Paskutiniu veiksmu banko sąskaitoje įjungiamas išplėstinis banko derinimas ir nustatomas išrašo formatas.</span><span class="sxs-lookup"><span data-stu-id="b1454-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
-2.  Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.
-3.  Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.
-4.  Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.
-5.  Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **BAI2**.
+1.  <span data-ttu-id="b1454-230">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.</span><span class="sxs-lookup"><span data-stu-id="b1454-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="b1454-231">Pasirinkite banko sąskaitą ir ją atidarykite, kad peržiūrėtumėte informaciją.</span><span class="sxs-lookup"><span data-stu-id="b1454-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="b1454-232">Skirtuke **Derinimas** nustatykite parinktį **Išplėstinis banko sąskaitų derinimas** į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="b1454-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="b1454-233">Kai būsite paraginti patvirtinti savo pasirinkimą ir įjungti išplėstinį banko derinimą, spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="b1454-234">Lauke **Išrašo formatas** nurodykite formatą, kurį sukūrėte anksčiau, pvz., **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="b1454-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Banko išrašo importavimo tikrinimas
-Paskutiniu veiksmu reikia patikrinti, ar savo banko išrašą galima importuoti.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="b1454-235">Banko išrašo importavimo tikrinimas</span><span class="sxs-lookup"><span data-stu-id="b1454-235">Test the bank statement import</span></span>
+<span data-ttu-id="b1454-236">Paskutiniu veiksmu reikia patikrinti, ar savo banko išrašą galima importuoti.</span><span class="sxs-lookup"><span data-stu-id="b1454-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.
-2.  Pasirinkite banko sąskaitą, kurioje įjungta išplėstino banko derinimo funkcija.
-3.  Skirtuke **Derinti** spustelėkite **Banko išrašai**.
-4.  Puslapyje **Banko išrašas** spustelėkite **Importuoti išrašą**.
-5.  Lauke **Banko sąskaita** nurodykite pasirinktą banko sąskaitą. Laukas **Išrašo formatas** bus automatiškai nustatytas pagal banko sąskaitos nustatymą.
-6.  Spustelėkite **Naršyti** ir pasirinkite savo elektroninio banko išrašo failą.
-7.  Spustelėkite **Nusiųsti**.
-8.  Spustelėkite **GERAI**.
+1.  <span data-ttu-id="b1454-237">Eikite į **Grynųjų pinigų ir banko valdymas** &gt; **Banko sąskaitos**.</span><span class="sxs-lookup"><span data-stu-id="b1454-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="b1454-238">Pasirinkite banko sąskaitą, kurioje įjungta išplėstino banko derinimo funkcija.</span><span class="sxs-lookup"><span data-stu-id="b1454-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="b1454-239">Skirtuke **Derinti** spustelėkite **Banko išrašai**.</span><span class="sxs-lookup"><span data-stu-id="b1454-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="b1454-240">Puslapyje **Banko išrašas** spustelėkite **Importuoti išrašą**.</span><span class="sxs-lookup"><span data-stu-id="b1454-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="b1454-241">Lauke **Banko sąskaita** nurodykite pasirinktą banko sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="b1454-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="b1454-242">Laukas **Išrašo formatas** bus automatiškai nustatytas pagal banko sąskaitos nustatymą.</span><span class="sxs-lookup"><span data-stu-id="b1454-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="b1454-243">Spustelėkite **Naršyti** ir pasirinkite savo elektroninio banko išrašo failą.</span><span class="sxs-lookup"><span data-stu-id="b1454-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="b1454-244">Spustelėkite **Nusiųsti**.</span><span class="sxs-lookup"><span data-stu-id="b1454-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="b1454-245">Spustelėkite **GERAI**.</span><span class="sxs-lookup"><span data-stu-id="b1454-245">Click **OK**.</span></span>
 
-Jei pavyko sėkmingai importuoti, bus rodomas pranešimas, kuriame teigiama, kad išrašas buvo importuotas. Jei importuoti nepavyko, suraskite užduotį darbo srities **Duomenų valdymas** dalyje **Užduočių retrospektyva**. Spustelėkite užduoties parinktį **Vykdymo informacija**, kad atidarytumėte puslapį **Vykdymo suvestinė**, o tada spustelėkite **Peržiūrėti vykdymo žurnalą**, kad peržiūrėtumėte importavimo klaidas.
+<span data-ttu-id="b1454-246">Jei pavyko sėkmingai importuoti, bus rodomas pranešimas, kuriame teigiama, kad išrašas buvo importuotas.</span><span class="sxs-lookup"><span data-stu-id="b1454-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="b1454-247">Jei importuoti nepavyko, suraskite užduotį darbo srities **Duomenų valdymas** dalyje **Užduočių retrospektyva**.</span><span class="sxs-lookup"><span data-stu-id="b1454-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="b1454-248">Spustelėkite užduoties parinktį **Vykdymo informacija**, kad atidarytumėte puslapį **Vykdymo suvestinė**, o tada spustelėkite **Peržiūrėti vykdymo žurnalą**, kad peržiūrėtumėte importavimo klaidas.</span><span class="sxs-lookup"><span data-stu-id="b1454-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

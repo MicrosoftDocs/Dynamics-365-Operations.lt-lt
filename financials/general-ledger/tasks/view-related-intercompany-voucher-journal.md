@@ -16,41 +16,41 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0bb995a95529be4d69fd9e82a2bb1fe473feb7f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 85b6d502f8dea32602d2fd5edc223a9660b863ad
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo
+# <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="2ee71-103">Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo</span><span class="sxs-lookup"><span data-stu-id="2ee71-103">View a related intercompany voucher from a journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Susijusiame kvito lange kvitas iš korespondentinės įmonės rodomas registruojant vidinės įmonės operaciją iš bendrojo žurnalo.
+<span data-ttu-id="2ee71-104">Susijusiame kvito lange kvitas iš korespondentinės įmonės rodomas registruojant vidinės įmonės operaciją iš bendrojo žurnalo.</span><span class="sxs-lookup"><span data-stu-id="2ee71-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a>Registruoti vidinės įmonės žurnalą
-1. Pasirinkite Pagrindiniai žurnalai.
-2. Spustelėkite Naujas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Pavadinimas įveskite arba pasirinkite vidinės įmonės žurnalo pavadinimą.
-5. Spustelėkite Eilutės.
-6. Sąraše pažymėkite pasirinktą eilutę.
-7. Lauke Sąskaita nustatykite norimas reikšmes.
-8. Lauke Aprašas įveskite arba pasirinkite reikšmę.
-9. Lauke Aprašas įveskite reikšmę.
-10. Uždarykite puslapį.
-11. Lauke Debetas įveskite skaičių.
-12. Lauke Korespondentinė įmonė įveskite arba pasirinkite korespondentinę įmonę.
-13. Lauke Korespondentinė įmonė įveskite arba pasirinkite reikšmę.
-14. Uždarykite puslapį.
-15. Lauke Korespondentinė sąskaita nustatykite norimas reikšmes.
-16. Spustelėkite Registruoti.
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="2ee71-105">Registruoti vidinės įmonės žurnalą</span><span class="sxs-lookup"><span data-stu-id="2ee71-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="2ee71-106">Pasirinkite Pagrindiniai žurnalai.</span><span class="sxs-lookup"><span data-stu-id="2ee71-106">Go to General journals.</span></span>
+2. <span data-ttu-id="2ee71-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="2ee71-107">Click New.</span></span>
+3. <span data-ttu-id="2ee71-108">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="2ee71-109">Lauke Pavadinimas įveskite arba pasirinkite vidinės įmonės žurnalo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="2ee71-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="2ee71-110">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="2ee71-110">Click Lines.</span></span>
+6. <span data-ttu-id="2ee71-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="2ee71-112">Lauke Sąskaita nustatykite norimas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="2ee71-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="2ee71-113">Lauke Aprašas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="2ee71-114">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="2ee71-115">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="2ee71-115">Close the page.</span></span>
+11. <span data-ttu-id="2ee71-116">Lauke Debetas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="2ee71-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="2ee71-117">Lauke Korespondentinė įmonė įveskite arba pasirinkite korespondentinę įmonę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="2ee71-118">Lauke Korespondentinė įmonė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="2ee71-119">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="2ee71-119">Close the page.</span></span>
+15. <span data-ttu-id="2ee71-120">Lauke Korespondentinė sąskaita nustatykite norimas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="2ee71-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="2ee71-121">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="2ee71-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a>Peržiūrėti susijusį vidinės įmonės kvitą
-1. Spustelėkite Kvitas.
-2. Spustelėkite Susiję kvitai.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Spustelėkite Kvitas.
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="2ee71-122">Peržiūrėti susijusį vidinės įmonės kvitą</span><span class="sxs-lookup"><span data-stu-id="2ee71-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="2ee71-123">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="2ee71-123">Click Voucher.</span></span>
+2. <span data-ttu-id="2ee71-124">Spustelėkite Susiję kvitai.</span><span class="sxs-lookup"><span data-stu-id="2ee71-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="2ee71-125">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="2ee71-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="2ee71-126">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="2ee71-126">Click Voucher.</span></span>
 
 

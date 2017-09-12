@@ -17,31 +17,31 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: ca2f3ac89a93a6d52b4dd757ac0275dc72293cba
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2bae81073fa6561c02d2dac0cd83db6a10ad00c3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-and-run-a-job-to-calculate-statements"></a> Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį
+# <a name="configure-and-run-a-job-to-calculate-statements"></a><span data-ttu-id="a27a8-103"> Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį</span><span class="sxs-lookup"><span data-stu-id="a27a8-103">Configure and run a job to calculate statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Ši procedūra padeda konfigūruoti ir vykdyti pasikartojančias paketines užduotis, norint kurti ir apskaičiuoti pasirinktos parduotuvės arba parduotuvių grupės išrašus. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
+<span data-ttu-id="a27a8-104">Ši procedūra padeda konfigūruoti ir vykdyti pasikartojančias paketines užduotis, norint kurti ir apskaičiuoti pasirinktos parduotuvės arba parduotuvių grupės išrašus.</span><span class="sxs-lookup"><span data-stu-id="a27a8-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="a27a8-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.</span><span class="sxs-lookup"><span data-stu-id="a27a8-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. Eikite į Visos darbo sritys > Mažmeninės prekybos parduotuvės finansai.
-2. Spustelėkite Skaičiuoti išrašus.
-    * Pasirinkite konkrečią parduotuvę arba mazgą, jei norite kurti parduotuvių grupės paketinę užduotį.  
-    * Spustelėkite rodyklę ir įtraukite savo pasirinkimą.  
-3. Spustelėkite skirtuką Vykdyti fone.
-4. Šalia dalis Paketinis vykdymas pasirinkite „Taip“.
-5. Spustelėkite Pasikartojimas.
-6. Lauke Pradžios data įveskite datą.
-7. Lauke Pradžios laikas įveskite laiką.
-8. Pasirinkite parinktį Nėra pabaigos datos.
-9. Lauke „PatternUnit“ įveskite „Dienos“.
-10. Lauke Per įveskite skaičių.
-11. Spustelėkite GERAI.
-12. Spustelėkite GERAI.
+1. <span data-ttu-id="a27a8-106">Eikite į Visos darbo sritys > Mažmeninės prekybos parduotuvės finansai.</span><span class="sxs-lookup"><span data-stu-id="a27a8-106">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="a27a8-107">Spustelėkite Skaičiuoti išrašus.</span><span class="sxs-lookup"><span data-stu-id="a27a8-107">Click Calculate statements.</span></span>
+    * <span data-ttu-id="a27a8-108">Pasirinkite konkrečią parduotuvę arba mazgą, jei norite kurti parduotuvių grupės paketinę užduotį.</span><span class="sxs-lookup"><span data-stu-id="a27a8-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="a27a8-109">Spustelėkite rodyklę ir įtraukite savo pasirinkimą.</span><span class="sxs-lookup"><span data-stu-id="a27a8-109">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="a27a8-110">Spustelėkite skirtuką Vykdyti fone.</span><span class="sxs-lookup"><span data-stu-id="a27a8-110">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="a27a8-111">Šalia dalis Paketinis vykdymas pasirinkite „Taip“.</span><span class="sxs-lookup"><span data-stu-id="a27a8-111">Under Batch processing, select 'Yes'.</span></span>
+5. <span data-ttu-id="a27a8-112">Spustelėkite Pasikartojimas.</span><span class="sxs-lookup"><span data-stu-id="a27a8-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="a27a8-113">Lauke Pradžios data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="a27a8-113">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="a27a8-114">Lauke Pradžios laikas įveskite laiką.</span><span class="sxs-lookup"><span data-stu-id="a27a8-114">In the Start time field, enter a time.</span></span>
+8. <span data-ttu-id="a27a8-115">Pasirinkite parinktį Nėra pabaigos datos.</span><span class="sxs-lookup"><span data-stu-id="a27a8-115">Select the No end date option.</span></span>
+9. <span data-ttu-id="a27a8-116">Lauke „PatternUnit“ įveskite „Dienos“.</span><span class="sxs-lookup"><span data-stu-id="a27a8-116">In the PatternUnit field, enter 'Days'.</span></span>
+10. <span data-ttu-id="a27a8-117">Lauke Per įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="a27a8-117">In the Per field, enter a number.</span></span>
+11. <span data-ttu-id="a27a8-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a27a8-118">Click OK.</span></span>
+12. <span data-ttu-id="a27a8-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a27a8-119">Click OK.</span></span>
 
 

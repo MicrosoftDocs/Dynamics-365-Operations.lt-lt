@@ -16,48 +16,48 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7c7f466add55fb9a24c3fb8f1f92df712a8622e3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-intercompany-plan"></a>Kurti vidinės įmonės planą
+# <a name="create-an-intercompany-plan"></a><span data-ttu-id="e56aa-103">Kurti vidinės įmonės planą</span><span class="sxs-lookup"><span data-stu-id="e56aa-103">Create an intercompany plan</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti vidinės įmonės planą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+<span data-ttu-id="e56aa-104">Šioje procedūroje parodoma, kaip kurti vidinės įmonės planą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="e56aa-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="e56aa-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-an-intercompany-planning-group"></a>Vidinės įmonės planavimo grupės nustatymas 
-1. Pasirinkite Vidinės įmonės planavimo grupės.
-    * Bendrasis planavimas > Sąranka > Vidinės įmonės planavimo grupės  
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką „Pavadinimas“ reikšme „10“.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Spustelėkite Naikinti.
-    * Šis veiksmas yra būtinas, norint sutrumpinti vidinės įmonės planavimą.   Vidinės įmonės planavimo procesas vykdys bendrąjį planavimą visose planavimo grupės įmonėse, pradedant nuo žemiausio planavimo sekos.  
-5. Spustelėkite Taip.
-6. Uždarykite puslapį.
+## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="e56aa-106">Vidinės įmonės planavimo grupės nustatymas</span><span class="sxs-lookup"><span data-stu-id="e56aa-106">Set up an intercompany planning group</span></span> 
+1. <span data-ttu-id="e56aa-107">Pasirinkite Vidinės įmonės planavimo grupės.</span><span class="sxs-lookup"><span data-stu-id="e56aa-107">Go to Intercompany planning groups.</span></span>
+    * <span data-ttu-id="e56aa-108">Bendrasis planavimas > Sąranka > Vidinės įmonės planavimo grupės</span><span class="sxs-lookup"><span data-stu-id="e56aa-108">Master planning > Setup > Intercompany planning groups</span></span>  
+2. <span data-ttu-id="e56aa-109">Norėdami rasti įrašus, naudokite spartųjį filtrą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="e56aa-110">Pvz., filtruokite lauką „Pavadinimas“ reikšme „10“.</span><span class="sxs-lookup"><span data-stu-id="e56aa-110">For example, filter on the Name field with a value of '10'.</span></span>
+3. <span data-ttu-id="e56aa-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="e56aa-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="e56aa-112">Spustelėkite Naikinti.</span><span class="sxs-lookup"><span data-stu-id="e56aa-112">Click Delete.</span></span>
+    * <span data-ttu-id="e56aa-113">Šis veiksmas yra būtinas, norint sutrumpinti vidinės įmonės planavimą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="e56aa-114">Vidinės įmonės planavimo procesas vykdys bendrąjį planavimą visose planavimo grupės įmonėse, pradedant nuo žemiausio planavimo sekos.</span><span class="sxs-lookup"><span data-stu-id="e56aa-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
+5. <span data-ttu-id="e56aa-115">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="e56aa-115">Click Yes.</span></span>
+6. <span data-ttu-id="e56aa-116">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e56aa-116">Close the page.</span></span>
 
-## <a name="create-an-intercompany-plan"></a>Kurti vidinės įmonės planą
-1. Spustelėkite Vidinės įmonės bendrasis planavimas.
-    * Tai pateikiama darbo srityje Bendrasis planavimas.  
-2. Lauke Vidinės įmonės planavimo grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Pasirinkite 10 vidinės įmonės planavimo grupę.  
-4. Lauke Vidinės įmonės planavimo pakartojimų skaičius įveskite skaičių 2.
-    * 10 vidinės įmonės planavimo grupėje yra du nariai. Norėdami atidėjimus perduoti iš šaltinio įmonės (USMF) į kliento įmonę (DEMF), turėsite vykdyti vidinės įmonę abiejose įmonėse du kartus. Vykdant pirmąjį kartojimą bus perduotas poreikis ir nustatyti atidėjimai šaltinio įmonėje (USMF). Vykdant antrąjį kartojimą atidėjimai bus perduoti iš USMF į DEMF.  
-5. Lauke Pirmasis kartojimas pasirinkite parinktį.
-6. Lauke Pirmasis kartojimas pasirinkite Regeneravimas.
-7. Lauke Paskesni pakartojimai pasirinkite Regeneravimas.
-8. Lauke Gijų skaičius įveskite skaičių.
-    * Tai nurodo lygiagrečių gijų, naudojamų planuojant, skaičių.  
-9. Spustelėkite GERAI.
+## <a name="create-an-intercompany-plan"></a><span data-ttu-id="e56aa-117">Kurti vidinės įmonės planą</span><span class="sxs-lookup"><span data-stu-id="e56aa-117">Create an intercompany plan</span></span>
+1. <span data-ttu-id="e56aa-118">Spustelėkite Vidinės įmonės bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="e56aa-118">Click Intercompany master planning.</span></span>
+    * <span data-ttu-id="e56aa-119">Tai pateikiama darbo srityje Bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="e56aa-119">This is on the Master planning workspace.</span></span>  
+2. <span data-ttu-id="e56aa-120">Lauke Vidinės įmonės planavimo grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="e56aa-121">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="e56aa-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="e56aa-122">Pasirinkite 10 vidinės įmonės planavimo grupę.</span><span class="sxs-lookup"><span data-stu-id="e56aa-122">Select intercompany planning group 10.</span></span>  
+4. <span data-ttu-id="e56aa-123">Lauke Vidinės įmonės planavimo pakartojimų skaičius įveskite skaičių 2.</span><span class="sxs-lookup"><span data-stu-id="e56aa-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
+    * <span data-ttu-id="e56aa-124">10 vidinės įmonės planavimo grupėje yra du nariai.</span><span class="sxs-lookup"><span data-stu-id="e56aa-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="e56aa-125">Norėdami atidėjimus perduoti iš šaltinio įmonės (USMF) į kliento įmonę (DEMF), turėsite vykdyti vidinės įmonę abiejose įmonėse du kartus.</span><span class="sxs-lookup"><span data-stu-id="e56aa-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="e56aa-126">Vykdant pirmąjį kartojimą bus perduotas poreikis ir nustatyti atidėjimai šaltinio įmonėje (USMF).</span><span class="sxs-lookup"><span data-stu-id="e56aa-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="e56aa-127">Vykdant antrąjį kartojimą atidėjimai bus perduoti iš USMF į DEMF.</span><span class="sxs-lookup"><span data-stu-id="e56aa-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
+5. <span data-ttu-id="e56aa-128">Lauke Pirmasis kartojimas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e56aa-128">In the First iteration field, select an option.</span></span>
+6. <span data-ttu-id="e56aa-129">Lauke Pirmasis kartojimas pasirinkite Regeneravimas.</span><span class="sxs-lookup"><span data-stu-id="e56aa-129">In the First iteration field, select 'Regeneration'.</span></span>
+7. <span data-ttu-id="e56aa-130">Lauke Paskesni pakartojimai pasirinkite Regeneravimas.</span><span class="sxs-lookup"><span data-stu-id="e56aa-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
+8. <span data-ttu-id="e56aa-131">Lauke Gijų skaičius įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="e56aa-131">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="e56aa-132">Tai nurodo lygiagrečių gijų, naudojamų planuojant, skaičių.</span><span class="sxs-lookup"><span data-stu-id="e56aa-132">This represents the number of parallel threads used for planning.</span></span>  
+9. <span data-ttu-id="e56aa-133">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="e56aa-133">Click OK.</span></span>
 
-## <a name="view-the-result-of-the-plan"></a>Plano rezultatų peržiūra
-1. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Spustelėkite StaticPlan saitą. Turite būti įmonėje USMF.  
-3. Spustelėkite Suplanuoti užsakymai.
+## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="e56aa-134">Plano rezultatų peržiūra</span><span class="sxs-lookup"><span data-stu-id="e56aa-134">View the result of the plan</span></span>
+1. <span data-ttu-id="e56aa-135">Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="e56aa-136">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="e56aa-136">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="e56aa-137">Spustelėkite StaticPlan saitą.</span><span class="sxs-lookup"><span data-stu-id="e56aa-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="e56aa-138">Turite būti įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="e56aa-138">You need to be in company USMF.</span></span>  
+3. <span data-ttu-id="e56aa-139">Spustelėkite Suplanuoti užsakymai.</span><span class="sxs-lookup"><span data-stu-id="e56aa-139">Click Planned orders.</span></span>
 
 

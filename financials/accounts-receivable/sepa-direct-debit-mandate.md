@@ -18,43 +18,43 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
-ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8b50c2d585c7e0bcd8dc15aa70446cd7346ad33c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="set-up-sepa-direct-debit-mandate"></a>SEPA tiesioginio debeto įgaliojimo nustatymas
+# <a name="set-up-sepa-direct-debit-mandate"></a><span data-ttu-id="95a04-102">SEPA tiesioginio debeto įgaliojimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="95a04-102">Set up SEPA direct debit mandate</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-Bendros mokėjimų eurais erdvės (SEPA) tiesioginis debetas leidžia kreditoriui surinkti lėšas iš kliento banko sąskaitos, jei klientas kreditoriui suteikė pasirašytą įgaliojimą. Įgaliojimas, kurį pasirašo klientas, įgalioja kreditorių surinkti mokėjimą ir nurodo kliento bankui jį išmokėti. Ši tema išdėstyta taip, kad parodytų SEPA tiesioginio debeto įgaliojimų nustatymo procesą.
+<span data-ttu-id="95a04-103">Bendros mokėjimų eurais erdvės (SEPA) tiesioginis debetas leidžia kreditoriui surinkti lėšas iš kliento banko sąskaitos, jei klientas kreditoriui suteikė pasirašytą įgaliojimą.</span><span class="sxs-lookup"><span data-stu-id="95a04-103">A Single Euro Payment Area (SEPA) direct debit lets a creditor collect funds from a customer's bank account, provided that the customer has granted a signed mandate to the creditor.</span></span> <span data-ttu-id="95a04-104">Įgaliojimas, kurį pasirašo klientas, įgalioja kreditorių surinkti mokėjimą ir nurodo kliento bankui jį išmokėti.</span><span class="sxs-lookup"><span data-stu-id="95a04-104">The mandate that the customer signs authorizes the creditor to collect a payment and instructs the customer's bank to pay the collection.</span></span> <span data-ttu-id="95a04-105">Ši tema išdėstyta taip, kad parodytų SEPA tiesioginio debeto įgaliojimų nustatymo procesą.</span><span class="sxs-lookup"><span data-stu-id="95a04-105">This topic is organized to show the process for setting up SEPA direct debit mandates.</span></span>
 
-## <a name="prerequisites"></a>Būtinieji komponentai
-Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.
+## <a name="prerequisites"></a><span data-ttu-id="95a04-106">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="95a04-106">Prerequisites</span></span>
+<span data-ttu-id="95a04-107">Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.</span><span class="sxs-lookup"><span data-stu-id="95a04-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| Kategorija       | Būtinoji sąlyga                                                                                                                                              |
+| <span data-ttu-id="95a04-108">Kategorija</span><span class="sxs-lookup"><span data-stu-id="95a04-108">Category</span></span>       | <span data-ttu-id="95a04-109">Būtinoji sąlyga</span><span class="sxs-lookup"><span data-stu-id="95a04-109">Prerequisite</span></span>                                                                                                                                              |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Šalis/regionas | Pagrindinis juridinio subjekto adresas turi būti šioje šalyje / regione: Austrija, Belgija, Nyderlandai, Ispanija, Italija, Prancūzija arba Vokietija. |
+| <span data-ttu-id="95a04-110">Šalis/regionas</span><span class="sxs-lookup"><span data-stu-id="95a04-110">Country/region</span></span> | <span data-ttu-id="95a04-111">Pagrindinis juridinio subjekto adresas turi būti šioje šalyje / regione: Austrija, Belgija, Nyderlandai, Ispanija, Italija, Prancūzija arba Vokietija.</span><span class="sxs-lookup"><span data-stu-id="95a04-111">The primary address for the legal entity must be in the following countries/regions: Austria, Belgium, Germany, Spain, France, Italy, or the Netherlands.</span></span> |
 
-1. Nustatykite tiesioginio debeto įgaliojimų numeraciją. Kiekvienas tiesioginio debeto įgaliojimas turi turėti unikalų numerį. Naudodami puslapį **Numeracijos** sukurkite tiesioginio debeto įgaliojimų numeraciją. Naudosite šį identifikatorių, kad priskirtumėte numeraciją tiesioginio debeto įgaliojimų sistemai puslapyje **Gautinų sumų parametrai**.
+1. <span data-ttu-id="95a04-112">Nustatykite tiesioginio debeto įgaliojimų numeraciją. Kiekvienas tiesioginio debeto įgaliojimas turi turėti unikalų numerį.</span><span class="sxs-lookup"><span data-stu-id="95a04-112">Set up a number sequence for direct debit mandates Each direct debit mandate must have a unique number.</span></span> <span data-ttu-id="95a04-113">Naudodami puslapį **Numeracijos** sukurkite tiesioginio debeto įgaliojimų numeraciją.</span><span class="sxs-lookup"><span data-stu-id="95a04-113">Use the **Number sequences** page to create a number sequence for direct debit mandates.</span></span> <span data-ttu-id="95a04-114">Naudosite šį identifikatorių, kad priskirtumėte numeraciją tiesioginio debeto įgaliojimų sistemai puslapyje **Gautinų sumų parametrai**.</span><span class="sxs-lookup"><span data-stu-id="95a04-114">You will use this identifier to assign the number sequence to the direct debit mandate system on the **Accounts receivable parameters** page.</span></span>
 
-2. Nustatykite tiesioginio debeto įgaliojimų Gautinų sumų parametrus. Puslapį **Gautinų sumų parametrai** naudokite tiesioginio debeto įgaliojimų parametrams nustatyti. Norėdami nustatyti parametrus, skirtuke **Tiesioginis debetas** pagal poreikį pakeiskite numatytuosius parametrus. Tada skirtuke **Numeracijos** atnaujinkite lauką **Tiesioginio debeto įgaliojimo ID** pagal anksčiau nustatytą numeraciją.
+2. <span data-ttu-id="95a04-115">Nustatykite tiesioginio debeto įgaliojimų Gautinų sumų parametrus. Puslapį **Gautinų sumų parametrai** naudokite tiesioginio debeto įgaliojimų parametrams nustatyti.</span><span class="sxs-lookup"><span data-stu-id="95a04-115">Set up Accounts receivable parameters for direct debit mandates Use the **Accounts receivable parameters** page to set up parameters for direct debit mandates.</span></span> <span data-ttu-id="95a04-116">Norėdami nustatyti parametrus, skirtuke **Tiesioginis debetas** pagal poreikį pakeiskite numatytuosius parametrus.</span><span class="sxs-lookup"><span data-stu-id="95a04-116">To set up the parameters, on the **Direct debit** tab, change the default parameters as you require.</span></span> <span data-ttu-id="95a04-117">Tada skirtuke **Numeracijos** atnaujinkite lauką **Tiesioginio debeto įgaliojimo ID** pagal anksčiau nustatytą numeraciją.</span><span class="sxs-lookup"><span data-stu-id="95a04-117">Then, on the **Number sequences** tab, update the **Direct debit mandate ID** field with the number sequence that you set up earlier.</span></span>
 
-3. Nustatykite tiesioginio debeto įgaliojimų mokėjimo būdą. Turite nustatyti tiesioginio debeto įgaliojimų mokėjimo būdą. Naudojate šį mokėjimo būdą pateikdami SF užklausas, kad būtų generuojami tiesioginio debeto mokėjimai. Naudokite **Mokėjimo būdų** puslapį, kad nustatytumėte mokėjimo būdą. Norėdami nustatyti tiesioginio debeto įgaliojimų mokėjimo būdą, turite atlikti toliau nurodytus papildomus mokėjimo būdo veiksmus.
+3. <span data-ttu-id="95a04-118">Nustatykite tiesioginio debeto įgaliojimų mokėjimo būdą. Turite nustatyti tiesioginio debeto įgaliojimų mokėjimo būdą.</span><span class="sxs-lookup"><span data-stu-id="95a04-118">Set up a method of payment for direct debit mandates You must set up a method of payment for direct debit mandates.</span></span> <span data-ttu-id="95a04-119">Naudojate šį mokėjimo būdą pateikdami SF užklausas, kad būtų generuojami tiesioginio debeto mokėjimai.</span><span class="sxs-lookup"><span data-stu-id="95a04-119">You use this method of payment to query for invoices to generate direct debit payments for.</span></span> <span data-ttu-id="95a04-120">Naudokite **Mokėjimo būdų** puslapį, kad nustatytumėte mokėjimo būdą.</span><span class="sxs-lookup"><span data-stu-id="95a04-120">Use the **Methods of payment** page to set up the method of payment.</span></span> <span data-ttu-id="95a04-121">Norėdami nustatyti tiesioginio debeto įgaliojimų mokėjimo būdą, turite atlikti toliau nurodytus papildomus mokėjimo būdo veiksmus.</span><span class="sxs-lookup"><span data-stu-id="95a04-121">To set up a method of payment for direct debit mandates, you must follow these additional steps for a method of payment:</span></span>
 
--   Lauke **Mokėjimo tipas** pasirinkite **Elektroninis mokėjimas**.
--   Pasirinktinai: jei tikitės, kad kiekvienas jūsų klientas turės kelis įgaliojimus, lauke **Laikotarpis** pasirinkite **Sąskaita faktūra**. Kiekvienai sąskaitai faktūrai bus sukurtas atskiras mokėjimas ir kiekvienas mokėjimas naudos tai sąskaitai faktūrai nurodytą įgaliojimą.
--   Pasirinkite parinktį **Reikalauti įgaliojimo**, kad sukurtumėte mokėjimus naudojant tiesioginio debeto įgaliojimus. Parinktis **Reikalauti įgaliojimo** prieinama tik tada, jei **Mokėjimo tipo** lauke pasirenkate **Elektroninis mokėjimas**.
+-   <span data-ttu-id="95a04-122">Lauke **Mokėjimo tipas** pasirinkite **Elektroninis mokėjimas**.</span><span class="sxs-lookup"><span data-stu-id="95a04-122">In the **Payment type** field, select **Electronic payment**.</span></span>
+-   <span data-ttu-id="95a04-123">Pasirinktinai: jei tikitės, kad kiekvienas jūsų klientas turės kelis įgaliojimus, lauke **Laikotarpis** pasirinkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="95a04-123">Optional: If you expect each of your customers to have multiple mandates, in the **Period** field, select **Invoice**.</span></span> <span data-ttu-id="95a04-124">Kiekvienai sąskaitai faktūrai bus sukurtas atskiras mokėjimas ir kiekvienas mokėjimas naudos tai sąskaitai faktūrai nurodytą įgaliojimą.</span><span class="sxs-lookup"><span data-stu-id="95a04-124">A separate payment will be created for each invoice, and each payment will use the mandate that is specified for the invoice.</span></span>
+-   <span data-ttu-id="95a04-125">Pasirinkite parinktį **Reikalauti įgaliojimo**, kad sukurtumėte mokėjimus naudojant tiesioginio debeto įgaliojimus.</span><span class="sxs-lookup"><span data-stu-id="95a04-125">Select the **Require mandate** option to create payments by using direct debit mandates.</span></span> <span data-ttu-id="95a04-126">Parinktis **Reikalauti įgaliojimo** prieinama tik tada, jei **Mokėjimo tipo** lauke pasirenkate **Elektroninis mokėjimas**.</span><span class="sxs-lookup"><span data-stu-id="95a04-126">The **Require mandate** option is available only if you select **Electronic payment** in the **Payment type** field.</span></span>
 
-Taip pat žr.
+<span data-ttu-id="95a04-127">Taip pat žr.</span><span class="sxs-lookup"><span data-stu-id="95a04-127">See Also</span></span>
 
-[Tiesioginio debeto apžvalga](sepa-direct-debit-overview.md) 
+[<span data-ttu-id="95a04-128">Tiesioginio debeto apžvalga</span><span class="sxs-lookup"><span data-stu-id="95a04-128">Direct debit overview</span></span>](sepa-direct-debit-overview.md) 
 
-[Kurti kliento tiesioginio debeto įgaliojimą](tasks/create-direct-debit-mandate-customer.md) 
+[<span data-ttu-id="95a04-129">Kurti kliento tiesioginio debeto įgaliojimą</span><span class="sxs-lookup"><span data-stu-id="95a04-129">Create a direct debit mandate for a customer</span></span>](tasks/create-direct-debit-mandate-customer.md) 
 
 

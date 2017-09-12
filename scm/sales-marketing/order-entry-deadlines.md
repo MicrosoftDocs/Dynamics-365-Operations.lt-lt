@@ -16,98 +16,98 @@ ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9cabce5400216ee0214eb6d56f0d32d746b260f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9e9d1912abf9a356542ce2c317fa717bc991dbf9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="order-entry-deadlines"></a>Užsakymų įvedimo terminai
+# <a name="order-entry-deadlines"></a><span data-ttu-id="e4d25-104">Užsakymų įvedimo terminai</span><span class="sxs-lookup"><span data-stu-id="e4d25-104">Order entry deadlines</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacija apie užsakymų įvedimo terminus. Užsakymų įvedimo terminas yra nutraukimo laikas, kuriuo nustatoma, ar kliento užsakymas apdorojamas (ir įvykdomas) taip, lyg jis būtų buvęs gautas dabartinę dieną ar kitą dieną.
+<span data-ttu-id="e4d25-105">Šiame straipsnyje pateikiama informacija apie užsakymų įvedimo terminus.</span><span class="sxs-lookup"><span data-stu-id="e4d25-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="e4d25-106">Užsakymų įvedimo terminas yra nutraukimo laikas, kuriuo nustatoma, ar kliento užsakymas apdorojamas (ir įvykdomas) taip, lyg jis būtų buvęs gautas dabartinę dieną ar kitą dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 
-Daugelyje įmonių tik tie pardavimo užsakymai, kurie yra gauti iki tam tikro dienos meto, laikomi gauti tą dieną. Laikoma, kad visi po nurodyto laiko gauti užsakymai yra gauti kitą darbo dieną. Ši užsakymų nutraukimo data vadinama užsakymo įvedimo terminu.  
+<span data-ttu-id="e4d25-107">Daugelyje įmonių tik tie pardavimo užsakymai, kurie yra gauti iki tam tikro dienos meto, laikomi gauti tą dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-107">In many companies, only sales orders that are received before a certain time of day are treated as if they were received on that day.</span></span> <span data-ttu-id="e4d25-108">Laikoma, kad visi po nurodyto laiko gauti užsakymai yra gauti kitą darbo dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-108">Any orders that are received after that time are treated as if they are received on the next business day.</span></span> <span data-ttu-id="e4d25-109">Ši užsakymų nutraukimo data vadinama užsakymo įvedimo terminu.</span><span class="sxs-lookup"><span data-stu-id="e4d25-109">This cut-off time for orders is known as the order entry deadline.</span></span>  
 
-Užsakymo įvedimo terminai yra naudojami įvedant numatomas užsakymo datas. Jie padeda valdyti kliento lūkesčius dėl užsakymų pristatymo. Pvz., klientai gali matyti, kad, jei jie pateikia jums užsakymą prieš tam tikrą laiką, jūs įsipareigojate prekes išsiųsti tą pačią dieną. Tačiau jei jie nespėja užsakymo pateikti per tam tikrą laiką, siuntinys gali būti išsiunčiamas tik kitą darbo dieną. Užsakymo įvedimo terminai nustatomi pagal jūsų sandėlio galimybes ir siuntinio vežėjo grafiką.  
+<span data-ttu-id="e4d25-110">Užsakymo įvedimo terminai yra naudojami įvedant numatomas užsakymo datas.</span><span class="sxs-lookup"><span data-stu-id="e4d25-110">Order entry deadlines are used as input for order promising.</span></span> <span data-ttu-id="e4d25-111">Jie padeda valdyti kliento lūkesčius dėl užsakymų pristatymo.</span><span class="sxs-lookup"><span data-stu-id="e4d25-111">Therefore, they help you manage customer expectations about order deliveries.</span></span> <span data-ttu-id="e4d25-112">Pvz., klientai gali matyti, kad, jei jie pateikia jums užsakymą prieš tam tikrą laiką, jūs įsipareigojate prekes išsiųsti tą pačią dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-112">For example, customers can see that, if they place an order with you before a specific time, you will commit to shipping the goods on the same day.</span></span> <span data-ttu-id="e4d25-113">Tačiau jei jie nespėja užsakymo pateikti per tam tikrą laiką, siuntinys gali būti išsiunčiamas tik kitą darbo dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-113">However, if they miss that deadline, they can expect the shipment only on the next business day.</span></span> <span data-ttu-id="e4d25-114">Užsakymo įvedimo terminai nustatomi pagal jūsų sandėlio galimybes ir siuntinio vežėjo grafiką.</span><span class="sxs-lookup"><span data-stu-id="e4d25-114">You set order entry deadlines based on your warehouse capabilities and shipping carrier schedules.</span></span>  
 
-Puslapyje **Užsakymo įvedimo terminai** nustatote visoms savaitės dienoms taikomus užsakymo įvedimo terminus. Visi užsakymai, gauti po nustatyto laiko, laikomi gautais kitą darbo dieną. Pagal numatytuosius nustatymus šis laikas yra 23.59 val. (t. y., atitinkamos dienos pabaiga, be vienos minutės vidurnaktis). Numatytuosius laikus galite pakeisti, kad jie sutaptų su faktiniu siuntimo ar gavimo laiku.  
+<span data-ttu-id="e4d25-115">Puslapyje **Užsakymo įvedimo terminai** nustatote visoms savaitės dienoms taikomus užsakymo įvedimo terminus.</span><span class="sxs-lookup"><span data-stu-id="e4d25-115">On the **Order entry deadlines** page, you set up order entry deadline times for all the days of the week.</span></span> <span data-ttu-id="e4d25-116">Visi užsakymai, gauti po nustatyto laiko, laikomi gautais kitą darbo dieną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-116">If orders are received after the specified times, they are treated as if they are received on the next day.</span></span> <span data-ttu-id="e4d25-117">Pagal numatytuosius nustatymus šis laikas yra 23.59 val. (t. y., atitinkamos dienos pabaiga, be vienos minutės vidurnaktis).</span><span class="sxs-lookup"><span data-stu-id="e4d25-117">By default, these times are set to 23:59 (that is, one minute before midnight at the end of the relevant day).</span></span> <span data-ttu-id="e4d25-118">Numatytuosius laikus galite pakeisti, kad jie sutaptų su faktiniu siuntimo ar gavimo laiku.</span><span class="sxs-lookup"><span data-stu-id="e4d25-118">You can change the default times so that they coincide with actual ship or receipt deadline times.</span></span>  
 
-Konkrečioms klientų grupėms galite taikyti specifinius užsakymo įvedimo terminus. Pvz., galbūt norėsite tam tikros grupės klientams nustatyti vėlesnius užsakymo įvedimo terminus, nei kitiems klientams. Šiuo atveju puslapyje **Užsakymo įvedimo terminų grupės** pirmiausia reikia nurodyti grupes, kurioms bus taikomi užsakymo įvedimo terminai. Tada puslapyje **Klientai** turite priskirti grupes klientams.  
+<span data-ttu-id="e4d25-119">Konkrečioms klientų grupėms galite taikyti specifinius užsakymo įvedimo terminus.</span><span class="sxs-lookup"><span data-stu-id="e4d25-119">You can define order entry deadlines for a specific group of customers.</span></span> <span data-ttu-id="e4d25-120">Pvz., galbūt norėsite tam tikros grupės klientams nustatyti vėlesnius užsakymo įvedimo terminus, nei kitiems klientams.</span><span class="sxs-lookup"><span data-stu-id="e4d25-120">For example, you might want a specific group of customers to have order entry deadlines that are later than those of other customers.</span></span> <span data-ttu-id="e4d25-121">Šiuo atveju puslapyje **Užsakymo įvedimo terminų grupės** pirmiausia reikia nurodyti grupes, kurioms bus taikomi užsakymo įvedimo terminai.</span><span class="sxs-lookup"><span data-stu-id="e4d25-121">In this case, you first define groups for order entry deadlines on the **Order entry deadline groups** page.</span></span> <span data-ttu-id="e4d25-122">Tada puslapyje **Klientai** turite priskirti grupes klientams.</span><span class="sxs-lookup"><span data-stu-id="e4d25-122">You then assign the groups to customers on the **Customers** page.</span></span>  
 
-Jei jūsų įmonė veikia keliose teritorijose, užsakymo įvedimo terminus galite nustatyti pagal teritoriją. Jei teritorijos išsidėstę skirtingose laiko zonose, užsakymo įvedimo terminai nustatomi pagal kiekvienos teritorijos laiko zoną. Tačiau jei dirbama su pardavimo užsakymais ir pardavimo pasiūlymais, užsakymo įvedimo terminas konvertuojamas į jūsų laiko zoną puslapyje **Galimos siuntimo ir gavimo datos**.  
+<span data-ttu-id="e4d25-123">Jei jūsų įmonė veikia keliose teritorijose, užsakymo įvedimo terminus galite nustatyti pagal teritoriją.</span><span class="sxs-lookup"><span data-stu-id="e4d25-123">If your company consists of several sites, you can set up order entry deadlines for each site.</span></span> <span data-ttu-id="e4d25-124">Jei teritorijos išsidėstę skirtingose laiko zonose, užsakymo įvedimo terminai nustatomi pagal kiekvienos teritorijos laiko zoną.</span><span class="sxs-lookup"><span data-stu-id="e4d25-124">If the sites are located in different time zones, the order entry deadlines are set up in each site's time zone.</span></span> <span data-ttu-id="e4d25-125">Tačiau jei dirbama su pardavimo užsakymais ir pardavimo pasiūlymais, užsakymo įvedimo terminas konvertuojamas į jūsų laiko zoną puslapyje **Galimos siuntimo ir gavimo datos**.</span><span class="sxs-lookup"><span data-stu-id="e4d25-125">However, when you work with sales orders and sales quotations, the order entry deadline is converted to your time zone on the **Available ship and receipt dates** page.</span></span>  
 
-Puslapyje **Aktyvinti užsakymo įvedimo terminų kombinacijas** galite nurodyti leistinas teritorijų ir užsakymo įvedimo terminų grupių kombinacijas.
+<span data-ttu-id="e4d25-126">Puslapyje **Aktyvinti užsakymo įvedimo terminų kombinacijas** galite nurodyti leistinas teritorijų ir užsakymo įvedimo terminų grupių kombinacijas.</span><span class="sxs-lookup"><span data-stu-id="e4d25-126">On the **Activate order entry deadline combinations** page, you define the combinations of sites and order entry deadline groups that are allowed.</span></span>
 
-## <a name="example-order-entry-deadline"></a>Pavyzdys. Užsakymo įvedimo terminas
-Nustatytas užsakymo įvedimo terminas antradieniais – 16.00 val. Konkretų antradienį, 17.00 val., bandote nustatyti esamą datą kaip siuntimo datą. (Atkreipkite dėmesį, kad nenurodomas šio pavyzdžio vykdymo laikas.) Jei pažymėtas žymės langelis **Pristatymo datos valdymas**, gausite įspėjamąjį pranešimą, kuriame bus nurodyta, kad data yra netinkama. Šis įspėjamasis pranešimas bus rodomas puslapyje **Galimos siuntimo ir gavimo datos**, kuriame galite pasirinkti kitas datas.
+## <a name="example-order-entry-deadline"></a><span data-ttu-id="e4d25-127">Pavyzdys. Užsakymo įvedimo terminas</span><span class="sxs-lookup"><span data-stu-id="e4d25-127">Example: Order entry deadline</span></span>
+<span data-ttu-id="e4d25-128">Nustatytas užsakymo įvedimo terminas antradieniais – 16.00 val.</span><span class="sxs-lookup"><span data-stu-id="e4d25-128">The order entry deadline on Tuesdays has been set to 16:00.</span></span> <span data-ttu-id="e4d25-129">Konkretų antradienį, 17.00 val., bandote nustatyti esamą datą kaip siuntimo datą.</span><span class="sxs-lookup"><span data-stu-id="e4d25-129">On a particular Tuesday, at 17:00, you try to set the current date as the ship date.</span></span> <span data-ttu-id="e4d25-130">(Atkreipkite dėmesį, kad nenurodomas šio pavyzdžio vykdymo laikas.) Jei pažymėtas žymės langelis **Pristatymo datos valdymas**, gausite įspėjamąjį pranešimą, kuriame bus nurodyta, kad data yra netinkama.</span><span class="sxs-lookup"><span data-stu-id="e4d25-130">(Note that there is no lead time for this example.) If the **Delivery date control** check box is selected, you receive a warning that states that the date isn't valid.</span></span> <span data-ttu-id="e4d25-131">Šis įspėjamasis pranešimas bus rodomas puslapyje **Galimos siuntimo ir gavimo datos**, kuriame galite pasirinkti kitas datas.</span><span class="sxs-lookup"><span data-stu-id="e4d25-131">This warning appears on the **Available ship and receipt dates** page, where you can then select alternative dates.</span></span>
 
-## <a name="example-different-order-entry-deadlines-per-site"></a>Pavyzdys. Skirtingi užsakymo įvedimo terminai pagal teritoriją
-Jūsų įmonė veikia dviejose teritorijose. Teritorijos išsidėsčiusios skirtingose laiko juostose, kaip parodyta pateiktoje lentelėje.
+## <a name="example-different-order-entry-deadlines-per-site"></a><span data-ttu-id="e4d25-132">Pavyzdys. Skirtingi užsakymo įvedimo terminai pagal teritoriją</span><span class="sxs-lookup"><span data-stu-id="e4d25-132">Example: Different order entry deadlines per site</span></span>
+<span data-ttu-id="e4d25-133">Jūsų įmonė veikia dviejose teritorijose.</span><span class="sxs-lookup"><span data-stu-id="e4d25-133">Your company consists of two sites.</span></span> <span data-ttu-id="e4d25-134">Teritorijos išsidėsčiusios skirtingose laiko juostose, kaip parodyta pateiktoje lentelėje.</span><span class="sxs-lookup"><span data-stu-id="e4d25-134">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| A teritorija                      | B teritorija                      |
+| <span data-ttu-id="e4d25-135">A teritorija</span><span class="sxs-lookup"><span data-stu-id="e4d25-135">Site A</span></span>                      | <span data-ttu-id="e4d25-136">B teritorija</span><span class="sxs-lookup"><span data-stu-id="e4d25-136">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| Kalifornija                  | Florida                     |
-| PST (Ramiojo vandenyno standartinis laikas) | EST (Rytų standartinis laikas) |
+| <span data-ttu-id="e4d25-137">Kalifornija</span><span class="sxs-lookup"><span data-stu-id="e4d25-137">California</span></span>                  | <span data-ttu-id="e4d25-138">Florida</span><span class="sxs-lookup"><span data-stu-id="e4d25-138">Florida</span></span>                     |
+| <span data-ttu-id="e4d25-139">PST (Ramiojo vandenyno standartinis laikas)</span><span class="sxs-lookup"><span data-stu-id="e4d25-139">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="e4d25-140">EST (Rytų standartinis laikas)</span><span class="sxs-lookup"><span data-stu-id="e4d25-140">EST (Eastern Standard Time)</span></span> |
 
-A ir B teritorijoms nustatyti šie užsakymo įvedimo terminai.
+<span data-ttu-id="e4d25-141">A ir B teritorijoms nustatyti šie užsakymo įvedimo terminai.</span><span class="sxs-lookup"><span data-stu-id="e4d25-141">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| Savaitės diena             | A: Užsakymų įvedimo terminai (PST) | B: Užsakymų įvedimo terminai (EST) |
+| <span data-ttu-id="e4d25-142">Savaitės diena</span><span class="sxs-lookup"><span data-stu-id="e4d25-142">Day of the week</span></span>             | <span data-ttu-id="e4d25-143">A: Užsakymų įvedimo terminai (PST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-143">A: Order entry deadlines (PST)</span></span> | <span data-ttu-id="e4d25-144">B: Užsakymų įvedimo terminai (EST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-144">B: Order entry deadlines (EST)</span></span> |
 |-----------------------------|--------------------------------|--------------------------------|
-| Pirmadienis                      | 13.00                          | 14.00                          |
-| Antradienis                     | 13.00                          | 14.00                          |
-| Trečiadienis                   | 13.00                          | 14.00                          |
-| Ketvirtadienis                    | 13.00                          | 14.00                          |
-| Penktadienis                      | 13.00                          | 14.00                          |
+| <span data-ttu-id="e4d25-145">Pirmadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-145">Monday</span></span>                      | <span data-ttu-id="e4d25-146">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-146">13:00</span></span>                          | <span data-ttu-id="e4d25-147">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-147">14:00</span></span>                          |
+| <span data-ttu-id="e4d25-148">Antradienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-148">Tuesday</span></span>                     | <span data-ttu-id="e4d25-149">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-149">13:00</span></span>                          | <span data-ttu-id="e4d25-150">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-150">14:00</span></span>                          |
+| <span data-ttu-id="e4d25-151">Trečiadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-151">Wednesday</span></span>                   | <span data-ttu-id="e4d25-152">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-152">13:00</span></span>                          | <span data-ttu-id="e4d25-153">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-153">14:00</span></span>                          |
+| <span data-ttu-id="e4d25-154">Ketvirtadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-154">Thursday</span></span>                    | <span data-ttu-id="e4d25-155">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-155">13:00</span></span>                          | <span data-ttu-id="e4d25-156">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-156">14:00</span></span>                          |
+| <span data-ttu-id="e4d25-157">Penktadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-157">Friday</span></span>                      | <span data-ttu-id="e4d25-158">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-158">13:00</span></span>                          | <span data-ttu-id="e4d25-159">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-159">14:00</span></span>                          |
 
-Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona yra MST (Kalnų standartinis laikas). Tai reiškia, kad jei užsakymus skirstysite A teritorijai iki MST 14.00 val., o B teritorijai iki MST 12.00 val., jūs nepažeisite nė vienos teritorijos užsakymo įvedimo terminų.  
+<span data-ttu-id="e4d25-160">Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona yra MST (Kalnų standartinis laikas).</span><span class="sxs-lookup"><span data-stu-id="e4d25-160">You're an order processor in Utah, where the time zone is MST (Mountain Standard Time).</span></span> <span data-ttu-id="e4d25-161">Tai reiškia, kad jei užsakymus skirstysite A teritorijai iki MST 14.00 val., o B teritorijai iki MST 12.00 val., jūs nepažeisite nė vienos teritorijos užsakymo įvedimo terminų.</span><span class="sxs-lookup"><span data-stu-id="e4d25-161">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 12:00 MST, you meet the order entry deadlines for both sites.</span></span>  
 
-Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.
+<span data-ttu-id="e4d25-162">Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.</span><span class="sxs-lookup"><span data-stu-id="e4d25-162">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| A teritorija: (PST)         | A teritorija: (MST)        | B teritorija: (EST)           | B teritorija: (MST)        |
+| <span data-ttu-id="e4d25-163">A teritorija: (PST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-163">Site A: PST</span></span>         | <span data-ttu-id="e4d25-164">A teritorija: (MST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-164">Site A: MST</span></span>        | <span data-ttu-id="e4d25-165">B teritorija: (EST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-165">Site B: EST</span></span>           | <span data-ttu-id="e4d25-166">B teritorija: (MST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-166">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13.00               | 14.00              | 14.00                 | 12.00              |
+| <span data-ttu-id="e4d25-167">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-167">13:00</span></span>               | <span data-ttu-id="e4d25-168">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-168">14:00</span></span>              | <span data-ttu-id="e4d25-169">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-169">14:00</span></span>                 | <span data-ttu-id="e4d25-170">12.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-170">12:00</span></span>              |
 
-**Pastaba.** Jei naudojamas vasaros laikas, atitinkamai koreguojami užsakymo įvedimo terminai.
+<span data-ttu-id="e4d25-171">**Pastaba.** Jei naudojamas vasaros laikas, atitinkamai koreguojami užsakymo įvedimo terminai.</span><span class="sxs-lookup"><span data-stu-id="e4d25-171">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-## <a name="example-same-order-entry-deadline-per-site"></a>Pavyzdys. Vienodi užsakymo įvedimo terminai pagal teritoriją
-Jūsų įmonė veikia dviejose teritorijose. Teritorijos išsidėsčiusios skirtingose laiko juostose, kaip parodyta pateiktoje lentelėje.
+## <a name="example-same-order-entry-deadline-per-site"></a><span data-ttu-id="e4d25-172">Pavyzdys. Vienodi užsakymo įvedimo terminai pagal teritoriją</span><span class="sxs-lookup"><span data-stu-id="e4d25-172">Example: Same order entry deadline per site</span></span>
+<span data-ttu-id="e4d25-173">Jūsų įmonė veikia dviejose teritorijose.</span><span class="sxs-lookup"><span data-stu-id="e4d25-173">Your company consists of two sites.</span></span> <span data-ttu-id="e4d25-174">Teritorijos išsidėsčiusios skirtingose laiko juostose, kaip parodyta pateiktoje lentelėje.</span><span class="sxs-lookup"><span data-stu-id="e4d25-174">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| A teritorija                      | B teritorija                      |
+| <span data-ttu-id="e4d25-175">A teritorija</span><span class="sxs-lookup"><span data-stu-id="e4d25-175">Site A</span></span>                      | <span data-ttu-id="e4d25-176">B teritorija</span><span class="sxs-lookup"><span data-stu-id="e4d25-176">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| Kalifornija                  | Florida                     |
-| PST (Ramiojo vandenyno standartinis laikas) | EST (Rytų standartinis laikas) |
+| <span data-ttu-id="e4d25-177">Kalifornija</span><span class="sxs-lookup"><span data-stu-id="e4d25-177">California</span></span>                  | <span data-ttu-id="e4d25-178">Florida</span><span class="sxs-lookup"><span data-stu-id="e4d25-178">Florida</span></span>                     |
+| <span data-ttu-id="e4d25-179">PST (Ramiojo vandenyno standartinis laikas)</span><span class="sxs-lookup"><span data-stu-id="e4d25-179">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="e4d25-180">EST (Rytų standartinis laikas)</span><span class="sxs-lookup"><span data-stu-id="e4d25-180">EST (Eastern Standard Time)</span></span> |
 
-A ir B teritorijoms nustatyti šie užsakymo įvedimo terminai.
+<span data-ttu-id="e4d25-181">A ir B teritorijoms nustatyti šie užsakymo įvedimo terminai.</span><span class="sxs-lookup"><span data-stu-id="e4d25-181">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| Savaitės diena | PST ir EST |
+| <span data-ttu-id="e4d25-182">Savaitės diena</span><span class="sxs-lookup"><span data-stu-id="e4d25-182">Day of the week</span></span> | <span data-ttu-id="e4d25-183">PST ir EST</span><span class="sxs-lookup"><span data-stu-id="e4d25-183">PST and EST</span></span> |
 |-----------------|-------------|
-| Pirmadienis          | 13.00       |
-| Antradienis         | 13.00       |
-| Trečiadienis       | 13.00       |
-| Ketvirtadienis        | 13.00       |
-| Penktadienis          | 13.00       |
+| <span data-ttu-id="e4d25-184">Pirmadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-184">Monday</span></span>          | <span data-ttu-id="e4d25-185">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-185">13:00</span></span>       |
+| <span data-ttu-id="e4d25-186">Antradienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-186">Tuesday</span></span>         | <span data-ttu-id="e4d25-187">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-187">13:00</span></span>       |
+| <span data-ttu-id="e4d25-188">Trečiadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-188">Wednesday</span></span>       | <span data-ttu-id="e4d25-189">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-189">13:00</span></span>       |
+| <span data-ttu-id="e4d25-190">Ketvirtadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-190">Thursday</span></span>        | <span data-ttu-id="e4d25-191">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-191">13:00</span></span>       |
+| <span data-ttu-id="e4d25-192">Penktadienis</span><span class="sxs-lookup"><span data-stu-id="e4d25-192">Friday</span></span>          | <span data-ttu-id="e4d25-193">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-193">13:00</span></span>       |
 
-Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona yra MST. Tai reiškia, kad jei užsakymus skirstysite A teritorijai iki MST 14.00 val., o B teritorijai iki MST 11.00 val., jūs nepažeisite nė vienos teritorijos užsakymo įvedimo terminų. 
+<span data-ttu-id="e4d25-194">Jūs esate atsakingi už užsakymų apdorojimą ir esate Jutoje, kur laiko zona yra MST.</span><span class="sxs-lookup"><span data-stu-id="e4d25-194">You're an order processor in Utah, where the time zone is MST.</span></span> <span data-ttu-id="e4d25-195">Tai reiškia, kad jei užsakymus skirstysite A teritorijai iki MST 14.00 val., o B teritorijai iki MST 11.00 val., jūs nepažeisite nė vienos teritorijos užsakymo įvedimo terminų.</span><span class="sxs-lookup"><span data-stu-id="e4d25-195">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 11:00 MST, you meet the order entry deadlines for both sites.</span></span> 
 
-Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.
+<span data-ttu-id="e4d25-196">Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo terminus, konvertuotus į MST laiką.</span><span class="sxs-lookup"><span data-stu-id="e4d25-196">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| A teritorija: (PST)         | A teritorija: (MST)        | B teritorija: (EST)           | B teritorija: (MST)        |
+| <span data-ttu-id="e4d25-197">A teritorija: (PST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-197">Site A: PST</span></span>         | <span data-ttu-id="e4d25-198">A teritorija: (MST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-198">Site A: MST</span></span>        | <span data-ttu-id="e4d25-199">B teritorija: (EST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-199">Site B: EST</span></span>           | <span data-ttu-id="e4d25-200">B teritorija: (MST)</span><span class="sxs-lookup"><span data-stu-id="e4d25-200">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13.00               | 14.00              | 13.00                 | 11.00              |
+| <span data-ttu-id="e4d25-201">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-201">13:00</span></span>               | <span data-ttu-id="e4d25-202">14.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-202">14:00</span></span>              | <span data-ttu-id="e4d25-203">13.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-203">13:00</span></span>                 | <span data-ttu-id="e4d25-204">11.00</span><span class="sxs-lookup"><span data-stu-id="e4d25-204">11:00</span></span>              |
 
-**Pastaba.** Jei naudojamas vasaros laikas, atitinkamai koreguojami užsakymo įvedimo terminai.
+<span data-ttu-id="e4d25-205">**Pastaba.** Jei naudojamas vasaros laikas, atitinkamai koreguojami užsakymo įvedimo terminai.</span><span class="sxs-lookup"><span data-stu-id="e4d25-205">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="see-also"></a><span data-ttu-id="e4d25-206">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="e4d25-206">See also</span></span>
 --------
 
-[Pristatymo grafikai](delivery-schedules.md)
+[<span data-ttu-id="e4d25-207">Pristatymo grafikai</span><span class="sxs-lookup"><span data-stu-id="e4d25-207">Delivery schedules</span></span>](delivery-schedules.md)
 
 
 

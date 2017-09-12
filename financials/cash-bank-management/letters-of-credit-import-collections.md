@@ -19,41 +19,41 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5b27e8731dde9a834ee0ff5aa7a289bd2ecfeef1
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4332c7bb0344bd0caabd5d1a26fb8e4bb4fc862d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="letters-of-credit-and-import-collections"></a>Akredityvai ir importo dokumentų inkasavimas
+# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="67df3-104">Akredityvai ir importo dokumentų inkasavimas</span><span class="sxs-lookup"><span data-stu-id="67df3-104">Letters of credit and import collections</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius. Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.
+<span data-ttu-id="67df3-105">Šiame straipsnyje pateikta bendra informacija apie akredityvus ir importo rinkinius.</span><span class="sxs-lookup"><span data-stu-id="67df3-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="67df3-106">Abiejų tipų banko dokumentai paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais.</span><span class="sxs-lookup"><span data-stu-id="67df3-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 
-<a name="letters-of-credit"></a>Akredityvai
+<a name="letters-of-credit"></a><span data-ttu-id="67df3-107">Akredityvai</span><span class="sxs-lookup"><span data-stu-id="67df3-107">Letters of credit</span></span>
 -----------------
 
-Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai. Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos. Akredityvas taip pat vadinamas dokumentuotu kreditu (DC).
+<span data-ttu-id="67df3-108">Akredityvai naudojami tarptautinėms operacijoms, siekiant užtikrinti, kad bus atlikti mokėjimai.</span><span class="sxs-lookup"><span data-stu-id="67df3-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="67df3-109">Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti mokėjimą pirkėjo vardu, jei sutarties tarp pirkėjo ir pardavėjo sąlygos yra patenkinamos.</span><span class="sxs-lookup"><span data-stu-id="67df3-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="67df3-110">Akredityvas taip pat vadinamas dokumentuotu kreditu (DC).</span><span class="sxs-lookup"><span data-stu-id="67df3-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
 
-Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas. Juridinis subjektas yra eksporto akredityvo pardavėjas arba naudos gavėjas. Su akredityvu susijusios šios šalys:
+<span data-ttu-id="67df3-111">Juridinis subjektas yra importo akredityvo pirkėjas arba pretendentas.</span><span class="sxs-lookup"><span data-stu-id="67df3-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="67df3-112">Juridinis subjektas yra eksporto akredityvo pardavėjas arba naudos gavėjas.</span><span class="sxs-lookup"><span data-stu-id="67df3-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="67df3-113">Su akredityvu susijusios šios šalys:</span><span class="sxs-lookup"><span data-stu-id="67df3-113">The following parties are involved in a letter of credit:</span></span>
 
--   Pretendentas (pirkėjas), kuris ketina mokėti už prekes
--   Gavėjas (pardavėjas), kuris gaus mokėjimą
--   Išduodantysis bankas, kuris išduoda akredityvą
--   Konsultuojantis bankas, kuris vykdo operaciją pretendento vardu.
+-   <span data-ttu-id="67df3-114">Pretendentas (pirkėjas), kuris ketina mokėti už prekes</span><span class="sxs-lookup"><span data-stu-id="67df3-114">The applicant (buyer) who intends to pay for the goods</span></span>
+-   <span data-ttu-id="67df3-115">Gavėjas (pardavėjas), kuris gaus mokėjimą</span><span class="sxs-lookup"><span data-stu-id="67df3-115">The beneficiary (seller) who will receive the payment</span></span>
+-   <span data-ttu-id="67df3-116">Išduodantysis bankas, kuris išduoda akredityvą</span><span class="sxs-lookup"><span data-stu-id="67df3-116">The issuing bank that issues the letter of credit</span></span>
+-   <span data-ttu-id="67df3-117">Konsultuojantis bankas, kuris vykdo operaciją pretendento vardu.</span><span class="sxs-lookup"><span data-stu-id="67df3-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-Akredityvas apima prekių aprašymą, bet kokius reikalingus dokumentus, siuntimo datą ir galiojimo pabaigos datą, po kurios mokėjimas nebus atliktas. Išduodantis bankas už akredityvą ima maržą. 
+<span data-ttu-id="67df3-118">Akredityvas apima prekių aprašymą, bet kokius reikalingus dokumentus, siuntimo datą ir galiojimo pabaigos datą, po kurios mokėjimas nebus atliktas.</span><span class="sxs-lookup"><span data-stu-id="67df3-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="67df3-119">Išduodantis bankas už akredityvą ima maržą.</span><span class="sxs-lookup"><span data-stu-id="67df3-119">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-Akredityvas gali būti **atšaukiamas** arba **neatšaukiamas**. Akredityvo pobūdis gali būti **perkeltinas**, **neperkeltinas** arba **generuojamas**. Paprastai akredityvas yra neatšaukiama ir patvirtinta sutartis, kad, pateikus visus tikslius siuntimo dokumentus, konkrečiam naudos gavėjui bus atliktas mokėjimas.
+<span data-ttu-id="67df3-120">Akredityvas gali būti **atšaukiamas** arba **neatšaukiamas**.</span><span class="sxs-lookup"><span data-stu-id="67df3-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="67df3-121">Akredityvo pobūdis gali būti **perkeltinas**, **neperkeltinas** arba **generuojamas**.</span><span class="sxs-lookup"><span data-stu-id="67df3-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="67df3-122">Paprastai akredityvas yra neatšaukiama ir patvirtinta sutartis, kad, pateikus visus tikslius siuntimo dokumentus, konkrečiam naudos gavėjui bus atliktas mokėjimas.</span><span class="sxs-lookup"><span data-stu-id="67df3-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-## <a name="import-collections"></a>Imporo rinkiniai
-Importo dokumentų inkasavimas yra sutartis tarp banko ir eksportuotojo (pardavėjo), kai bankas sutinka pristatyti siuntimo dokumentus tarptautiniam importuotojui (pirkėjui). Iš banko tikimasi, kad jis pristatys siuntimo dokumentus, kai tik gaus užmokestį grynaisiais pinigais už išsiųstas prekes arba kai gaus pasirašytą dokumentą, kuris įrodo, kad mokėjimas įvykdytas. 
+## <a name="import-collections"></a><span data-ttu-id="67df3-123">Imporo rinkiniai</span><span class="sxs-lookup"><span data-stu-id="67df3-123">Import collections</span></span>
+<span data-ttu-id="67df3-124">Importo dokumentų inkasavimas yra sutartis tarp banko ir eksportuotojo (pardavėjo), kai bankas sutinka pristatyti siuntimo dokumentus tarptautiniam importuotojui (pirkėjui).</span><span class="sxs-lookup"><span data-stu-id="67df3-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="67df3-125">Iš banko tikimasi, kad jis pristatys siuntimo dokumentus, kai tik gaus užmokestį grynaisiais pinigais už išsiųstas prekes arba kai gaus pasirašytą dokumentą, kuris įrodo, kad mokėjimas įvykdytas.</span><span class="sxs-lookup"><span data-stu-id="67df3-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
 
-Importo dokumentų inkasavimas padeda užtikrinti, kad pardavėjui bus sumokėta, kai pirkėjas gaus importuotų prekių pristatymo dokumentus.
+<span data-ttu-id="67df3-126">Importo dokumentų inkasavimas padeda užtikrinti, kad pardavėjui bus sumokėta, kai pirkėjas gaus importuotų prekių pristatymo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="67df3-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
 
 
 

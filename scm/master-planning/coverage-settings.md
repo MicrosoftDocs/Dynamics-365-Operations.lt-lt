@@ -20,40 +20,40 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b42f0515823bd42ec260aa1d175855a923162b62
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fb11a470d98a9742749daaac3244a5bb0d3a689c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="coverage-settings"></a>Padengimo parametrai
+# <a name="coverage-settings"></a><span data-ttu-id="9e759-103">Padengimo parametrai</span><span class="sxs-lookup"><span data-stu-id="9e759-103">Coverage settings</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bendrasis planavimas naudoja padengimo parametrus prekės poreikiui apskaičiuoti. 
+<span data-ttu-id="9e759-104">Bendrasis planavimas naudoja padengimo parametrus prekės poreikiui apskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="9e759-104">Master scheduling uses coverage settings to calculate item requirements.</span></span> 
 
-Galite nurodyti padengimo parametrus keliais būdais:
+<span data-ttu-id="9e759-105">Galite nurodyti padengimo parametrus keliais būdais:</span><span class="sxs-lookup"><span data-stu-id="9e759-105">You can specify coverage settings in several ways:</span></span>
 
--   Nurodykite padengimo grupės padengimo parametrus. Galite sukurti padengimo grupę, kurioje būtų visų su padengimo grupe susijusių produktų parametrai. Norėdami sukurti padengimo grupę spustelėkite **Bendrasis planavimas &gt; Sąranka &gt; Padengimas &gt; Padengimo grupės**. Padengimo grupę galite susieti su produktu. Jei saitas yra konkrečios teritorijos, sandėlio ar produkto dimensijos, naudokite puslapio **Prekės padengimas** lauką **Padengimo grupė**. Jei saitas yra bendrasis, neatsižvelgdami į produkto dimensijas, naudokite puslapio **Produkto informacija** „FastTab“ skirtuke **Planas** esančią parinktį **Padengimo grupė**. Jei padengimo grupės nesusiejate su produktu, bendrojo planavimo funkcija kaip numatytąją naudoja puslapyje **Bendrojo planavimo parametrai** nurodytą parinktį **Bendroji padengimo grupė**.
+-   <span data-ttu-id="9e759-106">Nurodykite padengimo grupės padengimo parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e759-106">Specify coverage settings for a coverage group.</span></span> <span data-ttu-id="9e759-107">Galite sukurti padengimo grupę, kurioje būtų visų su padengimo grupe susijusių produktų parametrai.</span><span class="sxs-lookup"><span data-stu-id="9e759-107">You can create a coverage group that contains settings for all products that are linked to the coverage group.</span></span> <span data-ttu-id="9e759-108">Norėdami sukurti padengimo grupę spustelėkite **Bendrasis planavimas &gt; Sąranka &gt; Padengimas &gt; Padengimo grupės**.</span><span class="sxs-lookup"><span data-stu-id="9e759-108">Click **Master planning &gt; Setup &gt; Coverage &gt; Coverage groups** to create a coverage group.</span></span> <span data-ttu-id="9e759-109">Padengimo grupę galite susieti su produktu.</span><span class="sxs-lookup"><span data-stu-id="9e759-109">You can link a coverage group to a product.</span></span> <span data-ttu-id="9e759-110">Jei saitas yra konkrečios teritorijos, sandėlio ar produkto dimensijos, naudokite puslapio **Prekės padengimas** lauką **Padengimo grupė**.</span><span class="sxs-lookup"><span data-stu-id="9e759-110">If the link is specific to a site, warehouse, or product dimension, use the **Coverage group** field on the **Item coverage** page.</span></span> <span data-ttu-id="9e759-111">Jei saitas yra bendrasis, neatsižvelgdami į produkto dimensijas, naudokite puslapio **Produkto informacija** „FastTab“ skirtuke **Planas** esančią parinktį **Padengimo grupė**.</span><span class="sxs-lookup"><span data-stu-id="9e759-111">If the link is generic, regardless of the product dimensions, use the **Coverage group** on the **Plan** FastTab on the **Product details** page.</span></span> <span data-ttu-id="9e759-112">Jei padengimo grupės nesusiejate su produktu, bendrojo planavimo funkcija kaip numatytąją naudoja puslapyje **Bendrojo planavimo parametrai** nurodytą parinktį **Bendroji padengimo grupė**.</span><span class="sxs-lookup"><span data-stu-id="9e759-112">If you do not link a coverage group to a product, master planning uses the **General coverage group** that is specified on the **Master planning parameters** page as the default.</span></span>
 
--   Nurodykite produkto padengimo parametrus. Galite sukurti konkretaus produkto padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**. Pasirinkite produktą, dalyje **Veiksmų sritis** esančio skirtuko **Planas** lauke **Padengimo grupė** spustelėkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje**Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
-
-<!-- -->
-
--   Nurodykite produkto padengimo parametrus naudodami vedlį. Vedlys yra išsamus instruktorius, padedantis nustatyti pirminius prekės padengimo parametrus. Puslapyje **Prekės padengimas** spustelėkite **Vedlys**, kad būtų atidarytas **Prekės padengimo vedlys**.
+-   <span data-ttu-id="9e759-113">Nurodykite produkto padengimo parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e759-113">Specify coverage settings for a product.</span></span> <span data-ttu-id="9e759-114">Galite sukurti konkretaus produkto padengimo parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e759-114">You can create coverage settings for a specific product.</span></span> <span data-ttu-id="9e759-115">Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**.</span><span class="sxs-lookup"><span data-stu-id="9e759-115">Click **Product information management &gt; Products &gt; Released products**.</span></span> <span data-ttu-id="9e759-116">Pasirinkite produktą, dalyje **Veiksmų sritis** esančio skirtuko **Planas** lauke **Padengimo grupė** spustelėkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**.</span><span class="sxs-lookup"><span data-stu-id="9e759-116">Select the product, on the **Action Pane**, on the **Plan** tab, in the **Coverage group**, click **Item coverage** to open the **Item coverage** page.</span></span> <span data-ttu-id="9e759-117">Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**.</span><span class="sxs-lookup"><span data-stu-id="9e759-117">If the product is already linked to a coverage group, you can override the coverage group settings by using the **Override** field.</span></span> <span data-ttu-id="9e759-118">Padengimo parametrams puslapyje**Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.</span><span class="sxs-lookup"><span data-stu-id="9e759-118">The coverage settings on the **Item coverage** page take precedence over the settings on the **Coverage group** page.</span></span>
 
 <!-- -->
 
--   Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai**. Puslapio **Patvirtinto produkto informacija** skirtuke **Bendra** esančioje grupėje **Administravimas** spustelėkite saitą **Saugojimo dimensijų grupė**. Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.
+-   <span data-ttu-id="9e759-119">Nurodykite produkto padengimo parametrus naudodami vedlį.</span><span class="sxs-lookup"><span data-stu-id="9e759-119">Specify coverage settings for a product by using a wizard.</span></span> <span data-ttu-id="9e759-120">Vedlys yra išsamus instruktorius, padedantis nustatyti pirminius prekės padengimo parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e759-120">The wizard is a step-by-step guide to help you set up the primary item coverage parameters.</span></span> <span data-ttu-id="9e759-121">Puslapyje **Prekės padengimas** spustelėkite **Vedlys**, kad būtų atidarytas **Prekės padengimo vedlys**.</span><span class="sxs-lookup"><span data-stu-id="9e759-121">On the **Item coverage** page, click **Wizard** to open the **Item Coverage Wizard**.</span></span>
+
+<!-- -->
+
+-   <span data-ttu-id="9e759-122">Nurodykite dimensijos grupės padengimo parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e759-122">Specify coverage settings for a dimension group.</span></span> <span data-ttu-id="9e759-123">Spustelėkite **Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai**.</span><span class="sxs-lookup"><span data-stu-id="9e759-123">Click **Product information management &gt; Common &gt; Released products**.</span></span> <span data-ttu-id="9e759-124">Puslapio **Patvirtinto produkto informacija** skirtuke **Bendra** esančioje grupėje **Administravimas** spustelėkite saitą **Saugojimo dimensijų grupė**.</span><span class="sxs-lookup"><span data-stu-id="9e759-124">On the **Released product detail **page, on the **General** tab, in the **Administration** group, click the **Storage dimension group** link.</span></span> <span data-ttu-id="9e759-125">Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus.</span><span class="sxs-lookup"><span data-stu-id="9e759-125">On the **Storage dimension group** page, select the **Coverage plan by dimension** field to create the coverage settings for a dimension in the storage dimension group.</span></span> <span data-ttu-id="9e759-126">Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.</span><span class="sxs-lookup"><span data-stu-id="9e759-126">All product dimensions, such as configuration, color, size, style, must have the **Coverage plan by dimension** field selected.</span></span>
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="see-also"></a><span data-ttu-id="9e759-127">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="9e759-127">See also</span></span>
 --------
 
-[Bendrieji planai](master-plans.md)
+[<span data-ttu-id="9e759-128">Bendrieji planai</span><span class="sxs-lookup"><span data-stu-id="9e759-128">Master plans</span></span>](master-plans.md)
 
 
 

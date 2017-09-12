@@ -17,36 +17,36 @@ ms.assetid: 3a7c3d13-8dbc-442d-a281-ac0ebe99ec83
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74ad59504d6bbea0c604e0f0b83e74c915e84019
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7a5340baad38864388abcfab3235cf459887cba9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="update-standard-costs-in-a-manufacturing-environment"></a>Standartinių gamybos aplinkos išlaidų atnaujinimas
+# <a name="update-standard-costs-in-a-manufacturing-environment"></a><span data-ttu-id="7f603-103">Standartinių gamybos aplinkos išlaidų atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="7f603-103">Update standard costs in a manufacturing environment</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje patariama, kaip atnaujinti standartines išlaidas gamybos aplinkoje. 
+<span data-ttu-id="7f603-104">Šiame straipsnyje patariama, kaip atnaujinti standartines išlaidas gamybos aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="7f603-104">This article provides guidance about how to update standard costs in a manufacturing environment.</span></span> 
 
-Atnaujinimai gali atspindėti naujas prekes, išlaidų kategorijas ar netiesioginių išlaidų skaičiavimo formules. Jie taip pat gali atspindėti taisymus ir išlaidų pokyčius. Atnaujinimo tipas lemia veiksmus, kuriuos turite atlikti norėdami atnaujinti standartines išlaidas, kaip parodyta šiuose pavyzdžiuose:
+<span data-ttu-id="7f603-105">Atnaujinimai gali atspindėti naujas prekes, išlaidų kategorijas ar netiesioginių išlaidų skaičiavimo formules.</span><span class="sxs-lookup"><span data-stu-id="7f603-105">Updates can reflect new items, cost categories, or indirect cost calculation formulas.</span></span> <span data-ttu-id="7f603-106">Jie taip pat gali atspindėti taisymus ir išlaidų pokyčius.</span><span class="sxs-lookup"><span data-stu-id="7f603-106">They can also reflect corrections and cost changes.</span></span> <span data-ttu-id="7f603-107">Atnaujinimo tipas lemia veiksmus, kuriuos turite atlikti norėdami atnaujinti standartines išlaidas, kaip parodyta šiuose pavyzdžiuose:</span><span class="sxs-lookup"><span data-stu-id="7f603-107">The type of update affects the steps that you must complete to update standard costs, as illustrated in the following cases:</span></span>
 
--   Įveskite numatomus nupirktų prekių standartinių išlaidų keitimus, tada atitinkama data pakeiskite prekės išlaidų įrašų būseną į **Aktyvi**. Tačiau neperskaičiuokite pagamintų prekių, naudojančių nupirktas prekes, išlaidų.
--   Įveskite naujai nupirktos prekės standartines išlaidas, bet neperskaičiuokite pagamintų prekių, turinčių komplektavimo specifikacijos (KS) versiją, kurios vienas iš komponentų yra naujai nupirkta prekė, išlaidų.
--   Pataisykite ir pakeiskite nupirktos prekės išlaidas arba pakeiskite nupirktai prekei priskirtą išlaidų grupę bei apskaičiuokite visų pagamintų prekių, turinčių KS versiją, kurios vienas iš komponentų yra nupirkta prekė, išlaidas.
--   Pakeiskite išlaidų kategorijos išlaidas ir apskaičiuokite visų pagamintų prekių, turinčių maršruto versiją, kurioje yra išlaidų kategoriją naudojančios maršruto planavimo operacijos, išlaidas.
--   Pakeiskite išlaidų kategorijas, priskirtas maršruto planavimo operacijoms arba išlaidų grupei, kuri priskirta išlaidų kategorijoms. Tada apskaičiuokite visų pagamintų prekių, turinčių maršruto versiją, kurioje yra išlaidų kategoriją naudojančios maršruto planavimo operacijos, išlaidas.
--   Pakeiskite netiesioginių išlaidų skaičiavimo formulę bei apskaičiuokite visų pagamintų prekių, kurias paveikė keitimas, išlaidas.
--   Pakeiskite arba pridėkite gamybos teritoriją pagamintai prekei ir apskaičiuokite pagamintos prekės išlaidas teritorijai.
--   Apskaičiuokite, arba perskaičiuokite, pagamintos prekės išlaidas ir perskaičiuokite visų pagamintų prekių, turinčių KS versiją, kurios vienas iš komponentų yra pagaminta prekė, išlaidas.
--   Apskaičiuokite naujai pagamintos prekės išlaidas, atsižvelgdami į nurodytą, patvirtintą ir aktyvią KS ir maršruto informaciją.
+-   <span data-ttu-id="7f603-108">Įveskite numatomus nupirktų prekių standartinių išlaidų keitimus, tada atitinkama data pakeiskite prekės išlaidų įrašų būseną į **Aktyvi**.</span><span class="sxs-lookup"><span data-stu-id="7f603-108">Enter expected standard cost changes for purchased items, and then change the status of the item cost records to **Active** on the appropriate date.</span></span> <span data-ttu-id="7f603-109">Tačiau neperskaičiuokite pagamintų prekių, naudojančių nupirktas prekes, išlaidų.</span><span class="sxs-lookup"><span data-stu-id="7f603-109">However, don't recalculate the costs of manufactured items that use the purchased items.</span></span>
+-   <span data-ttu-id="7f603-110">Įveskite naujai nupirktos prekės standartines išlaidas, bet neperskaičiuokite pagamintų prekių, turinčių komplektavimo specifikacijos (KS) versiją, kurios vienas iš komponentų yra naujai nupirkta prekė, išlaidų.</span><span class="sxs-lookup"><span data-stu-id="7f603-110">Enter standard costs for a new purchased item, but don't recalculate the costs of manufactured items that have a bill of materials (BOM) version that contains the new purchased item as a component.</span></span>
+-   <span data-ttu-id="7f603-111">Pataisykite ir pakeiskite nupirktos prekės išlaidas arba pakeiskite nupirktai prekei priskirtą išlaidų grupę bei apskaičiuokite visų pagamintų prekių, turinčių KS versiją, kurios vienas iš komponentų yra nupirkta prekė, išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-111">Correct or change the cost of a purchased item, or change the cost group that is assigned to a purchased item, and calculate the cost for all manufactured items that have a BOM version that contains the purchased item as a component.</span></span>
+-   <span data-ttu-id="7f603-112">Pakeiskite išlaidų kategorijos išlaidas ir apskaičiuokite visų pagamintų prekių, turinčių maršruto versiją, kurioje yra išlaidų kategoriją naudojančios maršruto planavimo operacijos, išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-112">Change the cost for a cost category, and calculate the cost for all manufactured items that have a route version that contains routing operations that use the cost category.</span></span>
+-   <span data-ttu-id="7f603-113">Pakeiskite išlaidų kategorijas, priskirtas maršruto planavimo operacijoms arba išlaidų grupei, kuri priskirta išlaidų kategorijoms.</span><span class="sxs-lookup"><span data-stu-id="7f603-113">Change the cost categories that are assigned to routing operations or the cost group that is assigned to cost categories.</span></span> <span data-ttu-id="7f603-114">Tada apskaičiuokite visų pagamintų prekių, turinčių maršruto versiją, kurioje yra išlaidų kategoriją naudojančios maršruto planavimo operacijos, išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-114">Then calculate the cost for all manufactured items that have a route version that contains routing operations that use the cost category.</span></span>
+-   <span data-ttu-id="7f603-115">Pakeiskite netiesioginių išlaidų skaičiavimo formulę bei apskaičiuokite visų pagamintų prekių, kurias paveikė keitimas, išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-115">Change an indirect cost calculation formula, and calculate the cost for all manufactured items that are affected by the change.</span></span>
+-   <span data-ttu-id="7f603-116">Pakeiskite arba pridėkite gamybos teritoriją pagamintai prekei ir apskaičiuokite pagamintos prekės išlaidas teritorijai.</span><span class="sxs-lookup"><span data-stu-id="7f603-116">Change or add a manufacturing site for a manufactured item, and calculate the item's manufactured cost for the site.</span></span>
+-   <span data-ttu-id="7f603-117">Apskaičiuokite, arba perskaičiuokite, pagamintos prekės išlaidas ir perskaičiuokite visų pagamintų prekių, turinčių KS versiją, kurios vienas iš komponentų yra pagaminta prekė, išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-117">Calculate, or recalculate, the cost for a manufactured item, and recalculate the cost for all manufactured items that have a BOM version that contains the manufactured item as a component.</span></span>
+-   <span data-ttu-id="7f603-118">Apskaičiuokite naujai pagamintos prekės išlaidas, atsižvelgdami į nurodytą, patvirtintą ir aktyvią KS ir maršruto informaciją.</span><span class="sxs-lookup"><span data-stu-id="7f603-118">Calculate costs for a new manufactured item, based on its defined, approved, and active BOM and route information.</span></span>
 
-Kiekvienu atveju reikia kruopščiai įvertinti, kaip atnaujinti standartines išlaidas.
+<span data-ttu-id="7f603-119">Kiekvienu atveju reikia kruopščiai įvertinti, kaip atnaujinti standartines išlaidas.</span><span class="sxs-lookup"><span data-stu-id="7f603-119">Each case requires careful consideration about how to update standard costs.</span></span>
 
 
 

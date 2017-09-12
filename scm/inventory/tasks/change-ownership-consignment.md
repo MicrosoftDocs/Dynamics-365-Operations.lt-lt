@@ -1,4 +1,4 @@
---- 
+---
 title: "Konsignacinių atsargų nuosavybės pakeitimas pagal gamybos poreikį"
 description: "Šioje procedūroje parodoma, kaip pakeisti konsignacijos atsargų savininką iš tiekėjo į savo juridinį subjektą esant gaminamų atsargų poreikiui."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,39 +17,38 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c0126ef34ccbf15d180ff9aa474ac7ab8a749bb4
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Konsignacinių atsargų nuosavybės pakeitimas pagal gamybos poreikį
+# <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="64c41-103">Konsignacinių atsargų nuosavybės pakeitimas pagal gamybos poreikį</span><span class="sxs-lookup"><span data-stu-id="64c41-103">Change the ownership of consignment inventory based on production demand</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip pakeisti konsignacijos atsargų savininką iš tiekėjo į savo juridinį subjektą esant gaminamų atsargų poreikiui. Šis nuosavybės pakeitimas atliekamas kuriant ir registruojant atsargų nuosavybės pakeitimo žurnalą. Nuosavybės pakeitimo žurnalo eilutes galima kurti neautomatiniu būdu arba, kaip parodyta šiame įraše, pagal esamą gamybos poreikį. Paprastai šią užduotį atlieka darbo laiko prižiūrėtojas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad tenkinamos šios sąlygos: nustatytas atsargų nuosavybės pakeitimo žurnalo pavadinimas, tiekėjui priklausiančios turimos prekės fiziškai įrašytos ir yra viena arba daugiau medžiagos gamybos užsakymo eilučių. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+<span data-ttu-id="64c41-104">Šioje procedūroje parodoma, kaip pakeisti konsignacijos atsargų savininką iš tiekėjo į savo juridinį subjektą esant gaminamų atsargų poreikiui.</span><span class="sxs-lookup"><span data-stu-id="64c41-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="64c41-105">Šis nuosavybės pakeitimas atliekamas kuriant ir registruojant atsargų nuosavybės pakeitimo žurnalą.</span><span class="sxs-lookup"><span data-stu-id="64c41-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="64c41-106">Nuosavybės pakeitimo žurnalo eilutes galima kurti neautomatiniu būdu arba, kaip parodyta šiame įraše, pagal esamą gamybos poreikį.</span><span class="sxs-lookup"><span data-stu-id="64c41-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="64c41-107">Paprastai šią užduotį atlieka darbo laiko prižiūrėtojas.</span><span class="sxs-lookup"><span data-stu-id="64c41-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="64c41-108">Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis.</span><span class="sxs-lookup"><span data-stu-id="64c41-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="64c41-109">Jei naudojate savo duomenis, įsitikinkite, kad tenkinamos šios sąlygos: nustatytas atsargų nuosavybės pakeitimo žurnalo pavadinimas, tiekėjui priklausiančios turimos prekės fiziškai įrašytos ir yra viena arba daugiau medžiagos gamybos užsakymo eilučių.</span><span class="sxs-lookup"><span data-stu-id="64c41-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="64c41-110">Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.</span><span class="sxs-lookup"><span data-stu-id="64c41-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-an-inventory-ownership-journal"></a>Atsargų nuosavybės žurnalo kūrimas
-1. Eikite į Atsargų valdymas > Žurnalo įrašai > Prekės > Atsargų nuosavybės pakeitimas.
-2. Spustelėkite Naujas.
-    * Atsargų nuosavybės pakeitimo žurnalas naudojamas norint keisti konsignacijos atsargų savininką iš tiekėjo į dabartinį juridinį subjektą. Šis nuosavybės pakeitimas atliekamas išleidžiant turimas atsargas, kurios priklauso tiekėjui, ir tada gaunant tas atsargas dabartiniame juridiniame subjekte.  
-3. Lauke Pavadinimas įveskite arba pasirinkite reikšmę.
-    * Galite pasirinkti tik atsargų žurnalų pavadinimus, kurių žurnalo tipas yra Nuosavybės pakeitimas.  
-4. Spustelėkite GERAI.
-5. Spustelėkite Funkcijos.
-6. Spustelėkite Kurti žurnalo eilutes iš gamybos užsakymų.
-    * Galite pradėti nuosavybės pakeitimo procesą, pateikdami užklausą dėl visų gamybos eilučių, kuriose yra žaliavų sunaudojimo poreikis.  
-7. Lauke Įtrauktinos atsargų išdavimo būsenos pasirinkite parinktį.
-    * Ši parinktis leidžia filtruoti pagal atsargų operacijų išdavimo būseną. Pavyzdžiui, galite kurti žurnalo eilutes, skirtas atsargoms, kurių būsena yra Paimta arba Rezervuota faktiškai.  
-8. Išplėskite dalį Įtrauktini įrašai.
-    * Šis skyrius suteikia galimybę taikyti papildomus filtrus. Pavyzdžiui, galite pasirinkti konkrečią žaliavų datą.  
-9. Spustelėkite GERAI.
+## <a name="create-an-inventory-ownership-journal"></a><span data-ttu-id="64c41-111">Atsargų nuosavybės žurnalo kūrimas</span><span class="sxs-lookup"><span data-stu-id="64c41-111">Create an inventory ownership journal</span></span>
+1. <span data-ttu-id="64c41-112">Eikite į Atsargų valdymas > Žurnalo įrašai > Prekės > Atsargų nuosavybės pakeitimas.</span><span class="sxs-lookup"><span data-stu-id="64c41-112">Go to Inventory management > Journal entries > Items > Inventory ownership change.</span></span>
+2. <span data-ttu-id="64c41-113">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="64c41-113">Click New.</span></span>
+    * <span data-ttu-id="64c41-114">Atsargų nuosavybės pakeitimo žurnalas naudojamas norint keisti konsignacijos atsargų savininką iš tiekėjo į dabartinį juridinį subjektą.</span><span class="sxs-lookup"><span data-stu-id="64c41-114">The inventory ownership change journal is used to change the owner of consignment inventory from the vendor to the current legal entity.</span></span> <span data-ttu-id="64c41-115">Šis nuosavybės pakeitimas atliekamas išleidžiant turimas atsargas, kurios priklauso tiekėjui, ir tada gaunant tas atsargas dabartiniame juridiniame subjekte.</span><span class="sxs-lookup"><span data-stu-id="64c41-115">This change of ownership is done by releasing the on-hand inventory that is owned by the vendor and then receiving that inventory in the current legal entity.</span></span>  
+3. <span data-ttu-id="64c41-116">Lauke Pavadinimas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="64c41-116">In the Name field, enter or select a value.</span></span>
+    * <span data-ttu-id="64c41-117">Galite pasirinkti tik atsargų žurnalų pavadinimus, kurių žurnalo tipas yra Nuosavybės pakeitimas.</span><span class="sxs-lookup"><span data-stu-id="64c41-117">You can select only inventory journal names that have a journal type of Ownership change.</span></span>  
+4. <span data-ttu-id="64c41-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="64c41-118">Click OK.</span></span>
+5. <span data-ttu-id="64c41-119">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="64c41-119">Click Functions.</span></span>
+6. <span data-ttu-id="64c41-120">Spustelėkite Kurti žurnalo eilutes iš gamybos užsakymų.</span><span class="sxs-lookup"><span data-stu-id="64c41-120">Click Create journal lines from production orders.</span></span>
+    * <span data-ttu-id="64c41-121">Galite pradėti nuosavybės pakeitimo procesą, pateikdami užklausą dėl visų gamybos eilučių, kuriose yra žaliavų sunaudojimo poreikis.</span><span class="sxs-lookup"><span data-stu-id="64c41-121">You can start the change of ownership process by querying all the production lines that have demand for consumption of raw material.</span></span>  
+7. <span data-ttu-id="64c41-122">Lauke Įtrauktinos atsargų išdavimo būsenos pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="64c41-122">In the Inventory issue statuses to include field, select an option.</span></span>
+    * <span data-ttu-id="64c41-123">Ši parinktis leidžia filtruoti pagal atsargų operacijų išdavimo būseną.</span><span class="sxs-lookup"><span data-stu-id="64c41-123">This option lets you filter by the issue status of the inventory transactions.</span></span> <span data-ttu-id="64c41-124">Pavyzdžiui, galite kurti žurnalo eilutes, skirtas atsargoms, kurių būsena yra Paimta arba Rezervuota faktiškai.</span><span class="sxs-lookup"><span data-stu-id="64c41-124">For example, you can create journal lines for inventory that has the Picked and Reserved physical statuses.</span></span>  
+8. <span data-ttu-id="64c41-125">Išplėskite dalį Įtrauktini įrašai.</span><span class="sxs-lookup"><span data-stu-id="64c41-125">Expand the Records to include section.</span></span>
+    * <span data-ttu-id="64c41-126">Šis skyrius suteikia galimybę taikyti papildomus filtrus.</span><span class="sxs-lookup"><span data-stu-id="64c41-126">This section lets you apply additional filtering.</span></span> <span data-ttu-id="64c41-127">Pavyzdžiui, galite pasirinkti konkrečią žaliavų datą.</span><span class="sxs-lookup"><span data-stu-id="64c41-127">For example, you can select a specific raw material date.</span></span>  
+9. <span data-ttu-id="64c41-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="64c41-128">Click OK.</span></span>
 
-## <a name="post-the-inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalo registravimas
-1. Spustelėkite Registruoti.
-    * Kai žurnalas užregistruojamas, tiekėjui priklausančios atsargos yra išleidžiamos naudojant nuorodą Nuosavybės pakeitimas. Tada atsargos yra gaunamos kaip turimas kiekis naudojant atsargų operaciją, kuri yra atnaujinama pirkimo užsakymo gavimo dokumentu. Atkreipkite dėmesį, kad kuriamos tik operacijos, susijusios su užregistruotu žurnalu. Numatomų atsargų operacijos nekuriamos.  
-2. Spustelėkite GERAI.
-3. Uždarykite puslapį.
-
+## <a name="post-the-inventory-ownership-change-journal"></a><span data-ttu-id="64c41-129">Atsargų nuosavybės pakeitimo žurnalo registravimas</span><span class="sxs-lookup"><span data-stu-id="64c41-129">Post the inventory ownership change journal</span></span>
+1. <span data-ttu-id="64c41-130">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="64c41-130">Click Post.</span></span>
+    * <span data-ttu-id="64c41-131">Kai žurnalas užregistruojamas, tiekėjui priklausančios atsargos yra išleidžiamos naudojant nuorodą Nuosavybės pakeitimas.</span><span class="sxs-lookup"><span data-stu-id="64c41-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="64c41-132">Tada atsargos yra gaunamos kaip turimas kiekis naudojant atsargų operaciją, kuri yra atnaujinama pirkimo užsakymo gavimo dokumentu.</span><span class="sxs-lookup"><span data-stu-id="64c41-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="64c41-133">Atkreipkite dėmesį, kad kuriamos tik operacijos, susijusios su užregistruotu žurnalu.</span><span class="sxs-lookup"><span data-stu-id="64c41-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="64c41-134">Numatomų atsargų operacijos nekuriamos.</span><span class="sxs-lookup"><span data-stu-id="64c41-134">No expected inventory transactions are created.</span></span>  
+2. <span data-ttu-id="64c41-135">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="64c41-135">Click OK.</span></span>
+3. <span data-ttu-id="64c41-136">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="64c41-136">Close the page.</span></span>
 

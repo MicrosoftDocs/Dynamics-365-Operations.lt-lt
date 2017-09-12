@@ -16,52 +16,52 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3b0ba3a29514351a89cf83f1ce7a3e147626e721
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2247edfd803ce238b3b7ca57d9d47dda9c3b0cae
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu
+# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="a70b7-103">Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu</span><span class="sxs-lookup"><span data-stu-id="a70b7-103">Record vendor invoice and match against received quantity</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Gavę sąskaitą faktūrą iš tiekėjo už prekes ir paslaugas, pateiktas pirkimo užsakyme, atsižvelgiant į verslo procesus, gali reikėti, kad prekės ar paslaugos būtų gautos prieš pateikiant sąskaitą faktūrą apmokėti. Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas. 
+<span data-ttu-id="a70b7-104">Gavę sąskaitą faktūrą iš tiekėjo už prekes ir paslaugas, pateiktas pirkimo užsakyme, atsižvelgiant į verslo procesus, gali reikėti, kad prekės ar paslaugos būtų gautos prieš pateikiant sąskaitą faktūrą apmokėti.</span><span class="sxs-lookup"><span data-stu-id="a70b7-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="a70b7-105">Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas.</span><span class="sxs-lookup"><span data-stu-id="a70b7-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-Puslapyje Mokėtinų sumų parametrai įsitikinkite, kad pasirinkta parinktis Įgalinti SF gretinimo tikrinimą, laukas Registruoti SF su nesutapimais nustatytas į Reikalauti patvirtinimo, o laukas Eilučių atitikimo strategija nustatytas į Tripusis atitikimas.
+<span data-ttu-id="a70b7-106">Puslapyje Mokėtinų sumų parametrai įsitikinkite, kad pasirinkta parinktis Įgalinti SF gretinimo tikrinimą, laukas Registruoti SF su nesutapimais nustatytas į Reikalauti patvirtinimo, o laukas Eilučių atitikimo strategija nustatytas į Tripusis atitikimas.</span><span class="sxs-lookup"><span data-stu-id="a70b7-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
 
-Šioje procedūroje naudojama demonstracinė įmonė USMF. Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo.
+<span data-ttu-id="a70b7-107">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="a70b7-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="a70b7-108">Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="a70b7-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
-1. Eikite į Visi pirkimo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Lauke Tiekėjo sąskaita surinkite reikšmę.
-5. Spustelėkite GERAI.
-6. Spustelėkite Pridėti eilutę.
-7. Lauke Prekės numeris surinkite reikšmę.
-8. Veiksmų srityje spustelėkite Pirkti.
-9. Spustelėkite Patvirtinti.
+## <a name="create-a-purchase-order"></a><span data-ttu-id="a70b7-109">Pirkimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="a70b7-109">Create a purchase order</span></span>
+1. <span data-ttu-id="a70b7-110">Eikite į Visi pirkimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="a70b7-110">Go to All purchase orders.</span></span>
+2. <span data-ttu-id="a70b7-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a70b7-111">Click New.</span></span>
+3. <span data-ttu-id="a70b7-112">Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a70b7-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a70b7-113">Lauke Tiekėjo sąskaita surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-113">In the Vendor account field, type a value.</span></span>
+5. <span data-ttu-id="a70b7-114">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a70b7-114">Click OK.</span></span>
+6. <span data-ttu-id="a70b7-115">Spustelėkite Pridėti eilutę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-115">Click Add line.</span></span>
+7. <span data-ttu-id="a70b7-116">Lauke Prekės numeris surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-116">In the Item number field, type a value.</span></span>
+8. <span data-ttu-id="a70b7-117">Veiksmų srityje spustelėkite Pirkti.</span><span class="sxs-lookup"><span data-stu-id="a70b7-117">On the Action Pane, click Purchase.</span></span>
+9. <span data-ttu-id="a70b7-118">Spustelėkite Patvirtinti.</span><span class="sxs-lookup"><span data-stu-id="a70b7-118">Click Confirm.</span></span>
 
-## <a name="post-a-product-receipt"></a>Registruoti produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Gauti.
-2. Spustelėkite Produkto gavimo kvitas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Produkto gavimo kvitas surinkite reikšmę.
-5. Spustelėkite GERAI.
+## <a name="post-a-product-receipt"></a><span data-ttu-id="a70b7-119">Registruoti produkto gavimo kvitą</span><span class="sxs-lookup"><span data-stu-id="a70b7-119">Post a product receipt</span></span>
+1. <span data-ttu-id="a70b7-120">Veiksmų srityje spustelėkite Gauti.</span><span class="sxs-lookup"><span data-stu-id="a70b7-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="a70b7-121">Spustelėkite Produkto gavimo kvitas.</span><span class="sxs-lookup"><span data-stu-id="a70b7-121">Click Product receipt.</span></span>
+3. <span data-ttu-id="a70b7-122">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-122">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="a70b7-123">Lauke Produkto gavimo kvitas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-123">In the Product receipt field, type a value.</span></span>
+5. <span data-ttu-id="a70b7-124">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a70b7-124">Click OK.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Įrašyti bei gretinti tiekėjo SF ir produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Sąskaita faktūra.
-2. Spustelėkite Sąskaita faktūra.
-3. Lauke Numeris surinkite reikšmę.
-4. Spustelėkite Numatyt. iš: užsakyto kiekio, kad atidarytumėte išplečiamąjį dialogo langą.
-5. Lauke Numatytasis eilučių kiekis pasirinkite parinktį.
-6. Spustelėkite GERAI.
-7. Spustelėkite Taip.
-8. Spustelėkite Sugretinti gavimo dokumentus.
-9. Spustelėkite GERAI.
-10. Veiksmų srityje spustelėkite Peržiūrėti.
-11. Spustelėkite Gretinimo informacija.
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="a70b7-125">Įrašyti bei gretinti tiekėjo SF ir produkto gavimo kvitą</span><span class="sxs-lookup"><span data-stu-id="a70b7-125">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="a70b7-126">Veiksmų srityje spustelėkite Sąskaita faktūra.</span><span class="sxs-lookup"><span data-stu-id="a70b7-126">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="a70b7-127">Spustelėkite Sąskaita faktūra.</span><span class="sxs-lookup"><span data-stu-id="a70b7-127">Click Invoice.</span></span>
+3. <span data-ttu-id="a70b7-128">Lauke Numeris surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a70b7-128">In the Number field, type a value.</span></span>
+4. <span data-ttu-id="a70b7-129">Spustelėkite Numatyt. iš: užsakyto kiekio, kad atidarytumėte išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="a70b7-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
+5. <span data-ttu-id="a70b7-130">Lauke Numatytasis eilučių kiekis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="a70b7-130">In the Default quantity for lines field, select an option.</span></span>
+6. <span data-ttu-id="a70b7-131">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a70b7-131">Click OK.</span></span>
+7. <span data-ttu-id="a70b7-132">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="a70b7-132">Click Yes.</span></span>
+8. <span data-ttu-id="a70b7-133">Spustelėkite Sugretinti gavimo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="a70b7-133">Click Match product receipts.</span></span>
+9. <span data-ttu-id="a70b7-134">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a70b7-134">Click OK.</span></span>
+10. <span data-ttu-id="a70b7-135">Veiksmų srityje spustelėkite Peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="a70b7-135">On the Action Pane, click Review.</span></span>
+11. <span data-ttu-id="a70b7-136">Spustelėkite Gretinimo informacija.</span><span class="sxs-lookup"><span data-stu-id="a70b7-136">Click Matching details.</span></span>
 
 

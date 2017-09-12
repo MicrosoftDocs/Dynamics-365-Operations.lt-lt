@@ -16,26 +16,26 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e05895160b7695eea7c26b76dd1953b80ba063e9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d3d5324a6a70539a2b2ba5bb208a546934a7782f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product"></a>Sukurti produktą
+# <a name="create-a-product"></a><span data-ttu-id="7a47b-103">Sukurti produktą</span><span class="sxs-lookup"><span data-stu-id="7a47b-103">Create a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra padeda kurti naują produktą mažmeninės prekybos produktų hierarchijoje. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir ši užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.
+<span data-ttu-id="7a47b-104">Ši procedūra padeda kurti naują produktą mažmeninės prekybos produktų hierarchijoje.</span><span class="sxs-lookup"><span data-stu-id="7a47b-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="7a47b-105">Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir ši užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.</span><span class="sxs-lookup"><span data-stu-id="7a47b-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
 
-1. Eikite į Mažmeninė prekyba ir prekyba> ... > Produktai pagal kategoriją.
-2. Spustelėkite Naujas.
-3. Lauke Produkto pavadinimas įveskite produkto pavadinimą.
-4. Lauke Mažmeninės prekybos kategorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Medyje išplėskite „VISOS (VISOS) \ Madingos prekės (madingos prekės)‟.
-6. Medyje pasirinkite „VISOS (VISOS) \ Madingos prekės (Madingos prekės) \ Madingi priedai (Madingi priedai)“.
-7. Spustelėkite Gerai.
-8. Lauke „Produkto numeris“ įveskite reikšmę.
-9. Spustelėkite GERAI.
+1. <span data-ttu-id="7a47b-106">Eikite į Mažmeninė prekyba ir prekyba> ...</span><span class="sxs-lookup"><span data-stu-id="7a47b-106">Go to Retail and commerce > ..</span></span> <span data-ttu-id="7a47b-107">> Produktai pagal kategoriją.</span><span class="sxs-lookup"><span data-stu-id="7a47b-107">> Products by category.</span></span>
+2. <span data-ttu-id="7a47b-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="7a47b-108">Click New.</span></span>
+3. <span data-ttu-id="7a47b-109">Lauke Produkto pavadinimas įveskite produkto pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="7a47b-109">In the Product name field, type a name for your product..</span></span>
+4. <span data-ttu-id="7a47b-110">Lauke Mažmeninės prekybos kategorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="7a47b-110">In the Retail category field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="7a47b-111">Medyje išplėskite „VISOS (VISOS) \ Madingos prekės (madingos prekės)‟.</span><span class="sxs-lookup"><span data-stu-id="7a47b-111">In the tree, expand 'ALL (ALL)\Fashion (Fashion)'.</span></span>
+6. <span data-ttu-id="7a47b-112">Medyje pasirinkite „VISOS (VISOS) \ Madingos prekės (Madingos prekės) \ Madingi priedai (Madingi priedai)“.</span><span class="sxs-lookup"><span data-stu-id="7a47b-112">In the tree, select 'ALL (ALL)\Fashion (Fashion)\Fashion Accessories (Fashion Accessories)'.</span></span>
+7. <span data-ttu-id="7a47b-113">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="7a47b-113">Click OK.</span></span>
+8. <span data-ttu-id="7a47b-114">Lauke „Produkto numeris“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7a47b-114">In the Product number field, type a value.</span></span>
+9. <span data-ttu-id="7a47b-115">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="7a47b-115">Click OK.</span></span>
 
 

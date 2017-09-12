@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Mokėjimų nuolaidų esant permokoms apdorojimas
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="4831d-103">Mokėjimų nuolaidų esant permokoms apdorojimas</span><span class="sxs-lookup"><span data-stu-id="4831d-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikti scenarijai, rodantys, kaip tvarkyti mokėjimą, kai klientas gauna mokėjimo nuolaidą, bet ir permoka. 
+<span data-ttu-id="4831d-104">Šiame straipsnyje pateikti scenarijai, rodantys, kaip tvarkyti mokėjimą, kai klientas gauna mokėjimo nuolaidą, bet ir permoka.</span><span class="sxs-lookup"><span data-stu-id="4831d-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Laikoma, kad permokėta pagal SF, kai mokėjimo suma yra didesnė už SF sumos ir mokėjimo nuolaidos skirtumą. Norėdami nurodyti, kaip bus apdorojamas gautinas mokėjimo nuolaidos skirtumas permokėjus pagal SF, naudokite puslapio **Gautinų sumų parametrai** laukus **Mokėjimo nuolaidų administravimas** ir **Maksimalus permokėjimas / neprimokėjimas**. Šiame pavyzdyje, klientas permokėjo sąskaitą faktūrą 0,50.
+<span data-ttu-id="4831d-105">Laikoma, kad permokėta pagal SF, kai mokėjimo suma yra didesnė už SF sumos ir mokėjimo nuolaidos skirtumą.</span><span class="sxs-lookup"><span data-stu-id="4831d-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="4831d-106">Norėdami nurodyti, kaip bus apdorojamas gautinas mokėjimo nuolaidos skirtumas permokėjus pagal SF, naudokite puslapio **Gautinų sumų parametrai** laukus **Mokėjimo nuolaidų administravimas** ir **Maksimalus permokėjimas / neprimokėjimas**.</span><span class="sxs-lookup"><span data-stu-id="4831d-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="4831d-107">Šiame pavyzdyje, klientas permokėjo sąskaitą faktūrą 0,50.</span><span class="sxs-lookup"><span data-stu-id="4831d-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Bendroji SF suma | Galima mokėjimo nuolaida | Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą | Suma, kurią klientas iš tikrųjų moka |
+| <span data-ttu-id="4831d-108">Bendroji SF suma</span><span class="sxs-lookup"><span data-stu-id="4831d-108">Invoice total</span></span> | <span data-ttu-id="4831d-109">Galima mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-109">Cash discount available</span></span> | <span data-ttu-id="4831d-110">Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą</span><span class="sxs-lookup"><span data-stu-id="4831d-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="4831d-111">Suma, kurią klientas iš tikrųjų moka</span><span class="sxs-lookup"><span data-stu-id="4831d-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="4831d-112">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-112">105.00</span></span>        | <span data-ttu-id="4831d-113">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-113">10.50</span></span>                   | <span data-ttu-id="4831d-114">94,50</span><span class="sxs-lookup"><span data-stu-id="4831d-114">94.50</span></span>                                               | <span data-ttu-id="4831d-115">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Mokėjimo nuolaidų administravimas = specifinis
-Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Specifinis**, naudojama visa mokėjimo nuolaida. Permokėjimo suma yra užregistruojama mokėjimo nuolaidų skirtumų DK sąskaitoje arba išlieka kaip kliento sąskaitos balansas. Atliekamą veiksmą lemia šios sąlygos: permokėjimo suma yra tarp 0,00 ir lauke**Maksimalus permokėjimas / neprimokėjimas** įvestos sumos, ar permokėjimo suma yra didesnė už lauko **Maksimalus permokėjimas / neprimokėjimas** sumą.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="4831d-116">Mokėjimo nuolaidų administravimas = specifinis</span><span class="sxs-lookup"><span data-stu-id="4831d-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="4831d-117">Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Specifinis**, naudojama visa mokėjimo nuolaida.</span><span class="sxs-lookup"><span data-stu-id="4831d-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="4831d-118">Permokėjimo suma yra užregistruojama mokėjimo nuolaidų skirtumų DK sąskaitoje arba išlieka kaip kliento sąskaitos balansas.</span><span class="sxs-lookup"><span data-stu-id="4831d-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="4831d-119">Atliekamą veiksmą lemia šios sąlygos: permokėjimo suma yra tarp 0,00 ir lauke**Maksimalus permokėjimas / neprimokėjimas** įvestos sumos, ar permokėjimo suma yra didesnė už lauko **Maksimalus permokėjimas / neprimokėjimas** sumą.</span><span class="sxs-lookup"><span data-stu-id="4831d-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>1 scenarijus
+### <a name="scenario-1"></a><span data-ttu-id="4831d-120">1 scenarijus</span><span class="sxs-lookup"><span data-stu-id="4831d-120">Scenario 1</span></span>
 
-Pagal šį scenarijų permokėjimo suma yra tarp 0,00 ir maksimalaus permokėjimo / neprimokėjimo sumos. SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.
+<span data-ttu-id="4831d-121">Pagal šį scenarijų permokėjimo suma yra tarp 0,00 ir maksimalaus permokėjimo / neprimokėjimo sumos.</span><span class="sxs-lookup"><span data-stu-id="4831d-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="4831d-122">SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.</span><span class="sxs-lookup"><span data-stu-id="4831d-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Bendroji SF suma | Galima mokėjimo nuolaida | Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą |
+| <span data-ttu-id="4831d-123">Bendroji SF suma</span><span class="sxs-lookup"><span data-stu-id="4831d-123">Invoice total</span></span> | <span data-ttu-id="4831d-124">Galima mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-124">Cash discount available</span></span> | <span data-ttu-id="4831d-125">Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą</span><span class="sxs-lookup"><span data-stu-id="4831d-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4831d-126">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-126">105.00</span></span>        | <span data-ttu-id="4831d-127">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-127">10.50</span></span>                   | <span data-ttu-id="4831d-128">94,50</span><span class="sxs-lookup"><span data-stu-id="4831d-128">94.50</span></span>                                               |
 
-Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiamas su 105,00 SF. Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.
+<span data-ttu-id="4831d-129">Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00.</span><span class="sxs-lookup"><span data-stu-id="4831d-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="4831d-130">Mokėjimas yra sudengiamas su 105,00 SF.</span><span class="sxs-lookup"><span data-stu-id="4831d-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4831d-131">Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.</span><span class="sxs-lookup"><span data-stu-id="4831d-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Operacija   | Suma | Likutis |
+| <span data-ttu-id="4831d-132">Operacija</span><span class="sxs-lookup"><span data-stu-id="4831d-132">Transaction</span></span>   | <span data-ttu-id="4831d-133">Suma</span><span class="sxs-lookup"><span data-stu-id="4831d-133">Amount</span></span> | <span data-ttu-id="4831d-134">Likutis</span><span class="sxs-lookup"><span data-stu-id="4831d-134">Balance</span></span> |
 |---------------|--------|---------|
-| PVM sąskaita faktūra       | 105,00 | 0,00    |
-| Mokėjimas       | –95,00 | 0,00    |
-| Mokėjimo nuolaida | –10,50 | 0,00    |
+| <span data-ttu-id="4831d-135">PVM sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="4831d-135">Invoice</span></span>       | <span data-ttu-id="4831d-136">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-136">105.00</span></span> | <span data-ttu-id="4831d-137">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-137">0.00</span></span>    |
+| <span data-ttu-id="4831d-138">Mokėjimas</span><span class="sxs-lookup"><span data-stu-id="4831d-138">Payment</span></span>       | <span data-ttu-id="4831d-139">–95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-139">-95.00</span></span> | <span data-ttu-id="4831d-140">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-140">0.00</span></span>    |
+| <span data-ttu-id="4831d-141">Mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-141">Cash discount</span></span> | <span data-ttu-id="4831d-142">–10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-142">-10.50</span></span> | <span data-ttu-id="4831d-143">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-143">0.00</span></span>    |
 
-Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai. **Mokėjimas**
+<span data-ttu-id="4831d-144">Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai.</span><span class="sxs-lookup"><span data-stu-id="4831d-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="4831d-145">**Mokėjimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-145">**Payment**</span></span>
 
-| Paskyra             | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-146">Paskyra</span><span class="sxs-lookup"><span data-stu-id="4831d-146">Account</span></span>             | <span data-ttu-id="4831d-147">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-147">Debit amount</span></span> | <span data-ttu-id="4831d-148">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Grynieji pinigai                | 95,00        |               |
-| Gautinos sumos |              | 95,00         |
+| <span data-ttu-id="4831d-149">Grynieji pinigai</span><span class="sxs-lookup"><span data-stu-id="4831d-149">Cash</span></span>                | <span data-ttu-id="4831d-150">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-150">95.00</span></span>        |               |
+| <span data-ttu-id="4831d-151">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-151">Accounts receivable</span></span> |              | <span data-ttu-id="4831d-152">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-152">95.00</span></span>         |
 
-**Sudengimas**
+<span data-ttu-id="4831d-153">**Sudengimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-153">**Settlement**</span></span>
 
-| Paskyra                                                                                                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-154">Paskyra</span><span class="sxs-lookup"><span data-stu-id="4831d-154">Account</span></span>                                                                                                          | <span data-ttu-id="4831d-155">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-155">Debit amount</span></span> | <span data-ttu-id="4831d-156">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**)                 | 10,50        |               |
-| Gautinos sumos                                                                                              |              | 10,50         |
-| Kliento mokėjimo nuolaida (puslapio **Automatinių operacijų sąskaita** laukas **Kliento mokėjimo nuolaida**) |              | 0,50          |
-| Gautinos sumos                                                                                              | 0,50         |               |
+| <span data-ttu-id="4831d-157">Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**)</span><span class="sxs-lookup"><span data-stu-id="4831d-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="4831d-158">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-158">10.50</span></span>        |               |
+| <span data-ttu-id="4831d-159">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="4831d-160">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-160">10.50</span></span>         |
+| <span data-ttu-id="4831d-161">Kliento mokėjimo nuolaida (puslapio **Automatinių operacijų sąskaita** laukas **Kliento mokėjimo nuolaida**)</span><span class="sxs-lookup"><span data-stu-id="4831d-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="4831d-162">0,50</span><span class="sxs-lookup"><span data-stu-id="4831d-162">0.50</span></span>          |
+| <span data-ttu-id="4831d-163">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="4831d-164">0,50</span><span class="sxs-lookup"><span data-stu-id="4831d-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>2 scenarijus
+### <a name="scenario-2"></a><span data-ttu-id="4831d-165">2 scenarijus</span><span class="sxs-lookup"><span data-stu-id="4831d-165">Scenario 2</span></span>
 
-Pagal šį scenarijų permokėjimo suma yra didesnė už maksimalaus permokėjimo / neprimokėjimo sumą. SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.
+<span data-ttu-id="4831d-166">Pagal šį scenarijų permokėjimo suma yra didesnė už maksimalaus permokėjimo / neprimokėjimo sumą.</span><span class="sxs-lookup"><span data-stu-id="4831d-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="4831d-167">SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.</span><span class="sxs-lookup"><span data-stu-id="4831d-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Bendroji SF suma | Galima mokėjimo nuolaida | Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą |
+| <span data-ttu-id="4831d-168">Bendroji SF suma</span><span class="sxs-lookup"><span data-stu-id="4831d-168">Invoice total</span></span> | <span data-ttu-id="4831d-169">Galima mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-169">Cash discount available</span></span> | <span data-ttu-id="4831d-170">Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą</span><span class="sxs-lookup"><span data-stu-id="4831d-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4831d-171">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-171">105.00</span></span>        | <span data-ttu-id="4831d-172">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-172">10.50</span></span>                   | <span data-ttu-id="4831d-173">94,50</span><span class="sxs-lookup"><span data-stu-id="4831d-173">94.50</span></span>                                               |
 
-Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiamas su 105,00 SF. Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.
+<span data-ttu-id="4831d-174">Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00.</span><span class="sxs-lookup"><span data-stu-id="4831d-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="4831d-175">Mokėjimas yra sudengiamas su 105,00 SF.</span><span class="sxs-lookup"><span data-stu-id="4831d-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4831d-176">Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.</span><span class="sxs-lookup"><span data-stu-id="4831d-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Operacija   | Suma | Likutis |
+| <span data-ttu-id="4831d-177">Operacija</span><span class="sxs-lookup"><span data-stu-id="4831d-177">Transaction</span></span>   | <span data-ttu-id="4831d-178">Suma</span><span class="sxs-lookup"><span data-stu-id="4831d-178">Amount</span></span> | <span data-ttu-id="4831d-179">Likutis</span><span class="sxs-lookup"><span data-stu-id="4831d-179">Balance</span></span> |
 |---------------|--------|---------|
-| PVM sąskaita faktūra       | 105,00 | 0,00    |
-| Mokėjimas       | –95,00 | –0,50   |
-| Mokėjimo nuolaida | –10,50 | 0,00    |
+| <span data-ttu-id="4831d-180">PVM sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="4831d-180">Invoice</span></span>       | <span data-ttu-id="4831d-181">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-181">105.00</span></span> | <span data-ttu-id="4831d-182">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-182">0.00</span></span>    |
+| <span data-ttu-id="4831d-183">Mokėjimas</span><span class="sxs-lookup"><span data-stu-id="4831d-183">Payment</span></span>       | <span data-ttu-id="4831d-184">–95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-184">-95.00</span></span> | <span data-ttu-id="4831d-185">–0,50</span><span class="sxs-lookup"><span data-stu-id="4831d-185">-0.50</span></span>   |
+| <span data-ttu-id="4831d-186">Mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-186">Cash discount</span></span> | <span data-ttu-id="4831d-187">–10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-187">-10.50</span></span> | <span data-ttu-id="4831d-188">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-188">0.00</span></span>    |
 
-Permokėta 0,50 suma lieka kaip atviras mokėjimo balansas mokėjimo ir gali būti sudengta su kita SF. Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai. **Mokėjimas**
+<span data-ttu-id="4831d-189">Permokėta 0,50 suma lieka kaip atviras mokėjimo balansas mokėjimo ir gali būti sudengta su kita SF.</span><span class="sxs-lookup"><span data-stu-id="4831d-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="4831d-190">Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai.</span><span class="sxs-lookup"><span data-stu-id="4831d-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="4831d-191">**Mokėjimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-191">**Payment**</span></span>
 
-| Paskyra             | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-192">Paskyra</span><span class="sxs-lookup"><span data-stu-id="4831d-192">Account</span></span>             | <span data-ttu-id="4831d-193">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-193">Debit amount</span></span> | <span data-ttu-id="4831d-194">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Grynieji pinigai                | 95,00        |               |
-| Gautinos sumos |              | 95,00         |
+| <span data-ttu-id="4831d-195">Grynieji pinigai</span><span class="sxs-lookup"><span data-stu-id="4831d-195">Cash</span></span>                | <span data-ttu-id="4831d-196">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-196">95.00</span></span>        |               |
+| <span data-ttu-id="4831d-197">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-197">Accounts receivable</span></span> |              | <span data-ttu-id="4831d-198">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-198">95.00</span></span>         |
 
-**Sudengimas**
+<span data-ttu-id="4831d-199">**Sudengimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-199">**Settlement**</span></span>
 
-| Paskyra                                                                                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-200">Paskyra</span><span class="sxs-lookup"><span data-stu-id="4831d-200">Account</span></span>                                                                                          | <span data-ttu-id="4831d-201">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-201">Debit amount</span></span> | <span data-ttu-id="4831d-202">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Mokėjimo nuolaida (puslapio**Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**) | 10,50        |               |
-| Gautinos sumos                                                                              |              | 10,50         |
+| <span data-ttu-id="4831d-203">Mokėjimo nuolaida (puslapio**Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**)</span><span class="sxs-lookup"><span data-stu-id="4831d-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="4831d-204">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-204">10.50</span></span>        |               |
+| <span data-ttu-id="4831d-205">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="4831d-206">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Mokėjimo nuolaidų administravimas = nespecifinis
-Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Nespecifinis**, mokėjimo nuolaidos suma sumažinama permokėjimo sumos dydžiu. Šis veiksmas visada taikomas neatsižvelgiant, ar permokėjimo suma didesnė ar mažesnė už lauke **Maksimalus permokėjimas / neprimokėjimas** įvestą sumą.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="4831d-207">Mokėjimo nuolaidų administravimas = nespecifinis</span><span class="sxs-lookup"><span data-stu-id="4831d-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="4831d-208">Kai puslapyje **Automatinių operacijų sąskaitos** pasirenkama lauko **Mokėjimo nuolaidų administravimas** parinktis **Nespecifinis**, mokėjimo nuolaidos suma sumažinama permokėjimo sumos dydžiu.</span><span class="sxs-lookup"><span data-stu-id="4831d-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="4831d-209">Šis veiksmas visada taikomas neatsižvelgiant, ar permokėjimo suma didesnė ar mažesnė už lauke **Maksimalus permokėjimas / neprimokėjimas** įvestą sumą.</span><span class="sxs-lookup"><span data-stu-id="4831d-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>3 scenarijus
+### <a name="scenario-3"></a><span data-ttu-id="4831d-210">3 scenarijus</span><span class="sxs-lookup"><span data-stu-id="4831d-210">Scenario 3</span></span>
 
-Pagal šį scenarijų SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.
+<span data-ttu-id="4831d-211">Pagal šį scenarijų SF įvedama 105,00, o jei per septynias dienas apmokama pagal SF, mokėjimo nuolaida bus galima.</span><span class="sxs-lookup"><span data-stu-id="4831d-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Bendroji SF suma | Galima mokėjimo nuolaida | Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą |
+| <span data-ttu-id="4831d-212">Bendroji SF suma</span><span class="sxs-lookup"><span data-stu-id="4831d-212">Invoice total</span></span> | <span data-ttu-id="4831d-213">Galima mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-213">Cash discount available</span></span> | <span data-ttu-id="4831d-214">Suma, kurią reikia sumokėti, įskaitant mokėjimo nuolaidą</span><span class="sxs-lookup"><span data-stu-id="4831d-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4831d-215">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-215">105.00</span></span>        | <span data-ttu-id="4831d-216">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-216">10.50</span></span>                   | <span data-ttu-id="4831d-217">94,50</span><span class="sxs-lookup"><span data-stu-id="4831d-217">94.50</span></span>                                               |
 
-Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiamas su 105,00 SF. Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.
+<span data-ttu-id="4831d-218">Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00.</span><span class="sxs-lookup"><span data-stu-id="4831d-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="4831d-219">Mokėjimas yra sudengiamas su 105,00 SF.</span><span class="sxs-lookup"><span data-stu-id="4831d-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4831d-220">Sudengus SF ir mokėjimą, bus sukurtos šios kliento gautinų sumų operacijos.</span><span class="sxs-lookup"><span data-stu-id="4831d-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Operacija   | Suma | Likutis |
+| <span data-ttu-id="4831d-221">Operacija</span><span class="sxs-lookup"><span data-stu-id="4831d-221">Transaction</span></span>   | <span data-ttu-id="4831d-222">Suma</span><span class="sxs-lookup"><span data-stu-id="4831d-222">Amount</span></span> | <span data-ttu-id="4831d-223">Likutis</span><span class="sxs-lookup"><span data-stu-id="4831d-223">Balance</span></span> |
 |---------------|--------|---------|
-| PVM sąskaita faktūra       | 105,00 | 0,00    |
-| Mokėjimas       | –95,00 | –0,00   |
-| Mokėjimo nuolaida | –10,00 | 0,00    |
+| <span data-ttu-id="4831d-224">PVM sąskaita faktūra</span><span class="sxs-lookup"><span data-stu-id="4831d-224">Invoice</span></span>       | <span data-ttu-id="4831d-225">105,00</span><span class="sxs-lookup"><span data-stu-id="4831d-225">105.00</span></span> | <span data-ttu-id="4831d-226">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-226">0.00</span></span>    |
+| <span data-ttu-id="4831d-227">Mokėjimas</span><span class="sxs-lookup"><span data-stu-id="4831d-227">Payment</span></span>       | <span data-ttu-id="4831d-228">–95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-228">-95.00</span></span> | <span data-ttu-id="4831d-229">–0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-229">-0.00</span></span>   |
+| <span data-ttu-id="4831d-230">Mokėjimo nuolaida</span><span class="sxs-lookup"><span data-stu-id="4831d-230">Cash discount</span></span> | <span data-ttu-id="4831d-231">–10,00</span><span class="sxs-lookup"><span data-stu-id="4831d-231">-10.00</span></span> | <span data-ttu-id="4831d-232">0,00</span><span class="sxs-lookup"><span data-stu-id="4831d-232">0.00</span></span>    |
 
-Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00. Mokėjimo ir SF laikomos sudengtomis. **Mokėjimas**
+<span data-ttu-id="4831d-233">Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00.</span><span class="sxs-lookup"><span data-stu-id="4831d-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="4831d-234">Mokėjimo ir SF laikomos sudengtomis.</span><span class="sxs-lookup"><span data-stu-id="4831d-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="4831d-235">**Mokėjimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-235">**Payment**</span></span>
 
-| Sąskaita             | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-236">Sąskaita</span><span class="sxs-lookup"><span data-stu-id="4831d-236">Account</span></span>             | <span data-ttu-id="4831d-237">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-237">Debit amount</span></span> | <span data-ttu-id="4831d-238">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Grynieji pinigai                | 95,00        |               |
-| Gautinos sumos |              | 95,00         |
+| <span data-ttu-id="4831d-239">Grynieji pinigai</span><span class="sxs-lookup"><span data-stu-id="4831d-239">Cash</span></span>                | <span data-ttu-id="4831d-240">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-240">95.00</span></span>        |               |
+| <span data-ttu-id="4831d-241">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-241">Accounts receivable</span></span> |              | <span data-ttu-id="4831d-242">95,00</span><span class="sxs-lookup"><span data-stu-id="4831d-242">95.00</span></span>         |
 
-**Sudengimas**
+<span data-ttu-id="4831d-243">**Sudengimas**</span><span class="sxs-lookup"><span data-stu-id="4831d-243">**Settlement**</span></span>
 
-| Paskyra                                                                                          | Debeto suma | Kredito suma |
+| <span data-ttu-id="4831d-244">Paskyra</span><span class="sxs-lookup"><span data-stu-id="4831d-244">Account</span></span>                                                                                          | <span data-ttu-id="4831d-245">Debeto suma</span><span class="sxs-lookup"><span data-stu-id="4831d-245">Debit amount</span></span> | <span data-ttu-id="4831d-246">Kredito suma</span><span class="sxs-lookup"><span data-stu-id="4831d-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**) | 10,50        |               |
-| Gautinos sumos                                                                              |              | 10,50         |
+| <span data-ttu-id="4831d-247">Mokėjimo nuolaida (puslapio **Mokėjimo nuolaidos** laukas **Pagrindinė sąskaita, skirta kliento nuolaidoms**)</span><span class="sxs-lookup"><span data-stu-id="4831d-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="4831d-248">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-248">10.50</span></span>        |               |
+| <span data-ttu-id="4831d-249">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="4831d-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="4831d-250">10,50</span><span class="sxs-lookup"><span data-stu-id="4831d-250">10.50</span></span>         |
 
 
 

@@ -19,37 +19,37 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 6c299a1297e5721119ecfb5208453f8739fb7ad0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2442f27221e429761abb8c1b17c50a737c10795
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="monitor-sales-and-margin-performance"></a>Pardavimo ir maržos efektyvumo stebėjimas
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="ed8bf-103">Pardavimo ir maržos efektyvumo stebėjimas</span><span class="sxs-lookup"><span data-stu-id="ed8bf-103">Monitor sales and margin performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Naudodami „Microsoft Dynamics 365 for Retail‟ galite realiu laiku stebėti pardavimo ir maržos našumą.
+<span data-ttu-id="ed8bf-104">Naudodami „Microsoft Dynamics 365 for Retail‟ galite realiu laiku stebėti pardavimo ir maržos našumą.</span><span class="sxs-lookup"><span data-stu-id="ed8bf-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-Viena iš „Dynamics 365 for Retail‟ siūlomų funkcijų – vartotojai realiu laiku gali stebėti toliau nurodytų dimensijų pardavimo ir maržos našumą skirtinguose organizacijos hierarchijos lygiuose.
+<span data-ttu-id="ed8bf-105">Viena iš „Dynamics 365 for Retail‟ siūlomų funkcijų – vartotojai realiu laiku gali stebėti toliau nurodytų dimensijų pardavimo ir maržos našumą skirtinguose organizacijos hierarchijos lygiuose.</span><span class="sxs-lookup"><span data-stu-id="ed8bf-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   Produktai
--   Kategorijos
--   Nuolaidos
--   Metai kaip laikotarpis
--   Registrai / terminalai
--   Personalas / darbuotojai
--   Klientai
--   Valdymo vienetai
+-   <span data-ttu-id="ed8bf-106">Produktai</span><span class="sxs-lookup"><span data-stu-id="ed8bf-106">Products</span></span>
+-   <span data-ttu-id="ed8bf-107">Kategorijos</span><span class="sxs-lookup"><span data-stu-id="ed8bf-107">Categories</span></span>
+-   <span data-ttu-id="ed8bf-108">Nuolaidos</span><span class="sxs-lookup"><span data-stu-id="ed8bf-108">Discounts</span></span>
+-   <span data-ttu-id="ed8bf-109">Metai kaip laikotarpis</span><span class="sxs-lookup"><span data-stu-id="ed8bf-109">Years as time period</span></span>
+-   <span data-ttu-id="ed8bf-110">Registrai / terminalai</span><span class="sxs-lookup"><span data-stu-id="ed8bf-110">Registers/terminals</span></span>
+-   <span data-ttu-id="ed8bf-111">Personalas / darbuotojai</span><span class="sxs-lookup"><span data-stu-id="ed8bf-111">Staff/employees</span></span>
+-   <span data-ttu-id="ed8bf-112">Klientai</span><span class="sxs-lookup"><span data-stu-id="ed8bf-112">Customers</span></span>
+-   <span data-ttu-id="ed8bf-113">Valdymo vienetai</span><span class="sxs-lookup"><span data-stu-id="ed8bf-113">Operating units</span></span>
 
-Be to, naudodami dvi unikalias ataskaitas, kuriose naudojamos hierarchinės tinklelių struktūros, vartotojai pardavimo ir maržos našumą gali stebėti iš viršutinio kategorijos mazgo detalizuodami atskirus kategorijos lapo mazgus numatytoje mažmeninės prekybos produktų kategorijų hierarchijoje. Vartotojai taip pat gali detalizuoti iš viršutinio valdymo vieneto į atskirą kanalą organizacijos hierarchijoje, kuri mažmeninės prekybos ataskaitų hierarchijos tikslais apibrėžta kaip numatytoji organizacijos hierarchija. Atidaryti ataskaitas galite iš bet kurios iš tolesnių vietų.
+<span data-ttu-id="ed8bf-114">Be to, naudodami dvi unikalias ataskaitas, kuriose naudojamos hierarchinės tinklelių struktūros, vartotojai pardavimo ir maržos našumą gali stebėti iš viršutinio kategorijos mazgo detalizuodami atskirus kategorijos lapo mazgus numatytoje mažmeninės prekybos produktų kategorijų hierarchijoje.</span><span class="sxs-lookup"><span data-stu-id="ed8bf-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="ed8bf-115">Vartotojai taip pat gali detalizuoti iš viršutinio valdymo vieneto į atskirą kanalą organizacijos hierarchijoje, kuri mažmeninės prekybos ataskaitų hierarchijos tikslais apibrėžta kaip numatytoji organizacijos hierarchija.</span><span class="sxs-lookup"><span data-stu-id="ed8bf-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="ed8bf-116">Atidaryti ataskaitas galite iš bet kurios iš tolesnių vietų.</span><span class="sxs-lookup"><span data-stu-id="ed8bf-116">You can open the reports from any of the following locations:</span></span>
 
--   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Produktas ir kategorijos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Darbo sritis **Kainodaros ir nuolaidų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kainodara ir nuolaidos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Skyrius **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos**
+-   <span data-ttu-id="ed8bf-117">Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**</span><span class="sxs-lookup"><span data-stu-id="ed8bf-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="ed8bf-118">Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Produktas ir kategorijos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**</span><span class="sxs-lookup"><span data-stu-id="ed8bf-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="ed8bf-119">Darbo sritis **Kainodaros ir nuolaidų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kainodara ir nuolaidos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**</span><span class="sxs-lookup"><span data-stu-id="ed8bf-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="ed8bf-120">Skyrius **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos**</span><span class="sxs-lookup"><span data-stu-id="ed8bf-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
 
 

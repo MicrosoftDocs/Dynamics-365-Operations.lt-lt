@@ -16,104 +16,104 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d7c76eab2cca4e15c13dd9f79432b9c6d81071a2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5dea9d7bfb1bf7b11f6c49cccaab1b73d4e58d16
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
+# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="0279c-103">RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="0279c-103">Enter and compare RFQ bids and award contracts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šia procedūra rodoma, kaip į RFQ įvesti atsakymų, vertinti bei lyginti kainos pasiūlymus ir tada pasirinkti vieno iš tiekėjo kainos pasiūlymą. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Prieš pradedant reikia turėti RFQ su dviem eilutėmis, išsiųstą bent dviem tiekėjams. Norėdami tokį sukurti, kaip būtinąjį komponentą galite vykdyti procedūrą „Pasiūlymo patvirtinimo kūrimas“. Šios procedūros vykdyti negalėsite tol, kol nenustatysite vertinimo kriterijų.
+<span data-ttu-id="0279c-104">Šia procedūra rodoma, kaip į RFQ įvesti atsakymų, vertinti bei lyginti kainos pasiūlymus ir tada pasirinkti vieno iš tiekėjo kainos pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="0279c-105">Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="0279c-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="0279c-106">Prieš pradedant reikia turėti RFQ su dviem eilutėmis, išsiųstą bent dviem tiekėjams.</span><span class="sxs-lookup"><span data-stu-id="0279c-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="0279c-107">Norėdami tokį sukurti, kaip būtinąjį komponentą galite vykdyti procedūrą „Pasiūlymo patvirtinimo kūrimas“.</span><span class="sxs-lookup"><span data-stu-id="0279c-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="0279c-108">Šios procedūros vykdyti negalėsite tol, kol nenustatysite vertinimo kriterijų.</span><span class="sxs-lookup"><span data-stu-id="0279c-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 
 
-## <a name="enter-a-reply-from-a-vendor"></a>Atsakymo iš tiekėjo įvedimas
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Pasiūlymų patvirtinimai > Visi pasiūlymų patvirtinimai.
-2. Pasirinkite RFQ, kurio būsena yra Išsiųstas ir spustelėkite saitą ant pasiūlymo patvirtinimo atvejo numerio.
-    * RFQ turėjo būti išsiųstas bent 2 tiekėjams.  
-3. Spustelėdami antraštę, pereikite į tiekėjų sąrašą.
-4. Pasirinkite tiekėją, kuriam RFQ dokumente norite įvesti atsakymą.
-5. Spustelėkite Įvesti atsakymą.
-6. Veiksmų srityje spustelėkite Atsakymas.
-7. Spustelėkite Kopijuoti duomenis į atsakymą.
-    * Šiuo veiksmu bus kopijuojami pasirinkti duomenys, pvz., kiekis iš RFQ atvejo į RFQ atsakymą. Taip pat šį veiksmą galite praleisti ir visus atsakymo laukus užpildyti rankiniu būdu, redaguodami atsakymą.  
-8. Spustelėkite Redaguoti.
-9. Lauke Vieneto kaina įveskite skaičių.
-10. Pasirinkite kitą pasiūlymo eilutę.
-11. Lauke Vieneto kaina įveskite skaičių.
+## <a name="enter-a-reply-from-a-vendor"></a><span data-ttu-id="0279c-109">Atsakymo iš tiekėjo įvedimas</span><span class="sxs-lookup"><span data-stu-id="0279c-109">Enter a reply from a vendor</span></span>
+1. <span data-ttu-id="0279c-110">Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Pasiūlymų patvirtinimai > Visi pasiūlymų patvirtinimai.</span><span class="sxs-lookup"><span data-stu-id="0279c-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="0279c-111">Pasirinkite RFQ, kurio būsena yra Išsiųstas ir spustelėkite saitą ant pasiūlymo patvirtinimo atvejo numerio.</span><span class="sxs-lookup"><span data-stu-id="0279c-111">Select an RFQ that has a status of Sent and click the link on the Request for quotation case number.</span></span>
+    * <span data-ttu-id="0279c-112">RFQ turėjo būti išsiųstas bent 2 tiekėjams.</span><span class="sxs-lookup"><span data-stu-id="0279c-112">The RFQ should have been sent to at least 2 vendors.</span></span>  
+3. <span data-ttu-id="0279c-113">Spustelėdami antraštę, pereikite į tiekėjų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="0279c-113">Click Header to go to the list of vendors.</span></span>
+4. <span data-ttu-id="0279c-114">Pasirinkite tiekėją, kuriam RFQ dokumente norite įvesti atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-114">Select the vendor for whom you want to enter a response on the RFQ.</span></span>
+5. <span data-ttu-id="0279c-115">Spustelėkite Įvesti atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-115">Click Enter reply.</span></span>
+6. <span data-ttu-id="0279c-116">Veiksmų srityje spustelėkite Atsakymas.</span><span class="sxs-lookup"><span data-stu-id="0279c-116">On the Action Pane, click Reply.</span></span>
+7. <span data-ttu-id="0279c-117">Spustelėkite Kopijuoti duomenis į atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-117">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="0279c-118">Šiuo veiksmu bus kopijuojami pasirinkti duomenys, pvz., kiekis iš RFQ atvejo į RFQ atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-118">This action will copy selected data, for example, the quantity from the RFQ case to the RFQ reply.</span></span> <span data-ttu-id="0279c-119">Taip pat šį veiksmą galite praleisti ir visus atsakymo laukus užpildyti rankiniu būdu, redaguodami atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-119">Alternatively you can skip this action and fill in all the response fields manually when you edit the reply.</span></span>  
+8. <span data-ttu-id="0279c-120">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="0279c-120">Click Edit.</span></span>
+9. <span data-ttu-id="0279c-121">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-121">In the Unit price field, enter a number.</span></span>
+10. <span data-ttu-id="0279c-122">Pasirinkite kitą pasiūlymo eilutę.</span><span class="sxs-lookup"><span data-stu-id="0279c-122">Choose the other quotation line.</span></span>
+11. <span data-ttu-id="0279c-123">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-123">In the Unit price field, enter a number.</span></span>
 
-## <a name="score-the-bid"></a>Kainos pasiūlymo vertinimas
-1. Spustelėdami antraštę, pereikite prie kainos pasiūlymo vertinimo.
-2. Išplėskite dalį Kainos pasiūlymo vertinimas.
-3. Lauke Rezultatas įveskite vieno iš vertinimo kriterijų skaičių.
-    * Jei ant vieno iš vertinimo kriterijų užvedate pele, patariama, kokiame intervale turi būti jūsų rezultatas. Šioje demonstracijoje į bet kurį iš kriterijų galite įtraukti skaičių nuo 1 iki 5.  
-4. Pasirinkite kitą vertinimo kriterijų.
-5. Lauke Rezultatas įveskite skaičių.
-6. Išplėskite dalį Klausimynai.
-    * Jei RFQ atvejyje yra tiekėjams išsiųstas klausimynas, jų atsakymus galite įvesti klausimyno skyriuje.  
-7. Uždarykite puslapį.
+## <a name="score-the-bid"></a><span data-ttu-id="0279c-124">Kainos pasiūlymo vertinimas</span><span class="sxs-lookup"><span data-stu-id="0279c-124">Score the bid</span></span>
+1. <span data-ttu-id="0279c-125">Spustelėdami antraštę, pereikite prie kainos pasiūlymo vertinimo.</span><span class="sxs-lookup"><span data-stu-id="0279c-125">Click Header to go to the scoring of the bid.</span></span>
+2. <span data-ttu-id="0279c-126">Išplėskite dalį Kainos pasiūlymo vertinimas.</span><span class="sxs-lookup"><span data-stu-id="0279c-126">Expand the Bid scoring section.</span></span>
+3. <span data-ttu-id="0279c-127">Lauke Rezultatas įveskite vieno iš vertinimo kriterijų skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-127">In the Score field, enter a number for one of the scoring criteria.</span></span>
+    * <span data-ttu-id="0279c-128">Jei ant vieno iš vertinimo kriterijų užvedate pele, patariama, kokiame intervale turi būti jūsų rezultatas.</span><span class="sxs-lookup"><span data-stu-id="0279c-128">If you hover over one of the scoring criteria a tooltip shows the range that you have to score within.</span></span> <span data-ttu-id="0279c-129">Šioje demonstracijoje į bet kurį iš kriterijų galite įtraukti skaičių nuo 1 iki 5.</span><span class="sxs-lookup"><span data-stu-id="0279c-129">In this demo you can add a number between 1 and 5 to any of the criteria.</span></span>  
+4. <span data-ttu-id="0279c-130">Pasirinkite kitą vertinimo kriterijų.</span><span class="sxs-lookup"><span data-stu-id="0279c-130">Select another scoring criterion.</span></span>
+5. <span data-ttu-id="0279c-131">Lauke Rezultatas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-131">In the Score field, enter a number.</span></span>
+6. <span data-ttu-id="0279c-132">Išplėskite dalį Klausimynai.</span><span class="sxs-lookup"><span data-stu-id="0279c-132">Expand the Questionnaires section.</span></span>
+    * <span data-ttu-id="0279c-133">Jei RFQ atvejyje yra tiekėjams išsiųstas klausimynas, jų atsakymus galite įvesti klausimyno skyriuje.</span><span class="sxs-lookup"><span data-stu-id="0279c-133">If the RFQ case has a questionnaire that was sent to the vendors, you can enter their responses in the questionnaire section.</span></span>  
+7. <span data-ttu-id="0279c-134">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-134">Close the page.</span></span>
 
-## <a name="enter-a-reply-for-another-vendor"></a>Kito tiekėjo atsakymo įvedimas
-1. Pasirinkite kitą tiekėją – išvalykite tiekėją, kuriam ką tik įvedėte atsakymą ir pasirinkite kito tiekėjo eilutę.
-2. Sąraše raskite ir pasirinkite norimą įrašą.
-3. Spustelėkite Įvesti atsakymą.
-4. Spustelėkite Kopijuoti duomenis į atsakymą.
-5. Spustelėkite Redaguoti.
-6. Lauke Vieneto kaina įveskite skaičių.
-7. Pasirinkite kitą pasiūlymo eilutę.
-8. Lauke Vieneto kaina įveskite skaičių.
+## <a name="enter-a-reply-for-another-vendor"></a><span data-ttu-id="0279c-135">Kito tiekėjo atsakymo įvedimas</span><span class="sxs-lookup"><span data-stu-id="0279c-135">Enter a reply for another vendor</span></span>
+1. <span data-ttu-id="0279c-136">Pasirinkite kitą tiekėją – išvalykite tiekėją, kuriam ką tik įvedėte atsakymą ir pasirinkite kito tiekėjo eilutę.</span><span class="sxs-lookup"><span data-stu-id="0279c-136">Select the next vendor by clearing the vendor you have just entered the reply for and then selecting the row for the next vendor.</span></span>
+2. <span data-ttu-id="0279c-137">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="0279c-137">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="0279c-138">Spustelėkite Įvesti atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-138">Click Enter reply.</span></span>
+4. <span data-ttu-id="0279c-139">Spustelėkite Kopijuoti duomenis į atsakymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-139">Click Copy data to reply.</span></span>
+5. <span data-ttu-id="0279c-140">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="0279c-140">Click Edit.</span></span>
+6. <span data-ttu-id="0279c-141">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-141">In the Unit price field, enter a number.</span></span>
+7. <span data-ttu-id="0279c-142">Pasirinkite kitą pasiūlymo eilutę.</span><span class="sxs-lookup"><span data-stu-id="0279c-142">Choose the other quotation line.</span></span>
+8. <span data-ttu-id="0279c-143">Lauke Vieneto kaina įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-143">In the Unit price field, enter a number.</span></span>
 
-## <a name="score-the-second-bid"></a>Antro kainos pasiūlymo vertinimas
-1. Spustelėdami antraštę, pereikite prie kainos pasiūlymo vertinimo.
-2. Lauke Rezultatas įveskite skaičių.
-3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Lauke Rezultatas įveskite skaičių.
+## <a name="score-the-second-bid"></a><span data-ttu-id="0279c-144">Antro kainos pasiūlymo vertinimas</span><span class="sxs-lookup"><span data-stu-id="0279c-144">Score the second bid</span></span>
+1. <span data-ttu-id="0279c-145">Spustelėdami antraštę, pereikite prie kainos pasiūlymo vertinimo.</span><span class="sxs-lookup"><span data-stu-id="0279c-145">Click Header to go to scoring of the bid.</span></span>
+2. <span data-ttu-id="0279c-146">Lauke Rezultatas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-146">In the Score field, enter a number.</span></span>
+3. <span data-ttu-id="0279c-147">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="0279c-147">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="0279c-148">Lauke Rezultatas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-148">In the Score field, enter a number.</span></span>
 
-## <a name="compare-the-replies"></a>Atsakymų palyginimas
-1. Veiksmų srityje spustelėkite Bendra.
-2. Spustelėkite Palyginti atsakymus.
-3. Lauke Reitingas įveskite skaičių.
-    * Šiame puslapyje rodomi kainų pasiūlymai su antrašte ir eilutėmis bei bendras rezultatas antraštės lygyje. Eilutes galite palyginti jas rūšiuodami tinklelyje, kad palyginamos eilutės būtų viena šalia kitos. Taip pat pateikiama tolesnė informacija. Kiekis: tiekėjo pasiūlytas kiekis. Jis gali skirtis nuo RFQ nurodyto kiekio.   Grynoji suma – atėmus visas nuolaidas tiekėjo siūloma kaina už eilutėje nurodytas prekes.   Nuokrypis: dienų skaičius, kuriuo kainos pasiūlymo antraštėje arba eilutėje nurodyta pristatymo data skiriasi nuo pageidaujamos RFQ antraštėje arba RFQ eilutėje nurodytos pristatymo datos.   Galite įvesti kiekvieno kainos pasiūlymo reitingą.  
-4. Pasirinkite kito norimo reitinguoti kainos pasiūlymo antraštės eilutę.
-5. Lauke Reitingas įveskite skaičių.
-6. Spustelėkite Įrašyti.
+## <a name="compare-the-replies"></a><span data-ttu-id="0279c-149">Atsakymų palyginimas</span><span class="sxs-lookup"><span data-stu-id="0279c-149">Compare the replies</span></span>
+1. <span data-ttu-id="0279c-150">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="0279c-150">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="0279c-151">Spustelėkite Palyginti atsakymus.</span><span class="sxs-lookup"><span data-stu-id="0279c-151">Click Compare replies.</span></span>
+3. <span data-ttu-id="0279c-152">Lauke Reitingas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-152">In the Rank field, enter a number.</span></span>
+    * <span data-ttu-id="0279c-153">Šiame puslapyje rodomi kainų pasiūlymai su antrašte ir eilutėmis bei bendras rezultatas antraštės lygyje.</span><span class="sxs-lookup"><span data-stu-id="0279c-153">This page shows the bids with the header and lines, and the total score on the header level.</span></span> <span data-ttu-id="0279c-154">Eilutes galite palyginti jas rūšiuodami tinklelyje, kad palyginamos eilutės būtų viena šalia kitos.</span><span class="sxs-lookup"><span data-stu-id="0279c-154">You can compare the lines by sorting in the grid so that comparable lines are next to each other.</span></span> <span data-ttu-id="0279c-155">Taip pat pateikiama tolesnė informacija. Kiekis: tiekėjo pasiūlytas kiekis.</span><span class="sxs-lookup"><span data-stu-id="0279c-155">The information also includes:   Quantity: The quantity quoted by the vendor.</span></span> <span data-ttu-id="0279c-156">Jis gali skirtis nuo RFQ nurodyto kiekio.</span><span class="sxs-lookup"><span data-stu-id="0279c-156">This might not equal the quantity specified in the RFQ.</span></span>   <span data-ttu-id="0279c-157">Grynoji suma – atėmus visas nuolaidas tiekėjo siūloma kaina už eilutėje nurodytas prekes.</span><span class="sxs-lookup"><span data-stu-id="0279c-157">Net amount: The price quoted by a vendor, after subtracting any discounts, for the items on the line.</span></span>   <span data-ttu-id="0279c-158">Nuokrypis: dienų skaičius, kuriuo kainos pasiūlymo antraštėje arba eilutėje nurodyta pristatymo data skiriasi nuo pageidaujamos RFQ antraštėje arba RFQ eilutėje nurodytos pristatymo datos.</span><span class="sxs-lookup"><span data-stu-id="0279c-158">Deviation: The number of days that the delivery date in the bid header or line deviates from the requested delivery date in the RFQ header or RFQ line.</span></span>   <span data-ttu-id="0279c-159">Galite įvesti kiekvieno kainos pasiūlymo reitingą.</span><span class="sxs-lookup"><span data-stu-id="0279c-159">You can enter a rank for each bid.</span></span>  
+4. <span data-ttu-id="0279c-160">Pasirinkite kito norimo reitinguoti kainos pasiūlymo antraštės eilutę.</span><span class="sxs-lookup"><span data-stu-id="0279c-160">Select the header line for the other bid that you want to rank.</span></span>
+5. <span data-ttu-id="0279c-161">Lauke Reitingas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="0279c-161">In the Rank field, enter a number.</span></span>
+6. <span data-ttu-id="0279c-162">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="0279c-162">Click Save.</span></span>
 
-## <a name="reject-a-bid"></a>Kainos pasiūlymo atmetimas
-1. Pasirinkite norimo atmesti kainos pasiūlymo antraštės eilutę.
-    * Vienu metu vieną kainos pasiūlymą ar vieno kainos pasiūlymo eilutes galite tik priimti, atmesti arba grąžinti.  
-2. Pažymėkite žymės langelį Žymėti.
-    * Jei kainos pasiūlymo antraštėje pažymėsite žymės langelį Žymėti, taip pat bus pažymėtos visos eilutės. Taip pat galite pasirinkti pažymėti kainos pasiūlymo eilučių subrinkinį ir taip jas atmesti arba priimti. Galima dėl kai kurių RFQ eilučių priimti vieno tiekėjo kainos pasiūlymą, o kitas RFQ eilutes paskirti kitam tiekėjui, tačiau tai atlikti reikia 2 veiksmais, vienu metu dirbant su vienu kainos pasiūlymu. Jei yra pakaitinių eilučių, galite priimti tik pradinę pasiūlymo eilutę arba jos pakaitą, bet ne abu.  
-3. Spustelėkite Atmesti.
-4. Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.
-5. Lauke Atmetimo priežastis įveskite arba pasirinkite reikšmę.
-    * Atmetimo priežastis bus išsaugota atsakyme.  
-6. Spustelėkite GERAI.
-7. Spustelėkite GERAI.
-8. Uždarykite puslapį.
-9. Uždarykite puslapį.
-10. Atnaujinkite puslapį.
+## <a name="reject-a-bid"></a><span data-ttu-id="0279c-163">Kainos pasiūlymo atmetimas</span><span class="sxs-lookup"><span data-stu-id="0279c-163">Reject a bid</span></span>
+1. <span data-ttu-id="0279c-164">Pasirinkite norimo atmesti kainos pasiūlymo antraštės eilutę.</span><span class="sxs-lookup"><span data-stu-id="0279c-164">Select the header line for the bid that you want to reject.</span></span>
+    * <span data-ttu-id="0279c-165">Vienu metu vieną kainos pasiūlymą ar vieno kainos pasiūlymo eilutes galite tik priimti, atmesti arba grąžinti.</span><span class="sxs-lookup"><span data-stu-id="0279c-165">You can only accept, reject, or return one bid or lines within one bid at a time.</span></span>  
+2. <span data-ttu-id="0279c-166">Pažymėkite žymės langelį Žymėti.</span><span class="sxs-lookup"><span data-stu-id="0279c-166">Select the Mark check box.</span></span>
+    * <span data-ttu-id="0279c-167">Jei kainos pasiūlymo antraštėje pažymėsite žymės langelį Žymėti, taip pat bus pažymėtos visos eilutės.</span><span class="sxs-lookup"><span data-stu-id="0279c-167">If you select the Mark check box on the Header of the bid then all the lines will be marked as well.</span></span> <span data-ttu-id="0279c-168">Taip pat galite pasirinkti pažymėti kainos pasiūlymo eilučių subrinkinį ir taip jas atmesti arba priimti.</span><span class="sxs-lookup"><span data-stu-id="0279c-168">You could also choose to mark a subset of the lines within the bid to reject or accept those.</span></span> <span data-ttu-id="0279c-169">Galima dėl kai kurių RFQ eilučių priimti vieno tiekėjo kainos pasiūlymą, o kitas RFQ eilutes paskirti kitam tiekėjui, tačiau tai atlikti reikia 2 veiksmais, vienu metu dirbant su vienu kainos pasiūlymu.</span><span class="sxs-lookup"><span data-stu-id="0279c-169">It’s possible to accept one vendor’s bid for some lines of an RFQ, and then award other RFQ lines to a different vendor, however you need to do this in 2 steps, one bid at a time.</span></span> <span data-ttu-id="0279c-170">Jei yra pakaitinių eilučių, galite priimti tik pradinę pasiūlymo eilutę arba jos pakaitą, bet ne abu.</span><span class="sxs-lookup"><span data-stu-id="0279c-170">If alternate lines are present, you can only accept either the original bid line or its alternate, but not both.</span></span>  
+3. <span data-ttu-id="0279c-171">Spustelėkite Atmesti.</span><span class="sxs-lookup"><span data-stu-id="0279c-171">Click Reject.</span></span>
+4. <span data-ttu-id="0279c-172">Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="0279c-172">Click Parameters to open the drop dialog.</span></span>
+5. <span data-ttu-id="0279c-173">Lauke Atmetimo priežastis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="0279c-173">In the Reason reject field, enter or select a value.</span></span>
+    * <span data-ttu-id="0279c-174">Atmetimo priežastis bus išsaugota atsakyme.</span><span class="sxs-lookup"><span data-stu-id="0279c-174">The reason for rejection will be stored on the reply.</span></span>  
+6. <span data-ttu-id="0279c-175">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="0279c-175">Click OK.</span></span>
+7. <span data-ttu-id="0279c-176">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="0279c-176">Click OK.</span></span>
+8. <span data-ttu-id="0279c-177">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-177">Close the page.</span></span>
+9. <span data-ttu-id="0279c-178">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-178">Close the page.</span></span>
+10. <span data-ttu-id="0279c-179">Atnaujinkite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-179">Refresh the page.</span></span>
 
-## <a name="accept-a-bid"></a>Kainos pasiūlymo priėmimas
-1. Pasirinkite pasiūlymą, kurį norite priimti ir spustelėkite lauke Pasiūlymo patvirtinimas esantį saitą.
-2. Veiksmų srityje spustelėkite Atsakymas.
-3. Spustelėkite Priimti.
-    * Jei pažymėjote konkrečias eilutes, į priėmimo veiksmą bus įtrauktos tik pažymėtos eilutės. Jei norite priimti visas kainos pasiūlymo eilutes, tada eilučių žymėti nereikia.  
-4. Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.
-    * Taip galite įrašyti kainos pasiūlymo priėmimo priežastį. Priežastis bus išsaugota kainos pasiūlyme.  
-5. Lauke Priėmimo priežastis įveskite arba pasirinkite reikšmę.
-6. Spustelėkite GERAI.
-7. Spustelėkite GERAI.
-    * Spustelėjus Gerai, pagal eilutes, įtrauktas į RFQ priėmimą, sugeneruojamas pirkimo užsakymas. Jei yra kitų neapdorotų (priimtų, atmestų ar grąžintų) kainos pasiūlymų, sistema jus paragins likusius kainos pasiūlymus atmesti.  
+## <a name="accept-a-bid"></a><span data-ttu-id="0279c-180">Kainos pasiūlymo priėmimas</span><span class="sxs-lookup"><span data-stu-id="0279c-180">Accept a bid</span></span>
+1. <span data-ttu-id="0279c-181">Pasirinkite pasiūlymą, kurį norite priimti ir spustelėkite lauke Pasiūlymo patvirtinimas esantį saitą.</span><span class="sxs-lookup"><span data-stu-id="0279c-181">Select the bid that you want to accept and then click the link in the Request for quotation field.</span></span>
+2. <span data-ttu-id="0279c-182">Veiksmų srityje spustelėkite Atsakymas.</span><span class="sxs-lookup"><span data-stu-id="0279c-182">On the Action Pane, click Reply.</span></span>
+3. <span data-ttu-id="0279c-183">Spustelėkite Priimti.</span><span class="sxs-lookup"><span data-stu-id="0279c-183">Click Accept.</span></span>
+    * <span data-ttu-id="0279c-184">Jei pažymėjote konkrečias eilutes, į priėmimo veiksmą bus įtrauktos tik pažymėtos eilutės.</span><span class="sxs-lookup"><span data-stu-id="0279c-184">If you have marked specific lines and not others then the accept action will only include the marked lines.</span></span> <span data-ttu-id="0279c-185">Jei norite priimti visas kainos pasiūlymo eilutes, tada eilučių žymėti nereikia.</span><span class="sxs-lookup"><span data-stu-id="0279c-185">If you want to accept all lines on the bid then you do not have to mark the lines.</span></span>  
+4. <span data-ttu-id="0279c-186">Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="0279c-186">Click Parameters to open the drop dialog.</span></span>
+    * <span data-ttu-id="0279c-187">Taip galite įrašyti kainos pasiūlymo priėmimo priežastį.</span><span class="sxs-lookup"><span data-stu-id="0279c-187">This allows you to record a reason for accepting the bid.</span></span> <span data-ttu-id="0279c-188">Priežastis bus išsaugota kainos pasiūlyme.</span><span class="sxs-lookup"><span data-stu-id="0279c-188">The reason will be stored on the bid.</span></span>  
+5. <span data-ttu-id="0279c-189">Lauke Priėmimo priežastis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="0279c-189">In the Reason accept field, enter or select a value.</span></span>
+6. <span data-ttu-id="0279c-190">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="0279c-190">Click OK.</span></span>
+7. <span data-ttu-id="0279c-191">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="0279c-191">Click OK.</span></span>
+    * <span data-ttu-id="0279c-192">Spustelėjus Gerai, pagal eilutes, įtrauktas į RFQ priėmimą, sugeneruojamas pirkimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="0279c-192">When you click OK this generates a purchase order based on the lines that are included in the RFQ acceptance.</span></span> <span data-ttu-id="0279c-193">Jei yra kitų neapdorotų (priimtų, atmestų ar grąžintų) kainos pasiūlymų, sistema jus paragins likusius kainos pasiūlymus atmesti.</span><span class="sxs-lookup"><span data-stu-id="0279c-193">If there are other bids that have not been processed (accepted, rejected, or returned) then the system will prompt you to reject the remaining bids.</span></span>  
 
-## <a name="view-the-purchase-order-thats-been-generated"></a>Sugeneruoto pirkimo užsakymo peržiūra
-1. Veiksmų srityje spustelėkite Bendra.
-2. Spustelėkite Pirkimo užsakymas.
-    * Čia galite peržiūrėti pirkimo užsakymą, kuris buvo sugeneruotas, kai priėmėte kainos pasiūlymą.  
-3. Uždarykite puslapį.
-4. Uždarykite puslapį.
-5. Uždarykite puslapį.
-6. Uždarykite puslapį.
+## <a name="view-the-purchase-order-thats-been-generated"></a><span data-ttu-id="0279c-194">Sugeneruoto pirkimo užsakymo peržiūra</span><span class="sxs-lookup"><span data-stu-id="0279c-194">View the purchase order that's been generated</span></span>
+1. <span data-ttu-id="0279c-195">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="0279c-195">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="0279c-196">Spustelėkite Pirkimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="0279c-196">Click Purchase order.</span></span>
+    * <span data-ttu-id="0279c-197">Čia galite peržiūrėti pirkimo užsakymą, kuris buvo sugeneruotas, kai priėmėte kainos pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="0279c-197">Here you can see the purchase order that was generated when you accepted the bid.</span></span>  
+3. <span data-ttu-id="0279c-198">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-198">Close the page.</span></span>
+4. <span data-ttu-id="0279c-199">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-199">Close the page.</span></span>
+5. <span data-ttu-id="0279c-200">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-200">Close the page.</span></span>
+6. <span data-ttu-id="0279c-201">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="0279c-201">Close the page.</span></span>
 
 

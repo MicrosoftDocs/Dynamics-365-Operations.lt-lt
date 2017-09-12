@@ -26,109 +26,109 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace"></a>Turimų atsargų mobilioji darbo sritis
+# <a name="inventory-on-hand-mobile-workspace"></a><span data-ttu-id="353cf-104">Turimų atsargų mobilioji darbo sritis</span><span class="sxs-lookup"><span data-stu-id="353cf-104">Inventory on-hand mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Turimos atsargos**. Ši darbo sritis suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.
+<span data-ttu-id="353cf-105">Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Turimos atsargos**.</span><span class="sxs-lookup"><span data-stu-id="353cf-105">This topic provides information about the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="353cf-106">Ši darbo sritis suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.</span><span class="sxs-lookup"><span data-stu-id="353cf-106">This workspace helps you gain insights into reserved and available inventory anytime and anywhere.</span></span>
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+<span data-ttu-id="353cf-107">Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.</span><span class="sxs-lookup"><span data-stu-id="353cf-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Apžvalga
-Paprastai įmonės kas dieną apdoroja daug atsargų siuntų ir gavimų. Dėl šių perkėlimų nuolat kinta turimų atsargų būsena. Mobilioji darbo sritis **Turimos atsargos** suteikia galimybę peržiūrėti turimų atsargų būseną visose įmonėse, todėl galite sužinoti naujausią informaciją apie atsargų duomenis savo pasirinktame mobiliajame įrenginyje. Nepriklausomai nuo to, ar dirbate sandėlyje, pirkimo, pardavimo, gamybos arba vadovybės skyriuje, ar turite kitų vaidmenų, turimų atsargų duomenis galite pasiekti bet kur ir bet kada. 
+## <a name="overview"></a><span data-ttu-id="353cf-108">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="353cf-108">Overview</span></span>
+<span data-ttu-id="353cf-109">Paprastai įmonės kas dieną apdoroja daug atsargų siuntų ir gavimų.</span><span class="sxs-lookup"><span data-stu-id="353cf-109">Typically, companies have multiple shipments and multiple receipts of inventory every day.</span></span> <span data-ttu-id="353cf-110">Dėl šių perkėlimų nuolat kinta turimų atsargų būsena.</span><span class="sxs-lookup"><span data-stu-id="353cf-110">These movements constantly change the on-hand inventory status.</span></span> <span data-ttu-id="353cf-111">Mobilioji darbo sritis **Turimos atsargos** suteikia galimybę peržiūrėti turimų atsargų būseną visose įmonėse, todėl galite sužinoti naujausią informaciją apie atsargų duomenis savo pasirinktame mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="353cf-111">The **Inventory on-hand** mobile workspace lets you see the cross-company on-hand inventory status, so that you can gain the latest insights into inventory data on the mobile device of your choice.</span></span> <span data-ttu-id="353cf-112">Nepriklausomai nuo to, ar dirbate sandėlyje, pirkimo, pardavimo, gamybos arba vadovybės skyriuje, ar turite kitų vaidmenų, turimų atsargų duomenis galite pasiekti bet kur ir bet kada.</span><span class="sxs-lookup"><span data-stu-id="353cf-112">Regardless of whether you work in the warehouse, purchasing, sales, manufacturing, or management, or have other roles, you can access on-hand inventory data anytime and anywhere.</span></span> 
 
-Mobilioji darbo sritis pateikia visų objektų turimų atsargų būsenos momentinį rodinį. Ji suteikia galimybę peržiūrėti visų objektų turimas atsargas, esamus medžiagų rezervavimus ir nerezervuotas turimas atsargas. Taip pat galite įvesti prekių numerius ir pateikti turimų atsargų užklausą bei atlikti filtruotą turimų produktų ar jų variantų iešką. 
+<span data-ttu-id="353cf-113">Mobilioji darbo sritis pateikia visų objektų turimų atsargų būsenos momentinį rodinį.</span><span class="sxs-lookup"><span data-stu-id="353cf-113">The mobile workspace provides an instant view of the on-hand status across facilities.</span></span> <span data-ttu-id="353cf-114">Ji suteikia galimybę peržiūrėti visų objektų turimas atsargas, esamus medžiagų rezervavimus ir nerezervuotas turimas atsargas.</span><span class="sxs-lookup"><span data-stu-id="353cf-114">It lets you view on-hand inventory across facilities, current material reservations, and unreserved on-hand inventory.</span></span> <span data-ttu-id="353cf-115">Taip pat galite įvesti prekių numerius ir pateikti turimų atsargų užklausą bei atlikti filtruotą turimų produktų ar jų variantų iešką.</span><span class="sxs-lookup"><span data-stu-id="353cf-115">You can also enter item numbers to query on-hand inventory, and can do a filtered search for on-hand products or variants.</span></span> 
 
-Tiksliau sakant, mobilioji darbo sritis suteikia toliau nurodytas funkcijas.
+<span data-ttu-id="353cf-116">Tiksliau sakant, mobilioji darbo sritis suteikia toliau nurodytas funkcijas.</span><span class="sxs-lookup"><span data-stu-id="353cf-116">Specifically, the mobile workspace provides these features:</span></span>
 
--   Galite ieškoti pagal produkto numerį arba produkto pavadinimą, kad rastumėte produktus, kurių turimų atsargų būseną norite peržiūrėti.
--   Galite peržiūrėti toliau nurodytą informaciją apie pasirinktus produktus.
+-   <span data-ttu-id="353cf-117">Galite ieškoti pagal produkto numerį arba produkto pavadinimą, kad rastumėte produktus, kurių turimų atsargų būseną norite peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="353cf-117">You can search by product number or product name to find products to view the on-hand inventory status for.</span></span>
+-   <span data-ttu-id="353cf-118">Galite peržiūrėti toliau nurodytą informaciją apie pasirinktus produktus.</span><span class="sxs-lookup"><span data-stu-id="353cf-118">For the selected products, you can view the following information:</span></span>
 
-    -   Turimos atsargos pagal teritoriją
-    -   Turimos atsargos pagal sandėlį
-    -   Turimos atsargos pagal vietą
-    -   Turimos atsargos pagal paketą (skirta paketais valdomiems produktams)
-    -   Turimos atsargos pagal atsargų būseną
+    -   <span data-ttu-id="353cf-119">Turimos atsargos pagal teritoriją</span><span class="sxs-lookup"><span data-stu-id="353cf-119">On-hand inventory per site</span></span>
+    -   <span data-ttu-id="353cf-120">Turimos atsargos pagal sandėlį</span><span class="sxs-lookup"><span data-stu-id="353cf-120">On-hand inventory per warehouse</span></span>
+    -   <span data-ttu-id="353cf-121">Turimos atsargos pagal vietą</span><span class="sxs-lookup"><span data-stu-id="353cf-121">On-hand inventory per location</span></span>
+    -   <span data-ttu-id="353cf-122">Turimos atsargos pagal paketą (skirta paketais valdomiems produktams)</span><span class="sxs-lookup"><span data-stu-id="353cf-122">On-hand inventory per batch (for batch-controlled products)</span></span>
+    -   <span data-ttu-id="353cf-123">Turimos atsargos pagal atsargų būseną</span><span class="sxs-lookup"><span data-stu-id="353cf-123">On-hand inventory per inventory status</span></span>
     
--   Produkto turimos atsargos rodomos toliau nurodytais būdais.
+-   <span data-ttu-id="353cf-124">Produkto turimos atsargos rodomos toliau nurodytais būdais.</span><span class="sxs-lookup"><span data-stu-id="353cf-124">Product on-hand inventory is shown in the following ways:</span></span>
 
-    -   Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)
-    -   Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)
-    -   Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)
+    -   <span data-ttu-id="353cf-125">Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)</span><span class="sxs-lookup"><span data-stu-id="353cf-125">By physical inventory (This view represents the total amount.)</span></span>
+    -   <span data-ttu-id="353cf-126">Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)</span><span class="sxs-lookup"><span data-stu-id="353cf-126">By physical reserved (This view represents the reserved amount.)</span></span>
+    -   <span data-ttu-id="353cf-127">Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)</span><span class="sxs-lookup"><span data-stu-id="353cf-127">By available physical (This view represents available amount that has no reservations.)</span></span>
 
-## <a name="prerequisites"></a>Būtinieji komponentai
-Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
+## <a name="prerequisites"></a><span data-ttu-id="353cf-128">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="353cf-128">Prerequisites</span></span>
+<span data-ttu-id="353cf-129">Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.</span><span class="sxs-lookup"><span data-stu-id="353cf-129">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟, 2017 m. liepos mėn. naujinimą 
-Jei jūsų organizacijoje įdiegtas "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition" 2017 m. liepos mėn. naujinimas, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Turimos atsargos**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="353cf-130">Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟, 2017 m. liepos mėn. naujinimą</span><span class="sxs-lookup"><span data-stu-id="353cf-130">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="353cf-131">Jei jūsų organizacijoje įdiegtas "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition" 2017 m. liepos mėn. naujinimas, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Turimos atsargos**.</span><span class="sxs-lookup"><span data-stu-id="353cf-131">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Inventory on-hand** mobile workspace.</span></span> <span data-ttu-id="353cf-132">Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="353cf-132">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="353cf-133">Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją</span><span class="sxs-lookup"><span data-stu-id="353cf-133">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="353cf-134">Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas.</span><span class="sxs-lookup"><span data-stu-id="353cf-134">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Būtinoji sąlyga</th>
-<th>Vaidmuo</th>
-<th>aprašymas</th>
+<th><span data-ttu-id="353cf-135">Būtinoji sąlyga</span><span class="sxs-lookup"><span data-stu-id="353cf-135">Prerequisite</span></span></th>
+<th><span data-ttu-id="353cf-136">Vaidmuo</span><span class="sxs-lookup"><span data-stu-id="353cf-136">Role</span></span></th>
+<th><span data-ttu-id="353cf-137">aprašymas</span><span class="sxs-lookup"><span data-stu-id="353cf-137">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Įdiegti KB 4013633.</td>
-<td>Sistemos administratorius</td>
+<td><span data-ttu-id="353cf-138">Įdiegti KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="353cf-138">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="353cf-139">Sistemos administratorius</span><span class="sxs-lookup"><span data-stu-id="353cf-139">System administrator</span></span></td>
 
-<td>KB 4013633 yra X++ naujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Turimos atsargos</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
+<td><span data-ttu-id="353cf-140">KB 4013633 yra X++ naujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Turimos atsargos</strong>.</span><span class="sxs-lookup"><span data-stu-id="353cf-140">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Inventory on-hand</strong> mobile workspace.</span></span> <span data-ttu-id="353cf-141">Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="353cf-141">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</li>
+<li><span data-ttu-id="353cf-142"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="353cf-142"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="353cf-143"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Įdiekite metaduomenų karštąją pataisą</a>.</span><span class="sxs-lookup"><span data-stu-id="353cf-143"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="353cf-144"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</span><span class="sxs-lookup"><span data-stu-id="353cf-144"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="353cf-145"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Visuotinai diegiamo paketo taikymas</a>.</span><span class="sxs-lookup"><span data-stu-id="353cf-145"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td>Paskelbkite mobiliąją darbo sritį <strong>Turimos atsargos</strong>.</td>
-<td>Sistemos administratorius</td>
-<td>Žr. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</td>
+<td><span data-ttu-id="353cf-146">Paskelbkite mobiliąją darbo sritį <strong>Turimos atsargos</strong>.</span><span class="sxs-lookup"><span data-stu-id="353cf-146">Publish the <strong>Inventory on-hand</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="353cf-147">Sistemos administratorius</span><span class="sxs-lookup"><span data-stu-id="353cf-147">System administrator</span></span></td>
+<td><span data-ttu-id="353cf-148">Žr. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiliosios darbo srities publikavimas</a>.</span><span class="sxs-lookup"><span data-stu-id="353cf-148">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="353cf-149">Mobiliosios programos atsisiuntimas ir diegimas</span><span class="sxs-lookup"><span data-stu-id="353cf-149">Download and install the mobile app</span></span>
 
-Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
+<span data-ttu-id="353cf-150">Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:</span><span class="sxs-lookup"><span data-stu-id="353cf-150">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
--   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="353cf-151">„Android“ telefonams</span><span class="sxs-lookup"><span data-stu-id="353cf-151">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="353cf-152">„iPhone“ telefonams</span><span class="sxs-lookup"><span data-stu-id="353cf-152">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Prisijunkite prie mobiliosios programos
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="353cf-153">Prisijunkite prie mobiliosios programos</span><span class="sxs-lookup"><span data-stu-id="353cf-153">Sign in to the mobile app</span></span>
 
-1.  Paleiskite programą savo mobiliajame įrenginyje.
-2.  Įveskite savo „Dynamics 365“ URL.
-3.  Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį. Įveskite savo kredencialus.
-4.  Prisijungus rodomos galimos jūsų įmonės darbo sritys. Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.
+1.  <span data-ttu-id="353cf-154">Paleiskite programą savo mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="353cf-154">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="353cf-155">Įveskite savo „Dynamics 365“ URL.</span><span class="sxs-lookup"><span data-stu-id="353cf-155">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="353cf-156">Kai prisijungsite pirmą kartą, bus rodomas raginimas įvesti savo vartotojo vardą ir slaptažodį.</span><span class="sxs-lookup"><span data-stu-id="353cf-156">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="353cf-157">Įveskite savo kredencialus.</span><span class="sxs-lookup"><span data-stu-id="353cf-157">Enter your credentials.</span></span>
+4.  <span data-ttu-id="353cf-158">Prisijungus rodomos galimos jūsų įmonės darbo sritys.</span><span class="sxs-lookup"><span data-stu-id="353cf-158">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="353cf-159">Atkreipkite dėmesį, kad sistemos administratoriui paskelbus naują darbo sritį vėliau turėsite atnaujinti mobiliųjų darbo sričių sąrašą.</span><span class="sxs-lookup"><span data-stu-id="353cf-159">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-    [![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    <span data-ttu-id="353cf-160">[![Patraukite norėdami atnaujinti](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="353cf-160">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>Produkto turimų atsargų peržiūra naudojant mobiliąją darbo sritį Turimos atsargos
+## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a><span data-ttu-id="353cf-161">Produkto turimų atsargų peržiūra naudojant mobiliąją darbo sritį Turimos atsargos</span><span class="sxs-lookup"><span data-stu-id="353cf-161">View the on-hand inventory for a product by using the Inventory on-hand mobile workspace</span></span>
 
-1.  Savo mobiliajame įrenginyje pasirinkite darbo sritį **Turimos atsargos**.
+1.  <span data-ttu-id="353cf-162">Savo mobiliajame įrenginyje pasirinkite darbo sritį **Turimos atsargos**.</span><span class="sxs-lookup"><span data-stu-id="353cf-162">On your mobile device, select the **Inventory on-hand** workspace.</span></span>
 
-2.  Pasirinkite **Patikrinti turimas prekės atsargas**. Matysite produktų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą. Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti. Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
-3.  Jei jūsų prekės nėra sąraše, pasirinkite **Ieškoti daugiau**. Ieškokite pagal produkto numerį arba perjunkite iešką pagal produkto pavadinimą.
+2.  <span data-ttu-id="353cf-163">Pasirinkite **Patikrinti turimas prekės atsargas**.</span><span class="sxs-lookup"><span data-stu-id="353cf-163">Select **Check on-hand for an item**.</span></span> <span data-ttu-id="353cf-164">Matysite produktų, kurie įkelti į jūsų programą ir kuriuos galima tvarkyti neprisijungus, sąrašą.</span><span class="sxs-lookup"><span data-stu-id="353cf-164">You see a list of the products that are loaded into your app for offline use.</span></span> <span data-ttu-id="353cf-165">Pagal numatytuosius parametrus įkeliama 50 prekių, tačiau kūrėjas šį skaičių gali keisti.</span><span class="sxs-lookup"><span data-stu-id="353cf-165">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="353cf-166">Norėdami gauti daugiau informacijos, programuotojai turėtų peržiūrėti temą [Mobilioji platforma](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="353cf-166">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span>
+3.  <span data-ttu-id="353cf-167">Jei jūsų prekės nėra sąraše, pasirinkite **Ieškoti daugiau**.</span><span class="sxs-lookup"><span data-stu-id="353cf-167">If your item isn't in the list, select **Search more**.</span></span> <span data-ttu-id="353cf-168">Ieškokite pagal produkto numerį arba perjunkite iešką pagal produkto pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="353cf-168">Search by product number, or switch to a search by product name.</span></span>
 
-4.  Pasirinkite produktą. Jei prekei priskirtas vaizdas, jis bus rodomas.
-5.  Pasirinkite vieną iš tolesnių parinkčių, kad peržiūrėtumėte turimų atsargų būseną.
+4.  <span data-ttu-id="353cf-169">Pasirinkite produktą.</span><span class="sxs-lookup"><span data-stu-id="353cf-169">Select a product.</span></span> <span data-ttu-id="353cf-170">Jei prekei priskirtas vaizdas, jis bus rodomas.</span><span class="sxs-lookup"><span data-stu-id="353cf-170">If the item has an image, the image is shown.</span></span>
+5.  <span data-ttu-id="353cf-171">Pasirinkite vieną iš tolesnių parinkčių, kad peržiūrėtumėte turimų atsargų būseną.</span><span class="sxs-lookup"><span data-stu-id="353cf-171">Select one of the following options to view the status of on-hand inventory:</span></span>
 
-    -   Peržiūrėti turimas atsargas pagal teritoriją
-    -   Peržiūrėti turimas atsargas pagal sandėlį
-    -   Peržiūrėti turimas atsargas pagal vietą
-    -   Peržiūrėti turimas atsargas pagal paketą (skirta paketais valdomiems produktams)
-    -   Peržiūrėti turimas atsargas pagal atsargų būseną
+    -   <span data-ttu-id="353cf-172">Peržiūrėti turimas atsargas pagal teritoriją</span><span class="sxs-lookup"><span data-stu-id="353cf-172">View on-hand per site</span></span>
+    -   <span data-ttu-id="353cf-173">Peržiūrėti turimas atsargas pagal sandėlį</span><span class="sxs-lookup"><span data-stu-id="353cf-173">View on-hand per warehouse</span></span>
+    -   <span data-ttu-id="353cf-174">Peržiūrėti turimas atsargas pagal vietą</span><span class="sxs-lookup"><span data-stu-id="353cf-174">View on-hand per location</span></span>
+    -   <span data-ttu-id="353cf-175">Peržiūrėti turimas atsargas pagal paketą (skirta paketais valdomiems produktams)</span><span class="sxs-lookup"><span data-stu-id="353cf-175">View on-hand per batch (for batch-controlled products)</span></span>
+    -   <span data-ttu-id="353cf-176">Peržiūrėti turimas atsargas pagal atsargų būseną</span><span class="sxs-lookup"><span data-stu-id="353cf-176">View on-hand per inventory status</span></span>
 
-    Produkto turimos atsargos rodomos toliau nurodytais būdais.
-    -   Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)
-    -   Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)
-    -   Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)
+    <span data-ttu-id="353cf-177">Produkto turimos atsargos rodomos toliau nurodytais būdais.</span><span class="sxs-lookup"><span data-stu-id="353cf-177">Product on-hand inventory is shown in the following ways:</span></span>
+    -   <span data-ttu-id="353cf-178">Pagal faktines atsargas (Šis rodinys nurodo bendrą sumą.)</span><span class="sxs-lookup"><span data-stu-id="353cf-178">By physical inventory (This view represents the total amount.)</span></span>
+    -   <span data-ttu-id="353cf-179">Pagal faktines rezervuotas atsargas (Šis rodinys nurodo rezervuotą sumą.)</span><span class="sxs-lookup"><span data-stu-id="353cf-179">By physical reserved (This view represents the reserved amount.)</span></span>
+    -   <span data-ttu-id="353cf-180">Pagal turimas faktines atsargas (Šis rodinys nurodo turimą sumą, kuri nėra rezervuota.)</span><span class="sxs-lookup"><span data-stu-id="353cf-180">By available physical (This view represents the available amount that has no reservations.)</span></span>
 

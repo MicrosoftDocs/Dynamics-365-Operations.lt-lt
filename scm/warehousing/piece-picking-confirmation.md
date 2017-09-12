@@ -14,39 +14,39 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="piece-picking-confirmation"></a>Vienetų paėmimo patvirtinimas
+# <a name="piece-picking-confirmation"></a><span data-ttu-id="5c952-103">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="5c952-103">Piece picking confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Vienetų paėmimas suteikia galimybę patvirtinti kiekvieną atsargų vienetą naudojant paėmimo ir skaičiavimo darbą mobiliajame įrenginyje. Paėmimų atveju galite patvirtinti darbo kiekį, kuris bus atliktas neviršijant kiekio, nurodyto paimtinam darbui. Skaičiavimo darbo atveju galite nuskaityti atsargas, kurias skaičiuojate, ir sekti bendrą sumą.
+<span data-ttu-id="5c952-104">Vienetų paėmimas suteikia galimybę patvirtinti kiekvieną atsargų vienetą naudojant paėmimo ir skaičiavimo darbą mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="5c952-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="5c952-105">Paėmimų atveju galite patvirtinti darbo kiekį, kuris bus atliktas neviršijant kiekio, nurodyto paimtinam darbui.</span><span class="sxs-lookup"><span data-stu-id="5c952-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="5c952-106">Skaičiavimo darbo atveju galite nuskaityti atsargas, kurias skaičiuojate, ir sekti bendrą sumą.</span><span class="sxs-lookup"><span data-stu-id="5c952-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
-Kai įgalinate vienetų paėmimą, automatiškai pasirenkamas produkto patvirtinimas. Darbo tipo paėmimų atveju įgalinamas maksimalus vienetų skaičius. Tai leidžia nustatyti maksimalų skaičių vienetų, kurie turi būti patvirtinti darbo proceso metu. Didžiausias kiekis paremtas dabartiniu darbo vienetu, kuris yra vykdomas. Skaičiavimo darbo tipo atveju negalima nustatyti maksimalaus skaičiaus.
+<span data-ttu-id="5c952-107">Kai įgalinate vienetų paėmimą, automatiškai pasirenkamas produkto patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="5c952-107">When you enable piece picking, product confirmation is automatically selected.</span></span> <span data-ttu-id="5c952-108">Darbo tipo paėmimų atveju įgalinamas maksimalus vienetų skaičius.</span><span class="sxs-lookup"><span data-stu-id="5c952-108">For work-type picks, a maximum number of pieces is enabled.</span></span> <span data-ttu-id="5c952-109">Tai leidžia nustatyti maksimalų skaičių vienetų, kurie turi būti patvirtinti darbo proceso metu.</span><span class="sxs-lookup"><span data-stu-id="5c952-109">This allows you to set a maximum to the number of pieces that must be confirmed during the work process.</span></span> <span data-ttu-id="5c952-110">Didžiausias kiekis paremtas dabartiniu darbo vienetu, kuris yra vykdomas.</span><span class="sxs-lookup"><span data-stu-id="5c952-110">The maximum quantity is based on the current work unit that is being processed.</span></span> <span data-ttu-id="5c952-111">Skaičiavimo darbo tipo atveju negalima nustatyti maksimalaus skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="5c952-111">The counting work type does not allow a maximum.</span></span>
 
-Taip pat galite naudoti kiekį ir matavimo vienetą (MV), susietą su nuskaitytu brūkšniniu kodu. Tai veiks gaunant gavimo srautus, įskaitant mišraus numerio lentelių gavimą, pirkimo užsakymo prekę, perkėlimo užsakymo prekę ir krovinio prekę. Tai taip pat veikia dalių paėmimo atveju, kai nuskaičius brūkšninį kodą prie patvirtintų vienetų bendro skaičiaus bus pridėtas kiekis bei konvertuojami brūkšninio kodo MV ir darbo vienetas. Jei skaičiuojant brūkšninio kodo MV patvirtinama, kad sekų grupės skaičiavimui kiekis leidžiamas, kiekis pridedamas prie bendros sumos.
+<span data-ttu-id="5c952-112">Taip pat galite naudoti kiekį ir matavimo vienetą (MV), susietą su nuskaitytu brūkšniniu kodu.</span><span class="sxs-lookup"><span data-stu-id="5c952-112">You can also use the quantity and unit of measure (UOM) that is associated with a scanned bar code.</span></span> <span data-ttu-id="5c952-113">Tai veiks gaunant gavimo srautus, įskaitant mišraus numerio lentelių gavimą, pirkimo užsakymo prekę, perkėlimo užsakymo prekę ir krovinio prekę.</span><span class="sxs-lookup"><span data-stu-id="5c952-113">This will work for receiving on inbound flows including mixed license plate receiving, purchase order item, transfer order item, and load item.</span></span> <span data-ttu-id="5c952-114">Tai taip pat veikia dalių paėmimo atveju, kai nuskaičius brūkšninį kodą prie patvirtintų vienetų bendro skaičiaus bus pridėtas kiekis bei konvertuojami brūkšninio kodo MV ir darbo vienetas.</span><span class="sxs-lookup"><span data-stu-id="5c952-114">It also works for piece picking where scanning the bar code will add the quantity to the total number of confirmed pieces converting between the UOM on the bar code and the work unit.</span></span> <span data-ttu-id="5c952-115">Jei skaičiuojant brūkšninio kodo MV patvirtinama, kad sekų grupės skaičiavimui kiekis leidžiamas, kiekis pridedamas prie bendros sumos.</span><span class="sxs-lookup"><span data-stu-id="5c952-115">If, when counting the UOM on the bar code, it is confirmed that the quantity is allowed for counting on the sequence group, the quantity will be added to the total count.</span></span>
 
-## <a name="where-it-applies"></a>Kai taikoma
+## <a name="where-it-applies"></a><span data-ttu-id="5c952-116">Kai taikoma</span><span class="sxs-lookup"><span data-stu-id="5c952-116">Where it applies</span></span>
 
-Vienetų paėmimas veikia visų skaičiavimo darbų atveju ir pradinio bet kurio tipo darbo paėmimo atveju. Vienetų paėmimas netaikomas, jei prekė kontroliuojama pagal serijos numerius arba jei tai yra gamybos, arba „kanban“ paėmimas iš numerio lentelės (LP) vietos ir prekė nustatyta išdėstyti.
+<span data-ttu-id="5c952-117">Vienetų paėmimas veikia visų skaičiavimo darbų atveju ir pradinio bet kurio tipo darbo paėmimo atveju.</span><span class="sxs-lookup"><span data-stu-id="5c952-117">Piece picking works for all counting work and for the initial pick for any type of work.</span></span> <span data-ttu-id="5c952-118">Vienetų paėmimas netaikomas, jei prekė kontroliuojama pagal serijos numerius arba jei tai yra gamybos, arba „kanban“ paėmimas iš numerio lentelės (LP) vietos ir prekė nustatyta išdėstyti.</span><span class="sxs-lookup"><span data-stu-id="5c952-118">Piece picking does not apply if the item is controlled by serial numbers or if it is a production or kanban pick from a license plate (LP) location and the item is set to staging.</span></span>
 
-## <a name="set-up-piece-picking"></a>Nustatyti vienetų paėmimą
+## <a name="set-up-piece-picking"></a><span data-ttu-id="5c952-119">Nustatyti vienetų paėmimą</span><span class="sxs-lookup"><span data-stu-id="5c952-119">Set up piece picking</span></span>
 
-1.  Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: Sandėlio valdymas > **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai**. 
-2. Mobiliojo įrenginio meniu elemente atidarykite Darbo patvirtinimo sąranka.
+1.  <span data-ttu-id="5c952-120">Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: Sandėlio valdymas > **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai**.</span><span class="sxs-lookup"><span data-stu-id="5c952-120">On a mobile device menu item, open the setup form for work confirmation: Warehouse management > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span> 
+2. <span data-ttu-id="5c952-121">Mobiliojo įrenginio meniu elemente atidarykite Darbo patvirtinimo sąranka.</span><span class="sxs-lookup"><span data-stu-id="5c952-121">From the mobile device menu item, open Work confirmation setup.</span></span>
 
-Kai darbo tipas yra paėmimas arba skaičiavimas, galima pasirinkti šias parinktis.
+<span data-ttu-id="5c952-122">Kai darbo tipas yra paėmimas arba skaičiavimas, galima pasirinkti šias parinktis.</span><span class="sxs-lookup"><span data-stu-id="5c952-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| Parinktis        | aprašymas   | 
+| <span data-ttu-id="5c952-123">Parinktis</span><span class="sxs-lookup"><span data-stu-id="5c952-123">Option</span></span>        | <span data-ttu-id="5c952-124">aprašymas</span><span class="sxs-lookup"><span data-stu-id="5c952-124">Description</span></span>   | 
 | ------------- | ------------- |
-| Vienetų paėmimo patvirtinimas   | Pasiekiama paėmimo ir skaičiavimo darbo tipų atveju. Automatiškai pasirenkamas produkto patvirtinimas. Suteikia galimybę mobiliuoju įrenginiu patvirtinti kiekvieną atsargų vienetą. | 
-| Maksimalus vienetų skaičius     | Pasiekiama paėmimo darbo atveju, jei įgalintas vienetų paėmimo patvirtinimas. Nustato vienetų, kuriuos turite patvirtinti, skaičiaus apribojimus. |  
+| <span data-ttu-id="5c952-125">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="5c952-125">Piece picking confirmation</span></span>   | <span data-ttu-id="5c952-126">Pasiekiama paėmimo ir skaičiavimo darbo tipų atveju.</span><span class="sxs-lookup"><span data-stu-id="5c952-126">Available for pick and counting work types.</span></span> <span data-ttu-id="5c952-127">Automatiškai pasirenkamas produkto patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="5c952-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="5c952-128">Suteikia galimybę mobiliuoju įrenginiu patvirtinti kiekvieną atsargų vienetą.</span><span class="sxs-lookup"><span data-stu-id="5c952-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
+| <span data-ttu-id="5c952-129">Maksimalus vienetų skaičius</span><span class="sxs-lookup"><span data-stu-id="5c952-129">Maximum number of pieces</span></span>     | <span data-ttu-id="5c952-130">Pasiekiama paėmimo darbo atveju, jei įgalintas vienetų paėmimo patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="5c952-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="5c952-131">Nustato vienetų, kuriuos turite patvirtinti, skaičiaus apribojimus.</span><span class="sxs-lookup"><span data-stu-id="5c952-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
 

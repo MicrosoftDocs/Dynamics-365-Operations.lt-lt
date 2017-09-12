@@ -18,637 +18,637 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
-ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="finance-and-operations-glossary"></a>„Finance and Operations” sąvokų žodynas
+# <a name="finance-and-operations-glossary"></a><span data-ttu-id="48c5a-103">„Finance and Operations” sąvokų žodynas</span><span class="sxs-lookup"><span data-stu-id="48c5a-103">Finance and Operations glossary</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Sąvokų žodyne apibrėžti „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo pagrindiniai terminai ir koncepcijos. 
+<span data-ttu-id="48c5a-104">Sąvokų žodyne apibrėžti „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo pagrindiniai terminai ir koncepcijos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-104">This glossary defines key terms and concepts in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-### <a name="a"></a>**A**
+### <a name="a"></a><span data-ttu-id="48c5a-105">**A**</span><span class="sxs-lookup"><span data-stu-id="48c5a-105">**A**</span></span>
 
-###### <a name="accounting-journal"></a>**apskaitos žurnalas**
+###### <a name="accounting-journal"></a><span data-ttu-id="48c5a-106">**apskaitos žurnalas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-106">**accounting journal**</span></span>
 
-Žurnalas, naudojamas apskaitos įvykiams finansinių pasekmių apskaitos sistemoje registruoti.
+<span data-ttu-id="48c5a-107">Žurnalas, naudojamas apskaitos įvykiams finansinių pasekmių apskaitos sistemoje registruoti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-107">A journal that is used to record the financial consequences of accounting events in an accounting system.</span></span>
 
-###### <a name="accounting-rule"></a>**apskaitos taisyklė**
+###### <a name="accounting-rule"></a><span data-ttu-id="48c5a-108">**apskaitos taisyklė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-108">**accounting rule**</span></span>
 
-Apskaitos sistemos, kuri valdo finansinės apskaitos įvykių pasekmių pranešimo, klasifikavimo ir įrašymo principus, metodus bei procedūras, taisyklė.
+<span data-ttu-id="48c5a-109">Apskaitos sistemos, kuri valdo finansinės apskaitos įvykių pasekmių pranešimo, klasifikavimo ir įrašymo principus, metodus bei procedūras, taisyklė.</span><span class="sxs-lookup"><span data-stu-id="48c5a-109">A rule in an accounting system that controls the principles, methods, and procedures for classifying, recording, and reporting the financial consequences of accounting events.</span></span>
 
-###### <a name="ach-automated-clearing-house"></a>**ACH (automatizuota atsiskaitymo sistema)**
+###### <a name="ach-automated-clearing-house"></a><span data-ttu-id="48c5a-110">**ACH (automatizuota atsiskaitymo sistema)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-110">**ACH (Automated Clearing House)**</span></span>
 
-Elektroninė lėšų pervedimo sistema, naudojama Jungtinėse Amerikos Valstijose, kuri palengvina lėšų pervedimą tarp gaunančios pinigus šalies ir pervedančios pinigus šalies banko sąskaitų.
+<span data-ttu-id="48c5a-111">Elektroninė lėšų pervedimo sistema, naudojama Jungtinėse Amerikos Valstijose, kuri palengvina lėšų pervedimą tarp gaunančios pinigus šalies ir pervedančios pinigus šalies banko sąskaitų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-111">An electronic funds transfer system available in the United States that facilitates the transfer of funds between receiving party and originating party bank accounts.</span></span>
 
-###### <a name="actual-quantity"></a>**faktinis kiekis**
+###### <a name="actual-quantity"></a><span data-ttu-id="48c5a-112">**faktinis kiekis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-112">**actual quantity**</span></span>
 
-Išmatuotas kiekis, kuris yra įvestis į veiklą arba išvestis iš jos.
+<span data-ttu-id="48c5a-113">Išmatuotas kiekis, kuris yra įvestis į veiklą arba išvestis iš jos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-113">The measured quantity that is input into or output from an activity.</span></span>
 
-###### <a name="address-verification"></a>**adreso tikrinimas**
+###### <a name="address-verification"></a><span data-ttu-id="48c5a-114">**adreso tikrinimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-114">**address verification**</span></span>
 
-Kredito kortelės procesoriaus teikiama paslauga, kuri patvirtina, kad kortelės turėtojo atsiskaitymo adresas atitinka informaciją, esančią išduodančio banko faile.
+<span data-ttu-id="48c5a-115">Kredito kortelės procesoriaus teikiama paslauga, kuri patvirtina, kad kortelės turėtojo atsiskaitymo adresas atitinka informaciją, esančią išduodančio banko faile.</span><span class="sxs-lookup"><span data-stu-id="48c5a-115">The service that is provided by a credit card processor that validates that the billing address provided by a card holder matches the information on file with the issuing bank.</span></span>
 
-###### <a name="aging"></a>**skirstymas pagal terminus**
+###### <a name="aging"></a><span data-ttu-id="48c5a-116">**skirstymas pagal terminus**</span><span class="sxs-lookup"><span data-stu-id="48c5a-116">**aging**</span></span>
 
-Laikotarpių pagal terminus klasifikavimo procesas.
+<span data-ttu-id="48c5a-117">Laikotarpių pagal terminus klasifikavimo procesas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-117">The process of classifying time periods by age.</span></span>
 
-###### <a name="aging-period"></a>**skirstymo pagal terminus laikotarpis**
+###### <a name="aging-period"></a><span data-ttu-id="48c5a-118">**skirstymo pagal terminus laikotarpis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-118">**aging period**</span></span>
 
-Laikotarpio dienų skaičius, naudojamas pirkėjui apie vėluojamą mokėjimo balansą pranešti.
+<span data-ttu-id="48c5a-119">Laikotarpio dienų skaičius, naudojamas pirkėjui apie vėluojamą mokėjimo balansą pranešti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-119">The number of days in a time period used to report an overdue customer payment balance.</span></span>
 
-### <a name="b"></a>**B**
+### <a name="b"></a><span data-ttu-id="48c5a-120">**B**</span><span class="sxs-lookup"><span data-stu-id="48c5a-120">**B**</span></span>
 
-###### <a name="balance-sheet"></a>**balansas**
+###### <a name="balance-sheet"></a><span data-ttu-id="48c5a-121">**balansas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-121">**balance sheet**</span></span>
 
-Organizacijos finansinės padėties ataskaita, kurioje pateikiama turto, įsipareigojimų ir kapitalo būsena nurodytą dieną.
+<span data-ttu-id="48c5a-122">Organizacijos finansinės padėties ataskaita, kurioje pateikiama turto, įsipareigojimų ir kapitalo būsena nurodytą dieną.</span><span class="sxs-lookup"><span data-stu-id="48c5a-122">A statement of the financial position of an organization that reports the state of assets, liabilities, and equity on a specified date.</span></span>
 
-###### <a name="balance-sheet-account"></a>**balanso sąskaita**
+###### <a name="balance-sheet-account"></a><span data-ttu-id="48c5a-123">**balanso sąskaita**</span><span class="sxs-lookup"><span data-stu-id="48c5a-123">**balance sheet account**</span></span>
 
-Sąskaita, kurioje aprašomi balanso sąskaitoje pateiktų verčių pokyčiai.
+<span data-ttu-id="48c5a-124">Sąskaita, kurioje aprašomi balanso sąskaitoje pateiktų verčių pokyčiai.</span><span class="sxs-lookup"><span data-stu-id="48c5a-124">An account that describes the changes in value reported on a balance sheet.</span></span>
 
-###### <a name="bank-reconciliation"></a>**banko derinimas**
+###### <a name="bank-reconciliation"></a><span data-ttu-id="48c5a-125">**banko derinimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-125">**bank reconciliation**</span></span>
 
-DK sąskaitos suderinimo praktika, kuri atspindi banko sąskaitą ir kurioje pateikiami DK sąskaitos įrašai, derantys su banko išrašo įrašais.
+<span data-ttu-id="48c5a-126">DK sąskaitos suderinimo praktika, kuri atspindi banko sąskaitą ir kurioje pateikiami DK sąskaitos įrašai, derantys su banko išrašo įrašais.</span><span class="sxs-lookup"><span data-stu-id="48c5a-126">A practice of reconciling a ledger account that represents a bank account by matching ledger account entries to bank statement entries.</span></span>
 
-###### <a name="batch-attribute"></a>**paketo atributas**
+###### <a name="batch-attribute"></a><span data-ttu-id="48c5a-127">**paketo atributas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-127">**batch attribute**</span></span>
 
-Proceso partijos arba perdavimo siuntos produkto atributas.
+<span data-ttu-id="48c5a-128">Proceso partijos arba perdavimo siuntos produkto atributas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-128">A product attribute of a process batch or a transfer batch.</span></span>
 
-###### <a name="best-before-date"></a>**galiojimo pabaigos data**
+###### <a name="best-before-date"></a><span data-ttu-id="48c5a-129">**galiojimo pabaigos data**</span><span class="sxs-lookup"><span data-stu-id="48c5a-129">**best-before date**</span></span>
 
-Optimalios produkto kokybės ar geriausių charakteristikų rekomenduojama data.
+<span data-ttu-id="48c5a-130">Optimalios produkto kokybės ar geriausių charakteristikų rekomenduojama data.</span><span class="sxs-lookup"><span data-stu-id="48c5a-130">A recommended date for obtaining the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="best-before-period"></a>**galiojimo laikotarpis**
+###### <a name="best-before-period"></a><span data-ttu-id="48c5a-131">**galiojimo laikotarpis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-131">**best-before period**</span></span>
 
-Laikotarpis, per kurį galima gauti optimalią produkto kokybę ar geriausias jo charakteristikas.
+<span data-ttu-id="48c5a-132">Laikotarpis, per kurį galima gauti optimalią produkto kokybę ar geriausias jo charakteristikas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-132">The time period in which to obtain the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="bill-of-exchange"></a>**įsakomasis vekselis**
+###### <a name="bill-of-exchange"></a><span data-ttu-id="48c5a-133">**įsakomasis vekselis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-133">**bill of exchange**</span></span>
 
-Šaltinio dokumentas, kuris dokumentuoja besąlygišką prašymą trečiajai šaliai mokėti antrajai šaliai pagal pareikalavimą.
+<span data-ttu-id="48c5a-134">Šaltinio dokumentas, kuris dokumentuoja besąlygišką prašymą trečiajai šaliai mokėti antrajai šaliai pagal pareikalavimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-134">A source document that documents an unconditional request for a third-party to pay a second party on demand.</span></span>
 
-###### <a name="blocking"></a>**blokavimas**
+###### <a name="blocking"></a><span data-ttu-id="48c5a-135">**blokavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-135">**blocking**</span></span>
 
-Dokumento pateikimo arba produkto sulaikymo veiksmas.
+<span data-ttu-id="48c5a-136">Dokumento pateikimo arba produkto sulaikymo veiksmas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-136">The action of placing a document or product on hold.</span></span>
 
-###### <a name="bom-bill-of-materials"></a>**KS (komplektavimo specifikacija)**
+###### <a name="bom-bill-of-materials"></a><span data-ttu-id="48c5a-137">**KS (komplektavimo specifikacija)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-137">**BOM (bill of materials)**</span></span>
 
-Produktų sąrašas ir jų kiekiai, kurių reikia norint pagaminti vieną produktą.
-###### <a name="budget-control"></a>**biudžeto kontrolė**
+<span data-ttu-id="48c5a-138">Produktų sąrašas ir jų kiekiai, kurių reikia norint pagaminti vieną produktą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-138">A list of products and their quantities that are required to produce one product.</span></span>
+###### <a name="budget-control"></a><span data-ttu-id="48c5a-139">**biudžeto kontrolė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-139">**budget control**</span></span>
 
-Praktika, pagal kurią išlaidos leidžiamos, tik kai biudžeto lėšas galima rezervuoti būsimiems mokėjimo įsipareigojimams.
+<span data-ttu-id="48c5a-140">Praktika, pagal kurią išlaidos leidžiamos, tik kai biudžeto lėšas galima rezervuoti būsimiems mokėjimo įsipareigojimams.</span><span class="sxs-lookup"><span data-stu-id="48c5a-140">A practice of authorizing expenditure only when budget funds can be reserved to meet future payment commitments.</span></span>
 
-###### <a name="budget-control-dimension"></a>**biudžeto valdymo dimensija**
+###### <a name="budget-control-dimension"></a><span data-ttu-id="48c5a-141">**biudžeto valdymo dimensija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-141">**budget control dimension**</span></span>
 
-Aktyvių finansinių dimensijų reikšmių, naudojamų biudžeto lėšoms suplanuotai veiklai apmokėti paskirstyti, derinys.
+<span data-ttu-id="48c5a-142">Aktyvių finansinių dimensijų reikšmių, naudojamų biudžeto lėšoms suplanuotai veiklai apmokėti paskirstyti, derinys.</span><span class="sxs-lookup"><span data-stu-id="48c5a-142">A combination of active financial dimensions values used to allocate budget funds to pay for planned activities.</span></span>
 
-###### <a name="budget-control-rule"></a>**biudžeto valdymo taisyklė**
+###### <a name="budget-control-rule"></a><span data-ttu-id="48c5a-143">**biudžeto valdymo taisyklė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-143">**budget control rule**</span></span>
 
-Verslo sprendimo, patikrinti fiksuotas ir faktines išlaidas pagal turimas biudžeto lėšas, skirtas išsamiai arba bendrai veiklai, apibrėžtai pagal galiojančią biudžeto valdymo dimensijų reikšmių derinį, kodavimas.
+<span data-ttu-id="48c5a-144">Verslo sprendimo, patikrinti fiksuotas ir faktines išlaidas pagal turimas biudžeto lėšas, skirtas išsamiai arba bendrai veiklai, apibrėžtai pagal galiojančią biudžeto valdymo dimensijų reikšmių derinį, kodavimas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-144">The encoding of a business decision to check committed and actual expenditure against available budget funds allocated for detailed or aggregate activities defined by valid budget control dimension value combinations.</span></span>
 
-###### <a name="budget-cycle-time-span"></a>**biudžeto ciklo trukmė**
+###### <a name="budget-cycle-time-span"></a><span data-ttu-id="48c5a-145">**biudžeto ciklo trukmė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-145">**budget cycle time span**</span></span>
 
-Laikotarpis, apibrėžtas kaip finansinio kalendoriaus laikotarpių skaičius. Biudžeto laikotarpis gali skirtis nuo apskaitos laikotarpio.
+<span data-ttu-id="48c5a-146">Laikotarpis, apibrėžtas kaip finansinio kalendoriaus laikotarpių skaičius.</span><span class="sxs-lookup"><span data-stu-id="48c5a-146">A time period specified as a number of fiscal calendar periods.</span></span> <span data-ttu-id="48c5a-147">Biudžeto laikotarpis gali skirtis nuo apskaitos laikotarpio.</span><span class="sxs-lookup"><span data-stu-id="48c5a-147">The budget period can be different from the accounting period.</span></span>
 
-###### <a name="budget-group"></a>**biudžeto grupė**
+###### <a name="budget-group"></a><span data-ttu-id="48c5a-148">**biudžeto grupė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-148">**budget group**</span></span>
 
-Finansinių dimensijų reikšmių biudžeto dimensijų hierarchijoje rinkinys, naudojamas apskaičiuoti bendras biudžeto lėšas, skirtas pirmenybę turinčioms finansinių dimensijų reikšmėms, sudedant biudžeto lėšas, skirtas pavaldžioms finansinių dimensijų reikšmėms.
+<span data-ttu-id="48c5a-149">Finansinių dimensijų reikšmių biudžeto dimensijų hierarchijoje rinkinys, naudojamas apskaičiuoti bendras biudžeto lėšas, skirtas pirmenybę turinčioms finansinių dimensijų reikšmėms, sudedant biudžeto lėšas, skirtas pavaldžioms finansinių dimensijų reikšmėms.</span><span class="sxs-lookup"><span data-stu-id="48c5a-149">A set of financial dimension values in a budget dimension hierarchy that is used to calculate aggregate budget funds allocated to superordinate financial dimension values by summing budget funds allocated to subordinate financial dimension values.</span></span>
 
-###### <a name="budget-model"></a>**biudžeto modelis**
+###### <a name="budget-model"></a><span data-ttu-id="48c5a-150">**biudžeto modelis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-150">**budget model**</span></span>
 
-Planavimo struktūra, naudojama suplanuoti biudžeto fondų paskirstymus ir išlaidas.
+<span data-ttu-id="48c5a-151">Planavimo struktūra, naudojama suplanuoti biudžeto fondų paskirstymus ir išlaidas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-151">A planning structure used to schedule budget fund allocations and expenditures.</span></span>
 
-###### <a name="bulk-item"></a>**sudedamoji prekės dalis**
+###### <a name="bulk-item"></a><span data-ttu-id="48c5a-152">**sudedamoji prekės dalis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-152">**bulk item**</span></span>
 
-Sudėtinės prekės įvestis į produkto pristatymo veiklą.
+<span data-ttu-id="48c5a-153">Sudėtinės prekės įvestis į produkto pristatymo veiklą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-153">A formula item input into a product delivery activity.</span></span>
 
-###### <a name="bundle"></a>**grupavimas**
+###### <a name="bundle"></a><span data-ttu-id="48c5a-154">**grupavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-154">**bundle**</span></span>
 
-Parduodamų kaip vienetas kelių produktų derinys.
+<span data-ttu-id="48c5a-155">Parduodamų kaip vienetas kelių produktų derinys.</span><span class="sxs-lookup"><span data-stu-id="48c5a-155">The combination of a number of products for sale as one unit.</span></span>
 
-###### <a name="business-unit"></a>**verslo struktūros vienetas**
+###### <a name="business-unit"></a><span data-ttu-id="48c5a-156">**verslo struktūros vienetas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-156">**business unit**</span></span>
 
-Pusiau savarankiškas valdymo vienetas, sukurtas strateginiams verslo tikslams pasiekti.
+<span data-ttu-id="48c5a-157">Pusiau savarankiškas valdymo vienetas, sukurtas strateginiams verslo tikslams pasiekti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-157">A semi-autonomous operating unit that is created to meet strategic business objectives.</span></span>
 
-### <a name="c"></a>**C**
+### <a name="c"></a><span data-ttu-id="48c5a-158">**C**</span><span class="sxs-lookup"><span data-stu-id="48c5a-158">**C**</span></span>
 
-###### <a name="capacity-load"></a>**pajėgumas**
+###### <a name="capacity-load"></a><span data-ttu-id="48c5a-159">**pajėgumas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-159">**capacity load**</span></span>
 
-Maksimali suplanuoto darbo suma, kurį darbo centras gali atlikti reikalingu pajėgumo lygiu.
+<span data-ttu-id="48c5a-160">Maksimali suplanuoto darbo suma, kurį darbo centras gali atlikti reikalingu pajėgumo lygiu.</span><span class="sxs-lookup"><span data-stu-id="48c5a-160">The maximum amount of scheduled work that a work center can perform at a required capacity level.</span></span>
 
-###### <a name="capacity-planning"></a>**pajėgumo planavimas**
+###### <a name="capacity-planning"></a><span data-ttu-id="48c5a-161">**pajėgumo planavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-161">**capacity planning**</span></span>
 
-Išteklių pajėgumo reikalavimų, kurie atitiktų išeigos paklausą ateityje per konkrečius laikotarpius, nustatymo procedūra.
+<span data-ttu-id="48c5a-162">Išteklių pajėgumo reikalavimų, kurie atitiktų išeigos paklausą ateityje per konkrečius laikotarpius, nustatymo procedūra.</span><span class="sxs-lookup"><span data-stu-id="48c5a-162">A procedure for determining the resource capacity requirements that meet the demand of future output during specific time periods.</span></span>
 
-###### <a name="carry-forward-budget"></a>**perkeliamas biudžetas**
+###### <a name="carry-forward-budget"></a><span data-ttu-id="48c5a-163">**perkeliamas biudžetas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-163">**carry-forward budget**</span></span>
 
-Perkeltas biudžetas iš vienų finansinių metų į kitus ir yra rezervuotas atvirų pirkimų užsakymams naujais finansiniais metais.
+<span data-ttu-id="48c5a-164">Perkeltas biudžetas iš vienų finansinių metų į kitus ir yra rezervuotas atvirų pirkimų užsakymams naujais finansiniais metais.</span><span class="sxs-lookup"><span data-stu-id="48c5a-164">The budget that is transferred from one fiscal year to the next and that is reserved for open purchase orders in the new fiscal year.</span></span>
 
-###### <a name="cash-generating-unit"></a>**grynuosius pinigus generuojantis vienetas**
+###### <a name="cash-generating-unit"></a><span data-ttu-id="48c5a-165">**grynuosius pinigus generuojantis vienetas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-165">**cash-generating unit**</span></span>
 
-Mažiausia galimo klasifikuoti turto grupė, kuri generuoja grynuosius pinigus nepriklausomai nuo kito turto organizacijos viduje. Šios turto grupės yra naudojamos matuojant išlaidas, kurios bus patirtos dėl nuvertėjimo.
+<span data-ttu-id="48c5a-166">Mažiausia galimo klasifikuoti turto grupė, kuri generuoja grynuosius pinigus nepriklausomai nuo kito turto organizacijos viduje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-166">The smallest group of classifiable assets that generates cash independently of other assets within an organization.</span></span> <span data-ttu-id="48c5a-167">Šios turto grupės yra naudojamos matuojant išlaidas, kurios bus patirtos dėl nuvertėjimo.</span><span class="sxs-lookup"><span data-stu-id="48c5a-167">These groups of assets are used to measure impairment losses that will be incurred.</span></span>
 
-###### <a name="catch-weight"></a>**esamas svoris**
+###### <a name="catch-weight"></a><span data-ttu-id="48c5a-168">**esamas svoris**</span><span class="sxs-lookup"><span data-stu-id="48c5a-168">**catch weight**</span></span>
 
-Pardavimo prekės arba atsargų prekės faktinis arba vardinis svoris.
+<span data-ttu-id="48c5a-169">Pardavimo prekės arba atsargų prekės faktinis arba vardinis svoris.</span><span class="sxs-lookup"><span data-stu-id="48c5a-169">The actual or nominal weight of a sales item or inventory item.</span></span>
 
-###### <a name="chart-of-accounts"></a>**sąskaitų planas**
+###### <a name="chart-of-accounts"></a><span data-ttu-id="48c5a-170">**sąskaitų planas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-170">**chart of accounts**</span></span>
 
-Pagrindinių sąskaitų sąrašas.
+<span data-ttu-id="48c5a-171">Pagrindinių sąskaitų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-171">A list of main accounts.</span></span>
 
-###### <a name="cogs-cost-of-goods-sold"></a>**PPK (parduotų prekių savikaina)**
+###### <a name="cogs-cost-of-goods-sold"></a><span data-ttu-id="48c5a-172">**PPK (parduotų prekių savikaina)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-172">**COGS (cost of goods sold)**</span></span>
 
-Apskaitos kategorija, naudojama susumuoti produktų gamybos ir atsargų laikymo finansines pasekmes.
+<span data-ttu-id="48c5a-173">Apskaitos kategorija, naudojama susumuoti produktų gamybos ir atsargų laikymo finansines pasekmes.</span><span class="sxs-lookup"><span data-stu-id="48c5a-173">An accounting category used to sum the financial consequences of manufacturing products and carrying inventory.</span></span>
 
-###### <a name="contractor"></a>**rangovas**
+###### <a name="contractor"></a><span data-ttu-id="48c5a-174">**rangovas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-174">**contractor**</span></span>
 
-Asmens, kuris dalyvauja rangovo ir darbdavio santykiuose su juridiniu subjektu, prisiimtas vaidmuo.
+<span data-ttu-id="48c5a-175">Asmens, kuris dalyvauja rangovo ir darbdavio santykiuose su juridiniu subjektu, prisiimtas vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="48c5a-175">A role assumed by a person who participates in a contractor-employer relationship with a legal entity.</span></span>
 
-###### <a name="co-product"></a>**sudėtinis produktas**
+###### <a name="co-product"></a><span data-ttu-id="48c5a-176">**sudėtinis produktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-176">**co-product**</span></span>
 
-Prekė, pagaminta kartu su kita preke.
+<span data-ttu-id="48c5a-177">Prekė, pagaminta kartu su kita preke.</span><span class="sxs-lookup"><span data-stu-id="48c5a-177">An item produced jointly with another item.</span></span>
 
-###### <a name="cost-center"></a>**išlaidų centras**
+###### <a name="cost-center"></a><span data-ttu-id="48c5a-178">**išlaidų centras**</span><span class="sxs-lookup"><span data-stu-id="48c5a-178">**cost center**</span></span>
 
-Valdymo vienetas, kurio vadovai yra atsakingi už biudžeto ir faktines išlaidas.
+<span data-ttu-id="48c5a-179">Valdymo vienetas, kurio vadovai yra atsakingi už biudžeto ir faktines išlaidas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-179">An operating unit whose managers are accountable for budgeted and actual expenditures.</span></span>
 
-###### <a name="cost-variance"></a>**išlaidų nuokrypis**
+###### <a name="cost-variance"></a><span data-ttu-id="48c5a-180">**išlaidų nuokrypis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-180">**cost variance**</span></span>
 
-Skirtumas tarp numatytų ir faktinių išlaidų.
+<span data-ttu-id="48c5a-181">Skirtumas tarp numatytų ir faktinių išlaidų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-181">The difference between an expected cost and an actual cost.</span></span>
 
-###### <a name="costing"></a>**įkainojimas**
+###### <a name="costing"></a><span data-ttu-id="48c5a-182">**įkainojimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-182">**costing**</span></span>
 
-Ekonominių išteklių įgytų, pagamintų ar organizacijos pristatytų išlaidų apskaičiavimo, priskyrimo ir paskyrimo procesas.
+<span data-ttu-id="48c5a-183">Ekonominių išteklių įgytų, pagamintų ar organizacijos pristatytų išlaidų apskaičiavimo, priskyrimo ir paskyrimo procesas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-183">The process of calculating, assigning, and allocating the cost of economic resources acquired, produced, or delivered by an organization.</span></span>
 
-###### <a name="ctp-capable-to-promise"></a>**CTP (galimos pateikti atsargos)**
+###### <a name="ctp-capable-to-promise"></a><span data-ttu-id="48c5a-184">**CTP (galimos pateikti atsargos)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-184">**CTP (capable-to-promise)**</span></span>
 
-Prieinamų operacijų išteklių išeigos produkto ir prieinamo įvesties produkto dalis, reikalinga įvykdyti konkretaus kliento reikalavimą.
+<span data-ttu-id="48c5a-185">Prieinamų operacijų išteklių išeigos produkto ir prieinamo įvesties produkto dalis, reikalinga įvykdyti konkretaus kliento reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-185">The portion of product output from available operations resources and available input product required to fulfill a specific customer requirement.</span></span>
 
-###### <a name="currency-code"></a>**valiutos kodas**
+###### <a name="currency-code"></a><span data-ttu-id="48c5a-186">**valiutos kodas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-186">**currency code**</span></span>
 
-Raidinis ir skaitinis identifikatorius, reiškiantis valiutos vienetą.
+<span data-ttu-id="48c5a-187">Raidinis ir skaitinis identifikatorius, reiškiantis valiutos vienetą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-187">An alphanumeric identifier that represents a currency unit.</span></span>
 
-###### <a name="cycle-time"></a>**ciklo laikas**
+###### <a name="cycle-time"></a><span data-ttu-id="48c5a-188">**ciklo laikas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-188">**cycle time**</span></span>
 
-Užtruktas laikas veiklai atlikti.
+<span data-ttu-id="48c5a-189">Užtruktas laikas veiklai atlikti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-189">The time taken to complete an activity.</span></span>
 
-### <a name="d"></a>**D**
+### <a name="d"></a><span data-ttu-id="48c5a-190">**D**</span><span class="sxs-lookup"><span data-stu-id="48c5a-190">**D**</span></span>
 
-###### <a name="dashboard"></a>**ataskaitų sritis**
+###### <a name="dashboard"></a><span data-ttu-id="48c5a-191">**ataskaitų sritis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-191">**dashboard**</span></span>
 
-Įprastas „Finance and Operations“ pagrindinis puslapis. Ataskaitų srityje vartotojai mato visų darbo sričių, prie kurių jie turi prieigą, dalis. Kiekvienoje dalyje rodomos susijusios darbo srities suvestinės dalių išklotinės. Ataskaitų sritį sudaro pavadinimas ir dalys su išklotinėmis.
+<span data-ttu-id="48c5a-192">Įprastas „Finance and Operations“ pagrindinis puslapis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-192">The typical start page in Finance and Operations.</span></span> <span data-ttu-id="48c5a-193">Ataskaitų srityje vartotojai mato visų darbo sričių, prie kurių jie turi prieigą, dalis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-193">On the dashboard, users see a section for each workspace that they have access to.</span></span> <span data-ttu-id="48c5a-194">Kiekvienoje dalyje rodomos susijusios darbo srities suvestinės dalių išklotinės.</span><span class="sxs-lookup"><span data-stu-id="48c5a-194">Each section displays the tiles from the summary sections in the related workspace.</span></span> <span data-ttu-id="48c5a-195">Ataskaitų sritį sudaro pavadinimas ir dalys su išklotinėmis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-195">The dashboard consists of a name and sections with tiles.</span></span>
 
-###### <a name="data-entity"></a>**duomenų objektas**
+###### <a name="data-entity"></a><span data-ttu-id="48c5a-196">**duomenų objektas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-196">**data entity**</span></span>
 
-Informacijos struktūra, reiškianti objekto duomenų charakteristiką.
+<span data-ttu-id="48c5a-197">Informacijos struktūra, reiškianti objekto duomenų charakteristiką.</span><span class="sxs-lookup"><span data-stu-id="48c5a-197">An information structure that represents the data characteristic of an entity.</span></span>
 
-###### <a name="delegate"></a>**perėmėjas**
+###### <a name="delegate"></a><span data-ttu-id="48c5a-198">**perėmėjas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-198">**delegate**</span></span>
 
-Perėmėjo tipas nurodo metodus su tam tikru parametrų sąrašu ir grąžinimo tipu.
+<span data-ttu-id="48c5a-199">Perėmėjo tipas nurodo metodus su tam tikru parametrų sąrašu ir grąžinimo tipu.</span><span class="sxs-lookup"><span data-stu-id="48c5a-199">A delegate is a type that represents references to methods with a particular parameter list and return type.</span></span>
 
-###### <a name="delivery-note"></a>**pristatymo pažyma**
+###### <a name="delivery-note"></a><span data-ttu-id="48c5a-200">**pristatymo pažyma**</span><span class="sxs-lookup"><span data-stu-id="48c5a-200">**delivery note**</span></span>
 
-Verslo dokumentas, kuris dokumentuoja produktų pristatymą tarp dviejų šalių.
+<span data-ttu-id="48c5a-201">Verslo dokumentas, kuris dokumentuoja produktų pristatymą tarp dviejų šalių.</span><span class="sxs-lookup"><span data-stu-id="48c5a-201">A business document that documents the delivery of products between two parties.</span></span>
 
-###### <a name="demand-forecast"></a>**poreikio prognozė**
+###### <a name="demand-forecast"></a><span data-ttu-id="48c5a-202">**poreikio prognozė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-202">**demand forecast**</span></span>
 
-Būsimo produkto paklausos prognozė.
+<span data-ttu-id="48c5a-203">Būsimo produkto paklausos prognozė.</span><span class="sxs-lookup"><span data-stu-id="48c5a-203">A prediction of future product demand.</span></span>
 
-###### <a name="demand-forecasting"></a>**poreikio prognozė**
+###### <a name="demand-forecasting"></a><span data-ttu-id="48c5a-204">**poreikio prognozė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-204">**demand forecasting**</span></span>
 
-Verslo procesas, įvertinantis poreikį ateityje ir sukuriantis poreikio prognozes, remdamasis praeities operacijų duomenimis.
+<span data-ttu-id="48c5a-205">Verslo procesas, įvertinantis poreikį ateityje ir sukuriantis poreikio prognozes, remdamasis praeities operacijų duomenimis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-205">A business process that estimates future demand and creates demand forecasts based on historical transaction data.</span></span>
 
-###### <a name="deployable-package"></a>**diegiamas paketas**
+###### <a name="deployable-package"></a><span data-ttu-id="48c5a-206">**diegiamas paketas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-206">**deployable package**</span></span>
 
-Diegimo vartotojo priėmimo bandymų (UAT) ir gamybos aplinkose priemonė.
+<span data-ttu-id="48c5a-207">Diegimo vartotojo priėmimo bandymų (UAT) ir gamybos aplinkose priemonė.</span><span class="sxs-lookup"><span data-stu-id="48c5a-207">The vehicle used for deployment on User Acceptance Test (UAT) and production environments.</span></span>
 
-###### <a name="designer"></a>**kūrimo įrankis**
+###### <a name="designer"></a><span data-ttu-id="48c5a-208">**kūrimo įrankis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-208">**designer**</span></span>
 
-„Visual Studio“ įrankis, naudotas modelio elementams kurti, naujinti ir tikrinti.
+<span data-ttu-id="48c5a-209">„Visual Studio“ įrankis, naudotas modelio elementams kurti, naujinti ir tikrinti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-209">A Visual Studio tool that you used to create, update, and inspect your model elements.</span></span>
 
-###### <a name="dimension-based-product-configuration"></a>**produktų konfigūravimas pagal dimensijas**
+###### <a name="dimension-based-product-configuration"></a><span data-ttu-id="48c5a-210">**produktų konfigūravimas pagal dimensijas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-210">**dimension-based product configuration**</span></span>
 
-Konfigūracijos technologija, naudojama kuriant prekės variantus, pasirenkant produkto dimensijų reikšmes.
+<span data-ttu-id="48c5a-211">Konfigūracijos technologija, naudojama kuriant prekės variantus, pasirenkant produkto dimensijų reikšmes.</span><span class="sxs-lookup"><span data-stu-id="48c5a-211">A configuration technology used to create product variants by selecting values for product dimensions.</span></span>
 
-###### <a name="distinct-product"></a>**išskirtasis produktas**
+###### <a name="distinct-product"></a><span data-ttu-id="48c5a-212">**išskirtasis produktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-212">**distinct product**</span></span>
 
-Unikaliai identifikuojamas produktas.
+<span data-ttu-id="48c5a-213">Unikaliai identifikuojamas produktas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-213">A uniquely identifiable product.</span></span>
 
-###### <a name="document-management-system"></a>**dokumentų valdymo sistema**
+###### <a name="document-management-system"></a><span data-ttu-id="48c5a-214">**dokumentų valdymo sistema**</span><span class="sxs-lookup"><span data-stu-id="48c5a-214">**document management system**</span></span>
 
-Programos paslauga organizacijos dokumentams saugoti ir tvarkyti.
+<span data-ttu-id="48c5a-215">Programos paslauga organizacijos dokumentams saugoti ir tvarkyti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-215">An application service for storing and handling an organization's documents.</span></span>
 
-###### <a name="duty"></a>**pareiga**
+###### <a name="duty"></a><span data-ttu-id="48c5a-216">**pareiga**</span><span class="sxs-lookup"><span data-stu-id="48c5a-216">**duty**</span></span>
 
-Saugos modelyje programos prieigos teisių, reikalingų vartotojui vykdyti savo pareigas, rinkinys.
+<span data-ttu-id="48c5a-217">Saugos modelyje programos prieigos teisių, reikalingų vartotojui vykdyti savo pareigas, rinkinys.</span><span class="sxs-lookup"><span data-stu-id="48c5a-217">In the security model, a set of application access privileges that are required for a user to carry out their responsibilities.</span></span>
 
-### <a name="e"></a>**E**
+### <a name="e"></a><span data-ttu-id="48c5a-218">**E**</span><span class="sxs-lookup"><span data-stu-id="48c5a-218">**E**</span></span>
 
-###### <a name="eft-electronic-funds-transfer"></a>**EFT (elektroninis lėšų pervedimas)**
+###### <a name="eft-electronic-funds-transfer"></a><span data-ttu-id="48c5a-219">**EFT (elektroninis lėšų pervedimas)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-219">**EFT (electronic funds transfer)**</span></span>
 
-Tinklo sistema lėšoms iš vienos banko sąskaitos į kitą pervesti.
+<span data-ttu-id="48c5a-220">Tinklo sistema lėšoms iš vienos banko sąskaitos į kitą pervesti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-220">A networked system for transferring funds from one bank account to another.</span></span>
 
-###### <a name="event"></a>**įvykis**
+###### <a name="event"></a><span data-ttu-id="48c5a-221">**įvykis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-221">**event**</span></span>
 
-Kai įvyksta kas nors aktualaus, įvykis leidžia klasei arba objektui apie tai pranešti kitoms klasėms arba objektams.
+<span data-ttu-id="48c5a-222">Kai įvyksta kas nors aktualaus, įvykis leidžia klasei arba objektui apie tai pranešti kitoms klasėms arba objektams.</span><span class="sxs-lookup"><span data-stu-id="48c5a-222">An event lets a class or object to notify other classes or objects when something of interest occurs.</span></span>
 
-###### <a name="epe-every-product-every"></a>**EPE (kiekvienam produktui kiekvieną)**
+###### <a name="epe-every-product-every"></a><span data-ttu-id="48c5a-223">**EPE (kiekvienam produktui kiekvieną)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-223">**EPE (Every Product Every)**</span></span>
 
-„Lean“ sąvoka, kuri naudojama nustatyti reguliariai pasikartojantį gamybos ciklą.
+<span data-ttu-id="48c5a-224">„Lean“ sąvoka, kuri naudojama nustatyti reguliariai pasikartojantį gamybos ciklą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-224">A lean concept that is used to establish a regular repeating production cycle.</span></span>
 
-###### <a name="extension"></a>**išplėtimas**
+###### <a name="extension"></a><span data-ttu-id="48c5a-225">**išplėtimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-225">**extension**</span></span>
 
-Programos tinkinimas į esamą kodą įtraukiant daugiau funkcijų.
+<span data-ttu-id="48c5a-226">Programos tinkinimas į esamą kodą įtraukiant daugiau funkcijų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-226">Customizing an application by adding functionality to existing code.</span></span>
 
-### <a name="f"></a>**F**
+### <a name="f"></a><span data-ttu-id="48c5a-227">**F**</span><span class="sxs-lookup"><span data-stu-id="48c5a-227">**F**</span></span>
 
-###### <a name="financial-dimension"></a>**finansinė dimensija**
+###### <a name="financial-dimension"></a><span data-ttu-id="48c5a-228">**finansinė dimensija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-228">**financial dimension**</span></span>
 
-Finansinių duomenų klasifikatorius, sukurtas iš šalių, vietų, produktų ir veiklų organizacijoje ir naudojamas valdymo ataskaitoms.
+<span data-ttu-id="48c5a-229">Finansinių duomenų klasifikatorius, sukurtas iš šalių, vietų, produktų ir veiklų organizacijoje ir naudojamas valdymo ataskaitoms.</span><span class="sxs-lookup"><span data-stu-id="48c5a-229">A financial data classifier created from the parties, locations, products, and activities in an organization and used for management reporting.</span></span>
 
-###### <a name="financial-dimension-value"></a>**finansinės dimensijos reikšmė**
+###### <a name="financial-dimension-value"></a><span data-ttu-id="48c5a-230">**finansinės dimensijos reikšmė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-230">**financial dimension value**</span></span>
 
-Finansinės dimensijos duomenų elementas domene.
+<span data-ttu-id="48c5a-231">Finansinės dimensijos duomenų elementas domene.</span><span class="sxs-lookup"><span data-stu-id="48c5a-231">A data element in the domain of a financial dimension.</span></span>
 
-###### <a name="financial-statement"></a>**finansinė ataskaita**
+###### <a name="financial-statement"></a><span data-ttu-id="48c5a-232">**finansinė ataskaita**</span><span class="sxs-lookup"><span data-stu-id="48c5a-232">**financial statement**</span></span>
 
-Ataskaita, kurioje dokumentuota organizacijos finansinė informacija ir finansinė padėtis.
+<span data-ttu-id="48c5a-233">Ataskaita, kurioje dokumentuota organizacijos finansinė informacija ir finansinė padėtis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-233">A report that documents the financial information and financial position of an organization.</span></span>
 
-###### <a name="fixed-cost"></a>**fiksuota savikaina**
+###### <a name="fixed-cost"></a><span data-ttu-id="48c5a-234">**fiksuota savikaina**</span><span class="sxs-lookup"><span data-stu-id="48c5a-234">**fixed cost**</span></span>
 
-Išlaidos, kurios nekinta su produkto pristatymo našumo arba išeigos pokyčiais.
+<span data-ttu-id="48c5a-235">Išlaidos, kurios nekinta su produkto pristatymo našumo arba išeigos pokyčiais.</span><span class="sxs-lookup"><span data-stu-id="48c5a-235">A cost that does not vary with changes in product delivery throughput or output.</span></span>
 
-###### <a name="fixed-currency"></a>**fiksuotasis valiutos kursas**
+###### <a name="fixed-currency"></a><span data-ttu-id="48c5a-236">**fiksuotasis valiutos kursas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-236">**fixed currency**</span></span>
 
-Valiuta, kurios kursas kitos valiutos atžvilgiu yra fiksuotas.
+<span data-ttu-id="48c5a-237">Valiuta, kurios kursas kitos valiutos atžvilgiu yra fiksuotas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-237">A currency that has a fixed exchange rate in relation to another currency.</span></span>
 
-###### <a name="fixed-quantity-kanban"></a>**fiksuoto kiekio „kanban“**
+###### <a name="fixed-quantity-kanban"></a><span data-ttu-id="48c5a-238">**fiksuoto kiekio „kanban“**</span><span class="sxs-lookup"><span data-stu-id="48c5a-238">**fixed quantity kanban**</span></span>
 
-„kanban“ tipas, naudojamas, kai „kanban“, priskirtų „kanban“ taisyklei, skaičius yra pastovus.
+<span data-ttu-id="48c5a-239">„kanban“ tipas, naudojamas, kai „kanban“, priskirtų „kanban“ taisyklei, skaičius yra pastovus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-239">A type of kanban that is used when the number of kanbans that are assigned to a kanban rule is constant.</span></span>
 
-###### <a name="formula"></a>**formulė**
+###### <a name="formula"></a><span data-ttu-id="48c5a-240">**formulė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-240">**formula**</span></span>
 
-Skaitinis ryšys tarp gamybos proceso įvesties ir gamybos proceso išeigos.
+<span data-ttu-id="48c5a-241">Skaitinis ryšys tarp gamybos proceso įvesties ir gamybos proceso išeigos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-241">A numeric relationship among production process inputs and production process outputs.</span></span>
 
-###### <a name="formula-item"></a>**sudėtinė prekė**
+###### <a name="formula-item"></a><span data-ttu-id="48c5a-242">**sudėtinė prekė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-242">**formula item**</span></span>
 
-Formulės valdomo paketinio vykdymo išvestis.
+<span data-ttu-id="48c5a-243">Formulės valdomo paketinio vykdymo išvestis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-243">An output of a batch process controlled by a formula.</span></span>
 
-### <a name="g"></a>**G**
+### <a name="g"></a><span data-ttu-id="48c5a-244">**G**</span><span class="sxs-lookup"><span data-stu-id="48c5a-244">**G**</span></span>
 
-###### <a name="general-budget-reservation"></a>**bendrojo biudžeto lėšų rezervavimas**
+###### <a name="general-budget-reservation"></a><span data-ttu-id="48c5a-245">**bendrojo biudžeto lėšų rezervavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-245">**general budget reservation**</span></span>
 
-Dokumentas, kurį dažnai naudoja viešojo sektoriaus subjektai biudžeto lėšoms atidėti, kad jų nebūtų galima naudoti kitiems tikslams.
+<span data-ttu-id="48c5a-246">Dokumentas, kurį dažnai naudoja viešojo sektoriaus subjektai biudžeto lėšoms atidėti, kad jų nebūtų galima naudoti kitiems tikslams.</span><span class="sxs-lookup"><span data-stu-id="48c5a-246">A document that is often used by public sector entities to set aside or earmark budgeted funds so that those funds are not available for other purposes.</span></span>
 
-###### <a name="grace-period"></a>**atidėjimo laikotarpis**
+###### <a name="grace-period"></a><span data-ttu-id="48c5a-247">**atidėjimo laikotarpis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-247">**grace period**</span></span>
 
-Laikotarpis po nurodytos datos, per kurį įsipareigojimas gali būti įvykdytas nebaudžiant.
+<span data-ttu-id="48c5a-248">Laikotarpis po nurodytos datos, per kurį įsipareigojimas gali būti įvykdytas nebaudžiant.</span><span class="sxs-lookup"><span data-stu-id="48c5a-248">The time period beyond a specified date during which an obligation can be fulfilled without penalty.</span></span>
 
-###### <a name="gst-goods-and-services-tax"></a>**GST (prekių ir paslaugų mokestis)**
+###### <a name="gst-goods-and-services-tax"></a><span data-ttu-id="48c5a-249">**GST (prekių ir paslaugų mokestis)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-249">**GST (goods and services tax)**</span></span>
 
-Kai kuriose šalyse / regionuose apmokestinamas pridėtinės vertės mokestis.
+<span data-ttu-id="48c5a-250">Kai kuriose šalyse / regionuose apmokestinamas pridėtinės vertės mokestis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-250">A value-added tax levied in some countries/regions.</span></span>
 
-### <a name="i"></a>**I**
+### <a name="i"></a><span data-ttu-id="48c5a-251">**I**</span><span class="sxs-lookup"><span data-stu-id="48c5a-251">**I**</span></span>
 
-###### <a name="intercompany"></a>**vidinė įmonė**
+###### <a name="intercompany"></a><span data-ttu-id="48c5a-252">**vidinė įmonė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-252">**intercompany**</span></span>
 
-Susidaranti tarp dviejų ar daugiau juridinių subjektų, kurie yra tos pačios organizacijos, sujungiančios visų juridinių subjektų sąskaitas, dalis, arba susijusi su dviem ar daugiau tokių juridinių subjektų.
+<span data-ttu-id="48c5a-253">Susidaranti tarp dviejų ar daugiau juridinių subjektų, kurie yra tos pačios organizacijos, sujungiančios visų juridinių subjektų sąskaitas, dalis, arba susijusi su dviem ar daugiau tokių juridinių subjektų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-253">Occurring between or relating two or more legal entities that are part the same organization that consolidates the accounts of all legal entities.</span></span>
 
-###### <a name="invoice-matching"></a>**SF gretinimas**
+###### <a name="invoice-matching"></a><span data-ttu-id="48c5a-254">**SF gretinimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-254">**invoice matching**</span></span>
 
-Tiekėjo SF kainų ir produktų kiekių pirkimo užsakymų ir produkto gavimo kvitų gretinimo praktika.
+<span data-ttu-id="48c5a-255">Tiekėjo SF kainų ir produktų kiekių pirkimo užsakymų ir produkto gavimo kvitų gretinimo praktika.</span><span class="sxs-lookup"><span data-stu-id="48c5a-255">A practice of matching vendor invoice prices and product quantities to purchase orders and product receipts.</span></span>
 
-###### <a name="item-allocation-key"></a>**prekių paskirstymo raktas**
+###### <a name="item-allocation-key"></a><span data-ttu-id="48c5a-256">**prekių paskirstymo raktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-256">**item allocation key**</span></span>
 
-Produktų šeimos grupavimas, naudojamas prognozei ir paklausai planuoti.
+<span data-ttu-id="48c5a-257">Produktų šeimos grupavimas, naudojamas prognozei ir paklausai planuoti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-257">A product family grouping that is used for forecast and demand scheduling.</span></span>
 
-###### <a name="item-relation"></a>**prekės ryšys**
+###### <a name="item-relation"></a><span data-ttu-id="48c5a-258">**prekės ryšys**</span><span class="sxs-lookup"><span data-stu-id="48c5a-258">**item relation**</span></span>
 
-Nuoroda į prekių paskirstymo grupę ar prekę ir jos produkto dimensijas pagal „kanban“ taisyklę.
+<span data-ttu-id="48c5a-259">Nuoroda į prekių paskirstymo grupę ar prekę ir jos produkto dimensijas pagal „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="48c5a-259">A reference to the item allocation group or the item and its product dimensions in a kanban rule.</span></span>
 
-### <a name="k"></a>**K**
+### <a name="k"></a><span data-ttu-id="48c5a-260">**K**</span><span class="sxs-lookup"><span data-stu-id="48c5a-260">**K**</span></span>
 
-###### <a name="kanban"></a>**kanban**
+###### <a name="kanban"></a><span data-ttu-id="48c5a-261">**kanban**</span><span class="sxs-lookup"><span data-stu-id="48c5a-261">**kanban**</span></span>
 
-Signalas, kuris nurodo produkto kiekio reikalavimą.
+<span data-ttu-id="48c5a-262">Signalas, kuris nurodo produkto kiekio reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-262">A signal that communicates a requirement for a quantity of product.</span></span>
 
-###### <a name="kanban-flow"></a>**„kanban“ srautas**
+###### <a name="kanban-flow"></a><span data-ttu-id="48c5a-263">**„kanban“ srautas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-263">**kanban flow**</span></span>
 
-Nurodo „kanban“ taisyklei sukurtų „kanban“ atliktų veiklų seką.
+<span data-ttu-id="48c5a-264">Nurodo „kanban“ taisyklei sukurtų „kanban“ atliktų veiklų seką.</span><span class="sxs-lookup"><span data-stu-id="48c5a-264">Defines the sequence of activities that are performed for kanbans that are created for a kanban rule.</span></span>
 
-###### <a name="kanban-job"></a>**„kanban“ užduotis**
+###### <a name="kanban-job"></a><span data-ttu-id="48c5a-265">**„kanban“ užduotis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-265">**kanban job**</span></span>
 
-Procesas arba perdavimo veikla gamybos eigoje, kurią paleidžia „kanban“.
+<span data-ttu-id="48c5a-266">Procesas arba perdavimo veikla gamybos eigoje, kurią paleidžia „kanban“.</span><span class="sxs-lookup"><span data-stu-id="48c5a-266">A process or transfer activity in a production flow that is triggered by a Kanban.</span></span>
 
-###### <a name="kanban-job-consumption"></a>**„kanban“ užduoties sąnaudos**
+###### <a name="kanban-job-consumption"></a><span data-ttu-id="48c5a-267">**„kanban“ užduoties sąnaudos**</span><span class="sxs-lookup"><span data-stu-id="48c5a-267">**kanban job consumption**</span></span>
 
-Produkto komponentų šalinimas iš atsargų, kad būtų užbaigtos „kanban“ gamybos užduotys.
+<span data-ttu-id="48c5a-268">Produkto komponentų šalinimas iš atsargų, kad būtų užbaigtos „kanban“ gamybos užduotys.</span><span class="sxs-lookup"><span data-stu-id="48c5a-268">The withdrawal of product components from inventory in order to complete the kanban production jobs.</span></span>
 
-###### <a name="kanban-rule"></a>**„kanban“ taisyklė**
+###### <a name="kanban-rule"></a><span data-ttu-id="48c5a-269">**„kanban“ taisyklė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-269">**kanban rule**</span></span>
 
-Taisyklė „lean manufacturing“ sistemoje, pagal kurią kuriamas medžiagų planavimas ir papildymo strategijos, kontroliuojant, kaip procesai ir perdavimo veiklos koordinuojami gamybos eigose.
+<span data-ttu-id="48c5a-270">Taisyklė „lean manufacturing“ sistemoje, pagal kurią kuriamas medžiagų planavimas ir papildymo strategijos, kontroliuojant, kaip procesai ir perdavimo veiklos koordinuojami gamybos eigose.</span><span class="sxs-lookup"><span data-stu-id="48c5a-270">A rule in a lean manufacturing system that realizes material planning and replenishment policies by controlling how process and transfer activities are coordinated in production flows.</span></span>
 
-### <a name="l"></a>**L**
+### <a name="l"></a><span data-ttu-id="48c5a-271">**L**</span><span class="sxs-lookup"><span data-stu-id="48c5a-271">**L**</span></span>
 
-###### <a name="lean-manufacturing"></a>**lean manufacturing**
+###### <a name="lean-manufacturing"></a><span data-ttu-id="48c5a-272">**lean manufacturing**</span><span class="sxs-lookup"><span data-stu-id="48c5a-272">**lean manufacturing**</span></span>
 
-Koncepcija, pagal kurią gamybos operacijos skatina „lean“ gamybos eigas ir verslo veiklas.
+<span data-ttu-id="48c5a-273">Koncepcija, pagal kurią gamybos operacijos skatina „lean“ gamybos eigas ir verslo veiklas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-273">A philosophy in which manufacturing operations promote lean production flows and business activities.</span></span>
 
-###### <a name="lean-schedule-group"></a>**pažangiosios gamybos planavimo grupė**
+###### <a name="lean-schedule-group"></a><span data-ttu-id="48c5a-274">**pažangiosios gamybos planavimo grupė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-274">**lean schedule group**</span></span>
 
-Būdas, kaip sujungti gamybos prekes, pvz., pagal nustatytą grupę, siuntimo grupę arba transportavimo grupę.
+<span data-ttu-id="48c5a-275">Būdas, kaip sujungti gamybos prekes, pvz., pagal nustatytą grupę, siuntimo grupę arba transportavimo grupę.</span><span class="sxs-lookup"><span data-stu-id="48c5a-275">A way in which to aggregate items for production, for example, based on a setup group, shipping group, or transport group.</span></span>
 
-###### <a name="ledger-account"></a>**DK sąskaita**
+###### <a name="ledger-account"></a><span data-ttu-id="48c5a-276">**DK sąskaita**</span><span class="sxs-lookup"><span data-stu-id="48c5a-276">**ledger account**</span></span>
 
-Klasifikatorius, sukurtas iš pagrindinės sąskaitos vertės ir kitų finansinių dimensijų reikšmių, išvardytų sąskaitų plane, derinio ir naudojamas ekonomės veiklos finansinėms pasekmėms klasifikuoti.
+<span data-ttu-id="48c5a-277">Klasifikatorius, sukurtas iš pagrindinės sąskaitos vertės ir kitų finansinių dimensijų reikšmių, išvardytų sąskaitų plane, derinio ir naudojamas ekonomės veiklos finansinėms pasekmėms klasifikuoti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-277">A classifier created from the combination of main account value and other financial dimension values listed in a chart of accounts and used to classify the financial consequences of economic activity.</span></span>
 
-###### <a name="license-code"></a>**licencijos kodas**
+###### <a name="license-code"></a><span data-ttu-id="48c5a-278">**licencijos kodas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-278">**license code**</span></span>
 
-Raidinių ir skaitinių simbolių raktas, suteikiantis šaliai teisę naudoti programinę įrangą arba programinės įrangos komponentus, kaip nurodyta licencijos sutarties sąlygose, ir suaktyvinantis bei išjungiantis programinės įrangos modulius, programinės įrangos galimybes ir programinės įrangos funkcijas.
+<span data-ttu-id="48c5a-279">Raidinių ir skaitinių simbolių raktas, suteikiantis šaliai teisę naudoti programinę įrangą arba programinės įrangos komponentus, kaip nurodyta licencijos sutarties sąlygose, ir suaktyvinantis bei išjungiantis programinės įrangos modulius, programinės įrangos galimybes ir programinės įrangos funkcijas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-279">An alphanumeric key that grants a party the right to use software or software components as prescribed in the terms of the license agreement, and that activates and inactivates software modules, software capabilities, and software functions.</span></span>
 
-###### <a name="liquidity"></a>**likvidumas**
+###### <a name="liquidity"></a><span data-ttu-id="48c5a-280">**likvidumas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-280">**liquidity**</span></span>
 
-Šalies galimybė naudotis dabartiniais turtais ir įvykdyti dabartinius įsipareigojimus.
+<span data-ttu-id="48c5a-281">Šalies galimybė naudotis dabartiniais turtais ir įvykdyti dabartinius įsipareigojimus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-281">The ability of a party to use current assets to settle current liabilities.</span></span>
 
-### <a name="m"></a>**M**
+### <a name="m"></a><span data-ttu-id="48c5a-282">**M**</span><span class="sxs-lookup"><span data-stu-id="48c5a-282">**M**</span></span>
 
-###### <a name="master-scheduling"></a>**bendrasis planavimas**
+###### <a name="master-scheduling"></a><span data-ttu-id="48c5a-283">**bendrasis planavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-283">**master scheduling**</span></span>
 
-Tvarkaraščio pasiūlos ir paklausos gretinimui generavimo procesas.
+<span data-ttu-id="48c5a-284">Tvarkaraščio pasiūlos ir paklausos gretinimui generavimo procesas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-284">The process for generating a timetable for matching supply with demand.</span></span>
 
-###### <a name="model"></a>**modelis**
+###### <a name="model"></a><span data-ttu-id="48c5a-285">**modelis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-285">**model**</span></span>
 
-Modelyje yra kodo elementų ir nuorodų metaduomenų. Jis yra kuriamas ir tikrinamas „Visual Studio“.
+<span data-ttu-id="48c5a-286">Modelyje yra kodo elementų ir nuorodų metaduomenų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-286">A model contains code elements and reference metadata.</span></span> <span data-ttu-id="48c5a-287">Jis yra kuriamas ir tikrinamas „Visual Studio“.</span><span class="sxs-lookup"><span data-stu-id="48c5a-287">It is created and inspected in Visual Studio.</span></span>
 
-###### <a name="model-element"></a>**modelio elementas**
+###### <a name="model-element"></a><span data-ttu-id="48c5a-288">**modelio elementas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-288">**model element**</span></span>
 
-Modelis yra elementų (šaltinio failų ir metaduomenų) grupė, kuri sudaro paskirstytiną programinės įrangos sprendimą. Modelis yra dizaino laiko sąvoka.
+<span data-ttu-id="48c5a-289">Modelis yra elementų (šaltinio failų ir metaduomenų) grupė, kuri sudaro paskirstytiną programinės įrangos sprendimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-289">A model is a group of elements (source files and metadata) that constitutes a distributable software solution.</span></span> <span data-ttu-id="48c5a-290">Modelis yra dizaino laiko sąvoka.</span><span class="sxs-lookup"><span data-stu-id="48c5a-290">The model is a design-time concept.</span></span>
 
-### <a name="n"></a>**N**
+### <a name="n"></a><span data-ttu-id="48c5a-291">**N**</span><span class="sxs-lookup"><span data-stu-id="48c5a-291">**N**</span></span>
 
-###### <a name="nbv-net-book-value"></a>**NBV (balansinė vertė)**
+###### <a name="nbv-net-book-value"></a><span data-ttu-id="48c5a-292">**NBV (balansinė vertė)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-292">**NBV (net book value)**</span></span>
 
-Ilgalaikio turto vertė, apskaičiuota kaip pradinės ilgalaikio turto kainos ir jo sukaupto nusidėvėjimo skirtumas.
+<span data-ttu-id="48c5a-293">Ilgalaikio turto vertė, apskaičiuota kaip pradinės ilgalaikio turto kainos ir jo sukaupto nusidėvėjimo skirtumas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-293">The value of a fixed asset calculated as the difference between the original cost of the fixed asset minus its accumulated depreciations.</span></span>
 
-### <a name="o"></a>**O**
+### <a name="o"></a><span data-ttu-id="48c5a-294">**O**</span><span class="sxs-lookup"><span data-stu-id="48c5a-294">**O**</span></span>
 
-###### <a name="object-permission"></a>**objekto teisės**
+###### <a name="object-permission"></a><span data-ttu-id="48c5a-295">**objekto teisės**</span><span class="sxs-lookup"><span data-stu-id="48c5a-295">**object permission**</span></span>
 
-Leidimas kurti, skaityti, atnaujinti, naikinti arba vykdyti operacijas apsaugotame objekte.
+<span data-ttu-id="48c5a-296">Leidimas kurti, skaityti, atnaujinti, naikinti arba vykdyti operacijas apsaugotame objekte.</span><span class="sxs-lookup"><span data-stu-id="48c5a-296">A permitted create, read, update, delete, or execute operation on a securable object.</span></span>
 
-###### <a name="operating-unit"></a>**valdymo vienetas**
+###### <a name="operating-unit"></a><span data-ttu-id="48c5a-297">**valdymo vienetas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-297">**operating unit**</span></span>
 
-Organizacija, paskirstanti ekonominių išteklių valdymą ir veiklos procesus tarp žmonių, kurie įsipareigoję padidinti ribotų išteklių panaudojimą, taip pagerindami procesus ir atsiskaitydami už savo veiklą.
+<span data-ttu-id="48c5a-298">Organizacija, paskirstanti ekonominių išteklių valdymą ir veiklos procesus tarp žmonių, kurie įsipareigoję padidinti ribotų išteklių panaudojimą, taip pagerindami procesus ir atsiskaitydami už savo veiklą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-298">An organization that divides the control of economic resources and operational processes among people who have a duty to maximize the use of scarce resources, to improve processes, and to account for their performance.</span></span>
 
-###### <a name="output-product"></a>**išeigos produktas**
+###### <a name="output-product"></a><span data-ttu-id="48c5a-299">**išeigos produktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-299">**output product**</span></span>
 
-Fiziniai produktai, kurie yra veiklos padariniai.
+<span data-ttu-id="48c5a-300">Fiziniai produktai, kurie yra veiklos padariniai.</span><span class="sxs-lookup"><span data-stu-id="48c5a-300">The physical products that result from an activity.</span></span>
 
-###### <a name="overlayering"></a>**perdengimas**
+###### <a name="overlayering"></a><span data-ttu-id="48c5a-301">**perdengimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-301">**overlayering**</span></span>
 
-Metodas šaltinio kodui tinkinti pateikiant naują šaltinio kodą, kuris perrašo numatytąjį šaltinio kodą.
+<span data-ttu-id="48c5a-302">Metodas šaltinio kodui tinkinti pateikiant naują šaltinio kodą, kuris perrašo numatytąjį šaltinio kodą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-302">A method of customizing source code by providing new source code that overrides the default source code.</span></span>
 
-### <a name="p"></a>**P**
+### <a name="p"></a><span data-ttu-id="48c5a-303">**P**</span><span class="sxs-lookup"><span data-stu-id="48c5a-303">**P**</span></span>
 
-###### <a name="package"></a>**paketas**
+###### <a name="package"></a><span data-ttu-id="48c5a-304">**paketas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-304">**package**</span></span>
 
-Paketas yra vieno ar kelių modelių vienetas, kurį galima kompiliuoti ir diegti.
+<span data-ttu-id="48c5a-305">Paketas yra vieno ar kelių modelių vienetas, kurį galima kompiliuoti ir diegti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-305">A package is a compilable and deployable unit of one or more models.</span></span>
 
-###### <a name="party"></a>**šalis**
+###### <a name="party"></a><span data-ttu-id="48c5a-306">**šalis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-306">**party**</span></span>
 
-Asmuo arba organizacija, dalyvaujanti ekonominėje veikloje.
+<span data-ttu-id="48c5a-307">Asmuo arba organizacija, dalyvaujanti ekonominėje veikloje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-307">A person or organization that participates in economic activities.</span></span>
 
-###### <a name="pegging"></a>**iškvietimas**
+###### <a name="pegging"></a><span data-ttu-id="48c5a-308">**iškvietimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-308">**pegging**</span></span>
 
-Reikiamos prekės kiekio sekimo iki šaltinio procesas.
+<span data-ttu-id="48c5a-309">Reikiamos prekės kiekio sekimo iki šaltinio procesas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-309">The process of tracing the quantity of a required item to its source.</span></span>
 
-###### <a name="pegging-event"></a>**iškvietimo įvykis**
+###### <a name="pegging-event"></a><span data-ttu-id="48c5a-310">**iškvietimo įvykis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-310">**pegging event**</span></span>
 
-Išteklių srauto įvykis, pranešantis apie produkto paklausą.
+<span data-ttu-id="48c5a-311">Išteklių srauto įvykis, pranešantis apie produkto paklausą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-311">A resource flow event that signals the demand for a product.</span></span>
 
-###### <a name="planned-intercompany-demand"></a>**suplanuota paklausa vidinėse įmonėse**
+###### <a name="planned-intercompany-demand"></a><span data-ttu-id="48c5a-312">**suplanuota paklausa vidinėse įmonėse**</span><span class="sxs-lookup"><span data-stu-id="48c5a-312">**planned intercompany demand**</span></span>
 
-Juridinio subjekto, prisiimančio tiekėjo vaidmenį, prognozuojama produkto paklausa. Planuojama paklausa generuojama iš juridinio subjekto proceso pabaigos produkto planuojamos paklausos.
+<span data-ttu-id="48c5a-313">Juridinio subjekto, prisiimančio tiekėjo vaidmenį, prognozuojama produkto paklausa.</span><span class="sxs-lookup"><span data-stu-id="48c5a-313">Predicted demand for a product by a legal entity that assumes the role of a vendor.</span></span> <span data-ttu-id="48c5a-314">Planuojama paklausa generuojama iš juridinio subjekto proceso pabaigos produkto planuojamos paklausos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-314">The planned demand is generated from planned demand for the product from a downstream legal entity.</span></span>
 
-###### <a name="post"></a>**registravimas**
+###### <a name="post"></a><span data-ttu-id="48c5a-315">**registravimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-315">**post**</span></span>
 
-Ekonominio įvykio piniginės vertės įrašymas į konkrečią sąskaitą arba bendrosios ir papildomos žurnalo sąskaitos įrašų apibendrinimas ir perklasifikavimas į bendrosios ir papildomos DK sąskaitos įrašus.
+<span data-ttu-id="48c5a-316">Ekonominio įvykio piniginės vertės įrašymas į konkrečią sąskaitą arba bendrosios ir papildomos žurnalo sąskaitos įrašų apibendrinimas ir perklasifikavimas į bendrosios ir papildomos DK sąskaitos įrašus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-316">To record the monetary value of an economic event in a specific account, or to summarize and reclassify general and subsidiary journal account entries into general and subsidiary ledger account entries.</span></span>
 
-###### <a name="preparer"></a>**rengėjas**
+###### <a name="preparer"></a><span data-ttu-id="48c5a-317">**rengėjas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-317">**preparer**</span></span>
 
-Asmuo, kuris sukuria šaltinio dokumentą, norėdamas inicijuoti ekonominių išteklių užklausą.
+<span data-ttu-id="48c5a-318">Asmuo, kuris sukuria šaltinio dokumentą, norėdamas inicijuoti ekonominių išteklių užklausą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-318">The person who creates a source document to initiate a request for economic resources.</span></span>
 
-###### <a name="procurement-catalog"></a>**įsigijimo katalogas**
+###### <a name="procurement-catalog"></a><span data-ttu-id="48c5a-319">**įsigijimo katalogas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-319">**procurement catalog**</span></span>
 
-Produktų pasiūlymų, sugrupuotų pagal įsigijimo kategoriją, sąrašas. Įsigijimo katalogas, naudojamas prašyti produktų organizacijos vidaus naudojimui.
+<span data-ttu-id="48c5a-320">Produktų pasiūlymų, sugrupuotų pagal įsigijimo kategoriją, sąrašas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-320">A listing of product offerings that are grouped by procurement category.</span></span> <span data-ttu-id="48c5a-321">Įsigijimo katalogas, naudojamas prašyti produktų organizacijos vidaus naudojimui.</span><span class="sxs-lookup"><span data-stu-id="48c5a-321">A procurement catalog is used to request products for internal use by an organization.</span></span>
 
-###### <a name="product-dimension"></a>**produkto dimensija**
+###### <a name="product-dimension"></a><span data-ttu-id="48c5a-322">**produkto dimensija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-322">**product dimension**</span></span>
 
-Produkto dydžio, spalvos ar konfigūracijos atributai, naudojami dimensijomis pagrįstoje produkto konfigūracijoje.
+<span data-ttu-id="48c5a-323">Produkto dydžio, spalvos ar konfigūracijos atributai, naudojami dimensijomis pagrįstoje produkto konfigūracijoje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-323">The size, color, or configuration product attributes that are used for dimension-based product configuration.</span></span>
 
-###### <a name="product-family"></a>**produktų šeima**
+###### <a name="product-family"></a><span data-ttu-id="48c5a-324">**produktų šeima**</span><span class="sxs-lookup"><span data-stu-id="48c5a-324">**product family**</span></span>
 
-Prekių, paslaugų arba teisių, kurios arba dalyvauja toje pačioje gamyboje arba pristatymo veiklose, arba yra siūlomos tiems patiems rinkos segmentams, unikalus grupavimas. „Finance and Operations“ grupės kuriamos naudojant prognozės paskirstymo raktą.
+<span data-ttu-id="48c5a-325">Prekių, paslaugų arba teisių, kurios arba dalyvauja toje pačioje gamyboje arba pristatymo veiklose, arba yra siūlomos tiems patiems rinkos segmentams, unikalus grupavimas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-325">A unique grouping of items, services, or rights that either participates in the same production or delivery activities or that are offered to the same market segments.</span></span> <span data-ttu-id="48c5a-326">„Finance and Operations“ grupės kuriamos naudojant prognozės paskirstymo raktą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-326">In Finance and Operations, the grouping is represented by using a forecast allocation key.</span></span>
 
-###### <a name="product-master"></a>**bendrasis produktas**
+###### <a name="product-master"></a><span data-ttu-id="48c5a-327">**bendrasis produktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-327">**product master**</span></span>
 
-Standartinis ar funkcinis produkto atvaizdavimas, kuris yra pagrindas konfigūravimo produkto variantams.
+<span data-ttu-id="48c5a-328">Standartinis ar funkcinis produkto atvaizdavimas, kuris yra pagrindas konfigūravimo produkto variantams.</span><span class="sxs-lookup"><span data-stu-id="48c5a-328">A standard or functional product representation that is the basis for configuring product variants.</span></span>
 
-###### <a name="product-receipt"></a>**produkto gavimo kvitas**
+###### <a name="product-receipt"></a><span data-ttu-id="48c5a-329">**produkto gavimo kvitas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-329">**product receipt**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojamas užsakytų produktų gavimas, gražintų produktų gavimas arba produktų, gautų konsignacijos pagrindais, gavimas.
+<span data-ttu-id="48c5a-330">Šaltinio dokumentas, kuriame dokumentuojamas užsakytų produktų gavimas, gražintų produktų gavimas arba produktų, gautų konsignacijos pagrindais, gavimas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-330">A source document that documents the receipt of products ordered, the receipt of products returned, or the receipt of products received on consignment.</span></span>
 
-###### <a name="product-variant"></a>**produkto variantas**
+###### <a name="product-variant"></a><span data-ttu-id="48c5a-331">**produkto variantas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-331">**product variant**</span></span>
 
-Bendrojo produkto konfigūracija.
+<span data-ttu-id="48c5a-332">Bendrojo produkto konfigūracija.</span><span class="sxs-lookup"><span data-stu-id="48c5a-332">A configuration of a product master.</span></span>
 
-###### <a name="production-flow"></a>**gamybos eiga**
+###### <a name="production-flow"></a><span data-ttu-id="48c5a-333">**gamybos eiga**</span><span class="sxs-lookup"><span data-stu-id="48c5a-333">**production flow**</span></span>
 
-Gamybos procesas, sukurtas naudojant „Lean“ principus.
+<span data-ttu-id="48c5a-334">Gamybos procesas, sukurtas naudojant „Lean“ principus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-334">A production process designed using Lean principles.</span></span>
 
-###### <a name="production-flow-model"></a>**gamybos eigos modelis**
+###### <a name="production-flow-model"></a><span data-ttu-id="48c5a-335">**gamybos eigos modelis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-335">**production flow model**</span></span>
 
-Gamybos pajėgumo, pateikto darbų elementų grupės gamybos eigos procese, atvaizdavimas.
+<span data-ttu-id="48c5a-336">Gamybos pajėgumo, pateikto darbų elementų grupės gamybos eigos procese, atvaizdavimas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-336">A representation of the production capacity provided by a group of work cells in a production flow process.</span></span>
 
-###### <a name="production-order"></a>**gamybos užsakymas**
+###### <a name="production-order"></a><span data-ttu-id="48c5a-337">**gamybos užsakymas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-337">**production order**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojami gaminamų prekių paklausos tenkinimo reikalavimai.
+<span data-ttu-id="48c5a-338">Šaltinio dokumentas, kuriame dokumentuojami gaminamų prekių paklausos tenkinimo reikalavimai.</span><span class="sxs-lookup"><span data-stu-id="48c5a-338">A source document that documents the requirements for producing items to meet a demand.</span></span>
 
-###### <a name="production-schedule"></a>**gamybos grafikas**
+###### <a name="production-schedule"></a><span data-ttu-id="48c5a-339">**gamybos grafikas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-339">**production schedule**</span></span>
 
-Grafikas konkrečiai prekei ir prekės kiekiui pagaminti konkrečiu metu ir konkrečių žmonių bei veiklos išteklių.
+<span data-ttu-id="48c5a-340">Grafikas konkrečiai prekei ir prekės kiekiui pagaminti konkrečiu metu ir konkrečių žmonių bei veiklos išteklių.</span><span class="sxs-lookup"><span data-stu-id="48c5a-340">A schedule to produce a specific item and item quantity at a specific time and by specific human and operational resources.</span></span>
 
-###### <a name="prospect"></a>**potencialus klientas**
+###### <a name="prospect"></a><span data-ttu-id="48c5a-341">**potencialus klientas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-341">**prospect**</span></span>
 
-Dalyvis, kuris turi realią ir galimą galimybę teikti paslaugą arba tikėtiną ekonominę naudą juridiniam subjektui ateityje.
+<span data-ttu-id="48c5a-342">Dalyvis, kuris turi realią ir galimą galimybę teikti paslaugą arba tikėtiną ekonominę naudą juridiniam subjektui ateityje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-342">A participant that has the existing and potential ability to provide a service or probable future economic benefit to a legal entity.</span></span>
 
-###### <a name="purchase-agreement-policy"></a>**pirkimo sutarties strategija**
+###### <a name="purchase-agreement-policy"></a><span data-ttu-id="48c5a-343">**pirkimo sutarties strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-343">**purchase agreement policy**</span></span>
 
-Strategija, kuri leidžia šalims modifikuoti pirkimo sutarties sąlygas.
+<span data-ttu-id="48c5a-344">Strategija, kuri leidžia šalims modifikuoti pirkimo sutarties sąlygas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-344">A policy that authorizes parties to modify purchase agreement terms.</span></span>
 
-###### <a name="purchase-order-policy"></a>**pirkimo užsakymo strategija**
+###### <a name="purchase-order-policy"></a><span data-ttu-id="48c5a-345">**pirkimo užsakymo strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-345">**purchase order policy**</span></span>
 
-Politika, kuri leidžia šalims modifikuoti pirkimo užsakymo sąlygas ir valdyti užsakymo apdorojimą.
+<span data-ttu-id="48c5a-346">Politika, kuri leidžia šalims modifikuoti pirkimo užsakymo sąlygas ir valdyti užsakymo apdorojimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-346">A policy that authorizes parties to modify purchase order terms and to control order processing.</span></span>
 
-###### <a name="purchase-quotation"></a>**pirkimo pasiūlymas**
+###### <a name="purchase-quotation"></a><span data-ttu-id="48c5a-347">**pirkimo pasiūlymas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-347">**purchase quotation**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojamas pasiūlymas pirkti produkto kiekį už nurodytą kainą iki tam tikro laiko, reaguojant į pasiūlymo patvirtinimą įsigijimo procese.
+<span data-ttu-id="48c5a-348">Šaltinio dokumentas, kuriame dokumentuojamas pasiūlymas pirkti produkto kiekį už nurodytą kainą iki tam tikro laiko, reaguojant į pasiūlymo patvirtinimą įsigijimo procese.</span><span class="sxs-lookup"><span data-stu-id="48c5a-348">A source document that documents an offer to purchase a quantity of product for a specified price and by a specified date in response to a request for quotation in a procurement process.</span></span>
 
-###### <a name="purchase-requisition"></a>**pirkimo paraiška**
+###### <a name="purchase-requisition"></a><span data-ttu-id="48c5a-349">**pirkimo paraiška**</span><span class="sxs-lookup"><span data-stu-id="48c5a-349">**purchase requisition**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojami produktų prašymai, kad galėtų būti perkančios organizacijos pateikti peržiūrai ir naudojami leidimui pirkti.
+<span data-ttu-id="48c5a-350">Šaltinio dokumentas, kuriame dokumentuojami produktų prašymai, kad galėtų būti perkančios organizacijos pateikti peržiūrai ir naudojami leidimui pirkti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-350">A source document that documents product requests so that they can be submitted for review and be used to authorize purchasing by a purchasing organization.</span></span>
 
-### <a name="q"></a>**Q**
+### <a name="q"></a><span data-ttu-id="48c5a-351">**Q**</span><span class="sxs-lookup"><span data-stu-id="48c5a-351">**Q**</span></span>
 
-###### <a name="quantity-variance"></a>**kiekio nuokrypis**
+###### <a name="quantity-variance"></a><span data-ttu-id="48c5a-352">**kiekio nuokrypis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-352">**quantity variance**</span></span>
 
-Skirtumas tarp užsakyto ir gauto produkto kiekio, kai daugiau gavimų nesitikima.
+<span data-ttu-id="48c5a-353">Skirtumas tarp užsakyto ir gauto produkto kiekio, kai daugiau gavimų nesitikima.</span><span class="sxs-lookup"><span data-stu-id="48c5a-353">The difference between an ordered product quantity and a received product quantity when no more receipts are expected.</span></span>
 
-### <a name="r"></a>**R**
+### <a name="r"></a><span data-ttu-id="48c5a-354">**R**</span><span class="sxs-lookup"><span data-stu-id="48c5a-354">**R**</span></span>
 
-###### <a name="receipt-advice"></a>**gavimo pažyma**
+###### <a name="receipt-advice"></a><span data-ttu-id="48c5a-355">**gavimo pažyma**</span><span class="sxs-lookup"><span data-stu-id="48c5a-355">**receipt advice**</span></span>
 
-Verslo dokumentas, kuriame dokumentuojama pirkėjo gautų produktų iš tiekėjo santrauka.
+<span data-ttu-id="48c5a-356">Verslo dokumentas, kuriame dokumentuojama pirkėjo gautų produktų iš tiekėjo santrauka.</span><span class="sxs-lookup"><span data-stu-id="48c5a-356">A business document that documents a summary of the products a buyer receives from a vendor.</span></span>
 
-###### <a name="reconciliation"></a>**derinimas**
+###### <a name="reconciliation"></a><span data-ttu-id="48c5a-357">**derinimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-357">**reconciliation**</span></span>
 
-Dviejų ar daugiau sąskaitų arba ataskaitų, kad skaičiai sutaptų, koregavimo praktika.
+<span data-ttu-id="48c5a-358">Dviejų ar daugiau sąskaitų arba ataskaitų, kad skaičiai sutaptų, koregavimo praktika.</span><span class="sxs-lookup"><span data-stu-id="48c5a-358">A practice of adjusting two or more accounts or statements so that the figures agree.</span></span>
 
-###### <a name="reduction-key"></a>**mažinimo raktas**
+###### <a name="reduction-key"></a><span data-ttu-id="48c5a-359">**mažinimo raktas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-359">**reduction key**</span></span>
 
-Metodas, naudojamas padidinti arba sumažinti prognozės poreikius bendrojo planavimo metu, remiantis vartotojo nustatytais procentais, kurie taikomi tam tikrų laikotarpių metu.
+<span data-ttu-id="48c5a-360">Metodas, naudojamas padidinti arba sumažinti prognozės poreikius bendrojo planavimo metu, remiantis vartotojo nustatytais procentais, kurie taikomi tam tikrų laikotarpių metu.</span><span class="sxs-lookup"><span data-stu-id="48c5a-360">A method that is used to increase or decrease forecast requirements in master planning, based on user defined percentages that are applied during specific periods.</span></span>
 
-###### <a name="register"></a>**registras**
+###### <a name="register"></a><span data-ttu-id="48c5a-361">**registras**</span><span class="sxs-lookup"><span data-stu-id="48c5a-361">**register**</span></span>
 
-Įrašas, naudojamas veiklos, teisinėms ir finansinėms išteklių srauto įvykių pasekmėms įrašyti į apskaitos sistemą.
+<span data-ttu-id="48c5a-362">Įrašas, naudojamas veiklos, teisinėms ir finansinėms išteklių srauto įvykių pasekmėms įrašyti į apskaitos sistemą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-362">A record that is used to record the operational, legal, and financial consequences of resource flow events in an accounting system.</span></span>
 
-###### <a name="rfq-request-for-quotation"></a>**RFQ (pasiūlymo patvirtinimas)**
+###### <a name="rfq-request-for-quotation"></a><span data-ttu-id="48c5a-363">**RFQ (pasiūlymo patvirtinimas)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-363">**RFQ (request for quotation)**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojamas kvietimas siūlyti produktų tiekimo kiekį už nurodytą kainą iki nurodytos datos.
+<span data-ttu-id="48c5a-364">Šaltinio dokumentas, kuriame dokumentuojamas kvietimas siūlyti produktų tiekimo kiekį už nurodytą kainą iki nurodytos datos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-364">A source document that documents an invitation to bid on supplying a quantity of product for a specified price and by a specified date.</span></span>
 
-###### <a name="requester"></a>**prašytojas**
+###### <a name="requester"></a><span data-ttu-id="48c5a-365">**prašytojas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-365">**requester**</span></span>
 
-Asmuo, kuris prašo ekonominių išteklių.
+<span data-ttu-id="48c5a-366">Asmuo, kuris prašo ekonominių išteklių.</span><span class="sxs-lookup"><span data-stu-id="48c5a-366">The person who requests the economic resources.</span></span>
 
 
-### <a name="s"></a>**S**
+### <a name="s"></a><span data-ttu-id="48c5a-367">**S**</span><span class="sxs-lookup"><span data-stu-id="48c5a-367">**S**</span></span>
 
-###### <a name="sales-agreement"></a>**pardavimo sutartis**
+###### <a name="sales-agreement"></a><span data-ttu-id="48c5a-368">**pardavimo sutartis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-368">**sales agreement**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojamas susitarimas tarp dviejų ar daugiau šalių, pagrįstas supratimu, kad parduodančioji šalis bus įpareigota parduoti tam tikrą kiekį arba už tam tikrą kainą produktų per tam tikrą laikotarpį mainais į palankias kainas ir nuolaidas.
+<span data-ttu-id="48c5a-369">Šaltinio dokumentas, kuriame dokumentuojamas susitarimas tarp dviejų ar daugiau šalių, pagrįstas supratimu, kad parduodančioji šalis bus įpareigota parduoti tam tikrą kiekį arba už tam tikrą kainą produktų per tam tikrą laikotarpį mainais į palankias kainas ir nuolaidas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-369">A source document that documents an agreement between two or more parties based on an understanding that a selling party will commit to selling a specific quantity or value of product over a period of time in exchange for favorable prices and discounts.</span></span>
 
-###### <a name="sales-agreement-policy"></a>**pardavimo sutarties strategija**
+###### <a name="sales-agreement-policy"></a><span data-ttu-id="48c5a-370">**pardavimo sutarties strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-370">**sales agreement policy**</span></span>
 
-Strategija, kuri leidžia šalims modifikuoti pardavimo sutarties sąlygas.
+<span data-ttu-id="48c5a-371">Strategija, kuri leidžia šalims modifikuoti pardavimo sutarties sąlygas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-371">A policy that authorizes parties to modify sales agreement terms.</span></span>
 
-###### <a name="sales-order-policy"></a>**pardavimo užsakymo strategija**
+###### <a name="sales-order-policy"></a><span data-ttu-id="48c5a-372">**pardavimo užsakymo strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-372">**sales order policy**</span></span>
 
-Strategija, kuri įgalioja šalis modifikuoti pardavimo užsakymo sąlygas ir valdyti sandorio vykdymą bei mokėjimo procesus.
+<span data-ttu-id="48c5a-373">Strategija, kuri įgalioja šalis modifikuoti pardavimo užsakymo sąlygas ir valdyti sandorio vykdymą bei mokėjimo procesus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-373">A policy that authorizes parties to modify sales order terms and to control order processing and payment processes.</span></span>
 
-###### <a name="sales-quotation"></a>**pardavimo pasiūlymas**
+###### <a name="sales-quotation"></a><span data-ttu-id="48c5a-374">**pardavimo pasiūlymas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-374">**sales quotation**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojamas pasiūlymas tiekti produkto kiekį už nurodytą kainą iki tam tikro laiko, reaguojant į pasiūlymo patvirtinimą pardavimo procese.
+<span data-ttu-id="48c5a-375">Šaltinio dokumentas, kuriame dokumentuojamas pasiūlymas tiekti produkto kiekį už nurodytą kainą iki tam tikro laiko, reaguojant į pasiūlymo patvirtinimą pardavimo procese.</span><span class="sxs-lookup"><span data-stu-id="48c5a-375">A source document that documents an offer to supply a quantity of product for a specified price and by a specified date in response to a request for quotation in a sales process.</span></span>
 
-###### <a name="security-role"></a>**saugos vaidmuo**
+###### <a name="security-role"></a><span data-ttu-id="48c5a-376">**saugos vaidmuo**</span><span class="sxs-lookup"><span data-stu-id="48c5a-376">**security role**</span></span>
 
-Programos prieigos teisių apibrėžtas rinkinys. Saugos vaidmuo, priskirtas vartotojui, nurodo, kurias užduotis jis gali atlikti ir kurias vartotojo sąsajos dalis gali peržiūrėti. Visiems vartotojams turi būti paskirtas bent vienas saugumo vaidmuo, kad jie galėtų prisijungti prie sistemos.
+<span data-ttu-id="48c5a-377">Programos prieigos teisių apibrėžtas rinkinys.</span><span class="sxs-lookup"><span data-stu-id="48c5a-377">A defined set of application access privileges.</span></span> <span data-ttu-id="48c5a-378">Saugos vaidmuo, priskirtas vartotojui, nurodo, kurias užduotis jis gali atlikti ir kurias vartotojo sąsajos dalis gali peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-378">The security role assigned to a user determines which tasks the user can perform and which parts of the user interface the user can view.</span></span> <span data-ttu-id="48c5a-379">Visiems vartotojams turi būti paskirtas bent vienas saugumo vaidmuo, kad jie galėtų prisijungti prie sistemos.</span><span class="sxs-lookup"><span data-stu-id="48c5a-379">All users must be assigned at least one security role in order to access the system.</span></span>
 
-###### <a name="segregation-of-duties"></a>**pareigų atskyrimas**
+###### <a name="segregation-of-duties"></a><span data-ttu-id="48c5a-380">**pareigų atskyrimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-380">**segregation of duties**</span></span>
 
-Projektavimo principas, naudojamas apgaulės, pažeidimų ir klaidų rizikai sumažinti, kuris atskiria žmonių, kurie dalyvauja dokumento sudaryme arba įrašo ekonominių operacijų finansines pasekmes, įrašymo, patikros, autorizavimo, turto saugojimo ir periodinio peržiūrėjimo pareigas.
+<span data-ttu-id="48c5a-381">Projektavimo principas, naudojamas apgaulės, pažeidimų ir klaidų rizikai sumažinti, kuris atskiria žmonių, kurie dalyvauja dokumento sudaryme arba įrašo ekonominių operacijų finansines pasekmes, įrašymo, patikros, autorizavimo, turto saugojimo ir periodinio peržiūrėjimo pareigas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-381">A design principle used to reduce the risk of fraud, irregularities, and errors that separates the recording, verification, authorization, custody of assets, and periodic review duties of people who participate in, document, or record the financial consequences of economic transactions.</span></span>
 
-###### <a name="sequencing"></a>**seka**
+###### <a name="sequencing"></a><span data-ttu-id="48c5a-382">**seka**</span><span class="sxs-lookup"><span data-stu-id="48c5a-382">**sequencing**</span></span>
 
-Tvarka, kuria užduotys apdorojamos arba atliekamos operacijos gamykloje norint pasiekti tikslus.
+<span data-ttu-id="48c5a-383">Tvarka, kuria užduotys apdorojamos arba atliekamos operacijos gamykloje norint pasiekti tikslus.</span><span class="sxs-lookup"><span data-stu-id="48c5a-383">The order in which jobs are processed or operations are performed at a manufacturing facility to achieve objectives.</span></span>
 
-###### <a name="shared-asset"></a>**bendrai naudojamas turtas**
+###### <a name="shared-asset"></a><span data-ttu-id="48c5a-384">**bendrai naudojamas turtas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-384">**shared asset**</span></span>
 
-Turtas, kurį naudoja daugiau nei vienas grynuosius pinigus generuojantis vienetas (PGV). Pavyzdys yra paskirstymo centras, kuris naudojamas prekėms laikyti, kol jos perkeliamos į skirtingas parduotuves, kurios bendrai naudoja tą patį paskirstymo centrą.
+<span data-ttu-id="48c5a-385">Turtas, kurį naudoja daugiau nei vienas grynuosius pinigus generuojantis vienetas (PGV).</span><span class="sxs-lookup"><span data-stu-id="48c5a-385">An asset that is used by more than one cash-generating unit (CGU).</span></span> <span data-ttu-id="48c5a-386">Pavyzdys yra paskirstymo centras, kuris naudojamas prekėms laikyti, kol jos perkeliamos į skirtingas parduotuves, kurios bendrai naudoja tą patį paskirstymo centrą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-386">An example is a distribution center that is used to store items before they are transported to different markets that share that same distribution center.</span></span>
 
-###### <a name="single-use-kanban"></a>**vienkartinio naudojimo „kanban“**
+###### <a name="single-use-kanban"></a><span data-ttu-id="48c5a-387">**vienkartinio naudojimo „kanban“**</span><span class="sxs-lookup"><span data-stu-id="48c5a-387">**single use kanban**</span></span>
 
-„kanban“ tipas, naudojamas su fiksuoto kiekio „kanban“ taisykle išskirtinai aukštiems reikalavimams tenkinti. Vienkartinio naudojimo „kanban“ neįjungia naujo „kanban“, kai jis atmetamas.
+<span data-ttu-id="48c5a-388">„kanban“ tipas, naudojamas su fiksuoto kiekio „kanban“ taisykle išskirtinai aukštiems reikalavimams tenkinti.</span><span class="sxs-lookup"><span data-stu-id="48c5a-388">A type of kanban that is used with a fixed quantity kanban rule to meet exceptionally high demand.</span></span> <span data-ttu-id="48c5a-389">Vienkartinio naudojimo „kanban“ neįjungia naujo „kanban“, kai jis atmetamas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-389">A single use kanban does not trigger a new kanban when it is discarded.</span></span>
 
-###### <a name="smart-rounding"></a>**intelektualusis apvalinimas**
+###### <a name="smart-rounding"></a><span data-ttu-id="48c5a-390">**intelektualusis apvalinimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-390">**smart rounding**</span></span>
 
-Prekybos praktika kainų nustatymui naudoti nelyginius skaičius, kurie yra šiek tiek mažesni nei jų artimiausi apvalinti skaičiai.
+<span data-ttu-id="48c5a-391">Prekybos praktika kainų nustatymui naudoti nelyginius skaičius, kurie yra šiek tiek mažesni nei jų artimiausi apvalinti skaičiai.</span><span class="sxs-lookup"><span data-stu-id="48c5a-391">A marketing practice to use odd numbers that are marginally less than their nearest round number to set prices.</span></span>
 
-###### <a name="source-requirement"></a>**šaltinio reikalavimas**
+###### <a name="source-requirement"></a><span data-ttu-id="48c5a-392">**šaltinio reikalavimas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-392">**source requirement**</span></span>
 
-Produkto kiekis, dokumentuojamas šaltinio dokumento eilutėje, kuris sukuria iškvietimo reikalavimą.
+<span data-ttu-id="48c5a-393">Produkto kiekis, dokumentuojamas šaltinio dokumento eilutėje, kuris sukuria iškvietimo reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-393">The product quantity documented on a source document line that creates a pegging requirement.</span></span>
 
-###### <a name="statistical-baseline-forecast"></a>**pagrindinė statistinė prognozė**
+###### <a name="statistical-baseline-forecast"></a><span data-ttu-id="48c5a-394">**pagrindinė statistinė prognozė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-394">**statistical baseline forecast**</span></span>
 
-Būsimo poreikio įvertinimas, sukurtas taikant prognozavimo algoritmą praeities operacijų duomenims.
+<span data-ttu-id="48c5a-395">Būsimo poreikio įvertinimas, sukurtas taikant prognozavimo algoritmą praeities operacijų duomenims.</span><span class="sxs-lookup"><span data-stu-id="48c5a-395">An estimate of future demand that is created by applying a forecasting algorithm to historical transaction data.</span></span>
 
 
-### <a name="t"></a>**T**
+### <a name="t"></a><span data-ttu-id="48c5a-396">**T**</span><span class="sxs-lookup"><span data-stu-id="48c5a-396">**T**</span></span>
 
-###### <a name="takt-time"></a>**vieneto gamybos laikas**
+###### <a name="takt-time"></a><span data-ttu-id="48c5a-397">**vieneto gamybos laikas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-397">**takt time**</span></span>
 
-Laikas, kiek trunka produkto vieneto gamyba.
+<span data-ttu-id="48c5a-398">Laikas, kiek trunka produkto vieneto gamyba.</span><span class="sxs-lookup"><span data-stu-id="48c5a-398">The time that it takes to produce one unit of a product.</span></span>
 
-###### <a name="task-guide"></a>**užduočių vedlys**
+###### <a name="task-guide"></a><span data-ttu-id="48c5a-399">**užduočių vedlys**</span><span class="sxs-lookup"><span data-stu-id="48c5a-399">**Task guide**</span></span>
 
-Kontroliuojama, valdoma sistema, kurioje naudojami užduočių įrašymo veiksmai. Užduočių vedlys pateikia vartotojui visu įrašytus duomenis. Vykdant užduočių vedlį visi saugos, duomenų ir programų veiksmai yra tokie patys kaip ir nenaudojant užduočių vedlio. Užduočių vedlys naudoja tuos pačius įrankius kaip ir užduočių įrašymo priemonė, kad sužinotų, kada vartotojas baigia numatytą veiksmą, ir galėtų vartotoją paraginti atlikti kitą įrašymo veiksmą.
+<span data-ttu-id="48c5a-400">Kontroliuojama, valdoma sistema, kurioje naudojami užduočių įrašymo veiksmai.</span><span class="sxs-lookup"><span data-stu-id="48c5a-400">A controlled, guided experience through the steps in a Task recording.</span></span> <span data-ttu-id="48c5a-401">Užduočių vedlys pateikia vartotojui visu įrašytus duomenis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-401">A Task guide leads the user through the experience that was recorded.</span></span> <span data-ttu-id="48c5a-402">Vykdant užduočių vedlį visi saugos, duomenų ir programų veiksmai yra tokie patys kaip ir nenaudojant užduočių vedlio.</span><span class="sxs-lookup"><span data-stu-id="48c5a-402">All security, data, and application behaviors are the same when completing a Task guide as they are without the Task guide.</span></span> <span data-ttu-id="48c5a-403">Užduočių vedlys naudoja tuos pačius įrankius kaip ir užduočių įrašymo priemonė, kad sužinotų, kada vartotojas baigia numatytą veiksmą, ir galėtų vartotoją paraginti atlikti kitą įrašymo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="48c5a-403">The Task guide uses the same instrumentation as Task recorder to know when a user has completed the intended step, so that it can prompt the user to take the next step in the recording.</span></span>
 
-###### <a name="task-recorder"></a>**Užduočių įrašymo priemonė**
+###### <a name="task-recorder"></a><span data-ttu-id="48c5a-404">**Užduočių įrašymo priemonė**</span><span class="sxs-lookup"><span data-stu-id="48c5a-404">**Task recorder**</span></span>
 
-Įrankis, kuris „Finance and Operations“ yra įdiegtas iš anksto. Įrašant, įrašomi visi įvykiai, kuriuos vartotojas įveda „Finance and Operations“ vartotojo sąsajoje ir kurie yra vykdomi serveryje, įskaitant įtrauktas reikšmes, pakeistus parametrus, pašalintus duomenis ir t. t.
+<span data-ttu-id="48c5a-405">Įrankis, kuris „Finance and Operations“ yra įdiegtas iš anksto.</span><span class="sxs-lookup"><span data-stu-id="48c5a-405">A tool that is pre-installed in Finance and Operations.</span></span> <span data-ttu-id="48c5a-406">Įrašant, įrašomi visi įvykiai, kuriuos vartotojas įveda „Finance and Operations“ vartotojo sąsajoje ir kurie yra vykdomi serveryje, įskaitant įtrauktas reikšmes, pakeistus parametrus, pašalintus duomenis ir t. t.</span><span class="sxs-lookup"><span data-stu-id="48c5a-406">When recording, it records all events that the user enters in the Finance and Operations user interface that get executed against the server—including values added, settings changed, data removed, etc.</span></span>
 
-###### <a name="task-recording"></a>**užduoties įrašas**
+###### <a name="task-recording"></a><span data-ttu-id="48c5a-407">**užduoties įrašas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-407">**Task recording**</span></span>
 
-Failas, kuriame yra veiksmai ir komentarai, užfiksuoti, kai užduočių įrašymo priemonė paleidžiama „Finance and Operations“.
+<span data-ttu-id="48c5a-408">Failas, kuriame yra veiksmai ir komentarai, užfiksuoti, kai užduočių įrašymo priemonė paleidžiama „Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="48c5a-408">A file that contains the actions and annotations that are captured when Task recorder is run in Finance and Operations.</span></span>
 
-###### <a name="three-way-matching-policy"></a>**trišalė atitikimo strategija**
+###### <a name="three-way-matching-policy"></a><span data-ttu-id="48c5a-409">**trišalė atitikimo strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-409">**three-way matching policy**</span></span>
 
-Atitikimo strategija, kuri reikalauja, kad viena ar daugiau tiekėjo SF kainų sutaptų su viena ar daugiau pirkimo užsakymo kainų ir kad vienas ar daugiau tiekėjo SF kiekių sutaptų su vienu ar daugiau produkto gavimo kiekių.
+<span data-ttu-id="48c5a-410">Atitikimo strategija, kuri reikalauja, kad viena ar daugiau tiekėjo SF kainų sutaptų su viena ar daugiau pirkimo užsakymo kainų ir kad vienas ar daugiau tiekėjo SF kiekių sutaptų su vienu ar daugiau produkto gavimo kiekių.</span><span class="sxs-lookup"><span data-stu-id="48c5a-410">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices and that requires one or more vendor invoice quantities to match with one or more product receipt quantities.</span></span>
 
-###### <a name="transfer-batch"></a>**perkėlimo paketas**
+###### <a name="transfer-batch"></a><span data-ttu-id="48c5a-411">**perkėlimo paketas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-411">**transfer batch**</span></span>
 
-Vienos ar daugiau pervedamų arba galimų pervesti prekių kiekis.
+<span data-ttu-id="48c5a-412">Vienos ar daugiau pervedamų arba galimų pervesti prekių kiekis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-412">The quantity of one or more items that is transferred or that can be transferred.</span></span>
 
-###### <a name="two-way-matching-policy"></a>**dvišalė atitikimo strategija**
+###### <a name="two-way-matching-policy"></a><span data-ttu-id="48c5a-413">**dvišalė atitikimo strategija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-413">**two-way matching policy**</span></span>
 
-Atitikimo strategija, reikalaujanti, kad viena ar daugiau tiekėjo SF kainų sutaptų su viena ar daugiau pirkimo užsakymo kainų.
+<span data-ttu-id="48c5a-414">Atitikimo strategija, reikalaujanti, kad viena ar daugiau tiekėjo SF kainų sutaptų su viena ar daugiau pirkimo užsakymo kainų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-414">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices.</span></span>
 
-### <a name="v"></a>**V**
+### <a name="v"></a><span data-ttu-id="48c5a-415">**V**</span><span class="sxs-lookup"><span data-stu-id="48c5a-415">**V**</span></span>
 
-###### <a name="value-stream"></a>**vertės srautas**
+###### <a name="value-stream"></a><span data-ttu-id="48c5a-416">**vertės srautas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-416">**value stream**</span></span>
 
-Valdymo vienetas, kontroliuojantis vieną ar daugiau gamybos eigų.
+<span data-ttu-id="48c5a-417">Valdymo vienetas, kontroliuojantis vieną ar daugiau gamybos eigų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-417">An operating unit that controls one or more production flows.</span></span>
 
-###### <a name="variant-configuration-technology"></a>**variantų konfigūravimo technologija**
+###### <a name="variant-configuration-technology"></a><span data-ttu-id="48c5a-418">**variantų konfigūravimo technologija**</span><span class="sxs-lookup"><span data-stu-id="48c5a-418">**variant configuration technology**</span></span>
 
-Bendrųjų produktų modeliavimo ir produkto varianto konfigūracijų paieškos metodas.
+<span data-ttu-id="48c5a-419">Bendrųjų produktų modeliavimo ir produkto varianto konfigūracijų paieškos metodas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-419">A method of modeling product masters and searching for product variant configurations.</span></span>
 
-###### <a name="vat-value-added-tax"></a>**PVM (pridėtinės vertės mokestis)**
+###### <a name="vat-value-added-tax"></a><span data-ttu-id="48c5a-420">**PVM (pridėtinės vertės mokestis)**</span><span class="sxs-lookup"><span data-stu-id="48c5a-420">**VAT (value-added tax)**</span></span>
 
-Mokestis, taikomas produktams kiekviename jų gamybos etape, remiantis tame etape gauta pridėtine verte.
+<span data-ttu-id="48c5a-421">Mokestis, taikomas produktams kiekviename jų gamybos etape, remiantis tame etape gauta pridėtine verte.</span><span class="sxs-lookup"><span data-stu-id="48c5a-421">A tax on products at each stage of their production based on the value added during that stage.</span></span>
 
-###### <a name="vendor-catalog"></a>**tiekėjo katalogas**
+###### <a name="vendor-catalog"></a><span data-ttu-id="48c5a-422">**tiekėjo katalogas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-422">**vendor catalog**</span></span>
 
-Produktų, kuriuos galima įsigyti iš tiekėjo, siūlymų sąrašas.
+<span data-ttu-id="48c5a-423">Produktų, kuriuos galima įsigyti iš tiekėjo, siūlymų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-423">A listing of product offerings that are available for purchase from a vendor.</span></span>
 
-###### <a name="vendor-invoice"></a>**tiekėjo SF**
+###### <a name="vendor-invoice"></a><span data-ttu-id="48c5a-424">**tiekėjo SF**</span><span class="sxs-lookup"><span data-stu-id="48c5a-424">**vendor invoice**</span></span>
 
-Šaltinio dokumentas, kuriame dokumentuojama tiekėjo mokėjimo užklausa. Tiekėjo SF gali nurodyti į vieną ar daugiau pirkimo užsakymų. Kai tiekėjo SF autorizuota, tiekėjui gali būti atliktas mokėjimas.
+<span data-ttu-id="48c5a-425">Šaltinio dokumentas, kuriame dokumentuojama tiekėjo mokėjimo užklausa.</span><span class="sxs-lookup"><span data-stu-id="48c5a-425">A source document that documents a vendor payment request.</span></span> <span data-ttu-id="48c5a-426">Tiekėjo SF gali nurodyti į vieną ar daugiau pirkimo užsakymų.</span><span class="sxs-lookup"><span data-stu-id="48c5a-426">A vendor invoice can refer to one or more purchase orders.</span></span> <span data-ttu-id="48c5a-427">Kai tiekėjo SF autorizuota, tiekėjui gali būti atliktas mokėjimas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-427">When the vendor invoice is authorized, a payment can be made to the vendor.</span></span>
 
-### <a name="w"></a>**W**
+### <a name="w"></a><span data-ttu-id="48c5a-428">**W**</span><span class="sxs-lookup"><span data-stu-id="48c5a-428">**W**</span></span>
 
-###### <a name="work-cell"></a>**darbo elementas**
+###### <a name="work-cell"></a><span data-ttu-id="48c5a-429">**darbo elementas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-429">**work cell**</span></span>
 
-Išteklių grupė, dalyvaujanti gamybos eigos veikloje.
+<span data-ttu-id="48c5a-430">Išteklių grupė, dalyvaujanti gamybos eigos veikloje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-430">A resource group that participates in a production flow activity.</span></span>
 
-###### <a name="worker"></a>**darbininkas**
+###### <a name="worker"></a><span data-ttu-id="48c5a-431">**darbininkas**</span><span class="sxs-lookup"><span data-stu-id="48c5a-431">**worker**</span></span>
 
-Asmuo, kuris prisiima darbuotojo arba rangovo vaidmenį ir kuriam yra mokama už paslaugas.
+<span data-ttu-id="48c5a-432">Asmuo, kuris prisiima darbuotojo arba rangovo vaidmenį ir kuriam yra mokama už paslaugas.</span><span class="sxs-lookup"><span data-stu-id="48c5a-432">A person who assumes the role of an employee or a contractor and is paid in exchange for services.</span></span>
 
-###### <a name="workspace"></a>**darbo sritis**
+###### <a name="workspace"></a><span data-ttu-id="48c5a-433">**darbo sritis**</span><span class="sxs-lookup"><span data-stu-id="48c5a-433">**workspace**</span></span>
 
-Puslapis, kuriame pateikiama vienos iš vartotojo atliekamų veiklų apžvalga. Puslapyje išklotinės, diagramos ir sąrašai yra naudojami laukiančio darbo ir susijusiems duomenims iš kelių šaltinių rodyti, o puslapyje išryškinamos dažnos užduotys, susijusios su šiais duomenimis. Darbo srities suvestinės dalyje rodomos išklotinės taip pat pateikiamos ir susijusioje ataskaitų srities dalyje.
+<span data-ttu-id="48c5a-434">Puslapis, kuriame pateikiama vienos iš vartotojo atliekamų veiklų apžvalga.</span><span class="sxs-lookup"><span data-stu-id="48c5a-434">A page that provides an overview of one of the activities that the user performs.</span></span> <span data-ttu-id="48c5a-435">Puslapyje išklotinės, diagramos ir sąrašai yra naudojami laukiančio darbo ir susijusiems duomenims iš kelių šaltinių rodyti, o puslapyje išryškinamos dažnos užduotys, susijusios su šiais duomenimis.</span><span class="sxs-lookup"><span data-stu-id="48c5a-435">The page uses tiles, lists, and charts to display pending work and related data from multiple sources, and the page surfaces frequent tasks related to this data.</span></span> <span data-ttu-id="48c5a-436">Darbo srities suvestinės dalyje rodomos išklotinės taip pat pateikiamos ir susijusioje ataskaitų srities dalyje.</span><span class="sxs-lookup"><span data-stu-id="48c5a-436">Tiles shown in the summary section of the workspace are also displayed in the related section in the dashboard.</span></span>
 

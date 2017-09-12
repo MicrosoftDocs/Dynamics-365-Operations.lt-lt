@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Spartieji klavišai
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="abaaf-103">Spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Tolesni spartieji klavišai galioja visame „Microsoft Dynamics 365 for Finance and Operations‟. 
+<span data-ttu-id="abaaf-104">Tolesni spartieji klavišai galioja visame „Microsoft Dynamics 365 for Finance and Operations‟.</span><span class="sxs-lookup"><span data-stu-id="abaaf-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
+<span data-ttu-id="abaaf-105">**Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu.</span><span class="sxs-lookup"><span data-stu-id="abaaf-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="abaaf-106">Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.</span><span class="sxs-lookup"><span data-stu-id="abaaf-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>Veiksmų spartieji klavišai
+## <a name="action-shortcuts"></a><span data-ttu-id="abaaf-107">Veiksmų spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Norint tai padaryti**                                    | **Paspausti**                        |
-| Atidaryti ieškos veiksmą                                | Ctrl + ’ arba Alt + Q                  |
-| Perkelti į standartinę veiksmų sritį                  | Ctrl + F6                          |
-| Atidaryti skirtuką veiksmų srityje arba meniu           | „Enter“ klavišas, tarpo klavišas arba „Alt“ + rodyklė žemyn |
-| Perkelti į kitą / ankstesnę meniu parinktį            | Rodyklė žemyn / rodyklė aukštyn            |
-| Uždaryti skirtuką veiksmų srityje arba meniu          | Esc                              |
-| Imituoti spustelėjimą dešiniuoju pelės mygtuku                            | Shift + F10                        |
-| Atidaryti „Finance and Operations‟ kontekstinį meniu | Ctrl + F10                         |
-| Vykdyti numatytąjį mygtuką formoje / dialogo lange       | Alt + Enter                        |
-| Spustelėkite mygtuką arba plytelę.                            | „Enter“ klavišas arba tarpo klavišas                   |
-| Peržiūrėti skaičiavimo plytelės atnaujintą informaciją         | Alt + rodyklė į viršų                     |
+| <span data-ttu-id="abaaf-108">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-108">**To do this**</span></span>                                    | <span data-ttu-id="abaaf-109">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-109">**Press**</span></span>                        |
+| <span data-ttu-id="abaaf-110">Atidaryti ieškos veiksmą</span><span class="sxs-lookup"><span data-stu-id="abaaf-110">Open action search</span></span>                                | <span data-ttu-id="abaaf-111">Ctrl + ’ arba Alt + Q</span><span class="sxs-lookup"><span data-stu-id="abaaf-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="abaaf-112">Perkelti į standartinę veiksmų sritį</span><span class="sxs-lookup"><span data-stu-id="abaaf-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="abaaf-113">Ctrl + F6</span><span class="sxs-lookup"><span data-stu-id="abaaf-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="abaaf-114">Atidaryti skirtuką veiksmų srityje arba meniu</span><span class="sxs-lookup"><span data-stu-id="abaaf-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="abaaf-115">„Enter“ klavišas, tarpo klavišas arba „Alt“ + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="abaaf-116">Perkelti į kitą / ankstesnę meniu parinktį</span><span class="sxs-lookup"><span data-stu-id="abaaf-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="abaaf-117">Rodyklė žemyn / rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="abaaf-118">Uždaryti skirtuką veiksmų srityje arba meniu</span><span class="sxs-lookup"><span data-stu-id="abaaf-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="abaaf-119">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-119">Esc</span></span>                              |
+| <span data-ttu-id="abaaf-120">Imituoti spustelėjimą dešiniuoju pelės mygtuku</span><span class="sxs-lookup"><span data-stu-id="abaaf-120">Simulate a right-click</span></span>                            | <span data-ttu-id="abaaf-121">Shift + F10</span><span class="sxs-lookup"><span data-stu-id="abaaf-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="abaaf-122">Atidaryti „Finance and Operations‟ kontekstinį meniu</span><span class="sxs-lookup"><span data-stu-id="abaaf-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="abaaf-123">Ctrl + F10</span><span class="sxs-lookup"><span data-stu-id="abaaf-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="abaaf-124">Vykdyti numatytąjį mygtuką formoje / dialogo lange</span><span class="sxs-lookup"><span data-stu-id="abaaf-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="abaaf-125">Alt + Enter</span><span class="sxs-lookup"><span data-stu-id="abaaf-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="abaaf-126">Spustelėkite mygtuką arba plytelę.</span><span class="sxs-lookup"><span data-stu-id="abaaf-126">Click a button or tile</span></span>                            | <span data-ttu-id="abaaf-127">„Enter“ klavišas arba tarpo klavišas</span><span class="sxs-lookup"><span data-stu-id="abaaf-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="abaaf-128">Peržiūrėti skaičiavimo plytelės atnaujintą informaciją</span><span class="sxs-lookup"><span data-stu-id="abaaf-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="abaaf-129">Alt + rodyklė į viršų</span><span class="sxs-lookup"><span data-stu-id="abaaf-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Datos parinkimo spartieji klavišai
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="abaaf-130">Datos parinkimo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Norint tai padaryti**                        | **Paspausti**                                 |
-| Atidaryti datos parinkiklį                  | Alt + rodyklė žemyn                            |
-| Judėti tarp datų duomenų parinkiklyje | Ctrl + rodyklės                               |
-| Perkelti į kitą / ankstesnį mėnesį       | Page Down / Page Up                       |
-| Perkelti į kitus / ankstesnius metus        | Ctrl + Shift + Page Down / Ctrl + Shift + Page Up |
+| <span data-ttu-id="abaaf-131">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-131">**To do this**</span></span>                        | <span data-ttu-id="abaaf-132">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-132">**Press**</span></span>                                 |
+| <span data-ttu-id="abaaf-133">Atidaryti datos parinkiklį</span><span class="sxs-lookup"><span data-stu-id="abaaf-133">Open the date picker</span></span>                  | <span data-ttu-id="abaaf-134">Alt + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="abaaf-135">Judėti tarp datų duomenų parinkiklyje</span><span class="sxs-lookup"><span data-stu-id="abaaf-135">Move between dates in the date picker</span></span> | <span data-ttu-id="abaaf-136">Ctrl + rodyklės</span><span class="sxs-lookup"><span data-stu-id="abaaf-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="abaaf-137">Perkelti į kitą / ankstesnį mėnesį</span><span class="sxs-lookup"><span data-stu-id="abaaf-137">Move to the next/previous month</span></span>       | <span data-ttu-id="abaaf-138">Page Down / Page Up</span><span class="sxs-lookup"><span data-stu-id="abaaf-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="abaaf-139">Perkelti į kitus / ankstesnius metus</span><span class="sxs-lookup"><span data-stu-id="abaaf-139">Move to the next/previous year</span></span>        | <span data-ttu-id="abaaf-140">Ctrl + Shift + Page Down / Ctrl + Shift + Page Up</span><span class="sxs-lookup"><span data-stu-id="abaaf-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>„FactBox“ spartieji klavišai
+## <a name="factbox-shortcuts"></a><span data-ttu-id="abaaf-141">„FactBox“ spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | Ctrl + F2                                   |
-| Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
-| Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn |
-| Perkelti į &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)           |
-| Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)                             | Tarpo klavišas arba „Enter“ klavišas                            |
-| Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
+| <span data-ttu-id="abaaf-142">Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta)</span><span class="sxs-lookup"><span data-stu-id="abaaf-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="abaaf-143">Ctrl + F2</span><span class="sxs-lookup"><span data-stu-id="abaaf-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="abaaf-144">Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="abaaf-145">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-145">Esc</span></span>                                       |
+| <span data-ttu-id="abaaf-146">Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="abaaf-147">Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="abaaf-148">Perkelti į &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="abaaf-149">„Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)</span><span class="sxs-lookup"><span data-stu-id="abaaf-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="abaaf-150">Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="abaaf-151">Tarpo klavišas arba „Enter“ klavišas</span><span class="sxs-lookup"><span data-stu-id="abaaf-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="abaaf-152">Sutraukti esamą „FactBox“</span><span class="sxs-lookup"><span data-stu-id="abaaf-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="abaaf-153">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="abaaf-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>Filtravimo spartieji klavišai
+## <a name="filtering-shortcuts"></a><span data-ttu-id="abaaf-154">Filtravimo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **Norint tai padaryti**                                                                                                      | **Paspausti**     |
-| Atidaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                          | Ctrl + G        |
-| Uždaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                         | Esc           |
-| Atidaryti filtro sritį (ar persijungti tarp filtro srities ir pagrindinės formos, jei filtro sritis jau atidaryta) | Ctrl + F3       |
-| Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)                                                               | Esc           |
-| Atidaryti išplėstinį filtravimą / rūšiavimą                                                                                        | Ctrl + Shift + F3 |
+| <span data-ttu-id="abaaf-155">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="abaaf-156">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-156">**Press**</span></span>     |
+| <span data-ttu-id="abaaf-157">Atidaryti esamo stulpelio filtravimo naudojant tinklelį funkciją</span><span class="sxs-lookup"><span data-stu-id="abaaf-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="abaaf-158">Ctrl + G</span><span class="sxs-lookup"><span data-stu-id="abaaf-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="abaaf-159">Uždaryti esamo stulpelio filtravimo naudojant tinklelį funkciją</span><span class="sxs-lookup"><span data-stu-id="abaaf-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="abaaf-160">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-160">Esc</span></span>           |
+| <span data-ttu-id="abaaf-161">Atidaryti filtro sritį (ar persijungti tarp filtro srities ir pagrindinės formos, jei filtro sritis jau atidaryta)</span><span class="sxs-lookup"><span data-stu-id="abaaf-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="abaaf-162">Ctrl + F3</span><span class="sxs-lookup"><span data-stu-id="abaaf-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="abaaf-163">Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="abaaf-164">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-164">Esc</span></span>           |
+| <span data-ttu-id="abaaf-165">Atidaryti išplėstinį filtravimą / rūšiavimą</span><span class="sxs-lookup"><span data-stu-id="abaaf-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="abaaf-166">Ctrl + Shift + F3</span><span class="sxs-lookup"><span data-stu-id="abaaf-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>Formos spartieji klavišai
+## <a name="form-shortcuts"></a><span data-ttu-id="abaaf-167">Formos spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **Norint tai padaryti**                                                                                                                  | **Paspausti**         |
-| Kurti naują įrašą                                                                                                             | Alt + N             |
-| Įrašo naikinimas                                                                                                                 | Alt + Del arba Alt + F9 |
-| Įrašyti įrašą                                                                                                                     | Alt + S arba Ctrl + S   |
-| Grąžinti (atkurti)                                                                                                                | Ctrl + Shift + F5     |
-| Atnaujinti duomenis                                                                                                                    | Shift + F5          |
-| Perkelti į pirmą matomą lauką formoje                                                                                     | Alt + Shift + F       |
-| Perjungti redagavimo režimą                                                                                                                | F2                |
-| Dokumento pridėjimas                                                                                                               | Ctrl + Shift + A      |
-| Eksportuoti į „Excel“                                                                                                                 | Ctrl + Shift + E      |
-| Perkelti į ankstesnį įrašą (ne tinklelyje)                                                                                    | Ctrl + rodyklė aukštyn     |
-| Perkelti į kitą įrašą (ne tinklelyje)                                                                                        | Ctrl + rodyklė žemyn   |
-| Perkelti į pirmą įrašą (ne tinklelyje)                                                                                       | Ctrl + Home         |
-| Perkelti į paskutinį įrašą (ne tinklelyje)                                                                                        | Ctrl + End          |
-| Atidaryti išsamios informacijos formų naršymo sąrašą (arba persijungti tarp naršymo sąrašo ir pagrindinės formos, jei jis jau atidarytas) | Ctrl + F8           |
-| Uždaryti išsamios informacijos formos naršymo sąrašą (naršymo sąrašui esant suaktyvintam)                                                   | Esc               |
+| <span data-ttu-id="abaaf-168">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="abaaf-169">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-169">**Press**</span></span>         |
+| <span data-ttu-id="abaaf-170">Kurti naują įrašą</span><span class="sxs-lookup"><span data-stu-id="abaaf-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="abaaf-171">Alt + N</span><span class="sxs-lookup"><span data-stu-id="abaaf-171">Alt+N</span></span>             |
+| <span data-ttu-id="abaaf-172">Įrašo naikinimas</span><span class="sxs-lookup"><span data-stu-id="abaaf-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="abaaf-173">Alt + Del arba Alt + F9</span><span class="sxs-lookup"><span data-stu-id="abaaf-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="abaaf-174">Įrašyti įrašą</span><span class="sxs-lookup"><span data-stu-id="abaaf-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="abaaf-175">Alt + S arba Ctrl + S</span><span class="sxs-lookup"><span data-stu-id="abaaf-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="abaaf-176">Grąžinti (atkurti)</span><span class="sxs-lookup"><span data-stu-id="abaaf-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="abaaf-177">Ctrl + Shift + F5</span><span class="sxs-lookup"><span data-stu-id="abaaf-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="abaaf-178">Atnaujinti duomenis</span><span class="sxs-lookup"><span data-stu-id="abaaf-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="abaaf-179">Shift + F5</span><span class="sxs-lookup"><span data-stu-id="abaaf-179">Shift+F5</span></span>          |
+| <span data-ttu-id="abaaf-180">Perkelti į pirmą matomą lauką formoje</span><span class="sxs-lookup"><span data-stu-id="abaaf-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="abaaf-181">Alt + Shift + F</span><span class="sxs-lookup"><span data-stu-id="abaaf-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="abaaf-182">Perjungti redagavimo režimą</span><span class="sxs-lookup"><span data-stu-id="abaaf-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="abaaf-183">F2</span><span class="sxs-lookup"><span data-stu-id="abaaf-183">F2</span></span>                |
+| <span data-ttu-id="abaaf-184">Dokumento pridėjimas</span><span class="sxs-lookup"><span data-stu-id="abaaf-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="abaaf-185">Ctrl + Shift + A</span><span class="sxs-lookup"><span data-stu-id="abaaf-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="abaaf-186">Eksportuoti į „Excel“</span><span class="sxs-lookup"><span data-stu-id="abaaf-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="abaaf-187">Ctrl + Shift + E</span><span class="sxs-lookup"><span data-stu-id="abaaf-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="abaaf-188">Perkelti į ankstesnį įrašą (ne tinklelyje)</span><span class="sxs-lookup"><span data-stu-id="abaaf-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="abaaf-189">Ctrl + rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="abaaf-190">Perkelti į kitą įrašą (ne tinklelyje)</span><span class="sxs-lookup"><span data-stu-id="abaaf-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="abaaf-191">Ctrl + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="abaaf-192">Perkelti į pirmą įrašą (ne tinklelyje)</span><span class="sxs-lookup"><span data-stu-id="abaaf-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="abaaf-193">Ctrl + Home</span><span class="sxs-lookup"><span data-stu-id="abaaf-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="abaaf-194">Perkelti į paskutinį įrašą (ne tinklelyje)</span><span class="sxs-lookup"><span data-stu-id="abaaf-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="abaaf-195">Ctrl + End</span><span class="sxs-lookup"><span data-stu-id="abaaf-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="abaaf-196">Atidaryti išsamios informacijos formų naršymo sąrašą (arba persijungti tarp naršymo sąrašo ir pagrindinės formos, jei jis jau atidarytas)</span><span class="sxs-lookup"><span data-stu-id="abaaf-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="abaaf-197">Ctrl + F8</span><span class="sxs-lookup"><span data-stu-id="abaaf-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="abaaf-198">Uždaryti išsamios informacijos formos naršymo sąrašą (naršymo sąrašui esant suaktyvintam)</span><span class="sxs-lookup"><span data-stu-id="abaaf-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="abaaf-199">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>Formos naršymo spartieji klavišai
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="abaaf-200">Formos naršymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **Norint tai padaryti**                                      | **Paspausti**                                    |
-| Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
-| Perkelti į kitą / ankstesnį skirtuką                       | Alt + Shift + rodyklė dešinėn / Alt + Shift + rodyklė kairėn |
-| Perkelti į kitą / ankstesnį „FastTab“                   | Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn    |
-| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)              |
-| Perkelti į &lt;n&gt;-ąjį skirtuką                         | „Alt“ + „Shift“ + &lt;n&gt; (&lt;n&gt; = 1–9)        |
-| Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai) | Tarpo klavišas arba „Enter“ klavišas                               |
-| Sutraukti esamą „FastTab“                        | Alt + 0                                        |
-| Perjungti tinklelio rodinį                                 | Ctrl + Shift + G                                 |
-| Perjungti išsamios informacijos rodinį                              | Ctrl + Shift + D                                 |
-| Perjungti antraštės rodinį                               | Ctrl + Shift + H                                 |
-| Perjungti eilučių rodinį                                | Ctrl + Shift + L                                 |
-| Uždaryti formą (spustelėti Atgal)                         | Esc                                          |
-| Aiškiai įrašyti ir uždaryti formą                   | Shift + Esc                                    |
-| Uždaryti formą atmetant visus neįrašytus keitimus       | Alt + Shift + Q                                  |
+| <span data-ttu-id="abaaf-201">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-201">**To do this**</span></span>                                      | <span data-ttu-id="abaaf-202">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-202">**Press**</span></span>                                    |
+| <span data-ttu-id="abaaf-203">Perkelti į kitą / ankstesnį lauką</span><span class="sxs-lookup"><span data-stu-id="abaaf-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="abaaf-204">Tab / Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="abaaf-205">Perkelti į kitą / ankstesnį skirtuką</span><span class="sxs-lookup"><span data-stu-id="abaaf-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="abaaf-206">Alt + Shift + rodyklė dešinėn / Alt + Shift + rodyklė kairėn</span><span class="sxs-lookup"><span data-stu-id="abaaf-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="abaaf-207">Perkelti į kitą / ankstesnį „FastTab“</span><span class="sxs-lookup"><span data-stu-id="abaaf-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="abaaf-208">Alt + Shift + rodyklė žemyn / Alt + Shift + rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="abaaf-209">Perkelti į &lt;n&gt;-ąjį „FastTab“</span><span class="sxs-lookup"><span data-stu-id="abaaf-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="abaaf-210">„Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)</span><span class="sxs-lookup"><span data-stu-id="abaaf-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="abaaf-211">Perkelti į &lt;n&gt;-ąjį skirtuką</span><span class="sxs-lookup"><span data-stu-id="abaaf-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="abaaf-212">„Alt“ + „Shift“ + &lt;n&gt; (&lt;n&gt; = 1–9)</span><span class="sxs-lookup"><span data-stu-id="abaaf-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="abaaf-213">Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="abaaf-214">Tarpo klavišas arba „Enter“ klavišas</span><span class="sxs-lookup"><span data-stu-id="abaaf-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="abaaf-215">Sutraukti esamą „FastTab“</span><span class="sxs-lookup"><span data-stu-id="abaaf-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="abaaf-216">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="abaaf-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="abaaf-217">Perjungti tinklelio rodinį</span><span class="sxs-lookup"><span data-stu-id="abaaf-217">Switch to grid view</span></span>                                 | <span data-ttu-id="abaaf-218">Ctrl + Shift + G</span><span class="sxs-lookup"><span data-stu-id="abaaf-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="abaaf-219">Perjungti išsamios informacijos rodinį</span><span class="sxs-lookup"><span data-stu-id="abaaf-219">Switch to details view</span></span>                              | <span data-ttu-id="abaaf-220">Ctrl + Shift + D</span><span class="sxs-lookup"><span data-stu-id="abaaf-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="abaaf-221">Perjungti antraštės rodinį</span><span class="sxs-lookup"><span data-stu-id="abaaf-221">Switch to header view</span></span>                               | <span data-ttu-id="abaaf-222">Ctrl + Shift + H</span><span class="sxs-lookup"><span data-stu-id="abaaf-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="abaaf-223">Perjungti eilučių rodinį</span><span class="sxs-lookup"><span data-stu-id="abaaf-223">Switch to lines view</span></span>                                | <span data-ttu-id="abaaf-224">Ctrl + Shift + L</span><span class="sxs-lookup"><span data-stu-id="abaaf-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="abaaf-225">Uždaryti formą (spustelėti Atgal)</span><span class="sxs-lookup"><span data-stu-id="abaaf-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="abaaf-226">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-226">Esc</span></span>                                          |
+| <span data-ttu-id="abaaf-227">Aiškiai įrašyti ir uždaryti formą</span><span class="sxs-lookup"><span data-stu-id="abaaf-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="abaaf-228">Shift + Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="abaaf-229">Uždaryti formą atmetant visus neįrašytus keitimus</span><span class="sxs-lookup"><span data-stu-id="abaaf-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="abaaf-230">Alt + Shift + Q</span><span class="sxs-lookup"><span data-stu-id="abaaf-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>Tinklelio spartieji klavišai
+## <a name="grid-shortcuts"></a><span data-ttu-id="abaaf-231">Tinklelio spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Norint tai padaryti**                                                                                                | **Paspausti**                       |
-| Perkelti į kitą / ankstesnį stulpelį                                                                              | Tab / Shift + Tab                 |
-| Perkelti į kitą / ankstesnę eilutę                                                                                 | Rodyklė žemyn / rodyklė aukštyn           |
-| Perkelti į kitą / ankstesnę eilutę nepasirenkant (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.) | Ctrl + rodyklė aukštyn / Ctrl + rodyklė žemyn |
-| Pažymėti / išvalyti dabartinę eilutę (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)                    | Ctrl + tarpo klavišas / Ctrl + spustelėjimas         |
-| Įtraukti kitą / ankstesnę eilutę į pasirinktą rinkinį (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)   | Shift + tarpo klavišas                     |
-| Įtraukti eilučių intervalą į pasirinktą rinkinį (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)         | Shift + spustelėjimas                     |
-| Eiti į kitą / ankstesnį duomenų puslapį                                                                          | Page Up / Page Down             |
-| Sukurti naują eilutę tinklelio apačioje                                                                    | Rodyklė žemyn (nuo paskutinės eilutės)  |
-| Pažymėkite arba išvalykite visas eilutes                                                                                      | Ctrl + Shift + M                    |
-| Perkelti į pirmą įrašą                                                                                      | Ctrl + Home                       |
-| Perkelti į paskutinį įrašą                                                                                       | Ctrl + End                        |
+| <span data-ttu-id="abaaf-232">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="abaaf-233">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-233">**Press**</span></span>                       |
+| <span data-ttu-id="abaaf-234">Perkelti į kitą / ankstesnį stulpelį</span><span class="sxs-lookup"><span data-stu-id="abaaf-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="abaaf-235">Tab / Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="abaaf-236">Perkelti į kitą / ankstesnę eilutę</span><span class="sxs-lookup"><span data-stu-id="abaaf-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="abaaf-237">Rodyklė žemyn / rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="abaaf-238">Perkelti į kitą / ankstesnę eilutę nepasirenkant (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)</span><span class="sxs-lookup"><span data-stu-id="abaaf-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="abaaf-239">Ctrl + rodyklė aukštyn / Ctrl + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="abaaf-240">Pažymėti / išvalyti dabartinę eilutę (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)</span><span class="sxs-lookup"><span data-stu-id="abaaf-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="abaaf-241">Ctrl + tarpo klavišas / Ctrl + spustelėjimas</span><span class="sxs-lookup"><span data-stu-id="abaaf-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="abaaf-242">Įtraukti kitą / ankstesnę eilutę į pasirinktą rinkinį (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)</span><span class="sxs-lookup"><span data-stu-id="abaaf-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="abaaf-243">Shift + tarpo klavišas</span><span class="sxs-lookup"><span data-stu-id="abaaf-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="abaaf-244">Įtraukti eilučių intervalą į pasirinktą rinkinį (pastaba: šis spartusis klavišas taikomas tik kelių pasirinkčių scenarijuose.)</span><span class="sxs-lookup"><span data-stu-id="abaaf-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="abaaf-245">Shift + spustelėjimas</span><span class="sxs-lookup"><span data-stu-id="abaaf-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="abaaf-246">Eiti į kitą / ankstesnį duomenų puslapį</span><span class="sxs-lookup"><span data-stu-id="abaaf-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="abaaf-247">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="abaaf-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="abaaf-248">Sukurti naują eilutę tinklelio apačioje</span><span class="sxs-lookup"><span data-stu-id="abaaf-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="abaaf-249">Rodyklė žemyn (nuo paskutinės eilutės)</span><span class="sxs-lookup"><span data-stu-id="abaaf-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="abaaf-250">Pažymėkite arba išvalykite visas eilutes</span><span class="sxs-lookup"><span data-stu-id="abaaf-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="abaaf-251">Ctrl + Shift + M</span><span class="sxs-lookup"><span data-stu-id="abaaf-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="abaaf-252">Perkelti į pirmą įrašą</span><span class="sxs-lookup"><span data-stu-id="abaaf-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="abaaf-253">Ctrl + Home</span><span class="sxs-lookup"><span data-stu-id="abaaf-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="abaaf-254">Perkelti į paskutinį įrašą</span><span class="sxs-lookup"><span data-stu-id="abaaf-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="abaaf-255">Ctrl + End</span><span class="sxs-lookup"><span data-stu-id="abaaf-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
+## <a name="input-control-shortcuts"></a><span data-ttu-id="abaaf-256">Įvesties valdymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **Norint tai padaryti**                                             | **Paspausti**                     |
-| Įvesti seanso datą į datos lauką.                     | D + Tab                         |
-| Įvesti dabartinę datą į datos lauką                     | T + Tab                         |
-| Atidaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą           | Alt + rodyklė žemyn                |
-| Uždaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą          | Esc                           |
-| Suaktyvinti peržvalgą (kai peržvalga jau atidaryta) | Alt + rodyklė žemyn                |
-| Atidarykite valdiklio patobulintą peržiūrą                        | Alt + rodyklė į viršų                  |
-| Pasirinkti tekstą dabartiniame lauke                           | Ctrl + A                        |
-| Įvesti / palikti teksto sritį HTML rengyklės valdiklyje        | Alt + rodyklė žemyn / Alt + rodyklė aukštyn |
+| <span data-ttu-id="abaaf-257">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-257">**To do this**</span></span>                                             | <span data-ttu-id="abaaf-258">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-258">**Press**</span></span>                     |
+| <span data-ttu-id="abaaf-259">Įvesti seanso datą į datos lauką.</span><span class="sxs-lookup"><span data-stu-id="abaaf-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="abaaf-260">D + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-260">D+Tab</span></span>                         |
+| <span data-ttu-id="abaaf-261">Įvesti dabartinę datą į datos lauką</span><span class="sxs-lookup"><span data-stu-id="abaaf-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="abaaf-262">T + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-262">T+Tab</span></span>                         |
+| <span data-ttu-id="abaaf-263">Atidaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą</span><span class="sxs-lookup"><span data-stu-id="abaaf-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="abaaf-264">Alt + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="abaaf-265">Uždaryti peržvalgos, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą</span><span class="sxs-lookup"><span data-stu-id="abaaf-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="abaaf-266">Esc</span><span class="sxs-lookup"><span data-stu-id="abaaf-266">Esc</span></span>                           |
+| <span data-ttu-id="abaaf-267">Suaktyvinti peržvalgą (kai peržvalga jau atidaryta)</span><span class="sxs-lookup"><span data-stu-id="abaaf-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="abaaf-268">Alt + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="abaaf-269">Atidarykite valdiklio patobulintą peržiūrą</span><span class="sxs-lookup"><span data-stu-id="abaaf-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="abaaf-270">Alt + rodyklė į viršų</span><span class="sxs-lookup"><span data-stu-id="abaaf-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="abaaf-271">Pasirinkti tekstą dabartiniame lauke</span><span class="sxs-lookup"><span data-stu-id="abaaf-271">Select text in the current field</span></span>                           | <span data-ttu-id="abaaf-272">Ctrl + A</span><span class="sxs-lookup"><span data-stu-id="abaaf-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="abaaf-273">Įvesti / palikti teksto sritį HTML rengyklės valdiklyje</span><span class="sxs-lookup"><span data-stu-id="abaaf-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="abaaf-274">Alt + rodyklė žemyn / Alt + rodyklė aukštyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>Pranešimų spartieji klavišai
+## <a name="messaging-shortcuts"></a><span data-ttu-id="abaaf-275">Pranešimų spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **Norint tai padaryti**           | **Paspausti**     |
-| Eiti į pranešimų centrą | Ctrl + Shift + F7 |
-| Eiti į pranešimų juostą    | Ctrl + F7       |
+| <span data-ttu-id="abaaf-276">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-276">**To do this**</span></span>           | <span data-ttu-id="abaaf-277">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-277">**Press**</span></span>     |
+| <span data-ttu-id="abaaf-278">Eiti į pranešimų centrą</span><span class="sxs-lookup"><span data-stu-id="abaaf-278">Go to the Message Center</span></span> | <span data-ttu-id="abaaf-279">Ctrl + Shift + F7</span><span class="sxs-lookup"><span data-stu-id="abaaf-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="abaaf-280">Eiti į pranešimų juostą</span><span class="sxs-lookup"><span data-stu-id="abaaf-280">Go to the Message Bar</span></span>    | <span data-ttu-id="abaaf-281">Ctrl + F7</span><span class="sxs-lookup"><span data-stu-id="abaaf-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>Naršymo spartieji klavišai
+## <a name="navigation-shortcuts"></a><span data-ttu-id="abaaf-282">Naršymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **Norint tai padaryti**                                                            | **Paspausti**       |
-| Eiti į ataskaitų sritį                                                       | Alt + Shift + Home  |
-| Eiti į naršymo juostą                                                  | Alt + Shift + F1    |
-| Eiti į naršymo sritį                                                 | „Alt“ + F1          |
-| Parankinių / ne parankinių forma (naršymo sričiai esant suaktyvintai) | Shift + F         |
-| Eiti į įmonės parinkiklį                                                  | Ctrl + Shift + O    |
-| Eiti į naršymo iešką                                                   | Ctrl + / arba Alt + G |
-| Atidarykite žinyno sritį.                                                        | Ctrl + ?          |
-| Atidarykite sekimo analizatorių.                                                     | Alt + Shift + T     |
+| <span data-ttu-id="abaaf-283">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-283">**To do this**</span></span>                                                            | <span data-ttu-id="abaaf-284">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-284">**Press**</span></span>       |
+| <span data-ttu-id="abaaf-285">Eiti į ataskaitų sritį</span><span class="sxs-lookup"><span data-stu-id="abaaf-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="abaaf-286">Alt + Shift + Home</span><span class="sxs-lookup"><span data-stu-id="abaaf-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="abaaf-287">Eiti į naršymo juostą</span><span class="sxs-lookup"><span data-stu-id="abaaf-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="abaaf-288">Alt + Shift + F1</span><span class="sxs-lookup"><span data-stu-id="abaaf-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="abaaf-289">Eiti į naršymo sritį</span><span class="sxs-lookup"><span data-stu-id="abaaf-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="abaaf-290">„Alt“ + F1</span><span class="sxs-lookup"><span data-stu-id="abaaf-290">Alt+F1</span></span>          |
+| <span data-ttu-id="abaaf-291">Parankinių / ne parankinių forma (naršymo sričiai esant suaktyvintai)</span><span class="sxs-lookup"><span data-stu-id="abaaf-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="abaaf-292">Shift + F</span><span class="sxs-lookup"><span data-stu-id="abaaf-292">Shift+F</span></span>         |
+| <span data-ttu-id="abaaf-293">Eiti į įmonės parinkiklį</span><span class="sxs-lookup"><span data-stu-id="abaaf-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="abaaf-294">Ctrl + Shift + O</span><span class="sxs-lookup"><span data-stu-id="abaaf-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="abaaf-295">Eiti į naršymo iešką</span><span class="sxs-lookup"><span data-stu-id="abaaf-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="abaaf-296">Ctrl + / arba Alt + G</span><span class="sxs-lookup"><span data-stu-id="abaaf-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="abaaf-297">Atidarykite žinyno sritį.</span><span class="sxs-lookup"><span data-stu-id="abaaf-297">Open the help pane</span></span>                                                        | <span data-ttu-id="abaaf-298">Ctrl + ?</span><span class="sxs-lookup"><span data-stu-id="abaaf-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="abaaf-299">Atidarykite sekimo analizatorių.</span><span class="sxs-lookup"><span data-stu-id="abaaf-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="abaaf-300">Alt + Shift + T</span><span class="sxs-lookup"><span data-stu-id="abaaf-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Segmentuoto įrašo spartieji klavišai
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="abaaf-301">Segmentuoto įrašo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="abaaf-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Norint tai padaryti**                                                                                                          | **Paspauskite**                        |
-| Atidaryti išplečiamąjį sąrašą (kai išplečiamasis sąrašas uždarytas)                                                             | Alt + rodyklė žemyn                   |
-| Suaktyvinti dabartinio segmento įvesties lauką išplečiamajame sąraše (kai išplečiamasis sąrašas jau atidarytas) | Alt + rodyklė žemyn                   |
-| Uždaryti išplečiamąjį sąrašą                                                                                                | Alt + rodyklė į viršų                     |
-| Uždaryti / atidaryti dešiniąją išplečiamojo sąrašo dalį                                                                      | Alt + rodyklė kairėn / Alt + rodyklė dešinėn |
-| Perjungti tarp režimų Rodyti tinkamą ir Rodyti viską                                                                        | ALT + W                            |
-| Išplečiamajame sąraše pasirinkti vertę ir perkelti į kitą segmentą                                                       | Įvesti                            |
-| Perkelti į kitą / ankstesnį valdiklį puslapyje (kai suaktyvintas įvesties valdiklis)                                          | Tab / Shift + Tab                  |
-| Perkelti į kitą / ankstesnį iškėlimo įvesties lauką (kai suaktyvintas išplečiamasis sąrašas)                               | Tab / Shift + Tab                  |
-| Perkelti eilute aukštyn / žemyn peržvalgoje                                                                                        | Rodyklė aukštyn / rodyklė žemyn            |
-| Perkelti puslapiu aukštyn / žemyn peržvalgoje                                                                                       | Page Up / Page Down              |
-| Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
+| <span data-ttu-id="abaaf-302">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="abaaf-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="abaaf-303">**Paspauskite**</span><span class="sxs-lookup"><span data-stu-id="abaaf-303">**Press**</span></span>                        |
+| <span data-ttu-id="abaaf-304">Atidaryti išplečiamąjį sąrašą (kai išplečiamasis sąrašas uždarytas)</span><span class="sxs-lookup"><span data-stu-id="abaaf-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="abaaf-305">Alt + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="abaaf-306">Suaktyvinti dabartinio segmento įvesties lauką išplečiamajame sąraše (kai išplečiamasis sąrašas jau atidarytas)</span><span class="sxs-lookup"><span data-stu-id="abaaf-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="abaaf-307">Alt + rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="abaaf-308">Uždaryti išplečiamąjį sąrašą</span><span class="sxs-lookup"><span data-stu-id="abaaf-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="abaaf-309">Alt + rodyklė į viršų</span><span class="sxs-lookup"><span data-stu-id="abaaf-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="abaaf-310">Uždaryti / atidaryti dešiniąją išplečiamojo sąrašo dalį</span><span class="sxs-lookup"><span data-stu-id="abaaf-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="abaaf-311">Alt + rodyklė kairėn / Alt + rodyklė dešinėn</span><span class="sxs-lookup"><span data-stu-id="abaaf-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="abaaf-312">Perjungti tarp režimų Rodyti tinkamą ir Rodyti viską</span><span class="sxs-lookup"><span data-stu-id="abaaf-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="abaaf-313">ALT + W</span><span class="sxs-lookup"><span data-stu-id="abaaf-313">Alt+W</span></span>                            |
+| <span data-ttu-id="abaaf-314">Išplečiamajame sąraše pasirinkti vertę ir perkelti į kitą segmentą</span><span class="sxs-lookup"><span data-stu-id="abaaf-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="abaaf-315">Įvesti</span><span class="sxs-lookup"><span data-stu-id="abaaf-315">Enter</span></span>                            |
+| <span data-ttu-id="abaaf-316">Perkelti į kitą / ankstesnį valdiklį puslapyje (kai suaktyvintas įvesties valdiklis)</span><span class="sxs-lookup"><span data-stu-id="abaaf-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="abaaf-317">Tab / Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="abaaf-318">Perkelti į kitą / ankstesnį iškėlimo įvesties lauką (kai suaktyvintas išplečiamasis sąrašas)</span><span class="sxs-lookup"><span data-stu-id="abaaf-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="abaaf-319">Tab / Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="abaaf-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="abaaf-320">Perkelti eilute aukštyn / žemyn peržvalgoje</span><span class="sxs-lookup"><span data-stu-id="abaaf-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="abaaf-321">Rodyklė aukštyn / rodyklė žemyn</span><span class="sxs-lookup"><span data-stu-id="abaaf-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="abaaf-322">Perkelti puslapiu aukštyn / žemyn peržvalgoje</span><span class="sxs-lookup"><span data-stu-id="abaaf-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="abaaf-323">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="abaaf-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="abaaf-324">Perkelti į peržvalgos viršų / apačią</span><span class="sxs-lookup"><span data-stu-id="abaaf-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="abaaf-325">Home / End</span><span class="sxs-lookup"><span data-stu-id="abaaf-325">Home / End</span></span>                       |
 
  
 
