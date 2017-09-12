@@ -1,7 +1,7 @@
 ---
 title: "Susieti atsargų paketus"
 description: "Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete. 
+Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete.
 
 Kai suliejate paketus, skaičiavimai gali padėti optimizuoti sulieto paketo charakteristikas ir atributus. Pasirinkę šaltinio paketus, prieš užregistruodami sulietąjį paketą, jį galite peržiūrėti ir pakeisti. Taip pat paketų suliejimą galite perkelti į atsargų žurnalą patvirtinti. Atsargas tada galima rezervuoti ar registruoti tiesiai iš to atsargų žurnalo. Kai užregistruojate susietą paketą, pakoreguojamos šaltinio paketų ir susieto paketo atsargos.
 
@@ -142,7 +142,4 @@ Galite patvirtinti paketų suliejimo atsargų žurnalą sąrašo puslapyje **Vis
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kai susieju esamo svorio prekę, kodėl esamo svorio informacijos negaliu matyti atsargų žurnale?
 Esamo svorio prekių paketus galite sulieti kaip ir visas kitas prekes. Tačiau esamo svorio informacija nerodoma atsargų žurnale. Prieš perkeliant paketų suliejimą į atsargų žurnalą rekomenduojame patikrinti esamo svorio informaciją.
-
-
-
 

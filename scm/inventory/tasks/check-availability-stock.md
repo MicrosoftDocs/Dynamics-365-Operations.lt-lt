@@ -1,4 +1,4 @@
---- 
+---
 title: Tikrinti turimas atsargas
 description: "Ši procedūra parodo, kaip patikrinti konkretaus prekės numerio turimas ir faktinies turimas atsargas."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 4. Spustelėkite Rodyti dimensijas.
 5. Spustelėkite GERAI.
 6. Uždarykite puslapį.
-
 

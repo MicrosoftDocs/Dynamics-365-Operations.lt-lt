@@ -1,4 +1,4 @@
---- 
+---
 title: "Perkelti faktines atsargas sandėlyje"
 description: "Ši procedūra jums padės kurti ir registruoti atsargų perkėlimo žurnalą, norint registruoti prekės judėjimą iš vienos sandėlio vietos į kitą."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 1. Spustelėkite Atsargos.
 2. Spustelėkite Operacijos.
     * Čia galite pamatyti operacijas, kurios buvo sukurtos užregistravus jūsų žurnalą.  
-
 

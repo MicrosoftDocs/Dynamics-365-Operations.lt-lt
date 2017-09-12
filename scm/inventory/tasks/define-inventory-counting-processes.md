@@ -1,4 +1,4 @@
---- 
+---
 title: "Apibrėžti atsargų skaičiavimo procesus"
 description: "Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. Sąraše pasirinkite inventorizacijos grupę
     * Čia galite pasirinkti konkrečią skaičiavimo grupę, kurią reikėtų taikyti prekei konkrečiame jūsų pasirinktame sandėlyje. Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.  
 8. Spustelėkite Įrašyti.
-
 

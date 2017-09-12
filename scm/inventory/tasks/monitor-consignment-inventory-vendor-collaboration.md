@@ -1,4 +1,4 @@
---- 
+---
 title: "Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą"
 description: "Šioje procedūroje parodoma, kaip naudoti tiekėjo bendradarbiavimą, norint pamatyti informaciją apie kliento produktų konsignacijos atsargų lygį."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ ms.lasthandoff: 07/27/2017
 ## <a name="view-on-hand-inventory"></a>Rodyti turimas atsargas
 1. Eikite į Tiekėjo bendradarbiavimas > Konsignacijos atsargos > Turimos konsignacijos atsargos.
     * Puslapyje Turimos konsignacijos atsargos rodomos kliento sandėlio atsargos, kuris priklauso jums. Galima rodyti papildomas dimensijas, pvz., teritoriją ir sandėlį, spustelėjus skirtuką Rodyti dimensijas.   
-
 

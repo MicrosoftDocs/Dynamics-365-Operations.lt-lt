@@ -1,4 +1,4 @@
---- 
+---
 title: "Kurti naują konsignacijos papildymo užsakymą"
 description: "Šioje procedūroje parodoma, kaip kurti konsignacijos papildymo užsakymą, kuriame galite sekti numatomą tiekėjo prekių pristatymo į jūsų konsignacijos atsargas datą."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/28/2017
 ## <a name="receive-items"></a>Gauti prekes
 1. Spustelėkite Produkto gavimo kvitas.
 2. Lauke Išorinis produkto gavimo kvitas įveskite reikšmę.
-3. Lauke Kiekis įveskite skaičių, kuris yra mažesnis nei čia rodomas kiekis. 
+3. Lauke Kiekis įveskite skaičių, kuris yra mažesnis nei čia rodomas kiekis.
 4. Spustelėkite GERAI.
 
 ## <a name="check-the-on-hand-inventory"></a>Turimų atsargų patikra
@@ -70,5 +70,4 @@ ms.lasthandoff: 07/28/2017
     * Prekės, kurios nebuvo gautos kaip tiekėjui priklausančios konsignacijos atsargos, yra turimos atsargos. Likęs konsignacijos papildymo užsakymo kiekis rodomas lauke Užsakyta iš viso.  
 4. Uždarykite puslapį.
 5. Spustelėkite Uždaryti.
-
 

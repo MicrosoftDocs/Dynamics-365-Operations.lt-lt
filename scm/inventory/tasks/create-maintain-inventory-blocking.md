@@ -1,4 +1,4 @@
---- 
+---
 title: "Kurti ir tvarkyti atsargų blokavimą"
 description: "Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 1. Pasirinkite Atsargų valdymas > Periodinės užduotys > Atsargų blokavimas.
 2. Spustelėkite Naujas.
 3. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Sąraše pasirinkite norimą prekę. 
+4. Sąraše pasirinkite norimą prekę.
     * Pasirinkite prekės numerį su faktiškai turimomis atsargomis, kurias norite blokuoti. Jei naudojate USMF, galite pasirinkti prekę M9201.  
 5. Lauke Kiekis įveskite skaičių.
     * Jei naudojate prekę M9201, turite pasirinkti mažiau nei 200.  
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 1. Spustelėkite Naikinti.
 2. Spustelėkite Taip.
 3. Uždarykite puslapį.
-
 

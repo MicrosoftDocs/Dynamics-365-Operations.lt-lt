@@ -1,7 +1,7 @@
 ---
 title: "Gavimų apžvalga"
 description: "Šioje temoje pateikiama informacija apie Gavimų apžvalgos funkciją. Gavimų apžvalgos puslapyje, kuris yra šios funkcijos dalis, pateikiama visų numatomų pristatyti prekių, kaip gaunamų prekių, peržiūra."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ ms.lasthandoff: 05/25/2017
 Puslapyje **Gavimų apžvalga** pateikiama visų numatomų gaunamų prekių peržiūra. Jame taip pat rodomi gavimai, kuriuos galima inicijuoti remiantis peržiūra. Šioje temoje dėmesys skiriamas gavimo procesui.
 
 ## <a name="business-scenario"></a>Verslo scenarijus
-Atsižvelkite į toliau pateiktą gavimo procesų scenarijų. 
+Atsižvelkite į toliau pateiktą gavimo procesų scenarijų.
 
-[![Verslo scenarijus](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Verslo scenarijus](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, gavimo klerkas, nori sužinoti, ką šią dieną numatoma gauti. Puslapyje **Gavimų apžvalga** Sammy gali peržiūrėti esamas užduotis ir apytikriai įvertinti kiekius, tūrį, svorį, skirtingus užsakymo tipus ir t. t. Vėliau užsakymas pristatomas į vieną iš atvežimo rampų ir Sammy gauna pristatymo sąrašą. Puslapyje **Gavimų apžvalga** Sammy gali atlikti toliau nurodytas užduotis.
 
@@ -69,7 +69,7 @@ Pateiktame pavyzdyje Sammy nori nustatyti naują kompiuterį vietoje, kuri bus n
 
 Norėdami automatiškai kurti gavimo žurnalus puslapyje **Gavimų apžvalga**, turite nurodyti atitinkamą informaciją laukų grupėje **Žurnalas**, esančioje „FastTab“ skirtuke **Gavimo parinktys**.
 
--   Norėdami sukurti žurnalą turite nurodyti žurnalo pavadinimą. 
+-   Norėdami sukurti žurnalą turite nurodyti žurnalo pavadinimą.
 
 [![Nurodomas žurnalo pavadinimas](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Kai visos prekės užregistruotos, sandėlio vadybininkas arba pirkimo vadybinin
 
 ## <a name="summary"></a>Suvestinė
 Naudodami **Gavimų apžvalgos** puslapį sandėlio vadovas ir darbuotojai gali lengviau peržiūrėti numatomus darbus, kuriuos reikės atlikti kaip gavimo proceso dalį. Puslapį taip pat galima naudoti prekių gavimo procesui pradėti ir siekiant užtikrinti, kad prekės yra sekamos pirmuoju įvežimu į sandėlį.
-
-
-
 

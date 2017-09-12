@@ -1,4 +1,4 @@
---- 
+---
 title: "Nustatyti valdymo būtinąsias sąlygas"
 description: "Naudokite šią procedūrą, kad įgalintumėte neatitikčių valdymo procesus."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Naudokite šią procedūrą, kad įgalintumėte neatitikčių valdymo procesus. 
 3. Lauke Sulaikymo zona įveskite reikšmę.
 4. Lauke Aprašas įveskite reikšmę.
 5. Uždarykite puslapį.
-
 

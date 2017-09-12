@@ -1,4 +1,4 @@
---- 
+---
 title: Kurti ir apdoroti atitiktis
 description: "Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą. Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes. Paprastai šią procedūrą atlieka kokybės klerkas.  Kaip būtinąjį komponentą paleiskite užduoties įrašą „Tikrinti prekių kokybę“. Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas. 
+Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą. Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes. Paprastai šią procedūrą atlieka kokybės klerkas.  Kaip būtinąjį komponentą paleiskite užduoties įrašą „Tikrinti prekių kokybę“. Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.
 
 
 ## <a name="select-a-quality-order"></a>Pasirinkti kokybės užsakymą
@@ -78,5 +78,4 @@ Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą
 3. Spustelėkite Taip.
 4. Uždarykite puslapį.
 5. Uždarykite puslapį.
-
 

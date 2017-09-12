@@ -1,4 +1,4 @@
---- 
+---
 title: "Prekės arba žaliavos sekimas"
 description: "Ši procedūra parodo, kaip naudoti prekės sekimą ir identifikuoti, kur prekės arba žaliavos buvo naudojamos arba yra naudojamos."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. Veiksmų srityje spustelėkite Sekimas.
 9. Spustelėkite Išsiųsti pardavimo užsakymai.
 10. Uždarykite puslapį.
-
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti. 
+Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 
 Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
 
@@ -95,7 +95,4 @@ Vienu metu žurnalą gali pasiekti tik vienas vartotojas. Jei vienu metu pasiekt
 
 ## <a name="posting-journal-lines"></a>Žurnalo eilučių registravimas
 Sukurtas žurnalo eilutes galite registruoti bet kuriuo metu tol, kol su preke neleisite atlikti papildomų operacijų. Į žurnalą įvesti duomenys lieka tame žurnale, net jei uždarote žurnalą neužregistravę eilučių.
-
-
-
 

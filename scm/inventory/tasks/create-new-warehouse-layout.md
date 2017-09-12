@@ -1,4 +1,4 @@
---- 
+---
 title: "Kurti naują sandėlio maketą"
 description: "Ši procedūra rodo, kaip nustatyti informaciją apie sandėlio vietas."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ ms.lasthandoff: 07/27/2017
 7. Perjunkite sekcijos Vietų pavadinimai išplėtimą.
     * Parinktys šiame skyriuje nurodo numatytąjį vietos pavadinimų formatą. Savo pavyzdyje įtrauksime perėjimo numerį, stelažo numerį ir lentynos numerį.  
 8. Parinktį Įtraukti perėjimą nustatykite į Taip.
-9. Parinktį Įtraukti stelažą nustatykite į Taip. 
+9. Parinktį Įtraukti stelažą nustatykite į Taip.
 10. Stelažo lauke Formatas surinkite reikšmę.
     * Pavyzdžiui: -##  
 11. Parinktį Įtraukti lentyną nustatykite į Taip.
@@ -74,5 +74,4 @@ ms.lasthandoff: 07/27/2017
 14. Spustelėkite Baigti.
 15. Uždarykite puslapį.
 16. Atnaujinkite puslapį.
-
 
