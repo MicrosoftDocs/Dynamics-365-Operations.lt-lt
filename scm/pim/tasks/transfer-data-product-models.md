@@ -1,7 +1,7 @@
 --- 
 title: "Perkelti produktų modelių duomenis"
 description: "Produkto konfigūracijos modelio duomenų eksportavimui atlikti reikia turėti bent vieną produkto modelį."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: e64563703ed2fa7d1f1f3ca325ab275aa8420d01
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: e4f3d49101cdd8831bdda32abe1a19bd17adae77
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="41e40-103">Perkelti produktų modelių duomenis</span><span class="sxs-lookup"><span data-stu-id="41e40-103">Transfer data for product models</span></span>
