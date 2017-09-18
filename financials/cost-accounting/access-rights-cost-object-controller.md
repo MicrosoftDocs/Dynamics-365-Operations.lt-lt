@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Savikainos objekto valdiklio prieigos teisės
+# <a name="access-rights-of-a-cost-object-controller"></a>Savikainos objekto valdiklio prieigos teisės
 
 [!include[banner](../includes/banner.md)]
 
