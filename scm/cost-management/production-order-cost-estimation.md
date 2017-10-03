@@ -1,0 +1,70 @@
+---
+title: "Gamybos užsakymo savikainos įvertinimas"
+description: "Šiame straipsnyje pateikta informacija apie gamybos savikainos įvertinimą. Gamybos savikainos įvertinime pateiktos numatomo prekės gamybos medžiagų ir pajėgumo suvartojimo išlaidos pagal suplanuotą gamybos užsakymo kiekį."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.custom: 80633
+ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: mguada
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9ae0bbb641d7517d33ad087faec231cb0bda3f78
+ms.contentlocale: lt-lt
+ms.lasthandoff: 05/25/2017
+
+---
+
+# <a name="production-order-cost-estimation"></a>Gamybos užsakymo savikainos įvertinimas
+
+[!include[banner](../includes/banner.md)]
+
+
+Šiame straipsnyje pateikta informacija apie gamybos savikainos įvertinimą. Gamybos savikainos įvertinime pateiktos numatomo prekės gamybos medžiagų ir pajėgumo suvartojimo išlaidos pagal suplanuotą gamybos užsakymo kiekį. 
+
+Sukūrę gamybos užsakymą, turite įvertinti gamybos išlaidas. Tikslas yra įvertinti prekės ir maršruto suvartojimą gamybos proceso metu, nes šie įvertinimai naudojami kaip tolesnio planavimo ir gamybos procesų pagrindas.
+
+## <a name="production-cost-estimation"></a>Gamybos savikainos įvertinimas
+Gamybos išlaidų įvertinimas pagrįstas šia informacija:
+
+-   Gamybos užsakymo kiekis
+-   Gamybos komplektavimo specifikacijų (KS) komponentai
+-   Gamybos maršruto nukreipimo operacijos
+-   Netiesioginės išlaidos, taikomos komponentams ir operacijoms
+-   Aktyvių išlaidų duomenys, turimi skaičiavimo dieną
+
+Jei gamybos KS yra fiktyvios eilutės prekė, skaičiavimai atspindi fiktyvius komponentus ir maršruto operacijas. Galite naudoti įvertinimo užduotį, norėdami perskaičiuoti įvertintas išlaidas taip, kad jos atspindėtų atnaujintą informaciją. Pvz., atnaujinta informacija gali būti gamybos užsakymo kiekio, gamybos KS komponentų, gamybos maršruto nukreipimo operacijų, netiesioginių išlaidų, taikomų tiems komponentams ir operacijoms, ar aktyviems išlaidų duomenims, turimiems perskaičiavimo dieną, pokyčiai. Be to, įvertintų savikainų skaičiavimai išlaidų ir antkainio sumos būdu gali pateikti gamybos prekės pardavimo kainą. Papildomai įvertintų išlaidų skaičiavimas gali būti taikomas užsakymams nurodyti, kurie atspindi kitus gamybos užsakymus, susietus su tuo gamybos užsakymu.
+
+## <a name="view-the-estimated-costs"></a>Peržiūrėkite įvertintas išlaidas
+Atlikę įvertinimą, rezultatus galite peržiūrėti puslapyje **Kainos skaičiavimas**. Įvertinimo metu apskaičiuojamos šios vertės:
+
+-   **Gamybos išlaidos** – gamybos savikaina yra svarbiausia įvertinimo eilutė. Joje pateikiamos visos gamybos užsakymo išlaidos ir bendra pagamintos prekės pardavimo kaina. Tai yra visų įvertinimo savikainos eilučių suma.
+-   **Maršruto arba išteklių išlaidos** – maršruto arba išteklių išlaidos yra gamybos operacijų išlaidos. Jos apima nustatymo laiko, vykdymo laiko savikainą ir pridėtines išlaidas.
+-   **Medžiagų išlaidos** – medžiagų išlaidos yra komplektavimo specifikacijų (KS) komponentų, reikiamų prekei pagaminti, išlaidos ir kainos. Šios išlaidos buvo iš anksto nustatytos ir įvestos į sistemą.
+
+## <a name="other-uses-of-cost-estimation"></a>Kita savikainos įvertinimo nauda
+Savikainos įvertinime taip pat pateikta ši informacija:
+
+-   reikšmingi kainos pasiūlymai;
+-   užsakymo pelningumo įvertinimas;
+-   žaliavos suvartojimo įvertinimas;
+-   ankstesnių gamybos procesų savikainos informacijos palyginimas;
+-   biudžeto ir prognozės informaciją;
+-   gamybos apimties, kuri reikalinga tam tikrai savikainai išlaikyti, įvertinimas.
+
+
+
+
+
