@@ -1,5 +1,8 @@
 # [Sveiki, čia – „Dynamics 365 for Retail“](index.md)
 
+# Darbo pradžia
+## [Kas nauja ar pasikeitė](get-started/whats-new.md)
+
 # Mokėjimai
 ## [Mokėjimo būdai](payment-methods.md)
 ## [Kredito kortelių nustatymas, autorizacija ir patvirtinimas](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -29,17 +32,17 @@
 ## [Mokėjimo parinktys](work-with-payments.md)
 
 # Kanalo nustatymas ir valdymas
-## [Pradinių duomenų inicijavimas mažmeninės prekybos aplinkoje](enable-configure-retail-functionality.md)
-## [Mažmeninės prekybos kanalų nustatymas](define-maintain-retail-channels.md)
+## [Pradinių duomenų inicijavimas „Retail” aplinkoje](enable-configure-retail-functionality.md)
+## [„Retail” kanalų nustatymas](define-maintain-retail-channels.md)
 ## [Internetinės parduotuvės apžvalga](online-stores.md)
-## [Mažmeninės prekybos aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
-## [Mažmeninės prekybos laikas ir buvimas darbe](retail-time-attendance.md)
+## [„Retail” aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
+## [„Retail” laikas ir buvimas darbe](retail-time-attendance.md)
 
 # Modernusis elektroninis kasos aparatas (MEKA) ir „Cloud POS‟
 ## Išoriniai aparatūros įrenginiai
-### [Mažmeninės prekybos išorinių įrenginių apžvalga](retail-peripherals-overview.md)
+### [„Retail” išorinių įrenginių apžvalga](retail-peripherals-overview.md)
 ### [„Microsoft“ išbandyti EKA aparatūros išoriniai įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
-### [Mažmeninės prekybos periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
+### [„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrano maketas
 ### [EKA ekrano maketų konfigūravimas](pos-screen-layouts.md)
@@ -60,7 +63,7 @@
 ## Įrenginio aktyvinimas
 ### [MPOS konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
 ### [„Cloud POS“ ir MEKA išplėstinės registracijos nustatymas](extended-logon.md)
-### [Mažmeninės prekybos sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
+### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
 ## Kvitai
 ### [Kvitų šablonų nustatymas](receipt-templates-printing.md) 
 ### [Kvitų iš EKA siuntimas el. paštu](email-receipts.md)
@@ -78,11 +81,11 @@
 ## [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
 ## [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](optimal-combination-overlapping-discounts.md)
 ## [Kanalui būdingų nuolaidų nustatymas](define-channel-specific-discounts.md)
-## [Mažmeninės prekybos kuponų kūrimas](retail-coupons.md)
+## [„Retail” kuponų kūrimas](retail-coupons.md)
 
 # Produktai ir prekyba
 ## [Produktų informacijos apžvalga](../supply-chain/pim/product-information.md)
-## [Mažmeninės prekybos hierarchijos](retail-hierarchies.md)
+## [„Retail” hierarchijos](retail-hierarchies.md)
 ## [Atributų kūrimas ir valdymas](create-manage-attributes.md)
 ## [Mažmeninių produktų nustatymas](set-up-retail-products.md)
 ## [Produktų dimensijos](../supply-chain/pim/product-dimensions.md)
@@ -114,7 +117,7 @@
 ## [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](../talent/departments-jobs-positions.md)
 ## [Užduoties komponentų nustatymas](../talent/create-job.md)
 
-# Mažmeninės prekybos užduotys
+# „Retail” užduotys
 ## [Produkto kūrimas](../supply-chain/pim/tasks/create-product.md)
 ## [Susietų produktų konfigūravimas](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Produkto / bendrojo produkto išleidimas juridiniams subjektams](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -126,10 +129,10 @@
 ## [ Kurti ir susieti įrenginį](tasks/create-associate-device.md)
 ## [ Kurti ir susieti aparatūros stotį](tasks/create-associate-hardware-station.md)
 ## [ Registrų kūrimas ir susiejimas](tasks/create-associate-registers.md)
-## [ Mažmeninės prekybos parduotuvės išrašo kūrimas, skaičiavimas ir registravimas](tasks/create-calculate-post-statement-retail-store.md)
+## [ „Retail” parduotuvės išrašo kūrimas, skaičiavimas ir registravimas](tasks/create-calculate-post-statement-retail-store.md)
 ## [ Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
 ## [ Kurti EKA registrų finansines dimensijas ir konfigūruoti dimensijų reikšmes registruose](tasks/create-financial-dimensions-pos.md)
-## [ Kurti mažmeninės prekybos kanalų finansines dimensijas ir konfigūruoti dimensijų reikšmes parduotuvėse](tasks/create-financial-dimensions-retail-channels.md)
+## [„Retail” kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių konfigūravimas parduotuvėse](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Kurti interneto kanalus ir nurodyti kanalo atributus](tasks/create-online-channel-define-channel-attributes.md)
 ## [ Kurti EKA teisių grupes](tasks/create-pos-permission-groups.md)
 ## [ Kurti EKA vaizdo šabloną ](tasks/create-pos-visual-profile-2016-02.md)
@@ -142,18 +145,18 @@
 ## [ Nustatyti lojalumo planus](tasks/define-loyalty-schemes.md)
 ## [ Užmegzti ryšius tarp organizacijos vienetų](tasks/design-relationships-between-organizational-units.md)
 ## [ Valdyti asortimentus ](tasks/manage-assortments-2016-11.md)
-## [ Mažmeninės prekybos išrašų parametrų konfigūracijos](tasks/parameter-configurations-retail-statements.md)
-## [ Mažmeninės prekybos išrašų mokėjimo konfigūracijos](tasks/payment-configurations-retail-statements.md)
+## [ „Retail” išrašų parametrų konfigūracijos](tasks/parameter-configurations-retail-statements.md)
+## [ „Retail” išrašų mokėjimo konfigūracijos](tasks/payment-configurations-retail-statements.md)
 ## [ Vykdyti savitarną siekiant atsisiųsti aparatūros stotį](tasks/perform-self-service-download-hardware-station.md)
 ## [ Pardavimo ir mokėjimų internetu registravimas](tasks/posting-online-sales-payments.md)
 ## [ Apdoroti atlygio už lojalumą taškų koregavimus](tasks/process-loyalty-reward-point-adjustments.md)
 ## [ Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams](tasks/push-products-distribution-center-store-buyers-push.md)
-## [ Tvarkyti mažmeninės prekybos kainos koregavimus](tasks/retail-price-adjustments.md)
+## [„Retail” kainų koregavimai](tasks/retail-price-adjustments.md)
 ## [ Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį](tasks/run-job-calculate-statements.md)
 ## [ Konfigūruoti ir vykdyti užduotis įrašams registruoti](tasks/run-job-post-statements.md)
 ## [ Generuoti ir paleisti parengtas naudoti ataskaitas](tasks/run-out-box-reports.md)
 ## [ Nustatyti prekių skirstymo ir skirstymo pirkėjams taisykles ir parametrus](tasks/set-up-rules-parameters-cross-docking-buyers-push.md)
-## [ Mažmeninės prekybos išrašų parduotuvės konfigūracijos](tasks/store-configurations-retail-statements.md)
+## [ „Retail” išrašų parduotuvės konfigūracijos](tasks/store-configurations-retail-statements.md)
 ## [ Naudoti tęstinumo programą](tasks/use-continuity-program.md)
 ## [ Konfigūruoti darbininką](tasks/worker.md)
 
@@ -171,10 +174,11 @@
 ### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 #### [„Retail“ parduotuvių sistema (prieš pradedant)](dev-itpro/retail-store-system-begin.md)
 ### [„Retail Modern POS‟ konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
-#### [Mažmeninės prekybos sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
+#### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
 #### [„Retail POS‟ įrenginio suaktyvinimas](dev-itpro/retail-device-activation.md)
-#### [„Retail Cloud POS‟ apsauga](dev-itpro/secure-retail-cloud-pos.md)
+#### [Saugūs „Retail‟ debesies EKA](dev-itpro/secure-retail-cloud-pos.md)
 ### [„Retail Hardware Station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
+### [Masinis „Retail“ savitarnos komponentų diegimas](dev-itpro/retail-mass-deployment.md)
 ### [„Retail‟ komponentų įvykiai triktims diagnozuoti ir šalinti](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Visuotinai diegiamo paketo taikymas](../dev-itpro/deployment/apply-deployable-package-system.md)
 

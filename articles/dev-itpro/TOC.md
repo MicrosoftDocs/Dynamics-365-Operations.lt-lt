@@ -451,6 +451,7 @@
 ### [Išskaidyti modeliai](dev-tools/model-split.md)
 ### [Priklausomybių tarp modelių sprendimas naudojant perėmėjus](migration-upgrade/delegates-migration.md)
 
+
 ## Plėtojimas į naujausią naujinimą
 ### [Perėjimo į naujausią naujinimą procesas](migration-upgrade/upgrade-latest-update.md)
 ### [Naudojimo ciklo strategija](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Pasirinktinių verslo procesų nusiuntimas](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Stebėjimas ir diagnostika ](lifecycle-services/monitoring-diagnostics.md)
 ## [Turto biblioteka](lifecycle-services/asset-library.md)
+## [„Microsoft Dynamics 365“ – vertimo tarnybos apžvalga](lifecycle-services/translation-service-overview.md)
+### [„Microsoft Dynamics 365“ – vertimo tarnybos vartotojo vadovas](lifecycle-services/use-translation-service.md)
 
 ## „Dynamics AX 2012 Lifecycle Services“ funkcijos
 ### Visuotinis diegimas
@@ -593,7 +596,7 @@
 ## [Duomenų bazės kopijos eksportavimas, kad ją būtų galima atkurti vėliau](database/copy-operations-database.md)
 
 # Palaikymas
-## [„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo palaikymo gavimas](lifecycle-services/lcs-support.md)
+## [„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo ir „Lifecycle Services“ palaikymo gavimas](lifecycle-services/lcs-support.md)
 ## [„Premier“ palaikymo bilieto registravimas](lifecycle-services/premier-support.md)
 ## [Užklausos teikimas „Dynamics‟ paslaugų inžinierių komandai](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
 ## [„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo techninio palaikymo nustatymas](lifecycle-services/support-experience.md) 
