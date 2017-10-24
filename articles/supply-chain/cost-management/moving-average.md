@@ -1,7 +1,7 @@
 ---
 title: Slankusis vidurkis
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Toliau nurodytos sąlygos, būtinos slankiojo vidurkio savikainą taikant kaip įkainojimo metodą.
 1.  Puslapyje **Prekių modelių grupės** nustatykite prekių modelių grupę, kurios lauke **Atsargų modelis** pasirinkta Slankusis vidurkis. **Pastaba.** Pagal numatytuosius parametrus pasirinkus Slankusis vidurkis, laukai **Registruoti faktines atsargas** ir **Registruoti finansines atsargas** taip pat pažymėti. 
 
-2.  Puslapyje **Registravimas** priskirkite sąskaitas skirtuko **Atsargos** sąskaitoms **Slankiojo vidurkio kainų skirtumas** ir **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**. Naudokite sąskaitą **Slankiojo vidurkio kainų skirtumas**, kai savikaina turi būti proporcingai nurodoma kaip išlaidos. Taip atsitinka dėl išlaidų skirtumo tarp pirkimo kvito ir pirkimo SF bei skirtumo tarp pradinio atsargų kiekio ir dabartinio turimo kiekio. Naudokite sąskaitą **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**, kai norite koreguoti produkto slankiojo vidurkio savikainą pagal naują vieneto kainą.
+2.  Puslapyje **Registravimas** priskirkite sąskaitas skirtuko **Atsargos** sąskaitoms **Slankiojo vidurkio kainų skirtumas** ir **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**. Sąskaitą **Slankiojo vidurkio kainų skirtumas** naudokite, kai savikaina turi būti proporcingai nurodoma kaip išlaidos. Taip atsitinka dėl išlaidų skirtumo tarp pirkimo kvito ir pirkimo SF bei skirtumo tarp pradinio atsargų kiekio ir dabartinio turimo kiekio. Naudokite sąskaitą **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**, kai norite koreguoti produkto slankiojo vidurkio savikainą pagal naują vieneto kainą.
 3.  Puslapyje **Patvirtinti produktai** produktui priskirkite slankiojo vidurkio prekių modelių grupę. **Pastaba.** Atsargų uždarymo procesas uždaro tik ataskaitinį laikotarpį. Tai neturi įtakos produktams, kuriems kaip prekių modelių grupė priskirtas slankusis vidurkis.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Konvertuoti į slankiojo vidurkio savikainos metodą

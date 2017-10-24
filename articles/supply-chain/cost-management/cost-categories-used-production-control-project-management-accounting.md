@@ -1,7 +1,7 @@
 ---
 title: "Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos"
 description: "Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,9 @@ ms.lasthandoff: 05/25/2017
 
 Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais.
 
-Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiuo atveju gamybos ir projekto tikslais reikalinga išlaidų kategorija. Kai gamybos ir projekto metu naudojama išlaidų kategorija, turi būti nurodyta papildoma su projektu susijusi informacija. Pavyzdžiui, valandinės išlaidos, kurios susijusios su projektais, gali skirtis nuo valandinių išlaidų, kurios susijusios su gamyba. Naudodami puslapį **Išlaidų kategorijos** galite apibrėžti išlaidų kategoriją, naudojamą moduliuose Gamybos kontrolė ir Projektų valdymo apskaita. **Pastaba.** Kaštų apskaita turi puslapį **Projektų kategorijos**, tačiau jis niekaip nesusijęs su šioje temoje aprašytomis funkcijomis. Kai išlaidų kategoriją naudojate projektuose, puslapyje **Išlaidų kategorijos** yra papildomų skirtukų, kuriuose rodoma papildoma su projektu susijusi informacija. Ši informacija – tai kategorijų grupė, eilutės ypatybė ir DK sąskaitos, priskirtos išlaidų kategorijai.
+Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiuo atveju gamybos ir projekto tikslais reikalinga išlaidų kategorija. Kai gamybos ir projekto metu naudojama išlaidų kategorija, turi būti nurodyta papildoma su projektu susijusi informacija. Pavyzdžiui, valandinės išlaidos, kurios susijusios su projektais, gali skirtis nuo valandinių išlaidų, kurios susijusios su gamyba. Naudodami puslapį **Išlaidų kategorijos** galite apibrėžti išlaidų kategoriją, naudojamą moduliuose Gamybos kontrolė ir Projektų valdymo apskaita. 
+
+**Pastaba.** Kaštų apskaita turi puslapį **Projektų kategorijos**, tačiau jis niekaip nesusijęs su šioje temoje aprašytomis funkcijomis. Kai išlaidų kategoriją naudojate projektuose, puslapyje **Išlaidų kategorijos** yra papildomų skirtukų, kuriuose rodoma papildoma su projektu susijusi informacija. Ši informacija – tai kategorijų grupė, eilutės ypatybė ir DK sąskaitos, priskirtos išlaidų kategorijai.
 
 -   Išlaidų kategorija turi būti priskirta kategorijų grupei, kuri palaiko valandinių operacijų tipą **Valandos**.
 -   Eilutės ypatybė nurodo numatytąją informaciją apie tai, kaip galima apmokestinti nurodytą projekto laiką.

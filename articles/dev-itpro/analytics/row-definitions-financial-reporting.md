@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės.
 
-<a name="create-a-row-definition"></a>Sukurti eilutės apibrėžimą
+<a name="create-a-row-definition"></a>Eilutės aprašo kūrimas
 -----------------------
 
 1.  Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Eilučių aprašai**.
@@ -68,8 +68,8 @@ Dimensija yra duomenų ir reikšmių sankirta. Ataskaitų dizaino įrankyje gali
 | Parinktis                | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensija             | Modelį, kuris identifikuoja į eilutės apibrėžimą norimą įtraukti dimensiją. Šiame modelyje kiekvienai dimensijų padėčiai yra po vieną ampersandą (&) arba skaičiaus ženklą (\#). Paprastai dimensijai Pagrindinė sąskaita naudojami visi konjunktūros ženklai, o kitoms dimensijoms naudojami visi skaičių ženklai. |
-| Dimensijos intervalo pradžia | Į eilutės apibrėžimą norima įtraukti pirmoji šios dimensijos reikšmė.                                                                                                                                                                                                                 |
-| Dimensijos intervalo pabaiga   | Į eilutės apibrėžimą norima įtraukti paskutinė šios dimensijos reikšmė.                                                                                                                                                                                                                  |
+| Dimensijos diapazono pradžia | Pirmoji šios dimensijos vertė, įtrauktina į eilutės aprašą.                                                                                                                                                                                                                 |
+| Dimensijos diapazono pabaiga   | Į eilutės apibrėžimą norima įtraukti paskutinė šios dimensijos reikšmė.                                                                                                                                                                                                                  |
 
 Norėdami į eilutės aprašą įtraukti dimensijų, atlikite toliau nurodytus veiksmus.
 
@@ -121,16 +121,16 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 <td>Kurti šrifto stilių</td>
 <td><ol>
 <li>Ataskaitos dizaino įrankio meniu <strong>Formatas </strong>spustelėkite <strong>Stiliai ir formatavimas</strong>.</li>
-<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> spustelėkite <strong>Naujas</strong>, tada įveskite unikalų naujo stiliaus pavadinimą.</li>
-<li>Pasirinkite šriftą, tada spustelėkite <strong>Gerai</strong>.</li>
+<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> spustelėkite <strong>Nauja</strong>, tada įveskite unikalų naujojo stiliaus pavadinimą.</li>
+<li>Pasirinkite šrifto parinktis, tada spustelėkite <strong>Gerai</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Modifikuoti šrifto stilių</td>
+<td>Šrifto stiliaus keitimas</td>
 <td><ol>
 <li>Ataskaitos dizaino įrankio meniu <strong>Formatas </strong>spustelėkite <strong>Stiliai ir formatavimas</strong>.</li>
-<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> pasirinkite norimą modifikuoti stilių, tada spustelėkite <strong>Modifikuoti</strong>.</li>
-<li>Pasirinkite šriftą, tada spustelėkite <strong>Gerai</strong>.</li>
+<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> pasirinkite stilių, kurį norite keisti, tada spustelėkite <strong>Modifikuoti</strong>.</li>
+<li>Pasirinkite šrifto parinktis, tada spustelėkite <strong>Gerai</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 ### <a name="hide-columns-in-the-view-pane"></a>Stulpelių slėpimas peržiūros rodinyje
 
 1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
-2.  Pasirinkite norimą sumažinti stulpelį arba stulpelius.
+2.  Pasirinkite norimus minimizuoti stulpelius.
 3.  Spustelėkite dešinįjį pelės mygtuką, tada spustelėkite **Slėpti**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visų paslėptų stulpelių rodymas peržiūros srityje

@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Tiesioginės personalizavimo parinktys – tai tokios parinktys, kurias pasirenk
 
 Savo puslapio elementą galite personalizuoti šiuo būdu, jei tiesiog norite keisti elemento žymę, slėpti elementą, kad jis nebūtų rodomas puslapyje (jokie duomenys nėra keičiami, tiesiog nerodoma informacija), įtraukti informaciją į „FastTab“ suvestinės dalį (jei elementas yra „FastTab“), naudojant tabuliavimo klavišą praleisti lauką arba išjungti duomenų keitimo funkciją pažymint juos kaip „Neredaguoti“. 
 
-Kai norite elementus perkelti ar slėpti arba atlikti kelis keitimus, galite naudoti personalizavimo įrankių juostą, kurią galima rasti elemento lange Ypatybės pasirinkus **Pritaikyti šią formą asmeniniams poreikiams**. Personalizavimo įrankių juostą taip pat galima rasti formos veiksmų srityje po skirtuko **Parinktys** personalizavimo grupe. Pasirinkite **Pritaikyti šią formą asmeniniams poreikiams** ir pamatysite personalizavimo įrankių juostą. 
+Kai norite elementus perkelti ar slėpti arba atlikti kelis keitimus, galite naudoti personalizavimo įrankių juostą, kurią galima rasti elemento lange Ypatybės pasirinkus **Pritaikyti šią formą asmeniniams poreikiams**. Įrankių juostą Personalizavimas taip pat galima rasti formos veiksmų srityje, po skirtuko **Parinktys** grupe Personalizavimas. Pasirinkite **Personalizuoti šią formą** ir pamatysite įrankių juostą Personalizavimas. 
 
 [![Personalizavimo įrankių juosta](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Pasirinkite mygtuką **Uždaryti**, norėdami uždaryti įrankių juostą ir vė
 Naudojant personalizavimo įrankių juostą lengva įrašyti keitimus. Jūsų pakeisti personalizavimo parametrai bus įrašyti iš karto, todėl mygtuko **Įrašyti** spustelėti nereikia. Kai kuriais atvejais pasirinkę įrankį šalia elemento matysite spynos piktogramą. Tai reiškia, kad norint, jog puslapis veiktų tinkamai, negalima modifikuoti su pasirinktu įrankiu susijusių ypatybių. Atidarius personalizavimo įrankių juostą, puslapis tampa neinteraktyvus. Įvesti duomenų arba išplėsti ar sutraukti skyrių negalima.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Tiesioginis personalizavimas: išklotinės arba sąrašo įtraukimas į darbo sritį
-Kai kurie puslapiai su sąrašais turės papildomą personalizavimo funkciją, kurią galima rasti veiksmų srityje, esančioje skirtuko Parinktys personalizavimo grupėje. Pasirinkite **Įtraukti į darbo sritį**, norėdami atidaryti išplečiamąjį sąrašą, kuris suteikia galimybę dabartinio sąrašo informaciją (filtruotą ir rūšiuotą arba numatytąją) darbo srityje rodyti kaip sąrašą arba suvestinę (kuriuos galima naudoti norint rodyti sąrašo elementų skaičių). 
+Kai kurie puslapiai su sąrašais turės papildomą personalizavimo funkciją, kurią galima rasti veiksmų srityje, esančioje skirtuko Parinktys grupėje Personalizavimas. Pasirinkite **Įtraukti į darbo sritį**, norėdami atidaryti išplečiamąjį sąrašą, kuris suteikia galimybę dabartinio sąrašo informaciją (filtruotą ir surikiuotą arba numatytąją) darbo srityje rodyti kaip sąrašą arba suvestinės išklotinę (kurią galima naudoti norint rodyti sąrašo elementų skaičių). 
 
 [![Įtraukti į darbo sritį](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

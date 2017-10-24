@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Faktiniai aparatūros reikalavimai priklauso nuo sistemos konfigūracijos, duome
 - Vienu metu dirbančių vartotojų skaičius
 
 ## <a name="minimum-infrastructure-requirements"></a>Minimalūs infrastruktūros reikalavimai
-„Finance and Operations“ (vietinė versija) naudoja „Service Fabric“, kad galėtų nuomoti AOS, duomenų valdymo, valdymo ataskaitų priemonės ir aplinkos valdymo įrankio tarnybas. „Microsoft SQL Server“ ataskaitų tarnybos (SSRS) nėra nuomojamos „Service Fabric“ klasteryje.
+„Finance and Operations“ (vietinė versija) naudoja „Service Fabric“, kad galėtų nuomoti AOS, duomenų valdymo, valdymo ataskaitų priemonės ir aplinkos valdymo įrankio tarnybas. 
 
 „SQL Server“ turi būti naudojama plačiai pasiekiama HADRON sąranka, kurioje yra bent du mazgai, naudotini gamyboje.
 
@@ -225,6 +225,12 @@ Tolesnėje lentelėje išvardijamos „SQL Server“ versijos, kurias palaiko �
 |------------------------------------------------------------------|-------|
 | „Microsoft SQL Server 2016“ „Standard“ leidimas arba „Enterprise“ leidimas | Informacijos apie „SQL Server 2016“ aparatūros reikalavimus žr. [„SQL Server 2016“ diegimo aparatūros ir programinės įrangos reikalavimai](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Programos objektų serveriui (AOS) taikomi programinės įrangos reikalavimai 
+- „SQL Server Integration Services“ (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Ataskaitų serveriui (BI) taikomi programinės įrangos reikalavimai
+- „SQL Server Reporting Services“ (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>Kliento kompiuterių programinės įrangos reikalavimai
 „Finance and Operations“ žiniatinklio programą galima paleisti bet kuriame įrenginyje, kuriame naudojama HTML 5.0 reikalavimus atitinkančią žiniatinklio naršyklę. Toliau pateikti konkretūs įrenginio / naršyklės deriniai, kuriuos „Microsoft“ patvirtino:
 
@@ -244,7 +250,7 @@ Domeno valdiklis turi būti „Windows Server 2012 R2“ arba naujesnės versijo
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 „Finance and Operations“ įdiegtys debesyje ir vietinės įdiegtys palaiko toliau nurodytas „Microsoft Office“ programas.
 
--   Kad galėtumėte naudoti „Microsoft Excel“ ir „Microsoft Word“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Kad galėtumėte naudoti „Microsoft Excel“ ir „Microsoft Word“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>„Retail“ komponentų aparatūros ir programinės įrangos reikalavimai

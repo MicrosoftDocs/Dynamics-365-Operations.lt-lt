@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c124ecf104bdb3de786c9dd98c2b07a4c9c04041
-ms.openlocfilehash: 0debfe984a83295dde145fe4b8c2deb836345cd6
+ms.sourcegitcommit: 70139c124486e3e6a01c1c08e71f140dcf1864c0
+ms.openlocfilehash: e0d3a16da6a673f9ce6a025a7d4bde9ffb1a9e9b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 10/24/2017
 
 ---
 
@@ -40,5 +40,5 @@ Tolesnės pasirinktys, kurias galima rasti produktų skirtuke **Mažmeninė prek
 
 **Pastaba**: šie parametrai neapriboja kainos perrašymo operacijos, nes nustatoma bazinė kaina, kuri nėra laikoma nuolaida.  
 
-![neleisti nuolaidų lauko](/media/prevent-discounts.png)
+[![neleisti nuolaidų lauko](./media/prevent discounts.png)](./media/prevent discounts.png)
 

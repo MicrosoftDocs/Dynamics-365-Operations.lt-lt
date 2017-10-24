@@ -18,13 +18,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
+ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
+ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Vietinės versijos diegimo nukreipimo puslapis
+
+[!include[banner](../includes/banner.md)]
 
 Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimą (vietinė versija). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
 
@@ -32,10 +34,10 @@ Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterpr
 
 ## <a name="get-started"></a>Darbo pradžia
 - [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) apžvalga](on-premises-overview.md)
-- [Vietinėms įdiegtims taikomi sistemos reikalavimai](../get-started/system-requirements-on-prem.md)
-- [Aparatūros dydžio nustatymas vietinėse aplinkose](../get-started/hardware-sizing-on-premises-environments.md)
+- [Vietinėms įdiegtims taikomi sistemos reikalavimai](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Aparatūros dydžio nustatymas vietinėse aplinkose](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Interneto paslaugos ir vietinės programinės įrangos gyvavimo ciklo strategija](../migration-upgrade/versions-update-policy.md)
-- [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) pirkimas](../get-started/purchase-on-premises.md)
+- [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) pirkimas](../../fin-and-ops/get-started/purchase-on-premises.md)
 
 ## <a name="onboard"></a>„Onboard“
 - [Vietinio projekto kūrimas „Lifecycle Services“](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -44,14 +46,14 @@ Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterpr
 - [Pasirinktinių modelių kūrimas ir diegimas vietinėse aplinkose](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Darbas naudojant įdiegtą vietinę versiją
-- [Dokumentų valdymo konfigūravimas](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [Dokumentų valdymo konfigūravimas](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentų generavimo, publikavimo ir spausdinimo funkcijose vietinėse įdiegtyse](../analytics/printing-capabilities-on-premises.md)
 - [Nustatyti techninę pagalbą](../lifecycle-services/support-experience.md)
 - [Kliento interneto ryšio trikčių šalinimas](../user-interface/client-disconnected.md)
 
 ## <a name="other-resources"></a>Kiti ištekliai
-- [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](../get-started/features-not-implemented-on-prem.md)
+- [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Nebenaudojamos funkcijos](../migration-upgrade/deprecated-features.md)
  
 

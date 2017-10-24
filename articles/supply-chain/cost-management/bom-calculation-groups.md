@@ -1,7 +1,7 @@
 ---
 title: "KS skaičiavimo grupės"
 description: "Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Lauko **Pardavimo kainos** reikšmę galima apskaičiuoti dviem būdais.
 
 ### <a name="warnings"></a>Įspėjimai
 
-„FastTab“ **Įspėjimai** pasirenkamos parinktys, skirtos bet kokiems įspėjimų pranešimams, kurie turėtų būti rodomi vartotojams, kai jie atlieka KS skaičiavimą. Pavyzdžiui, jei pasirenkate žymės langelį **Nėra KS**, vartotojui rodomas įspėjimas, jei jokia aktyvi vieno iš komponentų arba pirminės prekės (kuriai vykdomas KS skaičiavimas) KS versija nerasta. Kai pasirenkate žymės langelį **Nėra maršruto**, vartotojui rodomas įspėjimas, jei nėra jokios aktyvios maršruto versijos. Jei maršrutuose ir operacijose naudojate išteklių, galite sistemai nurodyti ieškoti tų išteklių. Tada, jei ištekliaus nerandama visose aktyvaus maršruto eilutėse, vartotojui rodomas įspėjimas. Taip pat galite tikrinti ir ieškoti suvartojimo. Vartojimas yra kiekis konkrečiame maršrute. Paprastai tai yra laikas, kurio reikia, kad būtų galima atlikti konkrečią gamybos proceso operaciją. Galite patikrinti, ar prekė neturi savikainos. Jei nėra jokios aktyvios prekės savikainos, į KS skaičiavimą savikaina neįtraukiama. Taip pat galite patikrinti ir patvirtinti savikainos terminą. Pavyzdžiui, įveskite **60** norėdami nurodyti, kad vieneto savikaina turi būti perkainota po 60 dienų. Jei pasiekiama ši riba, sistema generuoja įspėjimą. Pvz., prekės savikaina įvesta šių metų sausio mėn. Jei dabar yra rugpjūčio mėn. (t. y. praėjo daugiau kaip 60 dienų po to, kai buvo įvesta savikainą), vykdant KS skaičiavimą vartotojui rodomas įspėjimas. Lauke **Minimali kontribucijos marža** galite įvesti procentą. Ši reikšmė nurodo, kokia yra minimali leistina kontribucijos marža. Jei konkretaus komponento kontribucijos marža per maža, vartotojui rodomas įspėjimas. Todėl šis laukas padeda užtikrinti, kad išlaidos ir papildomos laikymo išlaidos, reikalingos jūsų prekėms, nebus pernelyg sumažintos.
-Numatytasis modulio Atsargų ir sandėlio valdymas parametrų nustatymas
---------------------------------------------------------------
+„FastTab“ **Įspėjimai** pasirenkamos parinktys, skirtos bet kokiems įspėjimų pranešimams, kurie turėtų būti rodomi vartotojams, kai jie atlieka KS skaičiavimą. 
 
-Kadangi skaičiavimams vykdyti reikalingos skaičiavimo grupės, atsargų valdymo parametruose turite nustatyti numatytąją skaičiavimo grupę. Šis nustatymas suteikia galimybę įmonėms naudoti standartinį visų prekių išlaidų grupės ir pelno nustatymą. Tada, jei konkrečiai prekei nustatyti specialūs skaičiavimo reikalavimai, tai prekei vartotojas gali priskirti kitą skaičiavimo grupę. Paprastai nustatomos KS sudėtinių prekių, o KS prekių skaičiavimo grupės. Tačiau, jei rodomi įspėjimo pranešimai, galima taikyti skaičiavimo grupes. Prekėms priskirta skaičiavimo grupė pakeičia numatytąją reikšmę, kuri nustatyta atsargų valdymo parametruose. Numatytąjį parametrą galite nustatyti pasirinkdami **Išlaidų valdymas** &gt; **Atsargų apskaitos strategijų nustatymas** &gt; **Parametrai** &gt; **Atsargų apskaita** &gt; **Skaičiavimo grupė**. Nustatydami numatytąją konfigūracijos grupę, taip pat galite konfigūruoti įspėjimo sąlygas, kad KS skaičiavimo proceso metu vartotojai būtų įspėti, jei dėl pasirinktų komponentų gali kilti skaičiavimo klaidų.
-Įspėjimus pranešimų peržiūra puslapyje Baigta
-------------------------------------------
+Pavyzdžiui, jei pasirenkate žymės langelį **Nėra KS**, vartotojui rodomas įspėjimas, jei jokia aktyvi vieno iš komponentų arba pirminės prekės (kuriai vykdomas KS skaičiavimas) KS versija nerasta. Kai pasirenkate žymės langelį **Nėra maršruto**, vartotojui rodomas įspėjimas, jei nėra jokios aktyvios maršruto versijos. Jei maršrutuose ir operacijose naudojate išteklių, galite sistemai nurodyti ieškoti tų išteklių. Tada, jei ištekliaus nerandama visose aktyvaus maršruto eilutėse, vartotojui rodomas įspėjimas. 
+
+Taip pat galite tikrinti ir ieškoti suvartojimo. Vartojimas yra kiekis konkrečiame maršrute. Paprastai tai yra laikas, kurio reikia, kad būtų galima atlikti konkrečią gamybos proceso operaciją. Galite patikrinti, ar prekė neturi savikainos. Jei nėra jokios aktyvios prekės savikainos, į KS skaičiavimą savikaina neįtraukiama. 
+
+Taip pat galite patikrinti ir patvirtinti savikainos terminą. Pavyzdžiui, įveskite **60** norėdami nurodyti, kad vieneto savikaina turi būti perkainota po 60 dienų. Jei pasiekiama ši riba, sistema generuoja įspėjimą. Pvz., prekės savikaina įvesta šių metų sausio mėn. Jei dabar yra rugpjūčio mėn. (t. y. praėjo daugiau kaip 60 dienų po to, kai buvo įvesta savikainą), vykdant KS skaičiavimą vartotojui rodomas įspėjimas. Lauke **Minimali kontribucijos marža** galite įvesti procentą. Ši reikšmė nurodo, kokia yra minimali leistina kontribucijos marža. Jei konkretaus komponento kontribucijos marža per maža, vartotojui rodomas įspėjimas. Todėl šis laukas padeda užtikrinti, kad išlaidos ir papildomos laikymo išlaidos, reikalingos jūsų prekėms, nebus pernelyg sumažintos.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Numatytasis modulio Atsargų ir sandėlio valdymas parametrų nustatymas
+
+Kadangi skaičiavimams vykdyti reikalingos skaičiavimo grupės, atsargų valdymo parametruose turite nustatyti numatytąją skaičiavimo grupę. Šis nustatymas suteikia galimybę įmonėms naudoti standartinį visų prekių išlaidų grupės ir pelno nustatymą. Tada, jei konkrečiai prekei nustatyti specialūs skaičiavimo reikalavimai, tai prekei vartotojas gali priskirti kitą skaičiavimo grupę. Paprastai nustatomos KS sudėtinių prekių, o KS prekių skaičiavimo grupės. Tačiau, jei rodomi įspėjimo pranešimai, galima taikyti skaičiavimo grupes. Prekėms priskirta skaičiavimo grupė pakeičia numatytąją reikšmę, kuri nustatyta atsargų valdymo parametruose. 
+
+Numatytąjį parametrą galite nustatyti pasirinkdami **Išlaidų valdymas** &gt; **Atsargų apskaitos strategijų nustatymas** &gt; **Parametrai** &gt; **Atsargų apskaita** &gt; **Skaičiavimo grupė**. Nustatydami numatytąją konfigūracijos grupę, taip pat galite konfigūruoti įspėjimo sąlygas, kad KS skaičiavimo proceso metu vartotojai būtų įspėti, jei dėl pasirinktų komponentų gali kilti skaičiavimo klaidų.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Įspėjimus pranešimų peržiūra puslapyje Baigta
 
 KS skaičiavimas generuoja įspėjimo pranešimus. Galite peržiūrėti pasirinktos prekės įspėjimus. Pvz., modulyje Pardavimas ir rinkodara sukurkite naują prekės D0001 pardavimo užsakymą. Tada pardavimo užsakymo eilutės meniu **Naujinti eilutę** spustelėkite **Skaičiuoti remiantis KS / formule**, kad peržiūrėtumėte skaičiavimo informaciją ir įspėjimus. KS skaičiavimo rezultatus taip pat galite peržiūrėti puslapyje **Baigta**. Dvi perspėjimo sąlygos taikomos tik pagamintoms prekėms, o keturios perspėjimo sąlygos taikomos bet kuriai prekei.
 -   Nustatyti, kada pagaminta prekė neturi aktyvios KS.

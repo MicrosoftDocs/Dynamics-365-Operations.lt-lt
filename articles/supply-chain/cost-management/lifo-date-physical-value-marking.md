@@ -1,7 +1,7 @@
 ---
 title: "LIFO data su faktine verte ir žymėjimu"
 description: "Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96089fed3e8b522fb3a8646ffd87fadff8fe1f3e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 116d2f34c0317f3246b8d9c6569430603e2cd2c6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -55,7 +55,7 @@ Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsarg
 -   2b. 1 vieneto, kurio kaina 20,00 USD, finansinis gavimas į atsargas.
 -   3a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
 -   4a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
--   4b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
+-   4a. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
 -   5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   6. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu paskutinis finansiškai atnaujintas išdavimas bus pagal datą sudengtas su paskutiniu finansiškai atnaujintu gavimu. Išdavimo operacijoje bus atliktas 5,00 USD dydžio koregavimas. Šios operacijos bus sudengtos viena pagal kitą.
