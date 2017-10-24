@@ -16,13 +16,13 @@ ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fd7231ad204a0764d601e9b64bf2150255c6f78
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -85,7 +85,7 @@ Meniu **Redaguoti** gali naudotis vartotojai, turintys vaidmenį **Dizaineris** 
 | Ataskaitinių vienetų įterpimas iš dimensijų | Atidarykite dialogo langą **Įterpti ataskaitinių vienetų iš dimensijų**, kuriame galite pasirinkti į ataskaitų medžio apibrėžimą norimas įtraukti dimensijų reikšmes. Ši komanda galima ataskaitų medžio apibrėžime. |
 | Dimensijų rinkinio hierarchijos importavimas         | Atidarykite dialogo langą **Dimensijų rinkinio hierarchija**, į kurį galite importuoti dimensijų rinkinio hierarchiją iš finansinių duomenų. Ši komanda galima ..\financial-dimensions\dimension-based sistemos ataskaitų medžio apibrėžime.  |
 | Ataskaitų vieneto įterpimas                  | Įterpti tuščią eilutę į ataskaitų medžio apibrėžimą. Ši komanda galima ataskaitų medžio apibrėžime.                                                                                                |
-| Ataskaitų vieneto naikinimas                  | Panaikinkite pasirinktą ataskaitų vieneto eilutę iš ataskaitų medžio apibrėžimo. Ši komanda galima ataskaitų medžio apibrėžime.                                                                             |
+| Ataskaitų vieneto naikinimas                  | Panaikinkite pasirinktą ataskaitų vieneto eilutę iš ataskaitų medžio apibrėžimo. Ši komanda galima ataskaitų medžio apraše.                                                                             |
 
 ### <a name="view-menu"></a>Rodymo meniu
 

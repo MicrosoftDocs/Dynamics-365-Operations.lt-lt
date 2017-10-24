@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 06/13/2017
 CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė CostStatementCache. Šią lentelę valdo duomenų rinkinio talpyklos sistema. Pagal numatytuosius parametrus lentelė atnaujinama kas 24 valandas, bet jūs galite įjungti duomenų talpyklos konfigūracijos neautomatinius naujinimus. Tada galite atlikti neautomatinį naujinimą darbo srityje **Išlaidų valdymas** arba **Išlaidų analizė**. Paleidus CostStatementCache naujinį, turite atnaujinti „OData“ ryšį Power BI.com, kad svetainėje matytumėte atnaujintus duomenis. Nuokrypio (pirkimo, gamybos) matai šiame „Power BI“turinyje yra susiję tik su prekėmis, kurios vertinamos pagal standartinių išlaidų atsargų metodą. Gamybos nuokrypis apskaičiuojamas kaip skirtumas tarp aktyvios kainos ir realizuotos kainos. Gamybos nuokrypis apskaičiuojamas, kai gamybos užsakymo būsena būna **Baigtas**. Daugiau informacijos apie gamybos nuokrypių tipus ir tai, kaip kiekvienas tipas skaičiuojamas, žr. temoje [Apie baigto gamybos užsakymo nuokrypių analizę](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų valdymo** „Power BI“ turinį galima atsisiųsti iš Power.BI.com. Daugiau informacijos apie tai, kaip prijungti ir nusiųsti „Microsoft Dynamics 365 for Finance and Operations“ duomenis, žr. [Prieiga prie 0„Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
+„Power BI“ turinį **Išlaidų valdymas** galima atsisiųsti iš Power.BI.com. Daugiau informacijos apie tai, kaip prijungti ir įkelti „Microsoft Dynamics 365 for Finance and Operations“ duomenis, žr. [Prieiga prie „Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.

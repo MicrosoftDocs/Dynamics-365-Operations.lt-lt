@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -82,7 +81,7 @@ Naudokite užduočių sritis, norėdami grupuoti savo organizacijos uždarymo u�
 
 ### <a name="calendars"></a>Kalendoriai
 
-Kurkite ir redaguokite finansinius uždarymo kalendorius naudodami skirtuką Kalendoriai.  Juose nurodysite uždarymo procesų darbo dienas ir jie bus naudojami planuojant uždarymo užduotis.  Sukurkite naują kalendorių ir nurodykite darbo dienas, kurios bus naudojamos planuojant užduotis.  Geriausia sukurti kalendorių ilgam laikotarpiui, pvz., metams ar keliems metams, nes sukūrus jį galima redaguoti.  Sukūrę kalendorių, spustelėkite mygtuką Redaguoti, kad galėtumėte jį atnaujinti, pažymėdami konkrečias dienas, pvz., šventes.  Uždarymo užduotis bus planuojama atlikti tomis dienomis, kai nustatyta dalies Valdymas reikšmė Atvira.  Jei uždarymo užduotys neturėtų būti planuojamos tam tikrai dienai, turėtų būti nustatyta tos dienos dalies Valdymas reikšmė Uždaryta.
+Kurkite ir redaguokite finansinius uždarymo kalendorius naudodami skirtuką Kalendoriai. Juose nurodysite uždarymo procesų darbo dienas ir jie bus naudojami planuojant uždarymo užduotis.  Sukurkite naują kalendorių ir nurodykite darbo dienas, kurios bus naudojamos planuojant užduotis.  Geriausia sukurti kalendorių ilgam laikotarpiui, pvz., metams ar keliems metams, nes sukūrus jį galima redaguoti.  Sukūrę kalendorių, spustelėkite mygtuką Redaguoti, kad galėtumėte jį atnaujinti, pažymėdami konkrečias dienas, pvz., šventes.  Uždarymo užduotis bus planuojama atlikti tomis dienomis, kai nustatyta dalies Valdymas reikšmė Atvira.  Jei uždarymo užduotys neturėtų būti planuojamos tam tikrai dienai, turėtų būti nustatyta tos dienos dalies Valdymas reikšmė Uždaryta.
 
 ### <a name="templates"></a>Šablonai
 

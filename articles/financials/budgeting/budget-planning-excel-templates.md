@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Spustelėkite rodyklę, kad būtų parodytas papildomas meniu. Pasirinkite **Už
 
 Taip, biudžeto plano šablonuose veiks dauguma standartinių „Excel“ funkcijų. Rekomenduojame naudoti kodavimo spalvomis funkciją, kad vartotojai galėtų lengviau atskirti tik skaitomus ir redaguojamus stulpelius. Sąlyginio formatavimo funkciją galima naudoti norint paryškinti problematiškas biudžeto sritis. Bendras stulpelių sumas galima lengvai pateikti naudojant „Excel“ formules virš lentelės.
 
-Taip pat galite kurti ir naudoti suvestinės lenteles bei diagramas, norėdami atlikti papildomų biudžeto duomenų grupavimo ir vizualizavimo veiksmų. Skirtuko **Duomenys** grupėje **Ryšiai** spustelėkite **Atnaujinti viską**, o tada spustelėkite **Ryšių ypatybės**. Spustelėkite skirtuką **Naudojimas**. Dalyje **Naujinti** pasirinkite žymės langelį **Naujinti duomenis atidarant failą**. 
+Taip pat galite kurti ir naudoti suvestinės lenteles bei diagramas, norėdami atlikti papildomų biudžeto duomenų grupavimo ir vizualizavimo veiksmų. Skirtuko **Duomenys** grupėje **Ryšiai** spustelėkite **Atnaujinti viską**, o tada spustelėkite **Ryšių ypatybės**. Spustelėkite skirtuką **Naudojimas**. Dalyje **Naujinti** pažymėkite žymės langelį **Naujinti duomenis atidarant failą**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

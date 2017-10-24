@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 06/13/2017
 | Tiekėjo banko pavedimas            | Kurkite paprastojo vekselio pavedimo failą, kurį bus galima siųsti į jūsų organizacijos banką.                                                                                                                                                                                                                                                                      | Pavedimų žurnalas                                             |
 | Išmoka tiekėjui               | Kurkite išmokų tiekėjui operacijas.                                                                                                                                                                                                                                                                                                                    | Mokėjimų žurnalas                                                |
 | Tiekėjo išduoti paprastieji vekseliai       | Sudarykite tiekėjo paprastuosius vekselius kaip mokėjimo metodą. Norėdami naudoti šį žurnalo tipą, puslapyje **Mokėjimo metodai – tiekėjai** išvalykite parinktį **Kurti ir registruoti išdavimų žurnalą automatiškai registruojant sąskaitas faktūras**.                                                                                                                                          | Išduoti paprastųjų vekselių žurnalą                                   |
-| Tiekėjo SF telkinys be pardavimo užsakymų | Sukurkite tiekėjo SF operacijas, kurios dar neužregistruotos laikino gavimo sąskaitoje.                                                                                                                                                                                                                                                             | Tiekėjo SF telkinys be registravimo informacijos                  |
+| Tiekėjų SF telkinys be registravimo | Sukurkite tiekėjo SF operacijas, kurios dar neužregistruotos laikino gavimo sąskaitoje.                                                                                                                                                                                                                                                             | Tiekėjo SF telkinys be registravimo informacijos                  |
 | Tiekėjo SF telkinys               | Kurkite tiekėjų SF telkinių operacijas.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Tiekėjo SF registravimas          | Registruokite žurnale esančius tiekėjo SF.                                                                                                                                                                                                                                                                                                                 | SF žurnalas                                                |
 | Iš naujo tiekėjo išduotas paprastasis vekselis     | Pakartotinai išduokite paprastąjį vekselį, kurį prieš tai apmokėjo jūsų organizacijos bankas.                                                                                                                                                                                                                                                                      | Iš naujo išrašyti paprastųjų vekselių žurnalą                                 |

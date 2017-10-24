@@ -16,13 +16,13 @@ ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9b0d8fd9f5ae9d99f299cc71d7caef021ad3fb9d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,9 +48,9 @@ Toliau pateikiamoje lentelėje paaiškinamos parinktys, galimos generuojant atas
 Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas. Skirtuke Išvestis ir paskirstymas galite nurodyti ataskaitos vietą bibliotekoje – tai lengvas būdas ataskaitai bendrinti.
 
 ## <a name="schedule-report-generation"></a> Ataskaitų generavimas pagal grafiką
-Daugelis įmonių turi pagrindinių ataskaitų, kurios vykdomos suplanuotais intervalais, kad atitiktų verslo procesus. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, kurioje yra kelių įmonių ataskaitų. Turite įvesti savo kredencialus prie kiekvienos nurodytos įmonės, kaip ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
+Daugelis įmonių turi pagrindinių ataskaitų, kurios vykdomos suplanuotais intervalais, kad atitiktų verslo procesus. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
 
-Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite kurti aplankus ataskaitoms tvarkyti. Jei vieną tvarkaraščio ataskaita nevykdoma, visos kitos ataskaitos bus vykdomos toliau.
+Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei vieną tvarkaraščio ataskaita nevykdoma, visos kitos ataskaitos bus vykdomos toliau.
 | ![Svarbu](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Svarbu")**Svarbu**                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kad galėtumėte kurti, modifikuoti ir naikinti ataskaitų grafikus, turite turėti dizainerio arba administratoriaus vaidmenį. Vykdant ataskaitą, vartotojo, sukūrusio grafiką, kredencialai naudojami ataskaitai generuoti. |
@@ -58,16 +58,16 @@ Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyj
 ### <a name="create-a-report-schedule"></a>Ataskaitų grafiko kūrimas
 
 1.  Ataskaitų konstruktoriaus meniu Failas spustelėkite Naujas ir tada pasirinkite Ataskaitų grafikas. Atidaromas dialogo langas Naujas ataskaitų grafikas.
-2.  Dalyje Parametrai pasirinkite norimą suplanuoti atskirą ataskaitą arba ataskaitų grupę. Galimos tik pasirinktos įmonės arba kūrimo bloko, prie kurio šiuo metu esate prisiregistravę, ataskaitos arba ataskaitų grupės.
-3.  Pažymėkite žymės langelį Aktyvus, kad įjungtumėte ataskaitų grafiką. Aktyvinti arba išjungti ataskaitos grafiką gali tik ataskaitos kūrėjas arba administratorius.
-4.  Spustelėkite mygtuką Teisės norėdami įvesti įmonės kredencialus. Pagal numatytuosius parametrus jūsų registravimosi informacija naudojama įmonei, prie kurios esate prisiregistravę. Jei įtrauktos kitos įmonės, kaip ataskaitų medžio aprašuose, pasirinkite Naudoti atskirus kredencialus ir tada įveskite bet kurios kitos į ataskaitų grafiką įtrauktos įmonės kredencialus. Galite pasirinkti „Windows“ autentifikavimas arba įvesti kiekvienos įmonės vartotojo vardą ir slaptažodį. Pažymėkite žymės langelį Įrašyti kredencialus, kad įrašytumėte šių įmonių kredencialus, ir tada spustelėkite Gerai, kad užvertumėte dialogo langą.
-5.  Dalies Dažnumas lauke Pradėti pasikartojimą pasirinkite datą, kada pradėti grafiką. Pagal numatytuosius parametrus pasirinkama dabartinė kliento kompiuterio sistemos data.
-6.  Lauke Vykdyti ataskaitą pasirinkite laiką, kada reikia vykdyti ataskaitą. Jei įvesite laiką prieš dabartinį sistemos laiką, ataskaita bus vykdoma kitą suplanuotą datą.
-7.  Srityje Kartojimas nurodykite, kaip dažnai ataskaita bus vykdoma. Pagal numatytuosius parametrus pasirinkta Kasdien su parinkties Intervalas (dienos) reikšme 1. Kitos parinktys yra Kas savaitę, Kas mėnesį ir Kasmet.
-8.  Srityje Pasikartojimo diapazonas pasirinkite, kada ataskaitos generavimą reikia nutraukti.
-    -   Nėra pabaigos datos – ataskaitos grafikas vykdomas neribotą laiką.
-    -   Nustatytas pasikartojimų skaičius – ataskaitos grafikas vykdomas nurodytą skaičių kartų, o paskui išjungiamas.
-    -   Baigti iki – ataskaitos grafikas baigiamas nurodytą datą.
+2.  Dalyje Parametrai pasirinkite norimą suplanuoti atskirą ataskaitą arba ataskaitų grupę. Pasiekiamos tik tos įmonės ar kūrimo bloko ataskaitos arba ataskaitų grupės, prie kurių esate prisijungę.
+3.  Norėdami įjungti ataskaitos grafiką, pažymėkite žymės langelį Aktyvi. Tik ataskaitos kūrėjas arba administratorius gali suaktyvinti ataskaitos grafiką arba jį išjungti.
+4.  Spustelėkite Teisės, kad galėtumėte įvesti įmonės kredencialus. Pagal numatytąjį nustatymą jūsų prisijungimo informacija naudojama įmonei, prie kurios esate prisijungę. Jei yra kitų, pavyzdžiui, į ataskaitų medžio aprašus, įtrauktų įmonių, pasirinkite Naudoti atskirus kredencialus ir įveskite bet kurios kitos į ataskaitos grafiką įtrauktos įmonės kredencialus. Galite pasirinkti „Windows“ autentifikavimas arba įvesti vartotojo vardą ir kiekvienos įmonės slaptažodį. Pažymėkite žymės langelį Įrašyti kredencialus, kad įrašytumėte šių įmonių kredencialus, ir tada spustelėkite Gerai, kad užvertumėte dialogo langą.
+5.  Dalies Dažnumas lauke Pradėti pasikartojimą pasirinkite datą, kada pradėti grafiką. Pagal numatytuosius nustatymus pasirenkama dabartinė kliento kompiuterio sistemos data.
+6.  Lauke Paleisti ataskaitą pasirinkite ataskaitos paleidimo laiką. Jei įvesite laiką, buvusį iki esamo sistemos laiko, ataskaita bus paleista kitą suplanuotą datą.
+7.  Srityje Pasikartojimo šablonas nurodykite ataskaitos paleidimo dažnumą. Pagal numatytuosius parametrus pasirinkta Kasdien su parinkties Intervalas (dienos) reikšme 1. Kitos parinktys yra Kas savaitę, Kas mėnesį ir Kasmet.
+8.  Srityje Pasikartojimo diapazonas pasirinkite, kada baigti ataskaitos generavimą.
+    -   Nėra pabaigos datos – ataskaitos grafikas neribotas.
+    -   Nustatyti pasikartojimų skaičių – ataskaitos grafikas paleidžiamas nustatytą skaičių kartų, po to aktyvinimas panaikinamas.
+    -   Baigti – ataskaitos grafikas pabaigiamas nurodytą datą.
 
 9.  Įrankių juostoje spustelėkite Įrašyti. Dialogo lange Įrašyti kaip įveskite ataskaitų grafiko unikalų pavadinimą ir aprašą.
 
@@ -75,28 +75,28 @@ Kad galėtumėte kopijuoti ataskaitų grafiką, turite turėti dizainerio arba a
 ### <a name="copy-a-report-schedule"></a>Ataskaitų grafiko kopijavimas
 
 1.  Ataskaitos konstruktoriaus naršymo srityje spustelėkite Ataskaitų grafikai ir atidarykite ataskaitų grafiką, kurį norite kopijuoti.
-2.  Meniu Failas spustelėkite Įrašyti kaip ir tada įveskite naują grafiko pavadinimą ir aprašą dialogo lange Įrašyti kaip. Spustelėkite Gerai, ir naujas grafikas bus rodomas naršymo srityje.
+2.  Meniu Failas spustelėkite Įrašyti kaip ir dialogo lange Įrašyti kaip įveskite naują grafiko pavadinimą ir aprašą. Spustelėkite Gerai, naršymo srityje bus rodomas naujas grafikas.
 3.  Jei reikia, naujame grafike modifikuokite laukus ir informacija ir tada įrankių juostoje spustelėkite Įrašyti arba spustelėkite Įrašyti meniu Failas.
 
 Kad galėtumėte panaikinti ataskaitos grafiką, turite būti ataskaitos grafiko savininkas arba turėti administratoriaus vaidmenį.
 ### <a name="delete-a-report-schedule"></a>Ataskaitų grafiko naikinimas
 
 1.  Ataskaitų konstruktoriaus naršymo srityje spustelėkite Ataskaitų grafikai.
-2.  Pasirinkti ataskaitų grafiką, kurį norite panaikinti, ir tada spustelėkite Naikinti arba paspauskite klavišą Delete.
-3.  Naikinimo patvirtinimo dialogo lange spustelėkite Taip norėdami visam laikui panaikinti ataskaitos grafiką. Jei neturite teisės naikinti grafiko, rodomas pranešimas, ir ataskaita nepanaikinama.
+2.  Pasirinkite naikintiną ataskaitos grafiką ir spustelėkite Naikinti arba paspauskite klavišą „Delete“.
+3.  Naikinimą patvirtinančiame dialogo lange spustelėkite Taip, kad visam laikui panaikintumėte ataskaitos grafiką. Jei neturite teisės naikinti grafiko, rodomas pranešimas, ir ataskaita nepanaikinama.
 
-### <a name="credentials-and-report-schedules"></a>Kredencialai ir ataskaitų grafikai
+### <a name="credentials-and-report-schedules"></a>kredencialai ir ataskaitų grafikai
 
-Jei neįvesite kredencialų, kuriuos reikia įvesti prie visų įmonių, įtrauktų į ataskaitas, įrašydami ataskaitos grafiką gausite šį pranešimą: „Turite įvesti savo kredencialus prie įmonių, esančių šiame ataskaitų grafike. Pasirinkite mygtuką Teisės norėdami įvesti savo kredencialus.“
+Jei neįvesite kredencialų, kuriuos reikia įvesti prie visų įmonių, įtrauktų į ataskaitas, įrašydami ataskaitos grafiką gausite šį pranešimą: „Turite įvesti savo kredencialus prie įmonių, esančių šiame ataskaitų grafike. Norėdami įvesti kredencialus, pasirinkite mygtuką Teisės“.
 
-Pavyzdžiui, Irena prisijungia prie įmonės A naudodama savo prisijungimo vardą ir slaptažodį. Ji sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašius šį ataskaitos grafiką, Irena paraginama įvesti kredencialus prie kitų įmonių, kurios yra nurodytos ataskaitų medžio apraše. Kai kredencialų galiojimo laikas baigiasi, paveiktos ataskaitos ataskaitų grafike negeneruojamos, kol kredencialai atnaujinami. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
+Pavyzdžiui, Irena prisijungia prie įmonės A naudodama savo prisijungimo vardą ir slaptažodį. Ji sukuria ataskaitos, kuri renka duomenis iš kelių įmonių naudodama ataskaitų medžio aprašą, grafiką. Įrašius šį ataskaitos grafiką, Phyllis paprašoma įvesti kitų į ataskaitų medžio aprašą įtrauktų įmonių kredencialus. Kai kredencialų galiojimo laikas baigiasi, paveiktos ataskaitos ataskaitų grafike negeneruojamos, kol kredencialai atnaujinami. Ataskaitų eilėje rodomas pranešimas, kuriame nurodoma, kad būtina atnaujinti teises. Ataskaitų grafikas sutrinka esant bet kuriam iš šių scenarijų (nes šiais atvejais būtini kredencialai):
 -   į atskiros ataskaitos ataskaitų medį įtraukta nauja įmonė;
--   ataskaitų grupės ataskaita buvo modifikuota;
--   į ataskaitų grupę įtraukta nauja papildomos įmonės ataskaita.
+-   Buvo modifikuota ataskaitų grupėje esanti ataskaita.
+-   Į ataskaitų grupę buvo įtraukta nauja papildomos įmonės ataskaita.
 
 Norėdami tęsti, dialogo lange Ataskaitų planavimas spustelėkite mygtuką Teisės ir tada įveskite reikiamus kredencialus.
 
-## <a name="missing-account-analysis-feature"></a> Trūkstamų sąskaitų analizės funkcija
+## <a name="missing-account-analysis-feature"></a>Trūkstamų sąskaitų analizės funkcija
 Galite ieškoti finansinių sąskaitų ir dimensijų, kurių gali trūkti visuose eilučių aprašuose, ataskaitų medžio aprašuose ir ataskaitų aprašuose kūrimo bloko grupėje. Tai naudinga kuriant arba naujinant keletą sąskaitų arba kūrimo blokų per trumpą laikotarpį, ir norint patikrinti, ar į ataskaitas įtraukta visa nauja informacija.
 
 Trūkstamos sąskaitos nustatomos naudojant mažiausią ir didžiausią reikšmes iš eilutės aprašo arba ataskaitų medžio aprašo, ir tada rodomas sąskaitų, kurių nėra eilutės apraše arba ataskaitų medžio apraše, bet kurios yra finansinių duomenų informacijoje, sąrašas. Jei trūkstama sąskaita yra didesnė arba mažesnė už eilutės apibrėžimo reikšmes, ta sąskaita į trūkstamų sąskaitų sąrašą neįtraukiama.
@@ -112,13 +112,13 @@ Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diap
 ### <a name="run-missing-account-analysis"></a>Trūkstamų sąskaitų analizės vykdymas
 
 1.  Ataskaitų konstruktoriuje spustelėkite Įrankiai ir tada spustelėkite Trūkstamų sąskaitų analizė.
-2.  Lauke Įmonės filtras pasirinkite įmonę, kurios rezultatai bus filtruojami, arba pasirinkite parinktį Visos (filtro nėra), kad būtų rodomi rezultatai iš visų galimų įmonių.
-3.  Lauke Dimensijų filtras pasirinkite dimensiją kurios rezultatus norite filtruoti, arba pasirinkite Visos (filtro nėra) norėdami peržiūrėti visų galimų dimensijų informaciją.
-4.  Lauke Grupuoti pagal pasirinkite rezultatų rūšiavimo parinktį. Galite rūšiuoti rezultatus pagal paveiktą kūrimo bloką, arba galite rūšiuoti rezultatus pagal dimensiją ir reikšmių rinkinius.
-5.  Peržiūrėkite rodomus rezultatus. Viršutinėje srityje pasirinkus elementą, apatinėje srityje rodoma papildoma informacija apie išimtį. Nurodomos susijusios dimensijos, reikšmės ir ataskaitos.
+2.  Lauke Įmonės filtras pažymėkite įmonę, kurios rezultatus norite filtruoti, arba pažymėkite Viskas (filtrų nėra), jei norite, kad būtų pateikti visų galimų įmonių rezultatai.
+3.  Lauke Dimensijos filtras pažymėkite dimensiją, pagal kurią norite filtruoti rezultatus, arba pažymėkite Viskas (filtrų nėra), jei norite peržiūrėti visą dimensijų informaciją pagal visas galimas dimensijas.
+4.  Lauke Grupuoti pagal pažymėkite rezultatų rikiavimo parinktį. Rezultatus galima rikiuoti pagal konkretų kūrimo bloką arba dimensiją ir verčių rinkinius.
+5.  Peržiūrėkite pateiktus rezultatus. Pažymėjus viršutinėje srityje esantį elementą, apatinėje srityje pateikiama papildomos informacijos apie išimtį. Nurodomos susijusios dimensijos, vertės ir ataskaitos.
 6.  Norėdami atidaryti paveiktą elementą, spustelėkite susietą piktogramą rodoma sąrašo srityje, arba spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite Atidaryti. Norėdami pasirinkti kelis elementus, apatinėje srityje pažymėkite juos laikydami nuspaudę klavišą Ctrl.
 7.  Jei grąžinama reikšmių, kūrimo blokų arba ataskaitų, kurios neturi būti įtrauktos į analizę, spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite Neįtraukti arba pažymėkite žymės langelį Neįtraukti, esantį šalia elemento, kad pašalintumėte elementą iš sąrašo. Neįtraukti elementai neįtraukiami atnaujinus sąrašą. Norėdami pasirinkti kelis elementus, apatinėje srityje pažymėkite juos laikydami nuspaudę klavišą Ctrl. Norėdami peržiūrėti visus elementus, įskaitant visus rezultatus, kurių anksčiau pasirinkote neįtraukti į analizę, pažymėkite žymės langelį Rodyti neįtrauktus kūrimo blokus ir reikšmes ir tada spustelėkite Atnaujinti.
-8.  Spustelėkite Atnaujinti norėdami atnaujinti išimtis, kurias sutvarkėte. Spustelėkite Taip, norėdami visiškai atnaujinti visus rezultatus, arba Ne, norėdami iš dalies atnaujinti sutvarkytus elementus.
+8.  Spustelėkite Atnaujinti, kad būtų atkurtos išimtys, su kuriomis atlikote veiksmus. Spustelėkite Taip, norėdami visiškai atnaujinti visus rezultatus, arba Ne, norėdami iš dalies atnaujinti sutvarkytus elementus.
     | ![Pastaba](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Pastaba")**Pastaba**                    |
     |------------------------------------------------------------------------------------------------------------|
     | Forma automatiškai atnaujinama ją atidarant, išskyrus atvejus, kai forma buvo atidaryta per paskutines 15 minučių. |
@@ -131,13 +131,13 @@ Vykdant trūkstamų sąskaitų analizę, galima naudoti toliau nurodytus klaviat
 | Norint tai padaryti                           | Naudoti šį klaviatūros spartųjį klavišą |
 |--------------------------------------|----------------------------|
 | Filtruoti pagal įmonę                    | Alt + C                      |
-| Filtruoti pagal dimensiją                  | Alt + D                      |
-| Pasirinkti lauką Grupuoti pagal            | Alt + G                      |
-| Rodyti neįtrauktus blokus ir vertes      | Alt + S                      |
-| Atnaujinti rezultatus                      | Alt + R                      |
-| Neįtraukti pasirinkto kūrimo bloko  | Alt + X                      |
-| Neįtraukti pasirinkto eilutės aprašo  | Ctrl + B                     |
-| Neįtraukti pasirinktos dimensijos reikšmės | Ctrl + D                     |
+| Filtruoti pagal dimensiją                  | ALT + D                      |
+| Pažymėti lauką Grupuoti pagal            | ALT + G                      |
+| Rodyti neįtrauktus kūrimo blokus ir vertes      | ALT + S                      |
+| Atnaujinti rezultatus                      | ALT + R                      |
+| Neįtraukti pažymėto kūrimo bloko  | ALT + X                      |
+| Neįtraukti pažymėto eilutės aprašo  | CTRL + B                     |
+| Neįtraukti pažymėtos dimensijos vertės | CTRL + D                     |
 | Atidaryti pasirinktą ataskaitos aprašą  | Ctrl + R                     |
 | Atidaryti pasirinktą eilutės aprašą     | Ctrl + O                     |
 

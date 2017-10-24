@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -106,7 +106,7 @@ Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikli
 <td>Detalumo lygis</td>
 <td>Nurodykite ataskaitų informacijos išsamumo lygį.
 <ul>
-<li><strong>Finansinė</strong>− aukšto lygio bendroji suvestinė ataskaita. Negalima detalizuoti iki sąskaitų ir dimensijų, išskyrus tas sąskaitas ir dimensijas, kurios įtrauktos naudojant ataskaitų medį.</li>
+<li><strong>Finansai</strong>− aukšto lygio suvestinė ataskaita. Negalima detalizuoti iki sąskaitų ir dimensijų, išskyrus tas sąskaitas ir dimensijas, kurios įtrauktos naudojant ataskaitų medį.</li>
 <li><strong>Finansinė &amp; sąskaitos</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami sąskaitos informacija.</li>
 <li><strong>Finansinė, sąskaitos &amp; operacijų</strong> − ataskaita, kurioje yra aukšto lygio suvestinė ir išsami operacijų informacija.</li>
 </ul></td>
@@ -115,14 +115,14 @@ Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikli
 <td>Laikinoji</td>
 <td>Nurodykite ataskaitų veiklų tipus.
 <ul>
-<li><strong>Tik užregistruota veikla</strong>− apima tik operacijas ir balansus, kurie yra užregistruoti kaip jūsų finansiniai duomenys.</li>
-<li><strong>Užregistruota ir neužregistruota veikla</strong>− apima visas operacijas ir balansus, kurie yra įvesti ir užregistruoti kaip jūsų finansiniai duomenys.</li>
-<li><strong>Tik neužregistruota veikla</strong>− apima tik operacijas, kurios yra įvestos, bet dar neužregistruotos kaip jūsų finansiniai duomenys.</li>
+<li><strong>Tik užregistruota veikla</strong> − įtraukti tik finansiniuose duomenyse užregistruotas operacijas ir balansus.</li>
+<li><strong>Užregistruota ir neužregistruota veikla</strong> − įtraukti visas finansiniuose duomenyse įvestas ir užregistruotas operacijas bei balansus.</li>
+<li><strong>Tik neužregistruota veikla</strong> − įtraukti tik finansiniuose duomenyse įvestas, bet dar neužregistruotas, operacijas.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Apima visas ataskaitų valiutas</td>
-<td>Jei jūsų „Microsoft Dynamics“ ERP sistemoje yra papildomų sukonfigūruotų ataskaitų valiutų, jos pateikiamos čia. Pažymėkite šį žymės langelį, jei norite, kad papildomos ataskaitos būtų generuojamos nurodyta valiuta. Norėdami šias ataskaitas peržiūrėti žiniatinklio peržiūros programoje, spustelėkite mygtuką <strong>Valiuta</strong> ir tada pasirinkite valiutą.</td>
+<td>Jei jūsų „Microsoft Dynamics“ ERP sistemoje yra papildomų sukonfigūruotų ataskaitų valiutų, jos pateikiamos čia. Pažymėkite šį žymės langelį, jei norite, kad papildomos ataskaitos būtų generuojamos nurodyta valiuta. Norėdami šias ataskaitas peržiūrėti žiniatinklio peržiūros programoje, spustelėkite mygtuką <strong>Valiuta</strong> ir pasirinkite valiutą.</td>
 </tr>
 <tr class="even">
 <td>Ataskaitos aprašo datos informacija neįrašyta</td>
@@ -144,8 +144,8 @@ Su ataskaitos aprašu įrašomi tik numatytieji pagrindinio laikotarpio parametr
 <td>Grupės ataskaitos</td>
 <td>Įtraukite, pašalinkite ir pertvarkykite ataskaitų grupės ataskaitas.
 <ul>
-<li>Norėdami įtraukti į ataskaitų grupę ataskaitų, dukart spustelėkite ataskaitų grupę, kad ją atidarytumėte, ir tada spustelėkite <strong>Įtraukti</strong>. Pažymėkite ataskaitas, kurias norite įtraukti į ataskaitos grupę, ir tada spustelėkite <strong>Gerai</strong>.</li>
-<li>Norėdami pašalinti ataskaitą iš ataskaitos grupės, pažymėkite ją ir tada spustelėkite <strong>Pašalinti</strong>.</li>
+<li>Norėdami įtraukti ataskaitų aprašų į ataskaitų grupę, dukart spustelėkite ataskaitų grupę, kad ją atidarytumėte, tada spustelėkite <strong>Įtraukti</strong>. Pasirinkite į ataskaitų grupę norimas įtraukti ataskaitas, tada spustelėkite <strong>Gerai</strong>.</li>
+<li>Norėdami pašalinti ataskaitą iš ataskaitų grupės, pasirinkite ją ir spustelėkite <strong>Pašalinti</strong>.</li>
 <li>Norėdami modifikuoti, kokia tvarka ataskaitos bus generuojamos, sąraše pasirinkite ataskaitą ir tada spustelėkite <strong>Perkelti aukštyn</strong> arba <strong>Perkelti žemyn</strong>.</li>
 </ul></td>
 </tr>

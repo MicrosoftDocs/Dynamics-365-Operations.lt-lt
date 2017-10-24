@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ Kūrimo blokai yra jūsų sukurti ataskaitos eilučių apibrėžimai, stulpelių
 ### <a name="create-a-building-block-group"></a>Kūrimo bloko grupės kūrimas
 
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo blokų grupės**.
-2.  Dialogo lange **Kūrimo blokų grupės** spustelėkite **Nauja**.
+2.  Dialogo lange **Kūrimo blokų grupės** spustelėkite **Naujas**.
 3.  Įveskite unikalų kūrimo bloko grupės pavadinimą ir aprašymą. Kiekviename lauke gali būti iki 256 simbolių. (Šis skaičius apima tarpus.)
 4.  Norėdami kurti naują kūrimo blokų grupę, spustelėkite **Gerai**.
 
@@ -96,7 +96,7 @@ Kai kūrimo blokų grupė yra sukurta ir naudojama, galite peržiūrėti visus j
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Kūrimo blokų grupę įrašymas naudojant naują pavadinimą
 
 Galite įrašyti esamą kūrimo blokų grupę, naudodami naują pavadinimą. Tada galite modifikuoti naują kūrimo blokų grupę, nekeisdami pradinės kūrimo blokų grupės.
-1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
+1.  Ataskaitų dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo blokų grupės**.
 2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite kūrimo blokų grupę, kurią norite įrašyti naudodami naują pavadinimą.
 3.  Spustelėkite **Įrašyti kaip**.
 4.  Įveskite naują kūrimo bloko grupės pavadinimą ir aprašymą.
@@ -104,12 +104,12 @@ Galite įrašyti esamą kūrimo blokų grupę, naudodami naują pavadinimą. Tad
 
 ### <a name="export-a-building-block-group"></a>Kūrimo bloko grupės eksportavimas
 
-Galite eksportuoti kūrimo blokų grupę arba konkrečius kūrimo blokų grupės ataskaitos kūrimo blokus. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas kūrimo blokų grupes arba „Finance and Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
+Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blokus, esančius kūrimo blokų grupėje. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas kūrimo blokų grupes arba „Finance and Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
-2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite kūrimo bloko grupę, kurią norite eksportuoti, tada spustelėkite **Eksportuoti**.
+2.  Dialogo lange **Kūrimo blokų grupės** pasirinkite eksportuotiną kūrimo blokų grupę ir spustelėkite **Eksportuoti**.
 3.  Dialogo lange **Eksportuoti** pasirinkite norimus eksportuoti ataskaitos aprašus.
     -   Norėdami eksportuoti visus ataskaitos aprašus ir susietus kūrimo blokus, spustelėkite **Žymėti viską**.
-    -   Norėdami eksportuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, spustelėkite atitinkamą skirtuką ir tada pasirinkite norimus eksportuoti elementus. Norėdami skirtuke pasirinkti keletą elementų, paspauskite ir laikykite nuspaudę klavišą CTRL. **Pastaba.** Pažymėjus norimas eksportuoti ataskaitas, pažymimos susietos eilutės, stulpeliai, medžiai ir dimensijų rinkiniai.
+    -   Norėdami eksportuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, spustelėkite atitinkamą skirtuką ir tada pasirinkite norimus eksportuoti elementus. Norėdami pasirinkti keletą skirtuko elementų, paspauskite ir laikykite klavišą „Ctrl“. **Pastaba.** Pažymėjus norimas eksportuoti ataskaitas, pažymimos susietos eilutės, stulpeliai, medžiai ir dimensijų rinkiniai.
 
 4.  Baigę žymėti norimus eksportuoti elementus, spustelėkite **Eksportuoti**.
 5.  Dialogo lange **Įrašyti kaip** pažymėkite vietą, į kurią eksportuoti kūrimo bloko grupę.
@@ -120,8 +120,8 @@ Galite eksportuoti kūrimo blokų grupę arba konkrečius kūrimo blokų grupės
 
 Galite importuoti kūrimo blokų grupę į esamą kūrimo blokų grupę arba galite sukurti naują duomenų kūrimo blokų grupę. Visos importuotos kūrimo blokų grupės išlaiko savo pradinius šrifto stilius ir įmonės nuorodas bei atitinkamus dimensijų rinkinius.
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
-2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite kūrimo bloko grupę, į kurią norite eksportuoti kūrimo bloko grupę, tada spustelėkite **Importuoti**.
-3.  Dialogo lange **Atidaryti** pasirinkite kūrimo bloko grupę, kurią norite importuoti, tada spustelėkite **Atidaryti**.
+2.  Dialogo lange **Kūrimo blokų grupės** pasirinkite kūrimo bloką, importuotiną į kūrimo blokų grupę, ir spustelėkite **Importuoti**.
+3.  Dialogo lange **Atidaryti** pasirinkite importuotiną kūrimo blokų grupę ir spustelėkite **Atidaryti**.
 4.  Dialogo lange **Importuoti** pasirinkite norimus importuoti ataskaitos aprašus.
     -   Norėdami importuoti visus ataskaitos aprašus ir palaikomus kūrimo blokus, spustelėkite **Žymėti viską**.
     -   Norėdami importuoti konkrečias ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius, pasirinkite norimas importuoti ataskaitas, eilutes, stulpelius, medžius arba dimensijų rinkinius.
@@ -132,7 +132,7 @@ Galite importuoti kūrimo blokų grupę į esamą kūrimo blokų grupę arba gal
 
 Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik skaitymo režimu. Kartais vartotojai pamiršta uždaryti kūrimo bloką arba išjungia sistemą neuždarę kūrimo bloko. Todėl kūrimo blokas išregistruojamas ir kiti vartotojai negali jo atidaryti. Šiais atvejais finansinių ataskaitų administratorius gali naudoti dialogo langą **Išregistruoti elementai** ir užregistruoti kūrimo blokus, kuriuos vartotojai paliko išregistruotus. **Pastaba.** Norėdami dialogo lange **Išregistruoti elementai** užregistruoti nurodytus kūrimo blokus, turite turėti administratoriaus vaidmenį.
 1.  Ataskaitų dizaino įrankio meniu **Įrankiai** spustelėkite **Išregistruoti elementai**.
-2.  Dialogo lange **Išregistruoti elementai** pasirinkite **Rodyti visų vartotojų elementus**. Sąrašas atnaujinamas, kad būtų rodomi visi išregistruoti kūrimo blokai ir juos išregistravę vartotojai.
+2.  Dialogo lange **Išregistruoti elementai** pažymėkite **Rodyti visų vartotojų elementus**. Sąrašas atnaujinamas, kad būtų parodyti išregistruoti kūrimo blokai ir juos išregistravę vartotojai.
 3.  Pasirinkite kūrimo bloką, tada spustelėkite **Anuliuoti išregistravimą**.
 4.  Norėdami užregistruoti kūrimo bloką, spustelėkite **Taip**.
 

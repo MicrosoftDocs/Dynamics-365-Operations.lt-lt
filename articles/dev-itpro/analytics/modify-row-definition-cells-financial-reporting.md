@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,11 +35,11 @@ ms.lasthandoff: 06/13/2017
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Eilutės kodo nurodymas eilutės apibrėžime
 
-Eilučių apibrėžimų langelyje **Eilutės kodas** pateikiami skaičiai arba etiketės nurodo kiekvieną eilutės apibrėžimo eilutę. Galite nurodyti, kad eilutės kodas būtų paremtas skaičiavimų ir bendrųjų sumų duomenimis.
+Eilučių apibrėžimų langelyje **Eilutės kodas** pateikiami skaičiai arba etiketės nurodo kiekvieną eilutės apibrėžimo eilutę. Galima nustatyti, kad eilutės kodas nurodytų skaičiavimų ir bendrųjų sumų duomenis.
 
 ### <a name="row-code-requirements"></a>Eilutės kodo reikalavimai
 
-Eilutės kodas būtinas visoms eilutėms. Eilutės aprašyme galite maišyti skaitinius, raidinius-skaitinius ir išjungtus (tuščius) eilutės kodus. Eilutės kodas gali būti bet koks teigiamas sveikasis skaičius (mažesnis negu 100 000 000) arba tą eilutę identifikuojanti aprašomoji etiketė. Aprašomoji etiketė turi būti sudaryta laikantis šių taisyklių:
+Eilutės kodą būtina nurodyti visoms eilutėms. Eilutės aprašyme galite maišyti skaitinius, raidinius-skaitinius ir išjungtus (tuščius) eilutės kodus. Eilutės kodas gali būti bet koks teigiamas sveikasis skaičius (mažesnis negu 100 000 000) arba tą eilutę identifikuojanti aprašomoji etiketė. Aprašomoji etiketė turi būti sudaryta laikantis šių taisyklių:
 
 -   Etiketė turi prasidėti abėcėlės raide (nuo a iki ž arba nuo A iki Ž) ir tai gali būti bet kokia iki 16 simbolių ilgio skaičių ir raidžių kombinacija. 
     > [!NOTE]
@@ -68,7 +68,7 @@ Eilutės kodas būtinas visoms eilutėms. Eilutės aprašyme galite maišyti ska
 ## <a name="add-a-description"></a>Aprašo įtraukimas
 Aprašymo langelyje pateikiamas ataskaitos eilutėje, pvz., „Įplaukos“ arba „Grynosios pajamos“, nurodytų finansinių duomenų aprašymas. Langelio **Aprašymas** tekstas rodomas ataskaitoje tiksliai toks, kokį jį įvedate eilutės apibrėžime. 
 > [!NOTE]
-> Ataskaitos aprašymo stulpelio plotis nustatomas stulpelio apibrėžime. Jei eilutės apibrėžimo stulpelio **Aprašymas** tekstas yra ilgas, patikrinkite stulpelio **DESC** plotį. Naudojant dialogo langą **Įterpti eilutes iš** stulpelio **Aprašymas** reikšmės yra finansinių duomenų segmentų reikšmės arba dimensijų reikšmės. Galite įterpti eilutes, jeigu norite įtraukti aprašymą, pvz., skyriaus antraštę arba skyriaus bendrąją sumą, ir pridėti formatavimą, pvz., eilutę prieš bendrosios sumos eilutę. Jei ataskaitoje pateikiamas ataskaitų medis, galite įtraukti papildomą tekstą, kuris apibrėžtas ataskaitų medžio ataskaitiniams vienetams. Taip pat galite apriboti papildomą tekstą tam tikru ataskaitiniu vienetu.
+> Ataskaitos aprašymo stulpelio plotis nustatomas stulpelio apibrėžime. Jei eilutės apibrėžimo stulpelio **Aprašymas** tekstas yra ilgas, patikrinkite stulpelio **DESC** plotį. Naudojant dialogo langą **Įterpti eilutes iš** stulpelio **Aprašymas** reikšmės yra finansinių duomenų segmentų reikšmės arba dimensijų reikšmės. Galite įterpti eilučių norėdami įtraukti aprašomąjį tekstą, pvz., skyriaus antraštę arba skyriaus sumą, ir įtraukti formatavimą, pvz., eilutę prieš sumos eilutę. Jei ataskaitoje pateikiamas ataskaitų medis, galite įtraukti papildomą tekstą, kuris apibrėžtas ataskaitų medžio ataskaitiniams vienetams. Taip pat galite apriboti papildomą tekstą tam tikru ataskaitiniu vienetu.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Ataskaitos eilutės aprašo įtraukimas
 
@@ -112,12 +112,12 @@ Langelyje **Formato kodas** pateikiamos kelios iš anksto suformatuotos pasirink
     | ---                           | Vienas pabraukimas                   | Po visais ataskaitos sumos stulpeliais nubrėžiama viena linija.                                                                                                                                                     |
     | ===                           | Du pabraukimai                   | Po visais ataskaitos sumos stulpeliais nubrėžiamos dvi linijos.                                                                                                                                                     |
     | LINE1                         | Plona linija                          | Per visą puslapį nubrėžiama viena plona linija.                                                                                                                                                                      |
-    | LINE2                         | Stora linija                         | Per visą puslapį nubrėžiama viena stora linija.                                                                                                                                                                     |
+    | LINE2                         | Stora linija                         | Puslapyje nubrėžiama viena stora linija.                                                                                                                                                                     |
     | LINE3                         | Punktyrinė linija                        | Per visą puslapį nubrėžiama viena punktyrinė linija.                                                                                                                                                                    |
     | LINE4                         | Stora ir plona linijos           | Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija stora, o apatinė – plona.                                                                                                                       |
     | LINE5                         | Plona ir stora linijos           | Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija plona, o apatinė – stora.                                                                                                                       |
     | BXB BXC                       | Eilutė kvadrate                          | Aplink ataskaitų eilutes, kurios prasideda eilute **BXB** ir baigiasi eilute **BXC**, apibrėžiamas kvadratas.                                                                                                               |
-    | LIK.                           | Pastaba                             | Nurodoma komentarų eilutė, kuri neturėtų būti spausdinama ataskaitoje. Pavyzdžiui, pastabų eilutėje gali būti paaiškinti jūsų formatavimo būdai.                                                            |
+    | LIK.                           | Pastaba                             | Identifikuojama komentaro eilutė, kuri neturi būti spausdinama ataskaitoje. Pavyzdžiui, pastabos eilutėje gali būti paaiškinti naudojami formatavimo būdai.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Rūšiuoti                               | Rūšiuojamos išlaidos arba įplaukos, rūšiuojama faktinė arba biudžeto nuokrypio ataskaita pagal didžiausią nuokrypį arba rūšiuojami eilučių aprašymai abėcėlės tvarka.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Susijusių formulių / eilučių / vienetų nurodymas
@@ -133,7 +133,7 @@ Langelis **Susijusios formulės / eilutės / vienetai** skirtas keliems tikslams
 
 Naudokite eilutės bendrosios sumos formulę, norėdami pridėti arba atimti kitų eilučių sumas. Formulė, naudojama norint sukurti eilutės bendrąją sumą, gali būti sudaryta iš ženklų + ir -, kad būtų sujungiami atskiri eilučių kodai ir intervalai. Intervalai nurodomi dvitaškiu (:). Formulę gali sudaryti iki 1024 simbolių. Standartinės sumavimo formulės pavyzdys: 400+420+430+450+460LIABILITIES+EQUITY520:546520:546-LIABILITIES
 
-### <a name="components-of-a-row-total-formula"></a>Eilutės bendrosios sumos formulės komponentai
+### <a name="components-of-a-row-total-formula"></a>Eilučių bendrosios sumos formulės komponentai
 
 Kurdami eilutės bendrosios sumos formulę turite naudoti eilutės kodus, kad nurodytumėte, kurias eilutes pridėti ar atimti dabartiniame eilutės apibrėžime, ir turite naudoti ženklus, kad nurodytumėte, kaip eilutės jungiamos. Bendrosios sumos ir sumos eilutes galima naudoti bet kokioje kombinacijoje. **Pastaba:** visos į intervalą patenkančios bendrosios sumos eilutės neįtraukiamos. Norėdami sukurti bendrąją sumą, galite nurodyti eilučių intervalą. Jei pirmoji intervalo eilutė yra bendrosios sumos eilutė, ta eilutė įtraukiama į naują bendrąją sumą. Toliau pateikiamoje lentelėje aprašoma, kaip eilutės bendrosios sumos formulėse naudojami ženklai.
 
@@ -143,9 +143,9 @@ Kurdami eilutės bendrosios sumos formulę turite naudoti eilutės kodus, kad nu
 | :        | 100:330         | Sudedamos visų eilučių (nuo 100 iki 330) bendrosios sumos.    |
 | -        | 100-330         | Eilutėje 100 esanti suma atimama iš eilutėje 330 esančios sumos. |
 
-### <a name="create-a-row-total"></a>Eilutės bendrosios sumos kūrimas
+### <a name="create-a-row-total"></a>Eilučių bendrosios sumos kūrimas
 
-1.  Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
+1.  Naudodami ataskaitų dizaino įrankį spustelėkite **Eilučių aprašai**, tada atidarykite norimą modifikuoti eilučių aprašą.
 2.  Dukart spustelėkite eilutės apibrėžimo langelį **Formato kodas**, tada pasirinkite **TOT**.
 3.  Langelyje **Susijusios formulės / eilutės / vienetai** įveskite bendrosios sumos formulę.
 
@@ -177,7 +177,7 @@ Eilutės apibrėžime nurodoma viena arba kelios pagrindinės eilutės, tada stu
 -   **CBR** eilutės nespausdinamos baigtoje ataskaitoje.
 -   **CBR** formato kodas ir jo susijęs eilutės kodas rodomi virš eilutės arba skyriaus, kuriame rodomi susiję skaičiavimai.
 
-Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, kuris eilutėje **Formulė** nurodo formulę. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR** formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
+Stulpelio apraše stulpelio tipas **CALC** rodo stulpelį, nustatantį formulę eilutėje **Formulė**. Ši formulė veikia šio ataskaitos stulpelio duomenis ir naudoja raktažodį Baserow, pagal kurį atliekami pagrindiniai eilutės formato kodų **CBR** skaičiavimai. Eilutės apibrėžimo formato kodas **CBR** nurodo stulpelių, kurie kiekvienoje ataskaitos eilutėje apskaičiuoja procentą arba padaugina iš pagrindinės eilutės, pagrindinę eilutę. Eilutės formate galite turėti kelis **CBR** formato kodus, pvz., vieną gryniesiems pardavimams, vieną bruto pardavimams ir vieną bendrosioms išlaidoms. Paprastai formato kodas **CBR** naudojamas norint sukurti su bendrosios sumos eilute lyginamų sąskaitų procentą. Pagrindinė eilutė naudojama atliekant visus skaičiavimus, kol nurodoma kita pagrindinė eilutė. Turite nurodyti pradžios **CBR** formato kodą ir pabaigos **CBR** formato kodą. Pvz., norėdami nurodyti išlaidas kaip grynojo pardavimo procentą, galite padalinti kiekvienos išlaidų eilutės reikšmę iš grynojo pardavimo eilutės reikšmės. Šiuo atveju grynojo pardavimo eilutė yra pagrindinė eilutė. Galite pateikti stulpelio apibrėžimą, kuriame nurodomi šių metų ir šių metų iki šios dienos rezultatai kartu su kiekvieno rezultato pagrindiniu procentu, kaip parodyta toliau pateiktame pavyzdyje. Pradėkite nuo išsamaus pajamų išrašo.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Stulpelio skaičiavimui skirtos eilutės apibrėžimo pagrindinės eilutės pasirinkimas
 
@@ -197,7 +197,7 @@ Stulpelio apibrėžime pateikiamas stulpelio tipas **CALC** nurodo stulpelį, ku
 Toliau pateikiamame eilutės apibrėžimo pavyzdyje eilutėje 100 rodoma, kad pagrindinė skaičiavimų eilutė yra eilutė 280. [![Pagrindinės eilutės skaičiavimo pavyzdys.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) Toliau pateikiamame stulpelio aprašo pavyzdyje skaičiavimams naudojamas **CBR** formato kodas. Stulpelio C skaičiavimas padalina ataskaitos stulpelio B reikšmę iš stulpelio B eilutės 280 reikšmės. Stulpelio B formato nepaisymas atspausdina skaičiavimo rezultatą procentais. Taip pat kiekviena stulpelio E suma yra stulpelio D suma grynojo pardavimo procentais. [![Stulpelio aprašo pavyzdys.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) Toliau pateikiamame pavyzdyje rodoma ataskaita, kuri gali būti sugeneruota pagal ankstesnius skaičiavimus. [![Ataskaitos pavyzdys pagal ankstesnius skaičiavimo pavyzdžius.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
 ## <a name="select-a-sorting-code-for-a-row-definition"></a>Eilutės aprašo rūšiavimo kodo pasirinkimas
-Rūšiavimo kodai rūšiuoja sąskaitas arba reikšmes, faktines arba biudžeto nuokrypio ataskaitas pagal didžiausią nuokrypį arba eilučių aprašymus abėcėlės tvarka. Galimi šie rūšiavimo kodai:
+Rūšiavimo kodai rūšiuoja sąskaitas arba reikšmes, faktines arba biudžeto nuokrypio ataskaitas pagal didžiausią nuokrypį arba eilučių aprašymus abėcėlės tvarka. Galimi šie rikiavimo kodai:
 
 -   **SORT** – ataskaitos rūšiuojamos didėjančia tvarka, pagal nurodyto stulpelio reikšmes.
 -   **ASORT** – ataskaitos rūšiuojamos didėjančia tvarka, pagal nurodyto stulpelio reikšmių absoliučiąją reikšmę. Kitaip tariant, rūšiuojant reikšmes kiekvienos reikšmės ženklo nepaisoma. Šis formato kodas rikiuoja reikšmes pagal nuokrypio dydį, nepaisant to, ar nuokrypis teigiamas arba neigiamas.
@@ -217,21 +217,21 @@ Rūšiavimo kodai rūšiuoja sąskaitas arba reikšmes, faktines arba biudžeto 
 
 Toliau pateiktame pavyzdyje ataskaitos D stulpelio vertės rūšiuojamos didėjančia tvarka, nuo 160 iki 490 eilutės. Be to, ataskaitos G stulpelio absoliučiosios vertės rūšiuojamos mažėjančia tvarka, nuo 610 iki 940 eilutės.
 
-| Eilutės kodas | Prekės/Paslaugos pavadinimas                                         | Formato kodas | Susijusios formulės / eilutės / vienetai | Standartinis balansas | Stulpelio apribojimas | Saitas su finansinėmis dimensijomis |
+| Eilutės kodas | Prekės/Paslaugos pavadinimas                                         | Formato kodas | Susijusios formulės / eilutės / vienetai | Įprastas balansas | Stulpelio apribojimas | Finansinių dimensijų saitas |
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
 | 100      | Surūšiuota pagal mėnesio nuokrypį, didėjančia tvarka       | DES         |                             |                |                    |                              |
 | 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Pardavimas                                               |             |                             | K              |                    | 4100                         |
+| 160      | Pardavimas                                               |             |                             | C              |                    | 4100                         |
 | 190      | Pardavimo grąžinimai                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Palūkanų pajamos                                     |             |                             | K              |                    | 7000                         |
+| 490      | Palūkanų pajamos                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
 | 550      | Surūšiuota pagal absoliutųjį nuokrypį nuo metų pradžios, mažėjančia tvarka | DES         |                             |                |                    |                              |
 | 580      |                                                     | ASORTDESC   | 610:940                     |                | Ž                  |                              |
-| 610      | Pardavimas                                               |             |                             | K              |                    | 4100                         |
+| 610      | Pardavimas                                               |             |                             | C              |                    | 4100                         |
 | 640      | Pardavimo grąžinimai                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Palūkanų pajamos                                     |             |                             | K              |                    | 7000                         |
+| 940      | Palūkanų pajamos                                     |             |                             | C              |                    | 7000                         |
 
 Čia pateikiamas sugeneruotos ataskaitos pavyzdys.
 
@@ -270,9 +270,9 @@ Langelyje **Formato nepaisymas** nurodomas formatavimas, kuris naudojamas eilute
 
 ### <a name="currency-formatting"></a>Valiutos formatavimas
 
-Valiutos formatavimas taikomas finansinei sumai ir apima valiutos simbolį. Galimos toliau nurodytos pasirinktys:
+Valiutos formatavimas taikomas finansinei sumai ir apima valiutos simbolį. Galimos toliau nurodytos parinktys.
 
--   **Valiutos simbolis** – ataskaitos valiutos simbolis. Ši reikšmė nepaiso įmonės informacijos nuostatos **Regiono pasirinktys**.
+-   **Valiutos simbolis** – ataskaitoje naudojamas valiutos simbolis. Ši reikšmė nepaiso įmonės informacijos nuostatos **Regiono pasirinktys**.
 -   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
 -   **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
 -   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
@@ -365,7 +365,7 @@ Galite apriboti eilutę esamu knygos kodu. Stulpelio apraše turi būti bent vie
 > [!NOTE]
 > Knygos kodo eilutės apribojimas panaikina tos eilutės stulpelio aprašo knygos kodo apribojimus.
 
-### <a name="account-and-transaction-attributes"></a>Sąskaitos ir operacijos atributai
+### <a name="account-and-transaction-attributes"></a>Sąskaitų ir operacijų atributai
 
 Kai kurios apskaitos sistemos palaiko finansinių duomenų sąskaitos atributus ir operacijos atributus. Šie atributai veikia kaip virtualieji sąskaitos segmentai ir juose gali būti papildoma informacija apie sąskaitą arba operaciją. Ši papildoma informacija gali būti sąskaitos ID, paketo ID, pašto indeksai ar kiti atributai. Jei jūsų apskaitos sistema palaiko atributus, eilutės apraše kaip eilutės modifikatorius galite naudoti sąskaitos atributus arba operacijos atributus. Informacijos apie tai, kaip nepaisyti eilutės informacijos rasite pirmiau pateiktame šio straipsnio skyriuje „Stulpelio aprašo nepaisymas“.
 
@@ -378,14 +378,14 @@ Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finan
 |----------------------------------|----------------------------------------------------|
 | Finansinės dimensijos             | Saitas su finansinėmis dimensijomis                       |
 | Išorinis darbalapis               | Saitas su darbalapiu                                  |
-| Finansinės dimensijos + darbalapis | Saitas su finansinėmis dimensijomis + darbalapis           |
+| Finansinės dimensijos ir darbalapis | Saitas į finansines dimensijas ir darbalapį           |
 | „Management Reporter“ ataskaita       | „Management Reporter“ ataskaita                         |
 
-### <a name="specify-a-dimension-or-range"></a>Dimensijos ar intervalo nurodymas
+### <a name="specify-a-dimension-or-range"></a>Dimensijos ar diapazono nurodymas
 
-1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
-2.  Dukart spustelėkite stulpelio **Saitas su finansinėmis dimensijomis** langelį.
-3.  Dialogo lange **Dimensijos** dukart spustelėkite langelį po dimensijos pavadinimu.
+1.  Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti eilučių aprašą.
+2.  Dukart spustelėkite langelį stulpelyje **Saitas su finansinėmis dimensijomis**.
+3.  Dialogo lange **Dimensijos** dukart spustelėkite dimensijos pavadinimo langelį.
 4.  Dimensijos dialogo lange pasirinkite **Atskira ar intervalas**.
 5.  Lauke **Nuo** įveskite pradžios dimensiją arba spustelėkite ![Naršyti](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Naršyti") ir ieškokite galimų dimensijų. Norėdami įvesti dimensijų intervalą, lauke **Iki** įveskite pabaigos dimensiją.
 6.  Spustelėkite **Gerai** ir uždarykite dimensijos dialogo langą. Dialogo lange **Dimensijos** rodoma atnaujinta dimensija arba intervalas.
@@ -464,7 +464,7 @@ Toliau pateikiamoje lentelėje aprašomi dialogo lango **Dimensijos** laukai.
 | Sąskaitų sumavimas   | Lauke **Pavadinimas** įveskite sumavimo sąskaitų dimensiją arba ieškokite jos. Lauke **Formulė** pateikiama langelio **Saitas su finansinėmis dimensijomis** formulė, skirta ataskaitos aprašo sumavimo sąskaitai.                                                                       |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Dimensijų reikšmių rinkinių įtraukimas į eilutės aprašą
-Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių grupė. Dimensijos reikšmių rinkinyje gali būti tik vienos dimensijos reikšmės, tačiau jūs galite naudoti dimensijos reikšmių rinkinį keliuose eilučių aprašuose, stulpelių aprašuose, ataskaitos medžio aprašuose ir ataskaitos aprašuose. Taip pat galite sujungti dimensijos reikšmių rinkinius ataskaitos apraše. Kai norint pakeisti savo finansinius duomenis reikia pakeisti dimensijos reikšmių rinkinį, galite atnaujinti dimensijos reikšmių rinkinio aprašą ir tas atnaujinimas taikomas visoms dimensijų vertės rinkinį naudojančioms sritims. Pavyzdžiui, jei dažnai nurodote su jūsų finansiniais duomenimis sietinų reikšmių intervalą, pvz., reikšmes nuo 5100 iki 5600, galite priskirti šį intervalą sąskaitų rinkiniui, kurio pavadinimas Pardavimas. Sukūrę dimensijos reikšmių rinkinį tą rinkinį galite pasirinkti kaip savo finansinių duomenų saitą. Kitas pavyzdys būtų, jei reikšmių intervalas nuo 5100 iki 5600 priskiriamas daliai Pardavimai, o 4175 priskiriamas daliai Nuolaidos, iš pardavmų sumų atimdami nuolaidos sumas galite nustatyti bendrąsias pardavimo sumas. Ši operacija pažymima **(5100:5600)-4175**.
+Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių grupė. Dimensijos reikšmių rinkinyje gali būti tik vienos dimensijos reikšmės, tačiau jūs galite naudoti dimensijos reikšmių rinkinį keliuose eilučių aprašuose, stulpelių aprašuose, ataskaitos medžio aprašuose ir ataskaitos aprašuose. Taip pat galite sujungti dimensijos reikšmių rinkinius ataskaitos apraše. Kai norint pakeisti savo finansinius duomenis reikia pakeisti dimensijos reikšmių rinkinį, galite atnaujinti dimensijos reikšmių rinkinio aprašą ir tas atnaujinimas taikomas visoms dimensijų vertės rinkinį naudojančioms sritims. Pavyzdžiui, jei dažnai nurodote su jūsų finansiniais duomenimis sietinų reikšmių intervalą, pvz., reikšmes nuo 5100 iki 5600, galite priskirti šį intervalą sąskaitų rinkiniui, kurio pavadinimas Pardavimas. Sukūrę dimensijos verčių rinkinį, galite pasirinkti šį rinkinį kaip finansinių duomenų saitą. Kitas pavyzdys: jei reikšmių diapazonas nuo 5100 iki 5600 priskirtas rinkiniui Pardavimas, o reikšmė 4175 priskirta rinkiniui Nuolaidos, bendrą pardavimo sumą galite nustatyti iš pardavimo reikšmės atėmę nuolaidų reikšmę. Ši operacija pažymima **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Dimensijos reikšmių rinkinio kūrimas
 
@@ -476,11 +476,11 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 6.  Dialogo lango **Sąskaita** sąraše pasirinkite sąskaitos pavadinimą arba ieškokite įrašo lauke **Paieška**. Tada spustelėkite **Gerai**.
 7.  Norėdami sukurti tam operatoriui skirtą formulę, stulpelyje **Iki** pakartokite 5–6 veiksmus.
 8.  Užbaigę formulę, spustelėkite **Gerai**.
-9.  Dialogo lange **Dimensijų rinkinių tvarkymas** spustelėkite **Uždaryti**.
+9.  Dialogo lange **Tvarkyti dimensijų rinkinius** spustelėkite **Uždaryti**.
 
-### <a name="update-a-set-of-dimension-values"></a>Dimensijos reikšmių rinkinio naujinimas
+### <a name="update-a-set-of-dimension-values"></a>Dimensijos verčių rinkinio naujinimas
 
-1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutę, stulpelį arba medžio aprašą.
+1.  Ataskaitų dizaino įrankyje atidarykite norimą keisti eilučių, stulpelių arba medžio aprašą.
 2.  Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
 3.  Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
 4.  Sąraše pasirinkite atnaujinamą dimensijos reikšmių rinkinį, tada spustelėkite **Modifikuoti**.
@@ -498,9 +498,9 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 4.  Sąraše pasirinkite kopijuotiną rinkinį, tada spustelėkite **Įrašyti kaip**.
 5.  Įveskite naują nukopijuoto rinkinio pavadinimą ir spustelėkite **Gerai**.
 
-### <a name="delete-a-dimension-set"></a>Dimensijos rinkinio naikinimas
+### <a name="delete-a-dimension-set"></a>Dimensijų rinkinio naikinimas
 
-1.  Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutę, stulpelį arba medžio aprašą.
+1.  Ataskaitų dizaino įrankyje atidarykite norimą keisti eilučių, stulpelių arba medžio aprašą.
 2.  Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
 3.  Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
 4.  Pasirinkite norimą naikinti rinkinį ir spustelėkite **Naikinti**. Spustelėkite **Taip**, jeigu norite visam laikui panaikinti dimensijos reikšmių rinkinį.

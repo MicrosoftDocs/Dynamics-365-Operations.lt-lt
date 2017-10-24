@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ Toliau skirtuke **Biudžeto kontrolės taisyklių nustatymas** pagal finansines 
 
 ### <a name="select-main-accounts"></a>Pasirinkti pagrindines sąskaitas
 
-Jei **Pagrindinė sąskaita** nepažymėta kaip biudžeto valdymo dimensija puslapyje **Apibrėžti parametrus**, bet konkrečios išlaidos, galite pasirinkti šias išlaidas skirtuke **Pasirinkti pagrindines sąskaitas**. Jei **Pagrindinė sąskaita** pažymėta kaip biudžeto kontrolės dimensija, nebūtini jokie įrašai.  
+Jei **Pagrindinė sąskaita** nepažymėta kaip biudžeto valdymo dimensija puslapyje **Apibrėžti parametrus**, bet valdomos konkrečios išlaidos, galite pasirinkti šias išlaidas skirtuke **Pasirinkti pagrindines sąskaitas**. Jei kaip biudžeto kontrolės dimensija pažymėta **Pagrindinė sąskaita**, nebūtini jokie įrašai.  
 
 ### <a name="define-budget-groups"></a>Nustatyti biudžeto grupes
 
@@ -116,7 +116,7 @@ Jei biudžeto kontrolės įspėjimo pranešimus reikia sulaikyti kuriai nors var
 
 ### <a name="activate-budget-control"></a>Suaktyvinti biudžeto kontrolę
 
-Po to, kai biudžeto kontrolės sukonfigūruota, galite ją įjungti ir suaktyvinti skirtuke **Biudžeto kontrolės suaktyvinimas**. Tada įsigalios juodraštinė versija.
+Po to, kai biudžeto kontrolė sukonfigūruota, galite ją įjungti ir suaktyvinti skirtuke **Biudžeto kontrolės suaktyvinimas**. Tada įsigalios juodraštinė versija.
 > [!Important]
 > Kai biudžeto kontrolė įjungta ir suaktyvinta ir po to, kai operacijos registruotos, metų viduryje jos išjungti negalima. Kai biudžeto kontrolė išjungta, veiklos nėra įrašomos biudžeto kontrolės tikslais, o biudžeto patikrinimai nebeatliekami. Todėl dokumentai, kurie jau buvo užregistruoti, su biudžeto kontrole susijusiose užklausose ir ataskaitose sumažinimo sumos arba balansai gali būti neteisingai atspindėti. Tai apima bet kokių atsisiuntimų arba dokumentų ir žurnalų koregavimo biudžeto kontrolės statistiką. 
 
