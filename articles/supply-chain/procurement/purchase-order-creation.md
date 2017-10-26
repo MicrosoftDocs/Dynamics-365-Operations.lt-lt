@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 1cf09af8de2a312ce17cd88ccc4d8c5c2c051927
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys bū
 Mokesčius galima automatiškai įtraukti į PU eilutes, jei buvo nustatyti tiekėjo arba tiekėjo mokesčių grupės ir prekės arba prekės mokesčių grupės automatinio mokesčiai. Tačiau labiau įprasta mokesčius įtraukti užsakymo eilutės lygiu neautomatiniu būdu. Norėdami įtraukti mokestį, atidarykite puslapį **Prižiūrėti išlaidas** naudodami rodinio **Eilutės** meniu **Finansai** veiksmą **Prižiūrėti išlaidas**. Mokesčių įtraukimo tiesiogiai užsakymo eilutės lygiu privalumas yra tai, kad mokestį galima paskirstyti kaip atsargų savikainą. Norėdami nustatyti sąskaitos produkto savikainos mokesčių kodus, naudokite debeto parinktį **Prekė**. Šių tipų mokesčiai turi būti paskirstyti iš PU antraštės į eilutes, kad būtų galima patvirtinti užsakymą. Pavyzdžiui, galite mokesčius paskirstyti pagal kiekį kiekvienoje eilutėje. Mokesčių kategorijai taip pat turi įtakos, kaip mokesčiai yra apskaitomi. Pvz., fiksuoti mokesčiai nurodo fiksuotą sumą, o mokesčių procentinė dalis apskaičiuojami kaip užsakymo eilutės grynosios sumos procentinė dalis. PU galima priskirti kroviniui, o krovinys gali apimti transportavimo išlaidų numatomų išlaidų įvertinimą. Šias išlaidas galite iš krovinio paskirstyti atgal į PU eilutes.
 
 ## <a name="purchase-order-actions"></a>Pirkimo užsakymo veiksmai
-Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](/dynamics365/unified-operations/fin-and-ops/get-started/action-search), norint surasti atitinkamą meniu elementą.  
+Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](../../fin-and-ops/get-started/action-search.md), norint surasti atitinkamą meniu elementą.  
 
 Galite konfigūruoti užsakymo produktus, kad jie turėtų papildomas prekes. Papildomos prekės yra produktai, kuriuos privaloma arba galima nupirkti kartu su kitais produktais. Papildomus produktus galima nemokamai pridėti kaip susijusius produktus arba galite turėti galimybę nuspręsti, ar juos įtraukti į užsakymą, ar ne. Papildomas prekes galite peržiūrėti įtraukę kiekvieną užsakymo eilutę. Tačiau tikriausiai patogiau bus peržiūrėti ir įtraukti visų užsakymo eilučių atitinkamas papildomas prekes, naudojant puslapį **Papildomos prekės**, kurį galima atidaryti iš veiksmų srities.  
 
@@ -96,7 +96,7 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
-[Tiekėjo SF apžvalga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

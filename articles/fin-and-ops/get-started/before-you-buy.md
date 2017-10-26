@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Pirmą kartą naudojate „Dynamics 365 for Finance and Operations‟ („Enterp
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
 Dabar „Microsoft Dynamics 365 for Finance and Operations‟ („Enterprise‟ leidimą) galite diegti debesyje arba vietoje. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
-Daugiau informacijos ieškokite: [Diegimo parinktys](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+Daugiau informacijos ieškokite: [Diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Trečias veiksmas: pirkite ir tvarkykite abonementą
 Norėdami naršyti abonemento parinktis, eikite į [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) kainodaros puslapį. Šiame puslapyje pateikta keletas skirtingų planų, siekiant atitikti jūsų organizacijos poreikius.
@@ -51,8 +51,8 @@ Yra du būdai įsigyti abonementą vietiniam diegimui
 Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy.aspx). 
 
 Naudojant bendrąjį licencijavimą, „Finance and Operations“ galima pasiekti toliau nurodytais būdais.
-- Sudarius „Enterprise“ sutartį
-- Įsigijus „Enterprise“ sutarties abonementą
+- „Enterprise“ sutartis
+- „Enterprise“ sutarties prenumerata
 - Užsiregistravus mokymo sprendimams (sudarius sutartį su universitetu ar mokykla)
 - Sudarius „Microsoft“ produktų ir paslaugų sutartį (MPSA)
 
@@ -60,7 +60,7 @@ Naudojant bendrąjį licencijavimą, „Finance and Operations“ galima pasiekt
 Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis gali glaudžiai bendradarbiauti „Microsoft“ debesies sprendimų teikėjas. [Norėdami rasti jūsų poreikius atitinkantį partnerį, naudokitės „Microsoft“ partnerių centro portalu](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos ieškokite [„Dynamics 365 for Finance and Operations“ („Enterprise“ leidimo (vietinės versijos)) pirkimas](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos ieškokite [„Dynamics 365 for Finance and Operations“ („Enterprise“ leidimo (vietinės versijos)) pirkimas](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Pasirinkite reikiamos pagalbos parinktį
 „Microsoft“ teikia lanksčią, pramonėje pirmaujančią pagalbą, paslaugas ir išteklius, suteikiančias vartotojams galimybę greitai spręsti technines problemas ir maksimaliai padidinti investicijų į „Dynamics 365“ grąžą. Pasirinkite geriausiai jūsų verslo poreikius atitinkantį planą. 

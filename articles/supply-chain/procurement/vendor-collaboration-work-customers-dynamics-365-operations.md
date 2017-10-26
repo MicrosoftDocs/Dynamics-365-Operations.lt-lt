@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą programoje „Finance and Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Finance and Operations“. Joje pateikiama informacijos apie tai, kaip stebėti pirkimo užsakymus, kaip atlikti su jais susijusius veiksmus bei kaip stebėti konsignacijos atsargas. Naudojant tiekėjų bendradarbiavimo sąsają galima ir apdoroti SF. Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimo SF išrašymo darbo sritis](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Finance and Operations“. Joje pateikiama informacijos apie tai, kaip stebėti pirkimo užsakymus, kaip atlikti su jais susijusius veiksmus bei kaip stebėti konsignacijos atsargas. Naudojant tiekėjų bendradarbiavimo sąsają galima ir apdoroti SF. Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimo SF išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Darbas su pirkimo užsakymais
 Naudojant darbo sritį **Pirkimo užsakymo patvirtinimas** galima reaguoti į peržiūrai atsiųstus PU. Joje taip pat galima peržiūrėti informaciją apie PU, laukiančius kliento veiksmų, ir PU, kurie buvo patvirtinti, bet vis dar yra atviri. Darbo srityje **Pirkimo užsakymo patvirtinimas** pateikiami trys sąrašai.

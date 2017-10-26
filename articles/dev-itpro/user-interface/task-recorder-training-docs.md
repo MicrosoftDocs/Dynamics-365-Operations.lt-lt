@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 11. Pasirinkite, kaip norite įrašyti užduoties įrašą.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Užduočių įrašus įtraukite į žinyno sritį
-Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Jei reikia daugiau informacijos, žr. dalį [Žinyno sistemos prijungimas.](../get-started/help-connect.md)
+Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Jei reikia daugiau informacijos, žr. dalį [Žinyno sistemos prijungimas.](../../fin-and-ops/get-started/help-connect.md)
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Pagalbos apžvalga](..\get-started\help-overview.md)
+[Pagalbos apžvalga](../../fin-and-ops/get-started/help-overview.md)
 
-[Pagalbos prijungimas](..\get-started\help-connect.md)
+[Pagalbos prijungimas](../../fin-and-ops/get-started/help-connect.md)
 
 [Užduočių įrašymo priemonė](task-recorder.md)
 
