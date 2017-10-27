@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas yra kredito pervedimo pranešimas?
 Kredito pervedimo pranešimas yra reikalavimas, kurį pradedanti pusė (jūsų įmonė) išsiunčia, norėdama perkelti fondus iš savo paties sąskaitos kreditoriui. Yra daug šaliai / regionui būdingų ir bankams būdingų kredito pervedimo pranešimų diegimų. Kai kurie iš jų naudojami vienoje šalyje / regione, o kai kurie tampa stanfatbais. Vienas nusistovėjęs pasaulinis standartas yra ISO 20022 ir jo inicijavimo pranešimai, pvz., Kredito pervedimas. Šioje iliustracijoje pavaizduoti pasirinktų kredito pervedimo pranešimų ryšiai ir draudimas. 
-![Kredito pervedimas](./media/credit-transfer.jpg) Kredito pervedimo pranešimai\[/antraštė\] 
+![Kredito pervedimas](./media/credit-transfer.jpg) Kredito pervedimo pranešimai 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Kas yra ISO 20022 ir SEPA mokėjimai?
 Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir ja nurodoma, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaai mokėjimai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares ir Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių. Europos Komisija SEPA mokėjimų teisinį pagrindą nustatė naudodama mokėjimo paslaugų direktyvą (PSD). Europos mokėjimų taryba (EPC) SEPA palaiko toliau nurodytomis veiklomis.
@@ -59,7 +59,7 @@ Europos šalių kredito pervedimo mokėjimo formatas diegiamas naudojant „Micr
 Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics“ skirtą „Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
--   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Konfigūruodami Mokėtinų sumų mokėjimo būdus, pažymėkite žymės langelį **Bendrosios elektroninės ataskaitos** ir pasirinkite atitinkamą kredito pervedimo formatą (pvz.,, **ISO 20022 kredito pervedimas (AT)**) kaip eksporto formato konfigūraciją.
 -   Taip pat sprendime „Finance and Operations‟ turite nustatyti juridinio subjekto ir banko sąskaitos informaciją.
 -   Banko sąskaitų numeriai, IBAN ir kartais SWIFT kodai (BIC) arba kiti ID reikalingi norint sukurti tinkamus kredito pervedimo mokėjimus. Todėl turite juos nustatyti tiek tiekėjo banko sąskaitoje, tiek organizacijos, pageidaujančios pervedimo, banko sąskaitoje.

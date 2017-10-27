@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 08/04/2017
 Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite į programinės įrangos gamintojo svetainę. 
 
 > [!NOTE]
-> -   Kad užduočių įrašymo priemonė galėtų fiksuoti ekrano nuotraukas ir įtraukti į sugeneruotus „Microsoft Word‟ dokumentus, būtina įdiegti negalutinį „Chrome‟ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Kad užduočių įrašymo priemonė galėtų fiksuoti ekrano nuotraukas ir įtraukti į sugeneruotus „Microsoft Word‟ dokumentus, būtina įdiegti negalutinį „Chrome‟ plėtinį. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
 > -   Finansinėms ataskaitoms skirtas ataskaitų konstruktorius paleidžiama kaip „ClickOnce“ taikomoji programa. Jam reikia 64 bitų suderinamos operacinės sistemos. Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų dizaino įrankio klientą. Jei naudojate „Chrome“ inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti ir inkognito režimu.
 > -   Norint peržiūrėti PDF failus, rekomenduojame naudoti naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
@@ -70,7 +70,7 @@ Apskritai „Finance and Operations“ yra optimizuotas internetui. Kreipimosi c
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 „Finance and Operations“ įdiegtys debesyje ir vietinės įdiegtys palaiko toliau nurodytas „Microsoft Office“ programas.
 
--   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
 ## <a name="retail-modern-pos-requirements"></a>„Retail Modern POS“ reikalavimai
@@ -153,10 +153,10 @@ Kompiuteris turi atitikti visus sistemos reikalavimus, norint įdiegti ir naudot
 -   Bent 10 GB laisvos vietos (Kanalo duomenų bazei reikia daug vietos.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Reikalavimai norint kurti vietiniuose virtualiuosiuose įrenginiuose
-Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](../dev-tools/access-instances.md).
+Išsamesnės informacijos apie reikalavimus norint kurti vietiniuose virtualiuosiuose įrenginiuose (VM) žr. [VM vykdymas vietoje](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo įvertinimo kopijos gavimas](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo įvertinimo kopijos gavimas](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Aparatūros dydžio nustatymas vietinėse aplinkose
-Prieš pradėdami vietinės aplinkos aparatūros ir infrastruktūros dydžio nustatymo procesą, susipažinkite su temomis [Sistemos reikalavimai](../get-started/system-requirements.md) ir [Sąrankos ir diegimo instrukcijos](../deployment/setup-deploy-on-premises-environments.md), kad gerai suprastumėte pagrindinę infrastruktūrą. 
+Prieš pradėdami vietinės aplinkos aparatūros ir infrastruktūros dydžio nustatymo procesą, susipažinkite su temomis [Sistemos reikalavimai](system-requirements.md) ir [Sąrankos ir diegimo instrukcijos](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), kad gerai suprastumėte pagrindinę infrastruktūrą. 
 
   **Pastaba:** atidžiai perskaitykite dalį apie geriausią sistemos sąrankos praktiką, kad užtikrintumėte optimalų našumą. 
 
@@ -89,7 +89,7 @@ Norėdami suprasti dydžio reikalavimus, turite žinoti didžiausią operacijų,
 Rekomenduojame „SQL Server“ visada naudoti klasterio arba dubliavimo sąrankoje. Antrasis SQL mazgas turi turėti tokį patį skaičių branduolių kaip pirminis mazgas. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federation Services (AD FS)
-Informacijos apie AD FS dydžio nustatymą žr. dalyje [AD FS serverio pajėgumo dokumentai](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Informacijos apie AD FS dydžio nustatymą žr. dalyje [AD FS serverio pajėgumo dokumentai](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Planuojant diegimo egzempliorių skaičių galima naudoti [dydžio skaičiuoklę](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
 

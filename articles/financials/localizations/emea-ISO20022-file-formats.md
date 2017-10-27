@@ -16,10 +16,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
-ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -118,7 +118,7 @@ Importuodami formato konfigūraciją iš LCS, jūs importuojate visą konfigūra
  - **Pain.002** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti pain.002 failą į tiekėjo mokėjimų perkėlimų žurnalą
  - **Camt.054** – šis formatas bus naudojamas kartu su mokėjimo modelio susiejimu su paskirtimi ISO20022, kad būtų galima importuoti camt.054 failą į tiekėjo mokėjimų perkėlimų žurnalą Ta pati formato konfigūracija bus naudojama kliento mokėjimų importavimo funkcijoms, tačiau skirtingų susiejimas bus naudojamas mokėjimo modelio susiejime su paskirties ISO20022 konfigūracija.
 
-Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
