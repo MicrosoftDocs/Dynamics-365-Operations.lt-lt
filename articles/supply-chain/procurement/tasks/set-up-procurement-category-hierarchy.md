@@ -3,7 +3,7 @@ title: "Nustatyti įsigijimo kategorijų hierarchiją"
 description: "Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Nustatyti įsigijimo kategorijų hierarchiją
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 
 ## <a name="add-a-new-procurement-category"></a>Įtraukiti naują įsigijimo kategoriją
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > .. > Įsigijimo kategorijos.
+1. Eikite į Įsigijimas ir šaltinio pasirinkimas > Įsigijimo kategorijos.
 2. Spustelėkite „Redaguoti kategorijų hierarchiją“.
     * Kairiojoje puslapio pusėje rodoma dabartinė įsigijimo kategorijų hierarchija. Ketinate pakeisti hierarchiją.  
 3. Spustelėkite „Naujas kategorijos mazgas“.
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. Spustelėkite Įrašyti.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Įtraukti produktus į naują įsigijimo kategoriją
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > .. > Įsigijimo kategorijos.
+1. Eikite į Įsigijimas ir šaltinio pasirinkimas > Įsigijimo kategorijos.
     * Pasirinkite mazgą, kurį ką tik pridėjote. Jei šią procedūrą vykdote kaip užduočių vadovą, jį gali reikėti atrakinti, kad galėtumėte pasirinkti mazgą,  
 2. Perjunkite skyriaus „Produktai“ išplėtimą.
 3. Spustelėkite „Įtraukti“, kad susietumėte produktus su įsigijimo kategorija.

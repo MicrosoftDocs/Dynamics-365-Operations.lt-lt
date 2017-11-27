@@ -3,7 +3,7 @@ title: "Nustatyti krovimą į konteinerius"
 description: "Šia procedūra aprašoma, kaip automatizuoti krovinių krovimą į konteinerius modulyje Sandėlio valdymas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>Nustatyti krovimą į konteinerius
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="set-up-a-container-group"></a>Konteinerių grupės nustatymas
 1. Pasirinkite Sandėlio valdymas > Nustatymas > Konteineriai > Konteinerių grupės.
 2. Spustelėkite Naujas.
-    * Galite nustatyti logines konteinerių tipų grupes. Kiekvienai grupei galite nurodyti seką, kuria bus pakuojami konteineriai, ir konteinerių užpildymo procentą. Naudojami prekės matmenų dydžiai siekiant nustatyti, ar ji tilps konteineryje. Naudojamas konteineris, artimiausias prekės dydžio matmenims. Jei grupėje turite kelis konteinerių tipus, rekomenduojame išdėstyti seką pagal dydį, kad didžiausias konteineris sekoje būtų pirmas (Nr. 1), o mažiausias – paskutinis.    
+    * Galite nustatyti logines konteinerių tipų grupes. Galite nurodyti, kokia seka pakuoti kiekvienos grupės konteinerius ir kokį konteinerių procentą užpildyti. Prekės dydžio dimensijos naudojamos siekiant nustatyti, ar ji tilps į konteinerį. Naudojamas konteineris, artimiausias prekės dydžio matmenims. Jei grupėje turite kelis konteinerių tipus, rekomenduojame išdėstyti seką pagal dydį, kad didžiausias konteineris sekoje būtų pirmas (Nr. 1), o mažiausias – paskutinis.    
 3. Lauke Konteinerių grupės ID įveskite reikšmę.
 4. Lauke Aprašas įveskite reikšmę.
 5. Spustelėkite Naujas.

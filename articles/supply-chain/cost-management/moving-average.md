@@ -1,9 +1,9 @@
 ---
 title: Slankusis vidurkis
-description: 
+description: "Slankusis vidurkis yra nuolatinis įkainojimo metodas, paremtas vidurkio principu, kai kintant pirkimo išlaidoms išduodamų atsargų savikainos nekinta. Skirtumas kapitalizuojamas ir pagrindžiamas proporcingu skaičiavimu. Likusi suma įtraukiama į išlaidų sąskaitą."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+Slankusis vidurkis yra nuolatinis įkainojimo metodas, paremtas vidurkio principu, kai kintant pirkimo išlaidoms išduodamų atsargų savikainos nekinta. Skirtumas kapitalizuojamas ir pagrindžiamas proporcingu skaičiavimu. Likusi suma įtraukiama į išlaidų sąskaitą. 
+
+Taikant slankųjį vidurkį, atsargų sudengimai ir atsargų žymėjimas nepalaikomi. Atsargų uždarymas neturi įtakos produktams, kuriems slankusis vidurkis taikomas kaip atsargų modelio grupei, ir jam esant nesukuriami sudengimai tarp operacijų.
 
 Toliau nurodytos sąlygos, būtinos slankiojo vidurkio savikainą taikant kaip įkainojimo metodą.
+
 1.  Puslapyje **Prekių modelių grupės** nustatykite prekių modelių grupę, kurios lauke **Atsargų modelis** pasirinkta Slankusis vidurkis. **Pastaba.** Pagal numatytuosius parametrus pasirinkus Slankusis vidurkis, laukai **Registruoti faktines atsargas** ir **Registruoti finansines atsargas** taip pat pažymėti. 
 
 2.  Puslapyje **Registravimas** priskirkite sąskaitas skirtuko **Atsargos** sąskaitoms **Slankiojo vidurkio kainų skirtumas** ir **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**. Sąskaitą **Slankiojo vidurkio kainų skirtumas** naudokite, kai savikaina turi būti proporcingai nurodoma kaip išlaidos. Taip atsitinka dėl išlaidų skirtumo tarp pirkimo kvito ir pirkimo SF bei skirtumo tarp pradinio atsargų kiekio ir dabartinio turimo kiekio. Naudokite sąskaitą **Slankiojo vidurkio išlaidų pakartotinis įvertinimas**, kai norite koreguoti produkto slankiojo vidurkio savikainą pagal naują vieneto kainą.
@@ -83,7 +87,7 @@ Jei reikia koreguoti produkto slankiojo vidurkio kainą, atsargų koregavimus le
 Puslapyje **Sudengimai pagal kvitą** matyti, kad sąskaitoje Slankiojo vidurkio išlaidų pakartotinis įvertinimas užregistruotas koregavimas 4,00.
 
 ## <a name="moving-average-with-production"></a>Slankusis vidurkis ir produkcija
-Slankiojo vidurkio funkcija palaiko pagamintas prekes. Jei planuojate naudoti slankiojo vidurkio funkciją gamybos aplinkoje, puslapyje **Gamybos kontrolės parametrai**reikia pasirinkti šliaužiklį **Naudoti įvertintą savikainą**. Tai reiškia, kad naudojama savikaina, apskaičiuojama vertinimo metu, vietoje faktinės KS apskaičiuotos savikainos.
+Slankiojo vidurkio funkcija palaiko pagamintas prekes. Jei planuojate naudoti slankiojo vidurkio funkciją gamybos aplinkoje, puslapyje **Gamybos kontrolės parametrai** reikia pasirinkti šliaužiklį **Naudoti įvertintą savikainą**. Tai reiškia, kad naudojama savikaina, apskaičiuojama vertinimo metu, vietoje faktinės KS apskaičiuotos savikainos.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Slankusis vidurkis ir operacija atgaline data
 Operacijos atgaline data priskiriamos dabartinei slankiojo vidurkio savikainai ir atnaujinamas faktinis produkto kiekis, bet produkto slankiojo vidurkio savikaina nepaveikiama. Šiame slankiojo vidurkio pavyzdyje registruojamas produkto slankusis vidurkis atliekant operaciją atgaline data.

@@ -3,7 +3,7 @@ title: "Nustatyti pardavimo komisinių taisykles"
 description: "Ši procedūra nurodo, kaip nustatyti ir įgalinti pardavimo komisinių skaičiavimą ir sekimą."
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
+ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
+ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Nustatyti pardavimo komisinių taisykles
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/29/2017
     * Komisinių pardavimo grupė nurodo pardavimo atstovo vaidmenis atliekančius darbuotojus, kuriems, kai su tam tikra pardavimo grupe susietas klientas nusiperka tam tikras prekes, gali būti paskirti komisiniai.  
     * Demonstracinių duomenų įmonėje USMF yra pardavimo grupė, pavadinta "Pard. atst. JAV."  
 13. Veiksmų srityje spustelėkite Bendra.
-14. Spustelėkite Pard. atst.
+14. Spustelėkite Pardavimo atstovas.
     * Puslapyje Pardavimo atstovai rodomas įmonės pardavimo skyriuje dirbančių ir su specialia komisinių grupe susietų žmonių sąrašas. Tai pačiai grupei galite priskirti keletą pardavimo atstovų ir nurodyti jiems priklausančios komisinio mokesčio dalies procentinę reikšmę. Bendra komisinių dalis tarp visų darbuotojų neturi viršyti 100.  
 15. Sąraše pažymėkite pasirinktą eilutę.
 16. Spustelėkite Redaguoti.

@@ -1,9 +1,9 @@
 ---
-title: "175 procentų mažėjančios vertės metodas"
-description: "Šiame straipsnyje apžvelgtas 175 % nusidėvėjimo mažėjančios vertės metodas."
+title: "175 proc. mažėjančios vertės nusidėvėjimas"
+description: "Šioje temoje apžvelgiamas 175 proc. nusidėvėjimo mažėjančios vertės metodas."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="175-percent-reducing-balance-depreciation"></a>175 procentų mažėjančios vertės metodas
+# <a name="175-percent-reducing-balance-depreciation"></a>175 proc. mažėjančios vertės nusidėvėjimas
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje apžvelgtas 175 % nusidėvėjimo mažėjančios vertės metodas.
+Šioje temoje apžvelgiamas 175 proc. nusidėvėjimo mažėjančios vertės metodas.
 
 Nustačius ilgalaikio turto nusidėvėjimo šabloną ir puslapio **Nusidėvėjimo šablonai** lauke **Metodas** pasirinkus reikšmę **175 % mažėjanti vertė**, šiam nusidėvėjimo šablonui priskirto ilgalaikio turto nusidėvėjimo procentas yra toks pat kiekvienu nusidėvėjimo laikotarpiu. 
 
@@ -58,7 +58,7 @@ Jei kaip nusidėvėjimo metus pasirinksite **Kalendoriniai**, galimos toliau nur
 
 ### <a name="fiscal"></a>Finansiniai
 
-Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos žr. [Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai.](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Lauke **Nusidėvėjimo metai** pasirinkus parinktį **Finansiniai**, 175 % mažėjančios vertės nusidėvėjimas skaičiuojamas pagal nurodyto knygos finansinio kalendoriaus finansinius metus arba pagal finansinį kalendorių, pasirinktą puslapyje **Didžioji knyga**. Ataskaitiniai kalendoriai nustatomi **Ataskaitinių kalendorių** puslapyje. Daugiau informacijos rasite [Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
 Pavyzdžiui, jei finansiniai metai prasideda liepos 1 d. ir baigiasi kitų metų birželio 30 d., nusidėvėjimas pradedamas skaičiuoti liepos 1 d. Finansiniai metai gali būti ilgesni arba trumpesni nei 12 mėnesių. Kiekvieno laikotarpio nusidėvėjimas koreguojamas automatiškai, o kitų ataskaitinių metų trukmė nustatoma pagal puslapyje **Ataskaitiniai kalendoriai** nustatytus laikotarpius. 
 

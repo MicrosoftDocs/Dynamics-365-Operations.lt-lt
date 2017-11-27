@@ -1,16 +1,16 @@
 ---
 title: "Nesutapimų šalinimas gretinant SF bendrąsias sumas"
-description: 
+description: "Galite naudoti SF bendrųjų sumų gretinimo parinktį, kad užtikrintumėte, jog SF bendrosios sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 63413
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
@@ -18,18 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f7e1261838866688c97529b0edfa1354034247b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 18250a735d0421daa90b923504aeb94b5003a6a7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Nesutapimų šalinimas gretinant SF bendrąsias sumas
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Vienas iš SF gretinimo tikrinimo tipų – SF bendrųjų sumų gretinimas. Norėdami nurodyti, kad sistemoje būtų gretinamos SF bendrosios sumos, puslapio **Mokėtinų sumų parametrai** skirtuke **SF tikrinimas** nustatykite parinkties **Gretinti SF bendrąsias sumas** reikšmę **Taip**. 

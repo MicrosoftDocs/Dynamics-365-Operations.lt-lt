@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53edebb31b969c13b566d03afe3d58718543bf23
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -37,7 +37,7 @@ Formulę sudaro ingredientai ir kiekiai, kurių reikia norint pagaminti konkret�
 ## <a name="formulas-and-formula-lines"></a>Formulės ir formulių eilutės
 Formulę sudaro viena arba kelios formulės eilutės, identifikuojančios formulę sudarančius ingredientus ar prekes. Formulės eilutėje gali būti komplektavimo specifikacijos (KS) prekių, sudėtinių prekių, esamo svorio prekių, įsigytų prekių, sudėtinių produktų arba šalutinių produktų. Kadangi daug prekių yra naudojamos keliuose produktuose, prekę galima naudoti daugiau nei vienoje formulėje.
 
-Formulės pavyzdys yra sausainio su šokolado drožlėmis formulė. Šios formulės ingredientams naudojamos kelios eilutės, pvz., miltai, cukrus, kiaušiniai, sviestas ir šokolado drožlės. Sausainio su šokolado drožlėmis formulėje yra ingredientų, kurie greičiausiai naudojami ir kitose formulėse. Gaminant sausainius su šokolado drožlėmis, gali likti likučių, pvz., trupinių, arba kai kurie sausainiai gali būti per daug ar per mažai iškepę. Atsižvelgiant į gamybos operacijas, šiuos elementus galima nustatyti kaip sudėtinius produktus arba šalutinius produktus.
+Formulės pavyzdys yra sausainio su šokolado drožlėmis formulė. Šios formulės ingredientams naudojamos kelios eilutės, pvz., miltai, cukrus, kiaušiniai, sviestas ir šokolado drožlės. Sausainio su šokolado drožlėmis formulėje yra ingredientų, kurie greičiausiai naudojami ir kitose formulėse. Gaminant sausainius su šokolado drožlėmis, gali likti likučių, pvz., trupinių, arba kai kurie sausainiai gali būti per daug iškepę ar iškepti nepakankamai gerai. Atsižvelgiant į gamybos operacijas, šiuos elementus galima nustatyti kaip sudėtinius produktus arba šalutinius produktus.
 
 Kurdami formulės eilutę, naudojate eilutės tipą, kad nurodytumėte, kaip sistema eilutę turi tvarkyti jums vykdant bendrąjį planavimą ir gaminant paketinius užsakymus. Kiekviena eilutė pateikia skirtingą rezultatą. Toliau pateikiamoje lentelėje aprašomi eilučių tipai, kuriuos galite pasirinkti. 
 

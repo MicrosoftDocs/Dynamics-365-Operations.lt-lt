@@ -3,7 +3,7 @@ title: "PVM skirtų DK registravimo grupių nustatymas"
 description: "PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra nurodytos DK registravimo grupėse."
 author: twheeloc
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 10386719e925e53e26c7e547b29a72873a4d000d
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>PVM skirtų DK registravimo grupių nustatymas
@@ -36,7 +36,7 @@ PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra n
     * Kai parduodate apmokestintas prekes ir paslaugas, mokesčių institucija renka PVM.  
 6. Lauke Gautinas PVM pasirinkite iš mokesčių institucijos gaunamų mokesčių pagrindinę sąskaitą.
     * Kai apmokestintas prekes ir paslaugas perkate, mokesčių institucijos vardu PVM renka tiekėjai. Šis laukas pasiekiamas tik puslapyje DK parametrai pasirinkus parinktį Taikyti PVM apmokestinimo taisykles. Tuomet tiekėjui mokami PVM yra debetuojami į tą pačią sąskaitą kaip ir pirkimas.   
-7. Lauke Naudojimo mokesčio išlaidos pasirinkite pagrindinę sąskaitą, į kurią registruoti atskaitomus naudojimo mokesčius, kurių, kaip ES atvirkštinio mokesčio GST/HST, tiekėjai nepareikalavo ir apie kuriuos nepranešė mokesčių institucijai.
+7. Lauke Naudojimo mokesčio išlaidos pasirinkite pagrindinę sąskaitą, į kurią registruosite atskaitomus naudojimo mokesčius, kurių, kaip ES atvirkštinio mokesčio GST/HST, tiekėjai nepareikalavo ir apie kuriuos nepranešė mokesčių institucijai.
     * Prie PVM kodo, esančio PVM grupėje ir naudojamo operacijoje, reikia pasirinkti parinktį Naudojimo mokestis.  Šis laukas pasiekiamas tik puslapyje DK parametrai pasirinkus parinktį Taikyti PVM apmokestinimo taisykles.   
 8. Lauke Mokėtinas naudojimo mokestis pasirinkite pagrindinę sąskaitą, į kurią registruoti gaunamus naudojimo mokesčius, kuriuos reikia mokėti mokesčių institucijoms.
     * Norint registruoti naudojimo mokestį, prie PVM kodo, esančio PVM grupėje, reikia pasirinkti parinktį Naudojimo mokestis. Jei DK parametruose pasirinkta parinktis Taikyti PVM apmokestinimo taisykles, korespondentinė sąskaita registruojama operacijos išlaidų sąskaitoje.   

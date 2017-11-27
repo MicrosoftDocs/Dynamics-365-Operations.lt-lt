@@ -1,9 +1,9 @@
 ---
 title: "Išankstinio mokėjimo SF ir išankstiniai mokėjimai"
-description: "Šiame straipsnyje aprašomi ir priešpriešinami du išankstinių mokėjimų metodai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus."
+description: "Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašomi ir priešpriešinami du išankstinių mokėjimų metodai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
+Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
 
 Organizacijos gali tiekėjams išduoti išankstinius mokėjimus (mokėjimus iš anksto) už prekes arba paslaugas prieš šių prekių ar paslaugų užsakymų įvykdymą. Tiekėjams galima išduoti išankstinius mokėjimus dviem būdais. Siekdami sumažinti riziką, išankstinius mokėjimus galite sekti, išankstinį mokėjimą nurodydami pirkimo užsakyme. Naudodami šį būdą turite sukurti išankstinio mokėjimo SF, susietą su pirkimo užsakymu. Šis būdas vadinamas išankstinio mokėjimo SF išrašymu. Organizacijos, kurios nenori išankstinių mokėjimų sekti taip atidžiai arba negauna išankstinio mokėjimo SF iš savo tiekėjo, gali naudoti išankstinio mokėjimo žurnalo kvitus, o ne išankstinio mokėjimo SF išrašymo būdą. Išankstinio mokėjimo žurnalo kvitus galite kurti, sukurdami žurnalo įrašus ir pažymėdami juos kaip išankstinio mokėjimo žurnalo kvitus. Naudodami šį būdą negalite sekti, kurie kurių pirkimo užsakymų išankstiniai mokėjimai tiekėjui yra atliekami. Tačiau galite pažymėti užregistruotą išankstinį mokėjimą sudengti pagal pirkimo užsakymą.
 

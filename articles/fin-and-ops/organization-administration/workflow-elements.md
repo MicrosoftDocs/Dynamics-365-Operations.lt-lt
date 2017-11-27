@@ -1,27 +1,27 @@
 ---
 title: Darbo eigos elementai
-description: "Šiame straipsnyje aprašomi įvairūs elementai, sudarantys darbo eigą."
+description: "Šioje temoje aprašomi įvairūs elementai, sudarantys darbo eigą."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašomi įvairūs elementai, sudarantys darbo eigą.
+Šioje temoje aprašomi įvairūs elementai, sudarantys darbo eigą.
 
 Darbo eigą sudaro elementai. Tolesniuose skyriuose aprašomi visi elementų tipai.
 
@@ -59,7 +59,7 @@ Darbo eigą sudaro elementai. Tolesniuose skyriuose aprašomi visi elementų tip
 -   Prašyti pakeisti dokumentą.
 -   Priskirti dokumentą kitam vartotojui tvirtinti.
 
-## <a name="lineitem-workflow-elements"></a>Eilutės elemento darbo eigos elementai
+## <a name="line-item-workflow-elements"></a>Eilutės elemento darbo eigos elementai
 Galima sukurti darbo eigą tvarkyti dokumentus arba dokumento eilutės elementus. Pavyzdžiui, sukūrėte tabelių patvirtinimo darbo eigą. (Ši darbo eiga bus vadinama dokumento *darbo eiga*.) Į to dokumento darbo eigą galite įtraukti elementą *eilutės elemento darbo eiga*. Paleidus eilutės elementą, kiekvienas dokumento eilutės elementas pateikiamas apdoroti. Norėdami galite apdoroti visus eilutės elementus vykdydami tos pačios eilutės elemento darbo eigą arba galite kiekvieną eilutės elementą apdoroti atliekant skirtingas eilutės elemento darbo eigas. Įsivaizduokite, kad darbuotojas pateikė tabelį, panašų į tabelį toliau pateikiamame paveikslėlyje.
 
 ![Darbo eiga su eilutės elementais](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 -   **2 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 2222.
 -   **3 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 3333.
 
-## <a name="flowcontrol-elements"></a>Srauto valdiklių elementai
+## <a name="flow-control-elements"></a>Srauto valdiklių elementai
 Šie elementai suteikia galimybę kurti darbo eigas, kurios turi alternatyvias šakas arba šakas, vykdomas tuo pačiu metu.
 
 ### <a name="manual-decision"></a>Neautomatinis sprendimas

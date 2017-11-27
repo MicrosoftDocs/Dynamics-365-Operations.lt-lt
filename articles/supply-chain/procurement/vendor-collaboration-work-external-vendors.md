@@ -3,14 +3,14 @@ title: "Tiekėjo bendradarbiavimas su išoriniais tiekėjais"
 description: "Šioje temoje paaiškinama, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 Šioje temoje paaiškinama, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas.
 
 Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations‟. Jis suteikia tiekėjams galimybę dirbti su pirkimo užsakymo, SF ir konsignacijos atsargų informacija. Šioje temoje aprašoma, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU ir konsignacijos atsargomis. Joje taip pat aprašoma, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU. Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+Šioje temoje pateikiama informacija apie tiekėjo bendradarbiavimą taikoma tik dabartinei „Dynamics 365 for Finance and Operations“ versijai. 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Microsoft Dynamics AX“ versijose bendradarbiauti su tiekėju galite naudodami tiekėjo portalo modulį. Norėdami gauti daugiau informacijos apie tiekėjo portalo modulį, žr. [Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą](collaborate-vendors-vendor-portal.md).
 
 Daugiau informacijos apie tai, kaip tiekėjai gali tiekėjo bendradarbiavimą naudoti sąskaitų išrašymo procesuose, ieškokite puslapyje [Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Informacijos apie tai, kaip konfigūruoti naujus tiekėjo bendradarbiavimo vartotojus, ieškokite puslapyje [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md).
 

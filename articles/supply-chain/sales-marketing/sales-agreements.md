@@ -1,9 +1,9 @@
 ---
 title: Pardavimo sutartys
-description: "Šiame straipsnyje pateikta informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas."
+description: "Šioje temoje pateikiama informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikta informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas.
+Šioje temoje pateikiama informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas.
 
 Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produkto kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas bei kitas specialias sąlygas, pvz., mokėjimo ir pristatymo. Pardavimo sutarties kainos ir nuolaidos turi pirmenybę prieš kainas ir nuolaidas, kurios nurodytos bet kuriose esamose prekybos sutartyse.  
 
@@ -88,7 +88,7 @@ Jei pardavimo sutarties nepatvirtinote, vis tiek galite ją naudoti, norėdami k
 Galite peržiūrėti arba spausdinti visas patvirtinimų revizijas. Pakeitimus galite bendrinti su klientu, norėdami gauti patvirtinimą.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Pardavimo sutarčių taikymas užsakymo procese
-Jei nepaleisite pardavimo užsakymų tiesiogiai iš pardavimo sutarčių, dar galite susieti pardavimo sutartį su užsakymu jo įvedimo proceso metu. Kai kuriate naują pardavimo užsakymą ir pasirenkate pardavimo sutartį, šios sutarties sąlygos, pvz., mokėjimo sąlygas, pristatymo sąlygos ir pristatymo adresas, taikomos užsakymo antraštėje ir sukuriamas saitas tarp sutarties ir užsakymo. Tada užsakymo eilutėse pasirinkus produktus ir kategorijas, kurie nurodyti pardavimo sutartyje, kainos ir nuolaidos bus nukopijuotos iš tos sutarties. Tame pačiame pardavimo užsakyme gali būti eilučių, kurios nesusijusios su pardavimo sutartimi ir eilučių, kurios susijusios su pardavimo sutarties įsipareigojimu.
+Jei nepaleisite pardavimo užsakymų tiesiogiai iš pardavimo sutarties, dar galite susieti pardavimo sutartį su užsakymu jo įvedimo proceso metu. Kai kuriate naują pardavimo užsakymą ir pasirenkate pardavimo sutartį, šios sutarties sąlygos, pvz., mokėjimo sąlygas, pristatymo sąlygos ir pristatymo adresas, taikomos užsakymo antraštėje ir sukuriamas saitas tarp sutarties ir užsakymo. Tada užsakymo eilutėse pasirinkus produktus ir kategorijas, kurie nurodyti pardavimo sutartyje, kainos ir nuolaidos bus nukopijuotos iš tos sutarties. Tame pačiame pardavimo užsakyme gali būti eilučių, kurios nesusijusios su pardavimo sutartimi ir eilučių, kurios susijusios su pardavimo sutarties įsipareigojimu.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Pardavimo užsakymų, susietų su pardavimo sutartimis, keitimas
 Jei sukūrėte (paleidote) pardavimo užsakymą pagal pardavimo sutartį, kai kuriuos laukus pardavimo tose užsakymo eilutėse galima keisti tik tada, jei pašalinate saitą į susijusios pardavimo sutarties eilutes. Toliau pateikiamoje lentelėje aprašomi kai kurie iš šių laukų.

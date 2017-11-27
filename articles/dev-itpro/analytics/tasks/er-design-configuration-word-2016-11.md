@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Konfigūracijos, skirtos generuoti ataskaitoms „Microsoft Word” formatu, kūrimas elektroninėse ataskaitose (ER)
@@ -30,9 +30,9 @@ Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba 
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas“ veiksmus. Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos šablonus vietoje ataskaitos pavyzdžiui:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Susietas mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Ši procedūra yra skirta funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>„Excel” šabloną pakeiskite „Word“ šablonu
     * Šiuo metu „Excel” dokumentas naudojamas kaip šablonas OPENXML formato išvesčiai generuoti. Importuosime ataskaitos šabloną „Word“ formatu.  
 1. Spustelėkite Priedai.
-    * Esamą „Excel” šabloną pakeiskite „Word“ šablonu SampleVendPaymDocReport.docx, kurį atsisiuntėte anksčiau. Atkreipkite dėmesį, kad šiame šablone yra tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį.  
+    * Esamą „Excel” šabloną pakeiskite „Word“ šablonu Mokėjimo ataskaitos šablonas, kurį atsisiuntėte anksčiau. Atkreipkite dėmesį, kad šiame šablone yra tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį.  
 2. Spustelėkite Naikinti.
 3. Spustelėkite Taip.
 4. Spustelėkite Naujas.

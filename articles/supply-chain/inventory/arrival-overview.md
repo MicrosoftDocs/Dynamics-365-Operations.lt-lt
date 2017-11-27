@@ -3,7 +3,7 @@ title: "Gavimų apžvalga"
 description: "Šioje temoje pateikiama informacija apie Gavimų apžvalgos funkciją. Gavimų apžvalgos puslapyje, kuris yra šios funkcijos dalis, pateikiama visų numatomų pristatyti prekių, kaip gaunamų prekių, peržiūra."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy gali peržiūrėti šią informaciją:
 
 ### <a name="update-journals"></a>Naujinti žurnalus
 
-Norėdamas užregistruoti vieną ar daugiau užsakymo eilučių, kurias reikia apdoroti, Sammy gali pasirinkti eilutes peržiūros arba eilučių tinklelyje, o tada spustelėti **Žurnalai** &gt; **Rodyti gavimų žurnalus pagal gavimus**. Rodomos eilutes atitinkančios prekių gavimo antraštės. Norėdamas pirkimo užsakymo gavimo dokumentu atnaujinti užregistruotas prekes Sammy gali pasiekti paruoštas naujinti prekių gavimo žurnalo antraštes. Norėdamas pasiekti šias prekių gavimo žurnalo antraštes jis spusteli **Žurnalai** &gt; **Paruošti gavimo dokumentų žurnalai**. Rodomos visos antraštės eilutės, paruoštos gavimo dokumentui nurodyto sandėlio diapazone naujinti. (Rodomos antraštės eilutės nėra susijusios su dienos intervalu).
+Norėdamas užregistruoti vieną ar daugiau užsakymo eilučių, kurias reikia apdoroti, Sammy gali pasirinkti eilutes peržiūros arba eilučių tinklelyje, o tada spustelėti **Žurnalai** &gt; **Rodyti gavimų žurnalus pagal gavimus**. Rodomos eilutes atitinkančios prekių gavimo antraštės. Norėdamas atnaujinti užregistruotų prekių pirkimo užsakymo gavimo dokumentą, Sammy gali pasiekti paruoštas naujinti prekių gavimo žurnalo antraštes. Norėdamas pasiekti šias prekių gavimo žurnalo antraštes jis spusteli **Žurnalai** &gt; **Paruošti gavimo dokumentų žurnalai**. Rodomos visos antraštės eilutės, paruoštos gavimo dokumentui nurodyto sandėlio diapazone naujinti. (Rodomos antraštės eilutės nėra susijusios su dienos intervalu).
 
 ### <a name="start-an-arrival-registration"></a>Pradėti pristatymo registravimą
 

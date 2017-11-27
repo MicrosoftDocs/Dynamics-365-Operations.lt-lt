@@ -16,17 +16,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Kurti vartojimo paraišką
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra žingsnis po žingsnio supažindins su paraiškos kūrimo procesu. Ji parodo skirtingus produktų paieškos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo.  Šiią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos vaidmenį arba, jei naudojate USMF, galite prisijungti kaip Alicia.
+Ši procedūra žingsnis po žingsnio supažindins su paraiškos kūrimo procesu. Ji parodo skirtingus produktų paiekos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo.  Šiią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos vaidmenį arba, jei naudojate USMF, galite prisijungti kaip Alicia.
 
 
 ## <a name="create-a-new-requisition"></a>Kurti naują paraišką
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="add-a-line-to-the-requisition"></a>Įtraukti eilutę į paraišką
 1. Spustelėkite Pridėti eilutę.
-    * Pridėti eilutes į pirkimo paraišką galima dviem būdais. Jei jau žinote produkto numerį arba jau žinote, kad jums reikalingo produkto kataloge nėra, galite pridėti eilutę tiesiogiai, paspaudę „Įtraukti eilutę“. Kitas būdas yra paspausti „Pridėti produktus“, kur galite naudoti paiešką ir filtravimą, kad rastumėte prekes produktų kataloge.    
+    * Pridėti eilutes į pirkimo paraišką galima dviem būdais. Jei jau žinote produkto numerį arba jau žinote, kad jums reikalingo produkto kataloge nėra, galite pridėti eilutę tiesiogiai, paspaudę „Pridėti eilutę“. Kitas būdas yra paspausti „Pridėti produktus“, kur galite naudoti paiešką ir filtravimą, kad rastumėte prekes produktų kataloge.    
 2. Spustelėkite eilutę, kurią ką tik sukūrėte.
     * Prašytojas yra darbuotojas, kuris paprašė leisti rengti paraišką.   
     * Pagal numatytuosius nustatymus, paraišką rengiantis asmuo yra to prašęs darbuotojas. Norėdami parengti paraiškos eilutę kito darbuotojo vardu turėsite gauti leidimą. Jei tokius leidimus turite, tada šioje paieškoje bus rodomi kiti darbuotojai.  

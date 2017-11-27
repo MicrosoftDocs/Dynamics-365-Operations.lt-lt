@@ -1,9 +1,9 @@
 ---
-title: "KS skaičiavimas su standartinėmis išlaidomis"
-description: 
+title: "Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis"
+description: "Komplektavimo specifikacijų (KS) skaičiavimai naudoja duomenis iš kelių šaltinių, kad apskaičiuotų standartinę pagamintos prekės savikainą. Šaltiniai apima informaciją apie prekes, vekselių kelvadas, netiesioginių išlaidų apskaičiavimo formules ir įkainojimo versiją."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60a84eaaf1f8aa4dbf4e1de10172a728a855e62b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>KS skaičiavimas su standartinėmis išlaidomis
+# <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis
 
 [!include[banner](../includes/banner.md)]
 
 
-
+Komplektavimo specifikacijų (KS) skaičiavimai naudoja duomenis iš kelių šaltinių, kad apskaičiuotų standartinę pagamintos prekės savikainą. Šaltiniai apima informaciją apie prekes, vekselių kelvadas, netiesioginių išlaidų apskaičiavimo formules ir įkainojimo versiją.
 
 Nupirktos prekės informacija, kuri naudojama apskaičiuoti standartinės savikainos KS apima:
 -   Išlaidos – nupirktos prekės išlaidos tvarkomos kaip savikainos įrašai tam tikrai teritorijai įkainojimo versijos ribose, skirtos standartinėms išlaidoms. Kiekvienas išlaidų įrašas turi efektyvumo datą, o KS apskaičiavimo data nurodo, kuris išlaidų įrašas bus naudojamas. Pavyzdžiui, KS apskaičiavimas su apskaičiavimo data ateityje gali naudoti išlaidų įrašą su laukiama būsena ir efektyvumo data ateityje.

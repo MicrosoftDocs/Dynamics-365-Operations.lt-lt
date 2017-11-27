@@ -1,9 +1,9 @@
 --- 
 title: "Kurti atlyginimų / kompensavimo struktūrą ir planus"
-description: "Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles."
+description: "Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3cb6b9d8ee6a3d70731c89d26352eb3869ce3d11
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Kurti atlyginimų / kompensavimo struktūrą ir planus
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
+Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
 
 
 ## <a name="create-fixed-compensation-plan"></a>Kurti pastoviosios atlyginimo dalies planą

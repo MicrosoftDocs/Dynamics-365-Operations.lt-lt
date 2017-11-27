@@ -1,9 +1,9 @@
 ---
 title: Svertinio vidurkio data
-description: 
+description: "Svertinio vidurkio data yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Svertinio vidurkio diena yra atsargų modelis, kuris remiasi svertinio vidurkio principu. Svertinio vidurkio principo taikymui atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę. 
 
-Svertinio vidurkio diena yra atsargų modelis, kuris remiasi svertinio vidurkio principu. Svertinio vidurkio principo taikymui atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę. Kai vykdote atsargų uždarymą, naudodami svertinio vidurkio dieną, visi dienos gavimai sudengiami prieš virtualų išdavimą. Šis virtualus išdavimas turi bendrą gautą kiekį ir vertę tą dieną. Virtualus išdavimas turi atitinkamą virtualų gavimą, pagal kurį bus sudengti išdavimai. Todėl visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir virtualus gavimas gali būti suprantamas kaip virtualus perkėlimas, vadinamasis *svertinio vidurkio atsargų uždarymo perkėlimas*. 
+Kai vykdote atsargų uždarymą, naudodami svertinio vidurkio dieną, visi dienos gavimai sudengiami prieš virtualų išdavimą. Šis virtualus išdavimas turi bendrą gautą kiekį ir vertę tą dieną. Virtualus išdavimas turi atitinkamą virtualų gavimą, pagal kurį bus sudengti išdavimai. Todėl visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir virtualus gavimas gali būti suprantamas kaip virtualus perkėlimas, vadinamasis *svertinio vidurkio atsargų uždarymo perkėlimas*. 
 
 Jei tą dieną arba iki tos dienos įvyko tik vienas gavimas, vidurkio vertinti nereikės. Visi išdavimai sutvarkomi nuo to gavimo, todėl nereikės kurti virtualaus perdavimo. Taip pat, jei vieninteliai išdavimai įvykdomi tą dieną, nėra gavimų, iš kurių būtų galima vertinti vidurkį, ir virtualusis perkėlimas taip pat nebus sukurtas. Kai naudojate svertinę vidutinę datą, galite pažymėti atsargų operacijas, kad tam tikros prekės gavimas būtų sudengiamas su tam tikru išdavimu. Šiuo atveju nereikia naudoti svertinio vidurkio dienos taisyklės. Naudojant svertinio vidurkio datos atsargų modelį, rekomenduojame kas mėnesį uždaryti atsargas. 
 

@@ -3,7 +3,7 @@ title: "Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą."
 description: "Ši procedūra nurodo, kaip nustatyti paprastą vietos nurodymą."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/29/2017
 4. Lauke „Vienetas“ įveskite reikšmę.
     * Vienetas, kuriuo išreikštas Pradinis kiekis ir Galutinis kiekis. Jei šis laukas paliekamas tuščias, naudojamas prekės atsargų vienetas.  
 5. Lauke Rasti kiekį pasirinkite parinktį.
-    * Nėra arba Numerio lentelės kiekis: kiekvienoje numerio lentelėje užregistruotas kiekis. Vienetais išskirstytas kiekis: visas užregistruotas kiekis. Likęs kiekis: registruotinas kiekis, nurodytas pirkimo užsakymo eilutėje. Numatomas kiekis: bendras kiekis, nurodytas pirkimo užsakymo eilutėje.  
+    * Nėra arba numerio lentelės kiekis: kiekvienoje numerio lentelėje užregistruotas kiekis. Vienetais išskirstytas kiekis: visas užregistruotas kiekis. Likęs kiekis: registruotinas kiekis, nurodytas pirkimo užsakymo eilutėje. Numatomas kiekis: bendras kiekis, nurodytas pirkimo užsakymo eilutėje.  
 6. Pažymėkite arba atžymėkite žymės langelį Riboti pagal vienetą.
     * Jei pasirinksite šią pasirinktį ir puslapyje Riboti pagal vienetą nurodysite vienetą, į vietą bus galima perkelti tik tas prekes, kurių matavimo vienetas atitinka nurodytą vienetą. Pavyzdžiui, jei matavimo vienetas yra PL (padėklai), į nurodytą vietą galima perkelti tik padėkluose esančias prekes.  
 7. Pažymėkite arba atžymėkite žymės langelį Leisti skaidyti.

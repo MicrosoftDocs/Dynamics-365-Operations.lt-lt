@@ -1,7 +1,7 @@
 ---
 title: "Elektroninių ataskaitų formulių kūrimo įrankis"
-description: "Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER). Kurdami ER konkretaus elektroninio dokumento formatą, duomenis galite transformuoti ir išpildyti atitinkamo dokumento kūrimo ir formatavimo reikalavimus naudodami „Microsoft Excel“ stiliaus formules. Palaikomos įvairių tipų funkcijos: tekstinės, datos ir laiko, matematinės loginės, informacijos, duomenų tipo konvertavimo ir kitos (konkrečios verslo srities funkcijos)."
-author: kfend
+description: "Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER)."
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -593,11 +593,12 @@ Tai yra formulė, kurią galima sukurti: FORMAT (CONCATENATE @&quot;SYS70894&quo
 <td>GETENUMVALUEBYNAME (išvardijimo duomenų šaltinio kelias, išvardijimo reikšmės žymės tekstas)</td>
 <td>Pateikia nurodytų išvardijimo duomenų šaltinio reikšmę šios išvardijimo žymės nurodytu tekstu.</td>
 <td>Toliau pateiktame pavyzdyje parodytas duomenų modelyje įvestas išvardijimas ReportDirection. Atkreipkite dėmesį, kad išvardijimo reikšmėms nurodytos žymės.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Tolesniuose pavyzdžiuose parodyta:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>Tolesniuose pavyzdžiuose parodyta:</p>
 <ul><li>modelio išvardijimas <strong>ReportDirection</strong>, įtrauktas į ataskaitą kaip duomenų šaltinis <strong>$Direction</strong>;</li>
 <li>ER išraiška <strong>$IsArrivals</strong>, sukurta naudoti modelio išvardijimą kaip šios funkcijos parametrą. Šios išraiškos reikšmė yra <strong>TRUE</strong>.
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

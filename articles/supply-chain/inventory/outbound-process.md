@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Eikite į **Atsargų valdymas** \> **Sąranka** \> **Atsargų ir sandėlio valdy
 
 [![Parinktis Baigti išeigos atsargų užsakymą](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Kartais, vykdant išrinkimo dokumento procesą, kai kurių atsargose esančių prekių paimti negalima. Pavyzdžiui, tokia situacija gali kilti, jei sandėlio darbininkas sumažina paėmimo eilučių kiekius ir apdoroja išrinkimo dokumentą. Jei parinktis **Baigti išeigos atsargų užsakymą** nustatyta kaip **Taip**, likę nepaimti kiekiai grąžinami į užsakymo lygį. Jei parinktis nustatyta kaip **Ne**, likę nepaimti kiekiai saugomi kaip atviro išeigos užsakymo kiekis. Tokiu atveju kiekiai lieka išleisti į sandėlį ir juos reikia įtraukti į naują išrinkimo dokumentą naudojant funkciją **Atviri išeigos užsakymai**.
+Sandėlio darbuotojui sumažinus išrinkimo dokumentų kiekį, iš siuntos bus pašalintas atitinkamas atsargų užsakymo kiekis. Tam tikru laiku atnaujinus išrinkimo dokumentą, apie likusį kiekį pranešama užsakyme, jei parinktis **Baigti išeigos atsargų užsakymą** nustatyta į **Taip**. Jei parinktis **Baigti išeigos atsargų užsakymą** nustatyta į **Ne**, likęs kiekis saugomas kaip atviro išeigos užsakymo kiekis ir turi būti įtrauktas į naują išrinkimo dokumentą kaip **Atviri išeigos užsakymai** funkcijos dalis. 
 
 [![Meniu Funkcijos komanda Atviri išeigos užsakymai](./media/open-output-order.png)](./media/open-output-order.png)
 

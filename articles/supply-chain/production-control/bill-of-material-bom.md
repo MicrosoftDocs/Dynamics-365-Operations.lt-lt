@@ -1,9 +1,9 @@
 ---
 title: "KS ir formulės"
-description: "Šiame straipsnyje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste."
+description: "Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3137d93dd91ec3e58937e97bdddb5ca51ec4084c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
+Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
 
 <a name="bills-of-materials"></a>Komplektavimo specifikacijos
 ------------------
@@ -62,7 +62,7 @@ Produkto cikle dėl įvairių priežasčių galima kurti įvairių tipų KS.
 -   **Inžinerinė KS** – ši KS paprastai naudojama kuriant produktus, paremtus esamais produktų portfeliais. Inžinerinių KS struktūra skirta supaprastinti kūrimo procesui ir sudėtingams produktams grupuoti į inžinerijos modulius. Paprastų produktų KS gali būti įmanoma kurti faktinės gamybos procesui. Tačiau kitų produktų inžinerines KS reikia konvertuoti į faktinės gamybos KS. KS hierarchijoje inžinerines KS paprastai vaizduoja fiktyvios eilutės. Nors inžinerines KS galima naudoti planuojant ir vykdant gamybos operacijas, naudoti šį būdą gali būti neefektyvu, ypač vykdant pasikartojančias operacijas, kai kuriama daug užsakymų.
 -   **Planavimo KS** – ši KS naudojama planuoti medžiagų poreikiams. Komponentų ir ingredientų poreikis apskaičiuojamas pagal galutinių produktų poreikį. Kaip ir įkainojimo KS specifikacijos, planavimo KS specifikacijos gali nurodyti konkretų medžiagų mišinį, naudojamą tam tikru laikotarpiu.
 -   **Gamybos KS** – tai KS, naudojama konkrečioje gamyboje. Gamybos KS specifikacijoje reikia atsižvelgti į faktinius išteklius, kurie naudojami gaminant produktą. Sukūrus gamybos užsakymą, paketinį užsakymą ar „kanban‟, keli KS specifikacijų lygiai, kuriuos vaizduoja fiktyvios eilutės, sutraukiami į vieną lygį ir paskirstomi užsakymo operacijoms.
--   **Įkainojimo KS** – ši KS naudojama apskaičiuoti įvertintai produkto savikainai. Pvz., įkainojimo KS galite naudoti, kai naudojama standartinė savikaina arba skaičiuojama nurodyto produkto įvertinta suplanuota savikaina. Įkainojimo KS specifikacijos gali nurodyti į planuojamą naudoti konkretų medžiagų ir išteklių mišinį. Todėl įkainojimo KS galite naudoti kurdami reprezentatyvią įvertintą laikotarpio savikainą ir siekdami išvengti per laiką atsirandančių nuokrypių.
+-   **Įkainojimo KS** – ši KS naudojama įvertintai produkto savikainai apskaičiuoti. Pvz., įkainojimo KS galite naudoti, kai naudojama standartinė savikaina arba skaičiuojama nurodyto produkto įvertinta suplanuota savikaina. Įkainojimo KS specifikacijos gali nurodyti į planuojamą naudoti konkretų medžiagų ir išteklių mišinį. Todėl įkainojimo KS galite naudoti kurdami reprezentatyvią įvertintą laikotarpio savikainą ir siekdami išvengti per laiką atsirandančių nuokrypių.
 
 Sistemoje faktiškai naudojami KS tipai priklauso nuo diegimo bei verslo scenarijų ir reikalavimų. Paprastuose diegimuose planavimo KS, gamybos KS ir įkainojimo KS galima modeliuoti kaip vieną KS. Aplinkose, kuriose dažni inžineriniai pakeitimai ir keli alternatyvūs maršrutai, tikriausiai reikės įvairesnių KS tipų.
 

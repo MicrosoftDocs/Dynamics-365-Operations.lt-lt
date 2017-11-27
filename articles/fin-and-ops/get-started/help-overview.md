@@ -1,16 +1,16 @@
 ---
-title: "Žinyno apžvalga"
-description: "Šiame straipsnyje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus."
+title: "Pagalbos apžvalga"
+description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Žinyno apžvalga
+# <a name="help-system-overview"></a>Žinyno sistemos apžvalga
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
+Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
 
 > [!NOTE] 
 > Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
@@ -69,16 +69,17 @@ Sulaukiame daug klausimų apie tai, kaip ieškoti mūsų turinio. Jei mūsų sve
 
 Taip pat mūsų turinį galite rasti naudodami bet kokį ieškos mechanizmą. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., „ieškomas terminas‟ site:docs.microsoft.com dynamics 365.  
 
-![Svetainės ieška](./media/site-search-1.png)
-
-![Svetainės ieškos rezultatai](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Turinio lentelė docs.microsoft.com
-Dokumentų svetainėje visiems produktams naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį temoms, kurių ieškote, rasti.
+Dokumentų svetainėje „Finance and Operations“, „Retail“ ir „Talent“ naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį, neįtraukiant turinio, temoms, kurių ieškote, rasti.
 
-### <a name="how-can-i-contribute"></a>Kaip galiu prisidėti? 
+### <a name="follow-a-topic"></a>Sekite temą
+Norėdami stebėti temą, spustelėkite mygtuką +Stebėti, esantį po komentarų lauku. Norint pradėti stebėti temą, reikės prisijungti. Daugiau informacijos ieškokite skiltyje [Palikite komentarą](#leave-us-a-comment).  
 
-Palikite komentarą! 
+### <a name="give-feedback"></a>Pateikite atsiliepimų 
+Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų turinio pakeitimų galite naudodamiesi „GitHub“.
+
+##### <a name="leave-us-a-comment"></a>Palikite komentarą 
+Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausimų, palikite komentarą puslapio apačioje.  
 
 1. Spustelėkite **Komentarai**, norėdami pateikti į komentarų dalį puslapio apačioje.
 
@@ -96,6 +97,19 @@ Arba
 Dešinėje įveskite el. pašto adresą ir naują slaptažodį, norėdami svetainėje sukurti naują paskyrą. 
 
 ![Prisijungimo parinktys](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Pasiūlykite pakeitimų arba papildykite turinį naudodami „GitHub“
+Norint pasiūlyti pakeitimą, reikės susikurti „GitHub“ paskyrą ir pasirašyti bendraautoriaus licencijos sutartį.  Pateikus įtraukimo užklausą, peržiūrėsime jūsų siūlomus pakeitimus. Jei reikės, pakeitimus aptarsime įmonės viduje ir vėliau su jumis susisieksime.  
+
+Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba eikite į saugyklų puslapį adresu https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Daugiau informacijos ieškokite bendraautoriaus vadove: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Šiuo metu įnašus priimsime tik į saugyklą anglų kalba.  
+> Mes nepriimsime pranešimų apie problemas, apie kurias bus pranešama naudojantis „GitHub“ – norėdami pateikti turinio pasiūlymų, naudokite tik įtraukimo užklausą. Į atsiliepimus apie produktą ir funkcijas geriausiai reaguojama juos pateikiant „Dynamics 365“ idėjų portale: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Užduočių vedliai
@@ -196,9 +210,4 @@ Išversti užduočių vedliai yra išleisti bibliotekose, pavadinime yra frazė 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 [Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

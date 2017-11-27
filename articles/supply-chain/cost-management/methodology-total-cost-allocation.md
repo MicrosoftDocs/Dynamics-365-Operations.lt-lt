@@ -1,9 +1,9 @@
 ---
 title: Bendrosios savikainos paskirstymo metodas
-description: "Šiame straipsnyje pateikiama patarimų, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas."
+description: "Šioje temoje pateikiami patarimai, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b070aaeecacdee7af08d8136dc4232449b8f988b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama patarimų, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas.
+Šioje temoje pateikiami patarimai, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas.
 
 Bendrosios savikainos paskirstymas (TCA) yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas. Šis metodas yra dinamiškas. Juo savikaina apskaičiuojama kaip svertinis baigtais paskelbtų sudėtinės prekės ir sudėtinių produktų kiekių vidurkis. Kai naudojamas TCA, nebūtina peržiūrėti kiekvieno paketinio užsakymo savikainos paskirstymų. Jei TCA nenaudojamas, skaičiuojant formulę naudojamos esamos funkcijos.
 

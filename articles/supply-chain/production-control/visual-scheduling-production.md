@@ -3,7 +3,7 @@ title: "Ganto diagramos naudojimas užduotims planuoti"
 description: Naudodami Ganto diagramas gamybos planuotojai gali valdyti ir optimizuoti gamybos planus.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Ganto diagramoje yra pavaizduota apibrėžto laiko intervalo suplanuota veikla. 
 -   Užduotys iš suplanuotų gamybos užsakymų.
 -   Suplanuota projekto užduočių veikla, kurios tipas Valandų prognozės.
 
-Ganto diagramą galima atidaryti dviem skirtingais rodiniais: **Užsakymo rodinys** ir **Išteklių rodinys**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true) **Užsakymo rodinyje** veikla grupuojama pagal gamybos užsakymus. Tai gali būti naudinga, pvz., jei norite tvarkyti visų užduočių, priklausančių tiems patiems užsakymams, apžvalgą. **Išteklių rodinyje** visos užduotys yra grupuojamos pagal atskirus išteklius. Šis rodinys gali būti naudingas optimizuojant planą išteklių lygiu, pvz., įrenginio arba įrenginių grupės. Tolesniuose paveikslėliuose pateiktos Ganto diagramos rodo **Užsakymo rodinį** ir **Išteklių rodinį** su šiais pagrindiniais elementais:
+Ganto diagramą galima atidaryti dviem skirtingais būdais, naudojant rodinius **Užsakymo rodinys** ir **Išteklių rodinys**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Rodinyje **Užsakymo rodinys** veikla grupuojama pagal gamybos užsakymus Tai gali būti naudinga, pvz., jei norite tvarkyti visų užduočių, priklausančių tiems patiems užsakymams, apžvalgą. **Išteklių rodinyje** visos užduotys yra grupuojamos pagal atskirus išteklius. Šis rodinys gali būti naudingas optimizuojant planą išteklių lygiu, pvz., įrenginio arba įrenginių grupės. Tolesniuose paveikslėliuose pateiktos Ganto diagramos rodo **Užsakymo rodinį** ir **Išteklių rodinį** su šiais pagrindiniais elementais:
 
 1.  Ganto diagramos veikla
 2.  Medžiagų trūkumo piktograma
@@ -151,10 +151,12 @@ Ganto diagramą galima atidaryti iš šių puslapių.
 | **Ištekliai**                                                                                 | Puslapyje **Ištekliai** galite atidaryti Ganto diagramą iš meniu elemento **Ganto diagrama**. Pasirinkus į diagramą bus įkeltos visos užduotys, suplanuotos ištekliui pasirinktame laiko intervale.                                                                                                                                                                                                                                                                                                   |
 | **Išteklių grupė**                                                                           | Puslapyje **Išteklių grupė** galite atidaryti Ganto diagramą iš meniu elemento **Ganto** diagrama. Pasirinkus, pasirinktame laiko intervale bus rodomos visos užduotys, suplanuotos ištekliams išteklių grupėje.                                                                                                                                                                                                                                                                                    |
 | **Ganto diagramos**                                                                             | Puslapyje **Ganto diagramos** galite konfigūruoti Ganto diagramas pagal išteklius ir išteklių grupes. Pvz., jei norite valdyti tam tikrų išteklių arba išteklių grupių gamybos veiklą, tada atskirai juos sukonfigūruokite puslapyje **Ganto diagramos**. Galite atidaryti Ganto diagramą iš kiekvienos konfigūracijos.                                                                                                                                                    |
-| **Valandų prognozės** (projektas)                                                                 | Ištekliams galima planuoti projekto veiklą, kurios tipas **Valandų prognozė**. Puslapio **Valandų prognozė** meniu **Planavimas** meniu galite atidaryti užsakymo Ganto diagramą norėdami pamatyti suplanuotą užduoties projekto veiklą, kurios tipas Valandų prognozė.                                                                                                                                                                                                                                                             |
+| **Valandų prognozės** (projektas)                                                                 | Ištekliams galima planuoti projekto veiklą, kurios tipas **Valandų prognozė**. Meniu **Planavimas** puslapyje **Valandų prognozė** Ganto diagramą galite atidaryti užsakyme ir peržiūrėti suplanuotą užduoties projekto veiklą, kurios tipas – Valandų prognozė.                                                                                                                                                                                                                                                             |
 | **Atliktina užduotis** (sąrašas **Gamybos vietos valdymo** darbo srityje)                      | **Atliktinų užduočių sąrašo gamybos vietos valdyme** darbo sritis rodo užduotis iš gamybos ir paketinių užsakymų, kurios atliekamos naudojant pasirinktus darbo srities išteklius. Meniu elemente **Ganto diagrama** galite atidaryti Ganto diagramą ir visos sąraše pasirinktos užduotys bus įkeltos į diagramą.                                                                                                                                                                                |
 | **Gamybos užsakymai, kuriuos reikia išleisti** (atidaromi iš **Gamybos vietos valdymo** darbo srities) | Gamybos užsakymų, kuriuos reikia išleisti, puslapis, atidaromas **Gamybos vietos valdymo** darbo srities. Šiame puslapyje rodomi suplanuoti gamybos ir paketiniai užsakymai, laukiantys išleidimo. Šiame puslapyje galite atidaryti pasirinktų gamybos užsakymų Ganto diagramą.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Taip pat žiūrėkite  
 [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai) (vaizdo įrašas)](https://youtu.be/BtbuShkGj4I)
+
+[Vaizdinis gamybos planavimas (demonstracinis scenarijus)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

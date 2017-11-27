@@ -1,9 +1,9 @@
 ---
 title: "Kokybės valdymo peržiūra"
-description: "Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
+description: "Šioje temoje aprašoma, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 28ef47e2dc1f9c7e1c0b262c58332dcfea1f7495
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c8961d1c62167192fcf32d17c2941b8813ea0629
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyta, kaip galima naudoti kokybės valdymą „Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
+Šioje temoje aprašoma, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
 Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Finance and Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
 

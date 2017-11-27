@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 93a40f36e38ef5ea393cf429ad9244b56504bbfc
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Ataskaitų kūrimas elektroninėse ataskaitose (ER) „Microsoft Office“ formatais su įdėtaisiais vaizdais (1 dalis) 
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/29/2017
 1. Uždarykite puslapį.
 2. Uždarykite puslapį.
 3. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
-4. Medyje pasirinkite „Model for cheques“.
+4. Medyje pasirinkite „Model for checks“.
 5. Spustelėkite Konstruktorius.
 6. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
 7. Spustelėkite Konstruktorius.

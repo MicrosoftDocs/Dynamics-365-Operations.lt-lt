@@ -1,9 +1,9 @@
 ---
 title: "Produktų konfigūracijos modelių skaičiavimų DUK"
-description: "Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais."
+description: "Šioje temoje aprašomi produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyti produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
+Šioje temoje aprašomi produktų konfigūracijos modelių skaičiavimai ir paaiškinta, kaip naudoti skaičiavimus kartu su apribojimais.
 
 Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose. Jie papildo produkto konfigūravimo modelių išraiškos apribojimus. Puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** galima nustatyti skaičiavimus ir tada išraiškų rengyklėje kurti skaičiavimų išraiškas. Daugiau informacijos žr. dalyje Kurti skaičiavimus.
 
@@ -75,7 +75,7 @@ Skaičiavimai atliekami, kai nurodoma visų įvesties atributų reikšmė.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Ar galiu perrašyti apskaičiuotą tikslinio atributo reikšmę?
 Galite perrašyti apskaičiuotą tikslinio atributo reikšmę, nebent tikslinis atributas nustatytas kaip paslėptas arba tik skaitomas.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Kaip nustatyti tikslinį atributą kaip paslėptą arba tik skaitomą?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Kaip nustatyti tikslinį atributą kaip paslėptą arba tik skaitomą?
 Norėdami nustatyti atributą kaip paslėptą arba tik skaitomą, atlikite šiuos veiksmus.
 
 1.  Spustelėkite **Produkto informacijos valdymas** &gt; **Bendrasis** &gt; **Produkto konfigūracijos modeliai**.

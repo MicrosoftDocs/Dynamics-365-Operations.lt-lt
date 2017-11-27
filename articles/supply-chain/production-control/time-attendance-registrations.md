@@ -1,9 +1,9 @@
 ---
 title: Laiko ir buvimo darbe registracija
-description: "Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šiame straipsnyje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą."
+description: "Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šioje temoje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šiame straipsnyje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą. 
+Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šioje temoje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą. 
 
 <a name="registrations"></a>Registracijos
 -------------
@@ -66,7 +66,7 @@ Atlikus sąranką darbuotojai gali įvesti skirtingų tipų registracijas.
 -   Netiesioginės veiklos, t. y. negamybinės veiklos, kurias darbuotojas gali vykdyti darbo dienos metu. Šių veiklų pavyzdžiai apima susitikimus arba savo darbo srities valymą.
 -   Viršvalandžiai, kurie gali būti registruojami kaip viršvalandžiai, nukrypimo laikas arba viršvalandžiai.
 
-## <a name="adding-clockout-registrations"></a>Išėjimo iš darbo registracijos įtraukimas
+## <a name="adding-clock-out-registrations"></a>Išėjimo iš darbo registracijos įtraukimas
 Jei darbo dienos pabaigoje darbuotojas pamiršta užregistruoti išėjimą iš darbo, trūkstamą registraciją galima įtraukti paleidžiant paketinę užduotį. Sistema palygins atėjimo į darbą ir išėjimo iš darbo laikus pagal susietą darbuotojo šabloną ir automatiškai įterps trūkstamą išėjimo iš darbo registraciją, kad ji atitiktų šablono pabaigos laiką. Atėjimo į darbą ir išėjimo iš darbo registracijos yra labai svarbios toliau skaičiuojant ir tvirtinant laiko registracijas prieš juos perkeliant į algalapį.
 
 ## <a name="calculating-registrations"></a>Registracijų skaičiavimas

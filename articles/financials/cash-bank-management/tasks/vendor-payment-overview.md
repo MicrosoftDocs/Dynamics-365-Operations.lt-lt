@@ -3,7 +3,7 @@ title: "Tiekėjo mokėjimų peržiūra"
 description: "Šios užduoties vadovas žingsnis po žingsnio supažindins jus su įvairiais mokėjimų tiėkėjams kūrimo būdais, be kita ko – kaip naudoti mokėjimo pasiūlymą arba rankiniu būdu įvesti vienkartinį mokėjimą."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Tiekėjo mokėjimų peržiūra
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/29/2017
 18. Patikrinkite savo mokėjimus ir įsitikinkite, kad visi mokėjimai turi nurodytą mokėjimo būdą. 
     * Generuojant mokėjimus, pvz., spausdinant čekį arba kuriant elektroninį mokėjimą, turi būti nurodytas mokėjimo būdas. Banko sąskaitą, iš kurios bus atliktas mokėjimas, mokėjimo būdas paskirs numatytąja.  
 19. Spustelėkite „Naujas“, kad sukurtumėte vienkartinį mokėjimą.
-    * Prieš registruojant vienkartinį mokėjimą jį galima bet kada įtraukti į mokėjimų žurnalą. Tai atliekama spustelėjus mygtuką „Naujas“ ir įvedant mokėjimo informaciją rankiniu būdu, o ne naudojant mokėjimo pasiūlymą.  
+    * Prieš registruojant vienkartinį mokėjimą jį galima bet kada įtraukti į mokėjimų žurnalą. Tai atliekama spustelėjus mygtuką Naujas ir rankiniu būdu įvedus mokėjimo informaciją, o ne naudojant mokėjimo pasiūlymą.  
 20. Pasirinkite tiekėją, kuriam bus atliktas mokėjimas.
 21. Jei mokėtina sąskaita faktūra parengta, pasirinkite „Sudengti operacijas“, kad šią sąskaitą faktūrą priskirtumėte apmokėjimui.
     * Jei tai yra išankstinis mokėjimas, šis veiksmas nebūtinas. Mokėjimą galite sukurti nepasirinkę jokios sąskaitos faktūros.  
