@@ -1,0 +1,125 @@
+---
+title: "Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais"
+description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo produktus sinchronizuojant su „Microsoft Dynamics 365 for Sales“."
+author: ChristianRytt
+manager: AnnBe
+ms.date: 10/25/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: 
+audience: Application User, IT Pro
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: global
+ms.search.industry: 
+ms.author: crytt
+ms.dyn365.ops.intro: July 2017 update
+ms.search.validFrom: 2017-07-8
+ms.translationtype: HT
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6c68c4482cacf70f003669cf335e52e47425d2f7
+ms.contentlocale: lt-lt
+ms.lasthandoff: 11/03/2017
+
+---
+
+# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a><span data-ttu-id="6f3ba-103">Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais</span><span class="sxs-lookup"><span data-stu-id="6f3ba-103">Synchronize products directly from Finance and Operations to products in Sales</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+> [!NOTE]
+> <span data-ttu-id="6f3ba-104">Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [„Dynamics 365“ duomenų integravimo funkcija](/common-data-service/entity-reference/dynamics-365-integration).</span><span class="sxs-lookup"><span data-stu-id="6f3ba-104">Before you can use the Prospect to cash solution, you should be familiar with [Dynamics 365 Data integration](/common-data-service/entity-reference/dynamics-365-integration).</span></span>
+
+<span data-ttu-id="6f3ba-105">Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo produktus tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-105">This topic discusses the templates and underlying tasks that are used to synchronize products directly from Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, to Microsoft Dynamics 365 for Sales.</span></span>
+
+## <a name="data-flow-in-prospect-to-cash"></a><span data-ttu-id="6f3ba-106">Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai</span><span class="sxs-lookup"><span data-stu-id="6f3ba-106">Data flow in Prospect to cash</span></span>
+
+<span data-ttu-id="6f3ba-107">Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Finance and Operations“ ir „Sales“ egzemplioriuose.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-107">The Prospect to cash solution uses the Data integration feature to synchronize data across instances of Finance and Operations and Sales.</span></span> <span data-ttu-id="6f3ba-108">Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ duomenų apie sąskaitas, kontaktus, produktus, pardavimo pasiūlymus, pardavimo užsakymus ir pardavimo sąskaitas faktūras srautus.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-108">The Prospect to cash templates that are available with the Data integration feature enable the flow of data about accounts, contacts, products, sales quotations, sales orders, and sales invoices between Finance and Operations and Sales.</span></span> <span data-ttu-id="6f3ba-109">Toliau pateiktoje iliustracijoje rodoma, kaip duomenys sinchronizuojami tarp „Finance and Operations“ ir „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-109">The following illustration shows how the data is synchronized between Finance and Operations and Sales.</span></span>
+
+<span data-ttu-id="6f3ba-110">[![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)</span><span class="sxs-lookup"><span data-stu-id="6f3ba-110">[![Data flow in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)</span></span>
+
+## <a name="templates-and-tasks"></a><span data-ttu-id="6f3ba-111">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="6f3ba-111">Templates and tasks</span></span>
+
+<span data-ttu-id="6f3ba-112">Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/dataintegration).</span><span class="sxs-lookup"><span data-stu-id="6f3ba-112">To access the available templates, open [PowerApps Admin Center](https://preview.admin.powerapps.com/dataintegration).</span></span> <span data-ttu-id="6f3ba-113">Pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe – **Naujas projektas** ir pasirinkite viešuosius šablonus.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-113">Select **Projects**, and then, in the upper-right corner, select **New project** to select public templates.</span></span>
+
+<span data-ttu-id="6f3ba-114">Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami sinchronizuojant „Finance and Operations“ produktus su „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-114">The following template and underlying tasks are used to synchronize products from Finance and Operations to Sales.</span></span>
+
+- <span data-ttu-id="6f3ba-115">**Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis</span><span class="sxs-lookup"><span data-stu-id="6f3ba-115">**Name of the template in Data integration:** Products (Fin and Ops to Sales) - Direct</span></span>
+- <span data-ttu-id="6f3ba-116">**Užduoties pavadinimas projekte Duomenų integravimas:**Produktai</span><span class="sxs-lookup"><span data-stu-id="6f3ba-116">**Name of the task in the Data integration project:** Products</span></span>
+
+<span data-ttu-id="6f3ba-117">Prieš sinchronizuojant produktą, nereikia atlikti jokių sinchronizavimo užduočių.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-117">No synchronization tasks are required before product synchronization can occur.</span></span>
+
+## <a name="entity-set"></a><span data-ttu-id="6f3ba-118">Objektų rinkinys</span><span class="sxs-lookup"><span data-stu-id="6f3ba-118">Entity set</span></span>
+
+| <span data-ttu-id="6f3ba-119">„Finance and Operations”</span><span class="sxs-lookup"><span data-stu-id="6f3ba-119">Finance and Operations</span></span>     | <span data-ttu-id="6f3ba-120">Pardavimas</span><span class="sxs-lookup"><span data-stu-id="6f3ba-120">Sales</span></span>    |
+|----------------------------|----------|
+| <span data-ttu-id="6f3ba-121">Parduodami išleisti produktai</span><span class="sxs-lookup"><span data-stu-id="6f3ba-121">Sellable released products</span></span> | <span data-ttu-id="6f3ba-122">Produktai</span><span class="sxs-lookup"><span data-stu-id="6f3ba-122">Products</span></span> |
+
+## <a name="entity-flow"></a><span data-ttu-id="6f3ba-123">Objekto srautas</span><span class="sxs-lookup"><span data-stu-id="6f3ba-123">Entity flow</span></span>
+
+<span data-ttu-id="6f3ba-124">Produktai tvarkomi „Finance and Operations“ ir sinchronizuojami su „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-124">Products are managed in Finance and Operations and synchronized to Sales.</span></span> <span data-ttu-id="6f3ba-125">„Finance and Operations“ duomenų objektas **Parduodami patvirtinti produktai** eksportuoja tik *parduodamus* produktus.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-125">The **Sellable released products** data entity in Finance and Operations exports only products that are *sellable*.</span></span> <span data-ttu-id="6f3ba-126">Parduodami produktai – tai produktai, apie kuriuos pateikta informacija, reikalinga norint produktus naudoti pardavimo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-126">Sellable products are products that have the information that they require in order to be used on a sales order.</span></span> <span data-ttu-id="6f3ba-127">Tos pačios taisyklės taikomos, kai produktas patvirtinamas naudojant puslapio **Patvirtintas produktas** funkciją **Tikrinti**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-127">The same rules apply when a product is validated by using the **Validate** function on the **Released product** page.</span></span>
+
+<span data-ttu-id="6f3ba-128">Produkto numeris naudojamas kaip raktas.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-128">The product number is used as a key.</span></span> <span data-ttu-id="6f3ba-129">Todėl produkto variantus susinchronizavus su „Sales“, kiekvienam produkto variantui priskiriamas atskiras produkto ID.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-129">Therefore, when product variants are synchronized to Sales, each product variant has an individual product ID.</span></span>
+
+## <a name="prospect-to-cash-solution-for-sales"></a><span data-ttu-id="6f3ba-130">„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas</span><span class="sxs-lookup"><span data-stu-id="6f3ba-130">Prospect to cash solution for Sales</span></span>
+
+<span data-ttu-id="6f3ba-131">Į „Sales“ įtrauktas naujas produktų laukas **Tvarkomas išoriškai**, kad būtų galima nurodyti, jog tam tikras produktas yra tvarkomas išoriškai.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-131">In Sales, a new **Is Externally Maintained** field has been added on products to indicate that a given product is maintained externally.</span></span> <span data-ttu-id="6f3ba-132">Pagal numatytuosius nustatymus, importuojant į „Sales“ reikšmė nustatoma į parinktį **Taip**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-132">By default, the value is set to **Yes** during an import to Sales.</span></span> <span data-ttu-id="6f3ba-133">Galimos šios vertės:</span><span class="sxs-lookup"><span data-stu-id="6f3ba-133">The following values are available:</span></span>
+
+- <span data-ttu-id="6f3ba-134">**Taip** – produktas paimtas iš „Finance and Operations“ ir jo nebus galima redaguoti sprendime „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-134">**Yes** – The product originated from Finance and Operations and won't be editable in Sales.</span></span>
+- <span data-ttu-id="6f3ba-135">**Ne** – produktas į „Sales“ buvo įtrauktas tiesiogiai.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-135">**No** – The product was entered directly in Sales.</span></span>
+- <span data-ttu-id="6f3ba-136">**(Tuščia)** – prieš įgalinant sprendimą Potencialūs klientai ir grynieji pinigai, produktas teikiamas sprendime „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-136">**(Blank)** – The product existed in Sales before the Prospect to cash solution was enabled.</span></span>
+
+<span data-ttu-id="6f3ba-137">Laukas **Tvarkomas išoriškai** padeda užtikrinti, kad su „Finance and Operations“ bus sinchronizuojami tik pasiūlymai ir pardavimo užsakymai, kuriuose yra išoriškai tvarkomų produktų.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-137">The **Is Externally Maintained** field helps guarantee that only quotations and sales orders that have externally maintained products will be synchronized to Finance and Operations.</span></span>
+
+<span data-ttu-id="6f3ba-138">Išoriškai tvarkomi produktai automatiškai įtraukiami į pirmąjį tinkamą kainoraštį ta pačia valiuta.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-138">Externally maintained products are automatically added to the first valid price list that has the same currency.</span></span> <span data-ttu-id="6f3ba-139">Kainoraščiai išrikiuojami abėcėlės tvarka pagal pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-139">Price lists are organized alphabetically by name.</span></span> <span data-ttu-id="6f3ba-140">„Finance and Operations“ produkto pardavimo kaina naudojama kaip kainoraščio kaina.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-140">The product sales price from Finance and Operations is used as the price on the price list.</span></span> <span data-ttu-id="6f3ba-141">Todėl „Sales“ turi būti pateiktas kainoraštis, atitinkantis kiekvieno produkto pardavimo valiutą „Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-141">Therefore, there must be a price list in Sales for every product sales currency in Finance and Operations.</span></span> <span data-ttu-id="6f3ba-142">Patvirtintų parduodamų produktų valiuta nustatyta į juridinio subjekto, iš kurio produktas eksportuojamas, apskaitos valiutą.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-142">The currency on the released sellable products is set to the accounting currency in the legal entity that the product is exported from.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6f3ba-143">Jei nebus valiutą atitinkančio kainoraščio, sinchronizavimo atlikti nepavyks.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-143">Product synchronization won't succeed unless there is a price list that has a matching currency.</span></span>
+
+## <a name="preconditions-and-mapping-setup"></a><span data-ttu-id="6f3ba-144">Išankstinės sąlygos ir susiejimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="6f3ba-144">Preconditions and mapping setup</span></span>
+
+- <span data-ttu-id="6f3ba-145">Prieš sinchronizuojant pirmą kartą, Išskirtųjų produktų lentelė turi būti užpildyta naudojant „Finance and Operations“ esamus produktus.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-145">Before you run the synchronization for the first time, you must fill the Distinct product table for existing products in Finance and Operations.</span></span> <span data-ttu-id="6f3ba-146">Esami produktai nebus sinchronizuojami, kol ši užduotis nebus baigta.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-146">Existing products won't be synchronized until this job is completed.</span></span>
+
+    1. <span data-ttu-id="6f3ba-147">„Finance and Operations“ naudokite parinktį Ieška, norėdami rasti parinktį **Automatiškai įvesti išskirtųjų produktų lentelę**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-147">In Finance and Operations, use Search to search for **Populate distinct product table**.</span></span>
+    2. <span data-ttu-id="6f3ba-148">Norėdami vykdyti užduotį pasirinkite **Automatiškai įvesti išskirtųjų produktų lentelę**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-148">Select **Populate distinct product table** to run the job.</span></span> <span data-ttu-id="6f3ba-149">Šią užduotį reikia vykdyti tik vieną kartą.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-149">This job must be run only one time.</span></span>
+
+- <span data-ttu-id="6f3ba-150">Įsitikinkite, kad susiejime **SalesUnitSymbol** į **DefaultUnit (pavadinimas)** tarp „Finance and Operations“ ir „Sales“ yra būtina pardavimo matavimo vieneto (MV) reikšmių schema.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-150">Make sure that the required value map for the selling unit of measure (UOM) between Finance and Operations and Sales exists in the mapping of **SalesUnitSymbol** to **DefaultUnit (Name)**.</span></span>
+- <span data-ttu-id="6f3ba-151">Atnaujinkite **vienetų grupės** (**defaultuomscheduleid.name**) reikšmių schemą, kad ji atitiktų „Sales“ **vienetų grupes**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-151">Update the value map for **Unit group** (**defaultuomscheduleid.name**) so that it matches **Unit groups** in Sales.</span></span>
+
+    <span data-ttu-id="6f3ba-152">Numatytoji šablono reikšmė yra **Numatytasis vienetas**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-152">The default template value is **Default unit**.</span></span>
+
+- <span data-ttu-id="6f3ba-153">Įsitikinkite, kad visų „Finance and Operations“ produktų pardavimo MV pateikiami „Sales“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-153">Make sure that the selling UOMs for all products from Finance and Operations exist in Sales.</span></span>
+- <span data-ttu-id="6f3ba-154">Įsitikinkite, kad „Sales“ nustatyti kainoraščiai, atitinkantys kiekvieno produkto pardavimo valiutą „Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-154">Make sure that price lists exist in Sales for every product sales currency in Finance and Operations.</span></span>
+- <span data-ttu-id="6f3ba-155">„Sales“ sukūrus produktų, jiems gali būti suteikta būsena **Juodraštis** arba **Aktyvus**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-155">When products are created in Sales, they can have a status of **Draft** or **Active**.</span></span> <span data-ttu-id="6f3ba-156">Veikimas valdomas „Sales“ parinktyje **Parametrai** > **Administravimas** > **Sistemos parametrai** > **Pardavimas**.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-156">The behavior is controlled at **Settings** > **Administration** > **System settings** > **Sales** in Sales.</span></span>
+
+    <span data-ttu-id="6f3ba-157">Sukūrus būsenos **Juodraštis** produktų, šie turi būti suaktyvinti prieš tai, kai juos galima įtraukti į pasiūlymus arba pardavimo užsakymus.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-157">Products that have **Draft** status when they are created must be activated before they can be added to quotations or sales orders.</span></span>
+
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="6f3ba-158">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="6f3ba-158">Template mapping in Data integration</span></span>
+
+<span data-ttu-id="6f3ba-159">Toliau pateiktoje iliustracijoje vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-159">The following illustration shows an example of a template mapping in Data integration.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="6f3ba-160">Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="6f3ba-160">The mapping shows which field information will be synchronized from Sales to Finance and Operations.</span></span>
+
+![Šablono susiejimas duomenų integratoriuje](./media/products-direct-template-mapping-data-integrator-1.png)
+
+
+## <a name="related-topics"></a><span data-ttu-id="6f3ba-162">Susijusios temos</span><span class="sxs-lookup"><span data-stu-id="6f3ba-162">Related topics</span></span>
+
+[<span data-ttu-id="6f3ba-163">Potencialūs klientai ir grynieji pinigai</span><span class="sxs-lookup"><span data-stu-id="6f3ba-163">Prospect to cash</span></span>](prospect-to-cash.md)
+
+[<span data-ttu-id="6f3ba-164">Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais</span><span class="sxs-lookup"><span data-stu-id="6f3ba-164">Synchronize accounts directly from Sales to customers in Finance and Operations</span></span>](accounts-template-mapping-direct.md)
+
+[<span data-ttu-id="6f3ba-165">Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais</span><span class="sxs-lookup"><span data-stu-id="6f3ba-165">Synchronize contacts directly from Sales to contacts or customers in Finance and Operations</span></span>](contacts-template-mapping-direct.md)
+
+[<span data-ttu-id="6f3ba-166">Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“</span><span class="sxs-lookup"><span data-stu-id="6f3ba-166">Synchronize sales order headers and lines directly from Finance and Operations to Sales</span></span>](sales-order-template-mapping-direct.md)
+
+[<span data-ttu-id="6f3ba-167">Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“</span><span class="sxs-lookup"><span data-stu-id="6f3ba-167">Synchronize sales invoice headers and lines directly from Finance and Operations to Sales</span></span>](sales-invoice-template-mapping-direct.md)
+
+
+
+

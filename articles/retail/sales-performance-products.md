@@ -26,25 +26,25 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="2c57f-103">Pardavimo našumo vertinimas pagal produktą</span><span class="sxs-lookup"><span data-stu-id="2c57f-103">Assess sales performance by product</span></span>
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="7e5dd-103">Pardavimo našumo vertinimas pagal produktą</span><span class="sxs-lookup"><span data-stu-id="7e5dd-103">Assess sales performance by product</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="2c57f-104">Naudodami „Microsoft Dynamics 365 for Retail‟ galite tirti 10 populiariausių produktų pelningumą.</span><span class="sxs-lookup"><span data-stu-id="2c57f-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
+<span data-ttu-id="7e5dd-104">Naudodami „Microsoft Dynamics 365 for Retail‟ galite tirti 10 populiariausių produktų pelningumą.</span><span class="sxs-lookup"><span data-stu-id="7e5dd-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 
-<span data-ttu-id="2c57f-105">„Dynamics 365 for Retail“ vartotojai taip pat gali tirti svarbiausių produktų (10–100) pelningumą skirtinguose organizacijos hierarchijos lygiuose pagal vieną iš toliau pateiktų kriterijų.</span><span class="sxs-lookup"><span data-stu-id="2c57f-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="7e5dd-105">„Dynamics 365 for Retail“ vartotojai taip pat gali tirti svarbiausių produktų (10–100) pelningumą skirtinguose organizacijos hierarchijos lygiuose pagal vieną iš toliau pateiktų kriterijų.</span><span class="sxs-lookup"><span data-stu-id="7e5dd-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   <span data-ttu-id="2c57f-106">Pardavimo suma</span><span class="sxs-lookup"><span data-stu-id="2c57f-106">Sales amount</span></span>
--   <span data-ttu-id="2c57f-107">Kiekis</span><span class="sxs-lookup"><span data-stu-id="2c57f-107">Quantity</span></span>
--   <span data-ttu-id="2c57f-108">Bruto pelno marža</span><span class="sxs-lookup"><span data-stu-id="2c57f-108">Gross profit margin</span></span>
--   <span data-ttu-id="2c57f-109">Maržos procentas</span><span class="sxs-lookup"><span data-stu-id="2c57f-109">Margin percentage</span></span>
+-   <span data-ttu-id="7e5dd-106">Pardavimo suma</span><span class="sxs-lookup"><span data-stu-id="7e5dd-106">Sales amount</span></span>
+-   <span data-ttu-id="7e5dd-107">Kiekis</span><span class="sxs-lookup"><span data-stu-id="7e5dd-107">Quantity</span></span>
+-   <span data-ttu-id="7e5dd-108">Bruto pelno marža</span><span class="sxs-lookup"><span data-stu-id="7e5dd-108">Gross profit margin</span></span>
+-   <span data-ttu-id="7e5dd-109">Maržos procentas</span><span class="sxs-lookup"><span data-stu-id="7e5dd-109">Margin percentage</span></span>
 
-<span data-ttu-id="2c57f-110">Šiam vertinimui atlikti galite naudoti parengtą naudoti ataskaitą **Svarbiausi produktai**, kurią galite atidaryti bet kurioje iš toliau pateiktų vietų.</span><span class="sxs-lookup"><span data-stu-id="2c57f-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="7e5dd-110">Šiam vertinimui atlikti galite naudoti parengtą naudoti ataskaitą **Svarbiausi produktai**, kurią galite atidaryti bet kurioje iš toliau pateiktų vietų.</span><span class="sxs-lookup"><span data-stu-id="7e5dd-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   <span data-ttu-id="2c57f-111">Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**</span><span class="sxs-lookup"><span data-stu-id="2c57f-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
--   <span data-ttu-id="2c57f-112">Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**.</span><span class="sxs-lookup"><span data-stu-id="2c57f-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
--   <span data-ttu-id="2c57f-113">Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Svarbiausių produktų ataskaita**</span><span class="sxs-lookup"><span data-stu-id="2c57f-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="7e5dd-111">Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**</span><span class="sxs-lookup"><span data-stu-id="7e5dd-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="7e5dd-112">Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvių valdymas** &gt; **Ataskaitos** &gt; **Svarbiausių produktų ataskaita**.</span><span class="sxs-lookup"><span data-stu-id="7e5dd-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="7e5dd-113">Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Svarbiausių produktų ataskaita**</span><span class="sxs-lookup"><span data-stu-id="7e5dd-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 
