@@ -1,6 +1,6 @@
 ---
 title: "Finansų valdymo pagrindinis puslapis"
-description: "Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
+description: "Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -25,22 +25,22 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Pagrindinis finansų valdymo puslapis
+# <a name="financial-management-home-page"></a><span data-ttu-id="a5f56-103">Pagrindinis finansų valdymo puslapis</span><span class="sxs-lookup"><span data-stu-id="a5f56-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
+<span data-ttu-id="a5f56-104">Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.</span><span class="sxs-lookup"><span data-stu-id="a5f56-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Norėdami apie funkcijų sritį sužinoti daugiau, ją pasirinkite.
-- [Mokėtinos sumos](accounts-payable\accounts-payable.md) 
-- [Gautinos sumos](accounts-receivable\accounts-receivable.md) 
-- [Grynųjų pinigų ir banko valdymas](cash-bank-management\cash-bank-management.md)
-- [Kaštų apskaita](cost-accounting\cost-accounting-home-page.md)
-- [Ilgalaikis turtas](fixed-assets\fixed-assets.md)
-- [Didžioji knyga](general-ledger\general-ledger.md) 
-- [Projektų valdymas](project-management\overview-project-management-accounting.md)
-- [Viešasis sektorius](public-sector\public-sector-functionality.md) 
-- [Biudžeto sudarymas](budgeting\budgeting-overview.md) 
+<span data-ttu-id="a5f56-105">Norėdami apie funkcijų sritį sužinoti daugiau, ją pasirinkite.</span><span class="sxs-lookup"><span data-stu-id="a5f56-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="a5f56-106">Mokėtinos sumos</span><span class="sxs-lookup"><span data-stu-id="a5f56-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="a5f56-107">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="a5f56-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="a5f56-108">Grynųjų pinigų ir banko valdymas</span><span class="sxs-lookup"><span data-stu-id="a5f56-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="a5f56-109">Kaštų apskaita</span><span class="sxs-lookup"><span data-stu-id="a5f56-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="a5f56-110">Ilgalaikis turtas</span><span class="sxs-lookup"><span data-stu-id="a5f56-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="a5f56-111">Didžioji knyga</span><span class="sxs-lookup"><span data-stu-id="a5f56-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="a5f56-112">Projektų valdymas</span><span class="sxs-lookup"><span data-stu-id="a5f56-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="a5f56-113">Viešasis sektorius</span><span class="sxs-lookup"><span data-stu-id="a5f56-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="a5f56-114">Biudžeto sudarymas</span><span class="sxs-lookup"><span data-stu-id="a5f56-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 
