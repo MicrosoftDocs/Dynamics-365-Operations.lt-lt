@@ -1,10 +1,9 @@
 # [Sveiki, čia – „Dynamics 365 for Talent“](index.md)
 
-# Darbo pradžia
+# [Darbo pradžia](talent-get-started.md)
 ## [Sistemos reikalavimai ir naujinimo strategija](talent-versions-update-policy.md)
 
-# Personalo strategijos kūrimas
-## [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](departments-jobs-positions.md)
+# [Personalo strategijos kūrimas](departments-jobs-positions.md)
 ## [Darbo komponentų nustatymas](create-job.md)
 ## [Padalinio kūrimas ir priskyrimas padalinių hierarchijai](create-department-add-department-hierarchy.md)
 ## [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](skills.md)
 ## [Mokymo kursų rengimas](courses.md)
 
-# Išmokų kūrimas ir tvarkymas
-## [Išmokų programos valdymas](manage-benefit-program.md)
-## [Teisės į išmoką strategijos](benefit-eligibility-policies.md)
-## [Darbuotojams paskolintų prekių valdymas](loan-items.md)
+# [Išmokų kūrimas ir tvarkymas](manage-benefit-program.md)
+# [Teisės į išmoką strategijos](benefit-eligibility-policies.md)
+## [Darbininkams paskolintų prekių valdymas](loan-items.md)
 
-# Informacijos rinkimas naudojant klausimynus
-## [Klausimynai](questionnaires.md)
+# [Informacijos rinkimas naudojant klausimynus](questionnaires.md)
 ## [Klausimyno sudarymas](design-questionnaires.md)
 ## [Klausimyno platinimas ir pildymas](distribute-questionnaires.md)
 ## [Klausimyno rezultatų įvertinimas](evaluate-questionnaire-results.md)

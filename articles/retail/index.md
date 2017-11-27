@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 „Microsoft Dynamics 365 for Retail‟ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais. Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų. „Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes. Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.
 
 > [!NOTE] 
-> „Dynamics 365 for Retail‟ yra glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimu ir „Dynamics 365 for Talent‟. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su pagrindiniu produktu („Finance and Operations“), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimas; temose, kurios pirmiausia susijusios su personalu, produkto pavadinimas bus „Dynamics 365 for Talent“. 
+> „Dynamics 365 for Retail‟ yra glaudžiai susijęs su „Dynamics 365 for Finance and Operations, Enterprise edition‟ ir „Dynamics 365 for Talent‟. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su pagrindiniu produktu („Finance and Operations“), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟; temose, kurios pirmiausia susijusios su personalu, produkto pavadinimas bus „Dynamics 365 for Talent“. 
 
 Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau.
 
@@ -74,7 +74,7 @@ Jei jūsų prašoma tinkinti savo aplinką arba esate atsakingi už visuotinį s
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 ### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/) svetainę.
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365‟ plano](https://roadmap.dynamics.com/) svetainę.
 
 ### <a name="blogs"></a>Tinklaraščiai
 [„Microsoft Dynamics 365‟ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog) galite rasti nuomonių, naujienų ir kitos informacijos apie „Retail‟ ir kitus sprendimus.

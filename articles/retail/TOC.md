@@ -1,7 +1,12 @@
 # [Sveiki, čia – „Dynamics 365 for Retail“](index.md)
 
-# Darbo pradžia
+# Pradžia
 ## [Kas nauja ar pasikeitė](get-started/whats-new.md)
+## [Prieš perkant „Dynamics 365 for Retail“](get-started/before-you-buy.md)
+## [Registravimasis prenumeratos peržiūros versijai gauti](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Visuotinis demonstracinės aplinkos diegimas](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Visuotinio diegimo parinktys](dev-itpro/choose-deployment.md)
+
 
 # Mokėjimai
 ## [Mokėjimo būdai](payment-methods.md)
@@ -38,10 +43,12 @@
 ## [„Retail” aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
 ## [„Retail” laikas ir buvimas darbe](retail-time-attendance.md)
 
-# Modernusis elektroninis kasos aparatas (MEKA) ir „Cloud POS‟
+# „Modern Point of Sale“ (MPOS) ir „Cloud POS“
+## [POS operacijos](POS-operations.md)
+## [MPOS / CPOS demonstracinių duomenų ekrano maketai](demo-data.md)
 ## Išoriniai aparatūros įrenginiai
 ### [„Retail” išorinių įrenginių apžvalga](retail-peripherals-overview.md)
-### [„Microsoft“ išbandyti EKA aparatūros išoriniai įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
+### [„Microsoft“ išbandyti išoriniai POS aparatūros įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
 ### [„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrano maketas
@@ -59,10 +66,11 @@
 ### [Kliento užsakymų apžvalga](customer-orders-overview.md)
 ### [Hibridiniai kliento užsakymai](hybrid-customer-orders.md)
 ## Pardavimo darbuotojai
-### [EKA komisinių sekimas naudojant pardavimo grupes](pos-sales-groups-track-commissions.md)
+### [POS komisinių sekimas naudojant pardavimo grupes](pos-sales-groups-track-commissions.md)
+## [Užsakymo siuntimas iš kitos parduotuvės](charge-send.md)
 ## Įrenginio aktyvinimas
 ### [MPOS konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
-### [„Cloud POS“ ir MEKA išplėstinės registracijos nustatymas](extended-logon.md)
+### [„Cloud POS“ ir MPOS išplėstinės registracijos nustatymas](extended-logon.md)
 ### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
 ## Kvitai
 ### [Kvitų šablonų nustatymas](receipt-templates-printing.md) 
@@ -171,8 +179,8 @@
 ### [„Retail‟ kanalo našumo „Power BI“ turinys](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Visuotinis diegimas ir karštosios pataisos
-### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [„Retail“ parduotuvių sistema (prieš pradedant)](dev-itpro/retail-store-system-begin.md)
+### [„Retail Store Scale Unit“ apžvalga](dev-itpro/retail-store-system-begin.md)
+#### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [„Retail Modern POS‟ konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
 #### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
 #### [„Retail POS‟ įrenginio suaktyvinimas](dev-itpro/retail-device-activation.md)
@@ -187,7 +195,8 @@
 ### [N-1 komponentų diegimas](dev-itpro/n-1-installation-configuration.md)
 
 ## Aplinkos konfigūracija
-### [„Bing“ žemėlapių tvarkymas](dev-itpro/manage-bing-maps.md)
+### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [„Bing“ žemėlapių valdymas](dev-itpro/manage-bing-maps.md)
 
 ## Išplečiamumas
 ### Elektroninis kasos aparatas
@@ -195,8 +204,9 @@
 ##### [EKA maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
 #### [MPOS autonominio režimo konfigūravimas](dev-itpro/retail-modern-pos-offline.md)
 #### [MPOS ir „Cloud POS‟ paleidiklių išplečiamumas](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Pasirinktinio valdiklio įtraukimas į EKA rodinį](dev-itpro/pos-custom-control.md)
-#### [EKA mokėjimo plėtinys](dev-itpro/pos-payment-extension.md)
+#### [Pasirinktinio valdiklio įtraukimas į POS rodinį](dev-itpro/pos-custom-control.md)
+#### [POS mokėjimo plėtinys](dev-itpro/pos-payment-extension.md)
+#### [Išorinių dovanų kortelių palaikymas](dev-itpro/gift-card.md)
 ### [Programos „Retail Experience‟ kūrimas](dev-itpro/create-retail-experience-app.md)
 ### [„Hardware Station‟ apžvalga ir išplečiamumas](dev-itpro/hardware-station-extensibility.md)
 
@@ -230,10 +240,16 @@
 ### [„Retail SDK‟ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kasos aparatai (Švedija)](localizations/emea-swe-cash-registers.md)
 ### [„Retail POS“ integravimo su kontrolės įtaisais Švedijoje pavyzdys](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [Kasos aparatai (Norvegija)](localizations/emea-nor-cash-registers.md)
+### [Visuotinio kasos aparatų diegimo gairės (Norvegija)](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [„Retail SDK‟ pakuotė](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [„Retail SDK‟ pavyzdžiai ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanalo duomenų bazės (DB) plėtiniai](dev-itpro/channel-db-extensions.md)
 ### [CDX išplečiamumas](dev-itpro/cdx-extensibility.md)
+### [Užsakymų atributai](dev-itpro/order-attributes.md)
+### [Klientų atributai](dev-itpro/customer-attributes.md)
+### [„Retail“ „Typescript“ ir C# tarpinis serveris](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## „Commerce Runtime‟
-### [Lojalumo pratęsimas](dev-itpro/retail-sdk/loyalty-extension-sample.md)
+### [Lojalumo plėtinys](dev-itpro/retail-sdk/loyalty-extension-sample.md)

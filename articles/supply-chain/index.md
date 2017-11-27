@@ -1,16 +1,16 @@
 ---
 title: "Pagrindinis modulio Tiekimo grandinės valdymas puslapis"
-description: "Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Finance and Operations“ modulį Tiekimo grandinės valdymas."
+description: "Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Šiame puslapyje nurodyti ištekliai, kurie padės efektyviau naudoti „Microsoft Dynamics 365 for Finance and Operations“ modulį Tiekimo grandinės valdymas. 
+Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
 
 ## <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365 Roadmap‟</a> svetainę. 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365‟ plano</a> svetainę. 
 
 ## <a name="core-concepts-and-tasks"></a>Pagrindinės koncepcijos ir užduotys
 
@@ -41,7 +41,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
 - [Kaštų apskaita](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Kaštų valdymas](cost-management/costing-sheets.md)  
-- [Atsargų valdymas](inventory/consignment.md)
+- [Atsargų valdymas](inventory/inventory-home-page.md)
 - [Bendrasis planavimas](master-planning/introduction-demand-forecasting.md)
 - [Paraiškos](procurement/procurement-sourcing-overview.md)
 - [Produkto informacijos valdymas](pim/product-information.md)

@@ -1,16 +1,16 @@
 ---
-title: "Grynųjų pinigų ir banko valdymo pagrindinis puslapis"
+title: "Pagrindinis modulio Grynųjų pinigų ir banko valdymas puslapis"
 description: "Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su tomis banko sąskaitomis."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -86,11 +86,11 @@ Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio 
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/) svetainę. 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365‟ plano](https://roadmap.dynamics.com/) svetainę. 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-[„Microsoft Dynamics 365‟ tinklaraštyje] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Grynųjų pinigų ir banko valdymas bei kitus sprendimus.
+Nuomonių, naujienų ir kitos informacijos apie modulį Grynųjų pinigų ir banko valdymas bei kitus sprendimus galite rasti [„Microsoft Dynamics 365‟ tinklaraštyje] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
 Daug įrašų apie modulį Grynųjų pinigų ir banko valdymas galima rasti [„Microsoft Dynamics AX‟ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Grynųjų pinigų ir banko valdymas versijai, galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje taip pat yra panašios.
 
