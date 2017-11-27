@@ -3,7 +3,7 @@ title: "„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 description: "„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ dokumentacija."
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/13/2017
 
 ---
 
@@ -67,7 +67,7 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 
 <h3><a href="../supply-chain/index.md">Tiekimo grandinės valdymas</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kaštų valdymas</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">Atsargų valdymas</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">Atsargų valdymas</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Bendrasis planavimas</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Paraiškos</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Produkto informacijos valdymas</a></p>
@@ -86,9 +86,12 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 
 
 
-<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Tobulėjimas</h3>
+<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Kūrimas</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Išplečiamumas</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymas ir integravimas</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">Duomenų integravimas</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymas</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">„Office“ integravimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Nuolatinis pristatymas</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobilioji platforma</a></p>
@@ -97,8 +100,8 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administravimas</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinis diegimas</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Versijos naujinimas</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">Aptarnavimas</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">Duomenų valdymas</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Aptarnavimas</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymo sistema</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">„Lifecycle Services“</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Organizacijos administravimas</a></p>
 </td>
