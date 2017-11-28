@@ -3,14 +3,14 @@ title: "Biudžeto planavimo integravimas su kitais moduliais"
 description: "Biudžeto planus galima generuoti iš kelių skirtingų išteklių. Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų išteklių elementai."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 311a5cbd3768d8ecc7e7430717369193e60c3e57
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -59,7 +59,7 @@ Galima naudoti tris bet kurio generavimo proceso veiksmus, nurodytus toliau.
 
 Skirta visiems procesams: skirtuke **Šaltinis** galima filtruoti duomenis naudojant mygtuką **Filtras**. Pagal numatytuosius parametrus kiekvieno proceso konkretūs laukai yra įtraukiami į filtrą. Pvz., jei vykdomas procesas **Generuoti biudžeto planą pagal didžiąją knygą**, galima naudoti kategorijas **DK sąskaita** ir **Pagrindinė sąskaita** ir jos yra rodomos generavimo puslapyje. Į puslapį įtraukiami visi į filtrą įtraukti laukai bei kiti jūsų nurodyti kriterijai.
 
-### <a name="target"></a>Tikslas
+### <a name="target"></a>Uždavinys
 
 Skirtuko **Paskirtis** parinktis **Retrospektyvinis** suteikia galimybę šaltinio duomenų datas naudoti kaip biudžeto plano įsigaliojimo datą. Paprastai įsigaliojimo data patekti į plano biudžeto ciklą. Kai parinktį **Retrospektyvinis** nustatote į **Taip**, naudojama šaltinio data (ir net metai), todėl praeities duomenis galima naudoti kaip lyginimo pagrindą. Biudžeto plano retrospektyvinių duomenų modifikuoti negalima ir yra nustatyta patvirtinta plano darbo eigos būsena. Tačiau būseną galima nustatyti iš naujo , jei reikia keisti kitus plano scenarijus.
 

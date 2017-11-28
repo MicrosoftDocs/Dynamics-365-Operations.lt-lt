@@ -1,9 +1,9 @@
 ---
-title: "Gamybos proceso apžvalga"
-description: "Šiame straipsnyje apžvelgti gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo."
+title: "Gamybos procesų apžvalga"
+description: "Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="production-process-overview"></a>Gamybos proceso apžvalga
+# <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje apžvelgti gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo. 
+Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo. 
 
 Produktų gamyba, procesas, kartais dar vadinamas gamybos ciklu, vykdoma atliekant konkrečius veiksmus, kurių reikia norint pagaminti prekę. Ciklas pradedamas sukūrus gamybos užsakymą, užsakymo paketą arba „kanban“. Jis baigiamas pagaminus prekę, parengtą pateikti klientui, arba kitu gamybos etapu. Kiekvienam proceso ciklo veiksmui būtina skirtinga informacija, kad būtų užbaigtas procesas. Užbaigus kiekvieną veiksmą, gamybos užsakyme, užsakymo pakete arba „kanban“ rodoma, kad pasikeitė gamybos būsena. Skirtingiems produktams reikia skirtingų gamybos procesų.  
 
@@ -56,7 +56,7 @@ Norėdami pasirinkti gamybos principą, kuris labiausiai tinka konkrečiam produ
 -   **Gamyba siekiant saugoti** – tai klasikinis gamybos principas, kai produktai gaminami siekiant saugoti remiantis prognoze arba minimalioms atsargoms papildyti (tai paprastai apskaičiuojama pagal prognozę ar istorinius suvartojimo duomenis).
 -   **Gamyba užsakyti** – standartiniai produktai gaminami arba baigiami, kad būtų užsakomi. Nors pasirengiama gamybai gali būti taikant gamybos siekiant saugoti principą, vertės grandinės brangūs veiksmai arba veiksmai, kuriuos atliekant kuriami variantai, suaktyvinami pardavimo užsakymo ar perkėlimo užsakymo.
 -   **Konfigūravimas užsakymui** – kaip ir taikant gamybos užsakyti principą, galutinės vertės grandinės operacijos skirtos užsakyti. Sukuriamas faktinis produkto variantas nėra iš anksto nustatytas, bet sukuriamas įvedant užsakymą, pagrįstas pardavimo produkto konfigūracijos modeliu. Principui Konfigūravimas užsakymui reikalingas konkrečios produkto eilutės tam tikras proceso susijungimo lygis.
--   **Projektavimas užsakymui** – projektavimo užsakymui procesai paprastai sprendžiami pagal projektą ir paprastai prasideda projektavimo etape. Projektavimo etape suprojektuojamas ir aprašomas faktinis produktas, kurio reikia siekiant įvykdyti užsakymą. Tada gali būti sukurti gamybos užsakymai, paketiniai užsakymai arba „kanban“, kad būtų galima gaminti produktus.
+-   **Projektavimas užsakymui** – projektavimo užsakymui procesai paprastai sprendžiami pagal projektą ir paprastai pradedami projektavimo etape. Projektavimo etape suprojektuojamas ir aprašomas faktinis produktas, kurio reikia siekiant įvykdyti užsakymą. Tada gali būti sukurti gamybos užsakymai, paketiniai užsakymai arba „kanban“, kad būtų galima gaminti produktus.
 
 ## <a name="overview-of-the-production-life-cycle"></a>Gamybos proceso ciklo apžvalga
 Visų mišriojo režimo gamybos užsakymų tipų gamybos cikle galimi toliau nurodyti veiksmai. Tačiau ne visi jie nurodomi kaip aiški užsakymo būsena.

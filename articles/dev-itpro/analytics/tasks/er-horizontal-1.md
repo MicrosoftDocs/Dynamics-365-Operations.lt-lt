@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0cd1de95630d0f7c40c3b9948015892623a93686
+ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
+ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 # <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Formato kūrimas, kad norint elektroninėse ataskaitose (ER) dinamiškai įtraukti stulpelius į „Excel“ ataskaitas būtų naudojami horizontaliai išplečiami diapazonai
@@ -36,7 +36,8 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite baigti šiuos tris užduoč
 
 „ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis: modelio susiejimas)“
 
-Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos pavyzdžiu, esančią čia: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos pavyzdžiu, esančią čia [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+
 
 Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
 

@@ -3,7 +3,7 @@ title: "Gamybos subrangos darbų valdymas"
 description: "Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Kai naudojama ši konfigūracija, įvertinus gamybos užsakymą sukuriamas susij
 Gamybos užsakyme gali būti daug operacijų ir kiekviena operacija gali būti paskirstyta kitam tiekėjui. Todėl galutiniam gamybos užsakymui įvykdyti gali reikėti kelių pirkimo užsakymų.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subrangos arba gamybos eigos veiklos
-[lean manufacturing](lean-manufacturing-overview.md) sprendimas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su [gamybos eigos](tasks/create-production-flow-version.md) veikla (užduočių vedlio tema). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
+[„Lean manufacturing“](lean-manufacturing-overview.md) sprendimas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su [gamybos eigos](tasks/create-production-flow-version.md) veikla (užduočių vedlio tema). Todėl šio tipo subranga dar vadinama [veikla pagrįsta subranga.](activity-based-subcontracting.md) Pristatytas specialus išlaidų grupės tipas **Tiesioginė subranga** ir subrangos paslaugos nėra baigtų prekių KS dalis. Kai naudojate „lean manufacturing“, visos veiklos nurodomos naudojant „kanban“, kurias galima susieti su viena ar keliomis gamybos eigos veiklomis. Šis apibūdinimas yra panašus į gamybos užsakymų apibrėžimą. Tačiau gamybos užsakymai visada turi būti pasibaigti baigtu produktu, pusiau baigtam produktui tiekti galite kurti „kanban“. Nereikia įtraukti naujo produkto ir KS lygio.  
 
 Kadangi „kanban“ taisyklės gali būti labai dinamiškos, gamybos eigoje galite modeliuoti skirtingas to pačio produkto tiekimo parinktis. Kai naudojate „lean“ subrangą, medžiagų srautas ir finansų srautas yra aiškiai atskirti. Visą medžiagų srautą nurodo „kanban“ veiklos. Paslaugos produktų gamybos užsakymus ir tų paslaugų gavimo registravimą galima automatizuoti, atsižvelgiant į gamybos eigos „kanban“ užduočių būseną. „Kanban“ užduotis galima pradėti ir baigti net prieš sukuriant pirkimo užsakymus. Subrangos dokumentus (paslaugos pirkimo užsakymą ir pirkimo gavimo dokumentą) galima sujungti pagal laikotarpį ir paslaugą. Todėl mažą pirkimo dokumentų ir eilučių skaičių galima išlaikyti net itin pasikartojančiose operacijose, kai tiekėjai subrangos paslaugas teikia vieningu srautu.
 

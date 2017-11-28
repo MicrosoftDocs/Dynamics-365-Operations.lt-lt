@@ -1,9 +1,9 @@
 ---
-title: KS konstruktoriaus funkcija
-description: "Šiame straipsnyje aprašyta, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse."
+title: "KS kūrimo įrankio funkcija"
+description: "Šioje temoje aprašoma, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-designer-functionality"></a>KS konstruktoriaus funkcija
+# <a name="bom-designer-functionality"></a>KS kūrimo įrankio funkcija
 
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyta, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse.
+Šioje temoje aprašoma, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse.
 
 Atidarius puslapį **KS konstruktorius** iš puslapio **Išleisti produktai**, rodoma KS hierarchija tų pasirinktos prekės sąskaitų, kurios yra aktyvios ir patvirtintos, numatytąją prekės užsakymo svetainę ir faktinę datą.  
 
@@ -66,7 +66,7 @@ KS konstruktoriaus antraštėje rodomas filtras, taikomas KS ir maršrutui. Gali
 <tbody>
 <tr class="odd">
 <td>Produktų dimensijos</td>
-<td>Jei pasirinktas baigtas produktas yra bendrasis produktas, galite apibrėžti pagrindinio pasirinkto produkto aktyvias dimensijas. <strong>Pastaba.</strong> Atidarius KS konstruktorių produkto, kuris nėra bendrasis produktas, dialogo lange <strong>Filtras</strong> produkto dimensijų pasirinkti negalima.</td>
+<td>Jei pasirinktas baigtas produktas yra bendrasis produktas, galite nurodyti pagrindines pasirinktas aktyvias produkto dimensijas. <strong>Pastaba.</strong> Atidarius ne bendrojo produkto KS konstruktorių dialogo lange <strong>Filtras</strong>, produkto dimensijų pasirinkti negalima.</td>
 </tr>
 <tr class="even">
 <td>Svetainė</td>

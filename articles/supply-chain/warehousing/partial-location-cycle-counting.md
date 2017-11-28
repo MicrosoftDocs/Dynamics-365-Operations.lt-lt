@@ -3,7 +3,7 @@ title: "Dalinis vietos ciklų skaičiavimas"
 description: "Faktinės skaičiavimo operacijos valdomos pagal ciklo skaičiavimo planus. Galite reikalauti, kad būtų skaičiuojamos ne visos vietoje turimos atsargos, o tik konkretūs produktai ir produkto variantai."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ Pavyzdžiui, 61 sandėlyje turi būti skaičiuojamas tik prekės numeris A0001.
 
 1.  Sukuriamas naujas ciklo skaičiavimo darbo šablonas. Parinktis **Darbo eilučių lūžiai** naudojama skaičiavimo darbo eilutėms grupuoti pagal prekės numerį. Todėl sukurtas ciklo skaičiavimo darbas turės eilutes pagal prekės numerį. Eilutes taip pat galite grupuoti pagal produkto varianto numerį.
 2.  Sukuriamas naujo ciklo skaičiavimo planas, kuriame pateikiama nuoroda į naujai sukurtą darbo šabloną. Ciklo skaičiavimo planas apima visas 61 sandėlyje esančias vietas (užklausa **Pasirinkti vietas**), kuriose yra atsargų pagal prekės numerį A0001. Konkrečių produktų pasirinkimas nurodytas skyriuje **Ciklo skaičiavimo produktų pasirinkimas**.
-3.  Galite pasirinkti ciklo skaičiavimo planų produktus, nustatydami lauko **Tuščios vietos** reikšmę **Neįtraukti tuščių**. Apdorojus ciklo skaičiavimo planą, sukuriamas dalinis ciklo skaičiavimo darbas prekės numeriui A0001. Faktinis skaičiavimo procesas gali būti atliekamas naudojant mobiliojo įrenginio meniu elementą, skirtą valdomam ciklo skaičiavimui.
+3.  Galite pasirinkti ciklo skaičiavimo planų produktus, nustatydami lauką **Tuščios vietos** į **Neįtraukti tuščių**. Apdorojus ciklo skaičiavimo planą, sukuriamas dalinis ciklo skaičiavimo darbas prekės numeriui A0001. Faktinis skaičiavimo procesas gali būti atliekamas naudojant mobiliojo įrenginio meniu elementą, skirtą valdomam ciklo skaičiavimui.
 
 
 

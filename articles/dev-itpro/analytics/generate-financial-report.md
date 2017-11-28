@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą. 
 
-Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada spustelėkite įrankių juostos mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje.
-| ![Pastaba](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Pastaba")**Pastaba**        |
-|------------------------------------------------------------------------------------------------|
-| Sugeneruotos ataskaitos gali būti tik tuose aplankuose ir vietose, kurias turite teisę pasiekti. |
+Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada spustelėkite įrankių juostos mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.
+
+> [!NOTE]
+> Sugeneruotos ataskaitos gali būti tik tuose aplankuose ir vietose, kurias turite teisę pasiekti.
 
 Toliau pateikiamoje lentelėje paaiškinamos parinktys, galimos generuojant ataskaitas.
 
@@ -50,10 +50,11 @@ Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Atask
 ## <a name="schedule-report-generation"></a> Ataskaitų generavimas pagal grafiką
 Daugelis įmonių turi pagrindinių ataskaitų, kurios vykdomos suplanuotais intervalais, kad atitiktų verslo procesus. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
 
-Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei vieną tvarkaraščio ataskaita nevykdoma, visos kitos ataskaitos bus vykdomos toliau.
-| ![Svarbu](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Svarbu")**Svarbu**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kad galėtumėte kurti, modifikuoti ir naikinti ataskaitų grafikus, turite turėti dizainerio arba administratoriaus vaidmenį. Vykdant ataskaitą, vartotojo, sukūrusio grafiką, kredencialai naudojami ataskaitai generuoti. |
+Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei viena į grafiką įtraukta ataskaita nepaleidžiama, visos kitos ataskaitos bus paleidžiamos.
+
+> [!IMPORTANT]
+> Norint kurti, modifikuoti ar panaikinti ataskaitų grafikus, jums turi būti suteiktas dizainerio arba administratoriaus vaidmuo. Vykdant ataskaitą, vartotojo, sukūrusio grafiką, kredencialai naudojami ataskaitai generuoti.
+
 
 ### <a name="create-a-report-schedule"></a>Ataskaitų grafiko kūrimas
 
@@ -99,15 +100,16 @@ Norėdami tęsti, dialogo lange Ataskaitų planavimas spustelėkite mygtuką Tei
 ## <a name="missing-account-analysis-feature"></a>Trūkstamų sąskaitų analizės funkcija
 Galite ieškoti finansinių sąskaitų ir dimensijų, kurių gali trūkti visuose eilučių aprašuose, ataskaitų medžio aprašuose ir ataskaitų aprašuose kūrimo bloko grupėje. Tai naudinga kuriant arba naujinant keletą sąskaitų arba kūrimo blokų per trumpą laikotarpį, ir norint patikrinti, ar į ataskaitas įtraukta visa nauja informacija.
 
-Trūkstamos sąskaitos nustatomos naudojant mažiausią ir didžiausią reikšmes iš eilutės aprašo arba ataskaitų medžio aprašo, ir tada rodomas sąskaitų, kurių nėra eilutės apraše arba ataskaitų medžio apraše, bet kurios yra finansinių duomenų informacijoje, sąrašas. Jei trūkstama sąskaita yra didesnė arba mažesnė už eilutės apibrėžimo reikšmes, ta sąskaita į trūkstamų sąskaitų sąrašą neįtraukiama.
-| ![Patarimas](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Patarimas")**Patarimas**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Siekiant patikrinti, šį procesą reikėtų vykdyti prieš generuojant mėnesio ataskaitas ir kuriant naujus kūrimo blokus. |
+Trūkstamos sąskaitos nustatomos naudojant mažiausią ir didžiausią reikšmes iš eilutės aprašo arba ataskaitų medžio aprašo, ir tada rodomas sąskaitų, kurių nėra eilutės apraše arba ataskaitų medžio apraše, bet kurios yra finansinių duomenų informacijoje, sąrašas. Jei trūkstamos sąskaitos vertė yra didesnė arba mažesnė nei eilutės apraše nurodyta vertė, ta sąskaita į trūkstamų sąskaitų sąrašą neįtraukiama.
+
+> [!TIP]
+> Tikrinimo tikslais šį procesą reikia paleisti prieš generuojant mėnesio ataskaitas ir kuriant naujus kūrimo blokus.
 
 Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diapazonus. Jei įmanoma, naudokite diapazonus kūrimo bloke, kad būtų įtrauktos naujos sukurtos sąskaitos. Jei nustatyta, kad ataskaitos aprašas yra @ANY įmonės, galite prisijungti prie konkrečios įmonės ir vykdyti tos įmonės trūkstamų sąskaitų analizę.
-| ![Pastaba](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Pastaba")**Pastaba**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jei buvo įtraukta nauja įmonė, turite įtraukti naują įmonę į ataskaitų medžius visose esamose ataskaitose, arba įmonė nebus įtraukta į trūkstamų sąskaitų analizę. |
+
+> [!NOTE]
+> Jei buvo įtraukta nauja įmonė, turite įtraukti naują įmonę į ataskaitų medžius visose esamose ataskaitose, arba įmonė nebus įtraukta į trūkstamų sąskaitų analizę.
+
 
 ### <a name="run-missing-account-analysis"></a>Trūkstamų sąskaitų analizės vykdymas
 
@@ -117,11 +119,11 @@ Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diap
 4.  Lauke Grupuoti pagal pažymėkite rezultatų rikiavimo parinktį. Rezultatus galima rikiuoti pagal konkretų kūrimo bloką arba dimensiją ir verčių rinkinius.
 5.  Peržiūrėkite pateiktus rezultatus. Pažymėjus viršutinėje srityje esantį elementą, apatinėje srityje pateikiama papildomos informacijos apie išimtį. Nurodomos susijusios dimensijos, vertės ir ataskaitos.
 6.  Norėdami atidaryti paveiktą elementą, spustelėkite susietą piktogramą rodoma sąrašo srityje, arba spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite Atidaryti. Norėdami pasirinkti kelis elementus, apatinėje srityje pažymėkite juos laikydami nuspaudę klavišą Ctrl.
-7.  Jei grąžinama reikšmių, kūrimo blokų arba ataskaitų, kurios neturi būti įtrauktos į analizę, spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite Neįtraukti arba pažymėkite žymės langelį Neįtraukti, esantį šalia elemento, kad pašalintumėte elementą iš sąrašo. Neįtraukti elementai neįtraukiami atnaujinus sąrašą. Norėdami pasirinkti kelis elementus, apatinėje srityje pažymėkite juos laikydami nuspaudę klavišą Ctrl. Norėdami peržiūrėti visus elementus, įskaitant visus rezultatus, kurių anksčiau pasirinkote neįtraukti į analizę, pažymėkite žymės langelį Rodyti neįtrauktus kūrimo blokus ir reikšmes ir tada spustelėkite Atnaujinti.
-8.  Spustelėkite Atnaujinti, kad būtų atkurtos išimtys, su kuriomis atlikote veiksmus. Spustelėkite Taip, norėdami visiškai atnaujinti visus rezultatus, arba Ne, norėdami iš dalies atnaujinti sutvarkytus elementus.
-    | ![Pastaba](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Pastaba")**Pastaba**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Forma automatiškai atnaujinama ją atidarant, išskyrus atvejus, kai forma buvo atidaryta per paskutines 15 minučių. |
+7.  Jei grąžinama reikšmių, kūrimo blokų arba ataskaitų, kurios neturi būti įtrauktos į analizę, spustelėkite elementą dešiniuoju pelės klavišu ir pasirinkite Neįtraukti arba pažymėkite žymės langelį Neįtraukti, esantį šalia elemento, kad pašalintumėte elementą iš sąrašo. Neįtraukti elementai neįtraukiami atnaujinus sąrašą. Norėdami pažymėti kelis elementus, laikykite nuspaudę klavišą „Ctrl“ ir žymėkite elementus apatinėje srityje. Norėdami peržiūrėti visus elementus, kuriuos anksčiau pažymėjote kaip neįtrauktinus į analizę, pažymėkite žymės langelį Rodyti neįtrauktus kūrimo blokus ir vertes, o tada spustelėkite Atnaujinti.
+8.  Spustelėkite Atnaujinti, kad būtų atkurtos išimtys, su kuriomis atlikote veiksmus. Spustelėkite Taip, kad būtų atnaujinti visi rezultatai, arba Ne, kad būtų atnaujinti tik tie elementai, su kuriais atlikote veiksmus.
+
+    > [!NOTE]
+    > Atidaroma forma automatiškai atkuriama, nebent ji buvo atidaryta per pastarąsias 15 min.
 
 9.  Išsprendę problemas spustelėkite Gerai, kad uždarytumėte dialogo langą.
 

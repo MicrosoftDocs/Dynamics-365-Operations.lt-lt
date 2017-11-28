@@ -1,9 +1,9 @@
 ---
 title: "Produkto variantų numerių ir pavadinimų nomenklatūra"
-description: "Šioje temoje aprašoma, kaip nustatyti produkto numerių nomenklatūrą, norint pakeisti fiksuotą [bendrojo produkto numeris – konfigūracija – dydis – spalva – stilius] formatą. Naujojoje nomenklatūroje naudojamas tikslinis formatas, kuris apima bendrojo produkto numerį, aktyvias produkto dimensijas ir pasirinktus teksto skyriklius. Taip pat galite kurti produkto pavadinimų nomenklatūrą. Galiausiai galite kurti nomenklatūrą, norėdami nustatyti konfigūracijas, kurias sukūrė apribojimais pagrįstas produkto konfigūratorius. Į šias nomenklatūras galima įtraukti pasirinktus atributus."
+description: "Šioje temoje aprašoma, kaip nustatyti produkto numerių nomenklatūrą, norint pakeisti fiksuotą [bendrojo produkto numeris – konfigūracija – dydis – spalva – stilius] formatą."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Gaminami trijų dydžių (S, M, L), keturių spalvų (raudona, žalia, mėlyna, 
 
 Šiuo atveju raudonų S dydžio Polo marškinėlių produkto varianto numeris bus: TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Konfigūravimo pagal apribojimus nomenklatūra
+## <a name="nomenclature-of-constraint-based-configurations"></a>Konfigūravimo pagal apribojimus nomenklatūra
 Atliekant konfigūravimą pagal apribojimus galima kurti specialią konfigūracijos produkto dimensijos nomenklatūrą. Puslapyje **Produkto nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
 
 -   Numeracijos reikšmė
@@ -92,7 +92,7 @@ Galite kurti konfigūracijos nomenklatūrą, kurioje yra toliau nurodyti segment
 
 Šiuo atveju medžiagos iš medžio, kurios ilgis 78, konfigūracijos ID bus: WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Konfigūravimo pagal dimensijas nomenklatūra
+## <a name="nomenclature-of-dimension-based-configurations"></a>Konfigūravimo pagal dimensijas nomenklatūra
 Atliekant konfigūravimą pagal dimensijas galima kurti specialią konfigūracijos produkto dimensijos nomenklatūrą. Puslapyje **Produkto nomenklatūra** galite pasirinkti toliau nurodytus segmentus.
 
 -   Numeracijos reikšmė

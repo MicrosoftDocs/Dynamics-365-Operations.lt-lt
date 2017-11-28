@@ -3,7 +3,7 @@ title: "Projektų valdymas ir apskaita"
 description: "Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -251,7 +251,7 @@ Toliau pateikiamoje lentelėje aprašomi projekto baigimo savikainos apskaičiav
 </tr>
 <tr class="odd">
 <td>Nustatyti, kad išlaidos baigtųsi nuliu</td>
-<td>Paprastai šis metodas naudojamas prieš pašalinant įvertinimo projektą. Šis metodas sugretina bendruosius įvertinimus ir užregistruotas faktines operacijas bei išvalo stulpelį <strong>Baigimo savikaina</strong>. Gautas baigimo procentas visada yra 100 procentų. Kiekvienai jūsų sukurtai išlaidų eilutei laukas <strong>Prognozavimas</strong> nepasirenkamas, o bendrasis įvertinimas nukopijuojamas iš ankstesnio išlaidų įvertinimo. Faktinis sunaudojimas įvertinimo laikotarpiu atskaitomas iš projekto baigimo savikainos. Naudojant šį metodą, prognozės modelio nereikia.</td>
+<td>Paprastai šis metodas naudojamas prieš pašalinant įvertinimo projektą. Šis metodas sugretina bendruosius įvertinimus ir užregistruotas faktines operacijas bei išvalo stulpelį <strong>Baigimo savikaina</strong>. Gautas baigimo procentas visada yra 100 procentų. Kiekvienai jūsų sukurtai išlaidų eilutei laukas <strong>Prognozavimas</strong> nepasirenkamas, o bendrasis įvertinimas nukopijuojamas iš ankstesnio išlaidų įvertinimo. Faktinis įvertinimo laikotarpio suvartojimas atskaitomas iš projekto savikainos. Šiam metodui nereikia prognozės modelio.</td>
 </tr>
 <tr class="even">
 <td>Iš sąnaudų šablono</td>

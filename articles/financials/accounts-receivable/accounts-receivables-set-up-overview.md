@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,9 +36,8 @@ Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąska
 Galite nustatyti klientų grupes, klientus, registravimo šablonus, įvairias mokėjimo pasirinktis, delspinigių pažymas, priminimo laiškus, komisinius, parametrus, susijusius su klientais, išlaidomis, pristatymais ir kryptimis, įsakomaisiais vekseliais ir kitų tipų Gautinų sumų bei Kredito ir surinkimo informaciją.
 Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų bei Kredito ir surinkimo konfigūravimą bei priežiūrą. Lentelės įrašai sisteminami pagal užduotį ir abėcėlės tvarka pagal puslapio pavadinimą.
 
-| ![Pastaba](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Pastaba")**Pastaba**          |
-|--------------------------------------------------------------------------------------------------|
-| Kai kurie puslapiai toliau pateiktoje lentelėje reikalauja informacijos arba parametrų nuostatų, norint po juos naršyti. |
+> [!NOTE]
+> Kai kurių puslapių toliau pateiktoje lentelėje pasiekti negalite, nebent duomenys arba parametrų nustatymai įvesti kituose puslapiuose.
 
 | Užduotis                                                 | Puslapio pavadinimas                            | Naudojimas                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

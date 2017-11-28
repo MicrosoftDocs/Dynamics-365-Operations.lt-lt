@@ -3,7 +3,7 @@ title: "Kurkite įtraukiančius supažindinimo su darbu planus"
 description: "Kai nauji darbuotojai tinkamai supažindinami su darbu, jie suvokia, kad yra naujosios organizacijos dalis."
 author: tbisaacs
 manager: 
-ms.date: 05/04/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Talent
@@ -14,10 +14,10 @@ ms.search.region: Global
 ms.author: tbisaacs
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0baea020763465fcfd1b3718ff2e60de6b335143
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: c62ad20a1e3aa3bae71b07b6f5aecb5908a90a65
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -67,7 +67,7 @@ Ryšiai yra labai svarbūs, kad nauji samdiniai galėtų greičiau pradėti dirb
 
 ## <a name="provide-training"></a>Samdinius apmokykite
 
-Naujam samdiniui suteikite pasitikėjimo ir įrankių, kurių reikia norint sėkmingai dirbti. Reikia pradėti nuo aiškaus jų atsakomybės sričių apibrėžimo ir jūsų lūkesčių bei to, kaip juos įgyvendinti, nustatymo. Tada sukurkite mokymo planą, orientuotą į įgūdžius, kurių jiems reikia jūsų lūkesčiams pateisinti. Nesusitelkite tik ties atitikties mokymais.
+Naujam samdiniui suteikite pasitikėjimo ir įrankių, kurių reikia norint sėkmingai dirbti. Reikia pradėti nuo aiškaus jų atsakomybės sričių apibrėžimo ir jūsų lūkesčių bei to, kaip jie bus įgyvendinti, nustatymo. Tada sukurkite mokymo planą, orientuotą į įgūdžius, kurių jiems reikia jūsų lūkesčiams pateisinti. Nesusitelkite tik ties atitikties mokymais.
 
 ## <a name="set-clear-milestones"></a>Nustatykite aiškius etapus
 

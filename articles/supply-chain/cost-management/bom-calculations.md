@@ -1,7 +1,7 @@
 ---
 title: "BOM skaičiavimai"
 description: "Išlaidų susumavimas ir pardavimo kainos apskaičiavimas vadinamas komplektavimo specifikacijų (KS) skaičiavimais, kuriuos galite inicijuoti skaičiavimų puslapyje. Šioje temoje pateikiama informacija apie KS skaičiavimus."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Naudojant pagrįstų išlaidų antkainio metodą, apskaičiuota prekės pardavim
 -   **Prekės ir nurodytos įkainojimo versijos KS skaičiavimas** – KS skaičiavimas įkainojimo versijoje generuoja laukiančios pardavimo kainos įrašą. Šis pardavimo kainos įrašas padeda peržiūrėti išsamią skaičiavimo informaciją (pavyzdžiui, puslapyje **Skaičiuoti prekės išlaidas**). Pardavimo kainos įrašas dažniausiai veikia kaip nuorodos informacija, tačiau jis nenaudojamas kaip pardavimo kainos ir pardavimo užsakymo pagrindas.
 -   **Specialaus užsakymo KS skaičiavimas** – **KS**skaičiavimo puslapio nuokrypis naudojamas pardavimo užsakymo, pardavimo pasiūlymo arba aptarnavimo užsakymo eilutės elemento kontekste. Specialaus užsakymo KS skaičiavimo metu įkainojimo versijoje nesugeneruojamas įrašas. Tokiu atveju generuojamas skaičiavimo įrašas, rodomas puslapyje **KS skaičiavimo rezultatai**. Šis skaičiavimo įrašas padeda peržiūrėti išsamią skaičiavimo informaciją (pavyzdžiui, puslapyje **Skaičiuoti prekės išlaidas**). Informaciją apie pasirinktą skaičiavimo įrašą galima perkelti į pradinį eilutės elementą. Pavyzdžiui, apskaičiuotą pardavimo kainą galima perkelti į pardavimo užsakymo eilutės elementą.
 
-## <a name="orderspecific-bom-calculations"></a>Specialaus užsakymo KS skaičiavimai
+## <a name="order-specific-bom-calculations"></a>Specialaus užsakymo KS skaičiavimai
 Specialaus užsakymo KS skaičiavimas pristato KS skaičiavimo nuokrypį, reikalingą prekei pagaminti. Specialaus užsakymo KS skaičiavimas vykdomas pardavimo užsakymo, pardavimo pasiūlymo ar aptarnavimo užsakymo eilutės elemento kontekste. Specialaus užsakymo KS skaičiavimas generuoja skaičiavimo įrašą, rodomą puslapyje **KS skaičiavimo rezultatai**. Į skaičiavimo įrašą įtraukiamas apskaičiuotas svoris, pagal aktyvių išlaidų įrašus apskaičiuotas išlaidas ir apskaičiuotą pardavimo kainą. Kiekvienos prekės specialaus užsakymo KS skaičiavimas generuoja skaičiavimo įrašą puslapyje **KS skaičiavimo rezultatai** unikaliai nurodytu skaičiavimo numeriu. Skaičiavimo įrašo rezultatai gali būti pasirinktinai perkelti į kuriamos eilutės elementą. Specialaus užsakymo KS skaičiavimas skiriasi nuo KS skaičiavimo, reikalingo prekei pagaminti, todėl skaičiavimai atliekami dviem būdais:
 
 -   Specialaus užsakymo KS skaičiavimo metu įkainojimo versijoje nesugeneruojamas prekės išlaidų įrašas. Todėl KS skaičiavimo strategijos netaikomos tada, kai sukuriamas arba perrašomas prekės išlaidų įrašas.

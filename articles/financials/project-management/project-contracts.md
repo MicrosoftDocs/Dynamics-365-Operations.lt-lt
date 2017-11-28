@@ -1,9 +1,9 @@
 ---
 title: Projekto sutartys
-description: "Šiame straipsnyje aprašomos projektų sutartys, kurias galite kurti įvairių tipų projektams ir lėšų skyrimo šaltiniams, aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime galima valdyti sutartis ir projektų klientams išrašyti sąskaitas faktūras bei pateikiama viso to pavyzdžių."
+description: "Šioje temoje aprašomos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikiami sutarčių pavyzdžiai ir aiškinama, kaip galima „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidime valdyti sutartis ir klientams išrašyti sąskaitas faktūras."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašomos projektų sutartys, kurias galite kurti įvairių tipų projektams ir lėšų skyrimo šaltiniams, aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime galima valdyti sutartis ir projektų klientams išrašyti sąskaitas faktūras bei pateikiama viso to pavyzdžių.
+Šiame straipsnyje aprašomos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikiami sutarčių pavyzdžiai ir aiškinama, kaip galima „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidime valdyti sutartis ir klientams išrašyti sąskaitas faktūras.
 
 Jūsų sukurtas projekto sutarties tipas nustato metodą, kuris naudojamas išrašyti SF projekto klientams. Galite keisti projekto sutartį ir susijusį projektą, tačiau negalite keisti projekto tipo. 
 
@@ -224,7 +224,7 @@ Toliau pateikiamoje lentelėje šis scenarijus nagrinėjamas išsamiau.
 </tr>
 <tr class="odd">
 <td>2 operacija</td>
-<td><strong>Operacijos suma:</strong> 5 000,00<strong>Finansavimas:</strong> operacija apmokama pagal visas tris taisykles.<strong>1 taisyklė</strong>
+<td><strong>Operacijos suma:</strong> 5 000,00<strong>Finansavimas:</strong> operacija apmokama pagal visas tris taisykles. <strong>1 taisyklė</strong>
 <ul>
 <li>2 lėšų skyrimo šaltinis: 450,00</li>
 <li>3 lėšų skyrimo šaltinis: 450,00</li>

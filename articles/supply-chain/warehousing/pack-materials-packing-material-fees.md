@@ -3,7 +3,7 @@ title: "Pakavimo medžiagos ir mokesčiai"
 description: "Pakavimo medžiagų mokesčiai atliekų perdirbimo įmonei mokami tam tikrais intervalais. Už kiekvieną pakuotės sudedamosios dalies svorio vienetą mokama tam tikra suma. Pakavimo medžiagų mokesčiai skaičiuojami ir pateikiami ataskaitose, tačiau DK operacijos neregistruojamos, nes šie mokesčiai nelaikomi valstybei mokamais mokesčiais."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Kai kuriate pardavimo užsakymo eilutę, sistema tikrina, ar nurodyti prekės pa
 ## <a name="packing-units-on-purchase-order-lines"></a>Pakavimo vienetai pirkimo užsakymo eilutėse
 Pirkimo užsakymo eilutės pakavimo medžiagų operacijų sistema nesukuria. Pirkimo užsakymo, kuriam išrašyta SF, eilučių operacijos kuriamos rankiniu būdu, **Pakavimo medžiagų operacijų** puslapyje.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Klientų packagingmaterialfee (pakavimo medžiagų mokesčio) licencijos numerio nustatymas
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Klientų pakavimo medžiagų mokesčio licencijos numerio nustatymas
 Jei pakavimo medžiagų mokesčius moka klientai, puslapyje **Klientai** nurodykite klientų pakavimo medžiagų mokesčio licencijų numerius. Kai klientui priskiriamas licencijos numeris, išrašius pardavimo užsakymų SF pakavimo medžiagų mokesčiai skaičiuojami automatiškai. Išrašius SF, atžymimas puslapio **Pakavimo medžiagų operacijos** žymės langelis **Skaičiuoti mokestį**, nes jums nereikia skaičiuoti ir spausdinti ataskaitos. Galite ant SF spausdinti pakavimo medžiagų svorius, ir informuoti klientus, kad mokesčius mokės jie. 
 
 Jei pakavimo medžiagų mokesčius moka jūsų įmonė, kliento licencijos numerio nurodyti nereikia. Išrašius SF, **Pakavimo medžiagų operacijų** puslapyje pažymimas žymės langelis **Skaičiuoti mokestį**. Tai nurodo, kad mokesčiai skaičiuojami kuriant ataskaitą. Galite ant SF spausdinti svorius ir nurodyti, kad mokesčius moka įmonė.

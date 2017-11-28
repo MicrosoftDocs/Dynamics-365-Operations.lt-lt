@@ -3,7 +3,7 @@ title: "SF gretinimas ir įmonės vidaus pirkimo užsakymai"
 description: "Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ Vidinės įmonės tiekėjo SF ir vidinės įmonės kliento SF grynosios sumos tu
 2.  Subjekte Fabrikam Sales uržregistruoti, kad prekės gautos, ir registruoti važtaraštį. ICSO888 būsena pakito į – pristatyta. ICPO222 būsena pakito – gauta.
 3.  Subjekte Fabrikam Sales atnaujinti SF ICSO888. Vieneto kaina yra 0,45, ir atnaujinta 100 prekių.
 4.  Subjekte Fabrikam Purchase sukurti SF ICPO222. Netyčia grynąją kainą pakeičiate iš 45,00 į 54,00. Rodoma piktograma, kuri nurodo, kad kaina leistiną kainos nuokrypį viršija 2 procentais.
-5.  Puslapyje SF gretinimo informacija pasirinkite parinktį, kuria patvirtinamas registravimas su gretinimo nesutapimais. Puslapyje Tiekėjo SF spustelėkite Gerai. Jei tiekėjo SF būtų vidinės įmonės tiekėjo SF, registravimas būtų sėkmingas. Tačiau, kadangi dirbate su vidinės įmonės tiekėjo SF, registravimas yra nesėkmingas. Vykdant vidinės įmonės prekybą, vidinės įmonės pardavimo užsakymo SF sumos turi būti lygios atitinkamo vidinės įmonės pirkimo užsakymo SF sumoms. Norėdami išspręsti šią problemą, turite pataisyti SF grynąją kainą, ją grąžindami į numatytąją kainą – 45,00.
+5.  Puslapyje SF gretinimo informacija pasirinkite parinktį, kuria patvirtinamas registravimas su gretinimo nesutapimais. Puslapyje Tiekėjo SF spustelėkite Gerai. Jei tiekėjo SF nebūtų vidinės įmonės tiekėjo SF, registravimas būtų sėkmingas. Tačiau, kadangi dirbate su vidinės įmonės tiekėjo SF, registravimas yra nesėkmingas. Vykdant vidinės įmonės prekybą, vidinės įmonės pardavimo užsakymo SF sumos turi būti lygios atitinkamo vidinės įmonės pirkimo užsakymo SF sumoms. Norėdami išspręsti šią problemą, turite pataisyti SF grynąją kainą, ją grąžindami į numatytąją kainą – 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a> Pavyzdys: kiekio gretinimas su vidinės įmonės prekyba
 Vidinės įmonės pirkimo ir pardavimo užsakymo kiekiai turi būti lygūs. Šiuo reikalavimu nepaisomi bet kokie taikomi SF gretinimo patvirtinimai. Šiame pavyzdyje naudojama toliau nurodyta papildoma vidinės įmonės prekybos sąranka.

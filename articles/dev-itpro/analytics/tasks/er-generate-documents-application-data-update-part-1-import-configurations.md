@@ -3,7 +3,7 @@ title: "Konfigūracijų importavimas, kad elektroninėse ataskaitose (ER) dokume
 description: "Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 7f2fe7228856ff6377be7d527b32d3ddee252981
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: 6a945eb6c733d760cc723bfa7135d73bdf502724
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Konfigūracijų importavimas, kad elektroninėse ataskaitose (ER) dokumentai būtų generuojami su atnaujintais prašymų duomenimis
@@ -32,7 +32,7 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų” veiksmus.  
-    * Šios procedūros veiksmai rodo, kaip naudoti ER galimybes, norint atlikti programos duomenų naujinimą ir kaip generuoti Intrastat ataskaitą. Išsamią informaciją apie ataskaitų teikimo procesą archyvuojama programos lentelėse. Dabar, kai Intrastat ataskaitų kūrimo procesas aktyvintas iš Intrastat formos, archyvavimas daromas remiantis logika, užprogramuota esamame šaltinio kode. Taikydami šią procedūrą, konfigūruosite panašią dar supaprastintą programos duomenų logiką, naudojant tik ER sistemą. Šaltinio kodo pakeitimai nebus daromi.   
+    * Šios procedūros veiksmuose rodoma, kaip naudoti ER galimybes, norint atlikti programos duomenų naujinimą ir kaip generuoti Intrastat ataskaitą. Išsamią informaciją apie ataskaitų teikimo procesą archyvuojama programos lentelėse. Dabar, kai Intrastat ataskaitų kūrimo procesas aktyvintas iš Intrastat formos, archyvavimas daromas remiantis logika, užprogramuota esamame šaltinio kode. Taikydami šią procedūrą, konfigūruosite panašią dar supaprastintą programos duomenų logiką, naudojant tik ER sistemą. Šaltinio kodo pakeitimai nebus daromi.   
 
 ## <a name="import-er-configurations"></a>Importuokite ER konfigūracijas
 1. Spustelėkite Ataskaitų konfigūracijos.

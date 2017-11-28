@@ -1,9 +1,9 @@
 ---
 title: "Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas"
-description: "Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Finance and Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai)."
+description: "Šioje temoje pateikiama informacija apie mišriojo režimo planavimą."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Finance and Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
+Šioje temoje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Finance and Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
 
 Neatsižvelgdami į produkto struktūrą galite pasirinkti bendrąją produkto tiekimo strategiją.  
 
@@ -59,7 +59,7 @@ Kai jau apibrėžta tiekimo strategija, medžiagos paėmimo sandėlis apdorojimo
 
 Tie patys loginiai veiksmai atliekami taikant visų kitų tipų tiekimo strategijas. Taigi ilgalaikio medžiagų planavimo procesas vykdomas atliekant tuos pačius loginius veiksmus, kuriuos po gamybos ir tiekimo procesų patvirtinimo tikitės atlikti apdorodami faktinius užsakymus.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Medžiagų paskirstymo tiekiant į įvairias vietas strategija – KS išteklių suvartojimas
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Medžiagų paskirstymo tiekiant į įvairias vietas strategija – KS išteklių suvartojimas
 Išteklių suvartojimas yra svarbi funkcija. Naudojant išteklių suvartojimo funkciją medžiagų paėmimo sandėlis bus pasirenkamas dinamiškai remiantis tiekimo strategija (užsakymo tipu), be to, bus paprasčiau tvarkomi pagrindiniai duomenys.  
 
 Naudojant išteklių suvartojimo funkciją sandėlis, iš kurio paimamos medžiagos, turi būti priskirtas pagal produkto tiekimo būdą. Kitaip tariant, apdorojimo laiku sistemoje surandami ištekliai, kurie turėtų būti naudojami gamybos procese. Tada pagal šiuos išteklius sistemoje surandamas paėmimo sandėlis.  

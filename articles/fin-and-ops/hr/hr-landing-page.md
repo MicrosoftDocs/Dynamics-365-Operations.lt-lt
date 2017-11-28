@@ -3,24 +3,24 @@ title: Personalas
 description: "Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą."
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ Pasamdę darbuotojus, galite parengti planus, skirtus veiksmingai ir teisingai v
 
 ## <a name="develop-and-train-employees"></a>Darbuotojų tobulinimas ir mokymas
 
-Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir sesijas, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
+Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir seansus, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
 
 -   [Našumo valdymas](../../talent/performance-management-overview.md)
 -   [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](../../talent/skills.md)

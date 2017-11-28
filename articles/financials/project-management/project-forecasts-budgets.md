@@ -1,9 +1,9 @@
 ---
 title: "Projektų prognozės ir biudžetai"
-description: 
+description: "„Microsoft Dynamics 365 for Finance and Operations‟ pateikiamos projekto prognozės ir biudžetai, skirti projektams tvarkyti ir kontroliuoti."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Projektų prognozės ir biudžetai
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas suteikia du būdus valdyti ir kontroliuoti projektams: projektų prognozes ir projektų biudžetus. 
@@ -41,16 +39,16 @@ Tiek projektų prognozės, tiek projektų biudžetai išlaikyti numatomoms opera
 
 Kiekvienas metodas turi savų privalumų. Prieš savo organizacijai parinkdami metodą, turėtumėte atsižvelkite į toliau nurodytus dalykus.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Projektų prognozavimas**                                                                                                                                                                                                                                 | **Projektų biudžetų sudarymas**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Projektų prognozavimas**                  | **Projektų biudžetų sudarymas**                              |
 | **Laikotarpių paskirstymas**     | Negalima tiesiogiai paskirstyti operacijų ataskaitiniam laikotarpiui. Vietoj to, prognozė ir prognozės kontrolė paremtos projekto trukme. Kadangi prognozės paremtos konkrečia data, laikotarpį turite numatyti iš datos. | Operacijas galite paskirstyti visam projektui arba ataskaitiniam laikotarpiui. Jei paskirstote laikotarpiui, nepanaudotas sumas galite perkelti į kitą ataskaitinį laikotarpį. |
 | **Operacijų peržiūra**  | Peržiūrėti operacijas galite prognozių formose, kuriose galite matyti visos įmonės ir visų projektų prognozes, nepaisant hierarchijos. Norėdami dėmesį sutelkti į konkretų projektą, turite filtruoti duomenis.                                       | Galite peržiūrėti vienos projekto hierarchijos biudžeto operacijas. Todėl galite peržiūrėti pirminio projekto arba jo subprojektų operacijų informaciją.                 |
-| **Operacijų kintamieji** | Įvesdami prognozių operacijas, galite naudoti kiekvieną esamą faktinės operacijos atributą. Taip galima prognozę padaryti išsamesnę. Pavyzdžiui, galite įvesti kiekių, darbuotojų, prekių ar eilučių ypatybių informaciją.         | Įvesdami biudžeto informaciją, naudoti galite tik sumas, kategorijas ir veiklas.                                                                                    |
-| **Sauga**              | Prognozavimas paremtas operacijomis, kurias įvedate prognozių formose, ir nėra jokio jo procesų kontrolės mechanizmo. Bet kuris darbuotojas, turintis prognozės formos teises, gali be patvirtinimo tikslinti informaciją.                                        | Sudarant biudžetą naudojama darbo eigų sistema, todėl galima valdyti pakeitimus ir leidžiama saugoti tikslinimų istoriją.                                                       |
-| **Įrašų tipai**           | Prognozių operacijų įrašai paremti vienetų skaičiumi ir savikaina bei pardavimo vieneto kainomis.                                                                                                                                                       | Biudžeto informacija paremta sumomis, kurios padalytos į išlaidas ir įplaukas.                                                                                        |
-| **Prognozių modeliai**       | Kadangi kiekviena prognozė turi būti susieta su modeliu, galite kurti kelis prognozių modelius ir nustatyti submodelius.                                                                                                                               | Sudarant projektų biudžetus, ribojami prognozių modeliai, kurie naudojami sudarant biudžetą. Naudojant mažiau prognozių modelių, gali padidėti projekcijų nuoseklumas.                           |
-| **Išlaidų perviršiai**         | Operacijas, kurios lems išlaidų perviršį, įvesti galima tik leisti arba neleisti.                                                                                                                                                                | Projektų biudžeto sudarymas naudotojams suteikia papildomų kontrolės parinkčių. Galite leisti įspėjimus ir perviršius.                                                                   |
+| **Operacijų kintamieji** | Įvesdami prognozių operacijas, galite naudoti kiekvieną esamą faktinės operacijos atributą. Taip galima prognozę padaryti išsamesnę. Pavyzdžiui, galite įvesti kiekių, darbuotojų, prekių ar eilučių ypatybių informaciją.         | Įvesdami biudžeto informaciją, naudoti galite tik sumas, kategorijas ir veiklas.                    |
+| **Sauga**              | Prognozavimas paremtas operacijomis, kurias įvedate prognozių formose, ir nėra jokio jo procesų kontrolės mechanizmo. Bet kuris darbuotojas, turintis prognozės formos teises, gali be patvirtinimo tikslinti informaciją.                                        | Sudarant biudžetą naudojama darbo eigų sistema, todėl galima valdyti pakeitimus ir leidžiama saugoti tikslinimų istoriją.         |
+| **Įrašų tipai**           | Prognozių operacijų įrašai paremti vienetų skaičiumi ir savikaina bei pardavimo vieneto kainomis.  | Biudžeto informacija paremta sumomis, kurios padalytos į išlaidas ir įplaukas.                                          |
+| **Prognozių modeliai**       | Kadangi kiekviena prognozė turi būti susieta su modeliu, galite kurti kelis prognozių modelius ir nustatyti submodelius.           | Sudarant projektų biudžetus, ribojami prognozių modeliai, kurie naudojami sudarant biudžetą. Naudojant mažiau prognozių modelių, gali padidėti projekcijų nuoseklumas.                           |
+| **Išlaidų perviršiai**         | Operacijas, kurios lems išlaidų perviršį, įvesti galima tik leisti arba neleisti.   | Projektų biudžeto sudarymas naudotojams suteikia papildomų kontrolės parinkčių. Galite leisti įspėjimus ir perviršius.                    |
 | **Kontrolė**               | Prognozių kontrolė atliekama naudojant prognozių mažinimą. Be jokio audito sekimo faktinės sumos atimamos iš prognozių operacijų balansų. Dėl to gali būti sunkiau atsekti, kur įvyko faktinės operacijos.                   | Vykdant projektų biudžeto kontrolę, faktinės sumos atimamos iš likusio biudžeto sumų. Taip galima aiškiau vykdyti audito sekimą.                                   |
 
 ## <a name="project-forecasts"></a>Projekto prognozė
@@ -66,7 +64,7 @@ Kaip projektų valdymo mechanizmas, prognozės modeliuose gali būti naudojamas 
 
 Projektų prognozes galite tikslinti, kopijuoti, naikinti ar perkelti į DK biudžetą. Tačiau nėra jokios procesų kontrolės. Bet kuris darbuotojas, turintis prognozės formos prieigos teises, gali atlikti tikslinimus be peržiūros.
 
--   **Tikrinti **– galite tikslinti prognozės operaciją tose pačiose formose, kuriose įvesti pradiniai įrašai.
+-   **Tikslinti** – galite tikslinti prognozės operaciją tose pačiose formose, kuriose įvesti pradiniai įrašai.
 -   **Kopijuoti arba naikinti** – kopijuojant prognozių operacijas, operacijų eilutės kopijuojamos iš vieno prognozės modelio į kitą. Naikinat prognozes, naikinamos prognozės modelio operacijos. Norėdami apriboti prognozių operacijas, kurios kopijuojamos ar naikinamos, pasirinkite konkrečius operacijų tipus ir datas. Taip galima kopijuoti ar naikinti tik konkrečias prognozės dalis.
 -   **Perkelti** – perkeliant projekto prognozę į DK biudžetą, į jį perkeliamos prognozės modelio operacijos. Galima perrašyti bet kurią anksčiau perkeltą operaciją, esančią DK biudžete, į kurį perkeliate savo projekto prognozę.
 

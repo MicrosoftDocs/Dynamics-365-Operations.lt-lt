@@ -1,9 +1,9 @@
 ---
 title: "Svertinis vidurkis su faktine verte ir žymėjimu"
-description: 
+description: "Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
 
 Kai vykdote atsargų uždarymą visi gavimai sudengiami prieš virtualų išdavimą, kuriame yra bendras gautas kiekis ir vertė. Šis virtualus išdavimas turi atitinkamą virtualų gavimą, iš kurio sudengiami išdavimai. Tokiu būdu visų išdavimų vidutinės išlaidos būna tokios pačios. Virtualus išdavimas ir gavimas gali būti suprantami kaip virtualus perdavimas, vadinamas svertinio vidurkio atsargų uždarymu.
 
@@ -196,7 +196,7 @@ Gavimo operacija pažymima prie išdavimo operacijos. Tada bus nepaisoma prekės
 
 Galite pažymėti išdavimo operaciją su gavimu prieš užregistruodami operaciją. galite tai atlikti puslapio Pardavimo užsakymas pardavimo užsakymo eilutėje. Atidarytas gavimo operacijas galima peržiūrėti puslapyje Žymėjimas. 
 
-Galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite suderinti arba pažymėti inventorizuojamos prekės atidarytos gavimo operacijos išdavimo operaciją užregistruotų atsargų koregavimų žurnale. 
+Galite pažymėti išdavimo operaciją su gavimu užregistravę operaciją. Galite pažymėti išdavimo operaciją atvirai gavimo atsargose esančiai prekei iš registruoto atsargų koregavimo žurnalo. 
 
 Tolesniame grafike parodytos šios operacijos:
 -   1a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 10,00 USD už vienetą.

@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ Peržiūrėti, ar išleistas produktas gali būti naudojamas kaip komponentas ar
 </tr>
 <tr class="odd">
 <td>Vartotojo reikalavimai</td>
-<td>Vartotojo reikalavimai apibūdina abstrakciją tarp vartotojo reikalavimų, tam tikrų komponentų ir atributų. Jūs negalite susieti naudotojo reikalavimo ir prekės. Pavyzdžiui, klientas perka namų kino sistemą. Pardavėjas gali pasiteirauti, koks kliento kambario dydis, kuriame jis planuoja įrengti sistemą, kad nustatytų, kokio galingumo sistema geriausiai atitiktų jo poreikius. Šiame pavyzdyje patalpos dydis gali būti naudotojo reikalavimas, kuris padėtų nustatyti tinkamą konkretaus komponento atributo reikšmę. Naudotojo reikalavimus galite paslėpti, kad konfigūracijos seanso metu naudotojui jie nebūtų rodomi. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su vartotojo reikalavimais, taip pat paslėpti. Norėdami kontroliuoti arba paslėpti vartotojo reikalavimus, galite įrašyti sąlygą, Sąlyga turi būti įrašyta naudojant optimizavimo modeliavimo kalbos (OML) sintaksę.</td>
+<td>Vartotojo reikalavimai apibūdina abstrakciją tarp vartotojo reikalavimų, tam tikrų komponentų ir atributų. Jūs negalite susieti naudotojo reikalavimo ir prekės. Pavyzdžiui, klientas perka namų kino sistemą. Pardavėjas gali pasiteirauti, koks kliento kambario dydis, kuriame jis planuoja įrengti sistemą, kad nustatytų, kokio galingumo sistema geriausiai atitiktų jo poreikius. Šiame pavyzdyje kambario dydis gali tapti vartotojo reikalavimu, kuris suteiks galimybę nustatyti atitinkamas atributo vertes tam tikram komponentui. Kad konfigūracijos seanso metu vartotojas nematytų reikalavimų, galite juos paslėpti. Atributai, pakomponenčiai ir vartotojo reikalavimai, kurie yra susiję su vartotojo reikalavimais, taip pat paslėpti. Norėdami kontroliuoti arba paslėpti vartotojo reikalavimus, galite įrašyti sąlygą, Sąlyga turi būti įrašyta naudojant optimizavimo modeliavimo kalbos (OML) sintaksę.</td>
 </tr>
 <tr class="even">
 <td>KS eilutės</td>

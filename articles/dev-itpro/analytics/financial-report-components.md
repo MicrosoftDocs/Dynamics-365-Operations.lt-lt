@@ -1,17 +1,17 @@
 ---
 title: "Finansinės ataskaitos komponentai"
 description: "Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Straipsnis paaiškina, kaip blokus organizuoti ir užrakinti ir kaip naudoti kūrimo blokų grupes."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Straipsnis paaiškina, kaip blokus organizuoti ir užrakinti ir kaip naudoti kūrimo blokų grupes. 
+Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Šiame straipsnyje aiškinama, kaip išdėstyti ir užrakinti kūrimo blokus. 
 
-Finansinių ataskaitų dizaino įrankio suskaidyti informaciją į mažiausius komponentus ar kūrimo blokus ir tada komponentus pagal poreikį maišyti ir derinti. Todėl ataskaitos formatavimas skiriasi nuo finansinių duomenų formatavimo ir jūs galite pakeisti ataskaitos dizainą nekeisdami finansinių duomenų „Microsoft Dynamics ERP“ sistemoje. Naudodami šį kūrimo bloko metodą galite sujungti tekstą, sumas ir skaičiavimus ir sukurti reikiamas ataskaitas. Be to, šis lankstumas skatina kūrybiškumą, nes galite lengviau skirtingais būdais peržiūrėti operacijas. Atskiri ataskaitos aprašo kūrimo blokai panašūs į trimatę skaičiuoklę, bet turi daugiau galios. Ataskaitos apraše nurodomas eilutės aprašas, stulpelio aprašas ir ataskaitoje naudojamas pasirinktinis medžio aprašas. Jame taip pat pateikiama informacija apie tai, kur saugoti sugeneruotą ataskaitą ir kaip ją formatuoti. Norėdami geresnio pakartotinio naudojimo ir bendrinimo, galite sukurti kūrimo bloko grupę, kuri yra esamų su įmone susijusių ataskaitos aprašų, eilutės aprašų, stulpelio aprašų, ataskaitų medžio aprašų ir dimensijų rinkinių rinkinys.
+Finansinių ataskaitų dizaino įrankio suskaidyti informaciją į mažiausius komponentus ar kūrimo blokus ir tada komponentus pagal poreikį maišyti ir derinti. Todėl ataskaitos formatavimas skiriasi nuo finansinių duomenų formatavimo ir jūs galite pakeisti ataskaitos dizainą nekeisdami finansinių duomenų „Microsoft Dynamics ERP“ sistemoje. Naudodami šį kūrimo bloko metodą galite sujungti tekstą, sumas ir skaičiavimus ir sukurti reikiamas ataskaitas. Be to, šis lankstumas skatina kūrybiškumą, nes galite lengviau skirtingais būdais peržiūrėti operacijas. Atskiri ataskaitos aprašo kūrimo blokai panašūs į trimatę skaičiuoklę, bet turi daugiau galios. Ataskaitos apraše nurodomas eilutės aprašas, stulpelio aprašas ir ataskaitoje naudojamas pasirinktinis medžio aprašas. Jame taip pat pateikiama informacija apie tai, kur saugoti sugeneruotą ataskaitą ir kaip ją formatuoti. 
 
 ## <a name="building-blocks-of-a-report"></a>Ataskaitos kūrimo blokai
-| Kūrimo blokas            | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                              | Daugiau informacijos                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Kūrimo blokas            | aprašymas                     | Daugiau informacijos                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Eilutės apibrėžimas            | Ataskaitos eilutės apraše apibūdinamos aprašomosios eilutės (pavyzdžiui, atlyginimai arba pardavimai). Jame taip pat pateikiamos segmentų reikšmės arba dimensijos, kuriose yra kiekvienos eilutės elemento reikšmės ir jis apima eilutės formatavimą ir skaičiavimus.                                                    | [Eilutės apibrėžimai](row-definitions-financial-reporting.md)                       |
 | Stulpelio aprašas         | Stulpelio apraše nurodomas laikotarpis, kuris turi būti naudojamas išskleidžiant duomenis iš finansinių dimensijų. Jis taip pat apima stulpelio formatavimą ir skaičiavimus.                                                                                                                                 | [Stulpelių apibrėžimai](column-definitions-financial-reports.md)         |
 | Ataskaitų medžio apibrėžimas | Ataskaitų medžio apibrėžimas panašus į organizacijos struktūros diagramą. Jame yra atskiri ataskaitų vienetai, kurie atitinka kiekvieną diagramos langelį. Vienetai gali būti atskiri finansinių duomenų padaliniai arba aukštesnio lygio vienetai, kurie apibendrina duomenis iš kitų ataskaitų vienetų. | [Ataskaitų medžio apibrėžimai](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Norėdami atrakinti užrakintą kūrimo bloką, atidarykite kūrimo bloką ir į
 
 ## <a name="building-block-groups"></a>Kūrimo blokų grupės
 
-Kūrimo blokai yra jūsų sukurti ataskaitos eilučių apibrėžimai, stulpelių apibrėžimai, ataskaitų medžio apibrėžimai ir ataskaitų aprašai. Kūrimo bloko grupės yra su įmone susieti apibrėžimų ir dimensijų rinkiniai. Kūrimo blokų grupės gali būti susijusios su konkrečia įmone arba kelios įmonės gali bendrai naudoti tą patį kūrimo blokų rinkinį. Jei turite įmonių, turinčių skirtingus sąskaitų planus, galbūt norėsite kiekvienai įmonei naudoti skirtingą kūrimo blokų grupę. Arba galbūt norėsite pakeisti visų atskirų kūrimo blokų pavadinimus taip, kad būtų matoma, su kuria įmone jie suderinami.
-### <a name="create-a-building-block-group"></a>Kūrimo bloko grupės kūrimas
+Kūrimo blokai yra jūsų sukurti ataskaitos eilučių apibrėžimai, stulpelių apibrėžimai, ataskaitų medžio apibrėžimai ir ataskaitų aprašai. Kūrimo blokų grupės yra apibrėžimų ir dimensijų rinkiniai. 
 
-1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo blokų grupės**.
-2.  Dialogo lange **Kūrimo blokų grupės** spustelėkite **Naujas**.
-3.  Įveskite unikalų kūrimo bloko grupės pavadinimą ir aprašymą. Kiekviename lauke gali būti iki 256 simbolių. (Šis skaičius apima tarpus.)
-4.  Norėdami kurti naują kūrimo blokų grupę, spustelėkite **Gerai**.
 
-### <a name="assign-a-building-block-group"></a>Kūrimo bloko grupės priskyrimas
+### <a name="view-a-building-block-group"></a>Kūrimo blokų grupės peržiūra
 
-Sukūrę blokų grupę turite ją priskirti bent vienai įmonei. Tada galite kurti ataskaitos, eilutės, stulpelio ir ataskaitų medžio aprašus ir įrašyti juos į kūrimo blokų grupę. Prieš pradėdami toliau nurodytą procedūrą, turite uždaryti visus kūrimo blokus.
-1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Įmonės**.
-2.  Dialogo lange **Įmonės** pasirinkite įmonę, kuriai norite priskirti kūrimo blokų grupę.
-3.  Spustelėkite **Modifikuoti**.
-4.  Dialogo lango **Modifikuoti įmonę** lauke **Kūrimo bloko grupė** pasirinkite kūrimo bloko grupę, kurią norite priskirti įmonei, arba spustelėkite **Nauja** ir sukurkite naują kūrimo bloko grupę.
-5.  Norėdami proskirti kūrimo bloko grupę, spustelėkite **Gerai**.
-6.  Norėdami uždaryti dialogo langą **Įmonės**, spustelėkite **Uždaryti**. Dabar jūsų pasirinkta kūrimo bloko grupė priskiriama įmonei. Dabar visi naujai sukurti eilučių aprašai, stulpelių aprašai ir pan. bus šiai įmonei priskirtos kūrimo blokų grupės dalis. Taip pat galite iš kitos sistemos importuoti .tdbx failą arba ataskaitą.
-
-### <a name="view-a-building-block-group"></a>Kūrimo bloko grupės peržiūra
-
-Kai kūrimo blokų grupė yra sukurta ir naudojama, galite peržiūrėti visus jai priskirtus kūrimo blokus. Taip pat galite eksportuoti arba importuoti kūrimo blokų grupę ir atlikti papildomą kūrimo blokų grupių priežiūrą.
-1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
+Galite peržiūrėti visus kūrimo bloko grupei priskirtus kūrimo blokus. Kūrimo bloko grupę taip pat galite eksportuoti arba importuoti.
+1.  Ataskaitų dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo blokų grupės**.
 2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite norimą peržiūrėti kūrimo bloką.
 3.  Norėdami atidaryti dialogo langą **Kūrimo bloko grupės peržiūra** ir peržiūrėti kūrimo blokų grupės turinį, spustelėkite **Peržiūrėti**.
-4.  Norėdami uždaryti dialogo langus, spustelėkite **Uždaryti**.
+4.  Spustelėkite **Uždaryti** norėdami uždaryti dialogo langus.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Kūrimo blokų grupę įrašymas naudojant naują pavadinimą
+### <a name="export-a-building-block-group"></a>Kūrimo blokų grupės eksportavimas
 
-Galite įrašyti esamą kūrimo blokų grupę, naudodami naują pavadinimą. Tada galite modifikuoti naują kūrimo blokų grupę, nekeisdami pradinės kūrimo blokų grupės.
-1.  Ataskaitų dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo blokų grupės**.
-2.  Dialogo lange **Kūrimo bloko grupės** pasirinkite kūrimo blokų grupę, kurią norite įrašyti naudodami naują pavadinimą.
-3.  Spustelėkite **Įrašyti kaip**.
-4.  Įveskite naują kūrimo bloko grupės pavadinimą ir aprašymą.
-5.  Spustelėkite **GERAI**. Nauja kūrimo bloko grupė rodoma dialogo lange **Kūrimo bloko grupės**.
-
-### <a name="export-a-building-block-group"></a>Kūrimo bloko grupės eksportavimas
-
-Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blokus, esančius kūrimo blokų grupėje. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas kūrimo blokų grupes arba „Finance and Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
+Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blokus, esančius kūrimo blokų grupėje. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas „Finance and Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
 2.  Dialogo lange **Kūrimo blokų grupės** pasirinkite eksportuotiną kūrimo blokų grupę ir spustelėkite **Eksportuoti**.
 3.  Dialogo lange **Eksportuoti** pasirinkite norimus eksportuoti ataskaitos aprašus.
@@ -118,7 +94,7 @@ Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blo
 
 ### <a name="import-a-building-block-group"></a>Kūrimo bloko grupės importavimas
 
-Galite importuoti kūrimo blokų grupę į esamą kūrimo blokų grupę arba galite sukurti naują duomenų kūrimo blokų grupę. Visos importuotos kūrimo blokų grupės išlaiko savo pradinius šrifto stilius ir įmonės nuorodas bei atitinkamus dimensijų rinkinius.
+Į esamą kūrimo bloko grupę galite importuoti kitą kūrimo blokų grupę. Visos importuotos kūrimo blokų grupės išlaiko savo pradinius šrifto stilius ir įmonės nuorodas bei atitinkamus dimensijų rinkinius.
 1.  Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
 2.  Dialogo lange **Kūrimo blokų grupės** pasirinkite kūrimo bloką, importuotiną į kūrimo blokų grupę, ir spustelėkite **Importuoti**.
 3.  Dialogo lange **Atidaryti** pasirinkite importuotiną kūrimo blokų grupę ir spustelėkite **Atidaryti**.

@@ -3,7 +3,7 @@ title: "Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti"
 description: "Šioje temoje aprašoma, kaip naudojant išorinį arba „PunchOut‟ katalogą galima iš tiekėjo rinkti pasiūlymų informaciją ir ją įtraukti į paraišką."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -40,15 +40,15 @@ Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreip
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Norėdami nustatyti išorinį tiekėjo katalogą, atlikite tolesnes užduotis.
 
-1. Įsigijimo kategorijų hierarchijos nustatymas. Norėdami gauti daugiau informacijos, žr. [Įsigijimo kategorijų hierarchijų strategijų nustatymas](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
-2. Užregistruokite tiekėją sprendime „Finance and Operations‟. Kad galėtumėte nustatyti konfigūracijas, kurias naudodami pasieksite išorinį tiekėjo katalogą, tiekėją ir jo kontaktą turite nustatyti tarnyboje „Microsoft Dynamics 365‟. Išorinio katalogo tiekėją taip pat reikia įtraukti į pasirinktą įsigijimo kategoriją. Norėdami gauti daugiau informacijos apie tiekėjų registravimą tarnyboje „Microsoft Dynamics 365‟, žr. [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md). Norėdami gauti informacijos apie tai, kaip tiekėjus priskirti įsigijimo kategorijai, žr. [Tiekėjų tvirtinimas konkrečioms įsigijimo kategorijoms](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
-3. Įsitikinkite, kad nustatyti tiekėjo naudojami matavimo vienetai ir valiuta. Norėdami gauti informacijos apie tai, kaip sukurti matavimo vienetą, žr. [Matavimo vienetų tvarkymas](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
-4. Naudodami tiekėjo išorinio katalogo svetainės reikalavimus sukonfigūruokite išorinį tiekėjo katalogą. Daugiau informacijos apie šią užduotį rasite tolesniame skyriuje.
+1. Įsigijimo kategorijų hierarchijos nustatymas. Norėdami gauti daugiau informacijos, žr. [Įsigijimo kategorijų hierarchijų strategijų nustatymas](tasks/set-up-policies-procurement-category-hierarchies.md).
+2. Užregistruokite tiekėją sprendime „Finance and Operations‟. Kad galėtumėte nustatyti konfigūracijas, kurias naudodami pasieksite išorinį tiekėjo katalogą, tiekėją ir jo kontaktą turite nustatyti tarnyboje „Microsoft Dynamics 365‟. Išorinio katalogo tiekėją taip pat reikia įtraukti į pasirinktą įsigijimo kategoriją. Norėdami gauti daugiau informacijos apie tiekėjų registravimą tarnyboje „Microsoft Dynamics 365‟, žr. [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md). Norėdami gauti informacijos apie tai, kaip tiekėjus priskirti įsigijimo kategorijai, žr. [Tiekėjų tvirtinimas konkrečioms įsigijimo kategorijoms](tasks/approve-vendors-specific-procurement-categories.md).
+3. Įsitikinkite, kad nustatyti tiekėjo naudojami matavimo vienetai ir valiuta. Norėdami gauti informacijos apie tai, kaip sukurti matavimo vienetą, žr. [Matavimo vienetų tvarkymas](../pim/tasks/manage-unit-measure.md).
+4. Naudodami tiekėjo išorinio katalogo svetainės reikalavimus sukonfigūruokite išorinį tiekėjo katalogą. Daugiau informacijos apie šią užduotį žr. [Tiekėjo išorinio katalogo konfigūravimas](#configure-the-external-vendor-catalog).
 5. Išbandykite tiekėjo išorinio katalogo konfigūracijas, kad patikrintumėte, ar parametrai yra tinkami, ir ar išorinį tiekėjo katalogą galite pasiekti. Naudodami veiksmą **Tikrinti parametrus** patikrinkite savo nustatytą užklausos sąrankos pranešimą. Dėl šio pranešimo išorinio tiekėjo katalogo svetainė turi būti atidaryta naršyklės lange. Tikrindami iš tiekėjo negalite užsakyti prekių ir paslaugų. Norėdami užsakyti prekes ir paslaugas, tiekėjo katalogą turite pasiekti iš pirkimo paraiškos.
 6. Naudodami puslapyje **Išoriniai katalogai** esantį mygtuką **Aktyvinti katalogą** išorinį katalogą suaktyvinkite. Darbuotojai išorinį katalogą galės naudoti tik jį suaktyvinus. Bet kuriuo metu galite išjungti išorinio katalogo suaktyvinimą.
 
 
-## <a name="4-configure-the-external-vendor-catalog"></a>(4) Tiekėjo išorinio katalogo konfigūravimas
+## <a name="configure-the-external-vendor-catalog"></a>Tiekėjo išorinio katalogo konfigūravimas
 
 Šiame skyriuje pateikiama daugiau informacijos apie ankstesniame skyriuje nurodytą 4 užduotį.
 

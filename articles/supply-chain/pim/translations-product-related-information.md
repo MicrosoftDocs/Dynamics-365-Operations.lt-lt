@@ -3,7 +3,7 @@ title: DUK apie su produktais susijusius vertimus
 description: "Šioje temoje aprašoma, kaip valdyti produktų, prekės dimensijų verčių ir produktų atributų vertimus."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ Produkto informaciją galite išversti į bet kurią puslapyje **Teksto vertimas
 ## <a name="where-can-i-view-the-translated-information"></a>Kur galiu peržiūrėti išverstą informaciją?
 Produktų informacijos vertimus galite peržiūrėti bet kokiame išoriniame šaltinio dokumente, pvz. sąskaitoje faktūroje, kuriame naudojama verstina informacija norima kalba.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Kaip sukurti su produktais susijusios informacijos vertimus?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Kaip sukurti produktų informacijos vertimus?
 Norėdami sukurti produkto vertimus, atlikite šiuos veiksmus:
 1.  Spustelėkite **Produktų informacijos valdymas** &gt; **Bendra** &gt; **Patvirtinti produktai**.
 2.  Pasirinkite produktą ir veiksmų srities grupėje **Kalbos** spustelėkite **Vertimai**.
@@ -124,7 +124,7 @@ Norėdami valdyti verčių vertimus dimensijų verčių grupėje, atlikite šiuo
 1.  Atlikite ankstesnėje procedūroje, skirtoje dimensijų vertės grupės kūrimui, nurodytus veiksmus, kad atidarytumėte puslapį **Dydžių grupės eilutės**, **Spalvų grupės eilutės** arba **Stilių grupės eilutės**.
 2.  Spustelėkite **Teksto vertimas**. Puslapio **Teksto vertimas** grupės **Išverstas tekstas** laukuose **Pavadinimas** ir **Aprašas** įveskite vertimus.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Kada gali būti tvarkomi su produktais susijusios informacijos vertimai?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Kada gali būti valdomi produktų informacijos vertimai?
 Produktų informacijos vertimai gali būti tvarkomi bet kuriuo metu. Atnaujinus su produktu susijusios dimensijos vertės vertimus, produkto informacija atnaujinama, nepriklausomai nuo to, ar produktas įtrauktas į operacijas.
 
 
