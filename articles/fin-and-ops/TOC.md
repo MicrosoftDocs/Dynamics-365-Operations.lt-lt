@@ -8,8 +8,9 @@
 #### [Visuotinio diegimo parinkties pasirinkimas](../dev-itpro/deployment/choose-deployment-type.md)
 ##### [Visuotinė įdiegtis debesyje](../dev-itpro/deployment/cloud-deployment-overview.md)
 ##### [Visuotinėms įdiegtims debesyje taikomi sistemos reikalavimai](get-started/system-requirements.md)
-##### [Vietinis diegimas](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
-##### [Vietinėms įdiegtims taikomi sistemos reikalavimai](get-started/system-requirements-on-prem.md)
+##### [Vietinis visuotinis diegimas](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
+##### [Vietinėms visuotinėms įdiegtims taikomi sistemos reikalavimai](get-started/system-requirements-on-prem.md)
+##### [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Pirkti „Finance and Operations”
 ##### [„Microsoft FastTrack for Dynamics 365‟](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [Atidėtos AX 2012 funkcijos](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos](get-started/features-not-implemented-on-prem.md)
 #### [Naudojimo ciklo strategija](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platformos „update 11“ (2017 m. spalio mėn.)](get-started/whats-new-platform-update-11.md)
-#### [Platformos „update 10” (2017 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-10.md)
+#### [12-asis platformos naujinimas (2017 m. lapkričio mėn.)](get-started/whats-new-platform-update-12.md)
+#### [11-asis platformos naujinimas (2017 m. spalio mėn.)](get-started/whats-new-platform-update-11.md)
+#### [10-asis platformos naujinimas (2017 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-10.md)
 #### [„Finance and Operations, Enterprise edition‟ (2017 m. liepos mėn.)](get-started/whats-new-application-July-2017-update.md)
 #### [9-asis platformos naujinimas (2017 m. liepos mėn.)](get-started/whats-new-platform-update-9.md)
 #### [8-asis platformos naujinimas (2017 m. birželio mėn.)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [2016 m. vasario mėn. užduočių vedliai](get-started/new-task-guides-available-february-2016.md)
 
 ### Vartotojo sąsajos naršymas
+#### [Pritaikymo neįgaliesiems funkcijos](get-started/accessibility-features.md)
 #### [Kliento UI DUK](get-started/client-faq.md)
 #### [Veiksmo ieška](get-started/action-search.md)
 #### [Išplėstinio filtravimo ir užklausų sintaksė](get-started/advanced-filtering-query-options.md)
@@ -56,9 +59,9 @@
 #### [Vartotojo pageidaujamos laiko zonos nustatymas](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Susipažinkite su „Lifecycle Services“](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Gaukite pagalbos
-#### [Pagalbos apžvalga](get-started/help-overview.md)
-#### [Pagalbos prijungimas](get-started/help-connect.md)
+### Skaityti ir vykdyti dokumentaciją
+#### [Žinyno apžvalga](get-started/help-overview.md)
+#### [Žinyno prijungimas](get-started/help-connect.md)
 #### [Laukų aprašų peržiūra ir eksportas](get-started/view-export-field-descriptions.md)
 #### Užduočių vadovai ir užduočių įrašymo priemonė
 ##### [Užduočių įrašymo priemonė](../dev-itpro/user-interface/task-recorder.md)
@@ -152,17 +155,21 @@
 
 #### [Duomenų integravimas naudojant „Common Data Service“](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Sinchronizuoti „Finance and Operations“ produktus su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Sinchronizuoti „Sales“ sąskaitas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Sinchronizuoti Pardavimo kontaktus su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Sinchronizuoti „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Sinchronizuoti „Finance and Operations“ pardavimo užsakymo antraštes ir eilutes su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [„Finance and Operations“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [„Sales“ sąskaitų tvarkymas ir tiesioginis „Sales“ sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [„Finance and Operations“ produktų tvarkymas ir tiesioginis sinchronizavimas su „Sales“](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [„Sales“ kontaktų tvarkymas ir tiesioginis sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Tiesioginis „Sales“ pardavimo pasiūlymų sinchronizavimas iš „Sales“ į „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Tiesioginis pardavimo užsakymų sinchronizavimas iš „Finance and Operations“ į „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Tiesioginis pardavimo sąskaitų faktūrų sinchronizavimas iš „Finance and Operations“ į „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [„Sales“ sąskaitų tvarkymas ir sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [„Sales“ kontaktų tvarkymas ir sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [„Finance and Operations“ produktų tvarkymas ir sinchronizavimas su „Sales“](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Pardavimo pasiūlymų kūrimas sprendime „Sales“ ir jų sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Pardavimo užsakymų kūrimas sprendime „Finance and Operations“ ir jų sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Pardavimo sąskaitų faktūrų kūrimas sprendime „Finance and Operations“ ir jų sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Išorinių žiniatinklio tarnybų naudojimas](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Juodojo sąrašo ataskaita](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Tinkamumo data](../financials/localizations/emea-ita-competence-date.md)
 ##### [Ilgalaikio turto nusidėvėjimas](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [„Modello 770“](../financials/localizations/emea-ita-modello770.md)
 ##### [Važtaraščių datos tikrinimas sąskaitose faktūrose](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [PVM knygos](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Kiekvienos atsargų dimensijos einamosios vidutinės savikainos sekimas](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Bendrasis planavimas
+## [Bendrasis planavimas](../supply-chain/master-planning/master-planning-home-page.md)
+### [Bendrasis planas](../supply-chain/master-planning/master-plans.md)
+#### [Padengimo parametrai](../supply-chain/master-planning/coverage-settings.md)
+#### [Prekių padengimo taisyklių apibrėžimas (užduočių vedlys)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Plano su apribojimais kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Sudėtinių produktų medžiagų plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Suplanuotų užsakymų tvarkymas](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Atidėjimų tvarkymas](../supply-chain/master-planning/delays.md)
+#### [Išskleidimo sekimas](../supply-chain/master-planning/trace-explosion.md)
+#### [Veiksmų pranešimai](../supply-chain/master-planning/action-messages.md)
+#### [Bendrojo planavimo vykdymo stebėjimas (užduočių vedlys)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Teritorijos grafiko kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Teritorijos plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Bendrieji planai ir kelių teritorijų funkcija](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Teritorijos padengimo planas, privalomas sandėlis](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Teritorijos padengimo planas, sandėlis neprivalomas](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Teritorijos ir sandėlio padengimo planas, sandėlis privalomas](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Teritorijos ir sandėlio padengimo planas, sandėlis neprivalomas](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [KS versijos nustatymas](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [KS versijos išskleidimas](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Vidinės įmonės plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra (užduočių vedlys)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Bendradarbiavimas su vidinės tiekimo grandinės klientais (užduočių vedlys)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Poreikio prognozė](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Poreikio prognozės nustatymas](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Poreikio prognozių praeities duomenų importavimas](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Mažinimo raktai](../supply-chain/master-planning/reduction-keys.md)
 #### [Pagrindinės prognozės kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Poreikio prognozės modifikavimas rankiniu būdu (užduočių vedlys)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Bendrasis planas](../supply-chain/master-planning/master-plans.md)
-#### [Padengimo parametrai](../supply-chain/master-planning/coverage-settings.md)
-#### [Suplanuotų užsakymų tvarkymas](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Atidėjimai](../supply-chain/master-planning/delays.md)
-#### [Veiksmų pranešimai](../supply-chain/master-planning/action-messages.md)
-#### [Išskleidimo sekimas](../supply-chain/master-planning/trace-explosion.md)
-#### [Bendrieji planai ir kelių teritorijų funkcija](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Teritorijos padengimo planas, privalomas sandėlis](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Teritorijos padengimo planas, sandėlis neprivalomas](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Teritorijos ir sandėlio padengimo planas, sandėlis privalomas](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Teritorijos ir sandėlio padengimo planas, sandėlis neprivalomas](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [KS versijos nustatymas](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [KS versijos išskleidimas](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Bendrojo planavimo vykdymo stebėjimas (užduočių vedlys)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Prekių padengimo taisyklių apibrėžimas (užduočių vedlys)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Teritorijos plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Vietos grafiko kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Plano su apribojimais kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Vidinės įmonės plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Sudėtinių produktų medžiagų plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra (užduočių vedlys)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Bendradarbiavimas su vidinės tiekimo grandinės klientais (užduočių vedlys)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Mobilioji programa](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1851,9 +1858,9 @@
 #### [Trumpalaikio išrinkimo elementų perskirstymo nustatymas](../supply-chain/warehousing/tasks/set-up-short-picking-item-reallocation.md)
 #### [Nustatyti sandėlio darbo strategijas ](../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md)
 #### [Nustatyti pirkimo užsakymų darbo šabloną](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
-#### [Planuoti krovinius ir siuntas naudojant krovinio planavimo darbo sritį](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
+#### [Krovinių ir siuntų planavimas naudojant krovinio planavimo darbo sritį](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Kūrimas ir administravimas](../dev-itpro/toc.md)
+# [„Finance and Operations‟ modulis Kūrimas ir administravimas](../dev-itpro/toc.md)
 
 # [„Dynamics 365 for Retail‟](../retail/toc.md)
 
