@@ -2,6 +2,8 @@
 
 # [Darbo pradžia](talent-get-started.md)
 ## [Sistemos reikalavimai ir naujinimo strategija](talent-versions-update-policy.md)
+## [„Microsoft Dynamics 365 for Talent“ parengimas](provisioning-talent.md)
+## [„Talent“ funkcijų išplėtimas](extend-talent-functionality.md)
 
 # [Personalo strategijos kūrimas](departments-jobs-positions.md)
 ## [Darbo komponentų nustatymas](create-job.md)
