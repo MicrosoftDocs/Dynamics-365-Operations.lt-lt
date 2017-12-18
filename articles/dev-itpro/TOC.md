@@ -122,10 +122,11 @@
 #### [Išvardijimo reikšmės įtraukimas](extensibility/add-enum-value.md)
 #### [Išplėstinio duomenų tipo modifikavimas](extensibility/modify-edt.md) 
 #### [Registruoti gamyklos metodų poklasį](extensibility/register-subclass-factory-methods.md)
-#### [Atsakyti su EventHandlerResult](extensibility/respond-event-handler-result.md)
+#### [Atsakymas su EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [RunBase klasės išplėtimas](extensibility/extend-runbase-class.md)
-#### [Modifikuoti esamą lauką lentelėje](extensibility/modify-existing-field.md)
-#### [Įtraukti naują lauką į esamą lentelę](extensibility/add-field-extension.md)
+#### [Perėmėjų naudojimas programų paleisčiai tinkinti](extensibility/startup-customizations.md)
+#### [Esamo lentelės lauko modifikavimas](extensibility/modify-existing-field.md)
+#### [Naujo lauko įtraukimas į esamą lentelę](extensibility/add-field-extension.md)
 #### [Įtraukti indeksą į esamą lentelę](extensibility/add-index.md)
 #### [Įtraukti ryšį į esamą lentelę](extensibility/add-relation.md)
 #### [Modifikuoti ypatybes esamoje lentelėje](extensibility/modify-properties.md)
@@ -505,10 +506,12 @@
 ### [Vietinių aplinkų nustatymas ir visuotinis diegimas](deployment/setup-deploy-on-premises-environments.md)
 ### [Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Vietinės visuotinės įdiegties naujinimų taikymas](deployment/apply-updates-on-premises.md)
+### [Kartotinis visuotinis vietinės visuotinės įdiegties diegimas](deployment/redeploy-on-prem.md)
+### [„Dynamics 365 for Finance and Operations, Enterprise edition“ vietinės versijos trikčių diagnostika](deployment/troubleshoot-on-prem.md)
 
 ## Visuotinis pasirinktinio kodo diegimas
 ### [Visuotinai diegiamo paketo kūrimas](deployment/create-apply-deployable-package.md)
-### [Visuotinai diegiamo paketo taikymas](deployment/apply-deployable-package-system.md)
+### [Debesies aplinkos naujinimų taikymas](deployment/apply-deployable-package-system.md)
 ### [Visuotinai diegiamo paketo diegimas](deployment/install-deployable-package.md)
 ### [Paketo programos trikčių diagnostika](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Plėtojimas į naujausią naujinimą
 ### [Perėjimo į naujausią naujinimą procesas](migration-upgrade/upgrade-latest-update.md)
 ### [Naudojimo ciklo strategija](migration-upgrade/versions-update-policy.md)
-### [Plėtojimas į naujausią platformos naujinimą](migration-upgrade/upgrade-latest-platform-update.md)
+### [Naujausio aplinkos platformos naujinimo taikymas](migration-upgrade/upgrade-latest-platform-update.md)
 ### [„Dynamics‟ platformos plėtojimas į 2016 m. rugpjūčio mėn. versiją](migration-upgrade/update-platform-each-release.md)
 ### [Smėlio dėžės aplinkos plėtojimas](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Duomenų plėtojimas programavimo arba demonstracinėje aplinkose](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Kūrimo įrankių naujinimas](dev-tools/update-development-tools.md)
+### [Vietinės visuotinės įdiegties naujinimų taikymas](deployment/apply-updates-on-premises.md)
+### [Kartotinis visuotinis vietinės visuotinės įdiegties diegimas](deployment/redeploy-on-prem.md)
 
 ## Karštosios pataisos ir aptarnavimas
 ### [Karštųjų pataisų atsisiuntimas iš „Lifecycle Services“](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Duomenų bendrinimas tarp įmonių](sysadmin/cross-company-data-sharing.md)
 ## [Priežiūros režimas](sysadmin/maintenance-mode.md)
 ## [Iš anksto sukonfigūruotos sistemos sąskaitos](sysadmin/pre-configured-system-accounts.md)
+## [B2B vartotojų eksportavimas į „Azure AD“](sysadmin/implement-b2b.md)
 ## [Vaidmenimis grįsta sauga](sysadmin/role-based-security.md)
 ### [Saugos architektūra](sysadmin/security-architecture.md)
 ### [Saugos ataskaitos](sysadmin/security-reports.md)

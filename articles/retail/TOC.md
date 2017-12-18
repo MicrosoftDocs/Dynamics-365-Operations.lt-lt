@@ -180,11 +180,11 @@
 
 ## Visuotinis diegimas ir karštosios pataisos
 ### [„Retail Store Scale Unit“ apžvalga](dev-itpro/retail-store-system-begin.md)
-#### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [„Retail Store Scale Unit‟ konfigūravimas ir diegimas](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [„Retail Modern POS‟ konfigūravimas ir diegimas](retail-modern-pos-device-activation.md)
-#### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
-#### [„Retail POS‟ įrenginio suaktyvinimas](dev-itpro/retail-device-activation.md)
-#### [Saugūs „Retail‟ debesies EKA](dev-itpro/secure-retail-cloud-pos.md)
+### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
+### [„Retail POS‟ įrenginio suaktyvinimas](dev-itpro/retail-device-activation.md)
+### [Saugūs „Retail‟ debesies EKA](dev-itpro/secure-retail-cloud-pos.md)
 ### [„Retail Hardware Station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
 ### [Masinis „Retail“ savitarnos komponentų diegimas](dev-itpro/retail-mass-deployment.md)
 ### [„Retail‟ komponentų įvykiai triktims diagnozuoti ir šalinti](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [Plėtojimo ir N-1 palaikymo apžvalga](dev-itpro/overview-upgrade-n-minus1.md)
 ### [N-1 komponentų diegimas](dev-itpro/n-1-installation-configuration.md)
 
+## Diegimo nurodymai
+### [Įrenginių valdymo diegimo nurodymai](implementation-considerations-devices.md)
+
 ## Aplinkos konfigūracija
 ### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [„Bing“ žemėlapių valdymas](dev-itpro/manage-bing-maps.md)
 
-## Išplečiamumas
-### Elektroninis kasos aparatas
-#### [„Retail POS‟ ekrano maketai](pos-screen-layouts.md)
-##### [EKA maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
-#### [MPOS autonominio režimo konfigūravimas](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS ir „Cloud POS‟ paleidiklių išplečiamumas](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Pasirinktinio valdiklio įtraukimas į POS rodinį](dev-itpro/pos-custom-control.md)
-#### [POS mokėjimo plėtinys](dev-itpro/pos-payment-extension.md)
-#### [Išorinių dovanų kortelių palaikymas](dev-itpro/gift-card.md)
+## Elektroninio kasos aparato išplečiamumas
+### [„Retail POS‟ ekrano maketai](pos-screen-layouts.md)
+### [POS maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
+### [MPOS autonominio režimo konfigūravimas](dev-itpro/retail-modern-pos-offline.md)
+### [MPOS ir „Cloud POS‟ paleidiklių išplečiamumas](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Pasirinktinio valdiklio įtraukimas į POS rodinį](dev-itpro/pos-custom-control.md)
+### [POS mokėjimo plėtinys](dev-itpro/pos-payment-extension.md)
+### [Išorinių dovanų kortelių palaikymas](dev-itpro/gift-card.md)
 ### [Programos „Retail Experience‟ kūrimas](dev-itpro/create-retail-experience-app.md)
 ### [„Hardware Station‟ apžvalga ir išplečiamumas](dev-itpro/hardware-station-extensibility.md)
 
-### „Retail Server“
-#### [„Retail Server‟ „OData‟ valdiklio išplėtimas](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Žiniatinklio API ir „OData‟ valdikliai](dev-itpro/odata-controllers-api.md)
-#### [„Retail Server‟ klientų ir vartotojų API](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Metaduomenų išplėtimas](dev-itpro/extend-metadata.md)
-#### [„Commerce Runtime‟ išplėtimas, kad EKA veiktų autonominiu režimu](dev-itpro/call-crt-service-offline.md)
-### „Commerce Runtime‟
-#### [„Commerce Runtime‟ apžvalga](dev-itpro/commerce-runtime-overview.md)
-#### [„Commerce Runtime‟ ir „Retail Server‟ išplečiamumas ](dev-itpro/commerce-runtime-extensibility.md)
-#### [Kliento nuostatų duomenų įtraukimas į kanalo duomenų bazę](dev-itpro/add-customer-preference-channel.md)
-#### [Ypatybių įtraukimas į pardavimo užsakymą](dev-itpro/add-properties-sales-order.md)
-#### [„Commerce Runtime‟ išplečiamumas ir paleidikliai](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Paleidiklio pavyzdys: blokuojama operacija](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Paleidiklio pavyzdys: grąžinimo strategija](dev-itpro/trigger-example-return-policy.md)
-### „e-Commerce“
-#### [Internetinės parduotuvės konfigūravimas](dev-itpro/configure-online-store.md)
-#### [Autentifikavimo paslaugų teikėjų konfigūravimas](dev-itpro/configure-authentication-providers.md)
-#### [„e-Commerce“ platforma](dev-itpro/ecommerce-platform.md)
-#### [„e-Commerce“ platformos SDK](dev-itpro/ecommerce-platform-sdk.md)
-### Mokėjimo jungtis
-#### [Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Visuotinis mokėjimo jungties diegimas](dev-itpro/deploy-payment-connector.md)
-#### [„Windows Installer‟ sukūrimas mokėjimo jungčiai](dev-itpro/create-windows-installer-payment-connector.md)
+## „Retail Server“ išplečiamumas
+### [„Retail Server OData‟ valdiklio išplėtimas](dev-itpro/extend-retail-server-odata-controller.md)
+### [Žiniatinklio API ir „OData‟ valdikliai](dev-itpro/odata-controllers-api.md)
+### [„Retail Server‟ klientų ir vartotojų API](dev-itpro/retail-server-customer-consumer-api.md)
+### [Metaduomenų išplėtimas](dev-itpro/extend-metadata.md)
+### [„Commerce Runtime‟ išplėtimas, kad POS veiktų autonominiu režimu](dev-itpro/call-crt-service-offline.md)
 
-## „Retail SDK“
-### [„Retail SDK‟ apžvalga](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## „Commerce Runtime“ išplečiamumas
+### [„Commerce Runtime‟ apžvalga](dev-itpro/commerce-runtime-overview.md)
+### [„Commerce Runtime‟ ir „Retail Server‟ išplečiamumas ](dev-itpro/commerce-runtime-extensibility.md)
+### [Kliento nuostatų duomenų įtraukimas į kanalo duomenų bazę](dev-itpro/add-customer-preference-channel.md)
+### [Ypatybių įtraukimas į pardavimo užsakymą](dev-itpro/add-properties-sales-order.md)
+### [„Commerce Runtime‟ išplečiamumas ir paleidikliai](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Paleidiklio pavyzdys: blokuojama operacija](dev-itpro/trigger-example-blocking-transaction.md)
+### [Paleidiklio pavyzdys: grąžinimo strategija](dev-itpro/trigger-example-return-policy.md)
+
+## „e-Commerce“ išplečiamumas
+### [Internetinės parduotuvės konfigūravimas](dev-itpro/configure-online-store.md)
+### [Autentifikavimo paslaugų teikėjų konfigūravimas](dev-itpro/configure-authentication-providers.md)
+### [„e-Commerce“ platforma](dev-itpro/ecommerce-platform.md)
+### [„e-Commerce“ platformos SDK](dev-itpro/ecommerce-platform-sdk.md)
+
+## Mokėjimo jungties išplečiamumas
+### [Mokėjimo jungties ir mokėjimo įrenginio diegimas (techninė dokumentacija)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Visuotinis mokėjimo jungties diegimas](dev-itpro/deploy-payment-connector.md)
+### [„Windows Installer‟ sukūrimas mokėjimo jungčiai](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [„Retail SDK“](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [„Retail SDK‟ integravimas su nuolatine kūrimo sistema](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [„Retail SDK‟ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kasos aparatai (Švedija)](localizations/emea-swe-cash-registers.md)
@@ -249,7 +253,13 @@
 ### [Užsakymų atributai](dev-itpro/order-attributes.md)
 ### [Klientų atributai](dev-itpro/customer-attributes.md)
 ### [„Retail“ „Typescript“ ir C# tarpinis serveris](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [„Retail POS‟ pavyzdžių vykdymas](dev-itpro/pos-run-samples.md)
+### [Esamų POS rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais](dev-itpro/pos-view-extension.md)
+### [Pasirinktinių valdiklių įtraukimas į „Modern Retail POS“ operacijų puslapius](dev-itpro/pos-custom-transaction.md)
+### [Pasirinktinių stulpelių įtraukimas į POS operacijų tinklelį](dev-itpro/pos-custom-transaction-column.md)
+### [POS API arba operacijos iškvietimas iš POS plėtinio](dev-itpro/pos-api-extension.md)
+### [Esamų POS rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais](dev-itpro/pos-view-extension.md)
+### [„Retail Modern POS“ paleidikliai ir spausdinimas](dev-itpro/pos-trigger-printing.md)
 
 ## „Commerce Runtime‟
 ### [Lojalumo plėtinys](dev-itpro/retail-sdk/loyalty-extension-sample.md)
