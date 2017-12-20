@@ -1,6 +1,6 @@
 ---
 title: "Pardavimo užsakymų tiesioginis sinchronizavimas tarp „Sales“ ir „Finance and Operations“"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami norint vykdyti dviejų krypčių „Microsoft Dynamics 365 for Sales“ pardavimo užsakymų antraščių ir eilučių sinchronizavimą tiesiogiai su „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimu."
+description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ leidimu."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami norint vykdyti dviejų krypčių „Microsoft Dynamics 365 for Sales“ pardavimo užsakymų antraščių ir eilučių sinchronizavimą tiesiogiai su „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimu.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ leidimu.
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 
 Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/dataintegration). Pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe – **Naujas projektas** ir pasirinkite viešuosius šablonus.
 
-Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami norinti vykdyti dviejų krypčių „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimą tiesiogiai su „Finance and Operations“.
+Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami pardavimo užsakymus tarp „Finance and Operations“ ir „Sales“ sinchronizuojant tiesiogiai.
 
 - **Šablonų pavadinimai naudojant funkciją Duomenų integravimas:** 
 

@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Dalyje **Prekių skirstymo strategija** nurodote, kuri tipų dokumentai taikytin
 ### <a name="cross-docking-policy-name-transfer-order"></a>Prekių skirstymo strategijos pavadinimas: perkėlimo užsakymas
 
 -   Eilės numeris: 10
--   Darbo užsakymo tipas: leidimas perkelti
+ -   Darbo užsakymo tipas: leidimas perkelti
 -   Būtina nurodyti prekių skirstymo poreikio vietą: ne
 -   Prekių skirstymo strategija: data ir laikas
 
@@ -102,10 +102,9 @@ Po to, kai produktas gamybos eilutėje paskeliamas baigtu, jis perkeliamas į į
 6.  Sukurkite perkėlimo užsakymą. Sukurkite prekės numerio L0101 perkėlimo užsakymą. Kiekis = 20.
 7.  Paskelbkite perkėlimo užsakymą iš krovinio planavimo darbo srities. Skirtuke **Siuntimas** pasirinkite krovinio planavimo darbo srities meniu elementą ir krovinio eilutės meniu **Išleidimas** pasirinkite **Išleidimas į sandėlį**. Dabar sukuriama perkėlimo užsakymo bangos eilutė, kurios tipas – **Perkėlimo išdavimas**.
 8.  Sukurkite gamybos užsakymą. Eikite į sąrašo puslapį **Gamybos užsakymas** ir sukurkite produkto L0101 gamybos užsakymą. Kiekis = 20. Įvertinkite padėtį ir pradėkite vykdyti gamybos užsakymą. Atkreipkite dėmesį, kad ir toliau naudojama lauko **Registruoti išrinkimo dokumentą dabar** parinktis **Ne**.
-9.  Naudodamiesi mobiliuoju įrenginiu praneškite, kad baigta. Eikite į mobiliojo įrenginio portalą ir pasirinkite meniu elementą **Skelbimas baigtu ir atidėjimas**. Dabar naudodamiesi rankiniu įrenginiu praneškite, kad prekė L0101 baigta. Atkreipkite dėmesį, kad padėjimo vieta yra **BAYDOOR**. Šią vietą galima naudojant darbo užsakymo tipo **Padėjimas** vietos direktyvą **Perkėlimo išdavimas**. Taip pat atkreipkite dėmesį, kad sukurtas ir užbaigtas darbas, kurio tipas **Perkėlimo išdavimas**. Detalizuodami perkėlimo užsakymo darbo informaciją patvirtinkite darbą.
-10. Dabar naudodami gamybos užsakymą pabandykite paleisti dar 20 vienetų, o po to naudodami rankinį įrenginį praneškite, kad 20 ae baigtas. Šį kartą vietą **LP-001** siūloma naudoti kaip atidavimo vietą. Šią vietą galima rasti naudojant dalies **Baigtų prekių atidėjimas** vietos nurodymą. Šis vietos nurodymas naudojamas todėl, kad nėra kitos prekių skirstymo galimybės. Prekės LP-001 perkėlimo užsakymo buvo visiškai įvykdytas atlikus pirmą prekių skirstymo veiklą.
-
-Sukurtas ir apdorotas darbas, kurio tipas **Baigtų prekių atidėjimas**.
+9.  Naudodamiesi mobiliuoju įrenginiu praneškite, kad baigta. Eikite į mobiliojo įrenginio portalą ir pasirinkite meniu elementą **Skelbimas baigtu ir atidėjimas**. Dabar naudodamiesi rankiniu įrenginiu praneškite, kad prekė L0101 baigta. Kiekis = 10. Atkreipkite dėmesį, kad padėjimo vieta yra **BAYDOOR**. Šią vietą galima naudojant darbo užsakymo tipo **Padėjimas** vietos direktyvą **Perkėlimo išdavimas**. Taip pat atkreipkite dėmesį, kad sukurtas ir užbaigtas darbas, kurio tipas **Perkėlimo išdavimas**. Detalizuodami perkėlimo užsakymo darbo informaciją patvirtinkite darbą.
+10. Dabar iš mobiliojo įrenginio praneškite apie papildomus 10 vienetų. Atkreipkite dėmesį, kad padėjimo vieta vėl yra **BAYDOOR**. Taip pat atkreipkite dėmesį, kad sukurtas naujas darbas, skirtas papildomiems 10 vienetų, kurio tipas **Perkėlimo išdavimas**.
+11. Dabar naudodami gamybos užsakymą pabandykite paleisti dar 20 vienetų, o po to naudodami rankinį įrenginį praneškite, kad 20 ae baigtas. Šį kartą vietą **LP-001** siūloma naudoti kaip atidavimo vietą. Šią vietą galima rasti naudojant dalies **Baigtų prekių atidėjimas** vietos nurodymą. Šis vietos nurodymas naudojamas todėl, kad nėra kitos prekių skirstymo galimybės. Prekės LP-001 perkėlimo užsakymas buvo visiškai įvykdytas atlikus dvi prekių skirstymo veiklas, nurodytas 9 ir 10 veiksmuose. Atkreipkite dėmesį, kad darbas, kurio tipas **Baigtų prekių atidėjimas**, buvo sukurtas ir apdorotas.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>2 scenarijus – prekių skirstymas nuo gamybos iki perkėlimo užsakymų, kuriuose nurodytas paskyros grafikas
 
@@ -123,7 +122,7 @@ Po to, kai gamybos eilutėje pranešama, kad produktas yra baigtas, jis perkelia
 
 ### <a name="additional-information"></a>Papildoma informacija
 
--   Prekių skirstymo scenarijus gali būti taikomas pagal paketą ir seriją kontroliuojamoms prekėms, kai rezervacijų hierarchijoje virš vietos ir po vieta nurodomos paketo ir serijos numerio dimensijos.
+-   Prekių skirstymo scenarijus gali būti taikomas pagal paketą ir seriją kontroliuojamoms prekėms, kai rezervacijų hierarchijoje virš vietos ir po vieta nurodomos paketo ir serijos numerio dimensijos. 
 
 
 

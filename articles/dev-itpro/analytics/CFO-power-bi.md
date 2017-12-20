@@ -3,7 +3,7 @@ title: "„Power BI“ turinys CFO apžvalga"
 description: "Šioje temoje aprašomas „Microsoft Power BI‟ turinys CFO apžvalga."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), iš „Power BI“ turinio **CFO apžvalga** gautos ataskaitos rodomos darbo srityje **CFO apžvalga**.
+„Power BI“ turinio **CFO apžvalga** ataskaitos rodomos darbo srityje **CFO apžvalga**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 „Power BI‟ turinys **CFO apžvalga** yra sudėtinis ir jį sudaro ataskaitos iš įvairių kitų „Power BI‟ turinių, kartu su kai kuriais faktiniais ir biudžeto likučiais iš didžiosios knygos. Todėl šis „Power BI‟ turinys suteikia galimybę vyriausiajam finansininkui (CFO) pamatyti organizacijos apžvalgą.

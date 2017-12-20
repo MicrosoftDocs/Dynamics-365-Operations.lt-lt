@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose, „Enterprise“ leidime.
+Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ versijose.
 
 Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į naujausią versiją procesas](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 > [!NOTE]
-> Šiuo metu pervardijama „Dynamics 365 for Operations“ (vietinė versija). „Dynamics 365 for Operations“ (vietinė versija) bus nurodyta visoje komunikacijoje ir licencijos informacijoje. Produkto pavadinimas, kurį matysite diegdami produktą, yra „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas. Abu šie pavadinimai nurodo tą patį produktą.
+> Šiuo metu pervardijama „Dynamics 365 for Operations“ (vietinė versija). „Dynamics 365 for Operations“ (vietinė versija) bus nurodyta visoje komunikacijoje ir licencijos informacijoje. Produkto pavadinimas, kurį matysite diegdami produktą, yra „Dynamics 365 for Finance and Operations Enterprise edition“. Abu šie pavadinimai nurodo tą patį produktą.
 
 ## <a name="application-releases"></a>Programos leidimai
 
@@ -113,29 +113,35 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
+<td>Platformos „update 12“</td>
+<td>7.0.4709</td>
+<td>2017 m. lapkričio mėn.</td>
+<td><a href="whats-new-platform-update-12.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ 12 platformos naujinime (2017 m. lapkričio mėn.)</a></td>
+<tbody><tr class="odd">
+<td>„Microsoft Dynamics 365 for Finance and Operations Enterprise edition“</td>
 <td>Platformos „update 11“</td>
 <td>7.0.4679.35176</td>
 <td>Spalio 2017 d.</td>
-<td><a href="whats-new-platform-update-11.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimas 11 platformos naujinime (2017 m. spalio mėn.)</a></td>
+<td><a href="whats-new-platform-update-11.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ 11 platformos naujinime (2017 m. spalio mėn.)</a></td>
 <tbody>
 <tr class="odd">
-<td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
+<td>„Microsoft Dynamics 365 for Finance and Operations Enterprise edition“</td>
 <td>Platformos „update 10“</td>
 <td>7.0.4641.16233</td>
 <td>Rugpjūčio 2017 d.</td>
 <td><a href="whats-new-platform-update-10.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations, Enterprise edition“ 10 platformos naujinime (2017 m. rugpjūčio mėn.)</a></td>
 <tr class="odd">
-<td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
+<td>„Microsoft Dynamics 365 for Finance and Operations Enterprise edition“</td>
 <td>9 platformos naujinimas</td>
 <td>7.0.4612.35162</td>
 <td>Liepos 2017 d.</td>
-<td><a href="whats-new-platform-update-9.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo platformos 9 naujinime (2017 m. liepa)</a></td>
+<td><a href="whats-new-platform-update-9.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ platformos 9 naujinime (2017 m. liepa)</a></td>
 </tr><tr class="odd">
-<td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
+<td>„Microsoft Dynamics 365 for Finance and Operations Enterprise edition“</td>
 <td>8 platformos naujinimas</td>
 <td>7.0.4565.16212</td>
 <td>Birželio 2017 d.</td>
-<td><a href="whats-new-platform-update-8.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo platformos 8 naujinime (2017 m. birželis)</a></td>
+<td><a href="whats-new-platform-update-8.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ platformos 8 naujinime (2017 m. birželis)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations</td>

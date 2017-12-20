@@ -3,7 +3,7 @@ title: "„Power BI“ turinys Gamybos našumas"
 description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Naudodami šį „Power BI‟ turinį taip pat galite analizuoti gamybos nuokryp
 „Power BI‟ turinyje **Gamybos našumas** yra duomenų, kilusių iš gamybos užsakymų ir paketinių užsakymų. Ataskaitose nėra duomenų, susijusių su „kanban‟ gamyba.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), „Power BI“ turinys **Gamybos našumas** rodomas puslapyje **Gamybos našumas** (**Gamybos kontrolė** > **Užklausos ir ataskaitos** > **Gamybos našumo analizė** > **Gamybos našumas**). 
+„Power BI“ turinys **Gamybos našumas** rodomas puslapyje **Gamybos našumas** (**Gamybos kontrolė** > **Užklausos ir ataskaitos** > **Gamybos našumo analizė** > **Gamybos našumas**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 

@@ -1,16 +1,16 @@
 ---
 title: "Generuoti finansinę ataskaitą"
 description: "Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada spuste
 
 Toliau pateikiamoje lentelėje paaiškinamos parinktys, galimos generuojant ataskaitas.
 
-| Parinktis                                                                                | Daugiau informacijos |
-|---------------------------------------------------------------------------------------|----------------------|
-| Nustatykite grafiką, pagal kurį ataskaita arba ataskaitų grupė bus sugeneruota automatiškai              |                      |
-| Patikrinkite, ar ataskaitoje netrūksta sąskaitų arba duomenų, ir patikrinkite ataskaitos tikslumą |                      |
+| Parinktis                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Nustatykite grafiką, pagal kurį ataskaita arba ataskaitų grupė bus sugeneruota automatiškai              |   
+| Patikrinkite, ar ataskaitoje netrūksta sąskaitų arba duomenų, ir patikrinkite ataskaitos tikslumą |   
 
 Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas. Skirtuke Išvestis ir paskirstymas galite nurodyti ataskaitos vietą bibliotekoje – tai lengvas būdas ataskaitai bendrinti.
 
-## <a name="schedule-report-generation"></a> Ataskaitų generavimas pagal grafiką
-Daugelis įmonių turi pagrindinių ataskaitų, kurios vykdomos suplanuotais intervalais, kad atitiktų verslo procesus. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
+## <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
+
+Norėdami generuoti finansinę ataskaitą naudodami „Microsoft Dynamics 365 for Finance and Operations“, eikite į **Didžioji knyga** > **Užklausos ir ataskaitos** > **Finansinės ataskaitos**. 
+ - Pasirinkite norimą generuoti ataskaitą ir spustelėkite **Generuoti**. 
+ - Užpildykite lauką **Ataskaitos data** ir spustelėkite **Gerai**.
+ 
+ Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.
+ Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.
+ 
+ 
+Norėdami sugeneruoti ataskaitą naudodami **Ataskaitų kūrimo įrankis**, atidarykite ataskaitos aprašą, tada įrankių juostoje spustelėkite mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.
+
+> [!NOTE]
+> Sugeneruotos ataskaitos gali būti tik tuose aplankuose ir vietose, kurias turite teisę pasiekti.
+
+
+## <a name="schedule-report-generation"></a>Ataskaitos generavimo planavimas
+Siekdamos laikytis verslo procesų, daug įmonių turi pagrindinį ataskaitų, kurios rengiamos suplanuotais intervalais, rinkinį. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.
 
 Sukūrus ir įrašius ataskaitų grafikus, jie bus rodomi naršymo srities dalyje Ataskaitų grafikai. Galite sukurti ataskaitoms tvarkyti skirtus aplankus. Jei viena į grafiką įtraukta ataskaita nepaleidžiama, visos kitos ataskaitos bus paleidžiamos.
 

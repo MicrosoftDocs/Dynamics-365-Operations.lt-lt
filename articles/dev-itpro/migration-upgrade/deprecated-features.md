@@ -3,7 +3,7 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/06/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašytos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš dabartinės „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo versijos.
+Šioje temoje aprašytos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš dabartinės „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ versijos.
 
 ## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Funkcijos, kurios nebenaudojamos sprendime „Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.) su 8 platformos naujinimu
 
@@ -490,8 +490,8 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Microsoft Dynamic
 
 |   |   |
 |---|---|
-| **Nebenaudojimo priežastis**       | Duomenų skaidiniai pristatyti „Microsoft Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas dukterinėms įmonėms, keliems nuomininkams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelias duomenų bazes arba kelis „Dynamics AX“ egzempliorius. |
-| **Pakeitė kita funkcija?** | Ateities leidimuose duomenų skaidinius pakeis galimybė naudoti kelias duomenų bazes arba „Dynamics AX“ egzempliorius.    |
+| **Nebenaudojimo priežastis**       | Duomenų skaidiniai pristatyti „Microsoft Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas filialams, keliems nuomininkams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelis „Finance and Operations“ egzempliorius. |
+| **Pakeitė kita funkcija?** | Klientai, naudojantys duomenų skaidinius, turi naudoti kelis „Finance and Operations“ egzempliorius, jei duomenų bazės lygių atskyrimas yra didelė problema.    |
 | **Paveikti moduliai**             | Visos  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Duomenų bazės ir bendrai naudojamo failo saugykla, skirta priedams
