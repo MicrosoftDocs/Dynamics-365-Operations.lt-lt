@@ -57,8 +57,9 @@ Norėdami generuoti PVM išrašą, turite atlikti tolesnius veiksmus.
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>PVM rinkėjų nustatymas PVM ataskaitoms teikti
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 Prieš nustatydami PVM ataskaitų kodus, turite pasirinkti tinkamą PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** dalyje **Bendra** pasirinkite **Ataskaitos maketas**. Šis maketas bus naudojamas nustatant PVM ataskaitų kodus.
+
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](../general-ledger/tasks/set-up-sales-tax-authorities.md). -->
 
 ### <a name="sales-tax-reporting-codes"></a>PVM ataskaitų kodai
 
