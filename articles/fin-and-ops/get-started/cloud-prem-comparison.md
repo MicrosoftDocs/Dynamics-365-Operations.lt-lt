@@ -3,7 +3,7 @@ title: "Debesies ir vietinės versijų funkcijų palyginimas"
 description: "Temoje parodyta, kurios funkcijos palaikomos debesies ir vietinėje versijose."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 | | Integravimas su PowerBI.com| Taip | Nr. |
 | | Analizės darbo sritys | Taip | Nr. |
 | | Sumanaus verslo procesas: rekomendacijos| Taip | Nr. |
+| | „Power BI“ ataskaitų kūrimas su „OData“ naudojant „Power BI Desktop“ arba „Excel PowerQuery“ įrankius | Taip | Nr. |
+| | „SQL Server Reporting Services“ (SSRS) palaiko išplėtimą  | Taip | Nr. |
+| | Telemetrija perkeliama į debesį | Taip | Nr. |
 | Atsargų valdymas| | Taip | Taip |
 | „Lifecycle Services“| | Taip | Taip |
 | | Konfigūruojamieji verslo procesai | Taip | Nr. |
@@ -86,7 +89,7 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 | Transportavimo valdymas| | Taip | Taip |
 | Tiekėjo bendradarbiavimas| | Taip | Taip|
 | Sandėlio valdymas| | Taip | Taip |
-| | Mobilioji sandėlio programa| Taip | Nr. |
+| | Mobilioji sandėlio programa| Taip | Taip |
 | | Sandėliavimo „Power BI“ ataskaitos| Taip | Nr. |
 | Žiniatinklio klientas | | Taip | Taip |
 | | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos| Taip | Nr. |
@@ -103,6 +106,7 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 | Platformų suderinamumas  || Taip | Taip |
 | Aptarnavimas | | Taip | Taip |
 | | Paslaugų teikimo aplinka | Taip | Nr. |
+| Sekimo analizatorius ir „PerfTimer“ | | Taip | Nr. |
 | Atnaujinti | | Taip | Taip |
 | | Atnaujinti | Taip | Nr. |
 | | Ankstesnių versijų plėtotė ir palaikymas | Taip | Nr. |
@@ -121,6 +125,8 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 |---|---|---|---|
 | Visos „Talent“ sritys | Visos „Talent“ funkcijos | Taip | Nr. |
 
+## <a name="see-also"></a>Taip pat žiūrėkite
 
+- [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](features-not-implemented-on-prem.md)
 
 

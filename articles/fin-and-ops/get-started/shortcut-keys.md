@@ -3,7 +3,7 @@ title: "Spartieji klavišai"
 description: "Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations, Enterprise edition“."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Opera
 
 **Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
 
+## <a name="finding-a-shorcut"></a>Sparčiųjų klavišų radimas
+Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosius klavišus tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate. 
+
+
 ## <a name="action-shortcuts"></a>Veiksmų spartieji klavišai
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Norint tai padaryti**                                    | **Spausti**                        |
+| **Norėdami tai padaryti**                                    | **Spausti**                        |
 | Atidaryti ieškos veiksmą                                | Ctrl + ’ arba Alt + Q                  |
 | Perkelti į standartinę veiksmų sritį                  | „Alt“ + M, A arba „Ctrl“ + F6               |
 | Atidaryti skirtuką veiksmų srityje arba meniu           | „Enter“, tarpo klavišas arba „Alt“ + rodyklė žemyn |
@@ -48,13 +52,14 @@ Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Opera
 | Vykdyti numatytąjį mygtuką formoje / dialogo lange   | Alt + Enter                        |
 | Spustelėkite mygtuką arba plytelę.                            | „Enter“ klavišas arba tarpo klavišas                   |
 | Peržiūrėti skaičiavimo plytelės atnaujintą informaciją         | „Alt“ + rodyklė aukštyn                     |
+| Peržiūrėti šiuo metu galimus sparčiuosius klavišus                | Alt + Shift + K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Datos parinkimo spartieji klavišai
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Norėdami tai padaryti**                        | **Spausti**                                 |
 | Atidaryti datos parinkiklį                  | „Alt“ + rodyklė žemyn                            |
-| Judėti tarp datų duomenų parinkiklyje | „Ctrl“ + rodyklių klavišai                               |
+| Judėti tarp datų duomenų parinkiklyje | „Ctrl“ + rodyklių klavišai                           |
 | Perkelti į kitą / ankstesnį mėnesį       | „Page down“ / „Page up“                       |
 | Perkelti į kitus / ankstesnius metus        | „Ctrl“ + „Shift“ + „Page down“ / „Ctrl“ + „Shift“ + „Page up“ |
 | Pereiti į šiandieną                         | CTRL + HOME                                 |
@@ -65,6 +70,7 @@ Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Opera
 ## <a name="factbox-shortcuts"></a>„FactBox“ spartieji klavišai
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Norėdami tai padaryti**                                                                  | **Spausti**                                 |
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | „Alt“ + M, B arba „Ctrl“ + F2                        |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn |

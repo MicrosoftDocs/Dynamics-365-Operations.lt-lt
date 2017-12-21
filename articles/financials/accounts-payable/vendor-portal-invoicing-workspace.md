@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506dd06790f40fbba272811a59281add1a86b179
+ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
+ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 
-**Tiekėjų bendradarbiavimo SF išrašymo** darbo sritį galima naudoti norint peržiūrėti tiekėjo SF informaciją ir pateikti SF programai „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas, naudojantis darbo eigos galimybėmis.
+**Tiekėjų bendradarbiavimo SF išrašymo** darbo sritį galima naudoti norint peržiūrėti tiekėjo SF informaciją ir pateikti SF programai „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“, naudojantis darbo eigos galimybėmis.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Tiekėjo bendradarbiavimo SF išrašymo darbo sritis
@@ -61,7 +61,7 @@ Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities *
 
 
 
-Jei reikia daugiau informacijos, žr. temą [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](../../supply-chain/procurement/collaborate-vendors-vendor-portal.md)
+Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimas su išoriniais tiekėjais](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 
 
 

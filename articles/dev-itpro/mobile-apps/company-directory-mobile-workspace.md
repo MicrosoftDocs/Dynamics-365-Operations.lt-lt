@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 73062587a2cfed3af212f618df48a26df574ee87
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 0bbb17cd5053c68d9108ca9771e2f24611ba1995
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,8 +53,8 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.)</li>
-<li>„Microsoft Dynamics 365 for Talent“</li>
+<ul><li>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</li>
+<li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>

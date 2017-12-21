@@ -1,15 +1,15 @@
 ---
 title: "„Finance and Operations“ skirtos finansinės ataskaitos"
 description: "„Finance and Operations“ skirtos finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 „Finance and Operations“ skirtos finansinės ataskaitos suteikia galimybę finansų ir verslo profesionalams kurti, tvarkyti, diegti ir peržiūrėti finansines ataskaitas. Jos nepaiso tradicinių ataskaitų teikimo apribojimų, todėl galite efektyviai kurti įvairių tipų ataskaitas.
 
 Finansinės ataskaitos palaiko dimensijas. Todėl sąskaitos segmentus arba dimensijas galima naudoti iš karto. Nereikia jokių papildomų įrankių ar konfigūravimo veiksmų.
+
+## <a name="financial-reporting-setup"></a>Finansinių ataskaitų nustatymas
+Puslapyje **Finansinių ataskaitų nustatymas** yra visų sistemos finansinių dimensijų sąrašas. **Didžioji knyga** > **Didžiosios knygos nustatymas** > **Finansinių ataskaitų nustatymas**. 
+
+Puslapyje **Finansinių ataskaitų nustatymas** yra du skyriai, kurie nustato duomenis, kuriuos pateikiate finansinėse ataskaitose:
+
+• **Skirtukas Dimensijos**. Kadangi skirtingos įmonės naudoja skirtingas dimensijas ir sąskaitų struktūras, neįmanoma nustatyti tvarkos, kuria vartotojai nori peržiūrėti visas ataskaitų finansines dimensijas. Šis puslapis leidžia nustatyti tvarką, kuria norite matyti finansines dimensijas, kai kuriate ir peržiūrite ataskaitą srityje Finansinės ataskaitos.
+
+•   **Skirtukas Atributai** yra vieta, kur galite pasirinkti, ar norite galimybės naudoti **Tiekėjai** ir **Klientai** kaip filtravimo ir ataskaitų kūrimo atributus. Tiekėjo ir kliento ataskaitų kūrimas bus naudingas tik jei registruodami operacijas neįvedate kelių tiekėjų ar klientų viename kvite. Tiekėjo ir (arba) kliento pasirinkimas padidins integravimo laiką.
+
+
 
 ## <a name="financial-reporting-components"></a>Finansinių ataskaitų komponentai
 Šie finansinių ataskaitų komponentai padeda lengviau kurti, peržiūrėti ir planuoti ataskaitas.

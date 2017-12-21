@@ -3,7 +3,7 @@ title: "Sandėlio efektyvumo „Power BI“ turinys"
 description: "Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 -   **Vietos atsargų tikslumas** – atsargų tikslumas yra svarbi vidaus sandėlio verslo įžvalga (BI). Labai svarbu nustatyti, kaip tiksliai vykdomi bendrieji skaičiavimai. Tačiau taip pat svarbu nustatyti, kaip tiksliai saugomos prekės tinkamose vietose, ir pažymėti nesutampančius duomenis, kad galėtumėte prekėms rasti geresnę vietą arba inicijuoti tam tikrų prekių viso kiekio skaičiavimą. (Šiuo metu nauja preke pagrįsto skaičiavimo funkcija teikiama kaip karštoji pataisa.) Jei naudojate šį „Power BI“ turinį norėdami nustatyti turimų atsargų duomenų teisingumą pagal vietą, taip pat galite identifikuoti vagystes savo parduotuvėse. Taip pat galite nustatyti, ar yra vietų, kurių turimų atsargų kiekiai skiriasi nuo įmonės išteklių planavimo (ERP) duomenų. Šios vietos gali būti per didelės arba gali būti neįmanoma jų suskaičiuoti. Be to, faktinis išdėstymas gali būti netikslus, todėl sunku vieno tipo prekę sinchronizuoti su turimais duomenimis.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Prieiga prie „Power BI“ turinio paketo
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), „Power BI“ turinys **Sandėlio našumas** rodomas puslapyje **Sandėlio našumas** (**Sandėlio valdymas** > **Užklausos ir ataskaitos** > **Sandėlio našumo analizė** > **Sandėlio našumas**). 
+„Power BI“ turinys **Sandėlio našumas** rodomas puslapyje **Sandėlio našumas** (**Sandėlio valdymas** > **Užklausos ir ataskaitos** > **Sandėlio našumo analizė** > **Sandėlio našumas**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Į **sandėlio efektyvumo** „Power BI“turinį įtraukta ataskaita. Šią ataskaitą sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **sandėlio efektyvumo** „Power BI“ turinio vaizdinių priemonių apžvalga.

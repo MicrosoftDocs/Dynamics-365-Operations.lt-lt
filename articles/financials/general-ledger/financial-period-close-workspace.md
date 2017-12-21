@@ -3,7 +3,7 @@ title: "Finansinio laikotarpio uždarymo darbo sritis"
 description: "Šiame straipsnyje pateikta Finansinio laikotarpio uždarymo darbo sritis ir susijusi konfigūracija."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Galite priskirti šablono užduotį vienai arba kelioms įmonėms, kuriose ta u�
 
 Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
 
-> [Patarimas] Jei norite susieti konkrečią „Management Reporter“ ataskaitą su finansinio laikotarpio uždarymo užduotimi, galite naudoti ataskaitos URL. Norėdami pasiekti ataskaitų URL, atidarykite ataskaitą naudodami ataskaitų dizaino įrankį, tada spustelėkite **Failas** &gt; **Peržiūrėti ataskaitą** ir atidarykite ataskaitą žiniatinklio naršyklėje. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 
+> [!TIP]
+> Jei norite susieti konkrečią „Management Reporter“ ataskaitą su finansinio laikotarpio uždarymo užduotimi, galite naudoti ataskaitos URL. Norėdami pasiekti ataskaitų URL, atidarykite ataskaitą naudodami ataskaitų dizaino įrankį, tada spustelėkite **Failas** &gt; **Peržiūrėti ataskaitą** ir atidarykite ataskaitą žiniatinklio naršyklėje. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 
 
 Šablone galite nurodyti užduoties priklausomybes. Jei nustatyta, kad užduotis priklausoma nuo vienos ar kelių užduočių, tos užduoties negalima pažymėti kaip baigtos, kol neįvykdytos visos priklausomybės. 
 

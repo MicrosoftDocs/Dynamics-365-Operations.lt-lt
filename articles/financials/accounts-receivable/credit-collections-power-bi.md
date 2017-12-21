@@ -3,7 +3,7 @@ title: "„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas"
 description: "Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f08df6cb8549e87e123b10c5a771ae1c60ff39c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Visos sumos rodomos sistemos valiuta. Sistemos valiutą galite nustatyti puslapy
 Pagal numatytuosius nustatymus rodomi šios įmonės kredito ir mokėjimų priežiūros duomenys. Norėdami pamatyti visų įmonių duomenis, vaidmeniui priskirkite pareigą **CustCollectionsBICrossCompany**.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), „Power BI“ turinys **Kredito ir mokėjimų priežiūros valdymas** rodomas darbo srityje **Klientų kreditas ir mokėjimų priežiūra**.
+„Power BI“ turinys **Kreditų ir mokėjimų priežiūros valdymas** rodomas darbo srityje **Klientų kredito ir mokėjimų priežiūra**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 

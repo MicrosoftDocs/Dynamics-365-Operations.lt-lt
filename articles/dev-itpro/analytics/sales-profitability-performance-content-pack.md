@@ -3,7 +3,7 @@ title: "Pardavimo ir pelningumo našumo „Power BI“ turinys"
 description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Pardavimo ir pelningumo našumas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Pelningumą galima analizuoti tolesniais būdais.
 -   kliento pelningumą (pagal įplaukas, lyginant su marža).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), „Power BI“ turinys **Pardavimo ir pelningumo našumas** rodomas puslapyje **Pardavimo ir pelningumo našumas** (**Pardavimas ir rinkodara** > **Užklausos ir ataskaitos** > **Pardavimo našumo analizė** > **Pardavimo ir pelningumo našumas**). 
+„Power BI“ turinys **Pardavimo ir pelningumo efektyvumas** rodomas puslapyje **Pardavimo ir pelningumo efektyvumas** (**Pardavimas ir rinkodara** > **Užklausos ir ataskaitos** > **Pardavimo efektyvumo analizė** > **Pardavimo ir pelningumo efektyvumas**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 „Power BI‟ turinio pakete **Pardavimo ir pelningumo našumas** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio vizualizacijų apžvalga.

@@ -3,7 +3,7 @@ title: Mobilioji darbo sritis Mano komanda
 description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a49e7ba9c1cbc525f388b345b7c6b2102bc81f54
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,8 +53,8 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.)</li>
-<li>„Microsoft Dynamics 365 for Talent“</li>
+<ul><li>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</li>
+<li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>

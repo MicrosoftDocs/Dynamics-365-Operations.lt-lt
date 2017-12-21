@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <tr class="odd">
 <td>1</td>
 <td>Sistemos administratorius</td>
-<td>Įdiegti „Finance and Operations” arba „Finance and Operations” jūsų organizacijoje.</td>
+<td>Įdiekite „Finance and Operations“ savo organizacijoje.</td>
 <td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365‟ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">
