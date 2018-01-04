@@ -3,7 +3,7 @@ title: "„Excel“ papildinio naudojimas"
 description: "Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/27/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis, galite paleisti iš „Excel“ arba „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“.
+Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis, galite paleisti iš „Excel“ arba „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo.
 
 Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ papildinį galėsite greitai ir paprastai peržiūrėti bei redaguoti šiuos duomenis. Norint įdiegti šį papildinį būtina naudoti „Microsoft Excel 2016“.
 
@@ -104,6 +104,18 @@ Naudodami dizaino įrankį galite koreguoti automatiškai į darbalapį įtrauki
 
 4. Norėdami pritaikyti duomenų šaltinio keitimus, pasirinkite **Naujinti**. Tada pasirinkite **Atlikta**, kad išeitumėte iš dizaino įrankio.
 5. Jei įtraukėte lauką (stulpelį), pasirinkite **Atnaujinti**, kad būtų nuskaitytas atnaujintas duomenų rinkinys.
+
+## <a name="copy-environment-data"></a>Kopijuoti aplinkos duomenis
+
+Į darbaknygę nuskaitomus duomenis iš vienos aplinkos galima nukopijuoti į kitą. Tačiau negalite tiesiog pakeisti ryšio URL, nes darbaknygėje esanti duomenų talpykla duomenis toliau laikys esamais. Vietoj to turite naudoti funkciją Kopijuoti aplinkos duomenis, kad duomenis naujoje aplinkoje galėtumėte paskelbti kaip naujus.
+
+1. Pasirinkite mygtuką **Pasirinktys** (krumpliaračio simbolis), tada **Duomenų jungties** „FastTab“ pasirinkite **Kopijuoti aplinkos duomenis**. 
+2. Įveskite naujos aplinkos serverio URL. 
+3. Pasirinkite **Gerai**, tada pasirinkite **Taip**, kad patvirtintumėte veiksmą. „Excel“ papildinys paleidžiamas iš naujo ir prisijungia prie naujos aplinkos. Visi darbaknygėje esantys duomenys yra laikomi naujais.
+
+    „Excel“ papildinį paleidus iš naujo, pranešimų lauke nurodoma, kad darbaknygė veikia aplinkos kopijavimo režimu.
+
+4. Norėdami duomenis į naują aplinką nukopijuoti kaip naujus, pasirinkite **Publikuoti**. Norėdami atšaukti aplinkos kopijavimo operaciją ir peržiūrėti naujoje aplinkoje esamus duomenis, pasirinkite **Atnaujinti**.
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 Kelias triktis galima pašalinti atlikus paprastus veiksmus.
