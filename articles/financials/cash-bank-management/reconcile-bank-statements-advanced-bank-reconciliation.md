@@ -3,7 +3,7 @@ title: "Banko išrašų derinimas naudojant išplėstinį banko banko derinimą"
 description: "Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šioje temoje paaiškinamas derinimo procesas."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
