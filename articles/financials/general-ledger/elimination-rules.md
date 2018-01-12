@@ -3,14 +3,14 @@ title: "Pašalinimo taisyklės"
 description: "Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="de8d1-182">Nurodę pagrindinę informaciją, galite nustatyti pačias apdorojimo taisykles, spustelėdami **Eilutės**.</span><span class="sxs-lookup"><span data-stu-id="de8d1-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="de8d1-183">Galimos dvi šalinimo parinktys: grynojo pokyčio sumos pašalinimas arba fiksuotos sumos nustatymas.</span><span class="sxs-lookup"><span data-stu-id="de8d1-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="de8d1-184">Pasirinkite šaltinio sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="de8d1-184">Select your source account.</span></span> <span data-ttu-id="de8d1-185">Žvaigždutę (\*) galite naudoti kaip universalųjį simbolį.</span><span class="sxs-lookup"><span data-stu-id="de8d1-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="de8d1-186">Pvz., nurodžius 1\*, kaip paskirstymo duomenų šaltinis būtų pasirinktos visos sąskaitos, kurios prasideda 1.</span><span class="sxs-lookup"><span data-stu-id="de8d1-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="de8d1-184">Pasirinkite šaltinio sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="de8d1-184">Select your source account.</span></span> <span data-ttu-id="de8d1-185">Žvaigždutę (\\*) galite naudoti kaip universalųjį simbolį.</span><span class="sxs-lookup"><span data-stu-id="de8d1-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="de8d1-186">Pvz., nurodžius 1\\*, kaip paskirstymo duomenų šaltinis būtų pasirinktos visos sąskaitos, kurios prasideda 1.</span><span class="sxs-lookup"><span data-stu-id="de8d1-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="de8d1-187">Pasirinkus šaltinio sąskaitas, **Sąskaitos specifikacija** nustato naudojamą paskirties įmonės sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="de8d1-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="de8d1-188">Pasirinkite **Šaltinis**, jei norite naudoti tą pačią pagrindinę sąskaitą, nurodytą sąskaitoje **Šaltinis**.</span><span class="sxs-lookup"><span data-stu-id="de8d1-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="de8d1-189">Jei pasirinksite **Nurodyta vartotojo**, turite nurodyti paskirties sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="de8d1-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
