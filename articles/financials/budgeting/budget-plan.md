@@ -3,7 +3,7 @@ title: "Biudžeto planavimas"
 description: "Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimo funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
