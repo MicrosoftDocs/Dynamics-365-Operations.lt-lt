@@ -3,14 +3,14 @@ title: "Kredito kortelės operacijų importavimas ir tvarkymas"
 description: "Šioje temoje paaiškinama, kaip importuoti ir tvarkyti su išlaidomis susijusias kredito kortelių operacijas. Šias operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pasikartojančiu grafiku, arba jas galima pagal poreikį importuoti rankiniu būdu."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global

@@ -3,7 +3,7 @@ title: "Biudžeto planavimo „Excel“ šablonai"
 description: "Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose."
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Vidinės įmonės išlaidos"
 description: "Darbininkas, kurį yra įdarbinęs vienas organizacijos juridinis subjektas, gali dirbti kitam tos pačios organizacijos juridiniam subjektui. Šioje situacijoje, naudodami vidinės įmonės išlaidų funkciją, darbininko išlaidas galite priskirti tam juridiniam subjektui, kuriam darbas buvo atliekamas."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
