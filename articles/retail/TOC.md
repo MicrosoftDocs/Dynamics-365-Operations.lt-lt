@@ -41,9 +41,10 @@
 ## [„Retail” kanalų nustatymas](define-maintain-retail-channels.md)
 ## [Internetinės parduotuvės apžvalga](online-stores.md)
 ## [„Retail” aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
-## [„Retail” laikas ir buvimas darbe](retail-time-attendance.md)
+## [„Retail“ laikas ir buvimas darbe](retail-time-attendance.md)
 
 # „Modern Point of Sale“ (MPOS) ir „Cloud POS“
+## [Pasirinkimas tarp „Modern POS“ ir „Cloud POS“](MPOS-or-CPOS.md)
 ## [POS operacijos](POS-operations.md)
 ## [MPOS / CPOS demonstracinių duomenų ekrano maketai](demo-data.md)
 ## Išoriniai aparatūros įrenginiai
@@ -74,8 +75,13 @@
 ### [„Retail” sąskaitų ir įrenginių valdymas iš būstinės](set-up-activation-accounts-validate-devices-hq.md)
 ## Kvitai
 ### [Kvitų šablonų nustatymas](receipt-templates-printing.md) 
-### [Kvitų iš EKA siuntimas el. paštu](email-receipts.md)
+### [Kvitų iš MPOS siuntimas el. paštu](email-receipts.md)
 ## [Užduočių įrašymo priemonė ir EKA žinynas](task-recorder-retail-pos.md)
+
+# Užsakymo įvykdymas
+## [Parduotuvės užsakymų įvykdymo peržiūra](Order-fulfillment-overview.md)
+## [Įvykdymo nustatymas parduotuvėje](Order-fulfillment-POS-setup.md)
+## [Pranešimų įjungimas elektroniniame kasos aparate](Notifications-POS.md)
 
 # Stebėjimas ir analizė
 ## [Pardavimo ir maržos efektyvumo stebėjimas](monitor-sales-margin-performance.md)
@@ -258,8 +264,10 @@
 ### [Pasirinktinių valdiklių įtraukimas į „Modern Retail POS“ operacijų puslapius](dev-itpro/pos-custom-transaction.md)
 ### [Pasirinktinių stulpelių įtraukimas į POS operacijų tinklelį](dev-itpro/pos-custom-transaction-column.md)
 ### [POS API arba operacijos iškvietimas iš POS plėtinio](dev-itpro/pos-api-extension.md)
-### [Esamų POS rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais](dev-itpro/pos-view-extension.md)
 ### [„Retail Modern POS“ paleidikliai ir spausdinimas](dev-itpro/pos-trigger-printing.md)
+### [„Retail Modern POS“ pasirinktinio valdiklio įtraukimas į ne ekrano dizaino įrankiu sukurtą rodinį](dev-itpro/pos-control-non-screen.md)
+### [„Retail“ tarpinio serverio, skirto POS ir „e-Commerce“, generavimas](dev-itpro/pos-generate-retail-proxy.md)
+### [Konfigūravimo veiksmai, skirti „Retail“ kūrėjams, dirbantiems debesyje veikiančiose kūrimo aplinkose](dev-itpro/cloud-dev-box.md)
 
 ## „Commerce Runtime‟
 ### [Lojalumo plėtinys](dev-itpro/retail-sdk/loyalty-extension-sample.md)

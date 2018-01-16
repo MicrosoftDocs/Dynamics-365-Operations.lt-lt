@@ -17,25 +17,26 @@
 ##### [„Finance and Operations‟ (vietinės versijos) pirkimas](get-started/purchase-on-premises.md)
 
 ### [Kas nauja ar pasikeitė](get-started/whats-new-changed.md)
-#### [Nebenaudojamos funkcijos](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Pašalintos arba nebenaudojamos funkcijos](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Atidėtos AX 2012 funkcijos](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos](get-started/features-not-implemented-on-prem.md)
-#### [Naudojimo ciklo strategija](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [12-asis platformos naujinimas (2017 m. lapkričio mėn.)](get-started/whats-new-platform-update-12.md)
-#### [11-asis platformos naujinimas (2017 m. spalio mėn.)](get-started/whats-new-platform-update-11.md)
-#### [10-asis platformos naujinimas (2017 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-10.md)
+#### [Leidimai ir gyvavimo ciklo strategija](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [„Finance and Operations, Enterprise Edition‟ 7.3 naujinimas](get-started/whats-new-application-7.3-update.md)
+#### [12-asis „Platform“ naujinimas (2017 m. lapkričio mėn.)](get-started/whats-new-platform-update-12.md)
+#### [11-asis „Platform” naujinimas (2017 m. spalio mėn.)](get-started/whats-new-platform-update-11.md)
+#### [10-asis „Platform” naujinimas (2017 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-10.md)
 #### [„Finance and Operations, Enterprise edition‟ (2017 m. liepos mėn.)](get-started/whats-new-application-July-2017-update.md)
-#### [9-asis platformos naujinimas (2017 m. liepos mėn.)](get-started/whats-new-platform-update-9.md)
-#### [8-asis platformos naujinimas (2017 m. birželio mėn.)](get-started/whats-new-platform-update-8.md)
-#### [7-asis platformos naujinimas (2017 m. gegužės mėn.)](get-started/whats-new-platform-update-7.md)
-#### [6-asis platformos naujinimas (2017 m. balandžio mėn.)](get-started/whats-new-platform-update-6.md)
-#### [5-asis platformos naujinimas (2017 m. kovas)](get-started/whats-new-platform-update-5.md)
-#### [4-asis platformos naujinimas (2017 m. vasaris)](get-started/whats-new-platform-update-4.md)
+#### [9-asis „Platform” naujinimas (2017 m. liepos mėn.)](get-started/whats-new-platform-update-9.md)
+#### [8-asis „Platform” naujinimas (2017 m. birželio mėn.)](get-started/whats-new-platform-update-8.md)
+#### [7-asis „Platform” naujinimas (2017 m. gegužės mėn.)](get-started/whats-new-platform-update-7.md)
+#### [6-asis „Platform” naujinimas (2017 m. balandžio mėn.)](get-started/whats-new-platform-update-6.md)
+#### [5-asis „Platform” naujinimas (2017 m. kovas)](get-started/whats-new-platform-update-5.md)
+#### [4-asis „Platform” naujinimas (2017 m. vasaris)](get-started/whats-new-platform-update-4.md)
 #### [„Operations‟ 1611 versija (2016 m. lapkritis)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [3-iasis platformos naujinimas (2016 m. lapkričio mėn.)](get-started/whats-new-platform-update-3.md)
-#### [2-asis platformos naujinimas (2016 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-2.md) 
+#### [3-iasis „Platform” naujinimas (2016 m. lapkričio mėn.)](get-started/whats-new-platform-update-3.md)
+#### [2-asis „Platform” naujinimas (2016 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-2.md) 
 #### [„Dynamics AX‟ programos versija 7.0.1 (2016 m. gegužės mėn.)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [1-asis platformos naujinimas (2016 m. gegužės mėn.)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [1-asis „Platform” naujinimas (2016 m. gegužės mėn.)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [„Dynamics AX 7.0‟ (2016 m. vasario mėn.)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Atnaujinti užduočių vedliai
 ##### [2016 m. lapkričio mėn. užduočių vedliai](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [Duomenų valdymo paketo API](../dev-itpro/data-entities/data-management-api.md)
 #### [Paslaugų galiniai punktai](../dev-itpro/data-entities/services-home-page.md)
 ##### [Tarnybų autentifikavimo trikčių diagnostika](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [„OData‟](../dev-itpro//data-entities/odata.md)
+#### [„OData‟](../dev-itpro/data-entities/odata.md)
 #### [Pasirinktinės tarnybos](../dev-itpro/data-entities/custom-services.md)
 #### [Pasikartojančios integracijos](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Duomenų objektai](../dev-itpro/data-entities/data-entities.md)
 
 #### [Konfigūracijos duomenų projektai](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Konfigūracijos duomenų paketai](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigūracijos duomenų kopijavimas tarp įmonių](../dev-itpro/data-entities/copy-configuration.md)
+##### [Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Konfigūracijos duomenų šablonai](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Objekto keitimų sekimas](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Standartiniai duomenų objektai
@@ -646,6 +648,11 @@
 ##### [Neigiamo debeto ir kredito nustatymas ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Vartotojo operacijų žurnalas pagal Kinijos darbo taisykles](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [PVM kliento SF DUK](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### Indija
+##### [Mokesčių mechanizmo apžvalga](../financials/general-ledger/tax-engine.md)
+##### [Mokesčių mechanizmo integravimas](../financials/general-ledger/tax-engine-integration.md)
+##### [Mokesčių mechanizmo plėtimas](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japonija
 ##### [Įsigyti ilgalaikį turtą ir pateikti paraišką vyriausybės subsidijai gauti](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,14 +1221,15 @@
 #### [Darbo jėgos metrika](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Dokumentų ataskaitos ir spausdinimas
-#### [Dokumentų ataskaitų paslaugų apžvalga](../dev-itpro/analytics/document-reporting-services.md)
+#### [„Document Reporting Services” apžvalga](../dev-itpro/analytics/document-reporting-services.md)
+#### [Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [SSRS konfigūravimas vietinei visuotinei įdiegčiai](../dev-itpro/analytics/configure-ssrs-on-premises.md)
-#### [Spausdinama](../dev-itpro/analytics/print-documents.md)
+#### [Spausdinimas](../dev-itpro/analytics/print-documents.md)
 ##### [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimo įrenginius](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [Dokumentų generavimo, publikavimo ir spausdinimo funkcijos vietinėse visuotinėse įdiegtyse](../dev-itpro/analytics/printing-capabilities-on-premises.md)
 ##### [Dokumento maršruto planavimo agento paleidimas kaip „Windows“ paslaugos](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md)
 #### [Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md)
-#### [SQL serverio ataskaitų paslaugų ataskaitų sąrašas](../dev-itpro/analytics/SSRS-report.md)
+#### [„SQL Server Reporting Services” ataskaitų sąrašas](../dev-itpro/analytics/SSRS-report.md)
 #### [Ataskaitų sprendimų kūrimas](../dev-itpro/analytics/create-nextgen-reporting-solutions.md)
 #### [Ataskaitų dizaino šablonų diegimas](../dev-itpro/analytics/install-modern-report-design-templates.md)
 #### [Programų paketo ataskaitų tinkinimas naudojant plėtinius](../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md)
@@ -1285,30 +1293,28 @@
 ##### [Duomenų modelio apibrėžimo pasirinkimas, kuriant formatą elektroninėse ataskaitose](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Formato naujinimas elektroninėse ataskaitose, pritaikant naują pagrindinę to formato versiją](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [Konfigūracijos nusiuntimas į „Lifecycle Services“, kad būtų galima naudoti elektroninėse ataskaitose](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Programos 7.3 naujinimo elektroninės ataskaitų sistemos API pakeitimai](../dev-itpro/analytics/er-apis-app73.md)
 
-### Analizės įrankiai ir vizualizacijos
-#### [Analizė, agreguoti matavimo vienetai ir KPI modeliavimas](../dev-itpro/analytics/analytics.md)
-#### [Modeliavimas ir agreguoti duomenys](../dev-itpro/analytics/model-aggregate-data.md)
-#### [Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Kontekstinių BI įtraukimas į formas](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Agreguotų matavimo vienetų ataskaita](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Agreguotų duomenų objektų ataskaita](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Pagrindinių efektyvumo indikatorių (KPI.md) ataskaita](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [„Power BI“ integravimas](../dev-itpro/analytics/power-bi-integration.md)
-#### [Prieiga prie „Power BI“ turinio](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [„Power BI“ ataskaitos ir ataskaitų srities kūrimas](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [„Power BI“ ataskaitos kūrimas naudojant „Finance and Operations“ duomenis](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Konfigūruoti „Power BI‟ integravimą darbo sritims](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [„Power BI Embedded“ integravimas](../dev-itpro/analytics/power-bi-embedded-integration.md)
+### Įdėtieji analizės sprendimai
 #### [Įdėtoji „Power BI“ darbo srityse](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [„Power BI Embedded“ integravimas](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Personalizavimo parinktys naudojantis PowerBI.com
+#### [„Power BI“ integravimas](../dev-itpro/analytics/power-bi-integration.md)
+#### [„Power BI‟ ataskaitų prisegimas prie darbo sričių](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Sprendimų kūrimo ir plėtimo įrankiai
+#### [Analizė, agreguoti matavimo vienetai ir KPI modeliavimas](../dev-itpro/analytics/analytics.md)
+#### [Analitinių ataskaitų kūrimas naudojant „Power BI Desktop“](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
+#### [Duomenų modeliavimas ir agregavimas](../dev-itpro/analytics/model-aggregate-data.md)
+#### [Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
 #### [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [„Power BI‟ įtraukimas į darbo sritis](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [„Power BI‟ ataskaitų prisegimas prie darbo sričių](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### „Power BI“ vartotojų valdymo įrankiai
 #### [„Power BI“ integravimas su objektų saugykla](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [„Power BI‟ integravimo darbo srityse konfigūravimas](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Savo duomenų bazės naudojimas](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Analitinių ataskaitų kūrimas naudojant „Power BI Desktop“](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Analizės programų publikavimas „Power BI“](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Atsargų valdymas](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [Plano su apribojimais kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Sudėtinių produktų medžiagų plano kūrimas (užduočių vedlys)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Suplanuotų užsakymų tvarkymas](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Pakankamų atsargų tvarkymas](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Atidėjimų tvarkymas](../supply-chain/master-planning/delays.md)
 #### [Išskleidimo sekimas](../supply-chain/master-planning/trace-explosion.md)
 #### [Veiksmų pranešimai](../supply-chain/master-planning/action-messages.md)
@@ -1437,7 +1444,9 @@
 ### Tiekėjo valdymas ir bendradarbiavimas
 #### [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Tiekėjo bendradarbiavimo vartotojų valdymas](../supply-chain/procurement/manage-vendor-collaboration-users.md)
-#### [Kliento kodų nustatymas](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Tiekėjo kodų nustatymas](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Tiekėjo užklausos konfigūracijos](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Tiekėjų supažindinimas](../supply-chain/procurement/vendor-onboarding.md)
 #### [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Tiekėjo bendradarbiavimas su klientais](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Gamybos užduočių valdymas
 ##### [Gamybos užsakymų kūrimas](../supply-chain/production-control/create-production-orders.md)
 ##### [Gamybos užsakymų pateikimas](../supply-chain/production-control/release-production-orders.md)
-##### [Gamybos užsakymo būsenos atšaukimas](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Medžiagų išimčių matomumas](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [KS ir formulių eilučių išleidimas į sandėlį](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Gamybos užsakymo būsenos atšaukimas](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Žaliavų suvartojimo kontrolė taikant sunaudojimo principus](../supply-chain/production-control/flushing-principles.md) 
 ##### [Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Gamybos vykdymo registracija](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Gamybos grįžtamasis ryšys](../supply-chain/production-control/production-feedback.md)
 ##### [Laiko ir buvimo darbe registravimas](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Neatvykimų registravimas modulyje Laikas ir buvimas darbe](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Neatvykimų registravimas modulyje Laikas ir buvimas darbe](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Finansų valdymas (gamyba)
 ##### [Laiko paskirstymas sugrupuotų užduočių užduotims](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Medžiagų suvartojimo skaičiavimas](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Bendrojo produkto kūrimas (užduočių vedlys)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Iš anksto apibrėžtų produkto variantų kūrimas (užduočių vedlys)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Vienos įmonės išleisto produkto kūrimas (užduočių vedlys)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Produkto ciklo būsena](../supply-chain/pim/product-lifecycle.md)
 #### [Produkto brūkšninio kodo kūrimas (užduočių vedlys)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Produkto GTIN kodo įvedimas (užduočių vedlys)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Produkto paketo atributų kūrimas (užduočių vedlys)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [Prekės transportavimo apribojimų nustatymas](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Sandėlio valdymas](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Sandėlio konfigūracija](../supply-chain/warehousing/warehouse-configuration.md) 
+### [Sandėlio konfigūracija](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną](../supply-chain/inventory/warehouse-template.md)
 #### [Darbo kontrolė naudojant darbo šablonus ir vietos nurodymus](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Matavimo vienetų ir sandėliavimo strategijos](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Sandėlio „Power BI“ turinys](../dev-itpro/analytics/warehouse-power-bi-content.md)
