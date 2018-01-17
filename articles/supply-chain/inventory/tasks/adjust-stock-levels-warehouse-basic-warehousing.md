@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: lt-lt
 ms.lasthandoff: 09/29/2017
 
 ---
-# Koreguoti atsargų lygius sandėlyje (pagrindinis sandėliavimas)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Koreguoti atsargų lygius sandėlyje (pagrindinis sandėliavimas)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padės kurti ir registruoti atsargų koregavimo žurnalą, norint pakoreguoti produktų atsargų lygius sandėlyje. Prieš pradedant atsargų koregavimus, reikia turėti atsargų žurnalo pavadinimo nustatymą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Šias užduotis paprastai turėtų atlikti sandėlio darbuotojas.
 
 
-## Atsargų koregavimo žurnalo kūrimas
+## <a name="create-an-inventory-adjustment-journal"></a>Atsargų koregavimo žurnalo kūrimas
 1. Pasirinkite Atsargų valdymas > Žurnalo įrašai > Prekės > Atsargų koregavimas.
 2. Spustelėkite Naujas.
 3. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/29/2017
     * Kai kurie kiti laukai bus užpildyti atsižvelgiant į pasirinkto atsargų koregavimo žurnalo pavadinimo nustatymą.  
 5. Spustelėkite GERAI.
 
-## Žurnalo eilučių kūrimas
+## <a name="create-journal-lines"></a>Žurnalo eilučių kūrimas
 1. Spustelėkite Naujas.
 2. Sąraše pažymėkite prekės numerio lauką.
 3. Lauke Prekės numeris pasirinkite prekę. Jei naudojate demonstracinių duomenų įmonės USMF, įveskite „D0001“.
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 8. Lauke Kiekis įveskite skaičių.
     * Savikainos lauke nurodoma vieneto kaina, skirta atsargų gavimams. Jei prekės numerio savikaina nenurodyta arba, jei norėjote ją pakeisti neautomatiniu būdu, padarykite tai čia.  
 
-## Atsargų koregavimo žurnalo tikrinimas ir registravimas
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Atsargų koregavimo žurnalo tikrinimas ir registravimas
 1. Spustelėkite Tikrinti.
 2. Spustelėkite GERAI.
 3. Spustelėkite Registruoti.
