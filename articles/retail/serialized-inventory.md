@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Pagal modulio Mažmeninių pardavimų valdymas parametrus produktus galima klasi
     
 - **Norint pateikti klientų užsakymus, serijos numeriai nėra būtini** klientų užsakymus galima pateikti vienoje parduotuvėje, o įvykdyti kitoje. Kasininkas, kuris pateikia kliento užsakymą, neprivalo nurodyti serijos numerio. Serijos numeris bus nurodytas atliekant išrinkimo arba paėmimo veiksmą. Tačiau serijos numerį reikia nurodyti visoms eilutės prekėms, kurioms parinktas pristatymo tipas **Išsinešti**. Kitu atveju operacijos baigti negalima.    
 - **Produktai su serijos numeriais netelkiami operacijų ekrane** – puslapio **Funkcijų šablonas** laukų grupės **Terminalas** parametras **Telkti produktus** leidžia operacijų ekrane telkti tuos pačius serijos numerių neturinčius produktus. Telkiant tuos pačius produktus, juos lengviau matyti operacijų tinklelyje. Tačiau, kadangi serijos numeriai paprastai yra unikalūs ir pardavimo darbuotojai jų neprivalo įvesti iki tikrinimo etapo, parametras **Telkti produktus** produktams su serijos numeriais netaikomas. Todėl, jei pasirinktas parametras **Telkti produktus**, operacijų ekrane produktai su serijos numeriais nebus telkiami.
+- **Galimybė ieškoti žurnalų pagal serijos numerį** – dabar žurnalų galima ieškoti papildomai pagal serijos numerius. Norėdami tai padaryti, atidarykite operaciją Žurnalai ir programos juostoje paspauskite mygtuką Išplėstinė ieška. Naudodami mygtuką Įtraukti filtrą, ieškai pagal serijos numerius galite taip pat galite taikyti filtrą.
 

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 521 | Lojalumo kortelės taškų balansas | Rodomas nurodytos lojalumo kortelės taškų balansas. | Taip | Taip | Nr. | Nr. | Nr. |
 | 914 | Minimizuoti EKA langą | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 1000 | Atidaryti stalčių | Atlikite operaciją „Neparduodama“ ir atidarykite tuo metu pasirinktą kasos stalčių. | Taip | Taip | Taip | Taip | Nr. |
+| 928 | Užsakymo įvykdymas | Ši operacija suteikia galimybę vartotojui paimti, supakuoti, siųsti arba atšaukti parduotuvėje paimtinus užsakymus. | Taip | Taip | Taip | Nr. | Nr. |
 | 129 | Nepaisyti eilutės produkto mokesčio | Perrašykite pasirinktoje eilutėje pateiktos prekės mokestį ir naudokite kitą nurodytą mokestį. | Taip | Taip | Nr. | Taip | Nr. |
 | 130 | Nepaisyti eilutės produkto mokesčio iš sąrašo | Perrašykite pasirinktoje eilutėje pateiktos prekės mokestį ir naudokite mokestį, kurį vartotojas pasirenka iš sąrašo. | Taip | Taip | Nr. | Taip | Nr. |
 | 127 | Perrašyti operacijos mokestį | Perrašykite operacijos mokestį ir naudoti kitą nurodytą mokestį. | Taip | Taip | Nr. | Taip | Nr. |

@@ -3,7 +3,7 @@ title: "„Power BI“ turinys Išmokos"
 description: "Šioje temoje aprašomas „Power BI‟ turinys Išmokos. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 2c8570984e44499d8cc5d45ab38da43f461c61e9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -45,13 +45,6 @@ ms.lasthandoff: 12/01/2017
                                                                                              
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Finance and Operations“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
-
-„Power BI“ turinį **Išmokos** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
->[!NOTE]
->.pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Tolesniais duomenimis pildomos „Power BI‟ turinio **Išmokos** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
@@ -79,5 +72,5 @@ Tolesniais duomenimis pildomos „Power BI‟ turinio **Išmokos** ataskaitos. �
 | Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                                                   | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, išmokos |
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą .pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+
 

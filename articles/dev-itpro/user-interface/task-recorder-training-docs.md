@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
 
 > [!IMPORTANT]
-> Negalite kurti pasirinktinių „Dynamics 365 for Talent‟ užduočių vedlių. „Talent‟ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. 
+> Galite įrašyti savo užduotis vedlius, skirtus „Dynamics 365 for Talent“, tačiau šiuo metu negalėsite jų įrašyti į verslo procesų modeliavimo įrankio (BPM) biblioteką arba jų atidaryti iš srities Žinynas. Galite juos įrašyti vietiniame diske arba tinklo vietoje ir tada atidaryti bei pakartotinai leisti naudodami užduočių įrašymo priemonę. 
 
 <a name="learn-about-task-recorder"></a>Sužinokite daugiau apie Užduočių įrašytuvą
 -------------------------
@@ -42,7 +42,7 @@ Užduočių įrašymo priemonė yra įrankis, naudojamas įrašyti veiksmams, ku
 
 -   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vedliai integruojami į žinyną. Užduočių vedlys – tai kontroliuojama, valdoma, interaktyvi priemonė, kuri naudojama atliekant verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. Burbuliuke taip pat pateikiama informacija apie sąveikavimo su elementu būdą, pvz., „Spustelėkite čia“ ar „Šiame lauke įveskite reikšmę“. Užduočių vedlys veikia naudodamas dabartinių vartotojo duomenų rinkinį, o įvesti duomenys įrašomi vartotojo aplinkoje.
 -   **Užduočių įrašai gali būti pateikiami kaip procedūros veiksmai žinyno srityje.** Naudodami žinyno sritį galite ieškoti užduočių įrašų ir juos pateikti. Žinyno sritį galite pasiekti spustelėję piktogramą **?**, esančią viršutinėje naršymo juostoje, arba galite naudoti sparčiųjų klavišų derinį **Ctrl + Shift + ?**. Žinyno srityje galite perskaityti užduoties įrašo veiksmus arba galite pasirinkti, kad įrašas būtų paleistas kaip užduočių vedlys – tuomet jį naudodami atliksite veiksmus vartotojo sąsajoje.
--   **Užduočių įrašus galima įrašyti į BPM.** Savo užduoties įrašą galite įrašyti į „Lifecycle Services‟ (LCS) verslo procesų modeliavimo įrankio (BPM) bibliotekos hierarchijos eilutę. Iš įrašo bus sugeneruotas veiksmų sąrašas ir verslo procesų srauto diagrama. Užduočių įrašai, įrašyti į BPM biblioteką, gali būti rodomi kaip žinyno elementai.
+-   **Užduočių įrašus galima įrašyti į BPM.** Savo užduoties įrašą galite įrašyti į „Lifecycle Services‟ (LCS) BPM bibliotekos hierarchijos eilutę. Iš įrašo bus sugeneruotas veiksmų sąrašas ir verslo procesų srauto diagrama. Užduočių įrašai, įrašyti į BPM biblioteką, gali būti rodomi kaip žinyno elementai.
 -   **Užduočių įrašus galima įrašyti kaip „Word‟ dokumentus.** Taip galite lengvai kurti spausdinamus mokymo vadovus.
 
 Galite kurti savo užduočių įrašus, leisti „Microsoft‟ pateiktus užduočių įrašus arba modifikuoti „Microsoft‟ pateiktus užduočių įrašus, kad jie atitiktų jūsų konfigūraciją. Norėdami gauti daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė](task-recorder.md).

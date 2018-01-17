@@ -3,7 +3,7 @@ title: "Finansinių ataskaitų duomenų srities nustatymas iš naujo"
 description: "Šioje temoje aprašoma, kaip iš naujo nustatyti finansinių ataskaitų duomenų sritį."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/07/2017
 - „Microsoft Dynamics 365 for Finance and Operations‟ finansinių ataskaitų leidimas 7.0.10000.4 ir naujesnė versija
 - „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas (vietinis)
 
-Norėdami gauti „Finance and Operations“ finansinių ataskaitų leidimą 7.2.6.0, galite atsisiųsti KB 4052514 iš <https://support.microsoft.com/en-us/help/4052514>.
+Norėdami gauti „Finance and Operations“ finansinių ataskaitų leidimą 7.2.6.0, galite atsisiųsti KB 4052514 iš <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>„Finance and Operations“ finansinių ataskaitų leidimo 7.2.6.0 ir naujesnės versijos finansinių ataskaitų duomenų srities nustatymas iš naujo
 
@@ -55,7 +55,7 @@ Duomenų srities nustatymą iš naujo reikėtų atlikti tik tuo metu, kai duomen
 
 Norėdami iš naujo nustatyti duomenų sritį, ataskaitos kūrimo priemonės meniu **Įrankiai** pasirinkite **Iš naujo nustatyti duomenų sritį**. Pasirodžiusiame dialogo lange yra dvi dalys: **Statistika** ir **Nustatyti iš naujo**.
 
-[![Dialogo langas Nustatyti duomenų sritį iš naujo](./media/Statistics.png)](./media/Statistics.png)
+[![Dialogo langas Nustatyti duomenų sritį iš naujo](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Integravimo bandymai
 
@@ -83,8 +83,10 @@ Jei nustatote, kad duomenų srities nustatymas iš naujo yra būtinas, pažymėk
 - **Duomenų bazės atkūrimas**: „Finance and Operations“ duomenų bazė buvo atkurta, tačiau nebuvo atkurta finansinių ataskaitų duomenų srities duomenų bazė.
 - **Kita**: iš naujo nustatote duomenų sritį dėl kitos priežasties. Jei manote, kad galėjo kilti problema, susisiekite su palaikymo tarnyba, kad problema būtų identifikuota.
 
+[![Iš naujo nustatyti duomenų sritį](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Prieš atlikdami šiuos veiksmus, patikrinkite, ar visų esamų užduočių integravimas baigtas. Integravimo būseną galite peržiūrėti pasirinkę **Įrankiai** &gt; **Integravimo būsena**.
+> Prieš pradėdami nustatymą iš naujo patikrinkite, ar baigtas visų duomenų srities nustatymo iš naujo užduočių pirminis įkėlimas. Norėdami tai patikrinti, peržiūrėkite reikšmę stulpelyje Paskutinio vykdymo laikas pasirinkdami **Įrankiai** &gt; **Integravimo būsena**.
 
 #### <a name="clear-users-and-companies"></a>Išvalyti vartotojus ir įmones
 
@@ -94,7 +96,10 @@ Kai būsite pasiruošę pradėti nustatymą iš naujo, pasirinkite **Gerai**. B�
 
 Jei norite peržiūrėti integravimo būseną, pasirinkite **Įrankiai** &gt; **Integravimo būsena**, kad pamatytumėte, kada paskutinį kartą buvo vykdoma integracija ir jos būseną.
 
-[![Peržiūrėkite integravimo būseną.](./media/Integration.png)](./media/Integration.png)
+[![Peržiūrėkite integravimo būseną.](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Nustatymas iš naujo baigtas, kai visų susiejimų būsena yra RanToCompletion ir lango Integravimo būsena apatiniame kairiajame kampe nurodyta Integravimas baigtas.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>„Finance and Operations“ finansinių ataskaitų leidimo 7.0.10000.4 ir naujesnės versijos finansinių ataskaitų duomenų srities nustatymas iš naujo
 
@@ -142,7 +147,9 @@ Failą galėsite nukopijuoti arba nusiųsti į saugią vietą. Tokiu būdu faila
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Naujausio MinorVersionDataUpgrade.zip paketo atsisiuntimas
 
-Atsisiųskite naujausią MinorVersionDataUpgrade.zip paketą. Instrukcijas, kaip rasti ir atsisiųsti duomenų naujinimo paketo versija, žr. toliau[Atsisiųskite naujausią duomenų išskleidimo naujinimo paketą](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Norint atsisiųsti MinorVersionDataUpgrade.zip paketą, naujinimas nėra būtinas. Todėl tereikia atlikti veiksmus, nurodytus šios temos skyriuje „Naujausių duomenų naujinimo diegimo paketų atsisiuntimas“. Galite praleisti visus kitus veiksmus šioje temoje.
+Atsisiųskite naujausią MinorVersionDataUpgrade.zip paketą. Instrukcijas, kaip rasti ir atsisiųsti duomenų naujinimo paketo versija, žr. toliau[Atsisiųskite naujausią duomenų išskleidimo naujinimo paketą](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Norint atsisiųsti MinorVersionDataUpgrade.zip paketą, naujinimas nėra būtinas. Todėl tereikia atlikti veiksmus, nurodytus šios temos skyriuje „Naujausių duomenų naujinimo diegimo paketų atsisiuntimas“. Galite praleisti visus kitus veiksmus šioje temoje.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>„Finance and Operations“ duomenų bazės scenarijų vykdymas
 

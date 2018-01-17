@@ -3,7 +3,7 @@ title: "„Power BI“ turinys CFO apžvalga"
 description: "Šioje temoje aprašomas „Microsoft Power BI‟ turinys CFO apžvalga."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ Toliau pateikiamoje lentelėje parodomas „Power BI‟ turinys, iš kurio nukop
 | [Kredito ir mokėjimų priežiūros valdymas](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Klientas, kurio terminas praėjęs</li><li>Klientai, viršijantys kredito limitą</li><li>Suskirstyti pagal terminus balansai</li></ul> |
 | [Pirkimo ir išlaidų analizė](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Pirkimai pagal mėnesį / dieną</li><li>Svarbiausi 10 tiekėjų pagal pirkimus</li><li>Svarbiausi 10 produktų pagal pirkimą</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Microsoft Dynamics 365“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
 
-„Power BI“ turinį **CFO apžvalga** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
 

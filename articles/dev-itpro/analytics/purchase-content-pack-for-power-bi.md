@@ -3,7 +3,7 @@ title: "Pirkimo išlaidų analizės „Power BI“ turinys"
 description: "Šioje temoje aprašoma, kas įtraukiama į „Power BI“ turinį Pirkimo išlaidų analizė. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turiniui kurti."
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -131,16 +131,6 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 </table>
 
 \* Pirkimas šiais ir praėjusiais metais ir augimas pagal įsigijimo kategoriją.
-
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Microsoft Dynamics 365“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei. 
-
-„Power BI“ turinį **Pirkimo išlaidų analizė** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Įsitikinkite, kad atsisiunčiate tą turinį **Pirkimo išlaidų analizė**, kuris taikomas jūsų naudojamai „Dynamics 365‟ versijai.
-
-> [!NOTE]
-> Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, norint naudoti šį „Power BI‟ turinį būtina įdiegti KB 4011327. Prisijungę prie LCS, KB galite pasiekti adresu https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="data-model-and-entities"></a>Duomenų modelis ir objektai
 Tolesniais duomenimis pildomi „Power BI‟ turinio **Pirkimo išlaidų analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).

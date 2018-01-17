@@ -1,9 +1,9 @@
 ---
 title: "„Power BI“ turinys Darbuotojo tobulėjimas"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Darbuotojo tobulėjimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+description: "Šioje temoje aprašomas „Power BI‟ turinys Darbuotojo tobulėjimas."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Darbuotojo tobulėjimas**. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
-
-## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-
-Turinio paketą **Darbuotojų tobulėjimas** galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie savo duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Darbuotojo tobulėjimas**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 Į „Power BI“ turinį **Darbuotojo tobulėjimas** įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
@@ -74,5 +70,4 @@ Turinio paketą **Darbuotojų tobulėjimas** galite rasti bendrai naudojamo turt
 | Našumas              | Įvertinimas, aprašas ir įvertinimo modelis                                                                      | Dabartinis darbuotojas, dabartinės pareigos, darbuotojo tendencija, darbui reikiami įgūdžiai, ankstesnių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas |
 |  Įgūdis                   | Įgūdis, įgūdžio tipas ir įvertinimas                                                                              | Darbuotojo įgūdžių analizė, darbui reikiamii įgūdžiai |                                                                                                                        
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir „Power BI‟ turinyje naudojamas ataskaitas. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą .pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas „Power BI‟ turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
 
