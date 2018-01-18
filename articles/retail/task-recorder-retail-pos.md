@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +99,10 @@ Norėdami tęsti įrašymo seansą po to, kai jį pristabdėte, spustelėkite **
 
 ### <a name="capture-screenshots"></a>Užfiksuoti ekrano kopijas
 
-Užduočių įrašymo priemonė gali fiksuoti „Retail Modern POS“ vartotojo sąsajos ekrano kopijas įrašinėjant verslo procesus. Užduočių įrašymo priemonė naudoja ekrano kopijas, jei atsisiunčiate įrašą kaip „Word“ dokumentą. Norėdami įjungti ekrano kopijų fiksavimo funkciją, nustatykite parinktį **Fiksuoti ekrano kopijas** į **Taip**. 
+Užduočių įrašymo priemonė gali fiksuoti „Retail Modern POS“ vartotojo sąsajos ekrano kopijas įrašinėjant verslo procesus. Norėdami įjungti ekrano kopijų fiksavimo funkciją, nustatykite parinktį **Fiksuoti ekrano kopijas** į **Taip**, o tada pradėkite įrašymą. Kai įrašymas baigtas, spustelėkite **Sustabdyti** ir atsisiųskite „Word“ dokumentą. Dokumente bus nurodyti veiksmai ir atitinkamos ekrano kopijos.
 
 #### <a name="note"></a>Banknotas
-> Ekrano kopijų fiksavimo funkcija nepalaikoma „Cloud POS“.
+> Ekrano kopijų fiksavimo funkcija nepalaikoma „Modern POS“.
 
 ### <a name="start-task-and-end-task"></a>Užduoties pradėjimas ir baigimas
 

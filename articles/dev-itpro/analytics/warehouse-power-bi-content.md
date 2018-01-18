@@ -3,11 +3,12 @@ title: "Sandėlio efektyvumo „Power BI“ turinys"
 description: "Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,13 +16,13 @@ ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +77,6 @@ ms.lasthandoff: 12/01/2017
 | Siuntimo efektyvumas        | Išsiųsta pagal produktą                       | Anksčiau, laiku arba pavėluotai išsiųstų prekių procentas pagal prekę arba prekių grupę.                                                                                                                                                                                                                                                                                                                                   |
 | Siuntimo efektyvumas        | Išsiųsta pagal klientą                      | Anksčiau, laiku arba pavėluotai išsiųstų prekių procentas pagal klientą arba klientų grupę.                                                                                                                                                                                                                                                                                                                           |
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | Anksčiau, laiku arba pavėluotai išsiųstų prekių procentas pagal teritoriją arba sandėlį.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Microsoft Dynamics 365“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei. 
-
-**Sandėlio našumo** „Power BI“ turinį galite rasti LCS Bendrai naudojamo turto bibliotekoje. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Įsitikinkite, kad atsisiunčiate **Sandėlio našumo** turinį, kuris taikomas jūsų naudojamai „Dynamics 365‟ versijai.
-
-> [!NOTE]
-> Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, norint naudoti šį „Power BI‟ turinį būtina įdiegti KB 4011327. Prisijungę prie LCS, KB galite pasiekti adresu https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Duomenų modelio ir skaičiavimų supratimas
 Tolesniais duomenimis pildomi **Sandėlio našumo** „Power BI‟ turinio ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). 

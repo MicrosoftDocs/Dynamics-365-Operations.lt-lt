@@ -3,11 +3,12 @@ title: Banko valdymo darbo sritis
 description: "Šioje temoje pateikiama informacijos apie banko valdymo darbo sritį. Šioje darbo srityje nurodoma su įmonės banko sąskaitomis susijusi informacija ir pateikiamas suvestinės rodinys ir analizės puslapis. Suvestinės rodinyje rodomos suvestinės išklotinės, banko sąskaitos informacija, likučio diagrama ir susijusi informacija. Analizės puslapyje naudojantis „Microsoft Power BI“ galimybėmis parodomi su banko sąskaitos likučiais susiję vaizdiniai elementai."
 author: saraschi2
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

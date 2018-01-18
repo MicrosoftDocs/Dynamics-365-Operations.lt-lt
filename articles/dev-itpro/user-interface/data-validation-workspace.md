@@ -3,11 +3,12 @@ title: "Duomenų tikrinimo darbo sritis"
 description: "Naudodami duomenų tikrinimo kontrolinio sąrašo darbo sritį galite sekti visų įmonių, sričių ir žmonių duomenų tikrinimo procesus. Kontrolinį sąrašą galima naudoti atliekant naują diegimą, po atnaujinimo arba perkėlus."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

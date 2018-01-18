@@ -3,11 +3,12 @@ title: "Įdarbinimo „Power BI“ turinys"
 description: "Šioje temoje aprašomas „Power BI‟ turinys Įdarbinimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -66,5 +67,5 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power
 | Įdarbinimo projektas  | Projekto aprašas, projekto būsena ir laisvos vietos                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Atleistas pretendentas | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė |
 
-Šie objektai buvo naudojami skaičiuojamiems matams kurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš „Microsoft Dynamics Lifecycles Services‟ (LCS) atsisiųsti ir modifikuoti failą Recruiting.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+
 

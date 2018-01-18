@@ -3,11 +3,12 @@ title: "Biudžetų sudarymo modulio apžvalga"
 description: "Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ leidimą „Enterprise“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ (leidimas „Enterprise“) arba įkelti juos iš trečiosios šalies programos."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

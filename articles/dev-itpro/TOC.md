@@ -2,6 +2,7 @@
 # [Įdiegtims debesyje taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements.md)
 # [Vietinėms įdiegtims taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Demonstraciniai duomenys](../fin-and-ops/get-started/demo-data.md)
+## [Demonstracinių duomenų ir paketų generavimas](data-entities/generate-demo-data-packages.md)
 
 
 # [Kūrimas ir tinkinimas naudojant „Visual Studio‟](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [„OData‟](data-entities/odata.md)
 ### [Pasirinktinės tarnybos](data-entities/custom-services.md)
 ### [Pasikartojančios integracijos](data-entities/recurring-integrations.md)
+### [Trečiųjų šalių paslaugų tikrinimo priemonių ir paslaugų naudojimas](data-entities/third-party-service-test.md)
 
 ## Integravimo kūrimas
 ### [Duomenų integravimas naudojant duomenų objektus](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Konfigūracijos duomenų paketai](data-entities/configuration-data-packages.md)
 ### [Konfigūracijos duomenų kopijavimas tarp įmonių](data-entities/copy-configuration.md)
 ### [Konfigūracijos duomenų šablonai](data-entities/configuration-data-templates.md)
+### [Duomenų šablonai su keliais darbalapiais](data-entities/excel-template-multiple.md)
 ### [Objekto keitimų sekimas](data-entities/entity-change-track.md)
 
 ## Standartiniai duomenų objektai
@@ -497,17 +500,20 @@
 
 ## Debesies įdiegtis
 ### [„Azure‟ išteklių vadovo supažindinimas](deployment/arm-onboarding.md)
-### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations, Enterprise edition‟](deployment/expressroute.md)
+### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations, Enterprise Edition‟](deployment/expressroute.md)
 
 ## [Vietinis visuotinis diegimas](deployment/on-premises-deployment-landing-page.md)
-### [Vietos apžvalga](deployment/on-premises-overview.md)
+### [Vietinė apžvalga](deployment/on-premises-overview.md)
+### [Vietinio visuotinio diegimo planavimas](deployment/plan-onprem-deployment.md)
 ### [Aparatūros dydžio nustatymas](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Vietinio projekto kūrimas](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Vietinių aplinkų nustatymas ir visuotinis diegimas](deployment/setup-deploy-on-premises-environments.md)
 ### [Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Vietinės visuotinės įdiegties naujinimų taikymas](deployment/apply-updates-on-premises.md)
 ### [Kartotinis visuotinis vietinės visuotinės įdiegties diegimas](deployment/redeploy-on-prem.md)
-### [„Dynamics 365 for Finance and Operations, Enterprise edition“ vietinės versijos trikčių diagnostika](deployment/troubleshoot-on-prem.md)
+### [Vietos agento atnaujinimas](lifecycle-services/update-local-agent.md)
+### [Aplinkos konfigūravimas iš naujo](lifecycle-services/reconfigure-environment.md)
+### [„Dynamics 365 for Finance and Operations, Enterprise Edition“ vietinės versijos trikčių diagnostika](deployment/troubleshoot-on-prem.md)
 
 ## Visuotinis pasirinktinio kodo diegimas
 ### [Visuotinai diegiamo paketo kūrimas](deployment/create-apply-deployable-package.md)

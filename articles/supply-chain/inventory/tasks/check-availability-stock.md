@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: lt-lt
 ms.lasthandoff: 09/29/2017
 
 ---
-# Tikrinti turimas atsargas
+# <a name="check-the-availability-of-stock"></a>Tikrinti turimas atsargas
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip patikrinti konkretaus prekės numerio turimas ir faktinies turimas atsargas. Ji taip pat parodo, kaip gauti tiekimo informacijos, susijusios su preke. Faktinės turimos atsargos yra turimos atsargos, kuros yra prieinamos – t. y., nupirktos, gautos ir užregistruotos. Turimos atsargos apima ne tik prieinamas turimas atsargas, bet ir atsargas, kurios užsakytos ir laukiamos, bet dar nėra gautos ar registruotos. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Jei naudojate USMF, galite naudoti rodomas pavyzdines reikšmes. Šias užduotis paprastai turėtų atlikti sandėlio darbuotojas.
 
 
-## Patikrinti turimas prekės atsargas
+## <a name="check-on-hand-inventory-for-an-item"></a>Patikrinti turimas prekės atsargas
 1. Pasirinktie Atsargų valdymas > Užklausos ir ataskaitos > Turimos atsargos.
 2. Pasirinkite eilutę Prekės numeris.
     * Norėdami teikti užklausą dėl turimų atsargų pagal prekės numerį, pasirinkite eilutę, kurioje lentelė nustatyta į Turimos atsargos, o laukas nustatytas į Prekės numeris.  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/29/2017
 11. Uždarykite puslapį.
 12. Uždarykite puslapį.
 
-## Tikrinti faktines turimas atsargas
+## <a name="check-physical-on-hand-inventory"></a>Tikrinti faktines turimas atsargas
 1. Pasirinkite Sandėlio valdymas > Užklausos ir ataskaitos > Faktinės turimos atsargos.
 2. Lauke Prekės numeris surinkite reikšmę.
     * Galite naudoti laukus Teritorija ir Sandėlis, kad filtruotumėte prekių sąrašą.  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 5. Spustelėkite GERAI.
 6. Uždarykite puslapį.
 
-## Tikrinti turimas atsargas pagal vietą
+## <a name="check-on-hand-inventory-by-location"></a>Tikrinti turimas atsargas pagal vietą
 1. Pasirinkite Sandėlio valdymas > Užklausos ir ataskaitos > Turimos atsargos pagal vietą.
 2. Lauke Sandėlis surinkite reikšmę.
     * Jei naudojate demonstracinių duomenų įmonę USMF, galite naudoti „51‟.  

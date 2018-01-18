@@ -3,23 +3,24 @@ title: "„Power BI“ turinys Grynųjų pinigų apžvalga"
 description: "Šioje temoje aprašomas „Power BI‟ turinys Grynųjų pinigų apžvalga. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti."
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +54,6 @@ Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekvien
 | Valiutos prognozė                     | <ul><li>Prognozuojami valiutos likučiai</li><li>Dienos valiutos suvestinė</li><li>Prognozės informacija</li></ul> |
 | Banko likučiai                         | <ul><li>Banko likutis sistemos valiuta</li><li>Likutis pagal juridinį subjektą</li><li>Šiandienos faktinis ir prognozuojamas likutis banko sąskaitos valiuta</li><li>Likutis pagal banko sąskaitą</li><li>Balansas pagal valiutą</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami „Lifecycle Services“ (LCS) pateikiamus turinio paketus tiems, kurie neprisijungia prie „Dynamics 365“ galite pateikti didžiąją analizę. Šiuos turinio paketus galite keisti, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius ir po to paskelbtumėte juos savo Power BI.com nuomotojui analizei. 
-
-„Power BI“ turinį **Grynųjų pinigų apžvalga** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
@@ -72,6 +69,5 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas „Power BI�
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Grynųjų pinigų įplaukų, išmokų ir likučio suvestinė naudojant visų įmonių sistemos valiutą |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Grynosios operacijos sumos ir valiutų likučio suvestinė naudojant operacijos valiutą |
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant diagramas ir ataskaitas, naudojamas „Power BI“ turinyje **Grynųjų pinigų apžvalga**. Norėdami į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti „Power BI‟ failą. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus galite kurti organizacinį turinį ir ataskaitų sritis, kuriuose yra jūsų įtraukta informacija.
 
 

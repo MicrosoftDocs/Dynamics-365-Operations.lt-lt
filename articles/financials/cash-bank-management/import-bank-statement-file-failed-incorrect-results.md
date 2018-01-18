@@ -3,11 +3,12 @@ title: "Banko išrašo failo importavimo trikčių šalinimas"
 description: "Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

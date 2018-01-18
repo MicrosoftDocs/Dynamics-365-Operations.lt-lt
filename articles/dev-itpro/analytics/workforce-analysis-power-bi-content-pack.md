@@ -3,11 +3,12 @@ title: "Darbo jėgos metrikos „Power BI“ turinys"
 description: "Šioje temoje aprašomas darbo jėgos metrikos „Power BI‟ turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -18,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ade42c932b764b8cf5540bddd099e57901637f35
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 8ff4eb80eeb47a72fc1ac91ddc4bdfccebc4c0c6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -58,11 +59,6 @@ ms.lasthandoff: 12/01/2017
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Finance and Operations“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
-
-**Darbo jėgos metrikos** „Power BI“ turinį galite rasti LCS Bendrai naudojamo turto bibliotekoje. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
 Įsitikinkite, kad atsisiunčiate **Darbo jėgos metrikos** „Power BI“ turinį, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
 
 >[!NOTE]
@@ -93,5 +89,5 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir „Power BI‟ turinyje naudojamas ataskaitas. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą .pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas „Power BI‟ turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+
 

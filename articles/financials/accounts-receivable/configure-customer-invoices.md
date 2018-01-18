@@ -3,11 +3,12 @@ title: "Kliento SF kūrimas"
 description: "**Kliento SF pardavimo užsakymui** yra sąskaita, susijusi su pardavimu ir kurią organizacija pateikia klientui."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

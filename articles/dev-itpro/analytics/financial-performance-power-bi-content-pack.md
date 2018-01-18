@@ -1,9 +1,9 @@
 ---
 title: "Finansinės veiklos „Power BI“ turinys"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Finansinės veiklos rezultatai. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti."
+description: "Šioje temoje aprašomas „Power BI‟ turinys Finansinės veiklos rezultatai."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Finansinės veiklos rezultatai**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
-
-## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-
-„Power BI‟ turinį **Finansinės veiklos rezultatai** galite rasti naudodami „Microsoft Dynamics Lifecycle Services“ (LCS) ir PowerBI.com.
-
-### <a name="available-from-lcs"></a>Galima naudojant LCS
-LCS pateikiamas „Power BI‟ turinys **Finansinės veiklos rezultatai** palaiko šias versijas:
-
-- „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ versijos
-- „Microsoft Dynamics 365 for Operations“ versija 1611 
-
-„Power BI“ turinį galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
-### <a name="available-from-powerbicom"></a>Galima naudojant PowerBI.com
-„Power BI‟ turinys **Finansinės veiklos rezultatai**, kurį galima gauti iš PowerBI.com, palaiko „Microsoft Dynamics AX“ versijas 7.0 ir 7.0.1. Daugiau informacijos apie tai, kaip prijungti ir nusiųsti „Dynamics AX“ duomenis, žr. [Prieiga prie „Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Pagrindinių sąskaitų sąranka
 Kadangi organizacijos nori, jog įsipareigojimai ir įplaukų sumos ataskaitose būtų rodomos kaip teigiamos sumos, svarbu nustatyti pagrindines sąskaitas. Tam, kad šios pagrindinės sąskaitos būtų rodomos kaip teigiamos sumos, turi būti nustatytas pagrindinės sąskaitos tipas **Įsipareigojimas** arba **Įplaukos**. Kai naudojami šie sąskaitų tipai, ataskaitas teikiant per „Power BI“ ženklai pakeičiami ir rodomos teigiamos sumos.
@@ -101,5 +86,5 @@ Toliau pateikti objektai buvo naudojami kaip „Power BI‟ turinio **Finansinė
 - Didžiosios knygos
 - ChartofAccounts
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. 
 

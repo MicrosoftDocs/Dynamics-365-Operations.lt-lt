@@ -1,9 +1,9 @@
 ---
 title: "Organizacinio mokymo „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti."
+description: "Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18d7fa3580a9debf617ebeb042670f7f1be8fad6
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. Joje paaiškinta, kaip pasiekti turinio paketą, ir aprašytas duomenų modelis ir objektai, naudojami turinio paketui kurti.
-
-<a name="accessing-the-content-pack"></a>Prieiga prie turinio paketo
---------------------------
-
-Organizacinio mokymo turinio paketą galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Daugiau informacijos apie tai, kaip atsisiųsti turinio paketą ir prijungti jį prie „Microsoft Dynamics 365 for Finance and Operations“ duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md).
+Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
 Prijungus turinio paketą prie „Finance and Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
@@ -65,16 +60,6 @@ Prijungus turinio paketą prie „Finance and Operations“ duomenų, ataskaitos
 | Training\_Position        | Pareigos ir etato ekvivalentas (FTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
 | Training\_WorkerName      | Vardas, pavardė ir vardas bei pavardė                             | Training\_CourseAttendees                                                                                                                                                                          |
 | Training\_WorkerTitle     | Pareigos ir paaukštinimo data                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinio pakete. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą Training.pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turinio paketui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

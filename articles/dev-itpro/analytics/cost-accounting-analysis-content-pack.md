@@ -3,7 +3,7 @@ title: "Kaštų apskaitos analizės „Power BI“ turinys"
 description: "Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d2966954ccb9df03227edab1fe7c471ddd20f32
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos 
 Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
+**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
 
 Įsitikinkite, kad atsisiunčiate tą turinį **Kaštų apskaitos analizė**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
 

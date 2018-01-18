@@ -1,9 +1,9 @@
 ---
 title: "Išlaidų valdymo „Power BI“ turinys"
-description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
+description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,9 +31,9 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
+Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. 
 
-# <a name="overview"></a>Apžvalga
+# <a name="overview"></a>Peržiūra
 
 **Kaštų apskaitos analizės** „Microsoft Power BI“ turinys skirtas išlaidų buhalteriams arba asmenims organizacijoje, kurie yra atsakingi už atsargas. **Išlaidų valdymo** „Power BI“turinys suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 11/03/2017
 
 CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė CostStatementCache. Šią lentelę valdo duomenų rinkinio talpyklos sistema. Pagal numatytuosius parametrus lentelė atnaujinama kas 24 valandas, bet jūs galite įjungti duomenų talpyklos konfigūracijos neautomatinius naujinimus. Tada galite atlikti neautomatinį naujinimą darbo srityje **Išlaidų valdymas** arba **Išlaidų analizė**. Paleidus CostStatementCache naujinį, turite atnaujinti „OData“ ryšį Power BI.com, kad svetainėje matytumėte atnaujintus duomenis. Nuokrypio (pirkimo, gamybos) matai šiame „Power BI“turinyje yra susiję tik su prekėmis, kurios vertinamos pagal standartinių išlaidų atsargų metodą. Gamybos nuokrypis apskaičiuojamas kaip skirtumas tarp aktyvios kainos ir realizuotos kainos. Gamybos nuokrypis apskaičiuojamas, kai gamybos užsakymo būsena būna **Baigtas**. Daugiau informacijos apie gamybos nuokrypių tipus ir tai, kaip kiekvienas tipas skaičiuojamas, žr. temoje [Apie baigto gamybos užsakymo nuokrypių analizę](https://technet.microsoft.com/en-us/library/gg242850.aspx)
 
-## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinį **Išlaidų valdymas** galima atsisiųsti iš Power.BI.com. Daugiau informacijos apie tai, kaip prijungti ir įkelti „Microsoft Dynamics 365 for Finance and Operations“ duomenis, žr. [Prieiga prie „Power BI“ turinio naudojant PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.
@@ -136,13 +134,6 @@ CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė 
 | Didžiosios knygos          | Valiuta, Pavadinimas, Aprašas                  |
 | Vietos            | ID, Pavadinimas, Šalis, Miestas                      |
 
-## <a name="additional-resources"></a>Papildomi ištekliai
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
--   [Duomenų objektai](..\data-entities\data-entities.md)
--   [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
 
 
 

@@ -3,7 +3,7 @@ title: "Įžvalgos"
 description: "Šioje temoje nurodomi ištekliai, kuriuos naudodami galite daugiau sužinoti apie verslo įžvalgų ir ataskaitų įrankius, pasiekiamus sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Puslapyje spustelėdami ar paliesdami vaizdinius elementus, galite interaktyviai
  - [Įdėtoji „Power BI“ darbo srityse](embed-power-bi-workspaces.md)
  - [„Power BI Embedded“ integravimas](power-bi-embedded-integration.md)
  - [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](add-analytics-tab-workspaces.md)
- - [Analizės programų publikavimas „Power BI“](publish-apps-powerbi.md)
  - [Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“](secure-analytical-workspaces.md)
  - [„Finance and Operations“ „Power BI‟ turinys](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Ataskaitų sprendimai dažnai naudojami verslo operacijų informacijai fiksuoti 
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
-- [Dokumentų ataskaitų paslaugų apžvalga](document-reporting-services.md)
+- [„Document Reporting Services” apžvalga](document-reporting-services.md)
 - [Spausdinimas „Finance and Operations“ programose](print-documents.md)
 - [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimo įrenginius](install-document-routing-agent.md)
 
@@ -86,12 +85,9 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 - [Finansinių ataskaitų komponentai](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Techninės informacijos ataskaitos
-Tolesnėse ataskaitose pateikiama informacijos apie „Finance and Operations‟ objektus.
+Tolesnėse ataskaitose pateikiama nuorodų informacijos apie „Finance and Operations‟ objektus.
 
-- [Agreguotų duomenų objektų ataskaita](aggregate-data-entities-report.md)
-- [Agreguotų matavimo vienetų ataskaita](aggregate-measurements-report.md)
 - [Duomenų objektų ataskaita](../data-entities/data-entities-report.md)
-- [Pagrindinių efektyvumo indikatorių (KPI) ataskaita](key-performance-indicators-report.md)
 - [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md)
 - [Ataskaita apie „SQL Server Reporting Services“ ataskaitas](SSRS-report.md)
 - [Darbo eigos tipų ataskaita](../../fin-and-ops/organization-administration/workflow-types-report.md)

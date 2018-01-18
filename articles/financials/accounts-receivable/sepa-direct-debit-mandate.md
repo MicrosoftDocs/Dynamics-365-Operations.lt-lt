@@ -3,11 +3,12 @@ title: "SEPA tiesioginio debeto įgaliojimo nustatymas"
 description: "Bendros mokėjimų eurais erdvės (SEPA) tiesioginis debetas leidžia kreditoriui surinkti lėšas iš kliento banko sąskaitos, jei klientas kreditoriui suteikė pasirašytą įgaliojimą."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

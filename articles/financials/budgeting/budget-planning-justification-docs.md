@@ -3,11 +3,12 @@ title: "Biudžeto planavimo pagrindimo dokumentai"
 description: "Pagrindimo dokumentai prašantiems biudžeto asmenims suteikia informacijos, padedančios paaiškinti, kodėl konkretus biudžetas yra reikalingas."
 author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

@@ -3,7 +3,7 @@ title: "„Power BI“ turinys"
 description: "Šioje temoje nurodytas pasiekiamas „Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti."
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -39,10 +39,10 @@ Jei naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise ed
 - [„Power BI“ turinys Grynųjų pinigų apžvalga](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
 - [„Power BI“ turinys CFO apžvalga](CFO-power-bi.md)
 - [„Power BI“ turinys Kompensacija](compensation-power-bi.md)
-- [„Power BI‟ turinys* Kaštų apskaitos analizė](cost-accounting-analysis-content-pack.md) 
+- [Kaštų apskaitos analizės „Power BI‟ turinys](cost-accounting-analysis-content-pack.md) 
 - [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [„Power BI“ turinys Darbuotojo tobulėjimas](employee-development-PBI.md) 
-- [„Power BI“ turinys* Finansinis našumas](financial-performance-power-bi-content-pack.md)
+- [Finansinės veiklos „Power BI“ turinys](financial-performance-power-bi-content-pack.md)
 - [„Power BI“ turinys Ilgalaikio turto valdymas](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [„Power BI“ turinys Mokymasis](learning-power-bi.md)
 - [„Power BI“ turinys Praktikos vadovas](practice-manager-power-bi.md)
@@ -53,16 +53,6 @@ Jei naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise ed
 - [„Power BI“ turinys Tiekėjo mokėjimai](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Sandėlio efektyvumo „Power BI“ turinys](warehouse-power-bi-content.md)
 - [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)  
-
-### <a name="accessing-the-content"></a>Prieiga prie turinio
-
-#### <a name="embedded-content"></a>Įdėtasis turinys
-Išskyrus turinį, kuris yra pažymėtas žvaigždute (\*), visas turinys ankstesniame sąraše yra įdėtas į programą. Norėdami daugiau sužinoti apie tai, kur galite peržiūrėti „Power BI“ turinį, spustelėkite pirmiau pateiktus saitus.
-
-Norėdami peržiūrėti „Power BI“ ataskaitų duomenis, būtinai atnaujinkite objektų saugyklą. Daugiau informacijos žr. vadovo [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md) skyriuje *Objekto parduotuvės atnaujinimas*.
-
-#### <a name="files-available-in-lifecycle-services"></a>„Lifecycle Services‟ pasiekiami failai
-Šis „Power BI“ turinys pasiekiamas „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie savo duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
 
 ## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>„Dynamics 365 for Operations‟ 1611 versijai skirtas „Power BI“ turinys
 Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, pasiekiamas toliau nurodytas „Power BI‟ turinys.
@@ -81,9 +71,6 @@ Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, pasieki
 - [Sandėlio efektyvumo „Power BI“ turinys](warehouse-power-bi-content.md)
 - [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)  
 
-### <a name="accessing-the-content"></a>Prieiga prie turinio
-Šis „Power BI“ turinys pasiekiamas „Microsoft Dynamics Lifecycle Services“ (LCS) bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir prijungti jį prie savo duomenų, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>„Microsoft Dynamics AX“ skirtas „Power BI“ turinys
 Jei naudojate „Microsoft Dynamics AX‟ 7.0 versiją arba „Microsoft Dynamics AX‟ 7.0.1 versiją, pasiekiamas toliau nurodytas „Power BI‟ turinys.
 
@@ -91,15 +78,5 @@ Jei naudojate „Microsoft Dynamics AX‟ 7.0 versiją arba „Microsoft Dynamic
 - [Finansinės veiklos „Power BI“ turinys](financial-performance-power-bi-content-pack.md)
 - [„Power BI“ turinys Mažmeninės prekybos kanalo našumas](retail-channel-performance-dashboard-power-bi-data.md) 
 
-### <a name="accessing-the-content"></a>Prieiga prie turinio
-Šį „Power BI“ turinį galima atsisiųsti iš PowerBI.com.
 
-1. Prisijunkite prie [PowerBI.com](https://www.powerbi.com/).
-2. Spustelėkite **Gauti duomenis**.
-3. Langelyje **Paslaugos** spustelėkite **Gauti**.
-4. Pasirinkite norimą turinio paketą, o po to spustelėkite **Gauti**.
-5. Įveskite savo „Dynamics AX“ aplinkos URL. URL turi būti pateikiamas tokiu formatu: **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Spustelėkite **Pirmyn**.
-6. Pasirinkite autentifikavimo metodą **oAuth2**, po to spustelėkite **Prisijungti**.
-7. Kai būsite paraginti, įveskite „Microsoft Office 365“ paskyrą, kuri turi teisę pasiekti jūsų „ Microsoft Dynamics AX“ aplinką.
-8. Jums prisijungus automatiškai pradedamas importavimo procesas. Kai importavimas baigiamas, naršymo srityje rodomos į turinio paketą įtrauktos ataskaitos. Pasirinkę ataskaitą peržiūrėkite importuotus duomenis.
 

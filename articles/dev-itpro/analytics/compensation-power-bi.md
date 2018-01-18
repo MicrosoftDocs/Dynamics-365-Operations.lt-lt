@@ -3,11 +3,12 @@ title: "„Power BI“ turinys Kompensacija"
 description: "Šioje temoje aprašomas „Power BI‟ turinys Kompensacija. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -16,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 7143a2750d284080609c884ce15bc2b2e8943394
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -47,13 +48,6 @@ ms.lasthandoff: 12/01/2017
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Jei naudojate „Microsoft Dynamics 365 for Operations“ versiją 1611 arba „Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), „Power BI“ turinį **Kompensacija** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Įsitikinkite, kad atsisiunčiate tą „Power BI“ turinį **Kompensacija**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
-
->[!NOTE]
->.pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Tolesniais duomenimis pildomos „Power BI‟ turinio **Kompensacija** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
@@ -81,5 +75,5 @@ Tolesniais duomenimis pildomos „Power BI‟ turinio **Kompensacija** ataskaito
 | Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                                                   | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, išmokos |
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Tada šie skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Jei norite į ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite iš LCS atsisiųsti ir modifikuoti failą .pbix. Šis failas yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. Atlikę keitimus, galite kurti organizacinį turinio paketą ir ataskaitų sritį, kuriuose yra jūsų įtraukta informacija.
+
 

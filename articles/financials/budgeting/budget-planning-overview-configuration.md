@@ -3,11 +3,12 @@ title: "Biudžeto planavimo peržiūra"
 description: "Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

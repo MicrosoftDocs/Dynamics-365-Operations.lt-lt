@@ -3,7 +3,7 @@ title: "„Power BI“ turinys Gamybos našumas"
 description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Toliau pateikiamoje lentelėje apžvelgiamos įtrauktos vizualizacijos.
 | Defektų tendencija pagal išteklių                  | Defektų dažnis (ppm) pagal apdorotą kiekį | |
 | Gamybos nuokrypiai įkainojant užduočių užsakymus | <ul><li>Gamybos nuokrypis pagal datą ir išlaidų grupės tipą</li><li>Gamybos nuokrypis pagal teritoriją ir išlaidų grupės tipą</li><li>Viršutiniai 10 produktų su nepalankiu gamybos nuokrypiu</li><li>Viršutiniai 10 nepalankių gamybos nuokrypių pagal išteklių</li></ul> | <ul><li>Realizuota savikaina</li><li>Gamybos nuokrypis</li><li>Gamybos nuokrypis (%)</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>„Power BI“ turinio išplėtimas
-Naudodami turinio paketus, kurie pateikiami „Microsoft Dynamics Lifecycle Services“ (LCS), žmonėms, kurie neprisijungia prie „Microsoft Dynamics 365“ galite pateikti didžiąją analizę. Galite keisti šiuos turinio paketus, kad į juos įtrauktumėte kitas ataskaitas arba vaizdinius, o po to paskelbti turinio paketus savo Power BI.com nuomotojui analizei.
-
-„Power BI“ turinį **Gamybos našumas** galite rasti LCS bibliotekoje Bendrai naudojamas turtas. Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](power-bi-content-microsoft-partners.md). Norėdami peržiūrėti demonstracinius duomenis, kuriuose parodoma, kaip diegti „Power BI“ turinį, žr. „Office Mix“ [„Power BI“ turinys iš „Microsoft“ ir partnerių „Dynamics Lifecycle Services“](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Įsitikinkite, kad atsisiunčiate tą turinį **Gamybos našumas**, kuris taikomas jūsų naudojamai „Dynamics 365‟ versijai.
-
-> [!NOTE]
-> Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, norint naudoti šį „Power BI‟ turinį būtina įdiegti KB 4011327. Prisijungę prie LCS, KB galite pasiekti adresu https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
@@ -139,12 +130,5 @@ Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai
 | Ištekliai                 | Ištekliaus ID, ištekliaus pavadinimas, ištekliaus tipas ir išteklių grupė |
 | Produktai                  | Produkto numeris, produkto pavadinimas, prekės ID ir prekių grupė         |
 
-## <a name="additional-resources"></a>Papildomi ištekliai
 
-Toliau pateikti keli naudingi saitai, susiję su objektais ir „Power BI“ turinio kūrimu.
-
-- [Duomenų objektai](../data-entities/data-entities.md)
-- [Organizacinių turinio paketų kūrimas](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Duomenų modeliavimas naudojant „Power BI“](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [„Power BI“ plytelių įtraukimas į darbo sritis](configure-power-bi-integration.md)
 

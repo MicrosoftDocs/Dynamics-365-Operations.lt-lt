@@ -3,11 +3,12 @@ title: "Grynųjų pinigų srautų prognozavimas"
 description: "Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius."
 author: saraschi
 manager: AnnBe
-ms.date: 05/15/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

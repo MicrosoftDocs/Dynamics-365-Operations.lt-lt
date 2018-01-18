@@ -3,7 +3,7 @@ title: "Spartieji klavišai"
 description: "Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations, Enterprise edition“."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Opera
 
 **Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
 
-## <a name="finding-a-shorcut"></a>Sparčiųjų klavišų radimas
+## <a name="finding-a-shortcut"></a>Sparčiųjų klavišų radimas
 Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosius klavišus tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate. 
 
 
@@ -143,6 +143,9 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti į pirmą įrašą                                                                                               | CTRL + HOME                       |
 | Perkelti į paskutinį įrašą                                                                                                | CTRL + END                        |
 | Vykdyti numatytąjį tinklelio veiksmą<br><br>**Pastaba.** Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.                 | Enter                           |
+| Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
+| Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
+| Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 |                                                                              |                               |

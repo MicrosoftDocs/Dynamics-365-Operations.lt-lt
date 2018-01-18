@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tipas**                         | **Naudokite šį tipą norėdami**                                          |
-| Pirkimo paraiškos peržiūra      | Kurkite peržiūros darbo eigas pirkimo paraiškoms.            |
-| Pirkimo paraiškos eilutės peržiūra | Kurkite peržiūros darbo eigas pirkimo paraiškų eilutėms.       |
+| Pirkimo paraiškos peržiūra      | Kurkite pirkimo paraiškų peržiūros ir patvirtinimo darbo eigas.            |
+| Pirkimo paraiškos eilutės peržiūra | Kurkite pirkimo paraiškų eilučių peržiūros ir patvirtinimo darbo eigas.       |
 | Pirkimo užsakymo darbo eiga          | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymams.     |
 | Pirkimo užsakymo eilutės darbo eiga     | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymų eilutėms. |
+| Tiekėjo įtraukimo prašymo darbo eiga  | Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas. |
 
 ## <a name="creating-a-workflow"></a>Darbo eigos kūrimas
 Norėdami kurti darbo eigą, pasirinkite Įsigijimas ir šaltinio pasirinkimas &gt; Nustatymas &gt; Įsigijimo ir šaltinio pasirinkimo darbo eigos ir sukurkite naują darbo eigą, pasirinkdami norimą darbo eigos tipą.  
@@ -75,6 +76,6 @@ Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.
 
 [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
 
-
+[Tiekėjų supažindinimas](vendor-onboarding.md)
 
 
