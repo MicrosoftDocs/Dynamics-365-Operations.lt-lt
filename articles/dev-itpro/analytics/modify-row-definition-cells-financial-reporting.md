@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="2cf68-104">Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.</span><span class="sxs-lookup"><span data-stu-id="2cf68-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="2cf68-105">Eilutės kodo nurodymas eilutės apibrėžime</span><span class="sxs-lookup"><span data-stu-id="2cf68-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="2cf68-105">Eilutės kodo nurodymas eilutės apibrėžime</span><span class="sxs-lookup"><span data-stu-id="2cf68-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="2cf68-106">Eilučių apibrėžimų langelyje **Eilutės kodas** pateikiami skaičiai arba etiketės nurodo kiekvieną eilutės apibrėžimo eilutę.</span><span class="sxs-lookup"><span data-stu-id="2cf68-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="2cf68-107">Galima nustatyti, kad eilutės kodas nurodytų skaičiavimų ir bendrųjų sumų duomenis.</span><span class="sxs-lookup"><span data-stu-id="2cf68-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="2cf68-709">Pasirinkite norimą naikinti rinkinį ir spustelėkite **Naikinti**.</span><span class="sxs-lookup"><span data-stu-id="2cf68-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="2cf68-710">Spustelėkite **Taip**, jeigu norite visam laikui panaikinti dimensijos reikšmių rinkinį.</span><span class="sxs-lookup"><span data-stu-id="2cf68-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="2cf68-711">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="2cf68-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="2cf68-711">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="2cf68-711">See also</span></span>
 
 [<span data-ttu-id="2cf68-712">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="2cf68-712">Financial reporting</span></span>](financial-reporting-intro.md)
 

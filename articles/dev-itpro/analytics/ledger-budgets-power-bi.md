@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="4248f-105">Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Faktinis palyginti su biudžeto**.</span><span class="sxs-lookup"><span data-stu-id="4248f-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="4248f-106">Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.</span><span class="sxs-lookup"><span data-stu-id="4248f-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="4248f-107">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="4248f-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="4248f-107">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="4248f-107">Overview</span></span>
 
 <span data-ttu-id="4248f-108">„Power BI‟ turinys **Faktinis palyginti su biudžeto** buvo sukurtas asmenims, kurie organizacijoje yra atsakingi už faktinio našumo stebėjimą palyginti su biudžeto.</span><span class="sxs-lookup"><span data-stu-id="4248f-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="4248f-109">„Power BI‟ turinys **Faktinis palyginti su biudžeto** leidžia matyti biudžeto nuokrypius.</span><span class="sxs-lookup"><span data-stu-id="4248f-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="4248f-110">Norėdami geriau suprasti nuokrypių priežastį, galite analizuoti einamųjų metų biudžetą pagal sąskaitos kategoriją, biudžeto kodą, pagrindinę sąskaitą, pagrindinės sąskaitos aprašymus arba ataskaitinį laikotarpį.</span><span class="sxs-lookup"><span data-stu-id="4248f-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="4248f-111">Prieiga prie „Power BI“ turinio</span><span class="sxs-lookup"><span data-stu-id="4248f-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="4248f-111">Prieiga prie „Power BI“ turinio</span><span class="sxs-lookup"><span data-stu-id="4248f-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="4248f-112">„Power BI“ turinio **Faktinis palyginti su biudžeto** ataskaitos rodomos darbo srityse **Didžiosios knygos biudžetas ir prognozės** ir **CFO**.</span><span class="sxs-lookup"><span data-stu-id="4248f-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="4248f-113">Į „Power BI“ turinį įtrauktos ataskaitos</span><span class="sxs-lookup"><span data-stu-id="4248f-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="4248f-113">Į „Power BI“ turinį įtrauktos ataskaitos</span><span class="sxs-lookup"><span data-stu-id="4248f-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="4248f-114">Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekviename „Power BI“ turinio **Faktinis palyginti su biudžeto** ataskaitų puslapyje.</span><span class="sxs-lookup"><span data-stu-id="4248f-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="4248f-115">Ataskaita</span><span class="sxs-lookup"><span data-stu-id="4248f-115">Report</span></span>                      | <span data-ttu-id="4248f-116">Metrika</span><span class="sxs-lookup"><span data-stu-id="4248f-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="4248f-129">Grynosios pajamos</span><span class="sxs-lookup"><span data-stu-id="4248f-129">Net income</span></span>                  | <ul><li><span data-ttu-id="4248f-130">Grynosios pajamos šiais metais</span><span class="sxs-lookup"><span data-stu-id="4248f-130">Net income this year</span></span></li><li><span data-ttu-id="4248f-131">Grynųjų pajamų tikslas pagal biudžetą</span><span class="sxs-lookup"><span data-stu-id="4248f-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="4248f-132">Duomenų modelio ir objektų supratimas</span><span class="sxs-lookup"><span data-stu-id="4248f-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="4248f-132">Duomenų modelio ir objektų supratimas</span><span class="sxs-lookup"><span data-stu-id="4248f-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="4248f-133">Objektas</span><span class="sxs-lookup"><span data-stu-id="4248f-133">Entity</span></span>                    | <span data-ttu-id="4248f-134">Turinys</span><span class="sxs-lookup"><span data-stu-id="4248f-134">Contents</span></span> |
 |---------------------------|----------|
