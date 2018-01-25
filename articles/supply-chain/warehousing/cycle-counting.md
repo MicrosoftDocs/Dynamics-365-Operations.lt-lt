@@ -137,7 +137,7 @@ Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nus
 
 Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reikšmę galite puslapyje **Laukiantis peržiūros ciklo skaičiavimas**. Modifikuotą prekės kiekio skaičių patikrinti galite puslapyje **Turimos atsargos pagal vietą**. Apskaičiuota reikšmė atmetama, jei skirtumo patvirtinti negalima.
 
-# <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 [Mobiliųjų įrenginių konfigūravimas darbui sandėlyje](configure-mobile-devices-warehouse.md)
 
 

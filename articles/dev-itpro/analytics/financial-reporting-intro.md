@@ -98,7 +98,7 @@ Puslapyje **Finansinių ataskaitų nustatymas** yra du skyriai, kurie nustato du
 </tbody>
 </table>
 
-#<a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 [Finansinės ataskaitos generavimas](generate-financial-report.md)
 
 

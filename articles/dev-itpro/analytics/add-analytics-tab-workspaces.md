@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Dynamics 365 for Finance and Operations“.
 
-# <a name="introduction"></a>Įvadas
+## <a name="introduction"></a>Įvadas
 Šioje temoje rodoma, kaip įterpti „Microsoft Power BI“ ataskaitą darbo srities skirtuke **Analizė**. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
 
-# <a name="prerequisites"></a>Būtinieji komponentai
+## <a name="prerequisites"></a>Būtinieji komponentai
 + Prieiga prie projektuotojo terpės, kurioje veikia 8-asis ar naujesnis platformos atnaujinimas.
 + Naudojant „Microsoft Power BI Dekstop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
 
-# <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Apžvalga
 Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo sritį, informatyviems ir interaktyviems verslo duomenų rodiniams pristatyti galite naudoti įdėtuosius analizės rodinius. Analizės darbo srities įtraukimo procesą sudaro keturi veiksmai.
 
 1. Įtraukite .pbix failą kaip „Dynamics 365“ išteklių.
@@ -48,7 +48,7 @@ Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo 
 > [!NOTE]
 > Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Dekstop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šis puslapis – puikus įžvalgų, galinčių padėti kurti patrauklius sprendimus analizės ataskaitoms, šaltinis.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Įtraukite .pbix failą kaip išteklių.
+## <a name="add-a-pbix-file-as-a-resource"></a>Įtraukite .pbix failą kaip išteklių.
 Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Dekstop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio“ projekto artefaktą.
@@ -66,7 +66,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
   
 Įtraukę .pbix failą kaip „Dynamics 365“ išteklių, ataskaitas galite įdėti į darbo sritis ir, naudodami meniu elementus, įtraukti tiesioginių saitų.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Skirtuko valdiklio įtraukimas į programos darbo sritį
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Skirtuko valdiklio įtraukimas į programos darbo sritį
 Šiame pavyzdyje išplėsime Transporto parko valdymo modelio darbo sritį **Rezervacijų valdymas** į formos **FMClerkWorkspace** apibrėžimą įtraukdami skirtuką **Analizė**.
  
 Toliau pavaizduota, kaip forma **FMClerkWorkspace** atrodo „Microsoft Visual Studio“ dizaineryje.
@@ -105,7 +105,7 @@ Pridėję formų valdiklių, kurie bus naudojami darbo srities ataskaitai įdėt
  
 Užbaigėte prašymo formos apibrėžimo išplėtimo užduotį. Daugiau informacijos apie tai, kaip naudoti plėtinius tinkinimams atlikti, ieškokite [Tinkinimas: perdengimas ir plėtiniai](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++ verslo logikos įtraukimas norint įdėti peržiūros programos valdiklį
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++ verslo logikos įtraukimas norint įdėti peržiūros programos valdiklį
 Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią į darbo sritį **Rezervacijų valdymas** įdėtą peržiūros programos valdiklį.
 
 1. Norėdami išplėsti dizaino apibrėžimą, atidarykite **FMClerkWorkspace** formų dizainerį.
@@ -151,12 +151,12 @@ Užbaigėte verslo logikos įtraukimo užduotį, skirtą įdėtam ataskaitų per
 > [!NOTE]
 > Esamą operacijų rodinį galite pasiekti naudodami virš puslapio pavadinimo esančius darbo srities skirtukus.
 
-# <a name="reference"></a>Nuoroda
+## <a name="reference"></a>Nuoroda
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl metodas
+### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl metodas
 Šiame skyriuje pateikiama informacija apie pagelbiklio klasę, naudojamą „Power BI“ ataskaitai (.pbix išteklius) į formos grupės valdiklį įdėti.
 
-### <a name="syntax"></a>Sintaksė
+#### <a name="syntax"></a>Sintaksė
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parametrai
+#### <a name="parameters"></a>Parametrai
 
 | Vardas | aprašymas |
 |---|---|

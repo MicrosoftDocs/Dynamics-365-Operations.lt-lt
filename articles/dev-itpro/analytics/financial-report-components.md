@@ -112,7 +112,7 @@ Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik ska
 3.  Pasirinkite kūrimo bloką, tada spustelėkite **Anuliuoti išregistravimą**.
 4.  Norėdami užregistruoti kūrimo bloką, spustelėkite **Taip**.
 
-# <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
 

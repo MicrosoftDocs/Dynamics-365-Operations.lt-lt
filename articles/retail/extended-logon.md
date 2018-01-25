@@ -34,8 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Šioje temoje aprašomos „Cloud POS“ ir „Retail Modern POS“ (MPOS) išplėstinio prisijungimo nustatymo parinktys.
 
-<a name="setting-up-extended-logon"></a>Išplėstinės registracijos nustatymas
-=========================
+## <a name="setting-up-extended-logon"></a>Išplėstinės registracijos nustatymas
 
 Brūkšninių kodų skaičių sekų sąranką galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Funkcijų šablonai**. „FastTab“ **Funkcijos** pateikiamos toliau nurodytos parinktys, susijusios su išplėstine registracija.
 
@@ -55,23 +54,19 @@ Kai parinktis **Darbuotojo kortelės registravimas** įjungta, darbuotojai, kuri
 
 Kai parinktis **Darbuotojui registruojantis naudojant kortelę reikia slaptažodžio** įjungta, darbuotojų kortelės registracijos funkcija parenka tik tą darbuotoją, kuris yra priskirtas pateiktai išplėstinei registracijai. Kai ši parinktis įjungta, darbuotojai vis tiek turi įvesti savo slaptažodį.
 
-<a name="assigning-an-extended-logon"></a>Išplėstinės registracijos priskyrimas
-===========================
+## <a name="assigning-an-extended-logon"></a>Išplėstinės registracijos priskyrimas
 
 Pagal numatytuosius parametrus tik vadovai gali darbuotojams priskirti išplėstinės registracijos funkciją. Norėdami priskirti išplėstinės registracijos funkciją, EKA pasirinkite **Išplėstinė registracija**. Tada ieškokite darbuotojo, ieškos lauke įvesdami jo operatoriaus ID. Pasirinkite darbuotoją ir spustelėkite **Priskirti**. Kitame puslapyje perbraukite arba nuskaitykite išplėstinę registraciją, kad priskirtumėte darbuotoją. Jei perbraukimas arba nuskaitymas sėkmingas, mygtukas **Gerai** tampa aktyvus. Spustelėkite **Gerai**, norėdami įrašyti to darbuotojo išplėstinę registraciją.
 
-<a name="deleting-an-extended-logon"></a>Išplėstinės registracijos naikinimas
-==========================
+## <a name="deleting-an-extended-logon"></a>Išplėstinės registracijos naikinimas
 
 Norėdami panaikinti darbuotojui priskirtą išplėstinę registraciją, ieškokite darbuotojo naudodami operaciją **Išplėstinė registracija**. Pasirinkite darbuotoją ir spustelėkite **Atšaukti priskyrimą**. Pašalinami visi su tuo darbuotoju susieti išplėstinės registracijos kredencialai.
 
-<a name="extending-extended-logon"></a>Išplėstinės registracijos išplėtimas
-========================
+## <a name="extending-extended-logon"></a>Išplėstinės registracijos išplėtimas
 
 Registravimosi paslaugą galima išplėsti, kad būtų palaikomi papildomi išplėstinės registracijos įrenginiai, pvz., delnų skaitytuvai. Daugiau informacijos ieškokite EKA išplečiamumo dokumentuose.
 
-<a name="using-extended-logon"></a>Išplėstinės registracijos naudojimas
-====================
+## <a name="using-extended-logon"></a>Išplėstinės registracijos naudojimas
 
 Jei išplėstinė registracija yra sukonfigūruota, o darbuotojui buvo priskirtas brūkšninis kodas arba magnetinė juostelė, darbuotojas tiesiog turi perbraukti arba nuskaityti savo kortelę, kai rodomas EKA registracijos puslapis. Jei prieš tęsiant registraciją būtina įvesti slaptažodį, darbuotojas bus paragintas įvesti savo slaptažodį.
 
