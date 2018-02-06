@@ -1,4 +1,4 @@
---- 
+---
 title: "Gamybos užsakymų skelbimą baigtais"
 description: "Ši procedūra nurodo, kaip gamybos užsakymą paskelbti kaip baigtą."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. Sąraše pažymėkite pasirinktą eilutę.
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Žurnalas Skelbti baigtu užregistruotas. Jei norite koreguoti žurnalą, galite rankiniu būdu sukurti naują žurnalą, kuriame galite atlikti keitimus.  
-
 

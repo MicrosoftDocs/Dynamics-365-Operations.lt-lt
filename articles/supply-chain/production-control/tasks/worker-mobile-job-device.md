@@ -69,4 +69,3 @@ ms.lasthandoff: 09/29/2017
 6. Lauke Gamybos vienetas galite nustatyti numatytąjį darbuotojo filtrą. Tai užtikrins, kad bus rodomos tik pasirinkto gamybos vieneto gamybos užduotys, kai darbuotojas prisiregistruoja prie įrenginio.
 7. Uždarykite puslapį.
 
-

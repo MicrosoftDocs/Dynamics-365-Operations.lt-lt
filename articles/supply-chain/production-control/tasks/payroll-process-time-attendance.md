@@ -1,4 +1,4 @@
---- 
+---
 title: "Įgalinti laiko ir buvimo darbe algalapio procesą"
 description: "Ši procedūra parodo, kaip įgalinti laiko ir buvimo darbe algalapio procesą."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. Išplėskite skyrių Laiko registracija.
 7. Spustelėkite Redaguoti.
 8. Lauke Mokėjimo sutartis įveskite arba pasirinkite reikšmę.
-
 

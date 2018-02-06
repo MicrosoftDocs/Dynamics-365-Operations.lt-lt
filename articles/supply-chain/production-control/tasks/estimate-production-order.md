@@ -1,4 +1,4 @@
---- 
+---
 title: "Įvertinti gamybos užsakymą"
 description: "Šią procedūrą galite paleisti naudodami USMF demonstracinių duomenų įmonę arba savo duomenų rinkinį."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. Veiksmų srityje spustelėkite Valdyti išlaidas.
 2. Spustelėkite Peržiūrėti skaičiavimo informaciją.
     * Šiame puslapyje rodomas išlaidų paskirstymas. Pavyzdžiui, pirmoje eilutėje galite peržiūrėti baigto produkto vieneto bendrąją savikainą. Kitose eilutėse pateikiamos išlaidos pagal komplektavimo specifikaciją, gamybos maršrutą ir netiesiogines išlaidas.  
-
 

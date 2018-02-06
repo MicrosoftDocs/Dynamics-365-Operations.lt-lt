@@ -1,4 +1,4 @@
---- 
+---
 title: "Gamybos užsakymo išleidimas"
 description: "Šioje procedūroje parodoma, kaip išleisti gamybos užsakymą."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. Spustelėkite žymės langelį Spausdinti technologinę kortelę.
 6. Spustelėkite GERAI.
 7. Uždarykite puslapį.
-
 

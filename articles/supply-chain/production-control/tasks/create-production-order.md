@@ -1,4 +1,4 @@
---- 
+---
 title: "Kurti gamybos užsakymą"
 description: "Šioje procedūroje nurodoma, kaip kurti gamybos užsakymą."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * Vykdymo laiko keitimas turi įtakos gamybos užsakymo apskaičiuotam maršruto suvartojimui ir išlaidoms.  
 6. Spustelėkite Įrašyti.
 7. Uždarykite puslapį.
-
 
