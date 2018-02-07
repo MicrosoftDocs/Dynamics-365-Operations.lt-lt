@@ -1,7 +1,7 @@
 --- 
 title: "Išleisti produktą / bendrąjį produktą juridiniams subjektams"
 description: "Ši procedūra padeda išleisti produktą arba bendrąjį produktą vienam arba keliems juridiniams subjektams."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

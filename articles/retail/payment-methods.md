@@ -1,7 +1,7 @@
 ---
 title: "Mokėjimo būdai"
 description: "Nustačius sistemą, reikia sukonfigūruoti kiekvieną pardavėjo priimamą mokėjimo tipą. Šiame straipsnyje aprašyti mokėjimo tipai, kuriuos galite nustatyti, ir aprašytas jų nustatymo procesas."
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

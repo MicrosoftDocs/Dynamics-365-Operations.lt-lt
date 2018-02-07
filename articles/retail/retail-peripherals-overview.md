@@ -1,6 +1,7 @@
 ---
 title: "Išorinių mažmeninės prekybos įrenginių apžvalga"
 description: "Šioje temoje paaiškintos su išoriniais mažmeninės prekybos įrenginiais susijusios koncepcijos."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

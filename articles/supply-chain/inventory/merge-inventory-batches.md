@@ -1,7 +1,7 @@
 ---
 title: "Susieti atsargų paketus"
 description: "Šiame straipsnyje pateikiama informacijos apie tai, kaip konsoliduoti du arba kelis atsargų paketus sulietame pakete."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Personalo veiksmai [DUK]
 description: "Šioje temoje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai. Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
