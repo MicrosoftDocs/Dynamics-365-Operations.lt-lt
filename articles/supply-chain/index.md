@@ -3,7 +3,7 @@ title: "Pagrindinis modulio Tiekimo grandinės valdymas puslapis"
 description: "Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
 ## <a name="videos"></a>Vaizdo įrašai
 
-### <a name="get-started"></a>Pradžia  
+Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ 7.3 versijos (2017 m. gruodžio mėn.) funkcijas.
 
-Šie trumpi vaizdo įrašai padės pradėti naudoti naujas funkcijas, esančias sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.)
+-  [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
+-  [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.) versijos funkcijas.
 
 -  [Darbo su moduliu Kaštų apskaita pradžia](https://youtu.be/1pUDtJQZ8FU)
 -  [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 -  [Pirkimo užsakymų patvirtinimas mobiliajame įrenginyje](https://youtu.be/gZ-gOlJe7H8)
 -  [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai)](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Techninių konferencijų įrašai
-Daugumoje iš šių įrašų aptariamos produktų funkcijos ankstesnėje „Finance and Operations‟ versijoje, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
+Šiuose techninių konferencijų įrašuose aptariamos ankstesnės „Finance and Operations‟ versijos funkcijos, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">„Microsoft Dynamics AX“ produkto konfigūratorius</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Bendrasis planavimas – našumo trikčių šalinimo patarimai</a>

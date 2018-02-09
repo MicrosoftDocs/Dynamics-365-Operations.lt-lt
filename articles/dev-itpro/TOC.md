@@ -113,7 +113,8 @@
 #### [Modelių elementų tinkinimas naudojant plėtinius (mokymo programa)](extensibility/customize-model-elements-extensions.md)
 #### [Tinkinimas: perdengimas ir plėtiniai](extensibility/customization-overlayering-extensions.md)
 ### Kas nauja
-#### [Išplečiamumo pakeitimai (2017 m. liepos mėn.)](extensibility/changes-july-2017.md)
+#### [Išplėtimo pakeitimai (2017 m. liepos mėn.)](extensibility/changes-july-2017.md)
+#### [„Dynamics 365 for Finance and Operations, Enterprise Edition‟ 7.3 leidimo išplėtimo pakeitimai](extensibility/extensibility-changes-73.md)
 ### Pagrindai
 #### [Nepageidaujami tinkinimai](extensibility/intrusive-customizations.md)
 #### [Klasių plėtiniai](extensibility/class-extensions.md)
@@ -138,12 +139,17 @@
 #### [Formos valdiklio ypatybių modifikavimas](extensibility/modify-control-properties.md)
 #### [Žymos keitimas](extensibility/change-label.md)
 #### [Numeracijos aprėpties išplėtimas](extensibility/extend-number-sequence-scope.md)
+#### [Naujos atsargų dimensijos įtraukimas](extensibility/inventory-dimensions.md)
+#### [Kainų ir nuolaidų išplėtimo pakeitimai](extensibility/pricing-app73.md)
+#### [Lentelių schemos plėtinys](extensibility/map-extensions.md)
+#### [Lentelių schemų, naudojamų kaip sąsajos, išplėtimas](extensibility/maps-as-interfaces.md)
+#### [Lentelių schemų, naudojamų versijoms kurti, išplėtimas](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Našumas
-### [Sekimo paėmimas naudojant sekimo analizatorių](perf-test/trace-trace-tutorial.md)
+### [Sekimas naudojant „Trace Parser“](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK ir kelių vartotojų bandymas naudojant „Visual Studio Team Services‟](perf-test/perfsdk-tutorial.md)
 ### [Problemų diagnozavimas ir efektyvumo analizavimas naudojant sekimo analizatorių](perf-test/trace-parser.md)
 ### [Efektyvumo laikmatis](perf-test/performance-timer.md)
@@ -522,20 +528,20 @@
 ### [Paketo programos trikčių diagnostika](deployment/deployable-package-troubleshooting.md)
 
 # [Plėtojimas ir perėjimas](migration-upgrade/upgrade-home-page.md)
-## [Plėtojimas iš AX 2012 į „Dynamics 365 for Finance and Operations”](migration-upgrade/upgrade-overview-2012.md)
-### [Analizavimas – plėtojimo analizavimo įrankio naudojimas plėtojimui planuoti](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analizavimas – kodo plėtojimo tarnybos naudojimas kodo plėtojimo pastangoms numatyti](migration-upgrade/analyze-code-upgrade.md)
-### [Analizavimas – visuotinis smėlio dėžės aplinkos diegimas](migration-upgrade/analysis-sandbox.md)
-### [Plėtojimas – duomenų plėtojimas programavimo aplinkoje](migration-upgrade/data-upgrade-2012.md)
-### [Plėtojimas – AX 2012 duomenų plėtojimo užduotys](migration-upgrade/prepare-data-upgrade.md)
-### [Plėtojimas – duomenų plėtojimas smėlio dėžės aplinkoje](migration-upgrade/upgrade-data-sandbox.md)
-### [Tikrinimas – visiškasis bandymas](migration-upgrade/upgrade-cutover-testing.md)
-### [Tikrinimas – išplėtojus atliktinos užduotys](migration-upgrade/app-validation-process.md)
-### [Tikrinimas – funkcinis bandymas](migration-upgrade/upgrade-functional-validation.md)
-### [Tikrinimas – rengimasis įgyvendinimui](migration-upgrade/upgrade-go-live-prep.md)
+## [Versijos naujinimas iš AX 2012 į „Dynamics 365 for Finance and Operations”](migration-upgrade/upgrade-overview-2012.md)
+### [AX 2012 versijos naujinimas – plėtojimo analizavimo įrankio naudojimas planuojant](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 versijos naujinimas – kodo plėtojimo tarnybos naudojimas pastangoms numatyti](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 versijos naujinimas – visuotinis smėlio dėžės aplinkos diegimas](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 versijos naujinimas – duomenų plėtojimas programavimo aplinkoje](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 versijos naujinimas – AX 2012 duomenų plėtojimo užduotys](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkoje](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 versijos naujinimas – visiško perkėlimo bandymai](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 versijos naujinimas – užduotys, atliktinos užbaigus versijos naujinimą](migration-upgrade/app-validation-process.md)
+### [AX 2012 versijos naujinimas – funkcijų tikrinimas](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 versijos naujinimas – rengimasis paleidimui](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### Pokyčiai, turintys įtakos plėtojimui iš AX 2012
+### Pakeitimai, turintys įtakos AX 2012 versijos naujinimui
 #### [Vieno kvito ir valiutos kurso pasikeitimo plėtojimas ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekto išteklių planavimo duomenų modelis](migration-upgrade/data-model-changes-resource-management.md)
 #### [Darbo eigos posistemės pokyčiai](migration-upgrade/workflow-subsystem.md)
@@ -590,6 +596,8 @@
 ## [Paketinis vykdymas](sysadmin/batch-processing-overview.md)
 ### [Paketinio vykdymo serverio apžvalga](sysadmin/batch-server-overview.md)
 ### [Paketinės užduoties kūrimas](sysadmin/tasks/create-batch-job.md)
+
+## [Optimizavimo patarėjo taisyklių kūrimas](sysadmin/optimization-advisor.md)
 
 # „Lifecycle Services‟
 ## [„Lifecycle Services“ apžvalga](lifecycle-services/lcs.md)
