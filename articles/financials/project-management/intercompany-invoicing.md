@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplauk�
 
 1.  Nustatykite FRSI kaip USSI juridinio subjekto klientą, o USSI nustatykite kaip FRSI juridinio subjekto tiekėją. Šios užduoties veiksmams atlikti naudojamos trys įvesties vietos.
     | Veiksmas | Įvesties taškas                                                                       | aprašymas   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Pasirinkite USSI ir spustelėkite **Gautinos sumos** &gt; **Klientai** &gt; **Visi klientai**. | Sukurkite naują FRSI kliento įrašą ir pasirinkite klientų grupę.                                                                                                                                                                                                                           |
-    | Mlrd.    | Pasirinkite FRSI ir spustelėkite **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai**.        | Sukurkite naują USSI tiekėjo įrašą ir pasirinkite tiekėjų grupę.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Pasirinkite USSI ir spustelėkite **Gautinos sumos** &gt; **Klientai** &gt; **Visi klientai**. | Sukurkite naują FRSI kliento įrašą ir pasirinkite klientų grupę.                                                                                  |
+    | Mlrd.    | Pasirinkite FRSI ir spustelėkite **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai**.        | Sukurkite naują USSI tiekėjo įrašą ir pasirinkite tiekėjų grupę.                                                                                    |
     | K    | Pasirinkę FRSI atidarykite tiekėjo įrašą, kurį ką tik sukūrėte.                            | Veiksmų srityje, skirtuke **Bendra**, grupėje **Nustatymas** spustelėkite **Vidinė įmonė**. Puslapio **Vidinė įmonė** skirtuke **Prekybiniai ryšiai** slankiklį **Aktyvus** nustatykite į **Taip**. Lauke **Kliento įmonė** pasirinkite kliento įrašą, kurį sukūrėte atlikdami A veiksmą. |
 
 2.  Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo ir apskaitos parametrai**, tada spustelėkite skirtuką **Vidinė įmonė**. Parametrų nustatymo būdas priklauso nuo to, ar esate besiskolinantysis juridinis subjektas, ar skolinantysis juridinis subjektas.

@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Šioje temoje aprašoma, kaip keisti kalbos parametrus naudojant „Retail Modern POS“ (MPOS) ir „Cloud POS“.
 
-<a name="overview"></a>Apžvalga
-========
-
+## <a name="overview"></a>Apžvalga
 „Retail Modern POS“ (MPOS) ir „Cloud POS“ palaiko aplinkas, kuriose parduotuvės ir vartotojų nustatyti kalbos parametrai ir vertimai gali skirtis. Pavyzdžiui, parduotuvė gali būti regione, kuriame klientai dažniausiai vartoja anglų kalbą, bet kai kurie darbuotojai labiau norėtų naudoti programą, kuri išversta į prancūzų kalbą.
 
 ## <a name="data-language"></a>Duomenų kalba

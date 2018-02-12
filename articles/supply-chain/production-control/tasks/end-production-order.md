@@ -1,4 +1,4 @@
---- 
+---
 title: "Baigti gamybos užsakymą"
 description: "Šioje procedūroje nurodoma, kaip pabaigti gamybos užsakymą."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. Veiksmų srityje spustelėkite Valdyti išlaidas.
 2. Spustelėkite Peržiūrėti savikainos palyginimą.
     * Pabaigę gamybos užsakymą galite palyginti įvertintą savikainą su realizuota savikaina ir peržiūrėti gamybos nuokrypius.  
-
 

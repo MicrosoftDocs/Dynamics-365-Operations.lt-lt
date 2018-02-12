@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Išklotinėse **Suvestinė** pateikiama pasirinkto tiekėjo sąskaitų faktūrų
 -   Apmokėtos SF yra visiškai apmokėtos „Finance and Operations“ SF.
 
 Spustelėjus išklotinę atveriamas filtruotas puslapio **Sąskaitų faktūrų sąrašas** rodinys.
+
 ### <a name="tabular-lists"></a>Sąrašų lentelės
 
 Skyriuje **Sąrašų lentelės** sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
-Visų tiekėjo SF sąrašo puslapis
+
+<a name="all-vendor-invoices-list-page"></a>Visų tiekėjo SF sąrašo puslapis
 -----------------------------
 
 Sąrašo puslapyje **Tiekėjo bendradarbiavimo SF** galite peržiūrėti visas užregistruotas ir neužregistruotas tiekėjo sąskaitas faktūras. Naudodami šį sąrašo puslapį galite peržiūrėti sąskaitų faktūrų mokėjimo būseną. Apmokėjimo būsenos yra šios: neužregistruota, neapmokėta, apmokėta iš dalies, visiškai apmokėta.

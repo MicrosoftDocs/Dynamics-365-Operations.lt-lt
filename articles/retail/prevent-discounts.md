@@ -1,7 +1,7 @@
 ---
 title: "Nuolaidų nesuteikimas mažmeninės prekybos produktams"
 description: "Yra įvairių priežasčių, dėl kurių mažmenininkai gali norėti nesuteikti kai kuriems produktams nuolaidų EKA akcijų arba išpardavimų metu."
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

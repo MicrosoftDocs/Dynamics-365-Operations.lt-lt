@@ -1,4 +1,4 @@
---- 
+---
 title: "Pradėti gamybos užsakymą"
 description: "Šioje procedūroje nurodoma, kaip paleisti gamybos užsakymą ceche."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. Spustelėkite Registruoti.
 8. Spustelėkite GERAI.
     * Technologinės kortelės žurnale įrašomas atskiroms operacijoms skiriamas laikas. Taip pat gali būti nurodytas prekių ir klaidų kiekis.  
-
 

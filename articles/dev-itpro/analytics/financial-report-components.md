@@ -1,7 +1,7 @@
 ---
 title: "Finansinės ataskaitos komponentai"
 description: "Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Straipsnis paaiškina, kaip blokus organizuoti ir užrakinti ir kaip naudoti kūrimo blokų grupes."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik ska
 3.  Pasirinkite kūrimo bloką, tada spustelėkite **Anuliuoti išregistravimą**.
 4.  Norėdami užregistruoti kūrimo bloką, spustelėkite **Taip**.
 
-# <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
 

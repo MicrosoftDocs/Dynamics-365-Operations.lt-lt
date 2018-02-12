@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Faktinis palyginti su biudžeto**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti. 
 
-# <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Apžvalga
 
 „Power BI‟ turinys **Faktinis palyginti su biudžeto** buvo sukurtas asmenims, kurie organizacijoje yra atsakingi už faktinio našumo stebėjimą palyginti su biudžeto. „Power BI‟ turinys **Faktinis palyginti su biudžeto** leidžia matyti biudžeto nuokrypius. Norėdami geriau suprasti nuokrypių priežastį, galite analizuoti einamųjų metų biudžetą pagal sąskaitos kategoriją, biudžeto kodą, pagrindinę sąskaitą, pagrindinės sąskaitos aprašymus arba ataskaitinį laikotarpį. 
 
-# <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinio **Faktinis palyginti su biudžeto** ataskaitos rodomos darbo srityse **Didžiosios knygos biudžetas ir prognozės** ir **CFO**.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekviename „Power BI“ turinio **Faktinis palyginti su biudžeto** ataskaitų puslapyje.
 
 | Ataskaita                      | Metrika |
@@ -50,7 +50,7 @@ Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekvien
 | Grynosios pajamos                  | <ul><li>Grynosios pajamos šiais metais</li><li>Grynųjų pajamų tikslas pagal biudžetą </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
+## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
 | Objektas                    | Turinys |
 |---------------------------|----------|

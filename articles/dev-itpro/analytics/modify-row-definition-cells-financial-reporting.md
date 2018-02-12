@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Eilutės kodo nurodymas eilutės apibrėžime
+## <a name="specify-a-row-code-in-a-row-definition"></a>Eilutės kodo nurodymas eilutės apibrėžime
 
 Eilučių apibrėžimų langelyje **Eilutės kodas** pateikiami skaičiai arba etiketės nurodo kiekvieną eilutės apibrėžimo eilutę. Galima nustatyti, kad eilutės kodas nurodytų skaičiavimų ir bendrųjų sumų duomenis.
 
@@ -506,8 +506,7 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 4.  Pasirinkite norimą naikinti rinkinį ir spustelėkite **Naikinti**. Spustelėkite **Taip**, jeigu norite visam laikui panaikinti dimensijos reikšmių rinkinį.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
---------
+## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
 

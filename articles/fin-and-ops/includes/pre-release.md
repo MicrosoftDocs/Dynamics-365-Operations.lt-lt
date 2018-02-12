@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Ši funkcija yra tikslinio leidimo dalis ir ja gali naudotis tik vartotojai, sutikę dalyvauti nuolatinio automatinio naujinimo galimybių programoje (CAAP). Ši funkcija bus įtraukta į kitą būsimą bendrai prieinamą leidimą. Jei reikia daugiau informacijos apie standartinius ir tikslinius leidimus, žr. [Standartiniai ir tiksliniai platformos leidimai](../get-started/public-preview-releases.md).

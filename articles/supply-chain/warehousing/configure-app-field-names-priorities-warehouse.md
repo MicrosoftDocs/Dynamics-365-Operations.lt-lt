@@ -36,8 +36,7 @@ ms.lasthandoff: 11/03/2017
 
 **Pastaba.** Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Finance and Operations“ – versija „Warehousing“ yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Finance and Operations“ – versijoje „Warehousing“. Išsamios informacijos apie tai, kaip konfigūruoti ryšį su „Finance and Operations“ – versija „Warehousing“ žr. mokymo programoje [„Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
-===================================
+## <a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 
 Naudodami „Finance and Operations“ – versiją „Warehousing“ savo mobiliajame įrenginyje galite konfigūruoti, kaip metaduomenys turėtų būti rodomi puslapyje **Sandėlio programos laukų pavadinimai**. Naujoje „Finance and Operations“ įmonėje pasirinkite **Kurti numatytąją sąranką**, kad sugeneruotumėte visų laukų pavadinimus, kurie bus naudojami sandėlio mobiliųjų įrenginių darbo eigose, ir tada jiems priskirkite pageidaujamą įvesties režimą ir įvesties tipą. Sugeneravę visų laukų pavadinimus, galite pasirinkti toliau nurodytas įvesties parinktis.
 
@@ -70,8 +69,7 @@ Naudodami „Finance and Operations“ – versiją „Warehousing“ savo mobil
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Sandėlio programos laukų prioriteto konfigūravimas
-======================================
+## <a name="configure-warehouse-app-field-priority"></a>Sandėlio programos laukų prioriteto konfigūravimas
 
 Puslapyje **Sandėlio programos laukų prioritetas** laukų pavadinimus galite suskirstyti į skirtingas prioritetų grupes. Tokiu būdu galima pasirinkti, kokia informacija turėtų būti rodomas pagrindiniame užduočių puslapyje, kai sandėlio darbuotojai atlieka užduotis naudodami programą. Jei spustelėsite **Kurti numatytąją sąranką**, bus sugeneruotas numatytasis prioritetų grupių sąrašas. Galima kurti tiek prioritetų grupių, kiek norima, bet užduočių puslapyje bus rodomos tik trys prioritetų grupės. Kai „Finance and Operations“ siunčia metaduomenis į programą, kiekvienam laukui ji priskirs santykinį prioritetą, atsižvelgiant į lauko prioriteto grupę, o programos užduočių puslapyje bus rodomos pirmosios trys prioritetų grupės, esančios metaduomenyse. Kiti perviršio metaduomenys bus rodomi antriniame informacijos puslapyje. Tolesnėje lentelėje pateikiamas penkių prioritetų grupių pavyzdys.
 

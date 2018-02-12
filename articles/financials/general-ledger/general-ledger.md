@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ Pagal paskirstymo taisykles galite paskirstyti pinigines sumas į bent vieną s�
 
 [![Verslo procesas](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>PVM
+## <a name="sales-tax"></a>PVM
 Kiekviena įmonė renka ir moka mokesčius mokesčių inspekcijai. Taisyklės ir tarifai priklauso nuo šalies / regiono, apskrities, rajono ir miesto.
 Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pakeičia savo reikalavimus. PVM kode laikoma pagrindinė informacija apie tai, kiek surenkate ir kiek mokate mokesčių institucijoms. Kai nustatote PVM kodus, nurodote sumas arba procentines reikšmes, nurodančias, kiek turi būti surinkta. Taip pat galite nustatyti įvairius metodus, kuriuos naudojant tos sumos arba procentinės reikšmės taikomos operacijų sumoms. Šio skyriaus temose pateikiama informacijos apie tai, kaip nustatyti metodų ir tarifų, kurių reikalauja jūsų mokesčių inspekcija, PVM kodus.
 
@@ -52,13 +53,13 @@ Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pak
  - [PVM mokėjimo ir apvalinimo taisyklės](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Papildomi ištekliai
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-#### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
+### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
 Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/) svetainę. 
 
-#### <a name="blogs"></a>Tinklaraščiai
+### <a name="blogs"></a>Tinklaraščiai
 
 [„Microsoft Dynamics 365‟ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus.
 
@@ -66,10 +67,10 @@ Daug įrašų apie modulį Didžioji knyga galima rasti [„Microsoft Dynamics A
 
 [„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 
-#### <a name="task-guides"></a>Užduočių vedliai
+### <a name="task-guides"></a>Užduočių vedliai
 Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 
-#### <a name="videos"></a>Vaizdo įrašai
+### <a name="videos"></a>Vaizdo įrašai
 
 Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
