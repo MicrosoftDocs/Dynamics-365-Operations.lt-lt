@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
+ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
+ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
@@ -31,6 +31,9 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+
+> [!NOTE]
+> Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
 
 Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ – versiją „Warehousing“.
 
@@ -43,32 +46,29 @@ Programą galima naudoti operacinėse sistemose „Android“ ir „Windows“. 
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | „Android“                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | „Windows 10“ (visos versijos)                                                                                                                                                   |
-| „Finance and Operations” | „Microsoft Finance and Operations” 1611 versija <br>Arba <br>„Microsoft Dynamics AX“ 7.0 / 7.0.1 versijos ir „Microsoft Dynamics AX“ platformos 2 naujinimas su karštosiomis pataisomis KB 3210014 |
+| „Finance and Operations” | „Microsoft Dynamics 365 for Operations“ versija 1611 <br>Arba <br>„Microsoft Dynamics AX“ 7.0 / 7.0.1 versijos ir „Microsoft Dynamics AX“ platformos 2 naujinimas su karštosiomis pataisomis KB 3210014 |
 
 ## <a name="get-the-app"></a>Gaukite programą
--   „Windows“ (UWP): [„Finance and Operations“ – versija „Warehousing“ „Windows“ parduotuvėje](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   „Android“:
+-   Windows (UWP)
+     - [„Finance and Operations – Warehousing“ parduotuvėje „Microsoft Store“](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   „Android“
     - [„Finance and Operations“ – versija „Warehousing“ „Google Play“ parduotuvėje](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
     - [„Finance and Operations“ – versija „Warehousing“ „Zebra“ programų galerijoje](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>Žiniatinklio tarnybos programos kūrimas „Active Directory“
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 Norėdami įjungti programos sąveiką su konkrečiu „Finance and Operations“ serveriu, žiniatinklio tarnybos programą turite užregistruoti „Finance and Operations“ nuomotojo „Azure Active Directory“. Saugumo sumetimais rekomenduojame sukurti kiekvieno naudojamo įrenginio žiniatinklio tarnybos programą. Norėdami žiniatinklio tarnybos programą kurti „Azure Active Directory“ („Azure AD“), atlikite tolesnius veiksmus.
 
-1.  Žiniatinklio naršyklėje atidarykite puslapį adresu <https://manage.windowsazure.com>.
+1.  Žiniatinklio naršyklėje eikite į <https://portal.azure.com>.
 2.  Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, pavadinimą ir slaptažodį.
-3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-example](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  Tinklelyje pasirinkite „Active Directory“ egzempliorių, kurį naudoja „Finance and Operations“.
-5.  Viršutinėje įrankių juostoje spustelėkite **Programos**. [![wh-02-active-directory-applications](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  Apatinėje srityje spustelėkite **Įtraukti**. Paleidžiamas vedlys **Įtraukti programą**.
-7.  Įveskite programos pavadinimą ir pasirinkite **Žiniatinklio programa ir (arba) žiniatinklio API**. [![wh-03-active-directory-add-application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  Įveskite prisijungimo URL, kuris yra žiniatinklio programos URL. Šis URL yra toks pats kaip ir diegimo URL, tačiau pabaigoje pridedamas „oauth“. Įveskite programos ID URI; ši reikšmė yra privaloma, tačiau autentifikavimui nėra būtina. Įsitikinkite, ar šis programos ID URI yra netikras URI kaip https://contosooperations/wmapp, nes naudojant jūsų diegimo URL gali kilti prisijungimo prie kitų AAD programų, pvz., „Excel“ papildinio, problemų. [![WH-04-AD-add-properties3](./media/WH-04-AD-add-properties3.png)](./media/WH-04-AD-add-properties3.png)
-9.  Eikite į skirtuką **Konfigūravimas**. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. Slinkite žemyn, kol pamatysite dalį **Prieigos prie kitų programų teisės**. Spustelėkite **Įtraukti programą**. [![wh-06-ad-app-add-permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. Sąraše pasirinkite **Microsoft Dynamics ERP**. Viršutiniame dešiniajame puslapio kampe spustelėkite mygtuką **Baigti tikrinimą**. [![wh-07-ad-select-permissions](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. Sąraše **Perduoti teises** pažymėkite visus žymės langelius. Spustelėkite **Įrašyti**. [![wh-08-ad-delegate-permissions](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
-13. Pasižymėkite toliau nurodytą informaciją.
-    -   **Kliento ID** – slinkdami puslapiu aukštyn pamatysite rodomą **Kliento ID**.
-    -   **Raktas** – dalyje **Raktai** sukurkite raktą, pasirinkdami trukmę, ir nukopijuokite raktą. Šis raktas bus vėliau nurodytas kaip **Kliento paslaptis**.
+3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **„Azure Active Directory“**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+4.  Įsitikinkite, kad „Active Directory“ egzempliorių naudoja „Finance and Operations“.
+5.  Sąraše spustelėkite **Programų registracijos**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+6.  Viršutinėje srityje spustelėkite **Naujos programos registracija**. Paleidžiamas vedlys **Įtraukti programą**.
+7.  Įveskite programos pavadinimą ir pasirinkite **Žiniatinklio programa / žiniatinklio API**. Įveskite prisijungimo URL, kuris yra žiniatinklio programos URL. Šis URL yra toks pats kaip ir diegimo URL, tačiau pabaigoje pridedamas „oauth“. Spustelėkite **Kurti**. [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+8.  Sąraše pasirinkite naująją programą. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+9.  Įsiminkite **programos ID**, jo jums reikės vėliau. **Programos ID** vėliau bus vadinamas **kliento ID**.
+10. **Srityje Parametrai** spustelėkite **Raktai**. Sukurkite raktą skyriuje **Slaptažodžiai** įvesdami rakto aprašą ir trukmę. 
+11. Spustelėkite **Įrašyti** ir nukopijuokite raktą. Šis raktas bus vėliau nurodytas kaip **Kliento paslaptis**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Finance and Operations“
 Norėdami leisti „Finance and Operations“ naudoti jūsų „Azure AD“ programą, atlikite toliau nurodytus konfigūravimo veiksmus.
@@ -90,8 +90,8 @@ Turite sukonfigūruoti programą įrenginyje, kad prie „Finance and Operations
 1.  Programoje atidarykite **Ryšio parametrai**.
 2.  Išvalykite lauką **Demonstracinis režimas**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Įveskite šią informaciją: 
-    + – **„Azure Active Directory“ kliento ID** – kliento ID, gaunamas atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 13 veiksmą. 
-    + **„Azure Active Directory“ kliento paslaptis** – kliento paslaptis gaunama atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 13 veiksmą. 
+    + – **„Azure Active Directory“ kliento ID** – kliento ID, gaunamas atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 9 veiksmą. 
+    + **„Azure Active Directory“ kliento paslaptis** – kliento paslaptis gaunama atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 11 veiksmą. 
     + **„Azure Active Directory“ išteklius** – „Azure AD“ išteklius nurodo „Finance and Operations“ šakninį URL. **Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
     + **„Azure Active Directory“ nuomotojas** – „Azure AD“ nuomotojas, naudojamas su „Finance and Operations“ serveriu: https://login.windows.net/your-AD-tenant-ID. Pvz.: https://login.windows.net/contosooperations.onmicrosoft.com.
     <br>**Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
@@ -102,15 +102,11 @@ Turite sukonfigūruoti programą įrenginyje, kad prie „Finance and Operations
 Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrenginio prieigą prie „Finance and Operations“. Tolesni veiksmai aprašo rekomenduojamą prieigos šalinimo procesą.
 
 1.  Programoje „Finance and Operations“ eikite į **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
-2.  Panaikinkite eilutę, atitinkančią įrenginį, kurio prieigą norite šalinti. Pasižymėkite pašalintame įrenginyje naudojamą **Kliento ID**.
-3.  Prisijunkite įprasto „Azure“ portalo adreso <https://manage.windowsazure.com>.
-4.  Kairiajame meniu spustelėkite piktogramą **Active Directory** ir tada spustelėkite norimą katalogą.
-5.  Viršutiniame meniu spustelėkite **Programos** ir tada spustelėkite programą, kurią norite konfigūruoti. Pasirodys puslapis **Greitas pasirengimas darbui**, kuriame pateikta bendrosios autentifikacijos ir kita konfigūravimo informacija.
-6.  Spustelėkite skirtuką **Konfigūruoti**, slinkite žemyn ir įsitikinkite, kad programos **Kliento ID** yra toks pat, koks nurodytas šio skyriaus 2 veiksme.
-7.  Komandų juostoje spustelėkite mygtuką **Naikinti**.
+2.  Panaikinkite eilutę, atitinkančią įrenginį, kurio prieigą norite šalinti. Įsiminkite su pašalintu įrenginiu naudotą **kliento ID**, jo jums reikės vėliau.
+3.  Prisijunkite prie „Azure“ portalo adresu <https://portal.azure.com>.
+4.  Kairiajame meniu spustelėkite piktogramą **„Active Directory“** ir įsitikinkite, kad esate teisingame kataloge.
+5.  Sąraše spustelėkite **Programų registracijos**, tada spustelėkite programą, kurią norite konfigūruoti. Pasirodys sritis **Parametrai** su konfigūravimo informacija.
+6.  Įsitikinkite, kad programos **kliento ID** yra toks pats, kaip šio skyriaus 2 veiksme.
+7.  Viršutinėje srityje spustelėkite mygtuką **Naikinti**.
 8.  Patvirtinimo pranešime spustelėkite **Taip**.
-
-
-
-
 

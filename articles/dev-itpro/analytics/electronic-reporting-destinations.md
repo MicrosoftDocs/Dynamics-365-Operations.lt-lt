@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Sukūrę nuorodą, galite sukurti failo paskirties vietą kiekvienam aplankui ar
 
 [![Failo paskirties vietos kūrimas](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Pastaba.** Kiekvienam to paties formato išvesties komponentui galite sukurti vieną failų paskirties vietą, pvz., aplanką ar failą, pasirenkamą lauke **Failo vardas**. Tada galite įjungti ir išjungti atskiras failų paskirties vietas dialogo lange **Paskirties vietų parametrai**. Mygtukas **Parametrai** yra naudojamas siekiant valdyti visas pasirinktos failo paskirties vietos paskirties vietas. Dialogo lange **Paskirties vietos parametrai** galite atskirai valdyti kiekvieną paskirties vietą, nustatydami jos parinktį **Įgalinta**.
+> ![PASTABA] Kiekvienam to paties formato išvesties komponentui galite sukurti vieną failų paskirties vietą, pvz., aplanką ar failą, pasirenkamą lauke **Failo pavadinimas**. Tada galite įjungti ir išjungti atskiras failų paskirties vietas dialogo lange **Paskirties vietų parametrai**. Mygtukas **Parametrai** yra naudojamas siekiant valdyti visas pasirinktos failo paskirties vietos paskirties vietas. Dialogo lange **Paskirties vietos parametrai** galite atskirai valdyti kiekvieną paskirties vietą, nustatydami jos parinktį **Įgalinta**.
 
 [![Dialogo langas Paskirties vietos parametrai](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -131,7 +131,7 @@ Naudojamos dviejų tipų ER paskirties vietoms skirtos teisės ir pareigos. Vien
 | PaymAccountsPayablePaymentsClerk    | Mokėtinų sumų mokėjimo klerkas            | ERFormatDestinationRuntimeConfigure | Konfigūruoti elektroninių ataskaitų formato paskirties vietą vykdymo aplinkoje |
 | PaymAccountsReceivablePaymentsClerk | Gautinų sumų mokėjimo klerkas         | ERFormatDestinationRuntimeConfigure | Konfigūruoti elektroninių ataskaitų formato paskirties vietą vykdymo aplinkoje |
 
-**Pastaba.** Anksčiau nurodytoms pareigoms taikomos dvi teisės. Šių teisių pavadinimai yra tokie patys, kaip atitinkamų pareigų pavadinimai: **ERFormatDestinationConfigure** ir **ERFormatDestinationRuntimeConfigure**.
+> ![PASTABA] Anksčiau nurodytoms pareigoms taikomos dvi teisės. Šių teisių pavadinimai yra tokie patys, kaip atitinkamų pareigų pavadinimai: **ERFormatDestinationConfigure** ir **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Importavau elektronines konfigūracijas ir matau jas puslapyje Elektroninių ataskaitų konfigūracijos. Tačiau kodėl aš jų nematau puslapyje Elektroninių ataskaitų paskirties vietos?
@@ -154,7 +154,7 @@ Formulė yra būdinga ER konfigūracijai. Pavyzdžiui, jei naudojate ISO 20022 k
 
 Jūsų norimas formatas turi būti įjungtas ER konfigūracijose. Jei turite savo formatą, atidarykite puslapį **Elektroninių ataskaitų paskirties vietos** ir sukurkite naują nuorodą į šią konfigūraciją. Kiekvienam iš keturių išvesties komponentų turi būti nurodyta po vieną failo paskirties vietą. Sukurkite pirmąją failo paskirties vietą, suteikite jai pavadinimą, pvz., **Aplankas**, ir pasirinkite failo vardą, kuris jūsų konfigūracijoje nurodo aplanką. Tada spustelėkite **Parametrai** ir įsitikinkite, kad visos paskirties vietos yra išaktyvintos. Šio failo paskirties vietos aplankas nebus sukurtas. Pagal numatytuosius parametrus dėl hierarchinės failų ir pirminių aplankų priklausomybės su visais failais bus atliekamas tas pats veiksmas. Kitaip tariant, jie niekur nebus siunčiami. Norėdami perrašyti numatytuosius parametrus, turite sukurti tris papildomas failų paskirties vietas, t. y. po vieną kiekvienam failui. Kiekvieno failo paskirties vietos parametruose turite suaktyvinti paskirties vietą, į kurią failas turėtų būti siunčiamas.
 
-# <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 

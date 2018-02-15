@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -74,6 +75,11 @@ Dokumentų svetainėje „Finance and Operations“, „Retail“ ir „Talent�
 
 ### <a name="follow-a-topic"></a>Sekite temą
 Norėdami stebėti temą, spustelėkite mygtuką +Stebėti, esantį po komentarų lauku. Norint pradėti stebėti temą, reikės prisijungti. Daugiau informacijos ieškokite skiltyje [Palikite komentarą](#leave-us-a-comment).  
+
+### <a name="use-an-rss-feed"></a>RSS informacijos santraukos naudojimas
+Norėdami prenumeruoti visų „Unified Operations“ turinio naujinimų RSS informacijos santrauką, jas palaikančioje naršyklėje, pvz., „Internet Explorer“, arba RSS informacijos santraukų tvarkytuve naudokite tolesnį saitą. 
+
+[RSS informacijos santrauka](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Pateikite atsiliepimų 
 Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų turinio pakeitimų galite naudodamiesi „GitHub“.

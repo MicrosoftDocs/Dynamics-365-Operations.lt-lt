@@ -1,6 +1,6 @@
 ---
 title: "DK žurnalo tipai"
-description: "Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį Žurnalo pavadinimai norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“."
+description: "Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c05b199104af2c367266e3cd15937425e6457397
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ccd1b9056f8c18de1b2ef706f70f53bac6cc43a1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -30,23 +31,23 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį Žurnalo pavadinimai norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“.
+Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“.
 
-| Žurnalo tipas                      | Paskirtis                                                                                                                                                                                                                                                                                                                                                     | Operacijų įvedimas šiame puslapyje                                |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Paskirstymas                        | Kurkite paskirstymo operacijas paskirstymo žurnale. Kurti paskirstymo žurnalą galėsite tik sukūrę paskirstymo taisyklę puslapyje **Didžiosios knygos paskirstymo taisyklė**.                                                                                                                                                                           | Apdoroti paskirstymo užklausą                                     |
-| Patvirtinimas                          | Registruoti į tinkamas DK sąskaitas patvirtintas tiekėjo SF.                                                                                                                                                                                                                                                                            | SF patvirtinimo žurnalas                                       |
-| Banko čekio atšaukimas               | Anuliuoti registruotą čekį. Norėdami naudoti šį žurnalo tipą, puslapyje **Grynųjų pinigų ir banko valdymo parametrai** pasirinkite parinktį **Naudoti mokėjimų atšaukimų peržiūros procesą**.                                                                                                                                                                                       | Čekių atšaukimai, mokėjimo atšaukimas                              |
-| Banko depozito kvito atšaukimas    | Atšaukti mokėjimo kvitą. Norėdami naudoti šį žurnalo tipą, puslapyje **Grynųjų pinigų ir banko valdymo parametrai** pasirinkite parinktį **Naudoti mokėjimų mokėjimo kvitais atšaukimų peržiūros procesą**.                                                                                                                                                                       | Depozito kvito mokėjimų atšaukimai                             |
+| Žurnalo tipas                      | Paskirtis                       | Operacijų įvedimas šiame puslapyje                                |
+|-----------------------------------|-------------------------------|----------------------------------------------------------------|
+| Paskirstymas                        | Kurkite paskirstymo operacijas paskirstymo žurnale. Kurti paskirstymo žurnalą galėsite tik sukūrę paskirstymo taisyklę puslapyje **Didžiosios knygos paskirstymo taisyklė**.      | Apdoroti paskirstymo užklausą             |
+| Patvirtinimas                          | Registruoti į tinkamas DK sąskaitas patvirtintas tiekėjo SF.  | SF patvirtinimo žurnalas                                       |
+| Banko čekio atšaukimas               | Anuliuoti registruotą čekį. Norėdami naudoti šį žurnalo tipą, puslapyje **Grynųjų pinigų ir banko valdymo parametrai** pasirinkite parinktį **Naudoti mokėjimų atšaukimų peržiūros procesą**.   | Čekių atšaukimai, mokėjimo atšaukimas                   |
+| Banko depozito kvito atšaukimas    | Atšaukti mokėjimo kvitą. Norėdami naudoti šį žurnalo tipą, puslapyje **Grynųjų pinigų ir banko valdymo parametrai** pasirinkite parinktį **Naudoti mokėjimų mokėjimo kvitais atšaukimų peržiūros procesą**.   | Depozito kvito mokėjimų atšaukimai            |
 | Biudžetas                            | Apdoroti biudžeto asignavimus. Norėdami naudoti šį žurnalo tipą, puslapyje **Didžiosios knygos parametrai** pasirinkite parinktį **Įgalinti biudžeto asignavimą**. Biudžeto žurnalo įrašuose bus pateikta informacija, pagrįsta DK sąskaitomis, nurodytomis puslapyje **Registravimo aprašas**.                                                        |                                                                |
-| Klientas priėmė įsakomąjį vekselį  | Kurkite kliento priėmimo operacijas įsakomiesiems vekseliams.                                                                                                                                                                                                                                                                                              | Išduotų įsakomųjų vekselių žurnalas, pakartotinai išduotų įsakomųjų vekselių žurnalas. |
-| Kliento banko pavedimas          | Kurkite įsakomojo vekselio pavedimo failą, kurį bus galima siųsti į jūsų organizacijos banką. Norėdami naudoti šį žurnalo tipą, puslapyje **Sąskaitų** **gautinų sumų parametrai** išvalykite parinktį **Automatinis sudengimas**.                                                                                                                                             | Pavedimas                                                     |
-| Kliento išduotas įsakomasis vekselis    | Kurkite kliento išduoto įsakomojo vekselio operacijas. Norėdami naudoti šį žurnalo tipą, puslapyje **Mokėjimo metodai – klientai** išvalykite parinktį **Kurti ir registruoti išdavimų žurnalą automatiškai registruojant sąskaitas faktūras**.                                                                                                                                         | Išduoti įsakomųjų vekselių žurnalą                                  |
-| Kliento mokėjimas                  | Kurkite kliento mokėjimo operacijas.                                                                                                                                                                                                                                                                                                                       | Mokėjimų žurnalas                                                |
-| Kliento užprotestuotas įsakomasis vekselis | Kurkite kliento užprotestuoto įsakomojo vekselio operacijas.                                                                                                                                                                                                                                                                                                      | Užprotestuoti įsakomųjų vekselių žurnalą                               |
-| Kliento perrašytas įsakomasis vekselis  | Kurkite kliento perrašyto įsakomojo vekselio operacijas.                                                                                                                                                                                                                                                                                                       | Iš naujo išrašyti įsakomųjų vekselių žurnalą                                |
-| Kliento sudengtas įsakomasis vekselis  | Kurkite kliento sudengto įsakomojo vekselio operacijas.                                                                                                                                                                                                                                                                                                       | Sudengti įsakomųjų vekselių žurnalą                                |
-| Kasdien                             | Kurkite pagrindinį žurnalą kasdienėms operacijoms.                                                                                                                                                                                                                                                                                                             | Pagrindinis žurnalas                                                |
+| Klientas priėmė įsakomąjį vekselį  | Kurkite kliento priėmimo operacijas įsakomiesiems vekseliams.             | Išduotų įsakomųjų vekselių žurnalas, pakartotinai išduotų įsakomųjų vekselių žurnalas. |
+| Kliento banko pavedimas          | Kurkite įsakomojo vekselio pavedimo failą, kurį bus galima siųsti į jūsų organizacijos banką. Norėdami naudoti šį žurnalo tipą, puslapyje **Sąskaitų** **gautinų sumų parametrai** išvalykite parinktį **Automatinis sudengimas**.            | Pavedimas                                                     |
+| Kliento išduotas įsakomasis vekselis    | Kurkite kliento išduoto įsakomojo vekselio operacijas. Norėdami naudoti šį žurnalo tipą, puslapyje **Mokėjimo metodai – klientai** išvalykite parinktį **Kurti ir registruoti išdavimų žurnalą automatiškai registruojant sąskaitas faktūras**.   | Išduoti įsakomųjų vekselių žurnalą                                  |
+| Kliento mokėjimas                  | Kurkite kliento mokėjimo operacijas.                             | Mokėjimų žurnalas             |
+| Kliento užprotestuotas įsakomasis vekselis | Kurkite kliento užprotestuoto įsakomojo vekselio operacijas.                    | Užprotestuoti įsakomųjų vekselių žurnalą                               |
+| Kliento perrašytas įsakomasis vekselis  | Kurkite kliento perrašyto įsakomojo vekselio operacijas.                     | Iš naujo išrašyti įsakomųjų vekselių žurnalą                                |
+| Kliento sudengtas įsakomasis vekselis  | Kurkite kliento sudengto įsakomojo vekselio operacijas.                       | Sudengti įsakomųjų vekselių žurnalą                                |
+| Kasdien                             | Kurkite pagrindinį žurnalą kasdienėms operacijoms.                          | Pagrindinis žurnalas                                                |
 | Pašalinimas                       | Kurkite pašalinimo operacijas pašalinimų žurnale. Norėdami naudoti šį žurnalo tipą, puslapyje **Juridiniai subjektai** pasirinkite parinktis **Naudoti finansinio pašalinimo procese** ir **Naudoti finansinio konsolidavimo procese**. Šį žurnalo tipą galėsite naudoti tik sukūrę didžiosios knygos pašalinimo taisyklę puslapyje **Didžiosios knygos pašalinimo taisyklė**. | Pašalinimas                                                    |
 | Ilgalaikio turto biudžetas                | Kurkite ilgalaikio turto biudžeto registro įrašus.                                                                                                                                                                                                                                                                                                                 | Ilgalaikio turto biudžetas                                             |
 | SF registras                  | Registruokite pagrindinę tiekėjo SF informaciją.                                                                                                                                                                                                                                                                                                           | SF registras                                               |
