@@ -3,7 +3,7 @@ title: "Išlaidų valdymo „Power BI“ turinys"
 description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [Pastaba] Šis turinio paketas nebenaudojamas, kaip nurodyta dalyje [Svetainėje PowerBI.com publikuojami „Power BI“ turinio paketai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. 
-
-# <a name="overview"></a>Peržiūra
 
 **Kaštų apskaitos analizės** „Microsoft Power BI“ turinys skirtas išlaidų buhalteriams arba asmenims organizacijoje, kurie yra atsakingi už atsargas. **Išlaidų valdymo** „Power BI“turinys suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 

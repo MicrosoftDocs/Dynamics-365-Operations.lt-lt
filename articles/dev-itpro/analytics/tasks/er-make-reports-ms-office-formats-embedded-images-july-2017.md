@@ -1,9 +1,9 @@
 --- 
-title: "Ataskaitų kūrimas elektroninėse ataskaitose (ER) „Microsoft Office“ formatais su įdėtaisiais vaizdais (1 dalis)"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“)."
+title: "Konfigūracijų kūrimas, kad elektroninėse ataskaitose būtų galima generuoti ataskaitas „Microsoft Office“ formatais su įdėtaisiais vaizdais (ER) (1 dalis)"
+description: "Šios temos veiksmuose pateikiama informacijos apie tai, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, generuojančias „Microsoft Office“ formatų („Excel“ ir „Word“) elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Ataskaitų kūrimas elektroninėse ataskaitose (ER) „Microsoft Office“ formatais su įdėtaisiais vaizdais (1 dalis) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Konfigūracijų kūrimas, kad elektroninėse ataskaitose būtų galima generuoti ataskaitas „Microsoft Office“ formatais su įdėtaisiais vaizdais (ER) (1 dalis) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
+Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu.“ Šia procedūra paaiškinama, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, norint generuoti „Microsoft Excel“ ar „Word“ dokumentą su įdėtaisiais vaizdais. Atlikdami šią procedūrą, kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Prieš pradėdami, atsisiųskite ir įrašykite failus, išvardytus žinyno temoje [Vaizdų ir figūrų įdėjimas į verslo dokumentus, sugeneruotus naudojant elektroninių ataskaitų įrankį](../electronic-reporting-embed-images-shapes.md). Failai: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png ir Cheque template Word.docx.
 
-Šiame pavyzdyje naudosite sukurtas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas.  Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje „ER padaryti ataskaitas „MS Office“ formatais su įdėtaisiais vaizdais (2 dalis: peržiūrėti konfigūracijas)“. Šiuos veiksmus galima atlikti USMF įmonėje.
+## <a name="verify-prerequisites"></a>Būtinų sąlygų tikrinimas  
+ 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.  
+ 2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijų teikėjo, atlikite procedūros „Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus.   
+ 3. Spustelėkite Ataskaitų konfigūracijos.  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Įtraukti naują ER modelio konfigūraciją  
+ 1. Užuot kūrę naują modelį, galite įkelti ankščiau įrašytą ER modelio konfigūracijos failą (Model for cheques.xml). Šiame faile yra mokėjimo čekių duomenų modelio pavyzdys ir duomenų modelio susiejimas su programos „Dynamics 365 for Operations“ duomenų komponentais.   
+ 2. Versijų FastTab spustelėkite Keitimas.   
+ 3. Spustelėkite Įkelti iš XML failo.  
+ 4. Spustelėkite Naršyti ir pasirinkite Model for cheques.xml.   
+ 5. Spustelėkite GERAI.  
+ 6. Įkeltas modelis bus naudojamas kaip duomenų informacijos šaltinis kuriant „Excel“ ir „Word“ dokumentus, kuriuose yra vaizdų.  
 
+## <a name="add-a-new-er-format-configuration"></a>Įtraukite naują ER formato konfigūraciją  
+ 1. Užuot kūrę naują formatą, galite įkelti ankščiau įrašytą ER formato konfigūracijos failą (Cheques printing format.xml). Šiame faile yra formato maketo pavyzdys, kai čekiai spausdinami naudojant iš anksto išspausdintą formą, ir šio formato susiejimas su duomenų modeliu „Model for cheques“.   
+ 2. Spustelėkite Keitimas.  
+ 3. Spustelėkite Įkelti iš XML failo.  
+ 4. Spustelėkite Naršyti ir pasirinkite failą Cheques printing format.xml.   
+ 5. Spustelėkite GERAI.  
+ 6. Medyje išplėskite „Model for cheques“.  
+ 7. Medyje pasirinkite „Model for cheques\Cheques printing format“.  
+ 8. Įkeltas formatas bus naudojamas kuriant „Excel“ ir „Word“ dokumentus, kuriuose yra vaizdų.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Paleiskite formatą pradiniu modelio susiejimu
-1. Pasirinkite Grynųjų pinigų ir banko valdymas > Banko kodai > Banko kodai.
-2. Naudokite spartųjį filtrą, kad filtruotumėte lauką Banko sąskaita reikšme „USMF OPER‟.
-3. Veiksmų srityje spustelėkite Nustatyti.
-4. Spustelėkite Tikrinti.
-5. Spustelėkite Spausdinti testą.
-    * Paleiskite formatą bandymams.  
-6. Lauke Perduodamo čekio formatas pasirinkite Taip.
-7. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad įmonės logotipas pateikiamas ataskaitoje, taip pat ir įgalioto asmens parašas. Parašo vaizdas paimamas iš čekio išdėstymo įrašo duomenų tipo „Konteineris“ lauko, kuris susietas su pasirinkta banko sąskaita.  
-8. Išplėskite skyrių Kopijos.
-9. Spustelėkite Redaguoti.
-10. Lauke Vandenženklis įveskite „Spausdinti vandenženklį kaip anuliuotą“.
-    * Pakeisti vandenženklio išdėstymo nustatymą, kad būtų rodomas vandenženklio tekstas generuojant dokumentą „Excel“ formos elemente.  
-11. Spustelėkite Spausdinti testą.
-12. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad vandenženklis rodomas sukurtoje ataskaitoje pagal žymėjimo parinktį.  
-13. Uždarykite puslapį.
-14. Veiksmų srityje spustelėkite Valdyti mokėjimus.
-15. Spustelėkite Tikrinimai.
-16. Spustelėkite Rodyti filtrus.
-17. Taikykite šiuos filtrus: įveskite filtro reikšmę „381“, „385“, „389“ lauke „Čekio numeris“, naudodami filtro operatorių „vienas iš“
-18. Sąraše pažymėkite visas eilutes.
-19. Spustelėkite Spausdinti čekio kopiją.
-    * Paleiskite formatą iš naujo spausdinti pasirinktus čekius.  
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad turite iš naujo išspausdinti pasirinktus čekius. Įmonės logotipas ir etiketės nespausdinamos, nes jos pateikiamos iš anksto išspausdintoje formoje.  
+## <a name="configure-er-user-parameters"></a>ER naudotojo parametrų konfigūravimas  
+ 1. Veiksmų srityje spustelėkite Konfigūracijos.  
+ 2. Spustelėkite Vartotojo parametrai.  
+ 3. Lauke Paleisti parametrus pasirinkite Taip.  
+  Įjunkite žymę „Paleisti juodraštį“, kad galėtumėte paleisti pasirinkto formato juodraščio versiją, o ne baigtą versiją.  
+ 4. Spustelėkite GERAI.  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Pakeiskite importuoto duomenų modelio susiejimą
-1. Uždarykite puslapį.
-2. Uždarykite puslapį.
-3. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
-4. Medyje pasirinkite „Model for checks“.
-5. Spustelėkite Konstruktorius.
-6. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
-7. Spustelėkite Konstruktorius.
-    * Mes pakeisime duomenų modelio parašo elemento susiejimą, kad gautume parašo vaizdą iš failo, pridėto prie čekio maketo įrašo, susieto su pasirinkta banko sąskaita.  
-8. Išjunkite Rodyti išsamią informaciją.
-9. Medyje išplėskite „layout“.
-10. Medyje išplėskite „layout\signature“.
-11. Medyje pasirinkite „layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp“.
-12. Medyje išplėskite „chequesaccount“.
-13. Medyje išplėskite „chequesaccount\<Relations“.
-14. Medyje pasirinkite „chequesaccount\<Relations\BankChequeLayout“.
-15. Medyje išplėskite „chequesaccount\<Relations\BankChequeLayout\<Relations“.
-16. Medyje išplėskite „chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents“.
-17. Medyje pasirinkite „chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()“.
-18. Spustelėkite Susieti.
-19. Spustelėkite Įrašyti.
-20. Uždarykite puslapį.
-21. Uždarykite puslapį.
-22. Uždarykite puslapį.
-23. Uždarykite puslapį.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Vykdykite formatą, naudodami pakoreguotą modelio susiejimą
-1. Pasirinkite Grynųjų pinigų ir banko valdymas > Banko kodai > Banko kodai.
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pavyzdžiui, filtruokite lauką Banko sąskaita, naudodami reikšmę „USMF OPER“.
-3. Veiksmų srityje spustelėkite Nustatyti.
-4. Spustelėkite Tikrinti.
-5. Spustelėkite Spausdinti testą.
-6. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad vaizdas iš dokumentų valdymo priedo pateikiamas kaip įgalioto asmens parašas.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Naudokite „MS Word“ dokumentą kaip šabloną importuotame formate
-1. Uždarykite puslapį.
-2. Uždarykite puslapį.
-3. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
-4. Medyje išplėskite „Model for cheques“.
-5. Medyje pasirinkite „Model for cheques\Cheques printing format“.
-6. Spustelėkite Konstruktorius.
-7. Spustelėkite Priedai.
-8. Spustelėkite Naikinti.
-9. Spustelėkite Taip.
-10. Spustelėkite Naujas.
-11. Spustelėkite Failas.
-    * Spustelėkite Naršyti ir pasirinkite atsisiųstą iš anksto „Cheque template Word.docx" failą.  
-12. Uždarykite puslapį.
-13. Lauke Šablonas įveskite arba pasirinkite reikšmę.
-14. Spustelėkite Įrašyti.
-15. Uždarykite puslapį.
-16. Spustelėkite Redaguoti.
-17. Lauke Paleisti juodraštį pasirinkite Taip.
-18. Uždarykite puslapį.
-19. Pasirinkite Grynųjų pinigų ir banko valdymas > Banko kodai > Banko kodai.
-20. Naudokite spartųjį filtrą, kad filtruotumėte lauką Banko sąskaita reikšme „USMF OPER‟.
-21. Spustelėkite Tikrinti.
-22. Spustelėkite Spausdinti testą.
-23. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad išvestis sugeneruota kaip „Microsoft Word“ dokumentas su įdėtaisiais vaizdais, pateikiant įmonės logotipą, įgalioto asmens parašą ir pažymėtą vandenženklio tekstą.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Modulio Grynųjų pinigų ir banko valdymas parametrų konfigūravimas  
+ 1. Pasirinkite Grynųjų pinigų ir banko valdymas > Banko kodai > Banko kodai.  
+ 2. Naudokite spartųjį filtrą, kad filtruotumėte lauką Banko sąskaita reikšme „USMF OPER‟.  
+ 3. Veiksmų srityje spustelėkite Nustatyti.  
+ 4. Spustelėkite Tikrinti.  
+ 5. Išplėskite skyrių Nustatymas.  
+ 6. Spustelėkite Redaguoti.  
+ 7. Lauke Įmonės logotipas pasirinkite Taip.  
+ 8. Spustelėkite Įmonės logotipas.  
+ 9. Spustelėkite Keisti.  
+ 10. Spustelėkite Naršyti ir pasirinkite anksčiau atsisiųstą failą Company logo.png.   
+ 11. Spustelėkite Įrašyti.  
+ 12. Uždarykite puslapį.  
+ 13. Išplėskite skyrių Parašas.  
+ 14. Lauke Spausdinti pirmą parašą pasirinkite Taip.  
+ 15. Spustelėkite Keisti.  
+ 16. Spustelėkite Naršyti ir pasirinkite anksčiau atsisiųstą failą Signature image.png.   
+ 17. Išplėskite skyrių Kopijos.  
+ 18. Lauke Vandenženklis pasirinkite parinktį.  
+ 19. Lauke Bendrasis eksporto elektroniniu būdu formatas pasirinkite Taip.  
+ 20. Pasirinkite konfigūraciją „Cheques printing form“.  
+ 21. Dabar pasirinktas ER formatas naudojamas spausdinant čekius.  
+ 22. Spustelėkite Pridėti.  
+ 23. Spustelėkite Naujas.  
+ 24. Spustelėkite Failas.  
+ 25. Spustelėkite Naršyti ir pasirinkite anksčiau atsisiųstą failą Signature image 2.png.   
+ 26. Uždarykite puslapį.  
+ 27. Uždarykite puslapį.  
+ 28. Uždarykite puslapį.  
+ 29. Pasirinkite Grynųjų pinigų ir banko valdymas > Nustatymas > Grynųjų pinigų ir banko valdymo parametrai.  
+ 30. Lauke Leisti kurti išankstinį pranešimą neaktyviuose banko koduose: pasirinkite Taip.  
+ 31. Spustelėkite Įrašyti.  
+ 32. Uždarykite puslapį.  
 

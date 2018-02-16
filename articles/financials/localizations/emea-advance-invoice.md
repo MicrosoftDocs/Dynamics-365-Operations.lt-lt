@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ec0af71e199075c885fa2f46de6c68397392704
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -44,7 +45,7 @@ Išankstinės SF funkcija suteikia galimybę atlikti tolesnes užduotis.
 Išankstinius mokėjimus gaunančios Lenkijos įmonės turi sukurti išankstinių mokėjimų klientui SF. Ši išankstinė SF užregistruojama DK ir ji yra privalomas dokumentas, naudojamas PVM mokesčių tikslais. Išankstinėje SF apskaičiuotas mokestis turi būti pateiktas mokesčių rinkėjui. Įvykdžius galutinį prekių pardavimą, išankstinė SF turėtų būti nurodyta pardavimo SF. Bendra pardavimo suma turi apimti išankstinius mokėjimus. Užregistravus pardavimo SF, sudengta išankstinė SF bus atšaukta. Pradinė išankstinė SF bus sudengta atšaukiant išankstinę SF.
 
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Išankstinių SF gautinų sumų nustatymas
-Puslapio **Gautinų sumų parametrai** skirtuke **Naujinti** nurodykite tolesnius parametrus.
+Puslapio **Gautinų sumų parametrai** skirtuke **Naujinimai** nurodykite tolesnius parametrus.
 
 |FastTab|Parametras|aprašymas|
 |------|----------|------------|

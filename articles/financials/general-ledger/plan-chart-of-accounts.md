@@ -3,14 +3,14 @@ title: "Savo sąskaitų plano sudarymas"
 description: "Šiame straipsnyje pateikta informacija, kuri padės jums suplanuoti jūsų organizacijos sąskaitų planą."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Toliau pateikiami kai kurie veiksniai, į kuriuos privalote atsižvelgti, kai pl
 -   Jūsų juridinio subjekto ataskaitų kūrimo reikalavimai
 -   Išorinėms organizacijoms ir jūsų organizacijai reikalingas specifikacijų laipsnis
 
-Sukurkite sąskaitų planą puslapyje **Sąskaitų planas**. Pagrindines sąskaitas galima sukurti puslapyje **Sąskaitų planas** arba puslapyje **Pagrindinės sąskaitos**. Pagrindinėse sąskaitose nereikėtų naudoti jokių specialių simbolių, kurie naudojami kaip sąskaitų plano skyrikliai. Jei turite specialų simbolį, kurs yra toks pats, kaip ir jūsų sąskaitų plano skyriklis, gali kilti nestabilumų arba poreikis visada naudoti peržvalgas arba iškeliamąjį objektą, įvedant sąskaitos ir dimensijų kombinacijas. Daugiau informacijos žr. [Kurti pagrindinę sąskaitą](tasks/create-account-structures.md).
+Sukurkite sąskaitų planą puslapyje **Sąskaitų planas**. Pagrindines sąskaitas galima sukurti puslapyje **Sąskaitų planas** arba puslapyje **Pagrindinės sąskaitos**. Pagrindinėse sąskaitose nereikėtų naudoti jokių specialių simbolių, kurie naudojami kaip sąskaitų plano skyrikliai. Jei turite specialų simbolį, kurs yra toks pats, kaip ir jūsų sąskaitų plano skyriklis, gali kilti nestabilumų arba poreikis visada naudoti peržvalgas arba iškeliamąjį objektą, įvedant sąskaitos ir dimensijų kombinacijas. Daugiau informacijos žr. [Kurti pagrindinę sąskaitą](tasks/create-main-account.md).
 
 
 Tikslinga susieti pagrindines sąskaitas su pagrindinių sąskaitų kategorijomis, kad galėtumėte išnaudoti numatytąsias finansines ataskaitas nedarydami jokių modifikacijų. Todėl jūs galite greičiau ir lengviau kurti ir prižiūrėti ataskaitas. 
 
-Naudokite puslapį **Konfigūruoti sąskaitų struktūras**, kad sukurtumėte sąskaitų struktūras. Sąskaitų struktūros apibrėžia galiojančias kombinacijas. Kombinacijos, kartu su pagrindinėmis sąskaitomis, formuoja sąskaitų planą.  Daugiau informacijos žr. [Kurti sąskaitos struktūrą](tasks/create-main-account.md).
+Naudokite puslapį **Konfigūruoti sąskaitų struktūras**, kad sukurtumėte sąskaitų struktūras. Sąskaitų struktūros apibrėžia galiojančias kombinacijas. Kombinacijos, kartu su pagrindinėmis sąskaitomis, formuoja sąskaitų planą.  Daugiau informacijos žr. [Kurti sąskaitos struktūrą](tasks/create-account-structures.md).
 
 **Juridinio subjekto nepaisymai** 
 

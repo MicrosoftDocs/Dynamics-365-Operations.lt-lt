@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,7 +52,7 @@ Parduotuvės lygiu galima naudoti konfigūracijos parametrą norint nustatyti, a
 
 Pagal numatytuosius parametrus užsakymo eilutės, priskirtos parduotuvei, yra pažymėtos kaip **Priimta**. Tai reiškia, kad manoma, jog jos bus įvykdytos iš priskirtos parduotuvės ir daugiau nebebus priskirtos niekam. Tam tikrais atvejais mažmenininkai gali norėti neautomatiškai priimti užsakymus, kol jų dar negalima įvykdyti. Pavyzdžiui, jei parduotuvėje trūksta darbuotojų užsakymams įvykdyti, parduotuvės vadovas priims tik tiek apdorotinų užsakymų, kiek, jo manymu, jų galima tinkamai apdoroti per tam tikrą dieną. Kol užsakymas nepatvirtintas, tarnybinis biuras gali jį iš naujo priskirti kitai parduotuvei. Tokiu būdu užsakymų priėmimas taip pat suteikia galimybę nurodyti, kad užsakymą patvirtino parduotuvė ir jis bus įvykdytas. 
 
-Paėmimo parduotuvėje užsakymo eilutės kaip visada pažymimos kaip **Laukiama** ir jos nėra priimamos.
+Paėmimo parduotuvėje užsakymo eilutės pažymėtos kaip **Laukiama** ir jos nėra priimamos.
 
 Norėdami įjungti neautomatinį užsakymo eilučių priėmimą, pasirinkite **Mažmeninė prekyba** > **Kanalai** > **Mažmeninės prekybos parduotuvės** > **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę ir spustelėkite parduotuvės ID, norėdami peržiūrėti parduotuvės informaciją. Spustelėkite **Redaguoti**. „FastTab“ **Bendra** raskite paantraštę**Užsakymo įvykdymas** ir pakeiskite parametro **Neautomatinis priėmimas** iš parinkties **Ne** į **Taip**. 
 
@@ -114,7 +117,7 @@ Pagal numatytuosius parametrus užsakymų būsena bus **Priimta**. Užsakymo bū
 
 **Pakavimas** – pakavimo parinktis suteikia galimybę atlikti du veiksmus: veiksmu **Spausdinti važtaraštį** bus pasirinktų eilučių išspausdintas važtaraštis, o veiksmu **Pažymėti kaip supakuotas** tarnybiniame biure eilutės bus pažymėtos kaip supakuotos ir eilutes bus pažymėtos kaip pristatytos. Vienu metu galima pakuoti tik užsakymo eilutes, kurios priklauso tam pačiam užsakymui ir kurių pristatymo būdas toks pats. Važtaraščio formatai valdomi kaip kvitų formatų dalis. Daugiau informacijos, kaip nustatyti kvitų formatus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Siųsti** – siuntimo veiksmu pasirinktos eilutės tarnybiniame biure bus pažymėtos kaip **Pristatyta**. Visiškai išsiuntus eilutę, ji nebebus rodoma parduotuvės įvykdymo rodinyje.
+**Siųsti** – siuntimo veiksmu pasirinktos eilutės tarnybiniame biure bus pažymėtos kaip **Pristatyta**. Visiškai išsiuntus eilutę, ji nebebus rodoma užsakymo įvykdymo rodinyje.
 
 **Paėmimas** – paėmimo veiksmu eilutės įtraukiamos į paėmimo operacijos rodinį. Jei yra kitų užsakymo eilučių, kurios šiuo metu nėra paimamos, jos bus įtrauktos į operacijos rodinį nurodant nulinį kiekį. Visiškai paėmus eilutę, ji nebebus rodoma užsakymo įvykdymo rodinyje. 
 

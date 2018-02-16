@@ -3,11 +3,12 @@ title: "Biudžeto planavimo integravimas su kitais moduliais"
 description: "Biudžeto planus galima generuoti iš kelių skirtingų išteklių. Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų išteklių elementai."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų procesų 
 
 Galima naudoti tris bet kurio generavimo proceso veiksmus, nurodytus toliau.
 
--   **Kurti naują biudžeto planą** – sukuriamas naujas planas, kurio atributai pasirenkami sekcijoje **Paskirties** vieta. Šie atributai nebūtinai turi būti unikalūs. Todėl du planai gali turėti tokį patį pavadinimą ir kitas reikšmes.
+-   **Kurti naują biudžeto planą** – sukuriamas naujas planas, kurio atributai pasirenkami sekcijoje **Paskirties vieta**. Šie atributai nebūtinai turi būti unikalūs. Todėl du planai gali turėti tokį patį pavadinimą ir kitas reikšmes.
 -   **Pakeisti esamą biudžeto plano scenarijų** – panaikinami visi pasirinkto biudžeto plano scenarijaus paskirties biudžeto plano duomenys ir sukuriamos naujos eilutės, kuriose naudojami pasirinkto šaltinio duomenys.
 -   **Atnaujinti esamą biudžeto plano scenarijų ir pridėti naujų duomenų** – atnaujinamos esamos paskirties plano eilutes, kurios atitinka šaltinio eilutes, ir sukuriamos naujos eilutės naujiems duomenims įtraukti. Gretinimas yra pagrįstas DK sąskaitos, datos, biudžeto klasės ir įvairių kitų laukų reikšmėmis. Pvz., kai biudžeto planus generuojate pagal prognozės pozicijas, pozicijos numeris yra svarbus laukas. Visos eilutės, kurių pozicijos numeris atitinka šaltinio pozicijos numerį, yra pakeičiamos naujomis eilutėmis iš šaltinio.
 
