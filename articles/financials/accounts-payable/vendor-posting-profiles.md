@@ -54,10 +54,6 @@ Nurodykite DK sąskaitas, kurios naudojamos registruojant operacijas, kurios nau
 Jei norite, kad visų tiekėjo operacijų registravimo profilis būtų tas pats, Sąskaitos kodo lauke nustatykite tik vieną registravimo profilį – Visi. Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reikšmes.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Laukas</th>
