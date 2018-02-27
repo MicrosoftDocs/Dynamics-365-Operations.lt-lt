@@ -19,14 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 34654c458ce74bf2ee6c2d2bac655d6c399ca393
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a><span data-ttu-id="ae93f-104">Elektroninių dokumentų generavimas ir programos duomenų naujinimas naudojant elektroninių ataskaitų įrankį</span><span class="sxs-lookup"><span data-stu-id="ae93f-104">Generate electronic documents and update application data using the Electronic reporting tool</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="ae93f-105">Galite kurti elektroninių ataskaitų (ER) formatus, kuriuos galima naudoti programoje „Finance and Operations” norint generuoti siunčiamus elektroninius dokumentus.</span><span class="sxs-lookup"><span data-stu-id="ae93f-105">You can design Electronic reporting (ER) formats that can be used in the Finance and Operations application to generate outgoing electronic documents.</span></span> <span data-ttu-id="ae93f-106">Taip pat galite kurti ER formatus, kurie analizuoja gaunamus elektroninius dokumentus ir naudoja šių dokumentų turinį programos duomenims atnaujinti.</span><span class="sxs-lookup"><span data-stu-id="ae93f-106">You can also design ER formats that parse incoming electronic documents and use the content in those documents to update application data.</span></span> 
 
