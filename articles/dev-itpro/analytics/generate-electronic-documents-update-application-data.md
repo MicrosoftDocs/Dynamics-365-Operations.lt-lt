@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektroninių dokumentų generavimas ir programos duomenų naujinimas naudojant elektroninių ataskaitų įrankį
 
+[!include[banner](../includes/banner.md)]
+
 Galite kurti elektroninių ataskaitų (ER) formatus, kuriuos galima naudoti programoje „Finance and Operations” norint generuoti siunčiamus elektroninius dokumentus. Taip pat galite kurti ER formatus, kurie analizuoja gaunamus elektroninius dokumentus ir naudoja šių dokumentų turinį programos duomenims atnaujinti. 
 
 Naudojant šią funkciją, vieną ER formatą galima naudoti siunčiamiems elektroniniams dokumentams generuoti ir tada programos duomenims atnaujinti. Šią funkciją galima naudoti esant toliau nurodytiems scenarijams.

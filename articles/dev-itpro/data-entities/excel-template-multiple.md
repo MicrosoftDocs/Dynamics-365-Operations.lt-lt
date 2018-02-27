@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>„Excel“ šablonai su keliais darbalapiais
 
+[!include[banner](../includes/banner.md)]
+
 „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ duomenų valdymas palaiko „Microsoft Excel“ pagrįstus šablonus, skirtus duomenų objektams. Šiuose šablonuose gali būti vienas ar daugiau darbalapių. Šablonai su keliais darbalapiais dažnai naudojami, kai patogu tvarkyti duomenis viename faile ir importuoti juos į kelis duomenų objektus. Pavyzdys: vietos ir sandėliai.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Failo įkėlimas vieną kartą ir susiejimas su visais objektais
