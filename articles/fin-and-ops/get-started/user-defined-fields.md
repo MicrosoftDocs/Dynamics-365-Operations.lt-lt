@@ -62,7 +62,7 @@ Tolesniais veiksmais aprašomas pasirinktinio lauko kūrimo ir įtraukimo į for
 10.   Spustelėkite **Įterpti**, kad pažymėtus laukus įterptumėte į pasirinktą formos sritį. 
 11.   **Pasirenkama.** Personalizavimo įrankių juostoje įjunkite režimą **Perkelti**, kad naujuosius laukus perkeltumėte į norimą pasirinktos srities vietą. Norėdami gauti daugiau informacijos apie tai, kaip, naudojant įvairias personalizavimo galimybes, optimizuoti formą asmeniniam naudojimui, žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Pasirinktinių laukų bendrinimas su kitais vartotojais
+## <a name="sharing-custom-fields-with-other-users"></a>Pasirinktinių laukų bendrinimas su kitais vartotojais
 Sukūrę pasirinktinį lauką ir jį įtraukę į formą, galbūt norėsite šį atnaujintą puslapio rodinį su naujuoju lauku bendrinti su kitais sistemos vartotojais. Tai galima atlikti toliau nurodytais dviem skirtingais būdais, naudojant produkto personalizavimo galimybes.
 
 -   Rekomenduojamas kelias – kreiptis į sistemos administratorių, kuris personalizuotą elementą gali perduoti visiems vartotojams arba vartotojų subrinkiniui. Norėdami gauti daugiau informacijos, žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md). 
