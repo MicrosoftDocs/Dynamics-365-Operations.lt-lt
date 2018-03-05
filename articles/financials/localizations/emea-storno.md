@@ -17,14 +17,16 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: be02501c8a18c9f4a1ad6354372191ae07b0e5b3
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 1cdc57196c93cb30c7d0bfebca2e533ae6bd7d5a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="storno-accounting"></a><span data-ttu-id="e36e6-103">Storno apskaita</span><span class="sxs-lookup"><span data-stu-id="e36e6-103">Storno accounting</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="e36e6-104">Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus.</span><span class="sxs-lookup"><span data-stu-id="e36e6-104">Storno accounting is the practice of using negative numbers to reverse original journal account entries.</span></span>
 
