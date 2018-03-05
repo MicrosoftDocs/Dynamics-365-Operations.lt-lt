@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="storno-accounting"></a>Storno apskaita
 
+[!include[banner](../includes/banner.md)]
+
 Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus.
 
 *Storno apskaita* yra neigiamų debeto arba kredito sumų naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus. Kadangi finansininkai paprastai Storno įrašus rašo raudonu rašalu, šis apskaitos praktika dar vadinama *raudonuoju Storno*. Storno apskaita suteikia galimybę atšaukti dokumentą su neteisingomis sumomis, tačiau po atšaukimo visada reikia įvesti teisingą dokumento sumą.

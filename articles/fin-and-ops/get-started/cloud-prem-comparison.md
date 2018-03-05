@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Debesies ir vietinės versijų funkcijų palyginimas
 
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje parodyta, ar kiekvieną funkciją galima naudoti tolesniuose produktuose.
 
 + „Dynamics 365 for Finance and Operations, Enterprise edition“ (debesies versija)
