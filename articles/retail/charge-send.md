@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Užsakymo siuntimas iš kitos parduotuvės
 
+[!include[banner](includes/banner.md)]
+
 Naudojant mokesčių siuntimo funkciją programoje „Dynamics 365 for Retail“ kliento užsakymus galima pateikti vienoje parduotuvėje, o išsiųsti iš kitos. Elektroninio kasos aparato (EKA) kliente esantys kliento užsakymai palaiko keletą įvykdymo parinkčių. Toliau nurodyta keletas įvykdymo parinkčių pavyzdžių.
 -   Paėmimas iš tos pačios parduotuvės kitą dieną.
 -   Paėmimas iš kitos parduotuvės tą pačią dieną.
