@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Atvirkštinio mokesčio PVM
+
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje aprašomas bendrasis atvirkštinio apmokestinimo pridėtinės vertės mokesčiu (PVM) nustatymo metodas Europos šalyse.
 
 Atvirkštinis apmokestinimas yra mokesčio schema, kuri atsakomybę už apskaitą ir PVM ataskaitas perkelia nuo pardavėjo prekių ir (arba) paslaugų pirkėjui. Todėl savo PVM išraše prekių ir (arba) paslaugų gavėjai praneša ir mokėtiną PVM (atlikdami pardavėjo vaidmenį), ir gautiną PVM (atlikdami pirkėjo vaidmenį).

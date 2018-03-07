@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas
 
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Kredito ir mokėjimų priežiūros valdymas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="overview"></a>Apžvalga
