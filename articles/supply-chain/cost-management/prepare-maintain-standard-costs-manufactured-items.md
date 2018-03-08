@@ -30,6 +30,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Pagamintų prekių standartinių savikainų paruošimas priežiūrai
 
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje aprašomi pasiruošimo tvarkyti pagamintų prekių išlaidas veiksmai. Pagamintų prekių veiksmai šiek tiek skiriasi nuo įsigytų prekių veiksmų.
 
 Strategijos, priskirtos pagamintoms prekėms, gali paveikti pirminių pagamintų prekių išlaidų skaičiavimą. Norėdami pasiruošti tvarkyti pagamintų prekių išlaidas, atlikite tolesnius veiksmus.

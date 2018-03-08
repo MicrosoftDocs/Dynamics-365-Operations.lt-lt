@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Peržiūrėti ir įvertinti klausimyno rezultatus
 
+[!include[banner](includes/banner.md)]
+
 Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus. 
 
 Respondentams užpildžius klausimyną, jo rezultatus peržiūrėti ir įvertinti galite tolesniais būdais.

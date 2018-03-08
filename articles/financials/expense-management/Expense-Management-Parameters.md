@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Išlaidų valdymo parametrai
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Parametrai kontroliuoja bendrąjį išlaidų valdymo veikimo būdą.

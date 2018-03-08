@@ -25,6 +25,9 @@ ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>„Microsoft Dynamics 365 for Talent“ darbo pradžia
+
+[!include[banner](includes/banner.md)]
+
 Programoje „Microsoft Dynamics 365 for Talent“ lengva modifikuoti vartotojo sąsają ir nustatyti parinktis, paverčiančias programinę įrangą intuityvesne jūsų poreikiams. Šioje temoje pateikiami saitai į temas, kuriose pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas. Šioje temoje taip pat pateikiami saitai, nukreipiantys į informaciją, galinčią padėti efektyviai ir tiksliai rasti sistemoje pateikiamą informaciją. 
 
 > [!NOTE] 

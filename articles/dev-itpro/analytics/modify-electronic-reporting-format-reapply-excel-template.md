@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Elektroninių ataskaitų formato modifikavimas iš naujo pritaikant „Microsoft Excel‟ šabloną
+
+[!include[banner](../includes/banner.md)]
+
 Elektroninės ataskaitos (ER) įrankis naudojamas verslo dokumentams elektroniniu formatu generuoti. Norėdami sugeneruoti verslo dokumentą, turite sukurti ER formatą ir, naudodami ER kūrimo priemonę, apibrėžti verslo dokumento maketą bei nurodyti duomenis, kurie turi būti į jį įtraukti. Tada galite paleisti ER formatą ir sugeneruoti verslo dokumentą.
 
 ER įrankį galima naudoti verslo dokumentams kaip „Microsoft Excel“ failams generuoti. Kaip šių dokumentų šabloną galite naudoti „Excel“ dokumentą. Norėdami nurodyti dokumento maketą ER kūrimo priemonėje, kaip šablonas norimo naudoti „Excel“ dokumento turinį galite importuoti į nurodytą ER formatą. Jei norite gauti daugiau informacijos ir išbandyti šį scenarijų, paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis).

@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="vendor-invoice-automation"></a>Tiekėjo sąskaitų faktūrų automatizavimas
 
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje paaiškinamos funkcijos, pasiekiamos iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
 
 Organizacijos, kurios nori supaprastinti savo mokėtinų sumų (AP) procesus, dažnai identifikuoja SF apdorojimą kaip vieną iš svarbiausių proceso sričių, kuri turi būti efektyvesnė. Daugeliu atvejų šios organizacijos popierinių SF apdorojimą perduoda trečiųjų šalių optinio ženklų atpažinimo (OCR) paslaugų teikėjui. Tada jie gauna SF metaduomenis, kuriuos galima perskaityti kompiuteriu, kartu su nuskaitytu kiekvienos SF vaizdu. Siekiant padėti automatizuoti sukuriamas „paskutinės mylios“ sprendimas, kad būtų galima panaudoti šiuos artefaktus SF išrašymo sistemoje. „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimas, dabar standartiškai suteikia šį „paskutinės mylios“ automatizavimą su SF automatizavimo sprendimu.

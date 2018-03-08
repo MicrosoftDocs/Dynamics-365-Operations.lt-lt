@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>MPOS / CPOS demonstracinių duomenų ekrano maketai
 
+[!include[banner](includes/banner.md)]
+
 Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“.
 
 ## <a name="overview"></a>Peržiūra

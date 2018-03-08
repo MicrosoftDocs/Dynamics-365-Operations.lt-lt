@@ -28,6 +28,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="retail-statements"></a>Mažmeninės prekybos išrašai
+
+[!include[banner](includes/banner.md)]
+
 „Microsoft Dynamics 365 for Retail“ išrašo registravimo procesas naudojamas kaip operacijos, vykdomos „Cloud point of sale“ (POS) arba „Modern POS“ (MPOS). Išrašo registravimo procesas naudoja paskirstymo grafiką, kad EKA operacijų rinkinį perkeltų į būstinės (HQ) klientą. Puslapiuose **Mažmeninės prekybos parametrai** ir **Parduotuvės** nurodyti parametrai naudojami norint pasirinkti operacijas, įtraukiamas į atskiras išrašus.  
 
 Išrašų registravimo procesas parodytas toliau pateiktame paveikslėlyje. Šiame procese operacijos, įrašytos EKA, perduodamos į klientą naudojant duomenų apsikeitimo valdymą. Kai klientas gauna operacijas, galite kurti, skaičiuoti ir registruoti parduotuvės operacijos išrašą. 

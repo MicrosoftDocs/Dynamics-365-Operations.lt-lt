@@ -25,6 +25,8 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="accessibility-features"></a>Pritaikymo neįgaliesiems funkcijos
 
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje aprašomos funkcijos, skirtos įvairią negalią turintiems vartotojams padėti naudoti „Dynamics 365 for Finance and Operations, Enterprise edition“, „Dynamics 365 for Retail“ ir „Dynamics 365 for Talent“. Pavyzdžiui, yra funkcijų, skirtų žmonėms su regėjimo negalia, kurie naudoja tokias technologijas kaip „Microsoft Windows“ diktorius.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>„Windows“ diktorius ir prieiga tik klaviatūra

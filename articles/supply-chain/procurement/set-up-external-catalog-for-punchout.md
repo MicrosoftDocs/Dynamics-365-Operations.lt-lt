@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
+[!include[banner](../includes/banner.md)]
+
 Naudodami išorinį katalogą galite užtikrinti, kad produktų ir kainų informacija, kurią vėliau apdorojate „Dynamics 365 for Finance and Operations‟ „Enterprise‟ 2017 m. liepos mėn. leidime, yra tiksli ir naujausia. Paraišką tada galima patvirtinti ir konvertuoti į pirkimo užsakymą, o užsakymą galima perduoti tiekėjui.
 
 Kai išorinis katalogo nustatytas ir darbuotojas rengia paraišką, bus galima pasirinkti ją nukreipti į išorinę svetainę, išorinį katalogą ir grąžinti išorinėje svetainėje sukurtą pirkinių krepšelį. Šis ryšys paremtas cXML protokolu ir jį reikia nustatyti tarp pirkimo ir pardavimo organizacijų sistemų.

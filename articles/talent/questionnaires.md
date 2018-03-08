@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Klausimynai
 
+[!include[banner](includes/banner.md)]
+
 Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
 
 Naudodami įvairias „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition‟ funkcijas, klausimyną galite tinkinti pagal konkrečius reikalavimus. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.

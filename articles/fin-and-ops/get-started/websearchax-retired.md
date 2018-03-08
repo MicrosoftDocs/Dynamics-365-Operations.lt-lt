@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX panaikintas
 
+[!include[banner](../includes/banner.md)]
+
 Teko panaikinti WebSearchAX puslapį. Vietoj to rekomenduojame naudoti mėgstamiausios ieškyklės svetainės iešką.  Pavyzdys: 
 
 site:technet.microsoft.com dynamics ax 2012 „ieškos terminas“

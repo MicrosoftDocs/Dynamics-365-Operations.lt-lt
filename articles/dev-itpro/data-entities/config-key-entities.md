@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Konfigūracijos raktai ir duomenų objektai
+
+[!include[banner](../includes/banner.md)]
+
 Prieš naudojant duomenų objektus duomenims importuoti ar eksportuoti, rekomenduojame pirmiausia nustatyti konfigūracijos raktų poveikį duomenų objektams, kuriuos planuojate naudoti. 
 
 Norėdami daugiau sužinoti apie „Finance and Operations“ konfigūracijos raktus, žr. [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md).
