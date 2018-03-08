@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Medžiagų išimčių matomumas
 
+[!include[banner](../includes/banner.md)]
+
 Darbo srities **Gamybos vietos valdymas** trys plytelės suteikia galimybę geriau matyti gamybos užsakymų ir paketinių užsakymų žaliavų išimtis.
 
 - Neišleistos medžiagų eilutės, į kurias reikia atkreipti dėmesį

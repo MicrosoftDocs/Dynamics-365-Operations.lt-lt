@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Personalo veiksmai [DUK]
+
+[!include[banner](includes/banner.md)]
+
 Šioje temoje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai. Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis. Užduočių, kurias atliekant gali reikėti personalo veiksmų, pavyzdžiai: naujų pareigų kūrimas, esamų pareigų reikšmių modifikavimas, naujų darbuotojų priėmimas, darbuotojų perkėlimas, darbuotojų kompensacijos keitimas, pareigų priskyrimų pakeitimas, darbuotojų atleidimas.
 
 **Pastaba.** Personalo veiksmus galima naudoti, tik jei puslapio **Bendrai naudojami personalo parametrai** skirtuke **Personalo veiksmai** laukai **Įjungti darbininkų veiksmus** ir **Įjungti pareigų veiksmus** nustatyti kaip **Taip**. 

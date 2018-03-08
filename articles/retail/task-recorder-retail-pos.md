@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Užduočių įrašymo priemonė ir EKA žinynas
 
+[!include[banner](includes/banner.md)]
+
 Šioje temoje aprašoma, kaip naudoti užduočių įrašymo priemonę „Retail Modern POS“ ir „Cloud POS“.
 
 <a name="overview"></a>Apžvalga

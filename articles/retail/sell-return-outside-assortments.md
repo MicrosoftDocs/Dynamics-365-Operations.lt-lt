@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Į asortimentą neįtrauktų produktų pardavimas ir grąžinimas
+
+[!include[banner](includes/banner.md)]
+
 Bet kokiam mažmenininkui dažnai pasitaiko situacija, kai reikia klientams parduoti produktus ar iš klientų priimti grąžinamus produktus net jei konkretūs produktai jų parduotuvėje neplatinami (kitaip tariant, produktai nėra įtraukti į parduotuvės asortimentą).
 Toliau nurodomi įprasti scenarijai.
 

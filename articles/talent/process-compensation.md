@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
+
+[!include[banner](includes/banner.md)]
+
 Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą. Šioje temoje apžvelgiamas pastoviosios atlyginimo dalies planų bazinio kompensacijos srauto apdorojimas neatsižvelgiant į darbuotojo našumą.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Naujų kompensacijos sumų ir biudžetų planavimas

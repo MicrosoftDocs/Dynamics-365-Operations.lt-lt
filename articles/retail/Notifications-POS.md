@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Pranešimų rodymas elektroniniame kasos aparate
 
+[!include[banner](includes/banner.md)]
+
 Šiandieninėje modernios mažmeninės prekybos aplinkoje parduotuvės atstovams priskiriamos įvairios užduotys, pvz., pagalba klientams, operacijų įvedimas, inventorizacijos atlikimas ir užsakymų parduotuvėje priėmimas. Elektroninio kasos aparato (EKA) klientas atstovams suteikia galimybę atlikti šias ir kitas užduotis vienoje programoje. Atstovams, turintiems atlikti įvairias dienos užduotis, gali reikėti pranešti, kada kam reikia skirti dėmesio. EKA pranešimų sistema šią problemą išsprendžia suteikdama mažmenininkams galimybę konfigūruoti pranešimus pagal vaidmenį. Įdiegus „Dynamics 365 for Retail“ su 5 programos naujiniu, galima konfigūruoti šiuos EKA operacijų pranešimus.
 
 Šiuo metu sistema suteikia galimybę rodyti užsakymo įvykdymo operacijos pranešimus, tačiau sistema sukurta taip, kad ją būtų galima išplėsti – kad ateityje kūrėjai galėtų rašyti pranešimų apdorojimo programą, skirtą bet kuriai operacijai, ir rodyti pranešimus EKA.  

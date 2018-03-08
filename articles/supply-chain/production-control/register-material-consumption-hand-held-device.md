@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
+
+[!include[banner](../includes/banner.md)]
+
 Šioje temoje aprašoma darbo eiga, kurią naudojant galima kišeniniu įrenginiu registruoti žaliavų sunaudojimą gamybos metu.
 
 <a name="introduction"></a>Įžanga
