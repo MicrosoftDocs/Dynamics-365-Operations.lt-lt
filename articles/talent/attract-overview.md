@@ -18,13 +18,16 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: e84449475ce73b4a6a88ab9975e2572178cf0dab
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="ef089-104">„Attract‟ apžvalga</span><span class="sxs-lookup"><span data-stu-id="ef089-104">Attract overview</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="ef089-105">„Attract“ suteikia galimybių valdyti naujų talentų samdos procesą.</span><span class="sxs-lookup"><span data-stu-id="ef089-105">Attract provides capabilities to manage the process of hiring new talent.</span></span> <span data-ttu-id="ef089-106">Kandidatus galima įtraukti į laisvas darbo vietas ir perkelti iš vieno etapo į kitą, kol pratęsiamas pasiūlymas arba atmetamas prašymas.</span><span class="sxs-lookup"><span data-stu-id="ef089-106">Candidates can be added to open jobs and advanced from stage to stage until an offer is extended or the application is rejected.</span></span> <span data-ttu-id="ef089-107">Kiekviename etape kandidatai atlieka tokias veiklas kaip atrankos skambučiai, įvertinimai ar pokalbių planavimas.</span><span class="sxs-lookup"><span data-stu-id="ef089-107">In each stage, candidates move through activities like screening calls, assessments, or the scheduling of interviews.</span></span> <span data-ttu-id="ef089-108">Pateikę prašymą kandidatai gauna el. laišką, kviečiantį prisijungti prie „Attract“, kur jie gali sekti darbo vietos būseną, savo prašymą ir atsakyti į jiems priskirtas užduotis.</span><span class="sxs-lookup"><span data-stu-id="ef089-108">After they apply, candidates get an email inviting them to sign in to Attract, where they can follow the status of the job, their application, and respond to any tasks that are assigned to them.</span></span>
 
 <span data-ttu-id="ef089-109">„Attract“ pasižymi tolesnėmis funkcijomis.</span><span class="sxs-lookup"><span data-stu-id="ef089-109">Attract provides the following features.</span></span>

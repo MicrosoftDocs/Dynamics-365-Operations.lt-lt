@@ -18,14 +18,17 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: e3f0f79df73cce4a54c7e6abbc38381c708af690
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="ac9c4-104">Personalo veiksmai [DUK]</span><span class="sxs-lookup"><span data-stu-id="ac9c4-104">Personnel actions [FAQ]</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="ac9c4-105">Šioje temoje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai.</span><span class="sxs-lookup"><span data-stu-id="ac9c4-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="ac9c4-106">Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis.</span><span class="sxs-lookup"><span data-stu-id="ac9c4-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="ac9c4-107">Užduočių, kurias atliekant gali reikėti personalo veiksmų, pavyzdžiai: naujų pareigų kūrimas, esamų pareigų reikšmių modifikavimas, naujų darbuotojų priėmimas, darbuotojų perkėlimas, darbuotojų kompensacijos keitimas, pareigų priskyrimų pakeitimas, darbuotojų atleidimas.</span><span class="sxs-lookup"><span data-stu-id="ac9c4-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
 <span data-ttu-id="ac9c4-108">**Pastaba.** Personalo veiksmus galima naudoti, tik jei puslapio **Bendrai naudojami personalo parametrai** skirtuke **Personalo veiksmai** laukai **Įjungti darbininkų veiksmus** ir **Įjungti pareigų veiksmus** nustatyti kaip **Taip**.</span><span class="sxs-lookup"><span data-stu-id="ac9c4-108">**Note:** Personnel actions are available only if the **Enable worker actions** and **Enable position actions** fields have been set to **Yes**, in the **Personnel actions** tab on the **Human resources shared parameters** page.</span></span> 

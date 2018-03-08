@@ -19,14 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: a892b53b555c29b1fc3928bb24eff98128d648f3
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="questionnaires"></a><span data-ttu-id="edfd3-105">Klausimynai</span><span class="sxs-lookup"><span data-stu-id="edfd3-105">Questionnaires</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="edfd3-106">Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją.</span><span class="sxs-lookup"><span data-stu-id="edfd3-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="edfd3-107">Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai.</span><span class="sxs-lookup"><span data-stu-id="edfd3-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="edfd3-108">Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus.</span><span class="sxs-lookup"><span data-stu-id="edfd3-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 
