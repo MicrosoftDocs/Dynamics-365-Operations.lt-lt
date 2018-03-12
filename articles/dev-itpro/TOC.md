@@ -9,7 +9,7 @@
 ## [Programų dėklo ir serverio architektūra](dev-tools/application-stack-server-architecture.md)
 ## [Įvertinimo kopijos gavimas](dev-tools/get-evaluation-copy.md)
 ## [Registravimasis prenumeratai gauti](dev-tools/sign-up-preview-subscription.md)
-## [„Access“ egzemplioriai](dev-tools/access-instances.md)
+## [Visuotinis kūrimo aplinkos diegimas ir naudojimas](dev-tools/access-instances.md)
 ## [Kūrimo sistemos reikalavimai](dev-tools/development-system-requirements.md)
 ## Transporto parko valdymo programos pavyzdys
 ### [Transporto parko valdymo programos pavyzdys](dev-tools/fleet-management-sample.md)
@@ -360,9 +360,9 @@
 #### [ValueMetadata tipas](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Duomenų integravimas
-## [Integravimo šablonai](data-entities/integration-overview.md)
+## [Duomenų integravimo (importo / eksporto) strategijos pasirinkimas](data-entities/integration-overview.md)
 
-## Duomenų integravimo API
+## Duomenų integravimo API sąsajos
 ### [Duomenų valdymo paketo API](data-entities/data-management-api.md)
 ### [Tarnybų galiniai punktai](data-entities/services-home-page.md)
 #### [Tarnybų autentifikavimo trikčių diagnostika](data-entities/troubleshoot-service-authentication.md)
@@ -381,12 +381,12 @@
 
 ### [Duomenų integravimas naudojant „Common Data Service“](data-entities/data-integration-cds.md) 
 #### [Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Sinchronizuoti „Finance and Operations“ produktus su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Sinchronizuoti „Sales“ sąskaitas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Sinchronizuoti Pardavimo kontaktus su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Sinchronizuoti „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Sinchronizuoti „Finance and Operations“ pardavimo užsakymo antraštes ir eilutes su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [„Finance and Operations“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Sinchronizuoti „Finance and Operations“ produktus su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Sinchronizuoti „Sales“ sąskaitas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Sinchronizuoti Pardavimo kontaktus su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Sinchronizuoti „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Sinchronizuoti „Finance and Operations“ pardavimo užsakymo antraštes ir eilutes su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [„Finance and Operations“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,8 +452,10 @@
 
 ## [Savo duomenų bazės naudojimas](analytics/export-entities-to-your-own-database.md)
 
+## [Atsakymo į BDAR duomenų užklausą ištekliai](gdpr/gdpr-home-page.md)
+
 # [Pagrindinis modulio Nuolatinis pristatymas puslapis](dev-tools/continuous-delivery-home-page.md)
-## [Kūrimo ir nuolatinio pristatymo DUK](dev-tools/continuous-delivery-faq.md)
+## [DUK apie kūrimą ir nuolatinį pristatymą](dev-tools/continuous-delivery-faq.md)
 ## [Testinių paketų neįtraukimas į komponavimo versijos išvestį](dev-tools/exclude-test-packages.md)
 ## [Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį](dev-tools/manage-runtime-packages.md)
 ## [Versijų modeliai automatizuotoje komponavimo versijoje](dev-tools/version-models-build.md)
@@ -515,6 +517,7 @@
 ### [Vietinio projekto kūrimas](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Vietinių aplinkų nustatymas ir visuotinis diegimas](deployment/setup-deploy-on-premises-environments.md)
 ### [Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose](deployment/develop-deploy-custom-models-on-premises.md)
+### [Atvirkštinio tarpinio serverio konfigūravimas savo vietinei aplinkai](deployment/onprem-reverseproxy.md)
 ### [Vietinės visuotinės įdiegties naujinimų taikymas](deployment/apply-updates-on-premises.md)
 ### [Kartotinis visuotinis vietinės visuotinės įdiegties diegimas](deployment/redeploy-on-prem.md)
 ### [Vietos agento atnaujinimas](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Visuotinai diegiamo paketo diegimas](deployment/install-deployable-package.md)
 ### [Paketo programos trikčių diagnostika](deployment/deployable-package-troubleshooting.md)
 
-# [Plėtojimas ir perėjimas](migration-upgrade/upgrade-home-page.md)
+# [Plėtotės, naujinimai ir karštosios pataisos](migration-upgrade/upgrade-home-page.md)
 ## [Versijos naujinimas iš AX 2012 į „Dynamics 365 for Finance and Operations”](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 versijos naujinimas – plėtojimo analizavimo įrankio naudojimas planuojant](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 versijos naujinimas – kodo plėtojimo tarnybos naudojimas pastangoms numatyti](migration-upgrade/analyze-code-upgrade.md)
@@ -555,22 +558,25 @@
 ### [Išskaidyti modeliai](dev-tools/model-split.md)
 ### [Priklausomybių tarp modelių sprendimas naudojant perėmėjus](migration-upgrade/delegates-migration.md)
 
-
-## Plėtojimas į naujausią naujinimą
+## Plėtojimas į naujausią naujinimą (debesis)
 ### [Perėjimo į naujausią naujinimą procesas](migration-upgrade/upgrade-latest-update.md)
 ### [Naudojimo ciklo strategija](migration-upgrade/versions-update-policy.md)
 ### [Naujausio aplinkos platformos naujinimo taikymas](migration-upgrade/upgrade-latest-platform-update.md)
 ### [„Dynamics‟ platformos plėtojimas į 2016 m. rugpjūčio mėn. versiją](migration-upgrade/update-platform-each-release.md)
 ### [Smėlio dėžės aplinkos plėtojimas](migration-upgrade/upgrade-sandbox-environment.md)
-### [Duomenų plėtojimas programavimo arba demonstracinėje aplinkose](migration-upgrade/upgrade-data-to-latest-update.md)
+### [Duomenų plėtojimas programavimo arba demonstracinėse aplinkose](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Kūrimo įrankių naujinimas](dev-tools/update-development-tools.md)
+
+## Plėtojimas į naujausią naujinimą (vietinė)
 ### [Vietinės visuotinės įdiegties naujinimų taikymas](deployment/apply-updates-on-premises.md)
 ### [Kartotinis visuotinis vietinės visuotinės įdiegties diegimas](deployment/redeploy-on-prem.md)
 
-## Karštosios pataisos ir aptarnavimas
+## Karštosios pataisos
 ### [Karštųjų pataisų atsisiuntimas iš „Lifecycle Services“](migration-upgrade/download-hotfix-lcs.md)
+### [Debesies aplinkos naujinimų taikymas](deployment/apply-deployable-package-system.md)
 ### [Karštosios metaduomenų pataisos diegimas](migration-upgrade/install-metadata-hotfix-package.md)
 ### [„Reporting Services“ taisymas vieno bloko aplinkoje](migration-upgrade/patch-reporting-service-environment.md)
+### [„Visual Studio“ kūrimo įrankių naujinimas](dev-tools/update-development-tools.md)
 
 ## Draudimai naudoti
 ### [Nebenaudojamos API](migration-upgrade/deprecated-apis.md)
