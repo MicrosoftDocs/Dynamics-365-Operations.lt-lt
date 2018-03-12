@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>„SQL Server Reporting Services“ konfigūravimas vietiniam diegimui
 
+[!include[banner](../includes/banner.md)]
+
 Atlikę šioje temoje nurodytus veiksmus, konfigūruokite „SQL Server Reporting Services“ (SSRS), skirtas „Microsoft Dynamics 365 for Finance and Operations“, („Enterprise“ leidimo (vietinės versijos)) diegimui.
 
 1. Atidarykite ataskaitų serverio konfigūravimo tvarkytuvo programą.

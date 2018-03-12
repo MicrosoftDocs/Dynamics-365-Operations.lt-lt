@@ -1,7 +1,7 @@
 ---
 title: "Maršrutai ir operacijos"
 description: "Šioje temoje pateikiama informacija apie maršrutus ir operacijas."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
