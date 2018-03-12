@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Ilgalaikio turto nusidėvėjimo metodai](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Ilgalaikio turto perkėlimas į atsargas](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Mažai kainuojantis ilgalaikis turtas](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Indija
+
+- [Ilgalaikis turtas](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Kapitalo prekių perkėlimas į ilgalaikį turtą](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Dienos kalendoriaus įtraukimas į ilgalaikio turto knygą](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Parametrų nusidėvėjimui skaičiuoti nustatymas](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Indijos ilgalaikio turto pamainos nusidėvėjimo skaičiavimas](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Mokesčių mechanizmo apžvalga](../../financials/general-ledger/tax-engine.md)
+    - [Mokesčių mechanizmo integravimas](../../financials/general-ledger/tax-engine-integration.md)
+    - [DUK apie ribines mokesčių reikšmes](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Mokesčių mechanizmo plėtimas](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Italija
 

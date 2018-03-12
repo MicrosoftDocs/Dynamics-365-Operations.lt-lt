@@ -118,11 +118,11 @@
 ## [Serijos numerių registravimas pardavimo proceso metu](../supply-chain/sales-marketing/register-serial-numbers-sales-process.md)
 ## [Atsargų žurnalai](../supply-chain/inventory/inventory-journals.md)
 ## [Atsargų žymių inventorizacija](../supply-chain/inventory/inventory-tag-counting.md)
-## [FIFO su faktine verte ir žymėjimu](../supply-chain/cost-management/fifo-physical-value-marking.md)
-## [LIFO data su faktine verte ir žymėjimu](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
-## [LIFO su faktine verte ir žymėjimu](../supply-chain/cost-management/lifo-physical-value-marking.md)
+## [FIFO su faktine reikšme ir žymėjimu](../supply-chain/cost-management/fifo-physical-value-marking.md)
+## [LIFO data su faktine reikšme ir žymėjimu](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
+## [LIFO su faktine reikšme ir žymėjimu](../supply-chain/cost-management/lifo-physical-value-marking.md)
 ## [Svertinio vidurkio data](../supply-chain/cost-management/weighted-average-date.md)
-## [Svertinis vidurkis su faktine verte ir žymėjimu](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
+## [Svertinis vidurkis su faktine reikšme ir žymėjimu](../supply-chain/cost-management/weighted-average-physical-value-marking.md)
 ## [Sulaikymo užsakymai](../supply-chain/inventory/quarantine-orders.md)
 ## [Einamoji vidutinė savikaina](../supply-chain/cost-management/running-average-cost-price.md)
 ## [Kiekvienos atsargų dimensijos einamosios vidutinės savikainos sekimas](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
@@ -183,6 +183,7 @@
 ### [MPOS architektūra](dev-itpro/retail-modern-pos-architecture.md)
 ### [„Retail‟ internetinių parduotuvių publikavimo architektūra](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [„Retail‟ kanalo našumo „Power BI“ turinys](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Mokėjimo programų duomenų saugos standartų (PA-DSS) sertifikatas](dev-itpro/PA-DSS-Certification.md)
 
 ## Visuotinis diegimas ir karštosios pataisos
 ### [„Retail Store Scale Unit“ apžvalga](dev-itpro/retail-store-system-begin.md)

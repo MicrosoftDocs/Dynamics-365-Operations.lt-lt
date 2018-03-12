@@ -3,7 +3,7 @@ title: "„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 description: "„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ dokumentacija."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -41,11 +41,15 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">Prieš perkant</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registravimasis prenumeratos peržiūros versijai gauti</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Diegimo parinkčių pasirinkimas</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack for Dynamics 365“</a></p>
-  <p><a href="get-started/purchase-on-premises.md">„Finance and Operations‟ (vietinės versijos) pirkimas</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registravimasis peržiūros versijos prenumeratai gauti</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinio diegimo parinkties pasirinkimas</a></p>
+ <p><a href="get-started/purchase-on-premises.md">„Finance and Operations‟ (vietinės versijos) pirkimas</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Diegimo ciklas</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack“, skirtas tarnybai „Dynamics 365“</a></p>
+<p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
+  
 <h3><a href="../financials/index.md">Finansų valdymas</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Gautinos sumos</a></p>
@@ -99,7 +103,8 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 <p><a href="get-started/demo-data.md">Demonstraciniai duomenys</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administravimas</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinis diegimas</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Visuotinė debesies įdiegtis</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinė visuotinė įdiegtis</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Versijos naujinimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Aptarnavimas</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymo sistema</a></p>
