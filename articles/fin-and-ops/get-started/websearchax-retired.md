@@ -25,16 +25,16 @@ ms.lasthandoff: 03/05/2018
 
 ---
 
-# <a name="websearchax-retired"></a><span data-ttu-id="828e0-104">WebSearchAX panaikintas</span><span class="sxs-lookup"><span data-stu-id="828e0-104">WebSearchAX retired</span></span>
+# <a name="websearchax-retired"></a><span data-ttu-id="18502-104">WebSearchAX panaikintas</span><span class="sxs-lookup"><span data-stu-id="18502-104">WebSearchAX retired</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="828e0-105">Teko panaikinti WebSearchAX puslapį.</span><span class="sxs-lookup"><span data-stu-id="828e0-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="828e0-106">Vietoj to rekomenduojame naudoti mėgstamiausios ieškyklės svetainės iešką.</span><span class="sxs-lookup"><span data-stu-id="828e0-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="828e0-107">Pavyzdys:</span><span class="sxs-lookup"><span data-stu-id="828e0-107">For example:</span></span> 
+<span data-ttu-id="18502-105">Teko panaikinti WebSearchAX puslapį.</span><span class="sxs-lookup"><span data-stu-id="18502-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="18502-106">Vietoj to rekomenduojame naudoti mėgstamiausios ieškyklės svetainės iešką.</span><span class="sxs-lookup"><span data-stu-id="18502-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="18502-107">Pavyzdys:</span><span class="sxs-lookup"><span data-stu-id="18502-107">For example:</span></span> 
 
-<span data-ttu-id="828e0-108">site:technet.microsoft.com dynamics ax 2012 „ieškos terminas“</span><span class="sxs-lookup"><span data-stu-id="828e0-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="18502-108">site:technet.microsoft.com dynamics ax 2012 „ieškos terminas“</span><span class="sxs-lookup"><span data-stu-id="18502-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
 
-<span data-ttu-id="828e0-109">Arba</span><span class="sxs-lookup"><span data-stu-id="828e0-109">-or-</span></span>
+<span data-ttu-id="18502-109">Arba</span><span class="sxs-lookup"><span data-stu-id="18502-109">-or-</span></span>
 
-<span data-ttu-id="828e0-110">site:msdn.microsoft.com dynamics ax 2012 „ieškos terminas“</span><span class="sxs-lookup"><span data-stu-id="828e0-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
+<span data-ttu-id="18502-110">site:msdn.microsoft.com dynamics ax 2012 „ieškos terminas“</span><span class="sxs-lookup"><span data-stu-id="18502-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
 
 
