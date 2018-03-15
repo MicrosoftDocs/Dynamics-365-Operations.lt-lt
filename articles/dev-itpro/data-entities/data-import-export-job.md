@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Toliau pateikti duomenų importavimo arba eksportavimo veiksmai.
 6. Išvalykite išdėstymo lenteles.
 
 Likusiuose šios temos skyriuose pateikiama daugiau informacijos apie kiekvieną proceso veiksmą.
+
+> [!NOTE]
+> Naudokite formos atnaujinimo piktogramą, kad atnaujintumėte duomenų importavimo / eksportavimo formą ir matytumėte naujausią eigą. Nerekomenduojama atnaujinti naršyklės lygio, nes ji nutrauks bet kokias importavimo / eksportavimo užduotis, kurios bys vykdomos ne bendrame pakete.
 
 ## <a name="create-an-import-or-export-job"></a>Importavimo arba eksportavimo užduoties kūrimas
 Duomenų importavimo arba eksportavimo užduotį galima vykdyti vieną kartą arba daug kartų.

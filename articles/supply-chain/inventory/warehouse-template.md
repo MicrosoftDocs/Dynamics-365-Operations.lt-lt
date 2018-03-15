@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 5. Pasirinkite **Importuoti**. Rodinyje **Patobulintas** galite naudoti parinktį **Filtras**, norėdami greitai peržiūrėti problemas, kurios gali kilti importuojant.
 
 Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
+
+Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą.
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>Susijusi tema
 

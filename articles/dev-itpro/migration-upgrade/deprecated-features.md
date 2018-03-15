@@ -3,7 +3,7 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ ms.lasthandoff: 12/14/2017
 > Pradedant nuo „Dynamics 365 for Finance and Operations, Enterprise Edition“ 2017 m. liepos mėn. leidimo su 8 platformos naujiniu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ su 12 platformos naujiniu
+
+### <a name="personalized-product-recommendations"></a>Personalizuotos produkto rekomendacijos 
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes.  |
+| **Pakeitė kita funkcija?**   | Nr. Tačiau po 2018 m. pavasario planuojame šią funkciją sugrąžinti su nauja rekomendacijų paslauga.   |
+| **Paveiktos produkto sritys**         | Personalizuotos produktų rekomendacijos EKA.                                                    |
+| **Visuotinio diegimo parinktis**              | Visos                                                                                      |
+| **Būsena**                         |Pašalinta nuo 2018 m. vasario 15 d. Tai turės įtakos klientams, naudojantiems „Dynamics 365 for Operations 1611“ ir vėlesnes versijas.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas
 Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugiau informacijos žr. [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) nebegalima. Pasikeitus ER API, API, skirti įtaisytąsias funkcijas iš ER išraiškos daryklės iškviesti, tapo vidiniais ir jų nebegalima išplėsti.
@@ -132,6 +143,19 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 | **Visuotinio diegimo parinktis**                       | Visi moduliai                                                                    |
 | **Būsena**                                  | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>„Dynamics 365 for Retail 7.2‟
+
+### <a name="personalized-product-recommendations"></a>Personalizuotos produkto rekomendacijos 
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes.  |
+| **Pakeitė kita funkcija?**   | Nr. Tačiau po 2018 m. pavasario planuojame šią funkciją sugrąžinti su nauja rekomendacijų paslauga.   |
+| **Paveiktos produkto sritys**         | Personalizuotos produktų rekomendacijos EKA.                                                    |
+| **Visuotinio diegimo parinktis**              | Visos                                                                                      |
+| **Būsena**                         |Pašalinta nuo 2018 m. vasario 15 d. Tai turės įtakos klientams, naudojantiems „Dynamics 365 for Retail 7.2“ ir vėlesnes versijas. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition“ 2017 m. liepos mėn. versija su 8 platformos naujiniu

@@ -1,6 +1,6 @@
 ---
-title: "Produkto patvirtinimas klasterio paėmimui"
-description: "Šioje temoje aprašoma, kaip nustatyti prekės patikrinimą, kurį atliekant būtų parenkamas ir klasteris."
+title: Produkto patvirtinimas klasteriui paimti
+description: "Šioje temoje aprašoma, kaip nustatyti prekės patikrinimą kartu paimant ir klasterį."
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e9b3bfa7b90b2dfc1914876eccda3eea01bd740
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
 [!include[banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Produkto patvirtinimas klasterio paėmimui
+# <a name="product-confirmation-for-cluster-picking"></a>Produkto patvirtinimas klasteriui paimti
 Pasirinkdami klasterius vienu metu galite pasirinkti keliems užsakymams skirtas prekes. Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų galima patikrinti į klasterius įtraukiamas prekes. Galite patikrinti prekes atlikdami klasterių pasirinkimą, vykstant klasterio parinkimo procesui.
 
 ## <a name="where-it-applies"></a>Kai taikoma

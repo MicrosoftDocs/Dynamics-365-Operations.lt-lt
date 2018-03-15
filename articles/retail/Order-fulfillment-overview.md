@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
+
+[!include[banner](includes/banner.md)]
 
 Daugelis mažmenininkai norėtų optimizuoti užsakymo įvykdymą, suteikdami galimybę parduotuvėms vykdyti užsakymus. Užsakymų įvykdymas parduotuvės lygiu gali palengvinti konkrečios parduotuvės atsargų perpildymo atvejais, taip pat tai gali būti naudinga dėl logistinių tikslų tais atvejais, kai parduotuvė turi papildomų pajėgumų arba yra arčiau kliento, kuriam reikia siųsti prekes. Šiems poreikiams patenkinti elektroniniame kasos aparate galima naudoti bendrąją užsakymų įvykdymo operaciją.
 
@@ -56,7 +58,7 @@ Eilutes galima pasirinkti naudojant veiksmų srities funkciją **Pasirinkti**. K
 
 ## <a name="line-details"></a>Eilutės informacija
 
-Eilutės informacija galima rodyti naudojant informacijos iškeliamąjį meniu. Naudojant šį meniu, pateikiami du skirtukai, kuriuose rodoma papildoma informacija apie pasirinktą eilutę. Pirmajame skirtuke **Eilutės informacija** rodoma informacija apie pačią eilutę, pvz., užsakytą ir likusį kiekį. Pateikiama papildoma informacija, įskaitant paimtą kiekį, supakuotą kiekį ir kiekį, už kurį SF išrašytos, taip pat pristatymo būdą ir pristatymo adresą. Skirtuke **Užsakymo informacija** pateikiama užsakymo antraštės informacija, įskaitant klientą, kliento ID, užsakymo numerį, bendrą užsakymo sumą ir likutį.
+Eilutės informacija galima rodyti naudojant informacijos iškeliamąjį meniu. Naudojant šį meniu, pateikiami trys skirtukai, kuriuose rodoma papildoma informacija apie pasirinktą eilutę. Pirmajame skirtuke **Eilutės informacija** rodoma informacija apie pačią eilutę, pvz., užsakytą ir likusį kiekį. Pateikiama papildoma informacija, įskaitant paimtą kiekį, supakuotą kiekį ir kiekį, už kurį SF išrašytos, taip pat pristatymo būdą ir pristatymo adresą. Skirtuke **Užsakymo informacija** pateikiama užsakymo antraštės informacija, įskaitant klientą, kliento ID, užsakymo numerį, bendrą užsakymo sumą ir likutį. Skirtuke **Atsargos** parodyta pasirinktos eilutės informacija apie faktinį turimą atsargų kiekį, rezervuotas atsargas ir užsakytas atsargas.
 
 Pasirinkus kelias eilutes, užsakymo eilutės iškeliamasis meniu rodys tik tai, kad pasirinktos kelios eilutės. Norėdami rodyti vienos eilutės informaciją, išvalykite eilutes, kol liks tik viena eilutė. 
 

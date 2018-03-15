@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ Naudokite toliau nurodytus išleistų produktų arba produkto variantų pasirink
 
 ## <a name="related-topics"></a>Susijusios temos
 
--  Naujos produkto ciklo būsenos kūrimas
--  Naujos numatytosios produkto ciklo būsenos kūrimas
--  Produkto ciklo būsenos priskyrimas išleistam bendrajam produktui
--  Produkto ciklo būsenos priskyrimas išleistam produktui
--  Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas
--  Produkto ciklo būsenos kūrimas norint pašalinti produktus iš bendrojo planavimo
+-  [Naujos produkto ciklo būsenos kūrimas (užduočių vedlys)](tasks/new-product-lifecycle-state.md)
+-  [Numatytosios produkto ciklo būsenos kūrimas (užduočių vedlys)](tasks/default-product-lifecycle-state.md)
+-  [Produkto ciklo būsenos priskyrimas išleistam bendrajam produktui (užduočių vedlys)](tasks/product-lifecycle-state-released-product-master.md)
+-  [Produkto ciklo būsenos priskyrimas išleistam produktui (užduočių vedlys)](tasks/product-lifecycle-state-released-product.md)
+-  [Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas (užduočių vedlys)](tasks/obsolete-product-variants.md)
+-  [Produkto ciklo būsenos kūrimas norint pašalinti produktus iš bendrojo planavimo (užduočių vedlys)](tasks/exclude-products-master-planning.md)
 

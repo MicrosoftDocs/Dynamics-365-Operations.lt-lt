@@ -3,14 +3,14 @@ title: "Vietinės versijos diegimas"
 description: "Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą."
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/06/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Vietinės versijos diegimo nukreipimo puslapis
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimą (vietinė versija). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
 
 ## <a name="get-started"></a>Darbo pradžia
+- [Kas naujo ir kas pasikeitę „Dynamics 365 for Finance and Operations‟ vietinėse visuotinėse įdiegtyse, „Enterprise“ versijoje 7.2 su 12 platformos naujinimu (2018 m. kovas)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) apžvalga](on-premises-overview.md)
 - [Vietinės versijos diegimo planavimas](plan-onprem-deployment.md)
 - [Vietinėms įdiegtims taikomi sistemos reikalavimai](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterpr
 - [Dokumentų valdymo konfigūravimas](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentų generavimo, publikavimo ir spausdinimo funkcijose vietinėse įdiegtyse](../analytics/printing-capabilities-on-premises.md)
+- [Atvirkštinio tarpinio serverio konfigūravimas vietinei aplinkai](onprem-reverseproxy.md)
 - [Nustatyti techninę pagalbą](../lifecycle-services/support-experience.md)
 - [Kliento interneto ryšio trikčių šalinimas](../user-interface/client-disconnected.md)
 - [Vietinės visuotinės įdiegties naujinimų taikymas](apply-updates-on-premises.md)
