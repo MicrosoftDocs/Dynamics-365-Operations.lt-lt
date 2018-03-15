@@ -1,5 +1,5 @@
 ---
-title: POS operacijos
+title: EKA operacijos, prisijungus ir neprisijungus prie interneto
 description: "Šioje temoje pateikiama informacija apie elektroninio kasos aparato (EKA) veikimą „Microsoft Dynamics 365 for Retail“. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>POS operacijos
+# <a name="pos-operations-online-and-offline"></a>EKA operacijos, prisijungus ir neprisijungus prie interneto
+
+[!include[banner](includes/banner.md)]
+
 Dauguma vartotojo elektroniniame kasos aparate (EKA) atliekamų veiksmų laikomi operacijomis. Operacijos sukonfigūruojamos ir valdomos „Microsoft Dynamics 365 for Retail“ tarnybiniame biure. Į EKA mygtukyną galima įtraukti daug operacijų. Tada vartotojai, norėdami iškviesti operacijas ir atlikti jų teikiama funkciją, gali pasirinkti mygtukus. Kitos operacijos yra pagrindinės EKA programos dalis ir yra iškviečiamos naudojant ekrano mygtukus arba kaip kitos darbo eigos ar procesų dalis.
 
 Šioje lentelėje pateikiama informacija apie operacijas, pasiekiamas „Retail Modern POS“ ir „Retail“ skirtoje „Cloud POS for Dynamics 365“. Joje taip pat nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos EKA veikiant autonominiu režimu.

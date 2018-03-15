@@ -3,7 +3,7 @@ title: "Finansinės įžvalgos"
 description: "Darbo srityje Finansų įžvalgos naudojant „Microsoft Power BI“, kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 | Finansinių visų įmonių įžvalgų peržiūra   | •   Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3‟ ši pareiga vaidmeniui nepriskirta. • Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | •    Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. •    Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų.             |
 
 
-## <a name="how-financial-statements-work"></a>Kaip veikia finansinės ataskaitos
-Nors darbo srityje **Finansinės įžvalgos** yra finansinių ataskaitų, ji nepakeičia „Finance and Operations“ modulio Finansinės ataskaitos. Numatytųjų darbo srities **Finansinės įžvalgos** finansinių ataskaitų aprėptis yra ribota ir į šią darbo sritį įtraukti ne visi finansinių ataskaitų tipai. Modulis Finansinės ataskaitos vis dar yra pagrindinis įstatymų nustatytų finansinių ataskaitų projektavimo, kūrimo ir generavimo įrankis.
+## <a name="financial-reporting-vs-finanical-insights"></a>Finansinės ataskaitos ir finansinės įžvalgos
+**Finansinės įžvalgos** apima finansines ataskaitas, tačiau tai nepakeičia „Finance and Operations“ modulio Finansinės ataskaitos. Numatytųjų darbo srities **Finansinės įžvalgos** finansinių ataskaitų aprėptis yra ribota ir į šią darbo sritį įtraukti ne visi finansinių ataskaitų tipai. Modulis Finansinės ataskaitos vis dar yra pagrindinis įstatymų nustatytų finansinių ataskaitų projektavimo, kūrimo ir generavimo įrankis.
 
-Be pradinės darbo srities **CFO apžvalga** vaizdinių elementų taip pat galimi nauji KPI, diagramos ir finansinės ataskaitos. Galimos tolesnės finansinės ataskaitos.
+Ši palyginamoji diagrama padės atskirti šias dvi parinktis:
+
+|                                         | **Finansinės ataskaitos**                            | **Finansinės įžvalgos**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Numatytųjų ataskaitų redagavimas**                | Taip                                                | Ne                                 | | **Naujų ataskaitų kūrimas**                  | Taip                                                | Ne                                 | | **Ataskaitų spausdinimas**                       | Taip                                                | Ne                                 | | **Eksportavimas į „Excel“**                     | Taip          | Ribotas neapdorotų duomenų eksportavimas į „Excel“, neformatuota ataskaita       | | **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                               | Ne                                 | | **Papildomos knygos duomenų ataskaita**       | Taip Apsiriboja tik tiekėju, klientu    | Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t.  | | **Ataskaitų valiuta**      | Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą       | Ne Tik apskaitos valiuta      | | **Saugumas**                | Taip Laikomasi „Finance and Operations” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra | | **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                   | Ne                   | | **išorinių duomenų ataskaitos**                              | Ne                   | Ne                                   | | **Palaiko konsolidacijas**                               | Taip                          | Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą                                     |
+
+
+Be naujos vartotojo sąsajos pradinėje darbo srityje **CFO apžvalga**, dabar yra ir nauji KPI, diagramos bei finansinės ataskaitos. Galimos tolesnės finansinės ataskaitos.
 
 •   Bandomasis balansas
 
@@ -113,7 +118,7 @@ Be pradinės darbo srities **CFO apžvalga** vaizdinių elementų taip pat galim
 
 •   Pajamų išrašas pagal regioną
 
-•   Pajamų išrašas – faktinės ir biudžeto
+•   Pajamų išrašas – faktinis, palyginti su biudžeto
 
 •   Pajamų išrašas su nuokrypiais
 

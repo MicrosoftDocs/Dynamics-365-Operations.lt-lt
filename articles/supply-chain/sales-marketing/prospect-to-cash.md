@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Dabartinėje versijoje sprendimas Potencialūs klientai ir grynieji pinigai leid
 - [Tiesioginis pardavimo užsakymų sinchronizavimas iš „Finance and Operations“ į „Sales“](sales-order-template-mapping-direct.md)
 - [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“ (šablonas laukia išleidimo)](sales-order-template-mapping-direct-two-ways.md)
 - [Tiesioginis pardavimo sąskaitų faktūrų sinchronizavimas iš „Finance and Operations“ į „Sales“](sales-invoice-template-mapping-direct.md)
-
-Ankstesnėse versijose sprendimas Potencialūs klientai ir grynieji pinigai leidžia šių tipų netiesioginį sinchronizavimą:
-
-- [„Sales“ sąskaitų tvarkymas ir sinchronizavimas su „Finance and Operations“](accounts-template-mapping.md)
-- [„Sales“ kontaktų tvarkymas ir sinchronizavimas su „Finance and Operations“](contacts-template-mapping.md)
-- [„Finance and Operations“ produktų tvarkymas ir sinchronizavimas su „Sales“](products-template-mapping.md)
-- [Pardavimo pasiūlymų kūrimas sprendime „Sales“ ir jų sinchronizavimas su „Finance and Operations“](sales-quotation-template-mapping.md)
-- [Pardavimo užsakymų kūrimas sprendime „Finance and Operations“ ir jų sinchronizavimas su „Sales“](sales-order-template-mapping.md)
-- [Pardavimo sąskaitų faktūrų kūrimas sprendime „Finance and Operations“ ir jų sinchronizavimas su „Sales“](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 
@@ -87,7 +78,7 @@ Sprendimo Potencialūs klientai ir grynieji pinigai integravimo funkcija palaiko
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** – reikalingas potencialių klientų ir grynųjų pinigų integravimo naudojant duomenų objektus palaikymas.
     
     > [!NOTE]
-    > Įdiegę karštąsias pataisas, turite paleisti paketinę užduotį formoje **SalesPopulateProspectToCash**. Ši forma paslėpta, nes jos jums reikia tik kartą. Norėdami pasiekti formą, prisijunkite prie aplinkos ir naršyklėje įveskite šį URL adresą: &mi=action:SalesPopulateProspectToCash, pavyzdžiui, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Atsidarius formai spustelėkite Gerai. Į naują lauką **LineCreationSequnceNumber** lentelėse **SalesLine**, **SalesQuotationLine** ir **CustInvoiceTrans** bus automatiškai įvestos unikalios reikšmės ir atnaujintas produktų sąrašas. Tai yra būtina, veiktų potencialių klientų ir grynųjų pinigų integravimas.
+    > Įdiegę karštąsias pataisas, turite paleisti paketinę užduotį formoje **SalesPopulateProspectToCash**. Ši forma paslėpta, nes jos jums reikia tik kartą. Norėdami atidaryti formą, prisijunkite prie aplinkos ir prie naršyklės adreso pridėkite šį URL: &mi=action:SalesPopulateProspectToCash, pvz., `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Atsidarius formai spustelėkite Gerai. Į naują lauką **LineCreationSequnceNumber** lentelėse **SalesLine**, **SalesQuotationLine** ir **CustInvoiceTrans** bus automatiškai įvestos unikalios reikšmės ir atnaujintas produktų sąrašas. Tai yra būtina, veiktų potencialių klientų ir grynųjų pinigų integravimas.
 
 
 ## <a name="system-requirements-for-sales"></a>„Sales“ sistemos reikalavimai
@@ -96,12 +87,6 @@ Norėdami naudoti sprendimą Potencialūs klientai ir grynieji pinigai, turite �
 
 - „Dynamics 365 for Sales“ versija 1612 (8.2.1.207) (DB 8.2.1.207) (internetinė versija)
 - Sprendimui „Dynamics 365 for Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai versija 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Šablonai su versija 1.0.0.0 1.0.0.1 palaikomi „Dynamics 365 for Sales“ skirtame sprendime Potencialūs klientai ir grynieji pinigai, versijoje 1.14.1.0
-   >
-   > Šablonai su versija 2.0.0.0 2.1.0.0 palaikomi „Dynamics 365 for Sales“ skirtame sprendime Potencialūs klientai ir grynieji pinigai, versijoje 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Sprendimui „Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai diegimas
 

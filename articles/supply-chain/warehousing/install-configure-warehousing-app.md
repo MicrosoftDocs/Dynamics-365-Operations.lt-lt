@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ – versiją „Warehousing“.
 
@@ -44,7 +46,7 @@ Programą galima naudoti operacinėse sistemose „Android“ ir „Windows“. 
 
 | Platforma                    | Versija                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| „Android“                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| „Android“                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | „Windows 10“ (visos versijos)                                                                                                                                                   |
 | „Finance and Operations” | „Microsoft Dynamics 365 for Operations“ versija 1611 <br>Arba <br>„Microsoft Dynamics AX“ 7.0 / 7.0.1 versijos ir „Microsoft Dynamics AX“ platformos 2 naujinimas su karštosiomis pataisomis KB 3210014 |
 
@@ -58,7 +60,7 @@ Programą galima naudoti operacinėse sistemose „Android“ ir „Windows“. 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 Norėdami įjungti programos sąveiką su konkrečiu „Finance and Operations“ serveriu, žiniatinklio tarnybos programą turite užregistruoti „Finance and Operations“ nuomotojo „Azure Active Directory“. Saugumo sumetimais rekomenduojame sukurti kiekvieno naudojamo įrenginio žiniatinklio tarnybos programą. Norėdami žiniatinklio tarnybos programą kurti „Azure Active Directory“ („Azure AD“), atlikite tolesnius veiksmus.
 
-1.  Žiniatinklio naršyklėje eikite į <https://portal.azure.com>.
+1.  Interneto naršyklėje eikite į <https://portal.azure.com>.
 2.  Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, pavadinimą ir slaptažodį.
 3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **„Azure Active Directory“**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
 4.  Įsitikinkite, kad „Active Directory“ egzempliorių naudoja „Finance and Operations“.
@@ -93,7 +95,7 @@ Turite sukonfigūruoti programą įrenginyje, kad prie „Finance and Operations
     + – **„Azure Active Directory“ kliento ID** – kliento ID, gaunamas atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 9 veiksmą. 
     + **„Azure Active Directory“ kliento paslaptis** – kliento paslaptis gaunama atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 11 veiksmą. 
     + **„Azure Active Directory“ išteklius** – „Azure AD“ išteklius nurodo „Finance and Operations“ šakninį URL. **Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
-    + **„Azure Active Directory“ nuomotojas** – „Azure AD“ nuomotojas, naudojamas su „Finance and Operations“ serveriu: https://login.windows.net/your-AD-tenant-ID. Pvz.: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **„Azure Active Directory“ nuomotojas** – „Azure AD“ nuomotojas, naudojamas su „Finance and Operations“ serveriu: `https://login.windows.net/your-AD-tenant-ID`. Pavyzdžiui: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
     + **Įmonė** – programoje „Finance and Operations‟ įveskite juridinį subjektą, prie kurio norite prijungti programą. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Viršutiniame kairiajame programos kampe pasirinkite mygtuką **Atgal**. Dabar programa prijungs jūsų „Finance and Operations“ serverį ir bus rodomas sandėlio darbininko prisijungimo ekranas. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

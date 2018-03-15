@@ -1,6 +1,6 @@
 ---
 title: Mobilioji darbo sritis Mano komanda
-description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje."
+description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje."
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: 3cbb7f0b15165d0be9992ce2ea9e625dc70de007
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 

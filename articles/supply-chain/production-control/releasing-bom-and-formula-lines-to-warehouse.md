@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
+
+[!include[banner](../includes/banner.md)]
 
 Šioje temoje aprašomas KS eilučių ir formulės eilučių žaliavų išdavimo į sandėlį procesas. Kai į sandėlį išduodate KS arba formulės eilutę, sistema pirmiausia nustato, ar medžiagos jau yra gamybos įvesties vietoje ceche, kur medžiaga bus naudojama gamybos proceso metu.
 
@@ -40,6 +42,9 @@ KS ir formulės eilučių išdavimo būdą valdo parametras **Gamybos eilutės i
 
 - **KS ir formulės eilučių kaip gamybos arba paketinio užsakymo išdavimas** – naudojant šį būdą, gamybos arba paketinio užsakymo KS ir formulės eilutės išduodamos kaip užsakymo išdavimo proceso dalis. Paprastai vykdant gamybos arba paketinio užsakymo išdavimą, gamybos užduotys išduodamos cecho darbuotojams, o gamybos dokumentai išspausdinami. Šio proceso metu užsakymo būsena taip pat pakeičiama į **Išduota**.
 - **KS ir formulės eilučių išdavimas naudojant paketinę užduotį arba neautomatiškai** – naudojant šį metodą, KKS ir formulės eilutes galima išduoti tik per paketinę užduotį **Automatinio KS ir formulės eilučių išdavimas** arba neautomatiškai. Norėdami neautomatiškai išduoti KS ir formulės eilutes, gamybos užsakymų sąrašo puslapio arba gamybos užsakymo informacijos puslapio veiksmų srityje pasirinkite **Išduoti į sandėlį**.
+
+Greita demonstracija, kaip išleisti KS ir formulės eilutes į gamybą naudojant paketinę užduotį, parodyta šiame trumpame „YouTube“ vaizdo įraše:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>KS ir formulės eilučių išdavimas naudojant paketinę užduotį
 
@@ -79,6 +84,9 @@ Norėdami valdyti operacijas, į kurias medžiagos turi būti išduotos, naudoki
 Tolesniame pavyzdyje parodytas gamybos užsakymas, kuriame yra dvi operacijos, 10 ir 20. Šiame pavyzdyje, jei išdavimą į operaciją apribosite iki 10, bus išduota tik medžiaga M9203.
 
 ![Medžiagos išdavimo pagal operacijos numerį pavyzdys](media/two-operations.PNG)
+
+Greita demonstracija, kaip išleisti medžiagą proporcingai pagamintų prekių kiekiui, parodyta šiame trumpame „YouTube“ vaizdo įraše:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Medžiagos išdavimas, proporcingas baigtų prekių kiekiui
 

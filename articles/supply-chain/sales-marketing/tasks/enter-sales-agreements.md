@@ -17,19 +17,17 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a>Įvesti pardavimo sutartis
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra rodo, kaip kurti pardavimo sutartį, kuria vienas iš jūsų klientų įsipareigoja pirkti produktą už
-
-sutartą sumą per tam tikrą laiką už specialias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
+Ši procedūra nurodo, kaip kurti pardavimo sutartį, kuri jūsų klientus įpareigoja pirkti nustatytą produktų kiekį per tam tikrą laikotarpį, suteikiant jiems specialias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Pardavimo sutarties eilutės nustatymas
