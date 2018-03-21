@@ -19,10 +19,11 @@
 ### [Kas nauja ar pasikeitė](get-started/whats-new-changed.md)
 #### [Pašalintos arba nebenaudojamos funkcijos](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Atidėtos AX 2012 funkcijos](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
-#### [Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos](get-started/features-not-implemented-on-prem.md)
-#### [Leidimai ir gyvavimo ciklo strategija](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [13-asis „Platform” naujinimas (2018 m. sausio mėn.)](get-started/whats-new-platform-update-13.md)
-#### [„Finance and Operations, Enterprise Edition‟ 7.3 naujinimas](get-started/whats-new-application-7.3-update.md)
+#### [Vietinėse visuotinėse įdiegtyse dar neįdiegtos funkcijos](get-started/features-not-implemented-on-prem.md)
+#### [Leidimų ir ciklo strategija](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Vietinės visuotinės įdiegtys (2018 m. kovas)](get-started/whats-new-LBD-PU12-App72.md)
+#### [„Platform update 13“ (2018 m. sausis)](get-started/whats-new-platform-update-13.md)
+#### [„Finance and Operations, Enterprise edition 7.3“](get-started/whats-new-application-7.3-update.md)
 #### [12-asis „Platform“ naujinimas (2017 m. lapkričio mėn.)](get-started/whats-new-platform-update-12.md)
 #### [11-asis „Platform” naujinimas (2017 m. spalio mėn.)](get-started/whats-new-platform-update-11.md)
 #### [10-asis „Platform” naujinimas (2017 m. rugpjūčio mėn.)](get-started/whats-new-platform-update-10.md)
@@ -134,7 +135,7 @@
 ### [Išlaidų valdymo „Power BI“ turinio paketas](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Duomenų integravimas
-### [Integravimo šablonai](../dev-itpro/data-entities/integration-overview.md)
+### [Duomenų integravimo (importavimo / eksportavimo) strategijos pasirinkimas](../dev-itpro/data-entities/integration-overview.md)
 
 ### Duomenų integravimo API sąsajos
 #### [Duomenų valdymo paketo API](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [„Sales“ sąskaitų tvarkymas ir tiesioginis „Sales“ sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [„Finance and Operations“ produktų tvarkymas ir tiesioginis sinchronizavimas su „Sales“](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [„Sales“ kontaktų tvarkymas ir tiesioginis sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Tiesioginis „Sales“ pardavimo pasiūlymų sinchronizavimas iš „Sales“ į „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Tiesioginis pardavimo užsakymų sinchronizavimas iš „Finance and Operations“ į „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Tiesioginis pardavimo sąskaitos faktūros sinchronizavimas iš „Finance and Operations“ į „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [„Sales“ pardavimo pasiūlymų tvarkymas ir tiesioginis sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [„Finance and Operations“ pardavimo užsakymų tvarkymas ir tiesioginis sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [„Finance and Operations“ pardavimo sąskaitų faktūrų tvarkymas ir tiesioginis sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Išorinių žiniatinklio tarnybų naudojimas](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,11 +473,17 @@
 #### [Paskirstymai išlaidų ataskaitoje](../financials/expense-management/expense-report-distributions.md)
 #### [Vidinės įmonės išlaidos](../financials/expense-management/intercompany-expense.md)
 #### [Išlaidų strategijos](../financials/expense-management/travel-expense-policies.md)
-
+#### [Peržiūrėti išlaidų ataskaitą](../financials/expense-management/view-expense-report.md)
+#### [Registruoti išlaidų ataskaitą](../financials/expense-management/post-expense.md)
+#### [Išlaidų ataskaitos ir keli tvirtintojai](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [PVM susigrąžinimas išlaidų valdymo sistemoje](../financials/expense-management/VAT-expense-report.md)
+#### [Dienpinigių taisyklės](../financials/expense-management/per-diem.md)
+#### [Kelionių paraiškos](../financials/expense-management/travel-req.md)
+#### [Asmeninės išlaidos išlaidų ataskaitoje](../financials/expense-management/personal-expenses.md)
 
 ### [Biudžeto sudarymas](../financials/budgeting/budgeting-overview.md)
 #### [Biudžeto planavimo apžvalga ](../financials/budgeting/budget-planning-overview-configuration.md)
-#### [Biudžeto kontrolės apžvalga ](../financials/budgeting/budget-control-overview-configuration.md)
+#### [Biudžeto kontrolės peržiūra ](../financials/budgeting/budget-control-overview-configuration.md)
 #### [Biudžetų sudarymo modulio apžvalga](../financials/budgeting/basic-budgeting-overview-configuration.md)
 #### [Pareigų prognozavimas](../financials/budgeting/position-forecasting.md)
 #### [Biudžeto planavimo pagrindimo dokumentai](../financials/budgeting/budget-planning-justification-docs.md)
@@ -631,6 +637,8 @@
 ##### [Mokesčių mechanizmo integravimas](../financials/general-ledger/tax-engine-integration.md)
 ##### [DUK apie ribines mokesčių reikšmes](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Mokesčių mechanizmo plėtimas](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Kasos aparatų GST integravimas](../retail/localizations/apac-ind-cash-registers.md)
+##### [Visuotinio kasos aparatų diegimo gairės](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japonija
 ##### [Ilgalaikio turto įsigijimas ir paraiškų vyriausybės subsidijai gauti teikimas](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Kliento ir tiekėjo mokėjimo formatai](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Kliento mokėjimas pagal mokėjimo ID](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [„Nets‟ importavimo formatas](../financials/localizations/emea-nor-nets-import-format.md)
-##### [PVM išrašas](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [PVM išrašas](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Kasos aparatai](../retail/localizations/emea-nor-cash-registers.md)
+##### [Visuotinio kasos aparatų diegimo gairės](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Lenkija
 ##### [Eilučių nuolaidų skaičiavimas pagal vieneto kainą](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Koregavimo pastabos](../financials/localizations/emea-pol-correction-notes.md)
@@ -936,7 +947,8 @@
 ##### [Pardavimo ir pirkimo ciklai](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Specialūs įrašai ir atidarymo žiniaraščiai](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Švedija
-##### [Importavimo mokėjimo formatai](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Mokėjimo formatų importavimas](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Kasos aparatai](../retail/localizations/emea-swe-cash-registers.md)
 #### Šveicarija
 ##### [Kliento mokėjimų importavimas ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Jungtinė Karalystė
@@ -1642,8 +1654,9 @@
 ##### [Komplektavimo specifikacijos ir formulės](../supply-chain/production-control/bill-of-material-bom.md)
 ##### [Formulės ir formulių versijos](../supply-chain/production-control/formulas-versions.md)
 ##### [Operacijų ištekliai](../supply-chain/production-control/operations-resources.md)
-##### [Išteklių pajėgumai](../supply-chain/production-control/resource-capabilities.md)
+##### [Išteklių galimybės](../supply-chain/production-control/resource-capabilities.md)
 ##### [Paketo atributai](../supply-chain/production-control/batch-attributes.md)
+##### [Partijų balansavimas](../supply-chain/production-control/batch-balancing.md)
 ##### [Formulės kopijavimas (užduočių vedliai)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Formulės kūrimas kopijuojant iš esamos formulės (užduočių vedlys)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Sudėtinių produktų kopijavimas iš esamos formulės versijos (užduočių vedlys)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Matavimo vienetų ir sandėliavimo strategijos](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Sandėlio „Power BI“ turinys](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Sistemos grupavimas atidarytame darbų sąraše](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Brūkšninių kodų nuskaitymas naudojant kamerą programoje „Dynamics 365 for Finance and Operations“](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Mobiliųjų brūkšninių kodų palaikymas](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Sandėlio darbo strategijos](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Skirtingų numerio lentelių gavimas](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Seniausio paketo paėmimas mobiliajame įrenginyje](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Brūkšninių kodų nuskaitymas naudojant kamerą programoje „Dynamics 365 for Finance and Operations“](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Vienetų paėmimo patvirtinimas](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Produkto patvirtinimas klasteriui paimti](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
