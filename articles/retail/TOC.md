@@ -37,10 +37,11 @@
 ## [Mokėjimo parinktys](work-with-payments.md)
 
 # Kanalo nustatymas ir valdymas
-## [Pradinių duomenų inicijavimas „Retail” aplinkoje](enable-configure-retail-functionality.md)
-## [„Retail” kanalų nustatymas](define-maintain-retail-channels.md)
+## [Pradinių duomenų inicijavimas „Retail“ aplinkoje](enable-configure-retail-functionality.md)
+## [Mažmeninės prekybos kanalų nustatymas](define-maintain-retail-channels.md)
+## [Asortimento valdymas](assortments.md)
 ## [Internetinės parduotuvės apžvalga](online-stores.md)
-## [„Retail” aparatūros stoties konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
+## [„Retail hardware station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
 ## [„Retail“ laikas ir buvimas darbe](retail-time-attendance.md)
 
 # „Modern Point of Sale“ (MPOS) ir „Cloud POS“
@@ -53,10 +54,11 @@
 ### [„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrano maketas
-### [EKA ekrano maketų konfigūravimas](pos-screen-layouts.md)
+### [POS ekrano maketų konfigūravimas](pos-screen-layouts.md)
 ### [„Retail POS“ maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
-### [EKA programos ir vartotojo kalbos parametrai](pos-application-user-language-settings.md)
-### [MEKA vaizdų parametrai](set-up-manage-images-retail-mpos.md)
+### [Pranešimo parametrų pasirinkimas](Notifications-POS.md)
+### [POS programos ir vartotojo kalbos parametrai](pos-application-user-language-settings.md)
+### [MPOS vaizdų nustatymas](set-up-manage-images-retail-mpos.md)
 ## [Informacijos kodų apžvalga](info-codes-retail.md) 
 ## Produktų rekomendacijos
 ### [Personalizuotų produktų rekomendacijų apžvalga](personalized-product-recommendations.md)
@@ -99,9 +101,10 @@
 
 # Produktai ir prekyba
 ## [Produktų informacijos apžvalga](../supply-chain/pim/product-information.md)
-## [„Retail” hierarchijos](retail-hierarchies.md)
+## [Mažmeninės prekybos hierarchijos](retail-hierarchies.md)
+## [Atributų ir atributų grupių apžvalga](attribute-attributegroups-lifecycle.md)
 ## [Atributų kūrimas ir valdymas](create-manage-attributes.md)
-## [Mažmeninių produktų nustatymas](set-up-retail-products.md)
+## [Mažmeninės prekybos produktų nustatymas](set-up-retail-products.md)
 ## [Produktų dimensijos](../supply-chain/pim/product-dimensions.md)
 ## [Brūkšninių kodų nustatymas](set-up-bar-codes.md)
 ## [Brūkšninių kodų skaičių sekų nustatymas](set-up-bar-code-masks.md)
@@ -131,7 +134,17 @@
 ## [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](../talent/departments-jobs-positions.md)
 ## [Užduoties komponentų nustatymas](../talent/create-job.md)
 
-# „Retail” užduotys
+# Lokalizavimo ir reguliavimo priemonės​
+## Indija
+### [Kasos aparatų GST integravimas (Indija)](localizations/apac-ind-cash-registers.md)
+### [Visuotinio kasos aparatų diegimo gairės (Indija)](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norvegija
+### [Kasos aparatai (Norvegija)](localizations/emea-nor-cash-registers.md)
+### [Visuotinio kasos aparatų diegimo gairės (Norvegija)](localizations/emea-nor-loc-deployment-guidelines.md)
+## Švedija
+### [Kasos aparatai (Švedija)](localizations/emea-swe-cash-registers.md)
+
+# „Retail“ užduotys
 ## [Produkto kūrimas](../supply-chain/pim/tasks/create-product.md)
 ## [Susietų produktų konfigūravimas](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Produkto / bendrojo produkto išleidimas juridiniams subjektams](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -247,14 +260,10 @@
 ### [„Windows Installer‟ sukūrimas mokėjimo jungčiai](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [„Retail SDK“](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [„Retail SDK‟ integravimas su nuolatine kūrimo sistema](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [„Retail SDK‟ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Kasos aparatai (Švedija)](localizations/emea-swe-cash-registers.md)
-### [„Retail POS“ integravimo su kontrolės įtaisais Švedijoje pavyzdys](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Kasos aparatai (Norvegija)](localizations/emea-nor-cash-registers.md)
-### [Visuotinio kasos aparatų diegimo gairės (Norvegija)](localizations/emea-nor-loc-deployment-guidelines.md)
-### [„Retail SDK‟ pakuotė](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [„Retail SDK‟ pavyzdžiai ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [„Retail SDK“ integravimas su nuolatinio komponavimo versijos sistema](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [„Retail SDK“ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [„Retail SDK“ pakuotė](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [„Retail SDK“ pavyzdžiai ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanalo duomenų bazės (DB) plėtiniai](dev-itpro/channel-db-extensions.md)
 ### [CDX išplečiamumas](dev-itpro/cdx-extensibility.md)
 ### [Užsakymų atributai](dev-itpro/order-attributes.md)
