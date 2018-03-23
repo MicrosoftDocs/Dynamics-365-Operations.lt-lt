@@ -3,7 +3,7 @@ title: "Vietinės versijos diegimas"
 description: "Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Vietinės versijos diegimo nukreipimo puslapis
+# <a name="on-premises-deployment-home-page"></a>Visuotinio vietinės versijos diegimo pagrindinis puslapis
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ Galite diegti „Microsoft Dynamics 365 for Finance and Operations‟ „Enterpr
 - [Vietinės versijos diegimo planavimas](plan-onprem-deployment.md)
 - [Vietinėms įdiegtims taikomi sistemos reikalavimai](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Aparatūros dydžio nustatymas vietinėse aplinkose](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Interneto paslaugos ir vietinės programinės įrangos gyvavimo ciklo strategija](../migration-upgrade/versions-update-policy.md)
-- [„Dynamics 365 for Finance and Operations Enterprise edition“ (vietinio) pirkimas](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [„Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo (vietinio) pirkimas](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Debesies ir vietinės versijų funkcijų palyginimas](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>„Onboard“
 - [Vietinio projekto kūrimas „Lifecycle Services“](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Vietinių aplinkų nustatymas ir diegimas](setup-deploy-on-premises-environments.md)
+- [Vietinių aplinkų nustatymas ir visuotinis diegimas (12 platformos naujinimas)](setup-deploy-on-premises-pu12.md)
+- [Vietinių aplinkų nustatymas ir visuotinis diegimas (8 ir 11 platformos naujinimas)](setup-deploy-on-premises-pu8-pu11.md)
 - [Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose](../analytics/install-network-printer-onprem.md)
 - [„SQL Server Reporting Services“ konfigūravimas vietiniam diegimui](../analytics/configure-ssrs-on-premises.md)
 - [Pasirinktinių modelių kūrimas ir diegimas vietinėse aplinkose](develop-deploy-custom-models-on-premises.md)

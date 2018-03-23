@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,10 +42,9 @@ Dabartinėje versijoje sprendimas Potencialūs klientai ir grynieji pinigai leid
 - [„Sales“ sąskaitų tvarkymas ir tiesioginis „Sales“ sinchronizavimas su „Finance and Operations“](accounts-template-mapping-direct.md)
 - [„Finance and Operations“ produktų tvarkymas ir tiesioginis sinchronizavimas su „Sales“](products-template-mapping-direct.md)
 - [„Sales“ kontaktų tvarkymas ir tiesioginis sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](contacts-template-mapping-direct.md)
-- [„Sales“ pardavimo pasiūlymų tiesioginis sinchronizavimas su „Finance and Operations“ (šablonas laukia išleidimo)](sales-quotation-template-mapping-sales-fin.md)
-- [Tiesioginis pardavimo užsakymų sinchronizavimas iš „Finance and Operations“ į „Sales“](sales-order-template-mapping-direct.md)
-- [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“ (šablonas laukia išleidimo)](sales-order-template-mapping-direct-two-ways.md)
-- [Tiesioginis pardavimo sąskaitų faktūrų sinchronizavimas iš „Finance and Operations“ į „Sales“](sales-invoice-template-mapping-direct.md)
+- [Tiesioginis „Sales“ pardavimo pasiūlymų sinchronizavimas iš „Sales“ į „Finance and Operations“](sales-quotation-template-mapping-sales-fin.md)
+- [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“](sales-order-template-mapping-direct-two-ways.md)
+- [Tiesioginis pardavimo sąskaitos faktūros sinchronizavimas iš „Finance and Operations“ į „Sales“](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 
@@ -85,7 +84,7 @@ Sprendimo Potencialūs klientai ir grynieji pinigai integravimo funkcija palaiko
 
 Norėdami naudoti sprendimą Potencialūs klientai ir grynieji pinigai, turite įdiegti šiuos komponentus:
 
-- „Dynamics 365 for Sales“ versija 1612 (8.2.1.207) (DB 8.2.1.207) (internetinė versija)
+- „Dynamics 365 for Sales“ versija 1612 (8.2.1.207) (DB 8.2.1.207) (internetinė versija) arba naujesnė versija
 - Sprendimui „Dynamics 365 for Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai versija 1.15.0.0 (v15) 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Sprendimui „Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai diegimas

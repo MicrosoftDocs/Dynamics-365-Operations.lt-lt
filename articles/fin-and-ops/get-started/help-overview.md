@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagri
 Šioje temoje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
 
 > [!IMPORTANT]
-> Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md).
+> Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
 
@@ -115,7 +115,7 @@ Daugiau informacijos ieškokite bendraautoriaus vadove: https://github.com/Micro
 
 > [!NOTE]
 > Šiuo metu įnašus priimsime tik į saugyklą anglų kalba.  
-> Mes nepriimsime pranešimų apie problemas, apie kurias bus pranešama naudojantis „GitHub“ – norėdami pateikti turinio pasiūlymų, naudokite tik įtraukimo užklausą. Į atsiliepimus apie produktą ir funkcijas geriausiai reaguojama juos pateikiant „Dynamics 365“ idėjų portale: https://ideas.dynamics.com/ideas/. 
+> Mes nepriimsime pranešimų apie problemas, apie kurias bus pranešama naudojantis „GitHub“ – norėdami pateikti turinio pasiūlymų, naudokite tik įtraukimo užklausą. Į atsiliepimus apie produktą ir funkcijas geriausiai reaguojama juos pateikiant „Dynamics 365“ idėjų portale: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Užduočių vedliai

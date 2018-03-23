@@ -3,7 +3,7 @@ title: "Pardavimo užsakymų tiesioginis sinchronizavimas tarp „Sales“ ir �
 description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ leidimu."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Prieš sinchronizuojant pardavimo užsakymus, svarbu atnaujinti toliau nurodytus
 
     Eikite į **Parametrai** &gt; **Sauga** &gt; **Komandos**, pasirinkite reikiamą komandą, pasirinkite **Valdyti vaidmenis** ir pasirinkite vaidmenį, kuriam suteiktos norimos teisės, pvz., **Sistemos administratorius**.
 
+- Siekdami užtikrinti, kad nuolaidos būtų teisingai skaičiuojamos tiek sprendime „Sales“, tiek sprendime „Finance and Operations“, **nuolaidos skaičiavimo būdą** turite nustatyti kaip **Eilutės elementas**.
 - Eikite į **Parametrai** &gt; **Administravimas** &gt; **Sistemos parametrai** &gt; **Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai.
 
     - Parinktis **Naudoti sistemos prizų skaičiavimo sistemą** nustatyta į **Taip**.
