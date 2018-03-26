@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
+ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
+ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
@@ -99,6 +99,8 @@ Turite sukonfigūruoti programą įrenginyje, kad prie „Finance and Operations
     <br>**Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
     + **Įmonė** – programoje „Finance and Operations‟ įveskite juridinį subjektą, prie kurio norite prijungti programą. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Viršutiniame kairiajame programos kampe pasirinkite mygtuką **Atgal**. Dabar programa prijungs jūsų „Finance and Operations“ serverį ir bus rodomas sandėlio darbininko prisijungimo ekranas. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+Norėdami gauti informacijos apie tai, kaip nustatyti, kad „Dynamics 365 for Finance and Operations – Warehousing“ mobiliojo įrenginio kamera nuskaitytų brūkšninius kodus, žr. [Brūkšninių kodų nuskaitymas naudojant kamerą programoje „Dynamics 365 for Finance and Operations – Warehousing“](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Įrenginio prieigos šalinimas
 Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrenginio prieigą prie „Finance and Operations“. Tolesni veiksmai aprašo rekomenduojamą prieigos šalinimo procesą.
