@@ -1,6 +1,6 @@
 ---
 title: "Pagrindinis modulio Tiekimo grandinės valdymas puslapis"
-description: "Šiame puslapyje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
+description: "Šiame puslapyje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
+Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
 
 ## <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365‟ plano</a> svetainę. 
@@ -106,7 +106,7 @@ Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="htt
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Išlaidų apskaitos praktiniai laboratoriniai darbai</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">„Lean manufacturing“: galimos pateikti atsargos ir „kanban“ užduočių planavimas</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">KS skaičiavimas naudojant įkainojimo lapą</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilumas sandėlyje, kurį užtikrinti padeda „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilumas modulyje Sandėlis, kurį užtikrinti padeda „Microsoft Dynamics 365 for Finance and Operations‟</a>
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 Informacijos apie „Microsoft Dynamics 365 for Finance and Operations‟ mokymą rasite <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">„Microsoft Dynamics‟ mokymosi portale</a>. (reikia CustomerSource paskyros) 
