@@ -1,7 +1,7 @@
 # [„Dynamics 365 for Finance and Operations‟ modulis Kūrimas ir administravimas](index.md)
-# [Įdiegtims debesyje taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements.md)
-# [Vietinėms įdiegtims taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Demonstraciniai duomenys](../fin-and-ops/get-started/demo-data.md)
+# [Visuotinėms debesies Įdiegtims taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Vietinėms visuotinėms įdiegtims taikomi sistemos reikalavimai](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Demonstraciniai duomenys](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Demonstracinių duomenų ir paketų generavimas](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Modelio eksportavimas ir importavimas](dev-tools/models-export-import.md)
 ### [Metaduomenų ieška aplinkoje „Visual Studio“](dev-tools/metadata-search-visual-studio.md)
 ### [Modeliai](dev-tools/models.md)
-### [Projektai „Dynamics 365 for Finance and Operations, Enterprise edition‟](dev-tools/projects.md)
+### [„Dynamics 365 for Finance and Operations‟ projektai](dev-tools/projects.md)
 ### [„Visual Studio“ įrankių papildiniai](dev-tools/developer-tools-add-ins.md)
 ### [Modelių tinkinimo ir padarymo pasenusiais funkcijų išjungimas](dev-tools/lock-models.md)
 ### [„Visual Studio“ kūrimo įrankių naujinimas](dev-tools/update-development-tools.md)
@@ -113,8 +113,8 @@
 #### [Modelių elementų tinkinimas naudojant plėtinius (mokymo programa)](extensibility/customize-model-elements-extensions.md)
 #### [Tinkinimas: perdengimas ir plėtiniai](extensibility/customization-overlayering-extensions.md)
 ### Kas nauja
-#### [Išplėtimo pakeitimai (2017 m. liepos mėn.)](extensibility/changes-july-2017.md)
-#### [„Dynamics 365 for Finance and Operations, Enterprise Edition‟ 7.3 leidimo išplėtimo pakeitimai](extensibility/extensibility-changes-73.md)
+#### [Išplečiamumo pakeitimai (2017 m. liepos mėn.)](extensibility/changes-july-2017.md)
+#### [Išplečiamumo pakeitimai (versija 7.3)](extensibility/extensibility-changes-73.md)
 ### Pagrindai
 #### [Nepageidaujami tinkinimai](extensibility/intrusive-customizations.md)
 #### [Klasių plėtiniai](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [Komponavimo versijos naršymas](user-interface/build-navigation.md)
 ### [Darbo srities kūrimas](user-interface/build-workspace.md)
 ## Formos
-### [„Dynamics 365 for Finance and Operations, Enterprise edition‟ naršymas](user-interface/page-navigation.md)
-### [„Dynamics 365 for Finance and Operations, Enterprise edition‟ maketas](user-interface/page-layout.md)
+### [„Dynamics 365 for Finance and Operations‟ naršymas](user-interface/page-navigation.md)
+### [„Dynamics 365 for Finance and Operations‟ maketas](user-interface/page-layout.md)
 ### [Simbolių šriftas](user-interface/symbol-font.md)
 ### [Formų su pasirinktiniais šablonais bandymas](user-interface/testing-forms-custom-patterns.md)
 ### [Giliųjų saitų kūrimas ir naudojimas](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Debesies įdiegtis
 ### [„Azure‟ išteklių vadovo supažindinimas](deployment/arm-onboarding.md)
-### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations, Enterprise Edition‟](deployment/expressroute.md)
+### [„Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations‟](deployment/expressroute.md)
 
 ## [Vietinis visuotinis diegimas](deployment/on-premises-deployment-landing-page.md)
 ### [Vietinė apžvalga](deployment/on-premises-overview.md)
 ### [Vietinio visuotinio diegimo planavimas](deployment/plan-onprem-deployment.md)
-### [Aparatūros dydžio nustatymas](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Aparatūros dydžio nustatymas](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Vietinio projekto kūrimas](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Vietinių aplinkų konfigūravimas ir visuotinis diegimas](deployment/setup-deploy-on-premises-environments.md)
 #### [Visuotinis „Platform update 12“ diegimas vietinėje aplinkoje](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Vietos agento atnaujinimas](lifecycle-services/update-local-agent.md)
 ### [Aplinkos konfigūravimas iš naujo](lifecycle-services/reconfigure-environment.md)
 ### [Kliento interneto ryšys](user-interface/client-disconnected.md)
-### [„Dynamics 365 for Finance and Operations, Enterprise Edition“ vietinės versijos trikčių diagnostika](deployment/troubleshoot-on-prem.md)
+### [„Dynamics 365 for Finance and Operations“ vietinės versijos trikčių diagnostika](deployment/troubleshoot-on-prem.md)
 
 ## Visuotinis pasirinktinio kodo diegimas
 ### [Visuotinai diegiamo paketo kūrimas](deployment/create-apply-deployable-package.md)
@@ -527,9 +527,9 @@
 ### [AX 2012 versijos naujinimas – užduotys, atliktinos užbaigus versijos naujinimą](migration-upgrade/app-validation-process.md)
 ### [AX 2012 versijos naujinimas – funkcijų tikrinimas](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 versijos naujinimas – rengimasis paleidimui](migration-upgrade/upgrade-go-live-prep.md)
+### [AX 2012 versijos naujinimas – paleidimas](migration-upgrade/2012-upgrade-cutover.md)
 
-
-### Pakeitimai, turintys įtakos AX 2012 versijos naujinimui
+### Keitimai, turintys įtakos AX 2012 versijos naujinimui
 #### [Vieno kvito ir valiutos kurso pasikeitimo plėtojimas ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekto išteklių planavimo duomenų modelis](migration-upgrade/data-model-changes-resource-management.md)
 #### [Darbo eigos posistemės pokyčiai](migration-upgrade/workflow-subsystem.md)
@@ -588,9 +588,11 @@
 ### [Paketinio vykdymo serverio apžvalga](sysadmin/batch-server-overview.md)
 ### [Paketinės užduoties kūrimas](sysadmin/tasks/create-batch-job.md)
 
-## [Optimizavimo patarėjo taisyklių kūrimas](sysadmin/optimization-advisor.md)
+##  [Optimizavimo patariamojo įrankio apžvalga](sysadmin/optimization-advisor-overview.md)
+### [Optimizavimo patariamojo įrankio taisyklių kūrimas](sysadmin/create-rules-optimization-advisor.md)
 
-# „Lifecycle Services‟
+
+# „Lifecycle Services“
 ## [„Lifecycle Services“ apžvalga](lifecycle-services/lcs.md)
 ### [LCS klientams](lifecycle-services/lcs-works-lcs.md)
 ### [LCS partneriams](lifecycle-services/getting-started-lcs.md)
@@ -701,10 +703,10 @@
 ## [Smėlio dėžės duomenų bazės atnaujinimo užklausa](database/database-refresh.md)
 
 # Palaikymas
-## [„Dynamics 365 for Finance and Operations, Enterprise edition‟ ir „Lifecycle Services“ palaikymo gavimas](lifecycle-services/lcs-support.md)
+## [„Dynamics 365 for Finance and Operations‟ ir „Lifecycle Services“ palaikymo gavimas](lifecycle-services/lcs-support.md)
 ## [„Premier“ palaikymo bilieto registravimas](lifecycle-services/premier-support.md)
 ## [Užklausos teikimas „Dynamics‟ paslaugų inžinierių komandai](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [„Dynamics 365 for Finance and Operations, Enterprise edition‟ techninio palaikymo nustatymas](lifecycle-services/support-experience.md) 
+## [„Dynamics 365 for Finance and Operations‟ techninio palaikymo nustatymas](lifecycle-services/support-experience.md) 
 ## [DUK apie suplanuotą priežiūros laiko intervalą](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Debesies operacijos ir aptarnavimas](lifecycle-services/cloud-operations-servicing.md)
 ## [„Finance and Operations‟ palaikymo patirčių valdymas](lifecycle-services/cloud-powered-support-lcs.md)

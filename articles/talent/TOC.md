@@ -3,6 +3,8 @@
 # [Darbo pradžia](talent-get-started.md)
 ## [Sistemos reikalavimai ir naujinimo strategija](talent-versions-update-policy.md)
 ## [„Microsoft Dynamics 365 for Talent“ parengimas](provisioning-talent.md)
+## [„Talent“ aplinkos šalinimas](remove-test-environment.md)
+## [„Microsoft Dynamics 365 for Talent“ modulinių programų parengimas](modular-app-tech-faq.md)
 ## [„Talent“ funkcijų išplėtimas](extend-talent-functionality.md)
 
 # [Personalo strategijos kūrimas](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Klausimyno rezultatų įvertinimas](evaluate-questionnaire-results.md)
 
 # Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
-## [Formos I-9 tinkamumo įdarbinti tikrinimas](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [ADA laikymasis](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Formos I-9 tinkamumo įdarbinti tikrinimas](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [ADA laikymasis](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)

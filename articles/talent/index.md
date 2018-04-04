@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 02/15/2018
 + Mokymo kursų, kurie apima darbotvarkes, sesijas ir specializacijas, nustatymas, atlikimas ir analizė.
 
 > [!NOTE] 
-> „Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations, Enterprise edition‟ moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations, Enterprise Edition‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> „Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Personalo valdymo strategijos kūrimas
 ---------------------------------------------------------

@@ -3,8 +3,8 @@
 # Pradžia
 ## [Kas nauja ar pasikeitė](get-started/whats-new.md)
 ## [Prieš perkant „Dynamics 365 for Retail“](get-started/before-you-buy.md)
-## [Registravimasis prenumeratos peržiūros versijai gauti](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Visuotinis demonstracinės aplinkos diegimas](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Registravimasis prenumeratos peržiūros versijai gauti](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Visuotinis demonstracinės aplinkos diegimas](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Visuotinio diegimo parinktys](dev-itpro/choose-deployment.md)
 
 
@@ -46,20 +46,22 @@
 
 # „Modern Point of Sale“ (MPOS) ir „Cloud POS“
 ## [Pasirinkimas tarp „Modern POS“ ir „Cloud POS“](MPOS-or-CPOS.md)
-## [POS operacijos](POS-operations.md)
+## [EKA operacijos, prisijungus ir neprisijungus prie interneto](pos-operations.md)
 ## [MPOS / CPOS demonstracinių duomenų ekrano maketai](demo-data.md)
+## [Produktų ir klientų ieškos elektroniniame kasos aparate apžvalga](POS-search-improvements.md)
 ## Išoriniai aparatūros įrenginiai
-### [„Retail” išorinių įrenginių apžvalga](retail-peripherals-overview.md)
-### [„Microsoft“ išbandyti išoriniai POS aparatūros įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
+### [Mažmeninės prekybos išorinių įrenginių apžvalga](retail-peripherals-overview.md)
+### [„Microsoft“ išbandyti išoriniai EKA aparatūros įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
 ### [„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekrano maketas
 ### [POS ekrano maketų konfigūravimas](pos-screen-layouts.md)
 ### [„Retail POS“ maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
 ### [Pranešimo parametrų pasirinkimas](Notifications-POS.md)
-### [POS programos ir vartotojo kalbos parametrai](pos-application-user-language-settings.md)
+### [EKA programos ir vartotojo kalbos parametrai](pos-application-user-language-settings.md)
 ### [MPOS vaizdų nustatymas](set-up-manage-images-retail-mpos.md)
 ## [Informacijos kodų apžvalga](info-codes-retail.md) 
+## [Produktams su serijos numeriais taikomi EKA patobulinimai](serialized-inventory.md)
 ## Produktų rekomendacijos
 ### [Personalizuotų produktų rekomendacijų apžvalga](personalized-product-recommendations.md)
 ### [Rekomendacijų valdiklio įtraukimas į EKA įrenginį](add-recommendations-control-pos-screen.md)
@@ -97,7 +99,8 @@
 ## [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
 ## [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](optimal-combination-overlapping-discounts.md)
 ## [Kanalui būdingų nuolaidų nustatymas](define-channel-specific-discounts.md)
-## [„Retail” kuponų kūrimas](retail-coupons.md)
+## [Nuolaidų nesuteikimas mažmeninės prekybos produktams](prevent-discounts.md)
+## [Mažmeninės prekybos pardavimo kuponų kūrimas](retail-coupons.md)
 
 # Produktai ir prekyba
 ## [Produktų informacijos apžvalga](../supply-chain/pim/product-information.md)
@@ -105,6 +108,7 @@
 ## [Atributų ir atributų grupių apžvalga](attribute-attributegroups-lifecycle.md)
 ## [Atributų kūrimas ir valdymas](create-manage-attributes.md)
 ## [Mažmeninės prekybos produktų nustatymas](set-up-retail-products.md)
+## [Patobulintas produktų ir kategorijų valdymas](category-management-product-creation.md)
 ## [Produktų dimensijos](../supply-chain/pim/product-dimensions.md)
 ## [Brūkšninių kodų nustatymas](set-up-bar-codes.md)
 ## [Brūkšninių kodų skaičių sekų nustatymas](set-up-bar-code-masks.md)
@@ -190,13 +194,14 @@
 # [„Retail‟ programavimas ir administravimas](dev-itpro/dev-retail-home-page.md)
 
 ## Architektūra
-### [„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition – Retail‟ komponentai](retail-components.md)
+### [„Microsoft Dynamics 365 for Finance and Operations – Retail‟ komponentai](retail-components.md)
 ### [„Retail Server‟ architektūra](dev-itpro/retail-server-architecture.md)
 ### [„Retail‟ kanalų komunikacija](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS architektūra](dev-itpro/retail-modern-pos-architecture.md)
 ### [„Retail‟ internetinių parduotuvių publikavimo architektūra](dev-itpro/retail-online-store-publishing-architecture.md)
-### [„Retail‟ kanalo našumo „Power BI“ turinys](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [„Retail‟ kanalo našumo „Power BI“ turinys](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Mokėjimo programų duomenų saugos standartų (PA-DSS) sertifikatas](dev-itpro/PA-DSS-Certification.md)
+### [Mažmeninės prekybos galimybės vietinėse visuotinėse įdiegtyse](retail-onprem.md)
 
 ## Visuotinis diegimas ir karštosios pataisos
 ### [„Retail Store Scale Unit“ apžvalga](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [„Retail Hardware Station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md)
 ### [Masinis „Retail“ savitarnos komponentų diegimas](dev-itpro/retail-mass-deployment.md)
 ### [„Retail‟ komponentų įvykiai triktims diagnozuoti ir šalinti](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Visuotinai diegiamo paketo taikymas](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Visuotinai diegiamo paketo taikymas](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Plėtojimas ir N-1 palaikymas
 ### [Plėtojimo ir N-1 palaikymo apžvalga](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Įrenginių valdymo diegimo nurodymai](implementation-considerations-devices.md)
 
 ## Aplinkos konfigūracija
-### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [„Bing“ žemėlapių valdymas](dev-itpro/manage-bing-maps.md)
 
 ## Elektroninio kasos aparato išplečiamumas
