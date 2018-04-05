@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
+Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 
 Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijos yra vadinamos *darbu*. Darbas, pvz., paėmimas, perkėlimas ir turimų atsargų skaičiavimas, yra registruojamas naudojant mobiliuosius įrenginius. Prieš atlikdamas darbą sandėlio darbuotojas turi būti susietas su personalo darbuotoju. Su kiekviena sąskaita **Darbuotojas** gali būti susieti keli sandėlio darbo vartotojai. Tie darbo vartotojai gali dirbti skirtinguose sandėliuose ir gali turėti skirtingų lygių prieigą prie įvairių mobilių įrenginių meniu. Sandėlio darbo vartotojai gali būti laikomi keliais pasirinkto darbuotojo užsiregistravimais. Kiekvienas darbo vartotojas turi numatytąjį sandėlį ir jam taikomos konkrečios darbo eigos, atsižvelgiant į tam darbo vartotojui pasiekiamus meniu elementus. 
 

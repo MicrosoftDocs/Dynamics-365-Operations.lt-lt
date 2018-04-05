@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
 
 > [!NOTE] 
-> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 Žinyno sistema yra bendrai naudojama tolesniuose produktuose:
-- „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas
+- „Dynamics 365 for Finance and Operations‟
 - „Dynamics 365 for Retail‟
 - „Dynamics 365 for Talent‟
 
@@ -108,9 +108,9 @@ Dešinėje įveskite el. pašto adresą ir naują slaptažodį, norėdami svetai
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Pasiūlykite pakeitimų arba papildykite turinį naudodami „GitHub“
 Norint pasiūlyti pakeitimą, reikės susikurti „GitHub“ paskyrą ir pasirašyti bendraautoriaus licencijos sutartį.  Pateikus įtraukimo užklausą, peržiūrėsime jūsų siūlomus pakeitimus. Jei reikės, pakeitimus aptarsime įmonės viduje ir vėliau su jumis susisieksime.  
 
-Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba eikite į saugyklų puslapį adresu https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba apsilankykite saugyklos puslapyje: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-Daugiau informacijos ieškokite bendraautoriaus vadove: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+Norėdami daugiau informacijos, skaitykite mūsų bendraautoriaus vadovą: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]

@@ -1,6 +1,6 @@
 ---
 title: "Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo produktus sinchronizuojant su „Microsoft Dynamics 365 for Sales“."
+description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su Microsoft Dynamics 365 for Sales“."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [„Dynamics 365“ duomenų integravimo funkcija](/common-data-service/entity-reference/dynamics-365-integration).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo produktus tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Sales“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant tiesiogiai su „Microsoft Dynamics 365 for Sales“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas elektroninėse ataskaitose (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje, ER valdymo modelio susiejimo konfigūracijos, ir jūs turite turėti prieigą prie Microsoft Dynamics Lifecycle Services (LCS).
 
-Ši procedūra parodo, kaip kurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų, kad galėtumėte užtikrinti, kad atsisiųsta teisinga konfigūracija konkrečiai „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo, versijai. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. 
+Ši procedūra parodo, kaip kurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų, kad galėtumėte užtikrinti, kad atsisiųsta teisinga konfigūracija konkrečiai „Microsoft Dynamics 365 for Finance and Operations“ versijai. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. 
 
 Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas įmonės naudoja bendrai. 
 

@@ -1,6 +1,6 @@
 ---
 title: "Išankstinio savininko operacijos"
-description: "Sužinokite, kaip programoje „Microsoft Dynamics 365 for Finance and Operations‟ (leidimas „Enterprise‟) dirbti su išankstinio savininko operacijomis."
+description: "Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Finance and Operations“"
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0983e9738e2efade14307cf366efc341031714af
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e1fbb37c75052f10fdac3d3361e2c93c3c8a56c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Sužinokite, kaip programoje „Microsoft Dynamics 365 for Finance and Operations‟ (leidimas „Enterprise‟) dirbti su išankstinio savininko operacijomis.
+Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Finance and Operations“
 
 Šių darbuotojų, kurie yra avanso turėtojai, operacijas galima registruoti naudojant avanso turėtojo sąskaitas. Darbuotojo ID, kuris priskirtas kiekvienam išankstiniams savininkui, galima naudoti norint sekti visas avanso turėtojo operacijas. Šis numeris nuskaitomas kaip avanso turėtojo operacijų sąskaitos numeris puslapiuose **Bendrieji žurnalai** ir **Avanso turėtojo operacijos**.
 

@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Poreikio papildymo funkciją galima naudoti su pardavimo užsakymais, perkėlimo
 ## <a name="minmax-replenishment"></a>Min. / maks. papildymas
 Naudojant Min. / maks. papildymą, atsargos papildomos tarp didžiausios ir mažiausios nustatytos ribos. Paprastai šis procesas vykdomas vieną kartą per dieną, siekiant užtikrinti, kad prieš pradedant paėmimo procesą visos paėmimo vietos būtų užpildytos atsargomis iki didžiausios galimos ribos. 
 
-Didžiausi ir mažiausi galimi kiekiai yra nustatomi papildymo šablone. Daugelis kitų šablono parametrų yra panašūs į parametrus tuose šablonuose, kurie naudojami bangos poreikio papildyme. Šablone turi būti po vieną eilutę kiekvienai prekei ir vietai. Kai atliekate papildymą, naudodami paketinę užduotį, „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ įvertina, ar reikia papildymo, naudodamas eilutes tokia seka, kokia jos išdėstytos. 
+Didžiausi ir mažiausi galimi kiekiai yra nustatomi papildymo šablone. Daugelis kitų šablono parametrų yra panašūs į parametrus tuose šablonuose, kurie naudojami bangos poreikio papildyme. Šablone turi būti po vieną eilutę kiekvienai prekei ir vietai. Kai atliekate papildymą naudodami paketinę užduotį, „Microsoft Dynamics 365 for Finance and Operations“ įvertina, ar reikia papildymo, naudodama eilutes tokia seka, kokia jos išdėstytos. 
 
 Atkreipkite dėmesį, kad naudojant min. / maks. papildymo strategiją negalima papildyti tuščios vietos, išskyrus atvejus, kai vieta yra nustatyta kaip fiksuota prekės vieta. Jei vieta, kurią reikia papildyti, nėra fiksuota vieta, sistema negali nustatyti, kurią prekę reikia papildyti. Todėl prieš vykdant papildymą vietoje turi būti bent šiek tiek turimo prekės kiekio.
 

@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c858cc24cbba961024a67a2477d7271f64f9a0d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ Gamybos užsakymuose, kurie sudaryti pagal gamybos užsakymus, medžiaga išduod
 
 Siekiant sumažinti pristatymo iš vieno darbo centro į kitą vykdymo laiką ir atsargų perviršį, kurį lemia paketinė gamyba, „lean manufacturing“ gamybos ir sandėlio papildymo procesuose pradedami naudoti „kanban“ papildymo ir prekybos centrų antriniai procesai. Vykdant šiuos antrinius procesus paprastai nutraukiamas iš dalies nepriklausomų „kanban“ ciklų kūrimas. Apdorojant baigto produkto užsakymą daugiau nebesuaktyvinamas neužbaigto produkto „kanban“ papildymo antrinis procesas. 
 
-Kad būtų iš naujo nustatytas įvairių „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ pateikiamų „kanban“ scenarijų gamybos ir išlaidų kontekstas, kaip svarbiausias „lean manufacturing“ procesas pradėtos naudoti pagal veiklas sudarytos gamybos eigos. Visos „kanban“ taisyklės paremtos šia iš anksto nustatyta struktūra. Pagal veiklas sukurtas modelis palaiko daugiau scenarijų nei ankstesnėse programoje „Dynamics AX“ pateikiamose „Lean manufacturing“ versijose nustatymą. Tačiau, šis modelis nėra sudėtingesnis cecho darbuotojams, todėl, kad visuose scenarijuose naudojama ta pati pagal veiklą sukurta vartotojo sąsaja.
+Kad būtų iš naujo nustatytas įvairių „Microsoft Dynamics 365 for Finance and Operations“ pateikiamų „kanban“ scenarijų gamybos ir išlaidų kontekstas, kaip svarbiausias „lean manufacturing“ procesas pradėtos naudoti pagal veiklas sudarytos gamybos eigos. Visos „kanban“ taisyklės paremtos šia iš anksto nustatyta struktūra. Pagal veiklas sukurtas modelis palaiko daugiau scenarijų nei ankstesnėse programoje „Dynamics AX“ pateikiamose „Lean manufacturing“ versijose nustatymą. Tačiau, šis modelis nėra sudėtingesnis cecho darbuotojams, todėl, kad visuose scenarijuose naudojama ta pati pagal veiklą sukurta vartotojo sąsaja.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Neužbaigti produktai (ne KS lygiai)
 Naudojant „Microsoft Dynamics AX“ skirtą „lean manufacturing“ vienoje sistemoje integruojami inventorizuotų bei neužbaigtų produktų „kanban“, todėl vartotojai visuomet juos galės naudoti vienoje vietoje. Dėl šios architektūros savybių papildomų KS lygių nebereikia įvesti, siekiant įgalinti „kanban“, kuriuos ketinama naudoti su pusiau baigtais produktais. Ši architektūra taip pat padeda iki minimumo sumažinti atsargų operacijų.

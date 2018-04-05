@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Naudokite puslapį **Nustatyti SF išdavimo datos skaičiavimą**, kad nustatytu
 Galite nustatyti datos valdiklio parametrus užtikrindami, kad kliento operacijų klientų SF ir kredito pažymos sugeneruojamos per nurodytą laikotarpį nuo pristatymo datos. Šiuos parametrus galite rasti puslapio **Gautinų sumų parametrai** srityje **SF datos valdymas**.
 
 ## <a name="example"></a>Pavyzdys
-Norėdami nustatyti, kad „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) kaip ES vidaus siuntų SF išdavimo datą skaičiuotų penkioliktą kito mėnesio dieną po pristatymo, sukurkite datos intervalo kodą ir skaičiavimo taisyklę, kurie turėtų tokius parametrus.
+Norėdami nustatyti, kad „Microsoft Dynamics 365 for Finance and Operations“ kaip ES vidaus siuntų SF išdavimo datą skaičiuotų penkioliktą kito mėnesio dieną po pristatymo, sukurkite datos intervalo kodą ir skaičiavimo taisyklę, kurie turėtų tokius parametrus.
 
 ### <a name="date-interval-code"></a>Datos intervalo kodas
 

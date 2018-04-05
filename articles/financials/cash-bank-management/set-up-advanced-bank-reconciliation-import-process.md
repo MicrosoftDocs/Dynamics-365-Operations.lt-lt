@@ -1,6 +1,6 @@
 ---
 title: "Išplėstinio banko derinimo importavimo proceso nustatymas"
-description: "Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją."
+description: "Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Išplėstinio banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir juos automatiškai suderinti su banko operacijomis „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
+Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
 
 Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo formato. „Finance and Operations“ iš karto palaiko tris banko išrašų formatus: ISO20022, MT940 ir BAI2.
 
@@ -49,7 +49,7 @@ Naudodami bet kurį iš trijų formatų, privalote turėti failus, kurie elektro
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banko išrašų formatų ir techninių maketų pavyzdžiai
-Toliau pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Toliau pateikiami išplėstinio banko derinimo importavimo failo techninio maketo aprašų pavyzdžiai ir trys susijusių banko išrašo failų pavyzdžiai. https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Techninio maketo aprašas                             | Banko išrašo failo pavyzdys          |
 |---------------------------------------------------------|--------------------------------------|

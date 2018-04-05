@@ -1,6 +1,6 @@
 --- 
 title: "Konfigūracijos, skirtos importuoti duomenis iš išorinio failo CSV formatu (ER), kūrimas"
-description: "Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations‟, „Enterprise“ versiją."
+description: "Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations“."
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -16,24 +16,24 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 5c1766992531ee272ea156bc33c4c0ea8dfac27a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Konfigūracijos, skirtos importuoti duomenis iš išorinio failo CSV formatu (ER), kūrimas
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations‟, „Enterprise“ versiją. Šioje procedūroje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti procedūros „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
+Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations“. Šioje procedūroje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti procedūros „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
 
 Ši procedūra sukurta vartotojams, kuriems priskirtas vaidmuo Sistemos administratorius arba Elektroninių ataskaitų teikimo programuotojas. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. 
 
 Taip pat turite atsisiųsti ir įrašyti į savo kompiuterį šiuos failus: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Galite konfigūruoti procesą, skirtą importuoti išorinius failus XML, TXT arba CSV formatu į lenteles „Dynamics 365 for Finance and Operations“, „Enterprise“ versijos programoje. Pirmiausia turite sukurti abstraktų duomenų modelį, kuris verslo požiūriu atspindėtų importuotus duomenis – tam tikslui sukuriama ER duomenų modelio konfigūracija. Tada nurodykite importuoto failo struktūrą, kuri susieja sukurtą duomenų modelį, nes yra būdas nukreipti duomenis iš failo į abstraktų duomenų modelį – tam tikslui sukuriama ER formato konfigūracija. Tada ER duomenų modelio konfigūracija turi būti išplėsta įtraukiant naujo modelio susiejimą, kuriame aprašoma, kokiu būdu duomenys iš importuoto failo ir iš abstraktaus duomenų modelio išlaikyti duomenys naudojami norint atnaujinti programos lenteles arba duomenų objektus.  
+    * Galite konfigūruoti procesą, skirtą importuoti išorinius failus XML, TXT arba CSV formatu į lenteles „Dynamics 365 for Finance and Operations“ programoje. Pirmiausia turite sukurti abstraktų duomenų modelį, kuris verslo požiūriu atspindėtų importuotus duomenis – tam tikslui sukuriama ER duomenų modelio konfigūracija. Tada nurodykite importuoto failo struktūrą, kuri susieja sukurtą duomenų modelį, nes yra būdas nukreipti duomenis iš failo į abstraktų duomenų modelį – tam tikslui sukuriama ER formato konfigūracija. Tada ER duomenų modelio konfigūracija turi būti išplėsta įtraukiant naujo modelio susiejimą, kuriame aprašoma, kokiu būdu duomenys iš importuoto failo ir iš abstraktaus duomenų modelio išlaikyti duomenys naudojami norint atnaujinti programos lenteles arba duomenų objektus.  
     * Toliau nurodytuose veiksmuose vaizduojama, kaip išoriškai sekamos tiekėjų operacijos importuojamos iš išorinio CSV failo, kad vėliau jas būtų galima panaudoti atliekant tiekėjo 1099-ųjų formų sudengimą.   
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.

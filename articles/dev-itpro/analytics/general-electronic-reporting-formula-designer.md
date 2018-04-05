@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 12/23/2017
 
 ER palaiko formulių kūrimo įrankį. Todėl kūrimo metu galite konfigūruoti išraiškas, kurias galima naudoti tolesnių užduočių vykdymo metu.
 
-- Iš „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ duomenų bazės gautų duomenų, kurie turėtų būti įvesti ER duomenų modelyje, sukurtame kaip ER formatų duomenų šaltinis, transformavimas. (Pavyzdžiui, toks transformavimas gali būti filtravimas, grupavimas ir duomenų tipo konvertavimas.)
+- Iš „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazės gautų duomenų, kurie turėtų būti įvesti ER duomenų modelyje, sukurtame kaip ER formatų duomenų šaltinis, transformavimas. (Pavyzdžiui, toks transformavimas gali būti filtravimas, grupavimas ir duomenų tipo konvertavimas.)
 - Duomenų, kurie turi būti siunčiami į generuojamą elektroninį dokumentą pagal konkretaus ER formato maketą ir sąlygas, formatavimas. (Pvz., formatuoti galima pagal norimą kalbą ar kultūrą, arba kodavimą).
 - Elektroninių dokumentų kūrimo proceso kontroliavimas. (Pavyzdžiui, pagal apdorojamus duomenis išraiškomis galima įjungti ar išjungti tam tikrus išvedamus formato elementus. Jomis taip pat galima pertraukti dokumentų kūrimo procesą, ar pateikti pranešimus vartotojams.)
 
@@ -540,7 +540,7 @@ Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat patei
 </tr>
 <tr class="even">
 <td>FORMAT (1 eilutė, 2 eilutė[, 3 eilutė, …])</td>
-<td>Pateikti nurodytą eilutę, suformatuotą pakeičiant visus <strong>%N</strong> pasikartojimus <em>n</em>-uoju argumentu. Argumentai yra eilutės. Jei nėra pateiktas parametro argumentas, parametras eilutėje pateikiamas kaip <strong>&quot;%N&quot;</strong>. <strong>Realaus skaičiaus</strong> tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio.</td>
+<td>Pateikti nurodytą eilutę, suformatuotą pakeičiant visus <strong>%N</strong> pasikartojimus <em>-uoju</em> argumentu. Argumentai yra eilutės. Jei nėra pateiktas parametro argumentas, parametras eilutėje pateikiamas kaip <strong>&quot;%N&quot;</strong>. <strong>Realaus skaičiaus</strong> tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio.</td>
 <td>Tolesnėje iliustracijoje duomenų šaltinis <strong>PaymentModel</strong> pateikia klientų įrašus komponente <strong>Klientas</strong> ir apdorojimo datos reikšmę lauke <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>ER formate, skirtame generuoti elektroninį failą pasirinktiems klientams, <strong>PaymentModel</strong> yra pasirinktas kaip duomenų šaltinis ir kontroliuoja proceso eigą. Pateikiama išimtis, informuojanti vartotoją, kai pasirinktas klientas sustabdomas ataskaitos apdorojimo dieną. Formulė, sukurta šio tipo apdorojimo kontrolei, gali naudoti tokius išteklius:</p>

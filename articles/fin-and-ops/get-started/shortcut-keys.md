@@ -1,6 +1,6 @@
 ---
 title: "Spartieji klavišai"
-description: "Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations, Enterprise edition“."
+description: "Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations, Enterprise edition“. 
+Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟. 
 
 **Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
 
@@ -74,7 +74,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | „Alt“ + M, B arba „Ctrl“ + F2                        |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn |
-| Perkelti į &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Perkelti į  &lt;n&gt;-ąją „FactBox“ („FactBox“ sričiai esant suaktyvintai)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Išplėsti „FactBox“ („FactBox“ antraštei esant suaktyvintai)                             | Tarpo klavišas arba „Enter“ klavišas                            |
 | Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
 
@@ -115,11 +115,11 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | **Norėdami tai padaryti**                                      | **Spausti**                                    |
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
-| Perkelti į &lt;n&gt;-ąjį skirtuką                         | „Alt“ + „Shift“ + &lt;n&gt; (&lt;n&gt; = 1–9)        |
+| Perkelti į &lt;n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
 | Perkelti į kitą / ankstesnį „FastTab“                   | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn    |
-| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | „Alt“ + &lt;n&gt; (&lt;n&gt; = 1–9)              |
+| Perkelti į &lt;n&gt;-ąjį „FastTab“                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
 | Pereiti į kitą / ankstesnę mentę (vertikalųjį skirtuką)      | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
-| Pereiti į &lt;n&gt; mentę (vertikalųjį skirtuką)        | „Alt“ + „Shift“ + &lt;n&gt; (&lt;n&gt; = 1–9)        |
+| Pereiti į &lt;n&gt; mentę (vertikalųjį skirtuką)        | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
 | Išplėsti „FastTab“ („FastTab“ antraštei esant suaktyvintai) | Tarpo klavišas arba „Enter“ klavišas                               |
 | Sutraukti esamą „FastTab“                        | Alt + 0                                        |
 | Perjungti tinklelio rodinį                                 | Ctrl + Shift + G                                 |

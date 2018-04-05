@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Numatytuose „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimo užsakymo parametruose nurodyta vieta ir sandėlis, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
+Numatytuose „Microsoft Dynamics 365 for Finance and Operations“ užsakymo parametruose nurodyta vieta ir sandėlis, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
 
 Numatytuosius užsakymo parametrus galite nustatyti puslapyje **Numatytieji užsakymo parametrai**. Norėdami atidaryti šį puslapį, eikite į **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Išleisti produktai** &gt; **Pasirinkti išleistą produktą** &gt; veiksmų srityje **Planas** arba **Valdyti atsargas** &gt; **Užsakymo parametrai** &gt; **Numatytieji užsakymo parametrai**.
 

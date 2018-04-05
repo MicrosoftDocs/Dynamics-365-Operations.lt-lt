@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Naudodami išorinį katalogą galite užtikrinti, kad produktų ir kainų informacija, kurią vėliau apdorojate „Dynamics 365 for Finance and Operations‟ „Enterprise‟ 2017 m. liepos mėn. leidime, yra tiksli ir naujausia. Paraišką tada galima patvirtinti ir konvertuoti į pirkimo užsakymą, o užsakymą galima perduoti tiekėjui.
+Naudodami išorinį katalogą galite užtikrinti, kad produktų ir kainų informacija, kurią vėliau apdorojate „Dynamics 365 for Finance and Operations‟ 2017 m. liepos mėn. leidime, yra tiksli ir naujausia. Paraišką tada galima patvirtinti ir konvertuoti į pirkimo užsakymą, o užsakymą galima perduoti tiekėjui.
 
 Kai išorinis katalogo nustatytas ir darbuotojas rengia paraišką, bus galima pasirinkti ją nukreipti į išorinę svetainę, išorinį katalogą ir grąžinti išorinėje svetainėje sukurtą pirkinių krepšelį. Šis ryšys paremtas cXML protokolu ir jį reikia nustatyti tarp pirkimo ir pardavimo organizacijų sistemų.
 
@@ -85,7 +85,7 @@ Toliau galite rasti į šabloną įtrauktų žymių aprašą.
 
 Neesminis elementas yra papildoma informacija, pvz., išeinančio vartotojo vardas. Neesminis elementas nustatomas išeinant ir jį galima siųsti užklausos sąrankos pranešime.
 Jūsų tiekėjas gali reikalauti neesminį elementą gauti sąrankos užklausoje. Tokiu atveju neesminį elementą turite įtraukti į neesminių elementų sąrašą, esantį puslapio **Išorinis katalogas** skyriuje **Pranešimo formatas**. Nurodykite neesminio elemento pavadinimą, kurį galėtų atpažinti tiekėjas, ir susiekite jį su reikšme. Reikšmių parinktys: Vartotojo vardas, Vartotojo el. pašto adresas arba Atsitiktinė reikšmė.
-Daugiau informacijos cXML protokolą rasite http://cxml.org/
+Daugiau informacijos apie cXML protokolą ieškokite http://cxml.org/.
 
 ## <a name="post-back-message"></a>Grįžtamojo registravimo pranešimas
 Grįžtamojo registravimo pranešimas – tai iš tiekėjo gaunamas pranešimas, kai vartotojas išsiregistruoja iš išorinės svetainės ir grįžta į „Finance and Operations‟. Grįžtamojo registravimo pranešimų konfigūruoti negalima. Pranešimai paremti cXML protokolo apibrėžtimi. Čia pateikiama informacija, kuri gali būti siunčiama grįžtamojo registravimo pranešime, kuris gaunamas paraiškos eilutėje.

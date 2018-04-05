@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: d366ae53f4a9d8e676c3bc19e0450baa254cb716
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/07/2018
 ## <a name="overview"></a>Apžvalga 
 Pirkimo užsakymai, kuriuos reikia patvirtinti, pereina tvirtinimo darbo eigą. Darbo eigą gali sudaryti įvairūs veiksmai, kuriuos turi atlikti vienas ar keli asmenys. Pavyzdžiui, asmens gali būti reikalaujama atlikti užduotį ar patvirtinti pirkimo užsakymą. 
 
-Naudodami mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas** galite lengvai peržiūrėti pirkimo užsakymus ir į juos reaguoti savo mobiliajame įrenginyje. Šioje darbo srityje taip pat galite atlikti tuos pačius darbo eigų veiksmus, kuriuos galite atlikti „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ žiniatinklio kliente.
+Naudodami mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas** galite lengvai peržiūrėti pirkimo užsakymus ir į juos reaguoti savo mobiliajame įrenginyje. Šioje darbo srityje taip pat galite atlikti tuos pačius darbo eigų veiksmus, kuriuos galite atlikti „Microsoft Dynamics 365 for Finance and Operations“ žiniatinklio kliente.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Finance and Operations‟ versijos.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
+Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 

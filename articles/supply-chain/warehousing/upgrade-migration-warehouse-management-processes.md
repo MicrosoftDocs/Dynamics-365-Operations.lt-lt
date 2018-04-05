@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 4d94a5b2cc0e9ea144fbefc97cc27a2920016358
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama produkto ir sandėlio valdymo perkėlimo parinkčių apžvalga programoje „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidime.
+Šioje temoje pateikiama produkto ir sandėlio valdymo perkėlimo parinkčių apžvalga programoje „Microsoft Dynamics 365 for Finance and Operations“.
 
-<a name="introduction"></a>Įžanga
+<a name="introduction"></a>Įvadas
 ------------
 
 Naujinant „Finance and Operations“ produktai blokuojami, jeigu jie susiję su saugojimo dimensijų grupe, turinčia parametrų, kurie neatitinka „Finance and Operations“ saugojimo dimensijų grupės parametrų reikalavimų. Tačiau atnaujinę galite naudoti perkėlimo parinkčių rinkinį procese **Keisti prekių saugojimo dimensijų grupę** norėdami atblokuoti produktus, kurie buvo užblokuoti naujinant. Tada galite apdoroti tų produktų operacijas. Kai kurios jūsų prekės jau gali būti susietos su saugojimo dimensijų grupėmis kur Teritorijos, Sandėlio ir Vietos atsargų dimensijos yra aktyvios ir faktiškai sekamos. Tokiu atveju galite naudoti procesą **Keisti prekių saugojimo dimensijų grupę**, kad tas prekes būtų galima naudoti sandėlio valdymo procesuose. Ši funkcija yra naudinga, jei sandėlio valdymo funkcijas norite naudoti esamoms prekėms.

@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą. **Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį. Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidime, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
+-   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą. **Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį. Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne „Microsoft Dynamics 365 for Finance and Operations“, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 
 **Nustatykite, kokia turėtų būti jūsų įrašo trukmė**
 

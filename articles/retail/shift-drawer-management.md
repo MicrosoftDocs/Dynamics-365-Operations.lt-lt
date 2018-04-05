@@ -3,7 +3,7 @@ title: "Pamainos ir kasos stalčių valdymas"
 description: "Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai
 9.  Naudokite operaciją **Deklaruoti mokėjimo priemonę**, kad deklaruotumėte bendrą grynųjų pinigų sumą visuose bendrai naudojamos pamainos kasos stalčiuose.
 10. Naudokite operaciją **Uždaryti pamainą**, kad uždarytumėte bendrai naudojamą pamainą.
 
+## <a name="shift-operations"></a>Pamainos operacijos
+Pamainos būsenai pakeisti arba pinigų sumai stalčiuje padidinti ar sumažinti galima imtis įvairių veiksmų. Toliau pateiktame skyriuje aprašomos pamainos operacijos, skirtos „Dynamics 365 for Retail“ moderniai EKA ir debesies EKA.
 
+**Atidaryta pamaina**
 
+EKA reikia, kad pas vartotoją būtų aktyvi atidaryta pamaina ir būtų galima atlikti operacijas, kurių galutinė išraiška virstų finansine operacija, pvz., pardavimu, grąžinimu arba kliento užsakymu.  
 
+Jungiantis prie EKA sistema pirmiausia patikrina, ar pas vartotoją dabartiniame kasos aparate yra pasiekiama aktyvi pamaina. Jei pasiekiamos aktyvios paskyros nėra, tada, priklausomai nuo sistemos konfigūracijos ir teisių, vartotojas gali atidaryti naują pamainą, pratęsti esamą arba tęsti prisijungimą ne stalčiaus režimu.
+
+**Deklaruoti pradinę sumą**
+
+Ši operacija paprastai būna pirmas veiksmas, kurį reikia atlikti naujai atidarytoje pamainoje. Pradinę grynųjų pamainos pinigų sumą stalčiuje nurodo vartotojai. Tai svarbu, nes priklausomai nuo šios sumos uždarant pamainą skaičiavimas gali būtų per didelis arba per mažas.
+
+**Srauto įrašas**
+
+Nefiksuoti įrašai yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje, dėl kurių stalčiuje padidėja grynųjų pinigų suma. Įprastas nefiksuoto įrašo pavyzdys – papildyti grąžos likutį stalčiuje, kai šis baiginėjasi.
+
+**Mokėjimo priemonės šalinimas**
+
+Mokėjimo priemonės šalinimai yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje, siekiant sumažinti grynųjų pinigų sumą stalčiuje. Ši operacija dažniausiai atliekama kartu su nefiksuotu įrašu kitoje pamainoje. Pavyzdžiui, 1 kasos aparate mažėja grąžos likutis, todėl vartotojas 2 kasos aparate atlieka mokėjimo priemonės šalinimą, kad sumažintų sumą stalčiuje. Tada 1 kasos aparate vartotojas atlieka nefiksuotą įrašą, kad padidintų sumą.
+
+**Sustabdyti pamainą**
+
+Vartotojai gali sustabdyti aktyvią pamainą, kad atlaisvintų dabartinį kasos aparatą kitam vartotojui arba perkeltų jo pamainą į kitą kasos aparatą (šis veiksmas dar dažnai vadinamas nefiksuojama kasa). 
+
+Sustabdydami pamainą neleidžiate atlikti jokių naujų operacijų arba pakeitimų, kol pamaina nebus pratęsta toliau.
+
+**Pratęsti pamainą**
+
+Ši operacija leidžia vartotojui pratęsti anksčiau kasos aparate sustabdytą pamainą, kurioje dar nėra aktyvios pamainos.
+
+**Mokėjimo priemonių deklaravimas**
+
+Mokėjimo priemonių deklaravimas – tai veiksmas, kurį vartotojas atlieka, norėdamas nurodyti bendrą tuo metu stalčiuje esančių pinigų sumą. Šis veiksmas dažniausiai atliekamas prieš uždarant pamainą. Tai vertė, lyginama su prognozuojama pamaina, norint apskaičiuoti perviršio / trūkumo sumą.
+
+**Pinigų įnešimas į įmonės kasą**
+
+Pinigų įnešimus į įmonės kasą galima atlikti bet kuriuo metu, aktyvioje pamainoje. Atlikus šią operaciją iš stalčiaus pašalinami pinigai, todėl juos galima perkelti į saugesnę vietą, pvz., į seifą galiniame kambaryje. Bendra į įmonės kasą įneštų pinigų suma vis tiek įtraukiama į bendrąsias pamainos sumas, bet gali būti neskaičiuojama mokėjimo priemonių deklaravimo dalis.
+
+**Inkasavimas**
+
+Pinigų įnešimai į kasą, panašiai, kaip ir inkasavimas, taip pat atliekami aktyviose pamainose. Atlikus šią operaciją pinigai pašalinami iš pamainos, kad būtų pasiruošta banko indėliui.
+
+**Uždaryti pamainą anonimiškai**
+
+Anonimiškai uždaryta pamaina – tai nebeaktyvi, bet dar visiškai neuždaryta pamaina. Anonimiškai uždarytų pamainų, kitaip nei sustabdytų, toliau pratęsti negalima, tačiau kai kurias procedūras, pvz., pradinių sumų ir mokėjimo priemonių deklaravimus, galima atlikti vėliau arba kitame kasos aparate.
+
+Anonimiškai uždarytos pamainos dažnai naudojamos kasos aparatui atlaisvinti, kad įtraukiant naują vartotoją arba pamainą prieš tai nereikėtų visiškai perskaičiuoti, derinti ir uždaryti pamainos. 
+
+**Uždaryti pamainą**
+
+Atlikus šią operaciją apskaičiuojamos bendrosios pamainos sumos, perviršio / trūkumo sumos ir galutinai užbaigiama aktyvi arba anonimiškai uždaryta pamaina. Uždarytų pamainų, negalima pratęsti ar modifikuoti.  
+
+**Valdyti pamainas**
+
+Ši operacija leidžia vartotojams peržiūrėti parduotuvės aktyvias, sustabdytas ir anonimiškai uždarytas pamainas. Priklausomai nuo pamainų teisių, vartotojai gali atlikti galutines uždarymo procedūras, pvz., mokėjimo priemonių deklaravimą, ir galutinai uždaryti anonimiškai uždarytas pamainas. Atlikdami šią operaciją vartotojai taip pat galės peržiūrėti ir panaikinti netinkamas pamainas, kai, retais atvejais, perjungiant iš autonominio režimo į internetinį režimą ir atvirkščiai, jos paliekamos prastos būsenos. Netinkamose pamainose nėra pateikiama finansinės informacijos ar operacijų duomenų, reikalingų derinimui atlikti. 
 

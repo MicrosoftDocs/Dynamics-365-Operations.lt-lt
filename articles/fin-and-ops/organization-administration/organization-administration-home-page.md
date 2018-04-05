@@ -1,6 +1,6 @@
 ---
 title: Organizacijos administravimo pagrindinis puslapis
-description: "Šioje temoje nurodyti ištekliai, kurie padės organizacijoje naudoti „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“."
+description: "Šioje temoje nurodyti ištekliai, kurie padės organizacijoje naudotis „Microsoft Dynamics 365 for Finance and Operations“."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje nurodytas turinys, patyrusiems vartotojams ir administratoriams padėsiantis konfigūruoti „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“. Šis turinys jiems padės sistemą sukonfigūruoti taip, kad ji jūsų organizacijoje ir įmonėje veiktų sklandžiai bei efektyviai.
+Šioje temoje nurodytas turinys, patyrusiems vartotojams ir administratoriams padėsiantis konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“. Šis turinys jiems padės sistemą sukonfigūruoti taip, kad ji jūsų organizacijoje ir įmonėje veiktų sklandžiai bei efektyviai.
 
 Didelė čia pateikto turinio dalis taikoma modulio **Organizacijos administravimas** funkcijoms. Tačiau yra keletas užduočių, pavyzdžiui, įrašo šablono kūrimo ir naudojimo, kurias galima atlikti bet kokiame modulyje, kad organizacija galėtų veikti efektyviau. 
 

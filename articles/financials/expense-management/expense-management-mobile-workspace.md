@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,11 +42,11 @@ Daugelis organizacijų reikalauja, kad prie kompensacijai gauti darbuotojo patei
 
 Tiksliau sakant, naudodami mobiliąją darbo sritį **Įmonės katalogas** vartotojai gali atlikti toliau nurodytas užduotis.
 
-- Nufotografuoti kvitą ir tada nuotrauką įkelti į „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“. Tada tą nuotrauką pridėti prie išlaidų ataskaitos vėliau.
+- Nufotografuokite kvitą ir tada nuotrauką įkelkite į „Microsoft Dynamics 365 for Finance and Operations“. Tada tą nuotrauką pridėti prie išlaidų ataskaitos vėliau.
 - Įkelkite failą kaip kvito nuotrauką. Tada tą failą pridėti prie išlaidų ataskaitos vėliau.
 - Sukurkite naują išlaidų eilutę naudodami pridėtą kvitą. Tada eilutės elementą galima pridėti prie išlaidų ataskaitos vėliau ir pateikti ją patvirtinti bei kompensacijai gauti.
 
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“, taip pat galite naudoti toliau nurodytas funkcijas.
+Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“, taip pat galite naudoti toliau nurodytas funkcijas.
 
 - Kurti naują išlaidų ataskaitą.
 - Pridėti kredito kortelės operacijas ir kitais anksčiau sukurtas išlaidas prie išlaidų ataskaitos.
@@ -60,8 +60,8 @@ Jei naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise ed
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
+Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 

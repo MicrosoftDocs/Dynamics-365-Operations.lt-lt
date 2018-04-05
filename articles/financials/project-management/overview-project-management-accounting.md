@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Projektas yra veiklų, skirtų teikti paslaugoms, gaminti produktams ar siekti r
 ## <a name="projects-across-industries"></a>Įvairių pramonės šakų projektai
 Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje. [![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks jų pavadinimas naudojamas, šie projektai apima išteklius, grafikus bei išlaidas, ir „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
+Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks projektų pavadinimas naudojamas, jie apima išteklius, grafikus bei išlaidas, o „Microsoft Dynamics 365 for Finance and Operations‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
 
 ## <a name="project-phases"></a>Projekto etapai
 Nors tolesnis proceso srautas skirtas išoriniams projektams arba projektams, atliktiems vienam ar keliems klientams, funkcijos taip pat taikytinos vidiniams, tik išlaidų projektams. 

@@ -1,6 +1,6 @@
 --- 
 title: "Išlaidų objektų kūrimas  "
-description: "Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį."
+description: "Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“ išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 10/25/2016
@@ -16,17 +16,17 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d43274aed2edbb91fd4e399cb8d45e91646b055
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 21fa90557b665e0777935cc6bae8cd9f1c29cb60
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="create-cost-objects"></a>Išlaidų objektų kūrimas   
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį. Kuriant šią procedūrą buvo naudojama demonstracinių duomenų įmonė USMF. Ši procedūra yra skirta kaštų apskaitos funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.
+Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“ išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį. Kuriant šią procedūrą buvo naudojama demonstracinių duomenų įmonė USMF. Ši procedūra yra skirta kaštų apskaitos funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.
 
 
 ## <a name="create-new-cost-objects"></a>Naujų išlaidų objektų kūrimas

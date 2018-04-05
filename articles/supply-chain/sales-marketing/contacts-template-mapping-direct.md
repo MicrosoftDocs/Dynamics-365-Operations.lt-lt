@@ -1,6 +1,6 @@
 ---
 title: "Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ kontakto (kontaktai) ir kontakto (klientai) objektus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimu."
+description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ Objektus Kontaktas (Kontaktai) ir Kontaktas (Klientai) sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 6269b73dfca46d455784046199463d3f86e653ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 021a43c78cec83b23aff5dcc40db1a4be81aefc3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [„Dynamics 365“ duomenų integravimo funkcija](/common-data-service/entity-reference/dynamics-365-integration).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ kontakto (kontaktai) ir kontakto (klientai) objektus tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise“ leidimu.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ Objektus Kontaktas (Kontaktai) ir Kontaktas (Klientai) sinchronizuojant tiesiogiai su „Microsoft Dynamics 365 for Finance and Operations“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 

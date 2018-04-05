@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Šiame straipsnyje pristatyta projekto pasiūlymų koncepcija, kuria pasinaudoję klientui galite pateikti patrauklų pasiūlymą. Ir tai būtų pirmasis projekto etapo veiksmas. Projekto pasiūlymas gali apimti siūlomas prekes ir paslaugas, pagrindinę kontaktinę informaciją, specialias prekybos sutartis ir nuolaidas bei galimus mokesčius ir papildomus mokesčius. 
 
-Galimybė stebėti, peržiūrėti ir valdyti projekto pasiūlymų ir užsakymų pardavimo galimybes yra svarbi projektų valdymo dalis. Susidoroti su šiomis užduotimis gali padėti įvairūs „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo įrankiai. Pavyzdžiui, tinkamos nuorodos duomenų apibrėžtys (pasiūlymų tipai, pasiūlymo kilmė, prognozė ir tikimybė) padeda analizuoti pardavimo galimybę. Šiuos įrankius galite naudoti skirstydami į kategorijas priežastis, kodėl projekto pasiūlymas laimėjo ar pralaimėjo ir nustatyti galimai pasiūlymo vertei. 
+Galimybė stebėti, peržiūrėti ir valdyti projekto pasiūlymų ir užsakymų pardavimo galimybes yra svarbi projektų valdymo dalis. Susidoroti su šiomis užduotimis gali padėti įvairūs „Microsoft Dynamics 365 for Finance and Operations‟ įrankiai. Pavyzdžiui, tinkamos nuorodos duomenų apibrėžtys (pasiūlymų tipai, pasiūlymo kilmė, prognozė ir tikimybė) padeda analizuoti pardavimo galimybę. Šiuos įrankius galite naudoti skirstydami į kategorijas priežastis, kodėl projekto pasiūlymas laimėjo ar pralaimėjo ir nustatyti galimai pasiūlymo vertei. 
 
 Projekto pasiūlyme reikia įvesti paslaugas, pagrindinę kontaktinę informaciją, specialias prekybos sutartis ir nuolaidas bei galimus projekto mokesčius ir papildomus mokesčius. Taip pat galite pasirinkti projekto veiklas arba užduotis bei sukurti užduočių ir antrinių užduočių hierarchiją. Galite įvesti kiekvienos veiklos informaciją apie laiką ir trukmę bei apie veiklą vykdantiems darbuotojams reikiamus įgūdžius ir patirtį. 
 

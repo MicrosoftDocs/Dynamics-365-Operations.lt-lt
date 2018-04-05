@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Norėdami skaičiuoti PVM, kiekvienoje operacijoje (pardavimo / pirkimo dokument
 Vykdydami kiekvieną operaciją, apskaičiuotąjį PVM galite pasižiūrėti atidare puslapį **PVM operacija**. PVM galite pasižiūrėti dokumento eilutės arba viso dokumento. Tam tikruose dokumentuose (pvz., tiekėjo SF ir bendruosiuose žurnaluose), jei pradiniame dokumente rodomos sumos su nuokrypiais, apskaičiuotąjį PVM galite koreguoti.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>PVM sudengimas ir deklaravimas
-PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ suteikia funkcijų, kurios leidžia sudengti intervalo mokesčių sąskaitas ir kompensuoti likučius atsiskaitomojoje sąskaitoje, kaip nurodyta didžiosios knygos registravimo grupėse. Šias funkcijas galite pasiekti puslapyje **Sudengti ir registruoti PVM**. Turite nurodyti PVM sudengimo laikotarpį, už kurį reikia sudengti PVM. 
+PVM deklaruoti ir sumokėti mokesčių institucijoms reikia reguliuojamais intervalais (kas mėnesį, kas ketvirtį ir taip toliau). „Microsoft Dynamics 365 for Finance and Operations“ suteikia funkcijų, kurios leidžia sudengti intervalo mokesčių sąskaitas ir balansus subalansuoti PVM sudengimo sąskaitoje, kaip nurodyta DK registravimo grupėse. Šias funkcijas galite pasiekti puslapyje **Sudengti ir registruoti PVM**. Turite nurodyti PVM sudengimo laikotarpį, už kurį reikia sudengti PVM. 
 
 Sumokėjus PVM, PVM sudengimo sąskaitos balansas turėtų būti subalansuotas pagal banko sąskaitą. Jei PVM institucija, nurodyta PVM sudengimo laikotarpyje, yra susijusi su tiekėjo sąskaita, PVM balansas registruojamas kaip atidaryta tiekėjo SF ir gali būti įtrauktas į reguliarų mokėjimo pasiūlymą.
 

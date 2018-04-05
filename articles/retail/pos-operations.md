@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 - **Mygtukynas** – operacija gali būti priskirta EKA mygtukynams, priklausantiems EKA ekrano maketui.
 - **Operacijos ekranas** – operacija gali būti paleidžiama naudojant EKA mygtukynus, sukonfigūruotus EKA operacijos ekrane.
 - **Darbo pradžios ekranas** – operacija gali būti paleidžiama naudojant EKA mygtukynus, sukonfigūruotus EKA darbo pradžios ekrane.
+
+Pastaba. Toliau išvardytos operacijos taikomos naujausiai „Dynamics 365 for Retail‟ versijai. Kai kurios operacijos galėjo būti pakeistos arba gali būti nepasiekiamos ankstesnėse versijose.
 
 | ID | Operacija | aprašymas | Mygtukynas | Operacijos ekranas | Darbo pradžios ekranas | Pasiekiama neprisijungus | Būdingos vietai |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 703 | Užrakto registras | Užrakinkite dabartinį aparatą, kad juo nebūtų galima naudotis, bet neatjunkite dabartinio vartotojo. | Nr. | Nr. | Nr. | Taip | Nr. |
 | 701 | Išsiregistruoti | Atjunkite dabartį vartotoją iš aparato. | Taip | Taip | Taip | Taip | Nr. |
 | 521 | Lojalumo kortelės taškų balansas | Rodomas nurodytos lojalumo kortelės taškų balansas. | Taip | Taip | Nr. | Nr. | Nr. |
+| 918 | Valdyti pamainas | Rodomas aktyvių, sustabdytų ir anonimiškai uždarytų pamainų sąrašas. | Taip | Taip | Taip | Nr. | Nr. |
 | 914 | Minimizuoti EKA langą | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 1000 | Atidaryti stalčių | Atlikite operaciją „Neparduodama“ ir atidarykite tuo metu pasirinktą kasos stalčių. | Taip | Taip | Taip | Taip | Nr. |
 | 928 | Užsakymo įvykdymas | Ši operacija suteikia galimybę vartotojui paimti, supakuoti, siųsti arba atšaukti parduotuvėje paimtinus užsakymus. | Taip | Taip | Taip | Nr. | Nr. |
@@ -162,7 +165,6 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 638 | Nustatyti pardavimo atstovą eilutėje | Ši operacija leidžia vartotojui pasirinkti vieną galimų komisinių pardavimų grupių (pardavimo ats.) pasirinktai eilutei. | Taip | Taip | Nr. | Taip | Nr. |
 | 630 | Siųsti visus produktus | Įvykdymo režimą visoms eilutėms nustatykite į **Siuntimas**. | Taip | Taip | Nr. | Taip\* | Nr. |
 | 629 | Siųsti pasirinktus produktus | Pasirinktų eilučių įvykdymo režimą nustatykite į **Siuntimas**. | Taip | Taip | Nr. | Taip\* | Nr. |
-| 918 | Rodyti anonimiškai uždarytas pamainas | Rodomas anonimiškai uždarytų pamainų sąrašas. | Taip | Taip | Taip | Nr. | Nr. |
 | 115 | Rodyti žurnalą | Rodomas parduotuvės žurnalas. Galite peržiūrėti operacijas, perspausdinti kvitus ir dovanų kvitus ir atšaukti grąžinimą. | Taip | Taip | Taip | Taip\*\* | Nr. |
 | 802 | Inventorizacija | Ši operacija leidžia vartotojui kurti arba modifikuoti faktinių atsargų arba ciklo skaičiavimo inventorizacijos žurnalus. | Taip | Taip | Taip | Nr. | Nr. |
 | 401 | Submeniu | Ši operacija perkelia vartotoją į kitą susietą mygtukyną. | Taip | Taip | Taip | Taip | Nr. |

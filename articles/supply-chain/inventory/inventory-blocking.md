@@ -1,6 +1,6 @@
 ---
 title: "Atsargų blokavimas"
-description: "Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių."
+description: "Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics 365 for Finance and Operations“ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
+Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics 365 for Finance and Operations“ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 
 Atsargų prekes blokuoti galite toliau nurodytais būdais.
 -   Rankiniu būdu
@@ -64,7 +64,7 @@ Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami para
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 
-[Atsargų blokavimo kūrimas ir tvarkymas (užduočių vedlys)](tasks/create-maintain-inventory-blocking.md
+[Kurti ir tvarkyti atsargų blokavimą](tasks/create-maintain-inventory-blocking.md)
 
 [Kokybės valdymo procesai](quality-management-processes.md)
 

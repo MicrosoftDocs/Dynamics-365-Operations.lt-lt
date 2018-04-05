@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Naudokite puslapį **Finansinės dimensijos** kurdami finansines dimensijas, kur
 
 Sukūrę finansines dimensijas, naudokite puslapį **Finansinių dimensijų reikšmės**, kad kiekvienai finansinei dimensijai priskirtumėte papildomų ypatybių. 
 
-Kaip juridinių subjektų atitikmenis galite naudoti finansines dimensijas. Naudojant „Microsoft Dynamics 365 for Finance and Operations‟ leidimą „Enterprise‟ juridinių subjektų kurti nereikia. Tačiau finansinės dimensijos nėra skirtos patenkinti juridinių subjektų veiklos ar verslo poreikius. Susijusių vienetų apskaitos funkcija programoje „Finance and Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija. 
+Kaip juridinių subjektų atitikmenis galite naudoti finansines dimensijas. Naudojant „Microsoft Dynamics 365 for Finance and Operations“ juridinių subjektų kurti nereikia. Tačiau finansinės dimensijos nėra skirtos patenkinti juridinių subjektų veiklos ar verslo poreikius. Susijusių vienetų apskaitos funkcija programoje „Finance and Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija. 
 
 Prieš nustatydami finansines dimensijas kaip juridinius subjektus, įvertinkite savo verslo procesus toliau nurodytose srityse ir nustatykite, ar šis nustatymas veiks jūsų organizacijoje:
 

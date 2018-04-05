@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
+Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations‟. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
 
 Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).
 

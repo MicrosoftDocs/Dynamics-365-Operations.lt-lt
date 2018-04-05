@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Norėdami formatuoti tiekėjo čekius, galite naudoti elektronines ataskaitas (E
 
 Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics“ skirtą „Lifecycle Services“ (LCS) ir peržiūrėti dabartinį prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą, kad galėtumėte peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
-„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidime pateikiamas formato, kai čekis yra viršuje ir po jo eina dvi pavedimo dalys, pavyzdys. Taip pat pateikiamas formato, kai čekis yra viduryje, tarp dviejų pavedimo dalių, pavyzdys. Šių formatų pavyzdžiai atitinka „Deluxe“ verslo čekių formatus.
+„Microsoft Dynamics 365 for Finance and Operations“ pateikiamas formato, kai čekis yra viršuje ir po jo eina dvi pavedimo dalys, pavyzdys. Taip pat pateikiamas formato, kai čekis yra viduryje, tarp dviejų pavedimo dalių, pavyzdys. Šių formatų pavyzdžiai atitinka „Deluxe“ verslo čekių formatus.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
 
@@ -44,5 +44,5 @@ Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics�
 - Mes rekomenduojame atsispausdinti bandomąjį čekį ir patikrinti čekio maketą. Norėdami atsispausdinti bandomąjį čekį, pažymėkite parinktį **Bandomasis spausdinimas**. Čekio formatų pavyzdžius geriausiai naudoti tada, kai nustatyta išplėstinių „Microsoft Excel“ spausdintuvo ypatybių dalies **Paraštės** parinktis **Nėra**. Sugeneravę bandomąjį čekį įjunkite „Excel“ išvesties redagavimą ir sukonfigūruokite puslapio išdėstymą taip, kad būtų nustatyta visų paraščių parinktis **0** (nulis). Palyginkite bandomąją čekių kopiją su jūsų turimais čekiais ir koreguokite parametrus tol, kol nustatysite norimą lygiuotę.
 - Kai mokėjimo žurnale generuojate sukonfigūruotos banko sąskaitos mokėjimus, čekiai bus spausdinami naudojant nurodytą formatą.
 
-Daugiau informacijos rasite [Elektroninių ataskaitų formato modifikavimas](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)).
+Daugiau informacijos rasite [Elektroninių ataskaitų formato modifikavimas](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
 
