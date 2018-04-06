@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Norėdami apibrėžti visas užduotis, kurios yra uždarymo proceso dalis, naudo
 
 Galite priskirti šablono užduotį vienai arba kelioms įmonėms, kuriose ta užduotis taikoma. Jei kiekvienos įmonės tai darbo pastangai atlikti priskiriamas kitas asmuo, gali būti naudinga sukurti kelias tos pačios darbo pastangos užduotis. Sukurkite po vieną užduotį kiekvienai įmonei. 
 
-Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
+Meniu elementas **Užduoties saitas** susietas su užduoties darbo pastanga ir gali būti naudojamas norint pereiti iš darbo srities užduoties saito tiesiogiai į susietą puslapį. Pvz., uždarymo užduotis, skirta vykdyti mokėtinų sumų valiutos perkainojimo procesą, gali būti susijusi su susietu „Microsoft Dynamics 365 for Finance and Operations“ puslapiu **Užsienio valiutos kurso pasikeitimas**. Taip pat galite susieti su išoriniu URL. 
 
 > [!TIP]
 > Jei norite susieti konkrečią „Management Reporter“ ataskaitą su finansinio laikotarpio uždarymo užduotimi, galite naudoti ataskaitos URL. Norėdami pasiekti ataskaitų URL, atidarykite ataskaitą naudodami ataskaitų dizaino įrankį, tada spustelėkite **Failas** &gt; **Peržiūrėti ataskaitą** ir atidarykite ataskaitą žiniatinklio naršyklėje. Galite nukopijuoti naršyklės adreso juostoje esantį URL ir įklijuoti jį į lauką **Užduoties saitas** **URL**. 

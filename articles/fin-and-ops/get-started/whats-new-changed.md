@@ -3,7 +3,7 @@ title: "Kas nauja ar pasikeitė"
 description: "Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
-<td>Platformos „update 13“</td>
-<td>7.0.4764</td>
-<td>2018 m. sausio mėn. (Tai yra tikslinis leidimas, kurį gali naudoti tik tie vartotojai, kurie užsiregistravo Tęstinėje automatiškai atnaujinamų privalumų programoje (CAAP).)</td>
-<td><a href="whats-new-platform-update-13.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ su 13 platformos naujinimu (2018 m. birželio mėn.)</a></td><tbody>
+<td>Platformos „update 15“</td>
+<td>7.0.4839</td>
+<td>2018 m. kovo mėn. (Tai yra tikslinis leidimas, kurį gali naudoti tik tie vartotojai, kurie užsiregistravo Tęstinėje automatiškai atnaujinamų privalumų programoje (CAAP).)</td>
+<td><a href="whats-new-platform-update-15.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise“ leidimo platformos 15 naujinime (2018 m. kovo mėn.)</a></td><tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>Platformos „update 12“</td>

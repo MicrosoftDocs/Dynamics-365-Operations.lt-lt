@@ -1,6 +1,6 @@
 ---
 title: "Darbuotojo kompetencijų ir tobulėjimo „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Finance and Operations“ „Power BI“ turinys Darbuotojų kompetencijos ir tobulinimas."
+description: "Šioje temoje aprašytas „Finance and Operations“ darbuotojų kompetencijų ir tobulinimo „Power BI“ turinys."
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/19/2017
 [!include[banner](../includes/banner.md)]
 
 
-Šioje temoje aprašytas „Finance and Operations“ „Power BI“ turinys Darbuotojų kompetencijos ir tobulinimas. 
+Šioje temoje aprašytas „Finance and Operations“ darbuotojų kompetencijų ir tobulinimo „Power BI“ turinys. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Į turinio paketą įtrauktos ataskaitos
 Prijungus turinio paketą prie „Finance and Operations“ duomenų, ataskaitose rodomi jūsų organizacijos duomenys. Jei niekada nenaudojote „Microsoft Power BI“, daugiau apie tai galite sužinoti temoje [„Power BI“ mokymosi vedlio puslapis](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Į turinio paketą įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.

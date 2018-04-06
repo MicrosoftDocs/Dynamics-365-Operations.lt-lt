@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -91,6 +91,6 @@ Darbo užduotis galite tvarkyti puslapyje **Darbo užduotys**. Puslapyje **Darbo
 ## <a name="areas-of-responsibility"></a>Atsakomybės ribos
 Atsakomybės ribos naudojamos užduotį atliekančio darbuotojo darbo vaidmenims, procesams ir produktams, už kuriuos jis yra atsakingas, apibrėžti. Pvz., jei užduotis pavadinta „Buhalteris“, viena atsakomybės sritis gali būti apibrėžta kaip „A produkto finansinės ataskaitos“. Atsakomybės sritis galite tvarkyti puslapyje **Atsakomybės sritys**, kurį galite rasti naudodami ieškos funkciją. Puslapyje **Atsakomybės sritys** įveskite atsakomybės pavadinimą ir aprašymą. Lauke **Pastaba** galite pasirinktinai įvesti papildomą informaciją. Galima naujinti konkrečios užduoties pastabas, nepakeičiant čia įvestų pastabų.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Užduoties kūrimo veiksmai
+Nuoseklios naujos užduoties kūrimo procedūros žr. [Naujų užduočių nustatymas](../fin-and-ops/hr/tasks/define-new-jobs.md) temoje nuosekli procedūros kuriant naują padalinį. 
 

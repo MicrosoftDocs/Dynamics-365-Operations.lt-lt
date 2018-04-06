@@ -1,6 +1,6 @@
 ---
 title: "Biudžetų sudarymo modulio apžvalga"
-description: "Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ leidimą „Enterprise“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ (leidimas „Enterprise“) arba įkelti juos iš trečiosios šalies programos."
+description: "Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ leidimą „Enterprise“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
+Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
 
 <a name="overview"></a>Apžvalga
 --------
@@ -42,7 +42,7 @@ Galima naudoti kelis toliau pateiktus būdus, norint kurti biudžeto registro į
 
 -   Patys įveskite dokumento informaciją puslapyje **Biudžeto registro įrašai**.
 -   Naudokite „Microsoft Excel“ šabloną, kurį galite atidaryti spustelėdami mygtuką **Atidaryti „Excel“**, esantį puslapyje **Biudžeto registro įrašai**.
--   Naudokite puslapio **Biudžeto sąskaitos įrašai** dalies Duomenų valdymas duomenų objektą biudžeto registro įrašams importuoti. Galite apsvarstyti galimybę naudoti šį metodą ir įjungti parametrą **Apdorojimas pagal rinkinį**, kai į sistemą reikia importuoti daug biudžeto sąskaitos įrašų.
+-   Naudokite puslapio **Biudžeto sąskaitos įrašai** dalies Duomenų valdymas duomenų objektą biudžeto registro įrašams importuoti. Galite apsvarstyti galimybę naudoti šį metodą ir įjungti parametrą **Apdorojimas** **pagal rinkinį**, kai į sistemą reikia importuoti daug biudžeto sąskaitos įrašų.
 -   Jei įmonė naudoja funkciją Biudžeto planavimas biudžeto duomenims parengti, galite naudoti periodinio apdorojimo parinktį **Generuoti biudžeto registro įrašą**.
 
 Biudžeto registro įrašas bus laikomas atliktas, kai biudžeto balansai bus atnaujinti. Puslapyje **Biudžeto registro įrašai** spustelėkite pasirinkto biudžeto registro įrašo arba kelių įrašų parinktį **Atnaujinti biudžetų balansus**. Atnaujinus biudžeto balansus, biudžeto registro įrašo būsena pasikeičia į **Baigtas**. Baigto biudžeto registro įrašo negalima atidaryti iš naujo ir redaguoti. Todėl, jei reikia redaguoti biudžeto duomenis, turite sukurti naują biudžeto registro įrašą, o ne redaguoti baigto biudžeto registro įrašo duomenis.

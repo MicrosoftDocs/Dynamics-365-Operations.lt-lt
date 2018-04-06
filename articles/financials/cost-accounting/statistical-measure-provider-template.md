@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Statistinės dimensijos narys automatiškai tampa iš anksto apibrėžta paskirs
 
 ## <a name="statistical-measure-provider-template"></a>Statistinių priemonių teikimo įrankio šablonas
 
-Statistinės priemonės gali kilti iš įvairiausių šaltinių. „Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas yra puikus statistinių priemonių šaltinis. Naudodami statistinių priemonių teikimo įrankio šabloną galite lengvai konfigūruoti norimas ištraukti statistines priemones.
+Statistinės priemonės gali kilti iš įvairiausių šaltinių. „Microsoft Dynamics 365 for Finance and Operations‟ yra puikus statistinių priemonių išgavimo šaltinis. Naudodami statistinių priemonių teikimo įrankio šabloną galite lengvai konfigūruoti norimas ištraukti statistines priemones.
 
 Statistinių priemonių teikimo įrankio šablono apibrėžtis yra bendro pobūdžio ir ją galima pakartotinai naudoti su keliais statistinių dimensijų nariais.
 
@@ -132,13 +132,13 @@ Kad statistines priemones galėtumėte perkelti į modulį Kaštų apskaita, tur
 > [!NOTE]
 > Šiame pavyzdyje ryšį sukursime tik **faktinei versijai**.
 
-Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų teikimo įrankį **„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas – statistinės priemonės**, nes duomenis norime išgauti iš „Finance and Operations‟.
+Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų teikimo įrankį **„Dynamics 365 for Finance and Operations‟ – statistinės priemonės**, nes duomenis norime išgauti iš „Finance and Operations‟.
 
 **Duomenų šaltinis**
 
 | Vardas        | Duomenų jungtis                                                                     | Statistinės dimensijos narys |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| Visu etatu dirbantys darbuotojai D365FO | „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas – statistinės priemonės | Visu etatu dirbantys darbuotojai                         |
+| Visu etatu dirbantys darbuotojai D365FO | „Dynamics 365 for Finance and Operations‟ – statistinės priemonės | Visu etatu dirbantys darbuotojai                         |
 
 **Duomenų teikimo įrankio konfigūracija**
 
@@ -220,13 +220,13 @@ Kad statistines priemones galėtumėte perkelti į modulį Kaštų apskaita, tur
 > [!NOTE]
 > Šiame pavyzdyje ryšį sukursime tik **faktinei versijai**.
 
-Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų teikimo įrankį **„Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas – statistinės priemonės**, nes duomenis norime išgauti iš „Finance and Operations‟.
+Norėdami nustatyti ryšį, eikite į **Didžioji kaštų apskaitos knyga** \> **Faktinė versija** \> **Valdyti** \> **Statistinės priemonės**. Šiuo atveju pasirinkite duomenų teikimo įrankį **„Dynamics 365 for Finance and Operations‟ – statistinės priemonės**, nes duomenis norime išgauti iš „Finance and Operations‟.
 
 **Duomenų šaltinis**
 
 | Vardas           | Duomenų jungtis                                                                     | Statistinės dimensijos narys |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakavimo CC D365FO | „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas – statistinės priemonės | Pakavimo CC                      |
+| Pakavimo CC D365FO | „Dynamics 365 for Finance and Operations‟ – statistinės priemonės | Pakavimo CC                      |
 
 Sistema atpažįsta, kad ProdRouteTrans yra lentelė, kurioje kiekvienas įrašas priklauso atskiram juridiniam subjektui. Todėl jūsų bus paprašyta pasirinkti juridinį subjektą, iš kurios reikia importuoti operacijas.
 

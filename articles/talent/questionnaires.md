@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/08/2018
 
 Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
 
-Naudodami įvairias „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition‟ funkcijas, klausimyną galite tinkinti pagal konkrečius reikalavimus. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.
+Naudodami įvairias funkcijas, kurias galima naudoti programoje „Microsoft Dynamics 365 for Finance and Operations‟, klausimyną galite tinkinti pagal konkrečius reikalavimus. Toliau pateikti keli pavyzdžiai, kaip galima naudoti klausimynus.
 
 -   Tikrinant darbuotojų ir pretendentų profesinius įgūdžius.
 -   Įvertinant, ar kurso dalyviai išmoko kurso medžiagą.

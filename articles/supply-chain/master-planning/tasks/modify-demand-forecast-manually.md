@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 799dd89433ff561fd8a5cc5c082165ef9bb74923
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modifikuoti poreikio prognozę neautomatiškai
@@ -44,6 +44,6 @@ ms.lasthandoff: 09/29/2017
 ## <a name="modify-the-forecast-in-excel"></a>Modifikuoti prognozę „Excel“ programoje
 1. Spustelėkite „Atidaryti naudojant „Microsoft Office“.
 2. Spustelėkite „Redaguoti poreikio prognozę „Excel“ programoje“.
-    * „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“, turite prisijungti prie „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą ir įjungti parinktį „Palikite mane prisijungusį", taip pat turite pasitikėti duomenų ryšio programa.  
+    * „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“, turite prisijungti prie „Microsoft Dynamics 365 for Finance and Operations“ ir įjungti parinktį „Likti prisijungus", taip pat turite pasitikėti duomenų ryšio programa.  
 
 

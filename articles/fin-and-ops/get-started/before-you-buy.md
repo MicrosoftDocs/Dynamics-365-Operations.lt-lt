@@ -1,6 +1,6 @@
 ---
 title: "Prieš perkant"
-description: "Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 for Finance and Operations“ („Enterprise“ leidimą)."
+description: "Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 for Finance and Operations“."
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 01/31/2018
 
 [!include[banner](../includes/banner.md)]
 
-Pirmą kartą naudojate „Dynamics 365 for Finance and Operations‟ („Enterprise‟ leidimą)? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino „Finance and Operations“, ir tiems, kurie jau yra pasirengę įsigyti.
+Naujas „Dynamics 365 for Finance and Operations“ vartotojas? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino „Finance and Operations“, ir tiems, kurie jau yra pasirengę įsigyti.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: bandykite „Finance and Operations“ 30 dienų nemokamai
 „Dynamics 365 for Finance and Operations“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Daugiau informacijos ieškokite adresu [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
-Dabar „Microsoft Dynamics 365 for Finance and Operations‟ („Enterprise‟ leidimą) galite diegti debesyje arba vietoje. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
+Dabar „Microsoft Dynamics 365 for Finance and Operations“ galite diegti debesyje arba kaip vietinę versiją. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
 
 Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižvelgti į tolesnius dalykus.
 - Reguliaciniai ir atitikties reikalavimai, kurių nėra [debesies sertifikatuose](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
@@ -43,7 +43,7 @@ Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižv
 - [Minimalūs infrastruktūros reikalavimai](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Vietinės visuotinės „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Azure“. 
+> Vietinės visuotinės „Microsoft Dynamics 365 for Finance and Operations“ įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Azure“. 
 
 Norėdami gauti daugiau informacijos, žr. [Visuotinio diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -70,7 +70,7 @@ Naudojant bendrąjį licencijavimą, „Finance and Operations“ galima pasiekt
 Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis gali glaudžiai bendradarbiauti „Microsoft“ debesies sprendimų teikėjas. [Norėdami rasti jūsų poreikius atitinkantį partnerį, naudokitės „Microsoft“ partnerių centro portalu](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos ieškokite [„Dynamics 365 for Finance and Operations“ („Enterprise“ leidimo (vietinės versijos)) pirkimas](purchase-on-premises.md)
+Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos žr. [„Dynamics 365 for Finance and Operations“ (vietinė versija) pirkimas](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Pasirinkite reikiamos pagalbos parinktį
 „Microsoft“ teikia lanksčią, pramonėje pirmaujančią pagalbą, paslaugas ir išteklius, suteikiančias vartotojams galimybę greitai spręsti technines problemas ir maksimaliai padidinti investicijų į „Dynamics 365“ grąžą. Pasirinkite geriausiai jūsų verslo poreikius atitinkantį planą. 

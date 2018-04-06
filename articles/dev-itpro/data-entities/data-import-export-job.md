@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Norint sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
+Norint sprendime „Microsoft Dynamics 365 for Finance and Operations“ kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 
 > [!NOTE]
 > Šioje temoje laikoma, kad esate susipažinę su [duomenų objektais](data-entities.md).
@@ -66,7 +66,7 @@ Rekomenduojame atidžiai pasirinkti tinkamą importavimo arba eksportavimo uždu
 ### <a name="set-the-data-format-for-the-job"></a>Užduoties duomenų formato nustatymas
 Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba importuojami, formatą. Formatai apibrėžiami naudojant plytelę **Duomenų šaltinių nustatymas**. Daugelis organizacijų iš pradžių naudoja formatus, pagal numatytuosius parametrus įtrauktus į demonstracinių duomenų rinkinį. Toliau pateikiamas kelių tokių formatų sąrašas.
 
-- AX (duomenims, kurie turi būti importuojami arba eksportuojami tokiu pačiu formatu, kuris naudojamas sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“)
+- AX (skirta duomenims, kurie turi būti importuojami arba eksportuojami tokiu pačiu formatu, kuris naudojamas sprendime „Microsoft Dynamics 365 for Finance and Operations“)
 - ColonSeparated
 - CSV
 - Excel

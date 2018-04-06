@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Skyriuje **Užduotys ir būsena** bendra duomenų tikrinimo projekto būsena rod
 Paskutinis skirtukas skirtas išsamiam užduočių sąrašui. Šiame sąraše išvardijamos visos užduotys.
 Užduočių sąrašą galite filtruoti keliais būdais. Norėdami pakeisti užduoties būseną arba priskirti užduotį, spustelėkite **Redaguoti užduotį**. Norėdami peržiūrėti užduoties priedus, spustelėkite **Priedai**.
 
-Užduoties pavadinimas yra nuorodą į „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise‟) puslapį arba kitą tinklalapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šį hipersaitą galite nustatyti naudodami lauką **Meniu elemento pavadinimas**, kai redaguojate arba kuriate užduotį naudodami formą **Konfigūruoti duomenų tikrinimo projektą**.
+Užduoties pavadinimas yra nuorodą į „Microsoft Dynamics 365 for Finance and Operations“ puslapį arba kitą tinklalapį, kuriame turi apsilankyti vartotojas, norėdamas užbaigti darbą. Šį hipersaitą galite nustatyti naudodami lauką **Meniu elemento pavadinimas**, kai redaguojate arba kuriate užduotį naudodami formą **Konfigūruoti duomenų tikrinimo projektą**.
 
 Naudodami veiksmą **Priedai** prie užduoties galite pridėti failus, pastabas, vaizdus ir URL. Pavyzdžiui, galite pridėti išspausdintą užduoties ataskaitos failą. Jei esama priedo, užduoties stulpelyje **Priedas** atsiranda piktograma.
 

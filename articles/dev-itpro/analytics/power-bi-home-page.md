@@ -19,10 +19,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,8 +32,8 @@ ms.lasthandoff: 02/23/2018
 
 Šioje temoje nurodytas pasiekiamas „Microsoft Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>„Dynamics 365 for Finance and Operations Enterprise edition“ „Power BI“ turinys
-Jei naudojate „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“, pasiekiamas toliau nurodytas „Power BI“ turinys.
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>„Dynamics 365 for Finance and Operations“ „Power BI‟ turinys
+Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“, pasiekiamas toliau nurodytas „Power BI“ turinys.
 
 - [„Power BI‟ turinys Faktinis palyginti su biudžeto](ledger-budgets-power-bi.md)
 - [„Power BI“ turinys Išmokos](benefits-power-bi.md)

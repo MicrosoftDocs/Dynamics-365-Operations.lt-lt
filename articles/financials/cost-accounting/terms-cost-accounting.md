@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ Paskirstymo bazė naudojama matuoti ir kiekybiškai išreikšti veikloms, pvz., 
 
 **Kaštų apskaita**
 
-Naudodami kaštų apskaitą galite rinkti duomenis iš įvairių šaltinių, pvz., didžiosios knygos, antrinių didžiųjų knygų, biudžetų ir statistinės informacijos. Tada galite analizuoti, apibendrinti ir įvertinti išlaidų duomenis, kad vadovybė galėtų priimti geriausius sprendimus dėl kainos atnaujinimų, biudžetų, išlaidų valdymo ir t. t. Išlaidų analizei naudojami šaltinio duomenys kaštų apskaitoje apdorojami atskirai. Todėl kaštų apskaitos naujinimai neturi įtakos šaltinio duomenims. Tačiau, kai surenkate išlaidų duomenis iš įvairių šaltinių ir ypač, kai importuojate pagrindines sąskaitas iš didžiosios knygos į „Microsoft Dynamics 365 for Finance and Operations“ „Enterprise‟ leidimą kaip išlaidų elementus, duomenys dubliuojasi, nes tie patys duomenys yra didžiojoje knygoje ir modulyje Kaštų apskaita. Šis dubliavimasis reikalingas, nes išorinėse ataskaitose naudojate finansinį valdymą, o vidinėse ataskaitose – kaštų apskaitą.
+Naudodami kaštų apskaitą galite rinkti duomenis iš įvairių šaltinių, pvz., didžiosios knygos, antrinių didžiųjų knygų, biudžetų ir statistinės informacijos. Tada galite analizuoti, apibendrinti ir įvertinti išlaidų duomenis, kad vadovybė galėtų priimti geriausius sprendimus dėl kainos atnaujinimų, biudžetų, išlaidų valdymo ir t. t. Išlaidų analizei naudojami šaltinio duomenys kaštų apskaitoje apdorojami atskirai. Todėl kaštų apskaitos naujinimai neturi įtakos šaltinio duomenims. Tačiau, kai surenkate išlaidų duomenis iš įvairių šaltinių ir ypač, kai importuojate pagrindines sąskaitas iš didžiosios knygos į „Microsoft Dynamics 365 for Finance and Operations“ kaip išlaidų elementus, duomenys dubliuojasi, nes tie patys duomenys yra didžiojoje knygoje ir kaštų apskaitoje. Šis dubliavimasis reikalingas, nes išorinėse ataskaitose naudojate finansinį valdymą, o vidinėse ataskaitose – kaštų apskaitą.
 
 **Savikainos apskaitos didžioji knyga**
 
@@ -120,7 +120,7 @@ Yra dvi dimensijų hierarchijos: kategorijų hierarchija ir klasifikacijos hiera
 Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naudojant įvairias duomenų jungtis. Galima naudoti tolesnes duomenų jungtis.
 
 -  Importuotos operacijos (sukonfigūruota iš anksto)
--  „Dynamics 365 for Finance and Operations, Enterprise edition“ (sukonfigūruota iš anksto)
+-  „Dynamics 365 for Finance and Operations“ (sukonfigūruota iš anksto)
 -  „Dynamics AX“ (reikia sukonfigūruoti)
 
 **Pastaba.** Duomenų jungtis Importuotos operacijos paremta duomenų objektais.
@@ -129,7 +129,7 @@ Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naud
 
 Dauguma šaltinio sistemų gali pateikti duomenų, sutampančių su vienu ar keliais modulio Kaštų apskaita duomenų šaltiniais. Norint šaltinio sistemų duomenis sulygiuoti su modulio Kaštų apskaita duomenų šaltiniu, reikia sukonfigūruoti duomenų teikėją. Tolesnėje lentelėje išvardijama, kokius duomenų teikėjus galima naudoti su kiekviena duomenų jungtimi ir duomenų šaltiniu.
 
-|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **Duomenų jungtis „Dynamics 365 for Finance and Operations, Enterprise edition“**  | **Duomenų jungtis „Dynamics AX“**  |
+|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **Duomenų jungtis „Dynamics 365 for Finance and Operations“**  | **Duomenų jungtis „Dynamics AX“**  |
 |---|---|---|---|
 | Savikainos elemento dimensijos nariai  |  Taip | Taip  | Taip  |
 |  Savikainos objekto dimensijos nariai |  Taip | Taip  | Taip  |

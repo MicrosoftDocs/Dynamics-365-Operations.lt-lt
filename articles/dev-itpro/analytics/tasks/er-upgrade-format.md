@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: db9e66a67f20ca24de3a020c1871cdda0cf2f9be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Formato naujinimas elektroninėse ataskaitose (ER), pritaikant naują pagrindinę to formato versiją
@@ -107,7 +107,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūrų „Konf
     * Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1.1.1 baigta versija. Tai reiškia, kad tai yra 1-oji pasirinktinio BACS (JK fiktyvus pasirinktinis) formato versija, kuri paremta 1-ąja BACS (JK fiktyvus) formato versija, kuri paremta 1-ąja mokėjimų (suprastintasis modelis) duomenų modelio versija.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
-Lygiagrečiame „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
+Lygiagrečiame „Dynamics 365 for Finance and Operations“ seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Esamos konkrečios šalies konfigūracijos naujinimas
 „Litware, Inc.“ turi atnaujinti BACS (JK fiktyvus) konfigūraciją ir įgyvendinti naujus šalies reikalavimus dėl elektroninio dokumento formato valdymo. Vėliau tai bus įtraukta į naują šios konfigūracijos versiją, kuri bus teikiama aptarnavimo abonentams, įskaitant „Proseware, Inc.‟  
@@ -203,6 +203,6 @@ Atnaujintos pagrindinės formato konfigūracijos būseną iš Juodraštis pakeis
     * Atkreipkite dėmesį, kad sukurtoji konfigūracija įrašoma kaip baigta 1.2.2 versija: 2-oji pagrindinio BACS (JK fiktyvus pasirinktinis) formato versija, paremta 2-ąja pagrindinio BACS (JK fiktyvus) formato versija, kuri paremta 1-ąja mokėjimų (suprastintasis modelis) duomenų modelio versija.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
-Lygiagrečiame „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
+Lygiagrečiame „Dynamics 365 for Finance and Operations“ seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
 
 

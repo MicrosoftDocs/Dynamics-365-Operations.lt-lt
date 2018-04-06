@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 12/01/2017
 
 Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
 
-- Vartotojai gali peržiūrėti, redaguoti ir naudoti verslo duomenis net jei jų tinklo ryšys yra kintamas arba jų mobilieji įrenginiai yra visiškai neprisijungę. Kai įrenginyje atkuriamas tinklo ryšys, neprisijungus atliktos duomenų operacijos automatiškai sinchronizuojamos su „Dynamics 365 for Finance and Operations, Enterprise edition‟ arba „Microsoft Dynamics 365 for Finance and Operations‟.
+- Vartotojai gali peržiūrėti, redaguoti ir naudoti verslo duomenis net jei jų tinklo ryšys yra kintamas arba jų mobilieji įrenginiai yra visiškai neprisijungę. Kai įrenginys iš naujo užmezga ryšį, atsijungus atliktos duomenų operacijos yra automatiškai sinchronizuojamos su „Dynamics 365 for Finance and Operations“.
 - IT administratoriai arba kūrėjai gali kurti ir publikuoti mobiliąsias darbo sritis, kurios pritaikytos jų organizacijai. Programa naudoja jūsų esamą kodo turtą. Todėl jums nereikia iš naujo diegti tikrinimo procedūrų, verslo logikos arba saugos konfigūracijos.
 - IT administratoriai arba kūrėjai gali lengvai kurti mobiliąsias darbo sritis naudodami nurodymo ir spustelėjimo tipo darbo sričių dizaino įrankį, įtrauktą į žiniatinklio klientą.
 - IT administratoriai arba kūrėjai gali pasirinktinai optimizuoti darbo sričių naudojimo neprisijungus galimybes naudodami verslo logikos išplėtimo sistemą. Kadangi duomenys toliau apdoroti, kai įrenginys neprisijungęs, jūsų mobilieji scenarijai bus vaizdingi ir sklandūs net jei įrenginiai ne visada prijungti prie tinklo.
@@ -90,7 +90,7 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <tr class="even">
 <td>2</td>
 <td>Sistemos administratorius</td>
-<td><strong>Jei naudojate „Microsoft Dynamics 365 for Finance and Operations‟ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft‟ teikiamas mobiliąsias darbo sritis.</td>
+<td><strong>Jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją:</strong> atsisiųskite ir įdiekite KB, kurie įgalina „Microsoft“ teikiamas mobiliąsias darbo sritis.</td>
 <td>Daugiau informacijos ieškokite šiose temose:
 <ul>
 

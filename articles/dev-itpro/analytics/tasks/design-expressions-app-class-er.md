@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Išraiškų kūrimas, kad būtų galima iškviesti programos klasių metodus (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus. Klasių iškvietimo argumentų vertės gali būti nurodytos dinamiškai vykdymo laiku: pavyzdžiui, pagal analizavimo dokumente pateikiamą informaciją, kad būtų užtikrinamas jos tikslumas. Šiame vadove kursite reikiamas ER konfigūracijas pavyzdinei įmonei „Litware, Inc.“. Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo. 
 
-Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Taip pat tam tikroje vietoje turite atsisiųsti ir įrašyti šį failą: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Taip pat turite atsisiųsti ir įrašyti šį failą vietiniame diske: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
-    * Tarkime, kad jūs kuriate gaunamų banko išrašų analizavimo procesą, skirtą atlikti programos duomenų naujinimą. Banko išrašus gausite kaip TXT failus, kuriuose nurodyti IBAN kodai. Atlikdami banko išrašo importavimo procesą, turite patikrinti, ar šie IBAN kodai teisingi, pagal logiką, kuri jau prieinama „Dynamics 365 for Finance and Operations‟, „Enterprise“ versijoje.   
+    * Tarkime, kad jūs kuriate gaunamų banko išrašų analizavimo procesą, skirtą atlikti programos duomenų naujinimą. Banko išrašus gausite kaip TXT failus, kuriuose nurodyti IBAN kodai. Atlikdami banko išrašo importavimo procesą, turite patikrinti, ar šie IBAN kodai teisingi, pagal logiką, kuri jau prieinama „Dynamics 365 for Finance and Operations“.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importuoti naują ER modelio konfigūraciją
 1. Sąraše raskite ir pasirinkite norimą įrašą.

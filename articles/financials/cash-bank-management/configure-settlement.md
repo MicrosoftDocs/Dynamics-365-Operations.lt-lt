@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šiame straipsnyje aprašyti parametrai, kurie naudojami Mokėtinoms sumoms ir Gautinoms sumoms sudengti. 
 
-Šie parametrai lemia, kaip „Microsoft Dynamics 365 for Finance and Operations“ (leidimas „Enterprise“) apdoroja sudengimus. Sudengimas yra procesas, kurio metu SF sudengiama su mokėjimu arba kredito pažyma. Šie parametrai yra srityje **Sudengimas** puslapiuose **Gautinų sumų parametrai** ir **Mokėtinų sumų parametrai**.
+Šie parametrai lemia, kaip „Microsoft Dynamics 365 for Finance and Operations“ apdoroja sudengimus. Sudengimas yra procesas, kurio metu SF sudengiama su mokėjimu arba kredito pažyma. Šie parametrai yra srityje **Sudengimas** puslapiuose **Gautinų sumų parametrai** ir **Mokėtinų sumų parametrai**.
 
 -   **Automatinis sudengimas** – nustatykite šios parinkties reikšmę **Taip**, jei operacija turi būti sudengta automatiškai su kitomis atidarytomis operacijomis, kai ji registruojama. Jei šiai parinkčiai nustatyta reikšmė **Ne**, vartotojai gali rankiniu būdu sudengti operacijas, kai jie įveda mokėjimus arba vėliau, naudodami puslapį **Sudengti operacijas**.
 -   **Mokėjimo nuolaidos administravimas** – nurodykite, kaip [tvarkoma mokėjimo nuolaida, kai SF yra permokėta](cash-discount-handling-overpayments.md). Įvykus permokėjimui, mokėjimo nuolaida gali būti sumažinta, ji gali būti laikoma skirtumu arba ji gali likti tiekėjo ar kliento sąskaitoje.

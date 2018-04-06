@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -76,7 +76,7 @@ Tipas **Dimensijų klasifikacijos hierarchija** naudojamas norint apibrėžti ta
 
 Dimensijų hierarchija sukuriama kaip mazgą turinti ir lapo mazgo ryšiais pasižyminti medžio struktūra.
 
--  Mazge gali būti 1:_n_ antriniai (-ių) mazgai (-ų).
+-  Mazge gali būti antrinių mazgų – 1:_n_.
 -  Mazgui negali būti priskirta antrinių mazgų ir lapų mazgų.
 -  Lapo mazgas gali būti priskirtas tik žemiausiame hierarchijos lygmenyje.
 
@@ -156,7 +156,7 @@ Strategijos dimensijų hierarchiją galima nustatyti kaip parodyta čia.
 |&nbsp;&nbsp;Kintamos išlaidos | 40001                     | 40010                   |
 
 > [!NOTE]
-> Dalies **Dimensijos narių intervalai** mazge gali būti 1:_n_ dimensijos narių intervalai (-ų). Galite įvesti dimensijos nariais dar netapusių dimensijos narių ID. Taikant šį metodą hierarchija tampa atsparesnė ateities pokyčiams.  
+> Dalies **Dimensijos narių intervalai** mazge gali būti dimensijos narių intervalų – 1:_n_. Galite įvesti dimensijos nariais dar netapusių dimensijos narių ID. Taikant šį metodą hierarchija tampa atsparesnė ateities pokyčiams.  
 
 ### <a name="copy-a-hierarchy"></a>Hierarchijos kopijavimas
 
@@ -329,7 +329,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 - „Power BI“:
 
     - Atliekant „Power BI‟ vizualizavimą rodomi duomenys
-    - Į „Microsoft Dynamics 365 for Finance and Operations‟ leidimo „Enterprise‟ klientą įtrauktų duomenų „Power BI‟ vizualizavimai
+    - Į „Microsoft Dynamics 365 for Finance and Operations“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
 
 > [!NOTE] 
 > - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI‟, turi būti susieta prieigos sąrašo hierarchija ir „Power BI‟ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

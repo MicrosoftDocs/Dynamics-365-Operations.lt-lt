@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Šioje temoje pateikiama informacija apie projektų išteklius.
 
-Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
+Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. Programoje „Microsoft Dynamics 365 for Finance and Operations‟ projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
 
 - Apibrėžti vaidmenį, turintį reikiamas kompetencijas, kad būtų lengva suderinti išteklius.
 - Naudojant vaidmenis apibrėžti pradinį įtraukimo grafiką, paremtą rezervuotais ištekliais.
