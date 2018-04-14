@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>Sprendimo priemonės strategija produktams konfigūruoti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip, naudodami sprendimo priemonės strategiją, galite pagerinti produktų konfigūravimo našumą.
 

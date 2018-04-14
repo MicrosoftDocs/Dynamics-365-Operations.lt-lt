@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Vykdyti savitarną siekiant atsisiųsti aparatūros stotį
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Šioje procedūroje nurodyta, kaip atsisiųsti iš anksto nustatytą aparatūros stotį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USRT. Prieš pradėdami šią užduotį turite sukurti naują aparatūros stoties profilį ir aparatūros stotį.
 

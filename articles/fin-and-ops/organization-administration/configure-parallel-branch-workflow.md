@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Lygiagrečios darbo eigos šakos konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Norėdami konfigūruoti lygiagrečią šaką, darbo eigos rengyklėje atlikite toliau nurodytas procedūras.
 

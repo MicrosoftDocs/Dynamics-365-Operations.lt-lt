@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="release-production-orders"></a>Pateikti gamybos užsakymus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Išleistas gamybos užsakymas yra užsakymas, kurį leista gaminti. Terminas Išleistas naudojamas apibūdinti gamybos užsakymo ciklo būsenai, kai gamybos užsakymą galima vykdyti gamybos ceche ir atliekant sandėlio procesus. 
 

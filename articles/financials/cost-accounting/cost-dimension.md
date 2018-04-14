@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensijų kūrimas ir dimensijų narių importavimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi duomenys iš kitų modulių. Šie duomenys yra suskirstyti į tolesnes kategorijas.
 

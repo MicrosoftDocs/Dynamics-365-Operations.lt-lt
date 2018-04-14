@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>„Retail Modern POS“ vaizdų nustatymas ir tvarkymas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai.
 
@@ -141,7 +140,7 @@ Produkto vaizdus, kuriuos reikia naudoti atjungties režimu, galima nustatyti nu
 6.  Kol MPOS veikia atjungties režimu, vykdykite užduotį Katalogas HQ, kad įsitikintumėte, jog duomenys buvo bent vieną kartą nusiųsti į autonominę duomenų bazę.
 7.  Perjunkite MPOS į atjungties režimą. Turėtumėte matyti nusiųstą konkretaus produkto vaizdą HQ. [![1 neprisijungus](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Katalogo, kategorijos, darbuotojo ir kliento vaizdų rodymo MPOS atjungties režimu nustatymas
 

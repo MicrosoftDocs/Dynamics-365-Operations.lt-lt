@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="tax-directives-for-europe"></a>Europos mokesčių direktyvos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ES direktyvoje nurodomos taisyklės, kurių turi laikytis visos šalys narės, dėl SF taisyklių ir informacijos, kuri turi būti įtraukta kuriant SF. ES direktyvoje pateikiamas informacijos, kuri būtina tiekėjams savo klientams ES, sąrašas. Pvz., SF gali būti nuoroda, aprašantį nulinio PVM tarifo arba atleidimo nuo PVM mokesčio teisinį pagrindą. Jei paruošus naują SF ji koreguoja anksčiau išduotą SF, pvz., kredito pažymą, turėtų būti pateikiama aiški nuoroda į pradinę SF.
 

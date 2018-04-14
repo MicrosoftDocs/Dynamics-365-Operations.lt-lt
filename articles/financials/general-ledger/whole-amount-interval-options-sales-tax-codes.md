@@ -28,19 +28,17 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Visa suma ir PVM kodų intervalo skaičiavimo parinktys
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje paaiškinamos PVM kodų lauko Skaičiavimo būdas parinktys ir tai, kaip skaičiuojamas intervalų ir visų sumų PVM.
 
 Galite nustatyti, kad PVM kodas būtų skaičiuojamas pagal visą sumą arba intervalo sumą. PVM kodų puslapyje „FastTab“ skirtuko Skaičiavimas lauke Skaičiavimo metodas pasirinkite, kaip skaičiuoti PVM kodą.
--   Visa suma – mokesčio tarifas taikomas visai apmokestinamai sumai.
--   Intervalas – apmokestinama suma skirstoma į dalis, kiekviena iš jų patenka į intervalą, kuris turi tam tikrą PVM tarifą. Sumos dalis, kuri patenka į tam tikrą intervalą, apmokestinama pagal to intervalo mokesčių tarifą. PVM yra mokesčių sumų, kurios apskaičiuotos kiekvienam sumos intervalui, suma.
-> [!NOTE]                                                                                                                              
-> Parinktis Intervalas galima tik puslapio DK parametrai srities PVM lauke Skaičiavimo metodas pasirinkus Eilutė. 
+- Visa suma – mokesčio tarifas taikomas visai apmokestinamai sumai.
+- Intervalas – apmokestinama suma skirstoma į dalis, kiekviena iš jų patenka į intervalą, kuris turi tam tikrą PVM tarifą. Sumos dalis, kuri patenka į tam tikrą intervalą, apmokestinama pagal to intervalo mokesčių tarifą. PVM yra mokesčių sumų, kurios apskaičiuotos kiekvienam sumos intervalui, suma.
+  > [!NOTE]                                                                                                                              
+  > Parinktis Intervalas galima tik puslapio DK parametrai srities PVM lauke Skaičiavimo metodas pasirinkus Eilutė. 
 
 Intervalai nustatomi puslapyje PVM kodo reikšmės įvedant mokesčio tarifo žemiausią ir aukščiausią ribines sumas. Siekiant apskaičiuoti visų apmokestinamų sumų mokesčius (nepaisant to, koks pasirinktas skaičiavimo metodas) intervalai turi atitikti šiuos reikalavimus:
 -   Mažiausia primojo intervalo turi būti riba – nulis.
@@ -51,6 +49,7 @@ Jei suma yra aukščiausia ankstesnio intervalo riba ir žemiausia kito interval
 
 ## <a name="example-whole-amount-method-of-calculation"></a>Pavyzdys: bendros sumos skaičiavimo metodas
 Puslapyje PVM kodų vertės PVM tarifai nustatomi šiais intervalais:
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | **Minimali riba** | **Aukščiausia riba** | **Mokesčio tarifas** |
@@ -86,7 +85,7 @@ PVM yra mokesčių sumų, kurios apskaičiuotos kiekvienam sumos intervalui, sum
 | 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
 | 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
- 
+
 
 Daugiau informacijos žr. [PVM tarifų nustatymas pagal Bazinės ribos ir Skaičiavimo metodo laukus](marginal-base-field.md).
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>Importuoti ISO20022 failus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Mokėjimo failus galite importuoti toliau nurodytais formatais.
 
@@ -41,8 +41,8 @@ Norėdami importuoti banko pranešimus į camt.054.001.002 formatą kliento mok�
 3. Puslapyje **Kliento banko sąskaita** sukurkite kliento banko sąskaitos įrašą, įvesdami šią informaciją: IBAN arba banko sąskaitos numerį, SWIFT arba banko kodą.
 4. Puslapyje **Banko sąskaitos** nustatykite juridinio subjekto banko sąskaitas, įvesdami šią informaciją: IBAN arba banko sąskaitos numerį, SWIFT arba banko kodą, valiutą ir adresą.
 
-    > [!NOTE]
-        > Jei planuojate naudoti pažangaus banko derinimą, „FastTab“ srityje **Derinimas** parinktį **Pažangus banko suderinimas** nustatykite į **Taip**. Jei planuojate derinti neužregistruotus importuotus mokėjimus, parinktį **Naudoti banko išrašus kaip elektroninių mokėjimų patvirtinimus** nustatykite į **Taip**.
+   > [!NOTE]
+   > Jei planuojate naudoti pažangaus banko derinimą, „FastTab“ srityje **Derinimas** parinktį **Pažangus banko suderinimas** nustatykite į **Taip**. Jei planuojate derinti neužregistruotus importuotus mokėjimus, parinktį **Naudoti banko išrašus kaip elektroninių mokėjimų patvirtinimus** nustatykite į **Taip**.
 
 5. Pasirinktina: puslapyje **Operacijos kodo susiejimas** susiejimą faile nustatykite tarp banko operacijos kodų ir banko operacijos tipų.
 6. Jei faile yra operacijos išlaidų, kurias norite registruoti kartu su gaunamais mokėjimais, puslapyje **Kliento mokėjimo mokestis** sukurkite mokėjimo mokestį. Tada puslapyje **Mokėjimo būdai** esančiame mokėjimo mokesčio nustatyme susiekite mokėjimo mokestį su banko sąskaita.

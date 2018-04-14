@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Pasirinktiniai laukai
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Nors „Microsoft Dynamics 365 for Finance and Operations“ suteikia platų parengtų naudoti laukų rinkinį, skirtą valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Kad išpildytų šį poreikį, „Finance and Operations“ jums leidžia kurti pasirinktinių laukų, kad programą galėtumėte pritaikyti savo verslui (jei turite funkcijos naudojimo teises). 
 

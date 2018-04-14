@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Visuotinio vietinės versijos diegimo pagrindinis puslapis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Galite diegti „Microsoft Dynamics 365 for Finance and Operations“ (vietinė versija). Pasirinkus vietinės versijos diegimo tipą, sistemos reikalavimai, aparatūros apimtys ir funkcijos skiriasi, lyginant su debesies diegimo versijomis. Šioje temoje pateikti saitai į turinį, kuriame nurodyta konkreti informacija apie vietinių versijų diegimą.
 

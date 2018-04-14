@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Priskirti klientui laisvos formos SF šabloną
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis parodo, kaip klientui priskirti laisvos formos SF šabloną. Ši užduotis naudoja USMF demonstracinę įmonę ir yra skirta naudotojui, kuris yra atsakingas už A/R SF valdymą ir apdorojimą.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Darbuotojo kompetencijų ir tobulėjimo „Power BI“ turinys
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašytas „Finance and Operations“ darbuotojų kompetencijų ir tobulinimo „Power BI“ turinys. 
 

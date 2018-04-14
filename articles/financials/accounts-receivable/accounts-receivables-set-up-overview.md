@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Konfigūruoti Gautinas sumas bei Kreditą ir surinkimą
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąskaitas faktūras ir iš klientų gaunamus mokėjimus.
 
@@ -107,7 +106,7 @@ Toliau pateiktoje lentelėje išvardijami puslapiai, palaikantys Gautinų sumų 
 |                                                      | NSF informacija.                     | Nustatykite banko sąskaitos NSF informaciją, kuri bus naudojama, kai mokėjimas Surinkimo puslapyje pažymėtas kaip NSF operacija.                                                                                                                                              |
 |                                                      | Informacija apie pardavėją              | Nustatykite pardavėjų el. pašto adresą. Šie adresai bus rodomi puslapyje Surinkimas, ir juos naudoti galite norėdami iš to puslapio pardavėjui siųsti el. laišką.                                                                                                                |
 
- 
+
 Daugiau informacijos rasite [Kreditas ir mokėjimai modulyje Gautinos sumos](collections-credit-accounts-receivable.md).
 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Žinyno sistemos prijungimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomi „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentai. Joje pateikiama apžvalga apie tai, kaip šiuos komponentus sujungti, ir pasirinktinio žinyno kūrimo suvestinė. 
 
@@ -42,7 +41,7 @@ Tolesnėje iliustracijoje rodomos „Finance and Operations‟ žinyno sistemos 
 ## <a name="connecting-the-help-system"></a>Žinyno sistemos prijungimas
 > [!NOTE]
 > Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
- 
+
 
 Naudodami puslapį **Sistemos parametrai**, sistemos administratoriai prijungia žinyno sistemos dalis diegti. [![Sistemos parametrų forma su žinyno parametrais](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
 

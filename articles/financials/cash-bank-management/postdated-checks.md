@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Vėlesni čekiai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Finance and Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 
@@ -76,14 +75,14 @@ Jei pamesite arba sugadinsite pradinį čekį tiekėjui arba gautą iš kliento,
 <td>Šiais atvejais užregistruotą vėlesnį čekį galite atšaukti: – Bankas čekį grąžina.
 - Čekis taikomas netinkamai sąskaitai faktūrai.
 - Mokėjimas grynaisiais pinigais atliktas ne pagal čekį.
-</td>
-</tr>
-<tr class="even">
-<td>Vėlesnio čekio mokėjimo stabdymas</td>
-<td>Galite sustabdyti mokėjimą vėlesniame čekyje, kuris buvo išduotas tiekėjui dėl tokių priežasčių, kaip nepakankamos lėšos, sutarties su tiekėju sąlygų pakeitimai, tiekėjo prekių su defektais atsiuntimas arba prekių gražinimas tiekėjui. Galite sustabdyti tik neapmokėtų čekių mokėjimą.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Vėlesnio čekio mokėjimo stabdymas</td>
+  <td>Galite sustabdyti mokėjimą vėlesniame čekyje, kuris buvo išduotas tiekėjui dėl tokių priežasčių, kaip nepakankamos lėšos, sutarties su tiekėju sąlygų pakeitimai, tiekėjo prekių su defektais atsiuntimas arba prekių gražinimas tiekėjui. Galite sustabdyti tik neapmokėtų čekių mokėjimą.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

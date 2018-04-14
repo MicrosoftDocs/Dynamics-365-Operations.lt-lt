@@ -26,7 +26,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="welcome-to-human-resources"></a>Sveiki atvykę į personalo modulį
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą.
 

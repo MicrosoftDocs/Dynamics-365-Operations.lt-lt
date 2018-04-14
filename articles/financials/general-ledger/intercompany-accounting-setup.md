@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Vidinės įmonės apskaitos nustatymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose.
 

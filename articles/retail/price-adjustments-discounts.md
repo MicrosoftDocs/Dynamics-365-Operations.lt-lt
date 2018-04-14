@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Kainų koregavimas ir nuolaidos
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Microsoft Dynamics 365 for Retail‟.
 

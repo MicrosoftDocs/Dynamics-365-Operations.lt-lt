@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-closed-ended-question"></a>Kurti uždarą klausimą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų. Pirmiausia, turite sukurti atsakymų grupę su atsakymais, tada sukurkite klausimą, kuris naudos atsakymų grupę. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

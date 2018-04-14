@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Platinti klausimynus naudojant planavimą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Klausimyno planavimo funkcija suteikia galimybę planuoti ir platinti klausimynus keliems respondentams. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

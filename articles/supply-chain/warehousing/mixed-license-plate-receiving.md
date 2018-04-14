@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Mišrių numerio lentelių gavimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Mišrių numerio lentelių gavimas leidžia sukurti numerio lentelę, sudarytą iš kelių prekių, prieš registruojant ir kuriant atidėjimo darbą. 
 

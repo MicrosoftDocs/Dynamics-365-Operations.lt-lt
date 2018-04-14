@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Nustatyti išskaitomą mokestį
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Išskaitomas mokestis yra tiekėjams taikomas mokestis, kurį taikant nesukuriama PVM operacijų. Tiekėjas įsipareigoja sumokėti jo mokėjimams priskiriamą išskaitomą mokestį. Todėl išskaitomą mokestį galima registruoti tik balanso arba įsipareigojimų sąskaitose. Šis užduočių vadovas parodo, kaip nustatyti išskaitomą mokestį.
 

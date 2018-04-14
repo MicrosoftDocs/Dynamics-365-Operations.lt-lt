@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Aptarnavimo objektų kūrimas  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 Aptarnavimo objektai yra kliento turtas ir produktai, dėl kurių galite teikti paslaugas. 
 

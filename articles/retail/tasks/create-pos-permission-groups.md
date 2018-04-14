@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a> Kurti EKA teisių grupes
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padės kurti EKA teisių grupę. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT. Ši užduotis skirta mažmeninės prekybos operacijų vadovo vaidmeniui.
 

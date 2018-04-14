@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Įvesti projekto tabelius
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas. Naujas grafikas gali būti pagrįstas ankstesniu grafiku arba puslapyje Mano parankiniai įrašytų projekto ir veiklos priskyrimų informacija. Pagal numatytuosius parametrus sąrašo puslapyje Visi grafikai pateikiami visi dabartinio laikotarpio grafikai. Galite naudoti puslapio Mano grafikai laiko Rodyti išplečiamąjį sąrašą ir filtruoti grafiką pagal laiką ar projektą arba peržiūrėti grafikus, kuriuos sukūrė kiti darbuotojai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USSI. Norėdami pradėti šią procedūrą, pasirinkite Projektų valdymas ir apskaita > Grafikai > Mano grafikai
 

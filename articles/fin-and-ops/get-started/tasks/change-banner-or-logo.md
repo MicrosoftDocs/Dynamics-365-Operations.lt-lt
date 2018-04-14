@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Keisti reklaminę juostą arba logotipą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Toliau pateiktoje procedūroje išvardijami veiksmai, kuriuos sistemos administratoriai gali naudoti, norėdami atnaujinti reklaminės juostos arba logotipo vaizdą, kuris rodomas juridiniam subjektui. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siųsti užsakymus kaip tiesioginius pristatymus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą. Tiesioginį pristatymą naudojate, kai norite siųsti prekes klientui tiesiogiai iš tiekėjo, vietoj to, kad pirma jas siųstumėte į savo sandėlį. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Norėdami sėkmingai baigti antrąją antrinę užduotį „Kurti tiesioginius pristatymus iš darbastalio“, įsitikinkite, kad, pasirinktos pardavimo užsakymo prekės numatytasis Tiekėjas nurodytas Patvirtintų pagrindinių produktų Pirkimo „FastTab“.
 

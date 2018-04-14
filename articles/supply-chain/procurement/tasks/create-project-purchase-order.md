@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-project-purchase-order"></a>Kurti projekto pirkimo užsakymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti projekto pirkimo užsakymą. Šioje užduotyje naudojamas USSI duomenų rinkinys.
 

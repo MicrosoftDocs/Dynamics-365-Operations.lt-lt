@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>Savikainos elemento dimensijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kaip vienas iš pagrindinių ramsčių savikainos apskaitoje norint kategorizuoti ir sekti išlaidų srautą naudojamos savikainos elemento dimensijos. 
 

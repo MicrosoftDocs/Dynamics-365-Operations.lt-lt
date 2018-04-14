@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM skaičiavimai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Išlaidų susumavimas ir pardavimo kainos apskaičiavimas vadinamas komplektavimo specifikacijų (KS) skaičiavimais, kuriuos galite inicijuoti skaičiavimų puslapyje. Šioje temoje pateikiama informacija apie KS skaičiavimus.
 

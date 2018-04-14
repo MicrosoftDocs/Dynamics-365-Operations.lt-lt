@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Tvarkyti darbuotojo sužeidimų ir ligų informaciją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų informacijos sąranka“, nes čia naudojama kai kuri sąrankos informacija. 
 

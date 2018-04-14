@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinta, kaip modeliuoti išlaidų pokyčio poveikį pagamintos prekės apskaičiuotoms išlaidoms naudojant atskirą suplanuotų išlaidų įkainojimo versiją.
 

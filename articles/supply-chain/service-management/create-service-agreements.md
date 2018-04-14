@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreements"></a>Aptarnavimo sutarčių kūrimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinta, kaip kurti aptarnavimo sutartis naudojant aptarnavimo valdymo ir projektų valdymo bei apskaitos modulių funkcijas.
 

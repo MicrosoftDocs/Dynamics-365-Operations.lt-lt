@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Modernioje mažmeninės prekybos aplinkoje parduotuvės atstovams priskiriamos įvairios užduotys, pvz., pagalba klientams, operacijų įvedimas, inventorizacijos atlikimas ir užsakymų parduotuvėje priėmimas. Elektroninio kasos aparato (EKA) klientas – tai viena programa, kurioje atstovai gali atlikti visas šias užduotis ir daug kitų. Kadangi per dieną reikia atlikti įvairias užduotis, gali reikėti, kad atstovams būtų pranešama, kai kažkam reikia skirti dėmesio. EKA pranešimų sistema mažmenininkams padeda leisdama konfigūruoti pranešimus pagal vaidmenį. Programoje „Microsoft Dynamics 365 for Retail“ su 5 programos naujinimu šiuos pranešimus galima konfigūruoti tik EKA operacijoms.
 

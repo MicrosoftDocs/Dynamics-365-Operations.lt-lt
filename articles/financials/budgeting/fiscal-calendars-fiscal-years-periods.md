@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aptarti finansiniai kalendoriai, finansiniai metai ir laikotarpiai ir kaip juos naudoti juridiniams subjektams, ilgalaikiam turtui ir biudžeto sudarymui.
 

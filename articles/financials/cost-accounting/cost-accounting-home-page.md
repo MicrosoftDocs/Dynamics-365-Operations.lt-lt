@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Savikainos apskaitos pagrindinis puslapis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mokymo planas 
 
@@ -37,6 +37,7 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 [![Kaštų apskaitos mokymo planas](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Spartieji saitai
+
 |      |   |
 |------|---|
 |  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia CustomerSource paskyros)  |[Kurti dimensijas](cost-elements.md)  |

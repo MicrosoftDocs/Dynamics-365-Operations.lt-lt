@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Mažmeninės prekybos EKA maketo dizaino įrankio diegimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Galite naudoti vieno spustelėjimo dizaino įrankį, norėdami kurti skirtingus „Retail Modern POS“ (MPOS) ir „Cloud POS“ horizontalaus arba vertikalaus režimo maketus, skirtus parduotuvėms, registrams, kasininkams ir vadovams.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Modifikuoti pareigų ataskaitų ryšius
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip pakeisti darbuotojo ataskaitų ryšį. Ataskaitų ryšį galima naudoti dokumentams per darbo eigą nukreipti. Procedūra taip pat nurodo, kaip darbuotoją priskirti papildomoms hierarchijoms. Pavyzdžiui, darbuotojas gali būti projekto komandos narys ir turėti neoficialų ataskaitų ryšį su projekto vadovu. Galima nustatyti papildomus pareigų ataskaitų ryšius, kad veiktų įvairūs projekto arba matricos scenarijai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

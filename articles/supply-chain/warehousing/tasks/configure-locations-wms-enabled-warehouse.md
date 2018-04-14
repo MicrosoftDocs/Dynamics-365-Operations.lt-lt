@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Sandėlio, kuriame veikia WMS, vietų konfigūravimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame vadove aprašoma, kaip konfigūruoti naujo sandėlio, kuriame veikia WMS (sandėlio, kuriame naudojami patobulinti sandėlio valdymo procesai) vietos nustatymą. Šį procesą paprastai atlieka sandėlio vadovas. Šią vadovą galite paleisti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Galioja išankstinė sąlyga, kad turėtumėte sukonfigūruotą bent vieną vietą.
 

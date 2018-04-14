@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudodami išorinį katalogą galite užtikrinti, kad produktų ir kainų informacija, kurią vėliau apdorojate „Dynamics 365 for Finance and Operations‟ 2017 m. liepos mėn. leidime, yra tiksli ir naujausia. Paraišką tada galima patvirtinti ir konvertuoti į pirkimo užsakymą, o užsakymą galima perduoti tiekėjui.
 

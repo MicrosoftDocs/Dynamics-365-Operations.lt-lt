@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Personalo veiksmai [DUK]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai. Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis. Užduočių, kurias atliekant gali reikėti personalo veiksmų, pavyzdžiai: naujų pareigų kūrimas, esamų pareigų reikšmių modifikavimas, naujų darbuotojų priėmimas, darbuotojų perkėlimas, darbuotojų kompensacijos keitimas, pareigų priskyrimų pakeitimas, darbuotojų atleidimas.
 
@@ -64,9 +64,9 @@ Atidarykite visus personalo veiksmų sąrašo puslapius ir pasirinkite personalo
 Jei personalo veiksmas nepavyksta, atlikite toliau nurodytus veiksmus, kad pašalintumėte klaidą, ir iš naujo pateikite užklausą.
 
 > 1. **Veiksmų srityje** spustelėkite mygtuką **Klaidos tekstas**, kad peržiūrėtumėte pranešimo tekstą, kuriame aprašyta problema.
-
+> 
 > 2. **Veiksmų srityje** spustelėkite **Aktyvinti iš naujo**, kad įkeltumėte naujausią informaciją ir pakartotinai nustatytumėte personalo veiksmo būseną kaip **Juodraštis**.
-
+> 
 > 3. Pašalinkite klaidą, tada spustelėkite **Baigti** arba **Pateikti**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Kas nutinka personalo veiksmui, kuris naudoja darbo eigą, kai baigiamas galutinis patvirtinimas?

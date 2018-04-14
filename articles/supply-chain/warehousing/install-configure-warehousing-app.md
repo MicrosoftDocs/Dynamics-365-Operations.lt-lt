@@ -29,11 +29,10 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>„Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 

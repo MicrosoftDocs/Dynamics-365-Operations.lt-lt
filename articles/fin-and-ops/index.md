@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>„Microsoft Dynamics 365 for Finance and Operations‟ pristatymas
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Sužinokite, kaip „Microsoft Dynamics 365 for Finance and Operations‟ pritaikyti savo verslui – naudodami toliau pateiktus išteklius rasite puikaus turinio galutiniams vartotojams, programuotojams ir IT profesionalams. 
 

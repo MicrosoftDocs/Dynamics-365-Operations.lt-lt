@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Vairuotojo paskyros įregistravimas ir išregistravimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą. Paprastai tą daro transportavimo koordinatorius. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje. Prieš pradedant, turi būti nustatyta krovinio paskyra. Norėdami sukurti paskyrą, kaip būtiną sąlygą galite vykdyti procedūrą „Krovinio paskyros nustatymas“ procedūrą.
 

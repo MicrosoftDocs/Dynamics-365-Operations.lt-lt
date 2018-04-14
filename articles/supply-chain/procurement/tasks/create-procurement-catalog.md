@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Kurti įsigijimo katalogą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame vedlyje parodoma, kaip kurti įsigijimo katalogą. Šią užduotį paprastai atlieka įsigijimo specialistas. Taip pat sužinosite, kaip kurdami paraišką darbuotojai gali naudoti katalogą. Prieš kuriant katalogą, sistemoje turi būti nustatyta įsigijimo kategorijų hierarchija. Naujas katalogas perima hierarchiją ir visus hierarchijos produktus. Šį vedlį galite naudoti demonstracinių duomenų įmonėje USMF, kurioje įgalinta įsigijimo kategorijų hierarchija, taip pat procedūros veiksmų pavyzdžiuose.
 

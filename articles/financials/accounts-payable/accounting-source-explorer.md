@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>Apskaitos šaltinių naršyklė
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie Apskaitos šaltinių naršyklę, kurią galite naudoti Didžiosios knygos apskaitos įrašų šaltinio informacijos išsamiai analizei atlikti.
 

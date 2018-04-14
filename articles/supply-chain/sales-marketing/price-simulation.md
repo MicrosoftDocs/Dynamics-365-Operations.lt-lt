@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Kainos modeliavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pasiūlymų kainos modeliavimą. Kainų modeliavimas padeda įvertinti lengvatų poveikį būsimoms pardavimo kainoms pasiūlymo proceso metu prieš pritaikant tam tikrą kainą.
 

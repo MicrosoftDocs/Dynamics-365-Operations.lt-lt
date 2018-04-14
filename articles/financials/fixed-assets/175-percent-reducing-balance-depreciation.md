@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 proc. mažėjančios vertės nusidėvėjimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiamas 175 proc. nusidėvėjimo mažėjančios vertės metodas.
 
@@ -68,6 +67,7 @@ Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nur
 -   **Ataskaitinis laikotarpis** apskaičiuoja bendrąją ataskaitinių metų nusidėvėjimo sumą. Ši suma kaupiama per ataskaitinius laikotarpius, apibrėžtus **Ataskaitinių kalendorių** puslapyje.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>175% mažėjančios vertės nusidėvėjimo pavyzdys
+
 |                                |        |
 |--------------------------------|--------|
 | Įsigijimo savikaina               | 11 000 |

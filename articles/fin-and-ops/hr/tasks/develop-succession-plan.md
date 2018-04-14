@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-a-succession-plan"></a>Kurti tęstinumo planą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norėsite rasti žmogų, kurio įgūdžiai panašūs kaip ir kito asmens.  Įgūdžių išdėstymas leidžia analizuoti esamus darbuotojus ir pretendentus, kad būtų galima matyti, ar jų įgūdžių rinkinys atitinka vertinamo darbuotojo įgūdžių rinkinį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

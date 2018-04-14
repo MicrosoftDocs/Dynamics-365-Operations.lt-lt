@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Skambučių centro katalogo kūrimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas skambučių centro katalogo kūrimo procesas. 
 

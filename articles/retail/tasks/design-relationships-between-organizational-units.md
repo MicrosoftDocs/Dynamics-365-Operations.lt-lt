@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Užmegzti ryšius tarp organizacijos vienetų
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra apžvelgia, kaip projektuoti ryšį tarp organizacijos vienetų. Prieš apibrėždami ryšį, turite sukurti naują organizacijos paskirtį, arba galite naudoti esamą organizacijos paskirtį. Atliekant šią procedūrą naudota demonstracinių duomenų įmonė yra USRT. Ši užduotis yra skirta administratoriaus vaidmeniui.
 

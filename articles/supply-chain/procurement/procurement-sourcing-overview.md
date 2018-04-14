@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Įsigijimo ir šaltinio pasirinkimo apžvalga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamos modulyje Įsigijimas ir šaltinio pasirinkimas prieinamos funkcijos.
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 Produktų ar paslaugų poreikį gali lemti *paraiškos*, pvz., kai darbuotojui reikia produkto. Gali būti nustatyti *Produktų katalogai*, kad jiems padėtų pasirinkti galimus produktus, arba gali būti teikiamos produktų, kurių kataloge dar nėra, užklausos, tokiu būdu leidžiant padaliniui apsvarstyti produkto tiekimo galimybes.  
 
 *Išlaidų limitai* gali būti naudojami paraiškos išlaidoms apriboti, o *pirkimo darbo eiga* suteikia galimybę prieš užsakymo vykdymą reikalauti patvirtinimo. Taip pat galima nurodyti biudžeto lėšų paskirstymą, jei reikia.  
-  
+
 Įsigijimo padalinys identifikuoja reikiamų produktų ir paslaugų tiekėjus, o tai gali apimti *pasiūlymo patvirtinimo* siuntimą keliems potencialiems tiekėjams. Galima bendrai naudoti prašomo produkto specifikacijas ir tiekėjai gali jas matyti bei įvertinti, ar jie gali pristatyti produktą, atsižvelgdami į tas specifikacijas. Tiekėjai pateikia savo pasiūlymus, kuriuos įsigijimo padalinys tada peržiūri, o tada pasirenkamas tiekėjas, iš kurio norima įsigyti.  
 
 Pirkimo užsakymuose yra galimybė *pirkimo užklausą* tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**, pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale**Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>„Lean manufacturing“ vaizdinis planavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
 

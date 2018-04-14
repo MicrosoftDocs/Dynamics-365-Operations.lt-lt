@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Kelionių paraiškos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Kelionės paraiška* yra šaltinio dokumentas su išvardytomis išlaidomis, kurios bus patirtos keliaujant. Kelionės paraiška yra pateikiama peržiūrėti ir tada gali būti naudojama įgalioti išlaidas.
 

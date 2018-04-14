@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>Ilgalaikio turto integravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ilgalaikį turtą galima integruoti į didžiąją knygą, atsargų valdymą, gautinas sumas ir mokėtinos sumas. Taip pat galite nustatyti, kad ilgalaikis turtas būtų integruojamas į pirkimo užsakymus.
 

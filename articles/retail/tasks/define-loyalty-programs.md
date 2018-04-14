@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Nustatyti lojalumo programas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda nustatyti lojalumo programą su dviem lojalumo pakopomis. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

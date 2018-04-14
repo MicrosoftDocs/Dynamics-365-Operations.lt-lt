@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Patikrinti gamybos eigą ir versiją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip sukurti naują gamybos eigą ir pirmąją „lean manufacturing“ versiją. Būtinos sąlygos: turi būti nurodyti „lean manufacturing“ parametrai ir klasės laiko matavimo vienetai. Būtina nurodyti vertės srautą ir gamybos grupę. Žr. „Lean manufacturing“ techninę dokumentaciją, kad susipažintumėte su gamybos eigos koncepcijomis ir veiklomis. Ši procedūra taikoma juridiniams subjektui USMF ir demonstraciniams duomenims. Tačiau jeigu juridinis subjektas sukonfigūruotas „Lean manufacturing“, gali būti naudojami kiti juridiniai subjektai.
 

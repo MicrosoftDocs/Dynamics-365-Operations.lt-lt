@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Nustatyti PVM ataskaitų kodus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje. Jie naudojami konkrečios šalies ataskaitų maketuose ir PVM mokėjimo pagal kodą ataskaitoje spausdinti PVM sumoms už sudengimo laikotarpį, susumuotą pagal ataskaitos kodą. Sukūrus PVM ataskaitų kodus, galima į juos nurodyti „FastTab‟ Ataskaitų sąranka, esančiuose puslapyje PVM kodas. 
 

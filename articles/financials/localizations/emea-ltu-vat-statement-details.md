@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
 

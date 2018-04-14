@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-departments"></a>Apibrėžti naujus padalinius
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Padaliniai yra valdymo vienetai, kurie atstovauja funkcines verslo sritis, pvz., pardavimą arba apskaitą. Daugelyje įmonių yra organizacijų hierarchijos, kuriose nurodomi skirtingi verslo padaliniai. Ši procedūra apibūdina procesą, kurio metu padaliniai kuriami ir traukiami į organizacijų padalinių hierarchiją. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

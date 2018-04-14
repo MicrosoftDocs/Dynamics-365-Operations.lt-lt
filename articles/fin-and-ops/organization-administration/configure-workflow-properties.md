@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Darbo eigos ypatybių konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 

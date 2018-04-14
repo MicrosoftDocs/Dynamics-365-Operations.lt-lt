@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Apibrėžti išmokų tinkamumo taisykles ir strategijas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis įrašas parodys, kaip sukurti išmokų tinkamumo taisykles ir strategijas, ir tada priskirti išmokoms taisykles.  
 

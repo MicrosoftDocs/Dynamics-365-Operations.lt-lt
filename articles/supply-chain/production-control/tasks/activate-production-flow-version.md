@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Suaktyvinti gamybos eigos versiją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norėdami kurti gamybos eigos versijos „kanban“ ir apdoroti gamybos eigos versijos veiklas, versiją turite suaktyvinti. Geriausia būtų suaktyvinti versiją, kol nepraėjo jos įsigaliojimo data ir laikas. Norėdami baigti šią užduotį, turite pasirinkti gamybos eigos versiją, kurios būsena yra Juodraštis, kad versiją galėtumėte suaktyvinti. 
 

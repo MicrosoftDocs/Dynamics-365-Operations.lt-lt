@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Kurkite įtraukiančius supažindinimo su darbu planus
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Efektyviai atliktas supažindinimo procesas naujiems darbuotojams padeda efektyviau dirbti bei surasti ryšį su nauju vaidmeniu. Naujus darbuotojus supažindinant su darbu, jie gali greičiau ir tiksliau (nei šio proceso netaikant) suprasti savo naujus vaidmenis; darbuotojai taip pat gali greičiau pradėti užmegzti ryšius, kurie jiems gali padėti sėkmingai dirbti. Kita vertus, jei supažindinimo procesas neveiksmingas, darbuotojai gali pradėti abejoti savo sprendimu prisijungti prie jūsų organizacijos. Įmonės „Gartner“ 2014 m. atliktu tyrimu nustatyta, kad beveik trečdalis iš 1005 respondentų, iš darbo išėjusių per pirmuosius šešis mėnesius, tai padarė dėl to, kad nebuvo aiškūs vadovybės jiems pateikti nurodymai, nebuvo veiksmingas jų mokymas arba savo naujoje aplinkoje jie neužmezgė veiksmingų ryšių.
 

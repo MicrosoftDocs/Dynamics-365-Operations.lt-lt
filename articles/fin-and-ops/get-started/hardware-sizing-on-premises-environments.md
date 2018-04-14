@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Aparatūros dydžio nustatymas vietinėse aplinkose
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Prieš pradėdami vietinės aplinkos aparatūros ir infrastruktūros dydžio nustatymo procesą, susipažinkite su temomis [Sistemos reikalavimai](system-requirements.md) ir [Sąrankos ir diegimo instrukcijos](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), kad gerai suprastumėte pagrindinę infrastruktūrą. 
 

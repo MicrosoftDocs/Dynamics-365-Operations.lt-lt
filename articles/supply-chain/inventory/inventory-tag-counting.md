@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>Atsargų skaičiavimas pagal žymes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
 

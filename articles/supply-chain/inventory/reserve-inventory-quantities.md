@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Atsargų kiekių rezervavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos skirtingos atsargų rezervavimo parinktys, kurias galima naudoti.
 
@@ -50,6 +49,7 @@ Atsargų rezervavimo strategijos nustatomos puslapiuose **Prekių modelių grup�
 ### <a name="policies-on-the-item-model-groups-page"></a>Puslapyje Prekės modelių grupės nustatomos strategijos
 
 Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strategijos.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervavimo strategija**  | **Aprašymas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strateg
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>FIFO kontrolės pagal datą ir parinkties Atgal nuo siuntimo datos pavyzdžiai
 
 Šiame pavyzdyje pateikiamos trijų skirtingų paketų numerių prekės numerio A turimos atsargos.
+
 | Prekės Nr. | Paketo numeris | Kiekis | Data             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2016 m. vasario 2 d. |

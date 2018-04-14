@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-reporting-overview"></a>Elektroninių ataskaitų apžvalga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga. Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.
 
@@ -287,6 +286,7 @@ ER palaiko galimybę kurti (išvesti) naują komponentą iš dabartinės kompone
 ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento versijos pakeitimus dabartinėje išvestinio komponento juodraščio versijoje. Šis procesas vadinamas *pritaikymu kitoje vietoje*. Pavyzdžiui, naują reguliavimo pakeitimą, įtrauktą į naujausią komponento, importuoto iš LCS, versiją, galima automatiškai sulieti su pritaikyta šio elektroninio dokumento formato versija. Bet kokie pakeitimai, kurių negalima sulieti automatiškai, yra laikomi konfliktais. Šiuos konfliktus galima išspręsti neautomatiniu būdu naudojant atitinkamo komponento kūrimo įrankį. Paleiskite užduočių vedlį **ER formato versijos naujinimas priimant naują to formato pagrindinę versiją** (verslo proceso **7.5.5.3 Įsigyti / sukurti pakeistų IT paslaugų ir sprendimų komponentų (10683)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>ER konfigūracijų, kurios pateikiamos „Finance and Operations“ sprendime, sąrašas
+
 | Konkretaus domeno duomenų modelio konfigūracijos: pavadinimas | Domenas                | Nuo duomenų modelio priklausančio formato konfigūracijos: pavadinimas | Prekės/Paslaugos pavadinimas                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Audito failo modelis                                 | Finansinis auditas       |                                                   |                                                                    |

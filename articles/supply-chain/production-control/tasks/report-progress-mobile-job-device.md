@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip pradėti ir pateikti ataskaitą apie gamybos užduoties eigą užduoties prietaiso registracijos formoje.
 

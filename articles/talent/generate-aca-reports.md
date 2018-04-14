@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros generavimas
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Funkcijos pasiekiamos siekiant padėti darbdaviams, kuriems reikia sekti formose 1095-B ir 1095-C pateiktą informaciją, pagrindžiant **Darbdavio įgaliojimų** dalį pagal įstatymą dėl prieinamos sveikatos priežiūros. Atkreipkite dėmesį, kad ši funkcija įjungta tik juridiniams subjektams Jungtinėse Amerikos Valstijose.
 

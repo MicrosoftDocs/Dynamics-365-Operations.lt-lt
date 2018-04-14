@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Finansinės ataskaitos komponentai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Šiame straipsnyje aiškinama, kaip išdėstyti ir užrakinti kūrimo blokus. 
 
 Finansinių ataskaitų dizaino įrankio suskaidyti informaciją į mažiausius komponentus ar kūrimo blokus ir tada komponentus pagal poreikį maišyti ir derinti. Todėl ataskaitos formatavimas skiriasi nuo finansinių duomenų formatavimo ir jūs galite pakeisti ataskaitos dizainą nekeisdami finansinių duomenų „Microsoft Dynamics ERP“ sistemoje. Naudodami šį kūrimo bloko metodą galite sujungti tekstą, sumas ir skaičiavimus ir sukurti reikiamas ataskaitas. Be to, šis lankstumas skatina kūrybiškumą, nes galite lengviau skirtingais būdais peržiūrėti operacijas. Atskiri ataskaitos aprašo kūrimo blokai panašūs į trimatę skaičiuoklę, bet turi daugiau galios. Ataskaitos apraše nurodomas eilutės aprašas, stulpelio aprašas ir ataskaitoje naudojamas pasirinktinis medžio aprašas. Jame taip pat pateikiama informacija apie tai, kur saugoti sugeneruotą ataskaitą ir kaip ją formatuoti. 
 
 ## <a name="building-blocks-of-a-report"></a>Ataskaitos kūrimo blokai
+
 | Kūrimo blokas            | aprašymas                     | Daugiau informacijos                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Eilutės apibrėžimas            | Ataskaitos eilutės apraše apibūdinamos aprašomosios eilutės (pavyzdžiui, atlyginimai arba pardavimai). Jame taip pat pateikiamos segmentų reikšmės arba dimensijos, kuriose yra kiekvienos eilutės elemento reikšmės ir jis apima eilutės formatavimą ir skaičiavimus.                                                    | [Eilutės apibrėžimai](row-definitions-financial-reporting.md)                       |

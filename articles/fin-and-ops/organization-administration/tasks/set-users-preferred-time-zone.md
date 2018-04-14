@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Vartotojo pageidaujamos laiko zonos nustatymas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pateiktoje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens vartotojas gali nustatyti vartotojo laiko juostą.
 

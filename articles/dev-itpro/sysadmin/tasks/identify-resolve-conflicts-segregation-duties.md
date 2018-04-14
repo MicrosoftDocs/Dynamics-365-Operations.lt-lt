@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

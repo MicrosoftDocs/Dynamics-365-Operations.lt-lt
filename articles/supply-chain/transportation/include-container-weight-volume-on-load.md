@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>Konteinerio svorio ir tūrio įtraukimas kraunant
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudojant krovinio konteinerių svorio ir tūrio įtraukimo funkciją, aiškiai perteikiamas bendrasis į krovinį perkeliamų konteinerių ir prekių svoris bei tūris.
 

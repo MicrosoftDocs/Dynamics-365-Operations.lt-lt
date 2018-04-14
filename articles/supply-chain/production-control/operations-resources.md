@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>„Operations“ ištekliai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Operacijų ištekliai atlieka projekto arba gamybos proceso veiklas. Jie gali būti skirtingų tipų ir jų galimybės gali skirtis. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>„Kanban“ užduoties, skirtos „lean manufacturing“, planavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie „kanban“ užduočių planavimo vizualinę kontrolę ir įvairius būdus planuoti „kanban“ užduotis.  
 

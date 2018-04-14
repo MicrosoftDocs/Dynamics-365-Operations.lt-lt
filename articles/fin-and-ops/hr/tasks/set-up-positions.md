@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-positions"></a>Pareigų nustatymas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas. Pareigos yra atskiros užduoties egzemplioriaus. Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“. Pareigų padalinį yra ir gali būti susietas su juo tik vienas darbuotojas. Atlikdami šią užduotį, susipažinsime su veiksmais, kuriuos reikia atlikti norint sukurti tam tikras pareigas. Ši procedūra yra skirta žmogiškųjų išteklių specialistams.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Keleto ilgalaikio turto vienetų nusidėvėjimo konvencijų keitimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis atnaujina nurodytos ilgalaikio turto grupės nusidėvėjimo konvenciją. Šiame užduočių vadove naudojama demonstracinė įmonė USMF.
 

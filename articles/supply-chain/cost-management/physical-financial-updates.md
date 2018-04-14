@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>Faktiniai ir finansiniai atnaujinimai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius. 
 

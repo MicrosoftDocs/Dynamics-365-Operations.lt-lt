@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Klientų kredito limitai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nustatę kredito limitą, galite nurodyti, kokią didžiausią kredito sumą galima suteikti klientams. Jei nurodytas kredito limitas, jis automatiškai patikrinamas vartotojui bandant atnaujinti dokumentą. Jei kredito limitas viršijamas, vartotojui rodomas pranešimas. Šiame straipsnyje apžvelgiama, kaip kredito limitai veikia, ir atsakoma į tolesnius klausimus.
 

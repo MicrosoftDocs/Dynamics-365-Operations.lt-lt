@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Tiesiogiai proporcingas likutinės vertės nusidėvėjimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo likutinės vertės nusidėvėjimo metodas.
 

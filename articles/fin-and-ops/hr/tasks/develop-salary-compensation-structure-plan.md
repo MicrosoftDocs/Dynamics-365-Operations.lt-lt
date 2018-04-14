@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Kurti atlyginimų / kompensavimo struktūrą ir planus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Kurti pasikartojantį pirkimo užsakymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti pasikartojantį pirkimo užsakymą (PU) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba į esamą PO. Pasikartojančius užsakymus galima kurti dviem būdais. Galite naudoti dokumentų lygio veiksmus veiksmų srityje arba galite naudoti eilutės informacijos veiksmus. Dokumentų lygio veiksmai daugiausia naudojamas naujiems pirkimo užsakymams kurti, įtraukiant eilučių ir antraštės informaciją iš kito užsakymo, o eilutės informacijos veiksmas daugiausia naudojamas eilutėms į esamą užsakymą įtraukti. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka pirkimo agentas.
 

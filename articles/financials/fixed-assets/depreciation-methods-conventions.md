@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Nusidėvėjimo metodai ir konvencijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamos nusidėvėjimo konvencijos ir nusidėvėjimo metodai, kuriuos palaiko „Microsoft Dynamics 365 for Finance and Operations“.
 
@@ -62,7 +61,7 @@ Galite pasirinkti šiuos nusidėvėjimo metodus:
 -   150% mažėjanti vertė
 -   125% mažėjanti vertė
 
- 
+
 
 
 

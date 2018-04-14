@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Tiesiogiai proporcingas nusidėvėjimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas tiesiogiai proporcingo nusidėvėjimo metodas.
 

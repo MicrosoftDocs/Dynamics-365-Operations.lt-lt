@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Sveiki, čia – „Microsoft Dynamics 365 for Talent“
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 for Talent‟ racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Šie procesai apima darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis.
 

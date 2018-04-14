@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>„Attract‟ apžvalga
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 „Attract“ suteikia galimybių valdyti naujų talentų samdos procesą. Kandidatus galima įtraukti į laisvas darbo vietas ir perkelti iš vieno etapo į kitą, kol pratęsiamas pasiūlymas arba atmetamas prašymas. Kiekviename etape kandidatai atlieka tokias veiklas kaip atrankos skambučiai, įvertinimai ar pokalbių planavimas. Pateikę prašymą kandidatai gauna el. laišką, kviečiantį prisijungti prie „Attract“, kur jie gali sekti darbo vietos būseną, savo prašymą ir atsakyti į jiems priskirtas užduotis.
 

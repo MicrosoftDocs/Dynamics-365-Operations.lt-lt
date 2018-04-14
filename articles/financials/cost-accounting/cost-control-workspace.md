@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Savikainos kontrolės apžvalga 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbo sritis **Savikainos kontrolė** yra centrinis taškas, kuriame už dimensijos arba dimensijų (pavyzdžiui, išlaidų centrų ir produktų grupių) savikainos objekto arba savikainos objektų rinkinį atsakingi vadybininkai gali pasiekti ataskaitas. Darbo srityje pateiktas ataskaitas visiškai valdo išlaidų buhalteriai, kad ataskaitoms naudojamas maketas ir duomenys būtų vienodi visoje organizacijoje.
 

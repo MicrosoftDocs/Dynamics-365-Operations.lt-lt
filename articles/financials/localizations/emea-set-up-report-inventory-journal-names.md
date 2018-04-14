@@ -27,12 +27,12 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
 
 Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą. **Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas. Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.
+
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
 | **Šalis**        | **Ataskaitos aprašymas**              | **Žurnalo tipas** | **Formato susiejimo pavadinimas**                 |

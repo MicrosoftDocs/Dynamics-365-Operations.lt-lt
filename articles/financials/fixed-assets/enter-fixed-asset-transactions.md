@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
 

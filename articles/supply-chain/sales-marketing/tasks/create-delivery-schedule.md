@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Kurti pristatymo grafiką
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip kurti pardavimo užsakymo pristatymo grafiką. Pristatymo grafikas naudojamas, kai užsakymo arba pasiūlymo kiekį pageidaujama pristatyti keliomis siuntomis. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 

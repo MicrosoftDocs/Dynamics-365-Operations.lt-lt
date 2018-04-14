@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Kaip nustatyti RFM analizę
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę.
 
@@ -60,25 +59,25 @@ Jei jūsų organizacija naudoja sudėtinį rezultatų numerį, atskiri vertinima
     - Jei, skaičiuojant kiekvieną RFM rezultato dalį, turi būti naudojamas tas pats klientų skaičius, pažymėkite žymės langelį **Tolygus paskirstymas**. 
     - Norėdami sudėti tris rezultatus, pažymėkite žymės langelį **Sudėti rezultatus**. Tuomet, pavyzdžiui., kliento RFM rezultatas būtų 13, o ne 535. 
     - Norėdami, kad sistema būtinai išsaugotų klientų statistinius duomenis, pažymėkite žymės langelį **Įrašyti retrospektyvą** – tuomet duomenys galės būti naudojami RFM rezultatui apskaičiuoti.
-  
+
 5.  „FastTab“ **Recency** atlikite toliau nurodytus veiksmus. 
     - Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų „recency“ rezultatui apskaičiuoti. Pavyzdžiui, jei turite 100 klientų, daliklis 5 reiškia, kad kiekvienam rezultatui sudaryti tenka 20 klientų. 20 vėliausiai pirkusių klientų „recency“ rezultatas bus 5. Kitų 20 klientų „recency“ rezultatas – 4, ir t. t. Jei turite 50 klientų, 10 klientų „recency“ rezultatas bus 5, 10 klientų – 4, ir t. t. 
     - Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite „recency“ parametrui kitų parametrų atžvilgiu. Pavyzdžiui, „recency“ rezultatą galite įvertinti didesne verte nei piniginės išraiškos rezultatą. 
     - Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas „recency“ rezultatas. Jei neįvesite vertės, rezultatas nebus padaugintas. 
     - Lauke **Laikotarpis** pasirinkite laikotarpį, pagal kurį skaičiuojamas „recency“ rezultatas. Pavyzdžiui, pagal savaitę arba pagal mėnesį.
-   
+
 6.  „FastTab“ **Dažnis** atlikite toliau nurodytus veiksmus. 
     - Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų dažnio rezultatui apskaičiuoti. 
     - Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite dažnio parametrui kitų parametrų atžvilgiu. 
     - Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas dažnio rezultatas. Jei neįvesite vertės, rezultatas nebus padaugintas.
-   
+
 7.  „FastTab“ **Piniginė išraiška** atlikite toliau nurodytus veiksmus. 
     - Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų piniginės išraiškos rezultatui apskaičiuoti. 
     - Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite piniginės išraiškos parametrui kitų parametrų atžvilgiu. 
     - Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas piniginės išraiškos rezultatas. Jei neįvesite vertės, rezultatas nebus padaugintas. 
     - Lauke **Bruto / grynoji** pasirinkite, ar kliento piniginės išraiškos rezultatas turi būti apskaičiuojamas naudojant bruto arba grynąją SF sumą. 
     - Jei grąžintinas klientui sumas reikia atimti iš kliento SF bendrosios apskaičiuotos sumos, pažymėkite žymės langelį **Atimti grąžinimus**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Kliento RFM rezultato peržiūra
 Naudokite šią procedūrą norėdami peržiūrėti kliento RFM rezultatą. 
 

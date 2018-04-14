@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Mobiliųjų brūkšninių kodų palaikymas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 „Android“ yra atvirojo kodo projektas, todėl sukurti įrenginį, kuriame veiktų „Android“ operacinė sistema, gali bet kuris sandėlio brūkšninio kodo skaitytuvų aparatūros gamintojas. Įrenginys su „Android“ suderinamas tik tuo atveju, jei jame gali veikti programos, sukurtos „Android“ vykdomajai aplinkai.
 Tačiau aparatūros tiekėjas gali modifikuoti „Android“ versiją arba sukurti „Android“ sistemai skirtus perdengimus, kurie veikia tik tiekėjo aparatūroje. „Microsoft“ negali prisiimti atsakomybės ir užtikrinti, kad „Android“ skirta mobiliųjų brūkšninių kodų nuskaitymo programa bus suderinama su gamintojo brūkšninio kodo aparatūra ir joje veikiančia „Android“ versija. 

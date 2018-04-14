@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="analyze-questionnaire-results"></a>Analizuoti klausimyno rezultatus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Klausimyno statistiką galima naudoti skaičiuojant vidurkius, bendrąsias sumas ir procentus, remiantis demografinių duomenų rinkiniu. Norėdami pradėti šią procedūrą, pasirinkite Klausimynas > Peržiūrėti ir analizuoti rezultatus > Klausimyno statistika. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Kurti naują „kanban“ taisyklę dubliuojant esamą „kanban“ taisyklę
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje didžiausias dėmesys skiriamas esamos „kanban“ taisyklės kopijos kūrimui. Tai naudinga, jei norite kurti naujas „kanban“ taisykles pagal esamas „kanban“ taisykles. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra skirta proceso inžinieriui arba vertės srauto vadybininkui, nes jie parengia pakeistos gamybos eigos arba naujos papildymo taisyklės gamybą.
 

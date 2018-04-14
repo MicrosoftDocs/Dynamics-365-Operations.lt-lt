@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Projekto SF mokėjimo kvito formato nustatymas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Įmonės dažnai prideda išspausdintus mokėjimo kvitus prie SF, norėdamos padėti klientams ir nurodyti mokėjimo registravimo ir sudengimo nuorodą. Mokėjimo kvitas gali būti naudojamas projekto arba paslaugų SF, priminimo laiškuose, delspinigių pažymose ir sąskaitos išrašuose bei pardavimo ir laisvos formos SF. Norėdami apdoroti mokėjimo kvitus, pirmiausia nustatykite savo kreditoriaus identifikavimo numerį ir mokėjimo kvito priedų formatus.
 

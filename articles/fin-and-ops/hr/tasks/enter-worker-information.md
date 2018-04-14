@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Peržiūrėti darbininko informaciją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Samdytojas sukurūrė masinės samdos projektą ir sugeneravo pareigas, kitas žingsnis yra įvesti samdomų žmonių informaciją. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Demonstraciniuose duomenyse yra atidarytas masinės samdos projektas. Norėdami pradėti šią procedūrą, pasirinkite Personalas > Įdarbinimas > Masinės samdos projektai.
 

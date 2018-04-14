@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holders"></a>Avanso turėtojai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“.
 
@@ -48,11 +47,13 @@ Naudokite puslapį **Avanso turėtojų grupės**, kad sukurtumėte avanso turėt
 ### <a name="employee-posting-profile"></a>Darbuotojų registravimo šablonas
 
 Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avanso turėtojų operacijų šabloną. Galite nurodyti toliau pateiktą darbuotojų registravimo šablono informaciją.
-|Laukas |aprašymas|
-|------|-----------|
-|Registravimo šablonas|Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.|
-|aprašymas|Įveskite trumpą registravimo šablono aprašą.|
-|Galioja|Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių. 
+
+|      Laukas      |                                            aprašymas                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| Registravimo šablonas |               Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.               |
+|   aprašymas   |                         Įveskite trumpą registravimo šablono aprašą.                         |
+|    Galioja    | Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių. |
+
 **Lentelė** – ši parinktis naudojama nustatant vieno avanso turėtojo registravimo šabloną. Turite nurodyti avanso turėtojo kodą lauke Nuoroda.
 **Grupė** – ši parinktis naudojama nustatant avanso turėtojų grupės registravimo šabloną. Turite nurodyti grupės kodą lauke Nuoroda.
 **Visi** – ši parinktis naudojama nustatant visų avanso turėtojų registravimo šabloną.| |Nuoroda|Pasirinkite avanso turėtojo kodą, jei lauke Galioja pasirinkta parinktis Lentelė, arba pasirinkite avanso turėtojo grupę, jei lauke Galioja pasirinkta parinktis Grupė.| |Suminė sąskaita|Pasirinkite operacijų registravimo suminę sąskaitą.|
@@ -62,6 +63,7 @@ Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avan
 ### <a name="account-payable-parameters"></a>Mokėtinų sumų parametrai
 
 Norėdami nurodyti avanso turėtojo operacijas, puslapio **Mokėtinų sumų parametrai** dalyje **Avanso turėtojai** turite nustatyti toliau pateiktą informaciją.
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  **Laukas**                                     | **Aprašas**                                                                                                                                                                  |
@@ -80,6 +82,7 @@ Norėdami tinkamai užregistruoti pirkimo užsakymą per avanso turėtoją, turi
 ### <a name="create-an-advance-holder-creation"></a>Avanso turėtojo kūrimas
 
 Prieš kurdami avanso turėtoją, turite būti jau nustatę darbuotojus. Daugiau informacijos žr. [Darbuotojo informacijos įvedimas (užduočių vedlys)](../../fin-and-ops/hr/tasks/enter-worker-information.md) Naudokite puslapį **Avanso turėtojai**, kad darbuotoją nustatytumėte kaip avanso turėtoją. Pasirinkite darbuotoją, kurį nustatysite kaip avanso turėtoją, spustelėkite **Redaguoti** ir tada nustatykite parinktį **Avanso turėtojas** į **True**. Taip pat turite užpildyti tolesnius laukus.
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | **Laukas**      | **Aprašas**                                                                             |

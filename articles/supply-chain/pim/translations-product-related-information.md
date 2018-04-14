@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>DUK apie su produktais susijusius vertimus
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti produktų, prekės dimensijų verčių ir produktų atributų vertimus. 
 
@@ -95,8 +94,7 @@ Klientas nori pirkti mažų, raudonų marškinėlių ir marškinėlių pavadinim
 <tbody>
 <tr class="odd">
 <td>Norėdami nustatyti kliento pageidaujamą kalbą, atlikite šiuos veiksmus:
-<ol>  
-<li>Spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Bendra</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi</strong> <strong>klientai</strong>.</li>
+<ol><br/><li>Spustelėkite <strong>Pardavimas ir rinkodara</strong> &gt; <strong>Bendra</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi</strong> <strong>klientai</strong>.</li>
 <li>Dukart spustelėkite klientą, kad atidarytumėte puslapį <strong>Klientai</strong>. Skirtuko <strong>Bendra</strong> lauke <strong>Kalbos</strong> pasirinkite <strong>kalbą</strong>.</li>
 </ol></td>
 </tr>

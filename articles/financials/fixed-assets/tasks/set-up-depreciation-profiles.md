@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Nustatyti ir kurti nusidėvėjimo profilius
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nusidėvėjimo šablonai nustato turto nusidėvėjimo tipą ir dažnį.   Šis įrašas naudoja USMF demonstracinių duomenų įmonę ir buhalterio vaidmenį.
 

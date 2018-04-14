@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama „Finance and Operations“ biudžeto sudarymo funkcinių komponentų, biudžeto kūrimo įrankių ir ataskaitų kūrimo galimybių apžvalga. 
 

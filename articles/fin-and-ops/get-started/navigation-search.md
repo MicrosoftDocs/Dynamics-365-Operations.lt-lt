@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Naršymo ieška
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius „Microsoft Dynamics 365 for Finance and Operations“.
 

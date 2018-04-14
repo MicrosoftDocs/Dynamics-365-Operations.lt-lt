@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>„Lean manufacturing“ apžvalga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami „Microsoft Dynamics 365 for Finance and Operations“ „lean manufacturing“ funkcijų apžvalga ir aprašymas.
 
@@ -40,6 +39,7 @@ ms.lasthandoff: 03/26/2018
 -   Stebėti ir tvarkyti „kanban“ užduotis.
 
 „Lean manufacturing‟ architektūrą programoje „Finance and Operations‟ sudaro gamybos eigos, veiklos ir „kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Finance and Operations” procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
+
 | **Svarbu**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | „Finance and Operations‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ su „kanban‟ įgyvendinimas Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |

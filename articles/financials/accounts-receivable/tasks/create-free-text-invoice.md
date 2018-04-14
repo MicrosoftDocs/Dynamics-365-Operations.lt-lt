@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Kurti laisvos formos sąskaitą faktūrą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis užduočių vadovas parodo, kaip sukurti laisvos formos SF. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

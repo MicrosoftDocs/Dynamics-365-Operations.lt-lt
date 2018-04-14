@@ -27,8 +27,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="performance-management-overview"></a>Našumo valdymo apžvalga
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.  
 

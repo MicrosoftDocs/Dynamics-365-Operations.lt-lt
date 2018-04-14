@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Konfigūracijų kūrimas, leidžiantis analizuoti gaunamus dokumentus, ar nėra programos duomenų naujinimų (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, ir jas panaudosite gaunamų elektroninių dokumentų analizei. Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“.
 

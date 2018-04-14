@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Nusidėvėjimo poveikis su atšaukimais
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aptartos galimos ilgalaikio turto operacijos atšaukimo pasekmės. 
 

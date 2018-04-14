@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Nustatyti papildomų paslaugų priskyrimus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti papildomų paslaugų priskyrimą. Paprastai tą daro transportavimo koordinatorius. Prieš pradėdami naudoti šį vadovą turite įvykdyti vadovą „Nustatyti tranzito punktų papildomų paslaugų mokesčius ir papildomų paslaugų šablonus“.
 

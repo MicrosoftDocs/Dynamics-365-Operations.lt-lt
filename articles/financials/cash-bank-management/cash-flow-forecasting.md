@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudodami pinigų srautų prognozavimo įrankius galite analizuoti būsimam pinigų srautui ir valiutai keliamus reikalavimus, kad galėtumėte įvertinti būsimą įmonės grynųjų pinigų poreikį. Norėdami gauti pinigų srautų prognozę, turite atlikti šias užduotis:
 

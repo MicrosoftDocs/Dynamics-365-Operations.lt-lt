@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Gamybos vykdymo registracija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinamos pagrindinės sąvokos ir terminai, kuriuos turite suprasti norėdami konfigūruoti ir naudoti gamybos vykdymą. 
 

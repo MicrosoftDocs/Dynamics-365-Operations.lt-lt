@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-segregation-of-duties"></a>Nustatyti pareigų atskyrimą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Pavyzdžiui, galbūt nenorite, kad tas pats asmuo patvirtintų prekių gavimą ir apdorotų mokėjimą tiekėjui. Pareigų atskyrimas padeda sumažinti apgaulės riziką ir nustatyti klaidas arba pažeidimus. Taip pat galite naudoti pareigų atskyrimą norėdami taikyti vidinės kontrolės strategijas. Norėdami sukurti taisyklę, atlikite tolesnę procedūrą. Turite būti sistemos administratorius, kad galėtumėte atlikti procedūrą. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DAT. 
 

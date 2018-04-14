@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Žurnalo įrašų ir operacijų peržiūra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinti įvairūs būdai, kaip galite peržiūrėti žurnalo įrašus ir operacijas. 
 
@@ -55,7 +54,7 @@ Be finansinių ataskaitų, galite naudoti šias DK ataskaitas, kad peržiūrėtu
 -   **Operacijų kilmė** – šioje operacijų ataskaitoje rodoma sąskaita pagal žurnalą ir pagal operacijų, apskaitos ir ataskaitų valiutą. Tai taip pat rodoma kiekviena žurnalo eilutė, kur buvo naudojama kaip poslinkis.
 
 
-##<a name="see-also"></a>Taip pat žiūrėkite
+## <a name="see-also"></a>Taip pat žiūrėkite
 - [DK sąskaitos balansai](general-ledger-account-balances.md) 
 - [Apskaitos šaltinių naršyklė](..\accounts-payable\accounting-source-explorer.md)
 - [Finansinės ataskaitos](financial-reporting-getting-started.md)

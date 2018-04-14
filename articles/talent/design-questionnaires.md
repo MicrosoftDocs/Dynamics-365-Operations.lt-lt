@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="design-a-questionnaire"></a>Klausimyno sudarymas
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje aprašomas klausimyno kūrimo procesas. Pirmasis veiksmas yra sukurti klausimyno dizainą. Kai kuriate klausimyno dizainą, ne tik rašote klausimus ir atsakymus, tačiau taip pat sukuriate struktūrą, kuri leidžia atsakymus įrašyti ir tabuliuoti. 
 

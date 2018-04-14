@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Produkto patvirtinimas klasteriui paimti
 Pasirinkdami klasterius vienu metu galite pasirinkti keliems užsakymams skirtas prekes. Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų galima patikrinti į klasterius įtraukiamas prekes. Galite patikrinti prekes atlikdami klasterių pasirinkimą, vykstant klasterio parinkimo procesui.
@@ -37,7 +37,8 @@ Prekių patikrinimas atliekant klasterio parinkimą atliekamas tuo pačiu būdu 
 1.  Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** > **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai**.
 2.  Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**.
 
-| Parinktis        | aprašymas   | 
-| ------------- | ------------- |
-|Produkto patvirtinimas | Mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.|
+|        Parinktis        |                                    aprašymas                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Produkto patvirtinimas | Mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį. |
+
 

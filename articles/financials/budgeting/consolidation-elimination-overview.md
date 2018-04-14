@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Konsolidavimo ir šalinimo peržiūra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta bendra informacija apie konsolidavimą ir pašalinimo procesą. Jame pateikti atsakymai į dažnai užduodamus klausimus.
 

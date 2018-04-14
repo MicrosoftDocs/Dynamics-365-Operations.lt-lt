@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Atostogų ir neatvykimų valdymo apžvalga
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 **Atostogų ir neatvykimų valdymo** modulis siūlo lanksčią neatvykimo valdymo proceso nustatymo sistemą. Atostogų ir neatvykimų planus galima kurti siekiant nustatyti, darbuotojų sukauptą arba naudojamą nedarbo laiką. Įtraukus darbuotojus į planą, jie gali pateikti vadovams patvirtinti prašymus išleisti iš darbo. Atostogų sekimo funkcija leidžia pirmojo lygio vadovams ir personalo vadovams peržiūrėti iš darbo išeinančius asmenis ir sužinoti kiekvieno darbuotojo likusių atostogų dienų skaičių.  
 

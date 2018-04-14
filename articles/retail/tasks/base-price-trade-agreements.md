@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

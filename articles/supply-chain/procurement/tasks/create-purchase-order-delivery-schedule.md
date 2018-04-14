@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Kurti pirkimo užsakymą su pristatymo grafiku
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip kurti pirkimo užsakymo pristatymo grafiką. Pristatymo grafikas naudojamas, kai užsakymo arba žurnalo kiekį pageidaujama pristatyti keliomis siuntomis. Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Paprastai šią procedūrą atlieka pirkimo agentas.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Neatitikimų valdymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašytas pagrindinis nustatymas, kuris reikalingas norint naudoti neatitikimus. Jei norite naudoti kokybės užsakymus, reikalingi papildomi nustatymai.
 

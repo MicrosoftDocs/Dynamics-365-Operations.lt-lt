@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Valdyti darbuotojams paskolintas prekes
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Panaudos objektai yra įrašai, kurie vadovams padeda sekti fizines prekes, kurias įmonė skolina savo darbuotojams. 
 
@@ -51,7 +50,7 @@ Vadovai gali peržiūrėti savo tiesioginių ataskaitų panaudos objektus. Jiems
 
 Jei objektas sugadinamas arba negrąžinamas, įveskite fiktyvų grąžinimo įrašą. Tada panaikinkite objektą arba saugokite peržiūroje ir pakeiskite aprašymą, kad matytumėte, jog objekto nėra.
 
- 
+
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 

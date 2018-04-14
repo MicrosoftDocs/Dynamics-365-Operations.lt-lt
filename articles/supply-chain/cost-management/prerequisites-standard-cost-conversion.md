@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Būtinos standartinių išlaidų konvertavimo sąlygos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aptariama užduotis, kurią reikia atlikti prieš vykdant standartinių išlaidų konvertavimą. 
 

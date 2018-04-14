@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Apskaitos paskirstymai naudojami siekiant apibrėžti, kaip suma bus apskaitoma, pvz., kaip bus apskaitomos išlaidos, mokesčiai ar rinkliavos tiekėjo SF. Kiekviena suma, kurią reikia apskaityti, kai tiekėjo SF įtraukiama į žurnalą, turės vieną ar kelis apskaitos paskirstymus. 
 
@@ -231,7 +230,7 @@ Kai įvedate tiekėjo SF, kiekviena suma bus paskirstyta kaip aprašyta toliau.
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Mokesčių paskirstymas
 ------------------
 

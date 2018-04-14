@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Išleisti produktą / bendrąjį produktą juridiniams subjektams
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padeda išleisti produktą arba bendrąjį produktą vienam arba keliems juridiniams subjektams. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.
 

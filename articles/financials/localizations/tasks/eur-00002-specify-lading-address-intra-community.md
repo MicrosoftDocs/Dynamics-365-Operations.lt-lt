@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Nurodyti vidaus operacijos pakrovimo adresą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti pakrovimo adresą, skirtą ES vidaus prekybos operacijai. Pavyzdžiui, Vokietijos įmonės užsisako prekių iš tiekėjo, kurio darbo adresas yra Vokietijoje. Šis tiekėjas turi sandėlį Italijoje ir siunčia prekes iš ten. Šis pristatymas turi būti pateiktas „Intrastat“ ataskaitoje. Tokia pati procedūra gali būti taikoma kliento grąžinimams.
 Ši procedūra taikoma visoms Europos šalims / regionams. Užduotis buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Prieš atlikdami šią procedūrą, turite sukonfigūruoti „Intrastat“ ataskaitas. Ši procedūra skirta buhalteriams. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbo eigos proceso metu, pirkimo paraiškos pereina redagavimo procesą, nuo pirminės būsenos Juodraštis iki galutinės būsenos Patvirtinta. Kai pirkimo paraiška pateikiamai peržiūrai, pradedamas darbo eigos procesas. Pirkimo paraišką patvirtinus, pirkimo paraiškos eilutėms galima sugeneruoti pirkimo užsakymą ir pateikti tiekėjui, kad jį įvykdytų.
 

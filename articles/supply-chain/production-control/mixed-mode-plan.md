@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie mišriojo režimo planavimą. Mišriojo režimo planavime galite modeliuoti savo tiekimo grandinę remdamiesi medžiagų srautu. „Microsoft Dynamics 365 for Finance and Operations“ užtikrina, kad medžiagų srautas atitiktų jūsų modelius, nepriklausomai nuo pasirinktos tiekimo strategijos („kanban“, gamybos užsakymai, paketiniai užsakymai arba perkėlimo užsakymai). 
 

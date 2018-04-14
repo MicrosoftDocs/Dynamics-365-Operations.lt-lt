@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Įvertinti gamybos užsakymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šią procedūrą galite paleisti naudodami USMF demonstracinių duomenų įmonę arba savo duomenų rinkinį. Abiem atvejais turite turėti atvirą gamybos užsakymą, kurio būsena yra Sukurta. Tai yra antra procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.
 

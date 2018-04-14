@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>Peržiūrėti darbo eigos retrospektyvą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

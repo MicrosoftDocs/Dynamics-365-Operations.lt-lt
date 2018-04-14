@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formulės ir formulių versijos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Formule apibrėžiamos konkretaus proceso gamybos proceso medžiagos, ingredientai ir rezultatai. Su atitinkamu maršrutu formulė proceso gamyboje apibrėžia visą procesą. Proceso gamyboje formulės naudojamos produktams planuoti ir gaminti.
 

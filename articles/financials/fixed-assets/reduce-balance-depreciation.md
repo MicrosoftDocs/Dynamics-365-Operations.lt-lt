@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Mažėjančio balanso nusidėvėjimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgtas nusidėvėjimo Mažėjančios vertės metodas.
 
@@ -80,7 +79,7 @@ Naudojant metodą Mažėjanti vertė, 30 procentų nusidėvėjimo pagrindo (iš 
 | 2 metai | (7000 - 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
 | 3 metai | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
- 
+
 -
 
 

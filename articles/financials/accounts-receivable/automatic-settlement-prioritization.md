@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>Automatinis sudengimas ir prioritetų nustatymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 

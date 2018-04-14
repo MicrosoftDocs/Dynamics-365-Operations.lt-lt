@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Sudengimo operacijų peržiūra (Rytų Europa)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie klientų ir tiekėjų puslapį Sudengimo operacijos.
 

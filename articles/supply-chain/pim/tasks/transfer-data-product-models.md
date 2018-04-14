@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Perkelti produktų modelių duomenis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Produkto konfigūracijos modelio duomenų eksportavimui atlikti reikia turėti bent vieną produkto modelį. Šios procedūros metu naudojamas aukščiausios kokybės garsiakalbio modelis iš demonstracinės įmonės USMF, siekiant parodyti, kaip eksportuoti šio modelio duomenis.
 

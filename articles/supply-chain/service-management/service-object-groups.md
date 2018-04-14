@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Aptarnavimo objektų grupės 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Objektų grupės yra naudingos rūšiuojant ir filtruojant ataskaitų ir statistikos objektų duomenis. Pavyzdžiui, objektus galite grupuoti pagal geografinę vietovę arba pagal tipą.
 

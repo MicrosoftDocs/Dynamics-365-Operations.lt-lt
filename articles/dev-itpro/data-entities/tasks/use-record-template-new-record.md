@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Naudoti įrašo šabloną naujam įrašui kurti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kuriant naują įrašą naudoti anksčiau nustatytą įrašo šabloną. Norėdami užbaigti šią procedūrą, pirmiau turite užbaigti procedūrą „Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis“.
 

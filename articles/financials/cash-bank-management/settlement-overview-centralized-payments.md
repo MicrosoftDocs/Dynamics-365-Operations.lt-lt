@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizuotų mokėjimų sudengimo apžvalga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti keliuose juridiniuose subjektuose ir yra sutaupoma laiko supaprastinant mokėjimo pasiūlymo procesą, atsiskaitymo procesą, atvirų operacijų redagavimą ir centralizuotų mokėjimų uždarytų operacijų redagavimą. 
 

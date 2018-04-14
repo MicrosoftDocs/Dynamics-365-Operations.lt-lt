@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Bendrojo planavimo vykdymo stebėjimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Gamybos planuotojas nori pamatyti, ar vykdomas bendrasis planavimas. Atlikti šiai procedūrai naudokite demonstracinių duomenų įmonę USMF.
 

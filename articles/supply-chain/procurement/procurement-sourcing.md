@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti įsigijimo ir šaltinio pasirinkimo sričiai, sąrašas.
 

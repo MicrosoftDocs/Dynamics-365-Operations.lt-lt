@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Peržiūrėti taikytinas kainas ir nuolaidas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip rasti produkto kainą ir (arba) nuolaidą, kuri šiuo metu taikoma konkrečiam klientui, nesukuriant pardavimo užsakymo. Procedūra žingsnis po žingsnio apžvelgia konkretų pavyzdį, kuriuo jums reikės vadovautis naudojant demonstracinę įmonę USMF, kad pasirinktumėte būtinas reikšmes.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Finance and Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui. 
 
@@ -251,7 +250,7 @@ Norint išvengti nepageidaujamų problemų su būsimais šios operacijos sudengi
 | 001         | Klientas         | US-008      |                 |           |  75,00     | DK          | 999999---          |
 | 002         | Tiekėjas           | 1001        |                 |  75,00    |            | DK          | 999999---          |
 
- 
+
 
 
 

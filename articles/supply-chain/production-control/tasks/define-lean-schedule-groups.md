@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Nustatyti pažangiosios gamybos planavimo grupes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pažangiosios gamybos planavimo grupės apibrėžtos grupuoti ir atskirti produktus iš „kanban“ planavimo. Grupavimą galima atlikti kaip bendrąjį susiejimą visoje įmonėje arba būdingą darbo elementui. Kiekviena grupė turi spalvos kodą, priskirtą vizualiai nurodyti „kanban“ planavimo sąrašo puslapyje. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

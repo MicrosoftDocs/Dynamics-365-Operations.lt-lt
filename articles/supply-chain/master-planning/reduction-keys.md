@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Mažinimo raktai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami pavyzdžiai, kuriais rodoma, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 Šiame pavyzdyje parodoma, kaip mažinimo raktas sumažina poreikio prognozės poreikius pagal procentines dalis ir laikotarpius, kuriuos nurodo mažinimo raktas.
 
-1.  Puslapyje **Mažinimo raktai** nustatykite toliau nurodytas eilutes.
-    | Grąža | Vienetas  | Procentas |
-    |--------|-------|---------|
-    | 1      | Mėnuo | 100     |
-    | 2      | Mėnuo | 75      |
-    | 3      | Mėnuo | 50      |
-    | 4      | Mėnuo | 25      |
+1. Puslapyje **Mažinimo raktai** nustatykite toliau nurodytas eilutes.
 
-2.  Susiekite mažinimo raktą su prekės draudimo grupe.
-3.  Puslapio **Bendrieji planai** lauke **Mažinimo principas** pasirinkite **Procentas – mažinimo raktas**.
-4.  Sukurkite 1 000 vienetų per mėnesį poreikio prognozę.
+   | Grąža | Vienetas  | Procentas |
+   |--------|-------|---------|
+   |   1    | Mėnuo |   100   |
+   |   2    | Mėnuo |   75    |
+   |   3    | Mėnuo |   50    |
+   |   4    | Mėnuo |   25    |
+
+
+2. Susiekite mažinimo raktą su prekės draudimo grupe.
+3. Puslapio **Bendrieji planai** lauke **Mažinimo principas** pasirinkite **Procentas – mažinimo raktas**.
+4. Sukurkite 1 000 vienetų per mėnesį poreikio prognozę.
 
 Jei prognozės planavimą paleisite sausio 1 d., poreikio prognozės poreikiai bus naudojami atsižvelgiant į procentus, nustatytus puslapyje **Mažinimo raktai**. Toliau nurodyti poreikio kiekiai perkeliami į bendrąjį planą.
 
@@ -88,20 +89,21 @@ Jei naudojate tą pačią 1 000 vienetų per mėnesį poreikio prognozę, į ben
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3 pavyzdys: operacijų dinaminio laikotarpio prognozės mažinimo principas
 Dažniausiai sistemos yra nustatomos taip, kad operacijos sumažintų poreikio prognozę per tam tikrus prognozės laikotarpius: savaites, mėnesius ir t. t. Šie laikotarpiai yra nustatomi mažinimo rakte. Tačiau laiko tarpas tarp dviejų poreikio prognozės eilučių taip pat gali *nurodyti* laikotarpį.
 
-1.  Kurkite toliau nurodytų datų ir kiekių poreikio prognozę.
-    | Data       | Poreikio prognozė |
-    |------------|-----------------|
-    | Sausio 1  | 1000           |
-    | Sausio 5 d.  | 500             |
-    | Sausio 12 d. | 1000           |
+1. Kurkite toliau nurodytų datų ir kiekių poreikio prognozę.
 
-    Šioje prognozėje nėra aiškaus laikotarpio tarp prognozės datų: tarp pirmosios ir antrosios datų yra keturių dienų laikotarpis, o tarp antrosios ir trečiosios datų yra septynių dienų laikotarpis. Šie įvairūs laikotarpiai yra dinaminiai laikotarpiai.
-2.  Kurkite pardavimo užsakymo eilutes, kaip nurodyta toliau.
-    | Data                             | Pardavimo užsakymo kiekis |
-    |----------------------------------|----------------------|
-    | Ankstesnių metų gruodžio 15 d. | 500                  |
-    | Sausio 3 d.                        | 100                  |
-    | Sausio 10 d.                       | 200                  |
+   | Data       | Poreikio prognozė |
+   |------------|-----------------|
+   | Sausio 1  | 1000           |
+   | Sausio 5 d.  | 500             |
+   | Sausio 12 d. | 1000           |
+
+   Šioje prognozėje nėra aiškaus laikotarpio tarp prognozės datų: tarp pirmosios ir antrosios datų yra keturių dienų laikotarpis, o tarp antrosios ir trečiosios datų yra septynių dienų laikotarpis. Šie įvairūs laikotarpiai yra dinaminiai laikotarpiai.
+2. Kurkite pardavimo užsakymo eilutes, kaip nurodyta toliau.
+   | Data                             | Pardavimo užsakymo kiekis |
+   |----------------------------------|----------------------|
+   | Ankstesnių metų gruodžio 15 d. | 500                  |
+   | Sausio 3 d.                        | 100                  |
+   | Sausio 10 d.                       | 200                  |
 
 Prognozė bus sumažinama, kaip parodyta toliau.
 

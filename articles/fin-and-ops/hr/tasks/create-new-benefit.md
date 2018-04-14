@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-benefit"></a>Kurti naują išmoką
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis parodys, kaip kurti išmokų elementus, kurie bus naudojami kuriant naują išmoką. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši užduotis yra skirta kompensacijų ir išmokų vadovui.
 

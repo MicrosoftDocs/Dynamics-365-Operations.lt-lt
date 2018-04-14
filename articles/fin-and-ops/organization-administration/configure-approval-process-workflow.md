@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Darbo eigos patvirtinimo proceso konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 
@@ -136,6 +135,7 @@ Galite nustatyti galutinį tvirtintoją tiems atvejams, kai tvirtintojas yra asm
 
 ## <a name="set-a-time-limit"></a>Laiko limito nustatymas
 Jei patvirtinimo procesas turi būti baigtas per tam tikrą laiką, atlikite šiuos veiksmus.
+
 | **Pastaba.**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Parinktys, kurias pasirinkote atlikdami šiuos veiksmus, gali perrašyti parinktis, kurias pasirinkote kiekvieno patvirtinimo veiksmo srityse **Priskyrimas** ir **Perskyrimas**. |

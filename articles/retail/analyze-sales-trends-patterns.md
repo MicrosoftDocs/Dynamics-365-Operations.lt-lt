@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Pardavimo tendencijų ir modelių analizavimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Programoje „Microsoft Dynamics 365 for Retail“ galite realiu laiku tirti pardavimo tendencijas ir modelius.
 

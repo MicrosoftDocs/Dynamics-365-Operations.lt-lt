@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟. 
 
@@ -39,6 +38,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 
 ## <a name="action-shortcuts"></a>Veiksmų spartieji klavišai
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Norėdami tai padaryti**                                    | **Spausti**                        |
@@ -55,6 +55,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Peržiūrėti šiuo metu galimus sparčiuosius klavišus                | Alt + Shift + K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Datos parinkimo spartieji klavišai
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Norėdami tai padaryti**                        | **Spausti**                                 |
@@ -68,6 +69,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Parinkti Niekada (arba didžiausią datą)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>„FactBox“ spartieji klavišai
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Norėdami tai padaryti**                                                                  | **Spausti**                                 |
@@ -79,6 +81,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Sutraukti esamą „FactBox“                                                    | Alt + 0                                     |
 
 ## <a name="filtering-shortcuts"></a>Filtravimo spartieji klavišai
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Norint tai padaryti**                     | **Paspausti**                |
@@ -89,6 +92,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Atidaryti išplėstinį filtravimą / rūšiavimą                                      | Ctrl + Shift + F3            | 
 
 ## <a name="form-shortcuts"></a>Formos spartieji klavišai
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Norint tai padaryti**                                      | **Paspausti**         |
@@ -110,6 +114,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Uždaryti formą atmetant visus neįrašytus keitimus       | Alt + Shift + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Formos naršymo spartieji klavišai
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Norėdami tai padaryti**                                      | **Spausti**                                    |
@@ -128,6 +133,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti į eilučių rodinį                                | Ctrl + Shift + L                                 |
 
 ## <a name="grid-shortcuts"></a>Tinklelio spartieji klavišai
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Norėdami tai padaryti**                                                                                                         | **Spausti**                       |
@@ -148,6 +154,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Norėdami tai padaryti**                                                               | **Spausti**                     |
@@ -163,6 +170,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perjungti įvesties vietą tarp teksto srities ir įrankių juostos HTML doroklio valdiklyje | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Pranešimų spartieji klavišai
+
 |                          |               |
 |--------------------------|---------------|
 | **Norėdami tai padaryti**           | **Spausti**     |
@@ -170,6 +178,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Eiti į pranešimų juostą    | Ctrl + F7       |
 
 ## <a name="navigation-shortcuts"></a>Naršymo spartieji klavišai
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Norėdami tai padaryti**                                                                | **Spausti**                  |
@@ -191,6 +200,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Pereiti į „FactBox“ sritį (ji taip pat gali būti atidaroma)                       | „Alt“ + M, B arba „Ctrl“ + F2         |
 
 ## <a name="personalization-shortcuts"></a>Personalizavimo spartieji klavišai
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Norėdami tai padaryti**                                                                                                         | **Spausti**                           |
@@ -219,6 +229,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Išeiti iš personalizavimo režimo (kai įjungtas personalizavimo režimas)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentuoto įrašo spartieji klavišai
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Norėdami tai padaryti**                                                                                                          | **Spausti**                        |

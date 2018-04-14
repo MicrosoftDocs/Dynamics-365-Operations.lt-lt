@@ -27,8 +27,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="use-workflows-to-manage-employee-information"></a>Darbo eigos naudojimas darbuotojo informacijai tvarkyti
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip panaudoti darbo eigos tinkamumą personalui, tvarkant darbuotojo informaciją. Pavyzdžiui, darbo eigą galite susieti su pareigomis ir sukonfigūruoti patvirtinimo darbo eigą, kuri pradedama, kai darbuotojai pakeičią savo įrašus.
 

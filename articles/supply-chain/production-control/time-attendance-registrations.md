@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Laiko ir buvimo darbe registracija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šioje temoje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą. 
 
@@ -95,7 +94,7 @@ Galite nustatyti darbo eigos tvirtinimo procesą, kurio metu automatiškai patvi
 | Bendras laiko ir buvimo darbe dienų skaičius            | Darbo eiga tikrina registracijas pagal, pvz., numatomą dienos darbo valandų skaičių. |                                                                                                                                                                                                                                                       |
 | Laiko ir buvimo darbe žurnalo registracija. | Darbo eiga tikrina kiekvieno registracijos tipo registracijos datą.                           | Laikas ir buvimas darbe • Atėjimas į darbą • Išėjimas iš darbo • Neatvykimas • Pertrauka • Perjungimo kodas • Projektas • Projekto veikla • Netiesioginės veiklos gamybos užduotys • Eilė prieš • Sąranka • Procesas • Persidengimas • Transportas • Eilė po • Pradėti asistuoti • Sustabdyti asistavimą |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Patvirtintų registracijų perkėlimas
 Patvirtinus registracijas jas galima perkelti į periodinę atlyginimo užduotį. Perkeltos registracijos užregistruojamos į veiklą arba užduotį, su kuria jos yra susijusios, pvz., į gamybos užsakymą arba projektą. Algalapio operacijos kiekvienam darbuotojui generuojamos pagal registracijas.  

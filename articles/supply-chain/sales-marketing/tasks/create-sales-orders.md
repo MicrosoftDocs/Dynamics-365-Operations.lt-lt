@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Pardavimo užsakymų kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti pardavimo užsakymą. Šią procedūrą galite naudoti demonstracinėje duomenų įmonėje USMF. Pardavimo užsakymus paprastai kuria pardavimo užsakymų procesorius. 
 

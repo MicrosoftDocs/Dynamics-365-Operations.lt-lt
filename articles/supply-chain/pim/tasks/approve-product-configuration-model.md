@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Patvirtinti produkto konfigūracijos modelį
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas produkto konfigūracijos modelis. Šiai procedūrai atlikti naudojamas aukščiausios kokybės garsiakalbio iš modelis demonstracinės įmonės USMF. Atkreipkite dėmesį, kad šis modelis jau patvirtintas, bet procedūra padės viso proceso metu.
 

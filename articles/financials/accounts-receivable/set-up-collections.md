@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Nustatyti Kreditą ir surinkimą
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas.
 
@@ -97,9 +96,9 @@ Jei pardavimo atstovas nenurodytas, naudojamas pagrindinis kliento organizacijos
 Daugiau informacijos ieškokite šiose temose:
 
  - [Kurti priminimo laiškų seką](tasks/create-collection-letter-sequence.md)
- 
+
  - [Apdoroti priminimo laiškus](tasks/process-collection-letters.md)
- 
+
  - [Peržiūrėti mokėjimų priežiūros informaciją](tasks/review-collections-information.md)
 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Kreditas ir mokėjimai Gautinų sumų modulyje
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Finance and Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 
@@ -70,9 +69,9 @@ Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas u�
 
 > [!NOTE]
 > Skirstymo pagal terminus momentinę kopiją reikia sukurti prieš peržiūrint šiuos sąrašo puslapius. Informacija rodoma tik tiems klientams, kuriems buvo sukurta skirstymo pagal terminus momentinė kopija. Sąrašo puslapyje rodomus įrašus galima papildomai filtruoti toliau nurodytu būdu.
-<li>Pagal numatytuosius nustatymus „Finance and Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
-<li>Jeigu yra klientų telkinys, vartotoją reikia nustatyti kaip mokėjimų priežiūros agentą, kad būtų galima naudoti telkinius filtruoti informacijai apie mokėjimų priežiūros sąrašų puslapius. Informacija apsiriboja klientais, kurie yra įrašyti į pasirinktą klientų telkinį.</li>
-<li>Jeigu vartotojas yra nustatytas tik kaip mokėjimų priežiūros agentas, sąrašų puslapyje bus tik telkiniai, kurie yra atrinkti tam mokėjimų priežiūros agentui. Mokėjimų priežiūros agentų puslapyje mokėjimų priežiūros agentui pasirinkus klientų telkinių perjungimą, tam agentui yra prieinami visi telkiniai.</li>
+> <li>Pagal numatytuosius nustatymus „Finance and Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
+> <li>Jeigu yra klientų telkinys, vartotoją reikia nustatyti kaip mokėjimų priežiūros agentą, kad būtų galima naudoti telkinius filtruoti informacijai apie mokėjimų priežiūros sąrašų puslapius. Informacija apsiriboja klientais, kurie yra įrašyti į pasirinktą klientų telkinį.</li>
+> <li>Jeigu vartotojas yra nustatytas tik kaip mokėjimų priežiūros agentas, sąrašų puslapyje bus tik telkiniai, kurie yra atrinkti tam mokėjimų priežiūros agentui. Mokėjimų priežiūros agentų puslapyje mokėjimų priežiūros agentui pasirinkus klientų telkinių perjungimą, tam agentui yra prieinami visi telkiniai.</li>
 
 
 ## <a name="collections-page"></a> Mokėjimų priežiūros puslapis 

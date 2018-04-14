@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deposit-customer-payments"></a>Mokėti kliento mokėjimus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deponuokite kliento mokėjimus. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

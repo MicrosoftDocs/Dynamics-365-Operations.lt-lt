@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Produktų dimensijos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Produktų dimensijos yra keturios – Spalva, Konfigūracija, Dydis ir Stilius. Produktų dimensijos jungiamos į dimensijų grupes, o dimensijų grupės priskiriamos bendriesiems produktams. Produktų dimensijų kombinacijomis nustatoma, kaip apibrėžiami produktų variantai.
 
@@ -51,6 +50,7 @@ Produkto dimensijų vertes, pvz., Dydis, Spalva ir Stilius, galima sukurti pusla
 -   Spustelėkite **Produkto informacijos valdymas** &gt; **Patvirtinti produktai**. Pasirinkite bendrąjį produktą. Dalyje **Veiksmų sritis** spustelėkite **Produktas**. Grupėje **Bendrasis produktas** spustelėkite **Produktų dimensijos**.
 
 Variantų, kuriuos galite sukurti prekei, kiekis ribojamas pagal galimų produkto dimensijų derinių kiekį.
+
 | **Patarimas**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pavyzdžiui, užsakymo eilutėje naudodami produktą, pasirinkę produkto dimensijas identifikuosite norimą naudoti produkto variantą. |

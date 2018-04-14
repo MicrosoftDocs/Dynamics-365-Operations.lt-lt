@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Pirkimo užsakymo apžvalga
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje pateikiama bendra informacija apie pirkimo užsakymus (PU) ir saitai į papildomus straipsnius, susijusius su įvairiomis PU eigos būsenomis.
 

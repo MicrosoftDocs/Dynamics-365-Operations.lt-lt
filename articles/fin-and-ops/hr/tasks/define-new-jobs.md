@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Apibrėžti naujas užduotis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia užduotimi dėmesys skiriamas naujo darbo sukūrimui. Ji bus baigta naudojant rankinį šablono funkcijų įvedimą kopijavimą. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši užduotis yra skirta žmogiškųjų išteklių specialistui.
 

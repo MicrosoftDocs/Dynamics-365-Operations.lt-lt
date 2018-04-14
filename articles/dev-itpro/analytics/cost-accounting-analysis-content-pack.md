@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Power BI“ turinio paketą **Išlaidų apskaitos analizė**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
@@ -111,18 +111,20 @@ Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analiz�
 
 Šios pagrindinės dimensijos naudojamos kaip filtrai sujungtiems matavimo vienetams skaidyti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
 
-| Objektas                             | Atributų pavyzdžiai                                                                                               |
+
+|               Objektas               |                                                Atributų pavyzdžiai                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Savikainos apskaitos didžiosios knygos            | Savikainos apskaitos didžioji knyga                                                                                               |
-| Savikainos kontrolės įtaisai                 | Savikainos kontrolės įtaiso pavadinimas                                                                                               |
-| Savikainos elemento dimensijos            | Išlaidų elementų dimensijos pavadinimas, išlaidų elemento dimensijos nario pavadinimas, išlaidų elemento dimensijos nario aprašas          |
-| Savikainos objekto dimensijos             | Išlaidų objekto dimensijos pavadinimas, išlaidų objekto dimensijos nario pavadinimas, išlaidų objekto dimensijos nario aprašas              |
-| Statistinės dimensijos             | Statistinis dimensijos pavadinimas, statistinis dimensijos nario pavadinimas, statistinis dimensijos nario aprašas              |
-| Išlaidų objekto dimensijų hierarchijos  | Išlaidų objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis    |
+|      Savikainos apskaitos didžiosios knygos       |                                                Savikainos apskaitos didžioji knyga                                                |
+|         Savikainos kontrolės įtaisai         |                                                Savikainos kontrolės įtaiso pavadinimas                                                |
+|      Savikainos elemento dimensijos       |     Išlaidų elementų dimensijos pavadinimas, išlaidų elemento dimensijos nario pavadinimas, išlaidų elemento dimensijos nario aprašas      |
+|       Savikainos objekto dimensijos       |       Išlaidų objekto dimensijos pavadinimas, išlaidų objekto dimensijos nario pavadinimas, išlaidų objekto dimensijos nario aprašas        |
+|       Statistinės dimensijos       |       Statistinis dimensijos pavadinimas, statistinis dimensijos nario pavadinimas, statistinis dimensijos nario aprašas        |
+| Išlaidų objekto dimensijų hierarchijos  |  Išlaidų objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis   |
 | Išlaidų elemento dimensijų hierarchijos | Išlaidų elemento dimensijų hierarchijos pavadinimas, išlaidų elemento dimensijų hierarchijos lygis, išlaidų elemento dimensijų hierarchijos medis |
-| Statistinių dimensijų hierarchijos  | Statistinių dimensijų hierarchijos pavadinimas, statistinių objekto dimensijų hierarchijos lygis, statistinių dimensijų hierarchijos medis    |
-| Operacijų versijos               | Versijos pavadinimas                                                                                                         |
-| Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
-| Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
-| Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
+| Statistinių dimensijų hierarchijos  |  Statistinių dimensijų hierarchijos pavadinimas, statistinių objekto dimensijų hierarchijos lygis, statistinių dimensijų hierarchijos medis   |
+|        Operacijų versijos        |                                                     Versijos pavadinimas                                                     |
+|          Finansiniai kalendoriai          |                                            Kalendorius, kalendoriaus aprašymas                                            |
+|            Finansiniai metai            |                                                    Kalendoriniai metai                                                     |
+|           Ataskaitiniai laikotarpiai           |                                                 Kalendorinių metų laikotarpis                                                 |
+
 

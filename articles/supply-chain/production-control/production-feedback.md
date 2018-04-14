@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Gamybos grįžtamasis ryšys
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie gamybos grįžtamąjį ryšį, kuris darbuotojams suteikia grįžtamąjį ryšį apie gamybos užduotis. Straipsnyje pateikiama informacija apie tai, kaip įvairiais būdais galima atnaujinti gamybos grįžtamąjį ryšį.
 

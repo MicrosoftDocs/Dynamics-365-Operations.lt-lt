@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-leave-of-absence"></a>Valdyti atostogų laiką
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra apžvelgia darbuotojų atostogų įrašų kūrimą. Galite sekti atostogų, kurių priežastis medicininė, švietimo ar susijusi su tėvų veikla, laiką. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

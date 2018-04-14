@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomas KS eilučių ir formulės eilučių žaliavų išdavimo į sandėlį procesas. Kai į sandėlį išduodate KS arba formulės eilutę, sistema pirmiausia nustato, ar medžiagos jau yra gamybos įvesties vietoje ceche, kur medžiaga bus naudojama gamybos proceso metu.
 
@@ -44,7 +44,7 @@ KS ir formulės eilučių išdavimo būdą valdo parametras **Gamybos eilutės i
 - **KS ir formulės eilučių išdavimas naudojant paketinę užduotį arba neautomatiškai** – naudojant šį metodą, KKS ir formulės eilutes galima išduoti tik per paketinę užduotį **Automatinio KS ir formulės eilučių išdavimas** arba neautomatiškai. Norėdami neautomatiškai išduoti KS ir formulės eilutes, gamybos užsakymų sąrašo puslapio arba gamybos užsakymo informacijos puslapio veiksmų srityje pasirinkite **Išduoti į sandėlį**.
 
 Greita demonstracija, kaip išleisti KS ir formulės eilutes į gamybą naudojant paketinę užduotį, parodyta šiame trumpame „YouTube“ vaizdo įraše:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>KS ir formulės eilučių išdavimas naudojant paketinę užduotį
 
@@ -86,7 +86,7 @@ Tolesniame pavyzdyje parodytas gamybos užsakymas, kuriame yra dvi operacijos, 1
 ![Medžiagos išdavimo pagal operacijos numerį pavyzdys](media/two-operations.PNG)
 
 Greita demonstracija, kaip išleisti medžiagą proporcingai pagamintų prekių kiekiui, parodyta šiame trumpame „YouTube“ vaizdo įraše:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Medžiagos išdavimas, proporcingas baigtų prekių kiekiui
 

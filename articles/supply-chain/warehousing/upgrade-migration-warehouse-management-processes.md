@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Produktų ir sandėlio valdymo perkėlimas iš AX 2012 į „Finance and Operations“
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama produkto ir sandėlio valdymo perkėlimo parinkčių apžvalga programoje „Microsoft Dynamics 365 for Finance and Operations“.
 

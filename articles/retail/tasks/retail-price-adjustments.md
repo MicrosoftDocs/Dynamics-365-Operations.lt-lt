@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> Tvarkyti mažmeninės prekybos kainos koregavimus
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti mažmeninės prekybos kainos koregavimą. Mažmeninės prekybos kainos koregavimas gali tiesiogiai nustatyti prekės pardavimo kainą arba modifikuoti jos bazinę pardavimo kainą ar prekybos sutarties pardavimo kainą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
