@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b85da42e94fe3108bc89d05fc800a9d8a06bfc97
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-operations-online-and-offline"></a><span data-ttu-id="7b5e8-104">EKA operacijos, prisijungus ir neprisijungus prie interneto</span><span class="sxs-lookup"><span data-stu-id="7b5e8-104">POS operations, online and offline</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7b5e8-105">Dauguma vartotojo elektroniniame kasos aparate (EKA) atliekamų veiksmų laikomi operacijomis.</span><span class="sxs-lookup"><span data-stu-id="7b5e8-105">Most actions that user take in the point of sale (POS) are considered operations.</span></span> <span data-ttu-id="7b5e8-106">Operacijos sukonfigūruojamos ir valdomos „Microsoft Dynamics 365 for Retail“ tarnybiniame biure.</span><span class="sxs-lookup"><span data-stu-id="7b5e8-106">Operations are configured and managed in the Microsoft Dynamics 365 for Retail back office.</span></span> <span data-ttu-id="7b5e8-107">Į EKA mygtukyną galima įtraukti daug operacijų.</span><span class="sxs-lookup"><span data-stu-id="7b5e8-107">Many operations can be added to buttons in the POS button grid.</span></span> <span data-ttu-id="7b5e8-108">Tada vartotojai, norėdami iškviesti operacijas ir atlikti jų teikiama funkciją, gali pasirinkti mygtukus.</span><span class="sxs-lookup"><span data-stu-id="7b5e8-108">Users can then select the buttons to invoke the operations and perform their function.</span></span> <span data-ttu-id="7b5e8-109">Kitos operacijos yra pagrindinės EKA programos dalis ir yra iškviečiamos naudojant ekrano mygtukus arba kaip kitos darbo eigos ar procesų dalis.</span><span class="sxs-lookup"><span data-stu-id="7b5e8-109">Other operations are part of the main POS application, and are invoked either from on-screen buttons or as part of other workflows or processes.</span></span>
 

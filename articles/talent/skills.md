@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="30f68-104">Verslo poreikių ir darbo jėgos įgūdžių suderinimas</span><span class="sxs-lookup"><span data-stu-id="30f68-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="30f68-105">Galite sekti įgūdžius, kuriuos darbuotojai, pretendentai arba kontaktiniai asmenys turi arba turi turėti, kad efektyviai atliktų savo vaidmenis.</span><span class="sxs-lookup"><span data-stu-id="30f68-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="30f68-106">Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.</span><span class="sxs-lookup"><span data-stu-id="30f68-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="30f68-133">Naudodami įgūdžių išdėstymo šablonus galite rasti esamus darbuotojus arba kandidatus, kurių kvalifikacija tiesiogiai atitinka verslo poreikius.</span><span class="sxs-lookup"><span data-stu-id="30f68-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="30f68-134">Pvz., galite sukurti atvirų jūsų organizacijos pareigų įgūdžių išdėstymo šabloną.</span><span class="sxs-lookup"><span data-stu-id="30f68-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="30f68-135">Sukurdami tam tikros užduoties šabloną ir iš tos užduoties įgūdžius, išsilavinimą ir sertifikatus nukopijuodami į šabloną galite greitai ieškoti darbuotojų, pretendentų ir kontaktinių asmenų, kurie atitinka vieną arba daugiau šablone įvestų kriterijų, ir peržiūrėti kandidatų, kurių įgūdžiai labiausiai atitinka įgūdžių, reikalingų užduočiai atlikti, sąrašą.</span><span class="sxs-lookup"><span data-stu-id="30f68-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="30f68-136">**Pastaba.** Tik darbuotojai, pretendentai ir kontaktiniai asmenys, kurie pasirinkti būti įtraukti į įgūdžių išdėstymo ieškas, gali būti rodomi įgūdžių ieškos rezultatų sąraše arba įtraukti į įgūdžių šabloną.</span><span class="sxs-lookup"><span data-stu-id="30f68-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="30f68-137">Norėdami į įgūdžių išdėstymo ieškas įtraukti darbuotoją, pretendentą arba kontaktinį asmenį, toliau nurodytuose puslapiuose nustatykite parinktį **Įtraukti į įgūdžių išdėstymą** į Taip.</span><span class="sxs-lookup"><span data-stu-id="30f68-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="30f68-136">**Pastaba.** Tik darbuotojai, pretendentai ir kontaktiniai asmenys, kurie pasirinkti būti įtraukti į įgūdžių išdėstymo ieškas, gali būti rodomi įgūdžių ieškos rezultatų sąraše arba įtraukti į įgūdžių šabloną.</span><span class="sxs-lookup"><span data-stu-id="30f68-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="30f68-137">Norėdami į įgūdžių išdėstymo ieškas įtraukti darbuotoją, pretendentą arba kontaktinį asmenį, toliau nurodytuose puslapiuose nustatykite parinktį **Įtraukti į įgūdžių išdėstymą** į Taip.</span><span class="sxs-lookup"><span data-stu-id="30f68-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="30f68-138">Darbuotojas</span><span class="sxs-lookup"><span data-stu-id="30f68-138">Worker</span></span>
 > + <span data-ttu-id="30f68-139">Darbuotojas</span><span class="sxs-lookup"><span data-stu-id="30f68-139">Employee</span></span>
 > + <span data-ttu-id="30f68-140">Pretendentas</span><span class="sxs-lookup"><span data-stu-id="30f68-140">Applicant</span></span>

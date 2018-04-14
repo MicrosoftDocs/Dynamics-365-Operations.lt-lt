@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: fedb9162c81b9fa115b63402fe80cd4c857e8deb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="a09c9-103">Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje</span><span class="sxs-lookup"><span data-stu-id="a09c9-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a09c9-104">Konfigūracija **Rodyti senesnius paketus sandėlyje** leidžia rodyti vietų su senesniais už dabartinę darbo eilutės vietą paketų vietų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="a09c9-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="a09c9-105">Rodomame vietų sąraše pateikiama informacija apie senesnius toje vietoje paketus ir galiojimo data bei kiekvieno paketo faktinės atsargos.</span><span class="sxs-lookup"><span data-stu-id="a09c9-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="a09c9-106">Galite pasirinkti paėmimą iš naujos vietos arba tęsti paėmimą iš dabartinės vietos.</span><span class="sxs-lookup"><span data-stu-id="a09c9-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="a09c9-107">Paėmimas iš naujos vietos – jei pasirinksite naują vietą, iš kurios norite atlikti paėmimą, dabartinė darbo eilutė bus atnaujinta į naują vietą, o darbas bus tęsiamas įprastai naujoje vietoje.</span><span class="sxs-lookup"><span data-stu-id="a09c9-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="a09c9-108">Kad nauja vieta būtų tinkama, joje turi būti pakankamai kiekio, kad jo užtektų visai darbo eilutei.</span><span class="sxs-lookup"><span data-stu-id="a09c9-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="a09c9-109">Jei reikalaujamo kiekio nėra, darbo eilutė atnaujinta nebus ir bus rodomas sąrašas.</span><span class="sxs-lookup"><span data-stu-id="a09c9-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

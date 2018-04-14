@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d3423b1d3cc235fa10f0a26aa5cd880d08be45b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-dimensions"></a><span data-ttu-id="785ea-103">Finansinės dimensijos</span><span class="sxs-lookup"><span data-stu-id="785ea-103">Financial dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="785ea-104">Šioje temoje paaiškinami įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi.</span><span class="sxs-lookup"><span data-stu-id="785ea-104">This topic explains the various types of financial dimensions and how they are set up.</span></span>
 

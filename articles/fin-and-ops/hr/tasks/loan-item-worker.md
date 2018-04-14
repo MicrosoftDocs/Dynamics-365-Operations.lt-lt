@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 6f21dd7c5ac0a2e7051d88d14dc6079fa1b32517
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aff5ca3a6f3de4d90955e803917d352a21877244
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="loan-items-to-a-worker"></a><span data-ttu-id="b1764-103">Paskolinti prekes darbininkui</span><span class="sxs-lookup"><span data-stu-id="b1764-103">Loan items to a worker</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b1764-104">Ši procedūra parodo, kaip paskolinti prekę darbuotojui ir įrašyti prekę grąžinantį darbuotoją.</span><span class="sxs-lookup"><span data-stu-id="b1764-104">This procedure shows how to loan an item to a worker and record the worker returning an item.</span></span> <span data-ttu-id="b1764-105">Darbuotojai taip pat gali prašyti paskolinti prekių per savo darbuotojų savitarnos puslapius.</span><span class="sxs-lookup"><span data-stu-id="b1764-105">Workers can also request loan items through their Employee self-service pages.</span></span> <span data-ttu-id="b1764-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="b1764-106">The demo data company used to create this procedure is USMF.</span></span>
 

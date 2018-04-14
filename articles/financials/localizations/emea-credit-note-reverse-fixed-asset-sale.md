@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 338d6fe234f3da36f7db835d160a6f7a19f14d79
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7688f6121cc6e518281aa56f310d1cfb08edfc0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a><span data-ttu-id="76f82-103">Ilgalaikio turto likvidavimas (Estija ir Lietuva)</span><span class="sxs-lookup"><span data-stu-id="76f82-103">Fixed assets disposal for Estonia and Lithuania</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="76f82-104">Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje.</span><span class="sxs-lookup"><span data-stu-id="76f82-104">This topic provides information about credit notes for fixed assets disposal posted by a free text invoice for users in legal entities in Estonia and Lithuania.</span></span>
 

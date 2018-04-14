@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0748747fedd009f7bffa93a6334902503189acba
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a><span data-ttu-id="b5ed7-103">Pagrindinis modulio Tiekimo grandinės valdymas puslapis</span><span class="sxs-lookup"><span data-stu-id="b5ed7-103">Supply chain management home page</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b5ed7-104">Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.</span><span class="sxs-lookup"><span data-stu-id="b5ed7-104">This topic provides a list of the help topics and other resources for the supply chain management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 

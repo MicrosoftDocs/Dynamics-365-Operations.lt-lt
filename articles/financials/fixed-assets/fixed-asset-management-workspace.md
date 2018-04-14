@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="8c842-105">Ilgalaikio turto tvarkymo darbo sritis</span><span class="sxs-lookup"><span data-stu-id="8c842-105">Fixed asset management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8c842-106">Darbo srityje **Ilgalaikio turto tvarkymas** rodoma informacija, kuri susijusi su į sistemą įvestu ilgalaikiu turtu.</span><span class="sxs-lookup"><span data-stu-id="8c842-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="8c842-107">Ši darbo sritis apima suvestinės rodinį ir analizės rodinį.</span><span class="sxs-lookup"><span data-stu-id="8c842-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="8c842-108">Skirtuke **Mano darbas** rodomos suvestinės išklotinės, ilgalaikio turto informacija ir su dabartinės įmonės ilgalaikiu turtu susijusi informacija.</span><span class="sxs-lookup"><span data-stu-id="8c842-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="8c842-109">Analizę į „Power BI‟ analizės skyrių taip pat galite įtraukti tiesiogiai darbo srityje.</span><span class="sxs-lookup"><span data-stu-id="8c842-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="8c842-110">Skirtuke **Analizė – visos įmonės** naudojamos „Microsoft Power BI“ funkcijos, kad būtų galima rodyti su visų įmonių ilgalaikiu turtu susijusius vaizdus.</span><span class="sxs-lookup"><span data-stu-id="8c842-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="9df24-104">Nauji užduočių vedliai (2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="9df24-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9df24-105">Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.</span><span class="sxs-lookup"><span data-stu-id="9df24-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="9df24-106">Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics AX“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).</span><span class="sxs-lookup"><span data-stu-id="9df24-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-124">Nustatyti mokėtinų sumų SF gretinimo tikrinimą</span><span class="sxs-lookup"><span data-stu-id="9df24-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="9df24-125">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-125">Global</span></span>             |
 | <span data-ttu-id="9df24-126">Nustatyti tiekėjų SF strategijas</span><span class="sxs-lookup"><span data-stu-id="9df24-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="9df24-127">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="9df24-128">Gautinos sumos</span><span class="sxs-lookup"><span data-stu-id="9df24-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-153">Peržiūrėti mokėjimų priežiūros informaciją</span><span class="sxs-lookup"><span data-stu-id="9df24-153">Review collections information</span></span>                              | <span data-ttu-id="9df24-154">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-154">Global</span></span>             |
 | <span data-ttu-id="9df24-155">Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją</span><span class="sxs-lookup"><span data-stu-id="9df24-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="9df24-156">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="9df24-157">Grynųjų pinigų ir banko valdymas</span><span class="sxs-lookup"><span data-stu-id="9df24-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-196">Vėlesnio čekio iš kliento sudengimas</span><span class="sxs-lookup"><span data-stu-id="9df24-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="9df24-197">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-197">Global</span></span>             |
 | <span data-ttu-id="9df24-198">Tiekėjo mokėjimų peržiūra</span><span class="sxs-lookup"><span data-stu-id="9df24-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="9df24-199">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="9df24-200">Atitikimas</span><span class="sxs-lookup"><span data-stu-id="9df24-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-201">**BPM eilutė**</span><span class="sxs-lookup"><span data-stu-id="9df24-201">**BPM Line**</span></span>                               | <span data-ttu-id="9df24-202">**Šalis / regionas**</span><span class="sxs-lookup"><span data-stu-id="9df24-202">**Country/Region**</span></span> |
 | <span data-ttu-id="9df24-203">Apibrėžti šaltinio dokumento audito strategijas</span><span class="sxs-lookup"><span data-stu-id="9df24-203">Define audit policies for source documents</span></span> | <span data-ttu-id="9df24-204">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="9df24-205">Kaštų valdymas</span><span class="sxs-lookup"><span data-stu-id="9df24-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-214">Peržiūrėti gamybos užsakymo dabartinę NG būseną</span><span class="sxs-lookup"><span data-stu-id="9df24-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="9df24-215">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-215">Global</span></span>             |
 | <span data-ttu-id="9df24-216">Peržiūrėti atsargų išrašą ir KPI pagal išlaidų objektą</span><span class="sxs-lookup"><span data-stu-id="9df24-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="9df24-217">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="9df24-218">Šaliai / regionui būdingos funkcijos</span><span class="sxs-lookup"><span data-stu-id="9df24-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-485">GB-00009 Sudengimo nuolaidos kredito pažymos sukūrimas</span><span class="sxs-lookup"><span data-stu-id="9df24-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="9df24-486">Jungtinė Karalystė</span><span class="sxs-lookup"><span data-stu-id="9df24-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="9df24-487">GB-00009 Skubaus mokėjimo nuolaidos kredito pažymos parametrų nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="9df24-488">Jungtinė Karalystė</span><span class="sxs-lookup"><span data-stu-id="9df24-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="9df24-489">Kurti viziją ir strategiją</span><span class="sxs-lookup"><span data-stu-id="9df24-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-498">Sukurti klausimą pagal atsakymą į ankstesnį klausimą (sąlyginiai klausimai)</span><span class="sxs-lookup"><span data-stu-id="9df24-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="9df24-499">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-499">Global</span></span>             |
 | <span data-ttu-id="9df24-500">KLausimyno vertinimas pagal procentus</span><span class="sxs-lookup"><span data-stu-id="9df24-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="9df24-501">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="9df24-502">Elektroninė ataskaita</span><span class="sxs-lookup"><span data-stu-id="9df24-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-511">ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais</span><span class="sxs-lookup"><span data-stu-id="9df24-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="9df24-512">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-512">Global</span></span>             |
 | <span data-ttu-id="9df24-513">ER paslaugų teikėjo pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="9df24-513">ER Select service provider</span></span>                      | <span data-ttu-id="9df24-514">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="9df24-515">Išlaidų valdymas</span><span class="sxs-lookup"><span data-stu-id="9df24-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-516">**BPM eilutė**</span><span class="sxs-lookup"><span data-stu-id="9df24-516">**BPM Line**</span></span>                 | <span data-ttu-id="9df24-517">**Šalis / regionas**</span><span class="sxs-lookup"><span data-stu-id="9df24-517">**Country/Region**</span></span> |
 | <span data-ttu-id="9df24-518">Konfigūruoti išlaidų valdymą</span><span class="sxs-lookup"><span data-stu-id="9df24-518">Configure expense management</span></span> | <span data-ttu-id="9df24-519">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="9df24-520">Ilgalaikis turtas</span><span class="sxs-lookup"><span data-stu-id="9df24-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-549">Skaidyti ilgalaikį turtą</span><span class="sxs-lookup"><span data-stu-id="9df24-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="9df24-550">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-550">Global</span></span>             |
 | <span data-ttu-id="9df24-551">Perkelti ilgalaikį turtą</span><span class="sxs-lookup"><span data-stu-id="9df24-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="9df24-552">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="9df24-553">DK</span><span class="sxs-lookup"><span data-stu-id="9df24-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-602">Peržiūrėti žurnalo įrašus ar operacijas</span><span class="sxs-lookup"><span data-stu-id="9df24-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="9df24-603">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-603">Global</span></span>             |
 | <span data-ttu-id="9df24-604">Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo</span><span class="sxs-lookup"><span data-stu-id="9df24-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="9df24-605">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="9df24-606">Žmogiškojo kapitalo valdymas</span><span class="sxs-lookup"><span data-stu-id="9df24-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-677">Išmokų tinkamumo strategijų nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="9df24-678">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-678">Global</span></span>             |
 | <span data-ttu-id="9df24-679">I9 dokumento tipų nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="9df24-680">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="9df24-681">Atsargų valdymas</span><span class="sxs-lookup"><span data-stu-id="9df24-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-712">Prekės arba žaliavos sekimas</span><span class="sxs-lookup"><span data-stu-id="9df24-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="9df24-713">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-713">Global</span></span>             |
 | <span data-ttu-id="9df24-714">Perkelti faktines atsargas sandėlyje</span><span class="sxs-lookup"><span data-stu-id="9df24-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="9df24-715">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="9df24-716">Gamyba</span><span class="sxs-lookup"><span data-stu-id="9df24-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-803">Perkelti medžiagą su „Kanban‟ užduotimis</span><span class="sxs-lookup"><span data-stu-id="9df24-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="9df24-804">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-804">Global</span></span>             |
 | <span data-ttu-id="9df24-805">Tikrinti gamybos eigą ir versiją</span><span class="sxs-lookup"><span data-stu-id="9df24-805">Validate production flow and version</span></span>                          | <span data-ttu-id="9df24-806">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="9df24-807">Bendrasis planavimas</span><span class="sxs-lookup"><span data-stu-id="9df24-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-816">Nustatyti svarbiausias medžiagas ir tiekėjo pajėgumus</span><span class="sxs-lookup"><span data-stu-id="9df24-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="9df24-817">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-817">Global</span></span>             |
 | <span data-ttu-id="9df24-818">Modifikuoti poreikio prognozę neautomatiškai</span><span class="sxs-lookup"><span data-stu-id="9df24-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="9df24-819">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="9df24-820">Organizacijos administravimas</span><span class="sxs-lookup"><span data-stu-id="9df24-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-831">Elektroninių parašų nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-831">Set up electronic signatures</span></span>              | <span data-ttu-id="9df24-832">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-832">Global</span></span>             |
 | <span data-ttu-id="9df24-833">Nustatyti numeracijas naudojant vedlį</span><span class="sxs-lookup"><span data-stu-id="9df24-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="9df24-834">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="9df24-835">Planavimas</span><span class="sxs-lookup"><span data-stu-id="9df24-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-836">**BPM eilutė**</span><span class="sxs-lookup"><span data-stu-id="9df24-836">**BPM Line**</span></span>           | <span data-ttu-id="9df24-837">**Šalis / regionas**</span><span class="sxs-lookup"><span data-stu-id="9df24-837">**Country/Region**</span></span> |
 | <span data-ttu-id="9df24-838">Nustatyti prieinamumą</span><span class="sxs-lookup"><span data-stu-id="9df24-838">Determine availability</span></span> | <span data-ttu-id="9df24-839">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="9df24-840">Paraiškos</span><span class="sxs-lookup"><span data-stu-id="9df24-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-853">Ieškoti tiekėjų</span><span class="sxs-lookup"><span data-stu-id="9df24-853">Search for vendors</span></span>                                               | <span data-ttu-id="9df24-854">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-854">Global</span></span>             |
 | <span data-ttu-id="9df24-855">Įsigijimo kategorijų hierarchijos nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="9df24-856">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="9df24-857">Produkto informacija ir konfigūracija</span><span class="sxs-lookup"><span data-stu-id="9df24-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-892">Release a ..\financial-dimensions\dimension-based product master</span><span class="sxs-lookup"><span data-stu-id="9df24-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="9df24-893">Bendra</span><span class="sxs-lookup"><span data-stu-id="9df24-893">Global</span></span>             |
 | <span data-ttu-id="9df24-894">Perkelti produktų modelių duomenis</span><span class="sxs-lookup"><span data-stu-id="9df24-894">Transfer data for product models</span></span>                      | <span data-ttu-id="9df24-895">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="9df24-896">Viešasis sektorius</span><span class="sxs-lookup"><span data-stu-id="9df24-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-931">Nustatyti viešojo sektoriaus lėšas</span><span class="sxs-lookup"><span data-stu-id="9df24-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="9df24-932">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-932">Global</span></span>             |
 | <span data-ttu-id="9df24-933">Nustatyti viešojo sektoriaus pirkimo sutarčių klasifikacijas</span><span class="sxs-lookup"><span data-stu-id="9df24-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="9df24-934">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="9df24-935">Mažmeninė prekyba ir prekyba</span><span class="sxs-lookup"><span data-stu-id="9df24-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-1002">Mažmeninės prekybos kainų koregavimai</span><span class="sxs-lookup"><span data-stu-id="9df24-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="9df24-1003">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1003">Global</span></span>             |
 | <span data-ttu-id="9df24-1004">Įrašyti mažmeninės prekybos išrašų konfigūracijas</span><span class="sxs-lookup"><span data-stu-id="9df24-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="9df24-1005">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="9df24-1006">Pardavimas</span><span class="sxs-lookup"><span data-stu-id="9df24-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-1035">Siųsti užsakymus kaip tiesioginius pristatymus</span><span class="sxs-lookup"><span data-stu-id="9df24-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="9df24-1036">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1036">Global</span></span>             |
 | <span data-ttu-id="9df24-1037">Siųsti pardavimo užsakymus be sandėliavimo</span><span class="sxs-lookup"><span data-stu-id="9df24-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="9df24-1038">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="9df24-1039">PVM</span><span class="sxs-lookup"><span data-stu-id="9df24-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-1060">Išskaitomų mokesčių nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="9df24-1061">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1061">Global</span></span>             |
 | <span data-ttu-id="9df24-1062">Peržiūrėti užregistruotas PVM operacijas</span><span class="sxs-lookup"><span data-stu-id="9df24-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="9df24-1063">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="9df24-1064">Sauga</span><span class="sxs-lookup"><span data-stu-id="9df24-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-1069">Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus</span><span class="sxs-lookup"><span data-stu-id="9df24-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="9df24-1070">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1070">Global</span></span>             |
 | <span data-ttu-id="9df24-1071">Nustatyti pareigų atskyrimą</span><span class="sxs-lookup"><span data-stu-id="9df24-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="9df24-1072">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="9df24-1073">Sandėlis ir transportavimas</span><span class="sxs-lookup"><span data-stu-id="9df24-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="9df24-1106">Siuntų vežėjų nustatymas</span><span class="sxs-lookup"><span data-stu-id="9df24-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="9df24-1107">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1107">Global</span></span>             |
 | <span data-ttu-id="9df24-1108">Planuodami krovinius ir siuntas naudokite krovinio planavimo darbo sritį</span><span class="sxs-lookup"><span data-stu-id="9df24-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="9df24-1109">Visuotinai</span><span class="sxs-lookup"><span data-stu-id="9df24-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="9df24-1110">Darbo pradžios bibliotekos (2016 m. vasario mėn.) užduočių vedliai</span><span class="sxs-lookup"><span data-stu-id="9df24-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="9df24-1111">**BPM eilutė**</span><span class="sxs-lookup"><span data-stu-id="9df24-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="9df24-1112">**Šalis / regionas**</span><span class="sxs-lookup"><span data-stu-id="9df24-1112">**Country/Region**</span></span> |

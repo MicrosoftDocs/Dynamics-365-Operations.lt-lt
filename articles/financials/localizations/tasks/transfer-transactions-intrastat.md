@@ -16,15 +16,15 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cc21497a6905cdb57bd687b7bff0d9dc810ba9eb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d888ed34e1a582f74f0174fad941c889edabd06
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="60cc0-103">Operacijų perkėlimas į Intrastat</span><span class="sxs-lookup"><span data-stu-id="60cc0-103">Transfer transactions to the Intrastat</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60cc0-104">Šia procedūra parodoma, kaip nustatyti Intrastat parametrus ir perkelti operacijas į Intrastat.</span><span class="sxs-lookup"><span data-stu-id="60cc0-104">This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</span></span> <span data-ttu-id="60cc0-105">Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonės DEMF.</span><span class="sxs-lookup"><span data-stu-id="60cc0-105">This procedure was created using the demo data company DEMF.</span></span>
 

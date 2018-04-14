@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="c5018-103">Mokymų kursų nustatymas</span><span class="sxs-lookup"><span data-stu-id="c5018-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c5018-104">Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.</span><span class="sxs-lookup"><span data-stu-id="c5018-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="c5018-134">Kurso užduotys</span><span class="sxs-lookup"><span data-stu-id="c5018-134">Course tasks</span></span>
 <span data-ttu-id="c5018-135">Su visais kursais galite atlikti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="c5018-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="c5018-136">Registruoti dalyvius.</span><span class="sxs-lookup"><span data-stu-id="c5018-136">Register participants</span></span>
--   <span data-ttu-id="c5018-137">Nurodyti paskutinę registracijos datą.</span><span class="sxs-lookup"><span data-stu-id="c5018-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="c5018-138">Nustatyti mažiausią ir didžiausią dalyvių skaičių.</span><span class="sxs-lookup"><span data-stu-id="c5018-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="c5018-139">Priskirti kurso vietą ir auditoriją.</span><span class="sxs-lookup"><span data-stu-id="c5018-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="c5018-140">Kurso dalyviams rekomenduoti viešbučius.</span><span class="sxs-lookup"><span data-stu-id="c5018-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="c5018-141">Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.</span><span class="sxs-lookup"><span data-stu-id="c5018-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="c5018-136">Registruoti dalyvius.</span><span class="sxs-lookup"><span data-stu-id="c5018-136">Register participants</span></span>
+- <span data-ttu-id="c5018-137">Nurodyti paskutinę registracijos datą.</span><span class="sxs-lookup"><span data-stu-id="c5018-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="c5018-138">Nustatyti mažiausią ir didžiausią dalyvių skaičių.</span><span class="sxs-lookup"><span data-stu-id="c5018-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="c5018-139">Priskirti kurso vietą ir auditoriją.</span><span class="sxs-lookup"><span data-stu-id="c5018-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="c5018-140">Kurso dalyviams rekomenduoti viešbučius.</span><span class="sxs-lookup"><span data-stu-id="c5018-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="c5018-141">Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.</span><span class="sxs-lookup"><span data-stu-id="c5018-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="c5018-142">**Pastaba.** Kursą panaikinti galite tik jei niekas į jį neužsiregistravo.</span><span class="sxs-lookup"><span data-stu-id="c5018-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="c5018-143">Kurso būsenos</span><span class="sxs-lookup"><span data-stu-id="c5018-143">Course statuses</span></span>
 <span data-ttu-id="c5018-144">Šioje lentelėje pateikiamos galimos kurso būsenos ir veiksmai, kuriuos galite atlikti su konkrečios būsenos kursu.</span><span class="sxs-lookup"><span data-stu-id="c5018-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

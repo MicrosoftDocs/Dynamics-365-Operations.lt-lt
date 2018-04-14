@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="04159-104">Atributų kūrimas ir valdymas</span><span class="sxs-lookup"><span data-stu-id="04159-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="04159-105">Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Retail“ atributai.</span><span class="sxs-lookup"><span data-stu-id="04159-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="04159-106">Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.</span><span class="sxs-lookup"><span data-stu-id="04159-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="04159-173">Atributo tipas</span><span class="sxs-lookup"><span data-stu-id="04159-173">Attribute type</span></span>
   <span data-ttu-id="04159-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="04159-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="04159-175">Atributai pagrįsti atributų tipais.</span><span class="sxs-lookup"><span data-stu-id="04159-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="04159-176">Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti.</span><span class="sxs-lookup"><span data-stu-id="04159-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="04159-177">Šiuo metu „Microsoft Dynamics 365 for Retail“ palaiko šiuos atributų tipus.</span><span class="sxs-lookup"><span data-stu-id="04159-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="04159-178">**Valiuta** – šis atributo tipas palaiko valiutos reikšmes.</span><span class="sxs-lookup"><span data-stu-id="04159-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="04159-179">Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.</span><span class="sxs-lookup"><span data-stu-id="04159-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

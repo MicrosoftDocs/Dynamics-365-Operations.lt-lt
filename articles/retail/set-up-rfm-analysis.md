@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="b604f-103">Kaip nustatyti RFM analizę</span><span class="sxs-lookup"><span data-stu-id="b604f-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b604f-104">Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę.</span><span class="sxs-lookup"><span data-stu-id="b604f-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="b604f-126">Jei, skaičiuojant kiekvieną RFM rezultato dalį, turi būti naudojamas tas pats klientų skaičius, pažymėkite žymės langelį **Tolygus paskirstymas**.</span><span class="sxs-lookup"><span data-stu-id="b604f-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="b604f-127">Norėdami sudėti tris rezultatus, pažymėkite žymės langelį **Sudėti rezultatus**.</span><span class="sxs-lookup"><span data-stu-id="b604f-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="b604f-128">Tuomet, pavyzdžiui., kliento RFM rezultatas būtų 13, o ne 535.</span><span class="sxs-lookup"><span data-stu-id="b604f-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="b604f-129">Norėdami, kad sistema būtinai išsaugotų klientų statistinius duomenis, pažymėkite žymės langelį **Įrašyti retrospektyvą** – tuomet duomenys galės būti naudojami RFM rezultatui apskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="b604f-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="b604f-130">„FastTab“ **Recency** atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="b604f-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b604f-131">Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų „recency“ rezultatui apskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="b604f-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="b604f-132">Pavyzdžiui, jei turite 100 klientų, daliklis 5 reiškia, kad kiekvienam rezultatui sudaryti tenka 20 klientų.</span><span class="sxs-lookup"><span data-stu-id="b604f-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="b604f-133">20 vėliausiai pirkusių klientų „recency“ rezultatas bus 5.</span><span class="sxs-lookup"><span data-stu-id="b604f-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="b604f-134">Kitų 20 klientų „recency“ rezultatas – 4, ir t. t.</span><span class="sxs-lookup"><span data-stu-id="b604f-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="b604f-135">Jei turite 50 klientų, 10 klientų „recency“ rezultatas bus 5, 10 klientų – 4, ir t. t.</span><span class="sxs-lookup"><span data-stu-id="b604f-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="b604f-136">Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite „recency“ parametrui kitų parametrų atžvilgiu.</span><span class="sxs-lookup"><span data-stu-id="b604f-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="b604f-137">Pavyzdžiui, „recency“ rezultatą galite įvertinti didesne verte nei piniginės išraiškos rezultatą.</span><span class="sxs-lookup"><span data-stu-id="b604f-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="b604f-138">Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas „recency“ rezultatas.</span><span class="sxs-lookup"><span data-stu-id="b604f-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="b604f-139">Jei neįvesite vertės, rezultatas nebus padaugintas.</span><span class="sxs-lookup"><span data-stu-id="b604f-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="b604f-140">Lauke **Laikotarpis** pasirinkite laikotarpį, pagal kurį skaičiuojamas „recency“ rezultatas.</span><span class="sxs-lookup"><span data-stu-id="b604f-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="b604f-141">Pavyzdžiui, pagal savaitę arba pagal mėnesį.</span><span class="sxs-lookup"><span data-stu-id="b604f-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="b604f-142">„FastTab“ **Dažnis** atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="b604f-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b604f-143">Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų dažnio rezultatui apskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="b604f-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="b604f-144">Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite dažnio parametrui kitų parametrų atžvilgiu.</span><span class="sxs-lookup"><span data-stu-id="b604f-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="b604f-145">Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas dažnio rezultatas.</span><span class="sxs-lookup"><span data-stu-id="b604f-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="b604f-146">Jei neįvesite vertės, rezultatas nebus padaugintas.</span><span class="sxs-lookup"><span data-stu-id="b604f-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="b604f-147">„FastTab“ **Piniginė išraiška** atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="b604f-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b604f-148">Lauke **Padaliniai** įveskite daliklių arba grupių numerį, kuris bus naudojamas klientų piniginės išraiškos rezultatui apskaičiuoti.</span><span class="sxs-lookup"><span data-stu-id="b604f-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="b604f-149">Lauke **Prioritetas** pasirinkite, kokią reikšmę, skaičiuojant kliento RFM rezultatą, suteiksite piniginės išraiškos parametrui kitų parametrų atžvilgiu.</span><span class="sxs-lookup"><span data-stu-id="b604f-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="b604f-150">Lauke **Daugiklis** įveskite vertę, iš kurios bus padaugintas piniginės išraiškos rezultatas.</span><span class="sxs-lookup"><span data-stu-id="b604f-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="b604f-151">Jei neįvesite vertės, rezultatas nebus padaugintas.</span><span class="sxs-lookup"><span data-stu-id="b604f-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="b604f-152">Lauke **Bruto / grynoji** pasirinkite, ar kliento piniginės išraiškos rezultatas turi būti apskaičiuojamas naudojant bruto arba grynąją SF sumą.</span><span class="sxs-lookup"><span data-stu-id="b604f-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="b604f-153">Jei grąžintinas klientui sumas reikia atimti iš kliento SF bendrosios apskaičiuotos sumos, pažymėkite žymės langelį **Atimti grąžinimus**.</span><span class="sxs-lookup"><span data-stu-id="b604f-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="b604f-154">Kliento RFM rezultato peržiūra</span><span class="sxs-lookup"><span data-stu-id="b604f-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="b604f-155">Naudokite šią procedūrą norėdami peržiūrėti kliento RFM rezultatą.</span><span class="sxs-lookup"><span data-stu-id="b604f-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

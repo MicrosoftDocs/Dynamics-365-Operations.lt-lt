@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6de5c66d4587f6577e36345f7b77d72508c449d5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705f51e32cc03d201eb00b6a1aa8048e59ff59e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reserve-inventory-quantities"></a><span data-ttu-id="b938f-103">Atsargų kiekių rezervavimas</span><span class="sxs-lookup"><span data-stu-id="b938f-103">Reserve inventory quantities</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b938f-104">Šioje temoje aprašomos skirtingos atsargų rezervavimo parinktys, kurias galima naudoti.</span><span class="sxs-lookup"><span data-stu-id="b938f-104">This topic describes the different options that are available for reserving inventory.</span></span>
 
@@ -50,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 ### <a name="policies-on-the-item-model-groups-page"></a><span data-ttu-id="b938f-128">Puslapyje Prekės modelių grupės nustatomos strategijos</span><span class="sxs-lookup"><span data-stu-id="b938f-128">Policies on the Item model groups page</span></span>
 
 <span data-ttu-id="b938f-129">Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strategijos.</span><span class="sxs-lookup"><span data-stu-id="b938f-129">The **Inventory policies** section contains the following reservation policies.</span></span>
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="b938f-130">**Rezervavimo strategija**</span><span class="sxs-lookup"><span data-stu-id="b938f-130">**Reservation policy**</span></span>  | <span data-ttu-id="b938f-131">**Aprašymas**</span><span class="sxs-lookup"><span data-stu-id="b938f-131">**Description**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ ms.lasthandoff: 01/17/2018
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a><span data-ttu-id="b938f-155">FIFO kontrolės pagal datą ir parinkties Atgal nuo siuntimo datos pavyzdžiai</span><span class="sxs-lookup"><span data-stu-id="b938f-155">Example for FIFO date-controlled and Backward from ship date</span></span>
 
 <span data-ttu-id="b938f-156">Šiame pavyzdyje pateikiamos trijų skirtingų paketų numerių prekės numerio A turimos atsargos.</span><span class="sxs-lookup"><span data-stu-id="b938f-156">In this example, on-hand inventory for item number A exists for three different batch numbers.</span></span>
+
 | <span data-ttu-id="b938f-157">Prekės Nr.</span><span class="sxs-lookup"><span data-stu-id="b938f-157">Item number</span></span> | <span data-ttu-id="b938f-158">Paketo numeris</span><span class="sxs-lookup"><span data-stu-id="b938f-158">Batch number</span></span> | <span data-ttu-id="b938f-159">Kiekis</span><span class="sxs-lookup"><span data-stu-id="b938f-159">Quantity</span></span> | <span data-ttu-id="b938f-160">Data</span><span class="sxs-lookup"><span data-stu-id="b938f-160">Date</span></span>             |
 |-------------|--------------|----------|------------------|
 | <span data-ttu-id="b938f-161">A</span><span class="sxs-lookup"><span data-stu-id="b938f-161">A</span></span>           | <span data-ttu-id="b938f-162">1000</span><span class="sxs-lookup"><span data-stu-id="b938f-162">1000</span></span>         | <span data-ttu-id="b938f-163">5</span><span class="sxs-lookup"><span data-stu-id="b938f-163">5</span></span>        | <span data-ttu-id="b938f-164">2016 m. vasario 2 d.</span><span class="sxs-lookup"><span data-stu-id="b938f-164">February 2, 2016</span></span> |

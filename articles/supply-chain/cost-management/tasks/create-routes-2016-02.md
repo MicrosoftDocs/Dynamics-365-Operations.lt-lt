@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6949c729f474e5ea4aea8ad1cca6ae127cf4d652
-ms.openlocfilehash: e3df21705c5b417a4541ba2e76528be63f1f531d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a3f46d282937468351c94dfe3f06403ee2900f82
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/27/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-routes-february-2016-only"></a><span data-ttu-id="ecda5-103">Maršrutų kūrimas (tik 2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="ecda5-103">Create routes (February 2016 only)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ecda5-104">Šios užduoties tikslas yra sukurti galutinių ir pusiau baigtų produktų gamybos maršrutus.</span><span class="sxs-lookup"><span data-stu-id="ecda5-104">This task focuses on creating the production routes for a finished product and a semi-finished product.</span></span> <span data-ttu-id="ecda5-105">Tai penktoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="ecda5-105">It is the fifth task in the BOM calculation series.</span></span> <span data-ttu-id="ecda5-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="ecda5-106">The demo data company used to create this task is USMF.</span></span>
 

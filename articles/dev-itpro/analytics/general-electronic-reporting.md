@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="3d9d6-104">Elektroninių ataskaitų apžvalga</span><span class="sxs-lookup"><span data-stu-id="3d9d6-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d9d6-105">Šioje temoje pateikiama elektroninių ataskaitų (ER) įrankio apžvalga.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="3d9d6-106">Jame yra informacijos apie pagrindines koncepcijas, ER palaikomus scenarijus ir išvardyti formatai, kurie sukurti ir išleisti kaip sprendimo dalis.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="3d9d6-344">ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento versijos pakeitimus dabartinėje išvestinio komponento juodraščio versijoje.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="3d9d6-345">Šis procesas vadinamas *pritaikymu kitoje vietoje*.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="3d9d6-346">Pavyzdžiui, naują reguliavimo pakeitimą, įtrauktą į naujausią komponento, importuoto iš LCS, versiją, galima automatiškai sulieti su pritaikyta šio elektroninio dokumento formato versija.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="3d9d6-347">Bet kokie pakeitimai, kurių negalima sulieti automatiškai, yra laikomi konfliktais.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="3d9d6-348">Šiuos konfliktus galima išspręsti neautomatiniu būdu naudojant atitinkamo komponento kūrimo įrankį.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="3d9d6-349">Paleiskite užduočių vedlį **ER formato versijos naujinimas priimant naują to formato pagrindinę versiją** (verslo proceso **7.5.5.3 Įsigyti / sukurti pakeistų IT paslaugų ir sprendimų komponentų (10683)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.</span><span class="sxs-lookup"><span data-stu-id="3d9d6-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="3d9d6-350">ER konfigūracijų, kurios pateikiamos „Finance and Operations“ sprendime, sąrašas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="3d9d6-351">Konkretaus domeno duomenų modelio konfigūracijos: pavadinimas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="3d9d6-352">Domenas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-352">Domain</span></span>                | <span data-ttu-id="3d9d6-353">Nuo duomenų modelio priklausančio formato konfigūracijos: pavadinimas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="3d9d6-354">Prekės/Paslaugos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="3d9d6-355">Audito failo modelis</span><span class="sxs-lookup"><span data-stu-id="3d9d6-355">Audit file model</span></span>                                 | <span data-ttu-id="3d9d6-356">Finansinis auditas</span><span class="sxs-lookup"><span data-stu-id="3d9d6-356">Financial audit</span></span>       |                                                   |                                                                    |

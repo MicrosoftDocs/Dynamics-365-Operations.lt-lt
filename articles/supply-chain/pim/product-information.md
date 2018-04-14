@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 981effde3f5e99035bcd790ee8d98cc6acf550fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-information-overview"></a><span data-ttu-id="d1024-104">Produktų informacijos peržiūra</span><span class="sxs-lookup"><span data-stu-id="d1024-104">Product information overview</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="d1024-105">Šioje temoje pateikiama informacijos apie produktų informacijos valdymą.</span><span class="sxs-lookup"><span data-stu-id="d1024-105">This topic provides information about product information management.</span></span> <span data-ttu-id="d1024-106">Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.</span><span class="sxs-lookup"><span data-stu-id="d1024-106">Product information management works with a shared product definition, categorization, and identifiers across all legal entities, and also specific configurations of a product, to fit into the business processes.</span></span> 
 

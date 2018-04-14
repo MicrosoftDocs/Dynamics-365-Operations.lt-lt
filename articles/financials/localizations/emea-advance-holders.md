@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 84471351555d90c5a297d613abf334a26e896e40
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 647bbbc8555e0aa00b2779d87e63cb4dd31edf96
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-holders"></a><span data-ttu-id="7c2fb-103">Avanso turėtojai</span><span class="sxs-lookup"><span data-stu-id="7c2fb-103">Advance holders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7c2fb-104">Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-104">Learn about advance holder functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -48,11 +47,13 @@ ms.lasthandoff: 03/26/2018
 ### <a name="employee-posting-profile"></a><span data-ttu-id="7c2fb-121">Darbuotojų registravimo šablonas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-121">Employee posting profile</span></span>
 
 <span data-ttu-id="7c2fb-122">Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avanso turėtojų operacijų šabloną.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-122">Use the **Employee posting profiles** page to create a profile for advance holder transactions.</span></span> <span data-ttu-id="7c2fb-123">Galite nurodyti toliau pateiktą darbuotojų registravimo šablono informaciją.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-123">You can specify the following information for the employee posting profile.</span></span>
-|<span data-ttu-id="7c2fb-124">Laukas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-124">Field</span></span> |<span data-ttu-id="7c2fb-125">aprašymas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-125">Description</span></span>|
-|------|-----------|
-|<span data-ttu-id="7c2fb-126">Registravimo šablonas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-126">Posting profile</span></span>|<span data-ttu-id="7c2fb-127">Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-127">Enter the posting profile identification code for the advance holder.</span></span>|
-|<span data-ttu-id="7c2fb-128">aprašymas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-128">Description</span></span>|<span data-ttu-id="7c2fb-129">Įveskite trumpą registravimo šablono aprašą.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-129">Enter a brief description of the posting profile.</span></span>|
-|<span data-ttu-id="7c2fb-130">Galioja</span><span class="sxs-lookup"><span data-stu-id="7c2fb-130">Valid for</span></span>|<span data-ttu-id="7c2fb-131">Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> 
+
+|      <span data-ttu-id="7c2fb-124">Laukas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-124">Field</span></span>      |                                            <span data-ttu-id="7c2fb-125">aprašymas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-125">Description</span></span>                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="7c2fb-126">Registravimo šablonas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-126">Posting profile</span></span> |               <span data-ttu-id="7c2fb-127">Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-127">Enter the posting profile identification code for the advance holder.</span></span>               |
+|   <span data-ttu-id="7c2fb-128">aprašymas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-128">Description</span></span>   |                         <span data-ttu-id="7c2fb-129">Įveskite trumpą registravimo šablono aprašą.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-129">Enter a brief description of the posting profile.</span></span>                         |
+|    <span data-ttu-id="7c2fb-130">Galioja</span><span class="sxs-lookup"><span data-stu-id="7c2fb-130">Valid for</span></span>    | <span data-ttu-id="7c2fb-131">Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> |
+
 <span data-ttu-id="7c2fb-132">**Lentelė** – ši parinktis naudojama nustatant vieno avanso turėtojo registravimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-132">**Table** – This option is used to set up the posting profile for one advance holder.</span></span> <span data-ttu-id="7c2fb-133">Turite nurodyti avanso turėtojo kodą lauke Nuoroda.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-133">You must indicate the advance holder code in the Reference field.</span></span>
 <span data-ttu-id="7c2fb-134">**Grupė** – ši parinktis naudojama nustatant avanso turėtojų grupės registravimo šabloną.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-134">**Group** – This option is used to set up the posting profile for a group of advance holders.</span></span> <span data-ttu-id="7c2fb-135">Turite nurodyti grupės kodą lauke Nuoroda.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-135">You must indicate the group code in the Reference field.</span></span>
 <span data-ttu-id="7c2fb-136">**Visi** – ši parinktis naudojama nustatant visų avanso turėtojų registravimo šabloną.| |Nuoroda|Pasirinkite avanso turėtojo kodą, jei lauke Galioja pasirinkta parinktis Lentelė, arba pasirinkite avanso turėtojo grupę, jei lauke Galioja pasirinkta parinktis Grupė.| |Suminė sąskaita|Pasirinkite operacijų registravimo suminę sąskaitą.|</span><span class="sxs-lookup"><span data-stu-id="7c2fb-136">**All** – This option is used to set up the posting profile for all advance holders.| |Reference|Select the advance holder code if Table is selected in the Valid for field, or select the advance holder group if Group is selected in the Valid for field.| |Summary account|Select the summary account for posting the transactions.|</span></span>
@@ -62,6 +63,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="account-payable-parameters"></a><span data-ttu-id="7c2fb-137">Mokėtinų sumų parametrai</span><span class="sxs-lookup"><span data-stu-id="7c2fb-137">Account payable parameters</span></span>
 
 <span data-ttu-id="7c2fb-138">Norėdami nurodyti avanso turėtojo operacijas, puslapio **Mokėtinų sumų parametrai** dalyje **Avanso turėtojai** turite nustatyti toliau pateiktą informaciją.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-138">To reflect advance holder’s transactions you must set up the following on the **Account payable parameters** page in the **Advance holders** section.</span></span>
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  <span data-ttu-id="7c2fb-139">**Laukas**</span><span class="sxs-lookup"><span data-stu-id="7c2fb-139">**Field**</span></span>                                     | <span data-ttu-id="7c2fb-140">**Aprašas**</span><span class="sxs-lookup"><span data-stu-id="7c2fb-140">**Description**</span></span>                                                                                                                                                                  |
@@ -80,6 +82,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="create-an-advance-holder-creation"></a><span data-ttu-id="7c2fb-160">Avanso turėtojo kūrimas</span><span class="sxs-lookup"><span data-stu-id="7c2fb-160">Create an advance holder creation</span></span>
 
 <span data-ttu-id="7c2fb-161">Prieš kurdami avanso turėtoją, turite būti jau nustatę darbuotojus.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-161">Before you can create an advance holder, you must have already set up workers.</span></span> <span data-ttu-id="7c2fb-162">Daugiau informacijos žr. [Darbuotojo informacijos įvedimas (užduočių vedlys)](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span><span class="sxs-lookup"><span data-stu-id="7c2fb-162">For more information, see [Enter worker information (Task guide).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span></span> <span data-ttu-id="7c2fb-163">Naudokite puslapį **Avanso turėtojai**, kad darbuotoją nustatytumėte kaip avanso turėtoją.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-163">Use the **Advance holders** page to set up a worker as an advance holder.</span></span> <span data-ttu-id="7c2fb-164">Pasirinkite darbuotoją, kurį nustatysite kaip avanso turėtoją, spustelėkite **Redaguoti** ir tada nustatykite parinktį **Avanso turėtojas** į **True**.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-164">Select the worker to use as an advance holder, click **Edit**, and then set the **Advance holder** option to **True**.</span></span> <span data-ttu-id="7c2fb-165">Taip pat turite užpildyti tolesnius laukus.</span><span class="sxs-lookup"><span data-stu-id="7c2fb-165">You must also complete the following fields.</span></span>
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | <span data-ttu-id="7c2fb-166">**Laukas**</span><span class="sxs-lookup"><span data-stu-id="7c2fb-166">**Field**</span></span>      | <span data-ttu-id="7c2fb-167">**Aprašas**</span><span class="sxs-lookup"><span data-stu-id="7c2fb-167">**Description**</span></span>                                                                             |

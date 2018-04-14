@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="28dae-103">Išlaidų ataskaitos registravimas</span><span class="sxs-lookup"><span data-stu-id="28dae-103">Post an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="28dae-104">Po to, kai išlaidų ataskaita patvirtinta ir perkelta į bendrąjį žurnalą, ją galima registruoti didžiojoje knygoje.</span><span class="sxs-lookup"><span data-stu-id="28dae-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="28dae-105">Registruojant išlaidų ataskaitą, nustatomos išlaidos, kurių pridėtinės vertės mokestį (PVM) galima susigrąžinti.</span><span class="sxs-lookup"><span data-stu-id="28dae-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="28dae-106">PVM mokėjimų patikrinimo ir susigrąžinimo užduotis priskiriama darbuotojui, atsakingam už išlaidų ataskaitos tikrinimą.</span><span class="sxs-lookup"><span data-stu-id="28dae-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

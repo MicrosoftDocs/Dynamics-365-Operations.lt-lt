@@ -16,15 +16,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e633b35cdd5441f7f9d1c1465dbc468e047cdee5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 280758134921bb5d22ae90891dc3f8bf7873813c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-address-books"></a><span data-ttu-id="33b12-103">Konfigūruoti adresų knygeles</span><span class="sxs-lookup"><span data-stu-id="33b12-103">Configure address books</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="33b12-104">Norėdami savo organizacijai nustatyti papildomų agresų knygelių, naudokite šią procedūrą, ir sprendimus, kuriuos priėmėte temoje Visuotinės adresų knygelės konfigūracijos planavimas ir papildomos adresų knygelės.</span><span class="sxs-lookup"><span data-stu-id="33b12-104">Use this procedure, and the decisions that you made in the Planning the configuration of the global address book and additional address books topic, to set up additional address books for your organization.</span></span>
 

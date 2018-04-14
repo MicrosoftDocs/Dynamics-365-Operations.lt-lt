@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 0250706fea6d6dfa7b59729162c2afad9ca11a46
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="44cae-103">Klientų kredito limitai</span><span class="sxs-lookup"><span data-stu-id="44cae-103">Credit limits for customers</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="44cae-104">Nustatę kredito limitą, galite nurodyti, kokią didžiausią kredito sumą galima suteikti klientams.</span><span class="sxs-lookup"><span data-stu-id="44cae-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="44cae-105">Jei nurodytas kredito limitas, jis automatiškai patikrinamas vartotojui bandant atnaujinti dokumentą.</span><span class="sxs-lookup"><span data-stu-id="44cae-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="44cae-106">Jei kredito limitas viršijamas, vartotojui rodomas pranešimas.</span><span class="sxs-lookup"><span data-stu-id="44cae-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="44cae-107">Šiame straipsnyje apžvelgiama, kaip kredito limitai veikia, ir atsakoma į tolesnius klausimus.</span><span class="sxs-lookup"><span data-stu-id="44cae-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

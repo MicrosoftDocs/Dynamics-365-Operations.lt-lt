@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="3a65e-103">Generuoti finansinę ataskaitą</span><span class="sxs-lookup"><span data-stu-id="3a65e-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3a65e-104">Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.</span><span class="sxs-lookup"><span data-stu-id="3a65e-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="3a65e-115">Generuoti finansinę ataskaitą</span><span class="sxs-lookup"><span data-stu-id="3a65e-115">Generate a financial report</span></span>
 
 <span data-ttu-id="3a65e-116">Norėdami generuoti finansinę ataskaitą naudodami „Microsoft Dynamics 365 for Finance and Operations“, eikite į **Didžioji knyga** > **Užklausos ir ataskaitos** > **Finansinės ataskaitos**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="3a65e-117">Pasirinkite norimą generuoti ataskaitą ir spustelėkite **Generuoti**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="3a65e-118">Užpildykite lauką **Ataskaitos data** ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="3a65e-119">Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="3a65e-120">Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="3a65e-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="3a65e-117">Pasirinkite norimą generuoti ataskaitą ir spustelėkite **Generuoti**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="3a65e-118">Užpildykite lauką **Ataskaitos data** ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="3a65e-119">Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.</span><span class="sxs-lookup"><span data-stu-id="3a65e-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="3a65e-120">Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="3a65e-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="3a65e-121">Norėdami sugeneruoti ataskaitą naudodami **Ataskaitų kūrimo įrankis**, atidarykite ataskaitos aprašą, tada įrankių juostoje spustelėkite mygtuką Generuoti.</span><span class="sxs-lookup"><span data-stu-id="3a65e-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="3a65e-122">Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje.</span><span class="sxs-lookup"><span data-stu-id="3a65e-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="3a65e-123">Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.</span><span class="sxs-lookup"><span data-stu-id="3a65e-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="3a65e-237">Atidaryti pasirinktą ataskaitos aprašą</span><span class="sxs-lookup"><span data-stu-id="3a65e-237">Open the selected report definition</span></span>  | <span data-ttu-id="3a65e-238">Ctrl + R</span><span class="sxs-lookup"><span data-stu-id="3a65e-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="3a65e-239">Atidaryti pasirinktą eilutės aprašą</span><span class="sxs-lookup"><span data-stu-id="3a65e-239">Open the selected row definition</span></span>     | <span data-ttu-id="3a65e-240">Ctrl + O</span><span class="sxs-lookup"><span data-stu-id="3a65e-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="3a65e-241">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="3a65e-241">See also</span></span>
 --------
 

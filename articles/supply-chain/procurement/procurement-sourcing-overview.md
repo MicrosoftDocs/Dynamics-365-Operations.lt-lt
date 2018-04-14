@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="85ab0-103">Įsigijimo ir šaltinio pasirinkimo apžvalga</span><span class="sxs-lookup"><span data-stu-id="85ab0-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="85ab0-104">Šiame straipsnyje apžvelgiamos modulyje Įsigijimas ir šaltinio pasirinkimas prieinamos funkcijos.</span><span class="sxs-lookup"><span data-stu-id="85ab0-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="85ab0-108">Produktų ar paslaugų poreikį gali lemti *paraiškos*, pvz., kai darbuotojui reikia produkto.</span><span class="sxs-lookup"><span data-stu-id="85ab0-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="85ab0-109">Gali būti nustatyti *Produktų katalogai*, kad jiems padėtų pasirinkti galimus produktus, arba gali būti teikiamos produktų, kurių kataloge dar nėra, užklausos, tokiu būdu leidžiant padaliniui apsvarstyti produkto tiekimo galimybes.</span><span class="sxs-lookup"><span data-stu-id="85ab0-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="85ab0-110">*Išlaidų limitai* gali būti naudojami paraiškos išlaidoms apriboti, o *pirkimo darbo eiga* suteikia galimybę prieš užsakymo vykdymą reikalauti patvirtinimo.</span><span class="sxs-lookup"><span data-stu-id="85ab0-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="85ab0-111">Taip pat galima nurodyti biudžeto lėšų paskirstymą, jei reikia.</span><span class="sxs-lookup"><span data-stu-id="85ab0-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="85ab0-112">Įsigijimo padalinys identifikuoja reikiamų produktų ir paslaugų tiekėjus, o tai gali apimti *pasiūlymo patvirtinimo* siuntimą keliems potencialiems tiekėjams.</span><span class="sxs-lookup"><span data-stu-id="85ab0-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="85ab0-113">Galima bendrai naudoti prašomo produkto specifikacijas ir tiekėjai gali jas matyti bei įvertinti, ar jie gali pristatyti produktą, atsižvelgdami į tas specifikacijas.</span><span class="sxs-lookup"><span data-stu-id="85ab0-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="85ab0-114">Tiekėjai pateikia savo pasiūlymus, kuriuos įsigijimo padalinys tada peržiūri, o tada pasirenkamas tiekėjas, iš kurio norima įsigyti.</span><span class="sxs-lookup"><span data-stu-id="85ab0-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="85ab0-115">Pirkimo užsakymuose yra galimybė *pirkimo užklausą* tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą.</span><span class="sxs-lookup"><span data-stu-id="85ab0-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="85ab0-116">Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą.</span><span class="sxs-lookup"><span data-stu-id="85ab0-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="85ab0-117">Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**, pirkimo užklausos funkcija išjungta.</span><span class="sxs-lookup"><span data-stu-id="85ab0-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="85ab0-118">Užsakymas yra bendrai naudojamas portale**Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.</span><span class="sxs-lookup"><span data-stu-id="85ab0-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

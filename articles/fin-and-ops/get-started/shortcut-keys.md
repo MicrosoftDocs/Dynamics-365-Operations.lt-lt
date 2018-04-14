@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="cfefd-103">Spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cfefd-104">Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟.</span><span class="sxs-lookup"><span data-stu-id="cfefd-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="cfefd-111">Veiksmų spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="cfefd-112">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-112">**To do this**</span></span>                                    | <span data-ttu-id="cfefd-113">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-134">Peržiūrėti šiuo metu galimus sparčiuosius klavišus</span><span class="sxs-lookup"><span data-stu-id="cfefd-134">View currently available shortcuts</span></span>                | <span data-ttu-id="cfefd-135">Alt + Shift + K</span><span class="sxs-lookup"><span data-stu-id="cfefd-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="cfefd-136">Datos parinkimo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="cfefd-137">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-137">**To do this**</span></span>                        | <span data-ttu-id="cfefd-138">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-153">Parinkti Niekada (arba didžiausią datą)</span><span class="sxs-lookup"><span data-stu-id="cfefd-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="cfefd-154">N</span><span class="sxs-lookup"><span data-stu-id="cfefd-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="cfefd-155">„FactBox“ spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="cfefd-156">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-156">**To do this**</span></span>                                                                  | <span data-ttu-id="cfefd-157">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-168">Sutraukti esamą „FactBox“</span><span class="sxs-lookup"><span data-stu-id="cfefd-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="cfefd-169">Alt + 0</span><span class="sxs-lookup"><span data-stu-id="cfefd-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="cfefd-170">Filtravimo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="cfefd-171">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-171">**To do this**</span></span>                     | <span data-ttu-id="cfefd-172">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-181">Atidaryti išplėstinį filtravimą / rūšiavimą</span><span class="sxs-lookup"><span data-stu-id="cfefd-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="cfefd-182">Ctrl + Shift + F3</span><span class="sxs-lookup"><span data-stu-id="cfefd-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="cfefd-183">Formos spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="cfefd-184">**Norint tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-184">**To do this**</span></span>                                      | <span data-ttu-id="cfefd-185">**Paspausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-216">Uždaryti formą atmetant visus neįrašytus keitimus</span><span class="sxs-lookup"><span data-stu-id="cfefd-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="cfefd-217">Alt + Shift + Q</span><span class="sxs-lookup"><span data-stu-id="cfefd-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="cfefd-218">Formos naršymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="cfefd-219">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-219">**To do this**</span></span>                                      | <span data-ttu-id="cfefd-220">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-245">Perkelti į eilučių rodinį</span><span class="sxs-lookup"><span data-stu-id="cfefd-245">Switch to lines view</span></span>                                | <span data-ttu-id="cfefd-246">Ctrl + Shift + L</span><span class="sxs-lookup"><span data-stu-id="cfefd-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="cfefd-247">Tinklelio spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="cfefd-248">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="cfefd-249">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-283">Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)</span><span class="sxs-lookup"><span data-stu-id="cfefd-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="cfefd-284">Enter</span><span class="sxs-lookup"><span data-stu-id="cfefd-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="cfefd-285">Įvesties valdymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="cfefd-286">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-286">**To do this**</span></span>                                                               | <span data-ttu-id="cfefd-287">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-306">Perjungti įvesties vietą tarp teksto srities ir įrankių juostos HTML doroklio valdiklyje</span><span class="sxs-lookup"><span data-stu-id="cfefd-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="cfefd-307">F6</span><span class="sxs-lookup"><span data-stu-id="cfefd-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="cfefd-308">Pranešimų spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="cfefd-309">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-309">**To do this**</span></span>           | <span data-ttu-id="cfefd-310">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-313">Eiti į pranešimų juostą</span><span class="sxs-lookup"><span data-stu-id="cfefd-313">Go to the Message Bar</span></span>    | <span data-ttu-id="cfefd-314">Ctrl + F7</span><span class="sxs-lookup"><span data-stu-id="cfefd-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="cfefd-315">Naršymo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="cfefd-316">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-316">**To do this**</span></span>                                                                | <span data-ttu-id="cfefd-317">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-348">Pereiti į „FactBox“ sritį (ji taip pat gali būti atidaroma)</span><span class="sxs-lookup"><span data-stu-id="cfefd-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="cfefd-349">„Alt“ + M, B arba „Ctrl“ + F2</span><span class="sxs-lookup"><span data-stu-id="cfefd-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="cfefd-350">Personalizavimo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="cfefd-351">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="cfefd-352">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="cfefd-397">Išeiti iš personalizavimo režimo (kai įjungtas personalizavimo režimas)</span><span class="sxs-lookup"><span data-stu-id="cfefd-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="cfefd-398">Esc</span><span class="sxs-lookup"><span data-stu-id="cfefd-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="cfefd-399">Segmentuoto įrašo spartieji klavišai</span><span class="sxs-lookup"><span data-stu-id="cfefd-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="cfefd-400">**Norėdami tai padaryti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="cfefd-401">**Spausti**</span><span class="sxs-lookup"><span data-stu-id="cfefd-401">**Press**</span></span>                        |

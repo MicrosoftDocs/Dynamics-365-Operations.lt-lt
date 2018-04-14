@@ -19,17 +19,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 662a649f20fa4e22d83d22b651ec8bcdd69f8028
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-currency-exchange-rates"></a><span data-ttu-id="029a5-105">Importuoti valiutų kursus</span><span class="sxs-lookup"><span data-stu-id="029a5-105">Import currency exchange rates</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="029a5-106">Jei juridinis subjektas gavo SF užsienio valiuta, svarbu užsienio valiutą konvertuoti į vietos valiutą.</span><span class="sxs-lookup"><span data-stu-id="029a5-106">If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency.</span></span> <span data-ttu-id="029a5-107">Todėl reikalingi naujausi skirtingų valiutų kursai.</span><span class="sxs-lookup"><span data-stu-id="029a5-107">This means that up-to-date exchange rates for different currencies are required.</span></span> <span data-ttu-id="029a5-108">Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias internete skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.</span><span class="sxs-lookup"><span data-stu-id="029a5-108">This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia.</span></span>
 

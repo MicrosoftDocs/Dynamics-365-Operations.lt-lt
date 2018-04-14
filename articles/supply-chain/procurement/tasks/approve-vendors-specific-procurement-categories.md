@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83945932d56abf6bf44476e5647f8ae7abdc3602
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3ee04497653b21600cd42fa9c90e7876e613acee
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a><span data-ttu-id="a01f1-103">Tvirtinti konkrečių įsigijimo kategorijų tiekėjus</span><span class="sxs-lookup"><span data-stu-id="a01f1-103">Approve vendors for specific procurement categories</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a01f1-104">Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos.</span><span class="sxs-lookup"><span data-stu-id="a01f1-104">When a purchase requisition is created, there may be a requirement to select an approved or preferred vendor, depending on how the purchasing policies are set up.</span></span> <span data-ttu-id="a01f1-105">Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas.</span><span class="sxs-lookup"><span data-stu-id="a01f1-105">This procedure shows you how to specify that a vendor is approved or preferred for a specific procurement category.</span></span> <span data-ttu-id="a01f1-106">Šią užduotį paprastai atlieka pirkimų profesionalai.</span><span class="sxs-lookup"><span data-stu-id="a01f1-106">This task would usually be carried out by a procurement professional.</span></span> <span data-ttu-id="a01f1-107">Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="a01f1-107">You can use this procedure in demo data company USMF.</span></span>
 

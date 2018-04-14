@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 331f516f3483acd79be4ef7b95b53adcfbef1ae2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d6e7c8884c0fa29b5c6efc053f2ad8171581b946
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-request-for-quotation"></a><span data-ttu-id="60b9e-103">Kurti pasiūlymo patvirtinimą</span><span class="sxs-lookup"><span data-stu-id="60b9e-103">Create a request for quotation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60b9e-104">Šia procedūra parodoma, kaip kurti pasiūlymo patvirtinimą.</span><span class="sxs-lookup"><span data-stu-id="60b9e-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="60b9e-105">Paprastai tai atlieka pirkimo agentas.</span><span class="sxs-lookup"><span data-stu-id="60b9e-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="60b9e-106">Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis.</span><span class="sxs-lookup"><span data-stu-id="60b9e-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="60b9e-107">Prieš pradėdami turite nustatyti siūlymų tipus.</span><span class="sxs-lookup"><span data-stu-id="60b9e-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="60b9e-108">Atlikę šią užduotį ir sukūrę bei išsiuntę RFQ, galite įvesti atsakymus pagal tiekėją, juos palyginti ir pasirinkti sutartį.</span><span class="sxs-lookup"><span data-stu-id="60b9e-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 

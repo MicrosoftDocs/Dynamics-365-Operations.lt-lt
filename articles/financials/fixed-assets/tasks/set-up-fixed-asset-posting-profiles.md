@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9bd8a506fc0bbf4d4d8127afa71fe371be10b55b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="d3d68-103">Ilgalaikio turto registravimo šablonų nustatymas</span><span class="sxs-lookup"><span data-stu-id="d3d68-103">Set up fixed asset posting profiles</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d3d68-104">Šis užduočių vadovas nustatys ilgalaikio turto registravimo šablonus.</span><span class="sxs-lookup"><span data-stu-id="d3d68-104">This task guide will set up Fixed asset posting profiles.</span></span>  <span data-ttu-id="d3d68-105">Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="d3d68-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>  <span data-ttu-id="d3d68-106">Užduočių vadove pateikiami pagrindinio registravimo šablono pavyzdžiai, nors reikia sukurti jūsų konkretaus sąskaitų plano ir finansinių ataskaitų reikalavimų registravimo šablonus.</span><span class="sxs-lookup"><span data-stu-id="d3d68-106">Examples given in the task guide are for a basic posting profile, though posting profiles must be created for your specific chart of accounts and financial reporting requirements.</span></span>
 

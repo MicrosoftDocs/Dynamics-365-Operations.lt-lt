@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8278a57271314104c36b074c7a7ee422751f2c19
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="b9d85-103">Generuoti ir apdoroti kliento grąžinimus</span><span class="sxs-lookup"><span data-stu-id="b9d85-103">Generate and process customer rebates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b9d85-104">Ši procedūra parodo, kaip apdoroti klientų grąžinimus nuo pretenzijos generavimo iki susikaupusių gautinų sumų išmokėjimo.</span><span class="sxs-lookup"><span data-stu-id="b9d85-104">This procedure demonstrates how to process customer rebates from claim generation to the point of passing them as accruals to Accounts receivable.</span></span> <span data-ttu-id="b9d85-105">Ji žingsnis po žingsnio pateikia konkretų pavyzdį, kuris paaiškina, kokią įtaką įvairios grąžinimo eilučių sąlygos daro galutinėms sumoms, kurios bus pervestos klientui.</span><span class="sxs-lookup"><span data-stu-id="b9d85-105">It walks you through a specific example to explain how the various conditions on the rebate lines affect the final amounts that will be credited to the customer.</span></span> <span data-ttu-id="b9d85-106">Turėsite naudoti demonstracinių duomenų įmonę USMF ir, prieš paleisdami vadovą, atlikti šias užduotis: (1) eikite į puslapį „Gautinų sumų parametrai“, išplėskite skirtuką „Kainos“, tada skirtuką „Kainų informacija“ ir patikrinkite, ar parinkčiai „Įjungti kainų informaciją“ nustatyta reikšmė „Taip“.</span><span class="sxs-lookup"><span data-stu-id="b9d85-106">You need to use the USMF demo data company, and carry out the following tasks before you start the guide: (1) Go to the Accounts receivable parameters page, and expand the Prices tab and then the Price details tab, and check that the Enable price details option is set to Yes.</span></span> <span data-ttu-id="b9d85-107">(2) Eikite į puslapį „Grąžinimo sutartys“ ir pasirinkite grąžinimo klientui sutartį: USMF-000001.</span><span class="sxs-lookup"><span data-stu-id="b9d85-107">(2) Go to the Rebate agreements page and select the customer rebate agreement: USMF-000001.</span></span> <span data-ttu-id="b9d85-108">Jei darbo eigos patvirtinimo būsenos laukui nenustatyta reikšmė „Patvirtinta“, turite jį patvirtinti veiksmų srityje spustelėdami „Patvirtinimas“.</span><span class="sxs-lookup"><span data-stu-id="b9d85-108">If the Workflow approval status field is not set to Approved, you need click Validation on the Action pane to approve it.</span></span>
 

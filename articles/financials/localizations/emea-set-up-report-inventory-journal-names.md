@@ -18,21 +18,21 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ca43a81ab3e1dfcfec6a69369121265c54dae9a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c293934675ac491792b55ddd81e38ae2cfe79266
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journal-reports"></a><span data-ttu-id="c8653-103">Atsargų žurnalo ataskaitos</span><span class="sxs-lookup"><span data-stu-id="c8653-103">Inventory journal reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c8653-104">Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.</span><span class="sxs-lookup"><span data-stu-id="c8653-104">When you use configurable inventory reports based on electronic reporting, you need to set up a relationship between a specific report and a journal type.</span></span>
 
 <span data-ttu-id="c8653-105">Norėdami nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo, puslapyje **Atsargų žurnalų pavadinimai** (**Atsargų valdymas** &gt; **Sąranka** &gt; **Žurnalų pavadinimai** &gt; **Atsargos**) įveskite ataskaitos pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="c8653-105">To set up a relationship between a specific report and a journal type, on the **Inventory journal names** page (**Inventory management** &gt; **Setup** &gt; **Journal names** &gt; **Inventory**), enter a name for the report.</span></span> <span data-ttu-id="c8653-106">**Pastaba.** Norėdami nustatyti palaikomas konfigūracijas, atsisiųskite reikiamas elektroninių ataskaitų konfigūracijas.</span><span class="sxs-lookup"><span data-stu-id="c8653-106">**Note:** To set up supported configurations, download the required electronic reporting configurations.</span></span> <span data-ttu-id="c8653-107">Norėdami daugiau informacijos žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="c8653-107">For more information, see [Download Electronic reporting configurations from Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span></span> <span data-ttu-id="c8653-108">Toliau nurodytoje lentelėje pateikti atsargų ataskaitų su Europoje palaikomomis konfigūracijomis pavyzdžiai.</span><span class="sxs-lookup"><span data-stu-id="c8653-108">Examples of inventory reports with supported configurations in Europe are listed in the following table.</span></span>
+
 |                    |                                     |                  |                                         |
 |--------------------|-------------------------------------|------------------|-----------------------------------------|
 | <span data-ttu-id="c8653-109">**Šalis**</span><span class="sxs-lookup"><span data-stu-id="c8653-109">**Country**</span></span>        | <span data-ttu-id="c8653-110">**Ataskaitos aprašymas**</span><span class="sxs-lookup"><span data-stu-id="c8653-110">**Report description**</span></span>              | <span data-ttu-id="c8653-111">**Žurnalo tipas**</span><span class="sxs-lookup"><span data-stu-id="c8653-111">**Journal type**</span></span> | <span data-ttu-id="c8653-112">**Formato susiejimo pavadinimas**</span><span class="sxs-lookup"><span data-stu-id="c8653-112">**Format mapping name**</span></span>                 |

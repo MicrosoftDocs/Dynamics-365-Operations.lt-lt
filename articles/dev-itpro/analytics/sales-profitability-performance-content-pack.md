@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="a2db1-104">Pardavimo ir pelningumo našumo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="a2db1-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2db1-105">Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Pardavimo ir pelningumo našumas**.</span><span class="sxs-lookup"><span data-stu-id="a2db1-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="a2db1-106">Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.</span><span class="sxs-lookup"><span data-stu-id="a2db1-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="a2db1-140">Įplaukos pagal produktą</span><span class="sxs-lookup"><span data-stu-id="a2db1-140">Revenue by product</span></span>     | <span data-ttu-id="a2db1-141">Įplaukos ir bruto pelnas pagal pardavimo kategoriją</span><span class="sxs-lookup"><span data-stu-id="a2db1-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="a2db1-142">Iš viso \# produktų</span><span class="sxs-lookup"><span data-stu-id="a2db1-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="a2db1-143">10 svarbiausių produktų pagal įplaukas</span><span class="sxs-lookup"><span data-stu-id="a2db1-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="a2db1-144">Bendras skaičius aktyvių produktų ir procentais nuo bendros sumos</span><span class="sxs-lookup"><span data-stu-id="a2db1-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="a2db1-145">Bendros įplaukos pagal pardavimo kategoriją</span><span class="sxs-lookup"><span data-stu-id="a2db1-145">Total revenue by sales category</span></span>            | <span data-ttu-id="a2db1-146">Produktų, sudarančių 80 % įplaukų, skaičius</span><span class="sxs-lookup"><span data-stu-id="a2db1-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="a2db1-147">Įplaukos pagal laikotarpį\\*</span><span class="sxs-lookup"><span data-stu-id="a2db1-147">Revenue by period\\*</span></span>    | <span data-ttu-id="a2db1-148">Įplaukos pagal mėnesį</span><span class="sxs-lookup"><span data-stu-id="a2db1-148">Revenue by month</span></span>                           | <span data-ttu-id="a2db1-149">Įplaukų augimas bėgant metams</span><span class="sxs-lookup"><span data-stu-id="a2db1-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="a2db1-147">Įplaukos pagal laikotarpį\*</span><span class="sxs-lookup"><span data-stu-id="a2db1-147">Revenue by period\*</span></span>    | <span data-ttu-id="a2db1-148">Įplaukos pagal mėnesį</span><span class="sxs-lookup"><span data-stu-id="a2db1-148">Revenue by month</span></span>                           | <span data-ttu-id="a2db1-149">Įplaukų augimas bėgant metams</span><span class="sxs-lookup"><span data-stu-id="a2db1-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="a2db1-150">Paskutinių įplaukų nuokrypis, bėgant metams</span><span class="sxs-lookup"><span data-stu-id="a2db1-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="a2db1-151">Įplaukų augimas bėgant metams %</span><span class="sxs-lookup"><span data-stu-id="a2db1-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="a2db1-152">Bendras pardavimų nuokrypis pagal kliento regioną</span><span class="sxs-lookup"><span data-stu-id="a2db1-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="a2db1-153">Įplaukos pagal vietą</span><span class="sxs-lookup"><span data-stu-id="a2db1-153">Revenue by location</span></span>    | <span data-ttu-id="a2db1-154">Pardavimo įplaukos pagal miestą</span><span class="sxs-lookup"><span data-stu-id="a2db1-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="a2db1-162">15 svarbiausių klientų pagal bruto maržą</span><span class="sxs-lookup"><span data-stu-id="a2db1-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="a2db1-163">Bruto pelnas pagal mėnesį, bėgant metams</span><span class="sxs-lookup"><span data-stu-id="a2db1-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="a2db1-164">\\* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.</span><span class="sxs-lookup"><span data-stu-id="a2db1-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="a2db1-164">\* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.</span><span class="sxs-lookup"><span data-stu-id="a2db1-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="a2db1-165">Duomenų modelio ir objektų supratimas</span><span class="sxs-lookup"><span data-stu-id="a2db1-165">Understanding the data model and entities</span></span>

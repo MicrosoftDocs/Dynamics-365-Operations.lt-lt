@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="6c35e-104">„Power BI“ turinys Praktikos vadovas</span><span class="sxs-lookup"><span data-stu-id="6c35e-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6c35e-105">Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Praktikos vadovas**.</span><span class="sxs-lookup"><span data-stu-id="6c35e-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="6c35e-106">Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.</span><span class="sxs-lookup"><span data-stu-id="6c35e-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="6c35e-228">Objektas: ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="6c35e-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="6c35e-229">**Duomenų šaltinis:** ProjTable</span><span class="sxs-lookup"><span data-stu-id="6c35e-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="6c35e-230">Pagrindiniai sujungti matavimo vienetai</span><span class="sxs-lookup"><span data-stu-id="6c35e-230">Key aggregate measurement</span></span>       | <span data-ttu-id="6c35e-231">Laukas</span><span class="sxs-lookup"><span data-stu-id="6c35e-231">Field</span></span>               | <span data-ttu-id="6c35e-232">aprašymas</span><span class="sxs-lookup"><span data-stu-id="6c35e-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="6c35e-230">Pagrindiniai sujungti matavimo vienetai</span><span class="sxs-lookup"><span data-stu-id="6c35e-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="6c35e-231">Laukas</span><span class="sxs-lookup"><span data-stu-id="6c35e-231">Field</span></span>        |                                          <span data-ttu-id="6c35e-232">aprašymas</span><span class="sxs-lookup"><span data-stu-id="6c35e-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="6c35e-233">Užbaigtos veiklos suplanuotos išlaidos</span><span class="sxs-lookup"><span data-stu-id="6c35e-233">Completed activity planned cost</span></span> | <span data-ttu-id="6c35e-234">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="6c35e-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="6c35e-235">Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina.</span><span class="sxs-lookup"><span data-stu-id="6c35e-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

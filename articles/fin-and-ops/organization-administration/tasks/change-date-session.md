@@ -16,15 +16,15 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 69a449766f2e5d9a6833127fcd28a2959d4578fc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 29d57216b260838f277905e33bf54cbbd314e0d2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-date-for-the-session"></a><span data-ttu-id="10a46-103">Seanso datos keitimas</span><span class="sxs-lookup"><span data-stu-id="10a46-103">Change the date for the session</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="10a46-104">Pagal numatytuosius nustatymus esama data naudojama įvedant ir registruojant žurnalo įrašus arba šaltinio dokumentus.</span><span class="sxs-lookup"><span data-stu-id="10a46-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="10a46-105">Datą, kuri naudojama dabartiniam seansui, galite pakeisti.</span><span class="sxs-lookup"><span data-stu-id="10a46-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="10a46-106">Jei reikia, naudokite šią funkciją žurnalo įrašams arba šaltinio dokumentams atgaline data kurti.</span><span class="sxs-lookup"><span data-stu-id="10a46-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
 

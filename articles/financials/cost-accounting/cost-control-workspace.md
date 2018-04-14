@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 861b4eda291dc7b0a5c045a767c860b7e4718404
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: beb110091ea452ec46739c10fa2570eb9b6f656f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-control-overview"></a><span data-ttu-id="1e7d2-104">Savikainos kontrolės apžvalga</span><span class="sxs-lookup"><span data-stu-id="1e7d2-104">Cost control overview</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e7d2-105">Darbo sritis **Savikainos kontrolė** yra centrinis taškas, kuriame už dimensijos arba dimensijų (pavyzdžiui, išlaidų centrų ir produktų grupių) savikainos objekto arba savikainos objektų rinkinį atsakingi vadybininkai gali pasiekti ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="1e7d2-105">The **Cost control** workspace is a central point where managers who are responsible for controlling a cost object or a set of cost objects within a dimension or across dimensions (for example, cost centers and product groups) can access reports.</span></span> <span data-ttu-id="1e7d2-106">Darbo srityje pateiktas ataskaitas visiškai valdo išlaidų buhalteriai, kad ataskaitoms naudojamas maketas ir duomenys būtų vienodi visoje organizacijoje.</span><span class="sxs-lookup"><span data-stu-id="1e7d2-106">The reports in the workspace are fully managed by cost accountants, so that the layout and data that are used for reporting can be consistent across the whole organization.</span></span>
 

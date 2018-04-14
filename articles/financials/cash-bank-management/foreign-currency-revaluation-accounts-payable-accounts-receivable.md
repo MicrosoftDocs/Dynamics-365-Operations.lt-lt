@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87bafa5817ceef8428cf28c60ec336c127e432d4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a><span data-ttu-id="727dd-104">Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas</span><span class="sxs-lookup"><span data-stu-id="727dd-104">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="727dd-105">Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė).</span><span class="sxs-lookup"><span data-stu-id="727dd-105">Fluctuations in exchange rates cause the theoretical value (book value) of open transactions in foreign currencies to vary over time.</span></span> <span data-ttu-id="727dd-106">Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.</span><span class="sxs-lookup"><span data-stu-id="727dd-106">This article provides information about the foreign currency revaluation process that you run to update the value of open transactions in Accounts payable and Accounts receivable.</span></span> 
 

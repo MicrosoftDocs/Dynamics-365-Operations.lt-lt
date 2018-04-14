@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eeaf1675b6653ab2c8c04d05ec1bff3cd0bb18d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67817a3db1aa7d90fd64509b707f075b22010dcb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="1b27e-103">Valdyti el. laiškų šablonus</span><span class="sxs-lookup"><span data-stu-id="1b27e-103">Manage email templates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1b27e-104">Galite perkelti informaciją iš jūsų organizacijos duomenų bazės į žymeles naujame dokumente ir naudoti ją šablonuose, kurie padeda efektyviai bendrauti su pretendentais ir kandidatais.</span><span class="sxs-lookup"><span data-stu-id="1b27e-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="1b27e-105">Norėdami tai padaryti, turite sukurti šabloną, kuriame būtų standartinis tekstas ir kelios žymelės tose vietose, kur turėtų būti įterpti sistemos duomenys.</span><span class="sxs-lookup"><span data-stu-id="1b27e-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="1b27e-106">Pvz., galite įterpti pretendento adresą ir kontaktinę informaciją į „Microsoft Word“ dokumentą, kurį galite naudoti bendraudami su tuo pretendentu.</span><span class="sxs-lookup"><span data-stu-id="1b27e-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="1b27e-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="1b27e-107">The demo data company used to create this procedure is USMF.</span></span>
 

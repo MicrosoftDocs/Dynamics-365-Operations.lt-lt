@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7eb15f9f73f4773d98160e1b0ec5ce74c159cdea
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8d63ab3dcde9c206f1c0ddd0185109a3298f5a4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a><span data-ttu-id="07c76-104">Rinkitės tarp „Modern POS“ ir „Cloud POS“</span><span class="sxs-lookup"><span data-stu-id="07c76-104">Choose between Modern POS and Cloud POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="07c76-105">Šioje temoje diegėjams pateikiama papildoma informacija, patarimai ir gairės apie veiksnius, į kuriuos jie turėtų atsižvelgti diegdami „Microsoft Dynamics 365 for Retail“.</span><span class="sxs-lookup"><span data-stu-id="07c76-105">This topic gives implementers additional background, tips, and guidance for factors that they should consider when they deploy Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="07c76-106">Peržiūrėję šias gaires ir vadovaudamiesi jomis kaip diegimo proceso dalimi, diegėjai gali išvengti problemų, kurios gali turėti įtakos vartotojų pasitenkinimui arba našumui.</span><span class="sxs-lookup"><span data-stu-id="07c76-106">By reviewing and following this guidance as part of the deployment process, implementers can avoid issues that might affect user satisfaction or performance.</span></span>
 
@@ -92,8 +92,8 @@ ms.lasthandoff: 02/07/2018
 
     <span data-ttu-id="07c76-178">Išskyrus atvejus, kai tam tikro įrenginio jungiamumas yra labai patikimas ir atsparus arba jei tam tikras prastovos kiekis pardavėjui priimtinas, rekomenduojame vieną iš toliau nurodytų parinkčių:</span><span class="sxs-lookup"><span data-stu-id="07c76-178">Unless the connectivity for a given device is very dependable and resilient, or unless a certain amount of downtime is acceptable to the retailer, we recommend one of the following options:</span></span>
 
-    - <span data-ttu-id="07c76-179">Naudokite MPOS sistemoje „Windows“ ir įgalinkite atjungties režimą.</span><span class="sxs-lookup"><span data-stu-id="07c76-179">Use MPOS in Windows, and enable offline mode.</span></span>
-    - <span data-ttu-id="07c76-180">Įdiekite vietinį RSSU.</span><span class="sxs-lookup"><span data-stu-id="07c76-180">Deploy an on-premises RSSU.</span></span>
+  - <span data-ttu-id="07c76-179">Naudokite MPOS sistemoje „Windows“ ir įgalinkite atjungties režimą.</span><span class="sxs-lookup"><span data-stu-id="07c76-179">Use MPOS in Windows, and enable offline mode.</span></span>
+  - <span data-ttu-id="07c76-180">Įdiekite vietinį RSSU.</span><span class="sxs-lookup"><span data-stu-id="07c76-180">Deploy an on-premises RSSU.</span></span>
 
     <span data-ttu-id="07c76-181">Šios dvi galimybės nėra nesuderinamos.</span><span class="sxs-lookup"><span data-stu-id="07c76-181">These two options aren't mutually exclusive.</span></span> <span data-ttu-id="07c76-182">Siekdami patikimiausios topologijos, mažmenininkai gali įdiegti vietinį RSSU, kad sumažintų priklausomybę nuo interneto ryšio arba „Azure“ prieinamumo. Jie taip pat gali įdiegti EKA kasos aparatus, kuriuose įgalintas atjungties režimas, jeigu kiltų vietinio serverio ar tinklo problema.</span><span class="sxs-lookup"><span data-stu-id="07c76-182">For the most reliable topology, retailers can deploy a local RSSU to reduce the dependency on internet connectivity or Azure availability, and they can also deploy POS registers where offline mode is enabled if there is an issue with the local server or network.</span></span>
 

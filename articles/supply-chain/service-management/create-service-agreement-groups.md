@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 91c672094f5b13bf70d490990ad1ffb1d42b98e7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87008b1d2f3c3e961e5818e5961471438e558cd0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-service-agreement-groups"></a><span data-ttu-id="7d9d9-103">Aptarnavimo sutarčių grupių kūrimas</span><span class="sxs-lookup"><span data-stu-id="7d9d9-103">Create service agreement groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7d9d9-104">Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti.</span><span class="sxs-lookup"><span data-stu-id="7d9d9-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
 

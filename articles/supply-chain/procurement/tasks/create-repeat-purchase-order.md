@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7f93d991730872c0d50a23d27236be5a057f75b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="b0cfb-103">Kurti pasikartojantį pirkimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="b0cfb-103">Create a repeat purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b0cfb-104">Šioje procedūroje parodoma, kaip kurti pasikartojantį pirkimo užsakymą (PU) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba į esamą PO.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-104">This procedure shows you how to create a repeat purchase order (PO) by copying lines from an earlier purchase order document to a new PO or to an existing PO.</span></span> <span data-ttu-id="b0cfb-105">Pasikartojančius užsakymus galima kurti dviem būdais.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-105">There are two methods for creating repeat orders.</span></span> <span data-ttu-id="b0cfb-106">Galite naudoti dokumentų lygio veiksmus veiksmų srityje arba galite naudoti eilutės informacijos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-106">You can use the actions available at the document level from the Action Pane, or you can use the line detail actions.</span></span> <span data-ttu-id="b0cfb-107">Dokumentų lygio veiksmai daugiausia naudojamas naujiems pirkimo užsakymams kurti, įtraukiant eilučių ir antraštės informaciją iš kito užsakymo, o eilutės informacijos veiksmas daugiausia naudojamas eilutėms į esamą užsakymą įtraukti.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-107">The document level actions are mainly intended for creating a new purchase order by adding lines and header information from another order, while the line details action is mainly for adding lines to an existing order.</span></span> <span data-ttu-id="b0cfb-108">Šiame vedlyje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-108">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="b0cfb-109">Šią užduotį paprastai atlieka pirkimo agentas.</span><span class="sxs-lookup"><span data-stu-id="b0cfb-109">This task would typically be carried out by a purchasing agent.</span></span>
 

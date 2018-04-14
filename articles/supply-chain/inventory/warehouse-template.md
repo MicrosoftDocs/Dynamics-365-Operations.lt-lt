@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d2177ddaff8ff6dcef106a008842149c381c00db
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a><span data-ttu-id="2c07e-103">Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną</span><span class="sxs-lookup"><span data-stu-id="2c07e-103">Set up a warehouse by using a warehouse configuration template</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2c07e-104">Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną.</span><span class="sxs-lookup"><span data-stu-id="2c07e-104">This topic explains how to set up a warehouse by using a warehouse configuration template.</span></span> <span data-ttu-id="2c07e-105">Galima naudoti kelis iš anksto nustatytus konfigūracijos šablonus.</span><span class="sxs-lookup"><span data-stu-id="2c07e-105">There are several predefined configuration templates that you can use.</span></span> <span data-ttu-id="2c07e-106">Informacijos apie tai, kaip naudoti šiuos šablonus, žr. [Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).</span><span class="sxs-lookup"><span data-stu-id="2c07e-106">For information about how to use these templates, see [Configuration data templates](../../dev-itpro/data-entities/configuration-data-templates.md).</span></span>
 

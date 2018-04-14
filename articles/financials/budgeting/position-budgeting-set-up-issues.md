@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36270b6e7f9c1b49d7191a077b9c43f952b92a80
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="position-budgeting-troubleshooting"></a><span data-ttu-id="7db12-104">Pareigų biudžeto trikčių šalinimas</span><span class="sxs-lookup"><span data-stu-id="7db12-104">Position budgeting troubleshooting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7db12-105">Šiame straipsnyje pateikiami atsakymai į klausimus, kurie gali kilti, kai konfigūruojate pareigų biudžetą.</span><span class="sxs-lookup"><span data-stu-id="7db12-105">This article provides answers to questions that you might have when you configure position budgeting.</span></span> <span data-ttu-id="7db12-106">Ji skirta dažnai užduodami klausimai apie tai, kaip sukurti biudžeto išlaidų elementus, kompensacijų grupes ir kompensavimo tinklelius.</span><span class="sxs-lookup"><span data-stu-id="7db12-106">It addresses frequently asked questions about how to create budget cost elements, compensation groups, and compensation grids.</span></span> 
 

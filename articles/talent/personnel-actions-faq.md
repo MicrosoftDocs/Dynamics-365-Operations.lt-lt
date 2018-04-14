@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="df313-104">Personalo veiksmai [DUK]</span><span class="sxs-lookup"><span data-stu-id="df313-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="df313-105">Šioje temoje pateikiami atsakymai į klausimus, kurie jums gali kilti, jei organizacijoje naudojami personalo veiksmai.</span><span class="sxs-lookup"><span data-stu-id="df313-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="df313-106">Personalo veiksmai yra papildomi veiksmai, kuriuos turite atlikti, kai atliekate tam tikras su personalu susijusias užduotis.</span><span class="sxs-lookup"><span data-stu-id="df313-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="df313-107">Užduočių, kurias atliekant gali reikėti personalo veiksmų, pavyzdžiai: naujų pareigų kūrimas, esamų pareigų reikšmių modifikavimas, naujų darbuotojų priėmimas, darbuotojų perkėlimas, darbuotojų kompensacijos keitimas, pareigų priskyrimų pakeitimas, darbuotojų atleidimas.</span><span class="sxs-lookup"><span data-stu-id="df313-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/08/2018
 <span data-ttu-id="df313-140">Jei personalo veiksmas nepavyksta, atlikite toliau nurodytus veiksmus, kad pašalintumėte klaidą, ir iš naujo pateikite užklausą.</span><span class="sxs-lookup"><span data-stu-id="df313-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="df313-141">**Veiksmų srityje** spustelėkite mygtuką **Klaidos tekstas**, kad peržiūrėtumėte pranešimo tekstą, kuriame aprašyta problema.</span><span class="sxs-lookup"><span data-stu-id="df313-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="df313-142">**Veiksmų srityje** spustelėkite **Aktyvinti iš naujo**, kad įkeltumėte naujausią informaciją ir pakartotinai nustatytumėte personalo veiksmo būseną kaip **Juodraštis**.</span><span class="sxs-lookup"><span data-stu-id="df313-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="df313-143">Pašalinkite klaidą, tada spustelėkite **Baigti** arba **Pateikti**.</span><span class="sxs-lookup"><span data-stu-id="df313-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="df313-144">Kas nutinka personalo veiksmui, kuris naudoja darbo eigą, kai baigiamas galutinis patvirtinimas?</span><span class="sxs-lookup"><span data-stu-id="df313-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

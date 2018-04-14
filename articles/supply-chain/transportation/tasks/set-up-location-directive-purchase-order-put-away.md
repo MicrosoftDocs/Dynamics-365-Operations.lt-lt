@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 115dfc163dce580244c2b2b6975e49ea3b69f1ef
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="c49f8-103">Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.</span><span class="sxs-lookup"><span data-stu-id="c49f8-103">Set up a location directive for purchase order put-away</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c49f8-104">Ši procedūra nurodo, kaip nustatyti paprastą vietos nurodymą.</span><span class="sxs-lookup"><span data-stu-id="c49f8-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="c49f8-105">Pateiktame pavyzdyje sukuriamas vietos nurodymas, kuris bus naudojamas norint nustatyti, kur padėti gautas pirkimo užsakymo prekes.</span><span class="sxs-lookup"><span data-stu-id="c49f8-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="c49f8-106">Šį užduoties vedlį galite paleisti su minėtais duomenimis naudodami demonstracinių duomenų įmonės USMF.</span><span class="sxs-lookup"><span data-stu-id="c49f8-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="c49f8-107">Išankstinės sąlygos: turite sukurti perdavimo kodą.</span><span class="sxs-lookup"><span data-stu-id="c49f8-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="c49f8-108">Atlikdami šią procedūrą mes naudojame perdavimo kodą, vadinamą Pakartotinis žymėjimas.</span><span class="sxs-lookup"><span data-stu-id="c49f8-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="c49f8-109">Jei kuriate savo duomenų vietos nurodymą, turite nustatyti patobulintą savo sandėlio ir prekių valdymą.</span><span class="sxs-lookup"><span data-stu-id="c49f8-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="c49f8-110">Ši procedūra skirta sandėlio vadovui.</span><span class="sxs-lookup"><span data-stu-id="c49f8-110">This procedure is intended for the warehouse manager.</span></span>
 

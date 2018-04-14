@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9da0adc848f334e5044c1629a403b6daac2dc639
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a><span data-ttu-id="cd659-103">Konfigūracijų kūrimas, leidžiantis analizuoti gaunamus dokumentus, ar nėra programos duomenų naujinimų (ER)</span><span class="sxs-lookup"><span data-stu-id="cd659-103">Design configurations to parse incoming documents for application data updates (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd659-104">Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą.</span><span class="sxs-lookup"><span data-stu-id="cd659-104">This procedure shows how to design Electronic reporting (ER) configurations to parse an incoming electronic document.</span></span> <span data-ttu-id="cd659-105">Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, ir jas panaudosite gaunamų elektroninių dokumentų analizei.</span><span class="sxs-lookup"><span data-stu-id="cd659-105">In this procedure, you will import the required ER configurations that have been created for the sample company, Litware, Inc. and use them for parsing incoming electronic documents.</span></span> <span data-ttu-id="cd659-106">Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“.</span><span class="sxs-lookup"><span data-stu-id="cd659-106">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span>
 

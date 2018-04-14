@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3806dafa6ca6ea8355db3d6a8c2432ad67cd69c2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="e3120-104">Išplėstinio banko derinimo importavimo proceso nustatymas</span><span class="sxs-lookup"><span data-stu-id="e3120-104">Set up the advanced bank reconciliation import process</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e3120-105">Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="e3120-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e3120-106">Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.</span><span class="sxs-lookup"><span data-stu-id="e3120-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="e3120-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="e3120-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="e3120-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="e3120-136">ISO20022StatementExample</span></span>             |
 | <span data-ttu-id="e3120-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="e3120-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="e3120-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="e3120-138">BAI2StatementExample</span></span>                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="e3120-139">ISO20022 banko išrašų importavimo nustatymas</span><span class="sxs-lookup"><span data-stu-id="e3120-139">Set up the import of ISO20022 bank statements</span></span>
 <span data-ttu-id="e3120-140">Pirmiausia turite nustatyti ISO20022 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.</span><span class="sxs-lookup"><span data-stu-id="e3120-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>

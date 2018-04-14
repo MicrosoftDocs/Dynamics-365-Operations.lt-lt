@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="39d56-104">Mokėjimo nuolaidos</span><span class="sxs-lookup"><span data-stu-id="39d56-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="39d56-105">Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.</span><span class="sxs-lookup"><span data-stu-id="39d56-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="39d56-106">Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu.</span><span class="sxs-lookup"><span data-stu-id="39d56-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="39d56-135">Kovo 1 d. = 80.</span><span class="sxs-lookup"><span data-stu-id="39d56-135">March 1 = 80</span></span>
 
 <span data-ttu-id="39d56-136">1000 USD SF su 20D2% mokėjimo nuolaidos sąlygomis užregistruojama vasario 15 d.</span><span class="sxs-lookup"><span data-stu-id="39d56-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="39d56-137">SF apskaitos valiutos suma yra 1100 EUR.</span><span class="sxs-lookup"><span data-stu-id="39d56-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="39d56-138">980 USD mokėjimas su SF sudengiamas kovo 1 d.</span><span class="sxs-lookup"><span data-stu-id="39d56-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="39d56-139">Mokėjimo nuolaidos suma yra 20 USD.</span><span class="sxs-lookup"><span data-stu-id="39d56-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="39d56-140">Mokėjimo apskaitos valiutos suma yra 784 EUR.</span><span class="sxs-lookup"><span data-stu-id="39d56-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="39d56-141">Mokėjimo nuolaidos apskaitos valiutos suma apskaičiuojama naudojant kovo 1 d. valiutos kursą: 20 \* 80 / 100 = 16 EUR.</span><span class="sxs-lookup"><span data-stu-id="39d56-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="39d56-142">**Pastaba**</span><span class="sxs-lookup"><span data-stu-id="39d56-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="39d56-143">Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas.</span><span class="sxs-lookup"><span data-stu-id="39d56-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

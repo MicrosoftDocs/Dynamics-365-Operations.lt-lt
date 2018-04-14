@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 055ff18b16fa2680c73564b7a7ef0c087c55e701
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-and-maintain-retail-channels"></a><span data-ttu-id="3118b-104">Apibrėžti ir prižiūrėti mažmeninės prekybos kanalus</span><span class="sxs-lookup"><span data-stu-id="3118b-104">Define and maintain retail channels</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3118b-105">Šioje temoje pateikiama tradicinių parduotuvių, kurios „Microsoft Dynamics 365 for Retail“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga.</span><span class="sxs-lookup"><span data-stu-id="3118b-105">This topic provides an overview of the process for setting up brick-and-mortar stores, which are referred to as retail stores in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="3118b-106">Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo.</span><span class="sxs-lookup"><span data-stu-id="3118b-106">It includes information about the tasks that you must complete both before and after you set up a retail store.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 15d4fce4e07030826a7c131ae323a4067471b38e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="01cee-103">Nustatyti sužeidimų ir ligų informaciją</span><span class="sxs-lookup"><span data-stu-id="01cee-103">Set up injury and illness information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="01cee-104">Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga dėl pavojingų darbo vietos sąlygų.</span><span class="sxs-lookup"><span data-stu-id="01cee-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="01cee-105">Norėdami pranešti apie susižalojimą arba susirgimus darbo vietoje, šiame susižalojimo ir ligų puslapyje galite nustatyti informaciją.</span><span class="sxs-lookup"><span data-stu-id="01cee-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="01cee-106">Galite nustatyti susižalojimo ir ligų tipus, įskaitant gydymą, išlaidas ir pasekmes.</span><span class="sxs-lookup"><span data-stu-id="01cee-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="01cee-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="01cee-107">The demo data company used to create this procedure is USMF.</span></span>
 

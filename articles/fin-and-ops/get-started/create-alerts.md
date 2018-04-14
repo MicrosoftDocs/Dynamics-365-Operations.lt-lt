@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 5bcd02e08a4ce5b601615b39bf95362cf92d3fec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93e8f97dbd3f60be72793c04eb729623321016f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="e1f1c-103">Įspėjimų kūrimas</span><span class="sxs-lookup"><span data-stu-id="e1f1c-103">Create alerts</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="e1f1c-104">Darbo pradžia</span><span class="sxs-lookup"><span data-stu-id="e1f1c-104">Getting started</span></span>
 <span data-ttu-id="e1f1c-105">Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais norite gauti įspėjimus.</span><span class="sxs-lookup"><span data-stu-id="e1f1c-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="e1f1c-106">Kai žinote, apie kokį įvykį norite būti įspėti, programoje „Microsoft Dynamics 365 for Finance and Operations“ raskite puslapį, kuriame pateikiami duomenys, esantys to įvykio priežastimi.</span><span class="sxs-lookup"><span data-stu-id="e1f1c-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="e1f1c-107">Įvykis gali būti tam tikra atėjusi diena arba atliktas konkretus pakeitimas.</span><span class="sxs-lookup"><span data-stu-id="e1f1c-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="e1f1c-108">Todėl turite rasti puslapį, kuriame nurodyta data arba vietą, kurioje rodomas pasikeitęs laukas arba sukurtas naujas įrašas.</span><span class="sxs-lookup"><span data-stu-id="e1f1c-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="e1f1c-109">Turėdami šią informaciją, galite kurti įspėjimo taisyklę.</span><span class="sxs-lookup"><span data-stu-id="e1f1c-109">After you have this information, you can create the alert rule.</span></span>

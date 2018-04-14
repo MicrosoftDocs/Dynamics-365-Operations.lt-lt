@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 57f11ab8616914c489e0f8a8424355c79b210978
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-production-flow-models"></a><span data-ttu-id="e7f6d-103">Nustatyti gamybos eigos modelius</span><span class="sxs-lookup"><span data-stu-id="e7f6d-103">Define production flow models</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e7f6d-104">Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangiosios gamybos darbo elementų pajėgumas.</span><span class="sxs-lookup"><span data-stu-id="e7f6d-104">Production flow models describe how the capacity of lean manufacturing work cells is calculated and maintained.</span></span> <span data-ttu-id="e7f6d-105">Todėl gamybos eigos modelio apibrėžimas yra būtinas darbo elementų apibrėžimo komponentas.</span><span class="sxs-lookup"><span data-stu-id="e7f6d-105">Therefore the definition of a production flow model is a prerequisite of the definition of work cells.</span></span> <span data-ttu-id="e7f6d-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="e7f6d-106">The demo data company used to create this procedure is USMF.</span></span>
 

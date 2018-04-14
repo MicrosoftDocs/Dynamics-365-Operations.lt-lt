@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 0f7592c580a21040c8b630885939ceaab3855c2c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7cd2e56dab48ad8f2380dcaa72e3317250b5b2f0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-reports-and-multiple-approvers"></a><span data-ttu-id="cbd52-103">Išlaidų ataskaitos ir keli tvirtintojai</span><span class="sxs-lookup"><span data-stu-id="cbd52-103">Expense reports and multiple approvers</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cbd52-104">Vartotojo pateiktą išlaidų ataskaitą gali reikėti patvirtini daugiau nei vienam asmeniui – tai priklauso nuo jūsų organizacijos išlaidų patvirtinimo strategijų.</span><span class="sxs-lookup"><span data-stu-id="cbd52-104">Depending on your organization's expense approval policies, more than one person might have to approve an expense report that is submitted by an employee.</span></span> <span data-ttu-id="cbd52-105">Nustatydami išlaidų ataskaitų tvirtinimo darbo eigos procesą, galite įtraukti darbo eigos elementų, įskaitant užduotis ar veiksmus, skirtus vienam ar keliems išlaidų ataskaitų tvirtintojams.</span><span class="sxs-lookup"><span data-stu-id="cbd52-105">When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers.</span></span> <span data-ttu-id="cbd52-106">Pavyzdžiui, galite reikalauti, kad visas išlaidų ataskaitas pirmiausia patvirtintų ataskaitą pateikusio darbuotojo vadovas, o tada – modulio Mokėtinos sumos koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="cbd52-106">For example, you might require that all expense reports be approved first by the manager of the employee who submitted the report and then by the Accounts payable coordinator.</span></span>
 

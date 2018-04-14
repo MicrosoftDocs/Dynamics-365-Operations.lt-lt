@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b05ae2f18d5930ba7be344d6feaa52eca4e58bf6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 532438c5f78a9e8227a2e26dd8c2ca528cc2661d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vat-statement-details-for-lithuania"></a><span data-ttu-id="1f3d7-103">PVM išrašo informacija, skirta Lietuvai</span><span class="sxs-lookup"><span data-stu-id="1f3d7-103">VAT statement details for Lithuania</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1f3d7-104">Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.</span><span class="sxs-lookup"><span data-stu-id="1f3d7-104">This topic explains how to set up a VAT statement for legal entities in Lithuania.</span></span>
 

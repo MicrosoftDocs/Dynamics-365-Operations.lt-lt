@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="e8ac2-103">Sukurto formato komponentų susiejimas su duomenų modelio elementais elektroninėse ataskaitose (ER)</span><span class="sxs-lookup"><span data-stu-id="e8ac2-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e8ac2-104">Tolesnėje procedūroje parodoma, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali susieti duomenų modelio elementus su sukurtos elektroninių ataskaitų (ER) konfigūracijos, nustatančios verslo mokėjimų srities elektroninio dokumento formatą, komponentais.</span><span class="sxs-lookup"><span data-stu-id="e8ac2-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="e8ac2-105">Šį formatą bus galima naudoti vėliau norint generuoti elektroninius mokėjimų apdorojimo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="e8ac2-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="e8ac2-106">Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc.“ formato konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="e8ac2-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="e8ac2-107">Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijos bendrinamos visoms įmonėms.</span><span class="sxs-lookup"><span data-stu-id="e8ac2-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="e8ac2-108">Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „Kurti formato konfigūraciją“ veiksmus.</span><span class="sxs-lookup"><span data-stu-id="e8ac2-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

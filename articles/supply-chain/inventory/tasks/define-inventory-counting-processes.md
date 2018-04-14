@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f3610b52fd690b698d50a608c41adfb918930266
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 13df47f7b04f5fc4b6c9a28b0c05a2b1bd0fe6a8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="9fa3d-103">Apibrėžti atsargų skaičiavimo procesus</span><span class="sxs-lookup"><span data-stu-id="9fa3d-103">Define inventory counting processes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9fa3d-104">Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="9fa3d-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="9fa3d-105">Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu.</span><span class="sxs-lookup"><span data-stu-id="9fa3d-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="9fa3d-106">Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas.</span><span class="sxs-lookup"><span data-stu-id="9fa3d-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="9fa3d-107">Būtina turėti keletą esamų išleistų produktų ir sandėlių.</span><span class="sxs-lookup"><span data-stu-id="9fa3d-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="9fa3d-108">Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.</span><span class="sxs-lookup"><span data-stu-id="9fa3d-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 

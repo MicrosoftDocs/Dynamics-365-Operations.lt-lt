@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39d7e30bee92202c3091dfc9aab293ab86490e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 01906117acedfab6af5371ad0dda46f5b42f0f5f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vat-register-transactions-for-eastern-europe"></a><span data-ttu-id="320a9-103">PVM registro operacijos (Rytų Europa)</span><span class="sxs-lookup"><span data-stu-id="320a9-103">VAT register transactions for Eastern Europe</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="320a9-104">Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai.</span><span class="sxs-lookup"><span data-stu-id="320a9-104">This topic provides information about VAT register transactions for Estonia, Lithuania, Czech Republic, Hungary, Latvia, and Poland.</span></span> 
 

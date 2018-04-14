@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="d0423-103">Produkto patvirtinimas klasteriui paimti</span><span class="sxs-lookup"><span data-stu-id="d0423-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="d0423-104">Pasirinkdami klasterius vienu metu galite pasirinkti keliems užsakymams skirtas prekes.</span><span class="sxs-lookup"><span data-stu-id="d0423-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="d0423-105">Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų galima patikrinti į klasterius įtraukiamas prekes.</span><span class="sxs-lookup"><span data-stu-id="d0423-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="d0423-106">Galite patikrinti prekes atlikdami klasterių pasirinkimą, vykstant klasterio parinkimo procesui.</span><span class="sxs-lookup"><span data-stu-id="d0423-106">You can verify items in cluster picking during the cluster picking process.</span></span>
@@ -37,7 +37,8 @@ ms.lasthandoff: 02/13/2018
 1.  <span data-ttu-id="d0423-111">Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** > **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai**.</span><span class="sxs-lookup"><span data-stu-id="d0423-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
 2.  <span data-ttu-id="d0423-112">Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**.</span><span class="sxs-lookup"><span data-stu-id="d0423-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| <span data-ttu-id="d0423-113">Parinktis</span><span class="sxs-lookup"><span data-stu-id="d0423-113">Option</span></span>        | <span data-ttu-id="d0423-114">aprašymas</span><span class="sxs-lookup"><span data-stu-id="d0423-114">Description</span></span>   | 
-| ------------- | ------------- |
-|<span data-ttu-id="d0423-115">Produkto patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="d0423-115">Product confirmation</span></span> | <span data-ttu-id="d0423-116">Mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.</span><span class="sxs-lookup"><span data-stu-id="d0423-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
+|        <span data-ttu-id="d0423-113">Parinktis</span><span class="sxs-lookup"><span data-stu-id="d0423-113">Option</span></span>        |                                    <span data-ttu-id="d0423-114">aprašymas</span><span class="sxs-lookup"><span data-stu-id="d0423-114">Description</span></span>                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| <span data-ttu-id="d0423-115">Produkto patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="d0423-115">Product confirmation</span></span> | <span data-ttu-id="d0423-116">Mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.</span><span class="sxs-lookup"><span data-stu-id="d0423-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+
 

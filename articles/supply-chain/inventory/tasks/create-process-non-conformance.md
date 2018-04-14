@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3293e918c6c1e2b1a71d6ff24761a26b83a0616b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="b6e74-103">Kurti ir apdoroti atitiktis</span><span class="sxs-lookup"><span data-stu-id="b6e74-103">Create and process a conformance</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b6e74-104">Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą.</span><span class="sxs-lookup"><span data-stu-id="b6e74-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="b6e74-105">Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes.</span><span class="sxs-lookup"><span data-stu-id="b6e74-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="b6e74-106">Paprastai šią procedūrą atlieka kokybės klerkas.</span><span class="sxs-lookup"><span data-stu-id="b6e74-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="b6e74-107">Kaip būtinąjį komponentą paleiskite užduoties įrašą „Tikrinti prekių kokybę“.</span><span class="sxs-lookup"><span data-stu-id="b6e74-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="b6e74-108">Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“.</span><span class="sxs-lookup"><span data-stu-id="b6e74-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="b6e74-109">Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.</span><span class="sxs-lookup"><span data-stu-id="b6e74-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

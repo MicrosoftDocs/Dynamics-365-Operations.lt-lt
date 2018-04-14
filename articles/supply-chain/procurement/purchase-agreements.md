@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: f71727bc69ee2dc33a8e311d0e90f3df847d41a3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8fb72864be4dd3199e5be8384655b5fcb0fc6e2b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-agreements"></a><span data-ttu-id="92c0f-105">Pirkimo sutartys</span><span class="sxs-lookup"><span data-stu-id="92c0f-105">Purchase agreements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="92c0f-106">Šiame straipsnyje pateikta informacija apie pirkimo sutartis.</span><span class="sxs-lookup"><span data-stu-id="92c0f-106">This article provides information about purchase agreements.</span></span> <span data-ttu-id="92c0f-107">Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą.</span><span class="sxs-lookup"><span data-stu-id="92c0f-107">A purchase agreement is a contract that commits an organization to buy a specified quantity or amount by using multiple purchase orders over time.</span></span> <span data-ttu-id="92c0f-108">Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas.</span><span class="sxs-lookup"><span data-stu-id="92c0f-108">In exchange for this commitment, the buyer receives special prices and discounts.</span></span> 
 

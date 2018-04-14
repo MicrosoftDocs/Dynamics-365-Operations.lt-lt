@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="f1eae-103">Produkto ciklo būsena</span><span class="sxs-lookup"><span data-stu-id="f1eae-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1eae-104">Produkto ciklo būsena nurodo išleisto produkto arba produkto varianto ciklo būseną.</span><span class="sxs-lookup"><span data-stu-id="f1eae-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="f1eae-105">Produkto ciklo būsenas apibrėžia vartotojas, paprastai – produktų vadovas arba produktų bendrųjų duomenų vadovas.</span><span class="sxs-lookup"><span data-stu-id="f1eae-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="f1eae-106">Konkrečius verslo procesus, pvz., bendrąjį planavimą, gali paveikti konkreti ciklo būsena.</span><span class="sxs-lookup"><span data-stu-id="f1eae-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="f1eae-107">Išleistą produktą arba produkto variantą galima susieti su produkto ciklo būsena, kuri nurodo, kokia yra esama konkretaus produkto arba varianto būsena.</span><span class="sxs-lookup"><span data-stu-id="f1eae-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="f1eae-108">Galite nurodyti bet kokį produkto ciklo būsenų skaičių, priskirdami būsenos pavadinimą ir aprašą.</span><span class="sxs-lookup"><span data-stu-id="f1eae-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="f1eae-109">Galite pasirinkti vieną ciklo būseną kaip numatytąją naujų išleistų produktų būseną.</span><span class="sxs-lookup"><span data-stu-id="f1eae-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="f1eae-110">Išleisto produkto variantai perima produkto ciklo būseną iš atitinkamo išleisto bendrojo produkto, kai jie sukuriami.</span><span class="sxs-lookup"><span data-stu-id="f1eae-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="f1eae-111">Keičiant išleisto bendrojo produkto ciklo būseną galima atnaujinti visus esamus variantus, kurių pradinė būsena tokia pati.</span><span class="sxs-lookup"><span data-stu-id="f1eae-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="f1eae-112">Naujos produkto ciklo būsenos kūrimas</span><span class="sxs-lookup"><span data-stu-id="f1eae-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="f1eae-113">Norėdami kurti naują produkto ciklo būseną, paleiskite arba perskaitykite užduočių vedlį **Naujos produkto ciklo būsenos kūrimas**.</span><span class="sxs-lookup"><span data-stu-id="f1eae-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="f1eae-114">Norėdami kurti numatytąją produkto ciklo būseną, paleiskite arba perskaitykite užduočių vedlį **Numatytosios produkto ciklo būsenos kūrimas**.</span><span class="sxs-lookup"><span data-stu-id="f1eae-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="f1eae-134">Siekiant padidinti efektyvumą, labai rekomenduojame susieti visus pasenusius išleistus produktus arba produkto variantus, ypač dirbant su vienkartinio produkto konfigūracijos variantais, su produkto ciklo būsena, kuri bendrajame planavime yra išjungta.</span><span class="sxs-lookup"><span data-stu-id="f1eae-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="f1eae-135">Numatytasis perėjimas, importavimas ir eksportavimas</span><span class="sxs-lookup"><span data-stu-id="f1eae-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="f1eae-136">Produkto ciklo būsenų nepalaiko duomenų objektai ir ciklo būsenos negalima nustatyti į kintamąją būseną naudojant išleisto produkto duomenų objektus.</span><span class="sxs-lookup"><span data-stu-id="f1eae-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="f1eae-137">Vykdant perėjimą iš ankstesnių leidimų, visų produktų ir produkto variantų ciklo būsena bus nenurodyta.</span><span class="sxs-lookup"><span data-stu-id="f1eae-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="f1eae-138">Kai importuojami išleisti produktai naudojant duomenų objektą, kuriant bus taikoma numatytoji ciklo būsena.</span><span class="sxs-lookup"><span data-stu-id="f1eae-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="f1eae-139">Kai importuojami išleisti produkto variantai naudojant duomenų objektą, bus importuojama išleisto bendrojo produkto ciklo būsena.</span><span class="sxs-lookup"><span data-stu-id="f1eae-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="f1eae-140">Pasenusių produktų ir produktų variantų radimas</span><span class="sxs-lookup"><span data-stu-id="f1eae-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="f1eae-141">Galite vykdyti modeliavimo analizę, norėdami rasti pasenusius išleistus produktus arba produkto variantus ir tada atnaujinti jų produkto ciklo būseną.</span><span class="sxs-lookup"><span data-stu-id="f1eae-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="f1eae-142">Norėdami rasti pasenusius produktus, paleiskite arba perskaitykite užduočių vedlį **Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas**.</span><span class="sxs-lookup"><span data-stu-id="f1eae-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="f1eae-143">Šiame užduočių vedlyje parodoma, kaip rasti pasenusius išleistus produktus arba produkto variantus ir kaip susieti produkto ciklo būseną su pasenusiais produktais.</span><span class="sxs-lookup"><span data-stu-id="f1eae-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="f1eae-144">Jame taip pat parodoma, kaip peržiūrėti modeliavimo rezultatus ir įvertinti, kiek produktų ir produkto variantų bus susieti su nauja produkto ciklo būsena vykdant naujinimą be modeliavimo.</span><span class="sxs-lookup"><span data-stu-id="f1eae-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="f1eae-145">Vykdydami analizę modeliavimo režimu, produktai ir produkto variantai, identifikuoti kaip pasenę, rodomi konkrečioje formoje, kurioje juos galima lengvai peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="f1eae-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="f1eae-146">Atliekant analizę ieškoma operacijų ir konkrečių bendrųjų duomenų, kad būtų identifikuoti produktai, kurių poreikio nėra per kintantį laikotarpį ir iš poreikio negalima generuoti jokių bendrųjų duomenų.</span><span class="sxs-lookup"><span data-stu-id="f1eae-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="f1eae-147">Naujų išleistų produktų per kintantį laikotarpį galima neįtraukti į analizę.</span><span class="sxs-lookup"><span data-stu-id="f1eae-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="f1eae-148">Kai analizės modeliavimas pateikia numatytąjį rezultatą, vartotojas gali vykdyti analizę ir nustatyti visų produktų, kurie analizėje nurodyti kaip pasenę, naują produkto ciklo būseną.</span><span class="sxs-lookup"><span data-stu-id="f1eae-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="f1eae-149">Atminkite, kad visą analizę ir naujinimą reikia atlikti tame pačiame juridiniame subjekte.</span><span class="sxs-lookup"><span data-stu-id="f1eae-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="f1eae-150">Išleistų produktų arba produkto variantų pasirinkimo ir naujinimo kriterijai</span><span class="sxs-lookup"><span data-stu-id="f1eae-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="f1eae-151">Naudokite toliau nurodytus išleistų produktų arba produkto variantų pasirinkimo ir naujinimo kriterijus.</span><span class="sxs-lookup"><span data-stu-id="f1eae-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="f1eae-152">Produkto arba produkto varianto produkto ciklo būsena turi skirtis nuo naujos norimos būsenos.</span><span class="sxs-lookup"><span data-stu-id="f1eae-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

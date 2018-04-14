@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="b3fce-103">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="b3fce-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b3fce-104">Vienetų paėmimas suteikia galimybę patvirtinti kiekvieną atsargų vienetą naudojant paėmimo ir skaičiavimo darbą mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="b3fce-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="b3fce-105">Paėmimų atveju galite patvirtinti darbo kiekį, kuris bus atliktas neviršijant kiekio, nurodyto paimtinam darbui.</span><span class="sxs-lookup"><span data-stu-id="b3fce-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="b3fce-106">Skaičiavimo darbo atveju galite nuskaityti atsargas, kurias skaičiuojate, ir sekti bendrą sumą.</span><span class="sxs-lookup"><span data-stu-id="b3fce-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="b3fce-122">Kai darbo tipas yra paėmimas arba skaičiavimas, galima pasirinkti šias parinktis.</span><span class="sxs-lookup"><span data-stu-id="b3fce-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="b3fce-123">Parinktis</span><span class="sxs-lookup"><span data-stu-id="b3fce-123">Option</span></span>        | <span data-ttu-id="b3fce-124">aprašymas</span><span class="sxs-lookup"><span data-stu-id="b3fce-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="b3fce-125">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="b3fce-125">Piece picking confirmation</span></span>   | <span data-ttu-id="b3fce-126">Pasiekiama paėmimo ir skaičiavimo darbo tipų atveju.</span><span class="sxs-lookup"><span data-stu-id="b3fce-126">Available for pick and counting work types.</span></span> <span data-ttu-id="b3fce-127">Automatiškai pasirenkamas produkto patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="b3fce-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="b3fce-128">Suteikia galimybę mobiliuoju įrenginiu patvirtinti kiekvieną atsargų vienetą.</span><span class="sxs-lookup"><span data-stu-id="b3fce-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="b3fce-129">Maksimalus vienetų skaičius</span><span class="sxs-lookup"><span data-stu-id="b3fce-129">Maximum number of pieces</span></span>     | <span data-ttu-id="b3fce-130">Pasiekiama paėmimo darbo atveju, jei įgalintas vienetų paėmimo patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="b3fce-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="b3fce-131">Nustato vienetų, kuriuos turite patvirtinti, skaičiaus apribojimus.</span><span class="sxs-lookup"><span data-stu-id="b3fce-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="b3fce-123">Parinktis</span><span class="sxs-lookup"><span data-stu-id="b3fce-123">Option</span></span>           |                                                                            <span data-ttu-id="b3fce-124">aprašymas</span><span class="sxs-lookup"><span data-stu-id="b3fce-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="b3fce-125">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="b3fce-125">Piece picking confirmation</span></span> | <span data-ttu-id="b3fce-126">Pasiekiama paėmimo ir skaičiavimo darbo tipų atveju.</span><span class="sxs-lookup"><span data-stu-id="b3fce-126">Available for pick and counting work types.</span></span> <span data-ttu-id="b3fce-127">Automatiškai pasirenkamas produkto patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="b3fce-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="b3fce-128">Suteikia galimybę mobiliuoju įrenginiu patvirtinti kiekvieną atsargų vienetą.</span><span class="sxs-lookup"><span data-stu-id="b3fce-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="b3fce-129">Maksimalus vienetų skaičius</span><span class="sxs-lookup"><span data-stu-id="b3fce-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="b3fce-130">Pasiekiama paėmimo darbo atveju, jei įgalintas vienetų paėmimo patvirtinimas.</span><span class="sxs-lookup"><span data-stu-id="b3fce-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="b3fce-131">Nustato vienetų, kuriuos turite patvirtinti, skaičiaus apribojimus.</span><span class="sxs-lookup"><span data-stu-id="b3fce-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 
