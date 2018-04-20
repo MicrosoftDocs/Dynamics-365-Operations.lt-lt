@@ -33,7 +33,7 @@ Programoje „Microsoft Dynamics 365 for Talent“ lengva modifikuoti vartotojo 
 > [!NOTE] 
 > Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
-### <a name="personalizing-talent"></a>„Talent“ personalizavimas 
+## <a name="personalizing-talent"></a>„Talent“ personalizavimas 
 Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Talent“ funkcijų, padedančių atlikti jūsų užduotis laiku. 
 
 -   [Vartotojo patirties personalizavimas](../fin-and-ops/get-started/personalize-user-experience.md) – šioje temoje aiškinami skirtingi būdai, kuriais naudodamiesi galite personalizuoti programą „Talent“ ir produkto dalis dar geriau pritaikyti savo nuostatoms.
@@ -44,7 +44,7 @@ Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Tal
 
 -   [Spartieji klavišai](../fin-and-ops/get-started/shortcut-keys.md) – šioje temoje išvardijami spartieji klavišai, skirti amerikietiškam klaviatūros išdėstymui. 
 
-### <a name="accessing-information"></a>Prieigos informacija
+## <a name="accessing-information"></a>Prieigos informacija
 Šioje temoje aiškinama, kaip norint greitai rasti informaciją naudoti peržvalgas, ieškos ir filtravimo funkcijas. 
 
 -   [Peržvalgų naudojimas informacijai surasti](../fin-and-ops/get-started/use-lookups-to-find-information.md) – šioje temoje rodoma, kaip peržvalgos gali padėti greitai rasti teisingą arba norimą vertę. Šioje temoje aprašoma, kaip veikia peržvalgos, ir pateikiami patarimai, padėsiantys optimizuoti naudojimąsi peržvalgomis.
