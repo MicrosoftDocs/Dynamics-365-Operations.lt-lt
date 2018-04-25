@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57fc1c21394d91f6a8bd4726c9d948c8ae2cf4d0
+ms.sourcegitcommit: 8af424d1a1ce41316008649472c2b8748806c6d6
+ms.openlocfilehash: 0a76417e01b67b493b320973c14e059850ab772e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -52,16 +52,12 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="80222-116">Skyriuje **Sąrašų lentelės** sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai.</span><span class="sxs-lookup"><span data-stu-id="80222-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="80222-117">Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti.</span><span class="sxs-lookup"><span data-stu-id="80222-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="80222-118">Paskutinė sąrašų lentelė naudojama SF surasti.</span><span class="sxs-lookup"><span data-stu-id="80222-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="80222-119">Ieškodami galite išfiltruoti ir greičiau surasti.</span><span class="sxs-lookup"><span data-stu-id="80222-119">You can filter as you search, to allow for faster searches.</span></span>
 
-<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="80222-120">Visų tiekėjo SF sąrašo puslapis</span><span class="sxs-lookup"><span data-stu-id="80222-120">All vendor invoices list page</span></span>
------------------------------
+### <a name="all-vendor-invoices-list-page"></a><span data-ttu-id="80222-120">Visų tiekėjo SF sąrašo puslapis</span><span class="sxs-lookup"><span data-stu-id="80222-120">All vendor invoices list page</span></span>
 
 <span data-ttu-id="80222-121">Sąrašo puslapyje **Tiekėjo bendradarbiavimo SF** galite peržiūrėti visas užregistruotas ir neužregistruotas tiekėjo sąskaitas faktūras.</span><span class="sxs-lookup"><span data-stu-id="80222-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="80222-122">Naudodami šį sąrašo puslapį galite peržiūrėti sąskaitų faktūrų mokėjimo būseną.</span><span class="sxs-lookup"><span data-stu-id="80222-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="80222-123">Apmokėjimo būsenos yra šios: neužregistruota, neapmokėta, apmokėta iš dalies, visiškai apmokėta.</span><span class="sxs-lookup"><span data-stu-id="80222-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
 <span data-ttu-id="80222-124">Naujos tiekėjo SF kūrimas naudojant pirkimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="80222-124">Creating a new invoice from a purchase order</span></span>
---------------------------------------------
 
 <span data-ttu-id="80222-125">Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities **Tiekėjo bendradarbiavimo SF išrašymas** veiksmą **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="80222-125">You can create a new vendor invoice by selecting the **New** action on the **Vendor collaboration invoicing** workspace.</span></span> <span data-ttu-id="80222-126">Pirkimo užsakymo numerį ir sąskaitos faktūros numerį privalo pateikti tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="80222-126">The purchase order number and invoice number must be provided by the vendor.</span></span> <span data-ttu-id="80222-127">Pagal numatytąjį nustatymą visos tiekėjo pirkimo užsakymo eilutės rodomos naujoje SF.</span><span class="sxs-lookup"><span data-stu-id="80222-127">By default, all of the lines from the vendor's purchase order will appear on the new invoice.</span></span> <span data-ttu-id="80222-128">Kiekio ir kainos informaciją galima redaguoti prieš pateikiant tiekėjo SF darbo eigai.</span><span class="sxs-lookup"><span data-stu-id="80222-128">The quantity and cost information can be edited prior to submitting the vendor invoice to workflow.</span></span> <span data-ttu-id="80222-129">Prieš pateikdami SF prie jos galite pridėti failų, pastabų, vaizdų ir URL.</span><span class="sxs-lookup"><span data-stu-id="80222-129">You can attach files, notes, images, and URLs to an invoice before submitting it.</span></span>
-
-
 
 <span data-ttu-id="80222-130">Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimas su išoriniais tiekėjais](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span><span class="sxs-lookup"><span data-stu-id="80222-130">For more information, see [Vendor collaboration with external vendors](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span></span>
 
