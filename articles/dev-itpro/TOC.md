@@ -115,6 +115,7 @@
 ### Kas nauja
 #### [Išplečiamumo pakeitimai (2017 m. liepos mėn.)](extensibility/changes-july-2017.md)
 #### [Išplečiamumo pakeitimai (versija 7.3)](extensibility/extensibility-changes-73.md)
+#### [Išplečiamumo pakeitimai (versija 8.0)](extensibility/changes-80.md)
 ### Pagrindai
 #### [Nepageidaujami tinkinimai](extensibility/intrusive-customizations.md)
 #### [Klasių plėtiniai](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Duomenų integravimas naudojant „Common Data Service“](data-entities/data-integration-cds.md) 
 #### [Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Sinchronizuoti „Finance and Operations“ produktus su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Sinchronizuoti „Sales“ sąskaitas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Sinchronizuoti Pardavimo kontaktus su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Sinchronizuoti „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Sinchronizuoti „Finance and Operations“ pardavimo užsakymo antraštes ir eilutes su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [„Finance and Operations“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Integravimo su „Field Service“ konfigūravimas](../supply-chain/sales-marketing/field-service.md)
+##### [„Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais](../supply-chain/sales-marketing/field-service-product.md)
+##### [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [„Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Išorinių žiniatinklio tarnybų naudojimas](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Konfigūracijos duomenų šablonai](data-entities/configuration-data-templates.md)
 ### [Duomenų šablonai su keliais darbalapiais](data-entities/excel-template-multiple.md)
 ### [Objekto keitimų sekimas](data-entities/entity-change-track.md)
+
 ### [Informacijos apie standartinius duomenų objektus ieška](data-entities/data-entities-report.md)
+
 
 ## [Duomenų importavimo ir eksportavimo užduotys](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Savo duomenų bazės naudojimas](analytics/export-entities-to-your-own-database.md)
 
+
+## [Duomenų užduočių automatizavimas](data-entities/data-task-automation.md)
+
 ## [Atsakymo į BDAR duomenų užklausą ištekliai](gdpr/gdpr-home-page.md)
 ### [BDAR vadovas, skirtas „Microsoft Dynamics 365 for Finance and Operations“](gdpr/gdpr-auditing-sensitive-data.md)
+### [Turto klasifikavimas](gdpr/gdpr-asset-classification-values.md)
 ### [Asmenų ieškos ataskaitos naudojimas](gdpr/gdpr-person-search-report.md)
 ### [Asmenų ieškos ataskaitos išplėtimas](gdpr/gdpr-extend-person-search-report.md)
 ### [Prieigos prie slaptų duomenų valdymas](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Atsakymas į užklausą dėl asmeninių duomenų naudojant „Talent“](gdpr/respond-dsr-request-talent.md)
 ### [Atsakymas į užklausą dėl asmeninių duomenų naudojant „Microsoft Dynamics AX 2012“](gdpr/gdpr-ax2012.md)
+
 
 # [Pagrindinis modulio Nuolatinis pristatymas puslapis](dev-tools/continuous-delivery-home-page.md)
 ## [DUK apie kūrimą ir nuolatinį pristatymą](dev-tools/continuous-delivery-faq.md)
@@ -497,8 +506,8 @@
 ### [Aparatūros dydžio nustatymas](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Vietinio projekto kūrimas](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Vietinių aplinkų konfigūravimas ir visuotinis diegimas](deployment/setup-deploy-on-premises-environments.md)
-#### [Visuotinis „Platform update 12“ diegimas vietinėje aplinkoje](deployment/setup-deploy-on-premises-pu12.md)
-#### [Visuotinis „Platform updates“ 8 ir 11 versijų diegimas vietinėje aplinkoje](deployment/setup-deploy-on-premises-pu8-pu11.md)
+#### [Visuotinis „Platform Update 12“ diegimas vietinėje aplinkoje](deployment/setup-deploy-on-premises-pu12.md)
+#### [Visuotinis „Platform Update 8“ ir „Platform Update 11” versijų diegimas vietinėje aplinkoje](deployment/setup-deploy-on-premises-pu8-pu11.md)
 
 ### [Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Atvirkštinio tarpinio serverio konfigūravimas savo vietinei aplinkai](deployment/onprem-reverseproxy.md)
@@ -529,8 +538,9 @@
 ### [AX 2012 versijos naujinimas – rengimasis paleidimui](migration-upgrade/upgrade-go-live-prep.md)
 ### [AX 2012 versijos naujinimas – paleidimas](migration-upgrade/2012-upgrade-cutover.md)
 
-### Keitimai, turintys įtakos AX 2012 versijos naujinimui
-#### [Vieno kvito ir valiutos kurso pasikeitimo plėtojimas ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+### Pakeitimai, turintys įtakos AX 2012 versijos naujinimui
+#### [Sąskaitų plano skyriklis turi būti unikalus](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Vieno kvito ir valiutos kurso pasikeitimo plėtojimas](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Projekto išteklių planavimo duomenų modelis](migration-upgrade/data-model-changes-resource-management.md)
 #### [Darbo eigos posistemės pokyčiai](migration-upgrade/workflow-subsystem.md)
 #### [Kodėl nuo kubų perėjome prie agreguotų modelių](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -546,7 +556,7 @@
 ## Plėtojimas į naujausią naujinimą (debesis)
 ### [Perėjimo į naujausią naujinimą procesas](migration-upgrade/upgrade-latest-update.md)
 ### [Naudojimo ciklo strategija](migration-upgrade/versions-update-policy.md)
-### [Naujausio aplinkos platformos naujinimo taikymas](migration-upgrade/upgrade-latest-platform-update.md)
+### [Naujausios „Platform Update” versijos taikymas jūsų aplinkoje](migration-upgrade/upgrade-latest-platform-update.md)
 ### [„Dynamics‟ platformos plėtojimas į 2016 m. rugpjūčio mėn. versiją](migration-upgrade/update-platform-each-release.md)
 ### [Smėlio dėžės aplinkos plėtojimas](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Duomenų plėtojimas programavimo arba demonstracinėse aplinkose](migration-upgrade/upgrade-data-to-latest-update.md)
@@ -568,7 +578,8 @@
 ### [Nebenaudojamos funkcijos](migration-upgrade/deprecated-features.md)
 
 # [Sistemos administravimas](sysadmin/system-administration-home-page.md)
-## [DUK apie mėnesinius platformos naujinimus](sysadmin/faq-platform-monthly-updates.md)
+## [DUK apie mėnesinius „Platform“ naujinimus](sysadmin/faq-platform-monthly-updates.md)
+## [Virtualiosios mašinos, neleidžiančios administratoriui pasiekti DUK](sysadmin/VMs-no-admin-access.md)
 ## [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](sysadmin/legal-terms-privacy-statement.md)
 ## [Licencijų kodų ir konfigūracijos raktų ataskaita](sysadmin/license-codes-configuration-keys-report.md)
 ## [Duomenų bendrinimas tarp įmonių](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [Užduočių atlikimas BPM bibliotekoje](lifecycle-services/complete-tasks-bpm.md)
 ## [Veiklos diagramų naudojimas](lifecycle-services/using-activity-diagrams.md)
 ## [BPM bibliotekos sinchronizavimas su „Visual Studio Team Services‟ (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Priėmimo bandymų komplekto kūrimas naudojant užduočių vedlius ir BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Verslo procesų modeliavimo įrankio struktūrinės diagramos](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Pasirinktinių verslo procesų nusiuntimas](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Stebėjimas ir diagnostika ](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Išteklių biblioteka](lifecycle-services/asset-library.md)
 ## [„Microsoft Dynamics 365“ – vertimo tarnybos apžvalga](lifecycle-services/translation-service-overview.md)
 ### [„Microsoft Dynamics 365“ – vertimo tarnybos vartotojo vadovas](lifecycle-services/use-translation-service.md)
+### [„Microsoft Dynamics 365“ vertimo tarnyba – dokumentacijos failų vertimas](lifecycle-services/use-translation-service-ua.md)
+### [„Microsoft Dynamics 365“ vertimo tarnyba – vertimo atmintis](lifecycle-services/use-translation-service-tm.md)
 
 ## „Dynamics AX 2012 Lifecycle Services“ funkcijos
 ### Visuotinis diegimas
