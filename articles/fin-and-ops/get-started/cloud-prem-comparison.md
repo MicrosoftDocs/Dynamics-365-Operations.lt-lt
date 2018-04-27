@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Debesies ir vietinės versijų funkcijų palyginimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje parodyta, ar kiekvieną funkciją galima naudoti tolesniuose produktuose.
 
@@ -51,7 +51,7 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 | | Konfigūracijomis paremtas plėtinys| Taip | Nr. |
 | | Duomenų eksportavimas į savo duomenų sandėlį| Taip | Taip |
 | | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas | Taip | Nr. |
-| | Pasikartojančios integracijos                 |Taip | Nr.|
+| | Duomenų integravimai                 |Taip | Taip|
 | Dokumentų tvarkymas| | Taip| Taip |
 | Finansų valdymas|  | Taip | Taip |
 | Žinynas| | Taip | Nr. |

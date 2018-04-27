@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą.  
 
@@ -83,6 +82,7 @@ Projektų prognozavimą galite naudoti, jei jūsų organizacija turi veiklos per
 Naudodami „Microsoft Finance and Operations“ galite sukurti šešių tipų projektus. Nustatoma, kad naudojant kiekvieną projekto tipą išlaidų ir įplaukų pripažinimas būtų skirtingas. Pasirenkamas projekto tipas priklauso nuo projekto paskirties. Toliau pateikiamoje lentelėje apžvelgiamas įprastas kiekvieno projekto tipo naudojimas.
 
                                                                                                                                                                          |
+
 | Projekto tipas      | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Laikas ir medžiagos | Naudojant laiko ir medžiagų projektus klientui išrašoma sąskaita už visas projekte patirtas išlaidas. Išlaidos apima valandų, išlaidų, prekių ir mokesčių išlaidas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Su projektu susijusį gamybos užsakymą su pardavimo užsakymu ar prekės porei
 
 Atsižvelgdami į šių veiksnių derinius naudokite vieną iš tolesnių metodų.
 
--   **Baigta prekė / ryšys su užsakymu** – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Kai naudojate šį būdą, faktinės projekto išlaidos užregistruojamos išrašant pardavimo užsakymo SF arba kai važtaraštis atnaujinamas atsižvelgiant į prekės poreikį. Savikaina užregistruojama kaip baigta prekė.
--   **Baigta prekė / ryšys su užsakymu** – faktinių išlaidų negalima registruoti tol, kol prekės gamybos ciklo būsena nebus **Baigta**. Baigtos prekės savikaina užregistruojama kaip viena operacija.
--   **Sunaudota prekė / ryšys su užsakymu** – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Naudodami šį metodą galite peržiūrėti faktines projekto išlaidas, kai gamybos būsena yra **Pradėta** arba ji paskelbiama baigta. Išlaidos registruojamos kaip keletas projekto prekės gamybai suvartotų žaliavų ir laiko operacijų. Kai važtaraštis atnaujinamas atsižvelgiant į prekės poreikį, neužregistruojamos jokios projekto išlaidos. Taip pat reikia apibrėžti komplektavimo specifikacijos (KS) lygį, kuriuo sekami gamybos projektai.
--   ****Sunaudota prekė / nėra ryšio su užsakymu**** – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Naudodami šį metodą galite peržiūrėti faktines projekto išlaidas, kai gamybos būsena yra **Pradėta** arba ji paskelbiama baigta. Išlaidos registruojamos kaip keletas projekto prekės gamybai suvartotų žaliavų ir laiko operacijų. Taip pat reikia apibrėžti KS lygį, kuriuo sekami gamybos projektai.
+- **Baigta prekė / ryšys su užsakymu** – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Kai naudojate šį būdą, faktinės projekto išlaidos užregistruojamos išrašant pardavimo užsakymo SF arba kai važtaraštis atnaujinamas atsižvelgiant į prekės poreikį. Savikaina užregistruojama kaip baigta prekė.
+- **Baigta prekė / ryšys su užsakymu** – faktinių išlaidų negalima registruoti tol, kol prekės gamybos ciklo būsena nebus **Baigta**. Baigtos prekės savikaina užregistruojama kaip viena operacija.
+- **Sunaudota prekė / ryšys su užsakymu** – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Naudodami šį metodą galite peržiūrėti faktines projekto išlaidas, kai gamybos būsena yra **Pradėta** arba ji paskelbiama baigta. Išlaidos registruojamos kaip keletas projekto prekės gamybai suvartotų žaliavų ir laiko operacijų. Kai važtaraštis atnaujinamas atsižvelgiant į prekės poreikį, neužregistruojamos jokios projekto išlaidos. Taip pat reikia apibrėžti komplektavimo specifikacijos (KS) lygį, kuriuo sekami gamybos projektai.
+- *<strong><em>Sunaudota prekė / nėra ryšio su užsakymu</em></strong>* – susieti projektą su pardavimo užsakymu arba su prekės poreikiu. Naudodami šį metodą galite peržiūrėti faktines projekto išlaidas, kai gamybos būsena yra <strong>Pradėta</strong> arba ji paskelbiama baigta. Išlaidos registruojamos kaip keletas projekto prekės gamybai suvartotų žaliavų ir laiko operacijų. Taip pat reikia apibrėžti KS lygį, kuriuo sekami gamybos projektai.
 
 ### <a name="procure-products-and-services"></a>Įsigyti produktų ir paslaugų
 
@@ -239,9 +239,8 @@ Toliau pateikiamoje lentelėje aprašomi projekto baigimo savikainos apskaičiav
 <li>Prognozės operacijas palyginkite su faktinėmis operacijomis.</li>
 <li>Prižiūrėkite, mažinkite arba didinkite kito laikotarpio įvertinimus.</li>
 </ol>
-„Finance and Operations‟ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. 
-> [!NOTE] Pasirinkę šį metodą, naudokite bent du prognozės modelius. Viename modelyje turėtų būti pradinė prognozė. Į kitą modelį turėtumėte nukopijuoti prognozės operacijas iš kito modelio. Šis metodas galioja tik Fiksuotos kainos ir Investicijų projektams.</td>
-> </tr>
+„Finance and Operations“ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. &gt; [!NOTE] &gt; Pasirinkę šį metodą, naudokite bent du prognozės modelius. Viename modelyje turėtų būti pradinė prognozė. Į kitą modelį turėtumėte nukopijuoti prognozės operacijas iš kito modelio. Šis metodas galioja tik Fiksuotos kainos ir Investicijų projektams.</td>
+</tr>
 <tr class="odd">
 <td>Biudžeto likutis</td>
 <td>Šis metodas naudoja likusio biudžeto modelį, kuriuo apskaičiuoja projekto baigimo savikainą. Naudojant šį metodą, faktinės išlaidos ir prognozuojamos sumos likusio biudžeto modelyje sudedamos. Rezultatas yra bendroji savikaina. Prieš naudojant šį metodą, reikia nustatyti likusio biudžeto modelį, kad operacijos būtų atskaitomos pagal faktines operacijas, kurios įrašomos sistemoje. Įsitikinkite, kad <strong>Prognozės modelių</strong> puslapyje pažymėti grupės <strong>Automatinis prognozės mažinimas</strong> laukai. Paprastai likęs biudžetas nukopijuojamas iš pradinio biudžeto. Įvedant operacijas, sumažinamos operacijos likusiame biudžete. Jei, vykstant projektui, nustatote, kad reikia koreguotį likusį biudžetą, prognozės operacijas apmokestinate į likusį biudžetą. <strong>Pastaba.</strong> Šis metodas gali būti taikomas tik jei prie įvertinimo pridėtas prognozės modelis.</td>

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations‟. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
 
@@ -116,7 +116,7 @@ PU, kuris buvo išsiųstas tiekėjui ir kurio būsena <strong>Peržiūrima išor
 <li>Pakeisti prekę.</li>
 </ul>
 Tiekėjas negali keisti kainų informacijos ir išlaidų. Tačiau tiekėjas gali pasiūlyti šiuos pakeitimus naudodamas pažymas.</td>
-<td>Tiekėjo atsakymas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, o PU būsena lieka <strong>Peržiūrima išorėje</strong>. Būsenos rodo, kokių tipų pakeitimus tiekėjas pasiūlė. Informacijos apie automatinį pakeitimų naudojimą rasite tolesniame šios temos skyriuje „PU naujinimas, kai tiekėjas pasiūlo pakeitimų“. </td>
+<td>Tiekėjo atsakymas įrašomas kaip <strong>Priimtas su pakeitimais</strong>, o PU būsena lieka <strong>Peržiūrima išorėje</strong>. Būsenos rodo, kokių tipų pakeitimus tiekėjas pasiūlė. Informacijos apie automatinį pakeitimų naudojimą rasite tolesniame šios temos skyriuje &quot;PU naujinimas, kai tiekėjas pasiūlo pakeitimų&quot;. </td>
 </tr>
 </tbody>
 </table>

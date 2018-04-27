@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Gamybos parametrai modulyje Gamybos vykdymas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie gamybos parametrų sąranką modulyje Gamybos vykdymas.
 
@@ -69,17 +69,17 @@ Kiekviename etape lauke **Automatinis KS sunaudojimas** galite pasirinkti vieną
 
 - **Sunaudojimo principas** – ši parinktis naudojama kartu su KS parinktimi, apibrėžta modulyje **Gamyba**. Spustelėkite **Gamybos kontrolė** &gt; **Bendra** &gt; **Gamybos užsakymai** &gt; **Visi gamybos užsakymai**. Puslapyje **Visi gamybos užsakymai** esančiame sąraše pasirinkite gamybos užsakymą ir veiksmų srityje spustelėkite **KS**. Puslapio **KS** skirtuko **Sąranka** lauke **Sunaudojimo principas** pasirinkite vieną iš tolesnių parinkčių.
 
-    - **Pradžia**
-    - **Pabaiga**
-    - **Rankinis**
-    - Tuščia (parinktis nepasirinkta)
-    - **Yra vietoje**
+  - **Pradžia**
+  - **Pabaiga**
+  - **Rankinis**
+  - Tuščia (parinktis nepasirinkta)
+  - **Yra vietoje**
 
     Jei modulio Gamybos vykdymas skirtuko **Pradžia** lauke **Automatinis KS sunaudojimas** pasirinkta **Sunaudojimo principas**, visos medžiagos, komplektavimo specifikacijoje nustatytos kaip **Pradžia**, iš atsargų atimamos pradėjus operaciją. Parinktis **Yra vietoje** naudojama su produktais, kuriems galima taikyti išplėstinius sandėlio procesus. Jei pasirenkate šį sunaudojimo principą, medžiaga sunaudojama baigus sandėlio žaliavų paėmimo darbą. Medžiaga taip pat sunaudojama, kai šį sunaudojimo principą naudojanti KS eilutė pateikiama sandėliui ir medžiaga yra gamybos įvesties vietoje.
-    
+
     > [!NOTE]
     > Jei modulio Gamybos vykdymas skirtuke **Pradžia** nustatytas laukas **Sunaudojimo principas**, tą patį principą turite pasirinkti skirtuke **Operacijos** arba skirtuke **Skelbti kaip baigtą**. Šis reikalavimas padeda užtikrinti, kad medžiagos iš atsargų atimamos tose KS, kurių gamybos užsakyme kaip sunaudojimo principas naudojamas **Pabaiga**. Jei skirtuke **Operacijos** arba skirtuke **Skelbti kaip baigtą** tas pats sunaudojimo principas nepasirenkamas, medžiagos iš atsargų gali būti atimamos du kartus.
- 
+
 - **Visada** – jei pasirenkate šią etapo parinktį, medžiagos iš atsargų visada atimamos tame etape. Pavyzdžiui, gamybos medžiagos atimamos pradėjus gamybos užsakymą. Kad šis parametras veiktų, skirtukuose **Operacijos** ir **Skelbti kaip baigtą** reikia pasirinkti **Niekada**. Šis reikalavimas padeda užtikrinti, kad prekės iš atsargų nebūtų atimtos du kartus.
 - **Niekada** – jei pasirenkate šią etapo parinktį, tame etape KS nenaudojama. Pavyzdžiui, jei visuose trijuose skirtukuose (**Pradžia**, **Operacijos** ir **Skelbti kaip baigtą**) pasirenkate **Niekada**, medžiagas iš atsargų reikia atimti rankiniu būdu.
 
@@ -146,11 +146,13 @@ Atsižvelgiant į anksčiau šiame skyriuje aprašytas pasirinktis, išrinkimo d
 
 Tolesnius parametrus galite naudoti, jei medžiagas iš atsargų visada reikia atimti rankiniu būdu. Šiuo atveju išrinkimo dokumentų žurnalai neregistruojami.
 
-| Skirtukas                | Laukas                          | Parametras    |
-|--------------------|--------------------------------|------------|
-| Pradžios              | Atnaujinti pradžia tinkle           | **Būsena** |
-| Pradžios              | Automatinis KS suvartojimas      | **Niekada**  |
-| „Operations‟         | Automatinis KS suvartojimas      | **Niekada**  |
-| Skelbti baigtu | Automatinis KS suvartojimas      | **Niekada**  |
-| Skelbti baigtu | Atnaujinti pabaigtą ataskaitą tinkle | **Būsena** |
+
+|        Skirtukas         |             Laukas              |         Parametras         |
+|--------------------|--------------------------------|-------------------------|
+|       Pradžios        |      Atnaujinti pradžia tinkle      | <strong>Būsena</strong> |
+|       Pradžios        |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
+|     „Operations‟     |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
+| Skelbti baigtu |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
+| Skelbti baigtu | Atnaujinti pabaigtą ataskaitą tinkle | <strong>Būsena</strong> |
+
 

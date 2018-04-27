@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Norint sprendime „Microsoft Dynamics 365 for Finance and Operations“ kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 
@@ -64,13 +64,15 @@ Rekomenduojame atidžiai pasirinkti tinkamą importavimo arba eksportavimo uždu
 Į importavimo arba eksportavimo užduotį galite įtraukti konkrečių objektų arba pasirinkti taikytiną šabloną. Naudojant šablonus užduotis užpildoma objektų sąrašu. Užduočiai suteikus pavadinimą ir ją įrašius, galima pasirinkti parinktį **Taikyti šabloną**.
 
 ### <a name="set-the-data-format-for-the-job"></a>Užduoties duomenų formato nustatymas
-Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba importuojami, formatą. Formatai apibrėžiami naudojant plytelę **Duomenų šaltinių nustatymas**. Daugelis organizacijų iš pradžių naudoja formatus, pagal numatytuosius parametrus įtrauktus į demonstracinių duomenų rinkinį. Toliau pateikiamas kelių tokių formatų sąrašas.
+Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba importuojami, formatą. Formatai apibrėžiami naudojant plytelę **Duomenų šaltinių nustatymas**. Šaltinio duomenų formatas – tai **tipo**, **failo formato**, **eilutės skyriklio** ir **stulpelio skyriklio** kombinacija. Taip pat yra ir kitų atributų, bet apie šiuos žinoti yra būtina. Šioje lentelėje išvardijamos leistinos kombinacijos.
 
-- AX (skirta duomenims, kurie turi būti importuojami arba eksportuojami tokiu pačiu formatu, kuris naudojamas sprendime „Microsoft Dynamics 365 for Finance and Operations“)
-- ColonSeparated
-- CSV
-- Excel
-- Paketas
+| **Failo formatas**        | **Eilutės / stulpelio skyriklis**                   | **XML stilius**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-NA–                     |
+| XML                    | \-NA–                                      | XML elementas XML atributas |
+| Atskirtas, fiksuotas plotis | Kablelis, kabliataškis, skirtukas, vertikali juosta, dvitaškis | \-NA–                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
 Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai.

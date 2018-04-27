@@ -3,11 +3,12 @@ title: "Išlaidų valdymo „Power BI“ turinys"
 description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Išlaidų valdymo „Power BI“ turinys
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Peržiūra
+
+**Išlaidų valdymo** „Microsoft Power BI“ turinys yra skirtas atsargų apskaitininkams arba organizacijoje dirbantiems asmenims, kurie yra atsakingi už atsargų būsenos arba nebaigtos gamybos (NG) statusą ar tiems, kurie šiuo statusu domisi, arba yra atsakingi už standartinės savikainos analizavimą ar tuo domisi.
 
 > [!Note]
-> Šis turinio paketas nebenaudojamas, kaip nurodyta dalyje [Svetainėje PowerBI.com publikuojami „Power BI“ turinio paketai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> **Išlaidų valdymo** „Power BI“ turinys, aprašytas šioje temoje, taikomas „Dynamics 365 for Finance and Operations“ 8.0.
+> 
+> **Išlaidų valdymo** „Power BI“ turinio paketas, kuris buvo publikuojamas PowerBI.com svetainėje, yra nebenaudojamas. Daugiau informacijos apie nebenaudojimo priežastis žr. temoje [„Power BI“ turinio paketai, publikuoti PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį. 
+Šiame „Power BI“ turinyje pateikiamas kategorizuotas formatas, padedantis stebėti atsargų našumą ir vizualizuoti, kaip vyksta atsargų našumo savikaina. Galite gauti valdymo įžvalgų, pvz., apie apyvartos koeficientą, dienų skaičių, kai atsargų yra turima, tikslumą bei „ABC klasifikaciją“ jūsų pageidaujamu agreguotu lygiu (įmonė, prekė, prekių grupė ar svetainė). Pasiekiamą informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 
-**Kaštų apskaitos analizės** „Microsoft Power BI“ turinys skirtas išlaidų buhalteriams arba asmenims organizacijoje, kurie yra atsakingi už atsargas. **Išlaidų valdymo** „Power BI“turinys suteikia vadovams įžvalgų apie atsargas ir nebaigtos gamybos (NG) atsargas bei tai, kaip jose veikia išlaidų srautas. Informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
+„Power BI“ turinys yra sukuriamas remiantis **CostObjectStatementCacheMonthly** agreguoto matavimo vienetu, kurio lentelė **CostObjectStatementCache** yra naudojama kaip pirminis duomenų šaltinis. Šią lentelę valdo duomenų rinkinio talpyklos sistema. Pagal numatytuosius parametrus lentelė atnaujinama kas 24 valandas, bet jūs atnaujinimo dažnumą pakeisti arba įgalinti galite duomenų rinkinio talpyklos konfigūracijoje. Neautomatinius atnaujinimus galima paleisti darbo srityje **Išlaidų administravimas** arba **Išlaidų analizė**.
 
-## <a name="key-measures"></a>Pagrindiniai matai
+Kiekvieną kartą atnaujinus **CostObjectStatementCache** lentelę, prieš atnaujinant „Power BI“ vizualizacijų duomenis reikia atnaujinti **CostObjectStatementCacheMonthly** agreguoto matavimo vienetą.
 
-+ Pradinis balansas
-+ Pabaigos likutis
-+ Grynasis pokytis
-+ Grynasis pokytis %
-+ Skirstymas pagal terminus
+## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
-## <a name="key-performance-indicators"></a>Pagrindiniai efektyvumo indikatoriai
-+ Atsargų apyvarta
-+ Atsargų tikslumas
+**Išlaidų valdymo** „Power BI“ turinys rodomas darbo srityse **Išlaidų administravimas** ir **Išlaidų analizė**.
 
-CostAggregatedCostStatementEntryEntity pirminis duomenų šaltinis yra lentelė CostStatementCache. Šią lentelę valdo duomenų rinkinio talpyklos sistema. Pagal numatytuosius parametrus lentelė atnaujinama kas 24 valandas, bet jūs galite įjungti duomenų talpyklos konfigūracijos neautomatinius naujinimus. Tada galite atlikti neautomatinį naujinimą darbo srityje **Išlaidų valdymas** arba **Išlaidų analizė**. Paleidus CostStatementCache naujinį, turite atnaujinti „OData“ ryšį Power BI.com, kad svetainėje matytumėte atnaujintus duomenis. Nuokrypio (pirkimo, gamybos) matai šiame „Power BI“turinyje yra susiję tik su prekėmis, kurios vertinamos pagal standartinių išlaidų atsargų metodą. Gamybos nuokrypis apskaičiuojamas kaip skirtumas tarp aktyvios kainos ir realizuotos kainos. Gamybos nuokrypis apskaičiuojamas, kai gamybos užsakymo būsena būna **Baigtas**. Daugiau informacijos apie gamybos nuokrypių tipus ir tai, kaip kiekvienas tipas skaičiuojamas, žr. temoje [Apie baigto gamybos užsakymo nuokrypių analizę](https://technet.microsoft.com/en-us/library/gg242850.aspx)
+Darbo srityje **Išlaidų administravimas** pateikiami toliau nurodyti skirtukai.
+
+- **Apžvalga** – šiame skirtuke pateikiami programos duomenys.
+- **Atsargų apskaitos būsena** – šiame skirtuke rodomas „Power BI“ turinys.
+- **Gamybos apskaitos būsena** – šiame skirtuke rodomas „Power BI“ turinys.
+
+Darbo srityje **Išlaidų analizė** pateikiami toliau nurodyti skirtukai.
+
+- **Apžvalga** – šiame skirtuke pateikiami programos duomenys.
+- **Atsargų apskaitos analizė** – šiame skirtuke rodomas „Power BI“ turinys.
+- **Gamybos apskaitos analizė** – šiame skirtuke rodomas „Power BI“ turinys.
+- **Standartinio išlaidų nuokrypio analizė** – šiame skirtuke rodomas „Power BI“ turinys.
+
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtraukti ataskaitos puslapiai
+
+„Power BI‟ turinyje **Kaštų valdymas** pateikiamas ataskaitos puslapių, sudarytų iš metrikų rinkinio, rinkinys. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės 
+
+Toliau pateiktose lentelėse pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.
+
+### <a name="inventory-accounting-status"></a>Atsargų apskaitos būsena
+
+| Ataskaitų puslapis                               | Vizualizacija                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Atsargų peržiūra                        | Pradinis balansas                               |
+|                                           | Grynasis pokytis                                      |
+|                                           | Grynasis pokytis %                                    |
+|                                           | Pabaigos likutis                                  |
+|                                           | Atsargų tikslumas                              |
+|                                           | Atsargų apyvartos koeficientas                        |
+|                                           | Turimų atsargų dienos                          |
+|                                           | Laikotarpio aktyvus produktas                        |
+|                                           | Laikotarpio aktyvūs išlaidų objektai                   |
+|                                           | Balansas pagal prekių grupę                           |
+|                                           | Balansas pagal teritoriją                                 |
+|                                           | Išrašas pagal kategoriją                           |
+|                                           | Grynasis pokytis pagal ketvirtį                           |
+| Atsargų apžvalga pagal teritoriją ir prekių grupę | Atsargų tikslumas pagal teritoriją                      |
+|                                           | Atsargų apyvartos koeficientas pagal teritoriją                |
+|                                           | Atsargų pabaigos balansas pagal teritoriją                |
+|                                           | Atsargų tikslumas pagal prekių grupę                |
+|                                           | Atsargų apyvartos koeficientas pagal prekių grupę          |
+|                                           | Atsargų pabaigos balansas pagal teritoriją ir prekių grupę |
+| Inventorizacijos aprašas                       | Inventorizacijos aprašas                             |
+| Atsargų išrašas pagal teritoriją               | Atsargų išrašas pagal teritoriją                     |
+| Atsargų išrašas pagal produktų hierarchiją  | Inventorizacijos aprašas                             |
+| Atsargų išrašas pagal produktų hierarchiją  | Atsargų išrašas pagal teritoriją                     |
+
+### <a name="manufacturing-accounting-status"></a>Gamybos apskaitos būsena
+
+| Ataskaitų puslapis                | Vizualizacija                       |
+|----------------------------|-------------------------------------|
+| NG apžvalga nuo metų pradžios           | Pradinis balansas                   |
+|                            | Grynasis pokytis                          |
+|                            | Grynasis pokytis %                        |
+|                            | Pabaigos likutis                      |
+|                            | NG apyvartos koeficientas                  |
+|                            | Turimų NG dienos                    |
+|                            | Laikotarpio aktyvus išlaidų objektas        |
+|                            | Grynasis pokytis pagal išteklių grupę        |
+|                            | Balansas pagal teritoriją                     |
+|                            | Išrašas pagal kategoriją               |
+|                            | Grynasis pokytis pagal ketvirtį               |
+| nebaigtos gamybos išrašas              | Pradinis balansas                   |
+|                            | Pabaigos likutis                      |
+|                            | NG išrašas pagal kategoriją           |
+| NG išrašas pagal teritoriją      | Pradinis balansas                   |
+|                            | Pabaigos likutis                      |
+|                            | NG išrašas pagal kategoriją ir teritoriją  |
+| NG išrašas pagal hierarchiją | Pradinis balansas                   |
+|                            | Pabaigos likutis                      |
+|                            | NG išrašas pagal kategorijų ir hierarchiją |
+
+### <a name="inventory-accounting-analysis"></a>Atsargų apskaitos analizė
+
+| Ataskaitų puslapis        | Vizualizacija                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Atsargų informacija  | 10 geriausių išteklių pagal galutinį balansą                                           |
+|                    | 10 geriausių išteklių pagal grynąjį pokyčio padidėjimą                                      |
+|                    | 10 geriausių išteklių pagal grynąjį pokyčio sumažėjimą                                      |
+|                    | 10 geriausių išteklių pagal atsargų apyvartos koeficientą                                 |
+|                    | Ištekliai pagal mažą atsargų apyvartos koeficientą ir pabaigos balansą, viršijantį ribą |
+|                    | 10 geriausių išteklių mažą tikslumą                                             |
+| ABC klasifikacija | Atsargų pabaigos balansas                                                     |
+|                    | Suvartota medžiaga                                                            |
+|                    | Parduota (PPK)                                                                  |
+| Atsargų tendencijos   | Atsargų pabaigos balansas                                                     |
+|                    | Atsargų grynasis pokytis                                                         |
+|                    | Atsargų apyvartos koeficientas                                                     |
+|                    | Atsargų tikslumas                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Gamybos apskaitos analizė
+
+| Ataskaitų puslapis | Vizualizacija      |
+|-------------|--------------------|
+| NG tendencijos  | NG pabaigos likutis |
+|             | NG grynasis pokytis     |
+|             | NG apyvartos koeficientas |
+
+### <a name="std-cost-variance-analysis"></a>Standartinio išlaidų nuokrypio analizė
+
+| Ataskaitų puslapis                             | Vizualizacija                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Pirkimo kainos pokytis (standartinės išlaidos) nuo metų pradžios | Įsigijimų balansas                                     |
+|                                         | Pirkimo kainų nuokrypis                              |
+|                                         | Pirkimo kainų nuokrypio koeficientas                        |
+|                                         | Nuokrypis pagal prekių grupę                               |
+|                                         | Nuokrypis pagal teritoriją                                     |
+|                                         | Pirkimo kaina pagal ketvirtį                            |
+|                                         | Pirkimo kaina pagal ketvirtį ir prekių grupę             |
+|                                         | 10 geriausių išteklių pagal nepageidaujamą pirkimo kainos koeficientą |
+|                                         | 10 geriausių išteklių pagal pageidaujamą pirkimo kainos koeficientą   |
+| Gamybos nuokrypis (standartinės išlaidos) nuo metų pradžios     | Pagaminto kiekio savikaina                                    |
+|                                         | Gamybos nuokrypis                                  |
+|                                         | Gamybos nuokrypio koeficientas                            |
+|                                         | Nuokrypis pagal prekių grupę                               |
+|                                         | Nuokrypis pagal teritoriją                                     |
+|                                         | Gamybos nuokrypis pagal ketvirtį                       |
+|                                         | Gamybos nuokrypis pagal ketvirtį ir nuokrypio tipą     |
+|                                         | 10 geriausių išteklių pagal nepageidaujamą gamybos nuokrypį  |
+|                                         | 10 geriausių išteklių pagal pageidaujamą gamybos nuokrypį    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
+
+„Microsoft Dynamics 365 for Finance and Operations“ duomenys naudojami ataskaitos puslapiams **išlaidų valdymo** „Power BI“ turinyje užpildyti. Šie duomenys pateikiami kaip agreguoto matavimo vienetai, paskirstyti objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+
+Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI‟ turinio pagrindas.
+
+| Objektas                          | Pagrindiniai agreguoti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Suma                     | CostObjectStatementCache               | Suma              |
+| CostObjectStatementCacheMonthly | Kiekis                   | CostObjectStatementCache               | Kiekis                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+Toliau pateikiamoje lentelėje nurodyti pagrindiniai apskaičiuoti „Power BI“ turinio matavimo vienetai.
+
+| Mato vnt.                            | Skaičiavimas |
+|------------------------------------|-------------|
+| Pradinis balansas                  | Pradžios balansas = [pabaigos balansas] – [grynasis pokytis] |
+| Pradžios balanso kiekis             | Pradžios balanso kiekis = [pabaigos balanso kiekis] – [grynojo pokyčio kiekis] |
+| Pabaigos likutis                     | Galutinis balansas = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Pabaigos balanso kiekis                | Galutinio balansas kiekis = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Grynasis pokytis                         | Grynasis pokytis = SUM([AMOUNT]) |
+| Grynojo pokyčio kiekis                    | Grynojo pokyčio kiekis = SUM([QTY]) |
+| Atsargų apyvartos koeficientas pagal sumą | Atsargų apyvartos koeficientas pagal sumą = if(OR([vidutinis atsargų balansas] \<= 0, [parduotų arba sunaudotų atsargų problemos] \>= 0), 0, ABS([parduotų arba sunaudotų atsargų problemos])/[vidutinis atsargų balansas]) |
+| Vidutinis atsargų balansas          | Vidutinis atsargų balansas = (([galutinis balansas] + [pradžios balansas]) / 2) |
+| Turimų atsargų dienos             | Turimų atsargų dienos = 365 / CostObjectStatementEntries[atsargų apyvartos koeficientas pagal sumą] |
+| Atsargų tikslumas                 | Atsargų tikslumas pagal sumą = IF([pabaigos balansas] \<= 0, IF(OR([apskaičiuota atsargų suma] \<\> 0, [pabaigos balansas] \< 0), 0, 1), MAX(0, ([pabaigos balansas] – ABS([apskaičiuota atsargų suma]))/[pabaigos])) |
+
+Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnį detalumą ir gauti gilesnių analitinių įžvalgų.
 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
-Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.
-
-| Ataskaitų puslapis | Diagramos | Pareigos |
-|---|---|---|
-|Bendros atsargos (numatyta pagal dabartinį laikotarpį) |Tikslumas |Atsargų matai:<br>Atsargų pabaigos balansas<br>Atsargų grynasis pokytis<br>Atsargų grynasis pokytis %<br>|
-| |Atsargų apyvarta | |
-| |Atsargų pabaigos balansas pagal išteklių grupę | |
-| |Atsargų grynasis pokytis pagal 1 lygio kategorijos pavadinimą ir 2 lygio kategorijos pavadinimą| |
-| |Pirkimo nuokrypiai pagal išteklių grupę ir 3 lygio kategorijos pavadinimą | |
-|Atsargos pagal teritoriją (numatyta pagal dabartinį laikotarpį) |Atsargų pabaigos balansas pagal teritorijos pavadinimą ir išteklių grupę | |
-| |Atsargų apyvarta pagal teritorijos pavadinimą ir išteklių grupę | |
-| |Atsargų pabaigos balansas pagal miestą ir išteklių grupę | |
-|Atsargos pagal išteklių grupę (numatyta pagal dabartinį laikotarpį) |Atsargų matai | |
-| |Atsargų tikslumas pagal sumą pagal išteklių grupę | |
-| |Atsargų apyvarta pagal sumą pagal išteklių grupę | |
-|Atsargų YOY (numatyta dabartiniai metai ir ankstesni metai) |Atsargų matai | |
-| |Atsargų KPI<br>Atsargų apyvarta<br>Atsargų tikslumas | |
-| |Atsargų pabaigos balansas pagal metus ir išteklių grupę | |
-| |Pirkimo nuokrypiai pagal metus ir 3 lygio kategorijos pavadinimą | |
-|Atsargų skirstymas pagal terminus (numatyta pagal dabartinius metus) |Atsargų skirstymas pagal terminus pagal ketvirtį ir išteklių grupę | |
-| |Atsargų skirstymas pagal terminus pagal ketvirtį ir teritorijos pavadinimą | |
-|Bendra NG (numatyta pagal dabartinį laikotarpį) |NG grynasis pokytis pagal 1 lygio kategorijos pavadinimą ir 2 lygio kategorijos pavadinimą |Nebaigtos gamybos NG matai<br>NG pabaigos likutis<br>NG grynasis pokytis<br>NG grynasis pokytis %<br> |
-| |Gamybos nuokrypiai pagal išteklių grupę ir lygio kategorijos pavadinimą | |
-| |NG grynasis pokytis pagal išteklių grupę | |
-|NG pagal teritoriją (numatyta pagal dabartinį laikotarpį) |Nebaigtos gamybos NG matai | |
-| |NG grynasis pokytis pagal teritorijos pavadinimą ir 2 lygio kategorijos pavadinimą | |
-| |Gamybos nuokrypiai pagal išteklių grupę ir 3 lygio kategorijos pavadinimą | |
-
-## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-„Finance and Operations“ duomenys naudojami **išlaidų valdymo** „Power BI“ turinio ataskaitų puslapiams užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
-
-| Objektas            | Pagrindiniai sujungti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas             | aprašymas                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Išrašo įrašai | Grynasis pokytis                | CostAggregatedCostStatementEntryEntity      | sum(\[Amount\])   | Suma apskaitos valiuta |
-| Išrašo įrašai | Grynojo pokyčio kiekis       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantity\]) |                                   |
-
-Šioje lentelėje parodyta, kaip pagrindiniai sujungti matavimo vienetai naudojami kuriant kelis skaičiuojamus matus turinio duomenų rinkinyje.
-
-| Mato vnt.                                 | Kaip matas apskaičiuojamas                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pradinis balansas                       | \[Ending balance\]-\[Net change\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Pradžios balanso kiekis              | \[Ending balance quantity\]-\[Net change quantity\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Pabaigos likutis                          | CALCULATE(SUM(\[Amount\]), FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\])))                                                                                                                                                                                           |
-| Pabaigos balanso kiekis                 | CALCULATE(SUM(\[Quantity\]), FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\])))                                                                                                                                                                                         |
-| Atsargų pradžios balansas             | CALCULATE(\[Beginning balance\], 'Statement entries'\[Statement Type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Atsargų pabaigos balansas                | CALCULATE(\[Ending balance\], 'Statement entries'\[Statement Type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Atsargų grynasis pokytis                    | CALCULATE(\[Net change\], 'Statement entries'\[Statement type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Atsargų grynojo pokyčio kiekis           | CALCULATE(\[Net change quantity\], 'Statement entries'\[Statement type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Atsargų grynasis pokytis %                  | IF(\[Inventory ending balance\] = 0, 0, \[Inventory net change\] / \[Inventory ending balance\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Atsargų apyvarta pagal sumą                | if(OR(\[Inventory average balance\] &lt;= 0, \[Inventory sold or consumed issues\] &gt;= 0), 0, ABS(\[Inventory sold or consumed issues\])/\[Inventory average balance\])                                                                                                                                                                                                                                                                                                  |
-| Vidutinis atsargų balansas               | (\[Inventory ending balance\] + \[Inventory beginning balance\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Parduotų arba sunaudotų atsargų problemos       | \[Inventory sold\] + \[Inventory consumed material cost\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Sunaudotų atsargų medžiagų išlaidos        | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Parduotos atsargos                          | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 2\_\] = "Sold")                                                                                                                                                                                                                                                                                                                                                                             |
-| Atsargų tikslumas pagal sumą            | IF(\[Inventory ending balance\] &lt;= 0, IF(OR(\[Inventory counted amount\] &lt;&gt; 0, \[Inventory ending balance\] &lt; 0), 0, 1), MAX(0, (\[Inventory ending balance\] - ABS(\[Inventory counted amount\]))/\[Inventory ending balance\]))                                                                                                                                                                                                                              |
-| Apskaičiuota atsargų suma                | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 3\_\] = "Counting")                                                                                                                                                                                                                                                                                                                                                                         |
-| Atsargų skirstymas pagal terminus                         | if(ISBLANK(max('Fiscal calendars'\[Date\])), blank(), MAX(0, MIN(\[Inventory aging receipts quantity\], \[Inventory aging ending balance quantity\] - \[Inventory aging receipts quantity in the future\]))) \* \[Inventory avg unit cost\]                                                                                                                                                                                                                                |
-| Atsargų skirstymo pagal terminus gavimo kiekis       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Inventory net change quantity\], 'Statement entries'\[Quantity\] &gt; 0, FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\]))), CALCULATE(\[Inventory net change quantity\], 'Statement entries'\[Quantity\] &gt; 0)) |
-| Atsargų skirstymo pagal terminus pabaigos balanso kiekis | \[Inventory ending balance quantity\] + CALCULATE(\[Inventory net change quantity\], FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &gt; max('Fiscal calendars'\[Date\]) ))                                                                                                                                 |
-| Atsargų skirstymo pagal terminus gavimas ateityje  | CALCULATE(\[Inventory net change\], 'Statement entries'\[Amount\] &gt; 0, FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &gt; MAX('Fiscal calendars'\[Date\])))                                                                                                                                             |
-| Vidutinė atsargų vieneto savikaina                 | CALCULATE(\[Inventory ending balance\] / \[Inventory ending balance quantity\],ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]))                                                                                                                                                                                                                 |
-| Pirkimo nuokrypiai                      | CALCULATE(SUM(\[Amount\]), 'Statement entries'\[Category name - level 2\_\] = "Procured", 'Statement entries'\[Statement type\] = "Variance")                                                                                                                                                                                                                                                                                                                              |
-| NG pradžios balansas                   | CALCULATE(\[Beginning balance\], 'Statement entries'\[Statement Type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                            |
-| NG pabaigos likutis                      | CALCULATE(\[Ending balance\], 'Statement entries'\[Statement Type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                               |
-| NG grynasis pokytis                          | CALCULATE(\[Net change\], 'Statement entries'\[Statement type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| NG grynasis pokytis %                        | IF(\[WIP ending balance\] = 0, 0, \[WIP net change\] / \[WIP ending balance\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Gamybos nuokrypiai                    | CALCULATE(SUM(\[Amount\]), 'Statement entries'\[Category name - level 2\_\] = "ManufacturedCost", 'Statement entries'\[Statement type\] = "Variance")                                                                                                                                                                                                                                                                                                                      |
-| Kategorijos pavadinimas – 1 lygis                 | switch(\[Category name - level 1\_\], "None", "None", "NetSourcing", "Net sourcing", "NetUsage", "Net usage", "NetConversionCost", "Net conversion cost", "NetCostOfGoodsManufactured", "Net cost of goods manufactured", "BeginningBalance", "Beginning balance")                                                                                                                                                                                                         |
-| Kategorijos pavadinimas – 2 lygis                 | switch(\[Category name - level 2\_\], "None", "None", "Procured", "Procured", "Disposed", "Disposed", "Transferred", "Transferred", "Sold", "Sold", "ConsumedMaterialsCost", "Consumed material cost", "ConsumedManufacturingCost", "Consumed manufacturing cost", "ConsumedOutsourcingCost", "Consumed outsourcing cost", "ConsumedIndirectCost", "Consumed indirect cost", "ManufacturedCost", "Manufactured cost", "Variances", "Variances")                            |
-| Kategorijos pavadinimas – 3 lygis                 | switch(\[Category name - level 3\_\], "None", "None", "Counting", "None", "ProductionPriceVariance", "Production price", "QuantityVariance", "Quantity", "SubstitutionVariance", "Substitution", "ScrapVariance", "Scrap", "LotSizeVariance", "Lot size", "RevaluationVariance", "Revaluation", "PurchasePriceVariance", "Purchase price", "CostChangeVariance", "Cost change", "RoundingVariance", "Rounding variance")                                                   |
-
-Šios pagrindinės dimensijos naudojamos kaip filtrai sujungtiems matavimo vienetams skaidyti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
-
-| Objektas           | Atributų pavyzdžiai                       |
-|------------------|----------------------------------------------|
-| Objektai         | ID, Pavadinimas                                     |
-| Finansiniai kalendoriai | Kalendorius Mėnuo, Laikotarpis, Ketvirtis, Metai       |
-| KPI tikslai        | Atsargų tikslumo tikslas, Atsargų apyvartos tikslas |
-| Didžiosios knygos          | Valiuta, Pavadinimas, Aprašas                  |
-| Vietos            | ID, Pavadinimas, Šalis, Miestas                      |
-
-
-
-
+|                         Objektas                          |             Atributų pavyzdžiai              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Produktai                         | Produkto numeris, produkto pavadinimas, vienetas, prekių grupės |
+| Kategorijų hierarchijos (priskirtos išlaidų valdymo vaidmeniui) |       Kategorijų hierarchija, kategorijos lygis        |
+|                     Juridiniai subjektai                      |               Juridinių subjektų pavadinimai                |
+|                    Finansiniai kalendoriai                     |  Finansinis kalendorius, metai, ketvirtis, laikotarpis, mėnuo  |
+|                          Svetainė                           |        ID, pavadinimas, adresas, valstybė, šalis        |
 
 

@@ -18,24 +18,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka. 
 
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC bendrosios bibliotekos užduočių vedliai (2016 m. gegužės mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 ------------------------------------------------------------------------------------------------
 
-APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md). **Pastaba.** Žvaigždutė (**\***) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics AX“ 2016 m. gegužės mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
+APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md). <strong>Pastaba:</strong> žvaigždutė (<strong>\</strong>*) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics AX“ 2016 m. gegužės mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
 
 ### <a name="countryregion-functionality"></a>Šaliai / regionui būdingos funkcijos
 
@@ -63,15 +62,15 @@ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, 
 
 ### <a name="electronic-reporting"></a>Elektroninė ataskaita
 
-| BPM eilutė                                                                   | Šalis/regionas |
+|                                  BPM eilutė                                  | Šalis/regionas |
 |----------------------------------------------------------------------------|----------------|
-| ER: paskirties vietų konfigūravimas                                                  | Visuotinai         |
-| ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas         | Visuotinai         |
-| ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją | Bendra         |
-| ER: konfigūracijos importavimas iš „Lifecycle Services‟                          | Bendra         |
-| **\***ER paslaugų teikėjo pasirinkimas                                           | Bendra         |
-| ER: formato atnaujinimas pritaikant naują to formato pagrindinę versiją      | Visuotinai         |
-| ER: konfigūracijos nusiuntimas į „Lifecycle Services‟                          | Visuotinai         |
+|                         ER: paskirties vietų konfigūravimas                          |     Visuotinai     |
+|     ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas     |     Visuotinai     |
+| ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją |     Bendra     |
+|             ER: konfigūracijos importavimas iš „Lifecycle Services‟              |     Bendra     |
+|               <strong>\</strong>*ER paslaugų teikėjo pasirinkimas                |     Bendra     |
+|   ER: formato atnaujinimas pritaikant naują to formato pagrindinę versiją    |     Visuotinai     |
+|             ER: konfigūracijos nusiuntimas į „Lifecycle Services‟              |     Visuotinai     |
 
 ### <a name="human-capital-management"></a>Žmogiškojo kapitalo valdymas
 
@@ -177,17 +176,15 @@ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, 
 
 ### <a name="warehouse-and-transportation"></a>Sandėlis ir transportavimas
 
-| BPM eilutė                                                            | Šalis/regionas |
-|---------------------------------------------------------------------|----------------|
-| Bangos apdorojimo konfigūravimas                                           | Bendra         |
-| **\***Skelbimas baigtais į ne pagal numerio lentelę kontroliuojamą vietą | Visuotinai         |
-| Min.–maks. papildymo proceso nustatymas                              | Visuotinai         |
-| Krovimo į konteinerius nustatymas                                             | Visuotinai         |
-| Rankinio pakavimo nustatymas                                               | Bendra         |
-| Prekės transportavimo apribojimų nustatymas                       | Bendra         |
-| **\***Sandėlio darbo strategijų nustatymas                                | Bendra         |
-
-
+|                                     BPM eilutė                                     | Šalis/regionas |
+|----------------------------------------------------------------------------------|----------------|
+|                            Bangos apdorojimo konfigūravimas                             |     Bendra     |
+| <strong>\</strong>*Skelbimas baigtais į ne pagal numerio lentelę kontroliuojamą vietą |     Visuotinai     |
+|                      Min.–maks. papildymo proceso nustatymas                      |     Visuotinai     |
+|                             Krovimo į konteinerius nustatymas                              |     Visuotinai     |
+|                              Rankinio pakavimo nustatymas                               |     Bendra     |
+|                  Prekės transportavimo apribojimų nustatymas                   |     Bendra     |
+|                <strong>\</strong>*Sandėlio darbo strategijų nustatymas                 |     Bendra     |
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

@@ -3,7 +3,7 @@ title: Vienas kvitas
 description: "Naudodamiesi finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto žurnalo, tiekėjo mokėjimų žurnalo ir t. t.) funkcija Vienas kvitas vieno kvito kontekste galite įvesti kelias papildomos knygos operacijas."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Vienas kvitas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Šia funkcija bus galima naudotis programos „Dynamics 365 for Finance and Operations“ versijoje 8.0, kuri bus išleista 2018 m. pavasario leidime.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Naudodamiesi esama finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto žurnalo, tiekėjo mokėjimų žurnalo ir t. t.) funkcija vieno kvito kontekste galite įvesti kelias papildomos knygos operacijas. Ši funkcija vadinama „Vienas kvitas“. Vieną kvitą galima sukurti vienu iš toliau nurodytų būdų.
 
--   Nustatykite žurnalo pavadinimą (**Didžioji knyga** \> **Žurnalo sąranka** \>**Žurnalų pavadinimai**), kad būtų naudojama lauko **Naujas kvitas** nuostata **Tik vienas kvito numeris**. Nuo šiol kiekviena į žurnalą įtraukta eilutė įtraukiama tame pačiame kvite. Kadangi kiekviena eilutė įtraukiama į tą patį kvitą, kvitą galima įvesti kaip kelių eilučių kvitą, kaip toje pačioje eilutėje nurodytą sąskaitą / korespondentinę sąskaitą arba kaip kombinaciją.
+-   Nustatykite žurnalo pavadinimą (**Didžioji knyga** \> **Žurnalo sąranka** \>**Žurnalų pavadinimai**), kad būtų naudojama lauko **Naujas kvitas** nuostata **Tik vienas kvito numeris**. * Nuo šiol kiekviena į žurnalą įtraukta eilutė įtraukiama tame pačiame kvite. Kadangi kiekviena eilutė įtraukiama į tą patį kvitą, kvitą galima įvesti kaip kelių eilučių kvitą, kaip toje pačioje eilutėje nurodytą sąskaitą / korespondentinę sąskaitą arba kaip kombinaciją.
 
 [![Viena eilutė](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Atkreipkite dėmesį, kad vieno kvito aprašas NEAPIMA žurnalų pavadinimų, kurie yra nustatyti kaip **Tik vienas kvito numeris**, o vartotojas tada įveda kvitą, kuris apima tik DK sąskaitų tipus.  Šiame dokumente „vienas kvitas“ reiškia, kad viename kvite yra daugiau nei vienas tiekėjas, klientas, bankas, ilgalaikis turtas arba projektas. 
 
 -   Jei nenurodyta korespondentinė sąskaita, įveskite kelių eilučių kvitą.
 
@@ -68,13 +71,16 @@ Po to darbo srityje **Finansinės įžvalgos** sugeneruojate ataskaitą **Išlai
 
 Dėl pirmiau nurodytų problemų funkcija Vienas kvitas naudotis nebebus galima. Tačiau, kadangi esama nuo šios funkcijos priklausančių funkcinių spragų, funkcija kurį laiką dar bus naudojama. Laikysimės toliau nurodyto tvarkaraščio. 
 
--   **2018 m. pavasario leidimas** – pagal numatytuosius parametrus naudojantis didžiosios knygos parametru funkcija bus išjungta. Tačiau galite įjungti funkciją, jei jūsų organizacijoje yra scenarijus, kuriame esama toliau šioje temoje nurodytų verslo scenarijų spragų.
+- **2018 m. pavasario leidimas** – pagal numatytuosius parametrus naudojantis didžiosios knygos parametru funkcija bus išjungta. Tačiau galite įjungti funkciją, jei jūsų organizacijoje yra scenarijus, kuriame esama toliau šioje temoje nurodytų verslo scenarijų spragų.
 
-    -   Jei klientas turi verslo scenarijų, pagal kurį funkcija Vienas kvitas nereikalinga, neįjunkite funkcijos. Jei bus naudojamasi šia funkcija, negalėsime išspręsti toliau šioje temoje nurodytose srityse kylančių „klaidų“, net jei esama kitų sprendimų.
+  -   Jei klientas turi verslo scenarijų, pagal kurį funkcija Vienas kvitas nereikalinga, neįjunkite funkcijos. Jei bus naudojamasi šia funkcija, negalėsime išspręsti toliau šioje temoje nurodytose srityse kylančių „klaidų“, net jei esama kitų sprendimų.
 
-    -   Nebenaudokite funkcijos Vienas kvitas integracijoms į „Microsoft Dynamics 365 Finance and Operations“, nebent būtų reikalinga naudoti šią funkciją dėl vienos iš funkcinių spragų.
+  -   Nebenaudokite funkcijos Vienas kvitas integracijoms į „Microsoft Dynamics 365 Finance and Operations“, nebent būtų reikalinga naudoti šią funkciją dėl vienos iš funkcinių spragų.
 
--   **2018 m. rudens ir vėlesni leidimai** – funkcinės spragos bus užpildytos. Užpildžius funkcines spragas funkcija Vienas kvitas išjungiama visam laikui.
+- **2018 m. rudens ir vėlesni leidimai** – funkcinės spragos bus užpildytos. Užpildžius funkcines spragas funkcija Vienas kvitas išjungiama visam laikui.
+
+- > [!IMPORTANT]
+  > Atkreipkite dėmesį, kad parinktis **Tik vienas kvito numeris** NEBUVO pašalinta iš žurnalo pavadinimo sąrankos.  Ši parinktis vis dar palaikoma, kai kvite nurodyti tik DK sąskaitų tipai.  Klientai turi būti atsargūs naudodami šį parametrą, nes kvitas nebus registruojamas, jei jie naudos parinktį **Tik vienas kvito numeris** ir įves daugiau nei vieną klientą, tiekėją, banką, ilgalaikį turtą arba projektą.  Be to, klientai vis dar gali įvesti antrinės DK sąskaitų tipus, pvz., mokėjimą naudojant vieną kvitą, kuriame nurodyti sąskaitų tipai Tiekėjas / Bankas.  
 
 <a name="why-use-one-voucher"></a>Kodėl verta naudotis funkcija Vienas kvitas?
 ====================
@@ -102,13 +108,13 @@ Toliau nurodytus scenarijus galima įvykdyti tik naudojantis funkcija Vienas kvi
 
 >   Jei organizacija turi kartu peržiūrėti verslo įvykio apskaitos įrašus, ji turi naudotis funkcija Vienas kvitas. 
 
--   **Šaliai būdingos funkcijos**
+- **Šaliai būdingos funkcijos**
 
- -   Šiuo metu naudojantis Lenkijos vieno administravimo dokumento (SAD) funkcija reikia naudoti vieną kvitą. Kol nebus galima naudotis šios funkcijos grupavimo parinktimi, turite ir toliau naudotis funkcija Vienas kvitas. Gali būti papildomų šaliai būdingų funkcijų, kuriomis naudojantis reikia naudotis funkcija Vienas kvitas.
+  -   Šiuo metu naudojantis Lenkijos vieno administravimo dokumento (SAD) funkcija reikia naudoti vieną kvitą. Kol nebus galima naudotis šios funkcijos grupavimo parinktimi, turite ir toliau naudotis funkcija Vienas kvitas. Gali būti papildomų šaliai būdingų funkcijų, kuriomis naudojantis reikia naudotis funkcija Vienas kvitas.
 
--   **Kliento išankstinio mokėjimo žurnalas, kuriame keliose „eilutėse“ nurodyti mokesčiai**
+- **Kliento išankstinio mokėjimo žurnalas, kuriame keliose „eilutėse“ nurodyti mokesčiai**
 
- -   Klientas atlieka išankstinį užsakymo apmokėjimą ir užsakymo eilutėse nurodyti skirtingi mokesčiai, kurie turi būti įrašyti atliekant išankstinį mokėjimą. Išankstinis kliento mokėjimas yra viena operacija, kuri imituoja užsakymo eilutes, kad kiekvienoje sumos eilutėje būtų galima įrašyti atitinkamą mokestį.
+  -   Klientas atlieka išankstinį užsakymo apmokėjimą ir užsakymo eilutėse nurodyti skirtingi mokesčiai, kurie turi būti įrašyti atliekant išankstinį mokėjimą. Išankstinis kliento mokėjimas yra viena operacija, kuri imituoja užsakymo eilutes, kad kiekvienoje sumos eilutėje būtų galima įrašyti atitinkamą mokestį.
 
 Pagal šį scenarijų viename kvite nurodyti klientai yra tas pats klientas, nes operacija imituoja kliento užsakymo eilutes. Išankstinis mokėjimas turi būti įvestas viename kvite, nes mokesčių skaičiavimas turi būti atliekamas kliento atlikto vieno mokėjimo „eilutėse“.
 

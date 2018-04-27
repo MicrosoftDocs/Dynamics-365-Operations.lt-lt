@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Eilutės apibrėžimo langelių keitimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti. 
 
@@ -104,26 +103,26 @@ Langelyje **Formato kodas** pateikiamos kelios iš anksto suformatuotos pasirink
 2.  Dukart spustelėkite langelį **Formato kodas**.
 3.  Sąraše pasirinkite formato kodą. Šioje lentelėje aprašomi formato kodai ir jų veiksmai.
 
-| **Formato kodas**               | **Formato kodo interpretavimas** | **Veiksmas**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Nėra)                        |                                       | Išvalomas langelis **Formato kodas**.                                                                                                                                                                               |
-| IŠ VISO                           | Bendroji suma                                 |  Nurodoma eilutė, kuri stulpelyje **Susijusios formulės / eilutės / vienetai** naudoja matematinius ženklus. Bendrosioms sumoms naudojami paprasti ženklai, pavyzdžiui **+** arba **-**.                                                     |
-| KPL                           | Skaičiavimas                           | Nurodoma eilutė, kuri stulpelyje **Susijusios formulės / eilutės / vienetai** naudoja matematinius ženklus. Skaičiavimams naudojami sudėtingi ženklai, pavyzdžiui, **+**, **-**, **\***, **/** ir **IF / THEN / ELSE** sakiniai. |
-| DES                           | aprašymas                           | Nurodoma ataskaitos antraštės eilutė arba tuščia eilutė.                                                                                                                                                        |
-| LFT RGT CEN                   | Kairė Dešinė Centras                     |  Ataskaitos puslapyje sulygiuojamas eilutės aprašymo tekstas, neatsižvelgiant į teksto išdėstymą stulpelio apraše.                                                                                              |
-| CBR                           | Pagrindinės eilutės keitimas                       | Nurodoma eilutė, kuri nustato pagrindinę stulpelio skaičiavimų eilutę.                                                                                                                                               |
-| STULPELIS                        | Stulpelio lūžis                          | Ataskaitoje pradedamas naujas stulpelis.                                                                                                                                                                             |
-| PUSLAPIS                          | Puslapio lūžis                            | Ataskaitoje pradedamas naujas puslapis.                                                                                                                                                                               |
-| \---                          | Vienas pabraukimas                      | Po visais ataskaitos sumos stulpeliais nubrėžiama viena linija.                                                                                                                                                     |
-|  ===                          | Du pabraukimai                      | Po visais ataskaitos sumos stulpeliais nubrėžiamos dvi linijos.                                                                                                                                                     |
-| LINE1                         | Plona linija                             | Per visą puslapį nubrėžiama viena plona linija.                                                                                                                                                                      |
-| LINE2                         | Stora linija                            | Puslapyje nubrėžiama viena stora linija.                                                                                                                                                                     |
-| LINE3                         | Punktyrinė linija                           | Per visą puslapį nubrėžiama viena punktyrinė linija.                                                                                                                                                                    |
-| LINE4                         | Stora ir plona linijos              | Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija stora, o apatinė – plona.                                                                                                                       |
-| LINE5                         | Plona ir stora linijos              | Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija plona, o apatinė – stora.                                                                                                                       |
-| BXB BXC                       | Eilutė kvadrate                             | Aplink ataskaitų eilutes, kurios prasideda eilute **BXB** ir baigiasi eilute **BXC**, apibrėžiamas kvadratas.                                                                                                               |
-| LIK.                           | Pastaba                                | Identifikuojama komentaro eilutė, kuri neturi būti spausdinama ataskaitoje. Pavyzdžiui, pastabos eilutėje gali būti paaiškinti naudojami formatavimo būdai.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Rūšiuoti                                  | Rūšiuojamos išlaidos arba įplaukos, rūšiuojama faktinė arba biudžeto nuokrypio ataskaita pagal didžiausią nuokrypį arba rūšiuojami eilučių aprašymai abėcėlės tvarka.                                                                   |
+| <strong>Formato kodas</strong>  | <strong>Formato kodo interpretavimas</strong> |                                                                                                                             <strong>Veiksmas</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Nėra)             |                                                    |                                                                                                                  Išvalomas langelis <strong>Formato kodas</strong>.                                                                                                                   |
+|              IŠ VISO              |                       Bendroji suma                        |                                         Nurodoma eilutė, kuri stulpelyje <strong>Susijusios formulės / eilutės / vienetai</strong> naudoja matematinius ženklus. Bendrosioms sumoms naudojami paprasti ženklai, pavyzdžiui <strong>+</strong> arba <strong>-</strong>.                                         |
+|              KPL              |                    Skaičiavimas                     | Identifikuojama eilutė, kuri stulpelyje <strong>Susijusios formulės / eilutės / vienetai</strong> naudoja matematinius operatorius. Skaičiavimams naudojami sudėtingi ženklai, pavyzdžiui, <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> ir **IF / THEN / ELSE</em>* sakiniai. |
+|              DES              |                    aprašymas                     |                                                                                                             Nurodoma ataskaitos antraštės eilutė arba tuščia eilutė.                                                                                                              |
+|          LFT RGT CEN          |                 Kairė Dešinė Centras                  |                                                                                 Ataskaitos puslapyje sulygiuojamas eilutės aprašymo tekstas, neatsižvelgiant į teksto išdėstymą stulpelio apraše.                                                                                 |
+|              CBR              |                  Pagrindinės eilutės keitimas                   |                                                                                                         Nurodoma eilutė, kuri nustato pagrindinę stulpelio skaičiavimų eilutę.                                                                                                         |
+|            STULPELIS             |                    Stulpelio lūžis                    |                                                                                                                        Ataskaitoje pradedamas naujas stulpelis.                                                                                                                        |
+|             PUSLAPIS              |                     Puslapio lūžis                     |                                                                                                                         Ataskaitoje pradedamas naujas puslapis.                                                                                                                         |
+|             \---              |                  Vienas pabraukimas                  |                                                                                                            Po visais ataskaitos sumos stulpeliais nubrėžiama viena linija.                                                                                                            |
+|              ===              |                  Du pabraukimai                  |                                                                                                            Po visais ataskaitos sumos stulpeliais nubrėžiamos dvi linijos.                                                                                                            |
+|             LINE1             |                     Plona linija                      |                                                                                                                    Per visą puslapį nubrėžiama viena plona linija.                                                                                                                     |
+|             LINE2             |                     Stora linija                     |                                                                                                                    Puslapyje nubrėžiama viena stora linija.                                                                                                                    |
+|             LINE3             |                    Punktyrinė linija                     |                                                                                                                   Per visą puslapį nubrėžiama viena punktyrinė linija.                                                                                                                    |
+|             LINE4             |              Stora ir plona linijos              |                                                                                             Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija stora, o apatinė – plona.                                                                                             |
+|             LINE5             |              Plona ir stora linijos              |                                                                                             Per visą puslapį nubrėžiamos dvi linijos. Viršutinė linija plona, o apatinė – stora.                                                                                             |
+|            BXB BXC            |                     Eilutė kvadrate                      |                                                                            Ataskaitos eilutės, kurios pradedamos eilute <strong>BXB</strong> ir baigiamos eilute <strong>BXC</strong>, apibrėžiamos rėmeliu.                                                                            |
+|              LIK.              |                       Pastaba                       |                                                               Identifikuojama komentaro eilutė, kuri neturi būti spausdinama ataskaitoje. Pavyzdžiui, pastabos eilutėje gali būti paaiškinti naudojami formatavimo būdai.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Rūšiuoti                        |                                                                   Rūšiuojamos išlaidos arba įplaukos, rūšiuojama faktinė arba biudžeto nuokrypio ataskaita pagal didžiausią nuokrypį arba rūšiuojami eilučių aprašymai abėcėlės tvarka.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Susijusių formulių / eilučių / vienetų nurodymas
 Langelis **Susijusios formulės / eilutės / vienetai** skirtas keliems tikslams. Priklausomai nuo eilutės tipo, langelis **Susijusios formulės / eilutės / vienetai** gali atlikti vieną iš šių funkcijų:
@@ -211,12 +210,12 @@ Rūšiavimo kodai rūšiuoja sąskaitas arba reikšmes, faktines arba biudžeto 
 
 ### <a name="select-a-sorting-code"></a>Rūšiavimo kodo pasirinkimas
 
-1.  Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
-2.  Dukart spustelėkite langelį **Formato kodas**, tada pasirinkite rūšiavimo kodą.
-3.  Langelyje **Susijusios formulės / eilutės / vienetai** nurodykite rūšiuojamų eilučių kodų diapazoną. Norėdami nurodyti diapazoną, įveskite pirmą eilutės kodą, dvitaškį (:), tada paskutinį eilutės kodą. Pavyzdžiui, įveskite **160:490**, jeigu norite nurodyti, kad diapazonas yra nuo 160 eilutės iki 490 eilutės.
-4.  Langelyje **Stulpelio apribojimas** įveskite rūšiavimui naudojamą ataskaitos stulpelio raidę. 
-> [!Note] 
-> Rūšiavimui skaičiuoti naudokite tik sumos eilutes.
+1. Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
+2. Dukart spustelėkite langelį **Formato kodas**, tada pasirinkite rūšiavimo kodą.
+3. Langelyje **Susijusios formulės / eilutės / vienetai** nurodykite rūšiuojamų eilučių kodų diapazoną. Norėdami nurodyti diapazoną, įveskite pirmą eilutės kodą, dvitaškį (:), tada paskutinį eilutės kodą. Pavyzdžiui, įveskite **160:490**, jeigu norite nurodyti, kad diapazonas yra nuo 160 eilutės iki 490 eilutės.
+4. Langelyje **Stulpelio apribojimas** įveskite rūšiavimui naudojamą ataskaitos stulpelio raidę. 
+   > [!Note] 
+   > Rūšiavimui skaičiuoti naudokite tik sumos eilutes.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Didėjančių ir mažėjančių stulpelių reikšmių pavyzdžiai
 
@@ -258,41 +257,41 @@ Langelyje **Formato nepaisymas** nurodomas formatavimas, kuris naudojamas eilute
 
 Valiutos formatavimas taikomas finansinei sumai ir apima valiutos simbolį. Galimos toliau nurodytos parinktys.
 
--   **Valiutos simbolis** – ataskaitoje naudojamas valiutos simbolis. Ši reikšmė nepaiso įmonės informacijos nuostatos **Regiono pasirinktys**.
--   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
--   **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
-> [!Note] 
-> Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+- **Valiutos simbolis** – ataskaitoje naudojamas valiutos simbolis. Ši reikšmė nepaiso įmonės informacijos nuostatos **Regiono pasirinktys**.
+- **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
+- **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
+- **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+  > [!Note] 
+  > Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="numeric-formatting"></a>Skaitinis formatavimas
 
 Skaitinis formatavimas taikomas bet kokiai sumai ir neapima valiutos simbolio. Galimos toliau nurodytos pasirinktys:
 
--   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
--   **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
-> [!Note] 
-> Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+- **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
+- **Po kablelio** – skaitmenų skaičius po dešimtainio skyriklio.
+- **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+  > [!Note] 
+  > Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="percentage-formatting"></a>Procentinis formatavimas
 
 Procentinis formatavimas apima procento ženklą (%). Galimos toliau nurodytos pasirinktys:
 
--   **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
--   **Po kablelio** – po dešimtainio skyriklio rodomų skaitmenų skaičius.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
-> [!Note] 
-> Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+- **Neigiami skaičiai** – neigiami skaičiai gali būti su minuso ženklu (-), jie gali būti rodomi skliausteliuose, arba jie gali būti su trikampio ženklu (∆).
+- **Po kablelio** – po dešimtainio skyriklio rodomų skaitmenų skaičius.
+- **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+  > [!Note] 
+  > Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 ### <a name="custom-formatting"></a>Pasirinktinis formatavimas
 
 Naudokite pasirinktinio formatavimo kategoriją, norėdami sukurti pasirinktinio formato nepaisymą. Galimos toliau nurodytos pasirinktys:
 
--   **Tipas** – pasirinktinis formatas.
--   **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
-> [!Note] 
-> Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
+- **Tipas** – pasirinktinis formatas.
+- **Nulinės vertės nepaisymo tekstas** – tekstas, kuris įtraukiamas į ataskaitą, kai suma lygi 0 (nuliui). Šis tekstas rodomas kaip paskutinė srities **Pavyzdys** eilutė. 
+  > [!Note] 
+  > Jei sulaikomas nulinių reikšmių spausdinimas arba nėra laikotarpio veiklos, šis tekstas panaikinamas.
 
 Dalyje Tipas turėtų būti nurodyta teigiama reikšmė, o po to – neigiama reikšmė. Paprastai įvedate panašų teigiamas ir neigiamas reikšmes atskiriantį formatą. Pavyzdžiui, norėdami nurodyti, kad teigiamos ir neigiamos reikšmės turi du skaitmenis po kablelio, bet neigiamos reikšmės rodomos skliausteliuose, įveskite **0.00;(0.00)**. Toliau pateikiamoje lentelėje rodomi pasirinktiniai formatai, kuriuos galite naudoti norėdami valdyti savo reikšmių formatą. Visi pavyzdžiai pradedami reikšme 1234.56.
 
@@ -387,7 +386,7 @@ Pagal numatytuosius nustatymus ataskaitų dizaino įrankis nespausdina jokių ei
 3.  Meniu **Rinkmena** spustelėkite **Įrašyti**, kad įrašytumėte savo pakeitimus.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Pakaitos simbolių ir intervalų naudojimas eilutės apraše
-Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate **6???**, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate **6\***, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, **60** ir **600000**. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo **12?0** iki **12?4**, reikšmės **12?0** pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės **12?4** pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme. 
+Dialogo lange <strong>Dimensijos</strong> įvedus fizinio segmento reikšmę pakaitos simbolį (? arba \*) galima įterpti bet kurioje segmento vietoje. Naudojantis ataskaitų dizaino įrankiu išrenkamos visos nurodytų vietų reikšmės neatsižvelgiant į pakaitos simbolius. Pvz., eilutės apraše yra tik fizinio segmento riekšmės, o fiziniai segmentai yra keturių simbolių. Jei eilutėje įvedate <strong>6???</strong>, nurodote, kad ataskaitų dizaino įrankis įtrauktų visas sąskaitas, kurių fizinio segmento reikšmė prasideda 6. Jei įvedate <strong>6\</strong><em>, rodomi tie patys rezultatai, bet į rezultatus taip pat įtraukiamos kintančio pločio reikšmės, pavyzdžiui, *60</em>* ir <strong>600000</strong>. Ataskaitų dizaino įrankis pakeičia kiekvieną pakaitos simbolį (?) visomis galimomis reikšmėmis, įskaitant raides ir specialiuosius simbolius. Pvz., kai intervalas nuo <strong>12?0</strong> iki <strong>12?4</strong>, reikšmės <strong>12?0</strong> pakaitos simbolis pakeičiamas mažiausia simbolių rinkinio reikšme, o reikšmės <strong>12?4</strong> pakaitos simbolis pakeičiamas didžiausia simbolių rinkinio reikšme. 
 > [!Note] 
 > Turėtumėte vengti naudoti pakaitos simbolius į intervalą patenkančiose pradžios ir pabaigos sąskaitose. Jei naudojate pakaitos simbolius pradžios arba pabaigos sąskaitoje, galite gauti nenumatytų rezultatų.
 
@@ -466,15 +465,15 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 
 ### <a name="update-a-set-of-dimension-values"></a>Dimensijos verčių rinkinio naujinimas
 
-1.  Ataskaitų dizaino įrankyje atidarykite norimą keisti eilučių, stulpelių arba medžio aprašą.
-2.  Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
-3.  Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
-4.  Sąraše pasirinkite atnaujinamą dimensijos reikšmių rinkinį, tada spustelėkite **Modifikuoti**.
-5.  Dialogo lange **Modifikuoti** modifikuokite į rinkinį įtraukiamas formulės reikšmes. 
-> [!Note] 
-> Jei pridedate naujų sąskaitų arba dimensijų, būtinai pakeiskite esamus dimensijos reikšmių rinkinius, kad būtų įtraukti pakeitimai.
-6.  Dukart spustelėkite langelį ir pasirinkite atitinkamą operatorių, sąskaitą **Nuo** ir sąskaitą **Iki**.
-7.  Norėdami uždaryti dialogo langą **Modifikuoti** ir įrašyti pakeitimus, spustelėkite **Gerai**.
+1. Ataskaitų dizaino įrankyje atidarykite norimą keisti eilučių, stulpelių arba medžio aprašą.
+2. Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
+3. Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
+4. Sąraše pasirinkite atnaujinamą dimensijos reikšmių rinkinį, tada spustelėkite **Modifikuoti**.
+5. Dialogo lange **Modifikuoti** modifikuokite į rinkinį įtraukiamas formulės reikšmes. 
+   > [!Note] 
+   > Jei pridedate naujų sąskaitų arba dimensijų, būtinai pakeiskite esamus dimensijos reikšmių rinkinius, kad būtų įtraukti pakeitimai.
+6. Dukart spustelėkite langelį ir pasirinkite atitinkamą operatorių, sąskaitą **Nuo** ir sąskaitą **Iki**.
+7. Norėdami uždaryti dialogo langą **Modifikuoti** ir įrašyti pakeitimus, spustelėkite **Gerai**.
 
 ### <a name="copy-a-dimension-set"></a>Dimensijų rinkinio kopijavimas
 

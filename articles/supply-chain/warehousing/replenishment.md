@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Papildymas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojamos modulio Sandėlio valdymas funkcijos. Šioje temoje pateikiama informacija netaikoma sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas.
 
@@ -67,13 +67,15 @@ Naudojant krovinio poreikio papildymą, susumuojamas kelių krovinių poreikis i
 Užuot poreikį sumuodami paskirstymo proceso pabaigoje ir papildymo procesą atlikdami pagal susumuotą kiekį, galite pritaikyti strategiją Skubus papildymas. Naudojant šią strategiją, atsargas galima papildyti iškart po to, kai nepavyksta paskirstyti vietos nurodymo eilutės. Todėl papildymo procesą galite nustatyti taip, kad jį ribotų konkretūs vienetai, ir kad jis naudotų nustatytus konkrečių vietų kiekius.
 
 ## <a name="replenishment-prerequisites"></a>Papildymo būtinosios sąlygos
-| Būtinoji sąlyga            | aprašymas |
-|-------------------------|-------------|
-| Prekė                    | Prekė privalo turėti įgalintus sandėlio valdymo procesus. |
-| Sandėlis               | Sandėlis privalo turėti įgalintus sandėlio valdymo procesus. Norėdami įgalinti sandėlio valdymo procesus, puslapyje **Sandėliai** pasirinkite sandėlį, tada pasirinkite parinktį **Naudoti sandėlio valdymo procesus**. |
-| Papildymo šablonai | Bent vieną papildymo šabloną reikia nustatyti min. / maks. papildymui, bangos poreikio papildymui arba krovinio poreikio papildymui. |
-| Vietos               | Vietos turi būti sukurtos ir prijungtos prie vietos šablono. |
-| Vietos šablonai       | Vietos šablonai yra būtini, siekiant kurti vietas. |
-| Vietos nurodymai     | Vietų nurodymai yra būtini, siekiant nukreipti darbą į vietas, kurias reikia papildyti, ir į vietas, iš kurių paimamos atsargos. |
-| Darbo šablonai          | Tipo **Papildymas** darbo šablonas yra būtini, siekiant sukurti papildymo darbą, kad atsargas būtų galima perkelti į norimas vietas. |
+
+|      Būtinoji sąlyga       |                                                                                                                                aprašymas                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Prekė           |                                                                                                        Prekė privalo turėti įgalintus sandėlio valdymo procesus.                                                                                                        |
+|        Sandėlis        | Sandėlis privalo turėti įgalintus sandėlio valdymo procesus. Norėdami įgalinti sandėlio valdymo procesus, puslapyje <strong>Sandėliai</strong> pasirinkite sandėlį, tada pasirinkite parinktį <strong>Naudoti sandėlio valdymo procesus</strong>. |
+| Papildymo šablonai |                                                                   Bent vieną papildymo šabloną reikia nustatyti min. / maks. papildymui, bangos poreikio papildymui arba krovinio poreikio papildymui.                                                                   |
+|        Vietos        |                                                                                                       Vietos turi būti sukurtos ir prijungtos prie vietos šablono.                                                                                                       |
+|    Vietos šablonai    |                                                                                                        Vietos šablonai yra būtini, siekiant kurti vietas.                                                                                                        |
+|   Vietos nurodymai   |                                                       Vietų nurodymai yra būtini, siekiant nukreipti darbą į vietas, kurias reikia papildyti, ir į vietas, iš kurių paimamos atsargos.                                                        |
+|     Darbo šablonai      |                                                   Tipo <strong>Papildymas</strong> darbo šablonas yra būtini, siekiant sukurti papildymo darbą, kad atsargas būtų galima perkelti į norimas vietas.                                                    |
+
 

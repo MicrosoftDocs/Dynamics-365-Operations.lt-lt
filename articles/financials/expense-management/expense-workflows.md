@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 19d725f15f00afce1a2ae4b336226f1dafa94b41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Išlaidų darbo eigų nustatymas
 
-[!include[banner](../includes/banner.md)] Galite nustatyti darbo eigos procesą, naudojamą kelionių ir išlaidų dokumentams peržiūrėti bei tvirtinti. Dokumentai, kurių darbo eigas galima apibrėžti – tai išlaidų ataskaitos, kelionių paraiškos ir avanso grynaisiais pinigais užklausos.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Galite nustatyti darbo eigos procesą, naudojamą kelionių ir išlaidų dokumentams peržiūrėti bei tvirtinti. Dokumentai, kurių darbo eigas galima apibrėžti – tai išlaidų ataskaitos, kelionių paraiškos ir avanso grynaisiais pinigais užklausos.
 
 Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo, kas turi atlikti užduotį arba patvirtinti dokumentą. Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 
@@ -42,13 +44,15 @@ Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo
 
 Toliau pateiktoje lentelėje išvardyti darbo eigų tipai, kuriuos galite sukurti srityje **Išlaidos**.
 
-| **Tipas**                           | **Naudokite šį tipą norėdami**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **Išlaidų ataskaita**                 | Kurti išlaidų ataskaitų tvirtinimo darbo eigas.                       |      
-| **Automatinis išlaidų ataskaitos registravimas**    | Kurti išlaidų ataskaitų automatinio registravimo darbo eigas.              |     
-| **Išlaidų eilutės elementas**              | Kurti išlaidų ataskaitų eilučių elementų tvirtinimo darbo eigas.         |     
-| **Išlaidų eilutės prekės automatinis registravimas** | Kurti išlaidų ataskaitų eilučių elementų automatinio registravimo darbo eigas.|
-| **Kelionės paraiška**             | Kurti pirkimo paraiškų tvirtinimo darbo eigas.                   |    
-| **Avanso grynaisiais pinigais prašymas**           | Kurti avanso grynaisiais pinigais užklausų tvirtinimo darbo eigas.                 |     
-| **PVM susigrąžinimas**               | Kurti pridėtinės vertės mokesčio (PVM) susigrąžinimo tvirtinimo darbo eigas. |       
+
+|              <strong>Tipas</strong>              |                   <strong>Naudokite šį tipą norėdami</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>Išlaidų ataskaita</strong>         |            Kurti išlaidų ataskaitų tvirtinimo darbo eigas.             |
+|  <strong>Automatinis išlaidų ataskaitos registravimas</strong>   |        Kurti išlaidų ataskaitų automatinio registravimo darbo eigas.        |
+|       <strong>Išlaidų eilutės elementas</strong>        |     Kurti išlaidų ataskaitų eilučių elementų tvirtinimo darbo eigas.      |
+| <strong>Išlaidų eilutės prekės automatinis registravimas</strong> | Kurti išlaidų ataskaitų eilučių elementų automatinio registravimo darbo eigas. |
+|       <strong>Kelionės paraiška</strong>       |          Kurti pirkimo paraiškų tvirtinimo darbo eigas.           |
+|      <strong>Avanso grynaisiais pinigais prašymas</strong>      |         Kurti avanso grynaisiais pinigais užklausų tvirtinimo darbo eigas.          |
+|        <strong>PVM susigrąžinimas</strong>        | Kurti pridėtinės vertės mokesčio (PVM) susigrąžinimo tvirtinimo darbo eigas.  |
+
 

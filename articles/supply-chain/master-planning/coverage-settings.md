@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Padengimo parametrai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bendrasis planavimas naudoja padengimo parametrus prekės poreikiui apskaičiuoti. 
 
@@ -46,7 +45,7 @@ Galite nurodyti padengimo parametrus keliais būdais:
 
 <!-- -->
 
--   Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai**. Puslapio **Patvirtinto produkto informacija** skirtuke **Bendra** esančioje grupėje **Administravimas** spustelėkite saitą **Saugojimo dimensijų grupė**. Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.
+- Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite <strong>Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai</strong>. **Puslapio <strong>Patvirtinto produkto informacija skirtuke** Bendra</strong> esančioje grupėje <strong>Administravimas</strong> spustelėkite saitą <strong>Saugojimo dimensijų grupė</strong>. Puslapyje <strong>Saugojimo dimensijų grupė</strong> pasirinkite lauką <strong>Padengimo planas dimensijomis</strong>, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas <strong>Padengimo planas pagal dimensiją</strong>.
 
 
 

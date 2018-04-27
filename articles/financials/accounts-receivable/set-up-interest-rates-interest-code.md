@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Palūkanų tarifų nustatymas palūkanų kodui
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Delspinigių koduose yra parametrų, kurie nustato, kokie delspinigiai taikomi laiku neapmokėtoms sąskaitoms ir kaip jie apskaičiuojami.
 
@@ -47,17 +46,17 @@ Jei delspinigiams apskaičiuoti naudojamas delspinigių kodas, kiekvienam delspi
 ## <a name="interest-rates-based-on-a-percentage"></a>Delspinigių tarifai pagal procentą
 Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą procentą.
 
--   Delspinigių suma taikoma visoms valiutoms.
--   Galima įvesti pasirinktinius delspinigių sumos limitus.
--   Puslapio **Nustatyti palūkanų kodus** lauke **Skaičiuoti palūkanas** pagal** **pasirenkamą **Procentą**.
+- Delspinigių suma taikoma visoms valiutoms.
+- Galima įvesti pasirinktinius delspinigių sumos limitus.
+- Puslapio <strong>Nustatyti delspinigių kodus</strong> lauke **Skaičiuoti delspinigius pagal<strong> pasirenkama** </strong> <strong>Procentą</strong>.
 
 Pvz., norėdami nustatyti palūkanų kodą, kuris apskaičiuoja 5 proc. palūkanas už kiekvienus du mėnesius, kiek vėluojama apmokėti sąskaitą faktūrą, lauke **Skaičiuoti palūkanas kas** turėtumėte įvesti 2 ir pasirinkti **Mėn.**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Delspinigių tarifai pagal sumas
 Galite nustatyti delspinigių tarifus, kurie apskaičiuoja nurodytą sumą pagal valiutą.
--   Delspinigių kode nurodoma kiekvienos valiutos delspinigių suma.
--   Galima įvesti pasirinktinius delspinigių sumos limitus.
--   Puslapio **Nustatyti palūkanų kodus** lauke **Skaičiuoti palūkanas pagal** pasirenkamą **Sumą**.
+- Delspinigių kode nurodoma kiekvienos valiutos delspinigių suma.
+- Galima įvesti pasirinktinius delspinigių sumos limitus.
+- Puslapio <strong>Nustatyti delspinigių kodus</strong> lauke **Skaičiuoti delspinigius pagal <strong> pasirenkama </strong> Sumą**.
 
 Pvz., norėdami nustatyti palūkanų kodą, kuris apskaičiuoja 25,00 dydžio palūkanas už kiekvienas 20 dienų, kiek vėluojama apmokėti sąskaitą faktūrą, lauke **Skaičiuoti palūkanas kas** turėtumėte įvesti 20 ir pasirinkti **Dien.**.
 
@@ -84,7 +83,7 @@ Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>2 pavyzdys: delspinigiai pagal diapazoną = dienos
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Galite nustatyti diapazono informaciją, kaip nurodyta toliau.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>3 pavyzdys: delspinigiai pagal diapazoną = mėnesiai
 ----------------------------------------------------
 

@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Mažmeninės prekybos kuponų kūrimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Kuponų apžvalga
 
@@ -46,9 +45,12 @@ Norint sukurti kuponą, atskirai sukuriami nuolaida ir kuponas. Tada jie susieja
 
 ### <a name="limited-use-coupons"></a>Riboto naudojimo kuponai
 
-Kuponus galima sukonfigūruoti kaip riboto naudojimo. Naudojimo limitą galima apibrėžti vienam klientui ar kanalui arba kaip visuotinį limitą. Šis limitas taikomas įprastą ar brūkšninį kodą įvedant ar nuskaitant elektroniniame kasos aparate arba įvedant pardavimo užsakymą. Kuponas įrašomas kaip panaudotas, kai baigiamas užsakymas, su kuriuo tas kuponas susietas.
+Kuponus galima sukonfigūruoti kaip riboto naudojimo. Naudojimo limitą galima apibrėžti vienam klientui ar kanalui arba kaip visuotinį limitą. Šis limitas taikomas įprastą ar brūkšninį kodą įvedant ar nuskaitant elektroniniame kasos aparate arba įvedant pardavimo užsakymą.
 
 Limitas taikomas vienam kupono kodui. Pavyzdžiui, vienkartinį kuponą su dviem kodais galima naudoti du kartus: kiekvieną kupono kodą po kartą. Kiekvieną kupono kodą galima nepriklausomai nustatyti kaip aktyvų.
+
+> [!NOTE]
+> Kupono kodui pasiekus savo naudojimo limitą sistema automatiškai *nepakeičia* kupono kodo būsenos į „Panaudotas“. Tačiau sistema neleidžia toliau naudotis kuponu jam pasiekus naudojimo limitą. Jei neautomatiškai nustatoma kita kupono kodo būsena išskyrus „Aktyvus“, šio kupono kodo negalima naudoti jokiame kanale.
 
 ## <a name="managing-coupons"></a>Kuponų valdymas
 
@@ -68,8 +70,8 @@ Nustatyti kuponą galite tik nustatę kupono brūkšninį kodą ir dvi kupono nu
     > [!NOTE]
     > Abiejų numeracijų lauką **Aprėptis** turite nustatyti kaip **Įmonė**. Daugeliu atvejų abi numeracijas turėtumėte generuoti automatiškai.
 
-5.  Puslapio **Bendrai naudojami mažmeninės prekybos parametrai** skirtuke **Brūkšniniai kodai** pasirinkite savo anksčiau sukurtą brūkšninį kodą.
-6.  Puslapio **Mažmeninės prekybos parametrai** skirtuke **Numeracijos** pasirinkite sukurtas kupono numerio ir kupono kodo ID numeracijas.
+5.  Puslapio **Mažmeninės prekybos parametrai** skirtuke **Brūkšniniai kodai** pasirinkite savo anksčiau sukurtą brūkšninį kodą.
+6.  Puslapio **Bendrai naudojami mažmeninės prekybos parametrai** skirtuke **Numeracijos** pasirinkite sukurtas kupono numerio ir kupono kodo ID numeracijas.
 7.  Dabar galite atidaryti puslapį **Kuponai** ir kurti naujus kuponus.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kas nutinka kuponus atnaujinus iš dalies

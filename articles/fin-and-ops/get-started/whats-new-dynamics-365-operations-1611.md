@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos 1611 programos „Dynamics 365 for Operations“ versijoje veikiančios funkcijos.
 
@@ -113,6 +112,7 @@ ms.lasthandoff: 11/03/2017
 </table>
 
 ## <a name="expense-management"></a>Išlaidų valdymas
+
 | Ką galite daryti                                                            | Kodėl tai svarbu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Iš naujo priskirkite atleisto darbuotojo kredito kortelės operacijas.                     | Kartais, kai darbuotojas atleidžiamas, importuojant į išlaidų sąskaitą turimas įtraukti suaktyvintas kreditinės kortelės operacijas jo ar jos „Active Directory Domain Services“ (AD DS) abonementas išjungiamas. Anksčiau negalėdavote priskirti išlaidų įrašo atstovo arba į išlaidų ataskaitą įtraukti kredito kortelės operacijų. Dabar, kai susietasis darbuotojas atleidžiamas, naudodami puslapį **Kredito kortelės operacijos** bet kuriai kredito kortelės operacijai galite iš naujo priskirti darbuotoją. Kai iš naujo priskiriate kredito kortelės operaciją, galima pasirinkti išlaidų ataskaitos operaciją ir apmokėti ją įprastu išlaidų ataskaitos kompensacijos procesu. |
@@ -225,6 +225,7 @@ ms.lasthandoff: 11/03/2017
 </table>
 
 ## <a name="human-capital-management"></a>Žmogiškojo kapitalo valdymas
+
 | Ką galite daryti                                                                                | Kodėl tai svarbu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sukurkite našumo žurnalą.                                                                  | Prieš užbaigdami savo apžvalgą dažnai renkate informaciją apie jūsų, kaip darbuotojo, sėkmei peržiūros laikotarpiu įtakos turėjusią veiklą ar įvykius. Įrašą galite įtraukti į savo našumo žurnalą, kad galėtumėte dokumentuoti tą veiklą ir įvykius. Norėdami pateikti daugiau informacijos redaktoriui, taip pat galite prijungti šią veiklą ir įvykius prie tikslo arba našumo rezultatų apžvalgos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ Toliau nurodytose šalyse taip pat reikalinga mažmeninės prekybos lokalizacija
 </table>
 
 ## <a name="planning-and-scheduling"></a>Planavimas ir grafiko sudarymas
+
 | Ką galite daryti                                                                                                                                                                                                      | Kodėl tai svarbu                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nustatykite numatytuosius pardavimo ir pirkimo užsakymo parametrus pagal bet kurią aktyvią bendrojo produkto dimensiją. Todėl galite nurodyti numatytuosius sandėliavimo vieneto (SKU) arba dalinio SKU užsakymo parametrus. | Galite nurodyti produkto dimensijai arba produkto dimensijų kombinacijai taikomus numatytuosius užsakymo parametrus. **Pavyzdys** Parduodate produktą, kurio pavadinimas Polo marškinėliai. Šis produktas yra dviejų spalvų: žalios ir mėlynos. Jis taip pat yra dviejų dydžių: „Small“ (mažas) ir „Medium“ (vidutinis). Spalva ir dydis yra aktyviosios produkto Polo marškinėliai dimensijos. Galima užblokuoti visų žalios spalvos Polo marškinėlių pirkimus, nepriklausomai nuo jų dydžio. |
@@ -624,6 +626,7 @@ Toliau nurodytose šalyse taip pat reikalinga mažmeninės prekybos lokalizacija
 </table>
 
 ## <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
+
 | Ką galite daryti                                                                                                           | Kodėl tai svarbu                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Naudokite toliau pateikiamą pasirinkimą registruodami sąskaitos faktūros pasiūlymus kaip paketinę užduotį.                                                            | Projektų apskaitininkai gali nustatyti, kad paketinė užduotis automatiškai pasirinktų registruojamus sąskaitos faktūros pasiūlymus, jei tie pasiūlymai atitinka paketinėje užduotyje nurodytus kriterijus. Ši funkcija pagerina ąskaitos faktūros registravimo automatizavimą, nes paketinė užduotis gali būti nuolat paleista ir automatiškai pasirenka registruojamus pasiūlymus. |

@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiamas išraiškos ir lentelės apribojimų naudojimas. Apribojimais valdomos atributo reikšmės, kurias galite pasirinkti konfigūruodami pardavimo užsakymo, pardavimo pasiūlymo, pirkimo užsakymo arba gamybos užsakymo produktus. Galite naudoti išraiškos apribojimus arba lentelės apribojimus atsižvelgdami į tai, kaip norite sukurti apribojimus. 
 
@@ -204,23 +203,24 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 
 Kitos lentelės pavyzdžiuose nurodyta, kaip rašyti intarpo ženklą.
 
-| Intarpo ženklas    | aprašymas                                                                                   |
+
+|  Intarpo ženklas   |                                          aprašymas                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Priedas                                                                                      |
-| x \* y \* z       | Daugyba                                                                                |
-| x – y             | Dvejetainio nario atimtis atliekama lygiai taip pat, kaip dvejetainio nario sudėtis su neigiamu antru nariu. |
-| x ^ y ^ z         | Kėlimas laipsniu, kai susieta su dešine puse                                                   |
-| !x                | Bulio logika ne                                                                                   |
-| x -: y            | Bulio logikos implikacija                                                                           |
-| x | y | z         | Bulio logika ar                                                                                    |
-| x & y & z         | Būlio logika ir                                                                                   |
-| x == y == z       | Lygybė                                                                                      |
-| x != y != z       | Ypatingas                                                                                      |
-| x &lt; y &lt; z   | Mažesnis nei                                                                                     |
-| x &gt; y &gt; z   | Didesnis nei                                                                                  |
-| x &lt;= y &lt;= z | Mažiau arba lygu                                                                         |
-| x &gt;= y &gt;= z | Daugiau arba lygu                                                                      |
-| (x)               | Skliausteliuose perrašomas numatytasis pirmumas.                                                      |
+|     x + y + z     |                                           Priedas                                            |
+|    x \* y \* z    |                                        Daugyba                                         |
+|       x – y       | Dvejetainio nario atimtis atliekama lygiai taip pat, kaip dvejetainio nario sudėtis su neigiamu antru nariu. |
+|     x ^ y ^ z     |                          Kėlimas laipsniu, kai susieta su dešine puse                          |
+|        !x         |                                          Bulio logika ne                                          |
+|      x -: y       |                                      Bulio logikos implikacija                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Būlio logika ir                                          |
+|    x == y == z    |                                           Lygybė                                            |
+|    x != y != z    |                                           Ypatingas                                            |
+|  x &lt; y &lt; z  |                                           Mažesnis nei                                           |
+|  x &gt; y &gt; z  |                                         Didesnis nei                                          |
+| x &lt;= y &lt;= z |                                     Mažiau arba lygu                                     |
+| x &gt;= y &gt;= z |                                   Daugiau arba lygu                                    |
+|        (x)        |                           Skliausteliuose perrašomas numatytasis pirmumas.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kodėl išraiškos apribojimai teisingai nepatvirtinami?
 Produkto konfigūracijos modelyje negalite naudoti rezervuotų raktažodžių kaip atributų, komponentų ar pakomponenčių sprendimo priemonės pavadinimų. Toliau pateikiamas rezervuotų raktažodžių, kuriuos galite naudoti, sąrašas.

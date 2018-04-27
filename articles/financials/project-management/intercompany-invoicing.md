@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations“ projektų vidinės įmonės SF išrašymą.
 
@@ -58,20 +57,22 @@ Tikslas yra vidinių įmonių projektų operacijų išlaidų kontrolę, įplauk�
 
 Šiame pavyzdyje FRSI turi būti USSI juridinio subjekto klientas, o USSI turi būti FRSI juridinio subjekto tiekėjas. Tada galite nustatyti vidinės įmonės ryšį tarp dviejų juridinių subjektų. Tolesnėje procedūroje parodoma, kaip nustatyti parametrus, kad abu juridiniai subjektai galėtų dalyvauti išrašant vidinės įmonės SF.
 
-1.  Nustatykite FRSI kaip USSI juridinio subjekto klientą, o USSI nustatykite kaip FRSI juridinio subjekto tiekėją. Šios užduoties veiksmams atlikti naudojamos trys įvesties vietos.
-    | Veiksmas | Įvesties taškas                                                                       | aprašymas   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Pasirinkite USSI ir spustelėkite **Gautinos sumos** &gt; **Klientai** &gt; **Visi klientai**. | Sukurkite naują FRSI kliento įrašą ir pasirinkite klientų grupę.                                                                                  |
-    | Mlrd.    | Pasirinkite FRSI ir spustelėkite **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai**.        | Sukurkite naują USSI tiekėjo įrašą ir pasirinkite tiekėjų grupę.                                                                                    |
-    | K    | Pasirinkę FRSI atidarykite tiekėjo įrašą, kurį ką tik sukūrėte.                            | Veiksmų srityje, skirtuke **Bendra**, grupėje **Nustatymas** spustelėkite **Vidinė įmonė**. Puslapio **Vidinė įmonė** skirtuke **Prekybiniai ryšiai** slankiklį **Aktyvus** nustatykite į **Taip**. Lauke **Kliento įmonė** pasirinkite kliento įrašą, kurį sukūrėte atlikdami A veiksmą. |
+1. Nustatykite FRSI kaip USSI juridinio subjekto klientą, o USSI nustatykite kaip FRSI juridinio subjekto tiekėją. Šios užduoties veiksmams atlikti naudojamos trys įvesties vietos.
 
-2.  Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo ir apskaitos parametrai**, tada spustelėkite skirtuką **Vidinė įmonė**. Parametrų nustatymo būdas priklauso nuo to, ar esate besiskolinantysis juridinis subjektas, ar skolinantysis juridinis subjektas.
-    -   Jei esate besiskolinantis juridinis subjektas, pasirinkite įsigijimo kategoriją, naudotiną siekiant gretinti tiekėjo SF, kurios sugeneruojamos automatiškai.
-    -   Jei esate skolinantis juridinis subjektas, kiekvienam besiskolinančiam objektui pažymėkite kiekvieno operacijos tipo numatytąją projekto kategoriją. Projekto kategorijos naudojamos mokesčių konfigūracijoje, kai vidinės įmonės operacijų SF išrašymo kategorija taikoma tik besiskolinančiam juridiniam subjektui. Galite pasirinkti kaupti vidinės įmonės operacijų įplaukas. Šis kaupimas atliekamas, kai operacijos yra registruojamos, ir jis atšaukiamas, kai vidinės įmonės SF yra užregistruota.
+   | Veiksmas |                                                       Įvesties taškas                                                        |                                                                                                                                                                                               aprašymas                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Pasirinkite USSI ir spustelėkite <strong>Gautinos sumos</strong> &gt; <strong>Klientai</strong> &gt; <strong>Visi klientai</strong>. |                                                                                                                                                                  Sukurkite naują FRSI kliento įrašą ir pasirinkite klientų grupę.                                                                                                                                                                  |
+   |  Mlrd.   |    Pasirinkite FRSI ir spustelėkite <strong>Mokėtinos sumos</strong> &gt; <strong>Tiekėjai</strong> &gt; <strong>Visi tiekėjai</strong>.     |                                                                                                                                                                    Sukurkite naują USSI tiekėjo įrašą ir pasirinkite tiekėjų grupę.                                                                                                                                                                    |
+   |  K   |                                  Pasirinkę FRSI atidarykite tiekėjo įrašą, kurį ką tik sukūrėte.                                  | Veiksmų srityje, skirtuke <strong>Bendra</strong>, grupėje <strong>Nustatymas</strong> spustelėkite <strong>Vidinė įmonė</strong>. Puslapio <strong>Vidinė įmonė</strong> skirtuke <strong>Prekybiniai ryšiai</strong> slankiklį <strong>Aktyvus</strong> nustatykite į <strong>Taip</strong>. Lauke <strong>Kliento įmonė</strong> pasirinkite kliento įrašą, kurį sukūrėte atlikdami A veiksmą. |
 
-3.  Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainos** &gt; **Perkėlimo kaina**.
-4.  Pasirinkite valiutą, operacijos tipą ir perkėlimo kainos modelį. SF naudojama valiuta sukonfigūruojama skolinančio juridinio subjekto kliento įraše, skirtame besiskolinančiam juridiniam subjektui. Valiuta yra naudoja įrašams perkėlimo kainų lentelėje gretinti.
-5.  Spustelėkite **DK** &gt; **Registravimo sąranka** &gt; **Vidinės įmonės apskaita** ir nustatykite ryšį tarp USSI ir FRSI.
+
+2. Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Projektų valdymo ir apskaitos parametrai**, tada spustelėkite skirtuką **Vidinė įmonė**. Parametrų nustatymo būdas priklauso nuo to, ar esate besiskolinantysis juridinis subjektas, ar skolinantysis juridinis subjektas.
+   -   Jei esate besiskolinantis juridinis subjektas, pasirinkite įsigijimo kategoriją, naudotiną siekiant gretinti tiekėjo SF, kurios sugeneruojamos automatiškai.
+   -   Jei esate skolinantis juridinis subjektas, kiekvienam besiskolinančiam objektui pažymėkite kiekvieno operacijos tipo numatytąją projekto kategoriją. Projekto kategorijos naudojamos mokesčių konfigūracijoje, kai vidinės įmonės operacijų SF išrašymo kategorija taikoma tik besiskolinančiam juridiniam subjektui. Galite pasirinkti kaupti vidinės įmonės operacijų įplaukas. Šis kaupimas atliekamas, kai operacijos yra registruojamos, ir jis atšaukiamas, kai vidinės įmonės SF yra užregistruota.
+
+3. Spustelėkite **Projektų valdymas ir apskaita** &gt; **Sąranka** &gt; **Kainos** &gt; **Perkėlimo kaina**.
+4. Pasirinkite valiutą, operacijos tipą ir perkėlimo kainos modelį. SF naudojama valiuta sukonfigūruojama skolinančio juridinio subjekto kliento įraše, skirtame besiskolinančiam juridiniam subjektui. Valiuta yra naudoja įrašams perkėlimo kainų lentelėje gretinti.
+5. Spustelėkite **DK** &gt; **Registravimo sąranka** &gt; **Vidinės įmonės apskaita** ir nustatykite ryšį tarp USSI ir FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>2 pavyzdys: vidinės įmonės grafiko kūrimas ir registravimas
 USSI, skolinantis juridinis subjektas, turi kurti ir registruoti FRSI, besiskolinančio juridinio subjekto, projekto grafiką. Šios užduoties veiksmams atlikti naudojamos dvi įvesties vietos.

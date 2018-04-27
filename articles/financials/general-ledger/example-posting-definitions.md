@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>Registravimo aprašų pavyzdžiai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami pavyzdžiai, kuriais parodoma, kaip registravimo aprašai naudojami atliekant pirkimo užsakymo biudžeto rezervavimus ir biudžeto asignavimus.
 
@@ -57,7 +56,7 @@ Visos pirkimo užsakymo rezervavimų kvitų operacijos turi būti subalansuotos 
 |-------------------------|----------------------|----------|
 | Sąskaitos struktūra – pelnas ir nuostolis | \*                   | 1        |
 
-* Tuščia vertė lauke **Gretinti sąskaitos numerį** reiškia, kad visos apibrėžtos sąskaitos struktūros sugretintos sąskaitos yra gretinimo taisyklių dalis.
+<em>Tuščia vertė lauke **Gretinti sąskaitos numerį</em>* reiškia, kad visos apibrėžtos sąskaitos struktūros sugretintos sąskaitos yra gretinimo taisyklių dalis.
 
 ### <a name="posting-definition--generated-entries"></a>Registravimo aprašas – sugeneruoti įrašai
 
@@ -98,7 +97,7 @@ Kai įjungta biudžeto asignavimų ir registravimo aprašų funkcija, biudžeto 
 |-------------------------|----------------------|----------|
 | Sąskaitos struktūra – pelnas ir nuostolis | \*                   | 1        |
 
-* Tuščia vertė lauke **Gretinti sąskaitos numerį** reiškia, kad visos apibrėžtos sąskaitos struktūros sugretintos sąskaitos yra gretinimo taisyklių dalis.
+<em>Tuščia vertė lauke **Gretinti sąskaitos numerį</em>* reiškia, kad visos apibrėžtos sąskaitos struktūros sugretintos sąskaitos yra gretinimo taisyklių dalis.
 
 ### <a name="posting-definition--generated-entries"></a>Registravimo aprašas – sugeneruoti įrašai
 

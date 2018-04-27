@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte savo tikslus arba koks buvo jūsų našumas per pasirinktą laikotarpį. Taip pat galite pagirti bendradarbio veiksmus naudodami žurnalą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
 
@@ -42,7 +42,7 @@ Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte sa
 9. Lauke Raktažodžiai įveskite reikšmę.
 10. Spustelėkite Įtraukti išorinį saitą.
 11. Lauke Aprašas įveskite „Envision“.
-12. Lauke Interneto adresas įveskite https://www.microsoft.com/en/envision/default.
+12. Lauke Interneto adresas įrašykite „<https://www.microsoft.com/en/envision/default>“.
 13. Norėdami vėl atidaryti tinklelį, spustelėkite po mygtuku Įrašyti esančią antraštę, pavadinimu Našumo žurnalas.
     * Galite įtraukti pasirinktą žurnalą arba žurnalus į tikslą, kad jis būtų rodomas, kai atidarysite tikslą. „FastTab“ konteineryje Saitai bus įtrauktas saitas.    Jei įtrauksite žurnalą į tikslą ir tada įtrauksite tikslą į apžvalgą, žurnalas apžvalgoje bus rodomas automatiškai.  
     * Galite įtraukti pasirinktą žurnalą arba žurnalus į apžvalgą, kad jis būtų rodomas, kai atidarysite apžvalgą.    Saitas bus įtrauktas „FastTab" Saitai.  

@@ -16,16 +16,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: aa2bbfab4afa59c15e28526192cc07be13da11d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis Mano komanda
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Mano komanda**. Ši darbo sritis suteikia vadovams galimybę peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Jie taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 
@@ -58,7 +58,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations”, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent‟, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent‟ tinklapis</a> esančią bandomąją versiją.
+<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations”, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent“, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent‟ tinklapis</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">

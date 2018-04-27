@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Sandėlio darbo strategijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sandėlio darbo strategijos programos „Microsoft Dynamics 365 for Finance and Operations“ kontroliuoja, ar sandėlio darbą kuria gamybos sandėlio procesai, remdamiesi darbo užsakymo tipu, atsargų vieta ir produktu.
 
@@ -68,14 +67,15 @@ Kai šiuo atveju planuojate konfigūruoti sandėlio darbo strategiją, turėtum�
 
 Čia pateikiamas darbo strategijos, kurią galite nustatyti atsižvelgdami į šiuos aspektus, pavyzdys.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Darbo strategijos pavadinimas**<br>                 |**Darbo užsakymo tipai**<br>                               |
-| Sandėliavimo darbo nėra 01     `                    |- Pagamintų prekių sandėliavimas<br>                           |
-|                                         |**Vietos**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Produktai** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Darbo strategijos pavadinimas</strong><br> | <strong>Darbo užsakymo tipai</strong><br> |
+|         Sandėliavimo darbo nėra 01     `          |     - Pagamintų prekių sandėliavimas<br>      |
+|                                       |    <strong>Vietos</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Produktai</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Tolesnėse procedūrose pateikiamos nuoseklios instrukcijos apie tai, kaip nustatyti šio scenarijaus sandėlio darbo strategijos. Taip pat aprašytas sąrankos pavyzdinis, kuriuo parodoma, kaip gamybos užsakymą skelbti baigtus vietoje, kuri nėra kontroliuojama pagal numerio lentelę.
 
@@ -126,7 +126,7 @@ VEIKSMAI (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Sąraše pasirinkite išteklių grupę 5102.</td>
+<td>Sąraše pasirinkite išteklių grupę &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +136,12 @@ VEIKSMAI (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Lauke Išeigos sandėlis įveskite „51‟.</td>
+<td>Lauke Išeigos sandėlis įveskite &#39;51&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Lauke Išeigos vieta įveskite „001‟.</td>
+<td>Lauke Išeigos vieta įveskite &#39;001&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +169,7 @@ VEIKSMAI (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Lauke Prekės numeris įveskite „L0101‟.</td>
+<td>Lauke Prekės numeris įveskite &#39;L0101&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -179,7 +179,7 @@ VEIKSMAI (25)
 <tr>
 <td></td>
 <td>6.</td>
-<td>Srityje Veiksmas spustelėkite Gamybos užsakymas.</td>
+<td>Veiksmų srityje spustelėkite Gamybos užsakymas.</td>
 </tr>
 <tr>
 <td></td>
@@ -204,17 +204,17 @@ VEIKSMAI (25)
 <tr>
 <td></td>
 <td>11.</td>
-<td>Lauke Automatinis KS suvartojimas pasirinkite Niekada.</td>
+<td>Lauke Automatinis KS suvartojimas pasirinkite &#39;Niekada&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td>Spustelėkite Gerai.</td>
+<td>Spustelėkite GERAI.</td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td>Spustelėkite Skelbti baigtu.</td>
+<td>Spustelėkite Paskelbti baigtu.</td>
 </tr>
 <tr>
 <td></td>

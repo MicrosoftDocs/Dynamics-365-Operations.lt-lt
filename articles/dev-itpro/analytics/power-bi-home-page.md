@@ -3,7 +3,7 @@ title: "„Power BI“ turinys"
 description: "Šioje temoje nurodytas pasiekiamas „Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti."
 author: sericks007
 manager: AnnBe
-ms.date: 02/22/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
@@ -19,16 +19,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="power-bi-content"></a>„Power BI“ turinys
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje nurodytas pasiekiamas „Microsoft Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti.
 
@@ -41,6 +40,7 @@ Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“, pasiekiam
 - [„Power BI“ turinys CFO apžvalga](CFO-power-bi.md)
 - [„Power BI“ turinys Kompensacija](compensation-power-bi.md)
 - [Kaštų apskaitos analizės „Power BI‟ turinys](cost-accounting-analysis-content-pack.md) 
+- [Išlaidų valdymo „Power BI“ turinys](cost-management-content-pack.md)    
 - [„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [„Power BI“ turinys Darbuotojo tobulėjimas](employee-development-PBI.md) 
 - [Finansinių įžvalgų „Power BI“ turinys](financial-insights.md)

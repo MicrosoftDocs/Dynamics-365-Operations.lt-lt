@@ -3,7 +3,7 @@ title: "„Excel“ papildinio naudojimas"
 description: "Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>„Excel“ papildinio naudojimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis. Norėdami atidaryti objekto duomenis, galite paleisti iš „Excel“ arba „Microsoft Dynamics 365 for Finance and Operations“.
 
@@ -35,6 +35,11 @@ Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ 
 
 > [!NOTE]
 > Jei „Microsoft Azure Active Directory“ („Azure AD“) nuomotojas bus sukonfigūruotas naudoti „Active Directory“ susiejimo tarnybą (AD FS), būtinai turi būti įdiegtas 2016 m. gegužės mėn. „Office“ skirtas naujinimas – tuomet naudojant „Excel“ papildinį bus galima tinkamai jus prijungti.
+
+Norėdami daugiau sužinoti apie tai, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą [„Dynamics 365 for Finance and Operations“ antraštės ir eilučių „Excel“ šablono kūrimas](https://youtu.be/RTicLb-6dbI) vaizdo įrašą.
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Atidaryti objekto duomenis programoje „Excel“ paleidus iš „Finance and Operations“
 1. Programos „Finance and Operations“ puslapyje spustelėkite **Atidaryti naudojant „Microsoft Office“**.

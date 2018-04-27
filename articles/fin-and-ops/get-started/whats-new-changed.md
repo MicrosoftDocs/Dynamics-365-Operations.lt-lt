@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Kas nauja ar pasikeitė
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ versijose.
 
 Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į naujausią versiją procesas](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Programos leidimai
 
@@ -61,6 +61,13 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>Balandžio 2018</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ versijoje 8.0 (2018 m. balandžio mėn.)</a></td>
+</tr>
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>Platformos „update 15“</td>
 <td>7.0.4839</td>
-<td>2018 m. kovo mėn. (Tai yra tikslinis leidimas, kurį gali naudoti tik tie vartotojai, kurie užsiregistravo Tęstinėje automatiškai atnaujinamų privalumų programoje (CAAP).)</td>
+<td>2018 m. kovo mėn. (Tai yra tikslinis leidimas, kurį gali naudoti tik tie vartotojai, kurie užsiregistravo Tęstinėje automatiškai atnaujinamų privalumų programoje (CAAP). Platformos 15 naujinimas taip pat pasiekiamas naudojant „Dynamics 365 for Finance and Operations“ versiją 8.0.)</td>
 <td><a href="whats-new-platform-update-15.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise“ leidimo platformos 15 naujinime (2018 m. kovo mėn.)</a></td><tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>

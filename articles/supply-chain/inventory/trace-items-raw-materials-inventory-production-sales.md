@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose.
 
@@ -129,7 +128,7 @@ Po to, kai pradedate sekimą, galite naudoti tolesnes mygtuko **Sekti nuo mazgo*
 Jei norite naudoti parinktį **Naujas atgalinis sekimas** arba **Naujas sekimas į priekį**, turite naudoti funkciją **Atidaryti naujame lange**, kad naujas sekimas būtų rodomas naujame lange.
 
 ## <a name="can-i-save-the-trace-details"></a>Ar galiu įrašyti sekimo duomenis?
-Skirtuko **Išsami informacija** informaciją galite įrašyti kaip XML failą – veiksmų srityje po veiksmu ****Sekimas**** spustelėkite **Eksportuoti**. Be sekimo duomenų XML faile pateikiami ir sekimo kriterijai, pirminis mazgas ir turimas kiekis. Galimybė įrašyti sekimo duomenis yra naudinga, jei, pavyzdžiui, norite pridėti informacijos prie kokybės užsakymo arba kitų atitikties dokumentų. Galite nurodyti, kur failas bus išsaugotas. Norėdami failą peržiūrėti iš karto, pasirinkite parinktį **Rodyti dokumentą**. **Pastaba.** Failas visada įrašomas, net ir tuo atveju, jei norite jį tik peržiūrėti. Pagal numatytuosius nustatymus XML failas atidaromas naršyklės lange. Tačiau failą galite spustelėti dešiniuoju pelės mygtuku, pasirinkti **Atidaryti naudojant** ir pasirinkti programą turiniui rodyti.
+Informaciją skirtuke <strong>Išsami informacija</strong> galite įrašyti kaip XML failą – veiksmų srityje po veiksmu *<strong><em>Sekimas</em></strong>* spustelėkite <strong>Eksportuoti</strong>. Be sekimo duomenų XML faile pateikiami ir sekimo kriterijai, pirminis mazgas ir turimas kiekis. Galimybė įrašyti sekimo duomenis yra naudinga, jei, pavyzdžiui, norite pridėti informacijos prie kokybės užsakymo arba kitų atitikties dokumentų. Galite nurodyti, kur failas bus išsaugotas. Norėdami failą peržiūrėti iš karto, pasirinkite parinktį <strong>Rodyti dokumentą</strong>. <strong>Pastaba.</strong> Failas visada įrašomas, net ir tuo atveju, jei norite jį tik peržiūrėti. Pagal numatytuosius nustatymus XML failas atidaromas naršyklės lange. Tačiau failą galite spustelėti dešiniuoju pelės mygtuku, pasirinkti <strong>Atidaryti naudojant</strong> ir pasirinkti programą turiniui rodyti.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Ar galiu apskaičiuoti konkrečios prekės ar ingrediento balansą?
 Informaciją iš suvestinės puslapių galite eksportuoti į „Microsoft Excel“. Atidarykite aktualų puslapį, spustelėkite piktogramą **Atidaryti naudojant „Microsoft Office“** ir pasirinkite **Eksportuoti į „Microsoft Excel‟**. Ši funkcija ypač naudinga, kai norite apskaičiuoti prekės ar ingrediento masės balansą iš puslapio **Operacijų suvestinė**. Puslapyje **Operacijų suvestinė** galite filtruoti pagal prekę arba ingredientą ir, jei reikia, pagal paketą, ir tada eksportuoti informaciją į „Excel“. Programoje „Excel“ galite atskirti, pavyzdžiui, turimą kiekį, parduotą kiekį ir kiekį, panaudotą gamyboje.

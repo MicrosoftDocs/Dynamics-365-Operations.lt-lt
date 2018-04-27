@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Finance and Operations“ mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
 
@@ -127,7 +126,7 @@ Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamir�
 ### <a name="create-the-workspace"></a>Darbo srities kūrimas
 
 1.  Naršyklėje atidarykite „Finance and Operations“ ir prisijunkite.
-2.  Prisijungę pridėkite dalį **&mode=mobile** prie URL, kaip parodyta tolesniame pavyzdyje, ir atnaujinkite puslapį: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Prisijungę pridėkite dalį **&mode=mobile** prie URL, kaip parodyta tolesniame pavyzdyje, ir atnaujinkite puslapį: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**. Mobiliųjų programų dizaino įrankis pasirodo taip, kaip pasirodo užduočių įrašymo priemonė.
 4.  Spustelėkite **Įtraukti**, kad sukurtumėte naują darbo sritį. Šiuo atveju darbo sritį pavadinkite **Mano tvirtinimai**.
 5.  Įvesti aprašymą.
@@ -173,23 +172,23 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
 
 Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslapį, naudokite „Finance and Operations“ puslapį **VendMobileInvoiceHeaderDetails**. Atminkite, kad, atsižvelgiant į SF, kurios sistemoje jums priskirtos, skaičių, šiame puslapyje rodoma seniausia SF (SF, kuri buvo sukurta pirmoji). Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia kokių nors SF duomenų, kad galėtumėte kurti mobiliųjų įrenginių puslapį. [![Darbo eigos puslapis](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  „Finance and Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
-2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
-3.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
-4.  Pasirinkite puslapį **Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
-5.  Skirtuke **Laukai** spustelėkite stulpelio antraštę **Tinklelis**.
-6.  Spustelėkite **Ypatybės** &gt; **Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
-7.  Įveskite puslapio pavadinimą, pvz., **SF informacija SF**, ir aprašą, pvz., **SF antraštės ir eilutės informacijos peržiūra**.
-8.  Spustelėkite **Pasirinkti laukus**. Atminkite, kad galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. 
-9.  Iš antraštės įtraukite toliau nurodytus laukus, atsižvelgdami į šio scenarijaus reikalavimus.
-    - Tiekėjo vardas
-    - Bendroji SF suma
-    - Mokėtojo kodas
-    - SF numeris
-    - Data
-    - SF aprašas
-    - Terminas
-    - SF valiuta
+1. „Finance and Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
+2. Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
+3. Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
+4. Pasirinkite puslapį <strong>Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite** Redaguoti</strong>.
+5. Skirtuke **Laukai** spustelėkite stulpelio antraštę **Tinklelis**.
+6. Spustelėkite **Ypatybės** &gt; **Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
+7. Įveskite puslapio pavadinimą, pvz., **SF informacija SF**, ir aprašą, pvz., **SF antraštės ir eilutės informacijos peržiūra**.
+8. Spustelėkite **Pasirinkti laukus**. Atminkite, kad galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. 
+9. Iš antraštės įtraukite toliau nurodytus laukus, atsižvelgdami į šio scenarijaus reikalavimus.
+   - Tiekėjo vardas
+   - Bendroji SF suma
+   - Mokėtojo kodas
+   - SF numeris
+   - Data
+   - SF aprašas
+   - Terminas
+   - SF valiuta
 
 10. Iš puslapio eilučių tinklelio įtraukite toliau nurodytus laukus.
     - Įsigijimo kategorija
@@ -199,7 +198,7 @@ Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslap
     - 1099 suma
 
 11. Kai visi ankstesniuose dviejuose veiksmuose nurodyti laukai įtraukti, spustelėkite **Atlikta**. Puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
-[![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 13. Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
 14. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
@@ -296,14 +295,14 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite „Finance and Operations“
 
 ### <a name="vendor-invoice-attachments"></a>Tiekėjo SF priedai
 
-1.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**
-2.  Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
-3.  Pasirinkite puslapį **SF informacija**, kurį sukūrėte anksčiau, o tada spustelėkite **Redaguoti**.
-4.  Nustatykite parinkties **Dokumentų valdymas** reikšmę **Taip**, kaip parodyta toliau. **Pastaba.** Jei mobiliajame įrenginyje priedų rodyti nereikia, galite palikti nustatytą šios parinkties reikšmę **Ne**, kuri yra numatytasis nustatymas.
-![Dokumentų tvarkymas](./media/docmanagement-216x300.png)
-6.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
-7.  Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
-8.  Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
+1. Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**
+2. Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
+3. Pasirinkite puslapį <strong>SF informacija **, kurį sukūrėte anksčiau, o tada spustelėkite** Redaguoti</strong>.
+4. Nustatykite parinkties **Dokumentų valdymas** reikšmę **Taip**, kaip parodyta toliau. **Pastaba.** Jei mobiliajame įrenginyje priedų rodyti nereikia, galite palikti nustatytą šios parinkties reikšmę **Ne**, kuri yra numatytasis nustatymas.
+   ![Dokumentų tvarkymas](./media/docmanagement-216x300.png)
+5. Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
+6. Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.
+7. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
 
 ### <a name="vendor-invoice-line-distributions"></a>Tiekėjo SF eilutės paskirstymai
 

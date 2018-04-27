@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9ecc38597123b74c8368ed41d843826d826f90f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="petty-cash-for-eastern-europe"></a>Smulkios išlaidos (skirta Rytų Europai)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie smulkių išlaidų funkciją, kuri vartotojams Estijoje, Lietuvoje, Čekijos Respublikoje,Vengrijoje, Latvijoje, Lenkijoje ir Rusijoje suteikia galimybę sistemoje nurodyti grynųjų pinigų operacijas.
 
@@ -469,6 +468,7 @@ Sudengta suma nurodoma puslapio <strong>Grynųjų pinigų operacija</strong> lau
 </table>
 
 ## <a name="inquiries-and-reports"></a>Užklausos ir ataskaitos
+
 | Užklausa arba ataskaita                             | aprašymas                                                                                                                                                                                                                     |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Grynųjų pinigų operacijų rodinys                        | Tvarkydami važtaraščių žurnalo eilutę, naudokite veiksmų mygtuką **Užklausos**, kad peržiūrėtumėte DK operacijas, grynųjų pinigų balansą ir kitą informaciją.                                                                                  |

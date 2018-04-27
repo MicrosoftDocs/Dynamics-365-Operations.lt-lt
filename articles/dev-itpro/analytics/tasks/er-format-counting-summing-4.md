@@ -1,5 +1,5 @@
 --- 
-title: "Formato paleidimas skaičiavimo ir sumavimo veiksmams elektroninėse ataskaitose (ER) atlikti"
+title: "Formato paleidimas skaičiavimo ir sumavimo veiksmams atlikti"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9f5520dc4e1eddc2fc52a05e5dc386b982d8f5ad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3569e48bcc063b2423a60038732e8e53dbea2cb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-the-format-to-do-counting-and-summing-for-electronic-reporting-er"></a>Formato paleidimas skaičiavimo ir sumavimo veiksmams elektroninėse ataskaitose (ER) atlikti
+# <a name="run-the-format-to-do-counting-and-summing"></a>Formato paleidimas skaičiavimo ir sumavimo veiksmams atlikti
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis. Šiuos veiksmus galima atlikti DEMF įmonėje.
 

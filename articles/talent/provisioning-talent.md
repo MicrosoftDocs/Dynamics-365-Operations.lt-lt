@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>„Microsoft Dynamics 365 for Talent“ parengimas
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje pateikiami veiksmai, skirti parengti naują gamybos aplinką programai „Microsoft Dynamics 365 for Talent“. Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Talent“ paslaugos planas, ir negalite atlikti šioje temoje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
@@ -79,12 +79,12 @@ Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudoki
  
     **CDS 2.0 aplinkos** CDS 2.0 bus viešai pasiekiama nuo 2018 m. kovo 21 d., todėl „Talent“ dar nepalaiko CDS 2.0. Nors CDS 2.0 duomenų bazes peržiūrėti ir kurti galite „PowerApps“ administravimo centre, programoje „Talent“ jos naudojamos nebus. Galimybė naudoti CDS 2.0 aplinkas „Talent“ įdiegtyse bus pasiekiama vėliau.
    
- > [!Note]
- > Kad administravimo portale CDS 1.0 aplinką atskirtumėte nuo 2.0 aplinkos, pasirinkite aplinką ir peržiūrėkite **išsamią informaciją**. Ties visomis CDS 2.0 aplinkomis bus nurodyta, kad „Šiuos parametrus galite tvarkyti „Dynamics 365“ administravimo centre“, nurodę egzemplioriaus versiją, kurioje nėra duomenų bazės skirtuko. 
+   > [!Note]
+   > Kad administravimo portale CDS 1.0 aplinką atskirtumėte nuo 2.0 aplinkos, pasirinkite aplinką ir peržiūrėkite **išsamią informaciją**. Ties visomis CDS 2.0 aplinkomis bus nurodyta, kad „Šiuos parametrus galite tvarkyti „Dynamics 365“ administravimo centre“, nurodę egzemplioriaus versiją, kurioje nėra duomenų bazės skirtuko. 
  
    **Numatytosios „PowerApps“ aplinkos** Nors kiekvienas nuomotojas automatiškai sukonfigūruojamas pagal numatytąją „PowerApps“ aplinką, nerekomenduojame jų naudoti kartu su „Talent“, nes visi vartotojai, kurie yra nuomotojai, turi prieigą prie „PowerApps“ ir bandydami bei naršydami pasitelkiant „PowerApps“ ar srauto integravimus gali netyčia sugadinti jūsų gamybos duomenis.
    
-   **Bandomosios versijos aplinkos** Aplinkos, kurių pavadinimas „Bandomoji versija – alias@domain“, kuriamos pritaikant 60 dienų galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka bus automatiškai pašalinta.
+   <strong>Bandomosios versijos aplinkos</strong> Aplinkos, kurių pavadinimas „Bandomoji versija – alias@domain“, kuriamos pritaikant 60 dienų galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka bus automatiškai pašalinta.
    
    **Nepalaikomi regionai** Šiuo metu „Talent“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje ir Australijoje.
   
@@ -115,7 +115,7 @@ Norėdami paleisti scenarijų, atlikite toliau pateiktus nurodymus.
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   Vertę **EnvironmentName** pakeiskite įrašydami savo aplinkos pavadinimą. Šis pavadinimas bus rodomas LCS ir matomas tada, kai vartotojai pažymės, kurią „Talent“ aplinką naudoti. 
+   Reikšmę **MyNewEnvironment** pakeiskite įrašydami savo aplinkos pavadinimą. Šis pavadinimas bus rodomas LCS ir matomas tada, kai vartotojai pažymės, kurią „Talent“ aplinką naudoti. 
 
    Vertę **YourLocation** reikia pakeisti vienu iš regionų, kuriame palaikoma „Talent“: Jungtinės Amerikos Valstijos, Europa, Australija. 
 

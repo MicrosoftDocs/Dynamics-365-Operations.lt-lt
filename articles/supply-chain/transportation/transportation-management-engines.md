@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Transportavimo valdymo mechanizmai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas. 
 
@@ -47,7 +46,7 @@ Toliau pateiktoje lentelėje parodyti galimi „Microsoft Dynamics 365 for Finan
 | **Zonos mechanizmas**                  | Apskaičiuojama zona pagal dabartinį adresą ir skaičius zonų, kurias reikia kirsti norint nukeliauti nuo adreso A iki adreso B.                                                                                                                                                                    |
 | **Transportavimo sąskaitos tipas**            | Standartizuojama transportavimo sąskaita faktūra bei transportavimo sąskaitos eilutės ir yra naudojamas automatiniam transportavimo sąskaitos gretinimui atlikti.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kokie mechanizmai turi būti sukonfigūruoti norint vertinti siuntą?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Norėdami naudoti transportavimo valdymo mechanizmą, turite nustatyti inicijavi
 -   Paprasti konfigūracijos duomenys.
 
 Daugeliu atvejų inicijavimo duomenis galite konfigūruoti spustelėdami transportavimo valdymo mechanizmo nustatymo formose esantį mygtuką **Parametrai**. **Kilometražo mechanizmą nurodančio tarifų mechanizmo konfigūracijos pavyzdys** Toliau pateiktame pavyzdyje parodytas būtinas tarifų mechanizmo, pagrįsto .NET mechanizmo tipu Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine ir nurodančio kilometražo mechanizmą, nustatymas.
-| Parametras             | Aprašymas                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmės sintaksę sudaro du segmentai, atskirti vertikaliu brūkšniu (|). Pirmajame segmente yra surinkimo pavadinimas, apibrėžiantis priskyriklio tipą. Antrasis segmentas nurodo visiškai apibrėžtą priskyriklio tipo pavadinimą. Tai apima tipo vardų sritį. |
-| *MileageEngineCode*   | Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                                                                                                                                                                                                                                                              |
 
- 
+|          Parametras           |                                                                                  Aprašymas                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmės sintaksę sudaro du segmentai, atskirti vertikaliu brūkšniu ( |
+|  <em>MileageEngineCode</em>  |                       Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                        |
+| <em>ApportionmentEngine</em> |                        Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kaip transportavimo valdymo mechanizmuose naudojami metaduomenys?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Duomenis, kuriuos naudojate skaičiuodami tarifus „Microsoft Dynamics 365 for 
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Ar visoms mechanizmų konfigūracijoms būtini metaduomenys?
 Ne. Transportavimo valdymo mechanizmams, naudojamiems nuskaityti duomenis, kurių reikia tarifų skaičiavimui iš išorinių sistemų atlikti, metaduomenys nereikalingi. Šių mechanizmų tarifų duomenis galima nuskaityti iš išorinių transportavimo vežėjo sistemų, paprastai naudojantis žiniatinklio tarnyba. Pavyzdžiui, galite naudoti kilometražo mechanizmą, kuris nuskaito duomenis tiesiogiai iš „Bing“ žemėlapių, kad šiam mechanizmui nereikėtų naudoti metaduomenų.
+
 | **Pastaba.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Transportavimo valdymo mechanizmai, gauti naudojant „Finance and Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Finance and Operations Visual Studio“ įrankius. |

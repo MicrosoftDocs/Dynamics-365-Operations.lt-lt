@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Formulės konstruktorius
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip naudoti formulių kūrimo priemonę analizuojant ir tvarkant formules medžio rodinyje.
 
@@ -116,8 +116,10 @@ Formulių eilutėms arba formulėms modifikuoti naudokite funkciją **Formulės 
 ## <a name="configuring-the-tree-view"></a>Medžio rodinio konfigūravimas
 Norėdami tinkinti informaciją, rodomą formulės konstruktoriaus medžio rodinyje, spustelėkite **Sąranka**.
 
-| Lauko grupė | aprašymas |
-|-------------|-------------|
-| KS         | Pasirinkite kriterijus, kuriuos norite rodyti medžio struktūroje, naudodami žymės langelius. Formulės konstruktorius pasirinktus kriterijus rodo abiejų skirtukų apačioje. |
-| Maršrutas       | Pasirinkite norimus rodyti maršrutų kriterijus naudodami žymės langelius. |
+
+| Lauko grupė |                                                                          aprašymas                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     KS     | Pasirinkite kriterijus, kuriuos norite rodyti medžio struktūroje, naudodami žymės langelius. Formulės konstruktorius pasirinktus kriterijus rodo abiejų skirtukų apačioje. |
+|    Maršrutas    |                                           Pasirinkite norimus rodyti maršrutų kriterijus naudodami žymės langelius.                                           |
+
 
