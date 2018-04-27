@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> Kurti EKA vaizdo šabloną  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti naują elektroninio kasos aparato (EKA) vaizdo šabloną. Vaizdo profilyje yra pagrindinė informacija, nustatanti EKA registrų išvaizdą. Galima sukurti keletą vaizdo profilių ir priskirti juos tam tikriems registrams. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-plans"></a>Bendrieji planai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>DK žurnalų tipai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations“.
 

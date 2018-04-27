@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Viešojo sektoriaus preliminaraus biudžeto sukūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Galite kurti konkretaus biudžeto modelio preliminaraus biudžeto registro įrašus ir dimensijų reikšmes. Kai faktinis biudžetas patvirtinamas, galite kurti pradinio biudžeto registro įrašus. Ši procedūra buvo sukurta naudojant demonstracinės įmonės PSUS duomenis viešajame sektorių skaidinyje.
 

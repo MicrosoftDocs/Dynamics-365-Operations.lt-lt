@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas.
 

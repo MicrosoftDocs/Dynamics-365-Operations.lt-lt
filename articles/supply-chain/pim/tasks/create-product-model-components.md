@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Kurti produkto modelio komponentus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Produkto konfigūravimo pagal apribojimus modeliai naudoja komponentus kaip kūrimo blokus nustatant produkto modelio struktūrą. Komponentus reikia sukurti prieš kuriant produkto modelį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

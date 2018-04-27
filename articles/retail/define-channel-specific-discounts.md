@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Apibrėžti konkretaus kanalo nuolaidas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje temoje apžvelgtos sąvokas, kurias turite žinoti, norėdami sukurti konkretaus kanalo nuolaidą. 
 
@@ -61,7 +60,7 @@ Toliau pateiktame pavyzdyje iliustruojamos užduotys, atliekamos nustatant kanal
 4.  Sukūrę naująją nuolaidą **Atgal į mokyklą**, **Nuolaidos** puslapio viršuje turite spustelėti **Kainų grupės**. Atsidarys **Nuolaidos kainų grupių** puslapis. Toliau spustelėkite **Naujas** ir pasirinkite kainų grupę **Hiustono KG**.
 5.  Dabar galite įgalinti nuolaidą ir ją perduoti į kanalą.
 
- 
+
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

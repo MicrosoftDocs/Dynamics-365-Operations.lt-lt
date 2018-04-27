@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Asortimento valdymas
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Peržiūra
 Sprendime „Microsoft Dynamics 365 for Retail“ galima naudoti *asortimentus*, kurie leidžia valdyti produktų prieinamumą įvairiuose kanaluose. Asortimentais nustatoma, kurių produktų galima įsigyti konkrečiose parduotuvėse ir konkrečiu laikotarpiu.

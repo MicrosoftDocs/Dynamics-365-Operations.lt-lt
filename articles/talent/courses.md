@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Mokymų kursų nustatymas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Žmogiškųjų išteklių administratoriai ir vadovai kursų funkcijas gali naudoti siekdami tvarkyti informaciją apie darbuotojams siūlomą mokymą.
 
@@ -81,15 +80,15 @@ Kursų tipus galite naudoti kursams pagal kurso struktūrą arba turinį suskirs
 
 ## <a name="course-tasks"></a>Kurso užduotys
 Su visais kursais galite atlikti toliau nurodytas užduotis.
--   Registruoti dalyvius.
--   Nurodyti paskutinę registracijos datą.
--   Nustatyti mažiausią ir didžiausią dalyvių skaičių.
--   Priskirti kurso vietą ir auditoriją.
--   Kurso dalyviams rekomenduoti viešbučius.
--   Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.
+- Registruoti dalyvius.
+- Nurodyti paskutinę registracijos datą.
+- Nustatyti mažiausią ir didžiausią dalyvių skaičių.
+- Priskirti kurso vietą ir auditoriją.
+- Kurso dalyviams rekomenduoti viešbučius.
+- Kurti kurso aprašą, kurį galima vėliau paskelbti Darbuotojų savitarnoje.
 
   >**Pastaba.** Kursą panaikinti galite tik jei niekas į jį neužsiregistravo. 
-    
+
 ## <a name="course-statuses"></a>Kurso būsenos
 Šioje lentelėje pateikiamos galimos kurso būsenos ir veiksmai, kuriuos galite atlikti su konkrečios būsenos kursu.
 

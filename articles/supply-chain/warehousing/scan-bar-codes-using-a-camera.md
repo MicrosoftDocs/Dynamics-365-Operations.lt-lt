@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“ versijoje „Warehousing“
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 for Finance and Operations“ versiją „Warehousing“, kad būtų galima nuskaityti brūkšninius kodus su mobiliojo įrenginio kamera. 
 

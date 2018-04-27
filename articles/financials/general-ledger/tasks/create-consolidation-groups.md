@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip kurti konsolidacijos sąskaitų grupę ir įtraukti į ją sąskaitas. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.
 

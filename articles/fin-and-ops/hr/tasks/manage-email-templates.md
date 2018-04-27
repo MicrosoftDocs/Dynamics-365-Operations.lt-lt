@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Valdyti el. laiškų šablonus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Galite perkelti informaciją iš jūsų organizacijos duomenų bazės į žymeles naujame dokumente ir naudoti ją šablonuose, kurie padeda efektyviai bendrauti su pretendentais ir kandidatais. Norėdami tai padaryti, turite sukurti šabloną, kuriame būtų standartinis tekstas ir kelios žymelės tose vietose, kur turėtų būti įterpti sistemos duomenys. Pvz., galite įterpti pretendento adresą ir kontaktinę informaciją į „Microsoft Word“ dokumentą, kurį galite naudoti bendraudami su tuo pretendentu. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

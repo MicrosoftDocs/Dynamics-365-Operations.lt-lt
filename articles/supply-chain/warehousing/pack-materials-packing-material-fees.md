@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Pakavimo medžiagos ir mokesčiai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pakavimo medžiagų mokesčiai atliekų perdirbimo įmonei mokami tam tikrais intervalais. Už kiekvieną pakuotės sudedamosios dalies svorio vienetą mokama tam tikra suma. Pakavimo medžiagų mokesčiai skaičiuojami ir pateikiami ataskaitose, tačiau DK operacijos neregistruojamos, nes šie mokesčiai nelaikomi valstybei mokamais mokesčiais.
 
@@ -63,7 +62,7 @@ Jei pakavimo medžiagų mokesčius moka jūsų įmonė, kliento licencijos numer
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Pakavimo medžiagų svorio spausdinimas ant SF
 Galite ant SF spausdinti pakavimo medžiagų svorius ir nurodyti, kas mokės pakavimo medžiagų mokesčius. Svoriai sumuojami pagal pakavimo kodą.
- 
+
 
 
 

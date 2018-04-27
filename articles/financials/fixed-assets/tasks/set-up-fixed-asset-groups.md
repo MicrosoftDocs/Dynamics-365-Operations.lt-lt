@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>Nustatyti ilgalaikio turto grupes
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip sukurti naują ilgalaikio turto grupę. Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.
 

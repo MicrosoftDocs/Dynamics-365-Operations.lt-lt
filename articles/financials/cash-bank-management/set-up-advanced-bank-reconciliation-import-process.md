@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
 
@@ -57,7 +56,7 @@ Toliau pateikiami išplėstinio banko derinimo importavimo failo techninio maket
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>ISO20022 banko išrašų importavimo nustatymas
 Pirmiausia turite nustatyti ISO20022 banko išrašų formato apdorojimo grupę, naudodami duomenų objektų sistemą.

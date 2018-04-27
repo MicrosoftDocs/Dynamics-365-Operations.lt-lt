@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Klausimynai
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje pateikiama bendra informacija apie klausimynus ir saitai į išsamesnę informaciją. Klausimynas yra klausimų rinkinys, naudojamas įvairiais tikslais rinkti informacijai. Klausimynus galite kurti, platinti ir pildyti, o tada analizuoti rezultatus. 
 

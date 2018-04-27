@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą. 
 
@@ -50,13 +49,13 @@ Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Atask
 ## <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
 
 Norėdami generuoti finansinę ataskaitą naudodami „Microsoft Dynamics 365 for Finance and Operations“, eikite į **Didžioji knyga** > **Užklausos ir ataskaitos** > **Finansinės ataskaitos**. 
- - Pasirinkite norimą generuoti ataskaitą ir spustelėkite **Generuoti**. 
- - Užpildykite lauką **Ataskaitos data** ir spustelėkite **Gerai**.
- 
- Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.
- Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.
- 
- 
+- Pasirinkite norimą generuoti ataskaitą ir spustelėkite **Generuoti**. 
+- Užpildykite lauką **Ataskaitos data** ir spustelėkite **Gerai**.
+
+  Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.
+  Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.
+
+
 Norėdami sugeneruoti ataskaitą naudodami **Ataskaitų kūrimo įrankis**, atidarykite ataskaitos aprašą, tada įrankių juostoje spustelėkite mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Vykdant trūkstamų sąskaitų analizę, galima naudoti toliau nurodytus klaviat
 | Atidaryti pasirinktą ataskaitos aprašą  | Ctrl + R                     |
 | Atidaryti pasirinktą eilutės aprašą     | Ctrl + O                     |
 
- 
+
 <a name="see-also"></a>Taip pat žiūrėkite
 --------
 

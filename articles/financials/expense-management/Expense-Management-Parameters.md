@@ -17,16 +17,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-parameters"></a>Išlaidų valdymo parametrai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 -----------------------------
 
@@ -87,9 +87,10 @@ Parametrai kontroliuoja bendrąjį išlaidų valdymo veikimo būdą.
 
 ### <a name="anti-corruption"></a>Kova su korupcija
 
-| **Laukas**                             | **Aprašymas**      |
-|---------------------------------------|------------------------------------------------------------------------|
-|**Rodyti kovos su korupcija patvirtinimą**   | Pasirinkite šią parinktį, norėdami rodyti kovos su korupcija tekstą, kai kuriama nauja išlaidų ataskaita. Tada galima įjungti konkrečias išlaidų kategorijas, kurias nustačius išlaidų ataskaitoje reikės pasirinkti kovos su korupcija patvirtinimą. Pavyzdžiui, nustačius su vyriausybės pareigūno išlaidomis susijusią dovanų kategoriją, darbuotojui gali reikėti patvirtinti, kad išlaidos yra suderinamos su įmonės strategija, skirta vyriausybės tarnautojams. |
-|**Kovos su korupcija pranešimas, skirtas pateikėjui** | Įveskite tekstą, kuris bus rodomas darbuotojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką **Vertimai**, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.         |
-|**Kovos su korupcija pranešimas, skirtas tvirtintojui**  | Įveskite tekstą, kuris bus rodomas tvirtintojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką **Vertimai**, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.        |
+|                 <strong>Laukas</strong>                 |                                                                                                                                                                                            <strong>Aprašymas</strong>                                                                                                                                                                                             |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Rodyti kovos su korupcija patvirtinimą</strong>  | Pasirinkite šią parinktį, norėdami rodyti kovos su korupcija tekstą, kai kuriama nauja išlaidų ataskaita. Tada galima įjungti konkrečias išlaidų kategorijas, kurias nustačius išlaidų ataskaitoje reikės pasirinkti kovos su korupcija patvirtinimą. Pavyzdžiui, nustačius su vyriausybės pareigūno išlaidomis susijusią dovanų kategoriją, darbuotojui gali reikėti patvirtinti, kad išlaidos yra suderinamos su įmonės strategija, skirta vyriausybės tarnautojams. |
+| <strong>Kovos su korupcija pranešimas, skirtas pateikėjui</strong> |                                                                                             Įveskite tekstą, kuris bus rodomas darbuotojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką <strong>Vertimai</strong>, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.                                                                                             |
+| <strong>Kovos su korupcija pranešimas, skirtas tvirtintojui</strong>  |                                                                                             Įveskite tekstą, kuris bus rodomas tvirtintojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką <strong>Vertimai</strong>, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.                                                                                             |
+
 

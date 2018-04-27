@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Išteklių galimybės
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie išteklių pajėgumus. Pajėgumas yra operacijų ištekliaus gebėjimas atlikti tam tikrą veiklą. Šiame straipsnyje paaiškinama, kaip naudojami pajėgumai ir susijusios koncepcijos, pvz., įgudimo lygis ir prioritetas, siekiant pasirinkti tinkamus veiklos išteklius.
 

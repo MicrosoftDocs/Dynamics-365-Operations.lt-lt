@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> Atlygio už lojalumą taškų nustatymas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda nustatyti atlygio už lojalumą taškus. Atlygio taškus turite nustatyti prieš nustatydami lojalumo programą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-an-eu-entry-certificate"></a>Gauti ES įrašo sertifikatą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padės užregistruoti ES įrašo sertifikatą, kurį išdavė trečioji šalis ir kurį gavote iš savo kliento.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>Išjungti gamybos eigos versiją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kai aktyvi gamybos eigos versija nebereikalinga, galite jį išjungti. Turėtumėte šią parinktį naudoti tik jei visos „kanban“ taisyklės ir veiklos yra baigtos ir nebus vėl suaktyvintos. Atkreipkite dėmesį, kad visų su šia gamybos versija susijusių „kanban“ taisyklių galiojimo data bus atnaujinta į dabartinę datą ir laiką. 
 

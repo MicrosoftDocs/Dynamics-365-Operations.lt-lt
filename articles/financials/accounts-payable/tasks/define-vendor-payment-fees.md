@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-fees"></a>Nustatyti tiekėjo mokėjimo mokesčius
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nustatykite tiekėjų mokėjimų mokesčius. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

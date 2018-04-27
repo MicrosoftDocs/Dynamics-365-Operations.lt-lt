@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="bank-management-workspace"></a>Banko valdymo darbo sritis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbo srityje **Banko valdymas** rodoma su įmonės banko sąskaitomis susijusi informacija. Ši darbo sritis apima rodinį **Suvestinė** ir puslapį **Analizė**. Rodinyje **Suvestinė** rodomos suvestinės išklotinės, banko sąskaitos informacija, likučio diagrama ir susijusi informacija. Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su banko sąskaitos likučiais susiję vaizdiniai elementai.
 

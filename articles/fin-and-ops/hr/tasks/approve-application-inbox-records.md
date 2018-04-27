@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Patvirtinti gautų prašymų įrašus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip peržiūrėti prašymus, gautus per darbuotojų savitarnos puslapius. Galite ne tik peržiūrėti prašymus, bet ir patvirtinti savo pasirinktus gautųjų prašymų įrašus. Gautųjų prašymų įrašai yra prašymai priimti į darbą, kurie buvo pateikti įmonei svarstyti. Patvirtinus įrašą, bus sukurtas asmens, kuris pateikė prašymą, pretendento įrašas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

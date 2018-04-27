@@ -3,7 +3,7 @@ title: "Lokalizavimo ir reguliavimo priemonės"
 description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [tarptautiniame produktų prieinamumo vadove](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
@@ -51,13 +50,13 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 
 ### <a name="communication-and-alerts"></a>Ryšys ir įspėjimai
 -   [Reglamentuota priežiūra ir reglamentuotas atnaujinimo ryšys](regulatory-watch-communication.md)
--   [Praneškite „Microsoft‟ apie šalies/ regiono taisyklių įspėjimus ir sekite reguliavimo priemonių būseną](submit-localization-alerts.md)
+-   [Pranešimas „Microsoft‟ apie šalies/ regiono taisyklių įspėjimus ir reguliavimo priemonių būsenų stebėjimas](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>„Dynamics 365“ planas
-[„Dynamics 365” plane](https://roadmap.dynamics.com/) pateikiama mūsų vykdomų darbų momentinė kopija. Naudokitės šiuo planu norėdami sužinoti, kas jau yra visuotinai pasiekiama ir kas dar tik kuriama. Visos sukūrimo datos ir kuriamos funkcijos yra preliminarios ir pagrįstos dabartiniais lūkesčiais, todėl gali būti pakeistos neperspėjus.
+### <a name="dynamics-365-release-notes"></a>„Dynamics 365“ leidimo pastabos
+[„Dynamics 365“ leidimo pastabose (atsisiųsti PDF)](https://aka.ms/businessappsreleasenotes) pateikiami naujų ir patobulintų „Dynamics 365“ verslo programų ir programų platformos galimybių aprašymai. 
 
 ## <a name="electronic-reporting"></a>Elektroninės ataskaitos
-Elektroninių ataskaitų (ER) įrankiu galite konfigūruoti elektroninių dokumentų formatus pagal teisinius įvairių šalių / regionų reikalavimus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
+Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių / regionų reikalavimus konfigūruoti elektroninių dokumentų formatus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
 -   [Elektroninių ataskaitų apžvalga](../analytics/general-electronic-reporting.md)
 -   [Elektroninių ataskaitų konfigūracijų ciklo valdymas](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Elektroninių ataskaitų konfigūracijos kūrimas](../analytics/electronic-reporting-configuration.md)
@@ -66,7 +65,7 @@ Elektroninių ataskaitų (ER) įrankiu galite konfigūruoti elektroninių dokume
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI‟](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektroninių dokumentų generavimas ir programų duomenų naujinimas naudojant įrankį Elektroninės ataskaitos](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant įrankį Elektroninės ataskaitos](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Užduočių vedliai
 Užduočių vedlius galima pasiekti produkto žinyno srityje – jie supažindina su svarbiausiais verslo procesais. Užduočių vedlį galite atidaryti ir perskaityti verslo proceso veiksmus, arba jį galite paleisti ir susipažinti su verslo procesu bei įvesti duomenis.
@@ -79,25 +78,9 @@ Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-st
 ## <a name="countryregion-specific-help-topics"></a>Konkrečios šalies / regiono žinyno temos
 Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 
-### <a name="australia"></a>Australija
-
--   [Banko failų formatai](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Verslo veiklos išrašas ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Mažų verčių telkinio nusidėvėjimas](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Austrija
-
-- [Pusės metų nusidėvėjimas](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Pakavimo medžiagų mokesčiai](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Pirkimo muito mokesčiai](../../financials/localizations/emea-aut-purchase-duties.md)
-- [PVM išrašas](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belgija
-
--   [CODA banko išrašas](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [INTERVAT mokesčių deklaracija](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM ataskaitų nustatymas](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Suderinimo ataskaitos](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australija](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Austrija](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgija](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brazilija
 
@@ -134,22 +117,9 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Atsargų pagrindinių sąskaitų registravimas pagal vietą](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [DK sąskaitų debeto ir kredito sumų rodymas](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Čekija
-
--   [Kredito pažymos mokėjimo nuolaida](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Nusidėvėjimo apvalinimas](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas Čekijoje](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Nusidėvėjimo sustabdymas (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Ilgalaikio turto nusidėvėjimo metodai Čekijoje](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Ilgalaikio turto išankstinio įsigijimo registravimas](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [PVM išrašas Čekijoje](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [PVM atskaitomybė ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Išskaidyti laikotarpiai periodiniuose žurnaluose](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Spausdinimo formų pasirašančiųjų nustatymas](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Sumų rodymo ataskaitose ir dokumentuose naujinimas](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Čekijos Respublika](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Estija
-
 -   [Estijos PVM išrašo informacija](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Ilgalaikio turto likvidavimas](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
 -   [Infliacijos deklaracijos ataskaitos koregavimas](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR deklaracijos ataskaita](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektroninės sąskaitos faktūros (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malaizija
 
 -   [Prekių ir paslaugų mokestis (GST)](../../financials/localizations/apac-mys-gst.md)

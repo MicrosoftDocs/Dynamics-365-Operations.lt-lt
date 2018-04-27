@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Peržiūrėti siunčiamą suplanuotą vidinių įmonių poreikį
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
 

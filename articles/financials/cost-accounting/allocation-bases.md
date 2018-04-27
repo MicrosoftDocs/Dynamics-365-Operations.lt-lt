@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Paskirstymo bazės 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Paskirstymo bazė yra pagrindas, kuriuo remdamasi kaštų apskaita paskirsto pridėtines išlaidas. Paskirstymo bazė gali būti tam tikras kiekis, pvz., mašinos darbo valandų skaičius, suvartotų kilovatvalandžių (kWh) skaičius, užimamas plotas kvadratinėmis pėdomis. Paskirstymo bazės dažniausiai naudojamos sukuriamoms atsargoms priskiriant pridėtines išlaidas. Pvz., IT skyrius paskirsto išlaidas pagal kiekviename skyriuje naudojamų kompiuterių skaičių.
 
@@ -424,9 +424,11 @@ Naudodamiesi peržiūros funkcija galite patikrinti sukurtą formulės paskirsty
 
 Toliau pateikiamas išlaidų paskirstymo taisyklės pavyzdys, kai fiksuota elektros energijos formulės paskirstymo bazė priskiriama kaip paskirstymo bazė.
 
-| Išlaidų objektas |  aprašymas  | Reikšmė | Paskirstymo koeficientas                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | Personalas | 1,837.50  | (1 837,50 ÷ 18 162,50) × suma  |
-| CC002       | FI | 3,075.00  | (3 075,00 ÷ 18 162,50) × suma  |
-| CC003       | AP | 13,250.00 | (13 250,00 ÷ 18 162,50) × suma |
+
+| Išlaidų objektas | aprašymas | Reikšmė |        Paskirstymo koeficientas         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     Personalas      | 1,837.50  | (1 837,50 ÷ 18 162,50) × suma  |
+|    CC002    |     FI      | 3,075.00  | (3 075,00 ÷ 18 162,50) × suma  |
+|    CC003    |     AP      | 13,250.00 | (13 250,00 ÷ 18 162,50) × suma |
+
 

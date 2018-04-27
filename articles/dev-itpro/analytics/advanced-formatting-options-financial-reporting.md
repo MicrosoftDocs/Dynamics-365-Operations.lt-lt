@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas formatavimo funkcijas, įskaitant dimensijų filtrus, stulpelių ir ataskaitų vienetų apribojimų, nespausdinamas eilutes ir IF / THEN / ELSE sakinius skaičiavimuose. 
 
@@ -66,12 +65,13 @@ Toliau pateiktuose pavyzdžiuose parodyta, kaip suformatuoti eilutės aprašą i
 
 Toliau pateikiamoje lentelėje parodytas eilutės aprašo, naudojančio paprastąjį privertimą, pavyzdys.
 
-| Eilutės kodas | aprašymas                      | Formato kodas | Susijusios formulės / eilutės / vienetai | Eilutės modifikatorius | Finansinių dimensijų saitas |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Laikotarpio pradžios grynieji pinigai (NP) |             |                             | Sąskaitos modifikatorius = \[/BB\] | +2 segmentas = \[1100\]         |
-| 130      | Pinigai laikotarpio pradžioje      | KPL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Eilutės kodas |           aprašymas            | Formato kodas | Susijusios formulės / eilutės / vienetai |        Eilutės modifikatorius        | Finansinių dimensijų saitas |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Laikotarpio pradžios grynieji pinigai (NP) |             |                             | Sąskaitos modifikatorius = \[/BB\] |     +2 segmentas = \[1100\]     |
+|   130    |   Pinigai laikotarpio pradžioje    |     KPL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Pristatymo tikslais iš ankstesnės lentelės buvo pašalinti tušti stulpeliai: stulpeliai Formato perrašymas, Įprastas balansas, Spausdinimo valdiklis, Stulpelio apribojimas nerodomi.
@@ -180,11 +180,11 @@ Eilutės aprašo langelis **Stulpelio apribojimas** turi kelis tikslus. Atsižve
 -   Langelis gali nurodyti sumų, kurias reikia rūšiuoti, stulpelį.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Skaičiavimo formulės naudojimas eilutės apraše
-Skaičiavimo formulėje eilutės apraše gali būti operatoriai **+**, **-**, **\***, ir **/**, taip pat **IF / THEN / ELSE** sakiniai. Be to, skaičiavimas gali apimti atskirus langelius ir absoliučias sumas (faktinius skaičius, įtrauktus į formulę). Formulę gali sudaryti iki 1024 simbolių. Skaičiavimai negali būti taikomi eilutėms, kuriose yra tipo **Saitas su finansinėmis dimensijomis** (FD) langelių. Tačiau galite įtraukti iš eilės einančių eilučių skaičiavimus, neleisti tų eilučių spausdinti ir tada susumuoti skaičiavimo eilutes.
+Skaičiavimo formulėje eilutės apraše gali būti operatoriai <strong>+</strong>, <strong>-</strong>, <strong>\\</strong>, ir **/**, taip pat <strong>IF / THEN / ELSE</strong> sakiniai. Be to, skaičiavimas gali apimti atskirus langelius ir absoliučias sumas (faktinius skaičius, įtrauktus į formulę). Formulę gali sudaryti iki 1024 simbolių. Skaičiavimai negali būti taikomi eilutėms, kuriose yra tipo <strong>Saitas su finansinėmis dimensijomis</strong> (FD) langelių. Tačiau galite įtraukti iš eilės einančių eilučių skaičiavimus, neleisti tų eilučių spausdinti ir tada susumuoti skaičiavimo eilutes.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatoriai skaičiavimo formulėje
 
-Skaičiavimo formulėje naudojami sudėtingesni operatoriai nei eilučių sumos formulėje. Tačiau galite naudoti operatorius **\*** ir **/** kartu su papildomais operatoriais norėdami padauginti (\*) ir padalyti (/) sumas. Norėdami skaičiavimo formulėje naudoti diapazoną arba sumą, turite naudoti ženklą eta (@) prieš bet kokį eilutės kodą, nebent eilutės apraše naudojate stulpelį. Pavyzdžiui, norėdami pridėti 100 eilutės sumą prie 330 eilutės sumos, galite naudoti eilutės sumos formulę **100 + 330** arba skaičiavimo formulę **@100+@330**. **Pastaba.** Turite naudoti ženklą eta (@) prieš kiekvieną eilutės kodą, kurį naudojate skaičiavimo formulėje. Kitu atveju skaičius suprantamas kaip absoliuti suma. Pvz., formulė **@100 + 330** prideda 330 USD prie 100 eilutės sumos. Kai nurodote stulpelį skaičiavimo formulėje, ženklas eta (@) nebūtinas.
+Skaičiavimo formulėje naudojami sudėtingesni operatoriai nei eilučių sumos formulėje. Tačiau galite naudoti operatorius <strong>\\</strong>* ir <strong>/</strong> kartu su papildomais operatoriais norėdami padauginti (\*) ir padalyti (/) sumas. Norėdami skaičiavimo formulėje naudoti diapazoną arba sumą, turite naudoti ženklą eta (@) prieš bet kokį eilutės kodą, nebent eilutės apraše naudojate stulpelį. Pavyzdžiui, norėdami pridėti 100 eilutės sumą prie 330 eilutės sumos, galite naudoti eilutės sumos formulę <strong>100 + 330</strong> arba skaičiavimo formulę <strong>@100+@330</strong>. <strong>Pastaba.</strong> Turite naudoti ženklą eta (@) prieš kiekvieną eilutės kodą, kurį naudojate skaičiavimo formulėje. Kitu atveju skaičius suprantamas kaip absoliuti suma. Pvz., formulė <strong>@100 + 330</strong> prideda 330 USD prie 100 eilutės sumos. Kai nurodote stulpelį skaičiavimo formulėje, ženklas eta (@) nebūtinas.
 
 ### <a name="create-a-calculation-formula"></a>Skaičiavimo formulės kūrimas
 
@@ -202,7 +202,7 @@ Skaičiavimo formulėje naudojami sudėtingesni operatoriai nei eilučių sumos 
 | 370      | Metų pradžios grynieji pinigai   | KPL         | @100 + @330                  | NP            |              |                              |
 | 400      | Laikotarpio pradžios grynieji pinigai | IŠ VISO         | 340 + 370                    |               |              |                              |
 
-Jei eilutės aprašo eilutė turi **KPL** formato kodą ir langelyje **Susijusios formulės / eilutės / vienetai** įvedate matematinį skaičiavimą, taip pat turite įvesti susieto stulpelio raidę ir ataskaitos eilutę. Pavyzdžiui, įveskite **A.120** – tai reiškia A stulpelis, 120 eilutė. Arba galite naudoti ženklą eta (@) visiems stulpeliams nurodyti. Pavyzdžiui, įveskite **@120** – tai reiškia visus 120 eilutės stulpelius. Bet koks matematinis skaičiavimas, neturintis stulpelio raidės arba ženklo eta (@), laikomas realiuoju skaičiumi. **Pastaba**. Jei naudojate žymės eilutės kodą eilutei nurodyti, turite naudoti tašką (.) kaip skyriklį tarp stulpelio raidės ir žymės (pavyzdžiui, **A.BRUTO\_MARŽA/A.PARDAVIMAS)**. Jei naudojate ženklą (@), skyriklis nebūtinas (pavyzdžiui, **@GROSS\_MARGIN/@SALES**).
+Jei eilutės aprašo eilutė turi <strong>KPL</strong> formato kodą ir langelyje <strong>Susijusios formulės / eilutės / vienetai</strong> įvedate matematinį skaičiavimą, taip pat turite įvesti susieto stulpelio raidę ir ataskaitos eilutę. Pavyzdžiui, įveskite <strong>A.120</strong> – tai reiškia A stulpelis, 120 eilutė. Arba galite naudoti ženklą eta (@) visiems stulpeliams nurodyti. Pavyzdžiui, įveskite <strong>@120</strong> – tai reiškia visus 120 eilutės stulpelius. Bet koks matematinis skaičiavimas, neturintis stulpelio raidės arba ženklo eta (@), laikomas realiuoju skaičiumi. <strong>Pastaba</strong>. Jei naudojate žymės eilutės kodą eilutei nurodyti, turite naudoti tašką (.) kaip skyriklį tarp stulpelio raidės ir žymės (pavyzdžiui, <strong>A.BRUTO\_MARŽA/A.PARDAVIMAS)</strong>. Jei naudojate ženklą (@), skyriklis nebūtinas (pavyzdžiui, <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Konkretaus stulpelio skaičiavimo formulės pavyzdys
 
@@ -255,17 +255,17 @@ Terminas **Laikotarpiai** **IF** sakinyje nurodo ataskaitos laikotarpių skaiči
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Skaičiavimo taikymas tik eilutės aprašo ataskaitiniam vienetui
 
-Norėdami taikyti skaičiavimą vienam ataskaitų medžio ataskaitiniam vienetui, kad gauta suma nebūtų sumuojama aukštesnio lygio vieneto sumai gauti, galite eilutės aprašo langelyje **Susijusios formulės / eilutės / vienetai** naudoti kodą **@Unit**. Kodas **@Unit** nurodomas ataskaitų medžio B stulpelyje – **Vieneto pavadinimas**. Naudojant kodą **@Unit** reikšmės nesumuojamos, tačiau skaičiavimas įvertinamas visuose ataskaitų medžio lygiuose. **Pastaba.** Norint naudoti šią funkciją, ataskaitų medis turi būti susietas su eilutės aprašu. Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomenų eilutę. Skaičiavimas įrašomas eilutės aprašo langelyje **Susijusios formulės / eilutės / vienetai** ir finansinių duomenų tipo apribojime. Skaičiuojant būtina naudoti sąlyginį skaičiavimą, pradedamą konstrukcija **IF @Unit**. Štai pavyzdys: IF @Unit(PARDAVIMAS) THEN @100 ELSE 0 Šiame skaičiavime naudojama suma iš kiekvieno ataskaitos stulpelio 100 eilutės, bet tik PARDAVIMO vieneto. Jei keli vienetai yra pavadinti PARDAVIMAS, suma rodoma kiekviename iš šių vienetų. Be to, 100 eilutė gali būti finansinių duomenų eilutė ir gali būti apibrėžta kaip nespausdinama. Tokiu atveju sumos neleidžiama rodyti visuose medžio vienetuose. Taip pat galite nustatyti, kad suma būtų rodoma viename ataskaitos stulpelyje, pavyzdžiui, H stulpelyje, naudodami stulpelio apribojimą, kad reikšmė būtų spausdinama tik tame ataskaitos stulpelyje. Galite įtraukti į **IF** sakinį **OR** kombinacijų. Toliau pateikiamas pavyzdys: jei @Unit(PARDAVIMAS) arba @Unit(PARDAVIMASVAKARŲ) tada 5 ELSE @100 galite nurodyti vienetą skaičiavimo tipo apribojimo vienu iš tolesnių būdų.
+Norėdami taikyti skaičiavimą vienam ataskaitų medžio ataskaitiniam vienetui, kad gauta suma nebūtų sumuojama aukštesnio lygio vieneto sumai gauti, galite eilutės aprašo langelyje <strong>Susijusios formulės / eilutės / vienetai</strong> naudoti kodą <strong>@Unit</strong>. Kodas <strong>@Unit</strong> nurodomas ataskaitų medžio B stulpelyje – <strong>Vieneto pavadinimas</strong>. Naudojant kodą <strong>@Unit</strong> reikšmės nesumuojamos, tačiau skaičiavimas įvertinamas visuose ataskaitų medžio lygiuose. <strong>Pastaba.</strong> Norint naudoti šią funkciją, ataskaitų medis turi būti susietas su eilutės aprašu. Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomenų eilutę. Skaičiavimas įrašomas eilutės aprašo langelyje <strong>Susijusios formulės / eilutės / vienetai</strong> ir finansinių duomenų tipo apribojime. Skaičiuojant būtina naudoti sąlyginį skaičiavimą, pradedamą konstrukcija <strong>IF @Unit</strong>. Štai pavyzdys: IF @Unit(PARDAVIMAS) THEN @100 ELSE 0 Šiame skaičiavime naudojama suma iš kiekvieno ataskaitos stulpelio 100 eilutės, bet tik PARDAVIMO vieneto. Jei keli vienetai yra pavadinti PARDAVIMAS, suma rodoma kiekviename iš šių vienetų. Be to, 100 eilutė gali būti finansinių duomenų eilutė ir gali būti apibrėžta kaip nespausdinama. Tokiu atveju sumos neleidžiama rodyti visuose medžio vienetuose. Taip pat galite nustatyti, kad suma būtų rodoma viename ataskaitos stulpelyje, pavyzdžiui, H stulpelyje, naudodami stulpelio apribojimą, kad reikšmė būtų spausdinama tik tame ataskaitos stulpelyje. Galite įtraukti į <strong>IF</strong> sakinį <strong>OR</strong> kombinacijų. Toliau pateikiamas pavyzdys: jei @Unit(PARDAVIMAS) arba @Unit(PARDAVIMASVAKARŲ) tada 5 ELSE @100 galite nurodyti vienetą skaičiavimo tipo apribojimo vienu iš tolesnių būdų.
 
--   Įveskite vieneto pavadinimą, kad būtų įtraukti atitinkantys vienetai. Pavyzdžiui, **IF @Unit(PARDAVIMAS)** leidžia atlikti kiekvieno vieneto, pavadinto PARDAVIMAS, skaičiavimus, net jei ataskaitų medyje yra keli PARDAVIMO vienetai.
--   Įveskite įmonės ir vieneto pavadinimą, kad skaičiavimas būtų taikomas tik konkretiems konkrečios įmonės vienetams. Pavyzdžiui, įveskite **IF @Unit(ACME:PARDAVIMAS)**, kad skaičiavimas būtų taikomas įmonės ACME PARDAVIMO vienetams.
--   Įveskite visą hierarchijos kodą iš ataskaitų medžio, kad skaičiavimas būtų taikomas konkrečiam vienetui. Pavyzdžiui, įveskite **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Pastaba.** Norėdami rasti visą hierarchijos kodą, dešiniuoju pelės klavišu spustelėkite ataskaitų medžio aprašą ir tada pasirinkite **Kopijuoti ataskaitinio vieneto identifikatorių (H kodas)**.
+- Įveskite vieneto pavadinimą, kad būtų įtraukti atitinkantys vienetai. Pavyzdžiui, <strong>IF @Unit(PARDAVIMAS)</strong> leidžia atlikti kiekvieno vieneto, pavadinto PARDAVIMAS, skaičiavimus, net jei ataskaitų medyje yra keli PARDAVIMO vienetai.
+- Įveskite įmonės ir vieneto pavadinimą, kad skaičiavimas būtų taikomas tik konkretiems konkrečios įmonės vienetams. Pavyzdžiui, įveskite <strong>IF @Unit(ACME:PARDAVIMAS)</strong>, kad skaičiavimas būtų taikomas įmonės ACME PARDAVIMO vienetams.
+- Įveskite visą hierarchijos kodą iš ataskaitų medžio, kad skaičiavimas būtų taikomas konkrečiam vienetui. Pavyzdžiui, įveskite <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Pastaba.</strong> Norėdami rasti visą hierarchijos kodą, dešiniuoju pelės klavišu spustelėkite ataskaitų medžio aprašą ir tada pasirinkite <strong>Kopijuoti ataskaitinio vieneto identifikatorių (H kodas)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Skaičiavimo apribojimas naudojant ataskaitinį vienetą
 
-1.  Naudodami ataskaitų dizaino įrankį spustelėkite **Eilučių aprašai**, tada atidarykite norimą modifikuoti eilučių aprašą.
-2.  Dukart spustelėkite langelį **Formato kodas** ir tada pasirinkite **KPL**.
-3.  Spustelėkite langelį **Susijusios formulės / eilutės / vienetai** ir tada įveskite sąlyginį skaičiavimą, pradedamą konstrukcija **IF @Unit**.
+1. Naudodami ataskaitų dizaino įrankį spustelėkite **Eilučių aprašai**, tada atidarykite norimą modifikuoti eilučių aprašą.
+2. Dukart spustelėkite langelį **Formato kodas** ir tada pasirinkite **KPL**.
+3. Spustelėkite langelį <strong>Susijusios formulės / eilutės / vienetai</strong> ir tada įveskite sąlyginį skaičiavimą, pradedamą konstrukcija <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF / THEN / ELSE sakiniai stulpelio apraše
 

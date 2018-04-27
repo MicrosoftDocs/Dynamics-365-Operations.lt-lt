@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Kurti viešojo sektoriaus pradinį biudžetą ir atšaukti preliminaraus biudžeto įrašus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kai sukuriate pradinio biudžeto įrašą ir naudojate biudžeto modelį ir dimensijų reikšmes, kuriuose yra preliminaraus biudžeto sumos, jas galima atšaukti. Ši procedūra buvo sukurta naudojant demonstracinės įmonės PSUS duomenis viešajame sektorių skaidinyje.
 

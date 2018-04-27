@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Aptarnavimo šablonai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Galite apibrėžti aptarnavimo sutartį kaip šabloną ir vėliau nukopijuoti šablono eilutes į kitą aptarnavimo sutartį arba į kitą aptarnavimo užsakymą.
 

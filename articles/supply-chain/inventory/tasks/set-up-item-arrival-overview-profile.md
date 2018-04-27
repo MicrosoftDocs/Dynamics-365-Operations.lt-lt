@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Nustatyti gaunamų prekių apžvalgos profilį
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šios užduoties tikslas yra nustatyti gaunamų prekių apžvalgos profilį. Gaunamų prekių apžvalgos profilis yra rinkinys taisyklių, kurios taikomos, kai vartotojas atidaro puslapį „Gaunamų prekių apžvalga“. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Šią procedūrą paprastai atlieka gavimo klerkas.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Dimensijomis paremto bendrojo produkto komplektavimo specifikacijos kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norėdami atlikti šią procedūrą, turite būti atlikę ankstesnius 4 šios aštuonių įrašų sekos vadovus. Pirmaisiais 4 įrašais nustatomi duomenys, kurių reikia norint atlikti šią procedūrą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Šią užduotį paprastai atlieka produkto kūrėjas.
 

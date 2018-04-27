@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Aptarnavimo sutarčių grupių kūrimas 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti.
 

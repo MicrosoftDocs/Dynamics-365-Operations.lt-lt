@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>DK sąskaitos balansai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinti du būdai, kaip peržiūrėkite DK sąskaitų balansus: bandomojo balanso sąrašo puslapį ir finansines ataskaitas. Jame tai taip pat aptariama, kaip atnaujinti dimensijų rinkinio balansus.
 

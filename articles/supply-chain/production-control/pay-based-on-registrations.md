@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Apmokėjimas pagal registracijas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje išsamiai paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas. Pateikiami pavyzdžiai, kuriuose nurodoma, kaip keičiasi rezultatas priklausomai nuo įvairių skaičiavimo sąrankos pasirinkčių kombinacijų. Toliau nurodoma keletas sričių, kurios bus įtrauktos.
 
@@ -446,7 +446,7 @@ Puslapyje **Suplanuoto neatvykimo kūrimas** (**Laikas ir buvimas darbe** &gt; *
 Užduotis kuriama pagal užklausą. Todėl galite kurti kelių darbuotojų suplanuotą neatvykimą, pavydžiui, tai pačiai skaičiavimo grupei priklausančių darbuotojų neatvykimą. Jei suplanuotas neatvykimas sukurtas vienam darbuotojui, registraciją galima įvesti puslapyje **Buvimas darbe** arba **Laiko registracijos darbuotojai**.
 
 - Norėdami neatvykimo registraciją įvesti puslapyje **Buvimas darbe**, pasirinkite **Laikas ir buvimas darbe** &gt; **Užklausos ir ataskaitos** &gt; **Buvimas darbe** &gt; **Buvimas darbe**, po to pasirinkite **Neatvykimo registracija**.
-- Norėdami neatvykimo registraciją įvesti puslapyje ****Laiko registracijos darbuotojai**** pasirinkite **Laikas ir buvimas darbe** &gt; **Sąranka** &gt; **Laiko registracijos darbuotojai**, po to srities **Laiko paskyrimas** skirtuke **Laikas** pasirinkite **Neatvykimo registracijos**.
+- Norėdami neatvykimo registraciją įvesti puslapyje *<strong><em>Laiko registracijos darbuotojai</em></strong>* pasirinkite <strong>Laikas ir buvimas darbe</strong> &gt; <strong>Sąranka</strong> &gt; <strong>Laiko registracijos darbuotojai</strong>, po to srities <strong>Laiko paskyrimas</strong> skirtuke <strong>Laikas</strong> pasirinkite <strong>Neatvykimo registracijos</strong>.
 
 Naudodami ataskaitą **Suplanuoti neatvykimai** galite peržiūrėti suplanuotus darbuotojų neatvykimus. Norėdami atidaryti šią ataskaitą, pasirinkite **Laikas ir buvimas darbe** &gt; **Užklausos ir ataskaitos** &gt; **Neatvykimo ataskaitos** &gt; **Suplanuoti neatvykimai**.
 

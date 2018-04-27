@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Pareigų biudžeto trikčių šalinimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami atsakymai į klausimus, kurie gali kilti, kai konfigūruojate pareigų biudžetą. Ji skirta dažnai užduodami klausimai apie tai, kaip sukurti biudžeto išlaidų elementus, kompensacijų grupes ir kompensavimo tinklelius. 
 

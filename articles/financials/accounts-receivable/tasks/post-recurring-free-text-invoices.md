@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generuoti ir registruoti pasikartojančias laisvos formos SF
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pasikartojančios SF naudojamos reguliariai klientams išrašyti SF už tą pačią sumą. Šiame įraše naudojama demonstracinė įmonė USMF. Įrašas yra skirtas asmeniui, kuris yra atsakingas už A/R SF valdymą ir apdorojimą.
 

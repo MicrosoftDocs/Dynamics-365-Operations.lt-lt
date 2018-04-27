@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip kurti pardavimo kainos prekybos sutartis naudojant kategorijos kainų taisyklę. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT. Ši užduotis skirta mažmeninės prekybos vadovo vaidmeniui.
 

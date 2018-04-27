@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Sudenkite dalinį tiekėjo mokėjimą, kuriam taikomos tiekėjo kredito pažymų nuolaidos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje žingsnis po žingsnio pateiktas scenarijus, kuriame su sąskaita faktūra sudengiama kredito pažyma.
 

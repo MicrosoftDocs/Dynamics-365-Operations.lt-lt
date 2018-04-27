@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Asmeninės išlaidos išlaidų ataskaitoje
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kartais verslo kelionės metu darbuotojas gali apmokėti asmenines išlaidas įmonės kredito kortele. Jei neapibrėžiate asmeninių išlaidų tvarkymo proceso, išlaidų ataskaitų patvirtinimo procesas gali būti sutrikdytas, kai darbuotojai pateikia detalias išlaidų ataskaitas. 
 

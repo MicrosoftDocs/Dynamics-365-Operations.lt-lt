@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektroninių ataskaitų konfigūracijų ciklo valdymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti „Microsoft Dynamics 365 for Finance and Operations‟ sprendimo elektroninių ataskaitų (ER) konfigūracijų ciklą.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Palūkanų ir mokesčių atsisakymas, grąžinimas arba atšaukimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip atsisakyti, grąžinti ir atšaukti mokesčius už palūkanas ir įmokas.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>Projektų prognozės ir biudžetai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Finance and Operations‟ pateikiami du projektų tvarkymo ir kontroliavimo būdai: projektų prognozės ir projektų biudžetai. 
 

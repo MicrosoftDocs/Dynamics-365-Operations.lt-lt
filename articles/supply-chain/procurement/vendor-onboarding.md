@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Naujus tiekėjus galima supažindinti ir užregistruoti kaip tiekėjus „Microsoft Dynamics 365 for Finance and Operations“ remiantis informacija, surinkta iš asmens, kuris atstovauja tiekėją.
@@ -164,13 +165,15 @@ Atmetus tiekėjo užklausą, būsena **Atmesta** rodoma tiek pradinėje galimo t
 
 Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti**, galite išvalyti ir pašalinti sukurtą įrašų tinklą ir išjungti vartotojo paskyrą. Veiksmo **Naikinti** rezultatas priklauso nuo galimo tiekėjo registravimo užklausos būsenos, kaip parodyta toliau pateiktoje lentelėje.
 
-| Būsena                   | Būsenos aprašas | Veiksmo Naikinti rezultatas |
-|--------------------------|--------------------|-----------------------------------|
-| Naujas                      | Su užklausa nebuvo imtasi jokių veiksmų. | Galimo tiekėjo registravimo užklausa panaikinama. |
-| Vartotojo užklausa pateikta           | Kai pasirenkate **Kviesti vartotoją**, būsena pakeičiama **Vartotojo užklausa pateikta** ir su galimu tiekėju susijusio vartotojo užklausa sukuriama bei pateikiama į vartotojo užklausos darbo eigą. | Šios būsenos galimo tiekėjo registravimo užklausos naikinti negalima, nes vartotojo užklausos darbo eiga nebaigta. |
-| Vartotojas pakviestas             | Vartotojo užklausos darbo eiga patvirtinama ir sukuriamas vartotojas. | Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa panaikinama. |
-| Vykdoma registracija | Naujas vartotojas yra prisijungė ir pradėjo tiekėjo registravimo vedlį. | Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa bei tiekėjo registravimo vedlyje įvesti duomenys panaikinami. |
-| Tiekėjo užklausa sukurta   | Tiekėjo registravimo vedlys baigtas. | Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys bei tiekėjo užklausa panaikinami.<blockquote>[!NOTE]<br>Negalima naudoti veiksmo **Naikinti**, kai vykdomas tiekėjo užklausos darbo eigos tikrinimo procesas.</blockquote> |
-| Aprobuota                 | Tiekėjo užklausa patvirtinama. | Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami. |
-| Atmestas                 | Tiekėjo užklausa atmetama. | Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami. |
+
+|          Būsena          |                                                                                     Būsenos aprašas                                                                                      |                                                                                                                                                            Veiksmo Naikinti rezultatas                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Naujas            |                                                                         Su užklausa nebuvo imtasi jokių veiksmų.                                                                          |                                                                                                                                              Galimo tiekėjo registravimo užklausa panaikinama.                                                                                                                                               |
+|      Vartotojo užklausa pateikta      | Kai pasirenkate <strong>Kviesti vartotoją</strong>, būsena pakeičiama <strong>Vartotojo užklausa pateikta</strong> ir su galimu tiekėju susijusio vartotojo užklausa sukuriama bei pateikiama į vartotojo užklausos darbo eigą. |                                                                                                          Šios būsenos galimo tiekėjo registravimo užklausos naikinti negalima, nes vartotojo užklausos darbo eiga nebaigta.                                                                                                          |
+|       Vartotojas pakviestas       |                                                               Vartotojo užklausos darbo eiga patvirtinama ir sukuriamas vartotojas.                                                               |                                                                                                                      Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa panaikinama.                                                                                                                      |
+| Vykdoma registracija |                                                         Naujas vartotojas yra prisijungė ir pradėjo tiekėjo registravimo vedlį.                                                          |                                                                                     Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa bei tiekėjo registravimo vedlyje įvesti duomenys panaikinami.                                                                                      |
+|  Tiekėjo užklausa sukurta  |                                                                     Tiekėjo registravimo vedlys baigtas.                                                                      | Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys bei tiekėjo užklausa panaikinami.<blockquote>[!NOTE]<br>Negalima naudoti veiksmo <strong>Naikinti</strong>, kai vykdomas tiekėjo užklausos darbo eigos tikrinimo procesas.</blockquote> |
+|         Aprobuota         |                                                                               Tiekėjo užklausa patvirtinama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
+|         Atmestas         |                                                                               Tiekėjo užklausa atmetama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
+
 

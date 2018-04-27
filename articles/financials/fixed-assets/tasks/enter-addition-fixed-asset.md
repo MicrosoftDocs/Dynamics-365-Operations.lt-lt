@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Ilgalaikio turto priedo įvedimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip prie esamo ilgalaikio turto pridėti priedą. Ilgalaikio turto priedų paskirtis yra sekti prekių priedus, priežiūrą ar turto tobulinimus ir yra tik informacinė. Bet kokius ilgalaikio turto vertės arba dėvėjimo laiko pakeitimus reikia atlikti atskirai.   
 

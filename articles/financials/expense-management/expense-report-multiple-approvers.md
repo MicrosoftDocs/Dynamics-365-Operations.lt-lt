@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Išlaidų ataskaitos ir keli tvirtintojai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vartotojo pateiktą išlaidų ataskaitą gali reikėti patvirtini daugiau nei vienam asmeniui – tai priklauso nuo jūsų organizacijos išlaidų patvirtinimo strategijų. Nustatydami išlaidų ataskaitų tvirtinimo darbo eigos procesą, galite įtraukti darbo eigos elementų, įskaitant užduotis ar veiksmus, skirtus vienam ar keliems išlaidų ataskaitų tvirtintojams. Pavyzdžiui, galite reikalauti, kad visas išlaidų ataskaitas pirmiausia patvirtintų ataskaitą pateikusio darbuotojo vadovas, o tada – modulio Mokėtinos sumos koordinatorius.
 

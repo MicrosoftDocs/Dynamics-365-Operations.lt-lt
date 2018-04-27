@@ -1,5 +1,5 @@
 --- 
-title: "Konfigūracijų kūrimas, kad elektroninėse ataskaitose būtų galima generuoti ataskaitas „Microsoft Office“ formatais su įdėtaisiais vaizdais (ER) (1 dalis)"
+title: "Ataskaitų generavimo „Microsoft Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas"
 description: "Šios temos veiksmuose pateikiama informacijos apie tai, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, generuojančias „Microsoft Office“ formatų („Excel“ ir „Word“) elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Konfigūracijų kūrimas, kad elektroninėse ataskaitose būtų galima generuoti ataskaitas „Microsoft Office“ formatais su įdėtaisiais vaizdais (ER) (1 dalis) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Ataskaitų generavimo „Microsoft Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu.“ Šia procedūra paaiškinama, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, norint generuoti „Microsoft Excel“ ar „Word“ dokumentą su įdėtaisiais vaizdais. Atlikdami šią procedūrą, kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Prieš pradėdami, atsisiųskite ir įrašykite failus, išvardytus žinyno temoje [Vaizdų ir figūrų įdėjimas į verslo dokumentus, sugeneruotus naudojant elektroninių ataskaitų įrankį](../electronic-reporting-embed-images-shapes.md). Failai: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png ir Cheque template Word.docx.
 

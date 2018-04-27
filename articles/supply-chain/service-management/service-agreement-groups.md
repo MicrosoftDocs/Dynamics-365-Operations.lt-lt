@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Aptarnavimo sutarties grupės 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti. Naudokite aptarnavimo sutarčių grupes aptarnavimo sutartims grupuoti, pvz., pagal įmonės dydį, geografinę vietą ar verslo sritį. Be to galite naudoti sutarčių grupes aptarnavimo sutartims pagal klientui pasiūlytą aptarnavimo lygį grupuoti.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Žaliavų suvartojimo kontrolė taikant sunaudojimo principus
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sunaudojimo principai atspindi skirtingas gamybos procesuose naudojamų žaliavų suvartojimo strategijas. Gamyba yra procesas, kurio metu medžiagos paimamos iš turimų atsargų ir gamybos užsakymuose bei paketiniuose užsakymuose nustatoma vartojamų medžiagų būsenos reikšmė **Nebaigta gamyba** (NG). Vartojamos žaliavos paprastai paimamos iš sukonfigūruotos proceso, naudojančio medžiagas, vietos. Ši vieta vadinama gamybos įvesties vieta.
 

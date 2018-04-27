@@ -28,9 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Pareigų prognozavimas
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Su darbuotojais susijusios išlaidas dažnai sudaro didelę įmonės išlaidų dalį. Pareigų prognozavimas suteikia galimybę tas išlaidas planuoti ir įtraukti į biudžetų planavimą.
 

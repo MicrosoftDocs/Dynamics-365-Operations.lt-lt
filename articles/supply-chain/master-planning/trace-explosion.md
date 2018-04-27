@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Sekimo naudojimas išskleidimo analizės tikslais
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.
 

@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio vartotojo nuostatos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip nustatyti vartotojo nuostatas, siekiant tinkinti vartotojo sąveiką su finansinių ataskaitų dizaino įrankiu ir valdyti pirminio prisijungimo patirtį. Jūs taip pat galite valdyti, kaip rodomos atskiros ataskaitos, ataskaitų biblioteka ir numatytosios failų vietos. 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 <td>Pasirinkite, ar norite gauti įspėjimo pranešimą, uždarydami programą. Šis pranešimas padeda užtikrinti, kad programos neuždarytumėte netyčia.</td>
 </tr>
 <tr class="odd">
-<td>Stulpelio antraštėse automatiškai taikyti langelio pabraukimą</td>
+<td>Automatiškai pabraukti langelį stulpelio antraštėse</td>
 <td>Pasirinkite, ar reikia įterpti pabraukimą naujo stulpelio antraštės langelyje.</td>
 </tr>
 <tr class="even">

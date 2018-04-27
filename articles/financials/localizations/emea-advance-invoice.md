@@ -18,17 +18,16 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 3c284b8c67121b39837bef827dea6f24da2a0f4b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-invoices-for-eastern-europe"></a>Išankstinės SF, skirtos Rytų Europai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Išankstinė SF yra dokumentas, kurį galite kurti klientui arba tiekėjui. Ji nurodo pardavimo užsakymo sumą, kurią reikia apmokėti iš anksto. Šioje temoje pateikiama informacija apie išankstines SF, skirtas Rytų Europai.
 
@@ -47,19 +46,20 @@ Išankstinius mokėjimus gaunančios Lenkijos įmonės turi sukurti išankstini�
 ## <a name="set-up-accounts-receivable-for-advance-invoices"></a>Išankstinių SF gautinų sumų nustatymas
 Puslapio **Gautinų sumų parametrai** skirtuke **Naujinimai** nurodykite tolesnius parametrus.
 
-|FastTab|Parametras|aprašymas|
-|------|----------|------------|
-|Išankstinė SF  |Registravimo šablonas|Pasirinkite registravimo šabloną, kurį naudosite išrašydami išankstinės SF (skirta tik Lenkijai). **Svarbu:** Čekijos Respublikoje ir Vengrijoje išankstinės SF nėra laikomos apskaitos arba mokesčių dokumentais ir nėra registruojamos DK. Todėl šiose šalyse šį lauką turite palikti tuščią, kad išankstinės SF nebūtų užregistruotos DK.
-|
-|Išankstinė SF  |Korespondentinė|sąskaita        |Pasirinkti numatytąją korespondentinę sąskaitą, naudotiną išrašant išankstines SF.|
-|Išankstinė SF  |PVM grupė        |Pasirinkite PVM grupę, naudotiną skaičiuojant išankstinių SF PVM.|
-|Išankstinė SF  |Atšaukimas kaip koregavimas |Pažymėkite šį žymės langelį, jei išankstinės SF atšaukimas turi būti laikomas koregavimu.|
-|Išankstinė SF  |Atšaukti datą|Pažymėkite šį žymės langelį, norėdami išankstinį mokėjimą atšaukti SF registravimo dieną.|
-|Mokėjimas          |Kelios išankstinio apmokėjimo datos|Pasirinkite vieną iš šių parinkčių: **Priimti**, **Įspėjimas** arba **Klaida**.|
-|Mokėjimas          |Datos nesutapimas          |Pasirinkite vieną iš šių parinkčių: **Priimti**, **Įspėjimas** arba **Klaida**.|
-|Mokėjimas          |Sumos nesutapimas        |Pasirinkite vieną iš šių parinkčių: **Priimti**, **Įspėjimas** arba **Klaida**.|
-|Mokėjimas          |Susiejimas su užregistruota išankstine SF|Pasirinkite vieną iš šių parinkčių: **Priimti**, **Įspėjimas** arba **Klaida**.|
-|Mokėjimas          |(CZE), (POL) Išankstinio mokėjimo tvarkymas|Pasirinkite **Išankstinis**.|
+
+|     FastTab     |             Parametras             |                                                                                                                                                                                           aprašymas                                                                                                                                                                                           |
+|-----------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Išankstinė SF |          Registravimo šablonas          | Pasirinkite registravimo šabloną, kurį naudosite išrašydami išankstinės SF (skirta tik Lenkijai). <strong>Svarbu:</strong> Čekijos Respublikoje ir Vengrijoje išankstinės SF nėra laikomos apskaitos arba mokesčių dokumentais ir nėra registruojamos DK. Todėl šiose šalyse šį lauką turite palikti tuščią, kad išankstinės SF nebūtų užregistruotos DK. |
+|                 |                                   |                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Išankstinė SF |                Išjungta                |                                                                                                                                                                                           sąskaita                                                                                                                                                                                           |
+| Išankstinė SF |          PVM grupė          |                                                                                                                                                      Pasirinkite PVM grupę, naudotiną skaičiuojant išankstinių SF PVM.                                                                                                                                                      |
+| Išankstinė SF |      Atšaukimas kaip koregavimas       |                                                                                                                                                 Pažymėkite šį žymės langelį, jei išankstinės SF atšaukimas turi būti laikomas koregavimu.                                                                                                                                                  |
+| Išankstinė SF |      Atšaukti datą      |                                                                                                                                                     Pažymėkite šį žymės langelį, norėdami išankstinį mokėjimą atšaukti SF registravimo dieną.                                                                                                                                                     |
+|     Mokėjimas     |     Kelios išankstinio apmokėjimo datos     |                                                                                                                                        Pasirinkite vieną iš šių parinkčių: <strong>Priimti</strong>, <strong>Įspėjimas</strong> arba <strong>Klaida</strong>.                                                                                                                                         |
+|     Mokėjimas     |           Datos nesutapimas           |                                                                                                                                        Pasirinkite vieną iš šių parinkčių: <strong>Priimti</strong>, <strong>Įspėjimas</strong> arba <strong>Klaida</strong>.                                                                                                                                         |
+|     Mokėjimas     |          Sumos nesutapimas          |                                                                                                                                        Pasirinkite vieną iš šių parinkčių: <strong>Priimti</strong>, <strong>Įspėjimas</strong> arba <strong>Klaida</strong>.                                                                                                                                         |
+|     Mokėjimas     | Susiejimas su užregistruota išankstine SF |                                                                                                                                        Pasirinkite vieną iš šių parinkčių: <strong>Priimti</strong>, <strong>Įspėjimas</strong> arba <strong>Klaida</strong>.                                                                                                                                         |
+|     Mokėjimas     | (CZE), (POL) Išankstinio mokėjimo tvarkymas  |                                                                                                                                                                                Pasirinkite <strong>Išankstinis</strong>.                                                                                                                                                                                |
 
 Skirtuke **Numeracijos** nustatykite tolesnių nuorodų numeracijas.
 

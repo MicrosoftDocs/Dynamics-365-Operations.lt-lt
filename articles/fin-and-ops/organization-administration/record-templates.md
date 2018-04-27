@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Įrašų šablonai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pristatyta įrašų šablonų sąvoka ir paaiškinta, kaip juos galima naudoti, norint sukurti informaciją bendrai naudojančius įrašus.
 

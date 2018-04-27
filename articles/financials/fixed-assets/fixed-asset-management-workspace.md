@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Ilgalaikio turto tvarkymo darbo sritis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbo srityje **Ilgalaikio turto tvarkymas** rodoma informacija, kuri susijusi su į sistemą įvestu ilgalaikiu turtu. Ši darbo sritis apima suvestinės rodinį ir analizės rodinį. Skirtuke **Mano darbas** rodomos suvestinės išklotinės, ilgalaikio turto informacija ir su dabartinės įmonės ilgalaikiu turtu susijusi informacija. Analizę į „Power BI‟ analizės skyrių taip pat galite įtraukti tiesiogiai darbo srityje. Skirtuke **Analizė – visos įmonės** naudojamos „Microsoft Power BI“ funkcijos, kad būtų galima rodyti su visų įmonių ilgalaikiu turtu susijusius vaizdus.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Nustatyti savikainos kontrolės įtaisus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip apibrėžti savikainos valdymo vienetus savikainos apskaitos didžiojoje knygoje. Jūs pasirenkate savikainos objekto dimensiją, kuriai norite kontroliuoti išlaidas didžiojoje knygoje. Savikainos objekto dimensijos nariai paverčiami savikainos kontrolės įtaiso savikainos objektais. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USP2.
 

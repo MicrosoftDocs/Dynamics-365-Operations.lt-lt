@@ -18,24 +18,28 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 13d7478197c05211eda30f28b483ec68858ad464
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="distributions-on-an-expense-report"></a>Paskirstymai išlaidų ataskaitoje
 
-[!include[banner](../includes/banner.md)] Išlaidų ataskaitoje įvesdami išlaidas, jas galite paskirstyti keliems savo organizacijos projektams, kelioms finansinėmis dimensijoms ar kelioms sąskaitoms.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Išlaidų ataskaitoje įvesdami išlaidas, jas galite paskirstyti keliems savo organizacijos projektams, kelioms finansinėmis dimensijoms ar kelioms sąskaitoms.
 
 Pavyzdžiui, Nancy, „Fabrikam“ pardavimo atstovė, iš Kopenhagos keliavo į Frankfurtą. Frankfurte ji susitiko su dviem organizacijomis, kad aptartų atskirus kiekvienos organizacijos projektus. Su organizacija A dirbdama ties projektu A, Nancy praleido septynias darbo dienas, o su organizacija B dirbdama ties projektu B – tris darbo dienas.
 
 Kadangi būdama Frankfurte Nancy dirbo ties dviem atskirais projektais, pildydama išlaidų ataskaitą savo išlaidas ji paskirsto atitinkamai pagal kiekvieną projektą. Toliau pateikiamoje lentelėje parodyta, kaip Nancy paskirstė savo išlaidas.
 
-| **Išlaidų tipas** | **Bendroji išlaidų suma** | **Projektui A paskirstyta suma** | **Projektui B paskirstyta suma** |
-|------------------|--------------------------|-------------------------------------|-------------------------------------|
-| Keliavimo traukiniu išlaidos       | 578 DKK                  | 405 DKK                             | 173 DKK                             |
-| Viešbutis            | 725 EUR                  | 557 EUR                             | 168 EUR                             |
-| Maitinimo išlaidos            | 346 EUR                  | 284 EUR                             | 62 EUR                              |
+
+| <strong>Išlaidų tipas</strong> | <strong>Bendroji išlaidų suma</strong> | <strong>Projektui A paskirstyta suma</strong> | <strong>Projektui B paskirstyta suma</strong> |
+|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|          Keliavimo traukiniu išlaidos           |                578 DKK                |                     405 DKK                      |                     173 DKK                      |
+|             Viešbutis             |                725 EUR                |                     557 EUR                      |                     168 EUR                      |
+|             Maitinimo išlaidos             |                346 EUR                |                     284 EUR                      |                      62 EUR                      |
+
 

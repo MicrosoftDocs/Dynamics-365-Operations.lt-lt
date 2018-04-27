@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Užsakymų įvedimo terminai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie užsakymų įvedimo terminus. Užsakymų įvedimo terminas yra nutraukimo laikas, kuriuo nustatoma, ar kliento užsakymas apdorojamas (ir įvykdomas) taip, lyg jis būtų buvęs gautas dabartinę dieną ar kitą dieną.
 

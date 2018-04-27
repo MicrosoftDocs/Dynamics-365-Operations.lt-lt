@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Išplėstinio filtravimo ir užklausų sintaksė
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant atitikmenų operatorių Išplėstinio filtro / rūšiavimo dialogo lange.
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>„Nuo“ vertė</em>..<em>„Iki“ vertė</em> (dvigubas taškas)</td>
 <td>Vertė, esanti tarp dviejų įvestų verčių, atskirtų dvigubais taškais.</td>
 <td>Įveskite vertę Nuo, tada du taškus, tada vertę Iki.</td>
-<td>Įvedus <strong>1..10</strong> randamos visos vertės nuo 1 iki 10. Tačiau eilutės lauke <strong>A..C</strong> atsiranda visos vertės, prasidedančios &quot;A&quot; ir &quot;B&quot;, ir vertės, tiksliai lygios &quot;C&quot;. Pvz., pagal šią užklausą nebus rasta &quot;Ca&quot;. Norėdami surasti visas vertes įskaitytinai nuo &quot;A*&quot; iki &quot;C*&quot;, įrašykite <strong>A..D</strong>.</td>
+<td>Įvedus <strong>1..10</strong> randamos visos vertės nuo 1 iki 10. Tačiau eilutės lauke <strong>A..C</strong> atsiranda visos vertės, prasidedančios &quot;A&quot; ir &quot;B&quot;, ir vertės, tiksliai lygios &quot;C&quot;. Pvz., pagal šią užklausą nebus rasta &quot;Ca&quot;. Norėdami surasti visas vertes įskaitytinai nuo &quot;A<em>&quot; iki &quot;C</em>&quot;, įrašykite <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>vertė</em> (dvigubas taškas)</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>vertė</em>* (žvaigždutė)</td>
 <td>Prasideda įvesta verte</td>
-<td>Įveskite pradžios vertę, tada – žvaigždutę (<strong>*</strong>).</td>
-<td>Įvedus <strong>S*</strong> randama bet kuri eilutė, prasidedanti &quot;S&quot;, pvz.,  &quot;Stockholm&quot;, &quot;Sydney&quot; ir &quot;San Francisco&quot;.</td>
+<td>Įveskite pradžios vertę, tada žvaigždutę (<strong><em></strong>).</td>
+<td><strong>Įvedus S</em></strong> randama bet kuri eilutė, prasidedanti &quot;S&quot;, pvz., &quot;Stockholm&quot;, &quot;Sydney&quot; ir &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>vertė</em> (žvaigždutė)</td>
+<td><em><em>vertė</em> (žvaigždutė)</td>
 <td>Baigiasi įvesta verte</td>
 <td>Įveskite žvaigždutę ir pabaigos vertę.</td>
-<td>Įvedus <strong>*east</strong> randamos visos eilutės, besibaigiančios &quot;east&quot;, pvz., &quot;Northeast&quot; ir &quot;Southeast&quot;.</td>
+<td>Įvedus <strong></em>east</strong> randamos visos eilutės, besibaigiančios &quot;east&quot;, pvz., &quot;Northeast&quot; ir &quot;Southeast&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>vertė</em>* (žvaigždutė)</td>
+<td><em><em>vertė</em></em> (žvaigždutė)</td>
 <td>Įeina įvesta vertė</td>
 <td>Įveskite žvaigždutę, tada vertę ir kitą žvaigždutę.</td>
-<td>Įvedus <strong>*th*</strong> randamos visos eilutės, kuriose yra &quot;th&quot;, pvz. &quot;Northeast&quot; ir &quot;Southeast&quot;.</td>
+<td>Įvedus <strong><em>th</em></strong> randamos visos eilutės, kuriose yra &quot;th&quot;, pvz. &quot;Northeast&quot; ir &quot;Southeast&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? klaustuko ženklas</td>
@@ -131,7 +130,7 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>A</td>
+<td>T</td>
 <td>Šiandienos data</td>
 <td>Įveskite <strong>T</strong>.</td>
 <td><strong>T</strong> atitinka šiandienos datą.</td>

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Ataskaitų dizaino įrankio sąsaja
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius. 
 

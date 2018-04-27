@@ -3,7 +3,7 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašytos funkcijos, kurios buvo pašalintos arba nebėra naudojamos „Dynamics 365 for Finance and Operations“.
 
@@ -37,7 +37,10 @@ ms.lasthandoff: 03/26/2018
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!Note]
-> Pradedant nuo „Dynamics 365 for Finance and Operations, Enterprise Edition“ 2017 m. liepos mėn. leidimo su 8 platformos naujiniu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
+> Pradedant nuo „Dynamics 365 for Finance and Operations“ 2017 m. liepos mėn. leidimo su 8 platformos naujinimu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>„Dynamics 365 for Finance and Operations“ 8.0 su 15 platformos naujinimu
+Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudojamos. 15 platformos naujinimas yra kaupiamasis ir jame pateikiamos naujos arba pakeistos 13 platformos naujinimo, 14 platformos naujinimo ir 15 platformos naujinimo funkcijos.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ su 12 platformos naujiniu
 
@@ -1033,10 +1036,11 @@ Virtualių įmonių funkcija programoje „Dynamics AX‟ nebepalaikoma. Virtual
 
 ### <a name="x-financial-statements"></a>X++ finansinės ataskaitos
 
-|   |  |
-|------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė kita funkcija.                                    |
-| **Pakeitė kita funkcija?**   | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta **Finansinės ataskaitos**) |
-| **Paveiktos produkto sritys**         | DK                                                                              |
-| **Būsena**                         | Pašalinta iš „Dynamics AX 2012“                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Nebenaudojimo / pašalinimo priežastis</strong> |                         Šią funkciją pakeitė kita funkcija.                         |
+|  <strong>Pakeitė kita funkcija?</strong>  | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta <strong>Finansinės ataskaitos</strong>) |
+|     <strong>Paveiktos produkto sritys</strong>     |                                              DK                                              |
+|             <strong>Būsena</strong>             |                                      Pašalinta iš „Dynamics AX 2012“                                      |
+
 

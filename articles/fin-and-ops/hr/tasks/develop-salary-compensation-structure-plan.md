@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Kurti atlyginimų / kompensavimo struktūrą ir planus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
 

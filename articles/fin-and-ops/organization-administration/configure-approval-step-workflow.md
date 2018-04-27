@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Darbo eigos patvirtinimo veiksmo konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 
@@ -145,9 +144,9 @@ Atlikite šiuos veiksmus, kad nurodytumėte, kam patvirtinimo veiksmas turėtų 
     Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas laikomas vėluojančiu. Vėluojančiu laikomas dokumentas yra perskiriamas atsižvelgiant į parinktis, kurias pasirenkate puslapio srityje **Perskyrimas**.
 4.  Jei patvirtinimo veiksmą priskiriate keliems vartotojams arba vartotojų grupei, skirtuke **Baigimo strategija** pasirinkite vieną iš tolesnių parinkčių.
     -   **Vienas tvirtintojas** – koks bus atliekamas veiksmas su dokumentu, sprendžia pirmasis turintis reaguoti asmuo. Pvz., Sam pateikė 15 000 JAV dolerių išlaidų ataskaitą. Šiuo metu išlaidų ataskaita yra priskirta Sue, Jo ir Bill. Jei Sue yra pirmasis asmuo, kuris turi reaguoti į dokumentą, veiksmas, kurį ji atlieka, bus taikomas dokumentui. Jei Sue dokumentą atmeta, jis atmetamas ir grąžinamas Sam. Jei Sue dokumentą patvirtina, jis siunčiamas Ann tvirtinti. 
-    
+
     ![Darbo eiga su patvirtinimo procesu](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Tvirtintojų dauguma** – koks bus atliekamas veiksmas su dokumentu, lemia tvirtintojų dauguma. Pvz., Sam pateikė 15 000 JAV dolerių išlaidų ataskaitą. Šiuo metu išlaidų ataskaita yra priskirta Sue, Jo ir Bill. Jei Sue ir Jo yra pirmieji du tvirtintojai, kurie reaguoja, jų atliekami veiksmai bus taikomi dokumentui.
         -   Jei Sue patvirtina dokumentą, o Jo jį atmeta, dokumentas yra atmetamas ir siunčiamas atgal Sam.
         -   Jei tiek Sue, tiek Jo dokumentą patvirtina, jis siunčiamas Ann patvirtinti.

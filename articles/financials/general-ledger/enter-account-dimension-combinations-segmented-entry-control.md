@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Įveskite sąskaitų ir dimensijų kombinacijas (segmentuoto įrašo valdiklis)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašyta, kaip įvesti sąskaitos ir dimensijų kombinacijas arba DK sąskaitas. Įvedimo patirtis dažnai vadinama segmentuotu įrašų valdikliu.
 
@@ -112,7 +111,7 @@ Toliau pateikiamoje lentelėje aprašomi spartieji klavišai, kuriuos galima nau
 </tbody>
 </table>
 
- 
+
 
 
 

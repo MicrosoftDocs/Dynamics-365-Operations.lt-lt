@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Kurti projekto SF kredito pažymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Eikite į Projektų valdymas ir apskaita > Projektai > Visi projektai. 
 2. Sąraše raskite ir pasirinkite norimą įrašą. 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Paleisti dimensijomis pagrįstą bendrąjį produktą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip paleisti bendrąjį produktą, kuris bus naudojamas konfigūruojant pagal dimensijas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Būtina sąlyga – turite būti sukūrę bendrąjį produktą su konfigūravimo pagal dimensijas technologija. Tai yra antroji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.
 

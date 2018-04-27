@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 
@@ -53,16 +52,12 @@ Spustelėjus išklotinę atveriamas filtruotas puslapio **Sąskaitų faktūrų s
 
 Skyriuje **Sąrašų lentelės** sąskaitos faktūros būsena suskirstoma į panašias dalis kaip ir suvestinės išklotinės: juodraščiai ir pateikti, nepatvirtinti sąrašai. Jeigu būsena Juodraštis, sąskaitą faktūrą galima pateikti darbo eigai arba panaikinti. Paskutinė sąrašų lentelė naudojama SF surasti. Ieškodami galite išfiltruoti ir greičiau surasti.
 
-<a name="all-vendor-invoices-list-page"></a>Visų tiekėjo SF sąrašo puslapis
------------------------------
+### <a name="all-vendor-invoices-list-page"></a>Visų tiekėjo SF sąrašo puslapis
 
 Sąrašo puslapyje **Tiekėjo bendradarbiavimo SF** galite peržiūrėti visas užregistruotas ir neužregistruotas tiekėjo sąskaitas faktūras. Naudodami šį sąrašo puslapį galite peržiūrėti sąskaitų faktūrų mokėjimo būseną. Apmokėjimo būsenos yra šios: neužregistruota, neapmokėta, apmokėta iš dalies, visiškai apmokėta.
 Naujos tiekėjo SF kūrimas naudojant pirkimo užsakymą
---------------------------------------------
 
 Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities **Tiekėjo bendradarbiavimo SF išrašymas** veiksmą **Nauja**. Pirkimo užsakymo numerį ir sąskaitos faktūros numerį privalo pateikti tiekėjas. Pagal numatytąjį nustatymą visos tiekėjo pirkimo užsakymo eilutės rodomos naujoje SF. Kiekio ir kainos informaciją galima redaguoti prieš pateikiant tiekėjo SF darbo eigai. Prieš pateikdami SF prie jos galite pridėti failų, pastabų, vaizdų ir URL.
-
-
 
 Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimas su išoriniais tiekėjais](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 

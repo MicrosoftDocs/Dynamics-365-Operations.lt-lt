@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Sandėlio mobiliojo įrenginio rodymo parametrai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip nustatyti mobiliojo įrenginio ekrano išvaizdą ir susieti klaviatūros sparčiuosius klavišus su valdikliais, pvz., mygtukais. 
 

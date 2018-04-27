@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Atsargų uždarymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kaip išdavimo operacijų su gavimo operacijomis proceso dalį, taip pat galite atnaujinti didžiąją knygą, kad joje atsispindėtų atlikti pakeitimai.
 

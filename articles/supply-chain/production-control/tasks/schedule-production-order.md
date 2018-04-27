@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Suplanuoti gamybos užsakymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje nurodoma, kaip planuoti gamybos užsakymą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Tai yra trečioji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.
 

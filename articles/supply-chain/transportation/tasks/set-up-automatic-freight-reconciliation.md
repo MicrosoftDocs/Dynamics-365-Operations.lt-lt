@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Automatinio transportavimo derinimo nustatymas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti automatinio transportavimo derinimo duomenis. Tai paprastai atlieka sandėlio vadovas. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 

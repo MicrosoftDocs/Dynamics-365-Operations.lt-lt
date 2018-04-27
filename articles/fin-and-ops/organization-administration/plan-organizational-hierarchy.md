@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Prieš nustatydami organizacijas ir organizacijos hierarchijas programoje „Microsoft Dynamics 365 for Finance and Operations“ būtinai suplanuokite, kaip bus modeliuojamas jūsų verslas. Organizacijos modelis turi didelės įtakos „Finance and Operations“ diegimui ir verslo procesams. 
 
@@ -158,7 +157,7 @@ Jei skiriasi šalių, kuriose įsikūrusios jūsų organizacijos, įstatymai ir 
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ar organizacija modeliuojama kaip valdymo vienetas 
 Jei šalių, kuriose įsikūrusios jūsų organizacijos, įstatymai ir apskaitos praktikos sutampa, galite naudoti vieną metų pabaigos procedūrų rinkinį. Tai reiškia, kad galite modeliuoti organizacijas kaip valdymo vienetus. Visi valdymo vienetai turi naudoti tą pačią uždarymo metų pabaigoje procedūrą. 
-   
+
 ### <a name="number-sequences"></a>Numeravimai
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ar organizacija modeliuojama kaip juridinis subjektas
 Tam tikrų nuorodų numeracijas galima atskirai nustatyti kiekviename juridiniame subjekte. Tam tikros numeracijos gali būti bendros. 

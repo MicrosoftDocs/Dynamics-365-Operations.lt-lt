@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI‟
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Power BI“ tarnybas. Šioje temoje pateikiamame pavyzdyje „Intrastat“ operacijos naudojamos kaip verslo duomenys, kuriuos reikia perkelti. „Power BI“ schemos vizualizacijoje naudojami šie „Intrastat“ operacijų duomenys, kad „Power BI“ ataskaitoje būtų pateiktas įmonės importavimo / eksportavimo veiklų analizės rodinys.
 
@@ -118,9 +117,9 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>„Power BI“ ataskaitos kūrimas naudojant naują duomenų rinkinį
 1. Spustelėkite sukurtą „Power BI“ duomenų rinkinį **Importavimo ir eksportavimo informacija**. 
 2. Sukonfigūruokite vizualizaciją. Pvz., pasirinkite vizualizaciją **Užpildyta schema** ir sukonfigūruokite ją, kaip nurodyta toliau.
- -   Duomenų rinkinio lauką **CountryOrigin** priskirkite schemos vizualizacijos laukui **Vieta**.
- -   Duomenų rinkinio lauką **Amount** priskirkite schemos vizualizacijos laukui **Spalvų sotis**.
- -   Duomenų rinkinio laukus **Veikla** ir **Metai** įtraukite schemos vizualizacijos laukų rinkinį **Filtrai**.
+   -   Duomenų rinkinio lauką **CountryOrigin** priskirkite schemos vizualizacijos laukui **Vieta**.
+   -   Duomenų rinkinio lauką **Amount** priskirkite schemos vizualizacijos laukui **Spalvų sotis**.
+   -   Duomenų rinkinio laukus **Veikla** ir **Metai** įtraukite schemos vizualizacijos laukų rinkinį **Filtrai**.
 
 3. Įrašyti „Power BI“ ataskaitą **Importavimo ir eksportavimo informacijos ataskaita**. [![Importavimo ir eksportavimo informacijos ataskaita](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Atkreipkite dėmesį, kad schemoje rodomos šalys / regionai, nurodyti „Excel“ faile (šiame pavyzdyje – Austrija ir Šveicarija). Šios šalys / regionai pateikiami naudojant skirtingas spalvas, kad būtų parodyta proporcinga kiekvienoje šalyje / regione išrašytų SF sumų dalis. 
 4. Atnaujinkite „Intrastat“ operacijų sąrašą. Įtraukiama eksportavimo operacija, kuri buvo sugeneruota Italijoje. [![Intrastat operacijų sąrašas](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

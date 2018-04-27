@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>„Power BI“ turinys Praktikos vadovas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Praktikos vadovas**. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
 
@@ -118,7 +118,9 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Objektas: ProjectAccountingCube\_TotalEstimatedCosts 
 **Duomenų šaltinis:** ProjTable
 
-| Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |
-|---------------------------------|---------------------|-------------|
+
+|    Pagrindiniai sujungti matavimo vienetai    |        Laukas        |                                          aprašymas                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Užbaigtos veiklos suplanuotos išlaidos | Sum(TotalCostPrice) | Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina. |
+
 

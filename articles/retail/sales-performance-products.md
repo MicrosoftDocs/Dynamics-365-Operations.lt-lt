@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Pardavimo našumo vertinimas pagal produktą
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Naudodami „Microsoft Dynamics 365 for Retail‟ galite tirti 10 populiariausių produktų pelningumą. 
 

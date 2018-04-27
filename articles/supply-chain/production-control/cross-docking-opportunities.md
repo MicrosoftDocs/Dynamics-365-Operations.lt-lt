@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti prekių skirstymo medžiagos procesą, kai iš gamybos linijos siunčiamų prekių transportavimo rampai pranešama, kad procesas baigtas.
 
@@ -76,10 +76,10 @@ Dalyje **Prekių skirstymo strategija** nurodote, kuri tipų dokumentai taikytin
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Prekių skirstymo strategijos pavadinimas: perkėlimo užsakymas
 
--   Eilės numeris: 10
- -   Darbo užsakymo tipas: leidimas perkelti
--   Būtina nurodyti prekių skirstymo poreikio vietą: ne
--   Prekių skirstymo strategija: data ir laikas
+- Eilės numeris: 10
+  -   Darbo užsakymo tipas: leidimas perkelti
+- Būtina nurodyti prekių skirstymo poreikio vietą: ne
+- Prekių skirstymo strategija: data ir laikas
 
 ### <a name="sequence-number"></a>Eilės numeris
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudojant statistinę dimensiją ir jos narius, modulyje Kaštų apskaita registruojami ir kontroliuojami nepiniginiai įrašai. Statistinių dimensijų narius galima naudoti dviem tolesniais tikslais.
 

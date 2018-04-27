@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Kaip tvarkyti darbo jėgą nustatant padalinius, užduotis ir pareigas
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šioje temoje pateikiama abstrakti informacija apie šiuos elementus. 
 
@@ -48,7 +47,7 @@ Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyj
 |**Personalas**|Personalo vadovas (vakarų regionas)|Personalo vadovas|
 |**Personalas**|Personalo vadovas (centrinis regionas)|Personalo vadovas|
 
- 
+
  <a name="departments"></a>Padaliniai
 ------------
 

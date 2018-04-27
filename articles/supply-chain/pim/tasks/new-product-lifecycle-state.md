@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Naujos produkto ciklo būsenos kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip sukurti naują produkto ciklo būseną. Produkto ciklo būsena nurodo išleisto produkto arba produkto varianto ciklo būseną. Produkto ciklo būsenas apibrėžia vartotojas, paprastai – produktų vadovas arba produktų bendrųjų duomenų vadovas. Konkrečius verslo procesus, pavyzdžiui, procesą Bendrasis planavimas, gali paveikti konkreti ciklo būsena.
 

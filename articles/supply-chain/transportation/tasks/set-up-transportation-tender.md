@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-transportation-tender"></a>Nustatyti transportavimo mokėjimo priemonę
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti transportavimo mokėjimo priemonę. Paprastai tą daro transportavimo koordinatorius. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
 

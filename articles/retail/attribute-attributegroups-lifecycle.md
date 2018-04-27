@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atributai, atributų grupės ir jų susiejimai su įvairiais „Retail“ objektais sprendime „Finance and Operations“
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). Sprendime „Microsoft Dynamics 365 for Finance and Operations“ atributus galima susieti su įvairiais „Retail“ objektais, pvz., produktų kategorijomis ir mažmeninės prekybos kanalais, bei galima nustatyti numatytąsias jų reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
  
@@ -227,13 +227,13 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 5. „FastTab“ skirtuke **Produktai** pasirinkite reikiamą produktą, tada virš produktų tinklelio pasirinkite **Atributai**.
 6. Tolesniuose „FastTab“ atnaujinkite reikiamų atributų reikšmes.
 
-    - Bendrinami produktų publikavimo kanalai
-    - Bendrai naudojami produkto atributai
-    - Publikavimo kanalas
-    - Kanalo produkto atributai
+   - Bendrinami produktų publikavimo kanalai
+   - Bendrai naudojami produkto atributai
+   - Publikavimo kanalas
+   - Kanalo produkto atributai
 
-    > [!NOTE]
-    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+     > [!NOTE]
+     > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
 
 ![Katalogų produktų atributų grupės](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 
 5. Tolesniuose „FastTab“ atnaujinkite reikiamų atributų reikšmes.
 
-    - Bendrinami produktų publikavimo kanalai
-    - Bendrai naudojami produkto atributai
-    - Publikavimo kanalas
-    - Kanalo produkto atributai
+   - Bendrinami produktų publikavimo kanalai
+   - Bendrai naudojami produkto atributai
+   - Publikavimo kanalas
+   - Kanalo produkto atributai
 
-    > [!NOTE]
-    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+     > [!NOTE]
+     > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
 

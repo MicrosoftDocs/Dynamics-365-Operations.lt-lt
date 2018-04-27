@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>Naujų vartotojų kūrimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis. Sistemos administratoriai gali atlikitti šią procedūrą, kad įtrauktų vartotojus į sistemą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. 
 

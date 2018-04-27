@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>PVM skirtų DK registravimo grupių nustatymas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra nurodytos DK registravimo grupėse. DK registravimo grupės pridedamos prie kiekvieno PVM kodo. Galite nustatyti individualias DK registravimo grupes kiekvienam PVM kodui, naudoti vieną DK registravimo grupę visiems PVM kodams arba PVM kodams priskirti kelias DK registravimo grupes. Šiame įraše naudojama demonstracinė įmonė DEMF. 
 

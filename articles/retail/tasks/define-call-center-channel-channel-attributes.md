@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Apibrėžti skambučių centro kanalą ir kanalo atributus
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti naują mažmenos kanalą ir apibrėžti kanalo atributus. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT. Ši procedūra yra skirta mažmenos IT vaidmeniui.
 

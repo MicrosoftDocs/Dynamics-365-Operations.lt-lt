@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Bendrojo planavimo pagrindinis puslapis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Pagrindinė bendrojo planavimo esmė – padėti įmonėms nustatyti ir rasti pusiausvyrą tarp būsimo žaliavų poreikio ir galimybių pasiekti įmonės tikslus. Bendrasis planavimas įvertina šiuos dalykus: 
 
@@ -58,6 +57,7 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 [![Bendrojo planavimo mokymo planas](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Spartieji saitai
+
 |      |   |
 |------|---|
 |        [Bendrieji planai](master-plans.md)       |     [Kurti planą su apribojimais](./tasks/constrained-plan.md)  |

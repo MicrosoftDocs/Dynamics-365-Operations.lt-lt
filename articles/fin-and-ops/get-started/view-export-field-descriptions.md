@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
@@ -77,7 +76,7 @@ Lauke **Pasirinkti puslapį** puslapio galima ieškoti keliais būdais. Daugeliu
     -   Jei yra daugiau nei vienas tikslus atitikmuo, aprašymai nebus rodomi. Jums reikės atidaryti išplečiamąjį sąrašą ir pasirinkti tą puslapį, kurio reikia.
     -   Jei įrašytasis pavadinimas taip pat yra ir kito puslapio pavadinimo dalis, matysite savo puslapio laukų aprašymus. Tačiau jei atidarysite išplečiamąjį sąrašą, pamatysite papildomus puslapius, kurie apima šį pavadinimą.
 
-Pavyzdžiui, aprašai nepateikiami lauke ****Pasirinkti puslapį**** įvedant **Skaičiavimas**. Jei atidarysite išplečiamąjį sąrašą, pamatysite, kad yra du puslapiai pavadinimu **Skaičiavimas**, taip pat keli puslapiai, kurių pavadinimuose yra žodis „Skaičiavimas“. Jei pasirinksite puslapį, kurio AOT pavadinimas yra **InventJournalCount**, bus rodomi to puslapio laukų aprašymai. Tačiau jei dar kartą atidarysite išplečiamąjį sąrašą, pamatysite, kad sąraše pateikti visi puslapiai, kurių AOT puslapio pavadinimai apima „InventJournalCount“.
+Pavyzdžiui, aprašai nepateikiami lauke *<strong><em>Pasirinkti puslapį</em></strong>* įvedant <strong>Skaičiavimas</strong>. Jei atidarysite išplečiamąjį sąrašą, pamatysite, kad yra du puslapiai pavadinimu <strong>Skaičiavimas</strong>, taip pat keli puslapiai, kurių pavadinimuose yra žodis „Skaičiavimas“. Jei pasirinksite puslapį, kurio AOT pavadinimas yra <strong>InventJournalCount</strong>, bus rodomi to puslapio laukų aprašymai. Tačiau jei dar kartą atidarysite išplečiamąjį sąrašą, pamatysite, kad sąraše pateikti visi puslapiai, kurių AOT puslapio pavadinimai apima „InventJournalCount“.
 
 ## <a name="troubleshooting"></a>Trikčių diagnostika
 Šiame skyriuje pateikiama informacija, kuria siekiama padėti jums išspręsti problemas, galinčias kilti naudojant laukų aprašymus.

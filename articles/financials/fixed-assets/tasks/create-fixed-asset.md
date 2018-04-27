@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Kurti ilgalaikį turtą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame užduočių vadove naudojama demonstracinė įmonė USMF.  Naudojant puslapį Ilgalaikio turto sąrašas, bus sukurtas naujas ilgalaikis turtas.
 

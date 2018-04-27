@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Paketo balansavimas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Šioje temoje aprašoma, kaip palaikomas paketų balansavimo procesas. 
 
-Šioje temoje aprašoma, kaip palaikomas paketų balansavimo procesas.
+Žiūrėkite [vaizdo įrašą apie partijų balansavimą programoje „Microsoft Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Vykdant paketų balansavimo procesą, gamybos pakete naudotinas ingredientų kiekis apskaičiuojamas pagal aktyviųjų ingredientų koncentraciją pasirinktuose produktų paketuose.
 
@@ -179,7 +180,7 @@ Kai ingredientų kiekiai apskaičiuoti, formulę galite patvirtinti ir išleisti
 
 -   Jei su produktu galima vykdyti sandėlio valdymo procesus, formulės eilutė į sandėlį išleidžiama pagal sandėlio valdymo procesų principus. Išleidžiami su subalansuotais kiekiais sutapantys formulės eilutės kiekiai ir jie išleidžiami tų konkrečių paketų, kuriuose pasirinkta naudoti aktyviuosius ingredientus.
 
->   [!NOTE]
+> [!NOTE]
 >   Formulių eilutes į sandėlį galima išleisti tik vykdant paketų balansavimo procesą. Nors yra kitų parinkčių, kaip medžiagas gamybai išleisti į sandėlį, su formulių eilutėmis tų parinkčių naudoti negalima.
 
 -   Jei su produktu sandėlio valdymo procesų vykdyti negalima, jums tvirtinant ir išleidžiant formulę sukuriamas produkto išrinkimo dokumentas.

@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Elektroninių ataskaitų formulių kūrimo įrankis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER). Kurdami ER konkretaus elektroninio dokumento formatą, naudodami formules galite transformuoti duomenis, kad jie atitiktų dokumento įvykdymo ir formatavimo reikalavimus. Šios formulės panašios į „Microsoft Excel“ formules. Formulėse palaikomos įvairių tipų funkcijos: tekstinės, datos ir laiko, matematinės, loginės, informacijos, duomenų tipo konvertavimo ir kitos (konkrečios verslo srities funkcijos).
 
@@ -313,12 +313,12 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 <tr class="odd">
 <td>ORDERBY (sąrašas [, 1 išraiška, 2 išraiška, ...])</td>
 <td>Pateikti nurodytą sąrašą, surūšiuotą pagal nurodytus argumentus. Šiuos argumentus galima apibrėžti kaip išraiškas.</td>
-<td>Jei <strong>Tiekėjas </strong>sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable,<strong> ORDERBY (Vendors, Vendors.'name()')</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą didėjančia tvarka.</td>
+<td>Jei <strong>Tiekėjas </strong>sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą didėjančia tvarka.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (sąrašas)</td>
 <td>Pateikti nurodytą sąrašą atvirkštine rūšiavimo tvarka.</td>
-<td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą mažėjančia tvarka.</td>
+<td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą mažėjančia tvarka.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (sąrašas, sąlyga)</td>
@@ -395,7 +395,9 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <tr class="even">
 <td>STRINGJOIN (sąrašas, lauko pavadinimas, skyriklis)</td>
 <td>Pateikti eilutę, kurią sudaro sujungtos nurodyto lauko, esančio nurodytame sąraše, reikšmės. Reikšmes skiria nurodytas skyriklis.</td>
-<td>Jei kaip duomenų šaltinį (DS) įvedate <strong>SPLIT(&quot;abc&quot; , 1)</strong>, išraiška <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> pateikia <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Jei kaip duomenų šaltinį įvedate <strong>SPLIT(&quot;abc&quot; , 1)</strong>, išraiška <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> pateikia <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (sąrašas, ribinė reikšmė, ribos šaltinis)</td>
@@ -416,7 +418,7 @@ Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svo
 <tr class="even">
 <td>FILTER (sąrašas, sąlyga)</td>
 <td>Pateikti nurodytą sąrašą, kai užklausa modifikuota filtruoti pagal nurodytą sąlygą. Ši funkcija skiriasi nuo funkcijos <strong>WHERE</strong>, nes nurodyta sąlyga duomenų bazės lygiu taikoma bet kuriam ER duomenų šaltiniui, kurio tipas – <strong>Lentelės įrašai</strong>. Sąrašą ir sąlygas galima nustatyti naudojant lenteles ir ryšius.</td>
-  <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą. Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę <strong>VendTable</strong>, ir <strong>parmVendorBankGroup</strong>, sukonfigūruotas kaip ER duomenų šaltinis, pateikia eilutės duomenų tipo reikšmę, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> pateikia tik konkrečiai bankų grupei priklausančių tiekėjų sąskaitų sąrašą.</td>
+  <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą. Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę <strong>VendTable</strong>, ir <strong>parmVendorBankGroup</strong>, sukonfigūruotas kaip ER duomenų šaltinis, pateikia eilutės duomenų tipo reikšmę, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> pateikia tik konkrečiai bankų grupei priklausančių tiekėjų sąskaitų sąrašą.</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat patei
 <li>„Finance and Operations“ žymė SYS18389, kur nurodytas toks tekstas:
 <ul>
 <li><strong>EN-US kalba:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>DE kalba:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>DE kalba:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Tai yra formulė, kurią galima kurti.</p>
@@ -561,7 +563,7 @@ Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat patei
 <p>Jei ataskaita apdorojama klientui <strong>„Litware Retail“</strong> 2015 m. gruodžio 17 d., pagal <strong>EN-US</strong> kultūrą ir <strong>EN-US</strong> kalbą, ši formulė pateikia tokį tekstą, kuris galutiniam vartotojui gali būti pateiktas kaip tolesnis išimties pranešimas.</p>
 <p>&quot;Nėra ką spausdinti. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Jei ta pati ataskaita apdorojama klientui <strong>„Litware Retail“</strong> 2015 m. gruodžio 17 d. pagal <strong>DE</strong> kultūrą ir <strong>DE</strong> kalbą, ši formulė pateikia tokį tekstą, kuris naudoja toliau nurodytą kitokį datos formatą.</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 ER formulėse žymoms taikoma tokia sintaksė:
 <ul>

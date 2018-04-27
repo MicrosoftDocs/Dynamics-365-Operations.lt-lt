@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Mažmeninės prekybos hierarchijos
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašytos „Microsoft Dynamics 365 for Retail“ mažmeninės prekybos hierarchijos.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Kopijuoti sudėtinius produktus iš esamos formulės versijos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip kopijuoti sudėtinius produktus iš esamos formulės versijos į kitokią patvirtinto produkto formulę. Būtina sąlyga, kad bent viena formulės versija būtų susieta su sudėtiniais produktais. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonės USP2.
 

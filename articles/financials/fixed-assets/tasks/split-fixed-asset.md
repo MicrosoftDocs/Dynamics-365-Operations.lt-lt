@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Skaidyti ilgalaikį turtą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis užduočių vadovas išskaidys vienos turto knygos procentinę dalį naujai turto knygai.  Jis naudoja vaidmenį Buhalteris ir USMF demonstracinius duomenis.
 

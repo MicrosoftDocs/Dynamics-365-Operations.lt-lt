@@ -1,9 +1,9 @@
 ---
 title: "Atsargų žurnalai"
-description: "Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti."
-author: MarkusFogelberg
+description: "Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti."
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-Šiame straipsnyje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
+Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 
 Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
 
@@ -51,7 +50,7 @@ Galima rinktis iš toliau nurodytų atsargų žurnalų tipų.
 
 ### <a name="movement"></a>Perkėlimas
 
-Kai naudojate atsargų judėjimo žurnalą, pridėdami atsargas galite prie prekės pridėti išlaidas, tačiau turite rankiniu būdu papildomas išlaidas paskirstyti DK sąskaitai – kuriant žurnalą nurodyti DK korespondentinę sąskaitą. Šis atsargų žurnalo tipas yra naudingas norint prekės išlaidas pateikti kitam skyriui arba jei išlaidų tikslais norite prekes pašalinti iš atsargų.
+Kai naudojate atsargų judėjimo žurnalą, pridėdami atsargas galite prie prekės pridėti išlaidas, tačiau turite rankiniu būdu papildomas išlaidas paskirstyti DK sąskaitai – kuriant žurnalą nurodyti DK korespondentinę sąskaitą. Šis atsargų žurnalo tipas naudingas, jei norite perrašyti numatytąsias registravimo sąskaitas.
 
 ### <a name="inventory-adjustment"></a>Atsargų koregavimas
 
@@ -95,4 +94,30 @@ Vienu metu žurnalą gali pasiekti tik vienas vartotojas. Jei vienu metu pasiekt
 
 ## <a name="posting-journal-lines"></a>Žurnalo eilučių registravimas
 Sukurtas žurnalo eilutes galite registruoti bet kuriuo metu tol, kol su preke neleisite atlikti papildomų operacijų. Į žurnalą įvesti duomenys lieka tame žurnale, net jei uždarote žurnalą neužregistravę eilučių.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Duomenų objekto atsargų žurnalų palaikymas
+
+Duomenų objektai palaiko toliau nurodytų tipų scenarijus.
+-    Sinchroninė paslauga („OData“)
+-  Asinchroninis integravimas
+
+Daugiau informacijos žr. [Duomenų objektai](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> Ne visuose atsargų žurnaluose „OData“ įjungta, todėl negalima naudoti „Excel“ duomenų jungties norint duomenis publikuoti, naujinti ir importuoti atgal į „Dynamics 365 for Finance and Operations“. 
+
+Kitas skirtumas tarp žurnalo duomenų objektų yra galimybė naudoti sudėtinius objektus, kurie apima antraščių ir eilučių duomenis. Šiuo metu galite naudoti sudėtinius objektus, skirtus toliau nurodytiems elementams.
+-   Atsargų koregavimo žurnalas
+-   Atsargų perkėlimo žurnalas
+
+Šie du atsargų žurnalai *atsargų inicijavimo* scenarijų palaiko tik kaip duomenų valdymo importavimo projekto dalį.
+-  Kai žurnalo antraštės numeris nenurodytas, bet žurnalo tipo numeracija nurodyta, importavimo užduotis automatiškai sukurs žurnalo antraštes, skirtas 1000 eilučių. Pavyzdžiui, importuojant 2020 eilučių bus sukurtos toliau nurodytos trys žurnalo antraštės.
+    -  1 antraštė: apims 1000 eilučių
+    -  2 antraštė: apims 1000 eilučių
+    -  3 antraštė: apims 20 eilučių
+-  Laikoma, kad unikali eilutės informacija saugoma kiekvienoje atsargų dimensijoje, kuri gali būti produkto, saugyklos arba sekimo dimensija. Todėl neįmanoma importuoti žurnalo eilučių, jei tik datos laukas skiriasi to paties importavimo projekto eilutėse.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Duomenų objektai](../../dev-itpro/data-entities/data-entities.md)
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
 

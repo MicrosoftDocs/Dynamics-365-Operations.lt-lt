@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidated-batch-orders"></a>Konsoliduotieji paketiniai užsakymai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašyta konsoliduotųjų paketinių užsakymų sąvoka.
 

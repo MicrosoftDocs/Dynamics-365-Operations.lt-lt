@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>SF išdavimo data
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip nustatyti parametrus ir apskaičiuoti klientų SF ir tiekėjų SF išdavimo terminus Europos Sąjungoje (ES).
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Parduotuvės našumo analizavimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realiojo laiko analizę, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail‟ duomenis. 
 

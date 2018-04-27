@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Kurti ir susieti įrenginį
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti naują įrenginį ir jį priskirti registrui. Manoma, kad registras jau yra sukurtas.  Šioje užduotyje naudojama demonstracinių duomenų įmonė USRT. Ši užduotis yra skirta administratoriaus, IT specialisto arba mažmeninės prekybos IT ir parduotuvės vadovo vaidmenims.
 

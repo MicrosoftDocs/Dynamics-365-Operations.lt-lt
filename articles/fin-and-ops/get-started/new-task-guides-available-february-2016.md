@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Nauji užduočių vedliai (2016 m. vasario mėn.)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics AX“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
 
@@ -50,8 +49,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Nustatyti mokėtinų sumų SF gretinimo tikrinimą       | Visuotinai             |
 | Nustatyti tiekėjų SF strategijas                            | Visuotinai             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Gautinos sumos
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Peržiūrėti mokėjimų priežiūros informaciją                              | Visuotinai             |
 | Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją   | Visuotinai             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Grynųjų pinigų ir banko valdymas
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Vėlesnio čekio iš kliento sudengimas                             | Visuotinai             |
 | Tiekėjo mokėjimų peržiūra                                              | Visuotinai             |
 
- 
 
+ 
 ### <a name="compliance"></a>Atitikimas
 
 |                                            |                    |
@@ -108,8 +107,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | **BPM eilutė**                               | **Šalis / regionas** |
 | Apibrėžti šaltinio dokumento audito strategijas | Visuotinai             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Kaštų valdymas
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Peržiūrėti gamybos užsakymo dabartinę NG būseną                       | Visuotinai             |
 | Peržiūrėti atsargų išrašą ir KPI pagal išlaidų objektą                     | Visuotinai             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Šaliai / regionui būdingos funkcijos
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | GB-00009 Sudengimo nuolaidos kredito pažymos sukūrimas                                               | Jungtinė Karalystė                  |
 | GB-00009 Skubaus mokėjimo nuolaidos kredito pažymos parametrų nustatymas                                   | Jungtinė Karalystė                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Kurti viziją ir strategiją
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Sukurti klausimą pagal atsakymą į ankstesnį klausimą (sąlyginiai klausimai) | Visuotinai             |
 | KLausimyno vertinimas pagal procentus                                                   | Visuotinai             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Elektroninė ataskaita
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais      | Visuotinai             |
 | ER paslaugų teikėjo pasirinkimas                      | Visuotinai             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Išlaidų valdymas
 
 |                              |                    |
@@ -298,8 +297,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | **BPM eilutė**                 | **Šalis / regionas** |
 | Konfigūruoti išlaidų valdymą | Visuotinai             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Ilgalaikis turtas
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Skaidyti ilgalaikį turtą                                       | Visuotinai             |
 | Perkelti ilgalaikį turtą                                    | Visuotinai             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>DK
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Peržiūrėti žurnalo įrašus ar operacijas                              | Visuotinai             |
 | Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo                    | Visuotinai             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Žmogiškojo kapitalo valdymas
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Išmokų tinkamumo strategijų nustatymas                             | Visuotinai             |
 | I9 dokumento tipų nustatymas                                     | Visuotinai             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Atsargų valdymas
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Prekės arba žaliavos sekimas                                                     | Visuotinai             |
 | Perkelti faktines atsargas sandėlyje                                  | Visuotinai             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Gamyba
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Perkelti medžiagą su „Kanban‟ užduotimis                            | Visuotinai             |
 | Tikrinti gamybos eigą ir versiją                          | Visuotinai             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Bendrasis planavimas
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Nustatyti svarbiausias medžiagas ir tiekėjo pajėgumus | Visuotinai             |
 | Modifikuoti poreikio prognozę neautomatiškai                 | Visuotinai             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Organizacijos administravimas
 
 |                                           |                    |
@@ -501,8 +500,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Elektroninių parašų nustatymas              | Visuotinai             |
 | Nustatyti numeracijas naudojant vedlį | Visuotinai             |
 
- 
 
+ 
 ### <a name="planning"></a>Planavimas
 
 |                        |                    |
@@ -510,8 +509,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | **BPM eilutė**           | **Šalis / regionas** |
 | Nustatyti prieinamumą | Visuotinai             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Paraiškos
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Ieškoti tiekėjų                                               | Visuotinai             |
 | Įsigijimo kategorijų hierarchijos nustatymas                          | Visuotinai             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Produkto informacija ir konfigūracija
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Release a ..\financial-dimensions\dimension-based product master              | Bendra             |
 | Perkelti produktų modelių duomenis                      | Visuotinai             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Viešasis sektorius
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Nustatyti viešojo sektoriaus lėšas                                                         | Visuotinai             |
 | Nustatyti viešojo sektoriaus pirkimo sutarčių klasifikacijas                             | Visuotinai             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Mažmeninė prekyba ir prekyba
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Mažmeninės prekybos kainų koregavimai                                                                  | Visuotinai             |
 | Įrašyti mažmeninės prekybos išrašų konfigūracijas                                                | Visuotinai             |
 
- 
 
+ 
 ### <a name="sales"></a>Pardavimas
 
 |                                            |                    |
@@ -642,8 +641,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Siųsti užsakymus kaip tiesioginius pristatymus           | Visuotinai             |
 | Siųsti pardavimo užsakymus be sandėliavimo      | Visuotinai             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>PVM
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Išskaitomų mokesčių nustatymas                             | Visuotinai             |
 | Peržiūrėti užregistruotas PVM operacijas                 | Visuotinai             |
 
- 
 
+ 
 ### <a name="security"></a>Sauga
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus | Visuotinai             |
 | Nustatyti pareigų atskyrimą                            | Visuotinai             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Sandėlis ir transportavimas
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Siuntų vežėjų nustatymas                                                          | Visuotinai             |
 | Planuodami krovinius ir siuntas naudokite krovinio planavimo darbo sritį                       | Visuotinai             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Darbo pradžios bibliotekos (2016 m. vasario mėn.) užduočių vedliai
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM eilutė**                                       | **Šalis / regionas** |

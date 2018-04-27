@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX panaikintas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teko panaikinti WebSearchAX puslapį. Vietoj to rekomenduojame naudoti mėgstamiausios ieškyklės svetainės iešką.  Pavyzdys: 
 

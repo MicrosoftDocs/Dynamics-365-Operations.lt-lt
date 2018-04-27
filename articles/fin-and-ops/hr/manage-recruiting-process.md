@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-a-recruiting-process"></a>Įdarbinimo proceso valdymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
 

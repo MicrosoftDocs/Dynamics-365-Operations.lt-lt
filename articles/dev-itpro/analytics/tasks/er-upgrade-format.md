@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Formato naujinimas elektroninėse ataskaitose (ER), pritaikant naują pagrindinę to formato versiją
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali prižiūrėti elektroninių ataskaitų (ER) formato konfigūraciją. Šia procedūra paaiškinama, kaip pasirinktinę formato versiją galima sukurti pagal iš konfigūracijų teikėjo (KT) gautą formatą. Ja taip pat paaiškinama, kaip pritaikyti naują, pagrindinę to formato versiją.
 

@@ -3,7 +3,7 @@
 # [Darbo pradžia](talent-get-started.md)
 ## [Sistemos reikalavimai ir naujinimo strategija](talent-versions-update-policy.md)
 ## [„Microsoft Dynamics 365 for Talent“ parengimas](provisioning-talent.md)
-## [„Talent“ aplinkos šalinimas](remove-test-environment.md)
+## [„Talent“ aplinkos šalinimas](remove-talent-environment.md)
 ## [„Microsoft Dynamics 365 for Talent“ modulinių programų parengimas](modular-app-tech-faq.md)
 ## [„Talent“ funkcijų išplėtimas](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md)
 ## [Konkrečios įmonės personalo parametrų nustatymas](set-up-company-specific-hr-parameters.md)
 ## [Personalo veiksmų DUK](personnel-actions-faq.md)
+## [Verslo procesų formalizavimas](formalize-business-processes.md)
 ## [Darbo eigos naudojimas darbuotojų informacijai valdyti](workflow-manage-employee-information.md)
 ## [Atostogų ir neatvykimų apžvalga](leave-absence-overview.md)
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Kurti padalinį ir jį priskirti padalinių hierarchijai
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą. Padalinius galite naudoti norėdami pranešti apie funkcines sritis. Padaliniai gali turėti pelno ir nuostolio atsakomybę.
 

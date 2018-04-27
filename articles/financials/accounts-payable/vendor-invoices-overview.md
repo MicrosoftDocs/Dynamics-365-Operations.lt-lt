@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Tiekėjo SF apžvalga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais. 
 
@@ -87,11 +86,11 @@ Norėdami gauti daugiau informacijos, žr.
  - [Nustatyti tiekėjų SF strategijas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Pagrindiniai SF duomenys mokėtinose sumose naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Įrašyti tiekėjo SF į SF žurnalą](tasks/record-vendor-invoice-invoice-journal.md)
 
 

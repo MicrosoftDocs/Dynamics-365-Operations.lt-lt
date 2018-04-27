@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO su faktine verte ir žymėjimu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Paskutinis įvestas, pirmasis nurašytas (LIFO) yra atsargų modelis, kuriame vėliausi (naujausi) gavimai yra išduodami pirmiausiai. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. 
 
@@ -62,16 +61,16 @@ Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų
 
 **Diagramos paaiškinimas**
 
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
--   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
--   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
+- Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO su faktinės vertės įtraukimo pasirinktimi
 Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupės**, žymės langelis **Įtraukti faktinę vertę**, sistema naudoja tiek faktines, tiek finansines gavimo operacijas einamajai vidutinei savikainai apskaičiuoti. Sistema taip pat kur reikia atlieka finansiškai atnaujintos išdavimo operacijos koregavimus. Išvalius žymės langelį **Įtraukti faktinę vertę**, atsargų uždarymas taikant LIFO atsargų modelį atliks tik finansiškai atnaujintų operacijų sudengimus. 
@@ -96,16 +95,16 @@ Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai ku
 
 **Diagramos paaiškinimas**
 
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
--   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
--   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
+- Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 ## <a name="lifo-with-marking"></a>LIFO su žymėjimu
 Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami būti tikri dėl tikslios atsargų savikainos užregistravus operaciją arba uždarius atsargas. Pavyzdžiui, klientų aptarnavimo skyrius priėmė skubų užsakymą iš svarbaus kliento. Kadangi tai skubus užsakymas, norėdami patenkinti kliento pageidavimus, už šią prekę turite mokėti daugiau. 
@@ -138,16 +137,16 @@ Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokiom
 
 **Diagramos paaiškinimas**
 
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
--   Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
--   Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unit price“.
+- Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
+- Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
 
 
 

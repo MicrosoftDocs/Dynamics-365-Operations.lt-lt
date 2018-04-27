@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Kas nauja ar pasikeitė 7.0.1 programos „Dynamics AX“ versijoje (2016 m. gegužės mėn.)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomos naujos ir pakeistos 7.0.1 programos „Microsoft Dynamics AX“ versijoje veikiančios funkcijos. Ši versija buvo išleista 2016 m. gegužės mėn. ir jos versijos numeris yra 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ ms.lasthandoff: 11/03/2017
 | Konfigūruokite ER paskirties vietas, kad formato išeigos rezultatas būtų nukreiptas į konkrečią paskirties vietą: failą, el. pašto adresą arba archyvą („Microsoft SharePoint“ aplanką arba „Microsoft Azure“ saugyklą). | Anksčiau paleidžiant ER konfigūraciją pasirodydavo pranešimo langas, nurodantis vartotojui failą įrašyti arba atidaryti. Dabar kiekvienos formato konfigūracijos ir kiekvienos komponento paskirties vietą (aplanką arba failą) galite iš anksto sukonfigūruoti atskirai. Vartotojai, turintys reikiamas teises, paskirties vietos parametrus gali taip pat keisti apdorojimo metu. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>EKA – „Microsoft Dynamics AX Retail“
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ką galite daryti?**           | **Kodėl tai svarbu?**                                                                                                                                                              |
 | Naudokite naršyklę „Google Chrome“. | Dabar mažmenininkai debesies EKA gali paleisti naršyklėje „Chrome“ ir naudoti visas funkcijas, kurios yra debesies EKA „Microsoft Edge“ ir „Internet Explorer“ versijose. |
 
 ## <a name="financial-reporting"></a>Finansinės ataskaitos
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ką galite daryti?**                                                | **Kodėl tai svarbu?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ ms.lasthandoff: 11/03/2017
 | Daugiau nebegalite pasirinkti ataskaitų dizaino įrankio parinkčių, kurios negalioja. | Kelios ataskaitų kūrimo parinktys, kurios buvo naudojamos rinkoje esančiose „Management reporter“ versijose, šioje „Dynamics AX“ versijoje netaikomos. Šios parinktys buvo susijusios su finansinių ataskaitų kūrimu, išvedamais duomenimis ir susiejimu. Šios parinktys buvo pašalintos iš finansinių ataskaitų dizaino įrankio, kad vartotojai nedarytų klaidų. |
 
 ## <a name="financial-management"></a>Finansų valdymas
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Ką galite daryti?**                                       | **Kodėl tai svarbu?**                                       |
 | Generuokite mokėtinų sumų mokėjimų teigiamo mokėjimo failus. | Galima generuoti teigiamo mokėjimo failus, kad bankai galėtų lengviau išvengti su čekiais susijusio sukčiavimo. |
 
 ## <a name="warehouse-and-production"></a>Sandėlis ir gamyba
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ką galite daryti?**                                                                                                                                                                                                                                                                                                                                                                    | **Kodėl tai svarbu?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ ms.lasthandoff: 11/03/2017
 | Gamybos užsakymai, kurių cikliškumo struktūros yra pirmame KS lygyje, nėra įtraukiamos į materialiųjų išteklių planavimo KS lygio skaičiavimą.                                                                                                                                                                                                                                     | Produkto variantams priskirti teisingų KS lygių neįmanoma, jei pasirinkti gamybos užsakymai yra KS hierarchijos cikliškumo priežastis.                                                                                                                                                                                                                                                                                                  |
 | Apskaičiuokite atskirus materialiųjų išteklių planavimo ir išlaidų apskaičiavimo KS lygius. • Materialiųjų išteklių planavimo KS lygiai yra apskaičiuojami naujoje lentelėje **ReqItemLevel**. Baigti gamybos užsakymai į skaičiavimą neįtraukiami. • Gamybos išlaidų skaičiavimo KS lygiai yra apskaičiuojami lentelėje **InventTable**. Baigti gamybos užsakymai įtraukiami į skaičiavimą. | • Vykdant materialiųjų išteklių planavimą, pvz., bendrojo planavimo plano planavimą ir išskleidimą, reikia perskaičiuoti tik materialiųjų išteklių planavime naudojamus KS lygius. Kitaip tariant, gamybos išlaidų skaičiavime naudojamų KS lygių skaičiuoti nereikia. • Vykdant išlaidų operacijas, pvz., atsargų uždarymą, reikia perskaičiuoti tik gamybos išlaidų skaičiavime naudojamus KS lygius. |
 
- 
+
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

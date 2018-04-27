@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentų mažėjančios vertės metodas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgtas 150 % nusidėvėjimo mažėjančios vertės metodas.
 
@@ -68,6 +67,7 @@ Jei kaip nusidėvėjimo metus pasirinksite **Ataskaitiniai**, galimos toliau nur
 -   Pasirinkus **Ataskaitinis laikotarpis**, rodoma apskaičiuota bendroji ataskaitinių metų nusidėvėjimo suma. Ši suma kaupiama per ataskaitinius laikotarpius, apibrėžtus **Ataskaitinių kalendorių** puslapyje.
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>150% mažėjančios vertės nusidėvėjimo pavyzdys
+
 |                                |        |
 |--------------------------------|--------|
 | Įsigijimo savikaina               | 11 000 |

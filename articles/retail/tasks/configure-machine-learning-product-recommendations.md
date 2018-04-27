@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Atliekant šią procedūrą atnaujinami duomenys objektų saugykloje, kurią naudoja mašininio mokymo sistema, teikianti produktų rekomendacijas, ir tada EKA klientams įjungiama produktų rekomendacijų funkcija. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

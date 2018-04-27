@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Seanso datos keitimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Pagal numatytuosius nustatymus esama data naudojama įvedant ir registruojant žurnalo įrašus arba šaltinio dokumentus. Datą, kuri naudojama dabartiniam seansui, galite pakeisti. Jei reikia, naudokite šią funkciją žurnalo įrašams arba šaltinio dokumentams atgaline data kurti.
 

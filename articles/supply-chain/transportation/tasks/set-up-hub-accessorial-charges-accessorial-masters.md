@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip sukurti tranzito punkto papildomų paslaugų šabloną ir jį panaudoti tranzito punkto papildomų paslaugų mokesčiui sukurti. Procedūra naudoja USMF duomenų rinkinį. Šį nustatymą paprastai atlieka transportavimo koordinatorius.
 

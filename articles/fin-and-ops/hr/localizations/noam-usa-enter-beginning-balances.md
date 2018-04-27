@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Algalapio pradžios balansų įvedimas
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius. Ši informacija yra naudinga partneriams, kurie perkelia duomenis naujo algalapio diegimui iš kitos sistemos. Kad pasiruoštume pradžios algalapių balansų įvedimui, patikriname šią informaciją:
 
 > * Ar į sistemą įvesti ir pasiekiami darbuotojo įrašai
 > * Darbuotojams nustatyti ir priskirti šie duomenys:
-
+> 
 > > * Mokėjimo ciklai ir mokėjimo laikotarpiai
 > > * Pajamų kodai
 > > * Mokesčiai
 > > * Išmokos ir atskaitymai
-
+> 
 > * Įmonė turėjo pasirinkti datą, nuo kurios galima nustatyti algalapio pradžios balansus.
-
+> 
 > * Buvo surinkta informacija apie visas pajamas, išmokas / atskaitymus, išmokos įmokas, darbuotojo mokamus mokesčius ir darbdavio mokamus mokesčius bei sumas nuo metų pradžios iš senesnės versijos sistemos.
 
 Planuodami įvesti pradžios balansus, apsvarstykite, kiek išsamūs duomenys turėtų būti. Dauguma įmonių įveda vieną, konsoliduotą sumą nuo metų pradžios iki dabartinės datos. Tačiau jei reikia išsamesnės informacijos, balansus galima įvesti nurodant ketvirčio pokyčius. Pagal reikalingą informacijos detalumo lygį nustatoma, kiek mokėjimo išrašų reikės rankiniu būdu sukurti kiekvienam darbininkui. Vienai sumai nuo metų pradžios iki dabartinės datos kiekvienam darbuotojui reikia rankiniu būdu sukurti tiktai vieną išrašą. Kad tai atliktumėte, naudokite sumas nuo metų pradžios iki dabartinės datos, pateikiamas ankstesnės sistemos galutinio mokėjimo išraše, kaip naujoje algalapio sistemoje įvestą sumą.
@@ -128,22 +128,22 @@ Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrint
 
 4. Atidarykite skirtuką **Išmokų atskaitymai** ir įveskite toliau nurodytą informaciją.
 
-| Laukas                           | Vertė            |
-|---------------------------------|------------------|
-| Išmoka                         | Atskaitoma suma |
-| 401 000 | Dalyvauja              | 3000.00          |
-| Dantų gydymas | SubSp                  | 495,00           |
-| Išlaidos priklausomojo sveikatos priežiūrai | Dalyvauja | 2500.00          |
-| Regėjimas | SupSp                  | 500,00           |
+|       Laukas       |      Vertė       |
+|-------------------|------------------|
+|      Išmoka      | Atskaitoma suma |
+|       401 000        |   Dalyvauja    |
+|      Dantų gydymas       |      SubSp       |
+| Išlaidos priklausomojo sveikatos priežiūrai |   Dalyvauja    |
+|      Regėjimas       |      SupSp       |
 
 5. Skirtuke **Išmokų įmokos** įveskite toliau nurodytą informaciją.
 
-| Laukas              | Vertė               |
-|--------------------|---------------------|
-| Išmoka            | Įnašo suma |
-| 401 000 | Dalyvauja | 3000,00             |
-| Dantų gydymas | SubSp     | 495,00              |
-| Regėjimas | SubSp     | 500,00              |
+|  Laukas  |        Vertė        |
+|---------|---------------------|
+| Išmoka | Įnašo suma |
+|  401 000   |     Dalyvauja     |
+| Dantų gydymas  |        SubSp        |
+| Regėjimas  |        SubSp        |
 
 6. Skirtuke **Mokesčių atskaitymai** įveskite toliau nurodytą informaciją.
 
@@ -156,8 +156,8 @@ Sugeneravę mokėjimo išrašus, turinčius pradžios balansus, turite patikrint
 7. Skirtuke **Mokesčių įmokos** įveskite toliau nurodytą informaciją.
 
 8. Spustelėkite **Skaičiuoti**.
-> [!IMPORTANT] 
-> Patikrinkite bendrąsias mokėjimo išrašo sumas, kad jos atitiktų darbininko sumas nuo metų pradžios iki dabartinės datos iš senesnės versijos sistemos. Galbūt prieš pereidami prie kito veiksmo norėsite stabtelėti ir atlikti bendrą visų mokėjimo išrašų patikrinimą. Patikrinę, peržiūrėkite visus mokėjimo išrašus ir juos užbaikite.
+   > [!IMPORTANT] 
+   > Patikrinkite bendrąsias mokėjimo išrašo sumas, kad jos atitiktų darbininko sumas nuo metų pradžios iki dabartinės datos iš senesnės versijos sistemos. Galbūt prieš pereidami prie kito veiksmo norėsite stabtelėti ir atlikti bendrą visų mokėjimo išrašų patikrinimą. Patikrinę, peržiūrėkite visus mokėjimo išrašus ir juos užbaikite.
 
 Tą patį procesą prireikus galima atlikti ketvirčio pokyčių atžvilgiu visiems ankstesniems kiekvienų metų ketvirčiams. Šito reikia tik tada, jei klientui reikia peržiūrėti duomenis pagal ketvirtį negrįžtant prie ankstesnės versijos sistemos.
 

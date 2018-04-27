@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 954f6237739defe14aaa13b19641f9f9d27b5fac
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>„Microsoft Dynamics 365 for Talent“ sistemos reikalavimai ir naujinimo strategija
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šioje temoje pateikiami „Microsoft Dynamics 365 for Talent“ reikalavimai. Tai pat pateikta naujinimo strategija.
 
@@ -47,21 +46,21 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 > * Norėdami užfiksuoti vaizdus, sugeneruotus užduočių įrašymo priemonėje ir įtraukti juos į „Microsoft Word“ dokumentus, turite turėti įdiegtą „Chrome“ plėtinį. 
 > * Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
 > * Norint peržiūrėti PDF failus, rekomenduojame naudoti modernias naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
-Tinklo reikalavimai
-> * „Dynamics 365 for Talent“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Talent“. Rekomenduojame tinklo laukimo laiką patikrinti [www.azurespeed.com] (http://www.azurespeed.com "Azure gaišties bandymas").
+>   Tinklo reikalavimai
+> * „Dynamics 365 for Talent“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Talent“. Rekomenduojame tinklo laukimo laiką patikrinti [www.azurespeed.com](http://www.azurespeed.com "„Azure“ gaišties bandymas").
 > * Pralaidumo reikalavimai „Dynamics 365 for Talent“ priklauso nuo jūsų scenarijaus. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo.
-
+> 
 > [!WARNING]
 > Neskaičiuokite pralaidumo iš kliento vietos reikalavimų, vartotojų skaičių padauginę iš minimalių pralaidumo reikalavimų. Tam tikros vietos naudojimą vienu metu labai sunku apskaičiuoti. Klientams, kurie susirūpinę dėl pralaidumo reikalavimų, naudokite „Dynamics 365 for Talent“ bandomąją versiją.
 
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 
-*   Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas] (../dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių šalinimas").
-*   Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
+* Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių šalinimas").
+* Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
 ## <a name="update-policy"></a>Naujinimo strategija
 
 „Microsoft Dynamics 365 for Talent“ aptarnaujama kaip debesies pasiūlymas. „Dynamics 365 for Talent“ naujinimai yra nuolatiniai ir automatiškai taikomi „Microsoft“.
 
-Naujinimai išleidžiami reguliariai ir skiriami visoms aplinkoms.  "Dynamics 365 for Talent" palaikoma atsižvelgiant į ["Microsoft" palaikymo ciklo strategiją] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy ""Microsoft" palaikymo ciklas"), kuris numato nuoseklaus ir prognozuojamo produktų palaikymo gaires.
+Naujinimai išleidžiami reguliariai ir skiriami visoms aplinkoms.  „Dynamics 365 for Talent“ palaikoma atsižvelgiant į [„Microsoft“ palaikymo ciklo strategija](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "„Microsoft“ palaikymo ciklas"), kuris numato nuoseklaus ir prognozuojamo produktų palaikymo gaires.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standartinių išlaidų konvertavimo peržiūra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiami procesai, padėsiantys nustatyti ir vykdyti standartinių išlaidų konvertavimą. Išvardytus veiksmus reikia atlikti įvykdžius būtinąsias standartinių išlaidų konvertavimo sąlygas. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Aptarnavimo šablonų grupės kūrimas  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Galite naudoti aptarnavimo šablonų grupes aptarnavimo šablonams rūšiuoti ir filtruoti.
 

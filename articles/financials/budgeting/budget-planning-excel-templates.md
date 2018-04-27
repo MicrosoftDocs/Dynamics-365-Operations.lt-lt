@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo „Excel“ šablonai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip kurti „Microsoft Excel“ šablonus, kuriuos galima naudoti biudžeto planuose.
 
@@ -42,11 +41,11 @@ Biudžeto plano dokumentus galime peržiūrėti ir redaguoti naudojant vieną ar
 1. Atidarykite **Biudžeto planų sąrašas** (**Biudžeto sudarymas** &gt; **Biudžeto planai**). 
 2. Spustelėkite **Naujas**, kad sukurtumėte naują biudžeto plano dokumentą. 
 
-  [![Biudžeto planų sąrašas](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Biudžeto planų sąrašas](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Naudokite eilutės parinktį **Įtraukti**, kad įtrauktumėte eilučių. Spustelėkite **Maketai**, kad peržiūrėtumėte biudžeto plano dokumento maketo konfigūraciją. 
 
-  [![Biudžeto planų įtraukimas](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Biudžeto planų įtraukimas](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Maketo konfigūraciją galite peržiūrėti ir pagal poreikį koreguoti. 
 1. Atidarykite **Šablonas** &gt; **Generuoti**, kad sukurtumėte šio maketo „Excel“ failą. 

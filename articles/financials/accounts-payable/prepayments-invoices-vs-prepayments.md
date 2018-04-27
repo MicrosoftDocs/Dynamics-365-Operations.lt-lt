@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo SF ir išankstiniai mokėjimai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
 
 Organizacijos gali tiekėjams išduoti išankstinius mokėjimus (mokėjimus iš anksto) už prekes arba paslaugas prieš šių prekių ar paslaugų užsakymų įvykdymą. Tiekėjams galima išduoti išankstinius mokėjimus dviem būdais. Siekdami sumažinti riziką, išankstinius mokėjimus galite sekti, išankstinį mokėjimą nurodydami pirkimo užsakyme. Naudodami šį būdą turite sukurti išankstinio mokėjimo SF, susietą su pirkimo užsakymu. Šis būdas vadinamas išankstinio mokėjimo SF išrašymu. Organizacijos, kurios nenori išankstinių mokėjimų sekti taip atidžiai arba negauna išankstinio mokėjimo SF iš savo tiekėjo, gali naudoti išankstinio mokėjimo žurnalo kvitus, o ne išankstinio mokėjimo SF išrašymo būdą. Išankstinio mokėjimo žurnalo kvitus galite kurti, sukurdami žurnalo įrašus ir pažymėdami juos kaip išankstinio mokėjimo žurnalo kvitus. Naudodami šį būdą negalite sekti, kurie kurių pirkimo užsakymų išankstiniai mokėjimai tiekėjui yra atliekami. Tačiau galite pažymėti užregistruotą išankstinį mokėjimą sudengti pagal pirkimo užsakymą.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Kada naudoti išankstinio mokėjimo SF išrašymo būdą ir išankstinius mokėjimus
+
 | Išankstinio mokėjimo SF išrašymas                                                                | Išankstiniai mokėjimai                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Nurodykite išankstinio mokėjimo vertę pirkimo užsakyme.                                    | Pirkimo užsakyme išankstinio mokėjimo vertė nenurodyta.                    |

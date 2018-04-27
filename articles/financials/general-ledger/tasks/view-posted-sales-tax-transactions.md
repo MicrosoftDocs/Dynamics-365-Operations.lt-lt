@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Peržiūrėti užregistruotas PVM operacijas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Atsižvelgiant į tai, ko reikia, užregistruotas PVM operacijas galite peržiūrėti iš įvairių puslapių. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

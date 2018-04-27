@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Projekto pasiūlymai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pristatyta projekto pasiūlymų koncepcija, kuria pasinaudoję klientui galite pateikti patrauklų pasiūlymą. Ir tai būtų pirmasis projekto etapo veiksmas. Projekto pasiūlymas gali apimti siūlomas prekes ir paslaugas, pagrindinę kontaktinę informaciją, specialias prekybos sutartis ir nuolaidas bei galimus mokesčius ir papildomus mokesčius. 
 

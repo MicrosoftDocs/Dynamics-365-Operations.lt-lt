@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentų mažėjančios vertės metodas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas 200 % nusidėvėjimo mažėjančios vertės metodas.
 
@@ -70,6 +69,7 @@ Kai kaip nusidėvėjimo metai pasirinkta **Finansiniai**, galimos šios lauko **
 -   Pasirinkus **Ataskaitinis laikotarpis**, rodoma apskaičiuota bendroji ataskaitinių metų nusidėvėjimo suma. Ši suma kaupiama per ataskaitinius laikotarpius, apibrėžtus **Ataskaitinių kalendorių** puslapyje.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>200% mažėjančios vertės nusidėvėjimo pavyzdys
+
 |                                |        |
 |--------------------------------|--------|
 | Įsigijimo savikaina               | 11 000 |

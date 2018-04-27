@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Nustatyti tiekėjo mokėjimo sąlygas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nustatykite tiekėjų SF mokėjimo sąlygas. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

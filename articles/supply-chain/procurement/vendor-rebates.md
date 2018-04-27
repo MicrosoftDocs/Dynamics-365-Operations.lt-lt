@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
 

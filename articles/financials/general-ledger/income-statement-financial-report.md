@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Pajamų išrašo finansinė ataskaita
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita. Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai. 
 
@@ -60,7 +59,7 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
     -   **FD** – dabartinio laikotarpio finansiniai duomenys
     -   **FD** – finansiniai duomenys nuo šių metų pradžios
 
- 
+
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

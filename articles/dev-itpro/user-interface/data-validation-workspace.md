@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Duomenų tikrinimo darbo sritis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama **Duomenų tikrinimo kontrolinio sąrašo darbo srities** ir susijusios konfigūracijos apžvalga.
 

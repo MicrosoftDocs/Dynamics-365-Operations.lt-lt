@@ -3,12 +3,12 @@ title: "Išlaidų valdymo pagrindinis puslapis"
 description: "Išlaidų valdymas leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [Išlaidų valdymas (vaizdo įrašas)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą. Šio proceso metu apibrėžiama, valdoma ir teikiamos ataskaitos apie [Atsargų apskaitą](cost-object.md) ir [Gamybos apskaitą](bom-calculations.md).
 

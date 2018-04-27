@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>Visuotinės adresų knygelės konfigūravimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Naudokite šią procedūrą norėdami nustatyti numatytąsias vertes ir visuotinės adresų knygelės saugos strategijas. 
 

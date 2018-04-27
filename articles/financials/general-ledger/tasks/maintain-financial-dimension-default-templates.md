@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Prižiūrėti finansinės dimensijos numatytuosius šablonus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti numatytuosius finansinių dimensijų šablonus. Šablonus galima naudoti norint greitai paskirstyti sumas šaltinio dokumentuose.
 

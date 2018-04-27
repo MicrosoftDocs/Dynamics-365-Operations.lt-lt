@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Kaštų apskaitos terminija
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje nurodomi pagrindiniai atliekant kaštų apskaitą naudojami terminai.
 
@@ -150,14 +149,14 @@ Naudodami formulės paskirstymo bazes galite nustatyti išplėstines formules, k
 |  + |  Priedas |
 |  – |  Atimtis |
 | *  | Daugyba  |
-    
+
 Tradiciniai IF (jeigu) sakiniai nepalaikomi. Tačiau galite sukurti sakinius ir patikrinti, ar jie teisingi.
 
 |  **Sakinių tikrinimas** | **Rezultatas**  |
 |---|---|
 |  a > b| True  |
 |  a > b |  Netinkama |
-    
+
 **Pridėtinės išlaidos**
 
 Pridėtinės išlaidos yra šiuo metu valdant verslą patiriamos išlaidos. Tai išlaidos, kurių negalima tiesiogiai susieti su konkrečia verslo veikla. Toliau pateikiama keletas pridėtinių išlaidų pavyzdžių.

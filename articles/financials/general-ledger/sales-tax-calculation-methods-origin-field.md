@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVM skaičiavimo metodas lauke Kilmė
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį.
 
@@ -53,11 +52,12 @@ Mokesčių institucija taiko prekei specialius muito mokesčius. Muito mokesčio
 -   PVM = 25 %, taikant bendros sumos procento skaičiavimo metodą
 
 Jei grynoji suma yra 10,00, tada 1 MUITO MOKESTIS yra 1,00 (10,00 x 10 %) o 2 MUITO MOKESTIS = 2,00 (10,00 x 20 %) Sumos turi būti tokios: bendra suma: grynoji suma + 1 MUITO MOKESČIO suma + 2 MUITO MOKESČIO suma (10,00 + 1,00 + 2,00) = 13,00 PVM = 13,00 x 25 % = 3,25 bendroji MUITO MOKESČIŲ ir PVM suma: 1,00 + 2,00 + 3,25 = 6,25 bendroji suma: 10,00 + 6,25 = 16,25
+
 | **Pastaba.**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vienai operacijai gali būti naudojamas tik vienas mokesčio kodas su kilme = bendros sumos procentas. Jei operacijai naudojamas daugiau nei vienas toks mokesčio kodas, bus rodomas klaidos pranešimas, informuojantis, kad negalima apskaičiuoti PVM. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>PVM procentas
 -----------------------
 
@@ -70,6 +70,7 @@ Duoti šie PVM kodai:
 -   PVM = 25 %, taikant bendros sumos procento metodą
 
 Grynoji suma: 10,00 1 MUITO MOKESTIS: 10,00 x 10 % = 1,00 2 MUITO MOKESTIS: 1,00 x 20 % = 0,20 Bendra suma: 10,00 + 1,00 + 0,20 = 11,20 PVM: 11,20 x 25 % = 2,80 Visa MUITO MOKESČIŲ ir PVM suma: 1,00 + 0,20 + 2,80 = 4,00 Visa suma: 10,00 + 4,00 = 14,00
+
 | **Pastaba.**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mokesčių skaičiavimai neapima kelių lygių mokesčių apskaičiavimo galimybės. Mokestis negali būti apskaičiuojamas pagal mokestį, kuris buvo apskaičiuotas remiantis kitu mokesčiu. Gali būti apskaičiuoti keli vieno lygio tam tikros operacijos mokesčiai remiantis mokesčių kodais. |
@@ -79,6 +80,7 @@ Pasirinkus lauke Kilmė sumą už vienetą, PVM yra apskaičiuojamas kaip fiksuo
 ### <a name="example"></a>Pavyzdys
 
 PVM kodas nustatomas kaip: 1,20 JAV dol. už vienetą = langelį Pardavimo SF eilutėje parduoti 25 langeliai PVM apskaičiuojamas kaip 25 x 1,20 = 30,00
+
 | **Pastaba.**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jei įvedant operaciją naudojami kitokie, nei PVM kodų dalyje nurodyti vienetai, jie automatiškai konvertuojami remiantis vienetų konvertavimo vertėmis, nustatytomis puslapyje Vienetų konvertavimas. |

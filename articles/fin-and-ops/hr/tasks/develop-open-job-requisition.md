@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Kurti ir atidaryti darbo paraiškas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Įdarbinimo projektai padeda valdyti įdarbinimo procesą. Galite nustatyti tokią kiekvieno įdarbinimo projekto informaciją, kaip darbas, į kurį įdarbinama, darbdavio pavadinimas, projekto būsena ir skyrius, kuriame bus darbo vieta. Sukūrę įdarbinimo projektą, galite rašyti projekto darbo skelbimą, publikuoti skelbimą darbuotojų savitarnos puslapiuose, su projektu susieti prašymus priimti į darbą ir sekti to projekto veiklas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami pradėti procedūrą, eikite į Žmogiškieji ištekliai > Įdarbinimas > Įdarbinimo projektai > Įdarbinimo projektai
 

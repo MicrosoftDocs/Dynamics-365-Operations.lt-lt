@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Pradėti gamybos užsakymą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje nurodoma, kaip paleisti gamybos užsakymą ceche. Šiame procese skelbiamos laiko ir medžiagų sąnaudos. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Tai yra penkta procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.
 

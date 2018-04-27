@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredito kortelės operacijų importavimas ir tvarkymas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Su išlaidomis susijusias kredito kortelių operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pasikartojančiu grafiku. Taip pat operacijas galima pagal poreikį importuoti rankiniu būdu. Kredito kortelių operacijos importuojamos naudojant duomenų objektą Kredito kortelių operacijos.
 

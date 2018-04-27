@@ -1,9 +1,9 @@
 ---
 title: "Produktų ieška ir klientų ieška naudojant EKA"
-description: "Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija."
+description: "Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 08/16/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,22 +19,22 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: bd563610616fa72a610e0b134371765cc1edacc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Produktų ir klientų ieškos elektroniniame kasos aparate apžvalga
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-Į modernųjį elektroninį kasos aparatą (MEKA) ir debesies elektroninį kasos aparatą (DEKA) įtraukta lengvai naudojama funkcija, parduotuvės darbuotojams leidžianti greitai ieškoti produktų ir klientų. MEKA ir DEKA viršuje visada yra ieškos juosta, kad darbuotojai galėtų greitai rasti produktus ir klientus.
+Į modernųjį elektroninį kasos aparatą (MEKA) ir debesies elektroninį kasos aparatą (DEKA) įtraukta lengvai naudojama funkcija. Kadangi MEKA ir DEKA langų viršuje visada yra ieškos juosta, darbuotojai galėtų greitai rasti produktus ir klientus.
 
-Darbuotojai produktų gali ieškoti asortimentuose ir kataloguose, susietuose su dabartine parduotuve, bei asortimentuose ir kataloguose, susietuose su bet kuria kita įmonės parduotuve. Todėl kasininkai gali parduoti ir grąžinti į parduotuvės asortimentą neįtrauktus produktus. Panašiai darbuotojai gali ieškoti klientų, susietų su dabartine parduotuve arba bet kuria kita įmonės parduotuve. Be to, darbuotojai gali ieškoti klientų, susietų su kita pirminės organizacijos įmone.
+Darbuotojai gali ieškoti produktų asortimentuose ir kataloguose, susietuose su dabartine parduotuve. Be to, jie gali ieškoti asortimentuose ir kataloguose, susietuose su bet kuria kita įmonės parduotuve. Todėl kasininkai gali parduoti ir grąžinti į parduotuvės asortimentą neįtrauktus produktus. Panašiai darbuotojai gali ieškoti klientų, susietų su dabartine parduotuve arba bet kuria kita įmonės parduotuve. Be to, darbuotojai gali ieškoti klientų, susietų su kita pirminės organizacijos įmone.
 
-## <a name="product-search"></a>Produktų paieška 
+## <a name="product-search"></a>Produktų paieška
 
 Pagal numatytuosius parametrus produktų ieškoma parduotuvės asortimente. Šis ieškos tipas vadinamas *vietine produktų ieška*. Tačiau darbuotojai gali lengvai pereiti į bet kokį su dabartine parduotuve susietą katalogą arba jie gali ieškoti kitoje parduotuvėje. Šis ieškos tipas vadinamas *nuotoline produktų ieška*. Norėdami pakeisti katalogą, pasirinkite kairėje puslapio pusėje esantį mygtuką **Kategorijos**. Pasirodžiusios srities viršuje pasirinkite mygtuką **Keisti katalogą**, tada pasirinkite vieną iš galimų katalogų, kad jį galėtumėte naršyti. Sistema pasirinktame kataloge ieškos produktų.
 
@@ -56,7 +56,7 @@ Atliekant vietinę produktų iešką, ieškoma tolesnėse produktų ypatybėse.
 Vietinių produktų ieškų veikimas dabar patogesnis vartotojui. Atlikti tolesni patobulinimai.
 
 - Į ieškos juostą įtraukti produktų ir klientų išplečiamieji meniu, kad darbuotojai prieš atlikdami iešką galėtų pasirinkti **Produktas** arba **Klientas**. Pagal numatytuosius parametrus pasirinkta **Produktas**, kaip parodyta tolesnėje iliustracijoje.
-- Atlikdami ieškas su keliais raktažodžiais (t. y., atlikdami ieškas, kuriose naudojami ieškos terminai), mažmenininkai gali sukonfigūruoti, ar į ieškos rezultatus reikia įtraukti rezultatus, atitinkančius bet kurį ieškos terminą, ar tik tuos rezultatus, kurie atitinka visus ieškos terminus. Šis parametras pasiekiamas naujoje EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Numatytasis parametras yra **Atitinka bet kurį ieškos terminą**. Šis parametras taip pat yra rekomenduojamas parametras. Kai naudojamas parametras **Atitinka bet kurį ieškos terminą**, kaip rezultatai pateikiami visi produktai, visiškai ar iš dalies atitinkantys vieną ar kelis ieškos terminus, o rezultatuose didėjimo tvarka surikiuojami produktai su daugiausiai raktažodžių atitikčių (visiškų arba dalinių).
+- Atlikdami ieškas su keliais raktažodžiais (t. y., atlikdami ieškas, kuriose naudojami ieškos terminai), mažmenininkai gali sukonfigūruoti, ar į ieškos rezultatus reikia įtraukti rezultatus, atitinkančius *bet kurį* ieškos terminą, ar tik tuos rezultatus, kurie atitinka *visus* ieškos terminus. Šis parametras pasiekiamas naujoje EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Numatytasis parametras yra **Atitinka bet kurį ieškos terminą**. Šis parametras taip pat yra rekomenduojamas parametras. Kai naudojamas parametras **Atitinka bet kurį ieškos terminą**, kaip rezultatai pateikiami visi produktai, visiškai ar iš dalies atitinkantys vieną ar kelis ieškos terminus. Tuose rezultatuose didėjimo tvarka surikiuojami produktai su daugiausiai raktažodžių atitikčių (visiškų arba dalinių).
 
     Naudojant parametrą **Atitinka visus ieškos terminus**, pateikiami tik tie produktai, kurie atitinka visus ieškos terminus (visiškai arba iš dalies). Šis parametras naudingas, kai produktų pavadinimai yra ilgi ir darbuotojai ieškos rezultatuose nori matyti tik ribotą produktų skaičių. Tačiau šio tipo ieška turi du tolesnius apribojimus.
 
@@ -83,7 +83,23 @@ Atliekant nuotolinę klientų iešką, kitų juridinių subjektų klientų ID ne
 
 ![Visuotinė klientų ieška](./media/Globalcustomersearch.png "Visuotinė klientų ieška")
 
-### <a name="enhancements-to-local-customer-searches"></a>Vietinių klientų ieškų patobulinimai
+### <a name="enhancements-to-local-customer-search"></a>Vietinių klientų ieškos patobulinimai
 
-Atlikdami vietines klientų ieškas darbuotojai klientus gali greitai surasti pagal telefono numerį. Darbuotojams nereikia įvesti jokių specialių simbolių, įtrauktų į kliento telefono numerį, pvz., tarpų, brūkšnelių ar skliaustelių. Nors kasininkai telefonų numerius gali saugoti bet kokiu formatu (pavyzdžiui, jie gali įtraukti skliaustelių, brūkšnelių, simbolių ir t. t.), klientų jie gali ieškoti įvesdami telefono numerio dalį. Jei, įvesdamas telefono numerį, kasininkas įtraukė specialių simbolių, kiti kasininkai klientą gali rasti įvesdami po specialių simbolių rodomus skaitmenis. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **123**, **456**, **7890** arba **1234567890**, arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
+Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar ignoruojami specialieji simboliai, pvz., tarpai, brūkšneliai ir skliausteliai, kurie galėjo būti pridėti sukūrus klientą. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Jie taip pat gali ieškoti klientų įvesdami dalinį telefono numerį. Jei telefono numeryje yra specialių simbolių, jį taip pat galima surasti ieškant skaitmenų, kurie pateikti po specialiųjų simbolių. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **123**, **456**, **7890** arba **1234567890**, arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
+
+Įprastinė kliento ieška gali užimti daug laiko, nes ji vykdoma daugelyje laukų. Dabar kasininkai gali ieškoti vieno pasirinktinio tipo laukuose, pvz., vardo ir pavardės, el. pašto adreso arba telefono numerio. Kliento ieškos algoritmo naudojamos ypatybės kartu vadinamos *kliento ieškos kriterijais*. Sistemos administratorius gali lengvai sukonfigūruoti vieną arba kelis kriterijus kaip nuorodas, kurios bus rodomos EKA. Kadangi ieška apribojama iki vieno kriterijaus, rodomi tik tinkami ieškos rezultatai ir efektyvumas yra daug didesnis nei įprastos kliento ieškos efektyvumas. Toliau nurodytame paveikslėlyje pavaizduotos EKA kliento ieškos nuorodos.
+
+![Kliento ieškos nuorodos](./media/SearchShortcutsPOS.png "Kliento ieškos nuorodos")
+
+Norėdamas nustatyti ieškos kriterijus kaip nuorodas, administratorius turi atidaryti puslapį **Mažmeninės prekybos parametrai** programoje „Microsoft Dynamics 365 for Finance and Operations“, tada skirtuke **EKA ieškos kriterijai** pasirinkti kriterijus, kurie turėtų būti rodomi kaip nuorodos.
+
+![Ieškos nuorodų konfigūravimas](./media/ConfigureShortcutsAX.png "Ieškos nuorodų konfigūravimas")
+
+> [!NOTE]
+> Jei įtrauksite per daug nuorodų, EKA ieškos juostos išplečiamasis meniu bus perpildytas ir darbuotojui gali būti sunkiau ieškoti informacijos. Rekomenduojame įtraukti tik tiek nuorodų, kaip jums reikia.
+
+Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodomi kriterijai yra paruoštos naudoti ypatybės, kurias kliento ieškos algoritmas naudoja klientams ieškoti. Tačiau partneriai kaip ieškos nuorodas gali įtraukti pasirinktinių ypatybių. Norėdamas kaip ieškos nuorodas įtraukti pasirinktinių ypatybių, sistemos administratorius turi išplėsti išplečiamąjį išvardijimą (išvardijimas), kuris naudojamas kliento ieškos kriterijams nustatyti, ir tada pažymėti partnerio pasirinktines ypatybes kaip nuorodas. Partneriai yra atsakingi už kodą rašymą rezultatams rasti, kai ieškose naudojamos jų pasirinktinės nuorodos.
+
+> [!NOTE]
+> Į išvardijimą įtraukta pasirinktinė ypatybė, neturi įtakos standartiniam klientų ieškos algoritmui. Kitaip tariant, klientų ieškos algoritmas neieškos pasirinktinėje ypatybėje. Vartotojai ieškodami gali naudoti pasirinktines ypatybes tik jei tos pasirinktinės ypatybės yra įtrauktos kaip nuorodos arba jei numatytasis ieškos algoritmas yra perrašytas.
 

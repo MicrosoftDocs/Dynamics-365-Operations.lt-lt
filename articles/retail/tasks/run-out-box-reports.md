@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Generuoti ir paleisti parengtas naudoti ataskaitas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Naudokite šį užduočių vadovą, norėdami vykdyti parengtas naudoti ataskaitas pagrindinėje būstinėje iš skirtingų darbo sričių ir vykdyti užklausų bei pardavimo ataskaitas, esančias „Retail & Commerce“.
 

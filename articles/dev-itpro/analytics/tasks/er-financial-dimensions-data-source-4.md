@@ -1,5 +1,5 @@
 --- 
-title: "Ataskaitos, kuri finansines dimensijas naudoja kaip duomenų šaltinį, vykdymas elektroninėse ataskaitose (ER)"
+title: "Ataskaitos, kurioje finansinės dimensijos naudojamos kaip duomenų šaltinis, paleidimas"
 description: "Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 47ba48461a1c502a93df416d1acac1e85a841079
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Ataskaitos, kuri finansines dimensijas naudoja kaip duomenų šaltinį, vykdymas elektroninėse ataskaitose (ER)
+# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source"></a>Ataskaitos, kurioje finansinės dimensijos naudojamos kaip duomenų šaltinis, paleidimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį. Šiuos veiksmus galima atlikti DEMF įmonėje.
 

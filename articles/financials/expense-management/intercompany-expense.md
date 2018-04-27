@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Vidinės įmonės išlaidos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbininkas, kurį yra įdarbinęs vienas organizacijos juridinis subjektas, gali dirbti kitam tos pačios organizacijos juridiniam subjektui. Šioje situacijoje, naudodami vidinės įmonės išlaidų funkciją, darbininko išlaidas galite priskirti tam juridiniam subjektui, kuriam darbas buvo atliekamas. Juridinis subjektas, kuris įdarbina darbuotoją, vadinamas skolinančiuoju juridiniu subjektu. Juridinis subjektas, kuriam priskiriamos darbininko išlaidos, vadinamas besiskolinančiuoju juridiniu subjektu. 
 

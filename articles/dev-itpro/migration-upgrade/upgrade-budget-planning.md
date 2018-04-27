@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Biudžeto planavimo naujinimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Finance and Operations“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.  
 
@@ -70,26 +69,27 @@ Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesni
 
 ### <a name="define-columns-and-layouts"></a>Stulpelių ir maketų nustatymas
 
-1.  Puslapyje **Biudžeto planavimo konfigūracija** spustelėkite skirtuką **Stulpeliai**. Atlikus atnaujinimą nauji stulpeliai automatiškai kuriami pagal jūsų biudžeto plano eilutes. Dabar stulpeliuose naudojamos dinaminės datos, kurių laikas ir metai yra paslenkami nuo finansinių metų, nustatytų biudžeto planavimo procese. **Pastaba:** siekiant padidinti efektyvumą atnaujinimo metu laikoma, kad visi biudžeto ciklai sudaro kalendorinius metus, o ne finansinius metus. Jei naudojate finansinius metus, turite redaguoti ir tinkamai susieti stulpelius jų finansiniais metais. Pavyzdžiui, toliau nurodyti elementai buvo teikiami „AX 2012“.
-    -   Biudžeto plano scenarijai: Faktinės sumos, Bazinė suma, Biudžeto užklausa, Patvirtintas biudžetas
-    -   Biudžeto plano eilutes visiems scenarijams 2017 m., o faktinės sumos – 2017 m. ir 2016 m.
+1. Puslapyje **Biudžeto planavimo konfigūracija** spustelėkite skirtuką **Stulpeliai**. Atlikus atnaujinimą nauji stulpeliai automatiškai kuriami pagal jūsų biudžeto plano eilutes. Dabar stulpeliuose naudojamos dinaminės datos, kurių laikas ir metai yra paslenkami nuo finansinių metų, nustatytų biudžeto planavimo procese. **Pastaba:** siekiant padidinti efektyvumą atnaujinimo metu laikoma, kad visi biudžeto ciklai sudaro kalendorinius metus, o ne finansinius metus. Jei naudojate finansinius metus, turite redaguoti ir tinkamai susieti stulpelius jų finansiniais metais. Pavyzdžiui, toliau nurodyti elementai buvo teikiami „AX 2012“.
+   -   Biudžeto plano scenarijai: Faktinės sumos, Bazinė suma, Biudžeto užklausa, Patvirtintas biudžetas
+   -   Biudžeto plano eilutes visiems scenarijams 2017 m., o faktinės sumos – 2017 m. ir 2016 m.
 
-    Sprendime „Finance and Operations“ bus sukurti toliau nurodyti stulpeliai.
-    | Stulpelio pavadinimas    | Biudžeto plano scenarijus | Stulpelio laikotarpis | Metų poslinkis |
-    |----------------|----------------------|--------------------|-------------|
-    | Sausio mėn. 1 scenarijus | Faktinės reikšmės              | 1                  | 0           |
-    | Sausio mėn. 2 scenarijus | Bazinė linija             | 1                  | 0           |
-    | Sausio mėn. 3 scenarijus | Biudžeto užklausa       | 1                  | 0           |
-    | Sausio mėn. 4 scenarijus | Patvirtintas biudžetas      | 1                  | 0           |
-    | Sausio mėn. 5 scenarijus | Faktinės reikšmės              | 1                  | -1          |
-    | Vasario mėn. 1 scenarijus | Faktinės reikšmės              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Sprendime „Finance and Operations“ bus sukurti toliau nurodyti stulpeliai.
 
-    Šiame pavyzdyje sukuriamas stulpelis pavadinimu **Sausio mėn. 1 scenarijus** ir priskiriamas naujausiems rastiems biudžeto plano operacijų duomenims iš sausio mėn. operacijų. Panašus stulpelis sukuriamas kiekvienu scenarijumi, kai yra duomenų. Kai sukurti visų tų metų laikotarpių stulpeliai, kuriami ankstesnių metų stulpeliai.
-2.  Keiskite stulpelių pavadinimus ir aprašymus bei bet kokią kitą informaciją neautomatiniu būdu kliente arba atlikdami masinius naujinimus „Excel“papildinyje, kuris nurodo biudžeto plano stulpelių duomenų objektą. Dabar visi anksčiau nustatyti matricos laukų filtrai nustatomi stulpeliuose.
-3.  Sukurkite naują biudžeto plano maketą. Maketas nurodo kelis stulpelius, kad būtų galima nustatyti „Excel“ir kliente rodomą rodinį. Pirmiausia reikia nurodyti maketo DK dimensijų rinkinį, kad būtų galima nustatyti, kurias finansines dimensijas galima įvesti. Nurodę dimensijų rinkinį, spustelėkite **Aprašai** ir pasirinkite į maketą įtrauktinus dimensijų aprašus.
-4.  „FastTab“ **Maketo elementai** spustelėkite **Įtraukti**, kad įtrauktumėte kiekvienos eilutės duomenis, pvz., valiutą, komentarą arba biudžeto klasę, nurodančius įplaukų ir išlaidų eilutes. Tada įtraukite laikotarpio stulpelius ir scenarijus, kurie taikomi šiam biudžeto ciklui ir etapui. Šiuos keitimus galite atlikti neautomatiniu būdu kliente arba naudodami „Excel“papildinį, kuris nurodo biudžeto plano maketo elementų duomenų objektą.
-5.  Kiekviename maketo elemente pasirinkite, ar stulpelis turėtų būti redaguojamas ir ar jis turėtų būti rodomas šio maketo „Excel“ darbaknygėje. **Pastaba:** tvarkydami retrospektyvinius planus galbūt norėsite naudoti maketą, kuriame rodoma to proceso bet kurio biudžeto plano scenarijaus 12 mėnesių stulpelių.
+   | Stulpelio pavadinimas    | Biudžeto plano scenarijus | Stulpelio laikotarpis | Metų poslinkis |
+   |----------------|----------------------|--------------------|-------------|
+   | Sausio mėn. 1 scenarijus | Faktinės reikšmės              | 1                  | 0           |
+   | Sausio mėn. 2 scenarijus | Bazinė linija             | 1                  | 0           |
+   | Sausio mėn. 3 scenarijus | Biudžeto užklausa       | 1                  | 0           |
+   | Sausio mėn. 4 scenarijus | Patvirtintas biudžetas      | 1                  | 0           |
+   | Sausio mėn. 5 scenarijus | Faktinės reikšmės              | 1                  | -1          |
+   | Vasario mėn. 1 scenarijus | Faktinės reikšmės              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Šiame pavyzdyje sukuriamas stulpelis pavadinimu **Sausio mėn. 1 scenarijus** ir priskiriamas naujausiems rastiems biudžeto plano operacijų duomenims iš sausio mėn. operacijų. Panašus stulpelis sukuriamas kiekvienu scenarijumi, kai yra duomenų. Kai sukurti visų tų metų laikotarpių stulpeliai, kuriami ankstesnių metų stulpeliai.
+2. Keiskite stulpelių pavadinimus ir aprašymus bei bet kokią kitą informaciją neautomatiniu būdu kliente arba atlikdami masinius naujinimus „Excel“papildinyje, kuris nurodo biudžeto plano stulpelių duomenų objektą. Dabar visi anksčiau nustatyti matricos laukų filtrai nustatomi stulpeliuose.
+3. Sukurkite naują biudžeto plano maketą. Maketas nurodo kelis stulpelius, kad būtų galima nustatyti „Excel“ir kliente rodomą rodinį. Pirmiausia reikia nurodyti maketo DK dimensijų rinkinį, kad būtų galima nustatyti, kurias finansines dimensijas galima įvesti. Nurodę dimensijų rinkinį, spustelėkite **Aprašai** ir pasirinkite į maketą įtrauktinus dimensijų aprašus.
+4. „FastTab“ **Maketo elementai** spustelėkite **Įtraukti**, kad įtrauktumėte kiekvienos eilutės duomenis, pvz., valiutą, komentarą arba biudžeto klasę, nurodančius įplaukų ir išlaidų eilutes. Tada įtraukite laikotarpio stulpelius ir scenarijus, kurie taikomi šiam biudžeto ciklui ir etapui. Šiuos keitimus galite atlikti neautomatiniu būdu kliente arba naudodami „Excel“papildinį, kuris nurodo biudžeto plano maketo elementų duomenų objektą.
+5. Kiekviename maketo elemente pasirinkite, ar stulpelis turėtų būti redaguojamas ir ar jis turėtų būti rodomas šio maketo „Excel“ darbaknygėje. **Pastaba:** tvarkydami retrospektyvinius planus galbūt norėsite naudoti maketą, kuriame rodoma to proceso bet kurio biudžeto plano scenarijaus 12 mėnesių stulpelių.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Biudžeto planavimo procesų naujinimas norint naudoti tinkamą kiekvieno biudžeto etapo maketą
 

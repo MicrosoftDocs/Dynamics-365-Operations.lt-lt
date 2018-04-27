@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Biudžeto planavimo peržiūra
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 
@@ -116,18 +115,18 @@ Planuodami biudžetą galite paskirstyti biudžeto plano eilučių sumas arba ki
 
 Paskirstymo grafikai automatiškai paskirsto biudžeto plano eilutes, kai apdorojama darbo eiga. Galite atlikti paskirstymus naudodamiesi bet kuriuo iš šių sąrašo **Paskirstymo metodas** metodų:
 
--   **Paskirstyti laikotarpiams** – naudokite laikotarpio paskirstymo raktą, jei norite biudžeto plano eilutes iš šaltinio biudžeto plano scenarijaus paskirstyti po paskirties scenarijaus laikotarpius. **Pastaba:** prieš paskirstydami laikotarpiams, puslapyje ****Laikotarpio paskirstymo kategorijos**** turite nustatyti laikotarpių paskirstymo raktus.
--   **Paskirstyti dimensijoms** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus finansinėms dimensijoms paskirties scenarijuje. **Pastaba:** prieš paskirstydami dimensijoms, puslapyje ****Biudžeto paskirstymo sąlygos**** turite nustatyti biudžeto paskirstymo sąlygas.
--   **Sujungti** – biudžeto plano eilutės sujungiamos iš susietųjų biudžeto planų šaltinio biudžeto plano scenarijaus į pirminio biudžeto plano paskirties scenarijų.
--   **Paskirstyti** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus pirminiame biudžeto plane į paskirties scenarijų susijusiuose biudžeto planuose.
--   **Naudoti DK paskirstymo taisykles** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus į paskirties scenarijų pagal pasirinktą DK paskirstymo taisyklę.
--   **Kopijuoti iš biudžeto plano** – galite pasirinkti kitą biudžeto planą, kuris bus naudojamas kaip paskirstymo šaltinis.
+- <strong>Paskirstyti laikotarpiams</strong> – naudokite laikotarpio paskirstymo raktą, jei norite biudžeto plano eilutes iš šaltinio biudžeto plano scenarijaus paskirstyti po paskirties scenarijaus laikotarpius. <strong>Pastaba.</strong> Prieš paskirstydami laikotarpiams, puslapyje *<strong><em>Laikotarpio paskirstymo kategorijos</em></strong>* turite nustatyti laikotarpių paskirstymo raktus.
+- <strong>Paskirstyti dimensijoms</strong> – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus finansinėms dimensijoms paskirties scenarijuje. <strong>Pastaba.</strong> Prieš paskirstydami dimensijoms, puslapyje *<strong><em>Biudžeto paskirstymo sąlygos</em></strong>* turite nustatyti biudžeto paskirstymo sąlygas.
+- **Sujungti** – biudžeto plano eilutės sujungiamos iš susietųjų biudžeto planų šaltinio biudžeto plano scenarijaus į pirminio biudžeto plano paskirties scenarijų.
+- **Paskirstyti** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus pirminiame biudžeto plane į paskirties scenarijų susijusiuose biudžeto planuose.
+- **Naudoti DK paskirstymo taisykles** – biudžeto plano eilutės paskirstomos iš šaltinio biudžeto plano scenarijaus į paskirties scenarijų pagal pasirinktą DK paskirstymo taisyklę.
+- **Kopijuoti iš biudžeto plano** – galite pasirinkti kitą biudžeto planą, kuris bus naudojamas kaip paskirstymo šaltinis.
 
 ### <a name="stage-allocations"></a>Etapo paskirstymai
 
 Etapo paskirstymai naudojami norint automatiškai paskirstyti biudžeto plano eilutes apdorojant darbo eigą. Naudojant etapo paskirstymus, biudžeto plano eilutės paskirties scenarijuje gali būti sukuriamos ir modifikuojamos nedalyvaujant biudžeto plano rengėjui arba redaktoriui.
 
-Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo darbo eiga turi būti susieta su biudžeto sudarymo darbo eiga, kuri naudoja automatizuotą darbo eigos užduotį ****Biudžeto planavimo etapo paskirstymas****. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes. 
+Kai nustatote etapo paskirstymą, susiekite biudžeto planavimo darbo eigą ir etapą su paskirstymo grafiku. Biudžeto planavimo darbo eiga turi būti susieta su biudžeto sudarymo darbo eiga, kuri naudoja automatizuotą darbo eigos užduotį *<strong><em>Biudžeto planavimo etapo paskirstymas</em></strong>*. Darbo eigai pasiekus nurodytą etapą, paskirstymas vyksta automatiškai. Šią automatizuotą užduotį galima naudoti kuriant naujo scenarijaus biudžeto plano eilutes. 
 
 Pirmiau šiame straipsnyje pateiktame schemos pavyzdyje paskirstymas atliekamas tam, kad būtų galima perkelti sumas iš biudžeto plano ir scenarijų būstinės pagrindiniame etape į kitą biudžeto planą ir scenarijus pardavimų skyriaus įvertinimo etape. Toliau pateikiamoje iliustracijoje rodomas atitinkamas schemos pavyzdžio skyrius.
 

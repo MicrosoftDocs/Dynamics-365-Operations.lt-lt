@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Ieškoti tiekėjų
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus. Šis pavyzdys nurodo, kaip ieškoti tiekėjų, kurie patvirtinti konkrečioje įsigijimo kategorijoje ir kurių pirminis adresas yra konkrečioje šalyje. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Šią užduotį paprastai atlieka pirkimų profesionalai.
 

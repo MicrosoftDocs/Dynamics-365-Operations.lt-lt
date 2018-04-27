@@ -26,8 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
 
@@ -44,7 +43,7 @@ Ilgalaikio turto remonto informaciją galite įvesti puslapyje **Ilgalaikio turt
 | **Remontui išleista suma** | Remonto savikaina. **Pastaba.** Norėdami apskaičiuoti bendrą sumą, spustelėkite mygtuką **Sumos** ir tada nurodykite skaičiavimo laikotarpį. |
 | **Dokumento numeris**         | Numeris, priskirtas dokumentu, kuris sugeneruotas remontui atlikti.                                                            |
 
- 
+
 
 ## <a name="generate-the-fixed-asset-repair-report"></a>Ilgalaikio turto remonto ataskaitos generavimas
 Norėdami generuoti ataskaitą, pasirinkite **Ilgalaikis turtas** **&gt; Užklausos ir** **ataskaitos** &gt; **Operacijų ataskaitos** &gt; **Ilgalaikio turto remontas** ir nurodykite toliau pateiktas vertes.
@@ -58,7 +57,7 @@ Norėdami generuoti ataskaitą, pasirinkite **Ilgalaikis turtas** **&gt; Užklau
 | **Dokumento numeris**           | Nurodykite numerį, priskirtą dokumentu, kuris sugeneruotas remontui atlikti.                                                                                                                                                                                                                           |
 | **Spausdinti nuo remonto procentinės dalies** | Įveskite ilgalaikio turto įsigijimo vertės procentinę dalį, kurią galima panaudoti remontui atlikti, neįtraukiant ilgalaikio turto į ataskaitą. Ataskaitoje nurodomas tik tas ilgalaikis turtas, kuriam remonto išlaidų ir įsigijimo vertės santykis yra didesnis nei šiame lauke įvesta procentinė dalis. |
 
- 
+
 
 
 

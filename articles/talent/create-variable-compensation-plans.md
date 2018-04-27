@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Kintamosios atlyginimo dalies planų kūrimas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Kintamąją atlyginimo dalį sudaro nepastovus darbuotojo darbo užmokestis, pvz., premijos ar premijų akcijos. Šiame straipsnyje aprašyti komponentai, kurie turi būti nustatyti prieš naudojant kintamąją atlyginimo dalį ir įtraukiant darbuotojus į kintamosios atlyginimo dalies planą.
 
@@ -78,12 +77,12 @@ Kai esate pasirengę įtraukti darbuotojus į kintamosios atlyginimo dalies plan
 
 **Pastaba:** tinkamumo taisyklės nustato teisę tiek į pastoviosios, tiek į kintamosios atlyginimo dalies planą. Tinkamumo taisyklė naudoja šiuos užduoties, pareigų ir darbuotojo įrašų laukus, kad nustatytų, ar darbuotojas turi teisę į kompensacijos planą:
 
--   Puslapyje **Užduotis**:
-    -   Lauką **Užduotis**
-    -   Laukus **Funkcija** ir **Užduoties tipas** skirtuke **Užduočių klasifikacija**
-    -   Lauką **Lygis** skirtuke **Kompensacija**
--   Puslapyje **Pareigos**: laukus **Padalinys** ir **Kompensacijų regionas**
--   Puslapyje **Darbuotojai**: informacija apie profesines sąjungas, kurios susijusios su darbuotoju, srityje **Asmeninė informacija** &gt; **Profesinės sąjungos** skirtuke ****Darbuotojas****
+- Puslapyje **Užduotis**:
+  -   Lauką **Užduotis**
+  -   Laukus **Funkcija** ir **Užduoties tipas** skirtuke **Užduočių klasifikacija**
+  -   Lauką **Lygis** skirtuke **Kompensacija**
+- Puslapyje **Pareigos**: laukus **Padalinys** ir **Kompensacijų regionas**
+- Puslapyje <strong>Darbuotojai</strong>: informacija apie profesines sąjungas, kurios susijusios su darbuotoju, srityje <strong>Asmeninė informacija</strong> &gt;  <strong>Profesinės sąjungos</strong> skirtuke *<strong><em>Darbuotojas</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Registracijos į kintamosios atlyginimo dalies planą leidimas
 

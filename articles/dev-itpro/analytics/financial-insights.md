@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Finansinės įžvalgos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Darbo srityje **Finansų įžvalgos** naudojant „Microsoft Power BI“, kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos. „Power BI“ yra įdėtas į „Microsoft Dynamics 365 for Finance and Operations“.
 Darbo srityje **Finansinės įžvalgos** dėmesys skiriamas analizės ataskaitoms. Visos organizacijos asmenys gali peržiūrėti, tirti, suprasti ir veikti. 
@@ -107,8 +107,20 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 
 Ši palyginamoji diagrama padės atskirti šias dvi parinktis:
 
-|                                         | **Finansinės ataskaitos**                            | **Finansinės įžvalgos**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Numatytųjų ataskaitų redagavimas**                | Taip                                                | Ne                                 | | **Naujų ataskaitų kūrimas**                  | Taip                                                | Ne                                 | | **Ataskaitų spausdinimas**                       | Taip                                                | Ne                                 | | **Eksportavimas į „Excel“**                     | Taip          | Ribotas neapdorotų duomenų eksportavimas į „Excel“, neformatuota ataskaita       | | **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                               | Ne                                 | | **Papildomos knygos duomenų ataskaita**       | Taip Apsiriboja tik tiekėju, klientu    | Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t.  | | **Ataskaitų valiuta**      | Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą       | Ne Tik apskaitos valiuta      | | **Saugumas**                | Taip Laikomasi „Finance and Operations” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra | | **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                   | Ne                   | | **išorinių duomenų ataskaitos**                              | Ne                   | Ne                                   | | **Palaiko konsolidacijas**                               | Taip                          | Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą                                     |
 
+|                                                                       |               <strong>Finansinės ataskaitos</strong>                |                                      <strong>Finansinės įžvalgos</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Numatytųjų ataskaitų redagavimas</strong>                 |                                Taip                                |                                                      Nr.                                                       |
+|                  <strong>Naujų ataskaitų kūrimas</strong>                  |                                Taip                                |                                                      Nr.                                                       |
+|                    <strong>Ataskaitų spausdinimas</strong>                     |                                Taip                                |                                                      Nr.                                                       |
+|                   <strong>Eksportuoti į Excel</strong>                    |                                Taip                                |                           Ribotas neapdorotų duomenų eksportavimas į „Excel“, neformatuota ataskaita                           |
+|  <strong>Palaiko ataskaitų hierarchiją / organizacinę hierarchiją</strong>  |                                Taip                                |                                                      Nr.                                                       |
+|               <strong>Papildomos knygos duomenų ataskaita</strong>               |               Taip Apsiriboja tik tiekėju, klientu                |                 Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t.                 |
+|                  <strong>Ataskaitų valiuta</strong>                  |    Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą    |                                          Ne Tik apskaitos valiuta                                          |
+|                       <strong>Sauga</strong>                       | Taip Laikomasi „Finance and Operations” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra |
+| <strong>Palaiko skirtingus sąskaitų planus ir finansinius metus</strong> |                                Taip                                |                                                      Nr.                                                       |
+|               <strong>išorinių duomenų ataskaitos</strong>                |                                Nr.                                 |                                                      Nr.                                                       |
+|                <strong>Palaiko konsolidacijas</strong>                |                                Taip                                |                   Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą                   |
 
 Be naujos vartotojo sąsajos pradinėje darbo srityje **CFO apžvalga**, dabar yra ir nauji KPI, diagramos bei finansinės ataskaitos. Galimos tolesnės finansinės ataskaitos.
 

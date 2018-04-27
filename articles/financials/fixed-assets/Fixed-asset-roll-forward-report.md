@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** lengvai skaitomu „Microsoft Excel“ formatu teikiami išsamūs ilgalaikio turto duomenys, kurių reikia uždarant laikotarpius, finansinėse ataskaitose ir mokesčių ataskaitose. Į ataskaitą įtraukiami ilgalaikio turto pradžios ir pabaigos balansai bei laikotarpio vertinimo judėjimas ir visas per laikotarpį įvykęs naujas turto įsigijimas bei likvidavimas. Rengiamos atskiro ilgalaikio turto duomenų ataskaitos ir apibendrinamos ilgalaikio turto grupių bei juridinio subjekto reikšmės.
 
@@ -41,28 +41,30 @@ Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** naudojama ele
 
 Toliau pateikiamoje lentelėje aprašomi laukai, kuriuos galima naudoti ataskaitoje.
 
-| Laukas                                       | aprašymas |
-|---------------------------------------------|-------------|
-| Balansai: pradiniai                           | Ilgalaikio turto balansinė vertė dieną „nuo“, kuri nurodyta ataskaitoje. |
-| Balansai: galutiniai                           | Ilgalaikio turto balansinė vertė dieną „iki“, kuri nurodyta ataskaitoje. |
-| Įsigijimai: pradinė vertė                 | Visų tipų **Įsigijimas** ir **Įsigijimo koregavimas** operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje. |
-| Įsigijimai: laikotarpio įsigijimai           | Visų tipų **Įsigijimas** ir **Įsigijimo koregavimas** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Įsigijimai: laikotarpio likvidavimai              | Visų registruotų įsigijimų atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma. |
-| Įsigijimai: galutinė vertė                 | Visų tipų **Įsigijimas** ir **Įsigijimo koregavimas** operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje. |
-| Nusidėvėjimas: pradinė vertė                | Visų tipų **Nusidėvėjimas**, **Nusidėvėjimo koregavimas**, **Specialioji nusidėvėjimo nuolaida** ir **Visiškas nusidėvėjimas** operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje. |
-| Nusidėvėjimas: laikotarpio nusidėvėjimas         | Visų tipų **Nusidėvėjimas**, **Nusidėvėjimo koregavimas** ir **Visiškas nusidėvėjimas** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Nusidėvėjimas: specialusis laikotarpio nusidėvėjimas | Visų tipo **Specialioji nusidėvėjimo nuolaida** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Nusidėvėjimas: laikotarpio likvidavimai             | Visų registruotų nusidėvėjimo atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma. |
-| Nusidėvėjimas: galutinė vertė                | Visų tipų **Nusidėvėjimas**, **Nusidėvėjimo koregavimas**, **Specialioji nusidėvėjimo nuolaida** ir **Visiškas nusidėvėjimas** operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje. |
-| Vertės padidinimas / sumažinimas: pradinė vertė        | Visų tipų **Vertės padidinimo koregavimas**, **Vertės sumažinimo koregavimas** ir **Perkainojimas** operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje. |
-| Vertės padidinimas / sumažinimas: laikotarpio vertės padidinimas     | Visų tipo **Vertės padidinimo koregavimas** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Vertės padidinimas / sumažinimas: laikotarpio vertės sumažinimas   | Visų tipo **Vertės sumažinimo koregavimas** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Vertės padidinimas / sumažinimas: laikotarpio perkainojimas  | Visų tipo **Perkainojimas** operacijų, registruotų ataskaitos datų intervale, suma. |
-| Vertės padidinimas / sumažinimas: laikotarpio likvidavimai     | Visų registruotų vertės padidinimo, sumažinimo ir perkainojimo atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma. |
-| Vertės padidinimas / sumažinimas: galutinė vertė        | Visų tipų **Vertės padidinimo koregavimas**, **Vertės sumažinimo koregavimas** ir **Perkainojimas** operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje. |
-| Likvidavimai: likvidavimo data                    | Ilgalaikio turto knygos likvidavimo data. |
-| Likvidavimai: balansinė vertė likviduojant       | Ilgalaikio turto knygos balansinė vertė likvidavimo metu. |
-| Likvidavimai: pardavimo vertė                       | Ilgalaikio turto knygos su likvidavimo – pardavimo operacija pardavimo vertė. |
-| Likvidavimai: likvidacinė vertė                      | Ilgalaikio turto knygos su likvidavimo – nurašymo operacija likvidacinė vertė. |
-| Likvidavimai: pelnas / nuostolis                      | Pelno arba nuostolio vertė, apskaičiuojama atliekant ilgalaikio turto knygos likvidavimo operaciją. |
+
+|                    Laukas                    |                                                                                                                                aprašymas                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Balansai: pradiniai              |                                                                                           Ilgalaikio turto balansinė vertė dieną „nuo“, kuri nurodyta ataskaitoje.                                                                                           |
+|              Balansai: galutiniai              |                                                                                            Ilgalaikio turto balansinė vertė dieną „iki“, kuri nurodyta ataskaitoje.                                                                                            |
+|         Įsigijimai: pradinė vertė         |                                                 Visų tipų <strong>Įsigijimas</strong> ir <strong>Įsigijimo koregavimas</strong> operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje.                                                  |
+|      Įsigijimai: laikotarpio įsigijimai      |                                                 Visų tipų <strong>Įsigijimas</strong> ir <strong>Įsigijimo koregavimas</strong> operacijų, registruotų ataskaitos datų intervale, suma.                                                  |
+|       Įsigijimai: laikotarpio likvidavimai        |                                                                        Visų registruotų įsigijimų atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma.                                                                        |
+|         Įsigijimai: galutinė vertė         |                                                  Visų tipų <strong>Įsigijimas</strong> ir <strong>Įsigijimo koregavimas</strong> operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje.                                                   |
+|        Nusidėvėjimas: pradinė vertė         | Visų tipų <strong>Nusidėvėjimas</strong>, <strong>Nusidėvėjimo koregavimas</strong>, <strong>Specialioji nusidėvėjimo nuolaida</strong> ir <strong>Visiškas nusidėvėjimas</strong> operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje. |
+|     Nusidėvėjimas: laikotarpio nusidėvėjimas     |                         Visų tipų <strong>Nusidėvėjimas</strong>, <strong>Nusidėvėjimo koregavimas</strong> ir <strong>Visiškas nusidėvėjimas</strong> operacijų, registruotų ataskaitos datų intervale, suma.                          |
+| Nusidėvėjimas: specialusis laikotarpio nusidėvėjimas |                                                              Visų tipo <strong>Specialioji nusidėvėjimo nuolaida</strong> operacijų, registruotų ataskaitos datų intervale, suma.                                                               |
+|       Nusidėvėjimas: laikotarpio likvidavimai       |                                                                       Visų registruotų nusidėvėjimo atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma.                                                                        |
+|        Nusidėvėjimas: galutinė vertė         |  Visų tipų <strong>Nusidėvėjimas</strong>, <strong>Nusidėvėjimo koregavimas</strong>, <strong>Specialioji nusidėvėjimo nuolaida</strong> ir <strong>Visiškas nusidėvėjimas</strong> operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje.  |
+|    Vertės padidinimas / sumažinimas: pradinė vertė     |                              Visų tipų <strong>Vertės padidinimo koregavimas</strong>, <strong>Vertės sumažinimo koregavimas</strong> ir <strong>Perkainojimas</strong> operacijų suma iki dienos „nuo“, kuri nurodyta ataskaitoje.                               |
+|   Vertės padidinimas / sumažinimas: laikotarpio vertės padidinimas   |                                                                    Visų tipo <strong>Vertės padidinimo koregavimas</strong> operacijų, registruotų ataskaitos datų intervale, suma.                                                                    |
+|  Vertės padidinimas / sumažinimas: laikotarpio vertės sumažinimas  |                                                                   Visų tipo <strong>Vertės sumažinimo koregavimas</strong> operacijų, registruotų ataskaitos datų intervale, suma.                                                                   |
+| Vertės padidinimas / sumažinimas: laikotarpio perkainojimas  |                                                                        Visų tipo <strong>Perkainojimas</strong> operacijų, registruotų ataskaitos datų intervale, suma.                                                                        |
+|   Vertės padidinimas / sumažinimas: laikotarpio likvidavimai   |                                                           Visų registruotų vertės padidinimo, sumažinimo ir perkainojimo atšaukimų, su kuriais ataskaitos datų intervale buvo atlikta likvidavimo operacija, suma.                                                           |
+|    Vertės padidinimas / sumažinimas: galutinė vertė     |                               Visų tipų <strong>Vertės padidinimo koregavimas</strong>, <strong>Vertės sumažinimo koregavimas</strong> ir <strong>Perkainojimas</strong> operacijų suma iki dienos „iki“, kuri nurodyta ataskaitoje.                                |
+|          Likvidavimai: likvidavimo data           |                                                                                                                Ilgalaikio turto knygos likvidavimo data.                                                                                                                |
+|    Likvidavimai: balansinė vertė likviduojant    |                                                                                                    Ilgalaikio turto knygos balansinė vertė likvidavimo metu.                                                                                                    |
+|            Likvidavimai: pardavimo vertė            |                                                                                               Ilgalaikio turto knygos su likvidavimo – pardavimo operacija pardavimo vertė.                                                                                                |
+|           Likvidavimai: likvidacinė vertė            |                                                                                               Ilgalaikio turto knygos su likvidavimo – nurašymo operacija likvidacinė vertė.                                                                                               |
+|           Likvidavimai: pelnas / nuostolis            |                                                                                 Pelno arba nuostolio vertė, apskaičiuojama atliekant ilgalaikio turto knygos likvidavimo operaciją.                                                                                 |
+
 

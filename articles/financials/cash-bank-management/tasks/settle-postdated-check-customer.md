@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Vėlesnio čekio iš kliento sudengimas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Galite sudengti vėlesnį čekį, kai čekis apdorojamas banko. Ši finansinė operacija taip pat apdoroja vėlesnio čekio tarpinės sąskaitos operaciją. 
 

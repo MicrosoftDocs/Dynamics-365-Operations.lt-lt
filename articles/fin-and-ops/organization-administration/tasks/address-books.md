@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Konfigūruoti adresų knygeles
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norėdami savo organizacijai nustatyti papildomų agresų knygelių, naudokite šią procedūrą, ir sprendimus, kuriuos priėmėte temoje Visuotinės adresų knygelės konfigūracijos planavimas ir papildomos adresų knygelės.
 

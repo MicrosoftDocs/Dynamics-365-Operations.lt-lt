@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Nustatyti pardavimo komisinių taisykles
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti ir įgalinti pardavimo komisinių skaičiavimą ir sekimą. Procedūra nurodo, kaip sukurti klientų ir prekių komisinių grupes ir kaip susieti pasirinktą klientą ir produktą su atitinkamomis grupėmis. Tada tos grupės naudojamos nustatant komisinių skaičiavimą, kad būtų galima sukurti kliento, prekės ir pardavimo atstovų derinį, kuris turi atitikti pardavimo užsakyme nurodytą derinį, kad pardavėjai turėtų teisę į komisinius. Nėra būtina sukurti klientų ir prekių komisinių grupes, nes komisiniai gali būti apskaičiuojami ir atskiram klientui ir / arba prekei. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 

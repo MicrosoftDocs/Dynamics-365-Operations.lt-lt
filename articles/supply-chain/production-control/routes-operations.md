@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
 

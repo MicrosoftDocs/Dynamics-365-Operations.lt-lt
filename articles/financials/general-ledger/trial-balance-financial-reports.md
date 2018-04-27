@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Bandomojo balanso finansinės ataskaitos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašytos numatytosios bandomųjų balansų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai ir ataskaitų modifikavimo pagal verslo poreikius būdai. 
 
@@ -99,7 +98,7 @@ Kiekvienoje bandomojo balanso ataskaitoje naudojamas kitas stulpelio aprašas. N
     -   **FD** – Finansiniai duomenys, kuriuose pateikiamas tik praėjusių metų debetas
     -   **FD** – Finansiniai duomenys, kuriuose pateikiamas tik praėjusių metų kreditas
 
- 
+
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

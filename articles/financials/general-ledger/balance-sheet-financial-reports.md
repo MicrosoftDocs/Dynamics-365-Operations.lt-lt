@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Balanso finansinės ataskaitos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai. 
 
@@ -71,7 +70,7 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
     -   **DESC** – Eilutės apibrėžimo aprašymas
     -   **FD** – finansiniai duomenys nuo šių metų pradžios
 
- 
+
 
 <a name="see-also"></a>Taip pat žiūrėkite
 --------

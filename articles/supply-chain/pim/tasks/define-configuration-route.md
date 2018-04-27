@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Apibrėžti konfigūracijos maršrutus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šios procedūros tikslas yra apibrėžti konfigūracijos maršrutą, kuris nulemia konfigūracijos grupių pristatymo seką. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Tai yra šeštoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Produktams su serijos numeriais taikomi EKA patobulinimai
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Peržiūra 
 Pagal modulio Mažmeninių pardavimų valdymas parametrus produktus galima klasifikuoti kaip turinčius serijos numerius arba jų neturinčius. Kai produktai yra su serijos numeriais, kiekvienai prekei gali būti priskiriamas unikalus numeris, kuris padeda sekti garantijas, prekes ir patvirtinti nuosavybę. Nors galimybė produktams priskirti serijos numerius egzistavo mūsų moderniajame / debesies elektroniniame kasos aparate (EKA), įtraukta keletas patobulinimų, kurie kasininkams padės sutaupyti laiko ir būti produktyvesniems.  

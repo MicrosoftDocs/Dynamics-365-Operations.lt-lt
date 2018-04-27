@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Pašalinimo taisyklės
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
 

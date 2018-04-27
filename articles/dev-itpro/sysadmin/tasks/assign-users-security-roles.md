@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Vartotojų priskyrimas saugos vaidmenims
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Norint pasiekti „Microsoft Dynamics 365 for Finance and Operations“ vartotojams turi būti priskirti saugos vaidmenys. Šia procedūra paaiškinama, kaip sistemos administratoriai gali automatiškai pagal verslo duomenis priskirti vartotojus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

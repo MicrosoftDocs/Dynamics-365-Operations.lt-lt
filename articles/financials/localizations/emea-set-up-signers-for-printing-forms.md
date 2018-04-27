@@ -17,17 +17,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: df924487c02ee9c7246ab9f12719382459634e98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 51449f2f8448a493ebf7e4496cebdb90d902869a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-signers-for-print-forms"></a>Spausdintų formų pasirašančiųjų nustatymas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas.
 
@@ -60,19 +59,19 @@ Norėdami nustatyti įmonės spausdinamų dokumentų pasirašančiuosius naudoki
 <li>Išankstinė ataskaita</li>
 <li>Kasos knygos puslapis</li>
 <li>Skaičiavimo išrašas</li>
-<li>Atidėjimai*</li>
+<li>Atidėjimai<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pardavimo užsakymai</td>
 <td>Įtraukite pasirašančiųjų, kurie gali pasirašyti toliau nurodytus išeinančius pirminius dokumentus, susijusius su klientais, pareigas ir susijusią informaciją.
 <ul>
-<li>Mokėjimo SF*</li>
+<li>Mokėjimo SF</em></li>
 <li>PVM sąskaita faktūra</li>
-<li>Faktūra*</li>
+<li>Faktūra<em></li>
 <li>SF – kredito pažyma</li>
-<li>Faktūra – kredito pažyma*</li>
-<li>Mokesčių operacijos faktūra (klientas)*</li>
+<li>Faktūra – kredito pažyma</em></li>
+<li>Mokesčių operacijos faktūra (klientas)<em></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -80,18 +79,18 @@ Norėdami nustatyti įmonės spausdinamų dokumentų pasirašančiuosius naudoki
 <td>Įtraukite pasirašančiųjų, kurie gali pasirašyti toliau nurodytus įeinančius pirminius dokumentus, susijusius su tiekėjais, pareigas ir susijusią informaciją.
 <ul>
 <li>PVM sąskaita faktūra</li>
-<li>Faktūra*</li>
+<li>Faktūra</em></li>
 <li>SF – kredito pažyma</li>
-<li>Faktūra – kredito pažyma*</li>
-<li>Mokėjimo SF*</li>
-<li>Mokesčių operacijos faktūra (tiekėjas)*</li>
+<li>Faktūra – kredito pažyma<em></li>
+<li>Mokėjimo SF</em></li>
+<li>Mokesčių operacijos faktūra (tiekėjas)<em></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Atsargų prekės valdymas</td>
 <td>Įtraukite pasirašančiųjų, kurie gali pasirašyti toliau nurodytus sandėlio dokumentus, kai materialusis turtas išduodamas klientui arba gaunamas iš tiekėjo, pareigas ir susijusią informaciją.
 <ul>
-<li>Pardavimo užsakymo išdavimo kvitas (M-15)*</li>
+<li>Pardavimo užsakymo išdavimo kvitas (M-15)</em></li>
 <li>Komp. kvitas / gavimo užsakymas</li>
 <li>Perkėlimo užsakymo išdavimo kvitas (M-15)*</li>
 </ul></td>

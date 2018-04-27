@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Įsigijimo katalogai
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje aukštu lygiu aprašoma, kaip pirkimo specialistai gali nustatyti ir tvarkyti įsigijimo katalogus. Įsigijimo katalogais apibrėžiamos prekės ir paslaugos, kurias įmonės darbuotojai gali užsakyti naudoti viduje.
 

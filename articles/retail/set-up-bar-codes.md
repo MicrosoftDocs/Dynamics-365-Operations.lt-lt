@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>Brūkšninių kodų nustatymas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyta, kaip naudoti brūkšninius kodus sprendime „Microsoft Dynamics 365 for Retail“.
 

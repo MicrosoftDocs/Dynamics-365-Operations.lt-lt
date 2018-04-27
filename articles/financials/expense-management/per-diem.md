@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Dienpinigių taisyklės
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Dienpinigiai* yra priemoka, mokama darbo reikalais keliaujančiam darbuotojui. Modulyje Išlaidų valdymas dienpinigių taisykles galite kurti įvairioms kelioninėms situacijoms. Dienpinigių tarifus galima nustatyti pagal metų laiką, kelionės vietą, arba abu. Kurdami dienpinigių taisyklę, galite nurodyti, kad, jeigu darbuotojas nemokamai gauna maitinimą ar paslaugas, iš dienpinigių bus išskaitytas tam tikras procentas. Taip pat galite nustatyti mažiausią ir didžiausią valandų skaičių, kurį dienpinigių tarifas gali būti taikomas darbuotojo kelionei.
 

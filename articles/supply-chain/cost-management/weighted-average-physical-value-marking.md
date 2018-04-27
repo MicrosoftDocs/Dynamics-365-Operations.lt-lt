@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
 
@@ -74,16 +74,16 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 ![Svertinio vidurkio tiesioginis sudengimas be faktinės vertės įtraukimo](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
--   Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
--   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
+- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Svertinio vidurkio suvestinis sudengimas be pasirinkties Įtraukti faktinę vertę
 Su svertiniu vidurkiu naudojamas sudengimo principas, kuriuo remiantis visi uždarymo laikotarpio gavimai yra sumuojami operacijoje, kuri vadinasi Svertinio vidurkio atsargų uždarymas. Visi laikotarpio gavimai bus sudengiami su naujai sukurtos atsargų perkėlimo operacijos išdavimu. Visi laikotarpio išdavimai bus sudengiami su naujai sukurtos atsargų perkėlimo operacijos gavimu. Jeigu po atsargų uždarymo turimas atsargų kiekis yra teigiamas, tos turimos atsargos ir atsargų vertė susumuojamos naujoje atsargų perdavimo operacijoje (gavimas). Jeigu po atsargų uždarymo turimas atsargų kiekis yra neigiamas, turimos atsargos ir atsargų vertė yra iki galo nesudengtų atskirų išdavimų suma. Toliau pateiktame scenarijuje užregistruota keletas finansiškai atnaujintų gavimų ir vienas išdavimas. 
@@ -108,18 +108,18 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 ![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
--   Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
--   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
--   Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
--   Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
+- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
+- Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Svertinio vidurkio tiesioginis sudengimas su pasirinktimi Įtraukti faktinę vertę
 Parametras Įtraukti faktinę vertę svertinio vidurkio atsargų modeliui taikomas kitaip nei ankstesnėse produkto versijose. Formoje Prekių modelių grupė pažymėkite langelį Įtraukti faktinę vertę. Tada sistemoje skaičiuojant įvertintą savikainą arba paleidžiamąjį vidurkį bus naudojami faktiškai atnaujinti gavimai. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį. Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. Šiame svertinio vidurkio tiesioginio sudengimo pavyzdyje prekių modelių grupė pažymėta įtraukti faktinę vertę. 
@@ -137,16 +137,16 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 ![Svertinio vidurkio tiesioginis sudengimas su faktinės vertės įtraukimu](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
--   Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
--   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
+- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Svertinio vidurkio suvestinis sudengimas su pasirinktimi Įtraukti faktinę vertę
 Parametras Įtraukti faktinę vertę svertiniam vidurkiui taikomas kitaip nei ankstesnėse versijose. Puslapyje Prekių modelių grupė pažymėkite langelį Įtraukti faktinę vertę. Tada sistemoje skaičiuojant įvertintą savikainą arba paleidžiamąjį vidurkį bus naudojami faktiškai atnaujinti gavimai. Išdavimai bus užregistruoti remiantis įvertinta laikotarpio savikaina. Uždarant atsargas finansiškai atnaujinti gavimai bus naudojami tik skaičiuojant svertinį vidurkį. Naudojant svertinio vidurkio atsargų modelį, rekomenduojama kas mėnesį atlikti atsargų uždarymą. Šiame svertinio vidurkio suvestinio sudengimo pavyzdyje atsargų modelis pažymimas siekiant įtraukti faktinę vertę. 
@@ -170,18 +170,18 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 ![Svertinio vidurkio apibendrintas sudengimas su faktinės vertės įtraukimu](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
--   Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., 1a. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
--   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
--   Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
--   Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., 1a. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
+- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Raudonos rodyklės rodo gavimo operacijas, sudengtas su sistemos sukurta išdavimo operacija.
+- Žalia rodyklė rodo korespondentinę sistemos sukurtą gavimo operaciją, su kuria sudengta iš pradžių užregistruota išdavimo operacija
 
 ## <a name="weighted-average-with-marking"></a>Svertinis vidurkis su žymėjimu
 Žymėjimas yra procesas, leidžiantis susieti arba pažymėti išdavimo operaciją su gavimo operacija. Žymėjimą galima atlikti prieš arba po operacijos registravimo. Žymėjimą naudokite norėdami patikrinti tikslias uždarymo išlaidas užregistravus operaciją arba atlikus atsargų uždarymą. 
@@ -218,16 +218,16 @@ Pateiktoje diagramoje parodyta operacijų serija, kai pasirenkamas svertinio vid
 ![Svertinis vidurkis su žymėjimu](./media/weightedaveragewithmarking.gif) 
 
 **Diagramos paaiškinimas**
--   Atsargų operacijos parodomos vertikaliomis rodyklėmis.
--   Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
--   Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
--   Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
--   Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
--   Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
--   Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
--   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
--   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
--   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
+- Atsargų operacijos parodomos vertikaliomis rodyklėmis.
+- Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
+- Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu Kiekis@"Unitprice".
+- Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
+- Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
+- Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
+- Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
+- Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
+- Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
 
 
 

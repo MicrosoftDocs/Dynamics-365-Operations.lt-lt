@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generuoti ir apdoroti kliento grąžinimus
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip apdoroti klientų grąžinimus nuo pretenzijos generavimo iki susikaupusių gautinų sumų išmokėjimo. Ji žingsnis po žingsnio pateikia konkretų pavyzdį, kuris paaiškina, kokią įtaką įvairios grąžinimo eilučių sąlygos daro galutinėms sumoms, kurios bus pervestos klientui. Turėsite naudoti demonstracinių duomenų įmonę USMF ir, prieš paleisdami vadovą, atlikti šias užduotis: (1) eikite į puslapį „Gautinų sumų parametrai“, išplėskite skirtuką „Kainos“, tada skirtuką „Kainų informacija“ ir patikrinkite, ar parinkčiai „Įjungti kainų informaciją“ nustatyta reikšmė „Taip“. (2) Eikite į puslapį „Grąžinimo sutartys“ ir pasirinkite grąžinimo klientui sutartį: USMF-000001. Jei darbo eigos patvirtinimo būsenos laukui nenustatyta reikšmė „Patvirtinta“, turite jį patvirtinti veiksmų srityje spustelėdami „Patvirtinimas“.
 

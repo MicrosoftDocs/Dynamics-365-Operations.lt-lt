@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Naudodami kaštų apskaitą galite suprasti, kaip išlaidų srautas susijęs su organizacijoje pristatomais produktais ir paslaugomis. Norint peržiūrėti išlaidų skaidrumą svarbu pasiekti to, kad išlaidos būtų paskirstomos išlaidų objektams pagal atitinkamą paskirstymo pagrindą. Pagal numatytuosius nustatymus yra pasiekiama pirminio išlaidų elemento išlaidų paskirstymo, kurio norima kai kuriais atvejais, bet su juo susijusios keletas įžvalgų, į kurias reikėtų atsižvelgti.
 

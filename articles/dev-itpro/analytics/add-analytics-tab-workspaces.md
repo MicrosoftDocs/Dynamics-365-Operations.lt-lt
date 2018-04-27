@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Dynamics 365 for Finance and Operations“.
@@ -50,7 +50,7 @@ Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo 
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Įtraukite .pbix failą kaip išteklių.
 Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Dekstop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio“ projekto artefaktą.
 
 1. Naujo projekto atitinkamame modelyje kūrimas.
@@ -63,12 +63,12 @@ Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio
 5. Raskite .pbix failą, kuriame yra analizės ataskaitos apibrėžimas, tada spustelėkite **Atidaryti**.
 
     ![Pasirinkite ištekliaus failo dialogo langą](media/analytical-workspace-select-resource.png)
-  
+
 Įtraukę .pbix failą kaip „Dynamics 365“ išteklių, ataskaitas galite įdėti į darbo sritis ir, naudodami meniu elementus, įtraukti tiesioginių saitų.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Skirtuko valdiklio įtraukimas į programos darbo sritį
 Šiame pavyzdyje išplėsime Transporto parko valdymo modelio darbo sritį **Rezervacijų valdymas** į formos **FMClerkWorkspace** apibrėžimą įtraukdami skirtuką **Analizė**.
- 
+
 Toliau pavaizduota, kaip forma **FMClerkWorkspace** atrodo „Microsoft Visual Studio“ dizaineryje.
 
 ![Forma FMClerkWorkspace prieš pakeitimus](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų vald
 16. Spustelėkite dešiniuoju mygtuku ir pasirinkite **Pašalinti šabloną**.
 17. Dešiniuoju pelės mygtuku spustelėkite dar kartą, tada pasirinkite **Pridėti šabloną** > **Darbo sritis su skirtukais**.
 18. Pradėkite kurti, kad patvirtintumėte pakeitimus.
- 
+
 Toliau pavaizduota, kaip atrodo dizainas pritaikius šiuos pakeitimus.
 
 ![FMClerkWorkspace po pakeitimų](media/analytical-workspace-definition-after.png)
 
 Pridėję formų valdiklių, kurie bus naudojami darbo srities ataskaitai įdėti, turite apibrėžti, kokio dydžio turi būti pagrindinis valdiklis, kad tilptų į maketą. Pagal numatytuosius nustatymus puslapiai **Filtrų sritis** ir **Skirtukas** bus rodomi ataskaitoje. Tačiau šių valdiklių matomumą galite keisti atitinkamai pagal tikslinį ataskaitos vartotoją.
- 
+
 > [!NOTE]
 > Norint išlaikyti nuoseklumą, įdėtoms darbo sritims rekomenduojame naudoti plėtinius, kurie paslėptų puslapius **Filtrų sritis** ir **Skirtukas**.
- 
+
 Užbaigėte prašymo formos apibrėžimo išplėtimo užduotį. Daugiau informacijos apie tai, kaip naudoti plėtinius tinkinimams atlikti, ieškokite [Tinkinimas: perdengimas ir plėtiniai](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++ verslo logikos įtraukimas norint įdėti peržiūros programos valdiklį
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametrai
 
-| Vardas | aprašymas |
-|---|---|
-| resourceName | .pbix ištekliaus pavadinimas. |
-| formGroupControl | Formos grupės valdiklis, kuriam bus taikomas „Power BI“ ataskaitos valdiklis. |
-| defaultPageName | Numatytasis puslapio pavadinimas. |
-| showFilterPane | Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
-| showNavPane | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
-| defaultFilters | Numatytieji „Power BI“ ataskaitos filtrai. |
+|       Vardas       |                                                              aprašymas                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    .pbix ištekliaus pavadinimas.                                                     |
+| formGroupControl |                                    Formos grupės valdiklis, kuriam bus taikomas „Power BI“ ataskaitos valdiklis.                                     |
+| defaultPageName  |                                                         Numatytasis puslapio pavadinimas.                                                         |
+|  showFilterPane  |   Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (<strong>true</strong>), ar paslėpta (<strong>klaidinga</strong>).   |
+|   showNavPane    | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (<strong>true</strong>), ar paslėpta (<strong>klaidinga</strong>). |
+|  defaultFilters  |                                              Numatytieji „Power BI“ ataskaitos filtrai.                                              |
+
 

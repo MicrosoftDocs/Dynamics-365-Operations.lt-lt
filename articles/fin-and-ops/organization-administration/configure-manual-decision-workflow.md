@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Neautomatinio darbo eigos sprendimo konfigūravimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuoto sprendimo ypatybes.
 
@@ -252,73 +251,74 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Įvykių sprendimo vėlavimo atveju nurodymas
 Jei per skirtąjį laiką vartotojas sprendimo nepriims, sprendimas bus laikomas vėluojančiu. Vėluojantį sprendimą galima perskirti arba automatiškai priskirti kitam vartotojui. Atlikite tolesnius veiksmus, kad perskirtumėte sprendimą, jei jis vėluoja.
 
-1.  Kairiojoje srityje spustelėkite **Perskyrimas**.
-2.  Pasirinkite žymės langelį **Naudoti perskyrimo maršrutą**, norėdami kurti perskyrimo maršrutą. Sistema automatiškai priskirs sprendimą perskyrimo sąraše pateiktiems vartotojams. Pavyzdžiui, tolesnėje lentelėje pateikiamas perskyrimo maršrutas.
-    | Seka | Perskyrimo maršrutas            |
-    |----------|----------------------------|
-    | 1        | Priskirti: Donna           |
-    | 2        | Priskirti: Erin            |
-    | 3        | Galutinis veiksmas: \[1 pasirinkimas\] |
+1. Kairiojoje srityje spustelėkite **Perskyrimas**.
+2. Pasirinkite žymės langelį **Naudoti perskyrimo maršrutą**, norėdami kurti perskyrimo maršrutą. Sistema automatiškai priskirs sprendimą perskyrimo sąraše pateiktiems vartotojams. Pavyzdžiui, tolesnėje lentelėje pateikiamas perskyrimo maršrutas.
 
-    Tokiu atveju, sistema priskirs vėluojantį sprendimą Donna. Jei Donna nepriims sprendimo per skirtąjį laiką, sistema priskirs sprendimą Erin. Jei Erin nepriims sprendimo per skirtąjį laiką, sistema kaip sprendimą pasirinks **\[1 pasirinkimas\]**.
-3.  Norėdami vartotoją įtraukti į perskyrimo maršrutą, spustelėkite **Įtraukti perskyrimą**. Pasirinkite vieną iš tolesnės lentelės parinkčių ir tada, prieš vykdydami 4 veiksmą, atlikite papildomus tos parinkties veiksmus.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Parinktis</th>
-    <th>Vartotojai, kuriems perskiriamas sprendimas</th>
-    <th>Papildomi veiksmai</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hierarchija</td>
-    <td>Konkrečios organizacijos hierarchijos vartotojai</td>
-    <td><ol>
-    <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite perskirti sprendimą.</li>
-    <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
-    <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
-    <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
-    </ol></li>
-    <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti perskirtas. <ul>
-    <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – sprendimas perskiriamas visiems vartotojams diapazone.</li>
-    <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – sprendimas perskiriamas tik paskutiniam vartotojui diapazone.</li>
-    <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – sprendimas neperskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Darbo eigos vartotojas</td>
-    <td>Dabartinės darbo eigos vartotojai</td>
-    <td><ul>
-    <li>Pasirinkę <strong>Darbo eigos vartotojas</strong>, skirtuko <strong>Darbo eigos vartotojas</strong> sąraše <strong>Darbo eigos vartotojas</strong> pasirinkite vartotoją, kuris dalyvauja darbo eigoje.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Vartotojas</td>
-    <td>Konkretūs „Finance and Operations” vartotojai</td>
-    <td><ol>
-    <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Seka | Perskyrimo maršrutas            |
+   |----------|----------------------------|
+   | 1        | Priskirti: Donna           |
+   | 2        | Priskirti: Erin            |
+   | 3        | Galutinis veiksmas: \[1 pasirinkimas\] |
 
-4.  Skirtuko **Laiko limitas** lauke **Trukmė** nurodykite, kiek vartotojas turi laiko, skirto sprendimui priimti. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
-    -   **Valandos** – įveskite valandų, per kurias vartotojas turi priimti sprendimą, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
-    -   **Dienos** – įveskite dienų, per kurias vartotojas turi priimti sprendimą, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
-    -   **Savaitės** – įveskite savaičių, per kurias vartotojas turi priimti sprendimą, skaičių.
-    -   **Mėnesiai** – pasirinkite dieną ir savaitę, iki kurių vartotojas turi priimti sprendimą. Pavyzdžiui, galbūt norite, kad vartotojas priimtų sprendimą iki trečios mėnesio savaitės penktadienio.
-    -   **Metai** – pasirinkite dieną, savaitę ir mėnesį, iki kurių vartotojas turi priimti sprendimą. Pavyzdžiui, galbūt norite, kad vartotojas priimtų sprendimą iki trečios gruodžio mėn. savaitės penktadienio.
+   Tokiu atveju, sistema priskirs vėluojantį sprendimą Donna. Jei Donna nepriims sprendimo per skirtąjį laiką, sistema priskirs sprendimą Erin. Jei Erin nepriims sprendimo per skirtąjį laiką, sistema kaip sprendimą pasirinks **\[1 pasirinkimas\]**.
+3. Norėdami vartotoją įtraukti į perskyrimo maršrutą, spustelėkite **Įtraukti perskyrimą**. Pasirinkite vieną iš tolesnės lentelės parinkčių ir tada, prieš vykdydami 4 veiksmą, atlikite papildomus tos parinkties veiksmus.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Parinktis</th>
+   <th>Vartotojai, kuriems perskiriamas sprendimas</th>
+   <th>Papildomi veiksmai</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hierarchija</td>
+   <td>Konkrečios organizacijos hierarchijos vartotojai</td>
+   <td><ol>
+   <li>Pasirinkę <strong>Hierarchija</strong>, skirtuko <strong>Hierarchijos pasirinkimas</strong> sąraše <strong>Hierarchijos tipas</strong> pasirinkite hierarchijos tipą, kuriam norite perskirti sprendimą.</li>
+   <li>Sistema turi iš hierarchijos nuskaityti vartotojų vardus. Šie vardai nurodo vartotojus, kuriems galima perskirti sprendimą. Atlikite tolesnius veiksmus, norėdami nurodyti vartotojų vardų, kuriuos sistema nuskaito, diapazono pradžios ir pabaigos tašką. <ol>
+   <li>Norėdami nustatyti pradžios tašką, pasirinkite asmenį sąraše <strong>Pradėti nuo</strong>.</li>
+   <li>Norėdami nustatyti pabaigos tašką, spustelėkite <strong>Įtraukti sąlygą</strong>. Tada įveskite sąlygą, kuri nurodo, kurioje hierarchijos vietoje sistema nutrauks vardų nuskaitymą.</li>
+   </ol></li>
+   <li>Skirtuke <strong>Hierarchijos parinktys</strong> nurodykite, kuriems diapazono vartotojams sprendimas turėtų būti perskirtas. <ul>
+   <li><strong>Priskirti visiems nuskaitytiems vartotojams</strong> – sprendimas perskiriamas visiems vartotojams diapazone.</li>
+   <li><strong>Priskirti tik paskutiniam nuskaitytam darbuotojui</strong> – sprendimas perskiriamas tik paskutiniam vartotojui diapazone.</li>
+   <li><strong>Neįtraukti vartotojų, kurie atitinka šią sąlygą</strong> – sprendimas neperskiriamas jokiems diapazono vartotojams, kurie atitinka tam tikrą sąlygą. Norėdami nustatyti sąlygą, spustelėkite <strong>Įtraukti sąlygą</strong>.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Darbo eigos vartotojas</td>
+   <td>Dabartinės darbo eigos vartotojai</td>
+   <td><ul>
+   <li>Pasirinkę <strong>Darbo eigos vartotojas</strong>, skirtuko <strong>Darbo eigos vartotojas</strong> sąraše <strong>Darbo eigos vartotojas</strong> pasirinkite vartotoją, kuris dalyvauja darbo eigoje.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Vartotojas</td>
+   <td>Konkretūs „Finance and Operations” vartotojai</td>
+   <td><ol>
+   <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
+   <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Finance and Operations“ vartotojus. Pasirinkite, kuriems vartotojams norite perskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
-6.  Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nepriima sprendimo, sistema priims sprendimą. Norėdami nurodyti parinktį, kurią sistema pasirinks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite parinktį.
+4. Skirtuko **Laiko limitas** lauke **Trukmė** nurodykite, kiek vartotojas turi laiko, skirto sprendimui priimti. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
+   -   **Valandos** – įveskite valandų, per kurias vartotojas turi priimti sprendimą, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
+   -   **Dienos** – įveskite dienų, per kurias vartotojas turi priimti sprendimą, skaičių. Tada pasirinkite jūsų organizacijos naudojamą kalendorių ir įveskite informaciją apie jūsų organizacijos darbo savaitę.
+   -   **Savaitės** – įveskite savaičių, per kurias vartotojas turi priimti sprendimą, skaičių.
+   -   **Mėnesiai** – pasirinkite dieną ir savaitę, iki kurių vartotojas turi priimti sprendimą. Pavyzdžiui, galbūt norite, kad vartotojas priimtų sprendimą iki trečios mėnesio savaitės penktadienio.
+   -   **Metai** – pasirinkite dieną, savaitę ir mėnesį, iki kurių vartotojas turi priimti sprendimą. Pavyzdžiui, galbūt norite, kad vartotojas priimtų sprendimą iki trečios gruodžio mėn. savaitės penktadienio.
+
+5. Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
+6. Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nepriima sprendimo, sistema priims sprendimą. Norėdami nurodyti parinktį, kurią sistema pasirinks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite parinktį.
 
 ## <a name="set-a-time-limit"></a>Laiko limito nustatymas
 Jei sprendimas turi būti priimtas per tam tikrą laiką, atlikite šiuos veiksmus. **Pastaba.** Šioje procedūroje pasirinktos parinktys gali perrašyti parinktis, kurias pasirinkote puslapio srityse **Priskyrimas** ir **Perskyrimas**.

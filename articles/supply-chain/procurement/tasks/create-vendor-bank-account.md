@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>Sukurti tiekėjo banko sąskaitą
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra parodoma, kaip kurti tiekėjo banko kodą. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 

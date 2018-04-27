@@ -31,9 +31,9 @@
 ## [Skambučių centro katalogai](call-center-catalogs.md)
 ## [Skambučių centro katalogo kūrimas](create-call-center-catalogs.md)
 ## [Įspėjimų dėl apgaulės nustatymas](set-up-fraud-alerts.md)
-## [Užsakymo apdorojimo parinkčių nustatymas](set-up-order-processing-options.md)
+## [Skambučių centro nustatymas](set-up-order-processing-options.md)
 ## [Skambučių centro tęstinumo programos nustatymas](set-up-continuity-program.md)
-## [Užsakymo sulaikymas](work-with-order-holds.md)
+## [Užsakymų sulaikymai](work-with-order-holds.md)
 ## [Mokėjimo parinktys](work-with-payments.md)
 
 # Kanalo nustatymas ir valdymas
@@ -49,6 +49,7 @@
 ## [EKA operacijos, prisijungus ir neprisijungus prie interneto](pos-operations.md)
 ## [MPOS / CPOS demonstracinių duomenų ekrano maketai](demo-data.md)
 ## [Produktų ir klientų ieškos elektroniniame kasos aparate apžvalga](POS-search-improvements.md)
+## [Atsargų peržvalga elektroniniame kasos aparate](product-variants-POS.md)
 ## Išoriniai aparatūros įrenginiai
 ### [Mažmeninės prekybos išorinių įrenginių apžvalga](retail-peripherals-overview.md)
 ### [„Microsoft“ išbandyti išoriniai EKA aparatūros įrenginiai](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [RFM analizės nustatymas](set-up-rfm-analysis.md)
 
 # Nuolaidos ir kainų koregavimas
+## [Mažmeninės prekybos pardavimo kainų valdymas](price-management.md)
 ## [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
 ## [Optimalios persidengiančių nuolaidų kombinacijos nustatymas](optimal-combination-overlapping-discounts.md)
 ## [Kanalui būdingų nuolaidų nustatymas](define-channel-specific-discounts.md)
@@ -124,7 +126,7 @@
 ## [Parduotuvės atsargų valdymas](work-with-store-inventory.md)
 ## [Serijos numerių registravimas pardavimo proceso metu](../supply-chain/sales-marketing/register-serial-numbers-sales-process.md)
 ## [Atsargų žurnalai](../supply-chain/inventory/inventory-journals.md)
-## [Atsargų žymių inventorizacija](../supply-chain/inventory/inventory-tag-counting.md)
+## [Atsargų žymių skaičiavimas](../supply-chain/inventory/inventory-tag-counting.md)
 ## [FIFO su faktine reikšme ir žymėjimu](../supply-chain/cost-management/fifo-physical-value-marking.md)
 ## [LIFO data su faktine reikšme ir žymėjimu](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 ## [LIFO su faktine reikšme ir žymėjimu](../supply-chain/cost-management/lifo-physical-value-marking.md)
@@ -138,18 +140,22 @@
 ## [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](../talent/departments-jobs-positions.md)
 ## [Užduoties komponentų nustatymas](../talent/create-job.md)
 
-# Lokalizavimo ir reguliavimo priemonės​
+# Lokalizavimo ir reguliavimo priemonės
+## Prancūzija
+### [Kasos aparatai (Prancūzija)](localizations/emea-fra-cash-registers.md)
+### [Visuotinio kasos aparatų diegimo gairės (Prancūzija)](localizations/emea-fra-deployment.md)
 ## Indija
-### [Kasos aparatų GST integravimas (Indija)](localizations/apac-ind-cash-registers.md)
+### [Kasos aparatų GST integravimas](localizations/apac-ind-cash-registers.md)
 ### [Visuotinio kasos aparatų diegimo gairės (Indija)](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norvegija
 ### [Kasos aparatai (Norvegija)](localizations/emea-nor-cash-registers.md)
 ### [Visuotinio kasos aparatų diegimo gairės (Norvegija)](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Švedija
 ### [Kasos aparatai (Švedija)](localizations/emea-swe-cash-registers.md)
+### [„Retail POS“ integravimo su kontrolės įtaisais pavyzdys](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # „Retail“ užduotys
-## [Produkto kūrimas](../supply-chain/pim/tasks/create-product.md)
+## [Sukurti produktą](../supply-chain/pim/tasks/create-product.md)
 ## [Susietų produktų konfigūravimas](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Produkto / bendrojo produkto išleidimas juridiniams subjektams](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
 ## [Bazinė kaina ir prekybos sutartys](tasks/base-price-trade-agreements.md)
@@ -260,15 +266,17 @@
 ### [„e-Commerce“ platformos SDK](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Mokėjimo jungties išplečiamumas
-### [Mokėjimo jungties ir mokėjimo įrenginio diegimas (techninė dokumentacija)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Mokėjimų integravimas į mokėjimo terminalą](dev-itpro/end-to-end-payment-extension.md)
+### [Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Visuotinis mokėjimo jungties diegimas](dev-itpro/deploy-payment-connector.md)
 ### [„Windows Installer‟ sukūrimas mokėjimo jungčiai](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [„Retail SDK“](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [„Retail SDK“ integravimas su nuolatinio komponavimo versijos sistema](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [„Retail SDK“ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [„Retail SDK“ pakuotė](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [„Retail SDK“ pavyzdžiai ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [„Retail SDK‟ išplečiamumo pavyzdžiai](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [„Retail SDK‟ paketas](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [„Retail SDK‟ pavyzdžiai ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Važtaraščių plėtinių taškai](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Kanalo duomenų bazės (DB) plėtiniai](dev-itpro/channel-db-extensions.md)
 ### [CDX išplečiamumas](dev-itpro/cdx-extensibility.md)
 ### [Užsakymų atributai](dev-itpro/order-attributes.md)

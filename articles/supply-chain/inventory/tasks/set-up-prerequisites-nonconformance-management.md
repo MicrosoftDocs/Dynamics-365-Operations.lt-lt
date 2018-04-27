@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Nustatyti valdymo būtinąsias sąlygas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Naudokite šią procedūrą, kad įgalintumėte neatitikčių valdymo procesus. Neatitiktyje apibūdinama procedūra arba prekė, kuri turi kokybės problemų, aprašomojoje informacijoje pateiktas problemos šaltinis ir tipas. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF. Šią procedūrą paprastai atlieka kokybės vadovas.
 

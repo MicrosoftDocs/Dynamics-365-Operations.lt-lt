@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Atributų kūrimas ir valdymas
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyti „Microsoft Dynamics 365 for Retail“ atributai. Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartotojo apibrėžiamus laukus.
 
@@ -58,7 +57,7 @@ Atributai leidžia apibūdinti produktą ir jo charakteristikas naudojant vartot
 
 ## <a name="attribute-type"></a>Atributo tipas
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Atributai pagrįsti atributų tipais. Atributų tipai nurodo, kokio tipo konkretaus atributo duomenis galima įvesti. Šiuo metu „Microsoft Dynamics 365 for Retail“ palaiko šiuos atributų tipus.
 
 -   **Valiuta** – šis atributo tipas palaiko valiutos reikšmes. Jis gali būti apribotas (t. y., gali būti palaikomas reikšmių diapazonas), arba jis gali būti neapibrėžtas.

@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Neautomatinis nusidėvėjimas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgtas rankinis nusidėvėjimo metodas.
 
@@ -67,7 +66,7 @@ Jeigu lauke **Laikotarpio dažnis** pasirenkate **Kas mėnesį**, nustatote 12 r
 | sausio  | (11 000 – 1 000) × 10 % = 1 000 |
 | Vasaris | (11 000 – 1 000) × 50 % = 5 000 |
 
-Jeigu lauke ****Laikotarpio dažnis**** pasirenkate **Kas pusmetį**, nustatote du rankinių grafikų intervalus. Toliau pateikiamoje lentelėje rodomos tų dviejų intervalų nusidėvėjimo sumos.
+Jeigu *lauke <strong><em>Laikotarpio dažnis</em>*</strong> pasirenkate <strong>Kas pusmetį</strong>, nustatote du rankinių grafikų intervalus. Toliau pateikiamoje lentelėje rodomos tų dviejų intervalų nusidėvėjimo sumos.
 
 | Intervalas    | Nusidėvėjimo suma            |
 |-------------|--------------------------------|

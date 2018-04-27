@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Vykdyti „kanban“ proceso užduotis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodyta, kaip vykdyti „kanban“ proceso užduotis. Pirmoji užduotis baigta su numatytu kiekiu ir be klaidų. Antroji užduotis baigta su klaidomis. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra skirta mašinos operatoriui.
 
