@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Valdyti asortimentus  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti ir publikuoti naują produktų asortimentą, ir joje naudojami įmonės USRT demonstraciniai duomenys. Šiai procedūrai atlikti reikalinga programos „Dynamics AX“ 7.0.1 arba naujesnė versija ir „Dynamics AX“ 7.1 platforma.  
 

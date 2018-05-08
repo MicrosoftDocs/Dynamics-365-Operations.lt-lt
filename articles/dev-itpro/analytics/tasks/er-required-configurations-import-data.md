@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Reikiamų konfigūracijų kūrimas elektroninėse ataskaitose (ER), norint importuoti duomenis iš išorinio failo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“ programą. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus.“ Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

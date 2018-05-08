@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Slankusis vidurkis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Slankusis vidurkis yra nuolatinis įkainojimo metodas, paremtas vidurkio principu, kai kintant pirkimo išlaidoms išduodamų atsargų savikainos nekinta. Skirtumas kapitalizuojamas ir pagrindžiamas proporcingu skaičiavimu. Likusi suma įtraukiama į išlaidų sąskaitą. 
 

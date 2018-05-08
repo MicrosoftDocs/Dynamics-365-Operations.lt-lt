@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Centralizuotų mokėjimų nustatymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu. Prieš pradėdami turite įvykdyti šias nustatymo procedūras:
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Norint sprendime „Microsoft Dynamics 365 for Finance and Operations“ kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 

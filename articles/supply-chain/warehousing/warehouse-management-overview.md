@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Sandėlio valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 „Dynamics 365 for Finance and Operations“ modulis Sandėlio valdymas leidžia valdyti sandėlio procesus gamybos, platinimo ir mažmeninės prekybos įmonėse. Šiame modulyje yra įvairių funkcijų, skirtų optimaliai bet kada palaikyti sandėlio procesus. Sandėlio valdymas yra visiškai integruotas su kitais „Finance and Operations“ verslo procesais, pvz., transportavimu, gamyba, kokybės kontrole, pirkimu, perkėlimu, pardavimu ir grąžinimais.
 

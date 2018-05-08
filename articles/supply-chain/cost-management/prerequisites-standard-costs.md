@@ -29,7 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Standartinių savikainų būtinosios sąlygos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomi pagrindiniai standartinių savikainų naudojimo veiksmai. Vėlesni veiksmai priklauso nuo įmonės operacijų. Pavyzdžiui, veiksmai skiriasi negamybinėje aplinkoje, gamybinėje aplinkoje, nenaudojančioje nukreipimų, ir gamybinėje aplinkoje, naudojančioje nukreipimus. 
 

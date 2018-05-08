@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Projekto biudžeto arba biudžeto tikslinimo per laikotarpius paskirstymas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Įvedę projekto biudžetą arba projekto biudžeto tikslinimą, prieš pateikdami šį patvirtinti galite paskirstyti sumas per laikotarpius. Jei biudžetas arba biudžeto tikslinimas atmetamas, taip pat galite paskirstyti sumas prieš jį pateikdami iš naujo. 
 

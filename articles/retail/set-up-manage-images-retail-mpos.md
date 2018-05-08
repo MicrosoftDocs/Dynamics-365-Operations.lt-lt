@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>„Retail Modern POS“ vaizdų nustatymas ir tvarkymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai.
 

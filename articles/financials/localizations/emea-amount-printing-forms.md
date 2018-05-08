@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie tai, kaip naujinti sumų rodymą ataskaitose ir kituose dokumentuose, skirtuose Estijai, Latvijai, Lietuvai, Lenkijai, Čekijos Respublikai, Vengrijai, ir Rusijai.
 

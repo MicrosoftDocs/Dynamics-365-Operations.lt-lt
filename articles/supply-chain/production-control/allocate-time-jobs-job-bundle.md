@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Laiko paskirstymas sugrupuotų užduočių užduotims
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Užduotis sugrupuoti galite modulyje Gamybos vykdymas. Tada puslapyje Užduočių sąrašas tuo pačiu metu galite pradėti kelias užduotis.
 

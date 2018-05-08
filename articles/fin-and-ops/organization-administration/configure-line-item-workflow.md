@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-line-item-workflow"></a>Eilutės elemento darbo eigos konfigūravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą.
 

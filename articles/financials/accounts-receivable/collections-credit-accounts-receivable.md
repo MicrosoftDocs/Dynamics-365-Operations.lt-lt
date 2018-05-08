@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Kreditas ir mokėjimai Gautinų sumų modulyje
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Finance and Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 

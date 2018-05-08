@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Kurti savikainos apskaitos didžiąją knygą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Išlaidų apskaitos didžioji knyga atitinka visą atsiskaitantį vienetą. Apibrėžia išlaidų elemento dimensija, statistikos dimensija, finansinis kalendorius ir valiuta. Sąvoka juridiniai subjektai nesuprantama. Juridinis subjektas ir jo duomenys gali būti susieti su daugeliu savikainos apskaitos didžiųjų knygų. Šiame įraše naudojama demonstracinių duomenų įmonė USP2.
 

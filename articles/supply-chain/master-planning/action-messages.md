@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>Veiksmų pranešimai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Veiksmo pranešimas yra sistemos sugeneruotas pasiūlymas keisti esamą suplanuotą arba patvirtintą tvarką.
 

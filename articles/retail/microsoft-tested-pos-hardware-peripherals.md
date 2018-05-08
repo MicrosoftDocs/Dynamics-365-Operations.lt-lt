@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>EKA aparatūros išoriniai įrenginiai
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 „Retail Modern Point Of Sale (POS)“ ir „Cloud POS“ galima naudoti platų pasirinkimo EKA aparatūros išorinius įrenginius su keliomis sąsajomis ir diegimo parinktimis, norint įgyvendinti įvairius mažmenininko verslo scenarijus. 
 

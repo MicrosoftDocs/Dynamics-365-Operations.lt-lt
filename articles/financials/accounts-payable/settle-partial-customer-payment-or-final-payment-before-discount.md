@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis kliento mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami scenarijai, kuriais parodoma, kaip įrašyti dalinius kliento mokėjimus ir mokėjimo nuolaidos laikotarpiu taikyti mokėjimo nuolaidą.
 

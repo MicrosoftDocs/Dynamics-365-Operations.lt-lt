@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Paskirstymo bazės 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Paskirstymo bazė yra pagrindas, kuriuo remdamasi kaštų apskaita paskirsto pridėtines išlaidas. Paskirstymo bazė gali būti tam tikras kiekis, pvz., mašinos darbo valandų skaičius, suvartotų kilovatvalandžių (kWh) skaičius, užimamas plotas kvadratinėmis pėdomis. Paskirstymo bazės dažniausiai naudojamos sukuriamoms atsargoms priskiriant pridėtines išlaidas. Pvz., IT skyrius paskirsto išlaidas pagal kiekviename skyriuje naudojamų kompiuterių skaičių.
 

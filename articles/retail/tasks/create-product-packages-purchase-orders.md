@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Kurti pirkimo užsakymų produktų pakuotes
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padės sukurti produktų paketą ir jį naudoti pirkimo užsakyme. Pirkimo užsakymas bus naudojamas iš anksto nustatytų produktų rinkinio užsakymui kurti. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

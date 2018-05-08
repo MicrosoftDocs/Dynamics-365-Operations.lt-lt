@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Gavimų apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie Gavimų apžvalgos funkciją. Gavimų apžvalgos puslapyje, kuris yra šios funkcijos dalis, pateikiama visų numatomų pristatyti prekių, kaip gaunamų prekių, peržiūra.
 

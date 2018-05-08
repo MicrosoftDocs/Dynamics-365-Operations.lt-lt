@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>Mažmeninės prekybos laikas ir buvimas darbe
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai. 
 

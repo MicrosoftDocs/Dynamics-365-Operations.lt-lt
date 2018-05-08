@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-batch-job"></a>Sukurkite paketinę užduotį
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Paketinė užduotis yra užduočių, pateiktų programos objektų serverio (AOS) egzemplioriui automatiškai apdoroti, grupė. Paketinės užduotys yra vykdomos naudojant užduotį sukūrusio naudotojo saugos kredencialus. Norėdami sukurti paketinę užduotį, naudokite nurodytą procedūrą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

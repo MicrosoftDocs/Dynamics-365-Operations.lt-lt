@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip naudojant vertes laukuose Bazinės ribos ir Skaičiavimo metodas nustatomas (-i) pardavimo ir pirkimo operacijų mokesčių tarifas (-ai).
 

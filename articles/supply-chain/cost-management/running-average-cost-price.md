@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="running-average-cost-price"></a>Einamoji vidutinė savikaina
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Atsargų uždarymo procesas sudengia išdavimo operacijas su gavimo operacijomis, remiantis atsargų vertinimo metodu, pasirinktu prekės modelių grupėje. Tačiau, prieš vykdant atsargų uždarymą, sistema apskaičiuoja einamąją vidutinę savikainą, kuri paprastai naudojama užregistruojant išdavimo operacijas.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Keisti ilgalaikio turto grupę
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ilgalaikis turtas turi būti priskirtas tinkamai ilgalaikio turto grupei. Ilgalaikio turto grupė naudojama, kai jūs:
 

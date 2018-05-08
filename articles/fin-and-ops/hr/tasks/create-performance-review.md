@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>Kurti našumo apžvalgą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti našumo apžvalgą, ir aprašoma kiekvieno apžvalgos skyriaus paskirtis. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
 

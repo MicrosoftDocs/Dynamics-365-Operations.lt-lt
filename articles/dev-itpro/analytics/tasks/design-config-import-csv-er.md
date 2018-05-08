@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Konfigūracijos, skirtos importuoti duomenis iš išorinio failo CSV formatu (ER), kūrimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations“. Šioje procedūroje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti procedūros „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
 

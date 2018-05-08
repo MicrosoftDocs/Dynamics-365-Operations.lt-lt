@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Peržiūrėti išlaidų ataskaitą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vykdant užklausą peržiūrėti operacijas moduliuose Didžioji knyga arba Paraiškos, užklausa gali pateikti per daug informacijos. Todėl galbūt reikėtų susiaurinti iešką. Norėdami gauti reikiamą informaciją, galite detalizuoti operaciją, kad matytumėte, kurioje išlaidų ataskaitoje ji buvo pateikta.
 

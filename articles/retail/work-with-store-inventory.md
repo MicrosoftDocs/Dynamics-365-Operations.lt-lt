@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>Valdyti parduotuvės atsargas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyti dokumentų, kuriuos galite naudoti atsargoms valdyti, tipai.
 

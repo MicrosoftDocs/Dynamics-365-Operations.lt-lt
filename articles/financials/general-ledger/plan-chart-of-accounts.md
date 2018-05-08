@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="plan-your-chart-of-accounts"></a>Sąskaitų plano rengimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikta informacija, kuri padės jums suplanuoti jūsų organizacijos sąskaitų planą.
 

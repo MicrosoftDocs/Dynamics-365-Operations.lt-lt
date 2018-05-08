@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="close-the-fiscal-year"></a>Uždaryti finansinius metus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šios procedūros veiksmai padeda atlikti metų pabaigos uždarymo procesą, kuriuo balansai perkeliami į kitus finansinius metus.
 

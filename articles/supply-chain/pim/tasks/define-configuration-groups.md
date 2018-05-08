@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>Apibrėžti konfigūracijos grupes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti produkto konfigūracijos grupes sukuriant dvi grupes demonstracinių duomenų įmonėje „USMF Company“. Tai yra ketvirtoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.
 

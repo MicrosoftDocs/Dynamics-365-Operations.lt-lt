@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holders"></a>Avanso turėtojai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="loan-items-to-a-worker"></a>Paskolinti prekes darbininkui
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip paskolinti prekę darbuotojui ir įrašyti prekę grąžinantį darbuotoją. Darbuotojai taip pat gali prašyti paskolinti prekių per savo darbuotojų savitarnos puslapius. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

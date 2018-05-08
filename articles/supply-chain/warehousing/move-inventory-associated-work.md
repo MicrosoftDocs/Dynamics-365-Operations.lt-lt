@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami atsargų judėjimą, galite nuspręsti, kuriems sandėlio darbininkams leidžiama perkelti rezervuotas atsargas. Tai suteikia lankstumo reguliuojamuosiuose sandėliuose, kuriuose galite nuspręsti neleisti darbininkui pasirinkti naujos paėmimo darbo paėmimo vietos, kuri jau sukurta. Tai taip pat suteikia sandėlio vadovui galimybę kontroliuoti, kokias galimybes turėtų turėti mažiau patyrę darbininkai.
 

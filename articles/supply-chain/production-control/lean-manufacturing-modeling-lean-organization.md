@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>„Lean“ organizacijos modeliavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie svarbiausias „lean“ organizacijos modeliavimo koncepcijas. 
 

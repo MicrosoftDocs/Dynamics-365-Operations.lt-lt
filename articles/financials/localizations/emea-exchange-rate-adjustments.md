@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="exchange-rate-adjustments"></a>Valiutos kurso koregavimai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje.
 

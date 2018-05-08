@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Dalinio tiekėjo mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas scenarijus, kai tiekėjui, kuris siūlo kelias mokėjimo nuolaidas, atliekami keli daliniai mokėjimai. 
 

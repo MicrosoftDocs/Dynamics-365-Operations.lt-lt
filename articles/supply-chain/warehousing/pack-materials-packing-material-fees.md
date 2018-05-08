@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Pakavimo medžiagos ir mokesčiai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pakavimo medžiagų mokesčiai atliekų perdirbimo įmonei mokami tam tikrais intervalais. Už kiekvieną pakuotės sudedamosios dalies svorio vienetą mokama tam tikra suma. Pakavimo medžiagų mokesčiai skaičiuojami ir pateikiami ataskaitose, tačiau DK operacijos neregistruojamos, nes šie mokesčiai nelaikomi valstybei mokamais mokesčiais.
 

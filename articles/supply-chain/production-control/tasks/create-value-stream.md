@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Kurti vertės srautą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Verčių srautai yra vieną ar kelias gamybos eigas grupuojantys valdymo vienetai. Norėdami nurodyti gamybos eigą, pirmiausia turite nurodyti vertės srautą.
 

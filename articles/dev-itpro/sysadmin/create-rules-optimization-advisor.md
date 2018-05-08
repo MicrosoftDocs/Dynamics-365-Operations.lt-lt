@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Optimizavimo patariamojo įrankio taisyklių kūrimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip sukurti naujų **optimizavimo patariamojo įrankio** taisyklių. Pavyzdžiui, galite sukurti naują taisyklę, nustatančią, kurių pasiūlymų patvirtinimų (RFQ) atvejų pavadinimai yra tušti. Naudojant atvejų pavadinimus, juos lengva nustatyti ir jų ieškoti. Nors šis pavyzdys gana paprastas, juo parodoma, ko galima pasiekti optimizavimo taisyklėmis. 
 

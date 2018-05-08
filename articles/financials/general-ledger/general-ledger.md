@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>DK 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniams įrašams. Didžioji knyga – tai debeto ir kredito įrašų registras. Šie įrašai yra klasifikuojami naudojant sąskaitų plane pateiktas sąskaitas. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>Kompensacijų planai
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Kompensacijų ir išmokų vadovai gali naudoti Kompensavimo valdymą, skirtą prižiūrėti ir apdoroti organizacijos darbuotojų pastoviųjų ir kintamųjų atlyginimo dalių planus.
 

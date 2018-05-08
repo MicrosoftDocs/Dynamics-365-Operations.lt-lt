@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Samdyti pretendentą naudojant įdarbinimo funkciją
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra leidžia samdytojui samdyti pretendentą, kuris pateikė prašymą per konkretų įdarbinimo projektą. Kai įdarbinate pretendentą per įdarbinimo projektą, bus sukurtas nauja darbuotojo įrašas ir pretendento įrašo būsena taps „Įdarbintas“. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Norėdami užbaigti šią procedūrą, pasirinkite Personalas > Įdarbinimas > Prašymai > Prašymai 
 

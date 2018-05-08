@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Išlaidų ataskaitos registravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Po to, kai išlaidų ataskaita patvirtinta ir perkelta į bendrąjį žurnalą, ją galima registruoti didžiojoje knygoje. Registruojant išlaidų ataskaitą, nustatomos išlaidos, kurių pridėtinės vertės mokestį (PVM) galima susigrąžinti. PVM mokėjimų patikrinimo ir susigrąžinimo užduotis priskiriama darbuotojui, atsakingam už išlaidų ataskaitos tikrinimą.
 

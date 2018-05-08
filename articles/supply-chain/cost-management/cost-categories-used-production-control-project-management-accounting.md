@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais.
 

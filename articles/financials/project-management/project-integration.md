@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>„Microsoft Project“ kliento integravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Planuoti ir tvarkyti projekto grafiką gali būti sudėtinga, todėl projektų vadovai turi naudoti įrankius, padedančius šią užduotį valdyti. Atlikus integravimą su „Microsoft Project“ klientu, galima atidaryti ir valdyti projekto darbo paskirstymo struktūrą. Projekto vadovas bet kokius keitimus gali publikuoti atgal į „Finance and Operations“ projekto darbo paskirstymo struktūrą.
 

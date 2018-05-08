@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Tiesioginiai pristatymai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie tiesioginius pristatymus. Tiesioginiai pristatymai yra pristatymai, kurie siunčiami tiesiogiai jūsų klientui iš tiekėjo.
 

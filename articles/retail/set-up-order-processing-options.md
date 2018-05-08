@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Programoje „Microsoft Dynamics 365 for Retail“ įmonė gali nurodyti keletą skambučių centro kanalų. Skambučių centro kanalai konfigūruojami pasirinkus **Mažmeninė prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai** ir jie būdingi konkrečiam juridiniam subjektui.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Konfigūruoti susietus produktus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padeda konfigūruoti susietus produktus. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT ir laikoma, kad abu produktai jau sukurti ir išleisti.
 

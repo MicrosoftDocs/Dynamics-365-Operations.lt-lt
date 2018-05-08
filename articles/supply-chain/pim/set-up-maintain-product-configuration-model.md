@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="set-up-a-product-configuration-model"></a>Produkto konfigūracijos modelio nustatymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomi produkto konfigūracijos modelio nustatymo ir kūrimo veiksmai.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti paprastą vietos nurodymą. Pateiktame pavyzdyje sukuriamas vietos nurodymas, kuris bus naudojamas norint nustatyti, kur padėti gautas pirkimo užsakymo prekes. Šį užduoties vedlį galite paleisti su minėtais duomenimis naudodami demonstracinių duomenų įmonės USMF. Išankstinės sąlygos: turite sukurti perdavimo kodą. Atlikdami šią procedūrą mes naudojame perdavimo kodą, vadinamą Pakartotinis žymėjimas. Jei kuriate savo duomenų vietos nurodymą, turite nustatyti patobulintą savo sandėlio ir prekių valdymą.  Ši procedūra skirta sandėlio vadovui.
 

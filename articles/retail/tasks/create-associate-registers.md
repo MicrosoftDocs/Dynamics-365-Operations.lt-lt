@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Registrų kūrimas ir susiejimas
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Nustatyti gamybos eigos modelius
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangiosios gamybos darbo elementų pajėgumas. Todėl gamybos eigos modelio apibrėžimas yra būtinas darbo elementų apibrėžimo komponentas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

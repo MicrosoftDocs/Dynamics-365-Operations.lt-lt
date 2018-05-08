@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Kurti ir patvirtinti žurnalus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame užduoties vadove sukuriami ir tikrinami žurnalai ir žurnalo eilutės. Šioje užduotyje naudojama demonstracinė įmonė USMF.  
 

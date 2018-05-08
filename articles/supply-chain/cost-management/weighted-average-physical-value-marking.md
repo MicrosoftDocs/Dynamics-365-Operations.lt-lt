@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
 

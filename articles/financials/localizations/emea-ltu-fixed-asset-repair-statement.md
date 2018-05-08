@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą. Remonto informacija turi būti saugoma visam ilgalaikiui turtui. 
 

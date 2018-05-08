@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Koreguoti atsargų lygius sandėlyje (pagrindinis sandėliavimas)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padės kurti ir registruoti atsargų koregavimo žurnalą, norint pakoreguoti produktų atsargų lygius sandėlyje. Prieš pradedant atsargų koregavimus, reikia turėti atsargų žurnalo pavadinimo nustatymą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Šias užduotis paprastai turėtų atlikti sandėlio darbuotojas.
 

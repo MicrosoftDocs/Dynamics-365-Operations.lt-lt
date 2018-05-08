@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="eu-entry-certificates"></a>Įvežimo į ES sertifikatai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacijos apie įvežimo į Europos Sąjungą (ES) sertifikatus.
 

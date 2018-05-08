@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>KS ir formulės
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis. KS ir formulės nurodo reikiamas konkretaus produkto medžiagas arba sudedamąsias dalis. Formulės taip pat nurodo sudėtinius produktus arba šalutinius produktus, kurie gauname konkrečiame gamybos kontekste. 
 

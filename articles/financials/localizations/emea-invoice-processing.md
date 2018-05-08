@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="invoice-processing"></a>SF apdorojimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje trumpai aprašomi keli konkrečių šalių scenarijai, pvz., ES vidaus pridėtinės vertės mokestis (PVM) ir atidėtas mokestis. Sąskaitų faktūrų išrašymo procesui taikomi kai kurių Europos šalių teisiniai reikalavimai. Šioje temoje taip pat pateikiama informacijos apie tai, kaip šiose šalyse apdorojamos klientų ir tiekėjų sąskaitos faktūros. 
 <table>

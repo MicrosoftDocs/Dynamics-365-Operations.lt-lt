@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Kurti garantinio rašto banko priemonės sutartį
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis sukuria banko priemonės sutartį, kad būtų galima apdoroti garantinį raštą. Šioje užduotyje naudojama demonstracinė įmonė USMF. 
 

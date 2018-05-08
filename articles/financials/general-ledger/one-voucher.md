@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Vienas kvitas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Šia funkcija bus galima naudotis programos „Dynamics 365 for Finance and Operations“ versijoje 8.0, kuri bus išleista 2018 m. pavasario leidime.   

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>KS kūrimo įrankio funkcija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite naudoti puslapį KS konstruktorius norėdami projektuoti ir dirbti su komplektavimo specifikacijos (KS) medžio struktūromis. Galite spustelėti Nustatymas norėdami pasirinkti įvairias konfigūracijas ir nurodyti, kokia informacija rodoma medžio eilutėse.
 

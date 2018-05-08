@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Produktų ir klientų ieškos elektroniniame kasos aparate apžvalga
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Į modernųjį elektroninį kasos aparatą (MEKA) ir debesies elektroninį kasos aparatą (DEKA) įtraukta lengvai naudojama funkcija. Kadangi MEKA ir DEKA langų viršuje visada yra ieškos juosta, darbuotojai galėtų greitai rasti produktus ir klientus.
 

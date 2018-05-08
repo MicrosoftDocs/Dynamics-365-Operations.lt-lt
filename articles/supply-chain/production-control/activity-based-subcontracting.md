@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Veikla pagrįsta subranga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje.
 

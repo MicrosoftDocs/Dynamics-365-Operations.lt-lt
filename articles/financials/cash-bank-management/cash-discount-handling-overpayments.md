@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Mokėjimų nuolaidų esant permokoms apdorojimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikti scenarijai, rodantys, kaip tvarkyti mokėjimą, kai klientas gauna mokėjimo nuolaidą, bet ir permoka. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>Sudengimo peržiūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai.
 

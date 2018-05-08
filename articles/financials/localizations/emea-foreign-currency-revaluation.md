@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="currency-revaluation-for-bank-account-transactions"></a>Valiutos kurso pasikeitimas su banko sąskaita susijusioms operacijoms
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="revalue-foreign-currency-amounts-for-bank-account-transactions"></a>Su banko sąskaita susijusių operacijų užsienio valiutos sumų perkainojimas
 

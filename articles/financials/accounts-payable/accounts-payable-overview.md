@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Konfigūruoti Mokėtinas sumas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomi puslapiai, kuriuos naudojate norėdami nustatyti pagrindines ir laisvai pasirenkamas funkcijas programos „Microsoft Dynamics 365 for Finance and Operations“ modulyje Mokėtinos sumos. Jame taip pat aprašomi nustatymo veiksmai, kuriuos turite atlikti prieš pradėdami nustatyti Mokėtinas sumas.
 

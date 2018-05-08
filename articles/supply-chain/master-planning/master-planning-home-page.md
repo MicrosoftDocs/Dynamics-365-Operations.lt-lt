@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Bendrojo planavimo pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pagrindinė bendrojo planavimo esmė – padėti įmonėms nustatyti ir rasti pusiausvyrą tarp būsimo žaliavų poreikio ir galimybių pasiekti įmonės tikslus. Bendrasis planavimas įvertina šiuos dalykus: 
 

@@ -26,9 +26,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="alerts-overview"></a>Įspėjimų apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Apie įspėjimus
 Įspėjimai sudaro pranešimo apie svarbius įvykius sistemą „Microsoft Dynamics 365 for Finance and Operations“. Įspėjimus galite naudoti, kad būtumėte informuoti apie įvykius, kuriuos norite sekti darbo dienos metu. Galite lengvai kurti savo įspėjimų taisyklių rinkinį, kad jums būtų pranešama apie pavėluotus pristatymus, panaikintus užsakymus, pasikeitusias kainas ar kitus įvykius, į kuriuos reikia reaguoti.

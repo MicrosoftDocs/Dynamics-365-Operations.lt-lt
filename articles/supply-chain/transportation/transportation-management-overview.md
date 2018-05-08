@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>Transportavimo valdymo peržiūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos.
 

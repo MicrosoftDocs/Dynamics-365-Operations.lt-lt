@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Darbo eigos patvirtinimo veiksmo konfigūravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 

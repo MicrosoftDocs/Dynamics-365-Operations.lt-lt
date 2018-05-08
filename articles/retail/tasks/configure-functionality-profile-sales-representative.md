@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Pardavimo atstovo funkcijų profilio konfigūravimas
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip konfigūruoti parduotuvės funkcijų profilio parametrus, kurie taikomi pardavimo atstovams. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

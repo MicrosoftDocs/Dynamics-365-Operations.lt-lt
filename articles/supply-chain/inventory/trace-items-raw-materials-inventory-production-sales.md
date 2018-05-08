@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose.
 

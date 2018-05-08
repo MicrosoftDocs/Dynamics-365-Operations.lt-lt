@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Neatvykimų registravimas modulyje Laikas ir buvimas darbe
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos neatvykimo sąvokos ir paaiškinama, kaip tvarkyti neatvykimą srityje Laikas ir buvimas darbe.
 

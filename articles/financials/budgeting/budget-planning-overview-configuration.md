@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Biudžeto planavimo peržiūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 

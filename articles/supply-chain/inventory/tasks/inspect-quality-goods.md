@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Tikrinti prekių kokybę
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje nurodoma, kaip apdoroti kokybės užsakymą. Šį vadovą galite vykdyti demonstracinių duomenų įmonėje USMF. Prieš pradėdami šį procedūros pavyzdį, turite patvirtinti pirkimo užsakymą „000016“ ir užregistruoti produkto gavimo kvitą. Tai automatiškai sukurs kokybės užsakymą. Kokybės patikrinimus paprastai atlieka kokybės klerkas.
 

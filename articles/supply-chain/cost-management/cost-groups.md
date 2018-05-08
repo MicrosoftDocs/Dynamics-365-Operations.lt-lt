@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Išlaidų grupės
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Išlaidų grupės suteikia pagamintų prekių apskaičiuotų išlaidų, pvz., medžiagų, darbo ir pridėtinių išlaidų įnašų, segmentavimo ir analizavimo pagrindą. Išlaidų grupių segmentavimas turi keletą sinonimų gamybos aplinkoje, pvz., išlaidų paskirstymas, išlaidų skaidymas ar išlaidų klasifikacija. 
 

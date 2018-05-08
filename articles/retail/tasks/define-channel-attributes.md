@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Nustatyti kanalo atributus
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Papildykite kanalą įtraukdami kanalo ir produkto atributus. Prieš nustatydami atributus turite kanalą įtraukti į numatytąją organizacijos hierarchiją.
 

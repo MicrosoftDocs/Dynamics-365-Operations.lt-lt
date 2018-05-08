@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>„Microsoft Dynamics 365 for Talent“ funkcionalumo plėtimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Jei sukūrėte kokias nors „Microsoft PowerApps“, galite paleisti tas programas naudodami saitus, esančius „Microsoft Dynamics 365 for Talent“. Norėdami nustatyti prieigą prie savo programų, turite nustatyti tam tikrą informaciją programoje „Talent“ konfigūravimo puslapyje, kurį atidarote iš darbo srities **Sistemos administravimas**.
 

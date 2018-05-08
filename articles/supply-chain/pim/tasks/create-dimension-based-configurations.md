@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Kurti konfigūravimus pagal dimensijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra rodoma, kaip apibrėžti dimensijomis paremto produkto konfigūraciją. Tai yra paskutinioji serijos, kuria paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas, procedūra. Šios procedūros vykdymas priklauso nuo ankstesniuose septyniuose įrašuose sukurtų duomenų. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations“ projektų vidinės įmonės SF išrašymą.
 

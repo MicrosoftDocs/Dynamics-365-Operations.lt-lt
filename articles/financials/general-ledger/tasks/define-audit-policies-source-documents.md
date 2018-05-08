@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Apibrėžti šaltinio dokumento audito strategijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip nustatyti ir vykdyti audito strategijos taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
 

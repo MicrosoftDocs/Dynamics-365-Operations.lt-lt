@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Audito strategijos pažeidimai ir atvejai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinta, kaip sugeneruoti audito atvejus iš audito strategijos taisyklių pažeidimų. Jame taip pat pateikta informacija apie įvairius būdus, kokiais audito strategijoms naudojamas dokumentų pasirinkimo datų diapazonas.
 

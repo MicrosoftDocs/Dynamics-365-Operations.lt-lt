@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Atsargų peržvalga elektroniniame kasos aparate 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Atsargų peržvalga elektroniniame kasos aparate (EKA) padeda mažmenininkams realiuoju laiku gerinti veiklos efektyvumą ir gauti įžvalgų, sujungus parduotuves, EKA ir tarnybinį biurą. Ši funkcija leidžia tiksliai realiuoju laiku stebėti produkto atsargas visose parduotuvėse ir platinimo centruose. Ji taip pat padeda mažmenininkams pasiekti papildomo efektyvumo ir sumažinti išlaidas tobulinant atsargų planavimą realiuoju laiku.
 

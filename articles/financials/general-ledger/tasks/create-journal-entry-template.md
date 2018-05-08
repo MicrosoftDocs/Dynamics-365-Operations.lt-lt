@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Kurti žurnalo įrašą naudojant šabloną
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Užregistruoti žurnalo kvitai gali būti įrašyti kaip kvitų šablonai ir taikomi naujame žurnalo kvite. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 

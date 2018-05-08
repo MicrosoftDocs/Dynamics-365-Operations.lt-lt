@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Masinio samdos projekto kūrimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra apžvelgia masinės samdos projekto nustatymo procesą. Darbdavys gali naudoti masinės samdos projektus, kad lengvai kurtų keletą pareigų ir į jas pasamdytų keletą darbuotojų. Norėdami pradėti šią procedūrą, pasirinkite Personalas > Įdarbinimas > Masinės samdos projektai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>Produkto identifikatoriai 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 

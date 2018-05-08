@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Pagrindinės sąskaitos tipai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.
 

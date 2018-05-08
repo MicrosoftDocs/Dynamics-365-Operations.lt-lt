@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Įkainojimo versijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie įkainojimo versijas, kaip jas prižiūrėti, ir duomenų, kuriuos į jas galima įtraukti, tipus. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules.
 

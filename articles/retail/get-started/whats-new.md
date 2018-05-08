@@ -26,11 +26,11 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Kas naujo ar pakeista sprendime „Dynamics 365 for Retail“
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šiame puslapyje nurodomi ištekliai, kurie gali padėti daugiau sužinoti apie naujas funkcijas ir pokyčius naujausiuose „Microsoft Dynamics 365 for Retail“ leidimuose.
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a>„Dynamics 365 for Retail“ leidimai
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Mažmeninės prekybos produktų kategorijų ir produktų valdymas
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Šioje temoje aprašomas patobulintas būdas valdyti mažmeninės prekybos produktų kategorijas ir produktus sprendime „Microsoft Dynamics 365 for Retail“. Dėl šių patobulinimų reklamavimo parduotuvėje vadovams leidžiama peržiūrėti produktų ypatybių struktūrą, bendrinamą tarp mažmeninės prekybos produktų hierarchijos ir išsamios informacijos apie išleistus produktus.
 

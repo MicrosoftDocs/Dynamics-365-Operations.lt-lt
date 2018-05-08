@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Konfigūruoti Gautinas sumas bei Kreditą ir surinkimą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Konfigūruokite Gautinas sumas ir Kreditą ir mokėjimus, norėdami sekti sąskaitas faktūras ir iš klientų gaunamus mokėjimus.
 

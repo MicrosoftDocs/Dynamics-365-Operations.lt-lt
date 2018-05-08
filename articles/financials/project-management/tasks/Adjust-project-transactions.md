@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Koreguoti projekto operacijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Užduočių vedlyje rodoma, kaip koreguoti projekto operaciją. Tačiau koreguoti projekto operacijas galite po vieną arba rinktis iš visų projekto operacijų sąrašo. Paprastai šią užduotį atlieka projekto prižiūrėtojas. Šiame užduočių vedlyje naudojamas USSI duomenų rinkinys.
 

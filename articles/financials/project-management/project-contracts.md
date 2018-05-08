@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Projekto sutartys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos sutartys, kurias galite sukurti pagal įvairius bei lėšų skyrimo šaltinių tipus, pateikiami sutarčių pavyzdžiai ir paaiškinama, kaip galima „Microsoft Dynamics 365 for Finance and Operations“ valdyti sutartis ir klientams išrašyti sąskaitas faktūras.
 

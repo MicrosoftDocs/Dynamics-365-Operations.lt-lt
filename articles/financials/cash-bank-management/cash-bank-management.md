@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Grynųjų pinigų ir banko valdymo pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio subjekto banko sąskaitas ir finansinius instrumentus, susietus su tomis banko sąskaitomis. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="posting-definition-examples"></a>Registravimo aprašų pavyzdžiai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami pavyzdžiai, kuriais parodoma, kaip registravimo aprašai naudojami atliekant pirkimo užsakymo biudžeto rezervavimus ir biudžeto asignavimus.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Laiko ir buvimo darbe registracija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Laiko registravimo darbuotojai gali įvesti skirtingų tipų laiko registracijas, pavyzdžiui, atėjimo į darbą, išėjimo iš darbo, netiesioginių veiklų registravimo ir neatvykimo registravimo. Šioje temoje aprašomos registracijos, jų skaičiavimas, tvirtinimas ir darbo eigos naudojimas norint į tabelių tvirtinimo procesą įtraukti struktūrą ir automatinį tvirtinimą. 
 

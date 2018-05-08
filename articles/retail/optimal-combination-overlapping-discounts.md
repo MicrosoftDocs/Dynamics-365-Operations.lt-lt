@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimalaus persidengiančių nuolaidų derinio nustatymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Kai nuolaidos persidengia, turite nustatyti persidengiančių nuolaidų derinį, kurį naudojant bus sukuriama mažiausia bendroji operacijos suma arba didžiausia bendroji nuolaidos suma. Kai nuolaidos suma kinta priklausomai nuo įsigytų produktų kainos, pavyzdžiui, kaip dažnai pasitaikančiu mažmeninės prekybos nuolaidų atveju „Pirkdami 1 gaukite 1 X procentų nuolaidą“ (BOGO), šis procesas tampa kombinacinio optimizavimo problema.
 

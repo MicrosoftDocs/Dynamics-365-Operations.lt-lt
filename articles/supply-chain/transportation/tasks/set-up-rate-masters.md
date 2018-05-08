@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Pagrindinių tarifų nustatymas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti pagrindinį tarifą. Pagrindinius tarifus paprastai nustato logistikos vadovas atsižvelgdamas į su vežėjais pasirašytas sutartis. Šiame scenarijuje nustatysite pagrindinį tarifą oro vežėjui. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

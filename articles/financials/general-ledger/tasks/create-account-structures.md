@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-account-structures"></a>Sukurti sąskaitos struktūras
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis užduoties vadovas padeda sukurti sąskaitos struktūrą. Veiksmuose naudojama demonstracinių duomenų įmonė USMF.
 

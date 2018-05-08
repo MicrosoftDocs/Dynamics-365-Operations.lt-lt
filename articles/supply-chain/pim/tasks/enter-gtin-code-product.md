@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Įvesti produkto GTIN kodą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN kodus priskiria GS1 organizacija. Šiame pavyzdyje įvesite demonstracinių duomenų įmonės USMF produkto numerio M0001 kodą.
 

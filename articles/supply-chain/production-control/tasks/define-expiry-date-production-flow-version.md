@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Gamybos eigos versijos galiojimo datos nustatymas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Norėdami gamybos eigos versijos galiojimą ir apdorojimą nutraukti tam tikrą datą arba planuoti aktyvios versijos pakeitimą į naują versiją, turite nustatyti versijos galiojimo datą. Šios versijos išjungti nebūtina.
 

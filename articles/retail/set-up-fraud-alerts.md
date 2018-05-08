@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti kriterijus ir taisykles, skirtas sulaikant galimai apgaulingo pardavimo užsakymus tolesnei peržiūrai. Apgaulės peržiūros funkcija naudojama siekiant nustatyti pardavimo užsakymo informacijos pagrįstumą. Jei, remiantis organizacijos apgaulės kriterijais ir taisyklėmis, pardavimo užsakyme esanti informacija pradeda kelti abejonių, užsakymas gali būti sulaikytas, kad jo tolimesnę peržiūrą galėtų atliktų administratorius.
 

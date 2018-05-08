@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Nustatyti pirkimo užsakymų darbo šabloną
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra sutelkta į paprasto darbo šablono nustatymą, kuris bus naudojamas padedant gautas prekes. Darbo šablonai nustato instrukcijų rinkinį, pateiktą sandėlio darbuotojui mobiliajame įrenginyje, perkeliant prekes iš gavimo srities. Šią procedūrą galite naudoti su demonstracinių duomenų įmonės USMF nurodytais duomenimis. Prieš paleisdami šį vadovą, sukurkite darbo telkinio ID. Šiame pavyzdyje naudojamas darbo telkinio ID, iškviestas iš Gaunama. Ši procedūra skirta sandėlio vadovui.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami du scenarijai, kuriais parodoma, kaip galima taikyti mokėjimo nuolaidą, net jei mokėjimas atliekamas ne mokėjimo nuolaidos laikotarpiu.
 

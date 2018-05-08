@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentų mažėjančios vertės metodas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgtas 150 % nusidėvėjimo mažėjančios vertės metodas.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>Darbo sričių konfigūravimas ir filtravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama apžvalga apie tai, kaip konfigūruoti ir filtruoti darbo sritis.
 

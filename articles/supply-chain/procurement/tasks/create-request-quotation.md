@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Kurti pasiūlymo patvirtinimą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra parodoma, kaip kurti pasiūlymo patvirtinimą. Paprastai tai atlieka pirkimo agentas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti siūlymų tipus. Atlikę šią užduotį ir sukūrę bei išsiuntę RFQ, galite įvesti atsakymus pagal tiekėją, juos palyginti ir pasirinkti sutartį.
 

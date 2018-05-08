@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Internetinės parduotuvės apžvalga
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie mažmeninės prekybos internetines parduotuves ir kaip jas nustatyti programoje „Microsoft Dynamics 365 for Retail‟.
 

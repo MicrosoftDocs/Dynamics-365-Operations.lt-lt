@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Ilgalaikio turto nusidėvėjimo konvencijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nusidėvėjimo konvencijos naudojamos norint nustatyti, kada ir kaip skaičiuojamas metų, kuriais ilgalaikis turtas įsigyjamas, ir metų, kuriais ilgalaikis turtas likviduojamas, nusidėvėjimas.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Turto pirkimas įsigyjant
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
 

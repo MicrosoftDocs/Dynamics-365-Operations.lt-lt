@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Daugelis mažmenininkai norėtų optimizuoti užsakymo įvykdymą, suteikdami galimybę parduotuvėms vykdyti užsakymus. Užsakymų įvykdymas parduotuvės lygiu gali palengvinti konkrečios parduotuvės atsargų perpildymo atvejais, taip pat tai gali būti naudinga dėl logistinių tikslų tais atvejais, kai parduotuvė turi papildomų pajėgumų arba yra arčiau kliento, kuriam reikia siųsti prekes. Šiems poreikiams patenkinti elektroniniame kasos aparate galima naudoti bendrąją užsakymų įvykdymo operaciją.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-credit-card-processing"></a> Konfigūruoti kredito kortelės apdorojimą
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda peržiūrėti mokėjimo paslaugų teikėjų sąrašą ir konfigūruoti gautinų sumų mokėjimo sąskaitą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT, ir ji yra skirta administratoriams ir IT specialistams.
 

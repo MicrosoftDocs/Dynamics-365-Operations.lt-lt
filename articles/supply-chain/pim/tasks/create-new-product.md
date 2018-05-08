@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Kurti naują produktą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia užduotimi rodoma, kaip sukurti naują bendrai naudojamą produktą. Ją paprastai atlieka produkto kūrėjas. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.
 

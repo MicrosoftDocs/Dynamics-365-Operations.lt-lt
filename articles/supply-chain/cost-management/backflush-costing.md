@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Įkainojimas atvirkštine tvarka
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pristatoma įkainojimo atvirkštine tvarka koncepcija, naudojama „Lean manufacturing”. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 [Išlaidų valdymas (vaizdo įrašas)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą. Šio proceso metu apibrėžiama, valdoma ir teikiamos ataskaitos apie [Atsargų apskaitą](cost-object.md) ir [Gamybos apskaitą](bom-calculations.md).
 

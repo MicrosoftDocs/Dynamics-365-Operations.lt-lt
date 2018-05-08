@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="organizational-training-power-bi-content"></a>Organizacinio mokymo „Power BI“ turinys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašytas „Finance and Operations“ organizacinio mokymo „Power BI“ turinys. 
 

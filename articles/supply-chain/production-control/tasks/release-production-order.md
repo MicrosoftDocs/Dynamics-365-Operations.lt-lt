@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>Gamybos užsakymo išleidimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip išleisti gamybos užsakymą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Tai yra ketvirtoji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.
 

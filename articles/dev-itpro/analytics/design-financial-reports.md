@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Finansinių ataskaitų peržiūra ir kūrimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami pratimai, kurie padeda peržiūrėti ir kurti finansines ataskaitas, skirtas „Microsoft Dynamics 365 for Finance and Operations“. Finansines ataskaitas sudaro peržiūros patirtis programoje „Finance and Operations“ ir vieno paspaudimo ataskaitų dizaino įrankis, kuris suteikia galimybę kurti ir redaguoti finansines ataskaitas.  
 

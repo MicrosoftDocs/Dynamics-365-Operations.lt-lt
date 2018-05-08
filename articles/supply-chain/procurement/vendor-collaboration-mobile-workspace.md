@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie **Tiekėjų bendradarbiavimo** mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 

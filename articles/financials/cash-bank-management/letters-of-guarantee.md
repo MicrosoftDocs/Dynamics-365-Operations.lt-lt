@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Garantiniai raštai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie garantinius raštus. Garantiniame rašte bankas sutinka mokėti tam tikrą pinigų sumą asmeniui, jei vienas iš banko klientų laiku nesumokės arba neįvykdys įsipareigojimo tam asmeniui. 
 

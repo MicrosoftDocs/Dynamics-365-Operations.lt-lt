@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Ilgalaikio turto pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai. 
 

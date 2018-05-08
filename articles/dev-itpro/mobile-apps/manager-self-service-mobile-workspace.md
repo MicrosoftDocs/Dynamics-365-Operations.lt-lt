@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis Mano komanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Mano komanda**. Ši darbo sritis suteikia vadovams galimybę peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Jie taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 

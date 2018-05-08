@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-license-plate-label-printing"></a>Įgalinti numerio lentelės žymės spausdinimą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra leidžia vykstant pardavimo išrinkimo darbo procesui ir iš atsargų paėmus paskutinę prekę, automatiškai spausdinti gabenimo konteinerio serijos kodo (SSCC) etiketę. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF. Jei ją vykdote naudodami savo duomenis, reikia nustatyti numerio lentelių numeraciją. Prieš pradėdami šią užduotį, turite nustatyti etikečių spausdintuvą. Pasirinkite Organizacijos administravimas > Nustatymas > Tinklo spausdintuvai. Srityje Veiksmas spustelėkite Parinktys ir tada spustelėkite mygtuką Atsisiųsti dokumento kelvados agento diegimo programą. Paleiskite diegimo programą ir prieš tęsdami procedūrą įsitikinkite, kad nustatyta veikiančio tinklo spausdintuvo parinktis Aktyvus.
 

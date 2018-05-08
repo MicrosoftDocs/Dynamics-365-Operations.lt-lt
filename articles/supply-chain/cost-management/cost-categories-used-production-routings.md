@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Išlaidų kategorijos, naudojamos gamybos kelvadose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie išlaidų kategorijas, taikoma gamybos aplinkoms, naudojančioms kelvadas.
 

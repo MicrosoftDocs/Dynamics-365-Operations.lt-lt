@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Konfigūruoti savikainos kontrolės darbo srities parametrus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes. Kuriant šį įrašą buvo naudojama demonstracinė įmonė USP2.
 

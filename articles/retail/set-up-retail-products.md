@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Mažmeninių produktų nustatymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyta, kaip nustatyti mažmeninės prekybos produktus sprendime „Microsoft Dynamics 365 for Retail“.
 

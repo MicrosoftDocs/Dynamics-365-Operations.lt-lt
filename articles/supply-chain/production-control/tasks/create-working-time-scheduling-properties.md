@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Kurti darbo laiko planavimo ypatybės
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Darbo laiko planavimo ypatybės naudojamos kategorizuoti darbo laiko intervalams ir nustatyti nuostatoms, į kurias turi atsižvelgti operatoriai. Ši procedūra parodo, kaip nustatyti darbo laiko planavimo ypatybes ir susijusių ypatybių reikšmes. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Pirkimo strategijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais.
 

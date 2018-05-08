@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Paskirstymai išlaidų ataskaitoje
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Išlaidų ataskaitoje įvesdami išlaidas, jas galite paskirstyti keliems savo organizacijos projektams, kelioms finansinėmis dimensijoms ar kelioms sąskaitoms.
 

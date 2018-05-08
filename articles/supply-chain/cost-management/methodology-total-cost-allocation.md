@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Bendrosios savikainos paskirstymo metodas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiami patarimai, kaip naudoti bendrosios savikainos paskirstymą (TCA). TCA yra paketinio užsakymo pagrindinės sudėtinės prekės ir apibrėžtų formulės sudėtinių produktų savikainos apskaičiavimo metodas.
 

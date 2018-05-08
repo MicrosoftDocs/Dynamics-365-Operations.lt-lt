@@ -27,7 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas.
 

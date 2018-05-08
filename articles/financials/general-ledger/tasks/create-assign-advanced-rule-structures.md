@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Kurti ir priskirti išplėstinės taisyklės struktūras
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šis užduoties vadovas padeda sukurti išplėstinės taisyklės struktūrą ir priskirti ją sąskaitos struktūrai. Šiame vadove naudojama demonstracinė įmonė USMF.
 

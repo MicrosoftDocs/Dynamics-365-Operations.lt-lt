@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-an-open-ended-question"></a>Sukurti atvirą klausimą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Atviri klausimai leidžia respondentams pateikti savo atsakymą. Galite kontroliuoti, ar šis atsakymas bus skaičius, dešimtainė dalis, data, komentaras ar kt. Ši procedūra padeda žingsnis po žingsnio sukurti konkretaus tipo klausimą – atvirą klausimą. Norėdami pradėti šią procedūrą, pasirinkite Klausimynas > Kūrimas > Klausimai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

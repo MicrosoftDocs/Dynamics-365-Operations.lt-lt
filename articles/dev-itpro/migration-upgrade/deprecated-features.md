@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašytos funkcijos, kurios buvo pašalintos arba nebėra naudojamos „Dynamics 365 for Finance and Operations“.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Aptarnavimo abonementai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Abonementai paremti laiko ir medžiagų projektu. Galite sukurti abonementus iš projekto, iš puslapio **Aptarnavimo abonementai** arba naudodami aptarnavimo abonementų grupę.
 

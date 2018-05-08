@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas formatavimo funkcijas, įskaitant dimensijų filtrus, stulpelių ir ataskaitų vienetų apribojimų, nespausdinamas eilutes ir IF / THEN / ELSE sakinius skaičiavimuose. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>Pradinių duomenų inicijavimas „Retail“ aplinkoje
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyti duomenys, kurie kuriami „Microsoft Dynamics 365 for Retail“ inicijavimo proceso metu.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 

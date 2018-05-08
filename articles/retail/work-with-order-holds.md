@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Užsakymo sulaikymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi užsakymų sulaikymai naudojant „Dynamics 365 for Retail“.
 

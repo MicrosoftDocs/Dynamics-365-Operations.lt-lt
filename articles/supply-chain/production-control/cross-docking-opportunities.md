@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti prekių skirstymo medžiagos procesą, kai iš gamybos linijos siunčiamų prekių transportavimo rampai pranešama, kad procesas baigtas.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Pasiūlymų patvirtinimai (RFQ)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką.
 Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju.

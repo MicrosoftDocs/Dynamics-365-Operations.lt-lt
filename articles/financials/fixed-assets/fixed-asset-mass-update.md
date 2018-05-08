@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Visiškas ilgalaikio turto atnaujinimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Jei naudojate knygas, galite keisti turto, įtraukto į tą pačią knygą, grupių nusidėvėjimo konvencijas.
 

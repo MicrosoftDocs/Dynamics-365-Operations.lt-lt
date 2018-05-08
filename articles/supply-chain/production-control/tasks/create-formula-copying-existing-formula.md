@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Kurti formulę kopijuojant iš esamos formulės
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip greitai sukurti naują formulę, ją nukopijavus iš esamos formulės. Norėdami sukurti šią procedūrą galite naudoti demonstracinių duomenų įmonės USMF, USP2 arba USPI.
 

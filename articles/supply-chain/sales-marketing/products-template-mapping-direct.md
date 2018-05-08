@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [„Dynamics 365“ duomenų integravimo funkcija](/common-data-service/entity-reference/dynamics-365-integration).
@@ -49,7 +49,7 @@ Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps�
 Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami sinchronizuojant „Finance and Operations“ produktus su „Sales“.
 
 - **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis
-- **Užduoties pavadinimas projekte Duomenų integravimas:**Produktai
+- **Užduoties pavadinimas projekte Duomenų integravimas:** Produktai
 
 Prieš sinchronizuojant produktą, nereikia atlikti jokių sinchronizavimo užduočių.
 

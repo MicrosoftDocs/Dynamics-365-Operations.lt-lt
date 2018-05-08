@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Apskaitos arba ataskaitų valiutos konvertavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Norėdama pakeisti apskaitos arba ataskaitų valiutą, įmonė turi du pasirinkimus. Pirmuoju būdu galima kurti naują įmonę ir pradėti naują veiklą. Antruoju būdu galima vykdyti apskaitos ir ataskaitų valiutos konvertavimo procesą. Tai labai ilgai trunkantis procesas, kurio metu pakeičiamos visos sistemos operacijos. Prieš vykdant procesą taip pat reikia atlikti kelis sąrankos veiksmus.
 
