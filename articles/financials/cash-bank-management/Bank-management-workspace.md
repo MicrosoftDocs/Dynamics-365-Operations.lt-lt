@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f0bb5be885491e97d8d9c2f90608d139745db650
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="d3008-106">Banko valdymo darbo sritis</span><span class="sxs-lookup"><span data-stu-id="d3008-106">Bank management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d3008-107">Darbo srityje **Banko valdymas** rodoma su įmonės banko sąskaitomis susijusi informacija.</span><span class="sxs-lookup"><span data-stu-id="d3008-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="d3008-108">Ši darbo sritis apima rodinį **Suvestinė** ir puslapį **Analizė**.</span><span class="sxs-lookup"><span data-stu-id="d3008-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="d3008-109">Rodinyje **Suvestinė** rodomos suvestinės išklotinės, banko sąskaitos informacija, likučio diagrama ir susijusi informacija.</span><span class="sxs-lookup"><span data-stu-id="d3008-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="d3008-110">Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su banko sąskaitos likučiais susiję vaizdiniai elementai.</span><span class="sxs-lookup"><span data-stu-id="d3008-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

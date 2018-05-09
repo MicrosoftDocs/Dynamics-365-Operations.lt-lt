@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9487656cae69a20ee8218e039a501506a470730d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="company-directory-mobile-workspace"></a><span data-ttu-id="15226-103">Įmonės katalogo mobilioji darbo sritis</span><span class="sxs-lookup"><span data-stu-id="15226-103">Company directory mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="15226-104">Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Įmonės katalogas**.</span><span class="sxs-lookup"><span data-stu-id="15226-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="15226-105">Naudodami šią darbo sritį vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.</span><span class="sxs-lookup"><span data-stu-id="15226-105">This workspace lets users view and contact other employees in their organization.</span></span>
 

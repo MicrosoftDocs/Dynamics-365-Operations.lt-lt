@@ -17,16 +17,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e80305625439d154a0872f2b8cc64376ba933d50
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f9c6bdc1656d5c64b4d05379e549d3c9eac7fa5c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-performance-power-bi-content"></a><span data-ttu-id="6d177-104">„Power BI“ turinys Gamybos našumas</span><span class="sxs-lookup"><span data-stu-id="6d177-104">Production performance Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d177-105">Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Gamybos našumas**.</span><span class="sxs-lookup"><span data-stu-id="6d177-105">This topic describes what is included in the **Production performance** Microsoft Power BI content.</span></span> <span data-ttu-id="6d177-106">Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.</span><span class="sxs-lookup"><span data-stu-id="6d177-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cb78cbe1b2511039badc85bc596b8d77646f723f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 197516e2dbc1ecc0f33681743fa3a45568441b1f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="b2424-103">Projekto SF mokėjimo kvito formato nustatymas</span><span class="sxs-lookup"><span data-stu-id="b2424-103">Set up payment slip format for project invoices</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b2424-104">Įmonės dažnai prideda išspausdintus mokėjimo kvitus prie SF, norėdamos padėti klientams ir nurodyti mokėjimo registravimo ir sudengimo nuorodą.</span><span class="sxs-lookup"><span data-stu-id="b2424-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="b2424-105">Mokėjimo kvitas gali būti naudojamas projekto arba paslaugų SF, priminimo laiškuose, delspinigių pažymose ir sąskaitos išrašuose bei pardavimo ir laisvos formos SF.</span><span class="sxs-lookup"><span data-stu-id="b2424-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="b2424-106">Norėdami apdoroti mokėjimo kvitus, pirmiausia nustatykite savo kreditoriaus identifikavimo numerį ir mokėjimo kvito priedų formatus.</span><span class="sxs-lookup"><span data-stu-id="b2424-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ddfc7093ae2fb246f66486787e225f5b4c34ba1b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e50c646154bf17594d1de78eedc55edd54cde1c5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budgeting-overview"></a><span data-ttu-id="f828f-104">Biudžetų sudarymo modulio apžvalga</span><span class="sxs-lookup"><span data-stu-id="f828f-104">Budgeting overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f828f-105">Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="f828f-105">Almost every company that uses Financials functionality in Microsoft Dynamics 365 for Finance and Operations will have to be able to create reports of budget vs. actuals.</span></span> <span data-ttu-id="f828f-106">Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.</span><span class="sxs-lookup"><span data-stu-id="f828f-106">This article explains the minimum configuration that is required in order to create budgets in Finance and Operations or load them from a third-party program.</span></span>
 

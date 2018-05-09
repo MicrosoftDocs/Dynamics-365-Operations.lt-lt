@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 77fa282401a7c2b0115235f1bd902998e9eed7c1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3a411e8fc773957b5ce3f24749242d9d0c6ffd0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="5e16b-103">Kurti sudėtinių produktų medžiagų planą</span><span class="sxs-lookup"><span data-stu-id="5e16b-103">Create a material plan for co-products</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5e16b-104">Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės sudėtiniai produktai.</span><span class="sxs-lookup"><span data-stu-id="5e16b-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="5e16b-105">Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USP2.</span><span class="sxs-lookup"><span data-stu-id="5e16b-105">The demo data company used to create this procedure is USP2.</span></span>
 

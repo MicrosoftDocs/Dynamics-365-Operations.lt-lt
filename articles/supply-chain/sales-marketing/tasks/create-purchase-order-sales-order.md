@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a840324862a7d3e279fce49288771d202527b77
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3774943e7147df88be0133c6fc983df54ca70f35
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="9d8d3-103">Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="9d8d3-103">Create a purchase order from a sales order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9d8d3-104">Ši procedūra nurodo, kaip kurti pirkimo užsakymą, pagrįstą pardavimo užsakymu.</span><span class="sxs-lookup"><span data-stu-id="9d8d3-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="9d8d3-105">Produkto pirkimo užsakymo kiekiai tada nurodomi norint patenkinti pradinio pardavimo užsakymo poreikį.</span><span class="sxs-lookup"><span data-stu-id="9d8d3-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="9d8d3-106">Pardavimo poreikio vykdymas tokiu būdu yra išsamesnio ir optimizuoto metodo Platinimo poreikio planavimas alternatyva.</span><span class="sxs-lookup"><span data-stu-id="9d8d3-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="9d8d3-107">Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.</span><span class="sxs-lookup"><span data-stu-id="9d8d3-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

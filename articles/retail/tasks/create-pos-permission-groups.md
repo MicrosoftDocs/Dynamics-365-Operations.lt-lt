@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b17f4a07fdc35e06f993dac11e5a88e5e96e72cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 985cce1f1848408517ce71b36575162960c3d84e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-pos-permission-groups"></a><span data-ttu-id="9722d-103"> Kurti EKA teisių grupes</span><span class="sxs-lookup"><span data-stu-id="9722d-103">Create POS permission groups</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9722d-104">Ši procedūra padės kurti EKA teisių grupę.</span><span class="sxs-lookup"><span data-stu-id="9722d-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="9722d-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT.</span><span class="sxs-lookup"><span data-stu-id="9722d-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="9722d-106">Ši užduotis skirta mažmeninės prekybos operacijų vadovo vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="9722d-106">This task is intended for the Retail operations manager role.</span></span>
 

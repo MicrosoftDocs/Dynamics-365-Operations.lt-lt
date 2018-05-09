@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9ba09bfba52cd576782e61802e44fa4b80f4711f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c9a7d7e4e2d751722dac8089bc2056334fa96a3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="be260-103">Skaičiuoti „kanban“ kiekio pasiūlymus</span><span class="sxs-lookup"><span data-stu-id="be260-103">Calculate kanban quantity suggestions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="be260-104">Šios procedūros tikslas yra optimizuoti „kanban“ dydį ir kiekį pagal konkrečią „kanban“ taisyklę, naudojant „kanban“ kiekio skaičiavimą.</span><span class="sxs-lookup"><span data-stu-id="be260-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="be260-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="be260-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="be260-106">Ši procedūra skirta vertės srauto vadybininkui.</span><span class="sxs-lookup"><span data-stu-id="be260-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="be260-107">Būtina, kad užbaigtumėte procedūrą „Į „kanban“ taisyklę įtraukti naują „kanban“ kiekio skaičiavimo strategiją“.</span><span class="sxs-lookup"><span data-stu-id="be260-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 

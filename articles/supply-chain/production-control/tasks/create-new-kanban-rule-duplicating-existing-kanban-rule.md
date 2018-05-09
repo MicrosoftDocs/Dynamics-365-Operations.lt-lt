@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d375e6c029e575269f7b9fce8a2eb9ac95717b5c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dafbff1abd67028d480594c6d0b34fac4ac7e154
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="5f52d-103">Kurti naują „kanban“ taisyklę dubliuojant esamą „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="5f52d-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5f52d-104">Šioje procedūroje didžiausias dėmesys skiriamas esamos „kanban“ taisyklės kopijos kūrimui.</span><span class="sxs-lookup"><span data-stu-id="5f52d-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="5f52d-105">Tai naudinga, jei norite kurti naujas „kanban“ taisykles pagal esamas „kanban“ taisykles.</span><span class="sxs-lookup"><span data-stu-id="5f52d-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="5f52d-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="5f52d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5f52d-107">Ši procedūra skirta proceso inžinieriui arba vertės srauto vadybininkui, nes jie parengia pakeistos gamybos eigos arba naujos papildymo taisyklės gamybą.</span><span class="sxs-lookup"><span data-stu-id="5f52d-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
 

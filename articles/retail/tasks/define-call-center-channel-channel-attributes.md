@@ -16,15 +16,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfccbaab5b4d0b4d84d1bf344521b22b7a5e6efc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2b88a5bb22fa9fc862f4fd4c50367264b58340b8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="bba7b-103"> Apibrėžti skambučių centro kanalą ir kanalo atributus</span><span class="sxs-lookup"><span data-stu-id="bba7b-103">Define call center channel and channel attributes</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bba7b-104">Ši procedūra padeda kurti naują mažmenos kanalą ir apibrėžti kanalo atributus.</span><span class="sxs-lookup"><span data-stu-id="bba7b-104">This procedure walks through creating a new retail channel and defining channel attributes.</span></span> <span data-ttu-id="bba7b-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT.</span><span class="sxs-lookup"><span data-stu-id="bba7b-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="bba7b-106">Ši procedūra yra skirta mažmenos IT vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="bba7b-106">This procedure is intended for the Retail IT role.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cd8d9b90cffe2794b785b2bb391e21ae3b11cf7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c5473a0786ba0348701e8e106de46f811571f07
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-boms-february-2016-only"></a><span data-ttu-id="100fb-103">Kurti KS (tik 2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="100fb-103">Create BOMs (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="100fb-104">Šios užduoties tikslas yra sukurti galutinių ir pusiau baigtų produktų KS struktūrą.</span><span class="sxs-lookup"><span data-stu-id="100fb-104">This task focuses on creating the bill of materials structure for a finished product and a semi-finished product.</span></span> <span data-ttu-id="100fb-105">Tai ketvirtoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="100fb-105">It is the fourth task in the BOM calculation series.</span></span> <span data-ttu-id="100fb-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="100fb-106">The demo data company used to create this task is USMF.</span></span>
 

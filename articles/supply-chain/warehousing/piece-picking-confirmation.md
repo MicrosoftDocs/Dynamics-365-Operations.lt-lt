@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 31b285f06ea8b7951f2439637a4fccb83db31578
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="b3fce-103">Vienetų paėmimo patvirtinimas</span><span class="sxs-lookup"><span data-stu-id="b3fce-103">Piece picking confirmation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b3fce-104">Vienetų paėmimas suteikia galimybę patvirtinti kiekvieną atsargų vienetą naudojant paėmimo ir skaičiavimo darbą mobiliajame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="b3fce-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="b3fce-105">Paėmimų atveju galite patvirtinti darbo kiekį, kuris bus atliktas neviršijant kiekio, nurodyto paimtinam darbui.</span><span class="sxs-lookup"><span data-stu-id="b3fce-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="b3fce-106">Skaičiavimo darbo atveju galite nuskaityti atsargas, kurias skaičiuojate, ir sekti bendrą sumą.</span><span class="sxs-lookup"><span data-stu-id="b3fce-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 

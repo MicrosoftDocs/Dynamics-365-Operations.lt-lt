@@ -18,16 +18,16 @@ ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 03129177bca7d1a104d297cff70978c43f0bb9c7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="advance-invoices-for-eastern-europe"></a><span data-ttu-id="4f584-105">Išankstinės SF, skirtos Rytų Europai</span><span class="sxs-lookup"><span data-stu-id="4f584-105">Advance invoices for Eastern Europe</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4f584-106">Išankstinė SF yra dokumentas, kurį galite kurti klientui arba tiekėjui.</span><span class="sxs-lookup"><span data-stu-id="4f584-106">An advance invoice is a document that you can create for a customer or vendor.</span></span> <span data-ttu-id="4f584-107">Ji nurodo pardavimo užsakymo sumą, kurią reikia apmokėti iš anksto.</span><span class="sxs-lookup"><span data-stu-id="4f584-107">It states the amount that must be prepaid on a sales order.</span></span> <span data-ttu-id="4f584-108">Šioje temoje pateikiama informacija apie išankstines SF, skirtas Rytų Europai.</span><span class="sxs-lookup"><span data-stu-id="4f584-108">This topic provides information about advance invoices for Eastern Europe.</span></span>
 

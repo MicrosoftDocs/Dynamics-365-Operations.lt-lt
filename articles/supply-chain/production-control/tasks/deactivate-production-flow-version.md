@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7a09c67008582a8ee9703a93751ede525a7d4d3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c5e8ffc81ca0178dd0df86f871a0bd2d5317c6a0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="e2728-103">Išjungti gamybos eigos versiją</span><span class="sxs-lookup"><span data-stu-id="e2728-103">Deactivate a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e2728-104">Kai aktyvi gamybos eigos versija nebereikalinga, galite jį išjungti.</span><span class="sxs-lookup"><span data-stu-id="e2728-104">When an active production flow version is no longer needed, it can be deactivated.</span></span> <span data-ttu-id="e2728-105">Turėtumėte šią parinktį naudoti tik jei visos „kanban“ taisyklės ir veiklos yra baigtos ir nebus vėl suaktyvintos.</span><span class="sxs-lookup"><span data-stu-id="e2728-105">You should only use this option if all kanban rules and activities have ended and will not be activated again.</span></span> <span data-ttu-id="e2728-106">Atkreipkite dėmesį, kad visų su šia gamybos versija susijusių „kanban“ taisyklių galiojimo data bus atnaujinta į dabartinę datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="e2728-106">Note that the expiry date of all kanban rules related to this production flow version will be updated with the current date and time.</span></span> 
 

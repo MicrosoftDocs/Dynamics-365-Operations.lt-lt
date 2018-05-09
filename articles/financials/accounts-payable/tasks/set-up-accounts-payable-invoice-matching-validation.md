@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cc5c5b8dc60e3807a535b0d40e68200fb4da165
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c0edefb59e656222f08e5db889252a84e40b9839
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a><span data-ttu-id="61099-103">Nustatyti mokėtinų sumų SF sugretinimo patvirtinimą</span><span class="sxs-lookup"><span data-stu-id="61099-103">Set up accounts payable invoice matching validation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="61099-104">Šiame įraše naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="61099-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="61099-105">Šiuos veiksmus paprastai atlieka mokėtinų sumų vadovo arba apskaitos vadovo vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="61099-105">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="61099-106">Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas.</span><span class="sxs-lookup"><span data-stu-id="61099-106">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> <span data-ttu-id="61099-107">Jei jūsų juridinis subjektas seka išlaidas, pavyzdžiui, transportavimo, įsitikinkite, kad pasirinktas konfigūracijos raktas Išlaidos.</span><span class="sxs-lookup"><span data-stu-id="61099-107">If your legal entity tracks expenses, such as freight, by using charges, make sure that the Charges configuration key is selected.</span></span>  <span data-ttu-id="61099-108">Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas.</span><span class="sxs-lookup"><span data-stu-id="61099-108">Accounts payable invoice matching is the process of matching vendor invoice, purchase order, and product receipt information.</span></span> <span data-ttu-id="61099-109">Skirtumai tarp šių dokumentų vadinami gretinimo neatitikimais.</span><span class="sxs-lookup"><span data-stu-id="61099-109">Differences among these documents are called matching discrepancies.</span></span> <span data-ttu-id="61099-110">Gretinimo nesutapimai lyginami su nurodytais leistinais nuokrypiais.</span><span class="sxs-lookup"><span data-stu-id="61099-110">Matching discrepancies are compared with the tolerances that are specified.</span></span> <span data-ttu-id="61099-111">Jei gretinimo neatitikimas viršija leistino nuokrypio procentą ar sumą, formoje Tiekėjo SF ir formoje SF gretinimo informacija rodomos gretinimo nuokrypio piktogramos.</span><span class="sxs-lookup"><span data-stu-id="61099-111">If a matching discrepancy exceeds the tolerance percentage or amount, match variance icons are displayed in the Vendor invoice form and in the Invoice matching details form.</span></span>
 

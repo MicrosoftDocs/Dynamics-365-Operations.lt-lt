@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e76afac726e9b9fbfda39ec23f8be35aded60a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bc563eac09fffc191a34041da7c91e7a3ffbd2e1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="validate-a-production-flow-and-version"></a><span data-ttu-id="79c71-103">Patikrinti gamybos eigą ir versiją</span><span class="sxs-lookup"><span data-stu-id="79c71-103">Validate a production flow and version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="79c71-104">Ši procedūra nurodo, kaip sukurti naują gamybos eigą ir pirmąją „lean manufacturing“ versiją.</span><span class="sxs-lookup"><span data-stu-id="79c71-104">This procedure shows how to create a new production flow and a first version for lean manufacturing.</span></span> <span data-ttu-id="79c71-105">Būtinos sąlygos: turi būti nurodyti „lean manufacturing“ parametrai ir klasės laiko matavimo vienetai.</span><span class="sxs-lookup"><span data-stu-id="79c71-105">Prerequisites: The production parameters for Lean manufacturing and the units of measure for class time must be defined.</span></span> <span data-ttu-id="79c71-106">Būtina nurodyti vertės srautą ir gamybos grupę.</span><span class="sxs-lookup"><span data-stu-id="79c71-106">You need to define a Value stream and a Production group.</span></span> <span data-ttu-id="79c71-107">Žr. „Lean manufacturing“ techninę dokumentaciją, kad susipažintumėte su gamybos eigos koncepcijomis ir veiklomis.</span><span class="sxs-lookup"><span data-stu-id="79c71-107">Refer to the white papers on Lean manufacturing to familiarize yourself with the concepts of production flows and activities.</span></span> <span data-ttu-id="79c71-108">Ši procedūra taikoma juridiniams subjektui USMF ir demonstraciniams duomenims.</span><span class="sxs-lookup"><span data-stu-id="79c71-108">This procedure refers to the legal entity USMF in demo data.</span></span> <span data-ttu-id="79c71-109">Tačiau jeigu juridinis subjektas sukonfigūruotas „Lean manufacturing“, gali būti naudojami kiti juridiniai subjektai.</span><span class="sxs-lookup"><span data-stu-id="79c71-109">However, assuming that the legal entity is configured for Lean manufacturing, other legal entities can be used.</span></span>
 

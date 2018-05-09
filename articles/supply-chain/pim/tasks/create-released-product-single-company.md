@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ced48377f8f6cfdf416bcaf5e2b5e6473998ea91
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f23ddf59d986f16c350e9e978333cd7c9b47389a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="85898-103">Kurti vienos įmonės išleistą produktą</span><span class="sxs-lookup"><span data-stu-id="85898-103">Create a released product for a single company</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="85898-104">Ši procedūra žingsnis po žingsnio padeda sukurti vieną išleistą produktą vieno juridinio vieneto kontekste.</span><span class="sxs-lookup"><span data-stu-id="85898-104">This procedure walks through how to create a single released product in the context of a single legal unit.</span></span> <span data-ttu-id="85898-105">Sukūrus išleistą produktą, jį galima iš karto naudoti tik šiame vienete.</span><span class="sxs-lookup"><span data-stu-id="85898-105">After the released product is created,  it's immediately available in this unit only.</span></span> <span data-ttu-id="85898-106">Šią procedūrą galite žingsnis po žingsnio atlikti demonstracinių duomenų įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="85898-106">You can walk through this procedure in demo data company USMF.</span></span> <span data-ttu-id="85898-107">Šią užduotį paprastai atlieka produkto dizaineris.</span><span class="sxs-lookup"><span data-stu-id="85898-107">This task is usually performed by a product designer.</span></span>
 

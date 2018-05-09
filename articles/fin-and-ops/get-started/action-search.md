@@ -18,16 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 80beefe142eb46d7c330a472ffa594a8a35a296b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f623c5fc9b277933c4655101fe451c87a1e5224
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="action-search"></a><span data-ttu-id="c65b6-104">Veiksmo ieška</span><span class="sxs-lookup"><span data-stu-id="c65b6-104">Action search</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c65b6-105">Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="c65b6-105">This article describes the action search functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="c65b6-106">Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.</span><span class="sxs-lookup"><span data-stu-id="c65b6-106">Action search will help you find and run actions on a page.</span></span>
 

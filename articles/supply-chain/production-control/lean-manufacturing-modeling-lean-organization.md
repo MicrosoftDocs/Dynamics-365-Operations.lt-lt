@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6873d9bb6e3c386dd6ecef91bdd5248bb49d8264
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6634635a7353e4cebb702336bc78b7d5a1bd2e35
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modeling-a-lean-organization"></a><span data-ttu-id="748d5-103">„Lean“ organizacijos modeliavimas</span><span class="sxs-lookup"><span data-stu-id="748d5-103">Modeling a lean organization</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="748d5-104">Šiame straipsnyje pateikta informacija apie svarbiausias „lean“ organizacijos modeliavimo koncepcijas.</span><span class="sxs-lookup"><span data-stu-id="748d5-104">The article provides information about the key concepts in modeling a lean organization.</span></span> 
 

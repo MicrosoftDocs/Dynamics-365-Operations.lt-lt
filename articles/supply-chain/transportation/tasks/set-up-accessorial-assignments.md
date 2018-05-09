@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 29b39ad74c064da88154a77299cedc9babe3786b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3e49b4f4d8869790187a4f8c0b7d0129f5772d6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-accessorial-assignments"></a><span data-ttu-id="030ac-103">Nustatyti papildomų paslaugų priskyrimus</span><span class="sxs-lookup"><span data-stu-id="030ac-103">Set up accessorial assignments</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="030ac-104">Ši procedūra nurodo, kaip nustatyti papildomų paslaugų priskyrimą.</span><span class="sxs-lookup"><span data-stu-id="030ac-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="030ac-105">Paprastai tą daro transportavimo koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="030ac-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="030ac-106">Prieš pradėdami naudoti šį vadovą turite įvykdyti vadovą „Nustatyti tranzito punktų papildomų paslaugų mokesčius ir papildomų paslaugų šablonus“.</span><span class="sxs-lookup"><span data-stu-id="030ac-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
 

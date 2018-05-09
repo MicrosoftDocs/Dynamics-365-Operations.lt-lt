@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36707ec37d4756393d0c3c2cf071d87a78ebc6c5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="9f380-103">Žaliavų suvartojimo kontrolė taikant sunaudojimo principus</span><span class="sxs-lookup"><span data-stu-id="9f380-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9f380-104">Sunaudojimo principai atspindi skirtingas gamybos procesuose naudojamų žaliavų suvartojimo strategijas.</span><span class="sxs-lookup"><span data-stu-id="9f380-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="9f380-105">Gamyba yra procesas, kurio metu medžiagos paimamos iš turimų atsargų ir gamybos užsakymuose bei paketiniuose užsakymuose nustatoma vartojamų medžiagų būsenos reikšmė **Nebaigta gamyba** (NG).</span><span class="sxs-lookup"><span data-stu-id="9f380-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="9f380-106">Vartojamos žaliavos paprastai paimamos iš sukonfigūruotos proceso, naudojančio medžiagas, vietos.</span><span class="sxs-lookup"><span data-stu-id="9f380-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="9f380-107">Ši vieta vadinama gamybos įvesties vieta.</span><span class="sxs-lookup"><span data-stu-id="9f380-107">This location is known as the production input location.</span></span>
 

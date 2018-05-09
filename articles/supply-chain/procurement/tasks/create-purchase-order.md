@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 50ca6f46253ca49b90493b4588e0bbf4e9711ecd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="79eeb-103">Pirkimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="79eeb-103">Create a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="79eeb-104">Šia procedūra parodoma, kaip rankiniu būdu kurti pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="79eeb-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="79eeb-105">Pirkimo užsakymai dažniau kuriami automatiškai – atliekant bendrąjį planavimą, tiesioginį pristatymą ir kitus procesus.</span><span class="sxs-lookup"><span data-stu-id="79eeb-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="79eeb-106">Pirkimo užsakymus paprastai kuria pirkimo agentas.</span><span class="sxs-lookup"><span data-stu-id="79eeb-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="79eeb-107">Čia rodomą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF, naudojant įvairių veiksmų pastabose siūlomas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="79eeb-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

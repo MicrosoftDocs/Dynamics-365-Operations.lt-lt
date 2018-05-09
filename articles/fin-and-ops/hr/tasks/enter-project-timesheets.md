@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="fae17-103">Įvesti projekto tabelius</span><span class="sxs-lookup"><span data-stu-id="fae17-103">Enter project timesheets</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fae17-104">Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas.</span><span class="sxs-lookup"><span data-stu-id="fae17-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="fae17-105">Naujas grafikas gali būti pagrįstas ankstesniu grafiku arba puslapyje Mano parankiniai įrašytų projekto ir veiklos priskyrimų informacija.</span><span class="sxs-lookup"><span data-stu-id="fae17-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="fae17-106">Pagal numatytuosius parametrus sąrašo puslapyje Visi grafikai pateikiami visi dabartinio laikotarpio grafikai.</span><span class="sxs-lookup"><span data-stu-id="fae17-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="fae17-107">Galite naudoti puslapio Mano grafikai laiko Rodyti išplečiamąjį sąrašą ir filtruoti grafiką pagal laiką ar projektą arba peržiūrėti grafikus, kuriuos sukūrė kiti darbuotojai.</span><span class="sxs-lookup"><span data-stu-id="fae17-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="fae17-108">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USSI.</span><span class="sxs-lookup"><span data-stu-id="fae17-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="fae17-109">Norėdami pradėti šią procedūrą, pasirinkite Projektų valdymas ir apskaita > Grafikai > Mano grafikai</span><span class="sxs-lookup"><span data-stu-id="fae17-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

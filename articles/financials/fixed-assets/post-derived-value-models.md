@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 81df0a21e208a5fbfd1f0e006b9c4736be29126f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 463c43f9960a21ab88da92febaa9a65e370326e8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="post-with-derived-books"></a><span data-ttu-id="d4357-103">Registruoti naudojant išvestines knygas</span><span class="sxs-lookup"><span data-stu-id="d4357-103">Post with derived books</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d4357-104">Šiame straipsnyje aprašyta, kaip naudoti išvestines knygas.</span><span class="sxs-lookup"><span data-stu-id="d4357-104">This article describes how to use derived books.</span></span>
 

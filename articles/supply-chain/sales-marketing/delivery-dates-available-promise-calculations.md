@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 529608ef2a3277eb9d026ee56458738e0ed6576f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1581fb0e30260acb84f7e77cb3571055181d8bdc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-promising"></a><span data-ttu-id="55cb7-104">Užsakymų vykdymo perspektyva</span><span class="sxs-lookup"><span data-stu-id="55cb7-104">Order promising</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="55cb7-105">Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus.</span><span class="sxs-lookup"><span data-stu-id="55cb7-105">This article provides information about order promising.</span></span> <span data-ttu-id="55cb7-106">Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.</span><span class="sxs-lookup"><span data-stu-id="55cb7-106">Order promising helps you reliably promise delivery dates to your customers and gives you flexibility so that you can meet those dates.</span></span>
 

@@ -16,16 +16,16 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ccb18a677e5d43fc0fab7646d575b13e22f47e13
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fd64b3bc446e173f54f13557f159445571bc82b4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="e42c2-103">„Power BI“ turinys CFO apžvalga</span><span class="sxs-lookup"><span data-stu-id="e42c2-103">CFO overview Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 <span data-ttu-id="e42c2-104">Šioje temoje aprašomas „Microsoft Power BI‟ turinys **CFO apžvalga**.</span><span class="sxs-lookup"><span data-stu-id="e42c2-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> <span data-ttu-id="e42c2-105">Šis „Power BI“ turinys taikomas tiems, kurie naudoja „Microsoft Dynamics 365 for Finance and Operations“ 7.2 versiją.</span><span class="sxs-lookup"><span data-stu-id="e42c2-105">This Power BI content applies to those using Microsoft Dynamics 365 for Finance and Operations version 7.2.</span></span> <span data-ttu-id="e42c2-106">Jei naudojate 7.3 arba naujesnę versiją, žr. [Finansines įžvalgas](financial-insights.md).</span><span class="sxs-lookup"><span data-stu-id="e42c2-106">If you are using version 7.3 or later, please refer to [Financial Insights](financial-insights.md).</span></span>
 

@@ -18,16 +18,16 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84d7cf4e0d0f1e66a8ce6ddf2822e5ca6d2899ab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4d799b0d74b0f4c86afd8c5a9e37cb3c52c39a7c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-and-marketing"></a><span data-ttu-id="0c828-104">Pardavimas ir rinkodara</span><span class="sxs-lookup"><span data-stu-id="0c828-104">Sales and marketing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0c828-105">Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis.</span><span class="sxs-lookup"><span data-stu-id="0c828-105">You can use Sales and marketing to obtain, store, and use various types of data in the sales flow.</span></span> <span data-ttu-id="0c828-106">Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.</span><span class="sxs-lookup"><span data-stu-id="0c828-106">This data includes the original sales initiative, future follow-up action, and additional sales.</span></span>
 

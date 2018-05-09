@@ -18,18 +18,18 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 96d92016a4634291c5d519a2935992b3a50b65dd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fb7910124be099ff72f5dfa009f285ea9c2bf570
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-approval-mobile-workspace"></a><span data-ttu-id="ea2bb-104">Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas</span><span class="sxs-lookup"><span data-stu-id="ea2bb-104">Purchase order approval mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="ea2bb-105">Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**.</span><span class="sxs-lookup"><span data-stu-id="ea2bb-105">This topic provides information about the **Purchase order approval** mobile workspace.</span></span> <span data-ttu-id="ea2bb-106">Šioje darbo srityje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais.</span><span class="sxs-lookup"><span data-stu-id="ea2bb-106">This workspace lets you view purchase orders and respond to them through actions.</span></span> <span data-ttu-id="ea2bb-107">Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti.</span><span class="sxs-lookup"><span data-stu-id="ea2bb-107">For example, you can approve or reject a purchase order.</span></span>
  

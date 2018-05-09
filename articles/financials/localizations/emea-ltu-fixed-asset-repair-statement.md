@@ -17,16 +17,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e039dedbe617754d9d500fa1ad2a013814608fa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b51d2ab3beae242967502841c2167c163f37dd76
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-repair-statement-for-lithuania"></a><span data-ttu-id="7ce94-104">Ilgalaikio turto remonto išrašas, skirtas Lietuvai</span><span class="sxs-lookup"><span data-stu-id="7ce94-104">Fixed asset repair statement for Lithuania</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="7ce94-105">Šioje temoje paaiškinama, kaip pateikti ilgalaikio turto remonto informaciją ir generuoti ilgalaikio turto remonto ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="7ce94-105">This topic explains how to submit repair information for a fixed asset and generate a fixed asset repair report.</span></span> <span data-ttu-id="7ce94-106">Remonto informacija turi būti saugoma visam ilgalaikiui turtui.</span><span class="sxs-lookup"><span data-stu-id="7ce94-106">Repair information must be stored for all fixed assets.</span></span> 
 

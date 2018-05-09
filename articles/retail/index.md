@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dce403032c239053159fd3e79f3dab013b620eaf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 55de553a6732b95e4d265935b5019dac3e812585
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a><span data-ttu-id="71f65-103">Sveiki, čia – „Dynamics 365 for Retail“</span><span class="sxs-lookup"><span data-stu-id="71f65-103">Welcome to Dynamics 365 for Retail</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="71f65-104">„Microsoft Dynamics 365 for Retail‟ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais.</span><span class="sxs-lookup"><span data-stu-id="71f65-104">Microsoft Dynamics 365 for Retail is an end-to-end retail solution that delivers unified commerce across all channels.</span></span> <span data-ttu-id="71f65-105">Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų.</span><span class="sxs-lookup"><span data-stu-id="71f65-105">It encompasses sales, mobility, intelligence, and productivity to help retailers and workers achieve more in a cloud-first, mobile-first manner.</span></span> <span data-ttu-id="71f65-106">„Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes.</span><span class="sxs-lookup"><span data-stu-id="71f65-106">Retail offers comprehensive support to operate a wide range of business processes, such as merchandising, inventory, and channel management capabilities.</span></span> <span data-ttu-id="71f65-107">Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.</span><span class="sxs-lookup"><span data-stu-id="71f65-107">It also provides immersive customer experiences across all touchpoints.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 49d2de890f99a25b72a41cb879b16220a77c1f24
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="98dc7-104">Algalapio pradžios balansų įvedimas</span><span class="sxs-lookup"><span data-stu-id="98dc7-104">Enter payroll beginning balances</span></span>
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 <span data-ttu-id="98dc7-105">Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius.</span><span class="sxs-lookup"><span data-stu-id="98dc7-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="98dc7-106">Ši informacija yra naudinga partneriams, kurie perkelia duomenis naujo algalapio diegimui iš kitos sistemos.</span><span class="sxs-lookup"><span data-stu-id="98dc7-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="98dc7-107">Kad pasiruoštume pradžios algalapių balansų įvedimui, patikriname šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="98dc7-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 

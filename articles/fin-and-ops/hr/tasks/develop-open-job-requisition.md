@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b3d685c6f8fbe8ff42eac739d81b8f5863ad8402
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="d98fd-103">Kurti ir atidaryti darbo paraiškas</span><span class="sxs-lookup"><span data-stu-id="d98fd-103">Develop and open a job requisition</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d98fd-104">Įdarbinimo projektai padeda valdyti įdarbinimo procesą.</span><span class="sxs-lookup"><span data-stu-id="d98fd-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="d98fd-105">Galite nustatyti tokią kiekvieno įdarbinimo projekto informaciją, kaip darbas, į kurį įdarbinama, darbdavio pavadinimas, projekto būsena ir skyrius, kuriame bus darbo vieta.</span><span class="sxs-lookup"><span data-stu-id="d98fd-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="d98fd-106">Sukūrę įdarbinimo projektą, galite rašyti projekto darbo skelbimą, publikuoti skelbimą darbuotojų savitarnos puslapiuose, su projektu susieti prašymus priimti į darbą ir sekti to projekto veiklas.</span><span class="sxs-lookup"><span data-stu-id="d98fd-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="d98fd-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="d98fd-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d98fd-108">Norėdami pradėti procedūrą, eikite į Žmogiškieji ištekliai > Įdarbinimas > Įdarbinimo projektai > Įdarbinimo projektai</span><span class="sxs-lookup"><span data-stu-id="d98fd-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

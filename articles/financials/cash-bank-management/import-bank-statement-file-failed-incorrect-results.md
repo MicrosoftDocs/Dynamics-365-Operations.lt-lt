@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a5f53a76ebd0bd428f791ce8493e9f388eb8e2fa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4796a440bec7c5c0e77a57beccb9379bd2978df6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="927f5-107">Banko išrašo failo importavimo trikčių šalinimas</span><span class="sxs-lookup"><span data-stu-id="927f5-107">Bank statement file import troubleshooting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="927f5-108">Svarbu, kad banko išrašo failas iš banko atitiktų maketą, kurį palaiko „Microsoft Dynamics 365 for Finance and Operations“.</span><span class="sxs-lookup"><span data-stu-id="927f5-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations supports.</span></span> <span data-ttu-id="927f5-109">Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai.</span><span class="sxs-lookup"><span data-stu-id="927f5-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="927f5-110">Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi.</span><span class="sxs-lookup"><span data-stu-id="927f5-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="927f5-111">Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile.</span><span class="sxs-lookup"><span data-stu-id="927f5-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="927f5-112">Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.</span><span class="sxs-lookup"><span data-stu-id="927f5-112">This article explains how to fix these differences and resolve the issues.</span></span>
 

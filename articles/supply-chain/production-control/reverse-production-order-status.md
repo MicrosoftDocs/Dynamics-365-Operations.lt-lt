@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d39dfc065a01e4cac6442de44ccc556444e131ce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 22e1aa484b8032b8780d8d9a80087a5f5295eb63
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reverse-the-production-order-status"></a><span data-ttu-id="9d3f0-103">Atšaukti gamybos užsakymo būseną</span><span class="sxs-lookup"><span data-stu-id="9d3f0-103">Reverse the production order status</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9d3f0-104">Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną.</span><span class="sxs-lookup"><span data-stu-id="9d3f0-104">This topic describes how to reverse production order status.</span></span> 
 

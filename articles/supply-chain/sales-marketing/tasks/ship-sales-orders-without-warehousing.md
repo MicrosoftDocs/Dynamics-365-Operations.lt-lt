@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0ad0869907b23ce5e0b44e3e9ecee3f2cd34ede
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16feadb3a2e30e3400d85829c73f6f20780e7b71
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a><span data-ttu-id="a8850-103">Siųsti pardavimo užsakymus be sandėliavimo</span><span class="sxs-lookup"><span data-stu-id="a8850-103">Ship sales orders without warehousing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a8850-104">Šiame vadove parodoma, kaip naujinti pardavimo užsakymą, kai produktai siunčiami klientui.</span><span class="sxs-lookup"><span data-stu-id="a8850-104">This guide demonstrates how to update a sales order when products are shipped to the customer.</span></span> <span data-ttu-id="a8850-105">Vadovas taikomas vykdymo eigai, kuri nenustatyta sandėlio valdymui (nei pagrindiniam, nei papildomam sandėliui), ir todėl prieš siunčiant nereikia užregistruoti produkto išrinkimo.</span><span class="sxs-lookup"><span data-stu-id="a8850-105">The guide is applicable to the fulfillment flow that is not set up for warehouse management (neither basic or advanced warehousing), and therefore does not require product picking to be registered before shipment.</span></span> <span data-ttu-id="a8850-106">Šią procedūrą galite vykdyti su savo duomenimis arba demonstracinėje duomenų įmonėje USMF.</span><span class="sxs-lookup"><span data-stu-id="a8850-106">You can run this procedure on your own data or in demo data company USMF.</span></span> <span data-ttu-id="a8850-107">Abiem atvejais, prieš pradėdami šią užduotį, sukurkite inventorizuoto produkto, kurio kiekis didesnis negu 1, pardavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="a8850-107">In both cases, before you start this task, create a sales order for an inventoried product with a quantity of greater than 1.</span></span> <span data-ttu-id="a8850-108">Norėdami išvengti registravimo klaidos, turite patikrinti, ar šiuo metu užsakyme pasirinktoje vietoje ir sandėlyje turimo produkto kiekis sutampa su užsakymo kiekiu.</span><span class="sxs-lookup"><span data-stu-id="a8850-108">To avoid a posting error, you need to check that the product's on-hand quantity in the site and warehouse that you’ve selected on the order covers the order quantity.</span></span>
 
