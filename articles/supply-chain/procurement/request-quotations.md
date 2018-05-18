@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Pasiūlymų patvirtinimai (RFQ)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama pasiūlymų patvirtinimų (RFQ) apžvalga. Organizacijos išduoda RFQ, kai nori pirkti prekes arba paslaugas ir gauti konkurencingų pasiūlymų iš kelių tiekėjų. RFQ tiekėjų prašoma pateikti nurodyto prekių kiekio kainas ir pristatymo laiką.
 Be to, galite paprašyti tiekėjų nurodyti, ar bus papildomų išlaidų, pvz., siuntimo išlaidų, arba nuolaidų didelių užsakymų ar ankstyvo tiekėjo SF apmokėjimo atveju.
@@ -57,8 +57,8 @@ Gavę pasiūlymų el. paštu, šiuos pasiūlymus galite tvarkyti puslapyje **Pas
 
 Jei reikalingas tiekėjo antras atsakymo pakartojimas, puslapyje **Pasiūlymo patvirtinimas** pasirinkite **Grąžinti**. Grąžinimo veiksmas sugeneruoja naują žurnalą ir ataskaitą, kuri bus išspausdinta, archyvuota ir išsiųsta pagal jūsų spausdinimo parametrus.
 
-[!NOTE]
-Puslapio **Pasiūlymo patvirtinimas** pavadinimas pasikeitė. Ankstesniuose „Dynamics 365 for Finance and Operations“ leidimuose šis puslapis buvo vadinamas **Pasiūlymų patvirtinimų atsakymai**.
+> [!NOTE]
+> Puslapio **Pasiūlymo patvirtinimas** pavadinimas pasikeitė. Ankstesniuose „Dynamics 365 for Finance and Operations“ leidimuose šis puslapis buvo vadinamas **Pasiūlymų patvirtinimų atsakymai**.
 
 Jei į RFQ atvejį įtraukiate vertinimo kriterijų, RFQ turės vertinimo sritį, kurioje galima įvesti rezultatus. Bendras rezultatas bus rodomas RFQ ir kai palyginsite atsakymus puslapyje **Palyginti atsakymus**. Puslapyje **Atsakymų palyginimas** taip pat galima palyginti kitus atsakymų duomenis, pvz., eilutės kainą, pristatymo datą ir bendrąją kainą.
 
@@ -126,8 +126,8 @@ Jei kainos pasiūlyme siekdami nurodyti, kodėl jis buvo atmestas ar priimtas, n
 
 Galite konfigūruoti išspausdintų arba saugomų RFQ dokumentų išvaizdą dalies paraiškų puslapyje **Formos nustatymas**.
 
-[!NOTE]
-Jei naudojama viešojo sektoriaus konfigūracija, norint atlikti jau išsiųsto RFQ keitimus reikia naudoti pakeitimo procesą. Išsiuntus RFQ laukai užrakinami.
+> [!NOTE]
+> Jei naudojama viešojo sektoriaus konfigūracija, norint atlikti jau išsiųsto RFQ keitimus reikia naudoti pakeitimo procesą. Išsiuntus RFQ laukai užrakinami.
 Todėl, norint atlikti RFQ keitimus, reikia pasirinkti **Kurti** ir pradėti keitimo procesą, kaip aprašyta pirmiau. Tai valdo lauko blokavimo parinktis **Užrakinti išsiųstus RFQ**, esanti puslapyje **Paraiškų parametrai**. Pagal numatytuosius parametrus šis parametras nustatytas į parinktį **Taip** ir naudojant viešojo sektoriaus konfigūraciją tai yra numatytoji reikšmė, kurios negalima keisti. Todėl, nors pakeitimo procesą galima tvarkyti neautomatiniu būdu viešojo sektoriaus konfigūracijoje, jį reikia naudoti viešojo sektoriaus konfigūracijoje.
 
 Kai sukuriate tipo Pirkimo užsakymas RFQ atvejį ir prie RFQ pridedate atsargų prekę, sugeneruojama atsargų operacija, kurios gavimo būsena yra **Pasiūlymo gavimas**. Kai naudojate bendrąjį planą apskaičiuodami atsargas, atsižvelgiama tik į šios būsenos RFQ atvejo eilutes. Jei norite, kad į bendrąjį planą kaip numatomas gavimas būtų įtrauktos RFQ atvejo eilutės, turite sukonfigūruoti šią veikseną bendrojo planavimo nustatyme.

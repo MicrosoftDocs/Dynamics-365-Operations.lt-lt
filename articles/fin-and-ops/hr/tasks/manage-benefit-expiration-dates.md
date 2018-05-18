@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-benefit-expiration-dates"></a>Tvarkyti išmokos galiojimo datas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip galite nutraukti arba pratęsti išmokos galiojimą ir valdyti darbuotojų, kurie yra įtraukti į išmokos registrą, registracijos datas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

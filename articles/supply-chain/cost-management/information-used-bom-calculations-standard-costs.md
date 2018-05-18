@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Komplektavimo specifikacijų (KS) skaičiavimai naudoja duomenis iš kelių šaltinių, kad apskaičiuotų standartinę pagamintos prekės savikainą. Šaltiniai apima informaciją apie prekes, vekselių kelvadas, netiesioginių išlaidų apskaičiavimo formules ir įkainojimo versiją.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte savo tikslus arba koks buvo jūsų našumas per pasirinktą laikotarpį. Taip pat galite pagirti bendradarbio veiksmus naudodami žurnalą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
 

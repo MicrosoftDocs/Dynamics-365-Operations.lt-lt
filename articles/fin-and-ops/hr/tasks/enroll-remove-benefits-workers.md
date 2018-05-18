@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Užregistruoti ir pašalinti išmokas darbuotojams
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip vienas darbuotojas gali būti užregistruotas vienai ar daugiau išmokų, taip pat keli darbuotojai gali būti užregistruoti vienai išmokai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

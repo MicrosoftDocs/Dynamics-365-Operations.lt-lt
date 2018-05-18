@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra parodoma, kaip rankiniu būdu kurti pirkimo užsakymą. Pirkimo užsakymai dažniau kuriami automatiškai – atliekant bendrąjį planavimą, tiesioginį pristatymą ir kitus procesus. Pirkimo užsakymus paprastai kuria pirkimo agentas. Čia rodomą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF, naudojant įvairių veiksmų pastabose siūlomas reikšmes.
 

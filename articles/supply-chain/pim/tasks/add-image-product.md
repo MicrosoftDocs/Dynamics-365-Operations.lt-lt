@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Vaizdo pridėjimas prie produkto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip įtraukti vaizdą į produktą. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF.
 

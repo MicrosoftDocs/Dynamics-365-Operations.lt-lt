@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Naudoti tęstinumo programą
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip parduoti tęstinumo programą ir apdoroti susijusius pardavimo užsakymus. Norint atlikti šią procedūrą, vartotojas turi būti nustatytas kaip skambučių centro vartotojas. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

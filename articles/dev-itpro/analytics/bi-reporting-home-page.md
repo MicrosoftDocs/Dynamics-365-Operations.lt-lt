@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Įžvalgos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje nurodomi ištekliai, kuriuos naudodami galite daugiau sužinoti apie verslo įžvalgų (VĮ) ir ataskaitų įrankius, pasiekiamus sprendime „Microsoft Dynamics 365 for Finance and Operations‟.
 

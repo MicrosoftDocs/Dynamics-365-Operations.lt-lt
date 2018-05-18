@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Kurti vienos įmonės išleistą produktą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra žingsnis po žingsnio padeda sukurti vieną išleistą produktą vieno juridinio vieneto kontekste. Sukūrus išleistą produktą, jį galima iš karto naudoti tik šiame vienete. Šią procedūrą galite žingsnis po žingsnio atlikti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka produkto dizaineris.
 

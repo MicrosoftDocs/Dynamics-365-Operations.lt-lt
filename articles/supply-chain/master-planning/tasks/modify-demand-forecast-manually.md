@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modifikuoti poreikio prognozę neautomatiškai
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip modifikuoti prekės prognozę. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Šis įrašas skirtas gamybos planuotojui. 
 

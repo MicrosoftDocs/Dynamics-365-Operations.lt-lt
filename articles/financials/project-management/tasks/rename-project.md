@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Projekto stadijos pervardijimas ar keitimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Projekto stadijos gali pasitarnauti kaip projekto vykdymo trukmės vadovas. Projekto stadijas, kurias naudosite projekto metu, galite nurodyti srityje Projekto stadija, pateikiamoje puslapyje Projektų valdymo ir apskaitos parametrai. „Dynamics 365 for Finance and Operations“ pateikiamos penkios iš anksto nustatytos projekto stadijos ir trys vartotojo nustatytos stadijos. Galite atnaujinti projekto stadijos, kuriuos naudojate, pavadinimą, kad galėtumėte sekti projektų eigą. Taip pat gali suteikti pavadinimus vartotojo nustatytoms būsenoms. Šioje užduotyje rodoma, kaip pervardyti arba keisti projekto stadiją ir naudojamas USSI duomenų rinkinys.
 

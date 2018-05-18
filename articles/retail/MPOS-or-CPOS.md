@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Rinkitės tarp „Modern POS“ ir „Cloud POS“
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje diegėjams pateikiama papildoma informacija, patarimai ir gairės apie veiksnius, į kuriuos jie turėtų atsižvelgti diegdami „Microsoft Dynamics 365 for Retail“. Peržiūrėję šias gaires ir vadovaudamiesi jomis kaip diegimo proceso dalimi, diegėjai gali išvengti problemų, kurios gali turėti įtakos vartotojų pasitenkinimui arba našumui.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Fiksuoto kiekio „kanban“ gamybos taisyklės kūrimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra sutelkiamas dėmesys į nustatymą, reikalingą norint „lean“ aplinkos darbo elemente sukurti fiksuotą gamybos „kanban“ taisyklę, skirtą transformavimo veiklos aktyvinimui. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Ši procedūra skirta proceso inžinieriui arba vertės srauto vadybininkui, nes jie parengia naujos arba pakeistos prekės gamybą.
 

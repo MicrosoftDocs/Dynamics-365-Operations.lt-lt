@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Masinės samdos projektai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami masinės samdos projektus personalo specialistai gali kurti keletą pareigų ir į jas efektyviai pasamdyti keletą darbuotojų.
 

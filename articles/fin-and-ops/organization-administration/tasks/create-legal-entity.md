@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Juridinio subjekto kūrimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Juridinis subjektas yra organizacija, kuri yra identifikuojama pagal registraciją teisinėse institucijose. Juridiniai subjektai gali sudaryti sutartis ir turi parengti savo veiklos ataskaitas. Tolesne procedūra paaiškinama, kaip sukurti juridinį subjektą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas į DK.
 

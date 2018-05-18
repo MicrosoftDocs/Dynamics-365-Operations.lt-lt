@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Dimensijų hierarchija
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie dimensijų hierarchijas. Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus.  
 

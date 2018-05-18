@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Kvitų šablonai ir spausdinimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. Sprendime „Microsoft Dynamics 365 for Retail“ pateikiamas formų maketų konstruktorius, kurį naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
 

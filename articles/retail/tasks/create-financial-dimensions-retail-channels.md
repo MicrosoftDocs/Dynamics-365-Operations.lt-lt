@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Kurti mažmeninės prekybos kanalų finansines dimensijas ir konfigūruoti dimensijų reikšmes parduotuvėse
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti mažmeninės prekybos kanalo finansinę dimensiją su dimensijų reikšmėmis ir nurodo mažmeninės prekybos parduotuvių finansinių dimensijų reikšmių konfigūravimo veiksmus. Ši tema neapima kitų susijusių veiksmų, pavyzdžiui, dimensijų rinkinių ir sąskaitų struktūrų kūrimo. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

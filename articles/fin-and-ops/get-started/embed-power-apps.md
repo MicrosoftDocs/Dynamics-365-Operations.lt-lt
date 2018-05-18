@@ -25,9 +25,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="embed-powerapps"></a>„PowerApps“ įdėjimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 „Microsoft Dynamics 365 for Finance and Operations“ 14 platformos naujinys palaiko integravimą su „Microsoft PowerApps“, kūrėjams ir įprastiems vartotojams skirta paslauga, kurią naudojant galima kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui nerašant kodo. „PowerApps“ programas, kurias sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti „Finance and Operations“ klientą ir padidinti produkto funkcijų skaičių. Pavyzdžiui, galite kurti „PowerApp“, kad papildytumėte „Finance and Operations“ informacija, gauta iš kitos sistemos. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
 

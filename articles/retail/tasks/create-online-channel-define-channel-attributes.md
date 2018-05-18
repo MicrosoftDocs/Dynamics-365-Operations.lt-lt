@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Kurti interneto kanalus ir nurodyti kanalo atributus
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti naują interneto kanalą ir įtraukti jį į organizacijos hierarchiją. Prieš kurdami naują interneto kanalą, turite sukurti organizacijos hierarchiją. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

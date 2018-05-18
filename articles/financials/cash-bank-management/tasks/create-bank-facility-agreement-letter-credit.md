@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Kurti akredityvo banko priemonės sutartį
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis apžvelgia, kaip sukurti banko priemonės sutartį, kad būtų galima apdoroti Akredityvą. Prieš vykdant šią užduotį rekomenduojama nustatyti banko priemones ir registravimo šablonus.  Šioje užduotyje naudojama demonstracinė įmonė „USMF‟.  
 

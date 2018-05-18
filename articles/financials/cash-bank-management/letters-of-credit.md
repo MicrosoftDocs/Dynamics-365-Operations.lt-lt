@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Akredityvai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Akredityvai yra banko dokumentai, kurie paprastai naudojami prekių pardavimo ir pirkimo tarptautiniu mastu atvejais. 
 

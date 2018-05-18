@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Nustatyti didžiosios knygos pseudonimą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.
 

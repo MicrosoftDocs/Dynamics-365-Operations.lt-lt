@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šiame straipsnyje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Microsoft Dynamics 365 for Retail“.
 

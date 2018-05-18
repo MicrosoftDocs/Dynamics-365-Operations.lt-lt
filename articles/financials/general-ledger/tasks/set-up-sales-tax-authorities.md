@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-authorities"></a>PVM rinkėjų nustatymas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 PVM institucijos yra subjektai, kuriems reikia pranešti apie surinktą PVM ir jį sumokėti. Galite mokėti mokesčius PVM institucijai tiesiogiai arba per tiekėjo sąskaitą, kuri sukurta PVM institucijai. Jei tai padarote, įmonė gali naudoti savo įprastas mokėjimo procedūras, kad PVM sumokėtų laiku. Jei nenustatote PVM rinkėjo kaip tiekėjo, mokėjimą PVM rinkėjui mokėjimo dieną reikia parengti rankiniu būdu. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

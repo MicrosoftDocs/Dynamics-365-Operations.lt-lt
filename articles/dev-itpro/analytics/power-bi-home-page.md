@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>„Power BI“ turinys
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje nurodytas pasiekiamas „Microsoft Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Importuoti ISO20022 kredito pervedimo konfigūraciją
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip importuoti tiekėjo mokėjimų elektroninių ataskaitų konfigūraciją. Vokietijos ISO 20022 kredito pervedimo formatas naudojamas kaip pavyzdys. Šią procedūrą galima taikyti ir kitam galimam elektroninių ataskaitų formatui. 
 

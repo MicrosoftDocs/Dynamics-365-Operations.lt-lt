@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Nustatyti „lean manufacturing“ darbo elementus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Darbo elementas yra konkreti išteklių grupių forma, kurios gali būti naudojamas „lean manufacturing“ proceso veiklose. Darbo elementai turi įvesties ir išvesties vietas ir pajėgumo apibrėžimą pagal gamybos eigos modelį. Norėdami daugiau sužinoti apie pagrindines „lean manufacturing“ darbo elementų ir pajėgumo skaičiavimų sąvokas, žr. „Lean manufacturing“ techninę dokumentaciją. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Kurti vartojimo paraišką
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra žingsnis po žingsnio supažindins su paraiškos kūrimo procesu. Ji parodo skirtingus produktų paiekos įsigijimo kataloge būdus ir kaip įtraukti produktą, kurio nėra kataloge. Prieš pradėdami šią procedūrą, pirkimo strategiją numatytuoju paraiškos tipu turite nustatyti suvartojimą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Procedūrą galima atlikti tik iš vartotojo profilio, kuris nustatytas kaip darbuotojo.  Šiią užduotį paprastai atlieka darbuotojas. Užduotis galėsite atlikti per darbuotojo saugos vaidmenį arba, jei naudojate USMF, galite prisijungti kaip Alicia.
 

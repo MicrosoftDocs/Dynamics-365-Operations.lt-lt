@@ -24,7 +24,8 @@
 # PVM
 ## [PVM apžvalga](../financials/general-ledger/indirect-taxes-overview.md)
 ## [PVM skaičiavimo metodai lauke Kilmė](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
-## [Visos PVM kodų sumos ir intervalo skaičiavimo parinktys](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
+## #### [PVM priskyrimas ir perrašymai​](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
+## [PVM kodų skaičiavimo parinktys Visa suma ir Intervalas](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Skambučių centras
 ## [Skambučių centro apžvalga](call-center-functionality.md)
@@ -165,10 +166,11 @@
 ## [ Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas](tasks/configure-machine-learning-product-recommendations.md)
 ## [ Kurti ir susieti įrenginį](tasks/create-associate-device.md)
 ## [ Kurti ir susieti aparatūros stotį](tasks/create-associate-hardware-station.md)
-## [ Registrų kūrimas ir susiejimas](tasks/create-associate-registers.md)
-## [ „Retail” parduotuvės išrašo kūrimas, skaičiavimas ir registravimas](tasks/create-calculate-post-statement-retail-store.md)
-## [ Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
-## [ Kurti EKA registrų finansines dimensijas ir konfigūruoti dimensijų reikšmes registruose](tasks/create-financial-dimensions-pos.md)
+## [Registrų kūrimas ir susiejimas](tasks/create-associate-registers.md)
+## [„Retail” parduotuvės išrašo kūrimas, skaičiavimas ir registravimas](tasks/create-calculate-post-statement-retail-store.md)
+## [Išrašų registravimo patobulinimai](statement-posting-EOD.md)
+## [Skambučių centro užsakymų kūrimas](tasks/create-call-center-orders.md)
+## [EKA registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas](tasks/create-financial-dimensions-pos.md)
 ## [„Retail” kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių konfigūravimas parduotuvėse](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Kurti interneto kanalus ir nurodyti kanalo atributus](tasks/create-online-channel-define-channel-attributes.md)
 ## [ Kurti EKA teisių grupes](tasks/create-pos-permission-groups.md)
@@ -288,8 +290,7 @@
 ### [Pasirinktinių stulpelių įtraukimas į POS operacijų tinklelį](dev-itpro/pos-custom-transaction-column.md)
 ### [POS API arba operacijos iškvietimas iš POS plėtinio](dev-itpro/pos-api-extension.md)
 ### [„Retail Modern POS“ paleidikliai ir spausdinimas](dev-itpro/pos-trigger-printing.md)
-### [„Retail Modern POS“ pasirinktinio valdiklio įtraukimas į ne ekrano dizaino įrankiu sukurtą rodinį](dev-itpro/pos-control-non-screen.md)
-### [„Retail“ tarpinio serverio, skirto POS ir „e-Commerce“, generavimas](dev-itpro/pos-generate-retail-proxy.md)
+### [Pasirinktinio valdiklio įtraukimas į „Retail Modern POS“ ne ekrano dizaino įrankiu sukurtą rodinį](dev-itpro/pos-control-non-screen.md)
 ### [Konfigūravimo veiksmai, skirti „Retail“ kūrėjams, dirbantiems debesyje veikiančiose kūrimo aplinkose](dev-itpro/cloud-dev-box.md)
 
 ## „Commerce Runtime‟

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Darbo paskirstymo struktūros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbo paskirstymo struktūra (WBS) yra projekto darbo, kuris bus atliekamas, aprašas. Tai – užduočių hierarchija, perteikianti projekto komandos supratimą apie darbo sudėtį ir kiekvieno komponento ar užduoties dydį, kainą ir trukmę. WBS turi tris pagrindinius tikslus.
 

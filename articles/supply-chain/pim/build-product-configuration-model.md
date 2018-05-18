@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Produkto konfigūracijos modelio kūrimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai.
 

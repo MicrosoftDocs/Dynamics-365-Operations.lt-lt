@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Tiekėjo mokėjimų darbo sritis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Tiekėjų mokėjimo** darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu. Šioje darbo srityje yra rodinys **Mano darbas** ir puslapis **Analizė**. **Mano darbo** rodinyje rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su tiekėjų mokėjimais susiję vaizdiniai elementai.
 

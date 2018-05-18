@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Kurti papildomas žurnalų taisykles
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padeda sukurti išplėstines žurnalų taisykles. Ji apima žurnalo valdymo ir vartotojo registravimo apribojimų nustatymą. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.
 

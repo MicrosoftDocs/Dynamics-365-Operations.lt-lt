@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>„Microsoft Dynamics 365 for Talent“ sistemos reikalavimai ir naujinimo strategija
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiami „Microsoft Dynamics 365 for Talent“ reikalavimai. Tai pat pateikta naujinimo strategija.
 

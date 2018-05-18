@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-main-account-categories"></a>Nustatyti pagrindinės sąskaitos kategorijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Power BI“ numatytosioms ataskaitoms. Pagrindines sąskaitos kategorijas, sukurtas pagal numatytuosius nustatymus, galima pervardyti, bet jų negalima panaikinti. Ataskaitų ir analizės tikslams galima sukurti ir naudoti papildomas sąskaitos kategorijas. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 

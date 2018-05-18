@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Nukopijuokite formulę
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šios procedūros tikslas yra sukurti formulę, kuri apimtų tuos pačius ingredientus, kaip ir esama formulė, tačiau su nedideliais skirtumais. Norėdami sukurti formulės eilutes, galite kopijavimo funkcijos pagalba nukopijuoti esamą formulę, kuri turi daugumą jums reikalingų ingredientų. Tada galite atlikti būtinus atskirų eilučių pakeitimus naujojoje versijoje. Naudojant kopijavimo funkciją nereikės sukurti keleto beveik identiškų formulių. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USP2.
 

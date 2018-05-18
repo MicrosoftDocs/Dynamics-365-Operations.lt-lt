@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Interneto parduotuvės konfigūravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiami saitai į temas, kurios padės centralizuotai konfigūruoti ir valdyti internetinę parduotuvę.
 

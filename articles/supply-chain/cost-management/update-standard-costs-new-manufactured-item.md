@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Naujos pagamintos prekės standartinių savikainų atnaujinimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje patariama, kaip atnaujinti naujos pagamintos prekės standartines išlaidas. 
 

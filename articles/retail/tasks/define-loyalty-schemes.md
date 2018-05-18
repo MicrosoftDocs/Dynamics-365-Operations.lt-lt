@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Nustatyti lojalumo planus
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti lojalumo planą. Lojalumo planai yra lojalumo programos atlygio uždarbio ir naudojimo taisyklės. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

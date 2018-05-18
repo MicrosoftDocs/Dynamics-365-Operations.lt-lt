@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="before-you-buy"></a>Prieš perkant 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naujas „Dynamics 365 for Finance and Operations“ vartotojas? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino „Finance and Operations“, ir tiems, kurie jau yra pasirengę įsigyti.
 

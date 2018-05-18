@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Matavimo vienetų ir sandėliavimo strategijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip, vykdant sandėlio procesus, naudojami numatytieji vienetai, vienetų sekos ir vienetų konvertavimas.
 

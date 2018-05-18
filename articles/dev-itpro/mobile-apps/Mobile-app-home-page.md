@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>Pagrindinis mobiliųjų programų puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Unified Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>Teisės į išmoką apdorojimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje rodomas išmokų tinkamumo proceso darbas. Kai procesas baigtas, galite peržiūrėti rezultatus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

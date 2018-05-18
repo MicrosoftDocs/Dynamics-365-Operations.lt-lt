@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Sąlyginio darbo eigos sprendimo konfigūravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudokite šią procedūrą, norėdami konfigūruoti sąlyginio sprendimo ypatybes.
 

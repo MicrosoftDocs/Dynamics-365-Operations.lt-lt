@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Mokėjimo būdai skambučių centre
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 for Retail“ skambučių centro kanalo konfigūracija apima nustatymą, pavadintą **Įgalinti užsakymo baigimą**. Šis nustatymas padeda užtikrinti, kad būtų išleisti visi kanalo vartotojų sukurti užsakymai, kad būtų galima užsakyti apdorojimą tik tuo atveju, jeigu juose nurodytas iš anksto apmokėtas arba iš anksto įgaliotas mokėjimas, kurio sumos patvirtintų nuokrypių ribose. Jei nustatymas **Įgalinti užsakymo baigimą** įjungtas, naudodamiesi skambučių centro mokėjimo apdorojimo funkcijomis skambučių centro vartotojai gali įvesti klientų pardavimo užsakymų mokėjimus. Jei nustatymas išjungtas, skambučių centro vartotojai skambučių centro mokėjimo apdorojimo funkcijomis naudotis negali, tačiau naudodamiesi standartine funkcija Gautinos sumos jie vis tiek gali pardavimo užsakymams taikyti išankstinius mokėjimus.
 

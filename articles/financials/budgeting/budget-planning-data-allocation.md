@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Biudžeto planavimo duomenų paskirstymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašyti įvairūs paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 for Finance and Operations“, ir kaip juos naudoti.  
 

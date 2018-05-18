@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Sukurti produktą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti naują produktą mažmeninės prekybos produktų hierarchijoje. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir ši užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.
 

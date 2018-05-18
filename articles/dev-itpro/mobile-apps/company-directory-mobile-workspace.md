@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Įmonės katalogo mobilioji darbo sritis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Įmonės katalogas**. Naudodami šią darbo sritį vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 

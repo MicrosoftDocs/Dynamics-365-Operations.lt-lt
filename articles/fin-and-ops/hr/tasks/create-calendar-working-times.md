@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Kurti kalendorių ir generuoti darbo laikus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. Ši procedūra padės jums nustatyti darbo kalendorių pagal darbo laiko šabloną. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.
 

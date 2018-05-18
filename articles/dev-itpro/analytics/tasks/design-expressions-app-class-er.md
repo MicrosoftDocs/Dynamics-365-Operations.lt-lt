@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Išraiškų kūrimas, kad būtų galima iškviesti programos klasių metodus (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus. Klasių iškvietimo argumentų vertės gali būti nurodytos dinamiškai vykdymo laiku: pavyzdžiui, pagal analizavimo dokumente pateikiamą informaciją, kad būtų užtikrinamas jos tikslumas. Šiame vadove kursite reikiamas ER konfigūracijas pavyzdinei įmonei „Litware, Inc.“. Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo. 
 

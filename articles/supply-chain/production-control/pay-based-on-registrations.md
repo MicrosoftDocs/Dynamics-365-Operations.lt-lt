@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Apmokėjimas pagal registracijas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje išsamiai paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas. Pateikiami pavyzdžiai, kuriuose nurodoma, kaip keičiasi rezultatas priklausomai nuo įvairių skaičiavimo sąrankos pasirinkčių kombinacijų. Toliau nurodoma keletas sričių, kurios bus įtrauktos.
 

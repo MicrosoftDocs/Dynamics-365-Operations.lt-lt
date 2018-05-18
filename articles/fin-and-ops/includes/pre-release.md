@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Ši funkcija galima tik naudojant „Dynamics 365 for Finance and Operations“ 8.0 versiją ir yra skirta tiksliniams vartotojams, sutikusiems dalyvauti „Continuous Auto-update Advantage Program“ (CAAP) programoje, susijusioje su „Platform Updates“. Jei reikia daugiau informacijos apie standartinius ir tikslinius leidimus, žr. [Standartiniai ir tiksliniai platformos leidimai](../get-started/public-preview-releases.md).
+> Ši funkcija pasiekiama įdiegus „Platform Update 15“ (7.0.4841) arba naujesnę versiją. Šį naujinimą dabar gali naudoti tiksliniai klientai, o visiems vartotojams jis bus pasiekiamas 2018 m. birželio mėn.

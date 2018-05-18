@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Kompensacijų ir išmokų „Power BI“ turinys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašytas „Finance and Operations“ kompetencijų ir išmokų „Power BI“ turinys. 
 

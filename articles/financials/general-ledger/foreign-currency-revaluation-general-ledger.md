@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia. 
 

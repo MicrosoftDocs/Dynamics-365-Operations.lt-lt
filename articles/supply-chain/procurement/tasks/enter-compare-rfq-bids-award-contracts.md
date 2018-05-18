@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šia procedūra rodoma, kaip į RFQ įvesti atsakymų, vertinti bei lyginti kainos pasiūlymus ir tada pasirinkti vieno iš tiekėjo kainos pasiūlymą. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Prieš pradedant reikia turėti RFQ su dviem eilutėmis, išsiųstą bent dviem tiekėjams. Norėdami tokį sukurti, kaip būtinąjį komponentą galite vykdyti procedūrą „Pasiūlymo patvirtinimo kūrimas“. Šios procedūros vykdyti negalėsite tol, kol nenustatysite vertinimo kriterijų.
 

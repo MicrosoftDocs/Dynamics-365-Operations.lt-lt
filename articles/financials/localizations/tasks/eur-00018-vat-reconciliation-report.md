@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a>PVM derinimo ataskaita
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip generuoti mokesčių suderinimo ataskaitą, kurią gali naudoti Islandijos ir Norvegijos juridiniai subjektai. Ši užduotis buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, o juridinio subjekto pirminio adreso šalis / regionas atnaujintas į Norvegiją.
 

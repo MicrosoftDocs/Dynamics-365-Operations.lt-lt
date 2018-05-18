@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Finansinės dimensijos ir registravimas 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šioje temoje paaiškinta, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
 

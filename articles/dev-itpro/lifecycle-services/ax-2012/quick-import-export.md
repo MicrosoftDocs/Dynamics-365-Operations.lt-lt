@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Paleiskite duomenų tikrinimo perkėlimo įrankį (beta versija), skirtą „Dynamics AX“ (AX 2012)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Sparčiojo importavimo / eksportavimo funkcijos paskirtis yra suteikti galimybę importuoti ir eksportuoti atliekant mažiau veiksmų.
 

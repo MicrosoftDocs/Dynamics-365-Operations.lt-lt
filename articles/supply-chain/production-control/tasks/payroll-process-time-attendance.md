@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Įgalinti laiko ir buvimo darbe algalapio procesą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip įgalinti laiko ir buvimo darbe algalapio procesą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

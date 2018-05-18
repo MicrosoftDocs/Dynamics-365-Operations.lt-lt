@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Gautinų sumų pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami modulį Gautinos sumos galite sekti klientų sąskaitas faktūras ir gaunamus mokėjimus. 
 

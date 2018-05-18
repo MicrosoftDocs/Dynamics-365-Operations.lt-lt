@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Užduočių planavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie užduočių planavimą, kuris yra išsamesnė planavimo forma nei operacijų planavimas. Galite naudoti užduočių planavimo procesą atskiroms užduotims arba darbo užsakymams suplanuoti bei gamybos aplinkai valdyti.
 

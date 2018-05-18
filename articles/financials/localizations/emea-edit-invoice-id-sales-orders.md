@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie važtaraščių ir SF numeriams įtakos turinčius gautinų sumų parametrus, kurie skirti Čekijos Respublikai, Estijai, Vengrijai, Lietuvai, Latvijai ir Lenkijai.
 

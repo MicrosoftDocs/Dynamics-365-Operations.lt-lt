@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>Standartinių savikainos atnaujinimų valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Standartinių savikainos atnaujinimų duomenis galima valdyti dviem būdais: vienos versijos būdu arba dviejų versijų būdu. 
 

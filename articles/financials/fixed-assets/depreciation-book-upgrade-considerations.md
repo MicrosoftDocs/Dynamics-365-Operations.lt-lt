@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Nusidėvėjimo knygos atnaujinimo apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą. 
 
@@ -62,17 +62,17 @@ Prieš vykdydami duomenų naujinimą, turite susipažinti su dviem būdais, kaip
 Parametrai yra pateikti klasės ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans pradžioje. 
 
 *// Pageidaujamo kvitų paskirstymo metodo nurodymas* 
-*// „true“, jei norite naudoti esamos numeracijos kodą* 
-*// „false“, jei ketinate naudoti sistemos nustatytą numeraciją (numatytoji reikšmė)* const boolean NumberSequenceUseExistingCode = false;  
+ *// „true“, jei norite naudoti esamos numeracijos kodą* 
+ *// „false“, jei ketinate naudoti sistemos nustatytą numeraciją (numatytoji reikšmė)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Jei naudojate sistemos nustatytos numeracijos metodą, nurodykite numeracijos parametrus.*
-*// Nauja numeracija bus sukurta naudojant šiuos parametrus.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Nauja numeracija bus sukurta naudojant šiuos parametrus.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Jei naudojate esamos numeracijos metodą, nurodykite esamos numeracijos kodą.* 
-*// Esamų numeracijų kvitų paskirstymas bus vykdomas kiekvienoje eilutėje paeiliui.* const str NumberSequenceExistingCode = ''; *// Nurodykite esamos numeracijos kodo aprėptį* 
-*// „true“, jei nurodyta numeracija naudojama bendrai* 
-*// „false“, jei nurodyta numeracija skirta konkrečiai įmonei* 
-*// Bus naudojama numatytoji sistemos nustatyta numeracija, jei nurodytos aprėpties numeracijos kodas nebus rastas.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Esamų numeracijų kvitų paskirstymas bus vykdomas kiekvienoje eilutėje paeiliui.* const str NumberSequenceExistingCode = ''; *// Nurodykite esamos numeracijos kodo aprėptį* 
+ *// „true“, jei nurodyta numeracija naudojama bendrai* 
+ *// „false“, jei nurodyta numeracija skirta konkrečiai įmonei* 
+ *// Bus naudojama numatytoji sistemos nustatyta numeracija, jei nurodytos aprėpties numeracijos kodas nebus rastas.* const boolean NumberSequenceExistingIsShared = true; 
 
 Perkurkite projektą, jei modifikavus konstantas jame yra klasė. 
 

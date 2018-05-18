@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Apkrovos paskyros nustatymas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti ir planuoti krovinio rampos paskyrą. Paprastai tą daro transportavimo koordinatorius. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
 

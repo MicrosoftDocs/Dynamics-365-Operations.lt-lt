@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Bendradarbiauti su vidinės tiekimo grandinės klientais
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip peržiūrėti visus suplanuotus užsakymus, kuriuos įvykdys vidinės įmonės tiekėjas. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
 

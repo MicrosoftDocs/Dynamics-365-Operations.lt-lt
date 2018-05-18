@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="journalize-posted-journal-entries"></a>Į žurnalą įtraukti užregistruotus žurnalo įrašus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip į žurnalą įtraukti užregistruotus žurnalo įrašus. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.
 

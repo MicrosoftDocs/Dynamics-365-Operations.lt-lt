@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Darbo eigos patvirtinimo proceso konfigūravimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 

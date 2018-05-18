@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigūruoti darbo ir išlaidų standartines išlaidas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje nurodoma, kaip nustatyti standartinę projekto darbo ir išlaidų savikainą. Šioje užduotyje naudojamas USSI duomenų rinkinys.
 

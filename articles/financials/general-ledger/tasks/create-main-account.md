@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Kurti pagrindinę sąskaitą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši užduotis padeda įtraukti pagrindinę sąskaitą į esamą sąskaitų planą. Šiame įraše naudojama demonstracinė įmonė USMF.  
 

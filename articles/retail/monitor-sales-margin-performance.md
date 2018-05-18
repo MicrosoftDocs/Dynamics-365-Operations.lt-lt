@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Pardavimo ir maržos efektyvumo stebėjimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Naudodami „Microsoft Dynamics 365 for Retail‟ galite realiu laiku stebėti pardavimo ir maržos našumą.
 

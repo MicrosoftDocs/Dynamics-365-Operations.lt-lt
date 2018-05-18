@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje nurodomos produkto konfigūracijos modeliams svarbios sąlygos ir sąvokos. Naudodami produkto konfigūracijos modelius galite kurti nepatentuotų produktų struktūrą, kurią naudojant galima sukonfigūruoti daug vieno produkto variantų.
 

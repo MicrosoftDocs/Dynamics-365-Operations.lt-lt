@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Samdyti esamą darbuotoją naudojant įdarbinimo funkciją
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai. Ši procedūra padeda žingsnis po žingsnio atlikti esamo darbuotojo samdymo per įdarbinimo procesą veiksmus. Šioje procedūroje įdarbinimo projektas jau nustatytas, o esamas darbuotojas jau pateikė prašymą dalyvauti įdarbinimo projekte. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

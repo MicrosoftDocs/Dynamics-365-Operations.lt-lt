@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Kurti dimensijomis pagrįstą bendrąjį produktą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ši procedūra nurodo, kaip sukurti naują bendrąjį produktą su konfigūravimo pagal dimensijas technologija. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Tai yra pirmoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.
 

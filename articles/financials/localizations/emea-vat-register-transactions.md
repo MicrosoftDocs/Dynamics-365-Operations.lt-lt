@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vat-register-transactions-for-eastern-europe"></a>PVM registro operacijos (Rytų Europa)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie PVM registro operacijas, skirtas Estijai, Lietuvai, Čekijos Respublikai, Vengrijai, Latvijai ir Lenkijai. 
 

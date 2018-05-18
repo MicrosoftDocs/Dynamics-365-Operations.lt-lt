@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Bangos apdorojimo konfigūravimas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šiame vadove aprašoma, kaip nustatyti kriterijus, pagal kuriuos nustatoma, koks darbas sugeneruojamas sandėliui apdorojus bangą ir ar bangos apdorojamos rankiniu būdu, ar automatiškai. Kriterijus galite nurodyti nustatydami bangos šablonus ir užklausas, kurios sugretina bangą su išleistais pardavimo užsakymais, gamybos užsakymais arba „kanban“ užsakymais. Bangos apdorojimas naudojamas tuose sandėliuose, kurie šią funkciją naudoja modulyje Sandėlio valdymas, o tuose, kurie šią funkciją naudoja modulyje Atsargų valdymas, jis nenaudojamas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF.
 

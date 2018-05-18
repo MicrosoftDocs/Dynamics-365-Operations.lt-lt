@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Susijusiame kvito lange kvitas iš korespondentinės įmonės rodomas registruojant vidinės įmonės operaciją iš bendrojo žurnalo.
 

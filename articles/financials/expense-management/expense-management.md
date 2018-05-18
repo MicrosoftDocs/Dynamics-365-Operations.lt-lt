@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Išlaidų valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami modulį Išlaidų valdymas galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo metodo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas. Taip pat galite nurodyti išlaidų strategijas ir automatizuoti kelionių išlaidų kompensaciją. 
 

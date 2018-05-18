@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Produkto klasifikavimas naudojant kategorijų hierarchijas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Naudokite kategorijų hierarchiją, norėdami klasifikuoti produktus, kuriuos reikia eksportuoti, pirkti, parduoti ar naudoti kitais tikslais. Šią užduotį paprastai atlieka produktų vadovas. Pavyzdyje naudojama demonstracinių duomenų įmonės USMF produkto numerį M0009.
 

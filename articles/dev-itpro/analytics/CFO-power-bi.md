@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>„Power BI“ turinys CFO apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 Šioje temoje aprašomas „Microsoft Power BI‟ turinys **CFO apžvalga**. Šis „Power BI“ turinys taikomas tiems, kurie naudoja „Microsoft Dynamics 365 for Finance and Operations“ 7.2 versiją. Jei naudojate 7.3 arba naujesnę versiją, žr. [Finansines įžvalgas](financial-insights.md).
 

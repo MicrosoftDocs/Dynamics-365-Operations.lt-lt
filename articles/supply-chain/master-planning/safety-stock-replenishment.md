@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Prekių pakankamų atsargų pildymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Pakankamos atsargos nurodo papildomą prekės kiekį, laikomą atsargose siekiant sumažinti riziką, kad prekės nebus atsargose. Pakankamos atsargos yra naudojamas kaip buferinės atsargos tiems atvejams, kai gaunama pardavimo užsakymų ir tiekėjas negali pristatyti papildomų prekių kliento pageidaujamą siuntimo dieną. Kai pakankamos atsargos naudojamos pardavimo užsakymui įvykdyti, pakankamos atsargos bus sumažintos. Galite naudoti bendrojo planavimo funkciją, kad automatiškai atstatytumėte pakankamų atsargų lygį.    
 

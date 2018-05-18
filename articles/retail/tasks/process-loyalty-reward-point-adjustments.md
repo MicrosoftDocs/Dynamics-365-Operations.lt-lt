@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Apdoroti atlygio už lojalumą taškų koregavimus
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra parodo, kaip ieškoti lojalumo kortelės informacijos ir koreguoti atlygio už lojalumą taškus. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT. Ši užduotis yra skirta vaidmenims Mažmeninės prekybos operacijų vadovas arba Klientų aptarnavimo vadovas.
 

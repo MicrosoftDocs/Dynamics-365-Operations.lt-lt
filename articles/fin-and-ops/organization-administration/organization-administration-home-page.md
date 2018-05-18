@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Organizacijos administravimo pagrindinis puslapis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje nurodytas turinys, patyrusiems vartotojams ir administratoriams padėsiantis konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“. Šis turinys jiems padės sistemą sukonfigūruoti taip, kad ji jūsų organizacijoje ir įmonėje veiktų sklandžiai bei efektyviai.
 

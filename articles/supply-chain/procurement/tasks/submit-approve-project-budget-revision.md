@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Teikti ir tvirtinti projekto biudžetų tikslinimus
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje pateikiama informacija apie projekto biudžeto tikslinimą. Galite peržiūrėti projekto biudžetą tiek kartų, kiek reikia, tačiau negalite matyti atskirų tikslinimų sumų, jei biudžetas peržiūrėtas daugiau nei kartą. 
 

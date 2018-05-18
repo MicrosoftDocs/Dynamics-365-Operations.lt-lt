@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Prieš nustatydami organizacijas ir organizacijos hierarchijas programoje „Microsoft Dynamics 365 for Finance and Operations“ būtinai suplanuokite, kaip bus modeliuojamas jūsų verslas. Organizacijos modelis turi didelės įtakos „Finance and Operations“ diegimui ir verslo procesams. 
 

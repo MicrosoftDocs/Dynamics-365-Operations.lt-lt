@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Kurti pirkimo grąžinimo užsakymą
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti pirkimo grąžinimo užsakymą, naudojant veiksmą Kredito pažyma siekiant eilutes iš tiekėjo SF dokumento kopijuoti į naują pirkimo užsakymą. Joje taip pat parodoma, kaip patvirtinti užsakymą ir apdoroti prekių siuntą atgal tiekėjui. Šioje procedūroje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka pirkimo agentas.
 
