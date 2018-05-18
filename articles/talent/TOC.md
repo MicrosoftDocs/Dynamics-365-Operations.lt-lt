@@ -6,6 +6,7 @@
 ## [„Talent“ aplinkos šalinimas](remove-talent-environment.md)
 ## [„Microsoft Dynamics 365 for Talent“ modulinių programų parengimas](modular-app-tech-faq.md)
 ## [„Talent“ funkcijų išplėtimas](extend-talent-functionality.md)
+## [Prieiga prie „Dynamics 365 for Talent: Attract“ peržiūros funkcijų](access-preview-feature.md)
 
 # [Personalo strategijos kūrimas](departments-jobs-positions.md)
 ## [Darbo komponentų nustatymas](create-job.md)

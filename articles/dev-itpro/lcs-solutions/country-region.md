@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [tarptautiniame produktų prieinamumo vadove](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+„Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [tarptautiniame produktų prieinamumo vadove](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
 Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose taikomus sprendimus, naujinimus, įspėjimus ir funkcijas. 
 
