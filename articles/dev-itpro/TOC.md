@@ -9,8 +9,13 @@
 ## [Programų dėklo ir serverio architektūra](dev-tools/application-stack-server-architecture.md)
 ## [Įvertinimo kopijos gavimas](dev-tools/get-evaluation-copy.md)
 ## [Registravimasis prenumeratai gauti](dev-tools/sign-up-preview-subscription.md)
-## [Visuotinis kūrimo aplinkos diegimas ir naudojimas](dev-tools/access-instances.md)
-## [Kūrimo sistemos reikalavimai](dev-tools/development-system-requirements.md)
+## [Kūrimo aplinkos diegimas ir naudojimas](dev-tools/access-instances.md)
+### [Kūrėjų VM konfigūravimas](dev-tools/configure-developer-vm.md)
+### [Naujo vartotojo kūrimas kūrimo įrenginyje](dev-tools/enable-development-machine.md)
+### [DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos](sysadmin/VMs-no-admin-access.md)
+### [Vietinės aplinkos pervardijimas norint įjungti prieigą prie „Visual Studio Team Services“](migration-upgrade/vso-machine-renaming.md)
+### [Kūrimo sistemos reikalavimai](dev-tools/development-system-requirements.md)
+## [Versijos kontrolė, metaduomenų ieška ir naršymas](dev-tools/version-control-metadata-navigation.md)
 ## Transporto parko valdymo programos pavyzdys
 ### [Transporto parko valdymo programos pavyzdys](dev-tools/fleet-management-sample.md)
 ### [Transporto parko valdymo programos pavyzdžio apžvalga](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [Kūrimo operacijos](dev-tools/build-operations.md)
 ### [Kodo rengyklė](dev-tools/code-editor.md)
 ### [Modelio ir duomenų modelio elementų kūrimas](dev-tools/create-data-model-elements.md)
-### [Naujo vartotojo kūrimas kūrimo įrenginyje](dev-tools/enable-development-machine.md)
+#### [Pavadinimo suteikimo gairės](extensibility/NamingGuidelines.md)
+#### [Modelių tinkinimo ir padarymo pasenusiais funkcijų išjungimas](dev-tools/lock-models.md)
 ### [Pritaikymo analizės ataskaita](dev-tools/customization-analysis-report.md)
 ### [Elementų kūrimo įrankiai](dev-tools/element-designers.md)
 ### [Elemento naudojimas](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [Modeliai](dev-tools/models.md)
 ### [„Dynamics 365 for Finance and Operations‟ projektai](dev-tools/projects.md)
 ### [„Visual Studio“ įrankių papildiniai](dev-tools/developer-tools-add-ins.md)
-### [Modelių tinkinimo ir padarymo pasenusiais funkcijų išjungimas](dev-tools/lock-models.md)
 ### [„Visual Studio“ kūrimo įrankių naujinimas](dev-tools/update-development-tools.md)
 ## X++ programavimo kalba
 ### [X++ ir derintuvo funkcijos](dev-tools/new-x-debugger-features.md)
@@ -104,8 +109,8 @@
 #### [W klasės](dev-ref/w-classes.md)
 #### [X klasės](dev-ref/x-classes.md)
 
-## [Išplečiamumo pagrindinis puslapis](extensibility/extensibility-home-page.md)
-### Įvadas ir pradžia
+## [Išplečiamumas](extensibility/extensibility-home-page.md)
+### Įvadas ir darbo pradžia
 #### [Programų išplečiamumo planai](extensibility/extensibility-roadmap.md)
 #### [Išplečiamumo užklausos](extensibility/extensibility-requests.md) 
 #### [DUK](extensibility/app-sealing-faq.md) 
@@ -261,9 +266,9 @@
 ### [Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę](user-interface/task-recorder-training-docs.md)
 
 # [Mobilioji platforma](mobile-apps/platform/mobile-platform-home-page.md)
-## Darbo pradžia
-### [Darbo pradžia](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Darbo pradžia](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Architektūra](mobile-apps/platform/mobile-platform-architecture.md)
+### [Verslo logikos įvykių apžvalga](mobile-apps/platform/business-logic-events-overview.md)
 ### [Puslapių dizaino rekomendacijos](mobile-apps/platform/page-design-guidelines.md)
 ### [Veiksmų dizaino rekomendacijos](mobile-apps/platform/action-design-guidelines.md)
 ### [Formų dizaino reikalavimai](mobile-apps/platform/form-design-requirements.md)
@@ -409,7 +414,7 @@
 ### [Konfigūracijos duomenų šablonai](data-entities/configuration-data-templates.md)
 ### [Duomenų šablonai su keliais darbalapiais](data-entities/excel-template-multiple.md)
 ### [Objekto keitimų sekimas](data-entities/entity-change-track.md)
-
+### [Konfigūracijos raktai ir duomenų objektai](data-entities/config-key-entities.md)
 ### [Informacijos apie standartinius duomenų objektus ieška](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Duomenų objektų kūrimas
+### [Duomenų objektų dizaino principai ir geriausia praktika](dev-tools/design-best-practices.md)
 ### [Naujų duomenų objektų kūrimas](data-entities/build-consuming-data-entities.md)
 ### [Duomenų objektų ypatybės](data-entities/behavioral-properties-data-entities.md)
 ### [Skaičiavimo stulpelių ir virtualiųjų laukų kūrimas](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [Metaduomenų ypatybės](data-entities/behavioral-properties-data-entities.md)
 ### [Tikrinimai, numatytosios reikšmės ir nesusieti laukai](data-entities/validations-defaults-unmapped-fields.md)
 ### [Sauga ir duomenų objektai](data-entities/security-data-entities.md)
+### [Tik skaitomo objekto, rodančio finansines dimensijas, kūrimas](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Savo duomenų bazės naudojimas](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [Duomenų užduočių automatizavimas](data-entities/data-task-automation.md)
 
 ## [Atsakymo į BDAR duomenų užklausą ištekliai](gdpr/gdpr-home-page.md)
-### [BDAR vadovas, skirtas „Microsoft Dynamics 365 for Finance and Operations“](gdpr/gdpr-auditing-sensitive-data.md)
+### [BDAR vadovas, skirtas „Microsoft Dynamics 365 for Finance and Operations“](gdpr/gdpr-guide.md)
 ### [Turto klasifikavimas](gdpr/gdpr-asset-classification-values.md)
 ### [Asmenų ieškos ataskaitos naudojimas](gdpr/gdpr-person-search-report.md)
 ### [Asmenų ieškos ataskaitos išplėtimas](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [Atsakymas į užklausą dėl asmeninių duomenų naudojant „Talent“](gdpr/respond-dsr-request-talent.md)
 ### [Atsakymas į užklausą dėl asmeninių duomenų naudojant „Microsoft Dynamics AX 2012“](gdpr/gdpr-ax2012.md)
 
+## [Duomenų tikrinimo darbo sritis](user-interface/data-validation-workspace.md)
 
-# [Pagrindinis modulio Nuolatinis pristatymas puslapis](dev-tools/continuous-delivery-home-page.md)
+# [Nuolatinis pristatymas](dev-tools/continuous-delivery-home-page.md)
 ## [DUK apie kūrimą ir nuolatinį pristatymą](dev-tools/continuous-delivery-faq.md)
 ## [Testinių paketų neįtraukimas į komponavimo versijos išvestį](dev-tools/exclude-test-packages.md)
 ## [Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį](dev-tools/manage-runtime-packages.md)
@@ -487,9 +497,10 @@
 ## [Segmentuotų įrašų valdiklio „parm‟ metodai](financial/segmented-entry-control-parm-method-specification.md)
 ## [Galimybės finansinių dimensijų reikšmių ieškoti „Microsoft Excel‟ šablonuose įtraukimas](financial/add-dimensions-excel-templates.md)
 ## [Valiutų kursų teikėjų kūrimas](financial/create-exchange-rate-providers.md)
+## [Valiutų kursų teikėjų kūrimas „Microsoft Dynamics Finance and Operations“ 8.0 versijoje](financial/create-exchange-rate-8.md)
 
 # Tiekimo grandinės kūrimas
-## [Gantt kūrimo vadovas](user-interface/gantt-development-guide.md)
+## [„Gantt“ kūrimo vadovas](user-interface/gantt-development-guide.md)
 ## [Naujo transportavimo valdymo mechanizmo kūrimas](../supply-chain/transportation/create-new-transportation-management-engine.md)
 
 
@@ -578,8 +589,7 @@
 ### [Nebenaudojamos funkcijos](migration-upgrade/deprecated-features.md)
 
 # [Sistemos administravimas](sysadmin/system-administration-home-page.md)
-## [DUK apie mėnesinius „Platform“ naujinimus](sysadmin/faq-platform-monthly-updates.md)
-## [Virtualiosios mašinos, neleidžiančios administratoriui pasiekti DUK](sysadmin/VMs-no-admin-access.md)
+## [DUK apie mėnesinius platformos naujinimus](sysadmin/faq-platform-monthly-updates.md)
 ## [Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas](sysadmin/legal-terms-privacy-statement.md)
 ## [Licencijų kodų ir konfigūracijos raktų ataskaita](sysadmin/license-codes-configuration-keys-report.md)
 ## [Duomenų bendrinimas tarp įmonių](sysadmin/cross-company-data-sharing.md)
