@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektroninių ataskaitų konfigūracijų ciklo valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip valdyti „Microsoft Dynamics 365 for Finance and Operations‟ sprendimo elektroninių ataskaitų (ER) konfigūracijų ciklą.
 
@@ -74,7 +74,7 @@ Dėl tolesnių su ER susijusių priežasčių rekomenduojame ER konfigūracijas 
 
 Programavimo aplinkoje sukurtas ER konfigūracijas galima nusiųsti į tikrinimo aplinką konfigūracijai (tinkamam proceso integravimui, rezultatų tikslumui ir našumui) įvertinti ir kokybei (vaidmenų valdomų prieigos teisių teisingumui ir pareigų atskyrimui) užtikrinti. Šiuo tikslu galima naudoti funkcijas, leidžiančias mainytis ER konfigūracijomis. Galiausiai patvirtintas ER konfigūracijas galima įkelti į LCS, kur jas būtų galima bendrinti su paslaugų prenumeratoriais arba į gamybos aplinką ir naudoti viduje, kaip parodyta tolesniame paveikslėlyje. ![ER konfigūracijos ciklas](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)

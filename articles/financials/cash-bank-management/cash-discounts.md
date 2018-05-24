@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu. 
 
-<a name="cash-discounts"></a>Mokėjimo nuolaidos
---------------
+## <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
 Tiek klientų, tiek tiekėjų mokėjimo nuolaidas galima kurti Mokėjimo nuolaidų puslapyje. Taip pat naudodami Kito nuolaidos kodo lauką galite apibrėžti mokėjimo nuolaidų seką, kuri pradedama taikyti baigiant galioti ankstesnėms mokėjimo nuolaidų datoms. Daugiau informacijos rasite toliau šioje temoje, „Pavyzdys: mokėjimo nuolaidų seka‟. Jei SF, kredito operacija (mokėjimas arba kredito pažyma), arba jos abi įvedamos valiuta, kuri skiriasi nuo juridinio subjekto apskaitos valiutos, mokėjimo nuolaida apskaičiuojama naudojant mokėjimo arba kredito pažymos dienos valiutos kursą. Jei SF ir kredito dokumentas įvedami skirtinguose juridiniuose subjektuose, ir jei skiriasi juridinių subjektų apskaitos valiutos, kredito dokumento dienos valiutos kursas paimamas iš SF juridinio subjekto. Daugiau informacijos rasite toliau šioje temoje, „Pavyzdys: mokėjimo nuolaidų valiutos kursai‟.
-Numatytasis mokėjimo nuolaidos pagrindinės sąskaitos užsakymo apdorojimas
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Numatytasis mokėjimo nuolaidos pagrindinės sąskaitos užsakymo apdorojimas
 
 Jei, norint gauti mokėjimo nuolaidą, SF sudengiama laiku, mokėjimo nuolaida automatiškai registruojama mokėjimo nuolaidos pagrindinėje sąskaitoje pagal toliau nurodytą numatytąjį prioritetą.
 1.  Pagrindinė sąskaita, nurodyta lauke Alternatyvi mokėjimo nuolaidos sąskaita, esančiame klientų puslapyje Sudengti atidarytas operacijas arba tiekėjų puslapyje Sudengti atidarytas operacijas.
@@ -65,15 +64,7 @@ Jūsų juridinio subjekto apskaitos valiuta yra EUR, o toliau pateikti valiutų 
 
 1000 USD SF su 20D2% mokėjimo nuolaidos sąlygomis užregistruojama vasario 15 d. SF apskaitos valiutos suma yra 1100 EUR. 980 USD mokėjimas su SF sudengiamas kovo 1 d. Mokėjimo nuolaidos suma yra 20 USD. Mokėjimo apskaitos valiutos suma yra 784 EUR. Mokėjimo nuolaidos apskaitos valiutos suma apskaičiuojama naudojant kovo 1 d. valiutos kursą: 20 \* 80 / 100 = 16 EUR.
 
-| **Pastaba**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas. 
 
 

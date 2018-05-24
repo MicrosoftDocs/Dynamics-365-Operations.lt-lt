@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbo eigos proceso metu, pirkimo paraiškos pereina redagavimo procesą, nuo pirminės būsenos Juodraštis iki galutinės būsenos Patvirtinta. Kai pirkimo paraiška pateikiamai peržiūrai, pradedamas darbo eigos procesas. Pirkimo paraišką patvirtinus, pirkimo paraiškos eilutėms galima sugeneruoti pirkimo užsakymą ir pateikti tiekėjui, kad jį įvykdytų.
 
@@ -106,7 +106,7 @@ Išlaidų peržiūrėtojus galite nustatyti puslapyje **Pirkimo paraiškų išla
 
 Norėdami naudoti vieną iš darbo eigoje nustatytų išlaidų peržiūrėtojų, atitinkamo darbo eigos elemento ypatybėse **Priskyrimas** parinktį **Dalyvio tipas** turite nustatyti į **Išlaidų dalyviai**.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kurti vartojimo paraišką (užduočių vedlys)](tasks/create-requisition-consumption.md)

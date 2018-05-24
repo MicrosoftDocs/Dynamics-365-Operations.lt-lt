@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 Norėdami daugiau sužinoti apie „PowerApps“ įdėjimą, peržiūrėkite trumpą vaizdo įrašą [Kaip programoje „Dynamics 365 for Finance and Operations“ įdėti „PowerApps“](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Įdėtosios „PowerApp“ įtraukimas į puslapį
 ### <a name="overview"></a>Peržiūra
 Prieš įdedant „PowerApp“ į „Finance and Operations“ klientą, pirmiausia reikia rasti arba sukurti „PowerApp“ norimais vaizdiniais elementais ir (arba) funkcijomis. Čia nepateiksime išsamaus „PowerApp“ kūrimo proceso. Jei esate naujas „PowerApps“ naudotojas, gera vieta pradėti – tema [„PowerApps“ pristatymas](https://docs.microsoft.com/en-us/powerapps/getting-started).

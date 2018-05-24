@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Kurkite dokumentus ar mokymus naudodami Užduočių įrašus
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
 
@@ -118,7 +118,7 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Užduočių įrašus įtraukite į žinyno sritį
 Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Jei reikia daugiau informacijos, žr. dalį [Žinyno sistemos prijungimas.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Pagalbos apžvalga](../../fin-and-ops/get-started/help-overview.md)

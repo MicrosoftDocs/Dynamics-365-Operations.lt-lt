@@ -19,16 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="audit-policy-rules"></a>Audito strategijos taisyklės
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė. 
 
@@ -95,7 +95,7 @@ Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius pake
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)

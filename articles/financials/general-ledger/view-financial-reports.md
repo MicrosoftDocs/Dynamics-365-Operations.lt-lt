@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Peržiūrėti finansines ataskaitas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
@@ -84,7 +84,7 @@ Nustatę spausdinimo parinktis, spustelėkite **Spausdinti**, kad atspausdintum�
 ## <a name="export-a-financial-report"></a>Finansinės ataskaitos eksportas
 Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Eksportuoti**. Ataskaita eksportuojama į „Microsoft Excel“ ir naršyklė paragins atidaryti arba įrašyti eksportuotą failą. Eksportuojamai ataskaitai pritaikomi eksporto parametrai, apibrėžti ataskaitos projekte.    
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [„Microsoft Dynamics AX“ finansinės ataskaitos](../../dev-itpro/analytics/financial-reporting-intro.md)

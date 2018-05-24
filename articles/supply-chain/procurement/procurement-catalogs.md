@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Įsigijimo katalogai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aukštu lygiu aprašoma, kaip pirkimo specialistai gali nustatyti ir tvarkyti įsigijimo katalogus. Įsigijimo katalogais apibrėžiamos prekės ir paslaugos, kurias įmonės darbuotojai gali užsakyti naudoti viduje.
 
@@ -70,7 +70,7 @@ Naujinimai publikuojami automatiškai arba neautomatiškai, atsižvelgiant į ka
 -   **Abu** – jei į katalogą įtrauktos produktų kategorijos, kurių numatytasis naujinimo tipas yra **Statinis**, atnaujinus šias kategorijas reikia neautomatiškai atnaujinti ir katalogą. Jei į katalogą įtrauktos produktų kategorijos, kurių numatytasis naujinimo tipas yra **Dinaminis**, jis atnaujinamas automatiškai, kai tik yra pakeičiamas.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Įsigijimo kategorijų hierarchijos nustatymas (Užduočių vedlys)](tasks/set-up-procurement-category-hierarchy.md)

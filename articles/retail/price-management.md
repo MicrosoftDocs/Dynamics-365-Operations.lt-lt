@@ -3,7 +3,7 @@ title: "Mažmeninės prekybos pardavimo kainos valdymas"
 description: "Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Microsoft Dynamics 365 for Retail“ koncepcijos."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Mažmeninės prekybos pardavimo kainos valdymas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie pardavimo kainų kūrimo ir valdymo „Microsoft Dynamics 365 for Retail“ procesą. Pagrindinis dėmesys skiriamas šio proceso apimamoms koncepcijoms ir įvairių konfigūravimo parinkčių poveikiui pardavimo kainoms.
 
@@ -198,32 +198,6 @@ Kanalų duomenų bazėms dažnai naudojamas „Microsoft SQL Server Express“ d
 Nustatant pardavimo kainas „Microsoft Dynamics 365“, nėra nurodoma, ar jūsų nustatyta kainos vertė apima ar neapima mokesčių. Vertė yra tiesiog kaina. Tačiau mažmeninės prekybos kanalų parametras **Kaina su PVM** leidžia konfigūruoti mažmeninės prekybos kanalus taip, kad kainos apimtų arba neapimtų mokesčių. Šis parametras nustatomas kanale ir gali skirtis net toje pačioje įmonėje.
 
 Jei dirbate ir su mokesčius apimančiomis ir neapimančiomis kainomis, labai svarbu teisingai nustatyti kainas, nes, pakeitus kanalo parametrą **Kaina su PVM**, bendra kliento mokama suma bus skirtinga.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Kainos poveikis apima PVM parametrą finansiniuose registravimuose
-Parametras **Kainą su PVM** turi poveikį visoms sumoms, kurios didžiojoje knygoje yra užregistruotos kaip įplaukos ir nuolaidos. Toliau pateiktame pavyzdyje parodyta, kokį poveikį šis parametras turi finansiniams registravimams.
-
-Pavyzdyje aptariami tik pardavimo registravimai, nes parametras **Kaina su PVM** neturi poveikio atsargų savikainos registravimams.
-
-#### <a name="example"></a>Pavyzdys
-Šiame pavyzdyje nuolaidų sumos sukonfigūruotos taip, kad būtų registruojamos atskirai nuo įplaukų.
-
-Parduodate 100 $ produktą, kuriam taikomas 10 procentų mokesčio tarifas, ir jam taikote 5 procentų nuolaidą. Naudojamos tokios sąskaitos iš USRT demonstracinių duomenų:
-
-- **Įplaukos:** 401100
-- **Nuolaida:** 403200
-- **Mokestis:** 202100
-
-**1 atvejis: išskaitytinas mokestis (taip pat vadinamas pardavimo mokesčiu)**
-
-- **Įplaukos:** 100 $
-- **Nuolaida:** 5 $
-- **Mokestis:** 9,5 $ (= 10 procentų nuo 95 $)
-
-**2 atvejis: įskaitytinas mokestis (taip pat vadinamas pridėtinės vertės mokesčiu \[PVM\])**
-
-- **Įplaukos:** 90 $
-- **Nuolaida:** 4,5 $ (= 5 procentų nuo 90 $)
-- **Mokestis:** 10 $
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Skirtumai tarp mažmeninės prekybos kainodaros ir ne mažmeninės prekybos kainodaros
 Vieno kainodaros mechanizmas naudojamas apskaičiuoti mažmeninę kainą visuose kanaluose: skambučių centre, parduotuvėje ir internetinėse parduotuvėse. Tai padeda taikyti suvienodintus prekybos scenarijus. 

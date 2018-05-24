@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose.
 
@@ -286,7 +286,7 @@ Langelyje **Formato / valiutos nepaisymas** nurodomas stulpelio skaitmenų po ka
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Formato ir valiutos perrašymo priskyrimas ataskaitos stulpeliui
 
 1.  Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
-2.  Dukart spustelėkite sumų stulpelio langelį **Formato / valiutos perrašymas **.
+2.  Dukart spustelėkite sumų stulpelio langelį **Formato / valiutos perrašymas**.
 3.  Dialogo lange **Formato nepaisymas** pasirinkite formatavimo pasirinktis.
 
 ### <a name="add-a-print-control-code"></a>Spausdinimo kontrolinio kodo įtraukimas
@@ -583,7 +583,7 @@ Galite sukurti stulpelį, kuriame visos reikšmės rodomos konkrečiame stulpely
 
 Galite padalyti stulpelio sumą į nurodytą laikotarpių skačių. Pavyzdžiui, formulė **B/laikotarpiai** padalija stulpelio B reikšmę į stulpelyje B nurodytą laikotarpių skaičių. Jei skaičiavimas apima kelis stulpelius, nurodykite skaičiuojant naudojamą laikotarpių skaičių. Pavyzdžiui, formulė **(B+C)/laikotarpiai** sudeda stulpelio B ir stulpelio C sumas, o tada padalija rezultatą iš laikotarpio reikšmės.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Finansinių ataskaitų eilučių aprašai](row-definitions-financial-reporting.md)

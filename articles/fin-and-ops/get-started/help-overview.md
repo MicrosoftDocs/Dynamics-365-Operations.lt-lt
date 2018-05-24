@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Žinyno sistemos apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
 
@@ -60,7 +60,7 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations
 
 -   **Prieiga prie naujausio turinio** – svetainė suteikia greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jis padeda užtikrinti, kad turėtumėte prieigą prie vėliausios techninės informacijos.
 -   **Ekspertų parašytas turinys** – svetainėje pateikiamas turiningesnis produktų dokumentacijos rinkinys, kurį bendruomenės nariai gali gerinti tiek „Microsoft‟ viduje, tiek išorėje.
--   **Prieiga prie skirtingų turinio tipų** – svetainė leidžia greitai pasiekti skirtingus turinio apie „Finance and Operations‟ tipus, pvz., „Microsoft Office Mix‟ pristatymus, užduočių vedlius, vaizdo įrašus ir temas.
+-   **Prieiga prie skirtingų turinio tipų** – svetainė leidžia greitai pasiekti skirtingus turinio apie „Finance and Operations‟ tipus, pvz., užduočių vedlius, vaizdo įrašus ir temas.
 -   **Turinys, kuris palaiko jūsų verslo procesus** – svetainėje naudojant „Microsoft Dynamics‟ „Lifecycle Services‟ (LCS) verslo proceso modeliavimo įrankio (BPM) privalumus pateikiamas į verslo procesus orientuotas turinys.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Ieška puslapyje docs.microsoft.com
@@ -204,7 +204,7 @@ Išversti užduočių vedliai yra išleisti bibliotekose, pavadinime yra frazė 
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 [„Finance and Operations“ žinyno sistema (atsisiunčiamas informacinis lapas)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

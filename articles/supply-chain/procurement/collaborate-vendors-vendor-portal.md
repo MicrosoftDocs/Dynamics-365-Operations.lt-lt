@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms.
 
@@ -96,7 +96,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 |                           Naująją PU versiją nusiunčiate į Tiekėjo portalą.                            |                                                                                                                                                                    Naujoji versija yra užregistruojama Tiekėjo portale ir būsena pakeičiama į <strong>Peržiūrima išorėje</strong>.                                                                                                                                                                     |
 |                                Tiekėjas patvirtina naująją PU versiją.                                 |                                                                                                                                                     Būsena pakeičiama į <strong>Patvirtinta</strong> automatiškai arba kai gaunate tiekėjo atsakymą ir patvirtinate PU.                                                                                                                                                     |
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Tiekėjo bendradarbiavimo funkcijos vartotojų saugos konfigūracija](configure-security-vendor-portal-users.md)

@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Gamybos užsakymų kaštų analizė
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie galimą atlikti baigtų ir dabartinių gamybos užsakymų išlaidų analizę. Analizuoti įvertintas savikainas ir faktines išlaidas galite naudodami puslapį Kainos skaičiavimas arba ataskaitą Išlaidų įvertinimas ir įkainojimas. Galite peržiūrėti kiekvienos sudedamosios prekės, nukreipimo operacijos ir netiesioginių išlaidų informaciją apie numatytąsias ir faktines išlaidas (ir kiekį).
 
@@ -59,7 +59,7 @@ Atskirose ataskaitose pateikiama informacija apie kiekvieną operacijų tipą. N
 -   **Baigtos prekės** − šioje ataskaitoje išvardyti esami gamybos užsakymai ir paskelbtos baigtomis operacijos nuo nurodytos operacijos datos.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Bendrieji gamybos nuokrypių šaltiniai](common-sources-of-production-variances.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Finansinės ataskaitos komponentai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Šiame straipsnyje aiškinama, kaip išdėstyti ir užrakinti kūrimo blokus. 
 
@@ -109,10 +109,10 @@ Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blo
 Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik skaitymo režimu. Kartais vartotojai pamiršta uždaryti kūrimo bloką arba išjungia sistemą neuždarę kūrimo bloko. Todėl kūrimo blokas išregistruojamas ir kiti vartotojai negali jo atidaryti. Šiais atvejais finansinių ataskaitų administratorius gali naudoti dialogo langą **Išregistruoti elementai** ir užregistruoti kūrimo blokus, kuriuos vartotojai paliko išregistruotus. **Pastaba.** Norėdami dialogo lange **Išregistruoti elementai** užregistruoti nurodytus kūrimo blokus, turite turėti administratoriaus vaidmenį.
 1.  Ataskaitų dizaino įrankio meniu **Įrankiai** spustelėkite **Išregistruoti elementai**.
 2.  Dialogo lange **Išregistruoti elementai** pažymėkite **Rodyti visų vartotojų elementus**. Sąrašas atnaujinamas, kad būtų parodyti išregistruoti kūrimo blokai ir juos išregistravę vartotojai.
-3.  Pasirinkite kūrimo bloką, tada spustelėkite **Anuliuoti išregistravimą**.
-4.  Norėdami užregistruoti kūrimo bloką, spustelėkite **Taip**.
+3.  Pasirinkite kūrimo bloką ir spustelėkite **Anuliuoti išregistravimą**.
+4.  Spustelėkite **Taip** norėdami įregistruoti kūrimo bloką.
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
 

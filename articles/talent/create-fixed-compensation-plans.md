@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Pastoviosios atlyginimo dalies planų kūrimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Pastovioji atlyginimo dalis nurodo darbuotojo pastovų bruto atlyginimą ar darbo užmokestį. Šioje temoje aprašomi komponentai, kurie turi būti nustatyti prieš kuriant pastoviosios atlyginimo dalies planą ir įtraukiant darbuotojus.
 
@@ -101,7 +101,7 @@ Dabar galite pastoviosios atlyginimo dalies planui priskirti darbuotoją. Atidar
 
 Sistema patikrina, kad nurodyta kategorijos arba intervalo tipo kompensacijos plano suma yra tarp mažiausio ir didžiausio atskaitos taškų pagal darbuotojo užduočiai priskirtą kompensacijos lygį. Jei kompensacijos suma nepatenka į leidžiamą diapazoną, rodomas perspėjimas arba klaidos pranešimas, atsižvelgiant į pastoviosios atlyginimo dalies plano nuokrypio lygį.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kompensacijų planai](compensation-plans.md)

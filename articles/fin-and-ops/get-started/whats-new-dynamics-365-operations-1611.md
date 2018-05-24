@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 53c51ec1be145c72ff5090666399ac4ea113e5df
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos 1611 programos „Dynamics 365 for Operations“ versijoje veikiančios funkcijos.
 
@@ -854,7 +854,7 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kas nauja ar pasikeitė](whats-new-changed.md)

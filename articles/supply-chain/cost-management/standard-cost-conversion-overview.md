@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Standartinių išlaidų konvertavimo peržiūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiami procesai, padėsiantys nustatyti ir vykdyti standartinių išlaidų konvertavimą. Išvardytus veiksmus reikia atlikti įvykdžius būtinąsias standartinių išlaidų konvertavimo sąlygas. 
 
@@ -96,10 +96,10 @@ Ataskaita **Nuokrypių analizės išrašas** leidžia analizuoti perkainojimo nu
 -   Analizuokite atgaline data registruotus atsargų perkėlimus. Naudodami ataskaitą **Atsargų vertė** galite peržiūrėti atgaline data registruotus atsargų perkėlimus, kurie buvo įvesti po konvertavimo. Ataskaitos Pradžios data ir Pabaigos data turėtų atitikti perėjimo pradžios datą ir konvertavimo datą, minus viena diena. Ataskaitos pasirinkimo kriterijai turi rodyti konvertuotas prekes. Ataskaitoje rodomi atsargų perkėlimai, atlikti su standartinėmis išlaidomis perėjimo laikotarpiu.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Būtinosios standartinių išlaidų konvertavimo sąlygos](prerequisites-standard-cost-conversion.md)
+[Būtinos standartinių išlaidų konvertavimo sąlygos](prerequisites-standard-cost-conversion.md)
 
 
 

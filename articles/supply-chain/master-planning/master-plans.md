@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d8eb8a8c4e98dde0b1e8583a8b7f6f603bc736c7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c530284f83f13bce6941bf889aaddbb1a1e82dae
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-plans"></a>Bendrieji planai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti. 
 
@@ -47,7 +47,7 @@ Taip pat galite nustatyti, kad pradinis dinaminis planas būtų atnaujintas nauj
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Padengimo parametrai](coverage-settings.md)

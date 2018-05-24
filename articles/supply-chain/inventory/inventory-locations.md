@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 186ad9fbf2920ce9cc01a686b133a2de568d7fef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 11be82682fc870cb21959d9e531ff8bf67993fa3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-locations"></a>Atsargų vietos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Atsargų vietos naudojamos su pagrindinio sandėliavimo (WMS I) funkcijomis ir jomis nustatoma, kur prekės saugomos ir iš kur prekės paimamos WMS I sandėlyje.
 
@@ -63,8 +63,8 @@ Galima kopijuoti vietas iš vieno sandėlio į kitą ir kurti vietas naudojant v
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Kurti naują sandėlio maketą (užduočių vedlys)](tasks/create-new-warehouse-layout.md)
+[Naujo sandėlio maketo kūrimas (užduočių vedlys)](tasks/create-new-warehouse-layout.md)
 

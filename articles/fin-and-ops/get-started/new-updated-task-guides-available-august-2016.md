@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 ---------------------------------------------------------------------------------------------------
 
 APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
@@ -97,7 +97,7 @@ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) 
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)

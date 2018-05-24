@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio vartotojo nuostatos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip nustatyti vartotojo nuostatas, siekiant tinkinti vartotojo sąveiką su finansinių ataskaitų dizaino įrankiu ir valdyti pirminio prisijungimo patirtį. Jūs taip pat galite valdyti, kaip rodomos atskiros ataskaitos, ataskaitų biblioteka ir numatytosios failų vietos. 
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 04/13/2018
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Finansinės ataskaitos](financial-reporting-intro.md)

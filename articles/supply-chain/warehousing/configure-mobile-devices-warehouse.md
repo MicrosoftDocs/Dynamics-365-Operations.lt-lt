@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 
@@ -407,10 +407,10 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 
 **Pastaba.** Produkto patvirtinimo galima reikalauti tik tada, jei darbo tipas – paėmimas ir padėjimas.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Sandėlio mobiliojo įrenginio rodymo parametrai](change-warehouse-mobile-device-displays.md)
+[Sandėlio mobiliųjų įrenginių rodymo parametrai](change-warehouse-mobile-device-displays.md)
 
 [Nustatyti mobiliojo įrenginio meniu elementą pirkimo užsakymo tipo darbui atlikti (užduočių vedlys)](tasks/set-up-mobile-device-menu.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą"
-description: "Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia. Mokėjimo pasiūlymai dažnai naudojami norint sukurti tiekėjų mokėjimus, nes užklausą galima naudoti norint greitai pasirinkti tiekėjų sąskaitas apmokėjimui pagal tokius kriterijus kaip terminas ir nuolaida."
+description: "Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia. Mokėjimo pasiūlymai dažnai naudojami norint sukurti tiekėjų mokėjimus, nes užklausą galima naudoti norint greitai pasirinkti tiekėjų sąskaitas apmokėjimui pagal tokius kriterijus kaip terminas ir nuolaida. 
 
@@ -47,7 +47,7 @@ Mokėjimo pasiūlymo užklausoje yra įvairių skirtukų, kurių kiekvienas turi
 - **Patikrinti tiekėjo balansą** – jei ši parinktis yra nustatyta **Taip**, prieš bet kurios sąskaitos faktūros apmokėjimą sistema tikrina, ar tiekėjas neturi debeto likučio. Jei tiekėjas turi debeto likutį, mokėjimas nesukuriamas. Pavyzdžiui, tiekėjas gali turėti kredito pažymų arba mokėjimų, kurie buvo užregistruoti bet dar nesudengti. Tokiais atvejais tiekėjui neturėtų būti apmokama. Vietoj to, kredito atmintines arba mokėjimus reikia sudengti pagal neapmokėtas sąskaitas faktūras.
 - **Ištrinti neigiamus mokėjimus** – ši parinktis veikia kitaip, priklausomai nuo to, ar mokėjimai atliekami pagal atskiras sąskaitas ar sąskaitų faktūrų, kurios atitinka mokėjimo kriterijus, sumą. Toks elgesys yra apibrėžiamas pagal mokėjimo metodą.
 - **Apmokėjimas pagal kiekvieną sąskaitą faktūrą** – jei **Ištrinti neigiamus mokėjimus** parinktis nustatyta **Taip** ir tiekėjui yra neapmokėta sąskaita faktūra, apmokėjimui pasirenkama tik ši sąskaita faktūra. Esamas mokėjimas pagal sąskaitą faktūrą nesudengiamas. Jei **Ištrinti neigiamus mokėjimus** parinktis yra nustatyta **Ne**, ir sąskaita faktūra ir mokėjimas nesudengtas, sąskaita faktūra ir mokėjimas atrenkami mokėjimui. Mokėjimas sukuriamas mokėjimui, o grąžinimas (neigiamas mokėjimas) sukuriamas mokėjimui.
-- <strong>Apmokėjimas už sąskaitų sumą</strong> – jei <strong>Ištrinti neigiamus mokėjimus</strong> parinktis nustatyta <strong>Taip</strong> ir tiekėjui yra neapmokėta sąskaita faktūra, neapmokėta sąskaita faktūra ir mokėjimas pasirenkami apmokėjimui, o jų sumos sudedamos, sudarant galutinę mokėjimo sumą. Vienintelė išimtis – jei suma susidaro grąžinant mokėjimą. Šiuo atveju nepasirenkama nei sąskaita faktūra, nei mokėjimas. Jei **parinktis <strong>Ištrinti neigiamus mokėjimus nustatyta į** Ne</strong> ir sąskaita faktūra bei mokėjimas nesudengti, sąskaita faktūra ir mokėjimas atrenkami mokėjimui, o jų sumos sudedamos, sudarant galutinę mokėjimo sumą.
+- **Apmokėjimas už sąskaitų sumą** – jei **Ištrinti neigiamus mokėjimus** parinktis nustatyta **Taip** ir tiekėjui yra neapmokėta sąskaita faktūra, neapmokėta sąskaita faktūra ir mokėjimas pasirenkami apmokėjimui, o jų sumos sudedamos, sudarant galutinę mokėjimo sumą. Vienintelė išimtis – jei suma susidaro grąžinant mokėjimą. Šiuo atveju nepasirenkama nei sąskaita faktūra, nei mokėjimas. Jei **Ištrinti neigiamus mokėjimus** parinktis nustatyta **Ne** ir sąskaita faktūra ir mokėjimas nesudengtas, sąskaita faktūra ir mokėjimas atrenkami mokėjimui, o jų sumos sudedamos, sudarant galutinę mokėjimo sumą.
 - **Spausdinti tik pranešimą** – nustatykite šią parinktį **Taip**, jei norite pamatyti mokėjimo pasiūlymo ataskaitos rezultatus, nesukuriant jokių mokėjimų.
 - **Įtraukti tiekėjo sąskaitas iš kitų juridinių asmenų** – jei jūsų įmonė turi centralizuotą mokėjimo procesą, o mokėjimo pasiūlymas turėtų apimti sąskaitas iš kitų juridinių asmenų, kurie yra įtraukti į paieškos kriterijus, nustatykite šią parinktį **Taip**.
 - **Pasiūlyti atskirą tiekėjo mokėjimą juridiniam asmeniui** – jei ši parinktis yra nustatyta **Taip**, kiekvienam juridiniam asmeniui vienam tiekėjui atskira sukuriama išmoka. Tiekėjas mokėjimui yra tiekėjas iš kiekvieno juridinio asmens sąskaitos. Jei ši parinktis yra nustatyta **Ne**, ir tas pats tiekėjas turi sąskaitas iš kelių juridinių asmenų, sukuriamas pasirinktų sąskaitų faktūrų visose pasirinktose įmonėse sumos mokėjimas. Tiekėjas mokėjimui yra esamo juridinio asmens tiekėjas. Jei esamoje įmonėje nėra tiekėjo sąskaitos, bus naudojama pirmosios apmokėtos sąskaitos faktūros tiekėjo sąskaita.
@@ -115,7 +115,8 @@ Dimensijų valdymas suteikia galimybę kontroliuoti sugeneruotų eilučių grupa
 -   Laukas **Dimensijų valdymas** yra suaktyvinamas nenustatant dimensijų. Mokėjimo pasiūlymas bus sukurtas neatsižvelgiant į dimensijas. Sukurta operacija iš taikomo įrašo neperima jokių dimensijų.
 -   Laukas **Dimensijų valdymas** yra suaktyvinamas ir įjungiamos dimensijos. Dabar galite nustatyti, kaip dimensijos kopijuojamos į žurnalą. Pavyzdžiui: • norėdami kurti verslo struktūros vieneto mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **BusinessUnit**, • Norėdami kurti išlaidų centro mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **Išlaidų centras**.
 
-**Pastaba** Jei trečiojoje parinktyje pasirinkote daugiau nei vieną dimensiją, sukuriamas to dimensijų derinio mokėjimo pasiūlymas.
+> [[!NOTE]
+> Jei trečiojoje parinktyje pasirinkote daugiau nei vieną dimensiją, sukuriamas to dimensijų derinio mokėjimo pasiūlymas.
 
 #### <a name="bank-account-selection"></a>Banko kodo pasirinkimas
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d8a443d03f8eb2d6ff44d869964b47b6569ce4c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ac83ec4f37f5bafde30e5afc131a138df8dae419
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-entries"></a>Savikainos įrašai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie savikainos įrašus ir kada jie kuriami. Savikainos įrašas yra toks įrašas, kuris registruoja tam tikro įvykio kiekį ir išlaidas.
 
@@ -66,10 +66,10 @@ Naujasis **Išlaidų įrašų** puslapis leidžia peržiūrėti ir valdyti kieki
 > [!NOTE]
 > Galimi tik [išlaidų objektų](cost-object.md) arba išleistų produktų išlaidų įrašai.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Išlaidų objektai](cost-object.md)
+[Savikainos objektai](cost-object.md)
 
 
 

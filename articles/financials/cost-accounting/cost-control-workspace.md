@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Savikainos kontrolės apžvalga 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbo sritis **Savikainos kontrolė** yra centrinis taškas, kuriame už dimensijos arba dimensijų (pavyzdžiui, išlaidų centrų ir produktų grupių) savikainos objekto arba savikainos objektų rinkinį atsakingi vadybininkai gali pasiekti ataskaitas. Darbo srityje pateiktas ataskaitas visiškai valdo išlaidų buhalteriai, kad ataskaitoms naudojamas maketas ir duomenys būtų vienodi visoje organizacijoje.
 
@@ -154,7 +154,7 @@ Toliau pateiktame pavyzdyje paskirstymo pagrindo tipas yra **Formulės paskirsty
 
 ![Kiekvieno savikainos objekto skaičiavimai](./media/cost-entries-allocation-base.png)
 
-Taip pat žiūrėkite 
+Papildomi ištekliai 
 
 [Savikainos objekto valdiklių prieigos teisių apibrėžimas](access-rights-cost-object-controller.md)
 

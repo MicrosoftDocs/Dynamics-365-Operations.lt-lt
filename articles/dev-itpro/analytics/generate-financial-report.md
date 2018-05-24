@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą. 
 
@@ -155,11 +155,11 @@ Vykdant trūkstamų sąskaitų analizę, galima naudoti toliau nurodytus klaviat
 | Neįtraukti pažymėto kūrimo bloko  | ALT + X                      |
 | Neįtraukti pažymėto eilutės aprašo  | CTRL + B                     |
 | Neįtraukti pažymėtos dimensijos vertės | CTRL + D                     |
-| Atidaryti pasirinktą ataskaitos aprašą  | Ctrl + R                     |
-| Atidaryti pasirinktą eilutės aprašą     | Ctrl + O                     |
+| Atidaryti pažymėtos ataskaitos aprašą  | CTRL + R                     |
+| Atidaryti pažymėtos eilutės aprašą     | CTRL + O                     |
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Finansinės ataskaitos](financial-reporting-intro.md)

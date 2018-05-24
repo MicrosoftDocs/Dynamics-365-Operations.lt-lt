@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Operacijų planavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie operacijų planavimą. Galite naudoti operacijų planavimą, norėdami bendrai įvertinti gamybos procesą per tam tikrą laikotarpį.
 
@@ -75,7 +75,7 @@ Paleidus operacijų planavimą, galima atšaukti tam tikras maršruto dalis. Ši
 ## <a name="finite-materials"></a>Ribotos medžiagos
 Jei dirbate su ribotomis medžiagomis, planavimas taip pat priklauso nuo medžiagų, kurių reikia gamybai, turimumo. Jei neužtenka komponentų, reikalingų gamybai, gamybą galima atidėti. Galite pagrįsti planavimą medžiagų naudojimu, nurodydami gamybos medžiagas, kurios turi būti prieinamos. Kai optimizuojame tiek išteklių pajėgumą, tiek medžiagų prieinamumą, gamyba apskaičiuojama pagal šiuos apribojimus. Negalima suplanuoti gamybos užsakymo vykdymo pradžios, jei tuo pačiu metu nėra reikiamo kiekio pajėgumo ir medžiagų.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Operacijų planavimo parinktys](operation-scheduling-options.md)

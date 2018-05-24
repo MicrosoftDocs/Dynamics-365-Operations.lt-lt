@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Užsakymų įvedimo terminai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie užsakymų įvedimo terminus. Užsakymų įvedimo terminas yra nutraukimo laikas, kuriuo nustatoma, ar kliento užsakymas apdorojamas (ir įvykdomas) taip, lyg jis būtų buvęs gautas dabartinę dieną ar kitą dieną.
 
@@ -103,7 +103,7 @@ Toliau pateikiamoje lentelėje rasite A ir B teritorijų užsakymo įvedimo term
 
 **Pastaba.** Jei naudojamas vasaros laikas, atitinkamai koreguojami užsakymo įvedimo terminai.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Pristatymo grafikai](delivery-schedules.md)

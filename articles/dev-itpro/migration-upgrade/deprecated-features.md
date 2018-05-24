@@ -3,7 +3,7 @@ title: Pasenusios funkcijos
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Visuotinio diegimo parinktis**        | Visos|
 | **Būsena**                       | Nebenaudojama: abiejų ataskaitų meniu elementai buvo pašalinti iš 7.3 versijos. Tačiau į produktą vis dar įtrauktas ataskaitų kodas. Kodą planuojama pašalinti iš būsimo leidimo. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>PowerBI.com publikuojami „Power BI“ turinio paketai
-Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Mažmeninės prekybos kanalo efektyvumas**, kurie buvo publikuojami svetainėje PowerBI.com, yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat yra nebenaudojami „Finance and Operations“.
+### <a name="power-bi-content-packs-available-on-appsource"></a>„Power BI“ turinio paketai, prieinami „AppSource“
+Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Mažmeninės prekybos kanalo efektyvumas**, prieinami svetainėje [„Microsoft AppSource“](https://appsource.microsoft.com) yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat yra nebenaudojami „Finance and Operations“.
 
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
-| **Pakeitė kita funkcija?**   | „Power BI“ turinio paketus (publikuojamus PowerBI.com) keičia analizės programos, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Mažmeninės prekybos kanalo efektyvumas**, prieinami svetainėje [„AppSource“](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas, „Finance“ ir „Retail“                                                                                               |
 | **Visuotinio diegimo parinktis**              | Tik debesyje (integravimas su PowerBI.com nepalaikomas vietinėse įdiegtyse.)                                                                                                            |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis.    |

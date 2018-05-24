@@ -38,9 +38,6 @@ Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ 
 
 Norėdami daugiau sužinoti apie tai, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą [„Dynamics 365 for Finance and Operations“ antraštės ir eilučių „Excel“ šablono kūrimas](https://youtu.be/RTicLb-6dbI) vaizdo įrašą.
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Atidaryti objekto duomenis programoje „Excel“ paleidus iš „Finance and Operations“
 1. Programos „Finance and Operations“ puslapyje spustelėkite **Atidaryti naudojant „Microsoft Office“**.
 

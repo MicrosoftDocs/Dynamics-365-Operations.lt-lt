@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Biudžeto planavimo integravimas su kitais moduliais
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Biudžeto planus galima generuoti iš kelių skirtingų išteklių. Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų išteklių elementai. 
 
@@ -68,7 +68,7 @@ Skirtuko **Paskirtis** parinktis **Retrospektyvinis** suteikia galimybę šaltin
 
 Puslapio viršuje esantis laukas Į **Sudėti sumas pagal** taip pat lemia, kuri data yra naudojama. Šiame lauke sudedamos sumos ir pasirinktinai įsigaliojimo data yra nustatoma kaip pirmoji finansinių metų arba ataskaitinio laikotarpio data. 
 
-Daugelį skirtuko <strong>Paskirtis</strong> laukų bus galima redaguoti arba tik skaityti, priklausomai nuo pasirinkto veiksmo. Jei vietoje to, kad kurtumėte naują biudžeto planą, nusprendžiate naujinti esamą, lauko <strong>Biudžeto plano pavadinimas</strong> nebus galima naudoti, bet bus suaktyvinti laukai, susiję su esamo plano pasirinkimu. **Skirtukų <strong>Paskirtis</strong> ir <strong>Šaltinis lauko** Didžioji knyga</strong> niekada negalima naudoti, nes jo reikšmė yra nustatoma pagal pasirinktą biudžeto planavimo procesą. 
+Daugelį skirtuko <strong>Paskirtis</strong> laukų bus galima redaguoti arba tik skaityti, priklausomai nuo pasirinkto veiksmo. Jei vietoje to, kad kurtumėte naują biudžeto planą, nusprendžiate naujinti esamą, lauko **Biudžeto plano pavadinimas** nebus galima naudoti, bet bus suaktyvinti laukai, susiję su esamo plano pasirinkimu. Skirtukų **Paskirtis** ir **Šaltinis** lauko **Didžioji knyga** niekada negalima naudoti, nes jo reikšmė yra nustatoma pagal pasirinktą biudžeto planavimo procesą. 
 
 Lauke **Biudžeto klasė** biudžeto plano eilutes galima nustatyti kaip išlaidų operacijas arba įplaukų operacijas. Paprastai įplaukų operacijos yra DK sąskaitos kreditai ir todėl jos yra įrašomos kaip neigiamos sumos. Paprastai šios operacijos biudžeto plane taip pat yra rodomos kaip neigiamos sumos. Tačiau biudžeto klasę į plano maketą įtraukę kaip lauką, galite nustatyti, kad įplaukos būtų rodomos kaip teigiamos sumos.
 

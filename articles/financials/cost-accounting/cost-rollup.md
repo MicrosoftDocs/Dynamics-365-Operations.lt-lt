@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudodami kaštų apskaitą galite suprasti, kaip išlaidų srautas susijęs su organizacijoje pristatomais produktais ir paslaugomis. Norint peržiūrėti išlaidų skaidrumą svarbu pasiekti to, kad išlaidos būtų paskirstomos išlaidų objektams pagal atitinkamą paskirstymo pagrindą. Pagal numatytuosius nustatymus yra pasiekiama pirminio išlaidų elemento išlaidų paskirstymo, kurio norima kai kuriais atvejais, bet su juo susijusios keletas įžvalgų, į kurias reikėtų atsižvelgti.
 
@@ -297,7 +297,7 @@ Aiškiai atskiriant **Išlaidų paskirstymo** ir **Išlaidų sumavimo strategija
 
 
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 -  [Savikainos objekto dimensijos](cost-objects.md)
 -  [Savikainos elemento dimensijos](cost-elements.md)
 -  [Dimensijų hierarchijos](dimension-hierarchy.md)

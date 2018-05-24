@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Mažmeninės prekybos EKA maketo dizaino įrankio diegimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Galite naudoti vieno spustelėjimo dizaino įrankį, norėdami kurti skirtingus „Retail Modern POS“ (MPOS) ir „Cloud POS“ horizontalaus arba vertikalaus režimo maketus, skirtus parduotuvėms, registrams, kasininkams ir vadovams.
 
@@ -51,7 +51,7 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 
 **Žinoma problema:** šiuo metu dizaino įrankis naršyklėse „Google Chrome“ ir „Mozilla Firefox“ tinkamai neveikia. Mes sprendžiame šią problemą.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [„Retail Modern POS“ konfigūravimas, atsisiuntimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md)

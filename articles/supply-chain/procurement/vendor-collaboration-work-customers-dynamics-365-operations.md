@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite naudoti tiekėjo bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Dynamics 365 for Finance and Operations“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
 
@@ -141,7 +141,7 @@ Kaip tiekėjas galite pasiekti dalį informacijos, kurią klientas tvarko pagrin
 
 Pasiekiama informacija: tiekėjo pavadinimas, adresai, kontaktinė informacija, kontaktiniai asmenys ir jų kontaktinė informacija, identifikavimo numeriai, mokesčių mokėtojų kodai, įsigijimo kategorijos, kurias naudodamas tiekėjas gali parduoti prekes ar paslaugas klientui, ir informacija apie sertifikatus.
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md)
 

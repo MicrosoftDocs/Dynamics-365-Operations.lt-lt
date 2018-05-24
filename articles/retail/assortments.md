@@ -3,27 +3,28 @@ title: Asortimento valdymas
 description: "Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Microsoft Dynamics 365 for Retail“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Asortimento valdymas
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Peržiūra
 Sprendime „Microsoft Dynamics 365 for Retail“ galima naudoti *asortimentus*, kurie leidžia valdyti produktų prieinamumą įvairiuose kanaluose. Asortimentais nustatoma, kurių produktų galima įsigyti konkrečiose parduotuvėse ir konkrečiu laikotarpiu.
@@ -35,25 +36,25 @@ Bendrąjį kanalo produktų derinį nustato tam kanalui priskirti publikuoti aso
 ### <a name="basic-assortment-setup"></a>Pagrindinė asortimentų sąranka
 Tolesniame pavyzdyje kiekvienai parduotuvei sukonfigūruotas unikalus asortimentas. Šiuo atveju 1 parduotuvėje galima įsigyti tik 1 produktą, o 2 parduotuvėje – tik 2 produktą.
 
-![Kiekvieną produktą galima įsigyti vienoje parduotuvėje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Kiekvieną produktą galima įsigyti vienoje parduotuvėje")
+![Kiekvieną produktą galima įsigyti vienoje parduotuvėje](./media/Managing-assortments-figure1.png)
 
 Kad 2 produktą būtų galima įsigyti 1 parduotuvėje, jį galite įtraukti į 1 asortimentą.
 
-![2 produktas įtrauktas į 1 asortimentą](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "2 produktas įtrauktas į 1 asortimentą")
+![2 produktas įtrauktas į 1 asortimentą](./media/Managing-assortments-figure2.png)
 
 Arba galite 1 parduotuvę įtraukti į 2 asortimentą.
 
-![1 parduotuvė įtraukta į 2 asortimentą](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "1 parduotuvė įtraukta į 2 asortimentą")
+![1 parduotuvė įtraukta į 2 asortimentą](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizacijų hierarchijos
 Situacijose, kai keliuose kanaluose naudojami tokie patys produktų asortimentai, asortimentus galite sukonfigūruoti naudodami organizacijos hierarchiją Mažmeninės prekybos asortimentas. Įtraukus šios hierarchijos mazgus, bus įtraukti visi tų mazgų kanalai ir antriniai mazgai.
 
-![Organizacijos hierarchija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Organizacijos hierarchija")
+![Organizacijos hierarchija](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Produkto kategorijos
 Panašiai produktų pusėje produktų grupių galite įtraukti naudodami produktų kategorijų hierarchijas. Galite konfigūruoti asortimentus įtraukdami vieną ar kelis kategorijų hierarchijų mazgus. Šiuo atveju į asortimentą bus įtraukti visi to kategorijos mazgo ir jo antrinių mazgų produktai.
 
-![Produktų kategorijos](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Produktų kategorijos")
+![Produkto kategorijos](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Neįtraukti produktai ar kategorijos
 Be produktų ir kategorijų įtraukimo į asortimentus galite naudoti parinktį Neįtraukti, kad apibrėžtumėte konkrečius produktus ar kategorijas, kurių į asortimentus nereikėtų įtraukti. Tolesniame pavyzdyje į konkrečią kategoriją norite įtraukti visus produktus, išskyrus 2 produktą. Šiuo atveju asortimento nebūtina apibrėžti po vieną produktą ar kurti papildomų kategorijų mazgų. Vietoj to galite tiesiog įtraukti kategoriją, tačiau neįtraukti produkto.
@@ -61,7 +62,7 @@ Be produktų ir kategorijų įtraukimo į asortimentus galite naudoti parinktį 
 > [!NOTE]
 > Jei pagal apibrėžimą produktas viename ar keliuose asortimentuose yra ir įtrauktas, ir neįtrauktas, jis bus visada laikomas neįtrauktu.
 
-![Neįtrauktas produktas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Neįtrauktas produktas")
+![Produktas neįtrauktas](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Visuotiniai ir išleisti produktai
 Asortimentai yra apibrėžiami visuotiniu lygiu ir juose gali būti kanalų iš kelių juridinių subjektų. Į asortimentus įtrauktus produktus ir kategorijas taip pat bendrai naudoja juridiniai subjektai. Tačiau produktas turi būti išleistas, kad jį būtų galima faktiškai parduoti, užsakyti, skaičiuoti ar gauti kanale (pavyzdžiui, elektroniniame kasos aparate \[EKA\]). Todėl nors dvi parduotuvės skirtinguose juridiniuose subjektuose gali bendrai naudoti asortimentą su tais pačiais produktais, juos įsigyti galima, tik jei jie išleisti tiems juridiniams subjektams.

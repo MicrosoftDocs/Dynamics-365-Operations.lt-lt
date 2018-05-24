@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Microsoft Dynamics 365 for Finance and Operations“ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 
@@ -60,7 +60,7 @@ Galite nurodyti, kurių atsargų būsenos yra blokavimo būsenos, naudodami para
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kurti ir tvarkyti atsargų blokavimą](tasks/create-maintain-inventory-blocking.md)

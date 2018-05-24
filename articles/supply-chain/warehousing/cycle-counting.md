@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas.
 
@@ -136,7 +136,7 @@ Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nus
 
 Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reikšmę galite puslapyje **Laukiantis peržiūros ciklo skaičiavimas**. Modifikuotą prekės kiekio skaičių patikrinti galite puslapyje **Turimos atsargos pagal vietą**. Apskaičiuota reikšmė atmetama, jei skirtumo patvirtinti negalima.
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 [Mobiliųjų įrenginių konfigūravimas darbui sandėlyje](configure-mobile-devices-warehouse.md)
 
 

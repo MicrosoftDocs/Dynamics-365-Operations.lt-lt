@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Sandėlio mobiliojo įrenginio rodymo parametrai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip nustatyti mobiliojo įrenginio ekrano išvaizdą ir susieti klaviatūros sparčiuosius klavišus su valdikliais, pvz., mygtukais. 
 
@@ -89,15 +89,15 @@ Norėdami pasirinkti spalvą, puslapyje **Pasirinkti spalvą** spustelėkite pal
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Nurodykite datos formatą, kuris bus naudojamas mobiliuosiuose įrenginiuose
 Galite išplėsti kiekvienos įdiegties priimtinų datos formatų sąrašą. Pavyzdžiui, ši galimybė gali būti naudinga, jei norite pateikti formatą, kuris leidžia darbuotojui paprasčiau įvesti datas mobiliajame įrenginyje. Numatytasis formatas priklauso nuo vartotojo numatytosios kalbos, kuri nurodyta puslapio **Vartotojo parinktys** lauke **Kalba**. (The same page is also used to associate an employee with a specific warehouse work user.) **Pastaba:** sandėlio mobiliųjų įrenginių portale nenaudojamas lauko **Datos, laiko ir numerių formatas**, esančio puslapyje **Kalbos ir regiono nuostatos**, parametras. Norėdami pakeisti datos formatą, turite būti susipažinę su „Microsoft .NET Framework“ paprastosiomis išraiškomis. Daugiau informacijos žr. [ „.NET Framework“ paprastosios išraiškos](http://go.microsoft.com/fwlink/?LinkId=391260). Norėdami nurodyti datos formatus, redaguokite failą Dates.ini, esantį sandėlio mobiliųjų įrenginių portale adresu Content\\Settings\\Dates.ini. Šis failas naudoja .NET paprastąsias išraiškas datos formatui nurodyti. Paprastojoje išraiškoje turi būti antrinių išraiškų, kurios kuria įvardytas dienos, mėnesio ir metų (DDMMYY) grupes, kaip parodyta toliau pateiktame pavyzdyje.
 
-^(?&lt;diena&gt;\\d{2})(?&lt;mėnuo&gt;\\d{2})(?&lt;metai&gt;\\d{2})$
+^(?&lt;diena&gt;\\d.{2})(?&lt;mėnuo&gt;\\d.{2})(?&lt;metai&gt;\\d.{2})$
 
 Kiekvienoje antrinėje išraiškoje turi būti vienas arba du dienos ir mėnesio skaitmenys ir nuo vieno iki keturių metų skaitmenų. Pavyzdžiui, toliau pateikta antrinė išraiška apibrėžia įvardytą metų grupę ir joje reikia nurodyti nuo dviejų iki keturių skaitmenų.
 
-(?&lt;metai&gt;\\d{2,4})
+(?&lt;metai&gt;\\d.{2,4})
 
 Tame pačiame faile galite nurodyti daugiau nei vieną išraišką. Kiekviena išraiška turi būti atskiroje eilutėje. Pirmoji kriterijus atitinkanti išraiška yra naudojama datai išanalizuoti.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Mobiliųjų įrenginių konfigūravimas darbui sandėlyje](configure-mobile-devices-warehouse.md)

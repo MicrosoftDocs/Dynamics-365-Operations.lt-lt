@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Ganto diagramos naudojimas užduotims planuoti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ganto diagrama yra skirta suteikti teisę gamybos planuotojams valdyti ir optimizuoti gamybos planą. Ganto diagrama išskaidrina operacijų srautą, tampa paprasta reguliuoti gamybos grafiką ir atsižvelgti į medžiagų arba išteklių trūkumus. Tai padeda planuotojams geriau išnaudoti turimus išteklius, sumažinti nebaigtą gamybą ir optimizuoti gamybos užsakymų našumo laiką.
 
@@ -156,7 +156,7 @@ Ganto diagramą galima atidaryti iš šių puslapių.
 |           <strong>Atliktina užduotis</strong> (sąrašas <strong>Gamybos vietos valdymo</strong> darbo srityje)            |                                                                                               <strong>Atliktinų užduočių sąrašo gamybos vietos valdyme</strong> darbo sritis rodo užduotis iš gamybos ir paketinių užsakymų, kurios atliekamos naudojant pasirinktus darbo srities išteklius. Meniu elemente <strong>Ganto diagrama</strong> galite atidaryti Ganto diagramą ir visos sąraše pasirinktos užduotys bus įkeltos į diagramą.                                                                                               |
 | <strong>Gamybos užsakymai, kuriuos reikia išleisti</strong> (atidaromi iš <strong>Gamybos vietos valdymo</strong> darbo srities) |                                                                                                                                         Gamybos užsakymų, kuriuos reikia išleisti, puslapis, atidaromas <strong>Gamybos vietos valdymo</strong> darbo srities. Šiame puslapyje rodomi suplanuoti gamybos ir paketiniai užsakymai, laukiantys išleidimo. Šiame puslapyje galite atidaryti pasirinktų gamybos užsakymų Ganto diagramą.                                                                                                                                          |
 
-## <a name="see-also"></a>Taip pat žiūrėkite  
+## <a name="additional-resources"></a>Papildomi ištekliai  
 [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai) (vaizdo įrašas)](https://youtu.be/BtbuShkGj4I)
 
 [Vaizdinis gamybos planavimas (demonstracinis scenarijus)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
