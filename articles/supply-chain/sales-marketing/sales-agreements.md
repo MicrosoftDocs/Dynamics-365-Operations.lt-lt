@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-agreements"></a>Pardavimo sutartys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas.
 
@@ -38,7 +38,7 @@ Pardavimo sutarties galiojimo laikotarpis apibrėžiamas sutarties laukuose **Į
 
 Galite sukurti pardavimo užsakymą tiesiogiai iš pardavimo sutarties naudodami veiksmą **Išleisti užsakymą**. Arba galite pasirinkti galiojančią pardavimo sutartį atlikdami užsakymus (žr. šio straipsnio skyrių „Pardavimo sutarčių taikymas užsakymo procese“).  
 
-**Pastaba:** ankstesnėse versijose pardavimo sutartys buvo vadinamos bendrais pardavimo užsakymais.
+> [Pastaba!] Ankstesnėse versijose pardavimo sutartys buvo vadinamos bendrais pardavimo užsakymais.
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pardavimo sutarties eilutė įpareigoja ką nors parduoti. Iš esmės yra dvi įsipareigojimų kategorijos:

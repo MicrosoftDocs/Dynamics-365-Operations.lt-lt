@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 493c54105b36e561edf6d5db95eaff442a812905
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a>Balanso finansinės ataskaitos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai. 
 
@@ -72,12 +72,12 @@ Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpeli
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Finansinės ataskaitos](financial-reporting-getting-started.md)
 
-[Peržiūrėti finansines ataskaitas](view-financial-reports.md)
+[Finansinių ataskaitų peržiūra](view-financial-reports.md)
 
 [„Dynamics‟ Finansinių ataskaitų tinklaraštis](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 

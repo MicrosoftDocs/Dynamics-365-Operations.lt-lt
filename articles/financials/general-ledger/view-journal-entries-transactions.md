@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Žurnalo įrašų ir operacijų peržiūra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinti įvairūs būdai, kaip galite peržiūrėti žurnalo įrašus ir operacijas. 
 
@@ -54,9 +54,9 @@ Be finansinių ataskaitų, galite naudoti šias DK ataskaitas, kad peržiūrėtu
 -   **Operacijų kilmė** – šioje operacijų ataskaitoje rodoma sąskaita pagal žurnalą ir pagal operacijų, apskaitos ir ataskaitų valiutą. Tai taip pat rodoma kiekviena žurnalo eilutė, kur buvo naudojama kaip poslinkis.
 
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 - [DK sąskaitos balansai](general-ledger-account-balances.md) 
-- [Apskaitos šaltinių naršyklė](..\accounts-payable\accounting-source-explorer.md)
+- [Apskaitos šaltinių naršyklė](../accounts-payable/accounting-source-explorer.md)
 - [Finansinės ataskaitos](financial-reporting-getting-started.md)
 - [Peržiūrėti žurnalo įrašus](tasks/view-journal-entries-or-transactions.md)
 

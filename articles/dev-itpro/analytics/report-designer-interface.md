@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Ataskaitų dizaino įrankio sąsaja
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius. 
 
@@ -220,11 +220,11 @@ Ataskaitų dizaino įrankio įrankių juosta suteikia greitą prieigą prie koma
 | [![Mygtukas Stulpelio aprašas](./media/columnc130389.png)](./media/columnc130389.png)                 | Rodyti prie aktyvaus ataskaitos aprašo priskirtą stulpelio aprašą.                                                                                                 |
 | [![Mygtukas Ataskaitų medžio apibrėžimas](./media/treec130389.png)](./media/treec130389.png)             | Rodyti prie aktyvaus ataskaitos aprašo priskirtą ataskaitų medžio aprašą.                                                                                         |
 | [![Mygtukas „Report Viewer“](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Paleisti „Report Viewer“ ir rodyti naujausią sugeneruotos ataskaitos versiją. Šis mygtukas galimas ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą. |
-| [![Mygtukas Generuoti ataskaitą](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generuoti ataskaitą iš aktyvaus ataskaitos aprašo. Šis mygtukas galimas ataskaitos apraše.                                                                      |
+| [![Mygtukas Generuoti ataskaitą](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generuojama ataskaita iš aktyvaus ataskaitos aprašo. Šis mygtukas galimas ataskaitos apraše.                                                                      |
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Finansinės ataskaitos](financial-reporting-intro.md)

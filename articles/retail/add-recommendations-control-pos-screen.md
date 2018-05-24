@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
-ms.openlocfilehash: b99d1d30fc320bca5c49921b7c4ccdd7e977f67c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Rekomendacijų valdiklio įtraukimas į EKA įrenginio operacijų puslapį
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE]
 > Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes. Daugiau informacijos žr. [Pašalintos arba nebenaudojamos funkcijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
@@ -78,10 +78,10 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 12. Spustelėkite **Paleisti dabar**.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Pritaikytų produkto rekomendacijų apžvalga](personalized-product-recommendations.md)
+[Personalizuotų produktų rekomendacijų apžvalga](personalized-product-recommendations.md)
 
 
 

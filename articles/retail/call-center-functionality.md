@@ -3,7 +3,7 @@ title: "Skambučių centro funkcijos"
 description: "Šioje temoje pateikiama skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Retail“ apžvalga."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Skambučių centro funkcijos
+# <a name="call-center"></a>Skambučių centras 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Šiame straipsnyje pateikta skambučių centro pardavimo funkcijos programoje „Microsoft Dynamics 365 for Retail“ apžvalga.
+Programoje „Dynamics 365 for Retail“ skambučių centras yra mažmeninės prekybos kanalo tipas, kurį galima nustatyti programoje. Apibrėžus konkretų savo skambučių centro objektų kanalą, sistema leidžia susieti konkrečius duomenis pagal numatytuosius nustatymus ir užsakymo apdorojimo numatytuosius nustatymus su pardavimo užsakymais, sukurtais skambučių centro kanalo vartotojo.
 
-„Dynamics 365 for Retail“ palaiko skambučių centrus kaip mažmeninės prekybos kanalo tipą. Skambučių centre darbuotojai telefonu priima klientų užsakymus ir kuria pardavimo užsakymus. Skambučių centro funkcija apima savybes, kurios padeda lengviau priimti užsakymus telefonu ir vykdyti klientų aptarnavimą visu užsakymo vykdymo proceso metu. Pavyzdžiui, skambučių centro darbuotojai gali įvesti mokėjimo informaciją tiesiai į pardavimo užsakymą ir peržiūrėti išsamią mokesčių ir mokėjimų suvestinę prieš pateikdami užsakymą. Darbuotojai taip pat turi galimybę kontroliuoti kainodarą ir gali pasiekti įvairius duomenis apie klientus, produktus ir kainas iš puslapio **Pardavimo užsakymas**. Be to, skambučių centruose yra išplėstinė funkcija, suteikianti galimybę stebėti klientų retrospektyvą ir užsakymo būseną. Kiekvienas skambučių centras gali turėti atskirus vartotojus, mokėjimo būdus, kainų grupes, finansines dimensijas ir pristatymo būdus. Šias parinktis galite konfigūruoti kurdami skambučių centrą. Papildomai galite naudoti puslapį **Skambučių centras** norėdami įjungti arba išjungti šias unikalių skambučių centrų funkcijų grupes.
+Skambučių centro funkcijos apima išplėstinę mažmeninės prekybos kainą ir akcijas, katalogus, dovanų korteles, lojalumo programos ir kuponus. Skambučių centro užsakymai taip pat pasitelkiami iš elektroninio kasos aparato (EKA) programos, kelių kanalų užsakymo įvykdymo scenarijams palaikyti.
 
--   **Užsakymo baigimas** – ši grupė apima funkcijas, susijusias su mokėjimais ir užsakymo baigimu puslapyje **Pardavimo užsakymas**.
--   **Tiesioginis pardavimas** – ši grupė apima funkcijas, susijusias su šaltinio kodais, scenarijais ir katalogų užklausomis.
+Svarbu atkreipti dėmesį, kad jei skambučių centro modulį galima naudoti kitose pramonės šakose už mažmeninės prekybos ribų, dabartinis „Dynamics 365 for Retail“ skambučių centro programos leidimas nėra optimizuotas naudoti verslo įmonių tarpusavio (B2B) užsakymų apdorojimo scenarijams arba tiems scenarijams, kurių užsakymuose yra daug pardavimo eilučių. Rekomenduojama, kad vartotojai, kurie nori naudoti skambučių centro funkcijos užsakymams apdoroti už įprasto tiesioginio vartotojų operacijų vykdymo ribų, skirtų pakankamai laiko išbandyti ir patikrinti, kad skambučių centro funkcijų įjungimas atitiks funkcinius ir našumo poreikius.
 
-Įjungus šias funkcijas skambučių centro parametruose, puslapyje **Pardavimo užsakymas** jas gali pasiekti su skambučių centru susieti vartotojai. Norint naudoti daugumą šių funkcijų, reikia atlikti papildomą nustatymą. Kad vartotojai galėtų kurti skambučių centro užsakymus, turite pridėti tuos vartotojus kaip skambučių centro vartotojus. Šis veiksmas užtikrina skambučių centro kanalui būdingą konfigūraciją ir funkcijas. Štai keletas funkcijų, kurios tampa pasiekiamos, pavyzdžių.
+Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar pateikia ir vartotojui patogią aptarnavimo programą, kuri vartotojams leidžia lengviau rasti klientų sąskaitas ir peržiūrėti visus susijusius kliento užsakymų duomenis ir atributus. Klientų aptarnavimo ekranas sukurtas taip, kad leistų vartotojui greitai pasiekti su užsakymu susijusius duomenis, kurie leidžia atsakyti į dažniausius iš klientų gautus su užsakymu susijusius klausimus.
 
--   Interaktyviojo pardavimo funkcija teikia pardavimo telefonu scenarijų ir produkto vaizdų, kurie padeda pardavimo klerkams ir teikia jiems gaires priimant užsakymus, konfigūracijos galimybes.
--   Užsakymų negalima baigti, kol pardavimo klerkai neužfiksavo bent vieno mokėjimo metodo.
--   Papildomo pardavimo ir kryžminio pardavimo taisykles galima konfigūruoti, kad pardavimo klerkai būtų raginami reklamuoti klientui konkrečius produktus.
--   Pardavimo tarnautojai gali užfiksuoti katalogo, iš kurio klientas užsako, šaltinio kodą.
--   Pardavimo klerkai gali prie užsakymo pridėti mažmenininko kuponų.
--   Pardavimo klerkai gali parduoti tęstinumo programas.
--   Užsakymus galima sulaikyti rankiniu būdu arba automatiškai norint nurodyti, kad užsakymą bus galima apdoroti tik atlikus papildomą tyrimą.
+Šiame puslapyje pateikiami saitai į susijusius dokumentus, susijusius su nustatymas, konfigūracija ir skambučių centro funkcijų naudojimu programoje „Dynamics 365 for Retail“.
 
+## <a name="configure-the-call-center"></a>Sukonfigūruokite skambučių centrą
+[Užsakymo apdorojimo parinkčių nustatymas](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Užsakymų apdorojimo konfigūravimas
+[Įspėjimų dėl apgaulės nustatymas](set-up-fraud-alerts.md)
+[Užsakymo sulaikymas rankiniu būdu](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Mokėjimo apdorojimo konfigūravimas
+[Mokėjimo būdai skambučių centre](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Tiesioginės rinkodaros konfigūravimas
+[Skambučių centro katalogai](call-center-catalogs.md)
+
+[RFM analizės nustatymas](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Tęstinumo programų konfigūravimas
+[Skambučių centro tęstinumo programos nustatymas](set-up-continuity-program.md)
 
 

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 7ae83192924a790451d8da511638c7fc1cd92f90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f87238b3b2f6e7cc68bf2f1a7cd3a21254f3599a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Peržiūrėti ir įvertinti klausimyno rezultatus
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus. 
 
@@ -73,7 +73,7 @@ Naudodami klausimyno statistiką pagal apsibrėžtus skaičiavimus galite analiz
 
 Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai perskaičiuojant rezultatus.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Klausimynų kūrimas](design-questionnaires.md)

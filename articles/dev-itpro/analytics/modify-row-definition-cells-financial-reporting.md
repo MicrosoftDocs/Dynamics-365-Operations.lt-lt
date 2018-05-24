@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Eilutės apibrėžimo langelių keitimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti. 
 
@@ -357,7 +357,7 @@ Kai kurios apskaitos sistemos palaiko finansinių duomenų sąskaitos atributus 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Langelio Saitas su finansinėmis dimensijomis nurodymas
 Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje pateikiamos dimensijų reikšmės, bet vietoj segmento reikšmių arba dimensijų reikšmių arba papildomai prie jų galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**. 
 > [!NOTE]
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Norėdami nurodyti informaciją, kuri jau yra eilutės apibrėžime, įtraukite informaciją į langelį **Saitas su finansinėmis dimensijomis**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Norėdami nurodyti informaciją, kuri jau yra eilutės apibrėžime, įtraukite informaciją į langelį **Saitas su finansinėmis dimensijomis**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
 
 | Pasirinktas saito tipas       | Saito stulpelio aprašas pasikeičia į šį |
 |----------------------------------|----------------------------------------------------|
@@ -394,13 +394,13 @@ Dialogo lange <strong>Dimensijos</strong> įvedus fizinio segmento reikšmę pak
 
 Galite nurodyti segmentų reikšmių arba dimensijų reikšmių intervalą. Nurodyti intervalą naudinga todėl, kad jums nereikės atnaujinti eilutės aprašo kiekvieną kartą, kai į finansinius duomenis įtraukiama nauja segmento reikšmė arba dimensijos reikšmė. Pavyzdžiui, kai intervalas **+Sąskaita=\[6100:6900\]**, į eilutės sumą įtraukiamos reikšmės iš sąskaitų, kurių skaičiai nuo 6100 iki 6900. Kai intervale yra pakaitos simbolis (?), ataskaitų dizaino įrankis neįvertina intervalo pagal kiekvieną simbolį. Vietoj to nustatomos mažiausia ir didžiausia intervalo reikšmės, tada įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. 
 > [!Note] 
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Kelių segmentų arba kelių dimensijų intervalai
 
 Įvedus intervalą, kai naudojamos kelių dimensijų reikšmių kombinacijos, intervalo palyginimas atliekamas ..\financial-dimensions\dimension-by-dimension pagrindu. Intervalo palyginimo negalima atlikti pagal kiekvieną simbolį arba pagal segmento dalį. Pavyzdžiui, intervalas  **+Sąskaita=\[5000:6000\], Padalinys=\[1000:2000\], Išlaidų centras=\[00\]** apima tik tas sąskaitas, kurios atitinka kiekvieną segmentą. Pagal šį scenarijų pirmosios dimensijos intervalas turi būti nuo 5000 iki 6000, antros dimensijos intervalas – nuo 1000 iki 2000, o paskutinė dimensija turi būti 00. Pavyzdžiui, **+Sąskaita=\[5100\], Padalinys=\[1100\], Išlaidų centras=\[01\]** į ataskaitą neįtraukiama, nes paskutinis segmentas nepatenka į nurodytą intervalą. Jei segmento reikšmėje yra tarpų, tą reikšmę rašykite laužtiniuose skliaustuose (\[ \]). Keturių simbolių segmentui tinkamos šios reikšmės: **\[ 234\], \[123 \], \[1 34\]**. Dimensijos reikšmės turi būti rašomos laužtiniuose skliaustuose (\[ \]), o ataskaitų dizaino įrankis parašo šiuos skliaustus už jus. Kai į kelių segmentų arba kelių dimensijų intervalą įtraukti pakaitos simboliai (? arba \*), nustatomos mažiausia ir didžiausia viso kelių segmentų arba kelių dimensijų intervalo reikšmės, o po to įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. Jei intervalas ilgas, pvz., visos sąskaitos nuo 40000 iki 99999, jei įmanoma, turite nurodyti tinkamą pradžios sąskaitą ir pabaigos sąskaitą. 
 > [!Note] 
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], \{ arba \}. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Pridėti prie kitų eilutės aprašo sąskaitų arba iš jų atimti
 Norėdami sudėti vienos sąskaitos pinigines sumas ir kitos sąskaitos pinigines sumas arba jas vieną iš kitos atimti, galite naudoti langelio **Saitas su finansinėmis dimensijomis** pliuso ženklą (+) arba minuso ženklą (-). Toliau pateikiamoje lentelėje nurodomi priimtini formatai, naudojami sudedant arba atimant saitus su finansiniais duomenimis.
@@ -488,10 +488,10 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 1.  Ataskaitų dizaino įrankyje atidarykite norimą keisti eilučių, stulpelių arba medžio aprašą.
 2.  Meniu **Redaguoti** spustelėkite **Dimensijos reikšmių rinkinių tvarkymas**.
 3.  Dialogo lango **Dimensijos reikšmių rinkinių tvarkymas** lauke **Dimensijos** pasirinkite dimensijos tipą.
-4.  Pasirinkite norimą naikinti rinkinį ir spustelėkite **Naikinti**. Spustelėkite **Taip**, jeigu norite visam laikui panaikinti dimensijos reikšmių rinkinį.
+4.  Pasirinkite norimą naikinti rinkinį ir spustelėkite **Naikinti**. Spustelėkite **Taip**, kad visam laikui panaikintumėte dimensijos verčių rinkinį.
 
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
 

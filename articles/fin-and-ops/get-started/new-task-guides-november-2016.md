@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
 
@@ -587,7 +587,7 @@ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) p
 |                       Automatinio transportavimo derinimo nustatymas                       |     Bendra     |
 |              <strong>\</strong>*Trumpalaikio išrinkimo elementų perskirstymo nustatymas              |     Bendra     |
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Galima naudoti naujus užduočių vadovus (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)

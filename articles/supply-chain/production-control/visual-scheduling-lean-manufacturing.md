@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>„Lean manufacturing“ vaizdinis planavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie „Kanban“ grafiko sritį, kurią gamybos planuotojas gali naudoti norėdamas valdyti ir optimizuoti „kanban“ užduočių gamybos planą.
 
@@ -91,7 +91,7 @@ Užduotis galima iš naujo priskirti iš vieno laikotarpio kitam. Ši galimybė 
 -   Puslapis **Gamybos eigos vizualizavimas**
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [„Lean manufacturing“ – „kanban“ užduočių planavimas](lean-manufacturing-kanban-job-scheduling.md)

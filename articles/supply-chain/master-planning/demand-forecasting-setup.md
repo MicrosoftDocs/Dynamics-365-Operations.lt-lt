@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.  
 
@@ -78,7 +78,7 @@ Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami maš
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>„Finance and Operations“ poreikio prognozės mašininio mokymo tarnybos parametrai
 Norėdami peržiūrėti „Finance and Operations“ poreikio prognozės tarnybos parametrus, kuriuos galima konfigūruoti, pasirinkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozė** &gt; **Prognozavimo algoritmo parametrai**. Puslapyje **Prognozavimo algoritmo parametrai** rodomos numatytosios parametrų reikšmės. Šiuos parametrus galima perrašyti puslapyje **Poreikio prognozės parametrai**. Naudokite skirtuką **Bendra**, jei parametrus norite perrašyti skirtuke visuotinai, arba naudokite skirtuką **Prekių paskirstymo raktai**, jei norite perrašyti konkrečių prekių paskirstymo raktų parametrus. Perrašyti konkretaus prekių paskirstymo rakto parametrai turi įtakos tik su tuo prekių paskirstymo raktu susietų prekių prognozei.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Įvadas į poreikio prognozes](introduction-demand-forecasting.md)

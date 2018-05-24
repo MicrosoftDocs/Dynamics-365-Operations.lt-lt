@@ -3,7 +3,7 @@ title: Pasirinktiniai laukai
 description: "Šioje temoje parodoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ kai kuriems vartotojams leidžia kurti pasirinktinius laukus ir programą pritaikyti savo verslui."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="custom-fields"></a>Pasirinktiniai laukai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Nors „Microsoft Dynamics 365 for Finance and Operations“ suteikia platų parengtų naudoti laukų rinkinį, skirtą valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Kad išpildytų šį poreikį, „Finance and Operations“ jums leidžia kurti pasirinktinių laukų, kad programą galėtumėte pritaikyti savo verslui (jei turite funkcijos naudojimo teises). 
 
@@ -139,7 +139,7 @@ Dėl našumo ir techninių priežasčių pasirinktinių laukų galima įtraukti 
      -   Parametras
      -   Nuoroda
      -   TransactionHeader
-- Lentelė negali išplėsti kitos lentelės.
+- Kitos lentelės naudojant šią lentelę išplėsti negalima.
 - Lentelės negalima pažymėti sistemos lentele.
 - Lentelė negali būti laikina.
 

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>Sekimo naudojimas išskleidimo analizės tikslais
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje paaiškinta, kaip galite naudoti sekimą užsakymo išskleidimo rezultatų priežastims ištirti.
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 
 Galite peržiūrėti išsamią informaciją apie pasirinkto užsakymo būsimuosius ir veiksmus. **Išskleidimo** puslapyje sekimo informacija prieinama **Paaiškinimo** skirtuke, esančiame viršutinėje srityje. Sekimo vyksta išskleidžiant užsakymą. Norėdami pradėti sekti užsakymą, spustelėkite **Atnaujinti** ir pasirinkite žymės langelį **Įgalinti sekimą**. Norėdami žurnale ieškoti konkrečios informacijos, galite naudotis lauku **Rasti tekstą**. Ieškos rezultatai paryškinti medyje.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Bendrieji planai](master-plans.md)

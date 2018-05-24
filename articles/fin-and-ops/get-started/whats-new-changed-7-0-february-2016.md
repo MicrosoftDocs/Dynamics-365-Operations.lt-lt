@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics AX 7.0“ veikiančios funkcijos. Šioje versijoje pateikiamos platformos ir programos funkcijos, ir ji išleista 2016 m. vasario mėn.
 
@@ -536,7 +536,7 @@ Nepridėta jokių naujų funkcijų.
 </tr>
 <tr class="odd">
 <td>(ES) Teikite ataskaitas apie Intrastat papildomų vienetų kiekį, naudodami vienetų konvertavimo parametrą.</td>
-<td>„Intrastat“ prekės kode pateikiamas teksto laukas papildomiems vienetams nustatyti, o kortelėje **Produktas** pateikiamas laukas papildomų vienetų kiekiui kilogramais nustatyti.</td>
+<td>Intrastat prekės kode pateikiamas teksto laukas papildomiems vienetams nustatyti, o <strong>produkto</strong> kortelėje pateikiamas laukas papildomų vienetų kiekiui kilogramais nustatyti.</td>
 <td>Intrastat prekės kodo papildomi vienetai parenkami iš vienetų sąrašo. Papildomų vienetų kiekis apskaičiuojamas naudojant vienetų konvertavimo parametrus.</td>
 <td>Tokiu būdu suvienodinamas metodas, kuriuo operacijos vienetai perskaičiuojami kaip papildomi vienetai.</td>
 </tr>
@@ -569,7 +569,7 @@ Nepridėta jokių naujų funkcijų.
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ką galite daryti?**                                                                                                       | **Dynamics AX 2012**                                                                                                                                                                                                                                                                          | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                               | **Kodėl tai svarbu?**                                                                                                                              |
-| Įspėkite vartotoją, jei pardavimo užsakymas arba gamybos užsakymas neparuoštas pristatyti iki suplanuotos datos.                         | Įspėjimai, kuriuos sukuria bendrasis planavimas, vadinami *būsimųjų pranešimais*. *Būsimieji* yra sutartis tarp dviejų šalių pirkti arba parduoti turtą už kainą, sutartą šiandien (*būsimųjų kaina*), nors pristatoma ir mokama ateityje (*pristatymo data)*. | *Būsimųjų pranešimai* ir *būsimųjų datos* atitinkamai pervardyti *apskaičiuotais atidėjimais* ir *atidėjimo datomis*.                                                                                                                                                                                                                                                   | Terminologija, naudota programoje „AX 2012‟, buvo netiksli, ir dėl to atsirado neteisingų vertimų.                                                               |
+| Įspėkite vartotoją, jei pardavimo užsakymas arba gamybos užsakymas neparuoštas pristatyti iki suplanuotos datos.                         | Įspėjimai, kuriuos sukuria bendrasis planavimas, vadinami *būsimųjų pranešimais*. *Būsimieji* yra sutartis tarp dviejų šalių pirkti arba parduoti turtą už kainą, sutartą šiandien (*būsimųjų kaina*), nors pristatoma ir mokama ateityje (*pristatymo data*). | *Ateities pranešimai* ir *ateities datos* atitinkamai pervardyti *apskaičiuotais atidėjimais* ir *atidėjimo datomis*.                                                                                                                                                                                                                                                   | Terminologija, naudota programoje „AX 2012‟, buvo netiksli, ir dėl to atsirado neteisingų vertimų.                                                               |
 | Gaukite sparčių įžvalgų apie vykdomo bendrojo planavimo būseną, skubius suplanuotus užsakymus ir suplanuotus užsakymus, dėl kurių atsiranda atidėjimų. | Informacija yra, tačiau išskaidyta įvairiose formose.                                                                                                                                                                                                                       | Darbo srityje **Bendrasis planavimas** vienu žvilgtelėjimu matoma informacija apie tai, kada buvo įvykdytas paskutinis bendrasis planavimas, ar įvyko klaidų, kokie yra skubūs suplanuoti užsakymai ir dėl kurių suplanuotų užsakymų atsiranda atidėjimų.                                                                                                                                   | Galite pasinaudoti darbo srityje pateikiama apžvalga. Sujungiama aktuali informacija, kad būtų galima valdyti bendrąjį planavimą ir padėti gerinti produktyvumą. |
 | Naudodami „Excel‟ naujinkite poreikio prognozes.                                                                                      | Nepasiekiama                                                                                                                                                                                                                                                                                 | Įvesdami poreikio prognozes, naujindami ir poreikio prognozes naikindami galite pasinaudoti nuoseklia integracija su „Excel‟.                                                                                                                                                                                                                             | Ji padeda padidinti efektyvumą ir produktyvumą.                                                                                                          |
 | Įvertinkite poreikį ateityje ir kurkite poreikio prognozes pagal praeities operacijų duomenimis.                                  | Programoje „Microsoft Dynamics AX 2012 R3‟ „Microsoft SQL Server‟ analizės tarnybos prognozių modeliai naudojami kurti poreikio prognozėms.                                                                                                                                                | Naudodami „Microsoft Azure‟ mašininio mokymo debesies tarnybos pajėgumus ir išplečiamumą, vertinkite ateities poreikį. Mašininio mokymo tarnyboje prognozių modelius lengva naudoti ir išplėsti, kad būtų galima tenkinti klientų reikalavimus. Tarnyba parenka labiausiai atitinkantį modelį ir teikia pagrindinius našumo indikatorius (KPI), kurie gali būti naudojami apskaičiuoti prognozių tikslumui. | Generuokite tikslesnes prognozes naudodami mašininio mokymo metodus.                                                                              |
@@ -1081,7 +1081,7 @@ Nepridėta jokių naujų funkcijų.
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kas nauja ar pasikeitė](whats-new-changed.md)

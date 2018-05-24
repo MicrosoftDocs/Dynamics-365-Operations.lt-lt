@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Geriausios kvitų importavimo naudojant objektą Bendrasis žurnalas praktikos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.  
 
@@ -57,7 +57,7 @@ Tolesniuose skyriuose apibūdinama, kaip šie parametrai veikia, ir paaiškinama
 
 ### <a name="voucher-number"></a>Kvito numeris
 
--   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti apdorojimo pagal rinkinį parametrą bei nustatytą kvitų numerių numeraciją, 2016 m. vasario mėn. leidime pateikiamos karštosios pataisos. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](..\migration-upgrade\download-hotfix-lcs.md).
+-   Kai naudojate objekto Bendrasis žurnalas nustatymą **Rinkiniu pagrįstas apdorojimas**, kvito numeris turi būti nurodytas importuojamame faile. Kiekvienai bendrojo žurnalo operacijai priskiriamas kvito numeris, nurodytas importuojamame faile, net jei kvitas nėra subalansuotas. Jei norite naudoti apdorojimo pagal rinkinį parametrą bei nustatytą kvitų numerių numeraciją, 2016 m. vasario mėn. leidime pateikiamos karštosios pataisos. Karštosios pataisos numeris yra 3170316 ir ją galima atsisiųsti iš „Lifecycle services“ (LCS). Daugiau informacijos žr. [Karštųjų pataisų atsisiuntimas iš „Lifecycle services“](../migration-upgrade/download-hotfix-lcs.md).
     -   Norėdami įgalinti šią funkciją, žurnalo pavadinime, kuris naudojamas importavimo operacijoms atlikti, nustatykite parinktį **Numerių paskirstymas registruojant** kaip **Taip**.
     -   Kvito numeris vis tiek turi būti nurodytas importuojamame faile. Tačiau šis numeris yra laikinas ir registruojant žurnalą jis bus perrašytas naudojant kvito numerį. Įsitikinkite, kad visos žurnalo eilutės yra tinkamai sugrupuotos pagal laikiną kvito numerį. Pavyzdžiui, registruojant surandamos trys eilutės, kurių laikinas kvito numeris – 1. Laikinas visų trijų eilučių kvito numeris perrašomas naudojant paskesnį numeracijos numerį. Jei šios trys eilutės nėra subalansuotas įrašas, kvitas nėra registruojamas. Tada, jei rasta eilučių, kurių laikino kvito numeris yra 2, šis numeris yra perrašomas naudojant paskesnį numeracijos kvito numerį, ir t. t.
 

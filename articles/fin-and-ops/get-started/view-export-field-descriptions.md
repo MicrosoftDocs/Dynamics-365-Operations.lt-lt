@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
@@ -97,7 +97,7 @@ Norėdami, kad visi laukai būtų rodomi puslapyje, pasirinkite pasirinkties **�
 
 Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio straipsnio dalyje „Puslapių ieška“. Įrašius tikslų puslapio pavadinimą, laukų aprašymai gali būti nerodomi, jei yra daugiau nei vienas puslapis tokiu pačiu pavadinimu. Spustelėkite rodyklę lauke **Pasirinkti puslapį**, jei norite atidaryti filtruotą puslapių sąrašą.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Lauko žinyno tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)

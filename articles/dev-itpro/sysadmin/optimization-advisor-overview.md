@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Optimizavimo patarėjo apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite naudoti optimizavimo patarėją, siekdami užtikrinti optimalią „Microsoft Dynamics 365 for Finance and Operations‟ konfigūraciją.
 
@@ -50,8 +50,6 @@ Optimizavimo galimybėms taikomos standartinės saugos strategijos. Pavyzdžiui,
 Atliekant tam tikrų optimizavimo galimybių veiksmus sistema apskaičiuoja galimybės poveikį trumpinant verslo procesų veikimo laiką. Deja, ši funkcija prieinama naudojantis ne visomis optimizavimo galimybėmis.
 
 Norėdami daugiau sužinoti apie optimizavimo patarėją, peržiūrėkite trumpą vaizdo įrašą [„Dynamics 365 for Finance and Operations“ optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Optimizavimo taisyklės
 
@@ -93,7 +91,7 @@ Jei galimybė nėra taikoma jūsų vaidmeniui, galite pasirinkti **Slėpti mano 
 
 Norėdami išjungti tam tikrų taisyklių vertinimą, pasirinkite taisyklės sugeneruotą galimybę, po to pasirinkite **Išjungti analizę**.
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Naujų taisyklių kūrimas](./create-rules-optimization-advisor.md)
 

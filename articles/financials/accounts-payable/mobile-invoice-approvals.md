@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Finance and Operations“ mobiliųjų įrenginių galimybės verslo vartotojui suteikia galimybę kurti mobiliąją patirtį. Sudėtingesniais scenarijais platforma taip pat suteikia galimybę kūrėjams pagal poreikį galimybes išplėsti. Efektyviausias būdas susipažinti su kai kuriomis naujomis mobiliųjų įrenginių sąvokomis yra peržiūrėti kelių scenarijų kūrimo procesą. Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose. Ši tema turėtų padėti sukurti kitus scenarijų variantus ir pritaikyti žinias kitiems scenarijams, kurie nėra susiję su tiekėjo SF.
 
@@ -175,9 +175,9 @@ Norėdami kurti sąskaitų faktūrų informacijos mobiliųjų įrenginių puslap
 1. „Finance and Operations“ URL pakeiskite meniu elemento pavadinimą įrašydami **VendMobileInvoiceHeaderDetails**, kad atidarytumėte formą
 2. Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 3. Spustelėkite mygtuką **Redaguoti**, kad įjungtumėte darbo srities redagavimo režimą.
-4. Pasirinkite puslapį <strong>Mano tiekėjo SF**, kurį sukūrėte anksčiau, o tada spustelėkite** Redaguoti</strong>.
+4. Pasirinkite puslapį **Mano tiekėjo SF**, kurį sukūrėte anksčiau, tada spustelėkite **Redaguoti**.
 5. Skirtuke **Laukai** spustelėkite stulpelio antraštę **Tinklelis**.
-6. Spustelėkite **Ypatybės** &gt; **Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
+6. Spustelėkite **Ypatybės &gt; Įtraukti puslapį**. **Pastaba.** Kai spustelėjate antraštę **Tinklelis** ir įtraukiate puslapį, ryšys su informacijos puslapiu nustatomas automatiškai.
 7. Įveskite puslapio pavadinimą, pvz., **SF informacija SF**, ir aprašą, pvz., **SF antraštės ir eilutės informacijos peržiūra**.
 8. Spustelėkite **Pasirinkti laukus**. Atminkite, kad galutiniam vartotojui laukai bus rodomi ta tvarka, kuria juos įtrauksite. Laukų tvarką galima pakeisti tik iš naujo pažymint visus laukus. 
 9. Iš antraštės įtraukite toliau nurodytus laukus, atsižvelgdami į šio scenarijaus reikalavimus.

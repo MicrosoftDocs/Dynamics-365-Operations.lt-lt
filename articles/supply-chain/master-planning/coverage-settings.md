@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Padengimo parametrai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bendrasis planavimas naudoja padengimo parametrus prekės poreikiui apskaičiuoti. 
 
@@ -45,11 +45,11 @@ Galite nurodyti padengimo parametrus keliais būdais:
 
 <!-- -->
 
-- Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite <strong>Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai</strong>. **Puslapio <strong>Patvirtinto produkto informacija skirtuke** Bendra</strong> esančioje grupėje <strong>Administravimas</strong> spustelėkite saitą <strong>Saugojimo dimensijų grupė</strong>. Puslapyje <strong>Saugojimo dimensijų grupė</strong> pasirinkite lauką <strong>Padengimo planas dimensijomis</strong>, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas <strong>Padengimo planas pagal dimensiją</strong>.
+- Nurodykite dimensijos grupės padengimo parametrus. Spustelėkite **Produkto informacijos valdymas &gt; Bendra &gt; Patvirtinti produktai**. Puslapio **Patvirtinto produkto informacija** skirtuke **Bendra** esančioje grupėje **Administravimas** spustelėkite saitą **Saugojimo dimensijų grupė**. Puslapyje **Saugojimo dimensijų grupė** pasirinkite lauką **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Bendrieji planai](master-plans.md)

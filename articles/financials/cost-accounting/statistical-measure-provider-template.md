@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Naudojant statistinę dimensiją ir jos narius, modulyje Kaštų apskaita registruojami ir kontroliuojami nepiniginiai įrašai. Statistinių dimensijų narius galima naudoti dviem tolesniais tikslais.
 
@@ -344,7 +344,7 @@ Jei kaštų paskirstymo taisyklėje kaip paskirstymo bazė priskiriamas iš anks
 | CC002       | FI | 4,100.00  | (4 100 ÷ 21 550) × suma  |
 | CC003       | AP | 15,000.00 | (15 000 ÷ 21 550) × suma |
 
-## <a name="see-also"></a>Taip pat žiūrėkite
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Paskirstymo bazės](allocation-bases.md)
 

@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nauji užduočių vedliai (2016 m. vasario mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics AX“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
 
@@ -719,7 +719,7 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 
  
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)

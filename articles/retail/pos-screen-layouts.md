@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>EKA ekrano maketų konfigūravimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
 
@@ -89,12 +89,12 @@ Kiekvieno ekrano išdėstymo dydį būtina sukonfigūruoti naudojant ekrano išd
 
 **Vaizdas** – vaizdo valdiklį galima naudoti norint, kad operacijos ekrane būtų rodomas parduotuvės logotipas arba kitas prekės ženklo vaizdas. Vaizdo valdiklį galima naudoti tik naudojant pilnus išdėstymus. 
 
-**Rekomenduojami produktai** – jei sukonfigūruota aplinkai, rekomenduojamų produktų valdiklyje rodomi produktų pasiūlymai pagal mašininį mokymą. Rekomenduojamų produktų valdiklį galima naudoti tik naudojant „Dynamics 365 for Retail“ 1611 versijos pilnus išdėstymus. **Pasirinktinis valdiklis **– pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas, kad vartotojai galėtų rezervuoti vietą pasirinktam turiniui. Pasirinktinį valdiklį galima naudoti tik naudojant pilnus išdėstymus.
+**Rekomenduojami produktai** – jei sukonfigūruota aplinkai, rekomenduojamų produktų valdiklyje rodomi produktų pasiūlymai pagal mašininį mokymą. Rekomenduojamų produktų valdiklį galima naudoti tik naudojant „Dynamics 365 for Retail“ 1611 versijos pilnus išdėstymus. **Pasirinktinis valdiklis**– pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas, kad vartotojai galėtų rezervuoti vietą pasirinktam turiniui. Pasirinktinį valdiklį galima naudoti tik naudojant pilnus išdėstymus.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Mažmeninės prekybos EKA išdėstymo kūrimo įrankio diegimas](install-pos-layout-designer.md)
+[„Retail POS“ maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
 
 
 

@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Duomenų tikrinimo darbo sritis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama **Duomenų tikrinimo kontrolinio sąrašo darbo srities** ir susijusios konfigūracijos apžvalga.
-
-## <a name="data-validation-checklist-workspace"></a>Duomenų tikrinimo kontrolinio sąrašo darbo sritis
 
 Naudodami darbo sritį **Duomenų tikrinimo kontrolinis sąrašas** galite sekti visų įmonių, sričių ir žmonių duomenų tikrinimo procesus. Kontrolinį sąrašą galima naudoti atliekant naują diegimą, po atnaujinimo arba perkėlus. Priklausomai nuo darbo srities **Duomenų tikrinimo kontrolinis sąrašas** rodinio, matote arba visas duomenų tikrinimo projekto užduotis ir būsenas, arba tik jums priskirtas užduotis.
 
 Pirmiausia darbo srities viršuje turite pasirinkti duomenų tikrinimo projektą. Tada visi darbo srityje rodomi duomenys filtruojami pagal pasirinktą duomenų tikrinimo projektą.
 
-### <a name="summary-tiles"></a>Suvestinės išklotinės
+## <a name="summary-tiles"></a>Suvestinės išklotinės
 
 Išklotinėse **Suvestinė** pateikiama proceso apžvalga ir indikatoriai, padedantys sekti duomenų tikrinimo procesą. Galite matyti visas likusias, atliktas, atliekamas ir nepradėtas proceso užduotis. Ši informacija skirta visoms įmonėms, kurios įtrauktos į pasirinktą duomenų tikrinimo projektą.
 
-### <a name="tasks-and-status-section"></a>Užduotys ir būsenos dalis
+## <a name="tasks-and-status-section"></a>Užduotys ir būsenos dalis
 
 Skyriuje **Užduotys ir būsena** bendra duomenų tikrinimo projekto būsena rodoma įvairiais būdais: būsena pagal juridinį subjektą, pagal sritį ir pagal užduočių sąrašą. Norėdami peržiūrėti konkrečios įmonės būseną, galite pasirinkti filtrą. Kiekviename būsenos skirtuke pateikiamas suskaidymas pagal baigimo procentinę dalį ir likusių užduočių skaičių.
 
@@ -52,11 +50,11 @@ Naudodami veiksmą **Priedai** prie užduoties galite pridėti failus, pastabas,
 
 Atlikus užduotį parinktis **Baigė** bus užpildoma automatiškai ir joje bus nurodomas užduotį atlikusio darbuotojo vardas. Kai užduotis pažymėta kaip baigta, laukas **Baigimo data** atnaujinamas automatiškai, nurodant dabartinę datą ir laiką.
 
-### <a name="configure-data-validation-project-page"></a>Konfigūruoti duomenų tikrinimo projekto puslapį
+## <a name="configure-data-validation-project-page"></a>Konfigūruoti duomenų tikrinimo projekto puslapį
 
 Prieš naudodami darbo sritį **Duomenų tikrinimo kontrolinis sąrašas** turite sukonfigūruoti procesą naudodami puslapį **Konfigūruoti duomenų tikrinimo projektą**. (Spustelėkite **Darbo sritys** \> **Duomenų tikrinimo kontrolinis sąrašas** \> **Konfigūruoti duomenų tikrinimo projektą**.)
 
-### <a name="task-areas"></a>Užduočių sritys
+## <a name="task-areas"></a>Užduočių sritys
 
 Norėdami grupuoti savo organizacijos duomenų tikrinimo užduotis į logines nuosavybės sritis, naudokite užduočių sritis. Pavyzdžiui, kaip užduočių sritis galima naudoti Mokėtinos sumos, Gautinos sumos arba Didžioji knyga.
 

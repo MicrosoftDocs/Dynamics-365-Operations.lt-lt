@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0b86a8d134ef553db6719f4cefb02e4acfc00ae5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Verslo poreikių ir darbo jėgos įgūdžių suderinimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Galite sekti įgūdžius, kuriuos darbuotojai, pretendentai arba kontaktiniai asmenys turi arba turi turėti, kad efektyviai atliktų savo vaidmenis. Taip pat galite nurodyti įgūdžius, kurių reikia konkrečiam darbui.
 
@@ -66,10 +66,10 @@ Galite sukurti įgūdžių šablono analizę ir peržiūrėti darbuotojo, preten
 
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Žmogiškieji ištekliai](index.md)
+[Personalas](index.md)
 
 
 

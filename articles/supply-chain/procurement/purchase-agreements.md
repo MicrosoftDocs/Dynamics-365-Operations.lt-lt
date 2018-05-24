@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas. 
 
@@ -91,7 +91,7 @@ Jei sukuriate vidinės įmonės PU, kuris naudoja vidinės įmonės pirkimo suta
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Pirkimo sutarčių finansinės dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pirkimo sutarties eilutes. Jei pakeičiate dimensijas sutarties antraštėje arba sutarties eilutėje, pakeitimas neturi įtakos jokiems išleistiems užsakymams, tačiau jis atsispindės visuose naujuose užsakymuose.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Kurti pirkimo sutartį (užduočių vedlys)](tasks/create-purchase-agreement.md)

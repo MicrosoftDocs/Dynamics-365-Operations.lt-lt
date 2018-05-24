@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo. 
 
@@ -78,12 +78,12 @@ Visų mišriojo režimo gamybos užsakymų tipų gamybos cikle galimi toliau nur
 12. **Laikotarpio pabaiga** – kai kuriems išlaidų apskaitos principams, pvz., laikotarpio vidurkiui, įkainojimui atvirkštine tvarka, FIFO arba LIFO, reikia atlikti periodiškai pasikartojančias operacijas, kad būtų uždarytas atsargų arba ataskaitinis laikotarpis. Paprastai sistema bando pranešti apie visų medžiagų ir išteklių suvartojimą ir atsargų bei atliekų taisymus prieš uždarant laikotarpius. Šios ataskaitos paprastai pateikiamos naudojant atsargų perkėlimo žurnalus ar koregavimo žurnalus. Tikslas yra įvertinti valdymo vienetų ekonominį efektyvumą per tam tikrą laikotarpį. Kai kuriais atvejais, kai vykdomi ilgalaikiai gamybos užsakymai, apimantys kelis finansinius ataskaitinius laikotarpius, naudojami gamybos žurnalai siekiant pranešti apie gamybos eigą ir išteklių suvartojimą laikotarpio pabaigoje.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Gamybos grįžtamasis ryšys](production-feedback.md)
 
-[Produkto konfigūracijos modeliai](../pim/product-configuration-models.md)
+[Produkto konfigūracijų modeliai](../pim/product-configuration-models.md)
 
 [„Lean manufacturing“](lean-manufacturing-overview.md)
 

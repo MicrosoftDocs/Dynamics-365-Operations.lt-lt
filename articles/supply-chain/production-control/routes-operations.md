@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie maršrutus ir operacijas. Maršrutas apibrėžia produkto arba produkto varianto gaminimo procesą. Jame aprašytas kiekvienas gamybos proceso veiksmas (operacija) ir užsakymas, kuriam šie veiksmai turi būti atlikti. Maršrute taip pat apibrėžti kiekvienam veiksmui reikalingi operacijų ištekliai, reikiamas nustatymo laikas ir vykdymo laikas ir būdas, kaip apskaičiuoti išlaidas.
 
@@ -230,12 +230,12 @@ Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos 
 -   **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[KS ir formulės](bill-of-material-bom.md)
+[Komplektavimo specifikacijos ir formulės](bill-of-material-bom.md)
 
-[Išlaidų kategorijos, naudojamos gamybos maršrutuose](../cost-management/cost-categories-used-production-routings.md)
+[Išlaidų kategorijos, naudojamos gamybos kelvadoje](../cost-management/cost-categories-used-production-routings.md)
 
 [Išteklių galimybės](resource-capabilities.md)
 

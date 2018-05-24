@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Kainos modeliavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pasiūlymų kainos modeliavimą. Kainų modeliavimas padeda įvertinti lengvatų poveikį būsimoms pardavimo kainoms pasiūlymo proceso metu prieš pritaikant tam tikrą kainą.
 
@@ -36,7 +36,7 @@ Pasiūlymo kainos modeliavimas parodo naują bendrąją sumą remiantis nauja si
 
 Kainų modeliavimas nekeičia pasiūlymo kainos. Jei kainų modeliavimas taikomas visam pasiūlymui, jis laikomas specialia nuolaida pasiūlymo antraštėje. Jei kainų modeliavimas taikomas konkrečioms prekėms, jis laikomas specialia nuolaida pasiūlymo eilutėse. Vieneto pardavimo kaina sukurtoje pasiūlymo eilutėje nesikeičia pritaikius kainos modeliavimą. Vietoje to, taikomas nuolaidos procentas, atitinkantis pasiūlymo eilutės kainos sumažinimą. Kai pritaikomas kainų modeliavimas, vieneto pardavimo kaina ir nuolaidos procentas yra perkeliami į pasiūlymo eilutę arba pasiūlymo antraštę.  
 
-**Pastaba.** Atliekant kainos modeliavimą, modeliui kurti naudojama tik dabartinė pardavimo valiuta. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
+>[Pastaba!] Atliekant kainos modeliavimą, modeliui kurti naudojama tik dabartinė pardavimo valiuta. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
 
 Papildomos prekės, pridėtos į pasiūlymo eilutes, gali paleisti eilutės nuolaidas arba kelių eilučių nuolaidas. Jos taip pat gali paleisti bendrąsias nuolaidas, keičiančias pasiūlymo eilučių ir visos nuolaidos pelningumo maržas ir pelningumo koeficientą.  
 

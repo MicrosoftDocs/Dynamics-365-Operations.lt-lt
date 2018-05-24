@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Serijos numerių registravimas pardavimo proceso metu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Šioje temoje aiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo.
 
 Daug įmonių tiesiog nori užfiksuoti serijinius numerius paslaugų ir garantijos tikslais, ir nenori turėti serijinių numerių atsargose nuo gavimo iki išdavimo. Šiose situacijose „Microsoft Dynamics 365 for Finance and Operations“ važtaraščių ar sąskaitų faktūrų serijos numerius leidžia registruoti produktus parduodant. Jei produktai yra vėliau grąžinami, galite atsekti kiekvieną produktą sąskaitoje faktūroje ir nustatyti, ar pardavėte produktą ar paslaugą ir ar galioja garantiniai įsipareigojimai.
-Ar yra kokių nors būtinųjų sąlygų?
-----------------------------
 
 Pardavimo procesui turite įjungti serijinius numerius, pasirinkdami **Aktyvus pardavimų procese** parinktį iš **Sekimo dimensijos grupių** puslapio. Tada sprendime „Microsoft Dynamics 365 for Finance and Operations“ įvyksta tolesni įvykiai.
 -   Iš **Serijos numerių** „FastTab“ pasirenkama **Serijos numerių kontrolė** parinktis. Pažymėję šią parinktį, turite užregistruoti vieną serijinį numerį kiekvienai prekei ant važtaraščio arba sąskaitos faktūros.
@@ -71,8 +69,8 @@ Ne, negalite peržiūrėti serijos prekių, kurias turite po ranka, nes serijini
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ar galiu registruoti esamo svorio prekių serijos numerius?
 Ne, negalite registruotis serijos numerių sveriamoms prekėms pardavimo proceso metu. Be to, jei prekė nustatyta kaip sveriama, negalite priskirti prekės sekimo dimensijos grupei, kuri skirta naudoti serijos numerius tik pardavimo proceso metu.
-Ar galiu registruoti serijos numerius mažmeninės prekybos EKA?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Ar galiu registruoti serijos numerius mažmeninės prekybos EKA?
 
 Taip, mažmeninės prekybos taškas (EKA) paskatins vartotoją įvesti serijos numerį, kai vartotojas parduoda prekę, kuri yra priskirta sekimo dimensijos grupei, kuri yra sukurta naudoti serijos numerius tik pardavimo proceso metu.
 

@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Pristatymo alternatyvos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Pardavimo užsakymų priėmėjai gali naudoti puslapį Pristatymo alternatyvos, norėdami sužinoti alternatyvias užsakymo įvykdymo parinktis.
+Pardavimo užsakymų priėmėjai gali naudoti puslapį **Pristatymo alternatyvos**, norėdami sužinoti alternatyvias užsakymo įvykdymo parinktis.
 
-Programoje „Microsoft Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.) pardavimo užsakymų priėmėjai gali naudoti **Pristatymo alternatyvos**, kad sužinotų alternatyvias užsakymo įvykdymo parinktis. Pertvarkytas puslapio maketas suteikia geresnę visų alternatyvių parinkčių apžvalgą. Tai taip užsakymų priėmėjams jis suteikia galimybę įvykdymo galimybių už dabartinės įmonės ribų. Dabar jie gali peržiūrėti tiek vidinės įmonės galimybes, tiek išorinių tiekėjų galimybes. Rūšiuodami parinktis pagal pristatymo datą, pardavimo užsakymų priėmėjai gali peržiūrėti išmanų pristatymo alternatyvų sąrašą. Be to, parametrai jiems suteikia galimybę geriau valdyti siūlomas pristatymo parinktis. Kadangi transportavimo laikas gali paveikti pristatymo datas, pardavimo užsakymų priėmėjai gali palyginti įvairias vežėjų siūlomas transportavimo galimybes. Kadangi rodoma išsami kiekvieno pasiūlymo informacija, užsakymų priėmėjai gali priimti kompetentingus sprendimus tiesiogiai iš **Pristatymo alternatyvos**.
+Puslapio maketas **Pristatymo alternatyvos** suteikia visų alternatyvių parinkčių apžvalgą. Tai taip užsakymų priėmėjams jis suteikia galimybę įvykdymo galimybių už dabartinės įmonės ribų. Dabar jie gali peržiūrėti tiek vidinės įmonės galimybes, tiek išorinių tiekėjų galimybes. Rūšiuodami parinktis pagal pristatymo datą, pardavimo užsakymų priėmėjai gali peržiūrėti išmanų pristatymo alternatyvų sąrašą. Be to, parametrai jiems suteikia galimybę geriau valdyti siūlomas pristatymo parinktis. Kadangi transportavimo laikas gali paveikti pristatymo datas, pardavimo užsakymų priėmėjai gali palyginti įvairias vežėjų siūlomas transportavimo galimybes. Kadangi rodoma išsami kiekvieno pasiūlymo informacija, užsakymų priėmėjai gali priimti kompetentingus sprendimus tiesiogiai iš **Pristatymo alternatyvos**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Puslapio Pristatymo alternatyvos atidarymas
-Puslapį **Pristatymo** **alternatyvos** galite atidaryti iš pardavimo užsakymo eilutės.
+Puslapį **Pristatymo alternatyvos** galite atidaryti iš pardavimo užsakymo eilutės.
 
 1.  Spustelėkite **Produktai ir tiekimas** &gt; **Pristatymo alternatyvos**.
 2.  Spustelėkite **Eilutės informacija** &gt; **Pristatymas** &gt; **Pristatymo alternatyvos.**
@@ -146,7 +146,7 @@ Pristatymo datos valdymo metodas nurodo tai, kaip sistema nustato pristatymo dat
 
 Šis skirtukas išryškina pasirinktos pristatymo alternatyvos poveikį. Jei spustelėsite **Gerai**, pardavimo eilutė atnaujinama paryškintomis reikšmėmis PASIRINKTUOSE stulpeliuose. Atminkite, jei pasirinktos pristatymo alternatyvos kiekis yra mažesnis nei pardavimo eilutės kiekis, sukuriamas pristatymo grafikas ir užsakymo eilutė išskaidoma į dvi eilutes: vieną eilutę, skirtą pasirinktam kiekiui, ir vieną eilutę, skirtą likusiam kiekiui. Taip pat galite atnaujinti prekybos eilutę, kad ji atitiktų grafiko eilutes ir turėtų įtakos kainai.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Užsakymų vykdymo perspektyva](delivery-dates-available-promise-calculations.md)

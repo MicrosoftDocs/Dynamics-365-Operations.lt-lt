@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()APQC bendrosios bibliotekos užduočių vedliai (2016 m. gegužės mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. gegužės mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 ------------------------------------------------------------------------------------------------
 
 APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md). <strong>Pastaba:</strong> žvaigždutė (<strong>\</strong>*) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics AX“ 2016 m. gegužės mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
@@ -186,7 +186,7 @@ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, 
 |                  Prekės transportavimo apribojimų nustatymas                   |     Bendra     |
 |                <strong>\</strong>*Sandėlio darbo strategijų nustatymas                 |     Bendra     |
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)

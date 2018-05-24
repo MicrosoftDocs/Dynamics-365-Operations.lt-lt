@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="access-rights-of-a-cost-object-controller"></a>Savikainos objekto valdiklio prieigos teisės
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Darbo sritis **Savikainos kontrolė** yra centrinis taškas, kuriame vadybininkai gali peržiūrėti savo savikainos objektų našumą. Naudodamiesi šia sritimi vadybininkai gali naudoti kaštų apskaitos duomenis net jei jie nėra išlaidų buhalterijai. Saugumo sumetimais vadybininkams turi būti leidžiama matyti tik tuos kaštų apskaitos duomenis, kurie yra susiję su konkrečiais savikainos objektais, už kuriuos jie atsakingi.
 
@@ -102,7 +102,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 > - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI‟, turi būti susieta prieigos sąrašo hierarchija ir „Power BI‟ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Šioje temoje rodomos prieš naudojantis darbo sritimi **Savikainos kontrolė** turimos įdiegti būtinosios sąlygos.
 
-Taip pat žiūrėkite
+Papildomi ištekliai
 
 - [Savikainos kontrolės darbo sritis](cost-control-workspace.md)
 - [Dimensijų hierarchija](dimension-hierarchy.md)

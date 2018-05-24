@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>„Microsoft Dynamics 365 for Talent“ parengimas
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiami veiksmai, skirti parengti naują gamybos aplinką programai „Microsoft Dynamics 365 for Talent“. Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Talent“ paslaugos planas, ir negalite atlikti šioje temoje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
@@ -54,17 +54,18 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
     > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris paruošia „Talent“, turi būti priskirta „PowerApps“ P2 licencija. Jei jūsų organizacija neturi „PowerApps“ P2 licencijos, galite ją gauti iš savo CSP arba [„PowerApps“ kainų puslapyje](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Pasirinkite **Įtraukti**, tada pasirinkite aplinką, kuriai norite paruošti „Talent“.
-5. Pasirinkite **Taip**, kad sutiktumėte su sąlygomis ir pradėtumėte diegimą.
+5. Pasirinkite parinktį „Įtraukti demonstracinius duomenis“, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Talent“ bandomosios versijos patirtyje.  Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį, kad turite pasirinkti šią parinktį atlikus pradinį diegimą, o esamo diegimo vėliau atnaujinti negalėsite.
+6. Pasirinkite **Taip**, kad sutiktumėte su sąlygomis ir pradėtumėte diegimą.
 
     Nauja aplinka pasirodo aplinkų sąraše, kuris yra naršymo srityje, esančioje kairėje. Tačiau negalite pradėti naudoti aplinkos, kol diegimo būsena nebus atnaujinta į **Įdiegta**. Paprastai šis procesas užtrunka tik keletą minučių. Jei parengimo procesas nepavyksta, privalote susisiekti su palaikymo tarnyba.
 
-6. Pasirinkite **Prisijungti prie „Talent“**, kad galėtumėte naudoti naująją aplinką.
+7. Pasirinkite **Prisijungti prie „Talent“**, kad galėtumėte naudoti naująją aplinką.
 
 > [!NOTE]
 > Jei dar nesate patvirtinę galutinių reikalavimų, projekte galite įdiegti „Talent“ bandymo egzempliorių. Tada galite naudoti šį egzempliorių, kad išbandytumėte sprendimą, kol patvirtinsite. Jei naudojate naują aplinką bandymams, turite pakartoti šią procedūrą norėdami sukurti gamybos aplinką.
 
 > [!NOTE]
-> Per LCS parengiamoje „Talent“ aplinkoje nėra demonstracinių duomenų, kurie sukonfigūruojami žmogiškųjų išteklių (HR) užduotims, arba kurie yra skirti konkrečiai „Talent“.  Jei jums reikia aplinkos, kurioje būtų demonstraciniai duomenys, rekomenduojame užsiregistruoti nemokamai 60 dienų [„Talent“ bandomajai aplinkai](https://dynamics.microsoft.com/en-us/talent/overview/). Bandomoji aplinka priklauso tam vartotojui, kuris ją užsakė, bet galima pakviesti ir kitus vartotojus per „Core HR“ sistemos administravimo patirtį. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad kai bandomosios aplinkos naudojimo terminas baigiasi po 60 dienų, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+> Į „Talent“ abonementą galima įtraukti tik dvi LCS aplinkas, todėl taip pat galite 60 dienų nemokamai išbandyti [„Talent“ bandomąją aplinką](https://dynamics.microsoft.com/en-us/talent/overview/). Bandomoji aplinka priklauso tam vartotojui, kuris ją užsakė, bet galima pakviesti ir kitus vartotojus per „Core HR“ sistemos administravimo patirtį. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 ## <a name="select-a-powerapps-environment"></a>Pasirinkite „PowerApps“ aplinką
 
@@ -104,13 +105,15 @@ Norėdami paleisti scenarijų, atlikite toliau pateiktus nurodymus.
 
 1. Atsisiųskite failą „ProvisionCDSEnvironment.zip“, pateikiamą šioje vietoje: [„ProvisionCDSEnvironment“ scenarijai](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Visą „ProvisionCDSEnviroinment.zip“ failo turinį išskleiskite į aplanką.
+2. Savo atsisiuntimų aplanke dešiniuoju pelės mygtuku spustelėkite ką tik atsiųstą „ProvisionCDSEnvironment.zip“ failą ir pasirinkite **Ypatybės**.  Jei dialogo lango apačioje yra saugumo pastaba, kuri nurodo, kad „Šis failas gautas iš kito kompiuterio ir gali būti užblokuotas, siekiant apsaugoti šį kompiuterį“, pažymėkite žymės langelį **Atblokuoti**, tada spustelėkite **Taikyti** ir **Gerai**.
 
-3. Paleiskite „Windows PowerShell“ arba „Windows PowerShell ISE“ programą kaip administratorius.
+3. Visą „ProvisionCDSEnviroinment.zip“ failo turinį išskleiskite į aplanką, kuris nėra šakninis aplankas.
 
-   Peržiūrėkite temą [Vykdymo strategijos nustatymas](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) ir sužinokite daugiau apie tai, kaip nustatyti vykdymo strategiją, kad scenarijai būtų vykdomi.
+4. Paleiskite „Windows PowerShell“ arba „Windows PowerShell ISE“ programą kaip administratorius.
+
+   Peržiūrėkite temą [Vykdymo strategijos nustatymas](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) ir sužinokite daugiau apie tai, kaip nustatyti vykdymo strategiją, kad scenarijai būtų vykdomi. Rekomenduojame naudoti „Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process“, bet būtinai laikykitės jūsų įmonės saugos strategijų ir uždarykite langą „PowerShell“, kai baigsite. 
   
-4. „PowerShell“ sistemoje nueikite į aplanką, kuriame išskleidėte failą, ir paleiskite toliau nurodytą komandą, pakeisdami vertes taip, kaip nurodyta toliau.
+5. „PowerShell“ sistemoje nueikite į aplanką, kuriame išskleidėte failą, ir paleiskite toliau nurodytą komandą, pakeisdami vertes taip, kaip nurodyta toliau.
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ Norėdami paleisti scenarijų, atlikite toliau pateiktus nurodymus.
 
    Vertė **– Daugiažodis** yra pasirinktinė ir įvykus problemai pateiks išsamios informacijos, kurią bus galima nusiųsti palaikymo tarnybai.
 
-5. Tęsti taikant parengimo procesą.
+6. Tęsti taikant parengimo procesą.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
-Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, [pridėkite vartotojus](../dev-itpro/sysadmin/tasks/create-new-users.md) ir [jiems priskirkite atitinkamus vaidmenis](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) „Core HR“ aplinkoje. Be to, šiuos vartotojus būtina įtraukti į „PowerApps“ aplinką, kad jie galėtų naudoti „Attract“ ir „Onboard“ programas. Ši procedūra pateikta čia. Jei jums reikia pagalbos šiems veiksmams atlikti, žr. tinklaraščio įrašą [„PowerApps“ administravimo centro pristatymas](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, [pridėkite vartotojus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [jiems priskirkite atitinkamus vaidmenis](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) „Core HR“ aplinkoje. „Talent“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems nuomotojams–vartotojams.  Kol tai nebus atlikta, kiti vartotojai neturės priegos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas.
 
-Šią procedūrą atlieka visuotinis administratorius, kuris įdiegė „Talent“ aplinką.
-
-1. Atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/environments).
-2. Pasirinkite atitinkamas aplinkas.
-3. Skirtuke **Sauga** prie vaidmens **Aplinkos kūrėjas** pridėkite reikiamus vartotojus.
-
-    Atkreipkite dėmesį, kad šis paskutinis veiksmas, kuriuo rankiniu būdu pridedate vartotojus į „PowerApps“ aplinką, yra laikinas. Galiausiai jis bus atliktas automatiškai, kai vartotojai bus pridėti prie „Core HR“.
 

@@ -1,6 +1,6 @@
 ---
 title: "Ieškoti produktų ir produkto variantų įvedant užsakymą"
-description: "Norėdami ieškoti produktų ir produktų variantų, kai rankiniu būdu sukuriate pardavimo užsakymą arba pardavimo užsakymo eilutę, naudokite lauką <strong>Prekės numeris </strong>.  Taip galite greitai rasti produkto variantus, kai turite tik konfigūracijos eilutę arba vieną iš galimų produkto dimensijų."
+description: "Norėdami ieškoti produktų ir produktų variantų, kai rankiniu būdu sukuriate pardavimo užsakymą arba pardavimo užsakymo eilutę, naudokite lauką **Prekės numeris**. Taip galite greitai rasti produkto variantus, kai turite tik konfigūracijos eilutę arba vieną iš galimų produkto dimensijų."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Ieškoti produktų ir produkto variantų įvedant užsakymą
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Norėdami ieškoti produktų ir produktų variantų, kai rankiniu būdu sukuriate pardavimo užsakymą arba pardavimo užsakymo eilutę, naudokite lauką <strong>Prekės numeris </strong>.  Taip galite greitai rasti produkto variantus, kai turite tik konfigūracijos eilutę arba vieną iš galimų produkto dimensijų.
+Norėdami ieškoti produktų ir produktų variantų, kai rankiniu būdu sukuriate pardavimo užsakymą arba pardavimo užsakymo eilutę, naudokite lauką **Prekės numeris**.  Taip galite greitai rasti produkto variantus, kai turite tik konfigūracijos eilutę arba vieną iš galimų produkto dimensijų.
 
 Kartais turėti ko nors per daug nėra geriausia situacija, kurioje norėtum atsidurti, ir tai ypač teisinga tais atvejais, kai parduodate kelis panašius produktus, ir bandote prisiminti prekių numerius arba produkto paieškos pavadinimus, kad galėtumėte rasti pardavimo užsakymui tinkamiausią produktą. Kaip paieškos lauką galite naudoti pardavimo užsakymo eilutės arba pirkimo užsakymo eilutės lauką **Prekės numeris**. Galite įvesti bet kurią produkto pavadinimo dalį, numerį ar dimensiją ir gauti peržvalgą, kurioje rodomos visos paieškos žodį atitinkančios prekės.
 
@@ -47,7 +47,7 @@ Kai ieškote produktų ar produkto variantų, svarbu suprasti, kaip paieškos fu
 
 ### <a name="examples"></a>Pavyzdžiai
 
-Toliau pateikiamuose pavyzdžiuose naudojami produktai ir produktų variantai, kad būtų galima iliustruoti, kaip paieška atliekama įvairiuose scenarijuose. **Būtinoji sąlyga:** dalyje **Pardavimas ir rinkodara &gt; Sąranka &gt; Paieška &gt; Paieškos parametrai** &gt; **Paieškos tipas** pažymėkite parinktį **Visiška atitiktis**.
+Toliau pateikiamuose pavyzdžiuose naudojami produktai ir produktų variantai, kad būtų galima iliustruoti, kaip paieška atliekama įvairiuose scenarijuose. **Būtinoji sąlyga:**  dalyje **Pardavimas ir rinkodara &gt; Sąranka &gt; Paieška &gt; Paieškos parametrai &gt; Paieškos tipas** pažymėkite parinktį **Visiška atitiktis**.
 
 | Produkto tipas     | Produkto pavadinimas    | Rodyti produkto numerį | Prekės Nr. | Konfigūravimas |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Produkto ir produkto varianto identifikatorių ir dimensijų, pagal kurias galit
 
 Eikite į puslapį **Pardavimas ir rinkodara &gt; Sąranka &gt; Paieška &gt; Paieškos kriterijai**. Puslapyje **Paieškos kriterijai** galite nurodyti kliento, potencialaus kliento ir produkto paieškos kriterijus. Būtinai filtruokite puslapį naudodami produkto paieškos kriterijus. Tai galite atlikti įjungdami puslapio meniu dalį **Produktas**.  
 
-Norėdami į paieškos kriterijus įtraukti rodomą produkto numerį, puslapio meniu spustelėkite <strong>Naujas</strong>. Taip į tinklelį <strong>Paieškos kriterijai</strong> bus įtrauktas naujas įrašas. Atidarykite stulpelio <strong>Lauko pavadinimas</strong> peržvalgą ir pasirinkite <strong>DisplayProductNumber</strong>. Norėdami į paieškos kriterijus įtraukti produkto konfigūraciją, tinklelyje <strong>Paieškos kriterijai **sukurkite naują įrašą ir stulpelyje <strong>Lauko pavadinimas</strong> pasirinkite** configId</strong>. Tuo pačiu būdu sukurkite įrašą, kurio <strong>Lauko pavadinimas</strong> <strong>InventColorId</strong>, skirtą spalvos dimensijai, <strong>InventSizeId</strong>, skirtą dydžio dimensijai, ir <strong>InventStyleId</strong>, skirtą stiliaus dimensijai.
+Norėdami į paieškos kriterijus įtraukti rodomą produkto numerį, puslapio meniu spustelėkite **Naujas**. Taip į tinklelį **Paieškos kriterijai** bus įtrauktas naujas įrašas. Atidarykite stulpelio **Lauko pavadinimas** peržvalgą ir pasirinkite **DisplayProductNumber**. Norėdami į paieškos kriterijus įtraukti produkto konfigūraciją, tinklelyje **Paieškos kriterijai** sukurkite naują įrašą ir stulpelyje **Lauko pavadinimas** pasirinkite **configId**. Tuo pačiu būdu sukurkite įrašą, kurio **Lauko pavadinimas** **InventColorId**, skirtą spalvos dimensijai, **InventSizeId**, skirtą dydžio dimensijai, ir **InventStyleId**, skirtą stiliaus dimensijai.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2 veiksmas: automatiškai užpildykite produkto paieškoje naudojamą duomenų bazės lentelę
 

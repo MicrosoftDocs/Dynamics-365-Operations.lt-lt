@@ -1,0 +1,76 @@
+---
+title: "Prekės poreikių kūrimas pagal aptarnavimo užsakymus"
+description: "Jei aptarnavimo užsakymui reikia rezervuoti konkrečių prekių, galite jam sukurti atsargų prekių poreikių."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 05/01/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SMAServiceOrderTable
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.author: YuyuScheller
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e76b0c636470a89ba2091363efe2f34eb3d58f88
+ms.contentlocale: lt-lt
+ms.lasthandoff: 05/08/2018
+
+---
+
+# <a name="create-item-requirements-for-service-orders"></a>Prekės poreikių kūrimas pagal aptarnavimo užsakymus 
+
+[!include [banner](../includes/banner.md)]
+
+
+Galite kurti aptarnavimo užsakymą, jei norite sekti ir valdyti klientams teikiamas paslaugas. Jei aptarnavimo užsakymui reikia rezervuoti konkrečių prekių, galite jam sukurti atsargų prekių poreikių. Prekės poreikį galima nedelsiant panaudoti iš atsargų, arba jis gali inicijuoti tos prekės gamybos užsakymą.
+
+Naudodami prekės poreikį vietoje prekės operacijos, galite planuoti pristatymą prieš faktiškai naudojant prekę, kurti pirkimo užsakymą, įtraukti prekę į prekybos sutarties sistemą bei įtraukti prekės poreikį į gamybos planavimą.
+
+Prekės poreikiai aptarnavimo užsakymuose apdorojami vykdant projektą. Norint sukurti prekės poreikį aptarnavimo užsakyme, aptarnavimo užsakymą reikia priskirti prie projekto. Kai sukuriate aptarnavimo užsakymo prekės poreikį, galite peržiūrėti prekės poreikį pasirinkto projekto formoje **Projektai**.
+
+## <a name="create-an-item-requirement-for-a-service-order"></a>Prekės poreikio aptarnavimo užsakymui sukūrimas
+
+1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.
+
+2.  Pažymėkite aptarnavimo užsakymą, kuriam norite sukurti prekės poreikį.
+
+3.  Dalies **Veiksmų sritis** skirtuke **Išsiuntimas** spustelėkite **Prekės poreikis**.
+
+4.  Formoje **Prekių poreikis** įveskite reikiamos prekės informaciją. Daugiau informacijos apie konkrečius laukus žr. [Prekių poreikis (forma)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+
+## <a name="create-an-item-requirement-for-a-service-agreement"></a>Prekės poreikio aptarnavimo sutarčiai sukūrimas
+
+1.  Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
+
+2.  Atidarykite aptarnavimo sutartį, kuriai norite sukurti prekės poreikį.
+
+3.  „FastTab“ **Eilutės** spustelėję **Pridėti** sukursite naują eilutę.
+
+4.  Lauke **Operacijos tipas** pasirinkite **Prekė**.
+
+5.  Lauke **Prekių nustatymai** pasirinkite **Prekės poreikis**.
+
+6.  Lauke **Prekės numeris** pasirinkite prekę, kurios reikia aptarnavimo sutarčiai.
+
+7.  „FastTab“ **Eilutės informacija** skirtuko **Produktų dimensijos** lauke **Vieta** pasirinkite prekės atsargų vietą.
+
+8.  Norėdami kurti aptarnavimo užsakymą iš sutarties eilutės, „FastTab“ **Eilutės** spustelėkite **Kurti aptarnavimo užsakymus** ir įveskite atitinkamą informaciją formoje **Kurti aptarnavimo užsakymus**. 
+
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Automatiškai kurti aptarnavimo užsakymus](create-service-orders-automatically.md).
+
+  
+
+
+

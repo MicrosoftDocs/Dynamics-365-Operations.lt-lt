@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Pagrindinės statistinės prognozės generavimas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę. 
 
@@ -64,10 +64,10 @@ Vidinės įmonės planavimo grupės, prekių paskirstymo raktų ir kitus filtrus
 
 Jei prognozė generuojama ne dideliam prekių rinkiniui, bet, pavyzdžiui, vienai prekei arba vienam prekių paskirstymo raktui vienu metu, tada, norint gauti geresnių rezultatų, galima pasirinkti žymės langelį **Naudoti užklausos atsakymo režimą**, esantį skirtuke **Bendrasis planavimas – Sąranka – Poreikio prognozė** - **Poreikio prognozės parametrai – „Azure“ mašininis mokymas**.
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Poreikio prognozių nustatymas](demand-forecasting-setup.md)
+[Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
 
 [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
 

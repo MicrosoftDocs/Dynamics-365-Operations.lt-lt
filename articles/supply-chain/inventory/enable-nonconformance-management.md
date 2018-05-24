@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Neatitikimų valdymas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašytas pagrindinis nustatymas, kuris reikalingas norint naudoti neatitikimus. Jei norite naudoti kokybės užsakymus, reikalingi papildomi nustatymai.
 
@@ -47,7 +47,7 @@ Norėdami įgalinti neatitikimo valdymą, atlikite toliau nurodytus veiksmus:
 6.  Nurodykite susijusias operacijas, kurios bus priskirtos neatitikčiai. Norėdami nurodyti darbų, kurie gali būti atlikti atsiradus patvirtintai neatitikčiai, klasifikaciją, naudokite puslapį **Operacijos**. Priskyrę susijusią operaciją neatitikčiai taip pat galite pateikti išsamią informaciją , pvz., apie susijusią medžiagą, darbo valandas ir papildomas išlaidas, būtinas atliekant operaciją. Ši informacija naudojama skaičiuojant operacijos įvertintą savikainą. Išsami informacija ir įvertinta savikaina naudojamos kaip nuorodos. Susijusios kokybės operacijos skiriasi nuo galimų nurodyti gamybos maršruto operacijų.
 
 
-<a name="see-also"></a>Taip pat žiūrėkite
+<a name="additional-resources"></a>Papildomi ištekliai
 --------
 
 [Neatitikčių kūrimas ir apdorojimas (užduočių vedlys)](tasks/create-process-non-conformance.md)

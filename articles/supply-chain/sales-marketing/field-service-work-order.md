@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ Norint integruoti darbo užsakymus reikia nustatyti pardavimo kilmę. Pardavimo 
 6. Nustatykite lauko **Pardavimo kilmės tipas** reikšmę **Darbo užsakymo integravimas**.
 7. Pasirinkite **Įrašyti**.
 
-### <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
-(Jau greitai)
+### <a name="setup-in-data-integration"></a>Duomenų integravimo sąranka
+
+Įsitikinkite, kad yra **Integravimo kodas**, skirtas **msdyn_workorders**
+1. Eikite į Duomenų integravimas
+2. Pasirinkite skirtuką **Ryšio rinkinys**
+3. Pasirinkite Ryšio rinkinys, naudojamą Darbo užsakymui sinchronizuoti
+4. Pasirinkite skirtuką **Integravimo raktas**
+5. Raskite msdyn_workorders ir patikrinkite, ar pridėtas raktas **msdyn_name (Darbo užsakymo numeris)**. Jei jis nerodomas, pridėkite jį puslapio viršuje spustelėję **Pridėti raktą** ir spustelėję **Įrašyti**
+
+## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
+
+Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Darbo užsakymai į pardavimo užsakymus („Field Service“ į „Finance and Operations“): WorkOrderHeader
+
+Filtras: (msdyn_systemstatus ne 690970005) ir (msdyn_systemstatus ne 690970000) ir (msdynce_hasexternallymaintainedproductsonly lygtis teisinga)
+
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Darbo užsakymai į pardavimo užsakymus („Field Service“ į „Finance and Operations“): WorkOrderServiceLineEstimate
+
+Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus lygtis 690970000) ir (msdynce_headersystemstatus ne 690970004)
+
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Darbo užsakymai į pardavimo užsakymus („Field Service“ į „Finance and Operations“): WorkOrderServiceLineUsed
+
+Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004))
+
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Darbo užsakymai į pardavimo užsakymus („Field Service“ į „Finance and Operations“): WorkOrderProductLineEstimate
+
+Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir (msdyn_linestatus eq 690970000) ir (msdynce_headersystemstatus ne 690970004) ir (msdyn_allocated lygtis teisinga)
+
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Darbo užsakymai į pardavimo užsakymus („Field Service“ į „Finance and Operations“): WorkOrderProductLineUsed
+
+Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004) arba (msdyn_allocated ne teisinga))
+
+[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
