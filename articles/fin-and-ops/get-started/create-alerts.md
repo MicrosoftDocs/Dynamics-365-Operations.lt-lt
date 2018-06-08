@@ -3,7 +3,7 @@ title: "Įspėjimų kūrimas"
 description: "Šioje temoje pateikiama informacija apie įspėjimus ir paaiškinama, kaip kurti įspėjimo taisyklę, kad būtumėte įspėti apie įvykius, pvz., atėjusią tam tikrą dieną arba konkretų įvykusį pasikeitimą."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 03/23/2018
 # <a name="create-alerts"></a>Įspėjimų kūrimas
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>Darbo pradžia
 Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais norite gauti įspėjimus. Kai žinote, apie kokį įvykį norite būti įspėti, programoje „Microsoft Dynamics 365 for Finance and Operations“ raskite puslapį, kuriame pateikiami duomenys, esantys to įvykio priežastimi. Įvykis gali būti tam tikra atėjusi diena arba atliktas konkretus pakeitimas. Todėl turite rasti puslapį, kuriame nurodyta data arba vietą, kurioje rodomas pasikeitęs laukas arba sukurtas naujas įrašas. Turėdami šią informaciją, galite kurti įspėjimo taisyklę.
