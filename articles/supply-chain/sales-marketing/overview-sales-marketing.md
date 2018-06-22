@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da48a9eef118a7a369343c986e4b67f53266f7e1
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -121,6 +121,9 @@ Laisvos formos SF – tai sąskaita faktūra, nesusieta su pardavimo užsakymu. 
 
 Išankstinė SF yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas, prieš užregistruojant SF. Galite išspausdinti arba kliento SF išankstinę SF, arba laisvos formos SF išankstinę SF.
 
+### <a name="additional-resources"></a>Papildomi ištekliai
 
+#### <a name="blogs"></a>Tinklaraščiai
 
+Galite rasti užregistruotą pardavimo proceso apžvalgą [Kaip pardavimai veikia „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
 

@@ -1,6 +1,6 @@
 ---
-title: "Finansinės veiklos „Power BI“ turinys"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Finansinės veiklos rezultatai."
+title: "Finansinio našumo „PowerBI.com“ turinys"
+description: "Šioje temoje aprašytas „PowerBI.com‟ sprendimas Finansinis našumas."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Finansinės veiklos „Power BI“ turinys
+# <a name="financial-performance-powerbicom-solution"></a>Finansinio našumo „PowerBI.com“ turinys
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Šis turinio paketas nebenaudojamas, kaip nurodyta dalyje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šis „PowerBI.com“ sprendimas nebenaudojamas, kaip nurodyta dalyje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Finansinės veiklos rezultatai**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
+Šioje temoje aprašytas „PowerBI.com‟ sprendimas **Finansinis našumas**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus sprendimui kurti.
 
 ## <a name="main-account-setup"></a>Pagrindinių sąskaitų sąranka
 Kadangi organizacijos nori, jog įsipareigojimai ir įplaukų sumos ataskaitose būtų rodomos kaip teigiamos sumos, svarbu nustatyti pagrindines sąskaitas. Tam, kad šios pagrindinės sąskaitos būtų rodomos kaip teigiamos sumos, turi būti nustatytas pagrindinės sąskaitos tipas **Įsipareigojimas** arba **Įplaukos**. Kai naudojami šie sąskaitų tipai, ataskaitas teikiant per „Power BI“ ženklai pakeičiami ir rodomos teigiamos sumos.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI‟ turinio paketą įtrauktos ataskaitų sritys ir ataskaitos
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Į „PowerBI.com‟ sprendimą įtrauktos ataskaitų sritys ir ataskaitos
 Ataskaitų srityje pateikiamos apibendrintos esamomis ataskaitomis pagrįstų duomenų plytelės. Kiekvienoje plytelėje pateikiama apibendrinta šių metų informacija apie visas įmones organizacijoje. Toliau pateikiamos kai kurios plytelės.
 
 - Grynieji pinigai
@@ -74,7 +74,7 @@ Kiekviena plytelė yra pagrindžiama papildoma ataskaita. Šiose ataskaitose yra
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Toliau pateikti objektai buvo naudojami kaip „Power BI‟ turinio **Finansinės veiklos rezultatai** pagrindas.
+Toliau pateikti objektai buvo naudojami kaip „PowerBI.com‟ sprendimo **Finansinės veiklos rezultatai** pagrindas.
 
 **Duomenų objektų sujungimas**
 

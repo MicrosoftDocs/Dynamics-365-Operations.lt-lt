@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ Tipo **Numatoma** reikšmių sinchronizavimas, lyginant su tipo **Naudojama** re
     - **Produkto eilutė:** numatomas kiekis = 5 vnt., naudojamas kiekis = 6 vnt., eilutės būsena = naudojama, paskirstyta = ne
     - **Paslaugos eilutė:** numatomas kiekis = 2 h, naudojamas kiekis = 1,5 h, eilutės būsena = naudojama
 
-    Šiame pavyzdyje produkto lauko **Naudojamas kiekis** reikšmė **6** ir paslaugos lauko **Numatomas kiekis** reikšmė **1,5 h** sinchronizuojamos su „Finance and Operations“.
+    Šiame pavyzdyje produkto lauko **Naudojamas kiekis** reikšmė **6** ir paslaugos lauko **Naudojamas kiekis** reikšmė **1,5 h** sinchronizuojamos su „Finance and Operations“.
 
 ## <a name="sales-order-origin-and-status"></a>Pardavimo užsakymo kilmė ir būsena
 

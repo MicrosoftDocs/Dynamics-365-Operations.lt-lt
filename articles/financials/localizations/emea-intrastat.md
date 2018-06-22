@@ -1,6 +1,6 @@
 ---
 title: Intrastat
-description: "Šiame straipsnyje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos."
+description: "Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos."
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
+Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
 
 Intrastat yra informacijos rinkimo ir statistikos generavimo apie prekybą prekėmis Europos Sąjungos (ES) šalyse / regionuose sistema. Intrastat ataskaitų reikia, kai produktas kerta kitos ES šalies / regiono sieną. Keliose šalyse / regionuose Intrastat ataskaitos taip pat taikomos paslaugoms. Intrastat ataskaitose gali būti renkami privalomi ir neprivalomi elementai. Privalomi yra šie elementai: šalies, kuri yra atsakinga už informacijos teikimą, pridėtinės vertės mokesčio (PVM) numeris, ataskaitinis laikotarpis, srautas (gavimo ar išsiuntimo), aštuonių skaitmenų prekės kodas, partnerė šalis narė (konsignacijos šalis narė gaunant ir paskirties šalis narė išsiunčiant), prekių vertė, prekių kiekis (neto svoris ir papildomas vienetas) ir operacijos pobūdis. Šalys / regionai taip pat gali įvairiomis sąlygomis rinkti neprivalomų elementų. Kai kurie neprivalomi elementai yra kilmės šalis / regionas, pristatymo sąlygos, transportavimo būdas, išsamesnis už CN8 prekės kodas, kilmės regionas išsiunčiant ir paskirties regionas gaunant, statistinė procedūra, statistinė vertė, prekių aprašas ir pakrovimo / iškrovimo uostas / oro uostas.
 
@@ -223,6 +223,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </ul></li>
 <li><strong>Elektroninės ataskaitos</strong> – nurodykite nuorodas į elektroninių ataskaitų konfigūracijas, kad galėtumėte generuoti elektroninį failą ir ataskaitą.</li>
 <li><strong>Prekių kodų hierarchija</strong> – nurodykite <strong>Prekės kodo</strong> tipo, kuris atstoja Intrastat prekės kodą CN8, kategorijų hierarchiją.</li>
+  <li> <strong>Valiutos kurso tipas</strong> – (pasirinktinai) nurodykite valiutos kursą, kuris bus naudojamas Intrastat pardavimo ir pirkimo operacijų ataskaitoms užsienio valiutomis. Tai naudojama, jei tarifas yra kitoks, nei taikomas registruojant operaciją.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

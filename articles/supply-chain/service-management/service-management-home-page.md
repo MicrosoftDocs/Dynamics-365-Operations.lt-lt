@@ -1,28 +1,28 @@
 ---
 title: Aptarnavimo valdymas
 description: "Naudodamiesi parinktimi Paslaugų valdymas galite nustatyti paslaugų sutarčių sąlygas ir paslaugų abonementinius mokesčius, tvarkyti paslaugų užsakymus ir klientų užklausas, valdyti ir analizuoti paslaugų teikimą klientams."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Galite sukurti paslaugų užsakymus, kad valdytumėte informaciją apie suplanuo
 
 4.  Visos išlaidos ir mokesčiai, susiję su paslauga arba remontu
 
-Vartotojai gali teikti paslaugų užklausas internetu, naudodami parinktį Įmonės portalas. Galite gauti, apdoroti ir išsiųsti šias užklausas. Sukūrę paslaugų užsakymą, naudodami paslaugų etapus jūs galite stebėti eigą ir apibrėžti taisykles, kurios kontroliuoja, kokie veiksmai galimi kiekviename etape. Baigę pildyti paslaugų užsakymą, galite išsiregistruoti ir patvirtinti, kad užsakymas baigtas, tada išsiųsti užsakymą ir pradėti sąskaitos faktūros procesą.
+Galite gauti, apdoroti ir išsiųsti aptarnavimo užklausas. Sukūrę paslaugų užsakymą, naudodami paslaugų etapus jūs galite stebėti eigą ir apibrėžti taisykles, kurios kontroliuoja, kokie veiksmai galimi kiekviename etape. Baigę pildyti paslaugų užsakymą, galite išsiregistruoti ir patvirtinti, kad užsakymas baigtas, tada išsiųsti užsakymą ir pradėti sąskaitos faktūros procesą.
 
 Naudokite ataskaitų įrankius, kad galėtumėte stebėti paslaugų užsakymų maržas ir abonementines operacijas ir spausdinti darbo aprašymus ir darbo kvitus.
 
@@ -56,47 +56,19 @@ Toliau pateiktoje diagramoje pavaizduoti aukšto lygio parinkties **Aptarnavimo 
 
 ## <a name="service-management-at-a-glance"></a>Paslaugų valdymo apžvalga
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Svarbios užduotys</p></th>
-<th><p>Pirminės formos</p></th>
-<th><p>Populiarios ataskaitos</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Aptarnavimo sutarčių vykdymas</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Aptarnavimo sutartys (forma)</a></p></td>
-<td><p><strong>Aptarnavimo užsakymo marža</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Apdoroti klientų užklausas</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Aptarnavimo užsakymai (forma)</a></p></td>
-<td><p><strong>Darbo aprašymas</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Išsiuntimo informacijos lenta (forma)</a></p></td>
-<td><p><strong>Operacija – Abonementas</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Abonementinio mokesčio operacijos</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Svarbios užduotys           | Pagrindiniai puslapiai                         |Populiarios ataskaitos              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Aptarnavimo sutarčių vykdymas|Aptarnavimo sutartys                     |Aptarnavimo užsakymo marža         |
+|Apdoroti klientų užklausas |Aptarnavimo užsakymai                         |Darbo aprašymas             |
+|                          |Išsiuntimo informacijos lenta                         |Operacija – Abonementas   |
+|                          |                                       |Abonementinio mokesčio operacijos|
 
 
 ## <a name="integration-of-service-management"></a>Paslaugų valdymo integravimas
 
-Aptarnavimo valdymas gali būti integruotas su toliau nurodytais „Microsoft Dynamics 365 for Finance and Operations“ moduliais.
+Paslaugų valdymas gali būti integruotas į šiuos modulius:
 
   - [Pardavimas ir rinkodara](../sales-marketing/overview-sales-marketing.md)
-
   - [Personalas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

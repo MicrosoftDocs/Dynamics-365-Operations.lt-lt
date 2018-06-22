@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 9d20a0ba92010be17029b1b0fc826eee1cded279
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -33,11 +33,8 @@ ms.lasthandoff: 05/08/2018
 
 Sprendimas Potencialūs klientai ir grynieji pinigai leidžia tiesiogiai sinchronizuoti „Dynamics 365 for Finance and Operations“ su „Dynamics 365 for Sales“. Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo sąskaitų faktūrų duomenų srautus. Sukūrus duomenų srautą tarp „Finance and Operations“ ir „Sales“ galima vykdyti pardavimo ir rinkodaros veiklas sprendime „Sales“ bei tvarkyti užsakymų įvykdymą naudojant atsargų valdymo funkciją sprendime „Finance and Operations“. 
 
-Norėdami apie sprendimo Potencialūs klientai ir grynieji pinigai integravimą gauti daugiau informacijos, peržiūrėkite trumpą „YouTube“ vaizdo įrašą:
+Norėdami gauti daugiau informacijos apie sprendimo Potencialūs klientai ir grynieji pinigai integravimą, peržiūrėkite trumpą „YouTube“ vaizdo įrašą: [![](https://img.youtube.com/vi/AVV9x5x-XCg/0.jpg)](https://www.youtube.com/watch?v=AVV9x5x-XCg)
 
-> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
-
-[Potencialių klientų ir grynųjų pinigų integravimas („YouTube“ vaizdo įrašas)](https://youtu.be/AVV9x5x-XCg) 
 
 Dabartinėje versijoje sprendimas Potencialūs klientai ir grynieji pinigai leidžia šių tipų tiesioginį sinchronizavimą:
 
