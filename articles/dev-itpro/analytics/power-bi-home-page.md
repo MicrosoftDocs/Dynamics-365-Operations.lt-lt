@@ -1,9 +1,9 @@
 ---
-title: "„Power BI“ turinys"
-description: "Šioje temoje nurodytas pasiekiamas „Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti."
+title: "„PowerBI.com“ sprendimai"
+description: "Šioje temoje išvardyti pasiekiami „PowerBI.com‟ sprendimai ir nurodomi ištekliai, kur galima daugiau apie tuos sprendimus sužinoti."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 43675cdeaa8498e38e7ab030b935293d71035ea0
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a><span data-ttu-id="b403a-103">„Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-103">Power BI content</span></span>
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a><span data-ttu-id="a0672-103">„PowerBI.com“ sprendimai</span><span class="sxs-lookup"><span data-stu-id="a0672-103">PowerBI.com solutions</span></span>
+<span data-ttu-id="a0672-104">„Dynamics 365 for Finance and Operations“ aplinkose galima naudoti toliau nurodytus „PowerBI.com“ sprendimus.</span><span class="sxs-lookup"><span data-stu-id="a0672-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span> 
 
-<span data-ttu-id="b403a-104">Šioje temoje nurodytas pasiekiamas „Microsoft Power BI‟ turinys ir nurodomi ištekliai, kur galima daugiau apie tai sužinoti.</span><span class="sxs-lookup"><span data-stu-id="b403a-104">This topic lists the Microsoft Power BI content that is available and points you to resources where you can learn more about it.</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="a0672-105">Naudojantis „Lifecycle Services“ (LCS) galimi „PowerBI.com“ sprendimai</span><span class="sxs-lookup"><span data-stu-id="a0672-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="b403a-105">„Dynamics 365 for Finance and Operations“ „Power BI‟ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-105">Power BI content for Dynamics 365 for Finance and Operations</span></span>
-<span data-ttu-id="b403a-106">Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“, pasiekiamas toliau nurodytas „Power BI“ turinys.</span><span class="sxs-lookup"><span data-stu-id="b403a-106">If you're using Microsoft Dynamics 365 for Finance and Operations, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="b403a-107">„Power BI‟ turinys Faktinis palyginti su biudžeto</span><span class="sxs-lookup"><span data-stu-id="b403a-107">Actual vs budget Power BI content</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="b403a-108">„Power BI“ turinys Išmokos</span><span class="sxs-lookup"><span data-stu-id="b403a-108">Benefits Power BI content</span></span>](benefits-power-bi.md)
-- [<span data-ttu-id="b403a-109">„Power BI“ turinys Grynųjų pinigų apžvalga</span><span class="sxs-lookup"><span data-stu-id="b403a-109">Cash overview Power BI content</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="b403a-110">„Power BI“ turinys CFO apžvalga</span><span class="sxs-lookup"><span data-stu-id="b403a-110">CFO overview Power BI content</span></span>](CFO-power-bi.md)
-- [<span data-ttu-id="b403a-111">„Power BI“ turinys Kompensacija</span><span class="sxs-lookup"><span data-stu-id="b403a-111">Compensation Power BI content</span></span>](compensation-power-bi.md)
-- [<span data-ttu-id="b403a-112">Kaštų apskaitos analizės „Power BI‟ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-112">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="b403a-113">Išlaidų valdymo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-113">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="b403a-114">„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas</span><span class="sxs-lookup"><span data-stu-id="b403a-114">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="b403a-115">„Power BI“ turinys Darbuotojo tobulėjimas</span><span class="sxs-lookup"><span data-stu-id="b403a-115">Employee development Power BI content</span></span>](employee-development-PBI.md) 
-- [<span data-ttu-id="b403a-116">Finansinių įžvalgų „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-116">Financial insights Power BI content</span></span>](financial-insights.md)
-- [<span data-ttu-id="b403a-117">Finansinės veiklos „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-117">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="b403a-118">„Power BI“ turinys Ilgalaikio turto valdymas</span><span class="sxs-lookup"><span data-stu-id="b403a-118">Fixed asset management Power BI content</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="b403a-119">„Power BI“ turinys Mokymasis</span><span class="sxs-lookup"><span data-stu-id="b403a-119">Learning Power BI content</span></span>](learning-power-bi.md)
-- [<span data-ttu-id="b403a-120">„Power BI“ turinys Praktikos vadovas</span><span class="sxs-lookup"><span data-stu-id="b403a-120">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="b403a-121">„Power BI“ turinys Gamybos našumas</span><span class="sxs-lookup"><span data-stu-id="b403a-121">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="b403a-122">Pirkimo išlaidų analizės „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-122">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="b403a-123">Įdarbinimo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-123">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="b403a-124">Pardavimo ir pelningumo našumo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-124">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="b403a-125">„Power BI“ turinys Tiekėjo mokėjimai</span><span class="sxs-lookup"><span data-stu-id="b403a-125">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="b403a-126">Sandėlio efektyvumo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-126">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="b403a-127">Darbo jėgos metrikos „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-127">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a><span data-ttu-id="b403a-128">„Dynamics 365 for Operations‟ 1611 versijai skirtas „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-128">Power BI content for Dynamics 365 for Operations version 1611</span></span>
-<span data-ttu-id="b403a-129">Jei naudojate „Microsoft Dynamics 365 for Operations‟ 1611 versiją, pasiekiamas toliau nurodytas „Power BI‟ turinys.</span><span class="sxs-lookup"><span data-stu-id="b403a-129">If you're using Microsoft Dynamics 365 for Operations version 1611, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="b403a-130">Kompensacijų ir išmokų „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-130">Compensation and benefits Power BI content</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [<span data-ttu-id="b403a-131">Kaštų apskaitos analizės „Power BI‟ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-131">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="b403a-132">„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas</span><span class="sxs-lookup"><span data-stu-id="b403a-132">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="b403a-133">Darbuotojo kompetencijų ir tobulėjimo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-133">Employee competencies and development Power BI content</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="b403a-134">Finansinės veiklos „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-134">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="b403a-135">Organizacinio mokymo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-135">Organizational training Power BI content</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="b403a-136">„Power BI“ turinys Praktikos vadovas</span><span class="sxs-lookup"><span data-stu-id="b403a-136">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="b403a-137">„Power BI“ turinys Gamybos našumas</span><span class="sxs-lookup"><span data-stu-id="b403a-137">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="b403a-138">Pirkimo išlaidų analizės „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-138">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="b403a-139">Įdarbinimo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-139">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="b403a-140">Pardavimo ir pelningumo našumo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-140">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="b403a-141">Sandėlio efektyvumo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-141">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="b403a-142">Darbo jėgos metrikos „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-142">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a><span data-ttu-id="b403a-143">„Microsoft Dynamics AX“ skirtas „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-143">Power BI content for Microsoft Dynamics AX</span></span>
-<span data-ttu-id="b403a-144">Jei naudojate „Microsoft Dynamics AX‟ 7.0 versiją arba „Microsoft Dynamics AX‟ 7.0.1 versiją, pasiekiamas toliau nurodytas „Power BI‟ turinys.</span><span class="sxs-lookup"><span data-stu-id="b403a-144">If you're using Microsoft Dynamics AX 7.0 or Microsoft Dynamics AX 7.0.1, the following Power BI content is available:</span></span>
+<span data-ttu-id="a0672-106">Toliau nurodyti „PowerBI.com“ sprendimai pasiekiami LCS bendrai naudojamo turto bibliotekoje.</span><span class="sxs-lookup"><span data-stu-id="a0672-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="a0672-107">Žr. bendrai naudojamo turto bibliotekoje nurodytą versijos informaciją ir atsisiųskite savo aplinkai tinkamą versiją.</span><span class="sxs-lookup"><span data-stu-id="a0672-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span> 
 
 > [!Note]
-> <span data-ttu-id="b403a-145">Šie turinio paketai nebenaudojami, kaip nurodyta dalyje [Svetainėje PowerBI.com publikuojami „Power BI“ turinio paketai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span><span class="sxs-lookup"><span data-stu-id="b403a-145">These content packs have been deprecated as documented in [Power BI content packs published to PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span></span>
+> <span data-ttu-id="a0672-108">Naujausiose „Dynamics 365 for Finance and Operations“ versijose dauguma tolesniame sąraše nurodomų „PowerBI.com“ sprendimų integruoti į analizės darbo sritis.</span><span class="sxs-lookup"><span data-stu-id="a0672-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="a0672-109">Naudojant analizės darbo sritis nebereikia atsisiųsti šių sprendimų iš LCS bendrai naudojamo turto bibliotekos.</span><span class="sxs-lookup"><span data-stu-id="a0672-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="a0672-110">Šiame sąraše išvardytose temose nurodoma, kur šie „PowerBI.com“ sprendimai integruoti naudojant „Finance and Operations“, jei tai taikoma.</span><span class="sxs-lookup"><span data-stu-id="a0672-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span> 
 
-- [<span data-ttu-id="b403a-146">Išlaidų valdymo „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-146">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="b403a-147">Finansinės veiklos „Power BI“ turinys</span><span class="sxs-lookup"><span data-stu-id="b403a-147">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="b403a-148">„Power BI“ turinys Mažmeninės prekybos kanalo našumas</span><span class="sxs-lookup"><span data-stu-id="b403a-148">Retail channel performance Power BI content</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
+- [<span data-ttu-id="a0672-111">Faktinis lyginant su biudžeto</span><span class="sxs-lookup"><span data-stu-id="a0672-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="a0672-112">Grynųjų pinigų apžvalga</span><span class="sxs-lookup"><span data-stu-id="a0672-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="a0672-113">Kompensavimas ir išmokos</span><span class="sxs-lookup"><span data-stu-id="a0672-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [<span data-ttu-id="a0672-114">Kaštų apskaitos analizė</span><span class="sxs-lookup"><span data-stu-id="a0672-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md) 
+- [<span data-ttu-id="a0672-115">Kredito ir mokėjimų priežiūros valdymas</span><span class="sxs-lookup"><span data-stu-id="a0672-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="a0672-116">Darbuotojų kompetencijos ir tobulinimas</span><span class="sxs-lookup"><span data-stu-id="a0672-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="a0672-117">Finansinės veiklos rezultatai</span><span class="sxs-lookup"><span data-stu-id="a0672-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="a0672-118">Ilgalaikio turto valdymas</span><span class="sxs-lookup"><span data-stu-id="a0672-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="a0672-119">Organizacinis mokymas</span><span class="sxs-lookup"><span data-stu-id="a0672-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="a0672-120">Praktikos vadovas</span><span class="sxs-lookup"><span data-stu-id="a0672-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="a0672-121">Gamybos našumas</span><span class="sxs-lookup"><span data-stu-id="a0672-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="a0672-122">Pirkimo ir išlaidų analizė</span><span class="sxs-lookup"><span data-stu-id="a0672-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md) 
+- [<span data-ttu-id="a0672-123">Įdarbinimas</span><span class="sxs-lookup"><span data-stu-id="a0672-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="a0672-124">Pardavimo ir pelningumo efektyvumas</span><span class="sxs-lookup"><span data-stu-id="a0672-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="a0672-125">Tiekėjo mokėjimai</span><span class="sxs-lookup"><span data-stu-id="a0672-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="a0672-126">Sandėlio našumas</span><span class="sxs-lookup"><span data-stu-id="a0672-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="a0672-127">Darbo jėgos metrika</span><span class="sxs-lookup"><span data-stu-id="a0672-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="a0672-128">Naudojant „AppSource“ galimi „PowerBI.com“ sprendimai</span><span class="sxs-lookup"><span data-stu-id="a0672-128">PowerBI.com solutions available from AppSource</span></span>
 
+<span data-ttu-id="a0672-129">Naudojant [„Microsoft AppSource“](https://appsource.microsoft.com) galimi toliau nurodyti „PowerBI.com“ sprendimai.</span><span class="sxs-lookup"><span data-stu-id="a0672-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!Note]
+> <span data-ttu-id="a0672-130">Šie sprendimai nebenaudojami, kaip nurodyta dalyje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="a0672-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="a0672-131">Kaštų valdymas</span><span class="sxs-lookup"><span data-stu-id="a0672-131">Cost management</span></span>    
+- [<span data-ttu-id="a0672-132">Finansinės veiklos rezultatai</span><span class="sxs-lookup"><span data-stu-id="a0672-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="a0672-133">Mažmeninės prekybos kanalų efektyvumas </span><span class="sxs-lookup"><span data-stu-id="a0672-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
 
