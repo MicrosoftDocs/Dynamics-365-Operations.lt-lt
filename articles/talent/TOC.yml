@@ -1,0 +1,84 @@
+- name: 'Sveiki, čia – „Dynamics 365 for Talent“'
+  href: index.md
+- name: Darbo pradžia
+  href: talent-get-started.md
+  items:
+    - name: Sistemos reikalavimai ir naujinimo strategija
+      href: talent-versions-update-policy.md
+    - name: „Microsoft Dynamics 365 for Talent“ parengimas
+      href: provisioning-talent.md
+    - name: „Talent“ aplinkos šalinimas
+      href: remove-talent-environment.md
+    - name: „Microsoft Dynamics 365 for Talent“ modulinių programų parengimas
+      href: modular-app-tech-faq.md
+    - name: „Talent“ funkcijų išplėtimas
+      href: extend-talent-functionality.md
+    - name: Prieiga prie „Dynamics 365 for Talent“ peržiūros funkcijų
+      href: access-preview-feature.md
+- name: Personalo strategijos kūrimas
+  href: departments-jobs-positions.md
+  items:
+    - name: Darbo komponentų nustatymas
+      href: create-job.md
+    - name: Padalinio kūrimas ir priskyrimas padalinių hierarchijai
+      href: create-department-add-department-hierarchy.md
+    - name: Personalo parametrų nustatymas visiems juridiniams subjektams
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: Konkrečios įmonės personalo parametrų nustatymas
+      href: set-up-company-specific-hr-parameters.md
+    - name: Personalo veiksmų DUK
+      href: personnel-actions-faq.md
+    - name: Verslo procesų formalizavimas
+      href: formalize-business-processes.md
+    - name: Darbo eigos naudojimas darbuotojų informacijai valdyti
+      href: workflow-manage-employee-information.md
+    - name: Atostogų ir neatvykimų apžvalga
+      href: leave-absence-overview.md
+- name: Organizacijos personalas
+  items:
+    - name: „Attract‟ apžvalga
+      href: attract-overview.md
+    - name: „Onboard‟ apžvalga
+      href: create-onboarding-experience.md
+- name: Darbuotojų motyvavimas
+  items:
+    - name: Kompensacijų planai
+      href: compensation-plans.md
+    - name: Pastoviosios atlyginimo dalies planų kūrimas
+      href: create-fixed-compensation-plans.md
+    - name: Kintamosios atlyginimo dalies planų kūrimas
+      href: create-variable-compensation-plans.md
+    - name: Kompensavimo apdorojimas
+      href: process-compensation.md
+- name: Darbuotojų tobulinimas ir mokymas
+  items:
+    - name: Našumo valdymo apžvalga
+      href: performance-management-overview.md
+    - name: Darbo jėgos įgūdžių ir verslo poreikių suderinimas
+      href: skills.md
+    - name: Mokymo kursų rengimas
+      href: courses.md
+- name: Išmokų kūrimas ir tvarkymas
+  href: manage-benefit-program.md
+- name: Teisės į išmoką strategijos
+  href: benefit-eligibility-policies.md
+  items:
+    - name: Darbininkams paskolintų prekių valdymas
+      href: loan-items.md
+- name: Informacijos rinkimas naudojant klausimynus
+  href: questionnaires.md
+  items:
+    - name: Klausimyno sudarymas
+      href: design-questionnaires.md
+    - name: Klausimyno platinimas ir pildymas
+      href: distribute-questionnaires.md
+    - name: Klausimyno rezultatų įvertinimas
+      href: evaluate-questionnaire-results.md
+- name: Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
+  items:
+    - name: Atsakymas į užklausą dėl asmeninių duomenų naudojant „Talent“
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+    - name: Formos I-9 tinkamumo įdarbinti tikrinimas
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+    - name: ADA laikymasis
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
