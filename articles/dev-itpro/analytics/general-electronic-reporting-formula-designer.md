@@ -3,7 +3,7 @@ title: "Elektroninių ataskaitų formulių kūrimo įrankis"
 description: "Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -74,7 +74,7 @@ Vykdymo metu sukurta formulė **ROUND (Intrastat.AmountMST, 2)** kiekvieno Intra
 
 ### <a name="data-formatting"></a>Duomenų formatavimas
 
-ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri formatuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima siųsti kaip generuojamo elektroninio dokumento dalį. Galite turėti formatavimą, kuris turi būti taikomas kaip įprasta pakartotinai naudojama formato taisyklė. Tokiu atveju šį formatavimą galite vienu kartu įvesti į formato konfigūraciją kaip įvardytąją transformaciją, kuri turi formatavimo išraišką. Tada šią įvardytąją transformaciją galima susieti su daug formato komponentų, kurių išvedami duomenys turi būti formatuojami pagal jūsų sukurtą formatavimo išraišką.
+ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri formatuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima siųsti kaip generuojamo elektroninio dokumento dalį. Galite turėti formatavimą, kuris turi būti taikomas kaip įprasta pakartotinai naudojama formato taisyklė. Tokiu atveju šį formatavimą galite vienu kartu įvesti į formato konfigūraciją kaip įvardytąją transformaciją, kuri turi formatavimo išraišką. Tada šią įvardytąją transformaciją galima susieti su daugeliu formato komponentų, kurių išvedami duomenys turi būti formatuojami pagal jūsų sukurtą formatavimo išraišką.
 
 Tolesnė iliustracija rodo šio tipo pakeitimo kūrimą. Šiame pavyzdyje transformacija **TrimmedString** sutrumpina duomenų tipo **Eilutė** duomenis pašalindama priekinius ir galinius tarpus. Tada ji pateikia sutrumpintą eilutės reikšmę.
 
@@ -175,7 +175,7 @@ Jei išraiškoje iš eilės yra keli operatoriai, turintys tokią pačią pirmen
 
 #### <a name="references"></a>Nuorodos
 
-Visi dabartinio ER komponento duomenų šaltiniai, kurie yra pasiekiami kuriant išraišką, gali būti naudojami kaip įvardytosios nuorodos. (Dabartinis ER komponentas gali būti modelis arba formatas.) Pvz., dabartiniame ER duomenų modelyje yra duomenų šaltinis **ReportingDate**, kuris pateikia duomenų tipo **DATETIME** reikšmę. Norint, kad reikšmė generuojamame dokumente būtų pateikiama tinkamai suformatuota, išraiškoje duomenų šaltinį galima nurodyti tokį: **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
+Visi dabartinio ER komponento duomenų šaltiniai, kurie yra pasiekiami kuriant išraišką, gali būti naudojami kaip įvardytosios nuorodos. (Dabartinis ER komponentas gali būti modelis arba formatas.) Pvz., dabartiniame ER duomenų modelyje yra duomenų šaltinis **ReportingDate**, kuris pateikia duomenų tipo **DATETIME** reikšmę. Norint, kad reikšmė generuojamame dokumente būtų pateikiama teisingai suformatuota, išraiškoje duomenų šaltinį galima nurodyti tokį: **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
 
 Prieš visus nuorodos duomenų šaltinio pavadinime esančius simbolius, kurie nėra abėcėlės raidė, turi būti padėtas viengubos kabutės ženklas ('). Jei nuorodos duomenų šaltinio pavadinime yra bent vienas simbolis, kuris nėra abėcėlės raidė, pavadinimas turi būti išskiriamas viengubomis kabutėmis. (Pavyzdžiui, šie neabėcėliniai simboliai gali būti skyrybos ženklai arba kiti rašytiniai simboliai). Toliau pateikiama keletas pavyzdžių.
 
@@ -217,13 +217,13 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 | NULLDATE () | Pateikti **neapibrėžtą** datos reikšmę. | |
 | NULLDATETIME () | Pateikti **neapibrėžtą** datos / laiko reikšmę. | |
 | DATETIMEFORMAT (data ir laikas, formatas) | Konvertuoti nurodytą datos / laiko reikšmę į nurodyto formato eilutę. (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), „mmmm-MM-dd“)** pateikia dabartinio „Finance and Operations“ programos seanso datą – 2015 m. gruodžio 24 d. – kaip **„2015-12-24“** pagal nurodytą pasirinktinį formatą. |
-| DATETIMEFORMAT (data ir laikas, formatas, principas) | Konvertuoti nurodytą datos / laiko reikšmę į nurodyto formato eilutę ir [kultūrą](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), „d“, „de“)** pateikia dabartinio „Finance and Operations“ programos serverio datą – 2015 m. gruodžio 24 d. – kaip **„24.12.2015“** pagal pasirinktą vokišką kultūrą. |
+| DATETIMEFORMAT (data ir laikas, formatas, principas) | Konvertuoti nurodytą datos / laiko reikšmę į nurodyto formato eilutę ir [kultūrą](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), „d“, „de“)** pateikia dabartinio „Finance and Operations“ programos serverio datą – 2015 m. gruodžio 24 d. – kaip **„24.12.2015“** pagal pasirinktą vokišką kultūrą. |
 | SESSIONTODAY () | Pateikti dabartinę „Finance and Operations“ seanso datą kaip datos reikšmę. | |
 | SESSIONNOW () | Pateikti dabartinę „Finance and Operations“ seanso datą ir laiką kaip datos / laiko reikšmę. | |
 | DATEFORMAT (data, formatas) | Pateikti nurodytos datos eilutę nurodytu formatu. | **DATEFORMAT (SESSIONTODAY (), "mmmm-MM-dd“)** pateikia dabartinio „Finance and Operations“ seanso datą – 2015 m. gruodžio 24 d. – kaip **„2015-12-24“** pagal nurodytą pasirinktinį formatą. |
-| DATEFORMAT (data, formatas, principas) | Konvertuokite nurodytą datos reikšmę į nurodyto formato eilutę ir [principą](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), „d“, „de“)** pateikia dabartinio „Finance and Operations“ seanso datą – 2015 m. gruodžio 24 d. – kaip **„24.12.2015“** pagal pasirinktą vokišką kultūrą. |
+| DATEFORMAT (data, formatas, principas) | Konvertuokite nurodytą datos reikšmę į nurodyto formato eilutę ir [principą](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Daugiau informacijos apie palaikomus formatus rasite [standartinis](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ir [pasirinktinis](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), „d“, „de“)** pateikia dabartinio „Finance and Operations“ seanso datą – 2015 m. gruodžio 24 d. – kaip **„24.12.2015“** pagal pasirinktą vokišką kultūrą. |
 | DAYOFYEAR (data) | Pateikti dienų nuo sausio 1 d. iki nurodytos datos sveikąjį skaičių. | **DAYOFYEAR (DATEVALUE („2016-03-01“, „mmmm-MM-dd“))** pateikia **61**. **DAYOFYEAR (DATEVALUE („2016-01-01“, „mmmm-MM-dd“))** pateikia **1**. |
-| DAYS (1 data, 2 data) | Pateikti dienų tarp pirmosios nurodytos datos ir antrosios nurodytos dienos skaičių. Kai pirmoji data yra vėlesnė nei antroji, pateikti teigiamą reikšmę, kai pirmoji data sutampa su antrąja, pateikti **0** (nulį), kitu atveju pateikti neigiamą reikšmę. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** pateikia **-1**. |
+| DAYS (1 data, 2 data) | Pateikti dienų tarp pirmosios nurodytos datos ir antrosios nurodytos dienos skaičių. Kai pirmoji data yra vėlesnė nei antroji, pateikti teigiamą reikšmę, kai pirmoji data sutampa su antrąja, pateikti **0** (nulį), arba pateikti neigiamą reikšmę, kai pirmoji data yra ankstesnė nei antroji data. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** pateikia **-1**. |
 
 ### <a name="data-conversion-functions"></a>Duomenų konvertavimo funkcijos
 
@@ -231,120 +231,132 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 |----------|-------------|---------|
 | DATETODATETIME (data) | Nurodytą datos reikšmę konvertuoti į datos / laiko reikšmę. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** pateikia dabartinio „Finance and Operations” seanso datą – 2015 m. gruodžio 24 d. – kaip **2015-12-24 00:00:00**. Šiame pavyzdyje **CompInfo** yra **„Finance and Operations“ / lentelės** tipo ER duomenų šaltinis, nurodantis lentelę CompanyInfo. |
 | DATEVALUE (eilutė, formatas) | Pateikti nurodytos eilutės datą nurodytu formatu. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** pateikia datą (2016 m. gruodžio 21 d.) pagal nurodytą pasirinktinį formatą ir numatytosios programos **EN-US** kultūrą. |
-| DATEVALUE (eilutė, formatas, principas) | Pateikti nurodytos eilutės datą nurodytu formatu ir kultūra. | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** pateikia datą (2016 m. sausio 21 d.) pagal nurodytą pasirinktinį formatą ir kultūrą. Tačiau **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** pateiks išimtį, kad informuotų vartotoją, jog nurodyta eilutė nėra atpažįstama kaip tinkama data. |
+| DATEVALUE (eilutė, formatas, principas) | Pateikti nurodytos eilutės datą nurodytu formatu ir kultūra. | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** pateikia datą (2016 m. sausio 21 d.) pagal nurodytą pasirinktinį formatą ir kultūrą. Tačiau **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** pateikia išimtį, kad informuotų vartotoją, jog nurodyta eilutė nėra atpažįstama kaip tinkama data. |
 | DATETIMEVALUE (eilutė, formatas) | Pateikti nurodytos eilutės datą / laiką nurodytu formatu. | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** pateikia 2016 m. gruodžio 21 d. 2:55:00 AM pagal nurodytą pasirinktinį formatą ir numatytosios programos **EN-US** kultūrą. |
-| DATETIMEVALUE (eilutė, formatas, principas) | Pateikti nurodytos eilutės datą / laiką nurodytu formatu ir kultūra. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** pateikia 2016 m. gruodžio 21 d. 2:55:00 AM pagal nurodytą pasirinktinį formatą ir kultūrą. Tačiau **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** pateiks išimtį, kad informuotų vartotoją, jog nurodyta eilutė nėra atpažįstama kaip tinkama data / laikas. |
+| DATETIMEVALUE (eilutė, formatas, principas) | Pateikti nurodytos eilutės datą / laiką nurodytu formatu ir kultūra. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** pateikia 2016 m. gruodžio 21 d. 2:55:00 AM pagal nurodytą pasirinktinį formatą ir kultūrą. Tačiau **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** pateikia išimtį, kad informuotų vartotoją, jog nurodyta eilutė nėra atpažįstama kaip tinkama data / laikas. |
 
 ### <a name="list-functions"></a>Sąrašo funkcijos
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Funkcija</th>
 <th>aprašymas</th>
 <th>Pavyzdys</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>SPLIT (įvestis, ilgis)</td>
 <td>Skaidyti nurodytą įvesties eilutę į antrines eilutes, iš kurių kiekvienos ilgis nurodomas atskirai. Pateikti rezultatą naujame sąraše.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> pateikia naują sąrašą, sudarytą iš dviejų įrašų, kuriuose yra laukas <strong>STRING</strong>. Pirmame įraše esančiame lauke yra tekstas <strong>&quot;abc&quot;</strong>, o antrame įraše esančiame lauke yra tekstas <strong>&quot;d&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SPLITLIST (sąrašas, numeris)</td>
 <td>Skaidyti nurodytą sąrašą į paketus, iš kurių kiekviename būtų nurodytas įrašų skaičius. Pateikti rezultatą naujame paketų sąraše, kuriame yra šie elementai:
 <ul>
 <li>Paketai kaip įprasti sąrašai (<strong>Vertės </strong>komponentas)</li>
 <li>Dabartinio paketo numeris (<strong>BatchNumber</strong>komponentas)</li>
-</ul></td>
+</ul>
+</td>
 <td>Tolesnėje iliustracijoje duomenų šaltinis <strong>Eilutės</strong> sukurtas kaip trijų įrašų sąrašas. Šis sąrašas suskirstytas į paketus, iš kurių kiekviename yra iki dviejų įrašų.
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas sukurtas formato maketas. Šiame formato makete sukuriami susiejimai su duomenų šaltiniu <strong>Eilutės</strong>, siekiant generuoti išeigą XML formatu. Ši išeiga pateikia atskirus kiekvieno paketo ir jame esančių įrašų mazgus.</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas sukurtas formatas.</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (1 įrašas [, 2 įrašas, ...])</td>
 <td>Pateikti naują sąrašą, sukurtą iš nurodytų argumentų.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> pateikia tuščią įrašą, kur laukų sąraše yra visi <strong>MainData</strong> ir <strong>OtherData</strong> įrašų sąrašų laukai.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (1 sąrašas, 2 sąrašas, …)</td>
 <td>Pateikti jungtinį sąrašą, sukurtą iš nurodytų argumentų sąrašų.</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> pateikia šešių įrašų sąrašą, kur viename <strong>STRING</strong> duomenų tipo lauke yra atskiros raidės.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY (sąrašas)</td>
 <td>Pateikti <strong>TRUE</strong>, jei nurodytame sąraše nėra jokių elementų. Kitu atveju pateikti <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST (sąrašas)</td>
 <td>Pateikti tuščią sąrašą naudojant nurodytą sąrašą kaip sąrašo struktūros šaltinį.</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> pateikia naują tuščią sąrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija <strong>SPLIT</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST (sąrašas)</td>
 <td>Pateikti pirmą nurodyto sąrašo įrašą, jei tas įrašas nėra tuščias. Kitu atveju pateikti išimtį.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL (sąrašas)</td>
 <td>Pateikti pirmą nurodyto sąrašo įrašą, jei tas įrašas nėra tuščias. Kitu atveju pateikti <strong>neapibrėžtą</strong> įrašą.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM (sąrašas)</td>
 <td>Pateikti sąrašą, kuriame yra tik pirmas nurodyto sąrašo elementas.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS (kelias)</td>
-<td>Pateikti naują lygųjį sąrašą, kuriame nurodomi visi elementai, atitinkantys nurodytą kelią. Kelias turi būti nurodytas kaip tinkamas duomenų šaltinio kelias į įrašų sąrašo duomenų tipo duomenų šaltinio elementą. Duomenų elementai, pvz., kelio eilutė ir data, kūrimo metu ER išraiškų daryklėje turėtų pateikti klaidą.</td>
+<td>Ši funkcija veikia kaip atminties pasirinkimas. Pateikia naują lygųjį sąrašą, kuriame nurodomi visi elementai, atitinkantys nurodytą kelią. Kelias turi būti nurodytas kaip tinkamas duomenų šaltinio kelias į įrašų sąrašo duomenų tipo duomenų šaltinio elementą. Duomenų elementai, pvz., kelio eilutė ir data, kūrimo metu ER išraiškų daryklėje turėtų pateikti klaidą.</td>
 <td>Jei kaip duomenų šaltinį (DS) įvesite <strong>SPLIT(&quot;abcdef&quot; , 2)</strong>,<strong>COUNT( ALLITEMS (DS.Value))</strong> pateikia <strong>3</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY (kelias)</td>
+<td>Ši funkcija veikia kaip sujungta SQL užklausa. Pateikia naują lygųjį sąrašą, kuriame nurodomi visi elementai, atitinkantys nurodytą kelią. Nurodytas kelias turi būti nurodytas kaip tinkamas duomenų šaltinio kelias į įrašų sąrašo duomenų tipo duomenų šaltinio elementą, jame turi būti bent vienas ryšys. Duomenų elementai, pvz., kelio eilutė ir data, kūrimo metu ER išraiškų daryklėje turėtų pateikti klaidą.</td>
+<td>Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:
+<ul>
+<li><strong>CustInv</strong> (tipas <strong>Lentelės įrašai</strong>), kuris nurodo į CustInvoiceTable lentelę</li> 
+<li><strong>FilteredInv</strong> (tipas <strong>Apskaičiuotasis laukas</strong>), kuriame yra išraiška<strong>FILTRAS (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong> (Tipas<strong>Apskaičiuotasis laukas</strong>), kuriame yra išraiška <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>Kai vykdote savo modelio susiejimą norėdami iškviesti duomenų šaltinį,  <strong>JourLines</strong>, vykdomas šis SQL išrašas:</p>
+PASIRINKTI ... IŠ CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 KUR...
+</td>
+</tr>
+<tr>
 <td>ORDERBY (sąrašas [, 1 išraiška, 2 išraiška, ...])</td>
 <td>Pateikti nurodytą sąrašą, surūšiuotą pagal nurodytus argumentus. Šiuos argumentus galima apibrėžti kaip išraiškas.</td>
 <td>Jei <strong>Tiekėjas </strong>sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą didėjančia tvarka.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE (sąrašas)</td>
 <td>Pateikti nurodytą sąrašą atvirkštine rūšiavimo tvarka.</td>
 <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> pateikia tiekėjų sąrašą, surūšiuotą pagal pavadinimą mažėjančia tvarka.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE (sąrašas, sąlyga)</td>
 <td>Pateikti nurodytą sąrašą, filtruotą pagal nurodytą sąlygą. Nurodyta sąlyga yra taikoma sąrašui atmintyje. Taip funkcija <strong>WHERE</strong> skiriasi nuo funkcijos <strong>FILTER</strong>.</td>
 <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE (sąrašas)</td>
 <td>Pateikti naują sąrašą, sudarytą iš išvardytų nurodyto sąrašo įrašų ir parodantį šiuos elementus:
 <ul>
 <li>nurodytus sąrašo įrašus kaip įprastus sąrašus (<strong>Vertės </strong>komponentas);</li>
 <li>dabartinio įrašo indeksą (<strong>Numerio </strong>komponentas).</li>
-</ul></td>
+</ul>
+</td>
 <td>Tolesnėje iliustracijoje duomenų šaltinis <strong>Išvardytas</strong> sukurtas kaip išvardytas tiekėjo įrašų sąrašas iš duomenų šaltinio <strong>Tiekėjai</strong>, kuris nurodo lentelę VendTable.
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas formatas. Šiame formate sukuriami duomenų susiejimai, siekiant generuoti išeigą XML formatu. Ši išeiga atskirus tiekėjus pateikia kaip išvardytus mazgus.</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas sukurtas formatas.</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT (sąrašas)</td>
 <td>Pateikti nurodytame sąraše esančių įrašų skaičių, jei sąrašas nėra tuščias. Kitu atveju pateikti <strong>0</strong> (nulis).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> pateikia <strong>2</strong>, nes funkcija <strong>SPLIT</strong> sukuria sąrašą, kurį sudaro du įrašai.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS (kelias)</td>
 <td>Pateikti įrašų sąrašą, sukurtą naudojant vieną iš toliau nurodytų tipų argumentų.
 <ul>
@@ -358,7 +370,8 @@ Toliau pateikiamose lentelėse aprašomos duomenų tvarkymo funkcijos, kurias ga
 <li>Etiketė</li>
 <li>aprašymas</li>
 </ul>
-Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateikiamos reikšmės pagal formato kalbos parametrus.</td>
+Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateikiamos reikšmės pagal formato kalbos parametrus.
+</td>
 <td>Tolesnėje iliustracijoje duomenų modelyje įvestas išvardijimas.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>Tolesnėje iliustracijoje parodyta tolesnė išsami informacija.</p>
@@ -372,10 +385,10 @@ Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateik
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas sukurtas formatas.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-Pagal pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus išverstas žymų ir aprašų tekstas yra įvedamas į ER formato išeigą.</blockquote></td>
+<blockquote>[!NOTE]<br>Pagal pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus išverstas žymų ir aprašų tekstas yra įvedamas į ER formato išeigą.</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (kelias, kalba)</td>
 <td>Pateikti įrašų sąrašą, sukurtą iš argumento, pvz., modelio išvardijimo, formato išvardijimo ar konteinerio. Sukurtą sąrašą sudaro įrašai su tolesniais laukais.
 <ul>
@@ -384,26 +397,27 @@ Pagal pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus išversta
 <li>aprašymas</li>
 <li>Išversta</li>
 </ul>
-<p>Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateikiamos reikšmės pagal formato kalbos parametrus ir nurodytą kalbą. Laukas <strong>Išversta</strong> rodo, kad laukas <strong>Žyma</strong> išverstas į nurodytą kalbą.</td>
+Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateikiamos reikšmės pagal formato kalbos parametrus ir nurodytą kalbą. Laukas <strong>Išversta</strong> rodo, kad laukas <strong>Žyma</strong> išverstas į nurodytą kalbą.
+</td>
 <td>Pavyzdžiui, duomenų šaltinio tipas <strong>Apskaičiuotasis laukas</strong> naudojamas konfigūruoti duomenų modelio išvardijimo <strong>enumType</strong> duomenų šaltinius <strong>enumType_de</strong> ir <strong>enumType_deCH</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokiečių kalba (jei šis vertimas yra), galite naudoti tolesnę išraišką. Jei vertimo Šveicarijos vokiečių kalba nėra, žyma pateikiama vokiečių kalba: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokiečių kalba (jei šis vertimas yra), galite naudoti tolesnę išraišką. Jei vertimo Šveicarijos vokiečių kalba nėra, žyma pateikiama vokiečių kalba: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN (sąrašas, lauko pavadinimas, skyriklis)</td>
 <td>Pateikti eilutę, kurią sudaro sujungtos nurodyto lauko, esančio nurodytame sąraše, reikšmės. Reikšmes skiria nurodytas skyriklis.</td>
-
-<td>Jei kaip duomenų šaltinį įvedate <strong>SPLIT(&quot;abc&quot; , 1)</strong>, išraiška <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> pateikia <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
-
+<td>Jei kaip duomenų šaltinį (DS) įvesite <strong>SPLIT(&quot;abc&quot;, 1)</strong>, <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> pateikia <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT (sąrašas, ribinė reikšmė, ribos šaltinis)</td>
-<td>Nurodytą sąrašą padalyti į naują antrinių sąrašų sąrašą ir pateikti rezultatą įrašų sąrašo turinyje. Ribinės reikšmės parametras nustato ribos reikšmę, taikomą dalijant pradinį sąrašą. Ribos šaltinio parametras nustato veiksmą, kurį atliekant bendra suma didėja. Riba netaikoma vienam pradinio sąrašo elementui, jei ribos šaltinis viršija nustatytą ribą.</td>
-<td>Tolesnėse iliustracijose parodytas formatas ir naudojami jo duomenų šaltiniai. 
+<td>Nurodytą sąrašą padalyti į naują antrinių sąrašų sąrašą ir pateikti rezultatą įrašų sąrašo turinyje. Parametras <strong>ribinė vertė</strong> nustato ribos reikšmę, taikomą dalijant pradinį sąrašą. Parametru <strong>Ribos šaltinis</strong> nustatomas veiksmas, kurį atliekant bendra suma didėja. Riba netaikoma vienam pradinio sąrašo elementui, jei ribos šaltinis viršija nustatytą ribą.</td>
+<td>Tolesnėje iliustracijoje parodytas formatas. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>Tolesnėje iliustracijoje parodyti formatui naudojami duomenų šaltiniai.</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas formatas. Šiuo atveju išeiga yra standartinis prekių sąrašas.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas pakoreguotas formatas.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>WHERE</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinių sąrašų generuojant ataskaitą (pagal poreikį).</blockquote></td>
+<blockquote>[!NOTE]<br>Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>WHERE</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinių sąrašų generuojant ataskaitą (pagal poreikį).</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FILTER (sąrašas, sąlyga)</td>
 <td>Pateikti nurodytą sąrašą, kai užklausa modifikuota filtruoti pagal nurodytą sąlygą. Ši funkcija skiriasi nuo funkcijos <strong>WHERE</strong>, nes nurodyta sąlyga duomenų bazės lygiu taikoma bet kuriam ER duomenų šaltiniui, kurio tipas – <strong>Lentelės įrašai</strong>. Sąrašą ir sąlygas galima nustatyti naudojant lenteles ir ryšius.</td>
-  <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą. Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę <strong>VendTable</strong>, ir <strong>parmVendorBankGroup</strong>, sukonfigūruotas kaip ER duomenų šaltinis, pateikia eilutės duomenų tipo reikšmę, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> pateikia tik konkrečiai bankų grupei priklausančių tiekėjų sąskaitų sąrašą.</td>
+<td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą. Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis į lentelę <strong>VendTable</strong>, jei <strong>parmVendorBankGroup</strong> sukonfigūruota kaip ER duomenų šaltinis, pateikiantis duomenų tipo <strong>Eilutė</strong> vertę, <strong>FILTRAS (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> pateikia tik tų tiekėjų sąskaitas, kurie priklauso konkrečiai banko grupei.</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svo
 | POWER (skaičius, kėlimas laipsniu) | Pateikti nurodyto teigiamo skaičiaus kėlimo nurodytu laipsniu rezultatą. | **POWER (10, 2)** pateikia **100**. |
 | NUMBERVALUE (eilutė, dešimtainis skyriklis, skaitmenų grupės skyriklis) | Konvertuoti nurodytą eilutę į skaičių. Nurodytas dešimtainis skyriklis naudojamas tarp dešimtainio skaičiaus sveikojo skaičiaus ir trupmeninės dalių. Nurodytas skaitmenų grupavimo skyriklis naudojamas kaip tūkstančių skyriklis. | **NUMBERVALUE(„1 234,56“, „,“, „ “)** pateikia reikšmę **1234,56**. |
 | VALUE (eilutė) | Konvertuoti nurodytą eilutę į skaičių. Kableliai ir taško simboliai (.) laikomi dešimtainiais skyrikliais, o prieš skaičių rašomas brūkšnelis (-) naudojamas kaip neigiamas ženklas. Pateikti išimtį, jei nurodytoje eilutėje yra kitų neskaitinių simbolių. | **VALUE („1 234,56“)** pateikia išimtį. |
-| ROUND (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą iki nurodyto skaičiaus po kablelio.<ul><li>Jei dešimtainių dalių parametro reikšmė yra didesnė už 0 (nulį), nurodytas skaičius apvalinamas iki tiek skaitmenų po kablelio.</li><li>Jei dešimtainių dalių parametro reikšmė yra **0** (nulis), nurodytas skaičius apvalinamas iki artimiausio sveikojo skaičiaus.</li><li>Jei dešimtainių dalių parametro reikšmė yra mažesnė už 0 (nulį), nurodytas skaičius apvalinamas į kairę nuo skaičiaus po kablelio.</li></ul> | **ROUND (1200,767, 2)** suapvalina iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUND (1200,767, -3)** suapvalina iki artimiausio 1000 kartotinio ir pateikia **1000**. |
-| ROUNDDOWN (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą žemyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir <strong>ROUND</strong>, bet ji visada apvalina nurodytą skaičių į mažesnę pusę (link nulio).</blockquote> | **ROUNDDOWN (1200,767, 2)** suapvalina į mažesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,76**. **ROUNDDOWN (1700,767, -3)** suapvalina į mažesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **1000**. |
-| ROUNDUP (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą aukštyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir <strong>ROUND</strong>, bet ji visada apvalina nurodytą skaičių į didesnę pusę (nuo nulio).</blockquote> | **ROUNDUP (1200,763, 2)** suapvalina į didesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUNDUP (1200,767, -3)** suapvalina į didesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **2000**. |
+| ROUND (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą iki nurodyto skaičiaus po kablelio.<ul><li>Jei parametro **dešimtainės dalys** reikšmė yra didesnė už 0 (nulį), nurodytas skaičius apvalinamas iki tiek skaitmenų po kablelio.</li><li>Jei parametro **dešimtainės dalys** reikšmė yra **0** (nulis), nurodytas skaičius apvalinamas iki artimiausio sveikojo skaičiaus.</li><li>Jei parametro **dešimtainės dalys** reikšmė yra mažesnė už 0 (nulį), nurodytas skaičius apvalinamas į kairę nuo skaičiaus po kablelio.</li></ul> | **ROUND (1200,767, 2)** suapvalina iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUND (1200,767, -3)** suapvalina iki artimiausio 1000 kartotinio ir pateikia **1000**. |
+| ROUNDDOWN (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą žemyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į mažesnę pusę (link nulio).</blockquote> | **ROUNDDOWN (1200,767, 2)** suapvalina į mažesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,76**. **ROUNDDOWN (1700,767, -3)** suapvalina į mažesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **1000**. |
+| ROUNDUP (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą aukštyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į didesnę pusę (nuo nulio).</blockquote> | **ROUNDUP (1200,763, 2)** suapvalina į didesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUNDUP (1200,767, -3)** suapvalina į didesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **2000**. |
 
 ### <a name="data-conversion-functions"></a>Duomenų konvertavimo funkcijos
 
@@ -460,87 +474,80 @@ Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svo
 
 | Funkcija | aprašymas | Pavyzdys |
 |----------|-------------|---------|
-| NULLCONTAINER (sąrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br>Ši funkcija nebenaudojama. Vietoje jos naudokite <strong>EMPTYRECORD</strong>.</blockquote> | **NULLCONTAINER (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
-| EMPTYRECORD (įrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br><strong>Neapibrėžtas</strong> įrašas yra toks, kurio visų laukų reikšmės yra tuščios. Tuščia skaičių reikšmė yra <strong>0</strong> (nulis), eilučių – tuščia eilutė ir t. t.</blockquote> | **EMPTYRECORD (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
+| NULLCONTAINER (sąrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br>Ši funkcija nebenaudojama. Vietoje jos naudokite **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
+| EMPTYRECORD (įrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br>**Neapibrėžtas** įrašas yra toks, kurio visų laukų reikšmės yra tuščios. Tuščia skaičių reikšmė yra **0** (nulis), eilučių – tuščia eilutė ir t. t.</blockquote> | **EMPTYRECORD (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
 
 ### <a name="text-functions"></a>Tekstinės funkcijos
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Funkcija</th>
 <th>aprašymas</th>
 <th>Pavyzdys</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER (eilutė)</td>
 <td>Pateikti nurodytą eilutę, kurios raidės konvertuotos į didžiąsias raides.</td>
 <td><strong>UPPER(&quot;Sample&quot;)</strong> pateikia <strong>&quot;SAMPLE&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER (eilutė)</td>
 <td>Pateikti nurodytą eilutę, kurios raidės konvertuotos į mažąsias raides.</td>
 <td><strong>LOWER (&quot;Sample&quot;)</strong> pateikia <strong>&quot;sample&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT (eilutė, simbolių skaičius)</td>
 <td>Pateikti nurodytą simbolių skaičių iš nurodytos eilutės pradžios.</td>
 <td><strong>LEFT (&quot;Sample&quot;, 3)</strong> pateikia <strong>&quot;Sam&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT (eilutė, simbolių skaičius)</td>
 <td>Pateikti nurodytą simbolių skaičių iš nurodytos eilutės pabaigos.</td>
 <td><strong>RIGHT (&quot;Sample&quot;, 3)</strong> pateikia <strong>&quot;ple&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID (eilutė, pradinė padėtis, simbolių skaičius)</td>
 <td>Pateikti nurodytą simbolių skaičių iš nurodytos eilutės, pradedant nuo nurodytos padėties.</td>
 <td><strong>MID (&quot;Sample&quot;, 2, 3)</strong> pateikia <strong>&quot;amp&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN (eilutė)</td>
 <td>Pateikti simbolių skaičių nurodytoje eilutėje.</td>
 <td><strong>LEN (&quot;Sample&quot;)</strong> pateikia <strong>6</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR (skaičius)</td>
 <td>Pateikti simbolių eilutę, kurią nurodo pateiktas „Unicode“ numeris.</td>
 <td><strong>CHAR (255)</strong> pateikia <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Šios funkcijos pateikta eilutė priklauso nuo kodavimo, kuris pažymėtas pirminiame formato FAILAS elemente. Norėdami matyti palaikomų kodavimų sąrašą, žr. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodavimo klasė</a>.</blockquote>
+<blockquote>[!NOTE]<br>Šios funkcijos pateikta eilutė priklauso nuo kodavimo, kuris pažymėtas pirminiame formato FAILAS elemente. Norėdami matyti palaikomų kodavimų sąrašą, žr. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodavimo klasė</a>.</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE (1 eilutė [, 2 eilutė, ...])</td>
 <td>Pateikti visas nurodytas teksto eilutes, sujungtas į vieną eilutę.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> pateikia <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat pateikia <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE]<br>Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat pateikia <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE (eilutė, šablonas, pakeitimas)</td>
 <td>Pateikti nurodytą eilutę, kai visi simboliai, atitinkantys nurodytą šabloną, pakeisti atitinkamose kitos nurodytos eilutės vietose esančiais simboliais.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> pakeičia simbolius <strong>&quot;cd&quot;</strong> eilute <strong>&quot;GH&quot;</strong> ir pateikia <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE (eilutė, šablonas, pakeitimas, įprastos išraiškos žymė)</td>
 <td>Kai nurodyta reguliariosios išraiškos žymė yra <strong>true</strong>, pateikti nurodytą eilutę, modifikuotą pritaikant reguliariąją išraišką, nurodytą kaip šios funkcijos argumento šablonas. Ši išraiška naudojama ieškant simbolių, kuriuos reikia pakeisti. Rasti simboliai pakeičiami nurodyto pakeitimo argumento simboliais. Kai nurodyta įprastos išraiškos žymė yra <strong>klaidinga</strong>, ši funkcija veikia kaip <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> pritaiko įprastą išraišką, kuri pašalina visus neskaitinius simbolius ir pateikia <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> pakeičia simbolius <strong>&quot;cd&quot;</strong> eilute <strong>&quot;GH&quot;</strong> ir pateikia <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT (įvestis)</td>
 <td>Pateikti nurodytą įvestį, konvertuotą į teksto eilutę, kuri formatuojama pagal dabartinio „Finance and Operations“ egzemplioriaus serverio lokalės parametrus. <strong>Realaus skaičiaus</strong> tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio.</td>
 <td>Jei „Finance and Operations“ egzemplioriaus serverio vieta apibrėžiama kaip <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> pateikia dabartinio „Finance and Operations“ seanso datą – 2015 m. gruodžio 17 d. – kaip teksto eilutę <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> pateikia <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (1 eilutė, 2 eilutė[, 3 eilutė, …])</td>
 <td>Pateikti nurodytą eilutę, suformatuotą pakeičiant visus <strong>%N</strong> pasikartojimus <em>-uoju</em> argumentu. Argumentai yra eilutės. Jei nėra pateiktas parametro argumentas, parametras eilutėje pateikiamas kaip <strong>&quot;%N&quot;</strong>. <strong>Realaus skaičiaus</strong> tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio.</td>
 <td>Tolesnėje iliustracijoje duomenų šaltinis <strong>PaymentModel</strong> pateikia klientų įrašus komponente <strong>Klientas</strong> ir apdorojimo datos reikšmę lauke <strong>ProcessingDate</strong>.
@@ -562,38 +569,39 @@ Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat patei
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
 <p>Jei ataskaita apdorojama klientui <strong>„Litware Retail“</strong> 2015 m. gruodžio 17 d., pagal <strong>EN-US</strong> kultūrą ir <strong>EN-US</strong> kalbą, ši formulė pateikia tokį tekstą, kuris galutiniam vartotojui gali būti pateiktas kaip tolesnis išimties pranešimas.</p>
 <p>&quot;Nėra ką spausdinti. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
-<p>Jei ta pati ataskaita apdorojama klientui <strong>„Litware Retail“</strong> 2015 m. gruodžio 17 d. pagal <strong>DE</strong> kultūrą ir <strong>DE</strong> kalbą, ši formulė pateikia tokį tekstą, kuris naudoja toliau nurodytą kitokį datos formatą.</p>
-<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-ER formulėse žymoms taikoma tokia sintaksė:
+<p>Jei ta pati ataskaita apdorojama <strong>„Litware Retail“</strong> klientui 2015 m. gruodžio 17 d. pagal <strong>DE</strong> kultūrą ir <strong>DE</strong> kalbą, ši formulė pateikia tokį tekstą, kuris naudoja toliau nurodytą kitokį datos formatą.</p>
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>ER formulėse žymoms taikoma tokia sintaksė:
 <ul>
 <li><strong>Žymėms iš „Finance and Operations“ išteklių:</strong> <strong>@&quot;X&quot;</strong>, kur X yra žymės ID programos objektų medyje (AOT)</li>
 <li><strong>ER konfigūracijose esančioms žymėms:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X yra žymės ID ER konfigūracijoje.</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT (skaičius, formatas)</td>
 <td>Pateikti nurodyto skaičiaus eilutę nurodytu formatu. (Daugiau informacijos apie palaikomus formatus rasite čia: <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standartinis</a> ir <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">pasirinktinis</a>.) Kontekstas, kuriame vykdome ši funkcija, nulemia, kokiu principu bus formatuojami skaičiai.</td>
 <td>Pagal LT principą <strong>NUMBERFORMAT (0,45, &quot;p&quot;)</strong> pateikia <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> pateikia <strong>&quot;10&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT (numeris, kalba, valiuta, spausdinimo valiutos pavadinimo žymė, dešimtainiai skaičiai)</td>
-<td>Pateikti nurodytą skaičių, užrašytą žodžiais (konvertuotą) nurodytos kalbos teksto eilutėse. Kalbos kodas nėra būtinas. Kai jis nurodytas kaip tuščia eilutė, naudojamas vykdomo konteksto kalbos kodas. (Vykdomo konteksto kalbos kodas nustatomas generuojamam aplankui arba failui). Valiutos kodas taip pat nėra būtinas. Kai jis nustatytas kaip tuščia eilutė, naudojama įmonės valiuta.
-<blockquote>[!NOTE]<br>
-Analizuojami tik šių kalbos kodų spausdinimo valiutos pavadinimo žymė ir dešimtainių dalių parametrai: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ir<strong>RU</strong>. Be to, spausdinimo valiutos žymės parametras analizuojamas tik „Finance and Operations“ įmonėms, kurių šalies are regiono kontekste palaikomas valiutos pavadinimų linksniavimas.</blockquote></td>
+<td>Pateikti nurodytą skaičių, užrašytą žodžiais (konvertuotą į teksto eilutes) nurodyta kalba. Kalbos kodas nėra būtinas. Kai jis nurodytas kaip tuščia eilutė, naudojamas vykdomo konteksto kalbos kodas. (Vykdomo konteksto kalbos kodas nustatomas generuojamam aplankui arba failui). Valiutos kodas taip pat yra pasirinktinis. Kai jis nustatytas kaip tuščia eilutė, naudojama įmonės valiuta.
+<blockquote>[!NOTE]<br>Analizuojami tik šių kalbos kodų parametrai <strong>spausdinimo valiutos pavadinimo žymė</strong> ir <strong>dešimtainės dalys</strong> : <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ir <strong>RU</strong>. Be to, parametras <strong>spausdinimo valiutos žymė</strong> analizuojamas tik „Finance and Operations“ įmonėms, kurių šalies are regiono kontekste palaikomas valiutos pavadinimų linksniavimas.</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> pateikia <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> pateikia <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> pateikia <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT (eilutė, ilgis, užpildymo simboliai)</td>
 <td>Pateikti nurodyto ilgio eilutę, kurioje eilutės pradžia užpildyta nurodytais simboliais.</td>
 <td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> pateikia teksto eilutę <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM (eilutė)</td>
 <td>Pateikti nurodytą teksto eilutę, sutrumpinus priekinius ir galinius tarpus bei pašalinus kelis tarpus tarp žodžių iki vieno.</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teksto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pavyzdys&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> pateikia <strong>&quot;Teksto pavyzdys&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME (išvardijimo duomenų šaltinio kelias, išvardijimo reikšmės žymės tekstas)</td>
 <td>Pateikti nurodyto išvardijimo duomenų šaltinio reikšmę pagal nurodytą išvardijimo žymos tekstą.</td>
 <td>Tolesnėje iliustracijoje duomenų modelyje įvestas išvardijimas <strong>ReportDirection</strong>. Atkreipkite dėmesį, kad išvardijimo reikšmėms nurodytos žymės.
@@ -603,7 +611,24 @@ Analizuojami tik šių kalbos kodų spausdinimo valiutos pavadinimo žymė ir de
 <li>Modelio išvardijimas <strong>ReportDirection</strong> įtrauktas į ataskaitą kaip duomenų šaltinis <strong>$Direction</strong>.</li>
 <li>ER išraiška <strong>$IsArrivals</strong> sukurta naudoti modelio išvardijimą kaip šios funkcijos parametrą. Šios išraiškos reikšmė yra <strong>TRUE</strong>.</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE (įvestis)</td>
+<td>Konvertuoti nurodytą įvestį, kurios duomenų tipas <strong>Eilutė</strong>, į duomenų elementą, kurio duomenų tipas <strong>GUID</strong>.</td>
+<td>Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:
+<ul>
+<li><strong>myID</strong> (tipas <strong>Apskaičiuotasis laukas</strong>), kuriame yra išraiška <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>Users</strong> (tipas <strong>Lentelės įrašai</strong>), kuris nurodo į „UserInfo“ lentelę</li>
+</ul>
+Nurodę šiuos duomenų šaltinius, galite naudoti išraišką, pvz., <strong>FILTRAS (Vartotojai, Users.objectId = myID)</strong>, norėdami filtruoti lentelę „UserInfo“ naudodami lauką <strong>objectId</strong>, kurio duomenų tipas <strong>GUID</strong>.
+</td>
+</tr>
+<tr>
+<td>JSONVALUE (ID, kelias)</td>
+<td>Analizuokite duomenis „JavaScript Object Notation“ (JSON) formatu, kuris pasiekiamas nurodytu keliu, norint ištraukti skaliarinę vertę pagal nurodytą ID.</td>
+<td>Duomenų šaltinyje <strong>$JsonField</strong> yra toliau nurodyti duomenys JSON formatu: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Šio duomenų šaltinio </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> pateikia vertę <strong>7.3.1234.1</strong>, kurios duomenų tipas <strong>Eilutė</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ Analizuojami tik šių kalbos kodų spausdinimo valiutos pavadinimo žymė ir de
 | Funkcija | aprašymas | Pavyzdys |
 |----------|-------------|---------|
 | TEXT (įvestis) | Pateikti nurodytą įvestį, konvertuotą į teksto eilutę, kuri formatuojama pagal dabartinio „Finance and Operations“ egzemplioriaus serverio lokalės parametrus. **Realaus skaičiaus** tipo reikšmių eilutės konvertavimas apribotas dviem skaičiais po kablelio. | Jei „Finance and Operations“ egzemplioriaus serverio lokalė apibrėžiama kaip **EN-US**, **TEXT (NOW ())** pateikia dabartinio „Finance and Operations“ seanso datą – 2015 m. gruodžio 17 d. – kaip teksto eilutę **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** pateikia **„0,33“**. |
-| QRCODE (eilutė) | Pateikti nurodytos eilutės QR kodo vaizdą dvejetainiu „base64‟ formatu. | **QRCODE ("Teksto pavyzdys")** pateikia **U2FtcGxlIHRleHQ=**. |
+| QRCODE (eilutė) | Pateikti nurodytos eilutės greito reagavimo kodo (QR kodo) vaizdą dvejetainiu „base64‟ formatu. | **QRCODE ("Teksto pavyzdys")** pateikia **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Duomenų rinkinio funkcijos
 
@@ -623,19 +648,19 @@ Analizuojami tik šių kalbos kodų spausdinimo valiutos pavadinimo žymė ir de
 | SUMIFS (rakto eilutė, skirta sumuoti, 1 kriterijų klasės eilutėje, 1 kriterijų reikšmės eilutė \[, 2 kriterijų diapazono eilutė, 2 kriterijų reikšmių eilutė, ...\]) | Pateikti XML mazgų (kurių pavadinimas apibrėžtas kaip raktas) reikšmių, kurios surinktos vykdant šį formatavimą ir kurios tenkina nurodytas sąlygas (diapazoną ir reikšmę), sumą. Pateikti **0** (nulis) reikšmę, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
 | SUMIF (rakto eilutė, skirta sumuoti, kriterijų diapazono eilutė, kriterijų reikšmių eilutė) | Pateikti XML mazgų (kurių pavadinimas apibrėžtas kaip raktas) reikšmių, kurios surinktos vykdant šį formatavimą ir kurios tenkina nurodytą sąlygą (diapazoną ir reikšmę), sumą. Pateikti **0** (nulis) reikšmę, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
 | COUNTIFS (1 kriterijų klasės eilutėje, 1 kriterijų reikšmės eilutė \[, 2 kriterijų intervalo eilutė, 2 kriterijų reikšmės eilutė, ...\]) | Pateikti XML mazgų, kurie buvo surinkti vykdant šį formatavimą ir kurie tenkina nurodytas sąlygas (diapazonų ir reikšmių poras), skaičių. Pateikti **0** (nulis) reikšmę, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
-| COUNTIF (kriterijų diapazono eilutė, kriterijų reikšmių eilutė) | Pateikti XML mazgų, kurie surinkti vykdant šį formatavimą ir kurie tenkina įvestą sąlygą (diapazoną ir reikšmę), skaičių. Pateikti **0** (nulis) reikšmę, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
-| COLLECTEDLIST (1 kriterijų klasės eilutėje, 1 kriterijų reikšmės eilutė \[, 2 kriterijų intervalo eilutė, 2 kriterijų reikšmės eilutė, ...\]) | Pateikti XML mazgų, kurie buvo surinkti vykdant šį formatavimą ir kurie tenkina įvestas sąlygas (diapazoną ir reikšmę), reikšmių sąrašą. Pateikti tuščią sąrašą, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
+| COUNTIF (kriterijų diapazono eilutė, kriterijų reikšmių eilutė) | Pateikti XML mazgų, kurie surinkti vykdant šį formatavimą ir kurie tenkina nurodytą sąlygą (diapazoną ir reikšmę), skaičių. Pateikti **0** (nulis) reikšmę, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
+| COLLECTEDLIST (1 kriterijų klasės eilutėje, 1 kriterijų reikšmės eilutė \[, 2 kriterijų intervalo eilutė, 2 kriterijų reikšmės eilutė, ...\]) | Pateikti XML mazgų, kurie buvo surinkti vykdant šį formatavimą ir kurie tenkina nurodytas sąlygas (diapazoną ir reikšmę), reikšmių sąrašą. Pateikti tuščią sąrašą, kai dabartinių failų žymė **Rinkti išeigos informaciją** yra išjungta. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Kitos (konkrečios verslo srities) funkcijos
 
 | Funkcija | aprašymas | Pavyzdys |
 |----------|-------------|---------|
 | CONVERTCURRENCY (suma, pirminė valiuta, norima valiuta, data, įmonė) | Konvertuoti nurodytą piniginę sumą iš nurodytos pirminės valiutos į nurodytą norimą valiutą naudojant nurodytos „Finance and Operations“ įmonės parametrus nurodytą dieną. | **CONVERTCURRENCY (1, „EUR“, „USD“, TODAY(), „DEMF“)** pateikia vieno euro atitikmenį doleriais dabartinio seanso dieną, atsižvelgiant į DEMF įmonės parametrus. |
-| ROUNDAMOUNT (skaičius, dešimtainės dalys, apvalinimo taisyklė) | Apvalinti nurodytą sumą pagal nurodytą skaičių po kablelio ir nurodytą apvalinimo taisyklę.<blockquote>[!NOTE]<br>Apvalinimo taisyklė turi būti nurodyta kaip „Finance and Operations“ <strong>RoundOffType</strong> išvardijimo reikšmė.</blockquote> | Jei nustatyta parametro **model.RoundOff** reikšmė **Į mažesnę pusę**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** pateikia reikšmę **1000.78**. Jei parametrui **model.RoundOff** nustatyta reikšmė **Įprastai** arba **Į didesnę pusę**, **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** pateikia reikšmę **1000,79**. |
+| ROUNDAMOUNT (skaičius, dešimtainės dalys, apvalinimo taisyklė) | Apvalinti nurodytą sumą pagal nurodytą skaičių po kablelio ir nurodytą apvalinimo taisyklę.<blockquote>[!NOTE]<br>Apvalinimo taisyklė turi būti nurodyta kaip „Finance and Operations“ **RoundOffType** išvardijimo reikšmė.</blockquote> | Jei nustatyta parametro **model.RoundOff** reikšmė **Į mažesnę pusę**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** pateikia reikšmę **1000.78**. Jei parametrui **model.RoundOff** nustatyta reikšmė **Įprastai** arba **Į didesnę pusę**, **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** pateikia reikšmę **1000,79**. |
 | CURCredRef (skaitmenys) | Pateikti kreditoriaus nuorodą pagal nurodyto SF numerio skaitmenis. | **CURCredRef („VEND-200002“)** pateikia **„2200002“**. |
 | MOD\_97 (skaitmenys) | Pateikti kreditoriaus nuorodą kaip MOD97 išraišką pagal nurodyto SF numerio skaitmenis. | **MOD\_97 ("VEND-200002")** pateikia **"20000285"**. |
 | ISOCredRef (skaitmenys) | Pateikti Tarptautinės standartizacijos organizacijos (ISO) kreditoriaus nuorodą pagal nurodyto SF numerio skaitmenis ir raidinius simbolius.<blockquote>[!NOTE]<br>Norint iš abėcėlės pašalinti simbolius, kurie nėra suderinami su ISO, įvesties parametras turi būti išverstas prieš jį perduodant į šią funkciją.</blockquote> | **ISOCredRef („VEND-200002“)** pateikia **„RF23VEND-200002“**. |
-| CN\_GBT\_AdditionalDimensionID (eilutė, numeris) | Gaukite papildomos finansinės dimensijos ID. Dimensijos šioje eilutėje rodomos kaip kableliais atskirti ID. Šioje eilutėje numeriai nurodo pageidaujamos dimensijos sekos kodą. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** pateikia **"CC"**. |
+| CN\_GBT\_AdditionalDimensionID (eilutė, numeris) | Gaukite nurodytos finansinės dimensijos ID. Parametro **eilutė** dimensijos rodomos kaip kableliais atskirti ID. Parametras **skaičius** nurodo pageidaujamos dimensijos sekos kodą eilutėje. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** pateikia **"CC"**. |
 | GetCurrentCompany () | Pateikti juridinio subjekto (įmonės), prie kurio šiuo metu vartotojas prisijungęs, kodą tekstine išraiška. | Vartotojui, prisijungusiam prie „Finance and Operations” įmonės **„Contoso Entertainment System USA“**, **(GETCURRENTCOMPANY)** pateikia **USMF**. |
 | CH\_BANK\_MOD\_10 (skaitmenys) | Pateikti kreditoriaus nuorodą kaip MOD10 išraišką pagal nurodyto SF numerio skaitmenis. | **CH\_BANK\_MOD\_10 ("VEND-200002")** pateikia **3**. |
 | FA\_SUM (ilgalaikio turto kodas, vertinimo modelio kodas, pradžios datas, pabaigos data) | Pateikti paruoštą nurodyto laikotarpio ilgalaikio turto sumos duomenų konteinerį. | **FA\_SUM ("COMP-000001", “Current”, Date1, Date2)** pateikia paruoštą ilgalaikio turto **COMP-000001**, kurio vertinimo modelis – **Dabartinis**, duomenų konteinerį, skirtą laikotarpiui nuo **Date1** iki **Date2**. |

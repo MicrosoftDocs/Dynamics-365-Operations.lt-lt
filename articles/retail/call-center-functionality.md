@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
+ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
+ms.openlocfilehash: e76b29cf6312959ee84c251d582310ce4822945f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -46,10 +46,14 @@ Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar
 
 ## <a name="configure-order-processing"></a>Užsakymų apdorojimo konfigūravimas
 [Įspėjimų dėl apgaulės nustatymas](set-up-fraud-alerts.md)
-[Užsakymo sulaikymas rankiniu būdu](work-with-order-holds.md)
+
+[Užsakymų sulaikymo valdymas](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Mokėjimo apdorojimo konfigūravimas
 [Mokėjimo būdai skambučių centre](work-with-payments.md)
+
+## <a name="configure-delivery-modes"></a>Konfigūruoti pristatymo būdus
+[Konfigūruoti skambučių centro pristatymo būdus ir mokesčius](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Tiesioginės rinkodaros konfigūravimas
 [Skambučių centro katalogai](call-center-catalogs.md)

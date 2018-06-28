@@ -3,7 +3,7 @@ title: "Kas nauja ar pasikeitė"
 description: "Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose."
 author: josaw1
 manager: AnnBe
-ms.date: 03/25/2018
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: 8a6ea271270fd854110a8548ab92cc4ef975ad0a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
@@ -128,13 +128,13 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>Platformos „update 15“</td>
-<td>7.0.4839</td>
-<td>15 platformos naujinimas yra tikslinis leidimas, o tai reiškia, kad visiems vartotojams jis bus pasiekiamas nuo 2018 m. birželio mėn.</td>
+<td>7.0.4841</td>
+<td>Kovo 2018</td>
 <td><a href="whats-new-platform-update-15.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise“ leidimo platformos 15 naujinime (2018 m. kovo mėn.)</a></td><tbody>
 <tr class="odd">
 <td>„Microsoft Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimas</td>
 <td>Platformos „update 12“</td>
-<td>7.0.4841</td>
+<td>7.0.4709</td>
 <td>2017 m. lapkričio mėn.</td>
 <td><a href="whats-new-platform-update-12.md">Kas nauja arba pakeista „Dynamics 365 for Finance and Operations Enterprise edition“ 12 platformos naujinime (2017 m. lapkričio mėn.)</a></td>
 <tbody><tr class="odd">

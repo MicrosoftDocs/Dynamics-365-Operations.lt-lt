@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
-ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -44,11 +44,9 @@ Pirmame integravimo tarp „Field Service“ ir „Finance and Operations“ eta
 - [„Field Service“ darbo užsakymus su „Finance and Operations“ pardavimo užsakymais](field-service-work-order.md)
 - [„Field Service“ SF su „Finance and Operations“ laisvos formos SF.](field-service-invoice.md)
 
-Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą „Field Service“ ir „Finance and Operations“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą:
+Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Finance and Operations“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
-
-[„Field Service“ darbo užsakymo sinchronizavimas su „Field Service“ ir „Finance and Operations“ („YouTube“ vaizdo įrašas)](https://youtu.be/hAB4TDVMjxU)
+[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 „Field Service“ integravimas palaikomas toliau nurodytose versijose.

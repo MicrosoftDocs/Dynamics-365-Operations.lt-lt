@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ KS ir formulės eilučių išdavimo būdą valdo parametras **Gamybos eilutės i
 - **KS ir formulės eilučių kaip gamybos arba paketinio užsakymo išdavimas** – naudojant šį būdą, gamybos arba paketinio užsakymo KS ir formulės eilutės išduodamos kaip užsakymo išdavimo proceso dalis. Paprastai vykdant gamybos arba paketinio užsakymo išdavimą, gamybos užduotys išduodamos cecho darbuotojams, o gamybos dokumentai išspausdinami. Šio proceso metu užsakymo būsena taip pat pakeičiama į **Išduota**.
 - **KS ir formulės eilučių išdavimas naudojant paketinę užduotį arba neautomatiškai** – naudojant šį metodą, KKS ir formulės eilutes galima išduoti tik per paketinę užduotį **Automatinio KS ir formulės eilučių išdavimas** arba neautomatiškai. Norėdami neautomatiškai išduoti KS ir formulės eilutes, gamybos užsakymų sąrašo puslapio arba gamybos užsakymo informacijos puslapio veiksmų srityje pasirinkite **Išduoti į sandėlį**.
 
-Greita demonstracija, kaip išleisti KS ir formulės eilutes į gamybą naudojant paketinę užduotį, parodyta šiame trumpame „YouTube“ vaizdo įraše:
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Trumpa demonstracija, kaip išleisti KS ir formulės eilutes į gamybą naudojant paketinę užduotį, parodyta šiame trumpame „YouTube“ vaizdo įraše: [Gamybos išrinkimas sandėlyje naudojant paketą](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>KS ir formulės eilučių išdavimas naudojant paketinę užduotį
 
@@ -85,8 +84,7 @@ Tolesniame pavyzdyje parodytas gamybos užsakymas, kuriame yra dvi operacijos, 1
 
 ![Medžiagos išdavimo pagal operacijos numerį pavyzdys](media/two-operations.PNG)
 
-Greita demonstracija, kaip išleisti medžiagą proporcingai pagamintų prekių kiekiui, parodyta šiame trumpame „YouTube“ vaizdo įraše:
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Trumpa demonstracija, kaip išduoti medžiagą proporcingai baigtų prekių kiekiui, parodyta šiame trumpame „YouTube“ vaizdo įraše: [Gamybos užsakymo išleidimo proceso patobulinimai programoje „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Medžiagos išdavimas, proporcingas baigtų prekių kiekiui
 

@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition“ 2017 m. liepos mėn. versija su 8 platformos naujiniu
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valiutos konvertavimas, skirtas apskaitos ir ataskaitų valiutoms
+
+Valiutos konvertavimas, skirtas apskaitai ir ataskaitų valiutoms, buvo įdiegtas įvedus eurą.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Ribotas funkcijos Kopijuoti juridinį subjektą naudojimas ir įtraukimas kaip pakaitalas.      |
+| **Pakeitė kita funkcija?**   | Ne, bet funkcijos Kopijuoti juridinį subjektą ir Konfigūracijos buvo įtrauktos tam, kad būtų lengviau perkelti į įmonę, kuri pakeitė pagrindinius reikalavimus. |
+| **Paveiktos produkto sritys**         | Finansų valdymas     |
+| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Sandėlio mobiliųjų įrenginių portalas
 

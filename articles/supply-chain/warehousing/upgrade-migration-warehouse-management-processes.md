@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
 
+
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama proceso naujinimo iš „Microsoft Dynamics AX 2012 R3“ į „Microsoft Dynamics 365 for Finance and Operations“ vykdant WMSII modulį apžvalga.

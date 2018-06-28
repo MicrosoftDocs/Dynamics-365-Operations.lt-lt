@@ -1,9 +1,9 @@
 ---
 title: "„Microsoft Dynamics 365 for Talent“"
 description: "„Talent‟ racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Šie procesai apima darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą."
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ ms.lasthandoff: 03/26/2018
 + Našumo ir darbuotojų tikslų įgyvendinimo apžvalga.
 + Mokymo kursų, kurie apima darbotvarkes, sesijas ir specializacijas, nustatymas, atlikimas ir analizė.
 
+Susipažinkite su „Dynamics 365 for Talent“ peržiūrėdami vaizdo įrašą [Kaip pradėti darbą su „Dynamics 365 for Talent“.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
 > „Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
@@ -55,6 +58,8 @@ Dirbdami modulyje „Talent‟ nuspręsite, kaip naudojant elementus (pvz., pada
 -   [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md) 
 -   [Personalo veiksmų DUK](personnel-actions-faq.md)
 -   [Atostogų ir neatvykimų apžvalga](leave-absence-overview.md)
+-   [Kaip naudoti „Dynamics 365 for Talent“: atostogos ir neatvykimai (vaizdo įrašai)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Kaip valdyti personalą naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Organizacijos personalas
 
@@ -71,22 +76,25 @@ Galite parengti planus, skirtus veiksmingai ir teisingai valdyti kompensaciją, 
 -   [Kompensavimo apdorojimas](process-compensation.md)
 -   [Pastoviosios atlyginimo dalies planų kūrimas](create-fixed-compensation-plans.md)
 -   [Kintamosios atlyginimo dalies planų kūrimas](create-variable-compensation-plans.md)
+-   [Kaip valdyti kompensacijas naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Darbuotojų tobulinimas ir mokymas
 
-Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir sesijas, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
+Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinant svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir sesijas, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
 
 -   [Našumo valdymas](performance-management-overview.md)
 -   [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](skills.md)
 -   [Mokymo administravimas naudojant kursus](courses.md)
+-   [Kaip valdyti darbuotojų tobulinimą naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Išmokų kūrimas ir tvarkymas
 
-Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas, gali išplėtoti išmokų programas, pvz., sveikatos draudimo ir pensijų planus. Taip pat galite tvarkyti išmokas, pavyzdžiui, paskolų programas, kai jūsų įmonė savo darbuotojams skolina prekes, pvz., kompiuterius arba telefonus.
+Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas, galite išplėtoti išmokų programas, pvz., sveikatos draudimo ir pensijų planus. Taip pat galite tvarkyti išmokas, pavyzdžiui, paskolų programas, kai jūsų įmonė savo darbuotojams skolina prekes, pvz., kompiuterius arba telefonus.
 
 -   [Išmokų programos valdymas](manage-benefit-program.md)
 -   [Teisės į išmoką strategijos](benefit-eligibility-policies.md)
 -   [Darbininkams paskolintų prekių valdymas](loan-items.md)
+-   [Kaip valdyti darbuotojų išmokas naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbo vietos saugos ir atitikties užtikrinimas
 

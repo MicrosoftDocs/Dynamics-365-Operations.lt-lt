@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Tal
     > Užregistruoti darbai matomi tik tiems klientams, kurie yra užsiprenumeravę vieną ar daugiau „LinkedIn“ užduočių sąrašo produktų. Kitu atveju, klientai darbą matys tik tada, jei tiesiogiai jo ieškos. Kai darbai registruojami „LinkedIn“, įvyksta delsa. Kad užduotis būtų parodyta, gali užtrukti keletą valandų po to, kai ji registruojama iš „Attract“.
 
 - **Kandidato prašymas** – ir vidiniai, ir išoriniai kandidatai dabar gali prašymą pateikti tiesiogiai iš darbo puslapio karjeros svetainėje.
-- **Vertinimas** – kaip konfigūruojamos samdos proceso dalies, skirtos arba konkrečiam darbui, arba kai naudojamas užduoties šablonas, vartotojai dabar turi prieigą prie naujo veiklos tipo **Vertinimas**. Jie tada gali naudoti projekto „Gauge“ programą, pateikiamą „Talent“, pagrindiniam įvertinimui, kurį gali siųsti kandidatams, sukurti. Projektas „Gauge“ yra ir viešojoje peržiūros versijoje. Papildomų paslaugų teikėjų bus įtraukta ateityje.
-- **Projektas „Gauge“** – Projektas: „Gauge“ yra programa, pateikiama „Talent“, kuri vartotojams leidžia kurti paprastus įvertinimus arba apklausas.
 - **Pasiūlymų valdymas** – vartotojai dabar gali kurti pasiūlymo laiškus iš šablonų, kuriuose yra vietos rezervavimo ženklai. Kai kandidatai pereina į pasiūlymo etapą, darbdaviai ir samdos vadovai gali naudoti įrankį Pasiūlymas kandidato oficialiam pasiūlymui parengti naudojant šablonus, siųsti pasiūlymą vidiniam patvirtinimui ir galiausiai siųsti pasiūlymą kandidatui pasirašyti. Daug naujų galimybių bus pridėtos prie įrankio Pasiūlymas per tam tikrą laiką, o peržiūros funkcija bus atnaujinta šiomis galimybėmis, nes esame pasiruošę išleisti jas peržiūrėti.
 
 ### <a name="core-hr"></a>„Core HR“
@@ -90,7 +88,7 @@ Neatsižvelgiant į tai, ar atsiliepimai yra teigiami, ar neigiami, norime sulau
     - [Pritraukti idėjų](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [„Core HR“](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identifikuoti) į savo atsiliepimą ar produkto peržiūros pateikimus. Surinkta informacija gali būti analizuojama toliau, ji nebus naudojama atsakyti į užklausas pagal taikomus privatumo įstatymus. Atskirai surinktiems asmeniniams duomenims pagal šias programas taikomos [„Microsoft“ privatumo nuostatos](https://privacy.microsoft.com/en-us/privacystatement).
+Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identifikuoti) į savo atsiliepimą ar produkto peržiūros pateikimus. Surinkta informacija gali būti analizuojama toliau, ji nebus naudojama atsakyti į užklausas pagal taikomus privatumo įstatymus. Atskirai surinktiems asmeniniams duomenims pagal šias programas taikomos [„Microsoft“ privatumo nuostatos](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Pasižymėkite šią temą ir dažnai prie jos grįžkite, kad sužinotumėte apie naujas peržiūros funkcijas, kai jas išleisime.
