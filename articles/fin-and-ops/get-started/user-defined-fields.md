@@ -3,7 +3,7 @@ title: Pasirinktiniai laukai
 description: "Šioje temoje parodoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ kai kuriems vartotojams leidžia kurti pasirinktinius laukus ir programą pritaikyti savo verslui."
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -27,8 +27,6 @@ ms.lasthandoff: 05/23/2018
 # <a name="custom-fields"></a>Pasirinktiniai laukai
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Nors „Microsoft Dynamics 365 for Finance and Operations“ suteikia platų parengtų naudoti laukų rinkinį, skirtą valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Kad išpildytų šį poreikį, „Finance and Operations“ jums leidžia kurti pasirinktinių laukų, kad programą galėtumėte pritaikyti savo verslui (jei turite funkcijos naudojimo teises). 
 
