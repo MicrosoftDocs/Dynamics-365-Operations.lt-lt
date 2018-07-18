@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Diegiamo paketo diegimas
           href: deployment/install-deployable-package.md
+        - name: Paketo šalinimas
+          href: deployment/uninstall-deployable-package.md
         - name: Paketo programos trikčių diagnostika
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Plėtotės, naujinimai ir karštosios pataisos'
