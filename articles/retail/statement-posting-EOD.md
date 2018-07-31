@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Mažme
 - **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu mažmeninės prekybos parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
 
 Be to, „FastTab“ skirtuke **Paketinis vykdymas** sukurtas laukas **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Šiame lauke nurodomas vienu metu turimų vykdyti paketinių užduočių skaičius. Šiuo metu turite patys nustatyti šio lauko reikšmę.
+
+Be to, naudojant naująjį registravimo procesą, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Tai reikia padaryti, net jei organizacija dovanų kortelių nenaudoja. 
 
 Atkreipkite dėmesį, kad visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Mažmeninės prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
 

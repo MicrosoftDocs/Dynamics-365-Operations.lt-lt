@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -80,17 +80,37 @@ Projektų prognozavimą galite naudoti, jei jūsų organizacija turi veiklos per
 ### <a name="create-projects"></a>Kurti projektus
 
 Naudodami „Microsoft Finance and Operations“ galite sukurti šešių tipų projektus. Nustatoma, kad naudojant kiekvieną projekto tipą išlaidų ir įplaukų pripažinimas būtų skirtingas. Pasirenkamas projekto tipas priklauso nuo projekto paskirties. Toliau pateikiamoje lentelėje apžvelgiamas įprastas kiekvieno projekto tipo naudojimas.
-
-                                                                                                                                                                         |
-
-| Projekto tipas      | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Laikas ir medžiagos | Naudojant laiko ir medžiagų projektus klientui išrašoma sąskaita už visas projekte patirtas išlaidas. Išlaidos apima valandų, išlaidų, prekių ir mokesčių išlaidas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Fiksuota kaina       | Fiksuotos kainos projektų SF sudaro laisvos formos sąskaitos operacijos. Fiksuotos kainos projekto SF išrašomos pagal atsiskaitymo grafiką, sudaromą pagal projekto sutartį. Visame Fiksuotos kainos projekte įplaukas apskaičiuoti ir registruoti galima naudojant baigimo procento metodą. Taip pat įplaukas apskaičiuoti ir registruoti galima projektą pabaigus, naudojant baigtos sutarties metodą. Įmonėms dažnai gali būti naudinga naudoti nebaigtos gamybos (NG) vertę apskaičiuojant projekto ar projektų grupės užbaigimo laipsnį.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Investicijos        | Investicijų projektai – tai projektai, kuriuos vykdant negaunama greito uždarbio. Paprastai jie naudojami ilgalaikiuose vidiniuose projektuose, kurių išlaidos turi būti kapitalizuojamos. Investicijų projekte galima įrašyti tik prekių, valandų ir išlaidų kaštus. Investicijų projekto išlaidos sekamos ir kontroliuojamos naudojant įvertinimo funkciją. Investicijų projektus galima nustatyti su pasirinktine didžiausia kapitalizacija. Vykdydami investicijų projektą, jo išlaidas įrašote NG sąskaitose, kuriose išlaidos išlieka nurodytos iki projekto įvykdymo. Pašalinę projektą NG vertę perkeliate į ilgalaikį turtą, DK sąskaitą arba į naują projektą. Pastaba. Investicijų projektų operacijos puslapyje **Registruoti išlaidas**, **Kaupti įplaukas** arba **Kurti SF pasiūlymus** nerodomos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Išlaidų projektas      | Išlaidų projektai, taip pat kaip ir investicijų projektai, paprastai yra naudojami vidiniams projektams sekti, o juose galima įrašyti tik valandas, išlaidas ir prekes. Tačiau išlaidų projektai paprastai yra trumpesni už investicijų projektus. Be to, skirtingai nuo investicijų projektų, išlaidų projektų negalima kapitalizuoti balanso sąskaitose. Šių projektų operacijos užregistruojamos tik pelno ir nuostolio sąskaitose. **PASTABA** Išlaidų projektų operacijos puslapyje **Registruoti išlaidas**, **Kaupti įplaukas** arba **Kurti SF pasiūlymus** nerodomos. Išlaidų projektai paprastai naudojami vidiniams projektams sekti, todėl jie dažniausiai neturi būti susiejami su kliento sąskaita. Tačiau jei konfigūruojant reikės sukurti pirkimo užsakymų prekių poreikius, turėsite Išlaidų projektą susieti su klientu. Susieti reikia todėl, kad prekių poreikiai valdomi kaip pardavimo užsakymų eilutės, tad sistemoje būtina nustatyti klientą. Tačiau sukonfigūravus prekių poreikiai nebus automatiškai sukurti iš pirkimo užsakymo. Su Išlaidų projektais nuostatos **Kurti prekės poreikį** nepaisoma. Jei Išlaidų projekte prireiks prekių poreikio, galite jį sukurti rankiniu būdu, jei klientas susietas su projektu. |
-| Vidinis          | Vidiniai projektai naudojami jūsų organizacijos vidinio projekto išlaidoms sekti. Vidiniuose projektuose išteklių suvartojimui valdyti galima naudoti planavimo įrankį. **Pastaba.** Vidinių projektų operacijos puslapyje **Kaupti įplaukas** arba **Kurti SF pasiūlymus** nerodomos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Laikas              | Laiko projektai naudojami sekti laikui, kuris susietas su neapmokestinamomis ir neproduktyviomis veiklomis, pvz., projektu, skirtu darbuotojų nedarbingumo laikui sekti. Laiko projektų operacijos didžiojoje knygoje neužregistruojamos. o įtraukiamos į darbuotojų efektyvumo ataskaitas. Laiko projektuose gali būti įrašomos tik valandų operacijos. Turite naudoti laiko žurnalą arba tabelį šioms valandoms užregistruoti projekte. Užregistravus valandas jos rodomos kaip projekto operacijos, tačiau be atitinkamų kvito operacijų. **Pastaba:** laiko projektų operacijos puslapyje **Registruoti išlaidas**, **Kaupti įplaukas** arba **Kurti SF pasiūlymus** nerodomos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+                                                                                                            
+<table>
+  <tr>
+    <td>Projekto tipas</th>
+    <td>Prekės/Paslaugos pavadinimas</th>
+  </tr>
+  <tr>
+    <td>Laikas ir medžiagos</td>
+    <td>Naudojant laiko ir medžiagų projektus klientui išrašoma sąskaita už visas projekte patirtas išlaidas. Išlaidos apima valandų, išlaidų, prekių ir mokesčių išlaidas.</td>
+  </tr>
+  <tr>
+    <td>Fiksuota kaina</td>
+    <td>Fiksuotos kainos projektų SF sudaro laisvos formos sąskaitos operacijos. Fiksuotos kainos projekto SF išrašomos pagal atsiskaitymo grafiką, sudaromą pagal projekto sutartį. Visame Fiksuotos kainos projekte įplaukas apskaičiuoti ir registruoti galima naudojant baigimo procento metodą. Taip pat įplaukas apskaičiuoti ir registruoti galima projektą pabaigus, naudojant baigtos sutarties metodą. Įmonėms dažnai gali būti naudinga naudoti nebaigtos gamybos (NG) vertę apskaičiuojant projekto ar projektų grupės užbaigimo laipsnį.</td>
+  </tr>
+  <tr>
+    <td>Investicijos</td>
+    <td>Investicijų projektai – tai projektai, kuriuos vykdant negaunama greito uždarbio. Paprastai jie naudojami ilgalaikiuose vidiniuose projektuose, kurių išlaidos turi būti kapitalizuojamos. Investicijų projekte galima įrašyti tik prekių, valandų ir išlaidų kaštus. Investicijų projekto išlaidos sekamos ir kontroliuojamos naudojant įvertinimo funkciją. Investicijų projektus galima nustatyti su pasirinktine didžiausia kapitalizacija. Vykdydami investicijų projektą, jo išlaidas įrašote NG sąskaitose, kuriose išlaidos išlieka nurodytos iki projekto įvykdymo. Pašalinę projektą NG vertę perkeliate į ilgalaikį turtą, DK sąskaitą arba į naują projektą. <br></br> <strong>PASTABA.</strong> Investicijų projektų operacijos puslapiuose <strong>Registruoti išlaidas<strong>, <strong>Kaupti įplaukas</strong> ar <strong>Kurti sąskaitų faktūrų pasiūlymus</strong> nerodomos.</td>
+  </tr>
+  <tr>
+    <td>Išlaidų projektas</td>
+    <td>Išlaidų projektai, taip pat kaip ir investicijų projektai, paprastai yra naudojami vidiniams projektams sekti, o juose galima įrašyti tik valandas, išlaidas ir prekes. Tačiau išlaidų projektai paprastai yra trumpesni už investicijų projektus. Be to, skirtingai nuo investicijų projektų, išlaidų projektų negalima kapitalizuoti balanso sąskaitose. Šių projektų operacijos užregistruojamos tik pelno ir nuostolio sąskaitose. <br></br> <strong>PASTABA.</strong> Išlaidų projektų operacijos puslapiuose <strong>Registruoti išlaidas</strong>, <strong>Kaupti įplaukas</strong> ar <strong>Kurti sąskaitų faktūrų pasiūlymus</strong> nerodomos. Kadangi išlaidų projektai paprastai naudojami vidiniams projektams sekti, jie dažniausiai neturi būti susiejami su kliento sąskaita. Tačiau jei konfigūruojant reikės sukurti pirkimo užsakymų prekių poreikius, turėsite Išlaidų projektą susieti su klientu. Susieti reikia todėl, kad prekių poreikiai valdomi kaip pardavimo užsakymų eilutės, tad sistemoje būtina nustatyti klientą. Tačiau sukonfigūravus prekių poreikiai nebus automatiškai sukurti iš pirkimo užsakymo. Su Išlaidų projektais nuostatos <strong>Kurti prekės poreikį</strong> nepaisoma. Jei Išlaidų projekte prireiks prekių poreikio, galite jį sukurti rankiniu būdu, jei klientas susietas su projektu.</td>
+  </tr>
+  <tr>
+    <td>Vidinis</td>
+    <td>Vidiniai projektai naudojami jūsų organizacijos vidinio projekto išlaidoms sekti. Vidiniuose projektuose išteklių suvartojimui valdyti galima naudoti planavimo įrankį. <br></br><strong>PASTABA.<strong> Vidinių projektų operacijos puslapiuose <strong>Kaupti įplaukas</strong> ar <strong>Kurti sąskaitų faktūrų pasiūlymus</strong> nerodomos.</td>
+  </tr>
+  <tr>
+    <td>Laikas</td>
+    <td>Laiko projektai naudojami sekti laikui, kuris susietas su neapmokestinamomis ir neproduktyviomis veiklomis, pvz., projektu, skirtu darbuotojų nedarbingumo laikui sekti. Laiko projektų operacijos didžiojoje knygoje neužregistruojamos. o įtraukiamos į darbuotojų efektyvumo ataskaitas. Laiko projektuose gali būti įrašomos tik valandų operacijos. Turite naudoti laiko žurnalą arba tabelį šioms valandoms užregistruoti projekte. Užregistravus valandas jos rodomos kaip projekto operacijos, tačiau be atitinkamų kvito operacijų. <br></br><strong>PASTABA.</strong> Laiko projektų operacijos puslapiuose <strong>Registruoti išlaidas</strong>, <strong>Kaupti įplaukas</strong> ar <strong>Kurti sąskaitų faktūrų pasiūlymus</strong> nerodomos.</td>
+  </tr>
+</table>
 
 
 ### <a name="assign-workers-categories-and-resources"></a>Priskirti darbuotojus, kategorijas ir išteklius
@@ -239,11 +259,12 @@ Toliau pateikiamoje lentelėje aprašomi projekto baigimo savikainos apskaičiav
 <li>Prognozės operacijas palyginkite su faktinėmis operacijomis.</li>
 <li>Prižiūrėkite, mažinkite arba didinkite kito laikotarpio įvertinimus.</li>
 </ol>
-„Finance and Operations“ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. &gt; [!NOTE] &gt; Pasirinkę šį metodą, naudokite bent du prognozės modelius. Viename modelyje turėtų būti pradinė prognozė. Į kitą modelį turėtumėte nukopijuoti prognozės operacijas iš kito modelio. Šis metodas galioja tik Fiksuotos kainos ir Investicijų projektams.</td>
+„Finance and Operations‟ prognozuojamų įvertinimų automatiškai nemažina. Todėl naudinga išlaikyti pradinį prognozės modelį Fiksuotos kainos projekte, kad būtų nustatyta lyginimo bazė baigus projektą. 
+<br></br> <strong>PASTABA.</strong> Pasirinkę šį metodą, naudokite bent du prognozės modelius. Viename modelyje turėtų būti pradinė prognozė. Į kitą modelį turėtumėte nukopijuoti prognozės operacijas iš kito modelio. Šis metodas galioja tik Fiksuotos kainos ir Investicijų projektams.</td>
 </tr>
 <tr class="odd">
 <td>Biudžeto likutis</td>
-<td>Šis metodas naudoja likusio biudžeto modelį, kuriuo apskaičiuoja projekto baigimo savikainą. Naudojant šį metodą, faktinės išlaidos ir prognozuojamos sumos likusio biudžeto modelyje sudedamos. Rezultatas yra bendroji savikaina. Prieš naudojant šį metodą, reikia nustatyti likusio biudžeto modelį, kad operacijos būtų atskaitomos pagal faktines operacijas, kurios įrašomos sistemoje. Įsitikinkite, kad <strong>Prognozės modelių</strong> puslapyje pažymėti grupės <strong>Automatinis prognozės mažinimas</strong> laukai. Paprastai likęs biudžetas nukopijuojamas iš pradinio biudžeto. Įvedant operacijas, sumažinamos operacijos likusiame biudžete. Jei, vykstant projektui, nustatote, kad reikia koreguotį likusį biudžetą, prognozės operacijas apmokestinate į likusį biudžetą. <strong>Pastaba.</strong> Šis metodas gali būti taikomas tik jei prie įvertinimo pridėtas prognozės modelis.</td>
+<td>Šis metodas naudoja likusio biudžeto modelį, kuriuo apskaičiuoja projekto baigimo savikainą. Naudojant šį metodą, faktinės išlaidos ir prognozuojamos sumos likusio biudžeto modelyje sudedamos. Rezultatas yra bendroji savikaina. Prieš naudojant šį metodą, reikia nustatyti likusio biudžeto modelį, kad operacijos būtų atskaitomos pagal faktines operacijas, kurios įrašomos sistemoje. Įsitikinkite, kad <strong>Prognozės modelių</strong> puslapyje pažymėti grupės <strong>Automatinis prognozės mažinimas</strong> laukai. Paprastai likęs biudžetas nukopijuojamas iš pradinio biudžeto. Įvedant operacijas, sumažinamos operacijos likusiame biudžete. Jei, vykstant projektui, nustatote, kad reikia koreguotį likusį biudžetą, prognozės operacijas apmokestinate į likusį biudžetą. <br></br> <strong>PASTABA.</strong> Šis metodas gali būti taikomas tik prie vertinimo pridėjus prognozės modelį.</td>
 </tr>
 <tr class="even">
 <td>Kaip ankstesnis įvertinimas</td>
@@ -318,11 +339,19 @@ Išlaidų mokėjimo data neskaičiuojama pagal papildomas dienas. Kai projektas 
 
 Kai baigti visi pardavimai ir tiekėjų SF, galite peržiūrėti ryšį tarp **Grynųjų pinigų srauto** puslapio laukų ir **Projekto išrašų** puslapio laukų.
 
-| Grynųjų pinigų srautų puslapis | Projektų išrašų puslapis |
-|----------------|-------------------------|
-| Grynųjų pinigų įplaukos   | Įplaukos                 |
-| Grynųjų pinigų išmokos  | Bendroji savikaina              |
-| Grynieji grynųjų pinigų srautai | Bruto marža            |
+:::row::: :::column:::
+        #### Cash flow page
+        - Cash inflows 
+        - Cash outflows
+        - Net cash flows
+    :::column-end:::
+    :::column:::
+        #### Project statements page
+        - Revenue
+        - Total cost
+        - Gross margin
+    :::column-end:::
+:::row-end:::
 
 ### <a name="review-costs"></a>Peržiūrėti išlaidas
 
@@ -409,8 +438,4 @@ Kai išrašas apskaičiuotas, įvairiuose **Projekto išrašų** puslapio skirtu
 -   **Sunaudojimas** – informacija apie valandų, prekių, išlaidų ir algalapio operacijų sunaudojimą.
 -   **SF** – informacija apie sąskaitas faktūras ir laisvos formos sąskaitų faktūrų išrašymą.
 -   **Valandos įkainis** – valandų, kurios užregistruotos įplaukų ir išlaidų sąskaitose, įkainiai.
-
-
-
-
 

@@ -3,7 +3,7 @@ title: "Tiesioginis „Finance and Operations“ produktų sinchronizavimas su �
 description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su Microsoft Dynamics 365 for Sales“."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Laukas **Tvarkomas išoriškai** padeda užtikrinti, kad su „Finance and Opera
 Išoriškai tvarkomi produktai automatiškai įtraukiami į pirmąjį tinkamą kainoraštį ta pačia valiuta. Kainoraščiai išrikiuojami abėcėlės tvarka pagal pavadinimą. „Finance and Operations“ produkto pardavimo kaina naudojama kaip kainoraščio kaina. Todėl „Sales“ turi būti pateiktas kainoraštis, atitinkantis kiekvieno produkto pardavimo valiutą „Finance and Operations“. Patvirtintų parduodamų produktų valiuta nustatyta į juridinio subjekto, iš kurio produktas eksportuojamas, apskaitos valiutą.
 
 > [!NOTE]
-> Jei nebus valiutą atitinkančio kainoraščio, sinchronizavimo atlikti nepavyks.
+> - Jei nebus valiutą atitinkančio kainoraščio, produktų sinchronizuoti nepavyks.
+> - Naudojamą kainoraštį su integracija galite valdyti projekte Duomenų integravimas susieję pricelevelid.name [Numatytasis kainoraštis (pavadinimas)]. Visą įvestį turi sudaryti mažosios raidės. Pavyzdžiui, numatytoji „Sales“ kainoraščio pavadinimu „Standartinis“ reikšmė būtų: Paskirties laukas: pricelevelid.name [Numatytasis kainoraštis (pavadinimas)], o Susiejimo tipas: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Išankstinės sąlygos ir susiejimo nustatymas
 

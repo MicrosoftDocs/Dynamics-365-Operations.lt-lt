@@ -1,6 +1,6 @@
 ---
 title: "Verslo procesų formalizavimas"
-description: "Verslo proceso funkcija suteikia galimybę kurti verslo proceso šabloną, skirtą procesams, kuriuos reikia atlikti jūsų organizacijoje."
+description: "Šioje temoje paaiškinama, kaip, naudodami funkciją Verslo procesas, galite sukurti verslo proceso šabloną, skirtą procesams, kuriuos reikia atlikti jūsų organizacijoje."
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
@@ -19,47 +19,60 @@ ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1b50a97f5e2fc94255ff71702faf91ab36e68eb4
+ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
+ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/19/2018
 
 ---
 # <a name="formalize-business-processes"></a>Verslo procesų formalizavimas
-Verslo proceso funkcija suteikia galimybę kurti verslo proceso šabloną, skirtą procesams, kuriuos reikia atlikti jūsų organizacijoje. Pavyzdžiui, jūsų įmonė gali vykdyti personalo auditą kiekvienais metais. Galima sukurti šabloną, skirtą sekti visas užduotis, kurios sudaro auditą, kad visos užduotys būtų atliekamos kiekvieną kartą baigus procesą, ir, jei reikia, užduotys būtų atliekamos tinkama tvarka. Šablonus galima pakartotinai naudoti pasikartojančiuose procesuose arba kopijuoti ir naudoti kaip naujų šablonų kūrimo pagrindą.
 
-Sukūrus šabloną, procesą galima pradėti ir sekti darbo srityje Verslo procesas.  Pradėjus verslo procesą, atitinkamiems žmonėms bus priskirta užduotis ir įtraukta termino data. Toliau aprašysime kiekvieną komponentą išsamiau.
+[!include[banner](includes/banner.md)]
 
-## <a name="business-process-template"></a>Verslo proceso šablonas
-Verslo proceso šablone pateikiama užduočių, sudarančių verslo procesą, grupė. Personalo vadovai ir asistentai gali kurti verslo procesus pagal numatytuosius parametrus.  Tačiau tai galima pakeisti saugos konfigūracijoje redaguojant pareigą Tvarkyti bendruosius verslo procesus.
+Funkcija Verslo procesas leidžia sukurti verslo proceso šabloną, skirtą verslo procesams, kuriuos reikia atlikti jūsų organizacijoje. Pavyzdžiui, jūsų įmonė kiekvienais metais atlieka personalo auditą. Tokiu atveju galite sukurti šabloną, sekantį visas užduotis, kurios sudaro audito procesą. Tada šis šablonas gali padėti užtikrinti, kad kiekvieną kartą atliekant auditą būtų atliktos visos užduotys. Be to, jei užduotis reikia atlikti konkrečia tvarka, šablonas gali padėti užtikrinti, kad jos būtų atliktos teisinga tvarka.
 
-Galima nurodyti kiekvieno proceso savininką. Proceso savininkas galės matyti visas proceso užduotis ir iš naujo priskirti užduotis arba keisti terminus.  Pavyzdžiui, personalo direktorius gali sukurti verslo proceso šabloną, skirtą išmokoms peržiūrėti.  Kompensacijų ir išmokų vadovas gali būti nustatytas kaip proceso savininkas, kad turėtų įžvalgų apie užduotis, kurias reikia atlikti peržiūros metu.  Proceso savininkas negali kurti arba naikinti aktyvių verslo procesų arba verslo procesų šablonų.
+Šablonus galima pakartotinai naudoti atliekant pasikartojančius procesus. Juos taip pat galima kopijuoti ir naudoti kaip pradžios tašką naujiems šablonams kurti.
 
-## <a name="task"></a>Užduotis
-Verslo procesą dažnai sudaro kelios užduotys. Kai kurias užduotis galima atlikti „Dynamics 365 for Talent“, pvz., peržiūrėti vidinių kursų pasiūlymus. Tokiu atveju lauke Užduoties saitas pasirenkamas meniu elementas. Atliekant kitas užduotis gali reikėti peržiūrėti arba užpildyti formas svetainėje. Lauke Užduoties saitas pasirinkus URL, galima įvesti žiniatinklio adresą. Šiame lauke galite įvesti tiek išorinių, tiek vidinių svetainių URL. Taip pat galite kurti užduotis, skirtas neautomatiškai atliekamoms veikloms, pvz., visų struktūrų pasiekiamumo peržiūrai. Šiuo atveju užduoties saitas nebūtinas. Toks lankstumas suteikia galimybę sekti įvairių išsamaus proceso rūšių užduotis.
+Sukūrus verslo proceso šabloną, darbo srityje **Verslo procesas** galima pradėti ir sekti verslo procesą. Pradėjus verslo procesą, užduotys priskiriamos atitinkamiems žmonėms ir į jas įtraukiamas terminas.
 
-Užduotis galima priskirti konkrečiam darbuotojui arba pareigoms. Pavyzdžiui, kompensacijų ir išmokų vadovas visada bus asmuo, kuris peržiūri draudimo premijas.   Kurdami šią užduotį, pasirinkite pareigas kaip priskyrimo tipą ir tada pasirinkite kompensacijų bei išmokų vadovą iš pareigų sąrašo. Kai procesas prasidės, užduotis bus priskirta darbuotojui, kuris dirba kompensacijų ir išmokų vadovo pareigose. Taip pat galite priskirti užduotį konkrečiam darbuotojui lauke Priskyrimo tipas pasirinkdami parinktį Darbuotojas, o tada pasirinkdami atitinkamą asmenį.
+## <a name="business-process-templates"></a>Verslo procesų šablonai
+Verslo proceso šablone pateikiama užduočių, sudarančių verslo procesą, grupė. Pagal numatytuosius parametrus verslo procesus gali kurti personalo vadovai ir asistentai. Tačiau vaidmenis, galinčius kurti verslo procesus, galite keisti modifikuodami saugos konfigūracijos pareigą **Tvarkyti bendruosius verslo procesus**.
 
-Užduočių terminai priklauso nuo proceso pradžioje įvestos tikslinės datos. Kai kurias užduotis reikia baigti iki tikslinės datos, o kitas galima baigti po tikslinės datos.  Apibrėždami užduotį turite įvesti terminą, susijusį su paskirties data termino data, lauke Termino poslinkis nuo tikslinės datos. Pavyzdžiui, kompensacijų ir išmokų vadovas turi peržiūrėti draudimo įmokas 10 dienų anksčiau nei baigiamas personalo auditas. Sukurtos užduoties terminas bus susijęs su tiksline data pagal formulę –10. Todėl, jei procesas prasidės gegužės 13 d., užduoties terminas bus gegužės 3 d. Pastaba: terminus taip pat galima koreguoti pradėjus procesą.
+Galite nustatyti kiekvieno verslo proceso savininką. Proceso savininkas mato visas proceso užduotis ir gali jas priskirti iš naujo arba keisti terminus. Pavyzdžiui, personalo direktorius sukuria verslo proceso šabloną išmokų peržiūrai bei kaip proceso savininką nurodo kompensacijų ir išmokų vadovą. Tada kompensacijų ir išmokų vadovas mato užduotis, kurias reikia atlikti peržiūrint išmokas.
 
-Sudėtingas užduotis gali sudaryti keli veiksmai arba gali būti, kad užduotis atliekantis asmuo privalo pateikti papildomos informacijos. Į užduotį galite įtraukti instrukcijų ir jas pateikti raiškiojo teksto formatu. Instrukcijose galima pateikti papildomos informacijos apie tai, kaip asmuo, kuriam užduotis priskirta, reikia ją tą užduotį atlikti.
+Proceso savininkas negali kurti naujų verslo procesų ar verslo procesų šablonų ir panaikinti aktyvių verslo procesų ar verslo procesų šablonų.
 
-## <a name="starting-a-process"></a>Proceso pradžia
-Procesą galima pradėti verslo proceso šablone pasirinkus Pradėti procesą.  Pradėjus procesą, bus sukurtos užduotys, skirtos pasirinktiems darbuotojams ir (arba) pareigoms, kurie nurodyti į verslo proceso šabloną įtrauktose užduotyse. Terminas taip pat bus priskirtas kiekvienai užduočiai, pridedant arba atimant korespondentines dienas iš tikslinės datos (žr. užduočių skyriuje pateikiamą informaciją apie korespondentines dienas). Aktyvius verslo procesus srityje galima peržiūrėti darbo srityje Verslo procesai. 
+## <a name="tasks"></a>Užduotys
+Verslo procesą dažnai sudaro kelios užduotys. Kai kurias užduotis, pvz., peržiūrėti vidinių kursų pasiūlymus, galima atlikti sprendime „Microsoft Dynamics 365 for Talent“[?]. Tokiu atveju lauke **Užduoties saitas** pasirenkama atitinkama parinktis. Atliekant kitas užduotis gali reikėti peržiūrėti arba užpildyti svetainės puslapius. Tokiu atveju lauke **Užduoties saitas** pasirenkama **URL** – tada galima įvesti žiniatinklio adresą. Galite įvesti tiek išorinių, tiek vidinių svetainių URL adresus. Taip pat galite kurti užduotis, skirtas neautomatiškai atliekamoms veikloms, pvz., visų struktūrų pasiekiamumo peržiūrai. Šiuo atveju užduoties saitas nereikalingas. Toks lankstumas suteikia galimybę sekti įvairių išsamaus proceso rūšių užduotis.
+
+Užduotis galima priskirti konkrečiam darbuotojui arba pareigoms. Pavyzdžiui, draudimo premijas visada peržiūrės Kompensacijų ir išmokų vadovas. Todėl kurdami šią užduotį lauke **Priskyrimo tipas** pasirinkite **Pareigos**, o tada sąraše **Pareigos** pasirinkite **Kompensacijų ir išmokų vadovas**. Kai verslo procesas pradedamas, užduotis priskiriama darbuotojui, užimančiam pareigas **Kompensacijų ir išmokų vadovas**. Norėdami užduotį priskirti konkrečiam darbuotojui, lauke **Priskyrimo tipas** pasirinkite **Darbuotojas**, tada pasirinkite atitinkamą asmenį.
+
+Užduočių terminai priklauso nuo proceso pradžioje įvestos tikslinės datos. Kai kurias užduotis reikia baigti iki tikslinės datos, o kitas gali būti galima baigti po tikslinės datos. Apibrėžiant užduotį, lauke **Termino poslinkis nuo tikslinės datos** nurodomas terminas, susijęs su paskirties data. Pavyzdžiui, kompensacijų ir išmokų vadovas draudimo įmokas turi peržiūrėti 10 dienų anksčiau nei baigiamas personalo auditas. Tokiu atveju peržiūrai sukurtos užduoties lauko **Termino poslinkis nuo tikslinės datos** reikšmė yra **–10**. Todėl, jei verslo procesas pradedamas gegužės 13 d., užduoties terminas yra gegužės 3 d.
+
+> [!NOTE]
+> Terminus taip pat galima koreguoti pradėjus verslo procesą.
+
+Sudėtingas užduotis gali sudaryti keli veiksmai arba užduotis atliekantiems asmenims gali reikėti pateikti papildomos informacijos. Tokiose situacijose į užduotį galite įtraukti instrukcijų. Instrukcijos asmeniui, kuriam priskirta atlikti užduotį, gali pateikti papildomos informacijos apie tai, kaip tai padaryti. Instrukcijose net galite naudoti raiškiojo teksto formatavimą.
+
+## <a name="starting-a-business-process"></a>Verslo proceso pradėjimas
+Verslo proceso šablone verslo procesą galite pradėti pasirinkdami **Pradėti procesą**. Pradėjus procesą, sukuriamos užduotys, skirtos pasirinktiems darbuotojams ar pareigoms, kurie nustatyti į šabloną įtrauktose užduotyse. Kiekvienai užduočiai taip pat priskiriamas terminas, prie tikslinės datos pridedant ar iš jos atimant poslinkio dienų, kaip paaiškinta skyriuje „Užduotys“. Aktyvius verslo procesus galite peržiūrėti darbo srityje **Verslo procesai**.
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
-Kai užduotis yra priskiriama darbuotojui, jiems priskirtas užduotis galima peržiūrėti puslapyje Darbuotojų savitarna. Darbuotojai, kuriems priskirta verslo proceso užduotis, gali matyti užduotį, jos aprašą, atlikimo instrukcijas ir kontaktinio asmens vardą bei pavardę, be to, jie gali atidaryti susijusį „Dynamics 365“ puslapį arba tinklalapį iš savo puslapio Darbuotojų savitarna. Užduotis galima pažymėti kaip vykdomas, atšauktas arba baigtas.
+Darbuotojui priskyrus užduotį, ją ir visas kitam jam priskirtas užduotis darbuotojas gali peržiūrėti puslapyje **Darbuotojų savitarna**. Darbuotojas gali matyti kiekvienos jam priskirtos verslo proceso užduoties pavadinimą ir aprašą, jos atlikimo instrukcijas bei kontaktinio asmens vardą. Puslapyje **Darbuotojų savitarna** darbuotojas taip pat gali atidaryti susietą „Microsoft Dynamics 365“ puslapį arba susietą tinklalapį ir užduotis gali pažymėti kaip vykdomas, atšauktas arba baigtas.
 
 ## <a name="business-process-workspace"></a>Darbo sritis Verslo procesas
-Personalo specialistai gali peržiūrėti aktyvius verslo procesus darbo srityje Verslo procesas. Darbo srityje pateikiami visi aktyvūs procesai ir kiekvienam jų priskiriamos užduotys. Išsamų užduočių sąrašą galima filtruoti pagal terminą. Puslapyje taip pat pateikiamos pradelstos užduotys ir užduotys, kurios konkrečiai priskirtos personalo specialistui. Jie taip pat gali naujinti visų užduočių būsenas ir, jei reikia, iš naujo priskirti užduotis, kad bendras verslo procesas būtų toliau vykdomas.
+Personalo specialistai aktyvius verslo procesus gali peržiūrėti darbo srityje **Verslo procesas**. Šioje darbo srityje pateikiami visi aktyvūs procesai ir su kiekvienu iš jų susietos užduotys. Išsamų užduočių sąrašą galima filtruoti pagal terminą. Šioje darbo srityje taip pat pateikiamos pradelstos užduotys ir užduotys, priskirtos konkrečiai personalo specialistui. Personalo specialistas taip pat gali atnaujinti visų užduočių būseną ir, prireikus, užduotis priskirti iš naujo, kad bendras verslo procesas būtų toliau vykdomas.
 
 ## <a name="my-business-processes-workspace"></a>Darbo sritis Mano verslo procesai
-Proceso savininkai gali peržiūrėti aktyvius verslo procesus, kurie jiems priskirti, darbo srityje Mano verslo procesai. Darbo srityje pateikiami visi aktyvūs procesai ir susijusios užduotys, kurios priklauso vartotojui.  Išsamų užduočių sąrašą galima filtruoti pagal terminą. Puslapyje taip pat pateikiamos užduotys, konkrečiai priskirtos proceso savininkui. Proceso savininkas taip pat gali naujinti visų užduočių būsenas, be to, jis gali iš naujo priskirti bet kurią užduotį.
+Procesų savininkai aktyvius jiems priskirtus verslo procesus gali peržiūrėti darbo srityje **Mano verslo procesai**. Šioje darbo srityje pateikiami visi aktyvūs procesai, priklausantys vartotojui, ir susietos užduotys. Išsamų užduočių sąrašą galima filtruoti pagal terminą. Šioje darbo srityje taip pat pateikiamos užduotys, priskirtos konkrečiai proceso savininkui. Proceso savininkas taip pat gali atnaujinti visų užduočių būseną ir iš naujo priskirti bet kurią užduotį.
 
 ## <a name="navigating-business-processes"></a>Verslo procesų naršymas
-1. Norėdami įtraukti verslo proceso šabloną, pasirinkite Verslo procesai – nuorodos – Verslo procesų administravimas.
-   - A.   Pasirinkus Naujas, bus sukurtas naujas šablonas.
-   - B.   Pasirinkus Kopijuoti iš šablono, pasirinktas šablonas bus nukopijuotas į naują šabloną.
-   - C.   Pasirinkus Pradėti procesą, bus pradėtas pasirinktas verslo procesas, priskiriamos užduotys ir apskaičiuojami terminai.  
-2. Norėdami peržiūrėti aktyvius verslo procesus ir susietas užduotis, pasirinkite darbo sritį Verslo procesai.
+Norėdami sukurti ar kopijuoti verslo procesų šabloną arba pradėti verslo procesą, eikite į Verslo procesai – saitai – Verslo procesų administravimas. Tada galite atlikti tolesnius veiksmus.
+
+- Pasirinkite **Naujas**, jei norite sukurti naują verslo procesų šabloną.
+- Pasirinkite **Kopijuoti iš šablono**, jei pasirinktą šabloną norite nukopijuoti į naują šabloną.
+- Pasirinkite **Pradėti procesą**, jei norite pradėti pasirinktą verslo procesą, priskirti užduočių ir skaičiuoti terminus.
+
+Norėdami peržiūrėti aktyvius procesus ir susietas užduotis, atidarykite darbo sritį **Verslo procesai**.
+
 

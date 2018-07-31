@@ -1,9 +1,9 @@
 ---
 title: "Pamainos ir kasos stalčių valdymas"
-description: "Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas."
-author: rubencdelgado
+description: "Šioje temoje paaiškinama, kaip mažmeninės prekybos elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinta, kaip nustatyti ir naudoti dviejų tipų mažmeninės prekybos elektroninio kasos aparato (EKA) pamainas – bendrai naudojamą ir atskirą. Bendrai naudojimas pamainas keliose vietose gali naudoti keli vartotojai, o atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas.
+Šioje temoje paaiškinama, kaip mažmeninės prekybos elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas. 
 
-Galimi du mažmeninės prekybos elektroninio kasos aparato (EKA) pamainų tipai: atskira ir bendrai naudojama. Atskiras pamainas vienu metu gali naudoti tik vienas darbuotojas. Bendrai naudojimas pamainas gali naudoti keli vartotojai keliose vietose. Todėl parduotuvėje galima veiksmingai sukurti keliems vartotojams skirtą vieną pamainą.
+Sprendime „Microsoft Dynamics 365 for Retail“ terminu *pamaina* aprašomas EKA operacijų duomenų rinkimas tarp dviejų laiko taškų. Numatoma kiekvienos pamainos pinigų suma palyginama su apskaičiuota ir deklaruota suma.
 
-## <a name="standalone-shifts"></a>Atskiros pamainos
-Atskiros pamainos naudojamos tradiciniu, pastoviu POS scenarijumi, kada kiekvieno EKA registro grynieji pinigai yra suderinamos atskirai. Pvz., parduotuvės aplinkoje paprastai yra keli fiksuoti EKA registrai, o kasininkas priskirtas kiekvienam registrui. Šiuo atveju kiekvienas registras greičiausiai naudoja atskirą pamainą, o kasininkas yra atsakingas už to registro kasos stalčiaus skyrelį arba fizinės formos grynuosius pinigus. Atskira pamaina apima visą veiklą tame registre per kasininko darbo pamainą. Veiklos gali apimti į kasos stalčiaus skyrelį padėtos sumos atidarymą, visas grynųjų pinigų išėmimo ir įdėjimo operacijas, pvz., inkasavimus ir srauto įrašą, ir mokėjimo priemonių deklaravimą pamainai pasibaigus.
+Paprastai pamainos pradedamos darbo dienos pradžioje. Tuo metu vartotojas deklaruoja pradinę sumą, esančią kasos stalčiuje. Tada visą dieną atliekamos pardavimo operacijos. Galiausiai dienos pabaigoje suskaičiuojamas stalčius ir deklaruojamos galutinės sumos. Pamaina baigiama ir sugeneruojama Z ataskaita. Z ataskaita nurodo, ar yra perteklius, ar – trūkumas.
 
-### <a name="set-up-a-stand-alone-shift"></a>Atskiros pamainos nustatymas
+## <a name="typical-shift-scenarios"></a>Įprastos pamainų situacijos
+„Retail“ siūlo kelias konfigūravimo parinktis ir EKA operacijas, kad būtų galima atlikti įvairius EKA dienos pabaigos verslo procesus. Šiame skyriuje aprašomos kelios įprastos pamainų situacijos.
 
-Atskira pamaina priskiriama kasos stalčiaus lygyje. Šioje procedūroje paaiškinama, kaip nustatyt atskirą pamainą EKA registre.
+### <a name="fixed-till"></a>Fiksuotas kasos stalčiaus skyrelis
+Paprastai ši situacija naudojama dažniausiai. Ji vis dar plačiai naudojama. Fiksuoto kasos stalčiaus skyrelio pamainoje ji ir skyrelis susieti su konkrečiu kasos aparatu. Jie iš vieno kasos aparato į kitą neperkeliami. Fiksuoto kasos stalčiaus skyrelio pamainą gali naudoti vienas vartotojas arba bendrai naudoti keli vartotojai. Fiksuoto kasos stalčiaus skyrelio pamainų nereikia niekaip specialiai konfigūruoti.
 
-1.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**.
-2.  Pasirinkite naudotiną atskirtos pamainos aparatūros šabloną.
-3.  „FastTab“ **Stalčius** patikrinkite, ar parinktis **Bendrai naudojamos pamainos stalčius** yra nustatyta į **Ne**.
-4.  Spustelėkite **Įrašyti**.
-5.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
-6.  Pasirinkite registrą, kuriam reikalinga atskira pamaina, ir tada spustelėkite **Redaguoti**.
-7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
-8.  Spustelėkite **Įrašyti**.
-9.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
-10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
+### <a name="floating-till"></a>Nefiksuotas kasos stalčiaus skyrelis
+Nefiksuoto kasos stalčiaus skyrelio pamainoje ją ir kasos stalčių galima perkelti iš vieno kasos aparato į kitą. Nors su vienu kasos aparato stalčiumi gali būti susieta tik viena aktyvi pamaina, pamainas galima sustabdyti ir pratęsti vėliau arba kitame kasos aparate.
 
-### <a name="use-a-stand-alone-shift"></a>Atskiros pamainos naudojimas
+Pavyzdžiui, parduotuvėje yra du kasos aparatai. Kiekvienas kasos aparatas atidaromas dienos pradžioje, kai kasininkas pradeda naują pamainą ir nurodo pradinę sumą. Kai vienas kasininkas pasirengęs daryti pertrauką, jis sustabdo savo pamainą ir iš kasos stalčiaus išima skyrelį. Tą kasos aparatą tada gali naudoti kiti kasininkai. Prie jo gali prisijungti ir savo pamainą pradėti kitas kasininkas. Pasibaigus pirmojo kasininko pertraukai, jis savo pamainą gali pratęsti atsilaisvinus vienam iš kitų kasos aparatų. Nefiksuoto kasos stalčiaus skyrelio pamainų nereikia niekaip specialiai konfigūruoti ir joms nereikia jokių specialių teisių.
 
-1.  Prisijunkite prie EKA.
-2.  Jei neatidaryta jokia pamaina, pasirinkite **Atidaryti naują pamainą**.
-3.  Pasirinkite operaciją **Deklaruoti pradinę sumą** ir nurodykite grynųjų pinigų sumą, kuri bus įtraukta į kasos stalčiaus skyrelį darbo dienos pradžioje.
-4.  Atlikite keletą operacijų.
-5.  Pasibaigus dienai pasirinkite **Deklaruoti mokėjimo priemonę**, kad deklaruotumėte kasos stalčiuje likusią grynųjų pinigų sumą.
-6.  Įveskite grynųjų pinigų sumą, o tada spustelėkite **Įrašyti**, kad įrašytumėte mokėjimo priemonės deklaravimą.
-7.  Pasirinkite **Uždaryti pamainą**, kad uždarytumėte pamainą.
+### <a name="single-user"></a>Vienas vartotojas
+Daug mažmenininkų vienoje pamainoje dažniau leidžia dirbti tik vienam vartotojui, kad būtų lengviau užtikrinti aukščiausio lygio atskaitomybę už kasos stalčiuje esančius grynuosius pinigus. Jei naudoti su pamaina susietą kasos stalčiaus skyrelį leidžiama tik vienam vartotojui, tik jį galima laikyti atsakingu už bet kokius neatitikimus. Jei pamainą naudoja daugiau nei vienas vartotojas, sunku nustatyti, kas suklydo ar kas galbūt bando vogti iš kasos stalčiaus skyrelio.
 
-**Pastaba.** Pamainos metu galima atlikti kitas operacijas, priklausomai nuo vykdomų verslo procesų. Galima atlikti operacijas **Pinigų įnešimas į kasą**, **Inkasavimas** ir **Mokėjimo priemonės šalinimas**, norint dienos metu arba prieš uždarant pamainą iš kasos stalčiaus skyrelio išimti pinigus. Jei kasos stalčiaus skyrelyje yra per mažai pinigų, galima naudoti operaciją **Srauto įrašas**, norint į kasos stalčiaus skyrelį įdėti grynųjų pinigų.
+### <a name="multiple-users"></a>Keletas naudotojų
+Kai kurie mažmenininkai pasiruošę paaukoti atskaitomybės lygį, kurį suteikia vieno vartotojo pamainos, ir vienoje pamainoje leisti dirbti daugiau nei vienam vartotojui. Taip paprastai elgiamasi, kai vartotojų yra daugiau nei laisvų kasos aparatų ir lankstumo bei greičio poreikis yra svarbesnis už nuostolių galimybę. Tai taip tai įprasta, kai parduotuvių vadovai neturi savo pamainų, tačiau prireikus gali naudoti bet kurio iš kasininkų pamainas. Kad galėtų prisijungti prie pamainos, kurią pradėjo kitas vartotojas, ir ją naudoti, vartotojas turi turėti EKA teisę **Leisti jungtis prie kelių pamainų**.
 
-## <a name="shared-shifts"></a>Bendrai naudojamos pamainos
-Bendrai naudojama pamaina naudojama tada, kai visą darbo dieną keli kasininkai bendrai naudoja kasos stalčių arba kasos stalčių rinkinį. Paprastai bendrai naudojama pamaina yra naudojama mobiliojoje EKA aplinkoje. Mobiliojoje aplinkoje nė vienas kasininkas nėra priskirtas arba atsakingas už vieną kasos stalčių. Visi kasininkai turi turėti galimybę užregistruoti pardavimą ir įdėti pinigų į artimiausią kasos aparatą. Tokiu atveju kasos stalčiai, kuriuos kasininkai bendrai naudoja, įtraukiami į bendrai naudojamą pamainą. Visi bendrai naudojamos pamainos kasos stalčiai įtraukiami į vieną pamainą, kad būtų galima vykdyti su grynųjų pinigų valdymu susijusias tos pamainos veiklas. Todėl pradinė pamainos suma turėtų apimti visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esančią grynųjų pinigų sumą. Taip pat mokėjimo priemonės deklaravimas bus visuose į bendrai naudojamą pamainą įtrauktuose kasos stalčiuose esanti grynųjų pinigų suma. **Pastaba:** kiekvienoje parduotuvėje vienu metu galima atidaryti tik vieną bendrai naudojamą pamainą. Toje pačioje parduotuvėje galima naudoti bendrai naudojamas pamainas ir atskiras pamainas.
+### <a name="shared-shift"></a>Bendrai naudojama pamaina
+Bendrai naudojamos pamainos konfigūracija mažmenininkams leidžia turėti vieną pamainą, naudojamą keliuose kasos aparatuose, kasos stalčiuose ir kurią naudoja keli vartotojai. Bendrai naudojamoje pamainoje naudojama viena pradinė suma ir viena galutinė suma, kurios sumuojamos tarp visų kasos stalčių. Bendrai naudojamas pamainas dažniausiai renkamasi naudojant mobiliuosius įrenginius. Tokioje situacijoje atskiras kasos stalčius kiekvienam kasos aparatui nerezervuojamas. Vietoj to visi kasos aparatai gali bendrai naudoti vieną kasos stalčių.
 
-### <a name="set-up-a-shared-shift"></a>Bendrai naudojamos pamainos nustatymas
+Kad parduotuvėje būtų galima naudoti bendrai naudojamas pamainas, kasos stalčius dalyje **Mažmeninė prekyba \> Kanalų sąranka \> EKA sąranka \> EKA profiliai \> Aparatūros profiliai \> Stalčius** turi būti sukonfigūruotas kaip bendrai naudojamos pamainos stalčius. Be to, vartotojai turi turėti vieną ar abi bendrai naudojamų pamainų teises (Leisti valdyti bendrai naudojamą pamainą ir Leisti naudoti bendrai naudojamą pamainą).
 
-1.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**.
-2.  Pasirinkite naudotiną bendrai naudojamos pamainos aparatūros šabloną.
-3.  „FastTab“ **Stalčius** parinktį **Bendrai naudojamos pamainos stalčius** nustatykite į **Taip**.
-4.  Spustelėkite **Įrašyti**.
-5.  Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
-6.  Pasirinkite registrą, kuriam reikalinga bendrai naudojama pamaina, ir tada spustelėkite **Redaguoti**.
-7.  Lauke **Aparatūros šablonas** pasirinkite aparatūros šabloną, kurį pasirinkote atlikdami 2 veiksmą.
-8.  Spustelėkite **Įrašyti**.
-9.  Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
-10. Pasirinkite **1090** pasiskirstymo grafiką, o tada spustelėkite **Vykdyti dabar**, kad sinchronizuotumėte EKA keitimus.
+> [!NOTE]
+> Kiekvienoje parduotuvėje vienu metu gali būti pradėta tik viena bendrai naudojama pamaina. Toje pačioje parduotuvėje galima naudoti bendrai naudojamas pamainas ir atskiras pamainas.
 
-### <a name="use-a-shared-shift"></a>Bendrai naudojamos pamainos naudojimas
+## <a name="shift-and-drawer-operations"></a>Pamainų ir stalčių operacijos
+Pamainos būsenai pakeisti arba pinigų sumai kasos stalčiuje padidinti ar sumažinti galima atlikti įvairias operacijas. Šiame skyriuje aprašomos šios pamainų operacijos, skirtos „Microsoft Dynamics 365 for Retail“ sprendimams „Modern POS“ ir „Cloud POS“.
 
-1.  Prisijunkite prie EKA.
-2.  Jei dar EKA dar neprijungtas prie aparatūros stoties, pasirinkite **Su stalčiumi nesusijusi operacija**, o tada pasirinkite operaciją **Pasirinkti aparatūros stotį**, kad suaktyvintumėte bendrai naudojamos pamainos aparatūros stotį. Šį veiksmą reikia atlikti tik pirmą kartą registrą įtraukiant į bendrai naudojamos pamainos aplinką.
-3.  Atsijunkite nuo EKA ir vėl prisijunkite.
-4.  Pasirinkite **Kurti naują pamainą**.
-5.  Pasirinkite **Deklaruoti pradinę sumą**.
-6.  Įveskite visų parduotuvės kasos stalčių, įtrauktų į bendrai naudojamą pamainą, pradinę sumą, o tada spustelėkite **Įrašyti**.
-    -   Norėdami pradinės sumos dalį įtraukti į kiekvieną paskesnį kasos stalčių, naudokite operaciją **Pasirinkti aparatūros stotį**, kad suaktyvintumėte aparatūros stotį.
-    -   Norėdami į konkretų kasos stalčių įtraukti kasos stalčiaus skyrelį, naudokite operaciją **Atidaryti stalčių**.
-    -   Tęskite, kol visose bendrai naudojamos pamainos kasos stalčiuose bus reikiama pradinės sumos dalis.
+### <a name="open-shift"></a>Atidaryta pamaina
+Vartotojams norint naudojant EKA atlikti bet kokias operacijas, kuriomis bus gauta finansinė operacija, pvz., pardavimas, grąžinimas ar kliento užsakymas, jiems reikia turėti aktyvią pradėtą pamainą.
 
-7.  Pasibaigus dienai atidarykite kiekvieną kasos stalčių ir išimkite grynuosius pinigus.
-8.  Išėmę grynuosius pinigus iš paskutinio kasos stalčiaus, suskaičiuokite visų kasos stalčių grynuosius pinigus.
-9.  Naudokite operaciją **Deklaruoti mokėjimo priemonę**, kad deklaruotumėte bendrą grynųjų pinigų sumą visuose bendrai naudojamos pamainos kasos stalčiuose.
-10. Naudokite operaciją **Uždaryti pamainą**, kad uždarytumėte bendrai naudojamą pamainą.
+Vartotojui prisijungus prie EKA, sistema pirmiausia patikrina, ar esamame kasos aparate tas vartotojas turi aktyvią pamainą. Jei aktyvios paskyros nėra, vartotojas gali pradėti naują pamainą, pratęsti esamą arba prisijungti ne stalčiaus režimu – tai priklauso nuo sistemos konfigūracijos ir vartotojo teisių.
 
-## <a name="shift-operations"></a>Pamainos operacijos
-Pamainos būsenai pakeisti arba pinigų sumai stalčiuje padidinti ar sumažinti galima imtis įvairių veiksmų. Toliau pateiktame skyriuje aprašomos pamainos operacijos, skirtos „Dynamics 365 for Retail“ moderniai EKA ir debesies EKA.
+### <a name="declare-start-amount"></a>Deklaruoti pradinę sumą
+Ši operacija dažnai yra pirma operacija, kuri atliekama naujai pradėtoje pamainoje. Atlikdami šią operaciją vartotojai nurodo pradinę grynųjų pamainos pinigų sumą kasos stalčiuje. Ši operacija yra svarbi, nes baigus pamainą skaičiuojant perteklių / trūkumą atsižvelgiama į pradinę sumą.
 
-**Atidaryta pamaina**
+### <a name="float-entry"></a>Nefiksuotas įrašas
+*Nefiksuoti įrašai* yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje siekiant kasos stalčiuje padidinti grynųjų pinigų sumą. Įprastas nefiksuoto įrašo pavyzdys – operacija, kuria papildomas stalčiaus grąžos likutis, kai šis baiginėjasi.
 
-EKA reikia, kad pas vartotoją būtų aktyvi atidaryta pamaina ir būtų galima atlikti operacijas, kurių galutinė išraiška virstų finansine operacija, pvz., pardavimu, grąžinimu arba kliento užsakymu.  
+### <a name="tender-removal"></a>Mokėjimo priemonės šalinimas
+*Mokėjimo priemonės šalinimai* yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje, siekiant sumažinti grynųjų pinigų sumą kasos stalčiuje. Ši operacija dažniausiai naudojama kartu su operacija Nefiksuotas įrašas, atliekama kitoje pamainoje. Pavyzdžiui, kadangi 1 kasos aparate baiginėjasi grąžos likutis, vartotojas 2 kasos aparate atlieka mokėjimo priemonės šalinimo operaciją, kad sumažintų sumą savo kasos stalčiuje. Tada vartotojas 1 kasos aparate atlieka fiksuoto įrašo operaciją, kad padidintų sumą savo kasos stalčiuje.
 
-Jungiantis prie EKA sistema pirmiausia patikrina, ar pas vartotoją dabartiniame kasos aparate yra pasiekiama aktyvi pamaina. Jei pasiekiamos aktyvios paskyros nėra, tada, priklausomai nuo sistemos konfigūracijos ir teisių, vartotojas gali atidaryti naują pamainą, pratęsti esamą arba tęsti prisijungimą ne stalčiaus režimu.
+### <a name="suspend-shift"></a>Sustabdyti pamainą
+Vartotojai gali sustabdyti aktyvią pamainą, kad dabartinį kasos aparatą atlaisvintų kitam vartotojui arba savo pamainą perkeltų į kitą kasos aparatą (tokiu atveju pamaina dažnai vadinama nefiksuoto kasos stalčiaus skyrelio pamaina).
 
-**Deklaruoti pradinę sumą**
+Sustabdžius pamainą neleidžiama atlikti jokių naujų pamainos operacijų ar pakeitimų, kol pamaina nebus pratęsta.
 
-Ši operacija paprastai būna pirmas veiksmas, kurį reikia atlikti naujai atidarytoje pamainoje. Pradinę grynųjų pamainos pinigų sumą stalčiuje nurodo vartotojai. Tai svarbu, nes priklausomai nuo šios sumos uždarant pamainą skaičiavimas gali būtų per didelis arba per mažas.
+### <a name="resume-shift"></a>Pratęsti pamainą
+Ši operacija vartotojams leidžia kasos aparate, kuris dar neturi aktyvios pamainos, pratęsti anksčiau sustabdytą pamainą.
 
-**Srauto įrašas**
+### <a name="tender-declaration"></a>Mokėjimo priemonių deklaravimas
+Ši operacija atliekama norint nurodyti visą pinigų sumą, šiuo metu esančią kasos stalčiuje. Vartotojai šią operaciją dažniausiai atlieka prieš baigdami pamainą. Nurodyta suma palyginama su numatoma pamainos suma ir taip apskaičiuojama pertekliaus / trūkumo suma.
 
-Nefiksuoti įrašai yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje, dėl kurių stalčiuje padidėja grynųjų pinigų suma. Įprastas nefiksuoto įrašo pavyzdys – papildyti grąžos likutį stalčiuje, kai šis baiginėjasi.
+### <a name="safe-drop"></a>Pinigų įnešimas į įmonės kasą
+Aktyvioje pamainoje bet kada galima atlikti pinigų įnešimo į seifą operaciją. Atliekant šią operaciją iš stalčiaus išimama pinigų, kad juos būtų galima perkelti į saugesnę vietą, pvz., į seifą galiniame kambaryje. Visa įrašyta į seifą įneštų pinigų suma įtraukiama į bendrąsias pamainos sumas, tačiau jos nereikia skaičiuoti deklaruojant mokėjimo priemones.
 
-**Mokėjimo priemonės šalinimas**
+### <a name="bank-drop"></a>Inkasavimas
+Kaip ir įnešami į seifą, aktyviose pamainose pinigai inkasuojami. Atlikus šią operaciją pinigai pašalinami iš pamainos, kad būtų pasiruošta banko indėliui.
 
-Mokėjimo priemonės šalinimai yra ne pardavimo operacijos, atliekamos aktyvioje pamainoje, siekiant sumažinti grynųjų pinigų sumą stalčiuje. Ši operacija dažniausiai atliekama kartu su nefiksuotu įrašu kitoje pamainoje. Pavyzdžiui, 1 kasos aparate mažėja grąžos likutis, todėl vartotojas 2 kasos aparate atlieka mokėjimo priemonės šalinimą, kad sumažintų sumą stalčiuje. Tada 1 kasos aparate vartotojas atlieka nefiksuotą įrašą, kad padidintų sumą.
+### <a name="blind-close-shift"></a>Uždaryti pamainą anonimiškai
+*Anonimiškai baigtos pamainos* yra nebeaktyvios, tačiau jos nėra visiškai baigtos. Kitaip nei sustabdytų pamainų, anonimiškai baigtų pamainų pratęsti negalima. Tačiau vėliau arba kitame kasos aparate su jomis galima atlikti tokias operacijas kaip Deklaruoti pradinę sumą ir Mokėjimo priemonių deklaravimas.
 
-**Sustabdyti pamainą**
+Anonimiškai baigtos pamainos dažnai naudojamos norint naujam vartotojui ar pamainai atlaisvinti kasos aparatą ir kad prieš tai nereikėtų visiškai suskaičiuoti, suderinti ir baigti pamainos.
 
-Vartotojai gali sustabdyti aktyvią pamainą, kad atlaisvintų dabartinį kasos aparatą kitam vartotojui arba perkeltų jo pamainą į kitą kasos aparatą (šis veiksmas dar dažnai vadinamas nefiksuojama kasa). 
+### <a name="close-shift"></a>Uždaryti pamainą
+Atliekant šią operaciją apskaičiuojamos bendrosios pamainos sumos ir pertekliaus / trūkumo sumos, o tada galutinai užbaigiama aktyvi arba anonimiškai baigta pamaina. Jei vartotojas turi reikiamas teises, taip pat išspausdinama pamainos Z ataskaita. Baigtų pamainų pratęsti ar modifikuoti negalima.
 
-Sustabdydami pamainą neleidžiate atlikti jokių naujų operacijų arba pakeitimų, kol pamaina nebus pratęsta toliau.
+### <a name="print-x"></a>Spausdinti X
+Šia operacija sugeneruojama ir išspausdinama esamos aktyvios pamainos X ataskaita.
 
-**Pratęsti pamainą**
+### <a name="reprint-z"></a>Perspausdinti Z
+Šia operacija perspausdinama paskutinė Z ataskaita, kurią sistema sugeneravo baigiant pamainą.
 
-Ši operacija leidžia vartotojui pratęsti anksčiau kasos aparate sustabdytą pamainą, kurioje dar nėra aktyvios pamainos.
+### <a name="manage-shifts"></a>Valdyti pamainas
+Ši operacija vartotojams leidžia peržiūrėti visas aktyvias, sustabdytas ir anonimiškai baigtas parduotuvės pamainas. Jei turi reikiamas teises, vartotojai su anonimiškai baigtomis pamainomis gali atlikti galutines baigimo procedūras, pvz., operacijas Mokėjimo priemonių deklaravimas ir Baigti pamainą. Atlikdami šią operaciją vartotojai taip pat gali peržiūrėti ir panaikinti netinkamas pamainas, kai, retais atvejais, perjungiant iš autonominio režimo į internetinį ir atvirkščiai, jos paliekamos blogos būsenos. Šiose netinkamose pamainose nėra jokios finansinės informacijos ar operacijų duomenų, reikalingų derinimui atlikti.
 
-**Mokėjimo priemonių deklaravimas**
+## <a name="shift-and-drawer-permissions"></a>Pamainų ir stalčių teisės
+Tolesnės EKA teisės lemia, ką įvairiose situacijose gali ir ko negali atlikti vartotojas.
 
-Mokėjimo priemonių deklaravimas – tai veiksmas, kurį vartotojas atlieka, norėdamas nurodyti bendrą tuo metu stalčiuje esančių pinigų sumą. Šis veiksmas dažniausiai atliekamas prieš uždarant pamainą. Tai vertė, lyginama su prognozuojama pamaina, norint apskaičiuoti perviršio / trūkumo sumą.
+- **Įgalinti anoniminį uždarymą**
+- **Leisti spausdinti X ataskaitą**
+- **Leisti spausdinti Z ataskaitą**
+- **Leisti mokėjimo priemonių deklaravimą**
+- **Leisti srauto deklaravimą**
+- **Atidaryti stalčių be pardavimo**
+- **Leisti jungtis prie kelių pamainų** – ši teisė vartotojui leidžia prisijungti prie kito vartotojo pradėtos pamainos ir ją naudoti. Šios teisės neturintys vartotojai gali prisijungti tik prie savo pradėtų pamainų ir naudoti tik jas.
+- **Leisti valdyti bendrai naudojamą pamainą** – vartotojai šią teisę privalo turėti norėdami pradėti arba baigti bendrai naudojamą pamainą.
+- **Leisti naudoti bendrai naudojamą pamainą** – vartotojai šią teisę privalo turėti norėdami prisijungti prie bendrai naudojamos pamainos ir ją naudoti.
 
-**Pinigų įnešimas į įmonės kasą**
+## <a name="back-office-end-of-day-considerations"></a>Ką dienos pabaigoje reikėtų apsvarstyti tarnybiniame biure
+EKA aparate pamainos ir kasos stalčius derinami kitaip nei skaičiuojant išrašus apibendrinami operacijų duomenys. Svarbu šį skirtumą suprasti. Pamainos duomenys EKA aparate (Z ataskaita) ir tarnybiniame biure apskaičiuotas išrašas gali pateikti skirtingus rezultatus – tai priklauso nuo jūsų konfigūracijos ir verslo procesų. Šis skirtumas nebūtinai reiškia, kad neteisingi pamainos duomenys ar apskaičiuotas išrašas, arba kad yra problemų su duomenimis. Jis tiesiog reiškia, kad nurodyti parametrai gali įtraukti papildomų operacijų arba operacijų įtraukti mažiau, arba kad operacijos skirtingai apibendrintos.
 
-Pinigų įnešimus į įmonės kasą galima atlikti bet kuriuo metu, aktyvioje pamainoje. Atlikus šią operaciją iš stalčiaus pašalinami pinigai, todėl juos galima perkelti į saugesnę vietą, pvz., į seifą galiniame kambaryje. Bendra į įmonės kasą įneštų pinigų suma vis tiek įtraukiama į bendrąsias pamainos sumas, bet gali būti neskaičiuojama mokėjimo priemonių deklaravimo dalis.
+Nors kiekvienas mažmenininkas taiko skirtingus verslo reikalavimus, kad išvengtumėte situacijų, kai pasitaiko tokio tipo skirtumų, savo sistemą rekomenduojame nustatyti taip, kaip nurodyta toliau.
 
-**Inkasavimas**
+Eikite į **Mažmeninė prekyba \> Kanalai \> Mažmeninės prekybos parduotuvės \> Visos mažmeninės prekybos parduotuvės \> Išrašas / baigimas** ir kiekvienos parduotuvės laukus **Išrašo metodas** bei **Baigimo metodas** nustatykite kaip **Pamaina**.
 
-Pinigų įnešimai į kasą, panašiai, kaip ir inkasavimas, taip pat atliekami aktyviose pamainose. Atlikus šią operaciją pinigai pašalinami iš pamainos, kad būtų pasiruošta banko indėliui.
+Tokia sąranka padeda užtikrinti, kad į tarnybinio biuro išrašus būtų įtrauktos tos pačios operacijos kaip EKA pamainos ir kad duomenys būtų apibendrinami pagal tą pamainą.
 
-**Uždaryti pamainą anonimiškai**
-
-Anonimiškai uždaryta pamaina – tai nebeaktyvi, bet dar visiškai neuždaryta pamaina. Anonimiškai uždarytų pamainų, kitaip nei sustabdytų, toliau pratęsti negalima, tačiau kai kurias procedūras, pvz., pradinių sumų ir mokėjimo priemonių deklaravimus, galima atlikti vėliau arba kitame kasos aparate.
-
-Anonimiškai uždarytos pamainos dažnai naudojamos kasos aparatui atlaisvinti, kad įtraukiant naują vartotoją arba pamainą prieš tai nereikėtų visiškai perskaičiuoti, derinti ir uždaryti pamainos. 
-
-**Uždaryti pamainą**
-
-Atlikus šią operaciją apskaičiuojamos bendrosios pamainos sumos, perviršio / trūkumo sumos ir galutinai užbaigiama aktyvi arba anonimiškai uždaryta pamaina. Uždarytų pamainų, negalima pratęsti ar modifikuoti.  
-
-**Valdyti pamainas**
-
-Ši operacija leidžia vartotojams peržiūrėti parduotuvės aktyvias, sustabdytas ir anonimiškai uždarytas pamainas. Priklausomai nuo pamainų teisių, vartotojai gali atlikti galutines uždarymo procedūras, pvz., mokėjimo priemonių deklaravimą, ir galutinai uždaryti anonimiškai uždarytas pamainas. Atlikdami šią operaciją vartotojai taip pat galės peržiūrėti ir panaikinti netinkamas pamainas, kai, retais atvejais, perjungiant iš autonominio režimo į internetinį režimą ir atvirkščiai, jos paliekamos prastos būsenos. Netinkamose pamainose nėra pateikiama finansinės informacijos ar operacijų duomenų, reikalingų derinimui atlikti. 
+Norėdami apie išrašų ir baigimo metodus gauti daugiau informacijos, žr. [„Retail” išrašo parduotuvės konfigūracijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
