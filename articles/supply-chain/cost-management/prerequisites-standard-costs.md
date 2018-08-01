@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Prieš nustatydami prekių registravimo taisykles, naudokite puslapį **Operacij
 
 **4. Nustatykite atsargų parametrus, kurie yra susiję su standartine savikaina.** 
 
--  Norėdami nustatyti du išlaidų valdymo parametrus, kurie yra susiję su standartinėmis savikainomis, naudokite puslapio **Atsargų parametrai** skirtuką **Komplektavimo specifikacija**. 
+-  Norėdami nustatyti du kaštų kontrolės parametrus, kurie yra susiję su standartiniais kaštais, naudokite puslapio **Atsargų apskaitos strategijų sąranka > Parametrai** skirtuką **Atsargų apskaita**.
 
     -  Lauke **Išlaidų paskirstymas** pasirinkite **Nėra** arba **Antrinė DK**. Jei pasirenkate **Antrinė DK**, išlaidų paskirstymas yra *aktyvus*. Aktyvus išlaidų paskirstymas yra svarbus skaičiavimui, išlaikymui ir išlaidų grupės segmentavimo peržiūrai visoje standartinių išlaidų komponentų kelių lygių produkto struktūroje. Kai išlaidų paskirstymas yra aktyvus, galite pateikti ir analizuoti atsargas, nebaigtą gamybą (NG) ir parduotų prekių išlaidas išlaidų grupei viename lygyje, keliuose lygiuose ar visame formate. Kai išlaidų paskirstymas yra aktyvus, suaktyvinus pagamintos prekės išlaidas, išlaidų grupių segmentavimas bus saugomas prekės išlaidų įraše. 
 

@@ -1,16 +1,16 @@
 ---
 title: "Biudžeto planavimas"
-description: "Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations'“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“"
-author: twheeloc
+description: "Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations'“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations'“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šioje laboratorijoje dėmesys sutelkiamas į šiuos verslo procesus ar užduotis: – Organizacijos hierarchijos kūrimas biudžeto planavimui ir vartotojo saugos konfigūravimui atlikti – Biudžeto planavimo scenarijų, biudžeto planavimo stulpelių, maketų ir „Excel“ šablonų apibrėžimas – Biudžeto planavimo proceso kūrimas ir aktyvinimas – Biudžeto plano dokumento kūrimas faktines sumas perkeliant iš didžiosios knygos – Paskirstymų naudojimas biudžeto plano dokumento duomenims koreguoti – Biudžeto plano dokumento duomenų redagavimas programoje „Excel“ 
+Šios laboratorijos tikslas yra pateikti valdomą „Microsoft Dynamics 365 for Finance and Operations'“ funkcijos naujinimų peržiūrą srityje Biudžeto planavimas. Šios laboratorijos tikslas yra iliustruoti greitą biudžeto planavimo modulio konfigūracijos pavyzdį ir pademonstruoti, kaip atlikti biudžeto planavimą naudojant šią konfigūraciją.  Šis laboratorinis darbas ypatingą dėmesį skirs tokiems verslo procesams ar užduotims:
+- Sukuriama organizacijos biudžeto planavimo hierarchija ir sukonfigūruojama vartotojo sauga
+- Apibrėžiami biudžeto plano scenarijai, biudžeto plano stulpeliai, išdėstymai ir „Excel“ šablonai
+- Sukuriamas ir suaktyvinamas biudžeto planavimo procesas
+- Sukuriamas biudžeto plano dokumentas paimant faktines sumas iš DK
+- Naudojami paskirstymai biudžeto plano dokumento duomenims koreguoti
+- Biudžeto plano dokumento duomenys redaguojami programoje „Excel“ 
 
 <a name="prerequisites"></a>Būtinieji komponentai 
 ------------------
@@ -104,8 +110,6 @@ Biudžeto planavimas naudoja specialias saugos strategijas, kad sukonfigūruotų
 2.5. Pasirinkite „Suteikti prieigą tik tam tikroms organizacijoms“. Pasirinkite organizacinę hierarchiją, sukurtą pirmuoju veiksmu. Pasirinkite finansų mazgą ir spustelėkite Suteikti su antriniais elementais 
 
 ***Svarbu!*** *– Įsitikinkite, kad jūs esate DEMF juridinio subjekto kontekste, kai atliekate šią užduotį, nes organizacijos sauga taikoma pagal juridinį subjektą* 
-
-[![Suteikti prieigą](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>3 užduotis: sukurkite scenarijus
 3.1. Pasirinkite Biudžeto sudarymas &gt; Sąranka &gt; Biudžeto planavimas &gt; Biudžeto planavimo konfigūracija. Puslapyje „Scenarijai“ atkreipkite dėmesį į scenarijus, kuriuos naudosime toliau šiame laboratoriniame darbe: ankstesnių metų faktinės ir planuojamos sumos. 

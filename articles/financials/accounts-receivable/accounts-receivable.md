@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 49d6cab206725bb994d367bb8401481e7591d5fa
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -43,29 +43,18 @@ Galite kurti klientų SF, grindžiamas pardavimo užsakymais arba važtaraščia
 
 Naudokite modulį Gautinos sumos, norėdami sekti klientų SF ir iš klientų gaunamus mokėjimus. Galite nustatyti klientų grupes, klientus, registravimo profilius, delspinigių pažymas, priminimo laiškus, komisinius ir parametrus, susijusius su klientais, išlaidomis, pristatymais ir kryptimis, įsakomaisiais vekseliais bei kitų tipų modulio Gautinos sumos informacija. 
 
-[Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row::: :::column::: - [Apskaitos paskirstymai ir papildomų knygų žurnalų įrašai, skirti laisvos formos sąskaitoms faktūroms](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Klientų registravimo šablonai](customer-posting-profiles.md)
+        - [Kredito kortelių nustatymas, autorizacija ir patvirtinimas](credit-card-authorizations.md)
+        - [Kliento sąskaitos faktūros kūrimas](configure-customer-invoices.md)
+        - [Pasikartojančių sąskaitų faktūrų nustatymas ir apdorojimas](set-up-process-recurring-invoices.md)
+        - [Laisvos formos sąskaitos faktūros taisymas](correct-free-text-invoice.md) :::column-end::: :::column::: - [Įsakomųjų vekselių nustatymas](set-up-bills-exchange.md)
+        - [Palūkanų tarifų nustatymas palūkanų kodui](set-up-interest-rates-interest-code.md)
+        - [Palūkanų mokesčių atsisakymas, grąžinimas arba atšaukimas](waive-reinstate-reverse-interest-fees.md)
+        - [SEPA tiesioginio debeto apžvalga](sepa-direct-debit-overview.md)
+        - [SEPA tiesioginio debeto įgaliojimo nustatymas](sepa-direct-debit-mandate.md)
+        - [Modulio Gautinos sumos uždarymas](close-accounts-receivable.md) :::column-end::: :::row-end:::
 
-[Kliento registravimo profiliai](customer-posting-profiles.md)
-
-[Kredito kortelių nustatymas, autorizacija ir patvirtinimas](credit-card-authorizations.md)
-
-[Kliento SF kūrimas](configure-customer-invoices.md)
-
-[Pasikartojančių SF nustatymas ir apdorojimas](set-up-process-recurring-invoices.md)
-
-[Laisvos formos SF taisymas](correct-free-text-invoice.md)
-
-[Įsakomųjų vekselių nustatymas](set-up-bills-exchange.md)
-
-[Palūkanų tarifų nustatymas palūkanų kodui](set-up-interest-rates-interest-code.md)
-
-[Palūkanų mokesčių atsisakymas, grąžinimas arba atšaukimas](waive-reinstate-reverse-interest-fees.md)
-
-[SEPA tiesioginio debeto apžvalga](sepa-direct-debit-overview.md)
-
-[SEPA tiesioginio debeto įgaliojimo nustatymas](sepa-direct-debit-mandate.md)
-
-[Modulio Gautinos sumos uždarymas](close-accounts-receivable.md)
 
 ## <a name="set-up-credit-and-collections"></a>Kredito ir surinkimo nustatymas
 
@@ -79,29 +68,22 @@ Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje – pu
 
 ## <a name="set-up-payments-and-settlements"></a>Mokėjimų ir sudengimų nustatymas
 
-Priimkite įvairių tipų klientų mokėjimus, pavyzdžiui, įsakomuosius vekselius, grynuosius pinigus, čekius, kredito korteles ir elektroninius mokėjimus. 
+Priimkite klientų įvairių tipų mokėjimus, pvz., įsakomuosius vekselius, grynuosius pinigus, čekius, kredito korteles ir elektroninius mokėjimus. 
 
-[Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row::: :::column::: - [Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Centralizuoti modulio Gautinos sumos mokėjimai](centralized-payments-accounts-receivable.md)
+        - [Dalinio kliento mokėjimo ir viso paskutinio mokėjimo sudengimas prieš nuolaidos datą](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [Dalinio kliento mokėjimo sudengimas prieš nuolaidos datą ir paskutinis mokėjimas po nuolaidos datos](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [Dalinio kliento mokėjimo, kuriam taikomos kredito pažymų nuolaidos, sudengimas](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Dalinio kliento mokėjimo su keliais nuolaidos laikotarpiais sudengimas](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [Kompensacija klientams](reimburse-customers.md)
+        - [Klientų dalinės sumos mokėjimai](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
 
-[Centralizuoti modulio Gautinos sumos mokėjimai](centralized-payments-accounts-receivable.md)
-
-[Dalinio kliento mokėjimo ir viso paskutinio mokėjimo sudengimas prieš nuolaidos datą](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-
-[Dalinio kliento mokėjimo sudengimas prieš nuolaidos datą ir paskutinis mokėjimas po nuolaidos datos](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-
-[Dalinio kliento mokėjimo, kuriam taikomos kredito pažymų nuolaidos, sudengimas](settle-partial-customer-payment-discounts-credit-notes.md)
-
-[Dalinio kliento mokėjimo su keliais nuolaidos laikotarpiais sudengimas](settle-partial-customer-payment-multiple-discount-periods.md)
-
-[Kompensacija klientams](reimburse-customers.md)
-
-[Klientų dalinės sumos mokėjimai](customer-payments-partial-amount.md)
 
 ### <a name="additional-resources"></a>Papildomi ištekliai
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365‟ plano](https://roadmap.dynamics.com/) svetainę. 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano](https://roadmap.dynamics.com/) svetainę. 
 
 #### <a name="blogs"></a>Tinklaraščiai
 

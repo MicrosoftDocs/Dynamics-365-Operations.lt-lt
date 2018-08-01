@@ -410,157 +410,12 @@
     - name: Finansų valdymas
       href: ../financials/index.md
       items:
-        - name: DK
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Sąskaitos
-              items:
-                - name: Kaupimų apžvalga
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Pašalinimo taisyklės
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Sąskaitų ir dimensijų deriniai
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Subalansuoti žurnalai susijusių vienetų apskaitai
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Registravimo aprašai
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Registravimo aprašų pavyzdžiai '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: DK sąskaitos balansai
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Finansinių dimensijų apibrėžimas
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Finansinių dimensijų numatytųjų šablonų tvarkymas
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Sąskaitų struktūrų kūrimas
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Kaupimo schemų kūrimas
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Pagrindinės sąskaitos tipai
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Pagrindinės sąskaitos kūrimas
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Sąskaitų plano rengimas
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Didžiųjų knygų operacijų sudengimas
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Didžiosios knygos pseudonimo nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Pagrindinės sąskaitos kategorijų nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Apskaitos šaltinių naršyklė
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Apskaitos paskirstymai
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Paskirstymų apdorojimas
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Finansinės dimensijos
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Apskaitos arba ataskaitų valiutos konvertavimas
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Konsolidavimo sąskaitų grupės ir sąskaitos
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolidavimo ir šalinimo apžvalga
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Finansiniai kalendoriai, finansiniai metai ir laikotarpiai'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Sukonfigūruoti sąskaitų struktūras
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Žurnalai ir didžiosios knygos
-              items:
-                - name: Bendrųjų žurnalų apdorojimas
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Periodinių žurnalų registravimas
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Didžiosios knygos paskirstymo žurnalo apdorojimas
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Vidinės įmonės apskaitos nustatymas
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: DK paskirstymo taisyklės
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Žurnalų išplėstinių taisyklių kūrimas
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Išplėstinių taisyklių struktūrų kūrimas ir priskyrimas
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: DK žurnalų tipai
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Žurnalų kūrimas ir tvirtinimas
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Žurnalų įrašų ar operacijų peržiūra
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Susijusio vidinės įmonės kvito iš žurnalo peržiūra
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Žurnalo įrašo kūrimas naudojant šabloną
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: DK kaupimo operacijų kūrimas
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Žurnalo eilučių ir dokumentų publikavimas iš „Excel‟
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Žurnalo įrašų ir operacijų peržiūra
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Registruotų žurnalo įrašų įtraukimas į žurnalą
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Valiutos kurso pasikeitimas konsoliduotoje įmonėje
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: DK užsienio valiutos kurso pasikeitimas
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valiutų kursų importavimas
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Laikotarpio pabaigos uždarymas
-              items:
-                - name: DK uždarymas laikotarpio pabaigoje
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Finansinio laikotarpio uždarymo darbo sritis
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Uždarymas metų pabaigoje
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Finansinių metų uždarymas
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Masinis finansinio laikotarpio uždarymas
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: PVM
-              items:
-                - name: PVM apžvalga
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: PVM mokėjimo ir apvalinimo taisyklės
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: PVM skaičiavimo metodai lauke Kilmė
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: PVM mokėjimo kūrimas
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: PVM operacijų kūrimas dokumentuose
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: PVM skirtų DK registravimo grupių nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: PVM institucijų nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: PVM kodų nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: PVM grupių ir prekių PVM grupių nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Nustatyti PVM ataskaitų kodus
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: PVM sudengimo laikotarpių nustatymas
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Nustatyti išskaitomą mokestį
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Registruotų PVM operacijų peržiūra
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Mokėtinos sumos
           href: ../financials/accounts-payable/accounts-payable.md
           items:
-            - name: Tiekėjo SF apžvalga
+            - name: Tiekėjų sąskaitų faktūrų apžvalga
               href: ../financials/accounts-payable/vendor-invoices-overview.md
-            - name: Mokėtinų sumų konfigūravimas
+            - name: Modulio Mokėtinos sumos konfigūravimas
               href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
                 - name: Pagrindiniai SF duomenys apie mokėtinas sumas naudojant tiekėjo SF
@@ -662,7 +517,11 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
-            - name: Laisvos formos SF taisymas
+            - name: Laisvos formos sąskaitos faktūros kūrimas
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Laisvos formos sąskaitos faktūros šablono kūrimas
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
+            - name: Laisvos formos sąskaitos faktūros taisymas
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Palūkanų tarifų nustatymas palūkanų kodui
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
@@ -678,19 +537,13 @@
               href: ../financials/accounts-receivable/close-accounts-receivable.md
             - name: Gautinų sumų užduotys
               items:
-                - name: Priskirti klientui laisvos formos SF šabloną
+                - name: Laisvos formos sąskaitos faktūros šablono priskyrimas klientui
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: Kurti priminimo laiškų seką
+                - name: Priminimo laiškų sekos kūrimas
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Kurti kliento tiesioginio debeto įgaliojimą
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Kurti laisvos formos SF
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Kurti laisvos formos SF šabloną
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
-                - name: Kurti palūkanų kodą su intervalu
+                - name: Palūkanų kodo su intervalu kūrimas
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: Kurti pardavimo užsakymų sąskaitas faktūras
+                - name: Pardavimo užsakymų sąskaitų faktūrų kūrimas
                   href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
                 - name: Kurti kliento nurašymo žurnalą
                   href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Klientų dalinės sumos mokėjimai
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Biudžeto sudarymas
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Biudžeto planavimo apžvalga '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Biudžeto kontrolės apžvalga '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Biudžetų sudarymo modulio apžvalga '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Pareigų prognozavimas
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Biudžeto planavimo pagrindimo dokumentai
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Biudžeto kūrimas iš operacijų sąskaitų ir bendrųjų sąskaitų
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: 'Biudžeto planavimo šablonai, skirti „Excel‟'
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Pareigų biudžeto trikčių diagnostika
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Biudžeto planavimas
+              href: ../financials/budgeting/budget-plan.md
+            - name: Biudžeto planavimo duomenų paskirstymas
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Biudžeto planavimo integravimas su kitais moduliais
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Grynųjų pinigų ir banko valdymas
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Banko žurnalo sudėtinio objekto naujinimas
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Kaštų apskaita
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Kaštų apskaitos terminija
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Finansiniai kalendoriai, finansiniai metai ir laikotarpiai'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Finansinės dimensijos
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Sąskaitų struktūros
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Sąskaitų struktūrų kūrimas
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: Biudžetų sudarymo modulio apžvalga
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Dimensijų kūrimas ir dimensijų narių importavimas
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Savikainos elemento dimensijos
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Išlaidų elementų kūrimas
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Savikainos objekto dimensijos
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Išlaidų objektų kūrimas
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Išlaidų elemento dimensijos susiejimas
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Dimensijų hierarchija
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Organizacijos ataskaitų hierarchijos kūrimas
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Savikainos objekto valdiklio prieigos teisės
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Išlaidų objekto valdiklio prieigos teisių konfigūravimas
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: savikainos kontrolės įtaisų apibrėžimas
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Savikainos apskaitos didžiosios knygos kūrimas
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Paskirstymo bazės
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Savikainos paskirstymo kūrimas ir priskyrimas savikainos kontrolės įtaisui
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Savikainos sumavimo strategijos kūrimas
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Savikainos apskaitos didžiosios knygos duomenų šaltinio valdymas
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Šaltinio duomenų apdorojimas ir sekimas
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Pridėtinių išlaidų skaičiavimas
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Savikainos kontrolės darbo srities konfigūravimas
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Savikainos kontrolės darbo srities parametrų konfigūravimas
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Supažindinimas su „Microsoft Power BI‟ prieigos sąrašo sauga ir RLS
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: „Finance and Operations‟ mobiliosios programos kaštų kontrolės darbo srities naudojimas
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Išlaidų valdymas
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Išlaidų valdymo planavimas
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Išlaidų valdymo parametrai
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Išlaidų valdymo mobilioji darbo sritis
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Išlaidų valdymo darbo eigų nustatymas
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Išlaidų valdymo darbo eiga
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Kredito kortelės operacijų importavimas ir tvarkymas
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Paskirstymai išlaidų ataskaitoje
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Vidinės įmonės išlaidos
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Išlaidų strategijos
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Peržiūrėti išlaidų ataskaitą
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Registruoti išlaidų ataskaitą
+              href: ../financials/expense-management/post-expense.md
+            - name: Išlaidų ataskaitos ir keli tvirtintojai
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: PVM susigrąžinimas išlaidų valdymo sistemoje
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Dienpinigių taisyklės
+              href: ../financials/expense-management/per-diem.md
+            - name: Kelionių paraiškos
+              href: ../financials/expense-management/travel-req.md
+            - name: Asmeninės išlaidos išlaidų ataskaitoje
+              href: ../financials/expense-management/personal-expenses.md
         - name: Ilgalaikis turtas
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Ilgalaikio turto perkėlimas
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Išlaidų valdymas
-          href: ../financials/expense-management/expense-management.md
+        - name: Didžioji knyga
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Išlaidų valdymo planavimas
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Išlaidų valdymo parametrai
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Išlaidų valdymo mobilioji darbo sritis
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Išlaidų valdymo darbo eigų nustatymas
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Išlaidų valdymo darbo eiga
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Kredito kortelės operacijų importavimas ir tvarkymas
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Paskirstymai išlaidų ataskaitoje
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Vidinės įmonės išlaidos
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Išlaidų strategijos
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Peržiūrėti išlaidų ataskaitą
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Registruoti išlaidų ataskaitą
-              href: ../financials/expense-management/post-expense.md
-            - name: Išlaidų ataskaitos ir keli tvirtintojai
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: PVM susigrąžinimas išlaidų valdymo sistemoje
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Dienpinigių taisyklės
-              href: ../financials/expense-management/per-diem.md
-            - name: Kelionių paraiškos
-              href: ../financials/expense-management/travel-req.md
-            - name: Asmeninės išlaidos išlaidų ataskaitoje
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Biudžeto sudarymas
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Biudžeto planavimo apžvalga '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Biudžeto kontrolės apžvalga '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Biudžetų sudarymo modulio apžvalga '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Pareigų prognozavimas
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Biudžeto planavimo pagrindimo dokumentai
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Biudžeto kūrimas iš operacijų sąskaitų ir bendrųjų sąskaitų
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: 'Biudžeto planavimo šablonai, skirti „Excel‟'
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Pareigų biudžeto trikčių diagnostika
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Biudžeto planavimas
-              href: ../financials/budgeting/budget-plan.md
-            - name: Biudžeto planavimo duomenų paskirstymas
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Biudžeto planavimo integravimas su kitais moduliais
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Ataskaitos
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Balanso finansinės ataskaitos
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Finansinės ataskaitos generavimas
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Pajamų išrašo finansinė ataskaita
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Bandomojo balanso finansinės ataskaitos
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Finansinių ataskaitų peržiūra
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Ataskaitų kūrimo įrankis
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kaštų apskaita
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Kaštų apskaitos terminija
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Finansiniai kalendoriai, finansiniai metai ir laikotarpiai'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Finansinės dimensijos
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Sąskaitų struktūros
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Sąskaitų struktūrų kūrimas
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Biudžetų sudarymo modulio apžvalga
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Dimensijų kūrimas ir dimensijų narių importavimas
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Savikainos elemento dimensijos
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Išlaidų elementų kūrimas
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Savikainos objekto dimensijos
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Išlaidų objektų kūrimas
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Išlaidų elemento dimensijos susiejimas
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Dimensijų hierarchija
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Organizacijos ataskaitų hierarchijos kūrimas
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Savikainos objekto valdiklio prieigos teisės
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Išlaidų objekto valdiklio prieigos teisių konfigūravimas
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: savikainos kontrolės įtaisų apibrėžimas
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Savikainos apskaitos didžiosios knygos kūrimas
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Paskirstymo bazės
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Savikainos paskirstymo kūrimas ir priskyrimas savikainos kontrolės įtaisui
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Savikainos sumavimo strategijos kūrimas
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Savikainos apskaitos didžiosios knygos duomenų šaltinio valdymas
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Šaltinio duomenų apdorojimas ir sekimas
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Pridėtinių išlaidų skaičiavimas
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Savikainos kontrolės darbo srities konfigūravimas
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Savikainos kontrolės darbo srities parametrų konfigūravimas
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Supažindinimas su „Microsoft Power BI‟ prieigos sąrašo sauga ir RLS
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: „Finance and Operations‟ mobiliosios programos savikainos kontrolės darbo srities naudojimas
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: Sąskaitos
+              items:
+                - name: Kaupimų apžvalga
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Pašalinimo taisyklės
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Sąskaitų ir dimensijų deriniai
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Subalansuoti žurnalai susijusių vienetų apskaitai
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Registravimo aprašai
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Registravimo aprašų pavyzdžiai '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: DK sąskaitos balansai
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Finansinių dimensijų apibrėžimas
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Finansinių dimensijų numatytųjų šablonų tvarkymas
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Sąskaitų struktūrų kūrimas
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Kaupimo schemų kūrimas
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Pagrindinės sąskaitos tipai
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Pagrindinės sąskaitos kūrimas
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Sąskaitų plano rengimas
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Didžiųjų knygų operacijų sudengimas
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Didžiosios knygos pseudonimo nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Pagrindinės sąskaitos kategorijų nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Apskaitos šaltinių naršyklė
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Apskaitos paskirstymai
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Paskirstymų apdorojimas
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Finansinės dimensijos
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Apskaitos arba ataskaitų valiutos konvertavimas
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolidavimo sąskaitų grupės ir sąskaitos
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolidavimo ir šalinimo apžvalga
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Finansiniai kalendoriai, finansiniai metai ir laikotarpiai'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Sukonfigūruoti sąskaitų struktūras
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Žurnalai ir didžiosios knygos
+              items:
+                - name: Bendrųjų žurnalų apdorojimas
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Periodinių žurnalų registravimas
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Didžiosios knygos paskirstymo žurnalo apdorojimas
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Vidinės įmonės apskaitos nustatymas
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: DK paskirstymo taisyklės
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Žurnalų išplėstinių taisyklių kūrimas
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Išplėstinių taisyklių struktūrų kūrimas ir priskyrimas
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: DK žurnalų tipai
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Žurnalų kūrimas ir tvirtinimas
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Žurnalų įrašų ar operacijų peržiūra
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Susijusio vidinės įmonės kvito iš žurnalo peržiūra
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Žurnalo įrašo kūrimas naudojant šabloną
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: DK kaupimo operacijų kūrimas
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Žurnalo eilučių ir dokumentų publikavimas iš „Excel‟
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Žurnalo įrašų ir operacijų peržiūra
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Registruotų žurnalo įrašų įtraukimas į žurnalą
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valiutos kurso pasikeitimas konsoliduotoje įmonėje
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: DK užsienio valiutos kurso pasikeitimas
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valiutų kursų importavimas
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Laikotarpio pabaigos uždarymas
+              items:
+                - name: DK uždarymas laikotarpio pabaigoje
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Finansinio laikotarpio uždarymo darbo sritis
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Uždarymas metų pabaigoje
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Finansinių metų uždarymas
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Masinis finansinio laikotarpio uždarymas
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: PVM
+              items:
+                - name: PVM apžvalga
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: PVM mokėjimo ir apvalinimo taisyklės
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: PVM skaičiavimo metodai lauke Kilmė
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: PVM mokėjimo kūrimas
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: PVM operacijų kūrimas dokumentuose
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: PVM skirtų DK registravimo grupių nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: PVM institucijų nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: PVM kodų nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: PVM grupių ir prekių PVM grupių nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Nustatyti PVM ataskaitų kodus
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: PVM sudengimo laikotarpių nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Išskaitomo mokesčio nustatymas
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Registruotų PVM operacijų peržiūra
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Viešasis sektorius
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Viešojo sektoriaus pirkimo sutarčių klasifikacijų nustatymas
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Finansinės ataskaitos
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Finansinės ataskaitos generavimas
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Finansinių ataskaitų komponentai
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Ataskaitų kūrimo įrankis
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Vartotojo nuostatos
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Išplėstinės formatavimo parinktys
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Ataskaitų komponentų tvarkymas
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Ataskaitų aprašai
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Eilučių apibrėžtys
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Stulpelių apibrėžtys
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Eilučių apibrėžčių langelių modifikavimas
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Pakartotinis finansinių ataskaitų duomenų nustatymas atkūrus duomenų bazę
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Finansinės ataskaitos
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Finansinių ataskaitų apžvalga
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Finansinių ataskaitų komponentai
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Balanso finansinės ataskaitos
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Finansinės ataskaitos generavimas
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Pajamų išrašo finansinė ataskaita
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Bandomojo balanso finansinės ataskaitos
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Finansinių ataskaitų peržiūra
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Ataskaitų kūrimo įrankis
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Vartotojo nuostatos
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Išplėstinės formatavimo parinktys
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Ataskaitų komponentų tvarkymas
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Ataskaitų aprašai
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Eilučių apibrėžtys
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Stulpelių apibrėžtys
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Eilučių apibrėžčių langelių modifikavimas
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Pakartotinis finansinių ataskaitų duomenų nustatymas atkūrus duomenų bazę
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Lokalizavimo ir reguliavimo priemonės​
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: Uždarymas metų pabaigoje
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Danija
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Mokėjimo kvito formato priskyrimas kliento sąskaitai
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: PVM išrašas
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Prancūzija
+              href: ../financials/localizations/france.md
               items:
                 - name: Viešasis sektorius
                   items:
@@ -1767,6 +1762,7 @@
                 - name: Elektroninės mokesčių deklaracijos nustatymas
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Vengrija
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Valiutos kurso skaičiavimas
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: Uždarymas metų pabaigoje
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Islandija
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Tiekėjo sąskaitos kūrimas ir sąskaitų faktūrų deklaracijos kategorijos pridėjimas
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: Atnaujinti tiekėjų SF deklaracijas ir generuoti ataskaitą
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Italija
+              href: ../financials/localizations/italy.md
               items:
                 - name: PVM išrašų informacija
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: Išskaitomas mokestis
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Latvija
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Ilgalaikio turto apskaita
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: PVM išrašo informacija
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Lietuva
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Ilgalaikio turto remonto ataskaita
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: PVM išrašo informacija
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Nyderlandai
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Elektroninės mokesčių deklaracijos (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: „Semansys XBRL“ integravimas
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Norvegija
+              href: ../financials/localizations/norway.md
               items:
                 - name: Kliento ir tiekėjo mokėjimo formatai
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: Visuotinio kasos aparatų diegimo gairės
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Lenkija
+              href: ../financials/localizations/poland.md
               items:
                 - name: Eilučių nuolaidų skaičiavimas pagal vieneto kainą
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: Apyvartos balansų išrašas
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Ispanija
+              href: ../financials/localizations/spain.md
               items:
                 - name: Mokėjimo nuolaidų taikymas sąskaitoje faktūroje
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: Specialūs įrašai ir atidarymo žiniaraščiai
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Švedija
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Finansinės informacijos eksportavimas auditoriams (Švedija)
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: Kasos aparatai
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Šveicarija
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Kliento mokėjimų importavimas ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Jungtinė Karalystė
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Statybos pramonės schema '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: „Dynamics 365 for Retail‟
   href: ../retail/toc.yml
-- name: „Dynamics 365 for Talent‟
-  href: ../talent/toc.yml

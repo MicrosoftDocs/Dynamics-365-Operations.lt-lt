@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,9 +54,13 @@ Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pak
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
+### <a name="whats-new"></a>Kas nauja
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/) svetainę. 
+Norėdami pamatyti, kokių išleista naujų funkcijų, eikite į sritį [Leidimo pastabos](https://docs.microsoft.com/en-us/business-applications-release-notes/). 
+
+### <a name="videos"></a>Vaizdo įrašai
+
+Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Tinklaraščiai
 
@@ -66,11 +70,8 @@ Daug įrašų apie modulį Didžioji knyga galima rasti [„Microsoft Dynamics A
 
 [„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 
-### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+#### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
 
-### <a name="videos"></a>Vaizdo įrašai
-
-Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+- [Ką turėtumėte žinoti apie didžiąją knygą sistemoje „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
