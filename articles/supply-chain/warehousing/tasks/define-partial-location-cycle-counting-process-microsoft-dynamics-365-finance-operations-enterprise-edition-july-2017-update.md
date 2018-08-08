@@ -1,7 +1,7 @@
 --- 
 title: "Nustatyti dalinį vietos ciklų skaičiavimo procesą "
 description: "Kai naudojate ciklo skaičiavimo planus skaičiavimo darbui sukurti, galite nukreipti faktines skaičiavimo operacijas, nurodydami, kad būtų skaičiuojami tik konkretūs produktai ir produkto variantai vietoj visų turimų atsargų vietoje inventorizavimo."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: da8b6c4ec7643ffd84713b4098b4ff35ab95a6b4
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="665f1-103">Nustatyti dalinį vietos ciklų skaičiavimo procesą </span><span class="sxs-lookup"><span data-stu-id="665f1-103">Define partial location cycle counting process</span></span> 
