@@ -1,7 +1,7 @@
 ---
 title: "Pardavimo ir pelningumo našumo „Power BI“ turinys"
 description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Pardavimo ir pelningumo našumas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
