@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Įdarbinimas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**. 
+„Power BI“ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Ataskaitos ir vaizdiniai elementai darbo srityje Įdarbinimo valdymas
 Darbo srityje **Įdarbinimo valdymas** yra skirtukas **Analizė**. Šiame skirtuke pateikiamas įdėtasis „Power BI“ įdarbinimo turinys. Turinį sudaro apžvalgos skirtukas ir papildomi skirtukai su išsamia informacija. Tolesnėje lentelėje aprašomos kiekvieno skirtuko ataskaitos.
@@ -66,6 +66,4 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power
 | Našumas          | Įvertinimas, aprašas ir įvertinimo modelis                            | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Įdarbinimo projektas  | Projekto aprašas, projekto būsena ir laisvos vietos                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Atleistas pretendentas | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė |
-
-
 

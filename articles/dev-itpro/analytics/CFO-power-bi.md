@@ -29,7 +29,6 @@ ms.lasthandoff: 02/23/2018
 
 Šioje temoje aprašomas „Microsoft Power BI‟ turinys **CFO apžvalga**. Šis „Power BI“ turinys taikomas tiems, kurie naudoja „Microsoft Dynamics 365 for Finance and Operations“ 7.2 versiją. Jei naudojate 7.3 arba naujesnę versiją, žr. [Finansines įžvalgas](financial-insights.md).
 
-
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
 „Power BI“ turinio **CFO apžvalga** ataskaitos rodomos darbo srityje **CFO apžvalga**.
@@ -39,13 +38,11 @@ ms.lasthandoff: 02/23/2018
 
 Toliau pateikiamoje lentelėje parodomas „Power BI‟ turinys, iš kurio nukopijuotos ataskaitos ir ataskaitos, kurios pateikiamos darbo srityje **CFO apžvalga**. Pateikiamos nuorodos į įvairaus „Power BI‟ turinio dokumentus.
 
-| „Power BI‟ turinys, kuris įtrauktas     | Ataskaitos |
-|---------------------------------------|---------|
+| „Power BI‟ turinys, kuris įtrauktas | Ataskaitos |
+|-----------------------------------|---------|
 | [Finansinės veiklos rezultatai](financial-performance-power-bi-content-pack.md) | <ul><li>Įplaukos</li><li>Išlaidos</li><li>Grynosios pajamos</li><li>Bruto marža</li><li>Dabartinis koeficientas</li><li>Iš viso mokėtinų sumų</li><li>Iš viso gautinų sumų</li><li>Išlaidos pagal sąskaitos kategoriją</li><li>Išlaidos - faktinės ir biudžeto</li><li>Įplaukos - faktinės ir biudžeto</li></ul> |
 | [Grynųjų pinigų apžvalga](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li>Pinigų srautų prognozė</li><li>Banko sąskaitos balansas</li><li>Balansas pagal valiutą</li></ul> |
 | [Pardavimai ir pelningumas](sales-profitability-performance-content-pack.md) | <ul><li>Įplaukos pagal regioną</li><li>10 svarbiausių klientų pagal įplaukas</li><li>10 svarbiausių produktų pagal įplaukas</li></ul> |
 | [Kredito ir mokėjimų priežiūros valdymas](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Klientas, kurio terminas praėjęs</li><li>Klientai, viršijantys kredito limitą</li><li>Suskirstyti pagal terminus balansai</li></ul> |
 | [Pirkimo ir išlaidų analizė](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Pirkimai pagal mėnesį / dieną</li><li>Svarbiausi 10 tiekėjų pagal pirkimus</li><li>Svarbiausi 10 produktų pagal pirkimą</li></ul> |
-
-
 

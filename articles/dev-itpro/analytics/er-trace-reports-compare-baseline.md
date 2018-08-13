@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Galite sekti ER formatų, kuriais generuojami siunčiami elektroniniai dokumentai, rezultatus. Kai įjungtas sekimo generavimas (ER vartotojo parametras **Vykdyti derinimo režimu**), naujas sekimo įrašas ER formato vykdymo žurnale sugeneruojamas kiekvieną kartą, kai paleidžiama ER ataskaita. Ši išsami informacija saugoma kiekviename sugeneruojamame sekime:
 
 - Visi įspėjimai, sugeneruoti naudojant tikrinimo taisykles
-- Visos klaidos, sugeneruotos naudojant tikrinimo taisykles 
+- Visos klaidos, sugeneruotos naudojant tikrinimo taisykles
 - Visi sugeneruoti failai, saugomi kaip sekimo įrašo priedai
 
 Galite išsaugoti bet kurio ER formato individualius bazinius programos failus. Failai laikomi baziniais failais, kai jie aprašo numatytus vykdomų ataskaitų rezultatus. Jei yra ER formato bazinis failas, paleistas įjungus sekimo generavimą, sekimo informacija saugo kartu su išsamia informacija, kuri buvo paminėta anksčiau, sugeneruoto elektroninio dokumento palyginimo su baziniu failu rezultatą. Vienu spustelėjimu galite gauti ir sugeneruotą elektroninį dokumentą, ir jo bazinį failą viename suglaudintame faile. Tada galite atlikti išsamų palyginimą naudodami išorinį įrankį, pvz., „Windiff“.
