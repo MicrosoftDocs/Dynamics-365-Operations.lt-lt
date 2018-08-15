@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="87982-105">Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Įdarbinimas**.</span><span class="sxs-lookup"><span data-stu-id="87982-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="87982-106">Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.</span><span class="sxs-lookup"><span data-stu-id="87982-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="87982-107">Prieiga prie „Power BI“ turinio</span><span class="sxs-lookup"><span data-stu-id="87982-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="87982-108">„Power BI“ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**.</span><span class="sxs-lookup"><span data-stu-id="87982-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="87982-108">„Power BI“ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**.</span><span class="sxs-lookup"><span data-stu-id="87982-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="87982-109">Ataskaitos ir vaizdiniai elementai darbo srityje Įdarbinimo valdymas</span><span class="sxs-lookup"><span data-stu-id="87982-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="87982-110">Darbo srityje **Įdarbinimo valdymas** yra skirtukas **Analizė**. Šiame skirtuke pateikiamas įdėtasis „Power BI“ įdarbinimo turinys.</span><span class="sxs-lookup"><span data-stu-id="87982-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="87982-111">Turinį sudaro apžvalgos skirtukas ir papildomi skirtukai su išsamia informacija.</span><span class="sxs-lookup"><span data-stu-id="87982-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="87982-112">Tolesnėje lentelėje aprašomos kiekvieno skirtuko ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="87982-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="87982-163">Našumas</span><span class="sxs-lookup"><span data-stu-id="87982-163">Performance</span></span>          | <span data-ttu-id="87982-164">Įvertinimas, aprašas ir įvertinimo modelis</span><span class="sxs-lookup"><span data-stu-id="87982-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="87982-165">Pretendentas, dirbantis pretendentas, atleistas pretendentas</span><span class="sxs-lookup"><span data-stu-id="87982-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="87982-166">Įdarbinimo projektas</span><span class="sxs-lookup"><span data-stu-id="87982-166">Recruitment Project</span></span>  | <span data-ttu-id="87982-167">Projekto aprašas, projekto būsena ir laisvos vietos</span><span class="sxs-lookup"><span data-stu-id="87982-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="87982-168">Pretendentas, dirbantis pretendentas, atleistas pretendentas</span><span class="sxs-lookup"><span data-stu-id="87982-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="87982-169">Atleistas pretendentas</span><span class="sxs-lookup"><span data-stu-id="87982-169">Terminated Applicant</span></span> | <span data-ttu-id="87982-170">Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data</span><span class="sxs-lookup"><span data-stu-id="87982-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="87982-171">Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė</span><span class="sxs-lookup"><span data-stu-id="87982-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 
