@@ -1,5 +1,5 @@
 --- 
-title: "Duomenų modelio, kurį taikant finansines dimensijas galima naudoti kaip duomenų šaltinį, kūrimas"
+title: "Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas"
 description: "Šie veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį."
 author: NickSelin
 manager: AnnBe
@@ -16,94 +16,94 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8b951546cb0cc0d0415f48c49e8b53c5f4720f9e
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a><span data-ttu-id="b108e-103">Duomenų modelio, kurį taikant finansines dimensijas galima naudoti kaip duomenų šaltinį, kūrimas</span><span class="sxs-lookup"><span data-stu-id="b108e-103">Design data model to use financial dimensions as a data source</span></span> 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a><span data-ttu-id="09202-103">Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas</span><span class="sxs-lookup"><span data-stu-id="09202-103">Design data models to use financial dimensions as data sources</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b108e-104">Šie veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį.</span><span class="sxs-lookup"><span data-stu-id="b108e-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="b108e-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="b108e-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="09202-104">Šie veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį.</span><span class="sxs-lookup"><span data-stu-id="09202-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="09202-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="09202-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="b108e-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“.</span><span class="sxs-lookup"><span data-stu-id="b108e-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
+<span data-ttu-id="09202-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“.</span><span class="sxs-lookup"><span data-stu-id="09202-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
 
 
-## <a name="create-a-new-data-model"></a><span data-ttu-id="b108e-107">Naujo duomenų modelio kūrimas</span><span class="sxs-lookup"><span data-stu-id="b108e-107">Create a new data model</span></span>
-1. <span data-ttu-id="b108e-108">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="b108e-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="b108e-109">Įsitikinkite, kad teikėjas „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="b108e-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="b108e-110">yra pasiekiamas ir pažymėtas kaip aktyvus.</span><span class="sxs-lookup"><span data-stu-id="b108e-110">provider is available and marked as active.</span></span>  
-2. <span data-ttu-id="b108e-111">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="b108e-111">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="b108e-112">Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-112">Click Create configuration to open the drop dialog.</span></span>
-4. <span data-ttu-id="b108e-113">Lauke Pavadinimas įveskite Finansinių dimensijų modelio pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="b108e-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
-5. <span data-ttu-id="b108e-114">Spustelėkite Sukurti konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="b108e-114">Click Create configuration.</span></span>
-6. <span data-ttu-id="b108e-115">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="b108e-115">Click Designer.</span></span>
-7. <span data-ttu-id="b108e-116">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-116">Click New to open the drop dialog.</span></span>
-8. <span data-ttu-id="b108e-117">Lauke Pavadinimas įveskite Įrašas.</span><span class="sxs-lookup"><span data-stu-id="b108e-117">In the Name field, type 'Entry'.</span></span>
-9. <span data-ttu-id="b108e-118">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-118">Click Add.</span></span>
-10. <span data-ttu-id="b108e-119">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-119">Click New to open the drop dialog.</span></span>
-11. <span data-ttu-id="b108e-120">Lauke „Pavadinimas“ įveskite „Įmonė“.</span><span class="sxs-lookup"><span data-stu-id="b108e-120">In the Name field, type 'Company'.</span></span>
-12. <span data-ttu-id="b108e-121">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-121">Click Add.</span></span>
-    * <span data-ttu-id="b108e-122">Įtrauksime mūsų modelį į naują įrašų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="b108e-122">We will add to our model a new record list.</span></span> <span data-ttu-id="b108e-123">Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų parametrai.</span><span class="sxs-lookup"><span data-stu-id="b108e-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="b108e-124">Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos parametrą.</span><span class="sxs-lookup"><span data-stu-id="b108e-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
-13. <span data-ttu-id="b108e-125">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-125">Click New to open the drop dialog.</span></span>
-14. <span data-ttu-id="b108e-126">Lauke Pavadinimas įveskite Dimensijos parametras.</span><span class="sxs-lookup"><span data-stu-id="b108e-126">In the Name field, type 'Dimensions setting'.</span></span>
-15. <span data-ttu-id="b108e-127">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-127">In the Item type field, select 'Record list'.</span></span>
-16. <span data-ttu-id="b108e-128">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-128">Click Add.</span></span>
-17. <span data-ttu-id="b108e-129">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-129">Click New to open the drop dialog.</span></span>
-18. <span data-ttu-id="b108e-130">Lauke Pavadinimas įveskite Kodas.</span><span class="sxs-lookup"><span data-stu-id="b108e-130">In the Name field, type 'Code'.</span></span>
-19. <span data-ttu-id="b108e-131">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="b108e-131">In the Item type field, select 'String'.</span></span>
-20. <span data-ttu-id="b108e-132">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-132">Click Add.</span></span>
-21. <span data-ttu-id="b108e-133">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-133">Click New to open the drop dialog.</span></span>
-22. <span data-ttu-id="b108e-134">Lauke „Pavadinimas“ įveskite „Agentas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-134">In the Name field, type 'Name'.</span></span>
-23. <span data-ttu-id="b108e-135">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-135">Click Add.</span></span>
-24. <span data-ttu-id="b108e-136">Medyje pasirinkite Įrašas.</span><span class="sxs-lookup"><span data-stu-id="b108e-136">In the tree, select 'Entry'.</span></span>
-25. <span data-ttu-id="b108e-137">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-137">Click New to open the drop dialog.</span></span>
-26. <span data-ttu-id="b108e-138">Lauke Pavadinimas įveskite Žurnalas.</span><span class="sxs-lookup"><span data-stu-id="b108e-138">In the Name field, type 'Journal'.</span></span>
-27. <span data-ttu-id="b108e-139">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-139">In the Item type field, select 'Record list'.</span></span>
-28. <span data-ttu-id="b108e-140">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-140">Click Add.</span></span>
-29. <span data-ttu-id="b108e-141">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-141">Click New to open the drop dialog.</span></span>
-30. <span data-ttu-id="b108e-142">Lauke Pavadinimas įveskite Paketas.</span><span class="sxs-lookup"><span data-stu-id="b108e-142">In the Name field, type 'Batch'.</span></span>
-31. <span data-ttu-id="b108e-143">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="b108e-143">In the Item type field, select 'String'.</span></span>
-32. <span data-ttu-id="b108e-144">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-144">Click Add.</span></span>
-33. <span data-ttu-id="b108e-145">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-145">Click New to open the drop dialog.</span></span>
-34. <span data-ttu-id="b108e-146">Lauke Pavadinimas įveskite Operacija.</span><span class="sxs-lookup"><span data-stu-id="b108e-146">In the Name field, type 'Transaction'.</span></span>
-35. <span data-ttu-id="b108e-147">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-147">In the Item type field, select 'Record list'.</span></span>
-36. <span data-ttu-id="b108e-148">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-148">Click Add.</span></span>
-37. <span data-ttu-id="b108e-149">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-149">Click New to open the drop dialog.</span></span>
-38. <span data-ttu-id="b108e-150">Lauke Pavadinimas įveskite Data.</span><span class="sxs-lookup"><span data-stu-id="b108e-150">In the Name field, type 'Date'.</span></span>
-39. <span data-ttu-id="b108e-151">Lauke „Prekės tipas“ pasirinkite „Data“.</span><span class="sxs-lookup"><span data-stu-id="b108e-151">In the Item type field, select 'Date'.</span></span>
-40. <span data-ttu-id="b108e-152">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-152">Click Add.</span></span>
-41. <span data-ttu-id="b108e-153">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-153">Click New to open the drop dialog.</span></span>
-42. <span data-ttu-id="b108e-154">Lauke Pavadinimas įveskite Debetas.</span><span class="sxs-lookup"><span data-stu-id="b108e-154">In the Name field, type 'Debit'.</span></span>
-43. <span data-ttu-id="b108e-155">Lauke „Prekės tipas“ pasirinkite „Realusis skaičius“.</span><span class="sxs-lookup"><span data-stu-id="b108e-155">In the Item type field, select 'Real'.</span></span>
-44. <span data-ttu-id="b108e-156">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-156">Click Add.</span></span>
-45. <span data-ttu-id="b108e-157">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-157">Click New to open the drop dialog.</span></span>
-46. <span data-ttu-id="b108e-158">Lauke Pavadinimas įveskite Kreditas.</span><span class="sxs-lookup"><span data-stu-id="b108e-158">In the Name field, type 'Credit'.</span></span>
-47. <span data-ttu-id="b108e-159">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-159">Click Add.</span></span>
-48. <span data-ttu-id="b108e-160">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-160">Click New to open the drop dialog.</span></span>
-49. <span data-ttu-id="b108e-161">Lauke „Pavadinimas“ suveskite „Valiuta“.</span><span class="sxs-lookup"><span data-stu-id="b108e-161">In the Name field, type 'Currency'.</span></span>
-50. <span data-ttu-id="b108e-162">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="b108e-162">In the Item type field, select 'String'.</span></span>
-51. <span data-ttu-id="b108e-163">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-163">Click Add.</span></span>
-52. <span data-ttu-id="b108e-164">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-164">Click New to open the drop dialog.</span></span>
-53. <span data-ttu-id="b108e-165">Lauke Pavadinimas įveskite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="b108e-165">In the Name field, type 'Voucher'.</span></span>
-54. <span data-ttu-id="b108e-166">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-166">Click Add.</span></span>
-55. <span data-ttu-id="b108e-167">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-167">Click New to open the drop dialog.</span></span>
-56. <span data-ttu-id="b108e-168">Lauke Pavadinimas įveskite Dimensijų duomenys.</span><span class="sxs-lookup"><span data-stu-id="b108e-168">In the Name field, type 'Dimensions data'.</span></span>
-57. <span data-ttu-id="b108e-169">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-169">In the Item type field, select 'Record list'.</span></span>
-58. <span data-ttu-id="b108e-170">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-170">Click Add.</span></span>
-    * <span data-ttu-id="b108e-171">Įtraukėme mūsų modelį į naują įrašų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="b108e-171">We added to our model a new record list.</span></span> <span data-ttu-id="b108e-172">Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų reikšmės.</span><span class="sxs-lookup"><span data-stu-id="b108e-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="b108e-173">Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos reikšmes.</span><span class="sxs-lookup"><span data-stu-id="b108e-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="b108e-174">Dimensijos pavadinimas taip pat bus pateiktas šiame įraše yra laukas, kurį, jei reikia, galima naudoti norint pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="b108e-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
-59. <span data-ttu-id="b108e-175">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-175">Click New to open the drop dialog.</span></span>
-60. <span data-ttu-id="b108e-176">Lauke Pavadinimas įveskite Kodas.</span><span class="sxs-lookup"><span data-stu-id="b108e-176">In the Name field, type 'Code'.</span></span>
-61. <span data-ttu-id="b108e-177">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="b108e-177">In the Item type field, select 'String'.</span></span>
-62. <span data-ttu-id="b108e-178">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-178">Click Add.</span></span>
-63. <span data-ttu-id="b108e-179">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-179">Click New to open the drop dialog.</span></span>
-64. <span data-ttu-id="b108e-180">Lauke „Pavadinimas“, įveskite „Aprašas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-180">In the Name field, type 'Description'.</span></span>
-65. <span data-ttu-id="b108e-181">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-181">Click Add.</span></span>
-66. <span data-ttu-id="b108e-182">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="b108e-182">Click New to open the drop dialog.</span></span>
-67. <span data-ttu-id="b108e-183">Lauke „Pavadinimas“ įveskite „Agentas“.</span><span class="sxs-lookup"><span data-stu-id="b108e-183">In the Name field, type 'Name'.</span></span>
-68. <span data-ttu-id="b108e-184">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="b108e-184">Click Add.</span></span>
-69. <span data-ttu-id="b108e-185">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="b108e-185">Click Save.</span></span>
-70. <span data-ttu-id="b108e-186">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="b108e-186">Close the page.</span></span>
+## <a name="create-a-new-data-model"></a><span data-ttu-id="09202-107">Naujo duomenų modelio kūrimas</span><span class="sxs-lookup"><span data-stu-id="09202-107">Create a new data model</span></span>
+1. <span data-ttu-id="09202-108">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="09202-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="09202-109">Įsitikinkite, kad teikėjas „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="09202-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="09202-110">yra pasiekiamas ir pažymėtas kaip aktyvus.</span><span class="sxs-lookup"><span data-stu-id="09202-110">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="09202-111">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="09202-111">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="09202-112">Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-112">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="09202-113">Lauke Pavadinimas įveskite Finansinių dimensijų modelio pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="09202-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
+5. <span data-ttu-id="09202-114">Spustelėkite Sukurti konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="09202-114">Click Create configuration.</span></span>
+6. <span data-ttu-id="09202-115">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="09202-115">Click Designer.</span></span>
+7. <span data-ttu-id="09202-116">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-116">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="09202-117">Lauke Pavadinimas įveskite Įrašas.</span><span class="sxs-lookup"><span data-stu-id="09202-117">In the Name field, type 'Entry'.</span></span>
+9. <span data-ttu-id="09202-118">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-118">Click Add.</span></span>
+10. <span data-ttu-id="09202-119">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-119">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="09202-120">Lauke „Pavadinimas“ įveskite „Įmonė“.</span><span class="sxs-lookup"><span data-stu-id="09202-120">In the Name field, type 'Company'.</span></span>
+12. <span data-ttu-id="09202-121">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-121">Click Add.</span></span>
+    * <span data-ttu-id="09202-122">Įtrauksime mūsų modelį į naują įrašų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="09202-122">We will add to our model a new record list.</span></span> <span data-ttu-id="09202-123">Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų parametrai.</span><span class="sxs-lookup"><span data-stu-id="09202-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="09202-124">Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos parametrą.</span><span class="sxs-lookup"><span data-stu-id="09202-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
+13. <span data-ttu-id="09202-125">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-125">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="09202-126">Lauke Pavadinimas įveskite Dimensijos parametras.</span><span class="sxs-lookup"><span data-stu-id="09202-126">In the Name field, type 'Dimensions setting'.</span></span>
+15. <span data-ttu-id="09202-127">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="09202-127">In the Item type field, select 'Record list'.</span></span>
+16. <span data-ttu-id="09202-128">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-128">Click Add.</span></span>
+17. <span data-ttu-id="09202-129">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-129">Click New to open the drop dialog.</span></span>
+18. <span data-ttu-id="09202-130">Lauke Pavadinimas įveskite Kodas.</span><span class="sxs-lookup"><span data-stu-id="09202-130">In the Name field, type 'Code'.</span></span>
+19. <span data-ttu-id="09202-131">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="09202-131">In the Item type field, select 'String'.</span></span>
+20. <span data-ttu-id="09202-132">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-132">Click Add.</span></span>
+21. <span data-ttu-id="09202-133">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-133">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="09202-134">Lauke „Pavadinimas“ įveskite „Agentas“.</span><span class="sxs-lookup"><span data-stu-id="09202-134">In the Name field, type 'Name'.</span></span>
+23. <span data-ttu-id="09202-135">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-135">Click Add.</span></span>
+24. <span data-ttu-id="09202-136">Medyje pasirinkite Įrašas.</span><span class="sxs-lookup"><span data-stu-id="09202-136">In the tree, select 'Entry'.</span></span>
+25. <span data-ttu-id="09202-137">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-137">Click New to open the drop dialog.</span></span>
+26. <span data-ttu-id="09202-138">Lauke Pavadinimas įveskite Žurnalas.</span><span class="sxs-lookup"><span data-stu-id="09202-138">In the Name field, type 'Journal'.</span></span>
+27. <span data-ttu-id="09202-139">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="09202-139">In the Item type field, select 'Record list'.</span></span>
+28. <span data-ttu-id="09202-140">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-140">Click Add.</span></span>
+29. <span data-ttu-id="09202-141">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-141">Click New to open the drop dialog.</span></span>
+30. <span data-ttu-id="09202-142">Lauke Pavadinimas įveskite Paketas.</span><span class="sxs-lookup"><span data-stu-id="09202-142">In the Name field, type 'Batch'.</span></span>
+31. <span data-ttu-id="09202-143">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="09202-143">In the Item type field, select 'String'.</span></span>
+32. <span data-ttu-id="09202-144">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-144">Click Add.</span></span>
+33. <span data-ttu-id="09202-145">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-145">Click New to open the drop dialog.</span></span>
+34. <span data-ttu-id="09202-146">Lauke Pavadinimas įveskite Operacija.</span><span class="sxs-lookup"><span data-stu-id="09202-146">In the Name field, type 'Transaction'.</span></span>
+35. <span data-ttu-id="09202-147">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="09202-147">In the Item type field, select 'Record list'.</span></span>
+36. <span data-ttu-id="09202-148">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-148">Click Add.</span></span>
+37. <span data-ttu-id="09202-149">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-149">Click New to open the drop dialog.</span></span>
+38. <span data-ttu-id="09202-150">Lauke Pavadinimas įveskite Data.</span><span class="sxs-lookup"><span data-stu-id="09202-150">In the Name field, type 'Date'.</span></span>
+39. <span data-ttu-id="09202-151">Lauke „Prekės tipas“ pasirinkite „Data“.</span><span class="sxs-lookup"><span data-stu-id="09202-151">In the Item type field, select 'Date'.</span></span>
+40. <span data-ttu-id="09202-152">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-152">Click Add.</span></span>
+41. <span data-ttu-id="09202-153">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-153">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="09202-154">Lauke Pavadinimas įveskite Debetas.</span><span class="sxs-lookup"><span data-stu-id="09202-154">In the Name field, type 'Debit'.</span></span>
+43. <span data-ttu-id="09202-155">Lauke „Prekės tipas“ pasirinkite „Realusis skaičius“.</span><span class="sxs-lookup"><span data-stu-id="09202-155">In the Item type field, select 'Real'.</span></span>
+44. <span data-ttu-id="09202-156">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-156">Click Add.</span></span>
+45. <span data-ttu-id="09202-157">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-157">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="09202-158">Lauke Pavadinimas įveskite Kreditas.</span><span class="sxs-lookup"><span data-stu-id="09202-158">In the Name field, type 'Credit'.</span></span>
+47. <span data-ttu-id="09202-159">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-159">Click Add.</span></span>
+48. <span data-ttu-id="09202-160">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-160">Click New to open the drop dialog.</span></span>
+49. <span data-ttu-id="09202-161">Lauke „Pavadinimas“ suveskite „Valiuta“.</span><span class="sxs-lookup"><span data-stu-id="09202-161">In the Name field, type 'Currency'.</span></span>
+50. <span data-ttu-id="09202-162">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="09202-162">In the Item type field, select 'String'.</span></span>
+51. <span data-ttu-id="09202-163">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-163">Click Add.</span></span>
+52. <span data-ttu-id="09202-164">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-164">Click New to open the drop dialog.</span></span>
+53. <span data-ttu-id="09202-165">Lauke Pavadinimas įveskite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="09202-165">In the Name field, type 'Voucher'.</span></span>
+54. <span data-ttu-id="09202-166">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-166">Click Add.</span></span>
+55. <span data-ttu-id="09202-167">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-167">Click New to open the drop dialog.</span></span>
+56. <span data-ttu-id="09202-168">Lauke Pavadinimas įveskite Dimensijų duomenys.</span><span class="sxs-lookup"><span data-stu-id="09202-168">In the Name field, type 'Dimensions data'.</span></span>
+57. <span data-ttu-id="09202-169">Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.</span><span class="sxs-lookup"><span data-stu-id="09202-169">In the Item type field, select 'Record list'.</span></span>
+58. <span data-ttu-id="09202-170">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-170">Click Add.</span></span>
+    * <span data-ttu-id="09202-171">Įtraukėme mūsų modelį į naują įrašų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="09202-171">We added to our model a new record list.</span></span> <span data-ttu-id="09202-172">Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų reikšmės.</span><span class="sxs-lookup"><span data-stu-id="09202-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="09202-173">Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos reikšmes.</span><span class="sxs-lookup"><span data-stu-id="09202-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="09202-174">Dimensijos pavadinimas taip pat bus pateiktas šiame įraše yra laukas, kurį, jei reikia, galima naudoti norint pasirinkti.</span><span class="sxs-lookup"><span data-stu-id="09202-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
+59. <span data-ttu-id="09202-175">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-175">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="09202-176">Lauke Pavadinimas įveskite Kodas.</span><span class="sxs-lookup"><span data-stu-id="09202-176">In the Name field, type 'Code'.</span></span>
+61. <span data-ttu-id="09202-177">Lauke „Prekės tipas“ pasirinkite „Eilutė“.</span><span class="sxs-lookup"><span data-stu-id="09202-177">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="09202-178">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-178">Click Add.</span></span>
+63. <span data-ttu-id="09202-179">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-179">Click New to open the drop dialog.</span></span>
+64. <span data-ttu-id="09202-180">Lauke „Pavadinimas“, įveskite „Aprašas“.</span><span class="sxs-lookup"><span data-stu-id="09202-180">In the Name field, type 'Description'.</span></span>
+65. <span data-ttu-id="09202-181">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-181">Click Add.</span></span>
+66. <span data-ttu-id="09202-182">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="09202-182">Click New to open the drop dialog.</span></span>
+67. <span data-ttu-id="09202-183">Lauke „Pavadinimas“ įveskite „Agentas“.</span><span class="sxs-lookup"><span data-stu-id="09202-183">In the Name field, type 'Name'.</span></span>
+68. <span data-ttu-id="09202-184">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="09202-184">Click Add.</span></span>
+69. <span data-ttu-id="09202-185">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="09202-185">Click Save.</span></span>
+70. <span data-ttu-id="09202-186">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="09202-186">Close the page.</span></span>
 
 
