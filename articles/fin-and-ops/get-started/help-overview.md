@@ -1,9 +1,9 @@
 ---
-title: "Pagalbos apžvalga"
+title: "„Finance and Operations” žinyno sistema"
 description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="help-system-overview"></a>Žinyno sistemos apžvalga
+# <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Norėdami prenumeruoti visų „Unified Operations“ turinio naujinimų RSS inf
 [RSS informacijos santrauka](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Pateikite atsiliepimų 
-Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų turinio pakeitimų galite naudodamiesi „GitHub“.
+Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų turinio pakeitimų galite naudodamiesi „GitHub“. Norėdami sužinoti daugiau apie mūsų atsiliepimų sistemą, žr. [šį tinklaraščio įrašas](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)
 
-##### <a name="leave-us-a-comment"></a>Palikite komentarą 
+##### <a name="leave-us-feedback"></a>Palikite atsiliepimą 
 Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausimų, palikite komentarą puslapio apačioje.  
 
-1. Spustelėkite **Komentarai**, norėdami pateikti į komentarų dalį puslapio apačioje.
+1. Spustelėkite **Atsiliepimai**, kad pasiektumėte komentarus puslapio apačioje, tada spustelėkite **Atsiliepimai apie produktą** arba **Prisijunkite, kad pateiktumėte atsiliepimus apie instrukcijas**.
 
-![Komentarai](./media/comments.png)
+![Grižt. ryšys](./media/comments.png)
 
-2. Įveskite savo komentarą, o tada spustelėkite **Skelbti komentarą**.
+2. 2. Įveskite savo komentarą, o tada spustelėkite **Skelbti atsiliepimą**.
 
-![Skelbti komentarą](./media/before-signin.png)
+![Skelbti komentarą](./media/feedback.png)
 
-3. Pasirinkite paskyros, kurią naudodami norite prisijungti, tipą.  
-Spustelėkite vieną iš kairėje pusėje pateiktų piktogramų, kad susietumėte šią svetainę su esama paskyra, pvz., „Twitter“, „Facebook“ arba „Microsoft“ paskyra. 
-
-Arba 
-
-Dešinėje įveskite el. pašto adresą ir naują slaptažodį, norėdami svetainėje sukurti naują paskyrą. 
-
-![Prisijungimo parinktys](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Pasiūlykite pakeitimų arba papildykite turinį naudodami „GitHub“
@@ -115,7 +107,6 @@ Norėdami daugiau informacijos, skaitykite mūsų bendraautoriaus vadovą: https
 
 > [!NOTE]
 > Šiuo metu įnašus priimsime tik į saugyklą anglų kalba.  
-> Mes nepriimsime pranešimų apie problemas, apie kurias bus pranešama naudojantis „GitHub“ – norėdami pateikti turinio pasiūlymų, naudokite tik įtraukimo užklausą. Į atsiliepimus apie produktą ir funkcijas geriausiai reaguojama juos pateikiant „Dynamics 365“ idėjų portale: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Užduočių vedliai

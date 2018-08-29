@@ -1,5 +1,5 @@
 ---
-title: "Elektroninių ataskaitų formulių kūrimo įrankis"
+title: "Elektroninių ataskaitų (ER) formulių kūrimo įrankis"
 description: "Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER)."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Elektroninių ataskaitų formulių kūrimo įrankis
+# <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ Vykdymo metu laukuose <strong>Žyma</strong> ir <strong>Aprašas</strong> pateik
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas sukurtas formatas.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Pagal pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus išverstas žymų ir aprašų tekstas yra įvedamas į ER formato išeigą.</blockquote>
+<blockquote>[!NOTE] Pagal pirminių formato elementų FAILAS ir APLANKAS kalbos parametrus išverstas žymų ir aprašų tekstas yra įvedamas į ER formato išeigą.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Tolesnėje iliustracijoje parodytas vaizdas, kai vykdomas pakoreguotas formatas.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>WHERE</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinių sąrašų generuojant ataskaitą (pagal poreikį).</blockquote>
+<blockquote>[!NOTE] Riba nėra taikoma paskutinei pradinio sąrašo prekei, nes ribos šaltinio (svorio) reikšmė (11) viršija nustatytą ribą (9). Naudokite funkciją <strong>WHERE</strong> arba atitinkamo formato elemento išraišką <strong>Įjungta</strong>, norėdami nepaisyti (praleisti) antrinių sąrašų generuojant ataskaitą (pagal poreikį).</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 | NUMBERVALUE (eilutė, dešimtainis skyriklis, skaitmenų grupės skyriklis) | Konvertuoti nurodytą eilutę į skaičių. Nurodytas dešimtainis skyriklis naudojamas tarp dešimtainio skaičiaus sveikojo skaičiaus ir trupmeninės dalių. Nurodytas skaitmenų grupavimo skyriklis naudojamas kaip tūkstančių skyriklis. | **NUMBERVALUE(„1 234,56“, „,“, „ “)** pateikia reikšmę **1234,56**. |
 | VALUE (eilutė) | Konvertuoti nurodytą eilutę į skaičių. Kableliai ir taško simboliai (.) laikomi dešimtainiais skyrikliais, o prieš skaičių rašomas brūkšnelis (-) naudojamas kaip neigiamas ženklas. Pateikti išimtį, jei nurodytoje eilutėje yra kitų neskaitinių simbolių. | **VALUE („1 234,56“)** pateikia išimtį. |
 | ROUND (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą iki nurodyto skaičiaus po kablelio.<ul><li>Jei parametro **dešimtainės dalys** reikšmė yra didesnė už 0 (nulį), nurodytas skaičius apvalinamas iki tiek skaitmenų po kablelio.</li><li>Jei parametro **dešimtainės dalys** reikšmė yra **0** (nulis), nurodytas skaičius apvalinamas iki artimiausio sveikojo skaičiaus.</li><li>Jei parametro **dešimtainės dalys** reikšmė yra mažesnė už 0 (nulį), nurodytas skaičius apvalinamas į kairę nuo skaičiaus po kablelio.</li></ul> | **ROUND (1200,767, 2)** suapvalina iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUND (1200,767, -3)** suapvalina iki artimiausio 1000 kartotinio ir pateikia **1000**. |
-| ROUNDDOWN (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą žemyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į mažesnę pusę (link nulio).</blockquote> | **ROUNDDOWN (1200,767, 2)** suapvalina į mažesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,76**. **ROUNDDOWN (1700,767, -3)** suapvalina į mažesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **1000**. |
-| ROUNDUP (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą aukštyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE]<br>Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į didesnę pusę (nuo nulio).</blockquote> | **ROUNDUP (1200,763, 2)** suapvalina į didesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUNDUP (1200,767, -3)** suapvalina į didesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **2000**. |
+| ROUNDDOWN (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą žemyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE] Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į mažesnę pusę (link nulio).</blockquote> | **ROUNDDOWN (1200,767, 2)** suapvalina į mažesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,76**. **ROUNDDOWN (1700,767, -3)** suapvalina į mažesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **1000**. |
+| ROUNDUP (skaičius, dešimtainės dalys) | Pateikti nurodytą skaičių, suapvalintą aukštyn iki nurodyto skaičiaus po kablelio.<blockquote>[!NOTE] Ši funkcija veikia kaip ir **ROUND**, bet ji visada apvalina nurodytą skaičių į didesnę pusę (nuo nulio).</blockquote> | **ROUNDUP (1200,763, 2)** suapvalina į didesnę pusę iki dviejų skaičių po kablelio ir pateikia **1200,77**. **ROUNDUP (1200,767, -3)** suapvalina į didesnę pusę iki artimiausio 1,000 kartotinio ir pateikia **2000**. |
 
 ### <a name="data-conversion-functions"></a>Duomenų konvertavimo funkcijos
 
@@ -474,8 +474,8 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 
 | Funkcija | aprašymas | Pavyzdys |
 |----------|-------------|---------|
-| NULLCONTAINER (sąrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br>Ši funkcija nebenaudojama. Vietoje jos naudokite **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
-| EMPTYRECORD (įrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE]<br>**Neapibrėžtas** įrašas yra toks, kurio visų laukų reikšmės yra tuščios. Tuščia skaičių reikšmė yra **0** (nulis), eilučių – tuščia eilutė ir t. t.</blockquote> | **EMPTYRECORD (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
+| NULLCONTAINER (sąrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE] Ši funkcija nebenaudojama. Vietoje jos naudokite **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
+| EMPTYRECORD (įrašas) | Pateikti **neapibrėžtą** įrašą, kuris turi tokią pačią struktūrą, kaip ir nurodytas įrašų sąrašas arba įrašas.<blockquote>[!NOTE] **Neapibrėžtas** įrašas yra toks, kurio visų laukų reikšmės yra tuščios. Tuščia skaičių reikšmė yra **0** (nulis), eilučių – tuščia eilutė ir t. t.</blockquote> | **EMPTYRECORD (SPLIT („abc“, 1))** pateikia naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį pateikia funkcija **SPLIT**. |
 
 ### <a name="text-functions"></a>Tekstinės funkcijos
 
@@ -522,14 +522,14 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <td>CHAR (skaičius)</td>
 <td>Pateikti simbolių eilutę, kurią nurodo pateiktas „Unicode“ numeris.</td>
 <td><strong>CHAR (255)</strong> pateikia <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>Šios funkcijos pateikta eilutė priklauso nuo kodavimo, kuris pažymėtas pirminiame formato FAILAS elemente. Norėdami matyti palaikomų kodavimų sąrašą, žr. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodavimo klasė</a>.</blockquote>
+<blockquote>[!NOTE] Šios funkcijos pateikta eilutė priklauso nuo kodavimo, kuris pažymėtas pirminiame formato FAILAS elemente. Norėdami matyti palaikomų kodavimų sąrašą, žr. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodavimo klasė</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (1 eilutė [, 2 eilutė, ...])</td>
 <td>Pateikti visas nurodytas teksto eilutes, sujungtas į vieną eilutę.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> pateikia <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat pateikia <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] Išraiška <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> taip pat pateikia <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <p>&quot;Nėra ką spausdinti. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Jei ta pati ataskaita apdorojama <strong>„Litware Retail“</strong> klientui 2015 m. gruodžio 17 d. pagal <strong>DE</strong> kultūrą ir <strong>DE</strong> kalbą, ši formulė pateikia tokį tekstą, kuris naudoja toliau nurodytą kitokį datos formatą.</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>ER formulėse žymoms taikoma tokia sintaksė:
+<blockquote>[!NOTE] ER formulėse žymoms taikoma tokia sintaksė:
 <ul>
 <li><strong>Žymėms iš „Finance and Operations“ išteklių:</strong> <strong>@&quot;X&quot;</strong>, kur X yra žymės ID programos objektų medyje (AOT)</li>
 <li><strong>ER konfigūracijose esančioms žymėms:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, kur X yra žymės ID ER konfigūracijoje.</li>
@@ -587,7 +587,7 @@ Tokiu atveju, norėdami gauti išvardijimo reikšmės žymą Šveicarijos vokie�
 <tr>
 <td>NUMERALSTOTEXT (numeris, kalba, valiuta, spausdinimo valiutos pavadinimo žymė, dešimtainiai skaičiai)</td>
 <td>Pateikti nurodytą skaičių, užrašytą žodžiais (konvertuotą į teksto eilutes) nurodyta kalba. Kalbos kodas nėra būtinas. Kai jis nurodytas kaip tuščia eilutė, naudojamas vykdomo konteksto kalbos kodas. (Vykdomo konteksto kalbos kodas nustatomas generuojamam aplankui arba failui). Valiutos kodas taip pat yra pasirinktinis. Kai jis nustatytas kaip tuščia eilutė, naudojama įmonės valiuta.
-<blockquote>[!NOTE]<br>Analizuojami tik šių kalbos kodų parametrai <strong>spausdinimo valiutos pavadinimo žymė</strong> ir <strong>dešimtainės dalys</strong> : <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ir <strong>RU</strong>. Be to, parametras <strong>spausdinimo valiutos žymė</strong> analizuojamas tik „Finance and Operations“ įmonėms, kurių šalies are regiono kontekste palaikomas valiutos pavadinimų linksniavimas.</blockquote>
+<blockquote>[!NOTE] Analizuojami tik šių kalbos kodų parametrai <strong>spausdinimo valiutos pavadinimo žymė</strong> ir <strong>dešimtainės dalys</strong> : <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ir <strong>RU</strong>. Be to, parametras <strong>spausdinimo valiutos žymė</strong> analizuojamas tik „Finance and Operations“ įmonėms, kurių šalies are regiono kontekste palaikomas valiutos pavadinimų linksniavimas.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> pateikia <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> pateikia <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> pateikia <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ Nurodę šiuos duomenų šaltinius, galite naudoti išraišką, pvz., <strong>FI
 | Funkcija | aprašymas | Pavyzdys |
 |----------|-------------|---------|
 | CONVERTCURRENCY (suma, pirminė valiuta, norima valiuta, data, įmonė) | Konvertuoti nurodytą piniginę sumą iš nurodytos pirminės valiutos į nurodytą norimą valiutą naudojant nurodytos „Finance and Operations“ įmonės parametrus nurodytą dieną. | **CONVERTCURRENCY (1, „EUR“, „USD“, TODAY(), „DEMF“)** pateikia vieno euro atitikmenį doleriais dabartinio seanso dieną, atsižvelgiant į DEMF įmonės parametrus. |
-| ROUNDAMOUNT (skaičius, dešimtainės dalys, apvalinimo taisyklė) | Apvalinti nurodytą sumą pagal nurodytą skaičių po kablelio ir nurodytą apvalinimo taisyklę.<blockquote>[!NOTE]<br>Apvalinimo taisyklė turi būti nurodyta kaip „Finance and Operations“ **RoundOffType** išvardijimo reikšmė.</blockquote> | Jei nustatyta parametro **model.RoundOff** reikšmė **Į mažesnę pusę**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** pateikia reikšmę **1000.78**. Jei parametrui **model.RoundOff** nustatyta reikšmė **Įprastai** arba **Į didesnę pusę**, **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** pateikia reikšmę **1000,79**. |
+| ROUNDAMOUNT (skaičius, dešimtainės dalys, apvalinimo taisyklė) | Apvalinti nurodytą sumą pagal nurodytą skaičių po kablelio ir nurodytą apvalinimo taisyklę.<blockquote>[!NOTE] Apvalinimo taisyklė turi būti nurodyta kaip „Finance and Operations“ **RoundOffType** išvardijimo reikšmė.</blockquote> | Jei nustatyta parametro **model.RoundOff** reikšmė **Į mažesnę pusę**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** pateikia reikšmę **1000.78**. Jei parametrui **model.RoundOff** nustatyta reikšmė **Įprastai** arba **Į didesnę pusę**, **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** pateikia reikšmę **1000,79**. |
 | CURCredRef (skaitmenys) | Pateikti kreditoriaus nuorodą pagal nurodyto SF numerio skaitmenis. | **CURCredRef („VEND-200002“)** pateikia **„2200002“**. |
 | MOD\_97 (skaitmenys) | Pateikti kreditoriaus nuorodą kaip MOD97 išraišką pagal nurodyto SF numerio skaitmenis. | **MOD\_97 ("VEND-200002")** pateikia **"20000285"**. |
-| ISOCredRef (skaitmenys) | Pateikti Tarptautinės standartizacijos organizacijos (ISO) kreditoriaus nuorodą pagal nurodyto SF numerio skaitmenis ir raidinius simbolius.<blockquote>[!NOTE]<br>Norint iš abėcėlės pašalinti simbolius, kurie nėra suderinami su ISO, įvesties parametras turi būti išverstas prieš jį perduodant į šią funkciją.</blockquote> | **ISOCredRef („VEND-200002“)** pateikia **„RF23VEND-200002“**. |
+| ISOCredRef (skaitmenys) | Pateikti Tarptautinės standartizacijos organizacijos (ISO) kreditoriaus nuorodą pagal nurodyto SF numerio skaitmenis ir raidinius simbolius.<blockquote>[!NOTE] Norint iš abėcėlės pašalinti simbolius, kurie nėra suderinami su ISO, įvesties parametras turi būti išverstas prieš jį perduodant į šią funkciją.</blockquote> | **ISOCredRef („VEND-200002“)** pateikia **„RF23VEND-200002“**. |
 | CN\_GBT\_AdditionalDimensionID (eilutė, numeris) | Gaukite nurodytos finansinės dimensijos ID. Parametro **eilutė** dimensijos rodomos kaip kableliais atskirti ID. Parametras **skaičius** nurodo pageidaujamos dimensijos sekos kodą eilutėje. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** pateikia **"CC"**. |
 | GetCurrentCompany () | Pateikti juridinio subjekto (įmonės), prie kurio šiuo metu vartotojas prisijungęs, kodą tekstine išraiška. | Vartotojui, prisijungusiam prie „Finance and Operations” įmonės **„Contoso Entertainment System USA“**, **(GETCURRENTCOMPANY)** pateikia **USMF**. |
 | CH\_BANK\_MOD\_10 (skaitmenys) | Pateikti kreditoriaus nuorodą kaip MOD10 išraišką pagal nurodyto SF numerio skaitmenis. | **CH\_BANK\_MOD\_10 ("VEND-200002")** pateikia **3**. |

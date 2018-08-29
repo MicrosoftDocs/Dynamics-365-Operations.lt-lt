@@ -1,5 +1,5 @@
 --- 
-title: "Reikiamų konfigūracijų kūrimas elektroninėse ataskaitose (ER), norint importuoti duomenis iš išorinio failo"
+title: "ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių failų"
 description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“ programą."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Reikiamų konfigūracijų kūrimas elektroninėse ataskaitose (ER), norint importuoti duomenis iš išorinio failo
+# <a name="create-er-configurations-to-import-data-from-external-files"></a>ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių failų
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

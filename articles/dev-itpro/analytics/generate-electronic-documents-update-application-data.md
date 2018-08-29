@@ -1,5 +1,5 @@
 ---
-title: "Elektroninių dokumentų generavimas ir programos duomenų naujinimas naudojant elektroninių ataskaitų įrankį"
+title: "Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant ER"
 description: "Galite kurti elektroninių ataskaitų (ER) formatus, kuriuos galima naudoti programoje „Finance and Operations” norint generuoti siunčiamus elektroninius dokumentus. Taip pat galite kurti ER formatus, kurie analizuoja gaunamus elektroninius dokumentus ir naudoja šių dokumentų turinį programos duomenims atnaujinti."
 author: NickSelin
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektroninių dokumentų generavimas ir programos duomenų naujinimas naudojant elektroninių ataskaitų įrankį
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant ER
 
 [!include [banner](../includes/banner.md)]
 
-Galite kurti elektroninių ataskaitų (ER) formatus, kuriuos galima naudoti programoje „Finance and Operations” norint generuoti siunčiamus elektroninius dokumentus. Taip pat galite kurti ER formatus, kurie analizuoja gaunamus elektroninius dokumentus ir naudoja šių dokumentų turinį programos duomenims atnaujinti. 
+Galite kurti elektroninių ataskaitų (ER) formatus, kuriuos galima naudoti programoje „Finance and Operations” norint generuoti siunčiamus elektroninius dokumentus. Taip pat galite kurti ER formatus, kurie analizuoja gaunamus elektroninius dokumentus ir naudoja šių dokumentų turinį programos duomenims atnaujinti.
 
 Naudojant šią funkciją, vieną ER formatą galima naudoti siunčiamiems elektroniniams dokumentams generuoti ir tada programos duomenims atnaujinti. Šią funkciją galima naudoti esant toliau nurodytiems scenarijams.
 

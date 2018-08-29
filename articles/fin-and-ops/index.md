@@ -1,6 +1,6 @@
 ---
-title: "„Microsoft Dynamics 365 for Finance and Operations‟ dokumentacija"
-description: "„Microsoft Dynamics 365 for Finance and Operations‟ dokumentacija."
+title: "„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija"
+description: "„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija."
 author: margoc
 manager: AnnBe
 ms.date: 03/02/2018
@@ -18,17 +18,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
-ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
 ms.contentlocale: lt-lt
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>„Microsoft Dynamics 365 for Finance and Operations‟ pristatymas
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 [!include [banner](includes/banner.md)]
 
-Sužinokite, kaip „Microsoft Dynamics 365 for Finance and Operations‟ pritaikyti savo verslui – naudodami toliau pateiktus išteklius rasite puikaus turinio galutiniams vartotojams, programuotojams ir IT profesionalams. 
+Sužinokite, kaip „Microsoft Dynamics 365 for Finance and Operations“ pritaikyti savo verslui – naudodami toliau pateiktus išteklius rasite puikaus turinio galutiniams vartotojams, programuotojams ir IT profesionalams. 
 
 Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: „Microsoft Dynamics 365 for Retail‟ ir „Microsoft Dynamics 365 for Talent‟. 
 

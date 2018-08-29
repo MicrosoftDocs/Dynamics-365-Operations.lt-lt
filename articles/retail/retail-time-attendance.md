@@ -1,5 +1,5 @@
 ---
-title: "„Retail“ laikas ir buvimas darbe"
+title: "Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba"
 description: "Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Mažmeninės prekybos laikas ir buvimas darbe
+# <a name="time-and-attendance-management-in-retail"></a>Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="plan-worker-schedules"></a>Planuokite darbuotojų grafikus
 
--   Taikykite šablonus naudodami darbo planuotoją. Daugiau informacijos žr. <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Taikykite šablonus naudodami darbo planuotoją. Daugiau informacijos rasite <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
-Informacijos apie konfigūravimo veiksmus žr. <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Informacijos apie konfigūravimo veiksmus rasite <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Konkretus mažmeninės prekybos konfigūravimas
 
@@ -135,7 +135,7 @@ EKA
 -   Masinis išėjimas iš darbo
 -   Registruoti neatvykimą
 
-Daugiau informacijos apie tai, kaip apdoroti laiko ir lankomumo registravimus, žr. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Daugiau informacijos, kaip apdoroti laiko ir lankomumo registracijas, žr. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

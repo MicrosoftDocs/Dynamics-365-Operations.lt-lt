@@ -1,5 +1,5 @@
 --- 
-title: "Formato, kuris bus naudojamas dokumentų valdymo failuose naudojant formato išvestis, kūrimas"
+title: "Formato, skirto dokumentų valdymo failams naudoti ER išvestyje, kūrimas"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d5df842dbbf89f5df72c63919fc0bcbf811a09c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 934775bbdda13238e16fba91dcb90d6d3249e812
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-format-to-use-document-management-files-in-format-outputs"></a>Formato, kuris bus naudojamas dokumentų valdymo failuose naudojant formato išvestis, kūrimas
+# <a name="create-formats-to-use-document-management-files-in-er-output"></a>Formato, skirto dokumentų valdymo failams naudoti ER išvestyje, kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

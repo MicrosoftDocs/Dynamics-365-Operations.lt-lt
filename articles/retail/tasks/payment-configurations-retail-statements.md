@@ -1,5 +1,5 @@
 --- 
-title: " Mažmeninės prekybos išrašų mokėjimo konfigūracijos"
+title: "Mokėjimo būdo parametrų, turinčių įtakos mažmeninės prekybos išrašams, konfigūravimas"
 description: "Ši procedūra nurodo mažmeninės prekybos parduotuvės mokėjimo metodų konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami mažmeninės prekybos išrašai."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0ffd6dc5fff6d27ec3cfdcd68c53b2299c4100b9
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ba21db9ee97dc4d851c77a906927ef513940b743
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="payment-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų mokėjimo konfigūracijos
+# <a name="configure-payment-method-settings-that-affect-retail-statements"></a>Mokėjimo būdo parametrų, turinčių įtakos mažmeninės prekybos išrašams, konfigūravimas
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

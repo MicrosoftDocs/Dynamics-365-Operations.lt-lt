@@ -1,5 +1,5 @@
 ---
-title: "Įdarbinimo proceso valdymas"
+title: "Įdarbinimo procesų valdymas"
 description: "Šiame straipsnyje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 80072aebe99b0a7f244c9475dc9ba586bc697893
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="manage-a-recruiting-process"></a>Įdarbinimo proceso valdymas
+# <a name="manage-recruiting-processes"></a>Įdarbinimo procesų valdymas
 
 [!include [banner](../includes/banner.md)]
 

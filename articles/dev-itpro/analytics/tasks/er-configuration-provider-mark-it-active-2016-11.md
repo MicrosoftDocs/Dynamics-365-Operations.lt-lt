@@ -1,5 +1,5 @@
 --- 
-title: "Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu elektroninėse ataskaitose (ER)"
+title: "Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais"
 description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigoms priskirtas naudotojas gali sukurti elektroninių ataskaitų (ER) konfigūracijų teikėją."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu elektroninėse ataskaitose (ER)
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą"
+title: "Įtraukti darbuotojus į kintamosios atlyginimo dalies planą"
 description: "Kompensacijų ir išmokų vadovas gali darbuotojus įtraukti į kintamosios atlyginimo dalies planus, kad būtų galima apskaičiuoti darbuotojų grynųjų pinigų ir negrynųjų pinigų premijas."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58895bfd2ef5ec5e8f6f1500158376b9140775d7
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 6546026da906156573b15488fb63a78c4c1df4ca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą
+# <a name="enroll-employees-in-a-variable-compensation-plan"></a>Įtraukti darbuotojus į kintamosios atlyginimo dalies planą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

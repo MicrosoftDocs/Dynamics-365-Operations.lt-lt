@@ -1,5 +1,5 @@
 --- 
-title: "Modelio susiejimo apibrėžimas ir duomenų šaltinių pasirinkimas elektroninėse ataskaitose (ER)"
+title: "ER modelio susiejimų nustatymas ir jų duomenų šaltinių pasirinkimas"
 description: "Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali pažymėti elektroninių ataskaitų (ER) duomenų modelio duomenų šaltinius."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 2beda3555274fee3f17ad13c54c6823307216385
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>Modelio susiejimo apibrėžimas ir duomenų šaltinių pasirinkimas elektroninėse ataskaitose (ER)
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER modelio susiejimų nustatymas ir jų duomenų šaltinių pasirinkimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
