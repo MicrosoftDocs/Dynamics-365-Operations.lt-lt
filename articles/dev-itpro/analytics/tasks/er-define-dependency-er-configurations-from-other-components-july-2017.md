@@ -1,5 +1,5 @@
 --- 
-title: "Apibrėžkite konfigūracijų priklausomybę nuo kitų komponentų"
+title: "ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas"
 description: "Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje, ER valdymo modelio susiejimo konfigūracijos, ir jūs turite turėti prieigą prie Microsoft Dynamics Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cbd65f0734f54ed497758faffb452e4f61ab2089
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="define-the-dependency-of-configurations-from-other-components"></a>Apibrėžkite konfigūracijų priklausomybę nuo kitų komponentų 
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -62,7 +62,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 18. Pasirinkite Microsoft Dynamics AX 7.0 RTW.
 19. Lauke Versija įrašykite „[7.0.1265.3015,7.1)“.
     * [7.0.1265.3015,7.1)  
-    * Priklausomybės įvertinamos atsisiunčiant konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji būti baigta naudojant „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą, kurio versija turi būti 7.0.1265.3015 arba vėlesnė, tačiau negali viršyti 1 pagrindinės versijos.   
+    * Priklausomybės įvertinamos atsisiunčiant konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji būti baigta naudojant „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“, kurio versija turi būti 7.0.1265.3015 arba vėlesnė, tačiau negali viršyti 1 pagrindinės versijos.   
 20. Spustelėkite Įrašyti.
 21. Uždarykite puslapį.
 22. Spustelėkite keisti būseną.
@@ -139,6 +139,6 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 25. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas finansams ir operacijoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
-    * Jei prisijungiate prie „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo, registruokite tą patį teikėją, kurį naudojate prieigai prie to paties LCS projekto ir atsisiųskite tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
+    * Jei prisijungiate prie „Dynamics 365 for Finance and Operations, Enterprise edition“, registruokite tą patį teikėją, kurį naudojate prieigai prie to paties LCS projekto ir atsisiųskite tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
 
 

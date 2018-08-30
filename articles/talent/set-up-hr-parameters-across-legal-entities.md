@@ -1,5 +1,5 @@
 ---
-title: "Kelių juridinių subjektų personalo parametrų nustatymas"
+title: "Personalo (HR) parametrų nustatymas visiems juridiniams subjektams"
 description: "Turite nustatyti bendrai keliose įmonėse naudojamus įrašus, pvz., įrašus Pareigos. Šiame straipsnyje paaiškinama, kaip keliuose juridiniuose subjektuose nustatyti modulio Personalas parametrus."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-hr-parameters-across-legal-entities"></a>Kelių juridinių subjektų personalo parametrų nustatymas
+# <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Personalo (HR) parametrų nustatymas visiems juridiniams subjektams
 
 [!include [banner](includes/banner.md)]
 

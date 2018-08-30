@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="overview"></a>Apžvalga
 
-„Power BI“ turinys **Kaštų apskaitos analizė** skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš modulio **Išlaidų apskaita** ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus. 
+„Power BI“ turinys **Kaštų apskaitos analizė** skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš modulio **Išlaidų apskaita** ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus.
 
-Kadangi turinys **išlaidų apskaitos analizės** išskiria nuokrypius tarp faktinių išlaidų ir biudžeto išlaidų, vadovus galima įspėti apie teigiamas ir neigiamas jų valdomų vienetų tendencijas. Vadybininkai gali detalizuoti iki išlaidų elementų hierarchijų arba atskirų išlaidų elementų. Tokiu būdu vadybininkai gali įgyti išsamų supratimą apie tai, kaip atsirado išlaidų nuokrypiai, o po to imtis veiksmų. 
+Kadangi turinys **išlaidų apskaitos analizės** išskiria nuokrypius tarp faktinių išlaidų ir biudžeto išlaidų, vadovus galima įspėti apie teigiamas ir neigiamas jų valdomų vienetų tendencijas. Vadybininkai gali detalizuoti iki išlaidų elementų hierarchijų arba atskirų išlaidų elementų. Tokiu būdu vadybininkai gali įgyti išsamų supratimą apie tai, kaip atsirado išlaidų nuokrypiai, o po to imtis veiksmų.
 
-Turinys **Kaštų apskaitos analizė** išlaidų buhalteriams suteikia galimybę analizuoti visos organizacijos išlaidų objektų srautus. 
+Turinys **Kaštų apskaitos analizė** išlaidų buhalteriams suteikia galimybę analizuoti visos organizacijos išlaidų objektų srautus.
 
-Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Pow
 |                                  | Faktinės išlaidos pagal išlaidų objekto dimensijos nario pavadinimą ir išlaidų elemento dimensijos nario pavadinimą                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). 
+Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 
@@ -113,20 +113,18 @@ Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analiz�
 
 Šios pagrindinės dimensijos naudojamos kaip filtrai sujungtiems matavimo vienetams skaidyti, siekiant didesnio detalumo ir gilesnių analitinių įžvalgų.
 
-
-|               Objektas               |                                                Atributų pavyzdžiai                                                |
+| Objektas                             | Atributų pavyzdžiai                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Savikainos apskaitos didžiosios knygos       |                                                Savikainos apskaitos didžioji knyga                                                |
-|         Savikainos kontrolės įtaisai         |                                                Savikainos kontrolės įtaiso pavadinimas                                                |
-|      Savikainos elemento dimensijos       |     Išlaidų elementų dimensijos pavadinimas, išlaidų elemento dimensijos nario pavadinimas, išlaidų elemento dimensijos nario aprašas      |
-|       Savikainos objekto dimensijos       |       Išlaidų objekto dimensijos pavadinimas, išlaidų objekto dimensijos nario pavadinimas, išlaidų objekto dimensijos nario aprašas        |
-|       Statistinės dimensijos       |       Statistinis dimensijos pavadinimas, statistinis dimensijos nario pavadinimas, statistinis dimensijos nario aprašas        |
-| Išlaidų objekto dimensijų hierarchijos  |  Išlaidų objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis   |
+| Savikainos apskaitos didžiosios knygos            | Savikainos apskaitos didžioji knyga                                                                                               |
+| Savikainos kontrolės įtaisai                 | Savikainos kontrolės įtaiso pavadinimas                                                                                               |
+| Savikainos elemento dimensijos            | Išlaidų elementų dimensijos pavadinimas, išlaidų elemento dimensijos nario pavadinimas, išlaidų elemento dimensijos nario aprašas          |
+| Savikainos objekto dimensijos             | Išlaidų objekto dimensijos pavadinimas, išlaidų objekto dimensijos nario pavadinimas, išlaidų objekto dimensijos nario aprašas              |
+| Statistinės dimensijos             | Statistinis dimensijos pavadinimas, statistinis dimensijos nario pavadinimas, statistinis dimensijos nario aprašas              |
+| Išlaidų objekto dimensijų hierarchijos  | Išlaidų objekto dimensijų hierarchijos pavadinimas, išlaidų objekto dimensijų hierarchijos lygis, išlaidų objekto dimensijų hierarchijos medis    |
 | Išlaidų elemento dimensijų hierarchijos | Išlaidų elemento dimensijų hierarchijos pavadinimas, išlaidų elemento dimensijų hierarchijos lygis, išlaidų elemento dimensijų hierarchijos medis |
-| Statistinių dimensijų hierarchijos  |  Statistinių dimensijų hierarchijos pavadinimas, statistinių objekto dimensijų hierarchijos lygis, statistinių dimensijų hierarchijos medis   |
-|        Operacijų versijos        |                                                     Versijos pavadinimas                                                     |
-|          Finansiniai kalendoriai          |                                            Kalendorius, kalendoriaus aprašymas                                            |
-|            Finansiniai metai            |                                                    Kalendoriniai metai                                                     |
-|           Ataskaitiniai laikotarpiai           |                                                 Kalendorinių metų laikotarpis                                                 |
-
+| Statistinių dimensijų hierarchijos  | Statistinių dimensijų hierarchijos pavadinimas, statistinių objekto dimensijų hierarchijos lygis, statistinių dimensijų hierarchijos medis    |
+| Operacijų versijos               | Versijos pavadinimas                                                                                                         |
+| Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
+| Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
+| Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
 

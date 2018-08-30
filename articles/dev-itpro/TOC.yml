@@ -1,33 +1,33 @@
-- name: „Dynamics 365 for Finance and Operations‟ modulis Kūrimas ir administravimas
+- name: „Finance and Operations“ modulis Kūrimas ir administravimas
   href: index.md
-- name: ​Įdiegtims debesyje taikomi sistemos reikalavimai
+- name: Visuotinėms įdiegtims debesyje taikomi sistemos reikalavimai
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
-- name: Vietinėms įdiegtims taikomi sistemos reikalavimai​
+- name: Vietinėms visuotinėms įdiegtims taikomi sistemos reikalavimai
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Demonstraciniai duomenys
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: Demonstracinių duomenų ir paketų generavimas
+    - name: Demonstracinių duomenų naudojant duomenų paketus generavimas
       href: data-entities/generate-demo-data-packages.md
-- name: Kūrimas ir tinkinimas naudojant „Visual Studio‟
+- name: Kūrimas ir tinkinimas naudojant „Visual Studio“
   href: dev-tools/developer-home-page.md
   items:
     - name: Programų dėklo ir serverio architektūra
       href: dev-tools/application-stack-server-architecture.md
-    - name: Įvertinimo kopijos gavimas
+    - name: Įvertinimo kopijų gavimas
       href: dev-tools/get-evaluation-copy.md
-    - name: Registravimasis prenumeratai gauti
+    - name: Registravimasis prenumeratų peržiūros versijai gauti
       href: dev-tools/sign-up-preview-subscription.md
-    - name: Kūrimo aplinkos diegimas ir naudojimas
+    - name: Visuotinis kūrimo aplinkų diegimas ir naudojimas
       href: dev-tools/access-instances.md
       items:
-        - name: Kūrėjų VM konfigūravimas
+        - name: Vieno bloko kūrimo aplinkų konfigūravimas
           href: dev-tools/configure-developer-vm.md
-        - name: Naujo vartotojo kūrimas kūrimo įrenginyje
+        - name: Naujų vartotojų kūrimas kūrimo įrenginiuose
           href: dev-tools/enable-development-machine.md
         - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
           href: sysadmin/VMs-no-admin-access.md
-        - name: Vietinės aplinkos pervardijimas norint įjungti prieigą prie „Visual Studio Team Services“
+        - name: Vietinių aplinkų pervardijimas norint įjungti prieigą prie „Visual Studio Team Services“
           href: migration-upgrade/vso-machine-renaming.md
         - name: Kūrimo sistemos reikalavimai
           href: dev-tools/development-system-requirements.md
@@ -35,44 +35,44 @@
       href: dev-tools/version-control-metadata-navigation.md
     - name: Transporto parko valdymo programos pavyzdys
       items:
-        - name: Transporto parko valdymo programos pavyzdys
+        - name: Tiesioginis transporto parko valdymo programos pavyzdžio scenarijus
           href: dev-tools/fleet-management-sample.md
-        - name: Transporto parko valdymo programos pavyzdžio apžvalga
+        - name: Transporto parko valdymo programos pavyzdys
           href: dev-tools/introduction-fleet-management-sample.md
     - name: „Visual Studio“ įrankiai
       items:
-        - name: Kūrimo įrankių apžvalga
+        - name: Kūrimo įrankiai
           href: dev-tools/development-tools-overview.md
         - name: Kūrimo įrankių mokymo programa
           href: dev-tools/introduction-visual-studio.md
         - name: Programų naršyklė
           href: dev-tools/application-explorer.md
-        - name: Projekto kūrimas ir derinimas
+        - name: Projektų kūrimas ir derinimas
           href: dev-tools/build-debug-project.md
         - name: Versijos operacijos
           href: dev-tools/build-operations.md
-        - name: Kodo rengyklė
+        - name: Kodo rengyklės funkcijos
           href: dev-tools/code-editor.md
-        - name: Modelio ir duomenų modelio elementų kūrimas
+        - name: Modelių ir duomenų modelio elementų kūrimas
           href: dev-tools/create-data-model-elements.md
           items:
-            - name: Pavadinimo suteikimo gairės
+            - name: Plėtinių pavadinimų suteikimo gairės
               href: extensibility/NamingGuidelines.md
-            - name: Modelių tinkinimo ir padarymo pasenusiais funkcijų išjungimas​
+            - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas​
               href: dev-tools/lock-models.md
         - name: Pritaikymo analizės ataskaita​
           href: dev-tools/customization-analysis-report.md
         - name: Elementų kūrimo įrankiai​
           href: dev-tools/element-designers.md
-        - name: Elemento naudojimas
+        - name: Komandos elementų naudojimui nustatyti
           href: dev-tools/element-usage.md
-        - name: Modelio eksportavimas ir importavimas
+        - name: Modelių eksportavimas ir importavimas
           href: dev-tools/models-export-import.md
         - name: Metaduomenų ieška aplinkoje „Visual Studio“
           href: dev-tools/metadata-search-visual-studio.md
-        - name: Modeliai
+        - name: Modeliai ir paketai
           href: dev-tools/models.md
-        - name: „Dynamics 365 for Finance and Operations‟ projektai
+        - name: Projekto tipas – „Finance and Operations“
           href: dev-tools/projects.md
         - name: „Visual Studio“ įrankių papildiniai​
           href: dev-tools/developer-tools-add-ins.md
@@ -80,25 +80,25 @@
           href: dev-tools/update-development-tools.md
     - name: X++ programavimo kalba
       items:
-        - name: 'X++ ir derintuvo funkcijos '
+        - name: X++ ir derintuvo funkcijos
           href: dev-tools/new-x-debugger-features.md
-        - name: X++ derinimas pagal gamybos duomenų bazės kopiją
+        - name: X++ derinimas pagal gamybos duomenų bazių kopijas
           href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: X++ kodo derinimas
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult klasės užklausų ar atsakymų scenarijų metu
           href: dev-tools/event-handler-result-class.md
-        - name: 'Verslo logikos rašymas naudojant C\# ir X++ šaltinio kodą'
+        - name: 'Verslo logikos rašymas naudojant C# ir X++ šaltinio kodą'
           href: dev-tools/write-business-logic.md
-        - name: Programavimo kalbos palaikymas
+        - name: X++ pakeitimai ir X++ kompiliatorius
           href: dev-tools/programming-language-support.md
-        - name: 'C\# LINQ teikėjas'
+        - name: 'C# LINQ teikėjas'
           href: dev-tools/linq-provider-c.md
-        - name: Turinio kūrimo geriausios praktikos
+        - name: Geriausios praktikos taisyklių rašymas
           href: dev-tools/author-best-practice-rules.md
         - name: Programų naršyklės ypatybės
           href: dev-ref/application-explorer-aot-properties.md
-        - name: „X++“ kalbos nuoroda
+        - name: X++ kalbos nuoroda
           items:
             - name: „X++“ kalbos nuoroda
               href: dev-ref/xpp-language-reference.md
@@ -118,7 +118,7 @@
               href: dev-ref/xpp-macros.md
             - name: X++ atributų klasės​
               href: dev-ref/xpp-attribute-classes.md
-            - name: 'X++ ir C\# palyginimas'
+            - name: 'X++ ir C# palyginimas'
               href: dev-ref/xpp-cs-comparison.md
             - name: X++ sintaksė
               href: dev-ref/xpp-syntax.md
@@ -150,9 +150,9 @@
           href: dev-ref/system-tables.md
         - name: Sistemos klasės
           items:
-            - name: A klasės​
+            - name: A klasės
               href: dev-ref/a-classes.md
-            - name: ​B klasės
+            - name: B klasės
               href: dev-ref/b-classes.md
             - name: C klasės
               href: dev-ref/c-classes.md
@@ -160,29 +160,29 @@
               href: dev-ref/d-classes.md
             - name: E klasės
               href: dev-ref/e-classes.md
-            - name: 'F klasės: FieldBinding – FormBuildAnimateControl​'
+            - name: F klasės (FieldBinding – FormBuildAnimateControl)
               href: dev-ref/fieldbinding-classes.md
-            - name: 'F klasės: FormBuildButtonControl – FormBuildFastTabSummarySeparator'
+            - name: F klasės (FormBuildButtonControl – FormBuildFastTabSummarySeparator)
               href: dev-ref/formbuildbuttoncontrol-classes.md
-            - name: 'F klasės: FormBuildFilterPaneControl – FormBuildRealControl'
+            - name: F klasės (FormBuildFilterPaneControl – FormBuildRealControl)
               href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: 'F klasės: FormBuildReferenceControl – FormButtonSeparatorControl'
+            - name: F klasės (FormBuildReferenceControl – FormButtonSeparatorControl)
               href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: 'F klasės: FormChangeTracker – FormControlEventArgs'
+            - name: F klasės (FormChangeTracker – FormControlEventArgs)
               href: dev-ref/formchangetracker-classes.md
-            - name: 'F klasės: FormDataObject – FormFastTabHeaderControl'
+            - name: F klasės (FormDataObject – FormFastTabHeaderControl)
               href: dev-ref/formdataobject-classes.md
-            - name: 'F klasės: FormFastTabSummarySeparator – FormGridControl'
+            - name: F klasės (FormFastTabSummarySeparator – FormGridControl)
               href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: 'F klasės: FormGroupControl – FormIntControl'
+            - name: F klasės (FormGroupControl – FormIntControl)
               href: dev-ref/formgroupcontrol-classes.md
-            - name: 'F klasės: FormListBoxControl – FormNotifyEventArgs'
+            - name: F klasės (FormListBoxControl – FormNotifyEventArgs)
               href: dev-ref/formlistboxcontrol-classes.md
-            - name: 'F klasės: FormObject – FormRealControl'
+            - name: F klasės (FormObject – FormRealControl)
               href: dev-ref/formobject-classes.md
-            - name: 'F klasės: FormReferenceControl – FormStringControl'
+            - name: F klasės (FormReferenceControl – FormStringControl)
               href: dev-ref/formreferencecontrol-classes.md
-            - name: 'F klasės: FormTabControl – FormWindowControl'
+            - name: F klasės (FormTabControl – FormWindowControl)
               href: dev-ref/formtabcontrol-classes.md
             - name: G klasės
               href: dev-ref/g-classes.md
@@ -225,79 +225,85 @@
       items:
         - name: Įvadas ir darbo pradžia
           items:
-            - name: Programų išplečiamumo planai
+            - name: Programų išplečiamumo planas
               href: extensibility/extensibility-roadmap.md
             - name: Išplečiamumo užklausos
               href: extensibility/extensibility-requests.md
-            - name: DUK
+            - name: DUK apie išplečiamumą
               href: extensibility/app-sealing-faq.md
             - name: Perkėlimas iš perdengimo į plėtinius
               href: extensibility/migrate-overlayer-extension.md
             - name: Modelių elementų tinkinimas naudojant plėtinius (mokymo programa)
               href: extensibility/customize-model-elements-extensions.md
-            - name: 'Tinkinimas: perdengimas ir plėtiniai'
+            - name: Tinkinimas naudojant plėtinius ir perdengiant
               href: extensibility/customization-overlayering-extensions.md
         - name: Kas nauja
           items:
             - name: "Išplečiamumo pakeitimai (2017\_m. liepos mėn.)"
               href: extensibility/changes-july-2017.md
-            - name: Išplečiamumo pakeitimai (versija 7.3)
+            - name: Išplečiamumo pakeitimai 7.3 versijoje
               href: extensibility/extensibility-changes-73.md
-            - name: Išplečiamumo pakeitimai (versija 8.0)
+            - name: Išplečiamumo pakeitimai 8.0 versijoje
               href: extensibility/changes-80.md
+            - name: Išplečiamumo pakeitimai (versija 8.0.1)
+              href: extensibility/extensibility-changes-801.md
+            - name: Išplečiamumo pakeitimai (versija 8.0.2)
+              href: extensibility/extensibility-changes-802.md
+            - name: Išplečiamumo pakeitimai (versija 8.0.3)
+              href: extensibility/extensibility-changes-803.md
         - name: Pagrindai
           items:
             - name: Nepageidaujami tinkinimai
               href: extensibility/intrusive-customizations.md
-            - name: Klasių plėtiniai
+            - name: Klasės plėtinio modelis
               href: extensibility/class-extensions.md
-            - name: 'Klasės plėtinys: metodų apgaubimas ir eiliškumo modelis'
+            - name: Klasės plėtinys naudojant metodų apgaubimą ir eiliškumo modelį
               href: extensibility/method-wrapping-coc.md
-            - name: Pavadinimo suteikimo gairės
+            - name: Modelių plėtinių pavadinimų suteikimo gairės
               href: extensibility/naming-guidelines-extensions.md
-            - name: „Relax“ modelio apribojimai įjungti maketų persidengimo pertvarkymą į plėtinius
+            - name: „Relax“ modelio apribojimai maketų persidengimui pertvarkyti į plėtinius
               href: extensibility/refactoring-over-layering.md
         - name: Kaip?
           items:
-            - name: Išvardijimo reikšmės įtraukimas
+            - name: Verčių įtraukimas į „enums“
               href: extensibility/add-enum-value.md
-            - name: Išplėstinio duomenų tipo modifikavimas
+            - name: Išplėstinių duomenų tipų modifikavimas
               href: extensibility/modify-edt.md
-            - name: Registruoti gamyklos metodų poklasį
+            - name: Gamyklos metodų poklasių registravimas
               href: extensibility/register-subclass-factory-methods.md
-            - name: Atsakymas su EventHandlerResult
+            - name: Atsakymas naudojant EventHandlerResult
               href: extensibility/respond-event-handler-result.md
             - name: RunBase klasės išplėtimas
               href: extensibility/extend-runbase-class.md
-            - name: Perėmėjų naudojimas programų paleisčiai tinkinti
+            - name: Programų paleisties tinkinimas naudojant perėmėjus
               href: extensibility/startup-customizations.md
-            - name: Esamo lentelės lauko modifikavimas
+            - name: Esamų lentelės laukų modifikavimas
               href: extensibility/modify-existing-field.md
-            - name: Naujo lauko įtraukimas į esamą lentelę
+            - name: Laukų įtraukimas į lenteles
               href: extensibility/add-field-extension.md
-            - name: Įtraukti indeksą į esamą lentelę
+            - name: Indeksų įtraukimas į lenteles
               href: extensibility/add-index.md
-            - name: Įtraukti ryšį į esamą lentelę
+            - name: Ryšių įtraukimas į lenteles
               href: extensibility/add-relation.md
-            - name: Modifikuoti ypatybes esamoje lentelėje
+            - name: Lentelės ypatybių modifikavimas
               href: extensibility/modify-properties.md
-            - name: Įtraukti metodą į lentelę
+            - name: Metodų įtraukimas į lenteles
               href: extensibility/add-method-table.md
-            - name: Atlikti verslo veiksmus viso lentelės įrašo vykdymo ciklo metu
+            - name: Verslo veiksmai visų lentelės įrašų vykdymo ciklo metu
               href: extensibility/subscribe-table-events.md
-            - name: Įtraukti naują duomenų šaltinį į formą
+            - name: Duomenų šaltinių įtraukimas į formas
               href: extensibility/add-datasource.md
-            - name: Keisti formos antraštę
+            - name: Formų antraščių keitimas
               href: extensibility/change-caption-form.md
             - name: Formos valdiklio ypatybių modifikavimas
               href: extensibility/modify-control-properties.md
-            - name: Žymos keitimas
+            - name: Etikečių keitimas naudojant etikečių plėtinių failus
               href: extensibility/change-label.md
-            - name: Numeracijos aprėpties išplėtimas​
+            - name: Numeracijų aprėpties išplėtimas​
               href: extensibility/extend-number-sequence-scope.md
-            - name: Naujos atsargų dimensijos įtraukimas
+            - name: Naujų atsargų dimensijų įtraukimas
               href: extensibility/inventory-dimensions.md
-            - name: Kainų ir nuolaidų išplėtimo pakeitimai
+            - name: Kainų ir nuolaidų išplėtimas
               href: extensibility/pricing-app73.md
             - name: Lentelių schemos plėtinys
               href: extensibility/map-extensions.md
@@ -307,10 +313,12 @@
               href: extensibility/maps-with-versioning.md
     - name: Našumas
       items:
-        - name: Sekimo paėmimas naudojant sekimo analizatorių
+        - name: Sekimų paėmimas naudojant sekimo analizatorių
           href: perf-test/trace-trace-tutorial.md
-        - name: PerfSDK ir kelių vartotojų bandymas naudojant „Visual Studio Team Services‟
+        - name: Našumo SDK ir kelių vartotojų aplinkos bandymas naudojant „Visual Studio Online“
           href: perf-test/perfsdk-tutorial.md
+        - name: Našumo SDK ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
+          href: perf-test/perfsdk-tutorial-lbd.md
         - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant sekimo analizatorių
           href: perf-test/trace-parser.md
         - name: Efektyvumo laikmatis
@@ -321,7 +329,7 @@
           href: perf-test/testing-validation.md
         - name: Bandomieji „Visual Studio“ projektai
           href: perf-test/testing-support.md
-        - name: Visuotinis diegimas su nuolatinio komponavimo versijų ir bandymo automatizavimo funkcija​
+        - name: 'Visuotinis topologijų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas'
           href: perf-test/continuous-build-test-automation.md
     - name: Datos galiojimas
       href: dev-tools/date-effectivity.md
@@ -340,19 +348,19 @@
           href: user-interface/build-customer-form.md
         - name: Komponavimo versijos naršymas
           href: user-interface/build-navigation.md
-        - name: Darbo srities kūrimas
+        - name: Darbo sričių kūrimas
           href: user-interface/build-workspace.md
     - name: Formos
       items:
-        - name: „Dynamics 365 for Finance and Operations‟ naršymas
+        - name: Naršymo sąvokos
           href: user-interface/page-navigation.md
-        - name: „Dynamics 365 for Finance and Operations‟ maketas
+        - name: Puslapio maketas žiniatinklio kliente
           href: user-interface/page-layout.md
-        - name: Simbolių šriftas​
+        - name: „Dynamics“ simbolių šriftas​
           href: user-interface/symbol-font.md
-        - name: Formų su pasirinktiniais šablonais bandymas​
+        - name: 'Formų, kurios naudoja pasirinktinius šablonus, bandymas​'
           href: user-interface/testing-forms-custom-patterns.md
-        - name: Giliųjų saitų kūrimas ir naudojimas
+        - name: 'Bendrinamų, saugių URL (giliųjų saitų) kūrimas'
           href: user-interface/create-deep-links.md
         - name: 'Formų, produktų ir valdiklių pritaikymas neįgaliesiems'
           href: user-interface/enable-accessibility.md
@@ -366,15 +374,15 @@
           href: user-interface/sizing-input-controls-grid-columns.md
         - name: Žymės langelių palaikymas medžio valdikliuose
           href: user-interface/check-box-tree-controls.md
-        - name: Filtrai
+        - name: Filtravimo parinktys
           href: user-interface/filtering.md
-        - name: „PowerApps‟ prieglobos valdymas
+        - name: „PowerApps“ prieglobos valdymas
           href: user-interface/powerapps-host-control.md
     - name: Langų valdymas
       items:
         - name: Kontekstinio meniu kodo perkėlimas
           href: migration-upgrade/code-migration-context-menus.md
-        - name: Pelės spustelėjimo du kartus kodo perkėlimas
+        - name: Pelės spustelėjimo du kartus logikos perkėlimas
           href: migration-upgrade/code-migration-double-click.md
         - name: Kontekstinių duomenų įvedimas į peržvalgos laukus
           href: user-interface/contextual-data-entry-lookups.md
@@ -382,11 +390,11 @@
           href: user-interface/hierarchy-viewer-control.md
         - name: Peržvalgos valdikliai
           href: user-interface/lookups-controls.md
-        - name: Failų nusiuntimo valdikliai
+        - name: Failų nusiuntimo valdiklis
           href: user-interface/file-upload-control.md
         - name: Sistemos nustatyti mygtukai
           href: user-interface/system-defined-buttons.md
-        - name: Vaizdai
+        - name: Vaizdai puslapyje arba tinklelyje
           href: user-interface/images-form-grid.md
         - name: 'Įvesties, lentelių ir tinklelių valdiklių šrifto bei fono spalvos'
           href: user-interface/specify-color-font-background-controls.md
@@ -394,25 +402,25 @@
           href: user-interface/bidirectional-support.md
         - name: Darbo sričių plytelių piktogramų kūrimas
           href: user-interface/create-icons-workspace-tiles.md
-        - name: Išplečiamieji valdikliai – viešos „JavaScript‟ API
+        - name: Viešųjų „JavaScript“ API sąsajų išplečiamieji valdikliai
           href: user-interface/public-javascript-apis.md
         - name: Kontrolinis valdiklių sąrašas
           href: user-interface/control-checklist.md
     - name: Pranešimai
       items:
-        - name: Slankiklis ir pranešimo laukas
+        - name: Slankiklis ir pranešimo lauko dialogo langai
           href: user-interface/slider-messagebox.md
         - name: 'Pranešimų centras, pranešimų juosta ir išsamios pranešimų informacijos API'
           href: user-interface/messaging-api-center-bar-details.md
-        - name: 'Pranešimų centras, pranešimų juosta ir išsamios pranešimų informacijos FAQ'
+        - name: 'Pranešimų centras, pranešimų juosta ir išsamios pranešimų informacijos DUK'
           href: user-interface/messaging-user.md
     - name: Pagrindiniai formų šablonų nurodymai
       items:
-        - name: Formos šablono pasirinkimas
+        - name: Perkeltoms formoms skirti formų šablonai
           href: user-interface/select-form-pattern.md
         - name: Formų stiliai ir šablonai​
           href: user-interface/form-styles-patterns.md
-        - name: Formų šablonų papildiniai
+        - name: Formų šablonus palaikantys „Visual Studio“ papildiniai
           href: user-interface/form-pattern-add-ins.md
     - name: Formų šablonai
       items:
@@ -422,7 +430,7 @@
           href: user-interface/details-master-form-pattern.md
         - name: Operacijos informacijos formos šablonas
           href: user-interface/details-transaction-form-pattern.md
-        - name: Formos dalių sekcijų sąrašo formos šablonas
+        - name: Formos dalių sekcijų sąrašo formų šablonai
           href: user-interface/section-list-form-pattern.md
         - name: Sąrašo puslapio formos šablonas
           href: user-interface/list-page-form-pattern.md
@@ -452,7 +460,7 @@
           href: user-interface/drop-dialog-form-pattern.md
         - name: Peržvalgos formos šablonas
           href: user-interface/lookup-form-pattern.md
-        - name: „FactBox‟ formos šablonas
+        - name: „FactBox“ formų šablonai
           href: user-interface/factbox-form-patterns.md
     - name: Pošabloniai
       items:
@@ -498,7 +506,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Valdiklių išplečiamumas
       items:
-        - name: Išplečiamojo valdiklio kūrimas
+        - name: „aextensible“ valdiklių kūrimas
           href: user-interface/build-extensible-control.md
         - name: Išplečiamųjų valdiklių spartieji klaviatūros klavišai
           href: user-interface/keyboard-shortcuts-controls.md
@@ -523,17 +531,17 @@
       items:
         - name: Greita užduočių įrašymo priemonės nuoroda
           href: user-interface/task-recorder-quick-reference.md
-        - name: Kurkite dokumentus ar mokymus naudodami užduočių įrašymo priemonę
+        - name: Dokumentų ar mokymų kūrimas pagal užduočių įrašus
           href: user-interface/task-recorder-training-docs.md
 - name: Mobilioji platforma​
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: Darbo pradžia
+    - name: Pradžia
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: Architektūra
+        - name: Architektūros ir dizaino aplinkybės
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: Verslo logikos įvykių apžvalga
+        - name: Verslo logikos įvykiai
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: Puslapių dizaino rekomendacijos
           href: mobile-apps/platform/page-design-guidelines.md
@@ -543,17 +551,17 @@
           href: mobile-apps/platform/form-design-requirements.md
     - name: Bendros užduotys
       items:
-        - name: 'Darbo srities konfigūravimas, naudojant „SysAppWorkspace“ klasę'
+        - name: Darbo sričių konfigūravimas naudojant „SysAppWorkspace“ klasę
           href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: 'Lauko rodymo tinkinimas, kad jį būtų galima spustelėti'
+        - name: 'Laukų nustatymas taip, kad juos būtų galima spustelėti mobiliųjų programų puslapiuose'
           href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-        - name: Skaičiaus rodymas lauke
+        - name: Skaičiavimo rezultatų rodymas laukuose
           href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: Padėkite apsaugoti mobiliąją darbo sritį
+        - name: Pagalba apsaugant mobiliąsias darbo sritis
           href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: Darbo sričių lokalizavimas serveryje
+        - name: Mobiliųjų darbo sričių lokalizavimas
           href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-        - name: 'Lauko nustatymas kaip privalomo, naudojant darbo sričių klases'
+        - name: 'Laukų nustatymas taip, kad naudojant darbo sričių klases jie būtų privalomi'
           href: mobile-apps/platform/scenarios/make-field-mandatory.md
     - name: Programavimo serveryje nuoroda
       items:
@@ -561,9 +569,9 @@
           href: mobile-apps/platform/mobile-workspace-server-apis.md
     - name: Programavimo kliente nuoroda
       items:
-        - name: Kūrimo kliente API apžvalga
+        - name: Kūrimo kliente API sąsajos
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
-        - name: Kliento API
+        - name: Kliento API sąsajos
           href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
             - name: PageState išvardijimas
@@ -598,7 +606,7 @@
               href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
             - name: Puslapio modulis
               href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
-            - name: Puslapio saito modulis
+            - name: „Pagelink“ modulis
               href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
             - name: Dalies modulis
               href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
@@ -626,11 +634,11 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
             - name: DataService tipas
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: Deferred tipas
+            - name: Atidėjimo tipas<T>
               href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
-            - name: Design tipas
+            - name: Dizaino tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: EventHook tipas
+            - name: EventHook tipas<T>
               href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
             - name: Lauko tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
@@ -722,7 +730,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
             - name: Eilutės tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-            - name: Reikšmės tipas
+            - name: Vertės tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
             - name: ValueDesign tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
@@ -734,35 +742,35 @@
       href: data-entities/integration-overview.md
     - name: Duomenų integravimo API sąsajos
       items:
-        - name: Duomenų valdymo paketo API
+        - name: Duomenų valdymo paketo REST API
           href: data-entities/data-management-api.md
         - name: Paslaugų galiniai punktai
           href: data-entities/services-home-page.md
           items:
             - name: Tarnybų autentifikavimo trikčių diagnostika
               href: data-entities/troubleshoot-service-authentication.md
-        - name: „OData‟
+        - name: „OData“
           href: data-entities/odata.md
-        - name: Pasirinktinės tarnybos
+        - name: Pasirinktinių paslaugų kūrimas
           href: data-entities/custom-services.md
         - name: Pasikartojančios integracijos​
           href: data-entities/recurring-integrations.md
-        - name: Trečiųjų šalių paslaugų tikrinimo priemonių ir paslaugų naudojimas
+        - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
           href: data-entities/third-party-service-test.md
     - name: Integravimo kūrimas
       items:
-        - name: Duomenų integravimas naudojant duomenų objektus
+        - name: Duomenų valdymas ir integravimas naudojant duomenų objektus
           href: data-entities/data-management-integration-data-entity.md
           items:
-            - name: Duomenų perkėlimo objekto kūrimas​
+            - name: Duomenų perkėlimo objektų kūrimas​
               href: data-entities/develop-entity-for-data-migration.md
             - name: Sudėtinių duomenų objektų kūrimas
               href: data-entities/develop-composite-data-entities.md
-            - name: Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
+            - name: Finansinių duomenų bendrinimo tarp įmonių konfigūravimas
               href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: 'Įrašo šablono sukūrimas, kad būtų paprasčiau įvesti duomenis'
+            - name: 'Įrašų šablonų sukūrimas, kad būtų paprasčiau įvesti duomenis'
               href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Naujo įrašo kūrimas naudojant įrašo šabloną
+            - name: Įrašų kūrimas naudojant įrašų šablonus
               href: data-entities/tasks/use-record-template-new-record.md
         - name: Duomenų integravimas naudojant „Common Data Service“
           href: data-entities/data-integration-cds.md
@@ -791,6 +799,21 @@
                   href: ../supply-chain/sales-marketing/field-service-work-order.md
                 - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
                   href: ../supply-chain/sales-marketing/field-service-invoice.md
+            - name: „Project Service Automation“ integravimo konfigūravimas
+              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
+              items:
+                - name: „Project Service Automation“ integravimo parametrai
+                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
+                - name: Projektų sutarčių ir projektų sinchronizavimas
+                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
+                - name: Projektų užduočių sinchronizavimas
+                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
+                - name: Projektų išlaidų kategorijų sinchronizavimas
+                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
+                - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
+                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
+                - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
+                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
         - name: Išorinių žiniatinklio tarnybų naudojimas
           href: data-entities/consume-external-web-service.md
 - name: Duomenų valdymas
@@ -809,7 +832,7 @@
           href: data-entities/configuration-data-templates.md
         - name: Duomenų šablonai su keliais darbalapiais
           href: data-entities/excel-template-multiple.md
-        - name: Objekto keitimų sekimas
+        - name: Objektų keitimų sekimo įjungimas
           href: data-entities/entity-change-track.md
         - name: Konfigūracijos raktai ir duomenų objektai
           href: data-entities/config-key-entities.md
@@ -826,13 +849,13 @@
           href: dev-tools/design-best-practices.md
         - name: Naujų duomenų objektų kūrimas
           href: data-entities/build-consuming-data-entities.md
-        - name: Duomenų objektų ypatybės
+        - name: Duomenų objektų veikimo būdo ypatybės
           href: data-entities/behavioral-properties-data-entities.md
-        - name: Skaičiavimo stulpelių ir virtualiųjų laukų kūrimas
+        - name: Apskaičiuotų stulpelių ir virtualiųjų laukų kūrimas
           href: data-entities/data-entity-computed-columns-virtual-fields.md
         - name: Visos įmonės veikimo būdas
           href: data-entities/cross-company-behavior.md
-        - name: "Šalių\_/ regionų kodų tvarkymas"
+        - name: "Šalių\_/ regionų kodai ir konfigūracijos raktai"
           href: data-entities/countryregion-codes-configuration-keys.md
         - name: Paveldėjimo šablonai
           href: data-entities/support-super-type-sub-type.md
@@ -840,36 +863,36 @@
           href: data-entities/data-entity-wizard-rules.md
         - name: Metaduomenų ypatybės
           href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Tikrinimai, numatytosios reikšmės ir nesusieti laukai'
+        - name: 'Tikrinimai, numatytosios vertės ir nesusieti laukai'
           href: data-entities/validations-defaults-unmapped-fields.md
         - name: Sauga ir duomenų objektai
           href: data-entities/security-data-entities.md
-        - name: 'Tik skaitomo objekto, rodančio finansines dimensijas, kūrimas'
+        - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
           href: financial/read-only-entity-financial.md
     - name: Savo duomenų bazės naudojimas
       href: analytics/export-entities-to-your-own-database.md
     - name: Duomenų užduočių automatizavimas
       href: data-entities/data-task-automation.md
-    - name: Atsakymo į BDAR duomenų užklausą ištekliai
+    - name: Atsakymo į BDAR duomenų užklausas ištekliai
       href: gdpr/gdpr-home-page.md
       items:
-        - name: 'BDAR vadovas, skirtas „Microsoft Dynamics 365 for Finance and Operations“'
+        - name: 'BDAR vadovas, skirtas „Finance and Operations“'
           href: gdpr/gdpr-guide.md
         - name: Turto klasifikavimas
           href: gdpr/gdpr-asset-classification-values.md
-        - name: Asmenų ieškos ataskaitos naudojimas
+        - name: Asmenų ieškos ataskaita
           href: gdpr/gdpr-person-search-report.md
         - name: Asmenų ieškos ataskaitos išplėtimas
           href: gdpr/gdpr-extend-person-search-report.md
         - name: Prieigos prie slaptų duomenų valdymas
           href: gdpr/gdpr-auditing-sensitive-data.md
-        - name: Atsakymas į užklausą dėl asmeninių duomenų naudojant „Talent“
+        - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Talent“
           href: gdpr/respond-dsr-request-talent.md
-        - name: Atsakymas į užklausą dėl asmeninių duomenų naudojant „Microsoft Dynamics AX 2012“
+        - name: Atsakymas į užklausas dėl asmens duomenų AX 2012
           href: gdpr/gdpr-ax2012.md
         - name: BDAR duomenų užklausos LCS
           href: gdpr/gdpr-lcs.md
-    - name: Duomenų tikrinimo darbo sritis
+    - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
       href: user-interface/data-validation-workspace.md
 - name: Nuolatinis pristatymas
   href: dev-tools/continuous-delivery-home-page.md
@@ -880,7 +903,7 @@
       href: dev-tools/exclude-test-packages.md
     - name: Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį
       href: dev-tools/manage-runtime-packages.md
-    - name: Versijų modeliai automatizuotoje komponavimo versijoje
+    - name: Modelių versijų automatizuotoje komponavimo versijoje naujinimas
       href: dev-tools/version-models-build.md
 - name: Sprendimų išleidimas naudojant „Lifecycle Services“
   items:
@@ -888,131 +911,133 @@
       href: lcs-solutions/lcs-solutions-app-source.md
     - name: Paruošimas ir publikavimas
       href: lcs-solutions/marketing-content-lcs-solutions.md
-    - name: Metodikos įtraukimas
+    - name: Metodikų įtraukimas
       href: lcs-solutions/methodologies-lcs-solutions.md
     - name: Verslo procesų modeliavimo įrankio bibliotekų nustatymas
       href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
     - name: Kodo perkėlimas
       href: lcs-solutions/code-migration-lcs-solutions.md
-    - name: Prašymo tikrinimas
+    - name: Programų tikrinimas
       href: lcs-solutions/app-validation-lcs-solutions.md
     - name: Duomenų paketų apdorojimas ir naudojimas
       href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: Sprendimo duomenų bazės atsarginės kopijos kūrimas
+    - name: Sprendimų duomenų bazių atsarginių kopijų kūrimas
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: Lokalizacijos
+    - name: Lokalizavimo ir reguliavimo priemonės​
       href: lcs-solutions/country-region.md
       items:
-        - name: Lokalizavimo priemonių klasifikavimas
+        - name: Lokalizavimo priemonių klasifikacija
           href: lcs-solutions/classify-localization-features.md
-        - name: "Šalies\_/ regiono kontekstas"
+        - name: "Šalies\_/ regiono konteksto taikymas"
           href: lcs-solutions/apply-country-context.md
-        - name: Reguliaciniai sertifikatai
+        - name: Reglamentavimo sertifikavimo informacija apie funkcijų pavadinimus
           href: lcs-solutions/regulatory-certifications.md
-        - name: Reguliaciniai naujinimai
+        - name: Reglamentavimo naujinimai
           href: lcs-solutions/regulatory-watch-communication.md
         - name: Lokalizavimo modelių atskyrimas
           href: lcs-solutions/separate-localization-models.md
-        - name: Reguliuojamojo įspėjimo pateikimas
+        - name: Įspėjimų dėl reglamentavimo pateikimas
           href: lcs-solutions/submit-localization-alerts.md
 - name: Finansų kūrimas
   href: financial/financial-dev-home-page.md
   items:
-    - name: Dimensijos
+    - name: Skirtingų dimensijų šablonų palaikymas
       href: financial/dimensions.md
-    - name: Dimensijų įtraukimas į „Excel‟ šabloną
+    - name: Dimensijų įtraukimas į „Excel“ šablonus
       href: financial/dimensions-overview.md
-    - name: Dimensijų įrašų valdiklio dialogo lango palaikymas
+    - name: Dimensijų įrašų valdiklių dialogų languose palaikymas
       href: financial/dimension-entry-control-dialog-support.md
-    - name: 'Dimensijų įrašų valdiklio perkėlimas  '
+    - name: Numatytųjų dimensijų valdiklių perkėlimas į dimensijų įrašų valdiklius
       href: financial/dimension-entry-control-migration.md
-    - name: Dimensijų įrašų valdiklio naudojimas
+    - name: Dimensijų įrašų valdiklių naudojimas
       href: financial/dimension-entry-control-uptake.md
     - name: Dimensijų reiškinių daryklės pošablonis
       href: financial/dimension-expression-builder-subpattern.md
-    - name: 'Finansinių dimensijų konfigūravimas, kad būtų galima integruoti programas'
+    - name: Finansinių dimensijų konfigūravimas
       href: financial/financial-dimension-configuration-integration.md
     - name: Finansinių dimensijų aktyvinimas
       href: financial/activate-financial-dimensions.md
-    - name: 'Finansinės dimensijos ir pagrindinės sąskaitos, naudojamos iš dešinės į kairę rašomoje kalboje'
+    - name: 'Finansinės dimensijos ir pagrindinės sąskaitos, naudojamos iš dešinės į kairę rašomose kalbose'
       href: financial/financial-dimensions-main-accounts-right-left-language.md
-    - name: 'Kaip padaryti, kad atsarginę lentelę būtų galima naudoti kaip finansinę dimensiją'
+    - name: 'Atsarginių lentelių, kurias būtų galima naudoti kaip finansines dimensijas, nustatymas'
       href: financial/dimensionable-entities.md
-    - name: 'Segmentuotų įrašų valdiklio perkėlimas  '
+    - name: Segmentuotų įrašų valdiklių perkėlimas
       href: financial/segmented-entry-control-conversion.md
-    - name: Segmentuotų įrašų valdiklio dialogo lango palaikymas
+    - name: Segmentuotų įrašų valdiklių dialogų languose palaikymas
       href: financial/segmented-entry-control-dialog-support.md
-    - name: Segmentuotų įrašų valdiklio metaduomenys
+    - name: Segmentuotų įrašų valdiklių kūrimo laiko metaduomenys
       href: financial/segmented-entry-control-metadata-specification.md
-    - name: Segmentuotų įrašų valdiklio perkėlimo nurodymai
+    - name: Segmentuotų įrašų valdiklių perkėlimo nurodymai
       href: financial/segmented-entry-control-migration-guidance.md
-    - name: Segmentuotų įrašų valdiklio „parm‟ metodai
+    - name: Segmentuotų įrašų valdiklių „parm“ metodai
       href: financial/segmented-entry-control-parm-method-specification.md
-    - name: Galimybės finansinių dimensijų reikšmių ieškoti „Microsoft Excel‟ šablonuose įtraukimas
+    - name: Finansinių dimensijų peržvalgos verčių įtraukimas į „Excel“ šablonus
       href: financial/add-dimensions-excel-templates.md
     - name: Valiutų kursų teikėjų kūrimas
       href: financial/create-exchange-rate-providers.md
-    - name: Valiutų kursų teikėjų kūrimas „Microsoft Dynamics Finance and Operations“ 8.0 versijoje
+    - name: Valiutų kursų teikėjų kūrimas „Finance and Operations“ 8.0 versijoje
       href: financial/create-exchange-rate-8.md
 - name: Tiekimo grandinės kūrimas
   items:
-    - name: Gantt kūrimo vadovas
+    - name: Gantt valdiklio kūrimo vadovas
       href: user-interface/gantt-development-guide.md
     - name: Naujo transportavimo valdymo mechanizmo kūrimas
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Visuotinis diegimas
   items:
-    - name: Demonstracinės aplinkos diegimas
+    - name: Visuotinis demonstracinių aplinkų diegimas
       href: deployment/deploy-demo-environment.md
-    - name: Debesies įdiegtis
+    - name: Visuotinė debesies įdiegtis
       items:
-        - name: „Azure‟ išteklių vadovo supažindinimas
+        - name: Baigtas „Azure Resource Manager“ supažindinimas
           href: deployment/arm-onboarding.md
-        - name: „Azure ExpressRoute‟ ir „Dynamics 365 for Finance and Operations‟
+        - name: „Azure ExpressRoute“ ir „Finance and Operations“
           href: deployment/expressroute.md
-        - name: „Finance and Operations” architektūra
+        - name: „Finance and Operations“ architektūra
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
-    - name: Vietinis diegimas
+    - name: Vietinė visuotinė įdiegtis
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Vietinė apžvalga
+        - name: Visuotinio vietinio diegimo parinktis
           href: deployment/on-premises-overview.md
-        - name: Vietinio visuotinio diegimo planavimas
+        - name: Visuotinių vietinių diegimų planavimas ir rengimas
           href: deployment/plan-onprem-deployment.md
-        - name: Aparatūros dydžio nustatymas
+        - name: Aparatūros dydžio reikalavimai
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: Vietinio projekto kūrimas
+        - name: Vietinių projektų nustatymas
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Visuotinis „Platform Update 12“ diegimas vietinėje aplinkoje
+            - name: Visuotinis „Platform Update 12“ diegimas vietinėse aplinkose
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Visuotinis „Platform Update 8“ ir „Platform Update 11” versijų diegimas vietinėje aplinkoje
+            - name: Visuotinis „Platform Update 8“ ir „Platform Update 11“ versijų diegimas vietinėse aplinkose
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: Atvirkštinio tarpinio serverio konfigūravimas savo vietinei aplinkai
+        - name: Vietinių aplinkų atvirkštinių tarpinių serverių konfigūravimas
           href: deployment/onprem-reverseproxy.md
         - name: Vietinės visuotinės įdiegties naujinimų taikymas
           href: deployment/apply-updates-on-premises.md
-        - name: Kartotinis visuotinis vietinės visuotinės įdiegties diegimas
+        - name: Vietinė diagnostika
+          href: deployment/on-premises-diagnostics.md
+        - name: Kartotinis visuotinis vietinių visuotinių įdiegčių diegimas
           href: deployment/redeploy-on-prem.md
         - name: Vietos agento atnaujinimas
           href: lifecycle-services/update-local-agent.md
-        - name: Aplinkos konfigūravimas iš naujo
+        - name: Kartotinis aplinkų konfigūravimas
           href: lifecycle-services/reconfigure-environment.md
         - name: Kliento interneto ryšys
           href: user-interface/client-disconnected.md
-        - name: „Dynamics 365 for Finance and Operations“ vietinės versijos trikčių diagnostika
+        - name: Vietinių visuotinių įdiegčių trikčių diagnostika
           href: deployment/troubleshoot-on-prem.md
     - name: Visuotinis pasirinktinio kodo diegimas
       items:
-        - name: Diegiamo paketo kūrimas
+        - name: Galimų diegti modelių paketų kūrimas
           href: deployment/create-apply-deployable-package.md
-        - name: Debesies aplinkos naujinimų taikymas
+        - name: Debesies aplinkų naujinimų taikymas
           href: deployment/apply-deployable-package-system.md
-        - name: Diegiamo paketo diegimas
+        - name: Galimų diegti paketų diegimas iš komandų eilutės
           href: deployment/install-deployable-package.md
         - name: Paketo šalinimas
           href: deployment/uninstall-deployable-package.md
@@ -1021,44 +1046,44 @@
 - name: 'Plėtotės, naujinimai ir karštosios pataisos'
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Plėtojimas iš AX 2012 į „Dynamics 365 for Finance and Operations”
+    - name: Plėtojimas iš AX 2012 į „Finance and Operations“
       href: migration-upgrade/upgrade-overview-2012.md
       items:
-        - name: AX 2012 versijos naujinimas – plėtojimo analizavimo įrankio naudojimas planuojant
+        - name: AX 2012 versijos naujinimas – planavimas naudojant plėtojimo analizavimo įrankį
           href: migration-upgrade/upgrade-analyzer-tool.md
-        - name: AX 2012 versijos naujinimas – kodo plėtojimo tarnybos naudojimas pastangoms numatyti
+        - name: AX 2012 versijos naujinimas – pastangų numatymas naudojant kodo plėtojimo tarnybą
           href: migration-upgrade/analyze-code-upgrade.md
-        - name: AX 2012 versijos naujinimas – visuotinis smėlio dėžės aplinkos diegimas
+        - name: AX 2012 versijos naujinimas – visuotinis analizės demonstracinės aplinkos diegimas
           href: migration-upgrade/analysis-sandbox.md
-        - name: AX 2012 versijos naujinimas – duomenų plėtojimas programavimo aplinkoje
+        - name: AX 2012 versijos naujinimas – duomenų plėtojimas programavimo aplinkose
           href: migration-upgrade/data-upgrade-2012.md
-        - name: AX 2012 versijos naujinimas – AX 2012 duomenų plėtojimo užduotys
+        - name: AX 2012 versijos naujinimas – išankstinis duomenų naujinimo kontrolinis sąrašas
           href: migration-upgrade/prepare-data-upgrade.md
-        - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkoje
+        - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
           href: migration-upgrade/upgrade-data-sandbox.md
         - name: AX 2012 versijos naujinimas – visiško perkėlimo bandymai
           href: migration-upgrade/upgrade-cutover-testing.md
-        - name: 'AX 2012 versijos naujinimas – užduotys, atliktinos užbaigus versijos naujinimą'
+        - name: AX 2012 versijos naujinimas – užduotys po atnaujinimo
           href: migration-upgrade/app-validation-process.md
-        - name: AX 2012 versijos naujinimas – funkcijų tikrinimas
+        - name: AX 2012 versijos naujinimas – funkcijų tikrinimai
           href: migration-upgrade/upgrade-functional-validation.md
-        - name: AX 2012 versijos naujinimas – rengimasis paleidimui
+        - name: AX 2012 versijos naujinimas – rengimasis įgyvendinimo pradžiai
           href: migration-upgrade/upgrade-go-live-prep.md
-        - name: AX 2012 versijos naujinimas – paleidimas
+        - name: AX 2012 versijos naujinimas – įgyvendinimo pradžia
           href: migration-upgrade/2012-upgrade-cutover.md
-        - name: 'Pakeitimai, turintys įtakos AX 2012 versijos naujinimui'
+        - name: 'Keitimai, turintys įtakos AX 2012 versijos naujinimui'
           items:
-            - name: Sąskaitų plano skyriklis turi būti unikalus
+            - name: 'Sąskaitų plano skyriklio nustatymas, kad jis būtų unikalus'
               href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: Vieno kvito ir valiutos kurso pasikeitimo plėtojimas
+            - name: Vieno kvito žurnalų ir valiutos kurso pasikeitimų plėtojimas
               href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
             - name: Projekto išteklių planavimo duomenų modelis
               href: migration-upgrade/data-model-changes-resource-management.md
             - name: Darbo eigos posistemės pokyčiai
               href: migration-upgrade/workflow-subsystem.md
-            - name: Kodėl nuo kubų perėjome prie agreguotų modelių
+            - name: Vietoje kubų naudojamų modelių agregavimas analizei atlikti
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: Atnaujinto pardavimo kubo perkėlimas į objektų saugyklą
+            - name: Atnaujintų pardavimo kubų perkėlimas į objektų saugyklą
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Biudžeto planavimo naujinimas
               href: migration-upgrade/upgrade-budget-planning.md
@@ -1067,9 +1092,9 @@
       items:
         - name: Pasirengimas kodui perkelti
           href: migration-upgrade/prepare-migration.md
-        - name: „Visual Studio Team Services“ sąsajos konfigūravimas perkeliant kodą
+        - name: „Visual Studio Team Services“ sąsajos konfigūravimas
           href: migration-upgrade/configure-vso-solution.md
-        - name: Išskaidyti modeliai
+        - name: Modelių išskaidymas
           href: dev-tools/model-split.md
         - name: Priklausomybių tarp modelių sprendimas naudojant perėmėjus
           href: migration-upgrade/delegates-migration.md
@@ -1077,21 +1102,21 @@
       items:
         - name: Perėjimo į naujausią naujinimą procesas
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Naudojimo ciklo strategija
+        - name: Programinės įrangos ciklo strategija ir debesies leidimai
           href: migration-upgrade/versions-update-policy.md
-        - name: Naujausios „Platform Update” versijos taikymas jūsų aplinkoje
+        - name: Naujausios „Platform Update“ versijos taikymas aplinkose
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: "„Dynamics‟ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
+        - name: "„Dynamics AX“ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
           href: migration-upgrade/update-platform-each-release.md
-        - name: Smėlio dėžės aplinkos plėtojimas
+        - name: Smėlio dėžės aplinkų plėtojimas
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: Duomenų plėtojimas programavimo arba demonstracinėje aplinkose
+        - name: 'Duomenų plėtojimas programavimo, demonstracinėje arba smėlio dėžės aplinkose'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Kūrimo įrankių naujinimas
           href: dev-tools/update-development-tools.md
-    - name: Plėtojimas į naujausią naujinimą (vietinė)
+    - name: Plėtojimas į naujausią naujinimą (vietinis)
       items:
-        - name: Vietinės visuotinės įdiegties naujinimų taikymas
+        - name: Vietinių visuotinių įdiegčių naujinimų taikymas
           href: deployment/apply-updates-on-premises.md
         - name: Kartotinis visuotinis vietinės visuotinės įdiegties diegimas
           href: deployment/redeploy-on-prem.md
@@ -1099,26 +1124,26 @@
       items:
         - name: Karštųjų pataisų atsisiuntimas iš „Lifecycle Services“
           href: migration-upgrade/download-hotfix-lcs.md
-        - name: Debesies aplinkos naujinimų taikymas
+        - name: Debesies aplinkų naujinimų taikymas
           href: deployment/apply-deployable-package-system.md
-        - name: Karštosios metaduomenų pataisos diegimas
+        - name: Karštųjų metaduomenų pataisų diegimas programavimo aplinkose
           href: migration-upgrade/install-metadata-hotfix-package.md
-        - name: „Reporting Services“ taisymas vieno bloko aplinkoje
+        - name: „Reporting Services“ taisymas vieno bloko aplinkose
           href: migration-upgrade/patch-reporting-service-environment.md
         - name: „Visual Studio“ kūrimo įrankių naujinimas​
           href: dev-tools/update-development-tools.md
     - name: Draudimai naudoti
       items:
-        - name: Nebenaudojamos API
+        - name: Nebenaudojamos API sąsajos
           href: migration-upgrade/deprecated-apis.md
         - name: Nebenaudojamos funkcijos
           href: migration-upgrade/deprecated-features.md
 - name: Sistemos administravimas
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: DUK apie mėnesinius platformos naujinimus
+    - name: DUK apie mėnesinius debesies platformos naujinimus
       href: sysadmin/faq-platform-monthly-updates.md
-    - name: Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas
+    - name: Saitų įtraukimas į jūsų teisines sąlygas ir privatumo nuostatas
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Licencijų kodų ir konfigūracijos raktų ataskaita
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1135,7 +1160,7 @@
       items:
         - name: Saugos architektūra
           href: sysadmin/security-architecture.md
-        - name: Saugos ataskaitos
+        - name: Parengtos naudoti saugos ataskaitos
           href: sysadmin/security-reports.md
         - name: Naujų vartotojų kūrimas
           href: sysadmin/tasks/create-new-users.md
@@ -1150,18 +1175,18 @@
     - name: Paketinis vykdymas
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: Paketinio vykdymo serverio apžvalga
+        - name: Paketinis vykdymas ir paketinio apdorojimo serveriai
           href: sysadmin/batch-server-overview.md
-        - name: Paketinės užduoties kūrimas
+        - name: Paketinių užduočių kūrimas
           href: sysadmin/tasks/create-batch-job.md
-    - name: Optimizavimo patariamojo įrankio apžvalga
+    - name: Optimizavimo patariamasis įrankis
       href: sysadmin/optimization-advisor-overview.md
       items:
         - name: Optimizavimo patariamojo įrankio taisyklių kūrimas
           href: sysadmin/create-rules-optimization-advisor.md
 - name: „Lifecycle Services“
   items:
-    - name: „Lifecycle Services“ apžvalga
+    - name: „Lifecycle Services“ ištekliai
       href: lifecycle-services/lcs.md
       items:
         - name: LCS klientams
@@ -1172,7 +1197,7 @@
           href: lifecycle-services/whats-new-lcs.md
         - name: Žinomos problemos
           href: lifecycle-services/known-issues.md
-    - name: „Dynamics Lifecycle Services“ vartotojo vadovas
+    - name: „Lifecycle Services“ vartotojo vadovas
       href: lifecycle-services/lcs-user-guide.md
     - name: Prenumeratos poreikio vertinimo įrankis
       href: lifecycle-services/subscription-estimator.md
@@ -1187,27 +1212,27 @@
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Kodo plėtojimo tarnybos konfigūravimas
       href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: 'Metodikos kūrimas  '
+    - name: Metodikų kūrimas arba naujinimas
       href: lifecycle-services/create-methodology.md
     - name: Verslo procesų modeliavimo įrankis
       href: lifecycle-services/bpm-overview.md
     - name: Verslo procesų bibliotekos verslo procesų modeliavimo įrankyje
       href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: 'BPM bibliotekos kūrimas, redagavimas ar naršymas'
+    - name: 'Verslo procesų modeliavimo įrankio biibliotekų kūrimas, redagavimas ir naršymas'
       href: lifecycle-services/creating-editing-browsing.md
-    - name: Užduočių atlikimas BPM bibliotekoje
+    - name: Užduočių atlikimas verslo procesų modeliavimo įrankyje
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: Veiklos diagramų naudojimas
+    - name: Darbas su veiklos diagramomis BPM bibliotekose
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM bibliotekos sinchronizavimas su „Visual Studio Team Services‟ (VSTS)
+    - name: BPM bibliotekų sinchronizavimas su „Visual Studio Team Services“
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: Priėmimo bandymų komplekto kūrimas naudojant užduočių vedlius ir BPM
+    - name: Vartotojo lygio priėmimo bandymų bibliotekų kūrimas naudojant užduočių vedlius ir BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: Verslo procesų modeliavimo įrankio struktūrinės diagramos
+    - name: Struktūrinės diagramos verslo procesų modeliavimo įrankyje
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: Pasirinktinių verslo procesų nusiuntimas
+    - name: Pasirinktinių verslo procesų nusiuntimas į verslo procesų modeliavimo įrankį
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: 'Stebėjimas ir diagnostika '
+    - name: Stebėjimas ir diagnostika
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Aplinkos paslaugų paleidimas iš naujo
       href: lifecycle-services/restart-environment-services.md
@@ -1215,191 +1240,40 @@
       href: lifecycle-services/user-logins.md
     - name: Turto biblioteka
       href: lifecycle-services/asset-library.md
-    - name: „Microsoft Dynamics 365“ – vertimo tarnybos apžvalga
+    - name: „Microsoft Dynamics 365“ vertimo tarnyba
       href: lifecycle-services/translation-service-overview.md
       items:
-        - name: '„Microsoft Dynamics 365“ – vertimo tarnybos vartotojo vadovas  '
+        - name: Vartotojo sąsajos failų vertimas
           href: lifecycle-services/use-translation-service.md
-        - name: „Microsoft Dynamics 365“ vertimo tarnyba – dokumentacijos failų vertimas
+        - name: Dokumentacijos failų vertimas
           href: lifecycle-services/use-translation-service-ua.md
-        - name: „Microsoft Dynamics 365“ vertimo tarnyba – vertimo atmintis
+        - name: Vertimo atminties failai
           href: lifecycle-services/use-translation-service-tm.md
-    - name: „Dynamics AX 2012 Lifecycle Services“ funkcijos
-      items:
-        - name: Visuotinis diegimas
-          items:
-            - name: Aplinkos diegimo debesyje įrankis
-              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
-            - name: Konfigūracijos kopijavimas
-              href: lifecycle-services/copy-configuration-lcs.md
-            - name: Visuotinio „Dynamics AX 2012 R3“ diegimo platformoje „Azure‟ planavimas
-              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
-            - name: Visuotinis „Dynamics AX 2012 R3“ diegimas platformoje „Azure‟
-              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
-            - name: Visuotinis demonstracinės „Dynamics AX 2012 R3‟ aplinkos diegimas
-              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
-            - name: Visuotinis kūrimo aplinkos diegimas platformoje „Azure‟
-              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
-            - name: Visuotinis plačiai pasiekiamos aplinkos diegimas platformoje „Azure‟
-              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
-            - name: Visuotinis bandomosios aplinkos diegimas platformoje „Azure‟
-              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
-            - name: Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ valdymas
-              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
-            - name: Įmonės portalų serverių sujungimas į vieną serverių ūkį
-              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
-            - name: Įvesties taškų įrašymas „Dynamics AX‟ įmonės portale
-              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
-            - name: "Visuotinis „Retail E-commerce‟ kūr.\_/ band. aplinkos diegimas platformoje „Azure‟"
-              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
-            - name: Visuotinis „Retail Essentials‟ demonstracinės aplinkos diegimas platformoje „Azure‟
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
-            - name: "Visuotinis „Retail Essentials‟ kūr.\_/ band. aplinkos diegimas platformoje „Azure‟"
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
-            - name: "Visuotinis „Retail Mobility‟ kūr.\_/ band. aplinkos diegimas platformoje „Azure‟"
-              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
-            - name: Visuotinės „Dynamics AX 2012 R3“ įdiegties platformoje „Azure‟ trikčių diagnostika
-              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
-            - name: „Dynamics AX 2012 R3‟ naujinimai
-              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
-        - name: "Duomenų importavimo\_/ eksportavimo sistemos vartotojo vadovas"
-          href: lifecycle-services/ax-2012/user-guide-dixf.md
-          items:
-            - name: Diegimas
-              href: lifecycle-services/ax-2012/install-dixf.md
-              items:
-                - name: Diegimas su AX 2012 R3
-                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
-                - name: „Dynamics AX 2012 R2 CU7‟ versijos diegimas su „SQL Server 2014‟
-                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
-            - name: Duomenų perkėlimas
-              href: lifecycle-services/ax-2012/migrate-data-dixf.md
-            - name: SSIS versijos konfigūravimas
-              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
-            - name: Objekto duomenų kopijavimas ir lyginimas tarp įmonių
-              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
-            - name: Duomenų kopijavimas tarp „Dynamics AX‟ įmonių
-              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
-            - name: Duomenų kopijavimas tarp „Dynamics AX‟ egzempliorių
-              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
-            - name: Pasirinktinio paskirties objekto kūrimas
-              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
-            - name: "Duomenų importavimo\_/ eksportavimo sistemos objektai"
-              href: lifecycle-services/ax-2012/entities-dixf.md
-            - name: Duomenų importavimas iš CSV duomenų šaltinio
-              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
-            - name: Duomenų importavimas iš ODBC duomenų šaltinio
-              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
-            - name: Demonstraciniai failai
-              href: lifecycle-services/ax-2012/demo-files-dixf.md
-            - name: Spartusis importavimas-eksportavimas
-              href: lifecycle-services/ax-2012/quick-import-export.md
-        - name: Lentelės
-          items:
-            - name: Lentelių kūrimas
-              href: lifecycle-services/ax-2012/create-tables.md
-            - name: Lentelių ypatybės
-              href: lifecycle-services/ax-2012/table-properties.md
-        - name: „Dynamics AX 2012“ LCS įrankiai
-          items:
-            - name: Projektai
-              href: lifecycle-services/ax-2012/projects-lcs.md
-            - name: Metodikos
-              href: lifecycle-services/ax-2012/methodologies-lcs.md
-            - name: 'Tinkinimo analizė  '
-              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
-            - name: Infrastruktūros poreikio vertinimo įrankis
-              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
-            - name: Licencijų poreikio skaičiavimo įrankis
-              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
-            - name: Atsakymai į siūlymo užklausas (lifecycle-services/RFP.md)
-              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
-            - name: Sistemos diagnostika
-              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
-            - name: Sistemos diagnostikos diegimas ir vykdymas
-              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
-            - name: Plėtojimo analizė
-              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
-            - name: Naudojimo analizės įrankis
-              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
-        - name: „Dynamics AX 2012“ atsisiunčiami įrankiai
-          items:
-            - name: Kodo plėtojimo įrankio vartotojo vadovas (nebenaudojamas)
-              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
-            - name: „Lifecycle Services“ atsisiunčiami įrankiai
-              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
-            - name: Bandomųjų duomenų perkėlimo įrankis (beta)
-              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
-              items:
-                - name: Diegimas
-                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
-                - name: Vykdymas
-                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
-                - name: AX 2012 R3 demonstracinių duomenų importavimas
-                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
-            - name: Saugos kūrimo įrankis
-              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
-              items:
-                - name: Diegimas
-                  href: lifecycle-services/ax-2012/install-security-development-tool.md
-                - name: Vartotojo vadovas
-                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
-                - name: Įvesties taškų teisių nustatymas ar redagavimas
-                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
-            - name: „Performance Benchmark“ programinės įrangos diegimo įrankių rinkinys
-              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
-            - name: Saugos parametrų naujinimo patariamasis įrankis
-              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
-            - name: „Intelligent Data Management Framework“ (IDMF)
-              href: lifecycle-services/ax-2012/microsoft-idmf.md
-              items:
-                - name: Apžvalga
-                  href: lifecycle-services/ax-2012/overview-idmf.md
-                - name: Diegimo vadovas
-                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
-                - name: Konfigūravimas
-                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
-                - name: Analizė
-                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
-                - name: Objektų šalinimas ir archyvavimas
-                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
-                - name: Archyvo objektų kūrimas
-                  href: lifecycle-services/ax-2012/create-archive-objects.md
-                - name: Šalinimo objektų kūrimas
-                  href: lifecycle-services/ax-2012/create-purge-objects.md
-                - name: Šalinimo ir analizės užduočių planavimas
-                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
-                - name: Šalinimo ar archyvo užduočių peržiūra
-                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
-                - name: Tvarkymas
-                  href: lifecycle-services/ax-2012/maintain-idmf.md
-                - name: Trikčių diagnostika
-                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
 - name: Duomenų bazės valdymas
   items:
-    - name: Duomenų bazės kopijavimas iš „Azure SQL Database‟ į „SQL Server‟ aplinką
+    - name: Duomenų bazių kopijavimas iš „Azure SQL Database“ į „SQL Server“ aplinkas
       href: database/copy-database-from-azure-sql-to-sql-server.md
-    - name: Duomenų bazės kopijavimas iš „SQL Server‟ į „Azure SQL Database‟ gamybos aplinką
+    - name: Duomenų bazių kopijavimas iš „SQL Server“ į „Azure SQL Database“ gamybos aplinkas
       href: database/copy-database-from-sql-server-to-azure-sql.md
-    - name: Duomenų bazės ne gamybos aplinkoje atkūrimas
+    - name: Duomenų bazių ne gamybos aplinkose atkūrimas
       href: database/request-point-in-time-restore.md
-    - name: 'Duomenų bazės kopijos eksportavimas, kad ją būtų galima atkurti vėliau'
+    - name: 'Duomenų bazių kopijų eksportavimas, kad jas būtų galima atkurti vėliau'
       href: database/copy-operations-database.md
-    - name: Smėlio dėžės duomenų bazės atnaujinimo užklausa
+    - name: Smėlio dėžės duomenų bazės atnaujinimų užklausa
       href: database/database-refresh.md
 - name: Palaikymas
   items:
-    - name: „Dynamics 365 for Finance and Operations‟ ir „Lifecycle Services“ palaikymo gavimas
+    - name: „Finance and Operations“ ir „Lifecycle Services“ palaikymo gavimas
       href: lifecycle-services/lcs-support.md
     - name: „Premier“ palaikymo bilieto registravimas
       href: lifecycle-services/premier-support.md
-    - name: Užklausos teikimas „Dynamics‟ paslaugų inžinierių komandai
+    - name: Užklausų teikimas „Dynamics“ paslaugų inžinierių komandai
       href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: „Dynamics 365 for Finance and Operations‟ techninio palaikymo nustatymas
+    - name: „Finance and Operations“ techninio palaikymo nustatymas
       href: lifecycle-services/support-experience.md
     - name: DUK apie suplanuotą priežiūros laiko intervalą
       href: lifecycle-services/planned-maintenance-window-faq.md
     - name: Debesies operacijos ir aptarnavimas
       href: lifecycle-services/cloud-operations-servicing.md
-    - name: „Finance and Operations‟ palaikymo patirčių valdymas
+    - name: „Finance and Operations“ palaikymo patirčių valdymas
       href: lifecycle-services/cloud-powered-support-lcs.md

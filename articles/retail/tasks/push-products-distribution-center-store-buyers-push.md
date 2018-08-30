@@ -1,6 +1,6 @@
 --- 
-title: " Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams"
-description: "Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams iš vienos vietos į vieną ar kelias parduotuves paskirstyti."
+title: "Produktų skirstymas iš paskirstymo centrų į parduotuves naudojant skirstymą pirkėjams"
+description: "Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams paskirstyti iš vienos vietos į vieną ar kelias parduotuves."
 author: rubencdelgado
 manager: AnnBe
 ms.date: 02/17/2016
@@ -17,17 +17,17 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ed47b4f052dab99dec058910e4b8558481b34e59
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
+# <a name="push-products-from-distribution-centers-to-stores-via-buyers-push"></a>Produktų skirstymas iš paskirstymo centrų į parduotuves naudojant skirstymą pirkėjams
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams iš vienos vietos į vieną ar kelias parduotuves paskirstyti. Vartotojas gali nustatyti kelias konfigūracijas ir nurodyti sistemai siūlyti, kaip paskirstyti produktus, arba patys įvesti, kur produktai turi būti paskirstomi ir koks jų kiekis paskirstomas į kiekvieną parduotuvę. Į šią procedūrą neįtraukiamas duomenų, kuriuos galima naudoti skirstyme pirkėjams, pvz., papildymo taisyklių, organizacijos hierarchijų ir parduotuvės reikšmės, nustatymas. Šioje procedūroje naudojama demonstracinė įmonė USRT.
+Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams paskirstyti iš vienos vietos į vieną ar kelias parduotuves. Vartotojas gali nustatyti kelias konfigūracijas ir nurodyti sistemai siūlyti, kaip paskirstyti produktus, arba patys įvesti, kur produktai turi būti paskirstomi ir koks jų kiekis paskirstomas į kiekvieną parduotuvę. Į šią procedūrą neįtraukiamas duomenų, kuriuos galima naudoti skirstyme pirkėjams, pvz., papildymo taisyklių, organizacijos hierarchijų ir parduotuvės reikšmės, nustatymas. Šioje procedūroje naudojama demonstracinė įmonė USRT.
 
 1. Pasirinkite Skirstymas pirkėjams.
 2. Spustelėkite Naujas.

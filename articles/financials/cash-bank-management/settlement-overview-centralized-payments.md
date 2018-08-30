@@ -1,16 +1,16 @@
 ---
 title: "Centralizuotų mokėjimų sudengimo apžvalga"
-description: "Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti keliuose juridiniuose subjektuose ir yra sutaupoma laiko supaprastinant mokėjimo pasiūlymo procesą, atsiskaitymo procesą, atvirų operacijų redagavimą ir centralizuotų mokėjimų uždarytų operacijų redagavimą."
+description: "Šioje temoje aprašomas „Microsoft Dynamics 365 for Finance and Operations“ centralizuotų mokėjimų sudengimas."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -35,8 +35,8 @@ Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti 
 Kai kliento arba tiekėjo mokėjimas įvedamas viename juridiniame subjekte ir sudengiamas su SF, kuri buvo įvesta kitame juridiniame subjekte, kiekvienam juridiniam subjektui automatiškai sukuriamas tinkamas sudengimas, „mokėti iki“ ir „mokėti nuo“ operacijos. Sudengimo įrašas sukuriamas kiekvienam SF ir mokėjimo deriniui. Kiekvienam sudengimo įrašui priskiriamas naujas kvito numeris, pagrįstas mokėjimo kvito numeracijos serija, nurodyta klientų puslapyje **Gautinų sumų parametrai** ir tiekėjų puslapyje **Mokėtinų sumų parametrai**. 
 
 Jei papildomi sudengimo įrašai sukuriami mokėjimo nuolaidoms, užsienio valiutos kurso pasikeitimas, centų skirtumams, permokėjimams arba neprimokėjimams, jie priskiriami vėlesnei mokėjimo arba SF operacijos datai. Jeigu sudengimas vyksta po to, kai mokėjimas užregistruotas, sudengimo įrašai naudoja sudengimo registravimo datą, nurodytą puslapyje **Atvirų operacijų sudengimas**.
-Registravimo tipai, operacijų tipai ir numatytieji aprašai
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Registravimo tipai, operacijų tipai ir numatytieji aprašai
 
 Vidinės įmonės sudengimo kvito operacijose naudojami vidinės įmonės sudengimo registravimo tipas, vidinės įmonės klientų sudengimo ir vidinės įmonės tiekėjo sudengimo operacijų tipai. Operacijos tipo operaciją galima nustatyti puslapyje **Numatytieji aprašai**. 
 
@@ -50,8 +50,7 @@ Vidinės įmonės sudengimo kvito operacijose naudojami vidinės įmonės sudeng
 
 Taip pat galite nustatyti numatytuosius vidinės įmonės sudengimo kvitų aprašus.
 
-<a name="currency-exchange-gains-or-losses"></a>Pelnas ir nuostolis dėl valiutos kurso
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Pelnas ir nuostolis dėl valiutos kurso
 
 Su operacija saugomas valiutos kursas, naudojamas kliento arba tiekėjo operacijoms. Dėl valiutos kurso realizuotas pelnas arba patirtas nuostolis užregistruojamas SF juridiniame subjekte arba mokėjimo juridiniame subjekte, atsižvelgiant į mokėjimo juridinio subjekto puslapio **Vidinės įmonės apskaita** lauke **Registruoti valiutos kurso pelną arba nuostolį** pasirinktą parinktį. Šiuose pavyzdžiuose naudojamos tokios valiutos:
 -   Mokėjimo apskaitos valiuta: EUR
@@ -59,7 +58,7 @@ Su operacija saugomas valiutos kursas, naudojamas kliento arba tiekėjo operacij
 -   Mokėjimo operacijos valiuta: DKK
 -   SF operacijos valiuta: CAD
 
-#### <a name="currency-calculations"></a>Valiutos skaičiavimai
+### <a name="currency-calculations"></a>Valiutos skaičiavimai
 
 Kai viename juridiniame subjekte įvesta SF sudengiama su kitame juridiniame subjekte įvestu mokėjimu, mokėjimo operacijos valiuta (DKK) konvertuojama atliekant tris tolesnius veiksmus.
 1.  Konvertuojama į su mokėjimu susijusios apskaitos valiutą (EUR), taikant mokėjimo juridinio subjekto valiutos kursą.
@@ -75,17 +74,15 @@ Kai puslapis **Atvirų operacijų sudengimas** atidaromas iš mokėjimų žurnal
 
 Uždarius puslapį **Atvirų operacijų sudengimas** gauta mokėjimo suma perkeliama į mokėjimų žurnalo eilutę.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Pelno arba nuostolio, patirto dėl skirtingų apskaitos valiutų, registravimas
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Pelno arba nuostolio, patirto dėl skirtingų apskaitos valiutų, registravimas
 
 Jeigu gaunamas valiutos kurso pelnas arba patiriamas nuostolis, jis registruojamas juridiniame subjekte, kuris nurodytas mokėjimo juridinio subjekto puslapio **Vidinės įmonės apskaita** lauke **Registruoti valiutos kurso pelną arba nuostolį**. Pelno arba nuostolio suma konvertuojama į juridinio subjekto, kuriame užregistruota pelno arba nuostolio suma, apskaitos valiutą, taikant nustatytą to juridinio subjekto valiutos kursą.
 
-<a name="cash-discounts"></a>Mokėjimo nuolaidos
---------------
+## <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
 Mokėjimo nuolaidos, generuojamos visų įmonių sudengimo metu, užregistruojamos SF juridiniame subjekte arba mokėjimo juridiniame subjekte, atsižvelgiant į mokėjimo juridinio subjekto puslapio **Vidinės įmonės apskaita** lauke **Registruoti mokėjimo nuolaidą** pasirinktą parinktį. SF juridiniame subjekte generuojama atitinkama sudengimo operacija.
 
-<a name="overpayments-and-underpayments"></a>Permokėjimas ir neprimokėjimas
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Permokėjimas ir neprimokėjimas
 
 Leistini permokėjimo / neprimokėjimo ir centų skirtumo nuokrypiai nustatomi atsižvelgiant į su mokėjimu susijusį juridinį subjektą (permokėjimui) ir SF juridinį subjektą (neprimokėjimui). Naudojama registravimo sąskaita nustatoma naudojant klientų puslapio **Gautinų sumų parametrai** lauko **Mokėjimo nuolaidų administravimas** parametrą ir tiekėjų puslapio **Mokėtinų sumų parametrai** lauko **Mokėjimo nuolaidų administravimas** parametrą.
 
@@ -112,9 +109,4 @@ Tiekėjo mokėjimams „mokėti iki“ ir „mokėti nuo“ operacijos mokėjimo
 
 ## <a name="withholding-tax"></a>Išskaitomas mokestis
 Tiekėjo kodas, susietas su SF, naudojamas norint nustatyti, ar išskaitomas mokestis turėtų būti skaičiuojamas. Jei išskaitomas mokestis pritaikomas, jis apskaičiuojamas juridiniame subjekte, kuris susietas su SF. Jei juridiniame subjekte naudojamos skirtingos valiutos, naudojamas su SF susieto juridinio subjekto valiutos kursas.
-
-
-
-
-
 

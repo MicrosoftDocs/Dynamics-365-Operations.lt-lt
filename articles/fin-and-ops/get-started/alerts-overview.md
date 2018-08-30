@@ -1,5 +1,5 @@
 ---
-title: "Įspėjimų apžvalga"
+title: "Įspėjimai"
 description: "Šioje temoje pateikiama bendra informacija apie įspėjimus „Microsoft Dynamics 365 for Finance and Operations“. Įspėjimus galite naudoti, kad būtumėte informuoti apie įvykius, kuriuos norite sekti darbo dienos metu."
 author: tjvass
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="alerts-overview"></a>Įspėjimų apžvalga
+# <a name="alerts"></a>Įspėjimai
 
 [!include [banner](../includes/banner.md)]
 

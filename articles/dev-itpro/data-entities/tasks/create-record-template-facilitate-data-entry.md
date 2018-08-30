@@ -1,5 +1,5 @@
 --- 
-title: "Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis"
+title: "Įrašo šablonų kūrimas siekiant paprastesnio duomenų įvedimo"
 description: "Šioje procedūroje parodoma, kaip sukurti įrašo šabloną, kad dėl kiekvieno naujo įrašo nereikėtų tiesiogiai įvedinėti dažnai naudojamų laukų reikšmių."
 author: sericks007
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: afe2da72ef6a6451e797ed6098df164e765e503e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a>Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis
+# <a name="create-record-templates-to-facilitate-data-entry"></a>Įrašo šablonų kūrimas siekiant paprastesnio duomenų įvedimo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Konfigūracijų kūrimas, leidžiantis analizuoti gaunamus dokumentus, ar nėra programos duomenų naujinimų (ER)"
+title: "ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus"
 description: "Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Konfigūracijų kūrimas, leidžiantis analizuoti gaunamus dokumentus, ar nėra programos duomenų naujinimų (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 02/07/2018
 
 Ši procedūra sukurta vartotojams, kuriems priskirtas vaidmuo Sistemos administratorius arba Elektroninių ataskaitų teikimo programuotojas. 
 
-Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Prieš pradėdami atsisiųskite ir įrašykite failus, išvardytus temoje „Analizuoti gaunamus dokumentus siekiant atnaujinti programos duomenis“ (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Turimi omenyje šie failai: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Prieš pradėdami atsisiųskite ir išsaugokite failus, pateiktus temoje „Gaunamų dokumentų analizė siekiant atnaujinti prašymų duomenis“ (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Turimi omenyje šie failai: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų“ veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
-    * Toliau pateikiamas scenarijus bus naudojamas norint nurodyti XML formatu pateiktų gaunamų elektroninių dokumentų analizavimo galimybes: ERP programa („Dynamics 365 for Finance and Operations“) reikalauja duomenų iš žiniatinklio tarnybos (pvz., http://efsta.org/ EFSTA finansų tarnybos) ir analizuoja gaunamus atsakymus, kad būtų galima atitinkamai atnaujinti programos duomenis. Siekiant, kad analizavimas būtų efektyviausias naudojamas vienas ER formatas, nepaisant to, kad laukiamų gaunamų XML formatu pateikiamų dokumentų struktūra skiriasi.   
+    * Toliau pateikiamas scenarijus bus naudojamas norint nurodyti XML formatu pateiktų gaunamų elektroninių dokumentų analizavimo galimybes: ERP programa („Dynamics 365 for Finance and Operations“) pareikalauja duomenų iš žiniatinklio tarnybos (pavyzdžiui, http://efsta.org/ EFSTA fiskalinės tarnybos) ir analizuoja gaunamus atsakymus, kad būtų galima atitinkamai atnaujinti programos duomenis. Siekiant, kad analizavimas būtų efektyviausias naudojamas vienas ER formatas, nepaisant to, kad laukiamų gaunamų XML formatu pateikiamų dokumentų struktūra skiriasi.   
 
 ## <a name="import-and-review-er-configurations"></a>Importuoti ir peržiūrėti ER konfigūracijas
 Importuokite ER modelio konfigūraciją, kurioje yra duomenų modelio pavyzdys, skirtas saugoti informaciją apie gaunamą failą.  

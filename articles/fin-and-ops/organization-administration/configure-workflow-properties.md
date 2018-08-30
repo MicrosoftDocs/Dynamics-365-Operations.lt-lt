@@ -3,7 +3,7 @@ title: "Darbo eigos ypatybių konfigūravimas"
 description: "Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
+ms.sourcegitcommit: ba03473dd6fc31d51fd4e890acac1cd1494ef5a3
+ms.openlocfilehash: a327b85f18f03294a237c3795ae2e1f4a97095f0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -107,6 +107,7 @@ Kai dokumentas pateikiamas apdoroti, sukuriamas darbo eigos egzempliorius. Prane
     2.  Spustelėkite **Įterpti vietos rezervavimo ženklą**.
     3.  Rodomame sąraše pasirinkite vietos rezervavimo ženklus, kuriuos norite įterpti.
     4.  Spustelėkite **Įterpti**.
+    5.  Bendras **Pranešimo teksto** rezervavimo ženklas, kurį reikia įtraukti, yra „Last Notes: %Workflow.Last note%“, kuris parodo visus komentarus iš ankstesniojo veiksmo.
 
 6.  Norėdami įtraukti teksto vertimų, atlikite šiuos veiksmus.
     1.  Spustelėkite **Operacijos**.

@@ -1,5 +1,5 @@
 ---
-title: Kliento lojalumo programos nustatymas
+title: "Klientų lojalumo programų nustatymas"
 description: "Šiame straipsnyje aprašyta, kaip nustatyti lojalumo programą. Lojalumo programos gali padėti padidinti klientų lojalumą atsidėkojant klientams už produktų pirkimą mažmeninės prekybos parduotuvėse. Naudodami „Microsoft Dynamics 365 for Retail“, galite nustatyti paprastas arba sudėtingas lojalumo programas, taikomas visiems jūsų juridiniams subjektams visuose mažmeninės prekybos kanaluose."
 author: scott-tucker
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fbedaa33e7cfd717a074828e47d44473d466ba5a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Kliento lojalumo programos nustatymas
+# <a name="set-up-customer-loyalty-programs"></a>Klientų lojalumo programų nustatymas
 
 [!include [banner](includes/banner.md)]
 

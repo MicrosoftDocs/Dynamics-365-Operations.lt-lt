@@ -46,8 +46,6 @@ Pirmame integravimo tarp „Field Service“ ir „Finance and Operations“ eta
 
 Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Finance and Operations“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 „Field Service“ integravimas palaikomas toliau nurodytose versijose.
 

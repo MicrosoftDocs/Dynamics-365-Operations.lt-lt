@@ -4,7 +4,7 @@
   items:
     - name: Kas nauja ar pasikeitė
       href: get-started/whats-new.md
-    - name: Prieš perkant „Dynamics 365 for Retail“
+    - name: Prieš perkant „Retail“
       href: get-started/before-you-buy.md
     - name: Registravimasis peržiūros versijos prenumeratai gauti
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
@@ -12,13 +12,44 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Visuotinio diegimo parinktys
       href: dev-itpro/choose-deployment.md
+- name: Diegimo ciklo supratimas
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: „Microsoft FastTrack for Dynamics 365“
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Supažindinimas
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Rengimasis įgyvendinimo pradžiai
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: DUK apie įgyvendinimo pradžią
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Paslaugos užklausos teikimas
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Su prenumeratomis, LCS projektais ir „Azure Active Directory“ nuomotojais susiję DUK'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Perkelti aplinkas iš vieno duomenų centro į kitą
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Perkelti licencijas iš vieno sutarties tipo į kitą
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Perkelti LCS įdiegimo projektą į kitą „Azure Active Directory“ nuomininką
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Kelių LCS projektų ir gamybos aplinkų diegimas tame pačiame „Azure Active Directory“ nuomotojuje.
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: „Finance and Operations“ „Retail“ projektų įdiegimas
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: '„Retail“ projektų naujų aplinkų, VSTS ir šakų nustatymas'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: „Retail“ projektų kodo ir aplinkų naujinimas
+      href: dev-itpro/updating-environments.md
+    - name: Bandymai ir efektyvumo problemos
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: Mokėjimai
   items:
     - name: Mokėjimo būdai
       href: payment-methods.md
     - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: EKA mokėjimo būdų konfigūravimas
+    - name: Grynųjų pinigų nominaliosios vertės POS konfigūravimas
       href: cash-denominations.md
     - name: Mokėjimų DUK
       href: dev-itpro/payments-retail.md
@@ -36,21 +67,21 @@
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
 - name: Išrašai
   items:
-    - name: Mažmeninės prekybos išrašų apžvalga
+    - name: Mažmeninės prekybos išrašai
       href: retail-statements.md
-    - name: 'Mažmeninės prekybos parduotuvės išrašo kūrimas, skaičiavimas ir registravimas'
+    - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: Išrašų registravimo patobulinimai
+    - name: Išrašų registravimo patobulinimų funkcijos
       href: statement-posting-EOD.md
-    - name: Mažmeninės prekybos išrašų parametrų konfigūracijos
+    - name: '„Retail“ parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Mažmeninės prekybos išrašų mokėjimo konfigūracijos
+    - name: 'Mokėjimo būdų parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
       href: tasks/payment-configurations-retail-statements.md
     - name: Išrašų skaičiavimo užduoties konfigūravimas ir vykdymas
       href: tasks/run-job-calculate-statements.md
     - name: Užduoties įrašams registruoti​ konfigūravimas ir vykdymas
       href: tasks/run-job-post-statements.md
-    - name: Mažmeninės prekybos išrašų parduotuvės konfigūracijos
+    - name: 'Parduotuvės parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
       href: tasks/store-configurations-retail-statements.md
 - name: PVM
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Skambučių centras
   items:
-    - name: Skambučių centro apžvalga
+    - name: Skambučių centro pardavimo funkcijos
       href: call-center-functionality.md
     - name: Skambučių centro katalogai
       href: call-center-catalogs.md
@@ -72,25 +103,25 @@
       href: create-call-center-catalogs.md
     - name: Pristatymo būdų ir mokesčių konfigūravimas
       href: configure-call-center-delivery.md
-    - name: Įspėjimų dėl apgaulės nustatymas
+    - name: Įspėjimų dėl apgaulės nustatymas ir jų naudojimas
       href: set-up-fraud-alerts.md
-    - name: Skambučių centro nustatymas
+    - name: Skambučių centro kanalų nustatymas
       href: set-up-order-processing-options.md
-    - name: Skambučių centro tęstinumo programos nustatymas
+    - name: Skambučių centrų tęstinumo programų nustatymas
       href: set-up-continuity-program.md
-    - name: Skambučių centro užsakymų sulaikymai
+    - name: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
       href: work-with-order-holds.md
-    - name: Mokėjimo parinktys
+    - name: Mokėjimo būdai
       href: work-with-payments.md
 - name: Kanalo nustatymas ir valdymas
   items:
-    - name: Pradinių duomenų inicijavimas „Retail“ aplinkoje
+    - name: Pradinių duomenų inicijavimas naujose „Retail“ aplinkose
       href: enable-configure-retail-functionality.md
-    - name: Mažmeninės prekybos kanalų nustatymas
+    - name: Mažmeninės prekybos kanalų nustatymas ir tvarkymas
       href: define-maintain-retail-channels.md
     - name: Asortimento valdymas
       href: assortments.md
-    - name: Internetinės parduotuvės apžvalga
+    - name: Internetinių parduotuvių nustatymas
       href: online-stores.md
     - name: „Retail hardware station“ konfigūravimas ir diegimas
       href: retail-hardware-station-configuration-installation.md
@@ -98,29 +129,29 @@
       href: retail-time-attendance.md
 - name: „Modern Point of Sale“ (MPOS) ir „Cloud POS“
   items:
-    - name: Pasirinkimas tarp „Modern POS“ ir „Cloud POS“
+    - name: Pasirinkimas tarp MPOS ir „Cloud POS“
       href: MPOS-or-CPOS.md
     - name: 'EKA operacijos, prisijungus ir neprisijungus prie interneto'
       href: pos-operations.md
-    - name: "MPOS\_/ CPOS demonstracinių duomenų ekrano maketai"
+    - name: MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
       href: demo-data.md
-    - name: Produktų ir klientų ieškos elektroniniame kasos aparate apžvalga
+    - name: EKA produktų ir klientų ieška
       href: POS-search-improvements.md
-    - name: Atsargų peržvalga elektroniniame kasos aparate
+    - name: EKA atsargų peržvalga
       href: product-variants-POS.md
     - name: Išoriniai aparatūros įrenginiai
       items:
-        - name: Mažmeninės prekybos išorinių įrenginių apžvalga
+        - name: Mažmeninės prekybos išoriniai įrenginiai
           href: retail-peripherals-overview.md
         - name: „Microsoft“ išbandyti išoriniai EKA aparatūros įrenginiai
           href: microsoft-tested-pos-hardware-peripherals.md
         - name: Mažmeninės prekybos periferinis simuliatorius
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: 'Kanalo klientų, kasos aparatų ir aparatūros stočių nustatymas ir tvarkymas'
+        - name: Išorinių įrenginių prijungimas prie EKA
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: Ekrano maketas
+    - name: Ekrano maketai
       items:
-        - name: POS ekrano maketų konfigūravimas
+        - name: EKA ekrano maketai
           href: pos-screen-layouts.md
         - name: „Retail POS“ maketo dizaino įrankio diegimas
           href: install-pos-layout-designer.md
@@ -128,17 +159,17 @@
           href: Notifications-POS.md
         - name: EKA programos ir vartotojo kalbos parametrai
           href: pos-application-user-language-settings.md
-        - name: MPOS vaizdų nustatymas
+        - name: MPOS vaizdų nustatymas ir tvarkymas
           href: set-up-manage-images-retail-mpos.md
-    - name: Informacijos kodų apžvalga
+    - name: Informacijos kodai ir informacijos kodų grupės
       href: info-codes-retail.md
     - name: Produktams su serijos numeriais taikomi EKA patobulinimai
       href: serialized-inventory.md
     - name: Produktų rekomendacijos
       items:
-        - name: Personalizuotų produktų rekomendacijų apžvalga
+        - name: Personalizuotų produktų rekomendacijos
           href: personalized-product-recommendations.md
-        - name: Rekomendacijų valdiklio įtraukimas į EKA įrenginį
+        - name: Rekomendacijų valdiklio įtraukimas į EKA įrenginius
           href: add-recommendations-control-pos-screen.md
     - name: Autonominės EKA funkcijos
       href: pos-offline-functionality.md
@@ -146,39 +177,39 @@
       href: shift-drawer-management.md
     - name: Kliento užsakymai
       items:
-        - name: Kliento užsakymų apžvalga
+        - name: Kliento MPOS užsakymai
           href: customer-orders-overview.md
         - name: Hibridiniai kliento užsakymai
           href: hybrid-customer-orders.md
     - name: Pardavimo darbuotojai
       items:
-        - name: POS komisinių sekimas naudojant pardavimo grupes
+        - name: EKA komisinių sekimas naudojant pardavimo grupes
           href: pos-sales-groups-track-commissions.md
-    - name: Užsakymo siuntimas iš kitos parduotuvės
+    - name: Užsakymų iš kitos parduotuvės siuntimas
       href: charge-send.md
     - name: Įrenginio aktyvinimas
       items:
-        - name: MPOS konfigūravimas ir diegimas
+        - name: 'MPOS konfigūravimas, diegimas ir aktyvinimas'
           href: retail-modern-pos-device-activation.md
-        - name: „Cloud POS“ ir MPOS išplėstinės registracijos nustatymas
+        - name: MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas
           href: extended-logon.md
-        - name: „Retail” sąskaitų ir įrenginių valdymas iš būstinės
+        - name: „Retail“ sąskaitų aktyvinimo ir įrenginių tikrinimo valdymas
           href: set-up-activation-accounts-validate-devices-hq.md
-    - name: Kvitai
+    - name: Gavimai
       items:
-        - name: Kvitų šablonų nustatymas
+        - name: Gavimo kvitų formatų nustatymas ir kūrimas
           href: receipt-templates-printing.md
         - name: Kvitų iš MPOS siuntimas el. paštu
           href: email-receipts.md
-    - name: Užduočių įrašymo priemonė ir EKA žinynas
+    - name: Užduočių įrašymo priemonė ir MPOS bei „Cloud POS“ žinynas
       href: task-recorder-retail-pos.md
 - name: Užsakymo įvykdymas
   items:
-    - name: Parduotuvės užsakymų įvykdymo peržiūra
+    - name: Parduotuvės užsakymų įvykdymas
       href: Order-fulfillment-overview.md
-    - name: Įvykdymo nustatymas parduotuvėje
+    - name: Parduotuvių užsakymų įvykdymo nustatymas
       href: Order-fulfillment-POS-setup.md
-    - name: Pranešimų įjungimas elektroniniame kasos aparate
+    - name: Užsakymų pranešimų rodymas EKA
       href: Notifications-POS.md
 - name: Stebėjimas ir analizė
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: Parduotuvės našumo analizavimas
       href: store-performance-information.md
-    - name: RFM analizės nustatymas
+    - name: '„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas'
       href: set-up-rfm-analysis.md
 - name: Nuolaidos ir kainų koregavimas
   items:
-    - name: Mažmeninės prekybos pardavimo kainų valdymas
+    - name: „Retail“ pardavimo kainų valdymas
       href: price-management.md
     - name: Kainų koregavimas ir nuolaidos
       href: price-adjustments-discounts.md
@@ -204,9 +235,9 @@
       href: optimal-combination-overlapping-discounts.md
     - name: Kanalui būdingų nuolaidų nustatymas
       href: define-channel-specific-discounts.md
-    - name: Nuolaidų nesuteikimas mažmeninės prekybos produktams
+    - name: Nuolaidų nesuteikimo mažmeninės prekybos produktams parinktys
       href: prevent-discounts.md
-    - name: Mažmeninės prekybos pardavimo kuponų kūrimas
+    - name: Mažmeninės prekybos pardavimo kuponų nustatymas
       href: retail-coupons.md
 - name: Produktai ir prekyba
   items:
@@ -214,13 +245,13 @@
       href: ../supply-chain/pim/product-information.md
     - name: Mažmeninės prekybos hierarchijos
       href: retail-hierarchies.md
-    - name: Atributų ir atributų grupių apžvalga
+    - name: Atributai ir atributų grupės
       href: attribute-attributegroups-lifecycle.md
     - name: Atributų kūrimas ir valdymas
       href: create-manage-attributes.md
     - name: Mažmeninės prekybos produktų nustatymas
       href: set-up-retail-products.md
-    - name: Patobulintas produktų ir kategorijų valdymas
+    - name: „Retail“ produktų kategorijų ir produktų valdymas
       href: category-management-product-creation.md
     - name: Produktų dimensijos
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,15 +261,15 @@
       href: set-up-bar-code-masks.md
     - name: Asortimentų nustatymas
       href: set-up-assortments.md
-    - name: Į asortimentą neįtrauktų produktų pardavimas ir grąžinimas
+    - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
       href: sell-return-outside-assortments.md
     - name: Numatytieji dimensijų ir produkto variantų užsakymų parametrai
       href: ../supply-chain/production-control/default-order-settings.md
-    - name: Ieškoti produktų ir produkto variantų įvedant užsakymą
+    - name: Produktų ir produkto variantų įvedant užsakymą ieška
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Lojalumas
   items:
-    - name: Klientų lojalumo programos nustatymas
+    - name: Klientų lojalumo programų nustatymas
       href: set-up-customer-loyalty-program.md
 - name: Atsargos
   items:
@@ -272,29 +303,29 @@
       href: ../talent/departments-jobs-positions.md
     - name: Užduoties komponentų nustatymas
       href: ../talent/create-job.md
-- name: Lokalizavimo ir reguliavimo priemonės
+- name: Lokalizavimo ir reguliavimo priemonės​
   items:
     - name: Prancūzija
       items:
-        - name: Kasos aparatai (Prancūzija)
+        - name: Kasos aparato funkcijos
           href: localizations/emea-fra-cash-registers.md
-        - name: Visuotinio kasos aparatų diegimo gairės (Prancūzija)
+        - name: Visuotinio kasos aparatų diegimo gairės
           href: localizations/emea-fra-deployment.md
     - name: Indija
       items:
-        - name: Kasos aparatų GST integravimas
+        - name: Kasos aparatų prekių ir paslaugų mokesčio (GST) integravimas
           href: localizations/apac-ind-cash-registers.md
-        - name: Visuotinio kasos aparatų diegimo gairės (Indija)
+        - name: Visuotinio kasos aparatų diegimo gairės
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: Norvegija
       items:
-        - name: Kasos aparatai (Norvegija)
+        - name: Kasos aparato funkcijos
           href: localizations/emea-nor-cash-registers.md
-        - name: Visuotinio kasos aparatų diegimo gairės (Norvegija)
+        - name: Visuotinio kasos aparatų diegimo gairės
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: Švedija
       items:
-        - name: Kasos aparatai (Švedija)
+        - name: Kasos aparato funkcijos
           href: localizations/emea-swe-cash-registers.md
         - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
@@ -306,41 +337,41 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: "Produkto\_/ bendrojo produkto išleidimas juridiniams subjektams"
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: Bazinė kaina ir prekybos sutartys
+    - name: Konkretaus kanalo prekybos sutarčių kūrimas
       href: tasks/base-price-trade-agreements.md
-    - name: 'Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti'
+    - name: Prekybos sutarčių kūrimas naudojant kategorijos kainų taisykles
       href: tasks/category-pricing-rules-trade-agreements.md
-    - name: ' Konfigūruoti kredito kortelės apdorojimą'
+    - name: Kredito kortelės apdorojimo konfigūravimas
       href: tasks/configure-credit-card-processing.md
-    - name: ' Pardavimo atstovo funkcijų profilio konfigūravimas'
+    - name: Pardavimo atstovų funkcijų profilių konfigūravimas
       href: tasks/configure-functionality-profile-sales-representative.md
-    - name: ' Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas'
+    - name: Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' Kurti ir susieti įrenginį'
+    - name: Įrenginių kūrimas ir jų susiejimas su registrais
       href: tasks/create-associate-device.md
-    - name: Aparatūros stoties kūrimas ir susiejimas
+    - name: Aparatūros stoties kūrimas
       href: tasks/create-associate-hardware-station.md
-    - name: Registrų kūrimas ir susiejimas
+    - name: EKA registrų kūrimas
       href: tasks/create-associate-registers.md
     - name: Skambučių centro užsakymų kūrimas
       href: tasks/create-call-center-orders.md
     - name: EKA registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas
       href: tasks/create-financial-dimensions-pos.md
-    - name: „Retail” kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių konfigūravimas parduotuvėse
+    - name: Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių parduotuvėse konfigūravimas
       href: tasks/create-financial-dimensions-retail-channels.md
-    - name: ' Kurti interneto kanalus ir nurodyti kanalo atributus'
+    - name: Interneto kanalų kūrimas ir kanalo atributų nustatymas
       href: tasks/create-online-channel-define-channel-attributes.md
-    - name: ' Kurti EKA teisių grupes'
+    - name: EKA teisių grupių kūrimas
       href: tasks/create-pos-permission-groups.md
-    - name: ' Kurti EKA vaizdo šabloną  '
+    - name: EKA vaizdo šablonų kūrimas
       href: tasks/create-pos-visual-profile-2016-02.md
-    - name: ' Kurti pirkimo užsakymų produktų pakuotes'
+    - name: Pirkimo užsakymų produktų pakuočių kūrimas
       href: tasks/create-product-packages-purchase-orders.md
-    - name: ' Apibrėžti skambučių centro kanalą ir kanalo atributus'
+    - name: Skambučių centro kanalų kūrimas ir kanalo atributų nustatymas
       href: tasks/define-call-center-channel-channel-attributes.md
-    - name: ' Nustatyti kanalo atributus'
+    - name: Kanalo atributų nustatymas
       href: tasks/define-channel-attributes.md
-    - name: ' Nustatyti tęstinumo grafikus'
+    - name: Tęstinumo grafikų nustatymas
       href: tasks/define-continuity-schedules.md
     - name: ' Nustatyti lojalumo programas'
       href: tasks/define-loyalty-programs.md
@@ -352,38 +383,38 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Asortimentų valdymas
       href: tasks/manage-assortments-2016-11.md
-    - name: Savitarnos vykdymas siekiant atsisiųsti aparatūros stotį
+    - name: Aparatūros stočių atsisiuntimas naudojant savitarnos paslaugą
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Pardavimo ir mokėjimų internetu registravimas
       href: tasks/posting-online-sales-payments.md
-    - name: ' Apdoroti atlygio už lojalumą taškų koregavimus'
+    - name: Atlygio už lojalumą taškų koregavimų apdorojimas
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: Produktų skirstymas iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
+    - name: Produktų skirstymas iš paskirstymo centrų į parduotuves naudojant skirstymą pirkėjams
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: Mažmeninės prekybos kainų koregavimai
+    - name: Mažmeninės prekybos kainų koregavimų kūrimas
       href: tasks/retail-price-adjustments.md
     - name: Parengtų naudoti ataskaitų generavimas ir paleidimas
       href: tasks/run-out-box-reports.md
     - name: Prekių skirstymo ir skirstymo pirkėjams taisyklių bei parametrų nustatymas
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: Tęstinumo programos naudojimas
+    - name: Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas
       href: tasks/use-continuity-program.md
-    - name: Darbininko konfigūravimas
+    - name: Mažmeninės prekybos darbininkų konfigūravimas
       href: tasks/worker.md
-- name: „Retail‟ programavimas ir administravimas
+- name: Mažmeninės prekybos programavimas ir administravimas
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: Architektūra
       items:
-        - name: „Microsoft Dynamics 365 for Finance and Operations – Retail‟ komponentai
+        - name: Mažmeninės prekybos komponentai
           href: retail-components.md
-        - name: „Retail Server‟ architektūra
+        - name: „Retail Server“ architektūra
           href: dev-itpro/retail-server-architecture.md
-        - name: „Retail‟ kanalų komunikacija
+        - name: „Commerce Data Exchange“ ir mažmeninės prekybos kanalų komunikacija
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: MPOS architektūra
+        - name: „Retail Modern POS“ architektūra
           href: dev-itpro/retail-modern-pos-architecture.md
-        - name: „Retail‟ internetinių parduotuvių publikavimo architektūra
+        - name: „Retail“ internetinių parduotuvių publikavimo architektūra
           href: dev-itpro/retail-online-store-publishing-architecture.md
         - name: „Retail‟ kanalo našumo „Power BI“ turinys
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
@@ -393,31 +424,31 @@
           href: retail-onprem.md
     - name: Visuotinis diegimas ir karštosios pataisos
       items:
-        - name: „Retail Store Scale Unit“ apžvalga
+        - name: „Retail Store Scale Unit“
           href: dev-itpro/retail-store-system-begin.md
-        - name: „Retail Store Scale Unit‟ konfigūravimas ir diegimas
+        - name: „Retail Store Scale Unit“ konfigūravimas ir diegimas
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-        - name: „Retail Modern POS‟ konfigūravimas ir diegimas
+        - name: „Retail Modern POS“ konfigūravimas ir diegimas
           href: retail-modern-pos-device-activation.md
-        - name: „Retail” sąskaitų ir įrenginių valdymas iš būstinės
+        - name: „Retail“ sąskaitų ir įrenginių valdymas iš būstinės
           href: set-up-activation-accounts-validate-devices-hq.md
-        - name: „Retail POS‟ įrenginio suaktyvinimas
+        - name: „Retail POS“ įrenginio aktyvinimas
           href: dev-itpro/retail-device-activation.md
-        - name: „Retail Cloud POS‟ apsauga
+        - name: Pagalba apsaugant „Cloud POS“ bendrinamose aplinkose
           href: dev-itpro/secure-retail-cloud-pos.md
-        - name: „Retail Hardware Station‟ konfigūravimas ir diegima
+        - name: „Retail Hardware Station“ konfigūravimas ir diegimas
           href: retail-hardware-station-configuration-installation.md
         - name: Masinis „Retail“ savitarnos komponentų diegimas
           href: dev-itpro/retail-mass-deployment.md
-        - name: „Retail‟ komponentų įvykiai triktims diagnozuoti ir šalinti
+        - name: „Retail“ komponentų įvykiai triktims diagnozuoti ir šalinti
           href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
         - name: Visuotinai diegiamo paketo taikymas
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: Plėtojimas ir N-1 palaikymas
       items:
-        - name: Plėtojimo ir N-1 palaikymo apžvalga
+        - name: 'Plėtojimas ir N-1 palaikymas, skirtas „Retail“'
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: N-1 komponentų diegimas
+        - name: 'Laipsniškas išleidimo (N-1) diegimas, konfigūravimas ir pritaikymas'
           href: dev-itpro/n-1-installation-configuration.md
     - name: Diegimo nurodymai
       items:
@@ -433,61 +464,61 @@
       href: dev-itpro/extension-resource-localization.md
     - name: Elektroninio kasos aparato išplečiamumas
       items:
-        - name: „Retail POS‟ ekrano maketai
+        - name: „Retail POS“ ekrano maketai
           href: pos-screen-layouts.md
         - name: EKA maketo dizaino įrankio diegimas
           href: install-pos-layout-designer.md
-        - name: MPOS autonominio režimo konfigūravimas
+        - name: „Retail Modern POS“ neprisijungus
           href: dev-itpro/retail-modern-pos-offline.md
         - name: „POS Dual“ ekrano rodinio išplėtimas
           href: dev-itpro/pos-dual-display-extension.md
-        - name: MPOS ir „Cloud POS‟ paleidiklių išplečiamumas
+        - name: „Retail Modern POS“ ir „Cloud POS“ paleidiklių išplečiamumas
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: Pasirinktinio valdiklio įtraukimas į POS rodinį
+        - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
           href: dev-itpro/pos-custom-control.md
-        - name: Įtraukite naują EKA operaciją į EKA maketą
+        - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį
           href: dev-itpro/add-POS-operations.md
         - name: EKA mokėjimo plėtinys
           href: dev-itpro/pos-payment-extension.md
         - name: Išorinių dovanų kortelių palaikymas
           href: dev-itpro/gift-card.md
-        - name: Programos „Retail Experience‟ kūrimas
+        - name: Prekės ženklo integravimo į programą „Retail Experience“ kūrimas ir taikymas
           href: dev-itpro/create-retail-experience-app.md
-    - name: „Hardware Station‟ apžvalga ir išplečiamumas
+    - name: „Hardware Station“ ir išplečiamumas
       href: dev-itpro/hardware-station-extensibility.md
     - name: „Retail Server“ išplečiamumas
       items:
-        - name: „Retail Server‟ „OData‟ valdiklio išplėtimas
+        - name: „Retail Server“ „OData“ valdiklio išplėtimas
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: Žiniatinklio API ir „OData‟ valdikliai
+        - name: „Retail Server“ žiniatinklio API valdiklio kūrimas
           href: dev-itpro/odata-controllers-api.md
-        - name: „Retail Server‟ klientų ir vartotojų API
+        - name: „Retail Server“ klientų ir vartotojų API sąsajos
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: Metaduomenų išplėtimas
+        - name: Numatytojo „Retail Server“ metaduomenų valdiklio išplėtimas
           href: dev-itpro/extend-metadata.md
-        - name: '„Commerce Runtime‟ išplėtimas, kad EKA veiktų autonominiu režimu'
+        - name: CRT tarnybos iškvietimas neprisijungus
           href: dev-itpro/call-crt-service-offline.md
-    - name: „Commerce Runtime“ išplečiamumas
+    - name: „Commerce Runtime“ (CRT) išplečiamumas
       items:
-        - name: „Commerce Runtime‟ apžvalga
+        - name: CRT architektūra ir konfigūravimas
           href: dev-itpro/commerce-runtime-overview.md
-        - name: „Commerce Runtime‟ paslaugos
+        - name: CRT tarnybos
           href: dev-itpro/crt-services.md
-        - name: „Commerce Runtime‟ ir „Retail Server‟ išplečiamumas
+        - name: CRT ir „Retail Server“ išplečiamumas
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Kliento nuostatų duomenų įtraukimas į kanalo duomenų bazę
+        - name: Kliento nuostatų duomenų įtraukimas į kanalų duomenų bazes
           href: dev-itpro/add-customer-preference-channel.md
-        - name: Ypatybių įtraukimas į pardavimo užsakymą
+        - name: Ypatybių įtraukimas į pardavimo užsakymus
           href: dev-itpro/add-properties-sales-order.md
-        - name: „Commerce Runtime‟ išplečiamumas ir paleidikliai
+        - name: CRT išplečiamumas ir paleidikliai
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'Paleidiklio pavyzdys: blokuojama operacija'
+        - name: Operacijų blokavimas naudojant paleidiklius
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'Paleidiklio pavyzdys: grąžinimo strategija'
+        - name: Grąžinimo strategijos įgyvendinimas naudojant paleidiklius
           href: dev-itpro/trigger-example-return-policy.md
     - name: „e-Commerce“ išplečiamumas
       items:
-        - name: Internetinės parduotuvės konfigūravimas
+        - name: Internetinių parduotuvių konfigūravimas
           href: dev-itpro/configure-online-store.md
         - name: Autentifikavimo paslaugų teikėjų konfigūravimas
           href: dev-itpro/configure-authentication-providers.md
@@ -497,57 +528,59 @@
           href: dev-itpro/ecommerce-platform-sdk.md
     - name: Mokėjimo jungties išplečiamumas
       items:
-        - name: Mokėjimų integravimas į mokėjimo terminalą
+        - name: Mokėjimų integravimo į mokėjimo terminalą kūrimas
           href: dev-itpro/end-to-end-payment-extension.md
         - name: Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: Visuotinis mokėjimo jungties diegimas
+        - name: Visuotinis mokėjimo jungčių diegimas
           href: dev-itpro/deploy-payment-connector.md
-        - name: „Windows Installer‟ sukūrimas mokėjimo jungčiai
+        - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: „Windows Installer“ programų sukūrimas mokėjimo jungtims
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: „Retail SDK“
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: „Retail SDK‟ integravimas su nuolatine kūrimo sistema
+        - name: „Retail“ ir „Finance and Operations“ kūrimo sistemų susiejimas
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-        - name: „Retail SDK‟ išplečiamumo pavyzdžiai
+        - name: „Retail SDK“ išplečiamumo pavyzdžiai
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: „Retail SDK‟ pakuotė
+        - name: Mažmeninės prekybos diegiamų paketų kūrimas
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: '„Retail SDK‟ pavyzdžiai '
+        - name: „Retail SDK“ pavyzdžiai
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: Važtaraščių plėtinių taškai
               href: dev-itpro/extensions-shipping-carrier-integration.md
-        - name: Kanalo duomenų bazės (DB) plėtiniai
+        - name: Kanalo duomenų bazės plėtiniai
           href: dev-itpro/channel-db-extensions.md
-        - name: CDX išplečiamumas
+        - name: Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas
           href: dev-itpro/cdx-extensibility.md
-        - name: Pasirinktinių laukų įtraukimas į EKA skydą
+        - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
           href: dev-itpro/custom-field-pos-totals.md
-        - name: Užsakymų atributai
+        - name: Užsakymo atributų nurodymas ir nustatymas
           href: dev-itpro/order-attributes.md
         - name: Kliento atributai
           href: dev-itpro/customer-attributes.md
-        - name: '„Retail Typescript“ ir „C# proxy“'
+        - name: '„Retail“ „Typescript“ ir C# tarpiniai serveriai'
           href: dev-itpro/typescript-proxy-retail-pos.md
-        - name: „Retail POS‟ pavyzdžių vykdymas
+        - name: „Retail POS“ pavyzdžių vykdymas
           href: dev-itpro/pos-run-samples.md
-        - name: Esamų POS rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
+        - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
           href: dev-itpro/pos-view-extension.md
-        - name: Pasirinktinių valdiklių įtraukimas į „Modern Retail POS“ operacijų puslapius
+        - name: Pasirinktinių valdiklių įtraukimas į „Retail Modern POS“ operacijų puslapius
           href: dev-itpro/pos-custom-transaction.md
-        - name: Pasirinktinių stulpelių įtraukimas į POS operacijų tinklelį
+        - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: POS API arba operacijos iškvietimas iš POS plėtinio
+        - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
           href: dev-itpro/pos-api-extension.md
         - name: „Retail Modern POS“ paleidikliai ir spausdinimas
           href: dev-itpro/pos-trigger-printing.md
-        - name: Pasirinktinio valdiklio įtraukimas į „Retail Modern POS“ ne ekrano dizaino įrankiu sukurtą rodinį
+        - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
           href: dev-itpro/pos-control-non-screen.md
-        - name: 'Konfigūravimo veiksmai, skirti „Retail“ kūrėjams, dirbantiems debesyje veikiančiose kūrimo aplinkose'
+        - name: Programavimas naudojant kūrėjų aplinkos diegimo debesyje įrankį be administravimo prieigos
           href: dev-itpro/cloud-dev-box.md
-    - name: „Commerce Runtime‟
+    - name: „Commerce Runtime“
       items:
         - name: Lojalumo pratęsimas
           href: dev-itpro/retail-sdk/loyalty-extension-sample.md

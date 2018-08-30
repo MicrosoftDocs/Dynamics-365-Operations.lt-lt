@@ -65,5 +65,3 @@ Tolesniais duomenimis pildomos „Power BI‟ turinio **Mokymasis** ataskaitos. 
 | Darbuotojo vardas ir pavardė    | Vardas, pavardė ir vardas bei pavardė                             | Kurso dalyviai |
 | Darbuotojo pareigos   | Pareigos ir paaukštinimo data                                         | Kurso dalyviai |
 
-
-

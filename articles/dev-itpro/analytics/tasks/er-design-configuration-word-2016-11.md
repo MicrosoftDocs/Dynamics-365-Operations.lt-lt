@@ -1,5 +1,5 @@
 --- 
-title: "Konfigūracijos, skirtos generuoti ataskaitoms „Microsoft Word” formatu, kūrimas elektroninėse ataskaitose (ER)"
+title: "ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER) formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word” failus."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Konfigūracijos, skirtos generuoti ataskaitoms „Microsoft Word” formatu, kūrimas elektroninėse ataskaitose (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -63,7 +63,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadov
     * Be to, norėdami išsaugoti konfigūracijos pakeitimus, atlikite veiksmą Įrašyti, kuriuo taip pat atnaujinamas pridėtas „Word” šablonas. Sukurto formato struktūra perkeliama į pridėtą „Word” dokumentą kaip nauja pasirinktinė XML dalis, kurios pavadinimas „Ataskaita“. Atminkite, kad pridėtame „Word” šablone yra ne tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį, bet ir duomenų struktūra, kuri apdorojimo metu ER perkels į šį šabloną.  
 2. Spustelėkite Priedai.
     * Dabar turite susieti pasirinktinės XML dalies „Ataskaita“ elementus su „Word” dokumento dalimis.  
-    * Jei esate susipažinę su „Word“ dokumentais, kurie gali būti sukurti kaip formos, turinčios su pasirinktinių XML dalių elementais susietų turinio valdiklių, paleiskite visus kitos papildomos užduoties veiksmus, kad sukurtumėte tokį dokumentą. Norėdami gauti daugiau informacijos, žr. šią nuorodą https://support.office.com/en-us/articleCreate-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Priešingu atveju praleiskite visus kitos papildomos užduoties veiksmus.  
+    * Jei esate susipažinę su „Word“ dokumentais, kurie gali būti sukurti kaip formos, turinčios su pasirinktinių XML dalių elementais susietų turinio valdiklių, paleiskite visus kitos papildomos užduoties veiksmus, kad sukurtumėte tokį dokumentą. Norėdami gauti daugiau informacijos, žr. šią nuorodą https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Priešingu atveju praleiskite visus kitos papildomos užduoties veiksmus.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Norėdami gauti „Word“ dokumentą su pasirinktine XML dalimi, susiekite duomenis
     * Atidarykite šį dokumentą programa „Word“ ir atlikite tokius veiksmus: - atidarykite skirtuką „Word“ kūrėjas (pritaikykite juostelę, jei dar neįjungta);  - pasirinkite XML susiejimo sritį;  - peržvalgos sąraše pasirinkite pasirinktinę XML dalį „Ataskaita“;  - pasirinktos pasirinktinės XML dalies elementus susiekite su „Word“ dokumento turinio valdikliais;  - atnaujintą „Word” dokumentą įrašykite į vietinį diską.  

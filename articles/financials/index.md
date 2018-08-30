@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
-:::row::: :::column::: - [Mokėtinos sumos](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Mokėtinos sumos](accounts-payable/accounts-payable.md) 
         - [Gautinos sumos](accounts-receivable/accounts-receivable.md)
         - [Biudžeto sudarymas](budgeting/budgeting-overview.md) 
         - [Grynųjų pinigų ir banko valdymas](cash-bank-management/cash-bank-management.md)
-        - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Išlaidų valdymas](expense-management/expense-management.md)
+        - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Išlaidų valdymas](expense-management/expense-management.md)
         - [Finansinės ataskaitos](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Ilgalaikis turtas](fixed-assets/fixed-assets.md)
         - [Didžioji knyga](general-ledger/general-ledger.md) 
         - [Projektų valdymas](project-management/overview-project-management-accounting.md)
-        - [Viešasis sektorius](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Viešasis sektorius](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

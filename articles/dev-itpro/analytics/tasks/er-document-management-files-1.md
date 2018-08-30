@@ -1,5 +1,5 @@
 --- 
-title: "Duomenų modelio, kuris bus naudojamas dokumentų valdymo failuose naudojant formato išvestis, paruošimas"
+title: "Duomenų modelio, skirto dokumentų valdymo failams naudoti ER išvestyje, ruošimas"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>Duomenų modelio, kuris bus naudojamas dokumentų valdymo failuose naudojant formato išvestis, paruošimas
+# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>Duomenų modelio, skirto dokumentų valdymo failams naudoti ER išvestyje, ruošimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

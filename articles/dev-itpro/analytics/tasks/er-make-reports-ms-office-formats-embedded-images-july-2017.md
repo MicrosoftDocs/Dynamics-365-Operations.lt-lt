@@ -1,5 +1,5 @@
 --- 
-title: "Ataskaitų generavimo „Microsoft Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas"
+title: "Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų kūrimas"
 description: "Šios temos veiksmuose pateikiama informacijos apie tai, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, generuojančias „Microsoft Office“ formatų („Excel“ ir „Word“) elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Ataskaitų generavimo „Microsoft Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
+# <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

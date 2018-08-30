@@ -1,5 +1,5 @@
 ---
-title: "„Retail Modern POS“ vaizdų nustatymas ir tvarkymas"
+title: "„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas"
 description: "Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>„Retail Modern POS“ vaizdų nustatymas ir tvarkymas
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/03/2017
 
 1.  Spustelėkite **Mažmeninė prekyba** &gt; **Katalogų valdymas** &gt; **Katalogų vaizdai**.
 2.  Puslapio **Katalogo vaizdai** veiksmų srityje spustelėkite **Nustatyti medijos šabloną**. Dialogo lango **Nustatyti medijos šabloną** lauke **Objektas** pagal numatytuosius nustatymus turi būti nustatyta parinktis **Katalogas**.
-3.  „FasTab“ **Medijos kelias** įveskite likusį vaizdo vietos kelią. Medijos kelias palaiko **LanguageID** kaip kintamąjį. Pvz., demonstraciniams duomenims galite sukurti visų jūsų medijos serverio medijos pagrindinio URL katalogo vaizdų aplanką **Katalogas** (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Tada galite sukurti aplanką kiekvienai kalbai, pvz., en-US arba fr FR, ir į kiekvieną aplanką nukopijuoti atitinkamus vaizdus. Jei neturite skirtingų įvairių kalbų vaizdų, galite neįtraukti kintamojo **LanguageID** į aplanko struktūrą ir tiesiogiai nurodyti katalogų aplanką, kuriame yra katalogo vaizdai. **Pastaba:** dabartinė „Dynamics 365 for Retail“ versija palaiko objektų Katalogas, Produktas ir Kategorija atpažinimo ženklą **{LanguageId}**. (Nepalaikomas objektų Klientas ir Darbuotojas atpažinimo ženklas **{LanguageID}**, atsižvelgiant į esamą standartą, kuris galioja nuo „Microsoft Dynamics AX“ 6.x.)
+3.  „FasTab“ **Medijos kelias** įveskite likusį vaizdo vietos kelią. Medijos kelias palaiko **LanguageID** kaip kintamąjį. Pvz., demonstraciniams duomenims galite sukurti visų jūsų medijos serverio medijos pagrindinio URL katalogo vaizdų aplanką **Katalogas** (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer)). Tada galite sukurti aplanką kiekvienai kalbai, pvz., en-US arba fr FR, ir į kiekvieną aplanką nukopijuoti atitinkamus vaizdus. Jei neturite skirtingų įvairių kalbų vaizdų, galite neįtraukti kintamojo **LanguageID** į aplanko struktūrą ir tiesiogiai nurodyti katalogų aplanką, kuriame yra katalogo vaizdai. **Pastaba:** dabartinė „Dynamics 365 for Retail“ versija palaiko objektų Katalogas, Produktas ir Kategorija atpažinimo ženklą **{LanguageId}**. (Nepalaikomas objektų Klientas ir Darbuotojas atpažinimo ženklas **{LanguageID}**, atsižvelgiant į esamą standartą, kuris galioja nuo „Microsoft Dynamics AX“ 6.x.)
 4.  Vaizdų failo vardo formatas yra užprogramuotas kaip katalogo pavadinimas ir jo keisti negalima. Todėl pervardykite vaizdus, kad jie turi atitinkamus katalogų pavadinimus, siekdami užtikrinti, kad MPOS tvarko juos teisingai.
 5.  Lauke **Failo plėtinys** pasirinkite numatomą failo vardo plėtinį, priklausomai nuo turimų vaizdų tipo. Pavyzdžiui, demonstracinių duomenų katalogo vaizdų plėtinys yra nustatytas kaip .jpg. (Vaizdo failai yra taip pat pervardinami, kad turėtų katalogo pavadinimus.)
 6.  Spustelėkite **Gerai**.

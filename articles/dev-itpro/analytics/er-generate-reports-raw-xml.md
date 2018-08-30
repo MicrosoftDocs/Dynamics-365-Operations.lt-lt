@@ -18,20 +18,20 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: af594fb7879918e6b9fc423774ee1ec7f635dec0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="generate-er-reports-by-adding-content-as-raw-xml"></a>ER ataskaitų generavimas įtraukiant turinį kaip neapdorotą XML
+# <a name="generate-reports-by-adding-content-as-raw-xml"></a>Generuoti ataskaitas įtraukiant turinį kaip neapdorotą XML
 
 [!include[banner](../includes/banner.md)]
 
 Galite naudoti naują formato elementą **NEAPDOROTAS XML**, skirtą kurti elektroninių ataskaitų (ER) formatus, generuojančius siunčiamus dokumentus XML formatu. Kai kuriais atvejais galite pageidauti įtraukti neapdorotus XML duomenis į šias ataskaitas dėl vienos ar daugiau iš šių priežasčių:
 
-- Patogiau naudoti neapdorotą XML originaliam ataskaitos dizainui kurti ir vykdomai priežiūrai atlikti, nes XML struktūrą galima automatiškai sugeneruoti vykdant apdorojimo laiko išraišką. Todėl kuriant nereikia nustatyti kelių susiejimų keliems formato elementams. Tai įmanoma, kai naudojate duomenų šaltinius, apimančius informaciją, kurią galima naudoti XML elementams daryti, kol generuojama ataskaita. 
+- Patogiau naudoti neapdorotą XML originaliam ataskaitos dizainui kurti ir vykdomai priežiūrai atlikti, nes XML struktūrą galima automatiškai sugeneruoti vykdant apdorojimo laiko išraišką. Todėl kuriant nereikia nustatyti kelių susiejimų keliems formato elementams. Tai įmanoma, kai naudojate duomenų šaltinius, apimančius informaciją, kurią galima naudoti XML elementams daryti, kol generuojama ataskaita.
 - Jokių kitų metodų negalima naudoti pildant ataskaitą XML turiniu, kuris anksčiau buvo gautas ir saugotas sistemoje. Pvz., sugeneruotame XML atsakyme gali būti turinio iš XML užklausos, kuri buvo išsiųsta anksčiau.
 - Jokio kito metodo negalima naudoti simboliams į sugeneruotą dokumentą įterpti pagal jų skaitinius kodus. Kai kuriose kalbose ir tarp simbolių šio tipo kodų nėra. Pavyzdžiai apima graikų kalbos raidę ro (ρ) ir HTML objekto kodus, pvz., \&eacute; yra *e*, kuriame yra aiškus kirtis (é).
 
