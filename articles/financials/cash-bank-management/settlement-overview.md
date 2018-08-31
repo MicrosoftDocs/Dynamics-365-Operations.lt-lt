@@ -3,7 +3,7 @@ title: "Sudengimo peržiūra"
 description: "Šiame straipsnyje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a96bdd8088e72bc0526589bde94242c3acf39a54
+ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
+ms.openlocfilehash: dc986b083082b590627f171a359f95099e21d2f5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/31/2018
 
 ---
 
@@ -51,7 +51,6 @@ ms.lasthandoff: 08/07/2018
 -   <span data-ttu-id="78212-152">Jei mokėjimo suma yra lygi SF sumai, mokėjimas ir SF uždaromi, jų balansas yra 0,00.</span><span class="sxs-lookup"><span data-stu-id="78212-152">If the payment amount equals the invoice amount, both the payment and the invoice are closed, and the balance of both is 0.00.</span></span>
 
 <span data-ttu-id="78212-153">Jei [mokėjimas yra mažesnis už SF sumą](../accounts-payable/vendor-payments-partial-amount.md) dėl mokėjimo nuolaidos, nurašymo arba neprimokėjimo, SF ir mokėjimas vis tiek gali būti uždaryti – tai priklauso nuo sudengimo parametrų, nustatytų mokėtinų sumų ir gautinų sumų parametrų dalyje.</span><span class="sxs-lookup"><span data-stu-id="78212-153">If a [payment is less than the invoice amount](../accounts-payable/vendor-payments-partial-amount.md) because of a cash discount, write-off, or underpayment, the invoice and payment might still be closed, depending on the setup of settlement in Accounts payable parameters and Accounts receivable parameters.</span></span> <span data-ttu-id="78212-154">Be to, sudengimas gali generuoti operacijas.</span><span class="sxs-lookup"><span data-stu-id="78212-154">Settlement can also generate transactions.</span></span> <span data-ttu-id="78212-155">Pvz., SF ir mokėjimo sudengimas gali sąlygoti mokėjimo nuolaidą, gautą pelną arba patirtą nuostolį, PVM koregavimus, nurašymai arba centų skirtumus.</span><span class="sxs-lookup"><span data-stu-id="78212-155">For example, the settlement of an invoice and payment might produce a cash discount, realized gain or loss, sales tax adjustments, write-offs, or penny differences.</span></span>
-
 
 
 
