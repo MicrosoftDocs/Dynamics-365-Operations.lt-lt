@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="76820-125">Pasikartojančių SF generavimas</span><span class="sxs-lookup"><span data-stu-id="76820-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="76820-126">Puslapyje **Pasikartojančios SF**yra užduotis, kuri apdoroja pasikartojančių SF šablonus.</span><span class="sxs-lookup"><span data-stu-id="76820-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="76820-127">Galite nurodyti SF datą ir šabloną, pagal kurį generuosite SF.</span><span class="sxs-lookup"><span data-stu-id="76820-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="76820-128">Bus sugeneruotos SF ir kiekvienai apdorotai SF grupei priskirtas atskiras pasikartojimo ID numeris.</span><span class="sxs-lookup"><span data-stu-id="76820-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="76820-129">Pasikartojančių laisvos formos SF registravimas</span><span class="sxs-lookup"><span data-stu-id="76820-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="76820-129">Pasikartojančių laisvos formos SF registravimas</span><span class="sxs-lookup"><span data-stu-id="76820-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="76820-130">Sugeneravus pasikartojančias SF, SF pasikartojimo ID rodomas registravimo užduotyje puslapyje **Pasikartojančios SF**.</span><span class="sxs-lookup"><span data-stu-id="76820-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="76820-131">Galite peržiūrėti visas pasikartojimo ID SF spustelėdami saitą.</span><span class="sxs-lookup"><span data-stu-id="76820-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="76820-132">Peržiūrėdami pasikartojimo ID SF galite panaikinti atskiras SF.</span><span class="sxs-lookup"><span data-stu-id="76820-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="76820-133">Kliento pasikartojimo parametrai tame šablone bus nustatyti iš naujo, kad vėliau jį būtų galima vėl sugeneruoti.</span><span class="sxs-lookup"><span data-stu-id="76820-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="76820-134">Galite registruoti vieną, kelias arba visas pasikartojimo ID SF.</span><span class="sxs-lookup"><span data-stu-id="76820-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="76820-135">Jei įgalintos darbo eigos, turite spustelėti **Pateikti**, tada galėsite registruoti SF.</span><span class="sxs-lookup"><span data-stu-id="76820-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="76820-136">Pasikartojančių laisvos formos SF spausdinimas</span><span class="sxs-lookup"><span data-stu-id="76820-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="76820-136">Pasikartojančių laisvos formos SF spausdinimas</span><span class="sxs-lookup"><span data-stu-id="76820-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="76820-137">Užregistravę pasikartojančias SF, galite spausdinti SF laisvos formos SF sąrašo puslapyje.</span><span class="sxs-lookup"><span data-stu-id="76820-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="76820-138">Galite spausdinti SF, kurios yra pasirinktos, arba galite pasirinkti spausdinti SF diapazoną.</span><span class="sxs-lookup"><span data-stu-id="76820-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
