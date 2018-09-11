@@ -1,21 +1,21 @@
----
+--- 
 title: Tikrinti turimas atsargas
 description: "Ši procedūra parodo, kaip patikrinti konkretaus prekės numerio turimas ir faktinies turimas atsargas."
-author: perlynne
+author: 
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: 
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: 
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 62338fe11c30781f264e626fad835a2ba9dca837
@@ -67,4 +67,5 @@ ms.lasthandoff: 09/29/2017
 4. Spustelėkite Rodyti dimensijas.
 5. Spustelėkite GERAI.
 6. Uždarykite puslapį.
+
 

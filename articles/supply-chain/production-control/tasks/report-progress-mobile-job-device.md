@@ -3,24 +3,25 @@ title: "Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį"
 description: "Ši procedūra nurodo, kaip pradėti ir pateikti ataskaitą apie gamybos užduoties eigą užduoties prietaiso registracijos formoje."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 Kad būtų galima vykdyti šią procedūrą, turite turėti sistemos administratoriaus arba mašinos operatoriaus vaidmenį, susietą su vartotojo abonementu.
 
 1. Eikite į Gamybos kontrolė > Gamybos vykdymas > Užduoties kortelės įrenginys.
-2. Lauke „WorkerTextField“ įveskite darbuotojo ženklą. Su USMF demonstraciniais duomenimis prie Christina Portra įveskite „123“.
+2. Lauke „WorkerTextField“ įveskite darbuotojo ženklą. Su USMF demonstraciniais duomenimis įveskite '123' prie Christina Portra...
 3. Spustelėkite Prisijungti.
 4. Spustelėkite mygtuką Filtras.
 5. Pažymėkite arba panaikinkite žymės langelio Taikyti konfigūracijos filtrą pažymėjimą. Jei nustatote filtrą, USMF galite naudoti gamybos vienetą 110.
