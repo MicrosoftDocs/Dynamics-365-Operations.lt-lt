@@ -3,23 +3,24 @@ title: "Perkelti ilgalaikį turtą"
 description: "Šis užduočių vadovas ilgalaikio turto knygos finansinę informaciją iš vieno finansinių dimensijų rinkinio perkels į naują finansinių dimensijų rinkinį."
 author: saraschi2
 manager: AnnBe
-ms.date: 02/23/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: ea0e54dad6d8a48d628fc831b3fdbe7c0f68e892
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3eb00df127ed87cadde2b0fc7001d80a7fcc6e43
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="transfer-a-fixed-asset"></a><span data-ttu-id="f2b32-103">Perkelti ilgalaikį turtą</span><span class="sxs-lookup"><span data-stu-id="f2b32-103">Transfer a fixed asset</span></span>

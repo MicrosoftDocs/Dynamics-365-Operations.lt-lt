@@ -1,26 +1,27 @@
----
+--- 
 title: "Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą"
 description: "Šioje procedūroje parodoma, kaip naudoti tiekėjo bendradarbiavimą, norint pamatyti informaciją apie kliento produktų konsignacijos atsargų lygį."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8e4a620fe5f5ab3c0fae8b04d79e9912111b7ece
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a110c7b85c6ed22622b059b657bd7b6028517335
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a><span data-ttu-id="0e302-103">Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą</span><span class="sxs-lookup"><span data-stu-id="0e302-103">Monitor consignment inventory using vendor collaboration</span></span>
@@ -41,4 +42,5 @@ ms.lasthandoff: 08/07/2018
 ## <a name="view-on-hand-inventory"></a><span data-ttu-id="0e302-118">Rodyti turimas atsargas</span><span class="sxs-lookup"><span data-stu-id="0e302-118">View on-hand inventory</span></span>
 1. <span data-ttu-id="0e302-119">Eikite į Tiekėjo bendradarbiavimas > Konsignacijos atsargos > Turimos konsignacijos atsargos.</span><span class="sxs-lookup"><span data-stu-id="0e302-119">Go to Vendor collaboration > Consignment inventory > On-hand consignment inventory.</span></span>
     * <span data-ttu-id="0e302-120">Puslapyje Turimos konsignacijos atsargos rodomos kliento sandėlio atsargos, kuris priklauso jums.</span><span class="sxs-lookup"><span data-stu-id="0e302-120">The On-hand consignment inventory page shows the stock that you own at the customer’s warehouse.</span></span> <span data-ttu-id="0e302-121">Galima rodyti papildomas dimensijas, pvz., teritoriją ir sandėlį, spustelėjus skirtuką Rodyti dimensijas.</span><span class="sxs-lookup"><span data-stu-id="0e302-121">You can show additional dimensions, such as the site and warehouse, by clicking the Display dimensions tab.</span></span>   
+
 

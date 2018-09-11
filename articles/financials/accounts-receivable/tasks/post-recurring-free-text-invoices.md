@@ -3,23 +3,24 @@ title: "Generuoti ir registruoti pasikartojančias laisvos formos SF"
 description: "Pasikartojančios SF naudojamos reguliariai klientams išrašyti SF už tą pačią sumą."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: fc0829648d8129f0264da744ff9bb39017b714a2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 817da36aebb4a8e7cbd986734ef9d5028982cbb6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="47c82-103">Generuoti ir registruoti pasikartojančias laisvos formos SF</span><span class="sxs-lookup"><span data-stu-id="47c82-103">Generate and post recurring free text invoices</span></span>

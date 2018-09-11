@@ -1,70 +1,71 @@
 --- 
-title: "Uždarų klausimų kūrimas"
+title: "Kurti uždarą klausimą"
 description: "Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e6e2535cb606b85ddb55a396a86ec408f1304bbf
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b725866216c4f01d853be78fa3c4de0f91ad4de3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="create-closed-ended-questions"></a><span data-ttu-id="427aa-103">Uždarų klausimų kūrimas</span><span class="sxs-lookup"><span data-stu-id="427aa-103">Create closed-ended questions</span></span>
+# <a name="create-a-closed-ended-question"></a><span data-ttu-id="ef75b-103">Kurti uždarą klausimą</span><span class="sxs-lookup"><span data-stu-id="ef75b-103">Create a closed ended question</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="427aa-104">Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų.</span><span class="sxs-lookup"><span data-stu-id="427aa-104">Closed-ended questions allow you to provide options for the respondent to choose from.</span></span> <span data-ttu-id="427aa-105">Pirmiausia, turite sukurti atsakymų grupę su atsakymais, tada sukurkite klausimą, kuris naudos atsakymų grupę.</span><span class="sxs-lookup"><span data-stu-id="427aa-105">First, you need to create the Answer group with the answers, then create the question that will use the answer group.</span></span> <span data-ttu-id="427aa-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="427aa-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="ef75b-104">Uždari klausimai leidžia suteikti respondentui pasirinkimo variantų.</span><span class="sxs-lookup"><span data-stu-id="ef75b-104">Closed-ended questions allow you to provide options for the respondent to choose from.</span></span> <span data-ttu-id="ef75b-105">Pirmiausia, turite sukurti atsakymų grupę su atsakymais, tada sukurkite klausimą, kuris naudos atsakymų grupę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-105">First, you need to create the Answer group with the answers, then create the question that will use the answer group.</span></span> <span data-ttu-id="ef75b-106">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="ef75b-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-answer-group"></a><span data-ttu-id="427aa-107">Kurti atsakymų grupę</span><span class="sxs-lookup"><span data-stu-id="427aa-107">Create an answer group</span></span>
-1. <span data-ttu-id="427aa-108">Eikite į Klausimynas > Kūrimas > Atsakymų grupės.</span><span class="sxs-lookup"><span data-stu-id="427aa-108">Go to Questionnaire > Design > Answer groups.</span></span>
-2. <span data-ttu-id="427aa-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-109">Click New.</span></span>
-3. <span data-ttu-id="427aa-110">Lauke „Atsakymų grupė“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-110">In the Answer group field, type a value.</span></span>
-4. <span data-ttu-id="427aa-111">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-111">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="427aa-112">Naudokite funkciją „Atsitiktinė tvarka“, kad atsakymai būtų pateikiami atsitiktinai vis kitokia tvarka kiekvieną kartą, kai klausimui naudojama atsakymų grupė.</span><span class="sxs-lookup"><span data-stu-id="427aa-112">Use the Randomize functionality to randomly place the answers in a different order each time the answer group is used for a question.</span></span>  
-5. <span data-ttu-id="427aa-113">Spustelėkite „Atsakyti“.</span><span class="sxs-lookup"><span data-stu-id="427aa-113">Click Answer.</span></span>
-6. <span data-ttu-id="427aa-114">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-114">Click New.</span></span>
-    * <span data-ttu-id="427aa-115">Atsakymų rodymo tvarką valdo sekos numeris, nebent atsakymų grupui taikoma „Atsitiktinė tvarka“.</span><span class="sxs-lookup"><span data-stu-id="427aa-115">Sequence number controls the order in which the answers are displayed, unless Randomize is selected for the Answer group.</span></span>  
-    * <span data-ttu-id="427aa-116">Klausimynas gali būti vertinamas atsakymams skiriant taškus.</span><span class="sxs-lookup"><span data-stu-id="427aa-116">Points can be awarded to answers for use in scoring the questionnaire.</span></span>  
-7. <span data-ttu-id="427aa-117">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="427aa-117">In the Points field, enter a number.</span></span>
-    * <span data-ttu-id="427aa-118">Galima pažymėti teisingą atsakymą parodant, kad pasirinktas atsakymas yra teisingas.</span><span class="sxs-lookup"><span data-stu-id="427aa-118">The correct answer can be marked to indicate that the selected answer is the correct one.</span></span> <span data-ttu-id="427aa-119">Tai gali būti naudojama vertinant klausimyną.</span><span class="sxs-lookup"><span data-stu-id="427aa-119">This can be used for scoring the questionnaire.</span></span>  
-8. <span data-ttu-id="427aa-120">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-120">In the Answer field, type a value.</span></span>
-    * <span data-ttu-id="427aa-121">Toliau kurkite atsakymų pasirinkimo parinktis atsakymų grupei.</span><span class="sxs-lookup"><span data-stu-id="427aa-121">Continue to create answer selection options for the answer group.</span></span>  
-9. <span data-ttu-id="427aa-122">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-122">Click New.</span></span>
-10. <span data-ttu-id="427aa-123">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="427aa-123">In the Points field, enter a number.</span></span>
-11. <span data-ttu-id="427aa-124">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-124">In the Answer field, type a value.</span></span>
-12. <span data-ttu-id="427aa-125">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-125">Click New.</span></span>
-13. <span data-ttu-id="427aa-126">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="427aa-126">In the Points field, enter a number.</span></span>
-14. <span data-ttu-id="427aa-127">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-127">In the Answer field, type a value.</span></span>
-15. <span data-ttu-id="427aa-128">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-128">Click New.</span></span>
-16. <span data-ttu-id="427aa-129">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="427aa-129">In the Points field, enter a number.</span></span>
-17. <span data-ttu-id="427aa-130">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-130">In the Answer field, type a value.</span></span>
-18. <span data-ttu-id="427aa-131">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-131">Click New.</span></span>
-19. <span data-ttu-id="427aa-132">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="427aa-132">In the Points field, enter a number.</span></span>
-20. <span data-ttu-id="427aa-133">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-133">In the Answer field, type a value.</span></span>
-21. <span data-ttu-id="427aa-134">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="427aa-134">Close the page.</span></span>
-22. <span data-ttu-id="427aa-135">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="427aa-135">Close the page.</span></span>
+## <a name="create-an-answer-group"></a><span data-ttu-id="ef75b-107">Kurti atsakymų grupę</span><span class="sxs-lookup"><span data-stu-id="ef75b-107">Create an answer group</span></span>
+1. <span data-ttu-id="ef75b-108">Eikite į Klausimynas > Kūrimas > Atsakymų grupės.</span><span class="sxs-lookup"><span data-stu-id="ef75b-108">Go to Questionnaire > Design > Answer groups.</span></span>
+2. <span data-ttu-id="ef75b-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-109">Click New.</span></span>
+3. <span data-ttu-id="ef75b-110">Lauke „Atsakymų grupė“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-110">In the Answer group field, type a value.</span></span>
+4. <span data-ttu-id="ef75b-111">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-111">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="ef75b-112">Naudokite funkciją „Atsitiktinė tvarka“, kad atsakymai būtų pateikiami atsitiktinai vis kitokia tvarka kiekvieną kartą, kai klausimui naudojama atsakymų grupė.</span><span class="sxs-lookup"><span data-stu-id="ef75b-112">Use the Randomize functionality to randomly place the answers in a different order each time the answer group is used for a question.</span></span>  
+5. <span data-ttu-id="ef75b-113">Spustelėkite „Atsakyti“.</span><span class="sxs-lookup"><span data-stu-id="ef75b-113">Click Answer.</span></span>
+6. <span data-ttu-id="ef75b-114">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-114">Click New.</span></span>
+    * <span data-ttu-id="ef75b-115">Atsakymų rodymo tvarką valdo sekos numeris, nebent atsakymų grupui taikoma „Atsitiktinė tvarka“.</span><span class="sxs-lookup"><span data-stu-id="ef75b-115">Sequence number controls the order in which the answers are displayed, unless Randomize is selected for the Answer group.</span></span>  
+    * <span data-ttu-id="ef75b-116">Klausimynas gali būti vertinamas atsakymams skiriant taškus.</span><span class="sxs-lookup"><span data-stu-id="ef75b-116">Points can be awarded to answers for use in scoring the questionnaire.</span></span>  
+7. <span data-ttu-id="ef75b-117">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ef75b-117">In the Points field, enter a number.</span></span>
+    * <span data-ttu-id="ef75b-118">Galima pažymėti teisingą atsakymą parodant, kad pasirinktas atsakymas yra teisingas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-118">The correct answer can be marked to indicate that the selected answer is the correct one.</span></span> <span data-ttu-id="ef75b-119">Tai gali būti naudojama vertinant klausimyną.</span><span class="sxs-lookup"><span data-stu-id="ef75b-119">This can be used for scoring the questionnaire.</span></span>  
+8. <span data-ttu-id="ef75b-120">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-120">In the Answer field, type a value.</span></span>
+    * <span data-ttu-id="ef75b-121">Toliau kurkite atsakymų pasirinkimo parinktis atsakymų grupei.</span><span class="sxs-lookup"><span data-stu-id="ef75b-121">Continue to create answer selection options for the answer group.</span></span>  
+9. <span data-ttu-id="ef75b-122">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-122">Click New.</span></span>
+10. <span data-ttu-id="ef75b-123">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ef75b-123">In the Points field, enter a number.</span></span>
+11. <span data-ttu-id="ef75b-124">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-124">In the Answer field, type a value.</span></span>
+12. <span data-ttu-id="ef75b-125">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-125">Click New.</span></span>
+13. <span data-ttu-id="ef75b-126">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ef75b-126">In the Points field, enter a number.</span></span>
+14. <span data-ttu-id="ef75b-127">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-127">In the Answer field, type a value.</span></span>
+15. <span data-ttu-id="ef75b-128">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-128">Click New.</span></span>
+16. <span data-ttu-id="ef75b-129">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ef75b-129">In the Points field, enter a number.</span></span>
+17. <span data-ttu-id="ef75b-130">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-130">In the Answer field, type a value.</span></span>
+18. <span data-ttu-id="ef75b-131">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-131">Click New.</span></span>
+19. <span data-ttu-id="ef75b-132">Lauke „Taškai“ įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ef75b-132">In the Points field, enter a number.</span></span>
+20. <span data-ttu-id="ef75b-133">Lauke „Atsakymas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-133">In the Answer field, type a value.</span></span>
+21. <span data-ttu-id="ef75b-134">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="ef75b-134">Close the page.</span></span>
+22. <span data-ttu-id="ef75b-135">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="ef75b-135">Close the page.</span></span>
 
-## <a name="create-the-question"></a><span data-ttu-id="427aa-136">Kurti klausimą</span><span class="sxs-lookup"><span data-stu-id="427aa-136">Create the question</span></span>
-1. <span data-ttu-id="427aa-137">Pasirinkite Klausimynas > Kūrimas > Klausimai.</span><span class="sxs-lookup"><span data-stu-id="427aa-137">Go to Questionnaire > Design > Questions.</span></span>
-2. <span data-ttu-id="427aa-138">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="427aa-138">Click New.</span></span>
-3. <span data-ttu-id="427aa-139">Naudokite lauką „Tipas“, kad sugrupuotumėte susijusius klausimus.</span><span class="sxs-lookup"><span data-stu-id="427aa-139">Use the Type field to group related questions together.</span></span>
-    * <span data-ttu-id="427aa-140">Galite naudoti įvesties tipo žymės langelį, alternatyvų mygtuką arba pasirinktinio įvedimo lauką uždariems klausimams.</span><span class="sxs-lookup"><span data-stu-id="427aa-140">You can use input types of Check box, Alternative button, or Combo box for closed-ended questions.</span></span>  
-4. <span data-ttu-id="427aa-141">Lauke „Įvesties tipas“ pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="427aa-141">In the Input type field, select an option.</span></span>
-5. <span data-ttu-id="427aa-142">Lauke Atsakymų grupė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-142">In the Answer group field, enter or select a value.</span></span>
-6. <span data-ttu-id="427aa-143">Lauke „Tekstas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="427aa-143">In the Text field, type a value.</span></span>
+## <a name="create-the-question"></a><span data-ttu-id="ef75b-136">Kurti klausimą</span><span class="sxs-lookup"><span data-stu-id="ef75b-136">Create the question</span></span>
+1. <span data-ttu-id="ef75b-137">Pasirinkite Klausimynas > Kūrimas > Klausimai.</span><span class="sxs-lookup"><span data-stu-id="ef75b-137">Go to Questionnaire > Design > Questions.</span></span>
+2. <span data-ttu-id="ef75b-138">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="ef75b-138">Click New.</span></span>
+3. <span data-ttu-id="ef75b-139">Naudokite lauką „Tipas“, kad sugrupuotumėte susijusius klausimus.</span><span class="sxs-lookup"><span data-stu-id="ef75b-139">Use the Type field to group related questions together.</span></span>
+    * <span data-ttu-id="ef75b-140">Galite naudoti įvesties tipo žymės langelį, alternatyvų mygtuką arba pasirinktinio įvedimo lauką uždariems klausimams.</span><span class="sxs-lookup"><span data-stu-id="ef75b-140">You can use input types of Check box, Alternative button, or Combo box for closed-ended questions.</span></span>  
+4. <span data-ttu-id="ef75b-141">Lauke „Įvesties tipas“ pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="ef75b-141">In the Input type field, select an option.</span></span>
+5. <span data-ttu-id="ef75b-142">Lauke Atsakymų grupė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-142">In the Answer group field, enter or select a value.</span></span>
+6. <span data-ttu-id="ef75b-143">Lauke „Tekstas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ef75b-143">In the Text field, type a value.</span></span>
 
 

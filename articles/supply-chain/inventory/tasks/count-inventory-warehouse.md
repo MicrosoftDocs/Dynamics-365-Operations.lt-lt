@@ -1,26 +1,27 @@
----
+--- 
 title: "Skaičiuoti sandėlio atsargas"
 description: "Ši procedūra padės kurti ir registruoti atsargų inventorizacijos žurnalą, norint suskaičiuoti tam tikrą prekę tam tikros teritorijos sandėlyje."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5099e82aa3f0408cbfbf816a69c38c5d48989dd2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: cff65842f9eefb4365aaec86822173c6cfd35473
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="2c3b9-103">Skaičiuoti sandėlio atsargas</span><span class="sxs-lookup"><span data-stu-id="2c3b9-103">Count inventory in a warehouse</span></span>
@@ -68,4 +69,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="2c3b9-141">Spustelėkite Atsargos.</span><span class="sxs-lookup"><span data-stu-id="2c3b9-141">Click Inventory.</span></span>
 2. <span data-ttu-id="2c3b9-142">Spustelėkite Operacijos.</span><span class="sxs-lookup"><span data-stu-id="2c3b9-142">Click Transactions.</span></span>
     * <span data-ttu-id="2c3b9-143">Čia galite pamatyti visas susijusias operacijas, kurios bus sukurtos registruojant atsargų inventorizacijos žurnalą.</span><span class="sxs-lookup"><span data-stu-id="2c3b9-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
+
 
