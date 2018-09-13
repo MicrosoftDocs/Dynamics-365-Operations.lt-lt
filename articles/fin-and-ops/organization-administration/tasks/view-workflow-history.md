@@ -3,7 +3,7 @@ title: "Peržiūrėti darbo eigos retrospektyvą"
 description: "Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas"
 description: "Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte savo tikslus arba koks buvo jūsų našumas per pasirinktą laikotarpį."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

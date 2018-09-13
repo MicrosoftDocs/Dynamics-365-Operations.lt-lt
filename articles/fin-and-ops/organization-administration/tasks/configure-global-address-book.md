@@ -3,7 +3,7 @@ title: "Visuotinės adresų knygelės konfigūravimas"
 description: "Naudokite šią procedūrą norėdami nustatyti numatytąsias vertes ir visuotinės adresų knygelės saugos strategijas."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

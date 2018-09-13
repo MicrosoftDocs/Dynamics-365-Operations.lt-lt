@@ -3,7 +3,7 @@ title: "Organizacijos hierarchijos kūrimas"
 description: "Norėdami sukurti organizacinę hierarchiją, naudokite nurodytą procedūrą."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

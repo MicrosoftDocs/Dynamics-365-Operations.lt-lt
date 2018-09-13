@@ -3,7 +3,7 @@ title: "Tikslo kūrimas"
 description: "Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti tikslus su apžvalga."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

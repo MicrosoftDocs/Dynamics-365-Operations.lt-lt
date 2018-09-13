@@ -3,7 +3,7 @@ title: "Juridinio subjekto kūrimas"
 description: "Juridinis subjektas yra organizacija, kuri yra identifikuojama pagal registraciją teisinėse institucijose."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
