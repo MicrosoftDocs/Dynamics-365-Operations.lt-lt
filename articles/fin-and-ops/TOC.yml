@@ -153,10 +153,12 @@
       items:
         - name: „Finance and Operations“ architektūra
           href: imp-lifecycle/architecture-overview.md
-        - name: '„Microsoft FastTrack“, skirtas „Finance and Operations“'
+        - name: „Microsoft FastTrack for Finance and Operations“
           href: get-started/fasttrack-dynamics-365-overview.md
         - name: Diegimo projekto priėmimas
           href: imp-lifecycle/onboard.md
+        - name: Aplinkos planavimas
+          href: imp-lifecycle/environment-planning.md
         - name: Rengimasis įgyvendinimo pradžiai
           href: imp-lifecycle/prepare-go-live.md
         - name: DUK apie įgyvendinimo pradžią
@@ -458,8 +460,10 @@
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Teigiamų mokėjimų failų nustatymas ir generavimas
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
-            - name: Numatytosios korespondentinės sąskaitos pardavėjo sąskaitų faktūrų žurnalams ir sąskaitų faktūrų patvirtinimo žurnalams
+            - name: Numatytosios korespondentinės sąskaitos tiekėjo sąskaitų faktūrų žurnalams ir sąskaitų faktūrų patvirtinimo žurnalams
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
+            - name: Tiekėjo darbo eiga
+              href: ../financials/accounts-payable/vendor-workflow.md
             - name: Nesutapimų šalinimas gretinant SF bendrąsias sumas
               href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
@@ -475,12 +479,18 @@
               href: ../financials/accounts-payable/vendor-portal-invoicing-workspace.md
             - name: Tiekėjo sąskaitų faktūrų automatizavimas
               href: ../financials/accounts-payable/vendor-invoice-automation.md
+            - name: Brokerių sutarčių valdymas
+              href: ../financials/accounts-payable/broker-contract.md
+            - name: Naudojimosi turtu mokesčio sutarčių valdymas
+              href: ../financials/accounts-payable/royalty-contract.md
             - name: Mokėjimai ir sudengimai
               items:
                 - name: Centralizuoti modulio Mokėtinos sumos mokėjimai
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Sudengimo konfigūravimas
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Tiekėjo mokėjimų apžvalga
+                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Tiekėjo mokėjimų darbo sritis
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: Kryžminio kurso nurodymas
@@ -513,18 +523,22 @@
                   href: ../financials/accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: Tiekėjų dalinės sumos mokėjimai
                   href: ../financials/accounts-payable/vendor-payments-partial-amount.md
+                - name: Tiekėjo operacijų sąrašo puslapis
+                  href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Gautinos sumos
           href: ../financials/accounts-receivable/accounts-receivable.md
           items:
             - name: Kreditas ir surinkimas modulyje Gautinos sumos
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
-            - name: Gautinų sumų bei kredito ir surinkimo konfigūravimas
+            - name: Modulio Gautinos sumos bei kredito ir surinkimo konfigūravimas
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: Kredito ir surinkimo nustatymas
               href: ../financials/accounts-receivable/set-up-collections.md
+            - name: Surinkimo informacijos peržiūra
+              href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: Pasikartojančių SF nustatymas ir apdorojimas
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
-            - name: 'Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF'
+            - name: 'Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos sąskaitoms faktūroms'
               href: ../financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Kliento registravimo šablonai
               href: ../financials/accounts-receivable/customer-posting-profiles.md
@@ -540,52 +554,54 @@
               href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Laisvos formos sąskaitos faktūros taisymas
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
-            - name: Palūkanų tarifų nustatymas palūkanų kodui
+            - name: Laisvos formos sąskaitos faktūros šablono priskyrimas klientui
+              href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Pasikartojančių laisvos formos SF generavimas ir registravimas
+              href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
+            - name: Pardavimo užsakymų sąskaitų faktūrų kūrimas
+              href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
+            - name: Palūkanų normų nustatymas palūkanų kodui
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Palūkanų ir mokesčių atsisakymas, grąžinimas arba atšaukimas'
+            - name: 'Palūkanų mokesčių atsisakymas, grąžinimas arba atšaukimas'
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
-            - name: Kliento SF kūrimas
+            - name: Palūkanų apdorojimas
+              href: ../financials/accounts-receivable/tasks/process-interest.md
+            - name: Tiekėjų sąskaitų faktūrų strategijų nustatymas
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Tiekėjo sąskaitos faktūros įrašymas ir sugretinimas su gautu kiekiu
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
+            - name: Kliento sąskaitos faktūros kūrimas
               href: ../financials/accounts-receivable/configure-customer-invoices.md
+            - name: Kliento mokėjimų mokėjimas
+              href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: Kliento mokėjimo sąlygų nustatymas
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Kliento mokėjimo būdo nustatymas
+              href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Kliento mokėjimo mokesčių nustatymas
+              href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Įsakomųjų vekselių nustatymas
               href: ../financials/accounts-receivable/set-up-bills-exchange.md
-            - name: Gautinų sumų uždarymas
+            - name: Modulio Gautinos sumos uždarymas
               href: ../financials/accounts-receivable/close-accounts-receivable.md
-            - name: Gautinų sumų užduotys
-              items:
-                - name: Laisvos formos sąskaitos faktūros šablono priskyrimas klientui
-                  href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: Priminimo laiškų sekos kūrimas
-                  href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Palūkanų kodo su intervalu kūrimas
-                  href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: Pardavimo užsakymų sąskaitų faktūrų kūrimas
-                  href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
-                - name: Kurti kliento nurašymo žurnalą
-                  href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-                - name: Mokėti kliento mokėjimus
-                  href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
-                - name: Nustatyti kliento mokėjimo būdą
-                  href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
-                - name: Nustatyti kliento mokėjimo mokesčius
-                  href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
-                - name: Generuoti ir registruoti pasikartojančias laisvos formos SF
-                  href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
-                - name: Apdoroti priminimo laiškus
-                  href: ../financials/accounts-receivable/tasks/process-collection-letters.md
-                - name: Palūkanų apdorojimas
-                  href: ../financials/accounts-receivable/tasks/process-interest.md
-                - name: Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu
-                  href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-                - name: Peržiūrėti mokėjimų priežiūros informaciją
-                  href: ../financials/accounts-receivable/tasks/review-collections-information.md
-                - name: Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją
-                  href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-                - name: Nustatyti tiekėjų SF strategijas
-                  href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Priminimo laiškų sekos kūrimas
+              href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Priminimo laiškų apdorojimas
+              href: ../financials/accounts-receivable/tasks/process-collection-letters.md
+            - name: Kliento tiesioginio debeto įgaliojimo kūrimas
+              href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+            - name: Palūkanų kodo su intervalu kūrimas
+              href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
+            - name: Kliento nurašymo žurnalo kūrimas
+              href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: Gautinų sumų skirstymo pagal terminus informacijos nustatymas ir generavimas
+              href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Kliento darbo eiga
+              href: ../financials/accounts-receivable/customer-workflow.md
             - name: Mokėjimai ir sudengimai
               items:
+                - name: Kliento mokėjimų apžvalga
+                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
                 - name: 'Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą'
                   href: ../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Centralizuoti gautinų sumų mokėjimai
@@ -602,6 +618,8 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Klientų dalinės sumos mokėjimai
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+                - name: Kliento operacijų sąrašo puslapis
+                  href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Biudžeto sudarymas
           href: ../financials/budgeting/budgeting-overview.md
           items:
@@ -638,57 +656,53 @@
               href: ../financials/cash-bank-management/cash-discounts.md
             - name: Permokėjimų mokėjimo nuolaidos
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
+            - name: IBAN sąskaitų tikrinimo valdymas
+              href: ../financials/cash-bank-management/iban-validation.md
             - name: Sudengimų apžvalga
               href: ../financials/cash-bank-management/settlement-overview.md
             - name: Centralizuotų mokėjimų sudengimo apžvalga
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Akredityvai
               href: ../financials/cash-bank-management/letters-of-credit.md
+            - name: Akredityvo banko priemonės sutarties kūrimas
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
+            - name: Akredityvo banko priemonių ir registravimo šablonų nustatymas
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Akredityvai ir importo rinkiniai
               href: ../financials/cash-bank-management/letters-of-credit-import-collections.md
+            - name: Akredityvo eksportavimas
+              href: ../financials/cash-bank-management/tasks/export-letter-credit.md
+            - name: Akredityvo importavimas
+              href: ../financials/cash-bank-management/tasks/import-letter-credit.md
             - name: Garantiniai raštai
               href: ../financials/cash-bank-management/letters-of-guarantee.md
+            - name: Garantinio rašto operacija
+              href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
+            - name: Garantinio rašto banko priemonės sutarties kūrimas
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
+            - name: Garantinio rašto banko priemonių ir registravimo šablonų nustatymas
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
             - name: Vėlesni čekiai
               href: ../financials/cash-bank-management/postdated-checks.md
-            - name: Išankstinio mokėjimo SF ir išankstiniai mokėjimai
+            - name: Vėlesnių čekių nustatymas
+              href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
+            - name: Kliento vėlesnio čekio registravimas
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
+            - name: Tiekėjo vėlesnio čekio registravimas
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
+            - name: Vėlesnio čekio iš kliento sudengimas
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
+            - name: Vėlesnio tiekėjo čekio sudengimas
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
+            - name: Išankstinio mokėjimo sąskaitos faktūros ir išankstiniai mokėjimai
               href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
-            - name: Permokėjimų mokėjimo nuolaidos apdorojimas
+            - name: Permokėjimų mokėjimo nuolaidų apdorojimas
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Centralizuotų mokėjimų nustatymas
               href: ../financials/cash-bank-management/set-up-centralized-payments.md
             - name: Automatinis sudengimas ir prioritetų nustatymas
               href: ../financials/accounts-receivable/automatic-settlement-prioritization.md
-            - name: Grynųjų pinigų ir banko valdymo užduotys
-              items:
-                - name: Kurti akredityvo banko priemonės sutartį
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
-                - name: Kurti garantinio rašto banko priemonės sutartį
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
-                - name: Kliento mokėjimų apžvalga
-                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
-                - name: Eksportuoti akredityvą
-                  href: ../financials/cash-bank-management/tasks/export-letter-credit.md
-                - name: Importuoti akredityvą
-                  href: ../financials/cash-bank-management/tasks/import-letter-credit.md
-                - name: Garantinio rašto operacija
-                  href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
-                - name: Registruoti kliento vėlesnį čekį
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
-                - name: Registruoti tiekėjo vėlesnį čekį
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
-                - name: Vėlesnio čekio iš kliento sudengimas
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
-                - name: Vėlesnio tiekėjo čekio sudengimas
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
-                - name: Nustatyti garantinio rašto banko priemones ir registravimo šablonus
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
-                - name: Nustatyti akredityvo banko priemones ir registravimo šablonus
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-                - name: Vėlesnių čekių nustatymas
-                  href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
-                - name: Tiekėjo mokėjimų peržiūra
-                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
-            - name: Išplėstinis banko suderinimas
+            - name: Išplėstinis banko derinimas
               items:
                 - name: Išplėstinio banko derinimo nustatymo užduotys
                   href: ../financials/cash-bank-management/configure-advanced-bank-reconciliation.md
@@ -817,6 +831,14 @@
         - name: Ilgalaikis turtas
           href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Ilgalaikio turto kūrimas
+              href: ../financials/fixed-assets/tasks/create-fixed-asset.md
+            - name: Ilgalaikio turto priedo įvedimas
+              href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
+            - name: Ilgalaikio turto įsigijimų siūlymas
+              href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
+            - name: Ilgalaikio turto perklasifikavimas
+              href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
             - name: Ilgalaikio turto darbo sritis
               href: ../financials/fixed-assets/fixed-asset-management-workspace.md
             - name: Užregistruotų ilgalaikio turto keitimų taikymo ataskaita
@@ -833,10 +855,20 @@
               href: ../financials/fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: Ilgalaikio turto operacijų parinktys
               href: ../financials/fixed-assets/enter-fixed-asset-transactions.md
+            - name: Ilgalaikio turto perkėlimas
+              href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
+            - name: Ilgalaikio turto skaidymas
+              href: ../financials/fixed-assets/tasks/split-fixed-asset.md
+            - name: Ilgalaikio turto grupių nustatymas
+              href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
+            - name: Ilgalaikio turto grupės keitimas
+              href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
             - name: Ilgalaikio turto grupių atkuriamosios vertės ir draudimo sumų perskaičiavimas
               href: ../financials/fixed-assets/recalculate-replacement-costs-insured-values-fixed-asset-groups.md
             - name: Ilgalaikio turto likvidavimo registravimo sąskaitos
               href: ../financials/fixed-assets/fixed-asset-disposal-posting-accounts.md
+            - name: Ilgalaikio turto likvidavimas naudojant laisvos formos SF
+              href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
             - name: Visiškas ilgalaikio turto atnaujinimas
               href: ../financials/fixed-assets/fixed-asset-mass-update.md
             - name: Turto pirkimas įsigyjant
@@ -845,8 +877,18 @@
               items:
                 - name: Ilgalaikio turto nustatymas
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
+                - name: Ilgalaikio turto registravimo šablonų nustatymas
+                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: Ilgalaikio turto integravimas
                   href: ../financials/fixed-assets/fixed-asset-integration.md
+                - name: Turto kūrimas ir įsigijimas iš mokėtinų sumų
+                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
+                - name: 'Nusidėvėjimo knygų nustatymas '
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
+                - name: Nusidėvėjimo profilių nustatymas ir kūrimas
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
+                - name: Vertinimo modelių nustatymas
+                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
             - name: Nusidėvėjimo metodai
               items:
                 - name: Nusidėvėjimo konvencijos
@@ -861,18 +903,26 @@
                   href: ../financials/fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: Papildomas nusidėvėjimas
                   href: ../financials/fixed-assets/bonus-depreciation.md
+                - name: Papildomo nusidėvėjimo nustatymas
+                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: Nusidėvėjimas pagal suvartojimą
                   href: ../financials/fixed-assets/consumption-depreciation.md
                 - name: Nusidėvėjimo poveikis su atšaukimais
                   href: ../financials/fixed-assets/depreciation-effects-reversals.md
                 - name: Nusidėvėjimo metodai ir konvencijos
                   href: ../financials/fixed-assets/depreciation-methods-conventions.md
+                - name: Nusidėvėjimo pasiūlymo kūrimas
+                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
                 - name: Nusidėvėjimas pagal koeficientą
                   href: ../financials/fixed-assets/factor-depreciation.md
                 - name: Ilgalaikio turto įsigijimo registravimo sąskaitos
                   href: ../financials/fixed-assets/fixed-asset-acquisition-posting-accounts.md
                 - name: Ilgalaikio turto nusidėvėjimas
                   href: ../financials/fixed-assets/fixed-asset-depreciation.md
+                - name: Juridinių subjektų ilgalaikio turto nusidėvėjimo skaičiavimas
+                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
+                - name: Keleto ilgalaikio turto vienetų nusidėvėjimo konvencijų keitimas
+                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
                 - name: Neautomatinis nusidėvėjimas
                   href: ../financials/fixed-assets/manual-depreciation.md
                 - name: Mažėjančios vertės nusidėvėjimas
@@ -883,44 +933,6 @@
                   href: ../financials/fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Tiesiogiai proporcingas nusidėvėjimas
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
-            - name: Ilgalaikio turto užduotys
-              items:
-                - name: Juridinių subjektų ilgalaikio turto nusidėvėjimo skaičiavimas
-                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
-                - name: Keleto ilgalaikio turto vienetų nusidėvėjimo konvencijų keitimas
-                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
-                - name: Keisti ilgalaikio turto grupę
-                  href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
-                - name: Kurti ir įsigyti turtą iš mokėtinų sumų
-                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
-                - name: Kurti nusidėvėjimo pasiūlymą
-                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
-                - name: Kurti ilgalaikį turtą
-                  href: ../financials/fixed-assets/tasks/create-fixed-asset.md
-                - name: Likviduoti ilgalaikį turtą naudojant laisvos formos SF
-                  href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
-                - name: Ilgalaikio turto priedo įvedimas
-                  href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
-                - name: Siūlyti ilgalaikio turto įsigijimus
-                  href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
-                - name: Perklasifikuoti ilgalaikį turtą
-                  href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
-                - name: Nustatyti papildomą nusidėvėjimą
-                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Nustatyti nusidėvėjimo knygas '
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
-                - name: Nustatyti ir kurti nusidėvėjimo profilius
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
-                - name: Nustatyti ilgalaikio turto grupes
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
-                - name: Nustatyti ilgalaikio turto registravimo profilius
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
-                - name: Vertinimo modelių nustatymas
-                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
-                - name: Ilgalaikio turto skaidymas
-                  href: ../financials/fixed-assets/tasks/split-fixed-asset.md
-                - name: Ilgalaikio turto perkėlimas
-                  href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
         - name: Didžioji knyga
           href: ../financials/general-ledger/general-ledger.md
           items:
@@ -948,7 +960,14 @@
                   href: ../financials/general-ledger/tasks/create-account-structures.md
                 - name: Kaupimo schemų kūrimas
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas
+                - name: Finansinės konsolidacijos ir valiutos konvertavimas
+                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                  items:
+                    - name: Konsolidavimas internetu
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Konsoliduotų finansinių ataskaitų generavimas
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Konsolidavimo grupių ir papildomos konsolidavimo sąskaitos kūrimas
                   href: ../financials/general-ledger/tasks/create-consolidation-groups.md
                 - name: Pagrindinės sąskaitos tipai
                   href: ../financials/general-ledger/main-account-types.md
@@ -1073,22 +1092,40 @@
           items:
             - name: Viešojo sektoriaus funkcijų planas
               href: ../financials/public-sector/plan-public-sector-functionality.md
+            - name: Viešojo sektoriaus mokėjimų ataskaitos viršelio ir parašo puslapių kūrimas
+              href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Mokėtinos sumos viešajame sektoriuje
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: Pirkimo užsakymų kodai viešajame sektoriuje
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
+                - name: Prekybos partnerio kodo viešajame sektoriuje kūrimas ir priskyrimas
+                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Registravimo aprašai viešajame sektoriuje
                   href: ../financials/public-sector/posting-definitions-public-sector.md
-                - name: Vienkartinių tiekėjų planas viešajame sektoriuje
-                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
                 - name: Vienkartiniai tiekėjai viešajame sektoriuje
                   href: ../financials/public-sector/one-time-vendors-public-sector.md
+                - name: Viešojo sektoriaus vienkartinių tiekėjo ir SF kūrimas
+                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
+                - name: Viešojo sektoriaus tiekėjo sertifikavimo tipo kūrimas
+                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
+                - name: Kelių vienkartinių viešojo sektoriaus tiekėjų ir SF importavimas ir kūrimas
+                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Vienkartinių tiekėjų planas viešajame sektoriuje
+                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
+                - name: Prieigos prie viešojo sektoriaus pirkimo sutarčių valdymas
+                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
+                - name: Viešojo sektoriaus pirkimo sutarčių klasifikacijų nustatymas
+                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Gautinos sumos viešajame sektoriuje
               href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
                 - name: Atsiskaitymo klasifikacijos ir atsiskaitymo kodai viešajame sektoriuje
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
+                - name: Viešojo sektoriaus atsiskaitymo klasifikacijos kūrimas
+                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
+                - name: Viešojo sektoriaus atsiskaitymo kodo kūrimas
+                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
                 - name: Sudengimo prioritetas viešajame sektoriuje
                   href: ../financials/public-sector/settlement-priority-public-sector.md
                 - name: Laisvos formos SF viešajame sektoriuje
@@ -1098,10 +1135,16 @@
             - name: Biudžeto sudarymas viešajame sektoriuje
               href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Viešojo sektoriaus pradinio biudžeto kūrimas ir preliminaraus biudžeto įrašų atšaukimas
+                  href: ../financials/public-sector/tasks/create-original-budget.md
+                - name: Viešojo sektoriaus preliminaraus biudžeto sukūrimas
+                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
                 - name: Biudžeto analizė viešajame sektoriuje
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Preliminarūs biudžetai ir paskyros viešajame sektoriuje
                   href: ../financials/public-sector/preliminary-budgets-apportionments-public-sector.md
+                - name: Viešojo sektoriaus įsipareigojimo rezervuoti biudžeto lėšas kūrimas
+                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
             - name: Ilgalaikis turtas viešajame sektoriuje
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Didžioji knyga viešajame sektoriuje
@@ -1109,52 +1152,26 @@
               items:
                 - name: Išplėstiniai DK įrašai viešajame sektoriuje
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
+                - name: Viešojo sektoriaus išplėstinio didžiosios knygos įrašo kūrimas
+                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: Metų pabaigos apdorojimas viešajame sektoriuje
                   href: ../financials/public-sector/year-end-processing-public-sector.md
                 - name: Išvestinės finansinės hierarchijos viešajame sektoriuje
                   href: ../financials/public-sector/derived-financial-hierarchies-public-sector.md
+                - name: Išvestinės finansinės hierarchijos nustatymas viešajame sektoriuje
+                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
             - name: Paraiškos viešajame sektoriuje
               href: ../financials/public-sector/procurement-sourcing-public-sector.md
             - name: Saugos vaidmenys viešajame sektoriuje
               href: ../financials/public-sector/security-roles-public-sector.md
-            - name: Lėšos viešajame sektoriuje
+            - name: Fondai viešajame sektoriuje
               href: ../financials/public-sector/funds-public-sector.md
-            - name: Viešojo sektoriaus užduotys
-              items:
-                - name: Viešojo sektoriaus tiekėjo sertifikavimo tipo įtraukimas
-                  href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
-                - name: Valdyti prieigą prie viešojo sektoriaus pirkimo sutarčių
-                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
-                - name: Viešojo sektoriaus išplėstinio didžiosios knygos įrašo kūrimas
-                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Kurti ir priskirti viešojo sektoriaus prekybos partnerio kodą
-                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
-                - name: Viešojo sektoriaus atsiskaitymo klasifikacijos kūrimas
-                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
-                - name: Viešojo sektoriaus atsiskaitymo kodo kūrimas
-                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
-                - name: Viešojo sektoriaus įsipareigojimo rezervuoti biudžeto lėšas kūrimas
-                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
-                - name: Viešojo sektoriaus mokėjimų ataskaitos viršelio ir parašo puslapių kūrimas
-                  href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-                - name: Viešojo sektoriaus lėšų tipo kūrimas
-                  href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
-                - name: Viešojo sektoriaus vienkartinių tiekėjo ir SF kūrimas
-                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
-                - name: Kurti viešojo sektoriaus pradinį biudžetą ir atšaukti preliminaraus biudžeto įrašus
-                  href: ../financials/public-sector/tasks/create-original-budget.md
-                - name: Viešojo sektoriaus preliminaraus biudžeto sukūrimas
-                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
-                - name: Viešojo sektoriaus tiekėjo sertifikavimo tipo kūrimas
-                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: Kelių vienkartinių viešojo sektoriaus tiekėjų ir SF importavimas ir kūrimas
-                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: Nustatyti išvestinę finansinę hierarchiją viešajame sektoriuje
-                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: Nustatyti viešojo sektoriaus lėšas
-                  href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
-                - name: Viešojo sektoriaus pirkimo sutarčių klasifikacijų nustatymas
-                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
+            - name: Viešojo sektoriaus fondo nustatymas
+              href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
+            - name: Viešojo sektoriaus fondo tipo kūrimas
+              href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
+            - name: Viešojo sektoriaus tiekėjo sertifikavimo tipo įtraukimas
+              href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Finansinės ataskaitos
           href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
@@ -1193,311 +1210,315 @@
     - name: Lokalizavimo ir reguliavimo priemonės​
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Azijos ir Ramiojo vandenyno regionas
+        - name: Australija
+          href: ../financials/localizations/australia.md
           items:
-            - name: Australija
-              href: ../financials/localizations/australia.md
+            - name: Verslo veiklos išrašas (BAS)
+              href: ../financials/localizations/apac-aus-business-activity-statement.md
+            - name: Ataskaitos laukų įtraukimas ir BAS generavimas
+              href: ../financials/localizations/tasks/add-bas-report-boxes.md
+            - name: Mažų verčių telkinio nusidėvėjimas
+              href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
+            - name: BAS priežasčių kodų nustatymas
+              href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
+        - name: Austrija
+          href: ../financials/localizations/austria.md
+          items:
+            - name: Papildomų įsigijimų pusmečio nusidėvėjimas
+              href: ../financials/localizations/emea-aut-half-year-depreciation.md
+            - name: Pakavimo medžiagų mokesčiai
+              href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
+            - name: PVM išrašas
+              href: ../financials/localizations/emea-aut-vat-statement-details.md
+        - name: Belgija
+          href: ../financials/localizations/belgium.md
+          items:
+            - name: CODA banko išrašas
+              href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
+            - name: Operacijų kūrimas ir perkėlimas į BLWI
+              href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
+            - name: INTERVAT mokesčių deklaracija
+              href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
+            - name: Suderinimo ataskaitos
+              href: ../financials/localizations/emea-bel-reconciliation-reports.md
+            - name: Mokėjimo balanso ataskaitų nustatymas
+              href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
+            - name: PRODCOM nustatymas ir tvarkymas
+              href: ../financials/localizations/emea-bel-prodcom-report.md
+        - name: Brazilija
+          href: ../financials/localizations/brazil.md
+          items:
+            - name: Lokalizavimo aprėptis
+              href: ../financials/localizations/latam-bra-scope.md
+            - name: Finansų knygos
+              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
-                - name: Verslo veiklos išrašas (BAS)
-                  href: ../financials/localizations/apac-aus-business-activity-statement.md
-                - name: Ataskaitos laukų įtraukimas ir BAS generavimas
-                  href: ../financials/localizations/tasks/add-bas-report-boxes.md
-                - name: Mažų verčių telkinio nusidėvėjimas
-                  href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
-                - name: BAS priežasčių kodų nustatymas
-                  href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
-            - name: Kinija
-              href: ../financials/localizations/china.md
+                - name: Finansų knygų konfigūravimas
+                  href: ../financials/localizations/latam-bra-configure-fiscal-books.md
+                - name: ICMS mokesčių finansiniai dokumentai
+                  href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
+                - name: Finansinių dokumentų importavimas
+                  href: ../financials/localizations/latam-bra-import-fiscal-documents.md
+                - name: Juridinio subjekto operacijų eksportavimas ir importavimas iš jungtinės didžiosios knygos
+                  href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
+                - name: NF-e XML dokumentų ir DANFE failų importavimas bei tikrinimas
+                  href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
+                - name: Paslaugos elektroninis finansinis dokumentas naudojant teksto failus
+                  href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
+                - name: Elektroninių mokėjimų pavedimų apdorojimas
+                  href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
+                - name: Tiekėjų elektroninių mokėjimų valdymas
+                  href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
+                - name: Finansiniai dokumentai
+                  href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
+                - name: Finansinių dokumentų teksto vietos rezervavimo ženklai
+                  href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
+                - name: Finansinio dokumento šaltinio teksto nustatymas
+                  href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
+                - name: Finansinių dokumentų teksto įsigijimo dokumentuose valdymas
+                  href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
+                - name: Tiekėjų finansinių dokumentų išdavimas
+                  href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
+                - name: Klientų finansinių dokumentų išdavimas
+                  href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
+                - name: Papildomi finansiniai pirkimo dokumentai
+                  href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
+                - name: Papildomo finansinio pirkimo dokumento kūrimas ir registravimas
+                  href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
+                - name: Papildomo finansinio pirkimo dokumento atšaukimas
+                  href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
+                - name: Nurodyti finansiniai dokumentai
+                  href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
+                - name: Tiekėjo finansinių dokumentų gavimas (produktai)
+                  href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
+                - name: Tiekėjo finansinių dokumentų gavimas (ilgalaikis turtas – PIS ir COFINS ilgalaikis grąžinimas)
+                  href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
+                - name: Tiekėjo finansinių dokumentų gavimas (ilgalaikis turtas – ICMS ilgalaikis grąžinimas)
+                  href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
+                - name: Išduoti kliento finansinius dokumentus (paslaugos)
+                  href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
+                - name: Išduoti kliento finansinius dokumentus (ilgalaikis turtas)
+                  href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
+                - name: Išduoti kliento finansinius dokumentus (projektas)
+                  href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
+                - name: Išduoti kliento finansinius dokumentus (galutiniams vartotojams)
+                  href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
+                - name: Kliento finansinių dokumentų išdavimas (SUFRAMA klientams)
+                  href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
+                - name: Kliento finansinio dokumento atšaukimas (projektas)
+                  href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
+                - name: Papildomi finansiniai pardavimo dokumentai
+                  href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
+                - name: Papildomo finansinio pardavimo dokumento kūrimas ir redagavimas
+                  href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
+                - name: Papildomo finansinio pardavimo dokumento atšaukimas
+                  href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
+                - name: Paslaugos elektroninis finansinis dokumentas
+                  href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
+                - name: 'Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu'
+                  href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
+                - name: Projekto debeto pažymos
+                  href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
+            - name: NF-e procesas
+              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: KS palyginimas
-                  href: ../financials/localizations/apac-chn-bom-comparison.md
-                - name: Kinijos sąskaitų plano hierarchija
-                  href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
-                - name: Kinijos kvitų tęstinumo tikrinimas
-                  href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
-                - name: Kiniški kvitai
-                  href: ../financials/localizations/apac-chn-vouchers.md
-                - name: Mokesčių integravimo konfigūravimas
-                  href: ../financials/localizations/apac-chn-tax-integration.md
-                - name: Kinijos „Golden tax“ integravimo eksportavimo sąranka
-                  href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+                - name: Automatinis NF-e finansinių dokumentų perdavimas
+                  href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
+                - name: Patvirtintų NF-e el. laiškų generavimas ir DANFE PDF bei NF-e XML failų pridėjimas prie el. laiškų
+                  href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
+                - name: NF-e sertifikatai
+                  href: ../financials/localizations/latam-bra-nfe-certs.md
+                - name: 'NF-e XML dokumentų ir DANFE nustatymas, importavimas bei tikrinimas'
+                  href: ../financials/localizations/latam-bra-set-up-import-nfe.md
+                - name: NF-e federalinių parametrų nustatymas
+                  href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
+                - name: Finansinio padalinio NF-e parametrų nustatymas
+                  href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+            - name: Juridinių subjektų parametrai
+              href: ../financials/localizations/latam-bra-legal-entity-parameters.md
+            - name: Juridinio subjekto parametrų nustatymas
+              href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
+            - name: CIAP ilgalaikio turto įgijimas
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: CIAP ilgalaikio turto likvidavimas
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: CIAP operacijos įvedimas
+              href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
+            - name: CIAP kredito sumos skaičiavimas
+              href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
+            - name: CIAP kredito įtraukimas iš ankstesnio laikotarpio
+              href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
+            - name: Pristatymo važtaraščiai
+              href: ../financials/localizations/tasks/br-00041-delivery-slip.md
+            - name: Nefinansinės operacijos
+              href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
+            - name: Papildomos laisvos formos sąskaitų faktūrų išlaidos
+              href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
+            - name: Tiekėjų mokėjimų palūkanų ir baudų nustatymas
+              href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
+            - name: ​Tiekėjų mokėjimų palūkanų ir baudų skaičiavimas
+              href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
+            - name: Klientų mokėjimų palūkanų ir baudų nustatymas
+              href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
+            - name: Klientų mokėjimų palūkanų ir baudų skaičiavimas
+              href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+            - name: Mokesčiai
+              href: ../financials/localizations/latam-bra-calculate-taxes.md
+              items:
+                - name: Pirkimo pasiūlymų mokesčio skaičiavimas
+                  href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
+                - name: Apmokestinimo kūrimas – ICMS
+                  href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
+                - name: Apmokestinimo kūrimas – IPI mokestis
+                  href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
+                - name: Apmokestinimo kūrimas – PIS ir COFINS mokesčiai
+                  href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
+                - name: Mokesčių koregavimo operacijų įvedimas ir registravimas
+                  href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
+                - name: PIS ir COFINS mokesčių koregavimo operacijų įvedimas
+                  href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
+                - name: Finansinio padalinio mokesčių atributai
+                  href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
+                - name: ICMS mokesčių kredito finansinių dokumentų išdavimas
+                  href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
+                - name: ICMS mokesčių kredito perkėlimo finansinių dokumentų išdavimas
+                  href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
+                - name: ICMS mokesčio koregavimo kodų nustatymas
+                  href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
+                - name: Finansinių dokumentų ICMS mokesčių koregavimo kodų nustatymas
+                  href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
+                - name: IPI mokesčių koregavimo kodų nustatymas
+                  href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
+                - name: PIS ir COFINS ilgalaikis turtas
+                  href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
+                - name: PIS ir COFINS mokesčių koregavimo kodų nustatymas
+                  href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
+                - name: PIS ir COFINS lentelių nustatymas
+                  href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
+                - name: ISS mokesčio apmokestinimas
+                  href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
+                - name: Mokesčių atributai
+                  href: ../financials/localizations/latam-bra-tax-attributes.md
+                - name: Mokesčių mokėjimai
+                  href: ../financials/localizations/latam-bra-tax-payments.md
+                - name: Pardavimo pasiūlymų mokestis
+                  href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
+                - name: Išskaitomi mokesčiai
+                  href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
+                - name: Klientų mokėjimų išskaitomi mokesčiai
+                  href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
+                - name: Tiekėjų mokėjimų išskaitomi mokesčiai
+                  href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
+        - name: Kinija
+          href: ../financials/localizations/china.md
+          items:
+            - name: KS palyginimas
+              href: ../financials/localizations/apac-chn-bom-comparison.md
+            - name: Kinijos sąskaitų plano hierarchija
+              href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
+            - name: Kinijos kvitų tęstinumo tikrinimas
+              href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
+            - name: Kiniški kvitai
+              href: ../financials/localizations/apac-chn-vouchers.md
+            - name: Mokesčių integravimo konfigūravimas
+              href: ../financials/localizations/apac-chn-tax-integration.md
+            - name: Kinijos „Golden tax“ integravimo eksportavimo sąranka
+              href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+            - name: Ilgalaikio turto nusidėvėjimo metodai
+              href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
+            - name: Kinijos „Golden Tax‟ duomenų objekto importavimas
+              href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
+            - name: Vidutinių mėnesio išlaidų modelis
+              href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
+            - name: Atsargų pagrindinių sąskaitų registravimas pagal vietą
+              href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
+            - name: Kvitai iš kitų modulių
+              href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
+            - name: Bendrojo žurnalo kvitų registravimas
+              href: ../financials/localizations/tasks/post-vouchers-general-journal.md
+            - name: Pagrindinio Kinijos mokesčio integravimo profilio nustatymas
+              href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
+            - name: Kiniškų kvitų nustatymas
+              href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
+            - name: Ilgalaikio turto nusidėvėjimo paskirstymo nustatymas
+              href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
+            - name: DK sąskaitų debeto ir kredito sumų rodymas
+              href: ../financials/localizations/apac-chn-negative-debits-credits.md
+            - name: Vartotojo operacijų žurnalas pagal Kinijos darbo taisyklę
+              href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
+            - name: DUK apie PVM kliento sąskaitas faktūras
+              href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
+        - name: Čekija
+          href: ../financials/localizations/czech-republic.md
+          items:
+            - name: Mokėjimo nuolaidos kredito pažyma
+              href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
+            - name: Ilgalaikis turtas
+              items:
+                - name: Nusidėvėjimo apvalinimas
+                  href: ../financials/localizations/emea-cze-depreciation-rounding.md
+                - name: Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas
+                  href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
+                - name: Nusidėvėjimo sustabdymo laikotarpis
+                  href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
                 - name: Ilgalaikio turto nusidėvėjimo metodai
-                  href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Kinijos „Golden Tax‟ duomenų objekto importavimas
-                  href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: Vidutinių mėnesio išlaidų modelis
-                  href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
-                - name: Atsargų pagrindinių sąskaitų registravimas pagal vietą
-                  href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
-                - name: Kvitai iš kitų modulių
-                  href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: Bendrojo žurnalo kvitų registravimas
-                  href: ../financials/localizations/tasks/post-vouchers-general-journal.md
-                - name: Pagrindinio Kinijos mokesčio integravimo profilio nustatymas
-                  href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
-                - name: Kiniškų kvitų nustatymas
-                  href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
-                - name: Ilgalaikio turto nusidėvėjimo paskirstymo nustatymas
-                  href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
-                - name: DK sąskaitų debeto ir kredito sumų rodymas
-                  href: ../financials/localizations/apac-chn-negative-debits-credits.md
-                - name: Vartotojo operacijų žurnalas pagal Kinijos darbo taisyklę
-                  href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
-                - name: PVM kliento SF DUK
-                  href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: Indija
-              href: ../financials/localizations/india.md
-              items:
-                - name: Ilgalaikis turtas
-                  href: ../financials/localizations/apac-ind-fixed-assets.md
-                  items:
-                    - name: Dienos kalendoriaus įtraukimas į ilgalaikio turto knygą
-                      href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Pamainos nusidėvėjimo skaičiavimas
-                      href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: 'Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas'
-                      href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Nusidėvėjimo kūrimas ir registravimas
-                      href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto
-                      href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Ilgalaikio turto operacijų atšaukimas
-                      href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Pamainos nusidėvėjimo skaičiavimas
-                      href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Dienos finansinio kalendoriaus nustatymas
-                      href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Parametrų nusidėvėjimui skaičiuoti nustatymas
-                      href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: 'Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas'
-                      href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitalo prekių perkėlimas į ilgalaikį turtą
-                      href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Indijos GST
-                  href: ../financials/localizations/apac-ind-gst.md
-                  items:
-                    - name: Indijos GST kontrolinės grupės
-                      href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                    - name: Kasos aparatų GST integravimas
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Visuotinio kasos aparatų diegimo gairės
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-                - name: Mokesčių mechanizmo apžvalga
-                  href: ../financials/general-ledger/tax-engine.md
-                  items:
-                    - name: Mokesčių mechanizmo integravimas
-                      href: ../financials/general-ledger/tax-engine-integration.md
-                    - name: Mokesčių mechanizmo plėtimas
-                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
-                - name: DUK apie ribines mokesčių reikšmes
-                  href: ../financials/localizations/apac-ind-tax-thresholds.md
-            - name: Japonija
-              href: ../financials/localizations/japan.md
-              items:
-                - name: Ilgalaikio turto įsigijimas ir paraiškos vyriausybės subsidijai gauti teikimas
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
-                - name: Įsigyti ilgalaikį turtą su turto grąžinimo įsipareigojimais
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
-                - name: Koreguoti turto grąžinimo įsipareigojimo įvertinimą
-                  href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
-                - name: Paskirstyti bendrai naudojamo turto ir prestižo laikymo sumą į grynuosius pinigus generuojančius vienetus
-                  href: ../financials/localizations/tasks/allocate-carrying-amount.md
-                - name: Paskirstymo taisyklės
-                  href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
-                - name: 'Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai'
-                  href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
-                - name: Knygos nusidėvėjimo metodo keitimas per turto naudojimo laikotarpį
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
-                - name: Vieno turto nusidėvėjimo metodo keitimas per turto naudojimo laikotarpį
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
-                - name: Konfigūruoti pagreitinto nusidėvėjimo parametrus ir registravimo šablonus
-                  href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
-                - name: Konfigūruoti mokėtinų sumų konsoliduotosios sąskaitos faktūros parametrus ir sąranką
-                  href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
-                - name: Konfigūruoti papildomo nusidėvėjimo šabloną ir registravimo šabloną
-                  href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
-                - name: Konfigūruoti turto grąžinimo įsipareigojimo registravimo ir rinkos nuolaidų tarifų pagrindines sąskaitas
-                  href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
-                - name: Konsoliduotosios SF
-                  href: ../financials/localizations/apac-jpn-consolidate-invoices.md
-                - name: Kurti ilgalaikį turtą su papildomu nusidėvėjimu
-                  href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
-                - name: Kurti ilgalaikį turtą su specialiuoju nusidėvėjimo profiliu
-                  href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
-                - name: Kurti paspartinto nusidėvėjimo dokumentą ir įvesti naudojimo duomenis
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
-                - name: Pagreitinto nusidėvėjimo šablono kūrimas ir priskyrimas knygai
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
-                - name: Kurti ir priskirti mažinimo įrašo dokumentą vyriausybės subsidijai gauti
-                  href: ../financials/localizations/tasks/create-assign-reduction-document.md
-                - name: Kurti ir priskirti įrangos grupę
-                  href: ../financials/localizations/tasks/create-assign-equipment-group.md
-                - name: Kurti ir patvirtinti konsoliduotąją kliento SF
-                  href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
-                - name: Kurti ir patvirtinti atpažinimo testą
-                  href: ../financials/localizations/tasks/create-confirm-recognition-test.md
-                - name: Kurti ir patvirtinti konsoliduotąją tiekėjo SF
-                  href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
-                - name: Kurti PGV grupę ir grynuosius pinigus generuojančius vienetus
-                  href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
-                - name: Kurti fiksuotos sumos nusidėvėjimo turtą naudojant padalijimo po lygiai metodą
-                  href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
-                - name: Turto neveiklumo laikotarpio nustatymas ir nusidėvėjimo proceso tikrinimas
-                  href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
-                - name: Mažinti ir kaupti turto grąžinimo įsipareigojimų palūkanų išlaidas
-                  href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
-                - name: 'Taikyti nusidėvėjimą ilgalaikiam turtui, kurio mažinimo įrašas užregistruotas'
-                  href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: DUK apie nusidėvėjimą
-                  href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
-                - name: Likviduoti ilgalaikį turtą naudojant mažinimo įrašą
-                  href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
-                - name: Įgalinti JBA mokėjimo failo formatą
-                  href: ../financials/localizations/tasks/jba-payment-file-format.md
-                - name: Įvesti nusidėvėjimo koeficiento grafiką ir susieti su nusidėvėjimo profiliu
-                  href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
-                - name: Tolygiai padalyto nusidėvėjimo metodas
-                  href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
-                - name: 26 nusidėvėjimo mokesčių deklaracijos forma
-                  href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
-                - name: Generuoti EFT mokėjimo failą JBA formatu
-                  href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
-                - name: Generuoti ir registruoti mokėjimo mokestį
-                  href: ../financials/localizations/tasks/post-payment-fee.md
-                - name: Generuoti vartojimo mokesčių ataskaitą
-                  href: ../financials/localizations/tasks/japan-consumption-tax-report.md
-                - name: PGV pablogėjimo apskaita
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
-                - name: Pablogėjimo apskaita
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: Importuoti kliento mokėjimą naudojant JBA failo formatą
-                  href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: Pašto indeksų importavimas
-                  href: ../financials/localizations/apac-jpn-import-postal-codes.md
-                - name: Įvesties žurnalas T sąskaitos formoje
-                  href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
-                - name: Su turto grąžinimo įsipareigojimu susijusių operacijų užklausa
-                  href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
-                - name: Užklausos apie atskaitomas išlaidas
-                  href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
-                - name: Pateikti užklausą dėl mokėjimo mokesčių žurnale
-                  href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
-                - name: Atskaitomų išlaidų ilgalaikio turto bendrųjų duomenų failų tvarkymas
-                  href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
-                - name: Tvarkyti atskiro turto pablogėjimo indikatorius
-                  href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
-                - name: Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį
-                  href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
-                - name: Mokėti už tiekėjo operaciją patvirtinant kliento įsakomąjį vekselį
-                  href: ../financials/localizations/tasks/pay-vendor-transaction.md
-                - name: Periodinis per didelio arba per mažo nusidėvėjimo sudengimas
-                  href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: Išskaitomo mokesčio skaičiavimas palaipsniui
-                  href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
-                - name: Siūlyti papildomą nusidėvėjimą
-                  href: ../financials/localizations/tasks/propose-additional-depreciation.md
-                - name: Siūlyti ir registruoti pagreitintą nusidėvėjimą
-                  href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
-                - name: Siūlyti ir registruoti pablogėjimo sumą pagal paketą
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: Siūlyti ir registruoti pablogėjimo sumą naudojant ilgalaikio turto žurnalą
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
-                - name: Siūlyti ir registruoti pablogėjimo sumą grynuosius pinigus generuojančiame vienete
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
-                - name: Siūlyti specialųjį nusidėvėjimą
-                  href: ../financials/localizations/tasks/propose-special-depreciation.md
-                - name: Iš naujo atidaryti ir redaguoti konsoliduotąją kliento SF
-                  href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: Iš naujo atidaryti ir redaguoti konsoliduotąją tiekėjo SF
-                  href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: Atšaukti patvirtintą įsakomąjį vekselį
-                  href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
-                - name: Atlikti atpažinimo testą ir apskaičiuoti atskiro turto pablogėjimo sumą
-                  href: ../financials/localizations/tasks/run-recognition-test-calculate.md
-                - name: Nustatyti klientą ir pardavimo užsakymą kaip konsoliduotosios SF paskirtis
-                  href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
-                - name: ARO nustatymas
-                  href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
-                - name: Nustatyti turto grąžinimo įsipareigojimo dokumentus ir įvesti ilgalaikio turto ARO sumą
-                  href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
-                - name: Nustatyti konsoliduotąsias SF
-                  href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
-                - name: Nustatyti pablogėjimo apskaitos bendruosius parametrus ir registravimo šabloną
-                  href: ../financials/localizations/tasks/impairment-accounting.md
-                - name: Japonijos vartojimo mokesčio ataskaitos nustatymas
-                  href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: Japonijos mokėjimo nustatymas patvirtinant kliento įsakomąjį vekselį
-                  href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
-                - name: Nustatyti kelių registravimo sluoksnių atskaitomų išlaidų įtraukimo bendruosius duomenis
-                  href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
-                - name: Nustatyti Japonijos mokėjimo mokestį
-                  href: ../financials/localizations/tasks/setup-payment-fee-japan.md
-                - name: Mažinimo įrašų nustatymas
-                  href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
-                - name: Tiekėjo bendrųjų duomenų ir pirkimo užsakymo kaip konsoliduotosios SF paskirties nustatymas
-                  href: ../financials/localizations/tasks/vendor-master-po.md
-                - name: Sudengti patvirtintą įsakomąjį vekselį
-                  href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: Sudengti kliento konsoliduotąsias SF naudojant mokėjimo žurnalą
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: Sudengti kliento konsoliduotąsias SF sudengiant operacijas
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: Sudengti tiekėjo konsoliduotąsias SF naudojant mokėjimo žurnalą
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: Sudengti tiekėjo konsoliduotąsias SF sudengiant operacijas
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: Naudoti ilgalaikio turto surinkimo sąrašą
-                  href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: Ilgalaikio turto išskaidymo sąrašo naudojimas
-                  href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
-            - name: Malaizija
-              href: ../financials/localizations/malaysia.md
-              items:
-                - name: Projekto pardavimo kliento kredito generavimas
-                  href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: Projekto pardavimo kliento debeto generavimas
-                  href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: Prekių ir paslaugų mokestis (GST)
-                  href: ../financials/localizations/apac-mys-gst.md
-                - name: GST – GAF failų generavimas reikiamu formatu
-                  href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: Klientų GST debeto ir kredito valdymas
-                  href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: Tiekėjų GST debeto ir kredito valdymas
-                  href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: GST kliento sąskaitų faktūrų su nuolaidos sąlyga spausdinimas
-                  href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: GST mokesčio sąskaitų faktūrų spausdinimas
-                  href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: Sau išrašytos sąskaitos faktūros
-                  href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
-                - name: GST nuolaidos sąlygų nustatymas
-                  href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
-            - name: Singapūras
-              href: ../financials/localizations/singapore.md
-              items:
-                - name: GST-05 ataskaitos generavimas
-                  href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
-            - name: Tailandas
-              href: ../financials/localizations/thailand.md
-              items:
-                - name: Akcijos kortelių ataskaitos
-                  href: ../financials/localizations/apac-tha-stock-card-reports.md
-                - name: Mokesčio SF pakaitalas / koregavimas
-                  href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: Nesumokėtas PVM
-                  href: ../financials/localizations/apac-tha-unrealized-vat.md
-                - name: Išskaitomas mokestis
-                  href: ../financials/localizations/apac-tha-withholding-tax.md
+                  href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
+                - name: Išankstinio įsigijimo registravimas
+                  href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
+            - name: Periodinių žurnalų registravimas
+              href: ../financials/general-ledger/tasks/post-periodic-journals.md
+            - name: Spausdinimo formų pasirašančiųjų nustatymas
+              href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
+            - name: Išskaidyti laikotarpiai periodiniuose žurnaluose
+              href: ../financials/localizations/emea-create-post-periodic-journals.md
+            - name: Sumų rodymo ataskaitose ir dokumentuose naujinimas
+              href: ../financials/localizations/emea-amount-printing-forms.md
+            - name: PVM išrašas
+              href: ../financials/localizations/emea-cze-vat-statement-details.md
+            - name: Uždarymas metų pabaigoje
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Danija
+          href: ../financials/localizations/denmark.md
+          items:
+            - name: Mokėjimo kvito formato priskyrimas kliento sąskaitai
+              href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
+            - name: Viešojo sektoriaus kliento SF kūrimas ir registravimas
+              href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
+            - name: Kurti ir registruoti laisvos formos viešojo sektoriaus kliento SF
+              href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
+            - name: Kurti ir registruoti viešojo sektoriaus kliento projekto SF
+              href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
+            - name: Importuoti OIOUBL el. SF išrašymo konfigūracijas
+              href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+            - name: Registruoti laisvos formos SF su mokėjimo kvitu
+              href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
+            - name: Registruoti projekto SF su mokėjimo kvitu
+              href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
+            - name: Registruoti pardavimo SF su mokėjimo kvitu
+              href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
+            - name: 'Klientų sąskaitų, susijusių su OIOUBL elektroninių SF išrašymu, nustatymas'
+              href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
+            - name: OIOUBL elektroninių SF nustatymas
+              href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
+            - name: Mokėjimo kvitų formato nustatymas
+              href: ../financials/localizations/tasks/set-up-payment-slip-format.md
+        - name: Estija
+          href: ../financials/localizations/estonia.md
+          items:
+            - name: Asmeninės informacijos užklausos
+              href: ../financials/localizations/emea-est-personal-info.md
+            - name: PVM išrašas
+              href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Europa
+          href: ../financials/localizations/europe.md
           items:
             - name: Avanso turėtojai
               href: ../financials/localizations/emea-advance-holders.md
               items:
                 - name: Avanso turėtojų operacijos
                   href: ../financials/localizations/emea-advance-holders-transactions.md
-            - name: Avanso mokėjimas darbuotojui (Rytų Europa)
-              href: ../financials/localizations/tasks/advance-payment-employee.md
+                - name: Avanso mokėjimas darbuotojui (Rytų Europa)
+                  href: ../financials/localizations/tasks/advance-payment-employee.md
             - name: Išankstinių sąskaitų faktūrų išrašymas
               href: ../financials/localizations/emea-advance-invoice.md
             - name: Banko derinimas
@@ -1524,10 +1545,8 @@
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
             - name: Užsienio valiutos kurso pasikeitimas
               href: ../financials/localizations/emea-foreign-currency-revaluation.md
-            - name: Atsargų perkėlimo įmonės viduje perkėlimo dokumentų generavimas
+            - name: Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
-            - name: ES „Intrastat“ deklaracijos generavimas
-              href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: ES pardavimo sąrašo ataskaitos generavimas
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
             - name: ISO20022 failai
@@ -1555,8 +1574,12 @@
             - name: Intrastat
               href: ../financials/localizations/emea-intrastat.md
               items:
-                - name: Operacijų perkėlimas į „Intrastat“
+                - name: Operacijų perkėlimas į Intrastat
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
+                - name: Vidaus operacijos pakrovimo adreso nurodymas
+                  href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
+                - name: ES Intrastat deklaracijos generavimas
+                  href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: Atsargų žurnalo ataskaitos
               href: ../financials/localizations/emea-set-up-report-inventory-journal-names.md
             - name: Sąskaitų faktūrų išdavimo terminai
@@ -1627,555 +1650,470 @@
                   href: ../financials/localizations/tasks/create-submit-vat-report.md
             - name: Sudengimo operacijų peržiūra
               href: ../financials/localizations/emea-transactions-settlement-form.md
-            - name: Austrija
-              href: ../financials/localizations/austria.md
-              items:
-                - name: Papildomų įsigijimų pusmečio nusidėvėjimas
-                  href: ../financials/localizations/emea-aut-half-year-depreciation.md
-                - name: Pakavimo medžiagų mokesčiai
-                  href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
-                - name: PVM išrašas
-                  href: ../financials/localizations/emea-aut-vat-statement-details.md
-            - name: Belgija
-              href: ../financials/localizations/belgium.md
-              items:
-                - name: CODA banko išrašas
-                  href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
-                - name: Operacijų kūrimas ir perkėlimas į BLWI
-                  href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: INTERVAT mokesčių deklaracija
-                  href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
-                - name: Suderinimo ataskaitos
-                  href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: Mokėjimo balanso ataskaitų nustatymas
-                  href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: PRODCOM nustatymas ir tvarkymas
-                  href: ../financials/localizations/emea-bel-prodcom-report.md
-            - name: Čekija
-              href: ../financials/localizations/czech-republic.md
-              items:
-                - name: Mokėjimo nuolaidos kredito pažyma
-                  href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
-                - name: Ilgalaikis turtas
-                  items:
-                    - name: Nusidėvėjimo apvalinimas
-                      href: ../financials/localizations/emea-cze-depreciation-rounding.md
-                    - name: Ilgalaikio turto likvidavimo pusmečio nusidėvėjimas
-                      href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
-                    - name: Nusidėvėjimo sustabdymo laikotarpis
-                      href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
-                    - name: Ilgalaikio turto nusidėvėjimo metodai
-                      href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
-                    - name: Išankstinio įsigijimo registravimas
-                      href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: Periodinių žurnalų registravimas
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Spausdinimo formų pasirašančiųjų nustatymas
-                  href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
-                - name: Išskaidyti laikotarpiai periodiniuose žurnaluose
-                  href: ../financials/localizations/emea-create-post-periodic-journals.md
-                - name: Sumų rodymo ataskaitose ir dokumentuose naujinimas
-                  href: ../financials/localizations/emea-amount-printing-forms.md
-                - name: PVM išrašas
-                  href: ../financials/localizations/emea-cze-vat-statement-details.md
-                - name: Uždarymas metų pabaigoje
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Danija
-              href: ../financials/localizations/denmark.md
-              items:
-                - name: Mokėjimo kvito formato priskyrimas kliento sąskaitai
-                  href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
-                - name: Viešojo sektoriaus kliento SF kūrimas ir registravimas
-                  href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
-                - name: Kurti ir registruoti laisvos formos viešojo sektoriaus kliento SF
-                  href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
-                - name: Kurti ir registruoti viešojo sektoriaus kliento projekto SF
-                  href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: Importuoti OIOUBL el. SF išrašymo konfigūracijas
-                  href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
-                - name: Registruoti laisvos formos SF su mokėjimo kvitu
-                  href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: Registruoti projekto SF su mokėjimo kvitu
-                  href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
-                - name: Registruoti pardavimo SF su mokėjimo kvitu
-                  href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
-                - name: 'Klientų sąskaitų, susijusių su OIOUBL elektroninių SF išrašymu, nustatymas'
-                  href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: OIOUBL elektroninių SF nustatymas
-                  href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
-                - name: Mokėjimo kvitų formato nustatymas
-                  href: ../financials/localizations/tasks/set-up-payment-slip-format.md
-            - name: Estija
-              href: ../financials/localizations/estonia.md
-              items:
-                - name: Asmeninė informacijos užklausos
-                  href: ../financials/localizations/emea-est-personal-info.md
-                - name: PVM išrašas
-                  href: ../financials/localizations/emea-est-vat-statement-details.md
-            - name: Prancūzija
-              href: ../financials/localizations/france.md
-              items:
-                - name: Viešasis sektorius
-                  items:
-                    - name: Viešojo sektoriaus apskaita
-                      href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                    - name: Įsipareigojimai
-                      href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Mandats de paiement
-                      href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                    - name: Įsigijimas ir šaltinio pasirinkimas
-                      href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
-                    - name: „Titres de recette‟
-                      href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: Tiekėjo SF mokėjimų sulaikymas
-                      href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: Įsakomųjų vekselių išdavimo tvirtinimas ir registravimas
-                  href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: Chronologiniai sąskaitų faktūrų kvitai
-                  href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Standartinio audito failo kūrimas (Prancūzija) (FEC)
-                  href: ../financials/localizations/emea-fra-fec-audit-file.md
-                - name: Kliento ir tiekėjo sąskaitų išrašai
-                  href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: Vėluojančio mokėjimo ir fiksuotos sumos SF ir priminimo laiške palūkanų per dieną skaičiavimas
-                  href: ../financials/localizations/tasks/fr-00018-daily-interest.md
-                - name: Santykinis nusidėvėjimas
-                  href: ../financials/localizations/emea-fra-derogatory-depreciation.md
-                - name: Prancūzijos įsakomieji ir paprastieji vekseliai
-                  href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: NAF kodai ir siret numeriai
-                  href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: NAF kodų ir Siret numerių nustatymas
-                  href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: Baudos už pradelstus kliento mokėjimus
-                  href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: Užprotestuotų įsakomųjų vekselių registravimo žurnalas
-                  href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: Iš naujo išduotų įsakomųjų vekselių registravimo žurnalas
-                  href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
-                - name: Fiksuotos sumos atkūrimo teksto spausdinimas kliento SF
-                  href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
-                - name: RB / SL nusidėvėjimas
-                  href: ../financials/localizations/emea-fra-rbsl-depreciation.md
-                - name: Mokėjimo būdo nustatymas
-                  href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Kliento mokėjimo būdo naujinimas
-                  href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Retail
-                  items:
-                    - name: Kasos aparatai
-                      href: ../retail/localizations/emea-fra-cash-registers.md
-                    - name: Visuotinio kasos aparatų diegimo gairės
-                      href: ../retail/localizations/emea-fra-deployment.md
-            - name: Vokietija
-              href: ../financials/localizations/germany.md
-              items:
-                - name: Papildomų įsigijimų nusidėvėjimas
-                  href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: Audito failas
-                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
-                  items:
-                    - name: Audito failo konfigūracijos tinkinimas
-                      href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Audito failo generavimas
-                      href: ../financials/localizations/tasks/german-audit-file.md
-                    - name: Audito failo konfigūracijos importavimas
-                      href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
-                - name: Papildomų įsigijimų antraisiais metais nusidėvėjimo koregavimai
-                  href: ../financials/localizations/tasks/de-00002-depreciation.md
-                - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
-                  href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: Žurnalų sąrašo ataskaita
-                  href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Elektroninių mokesčių deklaracijų nustatymas
-                  href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-            - name: Vengrija
-              href: ../financials/localizations/hungary.md
-              items:
-                - name: Valiutos kurso skaičiavimas
-                  href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
-                - name: Ilgalaikio turto nusidėvėjimo metodai
-                  href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: Mažai kainuojantis ilgalaikis turtas
-                  href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-                - name: Ilgalaikio turto perkėlimas į atsargas
-                  href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
-                - name: Mokesčių kompensacijos dokumentai
-                  href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
-                - name: Uždarymas metų pabaigoje
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Islandija
-              href: ../financials/localizations/iceland.md
-              items:
-                - name: Tiekėjo sąskaitos kūrimas ir sąskaitų faktūrų deklaracijos kategorijos pridėjimas
-                  href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
-                - name: Nustatyti tiekėjų SF deklaraciją
-                  href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
-                - name: Nustatyti privalomas mokėjimo nuorodas
-                  href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
-                - name: Atnaujinti tiekėjų SF deklaracijas ir generuoti ataskaitą
-                  href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
-            - name: Italija
-              href: ../financials/localizations/italy.md
-              items:
-                - name: PVM išrašų informacija
-                  href: ../financials/localizations/emea-ita-vat-statements-details.md
-                - name: Juodojo sąrašo ataskaita
-                  href: ../financials/localizations/emea-ita-black-list-report.md
-                - name: Tinkamumo data
-                  href: ../financials/localizations/emea-ita-competence-date.md
-                - name: Ilgalaikio turto nusidėvėjimas
-                  href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
-                - name: „Modello 770“
-                  href: ../financials/localizations/emea-ita-modello770.md
-                - name: Važtaraščių datos tikrinimas sąskaitose faktūrose
-                  href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
-                - name: Važtaraščių su transportavimo pristatymo informacija registravimas ir spausdinimas
-                  href: ../financials/localizations/emea-ita-packing-slip.md
-                - name: PVM knygos
-                  href: ../financials/localizations/emea-ita-fiscal-books.md
-                - name: 'Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas'
-                  href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: Išskaitomas mokestis
-                  href: ../financials/localizations/emea-ita-withholding-tax.md
-            - name: Latvija
-              href: ../financials/localizations/latvia.md
-              items:
-                - name: Ilgalaikio turto apskaita
-                  href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
-                - name: Ilgalaikio turto vietos keitimo sekimas
-                  href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
-                - name: Sąskaitų faktūrų ir važtaraščių numeravimas
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: Gamtos išteklių mokesčių ataskaita
-                  href: ../financials/localizations/emea-lva-tax-natural-resources.md
-                - name: PVM išrašo informacija
-                  href: ../financials/localizations/emea-lva-vat-statement-details.md
-            - name: Lietuva
-              href: ../financials/localizations/lithuania.md
-              items:
-                - name: Ilgalaikio turto remonto ataskaita
-                  href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
-                - name: Ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumento generavimas
-                  href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: Sąskaitų faktūrų ir važtaraščių numeravimas
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: PVM išrašo informacija
-                  href: ../financials/localizations/emea-ltu-vat-statement-details.md
-            - name: Nyderlandai
-              href: ../financials/localizations/netherlands.md
-              items:
-                - name: Elektroninės mokesčių deklaracijos (EVAT)
-                  href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
-                - name: „Semansys XBRL“ integravimas
-                  href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
-            - name: Norvegija
-              href: ../financials/localizations/norway.md
-              items:
-                - name: Kliento ir tiekėjo mokėjimo formatai
-                  href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
-                - name: Kliento mokėjimas pagal mokėjimo ID
-                  href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: „Nets‟ importavimo formatas
-                  href: ../financials/localizations/emea-nor-nets-import-format.md
-                - name: PVM išrašas
-                  href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
-                - name: Kasos aparatai
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Visuotinio kasos aparatų diegimo gairės
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Lenkija
-              href: ../financials/localizations/poland.md
-              items:
-                - name: Eilučių nuolaidų skaičiavimas pagal vieneto kainą
-                  href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: Koregavimo pastabos
-                  href: ../financials/localizations/emea-pol-correction-notes.md
-                - name: Pardavimo sąskaitų faktūrų dublikatų numeravimas
-                  href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: Ilgalaikio turto nusidėvėjimas
-                  href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-                - name: Ilgalaikio turto likvidavimo funkcijų išplėtimas
-                  href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
-                - name: Grąžinama pakuotė
-                  href: ../financials/localizations/emea-pol-returnable-packages.md
-                - name: PVM ataskaitos
-                  href: ../financials/localizations/emea-pol-sales-tax-reports.md
-                - name: Standartinis audito failas
-                  href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-                - name: Mokesčių palūkanos ir nefiksuotos palūkanos
-                  href: ../financials/localizations/emea-pol-interest-calculation.md
-                - name: Apyvartos balansų išrašas
-                  href: ../financials/localizations/emea-pol-turnover-balances-statement.md
-            - name: Ispanija
-              href: ../financials/localizations/spain.md
-              items:
-                - name: Mokėjimo nuolaidų taikymas sąskaitoje faktūroje
-                  href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-                - name: Įsakomųjų vekselių parinktys
-                  href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-                - name: Sąlyginis PVM
-                  href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-                - name: Kredito SF išrašymas
-                  href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-                - name: Finansiniai duomenys (mokėtojo kodas)
-                  href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: Ilgalaikio turto grupės perkainojimas
-                  href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: ES vidaus PVM
-                  href: ../financials/localizations/emea-esp-intra-community-vat.md
-                - name: Vienkartiniai klientai
-                  href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: Čekių spausdinimas naudojant ispanišką maketą
-                  href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
-                - name: Paprastųjų vekselių parinktys
-                  href: ../financials/localizations/emea-esp-promissory-note-options.md
-                - name: 340 ataskaita
-                  href: ../financials/localizations/emea-esp-report-340.md
-                - name: Pardavimo ir pirkimo ciklai
-                  href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
-                - name: Specialūs įrašai ir atidarymo žiniaraščiai
-                  href: ../financials/localizations/emea-esp-opening-sheets-spain.md
-            - name: Švedija
-              href: ../financials/localizations/sweden.md
-              items:
-                - name: Finansinės informacijos eksportavimas auditoriams (Švedija)
-                  href: ../financials/localizations/emea-swe-sie-standard-report.md
-                - name: Importavimo mokėjimo formatai
-                  href: ../financials/localizations/emea-swe-payment-formats-import.md
-                - name: Kasos aparatai
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: Šveicarija
-              href: ../financials/localizations/switzerland.md
-              items:
-                - name: Kliento mokėjimų importavimas ESR
-                  href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-            - name: Jungtinė Karalystė
-              href: ../financials/localizations/united-kingdom.md
-              items:
-                - name: Statybos pramonės schema
-                  href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Atsiskaitymo nuolaidos kredito kūrimas
-                  href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: 'Pirkimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, sukūrimas'
-                  href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: 'Pardavimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinio mokesčio PVM, kūrimas'
-                  href: ../financials/localizations/tasks/gb-00002-sales-order.md
-                - name: Prekės PVM grupės nustatymas atvirkštinio mokesčio PVM
-                  href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Atvirkštinio mokesčio PVM prekių grupių, taisyklių ir parametrų nustatymas'
-                  href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: PVM grupių nustatymas atvirkštinio mokesčio PVM
-                  href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: Lotynų Amerika
+        - name: Prancūzija
+          href: ../financials/localizations/france.md
           items:
-            - name: Brazilija
-              href: ../financials/localizations/brazil.md
+            - name: Viešasis sektorius
               items:
-                - name: Lokalizavimo aprėptis
-                  href: ../financials/localizations/latam-bra-scope.md
-                - name: Finansų knygos
-                  href: ../financials/localizations/latam-bra-fiscal-books.md
-                  items:
-                    - name: Finansų knygų konfigūravimas
-                      href: ../financials/localizations/latam-bra-configure-fiscal-books.md
-                    - name: ICMS mokesčių finansiniai dokumentai
-                      href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: Finansinių dokumentų importavimas
-                      href: ../financials/localizations/latam-bra-import-fiscal-documents.md
-                    - name: Juridinio subjekto operacijų eksportavimas ir importavimas iš jungtinės didžiosios knygos
-                      href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: NF-e XML dokumentų ir DANFE failų importavimas bei tikrinimas
-                      href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
-                    - name: Proceso elektroninio mokėjimo pavedimai
-                      href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
-                    - name: Finansiniai dokumentai
-                      href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
-                    - name: Finansinių dokumentų teksto vietos rezervavimo ženklai
-                      href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
-                    - name: Papildomi finansiniai pirkimo dokumentai
-                      href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
-                    - name: Nurodyti finansiniai dokumentai
-                      href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
-                    - name: Papildomi finansiniai pardavimo dokumentai
-                      href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
-                    - name: Elektroninis finansinis aptarnavimo dokumentas
-                      href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: 'Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu'
-                      href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
-                - name: NF-e procesas
-                  href: ../financials/localizations/latam-bra-nf-e-process.md
-                  items:
-                    - name: Automatinis NF-e finansinių dokumentų perdavimas
-                      href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: Patvirtintų NF-e el. laiškų generavimas ir DANFE PDF bei NF-e XML failų pridėjimas prie el. laiškų
-                      href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
-                    - name: NF-e sertifikatai
-                      href: ../financials/localizations/latam-bra-nfe-certs.md
-                    - name: 'NF-e XML dokumentų ir DANFE nustatymas, importavimas bei tikrinimas'
-                      href: ../financials/localizations/latam-bra-set-up-import-nfe.md
-                    - name: NF-e federalinių parametrų nustatymas
-                      href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: Finansinio padalinio NF-e parametrų nustatymas
-                      href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                - name: Juridinių subjektų parametrai
-                  href: ../financials/localizations/latam-bra-legal-entity-parameters.md
-                - name: CIAP ilgalaikio turto įgijimas
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: CIAP ilgalaikio turto likvidavimas
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: Mokesčiai
-                  href: ../financials/localizations/latam-bra-calculate-taxes.md
-                  items:
-                    - name: Pirkimo pasiūlymų mokesčio skaičiavimas
-                      href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
-                    - name: Apmokestinimo kūrimas – ICMS
-                      href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
-                    - name: Apmokestinimo kūrimas – IPI mokestis
-                      href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
-                    - name: Apmokestinimo kūrimas – PIS ir COFINS mokesčiai
-                      href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: Mokesčių koregavimo operacijų įvedimas ir registravimas
-                      href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: PIS ir COFINS mokesčių koregavimo operacijų įvedimas
-                      href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
-                    - name: Finansinio padalinio mokesčių atributai
-                      href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
-                    - name: ICMS mokesčių kredito finansinių dokumentų išdavimas
-                      href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
-                    - name: ICMS mokesčių kredito perkėlimo finansinių dokumentų išdavimas
-                      href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
-                    - name: ICMS mokesčio koregavimo kodų nustatymas
-                      href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
-                    - name: Finansinių dokumentų ICMS mokesčių koregavimo kodų nustatymas
-                      href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: IPI mokesčių koregavimo kodų nustatymas
-                      href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
-                    - name: PIS ir COFINS mokesčių koregavimo kodų nustatymas
-                      href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
-                    - name: PIS ir COFINS lentelių nustatymas
-                      href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
-                    - name: ISS mokesčio apmokestinimas
-                      href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
-                    - name: Mokesčių atributai
-                      href: ../financials/localizations/latam-bra-tax-attributes.md
-                    - name: Mokesčių mokėjimai
-                      href: ../financials/localizations/latam-bra-tax-payments.md
-                    - name: Pardavimo pasiūlymų mokestis
-                      href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: Išskaitomi mokesčiai
-                      href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                    - name: Klientų mokėjimų išskaitomi mokesčiai
-                      href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                    - name: Tiekėjų mokėjimų išskaitomi mokesčiai
-                      href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
-                - name: Brazilijos užduotys
-                  items:
-                    - name: Juridinio subjekto parametrų nustatymas
-                      href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
-                    - name: Finansinio dokumento šaltinio teksto nustatymas
-                      href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
-                    - name: Tiekėjo finansinių dokumentų gavimas (ilgalaikis turtas – PIS ir COFINS ilgalaikis grąžinimas)
-                      href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
-                    - name: Gauti tiekėjo finansinius dokumentus (produktai)
-                      href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
-                    - name: Papildomo finansinio pirkimo dokumento kūrimas ir registravimas
-                      href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
-                    - name: Papildomo finansinio pirkimo dokumento atšaukimas
-                      href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
-                    - name: Tiekėjų finansinių dokumentų išdavimas
-                      href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
-                    - name: Klientų finansinių dokumentų išdavimas
-                      href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
-                    - name: Pristatymo važtaraščiai
-                      href: ../financials/localizations/tasks/br-00041-delivery-slip.md
-                    - name: Papildomos laisvos formos SF išlaidos
-                      href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
-                    - name: Papildomo finansinio pardavimo dokumento kūrimas ir redagavimas
-                      href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
-                    - name: Papildomo finansinio pardavimo dokumento atšaukimas
-                      href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
-                    - name: Paslaugos elektroninis finansinis dokumentas naudojant teksto failus
-                      href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
-                    - name: Tiekėjų mokėjimų palūkanų ir baudų nustatymas
-                      href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
-                    - name: ​Tiekėjų mokėjimų palūkanų ir baudų skaičiavimas
-                      href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
-                    - name: Palūkanų ir baudų mokėjimo klientams nustatymas
-                      href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
-                    - name: Klientų mokėjimų palūkanų ir baudų skaičiavimas
-                      href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                    - name: Tiekėjų elektroninių mokėjimų valdymas
-                      href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
-                    - name: Projekto debeto pažymos
-                      href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
-                    - name: Finansinių dokumentų teksto įsigijimo dokumentuose valdymas
-                      href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
-                    - name: Gauti tiekėjo finansinius dokumentus (ilgalaikis turtas – ICMS ilgalaikis grąžinimas)
-                      href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
-                    - name: Išduoti kliento finansinius dokumentus (paslaugos)
-                      href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
-                    - name: Išduoti kliento finansinius dokumentus (ilgalaikis turtas)
-                      href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
-                    - name: Išduoti kliento finansinius dokumentus (projektas)
-                      href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
-                    - name: Išduoti kliento finansinius dokumentus (galutiniams vartotojams)
-                      href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
-                    - name: Kliento finansinių dokumentų išdavimas (SUFRAMA klientams)
-                      href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
-                    - name: Kliento finansinio dokumento atšaukimas (projektas)
-                      href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
-                    - name: Nefinansinės operacijos
-                      href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
-                    - name: CIAP operacijos įvedimas
-                      href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
-                    - name: CIAP kredito sumos skaičiavimas
-                      href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
-                    - name: CIAP kredito įtraukimas iš ankstesnio laikotarpio
-                      href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
-                    - name: PIS ir COFINS ilgalaikis turtas
-                      href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
-            - name: Meksika
-              href: ../financials/localizations/mexico.md
+                - name: Viešojo sektoriaus apskaita
+                  href: ../financials/localizations/emea-fra-public-sector-accounting.md
+                - name: Įsipareigojimai
+                  href: ../financials/localizations/emea-fra-commitments-public-sector.md
+                - name: Mandats de paiement
+                  href: ../financials/localizations/emea-fra-mandats-de-paiement.md
+                - name: Įsigijimas ir šaltinio pasirinkimas
+                  href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
+                - name: „Titres de recette‟
+                  href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
+                - name: Tiekėjo SF mokėjimų sulaikymas
+                  href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
+            - name: Įsakomųjų vekselių išdavimo tvirtinimas ir registravimas
+              href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
+            - name: Chronologiniai sąskaitų faktūrų kvitai
+              href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
+            - name: Standartinio audito failo kūrimas (Prancūzija) (FEC)
+              href: ../financials/localizations/emea-fra-fec-audit-file.md
+            - name: Kliento ir tiekėjo sąskaitų išrašai
+              href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
+            - name: Vėluojančio mokėjimo ir fiksuotos sumos SF ir priminimo laiške palūkanų per dieną skaičiavimas
+              href: ../financials/localizations/tasks/fr-00018-daily-interest.md
+            - name: Santykinis nusidėvėjimas
+              href: ../financials/localizations/emea-fra-derogatory-depreciation.md
+            - name: Prancūzijos įsakomieji ir paprastieji vekseliai
+              href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+            - name: NAF kodai ir siret numeriai
+              href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
+            - name: NAF kodų ir Siret numerių nustatymas
+              href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
+            - name: Baudos už pradelstus kliento mokėjimus
+              href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
+            - name: Užprotestuotų įsakomųjų vekselių registravimo žurnalas
+              href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
+            - name: Iš naujo išduotų įsakomųjų vekselių registravimo žurnalas
+              href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
+            - name: Fiksuotos sumos atkūrimo teksto spausdinimas kliento SF
+              href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
+            - name: RB / SL nusidėvėjimas
+              href: ../financials/localizations/emea-fra-rbsl-depreciation.md
+            - name: Mokėjimo būdo nustatymas
+              href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
+            - name: Kliento mokėjimo būdo naujinimas
+              href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
+            - name: Retail
               items:
-                - name: Lokalizavimo aprėptis
-                  href: ../financials/localizations/latam-mex-scope.md
-                - name: Infliacijos koregavimo deklaracijos ataskaita
-                  href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
-                - name: Elektroninės sąskaitos faktūros atšaukimas
-                  href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
-                - name: CFDI 3.3 versija
-                  href: ../financials/localizations/latam-mex-cfdi-3-3.md
-                - name: Kliento registracijos ID ir kita informacija
-                  href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: DIOT deklaracijos išrašas
-                  href: ../financials/localizations/latam-mex-diot-declaration-statement.md
-                - name: El. SF išrašymo CFDI
-                  href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: Elektroninės SF
-                  href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Elektroniniai DK apskaitos išrašai
-                  href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
-                - name: Įvesti Meksikos juridinių subjektų mokesčio registracijos ID
-                  href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-                - name: Pateikti užklausą ir spausdinti elektroninę SF
-                  href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-                - name: ISR deklaracijos ataskaita
-                  href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-                - name: Registruoti laisvos formos SF
-                  href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-                - name: Kurti 1.1 Meksikos elektroninės DK apskaitos ataskaitos versiją
-                  href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-                - name: Nustatyti elektroninės SF parametrus
-                  href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-                - name: Nustatyti Meksikos PVM kodus
-                  href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
-                - name: Nustatyti Meksikos juridinio subjekto sąskaitų planą
-                  href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: Meksikos banko sąskaitų RFC registracijos ID nurodymas
-                  href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: Tiekėjo registracijos ID
-                  href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+                - name: Kasos aparatai
+                  href: ../retail/localizations/emea-fra-cash-registers.md
+                - name: Visuotinio kasos aparatų diegimo gairės
+                  href: ../retail/localizations/emea-fra-deployment.md
+        - name: Vokietija
+          href: ../financials/localizations/germany.md
+          items:
+            - name: Papildomų įsigijimų nusidėvėjimas
+              href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
+            - name: Audito failas
+              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+              items:
+                - name: Audito failo konfigūracijos tinkinimas
+                  href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
+                - name: Audito failo generavimas
+                  href: ../financials/localizations/tasks/german-audit-file.md
+                - name: Audito failo konfigūracijos importavimas
+                  href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
+            - name: Papildomų įsigijimų antraisiais metais nusidėvėjimo koregavimai
+              href: ../financials/localizations/tasks/de-00002-depreciation.md
+            - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
+              href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
+            - name: Žurnalų sąrašo ataskaita
+              href: ../financials/localizations/emea-deu-journal-list-report.md
+            - name: Elektroninių mokesčių deklaracijų nustatymas
+              href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
+        - name: Vengrija
+          href: ../financials/localizations/hungary.md
+          items:
+            - name: Valiutos kurso skaičiavimas
+              href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
+            - name: Ilgalaikio turto nusidėvėjimo metodai
+              href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
+            - name: Mažai kainuojantis ilgalaikis turtas
+              href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
+            - name: Ilgalaikio turto perkėlimas į atsargas
+              href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
+            - name: Mokesčių kompensacijos dokumentai
+              href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
+            - name: Uždarymas metų pabaigoje
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Islandija
+          href: ../financials/localizations/iceland.md
+          items:
+            - name: Tiekėjo sąskaitos kūrimas ir sąskaitų faktūrų deklaracijos kategorijos pridėjimas
+              href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
+            - name: Nustatyti tiekėjų SF deklaraciją
+              href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
+            - name: Nustatyti privalomas mokėjimo nuorodas
+              href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
+            - name: Tiekėjų SF deklaracijų naujinimas ir ataskaitos generavimas
+              href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
+        - name: Indija
+          href: ../financials/localizations/india.md
+          items:
+            - name: Ilgalaikis turtas
+              href: ../financials/localizations/apac-ind-fixed-assets.md
+              items:
+                - name: Dienos kalendoriaus įtraukimas į ilgalaikio turto knygą
+                  href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
+                - name: Pamainos nusidėvėjimo skaičiavimas
+                  href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
+                - name: 'Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas'
+                  href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
+                - name: Nusidėvėjimo kūrimas ir registravimas
+                  href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
+                - name: Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto
+                  href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
+                - name: Ilgalaikio turto operacijų atšaukimas
+                  href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
+                - name: Pamainos nusidėvėjimo skaičiavimas
+                  href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
+                - name: Dienos finansinio kalendoriaus nustatymas
+                  href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
+                - name: Parametrų nusidėvėjimui skaičiuoti nustatymas
+                  href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
+                - name: 'Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas'
+                  href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                - name: Kapitalo prekių perkėlimas į ilgalaikį turtą
+                  href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
+            - name: Indijos GST
+              href: ../financials/localizations/apac-ind-gst.md
+              items:
+                - name: Indijos GST kontrolinės grupės
+                  href: ../financials/localizations/apac-ind-gst-reference-groups.md
+                - name: Kasos aparatų GST integravimas
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Visuotinio kasos aparatų diegimo gairės
+              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+            - name: Mokesčių mechanizmo apžvalga
+              href: ../financials/general-ledger/tax-engine.md
+              items:
+                - name: Mokesčių mechanizmo integravimas
+                  href: ../financials/general-ledger/tax-engine-integration.md
+                - name: Mokesčių mechanizmo plėtimas
+                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+            - name: DUK apie ribines mokesčių reikšmes
+              href: ../financials/localizations/apac-ind-tax-thresholds.md
+        - name: Italija
+          href: ../financials/localizations/italy.md
+          items:
+            - name: PVM išrašų informacija
+              href: ../financials/localizations/emea-ita-vat-statements-details.md
+            - name: Juodojo sąrašo ataskaita
+              href: ../financials/localizations/emea-ita-black-list-report.md
+            - name: Tinkamumo data
+              href: ../financials/localizations/emea-ita-competence-date.md
+            - name: Ilgalaikio turto nusidėvėjimas
+              href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
+            - name: „Modello 770“
+              href: ../financials/localizations/emea-ita-modello770.md
+            - name: Važtaraščių datos tikrinimas sąskaitose faktūrose
+              href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
+            - name: Važtaraščių su transportavimo pristatymo informacija registravimas ir spausdinimas
+              href: ../financials/localizations/emea-ita-packing-slip.md
+            - name: PVM knygos
+              href: ../financials/localizations/emea-ita-fiscal-books.md
+            - name: 'Sąskaitų faktūrų, išduotų valstybės valdymo institucijoms, mokėjimų skaidymas'
+              href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+            - name: Išskaitomas mokestis
+              href: ../financials/localizations/emea-ita-withholding-tax.md
+        - name: Japonija
+          href: ../financials/localizations/japan.md
+          items:
+            - name: Ilgalaikio turto įsigijimas ir paraiškos vyriausybės subsidijai gauti teikimas
+              href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
+            - name: Įsigyti ilgalaikį turtą su turto grąžinimo įsipareigojimais
+              href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
+            - name: Koreguoti turto grąžinimo įsipareigojimo įvertinimą
+              href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
+            - name: Paskirstyti bendrai naudojamo turto ir prestižo laikymo sumą į grynuosius pinigus generuojančius vienetus
+              href: ../financials/localizations/tasks/allocate-carrying-amount.md
+            - name: Paskirstymo taisyklės
+              href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
+            - name: 'Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai'
+              href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
+            - name: Knygos nusidėvėjimo metodo keitimas per turto naudojimo laikotarpį
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
+            - name: Vieno turto nusidėvėjimo metodo keitimas per turto naudojimo laikotarpį
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
+            - name: Konfigūruoti pagreitinto nusidėvėjimo parametrus ir registravimo šablonus
+              href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
+            - name: Konfigūruoti mokėtinų sumų konsoliduotosios sąskaitos faktūros parametrus ir sąranką
+              href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
+            - name: Konfigūruoti papildomo nusidėvėjimo šabloną ir registravimo šabloną
+              href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
+            - name: Konfigūruoti turto grąžinimo įsipareigojimo registravimo ir rinkos nuolaidų tarifų pagrindines sąskaitas
+              href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
+            - name: Konsoliduotosios SF
+              href: ../financials/localizations/apac-jpn-consolidate-invoices.md
+            - name: Kurti ilgalaikį turtą su papildomu nusidėvėjimu
+              href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
+            - name: Kurti ilgalaikį turtą su specialiuoju nusidėvėjimo profiliu
+              href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
+            - name: Kurti paspartinto nusidėvėjimo dokumentą ir įvesti naudojimo duomenis
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
+            - name: Pagreitinto nusidėvėjimo šablono kūrimas ir priskyrimas knygai
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
+            - name: Kurti ir priskirti mažinimo įrašo dokumentą vyriausybės subsidijai gauti
+              href: ../financials/localizations/tasks/create-assign-reduction-document.md
+            - name: Kurti ir priskirti įrangos grupę
+              href: ../financials/localizations/tasks/create-assign-equipment-group.md
+            - name: Kurti ir patvirtinti konsoliduotąją kliento SF
+              href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
+            - name: Kurti ir patvirtinti atpažinimo testą
+              href: ../financials/localizations/tasks/create-confirm-recognition-test.md
+            - name: Kurti ir patvirtinti konsoliduotąją tiekėjo SF
+              href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
+            - name: Kurti PGV grupę ir grynuosius pinigus generuojančius vienetus
+              href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
+            - name: Kurti fiksuotos sumos nusidėvėjimo turtą naudojant padalijimo po lygiai metodą
+              href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
+            - name: Turto neveiklumo laikotarpio nustatymas ir nusidėvėjimo proceso tikrinimas
+              href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
+            - name: Mažinti ir kaupti turto grąžinimo įsipareigojimų palūkanų išlaidas
+              href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
+            - name: 'Taikyti nusidėvėjimą ilgalaikiam turtui, kurio mažinimo įrašas užregistruotas'
+              href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
+            - name: DUK apie nusidėvėjimą
+              href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
+            - name: Likviduoti ilgalaikį turtą naudojant mažinimo įrašą
+              href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
+            - name: Įgalinti JBA mokėjimo failo formatą
+              href: ../financials/localizations/tasks/jba-payment-file-format.md
+            - name: Įvesti nusidėvėjimo koeficiento grafiką ir susieti su nusidėvėjimo profiliu
+              href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
+            - name: Tolygiai padalyto nusidėvėjimo metodas
+              href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
+            - name: 26 nusidėvėjimo mokesčių deklaracijos forma
+              href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
+            - name: Generuoti EFT mokėjimo failą JBA formatu
+              href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
+            - name: Generuoti ir registruoti mokėjimo mokestį
+              href: ../financials/localizations/tasks/post-payment-fee.md
+            - name: Generuoti vartojimo mokesčių ataskaitą
+              href: ../financials/localizations/tasks/japan-consumption-tax-report.md
+            - name: PGV pablogėjimo apskaita
+              href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
+            - name: Pablogėjimo apskaita
+              href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
+            - name: Importuoti kliento mokėjimą naudojant JBA failo formatą
+              href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
+            - name: Pašto indeksų importavimas
+              href: ../financials/localizations/apac-jpn-import-postal-codes.md
+            - name: Įvesties žurnalas T sąskaitos formoje
+              href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
+            - name: Su turto grąžinimo įsipareigojimu susijusių operacijų užklausa
+              href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
+            - name: Užklausos apie atskaitomas išlaidas
+              href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
+            - name: Pateikti užklausą dėl mokėjimo mokesčių žurnale
+              href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
+            - name: Atskaitomų išlaidų ilgalaikio turto bendrųjų duomenų failų tvarkymas
+              href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
+            - name: Tvarkyti atskiro turto pablogėjimo indikatorius
+              href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
+            - name: Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį
+              href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
+            - name: Mokėti už tiekėjo operaciją patvirtinant kliento įsakomąjį vekselį
+              href: ../financials/localizations/tasks/pay-vendor-transaction.md
+            - name: Periodinis per didelio arba per mažo nusidėvėjimo sudengimas
+              href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
+            - name: Išskaitomo mokesčio skaičiavimas palaipsniui
+              href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
+            - name: Siūlyti papildomą nusidėvėjimą
+              href: ../financials/localizations/tasks/propose-additional-depreciation.md
+            - name: Siūlyti ir registruoti pagreitintą nusidėvėjimą
+              href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
+            - name: Siūlyti ir registruoti pablogėjimo sumą pagal paketą
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
+            - name: Siūlyti ir registruoti pablogėjimo sumą naudojant ilgalaikio turto žurnalą
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
+            - name: Siūlyti ir registruoti pablogėjimo sumą grynuosius pinigus generuojančiame vienete
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
+            - name: Siūlyti specialųjį nusidėvėjimą
+              href: ../financials/localizations/tasks/propose-special-depreciation.md
+            - name: Iš naujo atidaryti ir redaguoti konsoliduotąją kliento SF
+              href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
+            - name: Iš naujo atidaryti ir redaguoti konsoliduotąją tiekėjo SF
+              href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
+            - name: Atšaukti patvirtintą įsakomąjį vekselį
+              href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
+            - name: Atlikti atpažinimo testą ir apskaičiuoti atskiro turto pablogėjimo sumą
+              href: ../financials/localizations/tasks/run-recognition-test-calculate.md
+            - name: Nustatyti klientą ir pardavimo užsakymą kaip konsoliduotosios SF paskirtis
+              href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
+            - name: ARO nustatymas
+              href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
+            - name: Nustatyti turto grąžinimo įsipareigojimo dokumentus ir įvesti ilgalaikio turto ARO sumą
+              href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
+            - name: Nustatyti konsoliduotąsias SF
+              href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
+            - name: Nustatyti pablogėjimo apskaitos bendruosius parametrus ir registravimo šabloną
+              href: ../financials/localizations/tasks/impairment-accounting.md
+            - name: Japonijos vartojimo mokesčio ataskaitos nustatymas
+              href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
+            - name: Japonijos mokėjimo nustatymas patvirtinant kliento įsakomąjį vekselį
+              href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
+            - name: Nustatyti kelių registravimo sluoksnių atskaitomų išlaidų įtraukimo bendruosius duomenis
+              href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
+            - name: Nustatyti Japonijos mokėjimo mokestį
+              href: ../financials/localizations/tasks/setup-payment-fee-japan.md
+            - name: Mažinimo įrašų nustatymas
+              href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
+            - name: Tiekėjo bendrųjų duomenų ir pirkimo užsakymo kaip konsoliduotosios SF paskirties nustatymas
+              href: ../financials/localizations/tasks/vendor-master-po.md
+            - name: Sudengti patvirtintą įsakomąjį vekselį
+              href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
+            - name: Sudengti kliento konsoliduotąsias SF naudojant mokėjimo žurnalą
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
+            - name: Sudengti kliento konsoliduotąsias SF sudengiant operacijas
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
+            - name: Sudengti tiekėjo konsoliduotąsias SF naudojant mokėjimo žurnalą
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
+            - name: Sudengti tiekėjo konsoliduotąsias SF sudengiant operacijas
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
+            - name: Ilgalaikio turto surinkimo sąrašo naudojimas
+              href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
+            - name: Ilgalaikio turto išskaidymo sąrašo naudojimas
+              href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
+        - name: Latvija
+          href: ../financials/localizations/latvia.md
+          items:
+            - name: Ilgalaikio turto apskaita
+              href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
+            - name: Ilgalaikio turto vietos keitimo sekimas
+              href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
+            - name: Sąskaitų faktūrų ir važtaraščių numeravimas
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: Gamtos išteklių mokesčių ataskaita
+              href: ../financials/localizations/emea-lva-tax-natural-resources.md
+            - name: PVM išrašo informacija
+              href: ../financials/localizations/emea-lva-vat-statement-details.md
+        - name: Lietuva
+          href: ../financials/localizations/lithuania.md
+          items:
+            - name: Ilgalaikio turto remonto ataskaita
+              href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
+            - name: Ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumento generavimas
+              href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
+            - name: Sąskaitų faktūrų ir važtaraščių numeravimas
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: PVM išrašo informacija
+              href: ../financials/localizations/emea-ltu-vat-statement-details.md
+        - name: Malaizija
+          href: ../financials/localizations/malaysia.md
+          items:
+            - name: Projekto pardavimo kliento kredito generavimas
+              href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
+            - name: Projekto pardavimo kliento debeto generavimas
+              href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
+            - name: Prekių ir paslaugų mokestis (GST)
+              href: ../financials/localizations/apac-mys-gst.md
+            - name: GST – GAF failų generavimas reikiamu formatu
+              href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
+            - name: Klientų GST debeto ir kredito valdymas
+              href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
+            - name: Tiekėjų GST debeto ir kredito valdymas
+              href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
+            - name: GST kliento sąskaitų faktūrų su nuolaidos sąlyga spausdinimas
+              href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
+            - name: GST mokesčio sąskaitų faktūrų spausdinimas
+              href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
+            - name: Sau išrašytos sąskaitos faktūros
+              href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
+            - name: GST nuolaidos sąlygų nustatymas
+              href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
+        - name: Meksika
+          href: ../financials/localizations/mexico.md
+          items:
+            - name: Lokalizavimo aprėptis
+              href: ../financials/localizations/latam-mex-scope.md
+            - name: Infliacijos koregavimo deklaracijos ataskaita
+              href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
+            - name: Elektroninės sąskaitos faktūros atšaukimas
+              href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
+            - name: CFDI 3.3 versija
+              href: ../financials/localizations/latam-mex-cfdi-3-3.md
+            - name: Kliento registracijos ID ir kita informacija
+              href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
+            - name: DIOT deklaracijos išrašas
+              href: ../financials/localizations/latam-mex-diot-declaration-statement.md
+            - name: El. SF išrašymo CFDI
+              href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
+            - name: Elektroninės SF
+              href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
+            - name: Elektroniniai DK apskaitos išrašai
+              href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
+            - name: Įvesti Meksikos juridinių subjektų mokesčio registracijos ID
+              href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
+            - name: Pateikti užklausą ir spausdinti elektroninę SF
+              href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
+            - name: ISR deklaracijos ataskaita
+              href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
+            - name: Registruoti laisvos formos SF
+              href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
+            - name: Kurti 1.1 Meksikos elektroninės DK apskaitos ataskaitos versiją
+              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
+            - name: Nustatyti elektroninės SF parametrus
+              href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
+            - name: Nustatyti Meksikos PVM kodus
+              href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
+            - name: Nustatyti Meksikos juridinio subjekto sąskaitų planą
+              href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
+            - name: Meksikos banko sąskaitų RFC registracijos ID nurodymas
+              href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
+            - name: Tiekėjo registracijos ID
+              href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+        - name: Nyderlandai
+          href: ../financials/localizations/netherlands.md
+          items:
+            - name: Elektroninės mokesčių deklaracijos (EVAT)
+              href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
+            - name: „Semansys XBRL“ integravimas
+              href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
+        - name: Norvegija
+          href: ../financials/localizations/norway.md
+          items:
+            - name: Kliento ir tiekėjo mokėjimo formatai
+              href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
+            - name: Kliento mokėjimas pagal mokėjimo ID
+              href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
+            - name: „Nets‟ importavimo formatas
+              href: ../financials/localizations/emea-nor-nets-import-format.md
+            - name: PVM išrašas
+              href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
+            - name: Kasos aparatai
+              href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Visuotinio kasos aparatų diegimo gairės
+              href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+        - name: Lenkija
+          href: ../financials/localizations/poland.md
+          items:
+            - name: Eilučių nuolaidų skaičiavimas pagal vieneto kainą
+              href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
+            - name: Koregavimo pastabos
+              href: ../financials/localizations/emea-pol-correction-notes.md
+            - name: Pardavimo sąskaitų faktūrų dublikatų numeravimas
+              href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
+            - name: Ilgalaikio turto nusidėvėjimas
+              href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
+            - name: Ilgalaikio turto likvidavimo funkcijų išplėtimas
+              href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Grąžinama pakuotė
+              href: ../financials/localizations/emea-pol-returnable-packages.md
+            - name: PVM ataskaitos
+              href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Standartinis audito failas
+              href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
+            - name: Mokesčių palūkanos ir nefiksuotos palūkanos
+              href: ../financials/localizations/emea-pol-interest-calculation.md
+            - name: Apyvartos balansų išrašas
+              href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Saudo Arabija
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2183,6 +2121,82 @@
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Saudo Arabijos zakato ataskaitos
               href: ../financials/localizations/emea-sau-zakat-reporting.md
+        - name: Singapūras
+          href: ../financials/localizations/singapore.md
+          items:
+            - name: GST-05 ataskaitos generavimas
+              href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
+        - name: Ispanija
+          href: ../financials/localizations/spain.md
+          items:
+            - name: Mokėjimo nuolaidų taikymas sąskaitoje faktūroje
+              href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
+            - name: Įsakomųjų vekselių parinktys
+              href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Sąlyginis PVM
+              href: ../financials/localizations/emea-esp-conditional-sales-tax.md
+            - name: Kredito SF išrašymas
+              href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
+            - name: Finansiniai duomenys (mokėtojo kodas)
+              href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
+            - name: Ilgalaikio turto grupės perkainojimas
+              href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
+            - name: ES vidaus PVM
+              href: ../financials/localizations/emea-esp-intra-community-vat.md
+            - name: Vienkartiniai klientai
+              href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
+            - name: Čekių spausdinimas naudojant ispanišką maketą
+              href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
+            - name: Paprastųjų vekselių parinktys
+              href: ../financials/localizations/emea-esp-promissory-note-options.md
+            - name: 340 ataskaita
+              href: ../financials/localizations/emea-esp-report-340.md
+            - name: Pardavimo ir pirkimo ciklai
+              href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
+            - name: Specialūs įrašai ir atidarymo žiniaraščiai
+              href: ../financials/localizations/emea-esp-opening-sheets-spain.md
+        - name: Švedija
+          href: ../financials/localizations/sweden.md
+          items:
+            - name: Finansinės informacijos eksportavimas auditoriams (Švedija)
+              href: ../financials/localizations/emea-swe-sie-standard-report.md
+            - name: Importavimo mokėjimo formatai
+              href: ../financials/localizations/emea-swe-payment-formats-import.md
+            - name: Kasos aparatai
+              href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Šveicarija
+          href: ../financials/localizations/switzerland.md
+          items:
+            - name: Kliento mokėjimų importavimas ESR
+              href: ../financials/localizations/emea-che-esr-customer-payments-import.md
+        - name: Tailandas
+          href: ../financials/localizations/thailand.md
+          items:
+            - name: Atsargų kortelių ataskaitos
+              href: ../financials/localizations/apac-tha-stock-card-reports.md
+            - name: Pakeitimo / koregavimo mokesčių sąskaita faktūra
+              href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
+            - name: Nesumokėtas PVM
+              href: ../financials/localizations/apac-tha-unrealized-vat.md
+            - name: Išskaitomas mokestis
+              href: ../financials/localizations/apac-tha-withholding-tax.md
+        - name: Jungtinė Karalystė
+          href: ../financials/localizations/united-kingdom.md
+          items:
+            - name: Statybų pramonės schema
+              href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
+            - name: Atsiskaitymo nuolaidos kredito kūrimas
+              href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
+            - name: 'Pirkimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinis PVM, sukūrimas'
+              href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
+            - name: 'Pardavimo užsakymo, apimančio prekes, kurioms taikomas atvirkštinio mokesčio PVM, kūrimas'
+              href: ../financials/localizations/tasks/gb-00002-sales-order.md
+            - name: Prekės PVM grupės nustatymas atvirkštinio mokesčio PVM
+              href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+            - name: 'Atvirkštinio mokesčio PVM prekių grupių, taisyklių ir parametrų nustatymas'
+              href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+            - name: PVM grupių nustatymas atvirkštinio mokesčio PVM mokesčiui
+              href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
         - name: Jungtinės Valstijos
           href: ../financials/localizations/united-states.md
           items:
@@ -2195,26 +2209,68 @@
       items:
         - name: Personalo strategijos kūrimas
           items:
+            - name: Tikslų kūrimas
+              href: hr/tasks/create-goal.md
             - name: 'Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas'
               href: ../talent/departments-jobs-positions.md
             - name: Darbo komponentų nustatymas
               href: ../talent/create-job.md
-            - name: Padalinio kūrimas ir priskyrimas padalinių hierarchijai
+            - name: Naujų padalinių nustatymas
+              href: hr/tasks/define-new-departments.md
+            - name: Naujų darbo vietų nustatymas
+              href: hr/tasks/define-new-jobs.md
+            - name: Padalinio sukūrimas ir susiejimas su padalinių hierarchija
               href: ../talent/create-department-add-department-hierarchy.md
+            - name: Kalendorių kūrimas ir darbo laikų generavimas
+              href: hr/tasks/create-calendar-working-times.md
             - name: Personalo parametrų nustatymas visiems juridiniams subjektams
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
             - name: Konkrečios įmonės personalo parametrų nustatymas
               href: ../talent/set-up-company-specific-hr-parameters.md
-            - name: Personalo veiksmų DUK
+            - name: DUK apie personalo veiksmus
               href: ../talent/personnel-actions-faq.md
             - name: Darbo eigos naudojimas darbuotojų informacijai valdyti
               href: ../talent/workflow-manage-employee-information.md
+            - name: Pareigų ataskaitų ryšių modifikavimas
+              href: hr/tasks/modify-reporting-relationships-position.md
+            - name: Gautų prašymų įrašų tvirtinimas
+              href: hr/tasks/approve-application-inbox-records.md
+            - name: Darbuotojų informacijos įvedimas
+              href: hr/tasks/enter-worker-information.md
+            - name: Prekių darbuotojams skolinimas
+              href: hr/tasks/loan-item-worker.md
+            - name: Panaudos objektų kūrimas
+              href: hr/tasks/create-loan-items.md
+            - name: Darbuotojams paskolintų prekių valdymas
+              href: ../talent/loan-items.md
+            - name: Tęstinumo plano kūrimas
+              href: hr/tasks/develop-succession-plan.md
+            - name: Projekto tabelių įvedimas
+              href: hr/tasks/enter-project-timesheets.md
+            - name: El. laiškų šablonų valdymas
+              href: hr/tasks/manage-email-templates.md
+            - name: Atostogų laiko valdymas
+              href: hr/tasks/manage-leave-absence.md
         - name: Įdarbinimas
           items:
             - name: Įdarbinimo procesų valdymas
               href: hr/manage-recruiting-process.md
             - name: Masinės samdos projektai
               href: hr/mass-hire-projects.md
+            - name: Masinių samdos projektų kūrimas
+              href: hr/tasks/create-mass-hire-project.md
+            - name: Neautomatinis pretendento ir prašymo duomenų įvedimas
+              href: hr/tasks/enter-applicant-application-data-manually.md
+            - name: Darbo paraiškų kūrimas ir atidarymas
+              href: hr/tasks/develop-open-job-requisition.md
+            - name: Pareigų nustatymas
+              href: hr/tasks/set-up-positions.md
+            - name: Pretendentų samdymas naudojant įdarbinimo funkciją
+              href: hr/tasks/hire-candidate-through-recruiting.md
+            - name: Esamų darbuotojų samdymas naudojant įdarbinimo funkciją
+              href: hr/tasks/hire-existing-employee-through-recruiting.md
+            - name: Pretendentų atrankos priemonių nustatymas ir diegimas
+              href: hr/tasks/identify-deploy-candidate-selection-tools.md
         - name: Darbuotojų motyvavimas
           items:
             - name: Kompensacijų planai
@@ -2223,8 +2279,22 @@
               href: ../talent/create-fixed-compensation-plans.md
             - name: Kintamosios atlyginimo dalies planų kūrimas
               href: ../talent/create-variable-compensation-plans.md
+            - name: Kompensavimo procesų nustatymas ir rezultatų skaičiavimas
+              href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Kompensavimo apdorojimas
               href: ../talent/process-compensation.md
+            - name: Kompensavimo tinklelių nustatymas
+              href: hr/tasks/set-up-compensation-grids.md
+            - name: Atlyginimų / kompensavimo struktūrų ir planų kūrimas
+              href: hr/tasks/develop-salary-compensation-structure-plan.md
+            - name: Informacijos į našumo žurnalą įtraukimas ir pagyrimo siuntimas
+              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
+            - name: Darbuotojų įtraukimas į pastoviosios atlyginimo dalies planą
+              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
+            - name: Darbuotojų įtraukimas į kintamosios atlyginimo dalies planą
+              href: hr/tasks/enroll-employee-variable-compensation-plan.md
+            - name: Našumo apžvalgų kūrimas
+              href: hr/tasks/create-performance-review.md
         - name: Darbuotojų tobulinimas ir mokymas
           items:
             - name: Našumo valdymo apžvalga
@@ -2239,8 +2309,18 @@
               href: ../talent/manage-benefit-program.md
             - name: Teisės į išmoką strategijos
               href: ../talent/benefit-eligibility-policies.md
-            - name: Darbuotojams paskolintų prekių valdymas
-              href: ../talent/loan-items.md
+            - name: Teisės į išmoką procesas
+              href: hr/tasks/benefit-eligibility-process.md
+            - name: Teisės į išmoką taisyklių ir strategijų nustatymas
+              href: hr/tasks/define-benefit-eligibility-rules-policies.md
+            - name: Darbuotojų išmokų programos teikimas
+              href: hr/tasks/deliver-employee-benefits-program.md
+            - name: Naujų išmokų kūrimas
+              href: hr/tasks/create-new-benefit.md
+            - name: Išmokų darbuotojams registravimas ir pašalinimas
+              href: hr/tasks/enroll-remove-benefits-workers.md
+            - name: Išmokos galiojimo datų tvarkymas
+              href: hr/tasks/manage-benefit-expiration-dates.md
         - name: Informacijos rinkimas naudojant klausimynus
           items:
             - name: Klausimynai
@@ -2249,8 +2329,18 @@
               href: ../talent/design-questionnaires.md
             - name: Klausimyno platinimas ir pildymas
               href: ../talent/distribute-questionnaires.md
+            - name: Klausimynų platinimas naudojant planavimą
+              href: hr/tasks/distribute-questionnaires-scheduling.md
             - name: Klausimyno rezultatų įvertinimas
               href: ../talent/evaluate-questionnaire-results.md
+            - name: Klausimyno rezultatų analizavimas
+              href: hr/tasks/analyze-questionnaire-results.md
+            - name: Atvirų klausimų kūrimas
+              href: hr/tasks/create-open-ended-question.md
+            - name: Uždarų klausimų kūrimas
+              href: hr/tasks/create-closed-ended-question.md
+            - name: 'Klausimų, priklausomų nuo atsakymo į ankstesnį klausimą, kūrimas'
+              href: hr/tasks/make-question-dependent-answer-previous-question.md
         - name: Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
           items:
             - name: Formos I-9 tikrinimas
@@ -2263,12 +2353,16 @@
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Darbuotojų apgyvendinimo valdymas
               href: hr/localizations/tasks/manage-worker-accommodations.md
+            - name: Sužeidimų ir ligų informacijos nustatymas
+              href: hr/tasks/set-up-injury-illness-information.md
+            - name: Darbuotojo sužeidimų ir ligų informacijos tvarkymas
+              href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: JAV algalapis
           href: hr/localizations/noam-usa-payroll.md
           items:
             - name: Algalapio sąranka
               items:
-                - name: Darbininkų algalapio nustatymas
+                - name: Darbuotojų algalapio nustatymas
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Darbo ciklų ir darbo laikotarpių nustatymas
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
@@ -2327,92 +2421,10 @@
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Priežiūra ir ataskaitos
               items:
-                - name: Atlyginimo duomenų naujinimo DUK
+                - name: DUK apie atlyginimo duomenų naujinimus
                   href: hr/localizations/noam-usa-payroll-data-updates.md
                 - name: Standartinės atlyginimų ataskaitos
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: Personalo užduotys
-          items:
-            - name: Informacijos į našumo žurnalo įtraukimas ir pagyrimo siuntimas
-              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: Klausimyno rezultatų analizavimas
-              href: hr/tasks/analyze-questionnaire-results.md
-            - name: Gautų prašymų įrašų patvirtinimas
-              href: hr/tasks/approve-application-inbox-records.md
-            - name: Teisės į išmoką apdorojimas
-              href: hr/tasks/benefit-eligibility-process.md
-            - name: Kalendorių kūrimas ir darbo laikų generavimas
-              href: hr/tasks/create-calendar-working-times.md
-            - name: Uždarų klausimų kūrimas
-              href: hr/tasks/create-closed-ended-question.md
-            - name: Tikslų kūrimas
-              href: hr/tasks/create-goal.md
-            - name: Panaudos objektų kūrimas
-              href: hr/tasks/create-loan-items.md
-            - name: Masinių samdos projektų kūrimas
-              href: hr/tasks/create-mass-hire-project.md
-            - name: Naujų išmokų kūrimas
-              href: hr/tasks/create-new-benefit.md
-            - name: Atvirų klausimų kūrimas
-              href: hr/tasks/create-open-ended-question.md
-            - name: Našumo apžvalgų kūrimas
-              href: hr/tasks/create-performance-review.md
-            - name: Išmokų tinkamumo taisyklių ir strategijų nustatymas
-              href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Kompensavimo procesų nustatymas ir rezultatų skaičiavimas
-              href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: Naujų padalinių nustatymas
-              href: hr/tasks/define-new-departments.md
-            - name: Naujų užduočių nustatymas
-              href: hr/tasks/define-new-jobs.md
-            - name: Darbuotojų išmokų programos pristatymas
-              href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Darbo paraiškų kūrimas ir atidarymas
-              href: hr/tasks/develop-open-job-requisition.md
-            - name: Atlyginimų / kompensavimo struktūrų ir planų kūrimas
-              href: hr/tasks/develop-salary-compensation-structure-plan.md
-            - name: Tęstinumo plano kūrimas
-              href: hr/tasks/develop-succession-plan.md
-            - name: Klausimynų naudojant planavimą paskirstymas
-              href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Darbuotojų įtraukimas į fiksuoto atlyginimo dalies planą
-              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Darbuotojų įtraukimas į kintamosios atlyginimo dalies planą
-              href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Išmokų darbuotojams registravimas ir pašalinimas
-              href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: Neautomatinis pretendento ir prašymo duomenų įvedimas
-              href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: Projekto tabelių įvedimas
-              href: hr/tasks/enter-project-timesheets.md
-            - name: Darbininko informacijos peržiūra
-              href: hr/tasks/enter-worker-information.md
-            - name: Pretendentų samdymas naudojant įdarbinimo funkciją
-              href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Esamų darbuotojų samdymas naudojant įdarbinimo funkciją
-              href: hr/tasks/hire-existing-employee-through-recruiting.md
-            - name: Pretendentų atrankos priemonių nustatymas ir sukūrimas
-              href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Prekių darbininkams paskolinimas
-              href: hr/tasks/loan-item-worker.md
-            - name: Darbuotojo sužeidimų ir ligų informacijos tvarkymas
-              href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Klausimų pagal atsakymą į ankstesnį klausimą kūrimas
-              href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: Išmokos galiojimo datų tvarkymas
-              href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: El. laiškų šablonų valdymas
-              href: hr/tasks/manage-email-templates.md
-            - name: Atostogų laiko valdymas
-              href: hr/tasks/manage-leave-absence.md
-            - name: Pareigų ataskaitų ryšių modifikavimas
-              href: hr/tasks/modify-reporting-relationships-position.md
-            - name: Kompensavimo tinklelių nustatymas
-              href: hr/tasks/set-up-compensation-grids.md
-            - name: Sužeidimų ir ligų informacijos nustatymas
-              href: hr/tasks/set-up-injury-illness-information.md
-            - name: Pareigų nustatymas
-              href: hr/tasks/set-up-positions.md
     - name: Įžvalgos
       href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
@@ -3635,6 +3647,8 @@
               href: ../supply-chain/sales-marketing/tasks/register-sales-commissions.md
             - name: Pardavimo komisinių taisyklių nustatymas
               href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
+        - name: Prekybos nuolaida
+          href: ../supply-chain/sales-marketing/trade-allowance.md
     - name: Aptarnavimo valdymas
       href: ../supply-chain/service-management/service-management-home-page.md
       items:

@@ -6,7 +6,9 @@
       items:
         - name: Kas nauja ar pasikeitė
           items:
-            - name: Kas nauja ar pasikeitė „Dynamics 365 for Talent“ „Core HR“ (2018 m. liepos mėn.)
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugpjūčio mėn.)
+              href: whats-new-talent-august2018.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
               href: whats-new-talent-july2018.md
         - name: Sistemos reikalavimai ir naujinimo strategija
           href: talent-versions-update-policy.md
@@ -16,8 +18,8 @@
           href: remove-talent-environment.md
         - name: „Talent“ modulinių programų parengimas
           href: modular-app-tech-faq.md
-        - name: „Talent“ funkcijų išplėtimas
-          href: extend-talent-functionality.md
+        - name: „PowerApps“ programų įdėjimas
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Prieiga prie peržiūros funkcijų
           href: access-preview-feature.md
         - name: Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
@@ -33,7 +35,7 @@
           href: set-up-hr-parameters-across-legal-entities.md
         - name: Konkrečios įmonės personalo parametrų nustatymas
           href: set-up-company-specific-hr-parameters.md
-        - name: Personalo veiksmų DUK
+        - name: DUK apie personalo veiksmus
           href: personnel-actions-faq.md
         - name: Verslo procesų formalizavimas
           href: formalize-business-processes.md

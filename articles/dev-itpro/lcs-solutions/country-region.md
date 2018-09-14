@@ -3,7 +3,7 @@ title: "Lokalizavimo ir reguliavimo priemonės"
 description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/18/2018
+ms.date: 09/05/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
-ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/05/2018
 
 ---
 
@@ -31,7 +31,11 @@ ms.lasthandoff: 08/09/2018
 
 „Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/ax-availabilityguide). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
-Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose taikomus sprendimus, naujinimus, įspėjimus ir funkcijas. 
+Šioje temoje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
+- Daugiau sužinoti apie konkrečioms šalims / regionams skirtų sprendimų kūrimą.
+- Gauti konkrečioms šalims / regionams skirtų naujinimų.
+- Pateikti ir peržiūrėti įspėjimus dėl reglamentavimo.
+- Sužinoti, kaip naudoti konkrečioms šalims / regionams skirtas funkcijas. 
 
 ## <a name="developing-localized-solutions"></a>Lokalizuotų sprendimų kūrimas
 Tolesniuose ištekliuose pateikiami nurodymai ir informacija, kurie gali padėti kūrėjams ir ISV, kuriantiems konkrečiose šalyse / regionuose veikiančius tinkinimus arba sprendimą, skirtą šaliai, kurios „Microsoft‟ nepalaiko.
@@ -75,156 +79,47 @@ Norėdami rasti užduočių vedlių, pereikite į kokį nors „Microsoft Dynami
 Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
 
-## <a name="countryregion-specific-help-topics"></a>Konkrečios šalies / regiono žinyno temos
-Tolesniuose skyriuose ištekliai išvardyti pagal šalį / regioną.
+## <a name="countryregion-specific-help-content"></a>Konkrečių šalių / regionų žinyno turinys
+:::row:::
+    :::column:::
+        - [Australija](../../financials/localizations/australia.md)
+        - [Austrija](../../financials/localizations/austria.md)
+        - [Belgija](../../financials/localizations/belgium.md)
+        - [Brazilija](../../financials/localizations/brazil.md)
+        - [Kinija](../../financials/localizations/china.md)
+        - [Čekija](../../financials/localizations/czech-republic.md)
+        - [Estonia](../../financials/localizations/estonia.md)
+        - [Europa](../../financials/localizations/europe.md)
+        - [Prancūzija](../../financials/localizations/france.md)
+        - [Vokietija](../../financials/localizations/germany.md)
+    :::column-end:::
+    :::column:::
+        - [Vengrija](../../financials/localizations/hungary.md)
+        - [Indija](../../financials/localizations/india.md)
+        - [Italija](../../financials/localizations/italy.md)
+        - [Japonija](../../financials/localizations/japan.md)
+        - [Latvija](../../financials/localizations/latvia.md)
+        - [Lietuva](../../financials/localizations/lithuania.md)
+        - [Meksika](../../financials/localizations/mexico.md)
+        - [Malaizija](../../financials/localizations/malaysia.md)
+        - [Nyderlandai](../../financials/localizations/netherlands.md)
+        - [Norvegija](../../financials/localizations/norway.md)
+    :::column-end:::
+    :::column:::
+        - [Lenkija](../../financials/localizations/poland.md)
+        - [Saudo Arabija](../../financials/localizations/saudi-arabia.md)
+        - [Singapūras](../../financials/localizations/singapore.md)
+        - [Ispanija](../../financials/localizations/spain.md)
+        - [Švedija](../../financials/localizations/sweden.md)
+        - [Šveicarija](../../financials/localizations/switzerland.md)
+        - [Tailandas](../../financials/localizations/thailand.md)
+        - [Jungtinė Karalystė](../../financials/localizations/united-kingdom.md)
+        - [Jungtinės Valstijos](../../financials/localizations/united-states.md)
+    :::column-end:::
+:::row-end:::
 
-### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australija](../../financials/localizations/australia.md)
-### <a name="austriafinancialslocalizationsaustriamd"></a>[Austrija](../../financials/localizations/austria.md)
-### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgija](../../financials/localizations/belgium.md)
 
-### <a name="brazil"></a>Brazilija
 
--   [CIAP ilgalaikis turtas](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
--   [Finansų knygų konfigūravimas](../../financials/localizations/latam-bra-configure-fiscal-books.md)
--   [Brazilijos operacijų eksportavimas ir importavimas iš jungtinės didžiosios knygos](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
--   [Finansų knygos](../../financials/localizations/latam-bra-fiscal-books.md)
--   [Finansinių dokumentų teksto vietos rezervavimo ženklai](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
--   [Finansiniai dokumentai](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
--   [ICMS mokesčių finansiniai dokumentai](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
--   [NF-e XML dokumentų ir DANFE failų importavimas bei tikrinimas](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [Finansinių dokumentų importavimas](../../financials/localizations/latam-bra-import-fiscal-documents.md)
--   [Žurnalai, sugeneruoti elektroninių mokėjimų grąžinimo proceso metu](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
--   [NF-e procesas](../../financials/localizations/latam-bra-nf-e-process.md)
--   [Juridinių subjektų parametrai](../../financials/localizations/latam-bra-legal-entity-parameters.md)
--   [Brazilijos elektroninio mokėjimo pavedimų apdorojimas](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
--   [Papildomi finansiniai pirkimo dokumentai](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
--   [Nurodyti finansiniai dokumentai](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
--   [Papildomi finansiniai pardavimo dokumentai](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
--   [Elektroninis finansinis aptarnavimo dokumentas](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [NF-e XML dokumentų ir DANFE nustatymas, importavimas bei tikrinimas](../../financials/localizations/latam-bra-set-up-import-nfe.md)
--   [Mokesčių atributai](../../financials/localizations/latam-bra-tax-attributes.md)
--   [Mokesčių mokėjimai](../../financials/localizations/latam-bra-tax-payments.md)
--   [Mokesčiai](../../financials/localizations/latam-bra-calculate-taxes.md)
-
-### <a name="chinafinancialslocalizationschinamd"></a>[Kinija](../../financials/localizations/china.md)
-### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Čekija](../../financials/localizations/czech-republic.md)
-### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estija](../../financials/localizations/estonia.md)
-
-### <a name="europe"></a>Europa
-- [Avanso turėtojai](../../financials/localizations/emea-advance-holders.md)
-- [Avanso turėtojo operacijos](../../financials/localizations/emea-advance-holders-transactions.md)
-- [Išankstinių sąskaitų faktūrų išrašymas](../../financials/localizations/emea-advance-invoice.md)
-- [Banko derinimas](../../financials/localizations/emea-bank-reconciliation.md)
-- [Koreguojamosios sąskaitos faktūros](../../financials/localizations/emea-corrective-invoice.md)
-- [Periodinių žurnalų kūrimas ir registravimas](../../financials/localizations/emea-create-post-periodic-journals.md)
-- [Sąskaitų faktūrų ID pardavimo užsakymuose redagavimas](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
-- [Įvežimo į ES sertifikatai](../../financials/localizations/emea-entry-certificates.md)
-- [ES pardavimo sąrašo ataskaitos](../../financials/localizations/emea-eu-sales-list.md)
-- [Valiutų kursų koregavimai](../../financials/localizations/emea-exchange-rate-adjustments.md)
-- [Mokėjimo metodų failų formatai](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-- [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
-- [Importuoti ISO20022 failus](../../financials/localizations/emea-ISO20022-file-formats.md)
-- [Intrastat](../../financials/localizations/emea-intrastat.md)
-- [Atsargų žurnalo ataskaitos](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
-- [Sąskaitų faktūrų ir važtaraščių numeravimas Latvijoje ir Lietuvoje](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
-- [Sąskaitų faktūrų išdavimo terminai](../../financials/localizations/emea-invoice-issue-deadline.md)
-- [OIOUBL standartai](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
-- [Mokėjimo kvito ataskaita](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
-- [Smulkios išlaidos](../../financials/localizations/emea-petty-cash.md)
-- [Ilgalaikio turto išankstinio įsigijimo registravimas](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
-- [Pašto indeksai](../../financials/localizations/emea-import-create-postal-codes-manually.md)
-- [Registracijos ID](../../financials/localizations/emea-registration-ids.md)
-- [Atvirkštiniai mokesčiai](../../financials/localizations/emea-reverse-charge.md)
-- [SEPA kredito pervedimų apžvalga](../../financials/accounts-payable/sepa-credit-transfer.md)
-- [SEPA tiesioginio debeto apžvalga](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
-- [Kliento ir tiekėjo kompensacijų nustatymas](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
-- [Spausdinimo formų pasirašančiųjų nustatymas](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
-- [Storno apskaita](../../financials/localizations/emea-storno.md)
-- [Mokesčių direktyvos](../../financials/localizations/emea-tax-directives.md)
-- [Sumų rodymo ataskaitose ir dokumentuose naujinimas](../../financials/localizations/emea-amount-printing-forms.md) 
-- [PVM valiutų kursai](../../financials/localizations/emea-vat-exchange-rate.md)
-- [PVM registro operacijos (Rytų Europa)](../../financials/localizations/emea-vat-register-transactions.md)
-- [PVM ataskaitos](../../financials/localizations/emea-vat-reporting.md)
-- [Sudengimo operacijų peržiūra](../../financials/localizations/emea-transactions-settlement-form.md)
-
-### <a name="francefinancialslocalizationsfrancemd"></a>[Prancūzija](../../financials/localizations/france.md)
-### <a name="germanyfinancialslocalizationsgermanymd"></a>[Vokietija](../../financials/localizations/germany.md)
-### <a name="hungaryfinancialslocalizationshungarymd"></a>[Vengrija](../../financials/localizations/hungary.md)
-
-### <a name="india"></a>Indija
-
-- [Ilgalaikis turtas](../../financials/localizations/apac-ind-fixed-assets.md)
-    - [Kapitalo prekių perkėlimas į ilgalaikį turtą](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
-    - [Dienos kalendoriaus įtraukimas į ilgalaikio turto knygą](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
-    - [Parametrų nusidėvėjimui skaičiuoti nustatymas](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
-    - [Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
-    - [Atsargų modelio grupės, skirtos kapitalo prekėms, kūrimas](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
-    - [Indijos ilgalaikio turto pamainos nusidėvėjimo skaičiavimas](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
-    - [Knygoms skirto pamainos ir pramonės tipo nustatymas bei pridėjimas prie ilgalaikio turto](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
-- [Mokesčių mechanizmo apžvalga](../../financials/general-ledger/tax-engine.md)
-    - [Mokesčių mechanizmo integravimas](../../financials/general-ledger/tax-engine-integration.md)
-    - [DUK apie ribines mokesčių reikšmes](../../financials/localizations/apac-ind-tax-thresholds.md)
-    - [Mokesčių mechanizmo plėtimas](../../financials/general-ledger/extend-tax-engine-configurations.md)
-
-### <a name="italyfinancialslocalizationsitalymd"></a>[Italija](../../financials/localizations/italy.md)
-### <a name="japan"></a>Japonija
-
--  [Banko mokėjimo mokesčiai, kuriuos padengia tiekėjai](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
--  [Konsoliduotosios SF](../../financials/localizations/apac-jpn-consolidate-invoices.md)
--  [Ilgalaikio turto paskirstymo taisyklės](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
--  [Tolygiai padalyto nusidėvėjimo metodas](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
--  [Ilgalaikio turto nusidėvėjimas](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
--  [Ilgalaikio turto pablogėjimo valdymas grynuosius pinigus generuojančiame vienete](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
--  [Pašto indeksų importavimas](../../financials/localizations/apac-jpn-import-postal-codes.md)
--  [Ilgalaikio turto grąžinimo įsipareigojimo nustatymas](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
--  [Ilgalaikio turto mažinimo įrašų nustatymas](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
--  [Mokėjimas tiekėjui patvirtinant įsakomąjį vekselį](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
--  [Išskaitomo mokesčio skaičiavimas palaipsniui](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
-
-### <a name="latviafinancialslocalizationslatviamd"></a>[Latvija](../../financials/localizations/latvia.md)
-### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Lietuva](../../financials/localizations/lithuania.md)
-
-### <a name="mexico"></a>Meksika
-
--   [DIOT deklaracijos išrašas](../../financials/localizations/latam-mex-diot-declaration-statement.md)
--   [Elektroniniai DK apskaitos išrašai](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
--   [Infliacijos deklaracijos ataskaitos koregavimas](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
--   [ISR deklaracijos ataskaita](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
--   [Elektroninės sąskaitos faktūros (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-
-### <a name="malaysia"></a>Malaizija
-
--   [Prekių ir paslaugų mokestis (GST)](../../financials/localizations/apac-mys-gst.md)
-
-### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Olandija](../../financials/localizations/netherlands.md)
-### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Norvegija](../../financials/localizations/norway.md)
-### <a name="polandfinancialslocalizationspolandmd"></a>[Lenkija](../../financials/localizations/poland.md)
-### <a name="saudi-arabia"></a>Saudo Arabija
-
--   [Zakato ataskaitos](../../financials/localizations/emea-sau-zakat-reporting.md)
-
-### <a name="singapore"></a>Singapūras
-
--   [Singapūro GST-05 ataskaitos generavimas](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
-
-### <a name="spainfinancialslocalizationsspainmd"></a>[Ispanija](../../financials/localizations/spain.md)
-### <a name="swedenfinancialslocalizationsswedenmd"></a>[Švedija](../../financials/localizations/sweden.md)
-### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[Šveicarija](../../financials/localizations/switzerland.md)
-### <a name="thailand"></a>Tailandas
-
--   [Atsargų kortelių ataskaitos](../../financials/localizations/apac-tha-stock-card-reports.md)
--   [Tailando mokesčio SF pakaitalas / koregavimas](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
--   [Nesumokėtas PVM](../../financials/localizations/apac-tha-unrealized-vat.md)
--   [Išskaitomas mokestis](../../financials/localizations/apac-tha-withholding-tax.md)
-
-### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Jungtinė Karalystė](../../financials/localizations/united-kingdom.md)
-### <a name="united-states"></a>Jungtinės Valstijos
-
--   [Viešojo sektoriaus forma 1099](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
--   [Formos I-9 tikrinimas](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [Metų pabaigos 1099 ataskaita](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
--   [Algalapis](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
--   [Viešasis sektorius](../../financials/public-sector/public-sector-functionality.md)
 
 
 
