@@ -3,7 +3,7 @@ title: " Mažmeninės prekybos išrašų parametrų konfigūracijos"
 description: "Ši procedūra nurodo mažmeninės prekybos parametrų konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami mažmeninės prekybos išrašai."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 94a54dddae341febf1568369545477780c176019
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="44f5b-103"> Mažmeninės prekybos išrašų parametrų konfigūracijos</span><span class="sxs-lookup"><span data-stu-id="44f5b-103">Parameter configurations for Retail statements</span></span>

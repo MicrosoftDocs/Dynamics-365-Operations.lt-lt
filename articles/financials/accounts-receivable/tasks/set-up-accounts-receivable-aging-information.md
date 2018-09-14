@@ -3,7 +3,7 @@ title: "Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaci
 description: "Šis vadovas jums padės nustatyti skirstymo pagal terminus laikotarpio apibrėžtį, pagal terminus skirstyti klientų balansus ir peržiūrėti balansus sąraše Pagal terminus suskirstytas balansas ir puslapyje Mokėjimų priežiūra."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 47402c31ac24f4276288e8957911d30ae98b5643
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a><span data-ttu-id="330c1-103">Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją</span><span class="sxs-lookup"><span data-stu-id="330c1-103">Set up and generate accounts receivable aging information</span></span>

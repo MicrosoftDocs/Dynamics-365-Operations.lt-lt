@@ -3,7 +3,7 @@ title: "Peržiūrėti mokėjimų priežiūros informaciją"
 description: "Ši procedūra padės peržiūrėti mokėjimų priežiūros informaciją, taip pat įvairias sąrankos parinktis ir mokėjimų priežiūros operacijas."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fa680f2b4f2c02c12caf98e06cfc283dfd9c863f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="review-collections-information"></a><span data-ttu-id="802f9-103">Peržiūrėti mokėjimų priežiūros informaciją</span><span class="sxs-lookup"><span data-stu-id="802f9-103">Review collections information</span></span>

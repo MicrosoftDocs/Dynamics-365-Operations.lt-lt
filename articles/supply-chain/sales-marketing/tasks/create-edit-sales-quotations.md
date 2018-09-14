@@ -3,7 +3,7 @@ title: "Kurti ir redaguoti pardavimo pasiūlymus"
 description: "Ši procedūra parodo, kaip sukurti ir atnaujinti pardavimo pasiūlymą."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c5e7164633bbb33b436ab7a6fcd8ff62183c6eb5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5b5618a815aaff12dd366523920ed275801b3b16
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-and-edit-sales-quotations"></a><span data-ttu-id="3a328-103">Kurti ir redaguoti pardavimo pasiūlymus</span><span class="sxs-lookup"><span data-stu-id="3a328-103">Create and edit sales quotations</span></span>

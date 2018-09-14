@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: „Relax“ modelio apribojimai maketų persidengimui pertvarkyti į plėtinius
               href: extensibility/refactoring-over-layering.md
-        - name: Kaip?
+        - name: Plėtinių kūrimas
           items:
-            - name: Verčių įtraukimas į „enums“
+            - name: Reikšmių įtraukimas į išvardijimus
               href: extensibility/add-enum-value.md
             - name: Išplėstinių duomenų tipų modifikavimas
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: 'Lentelių schemų, naudojamų versijoms kurti, išplėtimas'
               href: extensibility/maps-with-versioning.md
+        - name: Išplečiamųjų sprendimų kūrimas
+          items:
+            - name: Išplečiamojo kodo rašymas
+              href: extensibility/writing-extensible-code.md
+            - name: Klasės
+              href: extensibility/extensible-classes.md
+            - name: Metodai
+              href: extensibility/extensible-methods.md
+            - name: Formos
+              href: extensibility/extensible-forms.md
+            - name: Išplėstiniai duomenų tipai
+              href: extensibility/extensible-edts.md
+            - name: Išplečiamieji išvardijimai
+              href: extensibility/extensible-enums.md
+            - name: Perėmėjai
+              href: extensibility/extensible-code-delegates.md
+            - name: Lentelės
+              href: extensibility/extensible-tables.md
+            - name: Metodų išplečiamumo atributai
+              href: extensibility/extensibility-attributes.md
+            - name: Gedimų sukeliantys keitimai
+              href: extensibility/breaking-changes.md
     - name: Našumas
       items:
-        - name: Sekimų paėmimas naudojant sekimo analizatorių
+        - name: Sekimų paėmimas naudojant „Trace“ analizatorių
           href: perf-test/trace-trace-tutorial.md
-        - name: Našumo SDK ir kelių vartotojų aplinkos bandymas naudojant „Visual Studio Online“
+        - name: Našumo SDK ir kelių vartotojų bandymas naudojant „Visual Studio Online“
           href: perf-test/perfsdk-tutorial.md
         - name: Našumo SDK ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant sekimo analizatorių
+        - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant „Trace” analizatorių
           href: perf-test/trace-parser.md
         - name: Efektyvumo laikmatis
           href: perf-test/performance-timer.md
@@ -1184,7 +1206,9 @@
       items:
         - name: Optimizavimo patariamojo įrankio taisyklių kūrimas
           href: sysadmin/create-rules-optimization-advisor.md
-- name: „Lifecycle Services“
+    - name: Pranešimas apie gamybos sutrikimus
+      href: lifecycle-services/report-production-outage.md
+- name: „Lifecycle Services‟
   items:
     - name: „Lifecycle Services“ ištekliai
       href: lifecycle-services/lcs.md
@@ -1236,11 +1260,13 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Aplinkos paslaugų paleidimas iš naujo
       href: lifecycle-services/restart-environment-services.md
+    - name: Pranešimas apie gamybos sutrikimus
+      href: lifecycle-services/report-production-outage.md
     - name: Vartotojų prisijungimų sekimas
       href: lifecycle-services/user-logins.md
     - name: Turto biblioteka
       href: lifecycle-services/asset-library.md
-    - name: „Microsoft Dynamics 365“ vertimo tarnyba
+    - name: „Microsoft Dynamics 365 Translation Service“
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: Vartotojo sąsajos failų vertimas

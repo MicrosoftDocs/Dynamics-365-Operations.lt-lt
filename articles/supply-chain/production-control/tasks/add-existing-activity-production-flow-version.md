@@ -3,7 +3,7 @@ title: "Esamos veiklos įtraukimas į gamybos eigos versiją"
 description: "Kurdami naujas gamybos eigų versijas, į naują versiją galite įtraukti senesnių versijų sukurtas veiklas."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cb185c1ec55346af7cfe0b950f0915072242e961
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 032855125ccd14fbdc1e1bdb735c92ce70853fb0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a><span data-ttu-id="66e58-103">Esamos veiklos įtraukimas į gamybos eigos versiją</span><span class="sxs-lookup"><span data-stu-id="66e58-103">Add an existing activity to a production flow version</span></span>

@@ -3,7 +3,7 @@ title: "Nustatyti pagrindinės sąskaitos kategorijas"
 description: "Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Power BI“ numatytosioms ataskaitoms."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fbb1dee3d88c97a0b5496c4c5350585be0aad57a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-main-account-categories"></a><span data-ttu-id="0b3d2-103">Nustatyti pagrindinės sąskaitos kategorijas</span><span class="sxs-lookup"><span data-stu-id="0b3d2-103">Set up main account categories</span></span>
