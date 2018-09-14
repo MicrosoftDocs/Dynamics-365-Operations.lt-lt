@@ -3,7 +3,7 @@ title: "Bangos apdorojimo konfigūravimas"
 description: "Šiame vadove aprašoma, kaip nustatyti kriterijus, pagal kuriuos nustatoma, koks darbas sugeneruojamas sandėliui apdorojus bangą ir ar bangos apdorojamos rankiniu būdu, ar automatiškai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

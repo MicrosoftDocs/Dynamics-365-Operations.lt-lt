@@ -3,7 +3,7 @@ title: "Modifikuoti poreikio prognozę neautomatiškai"
 description: "Ši procedūra nurodo, kaip modifikuoti prekės prognozę."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

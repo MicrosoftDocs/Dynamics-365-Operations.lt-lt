@@ -3,7 +3,7 @@ title: " Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant ski
 description: "Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams iš vienos vietos į vieną ar kelias parduotuves paskirstyti."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

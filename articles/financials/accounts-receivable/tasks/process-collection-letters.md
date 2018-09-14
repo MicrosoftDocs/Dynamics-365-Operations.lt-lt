@@ -3,7 +3,7 @@ title: "Apdoroti priminimo laiškus"
 description: "Ši procedūra nurodo, kaip kurti, spausdinti ir registruoti priminimo laiškus."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

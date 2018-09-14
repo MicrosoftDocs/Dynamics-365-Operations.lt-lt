@@ -3,7 +3,7 @@ title: "Importuoti ISO20022 tiesioginio debeto konfigūraciją"
 description: "Šioje procedūroje parodoma, kaip importuoti kliento mokėjimų elektroninių ataskaitų konfigūraciją."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Masinis finansinio laikotarpio uždarymas"
 description: "Šioje procedūroje parodoma, kaip sulaikyti laikotarpį arba visam laikui uždaryti laikotarpį ar daugiau nei vieną juridinį subjektą tuo pat metu."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

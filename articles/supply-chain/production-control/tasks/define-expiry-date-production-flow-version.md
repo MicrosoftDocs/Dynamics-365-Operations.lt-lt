@@ -3,7 +3,7 @@ title: Gamybos eigos versijos galiojimo datos nustatymas
 description: "Norėdami gamybos eigos versijos galiojimą ir apdorojimą nutraukti tam tikrą datą arba planuoti aktyvios versijos pakeitimą į naują versiją, turite nustatyti versijos galiojimo datą."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

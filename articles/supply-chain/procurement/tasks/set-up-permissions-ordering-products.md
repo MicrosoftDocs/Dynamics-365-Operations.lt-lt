@@ -3,7 +3,7 @@ title: "Teisių užsakyti produktus kito darbuotojo vardu nustatymas"
 description: "Šioje procedūroje parodoma, kaip darbuotojų suteikti teisę pirkimo paraiškas rengti kitų darbuotojų vardu."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

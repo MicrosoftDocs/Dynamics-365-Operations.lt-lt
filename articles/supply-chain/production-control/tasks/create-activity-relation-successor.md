@@ -3,7 +3,7 @@ title: "Veiklos ryšio kūrimas – vėlesnė veikla"
 description: "„Lean“ gamybos eigos veiklų srautas dokumentuojamas naudojantis veiklų ryšiais."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

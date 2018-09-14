@@ -3,7 +3,7 @@ title: "Gamybos užsakymų skelbimą baigtais"
 description: "Ši procedūra nurodo, kaip gamybos užsakymą paskelbti kaip baigtą."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį"
 description: "Ši procedūra nurodo, kaip pradėti ir pateikti ataskaitą apie gamybos užduoties eigą užduoties prietaiso registracijos formoje."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

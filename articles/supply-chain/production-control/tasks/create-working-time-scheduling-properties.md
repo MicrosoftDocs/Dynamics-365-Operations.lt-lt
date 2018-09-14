@@ -3,7 +3,7 @@ title: "Kurti darbo laiko planavimo ypatybės"
 description: "Darbo laiko planavimo ypatybės naudojamos kategorizuoti darbo laiko intervalams ir nustatyti nuostatoms, į kurias turi atsižvelgti operatoriai."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

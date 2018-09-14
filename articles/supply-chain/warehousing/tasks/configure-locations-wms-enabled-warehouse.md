@@ -3,7 +3,7 @@ title: "Sandėlio, kuriame veikia WMS, vietų konfigūravimas"
 description: "Šiame vadove aprašoma, kaip konfigūruoti naujo sandėlio, kuriame veikia WMS (sandėlio, kuriame naudojami patobulinti sandėlio valdymo procesai) vietos nustatymą."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

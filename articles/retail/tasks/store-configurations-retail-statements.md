@@ -3,7 +3,7 @@ title: " Mažmeninės prekybos išrašų parduotuvės konfigūracijos"
 description: "Ši procedūra nurodo mažmeninės prekybos parduotuvės konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami mažmeninės prekybos išrašai."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Nustatyti sužeidimų ir ligų informaciją"
 description: "Darbdaviai turi žinoti, kada jų samdomi darbuotai susižeidžia arba suserga dėl pavojingų darbo vietos sąlygų."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

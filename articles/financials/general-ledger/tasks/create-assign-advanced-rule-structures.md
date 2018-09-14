@@ -3,7 +3,7 @@ title: "Kurti ir priskirti išplėstinės taisyklės struktūras"
 description: "Šis užduoties vadovas padeda sukurti išplėstinės taisyklės struktūrą ir priskirti ją sąskaitos struktūrai."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

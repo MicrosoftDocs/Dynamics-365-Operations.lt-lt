@@ -3,7 +3,7 @@ title: "Įgalinti laiko ir buvimo darbe algalapio procesą"
 description: "Ši procedūra parodo, kaip įgalinti laiko ir buvimo darbe algalapio procesą."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

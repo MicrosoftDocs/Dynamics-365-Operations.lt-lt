@@ -3,7 +3,7 @@ title: " Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas"
 description: "Atliekant šią procedūrą atnaujinami duomenys objektų saugykloje, kurią naudoja mašininio mokymo sistema, teikianti produktų rekomendacijas, ir tada EKA klientams įjungiama produktų rekomendacijų funkcija."
 author: ashishmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

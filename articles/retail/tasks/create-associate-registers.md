@@ -3,7 +3,7 @@ title: " Registrų kūrimas ir susiejimas"
 description: "Šioje procedūroje parodoma, kaip kurti elektroninio kasos aparato (POS) registrą."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

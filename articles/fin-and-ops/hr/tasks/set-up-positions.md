@@ -3,7 +3,7 @@ title: "Pareigų nustatymas"
 description: "Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

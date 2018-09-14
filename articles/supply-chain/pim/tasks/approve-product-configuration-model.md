@@ -3,7 +3,7 @@ title: "Patvirtinti produkto konfigūracijos modelį"
 description: "Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas produkto konfigūracijos modelis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

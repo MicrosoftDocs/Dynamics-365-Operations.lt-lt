@@ -3,7 +3,7 @@ title: "Kurti dimensijomis pagrįstą bendrąjį produktą"
 description: "Ši procedūra nurodo, kaip sukurti naują bendrąjį produktą su konfigūravimo pagal dimensijas technologija."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

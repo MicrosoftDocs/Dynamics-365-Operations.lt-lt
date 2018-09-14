@@ -3,7 +3,7 @@ title: Apkrovos paskyros nustatymas
 description: "Šioje procedūroje parodoma, kaip nustatyti ir planuoti krovinio rampos paskyrą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Nustatyti pagrindinės sąskaitos kategorijas"
 description: "Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Power BI“ numatytosioms ataskaitoms."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

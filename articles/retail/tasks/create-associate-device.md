@@ -3,7 +3,7 @@ title: " Kurti ir susieti įrenginį"
 description: "Ši procedūra padeda kurti naują įrenginį ir jį priskirti registrui."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

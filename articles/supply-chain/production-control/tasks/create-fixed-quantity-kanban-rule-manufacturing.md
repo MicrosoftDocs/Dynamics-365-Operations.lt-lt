@@ -3,7 +3,7 @@ title: "Fiksuoto kiekio „kanban“ gamybos taisyklės kūrimas"
 description: "Šia procedūra sutelkiamas dėmesys į nustatymą, reikalingą norint „lean“ aplinkos darbo elemente sukurti fiksuotą gamybos „kanban“ taisyklę, skirtą transformavimo veiklos aktyvinimui."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

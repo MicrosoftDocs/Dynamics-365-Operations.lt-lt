@@ -3,7 +3,7 @@ title: "Konfigūruoti vidinės įmonės projekto SF išrašymą"
 description: "Šioje procedūroje parodoma, kaip nustatyti projekto SF tarp dviejų įmonių jūsų organizacijoje."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

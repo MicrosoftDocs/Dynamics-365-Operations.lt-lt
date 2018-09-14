@@ -3,7 +3,7 @@ title: "Išlaidų objektų kūrimas  "
 description: "Šioje procedūroje parodoma, kaip kurti išlaidų objektus importuojant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo išlaidų centro finansinę dimensiją į savikainos apskaitą per duomenų jungtį."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

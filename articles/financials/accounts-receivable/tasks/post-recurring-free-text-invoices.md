@@ -3,7 +3,7 @@ title: "Generuoti ir registruoti pasikartojančias laisvos formos SF"
 description: "Pasikartojančios SF naudojamos reguliariai klientams išrašyti SF už tą pačią sumą."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

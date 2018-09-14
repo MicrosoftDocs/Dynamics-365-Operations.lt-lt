@@ -3,7 +3,7 @@ title: "Paleisti dimensijomis pagrįstą bendrąjį produktą"
 description: "Ši procedūra nurodo, kaip paleisti bendrąjį produktą, kuris bus naudojamas konfigūruojant pagal dimensijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

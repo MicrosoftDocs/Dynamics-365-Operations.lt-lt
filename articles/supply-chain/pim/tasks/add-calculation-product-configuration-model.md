@@ -3,7 +3,7 @@ title: "Įtraukti skaičiavimą į produktų konfigūravimo modelį"
 description: "Ši procedūra nurodo, kaip į produkto konfigūracijos modelį įtraukti naują skaičiavimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

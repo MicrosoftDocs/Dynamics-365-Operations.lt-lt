@@ -3,7 +3,7 @@ title: "Operacijų perkėlimas į Intrastat"
 description: "Šia procedūra parodoma, kaip nustatyti Intrastat parametrus ir perkelti operacijas į Intrastat."
 author: Anasyash
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

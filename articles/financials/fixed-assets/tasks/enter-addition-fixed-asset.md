@@ -3,7 +3,7 @@ title: "Ilgalaikio turto priedo įvedimas"
 description: "Ši procedūra parodo, kaip prie esamo ilgalaikio turto pridėti priedą."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

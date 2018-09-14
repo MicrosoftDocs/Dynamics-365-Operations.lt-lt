@@ -3,7 +3,7 @@ title: "Nustatyti išskaitomą mokestį"
 description: "Išskaitomas mokestis yra tiekėjams taikomas mokestis, kurį taikant nesukuriama PVM operacijų."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

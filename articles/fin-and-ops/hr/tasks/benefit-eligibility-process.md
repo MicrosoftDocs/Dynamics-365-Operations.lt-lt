@@ -3,7 +3,7 @@ title: "Teisės į išmoką apdorojimas"
 description: "Ši procedūra rodo išmokų tinkamumo proceso darbą."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

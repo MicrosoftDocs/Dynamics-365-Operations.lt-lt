@@ -3,7 +3,7 @@ title: "Vairuotojo paskyros įregistravimas ir išregistravimas"
 description: "Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

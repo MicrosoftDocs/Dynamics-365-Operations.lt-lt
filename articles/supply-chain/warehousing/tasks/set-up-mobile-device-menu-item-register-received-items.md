@@ -3,7 +3,7 @@ title: "Nustatyti mobiliojo įrenginio meniu elementą gautoms prekėms registru
 description: "Ši užduotis sutelkta į mobiliojo įrenginio meniu elemento nustatymą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

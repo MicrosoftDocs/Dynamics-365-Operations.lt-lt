@@ -3,7 +3,7 @@ title: Kurti produkto modelio komponentus
 description: "Produkto konfigūravimo pagal apribojimus modeliai naudoja komponentus kaip kūrimo blokus nustatant produkto modelio struktūrą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

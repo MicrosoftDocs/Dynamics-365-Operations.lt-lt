@@ -3,7 +3,7 @@ title: "Rodyti savikainos objektų savikainos įrašus"
 description: "Ši procedūra nurodo, kaip peržiūrėti savikainos objekto savikainos įrašus."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

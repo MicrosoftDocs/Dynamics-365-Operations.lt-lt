@@ -3,7 +3,7 @@ title: "Sukurti tiekėjo banko sąskaitą"
 description: "Šia procedūra parodoma, kaip kurti tiekėjo banko kodą."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Kurti naują produktą"
 description: "Šia užduotimi rodoma, kaip sukurti naują bendrai naudojamą produktą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

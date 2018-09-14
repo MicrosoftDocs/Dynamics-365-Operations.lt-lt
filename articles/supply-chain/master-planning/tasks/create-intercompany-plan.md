@@ -3,7 +3,7 @@ title: "Kurti vidinės įmonės planą"
 description: "Šioje procedūroje parodoma, kaip kurti vidinės įmonės planą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

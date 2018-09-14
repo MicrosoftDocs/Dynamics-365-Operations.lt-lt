@@ -3,7 +3,7 @@ title: "Elektroninių parašų nustatymas"
 description: "Naudokite šią procedūrą norėdami nustatyti elektroninius parašus."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

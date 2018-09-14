@@ -3,7 +3,7 @@ title: "Kurti priminimo laiškų seką"
 description: "Naudodami šį užduočių vadovą, sukurkite priminimo laiškų seką."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

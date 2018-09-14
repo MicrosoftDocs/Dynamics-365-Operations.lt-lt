@@ -3,7 +3,7 @@ title: "Patikrinti gamybos eigą ir versiją"
 description: "Ši procedūra nurodo, kaip sukurti naują gamybos eigą ir pirmąją „lean manufacturing“ versiją."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

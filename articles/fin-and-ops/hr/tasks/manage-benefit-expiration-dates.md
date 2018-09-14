@@ -3,7 +3,7 @@ title: "Tvarkyti išmokos galiojimo datas"
 description: "Ši procedūra nurodo, kaip galite nutraukti arba pratęsti išmokos galiojimą ir valdyti darbuotojų, kurie yra įtraukti į išmokos registrą, registracijos datas."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

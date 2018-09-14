@@ -3,7 +3,7 @@ title: "Gauti pirkimo užsakyme pateiktas prekes pagal prekės poreikį"
 description: "Šioje procedūroje nurodoma, kaip gauti pirkimo užsakyme pateiktas prekes pagal prekės poreikį."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

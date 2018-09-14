@@ -3,7 +3,7 @@ title: "Įvesti pretendento ir prašymo duomenis neautomatiškai"
 description: "Ši procedūra nurodo, kaip rankiniu būdu tvarkyti informaciją apie pretendentus ir jų prašymus."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

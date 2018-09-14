@@ -3,7 +3,7 @@ title: "Nustatyti didžiosios knygos pseudonimą"
 description: "Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

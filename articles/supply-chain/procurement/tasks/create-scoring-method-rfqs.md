@@ -3,7 +3,7 @@ title: "Kurti RFQ vertinimo būdą"
 description: "Šioje procedūroje parodoma, kaip kurti vertinimo būdą."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

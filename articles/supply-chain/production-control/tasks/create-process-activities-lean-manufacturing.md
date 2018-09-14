@@ -3,7 +3,7 @@ title: "Kurti „lean manufacturing“ proceso veiklas"
 description: "Sukurkite „lean manufacturing“ proceso veiklą."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Kurti pasikartojantį pirkimo užsakymą"
 description: "Šioje procedūroje parodoma, kaip kurti pasikartojantį pirkimo užsakymą (PU) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba į esamą PO."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

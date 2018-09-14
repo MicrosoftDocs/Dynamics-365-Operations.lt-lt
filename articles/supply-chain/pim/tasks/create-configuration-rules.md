@@ -3,7 +3,7 @@ title: "Kurti konfigūracijos taisykles"
 description: "Šia procedūra sukuriamos konfigūracijos taisyklės, pagal kurias, naudojant konfigūravimą pagal dimensijas, būtų galima taikyti arba neleisti taikyti tam tikrų KS eilučių kombinacijų."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

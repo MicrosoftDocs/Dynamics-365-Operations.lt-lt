@@ -3,7 +3,7 @@ title: "Ilgalaikio turto registravimo šablonų nustatymas"
 description: "Šis užduočių vadovas nustatys ilgalaikio turto registravimo šablonus."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

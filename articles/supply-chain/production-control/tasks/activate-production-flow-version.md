@@ -3,7 +3,7 @@ title: "Suaktyvinti gamybos eigos versiją"
 description: "Norėdami kurti gamybos eigos versijos „kanban“ ir apdoroti gamybos eigos versijos veiklas, versiją turite suaktyvinti."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

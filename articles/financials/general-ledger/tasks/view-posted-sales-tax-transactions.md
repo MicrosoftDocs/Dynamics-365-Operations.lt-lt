@@ -3,7 +3,7 @@ title: "Peržiūrėti užregistruotas PVM operacijas"
 description: "Atsižvelgiant į tai, ko reikia, užregistruotas PVM operacijas galite peržiūrėti iš įvairių puslapių."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

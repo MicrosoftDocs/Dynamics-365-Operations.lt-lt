@@ -3,7 +3,7 @@ title: "Kurti naują „kanban“ taisyklę dubliuojant esamą „kanban“ tais
 description: "Šioje procedūroje didžiausias dėmesys skiriamas esamos „kanban“ taisyklės kopijos kūrimui."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

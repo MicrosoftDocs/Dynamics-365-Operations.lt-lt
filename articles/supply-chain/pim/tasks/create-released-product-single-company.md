@@ -3,7 +3,7 @@ title: "Kurti vienos įmonės išleistą produktą"
 description: "Ši procedūra žingsnis po žingsnio padeda sukurti vieną išleistą produktą vieno juridinio vieneto kontekste."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Tvarkyti darbuotojo sužeidimų ir ligų informaciją"
 description: "Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų informacijos sąranka“, nes čia naudojama kai kuri sąrankos informacija."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

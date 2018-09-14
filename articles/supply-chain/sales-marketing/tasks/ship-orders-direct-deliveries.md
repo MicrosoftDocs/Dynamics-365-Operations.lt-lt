@@ -3,7 +3,7 @@ title: "Siųsti užsakymus kaip tiesioginius pristatymus"
 description: "Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

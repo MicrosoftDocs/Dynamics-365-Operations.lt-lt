@@ -3,7 +3,7 @@ title: "Nustatyti PVM grupes ir prekių PVM grupes"
 description: "Šis užduoties įrašas apžvelgia grupių PVM ir Prekės PVM sąranką."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

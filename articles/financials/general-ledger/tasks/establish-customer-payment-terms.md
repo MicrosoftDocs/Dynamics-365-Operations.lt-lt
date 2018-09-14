@@ -3,7 +3,7 @@ title: "Nustatyti kliento mokėjimo sąlygas"
 description: "Ši procedūra apibrėžia mokėjimo nuolaidą ir termino sąranką."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

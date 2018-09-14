@@ -3,7 +3,7 @@ title: "Keisti reklaminę juostą arba logotipą"
 description: "Toliau pateiktoje procedūroje išvardijami veiksmai, kuriuos sistemos administratoriai gali naudoti, norėdami atnaujinti reklaminės juostos arba logotipo vaizdą, kuris rodomas juridiniam subjektui."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

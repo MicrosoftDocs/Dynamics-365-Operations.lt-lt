@@ -3,7 +3,7 @@ title: "Kurti vertės srautą"
 description: "Verčių srautai yra vieną ar kelias gamybos eigas grupuojantys valdymo vienetai."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

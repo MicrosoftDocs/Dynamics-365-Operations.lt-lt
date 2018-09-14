@@ -3,7 +3,7 @@ title: "Grąžinti „kanban“ užduoties būseną"
 description: "Ši procedūra padeda grąžinti neteisingą „kanban“ užduoties būseną."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

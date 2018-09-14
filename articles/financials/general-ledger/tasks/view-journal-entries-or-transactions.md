@@ -3,7 +3,7 @@ title: "Žurnalo įrašai arba operacijos"
 description: "Šioje procedūroje parodoma, kaip, naudojant užklausą Kvitų operacijos, ieškoti žurnalų įrašų ar operacijų."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Peržiūrėti gamybos užsakymo dabartinę NG būseną"
 description: "Šioje procedūroje nurodoma, kaip peržiūrėti NG (nebaigtos gamybos) išrašą gamybos užsakyme."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

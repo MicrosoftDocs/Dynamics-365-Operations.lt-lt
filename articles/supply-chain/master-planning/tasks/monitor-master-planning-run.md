@@ -3,7 +3,7 @@ title: "Bendrojo planavimo vykdymo stebėjimas"
 description: Gamybos planuotojas nori pamatyti, ar vykdomas bendrasis planavimas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

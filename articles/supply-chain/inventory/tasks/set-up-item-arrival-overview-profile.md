@@ -3,7 +3,7 @@ title: "Nustatyti gaunamų prekių apžvalgos profilį"
 description: "Šios užduoties tikslas yra nustatyti gaunamų prekių apžvalgos profilį."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

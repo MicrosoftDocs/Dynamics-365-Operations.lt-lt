@@ -3,7 +3,7 @@ title: "PVM rinkėjų nustatymas"
 description: "PVM institucijos yra subjektai, kuriems reikia pranešti apie surinktą PVM ir jį sumokėti."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

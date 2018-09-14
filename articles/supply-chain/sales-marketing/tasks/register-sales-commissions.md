@@ -3,7 +3,7 @@ title: Registruoti pardavimo komisinius
 description: "Ši procedūra nurodo, kaip apskaičiuojami ir registruojami pardavimo komisiniai."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

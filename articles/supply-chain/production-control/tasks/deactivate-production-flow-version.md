@@ -3,7 +3,7 @@ title: "Išjungti gamybos eigos versiją"
 description: "Kai aktyvi gamybos eigos versija nebereikalinga, galite jį išjungti."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

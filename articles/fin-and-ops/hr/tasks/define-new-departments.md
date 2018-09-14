@@ -3,7 +3,7 @@ title: "Apibrėžti naujus padalinius"
 description: "Padaliniai yra valdymo vienetai, kurie atstovauja funkcines verslo sritis, pvz., pardavimą arba apskaitą."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

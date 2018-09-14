@@ -3,7 +3,7 @@ title: "Vykdyti „kanban“ proceso užduotis"
 description: "Šioje procedūroje parodyta, kaip vykdyti „kanban“ proceso užduotis."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

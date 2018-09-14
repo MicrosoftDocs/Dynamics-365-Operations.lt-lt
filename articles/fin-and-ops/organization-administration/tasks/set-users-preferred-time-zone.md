@@ -3,7 +3,7 @@ title: Vartotojo pageidaujamos laiko zonos nustatymas
 description: "Pateiktoje procedūroje paaiškinama, kaip sistemos administratoriaus vaidmens vartotojas gali nustatyti vartotojo laiko juostą."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Valdyti el. laiškų šablonus"
 description: "Galite perkelti informaciją iš jūsų organizacijos duomenų bazės į žymeles naujame dokumente ir naudoti ją šablonuose, kurie padeda efektyviai bendrauti su pretendentais ir kandidatais."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

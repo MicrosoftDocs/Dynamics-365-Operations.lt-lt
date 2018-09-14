@@ -3,7 +3,7 @@ title: "Kliento mokėjimų apžvalga"
 description: "Šis užduoties vadovas žingsnis po žingsnio apžvelgia įvairius klientų mokėjimų įvedimo būdus."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

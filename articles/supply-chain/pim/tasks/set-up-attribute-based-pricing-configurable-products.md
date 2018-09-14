@@ -3,7 +3,7 @@ title: "Atributais pagrįstos konfigūruojamų produktų kainodaros nustatymas"
 description: "Šioje procedūroje parodoma, kaip nustatyti atributais pagrįstą kainodarą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Konfigūruoti darbo ir išlaidų standartines išlaidas"
 description: "Šioje procedūroje nurodoma, kaip nustatyti standartinę projekto darbo ir išlaidų savikainą."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

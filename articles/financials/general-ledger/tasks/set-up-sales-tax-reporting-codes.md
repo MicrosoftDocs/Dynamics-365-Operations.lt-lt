@@ -3,7 +3,7 @@ title: "Nustatyti PVM ataskaitų kodus"
 description: "PVM ataskaitų kodai – tai lauko numeris PVM ataskaitoje."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

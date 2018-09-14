@@ -3,7 +3,7 @@ title: "Keisti apdorojimo užduoties „kanban“ taisykles"
 description: "Ši procedūra padės pakeisti naudojamą „kanban“ taisyklę į nurodytą „kanban“."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

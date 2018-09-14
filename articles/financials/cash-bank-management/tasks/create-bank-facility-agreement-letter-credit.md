@@ -3,7 +3,7 @@ title: "Kurti akredityvo banko priemonės sutartį"
 description: "Ši užduotis apžvelgia, kaip sukurti banko priemonės sutartį, kad būtų galima apdoroti Akredityvą."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

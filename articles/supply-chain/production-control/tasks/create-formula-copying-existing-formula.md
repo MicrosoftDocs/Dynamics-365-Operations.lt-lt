@@ -3,7 +3,7 @@ title: "Kurti formulę kopijuojant iš esamos formulės"
 description: "Ši procedūra nurodo, kaip greitai sukurti naują formulę, ją nukopijavus iš esamos formulės."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

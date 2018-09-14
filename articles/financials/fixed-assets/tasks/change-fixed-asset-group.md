@@ -3,7 +3,7 @@ title: "Keisti ilgalaikio turto grupę"
 description: "Ilgalaikis turtas turi būti priskirtas tinkamai ilgalaikio turto grupei."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

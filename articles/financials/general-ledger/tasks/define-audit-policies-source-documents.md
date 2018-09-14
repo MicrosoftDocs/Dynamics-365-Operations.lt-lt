@@ -3,7 +3,7 @@ title: "Apibrėžti šaltinio dokumento audito strategijas"
 description: "Ši procedūra parodo, kaip nustatyti ir vykdyti audito strategijos taisykles."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

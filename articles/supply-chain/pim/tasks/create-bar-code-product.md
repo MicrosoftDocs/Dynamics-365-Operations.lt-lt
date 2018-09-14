@@ -3,7 +3,7 @@ title: "Produkto brūkšninio kodo kūrimas"
 description: "Šioje procedūroje parodoma, kaip neautomatiniu būdu kurti brūkšninį kodą naudojant prekės numerį M0001 kaip pavyzdį."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

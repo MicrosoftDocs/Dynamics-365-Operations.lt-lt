@@ -3,7 +3,7 @@ title: " Nustatyti prekių skirstymo ir skirstymo pirkėjams taisykles ir parame
 description: "Ši procedūra nurodo veiksmus, skirtus papildymo taisyklėms kurti."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Apibrėžti konfigūracijos grupes"
 description: "Ši procedūra nurodo, kaip nustatyti produkto konfigūracijos grupes sukuriant dvi grupes demonstracinių duomenų įmonėje „USMF Company“."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

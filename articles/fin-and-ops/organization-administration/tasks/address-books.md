@@ -3,7 +3,7 @@ title: "Konfigūruoti adresų knygeles"
 description: "Norėdami savo organizacijai nustatyti papildomų agresų knygelių, naudokite šią procedūrą, ir sprendimus, kuriuos priėmėte temoje Visuotinės adresų knygelės konfigūracijos planavimas ir papildomos adresų knygelės."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

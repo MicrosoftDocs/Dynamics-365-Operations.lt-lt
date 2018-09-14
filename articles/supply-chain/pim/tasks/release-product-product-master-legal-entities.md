@@ -3,7 +3,7 @@ title: "Išleisti produktą / bendrąjį produktą juridiniams subjektams"
 description: "Ši procedūra padeda išleisti produktą arba bendrąjį produktą vienam arba keliems juridiniams subjektams."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

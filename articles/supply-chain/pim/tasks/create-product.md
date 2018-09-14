@@ -3,7 +3,7 @@ title: "Sukurti produktą"
 description: "Ši procedūra padeda kurti naują produktą mažmeninės prekybos produktų hierarchijoje."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

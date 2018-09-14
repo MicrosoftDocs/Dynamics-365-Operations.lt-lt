@@ -3,7 +3,7 @@ title: "Kurti ir patvirtinti žurnalus"
 description: "Šiame užduoties vadove sukuriami ir tikrinami žurnalai ir žurnalo eilutės."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
