@@ -1,31 +1,32 @@
 --- 
-title: "Kanalui specifiškų prekybos sutarčių kūrimas"
+title: " Bazinė kaina ir prekybos sutartys"
 description: "Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis."
 author: josaw1
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4cc797d2e23f0c7b14564415de6153ac0894c727
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 81c70921718e41719470c7428c05a9f7ae77354a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-channel-specific-trade-agreements"></a>Kanalui specifiškų prekybos sutarčių kūrimas
+# <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

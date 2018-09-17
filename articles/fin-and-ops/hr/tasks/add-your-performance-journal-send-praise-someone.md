@@ -1,28 +1,29 @@
 --- 
-title: "Informacijos į našumo žurnalą įtraukimas ir pagyrimo siuntimas"
+title: "Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas"
 description: "Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte savo tikslus arba koks buvo jūsų našumas per pasirinktą laikotarpį."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Informacijos į našumo žurnalą įtraukimas ir pagyrimo siuntimas
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ Našumo žurnale pateikiama informacija, susijusi su tuo, kaip jus pasiekėte sa
 9. Lauke Raktažodžiai įveskite reikšmę.
 10. Spustelėkite Įtraukti išorinį saitą.
 11. Lauke Aprašas įveskite „Envision“.
-12. Lauke Interneto adresas įrašykite „<https://www.microsoft.com/en/envision/default>“.
+12. Lauke Interneto adresas įveskite https://www.microsoft.com/en/envision/default.
 13. Norėdami vėl atidaryti tinklelį, spustelėkite po mygtuku Įrašyti esančią antraštę, pavadinimu Našumo žurnalas.
     * Galite įtraukti pasirinktą žurnalą arba žurnalus į tikslą, kad jis būtų rodomas, kai atidarysite tikslą. „FastTab“ konteineryje Saitai bus įtrauktas saitas.    Jei įtrauksite žurnalą į tikslą ir tada įtrauksite tikslą į apžvalgą, žurnalas apžvalgoje bus rodomas automatiškai.  
     * Galite įtraukti pasirinktą žurnalą arba žurnalus į apžvalgą, kad jis būtų rodomas, kai atidarysite apžvalgą.    Saitas bus įtrauktas „FastTab" Saitai.  

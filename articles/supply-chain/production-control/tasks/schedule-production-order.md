@@ -1,21 +1,22 @@
----
+--- 
 title: "Suplanuoti gamybos užsakymą"
 description: "Šioje procedūroje nurodoma, kaip planuoti gamybos užsakymą."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
@@ -53,4 +54,5 @@ ms.lasthandoff: 02/06/2018
     * Puslapyje Pajėgumas rodomi užduočių planavimo metu rezervuotas pajėgumas, bendras šiuo metu rezervuotų ištekliaus valandų skaičius ir likusių ištekliaus valandų, kurias galima vykdyti užduočių planavimą, skaičius.  
 6. Uždarykite puslapį.
 7. Uždarykite puslapį.
+
 

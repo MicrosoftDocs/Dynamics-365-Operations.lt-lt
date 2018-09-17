@@ -44,11 +44,13 @@ Norėdami naudotis kredito kortelėmis, turite sukurti ir aktyvuoti mokėjimo pa
 
 ## <a name="adding-a-new-credit-card"></a>Kaip pridėti naują kreditinę kortelę
 Naujos kredito kortelės duomenis galite sukurti Klientų puslapyje naudodami Klientas, Nustatyti, Kreditinė kortelė. Taip pat galite sukurti kreditinių kortelių įrašus, įvesdami pardavimų užsakymus Pardavimų užsakymų puslapyje, naudodami Tvarkyti, Klientas, Kreditinė kortelė, Registruoti.
-Kaip pridėti kreditinę kortelę pardavimo užsakymui
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Kaip pridėti kreditinę kortelę pardavimo užsakymui
 -------------------------------------
 
 Galite pridėti kreditinę kortelę pardavimo užsakymui, pasirinkdami kredito kortelę iš kredito kortelių paieškos iš Kainų ir nuolaidų „FastTab“ Pardavimų užsakymo puslapyje. Norėdami pradėti autorizavimo procesą, Veiksmų srityje, Tvarkyti kortelę, pasirinkite Kredito kortelė ir Autorizuoti.
-Kredito kortelės autorizacija
+
+<a name="authorizing-a-credit-card"></a>Kredito kortelės autorizacija
 -------------------------
 
 Autorizavus kredito kortelę, patikrinamas kortelės numeris ir kortelės savininko vardas ir patvirtinamas turimas kredito likutis. Pasirinktinai tikrinama kortelės patvirtinimo vertė ir kortelės savininko adresas. Kliento turimas kredito likutis sumažinamas pardavimo sąskaitoje faktūroje nurodyta suma. Mokėjimo paslauga siunčia informaciją, kad kredito kortelė buvo patvirtinta arba atmesta. Pardavimo pavedimi išrašius sąskaitą, sąskaitos faktūros suma nurašoma iš kredito kortelės.

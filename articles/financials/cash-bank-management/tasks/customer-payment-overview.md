@@ -3,23 +3,24 @@ title: "Kliento mokėjimų apžvalga"
 description: "Šis užduoties vadovas žingsnis po žingsnio apžvelgia įvairius klientų mokėjimų įvedimo būdus."
 author: kweekley
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="customer-payment-overview"></a>Kliento mokėjimų apžvalga
@@ -53,7 +54,7 @@ ms.lasthandoff: 10/26/2017
 15. Spustelėkite „Naujas“, kad sukurtumėte kitą mokėjimą. 
 16. Pažymėkite klientą, iš kurio gavote mokėjimą.
     * Jei nežinote kliento, bet žinote įvykdytą mokėjimo operaciją, galite įvesti arba pažymėti sąskaitą faktūrą rankiniu būdu lauke „Sąskaita faktūra“. Pasirinkus sąskaitą faktūrą klientas bus rodomas kaip numatytasis.  
-17. Spustelėkite Sudengti operacijas, norėdami pažymėti apmokėtas sąskaitas faktūras.
+17. Spustelėkite „Sudengti operacijas“ norėdami pažymėti apmokėtas sąskaitas faktūras.
     * Nereikia sudengti jokių sąskaitų faktūrų mokėjimo. Jei tai išankstinis mokėjimas ar jei nežinote, kokia sąskaita faktūra buvo apmokėta, galite įvesti ir registruoti mokėjimą. Mokėjimą sudengti pagal sąskaitą faktūrą bus galima vėliau.  
 18. Pažymėkite sąskaitas faktūras, kurios buvo apmokėtos pasirinktu mokėjimu. 
 19. Įveskite mokėjimo sumą, kuri bus sudengta pagal sąskaitą faktūrą.

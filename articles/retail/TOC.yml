@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Skambučių centro katalogai
       href: call-center-catalogs.md
-    - name: Skambučių centro katalogo kūrimas
-      href: create-call-center-catalogs.md
     - name: Pristatymo būdų ir mokesčių konfigūravimas
       href: configure-call-center-delivery.md
     - name: Įspėjimų dėl apgaulės nustatymas ir jų naudojimas
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: 'EKA operacijos, prisijungus ir neprisijungus prie interneto'
       href: pos-operations.md
+    - name: Tinkinto „Retail Modern POS“ įrenginių aktyvinimas
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
       href: demo-data.md
     - name: EKA produktų ir klientų ieška

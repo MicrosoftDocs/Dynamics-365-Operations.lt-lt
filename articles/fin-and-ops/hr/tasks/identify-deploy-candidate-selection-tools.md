@@ -3,18 +3,19 @@ title: "Nustatyti ir sukurti pretendentų atrankos priemones"
 description: "Rasti kvalifikuotų kandidatų telkinį laisvoms vietoms užimti gali būti sunku, ypač, kai pareigoms reikalingas unikalus įgūdžių rinkinys."
 author: kherr75
 manager: AnnBe
-ms.date: 02/16/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d

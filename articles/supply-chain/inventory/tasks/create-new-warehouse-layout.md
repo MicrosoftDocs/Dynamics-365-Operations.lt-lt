@@ -1,21 +1,22 @@
----
+--- 
 title: "Kurti naują sandėlio maketą"
 description: "Ši procedūra rodo, kaip nustatyti informaciją apie sandėlio vietas."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Perjunkite sekcijos Vietų pavadinimai išplėtimą.
     * Parinktys šiame skyriuje nurodo numatytąjį vietos pavadinimų formatą. Savo pavyzdyje įtrauksime perėjimo numerį, stelažo numerį ir lentynos numerį.  
 8. Parinktį Įtraukti perėjimą nustatykite į Taip.
-9. Parinktį Įtraukti stelažą nustatykite į Taip.
+9. Parinktį Įtraukti stelažą nustatykite į Taip. 
 10. Stelažo lauke Formatas surinkite reikšmę.
     * Pavyzdžiui: -##  
 11. Parinktį Įtraukti lentyną nustatykite į Taip.
@@ -74,4 +75,5 @@ ms.lasthandoff: 09/29/2017
 14. Spustelėkite Baigti.
 15. Uždarykite puslapį.
 16. Atnaujinkite puslapį.
+
 

@@ -55,11 +55,13 @@ Klientas gali turėti kelis skirtingo dažnumo šablonus.
 
 ## <a name="generate-the-recurring-invoices"></a>Pasikartojančių SF generavimas
 Puslapyje **Pasikartojančios SF**yra užduotis, kuri apdoroja pasikartojančių SF šablonus. Galite nurodyti SF datą ir šabloną, pagal kurį generuosite SF. Bus sugeneruotos SF ir kiekvienai apdorotai SF grupei priskirtas atskiras pasikartojimo ID numeris.
-Pasikartojančių laisvos formos SF registravimas
+
+<a name="post-recurring-free-text-invoices"></a>Pasikartojančių laisvos formos SF registravimas
 ---------------------------------
 
 Sugeneravus pasikartojančias SF, SF pasikartojimo ID rodomas registravimo užduotyje puslapyje **Pasikartojančios SF**. Galite peržiūrėti visas pasikartojimo ID SF spustelėdami saitą. Peržiūrėdami pasikartojimo ID SF galite panaikinti atskiras SF. Kliento pasikartojimo parametrai tame šablone bus nustatyti iš naujo, kad vėliau jį būtų galima vėl sugeneruoti. Galite registruoti vieną, kelias arba visas pasikartojimo ID SF. Jei įgalintos darbo eigos, turite spustelėti **Pateikti**, tada galėsite registruoti SF.
-Pasikartojančių laisvos formos SF spausdinimas
+
+<a name="print-recurring-free-text-invoices"></a>Pasikartojančių laisvos formos SF spausdinimas
 ----------------------------------
 
 Užregistravę pasikartojančias SF, galite spausdinti SF laisvos formos SF sąrašo puslapyje. Galite spausdinti SF, kurios yra pasirinktos, arba galite pasirinkti spausdinti SF diapazoną.
