@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>PVM susigrąžinimas modulyje Išlaidų valdymas
 
+[!include [banner](../includes/banner.md)]
+
 Norėdama susigrąžinti lėšas už atitinkamas pridėtinės vertės mokesčio (PVM) operacijas, įmonė ar organizacija turi nustatyti, rinkti, patikrinti ir pateikti tikslią informaciją. Šis procesas apima kelias užduotis ir, atsižvelgiant į jūsų įmonės dydį, gali apimti kelis darbuotojus ar vaidmenis.
 
 Norint susigrąžinti PVM naudojant modulį Išlaidų valdymas, reikia įvykdyti tolesnes būtinąsias sąlygas.

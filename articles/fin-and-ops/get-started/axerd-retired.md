@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>„AxErd“ puslapis buvo panaikintas
 
+[!include [banner](../includes/banner.md)]
+
 Deja, teko panaikinti AxErd tinklalapį, kuriame buvo pateiktos daugelio „Microsoft Dynamics AX 2012“ lentelių objektų ryšių diagramos (ERD). Mums pavyko užregistruoti projekto šaltinio kodą ir tinklalapio HTML failus „GitHub“ saugykloje: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML puslapiai yra saugykloje, jie pasiekiami šiuo adresu: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

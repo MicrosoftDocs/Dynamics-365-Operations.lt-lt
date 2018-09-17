@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Vietų vaidmenų ir šalių ryšių tipų įtraukimas 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Vietų vaidmenų įtraukimas
 
 Norėdami galite įtraukti naujų vietos vaidmenų adresą ir kontaktinę informaciją dviem būdais:
