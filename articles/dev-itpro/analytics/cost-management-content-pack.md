@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 **Išlaidų valdymo** „Microsoft Power BI“ turinys yra skirtas atsargų apskaitininkams arba organizacijoje dirbantiems asmenims, kurie yra atsakingi už atsargų būsenos arba nebaigtos gamybos (NG) statusą ar tiems, kurie šiuo statusu domisi, arba yra atsakingi už standartinės savikainos analizavimą ar tuo domisi.
 
-> [!Note]
+> [!NOTE]
 > **Išlaidų valdymo** „Power BI“ turinys, aprašytas šioje temoje, taikomas „Dynamics 365 for Finance and Operations“ 8.0.
 > 
 > „Power BI“ turinio paketas **Išlaidų valdymas** prieinamas svetainėje „AppSource“, yra netinkamas. Daugiau informacijos apie nebenaudojimo priežastis žr. temoje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Toliau pateiktose lentelėse pateikiama **išlaidų valdymo** „Power BI“ tur
 |                                         | 10 geriausių išteklių pagal nepageidaujamą gamybos nuokrypį  |
 |                                         | 10 geriausių išteklių pagal pageidaujamą gamybos nuokrypį    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
+## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
 „Microsoft Dynamics 365 for Finance and Operations“ duomenys naudojami ataskaitos puslapiams **išlaidų valdymo** „Power BI“ turinyje užpildyti. Šie duomenys pateikiami kaip agreguoto matavimo vienetai, paskirstyti objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Toliau pateikiamoje lentelėje nurodyti pagrindiniai apskaičiuoti „Power BI�
 
 | Mato vnt.                            | Skaičiavimas |
 |------------------------------------|-------------|
-| Pradinis balansas                  | Pradžios balansas = [pabaigos balansas] – [grynasis pokytis] |
-| Pradžios balanso kiekis             | Pradžios balanso kiekis = [pabaigos balanso kiekis] – [grynojo pokyčio kiekis] |
-| Pabaigos likutis                     | Galutinis balansas = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Pabaigos balanso kiekis                | Galutinio balansas kiekis = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Grynasis pokytis                         | Grynasis pokytis = SUM([AMOUNT]) |
-| Grynojo pokyčio kiekis                    | Grynojo pokyčio kiekis = SUM([QTY]) |
-| Atsargų apyvartos koeficientas pagal sumą | Atsargų apyvartos koeficientas pagal sumą = if(OR([vidutinis atsargų balansas] \<= 0, [parduotų arba sunaudotų atsargų problemos] \>= 0), 0, ABS([parduotų arba sunaudotų atsargų problemos])/[vidutinis atsargų balansas]) |
-| Vidutinis atsargų balansas          | Vidutinis atsargų balansas = (([galutinis balansas] + [pradžios balansas]) / 2) |
-| Turimų atsargų dienos             | Turimų atsargų dienos = 365 / CostObjectStatementEntries[atsargų apyvartos koeficientas pagal sumą] |
-| Atsargų tikslumas                 | Atsargų tikslumas pagal sumą = IF([pabaigos balansas] \<= 0, IF(OR([apskaičiuota atsargų suma] \<\> 0, [pabaigos balansas] \< 0), 0, 1), MAX(0, ([pabaigos balansas] – ABS([apskaičiuota atsargų suma]))/[pabaigos])) |
+| Pradinis balansas                  | Pradžios balansas = \[pabaigos balansas\] - \[grynasis pokytis\] |
+| Pradžios balanso kiekis             | Pradžios balanso kiekis = \[pabaigos balanso kiekis\] - \[grynojo pokyčio kiekis\] |
+| Pabaigos likutis                     | Galutinis balansas = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Pabaigos balanso kiekis                | Galutinio balansas kiekis = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Grynasis pokytis                         | Grynasis pokytis = SUM(\[AMOUNT\]) |
+| Grynojo pokyčio kiekis                    | Grynojo pokyčio kiekis = SUM(\[QTY\]) |
+| Atsargų apyvartos koeficientas pagal sumą | Atsargų apyvartos koeficientas pagal sumą = if(OR(\[vidutinis atsargų balansas\] \<= 0, \[parduotų arba sunaudotų atsargų problemos\] \>= 0), 0, ABS(\[parduotų arba sunaudotų atsargų problemos\])/\[vidutinis atsargų balansas\]) |
+| Vidutinis atsargų balansas          | Vidutinis atsargų balansas = ((\[galutinis balansas\]  +  \[pradžios balansas\]) / 2) |
+| Turimų atsargų dienos             | Turimų atsargų dienos = 365 / CostObjectStatementEntries\[atsargų apyvartos koeficientas pagal sumą\] |
+| Atsargų tikslumas                 | Atsargų tikslumas pagal sumą = IF(\[pabaigos balansas\] \<= 0, IF(OR(\[apskaičiuota atsargų suma\] \<\> 0, \[pabaigos balansas\] \< 0), 0, 1), MAX(0, (\[pabaigos balansas\] – ABS(\[apskaičiuota atsargų suma\]))/\[pabaigos\])) |
 
 Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnį detalumą ir gauti gilesnių analitinių įžvalgų.
 
 
-|                         Objektas                          |             Atributų pavyzdžiai              |
+| Objektas                                                  | Atributų pavyzdžiai                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Produktai                         | Produkto numeris, produkto pavadinimas, vienetas, prekių grupės |
-| Kategorijų hierarchijos (priskirtos išlaidų valdymo vaidmeniui) |       Kategorijų hierarchija, kategorijos lygis        |
-|                     Juridiniai subjektai                      |               Juridinių subjektų pavadinimai                |
-|                    Finansiniai kalendoriai                     |  Finansinis kalendorius, metai, ketvirtis, laikotarpis, mėnuo  |
-|                          Svetainė                           |        ID, pavadinimas, adresas, valstybė, šalis        |
-
+| Produktai                                                | Produkto numeris, produkto pavadinimas, vienetas, prekių grupės |
+| Kategorijų hierarchijos (priskirtos išlaidų valdymo vaidmeniui) | Kategorijų hierarchija, kategorijos lygis              |
+| Juridiniai subjektai                                          | Juridinių subjektų pavadinimai                              |
+| Finansiniai kalendoriai                                        | Finansinis kalendorius, metai, ketvirtis, laikotarpis, mėnuo   |
+| Svetainė                                                    | ID, pavadinimas, adresas, valstybė, šalis               |
 

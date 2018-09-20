@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ ms.lasthandoff: 12/18/2017
 
 „Power BI‟ turinys **Pirkimo išlaidų analizė** buvo sukurtas siekiant pirkimo vadovams ir vadovams, atsakingiems už biudžetus, padėti stebėti pirkimo išlaidas. Vadovai pirkimo išlaidas gali analizuoti tolesniais būdais.
 
--   Metinis pirkimas iki datos (pagal tiekėjų grupę ir atskirus tiekėjus, įsigijimo kategoriją ir atskirus produktus ir tiekėjo vietą)
--   Pirkimo kiekvienais metais pokytis (pagal tiekėjų grupę ir įsigijimo kategoriją)
+- Metinis pirkimas iki datos (pagal tiekėjų grupę ir atskirus tiekėjus, įsigijimo kategoriją ir atskirus produktus ir tiekėjo vietą)
+- Pirkimo kiekvienais metais pokytis (pagal tiekėjų grupę ir įsigijimo kategoriją)
 
 Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas visos įmonės pirkimo skaičių rodinys, tiek pirkimo išlaidų analizė pagal tiekėją ir produktą. Ataskaitose vaizduojami laikui bėgant atsiradę pirkimo išlaidų pokyčiai. Todėl ataskaitas galima naudoti norint vadovus įspėti apie teigiamas ir neigiamas atskirų tiekėjų ir produktų išlaidų tendencijas. Be to, diagramose rodomos skirtingų įsigijimo kategorijų ir tiekėjų grupių pirkimo išlaidos. Todėl naudodami šias diagramas kategorijų ir regionų vadovai gali lengviau nustatyti išlaidų elgesio pokyčius.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinys **Pirkimo ir išlaidų analizė** rodomas puslapyje **Pirkimo ir išlaidų analizė** (**Paraiškos** > **Užklausos ir ataskaitos** > **Pirkimo našumo analizė** > **Pirkimo ir išlaidų analizė**). 
+„Power BI“ turinys **Pirkimo ir išlaidų analizė** rodomas puslapyje **Pirkimo ir išlaidų analizė** (**Paraiškos** \> **Užklausos ir ataskaitos** \> **Pirkimo našumo analizė** \> **Pirkimo ir išlaidų analizė**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 „Power BI‟ turinio pakete **Pirkimo išlaidų analizė** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateikiamoje lentelėje apžvelgiamos vizualizacijos.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Ataskaitų puslapis</th>
 <th>Diagramos</th>
 <th>Išklotinės</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Pirkimas pagal tiekėją</td>
 <td><ul>
 <li>10 svarbiausių tiekėjų pagal pirkimą (suspaustos juostos diagrama)</li>
@@ -76,7 +71,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 <li>Bendras # aktyvių tiekėjų skaičius</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkimas pagal produktą</td>
 <td><ul>
 <li>Pirkti pagal įsigijimo kategoriją / produkto pavadinimą (stulpelinė diagrama)</li>
@@ -89,7 +84,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 <li>Produktų, sudarančių 80 % pirkimo, skaičius</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Pirkimas pagal laikotarpį*</td>
 <td><ul>
 <li>Pirkimas pagal mėnesį / dieną (stulpelinė diagrama)</li>
@@ -102,7 +97,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 <li>YOY pirkimo augimas %</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkimas pagal tiekėjo vietą</td>
 <td><ul>
 <li>Pirkimas pagal miestą</li>
@@ -111,7 +106,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Pirkimo išlaidų analizė pagal laiką</td>
 <td><ul>
 <li>Pirkimas pagal esamų metų mėnesį / dieną (linijinė diagrama)</li>
@@ -119,7 +114,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Pirkimo išlaidų analizė pagal tiekėją</td>
 <td><ul>
 <li>10 geriausių tiekėjo pirkimo % kiekvienam pirkimui (piltuvėlis)</li>
@@ -136,7 +131,7 @@ Turinyje naudojami pirkimo operacijų duomenys ir pateikiamas tiek sujungtas vis
 ## <a name="data-model-and-entities"></a>Duomenų modelis ir objektai
 Tolesniais duomenimis pildomi „Power BI‟ turinio **Pirkimo išlaidų analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
-Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pirkimo kube, subrinkinys. Norint perkelti kubo agreguotus matavimo vienetus į objekto parduotuvę, reikia padaryti juos įdiegiamus. Norėdami gauti daugiau informacijos, žr. procedūrą, kaip agreguotus matavimo vienetus paruošti objektų saugykloje ([„Power BI“ integravimo su objektų saugykla apžvalga](power-bi-integration-entity-store.md)). Tolesnius pagrindinius agreguotus matavimo vienetus galima gauti tiesiai iš objekto Sąskaitos faktūros eilutės ir jie naudojami kaip turinio pagrindas.
+Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pirkimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Norėdami gauti daugiau informacijos, žr. procedūrą, kaip agreguotus matavimo vienetus paruošti objektų saugykloje ([„Power BI“ integravimo su objektų saugykla apžvalga](power-bi-integration-entity-store.md)). Tolesnius pagrindinius agreguotus matavimo vienetus galima gauti tiesiai iš objekto Sąskaitos faktūros eilutės ir jie naudojami kaip turinio pagrindas.
 
 | Objektas        | Pagrindiniai agreguoti matavimo vienetai | Duomenų šaltinis                                 | Laukas              | aprašymas                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|

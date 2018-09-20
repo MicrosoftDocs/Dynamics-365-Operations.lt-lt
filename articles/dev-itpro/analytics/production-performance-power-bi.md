@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ Naudodami šį „Power BI‟ turinį taip pat galite analizuoti gamybos nuokryp
 „Power BI‟ turinyje **Gamybos našumas** yra duomenų, kilusių iš gamybos užsakymų ir paketinių užsakymų. Ataskaitose nėra duomenų, susijusių su „kanban‟ gamyba.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinys **Gamybos našumas** rodomas puslapyje **Gamybos našumas** (**Gamybos kontrolė** > **Užklausos ir ataskaitos** > **Gamybos našumo analizė** > **Gamybos našumas**). 
+„Power BI“ turinys **Gamybos našumas** rodomas puslapyje **Gamybos našumas** (**Gamybos kontrolė** \> **Užklausos ir ataskaitos** \> **Gamybos našumo analizė** \> **Gamybos našumas**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 
@@ -51,8 +51,8 @@ Naudodami šį „Power BI‟ turinį taip pat galite analizuoti gamybos nuokryp
 
 Toliau pateikiamoje lentelėje apžvelgiamos įtrauktos vizualizacijos.
 
-| Ataskaitų puslapis                                | Diagramos                                               | Išklotinės |
-|--------------------------------------------|------------------------------------------------------|-------|
+| Ataskaitų puslapis                                | Diagramos | Išklotinės |
+|--------------------------------------------|--------|-------|
 | Gamybos našumas                     | <ul><li>Gamybos atvejų skaičius pagal datą</li><li>Gamybos atvejų skaičius pagal produktą ir prekių grupę</li><li>Suplanuotų gamybos atvejų skaičius pagal datą</li><li>Apatiniai 10 produktų pagal įvykdymą laiku ir visa apimtimi</li></ul> | <ul><li>Iš viso užsakymų</li><li>Įvykdyta laiku ir visa apimtimi (%)</li><li>Nebaigta (%)</li><li>Anksčiau termino (%)</li><li>Vėluoja (%)</li></ul> |
 | Defektai pagal produktą                         | <ul><li>Defektų dažnis (ppm) pagal datą</li><li>Defektų dažnis (ppm) pagal produktą ir prekių grupę</li><li>Pagamintas kiekis pagal datą</li><li>Viršutiniai 10 produktų pagal defektų dažnį</li></ul> | <ul><li>Defektų dažnis (ppm)</li><li>Defektų kiekis</li><li>Bendras kiekis</li></ul> |
 | Defektų tendencija pagal produktą                   | Defektų dažnis (ppm) pagal pagamintą kiekį | Defektų dažnis (ppm) |
@@ -88,35 +88,35 @@ Tolesnėje lentelėje parodyti pagrindiniai agreguoti matavimo vienetai, naudoja
 
 | Mato vnt.                  | Kaip matas apskaičiuojamas |
 |--------------------------|-------------------------------|
-| Gamybos nuokrypis, %   | SUM('Production variance'[Production variance]) / SUM('Production variance'[Estimated cost]) |
+| Gamybos nuokrypis, %   | SUM('Production variance'\[Production variance\]) / SUM('Production variance'\[Estimated cost\]) |
 | Visi suplanuoti užsakymai       | COUNTROWS('Planned production order') |
-| Anksčiau                    | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \< 'Planned production order'[Requirement date])) |
-| Vėliau                     | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] \> 'Planned production order'[Requirement date])) |
-| Laiku                  | COUNTROWS(FILTER('Planned production order', 'Planned production order'[Scheduled end date] = 'Planned production order'[Requirement date])) |
-| Laiku (%)                | IF ( 'Planned production order'[On-time] \<\> 0, 'Planned production order'[On-time], IF ('Planned production order'[All planned orders] \<\> 0, 0, BLANK()) ) / 'Planned production order'[All planned orders] |
-| Atlikta                | COUNTROWS(FILTER('Production order', 'Production order'[Is RAF'ed] = TRUE)) |
-| Defektų dažnis (ppm)     | IF( 'Production order'[Total quantity] = 0, BLANK(), (SUM('Production order'[Defective quantity]) / 'Production order'[Total quantity]) \* 1000000) |
-| Vėluojančios gamybos koeficientas  | 'Production order'[Late \#] / 'Production order'[Completed] |
-| Anksčiau termino ir visa apimtimi          | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is early] = TRUE)) |
-| Anksčiau termino \#                 | COUNTROWS(FILTER('Production order', 'Production order'[Is early] = TRUE)) |
-| Anksčiau termino (%)                  | IFERROR( IF('Production order'[Early \#] \<\> 0, 'Production order'[Early \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Nebaigta               | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = FALSE && 'Production order'[Is RAF'ed] = TRUE)) |
-| Nebaigta (%)             | IFERROR( IF('Production order'[Incomplete] \<\> 0, 'Production order'[Incomplete], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Vėluoja               | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Delayed value] = 1 |
-| Anksčiau termino                 | 'Production order'[Is RAF'ed] = TRUE && 'Production order'[Days delayed] \< 0 |
-| Visa apimtimi               | 'Production order'[Good quantity] \>= 'Production order'[Scheduled quantity] |
-| Paskelbta kaip baigta                | 'Production order'[Production status value] = 5 \|\| 'Production order'[Production status value] = 7 |
-| Vėluoja ir visa apimtimi           | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = TRUE)) |
-| Vėluoja \#                  | COUNTROWS(FILTER('Production order', 'Production order'[Is delayed] = TRUE)) |
-| Vėluoja (%)                   | IFERROR( IF('Production order'[Late \#] \<\> 0, 'Production order'[Late \#], IF('Production order'[Total orders] = 0, BLANK(), 0)) / 'Production order'[Total orders], BLANK()) |
-| Įvykdyta laiku ir visa apimtimi        | COUNTROWS(FILTER('Production order', 'Production order'[Is in full] = TRUE && 'Production order'[Is delayed] = FALSE && 'Production order'[Is early] = FALSE)) |
-| Įvykdyta laiku ir visa apimtimi (%)      | IFERROR( IF('Production order'[On-time & in full] \<\> 0, 'Production order'[On-time & in full], IF('Production order'[Completed] = 0, BLANK(), 0)) / 'Production order'[Completed], BLANK()) |
+| Anksčiau                    | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] \< 'Planned production order'\[Requirement date\])) |
+| Vėluoja                     | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] \> 'Planned production order'\[Requirement date\])) |
+| Laiku                  | COUNTROWS(FILTER('Planned production order', 'Planned production order'\[Scheduled end date\] = 'Planned production order'\[Requirement date\])) |
+| Laiku (%)                | IF ( 'Planned production order'\[On-time\] \<\> 0, 'Planned production order'\[On-time\], IF ('Planned production order'\[All planned orders\] \<\> 0, 0, BLANK()) ) / 'Planned production order'\[All planned orders\] |
+| Atlikta                | COUNTROWS(FILTER('Production order', 'Production order'\[Is RAF'ed\] = TRUE)) |
+| Defektų dažnis (ppm)     | IF( 'Production order'\[Total quantity\] = 0, BLANK(), (SUM('Production order'\[Defective quantity\]) / 'Production order'\[Total quantity\]) \* 1000000) |
+| Vėluojančios gamybos koeficientas  | 'Production order'\[Late \#\] / 'Production order'\[Completed\] |
+| Anksčiau termino ir visa apimtimi          | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is early\] = TRUE)) |
+| Anksčiau termino \#                 | COUNTROWS(FILTER('Production order', 'Production order'\[Is early\] = TRUE)) |
+| Anksčiau termino (%)                  | IFERROR( IF('Production order'\[Early \#\] \<\> 0, 'Production order'\[Early \#\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| Nebaigta               | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = FALSE && 'Production order'\[Is RAF'ed\] = TRUE)) |
+| Nebaigta (%)             | IFERROR( IF('Production order'\[Incomplete\] \<\> 0, 'Production order'\[Incomplete\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| Vėluoja               | 'Production order'\[Is RAF'ed\] = TRUE && 'Production order'\[Delayed value\] = 1 |
+| Anksčiau termino                 | 'Production order'\[Is RAF'ed\] = TRUE && 'Production order'\[Days delayed\] \< 0 |
+| Visa apimtimi               | 'Production order'\[Good quantity\] \>= 'Production order'\[Scheduled quantity\] |
+| Paskelbta kaip baigta                | 'Production order'\[Production status value\] = 5 \|\| 'Production order'\[Production status value\] = 7 |
+| Vėluoja ir visa apimtimi           | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is delayed\] = TRUE)) |
+| Vėluoja \#                  | COUNTROWS(FILTER('Production order', 'Production order'\[Is delayed\] = TRUE)) |
+| Vėluoja (%)                   | IFERROR( IF('Production order'\[Late \#\] \<\> 0, 'Production order'\[Late \#\], IF('Production order'\[Total orders\] = 0, BLANK(), 0)) / 'Production order'\[Total orders\], BLANK()) |
+| Įvykdyta laiku ir visa apimtimi        | COUNTROWS(FILTER('Production order', 'Production order'\[Is in full\] = TRUE && 'Production order'\[Is delayed\] = FALSE && 'Production order'\[Is early\] = FALSE)) |
+| Įvykdyta laiku ir visa apimtimi (%)      | IFERROR( IF('Production order'\[On-time & in full\] \<\> 0, 'Production order'\[On-time & in full\], IF('Production order'\[Completed\] = 0, BLANK(), 0)) / 'Production order'\[Completed\], BLANK()) |
 | Iš viso užsakymų             | COUNTROWS('Production order') |
-| Bendras kiekis           | SUM('Production order'[Good quantity]) + SUM('Production order'[Defective quantity]) |
-| Defektų dažnis (ppm)        | IF( 'Route transactions'[Processed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Processed quantity]) \* 1000000) |
-| Defektų koeficientas (mišr.) (ppm) | IF( 'Route transactions'[Total mixed quantity] = 0, BLANK(), (SUM('Route transactions'[Defective quantity]) / 'Route transactions'[Total mixed quantity]) \* 1000000) |
-| Apdorotas kiekis       | SUM('Route transactions'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
-| Bendrasis mišrus kiekis     | SUM('Production order'[Good quantity]) + SUM('Route transactions'[Defective quantity]) |
+| Bendras kiekis           | SUM('Production order'\[Good quantity\]) + SUM('Production order'\[Defective quantity\]) |
+| Defektų dažnis (ppm)        | IF( 'Route transactions'\[Processed quantity\] = 0, BLANK(), (SUM('Route transactions'\[Defective quantity\]) / 'Route transactions'\[Processed quantity\]) \* 1000000) |
+| Defektų koeficientas (mišr.) (ppm) | IF( 'Route transactions'\[Total mixed quantity\] = 0, BLANK(), (SUM('Route transactions'\[Defective quantity\]) / 'Route transactions'\[Total mixed quantity\]) \* 1000000) |
+| Apdorotas kiekis       | SUM('Route transactions'\[Good quantity\]) + SUM('Route transactions'\[Defective quantity\]) |
+| Bendrasis mišrus kiekis     | SUM('Production order'\[Good quantity\]) + SUM('Route transactions'\[Defective quantity\]) |
 
 Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnio detalumo ir gauti gilesnių analitinių įžvalgų.
 
@@ -130,6 +130,4 @@ Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai
 | Objektai                  | ID ir pavadinimas                                                   |
 | Ištekliai                 | Ištekliaus ID, ištekliaus pavadinimas, ištekliaus tipas ir išteklių grupė |
 | Produktai                  | Produkto numeris, produkto pavadinimas, prekės ID ir prekių grupė         |
-
-
 

@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 15d25274b02b0e9423fd4670b82c2e398316a1fa
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -31,26 +31,31 @@ ms.lasthandoff: 08/09/2018
 
 Šioje temoje paaiškinta, kaip Kaštų apskaitoje galite išplatinti prieigos lygio saugą į eilutės lygio saugą in „Microsoft Power BI“. Ši funkcija padeda užtikrinti, kad vartotojai matys tik „Power BI“ duomenis, kuriems matyti prieiga yra suteikta.
 
-<a name="overview"></a>Apžvalga
---------
+## <a name="overview"></a>Apžvalga
 
 **Kaštų apskaitos analizė** „Microsoft Power BI“ turinyje naudojama „Power BI“ eilutės lygio sauga vartotojo prieigai apriboti. Sauga pagrįsta prieigos lygio organizacijos hierarchija, kuri nustatyta Kaštų apskaitos parametruose. Išsamesnės informacijos apie **Kaštų apskaitos analizė** „Power BI“ turinį žr. [Kaštų apskaitos analizės „Power BI“ turinys](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Sąranka
-Norint paskirstyti prieigos lygio saugą „Power BI“, „Power BI“ turinio savininkas turi atlikti šiuos veiksmus. **Pastaba:** **Kaštų apskaitos analizė** „Power BI“ turinį publikavęs vartotojas automatiškai tampa savininku. Tik savininkas gali nustatyti „Power BI“ saugą. Be to, kol savininkas neįtraukia kitų vartotojų į PowerBI.com, niekas, išskyrus savininką, negali matyti jokių duomenų **Kaštų apskaitos analizė** „Power BI“ turinyje.
+Norint paskirstyti prieigos lygio saugą „Power BI“, „Power BI“ turinio savininkas turi atlikti šiuos veiksmus.
 
-1.  Publikuokite apibrėžimo failą į „Power BI“.
-2.  Prisijunkite prie PowerBI.com.
-3.  Raskite **Kaštų apskaitos analizė** „Power BI“ turinio duomenų rinkinį.
-4.  Atidarykite saugos puslapį. 
+> [!NOTE]
+> „Power BI“ turinį **Kaštų apskaitos analizė** publikavęs vartotojas automatiškai tampa savininku. Tik savininkas gali nustatyti „Power BI“ saugą. Be to, kol savininkas neįtraukia kitų vartotojų į PowerBI.com, niekas, išskyrus savininką, negali matyti jokių duomenų **Kaštų apskaitos analizė** „Power BI“ turinyje.
+
+1. Publikuokite apibrėžimo failą į „Power BI“.
+2. Prisijunkite prie PowerBI.com.
+3. Raskite **Kaštų apskaitos analizė** „Power BI“ turinio duomenų rinkinį.
+4. Atidarykite saugos puslapį.
 
     ![Saugos puslapio atidarymas](./media/CA-picture-1.png)
 
-5.  **Savikainos objekto valdiklis** vaidmuo jau sukurtas. Įtraukite kitų narių, kurie yra Kaštų apskaitos prieigos lygio organizacijos hierarchijos dalis. 
+5. **Savikainos objekto valdiklis** vaidmuo jau sukurtas. Įtraukite kitų narių, kurie yra Kaštų apskaitos prieigos lygio organizacijos hierarchijos dalis.
 
     ![Narių įtraukimas](./media/CA-picture-2.png)
 
-Į **Savikainos objekto valdiklis** vaidmenį įtraukti vartotojai, matys tik tuos duomenis, kuriuos jiems leidžiama matyti, pagal apibrėžimą Kaštų apskaitos prieigos lygio organizacijos hierarchijoje. **Pastaba:** eilutės lygio sauga taikoma išklotinėms ir ataskaitoms sprendime „Microsoft Dynamics 365 for Finance and Operations“, kurios įdėtos iš „Power BI“.
+Į **Savikainos objekto valdiklis** vaidmenį įtraukti vartotojai, matys tik tuos duomenis, kuriuos jiems leidžiama matyti, pagal apibrėžimą Kaštų apskaitos prieigos lygio organizacijos hierarchijoje.
+
+> [!NOTE]
+> Eilutės lygio sauga taikoma išklotinėms ir ataskaitoms sprendime „Microsoft Dynamics 365 for Finance and Operations“, kurios įdėtos iš „Power BI“.
 
 ## <a name="updating-security"></a>Saugos atnaujinimas
 Jei atliekama Kaštų apskaitos prieigos lygio saugos atnaujinimų, o jūs norite, kad „Power BI“ atspindėtų šiuos atnaujinimus, turime atnaujinti objekto parduotuvės **Kaštų apskaitos analizė** „Power BI“ turinį. Baigę naujinti objektų saugyklą iš „Finance and Operations“, turite atnaujinti PowerBI.com artefaktus. Išsamesnės informacijos apie tai, kaip atnaujinti objekto parduotuvės saugą, žr. [Objekto parduotuvės atnaujinimas](power-bi-integration-entity-store.md#update-entity-store). **Kaštų apskaitos analizė** „Power BI“ turinio savininkas taip pat turi atnaujinti objekto parduotuvę, jei naujiems vartotojams suteikiama prieiga prie organizacijos hierarchijos. Be to, savininkas turi įtraukti naujus vartotojus į **Savikainos objekto valdiklis** vaidmenį PowerBI.com, kad jiems būtų taikoma eilutės lygio sauga.
@@ -60,7 +65,4 @@ Laikome, kad jūsų organizacija nori apriboti duomenų prieigą. Jei dėl tam t
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Norėdami daugiau sužinoti apie „Power BI“ eilutės lygio saugą žr. [Saugos valdymas savo modelyje „Power BI“](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-
 

@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Elektroninių ataskaitų (ER) formato konfigūracijos paprastai turi bent vieną
 ## <a name="availability-and-general-prerequisites"></a>Prieinamumas ir bendrieji reikalavimai
 ER paskirties vietų funkcijų negalima naudoti programoje „Microsoft Dynamics AX“ 7.0 (2016 m. vasario mėn. leidimas). Todėl turite įdiegti „Microsoft Dynamics 365 for Operations“ versiją 1611 (2016 m. lapkričio mėn. leidimą), kad galėtumėte naudoti visas šioje temoje aprašytas funkcijas. Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačiau nepamirškite, šie alternatyvūs komponentai suteikia labiau ribotą ER paskirties vietos patirtį.
 
--   „Microsoft Dynamics AX“ 7.0.1 programos versija (2016 m. gegužės mėn.)
--   ER paskirties vietų valdymo [programos karštosios pataisos](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+- „Microsoft Dynamics AX“ 7.0.1 programos versija (2016 m. gegužės mėn.)
+- ER paskirties vietų valdymo [programos karštosios pataisos](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Paskirties vietas galite nustatyti tik importuotoms ER konfigūracijoms ir tik tokiems ER konfigūracijų formatams, kurie pateikti puslapyje **Elektroninių ataskaitų konfigūracijos**.
 
 ## <a name="overview"></a>Peržiūra
 ER paskirties valdymo funkciją galima rasti pasirinkus **Organizacijos administravimas** &gt; **Elektroninės ataskaitos**. Čia galite perrašyti numatytuosius konfigūracijos parametrus. Importuotos konfigūracijos čia bus rodomos tik tada, kai spustelėsite **Nauja** ir tada lauke **Nuoroda** pasirinksite, kuriai konfigūracijai norite kurti paskirties vietų parametrus.
 
-[![Konfigūracijos pasirinkimas lauke Nuoroda](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Konfigūracijos pasirinkimas lauke Nuoroda](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Sukūrę nuorodą, galite sukurti failo paskirties vietą kiekvienam aplankui arba failui. 
+Sukūrę nuorodą, galite sukurti failo paskirties vietą kiekvienam aplankui arba failui.
 
 [![Failo paskirties vietos kūrimas](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > Kiekvienam to paties formato išvesties komponentui galite sukurti vieną failų paskirties vietą, pvz., aplanką ar failą, pasirenkamą lauke **Failo pavadinimas**. Tada galite įjungti ir išjungti atskiras failų paskirties vietas dialogo lange **Paskirties vietų parametrai**. Mygtukas **Parametrai** yra naudojamas siekiant valdyti visas pasirinktos failo paskirties vietos paskirties vietas. Dialogo lange **Paskirties vietos parametrai** galite atskirai valdyti kiekvieną paskirties vietą, nustatydami jos parinktį **Įgalinta**.
 
 [![Dialogo langas Paskirties vietos parametrai](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ Spustelėjus lauko **Kam** arba **Kopija** parinktį **Redaguoti**, rodomas dial
 
 Jei pasirinksite tipą **Spausdinimo valdymo el. paštas**, galite įvesti fiksuotus el. pašto adresus lauke **Kam**. Norėdami naudoti nefiksuotus el. pašto adresus, turite pasirinkti failo paskirties vietos el. pašto šaltinio tipą. Palaikomos šios vertės: **Klientas**, **Tiekėjas**, **Potencialus klientas**, **Kontaktas**, **Konkurentas**, **Darbuotojas**, **Pretendentas**, **Galimas tiekėjas** ir **Neleidžiamas tiekėjas**. Pasirinkę el. pašto šaltinio tipą, naudokite šalia lauko **El. pašto šaltinio sąskaita** esantį mygtuką, kad atidarytumėte formą **Formulės dizaino įrankis**. Šią formą galite naudoti norėdami pridėti formulę, kuri nurodo pasirinktos šalies sąskaitą į el. pašto paskirties vietą.
 
-[![Spausdinimo valdymo el. pašto tipo konfigūravimas](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Spausdinimo valdymo el. pašto tipo konfigūravimas](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Atkreipkite dėmesį, kad formulės būdingos ER konfigūracijai. Srityje **Formulė** įveskite konkretaus dokumento nuorodą į kliento arba tiekėjo šalies tipą. Užuot rinkę tekstą, galite surasti duomenų šaltinio mazgą, atitinkantį kliento ar tiekėjo sąskaitą ir tada spustelėti **Įtraukti duomenų šaltinį**, kad atnaujintumėte formulę. Pavyzdys: jei naudojate ISO 20022 kredito perkėlimo konfigūraciją, tiekėjo sąskaitą atitinkantis mazgas yra **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Priešingu atveju įveskite bet kokią eilutės reikšmę, pvz., **DE-001**, kad įrašytumėte formulę.
 
@@ -87,23 +87,27 @@ Dialogo lange **Siųsti el. laišką** spustelėkite šalia lauko **El. pašto �
 
 Naudokite šį el. pašto tipą, jei jūsų naudojamos konfigūracijos duomenų šaltiniuose yra mazgas, nurodantis el. pašto adresą. Galite naudoti duomenų šaltinius ir funkcijas formulės dizaino įrankyje, kad gautumėte teisingai suformatuotą el. pašto adresą.
 
-[![El. pašto paskirties vietos el. pašto adreso duomenų šaltinio priskyrimas](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![El. pašto paskirties vietos el. pašto adreso duomenų šaltinio priskyrimas](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Pastaba.** Turi būti sukonfigūruotas ir pasiekiamas paprastųjų pašto siuntų protokolo (SMTP) serveris. SMTP serverį galite nurodyti programoje „Finance and Operations“, pasirinkdami **Sistemos administravimas** &gt; **Sąranka** &gt; **El. paštas** &gt; **El. pašto parametrai**.
+> [!NOTE]
+> Turi būti sukonfigūruotas ir pasiekiamas paprastųjų pašto siuntų protokolo (SMTP) serveris. SMTP serverį galite nurodyti programoje „Finance and Operations“, pasirinkdami **Sistemos administravimas** &gt; **Sąranka** &gt; **El. paštas** &gt; **El. pašto parametrai**.
 
 ### <a name="archive-destination"></a>Archyvo paskirties vieta
 
 Šią parinktį galite naudoti, norėdami išvestį siųsti į „Microsoft SharePoint“ aplanką arba Microsoft Azure“ saugyklą. Nustatykite parinktį **Įgalinta** į **Taip**, norėdami išvestį siųsti į paskirties vietą, kuri nustatoma pagal pasirinkto dokumento tipą. Pasirinkti galima tik tų tipų dokumentus, kurių grupė nustatyta kaip **Failas**. Dokumentų tipus galite nustatyti pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų tipai**. ER paskirties vietų konfigūracija yra tokia pati, kaip dokumentų valdymo sistemos konfigūracija.
 
-[![Puslapis Dokumentų tipai](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Puslapis Dokumentų tipai](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-Vieta nurodo, kur failas įrašomas. Kai paskirties vieta **Archyvas** suaktyvinta, konfigūracijos vykdymo rezultatus galima įrašyti užduoties archyve. Rezultatus galite peržiūrėti pasirinkdami **Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Suarchyvuotos elektroninių ataskaitų užduotys**. **Pastaba.** Norėdami pasirinkti užduočių archyvo dokumento tipą programoje „Finance and Operations“ pasirinkite **Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis** &gt; **Elektroninių ataskaitų parametrai**.
+Vieta nurodo, kur failas įrašomas. Kai paskirties vieta **Archyvas** suaktyvinta, konfigūracijos vykdymo rezultatus galima įrašyti užduoties archyve. Rezultatus galite peržiūrėti pasirinkdami **Organizacijos administravimas** &gt; **Elektroninės ataskaitos** &gt; **Suarchyvuotos elektroninių ataskaitų užduotys**.
+
+> [!NOTE]
+> Norėdami pasirinkti užduočių archyvo dokumento tipą programoje „Finance and Operations“ pasirinkite **Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis** &gt; **Elektroninių ataskaitų parametrai**.
 
 #### <a name="sharepoint"></a>„SharePoint“
 
-Failą galite įrašyti į nustatytą „SharePoint“ aplanką. Numatytąjį „SharePoint“ serverį galite nustatyti skirtuke **„SharePoint“** pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų valdymo parametrai**. Kai „SharePoint“ aplankas sukonfigūruotas, galite jį nurodyti kaip aplanką, kuriame bus įrašyta to dokumentų tipo ER išvestis. 
+Failą galite įrašyti į nustatytą „SharePoint“ aplanką. Numatytąjį „SharePoint“ serverį galite nustatyti skirtuke **„SharePoint“** pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų valdymo parametrai**. Kai „SharePoint“ aplankas sukonfigūruotas, galite jį nurodyti kaip aplanką, kuriame bus įrašyta to dokumentų tipo ER išvestis.
 
-[![„SharePoint“ aplanko pasirinkimas](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![„SharePoint“ aplanko pasirinkimas](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>„Azure“ saugykla
 
@@ -119,7 +123,10 @@ Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūr
 
 ### <a name="power-bi-destination"></a>„Power BI“ paskirties vieta
 
-Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Patarimas.** Norėdami perrašyti numatytuosius parametrus (t. y. konfigūracijos dialogo lango rodymą), galite sukurti pagrindinio išvesties komponento paskirties vietos nuorodą ir failo paskirties vietą, o tada išaktyvinti visas paskirties vietas.
+Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance and Operations“](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+
+> [!TIP]
+> Norėdami perrašyti numatytuosius parametrus (t. y. konfigūracijos dialogo lango rodymą), galite sukurti pagrindinio išvesties komponento paskirties vietos nuorodą ir failo paskirties vietą, o tada išaktyvinti visas paskirties vietas.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 Naudojamos dviejų tipų ER paskirties vietoms skirtos teisės ir pareigos. Vienas tipas valdo galimybę išsaugoti sukonfigūruotas bendras juridinio subjekto paskirties vietas (t. y. valdo prieigą prie puslapio **Elektroninių ataskaitų paskirties vietos**). Kitas tipas valdo galimybę programos vartotojui vykdymo metu perrašyti paskirties vietos parametrus, kuriuos sukonfigūravo ER kūrėjas arba ER funkcijų konsultantas.
@@ -158,7 +165,4 @@ Jūsų norimas formatas turi būti įjungtas ER konfigūracijose. Jei turite sav
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-
-
-
 

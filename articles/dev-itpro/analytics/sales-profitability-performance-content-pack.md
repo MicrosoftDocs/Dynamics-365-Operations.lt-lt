@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ ms.lasthandoff: 12/18/2017
 
 „Power BI‟ turinys **Pardavimo ir pelningumo našumas** buvo sukurtas tam, kad pardavimo vadovai galėtų stebėti pagrindines pardavimo metrikas – įplaukas, bendrąjį pelną ir pelno maržas. Jame naudojami pardavimo operacijų duomenys ir pateikiamas tiek sujungtas visos įmonės pardavimo skaičių rodinys, tiek klientų ir produktų pardavimo našumo analizė.
 
-Ataskaitose perteikiama, kaip laikui bėgant kinta įplaukų ir pelno augimas. Todėl ataskaitas galima naudoti norint vadovus įspėti apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Be to, diagramomis vienų su kitais lyginamos skirtingų produktų kategorijų ir klientų grupių įplaukos bei pelningumas. Todėl kategorijų ir regionų vadovai gali nustatyti atsiliekančiuosius ir pirmaujančiuosius. Galiausiai išsamioje ataskaitoje atskiro kliento įplaukos lyginamos su pelno marža. Todėl klientų vadovai turi duomenimis pagrįstas pagrindą, kurį naudodami gali savo pardavimo ir rinkodaros pastangas derinti pagal kiekvieno kliento profilį. 
+Ataskaitose perteikiama, kaip laikui bėgant kinta įplaukų ir pelno augimas. Todėl ataskaitas galima naudoti norint vadovus įspėti apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Be to, diagramomis vienų su kitais lyginamos skirtingų produktų kategorijų ir klientų grupių įplaukos bei pelningumas. Todėl kategorijų ir regionų vadovai gali nustatyti atsiliekančiuosius ir pirmaujančiuosius. Galiausiai išsamioje ataskaitoje atskiro kliento įplaukos lyginamos su pelno marža. Todėl klientų vadovai turi duomenimis pagrįstas pagrindą, kurį naudodami gali savo pardavimo ir rinkodaros pastangas derinti pagal kiekvieno kliento profilį.
 
 Naudodami turinį **Pardavimo ir pelningumo našumas** pardavimo vadovai pardavimo našumą gali analizuoti tolesniais būdais.
 
--   Įplaukos, metinės iki datos (pagal klientų grupę ir atskirus klientus, pardavimo kategorijas, atskirus produktus ir regionus)
--   Įplaukų pasikeitimas, metams bėgant (pagal klientų regionus ir pardavimo kategorijas)
+- Įplaukos, metinės iki datos (pagal klientų grupę ir atskirus klientus, pardavimo kategorijas, atskirus produktus ir regionus)
+- Įplaukų pasikeitimas, metams bėgant (pagal klientų regionus ir pardavimo kategorijas)
 
 Pelningumą galima analizuoti tolesniais būdais.
 
--   bruto pelną ir pelno maržą (pagal klientų grupes ir produkto pardavimo kategorijas);
--   bruto pelno pokytį, metams bėgant;
--   kliento pelningumą (pagal įplaukas, lyginant su marža).
+- bruto pelną ir pelno maržą (pagal klientų grupes ir produkto pardavimo kategorijas);
+- bruto pelno pokytį, metams bėgant;
+- kliento pelningumą (pagal įplaukas, lyginant su marža).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinys **Pardavimo ir pelningumo efektyvumas** rodomas puslapyje **Pardavimo ir pelningumo efektyvumas** (**Pardavimas ir rinkodara** > **Užklausos ir ataskaitos** > **Pardavimo efektyvumo analizė** > **Pardavimo ir pelningumo efektyvumas**). 
+„Power BI“ turinys **Pardavimo ir pelningumo efektyvumas** rodomas puslapyje **Pardavimo ir pelningumo efektyvumas** (**Pardavimas ir rinkodara** \> **Užklausos ir ataskaitos** \> **Pardavimo efektyvumo analizė** \> **Pardavimo ir pelningumo efektyvumas**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 „Power BI‟ turinio pakete **Pardavimo ir pelningumo našumas** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio vizualizacijų apžvalga.
@@ -77,19 +77,18 @@ Pelningumą galima analizuoti tolesniais būdais.
 
 \* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Tolesniais duomenimis pildoma „Power BI‟ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md). 
+Tolesniais duomenimis pildoma „Power BI‟ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
-Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Kaip turinio pagrindas naudojami šie pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai.
 
-| Objektas        | Pagrindiniai agreguoti matavimo vienetai                   | „Dynamics 365“ duomenų šaltinis                    | Laukas                                        | aprašymas                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| SF eilutės | Įplaukos                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Suma, išreikšta apskaitos valiuta.            |
-|               | Parduotų prekių savikaina                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Išlaidų sumos ir koregavimo suma.    |
-|               | Komisinių eilutės suma – apskaitos valiuta | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisinių suma, išreikšta apskaitos valiuta. |
+| Objektas        | Pagrindiniai agreguoti matavimo vienetai                   | „Dynamics 365“ duomenų šaltinis | Laukas                                        | aprašymas                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| SF eilutės | Įplaukos                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | Suma, išreikšta apskaitos valiuta.            |
+|               | Parduotų prekių savikaina                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | Išlaidų sumos ir koregavimo suma.    |
+|               | Komisinių eilutės suma – apskaitos valiuta | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Komisinių suma, išreikšta apskaitos valiuta. |
 
 Tolesnėje lentelėje parodyti pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai, kurie naudojami kuriant kelis apskaičiuojamus matus turinio duomenų rinkinyje.
 

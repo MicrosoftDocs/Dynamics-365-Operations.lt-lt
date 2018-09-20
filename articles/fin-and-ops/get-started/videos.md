@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 
 #### <a name="data-integration"></a>Duomenų integravimas
 - [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
-- [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Duomenų valdymas
 - [Duomenų objektų ir duomenų paketų naudojimas „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 
 #### <a name="intelligence"></a>Įžvalgos
 - [Savo duomenų bazės naudojimas (BYOD) „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kaip naudoti išlaidų valdymo „Power BI“ turinį programoje „Dynamics 365“](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>„Lifecycle Services“ (LCS)
 - [„Lifecycle Services“ turto biblioteka](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [Partijų balansavimas](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Gamybos užsakymo leidimo proceso patobulinimai](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai)](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Mokesčių mechanizmas
+- [Mokesčių mechanizmo apžvalga](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Sandėlio valdymas
 - [Gamybos išrinkimas sandėlyje paketu](https://youtu.be/8urAJn50dQ8)

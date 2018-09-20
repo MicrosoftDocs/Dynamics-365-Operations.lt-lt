@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Taip pat mūsų turinį galite rasti naudodami bet kokį ieškos mechanizmą. Je
 Dokumentų svetainėje „Finance and Operations“, „Retail“ ir „Talent“ naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį, neįtraukiant turinio, temoms, kurių ieškote, rasti.
 
 ### <a name="follow-a-topic"></a>Sekite temą
-Norėdami stebėti temą, spustelėkite mygtuką +Stebėti, esantį po komentarų lauku. Norint pradėti stebėti temą, reikės prisijungti. Daugiau informacijos ieškokite skiltyje [Palikite komentarą](#leave-us-a-comment).  
+Norėdami stebėti temą, spustelėkite mygtuką +Stebėti, esantį po komentarų lauku. Norint pradėti stebėti temą, reikės prisijungti. Daugiau informacijos ieškokite skiltyje [Palikite atsiliepimą](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>RSS informacijos santraukos naudojimas
 Norėdami prenumeruoti visų „Unified Operations“ turinio naujinimų RSS informacijos santrauką, jas palaikančioje naršyklėje, pvz., „Internet Explorer“, arba RSS informacijos santraukų tvarkytuve naudokite tolesnį saitą. 
