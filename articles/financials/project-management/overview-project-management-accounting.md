@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="8683a-105">Projektas yra veiklų, skirtų teikti paslaugoms, gaminti produktams ar siekti rezultatų, grupė.</span><span class="sxs-lookup"><span data-stu-id="8683a-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="8683a-106">Projektai naudoja išteklius ir sukuria finansinius rezultatus įplaukų arba turto forma.</span><span class="sxs-lookup"><span data-stu-id="8683a-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="8683a-107">Įvairių pramonės šakų projektai</span><span class="sxs-lookup"><span data-stu-id="8683a-107">Projects across industries</span></span>
-<span data-ttu-id="8683a-108">Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje.</span><span class="sxs-lookup"><span data-stu-id="8683a-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="8683a-109">[![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="8683a-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="8683a-108">Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje.</span><span class="sxs-lookup"><span data-stu-id="8683a-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="8683a-109">[![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="8683a-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="8683a-110">Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį.</span><span class="sxs-lookup"><span data-stu-id="8683a-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="8683a-111">Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais.</span><span class="sxs-lookup"><span data-stu-id="8683a-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="8683a-112">Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti.</span><span class="sxs-lookup"><span data-stu-id="8683a-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="8683a-113">Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių.</span><span class="sxs-lookup"><span data-stu-id="8683a-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="8683a-114">Kad ir koks projektų pavadinimas naudojamas, jie apima išteklius, grafikus bei išlaidas, o „Microsoft Dynamics 365 for Finance and Operations‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.</span><span class="sxs-lookup"><span data-stu-id="8683a-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 
