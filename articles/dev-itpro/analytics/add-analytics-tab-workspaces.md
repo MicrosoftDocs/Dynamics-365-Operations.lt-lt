@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią �
 Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio“ projekto artefaktą.
 
 1. Naujo projekto atitinkamame modelyje kūrimas.
-2. Sprendimų naršyklėje pasirinkite projektą, spustelėkite dešiniuoju klavišu ir pasirinkite **Įtraukti** > **Nauja prekė**.
+2. Sprendimų naršyklėje pasirinkite projektą, spustelėkite dešiniuoju klavišu ir pasirinkite **Įtraukti** \> **Nauja prekė**.
 3. Dialogo lange **Naujo elemento įtraukimas**, esančio parinktyje **Operacijų artefaktai**, pasirinkite šabloną **Išteklius**.
 4. Įveskite pavadinimą, kuris bus naudojamas nurodant ataskaitą X++ metaduomenyse, tada spustelėkite **Įtraukti**.
 
@@ -77,7 +77,7 @@ Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų vald
 
 1. Norėdami išplėsti dizaino apibrėžimą, atidarykite formų dizainerį.
 2. Dizaino apraše pasirinkite viršutinį elementą, pažymėtą **Dizainas | Šablonas: darbo srities veikimas**.
-3. Norėdami įtraukti naują valdiklį pavadinimu **FormTabControl1**, spustelėkite dešiniuoju mygtuku ir pasirinkite **Naujas** > **Skirtukas**.
+3. Norėdami įtraukti naują valdiklį pavadinimu **FormTabControl1**, spustelėkite dešiniuoju mygtuku ir pasirinkite **Naujas** \> **Skirtukas**.
 4. Formų dizaineryje pasirinkite **FormTabControl1**.
 5. Spustelėkite dešiniuoju mygtuku ir pasirinkite **Naujo skirtuko puslapis**, kad įtrauktumėte naujo skirtuko puslapį.
 6. Pervadinkite skirtuko puslapį suteikdami prasmingesnį pavadinimą, pvz, **Darbo sritis**.
@@ -86,12 +86,12 @@ Atlikite šiuos veiksmus, norėdami išplėsti darbo srities **Rezervacijų vald
 9. Pervadinkite skirtuko puslapį suteikdami prasmingesnį pavadinimą, pvz, **Analizė**.
 10. Formų dizaineryje pasirinkite **Analizė (skirtuko puslapis)**.
 11. Ypatybę **Antraštė** nustatykite į **Analizė**.
-12. Dešiniuoju pelės mygtuku spustelėkite valdiklį, tada pasirinkite **Naujas** > **Grupė** ir įtraukite naują formos grupės valdiklį.
+12. Dešiniuoju pelės mygtuku spustelėkite valdiklį, tada pasirinkite **Naujas** \> **Grupė** ir įtraukite naują formos grupės valdiklį.
 13. Pervadinkite formos grupę suteikdami prasmingesnį pavadinimą, pvz, **powerBIReportGroup**.
 14. Formų dizaineryje pasirinkite **PanoramaBody (skirtukas)**, tada vilkite valdiklį į skirtuką **Darbo sritis**.
 15. Dizaino apraše pasirinkite viršutinį elementą, pažymėtą **Dizainas | Šablonas: darbo srities veikimas**.
 16. Spustelėkite dešiniuoju mygtuku ir pasirinkite **Pašalinti šabloną**.
-17. Dešiniuoju pelės mygtuku spustelėkite dar kartą, tada pasirinkite **Pridėti šabloną** > **Darbo sritis su skirtukais**.
+17. Dešiniuoju pelės mygtuku spustelėkite dar kartą, tada pasirinkite **Pridėti šabloną** \> **Darbo sritis su skirtukais**.
 18. Pradėkite kurti, kad patvirtintumėte pakeitimus.
 
 Toliau pavaizduota, kaip atrodo dizainas pritaikius šiuos pakeitimus.
@@ -116,7 +116,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią �
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią �
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Užbaigėte verslo logikos įtraukimo užduotį, skirtą įdėtam ataskaitų per
 #### <a name="syntax"></a>Sintaksė
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parametrai
 
-|       Vardas       |                                                              aprašymas                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    .pbix ištekliaus pavadinimas.                                                     |
-| formGroupControl |                                    Formos grupės valdiklis, kuriam bus taikomas „Power BI“ ataskaitos valdiklis.                                     |
-| defaultPageName  |                                                         Numatytasis puslapio pavadinimas.                                                         |
-|  showFilterPane  |   Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (<strong>true</strong>), ar paslėpta (<strong>klaidinga</strong>).   |
-|   showNavPane    | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (<strong>true</strong>), ar paslėpta (<strong>klaidinga</strong>). |
-|  defaultFilters  |                                              Numatytieji „Power BI“ ataskaitos filtrai.                                              |
-
+| Vardas             | aprašymas                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | .pbix ištekliaus pavadinimas.                                                                              |
+| formGroupControl | Formos grupės valdiklis, kuriam bus taikomas „Power BI“ ataskaitos valdiklis.                                              |
+| defaultPageName  | Numatytasis puslapio pavadinimas.                                                                                       |
+| showFilterPane   | Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**).     |
+| showNavPane      | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
+| defaultFilters   | Numatytieji „Power BI“ ataskaitos filtrai.                                                                 |
 

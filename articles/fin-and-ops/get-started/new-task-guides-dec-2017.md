@@ -25,6 +25,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Nauji ar atnaujinti užduočių vedliai (2017 m. gruodžio mėn.)
 
+[!include [banner](../includes/banner.md)]
+
 Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gruodžio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“.
 
 

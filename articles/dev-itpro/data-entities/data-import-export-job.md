@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Rekomenduojame atidžiai pasirinkti tinkamą importavimo arba eksportavimo uždu
 ### <a name="set-the-data-format-for-the-job"></a>Užduoties duomenų formato nustatymas
 Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba importuojami, formatą. Formatai apibrėžiami naudojant plytelę **Duomenų šaltinių nustatymas**. Šaltinio duomenų formatas – tai **tipo**, **failo formato**, **eilutės skyriklio** ir **stulpelio skyriklio** kombinacija. Taip pat yra ir kitų atributų, bet apie šiuos žinoti yra būtina. Šioje lentelėje išvardijamos leistinos kombinacijos.
 
-| **Failo formatas**        | **Eilutės / stulpelio skyriklis**                   | **XML stilius**             |
+| Failo formatas            | Eilutės / stulpelio skyriklis                       | XML stilius                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-NA–                     |
 | XML                    | \-NA–                                      | XML elementas XML atributas |
 | Atskirtas, fiksuotas plotis | Kablelis, kabliataškis, skirtukas, vertikali juosta, dvitaškis | \-NA–                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
 Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai.

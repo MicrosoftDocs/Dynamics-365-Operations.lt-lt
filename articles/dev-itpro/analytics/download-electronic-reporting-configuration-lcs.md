@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -34,35 +34,45 @@ ms.lasthandoff: 08/09/2018
 
 Ši mokymo programa padės jums atsisiųsti naujausias elektroninio ataskaitų (ER) konfigūracijas iš „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-1.  Prisijunkite prie „Finance and Operations“ naudodami vieną iš tolesnių vaidmenų.
-    -   Elektroninės ataskaitos kūrėjas
-    -   Elektroninės ataskaitos funkcijų konsultantas
-    -   Sistemos administratorius
+1. Prisijunkite prie „Finance and Operations“ naudodami vieną iš tolesnių vaidmenų.
 
-2.  Pasirinkite **Organizacijos administravimas** &gt; **Elektroninės ataskaitos**.
-3.  Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **Microsoft**.
-4.  Plytelėje **Microsoft** spustelėkite **Saugyklos**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  Puslapio **Konfigūracijų saugyklos** tinklelyje pasirinkite esamą tipo **LCS** saugyklą. Jei ši saugykla tinklelyje nerodoma, atlikite tolesnius veiksmus.
-    1.  Spustelėdami **Įtraukti** įtraukite naują saugyklą.
-    2.  Pasirinkite **LCS** kaip saugyklos tipą.
-    3.  Spustelėkite **Kurti saugyklą**.
+    - Elektroninės ataskaitos kūrėjas
+    - Elektroninės ataskaitos funkcijų konsultantas
+    - Sistemos administratorius
+
+2. Pasirinkite **Organizacijos administravimas** &gt; **Elektroninės ataskaitos**.
+3. Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **Microsoft**.
+4. Plytelėje **Microsoft** spustelėkite **Saugyklos**.
+
+    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+
+5. Puslapio **Konfigūracijų saugyklos** tinklelyje pasirinkite esamą tipo **LCS** saugyklą. Jei ši saugykla tinklelyje nerodoma, atlikite tolesnius veiksmus.
+
+    1. Spustelėdami **Įtraukti** įtraukite naują saugyklą.
+    2. Pasirinkite **LCS** kaip saugyklos tipą.
+    3. Spustelėkite **Kurti saugyklą**.
     4. Paraginti vykdykite autorizavimo instrukcijas.
-    5.  Įveskite saugyklos pavadinimą ir aprašymą.
-    6.  Spustelėkite **Gerai**, kad patvirtintumėte naują saugyklos įrašą.
-    7.  Tinklelyje pasirinkite naują tipo **LCS** saugyklą.
+    5. Įveskite saugyklos pavadinimą ir aprašymą.
+    6. Spustelėkite **Gerai**, kad patvirtintumėte naują saugyklos įrašą.
+    7. Tinklelyje pasirinkite naują tipo **LCS** saugyklą.
 
-6.  Spustelėkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
-7.  Kairiojoje srityje esančiame konfigūracijų medyje pasirinkite reikiamą ER konfigūraciją.
-8.  „FastTab“ **Versijos** pasirinkite reikiamą pasirinktos ER konfigūracijos versiją.
-9.  Spustelėkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš LCS į dabartinį „Finance and Operations“ egzempliorių. **Pastaba.** Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Finance and Operations“ egzemplioriuje. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+6. Spustelėkite **Atidaryti**, norėdami peržiūrėti pasirinktos saugyklos ER konfigūracijų sąrašą.
 
-**Pastaba.** Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti šias problemas. Daugiau informacijos ieškokite šios temos susijusių straipsnių sąraše.
+    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+7. Kairiojoje srityje esančiame konfigūracijų medyje pasirinkite reikiamą ER konfigūraciją.
+8. „FastTab“ **Versijos** pasirinkite reikiamą pasirinktos ER konfigūracijos versiją.
+9. Spustelėkite **Importuoti**, kad pasirinktą versiją atsisiųstumėte iš LCS į dabartinį „Finance and Operations“ egzempliorių.
+
+    > [!NOTE]
+    > Mygtuko **Importuoti** negalima naudoti ER konfigūracijų versijose, kurios jau yra dabartiniame „Finance and Operations“ egzemplioriuje.
+
+    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+
+> [!NOTE]
+> Atsižvelgiant į ER parametrus, konfigūracijos patikrinamos po importavimo. Galite būti informuoti apie rastas nenuoseklumo problemas. Prieš naudodami importuotą konfigūracijos versiją, turite išspręsti šias problemas. Daugiau informacijos ieškokite šios temos susijusių straipsnių sąraše.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-
-
-
 

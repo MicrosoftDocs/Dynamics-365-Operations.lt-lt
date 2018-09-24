@@ -27,6 +27,9 @@ ms.lasthandoff: 08/09/2018
 ---
 
 # <a name="powerbicom-solutions-home-page"></a>Pagrindinis „PowerBI.com“ sprendimų puslapis
+
+[!include [banner](../includes/banner.md)]
+
 „Dynamics 365 for Finance and Operations“ aplinkose galima naudoti toliau nurodytus „PowerBI.com“ sprendimus.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Naudojantis „Lifecycle Services“ (LCS) galimi „PowerBI.com“ sprendimai

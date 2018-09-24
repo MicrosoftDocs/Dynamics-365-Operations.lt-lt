@@ -35,7 +35,9 @@ Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norin
 Projektas yra veiklų, skirtų teikti paslaugoms, gaminti produktams ar siekti rezultatų, grupė. Projektai naudoja išteklius ir sukuria finansinius rezultatus įplaukų arba turto forma.
 
 ## <a name="projects-across-industries"></a>Įvairių pramonės šakų projektai
-Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje. [![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakose, kaip rodoma tolesnėje iliustracijoje.
+
+[![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks projektų pavadinimas naudojamas, jie apima išteklius, grafikus bei išlaidas, o „Microsoft Dynamics 365 for Finance and Operations‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
 

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Pastaba. Toliau išvardytos operacijos taikomos naujausiai „Dynamics 365 for R
 | 707 | Aktyvinti įrenginį | Dabartinį įrenginį suaktyvinkite leisdami patvirtintam vartotojui pateikti prisijungimo informaciją ir priskirti įrenginį bei aparato ID. | Nr. | Nr. | Nr. | Nr. | Nr. |
 | 134 | Įtraukti priskyrimą | Pridėkite iš anksto pasirinktą priskyrimą operacijai. Pasirinkite priskyrimą puslapyje **Mygtuko ypatybės**. | Taip | Taip | Nr. | Taip | Nr. |
 | 135 | Įtraukti priskyrimą iš sąrašo | Įtraukite priskyrimą į operaciją pasirinkdami ją iš sąrašo. | Taip | Taip | Taip | Taip | Nr. |
+| 137 | Kliento priskyrimo įtraukimas | Įtraukite kliento priskyrimą puslapyje **Kliento informacija**. | Nr. | Nr. | Nr. | Taip | Nr. |
+| 138 | Kliento priskyrimo pašalinimas | Pašalinkite priskyrimą puslapyje **Kliento informacija**. | Nr. | Nr. | Nr. | Taip | Nr. |
 | 643 | Įtraukti kupono kodą | Įtraukite kuponą įvesdami jo kodą į EKA. | Taip | Taip | Nr. | Taip | Nr. |
 | 117 | Įtraukti lojalumo kortelę | Paraginkite vartotoją įvesti lojalumo kortelės numerį, kuris bus įtrauktas į esamą operaciją. | Taip | Taip | Nr. | Taip | Nr. |
 | 136 | Įtraukti serijos numerį | Ši operacija leidžia vartotojui nurodyti tuo metu pasirinkto produkto serijos numerį. | Taip | Taip | Nr. | Taip | Nr. |

@@ -3,7 +3,7 @@ title: "Integravimas su „Microsoft Dynamics 365 for Field Service“"
 description: "Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 for Field Service“ apžvalga."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/25/2018
+ms.date: 08/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: cb21667021a32381fd8038e1c9f0182b05622e3d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -44,7 +44,7 @@ Pirmame integravimo tarp „Field Service“ ir „Finance and Operations“ eta
 - [„Field Service“ darbo užsakymus su „Finance and Operations“ pardavimo užsakymais](field-service-work-order.md)
 - [„Field Service“ SF su „Finance and Operations“ laisvos formos SF.](field-service-invoice.md)
 
-Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Finance and Operations“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=hAB4TDVMjxU).
+Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Finance and Operations“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Kaip sinchronizuoti darbo užsakymą su „Microsoft Dynamics 365“ integravimu](https://www.youtube.com/watch?v=46ylO7raZAo).
 
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 „Field Service“ integravimas palaikomas toliau nurodytose versijose.

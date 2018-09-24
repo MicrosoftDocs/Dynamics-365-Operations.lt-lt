@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f5b6ab35f65dbe325f2202ab2dda71152993359d
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,25 +29,26 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Prieš naudojant duomenų objektus duomenims importuoti ar eksportuoti, rekomenduojame pirmiausia nustatyti konfigūracijos raktų poveikį duomenų objektams, kuriuos planuojate naudoti. 
+Prieš naudojant duomenų objektus duomenims importuoti ar eksportuoti, rekomenduojame pirmiausia nustatyti konfigūracijos raktų poveikį duomenų objektams, kuriuos planuojate naudoti.
 
 Norėdami daugiau sužinoti apie „Finance and Operations“ konfigūracijos raktus, žr. [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md).
 
 ### <a name="configuration-key-assignments"></a>Konfigūracijos raktų priskyrimai
 Konfigūracijos raktus galima priskirti vienam arba visiems iš toliau pateiktų artefaktų.
--   Duomenų objektai
--   Lentelės, naudojamos kaip duomenų šaltiniai
--   Lentelės laukai
--   Duomenų objektų laukai
+
+- Duomenų objektai
+- Lentelės, naudojamos kaip duomenų šaltiniai
+- Lentelės laukai
+- Duomenų objektų laukai
 
 Tolesnėje lentelėje apibendrinama, kaip skirtingų artefaktų konfigūracijos raktų reikšmės, kuriomis grindžiamas objektas, pakeičia numatytą objekto veikimą.
 
-| Konfigūracijos rakto parametras duomenų objekte | Konfigūracijos rakto parametras lentelėje | Konfigūracijos rakto parametras lentelės lauke | Konfigūracijos raktas duomenų objekto lauke | Numatytas veikimas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------------|-----------------------------|-----------------------------------|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uždraustas                          | Neįvertinta               | Neįvertinta                     | Neįvertinta                   | Jei duomenų objekto konfigūracijos raktas išjungtas, duomenų objektas neveiks. Nesvarbu, ar esamų lentelių ir laukų konfigūracijos raktai yra įjungti, ar išjungti.                                                                                                                                                                                                                                                                                                                                          |
-| Įgalinta                           | Uždraustas                    | Neįvertinta                     | Neįvertinta                   | Jei duomenų objekto konfigūracijos raktas yra įjungtas, duomenų valdymo sistema tikrina kiekvienos esamos lentelės konfigūracijos raktą. Jei lentelės konfigūracijos raktas išjungtas, tos lentelės nebus galima naudoti duomenų objekte. Jei lentelės konfigūracijos raktas yra išjungtas, neįvertinami lentelės ir duomenų objektų konfigūracijos rakto parametrai. Jei pirminės objekto lentelės konfigūracijos raktas yra išjungtas, sistema veiks taip, tarsi objekto konfigūracijos raktas būtų išjungtas. |
-| Įgalinta                           | Įgalinta                     | Uždraustas                          | Neįvertinta                   | Jei duomenų objekto konfigūracijos raktas yra įjungtas ir įjungti esamų lentelių konfigūracijos raktai, duomenų valdymo sistema tikrins lentelių laukų konfigūracijos raktą. Jei išjungtas kokio nors lauko konfigūracijos raktas, to lauko nebus galima naudoti duomenų objekte, net jei įjungtas atitinkamo duomenų objekto lauko konfigūracijos raktas.                                                                                                                                   |
-| Įgalinta                           | Įgalinta                     | Įgalinta                           | Uždraustas                        | Jei konfigūracijos raktas įjungtas visuose kituose lygiuose, tačiau neįjungtas objekto lauko konfigūracijos raktas, to lauko nebus galima naudoti duomenų objekte.                                                                                                                                                                                                                                                                                                                                                                          |
+| Konfigūracijos rakto parametras duomenų objekte | Konfigūracijos rakto parametras lentelėje | Konfigūracijos rakto parametras lentelės lauke | Konfigūracijos raktas duomenų objekto lauke | Numatytas veikimas |
+|-----------------------------------------|------------------------------------|------------------------------------------|----------------------------------------|------------------|
+| Uždraustas                                | Neįvertinta                      | Neįvertinta                            | Neįvertinta                          | Jei duomenų objekto konfigūracijos raktas išjungtas, duomenų objektas neveiks. Nesvarbu, ar esamų lentelių ir laukų konfigūracijos raktai yra įjungti, ar išjungti. |
+| Įgalinta                                 | Uždraustas                           | Neįvertinta                            | Neįvertinta                          | Jei duomenų objekto konfigūracijos raktas yra įjungtas, duomenų valdymo sistema tikrina kiekvienos esamos lentelės konfigūracijos raktą. Jei lentelės konfigūracijos raktas išjungtas, tos lentelės nebus galima naudoti duomenų objekte. Jei lentelės konfigūracijos raktas yra išjungtas, neįvertinami lentelės ir duomenų objektų konfigūracijos rakto parametrai. Jei pirminės objekto lentelės konfigūracijos raktas yra išjungtas, sistema veiks taip, tarsi objekto konfigūracijos raktas būtų išjungtas. |
+| Įgalinta                                 | Įgalinta                            | Uždraustas                                 | Neįvertinta                          | Jei duomenų objekto konfigūracijos raktas yra įjungtas ir įjungti esamų lentelių konfigūracijos raktai, duomenų valdymo sistema tikrins lentelių laukų konfigūracijos raktą. Jei išjungtas kokio nors lauko konfigūracijos raktas, to lauko nebus galima naudoti duomenų objekte, net jei įjungtas atitinkamo duomenų objekto lauko konfigūracijos raktas. |
+| Įgalinta                                 | Įgalinta                            | Įgalinta                                  | Uždraustas                               | Jei konfigūracijos raktas įjungtas visuose kituose lygiuose, tačiau neįjungtas objekto lauko konfigūracijos raktas, to lauko nebus galima naudoti duomenų objekte. |
 
 > [!NOTE]
 > Jei objekte kaip duomenų šaltinis naudojamas kitas objektas, taikoma tokia pati semantika, kokia pateikta pirmiau.
@@ -59,12 +60,13 @@ Kai atnaujinamas objektų sąrašas, duomenų valdymo sistema kuria konfigūraci
 
 ### <a name="data-entity-list-page"></a>Duomenų objektų sąrašų puslapis
 Darbo srityje Duomenų valdymas esančiame duomenų objektų sąrašų puslapyje rodomi objektų konfigūracijos raktų parametrai. Pradėkite nuo šio puslapio, kad suprastumėte konfigūracijos raktų poveikį duomenų objektui.
+
 Ši informacija rodoma naudojant metaduomenis, sukurtus atnaujinant objektus. Konfigūracijos rakto stulpelyje rodomas su duomenų objektu susieto konfigūracijos rakto pavadinimas. Jei šis stulpelis yra tuščias, tai reiškia, kad su duomenų objektu nesusietas joks konfigūracijos raktas. Konfigūracijos rakto būsenos stulpelyje rodoma konfigūracijos rakto būsena. Jei jame yra žymė, tai reiškia, kad raktas yra įjungtas. Jei jis yra tuščias, tai reiškia, kad raktas išjungtas arba kad nesusietas joks raktas.
 
 ![Objektų sąrašų puslapis](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Paskirties laukai
-Tolesnis veiksmas yra detalizuoti duomenų objektą ir peržiūrėti konfigūracijos raktų poveikį lentelėms bei laukams. Duomenų objekto paskirties laukų formoje rodoma informacija apie susijusių duomenų objekto lentelių ir laukų konfigūracijos raktus bei jų būseną.  Jei išjungtas paties duomenų objekto konfigūracijos raktas, rodomas įspėjamasis pranešimas, informuojantis, kad šio objekto paskirties laukų formos lentelių ir laukų nebus galima naudoti visai, nepaisant jų konfigūracijos raktų būsenos.
+Tolesnis veiksmas yra detalizuoti duomenų objektą ir peržiūrėti konfigūracijos raktų poveikį lentelėms bei laukams. Duomenų objekto paskirties laukų formoje rodoma informacija apie susijusių duomenų objekto lentelių ir laukų konfigūracijos raktus bei jų būseną. Jei išjungtas paties duomenų objekto konfigūracijos raktas, rodomas įspėjamasis pranešimas, informuojantis, kad šio objekto paskirties laukų formos lentelių ir laukų nebus galima naudoti visai, nepaisant jų konfigūracijos raktų būsenos.
 
 ![Paskirties laukai](./media/Target_fields_1.png)
 
@@ -79,30 +81,19 @@ Supratę visą (jei toks yra) konfigūracijos raktų poveikį norimiems naudoti 
 ### <a name="run-time-validations-for-configuration-keys"></a>Konfigūracijos raktų tikrinimai vykdymo aplinkoje
 Naudojant konfigūracijos raktų metaduomenis, sukurtus atnaujinant objektų sąrašus, tolesniais naudojimo atvejais atliekami tikrinimai vykdymo aplinkoje.
 
--   Kai duomenų objektas įtraukiamas į užduotį
-
--   Kai vartotojas objektų sąraše spustelėja „tikrinti“
-
--   Kai vartotojas į duomenų projektą įkelia duomenų paketą
-
--   Kai vartotojas į duomenų projektą įkelia šabloną
-
--   Kai įkeliamas esamas duomenų projektas
-
--   Kai į duomenų projektą įkeliamas šablonas
-
--   Prieš vykdant eksporto / importo užduotį (paketinę, nepaketinę, pasikartojančią, „Odata“)
-
--   Kai vartotojas generuoja susiejimą
-
--   Kai vartotojas susieja lauką susiejimo vartotojo sąsajoje
-
--   Kai vartotojas įtraukia tik „importuojamuosius laukus“
-
+- Kai duomenų objektas įtraukiamas į užduotį
+- Kai vartotojas objektų sąraše spusteli Tikrinti
+- Kai vartotojas į duomenų projektą įkelia duomenų paketą
+- Kai vartotojas į duomenų projektą įkelia šabloną
+- Kai įkeliamas esamas duomenų projektas
+- Kai į duomenų projektą įkeliamas šablonas
+- Prieš vykdant eksporto / importo užduotį (paketinę, nepaketinę, pasikartojančią, „Odata“)
+- Kai vartotojas generuoja susiejimą
+- Kai vartotojas susieja lauką susiejimo vartotojo sąsajoje
+- Kai vartotojas įtraukia tik „importuojamuosius laukus“
 
 ### <a name="managing-configuration-key-changes"></a>Konfigūracijos raktų keitimų valdymas
 Kai tik objekto, lentelės ar lauko lygiu atnaujinate objekto konfigūracijos raktus, reikia atnaujinti duomenų valdymo sistemoje esantį objektų sąrašą. Šiuo procesu užtikrinama, kad sistema naudoja naujausius konfigūracijos raktų parametrus. Kol nebus atnaujintas objektų sąrašas, objektų sąrašų puslapyje bus rodomas tolesnis įspėjamasis pranešimas. Atnaujinti konfigūracijos raktų keitimai įsigalios iš karto po to, kai bus atnaujintas objektų sąrašas. Rekomenduojame patikrinti esamus duomenų projektus ir užduotis, kad įsitikintumėte, jog, įsigaliojus konfigūracijos raktų keitimams, jie veikia taip, kaip tikėtasi.
 
 ![Paskirties laukai](./media/Target_fields_3.png)
-
 

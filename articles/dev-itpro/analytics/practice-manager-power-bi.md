@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Visos turinio sumos rodomos sistemos valiuta. Sistemos valiutą galite nustatyti
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
 „Power BI“ turinys **Praktikos vadovas** rodomas darbo srityje **Projektų valdymas**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 
@@ -85,8 +84,7 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 
 | Pagrindiniai sujungti matavimo vienetai | Laukas                                             | aprašymas |
 |---------------------------|---------------------------------------------------|-------------|
-| Projektų skaičius        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Galimų projektų skaičius. |
-
+| Projektų skaičius        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Galimų projektų skaičius. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Objektas: ProjectAccountingCube\_Forecasts
 **Duomenų šaltinis:** ProjTransBudget
@@ -109,18 +107,16 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 
 | Pagrindiniai sujungti matavimo vienetai    | Laukas | aprašymas |
 |------------------------------|-------|-------------|
-| Išlaidų efektyvumo indeksas       | ProjectAccountingCube\_Projects[Earned value] ÷ ProjectAccountingCube\_Projects[atliktų užduočių faktinių išlaidų suma] | Viso gautos vertės, padalytos iš visų faktinių išlaidų, skaičiavimas. |
-| Planavimo efektyvumo indeksas   | ProjectAccountingCube\_Projects[Earned value] ÷ ProjectAccountingCube\_Projects[atliktų užduočių suplanuotų išlaidų suma] | Viso gautos vertės, padalytos iš visų planuojamų išlaidų, skaičiavimas. |
-| Atlikto darbo procentinė dalis | Atlikto darbo procentinė dalis = ProjectAccountingCube\_Projects[atliktų užduočių faktinių išlaidų suma] ÷ (ProjectAccountingCube\_Projects[atliktų užduočių faktinių išlaidų suma] + ProjectAccountingCube\_Projects[projekto suplanuotų išlaidų suma] – ProjectAccountingCube\_Projects[atliktų užduočių suplanuotų išlaidų suma]) | Visas atlikto darbo procentas pagal atliktų užduočių faktinių išlaidų sumą ir projekto suplanuotas išlaidas. |
-| Faktinių apmokėtinų valandų koeficientas  | ProjectAccountingCube\_Projects[projekto faktinių apmokėtinų išnaudotų valandų suma] ÷ (ProjectAccountingCube\_Projects[projekto faktinių apmokėtinų išnaudotų valandų suma] + ProjectAccountingCube\_Projects[projekto faktinių apmokėtinų neefektyvių valandų suma]) | Faktinių apmokėtinų valandų suma, remiantis išnaudotomis valandomis ir neefektyviomis valandomis. |
-| Gauta vertė                 | ProjectAccountingCube\_Projects[projekto suplanuotų išlaidų suma] × ProjectAccountingCube\_Projects[atlikto darbo procentas] | Suplanuotų išlaidų suma, padauginta iš atlikto darbo procento. |
+| Išlaidų efektyvumo indeksas       | ProjectAccountingCube\_Projects\[Earned value\] ÷ ProjectAccountingCube\_Projects\[atliktų užduočių faktinių išlaidų suma\] | Viso gautos vertės, padalytos iš visų faktinių išlaidų, skaičiavimas. |
+| Planavimo efektyvumo indeksas   | ProjectAccountingCube\_Projects\[Earned value\] ÷ ProjectAccountingCube\_Projects\[atliktų užduočių suplanuotų išlaidų suma\] | Viso gautos vertės, padalytos iš visų planuojamų išlaidų, skaičiavimas. |
+| Atlikto darbo procentinė dalis | Atlikto darbo procentinė dalis = ProjectAccountingCube\_Projects\[atliktų užduočių faktinių išlaidų suma\] ÷ (ProjectAccountingCube\_Projects\[atliktų užduočių faktinių išlaidų suma\] + ProjectAccountingCube\_Projects\[projekto suplanuotų išlaidų suma\] – ProjectAccountingCube\_Projects\[atliktų užduočių suplanuotų išlaidų suma\]) | Visas atlikto darbo procentas pagal atliktų užduočių faktinių išlaidų sumą ir projekto suplanuotas išlaidas. |
+| Faktinių apmokėtinų valandų koeficientas  | ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų išnaudotų valandų suma\] ÷ (ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų išnaudotų valandų suma\] + ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų neefektyvių valandų suma\]) | Faktinių apmokėtinų valandų suma, remiantis išnaudotomis valandomis ir neefektyviomis valandomis. |
+| Gauta vertė                 | ProjectAccountingCube\_Projects\[projekto suplanuotų išlaidų suma\] × ProjectAccountingCube\_Projects\[atlikto darbo procentas\] | Suplanuotų išlaidų suma, padauginta iš atlikto darbo procento. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Objektas: ProjectAccountingCube\_TotalEstimatedCosts 
 **Duomenų šaltinis:** ProjTable
 
-
-|    Pagrindiniai sujungti matavimo vienetai    |        Laukas        |                                          aprašymas                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |
+|---------------------------------|---------------------|-------------|
 | Užbaigtos veiklos suplanuotos išlaidos | Sum(TotalCostPrice) | Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina. |
-
 

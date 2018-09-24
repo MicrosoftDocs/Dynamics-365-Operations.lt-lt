@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 04/13/2018
 | Darbuotojų įgūdžių lygių analizė | Darbuotojų įgūdžių lygiai pagal skyrių, darbuotojai pagal įgūdžių lygį ir įgūdžių tipą ir mažiausia ir didžiausia įgūdžių lygio reikšmės |
 | Įgūdžių šablonas                 | Pasirinkto darbuotojo įgūdžių šablonas |
 | Įgūdžių analizė                | Įgūdžiai pagal tipą ir įvertinimą |
-| Našumo vertinimo analizė   | Darbuotojai pagal mažiausią ir didžiausią darbo įvertinimą, darbuotojų įvertinimai pagal skyrių, darbuotojai pagal įvertinimą ir pareigų tipą bei didžiausi ir mažiausi įvertinimai pagal pareigas  |
+| Našumo vertinimo analizė   | Darbuotojai pagal mažiausią ir didžiausią darbo įvertinimą, darbuotojų įvertinimai pagal skyrių, darbuotojai pagal įvertinimą ir pareigų tipą bei didžiausi ir mažiausi įvertinimai pagal pareigas |
 | Darbuotojų našumo analizė | Vadybininko pasirinkti darbuotojo įvertinimai |
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,7 +48,7 @@ ms.lasthandoff: 04/13/2018
 
 | Objektas                   | Turinys                                                                                                   | Ryšiai su kitais objektais |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Kalendoriaus poslinkis          | Kalendoriaus poslinkiai ataskaitoms skaidyti                                                                          | Buvusių pareigų priskyrimas, pareigų tendencija, darbuotojo tendencija, atleistas darbuotojas 
+| Kalendoriaus poslinkis          | Kalendoriaus poslinkiai ataskaitoms skaidyti                                                                          | Buvusių pareigų priskyrimas, pareigų tendencija, darbuotojo tendencija, atleistas darbuotojas |
 | Įmonė                  | Įmonės, pagal kurias filtruojamos ataskaitos                                                                             | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Dabartinės pareigos         | Pareigos dabartinę datą, viso etato ekvivalentas (FTE), laisvos darbo vietos ir laisvos / užimtos darbo vietos | Darbas, pareigos |
 | Dabartinis darbuotojas         | Darbuotojai dabartinę dieną, amžius ir darbuotojų skaičius                                                         | Įmonė, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), darbuotojo pareigos, demografiniai duomenys, užduotis, darbas, pareigos |
@@ -65,10 +65,9 @@ ms.lasthandoff: 04/13/2018
 | Darbuotojo vardas ir pavardė            | Vardas, pavardė ir vardas bei pavardė                                                                       | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                                                   | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
-| Darbas                      | Funkcija, tipas ir pareigos                                                                                      | Dabartinis darbuotojas, dabartinės pareigos, darbuotojo tendencija, darbui reikiami įgūdžiai, ankstesnių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas |
+| Darbas                      | Funkcija, tipas ir pareigos                                                                                  | Dabartinis darbuotojas, dabartinės pareigos, darbuotojo tendencija, darbui reikiami įgūdžiai, ankstesnių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas |
 | Darbui reikiamas įgūdis      | Svarba, įvertinimas, įgūdis ir įgūdžio lygis                                                                 | Darbas |
-| Darbuotojų įgūdžių analizė  | Patvirtintas, lygis, lygio data ir įgūdis                                                                    | Darbuotojo vardas ir pavardė, įgūdis |  
+| Darbuotojų įgūdžių analizė  | Patvirtintas, lygis, lygio data ir įgūdis                                                                    | Darbuotojo vardas ir pavardė, įgūdis |
 | Našumas              | Įvertinimas, aprašas ir įvertinimo modelis                                                                      | Dabartinis darbuotojas, dabartinės pareigos, darbuotojo tendencija, darbui reikiami įgūdžiai, ankstesnių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas |
-|  Įgūdis                   | Įgūdis, įgūdžio tipas ir įvertinimas                                                                              | Darbuotojo įgūdžių analizė, darbui reikiamii įgūdžiai |                                                                                                                        
-
+| Įgūdis                    | Įgūdis, įgūdžio tipas ir įvertinimas                                                                              | Darbuotojo įgūdžių analizė, darbui reikiamii įgūdžiai |
 

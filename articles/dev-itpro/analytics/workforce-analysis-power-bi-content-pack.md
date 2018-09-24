@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ ms.lasthandoff: 03/26/2018
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 **Darbo jėgos metrikos** „Power BI“ turinys pasirodo **Personalo valdymo** darbo srityje, jei naudojate vieną iš šių produktų:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Šioje lentelėje išvardijamos metrikos, kurios bus rodomos kiekvienoje ataskaitoje.
 
-| Ataskaita                                           | Metrika                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Žmonių metrika                                   | Kitų ataskaitų suvestinė                                                                                                                           |
-| Įmonės, padalinio, vietos darbuotojų skaičiaus analizė | Darbuotojų skaičius pagal įmonę, padalinį, vietą ir bendras darbuotojų skaičius                                                                                                                           |
-| Užduotis atliekančių, veiksmą vykdančių, vadovams priskirtų darbuotojų skaičiaus analizė            | Darbuotojų skaičius pagal užduotį, veiksmą, vadovą ir bendras darbuotojų skaičius                                                                                                                                      |
-| Darbuotojų skaičiaus tendencijų analizė                         | Darbuotojų skaičius šiais metais palyginus su praėjusiais pagal įmonę ir darbuotojų skaičiaus pokytis per pastaruosius 12 mėnesių                                                                                                                        |
+| Ataskaita                                           | Metrika |
+|--------------------------------------------------|---------|
+| Žmonių metrika                                   | Kitų ataskaitų suvestinė |
+| Įmonės, padalinio, vietos darbuotojų skaičiaus analizė | Darbuotojų skaičius pagal įmonę, padalinį, vietą ir bendras darbuotojų skaičius |
+| Užduotis atliekančių, veiksmą vykdančių, vadovams priskirtų darbuotojų skaičiaus analizė            | Darbuotojų skaičius pagal užduotį, veiksmą, vadovą ir bendras darbuotojų skaičius |
+| Darbuotojų skaičiaus tendencijų analizė                         | Darbuotojų skaičius šiais metais palyginus su praėjusiais pagal įmonę ir darbuotojų skaičiaus pokytis per pastaruosius 12 mėnesių |
 | FTE analizė                                     | Bendras viso etato atitikmuo (FTE), bendras priskirtas FTE, FTE pagal padalinį, FTE per pastaruosius 12 mėnesių ir FTE pagal užduotį |
 | Darbo jėgos demografiniai rodikliai                           | Darbuotojų skaičius pagal amžių, lytį, etninę kilmę, šeimyninę padėtį, seniai dirbančiųjų skaičius, visu etatu dirbančių studentų skaičius, vidutinis pareigų ėjimo laikas, vidutinis amžius, darbuotojų moterų bei vyrų santykis ir darbuotojų vartojamos kalbos |
-| Pareigų analizė                                | Atviros pareigos pagal padalinį, laisvos / užimtos pareigos, aktyvios / neaktyvios pareigos ir pareigos pagal padalinį                                                                                                   |
-| Praradimo analizė                               | Skaičiaus sumažėjimas šiais metais, palyginti su praėjusiais metais, skaičiaus sumažėjimas, išeinantys darbuotojai pagal amžių ir lytį, vidutinis išeinančių darbuotojų tarnybos laikas, šį mėnesį išeinantys darbuotojai, darbuotojų išėjimo priežastis                                                                   |
-| Žmonės pagal padalinį                             | Darbuotojai pagal padalinio, pareigų darbuotojo numerį ir priskyrimo pradžios bei pabaigos datas                                                                                                                       |
-| Paaukštinimo analizė                               | Vidutinis tarnybos laikas, vidutiniai tarnybos metai pagal įmonę ir darbo stažo sąrašas                                                                                                                                                              |
-| Darbuotojų metinės                           | Metinės šį mėnesį, metinės kitą mėnesį, darbuotojai pagal tarnybos metus, tarnybos metai pagal padalinį                                                                                                                                                                    |
-| Darbuotojų gimtadieniai                               | Gimtadieniai šį mėnesį, gimtadieniai kitą mėnesį, darbuotojų gimtadieniai ir gimtadieniai pagal mėnesį ir padalinį                                                                                                                                                                    |
-| Masinės samdos projektai                               | Bendri masinės samdos projektai, masinės samdos projektai pagal būseną, masinės samdos projektai pagal padalinį ir savininką, masinės samdos projektai pagal užduotį ir masinės samdos projektai                                                                                                                                                                    |
+| Pareigų analizė                                | Atviros pareigos pagal padalinį, laisvos / užimtos pareigos, aktyvios / neaktyvios pareigos ir pareigos pagal padalinį |
+| Praradimo analizė                               | Skaičiaus sumažėjimas šiais metais, palyginti su praėjusiais metais, skaičiaus sumažėjimas, išeinantys darbuotojai pagal amžių ir lytį, vidutinis išeinančių darbuotojų tarnybos laikas, šį mėnesį išeinantys darbuotojai, darbuotojų išėjimo priežastis |
+| Žmonės pagal padalinį                             | Darbuotojai pagal padalinio, pareigų darbuotojo numerį ir priskyrimo pradžios bei pabaigos datas |
+| Paaukštinimo analizė                               | Vidutinis tarnybos laikas, vidutiniai tarnybos metai pagal įmonę ir darbo stažo sąrašas |
+| Darbuotojų metinės                           | Metinės šį mėnesį, metinės kitą mėnesį, darbuotojai pagal tarnybos metus, tarnybos metai pagal padalinį |
+| Darbuotojų gimtadieniai                               | Gimtadieniai šį mėnesį, gimtadieniai kitą mėnesį, darbuotojų gimtadieniai ir gimtadieniai pagal mėnesį ir padalinį |
+| Masinės samdos projektai                               | Bendri masinės samdos projektai, masinės samdos projektai pagal būseną, masinės samdos projektai pagal padalinį ir savininką, masinės samdos projektai pagal užduotį ir masinės samdos projektai |
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Įsitikinkite, kad atsisiunčiate **Darbo jėgos metrikos** „Power BI“ turinį, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
 
->[!NOTE]
->.pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
+> [!NOTE]
+> .pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
@@ -88,6 +88,4 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
-
-
 

@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>„Talent“ aplinkų šalinimas
 
+[!include [banner](includes/banner.md)]
+
 Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 for Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
 
 ## <a name="removing-a-test-drive-environment"></a>Bandomosios versijos aplinkos šalinimas

@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-> [!Note]
+> [!NOTE]
 > Šis „PowerBI.com“ sprendimas nebenaudojamas, kaip nurodyta dalyje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Šioje temoje aprašytas „PowerBI.com‟ sprendimas **Finansinis našumas**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus sprendimui kurti.
@@ -58,7 +58,7 @@ Kiekviena plytelė yra pagrindžiama papildoma ataskaita. Šiose ataskaitose yra
 
 | Ataskaita                      | Ataskaitoje pateikiama informacija |
 |-----------------------------|--------------------------------------|
-| Grynųjų pinigų analizė               | Grynieji pinigai pagal juridinį subjektą, grynieji pinigai pagal ketvirtį, visa grynųjų pinigų suma ir grynieji pinigai pagal sąskaitą<br><br>**Pastaba:** grynųjų pinigų ketvirčio informacija neapima pradžios likučių bendrosios sumos pirmajam ketvirčiui. Joje rodoma naujų operacijų, užregistruotų kiekvieną ketvirtį, bendra suma.|
+| Grynųjų pinigų analizė               | Grynieji pinigai pagal juridinį subjektą, grynieji pinigai pagal ketvirtį, visa grynųjų pinigų suma ir grynieji pinigai pagal sąskaitą<blockquote>[!NOTE] Grynųjų pinigų ketvirčio informacija neapima pradžios likučių bendrosios sumos pirmajam ketvirčiui. Joje rodoma naujų operacijų, užregistruotų kiekvieną ketvirtį, bendra suma.</blockquote> |
 | Dabartinio koeficiento analizė      | Dabartinis koeficientas pagal juridinį subjektą, dabartinis koeficientas pagal ketvirtį ir trumpalaikio turto bei trumpalaikių įsipareigojimų balansai |
 | Sparčiojo koeficiento analizė        | Spartusis koeficientas pagal juridinį subjektą, spartusis koeficientas pagal ketvirtį ir grynųjų pinigų, gautinų sumų bei trumpalaikių įsipareigojimų balansai |
 | Parduotų prekių savikainos analizė | Parduotų prekių savikaina (PPK) pagal juridinį subjektą, PPK šiais metais ir praėjusiais metais pagal ketvirtį, PPK ir pardavimas pagal juridinį subjektą, bendroji PPK bei PPK ir pardavimo procentas |
@@ -69,7 +69,7 @@ Kiekviena plytelė yra pagrindžiama papildoma ataskaita. Šiose ataskaitose yra
 | Pajamų analizė           | Faktinės ir biudžeto pajamos prieš palūkanas ir mokesčius (EBIT) pagal juridinį subjektą, EBIT šiais metais ir praėjusiais metais, išlaidos ir įplaukų procentas, faktinės bei biudžeto išlaidos ir įplaukos |
 | Įplaukų analizė            | Bendrosios įplaukos, faktinės ir biudžeto bendrosios įplaukos pagal juridinį subjektą, bendrosios įplaukos šiais metais ir praėjusiais metais, įplaukų biudžeto nuokrypis pagal juridinį subjektą ir bendrosios įplaukos šį laikotarpį ir paskutinįjį laikotarpį |
 | Išlaidų analizė            | Bendrosios išlaidos, faktinės ir biudžeto bendrosios išlaidos pagal juridinį subjektą, faktinės ir biudžeto bendrosios išlaidos pagal ketvirtį, bendrosios išlaidos pagal sąskaitos kategoriją ir veiklos išlaidų koeficientas |
-| Įplaukų, kurioms išrašyta sąskaita, analizė     | Bendrosios gautinos sumos, bendrosios gautinos sumos pagal juridinį subjektą, bendrosios gautinos sumos pagal ketvirtį ir gautinų sumų sąskaitų balansai<br><br>**Pastaba:** informacija neapima gautinų sumų DK sąskaitų pradžios likučių. Joje rodoma naujų operacijų, užregistruotų gautinose sumose, bendra suma. |
+| Įplaukų, kurioms išrašyta sąskaita, analizė     | Bendrosios gautinos sumos, bendrosios gautinos sumos pagal juridinį subjektą, bendrosios gautinos sumos pagal ketvirtį ir gautinų sumų sąskaitų balansai<blockquote>[!NOTE] Informacija neapima gautinų sumų DK sąskaitų pradžios likučių. Joje rodoma naujų operacijų, užregistruotų gautinose sumose, bendra suma.</blockquote> |
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
@@ -89,5 +89,5 @@ Toliau pateikti objektai buvo naudojami kaip „PowerBI.com‟ sprendimo **Finan
 - Didžiosios knygos
 - ChartofAccounts
 
-Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti. 
+Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti.
 
