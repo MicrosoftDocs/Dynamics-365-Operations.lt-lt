@@ -1,135 +1,136 @@
 --- 
-title: "Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti"
+title: "ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (3 dalis – Skaičiavimų naudojimas išvesčiai kurti)"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e09b9fc87619d87c1de0e68ff370c0d6ebe72fc8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c870c134a9dae81cd619268bed7ce545bdd5f52
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="use-computations-to-generate-the-output-for-counting-and-summing"></a><span data-ttu-id="1b757-103">Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti</span><span class="sxs-lookup"><span data-stu-id="1b757-103">Use computations to generate the output for counting and summing</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output"></a><span data-ttu-id="503e2-103">ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (3 dalis: skaičiavimų naudojimas išvesčiai kurti)</span><span class="sxs-lookup"><span data-stu-id="503e2-103">ER Configure format to do counting and summing (Part 3: Use computations to make the output)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1b757-104">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.</span><span class="sxs-lookup"><span data-stu-id="1b757-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="1b757-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="1b757-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="503e2-104">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.</span><span class="sxs-lookup"><span data-stu-id="503e2-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="503e2-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="503e2-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="1b757-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: formato konfigūravimas, norint atlikti skaičiavimo ir sumavimo veiksmus (2 dalis: skaičiavimų konfigūravimas)“.</span><span class="sxs-lookup"><span data-stu-id="1b757-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
+<span data-ttu-id="503e2-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: formato konfigūravimas, norint atlikti skaičiavimo ir sumavimo veiksmus (2 dalis: skaičiavimų konfigūravimas)“.</span><span class="sxs-lookup"><span data-stu-id="503e2-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
 
-<span data-ttu-id="1b757-107">Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.</span><span class="sxs-lookup"><span data-stu-id="1b757-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="503e2-107">Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.</span><span class="sxs-lookup"><span data-stu-id="503e2-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="1b757-108">Šios ataskaitos konfigūravimas, norint naudoti skaičiavimo ir sumavimo informaciją</span><span class="sxs-lookup"><span data-stu-id="1b757-108">Configure this report to use counting and summing info</span></span>
-1. <span data-ttu-id="1b757-109">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="1b757-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="1b757-110">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="1b757-110">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="1b757-111">Medyje išplėskite „Intrastat“ modelis.</span><span class="sxs-lookup"><span data-stu-id="1b757-111">In the tree, expand 'Intrastat model'.</span></span>
-4. <span data-ttu-id="1b757-112">Medyje išplėskite dalį Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="1b757-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-5. <span data-ttu-id="1b757-113">Medyje pasirinkite Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing.</span><span class="sxs-lookup"><span data-stu-id="1b757-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-6. <span data-ttu-id="1b757-114">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="1b757-114">Click Designer.</span></span>
-7. <span data-ttu-id="1b757-115">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-115">Click the Mapping tab.</span></span>
-8. <span data-ttu-id="1b757-116">Spustelėdami Įtraukti šakninį elementą atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="1b757-116">Click Add root to open the drop dialog.</span></span>
-    * <span data-ttu-id="1b757-117">Įtraukite naują duomenų šaltinį, norėdami gauti išsaugotų blokų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="1b757-117">Add a new data source to get the list of memorized blocks.</span></span>  
-9. <span data-ttu-id="1b757-118">Medyje pasirinkite „Funkcijos \ Apskaičiuotas laukas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-118">In the tree, select 'Functions\Calculated field'.</span></span>
-10. <span data-ttu-id="1b757-119">Lauke Pavadinimas įveskite $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="1b757-119">In the Name field, type '$BlocksList'.</span></span>
-    * <span data-ttu-id="1b757-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="1b757-120">$BlocksList</span></span>  
-11. <span data-ttu-id="1b757-121">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="1b757-121">Click Edit formula.</span></span>
-12. <span data-ttu-id="1b757-122">Medyje pasirinkite Data collection functions\COLLECTEDLIST.</span><span class="sxs-lookup"><span data-stu-id="1b757-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
-13. <span data-ttu-id="1b757-123">Spustelėkite „Įtraukti funkciją“.</span><span class="sxs-lookup"><span data-stu-id="1b757-123">Click Add function.</span></span>
-14. <span data-ttu-id="1b757-124">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="1b757-124">Click Add data source.</span></span>
-15. <span data-ttu-id="1b757-125">Lauke Formulė įveskite COLLECTEDLIST('$BlockName', .</span><span class="sxs-lookup"><span data-stu-id="1b757-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
-    * <span data-ttu-id="1b757-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="1b757-126">COLLECTEDLIST('$BlockName',</span></span>  
-16. <span data-ttu-id="1b757-127">Lauke Formulė įveskite COLLECTEDLIST('$BlockName', "\*").</span><span class="sxs-lookup"><span data-stu-id="1b757-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
-    * <span data-ttu-id="1b757-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="1b757-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
-17. <span data-ttu-id="1b757-129">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1b757-129">Click Save.</span></span>
-    * <span data-ttu-id="1b757-130">Simbolis \* nurodo, kad visi blokai bus įtraukti į šio įrašo sąrašą.</span><span class="sxs-lookup"><span data-stu-id="1b757-130">The pattern “\*” means that all blocks will be included to the list for this record.</span></span>  
-18. <span data-ttu-id="1b757-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1b757-131">Close the page.</span></span>
-19. <span data-ttu-id="1b757-132">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="1b757-132">Click OK.</span></span>
-20. <span data-ttu-id="1b757-133">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="1b757-133">Click the Format tab.</span></span>
-21. <span data-ttu-id="1b757-134">Medyje pasirinkite Intrastat\Data.</span><span class="sxs-lookup"><span data-stu-id="1b757-134">In the tree, select 'Intrastat\Data'.</span></span>
-22. <span data-ttu-id="1b757-135">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="1b757-135">Click Add to open the drop dialog.</span></span>
-23. <span data-ttu-id="1b757-136">Medyje pasirinkite Text\Sequence.</span><span class="sxs-lookup"><span data-stu-id="1b757-136">In the tree, select 'Text\Sequence'.</span></span>
-24. <span data-ttu-id="1b757-137">Lauke Pavadinimas, įveskite Bendrosios sumos pagal blokus.</span><span class="sxs-lookup"><span data-stu-id="1b757-137">In the Name field, type 'Totals by blocks'.</span></span>
-    * <span data-ttu-id="1b757-138">Bendrosios sumos pagal blokus</span><span class="sxs-lookup"><span data-stu-id="1b757-138">Totals by blocks</span></span>  
-25. <span data-ttu-id="1b757-139">Lauke Specialieji simboliai pasirinkite Nauja eilutė – „Windows“ (CR LF).</span><span class="sxs-lookup"><span data-stu-id="1b757-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
-26. <span data-ttu-id="1b757-140">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="1b757-140">Click OK.</span></span>
-27. <span data-ttu-id="1b757-141">Medyje pasirinkite Intrastat\Data\Totals by blocks.</span><span class="sxs-lookup"><span data-stu-id="1b757-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
-28. <span data-ttu-id="1b757-142">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="1b757-142">Click Add to open the drop dialog.</span></span>
-29. <span data-ttu-id="1b757-143">Medyje pasirinkite „Tekstas \ Eilutė‟.</span><span class="sxs-lookup"><span data-stu-id="1b757-143">In the tree, select 'Text\String'.</span></span>
-30. <span data-ttu-id="1b757-144">Lauke Pavadinimas įveskite Bloko kodas.</span><span class="sxs-lookup"><span data-stu-id="1b757-144">In the Name field, type 'Block code'.</span></span>
-    * <span data-ttu-id="1b757-145">Bloko kodas</span><span class="sxs-lookup"><span data-stu-id="1b757-145">Block code</span></span>  
-31. <span data-ttu-id="1b757-146">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="1b757-146">Click OK.</span></span>
-32. <span data-ttu-id="1b757-147">Spustelėkite Įtraukti eilutę.</span><span class="sxs-lookup"><span data-stu-id="1b757-147">Click Add String.</span></span>
-33. <span data-ttu-id="1b757-148">Lauke Pavadinimas įveskite Eilučių skaičiavimas.</span><span class="sxs-lookup"><span data-stu-id="1b757-148">In the Name field, type 'Lines counting'.</span></span>
-    * <span data-ttu-id="1b757-149">Eilučių skaičiavimas</span><span class="sxs-lookup"><span data-stu-id="1b757-149">Lines counting</span></span>  
-34. <span data-ttu-id="1b757-150">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="1b757-150">Click OK.</span></span>
-35. <span data-ttu-id="1b757-151">Spustelėkite Įtraukti eilutę.</span><span class="sxs-lookup"><span data-stu-id="1b757-151">Click Add String.</span></span>
-36. <span data-ttu-id="1b757-152">Lauke Pavadinimas įveskite Bendroji suma.</span><span class="sxs-lookup"><span data-stu-id="1b757-152">In the Name field, type 'Total amount'.</span></span>
-    * <span data-ttu-id="1b757-153">Bendra suma</span><span class="sxs-lookup"><span data-stu-id="1b757-153">Total amount</span></span>  
-37. <span data-ttu-id="1b757-154">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="1b757-154">Click OK.</span></span>
-38. <span data-ttu-id="1b757-155">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-155">Click the Mapping tab.</span></span>
-39. <span data-ttu-id="1b757-156">Medyje pasirinkite $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="1b757-156">In the tree, select '$BlocksList'.</span></span>
-40. <span data-ttu-id="1b757-157">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="1b757-157">Click Bind.</span></span>
-    * <span data-ttu-id="1b757-158">Kurkite kiekvieno išsaugoto bloko suvestinės eilutę.</span><span class="sxs-lookup"><span data-stu-id="1b757-158">Create a summary line for each memorized block.</span></span>  
-41. <span data-ttu-id="1b757-159">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="1b757-159">Click the Format tab.</span></span>
-42. <span data-ttu-id="1b757-160">Medyje pasirinkite Intrastat\Data\Totals by blocks\Block code.</span><span class="sxs-lookup"><span data-stu-id="1b757-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
-43. <span data-ttu-id="1b757-161">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-161">Click the Mapping tab.</span></span>
-44. <span data-ttu-id="1b757-162">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="1b757-162">Click Edit formula.</span></span>
-45. <span data-ttu-id="1b757-163">Lauke Formulė įveskite '"Block id:: " & '.</span><span class="sxs-lookup"><span data-stu-id="1b757-163">In the Formula field, enter '"Block id: " & '.</span></span>
-    * <span data-ttu-id="1b757-164">"Block id: " &</span><span class="sxs-lookup"><span data-stu-id="1b757-164">"Block id: " &</span></span>  
-46. <span data-ttu-id="1b757-165">Medyje išplėskite dalį $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="1b757-165">In the tree, expand '$BlocksList'.</span></span>
-47. <span data-ttu-id="1b757-166">Medyje pasirinkite $BlocksList\Value.</span><span class="sxs-lookup"><span data-stu-id="1b757-166">In the tree, select '$BlocksList\Value'.</span></span>
-48. <span data-ttu-id="1b757-167">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="1b757-167">Click Add data source.</span></span>
-49. <span data-ttu-id="1b757-168">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1b757-168">Click Save.</span></span>
-50. <span data-ttu-id="1b757-169">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1b757-169">Close the page.</span></span>
-51. <span data-ttu-id="1b757-170">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="1b757-170">Click the Format tab.</span></span>
-52. <span data-ttu-id="1b757-171">Medyje pasirinkite Intrastat\Data\Totals by blocks\Lines counting.</span><span class="sxs-lookup"><span data-stu-id="1b757-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
-53. <span data-ttu-id="1b757-172">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-172">Click the Mapping tab.</span></span>
-54. <span data-ttu-id="1b757-173">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="1b757-173">Click Edit formula.</span></span>
-    * <span data-ttu-id="1b757-174">Kurkite kiekvieno šioje ataskaitoje pateikto bloko eilučių skaičiaus išvestį.</span><span class="sxs-lookup"><span data-stu-id="1b757-174">Create output for the number of lines for each block presented in this report.</span></span>  
-55. <span data-ttu-id="1b757-175">Lauke Formulė įveskite '"Number of lines in this block: " & '.</span><span class="sxs-lookup"><span data-stu-id="1b757-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
-    * <span data-ttu-id="1b757-176">"Number of lines in this block: " &</span><span class="sxs-lookup"><span data-stu-id="1b757-176">"Number of lines in this block: " &</span></span>  
-56. <span data-ttu-id="1b757-177">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT('.</span><span class="sxs-lookup"><span data-stu-id="1b757-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
-    * <span data-ttu-id="1b757-178">"Number of lines in this block: " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="1b757-178">"Number of lines in this block: " & TEXT(</span></span>  
-57. <span data-ttu-id="1b757-179">Medyje pasirinkite Data collection functions\COUNTIFS.</span><span class="sxs-lookup"><span data-stu-id="1b757-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
-58. <span data-ttu-id="1b757-180">Spustelėkite „Įtraukti funkciją“.</span><span class="sxs-lookup"><span data-stu-id="1b757-180">Click Add function.</span></span>
-59. <span data-ttu-id="1b757-181">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="1b757-181">Click Add data source.</span></span>
-60. <span data-ttu-id="1b757-182">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="1b757-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
-    * <span data-ttu-id="1b757-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="1b757-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
-61. <span data-ttu-id="1b757-184">Medyje išplėskite dalį $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="1b757-184">In the tree, expand '$BlocksList'.</span></span>
-62. <span data-ttu-id="1b757-185">Medyje pasirinkite $BlocksList\Value.</span><span class="sxs-lookup"><span data-stu-id="1b757-185">In the tree, select '$BlocksList\Value'.</span></span>
-63. <span data-ttu-id="1b757-186">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="1b757-186">Click Add data source.</span></span>
-64. <span data-ttu-id="1b757-187">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span><span class="sxs-lookup"><span data-stu-id="1b757-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
-    * <span data-ttu-id="1b757-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="1b757-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
-65. <span data-ttu-id="1b757-189">Medyje pasirinkite $RecName.</span><span class="sxs-lookup"><span data-stu-id="1b757-189">In the tree, select '$RecName'.</span></span>
-66. <span data-ttu-id="1b757-190">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="1b757-190">Click Add data source.</span></span>
-67. <span data-ttu-id="1b757-191">Lauke Formulė įveskite "Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*")).</span><span class="sxs-lookup"><span data-stu-id="1b757-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="1b757-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="1b757-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-68. <span data-ttu-id="1b757-193">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1b757-193">Click Save.</span></span>
-69. <span data-ttu-id="1b757-194">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1b757-194">Close the page.</span></span>
-70. <span data-ttu-id="1b757-195">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="1b757-195">Click the Format tab.</span></span>
-71. <span data-ttu-id="1b757-196">Medyje pasirinkite Intrastat\Data\Totals by blocks\Total amount.</span><span class="sxs-lookup"><span data-stu-id="1b757-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
-72. <span data-ttu-id="1b757-197">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="1b757-197">Click the Mapping tab.</span></span>
-73. <span data-ttu-id="1b757-198">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="1b757-198">Click Edit formula.</span></span>
-    * <span data-ttu-id="1b757-199">Kurkite išvestį, kuri bus kiekvieno šioje ataskaitoje pateikto bloko bendroji SF suma.</span><span class="sxs-lookup"><span data-stu-id="1b757-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
-74. <span data-ttu-id="1b757-200">Lauke Formulė įveskite "Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*")).</span><span class="sxs-lookup"><span data-stu-id="1b757-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
-    * <span data-ttu-id="1b757-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="1b757-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
-75. <span data-ttu-id="1b757-202">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1b757-202">Click Save.</span></span>
-76. <span data-ttu-id="1b757-203">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1b757-203">Close the page.</span></span>
-77. <span data-ttu-id="1b757-204">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1b757-204">Click Save.</span></span>
-78. <span data-ttu-id="1b757-205">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1b757-205">Close the page.</span></span>
+## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="503e2-108">Šios ataskaitos konfigūravimas, norint naudoti skaičiavimo ir sumavimo informaciją</span><span class="sxs-lookup"><span data-stu-id="503e2-108">Configure this report to use counting and summing info</span></span>
+1. <span data-ttu-id="503e2-109">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="503e2-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="503e2-110">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="503e2-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="503e2-111">Medyje išplėskite „Intrastat“ modelis.</span><span class="sxs-lookup"><span data-stu-id="503e2-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="503e2-112">Medyje išplėskite dalį Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="503e2-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="503e2-113">Medyje pasirinkite Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing.</span><span class="sxs-lookup"><span data-stu-id="503e2-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="503e2-114">Spustelėkite Konstruktorius.</span><span class="sxs-lookup"><span data-stu-id="503e2-114">Click Designer.</span></span>
+7. <span data-ttu-id="503e2-115">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-115">Click the Mapping tab.</span></span>
+8. <span data-ttu-id="503e2-116">Spustelėdami Įtraukti šakninį elementą atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="503e2-116">Click Add root to open the drop dialog.</span></span>
+    * <span data-ttu-id="503e2-117">Įtraukite naują duomenų šaltinį, norėdami gauti išsaugotų blokų sąrašą.</span><span class="sxs-lookup"><span data-stu-id="503e2-117">Add a new data source to get the list of memorized blocks.</span></span>  
+9. <span data-ttu-id="503e2-118">Medyje pasirinkite „Funkcijos \ Apskaičiuotas laukas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-118">In the tree, select 'Functions\Calculated field'.</span></span>
+10. <span data-ttu-id="503e2-119">Lauke Pavadinimas įveskite $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="503e2-119">In the Name field, type '$BlocksList'.</span></span>
+    * <span data-ttu-id="503e2-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="503e2-120">$BlocksList</span></span>  
+11. <span data-ttu-id="503e2-121">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="503e2-121">Click Edit formula.</span></span>
+12. <span data-ttu-id="503e2-122">Medyje pasirinkite Data collection functions\COLLECTEDLIST.</span><span class="sxs-lookup"><span data-stu-id="503e2-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
+13. <span data-ttu-id="503e2-123">Spustelėkite „Įtraukti funkciją“.</span><span class="sxs-lookup"><span data-stu-id="503e2-123">Click Add function.</span></span>
+14. <span data-ttu-id="503e2-124">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="503e2-124">Click Add data source.</span></span>
+15. <span data-ttu-id="503e2-125">Lauke Formulė įveskite COLLECTEDLIST('$BlockName', .</span><span class="sxs-lookup"><span data-stu-id="503e2-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
+    * <span data-ttu-id="503e2-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="503e2-126">COLLECTEDLIST('$BlockName',</span></span>  
+16. <span data-ttu-id="503e2-127">Lauke Formulė įveskite COLLECTEDLIST('$BlockName', "\*").</span><span class="sxs-lookup"><span data-stu-id="503e2-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "\*")'.</span></span>
+    * <span data-ttu-id="503e2-128">COLLECTEDLIST('$BlockName', "\*")</span><span class="sxs-lookup"><span data-stu-id="503e2-128">COLLECTEDLIST('$BlockName', "\*")</span></span>  
+17. <span data-ttu-id="503e2-129">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="503e2-129">Click Save.</span></span>
+    * <span data-ttu-id="503e2-130">Simbolis \* nurodo, kad visi blokai bus įtraukti į šio įrašo sąrašą.</span><span class="sxs-lookup"><span data-stu-id="503e2-130">The pattern “\*” means that all blocks will be included to the list for this record.</span></span>  
+18. <span data-ttu-id="503e2-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="503e2-131">Close the page.</span></span>
+19. <span data-ttu-id="503e2-132">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="503e2-132">Click OK.</span></span>
+20. <span data-ttu-id="503e2-133">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="503e2-133">Click the Format tab.</span></span>
+21. <span data-ttu-id="503e2-134">Medyje pasirinkite Intrastat\Data.</span><span class="sxs-lookup"><span data-stu-id="503e2-134">In the tree, select 'Intrastat\Data'.</span></span>
+22. <span data-ttu-id="503e2-135">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="503e2-135">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="503e2-136">Medyje pasirinkite Text\Sequence.</span><span class="sxs-lookup"><span data-stu-id="503e2-136">In the tree, select 'Text\Sequence'.</span></span>
+24. <span data-ttu-id="503e2-137">Lauke Pavadinimas, įveskite Bendrosios sumos pagal blokus.</span><span class="sxs-lookup"><span data-stu-id="503e2-137">In the Name field, type 'Totals by blocks'.</span></span>
+    * <span data-ttu-id="503e2-138">Bendrosios sumos pagal blokus</span><span class="sxs-lookup"><span data-stu-id="503e2-138">Totals by blocks</span></span>  
+25. <span data-ttu-id="503e2-139">Lauke Specialieji simboliai pasirinkite Nauja eilutė – „Windows“ (CR LF).</span><span class="sxs-lookup"><span data-stu-id="503e2-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
+26. <span data-ttu-id="503e2-140">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="503e2-140">Click OK.</span></span>
+27. <span data-ttu-id="503e2-141">Medyje pasirinkite Intrastat\Data\Totals by blocks.</span><span class="sxs-lookup"><span data-stu-id="503e2-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
+28. <span data-ttu-id="503e2-142">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="503e2-142">Click Add to open the drop dialog.</span></span>
+29. <span data-ttu-id="503e2-143">Medyje pasirinkite „Tekstas \ Eilutė‟.</span><span class="sxs-lookup"><span data-stu-id="503e2-143">In the tree, select 'Text\String'.</span></span>
+30. <span data-ttu-id="503e2-144">Lauke Pavadinimas įveskite Bloko kodas.</span><span class="sxs-lookup"><span data-stu-id="503e2-144">In the Name field, type 'Block code'.</span></span>
+    * <span data-ttu-id="503e2-145">Bloko kodas</span><span class="sxs-lookup"><span data-stu-id="503e2-145">Block code</span></span>  
+31. <span data-ttu-id="503e2-146">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="503e2-146">Click OK.</span></span>
+32. <span data-ttu-id="503e2-147">Spustelėkite Įtraukti eilutę.</span><span class="sxs-lookup"><span data-stu-id="503e2-147">Click Add String.</span></span>
+33. <span data-ttu-id="503e2-148">Lauke Pavadinimas įveskite Eilučių skaičiavimas.</span><span class="sxs-lookup"><span data-stu-id="503e2-148">In the Name field, type 'Lines counting'.</span></span>
+    * <span data-ttu-id="503e2-149">Eilučių skaičiavimas</span><span class="sxs-lookup"><span data-stu-id="503e2-149">Lines counting</span></span>  
+34. <span data-ttu-id="503e2-150">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="503e2-150">Click OK.</span></span>
+35. <span data-ttu-id="503e2-151">Spustelėkite Įtraukti eilutę.</span><span class="sxs-lookup"><span data-stu-id="503e2-151">Click Add String.</span></span>
+36. <span data-ttu-id="503e2-152">Lauke Pavadinimas įveskite Bendroji suma.</span><span class="sxs-lookup"><span data-stu-id="503e2-152">In the Name field, type 'Total amount'.</span></span>
+    * <span data-ttu-id="503e2-153">Bendra suma</span><span class="sxs-lookup"><span data-stu-id="503e2-153">Total amount</span></span>  
+37. <span data-ttu-id="503e2-154">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="503e2-154">Click OK.</span></span>
+38. <span data-ttu-id="503e2-155">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-155">Click the Mapping tab.</span></span>
+39. <span data-ttu-id="503e2-156">Medyje pasirinkite $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="503e2-156">In the tree, select '$BlocksList'.</span></span>
+40. <span data-ttu-id="503e2-157">Spustelėkite Susieti.</span><span class="sxs-lookup"><span data-stu-id="503e2-157">Click Bind.</span></span>
+    * <span data-ttu-id="503e2-158">Kurkite kiekvieno išsaugoto bloko suvestinės eilutę.</span><span class="sxs-lookup"><span data-stu-id="503e2-158">Create a summary line for each memorized block.</span></span>  
+41. <span data-ttu-id="503e2-159">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="503e2-159">Click the Format tab.</span></span>
+42. <span data-ttu-id="503e2-160">Medyje pasirinkite Intrastat\Data\Totals by blocks\Block code.</span><span class="sxs-lookup"><span data-stu-id="503e2-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
+43. <span data-ttu-id="503e2-161">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-161">Click the Mapping tab.</span></span>
+44. <span data-ttu-id="503e2-162">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="503e2-162">Click Edit formula.</span></span>
+45. <span data-ttu-id="503e2-163">Lauke Formulė įveskite '"Block id:: " & '.</span><span class="sxs-lookup"><span data-stu-id="503e2-163">In the Formula field, enter '"Block id: " & '.</span></span>
+    * <span data-ttu-id="503e2-164">"Block id: " &</span><span class="sxs-lookup"><span data-stu-id="503e2-164">"Block id: " &</span></span>  
+46. <span data-ttu-id="503e2-165">Medyje išplėskite dalį $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="503e2-165">In the tree, expand '$BlocksList'.</span></span>
+47. <span data-ttu-id="503e2-166">Medyje pasirinkite $BlocksList\Value.</span><span class="sxs-lookup"><span data-stu-id="503e2-166">In the tree, select '$BlocksList\Value'.</span></span>
+48. <span data-ttu-id="503e2-167">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="503e2-167">Click Add data source.</span></span>
+49. <span data-ttu-id="503e2-168">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="503e2-168">Click Save.</span></span>
+50. <span data-ttu-id="503e2-169">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="503e2-169">Close the page.</span></span>
+51. <span data-ttu-id="503e2-170">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="503e2-170">Click the Format tab.</span></span>
+52. <span data-ttu-id="503e2-171">Medyje pasirinkite Intrastat\Data\Totals by blocks\Lines counting.</span><span class="sxs-lookup"><span data-stu-id="503e2-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
+53. <span data-ttu-id="503e2-172">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-172">Click the Mapping tab.</span></span>
+54. <span data-ttu-id="503e2-173">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="503e2-173">Click Edit formula.</span></span>
+    * <span data-ttu-id="503e2-174">Kurkite kiekvieno šioje ataskaitoje pateikto bloko eilučių skaičiaus išvestį.</span><span class="sxs-lookup"><span data-stu-id="503e2-174">Create output for the number of lines for each block presented in this report.</span></span>  
+55. <span data-ttu-id="503e2-175">Lauke Formulė įveskite '"Number of lines in this block: " & '.</span><span class="sxs-lookup"><span data-stu-id="503e2-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
+    * <span data-ttu-id="503e2-176">"Number of lines in this block: " &</span><span class="sxs-lookup"><span data-stu-id="503e2-176">"Number of lines in this block: " &</span></span>  
+56. <span data-ttu-id="503e2-177">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT('.</span><span class="sxs-lookup"><span data-stu-id="503e2-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
+    * <span data-ttu-id="503e2-178">"Number of lines in this block: " & TEXT(</span><span class="sxs-lookup"><span data-stu-id="503e2-178">"Number of lines in this block: " & TEXT(</span></span>  
+57. <span data-ttu-id="503e2-179">Medyje pasirinkite Data collection functions\COUNTIFS.</span><span class="sxs-lookup"><span data-stu-id="503e2-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
+58. <span data-ttu-id="503e2-180">Spustelėkite „Įtraukti funkciją“.</span><span class="sxs-lookup"><span data-stu-id="503e2-180">Click Add function.</span></span>
+59. <span data-ttu-id="503e2-181">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="503e2-181">Click Add data source.</span></span>
+60. <span data-ttu-id="503e2-182">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="503e2-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
+    * <span data-ttu-id="503e2-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="503e2-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
+61. <span data-ttu-id="503e2-184">Medyje išplėskite dalį $BlocksList.</span><span class="sxs-lookup"><span data-stu-id="503e2-184">In the tree, expand '$BlocksList'.</span></span>
+62. <span data-ttu-id="503e2-185">Medyje pasirinkite $BlocksList\Value.</span><span class="sxs-lookup"><span data-stu-id="503e2-185">In the tree, select '$BlocksList\Value'.</span></span>
+63. <span data-ttu-id="503e2-186">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="503e2-186">Click Add data source.</span></span>
+64. <span data-ttu-id="503e2-187">Lauke Formulė įveskite '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span><span class="sxs-lookup"><span data-stu-id="503e2-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
+    * <span data-ttu-id="503e2-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span><span class="sxs-lookup"><span data-stu-id="503e2-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
+65. <span data-ttu-id="503e2-189">Medyje pasirinkite $RecName.</span><span class="sxs-lookup"><span data-stu-id="503e2-189">In the tree, select '$RecName'.</span></span>
+66. <span data-ttu-id="503e2-190">Spustelėkite „Įtraukti duomenų šaltinį“.</span><span class="sxs-lookup"><span data-stu-id="503e2-190">Click Add data source.</span></span>
+67. <span data-ttu-id="503e2-191">Lauke Formulė įveskite "Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*")).</span><span class="sxs-lookup"><span data-stu-id="503e2-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="503e2-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="503e2-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+68. <span data-ttu-id="503e2-193">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="503e2-193">Click Save.</span></span>
+69. <span data-ttu-id="503e2-194">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="503e2-194">Close the page.</span></span>
+70. <span data-ttu-id="503e2-195">Spustelėkite skirtuką Formatas.</span><span class="sxs-lookup"><span data-stu-id="503e2-195">Click the Format tab.</span></span>
+71. <span data-ttu-id="503e2-196">Medyje pasirinkite Intrastat\Data\Totals by blocks\Total amount.</span><span class="sxs-lookup"><span data-stu-id="503e2-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
+72. <span data-ttu-id="503e2-197">Spustelėkite skirtuką „Susiejimas“.</span><span class="sxs-lookup"><span data-stu-id="503e2-197">Click the Mapping tab.</span></span>
+73. <span data-ttu-id="503e2-198">Spustelėkite „Redaguoti formulę“.</span><span class="sxs-lookup"><span data-stu-id="503e2-198">Click Edit formula.</span></span>
+    * <span data-ttu-id="503e2-199">Kurkite išvestį, kuri bus kiekvieno šioje ataskaitoje pateikto bloko bendroji SF suma.</span><span class="sxs-lookup"><span data-stu-id="503e2-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
+74. <span data-ttu-id="503e2-200">Lauke Formulė įveskite "Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*")).</span><span class="sxs-lookup"><span data-stu-id="503e2-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))'.</span></span>
+    * <span data-ttu-id="503e2-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span><span class="sxs-lookup"><span data-stu-id="503e2-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "\*"))</span></span>  
+75. <span data-ttu-id="503e2-202">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="503e2-202">Click Save.</span></span>
+76. <span data-ttu-id="503e2-203">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="503e2-203">Close the page.</span></span>
+77. <span data-ttu-id="503e2-204">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="503e2-204">Click Save.</span></span>
+78. <span data-ttu-id="503e2-205">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="503e2-205">Close the page.</span></span>
 
 
