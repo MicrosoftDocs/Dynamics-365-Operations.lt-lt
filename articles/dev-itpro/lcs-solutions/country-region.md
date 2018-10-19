@@ -3,7 +3,7 @@ title: "Lokalizavimo ir reguliavimo priemonės"
 description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/05/2018
+ms.date: 09/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
-ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/05/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/05/2018
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/ax-availabilityguide). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+„Microsoft Dynamics 365 for Finance and Operations“ turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/ax-availabilityguide). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
 Šioje temoje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
 - Daugiau sužinoti apie konkrečioms šalims / regionams skirtų sprendimų kūrimą.
@@ -88,7 +88,7 @@ Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-st
         - [Brazilija](../../financials/localizations/brazil.md)
         - [Kinija](../../financials/localizations/china.md)
         - [Čekija](../../financials/localizations/czech-republic.md)
-        - [Estonia](../../financials/localizations/estonia.md)
+        - [Estija](../../financials/localizations/estonia.md)
         - [Europa](../../financials/localizations/europe.md)
         - [Prancūzija](../../financials/localizations/france.md)
         - [Vokietija](../../financials/localizations/germany.md)
@@ -107,6 +107,7 @@ Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-st
     :::column-end:::
     :::column:::
         - [Lenkija](../../financials/localizations/poland.md)
+        - [Rusija](../../financials/localizations/russia.md)
         - [Saudo Arabija](../../financials/localizations/saudi-arabia.md)
         - [Singapūras](../../financials/localizations/singapore.md)
         - [Ispanija](../../financials/localizations/spain.md)

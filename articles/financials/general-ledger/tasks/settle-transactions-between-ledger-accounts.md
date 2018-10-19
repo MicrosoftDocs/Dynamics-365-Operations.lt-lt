@@ -3,7 +3,7 @@ title: "DK sąskaitų operacijų sudengimas"
 description: "Ši procedūra nurodo, kaip sudengti operacijas tarp DK sąskaitų ir atšaukti DK sudengimą."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>DK sąskaitų operacijų sudengimas
@@ -33,19 +33,20 @@ ms.lasthandoff: 09/29/2017
 ## <a name="settle-transaction-between-ledger-accounts"></a>DK sąskaitų operacijos sudengimas
 1. Pasirinkite Didžioji knyga > Periodinės užduotys > DK sudengimai.
 2. Sąraše raskite operaciją, kurią norite sudengti.
-    * Sumos balansas turi būti nulis.  
+   > [!NOTE]
+   > Sumos balansas turi būti nulis.  
 3. Spustelėkite Įtraukti.
 4. Spustelėkite Priimti.
 
 ## <a name="cancel-a-ledger-settlement"></a>DK sudengimo atšaukimas
-1. Uždarykite puslapį.
-2. Pasirinkite Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas.
-3. Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.
-4. Spustelėkite Naujinti.
-5. Sąraše raskite sąskaitą, kurioje yra sudengta operacija.
-6. Spustelėkite Visos operacijos.
-7. Naudokite filtrą, kad galėtumėte sąraše lengvai rasti operaciją.
-8. Spustelėkite DK sudengimai.
-9. Sąraše pažymėkite pasirinktą eilutę.
+
+1. Pasirinkite Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas.
+2. Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.
+3. Spustelėkite Naujinti.
+4. Sąraše raskite sąskaitą, kurioje yra sudengta operacija.
+5. Spustelėkite Visos operacijos.
+6. Naudokite filtrą, kad galėtumėte sąraše lengvai rasti operaciją.
+7. Spustelėkite DK sudengimai.
+8. Sąraše pažymėkite pasirinktą eilutę.
 
 

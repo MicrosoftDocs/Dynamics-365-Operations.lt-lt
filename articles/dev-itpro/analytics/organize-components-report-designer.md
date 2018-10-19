@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -37,12 +37,9 @@ Galite pervardyti aplankus, ataskaitas, kūrimo blokus ir kitus objektus ataskai
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aplanko arba kūrimo bloko pervardijimas ataskaitų konstruktoriuje
 Ataskaitų dizaino įrankyje galite pervardyti aplankus, ataskaitų, eilučių, stulpelių ir ataskaitų medžių aprašus.
 
-> [!NOTE]
-> Pervardiję kūrimo bloką, turite atnaujinti visus ataskaitų aprašus, naudojančius tą kūrimo bloką. Kitaip nauja ataskaita negalės būti sėkmingai sugeneruota.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aplanko arba kūrimo bloko pervardijimas ataskaitų dizaino įrankyje
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aplanko arba kūrimo bloko pervardijimas ataskaitų konstruktoriuje
-
-1. Ataskaitų konstruktoriuje raskite aplanką arba objektą, kurį norite pervardyti, naudodami naršymo sritį.
+1. Norėdami rasti pervardytiną aplanką arba objektą naudokite ataskaitų dizaino įrankio naršymo sritį.
 2. Dešiniuoju pelės klavišu spustelėkite aplanką arba objektą ir tada spustelėkite **Pervardyti**. Naršymo srities laukas **Pavadinimas** tampa aktyvus.
 3. Įveskite naują pavadinimą ir tada paspauskite Įvesti.
 4. Jei kūrimo blokas yra eilutės aprašas, stulpelio aprašas arba ataskaitų medžio aprašas, turite atnaujinti kitus kūrimo blokus, susietus su šiuo kūrimo bloku. Dešiniuoju pelės klavišu spustelėkite kūrimo bloką, pervardytą atliekant 3 veiksmą, pasirinkite **Susiejimai** ir tada pasirinkite sąrašo elementą, kad jį atnaujintumėte.

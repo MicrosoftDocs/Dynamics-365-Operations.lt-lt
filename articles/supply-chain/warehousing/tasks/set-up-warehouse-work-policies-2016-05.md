@@ -1,29 +1,30 @@
 --- 
-title: "Nustatyti sandėlio darbo strategijas "
+title: "Sandėlio darbo strategijų nustatymas (programa, 2016 m. gegužė)"
 description: "Sandėlio procesai ne visada apima sandėlio darbą."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-warehouse-work-policies"></a>Nustatyti sandėlio darbo strategijas  
+# <a name="set-up-warehouse-work-policies-application-may-2016"></a>Sandėlio darbo strategijų nustatymas (programa, 2016 m. gegužė)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

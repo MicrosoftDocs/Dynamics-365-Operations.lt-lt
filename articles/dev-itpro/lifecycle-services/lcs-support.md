@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 Šiame straipsnyje paaiškinta, kaip gauti pagalbos dėl „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
 
-<a name="contact-support"></a>Kreiptis į pagalbos tarnybą
----------------
+## <a name="contact-support"></a>Kreiptis į pagalbos tarnybą
 
 Naudodamiesi straipsnyje pateikta informacija kreipkitės į „Microsoft“, jeigu turite techninių klausimų apie „Finance and Operations“, arba reikia pagalbos pasiekiant „Microsoft Dynamics Lifecycle Services“ (LCS).
 
@@ -89,8 +88,10 @@ Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „Custome
 </tbody>
 </table>
 
-Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Papildomi ištekliai
+- [„Dynamics 365 for Retail“ palaikymo gavimas](../../retail/retail-support.md)
+- [„Dynamics 365 for Talent“ palaikymo gavimas](../../talent/talent-support.md)
+- Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 

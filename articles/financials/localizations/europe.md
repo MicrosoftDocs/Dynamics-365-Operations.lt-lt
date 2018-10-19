@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama informacija ir saitai į išteklius, kurie gali padėti nustatyti „Dynamics 365 for Finance and Operations“ juridiniams objektams, kurių pagrindinis adresas yra Brazilijoje. 
+Šioje temoje pateikiama informacija ir saitai į išteklius, kurie gali padėti nustatyti „Dynamics 365 for Finance and Operations“ juridiniams objektams, kurių pagrindinis adresas yra Europoje. 
 
 - [Avanso turėtojai](emea-advance-holders.md)
  - [Avanso turėtojų operacijos](emea-advance-holders-transactions.md)
@@ -42,11 +42,9 @@ ms.lasthandoff: 08/13/2018
 - [ES pardavimo sąrašo ataskaitos](emea-eu-sales-list.md)
 - [Valiutų kursų koregavimai](emea-exchange-rate-adjustments.md)
 - [Failo formatai mokėjimo metodams](emea-select-file-formats-for-the-method-of-payments.md)
-- [Mokesčių tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
+- [Finansų tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
 - [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Užsienio valiutos kurso pasikeitimas](emea-foreign-currency-revaluation.md)
 - [Atsargų perkėlimo įmonės viduje perkėlimo dokumentų generavimas](tasks/transfer-document-internal-inventory-transfer.md)
-- [ES „Intrastat“ deklaracijos generavimas](tasks/eur-00002-eu-intrastat-declaration.md)
 - [ES pardavimo sąrašo ataskaitos generavimas](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 failai
   - [ISO20022 failų importavimas](emea-ISO20022-file-formats.md)
@@ -60,7 +58,9 @@ ms.lasthandoff: 08/13/2018
   - [ISO20022 kredito pervedimų tiekėjų ir tiekėjų banko sąskaitų nustatymas](tasks/set-up-vendor-iso20022-credit-transfers.md)
   - [Tiekėjų mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
-  - [Operacijų perkėlimas į „Intrastat“](tasks/transfer-transactions-intrastat.md)
+  - [Operacijų perkėlimas į Intrastat](tasks/transfer-transactions-intrastat.md)
+  - [Vidaus operacijos pakrovimo adreso nurodymas](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [ES Intrastat deklaracijos generavimas](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Atsargų žurnalo ataskaitos](emea-set-up-report-inventory-journal-names.md)
 - [Sąskaitų faktūrų išdavimo terminai](emea-invoice-issue-deadline.md)
 - [SF apdorojimas](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ ms.lasthandoff: 08/13/2018
 - [ES pardavimo sąrašo ataskaitų nustatymas](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Projekto sąskaitų faktūrų mokėjimo kvito formato nustatymas](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Spausdinimo formų pasirašančiųjų nustatymas](emea-set-up-signers-for-printing-forms.md)
-- [Prekių perkėlimo įmonės viduje perkėlimo dokumentų nustatymas](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Vidaus operacijos pakrovimo adreso nurodymas](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Storno apskaita](emea-storno.md)
 - [Mokesčių direktyvos](emea-tax-directives.md)
 - [Sumų rodymo ataskaitose ir dokumentuose naujinimas](emea-amount-printing-forms.md)

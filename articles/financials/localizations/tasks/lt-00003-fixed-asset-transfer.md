@@ -1,28 +1,29 @@
 --- 
-title: "Generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą (Lietuva)"
+title: "LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą"
 description: "Jei jūsų organizacijai reikia perkelti ilgalaikį turtą iš vieno padalinio į kitą ir du padaliniai nėra toje pačioje vietoje, perkėlimas turi būti patvirtintas važtaraščiu."
 author: KimANelson
 manager: AnnBe
-ms.date: 02/17/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VehicleModelTable_W, LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, AssetWarehouseTransfer, HcmWorkerLookUp, SysQueryForm, LtAssetPackingSlip, TransportationDocument, LogisticsPostalAddressLookup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Lithuania
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 551227f0cce597c1a1f254fc71091173758dfc7c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 033fb6d58476f72dcdc0a46976c88b4d32b5c108
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="generate-a-fixed-asset-transfer-between-warehouses-document-lithuania"></a>Generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą (Lietuva)
+# <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a>LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,7 +3,7 @@ title: "Pridėtinių išlaidų skaičiavimas"
 description: "Šioje temoje aprašomi įprasti pridėtinių išlaidų skaičiavimo ir paskirstymo procesai."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -191,8 +191,7 @@ Kai kuriais atvejais dalis išlaidų yra fiksuotas mokestis, o likusi dalis yra 
 </tbody>
 </table>
 
-Išsamios informacijos apie išlaidų veikimo būdą žr. temoje Išlaidų veikimo būdo strategija. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.)
-
+Daugiau informacijos ieškokite srityje [Savikainos veikimo būdo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui](tasks/create-assign-cost-behavior-policy-cost-control-unit.md)
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>2 veiksmas: išlaidų paskirstymo skaičiavimo apdorojimas
 
 Išlaidų paskirstymas naudojamas perskirstyti išlaidas iš vieno išlaidų objekto į vieną arba kelis kitus išlaidų objektus, taikant atitinkamą paskirstymo bazę. Išlaidų paskirstymas ir išlaidų priskyrimas skiriasi tuo, kad išlaidų paskirstymas vykdomas pirminių išlaidų pirminio išlaidų elemento lygiu.
@@ -430,7 +429,7 @@ Fiksuota savikaina turi būti tolygiai paskirstyta atskiriems išlaidų objektam
 </tbody>
 </table>
 
-Daugiau informacijos apie išlaidų paskirstymą ir paskirstymo pagrindus žr. temose Išlaidų paskirstymo strategija ir Paskirstymo pagrindai. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.)
+Daugiau informacijos ieškokite srityje [Savikainos paskirstymo kūrimas ir priskyrimas savikainos kontrolės įtaisui](tasks/create-assign-cost-distribution-policy-cost-control-unit.md) 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>3 veiksmas: pridėtinių išlaidų tarifo skaičiavimo procesas
 
@@ -618,7 +617,7 @@ Toliau pateikiamoje lentelėje rodoma, kas nutinka personalo projektus pritaikiu
 </tbody>
 </table>
 
-Išsamesnės informacijos apie pridėtinių išlaidų tarifo strategiją žr. temoje Pridėtinių išlaidų tarifo strategija ir Paskirstymo pagrindai. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.)
+Daugiau informacijos ieškokite srityje [Atlikti pridėtinių išlaidų skaičiavimą](cost-rollup.md#perform-overhead-calculation)..
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>4 veiksmas: išlaidų paskirstymo skaičiavimo apdorojimas
 
@@ -725,7 +724,8 @@ Išlaidų objekto CC004 pakavimo padalinys prisideda prie kelių išlaidų objek
 </tbody>
 </table>
 
-**Pastaba:** programoje „Finance and Operations“ statistines priemones, pvz., produkto gamybai sugaištų valandų skaičių, galima gauti iš šaltinio duomenų. Išsamesnės informacijos apie statistinių priemonių teikimo įrankius žr. temoje Statistinės priemonės teikimo įrankio šablonas. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.) Toliau pateikiamoje lentelėje rodoma, kas nutinka pritaikius personalo paslaugas kaip visų išlaidų (fiksuotos savikainos ir kintamos savikainos) paskirstymo pagrindą.
+> [!NOTE]
+> Programoje „Finance and Operations“ statistines priemones, pvz., produkto gamybai sugaištų valandų skaičių, galima gauti iš šaltinio duomenų. Norėdami gauti daugiau informacijos, žr. [Statistinių priemonių teikimo įrankio šablonas](statistical-measure-provider-template.md#statistical-measure-provider-template). Toliau pateikiamoje lentelėje parodoma, kas nutinka pritaikius personalo padalinio paslaugas kaip visų išlaidų (fiksuotos savikainos ir kintamos savikainos) paskirstymo pagrindą.
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Finansinėje apskaitoje 10 000,00 išlaidos už elektrą registruojamos fiktyvia
 </table>
 
 > [!NOTE]
-> Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Išsamesnės informacijos žr. temoje Išlaidų sumavimo strategija. (Atkreipkite dėmesį, kad ši tema nėra, bet bus greitai baigta.)
+> Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Išsamesnės informacijos žr. temoje [Išlaidų sumavimas](cost-rollup.md).
 
 
 

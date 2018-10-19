@@ -1,9 +1,9 @@
 ---
-title: "Prižiūrėti suplanuotus užsakymus"
-description: "Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo."
+title: "Suplanuotų užsakymų tvarkymas"
+description: "Šioje temoje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,18 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: e0e3e86ae85b59b10dc8d9ca9b0130d218469118
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/02/2018
 
 ---
 
-# <a name="maintain-planned-orders"></a>Prižiūrėti suplanuotus užsakymus
+# <a name="maintain-planned-orders"></a>Suplanuotų užsakymų tvarkymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo.
+Šioje temoje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo.
 
 Suplanuotus užsakymus galite valdyti naudodami darbo sritį **Bendrasis planavimas**, sąrašą **Suplanuoti užsakymai** arba sąrašus **Suplanuoti gamybos užsakymai**, **Suplanuoti pirkimo užsakymai** ir **Suplanuotas perkėlimas**. Galite naudoti lauką **Būsena** progresui sekti. Naudojamos toliau nurodytos reikšmės.
 
@@ -45,7 +45,7 @@ Suplanuotus užsakymus galite valdyti naudodami darbo sritį **Bendrasis planavi
 -   Keli suplanuoti užsakymai.
 -   Suplanuoti užsakymai, sugeneruoti išskleidžiant juos puslapyje **Išskleidimas**. Spustelėkite **Suplanuoti užsakymai**, pasirinkite suplanuotą užsakymą ir spustelėkite **Patvirtinti**.
 
-Kai suplanuotas užsakymas patvirtinamas, jis perkeliamas į atitinkamo modulio užsakymų dalį. **Pastaba:** dešiniuoju pelės mygtuku galite spustelėti suplanuotą tam tikros būsenos užsakymą ir filtruoti visus kitus suplanuotus užsakymus, kurių būsena tokia pati. Ši funkcija yra naudinga, jei, pavyzdžiui, norite filtruoti visus suplanuotus užsakymus, kurių būsena yra **Patvirtinta**, kad galėtumėte juos patvirtinti.
+Kai suplanuotas užsakymas patvirtinamas, jis perkeliamas į atitinkamo modulio užsakymų dalį. 
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

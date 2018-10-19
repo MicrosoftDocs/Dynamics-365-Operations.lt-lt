@@ -1,32 +1,33 @@
 --- 
-title: "Atlyginimų / kompensavimo struktūrų ir planų kūrimas"
-description: "Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles."
+title: "Kurti atlyginimų / kompensavimo struktūrą ir planą"
+description: "Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0514cd485c8fa0026390a22be350ff23933afd7b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="develop-salarycompensation-structures-and-plans"></a>Atlyginimų / kompensavimo struktūrų ir planų kūrimas
+# <a name="develop-salarycompensation-structure-and-plan"></a>Kurti atlyginimų / kompensavimo struktūrą ir planą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šiame užduočių vadove apžvelgiamas procesas, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
+Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
 
 
 ## <a name="create-fixed-compensation-plan"></a>Kurti pastoviosios atlyginimo dalies planą

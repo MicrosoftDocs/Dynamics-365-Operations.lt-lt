@@ -1,28 +1,29 @@
 --- 
-title: "Audituoti mokėtinų sumų SF ir pagrindinius duomenis"
+title: Audituoti SF ir pagrindinius duomenis AP sistemoje
 description: "Gavę sąskaitą faktūrą iš tiekėjo už prekes ir paslaugas, pateiktas pirkimo užsakyme, atsižvelgiant į verslo procesus, gali reikėti, kad prekės ar paslaugos būtų gautos prieš pateikiant sąskaitą faktūrą apmokėti."
 author: saraschi2
 manager: AnnBe
-ms.date: 02/16/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5cd9448c95b7ec0c4a82aca3d21d961259dfb109
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Audituoti mokėtinų sumų SF ir pagrindinius duomenis
+# <a name="audit-invoices-and-key-data-in-ap-system"></a>Audituoti SF ir pagrindinius duomenis AP sistemoje
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
