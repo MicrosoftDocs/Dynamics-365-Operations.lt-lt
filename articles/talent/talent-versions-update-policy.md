@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -47,7 +47,7 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 > * Darbo eigos rengyklė paleidžiama kaip „ClickOnce“ taikomoji programa. Tik „Microsoft Edge“ ir „Internet Explorer“ (palaikomoje „Microsoft Windows“ versijoje) palaiko „ClickOnce“ taikomąsias programas. Darbo eigos rengyklės „ClickOnce“ taikomajai programai reikia 64 bitų suderinamos operacinės sistemos.
 > * Norint peržiūrėti PDF failus, rekomenduojame naudoti modernias naršykles, pvz., „Microsoft Edge“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“ arba „Google Chrome“ (naujausią viešai prieinamą versiją) sistemoje „Windows 10“, „Windows 8.1“, „Windows 8“ ar „Windows 7“ arba „Google" Nexus 10“ planšetiniame kompiuteryje.
 >   Tinklo reikalavimai
-> * „Dynamics 365 for Talent“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Talent“. Rekomenduojame tinklo laukimo laiką patikrinti [www.azurespeed.com](http://www.azurespeed.com "„Azure“ gaišties bandymas").
+> * „Dynamics 365 for Talent“ sukurta tinklams, kurių laukimo laikas nėra didesnis nei 250–300 milisekundžių (ms). Tai laukimo laikas iš naršyklės kliento iki „Microsoft Azure“ duomenų centro, kuriame yra „Dynamics 365 for Talent“. Rekomenduojame tinklo laukimo laiką patikrinti [www.azurespeed.com](https://www.azurespeed.com "„Azure“ gaišties bandymas").
 > * Pralaidumo reikalavimai „Dynamics 365 for Talent“ priklauso nuo jūsų scenarijaus. Labiausiai įprastiems scenarijams reikia didesnio nei 50 kilobitų per sekundę (KB/s) pralaidumo.
 > 
 > [!WARNING]

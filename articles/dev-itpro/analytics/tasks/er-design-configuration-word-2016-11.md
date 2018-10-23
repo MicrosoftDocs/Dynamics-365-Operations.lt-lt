@@ -1,25 +1,26 @@
 --- 
 title: "ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu"
-description: "Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER) formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word” failus."
+description: "Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word” failus."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
@@ -30,9 +31,9 @@ Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba 
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas“ veiksmus. Iš anksto taip pat turite atsisiųsti ir įrašyti šiuos šablonus vietoje ataskaitos pavyzdžiui:
 
-[Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Susietas mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Susietas mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Ši procedūra yra skirta funkcijai, įtrauktai į „Microsoft Dynamics 365 for Operations“ 1611 versiją.
 
@@ -49,7 +50,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadov
 ## <a name="replace-the-excel-template-with-the-word-template"></a>„Excel” šabloną pakeiskite „Word“ šablonu
     * Šiuo metu „Excel” dokumentas naudojamas kaip šablonas OPENXML formato išvesčiai generuoti. Importuosime ataskaitos šabloną „Word“ formatu.  
 1. Spustelėkite Priedai.
-    * Esamą „Excel” šabloną pakeiskite „Word“ šablonu Mokėjimo ataskaitos šablonas, kurį atsisiuntėte anksčiau. Atkreipkite dėmesį, kad šiame šablone yra tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį.  
+    * Esamą „Excel” šabloną pakeiskite „Word“ šablonu SampleVendPaymDocReport.docx, kurį atsisiuntėte anksčiau. Atkreipkite dėmesį, kad šiame šablone yra tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį.  
 2. Spustelėkite Naikinti.
 3. Spustelėkite Taip.
 4. Spustelėkite Naujas.

@@ -1,28 +1,29 @@
 --- 
-title: "Kurti sudėtinių produktų medžiagų planą"
+title: "Sudėtinių produktų medžiagų plano kūrimas"
 description: "Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės sudėtiniai produktai."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c8805ca02525ae001fbd5e10ad9405fe60c7473e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-a-material-plan-for-co-products"></a>Kurti sudėtinių produktų medžiagų planą
+# <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -43,28 +44,71 @@ Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės
     * Pavyzdys: 50000  
 9. Spustelėkite Įrašyti.
 
-## <a name="create-a-material-plan-for-co-products"></a>Kurti sudėtinių produktų medžiagų planą
-1. Spustelėkite Bendrasis planavimas.
-2. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+## <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
+1. Uždarykite puslapį.
+2. Uždarykite puslapį.
+3. Spustelėkite Bendrasis planavimas.
+4. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Pavyzdys: MasterPlan  
-4. Spustelėkite Vykdyti.
-5. Išplėskite arba sutraukite dalį Įtrauktini įrašai.
-6. Spustelėkite Filtras.
-7. Sąraše pasirinkite lauko eilutę =Prekės numeris.
-8. Lauke Kriterijai surinkite reikšmę.
+6. Spustelėkite Vykdyti.
+7. Išplėskite arba sutraukite dalį Įtrauktini įrašai.
+8. Spustelėkite Filtras.
+9. Sąraše pasirinkite lauko eilutę =Prekės numeris.
+10. Lauke Kriterijai surinkite reikšmę.
     * Pavyzdys: P6003  
-9. Spustelėkite GERAI.
-10. Spustelėkite GERAI.
-11. Spustelėkite Suplanuoti užsakymai.
-12. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Prekės numeris reikšme „P6000 “.
+11. Spustelėkite GERAI.
+12. Spustelėkite GERAI.
+13. Spustelėkite Suplanuoti užsakymai.
+14. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Prekės numeris reikšme „P6000 “.
     * Filtruokite pagal sudėtinę prekę, kuri turi prekės, kuriai sukūrėte pardavimo užsakymą, sudėtinį produktą.  
-13. Sąraše pažymėkite pasirinktą eilutę.
+15. Sąraše pažymėkite pasirinktą eilutę.
     * Pasirinkite vieną iš filtro pateiktų eilučių.  
-14. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-15. Išplėskite arba sutraukite skyrių „Iškvietimas“.
 16. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+17. Išplėskite arba sutraukite skyrių „Iškvietimas“.
+18. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Suplanuotas užsakymas yra susietas su sudėtinio produkto pardavimo užsakymu.  
-17. Uždarykite puslapį.
+19. Uždarykite puslapį.
+
+## <a name="create-requirement-for-a-co-product"></a>Kurti sudėtinio produkto poreikį
+1. Eikite į Numatytoji ataskaitų sritis.
+2. Spustelėkite Pardavimo užsakymo apdorojimas ir užklausa.
+3. Spustelėkite Naujas.
+4. Spustelėkite Pardavimo užsakymas.
+5. Lauke Kliento sąskaita surinkite reikšmę.
+    * Pavyzdys: US-001  
+6. Spustelėkite GERAI.
+7. Lauke Prekės numeris surinkite reikšmę.
+    * Pavyzdys: P6003  
+8. Lauke Kiekis įveskite skaičių.
+    * Pavyzdys: 50000  
+9. Spustelėkite Įrašyti.
+
+## <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
+1. Lauke Planas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+    * Pavyzdys: MasterPlan  
+3. Spustelėkite Vykdyti.
+4. Išplėskite arba sutraukite dalį Įtrauktini įrašai.
+5. Spustelėkite Filtras.
+6. Sąraše pasirinkite lauko eilutę =Prekės numeris.
+7. Lauke Kriterijai surinkite reikšmę.
+    * Pavyzdys: P6003  
+8. Spustelėkite GERAI.
+9. Spustelėkite GERAI.
+10. Spustelėkite Suplanuoti užsakymai.
+11. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Prekės numeris reikšme „P6000 “.
+    * Filtruokite pagal sudėtinę prekę, kuri turi prekės, kuriai sukūrėte pardavimo užsakymą, sudėtinį produktą.  
+12. Sąraše pažymėkite pasirinktą eilutę.
+    * Pasirinkite vieną iš filtro pateiktų eilučių.  
+13. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+14. Išplėskite arba sutraukite skyrių „Iškvietimas“.
+15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+    * Suplanuotas užsakymas yra susietas su sudėtinio produkto pardavimo užsakymu.  
+16. Uždarykite puslapį.
+17. Spustelėkite Bendrasis planavimas.
+18. Eikite į Bendrasis planavimas > Sąranka > Bendrojo planavimo parametrai.
+19. Lauke Išjungti visus planavimo procesus pasirinkite Ne.
+20. Uždarykite puslapį.
 
 

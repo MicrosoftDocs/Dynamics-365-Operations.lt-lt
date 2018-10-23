@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
+ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
+ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -47,7 +47,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Tobulinimo šakos ir versijos nustatymas](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Kūrimo įrenginio nustatymas](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [„Visual Studio Team Services“ integravimas su „Lifecycle Services“](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [„Azure DevOps“ integravimas su „Lifecycle Services“](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>Vartotojo sąsajos naršymas
 - [Pasirinktinių laukų pridėjimas](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
@@ -159,7 +159,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [„AX 2009“ perkėlimo įrankiai (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Atnaujinimas iš „AX 2012“ į „Dynamics 365 for Operations“ (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Kaip iš 7.0 atnaujinti į 7.2 versiją (2017 m. liepos mėn.) (RTW) / 7.1 (1611 leidimas) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [„Visual Studio Team Services“ (VSTS) sąranka (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [„Azure DevOps“ sąranka (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>Sandėlio valdymas
 - [Mišrių numerio lentelių gavimo priedas (DYN331PAL)](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)

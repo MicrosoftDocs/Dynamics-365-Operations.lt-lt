@@ -1,28 +1,29 @@
 --- 
-title: "Elektroninių ataskaitų formato, skirto skaičiavimo ir sumavimo veiksmams atlikti, kūrimas"
+title: "ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis – Formato kūrimas)"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Elektroninių ataskaitų (ER) formato, skirto skaičiavimo ir sumavimo veiksmams atlikti, kūrimas
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

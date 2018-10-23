@@ -3,26 +3,27 @@ title: "Kurti tęstinumo planą"
 description: "Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norėsite rasti žmogų, kurio įgūdžiai panašūs kaip ir kito asmens."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="develop-a-succession-plan"></a>Kurti tęstinumo planą
+# <a name="develop-succession-plan"></a>Kurti tęstinumo planą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,7 +37,7 @@ Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norė
 6. Spustelėkite Nuskaityti šabloną.
 7. Spustelėkite Asmuo.
 8. Lauke Asmuo surinkite vardą arba pasirinkite išplečiamąjį sąrašą.  Pavyzdys: Cassie Hicks.
-9. Spustelėkite GERAI.
+9. Spustelėkite Gerai.
 10. Išplėtę sertifikatų „FastTab‟ galėsite peržiūrėti arba redaguoti sertifikatus, įtrauktus į įgūdžių išdėstymą.
 11. Išplėtę „FastTab‟ Įgūdžiai, galėsite peržiūrėti arba redaguoti įgūdžius, kurie bus įtraukti.
 12. Sąraše pažymėkite pirmąją eilutę.  Pavyzdys: apskaita

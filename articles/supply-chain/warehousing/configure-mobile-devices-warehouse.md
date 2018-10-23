@@ -1,9 +1,9 @@
 ---
 title: "Mobiliųjų įrenginių nustatymas darbui sandėlyje"
-description: "Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu."
+description: "Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
+Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 
-**Pastaba.** Šis straipsnis taikomas sandėlio valdymo funkcijoms. Jis netaikomas atsargų valdymo funkcijoms. Sandėlio mobiliojo įrenginio meniu rodomi meniu elementai yra sukonfigūruoti puslapyje **Mobiliojo įrenginio meniu elementai**. Kadangi meniu elementus galima įtraukti į skirtingus meniu, lengva sukonfigūruoti meniu struktūras, kad tam tikri vartotojai susidurtų tik su konkrečių tipų darbais. Galite konfigūruoti meniu elementus norėdami atlikti šias užduotis:
+**Pastaba.** Ši tema taikoma sandėlio valdymo funkcijoms. Jis netaikomas atsargų valdymo funkcijoms. Sandėlio mobiliojo įrenginio meniu rodomi meniu elementai yra sukonfigūruoti puslapyje **Mobiliojo įrenginio meniu elementai**. Kadangi meniu elementus galima įtraukti į skirtingus meniu, lengva sukonfigūruoti meniu struktūras, kad tam tikri vartotojai susidurtų tik su konkrečių tipų darbais. Galite konfigūruoti meniu elementus norėdami atlikti šias užduotis:
 
 -   Apdoroti užklausą arba vykdyti veiklą, pvz., spausdinti žymę, generuoti numerių lenteles, paleisti gamybos užsakymą arba greitai peržvelgti informaciją apie vietoje esančias prekes.
 -   Kurti darbą, kuris bus atliekamas kitame procese. Pavyzdžiui, pirkimo užsakymo prekės gavimas gali sukurti atidėjimo darbą kitam darbuotojui.
@@ -193,7 +193,7 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Meniu elementų konfigūravimas esamam darbui apdoroti
-Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu elementus darbui, kuris jau sukurtas, apdoroti. Nustatykite lauko **Režimas** vertę į **Darbas** ir pasirinkite parinktį **Naudoti esamą darbą**. Skirtuke **Bendra** tampa galimos papildomos galimybės. Galite valdyti prieigą prie meniu elemento priskirdami vieną ar daugiau darbo klasių „FastTab“ skirtuke **Darbo klasė**. Darbo klasės apibrėžia darbą, kurį galima apdoroti naudojantis meniu elementu. Darbo klases taip pat galima naudoti siekiant suteikti prieigą prie konkretaus vartotojo vaidmenų arba atskirti skirtingų tipų operacijų vykdymą. Toliau pateiktoje lentelėje aprašomos galimos parinktys.
+Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu elementus darbui, kuris jau sukurtas, apdoroti. Nustatykite lauko **Režimas** vertę į **Darbas** ir pasirinkite parinktį **Naudoti esamą darbą**. Skirtuke **Bendra** tampa galimos papildomos galimybės. Galite valdyti prieigą prie meniu elemento priskirdami vieną ar daugiau darbo klasių „FastTab“ skirtuke **Darbo klasė**. Darbo klasės apibrėžia darbą, kurį galima apdoroti naudojantis meniu elementu. Darbo klases taip pat galima naudoti siekiant suteikti prieigą prie konkretaus vartotojo vaidmenų arba atskirti skirtingų tipų operacijų vykdymą. Toliau pateiktoje lentelėje aprašomos galimos parinktys. Parinktį galima pasirinkti puslapio **Mobiliojo įrenginio meniu elementai** lauke **Nukreipė**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 <tr class="even">
 <td>Ciklo skaičiavimo grupavimas</td>
 <td>Darbuotojas pasirenka zoną, darbo telkinį arba vietą, o „Microsoft Dynamics 365 for Finance and Operations“ paskirsto darbus pagal pasirinkimą. Jei pasirinksite šią parinktį, veiksmo srityje galėsite spustelėti <strong>Ciklo skaičiavimas</strong> ir nurodyti papildomą rodytiną informaciją. Taip pat galite nurodyti, kiek kartų darbuotojas turi kartoti skaičiavimą, jei randama skirtumų.</td>
+</tr>
+ <tr class="odd">
+<td>Transportuojamų krovinių krovimas</td>
+<td>Naudodamiesi šia funkcija keli sandėlio darbuotojai vieno arba kelių visiškai arba iš dalies išsiųstų krovinių atsargas gali krauti į tą patį sunkvežimį arba į skirtingus sunkvežimius.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 <td>Pasirinkę šią parinktį leisite darbuotojams sujungti pardavimo užsakymo arba krovinio darbus į vieną darbo vienetą. Darbuotojas gali atlikti tik pardavimo užsakymo arba krovinio darbą. Ši parinktis naudinga, jei, pavyzdžiui, turite didinti pardavimo užsakymo kiekį po pardavimo užsakymo krovinio, siuntos ir darbo sukūrimo. Ši parinktis galima, kai meniu elementas naudoja esamą darbą ir darbą nukreipia vartotojas arba sistema.</td>
 </tr>
 <tr class="even">
-<td>Nėra</td>
+<td>Paimti seniausią paketą</td>
 <td>Nurodykite, ar darbuotojas pirmiausia turi išrinkti seniausią vietoje esantį paketą. Galimos toliau nurodytos pasirinktys:
 <ul>
 <li><strong>Nėra</strong> – darbuotojas gali išrinkti bet kokį vietoje esantį paketą. Darbuotojui nepateikiamas joks pranešimas.</li>

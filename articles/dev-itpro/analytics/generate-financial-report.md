@@ -3,7 +3,7 @@ title: Generuoti finansines ataskaitas
 description: "Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -32,19 +32,16 @@ ms.lasthandoff: 08/13/2018
 
 Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
 
-Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada spustelėkite įrankių juostos mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.
-
-> [!NOTE]
-> Sugeneruotos ataskaitos gali būti tik tuose aplankuose ir vietose, kurias turite teisę pasiekti.
+Norėdami sugeneruoti ataskaitą, atidarykite ataskaitos aprašą ir tada spustelėkite įrankių juostos mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje.
 
 Galima naudoti toliau nurodytas ataskaitų generavimo parinktis.
 
 - Nustatykite grafiką, pagal kurį ataskaita arba ataskaitų grupė bus sugeneruota automatiškai
 - Patikrinkite, ar ataskaitoje netrūksta sąskaitų arba duomenų, ir patikrinkite ataskaitos tikslumą
 
-Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas. Skirtuke Išvestis ir paskirstymas galite nurodyti ataskaitos vietą bibliotekoje – tai lengvas būdas ataskaitai bendrinti.
+Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas.
 
-## <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
+## <a name="generate-a-financial-report"></a>Finansinės ataskaitos generavimas
 
 Norėdami generuoti finansinę ataskaitą naudodami „Microsoft Dynamics 365 for Finance and Operations“, pasirinkite **Didžioji knyga** \> **Užklausos ir ataskaitos** \> **Finansinės ataskaitos**.
 
@@ -55,10 +52,7 @@ Sugeneravus ataskaitą, ją bus galima peržiūrėti skyriuje **Ataskaitos**.
 
 Galite pasirinkti **Peržiūrėti** arba **Panaikinti** ataskaitą.
 
-Norėdami sugeneruoti ataskaitą naudodami **Ataskaitų kūrimo įrankis**, atidarykite ataskaitos aprašą, tada įrankių juostoje spustelėkite mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus sugeneruota ataskaita bus atidaryta žiniatinklio peržiūros programoje.
-
-> [!NOTE]
-> Sugeneruotos ataskaitos gali būti tik tuose aplankuose ir vietose, kurias turite teisę pasiekti.
+Norėdami sugeneruoti ataskaitą naudodami **Ataskaitų kūrimo įrankis**, atidarykite ataskaitos aprašą, tada įrankių juostoje spustelėkite mygtuką Generuoti. Bus atidarytas langas Ataskaitų eilės būsena, kuriame bus nurodyta ataskaitos vieta eilėje. Pagal numatytuosius parametrus, sugeneruota ataskaita bus atidaroma žiniatinklio peržiūros programoje.
 
 ## <a name="schedule-report-generation"></a>Ataskaitos generavimo planavimas
 Siekdamos laikytis verslo procesų, daug įmonių turi pagrindinį ataskaitų, kurios rengiamos suplanuotais intervalais, rinkinį. Galite suplanuoti, kad ataskaita būtų generuojama reguliariai, pavyzdžiui, kasdien, kas savaitę, kas mėnesį arba kasmet. Tai gali būti viena ataskaita arba ataskaitų grupė, į kurią būtų įtrauktos kelios įmonės. Reikia įvesti jums suteiktus kredencialus (kiekvienos nurodytos įmonės), kurie pateikti ataskaitų medžio apraše. Jei kredencialai netinkami, ataskaitoje bus rodoma tik ta informacija, kurią pasiekti turite teisę, pavyzdžiui, įmonė, prie kurios tuo metu esate prisiregistravę. Išvesties informacija pirmiausia skaitoma iš ataskaitos grupės, o tada – iš atskirų ataskaitų.

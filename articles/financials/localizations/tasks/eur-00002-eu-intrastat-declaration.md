@@ -1,28 +1,29 @@
 --- 
-title: ES Intrastat deklaracijos generavimas
+title: EUR-00002 ES Intrastat deklaracijos generavimas
 description: "Šia procedūra rodomi veiksmai, kuriuos reikia atlikti norint elektroniniu failo formatu eksportuoti Intrastat deklaraciją ir „Excel‟ formatu peržiūrėti deklaracijos duomenis."
 author: Anasyash
 manager: AnnBe
-ms.date: 06/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 34ec97b7cf761ee4478fa982fa6c153e66ad3a28
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="generate-an-eu-intrastat-declaration"></a>ES Intrastat deklaracijos generavimas
+# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 ES Intrastat deklaracijos generavimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -12,7 +12,7 @@
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Debesies ir vietinės versijų funkcijų palyginimas
               href: get-started/cloud-prem-comparison.md
-            - name: Visuotinio diegimo parinktys
+            - name: Diegimo parinktys
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Visuotinė debesies įdiegtis
@@ -38,21 +38,27 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Programinės įrangos ciklo strategija ir vietinės versijos leidimai
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: „Microsoft Dynamics AX 2009“ ir „Microsoft Dynamics AX 2012“ standartinio palaikymo pabaiga
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Atidėtos AX 2012 funkcijos
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos
+            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
               href: get-started/features-not-implemented-on-prem.md
+            - name: „Finance and Operations“ 8.1 versija (2018 m. spalio mėn.)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
+              href: get-started/whats-new-platform-update-20.md
             - name: „Finance and Operations“ 8.0 versija (2018 m. balandžio mėn.)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: „Platform Update 15“ (2018 m. kovo mėn.)
               href: get-started/whats-new-platform-update-15.md
-            - name: "„Finance and Operations“ „Enterprise“ 7.2 versijos su „Platform Update 12“ (2018\_m. kovo mėn.) vietinės visuotinės įdiegtys"
+            - name: "„Finance and Operations“ „Enterprise“ 7.2 versijos su „Platform Update 12“ (2018\_m. kovo mėn.) vietinės įdiegtys"
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
-            - name: "„Platform update 12“ (2017\_m. lapkritis)"
+            - name: "„Platform Update 12“ (2017\_m. lapkritis)"
               href: get-started/whats-new-platform-update-12.md
             - name: "„Platform Update 11” (2017\_m. spalio mėn.)"
               href: get-started/whats-new-platform-update-11.md
@@ -64,7 +70,7 @@
               href: get-started/whats-new-platform-update-9.md
             - name: "„Platform Update 8” (2017\_m. birželio mėn.)"
               href: get-started/whats-new-platform-update-8.md
-            - name: „Platform update 7“ (2017 m. gegužė)
+            - name: „Platform Update 7“ (2017 m. gegužė)
               href: get-started/whats-new-platform-update-7.md
             - name: "„Platform Update 6” (2017\_m. balandžio mėn.)"
               href: get-started/whats-new-platform-update-6.md
@@ -76,7 +82,7 @@
               href: get-started/whats-new-dynamics-365-operations-1611.md
             - name: "„Platform Update 3” (2016\_m. lapkričio mėn.)"
               href: get-started/whats-new-platform-update-3.md
-            - name: "„Platform update 2“ (2016\_m. rugpjūtis)"
+            - name: "„Platform Update 2“ (2016\_m. rugpjūtis)"
               href: get-started/whats-new-platform-update-2.md
             - name: "„Dynamics AX“ programos versija 7.0.1 (2016\_m. gegužės mėn.)"
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: SF gretinimas ir vidinės įmonės pirkimo užsakymai
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Tiekėjų sąskaitų faktūrų strategijų nustatymas
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Tiekėjo sąskaitos faktūros įrašymas ir sugretinimas su gautu kiekiu
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Teigiamo mokėjimo apžvalga
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Teigiamų mokėjimų failų nustatymas ir generavimas
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Palūkanų apdorojimas
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Tiekėjų sąskaitų faktūrų strategijų nustatymas
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Tiekėjo sąskaitos faktūros įrašymas ir sugretinimas su gautu kiekiu
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Kliento sąskaitos faktūros kūrimas
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Kliento mokėjimų mokėjimas
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gautinų sumų skirstymo pagal terminus informacijos nustatymas ir generavimas
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Klientų kopijavimas naudojant bendrinamas numeracijas
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Kliento darbo eiga
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Mokėjimai ir sudengimai
@@ -1539,12 +1547,10 @@
               href: ../financials/localizations/emea-exchange-rate-adjustments.md
             - name: Failo formatai mokėjimo metodams
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
-            - name: Mokesčių tarnybos (ESR) integravimas
+            - name: Finansų tarnybos (ESR) integravimas
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Užsienio valiutos kurso pasikeitimas
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: ES pardavimo sąrašo ataskaitos generavimas
@@ -1703,7 +1709,7 @@
               items:
                 - name: Kasos aparatai
                   href: ../retail/localizations/emea-fra-cash-registers.md
-                - name: Visuotinio kasos aparatų diegimo gairės
+                - name: Kasos aparatų diegimo gairės
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Vokietija
           href: ../financials/localizations/germany.md
@@ -1788,7 +1794,7 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Kasos aparatų GST integravimas
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: Visuotinio kasos aparatų diegimo gairės
+            - name: Kasos aparatų diegimo gairės
               href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Mokesčių mechanizmo apžvalga
               href: ../financials/general-ledger/tax-engine.md
@@ -2089,7 +2095,7 @@
               href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
             - name: Kasos aparatai
               href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: Visuotinio kasos aparatų diegimo gairės
+            - name: Kasos aparatų diegimo gairės
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Lenkija
           href: ../financials/localizations/poland.md
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Ilgalaikio turto likvidavimo funkcijų išplėtimas
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Užsienio valiutos kurso pasikeitimas
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Grąžinama pakuotė
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: PVM ataskaitos
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Apyvartos balansų išrašas
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Rusija
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Avanso turėtojai
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Avanso turėtojo kūrimas
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Kasdienės avanso turėtojų operacijos
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Ilgalaikis turtas
+              items:
+                - name: Ilgalaikio turto įsigijimas ir naudojimo pradžia
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Ilgalaikio turto įsigijimų biudžeto žurnalų kūrimas ir registravimas
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Ilgalaikio turto apskaita
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Ilgalaikio turto valiutos kurso pasikeitimas
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Dalinis ilgalaikio turto išskaidymas (likvidavimas)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Mokėjimo užsakymų nustatymas ir apdorojimas
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Valiutų operacijų kursų nustatymas
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Didžiosios knygos operacijų peržiūra
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Tarnautojų nustatymas
+              href: ../financials/localizations/rus-officials.md
+            - name: Banko sąskaitų nustatymas
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Mokesčių agentų pridėtinės vertės mokestis (PVM)
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Sudengimų dimensijų valdiklio nustatymas
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Saudo Arabija
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,11 +2177,13 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Įsakomųjų vekselių parinktys
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Terminų skaičiavimas ir pranešimas apie vidutinį mokėjimų laikotarpį
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Sąlyginis PVM
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Kredito SF išrašymas
               href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-            - name: Finansiniai duomenys (mokėtojo kodas)
+            - name: Finansinių duomenų SF sąskaita
               href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
             - name: Ilgalaikio turto grupės perkainojimas
               href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Poreikio prognozės modifikavimas rankiniu būdu
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobilioji programa „Dynamics 365 for Unified Operations“
+    - name: Programa „Dynamics 365 for Unified Operations Mobile“
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Galimos mobiliosios darbo sritys

@@ -1,28 +1,29 @@
 --- 
-title: "Formatų komponentų susiejimas su duomenų modelio elementais"
+title: "ER sukurto formato komponentų susiejimas su duomenų modelio elementais (2016 m. lapkričio mėn.)"
 description: "Tolesnėje procedūroje parodoma, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali susieti duomenų modelio elementus su sukurtos elektroninių ataskaitų (ER) konfigūracijos, nustatančios verslo mokėjimų srities elektroninio dokumento formatą, komponentais."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/27/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e065cfbfc645bb7ac48134fe43d87bec013e8c81
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="map-the-components-of-formats-to-data-model-elements"></a>Formatų komponentų susiejimas su duomenų modelio elementais
+# <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER sukurto formato komponentų susiejimas su duomenų modelio elementais (2016 m. lapkričio mėn.)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

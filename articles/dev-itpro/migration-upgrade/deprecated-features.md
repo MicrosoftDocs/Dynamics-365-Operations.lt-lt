@@ -3,7 +3,7 @@ title: "Pašalintos arba nebenaudojamos funkcijos"
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -41,6 +41,52 @@ ms.lasthandoff: 08/09/2018
 
 > [!Note]
 > Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>„Dynamics 365 for Finance and Operations“ 8.1 su 20 platformos naujinimu
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Papildomos knygos žurnalo sąskaitų įrašų paketo perkėlimo taisyklės
+DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas pakeičiamas nesinchroniniu ir skirtu tik suplanuotam paketui, o šios parinktys jau naudojamos perkeliant. 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Sinchroninę parinktį pašalinsime, kadangi ji gali turėti įtakos sistemos efektyvumui. |
+| **Pakeitė kita funkcija?**   | Vietoje sinchroninės parinkties naudojamos nasinchroninė ir suplanuoto paketo parinktys.   |
+| **Paveiktos produkto sritys**         | DK, mokėtinos sumos, gautinos sumos, įsigijimas, išlaidos    |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Nebenaudojama – Tikslinis funkcijos pašalinimo laikotarpis – 10.0 versija.|
+
+### <a name="electronic-reporting-for-russia"></a>Rusijos elektroninės ataskaitos
+Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus. 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pakeista elektroninėmis ataskaitomis. |
+| **Pakeitė kita funkcija?**   | Taip. |
+| **Paveiktos produkto sritys**         | Didžioji knyga |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+
+### <a name="financial-reports-generator-for-russia"></a>Rusijos finansinių ataskaitų generatorius
+Įrankis, skirtas apskaitos ir mokesčių ataskaitų duomenų rinkiniui nustatyti ir duomenims į XLS ir DOC ataskaitų šablonus eksportuoti. Funkcinės dalys: duomenų eksportavimas į XLS ir DOC ataskaitų šablonus, užklausos, fiksuotieji rekvizitai pašalinami. 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pašalintos dalys pakeičiamos elektroninėmis ataskaitomis. |
+| **Pakeitė kita funkcija?**   | Taip. Finansinių ataskaitų sąrankos vartotojo sąsaja turėtų būti naudojama norint nustatyti DK sąskaitų ir mokesčių registrų duomenų rinkimo taisykles. Duomenų eksportavimo į įvairių tipų failus, fiksuotųjų rekvizitų ir į užklausas panašių duomenų rinkimo taisyklės turėtų būti konfigūruojamos elektroninėse ataskaitose. |
+| **Paveiktos produkto sritys**         | Didžioji knyga. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integravimas su išoriniais tiekėjais siekiant elektronines ataskaitas siųsti Rusijos ryšio kanalais
+Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad vėliau juos būtų galima išsiųsti oficialiems elektroninių ataskaitų teikėjams, taip pat importuoti būseną.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pakeista konfigūruojama elektroninių pranešimų funkcija. |
+| **Pakeitė kita funkcija?**   | Taip.  |
+| **Paveiktos produkto sritys**         | Didžioji knyga, mokestis |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>„Dynamics 365 for Finance and Operations“ 8.0 su 15 platformos naujinimu
 Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudojamos. 15 platformos naujinimas yra kaupiamasis ir jame pateikiamos naujos arba pakeistos 13 platformos naujinimo, 14 platformos naujinimo ir 15 platformos naujinimo funkcijos.

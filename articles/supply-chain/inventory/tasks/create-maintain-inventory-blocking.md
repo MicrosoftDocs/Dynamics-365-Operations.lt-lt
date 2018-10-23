@@ -1,29 +1,30 @@
----
+--- 
 title: "Kurti ir tvarkyti atsargų blokavimą"
 description: "Ši procedūra nurodo, kaip neleisti kitiems siunčiamiems šaltinio dokumentams rezervuoti faktiškai turimų atsargų naudojant atsargų blokavimą."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>Kurti ir tvarkyti atsargų blokavimą
+# <a name="create-and-maintain-an-inventory-blocking"></a>Kurti ir tvarkyti atsargų blokavimą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 1. Pasirinkite Atsargų valdymas > Periodinės užduotys > Atsargų blokavimas.
 2. Spustelėkite Naujas.
 3. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Sąraše pasirinkite norimą prekę.
+4. Sąraše pasirinkite norimą prekę. 
     * Pasirinkite prekės numerį su faktiškai turimomis atsargomis, kurias norite blokuoti. Jei naudojate USMF, galite pasirinkti prekę M9201.  
 5. Lauke Kiekis įveskite skaičių.
     * Jei naudojate prekę M9201, turite pasirinkti mažiau nei 200.  
@@ -55,4 +56,5 @@ ms.lasthandoff: 09/29/2017
 1. Spustelėkite Naikinti.
 2. Spustelėkite Taip.
 3. Uždarykite puslapį.
+
 

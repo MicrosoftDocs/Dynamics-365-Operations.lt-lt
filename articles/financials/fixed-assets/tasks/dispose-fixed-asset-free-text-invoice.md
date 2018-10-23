@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Likviduoti ilgalaikį turtą naudojant laisvos formos SF
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Ilgalaikio turto likvidavimas naudojant laisvos formos SF
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip įsigyti ilgalaikį turtą naudojant įsigijimo pasiūlymą, esantį žurnale Ilgalaikis turtas. Joje naudojamas vaidmuo Buhalteris ir USMF juridinio subjekto demonstraciniai duomenys.
+Šioje procedūroje nurodoma, kaip likviduoti ilgalaikį turtą naudojant laisvos formos SF.
 
-1. Eikite į Ilgalaikis turtas > Žurnalo įrašai > Ilgalaikio turto žurnalas.
+1. Pasirinkite Gautinos sumos > Sąskaitos faktūros > Visos laisvos formos SF.
 2. Spustelėkite Naujas.
-3. Lauke Pavadinimas įveskite arba pasirinkite reikšmę.
-4. Spustelėkite Eilutės.
-5. Spustelėkite Pasiūlymai.
-6. Spustelėkite Įsigijimo pasiūlymas.
-7. Spustelėkite Filtras.
-8. Spustelėkite Nustatyti iš naujo, kad išvalytumėte ankstesnes reikšmes.
-9. Pasirinkite eilutę Ilgalaikio turto numeris.
-10. Lauke Kriterijai įveskite arba pasirinkite reikšmę.
-    * Nustatykite likusius ilgalaikio turto, kurį norite įsigyti šiuo pasiūlymu, kriterijus.  
-11. Spustelėkite GERAI.
-12. Spustelėkite GERAI.
-    * Patikrinkite sukurtas operacijų eilutes.  
-    * Įsigijimo pasiūlyme bus įtrauktas tik ilgalaikis turtas su knygoje nustatyta įsigijimo data ir įsigijimo kaina.  
-13. Spustelėkite skirtuką Knygos.
-14. Spustelėkite Registruoti.
+3. Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.
+4. Patikrinkite numatytąją SF datą ir, jei įmanoma, pakoreguokite.
+5. Patikrinkite kitus numatytuosius antraštės laukus, pvz., Valiuta ir, jei įmanoma, pakoreguotikte.
+6. SF eilutėje įveskite aprašymą.
+7. Įveskite arba pasirinkite SF eilutės pagrindinę sąskaitą.
+8. Patikrinkite numatytąją PVM grupę ir Prekės PVM grupę.
+9. Įveskite ilgalaikio turto vieneto kainą arba hte pardavimo sumą.
+10. Spustelėkite Eilutės informacija.  
+11. Pasirinkite parduodamo ilgalaikio turto numerį.
+12. Spustelėkite Registruoti.
 
 

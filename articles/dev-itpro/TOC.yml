@@ -7,9 +7,9 @@
 - name: Demonstraciniai duomenys
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: Demonstracinių duomenų naudojant duomenų paketus generavimas
+    - name: Demonstracinių duomenų generavimas naudojant duomenų paketus
       href: data-entities/generate-demo-data-packages.md
-- name: Kūrimas ir tinkinimas naudojant „Visual Studio“
+- name: Kūrimas ir tinkinimas
   href: dev-tools/developer-home-page.md
   items:
     - name: Programų dėklo ir serverio architektūra
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
           href: sysadmin/VMs-no-admin-access.md
-        - name: Vietinių aplinkų pervardijimas norint įjungti prieigą prie „Visual Studio Team Services“
+        - name: 'Vietinių aplinkų pervardijimas, kad būtų galima pasiekti „Azure DevOps“'
           href: migration-upgrade/vso-machine-renaming.md
         - name: Kūrimo sistemos reikalavimai
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'X++ sakiniai, ciklai ir išimčių tvarkymas'
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL ryšio klaidos X++ išimtis
+              href: dev-ref/sql-connection-error.md
             - name: X++ operatoriai
               href: dev-ref/xpp-operators.md
             - name: X++ operatorių pirmumo tvarka
@@ -247,10 +249,14 @@
               href: extensibility/changes-80.md
             - name: Išplečiamumo pakeitimai (versija 8.0.1)
               href: extensibility/extensibility-changes-801.md
-            - name: Išplečiamumo pakeitimai (versija 8.0.2)
+            - name: Išplečiamumo pakeitimai (8.0.2 versija)
               href: extensibility/extensibility-changes-802.md
-            - name: Išplečiamumo pakeitimai (versija 8.0.3)
+            - name: Išplečiamumo pakeitimai (8.0.3 versija)
               href: extensibility/extensibility-changes-803.md
+            - name: Išplečiamumo pakeitimai (8.0.4 versija)
+              href: extensibility/extensibility-changes-804.md
+            - name: Išplečiamumo pakeitimai (8.1 versija)
+              href: extensibility/extensibility-changes-81.md
         - name: Pagrindai
           items:
             - name: Nepageidaujami tinkinimai
@@ -916,10 +922,12 @@
           href: gdpr/gdpr-lcs.md
     - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
       href: user-interface/data-validation-workspace.md
+    - name: Duomenų valdymo klaidų aprašai
+      href: data-entities/dm-error-descriptions.md
 - name: Nuolatinis pristatymas
   href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: Kūrimo ir nuolatinio pristatymo DUK
+    - name: DUK apie kūrimą ir nuolatinį pristatymą
       href: dev-tools/continuous-delivery-faq.md
     - name: Testinių paketų neįtraukimas į komponavimo versijos išvestį
       href: dev-tools/exclude-test-packages.md
@@ -1020,7 +1028,7 @@
     - name: Vietinė visuotinė įdiegtis
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Visuotinio vietinio diegimo parinktis
+        - name: Vietinio diegimo parinktis
           href: deployment/on-premises-overview.md
         - name: Visuotinių vietinių diegimų planavimas ir rengimas
           href: deployment/plan-onprem-deployment.md
@@ -1031,9 +1039,9 @@
         - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Visuotinis „Platform Update 12“ diegimas vietinėse aplinkose
+            - name: „Platform Update 12“ diegimas vietinėse aplinkose
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Visuotinis „Platform Update 8“ ir „Platform Update 11“ versijų diegimas vietinėse aplinkose
+            - name: „Platform Update 8“ ir „Platform Update 11“ versijų diegimas vietinėse aplinkose
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
           href: deployment/develop-deploy-custom-models-on-premises.md
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Biudžeto planavimo naujinimas
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations”
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: AX 2009 perkėlimas – duomenų perkėlimo įrankio diegimas
+          href: migration-upgrade/install-dmt.md
+        - name: AX 2009 perkėlimas – schemų generavimas
+          href: migration-upgrade/generate-maps.md
+        - name: AX 2009 perkėlimas – šablonų kūrimas
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: AX 2009 perkėlimas – perkėlimo grupių kūrimas
+          href: migration-upgrade/create-definition.md
+        - name: AX 2009 perkėlimas – paketų eksportavimas
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: AX 2009 perkėlimas – paketų importavimas
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Kodo perkėlimas ir plėtojimas
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Pasirengimas kodui perkelti
           href: migration-upgrade/prepare-migration.md
-        - name: „Visual Studio Team Services“ sąsajos konfigūravimas
+        - name: „Azure DevOps“ susiejimo konfigūravimas
           href: migration-upgrade/configure-vso-solution.md
         - name: Modelių išskaidymas
           href: dev-tools/model-split.md
@@ -1124,9 +1147,11 @@
       items:
         - name: Perėjimo į naujausią naujinimą procesas
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Aplinkų 8.0 versijos naujinimas į 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Programinės įrangos ciklo strategija ir debesies leidimai
           href: migration-upgrade/versions-update-policy.md
-        - name: Naujausios „Platform Update“ versijos taikymas aplinkose
+        - name: Naujausio „Platform Update“ taikymas aplinkoms
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: "„Dynamics AX“ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
           href: migration-upgrade/update-platform-each-release.md
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Darbas su veiklos diagramomis BPM bibliotekose
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM bibliotekų sinchronizavimas su „Visual Studio Team Services“
+    - name: BPM bibliotekų sinchronizavimas su „Azure DevOps“
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Vartotojo lygio priėmimo bandymų bibliotekų kūrimas naudojant užduočių vedlius ir BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Turto biblioteka
       href: lifecycle-services/asset-library.md
+    - name: Našumo trikčių diagnostika naudojant LCS įrankius
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Užklausų mokomoji medžiaga
+      href: lifecycle-services/querycookbook.md
     - name: „Microsoft Dynamics 365 Translation Service“
       href: lifecycle-services/translation-service-overview.md
       items:

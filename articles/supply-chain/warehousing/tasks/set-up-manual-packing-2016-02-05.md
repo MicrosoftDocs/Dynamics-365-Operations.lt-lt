@@ -1,33 +1,34 @@
 --- 
-title: "Neautomatinio pakavimo nustatymas (2016 m. vasario ir gegužės mėn.)"
+title: "Neautomatinio pakavimo nustatymas (2016 m. vasario ir 2016 m. gegužės mėn.)"
 description: "Atliekant pakavimo procesą, produktus galima tikrinti ir pakuoti į konteinerius."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/04/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>Neautomatinio pakavimo nustatymas (2016 m. vasario ir gegužės mėn.)
+# <a name="set-up-manual-packing-february-2016--may-2016"></a>Neautomatinio pakavimo nustatymas (2016 m. vasario ir 2016 m. gegužės mėn.)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Atliekant pakavimo procesą, produktus galima tikrinti ir pakuoti į konteinerius. Atlikdami ši procesą sandėlio darbininkai produktus paima iš saugojimo vietų ir perkelia į pakavimo stotį, kurioje jie patikrina prekių kiekį ir tipus bei jas priskiria į atitinkamus konteinerius. Kai konteineris yra visiškai supakuotas, jie jį gali uždaryti ir perkelti į pakrovimo rampas, ir produktus galima siųsti. Šioje procedūroje naudojama demonstracinė įmonė USMF.
+Atliekant pakavimo procesą, produktus galima tikrinti ir pakuoti į konteinerius. Atlikdami ši procesą sandėlio darbininkai produktus paima iš saugojimo vietų ir perkelia į pakavimo stotį, kurioje jie patikrina prekių kiekį ir tipus bei jas priskiria į atitinkamus konteinerius. Kai konteineris yra visiškai supakuotas, jie jį gali uždaryti ir perkelti į pakrovimo rampas, ir produktus galima siųsti. Šioje procedūroje naudojama demonstracinė įmonė USMF. Ši procedūra skirta tik 2016 m. vasario ir 2016 m. gegužės „Dynamics 365 for Operations“ versijoms.
 
 
 ## <a name="set-up-location-profiles"></a>Nustatyti vietų šablonus

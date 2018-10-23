@@ -1,41 +1,42 @@
 --- 
-title: "ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių failų"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“ programą."
+title: "ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo"
+description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“, „Enterprise” leidimo programą."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/22/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-er-configurations-to-import-data-from-external-files"></a>ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių failų
+# <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“ programą. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus.“ Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į „Dynamics 365 for Finance and Operations“, „Enterprise” leidimo programą. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus.“ Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
-    * ER įmonių vartotojams suteikia galimybę konfigūruoti išorinių duomenų failų importavimo į lenteles, esančias „Dynamics 365 for Finance and Operations“, procesą .XML arba .TXT formatu. Pirma, turi būti sukurta abstraktaus duomenų modelio ir ER duomenų modelio konfigūracija, kad būtų rodomi importuojami duomenys. Tada turite nustatyti importuojamo failo struktūrą ir metodą, kurį naudosite duomenims iš failo į abstraktų duomenų modelį perkelti. ER formato konfigūracija, susiejama su sukurtu duomenų modeliu, turi būti sukurta tam abstrakčiam duomenų modeliui. Tada duomenų modelio konfigūracija turi būti išplėsta įtraukiant susiejimą, kuriame aprašoma, kokiu būdu importuoti duomenys išlaikomi kaip abstraktaus duomenų modelio duomenys ir kaip jie naudojami atnaujinant „Dynamics 365 for Finance and Operations“ lenteles.  ER duomenų modelio konfigūracija turi būti pridėta įtraukiant naujo modelio susiejimą, kuriame aprašomas duomenų modelio susiejimas su programos paskirties vietomis.  
-    * Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima tiekėjų operacijas, kurios sekamos išorėje, tada importuojamos į „Dynamics 365 for Finance and Operations“ ir vėliau įtraukiamos į 1099 tiekėjo sudengimo ataskaitą.   
+    * ER įmonių vartotojams suteikia galimybę konfigūruoti išorinių duomenų failų importavimo į lenteles, esančias „Dynamics 365 for Finance and Operations“, „Enterprise“ leidime, procesą .XML arba .TXT formatu. Pirma, turi būti sukurta abstraktaus duomenų modelio ir ER duomenų modelio konfigūracija, kad būtų rodomi importuojami duomenys. Tada turite nustatyti importuojamo failo struktūrą ir metodą, kurį naudosite duomenims iš failo į abstraktų duomenų modelį perkelti. ER formato konfigūracija, susiejama su sukurtu duomenų modeliu, turi būti sukurta tam abstrakčiam duomenų modeliui. Tada duomenų modelio konfigūracija turi būti išplėsta įtraukiant susiejimą, kuriame aprašoma, kokiu būdu importuoti duomenys išlaikomi kaip abstraktaus duomenų modelio duomenys ir kaip jie naudojami atnaujinant „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo lenteles.  ER duomenų modelio konfigūracija turi būti pridėta įtraukiant naujo modelio susiejimą, kuriame aprašomas duomenų modelio susiejimas su programos paskirties vietomis.  
+    * Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima tiekėjų operacijas, kurios sekamos išorėje, tada importuojamos į „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą ir vėliau įtraukiamos į 1099 tiekėjo sudengimo ataskaitą.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Įtraukti naują ER modelio konfigūraciją
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.‟ konfigūracijų teikėjas yra pasiekiamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.“   
 2. Spustelėkite Ataskaitų konfigūracijos.
-    * Užuot kūrę naują modelį, skirtą duomenų importavimui palaikyti, įkelkite anksčiau atsisiųstą failą 1099model.xml. Šiame faile yra tiekėjų operacijų pasirinktinių duomenų modelis. Šis duomenų modelis susietas su „Dynamics 365 for Finance and Operations“ duomenų komponentais, esančiais AOT duomenų objekte.   
+    * Užuot kūrę naują modelį, skirtą duomenų importavimui palaikyti, įkelkite anksčiau atsisiųstą failą 1099model.xml. Šiame faile yra tiekėjų operacijų pasirinktinių duomenų modelis. Šis duomenų modelis susietas su „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo duomenų komponentais, esančiais AOT duomenų objekte.   
 3. Spustelėkite Keitimas.
 4. Spustelėkite Įkelti iš XML failo.
     * Spustelėkite Naršyti ir suraskite anksčiau atsisiųstą failą 1099model.xml.  
@@ -44,7 +45,7 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="review-data-model-settings"></a>Peržiūrėti duomenų modelio parametrus
 1. Spustelėkite Konstruktorius.
-    * Šis modelis skirtas tiekėjų operacijoms verslo požiūriu pateikti ir „Dynamics 365 for Finance and Operations“ diegiamas atskirai.   
+    * Šis modelis skirtas tiekėjų operacijoms verslo požiūriu pateikti ir „Dynamics 365 for Finance and Operations“, „Enterprise“ leidime diegiamas atskirai.   
 2. Medyje išplėskite „1099-MISC”.
 3. Medyje pasirinkite „1099-MISC \ Operacijos”.
 4. Medyje išplėskite „1099-MISC \ Operacijos”.
@@ -106,7 +107,7 @@ ms.lasthandoff: 08/09/2018
 1. Medyje pasirinkite „1099 mokėjimų modelis”.
 2. Spustelėkite Konstruktorius.
 3. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
-    * Susiejimas Rankinis 1099 operacijų importavimas apibrėžtas naudojant krypties tipą Į paskirties vietą. Tai reiškia, kad jis įvestas duomenų importavimui palaikyti ir jame yra taisyklių nustatymas, apibrėžiantis, kokiu būdu importuotas ir kaip abstraktaus duomenų modelio duomenys išlaikytas išorinis failas naudojamas atnaujinant lenteles „Dynamics 365 for Finance and Operations“ programoje.  
+    * Susiejimas Rankinis 1099 operacijų importavimas apibrėžtas naudojant krypties tipą Į paskirties vietą. Tai reiškia, kad jis įvestas duomenų importavimui palaikyti ir jame yra taisyklių nustatymas, apibrėžiantis, kokiu būdu importuotas ir kaip abstraktaus duomenų modelio duomenys išlaikytas išorinis failas naudojamas atnaujinant lenteles „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo programoje.  
 4. Spustelėkite Konstruktorius.
 5. Medyje išplėskite „modelis: Duomenų modelis 1099 mokėjimų modelis”.
 6. Medyje išplėskite „modelis: Duomenų modelis 1099 mokėjimų modelis \ Operacijos: Įrašų sąrašas”.
@@ -120,7 +121,7 @@ ms.lasthandoff: 08/09/2018
 12. Medyje pasirinkite „tax1099trans: Lentelės „VendSettlementTax1099” įrašai= model.Validated”.
 13. Spustelėkite Redaguoti paskirties vietą.
     * Ši ER paskirties vieta įtraukta siekiant nurodyti, kaip importuoti duomenys atnaujins programos lenteles. Šiuo atveju pasirinkta duomenų lentelė VendSettlementTax1099. Importuotos operacijos bus įterptos į lentelę VendSettlementTax1099, todėl pasirinktas įrašo veiksmas Įterpti. Įsidėmėkite, kad vieno modelio susiejimas gali turėti kelias paskirties vietas. Tai reiškia, kad importuoti duomenys gali būti naudojami vienu metu atnaujinant kelias programos lenteles. Lenteles, rodinius ir duomenų objektus galima naudoti kaip ER paskirties vietas.   
-    * Jei susiejimas bus iškviestas iš „Dynamics 365 for Finance and Operations“ programos atskaitos taško (pvz., mygtuku ar meniu elementu), skirto būtent šiam veiksmui, ER paskirties vieta turi būti pažymėta kaip integravimo taškas. Šiame pavyzdyje tai yra ERTableDestination#VendSettlementTax1099 taškas.  
+    * Jei susiejimas bus iškviestas iš „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo programos atskaitos taško (pvz., mygtuku ar meniu elementu), skirto būtent šiam veiksmui, ER paskirties vieta turi būti pažymėta kaip integravimo taškas. Šiame pavyzdyje tai yra ERTableDestination#VendSettlementTax1099 taškas.  
 14. Spustelėkite Atšaukti.
 15. Spustelėkite Rodyti viską.
 16. Spustelėkite Rodyti tik susietus.
@@ -176,15 +177,15 @@ ms.lasthandoff: 08/09/2018
 18. Uždarykite puslapį.
 19. Uždarykite puslapį.
 20. Spustelėkite Redaguoti.
-    * Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 for Finance and Operations” versijose, palaikymas” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), vykdykite kitą veiksmą „Įjungti vėliavėlę Numatytoji modelio susiejimo reikšmė”, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
+    * Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 for Finance and Operations, Enterprise edition” versijose, palaikymas” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), vykdykite kitą veiksmą „Įjungti vėliavėlę Numatytoji modelio susiejimo reikšmė”, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
 21. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.
 22. Medyje pasirinkite „1099 mokėjimų modelis”.
 23. Spustelėkite Konstruktorius.
 24. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
 25. Spustelėkite Vykdyti.
-    * Jei įdiegėte karštąją pataisą KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 for Finance and Operations” versijose, palaikymas (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), peržvalgos lauke pasirinkite pageidaujamo modelio susiejimą. Jei dar neįdiegėte karštosios pataisos, praleiskite tolesnį veiksmą, nes susiejimas jau pasirinktas nustatant numatytojo formato konfigūraciją.  
+    * Jei įdiegėte karštąją pataisą KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 for Finance and Operations, Enterprise edition” versijose, palaikymas (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), peržvalgos lauke pasirinkite pageidaujamo modelio susiejimą. Jei dar neįdiegėte karštosios pataisos, praleiskite tolesnį veiksmą, nes susiejimas jau pasirinktas nustatant numatytojo formato konfigūraciją.  
     * Jei neįdiegėte karštosios pataisos KB 4012871, atkreipkite dėmesį, kad dialogo lange pateikiamas papildomas modelio susiejimo klausimas, naudojamas importuojamam failui išanalizuoti. Tada duomenys perkeliami iš dialogo lango į duomenų modelį. Šiuo metu galite pasirinkti, koks formato susiejimas turi būti naudojamas atsižvelgiant į tai, kokio tipo failą norite importuoti.  
-    * Jei šį modelio susiejimą ketinate iškviesti iš „Dynamics 365 for Finance and Operations“ atskaitos taško, skirto būtent šiam veiksmui, ER paskirties vieta ir formato susiejimas turi būti pažymėtas kaip integravimo dalis.  
+    * Jei šį modelio susiejimą ketinate iškviesti iš „Dynamics 365 for Finance and Operations‟ „Enterprise‟ leidimo atskaitos taško, skirto būtent šiam veiksmui, ER paskirties vieta ir formato susiejimas turi būti pažymėtas kaip integravimo dalis.  
 26. Spustelėkite Atšaukti.
 27. Uždarykite puslapį.
 28. Uždarykite puslapį.

@@ -1,28 +1,29 @@
 --- 
-title: "Formato, skirto dokumentų valdymo failams naudoti ER išvestyje, modifikavimas ir taikymas"
+title: "ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis – Formato modifikavimas ir paleidimas)"
 description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5effbecf98e633d07f9e5eb22d3df1a12967c1e4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="modify-and-run-formats-to-use-document-management-files-in-er-output"></a>Formato, skirto dokumentų valdymo failams naudoti ER išvestyje, modifikavimas ir taikymas
+# <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis: formato modifikavimas ir paleidimas)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -94,6 +95,6 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
     * 000148  
 6. Spustelėkite GERAI.
 7. Spustelėkite GERAI.
-    * Peržiūrėkite sugeneruotą išvestį. Atkreipkite dėmesį – be SF pranešimo XML formatu sukuriamas vienas failas kiekvienam priedui. Priedų failai yra užpildomi įvedant suglaudintos išvesties duomenis dvejetainiu formatu.  
+    * Peržiūrėkite sugeneruotą išvestį. Atkreipkite dėmesį, kad be SF pranešimo XML formatu sukuriamas vienas failas kiekvienam priedui. Priedų failai yra užpildomi įvedant suglaudintos išvesties duomenis dvejetainiu formatu.  
 
 

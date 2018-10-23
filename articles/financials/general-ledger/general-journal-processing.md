@@ -1,9 +1,9 @@
 ---
 title: "Bendrųjų žurnalų apdorojimas"
-description: "Šiame straipsnyje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė."
+description: "Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
+ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
+Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
 
-Žurnalų pavadinimai
+## <a name="journal-names"></a>Žurnalų pavadinimai
 
 Viena iš svarbiausių sričių, kurias reikia nustatyti, yra žurnalų pavadinimai. Naudinga apibrėžti konkrečius žurnalų pavadinimus kiekvienam tikslui, pavyzdžiui, vidinės įmonės, kaupimo koregavimo ir klaidų taisymo. Galite pritaikyti kiekvieno žurnalo pavadinimą, kad įvesti duomenis kiekvienu tikslu būtų lengva ir saugu. 
 
@@ -44,9 +44,13 @@ Puslapyje **Žurnalų pavadinimai** galite nustatyti šiuos elementus.
 
 **Pavyzdžiai**
 
-Žurnalo pavadinimą galima naudoti tik koreguoti. Tokiu atveju galite nurodyti, kad visoms įmonėms tinkamas tik sąskaitos tipas **Didžioji knyga**. [![Žurnalų kontrolės sąskaitos tipai](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Žurnalo pavadinimą galima naudoti tik koreguoti. Tokiu atveju galite nurodyti, kad visoms įmonėms tinkamas tik sąskaitos tipas **Didžioji knyga**. 
 
-Žurnalo pavadinimą galima naudoti tik konkrečiam segmentui arba pagrindinių sąskaitų diapazonui. [![Žurnalų kontrolės segmentas](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Žurnalų kontrolės sąskaitos tipai](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+
+Žurnalo pavadinimą galima naudoti tik konkrečiam segmentui arba pagrindinių sąskaitų diapazonui. 
+
+[![Žurnalų kontrolės segmentas](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Parinktis **Automatinis atšaukimas** yra bendruosiuose žurnaluose. Pavyzdžiui, turite kaupimo koregavimą, kurio faktinis dokumentas dar neapdorotas, kaip pavaizduota šioje iliustracijoje.
 [![Pagrindinio žurnalo atšaukimas](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
@@ -65,8 +69,9 @@ Bet kada galite naudoti kvitų šablonus. Puslapio **Pagrindiniai žurnalai** pu
 Pagrindinės sąskaitos sąranka teikia daug pagrindinio žurnalo apdorojimo galimybių.
 
 -   **DC / RC reikalavimas** – naudokite šią parinktį, jei pagrindinė sąskaita naudojama tik debeto arba kredito operacijoms. Sąranka patikrinama, kai žurnalą tikrinamas arba registruojamas.
+
 -   **Numatytoji korespondentinė sąskaita**
--   **Sustabdyta** – sustabdykite visų įmonių arba konkrečios įmonės / juridinių subjektų duomenų įvedimą pagrindinėje sąskaitoje.
+-   **Sustabdyta** – sustabdykite visų įmonių arba konkrečios įmonės / juridinio subjekto duomenų įvedimą pagrindinėje sąskaitoje.
 -   **Neleisti įvesti rankiniu būdu** – neleidžia vartotojams įvesti sąskaitos reikės žurnaluose rankiniu būdu.
 -   **Numatytoji reikšmė / tikrinti valiutą**
 -   **Juridinio subjekto nepaisymas** – ši sąranka taikoma apibrėžtai įmonei / juridiniam subjektui.
@@ -78,15 +83,18 @@ Pagrindinės sąskaitos sąranka teikia daug pagrindinio žurnalo apdorojimo gal
 
 ### <a name="accounting-structures-and-advanced-rules-structures"></a>Apskaitos struktūros ir išplėstinių taisyklių struktūros
 
-Apskaitos struktūros ir išplėstinių taisyklių struktūros yra labai svarbios siekiant užtikrinti, kad duomenys, būtini finansinėms ataskaitoms ir efektyvumui sekti, būtų įrašomi apdorojant bendrąjį žurnalą ir dokumentuojant. Apskaitos struktūros ir išplėstinių taisyklių struktūros leidžia pritaikyti duomenų įvedimo patirtį. Galite leisti tik kiekvienu atveju svarbių finansinių dimensijų duomenų įrašus, taip pat galite taikyti reikalavimą, kad privalomi ir teisingi duomenys visada būtį įrašomi.
+Apskaitos struktūros ir išplėstinių taisyklių struktūros yra labai svarbios siekiant užtikrinti, kad duomenys, būtini finansinėms ataskaitoms ir efektyvumui sekti, būtų įrašomi apdorojant bendrąjį žurnalą ir dokumentuojant. Apskaitos struktūros ir išplėstinių taisyklių struktūros leidžia pritaikyti duomenų įvedimo patirtį. Galite leisti tik kiekvienu atveju svarbių finansinių dimensijų duomenų įrašus, taip pat galite taikyti reikalavimą, kad privalomi ir tikslūs duomenys visada būtį įrašomi.
 
 Daugiau informacijos ieškokite šiose temose:
 - [Planavimas: sąskaitų planas](plan-chart-of-accounts.md). 
 - [Kurti papildomas žurnalų taisykles](tasks/create-advanced-rules-journals.md)
 - [Kurti žurnalo įrašą naudojant šabloną](tasks/create-journal-entry-template.md)
 - [Kurti ir patvirtinti žurnalus](tasks/create-validate-journals.md)
-- [Registruoti periodinius žurnalus](tasks/post-periodic-journals.md)
-- [Apdoroti didžiosios knygos paskirstymo žurnalą](tasks/process-ledger-allocation-journal.md)
+- [Periodinių žurnalų registravimas](tasks/post-periodic-journals.md)
+- [Didžiosios knygos paskirstymo žurnalo apdorojimas](tasks/process-ledger-allocation-journal.md)
 
+## <a name="simulate-posting"></a>Modeliuoti registravimą
+Funkciją **Modeliuoti registravimą** dažniausiai galite rasti žurnalų meniu **Tikrinti**. Kai tikrinant žurnalą naudojamasi funkcija  **Tikrinti**, sistema patikrina, ar žurnalas neatitinka konkrečių klaidų sąlygų. Jei naudojate funkciją **Modeliuoti registravimą**, sistema vykdo tuos pačius procesus, kurie vykdomi registruojant, nors iš tiesų žurnalas neregistruojamas. Tada galite peržiūrėti rodomus registravimo pranešimus, ištaisyti rastas klaidas, paskui, spustelėję meniu **Registruoti** užregistruoti žurnalą. 
 
+Atliekant paketinį apdorojimą funkcija **Modeliuoti registravimą** naudotis negalima. Tačiau, norint modeliuoti paketo registravimą, galima naudoti kodą ir kūrėjai, išplėtoję kodą, gali įtraukti šią funkciją.  
 
