@@ -6,6 +6,14 @@
       items:
         - name: Kas nauja ar pasikeitė
           items:
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 1 d.)
+              href: whats-new-talent-october-01.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 24 d.)
+              href: whats-new-talent-september-24.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 17 d.)
+              href: whats-new-talent-september-17-2018.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 10 d.)
+              href: whats-new-talent-september-10.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugpjūčio mėn.)
               href: whats-new-talent-august2018.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: „PowerApps“ programų įdėjimas
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: '„Core HR“ ir „Common Data Service“, skirta programoms'
+          href: CoreHREntities.md
         - name: Prieiga prie peržiūros funkcijų
           href: access-preview-feature.md
         - name: Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
           href: configure-payroll-integration.md
+        - name: „Talent“ palaikymo gavimas
+          href: talent-support.md
     - name: 'Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas'
       href: departments-jobs-positions.md
       items:
@@ -41,8 +53,13 @@
           href: formalize-business-processes.md
         - name: Darbo eigų naudojimas darbuotojų informacijai valdyti
           href: workflow-manage-employee-information.md
-        - name: Atostogų ir neatvykimų valdymas
-          href: leave-absence-overview.md
+    - name: Atostogų ir neatvykimų valdymas
+      href: leave-absence-overview.md
+      items:
+        - name: Laisvo laiko kaupimas pagal išdirbtas valandas
+          href: leave-accrue-hours-worked.md
+        - name: Darbo laiko kalendoriai
+          href: working-time-calendars.md
     - name: Organizacijos aprūpinimas personalu
       items:
         - name: „Attract“ funkcijos ir galimybės
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: Kompensavimo apdorojimas
           href: process-compensation.md
+        - name: Užduoties komponentų nustatymas
+          href: create-job.md
     - name: Darbuotojų tobulinimas ir mokymas
       items:
         - name: Našumo valdymas
