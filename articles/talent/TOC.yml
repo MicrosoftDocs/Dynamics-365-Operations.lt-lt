@@ -1,11 +1,20 @@
-- name: 'Sveiki, čia – „Dynamics 365 for Talent“'
+- name: „Dynamics 365 for Talent‟
   href: index.md
   items:
     - name: Pradžia
       href: talent-get-started.md
       items:
         - name: Kas nauja ar pasikeitė
+          href: whats-new.md
           items:
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)
+              href: whats-new-talent-october-31.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 19 d.)
+              href: whats-new-talent-october-19.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 15 d.)
+              href: whats-new-talent-october-11.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 8 d.)
+              href: whats-new-talent-october-8.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 1 d.)
               href: whats-new-talent-october-01.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 24 d.)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: '„Core HR“ ir „Common Data Service“, skirta programoms'
           href: CoreHREntities.md
+        - name: Integravimas
+          href: talent-financeandoperations-integration.md
         - name: Prieiga prie peržiūros funkcijų
           href: access-preview-feature.md
         - name: Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
@@ -64,6 +75,34 @@
       items:
         - name: „Attract“ funkcijos ir galimybės
           href: attract-overview.md
+        - name: Proceso šablono kūrimas sprendime „Attract“
+          href: Process-templates-Attract.md
+        - name: 'Darbo vietų kūrimas, tvirtinimas ir registravimas sprendime „Attract“'
+          href: Creating-jobs-Attract.md
+        - name: Darbuotojų pasirinkimas naudojant talentų telkinius
+          href: attract-talent-pools.md
+        - name: Darbuotojų pasirinkimas naudojant „LinkedIn“ įdarbinimo sistemą
+          href: attract-linked-in-recruiter.md
+        - name: Samdos proceso veiklos sprendime „Attract“
+          href: activities-attract.md
+        - name: Išplečiamumas
+          href: extensibility-attract.md
+        - name: Karjeros svetainė ir kandidatų patirtys
+          href: career-site.md
+        - name: Pasiūlymų valdymo nustatymas
+          href: offer-setup.md
+        - name: 'Pasiūlymų kūrimas, tvirtinimas ir pasirašymas'
+          href: creating-offers.md
+        - name: El. laiškų šablonų kūrimas ir valdymas
+          href: email-templates.md
+        - name: Ataskaitos ir analizė
+          href: Reporting-Analytics-Attract.md
+        - name: Saugos ir vaidmenų valdymas sprendime „Attract“
+          href: security-attract.md
+        - name: Administratoriaus parametrai sprendime „Attract“
+          href: Admin-Settings-Attract.md
+        - name: Sumaniosios rekomendacijos
+          href: Intelligent-Recommendations.md
         - name: Įtraukiančių supažindinimo su darbu planų kūrimas
           href: create-onboarding-experience.md
     - name: Darbuotojų motyvavimas

@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Išplečiamumo pakeitimai (8.1 versija)
               href: extensibility/extensibility-changes-81.md
+            - name: Išplečiamumo pakeitimai (8.1.1 versija)
+              href: extensibility/extensibility-changes-811.md
+            - name: Išplečiamumo pakeitimai (8.1.2 versija)
+              href: extensibility/extensibility-changes-812.md
         - name: Pagrindai
           items:
             - name: Nepageidaujami tinkinimai
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Formos valdiklio ypatybių modifikavimas
               href: extensibility/modify-control-properties.md
-            - name: Etikečių keitimas naudojant etikečių plėtinių failus
-              href: extensibility/change-label.md
             - name: Numeracijų aprėpties išplėtimas​
               href: extensibility/extend-number-sequence-scope.md
             - name: Naujų atsargų dimensijų įtraukimas
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: 'Lentelių schemų, naudojamų versijoms kurti, išplėtimas'
               href: extensibility/maps-with-versioning.md
+            - name: Pasirinktų duomenų tipų dešimtainio tikslumo išplėtimas
+              href: extensibility/decimal-point-precision.md
         - name: Išplečiamųjų sprendimų kūrimas
           items:
             - name: Išplečiamojo kodo rašymas
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Valdiklių išplečiamumas
       items:
-        - name: „aextensible“ valdiklių kūrimas
+        - name: Išplečiamųjų valdiklių kūrimas
           href: user-interface/build-extensible-control.md
         - name: Išplečiamųjų valdiklių spartieji klaviatūros klavišai
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Duomenų integravimas
+- name: Bendrasis duomenų apsaugos reglamentas (BDAR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Duomenų integravimo (importo / eksporto) strategijos pasirinkimas
-      href: data-entities/integration-overview.md
-    - name: Duomenų integravimo API sąsajos
-      items:
-        - name: Duomenų valdymo paketo REST API
-          href: data-entities/data-management-api.md
-        - name: Paslaugų galiniai punktai
-          href: data-entities/services-home-page.md
-          items:
-            - name: Tarnybų autentifikavimo trikčių diagnostika
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: „OData“
-          href: data-entities/odata.md
-        - name: Pasirinktinių paslaugų kūrimas
-          href: data-entities/custom-services.md
-        - name: Pasikartojančios integracijos​
-          href: data-entities/recurring-integrations.md
-        - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
-          href: data-entities/third-party-service-test.md
-    - name: Integravimo kūrimas
-      items:
-        - name: Duomenų valdymas ir integravimas naudojant duomenų objektus
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Duomenų perkėlimo objektų kūrimas​
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Sudėtinių duomenų objektų kūrimas
-              href: data-entities/develop-composite-data-entities.md
-            - name: Finansinių duomenų bendrinimo tarp įmonių konfigūravimas
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: 'Įrašų šablonų sukūrimas, kad būtų paprasčiau įvesti duomenis'
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Įrašų kūrimas naudojant įrašų šablonus
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Duomenų integravimas naudojant „Common Data Service“
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Integravimo su „Field Service“ konfigūravimas
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: „Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: „Project Service Automation“ integravimo konfigūravimas
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: „Project Service Automation“ integravimo parametrai
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Projektų sutarčių ir projektų sinchronizavimas
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Projektų užduočių sinchronizavimas
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Projektų išlaidų kategorijų sinchronizavimas
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Išorinių žiniatinklio tarnybų naudojimas
-          href: data-entities/consume-external-web-service.md
-- name: Duomenų valdymas
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Duomenų objektai
-      href: data-entities/data-entities.md
-      items:
-        - name: Konfigūracijos duomenų projektai
-          href: data-entities/configuration-data-projects.md
-        - name: Konfigūracijos duomenų paketai
-          href: data-entities/configuration-data-packages.md
-        - name: Konfigūracijos duomenų kopijavimas tarp įmonių
-          href: data-entities/copy-configuration.md
-        - name: Konfigūracijos duomenų šablonai
-          href: data-entities/configuration-data-templates.md
-        - name: Duomenų šablonai su keliais darbalapiais
-          href: data-entities/excel-template-multiple.md
-        - name: Objektų keitimų sekimo įjungimas
-          href: data-entities/entity-change-track.md
-        - name: Konfigūracijos raktai ir duomenų objektai
-          href: data-entities/config-key-entities.md
-        - name: Informacijos apie standartinius duomenų objektus ieška
-          href: data-entities/data-entities-report.md
-    - name: Duomenų importavimo ir eksportavimo užduotys
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Duomenų objektų kūrimas
-      items:
-        - name: Duomenų objektų dizaino principai ir geriausia praktika
-          href: dev-tools/design-best-practices.md
-        - name: Naujų duomenų objektų kūrimas
-          href: data-entities/build-consuming-data-entities.md
-        - name: Duomenų objektų veikimo būdo ypatybės
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Apskaičiuotų stulpelių ir virtualiųjų laukų kūrimas
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Visos įmonės veikimo būdas
-          href: data-entities/cross-company-behavior.md
-        - name: "Šalių\_/ regionų kodai ir konfigūracijos raktai"
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Paveldėjimo šablonai
-          href: data-entities/support-super-type-sub-type.md
-        - name: Duomenų objekto vedlio taisyklės
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Metaduomenų ypatybės
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Tikrinimai, numatytosios vertės ir nesusieti laukai'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Sauga ir duomenų objektai
-          href: data-entities/security-data-entities.md
-        - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
-          href: financial/read-only-entity-financial.md
-    - name: Savo duomenų bazės naudojimas
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Duomenų užduočių automatizavimas
-      href: data-entities/data-task-automation.md
     - name: Atsakymo į BDAR duomenų užklausas ištekliai
       href: gdpr/gdpr-home-page.md
       items:
-        - name: 'BDAR vadovas, skirtas „Finance and Operations“'
-          href: gdpr/gdpr-guide.md
         - name: Turto klasifikavimas
           href: gdpr/gdpr-asset-classification-values.md
         - name: Asmenų ieškos ataskaita
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: BDAR duomenų užklausos LCS
           href: gdpr/gdpr-lcs.md
-    - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
-      href: user-interface/data-validation-workspace.md
-    - name: Duomenų valdymo klaidų aprašai
-      href: data-entities/dm-error-descriptions.md
 - name: Nuolatinis pristatymas
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: „Platform Update 12“ diegimas vietinėse aplinkose
+            - name: Vietinių aplinkų diegimas („Platform Update 12“ ir naujesnės versijos)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: „Platform Update 8“ ir „Platform Update 11“ versijų diegimas vietinėse aplinkose
+            - name: Vietinių aplinkų diegimas („Platform Update 8“ ir „Platform Update 11“)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
+              href: deployment/deploy-retail-onprem.md
         - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Vietinių aplinkų atvirkštinių tarpinių serverių konfigūravimas
@@ -1161,7 +1027,9 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Kūrimo įrankių naujinimas
           href: dev-tools/update-development-tools.md
-    - name: Plėtojimas į naujausią naujinimą (vietinis)
+        - name: Kodo kompiliavimo pagal naujausią naujinimą planavimas ir ruošimasis tam
+          href: migration-upgrade/compile-considerations.md
+    - name: Plėtojimas į naujausią naujinimą (vietinė versija)
       items:
         - name: Vietinių visuotinių įdiegčių naujinimų taikymas
           href: deployment/apply-updates-on-premises.md
@@ -1219,13 +1087,19 @@
           href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
         - name: Vartotojų priskyrimas saugos vaidmenims
           href: sysadmin/tasks/assign-users-security-roles.md
-    - name: Paketinis vykdymas
+    - name: Paketinis apdorojimas
       href: sysadmin/batch-processing-overview.md
       items:
         - name: Paketinis vykdymas ir paketinio apdorojimo serveriai
           href: sysadmin/batch-server-overview.md
         - name: Paketinių užduočių kūrimas
           href: sysadmin/tasks/create-batch-job.md
+        - name: Paketinės užduoties kopijavimas
+          href: sysadmin/copy-batch-job.md
+        - name: Aktyvieji paketo laikotarpiai
+          href: sysadmin/activeperiod.md
+        - name: Paketų vadovo saugos vaidmuo
+          href: sysadmin/runby.md
     - name: Optimizavimo patariamasis įrankis
       href: sysadmin/optimization-advisor-overview.md
       items:

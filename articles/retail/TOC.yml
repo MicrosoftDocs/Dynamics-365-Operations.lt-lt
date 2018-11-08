@@ -12,8 +12,10 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Diegimo parinktys
       href: dev-itpro/choose-deployment.md
-    - name: „Retail“ palaikymo gavimas
+    - name: Palaikymo dėl mažmeninės prekybos gavimas
       href: retail-support.md
+    - name: DUK apie vienos versijos paslaugų naujinimus
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Diegimo ciklo supratimas
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: Mažmeninės prekybos išoriniai įrenginiai
           href: retail-peripherals-overview.md
-        - name: „Microsoft“ išbandyti išoriniai EKA aparatūros įrenginiai
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Mažmeninės prekybos periferinis simuliatorius
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Išorinių įrenginių prijungimas prie EKA
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Nuolaidos ir kainų koregavimas
   items:
-    - name: „Retail“ pardavimo kainų valdymas
+    - name: Mažmeninės prekybos nuolaidos
+      href: retail-discounts-overview.md
+    - name: Mažmeninės prekybos pardavimo kainų valdymas
       href: price-management.md
     - name: Kainų koregavimas ir nuolaidos
       href: price-adjustments-discounts.md
@@ -271,9 +273,9 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Lojalumas
   items:
-    - name: Klientų lojalumo programų nustatymas
+    - name: Lojalumo apžvalga
       href: set-up-customer-loyalty-program.md
-- name: Atsargos
+- name: Inventorizacijos
   items:
     - name: Parduotuvės atsargų valdymas
       href: work-with-store-inventory.md
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Lokalizavimo ir reguliavimo priemonės​
   items:
+    - name: Mažmeninės prekybos kanalo fiskalinė integracija
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Rytų Europa
       items:
         - name: Išankstinės „Retail“ SF (Rytų Europa)
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: „Retail” kliento SF ir grąžinimo pardavimo užsakymai Rytų Europos šalyse
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Kasos aparatų diegimo gairės Čekijai, Vengrijai ir Lenkijai'
+          href: localizations/emea-eeu-deployment.md
     - name: Prancūzija
       items:
         - name: Kasos aparato funkcijos
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Plėtojimo ir N-1 palaikymas (Indija)
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Italija
+      items:
+        - name: Finansinių dokumentų spausdintuvo integravimas
+          href: localizations/emea-ita-fpi-sample.md
     - name: Norvegija
       items:
         - name: Kasos aparato funkcijos
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį
           href: dev-itpro/add-POS-operations.md
+        - name: „Retail POS“ API sąsajos
+          href: dev-itpro/POS-APIs.md
         - name: EKA mokėjimo plėtinys
           href: dev-itpro/pos-payment-extension.md
         - name: Išorinių dovanų kortelių palaikymas
