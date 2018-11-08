@@ -34,6 +34,8 @@
         - name: Kas nauja ar pasikeitė
           href: get-started/whats-new-changed.md
           items:
+            - name: DUK apie vienos versijos paslaugų naujinimus
+              href: get-started/one-version.md
             - name: Programinės įrangos ciklo strategija ir debesies leidimai
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Programinės įrangos ciklo strategija ir vietinės versijos leidimai
@@ -44,10 +46,18 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Atidėtos AX 2012 funkcijos
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
+            - name: Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos
               href: get-started/features-not-implemented-on-prem.md
+            - name: "„Platform Update 22“ (2018\_m. lapkritis)"
+              href: get-started/whats-new-platform-update-22.md
+            - name: „Finance and Operations“ 8.1.2 versija (2018 m. lapkričio mėn.)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: „Finance and Operations“ 8.1.1 versija (2018 m. spalio mėn.)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: „Finance and Operations“ 8.1 versija (2018 m. spalio mėn.)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: "„Platform Update 21” (2018\_m. spalio mėn.)"
+              href: get-started/whats-new-platform-update-21.md
             - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
               href: get-started/whats-new-platform-update-20.md
             - name: „Finance and Operations“ 8.0 versija (2018 m. balandžio mėn.)
@@ -296,23 +306,25 @@
           href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
     - name: Duomenų integravimas
       items:
-        - name: Duomenų integravimo (importavimo / eksportavimo) strategijos pasirinkimas
+        - name: Duomenų integravimo (importo / eksporto) strategijos pasirinkimas
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Duomenų integravimo API sąsajos
           items:
-            - name: Duomenų valdymo paketo API
+            - name: Duomenų valdymo paketo REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Paslaugų galiniai punktai
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Tarnybų autentifikavimo trikčių diagnostika
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
-            - name: „OData‟
+            - name: „OData“
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Pasirinktinės tarnybos
+            - name: Pasirinktinių paslaugų kūrimas
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Pasikartojančios integracijos​
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Integravimo kūrimas
           items:
             - name: Duomenų integravimas naudojant duomenų objektus
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: 'Įrašo šablono sukūrimas, kad būtų paprasčiau įvesti duomenis'
+                - name: 'Įrašų šablonų sukūrimas, kad būtų paprasčiau įvesti duomenis'
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Naujo įrašo kūrimas naudojant įrašo šabloną
+                - name: Įrašų kūrimas naudojant įrašų šablonus
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Duomenų integravimas naudojant „Common Data Service“
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Konfigūracijos duomenų tarp įmonių ar juridinių subjektų kopijavimas
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Konfigūracijos duomenų paketai
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Konfigūracijos duomenų šablonai
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Informacijos apie standartinius duomenų objektus ieška
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Duomenų šablonai su keliais darbalapiais
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Objektų keitimų sekimo įjungimas
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Konfigūracijos raktai ir duomenų objektai
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Konfigūracijos duomenų paketai
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Duomenų objektų kūrimas
           items:
+            - name: Duomenų objektų dizaino principai ir geriausia praktika
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Naujų duomenų objektų kūrimas
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Duomenų objektų ypatybės
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Trečiųjų šalių paslaugų tikrinimo priemonių naudojimas
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Savo duomenų bazės naudojimas
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Duomenų užduočių automatizavimas
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Duomenų tikrinimo darbo sritis
+        - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Duomenų valdymo klaidų aprašai
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Finansų valdymas
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Sukonfigūruoti sąskaitų struktūras
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Dvi valiutos
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Žurnalai ir didžiosios knygos
               items:
                 - name: Bendrųjų žurnalų apdorojimas
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Vienas kvitas
                   href: ../financials/general-ledger/one-voucher.md
+                - name: DK sudengimai
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Laikotarpio pabaigos uždarymas
               items:
                 - name: DK uždarymas laikotarpio pabaigoje
@@ -1799,6 +1827,10 @@
             - name: Mokesčių mechanizmo apžvalga
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Importuoti konfigūraciją
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Mokesčių mechanizmo taikomumas
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Mokesčių mechanizmo integravimas
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Mokesčių mechanizmo plėtimas
@@ -2100,6 +2132,8 @@
         - name: Lenkija
           href: ../financials/localizations/poland.md
           items:
+            - name: Storno apskaitos suaktyvinimas
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Eilučių nuolaidų skaičiavimas pagal vieneto kainą
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Koregavimo pastabos
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: PVM ataskaitos
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Numeracijų nustatymas pagal sandėlį
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Standartinis audito failas
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Mokesčių palūkanos ir nefiksuotos palūkanos
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Kasdienės avanso turėtojų operacijos
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Išankstinės ataskaitos su biudžeto kontrole
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Išankstinių savininkų užsienio valiutos perkainojimas
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Išankstinių savininkų ataskaitos
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Bankas
+              items:
+                - name: Banko sąskaitų nustatymas
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Mokėjimo užsakymų nustatymas ir apdorojimas
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Ilgalaikis turtas
               items:
                 - name: Ilgalaikio turto įsigijimas ir naudojimo pradžia
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Ilgalaikio turto įsigijimų registravimas
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Ilgalaikio turto įsigijimų biudžeto žurnalų kūrimas ir registravimas
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Ilgalaikio turto apskaita
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Ilgalaikio turto valiutos kurso pasikeitimas
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Ilgalaikio turto savikainos ir nusidėvėjimo perkainojimas
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Dalinis ilgalaikio turto išskaidymas (likvidavimas)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Mokėjimo užsakymų nustatymas ir apdorojimas
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Turto pardavimas, likvidavimas ir nurašymas'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Ilgalaikio turo vietų ir numeravimo nustatymas
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Nustatyti nusidėvėjimą
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Nusidėvėjimo metodai
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Papildomi nusidėvėjimai
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Skaičiuoti nusidėvėjimą
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Įmonės padaliniai
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Valiutų operacijų kursų nustatymas
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Didžiosios knygos operacijų peržiūra
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Tarnautojų nustatymas
               href: ../financials/localizations/rus-officials.md
-            - name: Banko sąskaitų nustatymas
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Mokesčių agentų pridėtinės vertės mokestis (PVM)
               href: ../financials/localizations/rus-tax-agent.md
             - name: Sudengimų dimensijų valdiklio nustatymas
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Mokėjimo SF
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Saudo Arabija
           href: ../financials/localizations/saudi-arabia.md
           items:
