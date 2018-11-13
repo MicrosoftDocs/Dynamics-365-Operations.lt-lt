@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 06ab745d9df9b095b861cf7bc79aba6d1361eeb0
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 08/07/2018
 | <span data-ttu-id="ac154-128">Tiekėjo įtraukimo prašymo darbo eiga</span><span class="sxs-lookup"><span data-stu-id="ac154-128">Vendor add application workflow</span></span>  | <span data-ttu-id="ac154-129">Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas.</span><span class="sxs-lookup"><span data-stu-id="ac154-129">Create review and approval workflows for adding new vendors via vendor requests.</span></span> |
 
 ## <a name="creating-a-workflow"></a><span data-ttu-id="ac154-130">Darbo eigos kūrimas</span><span class="sxs-lookup"><span data-stu-id="ac154-130">Creating a workflow</span></span>
+
 <span data-ttu-id="ac154-131">Norėdami kurti darbo eigą, pasirinkite Įsigijimas ir šaltinio pasirinkimas &gt; Nustatymas &gt; Įsigijimo ir šaltinio pasirinkimo darbo eigos ir sukurkite naują darbo eigą, pasirinkdami norimą darbo eigos tipą.</span><span class="sxs-lookup"><span data-stu-id="ac154-131">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
 <span data-ttu-id="ac154-132">Darbo eigos srityje darbo eigos elementus galite nuvilkti į kūrimo priemonę ir susieti elementus su eiga.</span><span class="sxs-lookup"><span data-stu-id="ac154-132">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="ac154-133">Darbo eigos elementai turi būti sukonfigūruoti.</span><span class="sxs-lookup"><span data-stu-id="ac154-133">The workflow elements should be configured.</span></span> <span data-ttu-id="ac154-134">Konfigūruodami patvirtinimo ir užduoties darbo eigos elementus galite nustatyti, kuris dalyvis turėtų atlikti veiksmą.</span><span class="sxs-lookup"><span data-stu-id="ac154-134">For approval and task workflow elements you can configure which participant should take action.</span></span>
-<span data-ttu-id="ac154-135">Dalyvių tipai</span><span class="sxs-lookup"><span data-stu-id="ac154-135">Types of participants</span></span>
-----------------------
+
+## <a name="types-of-participants"></a><span data-ttu-id="ac154-135">Dalyvių tipai</span><span class="sxs-lookup"><span data-stu-id="ac154-135">Types of participants</span></span>
 
 <span data-ttu-id="ac154-136">Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.</span><span class="sxs-lookup"><span data-stu-id="ac154-136">You can assign an approval step to the following groups of participants.</span></span>
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 08/07/2018
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="ac154-149">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="ac154-149">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="ac154-149">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="ac154-149">Additional resources</span></span>
 
-[<span data-ttu-id="ac154-150">Pirkimo paraiškų verslo procesų darbo eigų nustatymas</span><span class="sxs-lookup"><span data-stu-id="ac154-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [<span data-ttu-id="ac154-150">Pirkimo paraiškų verslo procesų darbo eigų nustatymas</span><span class="sxs-lookup"><span data-stu-id="ac154-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[<span data-ttu-id="ac154-151">Pirkimo paraiškos darbo eiga</span><span class="sxs-lookup"><span data-stu-id="ac154-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+- [<span data-ttu-id="ac154-151">Pirkimo paraiškos darbo eiga</span><span class="sxs-lookup"><span data-stu-id="ac154-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
-[<span data-ttu-id="ac154-152">Tiekėjų supažindinimas</span><span class="sxs-lookup"><span data-stu-id="ac154-152">Onboarding vendors</span></span>](vendor-onboarding.md)
+- [<span data-ttu-id="ac154-152">Tiekėjų supažindinimas</span><span class="sxs-lookup"><span data-stu-id="ac154-152">Onboarding vendors</span></span>](vendor-onboarding.md)
 
 
