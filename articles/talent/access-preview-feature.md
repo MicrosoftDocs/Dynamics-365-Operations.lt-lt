@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Tal
 1. Prisijunkite prie „Microsoft Dynamics 365 for Talent: Attract“.
 2. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administratoriaus parametrai**.
 3. Skirtuke **Funkcijų valdymas** pasirinkite šalia **Peržiūros funkcijos** esančią parinktį, kad ji būtų pažymėta mėlynai.
-4. Atnaujinkite naršyklę, kad galėtumėte matyti naujas funkcijas. (Vartotojai, kurie jau yra prisijungę, funkcijas matys prisijungę kitą kartą, arba jie gali atnaujinti savo naršyklę, kad funkcijas pamatytų nedelsiant.)
+4. Pasirinktinai galite valdyti atskiras funkcijas įjungdami / išjungdami konkrečias funkcijas šiame puslapyje.
+5. Atnaujinkite naršyklę, kad galėtumėte matyti naujas funkcijas. (Vartotojai, kurie jau yra prisijungę, funkcijas matys prisijungę kitą kartą, arba jie gali atnaujinti savo naršyklę, kad funkcijas pamatytų nedelsiant.)
 
 #### <a name="core-hr"></a>„Core HR“
 
@@ -61,12 +62,11 @@ Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Tal
 
 ## <a name="features-that-are-currently-in-preview"></a>Funkcijos, kurios šiuo metu yra peržiūroje
 
-### <a name="attract"></a>„Attract“
+### <a name="attract"></a>Traukti
 
-- **Užduočių šablonai** – dabar galite kurti samdos proceso šablonus. Vartotojai jau gali pritaikyti samdos procesą konkrečiai užduočiai. Tačiau dabar jie gali sukurti proceso šablonus ir tada pasirinkti atitinkamą šabloną, jau sukūrę konkrečią užduotį. Todėl ši funkcija padeda racionalizuoti užduoties nustatymo procesą.
-- **Karjeros svetainė** – dabartinėje karjeros svetainės versijoje tik pateikiamos visos laisvos darbo vietos. Tačiau daugiau galimybių bus įtraukta svetainėje ateityje. Darbus galima pažymėti kaip vidinius arba išorinius. Vidiniai vartotojai, kurie prisijungs prie svetainės, matys ir vidinius darbus, ir išorinius darbus. Tačiau ne vidiniai vartotojai ir tie vartotojai, kurie nebus prisijungę, matys tik išorinius darbus.
-- **Darbo registravimas** – dabar galite darbus registruoti karjeros svetainėje.
-- **Darbo registravimas „LinkedIn“** – dabar galite darbus registruoti „LinkedIn“.
+- **Kandidatai, tinkami užduočiai atlikti** – darbdaviai ir samdos vadovai galės lengvai pamatyti, kurie kandidatai iš visų pretendentų gali būti tinkamiausi užduočiai atlikti. 5 tinkamiausi pretendentai rodomi pagal jų CV / profilio svarbą, atsižvelgiant į užduoties aprašą.
+- **Tinkamos užduotys** – dabar kandidatai mato kitų užduočių, kurios jiems tinka atsižvelgiant į jų CV / profilį ir užduočių aprašus, sąrašą.  Šiuo metu tai rodoma kandidatams, kai jie pateikia paraišką kaip pasiūlymą kitoms galimybėms.
+- **EEO / OFCCP palaikymas** – nauji veiklos tipai suteikia galimybę naudoti iš anksto nustatytą formą renkant Vienodų įdarbinimo galimybių (EEO) ir Federalinių sutarčių atitikties programų biuro (OFCCP) duomenis iš kandidato.  Tai yra iš anksto nustatyta forma ir jos redaguoti negalima.
 
     > [!NOTE]
     > Užregistruoti darbai matomi tik tiems klientams, kurie yra užsiprenumeravę vieną ar daugiau „LinkedIn“ užduočių sąrašo produktų. Kitu atveju, klientai darbą matys tik tada, jei tiesiogiai jo ieškos. Kai darbai registruojami „LinkedIn“, įvyksta delsa. Kad užduotis būtų parodyta, gali užtrukti keletą valandų po to, kai ji registruojama iš „Attract“.

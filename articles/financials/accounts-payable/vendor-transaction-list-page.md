@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 53740f6ed0d463de5ba962f1ba15b208634a0739
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Peržiūrėti sudengimus
 
-Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą prie sudengimų retrospektyvos ir papildomos informacijos apie visą sudengimo operaciją. Taip pat galite peržiūrėti papildomas operacijas, susijusias su pasirinkta operacija, nes jos buvo įtrauktos į tą patį sudengimą arba nes jos yra mokėjimai, sukurti tame pačiame mokėjimo žurnale.
+Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą prie sudengimų retrospektyvos ir išsamesnės informacijos apie sudengimo operaciją. Taip pat galite peržiūrėti papildomas operacijas, susijusias su pasirinkta operacija, nes jos buvo įtrauktos į tą patį sudengimą arba nes jos yra mokėjimai, sukurti tame pačiame mokėjimo žurnale.
 
 1. Pasirinkite **Mokėtinos sumos \> Visi tiekėjai**.
 2. Pasirinkite operacijų turintį tiekėją, tada veiksmų srities skirtuke **Tiekėjas** pasirinkite **Operacijos**.
@@ -49,7 +49,7 @@ Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą pr
 
 ## <a name="global-transactions"></a>Visuotinės operacijos
 
-Į tiekėjo puslapį įtrauktas mygtukas **Visuotinės operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas tiekėjo operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Tiekėjo operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo / jos saugos parametrų).
+Mygtukas **Visuotinės operacijos** taip pat rodomas puslapyje **Tiekėjo operacijos**. Naudodamiesi šiuo mygtuku galite peržiūrėti visas tiekėjo operacijas visuose juridiniuose subjektuose. Sąrašo puslapyje **Tiekėjo operacijos** rodomos tik tų juridinių subjektų operacijos, prie kurių vartotojas turi prieigą (priklausomai nuo jo / jos saugos parametrų).
 
 Sąrašo puslapyje rodomos visos tą patį šalies ID kaip ir tiekėjas, nuo kurio pradėjote, turinčių tiekėjų operacijos. Pavyzdžiui, jei tiekėjas US-001 viename juridiniame subjekte turi tą patį šalies ID kaip tiekėjas DE-001 kitame juridiniame subjekte, rodomos visos abiejų tiekėjų ID operacijos.
 
@@ -67,13 +67,13 @@ Atidarytų operacijų rodymo filtras pakeistas nauju filtru, kuriuo naudodamiesi
 - **Visos** – Rodyti visas pasirinktų tiekėjų operacijas (atidarytas ir uždarytas).
 - **Uždarytos** – Rodyti tik visiškai sudengtas ir uždarytas operacijas.
 - **Atidarytos** – Rodyti tik tas operacijas, kurios dar ne visiškai sudengtos.
-- **Atidarytos nuo datos** – Rodyti tik tas operacijas, kurios dar ne visiškai sudengtos nuo jūsų nurodytos datos. Pasirinkę šią parinktį galite keisti šalia filtro rodomą datą. Sąraše rodomos operacijos, prie kurių po jūsų nurodytos datos rodoma vertė **Paskutinio sudengimo data**, net jeigu tos operacijos visiškai sudengtos. Tačiau balansas reiškia balansus nuo dabartinės datos, ne nuo pasirinktos datos.
+- **Atidaryti įskaitant uždarytas tą dieną arba po jos** – rodykite tik tas operacijas, kurios nebuvo visiškai sudengtos per arba po nurodytos dienos. Pasirinkę šią parinktį galite keisti šalia filtro rodomą datą. Sąraše rodomos operacijos, prie kurių jūsų nurodytą dieną arba po jos rodoma reikšmė **Paskutinio sudengimo data**, net jeigu tos operacijos visiškai sudengtos. Tačiau balansas reiškia balansus nuo dabartinės datos, ne nuo pasirinktos datos.
 
-Taip pat pridėtas filtras, kuriuo naudodamiesi galite slėpti valiutos konvertavimo operacijas. Tiesiog pažymėkite žymės langelį **Slėpti valiutos perkainojimus**.
+Pasirinkite žymės langelį **Slėpti valiutos perkainojimus**, kad paslėptumėte valiutos konvertavimo operacijas.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Lengviau modifikuoti terminus ir nuolaidų datas
+## <a name="modify-due-dates-and-discount-dates"></a>Terminų datų ir nuolaidų datų modifikavimas
 
-Galite atnaujinti atidarytų klientų operacijų terminus ir nuolaidų datas. Išleidus 8.1 versiją, pagerinta patirtis. Dabar sąrašo puslapyje **Tiekėjo operacijos** galite pridėti terminus. Sąrašo puslapyje **Tiekėjo operacijos** spustelėję terminą dialogo lange **Atnaujinti terminą ir mokėjimo nuolaidos datas** taip pat galite pakeisti terminus, nuolaidų datas, mokėjimo sąlygas ir mokėjimo nuolaidos sąlygas.
+Galite atnaujinti atidarytų klientų operacijų terminus ir nuolaidų datas. Dabar naudodami 8.1 leidimą puslapio **Tiekėjo operacijos** sąraše galite įtraukti terminų. Sąrašo puslapyje **Tiekėjo operacijos** spustelėję terminą dialogo lange **Atnaujinti terminą ir mokėjimo nuolaidos datas** taip pat galite pakeisti terminus, nuolaidų datas, mokėjimo sąlygas ir mokėjimo nuolaidos sąlygas.
 
 ### <a name="activate-the-feature"></a>Funkcijos suaktyvinimas
 
@@ -83,7 +83,7 @@ Norėdami sąrašo puslapyje **Tiekėjo operacijos** naudodamiesi dialogo langu 
 2. Skirtuke **Sudengimai** nustatykite srities **Rodyti terminą ir leisti koreguoti** parinktį **Taip**.
 3. Tam, kad būtų galima naudotis šia funkcija, įtraukti nauji tiekėjo operacijų veiksmai. Šie laukai užpildomi atlikus naują operaciją. Jie taip pat užpildomi atidarius dialogo langą **Atnaujinti terminą ir mokėjimo nuolaidos datas**. Nustatę srities **Rodyti terminą ir leisti koreguoti** parinktį **Taip** matysite dialogo langą **Naujinti mokėjimo informaciją**.  Norėdami iškart atnaujinti esamas operacijas, pasirinkite **Atnaujinti visas esamas operacijas**. Arba, norėdami užpildyti tik naujų operacijų laukus, pasirinkite **Tęsti be naujinimo**.
 
-Dabar terminas įtrauktas į sąrašo puslapį **Tiekėjo operacijos** ir jūs galite lengviau pakeisti operacijų terminus ir mokėjimo nuolaidų datas.
+Dabar puslapio **Tiekėjo operacijos** sąraše yra įtrauktas terminas, todėl galite lengvai pakeisti operacijų terminus bei mokėjimo nuolaidų datas.
 
 ### <a name="modify-the-payment-settings"></a>Mokėjimo parametrų keitimas
 
@@ -91,11 +91,11 @@ Sąrašo puslapyje **Tiekėjo operacijos** rodomos visos tiekėjo operacijos. Pa
 
 Kekvieno lauko poveikis redaguojamai operacijai skirtingas.
 
-- **Pagrindinės datos koregavimas:** Terminas ir nuolaidų datos pakeičiamos taip, lyg pagrindinė data būtų dokumento data.
-- **Termino koregavimas:** Keičiamas tik terminas
-- **Nuolaidų datų koregavimas:** Keičiamos tik nuolaidų datos.
-- **Mokėjimo sąlygų koregavimas:** Terminas keičiamas atsižvelgiant į pagrindinę datą ir mokėjimo sąlygas.
-- **Mokėjimo nuolaidos sąlygų koregavimas:** Mokėjimo nuolaidos keičiamos atsižvelgiant į pagrindinę datą ir mokėjimo nuolaidos sąlygas.
+- **Pagrindinės datos koregavimas** – terminas ir nuolaidų datos pakeičiamos taip, lyg pagrindinė data būtų dokumento data.
+- **Termino koregavimas** – keičiamas tik terminas
+- **Nuolaidų datų koregavimas** – keičiamos tik nuolaidų datos.
+- **Mokėjimo sąlygų koregavimas** – terminas keičiamas atsižvelgiant į pagrindinę datą ir mokėjimo sąlygas.
+- **Mokėjimo nuolaidos sąlygų koregavimas** – mokėjimo nuolaidos keičiamos atsižvelgiant į pagrindinę datą ir mokėjimo nuolaidos sąlygas.
 
 Baigę redaguoti mokėjimo parametrus, pasirinkite **Uždaryti** ir įrašykite pakeitimus.
 

@@ -3,7 +3,7 @@ title: "Finansinės dimensijos"
 description: "Šioje temoje aprašomi įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Prieš nustatydami finansines dimensijas kaip juridinius subjektus, įvertinkite
 
 ## <a name="custom-dimensions"></a>Pasirinktinės dimensijos
 
-Norėdami kurti vartotojo nustatomą finansinę dimensiją, lauke **Naudoti vertes iš** pasirinkite **&lt;&nbsp;Pasirinktinė dimensija&nbsp;&gt;**.
+Norėdami kurti vartotojo nustatomą finansinę dimensiją, lauke **Naudoti vertes iš** pasirinkite **Pasirinktinė dimensija**.
 
-Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galima įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį (-). Taip pat galite įvesti skaičiaus ženklus (\##) ir konjunkcijos ženklus (&) kaip vietos rezervavimo ženklus vietoj simbolių, kurie kaskart sukūrus dimensijos reikšmę bus skirtingi. Naudokite skaičiaus ženklą (\#) kaip skaitmens vietos rezervavimo ženklą, o konjunkcijos ženklą (&) – kaip raidės vietos rezervavimo ženklą. Formato šablono lauką galima naudoti tik lauke **Naudoti vertes iš** pasirinkus parinktį **&lt;&nbsp;Pasirinktinė dimensija&nbsp;&gt;**.
+Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galima įvesti kaip dimensijos reikšmes, kiekį ir tipą. Galite įvesti simbolius, kurie išlieka vienodi visose dimensijos reikšmėse, pvz., raides arba brūkšnelį (-). Taip pat galite įvesti skaičiaus ženklus (\##) ir konjunkcijos ženklus (&) kaip vietos rezervavimo ženklus vietoj simbolių, kurie kaskart sukūrus dimensijos reikšmę bus skirtingi. Naudokite skaičiaus ženklą (\#) kaip skaitmens vietos rezervavimo ženklą, o konjunkcijos ženklą (&) – kaip raidės vietos rezervavimo ženklą. Formato šablono lauką galima naudoti tik lauke **Naudoti vertes iš** pasirinkus parinktį **Pasirinktinė dimensija**.
 
 **Pavyzdys**
 
@@ -108,14 +108,30 @@ Dimensijų puslapyje galite nustatyti išvestines vertes.
 
 Įveskite iš pirmajame stulpelyje esančios dimensijos turimų išvesti dimensijų kombinacijas. Pavyzdžiui, norėdami, kad išlaidų centras būtų naudojamas kaip dimensija, iš kurios išvestas skyrius ir vieta, įveskite išlaidų centro vertę 10, skyriaus vertę 20 ir vietos vertę 30. Tada, pagrindiniame įraše arba operacijos puslapyje įvedus išlaidų centro vertę 10, skyriaus vertė 20 ir vietos vertė 30 įvedamos pagal numatytuosius parametrus.
 
-Išvestinės dimensijos procesas nepanaikina esamų išvestinių dimensijų verčių. Pavyzdžiui, jei įvedate išlaidų centro vertę 10, bet neįvedama jokia kita dimensija, skyriaus vertė 20 ir vietos vertė 30 įvedamos pagal numatytuosius parametrus. Tačiau pakeitus išlaidų centrą jau nustatytos vertės nekeičiamos. Todėl pagrindiniuose įrašuose galite nustatyti numatytąsias dimensijas ir tos dimensijos nebus keičiamos išvestinėmis dimensijomis.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Esamų verčių su išvestinėmis dimensijomis nepaisymas
+ 
+Pagal numatytuosius parametrus išvestinės dimensijos procesas nepanaikina esamų išvestinių dimensijų verčių. Pavyzdžiui, jei įvedate išlaidų centro vertę 10, bet neįvedama jokia kita dimensija, skyriaus vertė 20 ir vietos vertė 30 įvedamos pagal numatytuosius parametrus. Tačiau pakeitus išlaidų centrą jau nustatytos vertės nekeičiamos. Todėl pagrindiniuose įrašuose galite nustatyti numatytąsias dimensijas ir tos dimensijos nebus keičiamos išvestinėmis dimensijomis.
+
+Galite keisti išvestinių dimensijų elgseną, kad būtų nepaisoma esamų verčių – puslapyje **Išvestinės dimensijos** pažymėkite žymės langelį **Pakeisti esamas dimensijų vertes su išvestinėmis vertėmis**. Jei šis laukas pažymėtas, galite įvesti dimensiją su išvestinėmis dimensijos vertėmis ir tos išvestinės dimensijos vertės panaikins visas esamas vertes. Remiantis ankstesniu pavyzdžiu, jei įvedate išlaidų centro vertę 10, bet neįvedama jokia kita dimensija, skyriaus vertė 20 ir vietos vertė 30 įvedamos pagal numatytuosius parametrus. Tačiau jei skyriaus vertė jau 50, o vietos vertė jau 60, vertės dabar pakeičiamos ir skyriaus vertė bus 20, o vietos vertė – 30.
+ 
+Išvestinės dimensijos, kurioms naudojamas šis parametras, nustačius numatytąsias dimensijų vertes, automatiškai nepakeičia esamų numatytųjų dimensijų verčių. Dimensijų verčių bus nepaisoma tik puslapyje įvedus naują dimensijos vertę ir kai tame puslapyje yra išvestinių tos dimensijos verčių.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Apsauga nuo pakeitimų naudojant išvestines dimensijas
+ 
+Kai puslapyje **Išvestinių dimensijų puslapis** naudojantis funkcija **Įtraukti segmentą** įtraukiamas segmentas (kaip išvestinė dimensija), puslapio **Įtraukti segmentą** apačioje pateikiama parinktis, kad galėtumėte neleisti atlikti tos dimensijos keitimų išvedant ją puslapyje. Pagal numatytuosius parametrus ši parinktis išjungta, kad būtų leidžiama keisti išvestinės dimensijos vertes. Jei norite neleisti keisti dimensijos (ją išvedus), nustatymo parinktį pakeiskite į **Taip**. Pavyzdžiui, jei skyriaus dimensijos vertė išvedama iš išlaidų centro dimensijos vertės, naudojant parinkties **Neleisti keitimų** nuostatą **Taip**, skyriaus vertės keisti negalima. 
+ 
+Naudojantis šia nuostata pakeitimus atlikti galima tuo atveju, jei dimensijos vertė tinkama, bet nepateikta išvestinių dimensijų sąraše. Pavyzdžiui, jei skyriaus vertė 20 išvedama iš išlaidų centro vertės 10 ir įvedate išlaidų centro vertę 10, tada negalėsite redaguoti skyriaus vertės 20. Tačiau jei įvedus išlaidų centro vertę 20 jos nėra išvestinių išlaidų centro dimensijų sąraše, tada galite redaguoti skyriaus vertę. 
+ 
+Visais atvejais pritaikius išvestines dimensijų vertes vis tiek turi būti tikrinama, ar sąskaitos vertė ir visos dimensijų vertės atitinka sąskaitų struktūras. Jei puslapyje naudojant išvestines dimensijas nepavyksta jų patikrinti, norint naudoti šias dimensijas operacijose, būtina pakeisti išvestinių dimensijų vertes. 
+ 
+„FastTab“ skirtuke **Finansinės dimensijos** pakeitus dimensijas, tos dimensijos, kuri pažymėta, kad nebūtų leidžiama atlikti jos pakeitimų, redaguoti nebus galima. Sąskaitą ir dimensijas įvedant į puslapio segmentuoto įrašo valdiklį, dimensijas redaguoti galima. Tačiau patraukus žymiklį nuo segmentuoto įrašo valdiklio ir perėjus prie kito lauko arba pradėjus vykdyti kitą veiksmą, bus tikrinama, ar sąskaita ir dimensijos atitinka išvestinių dimensijų sąrašo vertes ir sąskaitų struktūras, kad būtų galima užtikrinti, jog įvestos tinkamos vertės. 
 
 ### <a name="derived-dimensions-and-entities"></a>Išvestinės dimensijos ir objektai
 
 Norėdami nustatyti išvestinių dimensijų segmentus ir vertes galite naudotis objektais.
 
 - Išvestinių dimensijų objektas nustato toms dimensijoms naudojamas išvedamas dimensijas ir segmentus.
-- Naudodamiesi objektu DerivedDimensionValue galite importuoti turimas išvesti kiekvienos išvedamos dimensijos vertes.
+- Naudodamiesi išvestinių dimensijų vertės objektu galite importuoti turimas išvesti kiekvienos išvedamos dimensijos vertes.
 
 Kai norint importuoti duomenis naudojamasi objektu, jei tas objektas importuoja dimensijas, importuojant taikomos išvestinės dimensijos taisyklės, nebent objektas nepaiso būtent tų dimensijų.
 
