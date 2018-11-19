@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>DK sudengimai
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 DK sudengimai leidžia suderinti DK debeto ir kredito operacijas ir pažymėti jas kaip sudengtas. Tokiu būdu galite būti tikri, kad susijusios operacijos panaikintos. Atšaukti sudengimus galite ir tada, kai jie atlikti per klaidą.
 
