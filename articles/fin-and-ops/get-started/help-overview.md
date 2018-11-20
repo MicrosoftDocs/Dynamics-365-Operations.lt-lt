@@ -3,7 +3,7 @@ title: "„Finance and Operations” žinyno sistema"
 description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus."
 author: margoc
 manager: AnnBe
-ms.date: 07/12/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
+ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
+ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
@@ -45,14 +45,14 @@ Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagri
 -   Dokumentacijos svetainė
 -   Užduočių vedliai
 
-Žinyno temas ir užduočių vedlius galite pasiekti bet kurio jūsų naudojamo produkto srityje Žinynas. Toliau pateiktoje ekrano nuotraukoje rodoma „Microsoft Dynamics 365 for Finance and Operations‟
+Žinyną galite pasiekti bet kurio naudojamo gaminio srityje Žinynas. Toliau pateiktoje ekrano nuotraukoje rodoma „Finance and Operations‟.
 
 ![Sritis Žinynas](./media/help-pane-ops-task-guides.png)
 
 Šioje temoje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
 
 > [!IMPORTANT]
-> Skirtukas **Užduočių vedliai** programose „Microsoft Dynamics 365 for Talent“ ir „Microsoft Dynamics 365 for Retail‟ šiuo metu nepasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinį žinyną taip pat galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
+> Naudojantis „Retail“ arba „Talent“ srityje Žinynas **Užduočių vedliai** šiuo metu nepasiekiami (keletą užduočių vedlių galima rasti „Talent“ srityje Pradžia). „Retail“ ir „Talent“ procedūrinį žinyną galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
 
@@ -64,17 +64,16 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations
 -   **Turinys, kuris palaiko jūsų verslo procesus** – svetainėje naudojant „Microsoft Dynamics‟ „Lifecycle Services‟ (LCS) verslo proceso modeliavimo įrankio (BPM) privalumus pateikiamas į verslo procesus orientuotas turinys.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Ieška puslapyje docs.microsoft.com
-Sulaukiame daug klausimų apie tai, kaip ieškoti mūsų turinio. Jei mūsų svetainėje pirmiausia atsidarysite puslapį, skirtą „Finance and Operations“, mes apribosime jūsų ieškos rezultatus pateikdami tik „Finance and Operations“ turinį. Šį apribojimą galite pašalinti, ieškos lauke šalia dalies „Operations“ spustelėdami X. 
+Sulaukiame daug klausimų apie tai, kaip ieškoti mūsų turinio. Jei mūsų svetainėje pirmiausia atsidarysite puslapį, skirtą „Finance and Operations“, mes apribosime jūsų ieškos rezultatus pateikdami tik „Finance and Operations“ turinį. Šį apribojimą galite pašalinti, ieškos lauke šalia dalies „Unified Operations“ spustelėdami X. 
 
-![Ieškoti užsakymų](./media/search-scope-2.png)
+![Ieška](./media/search-scope-2.png)
 
 Taip pat mūsų turinį galite rasti naudodami bet kokį ieškos mechanizmą. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., „ieškomas terminas‟ site:docs.microsoft.com dynamics 365.  
 
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Turinio lentelė docs.microsoft.com
-Dokumentų svetainėje „Finance and Operations“, „Retail“ ir „Talent“ naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį, neįtraukiant turinio, temoms, kurių ieškote, rasti.
+Dokumentų svetainėje „Finance and Operations“ ir „Retail“ naudojama viena turinio lentelė, kuri leidžia klientams matyti temos, kurioje jie yra, kontekstą. Ji taip pat suteikia galimybę naudoti filtro valdiklį, neįtraukiant turinio, temoms, kurių ieškote, rasti. 
 
-### <a name="follow-a-topic"></a>Sekite temą
-Norėdami stebėti temą, spustelėkite mygtuką +Stebėti, esantį po komentarų lauku. Norint pradėti stebėti temą, reikės prisijungti. Daugiau informacijos ieškokite skiltyje [Palikite atsiliepimą](#leave-us-feedback).  
+Pagalbos dėl kitų „Dynamics 365“ gaminių galite gauti jų ieškodami arba svetainės kelio nuorodoje spustelėję „Dynamics 365“ ir patekę į pagrindinį mūsų puslapį. 
 
 ### <a name="use-an-rss-feed"></a>RSS informacijos santraukos naudojimas
 Norėdami prenumeruoti visų „Unified Operations“ turinio naujinimų RSS informacijos santrauką, jas palaikančioje naršyklėje, pvz., „Internet Explorer“, arba RSS informacijos santraukų tvarkytuve naudokite tolesnį saitą. 
@@ -106,27 +105,32 @@ Norėdami daugiau informacijos, skaitykite mūsų bendraautoriaus vadovą: https
 
 
 > [!NOTE]
-> Šiuo metu įnašus priimsime tik į saugyklą anglų kalba.  
+> Šiuo metu įnašus priimame tik į turinio rinkinį anglų kalba.  
 
 
 ## <a name="task-guides"></a>Užduočių vedliai
 Užduočių vedlys yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduočių vedlį galite iš žinyno srities. Pirmą kartą spustelėjus užduočių vedlį, žinyno srityje bus rodomos nuoseklios užduoties instrukcijos. Dabar galima naudoti lokalizuotus užduočių vedlius. 
 
-Pateiksime skirtingus užduočių gairių rinkinius kiekvienam produktui, pvz., „Dynamics 365 for Retail“, „Dynamics 365 for Finance and Operations“ ar „Dynamics 365 for Talent“. Skyriuje Prieiga prie užduočių vedlių iš žinyno srities aprašyta, kaip rasti jūsų produktui tinkamus užduočių vedlius. 
+„Microsoft“ išsiuntė užduočių vedlių bibliotekas, kurios skirtos iki 2017 m. gruodžio mėn. pasirodžiusiems „Finance and Operations“ leidimams. Skyriuje [Prieiga prie užduočių vedlių iš žinyno srities](help-overview.md#accessing-task-guides-from-the-help-pane) aprašyta, kaip rasti jūsų produktui tinkamus užduočių vedlius. 
 
 ![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
 Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje spustelėkite **Pradėti užduoties vadovą**. Atidaromas juodas žymeklis, kuris nurodo, kokį veiksmą reikia atlikti. Vykdykite UI rodomus nurodymus ir pagal juos įveskite duomenis. 
+
 ![Užduočių vedlio veiksmų instrukcija](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
-> Duomenys, kuriuos įvedate leisdami užduoties vadovą, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
+> Duomenys, kuriuos įvedate leisdami užduočių vedlį, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Viskas prasideda nuo Užduočių įrašytuvo
 
 Užduočių vadovai kuriami naudojant Užduočių įrašytuvą. Naudojant užduočių įrašymo priemonę, įrašomi visi jūsų veiksmai, atliekami „Finance and Operations“ vartotojo sąsajoje (pvz., meniu spustelėjimai, parametrų keitimas ir duomenų įvedimas). Veiksmai, kuriuos įrašote, bendrai vadinami užduoties įrašu. Kaip paaiškinome ankstesniame skyriuje, užduočių įrašai gali būti rodomi Žinyno srityje, ir juos paleisti galima kaip užduočių vadovus. Tačiau užduočių įrašus galima naudoti ir kitaip.
 
--   **Užduočių įrašus įrašyti į BPM** – užduoties įrašą galite įrašyti į LCS BPM bibliotekos hierarchijos eilutę. Kai užduoties įrašą įrašote į BPM, kartu su įrašo veiksmais generuojama ir rodoma struktūrinės schemos diagrama. **Pastaba.** Norėdami užduoties įrašą rodyti „Finance and Operations‟ žinyno srityje ir jį paleisti kaip užduočių vedlį, įrašą turėsite įrašyti į BPM biblioteką.
+-   **Užduočių įrašus įrašyti į BPM** – užduoties įrašą galite įrašyti į LCS BPM bibliotekos hierarchijos eilutę. Kai užduoties įrašą įrašote į BPM, kartu su įrašo veiksmais generuojama ir rodoma struktūrinės schemos diagrama. 
+
+    > [!Note]
+    > Norėdami užduoties įrašą rodyti „Finance and Operations‟ žinyno srityje ir jį paleisti kaip užduočių vedlį, įrašą turėsite įrašyti į BPM biblioteką.
+    
 -   **Užduočių įrašus įrašyti kaip „Word‟ dokumentus** – užduoties įrašą įrašydami kaip „Microsoft Word‟ dokumentą, savo organizacijai galite lengvai kurti spausdinamus mokymo vadovus.
 
 Jei reikia daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė programoje „Finance and Operations“](../../dev-itpro/user-interface/task-recorder.md).
@@ -142,7 +146,7 @@ Norėdami pasiekti „Finance and Operations‟ žinyno turinį, spustelėkite p
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Žinyno temų pasiekimas iš žinyno srities
 
-Iš žinyno srities galite pasiekti straipsnius, taikomus „Finance and Operations‟ klientui. Pirmą kartą atidarydami žinyno sritį ir spustelėję skirtuką **Wiki**, matysite straipsnius, taikomus „Finance and Operations“ puslapiui, kuriame dabar esate. Jei nerasite nė vieno straipsnio, įvedę raktažodžius galite patikslinti iešką. Kai straipsnį spustelėjate žinyno srityje, jūsų naršyklėje atidaromas naujas skirtukas ir rodomas tas straipsnis. 
+Iš žinyno srities galite pasiekti straipsnius, taikomus „Finance and Operations‟ klientui. Pirmą kartą atidarydami žinyno sritį ir spustelėję skirtuką **Žinynas**, matysite straipsnius, taikomus „Finance and Operations“ puslapiui, kuriame dabar esate. Jei nerasite nė vieno straipsnio, įvedę raktažodžius galite patikslinti iešką. Kai straipsnį spustelėjate žinyno srityje, jūsų naršyklėje atidaromas naujas skirtukas ir rodomas tas straipsnis. 
 
 > [!IMPORTANT]
 > Šis skyrius netaikomas „Dynamics 365 for Talent‟. „Talent‟ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Talent“ negalima sukurti pasirinktinių užduočių vedlių. 
@@ -160,7 +164,9 @@ Tam, kad galėtumėte užduočių vedlius pasiekti iš žinyno srities, sistemos
 Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
 
 1.  **Svarbu:** pirmą kartą atidarę skirtuką Žinynas, turite prisijungti prie „Lifecycle Services“. Būtinai spustelėkite formos viduryje pateiktą saitą, palaukite, kol prisijungsite, uždarykite dialogo langą ir tada spustelėkite **Gerai**, norėdami atidaryti parametrų formą.
+
 ![Prisijungti prie LCS](./media/connect-to-lcs-crop-1024x365.png)
+
 2.  Pasirinkite, prie kurio „Lifecycle Services‟ projekto prisijungti.
 3.  Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
     - Programoje „Finance and Operations” norėdami pasiekti „Microsoft” turinį, pasirinkite „Microsoft Dynamics 365 for Finance and Operations“ 2017 m. vasario mėn. QPC bendrąją biblioteką. 
@@ -173,38 +179,29 @@ Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti sritį Žiny
 
 ![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>Kur yra išversti užduočių vedliai?
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Kur galima rasti išverstus „Microsoft“ bibliotekų užduočių vedlius?
 
 Išversti užduočių vedliai yra išleisti bibliotekose, pavadinime yra frazė „Visos kalbos“. Norėdami „Finance and Operations“ peržiūrėti lokalizuotą užduočių vedlio žinyną, įsitikinkite, kad esate prisijungę prie atitinkamos bibliotekos. Kalba, kuria atskiram vartotojui rodomas užduočių vedlys, priklauso nuo kalbos parametrų, nustatytų dalyje **Parinktys** &gt; **Nuostatos**. 
 -   Jei užduočių vedlys yra išverstas, atidarius tą užduočių vedlį visas užduočių vedlio tekstas bus rodomas jūsų pasirinkta kalba.
 -   Jei užduočių vedlys dar neišverstas, jį atidarius tik dalis užduočių vedlio teksto (valdiklių tekstas) bus rodoma jūsų pasirinkta kalba.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-Šioje lentelėje pateikiamos mūsų svetainės. Mūsų turinio svetainės išdėstytos siekiant palaikyti kliento ciklą. Kiekvienas etapas palaikomas skirtingose svetainėse. Prie svetainių, prie kurių pavadinimo yra žvaigždutė (\*), reikia prisijungti naudojant paskyrą, susietą su paslaugų teikimo planu.
+
+- [„Finance and Operations“ žinyno sistema (atsisiunčiamas informacinis lapas)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [Užduočių įrašymo priemonė](../../dev-itpro/user-interface/task-recorder.md)
+- [Kurkite dokumentus ar mokymus naudodami Užduočių įrašus](../../dev-itpro/user-interface/task-recorder.md)
+
+Šioje lentelėje pateikiamos mūsų svetainės. Prie svetainių, prie kurių pavadinimo yra žvaigždutė (\*), reikia prisijungti naudojant paskyrą, susietą su paslaugų teikimo planu.
 
 | Svetainė                                                                     | aprašymas                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Docs.microsoft.com](/dynamics365/) | Visos „Dynamics 365‟ produktų dokumentacijos pagrindiniai kompiuteriai arba saitai į ją.                                                                                                                                                               |
-| [„Lifecycle Services“](http://lcs.dynamics.com/en/)\*                      | Suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti „Dynamics 365 for Finance and Operations‟ projektus – nuo priešpardaviminės veiklos iki diegimo ir operacijų. Ši svetainė naudinga visais įgyvendinimo etapais. |
-| [CustomerSource](http://www.customersource.com/)\*                       | Saugo nemažai mokymo išteklių ir yra pagrindinė „Dynamics 365 for Finance and Operations“ palaikymo svetainė. Norint pasiekti konkrečius svetainės išteklius, gali reikėti prisijungti.                                                                      |
+| [„Microsoft Learn“](https://docs.microsoft.com/learn/) | Nemokama „Microsoft“ „eLearning“ svetainė.                                                                                                                                                               |
+| [„Lifecycle Services‟](https://lcs.dynamics.com/en/)\*                      | Suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti „Dynamics 365 for Finance and Operations‟ projektus – nuo priešpardaviminės veiklos iki diegimo ir operacijų. Ši svetainė naudinga visais įgyvendinimo etapais. |
 | [Palaikymo tinklaraštis](http://aka.ms/AXSupportBlog)                              | Pateikia patarimų, kuriuos skelbia „Dynamics 365 for Finance and Operations‟ palaikymo komanda.                                                                                                                                                  |
-| [MSDN](http://aka.ms/AXMSDN)                                             | Saugo turinį iš ankstesnių leidimų, parašytą programuotojams.                                                                                                                                                                       |
-| [TechNet](http://aka.ms/TechNet)                                         | Saugo turinį iš ankstesnių leidimų, parašytą IT profesionalams ir programų naudotojams.                                                                                                                                           |
-| [„Dynamics‟ bendruomenė](http://community.dynamics.com/)                  | Saugomi tinklaraščiai, forumai ir vaizdo įrašai.                                                                                                                                                                                                           |
+| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/en-us/previous-versions/dynamics/)                                             | Čia pateikiamas ankstesnių leidimų turinys.                                                                                                                                                                       |
+| [„Dynamics‟ bendruomenė](https://community.dynamics.com/)                  | Saugomi tinklaraščiai, forumai ir vaizdo įrašai.                                                                                                                                                                                                           |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/en-us/dynamics365/home)                 | Pateikiama vertinimo ir pardavimo informacija.                                                                                                                                                                                                 |
+| [Kliento šaltinis](https://mbs.microsoft.com/customersource/)\*                      | Čia pateikiama kai kurių „Finance and Operations“ mokymo išteklių, galimų atsisiųsti ataskaitų ir techninės dokumentacijos ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti aptarnavimo plano.     |
 
-
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
-[„Finance and Operations“ žinyno sistema (atsisiunčiamas informacinis lapas)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-[Užduočių įrašymo priemonė](../../dev-itpro/user-interface/task-recorder.md)
-
-[Kurkite dokumentus ar mokymus naudodami Užduočių įrašus](../../dev-itpro/user-interface/task-recorder.md)
-
-[Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
-[Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
-[Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
-[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 

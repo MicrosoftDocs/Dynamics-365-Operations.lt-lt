@@ -50,11 +50,12 @@ Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo
 | Tiekėjo įtraukimo prašymo darbo eiga  | Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas. |
 
 ## <a name="creating-a-workflow"></a>Darbo eigos kūrimas
+
 Norėdami kurti darbo eigą, pasirinkite Įsigijimas ir šaltinio pasirinkimas &gt; Nustatymas &gt; Įsigijimo ir šaltinio pasirinkimo darbo eigos ir sukurkite naują darbo eigą, pasirinkdami norimą darbo eigos tipą.  
 
 Darbo eigos srityje darbo eigos elementus galite nuvilkti į kūrimo priemonę ir susieti elementus su eiga. Darbo eigos elementai turi būti sukonfigūruoti. Konfigūruodami patvirtinimo ir užduoties darbo eigos elementus galite nustatyti, kuris dalyvis turėtų atlikti veiksmą.
-Dalyvių tipai
-----------------------
+
+## <a name="types-of-participants"></a>Dalyvių tipai
 
 Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.
 
@@ -68,13 +69,12 @@ Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.
 
 
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
+- [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
 
-[Tiekėjų supažindinimas](vendor-onboarding.md)
+- [Tiekėjų supažindinimas](vendor-onboarding.md)
 
 

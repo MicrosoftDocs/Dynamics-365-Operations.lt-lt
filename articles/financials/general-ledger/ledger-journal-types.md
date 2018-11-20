@@ -1,9 +1,9 @@
 ---
-title: "DK žurnalo tipai"
-description: "Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations“."
+title: "DK žurnalų tipai"
+description: "Šioje temoje aprašom žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašyti žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations“.
+Šioje temoje aprašom žurnalų tipai, kuriuos galite nustatyti finansiniams žurnalams. Naudokite puslapį **Žurnalo pavadinimai** norėdami nustatyti žurnalus, kuriuos galite naudoti visoje „Microsoft Dynamics 365 for Finance and Operations“.
 
 | Žurnalo tipas                      | Paskirtis                       | Operacijų įvedimas šiame puslapyje                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ ms.lasthandoff: 03/26/2018
 | Atlyginimo išmokėjimas              | Išmokėkite pagal atlyginimų mokėjimo pažymas. Negalite rankiniu būdu įvesti operacijų šiame žurnale. Turite generuoti mokėjimo išrašus ir tada pateikti tuos išrašus mokėjimui.                                                                                                                                                              |                                                                |
 | Laikotarpio                          | Kurkite periodines periodinio žurnalo operacijas.                                                                                                                                                                                                                                                                                                      | Periodiniai žurnalai                                              |
 | Registruoti ilgalaikį turtą                 | Registruokite ilgalaikio turto operacijas.                                                                                                                                                                                                                                                                                                                              | Ilgalaikis turtas                                                   |
-| Projektas – Išlaidos                | Kurkite projekto išlaidų operacijas.                                                                                                                                                                                                                                                                                                                        | Išlaidos                                                        |
+| Projektas – Išlaidos                | Kurkite projekto išlaidų operacijas.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Ataskaitų valiutos koregavimas     | Kurkite DK sąskaitų balansų ataskaitų valiutos koregavimus.               | Ataskaitų valiutos koregavimų žurnalai                         |
 | Statistikos operacijos            | Kurkite statistines operacijas.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Tiekėjo banko pavedimas            | Kurkite paprastojo vekselio pavedimo failą, kurį bus galima siųsti į jūsų organizacijos banką.                                                                                                                                                                                                                                                                      | Pavedimų žurnalas                                             |
 | Išmoka tiekėjui               | Kurkite išmokų tiekėjui operacijas.                                                                                                                                                                                                                                                                                                                    | Mokėjimų žurnalas                                                |

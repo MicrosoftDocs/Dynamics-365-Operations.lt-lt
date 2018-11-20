@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>„Talent“ parengimas
@@ -47,7 +47,7 @@ Informacijos apie tai, kaip pradėti dirbti su „Talent“, žr. **Talent** met
 Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
 
 1. LCS projekte pasirinkite plytelę **Programos „Talent“ valdymas**.
-2. „Talent“ visada paruošta „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. 
+2. „Talent“ visada paruošta „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. Jei dar neturite „PowerApps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „PowerApps“ administravimo centrą. Tada atlikite nurodytus veiksmus, kad [sukurtumėte „PowerApps“ aplinką](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris paruošia „Talent“, turi būti priskirta „PowerApps“ P2 licencija. Jei jūsų organizacija neturi „PowerApps“ P2 licencijos, galite ją gauti iš savo CSP arba [„PowerApps“ kainų puslapyje](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
 Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudokite toliau pateiktais nurodymais. 
 1. LCS pasirinkite Valdyti aplinkas arba eikite tiesiai į „PowerApps“ administravimo centrą, kuriame galėsite peržiūrėti esamą aplinką ir sukurti naujų.
 2. Viena „Talent“ aplinka susieta su viena „PowerApps“ aplinka.
-3. „PowerApps“ aplinkoje kartu su programa „Talent“ pateikiamos atitinkamos „PowerApps“, srauto ir CDS programos. Panaikinus „PowerApps“ aplinką, panaikinamos ir joje pateikiamos programos.
+3. „PowerApps“ aplinkoje kartu su programa „Talent“ pateikiamos atitinkamos „PowerApps“, srauto ir CDS programos. Panaikinus „PowerApps“ aplinką, panaikinamos ir joje pateikiamos programos. Rengiant „Talent“ aplinką, galima sukonfigūruoti aplinkas „Bandomoji versija“ arba „Gamyba“. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
 4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT, gamybos. Todėl rekomenduojame įvertinti įvairius diegimo padarinius, nes vėliau pakeisti su „PowerApps“ aplinka susietą „Talent“ aplinką nėra paprasta.
 5. Toliau nurodytų „PowerApps“ aplinkų negalima naudoti programoje „Talent“ ir LCS esančiame pasirinkimo sąraše jos bus filtruojamos.
  

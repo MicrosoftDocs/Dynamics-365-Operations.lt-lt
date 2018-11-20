@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -234,7 +234,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 | **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Paveiktos produkto sritys**         | Sandėlio valdymas, transportavimo valdymas     |
 | **Visuotinio diegimo parinktis**              | Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui.               |
-| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.   |
+| **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2019 m. 4 ketvirtis.   |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Pažangaus banko derinimo ir rankinio gretinimo taisyklė
 

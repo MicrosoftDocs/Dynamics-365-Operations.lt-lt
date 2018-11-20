@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Formą įtraukti į parankinius / iš jų pašalinti (kai įvesties vieta yra naršymo srities formoje)   | Shift + F                    |
 | Perkelti į standartinę veiksmų sritį                                              | „Alt“ + M, A arba „Ctrl“ + F6         |
 | Pereiti į filtrų sritį (ji taip pat gali būti atidaroma)                        | „Alt“ + M, F arba „Ctrl“ + F3         |
-| Įvesties vietą perkelti į puslapio turinį (kai įvesties vieta yra naršymo sąraše)            | „Alt“ + M, M arba „Ctrl“ + F3         |
+| Perkelti įvesties vietą į puslapio turinį (kai įvesties vieta yra naršymo sąraše)                | „Alt“ + M, M arba „Ctrl“ + F3         |
 | Pereiti į naršymo sąrašą išsamios informacijos formoje (jis taip pat gali būti atidaromas)    | „Alt“ + M, S arba „Ctrl“ + F8         |
 | Įvesties vietą perkelti į puslapio turinį (kai įvesties vieta yra naršymo sąraše)            | „Alt“ + M, M arba „Ctrl“ + F8         |
 | Uždaryti išsamios informacijos formos naršymo sąrašą (naršymo sąrašui esant suaktyvintam) | Esc                        |
