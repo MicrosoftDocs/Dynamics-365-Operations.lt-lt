@@ -47,21 +47,25 @@
       href: dev-itpro/updating-environments.md
     - name: Bandymai ir efektyvumo problemos
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Paskirstytų užsakymų tvarkymas (DOM)
+  href: dom.md
 - name: Mokėjimai
   items:
     - name: Mokėjimo būdai
       href: payment-methods.md
     - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Grynųjų pinigų nominaliosios vertės POS konfigūravimas
+    - name: Grynųjų pinigų nominaliosios vertės elektroniniam kasos aparatui konfigūravimas
       href: cash-denominations.md
-    - name: Mokėjimų DUK
+    - name: Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
+      href: payinvoice.md
+    - name: DUK apie mokėjimus
       href: dev-itpro/payments-retail.md
 - name: Pirkimo užsakymai
   items:
-    - name: Pirkimo užsakymo apžvalga
+    - name: Pirkimo užsakymų apžvalga
       href: ../supply-chain/procurement/purchase-order-overview.md
-    - name: Pirkimo užsakymų sukūrimas
+    - name: Pirkimo užsakymų kūrimas
       href: ../supply-chain/procurement/purchase-order-creation.md
     - name: Produkto gavimas pagal pirkimo užsakymą
       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
@@ -211,8 +215,10 @@
       href: Order-fulfillment-overview.md
     - name: Parduotuvių užsakymų įvykdymo nustatymas
       href: Order-fulfillment-POS-setup.md
-    - name: Užsakymų pranešimų rodymas EKA
+    - name: Užsakymų pranešimų rodymas elektroniniame kasos aparate
       href: Notifications-POS.md
+- name: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
+  href: orderexchanges.md
 - name: Stebėjimas ir analizė
   items:
     - name: Pardavimo ir maržos efektyvumo stebėjimas
@@ -231,10 +237,12 @@
   items:
     - name: Mažmeninės prekybos nuolaidos
       href: retail-discounts-overview.md
-    - name: Mažmeninės prekybos pardavimo kainų valdymas
+    - name: „Retail“ pardavimo kainų valdymas
       href: price-management.md
     - name: Kainų koregavimas ir nuolaidos
       href: price-adjustments-discounts.md
+    - name: Kelių mažmeninės prekybos nuolaidų taikymas produktui
+      href: Apply-multiple-retail-discounts.md
     - name: Optimalios persidengiančių nuolaidų kombinacijos nustatymas
       href: optimal-combination-overlapping-discounts.md
     - name: Kanalui būdingų nuolaidų nustatymas
@@ -488,7 +496,9 @@
       items:
         - name: „Retail POS“ ekrano maketai
           href: pos-screen-layouts.md
-        - name: EKA maketo dizaino įrankio diegimas
+        - name: URL atidarymas elektroniniame kasos aparate
+          href: Open-URL-in-POS.md
+        - name: EKA maketų dizaino įrankio diegimas
           href: install-pos-layout-designer.md
         - name: „Retail Modern POS“ neprisijungus
           href: dev-itpro/retail-modern-pos-offline.md
@@ -506,8 +516,12 @@
           href: dev-itpro/pos-payment-extension.md
         - name: Išorinių dovanų kortelių palaikymas
           href: dev-itpro/gift-card.md
-        - name: Prekės ženklo integravimo į programą „Retail Experience“ kūrimas ir taikymas
+        - name: Prekės ženklų kūrimas ir taikymas programoje „Retail Experience“
           href: dev-itpro/create-retail-experience-app.md
+        - name: Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“
+          href: dev-itpro/hybridApp.md
+        - name: EKA užklausų apdorojimo programos perrašymas
+          href: dev-itpro/pos-handler.md
     - name: „Hardware Station“ ir išplečiamumas
       href: dev-itpro/hardware-station-extensibility.md
     - name: „Retail Server“ išplečiamumas
@@ -560,12 +574,16 @@
           href: dev-itpro/deploy-payment-connector.md
         - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
           href: dev-itpro/payment-custom-error-messages.md
-        - name: „Windows Installer“ programų sukūrimas mokėjimo jungtims
+        - name: „Windows“ diegimo programų kūrimas mokėjimo jungtims
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Mokėjimo duomenų naudojimas
+          href: payment-connector-data-fields.md
     - name: „Retail SDK“
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: „Retail“ ir „Finance and Operations“ kūrimo sistemų susiejimas
+        - name: Būsimi „Retail SDK“ pakeitimai
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: „Retail“ ir „Finance and Operations“ kūrimo sistemų suliejimas
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: „Retail SDK“ išplečiamumo pavyzdžiai
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
