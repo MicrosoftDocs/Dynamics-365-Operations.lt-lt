@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Norėdami sužinoti, kaip registruoti naują ER teikėją, paleiskite užduoči�
 
 #### <a name="repository"></a>Saugykla
 
-ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos dviejų tipų ER saugyklos: **Operacijų ištekliai** ir **LCS projektas**.
+ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos keturių tipų ER duomenų saugyklos: **Operacijų ištekliai**, **LCS projektas (LCS)**, **Failų sistema** ir **Reguliavimo konfigūravimo Tarnybos (RCS)**.
 
 **Operacijų išteklių** saugykla suteikia prieigą prie konfigūracijų sąrašo, kurį „Microsoft“, kaip ER konfigūracijų teikėjas, išleidžia kaip „Finance and Operations“ sprendimo dalį. Šias konfigūracijas galima importuoti į esamą „Finance and Operations“ egzempliorių ir naudoti elektroninių ataskaitų kūrimo tikslais. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti.
 
 **LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos etape, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio „Finance and Operations“ egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš **LCS projekto** saugyklos į dabartinį „Finance and Operations“ egzempliorių.
 
-Galima registruoti atskirai kiekvieno dabartinio „Finance and Operations“ egzemplioriaus konfigūracijos teikėjo būtinas **LCS projekto** saugyklas. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
+Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš saugyklos **Failų sistema** galite importuoti į dabartinį „Finance and Operations“ egzempliorių. Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose „Dynamics 365 for Finance and Operations“ aplinkose.
+- aplinkų diegimo debesyje įrankis, įdiegtas kūrimo tikslais (pateikiami bandomieji pridėtų komplektų modeliai)
+- vietoje įdiegtos aplinkos (vietinių ar vietos verslo duomenų diegimas (LBD))
+
+Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas](/electronic-reporting-import-ger-configurations.md).
+
+Saugykla **RCS egzempliorius** suteikia prieigą prie tam tikro RCS egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. ER užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius leidžia importuoti į dabartinį „Finance and Operations“ egzempliorių ir naudoti jas elektroninėms ataskaitoms.
+
+Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš reguliavimo konfigūravimo tarnybų (RCS)](/rcs-download-configurations.md).
+
+Galima registruoti atskirai kiekvieno dabartinio „Finance and Operations“ egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **Reguliavimo konfigūravimo tarnybos (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 ### <a name="building-a-data-model"></a>Duomenų modelio kūrimas

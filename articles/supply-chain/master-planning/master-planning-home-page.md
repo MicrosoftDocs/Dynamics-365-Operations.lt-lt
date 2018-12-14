@@ -3,7 +3,7 @@ title: Bendrojo planavimo pagrindinis puslapis
 description: "Bendrasis planavimas leidžia įmonėms nustatyti ir rasti pusiausvyrą tarp būsimo žaliavų poreikio ir galimybių pasiekti įmonės tikslus."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 ## <a name="quick-links"></a>Spartieji saitai
 
-|      |   |
-|------|---|
-|        [Bendrieji planai](master-plans.md)       |     [Kurti planą su apribojimais](./tasks/constrained-plan.md)  |
-| [Kurti sudėtinių produktų medžiagų planą](./tasks/create-material-plan-co-products.md)   |  [Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)  |
-| [Kurti vidinės įmonės planą](./tasks/create-intercompany-plan.md) | [Poreikio prognozės apžvalga](introduction-demand-forecasting.md)  | 
-|[Mažinimo raktai](reduction-keys.md)| [Bendrojo planavimo pagrindai](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (el. mokymasis) (reikia „CustomerSource“ abonemento)     |
-|  [Apdirbamosios gamybos bendrasis planavimas](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (el. mokymasis) (reikia „CustomerSource“ abonemento) | [Vidinis įmonės bendrasis planavimas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (el. mokymasis) (reikia „CustomerSource“ abonemento)|
+- [Bendrieji planai](master-plans.md)  
+- [Kurti planą su apribojimais](./tasks/constrained-plan.md)
+- [Kurti sudėtinių produktų medžiagų planą](./tasks/create-material-plan-co-products.md)
+- [Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
+- [vidinės įmonės plano kūrimas](./tasks/create-intercompany-plan.md)
+- [Poreikio prognozės apžvalga](introduction-demand-forecasting.md)
+- [Mažinimo raktai](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
