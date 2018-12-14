@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Dvi valiutos
+
+[!include [banner](../includes/banner.md)]
 
 Naudojantis „Microsoft Dynamics 365 for Finance and Operations“ versijoje 8.1 (2018 m. spalis) įdiegta funkcija galima iš naujo nurodyti ataskaitų valiutos paskirtį ir šią valiutą naudoti kaip antrąją apskaitos valiutą. Ši funkcija vadinama *dvi valiutos*. Dviejų valiutų pakeitimų nepavyks išjungti naudojantis konfigūracijos raktu arba parametru. Kadangi ataskaitų valiuta naudojama kaip antroji apskaitos valiuta, pasikeitė ataskaitų valiutos apskaičiavimo registravimo logikoje tvarka.
 
@@ -67,8 +69,8 @@ Toliau išvardyti moduliai ataskaitų valiutą naudoja kaip antrąją apskaitos 
 
 - [Didžioji knyga](#general-ledger)
 - [Finansinės ataskaitos](#financial-reporting)
-- [Mokėtinos sumos](#accounts-payable/accounts-receivable)
-- [Gautinos sumos](#accounts-payable/accounts-receivable)
+- [Mokėtinos sumos](#accounts-payable-and-accounts-receivable)
+- [Gautinos sumos](#accounts-payable-and-accounts-receivable)
 - [Grynųjų pinigų ir banko valdymas](#cash-and-bank-management)
 - [Ilgalaikis turtas](#fixed-assets)
 
@@ -90,7 +92,7 @@ Naudodamiesi patobulintu moduliu **Finansinės ataskaitos** sumas ataskaitų val
 
 Šis pakeitimas prieinamas naudojantis stulpelio aprašo nustatymu **Valiutos rodinys**. Jei pasirinksite **Ataskaitų valiuta iš DK**, stulpelyje esančios sumos nekonvertuojamos. Ataskaitos apie jas parengiamos tiesiogiai iš DK. Jeigu norite, kad stulpelyje būtų rodomos konvertuotos sumos, pasirinkite parinktį **Konvertuoti į XXXX**, kai *XXXX* yra stulpelyje turima nurodyti ataskaitų valiuta. Šiuo atveju, naudojantis esama konvertavimo funkcija, apskaitos valiuta nurodytos sumos bus konvertuojamos į pasirinktą valiutą.
 
-### <a name="accounts-payableaccounts-receivable"></a>Mokėtinos sumos / gautinos sumos
+### <a name="accounts-payable-and-accounts-receivable"></a>Mokėtinos sumos ir gautinos sumos
 
 Moduliai **Mokėtinos sumos** ir **Gautinos sumos** jau sekė sumas ataskaitų valiuta. Tačiau sumos nebuvo rodomas arba naudojamos įvairiems procesams. Atlikti toliau nurodyti pakeitimai.
 

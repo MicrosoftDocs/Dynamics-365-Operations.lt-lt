@@ -3,7 +3,7 @@ title: "„Dynamics 365 for Finance and Operations“ – versijos „Warehousin
 description: "Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ – versiją „Warehousing“."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: lt-lt
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Norėdami įjungti programos sąveiką su konkrečiu „Finance and Operations�
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Finance and Operations“
 Norėdami leisti „Finance and Operations“ naudoti jūsų „Azure AD“ programą, atlikite toliau nurodytus konfigūravimo veiksmus.
 
-1.  Sukurkite naują vartotojo paskyrą „Finance and Operations“ nuomotojo „Azure Active Directory“. Šios vartotojo paskyros paskirtis yra pasiekti konkrečią pasirinktinę sandėliavimo programos tarnybą, kurią pateikia „Finance and Operations“ serveris. Atlikę šį veiksmą, turėsite WMDP vartotojo kredencialus, kuriuos sudaro WMDP el. pašto adresas ir WMDP slaptažodis. Norėdami sužinoti apie pagrindinius vartotojų įtraukimo į „Azure AD“ ir „Finance and Operations“ veiksmus, žr. šią mokymo programą: [„Finance and Operations“ prenumeratos registracija](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Sukurkite „Finance and Operations“ vartotoją, kuris atitinka sandėliavimo programos vartotojo kredencialus.
+1.  Sukurkite „Finance and Operations“ vartotoją, kuris atitinka sandėliavimo programos vartotojo kredencialus.
     1.  Programoje „Finance and Operations“ eikite į **Sistemos administravimas** &gt; **Bendra** &gt; **Vartotojai**.
     2.  Sukurkite naują vartotoją.
     3.  Priskirkite sandėlio mobiliojo įrenginio vartotoją, kaip parodyta tolesnėje ekrano kopijoje. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Susiekite savo „Azure Active Directory“ programą su sandėliavimo programos vartotoju.
+2.  Susiekite savo „Azure Active Directory“ programą su sandėliavimo programos vartotoju.
     1.  Programoje „Finance and Operations“ eikite į **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
     2.  Sukurkite naują eilutę.
     3.  Įveskite **Kliento ID** (gautą anksčiau), suteikite jam pavadinimą ir pasirinkite anksčiau sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius, kad juos pametę galėtumėte lengvai pašalinti jų prieigą prie „Finance and Operations“ iš šio puslapio. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

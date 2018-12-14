@@ -1,9 +1,9 @@
 ---
 title: "„Finance and Operations” žinyno sistema"
-description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus."
+description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. Jame taip pat paaiškinama, kaip savo organizacijai galite kurti pasirinktinius dokumentus ir mokymus. 
+Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga. 
 
 > [!NOTE] 
 > Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
@@ -48,8 +48,6 @@ Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagri
 Žinyną galite pasiekti bet kurio naudojamo gaminio srityje Žinynas. Toliau pateiktoje ekrano nuotraukoje rodoma „Finance and Operations‟.
 
 ![Sritis Žinynas](./media/help-pane-ops-task-guides.png)
-
-Šioje temoje aprašoma žinyno sistema ir tai, kaip savo organizacijai galite kurti pasirinktinius dokumentus bei mokymo išteklius.
 
 > [!IMPORTANT]
 > Naudojantis „Retail“ arba „Talent“ srityje Žinynas **Užduočių vedliai** šiuo metu nepasiekiami (keletą užduočių vedlių galima rasti „Talent“ srityje Pradžia). „Retail“ ir „Talent“ procedūrinį žinyną galite rasti svetainėje docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
@@ -83,7 +81,7 @@ Norėdami prenumeruoti visų „Unified Operations“ turinio naujinimų RSS inf
 ### <a name="give-feedback"></a>Pateikite atsiliepimų 
 Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų turinio pakeitimų galite naudodamiesi „GitHub“. Norėdami sužinoti daugiau apie mūsų atsiliepimų sistemą, žr. [šį tinklaraščio įrašas](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)
 
-##### <a name="leave-us-feedback"></a>Palikite atsiliepimą 
+#### <a name="leave-us-feedback"></a>Palikite atsiliepimą 
 Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausimų, palikite komentarą puslapio apačioje.  
 
 1. Spustelėkite **Atsiliepimai**, kad pasiektumėte komentarus puslapio apačioje, tada spustelėkite **Atsiliepimai apie produktą** arba **Prisijunkite, kad pateiktumėte atsiliepimus apie instrukcijas**.
@@ -93,8 +91,6 @@ Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausim
 2. 2. Įveskite savo komentarą, o tada spustelėkite **Skelbti atsiliepimą**.
 
 ![Skelbti komentarą](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Pasiūlykite pakeitimų arba papildykite turinį naudodami „GitHub“
 Norint pasiūlyti pakeitimą, reikės susikurti „GitHub“ paskyrą ir pasirašyti bendraautoriaus licencijos sutartį.  Pateikus įtraukimo užklausą, peržiūrėsime jūsų siūlomus pakeitimus. Jei reikės, pakeitimus aptarsime įmonės viduje ir vėliau su jumis susisieksime.  
@@ -122,22 +118,7 @@ Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje s
 > [!IMPORTANT] 
 > Duomenys, kuriuos įvedate leisdami užduočių vedlį, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
 
-### <a name="it-all-begins-with-task-recorder"></a>Viskas prasideda nuo Užduočių įrašytuvo
-
-Užduočių vadovai kuriami naudojant Užduočių įrašytuvą. Naudojant užduočių įrašymo priemonę, įrašomi visi jūsų veiksmai, atliekami „Finance and Operations“ vartotojo sąsajoje (pvz., meniu spustelėjimai, parametrų keitimas ir duomenų įvedimas). Veiksmai, kuriuos įrašote, bendrai vadinami užduoties įrašu. Kaip paaiškinome ankstesniame skyriuje, užduočių įrašai gali būti rodomi Žinyno srityje, ir juos paleisti galima kaip užduočių vadovus. Tačiau užduočių įrašus galima naudoti ir kitaip.
-
--   **Užduočių įrašus įrašyti į BPM** – užduoties įrašą galite įrašyti į LCS BPM bibliotekos hierarchijos eilutę. Kai užduoties įrašą įrašote į BPM, kartu su įrašo veiksmais generuojama ir rodoma struktūrinės schemos diagrama. 
-
-    > [!Note]
-    > Norėdami užduoties įrašą rodyti „Finance and Operations‟ žinyno srityje ir jį paleisti kaip užduočių vedlį, įrašą turėsite įrašyti į BPM biblioteką.
-    
--   **Užduočių įrašus įrašyti kaip „Word‟ dokumentus** – užduoties įrašą įrašydami kaip „Microsoft Word‟ dokumentą, savo organizacijai galite lengvai kurti spausdinamus mokymo vadovus.
-
-Jei reikia daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė programoje „Finance and Operations“](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Tinkintų užduočių įrašų kūrimas
-
-Galite kurti savus užduočių įrašus arba atsisiųsti ir tinkinti „Microsoft‟ teikiamus užduočių įrašus. Todėl galite sukurti savo organizacijai pritaikytą žinyną, kuriame atsispindėtų jūsų konkretus „Finance and Operations‟ diegimas. Norėdami užduoties įrašą rodyti „Finance and Operations‟ žinyno srityje ir jį paleisti kaip užduočių vedlį, įrašą turėsite įrašyti į BPM biblioteką LCS. Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Išsamias instrukcijas rasite dalyje [Užduočių įrašų naudojimas dokumentacijai ar mokymams kurti](../../dev-itpro/user-interface/task-recorder.md).
+Norėdami sukurti savo pasirinktinų užduočių vedlių, galite naudoti užduočių įrašymo priemonę. Daugiau informacijos žr. temoje [Dokumentų ar mokymų kūrimas naudojant užduočių įrašus](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Vidinis Žinynas
 Norėdami pasiekti „Finance and Operations‟ žinyno turinį, spustelėkite piktogramą **Žinynas** (**?**) ir pasirinkite Žinynas arba paspauskite Ctrl + Shift +?. Abiem atvejais atidaroma Žinyno sritis. Iš žinyno srities galite pasiekti straipsnius ar užduočių vedlius. 
@@ -184,6 +165,11 @@ Sistemos administratoriui atlikus šiuos veiksmus, galite atidaryti sritį Žiny
 Išversti užduočių vedliai yra išleisti bibliotekose, pavadinime yra frazė „Visos kalbos“. Norėdami „Finance and Operations“ peržiūrėti lokalizuotą užduočių vedlio žinyną, įsitikinkite, kad esate prisijungę prie atitinkamos bibliotekos. Kalba, kuria atskiram vartotojui rodomas užduočių vedlys, priklauso nuo kalbos parametrų, nustatytų dalyje **Parinktys** &gt; **Nuostatos**. 
 -   Jei užduočių vedlys yra išverstas, atidarius tą užduočių vedlį visas užduočių vedlio tekstas bus rodomas jūsų pasirinkta kalba.
 -   Jei užduočių vedlys dar neišverstas, jį atidarius tik dalis užduočių vedlio teksto (valdiklių tekstas) bus rodoma jūsų pasirinkta kalba.
+
+## <a name="creating-custom-help"></a>Pasirinktinio žinyno kūrimas
+Galite sukurti pasirinktinų užduočių vedlių ir taip sukurti vartotojams skirtą žinyną arba susieti savo žiniatinklio svetainę su sritimi Žinynas. Daugiau informacijos rasite: 
+- [Kaip sukurti užduoties įrašą ir naudoti jį kaip dokumentus ar mokymą](../../dev-itpro/user-interface/task-recorder.md)
+- [Pasirinktinio „Finance and Operations“ žinyno kūrimas (techninė dokumentacija)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

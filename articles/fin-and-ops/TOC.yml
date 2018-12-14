@@ -46,9 +46,13 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Atidėtos AX 2012 funkcijos
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos
+            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
               href: get-started/features-not-implemented-on-prem.md
-            - name: "„Platform Update 22“ (2018\_m. lapkritis)"
+            - name: „Finance and Operations“ 8.1.3 versija (2018 m. gruodžio mėn.)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: "„Platform Update 23“ (2018\_m. gruodžio mėn.)"
+              href: get-started/whats-new-platform-update-23.md
+            - name: "„Platform Update 22“ (2018\_m. lapkričio mėn.)"
               href: get-started/whats-new-platform-update-22.md
             - name: „Finance and Operations“ 8.1.2 versija (2018 m. lapkričio mėn.)
               href: get-started/whats-new-changed-8-1-2.md
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Žinyno sistemos prijungimas
               href: get-started/help-connect.md
+            - name: Pasirinktinio žinyno svetainės prijungimas
+              href: get-started/help-custom.md
             - name: Laukų aprašų peržiūra ir eksportas
               href: get-started/view-export-field-descriptions.md
             - name: Užduočių vedliai ir užduočių įrašymo priemonė
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Finansinių ataskaitų duomenų srities nustatymas iš naujo
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Elektroniniai pranešimai
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Lokalizavimo ir reguliavimo priemonės​
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2220,8 +2228,12 @@
               href: ../financials/localizations/rus-tax-agent.md
             - name: Sudengimų dimensijų valdiklio nustatymas
               href: ../financials/localizations/rus-transactions-settlement-date.md
-            - name: Mokėjimo SF
+            - name: Mokėjimo sąskaitos faktūros
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Finansinės ataskaitos
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Pirkimo knygos sukūrimas
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Saudo Arabija
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Konfigūracijų importavimas iš „Lifecycle Services“
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Elektroninių ataskaitų (ER) konfigūracijų importavimas iš reguliavimo konfigūravimo tarnybų (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Konfigūracijų importavimas
@@ -3046,7 +3060,7 @@
               href: ../supply-chain/procurement/tasks/enter-compare-rfq-bids-award-contracts.md
         - name: Pirkimo užsakymai
           items:
-            - name: Pirkimo užsakymo apžvalga
+            - name: Pirkimo užsakymų apžvalga
               href: ../supply-chain/procurement/purchase-order-overview.md
             - name: Pirkimo užsakymų tvirtinimas
               href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
@@ -4145,13 +4159,15 @@
               href: ../supply-chain/warehousing/change-warehouse-mobile-device-displays.md
             - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
-            - name: Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje
+            - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Seniausio paketo paėmimas mobiliajame įrenginyje
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Proceso vadovo sistema
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Plėtojimas ir perėjimas
           items:
-            - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
+            - name: Modulio Sandėlio valdymas procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
               href: ../supply-chain/warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Registravimo ir atidėjimo gavimai
           items:

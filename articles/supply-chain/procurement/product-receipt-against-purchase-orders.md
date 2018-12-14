@@ -1,9 +1,9 @@
 ---
 title: "Produkto gavimas pagal pirkimo užsakymą"
-description: "Šiame straipsnyje aprašoma įvairios produktų registravimo kaip baigtų produktų parinktys."
+description: "Šioje temoje aprašomos įvairios produktų registravimo kaip baigtų produktų parinktys."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šiame straipsnyje aprašoma įvairios produktų registravimo kaip baigtų produktų parinktys.
+Šioje temoje aprašomos įvairios produktų registravimo kaip baigtų produktų parinktys.
 
 Produkto gavimas yra procesas, kurio metu užregistruojama, kurie užsakyti produktai buvo gauti, kad būtų galima apdoroti pirkimo užsakymo (PU) eilutes ir išrašyti SF. Kai kuriais atvejais vykdoma išankstinė produktų registracija, tais atvejais, kai papildoma iš tiekėjo gauta informacija užregistruojama prieš produktų gavimą. Kai produktai pristatomi, jie pirmiausia pažymimi kaip **Užregistruoti**. Tada gali būti vykdomi papildomi produktų apdorojimo procesai, pavyzdžiui, kokybės valdymas, kol galiausiai jie pažymimi kaip **Gauti**.
 
@@ -46,8 +46,6 @@ Sandėlyje gali būti vykdoma gautų produktų kokybės patikra, prieš perkelia
 
 ## <a name="product-receipt"></a>Gavimo dokumentas
 Dažniausiai puslapio **Pirkimo užsakymai** veiksmas **Produkto gavimo kvitas** naudojamas, kad PU produktai būtų pažymėti kaip **Gauti**. Puslapyje **Produkto gavimo kvito registravimas** pateikiama yra įvairių kiekio, kuris yra apskaitomos kaip gautas, parinkčių. Pvz., lauką **Kiekis** galite nustatyti į parinktį **Užsakytas kiekis** arba **Dabartinio gavimo kiekis**. Jei buvo vykdomas sandėlio gavimo procesas, šis laukas dažnai nustatomas į parinktį **Užregistruotas kiekis**. Kiekius galima modifikuoti kiekvienoje užsakymo eilutėje, kuri pažymėta kaip **Gauta**, kad būtų apskaityti visi neatitikimai, pvz., pristatymo trūkumas ir pristatymo perviršis. Produkto gavimo metu turite nurodyti produkto gavimo kvito identifikatorių, kuris paprastai yra nuoroda į važtaraštį, gautą iš tiekėjo. Šis identifikatorius reikalingas apskaitai atlikti, nes jis suteikia galimybę tiekėjo važtaraščius patikrinti arba audituoti pagal tai, kas buvo pristatyta, ir pagal apskaitytas atsargas arba išlaidas.  
-
-Jei darbuotojas prekes užsakė naudodamas pirkimo paraišką, tas darbuotojas gali būti paprašytas pats patvirtinti produkto gavimą. Tai galima sukonfigūruoti naudojant darbo eigą. Darbo eigos sąlygas galite sukonfigūruoti taip, kad jos atitiktų jūsų verslo procesą.  
 
 PU galima sukurti produktams, kurie nėra skirti perkelti į atsargas, bet yra laikomi išlaidomis. Ši kategorija apima užsakymo eilutes, kuriose produktai yra pažymėti kaip **Nelaikoma atsargose** pagal jų atsargų modelio grupę, ir eilutes, kuriose naudojamos įsigijimo kategorijos. Tokiu atveju prekių pristatymo registravimo ir gavimo sandėlyje procesai gali būti nevykdomi. Tada veiksmas **Produkto gavimo kvitas** yra naudojamas gavimui tiesiai į PU įrašyti, o gavimas yra pagrįstas užsakytu kiekiu, o ne užregistruotu kiekiu.  
 

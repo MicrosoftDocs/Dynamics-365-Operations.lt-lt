@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Audituoti SF ir pagrindinius duomenis AP sistemoje
@@ -35,34 +35,31 @@ Puslapyje Mokėtinų sumų parametrai įsitikinkite, kad pasirinkta parinktis Į
 
 
 ## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
-1. Eikite į Visi pirkimo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Lauke Tiekėjo sąskaita surinkite reikšmę.
-5. Spustelėkite GERAI.
-6. Spustelėkite Pridėti eilutę.
-7. Lauke Prekės numeris surinkite reikšmę.
-8. Veiksmų srityje spustelėkite Pirkti.
-9. Spustelėkite Patvirtinti.
+1. Eikite į **Visi pirkimo užsakymai**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Tiekėjo sąskaita** įveskite vertę.
+4. Spustelėkite **Gerai**.
+5. Spustelėkite **Pridėti eilutę**.
+6. Lauke **Prekės numeris** įveskite vertę.
+7. Veiksmų srityje spustelėkite **Pirkti**.
+8. Spustelėkite **Patvirtinti**.
 
 ## <a name="post-a-product-receipt"></a>Registruoti produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Gauti.
-2. Spustelėkite Produkto gavimo kvitas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Produkto gavimo kvitas surinkite reikšmę.
-5. Spustelėkite GERAI.
+1. Veiksmų srityje spustelėkite **Gauti**.
+2. Spustelėkite **Produkto gavimo kvitas**.
+3. Lauke **Produkto gavimo kvitas** įveskite vertę.
+4. Spustelėkite **Gerai**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Įrašyti bei gretinti tiekėjo SF ir produkto gavimo kvitą
-1. Veiksmų srityje spustelėkite Sąskaita faktūra.
-2. Spustelėkite Sąskaita faktūra.
-3. Lauke Numeris surinkite reikšmę.
-4. Spustelėkite Numatyt. iš: užsakyto kiekio, kad atidarytumėte išplečiamąjį dialogo langą.
-5. Lauke Numatytasis eilučių kiekis pasirinkite parinktį.
-6. Spustelėkite GERAI.
-7. Spustelėkite Taip.
-8. Spustelėkite Sugretinti gavimo dokumentus.
-9. Spustelėkite GERAI.
-10. Veiksmų srityje spustelėkite Peržiūrėti.
-11. Spustelėkite Gretinimo informacija.
+1. Veiksmų srityje spustelėkite **Sąskaita faktūra > Sąskaita faktūra**.
+2. Lauke **Numeris** įveskite vertę.
+3. Spustelėkite **Numatyt. iš: užsakyto kiekio**, kad atidarytumėte išplečiamąjį dialogo langą.
+4. Lauke **Numatytasis eilučių kiekis** pasirinkite parinktį.
+5. Spustelėkite **Gerai**.
+6. Spustelėkite **Taip**.
+7. Spustelėkite **Sugretinti produktų gavimo kvitus**.
+8. Spustelėkite **Gerai**.
+9. Veiksmų srityje spustelėkite **Peržiūrėti**.
+10. Spustelėkite **Gretinimo informacija**.
 
 

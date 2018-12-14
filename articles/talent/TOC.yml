@@ -7,6 +7,10 @@
         - name: Kas nauja ar pasikeitė
           href: whats-new.md
           items:
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 27 d.)
+              href: whats-new-talent-november-27.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 15 d.)
+              href: whats-new-talent-november-15.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)
               href: whats-new-talent-october-31.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 19 d.)
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: El. laiškų šablonų kūrimas ir valdymas
           href: email-templates.md
-        - name: Ataskaitos ir analizė
-          href: Reporting-Analytics-Attract.md
         - name: Saugos ir vaidmenų valdymas sprendime „Attract“
           href: security-attract.md
         - name: Administratoriaus parametrai sprendime „Attract“
@@ -260,9 +262,33 @@
           href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Personalo užduotys
       items:
-        - name: Našumo žurnalo įtraukimas ir tam tikro asmens pagyrimo siuntimas
+        - name: Įtraukimas į našumo žurnalą ir tam tikro asmens pagyrimo siuntimas
           href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Tikslo kūrimas
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Našumo apžvalgos kūrimas
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: „Talent“ trikčių diagnostika
+      items:
+        - name: Neatnaujinamos analizės ataskaitos
+          href: analytic-reports-not-updated.md
+        - name: Nepavyksta sukurti aplinkos „PowerApps“ administravimo centre
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Atsijungia „Talent“ klientas
+          href: client-disconnects.md
+        - name: Kaip tvarkomos atsarginės duomenų bazių kopijos
+          href: database-backups.md
+        - name: Kaip išvengti pareigų hierarchijos teksto trumpinimo ir ją eksportuoti į „Visio“
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Kompensavimo proceso vykdymas
+          href: run-compensation-process.md
+        - name: Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
+          href: save-play-task-guides-LCS.md
+        - name: Prieiga prie privačių adresų pagal saugos vaidmenį
+          href: security-roles-addresses.md
+        - name: Tarp „Microsoft Dynamics 365“ programų nėra „Talent“ (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: 'Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“'
+          href: user-access-core-hr.md
+        - name: Ataskaitų parinktys sprendime „Talent“
+          href: talent-reporting-options.md

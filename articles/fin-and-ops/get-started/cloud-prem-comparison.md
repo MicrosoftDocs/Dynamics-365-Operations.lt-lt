@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
-ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
+ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
+ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/02/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -90,7 +90,7 @@ Tolesnėje lentelėje išvardytos produktų sritys. Nurodomas visos funkcijos pa
 | Aptarnavimo valdymas| | Taip | Taip |
 | Tiekimo grandinės valdymas| | Taip | Taip |
 | Transportavimo valdymas| | Taip | Taip |
-| Tiekėjo bendradarbiavimas| | Taip | Taip|
+| Tiekėjų bendradarbiavimas| | Taip | Nr. |
 | Sandėlio valdymas| | Taip | Taip |
 | | Mobilioji sandėlio programa| Taip | Taip |
 | | Sandėliavimo „Power BI“ ataskaitos| Taip | Nr. |

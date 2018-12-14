@@ -3,7 +3,7 @@ title: "Žinyno sistemos prijungimas"
 description: "Šioje temoje aprašyti „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentai, apžvelgiama, kaip juos sujungti, ir pateikiama pasirinktinio žinyno kūrimo suvestinė."
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Išversti užduočių vedliai pirmiausia buvo nusiųsti į APQC bendrąją bibli
 > -   Jei užduočių vedlys dar neišverstas, jį atidarius tik dalis užduočių vedlio teksto (valdiklių tekstas) bus rodoma jūsų pasirinkta kalba.
 
 ## <a name="creating-custom-help"></a>Pasirinktinio žinyno kūrimas
+Norėdami sukurti pasirinktinį žinyną, galite naudoti užduočių vedlius arba susieti žiniatinklio svetainę su sritimi Žinynas. 
+
+### <a name="create-custom-help-with-task-guides"></a>Pasirinktinio žinyno kūrimas naudojant užduočių vedlius
 Kurdami užduočių įrašus, kurie atspindi jūsų diegimą, ir juos įrašydami į LCS verslo procesų biblioteką, galite sukurti pasirinktinį „Finance and Operations‟ ir „Retail“ žinyną. „Talent“ pasirinktinių užduočių vedlių sukurti negalima. 
 
 Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Taip pat galite kopijuoti APQC suvienodintą visuotinę biblioteką ir tada savo kopiją atidaryti, iš jos atidaryti užduočių įrašus ir juos modifikuoti bei įrašus įrašyti su savo pakeitimais. Daugiau informacijos žr. temoje [Kaip sukurti užduoties įrašą ir jį naudoti kaip dokumentaciją ar mokymą](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>Pasirinktinės žiniatinklio svetainės susiejimas
+„Microsoft“ yra pateikusi techninę dokumentaciją ir pavyzdinį kodą, kuriuo aprašoma, kaip kurti ir susieti pasirinktinę žinyno žiniatinklio svetainę su sritimi Žinynas. Daugiau informacijos ieškokite: 
+- [Pasirinktinio „Finance and Operations“ žinyno kūrimas (techninė dokumentacija)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Pasirinktinio žinyno „GitHub“ saugykla](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Pastaba. Toliau išvardytos operacijos taikomos naujausiai „Dynamics 365 for R
 | 644 | Pašalinti kupono kodą | Paraginkite vartotoją pašalinti kuponus juos pasirenkant iš kuponų, susietų su operacija, sąrašo. | Taip | Taip | Nr. | Taip | Nr. |
 | 1057 | Perspausdinti Z | Iš naujo atsispausdinkite ankstesnės arba pasirinktos pamainos Z ataskaitą. | Taip | Taip | Taip | Nr. | Nr. |
 | 1216 | Įveskite naują slaptažodį | Ši operacija leidžia vartotojui, turinčiam slaptažodžio nustatymo iš naujo teisę, iš naujo nustatyti kito darbuotojo slaptažodį naudojant laikinąjį slaptažodį. | Taip | Taip | Taip | Nr. | Nr. |
+| 1219 | URL atidarymas EKA | Ši operacija leidžia vartotojui atidaryti EKA administratoriaus sukonfigūruotą URL. | Taip | Taip | Taip | Taip | Nr. | 
 | 109 | Grąžinti produktą | Atlikti konkrečių produktų grąžinimo operaciją. Kitas nuskaitytas produktas rodomas kaip grąžintas produktas, kurio kiekis ir kaina yra neigiami. | Taip | Taip | Nr. | Taip | Nr. |
 | 114 | Grąžinimo operacija | Atšaukite ankstesnę operaciją pagal kvito numerį, kad grąžintumėte kelis arba visus produktus. | Taip | Taip | Taip | Taip§ | Nr. |
 | 1211 | Pinigų įnešimas į įmonės kasą | Įnešti pinigus į įmonės kasą, perkeldamas juos iš kasos aparato į seifą. | Taip | Taip | Taip | Taip | Nr. |

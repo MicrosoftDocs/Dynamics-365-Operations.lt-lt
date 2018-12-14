@@ -3,7 +3,7 @@ title: "Pašalintos arba nebenaudojamos funkcijos"
 description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad v
 | **Paveiktos produkto sritys**         | Didžioji knyga, mokestis |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+
+
+### <a name="profit-tax-register-wizard"></a>Pelno mokesčio registro vedlys
+Funkcija, skirta naujiems pelno mokesčio registrų šablonams kurti. Ši funkcija sukuria naujų registrų X++ objektus, kurie vėliau kuriami kaip šablonai su įtraukta atitinkama skaičiavimo logika.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Funkcija nesuderinama su „Dynamics 365 for Finance and Operations“ išplėtimo modeliu. |
+| **Pakeitė kita funkcija?**   | Nr. |
+| **Paveiktos produkto sritys**         | Mokesčiai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>„Dynamics 365 for Finance and Operations“ 8.0 su 15 platformos naujinimu
 Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudojamos. 15 platformos naujinimas yra kaupiamasis ir jame pateikiamos naujos arba pakeistos 13 platformos naujinimo, 14 platformos naujinimo ir 15 platformos naujinimo funkcijos.
@@ -993,6 +1006,17 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 | **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.      |
+
+### <a name="production-floor-app"></a>Gamybos vietos programa
+Tai programa, skirta planšetiniams įrenginiams, kuriuose veikia „Windows 8.1 RT“ ir „Windows 8.1 Pro“.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pakeitus žiniatinklio klientą, panašias funkcijas galima teikti naudojant vietinę „Dynamics AX 7.0“ kliento programą. Užduoties kortelės įrenginyje pateikiama gamybos vietos vartotojo sąsaja, kuri optimizuota lietimui, o jos išvaizda pritaikyta prie planšetinių kompiuterių. |
+| **Pakeitė kita funkcija?**   | Taip. Užduoties kortelės įrenginys, kuris yra „Dynamics AX 7.0“ vietinė dalis.                                                                           |
+| **Paveiktos produkto sritys**         | Gamybos kontrolė                                                |
+| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data iš „Microsoft“ parduotuvės dar nenustatyta.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Pervardyti produkto dimensiją
 
