@@ -18,10 +18,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,28 +31,29 @@ ms.lasthandoff: 08/09/2018
 
 <span data-ttu-id="02e17-104">Šioje temoje aprašyta „Microsoft Dynamics 365 for Finance and Operations“ darbo eigos sistema.</span><span class="sxs-lookup"><span data-stu-id="02e17-104">This topic describes the workflow system in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-is-workflow"></a><span data-ttu-id="02e17-105">Kas yra darbo eiga?</span><span class="sxs-lookup"><span data-stu-id="02e17-105">What is workflow?</span></span>
------------------
+## <a name="what-is-workflow"></a><span data-ttu-id="02e17-105">Kas yra darbo eiga?</span><span class="sxs-lookup"><span data-stu-id="02e17-105">What is workflow?</span></span>
 
 <span data-ttu-id="02e17-106">Terminą *darbo eiga* galima apibrėžti dviem būdais: kaip sistemą ir kaip veiklos procesą.</span><span class="sxs-lookup"><span data-stu-id="02e17-106">The term *workflow* can be defined in two ways: as a system and as a business process.</span></span>
+
 ### <a name="workflow-is-a-system"></a><span data-ttu-id="02e17-107">Darbo eiga yra sistema</span><span class="sxs-lookup"><span data-stu-id="02e17-107">Workflow is a system</span></span>
 
 <span data-ttu-id="02e17-108">Darbo eiga yra sistema, diegiama kartu su „Finance and Operations“ ir veikianti programos objektų serveryje (AOS).</span><span class="sxs-lookup"><span data-stu-id="02e17-108">Workflow is a system that is installed with Finance and Operations and runs on the Application Object Server (AOS).</span></span> <span data-ttu-id="02e17-109">Darbo eigos sistema turi funkcijų, kurias galite naudoti atskiroms darbo eigoms arba verslo procesams kurti.</span><span class="sxs-lookup"><span data-stu-id="02e17-109">The workflow system provides functionality that you can use to create individual workflows, or business processes.</span></span>
 
 ### <a name="workflow-is-a-business-process"></a><span data-ttu-id="02e17-110">Darbo eiga yra verslo procesas</span><span class="sxs-lookup"><span data-stu-id="02e17-110">Workflow is a business process</span></span>
 
-<span data-ttu-id="02e17-111">Darbo eiga rodo verslo procesą.</span><span class="sxs-lookup"><span data-stu-id="02e17-111">A workflow represents a business process.</span></span> <span data-ttu-id="02e17-112">Ji apibrėžia, kaip dokumentas juda sistemoje, parodydama, kas turi įvykdyti užduotį, priimti sprendimą ar patvirtinti dokumentą.</span><span class="sxs-lookup"><span data-stu-id="02e17-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="02e17-113">Pavyzdžiui, toliau pateikiamoje iliustracijoje rodoma išlaidų ataskaitų darbo eiga.</span><span class="sxs-lookup"><span data-stu-id="02e17-113">For example, the following illustration shows a workflow for expense reports.</span></span> 
+<span data-ttu-id="02e17-111">Darbo eiga rodo verslo procesą.</span><span class="sxs-lookup"><span data-stu-id="02e17-111">A workflow represents a business process.</span></span> <span data-ttu-id="02e17-112">Ji apibrėžia, kaip dokumentas juda sistemoje, parodydama, kas turi įvykdyti užduotį, priimti sprendimą ar patvirtinti dokumentą.</span><span class="sxs-lookup"><span data-stu-id="02e17-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="02e17-113">Pavyzdžiui, toliau pateikiamoje iliustracijoje rodoma išlaidų ataskaitų darbo eiga.</span><span class="sxs-lookup"><span data-stu-id="02e17-113">For example, the following illustration shows a workflow for expense reports.</span></span>
 
-![Darbo eiga, kurios elementai priskirti vartotojams](./media/workflow_user.gif) 
+![Darbo eiga, kurios elementai priskirti vartotojams](./media/workflow_user.gif)
 
 <span data-ttu-id="02e17-115">Norėdami geriau suprasti šią darbo eigą, įsivaizduokite, kad Semas pateikia 7 000 USD išlaidų ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="02e17-115">To better understand this workflow, suppose that Sam submits an expense report for USD 7,000.</span></span> <span data-ttu-id="02e17-116">Tokiu atveju Ivanas turi peržiūrėti Semo jam pateiktus kvitus.</span><span class="sxs-lookup"><span data-stu-id="02e17-116">In this scenario, Ivan must review the receipts that Sam routes to him.</span></span> <span data-ttu-id="02e17-117">Tada Frank ir Sue turi patvirtinti išlaidų ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="02e17-117">Then Frank and Sue must approve the expense report.</span></span> <span data-ttu-id="02e17-118">O dabar tarkime, kad Semas pateikia 11 000 USD išlaidų ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="02e17-118">Now suppose that Sam submits an expense report for USD 11,000.</span></span> <span data-ttu-id="02e17-119">Tokiu atveju Ivanas turi peržiūrėti kvitus, o Frenkas, Sju ir Ana turi patvirtinti išlaidų ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="02e17-119">In this scenario, Ivan must review the receipts, and Frank, Sue, and Ann must approve the expense report.</span></span>
 
 ## <a name="benefits-of-using-the-workflow-system"></a><span data-ttu-id="02e17-120"> Darbo eigos sistemos naudojimo privalumai</span><span class="sxs-lookup"><span data-stu-id="02e17-120">Benefits of using the workflow system</span></span>
 
 <span data-ttu-id="02e17-121">Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:</span><span class="sxs-lookup"><span data-stu-id="02e17-121">There are several benefits of using the workflow system in your organization:</span></span>
--   <span data-ttu-id="02e17-122">**Procesų nuoseklumas** – galite nustatyti, kaip apdorojami konkretūs dokumentai, pvz., pirkimo paraiškos ir išlaidų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="02e17-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="02e17-123">Naudodamiesi darbo eigos sistema užtikrinate, kad dokumentai bus apdoroti ir patvirtinti nuosekliai ir veiksmingai.</span><span class="sxs-lookup"><span data-stu-id="02e17-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
--   <span data-ttu-id="02e17-124">**Proceso matomumas** – galite sekti darbo eigos egzempliorių efektyvumo metriką.</span><span class="sxs-lookup"><span data-stu-id="02e17-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="02e17-125">Tai padeda nustatyti, ar reikia atlikti darbo eigos pokyčius, siekiant gerinti efektyvumą.</span><span class="sxs-lookup"><span data-stu-id="02e17-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
--   <span data-ttu-id="02e17-126">**Centralizuotas darbų sąrašas** – vartotojai gali peržiūrėti centralizuotų darbų sąrašą, kuriame rodomos jiems priskirtos darbo eigos užduotys ir patvirtinimai.</span><span class="sxs-lookup"><span data-stu-id="02e17-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
+
+- <span data-ttu-id="02e17-122">**Procesų nuoseklumas** – galite nustatyti, kaip apdorojami konkretūs dokumentai, pvz., pirkimo paraiškos ir išlaidų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="02e17-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="02e17-123">Naudodamiesi darbo eigos sistema užtikrinate, kad dokumentai bus apdoroti ir patvirtinti nuosekliai ir veiksmingai.</span><span class="sxs-lookup"><span data-stu-id="02e17-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+- <span data-ttu-id="02e17-124">**Proceso matomumas** – galite sekti darbo eigos egzempliorių efektyvumo metriką.</span><span class="sxs-lookup"><span data-stu-id="02e17-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="02e17-125">Tai padeda nustatyti, ar reikia atlikti darbo eigos pokyčius, siekiant gerinti efektyvumą.</span><span class="sxs-lookup"><span data-stu-id="02e17-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+- <span data-ttu-id="02e17-126">**Centralizuotas darbų sąrašas** – vartotojai gali peržiūrėti centralizuotų darbų sąrašą, kuriame rodomos jiems priskirtos darbo eigos užduotys ir patvirtinimai.</span><span class="sxs-lookup"><span data-stu-id="02e17-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
 
 
 ## <a name="workflow-content"></a><span data-ttu-id="02e17-127">Darbo eigos turinys</span><span class="sxs-lookup"><span data-stu-id="02e17-127">Workflow content</span></span>
