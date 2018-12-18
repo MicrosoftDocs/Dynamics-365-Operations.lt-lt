@@ -34,24 +34,24 @@ Naudokite šią procedūrą, norėdami konfigūruoti sąlyginio sprendimo ypatyb
 Sąlyginis sprendimas – tai taškas, kuriame darbo eiga padalijama į dvi šakas. Norėdami darbo eigos rengyklėje konfigūruoti sąlyginį sprendimą, dešiniuoju pelės mygtuku spustelėkite sąlyginį sprendimą ir tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
 
 ## <a name="name-a-decision"></a>Sprendimo pavadinimas
+
 Norėdami įvesti sąlyginio sprendimo pavadinimą, atlikite šiuos veiksmus.
-1.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
-2.  Lauke **Pavadinimas** įveskite unikalų sąlyginio sprendimo pavadinimą.
+
+1. Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
+2. Lauke **Pavadinimas** įveskite unikalų sąlyginio sprendimo pavadinimą.
 
 ## <a name="set-conditions"></a> Sąlygų nustatymas
+
 Patikrinusi pateiktą dokumentą sistema nustato, kurią šaką naudoti, ir nustato, ar ji atitinka konkrečias sąlygas.
-1.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
-2.  Spustelėkite **Įtraukti sąlygą**.
-3.  Įveskite sąlygą
-4.  Įveskite papildomas sąlygas, jei jos reikalingos.
-5.  Norėdami patikrinti, kad sąlygos, kurias įvedėte yra sukonfigūruotos teisingai, atlikite tolesnius veiksmus.
-    1.  Spustelėkite **Tikrinti**, norėdami atidaryti formą **Tikrinti darbo eigos sąlygą**.
-    2.  Formos srityje **Tikrinti sąlygą** pasirinkite įrašą.
-    3.  Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą.
-    4.  Spustelėkite **Gerai** arba **Atšaukti**, norėdami vėl atidaryti formą **Ypatybės**.
 
+1. Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
+2. Spustelėkite **Įtraukti sąlygą**.
+3. Įveskite sąlygą
+4. Įveskite papildomas sąlygas, jei jos reikalingos.
+5. Norėdami patikrinti, kad sąlygos, kurias įvedėte yra sukonfigūruotos teisingai, atlikite tolesnius veiksmus.
 
-
-
-
+    1. Spustelėkite **Tikrinti**, norėdami atidaryti formą **Tikrinti darbo eigos sąlygą**.
+    2. Formos srityje **Tikrinti sąlygą** pasirinkite įrašą.
+    3. Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą.
+    4. Spustelėkite **Gerai** arba **Atšaukti**, norėdami vėl atidaryti formą **Ypatybės**.
 
