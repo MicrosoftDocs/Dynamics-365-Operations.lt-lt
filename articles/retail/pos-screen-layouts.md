@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![EKA ekrano išdėstymų objektai](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="8fa99-108">Vaizdo šablonas</span><span class="sxs-lookup"><span data-stu-id="8fa99-108">Visual profile</span></span>
+
 <span data-ttu-id="8fa99-109">Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparatą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus.</span><span class="sxs-lookup"><span data-stu-id="8fa99-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="8fa99-110">Kiekvienas prie kasos aparato prisijungęs vartotojas mato tą pačią temą, spalvas ir vaizdus.</span><span class="sxs-lookup"><span data-stu-id="8fa99-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![EKA darbo pradžios ekranas su šviesia tema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="8fa99-123">**Programos fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos.</span><span class="sxs-lookup"><span data-stu-id="8fa99-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="8fa99-124">Kaip ir prisijungimo fonų, šių fonų failų dydis turėtų būti kuo mažesnis.</span><span class="sxs-lookup"><span data-stu-id="8fa99-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="8fa99-125">Ekrano maketai</span><span class="sxs-lookup"><span data-stu-id="8fa99-125">Screen layouts</span></span>
+
 <span data-ttu-id="8fa99-126">Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksmai, turinys ir išdėstymo tvarka EKA darbo pradžios ekrane ir **operacijų** ekrane.</span><span class="sxs-lookup"><span data-stu-id="8fa99-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![EKA ekrano išdėstymo rodinys](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![EKA išdėstymo dydžiai](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="8fa99-163">Mygtukynai</span><span class="sxs-lookup"><span data-stu-id="8fa99-163">Button grids</span></span>
+
 <span data-ttu-id="8fa99-164">Kiekvienam ekrano išdėstymo dydžiui galite sukonfigūruoti ir priskirti EKA darbo pradžios ekrano ir **operacijų** ekrano mygtukynus.</span><span class="sxs-lookup"><span data-stu-id="8fa99-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="8fa99-165">Darbo pradžios ekrano mygtukynai automatiškai išdėstomi iš kairės į dešinę, nuo mažiausio skaičiaus (1 darbo pradžios ekranas) iki didžiausio.</span><span class="sxs-lookup"><span data-stu-id="8fa99-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="8fa99-166">Viso dydžio EKA išdėstymuose mygtukynų išdėstymas nurodomas ekrano išdėstymų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="8fa99-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Kompaktinių išdėstymų mygtukynai](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="8fa99-170">Vaizdai</span><span class="sxs-lookup"><span data-stu-id="8fa99-170">Images</span></span>
+
 <span data-ttu-id="8fa99-171">Kiekvienam ekrano išdėstymo dydžiui galite nurodyti į EKA UI įtrauktinus vaizdus.</span><span class="sxs-lookup"><span data-stu-id="8fa99-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="8fa99-172">Viso dydžio EKA išdėstymuose galima nurodyti vieną darbo pradžios ekrano vaizdą.</span><span class="sxs-lookup"><span data-stu-id="8fa99-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="8fa99-173">Šis vaizdas rodomas kaip pirmas UI elementas iš kairės.</span><span class="sxs-lookup"><span data-stu-id="8fa99-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="8fa99-174">**Operacijų** ekrane vaizdai gali būti naudojami kaip skirtukų vaizdai arba kaip logotipas.</span><span class="sxs-lookup"><span data-stu-id="8fa99-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="8fa99-175">Kompaktiniuose EKA išdėstymuose šie vaizdai nenaudojami.</span><span class="sxs-lookup"><span data-stu-id="8fa99-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="8fa99-176">Ekrano maketo dizaineris</span><span class="sxs-lookup"><span data-stu-id="8fa99-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="8fa99-222">**Pasirinktinis valdiklis** – pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas ir leidžia rezervuoti vietą pasirinktiniam turiniui.</span><span class="sxs-lookup"><span data-stu-id="8fa99-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="8fa99-223">Pasirinktinį valdiklį galima įtraukti tik naudojant viso dydžio išdėstymus.</span><span class="sxs-lookup"><span data-stu-id="8fa99-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="8fa99-224">Kompaktinių išdėstymų dizaino įrankis</span><span class="sxs-lookup"><span data-stu-id="8fa99-224">Compact layout designer</span></span>
+
 <span data-ttu-id="8fa99-225">Kaip ir viso dydžio išdėstymų dizaino įrankis, kompaktinių išdėstymų dizaino įrankis leidžia konfigūruoti EKA ekrano išdėstymą telefonams ir mažiems planšetiniams kompiuteriams.</span><span class="sxs-lookup"><span data-stu-id="8fa99-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="8fa99-226">Tačiau šiuo atveju pats išdėstymas yra fiksuotas.</span><span class="sxs-lookup"><span data-stu-id="8fa99-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="8fa99-227">Išdėstyme valdiklius galite konfigūruoti dešiniuoju pelės klavišu spustelėdami ir naudodami kontekstinį meniu.</span><span class="sxs-lookup"><span data-stu-id="8fa99-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="8fa99-228">Tačiau negalite naudoti nuvilkimo operacijų su papildomu turiniu.</span><span class="sxs-lookup"><span data-stu-id="8fa99-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Kompaktinių išdėstymų dizaino įrankis](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="8fa99-230">Mygtukynų dizaino įrankis</span><span class="sxs-lookup"><span data-stu-id="8fa99-230">Button grid designer</span></span>
+
 <span data-ttu-id="8fa99-231">Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima naudoti EKA viso dydžio ir kompaktinių išdėstymų darbo pradžios ekrane bei **operacijų** ekrane.</span><span class="sxs-lookup"><span data-stu-id="8fa99-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="8fa99-232">Tą patį mygtukyną galima naudoti įvairiuose išdėstymuose ir su įvairiais išdėstymų tipais.</span><span class="sxs-lookup"><span data-stu-id="8fa99-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="8fa99-233">Kaip ir ekrano išdėstymų dizaino įrankis, vartotojui kiekvieną kartą įjungus programą, naudodamas diegimo technologiją „ClickOnce“ mygtukynų dizaino įrankis atsisiunčia, įdiegia ir paleidžia naujausią programos versiją.</span><span class="sxs-lookup"><span data-stu-id="8fa99-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="8fa99-234">Būtinai patikrinkite „ClickOnce“ reikalavimus naršyklėms.</span><span class="sxs-lookup"><span data-stu-id="8fa99-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="8fa99-235">Kai kuriose naršyklėse, pvz., „Google Chrome“, reikalingi plėtiniai.</span><span class="sxs-lookup"><span data-stu-id="8fa99-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Mygtukynų dizaino įrankis](../retail/media/Button-Grid-Designer.png)
