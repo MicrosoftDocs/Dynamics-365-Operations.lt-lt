@@ -59,4 +59,3 @@ Be to, patobulintoje mažmeninės prekybos produktų kategorijų struktūroje re
 
 ![Produktų naujinimo dialogo langas](media/NewUpdateProductsEnhancedView.PNG)
 
-

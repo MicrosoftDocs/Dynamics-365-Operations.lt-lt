@@ -35,21 +35,19 @@ Naudodami „Microsoft Dynamics 365 for Retail‟ galite realiu laiku stebėti p
 
 Viena iš „Dynamics 365 for Retail‟ siūlomų funkcijų – vartotojai realiu laiku gali stebėti toliau nurodytų dimensijų pardavimo ir maržos našumą skirtinguose organizacijos hierarchijos lygiuose.
 
--   Produktai
--   Kategorijos
--   Nuolaidos
--   Metai kaip laikotarpis
--   Registrai / terminalai
--   Personalas / darbuotojai
--   Klientai
--   Valdymo vienetai
+- Produktai
+- Kategorijos
+- Nuolaidos
+- Metai kaip laikotarpis
+- Registrai / terminalai
+- Personalas / darbuotojai
+- Klientai
+- Valdymo vienetai
 
 Be to, naudodami dvi unikalias ataskaitas, kuriose naudojamos hierarchinės tinklelių struktūros, vartotojai pardavimo ir maržos našumą gali stebėti iš viršutinio kategorijos mazgo detalizuodami atskirus kategorijos lapo mazgus numatytoje mažmeninės prekybos produktų kategorijų hierarchijoje. Vartotojai taip pat gali detalizuoti iš viršutinio valdymo vieneto į atskirą kanalą organizacijos hierarchijoje, kuri mažmeninės prekybos ataskaitų hierarchijos tikslais apibrėžta kaip numatytoji organizacijos hierarchija. Atidaryti ataskaitas galite iš bet kurios iš tolesnių vietų.
 
--   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Produktas ir kategorijos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Darbo sritis **Kainodaros ir nuolaidų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kainodara ir nuolaidos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
--   Skyrius **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos**
-
-
+- Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+- Darbo sritis **Kategorijų ir produktų valdymas** &gt; **Mažmeninė prekyba** &gt; **Produktas ir kategorijos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+- Darbo sritis **Kainodaros ir nuolaidų valdymas** &gt; **Mažmeninė prekyba** &gt; **Kainodara ir nuolaidos** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos**
+- Skyrius **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos**
 

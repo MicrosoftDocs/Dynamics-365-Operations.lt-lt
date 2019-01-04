@@ -42,25 +42,30 @@ Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar
 Šiame puslapyje pateikiami saitai į susijusius dokumentus, susijusius su nustatymas, konfigūracija ir skambučių centro funkcijų naudojimu programoje „Dynamics 365 for Retail“.
 
 ## <a name="configure-the-call-center"></a>Sukonfigūruokite skambučių centrą
+
 [Užsakymo apdorojimo parinkčių nustatymas](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Užsakymų apdorojimo konfigūravimas
+
 [Įspėjimų dėl apgaulės nustatymas](set-up-fraud-alerts.md)
 
 [Užsakymų sulaikymo valdymas](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Mokėjimo apdorojimo konfigūravimas
+
 [Mokėjimo būdai skambučių centre](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Konfigūruoti pristatymo būdus
+
 [Konfigūruoti skambučių centro pristatymo būdus ir mokesčius](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Tiesioginės rinkodaros konfigūravimas
+
 [Skambučių centro katalogai](call-center-catalogs.md)
 
 [RFM analizės nustatymas](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Tęstinumo programų konfigūravimas
-[Skambučių centro tęstinumo programos nustatymas](set-up-continuity-program.md)
 
+[Skambučių centro tęstinumo programos nustatymas](set-up-continuity-program.md)
 

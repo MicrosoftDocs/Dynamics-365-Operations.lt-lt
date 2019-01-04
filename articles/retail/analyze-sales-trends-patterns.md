@@ -35,15 +35,13 @@ Programoje „Microsoft Dynamics 365 for Retail“ galite realiu laiku tirti par
 
 Naudodami „Dynamics 365 for Retail“ vartotojai gali tirti pardavimo tendencijas ir modelius realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose pasirinktu metų laikotarpiu, naudodami parengtą naudoti ataskaitą **Kanalo pardavimai pagal metus**. Šią ataskaitą atidaryti galite iš bet kurios iš tolesnių vietų.
 
--   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
--   Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
--   Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
+- Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
+- Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
+- Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
 
 Vartotojai tirti pardavimo tendencijas ir modelius taip pat gali pagal valandą skirtinguose organizacijos hierarchijos lygiuose pasirinktu laikotarpiu, naudodami parengtą naudoti ataskaitą **Kanalo pardavimai pagal valandą**. Šią ataskaitą atidaryti galite iš bet kurios iš tolesnių vietų.
 
--   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
--   Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
--   Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
-
-
+- Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
+- Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
+- Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal valandas**
 
