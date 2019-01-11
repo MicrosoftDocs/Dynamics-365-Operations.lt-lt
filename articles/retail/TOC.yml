@@ -143,15 +143,17 @@
       href: dev-itpro/retail-POS-activation-changes.md
     - name: MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
       href: demo-data.md
-    - name: EKA produktų ir klientų ieška
+    - name: Produktų ir klientų ieška EKA
       href: POS-search-improvements.md
     - name: EKA atsargų peržvalga
       href: product-variants-POS.md
+    - name: Operacijų sulaikymas ir atnaujinimas į EKA
+      href: pos-suspend-recall-transactions.md
     - name: Išoriniai aparatūros įrenginiai
       items:
-        - name: Mažmeninės prekybos išoriniai įrenginiai
+        - name: „Retail“ periferiniai įrenginiai
           href: retail-peripherals-overview.md
-        - name: Mažmeninės prekybos periferinis simuliatorius
+        - name: „Retail“ periferinio įrenginio imitavimo priemonė
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Išorinių įrenginių prijungimas prie EKA
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -480,9 +482,11 @@
           href: dev-itpro/overview-upgrade-n-minus1.md
         - name: 'Laipsniškas išleidimo (N-1) diegimas, konfigūravimas ir pritaikymas'
           href: dev-itpro/n-1-installation-configuration.md
+        - name: „Retail“ kanalo plėtinio plėtotė į naujausią „Retail SDK“
+          href: dev-itpro/retailSDK-update.md
     - name: Diegimo nurodymai
       items:
-        - name: Įrenginių valdymo diegimo nurodymai
+        - name: Įrenginių valdymo diegimo instrukcijos
           href: implementation-considerations-devices.md
     - name: Aplinkos konfigūracija
       items:
