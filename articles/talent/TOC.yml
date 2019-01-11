@@ -7,6 +7,10 @@
         - name: Kas nauja ar pasikeitė
           href: whats-new.md
           items:
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)
+              href: whats-new-talent-december-14.md
+            - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
+              href: whats-new-talent-december-6.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 27 d.)
               href: whats-new-talent-november-27.md
             - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 15 d.)
@@ -71,6 +75,8 @@
     - name: Atostogų ir neatvykimų valdymas
       href: leave-absence-overview.md
       items:
+        - name: Atostogų ir neatvykimų koncepcijos
+          href: leave-absence-concepts.md
         - name: Laisvo laiko kaupimas pagal išdirbtas valandas
           href: leave-accrue-hours-worked.md
         - name: Darbo laiko kalendoriai
@@ -128,11 +134,14 @@
         - name: Mokymo kursų rengimas
           href: courses.md
     - name: Išmokų programos nustatymas ir valdymas
-      href: manage-benefit-program.md
-    - name: Teisės į išmoką strategijos
-      href: benefit-eligibility-policies.md
       items:
-        - name: Darbuotojams paskolintų prekių valdymas
+        - name: Išmokų programos valdymas
+          href: manage-benefit-program.md
+        - name: Teisės į išmoką strategijos
+          href: benefit-eligibility-policies.md
+        - name: Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA) generavimas
+          href: generate-aca-reports.md
+        - name: Darbininkams paskolintų prekių valdymas
           href: loan-items.md
     - name: Informacijos rinkimas naudojant klausimynus
       href: questionnaires.md
@@ -266,7 +275,7 @@
           href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Tikslo kūrimas
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Našumo apžvalgos kūrimas
+        - name: Kurti našumo apžvalgą
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: „Talent“ trikčių diagnostika
       items:
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Atsijungia „Talent“ klientas
           href: client-disconnects.md
-        - name: Kaip tvarkomos atsarginės duomenų bazių kopijos
-          href: database-backups.md
         - name: Kaip išvengti pareigų hierarchijos teksto trumpinimo ir ją eksportuoti į „Visio“
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Kompensavimo proceso vykdymas

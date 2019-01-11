@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: Išplečiamumo pakeitimai (8.1.2 versija)
               href: extensibility/extensibility-changes-812.md
+            - name: Išplečiamumo pakeitimai (versija 8.1.3)
+              href: extensibility/extensibility-changes-813.md
         - name: Pagrindai
           items:
             - name: Nepageidaujami tinkinimai
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: Visuotinė debesies įdiegtis
       items:
+        - name: Visuotinis savitarnos paslaugos diegimas
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Visuotinis naujos aplinkos diegimas
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Visuotinis DUK diegimas
+              href: deployment/deploymentFAQ.md
+            - name: Žinomos visuotinio savitarnos paslaugos diegimo problemos
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Visuotinio diegimo priežiūros operacijos
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Aplinkos naujinimas
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Visuotinai diegiant savitarnos paslaugą įdiegtų aplinkų trikčių šalinimas
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Baigtas „Azure Resource Manager“ supažindinimas
           href: deployment/arm-onboarding.md
         - name: „Azure ExpressRoute“ ir „Finance and Operations“
           href: deployment/expressroute.md
         - name: „Finance and Operations“ architektūra
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Debesies aplinkų naujinimų taikymas
+          href: deployment/apply-deployable-package-system.md
+        - name: Naujinimų ir plėtinių taikymas debesyje įdiegtiems „Retail“ kanalo komponentams
+          href: deployment/Update-retail-channel.md
+        - name: Debesyje įdiegtų „Retail“ kanalo komponentų inicijavimas
+          href: deployment/Initialize-Retail-Channels.md
     - name: Vietinė visuotinė įdiegtis
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -925,14 +948,12 @@
           href: lifecycle-services/reconfigure-environment.md
         - name: Kliento interneto ryšys
           href: user-interface/client-disconnected.md
-        - name: Vietinių visuotinių įdiegčių trikčių diagnostika
+        - name: Vietinių visuotinių diegimų trikčių diagnostika
           href: deployment/troubleshoot-on-prem.md
-    - name: Visuotinis pasirinktinio kodo diegimas
+    - name: Pasirinktinio kodo diegimas
       items:
         - name: Galimų diegti modelių paketų kūrimas
           href: deployment/create-apply-deployable-package.md
-        - name: Debesies aplinkų naujinimų taikymas
-          href: deployment/apply-deployable-package-system.md
         - name: Galimų diegti paketų diegimas iš komandų eilutės
           href: deployment/install-deployable-package.md
         - name: Paketo šalinimas
@@ -1021,9 +1042,7 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: "„Dynamics AX“ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
           href: migration-upgrade/update-platform-each-release.md
-        - name: Smėlio dėžės aplinkų plėtojimas
-          href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: 'Duomenų plėtojimas programavimo, demonstracinėje arba smėlio dėžės aplinkose'
+        - name: 'Duomenų plėtojimas kūrimo, demonstracinėje arba smėlio dėžės aplinkose'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Kūrimo įrankių naujinimas
           href: dev-tools/update-development-tools.md

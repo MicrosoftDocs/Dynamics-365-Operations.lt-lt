@@ -25,11 +25,11 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Vietinėms visuotinėms įdiegtims skirto sandėliavimo konfigūravimas
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Standartiniai ir tiksliniai platformos leidimai
+            - name: Standartinio ir pirmojo leidimo paslaugų naujinimai
               href: get-started/public-preview-releases.md
-            - name: Pirkti „Finance and Operations”
+            - name: „Finance and Operations” pirkimas
               items:
-                - name: „Finance and Operations‟ (vietinės versijos) pirkimas
+                - name: „Finance and Operations‟ (on-premises) pirkimas
                   href: get-started/purchase-on-premises.md
         - name: Kas nauja ar pasikeitė
           href: get-started/whats-new-changed.md
@@ -46,15 +46,15 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Atidėtos AX 2012 funkcijos
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
+            - name: Vietinėse visuotinėse įdiegtyse neįdiegtos funkcijos
               href: get-started/features-not-implemented-on-prem.md
-            - name: „Finance and Operations“ 8.1.3 versija (2018 m. gruodžio mėn.)
+            - name: „Finance and Operations“ 8.1.3 versija (2019 m. sausio mėn.)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: "„Platform Update 23“ (2018\_m. gruodžio mėn.)"
+            - name: „Platform Update 23“ (2019 m. sausio mėn.)
               href: get-started/whats-new-platform-update-23.md
-            - name: "„Platform Update 22“ (2018\_m. lapkričio mėn.)"
+            - name: "„Platform Update 22“ (2018\_m. gruodžio mėn.)"
               href: get-started/whats-new-platform-update-22.md
-            - name: „Finance and Operations“ 8.1.2 versija (2018 m. lapkričio mėn.)
+            - name: „Finance and Operations“ 8.1.2 versija (2018 m. gruodžio mėn.)
               href: get-started/whats-new-changed-8-1-2.md
             - name: „Finance and Operations“ 8.1.1 versija (2018 m. spalio mėn.)
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su „Finance and Operations“
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: „Finance and Operations“ produktų su atsargų vienetais sinchronizavimas su „Field Service“
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: „Finance and Operations“ sandėlių sinchronizavimas su „Field Service“
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: „Finance and Operations“ darbo užsakymų sinchronizavimas su „Field Service“
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: „Project Service Automation“ integravimo konfigūravimas
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Išorinių žiniatinklio tarnybų naudojimas
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Išorinių žiniatinklio tarnybų naudojimas
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Duomenų valdymas
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,6 +417,8 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Konfigūracijos duomenų šablonai
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Objekto keitimų sekimas
@@ -529,11 +543,13 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Sudengimo konfigūravimas
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Sudengti likutį
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Tiekėjo mokėjimų apžvalga
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Tiekėjo mokėjimų darbo sritis
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
-                - name: Kryžminio kurso nurodymas
+                - name: Kryžminio tarifo nurodymas
                   href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Tiekėjo mokėjimo mokesčių apibrėžimas
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
@@ -2097,17 +2113,15 @@
               href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
             - name: Įvesti Meksikos juridinių subjektų mokesčio registracijos ID
               href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-            - name: Pateikti užklausą ir spausdinti elektroninę SF
+            - name: Elektroninės sąskaitos faktūros užklausa ir spausdinimas
               href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
             - name: ISR deklaracijos ataskaita
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-            - name: Registruoti laisvos formos SF
+            - name: Laisvos formos sąskaitos faktūros registravimas
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Kurti 1.1 Meksikos elektroninės DK apskaitos ataskaitos versiją
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-            - name: Nustatyti elektroninės SF parametrus
+            - name: Elektroninės sąskaitos faktūros parametrų nustatymas
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-            - name: Nustatyti Meksikos PVM kodus
+            - name: Meksikos PVM kodų nustatymas
               href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
             - name: Nustatyti Meksikos juridinio subjekto sąskaitų planą
               href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
@@ -2363,7 +2377,7 @@
               href: hr/tasks/loan-item-worker.md
             - name: Panaudos objektų kūrimas
               href: hr/tasks/create-loan-items.md
-            - name: Darbuotojams paskolintų prekių valdymas
+            - name: Darbininkams paskolintų prekių valdymas
               href: ../talent/loan-items.md
             - name: Tęstinumo plano kūrimas
               href: hr/tasks/develop-succession-plan.md
