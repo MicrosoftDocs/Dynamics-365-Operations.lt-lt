@@ -19,14 +19,16 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
 ms.translationtype: HT
-ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
-ms.openlocfilehash: 4b8a0291855460b79f3a241eccb4b55b009804bf
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
 # <a name="open-url-in-pos"></a>URL atidarymas EKA
+
+[!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip galite sukonfigūruoti mygtuką „Retail“ elektroniniame kasos aparate (POS), kad būtų galima atidaryti URL. Šiai funkcija įjungti nereikia tinkinti kodo, taip pat ją sukonfigūruoti gali bet kuris vartotojas, turintis ne kūrėjo vaidmenį.
 
@@ -34,48 +36,52 @@ ms.lasthandoff: 12/04/2018
 
 - Atidaryti naujame lange.
 - Atidaryti pačiame EKA.
-- Atidaryti vietinėje programoje. 
+- Atidaryti vietinėje programoje.
 
 ## <a name="open-in-new-window"></a>Atidaryti naujame lange
 
 Šia konfigūracija apibrėžiama, ar URL atidaryti naujame lange, ar pačioje programoje. Sukonfigūravus atidaryti interneto URL pačioje programoje, matoma šoninė naršymo sritis ir EKA viršutinė juosta, su kuriomis vartotojas gali sąveikauti. Sukonfigūravus atidaryti naujame lange, URL bus atidarytas naujame „Modern POS“, skirto „Windows“, programos lange, o visų kitų EKA klientų atveju – naujame naršyklės skirtuke. Norėdami įgalinti šią funkciją, URL turite sukonfigūruoti pasirinkę parinktį **Atidaryti naujame lange**.
 
 ## <a name="open-within-pos"></a>Atidaryti pačiame EKA
+
 Šiuo metu galimybė atidaryti interneto URL pačiame EKA palaikoma tik „Modern POS“, skirtame „Windows“. Kitiems klientams ši funkcija dar kuriama ir ją planuojama išleisti kartu su būsimais naujinimais. Norėdami įgalinti šią funkciją, URL turite sukonfigūruoti nepasirinkę parinkties **Atidaryti naujame lange**.
 
 ## <a name="open-a-native-app"></a>Atidaryti vietinėje programoje
-Ši funkcija leidžia jums nurodyti ne interneto URL, kad būtų galima atidaryti vietinėje programoje. Pavyzdžiui, galite nurodyti URL protokolus, pvz., „MailTo“, SIP, IM arba MSTEAMS, kuriuos vėliau galima sutvarkyti naudojant atitinkamas prieglobos įrenginio vietines programas. Norėdami įgalinti šią funkciją, URL turite sukonfigūruoti pasirinkę parinktį **Atidaryti naujame lange**. 
 
-- Jei naudojate kompiuterius, kuriuose įdiegti „Windows“, žr. [Numatytųjų programos susiejimų eksportavimas arba importavimas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), kad nustatytumėte numatytąsias protokolo asociacijas, kai kompiuterį nustatote naudodamiesi vaizdų aptarnavimo ir tvarkymo visuotinio diegimo (DISM) sprendimu. 
-- Jei „Windows“ kompiuteriams valdyti naudojate MDM, pvz., „Intune“, žr. [Strategijos CSP – ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults). 
-- Jei esate kūrėjas, kuriant pasirinktinę žiniatinklio svetainę, žr. [Numatytosios programos URI paleidimas](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app). 
+Ši funkcija leidžia jums nurodyti ne interneto URL, kad būtų galima atidaryti vietinėje programoje. Pavyzdžiui, galite nurodyti URL protokolus, pvz., „MailTo“, SIP, IM arba MSTEAMS, kuriuos vėliau galima sutvarkyti naudojant atitinkamas prieglobos įrenginio vietines programas. Norėdami įgalinti šią funkciją, URL turite sukonfigūruoti pasirinkę parinktį **Atidaryti naujame lange**.
+
+- Jei naudojate kompiuterius, kuriuose įdiegti „Windows“, žr. [Numatytųjų programos susiejimų eksportavimas arba importavimas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), kad nustatytumėte numatytąsias protokolo asociacijas, kai kompiuterį nustatote naudodamiesi vaizdų aptarnavimo ir tvarkymo visuotinio diegimo (DISM) sprendimu.
+- Jei „Windows“ kompiuteriams valdyti naudojate MDM, pvz., „Intune“, žr. [Strategijos CSP – ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Jei esate kūrėjas, kuriant pasirinktinę žiniatinklio svetainę, žr. [Numatytosios programos URI paleidimas](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Sklandus atidarymas vietinėje programoje
+
 „Windows“, „iOS“ ir „Android“ taip pat leidžiama sklandžiau atidaryti daugiau programų, priklausomai nuo programos protokolo susiejimo. Jei jūsų programa dar nesukonfigūruota taip, kad atidarymą galėtų tvarkyti interneto naršyklėje, šiai funkcijai sukonfigūruoti gali prireikti kūrėjo paslaugų.
 
 - Jei naudojate „Windows“, žr. [Programų žiniatinklio svetainėms įgalinimas naudojant URI apdorojimo programas](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - Jei naudojate „iOS“, žr. [Kūrėjams skirtos universalios nuorodos](https://developer.apple.com/ios/universal-links/).
-- Jei naudojate „Android“, žr. [„Android“ programos nuorodų tvarkymas](https://developer.android.com/training/app-links/).  
+- Jei naudojate „Android“, žr. [„Android“ programos nuorodų tvarkymas](https://developer.android.com/training/app-links/).
 
-
-|   Klientas                |Atidaryti naujame lange |Atidaryti vietinėje programoje | Atidaryti pačiame EKA            | Išsami informacija                           |
-|-------------------------|-------------------|----------------|--------------------------|-----------------------------------|
-| „Windows“ skirtas „Modern POS“   | ✓*                |    ✓          |       ✓                  | * Atidaroma naujame „Modern POS“ lange   |
-| „Cloud POS“               | ✓*                |    ✓          |       X                   |  * Atidaroma naujame naršyklės skirtuke       |
-| „iOS“ skirtas „Modern POS“       | ✓*                |    ✓          |       X                  |  * Atidaroma naujame naršyklės skirtuke        |
-| „Android“ skirtas „Modern POS“   | ✓*                |    ✓          |       X                  |  * Atidaroma naujame naršyklės skirtuke        |
+| Klientas                | Atidaryti naujame lange | Atidaryti vietinėje programoje | Atidaryti pačiame EKA | Informacija                           |
+|-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
+| „Windows“ skirtas „Modern POS“ | ✓\*                | ✓               | ✓              | \* Atidaroma naujame „Modern POS“ lange |
+| „Cloud POS“             | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
+| „iOS“ skirtas „Modern POS“     | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
+| „Android“ skirtas „Modern POS“ | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
 
 ## <a name="before-you-begin"></a>Prieš pradedant
+
 Prieš pradėdami, peržiūrėkite, kaip konfigūruoti [elektroninio kasos aparato (EKA) ekrano maketus](pos-screen-layouts.md).
 
 ## <a name="open-url-in-pos"></a>URL atidarymas EKA
+
 Norėdami sukonfigūruoti URL taip, kad jį būtų galima atidaryti EKA, atlikite toliau nurodytus veiksmus.
 
-1.  Pagrindinio biuro srityje eikite į **Mažmeninė prekyba > Kanalo sąranka > EKA sąranka > EKA > Ekrano maketai**.
-2.  Pasirinkite **Mygtukynai > Kūrimo įrankis**.
-3.  Sukurkite naują mygtuką.
-4.  Pasirinkite **mygtuko** ypatybes.
-5.  Kaip veiksmą pasirinkite **Atidaryti URL**.
-6.  Įveskite norimą naudoti URL.
-7.  Sukonfigūruokite, ar norite, kad URL būtų atidaromas naujame lange.
+1. Pagrindinio biuro srityje eikite į **Mažmeninė prekyba \> Kanalo sąranka \> EKA sąranka \> EKA \> Ekrano maketai**.
+2. Pasirinkite **Mygtukynai \> Kūrimo įrankis**.
+3. Sukurkite naują mygtuką.
+4. Pasirinkite **mygtuko** ypatybes.
+5. Kaip veiksmą pasirinkite **Atidaryti URL**.
+6. Įveskite norimą naudoti URL.
+7. Sukonfigūruokite, ar norite, kad URL būtų atidaromas naujame lange.
 

@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1ea4309d57a7b6b4ca4ae3fdd995c95d93c5c080
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -34,40 +34,37 @@ ms.lasthandoff: 08/09/2018
 Šioje temoje aprašoma, kaip keisti kalbos parametrus naudojant „Retail Modern POS“ (MPOS) ir „Cloud POS“.
 
 ## <a name="overview"></a>Apžvalga
+
 „Retail Modern POS“ (MPOS) ir „Cloud POS“ palaiko aplinkas, kuriose parduotuvės ir vartotojų nustatyti kalbos parametrai ir vertimai gali skirtis. Pavyzdžiui, parduotuvė gali būti regione, kuriame klientai dažniausiai vartoja anglų kalbą, bet kai kurie darbuotojai labiau norėtų naudoti programą, kuri išversta į prancūzų kalbą.
 
 ## <a name="data-language"></a>Duomenų kalba
-Nepriklausomai nuo to, kokie yra vartotojo parametrai, nusprendžiant, kokius naudoti duomenų vertimus, MPOS ir „Cloud POS“ visada naudojami parduotuvės kalbos parametrai. Taip užtikrinama, kad visų vartotojų ir klientų patirtis būtų nuosekli.  Duomenų pavyzdžiai:
 
--   Produktai
--   Atributai ir reikšmės
--   Kategorijų pavadinimai
--   Išspausdinti arba el. paštu išsiųsti operacijų kvitai
--   Mokėjimo būdo pavadinimai
--   Eilutės rodymo pranešimai
+Nepriklausomai nuo to, kokie yra vartotojo parametrai, nusprendžiant, kokius naudoti duomenų vertimus, MPOS ir „Cloud POS“ visada naudojami parduotuvės kalbos parametrai. Taip užtikrinama, kad visų vartotojų ir klientų patirtis būtų nuosekli. Duomenų pavyzdžiai:
 
-Parduotuvės kalba taip pat naudojama pagrindiniame EKA prisijungimo ekrane, nes kol neprisijungiama vartotojas nežinomas. Jei parduotuvės kalba vertimo nėra, EKA iš naujo nustatys įmonės kalbą.
+- Produktai
+- Atributai ir reikšmės
+- Kategorijų pavadinimai
+- Išspausdinti arba el. paštu išsiųsti operacijų kvitai
+- Mokėjimo būdo pavadinimai
+- Eilutės rodymo pranešimai
+
+Parduotuvės kalba taip pat naudojama pagrindiniame EKA prisijungimo ekrane, nes kol neprisijungiama, vartotojas nežinomas. Jei parduotuvės kalba vertimo nėra, EKA iš naujo nustatys įmonės kalbą.
 
 ### <a name="configuring-the-stores-language-setting"></a>Parduotuvės kalbos parametro konfigūravimas
 
-Parduotuvės kalbos parametras yra nustatomas dalyje **Visos mažmeninės prekybos parduotuvės**, kurią galima rasti puslapyje **Mažmeninės prekybos parduotuvė** pasirinkus **Bendrieji parametrai &gt; Regiono parametrai &gt; Kalba. **Naudodami išskleidžiamąjį sąrašą pasirinkite kiekvienos parduotuvės kalbą.
+Parduotuvės kalbos parametras nustatomas dalyje **Visos mažmeninės prekybos parduotuvės**, kurią galima rasti puslapyje **Mažmeninės prekybos parduotuvė** pasirinkus **Bendrieji parametrai &gt; Regiono parametrai &gt; Kalba**. Naudodami išskleidžiamąjį sąrašą pasirinkite kiekvienos parduotuvės kalbą.
 
 ## <a name="user-interface-language"></a>Vartotojo sąsajos kalba
-Pagal EKA vartotojo kalbos parametrus nustatomi programos vartotojo sąsajoje naudojami vertimai. Vertimai naudojami visose etiketėse, meniu ir sąrašuose, kurie nelaikomi duomenimis. Viena išimtis yra EKA mygtukynuose rodomas tekstas. Mygtukynuose vertimai nepalaikomi, todėl tekstas juose visada rodomas taip, kaip nurodyta ant mygtuko. Norint, kad būtų palaikomi išversti mygtukai, reikia nukopijuoti ir išlaikyti atskirus mygtukynus ir priskirti juos atitinkamiems vartotojams.
+
+Pagal EKA vartotojo kalbos parametrą nustatomi programos vartotojo sąsajoje naudojami vertimai. Vertimai naudojami visose etiketėse, meniu ir sąrašuose, kurie nelaikomi duomenimis. Viena išimtis yra EKA mygtukynuose rodomas tekstas. Mygtukynuose vertimai nepalaikomi, todėl tekstas juose visada rodomas taip, kaip nurodyta ant mygtuko. Norint, kad būtų palaikomi išversti mygtukai, reikia nukopijuoti ir išlaikyti atskirus mygtukynus ir priskirti juos atitinkamiems vartotojams.
 
 ### <a name="configuring-the-users-language-setting"></a>Vartotojo kalbos parametro konfigūravimas
 
-EKA vartotojo kalbos parametras yra nustatomas dalyje **Visi darbuotoji**, kurią galima rasti puslapyje **Darbuotojas** pasirinkus **Mažmeninė prekyba &gt; Kalba**.  Jis nėra nustatomas pagrindiniame profilio skirtuke. EKA šio parametro nenaudoja. Jei nenustatyta vartotojo kalba arba nustatyta kalba, kurios vertimų nėra, EKA iš naujo nustatys parduotuvės kalbą.  
+EKA vartotojo kalbos parametras nustatomas dalyje **Visi darbuotojai**, kurią galima rasti puslapyje **Darbuotojas** pasirinkus **Mažmeninė prekyba &gt; Kalba**. Jis nenustatomas pagrindiniame profilio skirtuke. EKA šio parametro nenaudoja. Jei nenustatyta vartotojo kalba arba nustatyta kalba, kurios vertimų nėra, EKA iš naujo nustatys parduotuvės kalbą.
 
-|             |                            |                                                                   |
-|-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **Vartotojo sąsajos kalba** ** **      | **Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.)** |
-| **Įmonė** | Numatytoji                    | Numatytoji                                                           |
-| **Parduotuvė**   | Perrašoma įmonė          | Perrašoma įmonė                                                 |
-| **Vartotojas**    | Perrašoma parduotuvė arba įmonė | Niekada                                                             |
-
-
-
-
-
+|             | Vartotojo sąsajos kalba                   | Duomenų kalba (produktų, gavimo kvitų formatų, eilutės rodymo ir kt.) |
+|-------------|----------------------------|---------------------------------------------------------------|
+| **Įmonė** | Numatytoji                    | Numatytoji                                                       |
+| **Parduotuvė**   | Perrašoma įmonė          | Perrašoma įmonė                                             |
+| **Vartotojas**    | Perrašoma parduotuvė arba įmonė | Niekada                                                         |
 

@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Mažme
 
 Be to, „FastTab“ skirtuke **Paketinis vykdymas** sukurtas laukas **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Šiame lauke nurodomas vienu metu turimų vykdyti paketinių užduočių skaičius. Šiuo metu turite patys nustatyti šio lauko reikšmę.
 
-Be to, naudojant naująjį registravimo procesą, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Tai reikia padaryti, net jei organizacija dovanų kortelių nenaudoja. 
+Be to, naudojant naująjį registravimo procesą, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Tai reikia padaryti, net jei organizacija dovanų kortelių nenaudoja.
 
 Atkreipkite dėmesį, kad visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Mažmeninės prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
 
 ## <a name="processing"></a>Vykdymas
+
 Naudojantis meniu elementais **Skaičiuoti išrašų paketą** ir **Registruoti išrašų paketą** gali būti skaičiuojamas ir registruojamas išrašų paketas. Išrašai taip pat gali būti skaičiuojami ir registruojami neautomatiškai – naudojantis taikant patobulintą išrašų registravimo funkciją matomu meniu elementu **Mažmeninės prekybos išrašai**.
 
 Išrašų paketo skaičiavimo ir registravimo procesas ir veiksmai yra tokie patys, kaip ir naudojantis senesne išrašo registravimo funkcija. Tačiau atlikta reikšmingų pagrindinio vidinio išrašų vykdymo patobulinimų. Dėl šių patobulinimų procesas lankstesnis, taip pat geriau matoma informacija apie būsenas ir klaidas. Todėl vartotojai gali pašalinti pagrindinę klaidų priežastį ir tęsti registravimo procesą nesugadindami duomenų, kad vėliau nereikėtų atlikti duomenų taisymų.
@@ -71,6 +72,7 @@ Išrašų paketo skaičiavimo ir registravimo procesas ir veiksmai yra tokie pat
 Toliau pateikiamuose skyriuose aprašomi kai kurie pagrindiniai vartotojo sąsajoje rodomų mažmeninės prekybos ir užregistruotų išrašų registravimo funkcijos patobulinimai.
 
 ### <a name="status-details"></a>Būsenos informacija
+
 Sukurtas naujas išrašo skaičiavimo ir registravimo procesų būsenos modelis.
 
 Toliau pateikiamoje lentelėje aprašomos įvairios būsenos ir kokia tvarka jos išdėstomos vykstant skaičiavimo procesui.
@@ -109,9 +111,11 @@ Kiekviena pirmiau pateiktose lentelėse nurodyta būsena pagal pobūdį yra nepr
 Be to, antro ir trečio skyrių antraštėse rodoma bendroji atitinkamo proceso būsena.
 
 ### <a name="event-logs"></a>Įvykių žurnalai
+
 Atliekamos įvairios išrašo operacijos (pavyzdžiui, kūrimo, skaičiavimo, valymo ir registravimo) ir išrašo galiojimo laikotarpiu gali būti pateikiami keli tos pačios operacijos pavyzdžiai. Pavyzdžiui, sukūręs ir apskaičiavęs išrašą vartotojas gali išvalyti išrašą ir apskaičiuoti jį dar kartą. Naudojantis išrašo grupės **Išsami informacija apie vykdymą** mygtuku **Įvykių žurnalai** galima gauti visą informaciją apie įvairių išraše nurodytų operacijų patikrinimus, taip pat informaciją apie tai, kada nurodyta tas operacijas atlikti.
 
 ### <a name="aggregated-transactions"></a>Sutelktos operacijos
+
 Vykstant registravimo procesui pardavimo operacijos telkiamos pagal konfigūraciją. Šios sutelktos operacijos saugomos sistemoje ir naudojamos pardavimų užsakymams kurti. Kiekvieną kartą sutelkus operaciją sistemoje sukuriamas vienas atitinkamas pardavimo užsakymas. Naudodamiesi išrašo grupės **Išsami informacija apie vykdymą** mygtuku **Sutelktos operacijos** galite peržiūrėti sutelktas operacijas.
 
 Sutelktos operacijos skirtuke **Išsami informacija apie pardavimo užsakymą** rodoma toliau išvardyta informacija.
@@ -136,11 +140,13 @@ Sutelktos operacijos rodinyje nurodoma toliau išvardyta nauda.
 - Naudojantis sutelktu XML failu lengviau nustatyti problemas kuriant pardavimo užsakymą ir išrašant sąskaitas faktūras.
 
 ### <a name="journal-vouchers"></a>Žurnalo kvitai
+
 Naudojantis išrašo grupės **Išsami informacija apie vykdymą** mygtuku **Žurnalo kvitai** rodomos visos įvairios sukurtos išrašo kvito operacijos, kurios susijusios su nuolaidomis, pajamų / išlaidų sąskaitomis, dovanų kortelėmis ir t. t.
 
 Šiuo metu programoje rodomi tik registruotų išrašų duomenys.
 
 ### <a name="payment-journals"></a>Mokėjimo žurnalai
+
 Paspaudus išrašo grupės **Išsami informacija apie vykdymą** mygtuką **Mokėjimo žurnalai** rodomi visi įvairūs sukurti išrašo mokėjimo žurnalai.
 
 Šiuo metu programoje rodomi tik registruotų išrašų duomenys.

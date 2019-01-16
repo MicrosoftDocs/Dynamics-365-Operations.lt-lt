@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 *Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). Sprendime „Microsoft Dynamics 365 for Finance and Operations“ atributus galima susieti su įvairiais „Retail“ objektais, pvz., produktų kategorijomis ir mažmeninės prekybos kanalais, bei galima nustatyti numatytąsias jų reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
- 
+
 Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 
 | Kategorija   | Atributas                | Leistinos reikšmės          | Numatytoji vertė |
@@ -50,7 +50,7 @@ Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 | Plazminis     | Veiklos šablonas nuo      | 32–110 laipsnių              | 32            |
 |            | Veiklos šablonas iki        | 32–110 laipsnių              | 100           |
 | Projekcinis | Projekcijos vamzdelio garantija | 6, 12 arba 18 mėnesiai (-ių)         | 12            |
-|            | Projekcijos vamzdelių skaičius    | 1–5                         | 3             |
+|            | \#: projekcijos vamzdelių skaičius   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Atributai ir atributų tipai
 
@@ -104,7 +104,7 @@ Toliau pateiktos likusios puslapyje **Atributai** esančios atributų metaduomen
 
 Šios parinktys iš pradžių buvo skirtos pagerinti internetinės parduotuvės ieškos funkcijas. Nors į „Finance and Operations“ internetinė parduotuvė iš karto nėra įtraukta, į sprendimą įtrauktas el. komercijos publikavimo programinės įrangos kūrimo rinkinys (SDK). Naudodami šį SDK klientai produktus gali įtraukti į pasirinktą ieškos indeksą. Nors produktų duomenys importuojami, klientai vis tiek turėtų galėti atskirti ieškotinus duomenis, duomenis, dėl kurių galima teikti užklausas, ir t. t. Taip jie gali sukurti optimalų indeksą ir užtikrinti, kad būtų indeksuojami tik tie atributai, kurie, *jų nuomone*, turi būti suindeksuoti.
 
-Norėdami gauti informacijos apie šių likusių parinkčių paskirtį, žr. [„SharePoint Server 2013“ ieškos schemos apžvalga](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Norėdami gauti informacijos apie šių likusių parinkčių paskirtį, žr. [„SharePoint Server 2013“ ieškos schemos apžvalga](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atributų filtrų parametrai
 
@@ -121,7 +121,7 @@ Puslapyje **Filtrų rodymo nuostatos** pateikti tolesni laukai.
 - **Rodymo valdiklis** – galimos tolesnės parinktys.
 
     - **Sąrašas** – šią parinktį galima naudoti su visų tipų atributais.
-    - **Intervalas** – šią parinktį galima naudoti su šių tipų atributais: **Valiuta**, **Dešimtainis skaičius** ir **Sveikasis skaičius**. 
+    - **Intervalas** – šią parinktį galima naudoti su šių tipų atributais: **Valiuta**, **Dešimtainis skaičius** ir **Sveikasis skaičius**.
     - **Slankiklis** – šią parinktį galima naudoti su šių tipų atributais: **Valiuta**, **Dešimtainis skaičius** ir **Sveikasis skaičius**.
     - **Slankiklis su juostomis** – šią parinktį galima naudoti su šių tipų atributais: **Valiuta**, **Dešimtainis skaičius** ir **Sveikasis skaičius**.
 
@@ -228,13 +228,13 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 5. „FastTab“ skirtuke **Produktai** pasirinkite reikiamą produktą, tada virš produktų tinklelio pasirinkite **Atributai**.
 6. Tolesniuose „FastTab“ atnaujinkite reikiamų atributų reikšmes.
 
-   - Bendrinami produktų publikavimo kanalai
-   - Bendrai naudojami produkto atributai
-   - Publikavimo kanalas
-   - Kanalo produkto atributai
+    - Bendrinami produktų publikavimo kanalai
+    - Bendrai naudojami produkto atributai
+    - Publikavimo kanalas
+    - Kanalo produkto atributai
 
-     > [!NOTE]
-     > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+    > [!NOTE]
+    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
 
 ![Katalogų produktų atributų grupės](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 
 5. Tolesniuose „FastTab“ atnaujinkite reikiamų atributų reikšmes.
 
-   - Bendrinami produktų publikavimo kanalai
-   - Bendrai naudojami produkto atributai
-   - Publikavimo kanalas
-   - Kanalo produkto atributai
+    - Bendrinami produktų publikavimo kanalai
+    - Bendrai naudojami produkto atributai
+    - Publikavimo kanalas
+    - Kanalo produkto atributai
 
-     > [!NOTE]
-     > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+    > [!NOTE]
+    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
 

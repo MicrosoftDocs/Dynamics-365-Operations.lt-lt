@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vienodą visų naudojantis „Microsoft Dynamics 365 for Talent: Attract“ siunčiamų el. laiškų temą ir žymėjimą. Administratoriai taip pat gali kuruoti el. laiško turinio šablonų rinkinį, kuriuo galėtų naudotis kiti vartotojai. Samdos komanda, pasinaudodama šiais šablonais darbo eigoje gali efektyviau siųsti el. laiškus. Kai „Attract“ el. laiškai konfigūruojami taip, kad būtų siunčiami automatiškai, o administratorius, naudodamasis el. laiško šablonų biblioteka, gali tinkinti šių el. laiškų turinį.
+
+> [!NOTE]
+> Norėdami naudoti el. laiškų šablonus, jūsų organizacija turi turėti išsamios įdarbinimo informacijos priedą.
 
 ## <a name="global-template-configurations"></a>Visuotinės šablono konfigūracijos
 

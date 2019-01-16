@@ -3,7 +3,7 @@ title: Proceso veiklos
 description: "Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti samdos procese."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ Pokalbio veikla nėra privaloma. Ši veikla turi tris komponentus: kandidato pas
 - Norėdami kandidatams siųsti el. laiškus ir prašyti informacijos apie jų pasiekiamumą, nustatykite parinkties **Prašyti informacijos apie kandidato pasiekiamumą** reikšmę **Įjungta**. Jei nustatysite šios parinkties reikšmę **Išjungta**, šis veiksmas nebus rodomas darbo samdos procese.
 - Jei norite pasikalbėti tiesioginiu srautu arba sukurti konferencijos skambinti naudodami „Skype“ verslui, nustatykite lauko **Susitikimas internetu** reikšmę **„Skype“ verslui**. Tada tinkamas saitas **Prisijungti prie „Skype“ susitikimo** bus įtrauktas į pokalbio susitikimo užklausą.
 - Norėdami kandidatams siųsti el. laiškus ir galutinai sutarti dėl grafiko, nustatykite parinkties **Siųsti el. laišką kandidatui** reikšmę **Įjungta**. Jei nustatysite parinkties reikšmę **Išjungta**, kandidatai gaus pokalbio grafiką tik prisijungę prie kandidatų portalo.
+
+>[!NOTE]
+> - Individualūs pokalbiai: kalbintojams kas 24 valandas siunčiami priminimai, jei kalbintojas neatsakė į pokalbio užklausą (nepriėmė ir neatmetė).
+> - Grupės pokalbiai: nėra jokių automatinių priminimų atsakyti į pokalbio užklausą. Norėdami rankiniu būdu suaktyvinti priminimą, redaguokite pokalbį ir naudokite parinktį **Atnaujinti ir siųsti**, kad nusiųstumėte užklausą kalbintojams.
 
 Atsiliepimo komponentas suteikia galimybę žmonėms įvesti rekomendacijas pretendentui. Taip pat jie gali įvesti bet kokių komentarų. Jei įjungsite parinktį **Gauti atsiliepimų dalyvius iš samdos komandos**, įdarbintojas, samdos vadovas ir kalbintojai automatiškai įvedami į atsiliepimo komponentą. Organizacijos gali leisti kalbintojams peržiūrėti kitų žmonių atsiliepimus prieš pateikiant savo atsiliepimus. Organizacijos taip pat gali leisti kalbintojams redaguoti savo atsiliepimą, kai jis pateiktas.
 

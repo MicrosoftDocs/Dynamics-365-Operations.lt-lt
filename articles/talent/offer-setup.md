@@ -3,7 +3,7 @@ title: "Pasiūlymų valdymo nustatymas"
 description: "Šioje temoje aprašoma, kaip nustatyti „Talent“ pasiūlymus."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Pasiūlymų valdymo nustatymas 
@@ -105,7 +105,7 @@ Norėdami įkelti pasiūlymo duomenų taisyklių failą, atlikite toliau nurodyt
 
 1.  Galite panaikinti esamą taisyklių rinkinio įkėlimą (jei apibrėžiamas vietos rezervavimo ženklas nenaudojamas kitame dokumento šablone).
 
->[!NOTES]
+>[!NOTE]
 > - Kiekvienas vietos rezervavimo ženklas gali turėti tik vieną unikalų stulpelių rinkinį, nuo kurio jis priklauso. Pavyzdžiui, jei **Metinis atlyginimas** priklauso nuo verčių **Darbo vieta** ir **Lygis**, negalite įkelti kito taisyklių rinkinio, kuriame **Metinis atlyginimas** priklauso nuo kito stulpelių rinkinio.
 
 > - Pasiūlymo duomenų taisyklių rinkinių pavyzdžius galite atsisiųsti iš puslapio **Pasiūlymo duomenų taisyklės** skirtuko **Pavyzdžiai**.
@@ -136,7 +136,7 @@ Norėdami sukurti pasiūlymo dokumento šabloną, atlikite toliau nurodytus veik
 
     - Saitažodžiu susiekite pasiūlymo duomenų vietos rezervavimo ženklą. Įveskite **\#**, o paskui pradėkite rašyti pasiūlymo duomenų vietos rezervavimo ženklo pavadinimą. Išplečiamajame sąraše bus rodomos parinktys. Spustelėję arba paspaudę **Enter** įveskite pasiūlymo duomenų vietos rezervavimo ženklą.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Norėdami susieti vietos rezervavimo ženklą su pasiūlymo dokumento šablonu, nenurodant jo vertės kandidatui, laikykite žymiklį virš pasiūlymo duomenų vietos rezervavimo ženklo ir spustelėkite piktogramą **Prisegti**. Tokiu būdu vietos rezervavimo ženklas bus pastumtas į pasiūlymo dokumento šablono skyrių **Prisegti pasiūlymo duomenys**. Norėdami atsegti, atlikite tuos pačius veiksmus, bet pasiūlymo duomenų vietos rezervavimo ženklų sąraše spustelėkite **Atsegti**.
 
     > - Norėdami peržiūrėti aktyvių pasiūlymo duomenų vietos rezervavimo ženklų sąrašą, įjunkite dešiniosios srities skirtuką **Aktyvūs**.
@@ -175,7 +175,7 @@ Pasiūlymų paketai yra pasiūlymo artefaktai, kurie bendrinami su kandidatu ir 
 
 1.  Spustelėkite **Įtraukti šabloną**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Galite pasirinkti sukurti naują šabloną arba pasirinkti iš esamų.
 
     > - Pasirinkę įtraukti esamą šabloną turite įsitikinti, kad pasiūlymo dokumento šablonas įrašytas, baigtas ir pažymėtas kaip aktyvus.
@@ -198,8 +198,10 @@ Yra keletas pasiūlymo kūrimo proceso dalių, kurias gali konfigūruoti „Attr
 
 - **Kandidato pasiūlymo patirtis** – jei esate administratorius, galite pasirinkti nustatyti, ar visi pasiūlymai turės galiojimo datą, ir, jei taip, koks bus numatytasis galiojimo datos poslinkis. Taip pat galite sukonfigūruoti ar kandidatai gali atmesti pasiūlymą.
 
-- **El. parašai** – šiuo metu vienintelė galima elektroninio parašo parinktis – galimybė kandidatams priimant pasiūlymą pasiūlymo pakete įvesti savo vardą. Ateityje galėsime pasiūlyti partnerių integraciją su kitais elektroninio parašo tiekėjais.
+- **Elektroniniai parašai** – jūs, administratorius, taip pat galite pasirinkti metodą, kurį kandidatai gali naudoti pasirašydami pasiūlymus.
+    - „Adobe Sign“ – visi pasiūlymų paketai bus siunčiami ir pasirašomi naudojant „Adobe Sign“. Kiekvienas pasiūlymo kūrėjas, publikuojantis pasiūlymą, turi būti prijungęs savo „Adobe Sign“ licenciją prie „Attract“. 
 
+    - „ESign“ – tai numatytoji parengta naudoti parinktis, kai vartotojas gali pasirašyti pasiūlymą įvesdamas savo vardą ir inicialus.
 
 Norėdami daugiau sužinoti apie pasiūlymo kūrimo procesą, žr. [Pasiūlymų kūrimas, tvirtinimas ir pasirašymas](./creating-offers.md).
 

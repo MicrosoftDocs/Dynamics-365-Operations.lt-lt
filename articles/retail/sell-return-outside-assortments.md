@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,14 +31,15 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 Bet kokiam mažmenininkui dažnai pasitaiko situacija, kai reikia klientams parduoti produktus ar iš klientų priimti grąžinamus produktus net jei konkretūs produktai jų parduotuvėje neplatinami (kitaip tariant, produktai nėra įtraukti į parduotuvės asortimentą).
+
 Toliau nurodomi įprasti scenarijai.
 
 + Mažmenininkas konkrečioje parduotuvėje neplatina visų savo produktų. Likę produktai saugomi sandėlyje. Parduotuvės atstovas gali klientui padėti ir produktų ieškoti ar juos naršyti sandėlyje, įtraukti produktus į krepšelį ir pasirinkdamas pristatymo būdą, pvz., iš sandėlio siųsti tam tikru adresu arba klientui leisti produktą pasiimti iš dabartinės ar kitos parduotuvės, užbaigti pirkimą.
 + Mažmenininkas konkrečių produktų parduotuvėje neplatina arba jų neturi kliento aplankytoje parduotuvėje, tačiau produktai yra kitose parduotuvėse. Parduotuvės atstovas gali klientui padėti ir produktų ieškoti ar juos naršyti kitoje parduotuvėje, įtraukti produktus į krepšelį ir pasirinkdamas pristatymo būdą užbaigti pirkimą.
 + Mažmenininkas konkrečiame mieste ar pašto indekso teritorijoje arba aplink juos turi daug parduotuvių ir nenori versti klientų produktus grąžinti į tą pačią parduotuvę, kurioje jie buvo įsigyti. Todėl klientai produktus gali grąžinti į bet kurią parduotuvę.
 
-
 Tokios dažnos situacijos mažmenininkams pateikiamos sprendime „Dynamics 365 for Retail‟. Naudodami „Retail‟ galite atlikti tolesnius veiksmus.
+
 + Produktų ieškoti ar juos naršyti kitose parduotuvėse.
 + Ieškoti visų patvirtintų produktų ar juos naršyti.
 + Kurti atsiskaitymo grynaisiais pinigais operacijas ar klientų užsakymus.

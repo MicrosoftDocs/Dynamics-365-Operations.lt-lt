@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,35 +33,41 @@ ms.lasthandoff: 08/09/2018
 
 Šiame straipsnyje aprašyti duomenys, kurie kuriami „Microsoft Dynamics 365 for Retail“ inicijavimo proceso metu.
 
-Kai naudodami „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegiate mažmeninės prekybos sprendimą, turite inicijuoti mažmeninės prekybos konfigūravimą ir sukurti pagrindinius konfigūravimo duomenis. **Svarbu:** prieš inicijuodami mažmeninės prekybos konfigūravimą, įsitikinkite, kad nurodėte visų juridinių subjektų, kuriuose nustatysite mažmeninės prekybos parduotuves, kalbą ir pašto adresą. Šį veiksmą reikia atlikti su visais juridiniais subjektais, kuriuose naudojate mažmeninėje prekyboje. Norėdami inicijuoti mažmeninės prekybos konfigūravimą, atlikite tolesnius veiksmus.
+Kai naudodami „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegiate mažmeninės prekybos sprendimą, turite inicijuoti mažmeninės prekybos konfigūravimą ir sukurti pagrindinius konfigūravimo duomenis.
 
-1.  Paleiskite „Dynamics 365 for Retail“ klientą.
-2.  Spustelėkite **Mažmeninė prekyba** &gt; **„Headquarters“ sąranka** &gt; **Parametrai** &gt; **Mažmeninės prekybos parametrai**.
-3.  Spustelėkite **Inicijuoti**.
+> [!IMPORTANT]
+> Prieš inicijuodami mažmeninės prekybos konfigūravimą, įsitikinkite, kad nurodėte visų juridinių subjektų, kuriuose nustatysite mažmeninės prekybos parduotuves, kalbą ir pašto adresą. Šį veiksmą reikia atlikti su visais juridiniais subjektais, kuriuose naudojate mažmeninėje prekyboje.
+
+Norėdami inicijuoti mažmeninės prekybos konfigūravimą, atlikite tolesnius veiksmus.
+
+1. Paleiskite „Dynamics 365 for Retail“ klientą.
+2. Spustelėkite **Mažmeninė prekyba** &gt; **„Headquarters“ sąranka** &gt; **Parametrai** &gt; **Mažmeninės prekybos parametrai**.
+3. Spustelėkite **Inicijuoti**.
 
 Inicijuojant sukuriami toliau pateikti numatytieji konfigūravimo duomenys.
 
--   Duomenų apsikeitimo valdymo užduotys ir antrinės užduotys
--   Mažmeninės prekybos kanalo schema
--   Mažmeninės prekybos paskirstymo grafikai
--   Numatytieji ekrano maketai, apimantys mygtukynus, vaizdus ir temas
--   Laiko juostos informacija
--   Elektroninio kasos aparato (EKA) operacijos
--   EKA teisės
--   Kanalo ataskaitos
--   Atributo metaduomenys
--   Objektų tikrinimo šablonai
--   Paketinė užduotis, skirta „Commerce Data Exchange“ seansų retrospektyvai šalinti
+- Duomenų apsikeitimo valdymo užduotys ir antrinės užduotys
+- Mažmeninės prekybos kanalo schema
+- Mažmeninės prekybos paskirstymo grafikai
+- Numatytieji ekrano maketai, apimantys mygtukynus, vaizdus ir temas
+- Laiko juostos informacija
+- Elektroninio kasos aparato (EKA) operacijos
+- EKA teisės
+- Kanalo ataskaitos
+- Atributo metaduomenys
+- Objektų tikrinimo šablonai
+- Paketinė užduotis, skirta „Commerce Data Exchange“ seansų retrospektyvai šalinti
 
-Be to, įjungiama prisiregistravimo prie „Dynamics 365 for Retail“ duomenų bazės funkcija, susijusi su mokėjimo kortelių pramone (PCI). **Pastaba:** duomenų apsikeitimo valdymą galima konfigūruoti atskirai. Ši parinktis suteikia galimybę iš naujo nustatyti mažmeninės prekybos duomenų apsikeitimo valdymo konfigūracijos numatytuosius parametrus. Baigę inicijavimą turite sukonfigūruoti papildomus mažmeninės prekybos duomenis. Štai keletas pavyzdžių:
+Be to, įjungiama prisiregistravimo prie „Dynamics 365 for Retail“ duomenų bazės funkcija, susijusi su mokėjimo kortelių pramone (PCI).
 
--   Mažmeninės prekybos parametrai
--   Duomenų apsikeitimo valdymo parametrai
--   Mažmeninės prekybos kanalai
--   Registrai ir įrenginiai
--   Asortimentai
+> [!NOTE]
+> Duomenų apsikeitimo valdymą galima konfigūruoti atskirai. Ši parinktis suteikia galimybę iš naujo nustatyti mažmeninės prekybos duomenų apsikeitimo valdymo konfigūracijos numatytuosius parametrus.
 
+Baigę inicijavimą turite sukonfigūruoti papildomus mažmeninės prekybos duomenis. Štai keletas pavyzdžių:
 
-
-
+- Mažmeninės prekybos parametrai
+- Duomenų apsikeitimo valdymo parametrai
+- Mažmeninės prekybos kanalai
+- Registrai ir įrenginiai
+- Asortimentai
 

@@ -18,10 +18,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: be4ed89982e27d9b46a83bc945d7cd99ef892fbe
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,32 +31,37 @@ ms.lasthandoff: 11/03/2017
 
 Šioje temoje paaiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius „Microsoft Dynamics 365 for Finance and Operations“.
 
-„Finance and Operations‟ suteikia funkcijų įvairioms pramonės šakoms ir segmentams. Programa apima ne vieną sritį ir puslapį, kurie padeda atlikti įvairias užduotis. Norėdami greitai rasti puslapius, kurie reikalingi norint užbaigti užduotis, naudokite naršymo ieškos funkciją. 
+„Finance and Operations‟ suteikia funkcijų įvairioms pramonės šakoms ir segmentams. Programa apima ne vieną sritį ir puslapį, kurie padeda atlikti įvairias užduotis. Norėdami greitai rasti puslapius, kurie reikalingi norint užbaigti užduotis, naudokite naršymo ieškos funkciją.
 
-Norėdami naudoti šią funkciją, spustelėkite **Ieškos** piktogramą, kad būtų rodomas **Ieškos** langelis. Tada langelyje galite surinkti vieną ar kelis žodžius. Sistema iš karto ieško susijusių programos puslapių, kurie atitinka jūsų įvestus žodžius. Pavyzdžiui, kaip įvestį galėtumėte įvesti „tiekėjo SF‟, tada sistema rodytų rezultatus, kurie atitinka tą įvestį. 
+Norėdami naudoti šią funkciją, spustelėkite **Ieškos** piktogramą, kad būtų rodomas **Ieškos** langelis. Tada langelyje galite surinkti vieną ar kelis žodžius. Sistema iš karto ieško susijusių programos puslapių, kurie atitinka jūsų įvestus žodžius. Pavyzdžiui, kaip įvestį galėtumėte įvesti „tiekėjo SF‟, tada sistema rodytų rezultatus, kurie atitinka tą įvestį.
 
-**Pastaba.** **Ieškos** langelis padeda rasti ir pereiti į puslapius. Jis nepadės rasti konkrečių duomenų ar veiksmų. 
+> [!NOTE]
+> **Ieškos** langelis padeda rasti ir pereiti į puslapius. Jis nepadės rasti konkrečių duomenų ar veiksmų.
 
-[![search-box](media/navigation-search.png "Ieškos laukas") 
+[![search-box](media/navigation-search.png "Ieškos laukas")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Greitas perėjimas į konkretų puslapį
-Naršymo ieškos funkcija taip pat naudojama kaip puikus būdas greitai pereiti į konkretų puslapį. Pavyzdžiui, jeigu esate mokėtinų sumų klerkas, kuris dažnai naudoja puslapį **Mokėjimų žurnalas**, lauke **Ieška** galėtumėte įvesti „mokėjimų žurnalas“. Kadangi įvestis visiškai atitinka puslapio pavadinimą, puslapis pateikiamas paieškos rezultatų viršuje ir galite greitai į jį patekti. 
 
-Ieškos rezultatų sąraše rodomas puslapio pavadinimas bei naršymo kelias. Tai nurodo puslapio vietą programoje. Taip pat rezultatuose lengviau atskirti du ar kelis panašius puslapius. 
+Naršymo ieškos funkcija taip pat naudojama kaip puikus būdas greitai pereiti į konkretų puslapį. Pavyzdžiui, jeigu esate mokėtinų sumų klerkas, kuris dažnai naudoja puslapį **Mokėjimų žurnalas**, lauke **Ieška** galėtumėte įvesti „mokėjimų žurnalas“. Kadangi įvestis visiškai atitinka puslapio pavadinimą, puslapis pateikiamas paieškos rezultatų viršuje ir galite greitai į jį patekti.
 
-Kai ieškote puslapio, jūsų įvestis gretinama su puslapio pavadinimu bei jo naršymo keliu. Pavyzdžiui, jei lauke **Ieška** įvesite „gautinos‟, matysite puslapių rezultatus, pateikiamus srityje Gautinos sumos, nors puslapių pavadinimuose ir nėra žodžio „gautinos‟. 
+Ieškos rezultatų sąraše rodomas puslapio pavadinimas bei naršymo kelias. Tai nurodo puslapio vietą programoje. Taip pat rezultatuose lengviau atskirti du ar kelis panašius puslapius.
+
+Kai ieškote puslapio, jūsų įvestis gretinama su puslapio pavadinimu bei jo naršymo keliu. Pavyzdžiui, jei **ieškos** lauke įvesite „gautinos‟, matysite rezultatus, galimus Gautinų sumų srityje – nors puslapių pavadinimuose ir nėra žodžio „gautinos‟.
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Greitas perėjimas į puslapį naudojant techninį formos pavadinimą
-Naršymo ieškos funkcija taip pat suteikia patyrusių naudotojų labai pageidautą funkciją: galimybę greitai pereiti į puslapį pagal techninį formos pavadinimą. Daug naudotojų yra tiek susipažinę su sistema, jog žino tikslius formų, su kuriomis dirba, pavadinimus. Jei esate vienas iš šių naudotojų, galite įvesti **form:**, o po to – ieškomos formos pavadinimą. Pavyzdžiui, jei įvesite **form: vendinvoice**, ieškos rezultatuose bus rodomi visi puslapiai, kur formos pavadinimas prasideda **vendinvoice**. 
+
+Naršymo ieškos funkcija taip pat suteikia patyrusių naudotojų labai pageidautą funkciją: galimybę greitai pereiti į puslapį pagal techninį formos pavadinimą. Daug naudotojų yra tiek susipažinę su sistema, jog žino tikslius formų, su kuriomis dirba, pavadinimus. Jei esate vienas iš šių naudotojų, galite įvesti **form:**, o po to – ieškomos formos pavadinimą. Pavyzdžiui, jei įvesite **form: vendinvoice**, ieškos rezultatuose bus rodomi visi puslapiai, kur formos pavadinimas prasideda **vendinvoice**.
 
 ## <a name="administration-and-security"></a>Administravimas ir sauga
+
 Administravimo ir saugos požiūriu, naudojant naršymo ieškos funkciją, rodomi tik dviejų tolesnių tipų rezultatai.
 
--   Puslapiai, įgalinti dabartinėje konfigūracijoje (naudojant konfigūracijos raktus).
--   Puslapiai, prie kurių vartotojas turi prieigą pagal vartotojo vaidmenį.
+- Puslapiai, įgalinti dabartinėje konfigūracijoje (naudojant konfigūracijos raktus).
+- Puslapiai, prie kurių vartotojas turi prieigą pagal vartotojo vaidmenį.
 
-Ieškos rezultatų sąrašas apribotas iki 10 elementų. Jei rezultatuose nerandate to, ko ieškote, reikėtų pabandyti patikslinti ar atnaujinti įvestį. 
+Ieškos rezultatų sąrašas apribotas iki 10 elementų. Jei rezultatuose nerandate to, ko ieškote, reikėtų pabandyti patikslinti ar atnaujinti įvestį.
 
-## <a name="development"></a>Plėtra 
-Programavimo požiūriu naršymo ieškos funkciją labai lengva įdiegti, nes tarp meniu elementų diegimo ir jų rodymo ieškos rezultatuose praktiškai nėra vėlavimo. Kol į meniu elementus nurodoma iš naršymo srities ar ataskaitų srities, jie automatiškai tampa ieškotinais. 
+## <a name="development"></a>Plėtra
+
+Programavimo požiūriu naršymo ieškos funkciją labai lengva įdiegti, nes tarp meniu elementų diegimo ir jų rodymo ieškos rezultatuose praktiškai nėra vėlavimo. Kol į meniu elementus nurodoma iš naršymo srities ar ataskaitų srities, jie automatiškai tampa ieškotinais.
 
