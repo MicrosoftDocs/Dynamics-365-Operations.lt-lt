@@ -19,84 +19,68 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 17789f8f74826136aa5765cadd96a4929729323f
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: e4c1bd382fa803f90a251c8c45acc556bee627d1
 ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
-# <a name="mass-hire-projects"></a><span data-ttu-id="22f44-103">Masinės samdos projektai</span><span class="sxs-lookup"><span data-stu-id="22f44-103">Mass hire projects</span></span>
+# <a name="mass-hire-projects"></a><span data-ttu-id="9e092-103">Masinės samdos projektai</span><span class="sxs-lookup"><span data-stu-id="9e092-103">Mass hire projects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="22f44-104">Naudodami masinės samdos projektus personalo specialistai gali kurti keletą pareigų ir į jas efektyviai pasamdyti keletą darbuotojų.</span><span class="sxs-lookup"><span data-stu-id="22f44-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
+<span data-ttu-id="9e092-104">Naudodami masinės samdos projektus personalo specialistai gali kurti keletą pareigų ir į jas efektyviai pasamdyti keletą darbuotojų.</span><span class="sxs-lookup"><span data-stu-id="9e092-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
 
-<a name="overview"></a><span data-ttu-id="22f44-105">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="22f44-105">Overview</span></span>
---------
+## <a name="overview"></a><span data-ttu-id="9e092-105">Apžvalga</span><span class="sxs-lookup"><span data-stu-id="9e092-105">Overview</span></span>
 
-<span data-ttu-id="22f44-106">Jei vienu metu į darbą priimate kelis darbuotojus, pvz., samdote siekdami patenkinti sezoninę paklausą, naudokite masinės samdos projektą.</span><span class="sxs-lookup"><span data-stu-id="22f44-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="22f44-107">Kurti masinės samdos projektą yra naudinga, nes galite sukurti pareigų, darbuotojo įrašus ir darbuotojų paskyrimą į pareigas tuo pačiu metu.</span><span class="sxs-lookup"><span data-stu-id="22f44-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="22f44-108">Kai kuriate masinės samdos projekto pareigas, galite nurodyti šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="22f44-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
--   <span data-ttu-id="22f44-109">Kurtinų pareigų skaičius</span><span class="sxs-lookup"><span data-stu-id="22f44-109">The number of positions to create</span></span>
--   <span data-ttu-id="22f44-110">Žmonių, kurie bus samdomi šioms pareigoms, darbuotojo tipas</span><span class="sxs-lookup"><span data-stu-id="22f44-110">The worker type of the people that you will hire for the positions</span></span>
--   <span data-ttu-id="22f44-111">Su pareigomis susijęs padalinys ir užduotis</span><span class="sxs-lookup"><span data-stu-id="22f44-111">The department and the job that are associated with the positions</span></span>
--   <span data-ttu-id="22f44-112">Pareigų etato ekvivalento vertė</span><span class="sxs-lookup"><span data-stu-id="22f44-112">The full-time equivalent value of the position</span></span>
+<span data-ttu-id="9e092-106">Jei vienu metu į darbą priimate kelis darbuotojus, pvz., samdote siekdami patenkinti sezoninę paklausą, naudokite masinės samdos projektą.</span><span class="sxs-lookup"><span data-stu-id="9e092-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="9e092-107">Kurti masinės samdos projektą yra naudinga, nes galite sukurti pareigų, darbuotojo įrašus ir darbuotojų paskyrimą į pareigas tuo pačiu metu.</span><span class="sxs-lookup"><span data-stu-id="9e092-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="9e092-108">Kai kuriate masinės samdos projekto pareigas, galite nurodyti šią informaciją:</span><span class="sxs-lookup"><span data-stu-id="9e092-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
 
-## <a name="example"></a><span data-ttu-id="22f44-113">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="22f44-113">Example</span></span>
-<span data-ttu-id="22f44-114">Vasarą paprastai samdote 15–20 kolegijos studentų ne visai darbo dienai galimoms stažuotės vietoms jūsų įmonėje užpildyti.</span><span class="sxs-lookup"><span data-stu-id="22f44-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="22f44-115">Šiais metais norite samdyti penkis buhalterius, penkis užsakymo vykdytojus ir penkis kasininkus.</span><span class="sxs-lookup"><span data-stu-id="22f44-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="22f44-116">Užuot kūrę kiekvieną pozicijos įrašą ir darbuotojo įrašą atskirai, galite sukurti vieną masinės samdos projektą, pavadintą „SummerInterns“.</span><span class="sxs-lookup"><span data-stu-id="22f44-116">Instead of creating each position record and worker record separately, you create one mass hire project called “SummerInterns”.</span></span> <span data-ttu-id="22f44-117">Projekto pradžios ir pabaigos datos koreliuoja su pareigų trukmės pradžios ir pabaigos datomis tų pareigų, kurias sukūrėte masinės samdos projektui.</span><span class="sxs-lookup"><span data-stu-id="22f44-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span> 
+- <span data-ttu-id="9e092-109">Kurtinų pareigų skaičius</span><span class="sxs-lookup"><span data-stu-id="9e092-109">The number of positions to create</span></span>
+- <span data-ttu-id="9e092-110">Žmonių, kurie bus samdomi šioms pareigoms, darbuotojo tipas</span><span class="sxs-lookup"><span data-stu-id="9e092-110">The worker type of the people that you will hire for the positions</span></span>
+- <span data-ttu-id="9e092-111">Su pareigomis susijęs padalinys ir užduotis</span><span class="sxs-lookup"><span data-stu-id="9e092-111">The department and the job that are associated with the positions</span></span>
+- <span data-ttu-id="9e092-112">Pareigų etato ekvivalento vertė</span><span class="sxs-lookup"><span data-stu-id="9e092-112">The full-time equivalent value of the position</span></span>
 
-<span data-ttu-id="22f44-118">Puslapyje **Masinės samdos projektai** pasirinkite „SummerInterns“ projektą, tada spustelėkite **Atidaryti projektą**.</span><span class="sxs-lookup"><span data-stu-id="22f44-118">In the **Mass hire projects** page, select the “SummerInterns” project and then click **Open project**.</span></span> <span data-ttu-id="22f44-119">Dalyje atidaryti masinės samdos projektą spustelėkite **Kurti pareigas** ir įveskite informaciją apie buhalterio pareigas.</span><span class="sxs-lookup"><span data-stu-id="22f44-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="22f44-120">Galite nurodyti, kad turi būti sukurtos penkių buhalterių pareigos, kiekvienai naudojant tą pačią informaciją, ir spustelėti Gerai.</span><span class="sxs-lookup"><span data-stu-id="22f44-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="22f44-121">Pakartokite šį procesą kurdami užsakymo vykdytojo ir kasininko pareigas.</span><span class="sxs-lookup"><span data-stu-id="22f44-121">Repeat this process for the order processor and cashier positions.</span></span> 
+## <a name="example"></a><span data-ttu-id="9e092-113">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="9e092-113">Example</span></span>
 
-<span data-ttu-id="22f44-122">Pasirinkę stažuotės pareigoms samdomus studentus, įveskite kiekvieno studento informaciją į **Pareigų informacija** toms pareigoms, kurioms juos samdote.</span><span class="sxs-lookup"><span data-stu-id="22f44-122">After selecting students to hire for the internship positions, you'll enter each student’s information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="22f44-123">Kai įvesite visų pareigų informaciją, pasirinkite pareigas puslapyje Masinės samdos projektai, tada spustelėkite **Samda**.</span><span class="sxs-lookup"><span data-stu-id="22f44-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="22f44-124">Kiekvienoms pareigoms bus sukurtas pareigų įrašas, o darbuotojo įrašas bus sukurtas ir priskirtas tinkamoms kiekvieno asmens, kurį įdarbinate, pareigoms.</span><span class="sxs-lookup"><span data-stu-id="22f44-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
+<span data-ttu-id="9e092-114">Vasarą paprastai samdote 15–20 kolegijos studentų ne visai darbo dienai galimoms stažuotės vietoms jūsų įmonėje užpildyti.</span><span class="sxs-lookup"><span data-stu-id="9e092-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="9e092-115">Šiais metais norite samdyti penkis buhalterius, penkis užsakymo vykdytojus ir penkis kasininkus.</span><span class="sxs-lookup"><span data-stu-id="9e092-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="9e092-116">Užuot kūrę kiekvieną pozicijos įrašą ir darbuotojo įrašą atskirai, galite sukurti vieną masinės samdos projektą, pavadintą „SummerInterns“.</span><span class="sxs-lookup"><span data-stu-id="9e092-116">Instead of creating each position record and worker record separately, you create one mass hire project called "SummerInterns".</span></span> <span data-ttu-id="9e092-117">Projekto pradžios ir pabaigos datos koreliuoja su pareigų trukmės pradžios ir pabaigos datomis tų pareigų, kurias sukūrėte masinės samdos projektui.</span><span class="sxs-lookup"><span data-stu-id="9e092-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span>
 
-## <a name="mass-hire-project-statuses"></a><span data-ttu-id="22f44-125">Masinės samdos projekto būsenos</span><span class="sxs-lookup"><span data-stu-id="22f44-125">Mass hire project statuses</span></span>
-<span data-ttu-id="22f44-126">Masinės samdos projekto būsena gali būti viena iš toliau nurodytų.</span><span class="sxs-lookup"><span data-stu-id="22f44-126">A mass hire project can have the following statuses.</span></span>
--   <span data-ttu-id="22f44-127">Sukurta</span><span class="sxs-lookup"><span data-stu-id="22f44-127">Created</span></span>
--   <span data-ttu-id="22f44-128">Atidarytas</span><span class="sxs-lookup"><span data-stu-id="22f44-128">Open</span></span>
--   <span data-ttu-id="22f44-129">Uždaryta</span><span class="sxs-lookup"><span data-stu-id="22f44-129">Closed</span></span>
+<span data-ttu-id="9e092-118">Puslapyje **Masinės samdos projektai** pasirinkite „SummerInterns“ projektą, tada spustelėkite **Atidaryti projektą**.</span><span class="sxs-lookup"><span data-stu-id="9e092-118">In the **Mass hire projects** page, select the "SummerInterns" project and then click **Open project**.</span></span> <span data-ttu-id="9e092-119">Dalyje atidaryti masinės samdos projektą spustelėkite **Kurti pareigas** ir įveskite informaciją apie buhalterio pareigas.</span><span class="sxs-lookup"><span data-stu-id="9e092-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="9e092-120">Galite nurodyti, kad turi būti sukurtos penkių buhalterių pareigos, kiekvienai naudojant tą pačią informaciją, ir spustelėti Gerai.</span><span class="sxs-lookup"><span data-stu-id="9e092-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="9e092-121">Pakartokite šį procesą kurdami užsakymo vykdytojo ir kasininko pareigas.</span><span class="sxs-lookup"><span data-stu-id="9e092-121">Repeat this process for the order processor and cashier positions.</span></span>
 
-<span data-ttu-id="22f44-130">Puslapyje **Masinės samdos projektas** spustelėję **Atidaryti projektą** arba **Uždaryti projektą** keiskite masinės samdos projekto būseną.</span><span class="sxs-lookup"><span data-stu-id="22f44-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="22f44-131">Toliau pateiktoje lentelėje aiškinama, ką galima daryti su projektu, atsižvelgiant į jo būseną.</span><span class="sxs-lookup"><span data-stu-id="22f44-131">The following table describes what you can do with a project according to its status.</span></span>
+<span data-ttu-id="9e092-122">Pasirinkę stažuotės pareigoms samdomus studentus, įveskite kiekvieno studento informaciją į **Pareigų informacija** toms pareigoms, kurioms juos samdote.</span><span class="sxs-lookup"><span data-stu-id="9e092-122">After selecting students to hire for the internship positions, you'll enter each student's information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="9e092-123">Kai įvesite visų pareigų informaciją, pasirinkite pareigas puslapyje Masinės samdos projektai, tada spustelėkite **Samda**.</span><span class="sxs-lookup"><span data-stu-id="9e092-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="9e092-124">Kiekvienoms pareigoms bus sukurtas pareigų įrašas, o darbuotojo įrašas bus sukurtas ir priskirtas tinkamoms kiekvieno asmens, kurį įdarbinate, pareigoms.</span><span class="sxs-lookup"><span data-stu-id="9e092-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
+
+## <a name="mass-hire-project-statuses"></a><span data-ttu-id="9e092-125">Masinės samdos projekto būsenos</span><span class="sxs-lookup"><span data-stu-id="9e092-125">Mass hire project statuses</span></span>
+
+<span data-ttu-id="9e092-126">Masinės samdos projekto būsena gali būti viena iš toliau nurodytų.</span><span class="sxs-lookup"><span data-stu-id="9e092-126">A mass hire project can have the following statuses.</span></span>
+
+- <span data-ttu-id="9e092-127">Sukurta</span><span class="sxs-lookup"><span data-stu-id="9e092-127">Created</span></span>
+- <span data-ttu-id="9e092-128">Atidarytas</span><span class="sxs-lookup"><span data-stu-id="9e092-128">Open</span></span>
+- <span data-ttu-id="9e092-129">Uždaryta</span><span class="sxs-lookup"><span data-stu-id="9e092-129">Closed</span></span>
+
+<span data-ttu-id="9e092-130">Puslapyje **Masinės samdos projektas** spustelėję **Atidaryti projektą** arba **Uždaryti projektą** keiskite masinės samdos projekto būseną.</span><span class="sxs-lookup"><span data-stu-id="9e092-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="9e092-131">Toliau pateiktoje lentelėje aiškinama, ką galima daryti su projektu, atsižvelgiant į jo būseną.</span><span class="sxs-lookup"><span data-stu-id="9e092-131">The following table describes what you can do with a project according to its status.</span></span>
 
 <table>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="22f44-132">Būsena</span><span class="sxs-lookup"><span data-stu-id="22f44-132">Status</span></span></th>
-<th><span data-ttu-id="22f44-133">Prekės/Paslaugos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="22f44-133">Description</span></span></th>
+<tr>
+<th><span data-ttu-id="9e092-132">Būsena</span><span class="sxs-lookup"><span data-stu-id="9e092-132">Status</span></span></th>
+<th><span data-ttu-id="9e092-133">Prekės/Paslaugos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="9e092-133">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="22f44-134">Sukurta</span><span class="sxs-lookup"><span data-stu-id="22f44-134">Created</span></span></td>
-<td><span data-ttu-id="22f44-135">Galima kurti ir modifikuoti informaciją, bet negalima kurti naujų projekto pareigų.</span><span class="sxs-lookup"><span data-stu-id="22f44-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="22f44-136">Tai – numatytoji naujų projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="22f44-136">This is the default status for new projects.</span></span></td>
+<tr>
+<td><span data-ttu-id="9e092-134">Sukurta</span><span class="sxs-lookup"><span data-stu-id="9e092-134">Created</span></span></td>
+<td><span data-ttu-id="9e092-135">Galima kurti ir modifikuoti informaciją, bet negalima kurti naujų projekto pareigų.</span><span class="sxs-lookup"><span data-stu-id="9e092-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="9e092-136">Tai – numatytoji naujų projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="9e092-136">This is the default status for new projects.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="22f44-137">Atidarytas</span><span class="sxs-lookup"><span data-stu-id="22f44-137">Open</span></span></td>
-<td><span data-ttu-id="22f44-138">Galite modifikuoti projekto informaciją, kurti masinės samdos projekto pareigas ir pareigoms samdyti žmones.</span><span class="sxs-lookup"><span data-stu-id="22f44-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="22f44-139">Tai – aktyvių projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="22f44-139">This is the status for active projects.</span></span></td>
+<tr>
+<td><span data-ttu-id="9e092-137">Atidarytas</span><span class="sxs-lookup"><span data-stu-id="9e092-137">Open</span></span></td>
+<td><span data-ttu-id="9e092-138">Galite modifikuoti projekto informaciją, kurti masinės samdos projekto pareigas ir pareigoms samdyti žmones.</span><span class="sxs-lookup"><span data-stu-id="9e092-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="9e092-139">Tai – aktyvių projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="9e092-139">This is the status for active projects.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="22f44-140">Uždaryta</span><span class="sxs-lookup"><span data-stu-id="22f44-140">Closed</span></span></td>
-<td><span data-ttu-id="22f44-141">Pareigų įtraukti į projektą negalite.</span><span class="sxs-lookup"><span data-stu-id="22f44-141">You cannot add positions to the project.</span></span> <span data-ttu-id="22f44-142">Norėdami į masinės samdos projektą įtraukti pareigų, dar kartą atidarykite projektą.</span><span class="sxs-lookup"><span data-stu-id="22f44-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="22f44-143">Tai – baigtų projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="22f44-143">This is the status for completed projects.</span></span>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="22f44-144"><strong>Pastaba. </strong></span><span class="sxs-lookup"><span data-stu-id="22f44-144"><strong>Note</strong></span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span data-ttu-id="22f44-145">Norint uždaryti masinės samdos projektą, visų projekto pareigų būsena turi būti Sukurta arba Uždaryta.</span><span class="sxs-lookup"><span data-stu-id="22f44-145">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></td>
+<tr>
+<td><span data-ttu-id="9e092-140">Uždaryta</span><span class="sxs-lookup"><span data-stu-id="9e092-140">Closed</span></span></td>
+<td><span data-ttu-id="9e092-141">Pareigų įtraukti į projektą negalite.</span><span class="sxs-lookup"><span data-stu-id="9e092-141">You cannot add positions to the project.</span></span> <span data-ttu-id="9e092-142">Norėdami į masinės samdos projektą įtraukti pareigų, dar kartą atidarykite projektą.</span><span class="sxs-lookup"><span data-stu-id="9e092-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="9e092-143">Tai – baigtų projektų būsena.</span><span class="sxs-lookup"><span data-stu-id="9e092-143">This is the status for completed projects.</span></span>
+<blockquote>[!NOTE] <span data-ttu-id="9e092-144">Norint uždaryti masinės samdos projektą, visų projekto pareigų būsena turi būti Sukurta arba Uždaryta.</span><span class="sxs-lookup"><span data-stu-id="9e092-144">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></blockquote>
+</td>
 </tr>
 </tbody>
 </table>
-</div></td>
-</tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
 
