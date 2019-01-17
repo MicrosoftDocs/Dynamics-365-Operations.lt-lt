@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,104 +29,87 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose.  Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics AX“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
+Šioje temoje išvardijami užduočių vedliai, kurie nuo 2016 m. vasario mėn. buvo išleisti „Microsoft“ BPM bibliotekose. Publikuotos bibliotekos apima APQC bendrąją biblioteką (2016 m. vasario mėn.), skirtą „Microsoft Dynamics AX“, ir biblioteką Darbo pradžia (2016 m. vasario mėn.).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. vasario mėn.), skirti „Microsoft Dynamics AX“
----------------------------------------------------------------------------------
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. vasario mėn.), skirti „Microsoft Dynamics AX“
 
 APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, kurie skirti teikti pagalbą, susijusią su 7.0.0 „Dynamics AX“ leidimu. Jei jums reikia lokalizuotų šių užduočių vedlių versijų, juos galite rasti APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.), skirtoje „Microsoft Dynamics AX“. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Darbo su žinynu pradžia](help-overview.md).
 
 ### <a name="accounts-payable"></a>Mokėtinos sumos
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM eilutė**                                              | **Šalis / regionas** |
-| Pagrindiniai SF duomenys AP sistemoje naudojant tiekėjo SF        | Visuotinai             |
-| Pagrindiniai SF duomenys AP sistemoje naudojant SF žurnalą     | Visuotinai             |
-| Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį        | Visuotinai             |
-| Pagrindiniai SF duomenys AP sistemoje naudojant SF registrą    | Visuotinai             |
-| Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu | Visuotinai             |
-| Nustatyti mokėtinų sumų SF gretinimo tikrinimą       | Visuotinai             |
-| Nustatyti tiekėjų SF strategijas                            | Visuotinai             |
+| BPM eilutė                                                  | Šalis/regionas |
+|-----------------------------------------------------------|----------------|
+| Pagrindiniai SF duomenys AP sistemoje naudojant tiekėjo SF        | Bendra         |
+| Pagrindiniai SF duomenys AP sistemoje naudojant SF žurnalą     | Visuotinai         |
+| Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį        | Visuotinai         |
+| Pagrindiniai SF duomenys AP sistemoje naudojant SF registrą    | Visuotinai         |
+| Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu | Visuotinai         |
+| Nustatyti mokėtinų sumų SF gretinimo tikrinimą       | Visuotinai         |
+| Nustatyti tiekėjų SF strategijas                            | Bendra         |
 
-
- 
 ### <a name="accounts-receivable"></a>Gautinos sumos
 
-|                                                             |                    |
-|-------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                | **Šalis / regionas** |
-| Priskirti pasikartojančios laisvos formos SF šabloną klientui | Visuotinai             |
-| Kurti priminimo laiškų seką                         | Visuotinai             |
-| Kurti kliento tiesioginio debeto įgaliojimą                | Visuotinai             |
-| Kurti laisvos formos SF šabloną                         | Visuotinai             |
-| Kurti kliento nurašymo žurnalą                   | Visuotinai             |
-| Kurti palūkanų kodą su intervalu                        | Visuotinai             |
-| Kurti ir apdoroti laisvos formos SF                       | Visuotinai             |
-| Kurti pardavimo užsakymo SF                                 | Visuotinai             |
-| Generuoti ir registruoti pasikartojančias laisvos formos SF              | Visuotinai             |
-| Apdoroti priminimo laiškus                                  | Visuotinai             |
-| Palūkanų apdorojimas                                            | Visuotinai             |
-| Peržiūrėti mokėjimų priežiūros informaciją                              | Visuotinai             |
-| Nustatyti ir generuoti gautinų sumų skirstymo pagal terminus informaciją   | Visuotinai             |
+| BPM eilutė                                                    | Šalis/regionas |
+|-------------------------------------------------------------|----------------|
+| Priskirti pasikartojančios laisvos formos SF šabloną klientui | Visuotinai         |
+| Kurti priminimo laiškų seką                         | Visuotinai         |
+| Kurti kliento tiesioginio debeto įgaliojimą                | Visuotinai         |
+| Kurti laisvos formos SF šabloną                         | Visuotinai         |
+| Kurti kliento nurašymo žurnalą                   | Visuotinai         |
+| Kurti palūkanų kodą su intervalu                        | Visuotinai         |
+| Kurti ir apdoroti laisvos formos SF                       | Visuotinai         |
+| Kurti pardavimo užsakymo SF                                 | Visuotinai         |
+| Generuoti ir registruoti pasikartojančias laisvos formos SF              | Visuotinai         |
+| Apdoroti priminimo laiškus                                  | Visuotinai         |
+| Palūkanų apdorojimas                                            | Visuotinai         |
+| Peržiūrėti mokėjimų priežiūros informaciją                              | Visuotinai         |
+| Gautinų sumų skirstymo pagal terminus informacijos nustatymas ir generavimas   | Bendra         |
 
-
- 
 ### <a name="cash-and-bank-management"></a>Grynųjų pinigų ir banko valdymas
 
-|                                                                      |                    |
-|----------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                         | **Šalis / regionas** |
-| Kurti akredityvo banko priemonės sutartį                | Visuotinai             |
-| Kurti garantinio rašto banko priemonės sutartį             | Visuotinai             |
-| Kliento mokėjimų peržiūra                                           | Visuotinai             |
-| Apibrėžti tiekėjo mokėjimo mokesčius                                           | Visuotinai             |
-| Apibrėžti tiekėjo mokėjimo sąlygas                                          | Visuotinai             |
-| Deponuoti kliento mokėjimus                                            | Visuotinai             |
-| Nustatyti mokėjimo klientams būdą                                 | Visuotinai             |
-| Kurti kliento mokėjimo mokesčius                                      | Visuotinai             |
-| Kurti kliento mokėjimo sąlygas                                     | Visuotinai             |
-| Eksportuoti akredityvą                                              | Visuotinai             |
-| Importuoti akredityvą                                              | Visuotinai             |
-| Garantinio rašto operacija                                      | Visuotinai             |
-| Registruoti kliento vėlesnį čekį                   | Visuotinai             |
-| Vėlesnio tiekėjo čekio užregistravimas                     | Visuotinai             |
-| Nustatyti akredityvo banko priemones ir registravimo šablonus     | Visuotinai             |
-| Nustatyti garantinio rašto banko priemones ir registravimo šablonus | Visuotinai             |
-| Vėlesnių čekių nustatymas                                              | Visuotinai             |
-| Vėlesnio tiekėjo čekio sudengimas                                | Visuotinai             |
-| Vėlesnio čekio iš kliento sudengimas                             | Visuotinai             |
-| Tiekėjo mokėjimų peržiūra                                              | Visuotinai             |
+| BPM eilutė                                                             | Šalis/regionas |
+|----------------------------------------------------------------------|----------------|
+| Kurti akredityvo banko priemonės sutartį                | Visuotinai         |
+| Kurti garantinio rašto banko priemonės sutartį             | Visuotinai         |
+| Kliento mokėjimų peržiūra                                           | Visuotinai         |
+| Apibrėžti tiekėjo mokėjimo mokesčius                                           | Visuotinai         |
+| Apibrėžti tiekėjo mokėjimo sąlygas                                          | Visuotinai         |
+| Deponuoti kliento mokėjimus                                            | Visuotinai         |
+| Nustatyti mokėjimo klientams būdą                                 | Visuotinai         |
+| Kurti kliento mokėjimo mokesčius                                      | Visuotinai         |
+| Kurti kliento mokėjimo sąlygas                                     | Visuotinai         |
+| Eksportuoti akredityvą                                              | Visuotinai         |
+| Importuoti akredityvą                                              | Visuotinai         |
+| Garantinio rašto operacija                                      | Visuotinai         |
+| Registruoti kliento vėlesnį čekį                   | Visuotinai         |
+| Vėlesnio tiekėjo čekio užregistravimas                     | Visuotinai         |
+| Nustatyti akredityvo banko priemones ir registravimo šablonus     | Visuotinai         |
+| Nustatyti garantinio rašto banko priemones ir registravimo šablonus | Visuotinai         |
+| Vėlesnių čekių nustatymas                                              | Visuotinai         |
+| Vėlesnio tiekėjo čekio sudengimas                                | Visuotinai         |
+| Vėlesnio čekio iš kliento sudengimas                             | Bendra         |
+| Tiekėjo mokėjimų apžvalga                                              | Bendra         |
 
-
- 
 ### <a name="compliance"></a>Atitikimas
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM eilutė**                               | **Šalis / regionas** |
-| Apibrėžti šaltinio dokumento audito strategijas | Visuotinai             |
+| BPM eilutė                                   | Šalis/regionas |
+|--------------------------------------------|----------------|
+| Šaltinio dokumentų audito strategijų apibrėžimas | Bendra         |
 
-
- 
 ### <a name="cost-management"></a>Kaštų valdymas
 
-|                                                                     |                    |
-|---------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                        | **Šalis / regionas** |
-| Palyginti gamybos užsakymo aktyvias, įvertintas ir realizuotas išlaidas | Visuotinai             |
-| Peržiūrėti išlaidų objekto išlaidų įrašus                                 | Visuotinai             |
-| Peržiūrėti išlaidų objekto balansą                                            | Visuotinai             |
-| Peržiūrėti gamybos užsakymo dabartinę NG būseną                       | Visuotinai             |
-| Peržiūrėti atsargų išrašą ir KPI pagal išlaidų objektą                     | Visuotinai             |
+| BPM eilutė                                                            | Šalis/regionas |
+|---------------------------------------------------------------------|----------------|
+| Gamybos užsakymo aktyvių, įvertintų ir realizuotų išlaidų palyginimas | Visuotinai         |
+| Peržiūrėti išlaidų objekto išlaidų įrašus                                 | Visuotinai         |
+| Peržiūrėti išlaidų objekto balansą                                            | Visuotinai         |
+| Peržiūrėti gamybos užsakymo dabartinę NG būseną                       | Visuotinai         |
+| Atsargų išrašo ir KPI peržiūra pagal savikainos objektą                     | Bendra         |
 
+### <a name="countryregion-functionality"></a>Konkrečioms šalims / regionams skirtos funkcijos
 
- 
-### <a name="countryregion-functionality"></a>Šaliai / regionui būdingos funkcijos
-
-|                                                                                                        |                                 |
+| BPM eilutė                                                                                               | Šalis/regionas                  |
 |--------------------------------------------------------------------------------------------------------|---------------------------------|
-| **BPM eilutė**                                                                                           | **Šalis / regionas**              |
 | Įtraukti BAS ataskaitos langus ir generuoti Australijos verslo veiklos išrašą (BAS)                        | Australija ir Naujoji Zelandija       |
 | Nustatyti Australijos BAS priežasčių kodus                                                                  | Australija ir Naujoji Zelandija       |
 | Priskirti mokėjimo kvito formatą kliento sąskaitai                                                     | Danija                         |
@@ -262,472 +245,406 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | GB-00009 Sudengimo nuolaidos kredito pažymos sukūrimas                                               | Jungtinė Karalystė                  |
 | GB-00009 Skubaus mokėjimo nuolaidos kredito pažymos parametrų nustatymas                                   | Jungtinė Karalystė                  |
 
-
- 
 ### <a name="develop-vision-and-strategy"></a>Kurti viziją ir strategiją
 
-|                                                                                          |                    |
-|------------------------------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                                             | **Šalis / regionas** |
-| Analizuoti klausimyno rezultatus                                                            | Visuotinai             |
-| Kurti uždarą klausimą                                                           | Visuotinai             |
-| Kurti atvirą klausimą                                                            | Visuotinai             |
-| Sukurti klausimą pagal atsakymą į ankstesnį klausimą (sąlyginiai klausimai) | Visuotinai             |
-| KLausimyno vertinimas pagal procentus                                                   | Visuotinai             |
+| BPM eilutė                                                                                 | Šalis/regionas |
+|------------------------------------------------------------------------------------------|----------------|
+| Klausimyno rezultatų analizavimas                                                            | Bendra         |
+| Kurti uždarą klausimą                                                           | Visuotinai         |
+| Kurti atvirą klausimą                                                            | Visuotinai         |
+| Sukurti klausimą pagal atsakymą į ankstesnį klausimą (sąlyginiai klausimai) | Visuotinai         |
+| KLausimyno vertinimas pagal procentus                                                   | Bendra         |
 
+### <a name="electronic-reporting"></a>Elektroninės ataskaitos
 
- 
-### <a name="electronic-reporting"></a>Elektroninė ataskaita
+| BPM eilutė                                        | Šalis/regionas |
+|-------------------------------------------------|----------------|
+| ER modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas | Bendra         |
+| ER konkretaus domeno duomenų modelio kūrimas            | Visuotinai         |
+| ER konkretaus domeno formato kūrimas                | Visuotinai         |
+| ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais      | Bendra         |
+| ER paslaugų teikėjo pasirinkimas                      | Bendra         |
 
-|                                                 |                    |
-|-------------------------------------------------|--------------------|
-| **BPM eilutė**                                    | **Šalis / regionas** |
-| ER modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas | Visuotinai             |
-| ER konkretaus domeno duomenų modelio kūrimas            | Visuotinai             |
-| ER konkretaus domeno formato kūrimas                | Visuotinai             |
-| ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais      | Visuotinai             |
-| ER paslaugų teikėjo pasirinkimas                      | Visuotinai             |
-
-
- 
 ### <a name="expense-management"></a>Išlaidų valdymas
 
-|                              |                    |
-|------------------------------|--------------------|
-| **BPM eilutė**                 | **Šalis / regionas** |
-| Konfigūruoti išlaidų valdymą | Visuotinai             |
+| BPM eilutė                     | Šalis/regionas |
+|------------------------------|----------------|
+| Konfigūruoti išlaidų valdymą | Bendra         |
 
-
- 
 ### <a name="fixed-assets"></a>Ilgalaikis turtas
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM eilutė**                                              | **Šalis / regionas** |
-| Keleto ilgalaikio turto vienetų nusidėvėjimo konvencijų keitimas | Visuotinai             |
-| Ilgalaikio turto kūrimas                                      | Visuotinai             |
-| Kurti ir įsigyti turtą iš mokėtinų sumų           | Visuotinai             |
-| Kurti nusidėvėjimo pasiūlymą                              | Visuotinai             |
-| Likviduoti ilgalaikį turtą naudojant laisvos formos SF        | Visuotinai             |
-| Ilgalaikio turto priedo įvedimas                        | Visuotinai             |
-| Ilgalaikio turto įsigijimo pasiūlymas                          | Visuotinai             |
-| Nustatyti ir kurti nusidėvėjimo šablonus                   | Visuotinai             |
-| Papildomo nusidėvėjimo nustatymas                                 | Visuotinai             |
-| Nustatyti nusidėvėjimo knygas                                 | Visuotinai             |
-| Nustatyti ilgalaikio turto grupes                                 | Visuotinai             |
-| Ilgalaikio turto registravimo šablonų nustatymas                       | Visuotinai             |
-| Vertinimo modelių nustatymas                                       | Visuotinai             |
-| Skaidyti ilgalaikį turtą                                       | Visuotinai             |
-| Perkelti ilgalaikį turtą                                    | Visuotinai             |
+| BPM eilutė                                                  | Šalis/regionas |
+|-----------------------------------------------------------|----------------|
+| Keleto ilgalaikio turto vienetų nusidėvėjimo konvencijų keitimas | Visuotinai         |
+| Ilgalaikio turto kūrimas                                      | Visuotinai         |
+| Kurti ir įsigyti turtą iš mokėtinų sumų           | Visuotinai         |
+| Kurti nusidėvėjimo pasiūlymą                              | Visuotinai         |
+| Likviduoti ilgalaikį turtą naudojant laisvos formos SF        | Visuotinai         |
+| Ilgalaikio turto priedo įvedimas                        | Visuotinai         |
+| Ilgalaikio turto įsigijimo pasiūlymas                          | Visuotinai         |
+| Nustatyti ir kurti nusidėvėjimo šablonus                   | Visuotinai         |
+| Papildomo nusidėvėjimo nustatymas                                 | Visuotinai         |
+| Nustatyti nusidėvėjimo knygas                                 | Visuotinai         |
+| Nustatyti ilgalaikio turto grupes                                 | Visuotinai         |
+| Ilgalaikio turto registravimo šablonų nustatymas                       | Visuotinai         |
+| Vertinimo modelių nustatymas                                       | Visuotinai         |
+| Ilgalaikio turto skaidymas                                       | Bendra         |
+| Ilgalaikio turto perkėlimas                                    | Bendra         |
 
-
- 
 ### <a name="general-ledger"></a>DK
 
-|                                                                   |                    |
-|-------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                      | **Šalis / regionas** |
-| Uždaryti finansinius metus                                             | Visuotinai             |
-| Kurti žurnalo įrašą naudojant šabloną                           | Visuotinai             |
-| Kurti pagrindinę sąskaitą                                             | Visuotinai             |
-| Kurti sąskaitų struktūras                                         | Visuotinai             |
-| Kurti kaupimo schemą                                            | Visuotinai             |
-| Kurti papildomas žurnalų taisykles                                | Visuotinai             |
-| Kurti ir priskirti išplėstinės taisyklės struktūras                        | Visuotinai             |
-| Kurti ir patvirtinti žurnalus                                      | Visuotinai             |
-| Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas | Visuotinai             |
-| DK kaupimo operacijų kūrimas                                | Visuotinai             |
-| Apibrėžti finansines dimensijas                                       | Visuotinai             |
-| Į žurnalą įtraukti užregistruotus žurnalo įrašus                                 | Visuotinai             |
-| Prižiūrėti finansinės dimensijos numatytuosius šablonus                    | Visuotinai             |
-| Masinis finansinio laikotarpio uždarymas                                       | Visuotinai             |
-| Konsolidavimo vykdymas tinkle                                   | Visuotinai             |
-| Registruoti periodinius žurnalus                                            | Visuotinai             |
-| Paruošti juridinį subjektą konsolidavimui       | Visuotinai             |
-| Apdoroti pašalinimo operacijas                                  | Visuotinai             |
-| Apdoroti DK paskirstymo žurnalą                                 | Visuotinai             |
-| DK sąskaitų pseudonimų nustatymas                                     | Visuotinai             |
-| Nustatyti pašalinimo taisykles                                          | Visuotinai             |
-| Pagrindinės sąskaitos kategorijų nustatymas                                    | Visuotinai             |
-| DK sąskaitų operacijų sudengimas                       | Visuotinai             |
-| Peržiūrėti žurnalo įrašus ar operacijas                              | Visuotinai             |
-| Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo                    | Visuotinai             |
+| BPM eilutė                                                          | Šalis/regionas |
+|-------------------------------------------------------------------|----------------|
+| Finansinių metų uždarymas                                             | Bendra         |
+| Kurti žurnalo įrašą naudojant šabloną                           | Visuotinai         |
+| Kurti pagrindinę sąskaitą                                             | Visuotinai         |
+| Kurti sąskaitų struktūras                                         | Visuotinai         |
+| Kurti kaupimo schemą                                            | Visuotinai         |
+| Kurti papildomas žurnalų taisykles                                | Visuotinai         |
+| Kurti ir priskirti išplėstinės taisyklės struktūras                        | Visuotinai         |
+| Kurti ir patvirtinti žurnalus                                      | Visuotinai         |
+| Konsolidavimo grupių ir papildomų konsolidavimo sąskaitų kūrimas | Visuotinai         |
+| DK kaupimo operacijų kūrimas                                | Visuotinai         |
+| Apibrėžti finansines dimensijas                                       | Visuotinai         |
+| Į žurnalą įtraukti užregistruotus žurnalo įrašus                                 | Visuotinai         |
+| Prižiūrėti finansinės dimensijos numatytuosius šablonus                    | Visuotinai         |
+| Masinis finansinio laikotarpio uždarymas                                       | Visuotinai         |
+| Konsolidavimo vykdymas tinkle                                   | Visuotinai         |
+| Registruoti periodinius žurnalus                                            | Visuotinai         |
+| Paruošti juridinį subjektą konsolidavimui       | Visuotinai         |
+| Apdoroti pašalinimo operacijas                                  | Visuotinai         |
+| Apdoroti DK paskirstymo žurnalą                                 | Visuotinai         |
+| DK sąskaitų pseudonimų nustatymas                                     | Visuotinai         |
+| Nustatyti pašalinimo taisykles                                          | Visuotinai         |
+| Pagrindinės sąskaitos kategorijų nustatymas                                    | Visuotinai         |
+| DK sąskaitų operacijų sudengimas                       | Visuotinai         |
+| Peržiūrėti žurnalo įrašus ar operacijas                              | Visuotinai         |
+| Peržiūrėti susijusį vidinės įmonės kvitą iš žurnalo                    | Bendra         |
 
-
- 
 ### <a name="human-capital-management"></a>Žmogiškojo kapitalo valdymas
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                     | **Šalis / regionas** |
-| Analizuoti klausimyno rezultatus                                    | Visuotinai             |
-| Tvirtinti gautų prašymų įrašus                                | Visuotinai             |
-| Išmokų tinkamumo procesas                                      | Visuotinai             |
-| Masinio samdos projekto kūrimas                                       | Visuotinai             |
-| Kurti panaudos objektus                                                | Visuotinai             |
-| Apibrėžti išmokų tinkamumo taisykles ir strategijas                    | Visuotinai             |
-| Apibrėžti kompensavimo procesą ir apskaičiuoti rezultatus                | Visuotinai             |
-| Apibrėžti naujus padalinius                                           | Visuotinai             |
-| Apibrėžti naujas užduotis                                                  | Visuotinai             |
-| Teikti darbuotojų išmokų programą                                | Visuotinai             |
-| Kurti ir atidaryti darbo paraiškas                                 | Visuotinai             |
-| Kurti tęstinumo planą                                          | Visuotinai             |
-| Įdarbinimo i9 tikrinimas                          | Visuotinai             |
-| Užregistruoti ir pašalinti išmokas darbuotojui                          | Visuotinai             |
-| Įtraukti darbuotojus į pastoviosios atlyginimo dalies planą                    | Visuotinai             |
-| Įtraukti darbuotojus į kintamosios atlyginimo dalies planą                 | Visuotinai             |
-| Įvesti pretendento ir prašymo duomenis neautomatiškai                    | Visuotinai             |
-| Įvesti darbuotojo informaciją                                         | Visuotinai             |
-| Samdyti esamą pretendentą naudojant įdarbinimo funkciją                    | Visuotinai             |
-| Samdyti pretendentą naudojant įdarbinimo funkciją                                | Visuotinai             |
-| Samdyti kelis darbuotojus                                          | Visuotinai             |
-| Nustatyti ir sukurti pretendentų atrankos priemones                    | Visuotinai             |
-| Skolinti prekę darbuotojui                                            | Visuotinai             |
-| Tvarkyti darbuotojo sužeidimų ir ligų informaciją                 | Visuotinai             |
-| Sukurti klausimą pagal atsakymą į ankstesnį klausimą | Visuotinai             |
-| Valdyti išmokų galiojimo datas                                  | Visuotinai             |
-| Valdyti el. laiškų šablonus                                           | Visuotinai             |
-| Valdyti darbuotojų perėjimus ir perkėlimus                        | Visuotinai             |
-| Valdyti atostogų laiką                                          | Visuotinai             |
-| Valdyti darbuotojų apgyvendinimą                                     | Visuotinai             |
-| Modifikuoti pareigų ataskaitų ryšius                    | Visuotinai             |
-| Nustatyti kompensacijos tinklelius                                        | Visuotinai             |
-| Nustatyti sužeidimų ir ligų informaciją                            | Visuotinai             |
-| Nustatyti sužeidimų ir ligų informaciją                            | Visuotinai             |
-| Išmokų tinkamumo strategijų nustatymas                             | Visuotinai             |
-| I9 dokumento tipų nustatymas                                     | Visuotinai             |
+| BPM eilutė                                                         | Šalis/regionas |
+|------------------------------------------------------------------|----------------|
+| Klausimyno rezultatų analizavimas                                    | Bendra         |
+| Gautų prašymų įrašų tvirtinimas                                | Visuotinai         |
+| Išmokų tinkamumo procesas                                      | Visuotinai         |
+| Masinio samdos projekto kūrimas                                       | Visuotinai         |
+| Kurti panaudos objektus                                                | Visuotinai         |
+| Apibrėžti išmokų tinkamumo taisykles ir strategijas                    | Visuotinai         |
+| Apibrėžti kompensavimo procesą ir apskaičiuoti rezultatus                | Visuotinai         |
+| Apibrėžti naujus padalinius                                           | Visuotinai         |
+| Apibrėžti naujas užduotis                                                  | Visuotinai         |
+| Teikti darbuotojų išmokų programą                                | Visuotinai         |
+| Kurti ir atidaryti darbo paraiškas                                 | Visuotinai         |
+| Kurti tęstinumo planą                                          | Visuotinai         |
+| Įdarbinimo i9 tikrinimas                          | Visuotinai         |
+| Užregistruoti ir pašalinti išmokas darbuotojui                          | Visuotinai         |
+| Įtraukti darbuotojus į pastoviosios atlyginimo dalies planą                    | Visuotinai         |
+| Įtraukti darbuotojus į kintamosios atlyginimo dalies planą                 | Visuotinai         |
+| Įvesti pretendento ir prašymo duomenis neautomatiškai                    | Visuotinai         |
+| Įvesti darbuotojo informaciją                                         | Visuotinai         |
+| Samdyti esamą pretendentą naudojant įdarbinimo funkciją                    | Visuotinai         |
+| Samdyti pretendentą naudojant įdarbinimo funkciją                                | Visuotinai         |
+| Samdyti kelis darbuotojus                                          | Visuotinai         |
+| Nustatyti ir sukurti pretendentų atrankos priemones                    | Visuotinai         |
+| Skolinti prekę darbuotojui                                            | Visuotinai         |
+| Tvarkyti darbuotojo sužeidimų ir ligų informaciją                 | Visuotinai         |
+| Sukurti klausimą pagal atsakymą į ankstesnį klausimą | Visuotinai         |
+| Valdyti išmokų galiojimo datas                                  | Visuotinai         |
+| Valdyti el. laiškų šablonus                                           | Visuotinai         |
+| Valdyti darbuotojų perėjimus ir perkėlimus                        | Visuotinai         |
+| Valdyti atostogų laiką                                          | Visuotinai         |
+| Valdyti darbuotojų apgyvendinimą                                     | Visuotinai         |
+| Modifikuoti pareigų ataskaitų ryšius                    | Visuotinai         |
+| Nustatyti kompensacijos tinklelius                                        | Visuotinai         |
+| Nustatyti sužeidimų ir ligų informaciją                            | Visuotinai         |
+| Nustatyti sužeidimų ir ligų informaciją                            | Visuotinai         |
+| Išmokų tinkamumo strategijų nustatymas                             | Visuotinai         |
+| I9 dokumento tipų nustatymas                                     | Bendra         |
 
-
- 
 ### <a name="inventory-management"></a>Atsargų valdymas
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                                      | **Šalis / regionas** |
-| Koreguoti atsargų lygius sandėlyje                                              | Visuotinai             |
-| Tikrinti turimas atsargas                                                   | Visuotinai             |
-| Taisyti atsargų sekimo informaciją                                            | Visuotinai             |
-| Skaičiuoti sandėlio atsargas                                                    | Visuotinai             |
-| Kurti naują sandėlio maketą                                                     | Visuotinai             |
-| Kurti ir tvarkyti atsargų blokavimą                                         | Visuotinai             |
-| Kurti ir apdoroti neatitiktis                                              | Visuotinai             |
-| Apibrėžti atsargų skaičiavimo procesus                                               | Visuotinai             |
-| Inicijuoti atsargų lygius sandėlyje                                          | Visuotinai             |
-| Tikrinti prekių kokybę                                                      | Visuotinai             |
-| Prižiūrėti brūkšninių kodų tipus                                                            | Visuotinai             |
-| Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą | Visuotinai             |
-| Nustatyti gavimo apžvalgos šablonus                                                  | Visuotinai             |
-| Nustatyti kokybės užsakymus                                                             | Visuotinai             |
-| Prekės arba žaliavos sekimas                                                     | Visuotinai             |
-| Perkelti faktines atsargas sandėlyje                                  | Visuotinai             |
+| BPM eilutė                                                                          | Šalis/regionas |
+|-----------------------------------------------------------------------------------|----------------|
+| Koreguoti atsargų lygius sandėlyje                                              | Bendra         |
+| Turimų atsargų tikrinimas                                                   | Visuotinai         |
+| Taisyti atsargų sekimo informaciją                                            | Visuotinai         |
+| Skaičiuoti sandėlio atsargas                                                    | Visuotinai         |
+| Kurti naują sandėlio maketą                                                     | Visuotinai         |
+| Kurti ir tvarkyti atsargų blokavimą                                         | Visuotinai         |
+| Kurti ir apdoroti neatitiktis                                              | Visuotinai         |
+| Apibrėžti atsargų skaičiavimo procesus                                               | Visuotinai         |
+| Inicijuoti atsargų lygius sandėlyje                                          | Visuotinai         |
+| Tikrinti prekių kokybę                                                      | Visuotinai         |
+| Prižiūrėti brūkšninių kodų tipus                                                            | Visuotinai         |
+| Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą | Visuotinai         |
+| Nustatyti gavimo apžvalgos šablonus                                                  | Visuotinai         |
+| Nustatyti kokybės užsakymus                                                             | Visuotinai         |
+| Prekės arba žaliavos sekimas                                                     | Visuotinai         |
+| Faktinių atsargų perkėlimas sandėlyje                                  | Bendra         |
 
-
- 
 ### <a name="manufacturing"></a>Gamyba
 
-|                                                               |                    |
-|---------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                  | **Šalis / regionas** |
-| Į „kanban“ taisyklę įtraukti „kanban“ kiekio skaičiavimo strategiją     | Visuotinai             |
-| Paketinio užsakymo ciklas nuo sukūrimo iki apdorojimo                    | Visuotinai             |
-| Skaičiuoti „Kanban“ kiekio pasiūlymus                         | Visuotinai             |
-| Keisti apdorojimo užduoties „Kanban“ taisykles                         | Visuotinai             |
-| Konfigūruoti darbuotoją naudojant mobilųjį užduoties įrenginį                | Visuotinai             |
-| Kopijuoti formulę                                                | Visuotinai             |
-| Kurti formulę kopijuojant iš esamos formulės          | Visuotinai             |
-| Gamybos eigos versijos kūrimas                              | Visuotinai             |
-| Kurti gamybos užsakymą                                     | Visuotinai             |
-| Pardavimo įvykio „Kanban“ taisyklės kūrimas                              | Visuotinai             |
-| Kurti vertės srautą                                         | Visuotinai             |
-| Veiklos ryšio kūrimas: vėlesnė veikla                           | Visuotinai             |
-| Kurti operacijų išteklių                                 | Visuotinai             |
-| Kurti fiksuoto kiekio „kanban“ taisykles                            | Visuotinai             |
-| Kurti naujas „Kanban“ taisykles dubliuojant esamas „Kanban“ taisykles  | Visuotinai             |
-| Kurti „lean manufacturing“ proceso veiklas              | Visuotinai             |
-| Išteklių pajėgumų kūrimas                                  | Visuotinai             |
-| Kurti „lean manufacturing“ perkėlimo veiklas             | Visuotinai             |
-| Kurti planavimo ypatybių darbo laiką                     | Visuotinai             |
-| Darbo laiko šablonų kūrimas                                 | Visuotinai             |
-| Apibrėžti kalendorius ir darbo elementus                            | Visuotinai             |
-| Apibrėžti atskiros gamybos išteklių grupę                  | Visuotinai             |
-| Apibrėžti „lean manufacturing“ darbo elementus                          | Visuotinai             |
-| Apibrėžti pažangiosios gamybos planavimo grupes                                   | Visuotinai             |
-| Apibrėžti gamybos eigos modelius                                 | Visuotinai             |
-| Apibrėžti išteklių galimybes                                  | Visuotinai             |
-| Įgalinti laiko ir buvimo darbe algalapio procesą                | Visuotinai             |
-| Baigti gamybos užsakymą                                        | Visuotinai             |
-| Gamybos užsakymo įvertinimas                                   | Visuotinai             |
-| „Lean“ iškvietimas iš pardavimo užsakymų                                | Visuotinai             |
-| Valdyti matavimo vienetą                                        | Visuotinai             |
-| Perkelti suplanuotas „Kanban“ užduotis                                    | Visuotinai             |
-| Parengti proceso „kanban“ užduotį, kai yra reikiamų medžiagų     | Visuotinai             |
-| Parengti proceso „kanban“ užduotį, kai reikiamų medžiagų nėra | Visuotinai             |
-| Gamybos užsakymo išleidimas                                    | Visuotinai             |
-| Pašalinti „Kanban“ užduotį iš grafiko                         | Visuotinai             |
-| Paskelbti gamybos užsakymą kaip baigtą                         | Visuotinai             |
-| Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį                        | Visuotinai             |
-| Grąžinti „Kanban“ užduoties būseną                                      | Visuotinai             |
-| Planuoti gamybos užsakymą                                   | Visuotinai             |
-| Planuoti „Kanban“ užduotis                                          | Visuotinai             |
-| Gamybos užsakymo paleidimas                                      | Visuotinai             |
-| Perkelti medžiagą su „Kanban‟ užduotimis                            | Visuotinai             |
-| Tikrinti gamybos eigą ir versiją                          | Visuotinai             |
+| BPM eilutė                                                      | Šalis/regionas |
+|---------------------------------------------------------------|----------------|
+| „Kanban“ kiekio skaičiavimo strategijos įtraukimas į „kanban“ taisyklę     | Visuotinai         |
+| Paketinio užsakymo ciklas nuo sukūrimo iki apdorojimo                    | Visuotinai         |
+| Skaičiuoti „Kanban“ kiekio pasiūlymus                         | Visuotinai         |
+| Keisti apdorojimo užduoties „Kanban“ taisykles                         | Visuotinai         |
+| Konfigūruoti darbuotoją naudojant mobilųjį užduoties įrenginį                | Visuotinai         |
+| Kopijuoti formulę                                                | Visuotinai         |
+| Kurti formulę kopijuojant iš esamos formulės          | Visuotinai         |
+| Gamybos eigos versijos kūrimas                              | Visuotinai         |
+| Kurti gamybos užsakymą                                     | Visuotinai         |
+| Pardavimo įvykio „Kanban“ taisyklės kūrimas                              | Visuotinai         |
+| Kurti vertės srautą                                         | Visuotinai         |
+| Veiklos ryšio kūrimas: vėlesnė veikla                           | Visuotinai         |
+| Kurti operacijų išteklių                                 | Visuotinai         |
+| Kurti fiksuoto kiekio „kanban“ taisykles                            | Visuotinai         |
+| Kurti naujas „Kanban“ taisykles dubliuojant esamas „Kanban“ taisykles  | Visuotinai         |
+| Kurti „lean manufacturing“ proceso veiklas              | Visuotinai         |
+| Išteklių pajėgumų kūrimas                                  | Visuotinai         |
+| Kurti „lean manufacturing“ perkėlimo veiklas             | Visuotinai         |
+| Kurti planavimo ypatybių darbo laiką                     | Visuotinai         |
+| Darbo laiko šablonų kūrimas                                 | Visuotinai         |
+| Apibrėžti kalendorius ir darbo elementus                            | Visuotinai         |
+| Apibrėžti atskiros gamybos išteklių grupę                  | Visuotinai         |
+| Apibrėžti „lean manufacturing“ darbo elementus                          | Visuotinai         |
+| Apibrėžti pažangiosios gamybos planavimo grupes                                   | Visuotinai         |
+| Apibrėžti gamybos eigos modelius                                 | Visuotinai         |
+| Apibrėžti išteklių galimybes                                  | Visuotinai         |
+| Įgalinti laiko ir buvimo darbe algalapio procesą                | Visuotinai         |
+| Baigti gamybos užsakymą                                        | Visuotinai         |
+| Gamybos užsakymo įvertinimas                                   | Visuotinai         |
+| „Lean“ iškvietimas iš pardavimo užsakymų                                | Visuotinai         |
+| Valdyti matavimo vienetą                                        | Visuotinai         |
+| Perkelti suplanuotas „Kanban“ užduotis                                    | Visuotinai         |
+| Parengti proceso „kanban“ užduotį, kai yra reikiamų medžiagų     | Visuotinai         |
+| Parengti proceso „kanban“ užduotį, kai reikiamų medžiagų nėra | Visuotinai         |
+| Gamybos užsakymo išleidimas                                    | Visuotinai         |
+| Pašalinti „Kanban“ užduotį iš grafiko                         | Visuotinai         |
+| Paskelbti gamybos užsakymą kaip baigtą                         | Visuotinai         |
+| Teikti ataskaitas apie eigą naudojant mobilųjį užduoties įrenginį                        | Visuotinai         |
+| Grąžinti „Kanban“ užduoties būseną                                      | Visuotinai         |
+| Planuoti gamybos užsakymą                                   | Visuotinai         |
+| Planuoti „Kanban“ užduotis                                          | Visuotinai         |
+| Gamybos užsakymo paleidimas                                      | Visuotinai         |
+| Perkelti medžiagą su „Kanban‟ užduotimis                            | Visuotinai         |
+| Tikrinti gamybos eigą ir versiją                          | Bendra         |
 
-
- 
 ### <a name="master-planning"></a>Bendrasis planavimas
 
-|                                                   |                    |
-|---------------------------------------------------|--------------------|
-| **BPM eilutė**                                      | **Šalis / regionas** |
-| Apibrėžti prekių padengimo taisykles                   | Visuotinai             |
-| Kurti pagrindinę prognozę                         | Visuotinai             |
-| Kurti planą su apribojimais                       | Visuotinai             |
-| Nustatyti svarbiausias medžiagas ir tiekėjo pajėgumus | Visuotinai             |
-| Modifikuoti poreikio prognozę neautomatiškai                 | Visuotinai             |
+| BPM eilutė                                          | Šalis/regionas |
+|---------------------------------------------------|----------------|
+| Prekių padengimo taisyklių apibrėžimas                   | Bendra         |
+| Kurti pagrindinę prognozę                         | Visuotinai         |
+| Kurti planą su apribojimais                       | Visuotinai         |
+| Nustatyti svarbiausias medžiagas ir tiekėjo pajėgumus | Visuotinai         |
+| Poreikio prognozės modifikavimas rankiniu būdu                 | Bendra         |
 
-
- 
 ### <a name="organization-administration"></a>Organizacijos administravimas
 
-|                                           |                    |
-|-------------------------------------------|--------------------|
-| **BPM eilutė**                              | **Šalis / regionas** |
-| Keisti reklaminę juostą arba logotipą                 | Visuotinai             |
-| Konfigūruoti adresų knygeles                   | Visuotinai             |
-| Visuotinės adresų knygelės konfigūravimas         | Visuotinai             |
-| Valdymo vieneto kūrimas                  | Visuotinai             |
-| Elektroninių parašų nustatymas              | Visuotinai             |
-| Nustatyti numeracijas naudojant vedlį | Visuotinai             |
+| BPM eilutė                                  | Šalis/regionas |
+|-------------------------------------------|----------------|
+| Reklaminės juostos arba logotipo keitimas                 | Bendra         |
+| Adresų knygelių konfigūravimas                   | Visuotinai         |
+| Visuotinės adresų knygelės konfigūravimas         | Visuotinai         |
+| Valdymo vieneto kūrimas                  | Visuotinai         |
+| Elektroninių parašų nustatymas              | Visuotinai         |
+| Numeracijų nustatymas naudojant vediklį | Bendra         |
 
+### <a name="planning"></a>Planuojama
 
- 
-### <a name="planning"></a>Planavimas
+| BPM eilutė               | Šalis/regionas |
+|------------------------|----------------|
+| Nustatyti prieinamumą | Bendra         |
 
-|                        |                    |
-|------------------------|--------------------|
-| **BPM eilutė**           | **Šalis / regionas** |
-| Nustatyti prieinamumą | Visuotinai             |
-
-
- 
 ### <a name="procurement-and-sourcing"></a>Paraiškos
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                     | **Šalis / regionas** |
-| Kurti pirkimo sutartį                                      | Visuotinai             |
-| Sukurti pirkimo leidimo užsakymą iš pirkimo sutarties        | Visuotinai             |
-| Kurti pirkimo leidimą išduoti kuriant pirkimo užsakymą | Visuotinai             |
-| Kurti vartojimo paraišką                             | Visuotinai             |
-| Tiekėjo sąskaitos kūrimas                                          | Visuotinai             |
-| Ieškoti tiekėjų                                               | Visuotinai             |
-| Įsigijimo kategorijų hierarchijos nustatymas                          | Visuotinai             |
+| BPM eilutė                                                         | Šalis/regionas |
+|------------------------------------------------------------------|----------------|
+| Pirkimo sutarties kūrimas                                      | Bendra         |
+| Pirkimo leidimo užsakymo kūrimas iš pirkimo sutarties        | Visuotinai         |
+| Kurti pirkimo leidimą išduoti kuriant pirkimo užsakymą | Visuotinai         |
+| Kurti vartojimo paraišką                             | Visuotinai         |
+| Tiekėjo sąskaitos kūrimas                                          | Visuotinai         |
+| Ieškoti tiekėjų                                               | Visuotinai         |
+| Įsigijimo kategorijų hierarchijos nustatymas                          | Bendra         |
 
-
- 
 ### <a name="product-information-and-configuration"></a>Produkto informacija ir konfigūracija
 
-|                                                       |                    |
-|-------------------------------------------------------|--------------------|
-| **BPM eilutė**                                          | **Šalis / regionas** |
-| Įtraukti skaičiavimą į produktų konfigūravimo modelį    | Visuotinai             |
-| Tvirtinti produkto konfigūracijos modelį                 | Visuotinai             |
-| Pagrindinis išleisto bendrojo produkto nustatymas | Bendra             |
-| Create a ..\financial-dimensions\dimension-based product master               | Bendra             |
-| Produktų klasifikacijų hierarchijos kūrimas          | Visuotinai             |
-| Kurti produkto konfigūracijos modelį                  | Visuotinai             |
-| Kurti bendrąjį produktą                               | Visuotinai             |
-| Kaip sukurti išraiškos apribojimą                       | Visuotinai             |
-| Kurti produkto paketo atributus                 | Visuotinai             |
-| Kurti konfigūracijos grupes                            | Visuotinai             |
-| Kurti produkto modelio komponentus                       | Visuotinai             |
-| Apibrėžti konfigūracijos grupes                           | Visuotinai             |
-| Apibrėžti konfigūracijos maršrutą                            | Visuotinai             |
-| Tvarkyti produkto konfigūracijos modelio KS        | Visuotinai             |
-| Tvarkyti produkto modelio maršrutą                    | Bendra             |
-| Valdyti patvirtintus produktus                              | Bendra             |
-| Release a ..\financial-dimensions\dimension-based product master              | Bendra             |
-| Perkelti produktų modelių duomenis                      | Visuotinai             |
+| BPM eilutė                                                           | Šalis/regionas |
+|--------------------------------------------------------------------|----------------|
+| Skaičiavimo įtraukimas į produkto konfigūracijos modelį                 | Bendra         |
+| Tvirtinti produkto konfigūracijos modelį                              | Visuotinai         |
+| Pagrindinis išleisto bendrojo produkto nustatymas              | Bendra         |
+| Bendrojo ..\\finansinių dimensijų\\produkto pagal dimensijas kūrimas  | Bendra         |
+| Produktų klasifikacijų hierarchijos kūrimas                       | Visuotinai         |
+| Kurti produkto konfigūracijos modelį                               | Visuotinai         |
+| Kurti bendrąjį produktą                                            | Visuotinai         |
+| Kaip sukurti išraiškos apribojimą                                    | Visuotinai         |
+| Kurti produkto paketo atributus                              | Visuotinai         |
+| Kurti konfigūracijos grupes                                         | Visuotinai         |
+| Kurti produkto modelio komponentus                                    | Visuotinai         |
+| Apibrėžti konfigūracijos grupes                                        | Visuotinai         |
+| Apibrėžti konfigūracijos maršrutą                                         | Visuotinai         |
+| Tvarkyti produkto konfigūracijos modelio KS                     | Visuotinai         |
+| Tvarkyti produkto modelio maršrutą                                 | Bendra         |
+| Valdyti patvirtintus produktus                                           | Bendra         |
+| Bendrojo ..\\finansinių dimensijų\\produkto pagal dimensijas išleidimas | Bendra         |
+| Produktų modelių duomenų perkėlimas                                   | Bendra         |
 
-
- 
 ### <a name="public-sector"></a>Viešasis sektorius
 
-|                                                                                         |                    |
-|-----------------------------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                                            | **Šalis / regionas** |
-| Įtraukti viešojo sektoriaus tiekėjo sertifikavimo tipą                                  | Visuotinai             |
-| Valdyti prieigą prie viešojo sektoriaus pirkimo sutarčių                                 | Visuotinai             |
-| Kurti viešojo sektoriaus atsiskaitymo klasifikaciją                                       | Visuotinai             |
-| Kurti viešojo sektoriaus atsiskaitymo kodą                                                 | Visuotinai             |
-| Kurti įsipareigojimą rezervuoti biudžeto lėšas viešajam sektoriui                           | Visuotinai             |
-| Kurti viešojo sektoriaus atsiskaitymo kodo pasirinktinį lauką                              | Visuotinai             |
-| Kurti viešojo sektoriaus lėšų tipą                                                    | Visuotinai             |
-| Kurti vienkartinius viešojo sektoriaus tiekėją ir SF                                  | Visuotinai             |
-| Viešojo sektoriaus preliminaraus biudžeto sukūrimas                                           | Visuotinai             |
-| Kurti viešojo sektoriaus tiekėjo sertifikavimo tipą                                    | Visuotinai             |
-| Kurti viešojo sektoriaus išplėstinį didžiosios knygos įrašą                                       | Visuotinai             |
-| Kurti viešojo sektoriaus pradinį biudžetą ir tada atšaukti preliminaraus biudžeto įrašus | Visuotinai             |
-| Kurti ir priskirti viešojo sektoriaus prekybos partnerio kodą                              | Visuotinai             |
-| Kurti viešojo sektoriaus mokėjimų ataskaitų viršelio ir parašo puslapius                 | Visuotinai             |
-| Importuoti ir kurti kelis vienkartinius viešojo sektoriaus tiekėjus ir SF              | Visuotinai             |
-| Nustatyti viešojo sektoriaus išvestinę finansinę hierarchiją                                  | Visuotinai             |
-| Nustatyti viešojo sektoriaus lėšas                                                         | Visuotinai             |
-| Nustatyti viešojo sektoriaus pirkimo sutarčių klasifikacijas                             | Visuotinai             |
+| BPM eilutė                                                                                | Šalis/regionas |
+|-----------------------------------------------------------------------------------------|----------------|
+| Įtraukti viešojo sektoriaus tiekėjo sertifikavimo tipą                                  | Visuotinai         |
+| Valdyti prieigą prie viešojo sektoriaus pirkimo sutarčių                                 | Visuotinai         |
+| Kurti viešojo sektoriaus atsiskaitymo klasifikaciją                                       | Visuotinai         |
+| Kurti viešojo sektoriaus atsiskaitymo kodą                                                 | Visuotinai         |
+| Kurti įsipareigojimą rezervuoti biudžeto lėšas viešajam sektoriui                           | Visuotinai         |
+| Kurti viešojo sektoriaus atsiskaitymo kodo pasirinktinį lauką                              | Visuotinai         |
+| Kurti viešojo sektoriaus lėšų tipą                                                    | Visuotinai         |
+| Kurti vienkartinius viešojo sektoriaus tiekėją ir SF                                  | Visuotinai         |
+| Viešojo sektoriaus preliminaraus biudžeto sukūrimas                                           | Visuotinai         |
+| Kurti viešojo sektoriaus tiekėjo sertifikavimo tipą                                    | Visuotinai         |
+| Kurti viešojo sektoriaus išplėstinį didžiosios knygos įrašą                                       | Visuotinai         |
+| Kurti viešojo sektoriaus pradinį biudžetą ir tada atšaukti preliminaraus biudžeto įrašus | Visuotinai         |
+| Kurti ir priskirti viešojo sektoriaus prekybos partnerio kodą                              | Visuotinai         |
+| Kurti viešojo sektoriaus mokėjimų ataskaitų viršelio ir parašo puslapius                 | Visuotinai         |
+| Importuoti ir kurti kelis vienkartinius viešojo sektoriaus tiekėjus ir SF              | Visuotinai         |
+| Nustatyti viešojo sektoriaus išvestinę finansinę hierarchiją                                  | Visuotinai         |
+| Nustatyti viešojo sektoriaus lėšas                                                         | Visuotinai         |
+| Nustatyti viešojo sektoriaus pirkimo sutarčių klasifikacijas                             | Bendra         |
 
-
- 
 ### <a name="retail-and-commerce"></a>Mažmeninė prekyba ir prekyba
 
-|                                                                                           |                    |
-|-------------------------------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                                              | **Šalis / regionas** |
-| Įtraukti produktų variantus į pirkimo užsakymą naudojant variantų svorius                              | Visuotinai             |
-| Bazinė kaina ir prekybos sutartys                                                           | Visuotinai             |
-| Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti                                         | Visuotinai             |
-| Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį                                             | Visuotinai             |
-| Konfigūruoti ir vykdyti išrašų registravimo užduotį                                                  | Visuotinai             |
-| Konfigūruoti kredito kortelės apdorojimą                                                          | Visuotinai             |
-| Konfigūruoti susietus produktus                                                                 | Visuotinai             |
-| Kurti EKA vaizdo šabloną                                                               | Visuotinai             |
-| Kurti produktą                                                                          | Visuotinai             |
-| Kurti bendrąjį produktą                                                                   | Visuotinai             |
-| Kurti ir susieti įrenginį                                                             | Visuotinai             |
-| Kurti ir susieti aparatūros stotį                                                   | Visuotinai             |
-| Kurti EKA registrų finansines dimensijas ir konfigūruoti dimensijų reikšmes registruose | Visuotinai             |
-| Kurti mažmeninės prekybos kanalų finansines dimensijas ir konfigūruoti dimensijų reikšmes parduotuvėse  | Visuotinai             |
-| Kurti interneto kanalą ir nurodyti kanalo atributus                                       | Visuotinai             |
-| Kurti EKA teisių grupes                                                              | Visuotinai             |
-| Kurti produktų pakuotes ir naudoti pirkimo užsakyme                                         | Visuotinai             |
-| Apibrėžti skambučių centro kanalą ir kanalo atributus                                         | Visuotinai             |
-| Apibrėžti kanalo atributus                                                                 | Visuotinai             |
-| Apibrėžti lojalumo programas                                                                   | Visuotinai             |
-| Apibrėžti atlygio taškus už lojalumą                                                              | Visuotinai             |
-| Apibrėžti lojalumo planus                                                                    | Visuotinai             |
-| Užmegzti ryšius tarp organizacijos vienetų                                     | Visuotinai             |
-| Generuoti ir paleisti parengtas naudoti ataskaitas                                                       | Visuotinai             |
-| Valdyti klientų prekybos nuolaidas                                                      | Visuotinai             |
-| Mažmeninės prekybos išrašų parametrų konfigūracijos                                            | Visuotinai             |
-| Mažmeninės prekybos išrašų mokėjimo konfigūracijos                                              | Visuotinai             |
-| Vykdyti savitarną siekiant atsisiųsti aparatūros stotį                                         | Visuotinai             |
-| Pardavimo ir mokėjimų internetu registravimas                                                      | Visuotinai             |
-| Apdoroti atlygio už lojalumą taškų koregavimus                                                  | Visuotinai             |
-| Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams                        | Visuotinai             |
-| Išleisti produktą / bendrąjį produktą juridiniams subjektams                                        | Visuotinai             |
-| Mažmeninės prekybos kainų koregavimai                                                                  | Visuotinai             |
-| Įrašyti mažmeninės prekybos išrašų konfigūracijas                                                | Visuotinai             |
+| BPM eilutė                                                                                  | Šalis/regionas |
+|-------------------------------------------------------------------------------------------|----------------|
+| Įtraukti produktų variantus į pirkimo užsakymą naudojant variantų svorius                              | Visuotinai         |
+| Bazinė kaina ir prekybos sutartys                                                           | Visuotinai         |
+| Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti                                         | Visuotinai         |
+| Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį                                             | Visuotinai         |
+| Konfigūruoti ir vykdyti išrašų registravimo užduotį                                                  | Visuotinai         |
+| Konfigūruoti kredito kortelės apdorojimą                                                          | Visuotinai         |
+| Konfigūruoti susietus produktus                                                                 | Visuotinai         |
+| Kurti EKA vaizdo šabloną                                                               | Visuotinai         |
+| Kurti produktą                                                                          | Visuotinai         |
+| Kurti bendrąjį produktą                                                                   | Visuotinai         |
+| Kurti ir susieti įrenginį                                                             | Visuotinai         |
+| Kurti ir susieti aparatūros stotį                                                   | Visuotinai         |
+| Kurti EKA registrų finansines dimensijas ir konfigūruoti dimensijų reikšmes registruose | Visuotinai         |
+| Kurti mažmeninės prekybos kanalų finansines dimensijas ir konfigūruoti dimensijų reikšmes parduotuvėse  | Visuotinai         |
+| Kurti interneto kanalą ir nurodyti kanalo atributus                                       | Visuotinai         |
+| Kurti EKA teisių grupes                                                              | Visuotinai         |
+| Kurti produktų pakuotes ir naudoti pirkimo užsakyme                                         | Visuotinai         |
+| Apibrėžti skambučių centro kanalą ir kanalo atributus                                         | Visuotinai         |
+| Apibrėžti kanalo atributus                                                                 | Visuotinai         |
+| Apibrėžti lojalumo programas                                                                   | Visuotinai         |
+| Apibrėžti atlygio taškus už lojalumą                                                              | Visuotinai         |
+| Apibrėžti lojalumo planus                                                                    | Visuotinai         |
+| Užmegzti ryšius tarp organizacijos vienetų                                     | Visuotinai         |
+| Generuoti ir paleisti parengtas naudoti ataskaitas                                                       | Visuotinai         |
+| Valdyti klientų prekybos nuolaidas                                                      | Visuotinai         |
+| Mažmeninės prekybos išrašų parametrų konfigūracijos                                            | Visuotinai         |
+| Mažmeninės prekybos išrašų mokėjimo konfigūracijos                                              | Visuotinai         |
+| Vykdyti savitarną siekiant atsisiųsti aparatūros stotį                                         | Visuotinai         |
+| Pardavimo ir mokėjimų internetu registravimas                                                      | Visuotinai         |
+| Apdoroti atlygio už lojalumą taškų koregavimus                                                  | Visuotinai         |
+| Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams                        | Visuotinai         |
+| Išleisti produktą / bendrąjį produktą juridiniams subjektams                                        | Visuotinai         |
+| Mažmeninės prekybos kainų koregavimai                                                                  | Visuotinai         |
+| Mažmeninės prekybos išrašų parduotuvės konfigūracijos                                                | Bendra         |
 
-
- 
 ### <a name="sales"></a>Pardavimas
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM eilutė**                               | **Šalis / regionas** |
-| Patvirtinti pardavimo užsakymus                       | Visuotinai             |
-| Kurti naują prekybos sutartį               | Visuotinai             |
-| Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą | Visuotinai             |
-| Kurti ir redaguoti pardavimo pasiūlymus           | Visuotinai             |
-| Kurti pristatymo grafiką                   | Visuotinai             |
-| Įvesti pardavimo sutartis                     | Visuotinai             |
-| Įvykdyti pardavimo sutartis                   | Visuotinai             |
-| Generuoti ir apdoroti kliento grąžinimus      | Visuotinai             |
-| Peržiūrėti taikytinas kainas ir nuolaidas    | Visuotinai             |
-| Kurti daug pardavimo pasiūlymų               | Visuotinai             |
-| Apdoroti mokėjimo grąžinimus                | Visuotinai             |
-| Registruoti pardavimo komisinius                 | Visuotinai             |
-| Nustatyti pardavimo komisinių taisykles              | Visuotinai             |
-| Siųsti užsakymus kaip tiesioginius pristatymus           | Visuotinai             |
-| Siųsti pardavimo užsakymus be sandėliavimo      | Visuotinai             |
+| BPM eilutė                                   | Šalis/regionas |
+|--------------------------------------------|----------------|
+| Pardavimo užsakymų tvirtinimas                       | Bendra         |
+| Kurti naują prekybos sutartį               | Visuotinai         |
+| Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą | Visuotinai         |
+| Kurti ir redaguoti pardavimo pasiūlymus           | Visuotinai         |
+| Kurti pristatymo grafiką                   | Visuotinai         |
+| Įvesti pardavimo sutartis                     | Visuotinai         |
+| Įvykdyti pardavimo sutartis                   | Visuotinai         |
+| Generuoti ir apdoroti kliento grąžinimus      | Visuotinai         |
+| Peržiūrėti taikytinas kainas ir nuolaidas    | Visuotinai         |
+| Kurti daug pardavimo pasiūlymų               | Visuotinai         |
+| Apdoroti mokėjimo grąžinimus                | Visuotinai         |
+| Registruoti pardavimo komisinius                 | Visuotinai         |
+| Nustatyti pardavimo komisinių taisykles              | Visuotinai         |
+| Siųsti užsakymus kaip tiesioginius pristatymus           | Visuotinai         |
+| Siųsti pardavimo užsakymus be sandėliavimo      | Bendra         |
 
-
- 
 ### <a name="sales-tax"></a>PVM
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM eilutė**                                       | **Šalis / regionas** |
-| Skaičiuoti ir koreguoti PVM tiekėjo SF | Visuotinai             |
-| Kurti PVM mokėjimą                         | Visuotinai             |
-| Kurti PVM operacijas dokumentuose         | Visuotinai             |
-| PVM skirtų DK registravimo grupių nustatymas         | Visuotinai             |
-| PVM rinkėjų nustatymas                       | Visuotinai             |
-| Nustatyti PVM kodus                             | Visuotinai             |
-| PVM grupių ir prekių PVM grupių nustatymas  | Visuotinai             |
-| Nustatyti PVM ataskaitų kodus                   | Visuotinai             |
-| Nustatyti PVM sudengimo laikotarpius                | Visuotinai             |
-| Išskaitomų mokesčių nustatymas                             | Visuotinai             |
-| Peržiūrėti užregistruotas PVM operacijas                 | Visuotinai             |
+| BPM eilutė                                           | Šalis/regionas |
+|----------------------------------------------------|----------------|
+| Skaičiuoti ir koreguoti PVM tiekėjo SF | Visuotinai         |
+| Kurti PVM mokėjimą                         | Visuotinai         |
+| Kurti PVM operacijas dokumentuose         | Visuotinai         |
+| PVM skirtų DK registravimo grupių nustatymas         | Visuotinai         |
+| PVM rinkėjų nustatymas                       | Visuotinai         |
+| Nustatyti PVM kodus                             | Visuotinai         |
+| PVM grupių ir prekių PVM grupių nustatymas  | Visuotinai         |
+| Nustatyti PVM ataskaitų kodus                   | Visuotinai         |
+| Nustatyti PVM sudengimo laikotarpius                | Visuotinai         |
+| Išskaitomų mokesčių nustatymas                             | Visuotinai         |
+| Peržiūrėti užregistruotas PVM operacijas                 | Visuotinai         |
 
-
- 
 ### <a name="security"></a>Sauga
 
-|                                                         |                    |
-|---------------------------------------------------------|--------------------|
-| **BPM eilutė**                                            | **Šalis / regionas** |
-| Naujų vartotojų kūrimas                                        | Visuotinai             |
-| Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus | Visuotinai             |
-| Nustatyti pareigų atskyrimą                            | Visuotinai             |
+| BPM eilutė                                                | Šalis/regionas |
+|---------------------------------------------------------|----------------|
+| Naujų vartotojų kūrimas                                        | Visuotinai         |
+| Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus | Visuotinai         |
+| Nustatyti pareigų atskyrimą                            | Bendra         |
 
-
- 
 ### <a name="warehouse-and-transportation"></a>Sandėlis ir transportavimas
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM eilutė**                                                                      | **Šalis / regionas** |
-| Susieti kuro indeksą su vežėju kaip mokestį už papildomas paslaugas                    | Visuotinai             |
-| Konfigūruoti sandėlio, kuriame veikia WMS, vietas                                    | Visuotinai             |
-| Kurti darbo klasę                                                               | Visuotinai             |
-| Apibrėžti ciklo skaičiavimą                                                             | Visuotinai             |
-| Įgalinti numerio lentelės žymės spausdinimą                                               | Visuotinai             |
-| Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą | Visuotinai             |
-| Nustatyti vežėjo degalų indeksus                                                       | Visuotinai             |
-| Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.                           | Visuotinai             |
-| Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti       | Visuotinai             |
-| Nustatyti mobiliojo įrenginio meniu elementą gautoms prekėms registruoti                       | Visuotinai             |
-| Nustatyti pirkimo užsakymų darbo šabloną                                        | Visuotinai             |
-| Papildomų paslaugų priskyrimų nustatymas                                                    | Visuotinai             |
-| Nustatyti perdavimo kodus                                                         | Visuotinai             |
-| Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus                            | Visuotinai             |
-| Pagrindinių tarifų nustatymas                                                               | Visuotinai             |
-| Siuntų vežėjų nustatymas                                                          | Visuotinai             |
-| Planuodami krovinius ir siuntas naudokite krovinio planavimo darbo sritį                       | Visuotinai             |
+| BPM eilutė                                                                          | Šalis/regionas |
+|-----------------------------------------------------------------------------------|----------------|
+| Kuro indekso susiejimas su vežėju kaip mokesčio už papildomas paslaugas                    | Visuotinai         |
+| Konfigūruoti sandėlio, kuriame veikia WMS, vietas                                    | Visuotinai         |
+| Kurti darbo klasę                                                               | Visuotinai         |
+| Apibrėžti ciklo skaičiavimą                                                             | Visuotinai         |
+| Įgalinti numerio lentelės žymės spausdinimą                                               | Visuotinai         |
+| Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą | Visuotinai         |
+| Nustatyti vežėjo degalų indeksus                                                       | Visuotinai         |
+| Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.                           | Visuotinai         |
+| Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti       | Visuotinai         |
+| Nustatyti mobiliojo įrenginio meniu elementą gautoms prekėms registruoti                       | Visuotinai         |
+| Nustatyti pirkimo užsakymų darbo šabloną                                        | Visuotinai         |
+| Papildomų paslaugų priskyrimų nustatymas                                                    | Visuotinai         |
+| Nustatyti perdavimo kodus                                                         | Visuotinai         |
+| Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus                            | Visuotinai         |
+| Pagrindinių tarifų nustatymas                                                               | Visuotinai         |
+| Siuntų vežėjų nustatymas                                                          | Visuotinai         |
+| Planuodami krovinius ir siuntas naudokite krovinio planavimo darbo sritį                       | Visuotinai         |
 
-
- 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Darbo pradžios bibliotekos (2016 m. vasario mėn.) užduočių vedliai
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM eilutė**                                       | **Šalis / regionas** |
-| Analizuoti DK balansus                            | Visuotinai             |
-| Kurti vienos įmonės išleistą produktą     | Visuotinai             |
-| Kurti ir planuoti gamybos užsakymą             | Visuotinai             |
-| Veiksminga prekyba                            | Visuotinai             |
-| Elektroninė ataskaita                               | Visuotinai             |
-| Darbuotojų savitarna                              | Visuotinai             |
-| Kaip sumažinti pardavimo neapmokėjimo laiką dienomis          | Visuotinai             |
-| AX lokalizavimo funkcijų pristatymas      | Visuotinai             |
-| Specialių Japonijai skirtų funkcijų pristatymas | Japonija              |
-| Valdyti kainas ir akcijas                      | Visuotinai             |
-| Vadovų savitarna                               | Visuotinai             |
-| Projektų apžvalga                                  | Bendra             |
-| Nustatyti ir konfigūruoti kanalus                      | Bendra             |
+| BPM eilutė                                           | Šalis/regionas |
+|----------------------------------------------------|----------------|
+| Analizuoti DK balansus                            | Bendra         |
+| Vienos įmonės išleisto produkto kūrimas     | Visuotinai         |
+| Kurti ir planuoti gamybos užsakymą             | Visuotinai         |
+| Veiksminga prekyba                            | Visuotinai         |
+| Elektroninė ataskaita                               | Visuotinai         |
+| Darbuotojų savitarna                              | Visuotinai         |
+| Kaip sumažinti pardavimo neapmokėjimo laiką dienomis          | Visuotinai         |
+| AX lokalizavimo funkcijų pristatymas      | Visuotinai         |
+| Specialių Japonijai skirtų funkcijų pristatymas | Japonija          |
+| Valdyti kainas ir akcijas                      | Visuotinai         |
+| Vadovų savitarna                               | Visuotinai         |
+| Projektų apžvalga                                  | Bendra         |
+| Nustatyti ir konfigūruoti kanalus                      | Bendra         |
 
- 
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
-
-
-
 

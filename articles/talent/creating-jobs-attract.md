@@ -3,7 +3,7 @@ title: "Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“"
 description: "Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, �
 
 ## <a name="postings"></a>Registravimai
 
-Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. „Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Todėl šis sąrašas bus išplėstas.
+Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. 
+
+> [!NOTE]
+> Kalbant apie darbo skelbimą „LinkedIn“ sistemoje, reikia atkreipti dėmesį į tris svarbius dalykus.
+> 1. Darbai, skelbiami „LinkedIn“ sistemoje, skelbiami kaip darbai sąraše „Apriboti skelbimai“. Darbai apribotuose sąrašuose negali būti perkelti į aukštesnį lygį „LinkedIn“ svetainėje. Jei norite perkelti apribotuose sąrašuose esančius darbus, paskelbtus „LinkedIn“ sistemoje iš „Attract“, turėtumėte dirbti su „LinkedIn“, kad įgalintumėte „automatinį darbų skelbimą“. Spustelėkite toliau pateiktus saitus ir susisiekite su „LinkedIn“ palaikymo tarnyba, kad gautumėte daugiau informacijos.
+>
+>    [Apriboti skelbimai palyginti su „Premium“ darbų vietomis naudojant automatinį darbų skelbimą](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Automatinio darbų skelbimo DUK](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Skelbiant darbo vietas „LinkedIn“ sistemoje, „Attract“ perduoda ir darbo vietai priskiria „Microsoft 365“ organizacijos pavadinimą. „LinkedIn“ susieja darbo vietas su įmone „LinkedIn“ sistemoje pagal perduotą organizacijos pavadinimą. Jei jūsų darbo vieta paskelbta su neteisinga įmone „LinkedIn“ sistemoje, patikrinkite, ar jūsų „Microsoft 365“ organizacijos pavadinimas sutampa su įmonės pavadinimu „LinkedIn“ tinkle.  
+>
+>    [Adreso, kontaktų ir kt. keitimas](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Jei kyla problemų po šio veiksmo, susisiekite su „LinkedIn“ palaikymo tarnyba. 
+> 
+> 1. Dėl dabartinio „LinkedIn“ paketinio darbo vietų skelbimo proceso gali praeiti 24 valandos, kol „LinkedIn“ tinkle paskelbtos darbo vietos bus matomos kandidatams „LinkedIn“ svetainėje.
+
+„Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas.
 
 Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](./career-site.md).
 

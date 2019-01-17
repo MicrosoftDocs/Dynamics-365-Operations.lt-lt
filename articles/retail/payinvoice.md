@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
@@ -30,21 +30,18 @@ ms.lasthandoff: 12/04/2018
 [!include [banner](includes/banner.md)]
 
 „Dynamics 365 for Retail“ funkcija Apmokėti sąskaitą faktūrą išplėsta ir palaiko tolesnius scenarijus.
+
 - Kelių pardavimo užsakymų sąskaitų faktūrų apmokėjimas atliekant vieną EKA operaciją.
 - Įvairių tipų kliento SF, įskaitant laisvos formos sąskaitas faktūras, projektines sąskaitas faktūras ir kredito pažymas, apmokėjimas.
 
-Norint įjungti šiuos scenarijus, taip, kaip nurodyta toliau, reikia sukonfigūruoti parduotuvių funkcijų profilį.  
+Norint įjungti šiuos scenarijus reikia sukonfigūruoti parduotuvių funkcijų profilį taip, kaip nurodyta toliau.
 
-1. Eikite į **Mažmeninė prekyba > Kanalų sąranka > EKA sąranka > EKA profiliai > Funkcijų profiliai** ir pasirinkite profilį, susietą su parduotuvėmis, kurioms norite atlikti keitimus.
-
-1. Skirtuke **Funkcijos** pagal poreikį sukonfigūruokite tolesnius parametrus.
+1. Eikite į **Mažmeninė prekyba \> Kanalų sąranka \> EKA sąranka \> EKA profiliai \> Funkcijų profiliai** ir pasirinkite profilį, susietą su parduotuvėmis, kurioms norite atlikti keitimus.
+2. Skirtuke **Funkcijos** pagal poreikį sukonfigūruokite tolesnius parametrus.
 
     - **Pardavimo užsakymo sąskaita faktūra** – pasirinkite **Taip**, jei vartotojams norite leisti atliekant vieną EKA operaciją apmokėti vieną ar kelias pardavimo užsakymu paremtas sąskaitas faktūras.
-
     - **Laisvos formos sąskaita faktūra** – pasirinkite **Taip**, jei vartotojams norite leisti atliekant vieną EKA operaciją apmokėti vieną ar kelias laisvos formos sąskaitas faktūras.
-
     - **Projekto sąskaita faktūra** – pasirinkite **Taip**, jei vartotojams norite leisti atliekant vieną EKA operaciją apmokėti vieną ar kelias projektines sąskaitas faktūras.
-
     - **Pardavimo užsakymo kredito pažyma** – pasirinkite **Taip**, jei vartotojams norite leisti pagal atidarytas sąskaitas faktūras sudengti kelias pardavimo užsakymu paremtas kredito pažymas arba apdoroti pinigų grąžinimą klientui už atidarytą kredito pažymą.
 
 > [!NOTE]

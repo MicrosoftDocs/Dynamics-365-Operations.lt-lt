@@ -34,11 +34,13 @@ ms.lasthandoff: 08/09/2018
 Įmonės išteklių planavimui (ERP) būdingi keletas atvejų, kuriais įspėjimų funkciją galima naudoti „Finance and Operations“. Štai keletas pavyzdžių.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>1 atvejis: naujų pardavimo užsakymų įspėjimo taisyklės kūrimas
+
 1. Atidaryti puslapį **Visi pardavimo užsakymai**.
 2. Veiksmų srityje, skirtuke **Parinktys**, grupėje **Bendrinti** pasirinkite **Kurti pasirinktinį įspėjimą**.
 3. Dialogo lange **Įspėjimo taisyklės kūrimas** „FastTab“ **Įspėti mane, kai** lauke **Įvykis** pasirinkite **Įrašas sukurtas**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>2 atvejis: pristatymo datos nukėlimo įspėjimo taisyklės kūrimas
+
 1. Atidaryti puslapį **Visi pirkimo užsakymai**.
 2. Pasirinkite pirkimo užsakymo ID, kad pasiektumėte pirkimo užsakymo informaciją.
 3. Išplėskite „FastTab“ **Pirkimo užsakymo antraštė**.
@@ -49,6 +51,7 @@ ms.lasthandoff: 08/09/2018
 Uždarius dialogo langą **Įspėjimo taisyklės kūrimas** taisyklė rodoma puslapyje **Įspėjimų taisyklių tvarkymas**. Puslapyje **Įspėjimų taisyklių tvarkymas** galite naujinti esamas įspėjimų taisykles. Pavyzdžiui, galite modifikuoti įvykių paleidiklius, atnaujinti įvykių pranešimus ir galiojimo datas. Norėdami atidaryti puslapį **Įspėjimų taisyklių tvarkymas**, naudokite mygtuką **Įspėti mane**, esantį veiksmų srities skirtuke **Parinktys**.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Kas įvyksta sukūrus įspėjimo taisyklę?
+
 Kai kuriate įspėjimo taisykles, iš anksto numatytą įvykį susiejate su tam tikru lauku. Pavyzdžiui, ateina lauke nurodyta diena arba pasikeičia lauko turinys. Taip pat galite susieti įvykį su konkretaus puslapio įrašais. Pavyzdžiui, įrašas sukuriamas arba įrašas panaikinamas.
 
 Kai įvyksta pasirinktas įvykis, susijęs su lauku arba puslapio įrašu, jums siunčiamas įspėjimas. Pavyzdžiui, sukuriate taisyklę ir susiejate konkrečios pirkimo užsakymo eilutės lauką **Pristatymo data** su įvykiu **praėjo prieš tiek laiko**. Nustatote penkių dienų laiko intervalą. Tokiu atveju įspėjimas siunčiamas praėjus 5 dienoms po tos pirkimo užsakymo eilutės pristatymo datos.
@@ -56,9 +59,11 @@ Kai įvyksta pasirinktas įvykis, susijęs su lauku arba puslapio įrašu, jums 
 Be to, įspėjimo taisykles galite patobulinti nustatydami sąlygas. Pavyzdžiui, jus galima įspėti apie sukurtus naujus konkrečių tiekėjų kodų pirkimo užsakymus.
 
 ## <a name="preparing-for-an-alert"></a>Pasirengimas nustatyti įspėjimą
+
 Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais norite gauti įspėjimus. Kai žinote, apie kokį įvykį norite būti įspėti, programoje „Finance and Operations“ raskite puslapį, kuriame pateikiami duomenys, esantys to įvykio priežastimi. Įvykis gali būti tam tikra atėjusi diena arba atliktas konkretus pakeitimas. Todėl turite rasti puslapį, kuriame nurodyta data arba vietą, kurioje rodomas pasikeitęs laukas arba sukurtas naujas įrašas. Turėdami šią informaciją, galite kurti įspėjimo taisyklę.
 
 ## <a name="components-of-an-alert-rule"></a>Įspėjimo taisyklės komponentai
+
 Įspėjimo taisyklę sudaro penki komponentai
 
 - **Įvykis** – įvykis, kuris suaktyvina įspėjimo taisyklę, gali būti atėjusi tam tikra diena arba konkretus įvykęs pasikeitimas. Įvykiai nustatomi dialogo lango **Įspėjimo taisyklės kūrimas** „FastTab“ **Siųsti el. pašto įspėjimus apie užduočių būsenų pasikeitimus**.
@@ -71,5 +76,6 @@ Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais n
     > Šią parinktį gali naudoti tik organizacijos administratoriai.
 
 ## <a name="email-notifications-from-alerts"></a>Įspėjimų el. paštu siunčiami pranešimai
+
 Įspėjimų el. paštu siunčiami pranešimai dar neįgalinti. Ši funkcija bus įgalinta būsimame naujinime.
 

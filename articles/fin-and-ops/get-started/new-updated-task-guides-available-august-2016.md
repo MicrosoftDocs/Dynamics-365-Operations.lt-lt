@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/09/2018
 
 Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
----------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 
 APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
 
@@ -95,17 +94,11 @@ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) 
 |-----------------------------------------------------------------------------|----------------|
 | Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti | Bendra         |
 
-
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
-
-
-
 

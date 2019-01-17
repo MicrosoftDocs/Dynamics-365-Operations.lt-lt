@@ -3,7 +3,7 @@ title: "Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“"
 description: "Šioje temoje pateikiama informacija mašininio mokymo naudojimą norint gauti darbų ir kandidatų į darbo vietas rekomendacijas."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Kai „Attract“ administratorius įjungia „LinkedIn Recruiter“ galimybes, 
 
 Kandidato „LinkedIn“ profilį galite peržiūrėti „Attract“. „LinkedIn“ valdiklis rodys kandidato profilį, kai ATS informacija sutaps su „LinkedIn“ vartotojų informacija.
 
-Norėdami peržiūrėti profilį, atidarykite kandidato profilį iš darbų arba talentų telkinio. Kandidato profilyje pasirinkite skirtuką **LinkedIn** ir bus įkeltas profilio valdiklis. Naudodami profilio valdiklį, nurodykite, ar tai teisingas atitikimas. Jei ne, raskite tinkamą asmenį. Taip pat galite įrašyti kandidatą savo „LinkedIn Recruiter“ projektuose šiame puslapyje.
+Norėdami peržiūrėti profilį, atidarykite kandidato profilį iš darbų arba talentų telkinio. Kandidato profilyje pasirinkite skirtuką **LinkedIn** ir bus įkeltas profilio valdiklis. Taip pat galite įrašyti kandidatą savo „LinkedIn Recruiter“ projektuose šiame puslapyje.
+1. Jei „LinkedIn“ randa atitikmenį pagal el. pašto adresą ir „LinkedIn“ nario ID (tikslus atitikmuo), bus rodomas kandidato profilis. Vartotojas vis dar turite galimybę susieti / atsieti profilį.
+
+2. Jei „LinkedIn“ neranda kandidato pagal jų el. paštą arba nario ID, bus rodomas galimų kandidatų atitikmenų sąrašas pagal kandidatų vardą ir vartotojas gali pasirinkti vieną iš jų ir susieti profilį.  
+
+3. Jei „LinkedIn“ negali rasti kandidato pagal vardą, bus grąžintas pranešimas, kad atitikmenų nerasta.
 
 ### <a name="1-click-export"></a>1 spustelėjimo eksportavimas 
 
@@ -117,11 +122,14 @@ Naudodami „LinkedIn Recruiter“ galite sekti, ar kandidatas pateikė prašym�
 
 6.  Pasirinkite skirtuką **Pastabos**, kad pamatytumėte „Attract“ užfiksuotas pastabas apie šį kandidatą.
 
+> [!NOTE]
+> Kandidatas ir programos duomenys nebus sinchronizuojami su „LinkedIn Recruiter“, jei kandidatas neperėjo potencialaus kandidato etapo.
+
 ### <a name="inmail-history"></a>„InMail“ retrospektyva
 
 „LinkedIn InMail“ retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti visą „InMail“ restrospektyvą, susijusią su kandidatais. Taip pat galite peržiūrėti, kas dar iš jūsų organizacijos susirašinėjo su kandidatu naudodami „InMail“, tačiau negalite peržiūrėti jų žinučių.
 
-Norėdami peržiūrėti „InMail“ retrospektyvą, atidarykite kandidato profilį, pasirinkite skirtuką **LinkedIn** ir slinkite į puslapio apačią, kad peržiūrėtumėte retrospektyvą. „InMail“ retrospektyvą galite peržiūrėti tik jei kandidatas yra atsakė į jūsų užklausą ir pasirinkto su jumis bendrinti savo profilį naudodami „LinkedIn InMail“. Pranešimus iš „InMail“ sinchronizuojami su „Attract“ kas kelias valandas.
+Norėdami peržiūrėti „InMail“ retrospektyvą, atidarykite kandidato profilį, pasirinkite skirtuką **LinkedIn** ir slinkite į puslapio apačią, kad peržiūrėtumėte retrospektyvą. „InMail“ retrospektyvą galite peržiūrėti, jei diskutavote su kandidatu. Pranešimai iš „InMail“ sinchronizuojami su „Attract“ kas kelias valandas.
 
 ### <a name="notes-history"></a>Pastabų retrospektyva 
 
@@ -131,7 +139,7 @@ Norėdami peržiūrėti pastabų retrospektyvą, atidarykite kandidato profilį,
 
 ### <a name="inmail-stub-profile"></a>„InMail“ šaknelės profilis
 
-„InMail“ šaknelės retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Jei kandidatai sutinka bendrinti savo „LinkedIn“ profilį su bet kuriuo vartotoju jūsų organizacijoje, galėsite sekti kandidatus „Attract“ bus sukurtas kiekvieno kandidato įrašas.
+„InMail“ šaknelės retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Jei kandidatai sutinka bendrinti savo „LinkedIn“ profilį su bet kuriuo vartotoju jūsų organizacijoje, galėsite sekti kandidatus „Attract“ bus sukurtas kiekvieno kandidato įrašas. Galite peržiūrėti kandidato el. pašto adresą, jei kandidatas ir jo el. pašto adresas jau yra sistemoje arba jei jis nusprendė pasidalyti savo adresu su darbdaviu.
 
 Norėdami peržiūrėti kandidatų sąrašą, pasirinkite **Talentų telkinius**, kad peržiūrėtumėte sistemos sukurtą „LinkedIn“ talentų telkinį. Šiame talentų telkinyje kandidatai ir jų šaknelės profiliai pateikiami pagal „LinkedIn“ sistemą, kuriame rodomi kandidato vardas ir pavardė. Kandidato el. pašto adreso ID bus rodomas, jei kandidatas pasirinko bendrinti savo el. pašto adresą.
 

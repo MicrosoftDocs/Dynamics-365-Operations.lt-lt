@@ -36,6 +36,7 @@ Kai kuriate pardavimo užsakymą, pristatymo būdą galite pasirinkti pardavimo 
 „Retail“ pateikiama funkcijų, leidžiančių vartotojams apriboti pristatymo būdus, kuriuos galima naudoti pagal kanalą, pristatymo būdus, kuriuos galima naudoti produktui, ir pristatymo būdus, tinkamus konkrečioms siuntos paskirties vietoms. Išlaidas galima apibrėžti taip, kad į kliento užsakymą būtų įtraukti papildomi mokesčiai, priklausantys nuo pristatymo būdų, kurie pasirenkami pagal pardavimo užsakymo ir bendrą užsakymo vertę.
 
 ## <a name="define-delivery-modes"></a>Pristatymo būdų apibrėžimas
+
 Prieš nurodydami, kokius pristatymo būdus galima naudoti skambučių centro užsakymams, ir apibrėždami susijusias taisykles bei mokesčius, turite apibrėžti pristatymo būdus. Eikite į parinktį **Pardavimas ir rinkodara \> Sąranka \> Platinimas \> Pristatymo būdai**. Pasirinkite **Naujas** ir sukurkite naują pristatymo būdą. Taip pat iš sąrašo galite pasirinkti esamą pristatymo būdą ir, pasirinkę **Redaguoti**, atlikti keitimų.
 
 Lauke **Pristatymo būdas**, priklausomai nuo verslo reikalavimų, galite įvesti bet kokį skaitinių ir raidinių simbolių derinį. Tada galite naudoti lauką **Aprašas** ir pateikti papildomo konteksto. Laukai **Išlaidų grupė** ir **Pagreitinimas** yra pasirinktiniai ir apie juos bus išsamiau paaiškinta vėliau šioje temoje.
@@ -47,11 +48,13 @@ Lauke **Pristatymo būdas**, priklausomai nuo verslo reikalavimų, galite įvest
 „FastTab“ skirtuke **Adresai** galite nurodyti, kuriose šalyse arba regionuose ar valstijose pristatymo būdą galima ir kuriose negalima taikyti. Pavyzdžiui, į Havajus arba Aliaską siunčiamų užsakymų negalima pristatyti antžeminiu transportu. Dėl šios priežasties minėtas valstijas reikia pašalinti iš pristatymo būdo, susieto su pristatymo antžeminiu transportu paslauga, bet įtraukti į pristatymo būdą, susietą su pristatymo oru paslauga.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Pristatymo būdų, skirtų užsakymams per skambučių centrą, tikrinimas
+
 Apibrėžę pristatymo būdus, turite vykdyti paketinį vykdymą **Apdoroti pristatymo būdus**. Atliekant šią užduotį pristatymo būdai padaromi pasiekiamais, kad juos būtų galima naudoti mažmeninės prekybos kanalų pardavimo užsakymo procesuose. Norėdami pradėti vykdyti užduotį **Apdoroti pristatymo būdus**, eikite į **Mažmeninė prekyba \> Mažmeninės prekybos IT \> Apdoroti pristatymo būdus**. Šią užduotį reikia vykdyti bet kuriuo metu, kai į mažmeninės prekybos kanalą įtraukiami nauji pristatymo būdai arba atliekami esamo pristatymo būdo / kanalo ryšių keitimai.
 
 Pradėję vykdyti paketinę užduotį **Apdoroti pristatymo būdus** galite eiti į parinktį **Mažmeninė prekyba \> Kanalai \> Skambučių centrai \> Visi skambučių centrai**. Puslapio **Visų skambučių centrai** veiksmų srityje, skirtuke **Nustatymas** pasirinkite **Pristatymo būdai**. Puslapyje **Pristatymo būdai** bus pateikti visi pasirinktam skambučių centro kanalui tinkami pristatymo būdai. Norėdami redaguoti esamus pristatymo būdus ar įtraukti naujų, pasirinkite **Valdyti pristatymo būdus**. Atkreipkite dėmesį, kad užduotį **Apdoroti pristatymo būdus** reikia vykdyti visada, kai atliekama keitimų.
 
 ## <a name="define-charges-for-delivery-services"></a>Išlaidų už pristatymo paslaugas apibrėžimas
+
 Klientams sukūrus pardavimo užsakymų gali būti, kad įmonė norės įtraukti išlaidas, automatiškai apskaičiuojamas pagal pasirinktus užsakymo pristatymo būdus. Šios išlaidos gali būti sukonfigūruotos taip, kad nepriklausomai nuo kliento ir pristatymo būdo būtų vienodos. Taip pat išlaidos gali skirtis priklausomai nuo kliento ir (arba) pardavimo užsakymui parinktų pristatymo būdų.
 
 Norėdami apibrėžti išlaidas, eikite į **Mažmeninė prekyba \> Kanalo sąranka \> Išlaidos \> Automatinės išlaidos**. Pasirinkite **Naujos** ir įtraukite naujų išlaidų. Taip pat galite pasirinkite esamą įrašą, tada – **Redaguoti**.
@@ -73,6 +76,7 @@ Išlaidoms, priklausomai nuo jūsų verslo poreikių, galite taikyti mišrias ka
 ![Mišrių pakopinių išlaidų pavyzdys](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Pristatymo būdų taikymas atliekant užsakymą skambučių centre
+
 Sukūrus naują pardavimo užsakymą, vertę reikia nurodyti lauke **Pristatymo būdas**, kuris pateiktas pardavimo užsakymo antraštės „FastTab“ skirtuke **Pristatymas**. Šis laukas, priklausomai nuo kliento įrašo numatytųjų reikšmių, gali būti užpildytas automatiškai.
 
 Užsakymo antraštėje apibrėžtas pristatymo būdas automatiškai nukopijuojamas į pardavimo užsakymo eilutes, kai tik jos sukuriamos. Tačiau konkrečioje eilutėje nurodytos prekės pristatymo būdą galite pakeisti skirtuke **Pristatymas**, kuris pateiktas pardavimo užsakymo įvedimo skyriuje **Eilutės informacija**.
@@ -80,11 +84,13 @@ Užsakymo antraštėje apibrėžtas pristatymo būdas automatiškai nukopijuojam
 Jei pasirinktas produkto pristatymo būdas arba nurodytas užsakymo arba užsakymo eilutės pristatymo adresas yra netinkamas, bus parodytas klaidos pranešimas. Tada turėsite pasirinkti pristatymo būdą, apibrėžtą norint palaikyti to produkto ar adreso konfigūraciją.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Pristatymo išlaidų apskaičiavimas atliekant užsakymo įvedimą
+
 Jei parametras **Įgalinti užsakymo baigimą** jūsų skambučių centro kanale yra įjungtas, pardavimo užsakymų siuntimo išlaidos apskaičiuojamos automatiškai, kai vartotojai pasirenka **Atlikta**. Puslapio **Pardavimo užsakymo suvestinė** viršuje pateikiamas šis pranešimas: „Pakopinės išlaidos apskaičiuotos“. Apskaičiuotos išlaidos įtraukiamos į lauke **Bendroji pardavimo suma** nurodytą reikšmę. „FastTab“ skirtuko **Suma** lauke **Išlaidos** pateikiama bendra visų išlaidų, apskaičiuotų užsakymui ir eilutėms, suma. Norėdami pamatyti išsamesnę informaciją apie paskirstymą, pasirinkite parinktį **Užsakymas**, pateikiamą puslapyje **Pardavimo užsakymo suvestinė**, tada pasirinkite parinktį **Išlaidos**, kad peržiūrėtumėte, įtrauktumėte arba redaguotumėte išlaidas. Atkreipkite dėmesį, kad pristatymo išlaidų apskaičiavimo metodas užsakymo antraštėje priklauso nuo pristatymo būdo, susieto su antrašte. Eilutės lygio išlaidos už pristatymą apskaičiuojamos atsižvelgus į pristatymo būdą, sukonfigūruotą pardavimo eilutei. Jei skirtingose eilutėse naudojama keletas pristatymo būdų, gali būti taikoma ir kartu įtraukiama keletas mokesčių. Tokiu atveju bendra suma bus nurodyta lauke **Išlaidos**, kuris pateiktas puslapyje **Pardavimo užsakymo suvestinė**.
 
 Jei parametras **Įgalinti užsakymo baigimą** išjungtas, vartotojai turi rankiniu būdu paleisti išlaidų apskaičiavimo funkciją. Puslapio **Pardavimo užsakymas** veiksmų srities skirtuke **Pardavimas**, grupėje **Skaičiuoti** pasirinkite **Pakopinės išlaidos**. Bus rodomas pranešimas „Pakopinės išlaidos apskaičiuotos“. Tada galite pasirinkti parinktį **Išlaidos**, pateiktą skirtuke **Pardavimas**, kad peržiūrėtumėte, redaguotumėte arba panaikintumėte apskaičiuotas išlaidas.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Pagreitintojo pristatymo būdų naudojimas skambučių centro užsakymams
+
 Pagreitinimo kodą su bet kokiu sukonfigūruotu pristatymo būdu galite susieti pasirinktinai. Šis kodas naudojamas kaip prioritetų nustatymo ir ataskaitų kūrimo įrankis. Naudojant kodą papildomi mokesčiai užsakymui šiuo metu nėra taikytini. Norėdami nustatyti pagreitinimo kodus, eikite į parinktį **Pardavimas ir rinkodara \> Sąranka \> Paskirstymas \> Pagreitinimo kodai**.
 
 Pvz., užsakymų, kurie kitą dieną bus išsiųsti oru, atveju, paėmimą sandėlyje reikia atlikti kasdien iki 13 val. Tokiu atveju pagreitinimo kodą sukurti galima ir jis bus susietas su bet kuriuo pristatymo kitą dieną būdu, sukonfigūruotu sistemoje. Kai sandėlyje sukuriama išrinkimo banga, atitinkamą pagreitinimo kodą, nurodytą lauke **Pagreitinimas**, galima naudoti kaip filtrą, kad išrinkimas būtų vykdomas tik tiems užsakymams, kurių pristatymo būdai susieti su tuo kodu.

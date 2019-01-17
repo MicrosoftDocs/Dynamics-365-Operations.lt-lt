@@ -40,6 +40,7 @@ Tolesnėje iliustracijoje parodyti ryšiai tarp įvairių objektų, kuriuos gali
 ![EKA ekrano išdėstymų objektai](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Vaizdo šablonas
+
 Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparatą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus. Kiekvienas prie kasos aparato prisijungęs vartotojas mato tą pačią temą, spalvas ir vaizdus.
 
 ![EKA darbo pradžios ekranas su šviesia tema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 - **Programos fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Kaip ir prisijungimo fonų, šių fonų failų dydis turėtų būti kuo mažesnis.
 
 ## <a name="screen-layouts"></a>Ekrano maketai
+
 Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksmai, turinys ir išdėstymo tvarka EKA darbo pradžios ekrane ir **operacijų** ekrane.
 
 ![EKA ekrano išdėstymo rodinys](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Paleidžiama EKA programa automatiškai pasirenka artimiausią sukonfigūruotą 
 ![EKA išdėstymo dydžiai](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Mygtukynai
+
 Kiekvienam ekrano išdėstymo dydžiui galite sukonfigūruoti ir priskirti EKA darbo pradžios ekrano ir **operacijų** ekrano mygtukynus. Darbo pradžios ekrano mygtukynai automatiškai išdėstomi iš kairės į dešinę, nuo mažiausio skaičiaus (1 darbo pradžios ekranas) iki didžiausio.
 
 Viso dydžio EKA išdėstymuose mygtukynų išdėstymas nurodomas ekrano išdėstymų dizaino įrankyje.
@@ -104,6 +107,7 @@ Kompaktiniuose EKA išdėstymuose mygtukynai automatiškai išdėstomi iš virš
 ![Kompaktinių išdėstymų mygtukynai](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Vaizdai
+
 Kiekvienam ekrano išdėstymo dydžiui galite nurodyti į EKA UI įtrauktinus vaizdus. Viso dydžio EKA išdėstymuose galima nurodyti vieną darbo pradžios ekrano vaizdą. Šis vaizdas rodomas kaip pirmas UI elementas iš kairės. **Operacijų** ekrane vaizdai gali būti naudojami kaip skirtukų vaizdai arba kaip logotipas. Kompaktiniuose EKA išdėstymuose šie vaizdai nenaudojami.
 
 ### <a name="screen-layout-designer"></a>Ekrano maketo dizaineris
@@ -141,11 +145,13 @@ Viso dydžio išdėstymų dizaino įrankis vartotojams leidžia į EKA **operaci
     - **Pasirinktinis valdiklis** – pasirinktinis valdiklis ekrano išdėstyme veikia kaip vietos rezervavimo ženklas ir leidžia rezervuoti vietą pasirinktiniam turiniui. Pasirinktinį valdiklį galima įtraukti tik naudojant viso dydžio išdėstymus.
 
 ### <a name="compact-layout-designer"></a>Kompaktinių išdėstymų dizaino įrankis
+
 Kaip ir viso dydžio išdėstymų dizaino įrankis, kompaktinių išdėstymų dizaino įrankis leidžia konfigūruoti EKA ekrano išdėstymą telefonams ir mažiems planšetiniams kompiuteriams. Tačiau šiuo atveju pats išdėstymas yra fiksuotas. Išdėstyme valdiklius galite konfigūruoti dešiniuoju pelės klavišu spustelėdami ir naudodami kontekstinį meniu. Tačiau negalite naudoti nuvilkimo operacijų su papildomu turiniu.
 
 ![Kompaktinių išdėstymų dizaino įrankis](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Mygtukynų dizaino įrankis
+
 Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima naudoti EKA viso dydžio ir kompaktinių išdėstymų darbo pradžios ekrane bei **operacijų** ekrane. Tą patį mygtukyną galima naudoti įvairiuose išdėstymuose ir su įvairiais išdėstymų tipais. Kaip ir ekrano išdėstymų dizaino įrankis, vartotojui kiekvieną kartą įjungus programą, naudodamas diegimo technologiją „ClickOnce“ mygtukynų dizaino įrankis atsisiunčia, įdiegia ir paleidžia naujausią programos versiją. Būtinai patikrinkite „ClickOnce“ reikalavimus naršyklėms. Kai kuriose naršyklėse, pvz., „Google Chrome“, reikalingi plėtiniai.
 
 ![Mygtukynų dizaino įrankis](../retail/media/Button-Grid-Designer.png)

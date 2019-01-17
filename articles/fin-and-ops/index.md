@@ -51,7 +51,7 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack“, skirtas tarnybai „Dynamics 365“</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
-  
+
 <h3><a href="../financials/index.md">Finansų valdymas</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Gautinos sumos</a></p>
@@ -65,7 +65,7 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 <p><a href="../financials/public-sector/public-sector-functionality.md">Viešasis sektorius</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regioninės reguliavimo priemonės</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Personalas</a></h3>
+<h3><a href="hr/hr-landing-page.md">Personalas</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Išmokos</a></p>
 <p><a href="../talent/performance-management-overview.md">Darbuotojų tobulinimas ir mokymas</a></p>
 <p><a href="../talent/questionnaires.md">Klausimynas</a></p>

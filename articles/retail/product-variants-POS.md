@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Taip pat rodomi kiekvienos vietos **Rezervuoti** ir **Užsakyti** kiekiai.
 
 Vietų sąrašas apima dviejų tipų objektus:
 
-- **Mažmenines parduotuves** – sąraše pateikiamos parduotuvės, kurios yra sukonfigūruotos naudojant dabartinės parduotuvės lokatorių grupę mažmeninių pardavimų valdyme. 
-- **Platinimo centrus** – „Microsoft Dynamics 365 for Retail“ galima sukonfigūruoti įvairių tipų platinimo centrus (pvz., sandėlius). Tačiau sąraše rodoma informacija apie atsargų likučius tik **Standartinio** numatytojo tipo platinimo centruose. 
+- **Mažmenines parduotuves** – sąraše pateikiamos parduotuvės, kurios yra sukonfigūruotos naudojant dabartinės parduotuvės lokatorių grupę mažmeninių pardavimų valdyme.
+- **Platinimo centrus** – „Microsoft Dynamics 365 for Retail“ galima sukonfigūruoti įvairių tipų platinimo centrus (pvz., sandėlius). Tačiau sąraše rodoma informacija apie atsargų likučius tik **Standartinio** numatytojo tipo platinimo centruose.
 
     > [!NOTE]
     > EKA nerodoma informacija apie atsargų likučius **Tranzito**, **Sulaikymo** ir **Išsiųstų prekių** tipų sandėliuose.
@@ -86,7 +86,7 @@ Rodinyje **Dimensijų matrica** produkto variantų langeliuose apatiniame dešin
 | **0** (nulis)                             | Variantas išleistas pasirinktoje vietoje, bet pasirinktos vietoje šios prekės nėra. Tačiau langelyje galite atlikti papildomus veiksmus. (Šie veiksmai bus išsamiau aprašyti vėlesniuose šios temos skyriuose.) |
 | **netaikoma** arba neaktyvus langelis              | Variantas nebuvo išleistas pasirinktoje vietoje, papildomų veiksmų langelyje atlikti negalite. |
 
-Taip pat galite keisti dimensijų suvestinę pasirinkdami naudoti naują dimensiją. 
+Taip pat galite keisti dimensijų suvestinę pasirinkdami naudoti naują dimensiją.
 
 ![Suvestinės keitimas](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Be to, rodinyje **Dimensijų matrica** galima atlikti daugiau veiksmų ir tokiu 
 
 Šioje lentelėje pateikiama daugiau informacijos apie galimus papildomus veiksmus.
 
-
-|        Veiksmas        |                                                                                                                    aprašymas                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Parduoti dabar       |                               Įtraukite pasirinktą prekės variantą į operaciją ir nukreipkite vartotoją į operacijos ekraną. (Šis veiksmas nėra galimas, kai pasirinkta vieta yra platinimo centras.)                               |
-|   Paimti parduotuvėje   |      Sukurkite kliento užsakymą, skirtą produkto variantui, kuris bus paimtas iš pasirinktos vietos, ir nukreipkite vartotoją į operacijos ekraną. (Šis veiksmas nėra galimas, kai pasirinkta vieta yra platinimo centras.)       |
-|     Siųsti produktą     |                                                 Sukurkite kliento užsakymą, skirtą produkto variantui, kuris bus išsiųstas iš pasirinktos vietos, ir nukreipkite vartotoją į operacijos ekraną.                                                 |
-|     Prieinamumas     |                                                                             Rodykite ATP informaciją apie pasirinktą variantų derinį pasirinktoje vietoje.                                                                              |
-|  Visų vietų rodymas  | Pereikite į standartinį atsargų peržvalgos rodinį ir pažymėkite informaciją apie prekės varianto atsargų likučius visose parduotuvėse parduotuvių lokatorių grupėje, taip pat <strong>Standartinio / Numatytojo</strong> tipo platinimo centruose. |
-| Peržiūrėti produkto informaciją |                                                                         Nukreipkite vartotoją į susieto bendrojo produkto puslapį <strong>Produkto informacija</strong>.                                                                          |
-
+| Veiksmas               | aprašymas |
+|----------------------|-------------|
+| Parduoti dabar             | Įtraukite pasirinktą prekės variantą į operaciją ir nukreipkite vartotoją į operacijos ekraną. (Šis veiksmas nėra galimas, kai pasirinkta vieta yra platinimo centras.) |
+| Paimti parduotuvėje     | Sukurkite kliento užsakymą, skirtą produkto variantui, kuris bus paimtas iš pasirinktos vietos, ir nukreipkite vartotoją į operacijos ekraną. (Šis veiksmas nėra galimas, kai pasirinkta vieta yra platinimo centras.) |
+| Siųsti produktą         | Sukurkite kliento užsakymą, skirtą produkto variantui, kuris bus išsiųstas iš pasirinktos vietos, ir nukreipkite vartotoją į operacijos ekraną. |
+| Prieinamumas         | Rodykite ATP informaciją apie pasirinktą variantų derinį pasirinktoje vietoje. |
+| Visų vietų rodymas   | Pereikite į standartinį atsargų peržvalgos rodinį ir pažymėkite informaciją apie prekės varianto atsargų likučius visose parduotuvėse parduotuvių lokatorių grupėje, taip pat **Standartinio / Numatytojo** tipo platinimo centruose. |
+| Peržiūrėti produkto informaciją | Nukreipkite vartotoją į susieto bendrojo produkto puslapį **Produkto informacija**. |
 

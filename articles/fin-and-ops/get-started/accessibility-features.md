@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Dauguma vartotojų naudodami sistemą įveda daug duomenų ir daug dirba klaviat
 
 Visus puslapius, pasiekiamus naudojant naršymo srities meniu kairiausią sritį, taip pat galima pasiekti naudojant lauką **Ieška**. Paspaudę Alt + G, perkelkite įvesties lauką į lauką **Ieška** ir įveskite puslapio pavadinimą arba aprašą.
 
-![Ieškos lange įvesta frazė „Banko sąskaitos“](media/6d08b0be32808221023e2aa92d69fd70.png  "Ieškos lange įvesta frazė „Banko sąskaitos“")
+![Ieškos lange įvesta frazė „Banko sąskaitos“](media/6d08b0be32808221023e2aa92d69fd70.png "Ieškos lange įvesta frazė „Banko sąskaitos“")
 
 Daugiau informacijos žr. [Naršymo ieška](navigation-search.md).
 
@@ -56,17 +56,17 @@ Kiekvieną veiksmą, kuris yra puslapyje, galima pasiekti klaviatūra, naudojant
 
 Norite vykdyti veiksmą **El. paštu siunčiamų pranešimų žurnalas**, kuris rodomas veiksmų srities grupės **El. paštu siunčiami pranešimai** skirtuke **Pardavimo užsakymas**.
 
-![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje")
+![El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "El. paštu siunčiamų pranešimų žurnalo veiksmas veiksmų srityje")
 
 Galima naudoti klaviatūrą. Paspauskite Ctrl + F6, kad perkeltumėte įvesties vietą į veiksmų sritį, tada kelis kartus paspauskite „Tab“, kad pereitumėte nuo vieno skirtuko ir veiksmo iki tol, kol bus suaktyvintas veiksmas **El. paštu siunčiamų pranešimų žurnalas**.
 
 Tačiau taip pat galite paleisti veiksmą labiau tiesiogiai. Bet kurioje puslapio vietoje paspauskite „Ctrl“ + apostrofą ('), kad būtų rodomas veiksmų ieškos laukas.
 
-![Veiksmų ieškos laukas](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Veiksmų ieškos laukas")
+![Veiksmų ieškos laukas](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Veiksmų ieškos laukas")
 
 Ieškos lauke įveskite žodžius, apibūdinančius veiksmą. Veiksmas tampa prieinamas ir galite jį paleisti tiesiogiai. Pavyzdžiui, įvedę **el. paštas**, **praneš** (nepilnas žodis) arba **žurnalas**, galite „peršokti“ prie el. paštu siunčiamų pranešimų žurnalo funkcijos.
 
-![Ieškos lange įvesta frazė „El. paštas“](media/image4.png "Ieškos lange įvesta frazė „El. paštas“") 
+![Ieškos lange įvesta frazė „El. paštas“](media/image4.png "Ieškos lange įvesta frazė „El. paštas“")
 
 ![Ieškos lange įvesta frazė „Pranešim“](media/image5.png "Ieškos lange įvesta frazė „Pranešim“")
 
@@ -82,7 +82,7 @@ Kasdieniam sistemos naudojimui nebūtinas kiekvienas laukas norint atlikti įpra
 
 Tačiau gali būti, kad kai kurie laukai, kuriuos dažnai naudojate užduotims atlikti, neįtraukti į numatytąją tabuliavimo seką. Tokiu atveju, jei naudojate „Windows“ diktorių, galite naudoti „Windows“ diktoriaus klaviatūros veiksmus, kad pasiektumėte tuos laukus ir patikrintumėte jų turinį. Taip pat galite įjungti parinktį **Patobulinta tabuliavimo seka** puslapyje **Parinktys**. Ši parinktis į seką įtraukia visus galimus redaguoti ir tik skaitomus laukus. Tada galite naudoti puslapio personalizavimą, kad sukurtumėte pasirinktinę tabuliavimo seką ir praleistumėte laukus, kurių nenorite tabuliavimo sekoje. Daugiau informacijos apie personalizavimą žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).
 
-![Parinktis Patobulinta skirtukų seka](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "Parinktis Patobulinta skirtukų seka")
+![Parinktis Patobulinta skirtukų seka](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Parinktis Patobulinta skirtukų seka")
 
 ## <a name="form-patterns"></a>Formų šablonai
 

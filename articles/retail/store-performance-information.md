@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realiojo laiko analizę, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail‟ duomenis. 
+Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realiojo laiko analizę, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail‟ duomenis.
 
 Naudodami „Microsoft Dynamics 365 for Retail“ vartotojai gali tirti parduotuvės efektyvumą realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose per pasirinktą laikotarpį, atidarydami parengtą naudoti ataskaitą **Kanalo suvestinė** bet kurioje iš toliau nurodytų vietų.
 
--   Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
--   Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
--   Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
+- Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
+- Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
+- Dalis **Užklausos ir ataskaitos** &gt; **Mažmeninė prekyba** &gt; **Užklausos ir ataskaitos** &gt; **Pardavimo ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
 
 Šioje ataskaitoje toliau nurodytų suvestinių momentinė kopija pateikiama kaip parduotuvės efektyvumo tikrinimo dalis.
 
--   Bruto pardavimo suvestinė
--   Mokėjimo priemonės tipo suvestinė
--   Mokesčių suvestinė
--   Kainų nepaisymo suvestinė
--   Nuolaidų suvestinė
-
-
+- Bruto pardavimo suvestinė
+- Mokėjimo priemonės tipo suvestinė
+- Mokesčių suvestinė
+- Kainų nepaisymo suvestinė
+- Nuolaidų suvestinė
 

@@ -3,7 +3,7 @@ title: "Finansinės dimensijos"
 description: "Šioje temoje aprašomi įvairūs finansinių dimensijų tipai ir tai, kaip jie nustatomi."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: lt-lt
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Naujose dimensijose pagrindinių įrašų, pvz., kliento ir tiekėjo, vertes gal
 Ši funkcija valdoma naudojant dimensijos parametrą. Šio parametro pavadinimas – **Kopijuoti vertes į šią dimensiją kiekviename sukurtame naujame DimensionName**, o **DimensionName** yra dimensijos pavadinimas. Pagal numatytuosius nustatymus ši funkcija išjungta. Tačiau bet kuriuo metu galima ją įjungti.
 
 Jei dimensijos įrašai jau yra, įjungus funkciją atnaujinami pagrindiniai įrašai. Tačiau esami dokumentai ir operacijos neatnaujinami.
+
+Jei naudojate šabloną kurdami pagrindinį įrašą, patikrinkite, ar bendrosios dimensijos šablono reikšmė yra tuščia. Pvz., jei kuriate klientus iš šablono, įsitikinkite, kad kliento dimensija šablone yra tuščia. Kai kuriate naują klientą, kliento dimensijos vertė bus numatytoji pagal naujo kliento numerį.  
 
 ## <a name="derived-dimensions"></a>Išvestiniai matmenys
 

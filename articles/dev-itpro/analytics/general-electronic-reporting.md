@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame
 - aplinkų diegimo debesyje įrankis, įdiegtas kūrimo tikslais (pateikiami bandomieji pridėtų komplektų modeliai)
 - vietoje įdiegtos aplinkos (vietinių ar vietos verslo duomenų diegimas (LBD))
 
-Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas](/electronic-reporting-import-ger-configurations.md).
+Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas](./electronic-reporting-import-ger-configurations.md).
 
 Saugykla **RCS egzempliorius** suteikia prieigą prie tam tikro RCS egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. ER užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius leidžia importuoti į dabartinį „Finance and Operations“ egzempliorių ir naudoti jas elektroninėms ataskaitoms.
 
-Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš reguliavimo konfigūravimo tarnybų (RCS)](/rcs-download-configurations.md).
+Norėdami apie tai sužinoti daugiau, apsilankykite puslapyje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš reguliavimo konfigūravimo tarnybų (RCS)](./rcs-download-configurations.md).
 
 Galima registruoti atskirai kiekvieno dabartinio „Finance and Operations“ egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **Reguliavimo konfigūravimo tarnybos (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 

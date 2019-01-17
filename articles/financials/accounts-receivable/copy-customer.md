@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Kai kopijuojate klientą, sistema bando įrašyti naujojo kliento informaciją. 
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Kliento kopijavimas naudojant neapmokestinimo kodo ieškos funkciją
 
-Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieška, esančią puslapio **Visi klientai** veiksmų srities skirtuko **Klientas** grupėje **Registracija**. Pasirodžiusiame dialogo lange **Neapmokestinimo kodo ieška** rodomi neapmokestinimo kodai, kliento ID, kliento pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID. Klientą galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas. Pasirinkę šį kriterijų atitinkantį klientą, atlikite šiuos veiksmus.
+Klientus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieška, esančią puslapio **Visi klientai** veiksmų srities skirtuko **Klientas** grupėje **Registracija**. Pasirodžiusiame dialogo lange **Neapmokestinimo kodo ieška** rodomi neapmokestinimo kodai, kliento ID, kliento pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID. Klientą galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas. Pasirinkę šį kriterijų atitinkantį klientą, atlikite šiuos veiksmus.
 
 1. Pasirodo parinktis **Kopijuoti klientą**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami klientą nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**. 
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas klientas.

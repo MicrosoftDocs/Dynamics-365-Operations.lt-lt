@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,26 +34,25 @@ Norėdami konfigūruoti lygiagrečią veiklą, darbo eigos rengyklėje atlikite 
 Lygiagrečią veiklą sudaro vienu metu veikiančios darbo eigos šakos.
 
 ## <a name="name-a-parallel-activity"></a>Lygiagrečios veiklos pavadinimas
+
 Norėdami įvesti lygiagrečios veiklos pavadinimą, atlikite šiuos veiksmus.
-1.  Dešiniuoju pelės mygtuku spustelėkite lygiagrečią veiklą, o tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
-2.  Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
-3.  Lauke **Pavadinimas** įveskite unikalų lygiagrečios veiklos pavadinimą.
-4.  Spustelėkite **Uždaryti**.
+
+1. Dešiniuoju pelės mygtuku spustelėkite lygiagrečią veiklą, o tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
+2. Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.
+3. Lauke **Pavadinimas** įveskite unikalų lygiagrečios veiklos pavadinimą.
+4. Spustelėkite **Uždaryti**.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Lygiagrečios veiklos šakų konfigūravimas
+
 Atlikite šiuos veiksmus, norėdami įtraukti ir konfigūruoti šios lygiagrečios veiklos šakas.
+
 1. Dukart spustelėkite lygiagrečią veiklą, kad būtų rodomos lygiagrečios veiklos šakos.
-2. Norėdami įtraukti šaką, nuvilkite elementą **Šaka** iš srities **Darbo eigos elementai** į įterpimo vietą drobėje. Toliau pateiktame paveikslėlyje parodyta įterpimo vieta.![Įterpimo vieta](./media/workflow_insertionpoint.gif)
+2. Norėdami įtraukti šaką, nuvilkite elementą **Šaka** iš srities **Darbo eigos elementai** į įterpimo vietą drobėje. Toliau pateiktame paveikslėlyje parodyta įterpimo vieta.
 
-   |                                              <strong>Pastaba.</strong>                                               |
-   |------------------------------------------------------------------------------------------------------------------|
-   | Šakų tvarka nėra svarbi, nes visos lygiagrečios veiklos šakos vykdomos tuo pačiu metu. |
+    ![Įterpimo vieta](./media/workflow_insertionpoint.gif)
 
+    > [!NOTE]
+    > Šakų tvarka nėra svarbi, nes visos lygiagrečios veiklos šakos vykdomos tuo pačiu metu.
 
 3. Norėdami konfigūruoti kiekvieną šaką, žr. puslapį [Lygiagrečios šakos konfigūravimas](configure-parallel-branch-workflow.md).
-
-
-
-
-
 

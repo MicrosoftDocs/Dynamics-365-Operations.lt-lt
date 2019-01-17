@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 29a46eb2ec36fdc7e52b148efdadd4401bc8bca2
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,59 +31,80 @@ ms.lasthandoff: 08/09/2018
 
 Šiame straipsnyje aprašomos naujos ir pakeistos 7.0.1 programos „Microsoft Dynamics AX“ versijoje veikiančios funkcijos. Ši versija buvo išleista 2016 m. gegužės mėn. ir jos versijos numeris yra 7.0.1265.23014.
 
-<a name="electronic-reporting-er"></a>Elektroninė ataskaita (ER)
--------------------------
+## <a name="electronic-reporting-er"></a>Elektroninė ataskaita (ER)
 
-|                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ką galite daryti?**                                                                                                                                                                   | **Kodėl tai svarbu?**                                                                                                                                                                                                                                                                                                                             |
-| Sukonfigūruokite elektroninė perdavimo ataskaitų (ER) kūrimo apdorojimo laiko dialogo langą, kad vartotojai galėtų pasirinkti norimas finansines dimensijas.                                     | Apdorojimo metu ER ataskaitos apdorojimo dialogo lange vartotojai gali pasirinkti kelias finansines dimensijas. Pasirinktų finansinių dimensijų išsami informacija bus rodoma sugeneruotame elektroniniame dokumente.                                                                                                                              |
-| Kai kuriate ER ataskaitą, sukonfigūruokite prieigą prie kelių finansinių dimensijų, nustatydami vieną susiejimą su norimo duomenų šaltiniu.                                                  | Tą pačią ER ataskaitos konfigūraciją galima naudoti generuojant elektroninius dokumentus, kuriuose pateikiami operaciniai duomenys ir išsami informacija apie finansines dimensijas, nepriklausomai nuo vartotojo pasirinktų arba dabartiniam juridiniam subjektui ar egzemplioriui sukonfigūruotų finansinių dimensijų skaičiaus.                                             |
-| Konfigūruokite ER ataskaitą, kad jį duomenis įvestų į OPENXML darbalapio formatu sukurto elektroninio dokumento dinamiškai sugeneruotus stulpelius.                                           | ER ataskaita gali įvesti duomenis į sugeneruotą OPENXML darbalapį horizontaliai pakeisdama stulpelius. Todėl pakartotinai naudojant tą pačią ER ataskaitos konfigūraciją galima generuoti elektroninius dokumentus, kurie turi skirtingą dinamiškai sugeneruotų stulpelių skaičių.                                                                                 |
+| Ką galite daryti? | Kodėl tai svarbu? |
+|------------------|------------------------|
+| Sukonfigūruokite elektroninė perdavimo ataskaitų (ER) kūrimo apdorojimo laiko dialogo langą, kad vartotojai galėtų pasirinkti norimas finansines dimensijas. | Apdorojimo metu ER ataskaitos apdorojimo dialogo lange vartotojai gali pasirinkti kelias finansines dimensijas. Pasirinktų finansinių dimensijų išsami informacija bus rodoma sugeneruotame elektroniniame dokumente. |
+| Kai kuriate ER ataskaitą, sukonfigūruokite prieigą prie kelių finansinių dimensijų, nustatydami vieną susiejimą su norimo duomenų šaltiniu. | Tą pačią ER ataskaitos konfigūraciją galima naudoti generuojant elektroninius dokumentus, kuriuose pateikiami operaciniai duomenys ir išsami informacija apie finansines dimensijas, nepriklausomai nuo vartotojo pasirinktų arba dabartiniam juridiniam subjektui ar egzemplioriui sukonfigūruotų finansinių dimensijų skaičiaus. |
+| Konfigūruokite ER ataskaitą, kad jį duomenis įvestų į OPENXML darbalapio formatu sukurto elektroninio dokumento dinamiškai sugeneruotus stulpelius. | ER ataskaita gali įvesti duomenis į sugeneruotą OPENXML darbalapį horizontaliai pakeisdama stulpelius. Todėl pakartotinai naudojant tą pačią ER ataskaitos konfigūraciją galima generuoti elektroninius dokumentus, kurie turi skirtingą dinamiškai sugeneruotų stulpelių skaičių. |
 | Konfigūruokite ER paskirties vietas, kad formato išeigos rezultatas būtų nukreiptas į konkrečią paskirties vietą: failą, el. pašto adresą arba archyvą („Microsoft SharePoint“ aplanką arba „Microsoft Azure“ saugyklą). | Anksčiau paleidžiant ER konfigūraciją pasirodydavo pranešimo langas, nurodantis vartotojui failą įrašyti arba atidaryti. Dabar kiekvienos formato konfigūracijos ir kiekvienos komponento paskirties vietą (aplanką arba failą) galite iš anksto sukonfigūruoti atskirai. Vartotojai, turintys reikiamas teises, paskirties vietos parametrus gali taip pat keisti apdorojimo metu. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>EKA – „Microsoft Dynamics AX Retail“
 
-|                                |                                                                                                                                                                                         |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ką galite daryti?**           | **Kodėl tai svarbu?**                                                                                                                                                              |
+| Ką galite daryti? | Kodėl tai svarbu? |
+|------------------|------------------------|
 | Naudokite naršyklę „Google Chrome“. | Dabar mažmenininkai debesies EKA gali paleisti naršyklėje „Chrome“ ir naudoti visas funkcijas, kurios yra debesies EKA „Microsoft Edge“ ir „Internet Explorer“ versijose. |
 
 ## <a name="financial-reporting"></a>Finansinės ataskaitos
 
-|                                                                     |                                                                                                                                                                                                                                                                                                                    |
-|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ką galite daryti?**                                                | **Kodėl tai svarbu?**                                                                                                                                                                                                                                                                                         |
-| Atstatykite finansinių ataskaitų duomenų sritį.                          | Kai „Dynamics AX“ duomenų bazes perkeliate iš vienos aplinkos į kitą arba atliekate kitus esminius aplinkos pakeitimus, finansinių ataskaitų duomenų bazę gali tekti kurti iš naujo. Nuo šiol „Windows PowerShell“ scenarijus teikiamas duomenų bazei kurti iš naujo.                                                                |
+| Ką galite daryti? | Kodėl tai svarbu? |
+|------------------|------------------------|
+| Atstatykite finansinių ataskaitų duomenų sritį. | Kai „Dynamics AX“ duomenų bazes perkeliate iš vienos aplinkos į kitą arba atliekate kitus esminius aplinkos pakeitimus, finansinių ataskaitų duomenų bazę gali tekti kurti iš naujo. Nuo šiol „Windows PowerShell“ scenarijus teikiamas duomenų bazei kurti iš naujo. |
 | Daugiau nebegalite pasirinkti ataskaitų dizaino įrankio parinkčių, kurios negalioja. | Kelios ataskaitų kūrimo parinktys, kurios buvo naudojamos rinkoje esančiose „Management reporter“ versijose, šioje „Dynamics AX“ versijoje netaikomos. Šios parinktys buvo susijusios su finansinių ataskaitų kūrimu, išvedamais duomenimis ir susiejimu. Šios parinktys buvo pašalintos iš finansinių ataskaitų dizaino įrankio, kad vartotojai nedarytų klaidų. |
 
 ## <a name="financial-management"></a>Finansų valdymas
 
-|                                                            |                                                                  |
-|------------------------------------------------------------|------------------------------------------------------------------|
-| **Ką galite daryti?**                                       | **Kodėl tai svarbu?**                                       |
+| Ką galite daryti? | Kodėl tai svarbu? |
+|------------------|------------------------|
 | Generuokite mokėtinų sumų mokėjimų teigiamo mokėjimo failus. | Galima generuoti teigiamo mokėjimo failus, kad bankai galėtų lengviau išvengti su čekiais susijusio sukčiavimo. |
 
 ## <a name="warehouse-and-production"></a>Sandėlis ir gamyba
 
-|                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ką galite daryti?**                                                                                                                                                                                                                                                                                                                                                                    | **Kodėl tai svarbu?**                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Nustatykite sandėlio darbo strategiją, kuri kontroliuoja produktų rinkinio darbo kūrimą konkrečiose vietose.                                                                                                                                                                                                                                                                          | Sandėlio procesai ne visada apima darbą. Naudodami naująją sandėlio darbo strategiją, galite neleisti konkrečiose vietose kurti tam tikro produktų rinkinio žaliavų paėmimo ir pagamintų prekių padėjimo darbo.                                                                                                                                                                                                     |
-| Nurodykite, kad gamybos išeigos vieta nėra kontroliuojama pagal numerio lentelę.                                                                                                                                                                                                                                                                                                               | Dabar galite nurodyti, kad produktų išeigos vieta nėra kontroliuojama pagal numerio lentelę. Pavyzdžiui, ši funkcija yra naudinga, kai pirminės gamybos užsakymas ataskaitą apie baigtas prekes pateikia tiesiai toje vietoje, kuri naudojama kaip tolesnio gamybos užsakymo gamybos išeigos vieta.                                                                                                                                                     |
-| Teikite pagalbą KS, kuriose yra prekių, turinčių skirtingas tos pačios prekės produktų dimensijas.                                                                                                                                                                                                                                                                                                     | Gamyboje naudodami vieną ar kelias produkto dimensijas, gali būti atvejų, kai jūs norėsite prekę gaminti pagal kitą tos pačios prekės variantą. Daugiau informacijos žr. [šiame tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
-| Gamybos užsakymai, kurių cikliškumo struktūros yra pirmame KS lygyje, nėra įtraukiamos į materialiųjų išteklių planavimo KS lygio skaičiavimą.                                                                                                                                                                                                                                     | Produkto variantams priskirti teisingų KS lygių neįmanoma, jei pasirinkti gamybos užsakymai yra KS hierarchijos cikliškumo priežastis.                                                                                                                                                                                                                                                                                                  |
-| Apskaičiuokite atskirus materialiųjų išteklių planavimo ir išlaidų apskaičiavimo KS lygius. • Materialiųjų išteklių planavimo KS lygiai yra apskaičiuojami naujoje lentelėje **ReqItemLevel**. Baigti gamybos užsakymai į skaičiavimą neįtraukiami. • Gamybos išlaidų skaičiavimo KS lygiai yra apskaičiuojami lentelėje **InventTable**. Baigti gamybos užsakymai įtraukiami į skaičiavimą. | • Vykdant materialiųjų išteklių planavimą, pvz., bendrojo planavimo plano planavimą ir išskleidimą, reikia perskaičiuoti tik materialiųjų išteklių planavime naudojamus KS lygius. Kitaip tariant, gamybos išlaidų skaičiavime naudojamų KS lygių skaičiuoti nereikia. • Vykdant išlaidų operacijas, pvz., atsargų uždarymą, reikia perskaičiuoti tik gamybos išlaidų skaičiavime naudojamus KS lygius. |
+<table>
+<thead>
+<tr>
+<th>Ką galite daryti?</th>
+<th>Kodėl tai svarbu?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nustatykite sandėlio darbo strategiją, kuri kontroliuoja produktų rinkinio darbo kūrimą konkrečiose vietose.</td>
+<td>Sandėlio procesai ne visada apima darbą. Naudodami naująją sandėlio darbo strategiją, galite neleisti konkrečiose vietose kurti tam tikro produktų rinkinio žaliavų paėmimo ir pagamintų prekių padėjimo darbo.</td>
+</tr>
+<tr>
+<td>Nurodykite, kad gamybos išeigos vieta nėra kontroliuojama pagal numerio lentelę.</td>
+<td>Dabar galite nurodyti, kad produktų išeigos vieta nėra kontroliuojama pagal numerio lentelę. Pavyzdžiui, ši funkcija yra naudinga, kai pirminės gamybos užsakymas ataskaitą apie baigtas prekes pateikia tiesiai toje vietoje, kuri naudojama kaip tolesnio gamybos užsakymo gamybos išeigos vieta.</td>
+</tr>
+<tr>
+<td>Teikite pagalbą KS, kuriose yra prekių, turinčių skirtingas tos pačios prekės produktų dimensijas.</td>
+<td>Gamyboje naudodami vieną ar kelias produkto dimensijas, gali būti atvejų, kai jūs norėsite prekę gaminti pagal kitą tos pačios prekės variantą. Daugiau informacijos žr. <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">šiame tinklaraštyje</a>.</td>
+</tr>
+<tr>
+<td>Gamybos užsakymai, kurių cikliškumo struktūros yra pirmame KS lygyje, nėra įtraukiamos į materialiųjų išteklių planavimo KS lygio skaičiavimą.</td>
+<td>Produkto variantams priskirti teisingų KS lygių neįmanoma, jei pasirinkti gamybos užsakymai yra KS hierarchijos cikliškumo priežastis.</td>
+</tr>
+<tr>
+<td>Apskaičiuokite atskirus materialiųjų išteklių planavimo ir išlaidų apskaičiavimo KS lygius.
+<ul>
+<li>Materialinių išteklių planavimo KS lygiai yra apskaičiuojami naujoje lentelėje <strong>ReqItemLevel</strong>. Baigti gamybos užsakymai į skaičiavimą neįtraukiami.</li>
+<li>Gamybos išlaidų skaičiavimo KS lygiai yra apskaičiuojami lentelėje <strong>InventTable</strong>. Baigti gamybos užsakymai įtraukiami į skaičiavimą.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Vykdant materialiųjų išteklių planavimą, pvz., bendrojo planavimo plano planavimą ir išskleidimą, reikia perskaičiuoti tik materialiųjų išteklių planavime naudojamus KS lygius. Kitaip tariant, gamybos išlaidų skaičiavime naudojamų KS lygių skaičiuoti nereikia.</li>
+<li>Vykdant išlaidų operacijas, pvz., atsargų uždarymą, reikia perskaičiuoti tik gamybos išlaidų skaičiavime naudojamus KS lygius.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
-
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kas nauja ar pasikeitė](whats-new-changed.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
-
-
-
 

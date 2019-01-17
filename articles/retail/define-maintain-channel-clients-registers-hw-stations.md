@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952ece965f467a19c911219382da00dd25a29e7
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,18 +33,24 @@ ms.lasthandoff: 08/09/2018
 
 Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
 
-**Pastaba.** Norėdami konkrečių diegimo instrukcijų, žr. dalis [„Retail hardware station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Retail Modern POS‟ savitarnos savitarnos atsisiuntimas / diegimas ir „Modern POS“ bei „Cloud POS“ įrenginio aktyvinimas](retail-modern-pos-device-activation.md).
+> [!NOTE]
+> Norėdami konkrečių diegimo instrukcijų, žr. dalis [„Retail hardware station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Retail Modern POS‟ savitarnos savitarnos atsisiuntimas / diegimas ir „Modern POS“ bei „Cloud POS“ įrenginio aktyvinimas](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Pagrindiniai komponentai
+
 Galima naudoti kelis komponentus, norint nustatyti ryšius tarp parduotuvės, elektroninio kasos aparato (EKA) registrų arba kanalų parduotuvėje ir mažmeninės prekybos išorinių įrenginių, kuriuos tie registrai arba kanalai naudoja operacijoms apdoroti. Šiame skyriuje aprašomi visi komponentai ir paaiškinama, kaip juos naudoti mažmeninės prekybos parduotuvėje.
 
 ### <a name="pos-registers"></a>EKA registrai
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar sąranką, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**.
+
+EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar sąranką, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
 
 ### <a name="devices"></a>Įrenginiai
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginiai gali būti dviejų tipų: **Retail Modern POS** (MPOS) arba **Retail Cloud POS** („Cloud POS“).
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**.
+
+Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginiai gali būti dviejų tipų: **Retail Modern POS** (MPOS) arba **Retail Cloud POS** („Cloud POS“).
 
 #### <a name="mpos"></a>MPOS
 
@@ -56,29 +62,43 @@ MPOS yra EKA kliento programa, įdiegta„"Windows 8.1“ arba naujesnės versij
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
-Naršymas: spustelėkite **Prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**. Aparatūros šablonas nurodo aparatūrą, kuri yra prijungta prie EKA registro arba aparatūros stoties. Aparatūros šablonas taip pat naudojamas, siekiant nurodyti mokėjimo procesorius parametrus, kurie turėtų būti naudojami palaikant ryšį su mokėjimo programinės įrangos kūrimo rinkiniu (SDK). (Mokėjimo SDK įdiegiamas kaip aparatūros stoties dalis.)
+Naršymas: spustelėkite **Prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros šablonai**.
+
+Aparatūros šablonas nurodo aparatūrą, kuri yra prijungta prie EKA registro arba aparatūros stoties. Aparatūros šablonas taip pat naudojamas, siekiant nurodyti mokėjimo procesorius parametrus, kurie turėtų būti naudojami palaikant ryšį su mokėjimo programinės įrangos kūrimo rinkiniu (SDK). (Mokėjimo SDK įdiegiamas kaip aparatūros stoties dalis.)
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Aparatūros stotis yra verslo logikos pavyzdys, išplečia EKA išorinių įrenginių valdymo galimybes. Aparatūros stotis yra automatiškai diegiama kartu su MPOS. Arta aparatūros stotį taip pat galima įdiegti kaip atskirą komponentą ir tada per žiniatinklio tarnybą ją pasiekti naudojant MPOS arba „Cloud POS“. Aparatūros stotį reikia apibrėžti kanalo lygiu.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**.
+
+Aparatūros stotis yra verslo logikos pavyzdys, išplečia EKA išorinių įrenginių valdymo galimybes. Aparatūros stotis yra automatiškai diegiama kartu su MPOS. Arta aparatūros stotį taip pat galima įdiegti kaip atskirą komponentą ir tada per žiniatinklio tarnybą ją pasiekti naudojant MPOS arba „Cloud POS“. Aparatūros stotį reikia apibrėžti kanalo lygiu.
 
 ### <a name="hardware-station-profile"></a>Aparatūros stoties profilis
 
-Naršymas: spustelėkite **Prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**. Kadangi pati aparatūros stotis yra nurodyta kanalo lygiu ir apima egzemplioriui būdingą informaciją, pvz., aparatūros stoties URL, aparatūros stoties šablonas apima informaciją, kuri gali būti statinė arba bendrai naudojama keliose aparatūros stotyse. Statinė informacija apima naudotiną prievadą, aparatūros stoties paketą ir aparatūros šabloną. Statinė informacija taip pat apima naudojamos aparatūros stoties aprašą, pvz., **Kasa** arba **Grąžinimai**, priklausomai nuo aparatūros, reikalingos kiekvienai konkrečiai aparatūros stočiai.
+Naršymas: spustelėkite **Prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**.
+
+Kadangi pati aparatūros stotis yra nurodyta kanalo lygiu ir apima egzemplioriui būdingą informaciją, pvz., aparatūros stoties URL, aparatūros stoties šablonas apima informaciją, kuri gali būti statinė arba bendrai naudojama keliose aparatūros stotyse. Statinė informacija apima naudotiną prievadą, aparatūros stoties paketą ir aparatūros šabloną. Statinė informacija taip pat apima naudojamos aparatūros stoties aprašą, pvz., **Kasa** arba **Grąžinimai**, priklausomai nuo aparatūros, reikalingos kiekvienai konkrečiai aparatūros stočiai.
 
 ## <a name="scenarios"></a>Scenarijai
+
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS su prijungtais išoriniais įrenginiais
 
-[![Tradicinis, fiksuotas elektroninis kasos aparatas](./media/traditional-300x279.png)](./media/traditional.png) 
+[![Tradicinis, fiksuotas elektroninis kasos aparatas](./media/traditional-300x279.png)](./media/traditional.png)
 
-Norint MPOS prijungti prie EKA išorinio įrenginio pagal tradicinio, fiksuoto POS scenarijų, pirmiausia naršydami pasirinkite patį registrą ir priskirkite jam aparatūros šabloną. POS registrus galite rasti pasirinkę **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **POS sąranka** &gt; **Registrai**. Priskyrę aparatūros šabloną, sinchronizuokite keitimus su kanalo duomenų baze, naudodami paskirstymo grafiką „Registrai“. Paskirstymo grafikus galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Pasiskirstymo grafikas**. Tada kanale nustatykite „vietos“ aparatūros stotį. Spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės** ir pasirinkite parduotuvę. Tada „FastTab“ **Aparatūros stotys** spustelėkite **Įtraukti**, kad įtrauktumėte aparatūros stotį. Įveskite aprašą, įveskite **localhost** kaip pagrindinio kompiuterio vardą, o tada sinchronizuokite keitimus su kanalu, naudodami paskirstymo grafiką „Kanalo konfigūravimas“. Paskirstymo grafikus galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Pasiskirstymo grafikas**. Galiausiai MPOS naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte **localhost** aparatūros stotį. Nustatykite aparatūros stotį parinktį **Aktyvi**. Šiame scenarijuje naudojamas aparatūros šablonas turėtų būti gautas iš pačio POS registro. Šiame scenarijuje aparatūros stoties šablonas nereikalingas. **Pastaba.** Atlikus kai kuriuos aparatūros šablono keitimams, pavyzdžiui kasos stalčių keitimus, ir juos sinchronizavus su kanalu, reikia atidaryti naują pamainą. **Pastaba.** „Cloud POS“ ryšiui su mažmeninės prekybos išoriniais įrenginiais palaikyti turi būti naudojama atskira aparatūros stotis.
+Norint MPOS prijungti prie EKA išorinio įrenginio pagal tradicinio, fiksuoto POS scenarijų, pirmiausia naršydami pasirinkite patį registrą ir priskirkite jam aparatūros šabloną. POS registrus galite rasti pasirinkę **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **POS sąranka** &gt; **Registrai**. Priskyrę aparatūros šabloną, sinchronizuokite keitimus su kanalo duomenų baze, naudodami paskirstymo grafiką „Registrai“. Paskirstymo grafikus galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Pasiskirstymo grafikas**. Tada kanale nustatykite „vietos“ aparatūros stotį. Spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės** ir pasirinkite parduotuvę. Tada „FastTab“ **Aparatūros stotys** spustelėkite **Įtraukti**, kad įtrauktumėte aparatūros stotį. Įveskite aprašą, įveskite **localhost** kaip pagrindinio kompiuterio vardą, o tada sinchronizuokite keitimus su kanalu, naudodami paskirstymo grafiką „Kanalo konfigūravimas“. Paskirstymo grafikus galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Pasiskirstymo grafikas**. Galiausiai MPOS naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte **localhost** aparatūros stotį. Nustatykite aparatūros stotį parinktį **Aktyvi**. Šiame scenarijuje naudojamas aparatūros šablonas turėtų būti gautas iš pačio POS registro. Šiame scenarijuje aparatūros stoties šablonas nereikalingas.
+
+> [!NOTE]
+> Atlikus kai kuriuos aparatūros šablono keitimams, pavyzdžiui kasos stalčių keitimus, ir juos sinchronizavus su kanalu, reikia atidaryti naują pamainą.
+>
+> „Cloud POS“ ryšiui su mažmeninės prekybos išoriniais įrenginiais palaikyti turi būti naudojama atskira aparatūros stotis.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS arba „Cloud POS“ su atskira aparatūros stotimi
+
 [![Bendrinami išoriniai įrenginiai](./media/shared-300x254.png)](./media/shared.png)
 
-Pagal šį scenarijų atskirą aparatūros stotį bendrai naudoja MPOS ir „Cloud POS“ klientai. Šiame scenarijuje reikia sukurti aparatūros stoties šabloną ir nurodyti aparatūros stoties naudojamus atsisiuntimo paketą, prievadą ir aparatūros šabloną. Aparatūros stoties šabloną galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**. Sukūrę aparatūros stoties šabloną, naršydami pasirinkite konkretų mažmeninės prekybos kanalą (**Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**) ir įtraukite naują aparatūros stotį. Susiekite šią naują aparatūros stotį su anksčiau sukurtu aparatūros stoties šablonu. Tada pateikite aprašymą, kuris kasininkui padės identifikuoti aparatūros stotį. Lauke **Pagrindinio kompiuterio vardas** įveskite pagrindinio kompiuterio mašinos URL šiuo formatu: **https://&lt;MachineName:Port&gt;/HardwareStation**. (**&lt;MachineName:Port&gt;** pakeiskite faktiniu aparatūros stoties ir prievado mašinos pavadinimu, nurodytu aparatūros stoties šablone.) Ši reikšmė identifikuoja EFT terminalą, kuris yra prijungtas prie aparatūros stoties, kai mokėjimo jungtis užmezga ryšį su mokėjimo paslaugų teikėju. Tada naršydami faktinę aparatūros stoties mašiną pasirinkite kanalą ir pasirinkite aparatūros stotį. Spustelėkite **Atsisiųsti** ir įdiekite aparatūros stotį. Tada MPOS arba „Cloud POS“ naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte anksčiau įdiegtą aparatūros stotį. Pasirinkite **Susieti**, kad sukurtumėte saugų ryšį tarp EKA ir aparatūros stoties. Šį veiksmą reikia atlikti kuriant kiekvieno POS ir aparatūros stoties derinio ryšį. Susiejus aparatūros stotį, ta pačia operacija naudojama aparatūros stotis suaktyvinama. Šiame scenarijuje aparatūros šablonas turėtų būti priskirtas aparatūros stoties šablonui, o ne pačiam registrui. Jei dėl tam tikros priežasties aparatūros stotis neturi tiesiogiai priskirto aparatūros šablono, tada aparatūros šablonas priskiriamas naudojamam registrui
+Pagal šį scenarijų atskirą aparatūros stotį bendrai naudoja MPOS ir „Cloud POS“ klientai. Šiame scenarijuje reikia sukurti aparatūros stoties šabloną ir nurodyti aparatūros stoties naudojamus atsisiuntimo paketą, prievadą ir aparatūros šabloną. Aparatūros stoties šabloną galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**. Sukūrę aparatūros stoties šabloną, naršydami pasirinkite konkretų mažmeninės prekybos kanalą (**Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**) ir įtraukite naują aparatūros stotį. Susiekite šią naują aparatūros stotį su anksčiau sukurtu aparatūros stoties šablonu. Tada pateikite aprašymą, kuris kasininkui padės identifikuoti aparatūros stotį. Lauke **Pagrindinio kompiuterio vardas** įveskite pagrindinio kompiuterio mašinos URL šiuo formatu: `https://<MachineName:Port>/HardwareStation`. (**&lt;MachineName:Port&gt;** pakeiskite faktiniu aparatūros stoties ir prievado mašinos pavadinimu, nurodytu aparatūros stoties šablone.) Ši reikšmė identifikuoja EFT terminalą, kuris yra prijungtas prie aparatūros stoties, kai mokėjimo jungtis užmezga ryšį su mokėjimo paslaugų teikėju. Tada naršydami faktinę aparatūros stoties mašiną pasirinkite kanalą ir pasirinkite aparatūros stotį. Spustelėkite **Atsisiųsti** ir įdiekite aparatūros stotį. Tada MPOS arba „Cloud POS“ naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte anksčiau įdiegtą aparatūros stotį. Pasirinkite **Susieti**, kad sukurtumėte saugų ryšį tarp EKA ir aparatūros stoties. Šį veiksmą reikia atlikti kuriant kiekvieno POS ir aparatūros stoties derinio ryšį. Susiejus aparatūros stotį, ta pačia operacija naudojama aparatūros stotis suaktyvinama. Šiame scenarijuje aparatūros šablonas turėtų būti priskirtas aparatūros stoties šablonui, o ne pačiam registrui. Jei dėl tam tikros priežasties aparatūros stotis neturi tiesiogiai priskirto aparatūros šablono, tada aparatūros šablonas priskiriamas naudojamam registrui
 
 ## <a name="client-maintenance"></a>Kliento priežiūra
+
 ### <a name="registers"></a>Registrai
 
 POS registrai visų pirma yra valdomi naudojant pačius registrus, taip pat naudojant registrams priskirtus šablonus. Atskiram registrui būdingi atributai yra valdomi registro lygiu. Šie atributai apima parduotuvė, kurioje registras naudojamas, registro numerį, aprašą ir EFT terminalo ID, kuris yra būdingas pačiam registrui.
@@ -95,27 +115,36 @@ Ne tinkle esantis šablonas nustatomas parduotuvės lygiu. Jis naudojamas siekia
 
 Funkcijų šablonas nustatomas parduotuvės lygiu. Jis naudojamas siekiant nurodyti visos parduotuvės funkcijų, kurias galima atlikti su EKA, parametrus. Toliau nurodytos galimybės yra valdomos naudojant funkcijų šabloną. Šios galimybės yra išdėstomos „FastTab“.
 
--   „FastTab“ **Bendra**.
-    -   Tarptautinė standartizacijos organizacija (ISO).
-    -   Kliento kūrimas autonominiu režimu.
-    -   El. laiško kvito šablonas.
-    -   Pagrindinio darbuotojų prisijungimo autentifikavimas.
--   „FastTab“ **Funkcijos**.
-    -   Prisijungimo ir išplėstinio prisijungimo valdymas.
-    -   Finansiniai ir su valiuta susiję EKA aspektai, pavyzdžiui, galimybė įvesti kainas ir nustatyti, ar reikia nurodyti smulkios valiutos dešimtaines dalis.
-    -   Laiko registravimo suaktyvinimas naudojant EKA.
-    -   Valdymas, kaip produktai ir mokėjimai rodomi EKA ir kvituose.
-    -   Dienos pabaigos valdymas.
-    -   Kanalo duomenų bazės operacijų saugojimo parametrai.
-    -   Valdymas, kaip EKA yra ieškomi ir kuriami klientai.
-    -   Valdymas, kaip skaičiuojamos nuolaidos.
--   „FastTab“ **Suma**.
-    -   Didžiausios ir mažiausios galimos kainos.
-    -   Nuolaidų taikymas ir skaičiavimas.
--   „FastTab“ **Info codes**.
-    -   Visi informacijos kodų valdymo EKA aspektai. Daugiau informacijos rasite dalyje [Informacijos kodai](info-codes-retail.md).
--   „FastTab“ **Kvitų numeravimas**.
-    -   Galimybė nurodyti kvito numeravimo šablonus; tai gali apimti parduotuvės numerio, terminalo numerio, konstantų segmentus bei valdymą, ar pardavimas, grąžinimai, pardavimo užsakymai ir pasiūlymai yra spausdinami atskiromis sekomis, ar ta pačia seka.
+- „FastTab“ **Bendra**.
+
+    - Tarptautinė standartizacijos organizacija (ISO).
+    - Kliento kūrimas autonominiu režimu.
+    - El. laiško kvito šablonas.
+    - Pagrindinio darbuotojų prisijungimo autentifikavimas.
+
+- „FastTab“ **Funkcijos**.
+
+    - Prisijungimo ir išplėstinio prisijungimo valdymas.
+    - Finansiniai ir su valiuta susiję EKA aspektai, pavyzdžiui, galimybė įvesti kainas ir nustatyti, ar reikia nurodyti smulkios valiutos dešimtaines dalis.
+    - Laiko registravimo suaktyvinimas naudojant EKA.
+    - Valdymas, kaip produktai ir mokėjimai rodomi EKA ir kvituose.
+    - Dienos pabaigos valdymas.
+    - Kanalo duomenų bazės operacijų saugojimo parametrai.
+    - Valdymas, kaip EKA yra ieškomi ir kuriami klientai.
+    - Valdymas, kaip skaičiuojamos nuolaidos.
+
+- „FastTab“ **Suma**.
+
+    - Didžiausios ir mažiausios galimos kainos.
+    - Nuolaidų taikymas ir skaičiavimas.
+
+- „FastTab“ **Info codes**.
+
+    - Visi informacijos kodų valdymo EKA aspektai. Daugiau informacijos rasite dalyje [Informacijos kodai](info-codes-retail.md).
+
+- „FastTab“ **Kvitų numeravimas**.
+
+    - Galimybė nurodyti kvito numeravimo šablonus; tai gali apimti parduotuvės numerio, terminalo numerio, konstantų segmentus bei valdymą, ar pardavimas, grąžinimai, pardavimo užsakymai ir pasiūlymai yra spausdinami atskiromis sekomis, ar ta pačia seka.
 
 #### <a name="receipt-profiles"></a>Kvitų profiliai
 
@@ -149,17 +178,14 @@ Mažmeninės prekybos kanale teikiamas ataskaitas galima nustatyti puslapyje **M
 
 Įrenginiai yra paaiškinti šiame straipsnyje anksčiau. Jie naudojami konkretaus EKA registro aktyvinimui valdyti. Įrenginiai taip pat naudojami siekiant nurodyti programą, skirtą konkrečiam registrui ir diegimo paketui, naudojamam MPOS klientui diegti. Toliau pateikiamos įrenginio aktyvinimo būsenos.
 
--   **Laukiama** – įrenginys paruoštas aktyvinti.
--   **Aktyvinta** – įrenginys suaktyvintas.
--   **Išaktyvinta** – įrenginys išaktyvintas mažmeninių pardavimų valdyme arba naudojant EKA.
--   **Išjungta** – įrenginys išjungtas.
+- **Laukiama** – įrenginys paruoštas aktyvinti.
+- **Aktyvinta** – įrenginys suaktyvintas.
+- **Išaktyvinta** – įrenginys išaktyvintas mažmeninių pardavimų valdyme arba naudojant EKA.
+- **Išjungta** – įrenginys išjungtas.
 
 Papildoma su aktyvinimu susijusi informacija apima darbuotoją, kuris pakeitė įrenginio aktyvinimo būseną, aktyvinimo laiko antspaudą ir informaciją apie tai, ar įrenginio konfigūracija buvo patvirtinta.
 
 ### <a name="client-data-synchronization"></a>Kliento duomenų sinchronizavimas
 
 Visi EKA kliento keitimai, išskyrus įrenginio aktyvinimo būsenos keitimus, turi būti sinchronizuoti su kanalo duomenų baze, kad įsigaliotų. Norėdami sinchronizuoti keitimus su kanalo duomenų baze, pasirinkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas** ir vykdykite reikiamą paskirstymo grafiką. Atlikę kliento keitimų, turėtumėte vykdyti paskirstymo grafikus „Registrai“ ir „Kanalo konfigūracija“.
-
-
-
 

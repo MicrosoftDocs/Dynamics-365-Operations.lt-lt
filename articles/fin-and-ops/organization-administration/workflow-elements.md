@@ -34,42 +34,46 @@ ms.lasthandoff: 11/14/2017
 Darbo eigą sudaro elementai. Tolesniuose skyriuose aprašomi visi elementų tipai.
 
 ## <a name="tasks"></a>Užduotys
+
 *Užduotis* yra darbo vienetas, kurį reikia atlikti. Į darbo eigą galima įtraukti dviejų tipų užduotis: rankines užduotis ir automatizuotas užduotis.
 
 ### <a name="manual-task"></a>Rankiniu būdu nustatyta užduotis
 
 *Rankinė užduotis* yra darbo vienetas, kurį turi atlikti vartotojas. Pavyzdžiui, išlaidų ataskaitų darbo eigoje gali būti rankinių užduočių, kurioms reikia priskirtų vartotojų, kad atliktų šiuos veiksmus:
 
--   Peržiūrėti kvitus, pateiktus kartu su išlaidų ataskaita.
--   Skambinti darbuotojo vadybininkui.
+- Peržiūrėti kvitus, pateiktus kartu su išlaidų ataskaita.
+- Skambinti darbuotojo vadybininkui.
 
 ### <a name="automated-task"></a>Automatizuota užduotis
 
 *Automatizuota užduotis* yra darbo vienetas, kurį turi atlikti sistema. Žmogui nereikia atlikti jokių veiksmų. Pavyzdžiui, pardavimo užsakymo darbo eigoje gali būti automatizuotų užduočių, kurioms reikia, kad sistema atliktų šiuos veiksmus:
 
--   Atlikite kredito tikrinimą.
--   Klientui sukurti kliento įrašą, jei jo dar nėra.
+- Atlikite kredito tikrinimą.
+- Klientui sukurti kliento įrašą, jei jo dar nėra.
 
 ## <a name="approval-processes"></a>Patvirtinimo procesai
+
 *Patvirtinimo procesas* yra procesas, susidedantis iš kelių žingsnių. Atlikdamas kiekvieną patvirtinimo veiksmą, vartotojas gali atlikti šiuos veiksmus:
 
--   Patvirtinti dokumentą.
--   Atmesti dokumentą.
--   Prašyti pakeisti dokumentą.
--   Priskirti dokumentą kitam vartotojui tvirtinti.
+- Patvirtinti dokumentą.
+- Atmesti dokumentą.
+- Prašyti pakeisti dokumentą.
+- Priskirti dokumentą kitam vartotojui tvirtinti.
 
 ## <a name="line-item-workflow-elements"></a>Eilutės elemento darbo eigos elementai
+
 Galima sukurti darbo eigą tvarkyti dokumentus arba dokumento eilutės elementus. Pavyzdžiui, sukūrėte tabelių patvirtinimo darbo eigą. (Ši darbo eiga bus vadinama dokumento *darbo eiga*.) Į to dokumento darbo eigą galite įtraukti elementą *eilutės elemento darbo eiga*. Paleidus eilutės elementą, kiekvienas dokumento eilutės elementas pateikiamas apdoroti. Norėdami galite apdoroti visus eilutės elementus vykdydami tos pačios eilutės elemento darbo eigą arba galite kiekvieną eilutės elementą apdoroti atliekant skirtingas eilutės elemento darbo eigas. Įsivaizduokite, kad darbuotojas pateikė tabelį, panašų į tabelį toliau pateikiamame paveikslėlyje.
 
-![Darbo eiga su eilutės elementais](./media/workflow_lineitemworkflow.gif) 
+![Darbo eiga su eilutės elementais](./media/workflow_lineitemworkflow.gif)
 
 Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 
--   **1 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 1111.
--   **2 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 2222.
--   **3 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 3333.
+- **1 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 1111.
+- **2 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 2222.
+- **3 eilutės elemento darbo eiga** – ši darbo eiga naudojama apdoroti eilutės elementus, kai projekto ID yra 3333.
 
 ## <a name="flow-control-elements"></a>Srauto valdiklių elementai
+
 Šie elementai suteikia galimybę kurti darbo eigas, kurios turi alternatyvias šakas arba šakas, vykdomas tuo pačiu metu.
 
 ### <a name="manual-decision"></a>Neautomatinis sprendimas
@@ -87,7 +91,4 @@ Tokiu atveju galbūt norėsite sukurti tokias eilutės elemento darbo eigas:
 ### <a name="subworkflow"></a>Antrinė darbo eiga
 
 *Antrinė darbo eiga* yra darbo eiga, kuri vyksta kitos darbo eigos kontekste.
-
-
-
 

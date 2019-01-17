@@ -66,7 +66,7 @@ Vietinių produktų ieškų veikimas dabar patogesnis vartotojui. Atlikti tolesn
 - Mažmenininkai dabar produktų iešką gali sukonfigūruoti taip, kad, vartotojams vedant produktų pavadinimus, būtų rodomi ieškos pasiūlymai. Naujas šios funkcijos parametras pasiekiamas EKA funkcijų profilio grupėje pavadinimu **Produktų ieška**. Parametro pavadinimas yra **Vedant tekstą rodyti ieškos pasiūlymus**. Ši funkcija darbuotojams gali padėti greitai rasti ieškomą produktą, nes jiems nereikia rankiniu būdu įvesti viso pavadinimo.
 - Produktų ieškos algoritmas ieškomų terminų dabar taip pat ieško produkto ypatybėje **Ieškos pavadinimas**.
 
-![Produktų pasiūlymai](./media/Productsuggestions.png "Produktų pasiūlymai")
+    ![Produktų pasiūlymai](./media/Productsuggestions.png "Produktų pasiūlymai")
 
 ## <a name="customer-search"></a>Kliento ieška
 

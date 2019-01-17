@@ -32,14 +32,16 @@ ms.lasthandoff: 10/16/2018
 
 Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations‟.
 
-Yra trys pagrindinės „Dynamics 365 for Finance and Operations“ personalizavimo klasės. 
+Yra trys pagrindinės „Dynamics 365 for Finance and Operations“ personalizavimo klasės.
+
 - Sąrankos puslapyje atliekamas personalizavimas. Prie pavyzdžių priskiriama spalvų tema ir laiko juosta.
-- Su puslapio naudojimu susijęs personalizavimas, vadinamas *netiesioginiu* personalizavimu. Pavyzdžiui, „Finance and Operations“ seka jūsų keičiamą tinklelio stulpelių plotį ir „FastTab“ sutrauktą arba išplėstą būseną. 
+- Su puslapio naudojimu susijęs personalizavimas, vadinamas *netiesioginiu* personalizavimu. Pavyzdžiui, „Finance and Operations“ seka jūsų keičiamą tinklelio stulpelių plotį ir „FastTab“ sutrauktą arba išplėstą būseną.
 - Personalizavimas, kurį atlieka vartotojas, norėdamas keisti puslapio išvaizdą pakeisdamas tai, kaip rodomas ar veikia to puslapio elementas, dažnai naudojantis interaktyvaus personalizavimo režimu. Toks personalizavimas vadinamas *tiesioginiu* personalizavimu. Pavyzdžiui, vartotojas gali įterpti elementų, juos slėpti arba keisti jų išdėstymo tvarką puslapyje.
 
 Visi personalizavimo parametrai, kuriuos nustato „Finance and Operations“ vartotojas, taikomi tik tam vartotojui, nepriklausomai nuo personalizavimo tipo ir nuo to, su kokia įmone šiuo sąveikauja vartotojas. Vieno vartotojo atlikti puslapio keitimai neturi įtakos kitiems sistemos vartotojams.
 
 ## <a name="system-wide-options-for-the-current-user"></a>Dabartinio vartotojo visos sistemos parinktys
+
 Puslapyje **Vartotojo parinktys** pateikiama keletas visos sistemos dabartinio vartotojo parametrų. Norėdami atidaryti puslapį **Vartotojo parinktys**, naršymo juostoje paspauskite meniu **Parametrai** (krumpliaračio simbolis), o po to paspauskite **Vartotojo parinktys**. Puslapyje **Vartotojo parinktys** yra keturi skirtukai, kuriuose nurodomi įvairūs vartotojo parametrai.
 
 - **Vaizdas**: pasirinkite puslapio elementų spalvų temą ir numatytąjį dydį.
@@ -48,6 +50,7 @@ Puslapyje **Vartotojo parinktys** pateikiama keletas visos sistemos dabartinio v
 - **Darbo eiga**: pasirinkite su darbo eiga susijusias parinktis.
 
 ## <a name="implicit-personalizations"></a>Netiesioginis personalizavimas
+
 Netiesioginis personalizavimas atliekamas tiesiog sąveikaujant su tam tikrais valdikliais, kurie „įsimeną“ savo esamą matomą būseną.
 
 - **Tinklelio stulpeliai**: galite koreguoti tinklelio stulpelio plotį, kairėje arba dešinėje stulpelio antraštės pusėje pasirinkdami dydžio keitimo juostą ir slinkdami ją į kairę arba į dešinę, kol stulpelis bus reikiamo pločio. „Finance and Operations“ saugomas nustatytas stulpelio plotis. Tada, kiekvieną kartą atidarius puslapį, kuriame yra tas tinklelis, pakeičiamas stulpelio dydis.
@@ -59,9 +62,11 @@ Netiesioginis personalizavimas atliekamas tiesiog sąveikaujant su tam tikrais v
 - **Naršymo sritis**: *Naršymo sritis* atveriama paspaudus bet kurio puslapio kairiosios srities mygtuką **Meniu**. (Mygtukas **Meniu** kartais vadinamas *mėsainiu*, *mėsainio stiliaus meniu* arba *mėsainio stiliaus mygtuku*.) Galite prisegti atvertą naršymo sritį arba ji gali likti sutraukta. Prisegus atvertą naršymo sritį „Finance and Operations“ laikys ją atvertą, kol jos nesutrauksite.
 
 ## <a name="explicit-personalizations"></a>Tiesioginis personalizavimas
+
 Pastebima, kad žmonės ir įmonės turi skirtingą nuomonę dėl duomenų, kurie jiems svarbiausi, taip pat dėl duomenų, kurie jiems nereikalingi pagal tai, kaip vadovaujama verslui. Naudodamiesi „Finance and Operations“ galite pasirinkti informacijos užsakymo ir sąveikavimo su informacija būdą. Taip pat galite nurodyti, kad tam tikra informacija turėtų būti paslėpta. Šios galimybės yra itin svarbios norint įgyti asmeninės ir gamybos patirties ir yra tiesioginio personalizavimo pavyzdžiai. Tiesioginis personalizavimas atliekamas turint aiškų tikslą pakeisti elemento arba puslapio išvaizdą arba elgesį.
 
 ### <a name="shortcut-menu-options"></a>Nuorodos meniu parinktys
+
 Meniu nurodomi keli būdai, kaip tiesiogiai keisti puslapį, kad jis geriau atitiktų jūsų ar jūsų įmonės poreikius. (Nuorodų meniu taip pat vadinamas *spustelėjus dešinįjį pelės mygtuką rodomu meniu* arba *kontekstiniu meniu*.)
 
 Įprastus ir svarbiausius puslapio keitimus galima atlikti tiesiogiai naudojantis nuorodos meniu parinktimis. Pavyzdžiui, pradedant nuo 17 platformos naujinio, norėdami įterpti tinklelio stulpelių arba juos slėpti, tiesiog dešiniuoju pelės mygtuku spustelėkite tinklelio stulpelio antraštę, o po to paspauskite **Įterpti stulpelių** arba **Slėpti šį stulpelį**.
@@ -81,38 +86,39 @@ Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais 
 Priklausomai nuo elemento, ypatybių lange gali būti įterpta kitų personalizavimo galimybių. Pavyzdžiui, gali būti, kad naudojantis išklotinės ypatybių langu jums bus leista perkelti tą išklotinę į ataskaitų sritį, o naudojantis ataskaitų srities ypatybių langu – sukurti naują tos ataskaitų srities darbo sritį.
 
 ### <a name="the-personalization-toolbar"></a>Personalizavimo įrankių juosta
+
 Norėdami puslapyje atlikti kelis pakeitimus arba atlikti tokius pakeitimus, kurių negalima atlikti naudojantis kitais mechanizmais (pvz., pertvarkymo elementais), galite naudotis įrankių juosta **Personalizavimas**. Norėdami atidaryti įrankių juostą **Personalizavimas**, elemento ypatybių lange paspauskite **Personalizuoti šią formą**. Mygtuką **Personalizuoti šią formą** taip pat galite paspausti kiekvieno puslapio veiksmų srities skirtuko **Parinktys** grupėje **Personalizuoti**.
 
 [![Personalizavimo įrankių juosta](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-#### <a name="navigating-the-page"></a>Naršymas puslapyje 
-Galimybė naršyti puslapyje, kai atidaryta **Personalizavimo įrankių juosta**, priklauso nuo naudojamos platformos versijos. 
+#### <a name="navigating-the-page"></a>Naršymas puslapyje
 
-- Prieš įdiegiant 19 platformos naujinį, kol atidaryta įrankių juosta **Personalizavimas**, puslapį galima tik skaityti (negalite nieko įvesti) ir puslapis yra neinteraktyvus (galite atlikti tik matomų puslapio elementų pakeitimus). Norėdami keisti sutraukto skyriaus arba kito skirtuko elementus, turite uždaryti įrankių juostą **Personalizavimas**, išplėsti skyrių arba įjungti norimą skirtuką, o paskui iš naujo atidaryti įrankių juostą **Personalizavimas**.  
+Galimybė naršyti puslapyje, kai atidaryta **Personalizavimo įrankių juosta**, priklauso nuo naudojamos platformos versijos.
 
-- Pradedant nuo 19 platformos naujinio, jei atidaryta įrankių juosta **Personalizavimas**, puslapį vis dar galima tik skaityti, bet jis daug labiau interaktyvus. Tiksliau tariant, kol atidaryta įrankių juosta **Personalizavimas**, galite išplėsti arba sutraukti „FactBox“ sritį, perjungti skirtukus ir išplėsti ar sutraukti skyrius, lygiai taip pat, kaip tai įprastai atliekate puslapyje. Norėdami taikyti personalizavimo pakeitimą sutraukiamame skyriuje arba skirtuke (pvz., slėpti „FastTab“), paspauskite šalia sutraukiamo skyriaus arba skirtuko esantį mygtuką (kai bus rodoma įvesties klaviatūra arba užvedę virš jo pelės žymiklį).  
+- Prieš įdiegiant 19 platformos naujinį, kol atidaryta įrankių juosta **Personalizavimas**, puslapį galima tik skaityti (negalite nieko įvesti) ir puslapis yra neinteraktyvus (galite atlikti tik matomų puslapio elementų pakeitimus). Norėdami keisti sutraukto skyriaus arba kito skirtuko elementus, turite uždaryti įrankių juostą **Personalizavimas**, išplėsti skyrių arba įjungti norimą skirtuką, o paskui iš naujo atidaryti įrankių juostą **Personalizavimas**.
+
+- Pradedant nuo 19 platformos naujinio, jei atidaryta įrankių juosta **Personalizavimas**, puslapį vis dar galima tik skaityti, bet jis daug labiau interaktyvus. Tiksliau tariant, kol atidaryta įrankių juosta **Personalizavimas**, galite išplėsti arba sutraukti „FactBox“ sritį, perjungti skirtukus ir išplėsti ar sutraukti skyrius, lygiai taip pat, kaip tai įprastai atliekate puslapyje. Norėdami taikyti personalizavimo pakeitimą sutraukiamame skyriuje arba skirtuke (pvz., slėpti „FastTab“), paspauskite šalia sutraukiamo skyriaus arba skirtuko esantį mygtuką (kai bus rodoma įvesties klaviatūra arba užvedę virš jo pelės žymiklį).
 
 #### <a name="personalization-tools"></a>Personalizavimo įrankiai
+
 Įrankių juostoje **Personalizavimas** galima naudoti toliau išvardytus įrankius.
 
 - Įrankį **Pasirinkti** naudokite norėdami pasirinkti ir pakeisti elemento ypatybes. Paspauskite įrankį **Pasirinkti**, o po to pasirinkite elementą, kurio ypatybes norite keisti. Kai pasirenkate elementą, rodomas elemento ypatybių langas ir jūs galite keisti visas to elemento ypatybes. Galite pakartoti procesą su kitais to puslapio elementais, kuriuos galima personalizuoti. Tačiau kai kurie elementai naudojami išskirtinai, todėl naudodamiesi „Finance and Operations“ kai kurių jų ypatybių keisti negalėsite. Todėl pasirinkę elementą galite pastebėti, kad kai kurių jo ypatybių keisti negalima. Pavyzdžiui, negalite slėpti reikiamo lauko.
-
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. (Negalima perkelti elemento už jo pirminės grupės ribų). Paspauskite įrankį **Perkelti**, o po to pasirinkite norimą perkelti elementą. Pasirinkus elementą „Finance and Operations“ nuskaito puslapį ir nustato, kur galima perkelti elementą. Po to sukuria „nuvilkimo zonų“ seką. Velkant elementą dabartinėje grupėje kiekviena „nuvilkimo zona“ rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
-
 - Įrankį **Slėpti** naudokite norėdami paslėpti elementą puslapyje. Paspauskite įrankį **Slėpti**, o po to pasirinkite norimą paslėpti elementą. Paspaudus įrankį **Slėpti** visi šiuo metu paslėpti elementai tampa matomi ir yra rodomi užtamsintame fone. Po to galite vėl juos rodyti. Paspaudę įrankį **Pasirinkti**, galite matyti, kaip puslapis atrodys, kai pasirinkti elementai bus paslėpti.
-    - Pradedant nuo platformos 18 naujinio, galite slėpti privalomus laukus ir skyrius, kuriuose yra privalomų laukų. Tai suteikia galimybę kurti supaprastintą platformą, kurioje nebus rodomi numatytieji verslo logikos privalomi laukai. Paslėpti privalomi laukai taip pat yra laikinai rodomi, jei jie yra tušti, kai bandoma įrašyti. 
+
+    - Pradedant nuo platformos 18 naujinio, galite slėpti privalomus laukus ir skyrius, kuriuose yra privalomų laukų. Tai suteikia galimybę kurti supaprastintą platformą, kurioje nebus rodomi numatytieji verslo logikos privalomi laukai. Paslėpti privalomi laukai taip pat yra laikinai rodomi, jei jie yra tušti, kai bandoma įrašyti.
 
 - Įrankį **Suvestinė** naudokite norėdami, kad elementas būtų rodomas „FastTab“ suvestinės skyriuje. Įrankis Suvestinė taikomas tik „FastTab“ skyriuje esantiems laukams. Paspaudus įrankį **Suvestinė** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Pasirinkdami laukus į „FastTab“ suvestinę galite interaktyviai įtraukti laukų arba iš jos juos pašalinti.
-
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankį **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Tada vėl galite juos padaryti skirtukų sekos dalimi.
-
 - Įrankį **Redaguoti** naudokite norėdami pažymėti elementą kaip redaguojamą arba neredaguojamą. Paspaudus įrankį **Redaguoti** visi šiuo metu neredaguojami elementai rodomi užtamsintame fone. Tada vėl galite padaryti, kad juos būtų galima redaguoti. Atminkite, kad kai kurie laukai būtini ir jų negalima padaryti neredaguojamais. Šalia tų laukų rodomas spynos simbolis.
-
 - Naudodamiesi mygtuku **Įterpti** galite matyti į puslapį galimų įterpti elementų sąrašą.
+
     - Paspaudę mygtuko **Įterpti** įrankį **Laukas** savo puslapyje galite įterpti lauką. Naudodamiesi įrankiu **Laukas** galite įtraukti tik tuos laukus, kurie yra puslapio apibrėžimo dalis, tačiau šiuo metu puslapyje nerodomi. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktiniai laukai](user-defined-fields.md). Paspaudus įrankį **Laukas** pirmiausia būtina pasirinkti grupę arba sritį, į kurią norite įtraukti lauką. Dialogo lange rodomas su pasirinkta grupe arba sritimi susijusių laukų sąrašas. Dialogo lange pasirinkite vieną arba kelis norimus įterpti laukus, po to paspauskite **Įterpti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
     - Paspaudę mygtuko **Įterpti** įrankį **„PowerApp“** į puslapį galite įdėti naudojantis „Microsoft PowerApps“ sukurtą programą. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“](embed-power-apps.md).
 
 - Paspaudę mygtuką **Valdyti** galite peržiūrėti su visomis dabartinio puslapio personalizacijomis susijusių valdymo parinkčių sąrašą.
+
     - Paspaudę **Valyti** galite atkurti numatytąją įdiegus puslapį naudotą būseną. Visos dabartinio puslapio personalizacijos panaikinamos. Veiksmo anuliuoti negalima. Todėl naudokitės šia parinktimi tik tada, jei tikrai norite atkurti puslapį.
     - Paspaudę **Importuoti** galite įkelti personalizaciją iš jūsų ar ko nors kito sukurto puslapio failo. Visi dabartiniai jūsų puslapio personalizavimai pakeičiami personalizavimais iš pasirinkto failo.
     - Norėdami įrašyti savo puslapio personalizavimus į failą, paspauskite  **Eksportuoti**. Galite pasidalinti savo personalizavimais su kitais vartotojais. Tiems vartotojams tiesiog reikia importuoti failą, kuriame yra jūsų puslapio personalizavimai.
@@ -122,6 +128,7 @@ Galimybė naršyti puslapyje, kai atidaryta **Personalizavimo įrankių juosta**
 Naudojantis įrankių juosta **Personalizavimas** įrašymo operacijos tiesioginės. Jūsų personalizavimai įsigalioja iškart juos atlikus ir nereikia spausti mygtuko **Įrašyti**. Kai kuriais atvejais paspaudus įrankį šalia elemento rodomas spynos simbolis. Šis simbolis reiškia, kad negalima keisti su pasirinktu įrankiu susijusių elemento ypatybių, nes pakeitus tokias ypatybes puslapis veiks netinkamai.
 
 ### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Išklotinės, sąrašo arba nuorodos įtraukimas į darbo sritį
+
 Kai kuriuose puslapiuose, kuriuose pateikiami sąrašai, galima naudotis papildomomis personalizavimo funkcijomis. Naudodamiesi veiksmų srities skirtuko **Parinktys** grupės **Personalizuoti** mygtuku **Įtraukti į darbo sritį** galite matyti konkrečios darbo srities dabartinio sąrašo informaciją. Galite matyti filtruotą ir surūšiuotą darbo srities informacijos rodinį arba numatytąjį rodinį. Taip pat galite nurodyti, ar informacija darbo srityje rodoma kaip sąrašas, kaip suvestinės išklotinė, kurioje gali būti rodomas sąrašo elementų skaičius, arba kaip nuoroda.
 
 [![Įtraukti į darbo sritį](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
@@ -133,9 +140,11 @@ Kai kuriuose puslapiuose, kuriuose pateikiami sąrašai, galima naudotis papildo
 Į darbo sritį įtraukę savo sąrašą, išklotinę arba nuorodą galite atidaryti tą darbo sritį ir pakeisti jos elementų išdėstymo tvarką.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Suvestinės iš darbo srities įtraukimas į ataskaitų sritį
+
 Kai kuriose darbo srityse pateikiamos skaičių išklotinės (t. y. išklotinės, kuriose nurodomi skaičiai) ir gali būti, kad norėsite, jog tos išklotinės būtų rodomos ir jūsų ataskaitų srityje. Darbo srityje dešiniuoju pelės mygtuku spustelėkite skaičių išklotinę, o po to pasirinkite **Personalizuoti**. Tada išklotinės ypatybių lange paspauskite **Prisegti prie ataskaitų srities**. Kitą kartą atidarius (ir atnaujinus) pasirinktą ataskaitų sritį, tas skaičius bus rodomas po tos darbo srities naršymo išklotine. Galite pasirinkti, kad tas skaičius būtų tiesiogiai perkeliamas į duomenis, kuriuos jis atitinka.
 
 ### <a name="personalizing-your-dashboard"></a>Ataskaitų srities personalizavimas
+
 Ataskaitų sritis dažnai yra pirmas atidarius „Finance and Operations“ rodomas puslapis. Galite personalizuoti ataskaitų sritį, kad joje būtų rodomos tik norimos matyti darbo srities išklotinės. Taip pat galite pakeisti išklotinių išdėstymo tvarką, kad jos būtų išdėstomos taip, kaip norite, pakeisti darbo srities naršymo išklotinių pavadinimus arba įtraukti visiškai naują darbo srities išklotinę.
 
 Norėdami personalizuoti ataskaitų sritį, dešiniuoju pelės klavišu spustelėkite bet kurią išklotinę, po to paspauskite **Personalizuoti**, kad būtų atidaromas išklotinės ypatybių langas.
@@ -145,6 +154,7 @@ Norėdami personalizuoti ataskaitų sritį, dešiniuoju pelės klavišu spustel�
 - Norėdami sukurti naują darbo srities išklotinę, ypatybių lange paspauskite **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Į darbo sritį taip pat galite įtraukti sąrašų, išklotinių ir nuorodų, kaip aprašyta šios temos skyriuje [Sąrašų, išklotinių arba nuorodų įtraukimas į darbo sritis](personalize-user-experience.md#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalization"></a>Personalizavimo parametrų administravimas
+
 Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojais eksportuodami personalizuotą puslapį. Tada kitų vartotojų galite paprašyti atidaryti personalizuotą puslapį ir importuoti personalizavimo failą, kurį sukūrėte. Arba galite perduoti savo personalizavimą administratoriaus teises turinčiam vartotojui. Tokiu būdu tas vartotojas galės jūsų personalizavimo failą vienu metu taikyti keliems vartotojams.
 
 Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų vartotojų personalizavimą puslapyje **Personalizavimas**. Šiame puslapyje yra keturi skirtukai:

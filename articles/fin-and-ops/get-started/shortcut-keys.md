@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: lt-lt
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟. 
+Tolesni spartieji klavišai galioja visame „Dynamics 365 for Finance and Operations‟.
 
-**Pastaba.** Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
+> [!NOTE]
+> Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
 
 ## <a name="finding-a-shortcut"></a>Sparčiųjų klavišų radimas
-Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosius klavišus tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate. 
 
+Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosius klavišus tiesiai iš vartotojo sąsajos. Tiesiog dešiniuoju pelės mygtuku spustelėkite valdiklį ir pasirinkite **Peržiūrėti sparčiuosius klavišus**. Bus atidarytas dialogo langas, rodantis sparčiuosius klavišus, kuriuos galite naudoti priklausomai nuo to, kurioje puslapio vietoje esate.
 
 ## <a name="action-shortcuts"></a>Veiksmų spartieji klavišai
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Norėdami tai padaryti**                                    | **Spausti**                        |
-| Atidaryti ieškos veiksmą                                | Ctrl + ’ arba Alt + Q                  |
-| Perkelti į standartinę veiksmų sritį                  | „Alt“ + M, A arba „Ctrl“ + F6               |
-| Atidaryti skirtuką veiksmų srityje arba meniu           | „Enter“, tarpo klavišas arba „Alt“ + rodyklė žemyn |
-| Perkelti į kitą / ankstesnę meniu parinktį            | Rodyklė žemyn / rodyklė aukštyn            |
-| Uždaryti skirtuką veiksmų srityje arba meniu          | Esc                              |
-| Imituoti spustelėjimą dešiniuoju pelės mygtuku                            | Shift + F10                        |
-| Atidaryti „Finance and Operations‟ kontekstinį meniu      | Ctrl + F10                         |
-| Vykdyti numatytąjį mygtuką formoje / dialogo lange   | Alt + Enter                        |
-| Spustelėkite mygtuką arba plytelę.                            | „Enter“ klavišas arba tarpo klavišas                   |
-| Peržiūrėti skaičiavimo plytelės atnaujintą informaciją         | „Alt“ + rodyklė aukštyn                     |
-| Peržiūrėti šiuo metu galimus sparčiuosius klavišus                | Alt + Shift + K                      |                              
+| Norėdami tai padaryti                                      | Spausti                            |
+|-------------------------------------------------|----------------------------------|
+| Atidaryti ieškos veiksmą                              | Ctrl + ’ arba Alt + Q                  |
+| Perkelti į standartinę veiksmų sritį                | „Alt“ + M, A arba „Ctrl“ + F6               |
+| Atidaryti skirtuką veiksmų srityje arba meniu         | „Enter“, tarpo klavišas arba „Alt“ + rodyklė žemyn |
+| Perkelti į kitą / ankstesnę meniu parinktį          | Rodyklė žemyn / rodyklė aukštyn            |
+| Uždaryti skirtuką veiksmų srityje arba meniu        | Esc                              |
+| Imituoti spustelėjimą dešiniuoju pelės mygtuku                          | Shift + F10                        |
+| Atidaryti „Finance and Operations‟ kontekstinį meniu    | Ctrl + F10                         |
+| Vykdyti numatytąjį mygtuką formoje / dialogo lange | Alt + Enter                        |
+| Spustelėkite mygtuką arba plytelę.                          | „Enter“ klavišas arba tarpo klavišas                   |
+| Peržiūrėti skaičiavimo plytelės atnaujintą informaciją       | „Alt“ + rodyklė aukštyn                     |
+| Peržiūrėti šiuo metu galimus sparčiuosius klavišus              | Alt + Shift + K                      |
 
 ## <a name="date-picker-shortcuts"></a>Datos parinkimo spartieji klavišai
 
-|                                       |                                           |
+| Norėdami tai padaryti                            | Spausti                                     |
 |---------------------------------------|-------------------------------------------|
-| **Norėdami tai padaryti**                        | **Spausti**                                 |
 | Atidaryti datos parinkiklį                  | „Alt“ + rodyklė žemyn                            |
 | Judėti tarp datų duomenų parinkiklyje | „Ctrl“ + rodyklių klavišai                           |
 | Perkelti į kitą / ankstesnį mėnesį       | „Page down“ / „Page up“                       |
@@ -70,9 +69,8 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="factbox-shortcuts"></a>„FactBox“ spartieji klavišai
 
-|                                                                                 |                                           |
+| Norėdami tai padaryti                                                                      | Spausti                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Norėdami tai padaryti**                                                                  | **Spausti**                                 |
 | Atidaryti „FactBox“ sritį (arba pereiti į „FactBox“ sritį, jei ji jau atidaryta) | „Alt“ + M, B arba „Ctrl“ + F2                        |
 | Uždaryti „FactBox“ sritį („FactBox“ sričiai esant suaktyvintai)                         | Esc                                       |
 | Perkelti į kitą / ankstesnę „FactBox“ („FactBox“ sričiai esant suaktyvintai)              | „Alt“ + „Shift“ + rodyklė žemyn / „Alt“ + „Shift“ + rodyklė aukštyn |
@@ -82,42 +80,39 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="filtering-shortcuts"></a>Filtravimo spartieji klavišai
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Norint tai padaryti**                     | **Paspausti**                |
-| Atidaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                        | Ctrl + G                   |
-| Uždaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                       | Esc                      |
+| Norint tai padaryti                                                                                                          | Spausti                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Atidaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                          | Ctrl + G                   |
+| Uždaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                         | Esc                      |
 | Atidaryti filtro sritį (ar persijungti tarp filtro srities ir pagrindinės formos, jei filtro sritis jau atidaryta) | „Alt“ + M, F arba „Ctrl“ + F3       |
-| Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)             | Esc                      |
-| Atidaryti išplėstinį filtravimą / rūšiavimą                                      | Ctrl + Shift + F3            | 
+| Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)                                                               | Esc                      |
+| Atidaryti išplėstinį filtravimą / rūšiavimą                                                                                        | Ctrl + Shift + F3            |
 
 ## <a name="form-shortcuts"></a>Formos spartieji klavišai
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Norint tai padaryti**                                      | **Paspausti**         |
-| Kurti naują įrašą                                 | Alt + N             |
-| Įrašo naikinimas                                     | Alt + Del arba Alt + F9 |
-| Įrašyti įrašą                                         | Alt + S arba Ctrl + S   |
-| Grąžinti (atkurti)                                    | Ctrl + Shift + F5     |
-| Atnaujinti duomenis                                        | Shift + F5          |
-| Perkelti į pirmą matomą lauką formoje         | Alt + Shift + F       |
-| Perjungti redagavimo režimą                                    | F2                |
-| Dokumento pridėjimas                                   | Ctrl + Shift + A      |
-| Eksportuoti į „Excel“                                     | Ctrl + Shift + E      |
-| Perkelti į ankstesnį įrašą (ne tinklelyje)        | „Ctrl“ + rodyklė aukštyn     |
-| Perkelti į kitą įrašą (ne tinklelyje)            | „Ctrl“ + rodyklė žemyn   |
-| Perkelti į pirmą įrašą (ne tinklelyje)           | CTRL + HOME         |
-| Perkelti į paskutinį įrašą (ne tinklelyje)            | CTRL + END          |
-| Uždaryti formą (spustelėti Atgal)                         | Esc               |
-| Aiškiai įrašyti ir uždaryti formą                   | Shift + Esc         |
-| Uždaryti formą atmetant visus neįrašytus keitimus       | Alt + Shift + Q       |
+| Norint tai padaryti                                    | Spausti             |
+|-----------------------------------------------|-------------------|
+| Kurti naują įrašą                           | Alt + N             |
+| Įrašo naikinimas                               | Alt + Del arba Alt + F9 |
+| Įrašyti įrašą                                   | Alt + S arba Ctrl + S   |
+| Grąžinti (atkurti)                              | Ctrl + Shift + F5     |
+| Atnaujinti duomenis                                  | Shift + F5          |
+| Perkelti į pirmą matomą lauką formoje   | Alt + Shift + F       |
+| Perjungti redagavimo režimą                              | F2                |
+| Dokumento pridėjimas                             | Ctrl + Shift + A      |
+| Eksportuoti į „Excel“                               | Ctrl + Shift + E      |
+| Perkelti į ankstesnį įrašą (ne tinklelyje)  | „Ctrl“ + rodyklė aukštyn     |
+| Perkelti į kitą įrašą (ne tinklelyje)      | „Ctrl“ + rodyklė žemyn   |
+| Perkelti į pirmą įrašą (ne tinklelyje)     | CTRL + HOME         |
+| Perkelti į paskutinį įrašą (ne tinklelyje)      | CTRL + END          |
+| Uždaryti formą (spustelėti Atgal)                   | Esc               |
+| Aiškiai įrašyti ir uždaryti formą             | Shift + Esc         |
+| Uždaryti formą atmetant visus neįrašytus keitimus | Alt + Shift + Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Formos naršymo spartieji klavišai
 
-|                                                     |                                              |
+| Norėdami tai padaryti                                          | Spausti                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Norėdami tai padaryti**                                      | **Spausti**                                    |
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
 | Perkelti į &lt;n&gt;-ąjį skirtuką                         | Alt + Shift+&lt;&gt; (&lt;n&gt; = 1–9)        |
@@ -134,30 +129,28 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="grid-shortcuts"></a>Tinklelio spartieji klavišai
 
-|                                                                                                                        |                                 |
+| Norėdami tai padaryti                                                                                                             | Spausti                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Norėdami tai padaryti**                                                                                                         | **Spausti**                       |
 | Perkelti į kitą / ankstesnį stulpelį                                                                                       | Tab / Shift + Tab                 |
 | Perkelti į kitą / ankstesnę eilutę                                                                                          | Rodyklė žemyn / rodyklė aukštyn           |
-| Perkelti į kitą / ankstesnę eilutę nepasirinkus<br><br>**Pastaba.** Šis spartusis klavišas taikomas tik žymint kelis elementus. | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
-| Pasirinkti / išvalyti dabartinę eilutę<br><br>**Pastaba.** Šis spartusis klavišas taikomas tik žymint kelis elementus.                    | Ctrl + tarpo klavišas / Ctrl + spustelėjimas         |
-| Į pasirinktą rinkinį įtraukti kitą / ankstesnę eilutę<br><br>**Pastaba.** Šis spartusis klavišas taikomas tik žymint kelis elementus.   | Shift+Space                     |
-| Į pasirinktą rinkinį įtraukti eilučių intervalą<br><br>**Pastaba.** Šis spartusis klavišas taikomas tik žymint kelis elementus.         | Shift + spustelėjimas                     |
+| Perkelti į kitą / ankstesnę eilutę nepasirinkus<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote> | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
+| Pasirinkti / išvalyti dabartinę eilutę<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>                    | Ctrl + tarpo klavišas / Ctrl + spustelėjimas         |
+| Į pasirinktą rinkinį įtraukti kitą / ankstesnę eilutę<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>   | Shift+Space                     |
+| Į pasirinktą rinkinį įtraukti eilučių intervalą<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>         | Shift + spustelėjimas                     |
 | Eiti į kitą / ankstesnį duomenų puslapį                                                                                   | „Page up“ / „Page down“             |
 | Kurti naują eilutę tinklelio apačioje                                                                             | Rodyklė žemyn (nuo paskutinės eilutės)  |
 | Pasirinkti arba išvalyti visas eilutes                                                                                               | Ctrl + Shift + M                    |
 | Perkelti į pirmą įrašą                                                                                               | CTRL + HOME                       |
 | Perkelti į paskutinį įrašą                                                                                                | CTRL + END                        |
-| Vykdyti numatytąjį tinklelio veiksmą<br><br>**Pastaba.** Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.                 | Enter                           |
+| Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
 | Atidaryti dabartinio stulpelio tinklelio filtravimą (įvesties vietą nustatant antraštės eilutėje)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Įvesties valdymo spartieji klavišai
 
-|                                                                              |                               |
+| Norėdami tai padaryti                                                                   | Spausti                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Norėdami tai padaryti**                                                               | **Spausti**                     |
 | Atidaryti hipersaitą                                                           | „Ctrl“ + „Enter“                    |
 | Įvesti seanso datą į datos lauką.                                       | D + Tab                         |
 | Įvesti dabartinę datą į datos lauką                                       | T + Tab                         |
@@ -171,17 +164,15 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="messaging-shortcuts"></a>Pranešimų spartieji klavišai
 
-|                          |               |
+| Norėdami tai padaryti               | Spausti         |
 |--------------------------|---------------|
-| **Norėdami tai padaryti**           | **Spausti**     |
 | Eiti į pranešimų centrą | Ctrl + Shift + F7 |
 | Eiti į pranešimų juostą    | Ctrl + F7       |
 
 ## <a name="navigation-shortcuts"></a>Naršymo spartieji klavišai
 
-|                                                                               |                            |
+| Norėdami tai padaryti                                                                    | Spausti                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Norėdami tai padaryti**                                                                | **Spausti**                  |
 | Eiti į ataskaitų sritį                                                           | Alt + Shift + Home             |
 | Pereiti į naršymo juostą                                                    | „Alt“ + M, N arba „Alt“ + „Shift“ + F1    |
 | Pereiti į įmonės parinkiklį                                                    | Ctrl + Shift + O               |
@@ -201,9 +192,8 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="personalization-shortcuts"></a>Personalizavimo spartieji klavišai
 
-|                                                                                                                        |                                     |
+| Norėdami tai padaryti                                                                                                             | Spausti                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Norėdami tai padaryti**                                                                                                         | **Spausti**                           |
 | Puslapį perkelti į personalizavimo režimą                                                                          | „Ctrl“ + „Shift“ + P                        |
 | Naudoti įrankį Pasirinkti (kai įjungtas personalizavimo režimas)                                                                     | S                                   |
 | Atidaryti pasirinkto valdiklio sparčiojo personalizavimo dialogo langą (naudojant įrankį Pasirinkti)                              | Tarpo klavišas arba „Enter“ klavišas                      |
@@ -230,19 +220,17 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 
 ## <a name="segmented-entry-shortcuts"></a>Segmentuoto įrašo spartieji klavišai
 
-|                                                                                                                         |                                  |
+| Norėdami tai padaryti                                                                                                              | Spausti                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Norėdami tai padaryti**                                                                                                          | **Spausti**                        |
 | Atidaryti išplečiamąjį sąrašą (kai išplečiamasis sąrašas uždarytas)                                                             | „Alt“ + rodyklė žemyn                   |
 | Suaktyvinti dabartinio segmento įvesties lauką išplečiamajame sąraše (kai išplečiamasis sąrašas jau atidarytas) | „Alt“ + rodyklė žemyn                   |
 | Uždaryti išplečiamąjį sąrašą                                                                                                | „Alt“ + rodyklė aukštyn                     |
 | Uždaryti / atidaryti dešiniąją išplečiamojo sąrašo dalį                                                                      | „Alt“ + rodyklė kairėn / „Alt“ + rodyklė dešinėn |
-| Perjunginėti režimus Rodyti tinkamą ir Rodyti viską                                                                        | ALT + W                            |
+| Perjunginėti režimus „Rodyti tinkamą“ ir „Rodyti viską“                                                                        | ALT + W                            |
 | Išplečiamajame sąraše pasirinkti vertę ir perkelti į kitą segmentą                                                       | Įvesti                            |
 | Perkelti į kitą / ankstesnį valdiklį puslapyje (kai suaktyvintas įvesties valdiklis)                                          | Tab / Shift + Tab                  |
 | Perkelti į kitą / ankstesnį iškėlimo įvesties lauką (kai suaktyvintas išplečiamasis sąrašas)                               | Tab / Shift + Tab                  |
 | Perkelti eilute aukštyn / žemyn peržvalgoje                                                                                        | Rodyklė aukštyn / rodyklė žemyn            |
 | Perkelti puslapiu aukštyn / žemyn peržvalgoje                                                                                       | „Page up“ / „Page down“              |
 | Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
-
 

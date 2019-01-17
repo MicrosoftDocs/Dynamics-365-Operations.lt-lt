@@ -3,7 +3,7 @@ title: "Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA)
 description: "Funkcijos pasiekiamos siekiant padėti darbdaviams, kuriems reikia sekti formose 1095-B ir 1095-C pateiktą informaciją, pagrindžiant Darbdavio įgaliojimų dalį pagal įstatymą dėl prieinamos sveikatos priežiūros. Atkreipkite dėmesį, kad ši funkcija įjungta tik juridiniams subjektams Jungtinėse Amerikos Valstijose."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA) generavimas
@@ -54,7 +54,7 @@ Puslapyje **Priklausomųjų draudimo datų tvarkytuvas** galite nurodyti datas, 
 ## <a name="generate-1095b-and-1095c-forms"></a>Generuoti 1095B ir 1095C formas
 Taip pat galite generuoti 109-B ir 1095-C formas iš produkto ir jas paskirstyti kiekvienam darbuotojui. Elektroniniu būdu generuojamus 1095-C ir atitinkamos 1094-C siunčiamus failus, kuriuos galima naudoti siunčiant į IRS, taip pat galima generuoti ir iš sistemos.  
 
-Generuodami 1095-C formą, įveskite į atitinkamą kalendorių arba mokestinius metus, taip pat nurodykite, ar norite išspausdinti dviejų ar trijų puslapių formą. Trijų puslapių forma reikalinga, tik jei Darbdavys teikė savarankišką draudimą ir darbuotojas turi daugiau nei šešis apdraustus priklausomuosius, įskaitant jį patį. Generuojant dviejų puslapių formą, sistema automatiškai aptiks, ar darbuotojas turi daugiau nei 6 apdraustus priklausomuosius, ir neįtrauks šio darbuotojo generuojant formą. Be to, generuojant trijų puslapių formą, sistema įtrauks tik tuos darbuotojus, kurie turi daugiau nei šešis apdraustus priklausomuosius.
+Generuodami 1095-C formą, įveskite atitinkamus mokestinius metus ir nurodykite, ar socialinio draudimo numeriai turėtų būti paslėpti. Jei spausdinate 1095-C formas, skirtas daugiau nei 500 darbuotojų, gausite daugiau nei vieną PDF failą. Rekomenduojama padidinti į **maksimalų failo dydį** lange **Dokumentų valdymo parametrai** iki 150 MB.
 
 ## <a name="viewing-information"></a>Informacijos peržiūra
 Norėdami peržiūrėti, kurie darbuotojai buvo priskirti kiekvienai draudimo grupei, kurių darbuotojų nereikia įtraukti į ataskaitą ir kurie darbuotojai nepriskirti, galite naudoti puslapį **Darbininko prieinamos sveikatos priežiūros draudimas**.
