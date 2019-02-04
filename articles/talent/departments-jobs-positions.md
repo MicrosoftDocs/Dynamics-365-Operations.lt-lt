@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Padaliniai, užduotys ir pareigos yra organizaciniai elementai, tvarkomi modulyje Personalas. Šioje temoje pateikiama abstrakti informacija apie šiuos elementus. 
 
