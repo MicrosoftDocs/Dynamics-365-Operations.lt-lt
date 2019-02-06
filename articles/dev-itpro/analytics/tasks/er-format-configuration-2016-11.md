@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
+ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 6fa5023a29c95ab9f10d8aacd51edc1a06c3c152
 ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
+ms.lasthandoff: 02/06/2019
 
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="6cfbe-103">ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)</span><span class="sxs-lookup"><span data-stu-id="6cfbe-103">ER Create a format configuration (November 2016)</span></span>
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. <span data-ttu-id="6cfbe-109">Spustelėkite **Ataskaitų konfigūracijos**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-109">Click **Reporting configurations**.</span></span>
 3. <span data-ttu-id="6cfbe-110">Medyje pasirinkite **„Mokėjimai (supaprastintas modelis)“**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-110">In the tree, select **Payments (simplified model)**.</span></span>
 4. <span data-ttu-id="6cfbe-111">Spustelėdami **Kurti konfigūraciją**, atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-111">Click **Create configuration** to open the drop dialog.</span></span>
+
  > [!NOTE]
  > <span data-ttu-id="6cfbe-112">Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ 
 5. <span data-ttu-id="6cfbe-113">Lauke **Naujas** įveskite **Formatas pagal duomenų modelį PaymentModel**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
 6. <span data-ttu-id="6cfbe-114">Lauke **Pavadinimas**, įveskite **BACS (JK fiktyvus)**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
 7. <span data-ttu-id="6cfbe-115">Lauke **Aprašas** įveskite **BACS mokėjimo tiekėjui formatas (JK fiktyvus)**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
@@ -44,6 +46,7 @@ ms.lasthandoff: 12/18/2018
     * <span data-ttu-id="6cfbe-119">Galima apibrėžti konkretų elektroninio dokumento formatą.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="6cfbe-120">Palikite šį lauką tuščią, jei norite pasirinkti formatą vykdymo metu.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-120">Leave this field blank if you want to select a format at run-time.</span></span>  
 8. <span data-ttu-id="6cfbe-121">Lauke **Duomenų modelio aprašas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-121">In the **Data model definition** field, enter or select a value.</span></span>
 9. <span data-ttu-id="6cfbe-122">Spustelėkite **Sukurti konfigūraciją**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-122">Click **Create configuration**.</span></span> <span data-ttu-id="6cfbe-123">Sukurta nauja konfigūracija.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-123">A new configuration has been created.</span></span> <span data-ttu-id="6cfbe-124">Juodraščio versijoje galima laikyti elektroninių dokumentų valdymui skirtą dizaino formatą.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+
  > [!NOTE]
  > <span data-ttu-id="6cfbe-125">Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**.</span><span class="sxs-lookup"><span data-stu-id="6cfbe-125">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span>
 
