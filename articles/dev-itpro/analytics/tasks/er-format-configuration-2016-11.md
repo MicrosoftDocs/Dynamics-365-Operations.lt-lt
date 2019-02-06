@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. Spustelėkite **Ataskaitų konfigūracijos**.
 3. Medyje pasirinkite **„Mokėjimai (supaprastintas modelis)“**.
 4. Spustelėdami **Kurti konfigūraciją**, atidarykite išplečiamąjį dialogo langą.
+
  > [!NOTE]
  > Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**. 
+ 
 5. Lauke **Naujas** įveskite **Formatas pagal duomenų modelį PaymentModel**.
 6. Lauke **Pavadinimas**, įveskite **BACS (JK fiktyvus)**.
 7. Lauke **Aprašas** įveskite **BACS mokėjimo tiekėjui formatas (JK fiktyvus)**.
@@ -44,6 +46,7 @@ ms.lasthandoff: 12/18/2018
     * Galima apibrėžti konkretų elektroninio dokumento formatą. Palikite šį lauką tuščią, jei norite pasirinkti formatą vykdymo metu.  
 8. Lauke **Duomenų modelio aprašas** įveskite arba pasirinkite reikšmę.
 9. Spustelėkite **Sukurti konfigūraciją**. Sukurta nauja konfigūracija. Juodraščio versijoje galima laikyti elektroninių dokumentų valdymui skirtą dizaino formatą.  
+
  > [!NOTE]
  > Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**.
 
