@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Šioje temoje aprašomi abstraktūs elementai, kurie gali sudaryti užduotį, ir pateikiami pavyzdžiai, kaip tuos elementus galite naudoti savo organizacijoje. 
 
