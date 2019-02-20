@@ -1,39 +1,34 @@
 ---
-title: "Sveiki, čia – „Dynamics 365 for Retail“"
-description: "Pagrindinis „Dynamics 365 for Retail“ puslapis"
+# required metadata
+title: 'Sveiki, čia „Dynamics 365 for Retail“'
+description: „Dynamics 365 for Retail“ pagrindinis puslapis
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.search.scope: 'Core, Operations, Retail'
+ms.custom: null
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
 ---
 
-# <a name="welcome-to-dynamics-365-for-retail"></a>Sveiki, čia – „Dynamics 365 for Retail“
+# <a name="welcome-to-dynamics-365-for-retail"></a>Sveiki, čia „Dynamics 365 for Retail“
 
 [!include [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 for Retail‟ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais. Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų. „Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes. Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.
 
 > [!NOTE]
-> „Dynamics 365 for Retail‟ yra glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ ir „Dynamics 365 for Talent‟. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su pagrindiniu produktu („Finance and Operations“), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations‟; temose, kurios pirmiausia susijusios su personalu, produkto pavadinimas bus „Dynamics 365 for Talent“.
+> „Dynamics 365 for Retail“ glaudžiai susijęs su „Dynamics 365 for Finance and Operations“ ir „Dynamics 365 for Talent“. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios tiesiogiai susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios tiesiogiai susijusios su pagrindiniu produktu (Finance and Operations), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations“; temose, kurios tiesiogiai susijusios su žmogiškaisiais ištekliais, produkto pavadinimas bus „Dynamics 365 for Talent“.
 
 Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau.
 
@@ -79,20 +74,19 @@ Siekiant nustatyti ryšius tarp parduotuvės, parduotuvės EKA ir periferinių m
 
 Jei jūsų prašoma tinkinti savo aplinką arba esate atsakingi už visuotinį sistemos diegimą ir jos priežiūrą, primygtinai rekomenduojame peržiūrėti konkrečiai sprendimui „Retail‟ skirtą kūrimo ir sistemos administravimo turinį bei bendresnį turinį.
 
-- [„Dynamics 365 for Retail‟, skirtas IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
-- [„Dynamics 365 for Finance and Operations‟ modulis Kūrimas ir administravimas](../dev-itpro/dev-tools/developer-home-page.md)
+- [„Dynamics 365 for Retail“ IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
+- [„Dynamics 365 for Finance and Operations“ kūrimas ir administravimas](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365‟ plano](https://roadmap.dynamics.com/) svetainę.
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).
 
 ### <a name="blogs"></a>Tinklaraščiai
 
-[„Microsoft Dynamics 365‟ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog) galite rasti nuomonių, naujienų ir kitos informacijos apie „Retail‟ ir kitus sprendimus.
+Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį „Retail“ ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog).
 
-Daug įrašų apie „Retail‟ galima rasti [„Microsoft Dynamics AX‟ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei „Retail‟ versijai, galioja tos pačios koncepcijos. Procedūros taip pat panašios į dabartinės versijos procedūras.
+Daug įrašų apie modulį „Retail“ galima rasti „[Microsoft Dynamics AX‟ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei „Retail‟ versijai, galioja tos pačios koncepcijos. Procedūros taip pat panašios į dabartinės versijos procedūras.
 
-[„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
-
+„[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.

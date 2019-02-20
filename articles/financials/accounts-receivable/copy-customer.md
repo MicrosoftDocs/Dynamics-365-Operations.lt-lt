@@ -1,13 +1,13 @@
 ---
-title: "Klientų kopijavimas naudojant bendrinamas numeracijas"
-description: "Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, klientą nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį kliento ID."
+title: Klientų kopijavimas naudojant bendrinamas numeracijas
+description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, klientą nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį kliento ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302615"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Klientų kopijavimas naudojant bendrinamas numeracijas
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Klientus kopijuoti tarp juridinių subjektų taip pat galite, jei naudojate neau
 
 ## <a name="copy-a-customer"></a>Kliento kopijavimas
 
-Norėdami kopijuoti klientą, sąrašo puslapyje **Visi klientai** pasirinkite **Naujas**, kad atidarytumėte dialogo langą **Kliento kūrimas**. Atkreipkite dėmesį, kad naujasis kliento ID nėra priskiriamas iš karto. Toks veikimas skiriasi nuo veikimo ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose. Kadangi dar nepasirinkote klientų grupės, sistema negali nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują klientą, ar klientą kopijuoti. Todėl kliento ID nepriskiriamas tol, kol dialogo lango apačioje nepasirenkate **Įrašyti**.
+Norėdami kopijuoti klientą, sąrašo puslapyje **Visi klientai** pasirinkite **Naujas**, kad atidarytumėte dialogo langą **Kliento kūrimas**. Atkreipkite dėmesį, kad naujasis kliento ID nėra priskiriamas iš karto. Ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose buvo kitaip. Kadangi dar nepasirinkote klientų grupės, sistema negali nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują klientą, ar klientą kopijuoti. Todėl kliento ID nepriskiriamas tol, kol dialogo lango apačioje nepasirenkate **Įrašyti**.
 
 Jei kuriate naują klientą, galite įprastai toliau užpildyti visus laukus. Baigę ir pasirinkę **Įrašyti** matysite, kad kliento ID buvo priskirtas automatiškai. O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis kliento ID.
 
@@ -66,4 +65,3 @@ Klientus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieš
 
 1. Pasirodo parinktis **Kopijuoti klientą**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami klientą nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**. 
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas klientas.
-

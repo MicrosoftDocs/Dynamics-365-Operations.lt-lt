@@ -1,29 +1,29 @@
 ---
-title: "Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme"
-description: "Šioje temoje paaiškinama, kaip sukonfigūruoti pakeitimą „Microsoft Dynamics 365 for Retail“ grąžinime."
+title: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
+description: Šioje temoje paaiškinama, kaip sukonfigūruoti pakeitimą „Microsoft Dynamics 365 for Retail“ grąžinime.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302631"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
 
@@ -51,4 +51,3 @@ Kad geriau matytųsi įvairios krepšelio sumos, į krepšelį įtraukti trys na
 - **Pritaikytas depozitas** – operacijai pritaikyta depozito suma, kai vartotojas paima kliento užsakymą. Jei depozitas neperrašomas ir sukonfigūruotas 10 procentų depozitas, šiame lauke suma lygi 90 procentų visos kliento užsakymo sumos.
 - **Išsinešimo suma** – visa eilučių suma, kai, kuriant ar redaguojant kliento užsakymą arba kliento užsakymą pakeičiant, pristatymo būdas buvo nustatytas kaip **Išsinešimas**. Šiame lauke esanti suma yra su mokesčiais.
 - **Grąžinimo suma** – visa eilučių, kuriose pakeičiant kliento užsakymą nurodyta neigiamų kiekių, suma. Šiame lauke esanti suma yra su mokesčiais.
-

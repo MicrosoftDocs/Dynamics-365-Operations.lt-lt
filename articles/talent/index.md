@@ -1,31 +1,26 @@
 ---
-title: "Sveiki, čia – „Dynamics 365 for Talent“"
-description: "„Talent“ racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Šie procesai apima darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą."
+# required metadata
+title: 'Sveiki, čia „Dynamics 365 for Talent“'
+description: '„Talent“ racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Šie procesai apima darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
 
-# <a name="welcome-to-dynamics-365-for-talent"></a>Sveiki, čia – „Dynamics 365 for Talent“
+# <a name="welcome-to-dynamics-365-for-talent"></a>Sveiki, čia „Dynamics 365 for Talent“
 
 [!include [banner](includes/banner.md)]
 
@@ -42,11 +37,11 @@ ms.lasthandoff: 08/09/2018
 + Našumo ir darbuotojų tikslų įgyvendinimo apžvalga.
 + Mokymo kursų, kurie apima darbotvarkes, sesijas ir specializacijas, nustatymas, atlikimas ir analizė.
 
-Susipažinkite su „Dynamics 365 for Talent“ peržiūrėdami vaizdo įrašą [Kaip pradėti darbą su „Dynamics 365 for Talent“.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+Ištyrinėkite „Dynamics 365 for Talent“ peržiūrėkite vaizdo įrašą [Kaip pradėti dirbti su „Dynamics 365 for Talent“.](https://www.youtube.com/watch?v=6rg2ByadbN0)
 
 
 > [!NOTE] 
-> „Dynamics 365 for Talent‟ glaudžiai susijęs su „Dynamics 365 for Finance and Operations‟ moduliu Personalas. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> „Dynamics 365 for Talent“ glaudžiai susijusi su žmogiškaisiais ištekliais „Dynamics 365 for Finance and Operations“. Gali būti, kad tas pačias funkcijas galima rasti abiejuose produktuose. Todėl temose, kurios pirmiausia susijusios su moduliu Personalas, bus naudojamas produkto pavadinimas „Dynamics 365 for Finance and Operations‟; temose, kurios pirmiausia susijusios su moduliu „Talent‟, bus naudojamas produkto pavadinimas „Dynamics 365 for Talent‟. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Personalo valdymo strategijos kūrimas
 ---------------------------------------------------------
@@ -56,10 +51,10 @@ Dirbdami modulyje „Talent‟ nuspręsite, kaip naudojant elementus (pvz., pada
 -   [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](departments-jobs-positions.md)
 -   [Konkrečios įmonės personalo parametrų nustatymas](set-up-company-specific-hr-parameters.md)
 -   [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md) 
--   [Personalo veiksmų DUK](personnel-actions-faq.md)
+-   [DUK apie personalo veiksmus](personnel-actions-faq.md)
 -   [Atostogų ir neatvykimų apžvalga](leave-absence-overview.md)
--   [Kaip naudoti „Dynamics 365 for Talent“: atostogos ir neatvykimai (vaizdo įrašai)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
--   [Kaip valdyti personalą naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
+-   [Kaip naudoti „Dynamics 365 for Talent“: atostogos ir neatvykimas (vaizdo įrašas)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Kaip valdyti personalą „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Organizacijos personalas
 
@@ -76,7 +71,7 @@ Galite parengti planus, skirtus veiksmingai ir teisingai valdyti kompensaciją, 
 -   [Kompensavimo apdorojimas](process-compensation.md)
 -   [Pastoviosios atlyginimo dalies planų kūrimas](create-fixed-compensation-plans.md)
 -   [Kintamosios atlyginimo dalies planų kūrimas](create-variable-compensation-plans.md)
--   [Kaip valdyti kompensacijas naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=lEw5oKopHDk)
+-   [Kaip valdyti kompensacijas „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Darbuotojų tobulinimas ir mokymas
 
@@ -85,7 +80,7 @@ Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinant svar
 -   [Našumo valdymas](performance-management-overview.md)
 -   [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](skills.md)
 -   [Mokymo administravimas naudojant kursus](courses.md)
--   [Kaip valdyti darbuotojų tobulinimą naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
+-   [Kaip valdyti darbuotojų tobulinimą „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Išmokų kūrimas ir tvarkymas
 
@@ -94,7 +89,7 @@ Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas,
 -   [Išmokų programos valdymas](manage-benefit-program.md)
 -   [Teisės į išmoką strategijos](benefit-eligibility-policies.md)
 -   [Darbininkams paskolintų prekių valdymas](loan-items.md)
--   [Kaip valdyti darbuotojų išmokas naudojant „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Kaip valdyti darbuotojų išmokas „Dynamics 365 for Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbo vietos saugos ir atitikties užtikrinimas
 
@@ -111,4 +106,3 @@ Galite sudaryti ir administruoti klausimynus informacijai įvairiems tikslams ri
 -   [Klausimyno sudarymas](design-questionnaires.md)
 -   [Klausimyno platinimas ir pildymas](distribute-questionnaires.md)
 -   [Klausimyno rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)
-

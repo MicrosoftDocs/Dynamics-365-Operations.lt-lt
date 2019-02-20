@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjų kopijavimas naudojant bendrinamas numeracijas"
-description: "Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID."
+title: Tiekėjų kopijavimas naudojant bendrinamas numeracijas
+description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302659"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Tiekėjų kopijavimas naudojant bendrinamas numeracijas
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Tiekėjus kopijuoti tarp juridinių subjektų taip pat galite, jei naudojate nea
 
 ## <a name="copy-a-vendor"></a>Tiekėjo kopijavimas
 
-Norėdami kopijuoti tiekėją, sąrašo puslapyje **Visi tiekėjai** pasirinkite **Naujas**, kad atidarytumėte puslapį **Visi tiekėjai, naujas įrašas**. Atkreipkite dėmesį, kad naujasis tiekėjo ID nėra priskiriamas iš karto. Toks veikimas skiriasi nuo veikimo ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose. Kadangi dar nepasirinkote tiekėjų grupės, sistema negali nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti. Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate **Įrašyti**.
+Norėdami kopijuoti tiekėją, sąrašo puslapyje **Visi tiekėjai** pasirinkite **Naujas**, kad atidarytumėte puslapį **Visi tiekėjai, naujas įrašas**. Atkreipkite dėmesį, kad naujasis tiekėjo ID nėra priskiriamas iš karto. Ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose buvo kitaip. Kadangi dar nepasirinkote tiekėjų grupės, sistema negali nustatyti teisingos naudotinos numeracijos. Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti. Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate **Įrašyti**.
 
 Jei kuriate naują tiekėją, galite įprastai toliau užpildyti visus laukus. Baigę ir pasirinkę **Įrašyti** matysite, kad tiekėjo ID buvo priskirtas automatiškai. O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis tiekėjo ID.
 
@@ -66,4 +65,3 @@ Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ie�
 
 1. Pasirodo parinktis **Kopijuoti tiekėją**. Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**. Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**.
 2. Pasirinkite **Pasirinkti**. Sukuriamas naujas tiekėjas.
-
