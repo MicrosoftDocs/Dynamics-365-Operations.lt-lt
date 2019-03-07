@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjų supažindinimas"
-description: "Šioje temoje aprašomas naujų tiekėjų supažindinimas. Jame paaiškinami veiksmai, reikalingi įvairiems vaidmenims šio proceso metu."
+title: Tiekėjų supažindinimas
+description: Šioje temoje aprašomas naujų tiekėjų supažindinimas. Jame paaiškinami veiksmai, reikalingi įvairiems vaidmenims šio proceso metu.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322150"
 ---
-
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +48,7 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 | Administratorius            | | | Sukurkite vartotoją „Finance and Operations“ ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
 
-Trumpa tiekėjo paruošimo proceso apžvalga parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo paruošimas programoje „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Greita tiekėjų supažindinimo proceso demonstracija parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo paruošimas programoje „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk}).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Galimo tiekėjo registravimo užklausos importavimas
 
@@ -174,5 +173,4 @@ Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti**, galite 
 |  Tiekėjo užklausa sukurta  |                                                                     Tiekėjo registravimo vedlys baigtas.                                                                      | Sukuriama užklausa išjungti vartotoją ir galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys bei tiekėjo užklausa panaikinami.<blockquote>[!NOTE]<br>Negalima naudoti veiksmo <strong>Naikinti</strong>, kai vykdomas tiekėjo užklausos darbo eigos tikrinimo procesas.</blockquote> |
 |         Aprobuota         |                                                                               Tiekėjo užklausa patvirtinama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
 |         Atmestas         |                                                                               Tiekėjo užklausa atmetama.                                                                               |                                                                                                   Galimo tiekėjo registravimo užklausa, tiekėjo registravimo vedlyje įvesti duomenys ir tiekėjo užklausa panaikinami.                                                                                                    |
-
 

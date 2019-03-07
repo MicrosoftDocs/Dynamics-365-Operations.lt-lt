@@ -1,13 +1,13 @@
 ---
-title: "Kredito kortelės operacijų importavimas ir tvarkymas"
-description: "Šioje temoje paaiškinama, kaip importuoti ir tvarkyti su išlaidomis susijusias kredito kortelių operacijas. Šias operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pasikartojančiu grafiku, arba jas galima pagal poreikį importuoti rankiniu būdu."
+title: Kredito kortelės operacijų importavimas ir tvarkymas
+description: Šioje temoje paaiškinama, kaip importuoti ir tvarkyti su išlaidomis susijusias kredito kortelių operacijas. Šias operacijas galima nustatyti taip, kad jos būtų automatiškai importuojamos pasikartojančiu grafiku, arba jas galima pagal poreikį importuoti rankiniu būdu.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322656"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredito kortelės operacijų importavimas ir tvarkymas
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Norėdami gauti daugiau informacijos apie duomenų objektus, žr. [Duomenų obje
 Nutraukus darbuotojo įrašą, darbuotojo „Active Directory“ domenų tarnybos (AD DS) paskyra išjungiama. Tačiau gali būti aktyvių kredito kortelių operacijų, kurias vis dar reikia įtraukti į išlaidas ir kurias reikia kompensuoti. Kai susietasis darbuotojas atleidžiamas, naudodami puslapį **Kredito kortelių operacijos** bet kuriai kredito kortelių operacijai galite iš naujo priskirti darbuotoją.
 
 Pasirinkite vieną ar kelias kredito kortelių operacijas ir pasirinkite **Iš naujo priskirti operacijas**. Tada galite pasirinkti kitą darbuotoją, kuriam priskirsite kredito kortelių operacijas. Iš naujo priskyrus kredito kortelių operacijas, jas galima pasirinkti įtraukti į išlaidų ataskaitą ir apmokėti įprastu išlaidų ataskaitos kompensacijos procesu.
-

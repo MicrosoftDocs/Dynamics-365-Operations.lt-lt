@@ -1,13 +1,13 @@
 ---
-title: "Kredito kortelių nustatymas, autorizacija ir patvirtinimas"
-description: "Šiame straipsnyje pateikiama kredito kortelės autorizavimo programoje „Microsoft Dynamics 365 for Finance and Operations“ apžvalga. Jame pateikiama informacija apie tai, kaip nustatyti mokėjimo tarnybą, į pardavimo užsakymą įtraukti kredito kortelę ir anuliuoti autorizaciją."
+title: Kredito kortelių nustatymas, autorizacija ir patvirtinimas
+description: Šiame straipsnyje pateikiama kredito kortelės autorizavimo programoje „Microsoft Dynamics 365 for Finance and Operations“ apžvalga. Jame pateikiama informacija apie tai, kaip nustatyti mokėjimo tarnybą, į pardavimo užsakymą įtraukti kredito kortelę ir anuliuoti autorizaciją.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343011"
 ---
-
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredito kortelių nustatymas, autorizacija ir patvirtinimas
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Jei gabenate dalį užsakymo, fiksuojama dalinio užsakymo suma, o autorizacija 
 
 ## <a name="voiding-an-authorization"></a>Autorizavimo anuliavimas 
 Norėdami anuliuoti kreditinių kortelių autorizavimą, galite pakeisti mokėjimo būdą į kitą metodą, kuris neturi kredito kortelės tipo.
-
 
 
 

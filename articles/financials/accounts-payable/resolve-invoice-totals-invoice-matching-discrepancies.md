@@ -1,13 +1,13 @@
 ---
-title: "Nesutapimų šalinimas gretinant SF bendrąsias sumas"
-description: "Galite naudoti SF bendrųjų sumų gretinimo parinktį, kad užtikrintumėte, jog SF bendrosios sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu."
+title: Nesutapimų šalinimas gretinant SF bendrąsias sumas
+description: Galite naudoti SF bendrųjų sumų gretinimo parinktį, kad užtikrintumėte, jog SF bendrosios sumos nenukryptų nuo numatytų sumų didesniu nei priimtinu nuokrypiu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 67aa0b89eed1f82290659029dfcce92ca3710aea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18250a735d0421daa90b923504aeb94b5003a6a7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331511"
 ---
-
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Nesutapimų šalinimas gretinant SF bendrąsias sumas
 
 [!include [banner](../includes/banner.md)]
@@ -43,6 +42,5 @@ Jei identifikavę nesutapimą manote, kad SF informacija yra neteisinga, kreipki
 -   Iš tiekėjo reikalaukite viso kredito ir naujos pataisytos SF.
 
 Daugiau informacijos žr. [Išnagrinėti arba pašalinti išimtis](tasks/research-resolve-exceptions.md).
-
 
 

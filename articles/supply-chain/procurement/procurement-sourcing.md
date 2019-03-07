@@ -1,13 +1,13 @@
 ---
-title: "Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis"
-description: "Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti įsigijimo ir šaltinio pasirinkimo sričiai, sąrašas."
+title: Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
+description: Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti įsigijimo ir šaltinio pasirinkimo sričiai, sąrašas.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338595"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ ms.lasthandoff: 11/03/2017
 -   [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md)
 -   [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](set-up-maintain-vendor-collaboration.md)
--   [Demonstracinis gaunamos konsignacijos atsargų scenarijus, skirtas sprendimui „Finance and Operations“](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (techninė dokumentacija)
+-   [Gaunamos konsignacijos atsargų demonstracinis scenarijus, skirtas „Microsoft Dynamics 365 for Finance and Operations“](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (techninė dokumentacija)
 -   [Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](collaborate-vendors-vendor-portal.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms)
 -   [Tiekėjų portalo vartotojų saugos konfigūravimas](configure-security-vendor-portal-users.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Finance and Operations“ versijoms)
@@ -102,7 +101,6 @@ ms.lasthandoff: 11/03/2017
 -   [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (techninė dokumentacija)
 -   [Pirkimo strategijos](purchase-policies.md)
 -   [Kurti pirkimo strategijas](tasks/create-purchasing-policies.md)
-
 
 
 

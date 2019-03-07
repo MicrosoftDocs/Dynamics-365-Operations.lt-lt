@@ -1,13 +1,13 @@
 ---
 title: Transportavimo valdymo mechanizmai
-description: "Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas."
+description: Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant ir apdorojant transportavimo tarifus modulyje Transportavimo valdymas.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361135"
 ---
-
 # <a name="transportation-management-engines"></a>Transportavimo valdymo mechanizmai
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Transportavimo valdymo mechanizmai apibrėžia logiką, naudojamą generuojant i
 Transportavimo valdymo mechanizmas apskaičiuoja užduotis, pvz., vežėjo transportavimo tarifą. Mechanizmo sistema leidžia keisti skaičiavimo strategijas apdorojimo metu, atsižvelgiant į „Microsoft Dynamics 365 for Finance and Operations“ esančius duomenis. Transportavimo valdymo mechanizmas panašus į priedą, susijusį su tam tikra vežėjo sutartimi.
 
 ## <a name="what-engines-are-available"></a>Kokie yra galimi mechanizmai?
-Toliau pateiktoje lentelėje parodyti galimi „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo mechanizmai.
+Toliau pateiktoje lentelėje parodyti „Microsoft Dynamics 365 for Finance and Operations“ galimi transportavimo valdymo mechanizmai.
 
 | Transportavimo valdymo mechanizmas | aprašymas                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,7 +63,7 @@ Daugeliu atvejų inicijavimo duomenis galite konfigūruoti spustelėdami transpo
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <em>RateBaseAssigner</em>   | .NET tipas, interpretuojantis tam tikros schemos tarifo pagrindo priskyrimo duomenis. Parametro reikšmės sintaksę sudaro du segmentai, atskirti vertikaliu brūkšniu ( |
 |  <em>MileageEngineCode</em>  |                       Kilometražo mechanizmo kodas, identifikuojantis kilometražo mechanizmo įrašą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                        |
-| <em>ApportionmentEngine</em> |                        Bendrasis mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                        |
+| <em>ApportionmentEngine</em> |                        Išlaidų mechanizmo kodas, identifikuojantis paskirstymo mechanizmą „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje.                        |
 
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kaip transportavimo valdymo mechanizmuose naudojami metaduomenys?
 ----------------------------------------------------------
@@ -79,7 +78,7 @@ Ne. Transportavimo valdymo mechanizmams, naudojamiems nuskaityti duomenis, kuri�
 
 | **Pastaba.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Transportavimo valdymo mechanizmai, gauti naudojant „Finance and Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Finance and Operations Visual Studio“ įrankius. |
+| Transportavimo valdymo mechanizmai, gauti naudojant „Finance and Operations“, naudoja duomenis, nuskaitomus iš programos. Mechanizmai, kurie jungiasi prie išorinių sistemų, į programą „Operations“ neįtraukti. Tačiau mechanizmo pagrindu veikiantis išplėtimo modelis leidžia kurti plėtinius naudojant „Microsoft Dynamics 365 for Finance and Operations“ „Visual Studio“ įrankius. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Kaip sukonfigūruoti transportavimo valdymo mechanizmo metaduomenis?
 Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams konfigūruojami skirtingai.
@@ -90,7 +89,7 @@ Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams ko
 | **Zonos mechanizmas**                                | Metaduomenys turi būti nustatyti tiesiogiai pagrindinėje zonoje.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Tranzito laiko mechanizmas** ir **Kilometražo mechanizmas** | Metaduomenys nuskaitomi tiesiogiai iš kilometražo mechanizmo konfigūracijos nustatymo formos.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Tarifų mechanizmo metaduomenų pavyzdys** Transportavimo valdymo mechanizmui reikia nurodyti pradinį adresą, paskirties apskritį ir šalį / regioną bei siuntos pradžios ir pabaigos taškus. Naudojant šiuos reikalavimus, metaduomenys atrodys taip, kaip duomenys toliau pateiktoje lentelėje. Lentelėje taip pat pateikiama informacija, kokio tipo įvesties duomenys yra būtini.
+  **Tarifų mechanizmo metaduomenų pavyzdys** Transportavimo valdymo mechanizmui reikia nurodyti pradinį adresą, paskirties apskritį ir šalį / regioną bei siuntos pradžios ir pabaigos taškus. Naudojant šiuos reikalavimus, metaduomenys atrodys taip, kaip duomenys toliau pateiktoje lentelėje. Lentelėje taip pat pateikiama informacija, kokio tipo įvesties duomenys yra būtini.
 -   Šią informaciją apibrėžkite puslapio **Tarifo pagrindo tipas** dalyje **Transportavimo valdymas** &gt; **Sąranka**.
 
 | Seka | Vardas                          | Lauko tipas | Duomenų tipas | Peržvalgos tipas    | Privaloma |
@@ -100,7 +99,6 @@ Transportavimo valdymo mechanizmų metaduomenys skirtingų tipų mechanizmams ko
 | 3        | Pradinis paskirties vietos pašto indeksas | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 4        | Galutinis paskirties pašto indeksas   | Priskyrimas | Eilutė    | Pašto indeksas    | Pasirinkta  |
 | 5        | Paskirties šalis           | Priskyrimas | Eilutė    | Šalis/regionas |           |
-
 
 
 

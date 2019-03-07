@@ -1,13 +1,13 @@
 ---
-title: "Fiktyvios prekės"
-description: "Šioje temoje aprašoma, išsamiai, kaip eilutės tipą Fiktyvi galima naudoti „Microsoft Dynamics 365 for Finance and Operations“ komplektavimo specifikacijos (KS) ir formulės eilutėms."
+title: Fiktyvios prekės
+description: Šioje temoje išsamiai aprašoma, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341815"
 ---
-
 # <a name="phantom-items"></a>Fiktyvios prekės
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ Fiktyvi KS taip pat gali būti naudojama maršruto tinklą turinčiai KS. Maršr
 Toliau pateiktoje iliustracijoje (a) yra produkto G ir F dalies KS, o (b) yra produkto G ir F dalies maršruto lapas.
 
 ![Produktas G, F dalis su maršruto lapais](media/product-G-part-F-with-route-sheet.png)
-

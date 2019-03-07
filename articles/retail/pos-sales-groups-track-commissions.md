@@ -1,13 +1,13 @@
 ---
-title: "Elektroninio kasos aparato (EKA) komisinių sekimas naudojant pardavimo grupes"
-description: "Mažmeninėje prekyboje įprasta sekti pardavimus pagal su klientu dirbusį atstovą, kuris teikė pagalbą, atliko papildomą pardavimą, kryžminį pardavimą ir operacijos apdorojimą."
+title: Elektroninio kasos aparato (EKA) komisinių sekimas naudojant pardavimo grupes
+description: Mažmeninėje prekyboje įprasta sekti pardavimus pagal su klientu dirbusį atstovą, kuris teikė pagalbą, atliko papildomą pardavimą, kryžminį pardavimą ir operacijos apdorojimą.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325117"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Elektroninio kasos aparato (EKA) komisinių sekimas naudojant pardavimo grupes
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ Naudodamiesi EKA vartotojai gali konfigūruoti į ekrano išdėstymus įtraukiam
 ## <a name="calculating-commissions"></a>Komisinių skaičiavimas
 
 Nurodytų pardavimo grupių darbuotojų komisiniai skaičiuojami registruojant išrašą arba pardavimo užsakymą.Komisinių suma nustatoma pagal pardavimo grupėje nurodytą darbuotojo komisinių dalį ir susijusius klientui ir (arba) operacijos produktams taikomus komisinių skaičiavimo parametrus.
-

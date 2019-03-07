@@ -1,13 +1,13 @@
---- 
-title: "Sudėtinių produktų medžiagų plano kūrimas"
-description: "Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės sudėtiniai produktai."
+---
+title: Sudėtinių produktų medžiagų plano kūrimas
+description: Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės sudėtiniai produktai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337146"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Sudėtinių produktų medžiagų plano kūrimas
 
@@ -110,5 +110,4 @@ Gamybos planuotojas planuoja medžiagų poreikius prekėms, kurios yra formulės
 18. Eikite į Bendrasis planavimas > Sąranka > Bendrojo planavimo parametrai.
 19. Lauke Išjungti visus planavimo procesus pasirinkite Ne.
 20. Uždarykite puslapį.
-
 

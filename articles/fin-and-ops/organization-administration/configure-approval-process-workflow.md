@@ -1,13 +1,13 @@
 ---
-title: "Darbo eigos patvirtinimo procesų konfigūravimas"
-description: "Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes."
+title: Darbo eigos patvirtinimo procesų konfigūravimas
+description: Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325646"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Darbo eigos patvirtinimo procesų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas,
     </tr>
     <tr>
     <td><strong>Vartotojas</strong></td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations“ vartotojai</td>
     <td>
     <ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
-    <li>Skirtukas <strong>Galimi vartotojai</strong> apima visus „Microsoft Dynamics 365 for Finance and Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
+    <li>Sąrašas <strong>Galimi vartotojai</strong> apima visus „Microsoft Dynamics 365 for Finance and Operations“ vartotojus. Pasirinkite, kuriems bus siunčiami pranešimai, ir tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Patvirtinimo procesą sudaro patvirtinimo veiksmai. Atlikite šią procedūrą, 
 1. Darbo eigos rengyklėje dukart spustelėkite patvirtinimo procesą. Darbo eigos rengyklėje rodomi patvirtinimo proceso veiksmai.
 2. Norėdami įtraukti patvirtinimo veiksmą, vilkite veiksmą iš srities **Darbo eigos elementai** į drobę.
 3. Norėdami konfigūruoti patvirtinimo veiksmą, žr. puslapį [Patvirtinimo veiksmo konfigūravimas](configure-approval-step-workflow.md).
-

@@ -1,13 +1,13 @@
 ---
-title: "Kainų koregavimas ir nuolaidos"
-description: "Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Microsoft Dynamics 365 for Retail‟."
+title: Kainų koregavimas ir nuolaidos
+description: Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Microsoft Dynamics 365 for Retail“.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 61ac8e5fbdc4d91bb5bc5372a7fb96633043473a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350969"
 ---
-
 # <a name="price-adjustments-and-discounts"></a>Kainų koregavimas ir nuolaidos
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Microsoft Dynamics 365 for Retail‟.
+Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Microsoft Dynamics 365 for Retail“.
 
 Naudodami „Dynamics 365 for Retail“ galite koreguoti produktų kainas ir nustatyti nuolaidas, taikomas eilutės elementui arba elektroninio kasos aparato (EKA) operacijai, vykdydami skambučių centro pardavimo užsakymą arba internetinį užsakymą. Tiek kainų korekcijas, tiek nuolaidas galima susieti su kainų grupėmis. Kainų koregavimams ir nuolaidoms galite nurodyti vieną pradžios datą ir pabaigos datą arba pasikartojimo laikotarpį, nuolaidos kodą ir keletą papildomų atributų. Kainų koregavimą ir nuolaidos galima taikyti produktams, variantams arba kategorijoms. Jei produktui taikoma daugiau nei viena nuolaida, klientas gali gauti vieną iš nuolaidų arba jungtinę nuolaidą, atsižvelgiant į nuolaidos konfigūraciją. „Dynamics 365 for Retail“ automatiškai taikoma nuolaida ar jungtinė nuolaida ir taip klientui suteikiama geriausia kaina. Nustatydami kainos koregavimą arba nuolaidą įsitikinkite, kad kainų grupės priskiriamos tinkamiems kanalams, katalogams, priskyrimams arba lojalumo programoms, kurioms norite taikyti nuolaidą. Be to, jei norite automatiškai generuoti nuolaidos ID, prieš koreguodami kainą arba nuolaidą, puslapyje **Mažmeninės prekybos parametrai** nustatykite numerių sekas.
 
@@ -48,4 +47,3 @@ Mažmeninės prekybos nuolaidos būna keturių tipų.
 - **Ribinė nuolaida** – nuolaida, taikoma, kai operacijos bendroji suma yra didesnė nei nurodyta suma.
 
 Tiek kainų korekcijas, tiek nuolaidas galima susieti su kainų grupėmis. Kainų grupės gali būti susietos su kanalais, katalogais, priskyrimais ir lojalumo programomis.
-

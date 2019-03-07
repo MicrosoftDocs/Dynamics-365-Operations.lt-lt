@@ -1,13 +1,13 @@
---- 
-title: "ER modelio susiejimų nustatymas ir jų duomenų šaltinių pasirinkimas"
-description: "Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali pažymėti elektroninių ataskaitų duomenų modelio duomenų šaltinius."
+---
+title: ER modelio susiejimų nustatymas ir jų duomenų šaltinių pasirinkimas
+description: Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali pažymėti elektroninių ataskaitų duomenų modelio duomenų šaltinius.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348876"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER modelio susiejimų nustatymas ir jų duomenų šaltinių pasirinkimas
 
@@ -51,7 +51,7 @@ Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektron
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Nurodyti reikiamus esamo modelio susiejimo duomenų šaltinius
 1. Spustelėkite Konstruktorius.
-2. Medyje pasirinkite „Dynamics 365 for Operations\Table records“.
+2. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 3. Spustelėkite „Įtraukti šaknį“.
     * Įveskite šį duomenų šaltinį, kad pasiektumėte mokėjimo operacijas.  
 4. Lauke „Pavadinimas“, įveskite „Operacijos“.
@@ -110,7 +110,7 @@ Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektron
 41. Medyje išplėskite „Operacijos“.
 42. Medyje išplėskite arba sutraukite „Transactions\$Amount”.
 43. Medyje išplėskite arba sutraukite „Operacijos”.
-44. Medyje pasirinkite „Dynamics 365 for Operations\Table records“.
+44. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 45. Spustelėkite „Įtraukti šaknį“.
     * Įveskite šį duomenų šaltinį, kad pasiektumėte įmonės banko sąskaitos informaciją.  
 46. Lauke „Pavadinimas“ įveskite „BankAccount“.
@@ -157,5 +157,4 @@ Tolesniais veiksmais paaiškinama, kaip sistemos administratoriaus arba elektron
 70. Uždarykite puslapį.
 71. Uždarykite puslapį.
 72. Uždarykite puslapį.
-
 

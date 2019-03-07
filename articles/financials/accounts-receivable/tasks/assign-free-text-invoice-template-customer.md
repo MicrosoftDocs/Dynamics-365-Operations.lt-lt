@@ -1,13 +1,13 @@
---- 
-title: "Priskirti laisvos formos SF šabloną klientui"
-description: "Ši užduotis parodo, kaip klientui priskirti laisvos formos SF šabloną."
+---
+title: Priskirti laisvos formos SF šabloną klientui
+description: Ši užduotis parodo, kaip klientui priskirti laisvos formos SF šabloną.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318930"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Priskirti laisvos formos SF šabloną klientui
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 10/16/2018
 10. Pasirinkite kartojimo modelį.
     * Kasdien – pasirinkite šią parinktį ir lauke Per įveskite dienų skaičių. Pavyzdžiui, jei įvesite 15, šio kliento SF bus generuojama kas 15 dienų.  Kas savaitę – pasirinkite šią parinktį ir lauke Per įveskite savaičių skaičių. Pavyzdžiui, jei įvesite 2, šio kliento SF bus generuojama kas dvi savaites.  Kas mėnesį – pasirinkite šią parinktį ir lauke Per įveskite mėnesių skaičių. Pavyzdžiui, jei įvesite 6, šio kliento SF bus generuojama kas šešis mėnesius.  Kas metus – pasirinkite šią parinktį ir lauke Per įveskite metų skaičių. Pavyzdžiui, jei įvesite 2, šio kliento SF bus generuojama kas dvejus metus.  
 11. Lauke Per įveskite skaičių.
-
 

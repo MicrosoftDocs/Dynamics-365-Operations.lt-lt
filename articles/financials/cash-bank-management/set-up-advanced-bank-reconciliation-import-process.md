@@ -1,13 +1,13 @@
 ---
-title: "Išplėstinio banko derinimo importavimo proceso nustatymas"
-description: "Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją."
+title: Išplėstinio banko derinimo importavimo proceso nustatymas
+description: Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334570"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -176,7 +175,6 @@ Paskutiniu veiksmu reikia patikrinti, ar savo banko išrašą galima importuoti.
 8.  Spustelėkite **GERAI**.
 
 Jei pavyko sėkmingai importuoti, bus rodomas pranešimas, kuriame teigiama, kad išrašas buvo importuotas. Jei importuoti nepavyko, suraskite užduotį darbo srities **Duomenų valdymas** dalyje **Užduočių retrospektyva**. Spustelėkite užduoties parinktį **Vykdymo informacija**, kad atidarytumėte puslapį **Vykdymo suvestinė**, o tada spustelėkite **Peržiūrėti vykdymo žurnalą**, kad peržiūrėtumėte importavimo klaidas.
-
 
 
 

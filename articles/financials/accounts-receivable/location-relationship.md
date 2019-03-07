@@ -1,14 +1,14 @@
 ---
-title: "Vietos ir šalies ryšių tipo įtraukimas"
-description: "Šioje temoje paaiškinta, kaip įtraukti naują vietą ir šalies ryšio tipą."
+title: Vietos ir šalies ryšių tipo įtraukimas
+description: Šioje temoje paaiškinta, kaip įtraukti naują vietą ir šalies ryšio tipą.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357501"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>Vietų vaidmenų ir šalių ryšių tipų įtraukimas 
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Yra du būdai, kaip įtraukti naują ryšio tipą:
     3.  Norėdami patikrinti naujojo ryšio tipo automatinį įvedimą, galite sukurti vykdomą klasę ir iškviesti DirDataPopulation::insertDirRelationshipTypes() in Main(). Naująjį ryšio tipą turėtumėte pamatyti **DirRelationshipTypeTable**, be to, naujasis ryšio tipas bus pasiekiamas puslapyje **Ryšių tipai**.
 
         ![Vykdoma klasė](media/Runnable.PNG)
-

@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti įsigijimo kategorijų hierarchiją"
-description: "Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese."
+---
+title: Nustatyti įsigijimo kategorijų hierarchiją
+description: Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334524"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Nustatyti įsigijimo kategorijų hierarchiją
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 11/06/2017
 6. Perjunkite skyriaus „Kategorijos puslapis“ išplėtimą.
     * Kategorijos puslapius galima sukurti puslapyje „Kategorijų hierarchija“. Juose yra informacija apie įsigijimo kategoriją, pvz., informacija apie kategorijos produktų tipus, kategorijos produktų vaizdai arba pranešimai, pvz., apie kategorijoje galimas nuolaidas. Kategorijos puslapyje esanti informacija rodoma pirkimo paraiškose.  
 7. Uždarykite puslapį.
-
 

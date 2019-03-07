@@ -1,13 +1,13 @@
 ---
-title: "Darbo paskirstymo struktūros"
-description: "Darbo paskirstymo struktūra (WBS) yra projekto darbo, kuris bus atliekamas, aprašas. Tai – užduočių hierarchija, perteikianti projekto komandos supratimą apie darbo sudėtį ir kiekvieno komponento ar užduoties dydį, kainą ir trukmę."
+title: Darbo paskirstymo struktūros
+description: Darbo paskirstymo struktūra (WBS) yra projekto darbo, kuris bus atliekamas, aprašas. Tai – užduočių hierarchija, perteikianti projekto komandos supratimą apie darbo sudėtį ir kiekvieno komponento ar užduoties dydį, kainą ir trukmę.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358904"
 ---
-
 # <a name="work-breakdown-structures"></a>Darbo paskirstymo struktūros
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ WBS išsamumo laipsnis priklauso nuo vertinant reikalingo tikslumo lygio ir reik
 
 Priešingai, projektai tokiose pramonės šakose kaip žiniasklaida ir reklama, programinė įranga ir IT infrastruktūra, paprastai nesikartoja, ir produktyvumas yra susijęs su asmens, atliekančio užduotį, patirtimi ir kompetencija. Todėl šiose pramonės šakose WBS naudojama norint įvertinti projekto dydį, o ne išsamiai sekti to projekto eigą. 
 
-WBS kūrimas yra intensyvus procesas, paprastai atliekamas per ilgą laikotarpį ir kurį atliekant reikia itin įvairių žmonių bendradarbiavimo ir informacijos. Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 for Finance and Operations“ naudojant WBS patobulinimus, galima patenkinti įvertinimų ir sekimo reikalavimus.
+WBS kūrimas yra intensyvus procesas, paprastai atliekamas per ilgą laikotarpį ir kurį atliekant reikia itin įvairių žmonių bendradarbiavimo ir informacijos. Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 for Finance and Operations“ naudojant WBS patobulinimus, galima patenkinti įvertinimų ir sekimo reikalavimus.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS kūrimo būtinosios sąlygos
 Norėdami sukurti WBS, turite gebėti sukurti darbo grafiką ir įvertinti darbo kainą.
@@ -103,10 +102,10 @@ Atlikę tolesnes hierarchijos operacijas, galite įgalinti darbo hierarchijos k�
 
 ### <a name="schedule-estimation"></a>Grafiko įvertinimas
 
-Grafiko įvertinimas paprastai yra antrasis veiksmas kuriant WBS. Geriausia grafiko įvertinimą atlikti sukūrus užduotis. „Finance and Operations‟ puslapį **Darbo paskirstymo struktūra** sudaro dvi dalys. Viršutinioji sritis skirta įvertinti grafikui, o apatinėje srityje yra **Įvertintų išlaidų ir įplaukų** skirtukas, kurį galite naudoti įvertinti išlaidoms. 
+Grafiko įvertinimas paprastai yra antrasis veiksmas kuriant WBS. Geriausia grafiko įvertinimą atlikti sukūrus užduotis. „Finance and Operations“ puslapį **Darbo paskirstymo struktūra** sudaro dvi dalys. Viršutinioji sritis skirta įvertinti grafikui, o apatinėje srityje yra **Įvertintų išlaidų ir įplaukų** skirtukas, kurį galite naudoti įvertinti išlaidoms. 
 **Užduočių priklausomybės** WBS struktūroje tarp užduočių galite sukurti ankstesnį ryšį. Kai užduočiai priskiriate ankstesnių užduočių, tą užduotį galite pradėti tik tada, kai atliktos visos jos ankstesnės užduotys. Planuojama užduoties pradžios data automatiškai nustatoma į vėliausią visų jos ankstesnių užduočių datą. 
 
-**Užduočių planavimas programoje „Microsoft Dynamics 365 for Finance and Operations‟** Lapo mazgų užduočių planavimas nustatomas naudojant pateiktus veiksnius.
+**Užduočių planavimas programoje „Microsoft Dynamics 365 for Finance and Operations“** Lapo mazgų užduočių planavimas nustatomas naudojant pateiktus veiksnius.
 
 -   Ankstesnė veikla
 -   Pastanga
@@ -167,7 +166,7 @@ Kiekvienos įvertinto darbo ar išlaidų eilutės išlaidos ir pardavimo kaina p
 ## <a name="tracking-progress-on-the-wbs"></a>WBS eigos sekimas
 Kai kuriose pramonės šakose projekto eiga pagal WBS sekama labai detaliu lygiu, o kitose eiga sekama aukštesniu WBS lygiu. Šiame skyriuje aprašoma, kaip pagal savo projekto reikalavimus galite naudoti WBS sekimą. 
 
-Programoje „Finance and Operations‟ yra trys projekto WBS rodiniai: Planavimo rodinys, Pastangų sekimo rodinys ir Išlaidų sekimo rodinys.
+Programoje „Finance and Operations“ yra trys projekto WBS rodiniai: Planavimo rodinys, Pastangų sekimo rodinys ir Išlaidų sekimo rodinys.
 
 ### <a name="planning-view"></a>Planavimo rodinys
 
@@ -243,13 +242,13 @@ Gautos vertės diagramoje laiko etapas rodomas pagal savaitę ar pagal mėnesį.
 
 **Suplanuota vertė** EVM teorija teigia, kad planuojamos vertės brėžinys yra sparta, kuria projekto komanda planavo gauti projekto vertę. 
 
-Žymėdama suplanuotą vertę, „Finance and Operations‟ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
+Žymėdama suplanuotą vertę, „Finance and Operations“ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
 
 Projektų valdymo ir apskaitos modulyje įvedama lapo mazgų pabaigos data ir suplanuotos jos išlaidos. Kai suplanuotos vertės grafikas rodomas pagal savaitę, visų lapo mazgų užduočių suplanuota vertė visą projekto trukmę apibendrinama pagal savaitę. 
 
 **Gauta vertė** EVM teorija teigia, kad gautos vertės brėžinys yra sparta, kuria projekto komanda faktiškai gauna projekto vertę. 
 
-Žymėdama gautą vertę, „Finance and Operations‟ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
+Žymėdama gautą vertę, „Finance and Operations“ naudoja gavimo taisyklę 0:100. Pagal šią taisyklę užduoties vertė užduotyje registruojama iki jos pabaigos datos. Kol užduotis neatlikta 100 procentų, vertė neregistruojama. 
 
 Kai skaičiuojama gauta vertė, atsižvelgiama į kiekvienos užduoties eigos procentą. Pagal gavimo taisyklę 0:100, skaičiuojant iki tam tikro laikotarpio pabaigos gautą vertę, atsižvelgiama į tik tuo laikotarpiu atliktas užduotis. Skaičiuojama visų projekto užduočių, atliktų kuriant grafiką, gauta vertė. 
 
@@ -314,7 +313,6 @@ Pastangos = išteklių skaičius × trukmė × standartinės darbo dienos valand
 Vienu metu visas planavimo klaidas galite ištaisyti spustelėdami **Taisyti visas planavimo klaidas**. 
 
 Taip pat planavimo klaidas galite taisyti atskirai – spustelėkite kiekvienos užduoties įspėjimo piktogramą.
-
 
 
 

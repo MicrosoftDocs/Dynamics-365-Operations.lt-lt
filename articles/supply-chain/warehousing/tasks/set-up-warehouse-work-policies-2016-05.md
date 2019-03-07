@@ -1,13 +1,13 @@
---- 
-title: "Sandėlio darbo strategijų nustatymas (programa, 2016 m. gegužė)"
-description: "Sandėlio procesai ne visada apima sandėlio darbą."
+---
+title: Sandėlio darbo strategijų nustatymas (programa, 2016 m. gegužė)
+description: Sandėlio procesai ne visada apima sandėlio darbą.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335329"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Sandėlio darbo strategijų nustatymas (programa, 2016 m. gegužė)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Sandėlio procesai ne visada apima sandėlio darbą. Apibrėždami darbo strategiją, galite neleisti konkrečiose vietose kurti tam tikro produktų rinkinio žaliavų paėmimo ir pagamintų prekių padėjimo darbo. Kuriant šį įrašą buvo naudojama demonstracinių duomenų įmonė USMF. Norint atlikti šį užduoties vediklį, reikia „Dynamics AX‟ programos 7.0.1 arba naujesnės versijos.
+Sandėlio procesai ne visada apima sandėlio darbą. Apibrėždami darbo strategiją, galite neleisti konkrečiose vietose kurti tam tikro produktų rinkinio žaliavų paėmimo ir pagamintų prekių padėjimo darbo. Kuriant šį įrašą buvo naudojama demonstracinių duomenų įmonė USMF. Norint atlikti šį užduoties vediklį, reikia „Dynamics AX“ programos 7.0.1 arba naujesnės versijos.
 
 1. Pasirinkite Sandėlio valdymas > Nustatymas > Darbas > Darbo strategijos.
 2. Spustelėkite Naujas.
@@ -51,5 +51,4 @@ Sandėlio procesai ne visada apima sandėlio darbą. Apibrėždami darbo strateg
 19. Sąraše pažymėkite pasirinktą eilutę.
 20. Lauke Prekės numeris įveskite arba pasirinkite „L0101‟.
 21. Spustelėkite Įrašyti.
-
 

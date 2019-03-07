@@ -1,13 +1,13 @@
 ---
-title: "Teigiamų mokėjimų failų nustatymas ir generavimas"
-description: "Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą mokėjimą ir generuoti teigiamo mokėjimo failus."
+title: Teigiamų mokėjimų failų nustatymas ir generavimas
+description: Šiame straipsnyje paaiškinama, kaip nustatyti teigiamą mokėjimą ir generuoti teigiamo mokėjimo failus.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346093"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>Teigiamų mokėjimų failų nustatymas ir generavimas
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 03/26/2018
 Nustatykite teigiamą mokėjimą, jei norite generuoti bankui teikiamą elektroninį čekių sąrašą. Tada, kai čekis pateikiamas bankui, bankas jį lygina su čekių sąrašu. Jei čekis atitinka sąraše esantįjį, bankas jį patvirtina. Jei čekis sąraše esančio čekio neatitinka, bankas jį pasilieka peržiūrėti.
 
 ## <a name="security-for-positive-pay-files"></a>Teigiamų mokėjimų failų sauga
-Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamų mokėjimų failuose gali būti slaptos informacijos, svarbu, kad programoje „Microsoft Dynamics 365 for Finance and Operations‟ šios informacijos generavimo ir peržiūros prieigą turėtų tik įgaliotieji vartotojai. Tolesnė lentelė jums padės nustatyti reikiamas teises.
+Teigiamo mokėjimo failuose gali būti neskelbtinos informacijos apie mokėjimų gavėjus ir čekių sumas. Todėl būtinai naudokite reikiamas saugos priemones nuo failų sugeneravimo akimirkos iki jų gavimo banke. Teigiamų mokėjimų failai atsiunčiami į vietą, kurią nurodo jūsų žiniatinklio naršyklė. Kadangi teigiamų mokėjimų failuose gali būti slaptos informacijos, svarbu, kad programoje „Microsoft Dynamics 365 for Finance and Operations“ šios informacijos generavimo ir peržiūros prieigą turėtų tik įgaliotieji vartotojai. Tolesnė lentelė jums padės nustatyti reikiamas teises.
 
 <table>
 <colgroup>
@@ -160,7 +159,6 @@ Po to, kai teigiamo mokėjimo faile nurodyti čekiai apmokami, iš bango gausite
 
 ## <a name="recall-a-positive-pay-file"></a>Teigiamo mokėjimo failo atšaukimas
 Jei turite teigiamo mokėjimo failą pakeisti, galite jį atšaukti. Puslapyje **Teigiamo mokėjimo failų suvestinė** pasirinkite teigiamo mokėjimo failą, kurio būsena – **Sukurtas**, tada pasirinkite veiksmą **Atšaukti**. Iš naujo nustatomas kiekvieno teigiamo mokėjimo failo čekio laukas, kuriame nurodoma, ar tas čekis įtrauktas į teigiamo mokėjimo failą. Tada galite sukurti naują teigiamo mokėjimo failą, kuriame yra atšauktas čekis.
-
 
 
 

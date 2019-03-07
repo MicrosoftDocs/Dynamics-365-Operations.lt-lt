@@ -1,13 +1,13 @@
 ---
-title: "Duomenų importavimo iš „SharePoint“ konfigūravimas"
-description: "Šioje temoje paaiškinta, kaip importuoti duomenis iš „Microsoft SharePoint“."
+title: Duomenų importavimo iš „SharePoint“ konfigūravimas
+description: Šioje temoje paaiškinta, kaip importuoti duomenis iš „Microsoft SharePoint“.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331097"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Duomenų importavimo iš „SharePoint“ konfigūravimas
 
@@ -192,4 +192,3 @@ Be to, galite atidaryti puslapį **Šaltinių failų būsenos** pasirinkę **Org
 11. Sprendime „Finance and Operations“ pasirinkite **Mokėtinos sumos** \> **Periodinės užduotys** \> **1099 mokestis** \> **1099 tiekėjo sudengimas**, laukuose **Pradžios data** ir **Pabaigos data** įveskite atitinkamas vertes, tada pasirinkite **Rankiniu būdu atliekamos 1099 operacijos**.
 
     Galimos tik V-00001 kvito operacijos. Jokios kvito V-00002 operacijos nėra galimos, nors paskutinės importuotos operacijos klaida rasta „Excel“ faile.
-

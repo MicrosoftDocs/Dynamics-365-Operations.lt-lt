@@ -1,13 +1,13 @@
 ---
-title: "Geriausia kvitų importavimo praktika naudojant objektą Bendrasis žurnalas"
-description: "Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas."
+title: Geriausia kvitų importavimo praktika naudojant objektą Bendrasis žurnalas
+description: Šioje temoje pateikiama patarimų, kaip į bendrąjį žurnalą importuoti duomenų naudojant objektą Bendrasis žurnalas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322518"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Geriausia kvitų importavimo praktika naudojant objektą Bendrasis žurnalas
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Tolesniuose skyriuose apibūdinama, kaip šie parametrai veikia, ir paaiškinama
 - Jei laukas **Kvito numeris** nustatytas į parinktį **Automatiškai sugeneruotas**, importuoti nepavyks. Lauko **Kvito numeris** nustatymas **Automatiškai sugeneruotas** nepalaikomas.
 
 Pagal numatytuosius parametrus objektas Bendrasis žurnalas naudoja rinkiniu pagrįstą apdorojimą. Įvertinę savo organizacijos verslo poreikius, nustatymą **Rinkiniu pagrįstas apdorojimas** galite pakeisti, darbo srityje **Duomenų valdymas** spustelėdami **Duomenų objektai**. Rinkiniu pagrįstas apdorojimas yra naudojamas importavimo procesui pagreitinti. Jeigu naudojate rinkiniu pagrįsto apdorojimo, importavimo procesas naudojant objektą Bendrasis žurnalas bus lėtesnis.
-

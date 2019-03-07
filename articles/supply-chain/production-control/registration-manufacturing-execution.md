@@ -1,13 +1,13 @@
 ---
 title: Gamybos vykdymo registracija
-description: "Šioje temoje paaiškinamos pagrindinės sąvokos ir terminai, kuriuos turite suprasti norėdami konfigūruoti ir naudoti gamybos vykdymą."
+description: Šioje temoje paaiškinamos pagrindinės sąvokos ir terminai, kuriuos turite suprasti norėdami konfigūruoti ir naudoti gamybos vykdymą.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318171"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Gamybos vykdymo registracija
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Darbuotojai gali atlikti įvairių tipų gamybos vykdymo registracijas, kad atli
 -   **Registruoti pertraukas** (galima naudoti su laiku ir lankomumu) – per darbo dieną darbuotojai gali registruotis, kad jie palieka savo darbo vietą norėdami daryti pertrauką. Galima nustatyti kelių tipų pertraukas. Kai darbuotojas grįžta ir vėl užsiregistruoja, sistema užregistruoja, kad darbuotojas grįžo, ir pertraukos registracija sustabdoma.
 -   **Registruoti netiesiogines veiklas** (galima naudoti su laiku ir lankomumu) – netiesioginės veiklos yra neproduktyvios veiklos, kurių darbuotojai gali imtis darbo dienos metu, pvz., padalinio susitikimas, komandos susitikimas arba ceche atliekama priežiūros užduotis. Darbuotojai gali registruoti nustatytą netiesioginę veiklą.
 -   **Registruoti viršvalandžius** (galima naudoti su laiku ir lankomumu) – darbuotojai, kurių paprašyta dirbti ilgiau, gali pasirinkti, ar papildomą laiką registruoti kaip darbą laisvu grafiku, ar kaip viršvalandžius.
-
 
 
 

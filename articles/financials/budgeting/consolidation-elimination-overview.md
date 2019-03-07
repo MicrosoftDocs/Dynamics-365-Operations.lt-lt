@@ -1,13 +1,13 @@
 ---
-title: "Konsolidavimo ir šalinimo peržiūra"
-description: "Šiame straipsnyje pateikta bendra informacija apie konsolidavimą ir pašalinimo procesą. Jame pateikti atsakymai į dažnai užduodamus klausimus."
+title: Konsolidavimo ir šalinimo peržiūra
+description: Šiame straipsnyje pateikta bendra informacija apie konsolidavimą ir pašalinimo procesą. Jame pateikti atsakymai į dažnai užduodamus klausimus.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c972b1a0b9be61875c17a05ce3ec8fce1ac5a4e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345725"
 ---
-
 # <a name="consolidation-and-elimination-overview"></a>Konsolidavimo ir šalinimo peržiūra
 
 [!include [banner](../includes/banner.md)]
@@ -89,6 +88,5 @@ Naudodami pasirinktį **Įmonės balansų eksportavimas**, skirtą eksportuoti i
 
 
 Norėdami daugiau informacijos žr. [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
-
 
 

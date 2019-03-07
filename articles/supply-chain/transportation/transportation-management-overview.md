@@ -1,13 +1,13 @@
 ---
-title: "Transportavimo valdymo peržiūra"
-description: "Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos."
+title: Transportavimo valdymo peržiūra
+description: Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355615"
 ---
-
 # <a name="transportation-management-overview"></a>Transportavimo valdymo peržiūra
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos.
 
-Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai „Microsoft Dynamics 365 for Finance and Operations‟ modulio Transportavimo valdymas naudojimo scenarijai.
+Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai „Microsoft Dynamics 365 for Finance and Operations“ modulio Transportavimo valdymas naudojimo scenarijai.
 
 <table>
 <colgroup>
@@ -51,7 +50,7 @@ Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės trans
 <td>Transportavimo valdymo naudojimas gaunamam ir / arba siunčiamam transportavimui.</td>
 </tr>
 <tr class="even">
-<td>Pristatant / paimant galima naudoti pačios įmonės transporto priemonių parką, o pristatymo išlaidos perkeliamos klientams.</td>
+<td>Pristatant / paimant galima naudoti pačios įmonės transporto priemonių parką, o pristatymo išlaidos perkeliamos klientams.</td>
 <td>Vykstant siuntimo procesams, naudodami Transportavimo valdymą galite nustatyti transportavimo išlaidas ir jas perkelti klientams. Tačiau nebūtina atlikti vežėjo sąskaitų faktūrų derinimo proceso.</td>
 </tr>
 <tr class="odd">
@@ -85,7 +84,6 @@ Galite planuoti ir apdoroti siunčiamą krovinį, norėdami siųsti klientui kon
 
 ## <a name="load-building"></a>Krovinio kūrimas
 Sprendime „Finance and Operations‟ galima naudoti krovinio kūrimo strategiją, kuri vadinasi Tūriu pagrįsta krovinio kūrimo strategija. Naudojant šią strategiją galima naudoti maksimalias aukščio ir svorio reikšmes, nurodytas krovinio šablone, arba galima nepaisyti parametrų įvedant naujas reikšmes. Norėdami naudoti šią strategiją, pasirinkite ją lauke **Krovinio kūrimo strategija**, esančiame puslapio **Krovinio kūrimo darbo sritis** „FastTab“ skirtuke **Nustatymas**. Be to, galite įtraukti savo krovinio kūrimo strategijas sukurdami naują klasę programos objektų medyje (AOT).
-
 
 
 

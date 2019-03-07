@@ -1,13 +1,13 @@
 ---
-title: "Parduotuvės efektyvumo analizė"
-description: "Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realiojo laiko analizę, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail‟ duomenis."
+title: Parduotuvės efektyvumo analizė
+description: Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realaus laiko analitiką, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail“ duomenis.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6d9e116725d19804a22428a35d25c8b1b0d70952
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346185"
 ---
-
 # <a name="analyze-store-performance"></a>Parduotuvės našumo analizavimas
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realiojo laiko analizę, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail‟ duomenis.
+Šiame straipsnyje paaiškinama, kaip, naudodami atminties ir realaus laiko analitiką, galite pasiekti, ištirti ir suprasti parduotuvių našumą pagal savo „Microsoft Dynamics 365 for Retail“ duomenis.
 
-Naudodami „Microsoft Dynamics 365 for Retail“ vartotojai gali tirti parduotuvės efektyvumą realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose per pasirinktą laikotarpį, atidarydami parengtą naudoti ataskaitą **Kanalo suvestinė** bet kurioje iš toliau nurodytų vietų.
+Naudodami „Dynamics 365 for Retail“ vartotojai gali tirti parduotuvės efektyvumą realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose per pasirinktą laikotarpį, atidarydami parengtą naudoti ataskaitą **Kanalo suvestinė** bet kurioje iš toliau nurodytų vietų.
 
 - Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
 - Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo suvestinė**
@@ -46,4 +45,3 @@ Naudodami „Microsoft Dynamics 365 for Retail“ vartotojai gali tirti parduotu
 - Mokesčių suvestinė
 - Kainų nepaisymo suvestinė
 - Nuolaidų suvestinė
-

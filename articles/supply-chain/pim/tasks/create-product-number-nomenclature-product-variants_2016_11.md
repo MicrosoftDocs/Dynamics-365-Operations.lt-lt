@@ -1,13 +1,13 @@
---- 
-title: "Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas"
-description: "Šioje procedūroje parodoma, kaip nustatyti sukonfigūruotų produkto variantų produkto numerių nomenklatūrą ir kaip ją galima pridėti prie konfigūruojamo bendrojo produkto."
+---
+title: Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas
+description: Šioje procedūroje parodoma, kaip nustatyti sukonfigūruotų produkto variantų produkto numerių nomenklatūrą ir kaip ją galima pridėti prie konfigūruojamo bendrojo produkto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 800afdf075f0675185514158f3b712a0fe7675e3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336088"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas
 
@@ -101,5 +101,4 @@ ms.lasthandoff: 10/16/2018
 42. Uždarykite puslapį.
 43. Uždarykite puslapį.
 44. Uždarykite puslapį.
-
 

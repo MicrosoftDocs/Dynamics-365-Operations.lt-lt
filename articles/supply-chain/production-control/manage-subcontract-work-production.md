@@ -1,13 +1,13 @@
 ---
-title: "Gamybos subrangos darbų valdymas"
-description: "Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas."
+title: Gamybos subrangos darbų valdymas
+description: Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326589"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Gamybos subrangos darbų valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ Pusiau baigti produktai yra šios taisyklės išimtis. Norėdami perkelti pusiau
 **Pastaba.** Vieno gamybos užsakymo gamybos maršrutas negali vesti į kelias teritorijas. Ši taisyklės taip pat taikoma subrangos darbui. Todėl tiekėjo valdomas medžiagų saugojimo vietas nurodantys sandėliai turi būti apibrėžti toje pačioje teritorijoje kaip maršrute naudojami vidiniai ištekliai. Nors gamybos eigos gali vesti į kelias teritorijas, jos negali pusiau baigtų produktų perkelti iš vienos teritorijos į kitą, nes tokia operacija pakeičia išlaidų kontekstą.  
 
 Paprastai subrangos išteklių grupės išeigos sandėlis ir vieta yra tiesiogiai paskirstomos į kito operacijos veiksmo sandėlį arba vietą maršrute arba gamybos eigoje. Ši sąranka padeda sumažinti teikiamų užduočių ataskaitų kiekį arba papildomų perkėlimo operacijų, kurias reikia modeliuoti, skaičių.
-
 
 
 

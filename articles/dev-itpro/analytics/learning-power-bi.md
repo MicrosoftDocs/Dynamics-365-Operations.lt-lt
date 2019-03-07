@@ -1,13 +1,13 @@
 ---
-title: "„Power BI“ turinys Mokymasis"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Mokymasis."
+title: „Power BI“ turinys Mokymasis
+description: Šioje temoje aprašomas „Power BI“ turinys Mokymasis.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321460"
 ---
-
 # <a name="learning-power-bi-content"></a>„Power BI“ turinys Mokymasis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Mokymasis**.
+Šioje temoje aprašomas „Microsoft Power BI“ turinys **Mokymasis**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 
@@ -36,7 +35,7 @@ ms.lasthandoff: 04/13/2018
 | Ataskaita                | Turinys |
 |-----------------------|----------|
 | Mokymosi peržiūra     | Kitų ataskaitų suvestinė |
-| Kurso analizė       | Registracija pagal vietą, dalyvis pagal būseną, kursai įmonei pagal tipą ir kursų lankomumas pagal užduotį |
+| Kurso analizė       | Registracija pagal vietą, dalyvis pagal būseną, kursai įmonei pagal tipą ir kursų lankomumas pagal užduotį |
 | Registracijos analizė | Registracijos sąrašas |
 | Kursų tipai          | Kursų tipai pagal įgūdžius |
 | Dėstytojo analizė   | Kursų koeficientas dėstytojams, dėstytojus skaičius, kursai pagal dėstytoją, vienam dėstytojui tenkantys kursai ir kursų darbotvarkė pagal instruktorių |
@@ -47,7 +46,7 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-Tolesniais duomenimis pildomos „Power BI‟ turinio **Mokymasis** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
+Tolesniais duomenimis pildomos „Power BI“ turinio **Mokymasis** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 
 | Objektas           | Turinys                                                         | Ryšiai su kitais objektais |
 |------------------|------------------------------------------------------------------|-----------------------------------|
@@ -64,4 +63,3 @@ Tolesniais duomenimis pildomos „Power BI‟ turinio **Mokymasis** ataskaitos. 
 | Pozicija         | Pareigos ir etato ekvivalentas (FTE)                  | Kurso darbotvarkė, kurso dalyviai |
 | Darbuotojo vardas ir pavardė    | Vardas, pavardė ir vardas bei pavardė                             | Kurso dalyviai |
 | Darbuotojo pareigos   | Pareigos ir paaukštinimo data                                         | Kurso dalyviai |
-

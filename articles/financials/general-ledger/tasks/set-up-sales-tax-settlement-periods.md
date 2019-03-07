@@ -1,13 +1,13 @@
---- 
+---
 title: Nustatyti PVM sudengimo laikotarpius
-description: "PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus, už kuriuos reikia pranešti apie PVM ir jį sumokėti."
+description: PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus, už kuriuos reikia pranešti apie PVM ir jį sumokėti.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326198"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Nustatyti PVM sudengimo laikotarpius
 
@@ -60,5 +60,4 @@ PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus
 20. Spustelėkite Naujas laikotarpio intervalas.
     * Įvedus pirmąjį laikotarpio intervalą, galima automatiškai kurti naujus laikotarpius. Jei reikia, galite grįžti ir pridėti naujų laikotarpių intervalų.  
 21. Uždarykite puslapį.
-
 

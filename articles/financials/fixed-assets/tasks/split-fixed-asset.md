@@ -1,13 +1,13 @@
---- 
-title: "Skaidyti ilgalaikį turtą"
-description: "Šis užduočių vadovas išskaidys vienos turto knygos procentinę dalį naujai turto knygai."
+---
+title: Skaidyti ilgalaikį turtą
+description: Šis užduočių vadovas išskaidys vienos turto knygos procentinę dalį naujai turto knygai.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6be9de64265a4d7b5c91af3ee8acfce80c78e0f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333374"
 ---
 # <a name="split-a-fixed-asset"></a>Skaidyti ilgalaikį turtą
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 3. Spustelėkite Eilutės.
     * Patikrinkite sukurtas žurnalo eilutes.  Sukuriama pradinio turto įsigijimo koregavimo operacija, kad būtų galima sumažinti reikšmę procentine dalimi, nurodyta skaidymo proceso metu.  Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.  
 4. Spustelėkite Registruoti.
-
 

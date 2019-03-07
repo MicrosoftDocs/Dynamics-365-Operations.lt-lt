@@ -1,13 +1,13 @@
 ---
-title: "Produkto variantų numerių ir pavadinimų nomenklatūra"
-description: "Šioje temoje aprašoma, kaip nustatyti produkto numerių nomenklatūrą, norint pakeisti fiksuotą [bendrojo produkto numeris – konfigūracija – dydis – spalva – stilius] formatą."
+title: Produkto variantų numerių ir pavadinimų nomenklatūra
+description: Šioje temoje aprašoma, kaip nustatyti produkto numerių nomenklatūrą, norint pakeisti fiksuotą [bendrojo produkto numeris – konfigūracija – dydis – spalva – stilius] formatą.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: f84b6982af8b81ff83086d163a77e1c2f58ca478
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336686"
 ---
-
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Produkto variantų numerių ir pavadinimų nomenklatūra
 
 [!include [banner](../includes/banner.md)]
@@ -198,5 +197,4 @@ Priklausomai nuo nomenklatūros, sistema gali bandyti konfigūracijai priskirti 
 [Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Sukonfigūruotų produkto variantų produkto numerių nomenklatūros kūrimas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
-
 

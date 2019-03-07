@@ -1,13 +1,13 @@
 ---
-title: "Banko žurnalo sudėtinio objekto naujinimas"
-description: "Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJournalEntity formatas, atlikite toliau nurodytus veiksmus."
+title: Banko žurnalo sudėtinio objekto naujinimas
+description: Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJournalEntity formatas, atlikite toliau nurodytus veiksmus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 70db65dca4cfadd1ed8769386b4b437cecc217a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8b11df3b21f8d97986d934ff3c65931aa7ee0c6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359364"
 ---
-
 # <a name="update-the-bank-journal-composite-entity"></a>Banko žurnalo sudėtinio objekto naujinimas
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Norėdami papildomą lauką BankTransactionType įtraukti į sudėtinį BankJour
             -   Patikrinkite, ar banko operacijos tipas yra susietas nuo šaltinio iki išdėstymo.
 
 3.  Importuokite naują išrašą.
-
 
 
 

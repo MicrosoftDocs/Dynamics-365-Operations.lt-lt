@@ -1,13 +1,13 @@
 ---
-title: "Mažmeninės prekybos išrašai"
-description: "Šioje temoje aprašoma, kaip kuriami ir registruojami išrašai."
+title: Mažmeninės prekybos išrašai
+description: Šioje temoje aprašoma, kaip kuriami ir registruojami išrašai.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347703"
 ---
-
 # <a name="retail-statements"></a>Mažmeninės prekybos išrašai
 
 [!include [banner](includes/banner.md)]
@@ -86,7 +85,6 @@ Jei ta pati parduotuvė konfigūruojama nepažymėjus žymės langelio **Registr
 Kai registruojate išrašą, išraše sukuriami mažmeninės prekybos pardavimo užsakymai ir sąskaitos faktūros.
 
 - Atsiskaitymo grynaisiais operacijos kaupiamos viename pardavimo užsakyme, o sąskaita faktūra išrašoma numatytajam klientui, kuris yra priskirtas parduotuvei.
-- Mažmeninė prekyba, kurios klientas buvo įtrauktas į „Microsoft Dynamics 365 for Retail POS“ operaciją, generuoja atskirus pardavimo užsakymus ir sąskaitas faktūras, po vieną kiekvienam unikaliam klientui.
+- Mažmeninė prekyba, kurios klientas buvo įtrauktas į „Microsoft Dynamics 365 for Retail“ EKA operaciją, generuoja atskirus pardavimo užsakymus ir sąskaitas faktūras, po vieną kiekvienam unikaliam klientui.
 
 Išrašo mokėjimams automatiškai sukuriami mokėjimų žurnalai, o EKA parduotuvėje atnaujinamos atsargos.
-

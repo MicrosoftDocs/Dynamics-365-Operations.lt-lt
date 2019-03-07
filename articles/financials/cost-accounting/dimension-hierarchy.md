@@ -1,32 +1,31 @@
 ---
-title: "Dimensijų hierarchija"
-description: "Šioje temoje pateikiama informacijos apie dimensijų hierarchijas. Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus."
+title: Dimensijų hierarchija
+description: Šioje temoje pateikiama informacijos apie dimensijų hierarchijas. Dimensijų hierarchija naudojama kaštų apskaitoje norint nurodyti ataskaitų struktūrą, išlaidų strategijas ir saugos nustatymus.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320218"
 ---
-
 # <a name="dimension-hierarchy"></a>Dimensijų hierarchija
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Dimensijų hierarchiją galima sukurti šių tipų dimensijoms:
 > [!NOTE]
 > - Jeigu reikalingos skirtingos perspektyvos, galite sukurti kelias tos pačios dimensijos dimensijų hierarchijas.
 > - Dimensijų hierarchija gali būti susieta tik su viena dimensija.
-> - Dimensijų hierarchijos struktūros lygiai gali būti neriboti. Visi lygiai nurodomi darbo srityje **Išlaidų kontrolė**. Kai „Microsoft Excel“ arba „Microsoft Power BI“ naudojate ataskaitų rengimo tikslais, eksportuojami tik pirmi 15 dimensijų hierarchijos lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema.
+> - Dimensijų hierarchijos struktūros lygiai gali būti neriboti. Visi lygiai nurodomi darbo srityje **Išlaidų kontrolė**. Kai „Microsoft Excel“ arba „Microsoft Power BI“ naudojate ataskaitų rengimo tikslais, eksportuojami tik pirmi 15 dimensijų hierarchijos lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI“ reikalinga ilgalaikė schema.
 > - Dimensijų hierarchija nėra įsigaliojanti nuo tam tikros datos. Todėl bet kokie dimensijų hierarchijai atlikti pakeitimai iš karto įrašomi į įrašą ir negalima palyginti datos prieš su data po.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensijų hierarchijos tipas
@@ -196,11 +195,11 @@ Dimensijų hierarchijas galima rasti toliau nurodytuose ataskaitų įrankiuose. 
         - Viena savikainos objekto dimensijų hierarchija (pasirinktinai)
         - Viena statistinė dimensijų hierarchija (pasirinktinai)
 
-- „Power BI“:
+- Power BI:
 
     - Galimos visos dimensijų hierarchijos.
     
-Jei ataskaitas kuriate naudodami „Excel“ arba „Power BI‟, eksportuojami tik pirmi 15 dimensijų hierarchijų lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI‟ reikalinga ilgalaikė schema. Jei hierarchija sudaryta iš daugiau nei 15 lygių, pertekliniai lygiai neeksportuojami. Normalizuotoje lentelėje pateikiamas kiekvieno hierarchijos dimensijos nario įrašas. Todėl įvyksta automatinis telkimas. Taikant šį metodą lengviau užtikrinti, kad visų galimų 15 hierarchijos lygių likučiai būtų teisingi.
+Jei ataskaitas kuriate naudodami „Excel“ arba „Power BI“, eksportuojami tik pirmi 15 dimensijų hierarchijų lygių. Šis apribojimas nustatomas todėl, kad naudojant „Excel“ ir „Power BI“ reikalinga ilgalaikė schema. Jei hierarchija sudaryta iš daugiau nei 15 lygių, pertekliniai lygiai neeksportuojami. Normalizuotoje lentelėje pateikiamas kiekvieno hierarchijos dimensijos nario įrašas. Todėl įvyksta automatinis telkimas. Taikant šį metodą lengviau užtikrinti, kad visų galimų 15 hierarchijos lygių likučiai būtų teisingi.
 
 Toliau pateiktame pavyzdyje nurodoma, kaip dimensijų hierarchija gali atrodyti ataskaitų struktūroje.
 
@@ -326,12 +325,11 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
 
     - Likučiai kortelėse
 
-- „Power BI“:
+- Power BI:
 
-    - Atliekant „Power BI‟ vizualizavimą rodomi duomenys
+    - Atliekant „Power BI“ vizualizavimą rodomi duomenys
     - Į „Microsoft Dynamics 365 for Finance and Operations“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
 
 > [!NOTE] 
-> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI‟, turi būti susieta prieigos sąrašo hierarchija ir „Power BI‟ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Prieigos sąrašo hierarchija negali padėti užtikrinti, kad duomenys bus eksportuoti į „Excel“. Todėl tą ataskaitų įrankį turi naudoti tik išlaidų buhalteriai ir vadovai, kuriems suteikiama neribota prieiga peržiūrėti duomenis.
-

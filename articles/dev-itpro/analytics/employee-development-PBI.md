@@ -1,13 +1,13 @@
 ---
-title: "„Power BI“ turinys Darbuotojo tobulėjimas"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Darbuotojo tobulėjimas."
+title: „Power BI“ turinys Darbuotojo tobulėjimas
+description: Šioje temoje aprašomas „Power BI“ turinys Darbuotojo tobulėjimas.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347174"
 ---
-
 # <a name="employee-development-power-bi-content"></a>„Power BI“ turinys Darbuotojo tobulėjimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Darbuotojo tobulėjimas**.
+Šioje temoje aprašomas „Microsoft Power BI“ turinys **Darbuotojo tobulėjimas**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 Į „Power BI“ turinį **Darbuotojo tobulėjimas** įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
@@ -70,4 +69,3 @@ ms.lasthandoff: 08/13/2018
 | Darbuotojų įgūdžių analizė  | Patvirtintas, lygis, lygio data ir įgūdis                                                                    | Darbuotojo vardas ir pavardė, įgūdis |
 | Našumas              | Įvertinimas, aprašas ir įvertinimo modelis                                                                      | Dabartinis darbuotojas, dabartinės pareigos, darbuotojo tendencija, darbui reikiami įgūdžiai, ankstesnių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas |
 | Įgūdis                    | Įgūdis, įgūdžio tipas ir įvertinimas                                                                              | Darbuotojo įgūdžių analizė, darbui reikiamii įgūdžiai |
-

@@ -1,13 +1,13 @@
 ---
-title: "Įdarbinimo procesų valdymas"
-description: "Šiame straipsnyje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje."
+title: Įdarbinimo procesų valdymas
+description: Šiame straipsnyje aprašoma koncepcija, kurią darbdaviai gali naudoti norėdami sekti įdarbinimo proceso veiksmus, įskaitant pastangas reklamuoti laisvas darbo vietas ir pretendentus, pretendento ir prašymo informacijos sekimą, pokalbius su pretendentais ir vieno ar daugiau kandidatų pasirinkimą, norint užpildyti laisvas darbo vietas jūsų organizacijoje.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345679"
 ---
-
 # <a name="manage-recruiting-processes"></a>Įdarbinimo procesų valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ Jei prašymą turi peržiūrėti keli darbuotojai, galite naudoti puslapį **Pra
 ## <a name="hiring-applicants"></a>Pretendentų samda
 
 Norėdami samdyti pretendentą naudokite puslapį **Prašymai**. Įdarbinant pretendentą, prašymo įrašo būsena yra **Įdarbinta**, o pretendento visuotinės adresų knygelės asmens įrašas susiejamas su naujo darbuotojo įrašu. Visuotinės adresų knygos informacijos pakeitimai pagal naujo darbuotojo įrašus rodomi ir pretendento įraše. Tai gali padėti sumažinti duomenų įvedimą, jei naujas darbuotojas kada nors pretenduos į kitą darbo vietą jūsų įmonėje. Norėdami samdyti esamą darbuotoją į naujas pareigas, spustelėję **Pakeisti pareigas** išplečiamajame sąraše **Prašymo būsena**, pradėkite perkėlimo procesą.
-

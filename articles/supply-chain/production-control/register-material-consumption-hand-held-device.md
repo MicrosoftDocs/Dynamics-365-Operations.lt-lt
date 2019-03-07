@@ -1,13 +1,13 @@
 ---
-title: "Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį"
-description: "Šioje temoje aprašoma darbo eiga, kurią naudojant galima kišeniniu įrenginiu registruoti žaliavų sunaudojimą gamybos metu."
+title: Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
+description: Šioje temoje aprašoma darbo eiga, kurią naudojant galima kišeniniu įrenginiu registruoti žaliavų sunaudojimą gamybos metu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5b9c73cf9b23eb8ad9ed872b76b92b395609e9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b84b63ec519ae686b55905170c956fcb2b08334a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336134"
 ---
-
 # <a name="register-material-consumption-using-a-mobile-device"></a>Medžiagų vartojimo registravimas naudojant mobilųjį įrenginį
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 03/08/2018
 
 Nepertraukiamo gamybos proceso (5) metu sunaudojama paketiniu būdu kontroliuojama žaliava RM-100. Medžiaga turima vietoje Bulk-001 (1) (numerio lentelė – PL-1), kurioje yra du paketai (B1 ir B2), kuriuose yra po 100 svarų medžiagos kiekio. Pateikiamas ir apdorojamas RM-100 sandėlio darbas (2), o medžiaga iš Bulk-001 paimama į gamybos įvesties vietą PIL-01 (3), kuri apibrėžta kaip kontroliuojama ne pagal numerio lentelę. Mašinos operatorius pasveria medžiagą iš gamybos įvesties vietos (3) ir svorį bei paketo numerį užregistruoja kaip sunaudotus (4). Dalis medžiagos apibrėžtais laiko intervalais rankiniu būdu iš gamybos įvesties vietos dedama į gamybos procesą. Mašinos operatoriui dedant medžiagą, ji pasveriama ant svarstyklių ir užregistruojamas paketo numeris.
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Darbo eigos nustatymas, kad sunaudojimą būtų galima registruoti kišeniniu įrenginiu
+## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Darbo eigos nustatymas, kad sunaudojimą būtų galima registruoti kišeniniu įrenginiu
 Sukurkite baigtos prekės produktą FG-100 su komplektavimo specifikacija, kurioje yra paketiniu būdu kontroliuojama žaliava RM-100. Į vietą Bulk-001 (numerio lentelė – PL-1) įtraukite du RM-100 paketus (B1 ir B2), kurių kiekis – 100. Komplektavimo specifikacijos RM-100 eilutėje sunaudojimo principas nustatomas kaip **Rankinis**. Gamybos įvesties vietą nustatykite kaip PIL-01. Tai padaryti galite šią vietą pasirinkdami kaip numatytąją 51 sandėlio gamybos įvesties vietą.
 
 1.  Sukurkite naują mobiliojo įrenginio meniu elementą: 
@@ -69,7 +68,7 @@ Taip medžiaga iš buferinės vietos bus perkelta į gamybos įvesties vietą PI
 
 Kai gamybos užsakymas pradėtas, naudodami kišeniniam įrenginiui skirtą darbo eigą galite registruoti medžiagų sunaudojimą. Pradėkime registruodami paketo B1 25 svarų sunaudojimą.
 
-6.  Kišeninio įrenginio meniu pasirinkite elementą **Registruoti medžiagų** **sunaudojimą** ir įveskite tolesnę informaciją. 
+6.  Kišeninio įrenginio meniu pasirinkite elementą  **Registruoti medžiagų** **sunaudojimą** ir įveskite tolesnę informaciją. 
 
 -    Gamybos užsakymo numeris. 
 -    Vietą, kurioje medžiaga bus sunaudota, šiuo atveju – PIL-01. 
@@ -79,7 +78,7 @@ Kai gamybos užsakymas pradėtas, naudodami kišeniniam įrenginiui skirtą darb
 
 7.  Pasirinkite **Gerai**.
 
-Atkreipkite dėmesį, kad ekrane atsiranda pranešimas „Sukurta žurnalo eilutė‟. Gamybos užsakyme yra atviras tipo **Gamybos išrinkimo dokumentas** žurnalas, kurio prekės numeris – RM-100, o paketo numeris – B1. 
+Atkreipkite dėmesį, kad ekrane atsiranda pranešimas „Sukurta žurnalo eilutė“. Gamybos užsakyme yra atviras tipo **Gamybos išrinkimo dokumentas** žurnalas, kurio prekės numeris – RM-100, o paketo numeris – B1. 
 
 Dabar galite pasirinkti tęsti registraciją, pavyzdžiui, paketo nr. B2, ir kiekvieną kartą pasirinkus **Gerai** į atvirą žurnalą įtraukiama nauja žurnalo eilutė. 
 
@@ -91,6 +90,5 @@ Baigę registraciją pasirinkite **Atlikta** – žurnalas užregistruojamas, o 
 -   Naujoje darbo eigoje taip pat galima registruoti serijos numerius.
 -   Galima registruoti tik pasirinkto gamybos užsakymo arba paketinio užsakymo komplektavimo specifikacijoje ar formulėje nustatytą prekės numerį.
 -   Medžiagos galima sunaudoti daugiau nei numatyta. Pavyzdžiui, jei numatoma sunaudoti 100 svarų medžiagos, jos galima sunaudoti daugiau, pavyzdžiui, 105 svarus.
-
 
 

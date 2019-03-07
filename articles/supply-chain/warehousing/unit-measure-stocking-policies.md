@@ -1,13 +1,13 @@
 ---
-title: "Matavimo vienetų ir sandėliavimo strategijos"
-description: "Šiame straipsnyje aprašoma, kaip, vykdant sandėlio procesus, naudojami numatytieji vienetai, vienetų sekos ir vienetų konvertavimas."
+title: Matavimo vienetų ir sandėliavimo strategijos
+description: Šiame straipsnyje aprašoma, kaip, vykdant sandėlio procesus, naudojami numatytieji vienetai, vienetų sekos ir vienetų konvertavimas.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318102"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Matavimo vienetų ir sandėliavimo strategijos
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Norėdami nustatyti numatytuosius vienetus, kurie turi būti naudojami gavimo pr
 
 ## <a name="default-order-settings"></a>Numatytieji užsakymo parametrai
 Kaip patvirtintų produktų kūrimo dalį, turite pasirinkti numatytuosius pirkimo, pardavimo ir atsargų vienetus, kad būtų galima apdoroti įvairius užsakymus. Galite nustatyti numatytuosius įvairių šaltinio dokumentų vienetus ir kiekius puslapiuose **Numatytieji užsakymo parametrai** ir **Nuo teritorijos priklausomi užsakymo parametrai**. Šiuos puslapius galite pasiekti iš puslapio **Patvirtinti produktai**.
-
 
 
 

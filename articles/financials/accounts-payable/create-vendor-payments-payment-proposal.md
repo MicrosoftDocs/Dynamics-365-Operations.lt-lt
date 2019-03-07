@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą"
-description: "Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia."
+title: Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
+description: Šioje temoje apžvelgiamos mokėjimo pasiūlymų parinktys ir pateikiami keli pavyzdžiai, kuriais rodoma, kaip mokėjimo pasiūlymai veikia.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327417"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 
 [!include [banner](../includes/banner.md)]
@@ -70,7 +69,7 @@ Liepos 1 d. Aprilė moka tiekėjams. Ji naudoja mokėjimo pasiūlymą, kad būt�
 
 ### <a name="option-1-by-cash-discount"></a>1 variantas: pagal nuolaidą
 
-Aprilė pasirenka **Nuolaidą** kaip pasiūlymo tipą.  Ji įveda datos intervalą nuo birželio 26 d. iki liepos 10 d. Šios SF bus įtrauktos į pasiūlymą:
+Aprilė pasirenka  **Nuolaidą** kaip pasiūlymo tipą. Ji įveda datos intervalą nuo birželio 26 d. iki liepos 10 d. Šios SF bus įtrauktos į pasiūlymą:
 
 -   1002, nes nuolaidos data liepos 4 d. yra mokėjimo datų intervale.
 -   1004, nes nuolaidos data liepos 1 d. yra mokėjimo datų intervale.
@@ -120,8 +119,7 @@ Dimensijų valdymas suteikia galimybę kontroliuoti sugeneruotų eilučių grupa
 
 #### <a name="bank-account-selection"></a>Banko kodo pasirinkimas
 
-Galite nustatyti mokėjimo metodo standartinę debeto mokėjimo sąskaitą nepriklausomai nuo šalies. Tai bus nustatyta mokėjimo eilutėse, kurias sugeneruos pasiūlymas. Naudodami banko kodo funkciją, galite nurodyti kelis debeto banko kodus, kuriuos valdytų dimensija, valiuta arba jų derinys, kad būtų naudojami skirtingi debeto banko kodai, atsižvelgiant į kiekvieną derinį. Šias kombinacijas galite nustatyti puslapyje **Mokėjimų metodai**, naudodami mygtuką **Banko kodai**, skirtą kiekvienam mokėjimo metodui, kurio **Registravimo sąskaitos tipas** =  **Bankas**.
-
+Galite nustatyti mokėjimo metodo standartinę debeto mokėjimo sąskaitą nepriklausomai nuo šalies. Tai bus nustatyta mokėjimo eilutėse, kurias sugeneruos pasiūlymas. Naudodami banko kodo funkciją, galite nurodyti kelis debeto banko kodus, kuriuos valdytų dimensija, valiuta arba jų derinys, kad būtų naudojami skirtingi debeto banko kodai, atsižvelgiant į kiekvieną derinį. Šias kombinacijas galite nustatyti puslapyje **Mokėjimų metodai**, naudodami mygtuką  **Banko kodai**, skirtą kiekvienam mokėjimo metodui, kurio **Registravimo sąskaitos tipas** =  **Bankas**.
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Atsargų būsenos"
-description: "Šiame straipsnyje aprašyta, kaip galite naudoti atsargų būsenas norėdami skirstyti ir sekti atsargas."
+title: Atsargų būsenos
+description: Šiame straipsnyje aprašyta, kaip galite naudoti atsargų būsenas norėdami skirstyti ir sekti atsargas.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5caa5620db428f18d451fdfe2aeae9e2a76a24f8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322794"
 ---
-
 # <a name="inventory-statuses"></a>Atsargų būsenos
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasie
 Nustatę atsargų būseną, galite nustatyti svetainės, prekės ir sandėlio numatytąją atsargų būseną. Taip pat galite nustatyti numatytąją pardavimų, perkėlimų ir pirkimo užsakymų būseną. Numatytosios pardavimo užsakymų ir siuntimo perkėlimo užsakymo būsenos parinkčiai **Atsargų blokavimas** negali būti nustatyta reikšmė **Taip**. Atsargų būseną, kuri gaunama pagal numatytuosius vietos, sandėlio, prekės, pirkimo užsakymo, perkėlimo užsakymo arba pardavimo užsakymo nustatymus, galima keisti naudojant mobilųjį įrenginį arba pirkimo užsakymo, pardavimo užsakymo ar perkėlimo užsakymo eilutėje.
 
 Norėdami suplanuoti prekių, kurių atsargų būsena yra pasiekiama, padengimą,  pasirinkite saugojimo dimensijos parinktį **Padengimo planas dimensijomis** puslapyje **Saugojimo dimensijų grupės**. Kai atidarote vedlį **Prekės padengimas**, prekės, kurių būsena yra pasiekiama, rodomos puslapyje **Būsena**. Norėdami kurti tokių prekių padengimo parametrus, pasirinkite pasiekiamų atsargų būsenų atsargų būsenos ID. Pagal padengimo parametrus galite apskaičiuoti prekių poreikius ir prognozuoti pasiekiamų prekių pasiūlą ir paklausą bendrojo planavimo metu. Negalima kurti prekės padengimo nustatymo, kai prekės atsargų būsena „blokuota“. Arba naudodami puslapį **Prekės padengimas** sukurkite arba modifikuokite prekių padengimo parametrus.
-

@@ -1,13 +1,13 @@
 ---
-title: "Vieno šalia kito puslapių rodymas naudojant atidarymo naujame lange funkciją"
-description: "Šiame straipsnyje paaiškinama, kaip „Microsoft Dynamics 365 for Finance and Operations“ puslapius rodyti vieną šalia kito."
+title: Vieno šalia kito puslapių rodymas naudojant atidarymo naujame lange funkciją
+description: Šiame straipsnyje aiškinama, kaip puslapius rodyti vieną šalia kito programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330177"
 ---
-
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Vieno šalia kito puslapių rodymas naudojant atidarymo naujame lange funkciją
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Vieno šalia kito puslapių rodymas naudojant funkciją Atidaryti naujame lange
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip „Microsoft Dynamics 365 for Finance and Operations“ puslapius rodyti vieną šalia kito.
+Šiame straipsnyje aiškinama, kaip puslapius rodyti vieną šalia kito programoje „Microsoft Dynamics 365 for Finance and Operations“.
 
-„Microsoft Dynamics 365 for Finance and Operations‟ padeda efektyviai atlikti užduotis. Kai kuriais atvejais, norėdami greitai atlikti užduotis, galbūt noriste kelis puslapius peržiūrėti vieną šalia kito. Pavyzdžiui, galbūt norėsite patikrinti eilutes arba jų įvesti daugiau nei viename žurnale. Paprastai, norint tai atlikti, turėtumėte eiti pirmyn ir atgal tarp puslapio, kuriame rodomas žurnalų sąrašas ir puslapio, kuriame rodomos nurodyto žurnalo eilutės. Tačiau funkcija **Atidaryti naujame lange** leidžia šiuos puslapius rodyti vieną šalia kito, kad galėtumėte greitai atlikti savo užduotis.
+„Microsoft Dynamics 365 for Finance and Operations“ padeda efektyviai atlikti užduotis. Kai kuriais atvejais, norėdami greitai atlikti užduotis, galbūt noriste kelis puslapius peržiūrėti vieną šalia kito. Pavyzdžiui, galbūt norėsite patikrinti eilutes arba jų įvesti daugiau nei viename žurnale. Paprastai, norint tai atlikti, turėtumėte eiti pirmyn ir atgal tarp puslapio, kuriame rodomas žurnalų sąrašas ir puslapio, kuriame rodomos nurodyto žurnalo eilutės. Tačiau funkcija **Atidaryti naujame lange** leidžia šiuos puslapius rodyti vieną šalia kito, kad galėtumėte greitai atlikti savo užduotis.
 
 Tęsiant pirmiau minėtą pavyzdį, peržiūrėdami eilutes, galite spustelėti piktogramą **Atidaryti naujame lange**.
 
@@ -50,4 +49,3 @@ Prieš naudodami funkciją **Atidaryti naujame lange**, turėtumėte sukonfigūr
 Funkciją **Atidaryti naujame lange** galima naudoti tik kai lange atidarytas daugiau nei vienas puslapis. Be to, kai nebėra atidarytų puslapių (t. y., kai uždaromas to lango paskutinis puslapis), iššokantysis langas automatiškai užsidaro. „Finance and Operations‟ taip pat uždaro atidarytus puslapius, kai pereinate į kitą programos sritį. Todėl, jei yra atidarytų iššokančiųjų langų, ir jūs pereinate į kitą programos sritį, iššokantieji langai automatiškai uždaromi, nes sistema uždarė tų langų puslapius.
 
 Iššokančiųjų langų viršutinėje juostoje rodoma informacija apie įmonę, kurioje puslapis buvo atidarytas, ir juostą galima tik skaityti. Iššokantieji langai taip pat priklauso nuo pagrindinio „Finance and Operations‟ naršyklės lango. Jei pagrindinis langas uždaromas ar atnaujinamas, visus atidarytus iššokančiuosius langus bus galima tik skaityti. Tai reiškia, kad vis dar galite peržiūrėti tų langų informaciją, bet negalėsite su ja sąveikauti.
-

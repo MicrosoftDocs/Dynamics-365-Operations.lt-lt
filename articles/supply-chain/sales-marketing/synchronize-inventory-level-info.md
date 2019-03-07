@@ -1,32 +1,31 @@
 ---
-title: "„Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ atsargų lygio informaciją su „Microsoft Dynamics 365 for Field Service“."
+title: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ atsargų lygio informaciją su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 01/14/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: 3ccc4d406fa4f9800dcdf8697a91892408783196
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356788"
 ---
-
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“ 
 
 [!include[banner](../includes/banner.md)]
@@ -38,10 +37,10 @@ ms.lasthandoff: 12/20/2018
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ turimų atsargų lygius su „Microsoft Dynamics 365 for Field Service“.
 
-**Šablono pavadinimas naudojant funkciją Duomenų integravimas:**
+**Šablonas naudojant funkcija Duomenų integravimas**
 - Produktų atsargos („Finance and Operations“ su „Field Service“)
   
-**Užduočių pavadinimai projekte Duomenų integravimas:**
+**Užduotis projekte Duomenų integravimas**
 - Produktų atsargos
 
 Prieš sinchronizuojant atsargų lygius būtina atlikti toliau nurodytas sinchronizavimo užduotis.
@@ -55,10 +54,10 @@ Prieš sinchronizuojant atsargų lygius būtina atlikti toliau nurodytas sinchro
 | msdynce_externalproductinventories | CDS turimos atsargos pagal sandėlį     |
 
 ## <a name="entity-flow"></a>Objekto srautas
-Atsargų lygio informacija iš „Finance and Operations“ siunčiama į pasirinktų produktų „Field Service“. Atsargų lygio informacija apima: 
+Atsargų lygio informacija iš „Finance and Operations“ siunčiama į pasirinktų produktų „Field Service“. Atsargų lygio informacija apima 
 - Turimas kiekis (dabartinis faktiškai užregistruotas sandėlyje esantis kiekis)
-- Kiekis užsakyme (bendras užsakyme užregistruotas kiekis, t. y. pardavimo užsakymų kiekis)
-- Užsakytas kiekis (bendras užregistruotas užsakytas kiekis, t. y. pirkimo užsakymų kiekis)
+- Kiekis užsakyme (bendras užsakyme užregistruotas kiekis, pvz., pardavimo užsakymų kiekis)
+- Užsakytas kiekis (bendras užregistruotas užsakytas kiekis, pvz., pirkimo užsakymų kiekis)
 
 Ši informacija fiksuojama visiems kiekvieno sandėlio išleistiems produktams ir sinchronizuojama remiantis keitimų sekimu, kai pasikeičia atsargų lygis.
 
@@ -68,19 +67,19 @@ Atsargų lygio informacija iš „Finance and Operations“ siunčiama į pasiri
 
 Produktus ir sandėlius, kuriuose atsargų lygiai tvarkomi pagal „Finance and Operations“, galima valdyti naudojant išplėstinę užklausą ir filtravimą („Power Query“).
 
-Pastaba. Galima sukurti keletą „Field Service“ sandėlių (pagal parinktį „Tvarkomas išoriškai = Ne“), o tada juos susieti su vienu „Finance and Operations“ sandėliu, naudojančiu išplėstinės užklausos ir filtravimo funkcionalumą. Tai naudojama tais atvejais, kai norite, kad „Field Service“ tvarkytų išsamų atsargų lygį ir tiesiog siųstų naujinimus į „Finance and Operations“. Šiuo atveju „Field Service“ negaus „Finance and Operations“ atsargų lygio naujinimų. Papildomos informacijos žr. „Field Service“ atsargų koregavimo sinchronizavimas su „Finance and Operations“ ir „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ projektu susietais pardavimo užsakymais“.
+> [!NOTE]
+> Galima sukurti keletą „Field Service“ sandėlių (pagal parinktį **Tvarkomas išoriškai = Ne**), o tada juos susieti su vienu „Finance and Operations“ sandėliu, naudojančiu išplėstinės užklausos ir filtravimo funkcionalumą. Tai naudojama tais atvejais, kai norite, kad „Field Service“ tvarkytų išsamų atsargų lygį ir tik siųstų naujinimus į „Finance and Operations“. Šiuo atveju „Field Service“ negaus „Finance and Operations“ atsargų lygio naujinimų. Papildomos informacijos žr. [„Field Service“ atsargų koregavimo sinchronizavimas su „Finance and Operations“](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ir [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ projektu susietais pardavimo užsakymais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>„Field Service“ CRM sprendimas
-Išorinio produkto atsargų objektas yra naujas objektas, naudojamas tik vidiniam integravimui. Gaunamos „Finance and Operations“ integravimo atsargų lygio vertės, kurios paskui transformuojamos į atsargų žurnalus rankiniu būdu, o vėliau keičia atsargų produktus sandėlyje. 
+Objektas **Išorinio produkto atsargos** naudojamas tik atliekant vidinį integravimą. Šis objektas gauna „Finance and Operations“ integravimo atsargų lygio reikšmes, kurios vėliau transformuojamos į atsargų žurnalus neautomatiniu būdu, o vėliau keičia atsargų produktus sandėlyje.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
-### <a name="in-the-data-integration-project"></a>Duomenų integravimo projekte
-Taikykite filtrus su išplėstine užklausa ir filtravimu, norėdami kontroliuoti, kad tik pageidaujami produktai ir sandėliai siųstų atsargų lygio informaciją iš „Finance and Operations“ į „Field Service“.
+### <a name="data-integration-project"></a>Duomenų integravimo projektas
+Galite taikyti filtrus su išplėstine užklausa ir filtravimu, norėdami kontroliuoti, kad tik tam tikri produktai ir sandėliai siųstų atsargų lygio informaciją iš „Finance and Operations“ į „Field Service“.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
 ### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Produktų atsargos („Finance and Operations“ su „Field Service“): produktų atsargos
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-

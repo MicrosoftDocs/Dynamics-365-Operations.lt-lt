@@ -1,13 +1,13 @@
 ---
-title: "Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos"
-description: "Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais."
+title: Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
+description: Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir ataskaitoms. Šiame straipsnyje pateikiama informacija apie tai, kokias gamybos darbo išlaidų kategorijas turite apibrėžti gamybos ir projektų tikslais.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326037"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir at
 -   Paprastai DK sąskaitos, susijusios su išlaidomis ir pardavimu, įprastai nurodomos pagal kategorijų grupę, kuri priskiriama išlaidų kategorijai. Tačiau specialios sąskaitos gali būti nurodytos pagal atskirą išlaidų kategoriją.
 
 Papildomi puslapio **Išlaidų kategorijos**mygtukai suteikia prieigą prie su projektu susijusios informacijos apie pasirinktą išlaidų kategoriją. Pavyzdžiui, galite peržiūrėti su projektu susijusias operacijas, apibrėžti darbuotojus ar projektus, apibrėžti valandines išlaidas ir pardavimo kainas bei peržiūrėti ataskaitas.
-
 
 
 

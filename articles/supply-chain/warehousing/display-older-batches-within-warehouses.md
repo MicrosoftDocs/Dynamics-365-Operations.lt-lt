@@ -1,13 +1,13 @@
 ---
-title: "Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje"
-description: "Šioje temoje aprašoma, kaip nustatyti mobilųjį įrenginį, kad jame būtų rodomas vietų su senesniais už dabartinę darbo eilutės vietą paketų vietų sąrašas."
+title: Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje
+description: Šioje temoje aprašoma, kaip nustatyti mobilųjį įrenginį, kad jame būtų rodomas vietų su senesniais už dabartinę darbo eilutės vietą paketų vietų sąrašas.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 946266e73d59bdf383f1f91cdf70dd58f01b995c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd0a9c2e9fbfea987b045e301fb73a505a0f2a4e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352648"
 ---
-
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Senesnių paketų sandėlyje rodymo konfigūravimas mobiliajame įrenginyje
 
 [!include [banner](../includes/banner.md)]
@@ -40,5 +39,4 @@ Parinktis Senesnių paketų sandėlyje rodymas sukonfigūruota mobiliojo įrengi
 Konfigūraciją **Senesnių paketų sandėlyje rodymas** galima naudoti mobiliojo įrenginio meniu elementams, kai parinktis **Paimti seniausią paketą** nustatyta į **Įspėti**.
 
 - Parinktyje **Sandėlio valdymas** > **Sąranka** > **Mobilusis įrenginys** > **Mobiliojo įrenginio meniu elementai** nustatykite meniu elemento parinktį **Naudoti esamą darbą** į **Taip** ir lauke **Paimti seniausią paketą** pasirinkite **Įspėti**. 
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Produkto konfigūracijos modelio kūrimas"
-description: "Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai."
+title: Produkto konfigūracijos modelio kūrimas
+description: Įmonė-įmonei ir įmonė-vartotojui sektoriuose tampa įprasta konfigūruoti produktus, kad būtų patenkinami konkretūs poreikiai.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327463"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Produkto konfigūracijos modelio kūrimas
 
 [!include [banner](../includes/banner.md)]
@@ -158,7 +157,6 @@ Vykdant konfigūravimo procesą siekiama sukurti išskirtąjį produkto variant�
 ### <a name="multiple-sites-and-intercompany"></a>Kelios vietos ir vidinė įmonė
 
 Jei konfigūravimo procesas bus vykdomas ne gamybos vietoje ar įmonėje, KS ir maršrutas bus sukurti ir naudojami tiekėjo įmonės vietoje. Produkto variantas bus išleistas visose tiekimo grandinės įmonėse.
-
 
 
 

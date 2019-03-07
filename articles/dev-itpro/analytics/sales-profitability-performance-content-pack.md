@@ -1,13 +1,13 @@
 ---
-title: "Pardavimo ir pelningumo našumo „Power BI“ turinys"
-description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Pardavimo ir pelningumo našumas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
+title: „Power BI“ turinys Pardavimo ir pelningumo našumas
+description: Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Pardavimo ir pelningumo našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360422"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Pardavimo ir pelningumo našumo „Power BI“ turinys
+# <a name="sales-and-profitability-performance-power-bi-content"></a>„Power BI“ turinys Pardavimo ir pelningumo našumas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Pardavimo ir pelningumo našumas**. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
+Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Pardavimo ir pelningumo našumas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
-„Power BI‟ turinys **Pardavimo ir pelningumo našumas** buvo sukurtas tam, kad pardavimo vadovai galėtų stebėti pagrindines pardavimo metrikas – įplaukas, bendrąjį pelną ir pelno maržas. Jame naudojami pardavimo operacijų duomenys ir pateikiamas tiek sujungtas visos įmonės pardavimo skaičių rodinys, tiek klientų ir produktų pardavimo našumo analizė.
+„Power BI“ turinys **Pardavimo ir pelningumo našumas** buvo sukurtas tam, kad pardavimo vadovai galėtų stebėti pagrindines pardavimo metrikas – įplaukas, bendrąjį pelną ir pelno maržas. Jame naudojami pardavimo operacijų duomenys ir pateikiamas tiek sujungtas visos įmonės pardavimo skaičių rodinys, tiek klientų ir produktų pardavimo našumo analizė.
 
 Ataskaitose perteikiama, kaip laikui bėgant kinta įplaukų ir pelno augimas. Todėl ataskaitas galima naudoti norint vadovus įspėti apie teigiamas ir neigiamas atskirų klientų ir produktų tendencijas. Be to, diagramomis vienų su kitais lyginamos skirtingų produktų kategorijų ir klientų grupių įplaukos bei pelningumas. Todėl kategorijų ir regionų vadovai gali nustatyti atsiliekančiuosius ir pirmaujančiuosius. Galiausiai išsamioje ataskaitoje atskiro kliento įplaukos lyginamos su pelno marža. Todėl klientų vadovai turi duomenimis pagrįstas pagrindą, kurį naudodami gali savo pardavimo ir rinkodaros pastangas derinti pagal kiekvieno kliento profilį.
 
@@ -50,10 +49,10 @@ Pelningumą galima analizuoti tolesniais būdais.
 - kliento pelningumą (pagal įplaukas, lyginant su marža).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-„Power BI“ turinys **Pardavimo ir pelningumo efektyvumas** rodomas puslapyje **Pardavimo ir pelningumo efektyvumas** (**Pardavimas ir rinkodara** \> **Užklausos ir ataskaitos** \> **Pardavimo efektyvumo analizė** \> **Pardavimo ir pelningumo efektyvumas**).
+„Power BI“ turinys **Pardavimo ir pelningumo našumas** rodomas puslapyje **Pardavimo ir pelningumo našumas** (**Pardavimas ir rinkodara** \> **Užklausos ir ataskaitos** \> **Pardavimo efektyvumo analizė** \> **Pardavimo ir pelningumo našumas**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
-„Power BI‟ turinio pakete **Pardavimo ir pelningumo našumas** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio vizualizacijų apžvalga.
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
+„Power BI“ turinio pakete **Pardavimo ir pelningumo našumas** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama turinio vizualizacijų apžvalga.
 
 | Ataskaitų puslapis            | Diagramos                                     | Išklotinės                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
@@ -78,9 +77,9 @@ Pelningumą galima analizuoti tolesniais būdais.
 \* įplaukos šiais ir praėjusiais metais ir augimas pagal pardavimo kategoriją.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Tolesniais duomenimis pildoma „Power BI‟ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildoma „Power BI“ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
-Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje.
 
 Kaip turinio pagrindas naudojami šie pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai.
 
@@ -109,4 +108,3 @@ Tolesnės pagrindinės pardavimo kubo dimensijos naudojamos kaip filtrai agreguo
 | Datos            | Datos                                                |
 
 Pagal numatytuosius parametrus turinyje rodomi esamų kalendorinių metų duomenys. Tačiau ataskaitos filtrų skyriuje datos filtrą galima pakeisti. Taip pat galite pakeisti įmonės filtrą.
-

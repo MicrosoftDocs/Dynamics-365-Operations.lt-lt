@@ -1,13 +1,13 @@
 ---
-title: "Dalinio tiekėjo mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas"
-description: "Šiame straipsnyje apžvelgiamas scenarijus, kai tiekėjui, kuris siūlo kelias mokėjimo nuolaidas, atliekami keli daliniai mokėjimai."
+title: Dalinio tiekėjo mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
+description: Šiame straipsnyje apžvelgiamas scenarijus, kai tiekėjui, kuris siūlo kelias mokėjimo nuolaidas, atliekami keli daliniai mokėjimai.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c697d20bcbe6ab8f2bc38c03b181104db1f36838
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d88630a62cfdebf0daf19d3bb6af7fcc6e877876
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357961"
 ---
-
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Dalinio tiekėjo mokėjimo, turinčio kelis nuolaidos laikotarpius, sudengimas
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,6 @@ Liepos 20 d. Eglė sukuria 200,00 galutinį mokėjimą. Nepritaikoma jokia nuola
 | PROG-10061  | 2015-07-12 |         | 495,00                               |                                       | 0,00    | USD      |
 | NUOL-10061 | 2015-07-12 |         | 5,00                                 |                                       | 0,00    | USD      |
 | PROG-10062  | 2015-07-20 |         | 200,00                               |                                       | 0,00    | USD      |
-
 
 
 

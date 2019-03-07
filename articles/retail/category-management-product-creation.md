@@ -1,32 +1,31 @@
 ---
-title: "Mažmeninės prekybos produktų kategorijų ir produktų valdymas"
-description: "Šioje temoje aprašoma, kaip reklamavimo vadovai gali naudoti mažmeninės prekybos produktų kategorijas ryšiams tarp mažmeninės prekybos produktų hierarchijos ir išsamios informacijos apie išleistus produktus valdyti."
+title: Mažmeninės prekybos produktų kategorijų ir produktų valdymas
+description: Šioje temoje aprašoma, kaip reklamavimo vadovai gali naudoti mažmeninės prekybos produktų kategorijas ryšiams tarp mažmeninės prekybos produktų hierarchijos ir išsamios informacijos apie išleistus produktus valdyti.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344690"
 ---
-
 # <a name="manage-retail-product-categories-and-products"></a>Mažmeninės prekybos produktų kategorijų ir produktų valdymas
 
 [!include [banner](./includes/banner.md)]
@@ -58,4 +57,3 @@ Be to, patobulintoje mažmeninės prekybos produktų kategorijų struktūroje re
 Šią naują patobulintą produktų ypatybių struktūrą galite naudoti pasirinkdami atnaujintų produktų ypatybes, kurias reikia perkelti į susietus produktus. Puslapio **Mažmeninės prekybos produktų hierarchija** veiksmų srityje pasirinkite **Kategorija**, tada pasirinkite **Naujinti produktus**, kad atidarytumėte dialogo langą **Produktų naujinimas**.
 
 ![Produktų naujinimo dialogo langas](media/NewUpdateProductsEnhancedView.PNG)
-

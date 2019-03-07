@@ -1,13 +1,13 @@
 ---
-title: "Išplėstinio banko suderinimo sąrankos procesas"
-description: "Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai."
+title: Išplėstinio banko suderinimo sąrankos procesas
+description: Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 for Finance and Operations“.  Šiame straipsnyje paaiškinami derinimo nustatymo procesai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357340"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Išplėstinio banko suderinimo sąrankos procesas
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Parinktis **Naudoti bankų išrašus kaip elektroninių mokėjimų patvirtinimus
 Lauke **Banko sąskaitos pavadinimas išrašuose** nurodytas banko sąskaitos pavadinimas, naudojamas elektroniniuose banko išrašuose.  Šis pavadinimas naudojamas nustatant, kokias banko sąskaitos operacijas importuoti iš išrašo, kuriame gali būti pateikiama informacija apie kelias banko sąskaitas. 
 
 Pasirinkus parinktį **Derinti importavus**, bus automatiškai patvirtintas banko išrašas, sukurtas naujas banko derinimas ir darbalapis bei įvykdytas numatytasis gretinimo taisyklių rinkinys.  Ši funkcija automatizuoja procesą iki pat to momento, kai operacijas reikia gretinti neautomatiniu būdu.  Importuojant banko sąskaitos parametras taps numatytuoju nustatymu.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "„Dynamics 365“, skirto programai „Unified Operations Mobile“, pagrindinis puslapis"
-description: "Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Unified Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje."
+title: „Dynamics 365“, skirto programai „Unified Operations Mobile“, pagrindinis puslapis
+description: Šioje temoje aprašoma programa „Microsoft Dynamics 365 for Unified Operations Mobile“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,24 +17,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321391"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>„Dynamics 365“, skirto programai „Unified Operations Mobile“, pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma mobilioji programa „Microsoft Dynamics 365 for Unified Operations“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
+Šioje temoje aprašoma programa „Microsoft Dynamics 365 for Unified Operations Mobile“ ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
 
 > [!NOTE]
-> Anksčiau mobilioji programa vadinosi *„Microsoft Dynamics 365 for Finance and Operations‟*.
+> Anksčiau mobilioji programa vadinosi *Microsoft Dynamics 365 for Finance and Operations*.
 
-<a name="overview"></a>Apžvalga
+<a name="overview"></a>Peržiūrėti
 --------
 
 Mobilioji programa jūsų organizacijai suteikia galimybę pasiekti savo verslo procesus mobiliuosiuose įrenginiuose. Kai jūsų IT administratorius jūsų organizacijoje įjungia mobiliųjų darbo sričių funkciją, vartotojai gali prisijungti prie programos ir iš karto pradėti vykdyti verslo procesus iš savo mobiliųjų įrenginių. Mobilioji programa apima toliau nurodytas funkcijas, kurios gali padėti padidinti efektyvumą.
@@ -85,7 +84,7 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <td>1</td>
 <td>Sistemos administratorius</td>
 <td>Įdiekite „Finance and Operations“ savo organizacijoje.</td>
-<td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365‟ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
+<td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -119,8 +118,8 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <tr class="odd">
 <td>5</td>
 <td>ISV</td>
-<td>Sukurkite diegiamą paketą, kuriame yra pasirinktinės mobiliosios darbo sritys, ir įkelkite paketą į „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Diegiamo paketo kūrimas</a></td>
+<td>Sukurkite diegiamą paketą, kuriame yra pasirinktinės mobiliosios darbo sritys, ir įkelkite paketą į „Microsoft Dynamics Lifecycle Services“ (LCS).</td>
+<td><a href="../deployment/create-apply-deployable-package.md">Visuotinai diegiamo paketo kūrimas</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -153,4 +152,3 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 </tr>
 </tbody>
 </table>
-

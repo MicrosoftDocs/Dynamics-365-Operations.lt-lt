@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti ir kurti nusidėvėjimo profilius"
-description: "Nusidėvėjimo šablonai nustato turto nusidėvėjimo tipą ir dažnį."
+---
+title: Nustatyti ir kurti nusidėvėjimo profilius
+description: Nusidėvėjimo šablonai nustato turto nusidėvėjimo tipą ir dažnį.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8bb33a01232e3556d743e8913a61eb2f6375ba73
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4cf469ad1ae0db6a8764eedbcc0160afa03c2808
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336778"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Nustatyti ir kurti nusidėvėjimo profilius
 
@@ -40,5 +40,4 @@ Nusidėvėjimo šablonai nustato turto nusidėvėjimo tipą ir dažnį.   Šis �
 6. Lauke Nusidėvėjimo metai pasirinkite parinktį.
 7. Lauke Laikotarpio dažnis pasirinkite pasirinktį.
 8. Uždarykite formą.
-
 

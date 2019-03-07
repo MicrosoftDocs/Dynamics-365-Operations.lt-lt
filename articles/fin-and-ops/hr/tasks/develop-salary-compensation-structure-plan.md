@@ -1,13 +1,13 @@
---- 
-title: "Kurti atlyginimų / kompensavimo struktūrą ir planą"
-description: "Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles."
+---
+title: Kurti atlyginimų / kompensavimo struktūrą ir planą
+description: Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332776"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Kurti atlyginimų / kompensavimo struktūrą ir planą
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 10/16/2018
     * Pasirinkite kriterijus, kuriuos turi atitikti darbuotojas, kad turėtų teisę į kompensavimo planą. Kriterijai gali būti Skyrius, Profesinė sąjunga, Vieta (Kompensacijos sritis), Darbas, Funkcija, Darbo tipas arba Kompensavimo lygis. Kad turėtų teisę į kompensavimo planą, darbuotojas turi atitikti visus nurodytus kriterijus. Jei nenurodyti jokie kriterijai, į kompensavimo planą teisę turi visi darbuotojai. Jei darbuotojas neatitinka tinkamumo taisyklėje nurodytų kriterijų, arba jei kompensavimo plano tinkamumo taisyklė nenurodyta, kuriant darbuotojo pastoviosios atlyginimo dalies įrašą, peržvalgoje kompensavimo planas nebus rodomas.  
 7. Uždarykite puslapį.
 8. Uždarykite puslapį.
-
 

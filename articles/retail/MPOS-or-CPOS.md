@@ -1,31 +1,30 @@
 ---
-title: "Pasirinkimas tarp „Retail Modern POS“ ir „Cloud POS“"
-description: "Šioje temoje aiškinami pagrindiniai skirtumai tarp „Retail Modern POS“ ir „Cloud POS“. Joje taip pat aprašomi įvairūs veiksniai, į kuriuos mažmenininkai, diegiantys „Microsoft Dynamics 365 for Retail“, turėtų atsižvelgti, kad galėtų pasirinkti geriausią sprendimą, atitinkantį jų poreikius."
+title: Pasirinkimas tarp „Retail Modern POS“ ir „Cloud POS“
+description: Šioje temoje aiškinami pagrindiniai skirtumai tarp „Retail Modern POS“ ir „Cloud POS“. Joje taip pat aprašomi įvairūs veiksniai, į kuriuos mažmenininkai, diegiantys „Microsoft Dynamics 365 for Retail“, turėtų atsižvelgti, kad galėtų pasirinkti geriausią sprendimą, atitinkantį jų poreikius.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336249"
 ---
-
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Pasirinkimas tarp „Retail Modern POS“ ir „Cloud POS“
 
 [!include [banner](includes/banner.md)]
@@ -40,8 +39,8 @@ ms.lasthandoff: 01/04/2019
 
 „Retail“ palaiko šias EKA parinktis:
 
-- „Retail Modern POS“ (MPOS), skirtas „Microsoft Windows“
-- MPOS, skirtas „Microsoft Windows Phone“
+- „Retail Modern POS“ (MPOS), skirta „Microsoft Windows“
+- MPOS, skirta „Microsoft Windows Phone“
 - MPOS, skirtas „Apple iPad“ arba „Google Android“ planšetiniam kompiuteriui
 - „Cloud POS“ (CPOS), kuris palaiko „Microsoft Edge“, „Internet Explorer“ ir „Google Chrome“ naršykles
 
@@ -61,7 +60,7 @@ Nors MPOS ir CPOS iš esmės yra tas pats, yra keletas svarbių skirtumų, kuriu
 MPOS „Windows“, „iOS“ arba „Android“ įrenginyje yra programa, kuri yra sukomplektuota, įdiegta ir prižiūrima tame įrenginyje.
 
 - **Windows**. MPOS programoje, skirtoje „Windows“, yra visas programos kodas ir įdėtoji „Commerce Runtime“ (CRT). 
-- **iOS/Android**. Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas gaunamas iš CPOS serverio, esančio „Microsoft Azure“ arba „Retail Store Scale Unit“ (RSSU). Daugiau informacijos žr. [„Retail Store Scale Unit“ apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas gaunamas iš CPOS serverio, esančio „Microsoft Azure“ arba „Retail Store Scale Unit“ (RSSU). Daugiau informacijos žr. [„Retail Store Scale Unit“ apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -74,10 +73,10 @@ Be platformos ir formos koeficiento, mažmenininkai taip pat turi pasirinkti die
 | EKA programa         | „Retail server“ | Pasiekiama neprisijungus |
 |-------------------------|---------------|-------------------|
 | MPOS, skirtas „Windows“        | Debesies arba RSSU | Taip               |
-| MPOS, skirtas „iOS“ arba „Android“ | Debesies arba RSSU | Nr.                |
-| Cloud POS               | Debesies arba RSSU | Nr.                |
+| MPOS, skirta „iOS“ arba „Android“ | Debesies arba RSSU | nr.                |
+| „Cloud POS“               | Debesies arba RSSU | nr.                |
 
-#### <a name="retail-server"></a>„Retail server“
+#### <a name="retail-server"></a>„Retail Server“
 
 „Retail server“ yra komponentas, kuriame laikoma CRT. CRT aplinkoje yra verslo logika, kurą naudoja EKA, ir ji suteikia prieigą prie kanalo duomenų bazės. Kai jie prisijungę, visi EKA klientai parduotuvėje naudoja „Retail server“. „Retail server“ galima diegti arba debesyje, arba parduotuvėje (RSSU).
 
@@ -106,4 +105,3 @@ Atsižvelkite į šią informaciją planuodami EKA diegimą savo mažmeninės pr
 - **Aparatūros įrenginiai arba išoriniai įrenginiai**. Vienas svarbus „Retail POS“ sistemos aspektas yra jos galimybė naudoti EKA periferinius įrenginius, pvz., spausdintuvus, kasos stalčius ir mokėjimo terminalus. Nors visi galimi EKA variantai naudoja periferinius įrenginius, tik MPOS, skirtas „Windows“, palaiko juos tiesiogiai. Naudojant visas kitas programas, būtina viena arba daugiau aparatūros stočių. Nors šis metodas padidina lankstumą, būtina įdiegti, sukonfigūruoti ir prižiūrėti papildomus komponentus.
 - **Sistemos reikalavimai**. EKA programos sistemos reikalavimai skiriasi. Prieš priimdami sprendimą, būtinai patikrinkite naujausią informaciją. Pavyzdžiui, kadangi CPOS veikia naršyklėje, jis palaiko daugiau operacinių sistemų. Daugiau informacijos apie sistemos reikalavimus žr. [Sistemos reikalavimai įdiegtims debesyje](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Diegimas ir priežiūra**. Diegimo ir priežiūros reikalavimų sudėtingumas gali skirtis, atsižvelgiant į programos ir diegimo pasirinkimus. Pavyzdžiui, diegiant debesies CPOS nereikia įdiegti ir atnaujinti kiekviename įrenginyje. Todėl šis metodas labai sumažina sudėtingumą ir išlaidas. Tačiau jei diegiate MPOS kiekviename kasos aparate ir įgalinate atjungties režimą bei taip pat diegiate bendrai naudojamas aparatūros stotis, gerokai padidinate galinių punktų, kuriuos reikia valdyti, skaičių.
-

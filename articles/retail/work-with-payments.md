@@ -1,13 +1,13 @@
 ---
-title: "Mokėjimo būdai skambučių centruose"
-description: "Šioje temoje aprašomi įvairūs mokėjimo būdai, kuriuos galite naudoti „Microsoft Dynamics 365 for Retail“ skambučių centre."
+title: Mokėjimo būdai skambučių centruose
+description: Šioje temoje aprašomi įvairūs mokėjimo būdai, kuriuos galite naudoti „Microsoft Dynamics 365 for Retail“ skambučių centre.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355385"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Mokėjimo būdai skambučių centruose
 
 [!include [banner](includes/banner.md)]
@@ -54,4 +53,3 @@ Nurodžius mokėjimo būdus juos reikėtų susieti su didžiąja knyga arba bank
 Pagal grąžinimo apdorojimo scenarijus skambučių centras taip pat naudoja kai kuriuos srityje Gautinos sumos nurodytus mokėjimo būdus. Norėdami sukonfigūruoti šiuos mokėjimo būdus, eikite į **Mažmeninė prekyba** \> **Kanalo sąranka** \> **Skambučių centro sąranka** \> **Skambučių centro grąžinimo būdai**. Norėdami apdoroti klientų grąžinimo čekius, turite užbaigti šią konfigūraciją. Pvz., jei klientas iš pradžių apmokėjo užsakymą grynaisiais arba čekiu, gali būti, kad srityje Gautinos sumos vartotojas norės išsiųsti klientui grąžinimo čekį. Tokiu atveju skambučių centro grynųjų pinigų ir čekio mokėjimo tipai turi būti susieti su tinkamu srities Gautinos sumos mokėjimo būdu, kad būtų galima užtikrinti tinkamą grąžinimo apdorojimą.
 
 Be to, jei vartotojas grąžinimo užsakymą apdoroja kaip srities Mažmeninė prekyba skambučių centro vartotojas, bet negali susieti grąžinimo su pradiniu pardavimu, skambučių centro parametruose turi būti nurodomas mokėjimo būdas **Grąžinimas**. Eikite į **Mažmeninė prekyba** \> **Kanalo sąranka** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai**, o po to įsitikinkite, kad lauko **Mokėjimo būdas** skirtuke **RMA / grąžinimas** nurodytas mokėjimo būdas. Mokėjimo būdas – tai grąžinimams taikomas mokėjimo būdas. Paprastai jis nurodomas kaip čekio būdas arba kliento sąskaitos būdas.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: " Nustatyti tęstinumo grafikus"
-description: "Šioje temoje parodoma, kaip nustatyti tęstinumo programą (dar vadinamą pasikartojančiais užsakymais)."
+description: Šioje temoje parodoma, kaip nustatyti tęstinumo programą (dar vadinamą pasikartojančiais užsakymais).
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ac333989dd987fd3cb1d2b2769fbcdb93bdb4bd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330522"
 ---
 # <a name="define-continuity-schedules"></a> Nustatyti tęstinumo grafikus
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 02/07/2018
 6. Čia galite įvesti tęstinumo programą, kurią ši prekė nurodo. Įveskite tvarkaraščio ID, kurį sukūrėte anksčiau.
     * Kai ši prekė parduodama skambučių centre, taikoma papildoma verslo logika iš pasirinktos tęstinumo programos.  
 7. Spustelėkite Įrašyti.
-
 

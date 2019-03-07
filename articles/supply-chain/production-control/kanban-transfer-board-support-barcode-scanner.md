@@ -1,13 +1,13 @@
 ---
-title: "„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas"
-description: "„Kanban‟ perkėlimo srityje palaikoma įvestis iš valdiklių brūkšninių kodų skaitytuvo – „kanban‟ užduotį galima Pasirinkti, Pradėti, Baigti ir Ištuštinti."
+title: „Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas
+description: „Kanban‟ perkėlimo srityje palaikoma įvestis iš valdiklių brūkšninių kodų skaitytuvo – „kanban‟ užduotį galima Pasirinkti, Pradėti, Baigti ir Ištuštinti.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319459"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>„Kanban“ perkėlimo srities brūkšninių kodų skaitytuvų palaikymas
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ ms.lasthandoff: 11/03/2017
 | Tuščias                 | Registruoja medžiagų sandėliavimo vienetą, „kanban“ kortelėje nurodytą kaip tuščią.              |
 | Pasirinkti                | Registruoja „kanban“ kortelės numerį ir automatiškai pasirenka nurodytą užduotį „kanban“ sąraše. |
 
- 
-<a name="registration-mode-select"></a>Registravimo režimas Pasirinkti
+ 
+Registravimo režimas Pasirinkti
 ------------------------
 
-Kai naudojate brūkšninių kodų skaitytuvą, kad pasirinktumėte užduotį, pasikeičia „kanban“ srities rodymo režimas. Dirbant šiuo režimu taikomos toliau nurodytos sąlygos.
+Kai naudojate brūkšninių kodų skaitytuvą, kad pasirinktumėte užduotį, pasikeičia „kanban“ srities rodymo režimas.Dirbant šiuo režimu taikomos toliau nurodytos sąlygos.
 
 -   Rodomos tik nuskaitytos „kanban“ užduotys.
 -   Pasirinktos užduoties informacija rodoma „FastTab“ skirtuke **Išsami informacija**.
@@ -188,7 +187,6 @@ Pasirinktos užduoties būsena ir bet kurios iškviestos įvykio užduoties „k
 </tr>
 </tbody>
 </table>
-
 
 
 

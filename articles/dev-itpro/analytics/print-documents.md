@@ -1,13 +1,13 @@
 ---
 title: Dokumento spausdinimas
-description: "„Microsoft Dynamics 365 for Finance and Operations“ dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį. Šiame straipsnyje pateikiama dokumentų spausdinimo apžvalga."
+description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį. Šiame straipsnyje pateikiama dokumentų spausdinimo apžvalga.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362055"
 ---
-
 # <a name="document-printing"></a>Dokumento spausdinimas
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Toliau nurodytoje diagramoje pateikiami pagrindiniai komponentai, kurie padeda p
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Atkreipkite dėmesį, kad vieną spausdintuvą galime užregistruoti keliuose dokumento maršruto planavimo agentuose. Spausdintuvo nuostatoms suderinti nuomojama tarnyba naudoja tinklo maršrutą, kuris unikaliai identifikuoja kiekvieną tinklo spausdintuvą. Todėl net tada, kai spausdintuve užregistruojami keli klientai, jis rodomas kaip viena „Finance and Operations“ programų spausdintuvų sąrašo parinktis.
-

@@ -1,31 +1,30 @@
 ---
-title: "„Finance and Operations“ skirti vaizdo įrašai"
-description: "Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Dynamics 365 for Finance and Operations“, pasiekiami „YouTube“ ir kitose svetainėse."
+title: „Finance and Operations“ skirti vaizdo įrašai
+description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Dynamics 365 for Finance and Operations“, pasiekiami „YouTube“ ir kitose svetainėse.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317826"
 ---
-
-# <a name="videos-for-finance-and-operations"></a>„Finance and Operations“ skirti vaizdo įrašai
+# <a name="videos-for-finance-and-operations"></a>„Finance and Operations“ vaizdo įrašai
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,13 +39,13 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 #### <a name="data-integration"></a>Duomenų integravimas
 
 - [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg)
-- [Darbo užsakymo tarp „Dynamics 365 for Field Service“ ir „Finance and Operations“ sinchronizavimas](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [„Dynamics 365 for Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Duomenų valdymas
 
 - [Duomenų objektų ir duomenų paketų naudojimas „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-#### <a name="development"></a>Tobulėjimas
+#### <a name="development"></a>Plėtra
 
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Tobulinimo šakos ir versijos nustatymas](https://www.youtube.com/watch?v=qXLd-NMx9OY)
@@ -67,14 +66,14 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 
 #### <a name="intelligence"></a>Įžvalgos
 
-- [Savo duomenų bazės naudojimas (BYOD) „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Savo duomenų bazės (BYOD) naudojimas „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kaip naudoti išlaidų valdymo „Power BI“ turinį programoje „Dynamics 365“](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>„Lifecycle Services“ (LCS)
 
 - [„Lifecycle Services“ turto biblioteka](https://www.youtube.com/watch?v=z-2xMRa1nOs)
 - [Aplinkos diegimo debesyje įrankis](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [Palaikymo kvitų kūrimas „Dynamics 365 for Operations“](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [Palaikymo kvitų kūrimas iš „Dynamics 365 for Operations“](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
 - [Aplinkų diegimas](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
 - [Darbo su „Lifecycle Services“ pradžia](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
 - [Kodo diegimas smėlio dėžės aplinkoje](https://www.youtube.com/watch?v=5azLeOO078k)
@@ -96,7 +95,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 
 - [Dokumentų tvarkymas](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Įsigijimas ir šaltinio pasirinkimas
+#### <a name="procurement-and-sourcing"></a>Paraiškos
 
 - [Pirkimo užsakymų patvirtinimas mobiliajame įrenginyje](https://youtu.be/gZ-gOlJe7H8)
 - [Naujo tiekėjo supažindinimas](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -145,7 +144,7 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 #### <a name="financial-reporting"></a>Finansinės ataskaitos
 
 - [Finansinės ataskaitos (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [„Microsoft Dynamics 365 for Finance and Operations‟ ataskaitų parinktys (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [„Dynamics 365 for Finance and Operations“ ataskaitų parinktys (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="integration"></a>Integravimas
 
@@ -170,11 +169,11 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [Išvykimo žymėjimas (DYN332PAL2)](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Tiekėjų bendradarbiavimas (DYN327PAL)](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="retail"></a>Retail
+#### <a name="retail"></a>Mažmeninė prekyba
 
-- [„Dynamics 365 for Retail POS“ išplečiamumas: išsamus supažindinimas (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [„Dynamics 365 for Retail“ išplečiamumas: išsamus supažindinimas (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [„Retail“ architektūra ir „Retail Store Scale Unit“ (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Kas nauja su „Dynamics 365 for Retail POS“ susijusiu išplečiamumu (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Kas nauja su „Dynamics 365 for Retail“ susijusiu išplečiamumu (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Palaikymas
 
@@ -196,4 +195,3 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [Kiekvieno vieneto išrinkimo procesas (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Gamybos užsakymų ir „kanban“ vaizdinis planavimas (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Sandėlio integravimas kartu su gamyba (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Sandėliavimo mobilioji programa (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

@@ -1,13 +1,13 @@
---- 
-title: "Kurti našumo apžvalgą"
-description: "Šioje procedūroje parodoma, kaip kurti našumo apžvalgą, ir aprašoma kiekvieno apžvalgos skyriaus paskirtis."
+---
+title: Kurti našumo apžvalgą
+description: Šioje procedūroje parodoma, kaip kurti našumo apžvalgą, ir aprašoma kiekvieno apžvalgos skyriaus paskirtis.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338480"
 ---
 # <a name="create-a-performance-review"></a>Kurti našumo apžvalgą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti našumo apžvalgą, ir aprašoma kiekvieno apžvalgos skyriaus paskirtis. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Šioje procedūroje parodoma, kaip kurti našumo apžvalgą, ir aprašoma kiekvieno apžvalgos skyriaus paskirtis. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 1. Spustelėkite Darbuotojų savitarna.
 2. Peržiūrėti Nauja apžvalga, norėdami kurti naują apžvalgą.
@@ -79,5 +79,4 @@ ms.lasthandoff: 09/13/2018
     * Besikeičiant apžvalgos būsenoms, darbuotojas ir vadovas gali įtraukti komentarų, skirtų kiekvienam tikslui arba tinkamumui.  
 42. Spustelėkite skirtuką Išregistravimas.
     * Darbuotojas ir vadovas gali apžvalgoje pasirašyti. Kai visi parašai sudėti, būsena pasikeičia Baigta ir keitimų atlikti nebegalima.  
-
 

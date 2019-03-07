@@ -1,13 +1,13 @@
 ---
-title: "Produkto konfigūracijos modelio nustatymas"
-description: "Šiame straipsnyje aprašomi produkto konfigūracijos modelio nustatymo ir kūrimo veiksmai."
+title: Produkto konfigūracijos modelio nustatymas
+description: Šiame straipsnyje aprašomi produkto konfigūracijos modelio nustatymo ir kūrimo veiksmai.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360675"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Produkto konfigūracijos modelio nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 02/07/2018
 | Produkto konfigūracijos modelio tikrinimas.                         | Tikrinkite produkto konfigūracijos modelį puslapyje **Produkto konfigūravimo pagal apribojimus modelio informacija** arba **Produkto konfigūracijos modelių sąrašas**. Produkto konfigūracijos modelio tikrinimo procedūra imituoja produkto modelio konfigūracijos procesą, vykstantį tvarkant užsakymus.                                                                                                |
 | Produkto konfigūracijos modelio šablonų kūrimas.                | Kurkite produkto konfigūracijos modelio šabloną puslapyje **Konfigūravimo šablonai**. Konfigūravimo šablone yra produktų konfigūravimo modelio atributų vertės. Atributo vertes pasirinkite puslapyje **Konfigūruoti eilutę**. Galite pasirinkti įkelti produkto modelio konfigūravimo šabloną atlikdami produkto modelio konfigūravimą.                                                   |
 | Prekės konfigūravimas.                                          | Produkto konfigūracijos modeliai gali būti konfigūruojami naudojant pardavimo užsakymą, pardavimo pasiūlymą, pirkimo užsakymą arba gamybos užsakymą.                                                                                                                                                                                                                                                                           |
-
 
 
 

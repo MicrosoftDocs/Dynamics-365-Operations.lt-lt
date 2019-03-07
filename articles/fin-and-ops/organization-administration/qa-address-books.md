@@ -1,13 +1,13 @@
 ---
-title: "DUK apie adresų knygeles"
-description: "Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus, susijusius su „Microsoft Dynamics 365 for Finance and Operations“ adresų knygelėmis."
+title: DUK apie adresų knygeles
+description: Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus, susijusius su „Microsoft Dynamics 365 for Finance and Operations“ adresų knygelėmis.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337813"
 ---
-
 # <a name="address-books-faq"></a>DUK apie adresų knygeles
 
 [!include [banner](../includes/banner.md)]
@@ -68,5 +67,4 @@ Kartais galbūt norėsite du arba kelis šalių įrašus sulieti į vieną įra�
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Ar galima išversti šalių įrašų adreso informaciją?
 
-Galite nustatyti adreso informacijos vertimus, kad sprendime „Microsoft Dynamics 365 for Finance and Operations‟ informacija būtų rodoma jūsų vartotojo kalba (sistemos kalba), tačiau dokumentuose, pvz., pardavimo užsakymuose, – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.
-
+Galite nustatyti adreso informacijos vertimus, kad programoje „Microsoft Dynamics 365 for Finance and Operations“ informacija būtų rodoma jūsų naudotojo kalba (sistemos kalba), bet dokumentuose, pvz., pardavimo užsakymuose – kita kalba. Galite įvesti šalių / regionų pavadinimų, adresų ir vardų sekų vertimus. Pavyzdžiui, jūsų sistemos kalba yra danų, ir pardavimo užsakymą sukuriate klientui Prancūzijoje. Šiuo atveju programoje kliento įrašą galite peržiūrėti danų kalba, tačiau išspausdintame pardavimo užsakyme adreso informaciją rodyti prancūzų kalba. Nustatydami vertimus, turėtumėte įvesti kiekvienos sąrašo prekės vertimą. Visos prekės, kurioms neįvesite vertimo, bus rodomos sistemos kalba. Pavyzdžiui, jūsų sistemos kalba yra danų, ir dokumentą siunčiate klientui Ispanijoje. Jei neįvedėte adreso informacijos vertimų į ispanų (ESP) kalbą, ta informacija danų kalba bus rodoma ir programoje, ir išspausdintame dokumente.

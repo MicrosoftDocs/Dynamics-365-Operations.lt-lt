@@ -1,13 +1,13 @@
 ---
-title: "Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą"
-description: "Šioje temoje rodoma, kaip sumokamos kelios SF, kai kiekvienai SF gali būti pritaikyta mokėjimo nuolaida. Šio straipsnio scenarijais pabrėžiama, kaip taikomos mokėjimo nuolaidos skiriasi pagal tai, kada atliekamas mokėjimas."
+title: Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą
+description: Šioje temoje rodoma, kaip sumokamos kelios SF, kai kiekvienai SF gali būti pritaikyta mokėjimo nuolaida. Šio straipsnio scenarijais pabrėžiama, kaip taikomos mokėjimo nuolaidos skiriasi pagal tai, kada atliekamas mokėjimas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a358af4878de0d02ce4dd3520e786d8779d7f030
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319229"
 ---
-
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Arnas peržiūri šią operaciją puslapyje **Kliento operacijos**.
 | LFSF-10042  | PVM sąskaita faktūra          | 2015-06-25 | 10042   | 1000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Mokėjimas          | 2015-06-29 |         |                                      | 1485,00                              | 0,00     | USD      |
 | NUOL-10040 | Mokėjimo nuolaida    | 2015-06-29 |         |                                      | 9,90                                  | 0,00     | USD      |
-
 
 
 

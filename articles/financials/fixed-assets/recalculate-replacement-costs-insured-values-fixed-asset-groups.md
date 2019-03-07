@@ -1,13 +1,13 @@
 ---
-title: "Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas"
-description: "Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas."
+title: Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
+description: Šiame straipsnyje paaiškinamas ilgalaikio turto atkuriamosios vertės ir draudimo sumų atnaujinimo procesas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/12/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324381"
 ---
-
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Perskaičiuoti ilgalaikio turto grupių atkuriamąją vertę ir draudimo sumas
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Kitą dieną vadybininkas jus informuoja, kad kompiuterių vertė sumažėjo 8 p
 
 > [!NOTE]  
 > Koeficiento –10 negalima atšaukti įvedant teigiamą koeficientą 10 (arba koeficientą 2: –10 ir –8 skirtumas), nes sumos nebus apskaičiuotos taip, kaip tikitės. 
-
 
 
 

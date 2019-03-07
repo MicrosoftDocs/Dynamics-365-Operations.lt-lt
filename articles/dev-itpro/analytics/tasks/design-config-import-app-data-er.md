@@ -1,13 +1,13 @@
---- 
-title: "ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus"
-description: "Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą."
+---
+title: ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus
+description: Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326106"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 08/09/2018
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų“ veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
-    * Toliau pateikiamas scenarijus bus naudojamas norint nurodyti XML formatu pateiktų gaunamų elektroninių dokumentų analizavimo galimybes: ERP programa („Dynamics 365 for Finance and Operations“) pareikalauja duomenų iš žiniatinklio tarnybos (pavyzdžiui, http://efsta.org/ EFSTA fiskalinės tarnybos) ir analizuoja gaunamus atsakymus, kad būtų galima atitinkamai atnaujinti programos duomenis. Siekiant, kad analizavimas būtų efektyviausias naudojamas vienas ER formatas, nepaisant to, kad laukiamų gaunamų XML formatu pateikiamų dokumentų struktūra skiriasi.   
+    * Toliau pateikiamas scenarijus bus naudojamas norint nurodyti XML formatu pateiktų gaunamų elektroninių dokumentų analizavimo galimybes: ERP programa („Dynamics 365 for Finance and Operations“) reikalauja duomenų iš žiniatinklio tarnybos (pvz., http://efsta.org/ EFSTA finansų tarnybos) ir analizuoja gaunamus atsakymus, kad būtų galima atitinkamai atnaujinti programos duomenis. Siekiant, kad analizavimas būtų efektyviausias naudojamas vienas ER formatas, nepaisant to, kad laukiamų gaunamų XML formatu pateikiamų dokumentų struktūra skiriasi.   
 
 ## <a name="import-and-review-er-configurations"></a>Importuoti ir peržiūrėti ER konfigūracijas
 Importuokite ER modelio konfigūraciją, kurioje yra duomenų modelio pavyzdys, skirtas saugoti informaciją apie gaunamą failą.  
@@ -110,5 +110,4 @@ Vykdysite sukurto modelio susiejimą, kad galėtumėte jį patikrinti ir pamatyt
     * Spustelėkite Naršyti ir pasirinkite failą Response4.xml.  
 16. Spustelėkite GERAI.
     * Peržiūrėkite sugeneruotą išvestį. Atkreipkite dėmesį į tai, kad atsakymo tipas dabar tinkamai pripažintas kaip lygus failo Response1.xml tipui.  
-
 

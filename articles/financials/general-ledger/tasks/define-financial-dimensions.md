@@ -1,13 +1,13 @@
---- 
-title: "Apibrėžti finansines dimensijas"
-description: "Šiame užduoties vadove rodoma, kaip įtraukti objekto remiamą finansinę dimensiją ir pasirinktinę finansinę dimensiją."
+---
+title: Apibrėžti finansines dimensijas
+description: Šiame užduoties vadove rodoma, kaip įtraukti objekto remiamą finansinę dimensiją ir pasirinktinę finansinę dimensiją.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0b72acf763f0f6dbc64c3e00986bc9eb0e366bb5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353798"
 ---
 # <a name="define-financial-dimensions"></a>Apibrėžti finansines dimensijas
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/29/2017
 8. Spustelėkite Naujas.
 9. Lauke Dimensijos reikšmė įveskite jūsų finansinės dimensijos reikšmę aprašantį pavadinimą.
 10. Lauke Aprašas įveskite aprašymą, kuris apibūdina jūsų finansinės dimensijos reikšmę.
-
 

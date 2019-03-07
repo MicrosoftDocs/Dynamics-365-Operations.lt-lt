@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti pirkimo užsakymų darbo šabloną"
-description: "Ši procedūra sutelkta į paprasto darbo šablono nustatymą, kuris bus naudojamas padedant gautas prekes."
+---
+title: Nustatyti pirkimo užsakymų darbo šabloną
+description: Ši procedūra sutelkta į paprasto darbo šablono nustatymą, kuris bus naudojamas padedant gautas prekes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbbe019bdca2d5182466a20370418a14032fe63d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318033"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Nustatyti pirkimo užsakymų darbo šabloną
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
     * Paėmimo ir padėjimo instrukcijos yra rinkinys. Kiekvienas paėmimo / padėjimo rinkinys turi būti tos pačios darbo klasės. Naudokite tą pačią darbo klasę, kurią nurodėte paėmimo instrukcijoje.  
 7. Spustelėkite Įrašyti.
     * Atkreipkite dėmesį, kad dabar žymės langelis Galiojantis yra pažymėtas.  
-
 

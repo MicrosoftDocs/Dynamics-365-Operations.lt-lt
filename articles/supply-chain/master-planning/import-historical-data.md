@@ -1,13 +1,13 @@
 ---
-title: "Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti"
-description: "Norint generuoti tikslias poreikio prognozes, reikia retrospektyvinių poreikio duomenų pagal prekę arba prekių paskirstymo raktą. Šioje temoje paaiškinama, kaip naudoti duomenų objektus norint importuoti retrospektyvinius poreikio duomenis iš bet kurios sistemos, kad turėtumėte ilgesnę poreikio prognozės duomenų retrospektyvą."
+title: Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti
+description: Norint generuoti tikslias poreikio prognozes, reikia retrospektyvinių poreikio duomenų pagal prekę arba prekių paskirstymo raktą. Šioje temoje paaiškinama, kaip naudoti duomenų objektus norint importuoti retrospektyvinius poreikio duomenis iš bet kurios sistemos, kad turėtumėte ilgesnę poreikio prognozės duomenų retrospektyvą.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 05/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 018694c79c6dd64e19b010848aad8acd36b0a9a8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328613"
 ---
-
 # <a name="import-historical-data-for-demand-forecasts"></a>Retrospektyvinių duomenų importavimas į poreikio prognozėms generuoti
 
 [!include [banner](../includes/banner.md)]
@@ -60,4 +59,3 @@ Importavus retrospektyvinius poreikio duomenis, galima generuoti pagrindinę por
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
-

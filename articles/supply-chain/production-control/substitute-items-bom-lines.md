@@ -1,13 +1,13 @@
 ---
-title: "Medžiagų keitimas gamyboje"
-description: "Šioje temoje aprašoma, kaip keisti medžiagas gamybos proceso metu."
+title: Medžiagų keitimas gamyboje
+description: Šioje temoje aprašoma, kaip keisti medžiagas gamybos proceso metu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327624"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Medžiagų keitimas gamyboje
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Planuodami medžiagas galite keisti tik kai naudojate formules, o ne KS. Apsvars
 
 ## <a name="substituting-material-during-production"></a>Medžiagų keitimas gamybos metu
 Apsvarstykite šį scenarijų: atliekant suvirinimo operaciją reikalinga metalinės plokštės dalis. Operacijos metu sandėlio darbuotojas informuoja mašinų operatorių, kad plokščių atsargose nėra. Tačiau nuspręsta, kad plokštę galima pakeisti kita, šiek tiek storesne plokšte. Tokiu atveju operaciją galima baigti. Medžiagą galima įtraukti į atviro gamybos užsakymo KS. Jei gamybos užsakymo būsena yra **Pradėtas**, vartotojų paprašoma iš naujo įvertinti užsakymą, kai jie į gamybos KS įtraukia naują elementą. Įtraukus medžiagą galima sukurti naują naujos prekės išrinkimo dokumentą. Į gamybos KS naujos medžiagos įtraukti nereikia. Vietoj to, galite jas įtraukti tiesiai į gamybos išrinkimo dokumentą. Tada, užregistravus išrinkimo dokumentą, sistema medžiagą įtrauks į gamybos KS.
-
 
 
 

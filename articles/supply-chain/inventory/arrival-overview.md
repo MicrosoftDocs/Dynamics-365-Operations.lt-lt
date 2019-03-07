@@ -1,13 +1,13 @@
 ---
-title: "Gavimų apžvalga"
-description: "Šioje temoje pateikiama informacija apie Gavimų apžvalgos funkciją. Gavimų apžvalgos puslapyje, kuris yra šios funkcijos dalis, pateikiama visų numatomų pristatyti prekių, kaip gaunamų prekių, peržiūra."
+title: Gavimų apžvalga
+description: Šioje temoje pateikiama informacija apie Gavimų apžvalgos funkciją. Gavimų apžvalgos puslapyje, kuris yra šios funkcijos dalis, pateikiama visų numatomų pristatyti prekių, kaip gaunamų prekių, peržiūra.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356006"
 ---
-
 # <a name="arrival-overview"></a>Gavimų apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -122,4 +121,3 @@ Kai visos prekės užregistruotos, sandėlio vadybininkas arba pirkimo vadybinin
 
 ## <a name="summary"></a>Suvestinė
 Naudodami **Gavimų apžvalgos** puslapį sandėlio vadovas ir darbuotojai gali lengviau peržiūrėti numatomus darbus, kuriuos reikės atlikti kaip gavimo proceso dalį. Puslapį taip pat galima naudoti prekių gavimo procesui pradėti ir siekiant užtikrinti, kad prekės yra sekamos pirmuoju įvežimu į sandėlį.
-

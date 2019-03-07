@@ -1,13 +1,13 @@
---- 
-title: "Kompensavimo proceso nustatymas ir rezultatų skaičiavimas"
-description: "Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų sumas darbuotojams, užregistruotiems pastoviosios ir kintamosios atlyginimo dalies planuose."
+---
+title: Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
+description: Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų sumas darbuotojams, užregistruotiems pastoviosios ir kintamosios atlyginimo dalies planuose.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325738"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
 
@@ -101,5 +101,4 @@ Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų suma
 9. Spustelėkite keisti būseną.
 10. Spustelėkite Patvirtinti.
     * Patvirtinus įrašą, jį galima įkelti į darbuotojo oficialų kompensacijos įrašą. Nauja kompensacija įsigalios nuo operacijos datos, nustatytos kompensacijos procese.  
-
 

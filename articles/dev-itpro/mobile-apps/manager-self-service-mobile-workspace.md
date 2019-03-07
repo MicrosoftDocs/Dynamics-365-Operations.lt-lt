@@ -1,13 +1,13 @@
 ---
 title: Mobilioji darbo sritis Mano komanda
-description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje."
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Mano komanda, kuri leidžia vadovams peržiūrėti komandos tiesiogines ataskaitas ir matyti išplėstinį personalą. Vartotojai taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346921"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Mobilioji darbo sritis Mano komanda
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Mano komanda**. Ši darbo sritis suteikia vadovams galimybę peržiūrėti savo tiesioginius pavaldinius ir išplėstinius darbuotojus. Jie taip pat gali pagirti asmenis, esančius jų ataskaitų grandinėje.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
-## <a name="overview"></a>Apžvalga 
+## <a name="overview"></a>Peržiūrėti 
 Mobilioji darbo sritis **Mano komanda** suteikia vadovams galimybę atlikti šias užduotis:
 
 - Peržiūrėti vadovo tiesioginių pavaldinių sąrašą.
@@ -53,12 +52,12 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<ul><li>„Microsoft Dynamics 365 for Finance and Operations“</li>
+<li>„Microsoft Dynamics 365 for Talent“</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations”, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent“, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent‟ tinklapis</a> esančią bandomąją versiją.
+<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent“, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent“ tinklapis</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">
@@ -99,4 +98,3 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 1.  Pasirinkite **Siųsti pagyrimą**. 
 1. Įveskite pagyrimo tekstą, kurį norite siųsti. 
 1. Pasirinkite **Atlikta**.
-

@@ -1,14 +1,14 @@
 ---
-title: "Finansinių dimensijų įtraukimas į CFO darbo sritį"
-description: "Šioje temoje paaiškinama, kaip įtraukti finansines dimensijas į CFO darbo sritį, kad būtų galima jas naudoti DK ir biudžeto ataskaitose."
+title: Finansinių dimensijų įtraukimas į CFO darbo sritį
+description: Šioje temoje paaiškinama, kaip įtraukti finansines dimensijas į CFO darbo sritį, kad būtų galima jas naudoti DK ir biudžeto ataskaitose.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332684"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Finansinių dimensijų įtraukimas į CFO darbo sritį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įtraukti finansines dimensijas į vyriausiojo finansininko (CFO) darbo sritį, kad būtų galima jas naudoti DK ir biudžeto ataskaitose. CFO darbo srityje yra skirtukai **Apžvalga** ir **Finansin.**. Ataskaitos šiuose dviejuose skirtukuose pagrįstos dviem priemonėmis: LedgerActivityMeasure ir BudgetActivityMeasure. Naudojant „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.), yra sąsaja tarp tų dviejų priemonių ir objekto DimensionCombinationEntity. Todėl galima pasirinkti dimensijas.
+Šioje temoje paaiškinama, kaip įtraukti finansines dimensijas į vyriausiojo finansininko (CFO) darbo sritį, kad būtų galima jas naudoti DK ir biudžeto ataskaitose. CFO darbo srityje yra skirtukai **Apžvalga** ir **Finansin.**. Ataskaitos šiuose dviejuose skirtukuose pagrįstos dviem priemonėmis: LedgerActivityMeasure ir BudgetActivityMeasure. Naudojant „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.), yra sąsaja tarp tų dviejų priemonių ir objekto DimensionCombinationEntity. Todėl galima pasirinkti dimensijas.
 
 1. Naudojant „Finance and Operations“, puslapyje **Objekto parduotuvė** atnaujinkite priemonę **LedgerActivityMeasure** ir **BudgetActivityMeasure**.
 2. Naudojant „Microsoft Visual Studio“, atidarykite programų naršymo priemonę ir ieškokite **LedgerCFO**.
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 16. Sukurkite projektą, tada atidarykite programą, kad peržiūrėtumėte rezultatus.
 
     [![Baigta darbo sritis](./media/workspace.png)](./media/workspace.png)
-

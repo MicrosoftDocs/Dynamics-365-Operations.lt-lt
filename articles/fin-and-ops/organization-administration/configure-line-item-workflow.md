@@ -1,13 +1,13 @@
 ---
-title: "Eilutės elemento darbo eigų konfigūravimas"
-description: "Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą."
+title: Eilutės elemento darbo eigų konfigūravimas
+description: Šioje temoje paaiškinta, kaip konfigūruoti eilutės elemento darbo eigos elementą.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336111"
 ---
-
 # <a name="configure-line-item-workflows"></a>Eilutės elemento darbo eigų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ Atlikite šiuos veiksmus, norėdami nurodyti, ar tą pačią darbo eigą reikia 
     6. Norėdami patikrinti, ar įvestas sąlygų rinkinys yra sukonfigūruotas teisingai, spustelėkite **Tikrinti**. Puslapio **Tikrinti darbo eigos sąlygą** srityje **Tikrinti sąlygą** pasirinkite įrašą, o tada spustelėkite **Tikrinti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytą sąlygą. Spustelėkite **Gerai** arba **Atšaukti**, kad grįžtumėte į puslapį **Ypatybės**.
 
     Skirtuke **Darbo eiga** pasirinkite darbo eigą, kurią naudojant bus apdorojami eilutės elementai, atitinkantys jūsų nurodytą sąlygų rinkinį.
-

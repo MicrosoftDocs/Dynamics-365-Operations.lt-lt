@@ -1,29 +1,28 @@
 ---
 title: Dvi valiutos
-description: "Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 for Finance and Operations“ apskaitos valiuta."
+description: Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 for Finance and Operations“ apskaitos valiuta.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330315"
 ---
-
 # <a name="dual-currency"></a>Dvi valiutos
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Be to, atlikti dideli nusidėvėjimo proceso pakeitimai. Atlikus šiuos pakeitim
     - Jei nusidėvėjimo operacijos tipas įvedamas ilgalaikio turto žurnale, sumos ataskaitų valiuta rodomos naujuose stulpeliuose. Šias sumas galima pakeisti.
     - Jei DK apskaitos valiuta ir ataskaitų valiuta sutampa, sumos sinchronizuojamos. Pakeitus sumą **Kreditas** automatiškai pakeičiama suma **Kreditas ataskaitų valiuta**, kad jos sutaptų.
     - Ilgalaikio turto žurnale įvedus bet kokį kitą operacijos tipą, sumos **Debetas ataskaitų valiuta** ir **Kreditas ataskaitų valiuta** nerodomos nei prieš registravimą, nei po jo. Sumos apskaitos valiuta ir ataskaitų valiuta vis dar matomos DK registruojamame kvite.
-

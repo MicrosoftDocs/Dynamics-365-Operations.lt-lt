@@ -1,13 +1,13 @@
---- 
-title: "Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)"
-description: "Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant kelių lygių išskleidimą, paremtą įkainojimo lapu."
+---
+title: Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)
+description: Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant kelių lygių išskleidimą, paremtą įkainojimo lapu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323369"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 10/16/2018
     * Pasirinkus Keli, išlaidos klasifikuojamos pagal BOM_2 sudėtį, kur 10 išvedamas iš M1 išlaidų grupės (ITEM_C), o 15,60 išvedama iš jos gamybos, kur išlaidų grupė yra L2. Netiesioginės išlaidos taip pat skiriasi.  
 11. Uždarykite puslapį.
 12. Uždarykite puslapį.
-
 

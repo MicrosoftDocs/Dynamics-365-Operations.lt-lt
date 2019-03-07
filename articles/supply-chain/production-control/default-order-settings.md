@@ -1,13 +1,13 @@
 ---
-title: "Numatytieji dimensijų ir produkto variantų užsakymo parametrai"
-description: "Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas."
+title: Numatytieji dimensijų ir produkto variantų užsakymo parametrai
+description: Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326382"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Numatytuose „Microsoft Dynamics 365 for Finance and Operations“ užsakymo parametruose nurodyta vieta ir sandėlis, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
+Numatytuose „Microsoft Dynamics 365 for Finance and Operations“ užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
 
 Numatytuosius užsakymo parametrus galite nustatyti puslapyje **Numatytieji užsakymo parametrai**. Norėdami atidaryti šį puslapį, eikite į **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Išleisti produktai** &gt; **Pasirinkti išleistą produktą** &gt; veiksmų srityje **Planas** arba **Valdyti atsargas** &gt; **Užsakymo parametrai** &gt; **Numatytieji užsakymo parametrai**.
 
@@ -170,7 +169,6 @@ Jei numatytųjų užsakymo parametrų taisyklės sistema per daug sudėtinga, yr
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Reitingas šiuo atveju nėra svarbus, todėl galite jį paslėpti. Šis sprendimas gali būti techninės priežiūros problemos priežastis. Tačiau, galbūt norėsite naudoti šią sąranką, jeigu svarstote integravimo su produkto naudojimo ciklo valdymo (PLM) sistemomis galimybę.
-
 
 
 

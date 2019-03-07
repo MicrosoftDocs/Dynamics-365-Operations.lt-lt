@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo grąžinimai"
-description: "Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas."
+title: Tiekėjo grąžinimai
+description: Šioje temoje apžvelgiamos dažniausios užduotys, kurias galite norėti atlikti dirbdami su tiekėjų grąžinimais. Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ae5ee60238b951779c7790870e6c6adfba55d7d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341079"
 ---
-
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ Tiekėjo grąžinimų tvarkymo procesas apima kelias rankines sekimo užduotis, 
 - Generuoti tikslias grąžinimo paraiškas
 - Didžiojoje knygoje kaupti numatomas gautinas sumas ir tarpinį pelną
 - Suteiktina nuolaida atnaujinti tiekėjo balansą ir pajamų ataskaitą
-

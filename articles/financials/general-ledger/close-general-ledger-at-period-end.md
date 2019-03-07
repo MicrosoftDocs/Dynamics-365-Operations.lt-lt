@@ -1,13 +1,13 @@
 ---
-title: "DK uždarymas laikotarpio pabaigoje"
-description: "Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį."
+title: DK uždarymas laikotarpio pabaigoje
+description: Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23d4b9b070a48e1964ecd6896afe071b564d1194
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5643a06cb23eedd7c8676ad48be2ad2e78cdfc9b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329303"
 ---
-
 # <a name="close-the-general-ledger-at-period-end"></a>DK uždarymas laikotarpio pabaigoje
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Daugiau informacijos žr. tolesnėse temose:
 - [Finansinio laikotarpio uždarymo darbo sritis](financial-period-close-workspace.md) 
 - [Uždarymas metų pabaigoje](Year-end-close.md)  
 - [Masinis finansinio laikotarpio uždarymas](tasks/mass-financial-period-close.md)
-
 
 
 

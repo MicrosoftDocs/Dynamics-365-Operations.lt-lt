@@ -1,13 +1,13 @@
 ---
-title: "Papildomas nusidėvėjimas"
-description: "Šiame straipsnyje pateikta papildomo nusidėvėjimo funkcijos apžvalga."
+title: Papildomas nusidėvėjimas
+description: Šiame straipsnyje pateikta papildomo nusidėvėjimo funkcijos apžvalga.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d50cbba648beb9831e186cd160853abe79c4e4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323323"
 ---
-
 # <a name="bonus-depreciation"></a>Papildomas nusidėvėjimas
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Kai papildomas nusidėvėjimas skaičiuojamas naudojant pasiūlymo procesą, suk
 Galite kurti neribotą papildomo nusidėvėjimo įrašų skaičių. Kai priskirsite tuos įrašus turto grupės knygai, jie bus taikomi turto knygoje. 
 
 Papildomas nusidėvėjimas įvedamas arba procentais, arba fiksuota suma. Kai užregistruosite nusidėvėjimo pasiūlymus, knygoje papildomo nusidėvėjimo operacijos bus registruojamos atskirai nuo nusidėvėjimo operacijų.
-
 
 
 

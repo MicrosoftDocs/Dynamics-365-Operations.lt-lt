@@ -1,13 +1,13 @@
 ---
-title: "Projektų ištekliai"
-description: "Šioje temoje pateikiama informacija apie projektų išteklius."
+title: Projektų ištekliai
+description: Šioje temoje pateikiama informacija apie projektų išteklius.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351659"
 ---
-
 # <a name="project-resourcing"></a>Projektų ištekliai
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie projektų išteklius.
 
-Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. Programoje „Microsoft Dynamics 365 for Finance and Operations‟ projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
+Projektų planavimo etape vienas iš iššūkių, su kuriais susiduria projektų vadovai ir išteklių vadovai, yra išteklių paskirstymas, kurio metu jie turi nustatyti ir projekto darbui rezervuoti teisingą išteklių. Programoje „Microsoft Dynamics 365 for Finance and Operations“ projektų išteklių galimybės jums leidžia apibrėžti vaidmenis, laikomus laikinais ištekliais, kuriuos galima rezervuoti konkrečiam įtraukimui ar įtraukimo daliai. Naudodami šį išteklių parinkimo tipą projektų vadovai ir išteklių vadovai gali atlikti tolesnes užduotis.
 
 - Apibrėžti vaidmenį, turintį reikiamas kompetencijas, kad būtų lengva suderinti išteklius.
 - Naudojant vaidmenis apibrėžti pradinį įtraukimo grafiką, paremtą rezervuotais ištekliais.
@@ -351,4 +350,3 @@ Atlikę pirmiau nurodytas užduotis, galite atlikti reikiamas kitas užduotis.
 ## <a name="monitor-project-teams"></a>Projekto komandų stebėjimas
 1. Puslapyje **Visi projektai** pasirinkite projekto **XYZ atnaujinimas, 2 etapas** saitą **Projekto ID**.
 2. „FastTab‟ **Projekto komanda ir planavimas** patikrinkite, ar išvardyti projekto ištekliai yra teisingi.
-

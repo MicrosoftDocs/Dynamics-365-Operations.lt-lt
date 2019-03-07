@@ -1,13 +1,13 @@
 ---
-title: "Finansinės dimensijos ir registravimas"
-description: "Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šioje temoje paaiškinta, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu."
+title: Finansinės dimensijos ir registravimas
+description: Planuodami ir nustatydami sąskaitų planą turite apsvarstyti, kaip įvairūs komponentai veiks kartu registruojant dokumentą ar žurnalą. Šie komponentai apima sąskaitų struktūras, išplėstines taisykles, balansavimą ir fiksuotas dimensijas. Šioje temoje paaiškinta, kas yra kiekvienas komponentas ir kaip komponentai veikia kartu.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327946"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Finansinės dimensijos ir registravimas 
 
 [!include [banner](../includes/banner.md)]
@@ -123,9 +122,8 @@ Kai kurie iš šių išteklių nurodo ankstesnę „Finance and Operations“ ve
 
 [Sąskaitų plano rengimas](plan-chart-of-accounts.md) 
 
-[Sąskaitų plano sudarymas AX 2012 tinklaraštyje](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – šis saitas perkelia į septynių dalių serijos 1 dalį.
+[Sąskaitų plano sudarymas AX 2012 tinklaraštyje](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – šis saitas nukreipia į septynių dalių serijos 1 dalį.
 
 [Dimensijų naudojimas apskaitos paskirstymuose](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensijų naudojimas dimensijų sistemoje](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

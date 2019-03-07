@@ -1,13 +1,13 @@
 ---
-title: "Paketinis įspėjimų apdorojimas"
-description: "Šioje temoje pateikiama informacija apie paketinį įspėjimų vykdymą „Microsoft Dynamics 365 for Finance and Operations“."
+title: Paketinis įspėjimų apdorojimas
+description: Šioje temoje pateikiama informacija apie paketinį įspėjimų vykdymą „Microsoft Dynamics 365 for Finance and Operations“.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341930"
 ---
-
 # <a name="batch-processing-of-alerts"></a>Paketinis įspėjimų apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Įspėjimai apdorojami naudojant paketinio vykdymo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“. Turite nustatyti paketinį vykdymą, kad įspėjimai būtų pateikti.
+Programoje „Microsoft Dynamics 365 for Finance and Operations“ įspėjimai apdorojami naudojant paketinio vykdymo funkciją. Turite nustatyti paketinį vykdymą, kad įspėjimai būtų pateikti.
 
 „Finance and Operations“ palaiko dviejų tipų įvykius.
 
@@ -84,4 +83,3 @@ Jei nustatysite paketinio vykdymo langą, įspėjimas bus siunčiamas, kai apdor
 
 1. Pasirinkite **Sistemos administravimas** &gt; **Periodinės užduotys** &gt; **Įspėjimai** &gt; **Termino įspėjimai**.
 2. Dialogo lange **Termino įspėjimai** įveskite atitinkamą informaciją.
-

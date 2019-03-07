@@ -1,13 +1,13 @@
 ---
-title: "Darbo jėgos metrikos „Power BI“ turinys"
-description: "Šioje temoje aprašomas darbo jėgos metrikos „Power BI‟ turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+title: Darbo jėgos metrikos „Power BI“ turinys
+description: Šioje temoje aprašomas darbo jėgos metrikos „Power BI“ turinys. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345794"
 ---
-
 # <a name="workforce-metrics-power-bi-content"></a>Darbo jėgos metrikos „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas **Darbo jėgos metrikos** „Microsoft Power BI‟ turinys. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje aprašomas **darbo jėgos metrikos** „Microsoft Power BI“ turinys. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Darbo jėgos metrikos** „Power BI“ turinys pasirodo **Personalo valdymo** darbo srityje, jei naudojate vieną iš šių produktų:
+**Darbo jėgos metrikos** „Power BI“ turinys pasirodo darbo srityje **Personalo valdymas**, jei naudojate vieną iš šių produktų:
 
-- Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- „Microsoft Dynamics 365 for Finance and Operations“
+- „Microsoft Dynamics 365 for Talent“
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Šioje lentelėje išvardijamos metrikos, kurios bus rodomos kiekvienoje ataskaitoje.
@@ -59,7 +58,7 @@ ms.lasthandoff: 08/13/2018
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Įsitikinkite, kad atsisiunčiate **Darbo jėgos metrikos** „Power BI“ turinį, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
+Įsitikinkite, kad atsisiunčiate **Darbo jėgos metrikos** „Power BI“ turinį, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365“ versijai.
 
 > [!NOTE]
 > .pbix failai, kurie pateikiami „Lifecycle Services“, taikomi tik „Finance and Operations“.
@@ -88,4 +87,3 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |
-

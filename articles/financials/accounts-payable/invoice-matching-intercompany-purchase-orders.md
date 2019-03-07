@@ -1,13 +1,13 @@
 ---
-title: "SF gretinimas ir įmonės vidaus pirkimo užsakymai"
-description: "Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF."
+title: SF gretinimas ir įmonės vidaus pirkimo užsakymai
+description: Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357570"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>SF gretinimas ir įmonės vidaus pirkimo užsakymai
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Pavyzdžiui, atliekate toliau nurodytus veiksmus.
 2.  Subjekte Fabrikam Sales atnaujinti SF ICSO999. Registravimas yra nesėkmingas, nes prekės nėra atsargose ir ji dar negauta. Todėl finansinės informacijos atnaujinti negalima.
 3.  Subjekte Fabrikam Sales užregistruoti, kad prekės gautos, ir registruoti važtaraštį ICSO999. ICPO333 produkto gavimo kvitas automatiškai registruojamas subjekte Fabrikam Purchase. Subjekte Fabrikam Purchase gautas prekės B-R14 kiekis pasikeičia į 100.
 4.  Subjekte Fabrikam Sales atnaujinti SF ICSO999. Registravimas sėkmingas abiejuose juridiniuose subjektuose. Subjekte Fabrikam Purchase nupirktas prekės B-R14 kiekis pasikeičia į 100. 
-
 
 
 

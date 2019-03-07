@@ -1,13 +1,13 @@
 ---
-title: "Duomenų importavimo ir eksportavimo užduotys"
-description: "Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas."
+title: Duomenų importavimo ir eksportavimo užduotys
+description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360215"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
 
 [!include [banner](../includes/banner.md)]
@@ -158,4 +157,3 @@ Išvalyti išdėstymo lenteles galite naudodami darbo srities **Duomenų valdyma
 - **Duomenų projektai** – jei pasirinktas tik duomenų projektas, panaikinami visi visų objektų ir visų pasirinktų duomenų užduočių įrašai.
 
 Parinktis taip pat galite jungti ir taip dar labiau apriboti naikintinų įrašų rinkinį.
-

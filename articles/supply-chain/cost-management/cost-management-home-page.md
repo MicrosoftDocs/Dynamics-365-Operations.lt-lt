@@ -1,32 +1,31 @@
 ---
-title: "Išlaidų valdymo pagrindinis puslapis"
-description: "Išlaidų valdymas leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą."
+title: Išlaidų valdymo pagrindinis puslapis
+description: Išlaidų valdymas leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333949"
 ---
-
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Gamybos apskaita leidžia atlikti [Užduoties užsakymo įkainojimą](production
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano](https://roadmap.dynamics.com/) svetainę. 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/). 
 
 #### <a name="white-paper"></a>Techninė dokumentacija
 [KS skaičiavime naudojant įkainojimo lapą](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Siekiant geriau paaiškinti šias temas, ten pateikiami konkretūs scenarijai ir duomenys, kurie rodo įvairių parametrų ir konfigūracijų poveikį. Nesitikime, kad atliksite visus šiuos scenarijus, nes šis dokumentas nesuteikia pakankamai informacijos jiems sukonfigūruoti. Nepaisant to, jei turite bazinių žinių, galite pabandyti atlikti žemiau nurodytas užduotis tokia seka, kokia jos pateikiamos. Panaudokite žinias, kurias įgijote skaitydami šį dokumentą, KS skaičiavimo analizei atlikti. 
@@ -67,9 +66,8 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 
 
 #### <a name="blogs"></a>Tinklaraščiai
-Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX‟ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės tyrimų ir plėtros tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
+Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
 
 #### <a name="task-guides"></a>Užduočių vedliai
 Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
-
 

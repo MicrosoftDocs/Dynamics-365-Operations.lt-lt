@@ -1,13 +1,13 @@
---- 
-title: "Konfigūruoti vidinės įmonės projekto SF išrašymą"
-description: "Šioje procedūroje parodoma, kaip nustatyti projekto SF tarp dviejų įmonių jūsų organizacijoje."
+---
+title: Konfigūruoti vidinės įmonės projekto SF išrašymą
+description: Šioje procedūroje parodoma, kaip nustatyti projekto SF tarp dviejų įmonių jūsų organizacijoje.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2fe06978d3a1c41a1133a568cca61df05b49d235
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352763"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigūruoti vidinės įmonės projekto SF išrašymą
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 35. Lauke Kainos perkėlimo modelis pasirinkite parinktį.
 36. Lauke Kainos įveskite skaičių.
 37. Spustelėkite Įrašyti.
-
 

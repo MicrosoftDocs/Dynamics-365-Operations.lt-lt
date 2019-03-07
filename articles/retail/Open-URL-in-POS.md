@@ -1,36 +1,35 @@
 ---
 title: URL atidarymas EKA
-description: "Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija."
+description: Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327095"
 ---
-
-# <a name="open-url-in-pos"></a>URL atidarymas EKA
+# <a name="open-url-in-pos"></a>URL atidarymas elektroniniame kasos aparate
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite sukonfigūruoti mygtuką „Retail“ elektroniniame kasos aparate (POS), kad būtų galima atidaryti URL. Šiai funkcija įjungti nereikia tinkinti kodo, taip pat ją sukonfigūruoti gali bet kuris vartotojas, turintis ne kūrėjo vaidmenį.
+Šioje temoje aprašoma, kaip galite sukonfigūruoti mygtuką „Retail“ elektroniniame kasos aparate (POS), kad būtų galima atidaryti URL. Šiai funkcija įjungti nereikia tinkinti kodo, taip pat ją sukonfigūruoti gali bet kuris vartotojas, turintis ne kūrėjo vaidmenį. Ši funkcija veikia „Dynamics 365 for Finance and Operations“ 8.1.3 versijos (komponavimo versija: 8.1.227.10014) ir naujesniuose leidimuose. 
 
 Ši funkcija leidžia sukonfigūruoti EKA mygtuką naudojant mygtukyno dizaino įrankį, kad būtų galima atidaryti URL. Šiuo metu atidaryti URL galima toliau nurodytomis konfigūracijomis.
 
@@ -67,7 +66,7 @@ ms.lasthandoff: 01/04/2019
 | „Windows“ skirtas „Modern POS“ | ✓\*                | ✓               | ✓              | \* Atidaroma naujame „Modern POS“ lange |
 | „Cloud POS“             | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
 | „iOS“ skirtas „Modern POS“     | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
-| „Android“ skirtas „Modern POS“ | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
+| „Modern POS“ sistemovairuotoje „Android“ | ✓\*                | ✓               | X              | \* Atidaroma naujame naršyklės skirtuke        |
 
 ## <a name="before-you-begin"></a>Prieš pradedant
 
@@ -84,4 +83,3 @@ Norėdami sukonfigūruoti URL taip, kad jį būtų galima atidaryti EKA, atlikit
 5. Kaip veiksmą pasirinkite **Atidaryti URL**.
 6. Įveskite norimą naudoti URL.
 7. Sukonfigūruokite, ar norite, kad URL būtų atidaromas naujame lange.
-

@@ -1,13 +1,13 @@
 ---
-title: "Pašalinimo taisyklės"
-description: "Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis."
+title: Pašalinimo taisyklės
+description: Šioje temoje pateikta informacija apie pašalinimo taisykles ir įvairias pašalinimo ataskaitų pasirinktis.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333098"
 ---
-
 # <a name="elimination-rules"></a>Pašalinimo taisyklės
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Jūsų juridinis subjektas (juridinis subjektas A) parduoda daiktus kitam jūsų
 Visos šios operacijos sukuria vidinės įmonės operacijas, kurios užregistruojamos sąskaitose iki ir nuo. Be to, šios operacijos gali apimti antkainio ir kainos sumažinimo sumas, kai vidinės įmonės pardavimo suma nėra lygi parduotų prekių išlaidoms.
 
 ## <a name="set-up-elimination-rules"></a>Nustatyti pašalinimo taisykles
-Nustatant pašalinimo taisykles programoje „Microsoft Dynamics 365 for Finance and Operations“ rekomenduojame sukurti finansinę dimensija, skirtą tik šalinimo veiksmams atlikti. Dauguma klientų pavadina ją Prekybos partneris arba panašiai Jei nuspręsite nenaudoti finansinės dimensijos, būtinai turėkite dvi pagrindines sąskaitas, skirtas tik vidinės įmonės operacijoms. 
+Nustatant pašalinimo taisykles programoje „Microsoft Dynamics 365 for Finance and Operations“, rekomenduojame sukurti finansinę dimensija, skirtą tik šalinimo veiksmams atlikti. Dauguma klientų pavadina ją Prekybos partneris arba panašiai Jei nuspręsite nenaudoti finansinės dimensijos, būtinai turėkite dvi pagrindines sąskaitas, skirtas tik vidinės įmonės operacijoms. 
 
 Pašalinimo sąranką galima rasti modulio Konsolidavimas srityje Sąranka. Įvedę taisyklės aprašą, turite pasirinkti įmonę, kurioje pašalinimo žurnalas bus registruojamas. Tai turi būti įmonė, kurios juridinio subjekto sąrankoje pažymėta parinktis **Naudoti finansinio pašalinimo procese**. 
 
@@ -153,7 +152,6 @@ Pašalinimo operacijas galima apdoroti dviem būdais: vykdant konsolidavimo tink
 Įmonėje, kuri nurodyta kaip pašalinimo įmonė, modulyje Konsolidavimas pasirinkite **Pašalinimo žurnalas**. Pasirinkę žurnalo pavadinimą spustelėkite **Eilutės**. Pasiūlymą galite paleisti pasirinkę meniu **Pasiūlymai** ir tada pasirinkę **Pašalinimo pasiūlymas**.
 
 Pasirinktie įmonę, kuri yra konsoliduotų duomenų šaltinis, o tada pasirinktie taisyklę, kurią norite apdoroti. Įveskite pradžios datą, kad pradėtumėte ieškoti pašalinimo sumų, ir įveskite pabaigos datą, kad pabaigtumėte pašalinimo sumų iešką. Lauke **DK registravimo data** nurodyta data naudojama registruojant žurnalą DK. Spustelėję **Gerai** galite peržiūrėti sumas ir registruoti žurnalą.
-
 
 
 

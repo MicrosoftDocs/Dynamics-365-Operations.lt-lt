@@ -1,13 +1,13 @@
 ---
-title: "Sudengimo konfigūravimas"
-description: "Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šioje temoje aprašyti parametrai, kurie naudojami mokėtinoms sumoms ir gautinoms sumoms sudengti."
+title: Sudengimo konfigūravimas
+description: Tai, kaip ir kada operacijos sudengiamos, gali būti sudėtinga, todėl labai svarbu, kad suprastumėte ir tinkamai nustatytumėte parametrus, kad jie atitiktų jūsų verslo poreikius. Šioje temoje aprašyti parametrai, kurie naudojami mokėtinoms sumoms ir gautinoms sumoms sudengti.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319275"
 ---
-
 # <a name="configure-settlement"></a>Sudengimo konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Norint išvengti papildomų apskaitos įrašų, debeto ir kredito toje pačioje 
 
 -   Organizacijos dažnai naudoja fiksuotas dimensijas, kad nereikalingą finansinę dimensiją užpildytų nuliais. Tai paprastai daroma su balanso sąskaitomis, pvz., gautinomis / mokėtinomis sumomis. Sąskaitos struktūrą galima panaudoti tam, kad finansinės dimensijos, kurios paprastai užpildomos nuliais, nebūtų sekamos.  Iš balanso sąskaitų galite pašalinti finansinę dimensiją, kad nereikėtų naudoti fiksuotų dimensijų.
 -   Jei jūsų organizacija reikalauja, kad gautinų / mokėtinų sumų pagrindinėje sąskaitoje būtų nurodytos fiksuotos dimensijos, raskite būdą, kaip mokėjime nustatyti numatytąją fiksuotą dimensiją, kad fiksuotos dimensijos reikšmė būtų saugoma tiekėjo mokėjimo operacijos srityje. Tokiu būdu sistema atkurs gautinas / mokėtinas sumas pagrindinėje sąskaitoje, įtraukdama fiksuotas dimensijos reikšmes. Fiksuotos dimensijos reikšmę kaip numatytąją galima apibrėžti tiekėjų arba mokėjimų žurnalo pavadinimo srityje.
-

@@ -1,13 +1,13 @@
 ---
-title: "Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)"
-description: "Šioje temoje aprašomos naujos ir pakeistos 1611 programos „Dynamics 365 for Operations“ versijoje veikiančios funkcijos."
+title: Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Operations“ 1611 versijos funkcijos.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339078"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Kas nauja ar pasikeitė „Dynamics 365 for Operations“ 1611 versijoje (2016 m. lapkričio mėn.)
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos 1611 programos „Dynamics 365 for Operations“ versijoje veikiančios funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Operations“ 1611 versijos funkcijos.
 
 ## <a name="cost-accounting"></a>Kaštų apskaita
 
@@ -783,9 +782,9 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 - Parduotuvėje yra mažmeninės prekybos serveris ir parduotuvės duomenų bazė bei „Async Client“ paslauga.
 - Parduotuvės mažmeninės prekybos serveris užmezga tiesioginį ryšį su „HQ for Store“ sistemos programos objektų serveriu (AOS).
 - Kai nėra HQ ryšio, palaikyti terminalo scenrijus.
-- „Retail Modern“ EKA ir debesies EKA visada užmezga ryšį su parduotuvės mažmeninės prekybos serveriu.
-- Kai nėra HQ ryšio, palaikyti „Retail Modern“ EKA ir debesies EKA.
-- Kai nėra HQ ryšio, palaikyti specialiai „Retail Modern“ EKA skirtą autonominę duomenų bazę (izoliuota kiekvienam „Retail Modern“ EKA atvejui).
+- „Retail Modern POS“ ir „Cloud POS“ visada užmezga ryšį su „Retail Server“ parduotuvėje.
+- Kai nėra HQ ryšio, palaikyti „Retail Modern POS“ ir „Cloud POS“.
+- Kai nėra HQ ryšio, palaikyti specialiai „Retail Modern POS“ skirtą autonominę duomenų bazę (izoliuota kiekvienam „Retail Modern POS“ atvejui).
 - Principu „paslauga už paslaugą“ pagrįstas autentifikavimas naudojamas tik parduotuvės sistemai.
 - Jeigu nėra interneto ryšio, paslaugų skambučiai realiuoju laiku nepalaikomi.
 - Tiesioginis „Retail Modern POS“ duomenų bazės ryšys su kanalo duomenų baze nepalaikomas.
@@ -796,14 +795,14 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 | Mažmenininkas iš „Dynamics AX HQ“ kanalo duomenų bazės puslapio atsisiunčia parduotuvės sistemos savitarnos diegimo programą ir konfigūracijos failą. | Mažmenininkas gali nuosekliai atsisiųsti savitarnos paketą. |
 | Mažmenininkas įdiegia parduotuvės sistemą naudodamas savitarnos diegimo programą. | Mažmenininkas gali įdiegti parduotuvės sistemą naudodamas savitarnos paketą. |
 | IT vadovas sukonfigūruoja „Dynamics 365 for Operations“ parduotuvės sistemą (kanalų duomenų bazę, kanalo šabloną, parduotuvę ir diegiamą paketą). | IT vadovas gali lengvai ir efektyviai sukonfigūruoti parduotuvės sistemą. |
-| Mažmenininkas valdo „Retail Modern“ EKA vietinėje parduotuvėje ir, kai yra ryšys, gali atlikti operacijas realiuoju laiku, pavyzdžiui, išduoti dovanų korteles. | Kai yra ryšys, mažmenininkas realiuoju laiku gali atlikti parduotuvės sistemos veiksmus. |
+| Mažmenininkas valdo „Retail Modern POS“ vietinėje parduotuvėje ir, kai yra ryšys, gali atlikti operacijas realiuoju laiku, pavyzdžiui, išduoti dovanų korteles. | Kai yra ryšys, mažmenininkas realiuoju laiku gali atlikti parduotuvės sistemos veiksmus. |
 | Kai tik yra ryšys, mažmenininkas gali sinchronizuoti duomenis iš vietinės parduotuvės sistemos į HQ. | Kai yra ryšys, mažmenininkas gali sinchronozuoti iš parduotuvės sistemos ir į ją. |
 | Mažmenininkas gali turėti saugų ryšį tarp vietinės parduotuvės sistemos ir HQ. | Kai yra ryšys, mažmenininkas gali užmegzti saugų ryšį iš parduotuvės sistemos. |
 | IT vadovas ir „Microsoft Operations“ gali stebėti ir pranešti vietinėje parduotuvės sistemoje (diagnostikos ir ataskaitų pakeitimus). | IT vadovas ir „Microsoft Operations“ gali saugiai stebėti parduotuvės sistemą saugiai ir efektyviai šalinti triktis. |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>„Universal Windows Platform“ programa, skirta „Retail Modern“ EKA
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>„Universal Windows Platform“ programa, skirta „Retail Modern POS“
 
-Šiuo metu „Retail Modern“ EKA galima naudoti tik kaip staliniams ir planšetiniams kompiuteriams skirtą „Windows 8.1“ programą ir kaip stalinių arba planšetinių kompiuterių naršyklėms skirtą „Cloud EKA“. Šiame leidime „Retail Modern“ EKA konvertuojama į „Universal Windows Platform“ (UWP) programą. Atlikus šį pakeitimą „Retail Modern“ bus galima paleisti bet kuriame „Windows 10“ prietaise (staliniame, planšetiniame kompiuteryje arba telefone) ir netgi perjungti „Continuum“ įgalintų prietaisų rodinius.
+Šiuo metu „Retail Modern POS“ galima naudoti tik kaip staliniams ir planšetiniams kompiuteriams skirtą „Windows 8.1“ programą ir kaip stalinių arba planšetinių kompiuterių naršyklėms skirtą „Cloud POS“. Šiame leidime „Retail Modern“ EKA konvertuojama į „Universal Windows Platform“ (UWP) programą. Atlikus šį pakeitimą „Retail Modern POS“ bus galima paleisti bet kuriame „Windows 10“ prietaise (staliniame, planšetiniame kompiuteryje arba telefone) ir netgi perjungti „Continuum“ įgalintų prietaisų rodinius.
 
 | Ką galite daryti | Kodėl tai svarbu |
 |-----------------|-----------------------|
@@ -828,7 +827,7 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 | Įgalinkite tiekėjus atsakyti į kiekvieną pirkimo užsakymo eilutę ir siūlyti pakeitimus. | Kai kuriais atvejais tiekėjai kai kurias pirkimo užsakymo eilutes nori priimti, o kitas – atmesti. Dabar tiekėjai gali atskirai valdyti kiekvieną pirkimo užsakymo eilutę. Kiekvieną eilutę galima atmesti, priimti arba priimti su pakeitimais. Pavyzdžiui, tiekėjai gali pakeisti pristatymo datą, paskirstyti pristatymą ir kiekį arba pasiūlyti alternatyvią prekę. |
 | Įgalinkite tiekėjus valdyti kontaktinio asmens informaciją. | Tiekėjai gali tvarkyti savo įmonės kontaktinio asmens informaciją. Ši informacija apima vardus, el. pašto adresus ir telefono numerius. Prieiga prie šios priemonės suteikiama paskiriant saugos vaidmenį. |
 | Su pirkimo užsakymais susijusius dokumentus naudokite bendrai su tiekėjais. | Kai dokumentą (pavyzdžiui, dokumentą apie reikalavimus) turite naudoti bendrai su tiekėju, patogu jį susieti su atitinkamu pirkimo užsakymu. Tada tiekėjas, susiedamas dokumentą su savo atsakymu į pirkimo užsakymą, gali bendrai su klientu naudoti pastabas ir priedus. Dokumentų tvarkymas yra žemesnio lygio palaikanti sistema, ir su tiekėjais bendrai naudoti galima tik tas pastabas ir priedus, kurie klasifikuojami kaip „išoriniai“. |
-| Pateikti naujus tiekėjo vartotojus. | Jei jūsų tiekėjai naudoja tiekėjo bendradarbiavimo sąsają, kai nauji kontaktai reikalauja prieigos prie tiekėjo bendradarbiavimo, jie gali nuosekliai prašyti naujo vartotojo abonementų. Pirkimų specialistai gali pateikti užklausą suteikti vartotojo abonementą kontaktiniam tiekėjo organizacijos asmeniui. Tiekėjo kontaktinis asmuo, kuris jau yra tiekėjo bendradarbiavimo vartotojas, taip pat gali pateikti tokio tipo užklausą. Užklausa galiausiai sukuria naują tiekėjui priskiriamus vaidmenis atliekantį „Dynamics 365 for Operations“ vartotoją. Ji taip pat supaprastina „Microsoft Azure B2B“ portalui pateikiamą užklausą suteikti vartotojui naują „Azure Active Directory“ („Azure AD“) vartotojo abonementą. Tiekėjai taip pat gali prašyti, kad būtų išjungti tam tikri su tiekėju susijusio vartotojo abonementai arba kad būtų pakeisti saugos vaidmenys. |
+| Pateikti naujus tiekėjo vartotojus. | Jei jūsų tiekėjai naudoja tiekėjo bendradarbiavimo sąsają, kai nauji kontaktai reikalauja prieigos prie tiekėjo bendradarbiavimo, jie gali nuosekliai prašyti naujo vartotojo abonementų. Pirkimų specialistai gali pateikti užklausą suteikti vartotojo abonementą kontaktiniam tiekėjo organizacijos asmeniui. Tiekėjo kontaktinis asmuo, kuris jau yra tiekėjo bendradarbiavimo vartotojas, taip pat gali pateikti tokio tipo užklausą. Užklausa galiausiai sukuria naują tiekėjui priskiriamus vaidmenis atliekantį „Dynamics 365 for Operations“ vartotoją. Ji taip pat supaprastina „Microsoft Azure“ portalui pateikiamą užklausą suteikti vartotojui naują „Azure Active Directory“ („Azure AD“) vartotojo paskyrą. Tiekėjai taip pat gali prašyti, kad būtų išjungti tam tikri su tiekėju susijusio vartotojo abonementai arba kad būtų pakeisti saugos vaidmenys. |
 | Sužinokite daugiau apie tiekėjo bendradarbiavimo palaikymą „Dynamics 365 for Operations“. | Norėdami gauti daugiau informacijos apie tiekėjo bendradarbiavimą, žr. [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Tiekėjo bendradarbiavimas su klientais](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Valdyti tiekėjo bendradarbiavimo vartotojus](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Nustatyti ir išlaikyti tiekėjo bendradarbiavimą](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) ir [Tiekėjo bendradarbiavimo sąskaitų faktūrų išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Vidinio įmonės užsakymo apdorojimas
@@ -886,7 +885,7 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 |-----------------|-----------------------|
 | Modelio skirtingi konteinerių tipai. | Sandėlyje galite naudoti skirtingus konteinerių tipus, kad galėtumėte optimizuoti saugyklą ir dėl kitų priežasčių. Naujas konteinerio tipo objektas turi fizines konteinerių tipų savybes. Dabar galite susieti numerio lenteles su konkrečiu konteinerio tipu ir naudoti vietos sandėliavimo limitus. Pavyzdžiui, galite naudoti šią funkciją norėdami kontroliuoti, kiek padėklų (ar kitokio tipo konteinerio) leisite tam tikroje vietoje. Konteinerių tipai taip pat įtraukti į vienetų sekų grupes, kad būtų galima įtraukti numatytuosius gavimo proceso konteinerių tipus. Konteinerių tipai gali būti naudojami su paėmimo ir pakrovimo vietos direktyvomis. Jie taip pat gali būti naudojami turimų atsargų rodinyje, kad jums būtų lengviau nustatyti, kiek konteinerių tipų saugoma šiuo metu. Norėdami gauti daugiau informacijos, žr. tinklaraščio įrašą [Su paleisti sandėlio valdymo procesus naudojamu konteinerio tipu susietų numerio lentelių naudojimas](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Nors šiame tinklaraščio įraše aprašomas atnaujinimas į „Microsoft Dynamics AX 2012“, tas pats palaikymas dabar įtrauktas į „Dynamics 365 for Operations“. |
 | Siuntų atšaukimas | Sandėlyje turite turėti galimybę tvarkyti vėluojančius pakeitimus. Pavyzdžiui, kai kurios prekės gali būti pažeistos, todėl negalėsite jų siųsti. Arba klientas gali per vėlai pateikti užklausą, kad būtų galima ją atšaukti arba pakeisti. Naudodami „Dynamics 365 for Operations“ dabar galite atšaukti siuntą. Todėl galite atšaukti važtaraštį, kad vėliau galėtumėte jį atnaujinti nurodydami teisingus kiekius. Panašiai gaunamame sraute galite atšaukti produkto kvitus, kad būtų galima sukurti atnaujintą versiją. |
-| Naudokite skirtingas prekes turinčius padėklus. | Dabar galite gauti ir registruoti „mišrų“ padėklą. Mišrų padėklą sudaro skirtingos prekės, surinktos ant vienam ar keliems pirkimo užsakymams ar eilutėms skirto padėklo. Visas registracijas galima apibendrinti į vieną paskirties numerio lentelę. Šis procesas įgalinamas naudojant sandėlio mobilųjį įrenginį. Pavyzdžiui, kai mišrių prekių padėklas atvyksta į sandėlį, prieš perkeliant jį į paskirtą padėjimo vietą, priimantis darbuotojas identifikuoja prekes ir jų kiekį ant padėklo. Padėjimo vietos identifikuojamos naudojant darbo šablonus ir vietos nurodymus. Jei padėjimo vietos paskirstomos kelioms fiksuotą vietą turinčioms prekėms, naudojant šią funkciją sukuriama tiek padėjimo darbo eilučių, kiek yra skirtingų prekių ant mišraus padėklo. Naudojant šią funkciją gautų mišrių prekių padėklų registracija ir padėjimas pagreitėja ir tampa lankstesnis. Norėdami gauti daugiau informacijos, žr. tinklaraščio įrašą [Gauti ir registruoti padėklą su mišriomis išteklių dokumento eilutėmis naudojant vieną numerio lentelę](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) ir informaciją apie mišrių padėklų palaikymą [skelbime apie jūsų naujausią kaupiamąjį naujinimą](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Nors šiame tinklaraščio įraše aprašomas atnaujinimas į AX 2012, tas pats palaikymas dabar įtrauktas į „Dynamics 365 for Operations“. |
+| Naudokite skirtingas prekes turinčius padėklus. | Dabar galite gauti ir registruoti „mišrų“ padėklą. Mišrų padėklą sudaro skirtingos prekės, surinktos ant vienam ar keliems pirkimo užsakymams ar eilutėms skirto padėklo. Visas registracijas galima apibendrinti į vieną paskirties numerio lentelę. Šis procesas įgalinamas naudojant sandėlio mobilųjį įrenginį. Pavyzdžiui, kai mišrių prekių padėklas atvyksta į sandėlį, prieš perkeliant jį į paskirtą padėjimo vietą, priimantis darbuotojas identifikuoja prekes ir jų kiekį ant padėklo. Padėjimo vietos identifikuojamos naudojant darbo šablonus ir vietos nurodymus. Jei padėjimo vietos paskirstomos kelioms fiksuotą vietą turinčioms prekėms, naudojant šią funkciją sukuriama tiek padėjimo darbo eilučių, kiek yra skirtingų prekių ant mišraus padėklo. Naudojant šią funkciją gautų mišrių prekių padėklų registracija ir padėjimas pagreitėja ir tampa lankstesnis. Norėdami gauti daugiau informacijos, žr. tinklaraščio įrašą [Gauti ir registruoti padėklą su mišriomis išteklių dokumento eilutėmis naudojant vieną numerio lentelę](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) ir informaciją apie mišrių padėklų palaikymą [skelbime apie jūsų naujausią kaupiamąjį naujinimą](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Nors šiame tinklaraščio įraše aprašomas atnaujinimas į „AX 2012“, tas pats palaikymas dabar įtrauktas į „Dynamics 365 for Operations“. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Nedideli tiekimo grandinės valdymo funkcijos patobulinimai
 
@@ -946,4 +945,3 @@ Parduotuvės sistema yra mažmenininkams skirtas diegimo pasirinkimas, padedanti
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kas nauja ar pasikeitė](whats-new-changed.md)
-

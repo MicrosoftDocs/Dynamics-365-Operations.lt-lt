@@ -1,13 +1,13 @@
 ---
-title: "Įkainojimo versijos"
-description: "Šiame straipsnyje pateikta informacija apie įkainojimo versijas, kaip jas prižiūrėti, ir duomenų, kuriuos į jas galima įtraukti, tipus. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules."
+title: Įkainojimo versijos
+description: Šiame straipsnyje pateikta informacija apie įkainojimo versijas, kaip jas prižiūrėti, ir duomenų, kuriuos į jas galima įtraukti, tipus. Pirminė įkainojimo versijos paskirtis yra saugoti išlaidų įrašus apie prekes, išlaidų kategorijas ir netiesioginių išlaidų apskaičiavimo formules.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330154"
 ---
-
 # <a name="costing-versions"></a>Įkainojimo versijos
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Pagrindinė pirkimo kainos duomenų įgalinimo priežastis yra apibrėžti suded
 Norėdami įgalinti pirkimo kainos turinį, pirmiausia apibrėžiate KS skaičiavimo grupę, kurioje yra prekės pirkimo kainos savikainos modelis, ir KS skaičiavimo grupę priskiriate nupirktoms prekėms. Tada, atlikdami KS skaičiavimus, kurie naudoja suplanuotas išlaidas, kad apskaičiuotumėte pagamintų prekių pardavimo kainą, naudojate KS skaičiavimo grupės savikainos modelį. 
 
 Prekių pirkimo kainos įrašai taip pat naudojami kaip nuorodos informacija. Prekės pirkimo kainos įrašo būseną pakeitę iš **Laukiantis** į **Aktyvus**, galite atnaujinti prekės bazinę pirkimo kainą. Tačiau bazinė pirkimo kaina nepriklauso nuo teritorijos, ir ją galima rankiniu būdu perrašyti. Prekės bazinė pirkimo kaina naudojama kaip numatytoji pirkimo užsakymų pirkimo kaina.
-
 
 
 

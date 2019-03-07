@@ -1,13 +1,13 @@
 ---
-title: "Prognozės tikslumo stebėjimas"
-description: "Šiame straipsnyje aprašomi prognozės tikslumo, kurį apskaičiuoja „Microsoft Dynamics 365 for Finance and Operations“, tipai ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes."
+title: Prognozės tikslumo stebėjimas
+description: Šiame straipsnyje aprašomi prognozės tikslumo, kurį apskaičiuoja „Microsoft Dynamics 365 for Finance and Operations“, tipai, ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356420"
 ---
-
 # <a name="monitor-forecast-accuracy"></a>Prognozės tikslumo stebėjimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi prognozės tikslumo, kurį apskaičiuoja „Microsoft Dynamics 365 for Finance and Operations“, tipai ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
+Šiame straipsnyje aprašomi prognozės tikslumo, kurį apskaičiuoja „Microsoft Dynamics 365 for Finance and Operations“, tipai, ir paaiškinama, kaip galima peržiūrėti tikslumo reikšmes.
 
 „Finance and Operations“ apskaičiuoja toliau nurodytų tipų prognozės tikslumą.
 
@@ -47,7 +46,6 @@ ms.lasthandoff: 05/08/2018
 [Pakoreguotos poreikio prognozės įgaliojimas](authorize-adjusted-forecast.md)
 
 [Pašalinių reikšmių šalinimas iš praeities operacijų duomenų skaičiuojant poreikio prognozę](remove-historical-outliers-calculating-demand-forecast.md)
-
 
 
 

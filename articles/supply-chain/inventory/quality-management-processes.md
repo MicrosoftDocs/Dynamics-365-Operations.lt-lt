@@ -1,13 +1,13 @@
 ---
-title: "Kokybės valdymo procesai"
-description: "Šiame straipsnyje pateikta informacija apie neatitinkančių produktų kokybės valdymo procesą. Aprašyta, kaip galite naudoti kokybės kontrolės funkciją, kaip nustatyti ir prižiūrėti neatitikimus ir kaip tvarkyti taisymus."
+title: Kokybės valdymo procesai
+description: Šiame straipsnyje pateikta informacija apie neatitinkančių produktų kokybės valdymo procesą. Aprašyta, kaip galite naudoti kokybės kontrolės funkciją, kaip nustatyti ir prižiūrėti neatitikimus ir kaip tvarkyti taisymus.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354557"
 ---
-
 # <a name="quality-management-processes"></a>Kokybės valdymo procesai
 
 [!include [banner](../includes/banner.md)]
@@ -102,4 +101,3 @@ Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų taisymų dok
 [Kokybės užsakymų nustatymas (užduočių vedlys)](tasks/set-up-quality-orders.md)
 
 [Prekių kokybės tikrinimas (užduočių vedlys)](tasks/inspect-quality-goods.md)
-

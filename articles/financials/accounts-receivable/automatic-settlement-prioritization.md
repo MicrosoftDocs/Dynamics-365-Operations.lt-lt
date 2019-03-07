@@ -1,13 +1,13 @@
 ---
-title: "Automatinis sudengimas ir prioritetų nustatymas"
-description: "Šioje temoje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu."
+title: Automatinis sudengimas ir prioritetų nustatymas
+description: Šioje temoje aprašoma, kaip sudengiamos operacijos, jei puslapyje Gautinų sumų parametrai pasirenkate Automatinis sudengimas. Jame taip pat paaiškinama, kaip automatinį sudengimą galima naudoti kartu su mokėjimo prioritetu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318976"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Automatinis sudengimas ir prioritetų nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,8 @@ Toliau šiame straipsnyje pateikti sudengimų pavyzdžiai yra paremti toliau pat
 
 | Operacija   | Data        | Suma | Mokėjimo nuolaidos sąlygos | Mokėjimo nuolaidos data | Komentarai                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 sąskaita faktūra     | Rugpjūčio 15 d.   | 100,00 | 2 % 14, grynoji 30        | Rugpjūčio 29 d.          |                                                                                                                                                                                               |
-| 2 sąskaita faktūra     | Rugsėjo 1 d. | 250,00 | 2 % 14, grynoji 30        | Rugsėjo 15 d.       |                                                                                                                                                                                               |
+| 1 sąskaita faktūra     | Rugpjūčio 15 d.   | 100,00 | 2 %14, grynoji 30        | Rugpjūčio 29 d.          |                                                                                                                                                                                               |
+| 2 sąskaita faktūra     | Rugsėjo 1 d. | 250,00 | 2 %14, grynoji 30        | Rugsėjo 15 d.       |                                                                                                                                                                                               |
 | 3 sąskaita faktūra     | Spalio 15 d.  | 500,00 | 2 % 14 / grynoji 30        | Spalio 29 d.         |                                                                                                                                                                                               |
 | Delspinigių pažyma | Spalio 15 d.  | 7,00   |                     |                    | Ši delspinigių pažyma yra 1 sąskaitai faktūrai ir 2 sąskaitai faktūrai. Suma yra apskaičiuojama kaip 2 procentai palūkanų nuo sumų, nuo kurių termino praėjo 30 ar daugiau dienų. Pavyzdys: 0,02 × (100,00 + 250,00) = 7,00. |
 
@@ -79,7 +78,6 @@ Jei nėra jokio vartotojo nustatyto sudengimo prioriteto, automatiškai pasirenk
 | 2 sąskaita faktūra     | 2015-09-01   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | 3 sąskaita faktūra     | 2015-10-15 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Delspinigių pažyma | 2015-10-15 |         | 7,00                           | 0,00             | 0,00    | USD      |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis"
-description: "Šioje temoje pateikta informacija apie tai, kaip galima palyginti sugeneruotų ER ataskaitų rezultatus su bazinės ataskaitos vertėmis."
+title: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
+description: Šioje temoje pateikta informacija apie tai, kaip galima palyginti sugeneruotų ER ataskaitų rezultatus su bazinės ataskaitos vertėmis.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317941"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Galite išsaugoti bet kurio ER formato individualius bazinius programos failus. 
 Galite įvertinti sekimą, analizuodami, ar sugeneruojami elektroniniai dokumentai apima numatytą turinį. Šį įvertinimą galite atlikti vartotojo priėmimo bandymų (UAT) aplinkoje, kai pakeistas pagrindinis kodas (pvz., kai perkėlėte į naują programos egzempliorių, įdiegėte karštųjų pataisų paketus arba įdiegėte kodų pakeitimus). Taip galite užtikrinti, kad vertinimas neturės įtakos naudojamų ER ataskaitų vykdymui. Daugelio ER ataskaitų vertinimą galima atlikti režimu be priežiūros.
 
 Norėdami daugiau sužinoti apie šią funkciją, leiskite užduočių vedlius **ER ataskaitų generavimas ir rezultatų palyginimas (1 dalis)** ir **ER ataskaitų generavimas ir rezultatų palyginimas (2 dalis)**, kurie yra verslo proceso **7.5.4.3 Tikrinti IT paslaugas ir sprendimus (10679)** dalis, juos galima atsisiųsti iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684). Šie užduočių vedliai parodys jums ER sistemos konfigūravimo procesą, norint naudoti bazinius failus sugeneruotiems elektroniniams dokumentams įvertinti.
-

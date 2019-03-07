@@ -1,13 +1,13 @@
 ---
-title: "Kaštų apskaitos pagrindinis puslapis"
-description: "Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti kaštų apskaitai, sąrašas."
+title: Kaštų apskaitos pagrindinis puslapis
+description: Šioje temoje pateikiamas žinyno temų ir kitų išteklių, kurie skirti kaštų apskaitai, sąrašas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 707cbb8f4a4a71d147e1aa3c048fb1eb3872f8d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 8f4a371664ceb7df9ac28cececc456bc73d655cb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346668"
 ---
-
 # <a name="cost-accounting-home-page"></a>Savikainos apskaitos pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 |      |   |
 |------|---|
-|  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia CustomerSource paskyros)  |[Kurti dimensijas](cost-elements.md)  |
+|  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)  |[Kurti dimensijas](cost-elements.md)  |
 |  [Dimensijų hierarchijos kūrimas](dimension-hierarchy.md)  |[Pagrindinės sąrankos kūrimas](./tasks/define-cost-control-units.md)| 
 | [Paskirstymo bazės apibrėžimas](allocation-bases.md)|[Strategijų apibrėžimas](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Duomenų šaltinis ir duomenų teikėjas](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Duomenų šaltinis ir duomenų teikėjas](./tasks/process-trace-source-data.md)     | 
@@ -52,6 +51,5 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 |------------------------|--------------------|-----------------------------|
 | [Darbo su moduliu Kaštų apskaita pradžia](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Kaštų apskaitos mobilioji darbo sritis](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [„Excel“ naudojimas kaštų apskaitos analizei](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 |  |  |                             |
-
 
 

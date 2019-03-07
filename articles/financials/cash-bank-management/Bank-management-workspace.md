@@ -1,13 +1,13 @@
 ---
 title: Banko valdymo darbo sritis
-description: "Šioje temoje pateikiama informacijos apie banko valdymo darbo sritį. Šioje darbo srityje nurodoma su įmonės banko sąskaitomis susijusi informacija ir pateikiamas suvestinės rodinys ir analizės puslapis. Suvestinės rodinyje rodomos suvestinės išklotinės, banko sąskaitos informacija, likučio diagrama ir susijusi informacija. Analizės puslapyje naudojantis „Microsoft Power BI“ galimybėmis parodomi su banko sąskaitos likučiais susiję vaizdiniai elementai."
+description: Šioje temoje pateikiama informacijos apie banko valdymo darbo sritį. Šioje darbo srityje nurodoma su įmonės banko sąskaitomis susijusi informacija ir pateikiamas suvestinės rodinys ir analizės puslapis. Suvestinės rodinyje rodomos suvestinės išklotinės, banko sąskaitos informacija, likučio diagrama ir susijusi informacija. Analizės puslapyje naudojantis „Microsoft Power BI“ galimybėmis parodomi su banko sąskaitos likučiais susiję vaizdiniai elementai.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348370"
 ---
 # <a name="bank-management-workspace"></a>Banko valdymo darbo sritis
 
@@ -64,4 +64,3 @@ Puslapyje **Analizė** pateikiamos svarbios dabartinės įmonės banko sąskait�
 -   Balansas pagal valiutą
 
 Darbo srityje **Grynųjų pinigų peržiūra – visos įmonės** galite peržiūrėti visų įmonių banko analizės informaciją.
-

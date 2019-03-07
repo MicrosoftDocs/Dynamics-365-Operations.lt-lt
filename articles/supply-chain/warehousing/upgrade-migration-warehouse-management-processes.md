@@ -1,13 +1,13 @@
 ---
-title: "Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”"
-description: "Šioje temoje apžvelgiamos produktų ir sandėlio valdymo perkėlimo parinktys."
+title: Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
+description: Šioje temoje apžvelgiamos produktų ir sandėlio valdymo perkėlimo parinktys.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324473"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
 
 
 [!include [banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ Prieš naudojant išleistus produktus modulyje **Sandėlio valdymas** produktai 
 6.  Puslapyje **Pakeisti prekių saugojimo dimensijų grupę** įtraukite prekių numerius, saugojimo dimensijų grupes ir vienetų sekų grupes. Šį veiksmą galite atlikti tiesiog puslapyje, naudodami „Microsoft Office“ integraciją arba duomenų objekto procesą dalyje [Duomenų valdymas](../../dev-itpro/data-entities/data-entities.md).
 7.  Patikrinkite pakeitimus. Tikrinimo proceso metu bus atliekami įvairūs duomenų vientisumo tikrinimai. Vykdant didesnį naujinimo procesą, iškylančios problemos gali būti pakoreguotos diegiant šaltinį. Šiuo atveju reikės papildomo duomenų naujinimo.
 8.  Apdorokite pakeitimus. Visų atsargų dimensijų atnaujinimas gali šiek tiek užtrukti. Galite stebėti eigą naudodami paketines užduotis.
-

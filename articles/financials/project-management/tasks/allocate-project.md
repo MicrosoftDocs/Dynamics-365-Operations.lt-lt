@@ -1,13 +1,13 @@
---- 
-title: "Projekto biudžeto arba biudžeto tikslinimo per laikotarpius paskirstymas"
-description: "Šioje procedūroje rodoma, kaip paskirstyti projekto biudžeto sumas per laikotarpius."
+---
+title: Projekto biudžeto arba biudžeto tikslinimo per laikotarpius paskirstymas
+description: Šioje procedūroje rodoma, kaip paskirstyti projekto biudžeto sumas per laikotarpius.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344161"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Projekto biudžeto arba biudžeto tikslinimo per laikotarpius paskirstymas
 
@@ -42,6 +42,5 @@ Paskirstę biudžetą arba biudžeto tikslinimą, galite peržiūrėti paskirsty
 8. Formoje Projekto biudžeto paskirstymas arba Projekto biudžeto tikslinimo paskirstymas peržiūrėkite arba atnaujinkite paskirstytas sumas. 
 9. Uždarykite puslapį.
 10. Kai bus paskirstyta taip, kaip norite, puslapyje Projekto biudžetas spustelėkite Pateikti, kad nusiųstumėte biudžetą arba biudžeto tikslinimus į patvirtinimo darbo eigą.  
-
 
 

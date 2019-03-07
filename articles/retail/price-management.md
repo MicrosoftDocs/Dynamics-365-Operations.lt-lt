@@ -1,14 +1,14 @@
 ---
-title: "Mažmeninės prekybos pardavimo kainos valdymas"
-description: "Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Microsoft Dynamics 365 for Retail“ koncepcijos."
+title: Mažmeninės prekybos pardavimo kainos valdymas
+description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Microsoft Dynamics 365 for Retail“ koncepcijos.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362147"
 ---
-
-# <a name="retail-sales-price-management"></a>Mažmeninės prekybos pardavimo kainos valdymas
+# <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
 [!include [banner](includes/banner.md)]
 
@@ -202,7 +201,7 @@ Norėdami nesunkiai atnaujinti įvairių produktų iš skirtingų produktų kate
 
 ## <a name="best-practices"></a>Geriausia praktika
 
-Kanalų duomenų bazėms dažnai naudojamas „Microsoft SQL Server Express“ dėl nedidelių kaštų (nemokamas). Atminkite, kad „SQL Server Express“ turi aparatūros apribojimų ir duomenų dydžio limitų. Tinkamai nesuplanavus, galima greitai pasiekti „SQL Server Express“ duomenų dydžio limitus. Tai galioja ne tik kainodarai, bet ir kitoms produkto sritims. Štai keletas geriausios praktikos pavyzdžių, kurie gali padėti sumažinti duomenų dydį:
+Kanalų duomenų bazėse dažnai naudojama „Microsoft SQL Server Express“ dėl nedidelių kaštų (nemokama). Atminkite, kad „SQL Server Express“ turi aparatūros apribojimų ir duomenų dydžio limitų. Tinkamai nesuplanavus, galima greitai pasiekti „SQL Server Express“ duomenų dydžio limitus. Tai galioja ne tik kainodarai, bet ir kitoms produkto sritims. Štai keletas geriausios praktikos pavyzdžių, kurie gali padėti sumažinti duomenų dydį:
 
 - Jei naudojate prekybos sutartis ir jūsų kainos pasikeičia, senų prekybos sutarčių galiojimą reikėtų nutraukti nustačius jų pabaigos datą. Laikui bėgant, šis metodas padeda sumažinti kanalų duomenų bazėse laikomų prekybos sutarčių skaičių. Tai taip pat padeda sumažinti kiekį duomenų, kuriuos turi apdoroti kainos skaičiavimo algoritmas.
 - Jei kainos skiriasi priklausomai nuo produkto varianto, apsvarstykite galimybę naudoti produkto bazinę kainą kaip labiausiai įprastą kainos variantą. Tuomet prekybos sutartis naudokite tik tiems kainų variantams, kurie yra išimtys. Šis metodas padeda sumažinti prekybos sutarčių įrašų skaičių. Importuoti duomenis į „Microsoft Dynamics 365“ yra labai paprasta, todėl gali kilti pagunda kiekvienam kiekvieno produkto variantui importuoti po atskirą prekybos sutartį. Tačiau dėl to bus sukurta daug prekybos sutarčių, kurios turi tą pačią vertę. Todėl tai gali bereikalingai padidinti duomenų dydį.
@@ -232,4 +231,3 @@ Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** mažmeninės prekyb
 
 - Kaina nustatoma pagal produkto dimensijas, nuo konkrečiausio varianto kainos iki mažiausiai konkretaus varianto kainos iki bendrojo produkto kainos. Kainai, kuri yra nustatyta naudojant dvi produkto dimensijas (pvz., spalvos ir dydžio), teikiama pirmenybė prieš kainą, kuri yra nustatyta naudojant tik vieną produkto dimensiją (pvz., dydžio).
 - Ta pačia kainų grupe galima kontroliuoti kainas ir nuolaidas.
-

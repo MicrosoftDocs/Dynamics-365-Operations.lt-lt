@@ -1,13 +1,13 @@
---- 
-title: "Siųsti užsakymus kaip tiesioginius pristatymus"
-description: "Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą."
+---
+title: Siųsti užsakymus kaip tiesioginius pristatymus
+description: Ši procedūra parodo, kaip kurti pardavimo užsakymo tiesioginį pristatymą.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5cd68aa1c15672c702db887c08ecf9b3d63f2618
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339285"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siųsti užsakymus kaip tiesioginius pristatymus
 
@@ -102,5 +102,4 @@ ms.lasthandoff: 09/29/2017
 14. Spustelėkite Kurti tiesioginį pristatymą.
 15. Spustelėkite skirtuką Patvirtinimas.
     * Sukūrus tiesioginio pristatymo užsakymą, jis automatiškai perkeliamas į skirtuką Patvirtinimas. Galite patvirtinti užsakymą tiesiogiai iš šio puslapio. Kai pirkimas patvirtintas, jis bus automatiškai perkeltas į skirtuką Pristatymas, iš kurio galite registruoti jo gavimą.  
-
 

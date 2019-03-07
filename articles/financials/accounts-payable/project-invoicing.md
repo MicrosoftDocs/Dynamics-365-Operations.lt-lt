@@ -1,13 +1,13 @@
 ---
-title: "Projekto SF išrašymas"
-description: "Šiame straipsnyje pateikiama projekto SF išrašymo Laiko ir medžiagų bei Fiksuotos kainos projektams apžvalga. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas."
+title: Projekto SF išrašymas
+description: Šiame straipsnyje pateikiama projekto SF išrašymo Laiko ir medžiagų bei Fiksuotos kainos projektams apžvalga. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346323"
 ---
-
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Tame pačiame dokumente gali būti operacijos, pasirinktos kredituoti, atlikti k
 Norėdami kredituoti sumą, kuriai išrašyta SF, pirmiausia pasirenkate sumą, kuriai išrašyta SF ir kurią norite kredituoti bei sukuriate kredito pažymą. Kredito pažyma kuriama vadovaujantis tokia pačia procedūra, kokią naudotumėte kliento SF generuoti. 
 
 Galite sukurti SF su neigiama suma; tokia sąskaita faktūra klasifikuojama kaip kredito pažyma. Norėdami sukurti ir išspausdinti kredito pažymą, turite pasirinkti operacijas, anksčiau užregistruotas kliento SF ir jas modifikuoti. SF pavadinimas bus „Koreguojamoji SF‟, nebent pagrindinis juridinio subjekto adresas yra Vokietijoje.
-
 
 
 

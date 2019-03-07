@@ -1,13 +1,13 @@
 ---
-title: "Skambučių centro pristatymo būdų ir mokesčių konfigūravimas"
-description: "Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Microsoft Dynamics 365 for Retail“."
+title: Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
+description: Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328429"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Pagreitinimo kodą su bet kokiu sukonfigūruotu pristatymo būdu galite susieti 
 Pvz., užsakymų, kurie kitą dieną bus išsiųsti oru, atveju, paėmimą sandėlyje reikia atlikti kasdien iki 13 val. Tokiu atveju pagreitinimo kodą sukurti galima ir jis bus susietas su bet kuriuo pristatymo kitą dieną būdu, sukonfigūruotu sistemoje. Kai sandėlyje sukuriama išrinkimo banga, atitinkamą pagreitinimo kodą, nurodytą lauke **Pagreitinimas**, galima naudoti kaip filtrą, kad išrinkimas būtų vykdomas tik tiems užsakymams, kurių pristatymo būdai susieti su tuo kodu.
 
 Be to, įvedus skambučių centro užsakymą, pagreitinimo kodą galima rankiniu būdu taikyti pardavimo užsakymo antraštei arba atskirai pardavimo užsakymo eilutei. Taip pat kodą galima naudoti rūšiavimo arba ataskaitų kūrimo tikslais. Kartais užsakymą reikia apdoroti kruopščiai dėl iškilusios klientų aptarnavimo tarnybos problemos. Tokiu atveju užsakymo antraštei arba eilutėms galima taikyti konkretų pagreitinimo kodą, kad vykdymo proceso metu užsakymas būtų greičiau identifikuotas ir greičiau nustatyti jo prioritetai.
-

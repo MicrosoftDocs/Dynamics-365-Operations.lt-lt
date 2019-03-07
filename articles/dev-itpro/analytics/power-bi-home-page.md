@@ -1,13 +1,13 @@
 ---
-title: "Pagrindinis „PowerBI.com“ sprendimų puslapis"
-description: "Šioje temoje išvardyti pasiekiami „PowerBI.com‟ sprendimai ir nurodomi ištekliai, kur galima daugiau apie tuos sprendimus sužinoti."
+title: Pagrindinis „PowerBI.com“ sprendimų puslapis
+description: Šioje temoje išvardyti pasiekiami „PowerBI.com‟ sprendimai ir nurodomi ištekliai, kur galima daugiau apie tuos sprendimus sužinoti.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316699"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>Pagrindinis „PowerBI.com“ sprendimų puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Toliau nurodyti „PowerBI.com“ sprendimai pasiekiami LCS bendrai naudojamo tu
 - [Sandėlio našumas](warehouse-power-bi-content.md)
 - [Darbo jėgos metrika](workforce-analysis-power-bi-content-pack.md)
 
-## <a name="powerbicom-solutions-available-from-appsource"></a>Naudojant „AppSource“ galimi „PowerBI.com“ sprendimai
+## <a name="powerbicom-solutions-available-from-appsource"></a>„PowerBI.com“ sprendimai teikiami „AppSource“
 
 Naudojant [„Microsoft AppSource“](https://appsource.microsoft.com) galimi toliau nurodyti „PowerBI.com“ sprendimai.
 
@@ -67,4 +66,3 @@ Naudojant [„Microsoft AppSource“](https://appsource.microsoft.com) galimi to
 - Kaštų valdymas
 - [Finansinės veiklos rezultatai](financial-performance-power-bi-content-pack.md)
 - [Mažmeninės prekybos kanalų efektyvumas ](retail-channel-performance-dashboard-power-bi-data.md)
-

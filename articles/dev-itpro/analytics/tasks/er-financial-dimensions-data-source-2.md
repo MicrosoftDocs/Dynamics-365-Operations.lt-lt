@@ -1,13 +1,13 @@
---- 
-title: "ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Modelio susiejimas)"
-description: "Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį."
+---
+title: ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Modelio susiejimas)
+description: Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319597"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (2 dalis: modelio susiejimas)
 
@@ -43,7 +43,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti atlikti veiksmus,
 8. Lauke Aprašas įveskite Dimensijų duomenų susiejimas.
 9. Spustelėkite Įrašyti.
 10. Spustelėkite Konstruktorius.
-11. Medyje pasirinkite „Dynamics 365 for Operations\Table“.
+11. Medyje pasirinkite Dynamics 365 for Operations\Table.
 12. Spustelėkite „Įtraukti šaknį“.
 13. Lauke „Pavadinimas“ įveskite „Įmonė“.
 14. Lauke „Lentelė“, įveskite „CompanyInfo“.
@@ -59,7 +59,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti atlikti veiksmus,
 21. Lauke Prašyti pagrindinės sąskaitos pasirinkite Taip.
     * Nustatykite parinktį Prašyti pagrindinės sąskaitos į Taip, kad jei norite leisti vartotojams pasirinkti pagrindinę sąskaitą kaip dimensijų sąrašo dalį.   Jei pasirinksite Ne, pagrindinė sąskaita nebus įtraukta į dimensijų sąrašą ir parinktis Pagrindinė sąskaita yra privaloma bus įjungta. Jei parinktį Pagrindinė sąskaita yra privaloma nustatysite į Taip, įtraukite pagrindinę sąskaitą į dimensijų sąrašą neatsižvelgdami į vartotojo pasirinkimą.  
 22. Spustelėkite GERAI.
-23. Medyje pasirinkite „Dynamics 365 for Operations\Table records“.
+23. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 24. Spustelėkite „Įtraukti šaknį“.
 25. Lauke Pavadinimas įveskite LedgerJournal.
 26. Lauke „Prašyti užklausos“ pasirinkite „Taip“.
@@ -143,5 +143,4 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti atlikti veiksmus,
 3. Spustelėkite keisti būseną.
 4. Spustelėkite Baigti.
 5. Spustelėkite GERAI.
-
 

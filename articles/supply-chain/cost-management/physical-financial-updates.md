@@ -1,13 +1,13 @@
 ---
 title: Faktiniai ir finansiniai atnaujinimai
-description: "Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius."
+description: Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e62bdbfb7b88f66ea1f6e4d57b6150c8b0bffb04
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322587"
 ---
-
 # <a name="physical-and-financial-updates"></a>Faktiniai ir finansiniai atnaujinimai
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius. 
 
-Atsargų operacijas galima faktiškai ir finansiškai naujinti naudojant „Microsoft Dynamics 365 for Finance and Operations“. Kai kurių tipų faktinėse ir finansinėse operacijose atsargų kiekiai yra padidinami, o kitose – sumažinami.
+Atsargų operacijas galima faktiškai ir finansiškai naujinti „Microsoft Dynamics 365 for Finance and Operations“. Kai kurių tipų faktinėse ir finansinėse operacijose atsargų kiekiai yra padidinami, o kitose – sumažinami.
 
 ## <a name="physical-increases"></a>Faktinis didėjimas
 Kai užregistruota faktinė operacija, operacijos įrašo būsena yra **Gauta**. Toliau pateiktos operacijos laikomos faktiniais padidėjimais:
@@ -72,7 +71,6 @@ Kai užregistruota finansinė operacija, operacijos įrašo būsena yra **Parduo
 -   Neigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo
 
 Operacijos, kurios mažina kiekį, registruojamos vykdoma vidutine savikaina. Todėl norint sudengti išdavimo operacijas su gavimo operacijomis pagal kiekvienai prekei priskirtą atsargų modelį, reikia atlikti atsargų uždarymo procedūrą.
-
 
 
 

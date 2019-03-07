@@ -1,31 +1,30 @@
 ---
-title: "Grąžinimo savikaina ir grąžinamos partijos ID"
-description: "Galite norėti, kad grąžintų produktų savikaina būtų lygi produktų savikainai tuo metu, kai šiuos produktus pardavėte klientui. Tai galite nustatyti naudodami **Grąžinamos partijos ID**."
+title: Grąžinimo savikaina ir grąžinamos partijos ID
+description: Galite norėti, kad grąžintų produktų savikaina būtų lygi produktų savikainai tuo metu, kai šiuos produktus pardavėte klientui. Tai galite nustatyti naudodami **Grąžinamos partijos ID**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335145"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Grąžinimo savikaina ir grąžinamos partijos ID        
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Kai grąžinimo savikainą nurodote grąžinimo užsakymo eilutės lauke **Grą�
 10. Atsargų ir sandėlio valdymo formoje **Uždarymas ir koregavimas** vykdykite procedūrą **3. Uždaryti**.
     
     Šis veiksmas pakoreguos pradinio pardavimo eilutėje nurodytą savikainą, iš -35,00 (5 vienetai \* 7,00) į -30,00 (5 vienetai \* 6,00). Taip yra todėl, kad atsargų modelių grupė naudoja „pirmas ateina, pirmas išeina“ (FIFO) metodą ir 6,00 už vienetą yra FIFO kaina iš pirmojo pirkimo užsakymo. Be to, šis veiksmas pakoreguoja savikainą grąžinimo pardavimo eilutėje, kad ji atitiktų vieneto savikainą pradinio pardavimo eilutėje. Todėl savikaina grąžinimo eilutėje pakoreguojama iš 35,00 į 30,00.
-
 
 
 

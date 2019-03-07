@@ -1,13 +1,13 @@
 ---
 title: Elektroninio kasos aparato (EKA) ekrano maketai
-description: "Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus."
+description: Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321897"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Elektroninio kasos aparato (EKA) ekrano maketai
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 - **Aprašas** – galite nurodyti prasmingą pavadinimą, kuris padėtų nuspręsti, kuris profilis tinkamas jūsų atveju.
 - **Tema** – galite pasirinkti šviesią arba tamsią programos temą. Nuo temos priklauso visos programos šriftų ir fono spalvos.
 - **Akcento spalva** – tai spalva, kuri naudojama elektroniniame kasos aparate norint atskirti arba paryškinti konkrečius vaizdo elementus, pvz., plyteles, komandų mygtukus ir hipersaitus. Paprastai su šiais elementais galima atlikti veiksmų.
-- **Antraštės spalva** – puslapio antraštės spalvą galite konfigūruoti pagal pardavėjo prekių ženklų reikalavimus. Ši funkcija pasiekiama tik „Microsoft Dynamics 365 for Retail‟ 1611 versijoje.
+- **Antraštės spalva** – puslapio antraštės spalvą galite konfigūruoti pagal pardavėjo prekių ženklų reikalavimus. Ši funkcija pasiekiama tik „Microsoft Dynamics 365 for Retail“ 1611 versijoje.
 - **Prisijungimo fonai** – gali nurodyti, koks fono vaizdas bus naudojamas prisijungimo ekrane. Fono vaizdų failų dydis turėtų būti kuo mažesnis, nes saugant ir įkeliant didelius failus gali pablogėti programos veikimas ir našumas.
 - **Programos fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Kaip ir prisijungimo fonų, šių fonų failų dydis turėtų būti kuo mažesnis.
 
@@ -165,7 +164,7 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 - **Mygtuko ypatybės** – mygtuko ypatybes galite konfigūruoti dešiniuoju pelės mygtuku spustelėdami mygtuką ir naudodami kontekstinį meniu.
 
     > [!IMPORTANT]
-    > Kai kurie mygtukynų parametrai taikomi tik įmonės EKA aparatui, o „Retail Moden POS“ ar „Cloud POS“ – ne.
+    > Kai kurie mygtukynų parametrai taikomi tik įmonės EKA aparatui, o „Retail Modern POS“ ar „Cloud POS“ – ne.
 
     ![Mygtukynų mygtukų ypatybės](../retail/media/Button-grid-button-properties.png)
 
@@ -194,4 +193,3 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Retail POS“ maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
-

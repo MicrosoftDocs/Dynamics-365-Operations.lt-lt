@@ -1,13 +1,13 @@
 ---
-title: "„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas"
-description: "Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
+title: „Power BI“ Kredito ir mokėjimų priežiūros valdymas
+description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325186"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ turinys Kredito ir mokėjimų priežiūros valdymas
+# <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ Kredito ir mokėjimų priežiūros valdymas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Kredito ir mokėjimų priežiūros valdymas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
-„Power BI‟ turinys **Kredito ir mokėjimų priežiūros valdymas** buvo sukurtas kredito ir mokėjimų priežiūros vadybininkams ir mokėjimų priežiūros darbuotojams. Jame pateikiamos pagrindinės kredito ir mokėjimų priežiūros metrikos, pavyzdžiui, neapmokėta suma, pradelstas likutis, kredito ekspozicija ir kredito limitą viršiję klientai. Jame naudojami operaciniai duomenys ir pateikiami sujungti visų įmonių kredito ir mokėjimų priežiūros duomenų rodiniai. Jame taip pat pateikiamas paskirstymas kiekvienai įmonei, klientų grupei ir klientui.
+„Power BI“ turinys **Kredito ir mokėjimų priežiūros valdymas** buvo sukurtas kredito ir mokėjimų priežiūros vadybininkams ir mokėjimų priežiūros darbuotojams. Jame pateikiamos pagrindinės kredito ir mokėjimų priežiūros metrikos, pavyzdžiui, neapmokėta suma, pradelstas likutis, kredito ekspozicija ir kredito limitą viršiję klientai. Jame naudojami operaciniai duomenys ir pateikiami sujungti visų įmonių kredito ir mokėjimų priežiūros duomenų rodiniai. Jame taip pat pateikiamas paskirstymas kiekvienai įmonei, klientų grupei ir klientui.
 
-Šį „Power BI‟ turinį sudaro 10 puslapių ataskaita:
+Šį „Power BI“ turinį sudaro 10 puslapių ataskaita:
 
 - dviejų puslapių peržiūra (vienas puslapis skirtas kredito peržiūrai, o kitas puslapis – mokėjimų peržiūrai)
 - aštuoni išsamios informacijos puslapiai, kuriuose pateikiama informacija apie įvairiose dimensijose paskirstytas kredito ir mokėjimų priežiūros metrikas
@@ -48,7 +47,7 @@ Pagal numatytuosius nustatymus rodomi šios įmonės kredito ir mokėjimų prie�
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 
-„Power BI‟ turinio pakete **CustCollectionsBICrossCompany** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama „Power BI“ turinio **CustCollectionsBICrossCompany** vizualizacijų apžvalga.
+„Power BI“ turinio pakete **CustCollectionsBICrossCompany** yra ataskaita, sudaryta iš metrikų rinkinio. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės Toliau pateiktoje lentelėje pateikiama „Power BI“ turinio **CustCollectionsBICrossCompany** vizualizacijų apžvalga.
 
 | Ataskaitų puslapis                 | Vizualizacija |
 |-----------------------------|---------------|
@@ -67,7 +66,7 @@ Pagal numatytuosius nustatymus rodomi šios įmonės kredito ir mokėjimų prie�
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-Tolesniais duomenimis pildoma „Power BI‟ turinio **Kredito ir mokėjimų priežiūros valdymas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildoma „Power BI“ turinio **Kredito ir mokėjimų priežiūros valdymas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Objektas                    |      Pagrindiniai agreguoti matavimo vienetai      |             Duomenų šaltinis              |                           Laukas                            |                                    aprašymas                                     |
@@ -88,5 +87,4 @@ Tolesniais duomenimis pildoma „Power BI‟ turinio **Kredito ir mokėjimų pri
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Sukurtų delspinigių pažymų skaičius.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Bendras sulaikytų pardavimo užsakymų skaičius.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Nurašytų operacijų suma.                 |
-
 

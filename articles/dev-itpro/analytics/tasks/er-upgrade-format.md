@@ -1,13 +1,13 @@
---- 
-title: "ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali prižiūrėti elektroninių ataskaitų (ER) formato konfigūraciją."
+---
+title: 'ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją'
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali prižiūrėti elektroninių ataskaitų (ER) formato konfigūraciją.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342275"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją
 
@@ -108,7 +108,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūrų „Konf
     * Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1.1.1 baigta versija. Tai reiškia, kad tai yra 1-oji pasirinktinio BACS (JK fiktyvus pasirinktinis) formato versija, kuri paremta 1-ąja BACS (JK fiktyvus) formato versija, kuri paremta 1-ąja mokėjimų (suprastintasis modelis) duomenų modelio versija.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
-    * Lygiagrečiame „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
+    * Lygiagrečiame Dynamics 365 for Finance and Operations redakcijos įmonėms seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Esamos konkrečios šalies konfigūracijos naujinimas
     * „Litware, Inc.“ turi atnaujinti BACS (JK fiktyvus) konfigūraciją ir įgyvendinti naujus šalies reikalavimus dėl elektroninio dokumento formato valdymo. Vėliau tai bus įtraukta į naują šios konfigūracijos versiją, kuri bus teikiama aptarnavimo abonentams, įskaitant „Proseware, Inc.‟  
@@ -198,6 +198,5 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūrų „Konf
     * Atkreipkite dėmesį, kad sukurtoji konfigūracija įrašoma kaip baigta 1.2.2 versija: 2-oji pagrindinio BACS (JK fiktyvus pasirinktinis) formato versija, paremta 2-ąja pagrindinio BACS (JK fiktyvus) formato versija, kuri paremta 1-ąja mokėjimų (suprastintasis modelis) duomenų modelio versija.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
-    * Lygiagrečiame „Dynamics 365 for Finance and Operations“, „Enterprise“ leidimo seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti‟ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
-
+    * Lygiagrečiame „Dynamics 365 for Finance and Operations, Enterprise Edition“ seanse atlikite procedūros „Naudokite sukurtą formatą elektroniniams mokėjimų dokumentams generuoti“ veiksmus. Elektroninio mokėjimo būdo parametruose pasirinkite sukurtąjį formatą „BACS (JK fiktyvus pasirinktinis)‟. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai „Proseware, Inc.“ įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN sąskaitos kodą. Faile taip pat turėtų būti neseniai įmonės „Litware, Inc.‟ įdiegtas XML mazgas, pagal šalies reikalavimus pateikiantis SWIFT banko kodą.  
 

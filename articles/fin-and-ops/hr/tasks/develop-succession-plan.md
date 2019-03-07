@@ -1,13 +1,13 @@
---- 
-title: "Kurti tęstinumo planą"
-description: "Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norėsite rasti žmogų, kurio įgūdžiai panašūs kaip ir kito asmens."
+---
+title: Kurti tęstinumo planą
+description: Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norėsite rasti žmogų, kurio įgūdžiai panašūs kaip ir kito asmens.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339193"
 ---
 # <a name="develop-succession-plan"></a>Kurti tęstinumo planą
 
@@ -59,5 +59,4 @@ Kai, augant organizacijai, galvosite apie tęstinumo planą, greičiausiai norė
 27. Spustelėkite Rezultatas.
 28. Spustelėkite Ataskaita.
     * Ataskaitoje geriausi atitikmenys bus pateikiami jos viršuje.  Galite matyti, kad yra pateiktas tarpo elementas.  Tai yra skirtumas tarp lygio, kuris buvo pateiktas įgūdžių išdėstyme, ir įgūdžių, priskirtų asmeniui, lygio.  
-
 

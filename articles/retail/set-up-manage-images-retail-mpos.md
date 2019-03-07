@@ -1,13 +1,13 @@
 ---
-title: "„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas"
-description: "Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai."
+title: „Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas
+description: Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS“ MPOS), nustatymo ir valdymo veiksmai.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356742"
 ---
-
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS‟ (MPOS), nustatymo ir valdymo veiksmai.
+Šiame straipsnyje paaiškinami įvairių objektų vaizdų, rodomų srityje „Retail Modern POS“ MPOS), nustatymo ir valdymo veiksmai.
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Medijos pagrindinio URL nustatymas ir medijos šablonų apibrėžimas siekiant konfigūruoti URL vaizdų formatą
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 01/04/2019
 Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šios procedūros padės užtikrinti, kad visų katalogo vaizdų, turinčių bendrą kelią, vaizdo paskirties kelias būtų nustatytas netiesiogiai. Pvz., jei išoriškai nustatėte medijos serverį arba CDN ir norite, kad pasirinktos parduotuvės vaizdai būtų rodomi MPOS, funkcija **Nustatyti medijos šabloną** padės nustatyti kelią, kuriuo MPOS gali ieškoti vaizdų ir juos nuskaityti.
 
 > [!NOTE]
-> Šiame demonstracinių duomenų pavyzdyje medijos serveris yra įdiegtas „Retail Server“. Tačiau jis gali būti bet kur kitur, ne „Dynamics 365 for Retail“.
+> Šiame demonstracinių duomenų pavyzdyje medijos serveris yra įdiegtas „Retail Server“. Tačiau jis gali būti bet kur ne „Dynamics 365 for Retail“.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Kanalo medijos pagrindinio URL nustatymas
 
@@ -119,7 +118,7 @@ Kaip sužinojote ankstesniame skyriuje, nurodyto objekto medijos šablonas palai
     [![2 „Excel“](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > „Excel“ sugeneruoti URL naudoja nustatyto medijos šablono kelią ir nuostatas. Šios nuostatos apima failų vardų kūrimo nuostatas. Tikimasi, kad faktinius vaizdus nustatysite ne sprendime „Dynamics 365 for Retail“, o vaizdus bus galima nuskaityti iš URL, kurie yra išvesti iš anksčiau nurodyto medijos šablono. Šiuos išvestus URL galite perrašyti, naudodami funkciją Redaguoti programoje „Excel“.
+    > „Excel“ sugeneruoti URL naudoja nustatyto medijos šablono kelią ir nuostatas. Šios nuostatos apima failų vardų kūrimo nuostatas. Tikimasi, kad faktinius vaizdus nustatysite ne „Dynamics 365 for Retail“, o vaizdus bus galima nuskaityti iš URL, kurie yra išvesti iš anksčiau nurodyto medijos šablono. Šiuos išvestus URL galite perrašyti, naudodami funkciją Redaguoti programoje „Excel“.
 
 5. Spustelėkite **Redaguoti programoje „Excel“**.
 6. Atidarę „Microsoft Excel“ darbalapį, spustelėkite **Įjungti redagavimą**, kai būsite paprašyti.
@@ -214,4 +213,3 @@ Katalogo, kategorijos, darbuotojo ir kliento vaizdus, kuriuos reikia naudoti atj
 5. Tokiu pat būdu nustatykite kitų objektų, pvz., Kategorija, Darbuotojas arba Klientas, vaizdus.
 
     [![2 neprisijungus](./media/offline2.png)](./media/offline2.png)
-

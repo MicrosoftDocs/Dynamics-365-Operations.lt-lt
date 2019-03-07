@@ -1,13 +1,13 @@
 ---
-title: "Mokėjimo nuolaidos"
-description: "Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu."
+title: Mokėjimo nuolaidos
+description: Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320034"
 ---
-
 # <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ Jūsų juridinio subjekto apskaitos valiuta yra EUR, o toliau pateikti valiutų 
 1000 USD SF su 20D2% mokėjimo nuolaidos sąlygomis užregistruojama vasario 15 d. SF apskaitos valiutos suma yra 1100 EUR. 980 USD mokėjimas su SF sudengiamas kovo 1 d. Mokėjimo nuolaidos suma yra 20 USD. Mokėjimo apskaitos valiutos suma yra 784 EUR. Mokėjimo nuolaidos apskaitos valiutos suma apskaičiuojama naudojant kovo 1 d. valiutos kursą: 20 \* 80 / 100 = 16 EUR.
 
 > [!NOTE]
-> Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas. 
-
+> Jei Gautinų sumų parametrų ar Mokėtinų sumų parametrų puslapiuose pasirinkta parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas, naudojamas kiekvieno dalinio mokėjimo dieną galiojantis valiutos kursas. 
 

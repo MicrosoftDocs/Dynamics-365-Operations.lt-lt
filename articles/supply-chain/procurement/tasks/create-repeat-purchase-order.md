@@ -1,13 +1,13 @@
---- 
-title: "Kurti pasikartojantį pirkimo užsakymą"
-description: "Šioje procedūroje parodoma, kaip kurti pasikartojantį pirkimo užsakymą (PU) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba į esamą PO."
+---
+title: Kurti pasikartojantį pirkimo užsakymą
+description: Šioje procedūroje parodoma, kaip kurti pasikartojantį pirkimo užsakymą (PU) kopijuojant eilutes iš ankstesnio pirkimo užsakymo dokumento į naują PU arba į esamą PO.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345886"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Kurti pasikartojantį pirkimo užsakymą
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
     * Atkreipkite dėmesį, kad taip pat pažymima viena užsakymo eilutę, esanti šiame PU.  
 7. Spustelėkite GERAI.
     * Papildoma užsakymo eilutė buvo įtraukta į pirkimo užsakymą.  
-
 

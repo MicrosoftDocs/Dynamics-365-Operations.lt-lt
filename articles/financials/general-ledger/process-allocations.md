@@ -1,13 +1,13 @@
 ---
 title: Apdoroti paskirstymus
-description: "Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo pasirinktis „Microsoft Dynamics 365 for Finance and Operations“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui."
+description: Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo pasirinktis „Microsoft Dynamics 365 for Finance and Operations“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ac531726e04ebec4da9062f47726568723364cce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 26e7f607e070ac6c09a92d7809d65bac34d51f0b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322219"
 ---
-
 # <a name="process-allocations"></a>Apdoroti paskirstymus
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiama informacija apie paskirstymus, jų apdorojimo pasirinktis „Microsoft Dynamics 365 for Finance and Operations“ ir kaip jie gali būti naudojami planuojant biudžetą. Paskirstymai naudojami sumoms paskirstyti tarp kelių DK sąskaitų derinių. Jie padeda užtikrinti, kad išlaidos ar įplaukos paskiriamos tinkamą apskaitos objektui.
 
-„Microsoft Dynamics 365 for Finance and Operations“ pateikiamos tokios galimybės palaikyti šį procesą:
+„Microsoft Dynamics 365 for Finance and Operations“ pateikia tokias galimybes palaikyti šį procesą.
 
 -   Rankiniu būdu paskirstykite operacijų sumas apskaitos paskirstymuose naudodami skaidymo veiksmą arba dokumentui pritaikydami finansinės dimensijos numatytuosius šablonus. Daugiau informacijos rasite [Apskaitos paskirstymai.](../accounts-payable/accounting-distributions.md)
 -   Automatiškai paskirstykite operacijų sumas pagal paskirstymo sąlygas, nurodytas atskiroje pagrindinėje sąskaitoje. Paskirstymo sąskaitos įrašai kiekvienam žurnalui bus generuojami pagal procentinę dalį ir paskirties DK sąskaitą, kai apskaitos įrašas atitiks kriterijus, apibrėžtus kaip pirminė DK sąskaita.
@@ -44,7 +43,6 @@ DK paskirstymo taisykles galima naudoti biudžeto planams. Kai DK paskirstymo ta
 
 > [!NOTE]
 > Biudžetui planuoti negalima naudoti vidinės įmonės DK paskirstymo taisyklių.
-
 
 
 

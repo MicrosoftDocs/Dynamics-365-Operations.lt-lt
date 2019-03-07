@@ -1,30 +1,29 @@
 ---
-title: "Tiekėjo mokėjimų darbo sritis"
-description: "Šioje temoje pateikiama informacijos apie tiekėjų mokėjimo darbo sritį. Tiekėjų mokėjimo darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu."
+title: Tiekėjo mokėjimų darbo sritis
+description: Šioje temoje pateikiama informacijos apie tiekėjų mokėjimo darbo sritį. Tiekėjų mokėjimo darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346116"
 ---
-
 # <a name="vendor-payments-workspace"></a>Tiekėjo mokėjimų darbo sritis
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ Toliau pateikiamoje lentelėje nurodyti kiekviename ataskaitos puslapyje pateiki
 |         Mokėjimo darbo eiga          |                                                                                <ul><li>Tiekėjo mokėjimo darbo eigos egzemplioriai</li><li>Tiekėjo mokėjimo darbo eigos egzemplioriai pagal tvirtintoją</li><li>Tiekėjo mokėjimo darbo eigos egzemplioriai pagal įmonę</li><li>Vidutinis darbo eigos dienų skaičius pagal tvirtintoją</li></ul>                                                                                |
 |    Tiekėjo ir kliento balansas     |                                                                                                                   <ul><li>Tiekėjo ir kliento balansas</li><li>Tiekėjo ir kliento balansas pagal įmonę</li><li>Tiekėjo ir kliento balanso informacija</li></ul>                                                                                                                    |
 |    SF su sulaikytu mokėjimu     |                                                                                         <ul><li>SF su sulaikytu mokėjimu</li><li>SF su sulaikytu mokėjimu informacija</li><li>SF su sulaikytu mokėjimu pagal įmonę</li><li>SF su sulaikytu mokėjimu pagal tiekėjų grupę</li></ul>                                                                                          |
-
 

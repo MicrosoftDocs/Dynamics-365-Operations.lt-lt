@@ -1,13 +1,13 @@
---- 
-title: "Skaičiuoti „kanban“ kiekio pasiūlymus"
-description: "Šios procedūros tikslas yra optimizuoti „kanban“ dydį ir kiekį pagal konkrečią „kanban“ taisyklę, naudojant „kanban“ kiekio skaičiavimą."
+---
+title: Skaičiuoti „kanban“ kiekio pasiūlymus
+description: Šios procedūros tikslas yra optimizuoti „kanban“ dydį ir kiekį pagal konkrečią „kanban“ taisyklę, naudojant „kanban“ kiekio skaičiavimą.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348991"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Skaičiuoti „kanban“ kiekio pasiūlymus
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
     * Atkreipkite dėmesį, kad tai yra numatytasis kiekis, kurį įvedėte į „kanban“ kiekio skaičiavimą.  
     * Atkreipkite dėmesį, kad tai yra fiksuotas 4 „kanban“ kiekis iš „kanban“ kiekio skaičiavimo.  
 5. Spustelėkite skirtuką „ListPanel“.
-
 

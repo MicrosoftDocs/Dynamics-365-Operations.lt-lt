@@ -1,37 +1,36 @@
 ---
-title: "Atributai ir atributų grupės"
-description: "Šioje temoje aprašyta, kaip naudoti atributus norint pateikti būdą, kaip apibūdinti produktą ir jo charakteristikas, naudojant vartotojo nustatytus laukus."
+title: Atributai ir atributų grupės
+description: Šioje temoje aprašyta, kaip naudoti atributus norint pateikti būdą, kaip apibūdinti produktą ir jo charakteristikas, naudojant vartotojo nustatytus laukus.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326244"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Atributai ir atributų grupės
 
 [!include [banner](includes/banner.md)]
 
-*Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). Sprendime „Microsoft Dynamics 365 for Finance and Operations“ atributus galima susieti su įvairiais „Retail“ objektais, pvz., produktų kategorijomis ir mažmeninės prekybos kanalais, bei galima nustatyti numatytąsias jų reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
+*Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). „Microsoft Dynamics 365 for Finance and Operations“ atributus galima susieti su įvairiais mažmeninės prekybos objektais, pavyzdžiui, produkto kategorijomis ir mažmeninės prekybos kanalais, ir galima nustatyti jį numatytąsias reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
 
 Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 
@@ -257,4 +256,3 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
 
     > [!NOTE]
     > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
-

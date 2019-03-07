@@ -1,13 +1,13 @@
 ---
-title: "Transportavimo mokesčių derinimo valdymas"
-description: "Šiame straipsnyje aprašomas transportavimo mokesčių derinimo procesas."
+title: Transportavimo mokesčių derinimo valdymas
+description: Šiame straipsnyje aprašomas transportavimo mokesčių derinimo procesas.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344782"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Transportavimo mokesčių derinimo valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Jei norite transportavimo mokesčius derinti neautomatiniu būdu, kiekvieną kro
 [![Transportavimo mokesčių derinimo užduotys programoje „Dynamics AX“](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Automatinis derinimas
 Norėdami derinti automatiškai, turite nurodyti derinimo grafiką ir SF bei siuntimo vežėjus, kuriuos reikia naudoti. SF eilutės ir transportavimo sąskaitos yra derinamos pagal pagrindinio audito sąranką ir transportavimo sąskaitos tipą. Įvykdę automatinį suderinimą, turite sutvarkyti visas SF, kurių sistemai nepavyko suderinti. Tada turite šias SF apdoroti neautomatiniu būdu, kad galėtumėte užregistruoti visas mokėjimo SF.
-
 
 
 

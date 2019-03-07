@@ -1,13 +1,13 @@
 ---
 title: Svertinio vidurkio data
-description: "Svertinio vidurkio data yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę."
+description: Svertinio vidurkio data yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai atsargų išdavimai vertinami naudojant vidutinę prekių, gautų į atsargas kiekvieną atskirą atsargų uždarymo laikotarpio dieną, vertę.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355408"
 ---
-
 # <a name="weighted-average-date"></a>Svertinio vidurkio data
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Atsargų operacijos, paliekančios atsargas, įskaitant pardavimo užsakymus, at
 
 Sudengimai yra atsargų uždarymo registravimas, per kurį išdavimai nustatomi pagal pataisytą svertinį vidurkį uždarymo datą. 
 
-**Pastaba.** Jei reikia daugiau informacijos apie sudengimus, žr. straipsnį apie atsargų uždarymą. Pateiktame pavyzdyje parodytas svertinio vidurkio naudojimo su penkiomis konfigūracijomis poveikis:
+**Pastaba.** Jei reikia daugiau informacijos apie sudengimus, žr. straipsnį apie atsargų uždarymą. Pateiktame pavyzdyje parodytas svertinio vidurkio naudojimo su penkiomis konfigūracijomis poveikis:
 
 -   Svetinio vidurkio dienos tiesioginis sudengimas be pasirinkties **Įtraukti faktinę vertę**
 -   Svetinio vidurkio dienos apibendrintas sudengimas be pasirinkties **Įtraukti faktinę vertę**
@@ -195,7 +194,6 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 -   Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
 -   Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 -   Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis su brūkšneliais, einančiomis įstrižai nuo gavimo prie išdavimo.
-
 
 
 

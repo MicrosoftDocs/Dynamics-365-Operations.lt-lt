@@ -1,13 +1,13 @@
---- 
-title: "ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali naudodamas naują elektroninių ataskaitų (ER) formato konfigūraciją generuoti elektroninius mokėjimų apdorojimo dokumentus."
+---
+title: 'ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją'
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali naudodamas naują elektroninių ataskaitų (ER) formato konfigūraciją generuoti elektroninius mokėjimų apdorojimo dokumentus.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348324"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER: mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją
 
@@ -81,5 +81,4 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „Mok�
 24. Spustelėkite GERAI.
 25. Spustelėkite GERAI.
     * Sukurtą mokėjimo failą analizuokite XML formatu. Jį palyginkite su sukurtu dokumento maketu ir apibrėžtais mokėjimo operacijų atributais.  
-
 

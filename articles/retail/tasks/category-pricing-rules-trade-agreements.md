@@ -1,13 +1,13 @@
---- 
+---
 title: " Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti"
-description: "Ši procedūra nurodo, kaip kurti pardavimo kainos prekybos sutartis naudojant kategorijos kainų taisyklę."
+description: Ši procedūra nurodo, kaip kurti pardavimo kainos prekybos sutartis naudojant kategorijos kainų taisyklę.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8d252982cf1e4fa2f06646d0909e6f82d16f4cfc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355523"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijos kainų taisyklės, skirtos prekybos sutartims kurti
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 02/07/2018
 23. Uždarykite puslapį.
 24. Spustelėkite skirtuką Kategorijos kainų taisyklės.
     * Šiame sąraše bus rodomos konkretaus kanalo kategorijos kainų taisyklės.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Darbo krūvio pajėgumo planavimas"
-description: "Šioje temoje paaiškinama, kaip nustatyti ir planuoti sandėlio darbuotojų arba visą sandėlio darbo krūvio pajėgumą."
+title: Darbo krūvio pajėgumo planavimas
+description: Šioje temoje paaiškinama, kaip nustatyti ir planuoti sandėlio darbuotojų arba visą sandėlio darbo krūvio pajėgumą.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317297"
 ---
-
 # <a name="schedule-workload-capacity"></a>Darbo krūvio pajėgumo planavimas
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ Jei nurodyta klaidinga informacija, kurdami ataskaitą **Darbo krūvio pajėguma
 3. Lauke **Užsakymo tipas** pasirinkę **Suplanuotas ir patvirtintas**, **Suplanuotas** arba **Patvirtintas** nurodykite užsakymų tipą, kurio prognozės pateikiamos ataskaitoje.
 4. Lauke **Load type** pasirinkę apkrovos tipą nurodykite, ar turėtų būti prognozuojami tūrio ar svorio darbo krūvio pajėgumai.
 5. Lauke **Darbo krūvio pajėgumas** pasirinkite darbo krūvio pajėgumų nustatymą.
-

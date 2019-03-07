@@ -1,13 +1,13 @@
 ---
-title: "Biudžetų sudarymo modulio apžvalga"
-description: "Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos."
+title: Biudžetų sudarymo modulio apžvalga
+description: Beveik visos įmonės, kurios naudoja „Microsoft Dynamics 365 for Finance and Operations“ finansų funkciją, turės galėti kurti biudžeto ir faktinės sumų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332316"
 ---
-
 # <a name="budgeting-overview"></a>Biudžetų sudarymo modulio apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Biudžeto vadybininkas gali peržiūrėti dabartinę biudžeto būseną darbo sr
 Užklausų puslapis **Faktinė ir biudžeto sumos** suteikia galimybę detalizuoti biudžeto ir faktinės sumų informaciją. Užklausų puslapyje pasirinkite eilutę ir tada spustelėkite **Laikotarpio balansai**, norėdami peržiūrėti biudžeto ir faktinę sumas, paskirstytas ataskaitiniuose laikotarpiuose. Puslapyje **Biudžeto sąskaitos įrašai** pateikta detalizuota biudžeto registro įrašų biudžeto sumos informacija. Puslapyje **Bendrojo žurnalo įrašai** atidaromos DK operacijos, kurios yra įtrauktos į apskaičiuotą **faktinę** sumą. 
 
 Įmonė, kuri naudojama funkciją Biudžeto planavimas, gali kurti ir naudoti *biudžeto prognozes* darbo srityje **DK biudžetai ir prognozės**.
-
 
 
 

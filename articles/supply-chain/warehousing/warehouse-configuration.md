@@ -1,13 +1,13 @@
 ---
-title: "Sandėlio konfigūracija"
-description: "Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus."
+title: Sandėlio konfigūracija
+description: Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318447"
 ---
-
 # <a name="warehouse-configuration"></a>Sandėlio konfigūracija
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 **Pastaba.** Šis straipsnis taikomas funkcijoms **Sandėlio valdymo** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
 
 ## <a name="warehouse-layout"></a>Sandėlio išdėstymas
-Sandėlio valdymo sistema programoje „Microsoft Dynamics 365 for Finance and Operations‟ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
+Sandėlio valdymo sistema programoje „Microsoft Dynamics 365 for Finance and Operations“ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
@@ -116,7 +115,6 @@ Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vie
 --------
 
 [Sandėlio, kuriame veikia WMS, vietų konfigūravimas (užduočių vedlys)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas"
-description: "Šioje temoje pateikiama informacija apie mišriojo režimo planavimą."
+title: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas'
+description: Šioje temoje pateikiama informacija apie mišriojo režimo planavimą.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358237"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ Jei užduotis nepriklausoma nuo tiekimo strategijos, o tiekimo procesas bus pake
 
 ## <a name="process-manufacturing--the-production-type"></a>Apdirbamoji gamyba – gamybos tipas
 Kad būtų lanksčiai išnaudojamos visos įvairių režimų planavimo galimybės, su visais produktais rekomenduojama naudoti gamybos tipą KS. Tada galima naudoti gamybos užsakymus, „kanban“, perkėlimo užsakymus arba pirkimo užsakymus produktui tiekti. Vykdydami apdirbamosios gamybos procesą turite naudoti gamybos tipą **Formulė**, **Sudėtinis produktas**, **Šalutinis produktas** arba **Planavimo prekė**. Su šiais gamybos tipais negalima naudoti „kanban“ ir gamybos užsakymų.
-
 
 
 

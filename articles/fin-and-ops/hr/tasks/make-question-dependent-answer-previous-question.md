@@ -1,13 +1,13 @@
---- 
-title: "Sukurti klausimą pagal atsakymą į ankstesnį klausimą"
-description: "Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami respondentui, atsižvelgiant į atsakymą į ankstesnį klausimą."
+---
+title: Sukurti klausimą pagal atsakymą į ankstesnį klausimą
+description: Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami respondentui, atsižvelgiant į atsakymą į ankstesnį klausimą.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: deb79398f5a0ebdbdb774c106c90ca50a69c275e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341286"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Sukurti klausimą pagal atsakymą į ankstesnį klausimą
 
@@ -55,5 +55,4 @@ Sąlyginiai klausimai leidžia nurodyti, kokie kiti klausimai bus pateikiami res
 9. Spustelėkite Įrašyti.
 10. Medyje pasirinkite „Klausimai \ Ar man sąžiningai atlyginama už mano atliekamą darbą?“.
     * Atkreipkite dėmesį, kad atsinaujino klausimų medis parodydamas priklausomybę.  
-
 

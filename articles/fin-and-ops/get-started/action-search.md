@@ -1,13 +1,13 @@
 ---
-title: "Veiksmo ieška"
-description: "Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Finance and Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus."
+title: Veiksmo ieška
+description: Šiame straipsnyje aprašyta veiksmo ieškos funkcija programoje „Microsoft Dynamics 365 for Finance and Operations“. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317504"
 ---
-
 # <a name="action-search"></a>Veiksmo ieška
 
 [!include [banner](../includes/banner.md)]

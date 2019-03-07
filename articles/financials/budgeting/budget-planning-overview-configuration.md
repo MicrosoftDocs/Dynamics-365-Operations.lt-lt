@@ -1,13 +1,13 @@
 ---
-title: "Biudžeto planavimo peržiūra"
-description: "Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus."
+title: Biudžeto planavimo peržiūra
+description: Šiame straipsnyje pristatytas biudžeto planavimas ir pateikta informacija, kuri padės konfigūruoti biudžeto planavimą ir nustatyti biudžeto planavimo procesus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329924"
 ---
-
 # <a name="budget-planning-overview"></a>Biudžeto planavimo peržiūra
 
 [!include [banner](../includes/banner.md)]
@@ -188,7 +187,6 @@ Meniu **Veiksmai** taip pat galite nukopijuoti esamą procesą ir sukurti naują
 Kita naudinga meniu **Veiksmai** komanda yra **Peržiūrėti biudžeto proceso būseną**. Ši komanda grafiškai pavaizduoja biudžeto planus vykstant procesui kartu su atitinkamais duomenimis, pvz., planų darbo eigos būsena, suvestinės pagal sumą ir vienetą ir nukėlimas į pačius biudžeto planus vienu paspaudimu.
 
 [![Biudžeto planavimo proceso būsena](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

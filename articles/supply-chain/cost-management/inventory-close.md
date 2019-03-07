@@ -1,13 +1,13 @@
 ---
-title: "Atsargų uždarymas"
-description: "Kaip išdavimo operacijų su gavimo operacijomis proceso dalį, taip pat galite atnaujinti didžiąją knygą, kad joje atsispindėtų atlikti pakeitimai."
+title: Atsargų uždarymas
+description: Kaip išdavimo operacijų su gavimo operacijomis proceso dalį, taip pat galite atnaujinti didžiąją knygą, kad joje atsispindėtų atlikti pakeitimai.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326497"
 ---
-
 # <a name="inventory-close"></a>Atsargų uždarymas
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Tam tikromis aplinkybėmis gavus perspėjimų neįmanoma nieko padaryti. Pavyzd�
 Kartais jums gali reikėti atšaukti atliktą atsargų uždarymą, taip grąžinant sudengimus į anksčiau, prieš koregavimą, buvusią būseną. Kai atšaukiate atliktą atsargų uždarymą, atsargos vėl atidaromos, kad būtų galima skelbti laikotarpiu, kurį apima atsargų uždarymas. Susiję keitimai taip pat gali būti atliekami didžiojoje knygoje. Baigę koreguoti galite vėl paleisti atsargų uždarymą laikotarpiu, su kuriuo dirbate. 
 
 **Pastaba.** Vėl atidaryti galima tik paskutinį uždarytą atsargų laikotarpį. Norėdami atšaukti ankstesnį atsargų uždarymą, po vieną, pradėdami nuo naujausio, turite atšaukti kiekvieną tolesnį atsargų uždarymą.
-
 
 
 

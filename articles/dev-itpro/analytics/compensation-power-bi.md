@@ -1,13 +1,13 @@
 ---
-title: "„Power BI“ turinys Kompensacija"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Kompensacija. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+title: „Power BI“ turinys Kompensacija
+description: Šioje temoje aprašomas „Power BI“ turinys Kompensacija. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347289"
 ---
-
 # <a name="compensation-power-bi-content"></a>„Power BI“ turinys Kompensacija
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Kompensacija**. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje aprašomas „Microsoft Power BI“ turinys **Kompensacija**. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinys **Kompensacija** rodomas darbo srityje **Kompensacijos valdymas**, jei naudojate vieną iš toliau nurodytų produktų.
 
-- Microsoft Dynamics 365 for Finance and Operations
-- Microsoft Dynamics 365 for Talent
+- „Microsoft Dynamics 365 for Finance and Operations“
+- „Microsoft Dynamics 365 for Talent“
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 Į „Power BI“ turinį **Kompensacija** įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.
@@ -49,7 +48,7 @@ ms.lasthandoff: 03/26/2018
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Tolesniais duomenimis pildomos „Power BI‟ turinio **Kompensacija** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
+Tolesniais duomenimis pildomos „Power BI“ turinio **Kompensacija** ataskaitos. Šioje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 
 | Objektas                   | Turinys                                                                                                   | Ryšiai su kitais objektais |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -73,4 +72,3 @@ Tolesniais duomenimis pildomos „Power BI‟ turinio **Kompensacija** ataskaito
 | Darbuotojo vardas ir pavardė            | Vardas, pavardė ir vardas bei pavardė                                                                       | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                                                   | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, išmokos |
-

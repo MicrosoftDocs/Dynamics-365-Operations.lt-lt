@@ -1,13 +1,13 @@
 ---
-title: "SEPA tiesioginio debeto apžvalga"
-description: "Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir nurodo, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaliniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares bei Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių."
+title: SEPA tiesioginio debeto apžvalga
+description: Bendrą mokėjimų eurais erdvę (SEPA) nustato Europos Komisija ir nurodo, kad visi elektroniniai mokėjimai laikomi vietiniais, nepaisant asmens, verslo arba organizacijos buvimo vietos šalies / regiono. Nacionaliniai ir tarptautiniai mokėjimai niekuo nesiskiria. SEPA apima 28 Europos Sąjungos (ES) valstybes nares bei Islandiją, Lichtenšteiną, Norvegiją, Šveicariją, Monaką ir San Mariną. SEPA padeda skurti bendrą mokėjimo operacijų rinką Europos ekonominėje erdvėje (EEE). Galiausiai, naudojant SEPA tikimasi sumažinti mokėjimo formatų, su kuriais dirba bankai, verslo įmonės ir asmenys, skaičių.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359203"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>SEPA tiesioginio debeto apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ SEPA tiesioginio debeto elektroninio mokėjimo failus galite generuoti toliau nu
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Kaip naudojant SEPA tiesioginį debetą veikia grąžinimas?
 Abiejuose SEPA tiesioginio debeto planuose klientai turi tam tikras teises į grąžinimą. Klientui leidžiama atšaukti bet kokias autorizuotas operacijas per aštuonias savaites nuo termino datos nenurodžius jokios priežasties. Neautorizuotų operacijų atveju laikotarpis pratęsiamas iki 13 mėnesių nuo termino datos. Bet kokie atlikti mokėjimai atšaukiami neautomatiškai: naudojant Klientų operacijų puslapio mygtuką Atšaukti mokėjimą.
-
 
 
 

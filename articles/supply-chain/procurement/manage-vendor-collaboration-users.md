@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo bendradarbiavimo vartotojų valdymas"
-description: "Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų."
+title: Tiekėjo bendradarbiavimo vartotojų valdymas
+description: Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356696"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Tiekėjo bendradarbiavimo vartotojų valdymas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip teikti užklausas dėl naujų tiekėjo bendradarbiavimo vartotojų konfigūravimo ir kaip įtraukti naujų tiekėjo bendradarbiavimo kontaktų. 
 
-„Microsoft Dynamics 365 for Finance and Operations“ tiekėjo bendradarbiavimo sąsajoje išoriniams tiekėjams pateikiama informacija apie pirkimo užsakymus, sąskaitas faktūras ir konsignacijos atsargas. Galite kurti naujus tiekėjo bendradarbiavimo kontaktus ir reikalauti, kad nauji vartotojai būtų konfigūruojami, jei dirbate kaip išorinis tiekėjas, naudojantis saugos vaidmenį **Tiekėjo administratorius (išorinis)** ar turintis panašių teisių. Taip pat galite šias užduotis atlikti, jei dirbate kaip įsigijimo specialistas. Šioje temoje šis vaidmuo nurodo įsigijimo specialistą, dirbantį įmonėje, kuriai priklauso „Finance and Operations“ egzempliorius. Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate išorinis tiekėjas, žr. puslapyje [Tiekėjas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+„Microsoft Dynamics 365 for Finance and Operations“ tiekėjo bendradarbiavimo sąsajoje išoriniams tiekėjams pateikiama informacija apie pirkimo užsakymus, SF ir konsignacijos atsargas. Galite kurti naujus tiekėjo bendradarbiavimo kontaktus ir reikalauti, kad nauji vartotojai būtų konfigūruojami, jei dirbate kaip išorinis tiekėjas, naudojantis saugos vaidmenį **Tiekėjo administratorius (išorinis)** ar turintis panašių teisių. Taip pat galite šias užduotis atlikti, jei dirbate kaip įsigijimo specialistas. Šioje temoje šis vaidmuo nurodo įsigijimo specialistą, dirbantį įmonėje, kuriai priklauso „Finance and Operations“ egzempliorius. Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate išorinis tiekėjas, žr. puslapyje [Tiekėjas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Daugiau informacijos apie tai, kaip naudoti tiekėjo bendradarbiavimą, jei esate įsigijimo specialistas, žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
@@ -61,7 +60,7 @@ Pateikus užklausą, ji įtraukiamą į modulio **Tiekėjo bendradarbiavimas** s
 Prieš teikiant užklausą vartotojui konfigūruoti, tas asmuo turi būti nustatytas kaip vieno ar daugiau tiekėjų kodų kontaktas. Norėdami kurti naujo tiekėjo bendradarbiavimo vartotojo užklausą, atlikite tolesnius veiksmus.
 
 1. Puslapyje **Visi kontaktai** spustelėkite **Pateikti su tiekėju susijusį vartotoją**.
-2. Įveskite vartotojo el. pašto adresą. Vartotojas šį adresą naudos norėdamas prisijungti prie „Finance and Operations“. Jei el. pašto adreso domenas užregistruotas kaip „Microsoft Azure“ nuomininkas, tada el. pašto adresas turi būti esama „Azure Active Directory“ (AAD) paskyra, kad konfigūravimo procesą būtų galima sėkmingai baigti. Jei el. pašto adreso domenas nėra užregistruotas kaip „Microsoft Azure“ nuomininkas, paskyra bus sukurta konfigūravimo proceso metu ir naujas vartotojas gaus laišką su kvietimu. Vartotojų el. pašto adresai su domenais, pvz., @hotmail.com, @gmail.com arba @comcast.net, negali būti naudojami norint registruoti „Finance and Operations“ vartotoją.
+2. Įveskite vartotojo el. pašto adresą. Vartotojas šį adresą naudos norėdamas prisijungti prie „Finance and Operations“. Jei el. pašto adreso domenas užregistruotas kaip „Microsoft Azure“ nuomininkas, tada el. pašto adresas turi būti esama „Azure Active Directory“ (AAD) paskyra, kad konfigūravimo procesą būtų galima sėkmingai baigti. Jei el. pašto adreso domenas nėra užregistruotas kaip „Microsoft Azure“ nuomininkas, paskyra bus sukurta konfigūravimo proceso metu ir naujas vartotojas gaus laišką su kvietimu. Vartotojų el. pašto adresai su domenais, pvz., @hotmail.com, @gmail.com arba @comcast.net. negali būti naudojami norint registruoti „Finance and Operations“ vartotoją.
 3. Parinktį **Tiekėjo bendradarbiavimo prieiga leidžiama** nustatykite į **Taip** visiems juridiniams subjektams, prieigą prie kurių vartotojui reikia priskirti.
 4. Skyriuje **Priskirti vartotojų vaidmenis** pažymėkite tų saugos vaidmenų, kuriuos reikia priskirti naujam vartotojui, žymės langelį **Priskirti**.
 5. Spustelėkite **Pateikti**.
@@ -91,7 +90,6 @@ Norėdami pateikti užklausą vartotojo saugos vaidmenims modifikuoti, atlikite 
 2.  Lauke **Verslo pagrindimas** įveskite komentarą.
 3.  Skyriuje **Tvarkyti vartotojo vaidmenis** pasirinkite saugos vaidmenis, kuriuos norite priskirti, arba panaikinkite šalintinų vaidmenų žymėjimą.
 4.  Spustelėkite **Pateikti**.
-
 
 
 

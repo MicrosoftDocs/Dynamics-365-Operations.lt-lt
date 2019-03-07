@@ -1,13 +1,13 @@
---- 
-title: "Garantinio rašto operacija"
-description: "Ši procedūra padeda apdoroti garantinius raštus."
+---
+title: Garantinio rašto operacija
+description: Ši procedūra padeda apdoroti garantinius raštus.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c2e215f1ae16f907c8b64ea1f05cf67bfb0a04b6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333650"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Garantinio rašto operacija
 
@@ -147,5 +147,4 @@ Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:
 15. Spustelėkite Eilutės.
     * Patikrinkite užregistruotus žurnalo įrašus.  
 16. Uždarykite puslapį.
-
 

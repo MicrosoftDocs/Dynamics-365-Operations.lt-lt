@@ -1,13 +1,13 @@
 ---
-title: "Vienas kvitas su keliais kliento arba tiekėjo įrašais"
-description: "Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Finance and Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui."
+title: Vienas kvitas su keliais kliento arba tiekėjo įrašais
+description: Šioje temoje pateikiama apžvalga, kas atsitinka, kai užregistruojate vieną kvitą su keliais kliento ir tiekėjo įrašais. Kitose „Microsoft Dynamics 365 for Finance and Operations“ ši funkcija nebebus naudojama, todėl nerekomenduojame naudoti šio registravimo būdo dėl apskaitos įtakos sudengimo apdorojimui.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330361"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Vienas kvitas su keliais kliento arba tiekėjo įrašais
 
 [!include [banner](../includes/banner.md)]
@@ -249,7 +248,6 @@ Norint išvengti nepageidaujamų problemų su būsimais šios operacijos sudengi
 | **Kvitas** | **Kodo tipas** | **Sąskaita** | **Aprašymas** | **Debetas** | **Kreditas** | **Užskaitos tipas** | **Korespondentinė sąskaita** |
 | 001         | Klientas         | US-008      |                 |           |  75,00     | DK          | 999999---          |
 | 002         | Tiekėjas           | 1001        |                 |  75,00    |            | DK          | 999999---          |
-
 
 
 

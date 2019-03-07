@@ -1,13 +1,13 @@
 ---
-title: "KS ir formulės"
-description: "Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis."
+title: KS ir formulės
+description: Šioje temoje pateikiama informacija apie KS ir formules, kurios yra svarbi produktų ir produktų variantų aprašų dalis.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317113"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>KS ir formulės
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Atkreipkite dėmesį, kad fiktyvios eilutės paprastai naudojamos palengvinti in
 Pasirinkite **Tiekėjo** eilučių tipą, jei gamybos procese dalyvauja subrangovas ir norite automatiškai subrangovui sukurti tarpinę gamybą arba pirkimo užsakymą.  
 
 **Pastaba apie KS subrangos operacijas.** Paslaugą ar darbą, kurį atlieka subrangovas, reikia sukurti kaip aptarnavimo prekę, sekamą atsargose. Aptarnavimo prekę kaip KS eilutę turite pridėti prie pirminės prekės. Maršrute turi būti operacija, priskirta subrangovo operacijų ištekliui.
-
 
 
 

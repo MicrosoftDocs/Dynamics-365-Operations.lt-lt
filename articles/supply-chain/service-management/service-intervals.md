@@ -1,31 +1,30 @@
 ---
 title: Aptarnavimo intervalai
-description: "Aptarnavimo intervalas nurodo dažnumą, kokiu kuriamos aptarnavimo sutarčių eilučių aptarnavimo užsakymo eilutės, kai kuriate aptarnavimo užsakymus."
+description: Aptarnavimo intervalas nurodo dažnumą, kokiu kuriamos aptarnavimo sutarčių eilučių aptarnavimo užsakymo eilutės, kai kuriate aptarnavimo užsakymus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10078cbd02209126e9655b823fcf844b692a4794
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 4a51a3c3483e81cefdaf3d8e62a4f1f47fcd706b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352947"
 ---
-
 # <a name="service-intervals"></a>Aptarnavimo intervalai
 
 [!include [banner](../includes/banner.md)]
@@ -94,5 +93,4 @@ Sukurtos trys aptarnavimo užsakymo eilutės patenka į laiko ribas, kurias nuro
 ## <a name="related-topics"></a>Susijusios temos
 
 [Aptarnavimo intervalų nustatymas](set-up-service-intervals.md)  
-
 

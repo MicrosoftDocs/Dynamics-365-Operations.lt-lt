@@ -1,13 +1,13 @@
---- 
-title: "ER: konfigūracijos nusiuntimas į „Lifecycle Services‟"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Lifecycle Services‟ (LCS)."
+---
+title: 'ER: konfigūracijos nusiuntimas į „Lifecycle Services‟'
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Lifecycle Services‟ (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335099"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER: konfigūracijos nusiuntimas į „Lifecycle Services‟
 
@@ -93,6 +93,5 @@ ms.lasthandoff: 10/16/2018
 10. Spustelėkite Atidaryti.
     * Pasirinkite LCS saugyklą ir ją atidarykite.  
     * Atkreipkite dėmesį, kad pasirinkta konfigūracija rodoma kaip pasirinkto LCS projekto turtas.  
-    * LCS galite atidaryti adresu https://lcs.dynamics.com. Atidarykite projektą, kuris buvo ankščiau naudotas registruojant saugyklas, atidarykite šio projekto turto biblioteką ir išskleiskite turto tipo „GER konfigūracija‟ turinį – bus galima naudoti nusiųstąją ER konfigūraciją. Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą „ Microsoft Dynamics 365 for Finance and Operations“, „Enterprise‟ leidimo egzempliorių.  
-
+    * LCS galite atidaryti adresu https://lcs.dynamics.com. Atidarykite projektą, kuris buvo ankščiau naudotas registruojant saugyklas, atidarykite šio projekto turto biblioteką ir išskleiskite turto tipo „GER konfigūracija‟ turinį – bus galima naudoti nusiųstąją ER konfigūraciją. Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą Microsoft Dynamics 365 for Finance and Operations redakciją įmonėms.  
 

@@ -1,13 +1,13 @@
 ---
-title: "Vidinės įmonės SF išrašymas"
-description: "Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations“ projektų vidinės įmonės SF išrašymą."
+title: Vidinės įmonės SF išrašymas
+description: Šiame straipsnyje pateikiama informacija ir pavyzdžiai apie „Microsoft Dynamics 365 for Finance and Operations“ projektų vidinės įmonės SF išrašymą.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 857aee796db2a4743cdbd91da3eb1cf6f996f9d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333489"
 ---
-
 # <a name="intercompany-invoicing"></a>Vidinės įmonės SF išrašymas
 
 [!include [banner](../includes/banner.md)]
@@ -112,6 +111,5 @@ Kai skolinantis juridinis subjektas, USSI, užregistruoja vidinės įmonės klie
 
 
 Daugiau informacijos žr. [Konfigūruoti vidinės įmonės projekto SF išrašymą](tasks/configure-intercompany-project-invoicing.md).
-
 
 

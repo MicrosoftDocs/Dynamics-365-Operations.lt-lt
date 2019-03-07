@@ -1,13 +1,13 @@
 ---
-title: "Elektroniniai parašai"
-description: "Šiame straipsnyje apžvelgiami elektroniniai parašai ir aprašoma, kaip juos naudoti programoje „Microsoft Dynamics 365 for Finance and Operations“."
+title: Elektroniniai parašai
+description: Šiame straipsnyje apžvelgiami elektroniniai parašai ir aprašoma, kaip juos naudoti programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325669"
 ---
-
 # <a name="electronic-signatures"></a>Elektroniniai parašai
 
 [!include [banner](../includes/banner.md)]
@@ -39,9 +38,9 @@ Elektroninis parašas patvirtina asmens, kuris ketina pradėti ar patvirtinti sk
 Elektroniniai parašai yra reglamentus atitinkantis reikalavimas kai kurioms reguliuojamoms pramonės šakoms, pvz., vaistų, maisto ir gėrimų, aviacijos ir gynybos. Jie taip pat būtini siekiant vykdyti JAV Maisto ir vaistų administracijos (FDA) 21 CFR 11 dalies nuostatas.
 
 > [!NOTE]
-> Elektroninis parašas nėra tas pat, kas skaitmeninis parašas. Elektroninis parašas yra tiesiog pasirašymo ranka pakaitas, o skaitmeninis parašas suteikia papildomų saugos priemonių. Skaitmeninis parašas gali padėti nustatyti, ar kitas vartotojas arba procesas mėgino piktavališkai pakeisti duomenis. Skaitmeninį parašą taip pat galima patikrinti, o šio tikrinimo negali paneigti sertifikato, kuris buvo naudojamas pasirašyti duomenis, savininkas. Kaip aprašyta toliau, elektroniniuose „Microsoft Dynamics 365 for Finance and Operations“ parašuose yra įdiegtos skaitmeninio parašo funkcijos.
+> Elektroninis parašas nėra tas pat, kas skaitmeninis parašas. Elektroninis parašas yra tiesiog pasirašymo ranka pakaitas, o skaitmeninis parašas suteikia papildomų saugos priemonių. Skaitmeninis parašas gali padėti nustatyti, ar kitas vartotojas arba procesas mėgino piktavališkai pakeisti duomenis. Skaitmeninį parašą taip pat galima patikrinti, o šio tikrinimo negali paneigti sertifikato, kuris buvo naudojamas pasirašyti duomenis, savininkas. Kaip aprašyta toliau, elektroniniuose Microsoft Dynamics 365 for Finance and Operations parašuose yra įdiegtos skaitmeninio parašo funkcijos.
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektroniniai parašai programoje „Dynamics 365 for Finance and Operations“
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektroniniai parašai „Dynamics 365 for Finance and Operations“
 
 Programoje „Finance and Operations“ galite naudoti elektroninius parašus svarbiems verslo procesams. Kai kuriuose procesuose yra įdiegtos elektroninio parašo galimybės. Taip pat galite sukurti pasirinktinius parašo reikalavimus bet kuriai duomenų bazės lentelei ir laukui.
 
@@ -111,4 +110,3 @@ Norėdami paskirti tvirtintojus, atlikite toliau nurodytus veiksmus.
 1. Puslapio **Parinktys** skirtuke **Sąskaitos** spustelėkite **Paskirti tvirtintoją**.
 2. Lauke **Tvirtintojo vartotojo ID** pasirinkite vartotojo, kuris turi pasirašyti kito vartotojo keitimus, ID.
 3. Lauke **Vartotojo, už kurį pasirašoma, ID** pasirinkite vartotojo, kurio keitimai turi būti pasirašyti, ID.
-

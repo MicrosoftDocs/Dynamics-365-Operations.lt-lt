@@ -1,13 +1,13 @@
---- 
-title: "Konfigūruoti finansinių duomenų bendrinimą tarp įmonių"
-description: "Šia procedūra rodoma, kaip konfigūruoti, įgalinti, patikrinti ir išspręsti konfliktus bendrinant duomenis tarp įmonių."
+---
+title: Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
+description: Šia procedūra rodoma, kaip konfigūruoti, įgalinti, patikrinti ir išspręsti konfliktus bendrinant duomenis tarp įmonių.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportRnr, DMFExecutionHistoryWorkspace, DMFExecutionHistorySummary, DMFExecutionHistoryEntities,  SysDataSharingConfiguration, SysDataSharingDiscrepencies
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 784a925fa06148cad780b494c88b9a7af1809c9d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 779722bd3acd10a85b089a4d30757b62293ea4e4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357846"
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 
 
 
-Norint atlikti šį užduoties vediklį, reikia „Dynamics AX‟ platformos 7.1 arba naujesnės versijos.
+Norint atlikti šį užduoties vediklį, reikia AX platformos 7.1 arba naujesnės versijos.
 
 1. Pasirinkite Sistemos administravimas > Darbo sritys > Duomenų valdymas.
 2. Spustelėkite Importuoti.
@@ -63,5 +63,4 @@ Norint atlikti šį užduoties vediklį, reikia „Dynamics AX‟ platformos 7.1
 26. Spustelėkite Naudoti reikšmę iš 1-osios įmonės.
 27. Atnaujinkite puslapį.
 28. Uždarykite puslapį.
-
 

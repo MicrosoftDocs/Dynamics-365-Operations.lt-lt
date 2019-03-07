@@ -1,13 +1,13 @@
---- 
-title: "Apdoroti priminimo laiškus"
-description: "Ši procedūra nurodo, kaip kurti, spausdinti ir registruoti priminimo laiškus."
+---
+title: Apdoroti priminimo laiškus
+description: Ši procedūra nurodo, kaip kurti, spausdinti ir registruoti priminimo laiškus.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/04/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358858"
 ---
 # <a name="process-collection-letters"></a>Apdoroti priminimo laiškus
 
@@ -80,4 +80,3 @@ Jei į operacijas įtraukiami mokėjimai ir kredito pažymos, kurios bus įtrauk
 Norėdami nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo laiško kodą, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Kreditas ir mokėjimų priežiūra > Sąranka > Gautinų sumų parametrai** ir spustelėkite skirtuką **Mokėjimų priežiūra**. 
 2. Pakeiskite parametro **Nepaisyti mokėjimų ir kredito pažymų apskaičiuojant priminimo laiško kodą** vertę į **Taip**.
-

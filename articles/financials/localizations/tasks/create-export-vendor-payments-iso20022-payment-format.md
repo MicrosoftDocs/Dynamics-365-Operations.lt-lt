@@ -1,13 +1,13 @@
---- 
-title: "Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą"
-description: "Šioje procedūroje parodoma, kaip kurti mokėjimo eilutes tiekėjo mokėjimų žurnale ir generuoti tiekėjo mokėjimo failą naudojant ISO2022 kredito pervedimo pavyzdį."
+---
+title: Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą
+description: Šioje procedūroje parodoma, kaip kurti mokėjimo eilutes tiekėjo mokėjimų žurnale ir generuoti tiekėjo mokėjimo failą naudojant ISO2022 kredito pervedimo pavyzdį.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340550"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Tiekėjo mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Tiekėjų mokėjimų kūrimas ir eksportavimas naudojant ISO20022 mokėjimo formatą
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti mokėjimo eilutes tiekėjo mokėjimų žurnale ir generuoti tiekėjo mokėjimo failą naudojant ISO2022 kredito pervedimo pavyzdį. 
+Šioje temoje paaiškinama, kaip kurti mokėjimo eilutes tiekėjo mokėjimų žurnale ir generuoti tiekėjo mokėjimo failą naudojant ISO2022 kredito pervedimo pavyzdį.
 
-Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
+Tai yra penktoji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Šiame pavyzdyje naudokite demonstracinių duomenų įmonę DEMF.
 
-Tai yra penktoji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+## <a name="example"></a>Pavyzdys
 
-
-## <a name="create-payment-lines"></a>Kurti mokėjimo eilutes
-1. Pasirinkite Mokėtinos sumos > Mokėjimai > Mokėjimų žurnalas.
-2. Spustelėkite Naujas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Pavadinimas įveskite arba pasirinkite reikšmę.
-5. Spustelėkite Eilutės.
-6. Spustelėkite Mokėjimo pasiūlymas.
-7. Spustelėkite Kurti mokėjimo pasiūlymą.
-8. Išplėskite dalį Įtrauktini įrašai.
-9. Spustelėkite Filtras.
-10. Sąraše pasirinkite lentelės Tiekėjai eilutę ir lauką Tiekėjo kodas.
-11. Lauke Kriterijai įveskite arba pasirinkite reikšmę.
-    * Galite taikyti bet kokį kriterijų, norėdami pasirinkti, kurias tiekėjo operacijas apmokėti, šiame pavyzdyje kaip tiekėjo kodą naudokite DE-001.  
-12. Spustelėkite GERAI.
-13. Spustelėkite GERAI.
-14. Spustelėkite Kurti mokėjimus.
-
-## <a name="generate-an-iso20022-payment-file"></a>ISO20022 mokėjimo failo generavimas
-
+1.  Pasirinkite **Mokėtinos sumos > Mokėjimai > Mokėjimų žurnalas**.
+2.  Spustelėkite **Naujas**.
+3.  Lauke **Pavadinimas** įveskite arba pasirinkite reikšmę.
+4.  Spustelėkite **Eilutės > Mokėjimo pasiūlymas -> Kurti mokėjimo pasiūlymą**.
+5.  Išplėskite dalį **Įtrauktini įrašai**.
+6.  Spustelėkite **Filtras**.
+7.  Sąraše pasirinkite lentelės **Tiekėjai** eilutę ir lauką **Tiekėjo kodas**.
+8.  Lauke **Kriterijai** įveskite arba pasirinkite reikšmę. Galite taikyti bet kokį kriterijų, norėdami pasirinkti, kurias tiekėjo operacijas apmokėti, šiame pavyzdyje kaip tiekėjo kodą naudokite DE-001.
+12. Spustelėkite **Gerai**.
+13. Spustelėkite **Gerai**.
+14. Spustelėkite **Kurti mokėjimus**.
+15. Generuokite ISO20022 mokėjimo failą.
+    1.  Spustelėkite **Generuoti mokėjimus**.
+    2.  Lauke **Mokėjimo metodas** įveskite arba pasirinkite vertę.
+    3.  Lauke **Failo pavadinimas** suveskite reikšmę. Šiame pavyzdyje sugeneroro uostotas failas bus suderinamas su SEPA, nes mokėjimas – eurais. ISO20022 kredito pavedimas ir kiti tiekėjo mokėjimo formatai taip pat gali būti naudojami generuojant mokėjimus kitomis valiutomis.
+    4.  Lauke **Banko sąskaita** įveskite arba pasirinkite reikšmę.
 

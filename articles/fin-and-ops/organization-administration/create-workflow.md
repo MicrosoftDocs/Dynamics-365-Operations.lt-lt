@@ -1,13 +1,13 @@
 ---
-title: "Darbo eigų kūrimas"
-description: "Šioje temoje aiškinama, kaip sukurti darbo eigą."
+title: Darbo eigų kūrimas
+description: Šioje temoje aiškinama, kaip sukurti darbo eigą.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353361"
 ---
-
 # <a name="create-workflows"></a>Darbo eigų kūrimas
 
 [!include [banner](../includes/banner.md)]
@@ -85,4 +84,3 @@ Kai būsite pasirengę įrašyti ir suaktyvinti darbo eigą, atlikite toliau nur
 
     - Norėdami aktyvinti šią darbo eigos versiją, spustelėkite **Aktyvinti naują versiją**. Kai darbo eiga aktyvi, vartotojai galės pateikti dokumentus apdoroti.
     - Jei šios versijos aktyvinti nenorite, spustelėkite **Neaktyvinti naujos versijos**. Darbo eigą galite suaktyvinti vėliau.
-

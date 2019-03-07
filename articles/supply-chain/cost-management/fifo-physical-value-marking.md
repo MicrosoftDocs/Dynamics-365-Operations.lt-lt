@@ -1,13 +1,13 @@
 ---
-title: "FIFO su faktine verte ir žymėjimu"
-description: "Pirma gaunama, pirma išduodama (FIFO) yra atsargų modelis, kuriame anksčiau gauti gavimai yra išduodami pirmi. Finansiškai atnaujinti atsargų išdavimai yra sudengiami prieš pirma finansiškai atnaujintus atsargų gavimus, pagrįstus atsargų operacijų finansine data."
+title: FIFO su faktine verte ir žymėjimu
+description: Pirma gaunama, pirma išduodama (FIFO) yra atsargų modelis, kuriame anksčiau gauti gavimai yra išduodami pirmi. Finansiškai atnaujinti atsargų išdavimai yra sudengiami prieš pirma finansiškai atnaujintus atsargų gavimus, pagrįstus atsargų operacijų finansine data.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348830"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacij�
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -92,7 +91,7 @@ Jei pažymėtas prekės, esančios puslapyje **Prekių modelių grupė**, žymė
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -122,14 +121,13 @@ Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų op
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
 - Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 - Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 - Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
-
 
 
 

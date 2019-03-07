@@ -1,13 +1,13 @@
 ---
-title: "Naršymo ieška"
-description: "Šioje temoje paaiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius „Microsoft Dynamics 365 for Finance and Operations“."
+title: Naršymo ieška
+description: Naršymo ieška – šioje temoje aiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353016"
 ---
-
 # <a name="navigation-search"></a>Naršymo ieška
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius „Microsoft Dynamics 365 for Finance and Operations“.
+Naršymo ieška – šioje temoje aiškinama, kaip naudoti ieškos funkciją, norint pasiekti puslapius programoje „Microsoft Dynamics 365 for Finance and Operations“.
 
 „Finance and Operations‟ suteikia funkcijų įvairioms pramonės šakoms ir segmentams. Programa apima ne vieną sritį ir puslapį, kurie padeda atlikti įvairias užduotis. Norėdami greitai rasti puslapius, kurie reikalingi norint užbaigti užduotis, naudokite naršymo ieškos funkciją.
 
@@ -64,4 +63,3 @@ Ieškos rezultatų sąrašas apribotas iki 10 elementų. Jei rezultatuose nerand
 ## <a name="development"></a>Plėtra
 
 Programavimo požiūriu naršymo ieškos funkciją labai lengva įdiegti, nes tarp meniu elementų diegimo ir jų rodymo ieškos rezultatuose praktiškai nėra vėlavimo. Kol į meniu elementus nurodoma iš naršymo srities ar ataskaitų srities, jie automatiškai tampa ieškotinais.
-

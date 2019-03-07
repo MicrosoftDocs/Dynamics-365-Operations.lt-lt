@@ -1,13 +1,13 @@
 ---
-title: "Išteklių galimybės"
-description: "Šiame straipsnyje pateikiama informacija apie išteklių pajėgumus. Pajėgumas yra operacijų ištekliaus gebėjimas atlikti tam tikrą veiklą. Šiame straipsnyje paaiškinama, kaip naudojami pajėgumai ir susijusios koncepcijos, pvz., įgudimo lygis ir prioritetas, siekiant pasirinkti tinkamus veiklos išteklius."
+title: Išteklių galimybės
+description: Šiame straipsnyje pateikiama informacija apie išteklių pajėgumus. Pajėgumas yra operacijų ištekliaus gebėjimas atlikti tam tikrą veiklą. Šiame straipsnyje paaiškinama, kaip naudojami pajėgumai ir susijusios koncepcijos, pvz., įgudimo lygis ir prioritetas, siekiant pasirinkti tinkamus veiklos išteklius.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319298"
 ---
-
 # <a name="resource-capabilities"></a>Išteklių galimybės
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Kai nustatote gamybos maršruto išteklių reikalavimus, vieną arba daugiau paj
 
 ## <a name="competencies-for-human-resources"></a>Personalo kompetencijos
 Jei turite tipo **Personalas** operacijų išteklių, susijusių su personalo darbuotojais, nustatydami gamybos maršruto išteklių reikalavimus taip pat galite pasinaudoti darbuotojų kompetencijomis. Kitaip tariant, taip pat galite nurodyti tam tikrų įgūdžių, kursų, sertifikatų arba pareigų reikalavimus. Tada planavimo mechanizmas galės parinkti su darbuotojais susietus išteklius pagal tų darbuotojų kompetencijas. Kompetencijos yra nustatomos srityje Personalas, o ne puslapyje **Išteklių pajėgumai**. Kai įgūdžius, kursus, sertifikatus arba pareigas nustatote kaip išteklių reikalavimus, turite naudoti personalo funkciją ir kiekvieną tipo **Personalas** išteklių susieti su atitinkamu darbuotoju. Jei nenaudojate personalo funkcijos, puslapyje **Išteklių pajėgumai** galite nustatyti pajėgumus, kurie yra panašūs arba tokie patys, kaip srityje Personalas nurodyti pajėgumai. Tačiau puslapyje **Išteklių pajėgumai** nėra funkcijos, būtinos norint išlaikyti įgūdžius, kursus, sertifikatus arba pareigas.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Poreikio prognozių nustatymas"
-description: "Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį."
+title: Poreikio prognozių nustatymas
+description: Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330453"
 ---
-
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Norėdami peržiūrėti „Finance and Operations“ poreikio prognozės tarnybo
 [Pagrindinės statistinės prognozės generavimas](generate-statistical-baseline-forecast.md)
 
 [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
-
 
 
 

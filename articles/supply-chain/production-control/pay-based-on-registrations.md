@@ -1,13 +1,13 @@
 ---
-title: "Apmokėjimas pagal registracijas"
-description: "Šioje temoje paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas."
+title: Apmokėjimas pagal registracijas
+description: Šioje temoje paaiškinama, kaip apskaičiuojamas užmokestis pagal darbuotojo registracijas.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321115"
 ---
-
 # <a name="pay-based-on-registrations"></a>Apmokėjimas pagal registracijas
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Darbuotojui darbo dieną neatvykus į darbą ir tą dieną nesant suplanuotų da
 - Automatinis neatvykimo įvedimas
 
 Skaičiuojant darbuotojo, turinčio galimybę naudotis kintamomis valandomis, kasdienes registracijas lauke **Automatinis Nukrypimas- įvedimas** nurodytas neatvykimo kodas naudojamas kaip numatytasis neatvykimo kodas. Jei darbuotojas negali pasinaudoti kintamomis valandomis, naudojamas lauke **Automatinis neatvykimo įvedimas** nurodytas neatvykimo kodas. Jei įmonėje yra ne tik kintamomis valandomis galinčių pasinaudoti darbuotojų, bet ir darbuotojų, kurie kintamomis valandomis pasinaudoti negali, privaloma nustatyti abu parametrus.
-

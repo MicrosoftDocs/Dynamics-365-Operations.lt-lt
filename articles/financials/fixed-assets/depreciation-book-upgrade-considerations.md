@@ -1,13 +1,13 @@
 ---
-title: "Nusidėvėjimo knygos atnaujinimo apžvalga"
-description: "Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą."
+title: Nusidėvėjimo knygos atnaujinimo apžvalga
+description: 'Ankstesniuose leidimuose buvo naudojamos dvi ilgalaikio turto vertinimo sąvokos: vertinimo modelis ir nusidėvėjimo knygos. „Microsoft Dynamics 365 for Operations“ (1611) vertinimo modelio funkcija ir nusidėvėjimo knygų funkcija buvo sujungtos į vieną sąvoką, vadinama knyga. Šioje temoje pateikta keletas pastabų apie naujinimą.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359318"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Nusidėvėjimo knygos atnaujinimo apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ Kai naudojate sistemos sugeneruotos numeracijos metodą (1 būdą), naujinant bu
 Kai naudojate vartotojo nustatytos numeracijos metodą (2 būdą), naujinant duomenis patikrinama, ar duomenų bazėje yra nurodytos aprėpties numeracija, skirta kiekvienam skaidiniui ir įmonės su nusidėvėjimo knygos operacijomis. Jei jos nėra, naujinant bus naudojamas kiekvienos eilutės apdorojimo paeiliui funkcija, kad naudojant numeracijos sistemą kvitų numeriai būtų paskirstyti, kaip nurodyta numeracijoje. Jei nurodytos aprėpties numeracijos nėra, naujinant bus naudojamas numatytasis sistemos nustatytos numeracijos metodas kvitų numeriams paskirstyti ir po paskirstymo bus sukurta nauja numeracija naudojant nurodytus numatytuosius parametrus.
 
 Kurį metodą benaudotumėte, duomenų naujinimo scenarijus taip pat taikys naujai sukurtų DK žurnalų pavadinimų lauko **Kvitų serija** numeraciją anksčiau naudotiems nusidėvėjimo knygos žurnalų pavadinimams.
-
 
 
 

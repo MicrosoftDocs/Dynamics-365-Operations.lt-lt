@@ -1,13 +1,13 @@
 ---
-title: "„Lean“ organizacijos modeliavimas"
-description: "Šiame straipsnyje pateikta informacija apie svarbiausias „lean“ organizacijos modeliavimo koncepcijas."
+title: „Lean“ organizacijos modeliavimas
+description: Šiame straipsnyje pateikta informacija apie svarbiausias „lean“ organizacijos modeliavimo koncepcijas.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350992"
 ---
-
 # <a name="modeling-a-lean-organization"></a>„Lean“ organizacijos modeliavimas
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Kad būtų geriau laikomasi nuolatinio tobulinimo principo, gamybos eigos proces
 
 ## <a name="simplicity"></a>Paprastumas
 „Lean manufacturing“ vykdyti pasirenkame gamybos eigų ir veiklų metodą, kurį taikant ir naudojant tą pačią pakeičiamą architektūrą galima modeliuoti paprastus ir sudėtingus gamybos scenarijus. Atidžiau išnagrinėjus veiklos koncepciją pastebima, kad šią gamybos sistemą paprasta naudoti cechų ir logistikos srities darbuotojams – tiems vartotojams, kuriems ji iš tiesų reikalinga. Naudojant visiems „lean manufacturing“ variantams bendrą vartotojo sąsają pranešama apie pagal veiklas sukurtas užduotis, o ne atsargų operacijas, o sudėtingi verslo procesai iš vartotojo sąsajos perkeliami į gamybos eigą, kuri yra pagrindinis „lean manufacturing“ procesas.
-
 
 
 

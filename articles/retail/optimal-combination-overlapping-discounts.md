@@ -1,13 +1,13 @@
 ---
-title: "Optimalaus persidengiančių nuolaidų derinio nustatymas"
-description: "Kai nuolaidos persidengia, turite nustatyti persidengiančių nuolaidų derinį, kurį naudojant bus sukuriama mažiausia bendroji operacijos suma arba didžiausia bendroji nuolaidos suma. Kai nuolaidos suma kinta priklausomai nuo įsigytų produktų kainos, pavyzdžiui, kaip dažnai pasitaikančiu mažmeninės prekybos nuolaidų atveju „Pirkdami 1 gaukite 1 X procentų nuolaidą“ (BOGO), šis procesas tampa kombinacinio optimizavimo problema."
+title: Optimalaus persidengiančių nuolaidų derinio nustatymas
+description: Kai nuolaidos persidengia, turite nustatyti persidengiančių nuolaidų derinį, kurį naudojant bus sukuriama mažiausia bendroji operacijos suma arba didžiausia bendroji nuolaidos suma. Kai nuolaidos suma kinta priklausomai nuo įsigytų produktų kainos, pavyzdžiui, kaip dažnai pasitaikančiu mažmeninės prekybos nuolaidų atveju „Pirkdami 1 gaukite 1 X procentų nuolaidą“ (BOGO), šis procesas tampa kombinacinio optimizavimo problema.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360698"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimalaus persidengiančių nuolaidų derinio nustatymas
 
 [!include [banner](includes/banner.md)]
@@ -85,4 +84,3 @@ Norint išspręsti proporcingai didėjančio turimų įvertinti derinių skaiči
 ![Persidengianti nuolaida, 06 pasirinktinis įvedimas](./media/overlapping-discount-combo-06.jpg)
 
 Apskaičiavus kiekvienos bendrai naudojamų produktų rinkinio nuolaidos ribinę vertę, bendrai naudojamiems produktams nuolaidos taikomos mažėjančia tvarka nuo didžiausios ribinės vertės iki mažiausios ribinės vertės. Taikant šį metodą visos likusios nuolaidos galimybės nėra lyginamos kiekvieną kartą pritaikius vieną nuolaidos atvejį. Persidengiančios nuolaidos lyginamos vieną kartą, o po to taikomos iš eilės. Nėra atliekama jokių papildomų palyginimų. Puslapio **Mažmeninės prekybos parametrai** skirtuke **Nuolaida** galite sukonfigūruoti, kad ribinė vertė būtų įjungiama pagal ribos vertės metodą. Įvairiose mažmeninės prekybos rinkose laikas, kuris tinkamas apskaičiuoti bendrąją nuolaidos sumą, skiriasi. Tačiau šis laikas paprastai patenka į intervalą nuo dešimčių milisekundžių iki vienos sekundės.
-

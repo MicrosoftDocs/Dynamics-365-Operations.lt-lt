@@ -1,13 +1,13 @@
 ---
-title: "„Project Service Automation“ faktinių projekto reikšmių tiesioginis sinchronizavimas su projekto integravimo žurnalu, kad būtų galima registuroti „Finance and Operations“"
-description: "Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos tiesiogiai sinchronizuojant „Microsoft Dynamics 365 for Project Service Automation“ faktines projekto reikšmes su „Microsoft Dynamics 365 for Finance and Operations“."
+title: „Project Service Automation“ faktinių projekto reikšmių tiesioginis sinchronizavimas su projekto integravimo žurnalu, kad būtų galima registuroti „Finance and Operations“
+description: Šioje temoje aprašomi šablonai ir pagrindinės užduotys, naudojamos tiesiogiai sinchronizuojant „Microsoft Dynamics 365 for Project Service Automation“ faktines projekto reikšmes su „Microsoft Dynamics 365 for Finance and Operations“.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343356"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>„Project Service Automation“ faktinių projekto reikšmių tiesioginis sinchronizavimas su projekto integravimo žurnalu, kad būtų galima registuroti „Finance and Operations“
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 08/09/2018
 
 > [!NOTE]
 > - Faktinių projekto reikšmių integravimą galima atlikti naudojant „Microsoft Dynamics 365 for Finance and Operations“ 8.0.1 ar naujasnę versiją.
-> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduojame įdiegti ir KB 4131710.
+> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduojame įdiegti ir KB 4131710.
 > - Jei naudojate „Finance and Operations 7.3.0“ ir atliekate mokesčio operacijas naudodami „Project Service Automation“, turite įdiegti KB 4345320, kad šie mokesčiai būtų įtraukti į projekto SF.
 > - Įvedant „Project Service Automation“ grafiko ir išlaidų operacijų PVM sumas būtina įdiegti „Project Service Automation“ 7 naujinimą. Kitu atveju faktinės mokesčių reikšmės nebus susietos su atitinkamomis faktinėmis grafiko ir išlaidų reikšmėmis ir nebus sinchronizuojamos su „Finance and Operations“. Jei reikia daugiau informacijos, kreipkitės į pagalbos tarnybą.
 
@@ -140,4 +140,3 @@ Toliau pateiktose iliustracijose vaizduojami šablono užduoties susiejimų pavy
 [![Šablono susiejimas](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Šablono susiejimas](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

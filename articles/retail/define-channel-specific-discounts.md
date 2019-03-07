@@ -1,13 +1,13 @@
 ---
-title: "Apibrėžti konkretaus kanalo nuolaidas"
-description: "Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje temoje apžvelgtos sąvokas, kurias turite žinoti, norėdami sukurti konkretaus kanalo nuolaidą."
+title: Apibrėžti konkretaus kanalo nuolaidas
+description: Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje temoje apžvelgtos sąvokas, kurias turite žinoti, norėdami sukurti konkretaus kanalo nuolaidą.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318608"
 ---
-
 # <a name="define-channel-specific-discounts"></a>Apibrėžti konkretaus kanalo nuolaidas
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Pardavėjai dažnai nustato skirtingas nuolaidas skirtinguose kanaluose. Šioje 
 
 Pardavėjai dažnai skirtinguose kanaluose siūlo skirtingas nuolaidas. Taip gali būti daroma reaguojant į vietos rinkos sąlygas arba konkuruojant su kitais pardavėjais.
 
-Apibrėžti konkrečių kanalų nuolaidoms „Microsoft Dynamics 365 for Retail‟ naudojamos kainų grupės. Kainų grupės gali būti priskirtos vienam ar keliems toliau nurodytiems objektams: kanalams, katalogams, priskyrimams ir lojalumo programoms. Šiame straipsnyje aptariami kanalai, tačiau tos pačios koncepcijos taikomos katalogų nuolaidoms, priskyrimų nuolaidoms ir lojalumo nuolaidoms.
+„Microsoft Dynamics 365 for Retail“ naudoja kainų grupes konkrečių kanalų nuolaidoms apibrėžti. Kainų grupės gali būti priskirtos vienam ar keliems toliau nurodytiems objektams: kanalams, katalogams, priskyrimams ir lojalumo programoms. Šiame straipsnyje aptariami kanalai, tačiau tos pačios koncepcijos taikomos katalogų nuolaidoms, priskyrimų nuolaidoms ir lojalumo nuolaidoms.
 
 ## <a name="price-groups"></a>Kainų grupės
 
@@ -63,4 +62,3 @@ Toliau pateiktame pavyzdyje iliustruojamos užduotys, atliekamos nustatant kanal
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Kainų koregavimas ir nuolaidos](price-adjustments-discounts.md)
-

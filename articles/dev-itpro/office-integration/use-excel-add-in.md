@@ -1,13 +1,13 @@
 ---
-title: "Objektų duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį"
-description: "Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis."
+title: Objektų duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį
+description: Šioje temoje paaiškinta, kaip programoje „Microsoft Excel“ atidaryti objektų duomenis, tada naudojant „Excel“ skirtą „Microsoft Dynamics Office“ papildinį peržiūrėti, atnaujinti ir redaguoti šiuos duomenis.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340642"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Objektų duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį
 
 [!include [banner](../includes/banner.md)]
@@ -34,9 +33,9 @@ ms.lasthandoff: 08/09/2018
 Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ papildinį galėsite greitai ir paprastai peržiūrėti bei redaguoti šiuos duomenis. Norint įdiegti šį papildinį būtina naudoti „Microsoft Excel 2016“.
 
 > [!NOTE]
-> Jei „Microsoft Azure Active Directory“ („Azure AD“) nuomotojas bus sukonfigūruotas naudoti „Active Directory“ susiejimo tarnybą (AD FS), būtinai turi būti įdiegtas 2016 m. gegužės mėn. „Office“ skirtas naujinimas – tuomet naudojant „Excel“ papildinį bus galima tinkamai jus prijungti.
+> Jei „Microsoft Azure Active Directory“ („Azure AD“) nuomotojas bus sukonfigūruotas naudoti „Active Directory“ susiejimo tarnybą (AD FS), būtinai turi būti įdiegtas 2016 m. gegužės mėn. „Office“ skirtas naujinimas – tuomet naudojant „Excel“ papildinį bus galima tinkamai jus prijungti.
 
-Norėdami daugiau sužinoti apie tai, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą [„Dynamics 365 for Finance and Operations“ antraštės ir eilučių „Excel“ šablono kūrimas](https://youtu.be/RTicLb-6dbI) vaizdo įrašą.
+Norėdami daugiau sužinoti apie tai, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą vaizdo įrašą [„Dynamics 365 for Finance and Operations“ antraštės ir eilučių „Excel“ šablono kūrimas](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Atidaryti objekto duomenis programoje „Excel“ paleidus iš „Finance and Operations“
 1. Programos „Finance and Operations“ puslapyje spustelėkite **Atidaryti naudojant „Microsoft Office“**.
@@ -52,7 +51,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Kaip paleidus „Excel“ atidaryti objektų duomenis programoje „Excel“
 1. „Excel“ skirtuko **Įterpti** grupėje **Papildiniai** pasirinkę **Parduotuvė** atidarykite „Office“ parduotuvę.
-2. „Office“ parduotuvėje ieškokite raktažodžio **Dynamics**, tada prie **„Microsoft Dynamics Office“ papildinio** („Excel“ papildinys) pasirinkite **Įtraukti** .
+2. „Office“ parduotuvėje ieškokite raktažodžio **Dynamics**, tada prie **„Microsoft Dynamics Office“ papildinio** („Excel“ papildinys) pasirinkite **Įtraukti**.
 3. Jei „Excel“ papildinį paleisite pirmą kartą, pasirinkę **Pasitikėti šiuo papildiniu** jį įjunkite. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4. Pasirinkite **Įtraukti serverio informaciją**, kad atidarytumėte sritį **Parinktys**.
 5. Naršyklėje nukopijuokite „Finance and Operations“ paskirties egzemplioriaus URL, jį įklijuokite į lauką **Serverio URL**, tada panaikinkite visą po pagrindinio kompiuterio pavadinimo esantį tekstą. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
@@ -124,5 +123,4 @@ Kelias triktis galima pašalinti atlikus paprastus veiksmus.
 
 - **Rodomas mygtukas Įkelti programėles** – jei prisijungus „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
 - **Gaunate pranešimą „Uždrausta“** – jei „Excel“ papildiniui įkeliant metaduomenis gausite pranešimą „Uždrausta“, paskyrai, kurios duomenis naudojant yra prisijungta prie „Excel“ papildinio, nesuteiktos teisės naudoti paskirties paslaugą, egzempliorių ar duomenų bazę. Norėdami išspręsti šią problemą, patikrinkite, ar viršutiniame dešiniajame „Excel“ papildinio kampe pateikiamas teisingas vartotojo vardas. Jei pateikiamas neteisingas vartotojo vardas, jį pasirinkite, atsijunkite, tada prisijunkite iš naujo.
-- **Programoje „Excel“ pateikiamas tuščias tinklalapis** – jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](https://technet.microsoft.com/library/jj219422.aspx) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](https://technet.microsoft.com/library/mt455210.aspx).
-
+- **Programoje „Excel“ pateikiamas tuščias tinklalapis** – jei per prisijungimo procesą atidaromas tuščias tinklalapis, paskyroje būtinai turi būti naudojama AD FS, tačiau įdiegta nepakankamai nauja papildinį paleidžianti „Excel“ versija ir prisijungimo dialogo langas neįkeliamas. Norėdami pašalinti šią triktį, atnaujinkite naudojamą „Excel“ versiją. Norėdami atnaujinti „Excel“ versiją įmonėje, kurioje naudojamas atidėtų naujinimų kanalas, naudodami [„Office“ diegimo įrankį](https://technet.microsoft.com/library/jj219422.aspx) [pakeiskite atidėtų naujinimų kanalą į dabartinių naujinimų kanalą](https://technet.microsoft.com/library/mt455210.aspx).

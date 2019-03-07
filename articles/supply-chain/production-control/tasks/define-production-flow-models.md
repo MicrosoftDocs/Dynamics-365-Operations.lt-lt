@@ -1,13 +1,13 @@
---- 
+---
 title: Nustatyti gamybos eigos modelius
-description: "Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangiosios gamybos darbo elementų pajėgumas."
+description: Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangiosios gamybos darbo elementų pajėgumas.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336732"
 ---
 # <a name="define-production-flow-models"></a>Nustatyti gamybos eigos modelius
 
@@ -45,5 +45,4 @@ Gamybos eigos modeliai apibūdina, kaip apskaičiuojamas ir tvarkomas pažangios
     * Planavimo laiko riba apibūdina skaičių dienų, kai pajėgumo rezervavimus susijusiems darbo elementams galima atlikti. Planavimo laiko riboje įveskite dienų skaičių.   „Kanban“ proceso užduotys, nepatenkančios į šį laikotarpį, nebuvo suplanuotos automatinio planavimo būdu. Planavimo laiko ribos paprastai yra du kartus didesnės už vidutinį atsargų gavimo laiką produktams, pagamintiems per produktų eigą arba darbo elementą. EPE ciklas negali trukti daugiau nei pusę planavimo laiko ribos.     
 8. Lauke Pajėgumo trūkumo reakcija pasirinkite pasirinktį.
     * Galimos parinktys: atidėti – atidedama visa planavimo įvykio paklausa kitą pasiekiamą gamybos datą su galimu našumu. Atšaukti – baigti automatinį planavimo įvykio planavimą ir palikti susijusias užduotis.   Įtraukti į pageidaujamą datą – planuoti pageidaujamas užduotis užklausų laikotarpiui. Tokiu būdu perkraunamas šios datos langelis ir iš planuotojo reikalaujama peržiūrėti ir rankiniu būdu atlikti veiksmus.   Paskirstyti turimiems laikotarpiams – skirtingos planavimo įvykio užduotys paskirstomos visoms pasiekiamoms gamybos datoms pradedant nuo pirmos pasiekiamos datos. Minimalus paskirstymo kiekis yra „kanban“ užduoties kiekis. Paskirstymas priskiria minimalų planavimo kiekį („kanban“ kiekį) kiekvienai datai su pakankamu našumu.  
-
 

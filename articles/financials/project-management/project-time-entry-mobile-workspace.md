@@ -1,13 +1,13 @@
 ---
-title: "Projekto laiko įrašų mobilioji darbo sritis"
-description: "Šioje temoje pateikiama informacija apie projekto laiko įrašo mobiliąją darbo sritį. Šioje darbo srityje vartotojai gali įvesti ir įrašyti laiką pagal projektą, naudodami savo mobilųjį įrenginį."
+title: Projekto laiko įrašų mobilioji darbo sritis
+description: Šioje temoje pateikiama informacija apie projekto laiko įrašo mobiliąją darbo sritį. Šioje darbo srityje vartotojai gali įvesti ir įrašyti laiką pagal projektą, naudodami savo mobilųjį įrenginį.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,23 +18,22 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333006"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Projekto laiko įrašų mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Projektų laiko įvedimas**. Šioje darbo srityje vartotojai gali įvesti ir įrašyti laiką pagal projektą, naudodami savo mobilųjį įrenginį.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“. 
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“. 
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 Atlikdami kasdienes užduotis projekto ištekliai dažnai būna teritorijoje arba kelionėje. Mobilioji darbo sritis **Projekto laiko įrašas** vartotojams suteikia galimybę įvesti savo apmokamą arba neapmokamą laiką pagal projektą savo pasirinktame mobiliajame įrenginyje. Todėl projekto ištekliai laiko įrašus gali įrašyti visada ir visur. Taip pat jie gali peržiūrėti jau įrašytus laiko įrašus. 
 
 Mobiliojoje darbo srityje **Projektų laiko įvedimas** vartotojai gali atlikti tolesnes konkrečias užduotis.
@@ -49,10 +48,10 @@ Mobiliojoje darbo srityje **Projektų laiko įvedimas** vartotojai gali atlikti 
 Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Projekto laiko įrašas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Projekto laiko įrašas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
 
 <table>
 <thead>
@@ -69,7 +68,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4018050 yra X++ atnaujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Projekto laiko įrašas</strong>. Norėdamas įdiegti KB 4018050, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modeliai <strong>ApplicationSuite</strong> ir <strong>ProjectMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
@@ -114,4 +113,3 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 11. Pasirinkite eilutės ypatybę.
 12. Pasirinktinai: įveskite bet kokių išorinių arba vidinių komentarų.
 13. Pasirinkite **Atlikta**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Finansinių ataskaitų dizaino įrankio eilučių aprašai"
-description: "Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės."
+title: Finansinių ataskaitų dizaino įrankio eilučių aprašai
+description: Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį. Eilutės aprašą galima derinti su stulpelių aprašais, ataskaitų medžio aprašais ir ataskaitų aprašais, taip sukuriant kūrimo blokų grupę, kurią gali naudoti kelios įmonės.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350440"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,7 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 
 Eilutės apraše nurodytas formatavimas perrašo stulpelio apraše ir ataskaitos apraše nurodytą formatavimą. Galite keisti teksto formatą, naudodami formatavimo įrankių juostos valdiklius. Šie valdikliai yra standartiniai „Microsoft Windows“ valdikliai.
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
+1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti eilučių aprašą.
 2. Pažymėkite norimus formatuoti langelius. Norėdami pažymėti kelis langelius, laikykite nuspaudę klavišą Ctrl ir pasirinkite langelį.
 3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę, tada įrankių juostoje spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Padidinti įtrauką").
 
@@ -189,4 +188,3 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-
