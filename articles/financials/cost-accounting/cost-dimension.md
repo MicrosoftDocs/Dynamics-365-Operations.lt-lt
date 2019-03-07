@@ -1,13 +1,13 @@
 ---
-title: "Dimensijų kūrimas ir dimensijų narių importavimas"
-description: "Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi bendrieji duomenys iš kitų modulių."
+title: Dimensijų kūrimas ir dimensijų narių importavimas
+description: Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi bendrieji duomenys iš kitų modulių.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,40 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342321"
 ---
-
-# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="e017a-103">Dimensijų kūrimas ir dimensijų narių importavimas</span><span class="sxs-lookup"><span data-stu-id="e017a-103">Create dimensions and import dimension members</span></span>
+# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="315ae-103">Dimensijų kūrimas ir dimensijų narių importavimas</span><span class="sxs-lookup"><span data-stu-id="315ae-103">Create dimensions and import dimension members</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e017a-104">Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi duomenys iš kitų modulių.</span><span class="sxs-lookup"><span data-stu-id="e017a-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="e017a-105">Šie duomenys yra suskirstyti į tolesnes kategorijas.</span><span class="sxs-lookup"><span data-stu-id="e017a-105">This data is categorized into the following:</span></span>
+<span data-ttu-id="315ae-104">Kaštų apskaita yra nepriklausomas modulis, kurį norint naudoti reikalingi duomenys iš kitų modulių.</span><span class="sxs-lookup"><span data-stu-id="315ae-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="315ae-105">Šie duomenys yra suskirstyti į tolesnes kategorijas.</span><span class="sxs-lookup"><span data-stu-id="315ae-105">This data is categorized into the following:</span></span>
 
--  <span data-ttu-id="e017a-106">Savikainos elementai</span><span class="sxs-lookup"><span data-stu-id="e017a-106">Cost elements</span></span>
--  <span data-ttu-id="e017a-107">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="e017a-107">Cost objects</span></span>
--  <span data-ttu-id="e017a-108">Statistinės dimensijos</span><span class="sxs-lookup"><span data-stu-id="e017a-108">Statistical dimensions</span></span>
+-  <span data-ttu-id="315ae-106">Savikainos elementai</span><span class="sxs-lookup"><span data-stu-id="315ae-106">Cost elements</span></span>
+-  <span data-ttu-id="315ae-107">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="315ae-107">Cost objects</span></span>
+-  <span data-ttu-id="315ae-108">Statistinės dimensijos</span><span class="sxs-lookup"><span data-stu-id="315ae-108">Statistical dimensions</span></span>
 
-<span data-ttu-id="e017a-109">**Savikainos elementas** sąskaitų plane atitinka su savikaina susijusį elementą.</span><span class="sxs-lookup"><span data-stu-id="e017a-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="e017a-110">**Savikainos objektas** atitinka bet kokio tipo finansinę dimensiją, pvz., produktus, išlaidų centrus ir projektus, kuriuos norite įvertinti, kuriems norite priskirti išlaidas ar kuriuos norite tiesiogiai matuoti.</span><span class="sxs-lookup"><span data-stu-id="e017a-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="e017a-111">Naudojant **statistinę dimensiją** ir jos narius, registruojami nepiniginiai įrašai.</span><span class="sxs-lookup"><span data-stu-id="e017a-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="e017a-112">Statistinių dimensijų narius galima naudoti kaip išlaidų paskirstymo ir priskyrimo paskirstymo pagrindą</span><span class="sxs-lookup"><span data-stu-id="e017a-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
+<span data-ttu-id="315ae-109">**Savikainos elementas** sąskaitų plane atitinka su savikaina susijusį elementą.</span><span class="sxs-lookup"><span data-stu-id="315ae-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="315ae-110">**Savikainos objektas** atitinka bet kokio tipo finansinę dimensiją, pvz., produktus, išlaidų centrus ir projektus, kuriuos norite įvertinti, kuriems norite priskirti išlaidas ar kuriuos norite tiesiogiai matuoti.</span><span class="sxs-lookup"><span data-stu-id="315ae-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="315ae-111">Naudojant **statistinę dimensiją** ir jos narius, registruojami nepiniginiai įrašai.</span><span class="sxs-lookup"><span data-stu-id="315ae-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="315ae-112">Statistinių dimensijų narius galima naudoti kaip išlaidų paskirstymo ir priskyrimo paskirstymo pagrindą</span><span class="sxs-lookup"><span data-stu-id="315ae-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
 
-<span data-ttu-id="e017a-113">Toliau pateiktoje diagramoje pavaizduotos modulyje Kaštų apskaita naudojamos dimensijos.</span><span class="sxs-lookup"><span data-stu-id="e017a-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
+<span data-ttu-id="315ae-113">Toliau pateiktoje diagramoje pavaizduotos modulyje Kaštų apskaita naudojamos dimensijos.</span><span class="sxs-lookup"><span data-stu-id="315ae-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
 
-<span data-ttu-id="e017a-114">[![Savikainos apskaitos dimensijos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="e017a-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
+<span data-ttu-id="315ae-114">[![Savikainos apskaitos dimensijos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="315ae-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
 
-<span data-ttu-id="e017a-115">Į modulį Kaštų apskaita importavus duomenų, jį naudojant galima sukurti įvairių perspektyvų, vadovams suteikiančių įžvalgų visuose organizacijos lygiuose.</span><span class="sxs-lookup"><span data-stu-id="e017a-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="e017a-116">Tolesnėse temose pateikta informacijos apie dimensijų kūrimą ir dimensijų narių importavimą.</span><span class="sxs-lookup"><span data-stu-id="e017a-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
+<span data-ttu-id="315ae-115">Į modulį Kaštų apskaita importavus duomenų, jį naudojant galima sukurti įvairių perspektyvų, vadovams suteikiančių įžvalgų visuose organizacijos lygiuose.</span><span class="sxs-lookup"><span data-stu-id="315ae-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="315ae-116">Tolesnėse temose pateikta informacijos apie dimensijų kūrimą ir dimensijų narių importavimą.</span><span class="sxs-lookup"><span data-stu-id="315ae-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
 
--  [<span data-ttu-id="e017a-117">Savikainos elemento dimensijos</span><span class="sxs-lookup"><span data-stu-id="e017a-117">Cost element dimensions</span></span>](cost-elements.md)
--  [<span data-ttu-id="e017a-118">Savikainos elementų kūrimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="e017a-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
--  [<span data-ttu-id="e017a-119">Savikainos objekto dimensijos</span><span class="sxs-lookup"><span data-stu-id="e017a-119">Cost object dimensions</span></span>](cost-objects.md)
--  [<span data-ttu-id="e017a-120">Savikainos elementų kūrimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="e017a-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
--  [<span data-ttu-id="e017a-121">Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį</span><span class="sxs-lookup"><span data-stu-id="e017a-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
--  [<span data-ttu-id="e017a-122">Savikainos elemento dimensijos susiejimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="e017a-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
--  [<span data-ttu-id="e017a-123">Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai</span><span class="sxs-lookup"><span data-stu-id="e017a-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
-
+-  [<span data-ttu-id="315ae-117">Savikainos elemento dimensijos</span><span class="sxs-lookup"><span data-stu-id="315ae-117">Cost element dimensions</span></span>](cost-elements.md)
+-  [<span data-ttu-id="315ae-118">Savikainos elementų kūrimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="315ae-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
+-  [<span data-ttu-id="315ae-119">Savikainos objekto dimensijos</span><span class="sxs-lookup"><span data-stu-id="315ae-119">Cost object dimensions</span></span>](cost-objects.md)
+-  [<span data-ttu-id="315ae-120">Savikainos elementų kūrimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="315ae-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
+-  [<span data-ttu-id="315ae-121">Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį</span><span class="sxs-lookup"><span data-stu-id="315ae-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
+-  [<span data-ttu-id="315ae-122">Savikainos elemento dimensijos susiejimas (užduočių vedlys)</span><span class="sxs-lookup"><span data-stu-id="315ae-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
+-  [<span data-ttu-id="315ae-123">Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai</span><span class="sxs-lookup"><span data-stu-id="315ae-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Kompensacija klientams
-description: "Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą."
+description: Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,38 +18,36 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325232"
 ---
-
-# <a name="reimburse-customers"></a><span data-ttu-id="6285d-104">Kompensacija klientams</span><span class="sxs-lookup"><span data-stu-id="6285d-104">Reimburse customers</span></span>
+# <a name="reimburse-customers"></a><span data-ttu-id="55673-104">Kompensacija klientams</span><span class="sxs-lookup"><span data-stu-id="55673-104">Reimburse customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6285d-105">Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas.</span><span class="sxs-lookup"><span data-stu-id="6285d-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="6285d-106">Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą.</span><span class="sxs-lookup"><span data-stu-id="6285d-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
+<span data-ttu-id="55673-105">Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas.</span><span class="sxs-lookup"><span data-stu-id="55673-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="55673-106">Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą.</span><span class="sxs-lookup"><span data-stu-id="55673-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 
-<span data-ttu-id="6285d-107">Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.</span><span class="sxs-lookup"><span data-stu-id="6285d-107">The following table shows the prerequisites that must be in place before you start.</span></span>
+<span data-ttu-id="55673-107">Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti prieš pradedant.</span><span class="sxs-lookup"><span data-stu-id="55673-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| <span data-ttu-id="6285d-108">Būtinoji sąlyga</span><span class="sxs-lookup"><span data-stu-id="6285d-108">Prerequisite</span></span>                                                            | <span data-ttu-id="6285d-109">Prekės/Paslaugos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="6285d-109">Description</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="55673-108">Būtinoji sąlyga</span><span class="sxs-lookup"><span data-stu-id="55673-108">Prerequisite</span></span>                                                            | <span data-ttu-id="55673-109">Prekės/Paslaugos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="55673-109">Description</span></span>                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="6285d-110">Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.</span><span class="sxs-lookup"><span data-stu-id="6285d-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="6285d-111">Puslapyje **Gautinų sumų parametrai**, srityje **Bendra**, lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo.</span><span class="sxs-lookup"><span data-stu-id="6285d-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
-| <span data-ttu-id="6285d-112">Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti.</span><span class="sxs-lookup"><span data-stu-id="6285d-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="6285d-113">Puslapyje **Klientai**, „FastTab“ skirtuke **Įvairi informacija**, lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="6285d-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
+| <span data-ttu-id="55673-110">Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.</span><span class="sxs-lookup"><span data-stu-id="55673-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="55673-111">Puslapyje **Gautinų sumų parametrai**, srityje **Bendra**, lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo.</span><span class="sxs-lookup"><span data-stu-id="55673-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
+| <span data-ttu-id="55673-112">Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti.</span><span class="sxs-lookup"><span data-stu-id="55673-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="55673-113">Puslapyje **Klientai**, „FastTab“ skirtuke **Įvairi informacija**, lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="55673-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
 
-<span data-ttu-id="6285d-114">Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF.</span><span class="sxs-lookup"><span data-stu-id="6285d-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="6285d-115">Kompensacijos procesas pašalina kliento sąskaitos kredito balansą ir sukuria mokėtiną balanso sumą tiekėjo sąskaitai, kuri atitinka klientą.</span><span class="sxs-lookup"><span data-stu-id="6285d-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
+<span data-ttu-id="55673-114">Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF.</span><span class="sxs-lookup"><span data-stu-id="55673-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="55673-115">Kompensacijos procesas pašalina kliento sąskaitos kredito balansą ir sukuria mokėtiną balanso sumą tiekėjo sąskaitai, kuri atitinka klientą.</span><span class="sxs-lookup"><span data-stu-id="55673-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
 
-1.  <span data-ttu-id="6285d-116">Gautinų sumų srityje vykdykite procesą **Kompensacija**.</span><span class="sxs-lookup"><span data-stu-id="6285d-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
-2.  <span data-ttu-id="6285d-117">Atlikite vieną iš toliau nurodytų veiksmų.</span><span class="sxs-lookup"><span data-stu-id="6285d-117">Follow one of these steps:</span></span>
-    -   <span data-ttu-id="6285d-118">Norėdami kompensuoti konkrečias kliento sąskaitas, spustelėkite **Pasirinkti** ir užklausoje nurodykite kliento sąskaitas.</span><span class="sxs-lookup"><span data-stu-id="6285d-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
-    -   <span data-ttu-id="6285d-119">Norėdami kompensuoti visas kliento sąskaitas, spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="6285d-119">To reimburse all customer accounts, click **OK**.</span></span>
+1.  <span data-ttu-id="55673-116">Gautinų sumų srityje vykdykite procesą **Kompensacija**.</span><span class="sxs-lookup"><span data-stu-id="55673-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
+2.  <span data-ttu-id="55673-117">Atlikite vieną iš toliau nurodytų veiksmų.</span><span class="sxs-lookup"><span data-stu-id="55673-117">Follow one of these steps:</span></span>
+    -   <span data-ttu-id="55673-118">Norėdami kompensuoti konkrečias kliento sąskaitas, spustelėkite **Pasirinkti** ir užklausoje nurodykite kliento sąskaitas.</span><span class="sxs-lookup"><span data-stu-id="55673-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
+    -   <span data-ttu-id="55673-119">Norėdami kompensuoti visas kliento sąskaitas, spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="55673-119">To reimburse all customer accounts, click **OK**.</span></span>
 
-    <span data-ttu-id="6285d-120">Kredito sumos perkeliamos į klientų tiekėjų sąskaitas ir apdorojamos kaip įprasti mokėjimai.</span><span class="sxs-lookup"><span data-stu-id="6285d-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="6285d-121">Jei klientas neturi tiekėjo sąskaitos, klientui automatiškai sukuriama vienkartinė tiekėjo sąskaita.</span><span class="sxs-lookup"><span data-stu-id="6285d-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
-3.  <span data-ttu-id="6285d-122">Norėdami peržiūrėti sukurtas kompensacijos operacijas, naudokite puslapį **Kompensacija**.</span><span class="sxs-lookup"><span data-stu-id="6285d-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
-4.  <span data-ttu-id="6285d-123">Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas.</span><span class="sxs-lookup"><span data-stu-id="6285d-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
-
+    <span data-ttu-id="55673-120">Kredito sumos perkeliamos į klientų tiekėjų sąskaitas ir apdorojamos kaip įprasti mokėjimai.</span><span class="sxs-lookup"><span data-stu-id="55673-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="55673-121">Jei klientas neturi tiekėjo sąskaitos, klientui automatiškai sukuriama vienkartinė tiekėjo sąskaita.</span><span class="sxs-lookup"><span data-stu-id="55673-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
+3.  <span data-ttu-id="55673-122">Norėdami peržiūrėti sukurtas kompensacijos operacijas, naudokite puslapį **Kompensacija**.</span><span class="sxs-lookup"><span data-stu-id="55673-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
+4.  <span data-ttu-id="55673-123">Mokėtinų sumų srityje sukurkite mokėjimą tiekėjo SF, kurias sukūrė kompensacijos procesas.</span><span class="sxs-lookup"><span data-stu-id="55673-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
 
 
 

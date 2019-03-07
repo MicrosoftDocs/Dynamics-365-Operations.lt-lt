@@ -1,13 +1,13 @@
 ---
-title: "Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba"
-description: "Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai."
+title: Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba
+description: Šioje temoje aprašomi scenarijai, palaikomi modulyje laiko ir lankomumo valdymas programoje „Microsoft Dynamics 365 for Retail“.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,125 +19,123 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321276"
 ---
-
-# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="52eb2-103">Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba</span><span class="sxs-lookup"><span data-stu-id="52eb2-103">Time and attendance management in Retail</span></span>
+# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="f656f-103">Laiko ir lankomumo valdymo planavimas dalyje Mažmeninė prekyba</span><span class="sxs-lookup"><span data-stu-id="f656f-103">Time and attendance management in Retail</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="52eb2-104">Šioje temoje aprašomi sprendime „Microsoft Dynamics 365 for Retail“ palaikomi laiko ir lankomumo valdymo scenarijai.</span><span class="sxs-lookup"><span data-stu-id="52eb2-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="f656f-104">Šioje temoje aprašomi scenarijai, palaikomi modulyje laiko ir lankomumo valdymas programoje „Microsoft Dynamics 365 for Retail“.</span><span class="sxs-lookup"><span data-stu-id="f656f-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span>
 
-## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="52eb2-105">Valdyti darbininko nustatymą ir planavimą</span><span class="sxs-lookup"><span data-stu-id="52eb2-105">Manage worker setup and scheduling</span></span>
+## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="f656f-105">Valdyti darbininko nustatymą ir planavimą</span><span class="sxs-lookup"><span data-stu-id="f656f-105">Manage worker setup and scheduling</span></span>
 
-### <a name="initial-configuration"></a><span data-ttu-id="52eb2-106"> pradinė konfigūracija</span><span class="sxs-lookup"><span data-stu-id="52eb2-106">Initial configuration</span></span>
+### <a name="initial-configuration"></a><span data-ttu-id="f656f-106"> pradinė konfigūracija</span><span class="sxs-lookup"><span data-stu-id="f656f-106">Initial configuration</span></span>
 
-- <span data-ttu-id="52eb2-107">Paleiskite konfigūracijos vedlį.</span><span class="sxs-lookup"><span data-stu-id="52eb2-107">Run the configuration wizard.</span></span>
-- <span data-ttu-id="52eb2-108">Registruokite darbuotojus kaip laiko registracijos darbuotojus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-108">Register workers as time registration workers.</span></span>
+- <span data-ttu-id="f656f-107">Paleiskite konfigūracijos vedlį.</span><span class="sxs-lookup"><span data-stu-id="f656f-107">Run the configuration wizard.</span></span>
+- <span data-ttu-id="f656f-108">Registruokite darbuotojus kaip laiko registracijos darbuotojus.</span><span class="sxs-lookup"><span data-stu-id="f656f-108">Register workers as time registration workers.</span></span>
 
-### <a name="plan-worker-schedules"></a><span data-ttu-id="52eb2-109">Planuokite darbuotojų grafikus</span><span class="sxs-lookup"><span data-stu-id="52eb2-109">Plan worker schedules</span></span>
+### <a name="plan-worker-schedules"></a><span data-ttu-id="f656f-109">Planuokite darbuotojų grafikus</span><span class="sxs-lookup"><span data-stu-id="f656f-109">Plan worker schedules</span></span>
 
-- <span data-ttu-id="52eb2-110">Taikykite šablonus naudodami darbo planuotoją.</span><span class="sxs-lookup"><span data-stu-id="52eb2-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="52eb2-111">Daugiau informacijos žr. [Šablonų taikymas naudojant darbo planuotoją](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="52eb2-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
+- <span data-ttu-id="f656f-110">Taikykite šablonus naudodami darbo planuotoją.</span><span class="sxs-lookup"><span data-stu-id="f656f-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="f656f-111">Daugiau informacijos žr. [Šablonų taikymas naudojant darbo planuotoją](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="f656f-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
 
-<span data-ttu-id="52eb2-112">Informacijos apie konfigūravimo veiksmus žr. [Laiko ir buvimo darbe nustatymas](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="52eb2-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
+<span data-ttu-id="f656f-112">Informacijos apie konfigūravimo veiksmus žr. [Laiko ir buvimo darbe nustatymas](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="f656f-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
 
-### <a name="retail-specific-configuration"></a><span data-ttu-id="52eb2-113">Konkretus mažmeninės prekybos konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="52eb2-113">Retail-specific configuration</span></span>
+### <a name="retail-specific-configuration"></a><span data-ttu-id="f656f-113">Konkretus mažmeninės prekybos konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="f656f-113">Retail-specific configuration</span></span>
 
-- <span data-ttu-id="52eb2-114">Įjunkite laikrodžio funkcijų šabloną darbuotojams, kuriems norite leisti laiko registravimus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="52eb2-115">Spustelėkite **EKA funkcijų šablonai** &gt; **Funkcijos** &gt; **EKA laiko registravimai** &gt; **Įjungti laiko registravimus**.</span><span class="sxs-lookup"><span data-stu-id="52eb2-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
-- <span data-ttu-id="52eb2-116">Sukonfigūruokite elektroninio kasos aparato (EKA) teisių grupes, kad leistumėte teisę Peržiūrėti laikrodžio įrašus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="52eb2-117">Naudodamas šią teisę vartotojas gali peržiūrėti kitų parduotuvės (ir bet kurios kitos parduotuvės, su kuria vartotojas susietas per adresų knygelę) darbuotojų laikrodžio registravimus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="52eb2-118">Galite įjungti šią teisę vadovo vaidmeniui, bet ne kasininko vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="52eb2-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="52eb2-119">Spustelėkite **EKA teisių grupės** &gt; **Peržiūrėti laikrodžio įrašus**.</span><span class="sxs-lookup"><span data-stu-id="52eb2-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+- <span data-ttu-id="f656f-114">Įjunkite laikrodžio funkcijų šabloną darbuotojams, kuriems norite leisti laiko registravimus.</span><span class="sxs-lookup"><span data-stu-id="f656f-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="f656f-115">Spustelėkite **EKA funkcijų šablonai** &gt; **Funkcijos** &gt; **EKA laiko registravimai** &gt; **Įjungti laiko registravimus**.</span><span class="sxs-lookup"><span data-stu-id="f656f-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+- <span data-ttu-id="f656f-116">Sukonfigūruokite elektroninio kasos aparato (EKA) teisių grupes, kad leistumėte teisę Peržiūrėti laikrodžio įrašus.</span><span class="sxs-lookup"><span data-stu-id="f656f-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="f656f-117">Naudodamas šią teisę vartotojas gali peržiūrėti kitų parduotuvės (ir bet kurios kitos parduotuvės, su kuria vartotojas susietas per adresų knygelę) darbuotojų laikrodžio registravimus.</span><span class="sxs-lookup"><span data-stu-id="f656f-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="f656f-118">Galite įjungti šią teisę vadovo vaidmeniui, bet ne kasininko vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="f656f-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="f656f-119">Spustelėkite **EKA teisių grupės** &gt; **Peržiūrėti laikrodžio įrašus**.</span><span class="sxs-lookup"><span data-stu-id="f656f-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
 
-## <a name="register-time"></a><span data-ttu-id="52eb2-120">Registracijos laikas</span><span class="sxs-lookup"><span data-stu-id="52eb2-120">Register time</span></span>
+## <a name="register-time"></a><span data-ttu-id="f656f-120">Registracijos laikas</span><span class="sxs-lookup"><span data-stu-id="f656f-120">Register time</span></span>
 
-### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="52eb2-121">Kasininko ir ne kasininko laiko registravimai</span><span class="sxs-lookup"><span data-stu-id="52eb2-121">Cashier and non-cashier time registrations</span></span>
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="f656f-121">Kasininko ir ne kasininko laiko registravimai</span><span class="sxs-lookup"><span data-stu-id="f656f-121">Cashier and non-cashier time registrations</span></span>
 
-- <span data-ttu-id="52eb2-122">EKA</span><span class="sxs-lookup"><span data-stu-id="52eb2-122">On POS:</span></span>
+- <span data-ttu-id="f656f-122">EKA</span><span class="sxs-lookup"><span data-stu-id="f656f-122">On POS:</span></span>
 
-    - <span data-ttu-id="52eb2-123">Atėjimo į darbą operacijos</span><span class="sxs-lookup"><span data-stu-id="52eb2-123">Clock-in operations:</span></span>
+    - <span data-ttu-id="f656f-123">Atėjimo į darbą operacijos</span><span class="sxs-lookup"><span data-stu-id="f656f-123">Clock-in operations:</span></span>
 
-        - <span data-ttu-id="52eb2-124">Prisijunkite naudodami ne stalčiaus operaciją arba naują pamainą.</span><span class="sxs-lookup"><span data-stu-id="52eb2-124">Log on with a non-drawer operation or New shift.</span></span>
-        - <span data-ttu-id="52eb2-125">Pasirinkite laikrodžio operaciją.</span><span class="sxs-lookup"><span data-stu-id="52eb2-125">Select a Time Clock operation.</span></span>
-        - <span data-ttu-id="52eb2-126">Pasirinkite norimą operaciją.</span><span class="sxs-lookup"><span data-stu-id="52eb2-126">Select a desired operation:</span></span>
+        - <span data-ttu-id="f656f-124">Prisijunkite naudodami ne stalčiaus operaciją arba naują pamainą.</span><span class="sxs-lookup"><span data-stu-id="f656f-124">Log on with a non-drawer operation or New shift.</span></span>
+        - <span data-ttu-id="f656f-125">Pasirinkite laikrodžio operaciją.</span><span class="sxs-lookup"><span data-stu-id="f656f-125">Select a Time Clock operation.</span></span>
+        - <span data-ttu-id="f656f-126">Pasirinkite norimą operaciją.</span><span class="sxs-lookup"><span data-stu-id="f656f-126">Select a desired operation:</span></span>
 
-            - <span data-ttu-id="52eb2-127">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="52eb2-127">Clock-in</span></span>
-            - <span data-ttu-id="52eb2-128">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-128">Break for Work</span></span>
-            - <span data-ttu-id="52eb2-129">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-129">Break for Lunch</span></span>
-            - <span data-ttu-id="52eb2-130">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="52eb2-130">Clock-out</span></span>
+            - <span data-ttu-id="f656f-127">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="f656f-127">Clock-in</span></span>
+            - <span data-ttu-id="f656f-128">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-128">Break for Work</span></span>
+            - <span data-ttu-id="f656f-129">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-129">Break for Lunch</span></span>
+            - <span data-ttu-id="f656f-130">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="f656f-130">Clock-out</span></span>
 
         <table>
         <thead>
         <tr>
-        <th><span data-ttu-id="52eb2-131">Dabartinė būsena</span><span class="sxs-lookup"><span data-stu-id="52eb2-131">Current state</span></span></th>
-        <th><span data-ttu-id="52eb2-132">Galimos operacijos</span><span class="sxs-lookup"><span data-stu-id="52eb2-132">Available operations</span></span></th>
+        <th><span data-ttu-id="f656f-131">Dabartinė būsena</span><span class="sxs-lookup"><span data-stu-id="f656f-131">Current state</span></span></th>
+        <th><span data-ttu-id="f656f-132">Galimos operacijos</span><span class="sxs-lookup"><span data-stu-id="f656f-132">Available operations</span></span></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-        <td><span data-ttu-id="52eb2-133">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="52eb2-133">Clock-in</span></span></td>
+        <td><span data-ttu-id="f656f-133">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="f656f-133">Clock-in</span></span></td>
         <td>
         <ul>
-        <li><span data-ttu-id="52eb2-134">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-134">Break for Work</span></span></li>
-        <li><span data-ttu-id="52eb2-135">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-135">Break for Lunch</span></span></li>
-        <li><span data-ttu-id="52eb2-136">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="52eb2-136">Clock-out</span></span></li>
+        <li><span data-ttu-id="f656f-134">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-134">Break for Work</span></span></li>
+        <li><span data-ttu-id="f656f-135">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-135">Break for Lunch</span></span></li>
+        <li><span data-ttu-id="f656f-136">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="f656f-136">Clock-out</span></span></li>
         </ul>
         </td>
         </tr>
         <tr>
-        <td><span data-ttu-id="52eb2-137">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-137">Break for Work</span></span></td>
-        <td><span data-ttu-id="52eb2-138">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="52eb2-138">Clock-in</span></span></td>
+        <td><span data-ttu-id="f656f-137">Darbo pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-137">Break for Work</span></span></td>
+        <td><span data-ttu-id="f656f-138">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="f656f-138">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="52eb2-139">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="52eb2-139">Break for Lunch</span></span></td>
-        <td><span data-ttu-id="52eb2-140">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="52eb2-140">Clock-in</span></span></td>
+        <td><span data-ttu-id="f656f-139">Pietų pertrauka</span><span class="sxs-lookup"><span data-stu-id="f656f-139">Break for Lunch</span></span></td>
+        <td><span data-ttu-id="f656f-140">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="f656f-140">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="52eb2-141">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="52eb2-141">Clock-out</span></span></td>
-        <td><span data-ttu-id="52eb2-142">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="52eb2-142">Clock-in</span></span></td>
+        <td><span data-ttu-id="f656f-141">Išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="f656f-141">Clock-out</span></span></td>
+        <td><span data-ttu-id="f656f-142">Atėjimas į darbą</span><span class="sxs-lookup"><span data-stu-id="f656f-142">Clock-in</span></span></td>
         </tr>
         </tbody>
         </table>
 
-        <span data-ttu-id="52eb2-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="52eb2-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
+        <span data-ttu-id="f656f-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="f656f-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
 
-- <span data-ttu-id="52eb2-144">Peržiūrėkite patvirtinimo pranešimą ir patikrinkite, ar dabartinis veiklos laikas yra teisingas.</span><span class="sxs-lookup"><span data-stu-id="52eb2-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
-- <span data-ttu-id="52eb2-145">Registracijos žurnalas</span><span class="sxs-lookup"><span data-stu-id="52eb2-145">Logbook:</span></span>
+- <span data-ttu-id="f656f-144">Peržiūrėkite patvirtinimo pranešimą ir patikrinkite, ar dabartinis veiklos laikas yra teisingas.</span><span class="sxs-lookup"><span data-stu-id="f656f-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+- <span data-ttu-id="f656f-145">Registracijos žurnalas</span><span class="sxs-lookup"><span data-stu-id="f656f-145">Logbook:</span></span>
 
-    - <span data-ttu-id="52eb2-146">Spustelėkite **Registracijos žurnalas** laikrodžio veiklai peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="52eb2-146">Click **Logbook** to view time clock activity.</span></span>
-    - <span data-ttu-id="52eb2-147">Naudokite laiko filtrus, norėdami pasirinkti skirtingus laiko langus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-147">Use time filters to select different time windows.</span></span>
-    - <span data-ttu-id="52eb2-148">Jei dirbate keliose parduotuvių vietose, matysite savo laiko registravimus visose parduotuvėse, kuriose įrašėte laiką.</span><span class="sxs-lookup"><span data-stu-id="52eb2-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="52eb2-149">Galite naudoti parduotuvių filtrą, norėdami peržiūrėti pasirinktos parduotuvės laiko registravimus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-149">You can use the store filter to view time registrations from a selected store.</span></span>
+    - <span data-ttu-id="f656f-146">Spustelėkite **Registracijos žurnalas** laikrodžio veiklai peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="f656f-146">Click **Logbook** to view time clock activity.</span></span>
+    - <span data-ttu-id="f656f-147">Naudokite laiko filtrus, norėdami pasirinkti skirtingus laiko langus.</span><span class="sxs-lookup"><span data-stu-id="f656f-147">Use time filters to select different time windows.</span></span>
+    - <span data-ttu-id="f656f-148">Jei dirbate keliose parduotuvių vietose, matysite savo laiko registravimus visose parduotuvėse, kuriose įrašėte laiką.</span><span class="sxs-lookup"><span data-stu-id="f656f-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="f656f-149">Galite naudoti parduotuvių filtrą, norėdami peržiūrėti pasirinktos parduotuvės laiko registravimus.</span><span class="sxs-lookup"><span data-stu-id="f656f-149">You can use the store filter to view time registrations from a selected store.</span></span>
 
-- <span data-ttu-id="52eb2-150">Skirtingos laiko juostos</span><span class="sxs-lookup"><span data-stu-id="52eb2-150">Different time zones:</span></span>
+- <span data-ttu-id="f656f-150">Skirtingos laiko juostos</span><span class="sxs-lookup"><span data-stu-id="f656f-150">Different time zones:</span></span>
 
-    - <span data-ttu-id="52eb2-151">Jei peržiūrite kitos vietos laiką (naudodami kasininko registracijos žurnalą arba vadovo vaidmens scenarijaus parinktį **Peržiūrėti laiko įrašus**) ir ta vieta yra kitoje laiko juostoje, rodomi laiko įrašai yra konvertuojami į jūsų vietos laiko juostą.</span><span class="sxs-lookup"><span data-stu-id="52eb2-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="52eb2-152">Pvz., jūs esate dviejų parduotuvių (Arizonoje ir Nevadoje) vadovas.</span><span class="sxs-lookup"><span data-stu-id="52eb2-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="52eb2-153">Kasininkas registruoja atėjimą į darbą 9:00</span><span class="sxs-lookup"><span data-stu-id="52eb2-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="52eb2-154">Arizonos laiku.</span><span class="sxs-lookup"><span data-stu-id="52eb2-154">in Arizona.</span></span> <span data-ttu-id="52eb2-155">Tuo metu Nevadoje yra 8:00.</span><span class="sxs-lookup"><span data-stu-id="52eb2-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="52eb2-156">Todėl, jei esate Nevados parduotuvėje ir pažiūrite laiko registravimo įrašus, laiko registravimas pažymėtas 8:00.</span><span class="sxs-lookup"><span data-stu-id="52eb2-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+    - <span data-ttu-id="f656f-151">Jei peržiūrite kitos vietos laiką (naudodami kasininko registracijos žurnalą arba vadovo vaidmens scenarijaus parinktį **Peržiūrėti laiko įrašus**) ir ta vieta yra kitoje laiko juostoje, rodomi laiko įrašai yra konvertuojami į jūsų vietos laiko juostą.</span><span class="sxs-lookup"><span data-stu-id="f656f-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="f656f-152">Pvz., jūs esate dviejų parduotuvių (Arizonoje ir Nevadoje) vadovas.</span><span class="sxs-lookup"><span data-stu-id="f656f-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="f656f-153">Kasininkas registruoja atėjimą į darbą 9:00</span><span class="sxs-lookup"><span data-stu-id="f656f-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="f656f-154">Arizonos laiku.</span><span class="sxs-lookup"><span data-stu-id="f656f-154">in Arizona.</span></span> <span data-ttu-id="f656f-155">Tuo metu Nevadoje yra 8:00.</span><span class="sxs-lookup"><span data-stu-id="f656f-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="f656f-156">Todėl, jei esate Nevados parduotuvėje ir pažiūrite laiko registravimo įrašus, laiko registravimas pažymėtas 8:00.</span><span class="sxs-lookup"><span data-stu-id="f656f-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
 
-## <a name="view-worker-time-registrations"></a><span data-ttu-id="52eb2-157">Peržiūrėti darbuotojų laiko registravimą</span><span class="sxs-lookup"><span data-stu-id="52eb2-157">View worker time registrations</span></span>
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="f656f-157">Peržiūrėti darbuotojų laiko registravimą</span><span class="sxs-lookup"><span data-stu-id="f656f-157">View worker time registrations</span></span>
 
-### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="52eb2-158">Darbuotojų laiko registravimų peržiūra ir filtravimas pagal parduotuvę arba veiklos tipą</span><span class="sxs-lookup"><span data-stu-id="52eb2-158">View worker time registrations, and filter by store or activity type</span></span>
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="f656f-158">Darbuotojų laiko registravimų peržiūra ir filtravimas pagal parduotuvę arba veiklos tipą</span><span class="sxs-lookup"><span data-stu-id="f656f-158">View worker time registrations, and filter by store or activity type</span></span>
 
-<span data-ttu-id="52eb2-159">EKA</span><span class="sxs-lookup"><span data-stu-id="52eb2-159">On POS:</span></span>
+<span data-ttu-id="f656f-159">EKA</span><span class="sxs-lookup"><span data-stu-id="f656f-159">On POS:</span></span>
 
-- <span data-ttu-id="52eb2-160">Pasirinkite **Peržiūrėti laikrodžio įrašus**.</span><span class="sxs-lookup"><span data-stu-id="52eb2-160">Select **View timeclock entries**.</span></span>
-- <span data-ttu-id="52eb2-161">Galite matyti visų darbuotojų, kurie priskirti toms pačioms parduotuvėms, kaip ir jūs, laikrodžio registravimus.</span><span class="sxs-lookup"><span data-stu-id="52eb2-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
-- <span data-ttu-id="52eb2-162">Galite naudoti veiklos tipo ir parduotuvės filtrus laiko registravimams filtruoti.</span><span class="sxs-lookup"><span data-stu-id="52eb2-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+- <span data-ttu-id="f656f-160">Pasirinkite **Peržiūrėti laikrodžio įrašus**.</span><span class="sxs-lookup"><span data-stu-id="f656f-160">Select **View timeclock entries**.</span></span>
+- <span data-ttu-id="f656f-161">Galite matyti visų darbuotojų, kurie priskirti toms pačioms parduotuvėms, kaip ir jūs, laikrodžio registravimus.</span><span class="sxs-lookup"><span data-stu-id="f656f-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+- <span data-ttu-id="f656f-162">Galite naudoti veiklos tipo ir parduotuvės filtrus laiko registravimams filtruoti.</span><span class="sxs-lookup"><span data-stu-id="f656f-162">You can use the activity type and store filters to filter on time registrations.</span></span>
 
-## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="52eb2-163">Apdoroti ir valdyti darbuotojų laiko registravimą</span><span class="sxs-lookup"><span data-stu-id="52eb2-163">Process and manage time registrations</span></span>
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="f656f-163">Apdoroti ir valdyti darbuotojų laiko registravimą</span><span class="sxs-lookup"><span data-stu-id="f656f-163">Process and manage time registrations</span></span>
 
-<span data-ttu-id="52eb2-164">„Dynamics 365 for Retail“ vartotojas laikydamasis darbo eigos laiko registracijas skaičiuoja, tvirtina ir perkelia į algalapį.</span><span class="sxs-lookup"><span data-stu-id="52eb2-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+<span data-ttu-id="f656f-164">„Dynamics 365 for Retail“ vartotojas turi laikytis darbo eigos, kai skaičiuoja, tvirtina ir perkelia laiko registravimus į algalapį.</span><span class="sxs-lookup"><span data-stu-id="f656f-164">A Dynamics 365 for Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
 
-### <a name="primary-operations"></a><span data-ttu-id="52eb2-165">Pirminės operacijos</span><span class="sxs-lookup"><span data-stu-id="52eb2-165">Primary operations</span></span>
+### <a name="primary-operations"></a><span data-ttu-id="f656f-165">Pirminės operacijos</span><span class="sxs-lookup"><span data-stu-id="f656f-165">Primary operations</span></span>
 
-- <span data-ttu-id="52eb2-166">Skaičiuoti</span><span class="sxs-lookup"><span data-stu-id="52eb2-166">Calculate</span></span>
-- <span data-ttu-id="52eb2-167">Patvirtinti</span><span class="sxs-lookup"><span data-stu-id="52eb2-167">Approve</span></span>
-- <span data-ttu-id="52eb2-168">Pateikti į algalapį</span><span class="sxs-lookup"><span data-stu-id="52eb2-168">Submit to payroll</span></span>
+- <span data-ttu-id="f656f-166">Skaičiuoti</span><span class="sxs-lookup"><span data-stu-id="f656f-166">Calculate</span></span>
+- <span data-ttu-id="f656f-167">Patvirtinti</span><span class="sxs-lookup"><span data-stu-id="f656f-167">Approve</span></span>
+- <span data-ttu-id="f656f-168">Pateikti į algalapį</span><span class="sxs-lookup"><span data-stu-id="f656f-168">Submit to payroll</span></span>
 
-### <a name="other-common-operations"></a><span data-ttu-id="52eb2-169">Kitos įprastos operacijos</span><span class="sxs-lookup"><span data-stu-id="52eb2-169">Other common operations</span></span>
+### <a name="other-common-operations"></a><span data-ttu-id="f656f-169">Kitos įprastos operacijos</span><span class="sxs-lookup"><span data-stu-id="f656f-169">Other common operations</span></span>
 
-- <span data-ttu-id="52eb2-170">Masinis išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="52eb2-170">Bulk Clock-out</span></span>
-- <span data-ttu-id="52eb2-171">Registruoti neatvykimą</span><span class="sxs-lookup"><span data-stu-id="52eb2-171">Register Absence</span></span>
+- <span data-ttu-id="f656f-170">Masinis išėjimas iš darbo</span><span class="sxs-lookup"><span data-stu-id="f656f-170">Bulk Clock-out</span></span>
+- <span data-ttu-id="f656f-171">Registruoti neatvykimą</span><span class="sxs-lookup"><span data-stu-id="f656f-171">Register Absence</span></span>
 
-<span data-ttu-id="52eb2-172">Daugiau informacijos apie tai, kaip apdoroti laiko ir buvimo darbe registravimus, žr. [Laiko ir buvimo darbe registravimų apdorojimas](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="52eb2-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
-
+<span data-ttu-id="f656f-172">Daugiau informacijos apie tai, kaip apdoroti laiko ir buvimo darbe registravimus, žr. [Laiko ir buvimo darbe registravimų apdorojimas](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="f656f-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>

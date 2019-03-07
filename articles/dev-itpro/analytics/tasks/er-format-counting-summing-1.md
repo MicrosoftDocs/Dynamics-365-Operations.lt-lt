@@ -1,13 +1,13 @@
---- 
-title: "ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis – Formato kūrimas)"
-description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis."
+---
+title: 'ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis – Formato kūrimas)'
+description: Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -16,45 +16,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362262"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a><span data-ttu-id="e0fd5-103">ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)</span><span class="sxs-lookup"><span data-stu-id="e0fd5-103">ER Configure format to do counting and summing (Part 1: Create format)</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a><span data-ttu-id="4536c-103">ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)</span><span class="sxs-lookup"><span data-stu-id="4536c-103">ER Configure format to do counting and summing (Part 1: Create format)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e0fd5-104">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="e0fd5-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="4536c-104">Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.</span><span class="sxs-lookup"><span data-stu-id="4536c-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="4536c-105">Šiuos veiksmus galima atlikti bet kurioje įmonėje.</span><span class="sxs-lookup"><span data-stu-id="4536c-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="e0fd5-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
+<span data-ttu-id="4536c-106">Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“.</span><span class="sxs-lookup"><span data-stu-id="4536c-106">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” procedure.</span></span>
 
-<span data-ttu-id="e0fd5-107">Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="4536c-107">Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.</span><span class="sxs-lookup"><span data-stu-id="4536c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="e0fd5-108">Gaukite prieigą prie „Microsoft“ teikiamų konfigūracijų sąrašo</span><span class="sxs-lookup"><span data-stu-id="e0fd5-108">Get access to the list of configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="e0fd5-109">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="e0fd5-110">Įsitikinkite, kad teikėjas „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="e0fd5-110">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="e0fd5-111">yra pasiekiamas ir pažymėtas kaip aktyvus.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-111">provider is available and marked as active.</span></span>  
-2. <span data-ttu-id="e0fd5-112">Pasirinkite „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="e0fd5-112">Select the “Litware, Inc.”</span></span> <span data-ttu-id="e0fd5-113">„Litware, Inc.“.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-113">provider.</span></span>
-3. <span data-ttu-id="e0fd5-114">Spustelėkite Saugyklos.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-114">Click Repositories.</span></span>
-    * <span data-ttu-id="e0fd5-115">Jei tipo Operacijų ištekliai saugykla jau yra, praleiskite likusius dabartinės antrinės užduoties veiksmus.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-115">If a repository of the "Operations resources" type already exists, skip the remaining steps of the current sub-task.</span></span>  
-4. <span data-ttu-id="e0fd5-116">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-116">Click Add to open the drop dialog.</span></span>
-5. <span data-ttu-id="e0fd5-117">Lauke Konfigūracijų saugyklos tipas įveskite Operacijų ištekliai.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
-6. <span data-ttu-id="e0fd5-118">Spustelėkite Kurti saugyklą.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-118">Click Create repository.</span></span>
-7. <span data-ttu-id="e0fd5-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-119">Click OK.</span></span>
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="4536c-108">Gaukite prieigą prie „Microsoft“ teikiamų konfigūracijų sąrašo</span><span class="sxs-lookup"><span data-stu-id="4536c-108">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="4536c-109">Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="4536c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="4536c-110">Įsitikinkite, kad teikėjas „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="4536c-110">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="4536c-111">yra pasiekiamas ir pažymėtas kaip aktyvus.</span><span class="sxs-lookup"><span data-stu-id="4536c-111">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="4536c-112">Pasirinkite „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="4536c-112">Select the “Litware, Inc.”</span></span> <span data-ttu-id="4536c-113">„Litware, Inc.“.</span><span class="sxs-lookup"><span data-stu-id="4536c-113">provider.</span></span>
+3. <span data-ttu-id="4536c-114">Spustelėkite Saugyklos.</span><span class="sxs-lookup"><span data-stu-id="4536c-114">Click Repositories.</span></span>
+    * <span data-ttu-id="4536c-115">Jei tipo Operacijų ištekliai saugykla jau yra, praleiskite likusius dabartinės antrinės užduoties veiksmus.</span><span class="sxs-lookup"><span data-stu-id="4536c-115">If a repository of the "Operations resources" type already exists, skip the remaining steps of the current sub-task.</span></span>  
+4. <span data-ttu-id="4536c-116">Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="4536c-116">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="4536c-117">Lauke Konfigūracijų saugyklos tipas įveskite Operacijų ištekliai.</span><span class="sxs-lookup"><span data-stu-id="4536c-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="4536c-118">Spustelėkite Kurti saugyklą.</span><span class="sxs-lookup"><span data-stu-id="4536c-118">Click Create repository.</span></span>
+7. <span data-ttu-id="4536c-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="4536c-119">Click OK.</span></span>
 
-## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a><span data-ttu-id="e0fd5-120">Gaukite „Microsoft“ teikiamas „Intrastat“ konfigūracijas</span><span class="sxs-lookup"><span data-stu-id="e0fd5-120">Get the Intrastat configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="e0fd5-121">Spustelėkite Atidaryti.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-121">Click Open.</span></span>
-2. <span data-ttu-id="e0fd5-122">Medyje pasirinkite Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="e0fd5-122">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
-3. <span data-ttu-id="e0fd5-123">Spustelėkite Importuoti.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-123">Click Import.</span></span>
-    * <span data-ttu-id="e0fd5-124">Spustelėkite Importuoti 1.1 pasirinktos konfigūracijos versiją.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-124">Click Import for version 1.1 of the selected configuration.</span></span>  
-4. <span data-ttu-id="e0fd5-125">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-125">Click Yes.</span></span>
-5. <span data-ttu-id="e0fd5-126">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-126">Close the page.</span></span>
-6. <span data-ttu-id="e0fd5-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-127">Close the page.</span></span>
-7. <span data-ttu-id="e0fd5-128">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-128">Click Reporting configurations.</span></span>
-8. <span data-ttu-id="e0fd5-129">Medyje išplėskite „Intrastat“ modelis.</span><span class="sxs-lookup"><span data-stu-id="e0fd5-129">In the tree, expand 'Intrastat model'.</span></span>
-9. <span data-ttu-id="e0fd5-130">Medyje pasirinkite Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="e0fd5-130">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
-
+## <a name="get-the-intrastat-configurations-provided-by-microsoft"></a><span data-ttu-id="4536c-120">Gaukite „Microsoft“ teikiamas „Intrastat“ konfigūracijas</span><span class="sxs-lookup"><span data-stu-id="4536c-120">Get the Intrastat configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="4536c-121">Spustelėkite Atidaryti.</span><span class="sxs-lookup"><span data-stu-id="4536c-121">Click Open.</span></span>
+2. <span data-ttu-id="4536c-122">Medyje pasirinkite Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4536c-122">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+3. <span data-ttu-id="4536c-123">Spustelėkite Importuoti.</span><span class="sxs-lookup"><span data-stu-id="4536c-123">Click Import.</span></span>
+    * <span data-ttu-id="4536c-124">Spustelėkite Importuoti 1.1 pasirinktos konfigūracijos versiją.</span><span class="sxs-lookup"><span data-stu-id="4536c-124">Click Import for version 1.1 of the selected configuration.</span></span>  
+4. <span data-ttu-id="4536c-125">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="4536c-125">Click Yes.</span></span>
+5. <span data-ttu-id="4536c-126">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4536c-126">Close the page.</span></span>
+6. <span data-ttu-id="4536c-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4536c-127">Close the page.</span></span>
+7. <span data-ttu-id="4536c-128">Spustelėkite Ataskaitų konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="4536c-128">Click Reporting configurations.</span></span>
+8. <span data-ttu-id="4536c-129">Medyje išplėskite „Intrastat“ modelis.</span><span class="sxs-lookup"><span data-stu-id="4536c-129">In the tree, expand 'Intrastat model'.</span></span>
+9. <span data-ttu-id="4536c-130">Medyje pasirinkite Intrastat model\Intrastat (DE).</span><span class="sxs-lookup"><span data-stu-id="4536c-130">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
 

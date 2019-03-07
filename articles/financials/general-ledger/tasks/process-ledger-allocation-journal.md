@@ -1,13 +1,13 @@
---- 
-title: "Apdoroti didžiosios knygos paskirstymo žurnalą"
-description: "Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas."
+---
+title: Apdoroti didžiosios knygos paskirstymo žurnalą
+description: Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,32 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d2046e25719c9023bee99736488a4ee6f22723fe
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335651"
 ---
-# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="cf9bb-103">Apdoroti didžiosios knygos paskirstymo žurnalą</span><span class="sxs-lookup"><span data-stu-id="cf9bb-103">Process ledger allocation journal</span></span>
+# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="affa9-103">Apdoroti didžiosios knygos paskirstymo žurnalą</span><span class="sxs-lookup"><span data-stu-id="affa9-103">Process ledger allocation journal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cf9bb-104">Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="cf9bb-105">Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="cf9bb-106">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-106">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="affa9-104">Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="affa9-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="affa9-105">Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė.</span><span class="sxs-lookup"><span data-stu-id="affa9-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="affa9-106">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="affa9-106">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="cf9bb-107">Eikite į Didžioji knyga > Paskirstymai > Apdoroti paskirstymo užklausą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-107">Go to General ledger > Allocations > Process allocation request.</span></span>
-2. <span data-ttu-id="cf9bb-108">Lauke Taisyklė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-108">In the Rule field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="cf9bb-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-109">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="cf9bb-110">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-110">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="cf9bb-111">Lauke Taikymo pradžios data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-111">In the As of date field, enter a date.</span></span>
-    * <span data-ttu-id="cf9bb-112">Taikymo pradžios data yra labai svarbi, kai Didžioji knyga yra taisyklės Duomenų šaltinis.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-112">The As of Date is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="cf9bb-113">Šia data reguliuojama, kuriuos didžiosios knygos balansus įtraukti į paskirstymą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-113">This date controls which ledger balances to include for allocation.</span></span>     <span data-ttu-id="cf9bb-114">Lauke Nulinis šaltinis pasirinkite Stabdyti.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-114">In the Zero source field select Stop.</span></span> <span data-ttu-id="cf9bb-115">Taip bus sustabdytas paskirstymo procesas ir bus rodomas pranešimas, kuriame teigiama, kad pasirinkta nulinė šaltinio suma.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-115">This will  Stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
-6. <span data-ttu-id="cf9bb-116">Lauke Pasiūlymo pasirinktys pasirinkite „Tik pasiūlymas“.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-116">In the Proposal options field, select 'Proposal only'.</span></span>
-    * <span data-ttu-id="cf9bb-117">Pasirinkite Pasiūlymas tik tam, kad prieš registruodami paskirstymą Didžiojoje knygoje galėtumėte peržiūrėti ir pasirinktinai patvirtinti paskirstymo žurnalų rezultatą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-117">Select Proposal only to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
-7. <span data-ttu-id="cf9bb-118">Lauke DK registravimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-118">In the GL posting date field, enter a date.</span></span>
-8. <span data-ttu-id="cf9bb-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-119">Click OK.</span></span>
-9. <span data-ttu-id="cf9bb-120">Eikite į Didžioji knyga > Paskirstymas > Paskirstymo žurnalai.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-120">Go to General ledger > Allocations > Allocation journals.</span></span>
-10. <span data-ttu-id="cf9bb-121">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-121">Click Lines.</span></span>
-11. <span data-ttu-id="cf9bb-122">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-122">Click Post.</span></span>
-12. <span data-ttu-id="cf9bb-123">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="cf9bb-123">Click Post.</span></span>
-
+1. <span data-ttu-id="affa9-107">Eikite į Didžioji knyga > Paskirstymai > Apdoroti paskirstymo užklausą.</span><span class="sxs-lookup"><span data-stu-id="affa9-107">Go to General ledger > Allocations > Process allocation request.</span></span>
+2. <span data-ttu-id="affa9-108">Lauke Taisyklė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="affa9-108">In the Rule field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="affa9-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="affa9-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="affa9-110">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="affa9-110">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="affa9-111">Lauke Taikymo pradžios data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="affa9-111">In the As of date field, enter a date.</span></span>
+    * <span data-ttu-id="affa9-112">Taikymo pradžios data yra labai svarbi, kai Didžioji knyga yra taisyklės Duomenų šaltinis.</span><span class="sxs-lookup"><span data-stu-id="affa9-112">The As of Date is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="affa9-113">Šia data reguliuojama, kuriuos didžiosios knygos balansus įtraukti į paskirstymą.</span><span class="sxs-lookup"><span data-stu-id="affa9-113">This date controls which ledger balances to include for allocation.</span></span>     <span data-ttu-id="affa9-114">Lauke Nulinis šaltinis pasirinkite Stabdyti.</span><span class="sxs-lookup"><span data-stu-id="affa9-114">In the Zero source field select Stop.</span></span> <span data-ttu-id="affa9-115">Taip bus sustabdytas paskirstymo procesas ir bus rodomas pranešimas, kuriame teigiama, kad pasirinkta nulinė šaltinio suma.</span><span class="sxs-lookup"><span data-stu-id="affa9-115">This will  Stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
+6. <span data-ttu-id="affa9-116">Lauke Pasiūlymo pasirinktys pasirinkite „Tik pasiūlymas“.</span><span class="sxs-lookup"><span data-stu-id="affa9-116">In the Proposal options field, select 'Proposal only'.</span></span>
+    * <span data-ttu-id="affa9-117">Pasirinkite Pasiūlymas tik tam, kad prieš registruodami paskirstymą Didžiojoje knygoje galėtumėte peržiūrėti ir pasirinktinai patvirtinti paskirstymo žurnalų rezultatą.</span><span class="sxs-lookup"><span data-stu-id="affa9-117">Select Proposal only to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
+7. <span data-ttu-id="affa9-118">Lauke DK registravimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="affa9-118">In the GL posting date field, enter a date.</span></span>
+8. <span data-ttu-id="affa9-119">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="affa9-119">Click OK.</span></span>
+9. <span data-ttu-id="affa9-120">Eikite į Didžioji knyga > Paskirstymas > Paskirstymo žurnalai.</span><span class="sxs-lookup"><span data-stu-id="affa9-120">Go to General ledger > Allocations > Allocation journals.</span></span>
+10. <span data-ttu-id="affa9-121">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="affa9-121">Click Lines.</span></span>
+11. <span data-ttu-id="affa9-122">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="affa9-122">Click Post.</span></span>
+12. <span data-ttu-id="affa9-123">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="affa9-123">Click Post.</span></span>
 

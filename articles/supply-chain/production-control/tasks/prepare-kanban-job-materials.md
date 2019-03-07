@@ -1,13 +1,13 @@
---- 
-title: "Parengti „kanban“ užduoties apdorojimą, kai yra darbo elemento medžiagų"
-description: "Šios užduoties tikslas yra parengti proceso „kanban“ užduotį, kai yra visų darbo elemento medžiagų."
+---
+title: Parengti „kanban“ užduoties apdorojimą, kai yra darbo elemento medžiagų
+description: Šios užduoties tikslas yra parengti proceso „kanban“ užduotį, kai yra visų darbo elemento medžiagų.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: shylaw
@@ -17,29 +17,28 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 714196ba92fe3f57c80809930ed54705a4e75078
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341953"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="34450-103">Parengti „kanban“ užduoties apdorojimą, kai yra darbo elemento medžiagų</span><span class="sxs-lookup"><span data-stu-id="34450-103">Prepare a process kanban job when materials are available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="6a964-103">Parengti „kanban“ užduoties apdorojimą, kai yra darbo elemento medžiagų</span><span class="sxs-lookup"><span data-stu-id="6a964-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="34450-104">Šios užduoties tikslas yra parengti proceso „kanban“ užduotį, kai yra visų darbo elemento medžiagų.</span><span class="sxs-lookup"><span data-stu-id="34450-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="34450-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="34450-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="34450-106">Ši užduotis skirta mašinos operatoriui.</span><span class="sxs-lookup"><span data-stu-id="34450-106">This task is intended for the machine operator.</span></span>
+<span data-ttu-id="6a964-104">Šios užduoties tikslas yra parengti proceso „kanban“ užduotį, kai yra visų darbo elemento medžiagų.</span><span class="sxs-lookup"><span data-stu-id="6a964-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="6a964-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="6a964-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="6a964-106">Ši užduotis skirta mašinos operatoriui.</span><span class="sxs-lookup"><span data-stu-id="6a964-106">This task is intended for the machine operator.</span></span>
 
-1. <span data-ttu-id="34450-107">Eikite į proceso užduočių „kanban“ sritį.</span><span class="sxs-lookup"><span data-stu-id="34450-107">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="34450-108">Lauke Darbo elementas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="34450-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="34450-109">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="34450-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="34450-110">Pasirinkite darbo elementą 1250 ir spustelėkite „Gerai“.</span><span class="sxs-lookup"><span data-stu-id="34450-110">Select work cell 1250 and click OK.</span></span>  
-4. <span data-ttu-id="34450-111">Sąraše pasirinkite 4 eilutę.</span><span class="sxs-lookup"><span data-stu-id="34450-111">In the list, select row 4.</span></span>
-    * <span data-ttu-id="34450-112">Švarioje demonstracinėje įmonėje pirmas dar nebaigta užduotis yra „Kanban“ 000329 4 eilutėje.</span><span class="sxs-lookup"><span data-stu-id="34450-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
-5. <span data-ttu-id="34450-113">Perjunkite skyriaus „Išrinkimo dokumentas“ išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="34450-113">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="34450-114">Patikrinkite, ar išrinkimo dokumente yra visų prekių tiekimo būsena.</span><span class="sxs-lookup"><span data-stu-id="34450-114">Verify that the supply status is available for all items in the picking list.</span></span>  
-    * <span data-ttu-id="34450-115">Pasirinkus kelias užduotis, išrinkimo dokumentas rodys visų pasirinktoms užduotims reikalingų prekių sumą.</span><span class="sxs-lookup"><span data-stu-id="34450-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
-6. <span data-ttu-id="34450-116">Spustelėkite „Parengti“.</span><span class="sxs-lookup"><span data-stu-id="34450-116">Click Prepare.</span></span>
-    * <span data-ttu-id="34450-117">Dabar paruošimo procesas baigtas.</span><span class="sxs-lookup"><span data-stu-id="34450-117">The preparation process is now completed.</span></span> <span data-ttu-id="34450-118">Pasirinktas visų išrinkimo dokumente esančių eilučių žymės langelis nurodo, kad tiekimo būsena paimta.</span><span class="sxs-lookup"><span data-stu-id="34450-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
-
+1. <span data-ttu-id="6a964-107">Eikite į proceso užduočių „kanban“ sritį.</span><span class="sxs-lookup"><span data-stu-id="6a964-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="6a964-108">Lauke Darbo elementas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="6a964-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="6a964-109">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6a964-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6a964-110">Pasirinkite darbo elementą 1250 ir spustelėkite „Gerai“.</span><span class="sxs-lookup"><span data-stu-id="6a964-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="6a964-111">Sąraše pasirinkite 4 eilutę.</span><span class="sxs-lookup"><span data-stu-id="6a964-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="6a964-112">Švarioje demonstracinėje įmonėje pirmas dar nebaigta užduotis yra „Kanban“ 000329 4 eilutėje.</span><span class="sxs-lookup"><span data-stu-id="6a964-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="6a964-113">Perjunkite skyriaus „Išrinkimo dokumentas“ išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="6a964-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="6a964-114">Patikrinkite, ar išrinkimo dokumente yra visų prekių tiekimo būsena.</span><span class="sxs-lookup"><span data-stu-id="6a964-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="6a964-115">Pasirinkus kelias užduotis, išrinkimo dokumentas rodys visų pasirinktoms užduotims reikalingų prekių sumą.</span><span class="sxs-lookup"><span data-stu-id="6a964-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="6a964-116">Spustelėkite „Parengti“.</span><span class="sxs-lookup"><span data-stu-id="6a964-116">Click Prepare.</span></span>
+    * <span data-ttu-id="6a964-117">Dabar paruošimo procesas baigtas.</span><span class="sxs-lookup"><span data-stu-id="6a964-117">The preparation process is now completed.</span></span> <span data-ttu-id="6a964-118">Pasirinktas visų išrinkimo dokumente esančių eilučių žymės langelis nurodo, kad tiekimo būsena paimta.</span><span class="sxs-lookup"><span data-stu-id="6a964-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 

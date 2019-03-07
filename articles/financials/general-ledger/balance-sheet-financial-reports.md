@@ -1,13 +1,13 @@
 ---
-title: "Balanso finansinės ataskaitos"
-description: "Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai."
+title: Balanso finansinės ataskaitos
+description: Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,69 +18,67 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 9ff778af1bb3af3a10132ab3193ad1cd5daa24e1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342298"
 ---
-
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="e19f1-104">Balanso finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="e19f1-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="2e5f5-104">Balanso finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="2e5f5-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e19f1-105">Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="e19f1-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="e19f1-106">Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="e19f1-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="2e5f5-105">Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="2e5f5-106">Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="e19f1-107">Numatytosios balanso finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="e19f1-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="2e5f5-107">Numatytosios balanso finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="2e5f5-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="e19f1-108">Yra dvi numatytosios balanso ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="e19f1-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="e19f1-109">Vienoje ataskaitoje skyriai suspausti.</span><span class="sxs-lookup"><span data-stu-id="e19f1-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="e19f1-110">Kitoje ataskaitoje skyriai yra vienas šalia kito.</span><span class="sxs-lookup"><span data-stu-id="e19f1-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="2e5f5-108">Yra dvi numatytosios balanso ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="2e5f5-109">Vienoje ataskaitoje skyriai suspausti.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="2e5f5-110">Kitoje ataskaitoje skyriai yra vienas šalia kito.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="e19f1-111">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="e19f1-111">Default report</span></span>                       | <span data-ttu-id="e19f1-112">Kuo ji naudinga</span><span class="sxs-lookup"><span data-stu-id="e19f1-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="2e5f5-111">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="2e5f5-111">Default report</span></span>                       | <span data-ttu-id="2e5f5-112">Kuo ji naudinga</span><span class="sxs-lookup"><span data-stu-id="2e5f5-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="e19f1-113">Balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="e19f1-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="e19f1-114">Pateikiamas organizacijos metų finansinės padėties rodinys.</span><span class="sxs-lookup"><span data-stu-id="e19f1-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="e19f1-115">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="e19f1-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="e19f1-116">Pateikiamas organizacijos metų finansinės padėties rodinys.</span><span class="sxs-lookup"><span data-stu-id="e19f1-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="e19f1-117">Turtas, įsipareigojimai ir akcininko kapitalas yra vienas šalia kito.</span><span class="sxs-lookup"><span data-stu-id="e19f1-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="2e5f5-113">Balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="2e5f5-114">Pateikiamas organizacijos metų finansinės padėties rodinys.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="2e5f5-115">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="2e5f5-116">Pateikiamas organizacijos metų finansinės padėties rodinys.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="2e5f5-117">Turtas, įsipareigojimai ir akcininko kapitalas yra vienas šalia kito.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="e19f1-118">Kūrimo blokai</span><span class="sxs-lookup"><span data-stu-id="e19f1-118">Building blocks</span></span>
-<span data-ttu-id="e19f1-119">Balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="e19f1-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="2e5f5-118">Kūrimo blokai</span><span class="sxs-lookup"><span data-stu-id="2e5f5-118">Building blocks</span></span>
+<span data-ttu-id="2e5f5-119">Balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="e19f1-120">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="e19f1-120">Default report</span></span>                       | <span data-ttu-id="e19f1-121">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="e19f1-121">Row definition</span></span>                       | <span data-ttu-id="e19f1-122">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="e19f1-122">Column definition</span></span>             |
+| <span data-ttu-id="2e5f5-120">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="2e5f5-120">Default report</span></span>                       | <span data-ttu-id="2e5f5-121">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-121">Row definition</span></span>                       | <span data-ttu-id="2e5f5-122">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="e19f1-123">Balansas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="e19f1-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="e19f1-124">Balansas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="e19f1-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="e19f1-125">Nuo šių metų pradžios ir nuokrypis – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="e19f1-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="e19f1-126">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="e19f1-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="e19f1-127">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="e19f1-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="e19f1-128">Stulpelis Nuo šių metų pradžios – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="e19f1-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="2e5f5-123">Balansas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="2e5f5-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="2e5f5-124">Balansas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="2e5f5-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="2e5f5-125">Nuo šių metų pradžios ir nuokrypis – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="2e5f5-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="2e5f5-126">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="2e5f5-127">Sugretintas balansas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="2e5f5-128">Stulpelis Nuo šių metų pradžios – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="2e5f5-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="e19f1-129">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="e19f1-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="2e5f5-129">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-129">Row definition</span></span>
 
-<span data-ttu-id="e19f1-130">Abiejų balanso ataskaitų eilučių apibrėžimuose pateikiami skyriai, skirti kiekvienai įprastinio balanso daliai.</span><span class="sxs-lookup"><span data-stu-id="e19f1-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="e19f1-131">Ataskaitoje, kurioje duomenys nurodomi vienas šalia kito, pateikiamas stulpelio lūžis, kad įsipareigojimai ir savininko kapitalas būtų rodomi šalia turto.</span><span class="sxs-lookup"><span data-stu-id="e19f1-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="e19f1-132">Pagrindinės sąskaitos kategorijos dimensija naudojama norint sukurti abiejų eilučių aprašus.</span><span class="sxs-lookup"><span data-stu-id="e19f1-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="e19f1-133">Todėl bet kas gali generuoti ataskaitas, nes nereikia atlikti jokių pakeitimų.</span><span class="sxs-lookup"><span data-stu-id="e19f1-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="2e5f5-130">Abiejų balanso ataskaitų eilučių apibrėžimuose pateikiami skyriai, skirti kiekvienai įprastinio balanso daliai.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="2e5f5-131">Ataskaitoje, kurioje duomenys nurodomi vienas šalia kito, pateikiamas stulpelio lūžis, kad įsipareigojimai ir savininko kapitalas būtų rodomi šalia turto.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="2e5f5-132">Pagrindinės sąskaitos kategorijos dimensija naudojama norint sukurti abiejų eilučių aprašus.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="2e5f5-133">Todėl bet kas gali generuoti ataskaitas, nes nereikia atlikti jokių pakeitimų.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="e19f1-134">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="e19f1-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="2e5f5-134">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-134">Column definition</span></span>
 
-<span data-ttu-id="e19f1-135">Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpelio aprašuose nurodomi skirtingi stulpelių tipai.</span><span class="sxs-lookup"><span data-stu-id="e19f1-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="2e5f5-135">Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpelio aprašuose nurodomi skirtingi stulpelių tipai.</span><span class="sxs-lookup"><span data-stu-id="2e5f5-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="e19f1-136">**Nuo šių metų pradžios ir nuokrypis – Numatytieji stulpelių tipai:**</span><span class="sxs-lookup"><span data-stu-id="e19f1-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="e19f1-137">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="e19f1-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="e19f1-138">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="e19f1-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="e19f1-139">**FD** – finansiniai duomenys nuo praėjusių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="e19f1-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="e19f1-140">**CALC** – nuokrypis, gautas nuo šių metų atėmus praėjusius metus</span><span class="sxs-lookup"><span data-stu-id="e19f1-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="2e5f5-136">**Nuo šių metų pradžios ir nuokrypis – Numatytieji stulpelių tipai:**</span><span class="sxs-lookup"><span data-stu-id="2e5f5-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="2e5f5-137">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="2e5f5-138">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="2e5f5-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="2e5f5-139">**FD** – finansiniai duomenys nuo praėjusių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="2e5f5-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="2e5f5-140">**CALC** – nuokrypis, gautas nuo šių metų atėmus praėjusius metus</span><span class="sxs-lookup"><span data-stu-id="2e5f5-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="e19f1-141">**Stulpelis Nuo šių metų pradžios – Numatytasis:**</span><span class="sxs-lookup"><span data-stu-id="e19f1-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="e19f1-142">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="e19f1-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="e19f1-143">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="e19f1-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="2e5f5-141">**Stulpelis Nuo šių metų pradžios – Numatytasis:**</span><span class="sxs-lookup"><span data-stu-id="2e5f5-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="2e5f5-142">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="2e5f5-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="2e5f5-143">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="2e5f5-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="e19f1-144">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="e19f1-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="2e5f5-144">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="2e5f5-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="e19f1-145">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="e19f1-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="2e5f5-145">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="2e5f5-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="e19f1-146">Finansinių ataskaitų peržiūra</span><span class="sxs-lookup"><span data-stu-id="e19f1-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="2e5f5-146">Finansinių ataskaitų peržiūra</span><span class="sxs-lookup"><span data-stu-id="2e5f5-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="e19f1-147">„Dynamics‟ Finansinių ataskaitų tinklaraštis</span><span class="sxs-lookup"><span data-stu-id="e19f1-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
+[<span data-ttu-id="2e5f5-147">„Dynamics‟ Finansinių ataskaitų tinklaraštis</span><span class="sxs-lookup"><span data-stu-id="2e5f5-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
