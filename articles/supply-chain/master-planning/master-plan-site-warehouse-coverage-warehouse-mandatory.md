@@ -1,13 +1,13 @@
 ---
-title: "Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas"
-description: "Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija privaloma."
+title: Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas
+description: Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos. Sandėlio dimensija privaloma.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,49 +19,47 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: c52fc9955afe2a7502d0e1f9e7cdfc5b89bbb31d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365344"
 ---
-
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a><span data-ttu-id="154b6-104">Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas</span><span class="sxs-lookup"><span data-stu-id="154b6-104">Master planning for site and warehouse coverage, warehouse mandatory</span></span>
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a><span data-ttu-id="eec72-104">Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas</span><span class="sxs-lookup"><span data-stu-id="eec72-104">Master planning for site and warehouse coverage, warehouse mandatory</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="154b6-105">Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos.</span><span class="sxs-lookup"><span data-stu-id="154b6-105">This topic describes how an item that has site and warehouse as coverage dimensions is planned.</span></span> <span data-ttu-id="154b6-106">Sandėlio dimensija privaloma.</span><span class="sxs-lookup"><span data-stu-id="154b6-106">The warehouse dimension is mandatory.</span></span>
+<span data-ttu-id="eec72-105">Šioje temoje aprašyta, kaip planuojama prekė, kurios teritorija ir sandėlis yra padengimo dimensijos.</span><span class="sxs-lookup"><span data-stu-id="eec72-105">This topic describes how an item that has site and warehouse as coverage dimensions is planned.</span></span> <span data-ttu-id="eec72-106">Sandėlio dimensija privaloma.</span><span class="sxs-lookup"><span data-stu-id="eec72-106">The warehouse dimension is mandatory.</span></span>
 
-<span data-ttu-id="154b6-107">Į šį bendrojo planavimo scenarijų įeina toliau nurodytos sąlygos.</span><span class="sxs-lookup"><span data-stu-id="154b6-107">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="eec72-107">Į šį bendrojo planavimo scenarijų įeina toliau nurodytos sąlygos.</span><span class="sxs-lookup"><span data-stu-id="eec72-107">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="154b6-108">Vietos dimensija yra nustatoma kaip privaloma ir turi būti įvesta vykdant poreikio operaciją.</span><span class="sxs-lookup"><span data-stu-id="154b6-108">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="154b6-109">Sandėlio dimensija yra nustatoma kaip privaloma ir turi būti įvesta poreikio operacijos metu.</span><span class="sxs-lookup"><span data-stu-id="154b6-109">The warehouse dimension is set to mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="154b6-110">Teritorijos ir sandėlio dimensijos nustatytos padengimui planuoti.</span><span class="sxs-lookup"><span data-stu-id="154b6-110">The site and warehouse dimensions are set for coverage planning.</span></span> <span data-ttu-id="154b6-111">Kitos dimensijos taip pat gali būti nustatytos padengimui planuoti.</span><span class="sxs-lookup"><span data-stu-id="154b6-111">Other dimensions may be set for coverage planning also.</span></span> <span data-ttu-id="154b6-112">Tačiau jų neveikia kelių teritorijų funkcionalumas.</span><span class="sxs-lookup"><span data-stu-id="154b6-112">However, they are not affected by the multisite functionality.</span></span>
+-   <span data-ttu-id="eec72-108">Vietos dimensija yra nustatoma kaip privaloma ir turi būti įvesta vykdant poreikio operaciją.</span><span class="sxs-lookup"><span data-stu-id="eec72-108">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="eec72-109">Sandėlio dimensija yra nustatoma kaip privaloma ir turi būti įvesta poreikio operacijos metu.</span><span class="sxs-lookup"><span data-stu-id="eec72-109">The warehouse dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="eec72-110">Teritorijos ir sandėlio dimensijos nustatytos padengimui planuoti.</span><span class="sxs-lookup"><span data-stu-id="eec72-110">The site and warehouse dimensions are set for coverage planning.</span></span> <span data-ttu-id="eec72-111">Kitos dimensijos taip pat gali būti nustatytos padengimui planuoti.</span><span class="sxs-lookup"><span data-stu-id="eec72-111">Other dimensions may be set for coverage planning also.</span></span> <span data-ttu-id="eec72-112">Tačiau jų neveikia kelių teritorijų funkcionalumas.</span><span class="sxs-lookup"><span data-stu-id="eec72-112">However, they are not affected by the multisite functionality.</span></span>
 
-<span data-ttu-id="154b6-113">Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="154b6-113">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="154b6-114">Parametrai, rodomi grafikos duomenyse, ir jų vietos yra tokios:</span><span class="sxs-lookup"><span data-stu-id="154b6-114">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
--   <span data-ttu-id="154b6-115">Sandėlis nustatytas į **Rankinis**.</span><span class="sxs-lookup"><span data-stu-id="154b6-115">The warehouse is set to **Manual**.</span></span> <span data-ttu-id="154b6-116">Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**.</span><span class="sxs-lookup"><span data-stu-id="154b6-116">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="154b6-117">**Bendrojo planavimo** „FastTab‟ žr. lauką **Rankinis**.</span><span class="sxs-lookup"><span data-stu-id="154b6-117">On the **Master planning** FastTab, see the **Manual** field.</span></span>
--   <span data-ttu-id="154b6-118">Prekės padengimas yra apibrėžiamas prekei.</span><span class="sxs-lookup"><span data-stu-id="154b6-118">Item coverage is defined for the item.</span></span> <span data-ttu-id="154b6-119">Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**.</span><span class="sxs-lookup"><span data-stu-id="154b6-119">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="154b6-120">Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Prekės padengimas**.</span><span class="sxs-lookup"><span data-stu-id="154b6-120">Select the item, and then, on the Action pane, on the **Plan** tab, click **Item coverage**.</span></span>
--   <span data-ttu-id="154b6-121">Papildymo ryšiai apibrėžiami sandėliui.</span><span class="sxs-lookup"><span data-stu-id="154b6-121">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="154b6-122">Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**.</span><span class="sxs-lookup"><span data-stu-id="154b6-122">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="154b6-123">**Bendrojo planavimo** „FastTab‟ žr. laukų grupę **Pagrindinis sandėlis**.</span><span class="sxs-lookup"><span data-stu-id="154b6-123">On the **Master planning** FastTab, see the **Main warehouse** field group.</span></span>
--   <span data-ttu-id="154b6-124">Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“.</span><span class="sxs-lookup"><span data-stu-id="154b6-124">The default order type is set to Production, Purchase order, or Kanban.</span></span> <span data-ttu-id="154b6-125">Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**.</span><span class="sxs-lookup"><span data-stu-id="154b6-125">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="154b6-126">Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Numatytosios užsakymo nuostatos**.</span><span class="sxs-lookup"><span data-stu-id="154b6-126">Select the item, and then, on the Action pane, on the **Plan** tab, click **Default order settings**.</span></span> <span data-ttu-id="154b6-127">Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.</span><span class="sxs-lookup"><span data-stu-id="154b6-127">In the **Default order settings** form, see the **Default order type**.</span></span>
+<span data-ttu-id="eec72-113">Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavimas.</span><span class="sxs-lookup"><span data-stu-id="eec72-113">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="eec72-114">Parametrai, rodomi grafikos duomenyse, ir jų vietos yra tokios:</span><span class="sxs-lookup"><span data-stu-id="eec72-114">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="eec72-115">Sandėlis nustatytas į **Rankinis**.</span><span class="sxs-lookup"><span data-stu-id="eec72-115">The warehouse is set to **Manual**.</span></span> <span data-ttu-id="eec72-116">Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**.</span><span class="sxs-lookup"><span data-stu-id="eec72-116">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="eec72-117">**Bendrojo planavimo** „FastTab‟ žr. lauką **Rankinis**.</span><span class="sxs-lookup"><span data-stu-id="eec72-117">On the **Master planning** FastTab, see the **Manual** field.</span></span>
+-   <span data-ttu-id="eec72-118">Prekės padengimas yra apibrėžiamas prekei.</span><span class="sxs-lookup"><span data-stu-id="eec72-118">Item coverage is defined for the item.</span></span> <span data-ttu-id="eec72-119">Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**.</span><span class="sxs-lookup"><span data-stu-id="eec72-119">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="eec72-120">Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Prekės padengimas**.</span><span class="sxs-lookup"><span data-stu-id="eec72-120">Select the item, and then, on the Action pane, on the **Plan** tab, click **Item coverage**.</span></span>
+-   <span data-ttu-id="eec72-121">Papildymo ryšiai apibrėžiami sandėliui.</span><span class="sxs-lookup"><span data-stu-id="eec72-121">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="eec72-122">Spustelėkite **Atsargų valdymas &gt; Sąranka &gt; Atsargų paskirstymas &gt; Sandėliai**.</span><span class="sxs-lookup"><span data-stu-id="eec72-122">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="eec72-123">**Bendrojo planavimo** „FastTab‟ žr. laukų grupę **Pagrindinis sandėlis**.</span><span class="sxs-lookup"><span data-stu-id="eec72-123">On the **Master planning** FastTab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="eec72-124">Nustatytas numatytasis užsakymo tipas yra Gamybos, Pirkimo užsakymas arba „kanban“.</span><span class="sxs-lookup"><span data-stu-id="eec72-124">The default order type is set to Production, Purchase order, or Kanban.</span></span> <span data-ttu-id="eec72-125">Spustelėkite **Produkto informacijos valdymas &gt; Produktai &gt; Išleisti produktai**.</span><span class="sxs-lookup"><span data-stu-id="eec72-125">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="eec72-126">Pasirinkite prekę ir tada veiksmų srityje, skirtuke **Planas** spustelėkite **Numatytosios užsakymo nuostatos**.</span><span class="sxs-lookup"><span data-stu-id="eec72-126">Select the item, and then, on the Action pane, on the **Plan** tab, click **Default order settings**.</span></span> <span data-ttu-id="eec72-127">Formoje **Numatytosios užsakymo nuostatos** žr. **Numatytasis užsakymo tipas**.</span><span class="sxs-lookup"><span data-stu-id="eec72-127">In the **Default order settings** form, see the **Default order type**.</span></span>
 
 ![Poreikio teritorija ir sandėlio padengimas, sandėlis privalomas](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="154b6-129">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="154b6-129">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="eec72-129">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="eec72-129">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="154b6-130">Bendrasis planavimas ir kelių teritorijų funkcija</span><span class="sxs-lookup"><span data-stu-id="154b6-130">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="eec72-130">Bendrasis planavimas ir kelių teritorijų funkcija</span><span class="sxs-lookup"><span data-stu-id="eec72-130">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[<span data-ttu-id="154b6-131">Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis privalomas</span><span class="sxs-lookup"><span data-stu-id="154b6-131">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="eec72-131">Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis privalomas</span><span class="sxs-lookup"><span data-stu-id="eec72-131">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="154b6-132">Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis neprivalomas</span><span class="sxs-lookup"><span data-stu-id="154b6-132">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="eec72-132">Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis neprivalomas</span><span class="sxs-lookup"><span data-stu-id="eec72-132">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="154b6-133">Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas</span><span class="sxs-lookup"><span data-stu-id="154b6-133">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="eec72-133">Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas</span><span class="sxs-lookup"><span data-stu-id="eec72-133">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="154b6-134">Bendrasis planavimas – kaip nustatoma KS versija</span><span class="sxs-lookup"><span data-stu-id="154b6-134">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
-
+[<span data-ttu-id="eec72-134">Bendrasis planavimas – kaip nustatoma KS versija</span><span class="sxs-lookup"><span data-stu-id="eec72-134">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

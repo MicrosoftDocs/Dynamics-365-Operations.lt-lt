@@ -1,13 +1,13 @@
 ---
-title: "Pajamų išrašo finansinė ataskaita"
-description: "Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita. Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai."
+title: Pajamų išrašo finansinė ataskaita
+description: Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita. Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,58 +18,56 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364010"
 ---
-
-# <a name="income-statement-financial-report"></a><span data-ttu-id="70229-104">Pajamų išrašo finansinė ataskaita</span><span class="sxs-lookup"><span data-stu-id="70229-104">Income statement financial report</span></span>
+# <a name="income-statement-financial-report"></a><span data-ttu-id="fbac6-104">Pajamų išrašo finansinė ataskaita</span><span class="sxs-lookup"><span data-stu-id="fbac6-104">Income statement financial report</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="70229-105">Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita.</span><span class="sxs-lookup"><span data-stu-id="70229-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="70229-106">Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="70229-106">It also describes the building blocks that are associated with this report.</span></span> 
+<span data-ttu-id="fbac6-105">Šiame straipsnyje aprašyta numatytoji pajamų išrašo ataskaita.</span><span class="sxs-lookup"><span data-stu-id="fbac6-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="fbac6-106">Be to, jame aprašyti su šia ataskaita susieti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="fbac6-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a><span data-ttu-id="70229-107">Numatytoji pajamų išrašo ataskaita</span><span class="sxs-lookup"><span data-stu-id="70229-107">Default income statement report</span></span>
+<a name="default-income-statement-report"></a><span data-ttu-id="fbac6-107">Numatytoji pajamų išrašo ataskaita</span><span class="sxs-lookup"><span data-stu-id="fbac6-107">Default income statement report</span></span>
 -------------------------------
 
-| <span data-ttu-id="70229-108">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="70229-108">Default report</span></span>             | <span data-ttu-id="70229-109">Kuo ji naudinga</span><span class="sxs-lookup"><span data-stu-id="70229-109">What it does</span></span>                                                                                              |
+| <span data-ttu-id="fbac6-108">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="fbac6-108">Default report</span></span>             | <span data-ttu-id="fbac6-109">Kuo ji naudinga</span><span class="sxs-lookup"><span data-stu-id="fbac6-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="70229-110">Pajamų išrašas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="70229-110">Income Statement – Default</span></span> | <span data-ttu-id="70229-111">Pateikiama dabartinio laikotarpio ir laikotarpio nuo metų pradžios organizacijos pelningumo apžvalga.</span><span class="sxs-lookup"><span data-stu-id="70229-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
+| <span data-ttu-id="fbac6-110">Pajamų išrašas – numatyt.</span><span class="sxs-lookup"><span data-stu-id="fbac6-110">Income Statement – Default</span></span> | <span data-ttu-id="fbac6-111">Pateikiama dabartinio laikotarpio ir laikotarpio nuo metų pradžios organizacijos pelningumo apžvalga.</span><span class="sxs-lookup"><span data-stu-id="fbac6-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="70229-112">Kūrimo blokai</span><span class="sxs-lookup"><span data-stu-id="70229-112">Building blocks</span></span>
-<span data-ttu-id="70229-113">Pajamų išrašo finansinėje ataskaitoje naudojami toliau nurodyti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="70229-113">The income statement financial report uses the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="fbac6-112">Kūrimo blokai</span><span class="sxs-lookup"><span data-stu-id="fbac6-112">Building blocks</span></span>
+<span data-ttu-id="fbac6-113">Pajamų išrašo finansinėje ataskaitoje naudojami toliau nurodyti kūrimo blokai.</span><span class="sxs-lookup"><span data-stu-id="fbac6-113">The income statement financial report uses the following building blocks.</span></span>
 
-| <span data-ttu-id="70229-114">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="70229-114">Default report</span></span>             | <span data-ttu-id="70229-115">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="70229-115">Row definition</span></span>                     | <span data-ttu-id="70229-116">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="70229-116">Column definition</span></span>          |
+| <span data-ttu-id="fbac6-114">Numatytoji ataskaita</span><span class="sxs-lookup"><span data-stu-id="fbac6-114">Default report</span></span>             | <span data-ttu-id="fbac6-115">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="fbac6-115">Row definition</span></span>                     | <span data-ttu-id="fbac6-116">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="fbac6-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| <span data-ttu-id="70229-117">Pajamų išrašas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="70229-117">Income Statement - Default</span></span> | <span data-ttu-id="70229-118">Pajamų išrašo suvestinė – Numatytoji</span><span class="sxs-lookup"><span data-stu-id="70229-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="70229-119">Periodinė ir nuo šių metų pradžios – Numatytoji</span><span class="sxs-lookup"><span data-stu-id="70229-119">Periodic and YTD - Default</span></span> |
+| <span data-ttu-id="fbac6-117">Pajamų išrašas – Numatytasis</span><span class="sxs-lookup"><span data-stu-id="fbac6-117">Income Statement - Default</span></span> | <span data-ttu-id="fbac6-118">Pajamų išrašo suvestinė – Numatytoji</span><span class="sxs-lookup"><span data-stu-id="fbac6-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="fbac6-119">Periodinė ir nuo šių metų pradžios – Numatytoji</span><span class="sxs-lookup"><span data-stu-id="fbac6-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="70229-120">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="70229-120">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="fbac6-120">Eilutės apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="fbac6-120">Row definition</span></span>
 
-<span data-ttu-id="70229-121">Eilutės aprašas, pajamų išrašo suvestinė – Numatytoji, sudaryta iš skyrių, skirtų kiekvienai įprastinio pajamų išrašo daliai.</span><span class="sxs-lookup"><span data-stu-id="70229-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="70229-122">Pagrindinės sąskaitos kategorijos dimensija naudojama norint sukurti šios eilutės aprašą.</span><span class="sxs-lookup"><span data-stu-id="70229-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="70229-123">Todėl bet kas gali generuoti ataskaitą, nes nereikia atlikti jokių pakeitimų.</span><span class="sxs-lookup"><span data-stu-id="70229-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
+<span data-ttu-id="fbac6-121">Eilutės aprašas, pajamų išrašo suvestinė – Numatytoji, sudaryta iš skyrių, skirtų kiekvienai įprastinio pajamų išrašo daliai.</span><span class="sxs-lookup"><span data-stu-id="fbac6-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="fbac6-122">Pagrindinės sąskaitos kategorijos dimensija naudojama norint sukurti šios eilutės aprašą.</span><span class="sxs-lookup"><span data-stu-id="fbac6-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="fbac6-123">Todėl bet kas gali generuoti ataskaitą, nes nereikia atlikti jokių pakeitimų.</span><span class="sxs-lookup"><span data-stu-id="fbac6-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="70229-124">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="70229-124">Column Definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="fbac6-124">Stulpelio aprašas</span><span class="sxs-lookup"><span data-stu-id="fbac6-124">Column Definition</span></span>
 
-<span data-ttu-id="70229-125">Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpelio aprašuose nurodomi skirtingi stulpelių tipai.</span><span class="sxs-lookup"><span data-stu-id="70229-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="fbac6-125">Norint pateikti skirtingus informacijos ir finansinių duomenų lygius, stulpelio aprašuose nurodomi skirtingi stulpelių tipai.</span><span class="sxs-lookup"><span data-stu-id="fbac6-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="70229-126">**Periodiniai ir nuo šių metų pradžios – Numatytieji stulpelių tipai:**</span><span class="sxs-lookup"><span data-stu-id="70229-126">**Periodic and YTD – Default column types:**</span></span>
-    -   <span data-ttu-id="70229-127">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="70229-127">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="70229-128">**FD** – dabartinio laikotarpio finansiniai duomenys</span><span class="sxs-lookup"><span data-stu-id="70229-128">**FD** – Financial data for the current period</span></span>
-    -   <span data-ttu-id="70229-129">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="70229-129">**FD** – Financial data for the year to date</span></span>
+-   <span data-ttu-id="fbac6-126">**Periodiniai ir nuo šių metų pradžios – Numatytieji stulpelių tipai:**</span><span class="sxs-lookup"><span data-stu-id="fbac6-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="fbac6-127">**DESC** – Eilutės apibrėžimo aprašymas</span><span class="sxs-lookup"><span data-stu-id="fbac6-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="fbac6-128">**FD** – dabartinio laikotarpio finansiniai duomenys</span><span class="sxs-lookup"><span data-stu-id="fbac6-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="fbac6-129">**FD** – finansiniai duomenys nuo šių metų pradžios</span><span class="sxs-lookup"><span data-stu-id="fbac6-129">**FD** – Financial data for the year to date</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="70229-130">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="70229-130">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="fbac6-130">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="fbac6-130">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="70229-131">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="70229-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="fbac6-131">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="fbac6-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="70229-132">Finansinių ataskaitų peržiūra</span><span class="sxs-lookup"><span data-stu-id="70229-132">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="fbac6-132">Finansinių ataskaitų peržiūra</span><span class="sxs-lookup"><span data-stu-id="fbac6-132">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="70229-133">„Dynamics‟ Finansinių ataskaitų tinklaraštis</span><span class="sxs-lookup"><span data-stu-id="70229-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
+[<span data-ttu-id="fbac6-133">„Dynamics‟ Finansinių ataskaitų tinklaraštis</span><span class="sxs-lookup"><span data-stu-id="fbac6-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
