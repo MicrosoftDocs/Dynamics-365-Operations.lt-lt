@@ -1,13 +1,13 @@
---- 
-title: "Konfigūruoti savikainos kontrolės darbo srities parametrus"
-description: "Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes."
+---
+title: Konfigūruoti savikainos kontrolės darbo srities parametrus
+description: Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,47 +15,46 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308580"
 ---
-# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="fbefa-103">Konfigūruoti savikainos kontrolės darbo srities parametrus</span><span class="sxs-lookup"><span data-stu-id="fbefa-103">Configure cost control workspace parameters</span></span>
+# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="d9953-103">Konfigūruoti savikainos kontrolės darbo srities parametrus</span><span class="sxs-lookup"><span data-stu-id="d9953-103">Configure cost control workspace parameters</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fbefa-104">Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes.</span><span class="sxs-lookup"><span data-stu-id="fbefa-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="fbefa-105">Kuriant šį įrašą buvo naudojama demonstracinė įmonė USP2.</span><span class="sxs-lookup"><span data-stu-id="fbefa-105">The USP2 demo company was used to create this recording.</span></span>
+<span data-ttu-id="d9953-104">Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes.</span><span class="sxs-lookup"><span data-stu-id="d9953-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="d9953-105">Kuriant šį įrašą buvo naudojama demonstracinė įmonė USP2.</span><span class="sxs-lookup"><span data-stu-id="d9953-105">The USP2 demo company was used to create this recording.</span></span>
 
-1. <span data-ttu-id="fbefa-106">Eikite į Savikainos apskaita > Sąranka > Savikainos kontrolės darbo srities konfigūracija.</span><span class="sxs-lookup"><span data-stu-id="fbefa-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-2. <span data-ttu-id="fbefa-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="fbefa-107">Click New.</span></span>
-3. <span data-ttu-id="fbefa-108">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-108">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="fbefa-109">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="fbefa-110">Lauke Paskelbta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fbefa-110">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="fbefa-111">Jei nustatote šią pasirinktį Taip, vartotojai, kuriems priskirtas vienas iš šių vaidmenų, gali matyti ataskaitą išlaidų kontrolės darbo srityje: savikainos apskaitos vadovas, savikainos apskaitininkas, savikainos apskaitininko klerkas ar išlaidų objekto kontrolierius.</span><span class="sxs-lookup"><span data-stu-id="fbefa-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="fbefa-112">Jei nustatote šią pasirinktį Ne, tik vartotojai, kuriems priskirtas vienas iš šių vaidmenų, gali matyti ataskaitą išlaidų kontrolės darbo srityje: savikainos apskaitos vadovas, savikainos apskaitininkas ar savikainos apskaitininko klerkas.</span><span class="sxs-lookup"><span data-stu-id="fbefa-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
-6. <span data-ttu-id="fbefa-113">Išplėskite duomenų filtravimo skyrių.</span><span class="sxs-lookup"><span data-stu-id="fbefa-113">Expand the Data filtering section.</span></span>
-7. <span data-ttu-id="fbefa-114">Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-114">In the Cost control unit field, enter or select a value.</span></span>
-8. <span data-ttu-id="fbefa-115">Lauke Biudžeto originali versija įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-115">In the Budget original version field, enter or select a value.</span></span>
-9. <span data-ttu-id="fbefa-116">Lauke Savikainos elementų dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-10. <span data-ttu-id="fbefa-117">Lauke Savikainos objekto dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-11. <span data-ttu-id="fbefa-118">Išplėskite skyrių Priskirti skaičiavimo įrašus.</span><span class="sxs-lookup"><span data-stu-id="fbefa-118">Expand the Assign calculation records section.</span></span>
-12. <span data-ttu-id="fbefa-119">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="fbefa-119">Click New.</span></span>
-13. <span data-ttu-id="fbefa-120">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-120">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="fbefa-121">Lauke Finansinio kalendoriaus laikotarpis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-121">In the Fiscal calendar period field, enter or select a value.</span></span>
-15. <span data-ttu-id="fbefa-122">Lauke Aktuali versija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-122">In the Actual version field, enter or select a value.</span></span>
-16. <span data-ttu-id="fbefa-123">Išplėskite kiekvieno stulpelio skyriaus ataskaitinius laikotarpius.</span><span class="sxs-lookup"><span data-stu-id="fbefa-123">Expand the Fiscal periods per column section.</span></span>
-17. <span data-ttu-id="fbefa-124">Lauke Dabartinis periodas pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fbefa-124">Select Yes in the Current period field.</span></span>
-18. <span data-ttu-id="fbefa-125">Išplėskite stulpelius, kad būtų rodomas savikainos skyrius.</span><span class="sxs-lookup"><span data-stu-id="fbefa-125">Expand the Columns to display for costs section.</span></span>
-19. <span data-ttu-id="fbefa-126">Lauke Fiksuota savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fbefa-126">Select Yes in the Fixed cost field.</span></span>
-20. <span data-ttu-id="fbefa-127">Lauke Kintama savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fbefa-127">Select Yes in the Variable cost field.</span></span>
-21. <span data-ttu-id="fbefa-128">Lauke Visa savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fbefa-128">Select Yes in the Total cost field.</span></span>
-22. <span data-ttu-id="fbefa-129">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="fbefa-129">Click Save.</span></span>
-23. <span data-ttu-id="fbefa-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="fbefa-130">Close the page.</span></span>
-24. <span data-ttu-id="fbefa-131">Eikite į Savikainos apskaita > Darbo sritys > Savikainos kontrolė.</span><span class="sxs-lookup"><span data-stu-id="fbefa-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
-25. <span data-ttu-id="fbefa-132">Pasirinkite formuluotę, kad pamatytumėte fiksuotą, kintamą, visą ir neklasifikuotą savikainą pasirinktiems ataskaitiniams laikotarpiams.</span><span class="sxs-lookup"><span data-stu-id="fbefa-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
-26. <span data-ttu-id="fbefa-133">Lauke Finansinio kalendoriaus laikotarpis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-133">In the Fiscal calendar period field, enter or select a value.</span></span>
-27. <span data-ttu-id="fbefa-134">Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="fbefa-135">Pasirinkę savikainos objekto dimensijų hierarchiją, išplėskite savikainos elemento dimensijų hierarchiją, kad pamatytumėte pageidaujamas savikainos vertes.</span><span class="sxs-lookup"><span data-stu-id="fbefa-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="fbefa-136">Pavyzdžiui, galite išplėsti hierarchiją iki gamybos pridėtinių išlaidų, kad pamatytumėte vertę.</span><span class="sxs-lookup"><span data-stu-id="fbefa-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
-
+1. <span data-ttu-id="d9953-106">Eikite į Savikainos apskaita > Sąranka > Savikainos kontrolės darbo srities konfigūracija.</span><span class="sxs-lookup"><span data-stu-id="d9953-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+2. <span data-ttu-id="d9953-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d9953-107">Click New.</span></span>
+3. <span data-ttu-id="d9953-108">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-108">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="d9953-109">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d9953-110">Lauke Paskelbta pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="d9953-110">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="d9953-111">Jei nustatote šią pasirinktį Taip, vartotojai, kuriems priskirtas vienas iš šių vaidmenų, gali matyti ataskaitą išlaidų kontrolės darbo srityje: savikainos apskaitos vadovas, savikainos apskaitininkas, savikainos apskaitininko klerkas ar išlaidų objekto kontrolierius.</span><span class="sxs-lookup"><span data-stu-id="d9953-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="d9953-112">Jei nustatote šią pasirinktį Ne, tik vartotojai, kuriems priskirtas vienas iš šių vaidmenų, gali matyti ataskaitą išlaidų kontrolės darbo srityje: savikainos apskaitos vadovas, savikainos apskaitininkas ar savikainos apskaitininko klerkas.</span><span class="sxs-lookup"><span data-stu-id="d9953-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
+6. <span data-ttu-id="d9953-113">Išplėskite duomenų filtravimo skyrių.</span><span class="sxs-lookup"><span data-stu-id="d9953-113">Expand the Data filtering section.</span></span>
+7. <span data-ttu-id="d9953-114">Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-114">In the Cost control unit field, enter or select a value.</span></span>
+8. <span data-ttu-id="d9953-115">Lauke Biudžeto originali versija įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="d9953-115">In the Budget original version field, enter or select a value.</span></span>
+9. <span data-ttu-id="d9953-116">Lauke Savikainos elementų dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+10. <span data-ttu-id="d9953-117">Lauke Savikainos objekto dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+11. <span data-ttu-id="d9953-118">Išplėskite skyrių Priskirti skaičiavimo įrašus.</span><span class="sxs-lookup"><span data-stu-id="d9953-118">Expand the Assign calculation records section.</span></span>
+12. <span data-ttu-id="d9953-119">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d9953-119">Click New.</span></span>
+13. <span data-ttu-id="d9953-120">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="d9953-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="d9953-121">Lauke Finansinio kalendoriaus laikotarpis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-121">In the Fiscal calendar period field, enter or select a value.</span></span>
+15. <span data-ttu-id="d9953-122">Lauke Aktuali versija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-122">In the Actual version field, enter or select a value.</span></span>
+16. <span data-ttu-id="d9953-123">Išplėskite kiekvieno stulpelio skyriaus ataskaitinius laikotarpius.</span><span class="sxs-lookup"><span data-stu-id="d9953-123">Expand the Fiscal periods per column section.</span></span>
+17. <span data-ttu-id="d9953-124">Lauke Dabartinis periodas pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="d9953-124">Select Yes in the Current period field.</span></span>
+18. <span data-ttu-id="d9953-125">Išplėskite stulpelius, kad būtų rodomas savikainos skyrius.</span><span class="sxs-lookup"><span data-stu-id="d9953-125">Expand the Columns to display for costs section.</span></span>
+19. <span data-ttu-id="d9953-126">Lauke Fiksuota savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="d9953-126">Select Yes in the Fixed cost field.</span></span>
+20. <span data-ttu-id="d9953-127">Lauke Kintama savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="d9953-127">Select Yes in the Variable cost field.</span></span>
+21. <span data-ttu-id="d9953-128">Lauke Visa savikaina pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="d9953-128">Select Yes in the Total cost field.</span></span>
+22. <span data-ttu-id="d9953-129">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="d9953-129">Click Save.</span></span>
+23. <span data-ttu-id="d9953-130">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="d9953-130">Close the page.</span></span>
+24. <span data-ttu-id="d9953-131">Eikite į Savikainos apskaita > Darbo sritys > Savikainos kontrolė.</span><span class="sxs-lookup"><span data-stu-id="d9953-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
+25. <span data-ttu-id="d9953-132">Pasirinkite formuluotę, kad pamatytumėte fiksuotą, kintamą, visą ir neklasifikuotą savikainą pasirinktiems ataskaitiniams laikotarpiams.</span><span class="sxs-lookup"><span data-stu-id="d9953-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
+26. <span data-ttu-id="d9953-133">Lauke Finansinio kalendoriaus laikotarpis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-133">In the Fiscal calendar period field, enter or select a value.</span></span>
+27. <span data-ttu-id="d9953-134">Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9953-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="d9953-135">Pasirinkę savikainos objekto dimensijų hierarchiją, išplėskite savikainos elemento dimensijų hierarchiją, kad pamatytumėte pageidaujamas savikainos vertes.</span><span class="sxs-lookup"><span data-stu-id="d9953-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="d9953-136">Pavyzdžiui, galite išplėsti hierarchiją iki gamybos pridėtinių išlaidų, kad pamatytumėte vertę.</span><span class="sxs-lookup"><span data-stu-id="d9953-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
 

@@ -1,13 +1,13 @@
 ---
-title: "Išvestinės knygos"
-description: "Šiame straipsnyje apžvelgiamos išvestinių knygų funkcijos."
+title: Išvestinės knygos
+description: Šiame straipsnyje apžvelgiamos išvestinių knygų funkcijos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,35 +18,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 153b6437205d5a849fa6a90c0d3b9f3d51dd6768
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313916"
 ---
-
-# <a name="derived-books"></a><span data-ttu-id="e2d25-103">Išvestinės knygos</span><span class="sxs-lookup"><span data-stu-id="e2d25-103">Derived books</span></span>
+# <a name="derived-books"></a><span data-ttu-id="8917b-103">Išvestinės knygos</span><span class="sxs-lookup"><span data-stu-id="8917b-103">Derived books</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e2d25-104">Šiame straipsnyje apžvelgiamos išvestinių knygų funkcijos.</span><span class="sxs-lookup"><span data-stu-id="e2d25-104">This article provides an overview of derived book functionality.</span></span>
+<span data-ttu-id="8917b-104">Šiame straipsnyje apžvelgiamos išvestinių knygų funkcijos.</span><span class="sxs-lookup"><span data-stu-id="8917b-104">This article provides an overview of derived book functionality.</span></span>
 
-<span data-ttu-id="e2d25-105">Išvestinės knygos suteikia galimybę paprasčiau registruoti reguliariais intervalais planuojamas ilgalaikio turto knygų operacijas.</span><span class="sxs-lookup"><span data-stu-id="e2d25-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="e2d25-106">Knygą reikia pasirinkti kaip pagrindinę knygą.</span><span class="sxs-lookup"><span data-stu-id="e2d25-106">You choose one book as the primary book.</span></span> <span data-ttu-id="e2d25-107">Paprastai tai yra knyga, naudojama apskaitos nusidėvėjimui.</span><span class="sxs-lookup"><span data-stu-id="e2d25-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="e2d25-108">Tada prie jos pridedamos kitos knygos, kurios nustatytos operacijas registruoti tokiais pačiais intervalais kaip ir pagrindinė knyga.</span><span class="sxs-lookup"><span data-stu-id="e2d25-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="e2d25-109">Mokestinio nusidėvėjimo knygos dažnai nustatomos kaip išvestinės knygos.</span><span class="sxs-lookup"><span data-stu-id="e2d25-109">Tax depreciation books are often set up as derived books.</span></span> 
+<span data-ttu-id="8917b-105">Išvestinės knygos suteikia galimybę paprasčiau registruoti reguliariais intervalais planuojamas ilgalaikio turto knygų operacijas.</span><span class="sxs-lookup"><span data-stu-id="8917b-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="8917b-106">Knygą reikia pasirinkti kaip pagrindinę knygą.</span><span class="sxs-lookup"><span data-stu-id="8917b-106">You choose one book as the primary book.</span></span> <span data-ttu-id="8917b-107">Paprastai tai yra knyga, naudojama apskaitos nusidėvėjimui.</span><span class="sxs-lookup"><span data-stu-id="8917b-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="8917b-108">Tada prie jos pridedamos kitos knygos, kurios nustatytos operacijas registruoti tokiais pačiais intervalais kaip ir pagrindinė knyga.</span><span class="sxs-lookup"><span data-stu-id="8917b-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="8917b-109">Mokestinio nusidėvėjimo knygos dažnai nustatomos kaip išvestinės knygos.</span><span class="sxs-lookup"><span data-stu-id="8917b-109">Tax depreciation books are often set up as derived books.</span></span> 
 
-<span data-ttu-id="e2d25-110">Dažniausios operacijos, kurios nustatomos registruoti išvestinėse knygose, yra įsigijimai, įsigijimo koregavimai ir likvidavimai.</span><span class="sxs-lookup"><span data-stu-id="e2d25-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
+<span data-ttu-id="8917b-110">Dažniausios operacijos, kurios nustatomos registruoti išvestinėse knygose, yra įsigijimai, įsigijimo koregavimai ir likvidavimai.</span><span class="sxs-lookup"><span data-stu-id="8917b-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
 
-## <a name="example"></a><span data-ttu-id="e2d25-111">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="e2d25-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8917b-111">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="8917b-111">Example</span></span>
 
-<span data-ttu-id="e2d25-112">Knygos B ir C nustatomos kaip išvestinės tipo Įsigijimo operacija knygos A knygos.</span><span class="sxs-lookup"><span data-stu-id="e2d25-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="e2d25-113">Knygoje A įveskite turto 123, kurio vertė 1 500,00, įsigijimo operaciją.</span><span class="sxs-lookup"><span data-stu-id="e2d25-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
+<span data-ttu-id="8917b-112">Knygos B ir C nustatomos kaip išvestinės tipo Įsigijimo operacija knygos A knygos.</span><span class="sxs-lookup"><span data-stu-id="8917b-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="8917b-113">Knygoje A įveskite turto 123, kurio vertė 1 500,00, įsigijimo operaciją.</span><span class="sxs-lookup"><span data-stu-id="8917b-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
 
-<span data-ttu-id="e2d25-114">Užregistravus operaciją, generuojama ir registruojama knygos B turto 123 ir knygos C turto 123 įsigijimo operacija, kurios 1 500,00.</span><span class="sxs-lookup"><span data-stu-id="e2d25-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="e2d25-115">Kai ruošiate pagrindinės knygos operacijas registruoti ilgalaikio turto žurnale, taip pat galite peržiūrėti ir modifikuoti išvestinių knygų operacijas.</span><span class="sxs-lookup"><span data-stu-id="e2d25-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="e2d25-116">Jei pagrindinės knygos operacijas ruošiate kitame žurnale, išvestinių nusidėvėjimo knygų operacijos nerodomos.</span><span class="sxs-lookup"><span data-stu-id="e2d25-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="e2d25-117">Tačiau, kai registruojate pagrindinės knygos operacijas, jos registruojamos atitinkamose sąskaitose ir registravimo sluoksniuose.</span><span class="sxs-lookup"><span data-stu-id="e2d25-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
+<span data-ttu-id="8917b-114">Užregistravus operaciją, generuojama ir registruojama knygos B turto 123 ir knygos C turto 123 įsigijimo operacija, kurios 1 500,00.</span><span class="sxs-lookup"><span data-stu-id="8917b-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="8917b-115">Kai ruošiate pagrindinės knygos operacijas registruoti ilgalaikio turto žurnale, taip pat galite peržiūrėti ir modifikuoti išvestinių knygų operacijas.</span><span class="sxs-lookup"><span data-stu-id="8917b-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="8917b-116">Jei pagrindinės knygos operacijas ruošiate kitame žurnale, išvestinių nusidėvėjimo knygų operacijos nerodomos.</span><span class="sxs-lookup"><span data-stu-id="8917b-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="8917b-117">Tačiau, kai registruojate pagrindinės knygos operacijas, jos registruojamos atitinkamose sąskaitose ir registravimo sluoksniuose.</span><span class="sxs-lookup"><span data-stu-id="8917b-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
 
 > [!NOTE]                                                                                                                               
-> <span data-ttu-id="e2d25-118">Knygos, nustatytos registruoti operacijas kitokiais intervalais negu pagrindinė knyga, turi būti susietos su ilgalaikiu turtu kaip atskiros knygos, o ne kaip išvestinės knygos.</span><span class="sxs-lookup"><span data-stu-id="e2d25-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
+> <span data-ttu-id="8917b-118">Knygos, nustatytos registruoti operacijas kitokiais intervalais negu pagrindinė knyga, turi būti susietos su ilgalaikiu turtu kaip atskiros knygos, o ne kaip išvestinės knygos.</span><span class="sxs-lookup"><span data-stu-id="8917b-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
 
-<span data-ttu-id="e2d25-119">Daugiau informacijos žr. [Registravimas naudojant išvestines knygas](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="e2d25-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
-
+<span data-ttu-id="8917b-119">Daugiau informacijos žr. [Registravimas naudojant išvestines knygas](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="8917b-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
 
 
 

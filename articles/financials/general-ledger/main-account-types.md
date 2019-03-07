@@ -1,13 +1,13 @@
 ---
-title: "Pagrindinės sąskaitos tipai"
-description: "Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane."
+title: Pagrindinės sąskaitos tipai
+description: Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,28 +18,26 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313870"
 ---
-
-# <a name="main-account-types"></a><span data-ttu-id="c1012-103">Pagrindinės sąskaitos tipai</span><span class="sxs-lookup"><span data-stu-id="c1012-103">Main account types</span></span>
+# <a name="main-account-types"></a><span data-ttu-id="7f2e1-103">Pagrindinės sąskaitos tipai</span><span class="sxs-lookup"><span data-stu-id="7f2e1-103">Main account types</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c1012-104">Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.</span><span class="sxs-lookup"><span data-stu-id="c1012-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
+<span data-ttu-id="7f2e1-104">Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
 
-<span data-ttu-id="c1012-105">Kai sukuriate pagrindinę sąskaitą puslapyje Pagrindinės sąskaitos – sąskaitų planas, turite pasirinkti pagrindinę sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="c1012-105">You must select a main account type when you create a main account in the Main accounts - chart of accounts page.</span></span>
--   <span data-ttu-id="c1012-106">Pelnas ir nuostolis, Įplaukos ir išlaidos – šios pagrindinės sąskaitos naudojamos kaip registravimo sąskaitos.</span><span class="sxs-lookup"><span data-stu-id="c1012-106">Profit and loss, Revenue, and Expense – These main accounts are used as posting accounts.</span></span> <span data-ttu-id="c1012-107">Pelno ir nuostolių sąskaitos naudojamos įplaukoms ir išlaidoms įrašyti.</span><span class="sxs-lookup"><span data-stu-id="c1012-107">Profit and loss accounts are used to record revenue and expenses.</span></span> <span data-ttu-id="c1012-108">Visų pelno ir nuostolių, įplaukų ir išlaidų sąskaitų suma nustato metų pabaigos rezultatus.</span><span class="sxs-lookup"><span data-stu-id="c1012-108">The sum of all profit and loss, revenue, and expense accounts determines the year-end results.</span></span> <span data-ttu-id="c1012-109">Įplaukų ir išlaidų pagrindinių sąskaitų funkcijos yra tokios pačios kaip ir Pelno ir nuostolių pagrindinių sąskaitų.</span><span class="sxs-lookup"><span data-stu-id="c1012-109">Revenue and Expense main accounts have the same function as Profit and loss main accounts.</span></span>
--   <span data-ttu-id="c1012-110">Balansas, Turtas, Įsipareigojimai ir Kapitalas – šios pagrindinės sąskaitos naudojamos kaip operacijų sąskaitos sumoms, kurias juridinis subjektas valdo ar yra skolingas, įrašyti.</span><span class="sxs-lookup"><span data-stu-id="c1012-110">Balance sheet, Asset, Liability, and Equity – These main accounts are used as transaction accounts to record the amounts that a legal entity owns or owes.</span></span>
--   <span data-ttu-id="c1012-111">Iš viso – šios pagrindinės sąskaitos naudojamos sąskaitų intervalams įtraukti.</span><span class="sxs-lookup"><span data-stu-id="c1012-111">Total – These main accounts are used to add account intervals.</span></span> <span data-ttu-id="c1012-112">Konfigūruokite Bendrosios pagrindinės sąskaitos tipą naudodami puslapį Sąskaitų intervalas, kuriame rodoma bendra grupių balansų visų sąskaitų intervalų suma.</span><span class="sxs-lookup"><span data-stu-id="c1012-112">Configure the Total main account type by using the Account interval page, which displays the total of the group balances for all account intervals.</span></span> <span data-ttu-id="c1012-113">Pasirinkę Bendrosios sąskaitos tipas, puslapį Sąskaitų intervalas pasiekite skirtuke Bendra spustelėję Bendrosios sumos.</span><span class="sxs-lookup"><span data-stu-id="c1012-113">Access the Account interval page by click Totals on the General tab once you have selected a Total account type.</span></span>
--   <span data-ttu-id="c1012-114">Ataskaitos – šios pagrindinės sąskaitos naudojamos tik Brazilijos finansinėms ataskaitoms pateikti.</span><span class="sxs-lookup"><span data-stu-id="c1012-114">Reporting – These main accounts are used for financial statement reporting for Brazil only.</span></span>
+<span data-ttu-id="7f2e1-105">Kai sukuriate pagrindinę sąskaitą puslapyje Pagrindinės sąskaitos – sąskaitų planas, turite pasirinkti pagrindinę sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-105">You must select a main account type when you create a main account in the Main accounts - chart of accounts page.</span></span>
+-   <span data-ttu-id="7f2e1-106">Pelnas ir nuostolis, Įplaukos ir išlaidos – šios pagrindinės sąskaitos naudojamos kaip registravimo sąskaitos.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-106">Profit and loss, Revenue, and Expense – These main accounts are used as posting accounts.</span></span> <span data-ttu-id="7f2e1-107">Pelno ir nuostolių sąskaitos naudojamos įplaukoms ir išlaidoms įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-107">Profit and loss accounts are used to record revenue and expenses.</span></span> <span data-ttu-id="7f2e1-108">Visų pelno ir nuostolių, įplaukų ir išlaidų sąskaitų suma nustato metų pabaigos rezultatus.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-108">The sum of all profit and loss, revenue, and expense accounts determines the year-end results.</span></span> <span data-ttu-id="7f2e1-109">Įplaukų ir išlaidų pagrindinių sąskaitų funkcijos yra tokios pačios kaip ir Pelno ir nuostolių pagrindinių sąskaitų.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-109">Revenue and Expense main accounts have the same function as Profit and loss main accounts.</span></span>
+-   <span data-ttu-id="7f2e1-110">Balansas, Turtas, Įsipareigojimai ir Kapitalas – šios pagrindinės sąskaitos naudojamos kaip operacijų sąskaitos sumoms, kurias juridinis subjektas valdo ar yra skolingas, įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-110">Balance sheet, Asset, Liability, and Equity – These main accounts are used as transaction accounts to record the amounts that a legal entity owns or owes.</span></span>
+-   <span data-ttu-id="7f2e1-111">Iš viso – šios pagrindinės sąskaitos naudojamos sąskaitų intervalams įtraukti.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-111">Total – These main accounts are used to add account intervals.</span></span> <span data-ttu-id="7f2e1-112">Konfigūruokite Bendrosios pagrindinės sąskaitos tipą naudodami puslapį Sąskaitų intervalas, kuriame rodoma bendra grupių balansų visų sąskaitų intervalų suma.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-112">Configure the Total main account type by using the Account interval page, which displays the total of the group balances for all account intervals.</span></span> <span data-ttu-id="7f2e1-113">Pasirinkę Bendrosios sąskaitos tipas, puslapį Sąskaitų intervalas pasiekite skirtuke Bendra spustelėję Bendrosios sumos.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-113">Access the Account interval page by click Totals on the General tab once you have selected a Total account type.</span></span>
+-   <span data-ttu-id="7f2e1-114">Ataskaitos – šios pagrindinės sąskaitos naudojamos tik Brazilijos finansinėms ataskaitoms pateikti.</span><span class="sxs-lookup"><span data-stu-id="7f2e1-114">Reporting – These main accounts are used for financial statement reporting for Brazil only.</span></span>
 
-<span data-ttu-id="c1012-115">Daugiau informacijos žr. [Nustatyti pagrindinės sąskaitos kategorijas](tasks/set-up-main-account-categories.md).</span><span class="sxs-lookup"><span data-stu-id="c1012-115">For more information, see [Set up main account categories](tasks/set-up-main-account-categories.md).</span></span>
-
+<span data-ttu-id="7f2e1-115">Daugiau informacijos žr. [Nustatyti pagrindinės sąskaitos kategorijas](tasks/set-up-main-account-categories.md).</span><span class="sxs-lookup"><span data-stu-id="7f2e1-115">For more information, see [Set up main account categories](tasks/set-up-main-account-categories.md).</span></span>
 
 
 
