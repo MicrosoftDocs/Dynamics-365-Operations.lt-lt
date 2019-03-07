@@ -1,13 +1,13 @@
 ---
-title: "Elektroninių ataskaitų (ER) paskirties vietos"
-description: "Galite sukonfigūruoti kiekvienos elektroninių ataskaitų (ER) formato konfigūracijos ir jos sukurto komponento paskirties vietą (aplanką arba failą). Vartotojai, turintys reikiamas teises, paskirties vietos parametrus gali taip pat keisti apdorojimo metu. Šiame straipsnyje paaiškinami ER paskirties vietų valdymas, palaikomi paskirties vietų tipai ir saugumo klausimai."
+title: Elektroninių ataskaitų (ER) paskirties vietos
+description: Galite sukonfigūruoti kiekvienos elektroninių ataskaitų (ER) formato konfigūracijos ir jos sukurto komponento paskirties vietą (aplanką arba failą). Vartotojai, turintys reikiamas teises, paskirties vietos parametrus gali taip pat keisti apdorojimo metu. Šiame straipsnyje paaiškinami ER paskirties vietų valdymas, palaikomi paskirties vietų tipai ir saugumo klausimai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314928"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Galite sukonfigūruoti kiekvienos elektroninių ataskaitų (ER) formato konfigū
 Elektroninių ataskaitų (ER) formato konfigūracijos paprastai turi bent vieną išvesties komponentą: failą. Paprastai konfigūracijos kelių skirtingų tipų (pvz., XML, TXT arba XLSX) failų išvesties komponentų, sugrupuotų į vieną arba kelis aplankus. ER paskirties vietos valdymo funkcija suteikia galimybę iš anksto sukonfigūruoti, kas įvyksta vykdant kiekvieną komponentą. Pagal numatytuosius parametrus paleidus konfigūraciją pasirodo dialogo langas, kuriame vartotojas gali įrašyti arba atidaryti failą. Tas pats procesas taip pat vykdomas importuojant ER konfigūraciją ir nesukonfigūruojant jokių konkrečių jos paskirties vietų. Sukūrus pagrindinio išvesties komponento paskirties vietą, ta paskirties vieta perrašo numatytąją ir aplankas arba failas siunčiamas pagal paskirties vietos parametrus.
 
 ## <a name="availability-and-general-prerequisites"></a>Prieinamumas ir bendrieji reikalavimai
-ER paskirties vietų funkcijų negalima naudoti programoje „Microsoft Dynamics AX“ 7.0 (2016 m. vasario mėn. leidimas). Todėl turite įdiegti „Microsoft Dynamics 365 for Operations“ versiją 1611 (2016 m. lapkričio mėn. leidimą), kad galėtumėte naudoti visas šioje temoje aprašytas funkcijas. Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačiau nepamirškite, šie alternatyvūs komponentai suteikia labiau ribotą ER paskirties vietos patirtį.
+ER paskirties vietų funkcijų negalima naudoti programoje „Microsoft Dynamics AX“ 7.0 (2016 m. vasario mėn. leidimas). Todėl turite įdiegti „Microsoft Dynamics 365 for Operations“ 1611 versiją (2016 m. lapkričio mėn.), kad galėtumėte naudoti visas šioje temoje aprašytas funkcijas. Arba galite įdiegti vieną iš toliau nurodytų būtinųjų komponentų. Tačiau nepamirškite, šie alternatyvūs komponentai suteikia labiau ribotą ER paskirties vietos patirtį.
 
 - „Microsoft Dynamics AX“ 7.0.1 programos versija (2016 m. gegužės mėn.)
 - ER paskirties vietų valdymo [programos karštosios pataisos](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
@@ -94,7 +93,7 @@ Naudokite šį el. pašto tipą, jei jūsų naudojamos konfigūracijos duomenų 
 
 ### <a name="archive-destination"></a>Archyvo paskirties vieta
 
-Šią parinktį galite naudoti, norėdami išvestį siųsti į „Microsoft SharePoint“ aplanką arba Microsoft Azure“ saugyklą. Nustatykite parinktį **Įgalinta** į **Taip**, norėdami išvestį siųsti į paskirties vietą, kuri nustatoma pagal pasirinkto dokumento tipą. Pasirinkti galima tik tų tipų dokumentus, kurių grupė nustatyta kaip **Failas**. Dokumentų tipus galite nustatyti pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų tipai**. ER paskirties vietų konfigūracija yra tokia pati, kaip dokumentų valdymo sistemos konfigūracija.
+Šią parinktį galite naudoti, norėdami išvestį siųsti į „Microsoft SharePoint“ aplanką arba „Microsoft Azure“ saugyklą. Nustatykite parinktį **Įgalinta** į **Taip**, norėdami išvestį siųsti į paskirties vietą, kuri nustatoma pagal pasirinkto dokumento tipą. Pasirinkti galima tik tų tipų dokumentus, kurių grupė nustatyta kaip **Failas**. Dokumentų tipus galite nustatyti pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų tipai**. ER paskirties vietų konfigūracija yra tokia pati, kaip dokumentų valdymo sistemos konfigūracija.
 
 [![Puslapis Dokumentų tipai](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
@@ -105,7 +104,7 @@ Vieta nurodo, kur failas įrašomas. Kai paskirties vieta **Archyvas** suaktyvin
 
 #### <a name="sharepoint"></a>„SharePoint“
 
-Failą galite įrašyti į nustatytą „SharePoint“ aplanką. Numatytąjį „SharePoint“ serverį galite nustatyti skirtuke **„SharePoint“** pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų valdymo parametrai**. Kai „SharePoint“ aplankas sukonfigūruotas, galite jį nurodyti kaip aplanką, kuriame bus įrašyta to dokumentų tipo ER išvestis.
+Failą galite įrašyti į nustatytą „SharePoint“ aplanką. Numatytąjį „SharePoint“ serverį galite nustatyti skirtuke **SharePoint** pasirinkdami **Organizacijos administravimas** &gt; **Dokumentų valdymas** &gt; **Dokumentų valdymo parametrai**. Kai „SharePoint“ aplankas sukonfigūruotas, galite jį nurodyti kaip aplanką, kuriame bus įrašyta to dokumentų tipo ER išvestis.
 
 [![„SharePoint“ aplanko pasirinkimas](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
@@ -165,4 +164,3 @@ Jūsų norimas formatas turi būti įjungtas ER konfigūracijose. Jei turite sav
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-

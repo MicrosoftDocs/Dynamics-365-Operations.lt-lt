@@ -1,13 +1,13 @@
---- 
-title: "Konfigūruoti savikainos kontrolės darbo srities parametrus"
-description: "Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes."
+---
+title: Konfigūruoti savikainos kontrolės darbo srities parametrus
+description: Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo sritį, kad vadybininkai įvairiuose lygiuose organizacijoje galėtų suprasti savo savikainos objektus, pvz., savikainos centrus ir produktų grupes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308580"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Konfigūruoti savikainos kontrolės darbo srities parametrus
 
@@ -57,5 +57,4 @@ Naudokite šią procedūrą norėdami konfigūruoti savikainos kontrolės darbo 
 26. Lauke Finansinio kalendoriaus laikotarpis įveskite arba pasirinkite reikšmę.
 27. Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.
     * Pasirinkę savikainos objekto dimensijų hierarchiją, išplėskite savikainos elemento dimensijų hierarchiją, kad pamatytumėte pageidaujamas savikainos vertes. Pavyzdžiui, galite išplėsti hierarchiją iki gamybos pridėtinių išlaidų, kad pamatytumėte vertę.  
-
 

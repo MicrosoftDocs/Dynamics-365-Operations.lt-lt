@@ -1,13 +1,13 @@
 ---
-title: "Ataskaitų generavimas įtraukiant turinį kaip neapdorotą XML"
-description: "Galite sukurti elektroninių ataskaitų (ER) formatus, kurie generuoja siunčiamus dokumentus XLS formatu."
+title: Ataskaitų generavimas įtraukiant turinį kaip neapdorotą XML
+description: Galite sukurti elektroninių ataskaitų (ER) formatus, kurie generuoja siunčiamus dokumentus XLS formatu.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312191"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Generuoti ataskaitas įtraukiant turinį kaip neapdorotą XML
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ Galite naudoti naują formato elementą **NEAPDOROTAS XML**, skirtą kurti elekt
 > Turėkite omenyje, kad sistema nekontroliuoja, ar XML turinys, kuris įvedamas į sugeneruotą dokumentą naudojant formato elementą **NEAPDOROTAS XML** yra teisingas.
 
 Norėdami daugiau sužinoti apie šią funkciją, leiskite užduočių vedlius **Neapdorotų XML duomenų naudojimas ER generuojant XML ataskaitas (1 dalis: duomenų modelio kūrimas)** ir **Neapdorotų XML duomenų naudojimas generuojant XML ataskaitas (2 dalis: ataskaitos kūrimas ir paleidimas)**, kurie yra **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** verslo proceso dalis, juos galima atsisiųsti iš [„Microsoft“ atsisiuntimo centras](https://go.microsoft.com/fwlink/?linkid=874684). Šie užduočių vedliai parodys jums ER konfigūravimo procesą, norint įterpti neapdorotus XML duomenis į sugeneruotus failus.
-

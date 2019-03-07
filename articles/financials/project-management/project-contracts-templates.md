@@ -1,13 +1,13 @@
 ---
-title: "Tiesioginis „Project Service Automation“ projekto sutarčių ir projektų sinchronizavimas su „Finance and Operations“"
-description: "Šioje temoje aprašomas šablonas ir pagrindinės užduotys, naudojamos tiesiogiai sinchronizuojant „Microsoft Dynamics 365 for Project Service Automation“ projekto sutartis ir projektus su „Microsoft Dynamics 365 for Finance and Operations“."
+title: Tiesioginis „Project Service Automation“ projekto sutarčių ir projektų sinchronizavimas su „Finance and Operations“
+description: Šioje temoje aprašomas šablonas ir pagrindinės užduotys, naudojamos tiesiogiai sinchronizuojant „Microsoft Dynamics 365 for Project Service Automation“ projekto sutartis ir projektus su „Microsoft Dynamics 365 for Finance and Operations“.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312122"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Tiesioginis „Project Service Automation“ projekto sutarčių ir projektų sinchronizavimas su „Finance and Operations“
 
 [!include[banner](../includes/banner.md)]
@@ -32,12 +31,12 @@ ms.lasthandoff: 11/01/2018
 Šioje temoje aprašomas šablonas ir pagrindinės užduotys, naudojamos tiesiogiai sinchronizuojant „Microsoft Dynamics 365 for Project Service Automation“ projekto sutartis ir projektus su „Microsoft Dynamics 365 for Finance and Operations“.
 
 > [!NOTE] 
-> Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0“, turite įdiegti KB 4074835.
+> Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ 7.3.0 versiją, turite įdiegti KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>„Project Service Automation“ duomenų srautas į „Finance and Operations“
 
 > [!NOTE]
-> Prieš naudodamiesi „Project Service Automation“ integravimo į „Finance and Operations“ sprendimu turite susipažinti su „Microsoft Dynamics 365“ funkcija Duomenų integravimas.
+> Prieš naudodamiesi integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendimu turite susipažinti su „Microsoft Dynamics 365“ funkcija Duomenų integravimas.
 
 Naudojantis integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendimu sinchronizuojant duomenis „Project Service Automation“ ir „Finance and Operations“ egzemplioriuose naudojama funkcija Duomenų integravimas. Naudojantis integravimo šablonu, kuris pasiekiamas naudojantis funkcija Duomenų integravimas, įgalinamas duomenų apie projekto sutartis, projektus, projekto sutarčių eilutes ir projekto sutarties eilutės etapus srautas iš „Project Service Automation“ į „Finance and Operations“.
 
@@ -95,8 +94,8 @@ Taikant integravimo iš „Project Service Automation“ į „Finance and Opera
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 - Norint sinchronizuoti projekto sutartis ir projektus, būtina sinchronizuoti sąskaitas.
-- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_organizationalunits** susiejimą su lauku **msdyn\_name \[Name\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtos programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_projects** susiejimą su lauku **msdynce\_projectnumber \[Project Number\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtos programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_organizationalunits** susiejimą su lauku **msdyn\_name \[Name\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_projects** susiejimą su lauku **msdynce\_projectnumber \[Project Number\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - Galima atnaujinti projekto sutarčių ir projektų **SourceDataID** vertę arba pašalinti iš susiejimo. Numatytoji šablono vertė yra **„Project Service Automation“**.
 - Būtina atnaujinti susiejimą **PaymentTerms**, kad jis atitiktų galimas „Finance and Operations“ mokėjimo sąlygas. Taip pat galite pašalinti susiejimą iš projekto užduoties. Numatytosios vertės susiejimui priskirtos numatytosios demonstracinių duomenų vertės. Toliau pateikiamoje lentelėje nurodomos „Project Service Automation“ vertės.
 
@@ -135,4 +134,3 @@ Toliau pateiktose iliustracijose vaizduojami šablono užduoties susiejimų pavy
 [![Šablono susiejimas](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Šablono susiejimas](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

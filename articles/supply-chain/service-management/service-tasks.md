@@ -1,31 +1,30 @@
 ---
-title: "Aptarnavimo užduotys"
-description: "Norėdami aprašyti aptarnavimo užsakymo metu turimą atlikti užduotį naudokite aptarnavimo užduotis. Šią informaciją gali matyti ir technikai, ir klientai."
+title: Aptarnavimo užduotys
+description: Norėdami aprašyti aptarnavimo užsakymo metu turimą atlikti užduotį naudokite aptarnavimo užduotis. Šią informaciją gali matyti ir technikai, ir klientai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: de180a1258bbfb95acbfd0985cb91c88efc320f2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308603"
 ---
-
 # <a name="service-tasks"></a>Aptarnavimo užduotys  
 
 [!include [banner](../includes/banner.md)]
@@ -89,6 +88,5 @@ Automatiškai kurdami aptarnavimo užsakymus, aptarnavimo užduotis galite naudo
 
 1. Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.
 2. Skirtuke **Sąranka** pasirinkite laukelyje **Jungti aptarnavimo užsakymus** esantį kriterijų **Pagal aptarnavimo užduotį**.
-
 
 

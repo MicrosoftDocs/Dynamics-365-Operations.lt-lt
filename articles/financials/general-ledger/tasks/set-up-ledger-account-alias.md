@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti didžiosios knygos pseudonimą"
-description: "Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį."
+---
+title: Nustatyti didžiosios knygos pseudonimą
+description: Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1ae075d7678ab15157a500c6ee5bd77e8211254a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 134d7249abe7c97ee0e9604a86de4f1c98c0e9e1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315020"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Nustatyti didžiosios knygos pseudonimą
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
     * Sąskaita ir dimensijos bus nustatomos naudojant nuorodą.  
 9. Lauke Pradinis židinys pasirinkite dimensiją, kuri turės židinį, kai bus naudojamas pseudonimas.
     * Po to, kai įvesite nuorodą ir bus nustatyta sąskaita ir dimensijos, žymeklis arba židinys persikels į lauką Pradinis židinys.  
-
 

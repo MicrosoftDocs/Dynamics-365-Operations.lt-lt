@@ -1,13 +1,13 @@
---- 
-title: "ER: paskirties vietų konfigūravimas"
-description: "Šia procedūra rodoma, kaip nustatyti ir naudoti skirtingas elektroninių ataskaitų (ER) išvesties komponentų paskirties vietas, pvz., aplanką ar failą."
+---
+title: 'ER: paskirties vietų konfigūravimas'
+description: Šia procedūra rodoma, kaip nustatyti ir naudoti skirtingas elektroninių ataskaitų (ER) išvesties komponentų paskirties vietas, pvz., aplanką ar failą.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309868"
 ---
 # <a name="er-configure-destinations"></a>ER: paskirties vietų konfigūravimas
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/16/2018
 
 Šia procedūra rodoma, kaip nustatyti ir naudoti skirtingas elektroninių ataskaitų (ER) išvesties komponentų paskirties vietas, pvz., aplanką ar failą. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF. Juridinio subjekto pagrindinio adreso šalis / regionas yra Vokietija, tačiau, atlikdami šią procedūrą, galite naudoti bet kokį juridinį subjektą. 
 
-Šiame pavyzdyje naudojamas formatas yra ISO20022 Kredito perkėlimas, tačiau galite naudoti bet kokį formatą, kurį jau esate importavę. Atkreipkite dėmesį, kad ši procedūra yra vieno failo ir vienos paskirties vietos nustatymo pavyzdys. Daugiau informacijos apie elektroninių ataskaitų paskirties vietų valdymą galima rasti „Dynamics 365 for Finance and Operations‟ žinyno „wiki‟.
+Šiame pavyzdyje naudojamas formatas yra ISO20022 Kredito perkėlimas, tačiau galite naudoti bet kokį formatą, kurį jau esate importavę. Atkreipkite dėmesį, kad ši procedūra yra vieno failo ir vienos paskirties vietos nustatymo pavyzdys. Daugiau informacijos apie elektroninių ataskaitų paskirties vietų valdymą galima rasti Dynamics 365 for Finance and Operations žinyne.
 
 1. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Elektroninių ataskaitų paskirties vieta.
 2. Spustelėkite Naujas, kad sukurtumėte naują formato paskirties vietų rinkinį.
@@ -60,5 +60,4 @@ ms.lasthandoff: 10/16/2018
 20. Spustelėkite GERAI.
 21. Lauke „Tema“ įveskite reikšmę.
 22. Spustelėkite GERAI.
-
 

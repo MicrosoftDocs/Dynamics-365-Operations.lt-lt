@@ -1,13 +1,13 @@
 ---
-title: "Gamybos išeigos vieta"
-description: "Šioje temoje aprašoma hierarchija, naudojama gamybos išeigos vietai nustatyti."
+title: Gamybos išeigos vieta
+description: Šioje temoje aprašoma hierarchija, naudojama gamybos išeigos vietai nustatyti.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b1d6d1270dcbdf3baff63b2ccf300d6195329b41
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315779"
 ---
-
 # <a name="production-output-location"></a>Gamybos išeigos vieta
 
 [!include [banner](../includes/banner.md)]
@@ -41,4 +40,3 @@ Numatytoji gamybos išeigos vieta nustatoma, kai baigtos prekės užregistruojam
 4. Jei ten vieta nenurodyta, naudokite išeigos vietą, nurodytą gamybos užsakymo nustatytame sandėlyje.
 
 Nurodoma tik produktų, kurie nustatomi naudojant patobulintus sandėlio procesus, numatytoji gamybos išeigos vieta. Kai šio tipo prekė yra paskelbta baigta, sukuriamas tipo **Baigtos prekės atidėtos** arba **Sudėtinis produktas ir šalutinis produktas atidėti** sandėlio darbas. Šio tipo darbe gamybos išeigos vieta naudojama kaip paėmimo vieta. Atidėjimo vieta nustatoma pagal vietos nurodymus.
-

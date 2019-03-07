@@ -1,13 +1,13 @@
---- 
+---
 title: Nustatyti PVM skirtas DK registravimo grupes
-description: "PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra nurodytos DK registravimo grupėse."
+description: PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra nurodytos DK registravimo grupėse.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308350"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Nustatyti PVM skirtas DK registravimo grupes
 
@@ -48,5 +48,4 @@ PVM yra skaičiuojamas ir registruojamas į pagrindines sąskaitas, kurios yra n
 11. Lauke Kliento atvejo nuolaida pasirinkite pagrindinę sąskaitą, kurioje registruoti PVM kodų, susietų su šia DK registravimo grupe, mokėjimo nuolaidą.
     * Tai nėra privaloma, ir, jei neįvedama jokia sąskaita, bus naudojama pagrindinė mokėjimo nuolaidos sąskaita. Jei PVM grupėms naudojama mokėjimo nuolaidos PVM atšaukimo parinktis, gali būti naudinga kiekvienai DK registravimo grupei naudoti skirtingas sąskaitas.  
 12. Spustelėkite Įrašyti.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Biudžeto kontrolės apžvalga"
-description: "Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Finance and Operations“, kad galėtumėte tvarkyti finansinius išteklius."
+title: Biudžeto kontrolės apžvalga
+description: Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Finance and Operations“, kad galėtumėte tvarkyti finansinius išteklius.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308534"
 ---
-
-# <a name="budget-control-overview"></a>Biudžeto kontrolės peržiūra
+# <a name="budget-control-overview"></a>Biudžeto kontrolės apžvalga
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pristatyta biudžeto kontrolė ir pateikta informacija, skirta padėti jums konfigūruoti biudžeto kontrolę programoje „Microsoft Dynamics 365 for Finance and Operations“, kad galėtumėte tvarkyti finansinius išteklius.
 
-<a name="overview"></a>Peržiūra
+<a name="overview"></a>Peržiūrėti
 --------
 
 „Microsoft Dynamics 365 for Finance and Operations“ biudžeto kontrolė palaiko organizacijos finansinių išteklių valdymą naudojant sąskaitų planą, darbo eigas, vartotojų grupes, šaltinio dokumentus ir žurnalus, konfigūruojamą turimų lėšų skaičiavimą, biudžeto ciklus ir ribines reikšmes. Kai naudojami valdikliai, organizacija gali planuoti, matuoti, valdyti ir prognozuoti savo finansinių metų finansinius išteklius. 
@@ -128,4 +127,3 @@ Kai biudžeto kontrolė įjungta, dokumentuose, kuriuose sukonfigūruota biudže
 Iš šio puslapio vartotojai gali detalizuoti puslapį **Biudžeto kontrolės statistika pagal laikotarpį** norėdami peržiūrėti biudžeto tinkamumo informaciją ir pasirinktos biudžeto valdymo dimensijos kombinacijos rezervacijas. Vartotojai taip pat gali detalizuoti puslapį **Biudžeto kontrolės statistika** norėdami peržiūrėti biudžeto tinkamumą visoms finansinių dimensijų kombinacijoms, kurios naudojamos biudžeto kontrolėje. 
 
 Jei biudžeto kontrolė įjungta pirkimo užsakymams, biudžeto vadybininkas gali naudodamas darbo sritį **Didžiosios knygos biudžetai ir prognozės** norėdamas peržiūrėti visų nepatvirtintų pirkimo užsakymų, turinčių biudžeto patikros įspėjimų ir klaidų, eilę. Jei biudžeto vadybininkui sukonfigūruotos biudžeto viršijimo teisės, jis / ji gali patvirtinti pirkimo užsakymus tiesiogiai darbo srityje.    
-

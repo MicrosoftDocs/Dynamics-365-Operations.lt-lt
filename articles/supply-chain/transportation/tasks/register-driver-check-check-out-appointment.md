@@ -1,13 +1,13 @@
---- 
-title: "Vairuotojo paskyros įregistravimas ir išregistravimas"
-description: "Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą."
+---
+title: Vairuotojo paskyros įregistravimas ir išregistravimas
+description: Šioje procedūroje parodoma, kaip tvarkyti vairuotojo registravimą ir vairuotojo išsiregistravimą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 557d4d1942d190760f6a3b3d0e0aca0769f8d385
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315687"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Vairuotojo paskyros įregistravimas ir išregistravimas
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="register-driver-check-out"></a>Vairuotojo išregistravimas
 1. Spustelėkite Vairuotojo išregistravimas.
 2. Spustelėkite GERAI.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Audito strategijos taisyklės"
-description: "Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė."
+title: Audito strategijos taisyklės
+description: Norėdami įvertinti išlaidų ataskaitas, tiekėjo SF ir pirkimo užsakymus ir įsitikinti, kad jie atitinka jūsų kuriamas strategijos taisyklės, galite naudoti audito strategijas. Visos su audito strategija susietos taisyklės vykdomos paketiniu režimu pagal jūsų nurodytą grafiką.  Kiekviena strategijos taisyklė yra strategijos taisyklės tipo egzempliorius. Vienu metu gali būti aktyvi tik viena strategijos taisyklės tipo strategijos taisyklė.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18b8a1649a26ebacc34b828ed25ec9646dd438a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310236"
 ---
-
 # <a name="audit-policy-rules"></a>Audito strategijos taisyklės
 
 [!include [banner](../includes/banner.md)]
@@ -100,6 +99,5 @@ Visos tam tikros audito strategijos taisyklės bendrai naudoja tuos pačius pake
 
 [Audito strategijos pažeidimai ir atvejai](audit-policy-violations-cases.md)
 [Apibrėžti šaltinio dokumento audito strategijas](tasks/define-audit-policies-source-documents.md)
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "„Talent“ aplinkų šalinimas"
-description: "Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 for Talent“ bandomosios versijos arba gamybos aplinkai pašalinti."
+title: „Talent“ aplinkų šalinimas
+description: Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 for Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305555"
 ---
 # <a name="remove-talent-environments"></a>„Talent“ aplinkų šalinimas
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 08/09/2018
 
 1. Eikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
 2. Pasirinkite **Aplinkos**.
-3. Pasirinkite bandomosios versijos aplinką, kurios pavadinimas skamba panašiai į šį: bandomoji versija – alias@domain
+3. Pasirinkite bandomosios versijos aplinką, kurios pavadinimas skamba panašiai į šį: TestDrive – alias@domain
 4. Pasirinkite **Naikinti** ir patvirtinkite sprendimą. 
 
 Esama bandomosios versijos aplinka bus pašalinta. Šalinimui pasibaigus galite užsiregistruoti naujoje bandomosios versijos aplinkoje. 
@@ -73,5 +73,4 @@ Norėdami „Talent“ aplinką pašalinti iš esamos „PowerApps“ aplinkos, 
 6. LCS projekte pasirinkite plytelę **Programos „Talent“ valdymas**. 
 7. Pasirinkite egzempliorių, kurį norite pašalinti ir kuris turi būti pažymėtas diegimo būsena **Nepavyko**.
 8. Pasirinkite **Pašalinti egzempliorių** ir patvirtinkite savo sprendimą. 
-
 

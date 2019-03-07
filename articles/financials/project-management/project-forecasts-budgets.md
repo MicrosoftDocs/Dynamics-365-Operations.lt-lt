@@ -1,13 +1,13 @@
 ---
-title: "Projektų prognozės ir biudžetai"
-description: "„Microsoft Dynamics 365 for Finance and Operations‟ pateikiamos projekto prognozės ir biudžetai, skirti projektams tvarkyti ir kontroliuoti."
+title: Projektų prognozės ir biudžetai
+description: „Microsoft Dynamics 365 for Finance and Operations“ pateikiamos projekto prognozės ir biudžetai, skirti projektams tvarkyti ir kontroliuoti.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310397"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Projektų prognozės ir biudžetai
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations‟ pateikiami du projektų tvarkymo ir kontroliavimo būdai: projektų prognozės ir projektų biudžetai. 
+„Microsoft Dynamics 365 for Finance and Operations“ pateikiami du projektų tvarkymo ir kontroliavimo būdai: projektų prognozės ir projektų biudžetai. 
 
 Projektų prognozavimą naudokite, jei jūsų organizacija turi veiklos perspektyvą ir jei ji pagrindinį dėmesį skiria įplaukoms ir išlaidoms, gaunamoms iš konkrečių operacijų. Projektų biudžeto sudarymą naudokite, jei jūsų organizacija daugiau dėmesio skiria finansinėms sumoms. 
 
@@ -80,7 +79,6 @@ Projektų biudžetai automatiškai susiejami su dviem prognozių modeliais – v
 Prognozių modeliai turi vieno sluoksnio hierarchiją. Tai reiškia, kad viena projekto prognozė turi būti susieta su vienu prognozės modeliu.
 
 Jei naudojate projekto prognozavimą, modelius galite identifikuoti kaip submodelius. Po to galite sukurti prognozes pagal skyriu, laikotarpį arba regioną. Pvz., prognozės modelį galite sukurti metams ir tada kurti Šiaurės Rytų, Pietryčių, Šiaurės Vakarų ir Pietvakarių regionų prognozių, kurias pateikia regionų vadovai, submodelius. Pateikiamose ataskaitose pasirinkę skirtingas parinktis, informaciją galite peržiūrėti pagal bendrą prognozę arba pagal submodelį.
-
 
 
 

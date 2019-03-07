@@ -1,13 +1,13 @@
 ---
-title: "Garantiniai raštai"
-description: "Šiame straipsnyje pateikiama informacija apie garantinius raštus. Garantiniame rašte bankas sutinka mokėti tam tikrą pinigų sumą asmeniui, jei vienas iš banko klientų laiku nesumokės arba neįvykdys įsipareigojimo tam asmeniui."
+title: Garantiniai raštai
+description: Šiame straipsnyje pateikiama informacija apie garantinius raštus. Garantiniame rašte bankas sutinka mokėti tam tikrą pinigų sumą asmeniui, jei vienas iš banko klientų laiku nesumokės arba neįvykdys įsipareigojimo tam asmeniui.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3146a4a910a76c21ca8c65d52748ede61220b964
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c3d61bbfdd6a304a7bd2edd81e51e556a4955dce
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313295"
 ---
-
 # <a name="letters-of-guarantee"></a>Garantiniai raštai
 
 [!include [banner](../includes/banner.md)]
@@ -64,6 +63,5 @@ Daugiau informacijos ieškokite šiose temose:
 [Garantinio rašto operacija](tasks/letter-guarantee-transaction.md)
 
 [Nustatyti garantinio rašto banko priemones ir registravimo šablonus](tasks/set-up-bank-facilities-posting-profiles.md)
-
 
 

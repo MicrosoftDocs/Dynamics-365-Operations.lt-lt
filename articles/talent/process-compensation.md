@@ -1,13 +1,13 @@
 ---
 title: Kompensavimo apdorojimas
-description: "Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą."
+description: Kompensavimo apdorojimas suteikia galimybę apskaičiuoti naujos bazinės kompensacijos sumas darbuotojams pagal kapitalo koregavimus, nuopelnų padidinimo tikslus ir našumą.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305494"
 ---
-
 # <a name="process-compensation"></a>Kompensavimo apdorojimas
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Peržiūrėję darbuotojo kompensacijos sumas ir atlikę rekomenduojamų reikšm
 Kai vieno ar daugiau darbuotojų įvykių būsena buvo atnaujinta į Patvirtinta, jie gali būti įkelti į darbuotojų pastoviųjų atlyginimo dalių įrašus. Tai galite padaryti po vieną pasirinkdami kiekvieną darbuotojo įvykį ir spustelėdami mygtuką **Įkelti darbuotojo kompensaciją**, esantį puslapyje **Darbuotojo rezultatai**, arba spustelėdami **Įkelti kompensaciją** puslapyje **Proceso rezultatai**, kad įkeltumėte visus patvirtintus darbuotojo įvykius vienu metu.
 
 Dialogo lange **Įkelti kompensaciją** spustelėjus **Gerai**, į puslapį **Darbuotojo pastovioji atlyginimo dalis** bus pridėtos nenulinės kompensacijos veiksmo eilutės.
-

@@ -1,38 +1,37 @@
 ---
-title: "Kas nauja ar pasikeitė „Dynamics 365 for Talent“ „Core HR“ (2018 m. rugpjūčio mėn.)"
-description: "Šioje temoje aprašomos naujos ir pakeistos šio „Microsoft Dynamics 365 for Talent“ „Core HR“ funkcijos."
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugpjūčio mėn.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305521"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent“ „Core HR“ (2018 m. rugpjūčio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugpjūčio mėn.)
 
 [!include [banner](includes/banner.md)]
 
 **8.1.104 versija**
 
-Šioje temoje aprašomos naujos ir pakeistos šio „Dynamics 365 for Talent“ „Core HR“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent Core HR“ funkcijos.
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Baigiančių galioti įrašų peržiūra vadovų savitarnoje
 
@@ -88,4 +87,3 @@ Papildomos informacijos apie šią funkciją galima rasti čia: [„Office“ in
 ## <a name="other-fixes"></a>Kitos pataisos
 
 Į šį leidimą taip pat įtraukta daug pataisų, naujų objektų, esamų objektų pataisų ir lokalizuotų žymių pakeitimų.
-

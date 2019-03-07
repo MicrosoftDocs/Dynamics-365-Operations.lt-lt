@@ -1,13 +1,13 @@
 ---
-title: "„Talent“ parengimas"
-description: "Šioje temoje pateikiami veiksmai, skirti paruošti naują aplinką programai „Microsoft Dynamics 365 for Talent“."
+title: „Talent“ parengimas
+description: Šioje temoje pateikiami veiksmai, skirti paruošti naują aplinką programai „Microsoft Dynamics 365 for Talent“.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305522"
 ---
 # <a name="provision-talent"></a>„Talent“ parengimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiami veiksmai, skirti parengti naują gamybos aplinką programai „Microsoft Dynamics 365 for Talent“. Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Talent“ paslaugos planas, ir negalite atlikti šioje temoje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
+Šioje temoje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 for Talent“. Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. Jei turite esamą „Microsoft Dynamics 365“ licenciją, kurioje jau yra „Talent“ paslaugos planas, ir negalite atlikti šioje temoje nurodytų veiksmų, susisiekite su palaikymo tarnyba.
 
 Norint pradėti, visuotinis administratorius turi prisijungti prie [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) ir sukurti naują „Talent“ projektą. Išskyrus atvejus, kai problema dėl licencijos neleidžia paruošti „Talent“, palaikymo tarnybos arba „Dynamics‟ paslaugų inžinierių (DSE) atstovų pagalba nėra būtina.
 
@@ -79,7 +79,7 @@ Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudoki
  
    **Numatytosios „PowerApps“ aplinkos** Nors kiekvienas nuomotojas automatiškai sukonfigūruojamas pagal numatytąją „PowerApps“ aplinką, nerekomenduojame jų naudoti kartu su „Talent“, nes visi vartotojai, kurie yra nuomotojai, turi prieigą prie „PowerApps“ ir bandydami bei naršydami pasitelkiant „PowerApps“ ar srauto integravimus gali netyčia sugadinti jūsų gamybos duomenis.
    
-   <strong>Bandomosios versijos aplinkos</strong> Aplinkos, kurių pavadinimas „Bandomoji versija – alias@domain“, kuriamos pritaikant 60 dienų galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka bus automatiškai pašalinta.
+   <strong>Bandomosios versijos aplinkos</strong> Aplinkos, kurių pavadinimas „TestDrive – alias@domain“, kuriamos pritaikant 60 dienų galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka bus automatiškai pašalinta.
    
    **Nepalaikomi regionai** Šiuo metu „Talent“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje ir Australijoje.
   
@@ -87,5 +87,4 @@ Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudoki
  
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
 Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, [pridėkite vartotojus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [jiems priskirkite atitinkamus vaidmenis](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) „Core HR“ aplinkoje. „Talent“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems nuomotojams–vartotojams.  Kol tai nebus atlikta, kiti vartotojai neturės priegos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas.
-
 

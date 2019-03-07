@@ -1,13 +1,13 @@
 ---
-title: "Finansinio našumo „PowerBI.com“ turinys"
-description: "Šioje temoje aprašytas „PowerBI.com‟ sprendimas Finansinis našumas."
+title: Finansinio našumo „PowerBI.com“ turinys
+description: Šioje temoje aprašytas „PowerBI.com‟ sprendimas Finansinis našumas.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315112"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>Finansinio našumo „PowerBI.com“ turinys
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 08/13/2018
 Šioje temoje aprašytas „PowerBI.com‟ sprendimas **Finansinis našumas**. Joje aprašoma ataskaitų sritis ir į turinį įtrauktos ataskaitos ir pateikiama informacija apie duomenų modelį ir objektus, naudotus sprendimui kurti.
 
 ## <a name="main-account-setup"></a>Pagrindinių sąskaitų sąranka
-Kadangi organizacijos nori, jog įsipareigojimai ir įplaukų sumos ataskaitose būtų rodomos kaip teigiamos sumos, svarbu nustatyti pagrindines sąskaitas. Tam, kad šios pagrindinės sąskaitos būtų rodomos kaip teigiamos sumos, turi būti nustatytas pagrindinės sąskaitos tipas **Įsipareigojimas** arba **Įplaukos**. Kai naudojami šie sąskaitų tipai, ataskaitas teikiant per „Power BI“ ženklai pakeičiami ir rodomos teigiamos sumos.
+Kadangi organizacijos nori, jog įsipareigojimai ir įplaukų sumos ataskaitose būtų rodomos kaip teigiamos sumos, svarbu nustatyti pagrindines sąskaitas. Tam, kad šios pagrindinės sąskaitos būtų rodomos kaip teigiamos sumos, turi būti nustatytas pagrindinės sąskaitos tipas **Įsipareigojimas** arba **Įplaukos**. Kai naudojami šie sąskaitų tipai, ataskaitas teikiant per „Power BI“ ženklai pakeičiami ir rodomos teigiamos sumos.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Į „PowerBI.com‟ sprendimą įtrauktos ataskaitų sritys ir ataskaitos
 Ataskaitų srityje pateikiamos apibendrintos esamomis ataskaitomis pagrįstų duomenų plytelės. Kiekvienoje plytelėje pateikiama apibendrinta šių metų informacija apie visas įmones organizacijoje. Toliau pateikiamos kai kurios plytelės.
@@ -90,4 +89,3 @@ Toliau pateikti objektai buvo naudojami kaip „PowerBI.com‟ sprendimo **Finan
 - ChartofAccounts
 
 Šie objektai buvo naudojami skaičiuojamiems matams duomenų modelyje sukurti. Skaičiuojami matai naudojami skaičiuojant pagrindinius efektyvumo indikatorius (KPI) ir ataskaitas, naudojamas turinyje. Pagal numatytuosius parametrus turinyje pastarųjų trejų metų duomenys sutelkti į vienerius būsimus metus. Norėdami ataskaitas ir ataskaitų sritį įtraukti papildomų skaičiavimų, galite modifikuoti [„Microsoft Excel“ darbaknygę](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Ši darbaknygė yra numatytasis duomenų modelis, kuris buvo naudojamas turiniui kurti.
-

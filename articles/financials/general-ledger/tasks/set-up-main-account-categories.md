@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti pagrindinės sąskaitos kategorijas"
-description: "Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Power BI“ numatytosioms ataskaitoms."
+---
+title: Nustatyti pagrindinės sąskaitos kategorijas
+description: Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Power BI“ numatytosioms ataskaitoms.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311455"
 ---
-# <a name="set-up-main-account-categories"></a>Nustatyti pagrindinės sąskaitos kategorijas
+# <a name="set-up-main-account-categories"></a>Pagrindinės sąskaitos kategorijų nustatymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,5 +44,4 @@ Pagrindinės sąskaitos kategorijos naudojamos finansinių ataskaitų ir „Powe
 3. Pažymėkite arba išvalykite Susieta parinktis pasirinkti pagrindines sąskaitas.
 4. Spustelėkite Gerai.
 5. Spustelėkite Taip.
-
 

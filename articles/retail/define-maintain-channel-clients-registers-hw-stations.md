@@ -1,13 +1,13 @@
 ---
-title: "Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)"
-description: "Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“."
+title: Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
+description: Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308787"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
 
 > [!NOTE]
-> Norėdami konkrečių diegimo instrukcijų, žr. dalis [„Retail hardware station‟ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Retail Modern POS‟ savitarnos savitarnos atsisiuntimas / diegimas ir „Modern POS“ bei „Cloud POS“ įrenginio aktyvinimas](retail-modern-pos-device-activation.md).
+> Norėdami konkrečių diegimo instrukcijų, žr. dalis [„Retail hardware station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Retail Modern POS“ savitarnos atsisiuntimas / diegimas ir „Modern POS“ bei „Cloud POS“ įrenginio aktyvinimas](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Pagrindiniai komponentai
 
@@ -188,4 +187,3 @@ Papildoma su aktyvinimu susijusi informacija apima darbuotoją, kuris pakeitė �
 ### <a name="client-data-synchronization"></a>Kliento duomenų sinchronizavimas
 
 Visi EKA kliento keitimai, išskyrus įrenginio aktyvinimo būsenos keitimus, turi būti sinchronizuoti su kanalo duomenų baze, kad įsigaliotų. Norėdami sinchronizuoti keitimus su kanalo duomenų baze, pasirinkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas** ir vykdykite reikiamą paskirstymo grafiką. Atlikę kliento keitimų, turėtumėte vykdyti paskirstymo grafikus „Registrai“ ir „Kanalo konfigūracija“.
-

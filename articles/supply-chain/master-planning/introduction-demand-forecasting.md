@@ -1,13 +1,13 @@
 ---
-title: "Poreikio prognozės apžvalga"
-description: "Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintos poreikio prognozės mažinimo taisyklės suteikia idealų masinio pritaikymo sprendimą."
+title: Poreikio prognozės apžvalga
+description: Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintos poreikio prognozės mažinimo taisyklės suteikia idealų masinio pritaikymo sprendimą.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310006"
 ---
-
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,6 @@ Poreikio prognozė yra „Finance and Operations“ įrankis, kuris gamybos pram
 [Skaičiuodami poreikio prognozę iš praeities operacijų duomenų pašalinkite pašalines reikšmes](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

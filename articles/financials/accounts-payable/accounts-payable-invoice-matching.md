@@ -1,13 +1,13 @@
 ---
-title: "Mokėtinų sumų SF gretinimas"
-description: "Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas."
+title: Mokėtinų sumų SF gretinimas
+description: Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dc5e072f23cbb0dcc2d3d1d390070bb11a2d2f06
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310282"
 ---
-
 # <a name="accounts-payable-invoice-matching"></a>Mokėtinų sumų SF gretinimas
 
 [!include [banner](../includes/banner.md)]
@@ -191,7 +190,6 @@ Tiekėjo SF dažnai yra pagrįstos produktų gavimo kvitais, kuriuose nurodomos 
 -   Peržiūrėti ir patvirtinti SF grynosios prekės kainos ir pirkimo užsakymo grynosios prekės kainos gretinimo nesutapimus. Galite nustatyti juridinio subjekto, tiekėjų ir prekių leistino kainų nuokrypio procentus. Jeigu tiekėjo SF eilutės kaina viršija priimtiną kainos nuokrypį, galima išsaugoti SF, kol ji bus patvirtinta registruoti arba kol iš tiekėjo bus gautas pataisymas.
 
 Daugiau informacijos žr. [Trišalės atitikimo strategijos](three-way-matching-policies.md) ir [Nustatyti mokėtinų sumų SF sugretinimo patvirtinimą](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
-
 
 
 

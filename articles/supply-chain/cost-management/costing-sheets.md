@@ -1,13 +1,13 @@
 ---
-title: "Įkainojimo lapai"
-description: "Įkainojimo lapo nustatymas apima du tikslus. Pirmasis tikslas yra apibrėžti informacijos rodymo formatą parduotų prekių savikainai, informacijai apie pagamintą prekę ar gamybos užsakymui. Suformatuotas rodinys vadinamas įkainojimo lapu. Antrasis tikslas yra apibrėžti netiesioginių išlaidų apskaičiavimo pagrindą. Įkainojimo lapo nustatymas pagrįstas išlaidų grupės funkcija informacijai rodyti ir netiesioginių išlaidų skaičiavimo formulėms. Šiame straipsnyje aprašomi du įkainojimo lapo nustatymo tikslai."
+title: Įkainojimo lapai
+description: Įkainojimo lapo nustatymas apima du tikslus. Pirmasis tikslas yra apibrėžti informacijos rodymo formatą parduotų prekių savikainai, informacijai apie pagamintą prekę ar gamybos užsakymui. Suformatuotas rodinys vadinamas įkainojimo lapu. Antrasis tikslas yra apibrėžti netiesioginių išlaidų apskaičiavimo pagrindą. Įkainojimo lapo nustatymas pagrįstas išlaidų grupės funkcija informacijai rodyti ir netiesioginių išlaidų skaičiavimo formulėms. Šiame straipsnyje aprašomi du įkainojimo lapo nustatymo tikslai.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312766"
 ---
-
 # <a name="costing-sheets"></a>Įkainojimo lapai
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Dvi išlaidų versijos blokavimo strategijos nustato, ar laukiančios išlaidos 
 Apibrėžus išlaidų lapo formatą ir netiesioginių išlaidų skaičiavimus, reikia atlikti atskirą veiksmą informacijai patikrinti ir išsaugoti. Įkainojimo lapas pateikia visos įmonės formatą, skirtą nuolat rodyti parduotų prekių išlaidų informaciją. 
 
 Įkainojimo lapas rodomas kaip puslapio **Skaičiuoti prekės savikainą** dalis. Įkainojimo lapas gali būti rodomas gaminamos prekės apskaičiuotų išlaidų įrašui puslapyje **Prekės kaina** arba konkretaus užsakymo skaičiavimo įrašui puslapyje **KS skaičiavimo rezultatai**. Taip pat jis gali būti rodomas kaip gamybos užsakymo puslapio **Kainos skaičiavimas** dalis.
-
 
 
 

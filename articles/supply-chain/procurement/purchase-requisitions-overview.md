@@ -1,13 +1,13 @@
 ---
-title: "Pirkimo paraiškos apžvalga"
-description: "Šioje temoje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos."
+title: Pirkimo paraiškos apžvalga
+description: Šioje temoje aprašoma pirkimo paraiškos darbo eiga ir skirtingos galimos pirkimo paraiškos būsenos.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309845"
 ---
-
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Bendrąją pirkimo paraiškos būseną nustato pirkimo paraiškos eilučių būs
 <tr class="odd">
 <td>Juodraštis</td>
 <td>Juodraštis</td>
-<td>Pirkimo paraiška bei pirkimo paraiškos eilutė buvo sukurtos, bet jos dar nebuvo pateiktos peržiūrėti. Pirkimo paraišką ir pirkimo paraiškos eilutes, kurių būsena <strong>Juodraštis</strong>, galima modifikuoti. Pirkimo paraiškos arba pirkimo paraiškos eilutės, kuri buvo atšaukta, bet dar nėra pateikta peržiūrėti, būsena irgi yra<strong>Juodraštis</strong>. <strong>Pastaba:</strong> pirkimo paraišką galite pateikti arba atšaukti dokumento lygiu. Tačiau negalima pateikti arba atšaukti vienos pirkimo paraiškos eilutės.</td>
+<td>Pirkimo paraiška bei pirkimo paraiškos eilutė buvo sukurtos, bet jos dar nebuvo pateiktos peržiūrėti. Pirkimo paraišką ir pirkimo paraiškos eilutes, kurių būsena <strong>Juodraštis</strong>, galima modifikuoti. Pirkimo paraiškos arba pirkimo paraiškos eilutės, kuri buvo atšaukta, bet dar nėra pateikta peržiūrėti, būsena irgi yra <strong>Juodraštis</strong>. <strong>Pastaba:</strong> pirkimo paraišką galite pateikti arba atšaukti dokumento lygiu. Tačiau negalima pateikti arba atšaukti vienos pirkimo paraiškos eilutės.</td>
 </tr>
 <tr class="even">
 <td>Peržiūrima</td>
@@ -142,7 +141,7 @@ Dėl paraiškos paskirčių paraiškos poreikio įvykdymo procesas yra lankstesn
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Paraiškos, kurių paskirtis yra vartojimas
 
-Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei sprendime „Microsoft Dynamics 365 for Finance and Operations“ yra nustatyta pirkimo užsakymus generuoti automatiškai, jie kuriami patvirtinus pirkimo paraišką.
+Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei „Microsoft Dynamics 365 for Finance and Operations“ yra nustatyta automatiškai generuoti pirkimo užsakymus, pirkimo užsakymai bus sukurti po to, kai pirkimo paraiška patenkinama.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Paraiškos, kurių paskirtis yra papildymas
 
@@ -198,7 +197,6 @@ Norėdami konsoliduoti patvirtintas pirkimo paraiškos eilutes, atlikite toliau 
 [Kurti vartojimo paraišką (užduočių vedlys)](tasks/create-requisition-consumption.md)
 
 [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
-
 
 
 

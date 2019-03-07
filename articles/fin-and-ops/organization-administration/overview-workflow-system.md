@@ -1,13 +1,13 @@
 ---
 title: Darbo eigos sistema
-description: "Šioje temoje aprašyta „Microsoft Dynamics 365 for Finance and Operations“ darbo eigos sistema."
+description: Šioje temoje aprašyta „Microsoft Dynamics 365 for Finance and Operations“ darbo eigų sistema.
 author: sericks007
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308649"
 ---
-
 # <a name="workflow-system"></a>Darbo eigos sistema
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašyta „Microsoft Dynamics 365 for Finance and Operations“ darbo eigos sistema.
+Šioje temoje aprašyta „Microsoft Dynamics 365 for Finance and Operations“ darbo eigų sistema.
 
 ## <a name="what-is-workflow"></a>Kas yra darbo eiga?
 
@@ -72,4 +71,3 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 + [Lygiagrečios darbo eigos veiklos konfigūravimas](configure-parallel-activity-workflow.md)
 + [Lygiagrečios darbo eigos šakos konfigūravimas](configure-parallel-branch-workflow.md)
 + [Eilutės elemento darbo eigos konfigūravimas](configure-line-item-workflow.md)
-

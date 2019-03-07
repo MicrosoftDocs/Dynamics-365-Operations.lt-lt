@@ -1,13 +1,13 @@
---- 
-title: "Ieškoti tiekėjų"
-description: "Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus."
+---
+title: Ieškoti tiekėjų
+description: Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86fced38d0ac73e67d04a59c5f39f4ec9b192daa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa02b4fb6f309e55d0c74e477952e928ad8dfb12
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311478"
 ---
 # <a name="search-for-vendors"></a>Ieškoti tiekėjų
 
@@ -38,5 +38,4 @@ Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus. Šis pavyzdys
 5. Spustelėkite GERAI.
 6. Lauke Šalis / regionas surinkite reikšmę.
 7. Spustelėkite GERAI.
-
 

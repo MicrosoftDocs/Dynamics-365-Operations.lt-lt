@@ -1,13 +1,13 @@
 ---
-title: "Išlaidų darbo eiga"
-description: "Šioje temoje paaiškinama, kaip, naudojant „Microsoft Dynamics 365 for Finance and Operations“ darbo eigų sistemą, modulyje Išlaidų valdymas galima nustatyti išlaidų ataskaitų peržiūros procesą."
+title: Išlaidų darbo eiga
+description: Šioje temoje paaiškinama, kaip, naudojant „Microsoft Dynamics 365 for Finance and Operations“ darbo eigų sistemą, modulyje Išlaidų valdymas galima nustatyti išlaidų ataskaitų peržiūros procesą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310121"
 ---
-
 # <a name="expense-workflow"></a>Išlaidų darbo eiga
 
 [!include [banner](../includes/banner.md)]
@@ -58,4 +57,3 @@ Toliau pateiktas procesas yra išlaidų ataskaitos išlaidų valdymo darbo eigos
 Patikrinus visus šiuos reikalavimus, išlaidų ataskaita registruojama.
 
 Užregistravus išlaidų ataskaitą, autorizuojamas mokėjimas už išlaidų ataskaitos išlaidas ir darbuotojui išmokama kompensacija.
-

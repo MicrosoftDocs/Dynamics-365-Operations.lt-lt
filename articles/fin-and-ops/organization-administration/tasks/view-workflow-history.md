@@ -1,13 +1,13 @@
---- 
-title: "Peržiūrėti darbo eigos retrospektyvą"
-description: "Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną."
+---
+title: Peržiūrėti darbo eigos retrospektyvą
+description: Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eigos sistemai apdoroti ir patvirtinti, būseną.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309661"
 ---
 # <a name="view-workflow-history"></a>Peržiūrėti darbo eigos retrospektyvą
 
@@ -46,5 +46,4 @@ Atlikite šiuos veiksmus, jei norite peržiūrėti dokumento, pateikto darbo eig
     * Įsitikinkite, kad dalis Darbo elementai yra išskleista.    Šioje dalyje galite peržiūrėti su pasirinktu dokumentu susietus darbo elementus. Pavyzdžiui, gali būti baigta užduotis arba galima patvirtinti dokumentą.  
     * Spustelėjus mygtuką Priskirti iš naujo atidaromas dialogo langas, kuriame galima iš naujo priskirti darbo elementą kitam vartotojui.  
     * Įsitikinkite, kad dalis Sekimo informacija yra išskleista.    Šioje dalyje galite peržiūrėti pasirinkto dokumento darbo eigos retrospektyvą.  
-
 

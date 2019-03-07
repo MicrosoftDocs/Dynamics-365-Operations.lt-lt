@@ -1,32 +1,31 @@
 ---
 title: Bendrojo planavimo pagrindinis puslapis
-description: "Bendrasis planavimas leidžia įmonėms nustatyti ir rasti pusiausvyrą tarp būsimo žaliavų poreikio ir galimybių pasiekti įmonės tikslus."
+description: Bendrasis planavimas leidžia įmonėms nustatyti ir rasti pusiausvyrą tarp būsimo žaliavų poreikio ir galimybių pasiekti įmonės tikslus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314790"
 ---
-
 # <a name="master-planning-home-page"></a>Bendrojo planavimo pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Trys pagrindiniai planavimo procesai yra:
 
 -  **Prognozės planavimas**. Prognozinis planavimas apskaičiuoja bruto poreikius. Jis remiasi ateities projekcijomis (prognozėmis) ir leidžia įmonėms vykdyti ilgalaikį medžiagų ir pajėgumo planavimą. Daugiau informacijos žr. [Prognozės planavimas](introduction-demand-forecasting.md). 
 
--  **Vidinis įmonės bendrasis planavimas**. Vidinis įmonės bendrasis planas apskaičiuoja visų juridinių subjektų grynuosius poreikius. Jis sujungia paklausą ir pasiūlą tarp įmonių ne tik trumpalaikei, patvirtintai paklausai ir pasiūlai, bet ir ilgalaikei, planuojamai (dar nepatvirtintai) paklausai ir pasiūlai nustatyti. Daugiau informacijos žr. [Vidinis įmonės bendrasis planavimas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (el. mokymasis) (reikia „CustomerSource“ abonemento). 
+-  **Vidinis įmonės bendrasis planavimas**. Vidinis įmonės bendrasis planas apskaičiuoja visų juridinių subjektų grynuosius poreikius. Jis sujungia paklausą ir pasiūlą tarp įmonių ne tik trumpalaikei, patvirtintai paklausai ir pasiūlai, bet ir ilgalaikei, planuojamai (dar nepatvirtintai) paklausai ir pasiūlai nustatyti. Daugiau informacijos žr. [Vidinis įmonės bendrasis planavimas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (el. mokymasis) („CustomerSource“ paskyros). 
 
 Įmonės gali keisti planą. Jos gali vykdyti atstatomąjį, grynojo pokyčio arba abu planus. Atstatomieji planai atnaujina visus poreikius, o grynojo pokyčio planai atnaujina tik tuos planus, kurių elementams atsirado naujų poreikių nuo paskutinio planavimo paleidimo.
 
@@ -69,10 +68,10 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="roadmaps"></a>Veiksmų planai
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano](https://roadmap.dynamics.com/) svetainę.
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).
 
 ### <a name="blogs"></a>Tinklaraščiai
-Nuomonių, naujienų ir kitos informacijos apie bendrąjį planavimą ir kitus sprendimus galima rasti [„Dynamics AX‟ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės tyrimų ir plėtros tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Nuomonių, naujienų ir kitos informacijos apie bendrąjį planavimą ir kitus sprendimus galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Užduočių vedliai
 Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**.
@@ -84,7 +83,6 @@ Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and O
 -  [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Bendrasis planavimas – našumo trikčių šalinimo patarimai](https://youtu.be/7v8BPmEs9Dg)
 -  [Gelbėkite! MRP veikia lėtai!](https://youtu.be/RLXybx20B5o)
-
 
 
 

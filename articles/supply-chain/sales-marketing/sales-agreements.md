@@ -1,13 +1,13 @@
 ---
 title: Pardavimo sutartys
-description: "Šioje temoje pateikiama informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas."
+description: Šioje temoje pateikiama informacija apie pardavimo sutartis. Pardavimo sutartis yra sutartis, kuri įpareigoja klientą pirkti tam tikrą produktų kiekį per tam tikrą laiką už specialias kainas ir taikant specialias nuolaidas.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309523"
 ---
-
 # <a name="sales-agreements"></a>Pardavimo sutartys
 
 [!include [banner](../includes/banner.md)]
@@ -111,7 +110,6 @@ Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai k
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pardavimo sutarčių pardavimo dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pardavimo sutarties eilutes. Sutarties antraštėje arba sutarties eilutėje dimensijas galite keisti bet kuriuo metu. Dimensijos tada automatiškai kopijuojamos į paleidimo užsakymų leidimo antraštę arba leidimo eilutę.
-
 
 
 

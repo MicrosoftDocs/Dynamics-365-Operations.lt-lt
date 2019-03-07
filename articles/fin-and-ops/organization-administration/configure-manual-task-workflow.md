@@ -1,13 +1,13 @@
 ---
-title: "Neautomatizuotų darbo eigos užduočių konfigūravimas"
-description: "Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes."
+title: Neautomatizuotų darbo eigos užduočių konfigūravimas
+description: Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuotos užduoties ypatybes.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309753"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Neautomatizuotų darbo eigos užduočių konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuota užduotis tur�
     </tr>
     <tr>
     <td>Vartotojas</td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations“ vartotojai</td>
     <td>
     <ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
@@ -383,4 +382,3 @@ Vartotojas turi atlikti veiksmą su užduotimi, kai neautomatizuota užduotis yr
 5. Jei norite, kad vartotojas galėtų perduoti užduotį kitam vartotojui, pažymėkite žymės langelį **Perduoti**.
 6. Jei norite, kad vartotojas galėtų perskirti užduotį kitam darbo elementų eilės vartotojui, pažymėkite žymės langelį **Perskirti**.
 7. Jei norite, kad vartotojas galėtų išleisti užduotį darbo elementų eilei, pažymėkite žymės langelį **Išleisti**. Tada kitas vartotojas galės baigti užduotį.
-
