@@ -1,13 +1,13 @@
 ---
-title: "Mišrių numerio lentelių gavimas"
-description: "Šioje temoje aprašoma, kaip naudoti mišrių numerio lentelių gavimą, norint užregistruoti ir sukurti kelių prekių darbą su mobiliuoju įrenginiu."
+title: Mišrių numerio lentelių gavimas
+description: Šioje temoje aprašoma, kaip naudoti mišrių numerio lentelių gavimą, norint užregistruoti ir sukurti kelių prekių darbą su mobiliuoju įrenginiu.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a44165bc59d65a9dfdf8e591152f427b97930b34
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec3fdff6e1118f4a4ef4146d315fe8c58664f453
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365896"
 ---
-
 # <a name="mixed-license-plate-receiving"></a>Mišrių numerio lentelių gavimas
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Turite sukurti naują meniu elementą režimu Darbas, kuriame nenaudojamas esama
 - Mišrių numerio lentelių gavimas ir padėjimas
 
 Parinktys, skirtos identifikuoti šaltinio dokumento eilutes, yra pirkimo užsakymo prekė, pirkimo užsakymo eilutė, grąžinimo užsakymas, perkėlimo užsakymo prekė ir perkėlimo užsakymo eilutė. Šios parinktys gali pakeisti gavimo užsakymą vienoje numerio lentelėje. Paskutinė parinktis yra pagal krovinio prekę. Į numerio lentelę galite pridėti kelias prekes, tačiau negalite keisti vieno krovinio į kitą.
-

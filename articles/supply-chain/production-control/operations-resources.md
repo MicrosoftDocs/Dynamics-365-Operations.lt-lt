@@ -1,13 +1,13 @@
 ---
-title: "„Operations“ ištekliai"
-description: "Operacijų ištekliai atlieka projekto arba gamybos proceso veiklas. Jie gali būti skirtingų tipų ir jų galimybės gali skirtis."
+title: „Operations“ ištekliai
+description: Operacijų ištekliai atlieka projekto arba gamybos proceso veiklas. Jie gali būti skirtingų tipų ir jų galimybės gali skirtis.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366609"
 ---
-
 # <a name="operations-resources"></a>„Operations“ ištekliai
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Kai išteklių grupė yra naudojama kaip „lean“ darbo elementas, darbo eleme
 
 ## <a name="costing-resources"></a>Įkainojimo ištekliai
 Kai nustatote veiklą, pvz., maršruto operaciją arba projekto valandų prognozę, galite nurodyti konkretaus operacijų ištekliaus arba išteklių grupės reikalavimą. Tačiau taip pat galite nurodyti konkretaus tipo, pajėgumo arba kompetencijos operacijų ištekliaus reikalavimą. Dėl šios priežasties faktinis išteklių priskyrimas nėra atliekamas tol, kol nesuplanuota veikla ir nerezervuotas pajėgumas. Todėl maršruto operacijoje galite nurodyti, kad įvertinimas ir KS skaičiavimas turi būti paremtas konkrečiu operacijų ištekliumi. Šis operacijų išteklius yra vadinamas įkainojimo ištekliumi. Taip pat išlaidų kategorijas ir operacijų laiką galite perkelti iš įkainojimo ištekliaus į veiklą. Suplanavus operaciją, įvertinimas ir KS skaičiavimas yra atliekami naudojant faktiškai suplanuotą operacijų išteklių.
-
 
 
 

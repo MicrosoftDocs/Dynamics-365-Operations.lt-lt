@@ -1,13 +1,13 @@
 ---
-title: "Didžiosios knygos ir Finansinių ataskaitų pagrindinis puslapis"
-description: "Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniams įrašams."
+title: Didžiosios knygos ir Finansinių ataskaitų pagrindinis puslapis
+description: Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniams įrašams.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: lt-lt
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363366"
 ---
-
 # <a name="general-ledger"></a>DK 
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniam
  - [Sąskaitų plano rengimas](plan-chart-of-accounts.md)
  - [Pagrindinės sąskaitos tipai](main-account-types.md)
 
-Pagal paskirstymo taisykles galite paskirstyti pinigines sumas į bent vieną sąskaitą arba sąskaitos ir dimensijos derinį. Yra du paskirstymo tipai: fiksuotas ir kintamas. Taip pat galite sudengti DK sąskaitų operacijas bei perkainoti valiutos sumas. Finansinių metų pabaigoje turite generuoti uždarymo operacijas ir paruošti savo sąskaitas kitiems finansiniams metams. Naudodami konsolidavimo funkciją galite sujungti keleto filialo juridinių subjektų finansinius rezultatus į vienos konsoliduotos organizacijos rezultatus. Filialai gali būti toje pačioje „Microsoft Dynamics 365 for Finance and Operations‟duomenų bazėje arba atskirose duomenų bazėse.
+Pagal paskirstymo taisykles galite paskirstyti pinigines sumas į bent vieną sąskaitą arba sąskaitos ir dimensijos derinį. Yra du paskirstymo tipai: fiksuotas ir kintamas. Taip pat galite sudengti DK sąskaitų operacijas bei perkainoti valiutos sumas. Finansinių metų pabaigoje turite generuoti uždarymo operacijas ir paruošti savo sąskaitas kitiems finansiniams metams. Naudodami konsolidavimo funkciją galite sujungti keleto filialo juridinių subjektų finansinius rezultatus į vienos konsoliduotos organizacijos rezultatus. Filialai gali būti toje pačioje „Microsoft Dynamics 365 for Finance and Operations“ duomenų bazėje arba atskirose duomenų bazėse.
 
 - [Konsolidavimo ir šalinimo peržiūra](../budgeting/consolidation-elimination-overview.md)
 - [DK sąskaitos balansai](general-ledger-account-balances.md)
@@ -60,18 +59,17 @@ Norėdami pamatyti, kokių išleista naujų funkcijų, eikite į sritį [Leidimo
 
 ### <a name="videos"></a>Vaizdo įrašai
 
-Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Tinklaraščiai
 
-[„Microsoft Dynamics 365‟ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus.
+Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Daug įrašų apie modulį Didžioji knyga galima rasti [„Microsoft Dynamics AX“ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Didžioji knyga versijai, galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje taip pat yra panašios.
+Daug įrašų apie DK galima rasti „[Microsoft Dynamics AX“ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Didžioji knyga versijai, galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje taip pat yra panašios.
 
-[„Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
+„[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics“ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations“ tendencijos.
 
 #### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
 
 - [Ką turėtumėte žinoti apie didžiąją knygą sistemoje „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

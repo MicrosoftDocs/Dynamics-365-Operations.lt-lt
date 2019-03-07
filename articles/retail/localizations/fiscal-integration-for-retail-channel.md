@@ -1,13 +1,13 @@
 ---
-title: "Mažmeninės prekybos kanalo fiskalinė integracija"
-description: "Šioje temoje pateikta „Retail POS“ fiskalinės integracijos apžvalga."
+title: Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
+description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377140"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Mažmeninės prekybos kanalo fiskalinė integracija
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiama fiskalinės integracijos funkcija, kuria galima naudotis „Microsoft Dynamics 365 for Retail“. Ši fiskalinės integracijos funkcija yra sistema, naudojama tam, kad būtų laikomasi vietos fiskalinių įstatymų, kurių tikslas – užkirsti kelią sukčiavimams mažmeninės prekybos versle. Toliau išvardijami įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
+## <a name="introduction"></a>Įžanga
 
-- Fiskalinio kvito spausdinimo ir jo pateikimo klientui atveju.
-- Užtikrinant su naudojantis EKA atliktais pardavimais ir grąžinimais susijusios informacijos perdavimą institucijos teikiamai išorinei paslaugai.
-- Naudojantis institucijos įgaliotu skaitmeniniu parašu užtikrinama duomenų apsauga.
+Ši tema yra fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina mažmeninės prekybos pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija. 
 
-Šioje temoje pateikiama patarimų, kaip nustatyti fiskalinę integraciją, kad vartotojai galėtų atlikti toliau nurodytas užduotis. 
+- Užregistruokite mažmeninės prekybos pardavimą finansiniame įrenginyje, prijungtame prie mažmeninės prekybos elektroninio kasos aparato (EKA), pvz., fiskalinio spausdintuvo, ir išspausdinkite klientui skirtą fiskalinį kvitą.
+- Saugiai pateikite informaciją, susijusią su pardavimu ir grąžinimu, kurie yra užbaigti „Retail POS“, į išorinę žiniatinklio tarnybą, kurią valdo mokesčių inspekcija.
+- Padėkite užtikrinti pardavimo operacijų duomenų nekeičiamumą naudodami skaitmeninius parašus.
 
-- Konfigūruoti fiskalines jungtis, kurios yra fiskalinės registracijos tikslais naudojami fiskaliniai įrenginiai arba paslaugos, pvz., įrašymas, skaitmeniniai parašai ir saugus finansinių duomenų pateikimas.
-- Konfigūruoti dokumentų teikėją, nuo kurio priklauso išvesties metodas ir finansinių dokumentų kūrimo algoritmas.
-- Konfigūruoti fiskalinės registracijos procesą, nuo kurio priklauso veiksmų seka ir atliekant kiekvieną veiksmą naudojamų jungčių grupė.
-- Priskirti fiskalinės registracijos procesus EKA funkcijų profiliams.
-- Priskirti jungties techninius profilius aparatūros profiliams (vietinėms fiskalinėms jungtims) arba EKA funkcijų profiliams (kito tipo fiskalinėms jungtims).
+Mažmeninės prekybos fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius mažmeninės prekybos scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli mažmeninės prekybos komponentų plėtiniai ir jis įtrauktas į mažmeninės prekybos programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius, kurie teikiami mažmeninės prekybos SDK, žr. [Fiskalinės integracijos pavyzdžiai mažmeninės prekybos SDK](#fiscal-integration-samples-in-the-retail-sdk). Informacijos apie tai, kaip įdiegti ir naudoti mažmeninės prekybos SDK, žr. [Mažmeninės prekybos SDK peržiūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Fiskalinės integracijos vykdymo eiga
-Pagal toliau pateiktą scenarijų rodoma bendroji fiskalinės integracijos vykdymo eiga.
+Tam, kad būtų palaikomi kiti scenarijai, kurių nepalaiko fiskalinės integracijos pavyzdys, būtų integruojama „Retail POS“ su kitais finansiniais įrenginiais ar tarnybomis arba būtų išpildomi kitų šalių ar regionų reikalavimai, turite išplėsti esamą fiskalinės integracijos pavyzdį arba sukurti naują pavyzdį naudodami dėl esamą pavyzdį kaip pavyzdį.
 
-1. Fiskalinės registracijos proceso pradžia.
-  
-   Atlikus kai kuriuos veiksmus, kai reikia atlikti fiskalinę registraciją, pvz., užbaigus mažmeninės prekybos operaciją, fiskalinės registracijos procesas susietas su dabartiniu EKA funkcijų profiliu.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Finansinių įrenginių fiskalinės integracijos procesas ir fiskalinės integracijos pavyzdžiai
 
-1. Suraskite fiskalinę jungtį.
-   
-   Sistema suranda kiekvieno į fiskalinės registracijos procesą įtraukto fiskalinės registracijos veiksmo atitikmenį fiskalinių jungčių sąraše. Konkrečioje šių jungčių grupėje įtrauktas funkcinis profilis, taip pat pateikiamas jungčių, kurių techninis profilis susietas su dabartiniu aparatūros profiliu (tik jei jungties tipas **Vietinė**) arba su dabartiniu EKA funkcijų profiliu (kito tipo jungtims).
-   
-1. Atlikite fiskalinę integraciją.
+„Retail POS“ fiskalinės integracijos procesą gali sudaryti vienas ar daugiau veiksmų. Kiekvieną veiksmas apima konkrečių mažmeninės prekybos operacijų arba įvykių fiskalinę integraciją viename finansiniame įrenginyje arba tarnyboje. Toliau nurodyti sprendimo komponentai įtraukti į fiskalinę integraciją finansiniame įrenginyje, kuris prijungtas prie aparatūros stoties.
 
-   Sistema vykdo visus reikiamus su surasta jungtimi susieto rinkinio nurodytus veiksmus. Tai atliekama pagal ankstesniame šios jungties veiksme rastus funkcinio profilio ir techninio profilio parametrus.
+- **„Commerce Runtime“ (CRT) plėtinys** – šis komponentas sudėlioja mažmeninės prekybos operacijos / įvykio duomenis tokiu formatu, kuris taip pat naudojamas sąveikaujant su finansiniu įrenginiu, analizuoja atsakymus iš finansinio įrenginio ir saugo atsakymus kanalo duomenų bazėje. Plėtinys taip pat apibrėžia konkrečias operacijas ir įvykius, kurie turi būti registruojami. Šis komponentas yra dažnai vadinamas *finansinio dokumento teikėju*.
+- **Aparatūros stoties plėtinys** – šis komponentas inicijuoja ryšį su finansiniu įrenginiu, siunčia užklausas ir teikia komandas finansiniam įrenginiui pagal mažmeninės prekybos operacijos / įvykio duomenis, kurie gaunami iš finansinio dokumento, ir gauna atsakymus iš finansinio įrenginio. Šis komponentas yra dažnai vadinamas *fiskaline jungtimi*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Prieš naudojantis fiskaline integracija būtina atlikti sąranka
-Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte nurodyti toliau išvardytus parametrus.
+Finansinio įrenginio fiskalinės integracijos pavyzdyje pateikiami CRT ir aparatūros stoties plėtiniai, atitinkamai skirti finansinio dokumento teikėjo ir fiskalinei jungčiai. Jame taip pat yra tolesnių komponentų konfigūracijos.
 
-- Puslapyje **Mažmeninės prekybos parametrai** nurodykite fiskalinio funkcinio profilio numeraciją.
-  
-- Puslapyje **Bendrai naudojami mažmeninės prekybos parametrai** nurodykite toliau nurodytų elementų numeraciją.
-  
-  - Fiskalinio techninio profilio numeris
-  - Fiskalinių jungčių grupės numeris
-  - Registracijos proceso numeris
+- **Finansinio dokumento teikėjo konfigūracija** – ši konfigūracija nurodo finansinių dokumentų išvesties metodą ir formatą. Jame taip pat pateikiamas mokesčių ir mokėjimo metodų duomenų susiejimas, kad „Retail POS“ duomenys būtų suderinami su iš anksto nustatytomis finansinio įrenginio programinės aparatinės įrangos reikšmėmis.
+- **Fiskalinės jungties konfigūracija** – ši konfigūracija apibrėžia faktinį ryšį su konkrečiu finansiniu įrenginiu.
 
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalinė integracija > Fiskalinės jungtys** sukurkite kiekvieno įrenginio arba paslaugos, kuria planuojate naudotis fiskalinės integracijos tikslais, jungtį **Fiskalinė jungtis**.
+Konkretaus EKA registro fiskalinės registracijos procesą apibrėžia atitinkamas parametras EKA funkcijų šablone. Daugiau informacijos apie tai, kaip konfigūruoti fiskalinės registracijos procesą, įkelti finansinio dokumento teikėjo ir fiskalinės jungties konfigūracijas bei keisti jų parametrus, žr. [Fiskalinės registracijos proceso nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalinė integracija > Fiskalinių dokumentų teikėjai** sukurkite visų fiskalinių jungčių teikėją **Fiskalinių dokumentų teikėjas**. Duomenų susiejimas laikomas fiskalinio dokumento teikėjo dalis. Norėdami nustatyti skirtingus tos pačios jungties duomenų susiejimus (pvz., nuo būsenos priklausančius reguliatorius), turėtumėte sukurti skirtingus fiskalinių dokumentų teikėjus.
+Toliau pateiktame pavyzdyje parodytas įprasta finansinio įrenginio fiskalinės registracijos vykdymo eiga. Eiga prasideda nuo įvykio EKA (pvz., pardavimo operacijos užbaigimo) ir nustato toliau nurodytą veiksmų seką.
 
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalinė integracija > Jungties funkciniai profiliai** sukurkite kiekvieno fiskalinio dokumento teikėjo profilį **Jungties funkcinis profilis**.
-  - Pasirinkite jungties pavadinimą.
-  - Pasirinkite dokumento teikėją.
-  - Skirtuke **Paslaugos nustatymas** nurodykite PVM tarifų parametrus.
-  - Skirtuke **Duomenų susiejimas** nurodykite PVM kodų susiejimą ir mokėjimo priemonės tipo susiejimą.
+1. EKA reikalauja finansinio dokumento iš CRT.
+2. CRT nustato, ar dabartinis įvykiam įvykiui būtina fiskalinė registracija.
+3. Remiantis fiskalinės registracijos proceso parametrais, CRT identifikuoja fiskalinę jungtį ir atitinkamą finansinio dokumento teikėją, kurie bus naudojami atliekant fiskalinę registraciją.
+4. CRT paleidžia finansinio dokumento teikėją, kuris sugeneruoja finansinį dokumentą (pvz., XML dokumentą), nurodantį mažmeninės prekybos operaciją arba įvykį.
+5. EKA aparatūros stočiai siunčia CRT paruoštą finansinį dokumentą.
+6. Aparatūros stotis paleidžia fiskalinę jungtį, kuri apdoroja finansinį dokumentą ir pateikia jo informaciją finansiniam įrenginiui arba tarnybai.
+7. EKA analizuoja atsakymą iš finansinio įrenginio arba tarnybos ir nustato, ar fiskalinė registracija atlikta sėkmingai.
+8. CRT įrašo atsakymą kanalo duomenų bazėje.
 
-  #### <a name="examples"></a>Pavyzdžiai 
+![Sprendimo schema](media/emea-fiscal-integration-solution.png "Sprendimo schema")
 
-  |  | Formatuoti | Pavyzdys | 
-  |--------|--------|--------|
-  | PVM tarifų parametrai | vertė : VATrate | 1 : 2000, 2 : 1800 |
-  | PVM kodų susiejimas | VATcode : vertė | vat20 : 1, vat18 : 2 |
-  | Mokėjimo priemonės tipų susiejimas | TenderTyp : vertė | Grynieji pinigai : 1, Kortelė : 2 |
+## <a name="error-handling"></a>Klaidos taisymas
 
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalnė integracija > Fiskalinių jungčių grupė** sukurkite grupes **Fiskalinių jungčių grupės**. Jungčių grupė yra su identiškas funkcijas atliekančiomis ir tame pačiame fiskalinės registracijos proceso etape naudojamomis fiskalinėmis jungtimis susietų funkcinių profilių subrinkinys.
+Fiskalinės integracijos sistema teikia toliau nurodytas parinktis, skirtas spręsti problemas, kylančias fiskalinės registracijos metu.
 
-   - Į jungčių grupę įtraukite funkcinių profilių. Puslapyje **Funkciniai profiliai** spustelėkite **Įtraukti** ir pasirinkite profilio numerį.
-   - Jei norite sustabdyti funkcinių profilių naudojimą, nustatykite funkcijos **Išjungti** parinktį **Taip**. 
-   
-     Šis pakeitimas taikomas tik dabartinei jungčių grupei. Kitose jungčių grupėse galite ir toliau naudoti tą patį funkcinį profilį.
+- **Kartoti** – operatoriai gali naudoti šią parinktį, kai problemą galima išspręsti greitai ir fiskalinę registraciją galima vykdyti iš naujo. Pvz., šią parinktį galima naudoti, kai finansinis įrenginys yra neprijungtas, fiskaliniame spausdintuve nėra popieriaus arba yra fiskaliniame spausdintuve kilo popieriaus strigtis.
+- **Atšaukti** – ši parinktis operatoriams suteikia galimybę atidėti dabartinės operacijos arba įvykio fiskalinę registraciją, jei ji nepavyksta. Po registracija atidedama, operatorius gali tęsti darbą EKA ir baigti bet kokią operaciją, kuriai fiskalinė registracija nėra būtina. Kai EKA įvyksta bet koks įvykis, kuriam būtina fiskalinė registracija (pvz., atidaroma nauja operacija), automatiškai parodomas klaidų tvarkymo dialogo langas, kuris praneša operatoriui, kad ankstesnė operacija nebuvo tinkamai užregistruota, ir pateikia klaidų tvarkymo parinktis.
+- **Praleisti** – operatoriai gali naudoti šią parinktį, kai tam tikromis aplinkybėmis galima praleisti fiskalinę registraciją ir reguliarias operacijas galima tęsti EKA. Pvz., šią parinktį galima naudoti, kai pardavimo operaciją, kurios fiskalinė registracija nepavyko, galima registruoti specialiame popieriniame žurnale.
+- **Pažymėti kaip užregistruotą** – operatoriai gali naudoti šią parinktį, kai operacija iš tikrųjų buvo užregistruota finansiniame įrenginyje (pavyzdžiui, išspausdintas finansinis kvitas), bet kilo problema, kai finansinis atsakymas buvo įrašomas kanalo duomenų bazėje.
 
-     >[!NOTE]
-     > Kiekviena fiskalinė jungčių grupės jungtis gali turėti tik vieną funkcinį profilį.
+> [!NOTE]
+> Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** turi būti suaktyvintos fiskalinės registracijos proceso metu, kad jas būtų galima naudoti. Be to, operatoriams turi būti suteiktos atitinkamos teisės.
 
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalinė integracija > Jungties techniniai profiliai** sukurkite kiekvienos fiskalinės jungties profilį **Jungties techninis profilis**.
-  - Pasirinkite jungties pavadinimą.
-  - Pasirinkite jungties tipą. 
-      - **Vietinė** – nustatykite šį tipą vietiniame įrenginyje įdiegtiems fiziniams įrenginiams arba programoms.
-      - **Vidinė** – nustatykite šį tipą prie „Retail Server“ prijungtiems fiskaliniams įrenginiams ir paslaugoms.
-      - **Išorinė** – mokesčių inspekcijos teikiamoms išorinėms fiskalinėms paslaugoms, pvz., žiniatinklio portalui.
-    
-  - Skirtuke **Ryšys** nurodykite parametrus.
+Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** suteikia galimybę informacijos kodams užfiksuoti šiek tiek konkrečios informacijos apie triktį, pvz., gedimo priežastį, fiskalinės registracijos praleidimo priežastį arba operacijos pažymėjimo užregistruota priežastį. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Bus įkelta atnaujinta pirmiau įkeltų funkcinio ir techninio profilių konfigūracijos versija. Jei atitinkama jungtis arba atitinkamas dokumento teikėjas jau naudojami, apie tai bus pranešta. Pagal numatytuosius nustatymus bus saugomi visi neautomatiškai atlikti funkcinių ir techninių profilių pakeitimai. Norėdami perrašyti šiuos profilius naudodami numatytąjį konfigūracijos parametrų rinkinį, puslapyje **Funkciniai jungčių profiliai** ir puslapyje **Techniniai jungčių profiliai** spustelėkite **Naujinti**.
- 
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > Fiskalinė integracija > Fiskalinės registracijos procesai** sukurkite kiekvieno unikalaus fiskalinės integracijos proceso procesą **Fiskalinės registracijos procesas**. Registracijos procesas nusakomas registracijos veiksmų seka ir kiekvienam veiksmui naudojama jungčių grupe. 
-  
-  - Į procesą įtraukite registracijos veiksmus.
-      - Spustelėkite **Įtraukti**.
-      - Pasirinkite jungties tipą.
-      
-      >[!NOTE]
-      > Šiame lauke nurodoma, kur sistema ieškos techninio profilio jungties (aparatūros profilių jungties tipo **Vietinė** arba, jei tai EKA funkcijų profiliai – kito tipo fiskalinių jungčių).
-      
-   - Pasirinkite jungties grupę.
-   
-     >[!NOTE]
-     > Spustelėję **Tikrinti** patikrinkite registracijos proceso struktūros vientisumą. Tikrinimus rekomenduojama atlikti toliau išvardytais atvejais.
-       >- Naujam registracijos procesui užbaigus atlikti visus nustatymus, įskaitant susiejimą su EKA funkcijų profiliais ir aparatūros profiliais.
-       >- Atlikus esamo registracijos proceso atnaujinimus.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finansinio atsakymo saugojimas finansinėje operacijoje
 
--  Dalyje **Mažmeninė prekyba > Kanalų sąranka > EKA sąranka > EKA profiliai > Funkcijų profiliai** susiekite fiskalinės registracijos procesus su EKA funkcijų profiliais.
-   - Skirtuke **Fiskalinės registracijos procesas** spustelėkite **Redaguoti** ir pasirinkite numerį **Proceso numeris**.
-- Dalyje **Mažmeninė prekyba > Kanalų sąranka > EKA sąranka > EKA profiliai > Aparatūros profiliai** jungčių techninius profilius susiekite su aparatūros profiliais.
-   - Skirtuke **Fiskalinis techninis profilis** spustelėkite **Redaguoti**, paskui – **Naujas**.
-   - Lauke **Profilio numeris** pasirinkite jungties techninį profilį.
-   
-     >[!NOTE]
-     > Galite įtraukti kelis aparatūros profilio techninius profilius. Tačiau tai nepalaikoma, jei aparatūros profilis turi daugiau nei vieną sankirtą su bet kuria jungčių grupe. Norint išvengti neteisingų parametrų, atnaujinus visus aparatūros profilius rekomenduojama patikrinti registracijos procesą.
+Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operacija sukuriama kanalo duomenų bazėje ir susiejama su pradine operacija arba įvykiu. Be to, pasirenkama nepavykusios finansinės registracijos parinktis **Praleisti** arba **Pažymėti kaip užregistruotą**, ši informacija yra saugoma finansinėje operacijoje. Finansinėje operacijoje saugomas finansinis atsakymas iš finansinio įrenginio ar tarnybos. Jei fiskalinės registracijos procesą sudaro keli etapai, finansinė operacija sukuriamas atliekant kiekvieną proceso veiksmą, po kurio registracija pavyko arba nepavyko.
 
+*P užduotis* perkelia finansines operacijas į mažmeninių pardavimų valdymą kartu su mažmeninės prekybos operacijomis. Puslapio **Mažmeninės prekybos parduotuvės operacijos** „FastTab“ **Finansinės operacijos** galite peržiūrėti finansines operacijas, susietas su mažmeninės prekybos operacijomis.
+
+Finansinėje operacijoje saugoma toliau nurodyta informacija.
+
+- Fiskalinės registracijos proceso informacija (procesas, jungčių grupė, jungtis ir t. t.). Jos lauke **Registro numeris** taip pat saugomas finansinio įrenginio serijos numeris, jei ši informacija įtraukta į finansinį atsakymą.
+- Fiskalinės registracijos būsena: **Baigta**, jei registracija baigta sėkmingai, **Praleista**, jei operatorius pasirinko parinktį **Praleisti**, kai registracija nepavyko, arba **Pažymėta kaip užregistruota**, jei operatorius pasirinko parinktį **Pažymėti kaip užregistruotą**.
+- Informacijos kodo operacijos, susijusios su pasirinkta finansine operacija. Norėdami peržiūrėti informacijos kodų operacijas, „FastTab“ **Finansinės operacijos** pasirinkite finansinę operaciją, kurios būsena yra **Praleista** arba **Pažymėta kaip užregistruota**, tada pasirinkite **Informacijos kodų operacijos**.
+
+## <a name="fiscal-texts-for-discounts"></a>Nuolaidų finansinis tekstas
+
+Kai kuriose šalyse ar regionuose taikomi specialūs reikalavimai dėl papildomo teksto, kuris turi būti išspausdintas ant finansinių kvitų, kai taikomas skirtingų tipų nuolaidos. Fiskalinės integracijos funkcija suteikia galimybę nustatyti specialų nuolaidos tekstą, kuris išspausdinamas po nuolaidos eilute finansiniame kvite. Jei nuolaidos neautomatinės, galite sukonfigūruoti finansinį tekstą, taikomą informacijos kodui, nurodytam EKA funkcijų šablono informacijos kode **Produkto nuolaida**. Daugiau informacijos apie tai, kaip nustatyti nuolaidų finansinį tekstą, žr. [Nuolaidų finansinio teksto nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Finansinių X ir Z ataskaitų spausdinimas
+
+Fiskalinės integracijos funkcija palaiko konkretaus integruoto finansinio įrenginio arba tarnybos dienos pabaigos išrašų generavimą.
+
+- Nauji mygtukai, kurie vykdo atitinkamas operacijas, turėtų būti įtraukti į EKA ekrano maketą. Daugiau informacijos žr. [Finansinio X / Z ataskaitų nustatymas iš EKA](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Fiskalinės integracijos pavyzdyje šios operacijos turėtų būti sugretintos su atitinkamomis finansinio įrenginio operacijomis.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai
+
+Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Retail SDK“, kuris leidžiamas kartu su „Retail“.
+
+- [Fiskalinio spausdintuvo integracijos pavyzdys (Italija)](emea-ita-fpi-sample.md)
+- [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](emea-pol-fpi-sample.md)
+
+Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SDK“, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
+
+- [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
+- [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
+- [Švedijos kontrolės įtaiso integracijos pavyzdys](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

@@ -1,14 +1,14 @@
 ---
-title: "Saugos ir vaidmenų valdymas sprendime „Attract“"
-description: "Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft Dynamics 365 for Talent - Attract“."
+title: Saugos ir vaidmenų valdymas sprendime „Attract“
+description: Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft Dynamics 365 for Talent - Attract“.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374785"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Saugos ir vaidmenų valdymas sprendime „Attract“
 
 [!include[banner](../includes/banner.md)]
@@ -63,9 +62,9 @@ Vartotojai, kurie priskirti samdos vadovo vaidmeniui, gali kurti užduotis ir at
 
 Vartotojai, kurie priskirti įdarbintojo vaidmeniui, turi visas skaitymo, kūrimo, atnaujinimo ir naikinimo teises užduotyse, kurias jie sukūrė. Jie taip pat turi visas kūrimo, skaitymo, atnaujinimo ir naikinimo teises programose, susijusiose su jų turimomis užduotimis. Tik tie vartotojai, kurie priskirti įdarbintojo vaidmeniui, gali būti įtraukti į samdos komandą kaip įdarbintojai.
 
-## <a name="interviewer"></a>Kalbintojas
+## <a name="interviewer"></a>Interviu ėmėjas
 
-Bet kuris vartotojas, kuris turi organizacijoje „Microsoft Azure Active Directory“ (Azure AD) paskyrą, gali būti įtrauktas į samdos komandą kaip kalbintojas. Vartotojai, kurie priskirti kalbintojo vaidmeniui, gali peržiūrėti užduoties informaciją ir pretendento duomenis tų užduočių, kurių samdos komandose jie yra. Šių užduočių mastu kalbintojai gali pateikti įdarbinimo rekomendacijų ir atsiliepimų apie kandidatus. Tačiau jie negali atnaujinti užduoties informacijos arba pretendento duomenų.
+Bet kuris vartotojas, kuris turi organizacijoje „Microsoft Azure Active Directory“ („Azure AD“) paskyrą, gali būti įtrauktas į samdos komandą kaip kalbintojas. Vartotojai, kurie priskirti kalbintojo vaidmeniui, gali peržiūrėti užduoties informaciją ir pretendento duomenis tų užduočių, kurių samdos komandose jie yra. Šių užduočių mastu kalbintojai gali pateikti įdarbinimo rekomendacijų ir atsiliepimų apie kandidatus. Tačiau jie negali atnaujinti užduoties informacijos arba pretendento duomenų.
 
 ## <a name="read-only"></a>Tik skaitoma
 
@@ -108,7 +107,7 @@ Toliau išvardytos teisės, kurios taikomos užduočiai būdingiems pretendentų
 | Perkelti į kitą etapą           | Gali atmesti, jei vartotojas priklauso samdos komandai | Gali perduoti toliau, jei vartotojas priklauso samdos komandai | Neleidžiama |
 | Pradėti pasiūlymo valdymą | Gali pradėti pasiūlymo valdymą | Galima naudoti konfigūracijos parinktį pasiūlymo veikloje. | Neleidžiama |
 
-\*\*Konfigūracijos parinktimi, esančia [nuomonės veiklos sąrankoje](./activities-attract.md#feedback-activity), galima valdyti kalbintojų galimybę matyti vienas kito nuomonę.
+\*\*Konfigūracijos parinktimi, esančia [nuomonės veiklos sąrankoje](activities-attract.md#feedback-activity), galima valdyti kalbintojų galimybę matyti vienas kito nuomonę.
 
 ## <a name="process-templates"></a>Proceso šablonai
 
@@ -146,4 +145,3 @@ Kandidatai yra žmonės, kurie buvo įtraukti į talentų telkinį, bet nėra su
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profilis – kandidato informacija | Kurti, skaityti, atnaujinti ir panaikinti | Kurti, skaityti, atnaujinti ir panaikinti | Nėra prieigos   |
 | Dokumentai                   | Kurti, skaityti, atnaujinti ir panaikinti | Kurti, skaityti, atnaujinti ir panaikinti | Nėra prieigos   |
-

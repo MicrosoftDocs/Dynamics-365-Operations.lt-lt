@@ -1,13 +1,13 @@
 ---
 title: Vartotojo patirties personalizavimas
-description: "Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations‟."
+description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations“.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363481"
 ---
-
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations‟.
+Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations“.
 
 Yra trys pagrindinės „Dynamics 365 for Finance and Operations“ personalizavimo klasės.
 
@@ -115,7 +114,7 @@ Galimybė naršyti puslapyje, kai atidaryta **Personalizavimo įrankių juosta**
 - Naudodamiesi mygtuku **Įterpti** galite matyti į puslapį galimų įterpti elementų sąrašą.
 
     - Paspaudę mygtuko **Įterpti** įrankį **Laukas** savo puslapyje galite įterpti lauką. Naudodamiesi įrankiu **Laukas** galite įtraukti tik tuos laukus, kurie yra puslapio apibrėžimo dalis, tačiau šiuo metu puslapyje nerodomi. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktiniai laukai](user-defined-fields.md). Paspaudus įrankį **Laukas** pirmiausia būtina pasirinkti grupę arba sritį, į kurią norite įtraukti lauką. Dialogo lange rodomas su pasirinkta grupe arba sritimi susijusių laukų sąrašas. Dialogo lange pasirinkite vieną arba kelis norimus įterpti laukus, po to paspauskite **Įterpti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
-    - Paspaudę mygtuko **Įterpti** įrankį **„PowerApp“** į puslapį galite įdėti naudojantis „Microsoft PowerApps“ sukurtą programą. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“](embed-power-apps.md).
+    - Paspaudę mygtuko **Įterpti** įrankį **PowerApp** į puslapį galite įdėti naudodami „Microsoft PowerApps“ sukurtą programą. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“](embed-power-apps.md).
 
 - Paspaudę mygtuką **Valdyti** galite peržiūrėti su visomis dabartinio puslapio personalizacijomis susijusių valdymo parinkčių sąrašą.
 
@@ -171,4 +170,3 @@ Personalizuodami puslapyje atsargų dimensijų sąranką, atsižvelkite į param
 Parametrai **Dimensijos rodinys** taikomi visuose puslapiuose ir naudojantis šiais parametrais panaikinamos visos personalizuotos atskirų puslapių atsargų dimensijų laukų sąrankos.
 
 Todėl ankstesniame pavyzdyje, jei nenorite, kad būtų rodomas paketo numerio atsargų dimensijos stulpelis, turite lentelėje panaikinti tos dimensijos parinkties **Rodyti dimensijas** žymėjimą. Galiausiai šis pakeitimas bus taikomas ne tik vienam konkrečiam puslapiui, tačiau visiems puslapiams.
-

@@ -1,13 +1,13 @@
 ---
-title: "Žurnalo įrašų ir operacijų peržiūra"
-description: "Šiame straipsnyje paaiškinti įvairūs būdai, kaip galite peržiūrėti žurnalo įrašus ir operacijas."
+title: Žurnalo įrašų ir operacijų peržiūra
+description: Šiame straipsnyje paaiškinti įvairūs būdai, kaip galite peržiūrėti žurnalo įrašus ir operacijas.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: robinr
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366701"
 ---
-
 # <a name="view-journal-entries-and-transactions"></a>Žurnalo įrašų ir operacijų peržiūra
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Be finansinių ataskaitų, galite naudoti šias DK ataskaitas, kad peržiūrėtu
 - [Apskaitos šaltinių naršyklė](../accounts-payable/accounting-source-explorer.md)
 - [Finansinės ataskaitos](financial-reporting-getting-started.md)
 - [Peržiūrėti žurnalo įrašus](tasks/view-journal-entries-or-transactions.md)
-
 
 
 

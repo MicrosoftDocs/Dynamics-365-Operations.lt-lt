@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00002 ES Intrastat deklaracijos generavimas
-description: "Šia procedūra rodomi veiksmai, kuriuos reikia atlikti norint elektroniniu failo formatu eksportuoti Intrastat deklaraciją ir „Excel‟ formatu peržiūrėti deklaracijos duomenis."
+description: Šia procedūra rodomi veiksmai, kuriuos reikia atlikti norint elektroniniu failo formatu eksportuoti Intrastat deklaraciją ir „Excel‟ formatu peržiūrėti deklaracijos duomenis.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371214"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 ES Intrastat deklaracijos generavimas
 
@@ -58,7 +58,7 @@ Kol operacijų neperkelsite į Intrastat, tol negalėsite atlikti šios procedū
     * Įveskite apvalinimo tikslumą, pavyzdžiui, įveskite „0,01‟.  
 7. Lauke Sumos skaitmenų po kablelio skaičius įveskite skaičių.
     * Pvz., įveskite „2‟.  
-8. Lauke Apvalinimas žemiau 1 kg pasirinkite parinktį.
+8. Lauke Apvalinimas žemiau 1 kg pasirinkite parinktį.
     * Pavyzdžiui, pasirinkite Apvalinimas iki 1 kg.  
 9. Lauke Apvalinimo taisyklė įveskite skaičių.
     * Pavyzdžiui, įveskite „1‟, kad svorį apvalintumėte iki sveikojo skaičiaus.  
@@ -113,5 +113,4 @@ Kol operacijų neperkelsite į Intrastat, tol negalėsite atlikti šios procedū
 26. Lauke Kryptis pasirinkite parinktį.
     * Pavyzdžiui, pasirinkite Išsiuntimai.  
 27. Spustelėkite GERAI.
-
 

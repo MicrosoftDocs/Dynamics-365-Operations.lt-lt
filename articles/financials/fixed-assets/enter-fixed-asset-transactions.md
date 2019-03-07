@@ -1,13 +1,13 @@
 ---
-title: "Ilgalaikio turto operacijų parinktys"
-description: "Šiame straipsnyje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti."
+title: Ilgalaikio turto operacijų parinktys
+description: Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377187"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>Ilgalaikio turto operacijų parinktys
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
+Šioje temoje aprašomi galimi skirtingi metodai ilgalaikio turto operacijoms kurti.
 
 Galite nustatyti, kad ilgalaikis turtas būtų integruotas su mokėtinomis sumomis, gautinomis sumomis, paraiškomis ir didžiąja knyga. Taip pat galite perkelti prekes atsargų valdyme į ilgalaikį turtą, jei norite tas prekes naudoti viduje.
 
@@ -63,12 +62,9 @@ Bet kokį ilgalaikio turto operacijos tipą galima registruoti puslapyje Bendras
 |                                     | DK           | Pagrindinis žurnalas                           |
 | Likvidavimas                            | Ilgalaikis turtas             | Ilgalaikis turtas                              |
 | ** **                               | DK           | Pagrindinis žurnalas                           |
-| ** **                               | Gautinos sumos      | Laisvos formos SF                         |
+| ** **                               | Gautinos sumos      | Laisvos formos sąskaita faktūra                         |
 
 
+Ilgalaikio turto reikšmė lauke Likusių nusidėvėjimo laikotarpių skaičius nėra atnaujinama, kai nusidėvėjimo operacijos tipo žurnalo eilutė sukuriama neautomatiškai arba importuojama naudojant duomenų objektą. Ši reikšmė atnaujinama, kai nusidėvėjimo pasiūlymo procesas naudojamas žurnalo eilutei sukurti.
 
 Norėdami daugiau informacijos žr. [Ilgalaikio turto integravimas](fixed-asset-integration.md).
-
-
-
-

@@ -1,13 +1,13 @@
---- 
-title: "EUR-00015: šalies ieška naudojant PVM ID"
-description: "Šioje procedūroje parodoma, kaip atlikti šalies iešką naudojant registracijos ID."
+---
+title: 'EUR-00015: šalies ieška naudojant PVM ID'
+description: Šioje procedūroje parodoma, kaip atlikti šalies iešką naudojant registracijos ID.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371204"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015: šalies ieška naudojant PVM ID
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/16/2018
 
 Šioje procedūroje parodoma, kaip atlikti šalies iešką naudojant registracijos ID. Prieš atlikdami šią procedūrą, turite nustatyti PVM ID ir įvesti tiekėjų, klientų arba juridinių subjektų PVM ID.
 
-Ši procedūra taikoma visoms Europos šalims / regionams. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Ši procedūra yra skirta mokėtinų sumų vadovui arba gautinų sumų vadovui. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Ši procedūra taikoma visoms Europos šalims / regionams. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Ši procedūra yra skirta mokėtinų sumų vadovui arba gautinų sumų vadovui. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 1. Pasirinkite Organizacijos administravimas > Visuotinė adresų knygelė > Visuotinė adresų knygelė.
 2. Spustelėkite Registracijos ID ieška.
@@ -41,5 +41,4 @@ ms.lasthandoff: 10/16/2018
 6. Lauke Registracijos numeris įveskite reikšmę.
 7. Spauskite Rasti.
     * Bus rodomos visos šalys su tuo registracijos ID.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Atvirkštinio mokesčio PVM"
-description: "Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse ir Saudo Arabijoje."
+title: Atvirkštinio mokesčio PVM
+description: Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse ir Saudo Arabijoje.
 author: epodkolz
 manager: AnnBe
 ms.date: 04/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 26f7f3f11408cac387c58a5345b566ac50ed426f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 64518e72dd66961108ff905981cd0405355ed130
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371246"
 ---
-
 # <a name="reverse-charge-vat"></a>Atvirkštinio mokesčio PVM
 
 
@@ -115,4 +114,3 @@ Užregistravus atvirkštinio apmokestinimo pirkimo SF sukuriamos dvi PVM operaci
 Toliau pateiktoje ekrano kopijoje vienos operacijos kryptis yra **Gautinas PVM**, o kitos – **mokėtinas PVM**. 
 
 ![Užregistruotas PVM](media/apac-sau-posted-sales-tax.png)
-

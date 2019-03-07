@@ -1,13 +1,13 @@
 ---
 title: Ilgalaikio turto likvidavimas (Estija ir Lietuva)
-description: "Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje."
+description: Šioje temoje pateikiama informacija apie ilgalaikio turto likvidavimo kredito pažymas, kai laisvos formos SF užregistruojamos vartotojams, kurių juridiniai subjektai yra Estijoje ir Lietuvoje.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Estonia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 505b612b30c1b6f4b3f55f07880a127dd506a991
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 338d6fe234f3da36f7db835d160a6f7a19f14d79
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371231"
 ---
-
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ Ilgalaikį turtą galima parduoti naudojant likvidavimo funkciją, pateiktą lai
 5.  Registruokite kredito pažymą.
 
 Atšaukiamos ilgalaikio turto likvidavimo operacijos, sukurtos užregistravus kredito pažymą. Ilgalaikio turto būsena lieka **Parduota**. Tačiau, jei reikia, ilgalaikio turto būseną galite pakeisti patys.
-
 
 
 

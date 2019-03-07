@@ -1,13 +1,13 @@
---- 
-title: "EUR-00015: tiekėjo PVM ID registravimas"
-description: "Šioje procedūroje parodoma, kaip įtraukti PVM registracijos ID ir neapmokestinimo kodą į tiekėjo kodą."
+---
+title: 'EUR-00015: tiekėjo PVM ID registravimas'
+description: Šioje procedūroje parodoma, kaip įtraukti PVM registracijos ID ir neapmokestinimo kodą į tiekėjo kodą.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d9788a35e768a4a289742e9cd864b3ca185a0407
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371242"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015: tiekėjo PVM ID registravimas
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 10/16/2018
 
 Šioje procedūroje parodoma, kaip įtraukti PVM registracijos ID ir neapmokestinimo kodą į tiekėjo kodą. Šis procesas yra panašus ir kai naudojami juridiniai subjektai bei klientai. 
 
-Prieš atlikdami šią procedūrą, turite nustatyti PVM ID. Ši procedūra taikoma visoms Europos šalims / regionams. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Ši procedūra yra skirta duomenų valdymo administratoriui, mokėtinų sumų vadovui arba gautinų sumų vadovui. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Prieš atlikdami šią procedūrą, turite nustatyti PVM ID. Ši procedūra taikoma visoms Europos šalims / regionams. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Ši procedūra yra skirta duomenų valdymo administratoriui, mokėtinų sumų vadovui arba gautinų sumų vadovui. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 1. Pasirinkite Mokėtinos sumos > Tiekėjai > Visi tiekėjai.
 2. Sąraše raskite ir pasirinkite tiekėją DE-01001
@@ -63,5 +63,4 @@ Prieš atlikdami šią procedūrą, turite nustatyti PVM ID. Ši procedūra taik
 24. Spustelėkite Redaguoti.
 25. Lauke Neapmokestinimo kodas įveskite arba pasirinkite vertę.
 26. Spustelėkite Įrašyti.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "ES pardavimo sąrašo ataskaitos"
-description: "Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas."
+title: ES pardavimo sąrašo ataskaitos
+description: Šiame straipsnyje pateikta informacija apie Europos Sąjungos (ES) Pardavimo sąrašo ataskaitas.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371234"
 ---
-
 # <a name="eu-sales-list-reporting"></a>ES pardavimo sąrašo ataskaitos
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Naudodami ESL kiekvienos ES valstybės šalies narės mokesčių inspekcija gali
 Galite atlikti šias užduotis, susijusias su ES pardavimų sąrašo ataskaitų teikimu.
 
 -   Rinkti informaciją apie ES vidaus prekybos operacijas. ES vidaus prekybos operacija gali būti pardavimo sąskaita faktūra, laisvos formos sąskaita faktūra, projekto sąskaita faktūra arba tiekėjo sąskaita faktūra. Operacija identifikuojama pagal kitos sandorio šalies valstybę / regioną. Skirtingų tipų ES vidaus prekybos operacijos surenkamos į ES pardavimų sąrašo lentelę, kurioje jos pateikiamos bendra forma. Kiekvienas ESL lentelės įrašas rodo vieną operaciją, ir jį sudaro kitos sandorio šalies PVM identifikatorius ir bendra prekių ir paslaugų vertė.
--   (Nebūtina) Peržiūrėti **ES pardavimų sąrašo** ataskaitą. Tam tikro laikotarpio **ES pardavimų sąrašo** ataskaitą galite peržiūrėti ir patvirtinti „Microsoft Excel“ darbaknygės forma.
+-   (Nebūtina) Peržiūrėti **ES pardavimų sąrašo** ataskaitą. Tam tikro laikotarpio ataskaitą **ES pardavimų sąrašas** galite peržiūrėti ir patvirtinti „Microsoft Excel“ darbaknygės forma.
 -   Generuoti **ES pardavimo sąrašo** ataskaitą. **ES pardavimų sąrašo** ataskaita generuojama kaip tam tikro formato, kuris priklauso nuo kiekvienos ES valstybės narės, elektroninis failas. Apskritai **ES pardavimų sąrašo** ataskaitoje yra pagrindinė informacija apie ataskaitą teikiančią šalį ir prekių ir paslaugų vertę. Informacija yra sugrupuota pagal valstybę ir kitos sandorio šalies PVM identifikatorių.
 -   Uždaryti ES pardavimo sąrašo ataskaitos laikotarpį. Sugeneravus **ES pardavimų sąrašo** ataskaitą ir pateikus ją institucijoms, galima pažymėti ESL lentelės įrašus **Uždaryta**. Šios operacijos nebus įtrauktos į papildomas ataskaitas.
 
@@ -158,7 +157,6 @@ Galite sugeneruoti ataskaitą **ES pardavimų sąrašas** naudodami funkciją **
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pardavimų sąrašo ataskaitinio laikotarpio uždarymas
 
 Baigę tam tikro laikotarpio ataskaitinį procesą (pavyzdžiui, kai mokesčių inspekcija priims ataskaitą **ES pardavimų sąrašas**), galite pažymėti ESL įrašus, kurie yra įtraukti į to laikotarpio ataskaitą, nustatydami parinkties **Ataskaitos būsena** reikšmę **Uždaryta**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip uždarytą**, esančią puslapyje **ES pardavimų sąrašas**. Jei grąžinate uždarytą laikotarpį, galite pažymėti ESL įrašus nustatydami parinkties **Ataskaitos būsena** reikšmę **Įtraukta**. Tada šiuos įrašus galima vėl įtraukti į ataskaitą **ES pardavimų sąrašas**. Norėdami nustatyti šią būseną, naudokite funkciją **Pažymėti kaip** **įtrauktus**, esančią puslapyje **ES pardavimų sąrašas**.
-
 
 
 

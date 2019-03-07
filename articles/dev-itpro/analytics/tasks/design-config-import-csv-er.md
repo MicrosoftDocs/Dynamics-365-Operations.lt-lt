@@ -1,13 +1,13 @@
---- 
-title: "ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių CSV failų"
-description: "Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations“."
+---
+title: ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių CSV failų
+description: Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į „Dynamics 365 for Finance and Operations“.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365229"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių CSV failų
 
@@ -33,7 +33,7 @@ Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti
 Taip pat turite atsisiųsti ir įrašyti į savo kompiuterį šiuos failus: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Galite konfigūruoti procesą, skirtą importuoti išorinius failus XML, TXT arba CSV formatu į lenteles „Dynamics 365 for Finance and Operations“ programoje. Pirmiausia turite sukurti abstraktų duomenų modelį, kuris verslo požiūriu atspindėtų importuotus duomenis – tam tikslui sukuriama ER duomenų modelio konfigūracija. Tada nurodykite importuoto failo struktūrą, kuri susieja sukurtą duomenų modelį, nes yra būdas nukreipti duomenis iš failo į abstraktų duomenų modelį – tam tikslui sukuriama ER formato konfigūracija. Tada ER duomenų modelio konfigūracija turi būti išplėsta įtraukiant naujo modelio susiejimą, kuriame aprašoma, kokiu būdu duomenys iš importuoto failo ir iš abstraktaus duomenų modelio išlaikyti duomenys naudojami norint atnaujinti programos lenteles arba duomenų objektus.  
+    * Galite konfigūruoti procesą, skirtą importuoti išorinius failus XML, TXT arba CSV formatu į „Dynamics 365 for Finance and Operations“ programos leidimą. Pirmiausia turite sukurti abstraktų duomenų modelį, kuris verslo požiūriu atspindėtų importuotus duomenis – tam tikslui sukuriama ER duomenų modelio konfigūracija. Tada nurodykite importuoto failo struktūrą, kuri susieja sukurtą duomenų modelį, nes yra būdas nukreipti duomenis iš failo į abstraktų duomenų modelį – tam tikslui sukuriama ER formato konfigūracija. Tada ER duomenų modelio konfigūracija turi būti išplėsta įtraukiant naujo modelio susiejimą, kuriame aprašoma, kokiu būdu duomenys iš importuoto failo ir iš abstraktaus duomenų modelio išlaikyti duomenys naudojami norint atnaujinti programos lenteles arba duomenų objektus.  
     * Toliau nurodytuose veiksmuose vaizduojama, kaip išoriškai sekamos tiekėjų operacijos importuojamos iš išorinio CSV failo, kad vėliau jas būtų galima panaudoti atliekant tiekėjo 1099-ųjų formų sudengimą.   
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
@@ -119,5 +119,4 @@ Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą 
     * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorojamos visos 7 importuojamo CSV failo eilutės. Praleista 1 eilutė, kurioje nurodomi laukų pavadinimai, 4 operacijos išanalizuotos tinkamai, o 2 operacijos pripažintos netinkamomis.   
 3. Uždarykite puslapį.
 4. Uždarykite puslapį.
-
 

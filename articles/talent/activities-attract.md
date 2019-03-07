@@ -1,14 +1,14 @@
 ---
 title: Proceso veiklos
-description: "Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti samdos procese."
-author: 
+description: Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti samdos procese.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374762"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Samdos proceso veiklos
 
 [!include[banner](../includes/banner.md)]
 
-Veiklas galima įtraukti į „Microsoft Dynamics 365 for Talent: Attract“ kaip samdos proceso dalį. Veiklas galima įtraukti į proceso šabloną arba jas galima tiesiogiai įtraukti į darbo samdos procesą. Apibrėžus darbą, pažymimas proceso šablono, o veiklos, kurios įtrauktos į šabloną, pritaikomos užduočiai. Jei šablonas nepasirenkamas, naudojamas numatytasis šablonas. Samdos procesą taip pat galima pakeisti užduotyje pritaikius šabloną.
+Veiklas galima įtraukti į „Dynamics 365 for Talent: Attract“ kaip samdos proceso dalį. Veiklas galima įtraukti į proceso šabloną arba jas galima tiesiogiai įtraukti į darbo samdos procesą. Apibrėžus darbą, pažymimas proceso šablono, o veiklos, kurios įtrauktos į šabloną, pritaikomos užduočiai. Jei šablonas nepasirenkamas, naudojamas numatytasis šablonas. Samdos procesą taip pat galima pakeisti užduotyje pritaikius šabloną.
 
 > [!NOTE] 
 > Proceso šablonai teikiami su išsamios įdarbinimo informacijos priedu.
@@ -43,31 +42,9 @@ Potencialaus kliento veikla kontroliuoja, ar potencialūs klientai gali būti į
 
 Prašymo veikla būtina samdos proceso šablone. Norėdami siųsti el. laiškus kandidatams, kai jie pateikia savo prašymą arba yra įtraukiami į prašymo teikimo etapą, nustatykite parinkties **Siųsti el. laišką kandidatams** reikšmę į **Įjungta**.
 
-## <a name="scheduler-activity"></a>Duomenų apsikeitimo valdymo veikla
+## <a name="interview-schedule-and-feedback-activity"></a>Pokalbio grafikas ir atsiliepimo veikla
 
-Duomenų apsikeitimo valdymo veikla nėra privaloma. Ši veikla turi du komponentus: kandidato pasiekiamumą ir grafiką. Kandidatas pasiekiamumo komponentas suteikia galimybę naudoti el. paštą ir prašyti informacijos apie kandidato pasiekiamumą. Grafiko komponentas suteikia galimybę planuoti pokalbius su kandidatas ir samdos komanda. Duomenų apsikeitimo valdymo veikloje galima sukonfigūruoti šias parinktis: **Prašyti informacijos apie kandidato pasiekiamumą**, **Susitikimas internetu** ir **Siųsti el. laišką kandidatą**.
-
-- Norėdami kandidatams siųsti el. laiškus ir prašyti informacijos apie jų pasiekiamumą, nustatykite parinkties **Prašyti informacijos apie kandidato pasiekiamumą** reikšmę **Įjungta**. Jei nustatysite šios parinkties reikšmę **Išjungta**, šis veiksmas nebus rodomas darbo samdos procese.
-- Jei norite pasikalbėti tiesioginiu srautu arba sukurti konferencijos skambinti naudodami „Skype“ verslui, nustatykite lauko **Susitikimas internetu** reikšmę **„Skype“ verslui**. Tada tinkamas saitas **Prisijungti prie „Skype“ susitikimo** bus įtrauktas į pokalbio susitikimo užklausą, siunčiamą kalbintojams.
-- Norėdami kandidatams siųsti el. laiškus ir galutinai sutarti dėl grafiko, nustatykite parinkties **Siųsti el. laišką kandidatui** reikšmę **Įjungta**. Jei nustatysite parinkties reikšmę **Išjungta**, kandidatai gaus pokalbio grafiką tik prisijungę prie kandidatų portalo.
-
-## <a name="feedback-activity"></a>Atsiliepimo veikla
-
-Atsiliepimo veikla nėra privaloma. Ši veikla suteikia galimybę pokalbio dalyviams įvesti rekomendacijas pretendentui. Taip pat jie gali įvesti bet kokių komentarų. Jei įjungsite parinktį **Gauti atsiliepimų dalyvius iš samdos komandos**, įdarbintojas, samdos vadovas ir kalbintojai automatiškai įvedami į atsiliepimo veiklą. Organizacijos gali leisti kalbintojams peržiūrėti kitų žmonių atsiliepimus prieš pateikiant savo atsiliepimus. Organizacijos taip pat gali leisti kalbintojams redaguoti savo atsiliepimą, kai jis pateiktas.
-
-## <a name="interview-activity"></a>Pokalbio veikla
-
-Pokalbio veikla nėra privaloma. Ši veikla turi tris komponentus: kandidato pasiekiamumą, grafiką ir atsiliepimą. Kandidatas pasiekiamumo komponentas suteikia galimybę naudoti el. paštą ir prašyti informacijos apie kandidato pasiekiamumą. Grafiko komponentas suteikia galimybę planuoti pokalbius su kandidatas ir samdos komanda. Duomenų apsikeitimo valdymo veikloje galima sukonfigūruoti šias parinktis: **Prašyti informacijos apie kandidato pasiekiamumą**, **Susitikimas internetu** ir **Siųsti el. laišką kandidatą**.
-
-- Norėdami kandidatams siųsti el. laiškus ir prašyti informacijos apie jų pasiekiamumą, nustatykite parinkties **Prašyti informacijos apie kandidato pasiekiamumą** reikšmę **Įjungta**. Jei nustatysite šios parinkties reikšmę **Išjungta**, šis veiksmas nebus rodomas darbo samdos procese.
-- Jei norite pasikalbėti tiesioginiu srautu arba sukurti konferencijos skambinti naudodami „Skype“ verslui, nustatykite lauko **Susitikimas internetu** reikšmę **„Skype“ verslui**. Tada tinkamas saitas **Prisijungti prie „Skype“ susitikimo** bus įtrauktas į pokalbio susitikimo užklausą.
-- Norėdami kandidatams siųsti el. laiškus ir galutinai sutarti dėl grafiko, nustatykite parinkties **Siųsti el. laišką kandidatui** reikšmę **Įjungta**. Jei nustatysite parinkties reikšmę **Išjungta**, kandidatai gaus pokalbio grafiką tik prisijungę prie kandidatų portalo.
-
->[!NOTE]
-> - Individualūs pokalbiai: kalbintojams kas 24 valandas siunčiami priminimai, jei kalbintojas neatsakė į pokalbio užklausą (nepriėmė ir neatmetė).
-> - Grupės pokalbiai: nėra jokių automatinių priminimų atsakyti į pokalbio užklausą. Norėdami rankiniu būdu suaktyvinti priminimą, redaguokite pokalbį ir naudokite parinktį **Atnaujinti ir siųsti**, kad nusiųstumėte užklausą kalbintojams.
-
-Atsiliepimo komponentas suteikia galimybę žmonėms įvesti rekomendacijas pretendentui. Taip pat jie gali įvesti bet kokių komentarų. Jei įjungsite parinktį **Gauti atsiliepimų dalyvius iš samdos komandos**, įdarbintojas, samdos vadovas ir kalbintojai automatiškai įvedami į atsiliepimo komponentą. Organizacijos gali leisti kalbintojams peržiūrėti kitų žmonių atsiliepimus prieš pateikiant savo atsiliepimus. Organizacijos taip pat gali leisti kalbintojams redaguoti savo atsiliepimą, kai jis pateiktas.
+Ši veikla turi tris komponentus: kandidato pasiekiamumo užklausą, grafiką ir atsiliepimą. Naudokite pokalbio veiklą užduoties šablone, jei norite įtraukti kandidato pasiekiamumo užklausą, grafiką ir atsiliepimą kaip proceso dalį, o ne naudoti juos atskirai samdos proceso metu. Daugiau informacijos žr. [Pokalbio planavimas ir atsiliepimas](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>„PowerApps“ veikla
 
@@ -102,4 +79,3 @@ Pasirinkus parinktį **Leisti įtraukti dalyvių į šią veiklą**, galima įtr
 
 > [!NOTE]
 > „Microsoft Forms“ veiklą galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu.
-

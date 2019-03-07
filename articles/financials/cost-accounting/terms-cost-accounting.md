@@ -1,13 +1,13 @@
 ---
-title: "Kaštų apskaitos terminija"
-description: "Šioje temoje nurodomi pagrindiniai atliekant kaštų apskaitą naudojami terminai."
+title: Kaštų apskaitos terminija
+description: Šioje temoje nurodomi pagrindiniai atliekant kaštų apskaitą naudojami terminai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365942"
 ---
-
 # <a name="cost-accounting-terminology"></a>Kaštų apskaitos terminija
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ Yra dvi dimensijų hierarchijos: kategorijų hierarchija ir klasifikacijos hiera
 Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naudojant įvairias duomenų jungtis. Galima naudoti tolesnes duomenų jungtis.
 
 -  Importuotos operacijos (sukonfigūruota iš anksto)
--  „Dynamics 365 for Finance and Operations“ (sukonfigūruota iš anksto)
+-  „Dynamics 365 for Finance and Operations“ (iš anksto sukonfigūruota)
 -  „Dynamics AX“ (reikia sukonfigūruoti)
 
 **Pastaba.** Duomenų jungtis Importuotos operacijos paremta duomenų objektais.
@@ -128,7 +127,7 @@ Modulyje Kaštų apskaita duomenis iš šaltinio sistemų galima integruoti naud
 
 Dauguma šaltinio sistemų gali pateikti duomenų, sutampančių su vienu ar keliais modulio Kaštų apskaita duomenų šaltiniais. Norint šaltinio sistemų duomenis sulygiuoti su modulio Kaštų apskaita duomenų šaltiniu, reikia sukonfigūruoti duomenų teikėją. Tolesnėje lentelėje išvardijama, kokius duomenų teikėjus galima naudoti su kiekviena duomenų jungtimi ir duomenų šaltiniu.
 
-|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **Duomenų jungtis „Dynamics 365 for Finance and Operations“**  | **Duomenų jungtis „Dynamics AX“**  |
+|  **Duomenų šaltiniai** |  **Duomenų jungtis Importuotos operacijos** | **„Dynamics 365 for Finance and Operations“ duomenų jungtis**  | **„Dynamics AX“ duomenų jungtis**  |
 |---|---|---|---|
 | Savikainos elemento dimensijos nariai  |  Taip | Taip  | Taip  |
 |  Savikainos objekto dimensijos nariai |  Taip | Taip  | Taip  |
@@ -204,6 +203,5 @@ Išrašai yra už išlaidų valdymą atsakingiems vadovams skirti rodiniai. Išr
 **Versija**
 
 Norint modeliuoti, peržiūrėti ir palyginti įvairius rezultatus, naudojamos versijos. Pagal numatytuosius parametrus visos faktinės išlaidos rodomos vienoje pagrindinėje versijoje, vadinamoje *faktine*. Dirbdami su biudžetais ir atlikdami skaičiavimus galite dirbti su tiek versijų, kiek jums reikia. Pavyzdžiui, galite importuoti biudžeto duomenis į pradinę versiją, o po to peržiūrėti biudžetą pataisytoje versijoje. Atlikdami skaičiavimus galite sukurti kelias versijas. Tada šiose įvairiose versijose naudodami skirtingas skaičiavimo taisykles, kurios bus taikomos išlaidų paskirstymui, galite sukurti skaičiavimus.
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "SEPA kredito pervedimų apžvalga"
-description: "Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą."
+title: SEPA kredito pervedimų apžvalga
+description: Šiame straipsnyje pateikiama bendra informacija apie ISO 20022 kredito pervedimus, kurie apima bendros mokėjimų eurais erdvės (SEPA) kredito pervedimus ir bet kurį kitą elektroninį mokėjimą tiekėjams. SEPA kredito pervedimas yra konkretaus tipo mokėjimas eurais iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Temoje taip pat paaiškinta, kaip nustatyti ir perduoti SEPA kredito pervedimo mokėjimo failą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363780"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredito pervedimų apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -52,10 +51,10 @@ EPC, kurią sudaro Europos bankai, kuria komercines ir technines SEPA mokėjimo 
 SEPA kredito pervedimas yra mokėjimas iš vienos įmonės ar asmens kitai įmonei ar asmeniui. Mokėjimai turi būti atliekami eurais, ir juose turi būti nurodytas abiejų šalių tarptautinis banko sąskaitos numeris (IBAN) bei banko identifikatoriaus kodas (BIC). (Tarptautinės organizacijos, teikiančios finansinių pranešimų perdavimo paslaugas \[SWIFT\] kodas taip pat vadinamas banko identifikacijos kodu (BIC).) Be to, operacijos išlaidas turi dalintis abi šalys. Kredito pervedimuose, atliekamuose tarp šalių, turi būti naudojami XML failai, atitinkantys ISO 20022 mokėjimų apdorojimo standartus ir XML formatą, kaip nurodo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kaip kredito pervedimas atliekamas?
-Europos šalių kredito pervedimo mokėjimo formatas diegiamas naudojant „Microsoft Dynamics 365 for Finance and Operations‟ leidimo funkcijas Elektroninės ataskaitos (ER) ir Mokėjimo būdai. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA redito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
+SEPA kredito pervedimo mokėjimo formatas Europos šalyse diegiamas naudojant „Microsoft Dynamics 365 for Finance and Operations“ elektroninių ataskaitų ir Mokėjimo būdų funkcijas. Keletas kredito pervedimo formatų, naudojamų kituose regionuose, vis dar naudoja mokėjimo formatų sistemą. Be daugelio kitų formatų, yra dvylika ISO 20022 kredito pervedimo failų formatai, kurie yra pasiekiami. Šie eksportavimo formatai atitinka SEPA ISO 20022 XML standartą. Jie naudojami generuoti mokėjimo pervedimus ne eurais tose šalyse / regionuose, kuriose jie naudojami, ir mokėjimus eurais, kaip nurodyta SEPA redito pervedimo schemos taisyklių sąvado 8.2 versijoje. Prieš naudodami kredito pervedimus, turite susisiekite su savo banku ir gauti programinę įrangą, kurios reikia norint įkelti elektroninės bankininkystės failus. Tą programinę įrangą naudosite XML failams, kuriuose bus mokėjimo užsakymai, perduoti bankui.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Kokie kredito pervedimo formatai šiuo metu palaikomi sprendime „Finance and Operations“?
-Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics“ skirtą „Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
+Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle services“ (LCS) ir peržiūrėti naujausią prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą norint peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Ką turiu nustatyti?
 -   Prieš kuriant kredito pervedimo failus, į jūsų Bendrųjų elektroninių ataskaitų konfigūracijas reikia importuoti bent vieną aktyvią ER kredito pervedimų konfigūraciją. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
@@ -124,7 +123,6 @@ Tarptautinis banko sąskaitos numeris (IBAN) ir banko identifikavimo kodas (BIC)
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kaip mokėjimo failą perduoti bankui?
 Kai generuojate mokėjimus, sugeneruojamas mokėjimo failas ir jūs raginami jį iš interneto naršyklės įrašyti į bet kurią galimą vietą. Kitas veiksmas yra XML failą nusiųsti bankui. Šis procesas įvairiuose bankuose skiriasi. Norėdami failus pateikti bankui apdoroti, vykdykite iš savo banko gautus nurodymus.
-
 
 
 

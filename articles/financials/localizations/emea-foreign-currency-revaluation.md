@@ -1,13 +1,13 @@
 ---
-title: "Užsienio valiutos kurso pasikeitimas banko sąskaitoms"
-description: "Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimą banko sąskaitoms."
+title: Užsienio valiutos kurso pasikeitimas banko sąskaitoms
+description: Šioje temoje pateikiama informacija apie užsienio valiutos kurso pasikeitimą banko sąskaitoms.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ab3218debfd3ad10b781ff3e7b4722f5d625f092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e04c046aac0825a6a9d2b2b439bc2261ed61f16
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371226"
 ---
-
 # <a name="currency-revaluation-for-bank-account-transactions"></a>Valiutos kurso pasikeitimas su banko sąskaita susijusioms operacijoms
 
 [!include [banner](../includes/banner.md)]
@@ -73,4 +72,3 @@ Jus turi iš naujo įvertinti ir koreguoti banko sąskaitas, jei yra valiutos ku
 
 > [!NOTE]
 > Didžiojoje knygoje galite peržiūrėti dvi atskiras operacijas: apskaitos valiuta ir ataskaitų valiuta.
-

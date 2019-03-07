@@ -1,35 +1,34 @@
 ---
-title: "„Dynamics 365 for Retail“ palaikymo gavimas"
-description: "Šiame straipsnyje paaiškinama, kaip gauti pagalbos naudojantis „Microsoft Dynamics 365 for Retail“."
+title: „Dynamics 365 for Retail“ palaikymo gavimas
+description: Šiame straipsnyje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364056"
 ---
-
 # <a name="get-support-for-dynamics-365-for-retail"></a>„Dynamics 365 for Retail“ palaikymo gavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip gauti pagalbos naudojantis „Dynamics 365 for Retail“.
+Šiame straipsnyje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Dynamics 365 for Retail“.
 
 ## <a name="contact-support"></a>Kreiptis į pagalbos tarnybą
 
@@ -85,5 +84,4 @@ Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „Custome
 </tbody>
 </table>
 
-Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://dynamics.microsoft.com/en-us/support/).

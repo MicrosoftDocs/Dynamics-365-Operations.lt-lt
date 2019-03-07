@@ -1,28 +1,28 @@
 ---
-title: "Visuotinio vietinės versijos diegimo pagrindinis puslapis"
-description: "Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą."
+title: Visuotinio vietinės versijos diegimo pagrindinis puslapis
+description: Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373282"
 ---
 # <a name="on-premises-deployments-home-page"></a>Visuotinio vietinės versijos diegimo pagrindinis puslapis
 
@@ -62,13 +62,13 @@ Galite diegti „Microsoft Dynamics 365 for Finance and Operations“ (vietinė 
 - [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../retail/retail-modern-pos-device-activation.md)
 - [„Retail Store Scale Unit“ konfigūravimas ir diegimas](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Atnaujinti
+- [Vietinio naujovinimo procesas, skirtas vietinėms aplinkoms](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Kiti ištekliai
-- [Vietinių visuotinių įdiegčių trikčių diagnostika](troubleshoot-on-prem.md)
+- [Vietinių visuotinių diegimų trikčių diagnostika](troubleshoot-on-prem.md)
 - [Vietinė diagnostika](on-premises-diagnostics.md)
 - [Funkcijos, kurios dar neįdiegtos vietinėse visuotinėse įdiegtyse](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Pašalintos arba nebenaudojamos funkcijos](../migration-upgrade/deprecated-features.md)
 - [Programinės įrangos ciklo strategija ir vietinės versijos leidimai](../migration-upgrade/on-prem-version-update-policy.md)
  
-

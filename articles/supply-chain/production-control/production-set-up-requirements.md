@@ -1,13 +1,13 @@
 ---
 title: Gamybos nustatymo reikalavimai
-description: "Šiame straipsnyje pateikiama informacija apie nustatymo reikalavimus prieš dirbant su Gamybos kontrole."
+description: Šiame straipsnyje pateikiama informacija apie nustatymo reikalavimus prieš dirbant su Gamybos kontrole.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366632"
 ---
-
 # <a name="production-setup-requirements"></a>Gamybos nustatymo reikalavimai
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Jei naudojate maršrutus, operacijos turi būti apibrėžtos kiekvienam nustatyt
 1.  **Gamybos grupės** – nustatyti gamybos grupes, siekiant nustatyti gamybos užsakymo ir DK sąskaitų ryšius. DK sąskaitos naudojamos registruoti arba grupuoti ataskaitų užsakymams.
 2.  **Gamybos telkiniai** – sukurti gamybos telkinius, siekiant sugrupuoti gamybos užsakymus, kad būtų galima apdoroti skubius gamybos užsakymus arba panaikinti ir registruoti užsakymų grupes.
 3.  **Ypatybės** – apibrėžti ypatybes, siekiant sukurti specialius atributus, kuriuos būtų galima priskirti savo ištekliams ir taip kontroliuoti gamybos tvarką. Šie atributai yra sujungti su darbo laiko šablonu.
-
 
 
 

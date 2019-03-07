@@ -1,13 +1,13 @@
 ---
-title: "Avanso turėtojai"
-description: "Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“."
+title: Avanso turėtojai
+description: Sužinokite apie avanso turėtojo funkciją programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: LizaGolub
 manager: AnnBe
 ms.date: 08/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371176"
 ---
-
 # <a name="advance-holders"></a>Avanso turėtojai
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,7 @@ Norėdami peržiūrėti ir spausdinti ataskaitą, pagrįstą avanso turėtojų o
 
 ## <a name="advance-holder-transactions"></a>Išankstinio savininko operacijos
 
-Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Finance and Operations“
+Sužinokite, kaip tvarkyti avanso turėtojo operacijas programoje „Microsoft Dynamics 365 for Finance and Operations“.
 
 Šių darbuotojų, kurie yra avanso turėtojai, operacijas galima registruoti naudojant avanso turėtojo sąskaitas. Darbuotojo ID, kuris priskirtas kiekvienam išankstiniams savininkui, galima naudoti norint sekti visas avanso turėtojo operacijas. Šis numeris nuskaitomas kaip avanso turėtojo operacijų sąskaitos numeris puslapiuose **Bendrieji žurnalai** ir **Avanso turėtojo operacijos**.
 
@@ -160,7 +159,6 @@ Apdorojus važtaraščių žurnalą, jei suma, esanti lauke **Suma, skirta perke
 
 - [Avanso mokėjimas darbuotojui (Rytų Europa)](tasks/advance-payment-employee.md)
 - [Rusijos avanso turėtojai](rus-advance-holders.md)
-
 
 
 

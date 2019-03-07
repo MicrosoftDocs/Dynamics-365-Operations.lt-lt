@@ -1,13 +1,13 @@
---- 
-title: "ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti elektroninių ataskaitų (ER) formato konfigūraciją."
+---
+title: 'ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)'
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti elektroninių ataskaitų (ER) formato konfigūraciją.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377554"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER: formato konfigūracijos kūrimas (2016 m. lapkričio mėn.)
 
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. Spustelėkite **Ataskaitų konfigūracijos**.
 3. Medyje pasirinkite **„Mokėjimai (supaprastintas modelis)“**.
 4. Spustelėdami **Kurti konfigūraciją**, atidarykite išplečiamąjį dialogo langą.
+
  > [!NOTE]
  > Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**. 
+ 
 5. Lauke **Naujas** įveskite **Formatas pagal duomenų modelį PaymentModel**.
 6. Lauke **Pavadinimas**, įveskite **BACS (JK fiktyvus)**.
 7. Lauke **Aprašas** įveskite **BACS mokėjimo tiekėjui formatas (JK fiktyvus)**.
@@ -44,9 +46,6 @@ ms.lasthandoff: 12/18/2018
     * Galima apibrėžti konkretų elektroninio dokumento formatą. Palikite šį lauką tuščią, jei norite pasirinkti formatą vykdymo metu.  
 8. Lauke **Duomenų modelio aprašas** įveskite arba pasirinkite reikšmę.
 9. Spustelėkite **Sukurti konfigūraciją**. Sukurta nauja konfigūracija. Juodraščio versijoje galima laikyti elektroninių dokumentų valdymui skirtą dizaino formatą.  
- > [!NOTE]
- > Jei nematote **Kurti konfigūraciją**, turite įgalinti dizaino režimą puslapyje **Elektroninės ataskaitos parametrai**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Kurti elektroninio dokumento formatą
 1. Spustelėkite **Konstruktorius**.
@@ -159,5 +158,4 @@ ms.lasthandoff: 12/18/2018
 41. Spustelėkite **Gerai**.
 42. Spustelėkite **Įrašyti**.
 43. Uždarykite puslapį.
-
 

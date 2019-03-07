@@ -1,13 +1,13 @@
 ---
-title: "PVM išrašo informacija, skirta Lietuvai"
-description: "Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą."
+title: PVM išrašo informacija, skirta Lietuvai
+description: Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: cf1b60a255a0de6fe56e233e1d5741fe8b0752c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b05ae2f18d5930ba7be344d6feaa52eca4e58bf6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371240"
 ---
-
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Norėdami peržiūrėti arba keisti PVM išrašo konfigūraciją, puslapyje **At
 
 ## <a name="generate-a-vat-statement"></a>PVM išrašo generavimas
 Norėdami generuoti PVM XML failą, puslapyje **PVM mokėjimai** pasirinkite vieną ar daugiau kvitų, o tada spustelėkite **Eksportuoti PVM XML failą**.
-
 
 
 

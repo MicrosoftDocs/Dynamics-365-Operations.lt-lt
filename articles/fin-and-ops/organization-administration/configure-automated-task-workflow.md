@@ -1,13 +1,13 @@
 ---
-title: "Automatizuotų darbo eigos užduočių konfigūravimas"
-description: "Šioje temoje paaiškinama, kaip konfigūruoti automatizuotos užduoties ypatybes."
+title: Automatizuotų darbo eigos užduočių konfigūravimas
+description: Šioje temoje paaiškinama, kaip konfigūruoti automatizuotos užduoties ypatybes.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365114"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Automatizuotų darbo eigos užduočių konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Galite siųsti pranešimus žmonėms, kai automatizuota užduotis buvo vykdoma a
     </tr>
     <tr>
     <td>Vartotojas</td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations“ vartotojai</td>
     <td>
     <ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
@@ -112,4 +111,3 @@ Galite siųsti pranešimus žmonėms, kai automatizuota užduotis buvo vykdoma a
     </table>
 
 8. Pakartokite veiksmus 3–7 kiekvienam įvykiui, kurį pasirinkote 2 veiksme.
-
